@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +290,9 @@
 =======
 # * sale_mrp
 >>>>>>> upstream/18.0
+=======
+# * sale_mrp
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -386,6 +390,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -566,6 +571,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -580,6 +588,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -873,6 +882,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-29 12:15+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -880,6 +891,9 @@ msgstr ""
 "sk/>\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -889,6 +903,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1180,6 +1195,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_portal_content_inherit_sale_mrp
@@ -1187,7 +1207,11 @@ msgid "<i class=\"fa fa-fw fa-check\"/> <b>Manufactured</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/> <b>Vyrábané</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/> <b>Vyrábané</b>"
 >>>>>>> upstream/18.0
@@ -1204,7 +1228,11 @@ msgid "<i class=\"fa fa-fw fa-clock-o\"/> <b>Confirmed</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Potvrdená</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Potvrdená</b>"
 >>>>>>> upstream/18.0
@@ -1221,7 +1249,11 @@ msgid "<i class=\"fa fa-fw fa-clock-o\"/> <b>In progress</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Prebieha</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>Prebieha</b>"
 >>>>>>> upstream/18.0
@@ -1238,7 +1270,11 @@ msgid "<i class=\"fa fa-fw fa-times\"/> <b>Cancelled</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-times\"/> <b>Zrušená</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-times\"/> <b>Zrušená</b>"
 >>>>>>> upstream/18.0
@@ -1260,7 +1296,11 @@ msgid "<span class=\"o_stat_text\">Sale</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Predaj</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Predaj</span>"
 >>>>>>> upstream/18.0
@@ -1277,7 +1317,11 @@ msgid "<strong>Manufacturing Orders</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Výrobné objednávky</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Výrobné objednávky</strong>"
 >>>>>>> upstream/18.0
@@ -1292,6 +1336,7 @@ msgstr "<strong>Výrobné objednávky</strong>"
 #. odoo-python
 #: code:addons/sale_mrp/models/mrp_bom.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1758,6 +1803,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "As long as there are some sale order lines that must be delivered/invoiced "
 "and are related to these bills of materials, you can not remove them.\n"
 "The error concerns these products: %s"
@@ -1768,6 +1815,9 @@ msgstr ""
 "Chyba sa týka týchto produktov: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1785,7 +1835,11 @@ msgid "Count of MO generated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet vytvorených VO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet vytvorených VO"
 >>>>>>> upstream/18.0
@@ -1802,7 +1856,11 @@ msgid "Count of Source SO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet zdrojových PO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet zdrojových PO"
 >>>>>>> upstream/18.0
@@ -1835,7 +1893,11 @@ msgid "Manufacturing Orders Generated by %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výrobné objednávky generované z %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Výrobné objednávky generované z %s"
 >>>>>>> upstream/18.0
@@ -1852,7 +1914,11 @@ msgid "Manufacturing orders associated with this sales order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výrobné objednávky súvisiace s touto predajnou objednávkou."
+>>>>>>> upstream/18.0
 =======
 msgstr "Výrobné objednávky súvisiace s touto predajnou objednávkou."
 >>>>>>> upstream/18.0
@@ -1869,7 +1935,11 @@ msgid "Origin sale order line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdrojový riadok predajnej objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdrojový riadok predajnej objednávky"
 >>>>>>> upstream/18.0
@@ -1902,7 +1972,11 @@ msgid "Sources Sale Orders of %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdrojové predajné objednávky pre %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdrojové predajné objednávky pre %s"
 >>>>>>> upstream/18.0

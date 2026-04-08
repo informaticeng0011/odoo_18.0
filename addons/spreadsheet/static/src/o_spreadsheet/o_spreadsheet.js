@@ -298,6 +298,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @version 18.0.22
  * @date 2025-04-04T08:57:27.182Z
  * @hash 89a327918
@@ -1781,6 +1782,11 @@
  * @date 2026-03-27T06:25:57.011Z
  * @hash 046ebe02e
 >>>>>>> upstream/18.0
+=======
+ * @version 18.0.62
+ * @date 2026-04-07T07:40:23.179Z
+ * @hash 14b42d1c6b
+>>>>>>> upstream/18.0
  */
 
 import { useEnv, useSubEnv, onWillUnmount, useComponent, status, Component, useRef, onMounted, useEffect, useState, onPatched, onWillPatch, onWillUpdateProps, useExternalListener, onWillStart, xml, useChildSubEnv, markRaw, toRaw } from '@odoo/owl';
@@ -1884,7 +1890,12 @@ function createAction(item) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     .map(createAction);
+=======
+                    .map(createAction)
+                    .sort((a, b) => a.sequence - b.sequence);
+>>>>>>> upstream/18.0
 =======
                     .map(createAction)
                     .sort((a, b) => a.sequence - b.sequence);
@@ -2532,6 +2543,10 @@ const DEFAULT_STYLE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const DEFAULT_NUMBER_STYLE = { ...DEFAULT_STYLE, align: "right" };
+>>>>>>> upstream/18.0
 =======
 const DEFAULT_NUMBER_STYLE = { ...DEFAULT_STYLE, align: "right" };
 >>>>>>> upstream/18.0
@@ -3488,6 +3503,10 @@ const newLineRegexp = /(\r\n|\r)/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const whiteSpaceCharacters = specialWhiteSpaceSpecialCharacters.concat([" "]);
+>>>>>>> upstream/18.0
 =======
 const whiteSpaceCharacters = specialWhiteSpaceSpecialCharacters.concat([" "]);
 >>>>>>> upstream/18.0
@@ -4357,9 +4376,12 @@ function memoize(func) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function removeIndexesFromArray(array, indexes) {
     return array.filter((_, index) => !indexes.includes(index));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4970,6 +4992,7 @@ function removeIndexesFromArray(array, indexes) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5010,6 +5033,11 @@ function insertItemsAtIndex(array, items, index) {
     const newArray = [...array];
     newArray.splice(index, 0, ...items);
     return newArray;
+=======
+}
+function insertItemsAtIndex(array, items, index) {
+    return array.slice(0, index).concat(items).concat(array.slice(index));
+>>>>>>> upstream/18.0
 =======
 }
 function insertItemsAtIndex(array, items, index) {
@@ -6775,8 +6803,12 @@ function lettersToNumber(letters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const charCode = letters.charCodeAt(i);
         const colIndex = charCode >= 65 && charCode <= 90 ? charCode - 64 : charCode - 96;
+=======
+        const colIndex = charToNumber(letters[i]);
+>>>>>>> upstream/18.0
 =======
         const colIndex = charToNumber(letters[i]);
 >>>>>>> upstream/18.0
@@ -7833,7 +7865,10 @@ function lettersToNumber(letters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8624,6 +8659,9 @@ function charToNumber(char) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9418,7 +9456,10 @@ function isCharADigit(char) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10237,6 +10278,9 @@ function consumeDigits(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10772,6 +10816,7 @@ function consumeDigits(chars) {
  * Note: it also accepts lowercase coordinates, but not fixed references
  */
 function toCartesian(xc) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11587,6 +11632,8 @@ function toCartesian(xc) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const chars = new TokenizingChars(xc);
     consumeSpaces(chars);
     const letterPart = consumeLetters(chars);
@@ -11860,6 +11907,9 @@ function toCartesian(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13059,6 +13109,7 @@ class LazyTranslatedString extends String {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** Reference of a cell (eg. A1, $B$5) */
 const cellReference = new RegExp(/\$?([A-Z]{1,3})\$?([0-9]{1,7})/, "i");
 // Same as above, but matches the exact string (nothing before or after)
@@ -13120,6 +13171,8 @@ function getFullReference(sheetName, xc) {
     return sheetName !== undefined ? `${getCanonicalSymbolName(sheetName)}!${xc}` : xc;
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13926,6 +13979,7 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (xc.includes("!")) {
         xc = xc.split("!").at(-1);
     }
@@ -13943,6 +13997,8 @@ function toZoneWithoutBoundaryChanges(xc) {
         firstRangePart = xc.trim();
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14737,6 +14793,9 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15266,6 +15325,7 @@ function toZoneWithoutBoundaryChanges(xc) {
     let fullCol = false;
     let fullRow = false;
     let hasHeader = false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16061,6 +16121,8 @@ function toZoneWithoutBoundaryChanges(xc) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if (leftNumbers === -1) {
         left = right = leftLetters - 1;
         top = bottom = 0;
@@ -16330,6 +16392,9 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17122,6 +17187,7 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const c = toCartesian(firstRangePart);
         left = right = c.col;
         top = bottom = c.row;
@@ -17141,6 +17207,8 @@ function toZoneWithoutBoundaryChanges(xc) {
             right = c.col;
             bottom = c.row;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17948,6 +18016,9 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18741,9 +18812,12 @@ function toZoneWithoutBoundaryChanges(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (fullCol && fullRow) {
         throw new Error("Wrong zone xc. The zone cannot be at the same time a full column and a full row");
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19561,8 +19635,11 @@ function toUnboundedZone(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return reorderZone(zone);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20359,6 +20436,9 @@ function toUnboundedZone(xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21720,8 +21800,14 @@ const ymdDateRegexp = /^\d{3,4}(\/|-|\s)\d{1,2}(\/|-|\s)\d{1,2}$/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dateSeparatorsRegex = /\/|-|\s/;
 const dateRegexp = /^(\d{1,4})[\/-\s](\d{1,4})([\/-\s](\d{1,4}))?$/;
+=======
+const whiteSpaceChars = whiteSpaceCharacters.join("");
+const dateSeparatorsRegex = new RegExp(`\/|-|${whiteSpaceCharacters.join("|")}`);
+const dateRegexp = new RegExp(`^(\\d{1,4})[\/${whiteSpaceChars}\-](\\d{1,4})([\/${whiteSpaceChars}\-](\\d{1,4}))?$`);
+>>>>>>> upstream/18.0
 =======
 const whiteSpaceChars = whiteSpaceCharacters.join("");
 const dateSeparatorsRegex = new RegExp(`\/|-|${whiteSpaceCharacters.join("|")}`);
@@ -23524,7 +23610,11 @@ const getFormulaNumberRegex = memoize(function getFormulaNumberRegex(decimalSepa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new RegExp(`(?:^-?\\d+(?:${decimalSeparator}?\\d*(?:e\\d+)?)?|^-?${decimalSeparator}\\d+)(?!\\w|!)`);
+=======
+    return new RegExp(`(?:^-?\\d+(?:${decimalSeparator}?\\d*(?:e(\\+|-)?\\d+)?)?|^-?${decimalSeparator}\\d+)(?!\\w|!)`);
+>>>>>>> upstream/18.0
 =======
     return new RegExp(`(?:^-?\\d+(?:${decimalSeparator}?\\d*(?:e(\\+|-)?\\d+)?)?|^-?${decimalSeparator}\\d+)(?!\\w|!)`);
 >>>>>>> upstream/18.0
@@ -24580,7 +24670,10 @@ const invalidateEvaluationCommands = new Set([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "DUPLICATE_SHEET",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25078,6 +25171,10 @@ const invalidateBordersCommands = new Set([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "SET_BORDERS_ON_TARGET",
+>>>>>>> upstream/18.0
 =======
     "SET_BORDERS_ON_TARGET",
 >>>>>>> upstream/18.0
@@ -26055,6 +26152,10 @@ const coreTypes = new Set([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "SET_BORDERS_ON_TARGET",
+>>>>>>> upstream/18.0
 =======
     "SET_BORDERS_ON_TARGET",
 >>>>>>> upstream/18.0
@@ -27227,6 +27328,10 @@ var CommandResult;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CommandResult["CannotMoveTableHeader"] = "CannotMoveTableHeader";
+>>>>>>> upstream/18.0
 =======
     CommandResult["CannotMoveTableHeader"] = "CannotMoveTableHeader";
 >>>>>>> upstream/18.0
@@ -28251,6 +28356,10 @@ var CommandResult;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    CommandResult["InvalidPivotDataSet"] = "InvalidPivotDataSet";
+>>>>>>> upstream/18.0
 =======
     CommandResult["InvalidPivotDataSet"] = "InvalidPivotDataSet";
 >>>>>>> upstream/18.0
@@ -29454,12 +29563,15 @@ const errorTypes = new Set(Object.values(CellErrorType));
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class EvaluationError extends Error {
     value;
     constructor(message = _t("Error"), value = CellErrorType.GenericError) {
         super(message);
         this.value = value;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30328,6 +30440,9 @@ class EvaluationError {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31169,8 +31284,11 @@ function toNumberMatrix(data, argName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new EvaluationError(_t("Function [[FUNCTION_NAME]] expects number values for %s, but got a %s.", argName, typeof cell.value));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31698,6 +31816,9 @@ function toNumberMatrix(data, argName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32547,7 +32668,10 @@ function transposeMatrix(matrix) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33423,6 +33547,9 @@ function applyVectorization(formula, args, acceptToVectorize = undefined) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34963,7 +35090,11 @@ function tokensToTextInternalFormat(tokens) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * preceded by a data token "h", then it's not a month but an minute.
+=======
+ * preceded by a data token "h", then it's not a month but a minute.
+>>>>>>> upstream/18.0
 =======
  * preceded by a data token "h", then it's not a month but a minute.
 >>>>>>> upstream/18.0
@@ -35734,6 +35865,12 @@ function internalFormatPartToFormat(internalFormat) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            case "DATE_PART":
+                format += token.value === "MM" ? "mm" : token.value; // Convert "MM" back to "mm" for minutes
+                break;
+>>>>>>> upstream/18.0
 =======
             case "DATE_PART":
                 format += token.value === "MM" ? "mm" : token.value; // Convert "MM" back to "mm" for minutes
@@ -37005,6 +37142,12 @@ const isDateTimeFormat = memoize(function isDateTimeFormat(format) {
 });
 function applyDateTimeFormat(value, internalFormat) {
     const jsDate = numberToJsDate(value);
+<<<<<<< HEAD
+=======
+    if (isNaN(jsDate.getTime())) {
+        return value.toString();
+    }
+>>>>>>> upstream/18.0
     const isMeridian = internalFormat.tokens.some((token) => token.type === "DATE_PART" && token.value === "a");
     let currentValue = "";
     for (const token of internalFormat.tokens) {
@@ -37051,7 +37194,12 @@ function formatJSDatePart(jsDate, tokenValue, isMeridian) {
             const fullYear = String(jsDate.getFullYear()).replace("-", "").padStart(2, "0");
             return fullYear.slice(fullYear.length - 2);
         case "yyyy":
+<<<<<<< HEAD
             return jsDate.getFullYear();
+=======
+            const year = String(jsDate.getFullYear()).replace("-", "");
+            return year.padStart(4, "0");
+>>>>>>> upstream/18.0
         case "hhhh":
             const elapsedHours = Math.floor((jsDate.getTime() - INITIAL_1900_DAY.getTime()) / (60 * 60 * 1000));
             return elapsedHours.toString();
@@ -37594,7 +37742,13 @@ function evaluateLiteral(literalCell, localeFormat) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const value = isTextFormat(localeFormat.format) ? literalCell.content : literalCell.parsedValue;
+=======
+    const value = isTextFormat(localeFormat.format) && literalCell.parsedValue !== null
+        ? literalCell.content
+        : literalCell.parsedValue;
+>>>>>>> upstream/18.0
 =======
     const value = isTextFormat(localeFormat.format) && literalCell.parsedValue !== null
         ? literalCell.content
@@ -39083,6 +39237,12 @@ function _createEvaluatedCell(functionResult, locale, cell) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (value === null) {
+        return emptyCell(format);
+    }
+>>>>>>> upstream/18.0
 =======
     if (value === null) {
         return emptyCell(format);
@@ -40530,9 +40690,12 @@ function _createEvaluatedCell(functionResult, locale, cell) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (value === null) {
         return emptyCell(format);
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41188,6 +41351,7 @@ function toCriterionDateNumber(dateValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return jsDateToNumber(today);
         case "yesterday":
             return jsDateToNumber(DateTime.fromTimestamp(today.setDate(today.getDate() - 1)));
@@ -41200,6 +41364,8 @@ function toCriterionDateNumber(dateValue) {
         case "lastYear":
             return jsDateToNumber(DateTime.fromTimestamp(today.setFullYear(today.getFullYear() - 1)));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41529,6 +41695,9 @@ function toCriterionDateNumber(dateValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42029,7 +42198,10 @@ function scrollDelay(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42877,6 +43049,9 @@ function getFullReference(sheetName, xc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43979,7 +44154,10 @@ function moveHeaderIndexesOnHeaderDeletion(deletedHeaders, headers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44809,8 +44987,11 @@ function getDuplicateSheetName(nameToDuplicate, existingNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45625,6 +45806,9 @@ function isSheetNameEqual(name1, name2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46247,12 +46431,15 @@ function computeTextLinesHeight(textLineHeight, numberOfLines = 1) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getDefaultCellHeight(ctx, cell, colSize) {
     if (!cell || (!cell.isFormula && !cell.content)) {
         return DEFAULT_CELL_HEIGHT;
     }
     const content = cell.isFormula ? "" : cell.content;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46492,6 +46679,9 @@ function getDefaultCellHeight(ctx, cell, locale, colSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46949,6 +47139,11 @@ function splitTextToWidth(ctx, text, style, width) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if (isMarkdownLink(text))
+        text = parseMarkdownLink(text).label;
+>>>>>>> upstream/18.0
 =======
     if (isMarkdownLink(text))
         text = parseMarkdownLink(text).label;
@@ -48289,6 +48484,7 @@ function parseOSClipboardContent(content) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const oSheetClipboardData = htmlDocument
         .querySelector("div")
         ?.getAttribute("data-osheet-clipboard");
@@ -48361,6 +48557,8 @@ function parseOSClipboardContent(content) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48998,6 +49196,9 @@ function getOSheetDataFromHTML(htmlDocument) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49698,6 +49899,9 @@ const selectPastedZone = (selection, sourceZones, pastedZones) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50371,7 +50575,11 @@ class ClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -51222,7 +51430,11 @@ class AbstractCellClipboardHandler extends ClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -52171,6 +52383,10 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queuedBordersToAdd = {};
+>>>>>>> upstream/18.0
 =======
     queuedBordersToAdd = {};
 >>>>>>> upstream/18.0
@@ -53385,6 +53601,10 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.executeQueuedChanges(sheetId);
+>>>>>>> upstream/18.0
 =======
         this.executeQueuedChanges(sheetId);
 >>>>>>> upstream/18.0
@@ -54587,8 +54807,11 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dispatch("SET_BORDER", { ...target, border });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55488,6 +55711,9 @@ class BorderClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56484,7 +56710,10 @@ function tokenizeString(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57370,6 +57599,9 @@ const unicodeSymbolCharRegexp = /\p{L}|\p{N}|_|\.|!|\$/u;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58291,7 +58523,12 @@ function tokenizeSymbol(chars) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     while (chars.current && SYMBOL_CHARS.has(chars.current)) {
+=======
+    while (chars.current &&
+        (SYMBOL_CHARS.has(chars.current) || chars.current.match(unicodeSymbolCharRegexp))) {
+>>>>>>> upstream/18.0
 =======
     while (chars.current &&
         (SYMBOL_CHARS.has(chars.current) || chars.current.match(unicodeSymbolCharRegexp))) {
@@ -60030,9 +60267,12 @@ function invertMatrix(M) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (M.length !== M[0].length) {
         throw new EvaluationError(_t("Function [[FUNCTION_NAME]] invert matrix error, only square matrices are invertible"));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60659,6 +60899,9 @@ function invertMatrix(M) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61350,9 +61593,12 @@ function multiplyMatrices(matrix1, matrix2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (matrix1.length !== matrix2[0].length) {
         throw new EvaluationError(_t("Cannot multiply matrices : incompatible matrices size."));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61979,6 +62225,9 @@ function multiplyMatrices(matrix1, matrix2) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62414,6 +62663,7 @@ function multiplyMatrices(matrix1, matrix2) {
 /**
  * Return the input if it's a scalar or the first element of the input if it's a matrix.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63192,6 +63442,8 @@ function toScalar(matrix) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function toScalar(arg) {
     if (!isMatrix(arg)) {
         return arg;
@@ -63405,7 +63657,11 @@ function toScalar(arg) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new EvaluationError(_t("The value should be a scalar or a 1x1 matrix"));
+=======
+        throw new Error("The value should be a scalar or a 1x1 matrix");
+>>>>>>> upstream/18.0
 =======
         throw new Error("The value should be a scalar or a 1x1 matrix");
 >>>>>>> upstream/18.0
@@ -64294,6 +64550,9 @@ function isMultipleElementMatrix(arg) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65228,7 +65487,10 @@ function predictLinearValues(Y, X, newX, computeIntercept) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65860,6 +66122,9 @@ function assertNonEmpty(...data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66885,7 +67150,10 @@ const monthNumberAdapter = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67714,6 +67982,9 @@ const monthAdapter = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68655,6 +68926,10 @@ pivotTimeAdapterRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("month", nullHandlerDecorator(monthAdapter))
+>>>>>>> upstream/18.0
 =======
     .add("month", nullHandlerDecorator(monthAdapter))
 >>>>>>> upstream/18.0
@@ -69754,6 +70029,9 @@ const AGGREGATOR_NAMES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70517,6 +70795,7 @@ const AGGREGATORS_BY_FIELD_TYPE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 const AGGREGATORS_BY_FIELD_TYPE = {
     integer: ["max", "min", "avg", "sum", "count_distinct", "count"],
@@ -70601,6 +70880,8 @@ const AGGREGATORS_BY_FIELD_TYPE = {
 const AGGREGATORS_BY_FIELD_TYPE = {
     integer: ["max", "min", "avg", "sum", "count_distinct", "count"],
     char: ["count_distinct", "count"],
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71459,7 +71740,10 @@ function toNormalizedPivotValue(dimension, groupValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72094,6 +72378,9 @@ function toNormalizedPivotValue(dimension, groupValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72806,10 +73093,14 @@ function normalizeDateTime(value, granularity) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!granularity) {
         throw new Error("Missing granularity");
     }
     return pivotTimeAdapter(granularity).normalizeFunctionValue(value);
+=======
+    return pivotTimeAdapter(granularity ?? "month").normalizeFunctionValue(value);
+>>>>>>> upstream/18.0
 =======
     return pivotTimeAdapter(granularity ?? "month").normalizeFunctionValue(value);
 >>>>>>> upstream/18.0
@@ -73905,10 +74196,14 @@ function toFunctionValueDateTime(value, granularity) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (!granularity) {
         throw new Error("Missing granularity");
     }
     return pivotTimeAdapter(granularity).toFunctionValue(value);
+=======
+    return pivotTimeAdapter(granularity ?? "month").toFunctionValue(value);
+>>>>>>> upstream/18.0
 =======
     return pivotTimeAdapter(granularity ?? "month").toFunctionValue(value);
 >>>>>>> upstream/18.0
@@ -74974,7 +75269,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -75819,7 +76118,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (pivotId && spreader) {
+=======
+                if (mode !== "shiftCells" && pivotId && spreader) {
+>>>>>>> upstream/18.0
 =======
                 if (mode !== "shiftCells" && pivotId && spreader) {
 >>>>>>> upstream/18.0
@@ -76669,7 +76972,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 else {
+=======
+                else if (mode !== "shiftCells") {
+>>>>>>> upstream/18.0
 =======
                 else if (mode !== "shiftCells") {
 >>>>>>> upstream/18.0
@@ -77600,7 +77907,11 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const originFormat = origin?.format ?? origin.evaluatedCell.format;
+=======
+        const originFormat = origin?.format || origin.evaluatedCell.format;
+>>>>>>> upstream/18.0
 =======
         const originFormat = origin?.format || origin.evaluatedCell.format;
 >>>>>>> upstream/18.0
@@ -78142,7 +78453,10 @@ class CellClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 format: originFormat,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78665,6 +78979,10 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -79854,7 +80172,11 @@ class ConditionalFormatClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     toRemoveZones.push(positionToZone(origin.position));
+=======
+                    toRemoveZones.push(originZone);
+>>>>>>> upstream/18.0
 =======
                     toRemoveZones.push(originZone);
 >>>>>>> upstream/18.0
@@ -81152,6 +81474,10 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const originZone = positionToZone(origin.position);
+>>>>>>> upstream/18.0
 =======
             const originZone = positionToZone(origin.position);
 >>>>>>> upstream/18.0
@@ -82347,7 +82673,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 toRemoveZone.push(positionToZone(origin.position));
+=======
+                toRemoveZone.push(originZone);
+>>>>>>> upstream/18.0
 =======
                 toRemoveZone.push(originZone);
 >>>>>>> upstream/18.0
@@ -83591,7 +83921,11 @@ class DataValidationClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     rule: dv,
+=======
+                    rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
+>>>>>>> upstream/18.0
 =======
                     rule: { id: dv.id, criterion: dv.criterion, isBlocking: dv.isBlocking },
 >>>>>>> upstream/18.0
@@ -84858,7 +85192,11 @@ class TableClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(data) {
+=======
+    copy(data, mode = "copyPaste") {
+>>>>>>> upstream/18.0
 =======
     copy(data, mode = "copyPaste") {
 >>>>>>> upstream/18.0
@@ -85724,12 +86062,15 @@ class TableClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 tableCellsInRow.push({
                     table: copiedTable,
                     style: this.getTableStyleToCopy(position),
                     isWholeTableCopied: copiedTablesIds.has(table.id),
                 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86358,6 +86699,9 @@ class TableClipboardHandler extends AbstractCellClipboardHandler {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87188,7 +87532,11 @@ function transformZone(zone, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return { ...zone };
+=======
+    return zone;
+>>>>>>> upstream/18.0
 =======
     return zone;
 >>>>>>> upstream/18.0
@@ -88571,8 +88919,11 @@ function proxifyStoreMutation(store, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         Reflect.apply(target, thisStore, argArray);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89384,6 +89735,9 @@ function proxifyStoreMutation(store, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90214,7 +90568,11 @@ class RendererStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mutators = ["register", "unRegister"];
+=======
+    mutators = ["register", "unRegister", "drawLayer"];
+>>>>>>> upstream/18.0
 =======
     mutators = ["register", "unRegister", "drawLayer"];
 >>>>>>> upstream/18.0
@@ -91314,6 +91672,7 @@ class RendererStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!renderers) {
             return;
         }
@@ -91323,6 +91682,8 @@ class RendererStore {
             context.ctx.restore();
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92138,6 +92499,9 @@ class RendererStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92999,7 +93363,11 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return;
+=======
+            return "noStateChange";
+>>>>>>> upstream/18.0
 =======
             return "noStateChange";
 >>>>>>> upstream/18.0
@@ -94085,11 +94453,14 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
     focusActiveComposer(args) {
         if (this.getters.isReadonly()) {
             return;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94902,6 +95273,9 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95719,6 +96093,10 @@ class ComposerFocusStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return;
+>>>>>>> upstream/18.0
 =======
         return;
 >>>>>>> upstream/18.0
@@ -97190,7 +97568,10 @@ const chartShowValuesPlugin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97711,6 +98092,9 @@ const chartShowValuesPlugin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98359,7 +98743,12 @@ function drawLineOrBarChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             drawTextWithBackground(options.callback(value - 0), xPosition, yPosition, ctx);
+=======
+            const valueToDisplay = options.callback(Number(value), dataset, i);
+            drawTextWithBackground(valueToDisplay, xPosition, yPosition, ctx);
+>>>>>>> upstream/18.0
 =======
             const valueToDisplay = options.callback(Number(value), dataset, i);
             drawTextWithBackground(valueToDisplay, xPosition, yPosition, ctx);
@@ -99603,7 +99992,11 @@ function drawHorizontalBarChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const displayValue = options.callback(value - 0);
+=======
+            const displayValue = options.callback(value, dataset, i);
+>>>>>>> upstream/18.0
 =======
             const displayValue = options.callback(value, dataset, i);
 >>>>>>> upstream/18.0
@@ -100616,6 +101009,7 @@ function drawPieChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const y = bar.y + midRadius * Math.sin(midAngle) + 7;
             ctx.fillStyle = chartFontColor(options.background);
             ctx.strokeStyle = options.background || "#ffffff";
@@ -100645,6 +101039,8 @@ function drawPieChartValues(chart, options, ctx) {
             const displayValue = options.callback(value, dataset, i);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101378,6 +101774,9 @@ function drawPieChartValues(chart, options, ctx) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102642,6 +103041,7 @@ iconsOnCellRegistry.add("conditional_formatting", (getters, position) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * Map of the different types of conversions warnings and their name in error messages
  */
@@ -103149,6 +103549,8 @@ function hexaToInt(hex) {
  */
 const DEFAULT_SYSTEM_COLOR = "FF000000";
 
+=======
+>>>>>>> upstream/18.0
 /**
  * Get the relative path between two files
  *
@@ -103208,6 +103610,7 @@ function getSheetDataHeader(sheetData, dimension, index) {
     }
     return sheetData.rows[index];
 }
+<<<<<<< HEAD
 
 const XLSX_DATE_FORMAT_REGEX = /^(yy|yyyy|m{1,5}|d{1,4}|h{1,2}|s{1,2}|am\/pm|a\/m|\s|-|\/|\.|:)+$/i;
 /**
@@ -182504,6 +182907,15 @@ function getFunctionsFromAST(ast, functionNames) {
         functionName: node.value.toUpperCase(),
         args: node.args,
     }));
+=======
+/** Prefix the string by "=" if the string looks like a formula */
+function prefixFormulaWithEqual(formula) {
+    if (formula[0] === "=") {
+        return formula;
+    }
+    const tokens = tokenize(formula);
+    return tokens.length === 1 && tokens[0].type !== "REFERENCE" ? formula : "=" + formula;
+>>>>>>> upstream/18.0
 }
 
 /**
@@ -183013,6 +183425,7 @@ function hexaToInt(hex) {
  */
 const DEFAULT_SYSTEM_COLOR = "FF000000";
 
+<<<<<<< HEAD
 /**
  * Get the relative path between two files
  *
@@ -183073,6 +183486,8 @@ function getSheetDataHeader(sheetData, dimension, index) {
     return sheetData.rows[index];
 }
 
+=======
+>>>>>>> upstream/18.0
 const XLSX_DATE_FORMAT_REGEX = /^(yy|yyyy|m{1,5}|d{1,4}|h{1,2}|s{1,2}|am\/pm|a\/m|\s|-|\/|\.|:)+$/i;
 /**
  * Convert excel format to o_spreadsheet format
@@ -183276,9 +183691,15 @@ function convertConditionalFormats(xlsxCfs, dxfs, warningManager) {
                 if (!rule.operator || !rule.formula || rule.formula.length === 0)
                     continue;
                 operator = convertCFCellIsOperator(rule.operator);
+<<<<<<< HEAD
                 values.push(prefixFormula(rule.formula[0]));
                 if (rule.formula.length === 2) {
                     values.push(prefixFormula(rule.formula[1]));
+=======
+                values.push(prefixFormulaWithEqual(rule.formula[0]));
+                if (rule.formula.length === 2) {
+                    values.push(prefixFormulaWithEqual(rule.formula[1]));
+>>>>>>> upstream/18.0
                 }
                 break;
         }
@@ -183421,11 +183842,14 @@ function convertIcons(xlsxIconSet, index) {
             ? ICON_SETS[iconSet].neutral
             : ICON_SETS[iconSet].good;
 }
+<<<<<<< HEAD
 /** Prefix the string by "=" if the string looks like a formula */
 function prefixFormula(formula) {
     const tokens = tokenize(formula);
     return tokens.length === 1 && tokens[0].type !== "REFERENCE" ? formula : "=" + formula;
 }
+=======
+>>>>>>> upstream/18.0
 // ---------------------------------------------------------------------------
 // Warnings
 // ---------------------------------------------------------------------------
@@ -183602,6 +184026,10 @@ function extractStyle(cell, data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            shrinkToFit: style.wrapping === "clip" ? true : undefined,
+>>>>>>> upstream/18.0
 =======
             shrinkToFit: style.wrapping === "clip" ? true : undefined,
 >>>>>>> upstream/18.0
@@ -183932,6 +184360,10 @@ function normalizeStyle(construct, styles) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            shrinkToFit: styles.alignment.shrinkToFit,
+>>>>>>> upstream/18.0
 =======
             shrinkToFit: styles.alignment.shrinkToFit,
 >>>>>>> upstream/18.0
@@ -184483,9 +184915,15 @@ function convertDataValidationRules(xlsxDataValidations, warningManager) {
     return dvRules;
 }
 function convertDecimalRule(id, dv) {
+<<<<<<< HEAD
     const values = [dv.formula1.toString()];
     if (dv.formula2) {
         values.push(dv.formula2.toString());
+=======
+    const values = [prefixFormulaWithEqual(dv.formula1.toString())];
+    if (dv.formula2) {
+        values.push(prefixFormulaWithEqual(dv.formula2.toString()));
+>>>>>>> upstream/18.0
     }
     return {
         id: id.toString(),
@@ -184542,7 +184980,11 @@ function convertCustomRule(id, dv) {
         isBlocking: dv.errorStyle !== "warning",
         criterion: {
             type: "customFormula",
+<<<<<<< HEAD
             values: [`=${dv.formula1.toString()}`],
+=======
+            values: [prefixFormulaWithEqual(dv.formula1.toString())],
+>>>>>>> upstream/18.0
         },
     };
 }
@@ -184659,7 +185101,11 @@ function convertFormula(formula, data) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const sheetIndex = data.externalBooks[externalRefId].sheetNames.findIndex((name) => isSheetNameEqual(name, sheetName));
+=======
+        const sheetIndex = data.externalBooks[externalRefId]?.sheetNames.findIndex((name) => isSheetNameEqual(name, sheetName)) ?? -1;
+>>>>>>> upstream/18.0
 =======
         const sheetIndex = data.externalBooks[externalRefId]?.sheetNames.findIndex((name) => isSheetNameEqual(name, sheetName)) ?? -1;
 >>>>>>> upstream/18.0
@@ -187321,6 +187767,149 @@ class XlsxReader {
     }
 }
 
+<<<<<<< HEAD
+=======
+var State;
+(function (State) {
+    /**
+     * Initial state.
+     * Expecting any reference for the left part of a range
+     * e.g. "A1", "1", "A", "Sheet1!A1", "Sheet1!A"
+     */
+    State[State["LeftRef"] = 0] = "LeftRef";
+    /**
+     * Expecting any reference for the right part of a range
+     * e.g. "A1", "1", "A", "Sheet1!A1", "Sheet1!A"
+     */
+    State[State["RightRef"] = 1] = "RightRef";
+    /**
+     * Expecting the separator without any constraint on the right part
+     */
+    State[State["Separator"] = 2] = "Separator";
+    /**
+     * Expecting the separator for a full column range
+     */
+    State[State["FullColumnSeparator"] = 3] = "FullColumnSeparator";
+    /**
+     * Expecting the separator for a full row range
+     */
+    State[State["FullRowSeparator"] = 4] = "FullRowSeparator";
+    /**
+     * Expecting the right part of a full column range
+     * e.g. "1", "A1"
+     */
+    State[State["RightColumnRef"] = 5] = "RightColumnRef";
+    /**
+     * Expecting the right part of a full row range
+     * e.g. "A", "A1"
+     */
+    State[State["RightRowRef"] = 6] = "RightRowRef";
+    /**
+     * Final state. A range has been matched
+     */
+    State[State["Found"] = 7] = "Found";
+})(State || (State = {}));
+const goTo = (state, guard = () => true) => [
+    {
+        goTo: state,
+        guard,
+    },
+];
+const goToMulti = (state, guard = () => true) => ({
+    goTo: state,
+    guard,
+});
+const machine = {
+    [State.LeftRef]: {
+        REFERENCE: goTo(State.Separator),
+        NUMBER: goTo(State.FullRowSeparator),
+        SYMBOL: [
+            goToMulti(State.FullColumnSeparator, (token) => isColReference(token.value)),
+            goToMulti(State.FullRowSeparator, (token) => isRowReference(token.value)),
+        ],
+    },
+    [State.FullColumnSeparator]: {
+        SPACE: goTo(State.FullColumnSeparator),
+        OPERATOR: goTo(State.RightColumnRef, (token) => token.value === ":"),
+    },
+    [State.FullRowSeparator]: {
+        SPACE: goTo(State.FullRowSeparator),
+        OPERATOR: goTo(State.RightRowRef, (token) => token.value === ":"),
+    },
+    [State.Separator]: {
+        SPACE: goTo(State.Separator),
+        OPERATOR: goTo(State.RightRef, (token) => token.value === ":"),
+    },
+    [State.RightRef]: {
+        SPACE: goTo(State.RightRef),
+        NUMBER: goTo(State.Found),
+        REFERENCE: goTo(State.Found, (token) => isSingleCellReference(token.value)),
+        SYMBOL: goTo(State.Found, (token) => isColHeader(token.value) || isRowHeader(token.value)),
+    },
+    [State.RightColumnRef]: {
+        SPACE: goTo(State.RightColumnRef),
+        SYMBOL: goTo(State.Found, (token) => isColHeader(token.value)),
+        REFERENCE: goTo(State.Found, (token) => isSingleCellReference(token.value)),
+    },
+    [State.RightRowRef]: {
+        SPACE: goTo(State.RightRowRef),
+        NUMBER: goTo(State.Found),
+        REFERENCE: goTo(State.Found, (token) => isSingleCellReference(token.value)),
+        SYMBOL: goTo(State.Found, (token) => isRowHeader(token.value)),
+    },
+    [State.Found]: {},
+};
+/**
+ * Check if the list of tokens starts with a sequence of tokens representing
+ * a range.
+ * If a range is found, the sequence is removed from the list and is returned
+ * as a single token.
+ */
+function matchReference(tokens) {
+    let head = 0;
+    let transitions = machine[State.LeftRef];
+    let matchedTokens = "";
+    while (transitions !== undefined) {
+        const token = tokens[head++];
+        if (!token) {
+            return null;
+        }
+        const transition = transitions[token.type]?.find((transition) => transition.guard(token));
+        const nextState = transition ? transition.goTo : undefined;
+        switch (nextState) {
+            case undefined:
+                return null;
+            case State.Found:
+                matchedTokens += token.value;
+                tokens.splice(0, head);
+                return {
+                    type: "REFERENCE",
+                    value: matchedTokens,
+                };
+            default:
+                transitions = machine[nextState];
+                matchedTokens += token.value;
+                break;
+        }
+    }
+    return null;
+}
+/**
+ * Take the result of the tokenizer and transform it to be usable in the
+ * manipulations of range
+ *
+ * @param formula
+ */
+function rangeTokenize(formula, locale = DEFAULT_LOCALE) {
+    const tokens = tokenize(formula, locale);
+    const result = [];
+    while (tokens.length) {
+        result.push(matchReference(tokens) || tokens.shift());
+    }
+    return result;
+}
+
+>>>>>>> upstream/18.0
 /**
  * parses a formula (as a string) into the same formula,
  * but with the references to other cells extracted
@@ -189070,7 +189659,11 @@ let ScorecardChart$1 = class ScorecardChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             keyValue: context.range ? context.range[0].dataRange : undefined,
+=======
+            keyValue: context.range?.[0]?.dataRange,
+>>>>>>> upstream/18.0
 =======
             keyValue: context.range?.[0]?.dataRange,
 >>>>>>> upstream/18.0
@@ -190627,6 +191220,7 @@ function getHtmlContentFromPattern(pattern, value, highlightColor, className) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191041,6 +191635,9355 @@ function getHtmlContentFromPattern(pattern, value, highlightColor, className) {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+//------------------------------------------------------------------------------
+// Arg description DSL
+//------------------------------------------------------------------------------
+const ARG_REGEXP = /(.*?)\((.*?)\)(.*)/;
+const ARG_TYPES = [
+    "ANY",
+    "BOOLEAN",
+    "DATE",
+    "NUMBER",
+    "STRING",
+    "RANGE",
+    "RANGE<BOOLEAN>",
+    "RANGE<DATE>",
+    "RANGE<NUMBER>",
+    "RANGE<STRING>",
+    "META",
+];
+function arg(definition, description = "") {
+    return makeArg(definition, description);
+}
+function makeArg(str, description) {
+    let parts = str.match(ARG_REGEXP);
+    let name = parts[1].trim();
+    if (!name) {
+        throw new Error(`Function argument definition is missing a name: '${str}'.`);
+    }
+    let types = [];
+    let isOptional = false;
+    let isRepeating = false;
+    let defaultValue;
+    for (let param of parts[2].split(",")) {
+        const key = param.trim().toUpperCase();
+        let type = ARG_TYPES.find((t) => key === t);
+        if (type) {
+            types.push(type);
+        }
+        else if (key === "RANGE<ANY>") {
+            types.push("RANGE");
+        }
+        else if (key === "OPTIONAL") {
+            isOptional = true;
+        }
+        else if (key === "REPEATING") {
+            isRepeating = true;
+        }
+        else if (key.startsWith("DEFAULT=")) {
+            defaultValue = param.trim().slice(8);
+        }
+    }
+    const result = {
+        name,
+        description,
+        type: types,
+    };
+    const acceptErrors = types.includes("ANY") || types.includes("RANGE");
+    if (acceptErrors) {
+        result.acceptErrors = true;
+    }
+    if (isOptional) {
+        result.optional = true;
+    }
+    if (isRepeating) {
+        result.repeating = true;
+    }
+    if (defaultValue !== undefined) {
+        result.default = true;
+        result.defaultValue = defaultValue;
+    }
+    if (types.some((t) => t.startsWith("RANGE"))) {
+        result.acceptMatrix = true;
+    }
+    if (types.every((t) => t.startsWith("RANGE"))) {
+        result.acceptMatrixOnly = true;
+    }
+    return result;
+}
+/**
+ * This function adds on description more general information derived from the
+ * arguments.
+ *
+ * This information is useful during compilation.
+ */
+function addMetaInfoFromArg(addDescr) {
+    let countArg = 0;
+    let minArg = 0;
+    let repeatingArg = 0;
+    for (let arg of addDescr.args) {
+        countArg++;
+        if (!arg.optional && !arg.repeating && !arg.default) {
+            minArg++;
+        }
+        if (arg.repeating) {
+            repeatingArg++;
+        }
+    }
+    const descr = addDescr;
+    descr.minArgRequired = minArg;
+    descr.maxArgPossible = repeatingArg ? Infinity : countArg;
+    descr.nbrArgRepeating = repeatingArg;
+    descr.getArgToFocus = argTargeting(countArg, repeatingArg);
+    descr.hidden = addDescr.hidden || false;
+    return descr;
+}
+/**
+ * Returns a function allowing finding which argument corresponds a position
+ * in a function. This is particularly useful for functions with repeatable
+ * arguments.
+ *
+ * Indeed the function makes it possible to etablish corespondance between
+ * arguments when the number of arguments supplied is greater than the number of
+ * arguments defined by the function.
+ *
+ * Ex:
+ *
+ * in the formula "=SUM(11, 55, 66)" which is defined like this "SUM(value1, [value2, ...])"
+ * - 11 corresponds to the value1 argument => position will be 1
+ * - 55 corresponds to the [value2, ...] argument => position will be 2
+ * - 66 corresponds to the [value2, ...] argument => position will be 2
+ *
+ * in the formula "=AVERAGE.WEIGHTED(1, 2, 3, 4, 5, 6)" which is defined like this
+ * "AVERAGE.WEIGHTED(values, weights, [additional_values, ...], [additional_weights, ...])"
+ * - 1 corresponds to the values argument => position will be 1
+ * - 2 corresponds to the weights argument => position will be 2
+ * - 3 corresponds to the [additional_values, ...] argument => position will be 3
+ * - 4 corresponds to the [additional_weights, ...] argument => position will be 4
+ * - 5 corresponds to the [additional_values, ...] argument => position will be 3
+ * - 6 corresponds to the [additional_weights, ...] argument => position will be 4
+ */
+function argTargeting(countArg, repeatingArg) {
+    if (!repeatingArg) {
+        return (argPosition) => argPosition;
+    }
+    if (repeatingArg === 1) {
+        return (argPosition) => Math.min(argPosition, countArg);
+    }
+    const argBeforeRepeat = countArg - repeatingArg;
+    return (argPosition) => {
+        if (argPosition <= argBeforeRepeat) {
+            return argPosition;
+        }
+        const argAfterRepeat = (argPosition - argBeforeRepeat) % repeatingArg || repeatingArg;
+        return argBeforeRepeat + argAfterRepeat;
+    };
+}
+//------------------------------------------------------------------------------
+// Argument validation
+//------------------------------------------------------------------------------
+function validateArguments(args) {
+    let previousArgRepeating = false;
+    let previousArgOptional = false;
+    let previousArgDefault = false;
+    for (let current of args) {
+        if (current.type.includes("META") && current.type.length > 1) {
+            throw new Error(_t("Function ${name} has an argument that has been declared with more than one type whose type 'META'. The 'META' type can only be declared alone."));
+        }
+        if (previousArgRepeating && !current.repeating) {
+            throw new Error(_t("Function ${name} has no-repeatable arguments declared after repeatable ones. All repeatable arguments must be declared last."));
+        }
+        const previousIsOptional = previousArgOptional || previousArgRepeating || previousArgDefault;
+        const currentIsntOptional = !(current.optional || current.repeating || current.default);
+        if (previousIsOptional && currentIsntOptional) {
+            throw new Error(_t("Function ${name} has at mandatory arguments declared after optional ones. All optional arguments must be after all mandatory arguments."));
+        }
+        previousArgRepeating = current.repeating;
+        previousArgOptional = current.optional;
+        previousArgDefault = current.default;
+    }
+}
+
+function assertSingleColOrRow(errorStr, arg) {
+    assert(() => arg.length === 1 || arg[0].length === 1, errorStr);
+}
+function assertSameDimensions(errorStr, ...args) {
+    if (args.every(isMatrix)) {
+        const cols = args[0].length;
+        const rows = args[0][0].length;
+        for (const arg of args) {
+            assert(() => arg.length === cols && arg[0].length === rows, errorStr);
+        }
+        return;
+    }
+    if (args.some((arg) => Array.isArray(arg) && (arg.length !== 1 || arg[0].length !== 1))) {
+        throw new EvaluationError(errorStr);
+    }
+}
+function assertPositive(errorStr, arg) {
+    assert(() => arg > 0, errorStr);
+}
+function assertSquareMatrix(errorStr, arg) {
+    assert(() => arg.length === arg[0].length, errorStr);
+}
+
+// -----------------------------------------------------------------------------
+// ARRAY_CONSTRAIN
+// -----------------------------------------------------------------------------
+const ARRAY_CONSTRAIN = {
+    description: _t("Returns a result array constrained to a specific width and height."),
+    args: [
+        arg("input_range (any, range<any>)", _t("The range to constrain.")),
+        arg("rows (number)", _t("The number of rows in the constrained array.")),
+        arg("columns (number)", _t("The number of columns in the constrained array.")),
+    ],
+    compute: function (array, rows, columns) {
+        const _array = toMatrix(array);
+        const _rowsArg = toInteger(rows?.value, this.locale);
+        const _columnsArg = toInteger(columns?.value, this.locale);
+        assertPositive(_t("The rows argument (%s) must be strictly positive.", _rowsArg.toString()), _rowsArg);
+        assertPositive(_t("The columns argument (%s) must be strictly positive.", _rowsArg.toString()), _columnsArg);
+        const _nbRows = Math.min(_rowsArg, _array[0].length);
+        const _nbColumns = Math.min(_columnsArg, _array.length);
+        return generateMatrix(_nbColumns, _nbRows, (col, row) => _array[col][row]);
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// CHOOSECOLS
+// -----------------------------------------------------------------------------
+const CHOOSECOLS = {
+    description: _t("Creates a new array from the selected columns in the existing range."),
+    args: [
+        arg("array (any, range<any>)", _t("The array that contains the columns to be returned.")),
+        arg("col_num (number, range<number>)", _t("The first column index of the columns to be returned.")),
+        arg("col_num2 (number, range<number>, repeating)", _t("The columns indexes of the columns to be returned.")),
+    ],
+    compute: function (array, ...columns) {
+        const _array = toMatrix(array);
+        const _columns = flattenRowFirst(columns, (item) => toInteger(item?.value, this.locale));
+        const argOutOfRange = _columns.filter((col) => col === 0 || _array.length < Math.abs(col));
+        assert(() => argOutOfRange.length === 0, _t("The columns arguments must be between -%s and %s (got %s), excluding 0.", _array.length.toString(), _array.length.toString(), argOutOfRange.join(",")));
+        const result = Array(_columns.length);
+        for (let col = 0; col < _columns.length; col++) {
+            if (_columns[col] > 0) {
+                result[col] = _array[_columns[col] - 1]; // -1 because columns arguments are 1-indexed
+            }
+            else {
+                result[col] = _array[_array.length + _columns[col]];
+            }
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CHOOSEROWS
+// -----------------------------------------------------------------------------
+const CHOOSEROWS = {
+    description: _t("Creates a new array from the selected rows in the existing range."),
+    args: [
+        arg("array (any, range<any>)", _t("The array that contains the rows to be returned.")),
+        arg("row_num (number, range<number>)", _t("The first row index of the rows to be returned.")),
+        arg("row_num2 (number, range<number>, repeating)", _t("The rows indexes of the rows to be returned.")),
+    ],
+    compute: function (array, ...rows) {
+        const _array = toMatrix(array);
+        const _rows = flattenRowFirst(rows, (item) => toInteger(item?.value, this.locale));
+        const _nbColumns = _array.length;
+        const argOutOfRange = _rows.filter((row) => row === 0 || _array[0].length < Math.abs(row));
+        assert(() => argOutOfRange.length === 0, _t("The rows arguments must be between -%s and %s (got %s), excluding 0.", _array[0].length.toString(), _array[0].length.toString(), argOutOfRange.join(",")));
+        return generateMatrix(_nbColumns, _rows.length, (col, row) => {
+            if (_rows[row] > 0) {
+                return _array[col][_rows[row] - 1]; // -1 because columns arguments are 1-indexed
+            }
+            return _array[col][_array[col].length + _rows[row]];
+        });
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// EXPAND
+// -----------------------------------------------------------------------------
+const EXPAND = {
+    description: _t("Expands or pads an array to specified row and column dimensions."),
+    args: [
+        arg("array (any, range<any>)", _t("The array to expand.")),
+        arg("rows (number)", _t("The number of rows in the expanded array. If missing, rows will not be expanded.")),
+        arg("columns (number, optional)", _t("The number of columns in the expanded array. If missing, columns will not be expanded.")),
+        arg("pad_with (any, default=0)", _t("The value with which to pad.")), // @compatibility: on Excel, pad with #N/A
+    ],
+    compute: function (arg, rows, columns, padWith = { value: 0 } // TODO : Replace with #N/A errors once it's supported
+    ) {
+        const _array = toMatrix(arg);
+        const _nbRows = toInteger(rows?.value, this.locale);
+        const _nbColumns = columns !== undefined ? toInteger(columns.value, this.locale) : _array.length;
+        assert(() => _nbRows >= _array[0].length, _t("The rows arguments (%s) must be greater or equal than the number of rows of the array.", _nbRows.toString()));
+        assert(() => _nbColumns >= _array.length, _t("The columns arguments (%s) must be greater or equal than the number of columns of the array.", _nbColumns.toString()));
+        return generateMatrix(_nbColumns, _nbRows, (col, row) => col >= _array.length || row >= _array[col].length ? padWith : _array[col][row]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FLATTEN
+// -----------------------------------------------------------------------------
+const FLATTEN = {
+    description: _t("Flattens all the values from one or more ranges into a single column."),
+    args: [
+        arg("range (any, range<any>)", _t("The first range to flatten.")),
+        arg("range2 (any, range<any>, repeating)", _t("Additional ranges to flatten.")),
+    ],
+    compute: function (...ranges) {
+        return [flattenRowFirst(ranges, (val) => (val === undefined ? { value: "" } : val))];
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// FREQUENCY
+// -----------------------------------------------------------------------------
+const FREQUENCY = {
+    description: _t("Calculates the frequency distribution of a range."),
+    args: [
+        arg("data (range<number>)", _t("The array of ranges containing the values to be counted.")),
+        arg("classes (number, range<number>)", _t("The range containing the set of classes.")),
+    ],
+    compute: function (data, classes) {
+        const _data = flattenRowFirst([data], (data) => data.value).filter((val) => typeof val === "number");
+        const _classes = flattenRowFirst([classes], (data) => data.value).filter((val) => typeof val === "number");
+        /**
+         * Returns the frequency distribution of the data in the classes, ie. the number of elements in the range
+         * between each classes.
+         *
+         * For example:
+         * - data = [1, 3, 2, 5, 4]
+         * - classes = [3, 5, 1]
+         *
+         * The result will be:
+         * - 2 ==> number of elements 1 > el >= 3
+         * - 2 ==> number of elements 3 > el >= 5
+         * - 1 ==> number of elements <= 1
+         * - 0 ==> number of elements > 5
+         *
+         * @compatibility: GSheet sort the input classes. We do the implemntation of Excel, where we kee the classes unsorted.
+         */
+        const sortedClasses = _classes
+            .map((value, index) => ({ initialIndex: index, value, count: 0 }))
+            .sort((a, b) => a.value - b.value);
+        sortedClasses.push({ initialIndex: sortedClasses.length, value: Infinity, count: 0 });
+        const sortedData = _data.sort((a, b) => a - b);
+        let index = 0;
+        for (const val of sortedData) {
+            while (val > sortedClasses[index].value && index < sortedClasses.length - 1) {
+                index++;
+            }
+            sortedClasses[index].count++;
+        }
+        const result = sortedClasses
+            .sort((a, b) => a.initialIndex - b.initialIndex)
+            .map((val) => val.count);
+        return [result];
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// HSTACK
+// -----------------------------------------------------------------------------
+const HSTACK = {
+    description: _t("Appends ranges horizontally and in sequence to return a larger array."),
+    args: [
+        arg("range1 (any, range<any>)", _t("The first range to be appended.")),
+        arg("range2 (any, range<any>, repeating)", _t("Additional ranges to add to range1.")),
+    ],
+    compute: function (...ranges) {
+        const nbRows = Math.max(...ranges.map((r) => r?.[0]?.length ?? 0));
+        const result = [];
+        for (const range of ranges) {
+            const _range = toMatrix(range);
+            for (let col = 0; col < _range.length; col++) {
+                //TODO: fill with #N/A for unavailable values instead of zeroes
+                const array = Array(nbRows).fill({ value: null });
+                for (let row = 0; row < _range[col].length; row++) {
+                    array[row] = _range[col][row];
+                }
+                result.push(array);
+            }
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MDETERM
+// -----------------------------------------------------------------------------
+const MDETERM = {
+    description: _t("Returns the matrix determinant of a square matrix."),
+    args: [
+        arg("square_matrix (number, range<number>)", _t("An range with an equal number of rows and columns representing a matrix whose determinant will be calculated.")),
+    ],
+    compute: function (matrix) {
+        const _matrix = toNumberMatrix(matrix, "square_matrix");
+        assertSquareMatrix(_t("The argument square_matrix must have the same number of columns and rows."), _matrix);
+        return invertMatrix(_matrix).determinant;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MINVERSE
+// -----------------------------------------------------------------------------
+const MINVERSE = {
+    description: _t("Returns the multiplicative inverse of a square matrix."),
+    args: [
+        arg("square_matrix (number, range<number>)", _t("An range with an equal number of rows and columns representing a matrix whose multiplicative inverse will be calculated.")),
+    ],
+    compute: function (matrix) {
+        const _matrix = toNumberMatrix(matrix, "square_matrix");
+        assertSquareMatrix(_t("The argument square_matrix must have the same number of columns and rows."), _matrix);
+        const { inverted } = invertMatrix(_matrix);
+        if (!inverted) {
+            return new EvaluationError(_t("The matrix is not invertible."));
+        }
+        return inverted;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MMULT
+// -----------------------------------------------------------------------------
+const MMULT = {
+    description: _t("Calculates the matrix product of two matrices."),
+    args: [
+        arg("matrix1 (number, range<number>)", _t("The first matrix in the matrix multiplication operation.")),
+        arg("matrix2 (number, range<number>)", _t("The second matrix in the matrix multiplication operation.")),
+    ],
+    compute: function (matrix1, matrix2) {
+        const _matrix1 = toNumberMatrix(matrix1, "matrix1");
+        const _matrix2 = toNumberMatrix(matrix2, "matrix2");
+        assert(() => _matrix1.length > 0 && _matrix2.length > 0, _t("The first and second arguments of [[FUNCTION_NAME]] must be non-empty matrices."));
+        assert(() => _matrix1.length === _matrix2[0].length, _t("In [[FUNCTION_NAME]], the number of columns of the first matrix (%s) must be equal to the \
+        number of rows of the second matrix (%s).", _matrix1.length.toString(), _matrix2[0].length.toString()));
+        return multiplyMatrices(_matrix1, _matrix2);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SUMPRODUCT
+// -----------------------------------------------------------------------------
+const SUMPRODUCT = {
+    description: _t("Calculates the sum of the products of corresponding entries in equal-sized ranges."),
+    args: [
+        arg("range1 (number, range<number>)", _t("The first range whose entries will be multiplied with corresponding entries in the other ranges.")),
+        arg("range2 (number, range<number>, repeating)", _t("The other range whose entries will be multiplied with corresponding entries in the other ranges.")),
+    ],
+    compute: function (...args) {
+        assertSameDimensions(_t("All the ranges must have the same dimensions."), ...args);
+        const _args = args.map(toMatrix);
+        let result = 0;
+        for (let col = 0; col < _args[0].length; col++) {
+            for (let row = 0; row < _args[0][col].length; row++) {
+                if (!_args.every((range) => typeof range[col][row].value === "number")) {
+                    continue;
+                }
+                let product = 1;
+                for (const range of _args) {
+                    product *= toNumber(range[col][row], this.locale);
+                }
+                result += product;
+            }
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SUMX2MY2
+// -----------------------------------------------------------------------------
+/**
+ * Return the sum of the callback applied to each pair of values in the two arrays.
+ *
+ * Ignore the pairs X,Y where one of the value isn't a number. Throw an error if no pair of numbers is found.
+ */
+function getSumXAndY(arrayX, arrayY, cb) {
+    assertSameDimensions("The arguments array_x and array_y must have the same dimensions.", arrayX, arrayY);
+    const _arrayX = toMatrix(arrayX);
+    const _arrayY = toMatrix(arrayY);
+    let validPairFound = false;
+    let result = 0;
+    for (const col in _arrayX) {
+        for (const row in _arrayX[col]) {
+            const arrayXValue = _arrayX[col][row].value;
+            const arrayYValue = _arrayY[col][row].value;
+            if (typeof arrayXValue !== "number" || typeof arrayYValue !== "number") {
+                continue;
+            }
+            validPairFound = true;
+            result += cb(arrayXValue, arrayYValue);
+        }
+    }
+    if (!validPairFound) {
+        throw new EvaluationError(_t("The arguments array_x and array_y must contain at least one pair of numbers."));
+    }
+    return result;
+}
+const SUMX2MY2 = {
+    description: _t("Calculates the sum of the difference of the squares of the values in two array."),
+    args: [
+        arg("array_x (number, range<number>)", _t("The array or range of values whose squares will be reduced by the squares of corresponding entries in array_y and added together.")),
+        arg("array_y (number, range<number>)", _t("The array or range of values whose squares will be subtracted from the squares of corresponding entries in array_x and added together.")),
+    ],
+    compute: function (arrayX, arrayY) {
+        return getSumXAndY(arrayX, arrayY, (x, y) => x ** 2 - y ** 2);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SUMX2PY2
+// -----------------------------------------------------------------------------
+const SUMX2PY2 = {
+    description: _t("Calculates the sum of the sum of the squares of the values in two array."),
+    args: [
+        arg("array_x (number, range<number>)", _t("The array or range of values whose squares will be added to the squares of corresponding entries in array_y and added together.")),
+        arg("array_y (number, range<number>)", _t("The array or range of values whose squares will be added to the squares of corresponding entries in array_x and added together.")),
+    ],
+    compute: function (arrayX, arrayY) {
+        return getSumXAndY(arrayX, arrayY, (x, y) => x ** 2 + y ** 2);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SUMXMY2
+// -----------------------------------------------------------------------------
+const SUMXMY2 = {
+    description: _t("Calculates the sum of squares of the differences of values in two array."),
+    args: [
+        arg("array_x (number, range<number>)", _t("The array or range of values that will be reduced by corresponding entries in array_y, squared, and added together.")),
+        arg("array_y (number, range<number>)", _t("The array or range of values that will be subtracted from corresponding entries in array_x, the result squared, and all such results added together.")),
+    ],
+    compute: function (arrayX, arrayY) {
+        return getSumXAndY(arrayX, arrayY, (x, y) => (x - y) ** 2);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TOCOL
+// -----------------------------------------------------------------------------
+const TO_COL_ROW_DEFAULT_IGNORE = 0;
+const TO_COL_ROW_DEFAULT_SCAN = false;
+const TO_COL_ROW_ARGS = [
+    arg("array (any, range<any>)", _t("The array which will be transformed.")),
+    arg(`ignore (number, default=${TO_COL_ROW_DEFAULT_IGNORE})`, _t("The control to ignore blanks and errors. 0 (default) is to keep all values, 1 is to ignore blanks, 2 is to ignore errors, and 3 is to ignore blanks and errors.")),
+    arg(`scan_by_column (number, default=${TO_COL_ROW_DEFAULT_SCAN})`, _t("Whether the array should be scanned by column. True scans the array by column and false (default) \
+      scans the array by row.")),
+];
+function shouldKeepValue(ignore) {
+    const _ignore = Math.trunc(ignore);
+    if (_ignore === 0) {
+        return () => true;
+    }
+    if (_ignore === 1) {
+        return (data) => data.value !== null;
+    }
+    if (_ignore === 2) {
+        return (data) => !isEvaluationError(data.value);
+    }
+    if (_ignore === 3) {
+        return (data) => data.value !== null && !isEvaluationError(data.value);
+    }
+    throw new EvaluationError(_t("Argument ignore must be between 0 and 3"));
+}
+const TOCOL = {
+    description: _t("Transforms a range of cells into a single column."),
+    args: TO_COL_ROW_ARGS,
+    compute: function (array, ignore = { value: TO_COL_ROW_DEFAULT_IGNORE }, scanByColumn = { value: TO_COL_ROW_DEFAULT_SCAN }) {
+        const _array = toMatrix(array);
+        const _ignore = toNumber(ignore.value, this.locale);
+        const _scanByColumn = toBoolean(scanByColumn.value);
+        const result = (_scanByColumn ? _array : transposeMatrix(_array))
+            .flat()
+            .filter(shouldKeepValue(_ignore));
+        if (result.length === 0) {
+            return new NotAvailableError(_t("No results for the given arguments of TOCOL."));
+        }
+        return [result];
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TOROW
+// -----------------------------------------------------------------------------
+const TOROW = {
+    description: _t("Transforms a range of cells into a single row."),
+    args: TO_COL_ROW_ARGS,
+    compute: function (array, ignore = { value: TO_COL_ROW_DEFAULT_IGNORE }, scanByColumn = { value: TO_COL_ROW_DEFAULT_SCAN }) {
+        const _array = toMatrix(array);
+        const _ignore = toNumber(ignore.value, this.locale);
+        const _scanByColumn = toBoolean(scanByColumn.value);
+        const result = (_scanByColumn ? _array : transposeMatrix(_array))
+            .flat()
+            .filter(shouldKeepValue(_ignore))
+            .map((item) => [item]);
+        if (result.length === 0 || result[0].length === 0) {
+            return new NotAvailableError(_t("No results for the given arguments of TOROW."));
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TRANSPOSE
+// -----------------------------------------------------------------------------
+const TRANSPOSE = {
+    description: _t("Transposes the rows and columns of a range."),
+    args: [arg("range (any, range<any>)", _t("The range to be transposed."))],
+    compute: function (arg) {
+        const _array = toMatrix(arg);
+        const nbColumns = _array[0].length;
+        const nbRows = _array.length;
+        return generateMatrix(nbColumns, nbRows, (col, row) => _array[row][col]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VSTACK
+// -----------------------------------------------------------------------------
+const VSTACK = {
+    description: _t("Appends ranges vertically and in sequence to return a larger array."),
+    args: [
+        arg("range1 (any, range<any>)", _t("The first range to be appended.")),
+        arg("range2 (any, range<any>, repeating)", _t("Additional ranges to add to range1.")),
+    ],
+    compute: function (...ranges) {
+        const nbColumns = Math.max(...ranges.map((range) => toMatrix(range).length));
+        const nbRows = ranges.reduce((acc, range) => acc + toMatrix(range)[0].length, 0);
+        const result = Array(nbColumns)
+            .fill([])
+            .map(() => Array(nbRows).fill({ value: 0 })); // TODO fill with #N/A
+        let currentRow = 0;
+        for (const range of ranges) {
+            const _array = toMatrix(range);
+            for (let col = 0; col < _array.length; col++) {
+                for (let row = 0; row < _array[col].length; row++) {
+                    result[col][currentRow + row] = _array[col][row];
+                }
+            }
+            currentRow += _array[0].length;
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// WRAPCOLS
+// -----------------------------------------------------------------------------
+const WRAPCOLS = {
+    description: _t("Wraps the provided row or column of cells by columns after a specified number of elements to form a new array."),
+    args: [
+        arg("range (any, range<any>)", _t("The range to wrap.")),
+        arg("wrap_count (number)", _t("The maximum number of cells for each column, rounded down to the nearest whole number.")),
+        arg("pad_with  (any, default=0)", // TODO : replace with #N/A
+        _t("The value with which to fill the extra cells in the range.")),
+    ],
+    compute: function (range, wrapCount, padWith = { value: 0 }) {
+        const _array = toMatrix(range);
+        const nbRows = toInteger(wrapCount?.value, this.locale);
+        assertSingleColOrRow(_t("Argument range must be a single row or column."), _array);
+        const array = _array.flat();
+        const nbColumns = Math.ceil(array.length / nbRows);
+        return generateMatrix(nbColumns, nbRows, (col, row) => {
+            const index = col * nbRows + row;
+            return index < array.length ? array[index] : padWith;
+        });
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// WRAPROWS
+// -----------------------------------------------------------------------------
+const WRAPROWS = {
+    description: _t("Wraps the provided row or column of cells by rows after a specified number of elements to form a new array."),
+    args: [
+        arg("range (any, range<any>)", _t("The range to wrap.")),
+        arg("wrap_count (number)", _t("The maximum number of cells for each row, rounded down to the nearest whole number.")),
+        arg("pad_with  (any, default=0)", // TODO : replace with #N/A
+        _t("The value with which to fill the extra cells in the range.")),
+    ],
+    compute: function (range, wrapCount, padWith = { value: 0 }) {
+        const _array = toMatrix(range);
+        const nbColumns = toInteger(wrapCount?.value, this.locale);
+        assertSingleColOrRow(_t("Argument range must be a single row or column."), _array);
+        const array = _array.flat();
+        const nbRows = Math.ceil(array.length / nbColumns);
+        return generateMatrix(nbColumns, nbRows, (col, row) => {
+            const index = row * nbColumns + col;
+            return index < array.length ? array[index] : padWith;
+        });
+    },
+    isExported: true,
+};
+
+var array = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    ARRAY_CONSTRAIN: ARRAY_CONSTRAIN,
+    CHOOSECOLS: CHOOSECOLS,
+    CHOOSEROWS: CHOOSEROWS,
+    EXPAND: EXPAND,
+    FLATTEN: FLATTEN,
+    FREQUENCY: FREQUENCY,
+    HSTACK: HSTACK,
+    MDETERM: MDETERM,
+    MINVERSE: MINVERSE,
+    MMULT: MMULT,
+    SUMPRODUCT: SUMPRODUCT,
+    SUMX2MY2: SUMX2MY2,
+    SUMX2PY2: SUMX2PY2,
+    SUMXMY2: SUMXMY2,
+    TOCOL: TOCOL,
+    TOROW: TOROW,
+    TRANSPOSE: TRANSPOSE,
+    VSTACK: VSTACK,
+    WRAPCOLS: WRAPCOLS,
+    WRAPROWS: WRAPROWS
+});
+
+// -----------------------------------------------------------------------------
+// FORMAT.LARGE.NUMBER
+// -----------------------------------------------------------------------------
+const FORMAT_LARGE_NUMBER = {
+    description: _t("Apply a large number format"),
+    args: [
+        arg("value (number)", _t("The number.")),
+        arg("unit (string, optional)", _t("The formatting unit. Use 'k', 'm', or 'b' to force the unit")),
+    ],
+    compute: function (value, unite) {
+        return {
+            value: toNumber(value, this.locale),
+            format: formatLargeNumber(value, unite, this.locale),
+        };
+    },
+};
+
+var misc = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    FORMAT_LARGE_NUMBER: FORMAT_LARGE_NUMBER
+});
+
+const DEFAULT_FACTOR = 1;
+const DEFAULT_MODE = 0;
+const DEFAULT_PLACES = 0;
+const DEFAULT_SIGNIFICANCE = 1;
+const DECIMAL_REPRESENTATION = /^-?[a-z0-9]+$/i;
+// -----------------------------------------------------------------------------
+// ABS
+// -----------------------------------------------------------------------------
+const ABS = {
+    description: _t("Absolute value of a number."),
+    args: [arg("value (number)", _t("The number of which to return the absolute value."))],
+    compute: function (value) {
+        return Math.abs(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ACOS
+// -----------------------------------------------------------------------------
+const ACOS = {
+    description: _t("Inverse cosine of a value, in radians."),
+    args: [
+        arg("value (number)", _t("The value for which to calculate the inverse cosine. Must be between -1 and 1, inclusive.")),
+    ],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assert(() => Math.abs(_value) <= 1, _t("The value (%s) must be between -1 and 1 inclusive.", _value.toString()));
+        return Math.acos(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ACOSH
+// -----------------------------------------------------------------------------
+const ACOSH = {
+    description: _t("Inverse hyperbolic cosine of a number."),
+    args: [
+        arg("value (number)", _t("The value for which to calculate the inverse hyperbolic cosine. Must be greater than or equal to 1.")),
+    ],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assert(() => _value >= 1, _t("The value (%s) must be greater than or equal to 1.", _value.toString()));
+        return Math.acosh(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ACOT
+// -----------------------------------------------------------------------------
+const ACOT = {
+    description: _t("Inverse cotangent of a value."),
+    args: [arg("value (number)", _t("The value for which to calculate the inverse cotangent."))],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        const sign = Math.sign(_value) || 1;
+        // ACOT has two possible configurations:
+        // @compatibility Excel: return Math.PI / 2 - Math.atan(toNumber(_value, this.locale));
+        // @compatibility Google: return sign * Math.PI / 2 - Math.atan(toNumber(_value, this.locale));
+        return (sign * Math.PI) / 2 - Math.atan(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ACOTH
+// -----------------------------------------------------------------------------
+const ACOTH = {
+    description: _t("Inverse hyperbolic cotangent of a value."),
+    args: [
+        arg("value (number)", _t("The value for which to calculate the inverse hyperbolic cotangent. Must not be between -1 and 1, inclusive.")),
+    ],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assert(() => Math.abs(_value) > 1, _t("The value (%s) cannot be between -1 and 1 inclusive.", _value.toString()));
+        return Math.log((_value + 1) / (_value - 1)) / 2;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ASIN
+// -----------------------------------------------------------------------------
+const ASIN = {
+    description: _t("Inverse sine of a value, in radians."),
+    args: [
+        arg("value (number)", _t("The value for which to calculate the inverse sine. Must be between -1 and 1, inclusive.")),
+    ],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assert(() => Math.abs(_value) <= 1, _t("The value (%s) must be between -1 and 1 inclusive.", _value.toString()));
+        return Math.asin(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ASINH
+// -----------------------------------------------------------------------------
+const ASINH = {
+    description: _t("Inverse hyperbolic sine of a number."),
+    args: [
+        arg("value (number)", _t("The value for which to calculate the inverse hyperbolic sine.")),
+    ],
+    compute: function (value) {
+        return Math.asinh(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ATAN
+// -----------------------------------------------------------------------------
+const ATAN = {
+    description: _t("Inverse tangent of a value, in radians."),
+    args: [arg("value (number)", _t("The value for which to calculate the inverse tangent."))],
+    compute: function (value) {
+        return Math.atan(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ATAN2
+// -----------------------------------------------------------------------------
+const ATAN2 = {
+    description: _t("Angle from the X axis to a point (x,y), in radians."),
+    args: [
+        arg("x (number)", _t("The x coordinate of the endpoint of the line segment for which to calculate the angle from the x-axis.")),
+        arg("y (number)", _t("The y coordinate of the endpoint of the line segment for which to calculate the angle from the x-axis.")),
+    ],
+    compute: function (x, y) {
+        const _x = toNumber(x, this.locale);
+        const _y = toNumber(y, this.locale);
+        assert(() => _x !== 0 || _y !== 0, _t("Function [[FUNCTION_NAME]] caused a divide by zero error."), CellErrorType.DivisionByZero);
+        return Math.atan2(_y, _x);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ATANH
+// -----------------------------------------------------------------------------
+const ATANH = {
+    description: _t("Inverse hyperbolic tangent of a number."),
+    args: [
+        arg("value (number)", _t("The value for which to calculate the inverse hyperbolic tangent. Must be between -1 and 1, exclusive.")),
+    ],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assert(() => Math.abs(_value) < 1, _t("The value (%s) must be between -1 and 1 exclusive.", _value.toString()));
+        return Math.atanh(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CEILING
+// -----------------------------------------------------------------------------
+const CEILING = {
+    description: _t("Rounds number up to nearest multiple of factor."),
+    args: [
+        arg("value (number)", _t("The value to round up to the nearest integer multiple of factor.")),
+        arg(`factor (number, default=${DEFAULT_FACTOR})`, _t("The number to whose multiples value will be rounded.")),
+    ],
+    compute: function (value, factor = { value: DEFAULT_FACTOR }) {
+        const _value = toNumber(value, this.locale);
+        const _factor = toNumber(factor, this.locale);
+        assert(() => _factor >= 0 || _value <= 0, _t("The factor (%s) must be positive when the value (%s) is positive.", _factor.toString(), _value.toString()));
+        return {
+            value: _factor ? Math.ceil(_value / _factor) * _factor : 0,
+            format: value?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CEILING.MATH
+// -----------------------------------------------------------------------------
+function ceilingMath(number, significance, mode = 0) {
+    if (significance === 0) {
+        return 0;
+    }
+    significance = Math.abs(significance);
+    if (number >= 0) {
+        return Math.ceil(number / significance) * significance;
+    }
+    if (mode === 0) {
+        return -Math.floor(Math.abs(number) / significance) * significance;
+    }
+    return -Math.ceil(Math.abs(number) / significance) * significance;
+}
+const CEILING_MATH = {
+    description: _t("Rounds number up to nearest multiple of factor."),
+    args: [
+        arg("number (number)", _t("The value to round up to the nearest integer multiple of significance.")),
+        arg(`significance (number, default=${DEFAULT_SIGNIFICANCE})`, _t("The number to whose multiples number will be rounded. The sign of significance will be ignored.")),
+        arg(`mode (number, default=${DEFAULT_MODE})`, _t("If number is negative, specifies the rounding direction. If 0 or blank, it is rounded towards zero. Otherwise, it is rounded away from zero.")),
+    ],
+    compute: function (number, significance = { value: DEFAULT_SIGNIFICANCE }, mode = { value: DEFAULT_MODE }) {
+        const _significance = toNumber(significance, this.locale);
+        const _number = toNumber(number, this.locale);
+        const _mode = toNumber(mode, this.locale);
+        return {
+            value: ceilingMath(_number, _significance, _mode),
+            format: number?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CEILING.PRECISE
+// -----------------------------------------------------------------------------
+const CEILING_PRECISE = {
+    description: _t("Rounds number up to nearest multiple of factor."),
+    args: [
+        arg("number (number)", _t("The value to round up to the nearest integer multiple of significance.")),
+        arg(`significance (number, default=${DEFAULT_SIGNIFICANCE})`, _t("The number to whose multiples number will be rounded.")),
+    ],
+    compute: function (number, significance = { value: DEFAULT_SIGNIFICANCE }) {
+        const _significance = toNumber(significance, this.locale);
+        const _number = toNumber(number, this.locale);
+        return {
+            value: ceilingMath(_number, _significance),
+            format: number?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COS
+// -----------------------------------------------------------------------------
+const COS = {
+    description: _t("Cosine of an angle provided in radians."),
+    args: [arg("angle (number)", _t("The angle to find the cosine of, in radians."))],
+    compute: function (angle) {
+        return Math.cos(toNumber(angle, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COSH
+// -----------------------------------------------------------------------------
+const COSH = {
+    description: _t("Hyperbolic cosine of any real number."),
+    args: [arg("value (number)", _t("Any real value to calculate the hyperbolic cosine of."))],
+    compute: function (value) {
+        return Math.cosh(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COT
+// -----------------------------------------------------------------------------
+const COT = {
+    description: _t("Cotangent of an angle provided in radians."),
+    args: [arg("angle (number)", _t("The angle to find the cotangent of, in radians."))],
+    compute: function (angle) {
+        const _angle = toNumber(angle, this.locale);
+        assertNotZero(_angle);
+        return 1 / Math.tan(_angle);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COTH
+// -----------------------------------------------------------------------------
+const COTH = {
+    description: _t("Hyperbolic cotangent of any real number."),
+    args: [arg("value (number)", _t("Any real value to calculate the hyperbolic cotangent of."))],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assertNotZero(_value);
+        return 1 / Math.tanh(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUNTBLANK
+// -----------------------------------------------------------------------------
+const COUNTBLANK = {
+    description: _t("Number of empty values."),
+    args: [
+        arg("value1 (any, range)", _t("The first value or range in which to count the number of blanks.")),
+        arg("value2 (any, range, repeating)", _t("Additional values or ranges in which to count the number of blanks.")),
+    ],
+    compute: function (...args) {
+        return reduceAny(args, (acc, a) => {
+            if (a === undefined) {
+                return acc + 1;
+            }
+            if (a.value === null) {
+                return acc + 1;
+            }
+            if (a.value === "") {
+                return acc + 1;
+            }
+            return acc;
+        }, 0);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUNTIF
+// -----------------------------------------------------------------------------
+const COUNTIF = {
+    description: _t("A conditional count across a range."),
+    args: [
+        arg("range (range)", _t("The range that is tested against criterion.")),
+        arg("criterion (string)", _t("The pattern or test to apply to range.")),
+    ],
+    compute: function (...args) {
+        let count = 0;
+        visitMatchingRanges(args, (i, j) => {
+            count += 1;
+        }, this.locale);
+        return count;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUNTIFS
+// -----------------------------------------------------------------------------
+const COUNTIFS = {
+    description: _t("Count values depending on multiple criteria."),
+    args: [
+        arg("criteria_range1 (range)", _t("The range to check against criterion1.")),
+        arg("criterion1 (string)", _t("The pattern or test to apply to criteria_range1.")),
+        arg("criteria_range2 (any, range, repeating)", _t("Additional ranges over which to evaluate the additional criteria. The filtered set will be the intersection of the sets produced by each criterion-range pair.")),
+        arg("criterion2 (string, repeating)", _t("Additional criteria to check.")),
+    ],
+    compute: function (...args) {
+        let count = 0;
+        visitMatchingRanges(args, (i, j) => {
+            count += 1;
+        }, this.locale);
+        return count;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUNTUNIQUE
+// -----------------------------------------------------------------------------
+const COUNTUNIQUE = {
+    description: _t("Counts number of unique values in a range."),
+    args: [
+        arg("value1 (any, range)", _t("The first value or range to consider for uniqueness.")),
+        arg("value2 (any, range, repeating)", _t("Additional values or ranges to consider for uniqueness.")),
+    ],
+    compute: function (...args) {
+        return countUnique(args);
+    },
+};
+// -----------------------------------------------------------------------------
+// COUNTUNIQUEIFS
+// -----------------------------------------------------------------------------
+const COUNTUNIQUEIFS = {
+    description: _t("Counts number of unique values in a range, filtered by a set of criteria."),
+    args: [
+        arg("range (range)", _t("The range of cells from which the number of unique values will be counted.")),
+        arg("criteria_range1 (range)", _t("The range of cells over which to evaluate criterion1.")),
+        arg("criterion1 (string)", _t("The pattern or test to apply to criteria_range1, such that each cell that evaluates to TRUE will be included in the filtered set.")),
+        arg("criteria_range2 (any, range, repeating)", _t("Additional ranges over which to evaluate the additional criteria. The filtered set will be the intersection of the sets produced by each criterion-range pair.")),
+        arg("criterion2 (string, repeating)", _t("The pattern or test to apply to criteria_range2.")),
+    ],
+    compute: function (range, ...args) {
+        let uniqueValues = new Set();
+        visitMatchingRanges(args, (i, j) => {
+            const data = range[i]?.[j];
+            if (isDataNonEmpty(data)) {
+                uniqueValues.add(data.value);
+            }
+        }, this.locale);
+        return uniqueValues.size;
+    },
+};
+// -----------------------------------------------------------------------------
+// CSC
+// -----------------------------------------------------------------------------
+const CSC = {
+    description: _t("Cosecant of an angle provided in radians."),
+    args: [arg("angle (number)", _t("The angle to find the cosecant of, in radians."))],
+    compute: function (angle) {
+        const _angle = toNumber(angle, this.locale);
+        assertNotZero(_angle);
+        return 1 / Math.sin(_angle);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CSCH
+// -----------------------------------------------------------------------------
+const CSCH = {
+    description: _t("Hyperbolic cosecant of any real number."),
+    args: [arg("value (number)", _t("Any real value to calculate the hyperbolic cosecant of."))],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assertNotZero(_value);
+        return 1 / Math.sinh(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DECIMAL
+// -----------------------------------------------------------------------------
+const DECIMAL = {
+    description: _t("Converts from another base to decimal."),
+    args: [
+        arg("value (string)", _t("The number to convert.")),
+        arg("base (number)", _t("The base to convert the value from.")),
+    ],
+    compute: function (value, base) {
+        let _base = toNumber(base, this.locale);
+        _base = Math.floor(_base);
+        assert(() => 2 <= _base && _base <= 36, _t("The base (%s) must be between 2 and 36 inclusive.", _base.toString()));
+        const _value = toString(value);
+        if (_value === "") {
+            return 0;
+        }
+        /**
+         * @compatibility: on Google sheets, expects the parameter 'value' to be positive.
+         * Return error if 'value' is positive.
+         * Remove '-?' in the next regex to catch this error.
+         */
+        assert(() => !!DECIMAL_REPRESENTATION.test(_value), _t("The value (%s) must be a valid base %s representation.", _value, _base.toString()));
+        const deci = parseInt(_value, _base);
+        assert(() => !isNaN(deci), _t("The value (%s) must be a valid base %s representation.", _value, _base.toString()));
+        return deci;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DEGREES
+// -----------------------------------------------------------------------------
+const DEGREES = {
+    description: _t("Converts an angle value in radians to degrees."),
+    args: [arg("angle (number)", _t("The angle to convert from radians to degrees."))],
+    compute: function (angle) {
+        return (toNumber(angle, this.locale) * 180) / Math.PI;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// EXP
+// -----------------------------------------------------------------------------
+const EXP = {
+    description: _t("Euler's number, e (~2.718) raised to a power."),
+    args: [arg("value (number)", _t("The exponent to raise e."))],
+    compute: function (value) {
+        return Math.exp(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FLOOR
+// -----------------------------------------------------------------------------
+const FLOOR = {
+    description: _t("Rounds number down to nearest multiple of factor."),
+    args: [
+        arg("value (number)", _t("The value to round down to the nearest integer multiple of factor.")),
+        arg(`factor (number, default=${DEFAULT_FACTOR})`, _t("The number to whose multiples value will be rounded.")),
+    ],
+    compute: function (value, factor = { value: DEFAULT_FACTOR }) {
+        const _value = toNumber(value, this.locale);
+        const _factor = toNumber(factor, this.locale);
+        assert(() => _factor >= 0 || _value <= 0, _t("The factor (%s) must be positive when the value (%s) is positive.", _factor.toString(), _value.toString()));
+        return {
+            value: _factor ? Math.floor(_value / _factor) * _factor : 0,
+            format: value?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FLOOR.MATH
+// -----------------------------------------------------------------------------
+function floorMath(number, significance, mode = 0) {
+    if (significance === 0) {
+        return 0;
+    }
+    significance = Math.abs(significance);
+    if (number >= 0) {
+        return Math.floor(number / significance) * significance;
+    }
+    if (mode === 0) {
+        return -Math.ceil(Math.abs(number) / significance) * significance;
+    }
+    return -Math.floor(Math.abs(number) / significance) * significance;
+}
+const FLOOR_MATH = {
+    description: _t("Rounds number down to nearest multiple of factor."),
+    args: [
+        arg("number (number)", _t("The value to round down to the nearest integer multiple of significance.")),
+        arg(`significance (number, default=${DEFAULT_SIGNIFICANCE})`, _t("The number to whose multiples number will be rounded. The sign of significance will be ignored.")),
+        arg(`mode (number, default=${DEFAULT_MODE})`, _t("If number is negative, specifies the rounding direction. If 0 or blank, it is rounded away from zero. Otherwise, it is rounded towards zero.")),
+    ],
+    compute: function (number, significance = { value: DEFAULT_SIGNIFICANCE }, mode = { value: DEFAULT_MODE }) {
+        const _significance = toNumber(significance, this.locale);
+        const _number = toNumber(number, this.locale);
+        const _mode = toNumber(mode, this.locale);
+        return {
+            value: floorMath(_number, _significance, _mode),
+            format: number?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FLOOR.PRECISE
+// -----------------------------------------------------------------------------
+const FLOOR_PRECISE = {
+    description: _t("Rounds number down to nearest multiple of factor."),
+    args: [
+        arg("number (number)", _t("The value to round down to the nearest integer multiple of significance.")),
+        arg(`significance (number, default=${DEFAULT_SIGNIFICANCE})`, _t("The number to whose multiples number will be rounded.")),
+    ],
+    compute: function (number, significance = { value: DEFAULT_SIGNIFICANCE }) {
+        const _significance = toNumber(significance, this.locale);
+        const _number = toNumber(number, this.locale);
+        return {
+            value: floorMath(_number, _significance),
+            format: number?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISEVEN
+// -----------------------------------------------------------------------------
+const ISEVEN = {
+    description: _t("Whether the provided value is even."),
+    args: [arg("value (number)", _t("The value to be verified as even."))],
+    compute: function (value) {
+        const _value = strictToNumber(value, this.locale);
+        return Math.floor(Math.abs(_value)) & 1 ? false : true;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISO.CEILING
+// -----------------------------------------------------------------------------
+const ISO_CEILING = {
+    description: _t("Rounds number up to nearest multiple of factor."),
+    args: [
+        arg("number (number)", _t("The value to round up to the nearest integer multiple of significance.")),
+        arg(`significance (number, default=${DEFAULT_SIGNIFICANCE})`, _t("The number to whose multiples number will be rounded.")),
+    ],
+    compute: function (number, significance = { value: DEFAULT_SIGNIFICANCE }) {
+        const _number = toNumber(number, this.locale);
+        const _significance = toNumber(significance, this.locale);
+        return {
+            value: ceilingMath(_number, _significance),
+            format: number?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISODD
+// -----------------------------------------------------------------------------
+const ISODD = {
+    description: _t("Whether the provided value is even."),
+    args: [arg("value (number)", _t("The value to be verified as even."))],
+    compute: function (value) {
+        const _value = strictToNumber(value, this.locale);
+        return Math.floor(Math.abs(_value)) & 1 ? true : false;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LN
+// -----------------------------------------------------------------------------
+const LN = {
+    description: _t("The logarithm of a number, base e (euler's number)."),
+    args: [arg("value (number)", _t("The value for which to calculate the logarithm, base e."))],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assert(() => _value > 0, _t("The value (%s) must be strictly positive.", _value.toString()));
+        return Math.log(_value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LOG
+// -----------------------------------------------------------------------------
+const LOG = {
+    description: _t("The logarithm of a number, for a given base."),
+    args: [
+        arg("value (number)", _t("The value for which to calculate the logarithm.")),
+        arg("base (number, default=10)", _t("The base of the logarithm.")),
+    ],
+    compute: function (value, base = { value: 10 }) {
+        const _value = toNumber(value, this.locale);
+        const _base = toNumber(base, this.locale);
+        assert(() => _value > 0, _t("The value (%s) must be strictly positive.", _value.toString()));
+        assert(() => _base > 0, _t("The base (%s) must be strictly positive.", _base.toString()));
+        assert(() => _base !== 1, _t("The base must be different from 1."));
+        return Math.log10(_value) / Math.log10(_base);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MOD
+// -----------------------------------------------------------------------------
+function mod(dividend, divisor) {
+    assert(() => divisor !== 0, _t("The divisor must be different from 0."), CellErrorType.DivisionByZero);
+    const modulus = dividend % divisor;
+    // -42 % 10 = -2 but we want 8, so need the code below
+    if ((modulus > 0 && divisor < 0) || (modulus < 0 && divisor > 0)) {
+        return modulus + divisor;
+    }
+    return modulus;
+}
+const MOD = {
+    description: _t("Modulo (remainder) operator."),
+    args: [
+        arg("dividend (number)", _t("The number to be divided to find the remainder.")),
+        arg("divisor (number)", _t("The number to divide by.")),
+    ],
+    compute: function (dividend, divisor) {
+        const _divisor = toNumber(divisor, this.locale);
+        const _dividend = toNumber(dividend, this.locale);
+        return {
+            value: mod(_dividend, _divisor),
+            format: dividend?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MUNIT
+// -----------------------------------------------------------------------------
+const MUNIT = {
+    description: _t("Returns a n x n unit matrix, where n is the input dimension."),
+    args: [
+        arg("dimension (number)", _t("An integer specifying the dimension size of the unit matrix. It must be positive.")),
+    ],
+    compute: function (n) {
+        const _n = toInteger(n, this.locale);
+        assertPositive(_t("The argument dimension must be positive"), _n);
+        return getUnitMatrix(_n);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ODD
+// -----------------------------------------------------------------------------
+const ODD = {
+    description: _t("Rounds a number up to the nearest odd integer."),
+    args: [arg("value (number)", _t("The value to round to the next greatest odd number."))],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        let temp = Math.ceil(Math.abs(_value));
+        temp = temp & 1 ? temp : temp + 1;
+        return {
+            value: _value < 0 ? -temp : temp,
+            format: value?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PI
+// -----------------------------------------------------------------------------
+const PI = {
+    description: _t("The number pi."),
+    args: [],
+    compute: function () {
+        return Math.PI;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// POWER
+// -----------------------------------------------------------------------------
+const POWER = {
+    description: _t("A number raised to a power."),
+    args: [
+        arg("base (number)", _t("The number to raise to the exponent power.")),
+        arg("exponent (number)", _t("The exponent to raise base to.")),
+    ],
+    compute: function (base, exponent) {
+        const _base = toNumber(base, this.locale);
+        const _exponent = toNumber(exponent, this.locale);
+        assert(() => _base >= 0 || Number.isInteger(_exponent), _t("The exponent (%s) must be an integer when the base is negative.", _exponent.toString()));
+        return { value: Math.pow(_base, _exponent), format: base?.format };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PRODUCT
+// -----------------------------------------------------------------------------
+const PRODUCT = {
+    description: _t("Result of multiplying a series of numbers together."),
+    args: [
+        arg("factor1 (number, range<number>)", _t("The first number or range to calculate for the product.")),
+        arg("factor2 (number, range<number>, repeating)", _t("More numbers or ranges to calculate for the product.")),
+    ],
+    compute: function (...factors) {
+        let count = 0;
+        let acc = 1;
+        for (let n of factors) {
+            if (isMatrix(n)) {
+                for (let i of n) {
+                    for (let j of i) {
+                        const f = j.value;
+                        if (typeof f === "number") {
+                            acc *= f;
+                            count += 1;
+                        }
+                        if (isEvaluationError(f)) {
+                            return j;
+                        }
+                    }
+                }
+            }
+            else if (n !== undefined && n.value !== null) {
+                acc *= strictToNumber(n, this.locale);
+                count += 1;
+            }
+        }
+        return {
+            value: count === 0 ? 0 : acc,
+            format: inferFormat(factors[0]),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RAND
+// -----------------------------------------------------------------------------
+const RAND = {
+    description: _t("A random number between 0 inclusive and 1 exclusive."),
+    args: [],
+    compute: function () {
+        return Math.random();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RANDARRAY
+// -----------------------------------------------------------------------------
+const RANDARRAY = {
+    description: _t("Returns a grid of random numbers between 0 inclusive and 1 exclusive."),
+    args: [
+        arg("rows (number, default=1)", _t("The number of rows to be returned.")),
+        arg("columns (number, default=1)", _t("The number of columns to be returned.")),
+        arg("min (number, default=0)", _t("The minimum number you would like returned.")),
+        arg("max (number, default=1)", _t("The maximum number you would like returned.")),
+        arg("whole_number (number, default=FALSE)", _t("Return a whole number or a decimal value.")),
+    ],
+    compute: function (rows = { value: 1 }, columns = { value: 1 }, min = { value: 0 }, max = { value: 1 }, wholeNumber = { value: false }) {
+        const _cols = toInteger(columns, this.locale);
+        const _rows = toInteger(rows, this.locale);
+        const _min = toNumber(min, this.locale);
+        const _max = toNumber(max, this.locale);
+        const _whole_number = toBoolean(wholeNumber);
+        assertPositive(_t("The number of columns (%s) must be positive.", _cols.toString()), _cols);
+        assertPositive(_t("The number of rows (%s) must be positive.", _rows.toString()), _rows);
+        assert(() => _min <= _max, _t("The maximum (%s) must be greater than or equal to the minimum (%s).", _max.toString(), _min.toString()));
+        if (_whole_number) {
+            assert(() => Number.isInteger(_min) && Number.isInteger(_max), _t("The maximum (%s) and minimum (%s) must be integers when whole_number is TRUE.", _max.toString(), _min.toString()));
+        }
+        const result = Array(_cols);
+        for (let col = 0; col < _cols; col++) {
+            result[col] = Array(_rows);
+            for (let row = 0; row < _rows; row++) {
+                if (!_whole_number) {
+                    result[col][row] = _min + Math.random() * (_max - _min);
+                }
+                else {
+                    result[col][row] = Math.floor(Math.random() * (_max - _min + 1) + _min);
+                }
+            }
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RANDBETWEEN
+// -----------------------------------------------------------------------------
+const RANDBETWEEN = {
+    description: _t("Random integer between two values, inclusive."),
+    args: [
+        arg("low (number)", _t("The low end of the random range.")),
+        arg("high (number)", _t("The high end of the random range.")),
+    ],
+    compute: function (low, high) {
+        let _low = toNumber(low, this.locale);
+        if (!Number.isInteger(_low)) {
+            _low = Math.ceil(_low);
+        }
+        let _high = toNumber(high, this.locale);
+        if (!Number.isInteger(_high)) {
+            _high = Math.floor(_high);
+        }
+        assert(() => _low <= _high, _t("The high (%s) must be greater than or equal to the low (%s).", _high.toString(), _low.toString()));
+        return {
+            value: _low + Math.ceil((_high - _low + 1) * Math.random()) - 1,
+            format: low?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ROUND
+// -----------------------------------------------------------------------------
+const ROUND = {
+    description: _t("Rounds a number according to standard rules."),
+    args: [
+        arg("value (number)", _t("The value to round to places number of places.")),
+        arg(`places (number, default=${DEFAULT_PLACES})`, _t("The number of decimal places to which to round.")),
+    ],
+    compute: function (value, places = { value: DEFAULT_PLACES }) {
+        const _value = toNumber(value, this.locale);
+        let _places = toNumber(places, this.locale);
+        const absValue = Math.abs(_value);
+        let tempResult;
+        if (_places === 0) {
+            tempResult = Math.round(absValue);
+        }
+        else {
+            if (!Number.isInteger(_places)) {
+                _places = Math.trunc(_places);
+            }
+            tempResult = Math.round(absValue * Math.pow(10, _places)) / Math.pow(10, _places);
+        }
+        return {
+            value: _value >= 0 ? tempResult : -tempResult,
+            format: value?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ROUNDDOWN
+// -----------------------------------------------------------------------------
+const ROUNDDOWN = {
+    description: _t("Rounds down a number."),
+    args: [
+        arg("value (number)", _t("The value to round to places number of places, always rounding down.")),
+        arg(`places (number, default=${DEFAULT_PLACES})`, _t("The number of decimal places to which to round.")),
+    ],
+    compute: function (value, places = { value: DEFAULT_PLACES }) {
+        const _value = toNumber(value, this.locale);
+        let _places = toNumber(places, this.locale);
+        const absValue = Math.abs(_value);
+        let tempResult;
+        if (_places === 0) {
+            tempResult = Math.floor(absValue);
+        }
+        else {
+            if (!Number.isInteger(_places)) {
+                _places = Math.trunc(_places);
+            }
+            tempResult = Math.floor(absValue * Math.pow(10, _places)) / Math.pow(10, _places);
+        }
+        return {
+            value: _value >= 0 ? tempResult : -tempResult,
+            format: value?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ROUNDUP
+// -----------------------------------------------------------------------------
+const ROUNDUP = {
+    description: _t("Rounds up a number."),
+    args: [
+        arg("value (number)", _t("The value to round to places number of places, always rounding up.")),
+        arg(`places (number, default=${DEFAULT_PLACES})`, _t("The number of decimal places to which to round.")),
+    ],
+    compute: function (value, places = { value: DEFAULT_PLACES }) {
+        const _value = toNumber(value, this.locale);
+        let _places = toNumber(places, this.locale);
+        const absValue = Math.abs(_value);
+        let tempResult;
+        if (_places === 0) {
+            tempResult = Math.ceil(absValue);
+        }
+        else {
+            if (!Number.isInteger(_places)) {
+                _places = Math.trunc(_places);
+            }
+            tempResult = Math.ceil(absValue * Math.pow(10, _places)) / Math.pow(10, _places);
+        }
+        return {
+            value: _value >= 0 ? tempResult : -tempResult,
+            format: value?.format,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SEC
+// -----------------------------------------------------------------------------
+const SEC = {
+    description: _t("Secant of an angle provided in radians."),
+    args: [arg("angle (number)", _t("The angle to find the secant of, in radians."))],
+    compute: function (angle) {
+        return 1 / Math.cos(toNumber(angle, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SECH
+// -----------------------------------------------------------------------------
+const SECH = {
+    description: _t("Hyperbolic secant of any real number."),
+    args: [arg("value (number)", _t("Any real value to calculate the hyperbolic secant of."))],
+    compute: function (value) {
+        return 1 / Math.cosh(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SEQUENCE
+// -----------------------------------------------------------------------------
+const SEQUENCE = {
+    description: _t("Returns a sequence of numbers."),
+    args: [
+        arg("rows (number)", _t("The number of rows to return")),
+        arg("columns (number, optional, default=1)", _t("The number of columns to return")),
+        arg("start (number, optional, default=1)", _t("The first number in the sequence")),
+        arg("step (number, optional, default=1)", _t("The amount to increment each value in the sequence")),
+    ],
+    compute: function (rows, columns = { value: 1 }, start = { value: 1 }, step = { value: 1 }) {
+        const _start = toNumber(start, this.locale);
+        const _step = toNumber(step, this.locale);
+        const _rows = toInteger(rows, this.locale);
+        const _columns = toInteger(columns, this.locale);
+        assertPositive(_t("The number of columns (%s) must be positive.", _columns), _columns);
+        assertPositive(_t("The number of rows (%s) must be positive.", _rows), _rows);
+        return generateMatrix(_columns, _rows, (col, row) => {
+            return {
+                value: _start + row * _columns * _step + col * _step,
+            };
+        });
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SIN
+// -----------------------------------------------------------------------------
+const SIN = {
+    description: _t("Sine of an angle provided in radians."),
+    args: [arg("angle (number)", _t("The angle to find the sine of, in radians."))],
+    compute: function (angle) {
+        return Math.sin(toNumber(angle, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SINH
+// -----------------------------------------------------------------------------
+const SINH = {
+    description: _t("Hyperbolic sine of any real number."),
+    args: [arg("value (number)", _t("Any real value to calculate the hyperbolic sine of."))],
+    compute: function (value) {
+        return Math.sinh(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SQRT
+// -----------------------------------------------------------------------------
+const SQRT = {
+    description: _t("Positive square root of a positive number."),
+    args: [arg("value (number)", _t("The number for which to calculate the positive square root."))],
+    compute: function (value) {
+        const _value = toNumber(value, this.locale);
+        assert(() => _value >= 0, _t("The value (%s) must be positive or null.", _value.toString()));
+        return { value: Math.sqrt(_value), format: value?.format };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SUM
+// -----------------------------------------------------------------------------
+const SUM = {
+    description: _t("Sum of a series of numbers and/or cells."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first number or range to add together.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional numbers or ranges to add to value1.")),
+    ],
+    compute: function (...values) {
+        const v1 = values[0];
+        return {
+            value: sum(values, this.locale),
+            format: inferFormat(v1),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SUMIF
+// -----------------------------------------------------------------------------
+const SUMIF = {
+    description: _t("A conditional sum across a range."),
+    args: [
+        arg("criteria_range (range)", _t("The range which is tested against criterion.")),
+        arg("criterion (string)", _t("The pattern or test to apply to range.")),
+        arg("sum_range (range, default=criteria_range)", _t("The range to be summed, if different from range.")),
+    ],
+    compute: function (criteriaRange, criterion, sumRange) {
+        if (sumRange === undefined) {
+            sumRange = criteriaRange;
+        }
+        let sum = 0;
+        visitMatchingRanges([criteriaRange, criterion], (i, j) => {
+            const value = sumRange[i]?.[j]?.value;
+            if (typeof value === "number") {
+                sum += value;
+            }
+        }, this.locale);
+        return sum;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SUMIFS
+// -----------------------------------------------------------------------------
+const SUMIFS = {
+    description: _t("Sums a range depending on multiple criteria."),
+    args: [
+        arg("sum_range (range)", _t("The range to sum.")),
+        arg("criteria_range1 (range)", _t("The range to check against criterion1.")),
+        arg("criterion1 (string)", _t("The pattern or test to apply to criteria_range1.")),
+        arg("criteria_range2 (any, range, repeating)", _t("Additional ranges to check.")),
+        arg("criterion2 (string, repeating)", _t("Additional criteria to check.")),
+    ],
+    compute: function (sumRange, ...criters) {
+        let sum = 0;
+        visitMatchingRanges(criters, (i, j) => {
+            const value = sumRange[i]?.[j]?.value;
+            if (typeof value === "number") {
+                sum += value;
+            }
+        }, this.locale);
+        return sum;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TAN
+// -----------------------------------------------------------------------------
+const TAN = {
+    description: _t("Tangent of an angle provided in radians."),
+    args: [arg("angle (number)", _t("The angle to find the tangent of, in radians."))],
+    compute: function (angle) {
+        return Math.tan(toNumber(angle, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TANH
+// -----------------------------------------------------------------------------
+const TANH = {
+    description: _t("Hyperbolic tangent of any real number."),
+    args: [arg("value (number)", _t("Any real value to calculate the hyperbolic tangent of."))],
+    compute: function (value) {
+        return Math.tanh(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TRUNC
+// -----------------------------------------------------------------------------
+function trunc(value, places) {
+    if (places === 0) {
+        return Math.trunc(value);
+    }
+    if (!Number.isInteger(places)) {
+        places = Math.trunc(places);
+    }
+    return Math.trunc(value * Math.pow(10, places)) / Math.pow(10, places);
+}
+const TRUNC = {
+    description: _t("Truncates a number."),
+    args: [
+        arg("value (number)", _t("The value to be truncated.")),
+        arg(`places (number, default=${DEFAULT_PLACES})`, _t("The number of significant digits to the right of the decimal point to retain.")),
+    ],
+    compute: function (value, places = { value: DEFAULT_PLACES }) {
+        const _value = toNumber(value, this.locale);
+        const _places = toNumber(places, this.locale);
+        return { value: trunc(_value, _places), format: value?.format };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// INT
+// -----------------------------------------------------------------------------
+const INT = {
+    description: _t("Rounds a number down to the nearest integer that is less than or equal to it."),
+    args: [arg("value (number)", _t("The number to round down to the nearest integer."))],
+    compute: function (value) {
+        return Math.floor(toNumber(value, this.locale));
+    },
+    isExported: true,
+};
+
+var math = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    ABS: ABS,
+    ACOS: ACOS,
+    ACOSH: ACOSH,
+    ACOT: ACOT,
+    ACOTH: ACOTH,
+    ASIN: ASIN,
+    ASINH: ASINH,
+    ATAN: ATAN,
+    ATAN2: ATAN2,
+    ATANH: ATANH,
+    CEILING: CEILING,
+    CEILING_MATH: CEILING_MATH,
+    CEILING_PRECISE: CEILING_PRECISE,
+    COS: COS,
+    COSH: COSH,
+    COT: COT,
+    COTH: COTH,
+    COUNTBLANK: COUNTBLANK,
+    COUNTIF: COUNTIF,
+    COUNTIFS: COUNTIFS,
+    COUNTUNIQUE: COUNTUNIQUE,
+    COUNTUNIQUEIFS: COUNTUNIQUEIFS,
+    CSC: CSC,
+    CSCH: CSCH,
+    DECIMAL: DECIMAL,
+    DEGREES: DEGREES,
+    EXP: EXP,
+    FLOOR: FLOOR,
+    FLOOR_MATH: FLOOR_MATH,
+    FLOOR_PRECISE: FLOOR_PRECISE,
+    INT: INT,
+    ISEVEN: ISEVEN,
+    ISODD: ISODD,
+    ISO_CEILING: ISO_CEILING,
+    LN: LN,
+    LOG: LOG,
+    MOD: MOD,
+    MUNIT: MUNIT,
+    ODD: ODD,
+    PI: PI,
+    POWER: POWER,
+    PRODUCT: PRODUCT,
+    RAND: RAND,
+    RANDARRAY: RANDARRAY,
+    RANDBETWEEN: RANDBETWEEN,
+    ROUND: ROUND,
+    ROUNDDOWN: ROUNDDOWN,
+    ROUNDUP: ROUNDUP,
+    SEC: SEC,
+    SECH: SECH,
+    SEQUENCE: SEQUENCE,
+    SIN: SIN,
+    SINH: SINH,
+    SQRT: SQRT,
+    SUM: SUM,
+    SUMIF: SUMIF,
+    SUMIFS: SUMIFS,
+    TAN: TAN,
+    TANH: TANH,
+    TRUNC: TRUNC
+});
+
+function filterAndFlatData(dataY, dataX) {
+    const _flatDataY = [];
+    const _flatDataX = [];
+    let lenY = 0;
+    let lenX = 0;
+    visitAny([dataY], (y) => {
+        _flatDataY.push(y);
+        lenY += 1;
+    });
+    visitAny([dataX], (x) => {
+        _flatDataX.push(x);
+        lenX += 1;
+    });
+    assert(() => lenY === lenX, _t("[[FUNCTION_NAME]] has mismatched argument count %s vs %s.", lenY, lenX));
+    const flatDataX = [];
+    const flatDataY = [];
+    for (let i = 0; i < lenY; i++) {
+        const valueY = _flatDataY[i]?.value;
+        const valueX = _flatDataX[i]?.value;
+        if (typeof valueY === "number" && typeof valueX === "number") {
+            flatDataY.push(valueY);
+            flatDataX.push(valueX);
+        }
+    }
+    return { flatDataX, flatDataY };
+}
+// Note: dataY and dataX may not have the same dimension
+function covariance(dataY, dataX, isSample) {
+    const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+    const count = flatDataY.length;
+    assert(() => count !== 0 && (!isSample || count !== 1), _t("Evaluation of function [[FUNCTION_NAME]] caused a divide by zero error."), CellErrorType.DivisionByZero);
+    let sumY = 0;
+    let sumX = 0;
+    for (let i = 0; i < count; i++) {
+        sumY += flatDataY[i];
+        sumX += flatDataX[i];
+    }
+    const averageY = sumY / count;
+    const averageX = sumX / count;
+    let acc = 0;
+    for (let i = 0; i < count; i++) {
+        acc += (flatDataY[i] - averageY) * (flatDataX[i] - averageX);
+    }
+    return acc / (count - (isSample ? 1 : 0));
+}
+function variance(args, isSample, textAs0, locale) {
+    let count = 0;
+    let sum = 0;
+    const reduceFunction = textAs0 ? reduceNumbersTextAs0 : reduceNumbers;
+    sum = reduceFunction(args, (acc, a) => {
+        count += 1;
+        return acc + a;
+    }, 0, locale);
+    assert(() => count !== 0 && (!isSample || count !== 1), _t("Evaluation of function [[FUNCTION_NAME]] caused a divide by zero error."), CellErrorType.DivisionByZero);
+    const average = sum / count;
+    return (reduceFunction(args, (acc, a) => acc + Math.pow(a - average, 2), 0, locale) /
+        (count - (isSample ? 1 : 0)));
+}
+function centile(data, percent, isInclusive, locale) {
+    const _percent = toNumber(percent, locale);
+    assert(() => (isInclusive ? 0 <= _percent && _percent <= 1 : 0 < _percent && _percent < 1), _t("Function [[FUNCTION_NAME]] parameter 2 value is out of range."));
+    let sortedArray = [];
+    let index;
+    let count = 0;
+    visitAny(data, (d) => {
+        const value = d?.value;
+        if (typeof value === "number") {
+            index = dichotomicSearch(sortedArray, d, "nextSmaller", "asc", sortedArray.length, (array, i) => array[i]);
+            sortedArray.splice(index + 1, 0, value);
+            count++;
+        }
+    });
+    assert(() => count !== 0, _t("[[FUNCTION_NAME]] has no valid input data."));
+    if (!isInclusive) {
+        // 2nd argument must be between 1/(n+1) and n/(n+1) with n the number of data
+        assert(() => 1 / (count + 1) <= _percent && _percent <= count / (count + 1), _t("Function [[FUNCTION_NAME]] parameter 2 value is out of range."));
+    }
+    return percentile(sortedArray, _percent, isInclusive);
+}
+// -----------------------------------------------------------------------------
+// AVEDEV
+// -----------------------------------------------------------------------------
+const AVEDEV = {
+    description: _t("Average magnitude of deviations from mean."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the sample.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the sample.")),
+    ],
+    compute: function (...values) {
+        let count = 0;
+        const sum = reduceNumbers(values, (acc, a) => {
+            count += 1;
+            return acc + a;
+        }, 0, this.locale);
+        assertNotZero(count);
+        const average = sum / count;
+        return reduceNumbers(values, (acc, a) => acc + Math.abs(average - a), 0, this.locale) / count;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// AVERAGE
+// -----------------------------------------------------------------------------
+const AVERAGE = {
+    description: _t("Numerical average value in a dataset, ignoring text."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range to consider when calculating the average value.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to consider when calculating the average value.")),
+    ],
+    compute: function (...values) {
+        return {
+            value: average(values, this.locale),
+            format: inferFormat(values[0]),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// AVERAGE.WEIGHTED
+// -----------------------------------------------------------------------------
+const rangeError = _t("[[FUNCTION_NAME]] has mismatched range sizes.");
+const negativeWeightError = _t("[[FUNCTION_NAME]] expects the weight to be positive or equal to 0.");
+const AVERAGE_WEIGHTED = {
+    description: _t("Weighted average."),
+    args: [
+        arg("values (number, range<number>)", _t("Values to average.")),
+        arg("weights (number, range<number>)", _t("Weights for each corresponding value.")),
+        arg("additional_values (number, range<number>, repeating)", _t("Additional values to average.")),
+        arg("additional_weights (number, range<number>, repeating)", _t("Additional weights.")),
+    ],
+    compute: function (...args) {
+        let sum = 0;
+        let count = 0;
+        for (let n = 0; n < args.length - 1; n += 2) {
+            const argN = args[n];
+            const argN1 = args[n + 1];
+            assertSameDimensions(rangeError, argN, argN1);
+            if (isMatrix(argN)) {
+                for (let i = 0; i < argN.length; i++) {
+                    for (let j = 0; j < argN[0].length; j++) {
+                        const value = argN[i][j].value;
+                        const weight = isMatrix(argN1) ? argN1?.[i][j].value : toNumber(argN1, this.locale);
+                        const valueIsNumber = typeof value === "number";
+                        const weightIsNumber = typeof weight === "number";
+                        if (valueIsNumber && weightIsNumber) {
+                            assert(() => weight >= 0, negativeWeightError);
+                            sum += value * weight;
+                            count += weight;
+                            continue;
+                        }
+                        assert(() => valueIsNumber === weightIsNumber, _t("[[FUNCTION_NAME]] expects number values."));
+                    }
+                }
+            }
+            else {
+                const value = toNumber(argN, this.locale);
+                const weight = isMatrix(argN1) ? argN1?.[0][0].value : toNumber(argN1, this.locale);
+                if (typeof weight === "number") {
+                    assert(() => weight >= 0, negativeWeightError);
+                    sum += value * weight;
+                    count += weight;
+                }
+            }
+        }
+        assertNotZero(count);
+        return { value: sum / count, format: inferFormat(args[0]) };
+    },
+};
+// -----------------------------------------------------------------------------
+// AVERAGEA
+// -----------------------------------------------------------------------------
+const AVERAGEA = {
+    description: _t("Numerical average value in a dataset."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range to consider when calculating the average value.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to consider when calculating the average value.")),
+    ],
+    compute: function (...args) {
+        let count = 0;
+        const sum = reduceNumbersTextAs0(args, (acc, a) => {
+            count += 1;
+            return acc + a;
+        }, 0, this.locale);
+        assertNotZero(count);
+        return {
+            value: sum / count,
+            format: inferFormat(args[0]),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// AVERAGEIF
+// -----------------------------------------------------------------------------
+const AVERAGEIF = {
+    description: _t("Average of values depending on criteria."),
+    args: [
+        arg("criteria_range (number, range<number>)", _t("The range to check against criterion.")),
+        arg("criterion (string)", _t("The pattern or test to apply to criteria_range.")),
+        arg("average_range (number, range<number>, default=criteria_range)", _t("The range to average. If not included, criteria_range is used for the average instead.")),
+    ],
+    compute: function (criteriaRange, criterion, averageRange) {
+        const _averageRange = averageRange === undefined ? toMatrix(criteriaRange) : toMatrix(averageRange);
+        let count = 0;
+        let sum = 0;
+        visitMatchingRanges([criteriaRange, criterion], (i, j) => {
+            const value = _averageRange[i]?.[j]?.value;
+            if (typeof value === "number") {
+                count += 1;
+                sum += value;
+            }
+        }, this.locale);
+        assertNotZero(count);
+        return sum / count;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// AVERAGEIFS
+// -----------------------------------------------------------------------------
+const AVERAGEIFS = {
+    description: _t("Average of values depending on multiple criteria."),
+    args: [
+        arg("average_range (range)", _t("The range to average.")),
+        arg("criteria_range1 (range)", _t("The range to check against criterion1.")),
+        arg("criterion1 (string)", _t("The pattern or test to apply to criteria_range1.")),
+        arg("criteria_range2 (any, range, repeating)", _t("Additional criteria_range and criterion to check.")),
+        arg("criterion2 (string, repeating)", _t("The pattern or test to apply to criteria_range2.")),
+    ],
+    compute: function (averageRange, ...args) {
+        const _averageRange = toMatrix(averageRange);
+        let count = 0;
+        let sum = 0;
+        visitMatchingRanges(args, (i, j) => {
+            const value = _averageRange[i]?.[j]?.value;
+            if (typeof value === "number") {
+                count += 1;
+                sum += value;
+            }
+        }, this.locale);
+        assertNotZero(count);
+        return sum / count;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUNT
+// -----------------------------------------------------------------------------
+const COUNT = {
+    description: _t("The number of numeric values in dataset."),
+    args: [
+        arg("value1 (number, any, range<number>)", _t("The first value or range to consider when counting.")),
+        arg("value2 (number, any, range<number>, repeating)", _t("Additional values or ranges to consider when counting.")),
+    ],
+    compute: function (...values) {
+        return countNumbers(values, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUNTA
+// -----------------------------------------------------------------------------
+const COUNTA = {
+    description: _t("The number of values in a dataset."),
+    args: [
+        arg("value1 (any, range)", _t("The first value or range to consider when counting.")),
+        arg("value2 (any, range, repeating)", _t("Additional values or ranges to consider when counting.")),
+    ],
+    compute: function (...values) {
+        return countAny(values);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COVAR
+// -----------------------------------------------------------------------------
+// Note: Unlike the VAR function which corresponds to the variance over a sample (VAR.S),
+// the COVAR function corresponds to the covariance over an entire population (COVAR.P)
+const COVAR = {
+    description: _t("The covariance of a dataset."),
+    args: [
+        arg("data_y (any, range)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (any, range)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        return covariance(dataY, dataX, false);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COVARIANCE.P
+// -----------------------------------------------------------------------------
+const COVARIANCE_P = {
+    description: _t("The covariance of a dataset."),
+    args: [
+        arg("data_y (any, range)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (any, range)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        return covariance(dataY, dataX, false);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COVARIANCE.S
+// -----------------------------------------------------------------------------
+const COVARIANCE_S = {
+    description: _t("The sample covariance of a dataset."),
+    args: [
+        arg("data_y (any, range)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (any, range)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        return covariance(dataY, dataX, true);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FORECAST
+// -----------------------------------------------------------------------------
+const FORECAST = {
+    description: _t("Calculates the expected y-value for a specified x based on a linear regression of a dataset."),
+    args: [
+        arg("x (number, range<number>)", _t("The value(s) on the x-axis to forecast.")),
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (x, dataY, dataX) {
+        const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+        assertNonEmpty(flatDataX, flatDataY);
+        return predictLinearValues([flatDataY], [flatDataX], matrixMap(toMatrix(x), (value) => toNumber(value, this.locale)), true);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// GROWTH
+// -----------------------------------------------------------------------------
+const GROWTH = {
+    description: _t("Fits points to exponential growth trend."),
+    args: [
+        arg("known_data_y (range<number>)", _t("The array or range containing dependent (y) values that are already known, used to curve fit an ideal exponential growth curve.")),
+        arg("known_data_x (range<number>, default={1;2;3;...})", _t("The values of the independent variable(s) corresponding with known_data_y.")),
+        arg("new_data_x (any, range, default=known_data_x)", _t("The data points to return the y values for on the ideal curve fit.")),
+        arg("b (boolean, default=TRUE)", _t("Given a general exponential form of y = b*m^x for a curve fit, calculates b if TRUE or forces b to be 1 and only calculates the m values if FALSE.")),
+    ],
+    compute: function (knownDataY, knownDataX = [[]], newDataX = [[]], b = { value: true }) {
+        assertNonEmptyMatrix(knownDataY, "known_data_y");
+        return expM(predictLinearValues(logM(toNumberMatrix(knownDataY, "known_data_y")), toNumberMatrix(knownDataX, "known_data_x"), toNumberMatrix(newDataX, "new_data_y"), toBoolean(b)));
+    },
+};
+// -----------------------------------------------------------------------------
+// INTERCEPT
+// -----------------------------------------------------------------------------
+const INTERCEPT = {
+    description: _t("Compute the intercept of the linear regression."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+        assertNonEmpty(flatDataX, flatDataY);
+        const [[], [intercept]] = fullLinearRegression([flatDataX], [flatDataY]);
+        return intercept;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LARGE
+// -----------------------------------------------------------------------------
+const LARGE = {
+    description: _t("Nth largest element from a data set."),
+    args: [
+        arg("data (any, range)", _t("Array or range containing the dataset to consider.")),
+        arg("n (number)", _t("The rank from largest to smallest of the element to return.")),
+    ],
+    compute: function (data, n) {
+        const _n = Math.trunc(toNumber(n?.value, this.locale));
+        let largests = [];
+        let index;
+        let count = 0;
+        visitAny([data], (d) => {
+            if (typeof d?.value === "number") {
+                index = dichotomicSearch(largests, d, "nextSmaller", "asc", largests.length, (array, i) => array[i].value);
+                largests.splice(index + 1, 0, d);
+                count++;
+                if (count > _n) {
+                    largests.shift();
+                    count--;
+                }
+            }
+        });
+        const result = largests.shift();
+        assert(() => result !== undefined, _t("[[FUNCTION_NAME]] has no valid input data."));
+        assert(() => count >= _n, _t("Function [[FUNCTION_NAME]] parameter 2 value (%s) is out of range.", _n));
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LINEST
+// -----------------------------------------------------------------------------
+const LINEST = {
+    description: _t("Given partial data about a linear trend, calculates various parameters about the ideal linear trend using the least-squares method."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>, default={1;2;3;...})", _t("The range representing the array or matrix of independent data.")),
+        arg("calculate_b (boolean, default=TRUE)", _t("A flag specifying wheter to compute the slope or not")),
+        arg("verbose (boolean, default=FALSE)", _t("A flag specifying whether to return additional regression statistics or only the linear coefficients and the y-intercept")),
+    ],
+    compute: function (dataY, dataX = [[]], calculateB = { value: true }, verbose = { value: false }) {
+        assertNonEmptyMatrix(dataY, "data_y");
+        return fullLinearRegression(toNumberMatrix(dataX, "data_x"), toNumberMatrix(dataY, "data_y"), toBoolean(calculateB), toBoolean(verbose));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LOGEST
+// -----------------------------------------------------------------------------
+const LOGEST = {
+    description: _t("Given partial data about an exponential growth curve, calculates various parameters about the best fit ideal exponential growth curve."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>, optional, default={1;2;3;...})", _t("The range representing the array or matrix of independent data.")),
+        arg("calculate_b (boolean, default=TRUE)", _t("A flag specifying wheter to compute the slope or not")),
+        arg("verbose (boolean, default=FALSE)", _t("A flag specifying whether to return additional regression statistics or only the linear coefficients and the y-intercept")),
+    ],
+    compute: function (dataY, dataX = [[]], calculateB = { value: true }, verbose = { value: false }) {
+        assertNonEmptyMatrix(dataY, "data_y");
+        const coeffs = fullLinearRegression(toNumberMatrix(dataX, "data_x"), logM(toNumberMatrix(dataY, "data_y")), toBoolean(calculateB), toBoolean(verbose));
+        for (let i = 0; i < coeffs.length; i++) {
+            coeffs[i][0] = Math.exp(coeffs[i][0]);
+        }
+        return coeffs;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MATTHEWS
+// -----------------------------------------------------------------------------
+const MATTHEWS = {
+    description: _t("Compute the Matthews correlation coefficient of a dataset."),
+    args: [
+        arg("data_x (range)", _t("The range representing the array or matrix of observed data.")),
+        arg("data_y (range)", _t("The range representing the array or matrix of predicted data.")),
+    ],
+    compute: function (dataX, dataY) {
+        const flatX = dataX.flat();
+        const flatY = dataY.flat();
+        assertSameNumberOfElements(flatX, flatY);
+        assertNonEmpty(flatX, flatY);
+        const n = flatX.length;
+        let trueN = 0, trueP = 0, falseP = 0, falseN = 0;
+        for (let i = 0; i < n; ++i) {
+            const isTrue1 = toBoolean(flatX[i]);
+            const isTrue2 = toBoolean(flatY[i]);
+            if (isTrue1 === isTrue2) {
+                if (isTrue1) {
+                    trueP++;
+                }
+                else {
+                    trueN++;
+                }
+            }
+            else {
+                if (isTrue1) {
+                    falseN++;
+                }
+                else {
+                    falseP++;
+                }
+            }
+        }
+        return ((trueP * trueN - falseP * falseN) /
+            Math.sqrt((trueP + falseP) * (trueP + falseN) * (trueN + falseP) * (trueN + falseN)));
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// MAX
+// -----------------------------------------------------------------------------
+const MAX = {
+    description: _t("Maximum value in a numeric dataset."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range to consider when calculating the maximum value.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to consider when calculating the maximum value.")),
+    ],
+    compute: function (...values) {
+        return max(values, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MAXA
+// -----------------------------------------------------------------------------
+const MAXA = {
+    description: _t("Maximum numeric value in a dataset."),
+    args: [
+        arg("value1 (any, range)", _t("The first value or range to consider when calculating the maximum value.")),
+        arg("value2 (any, range, repeating)", _t("Additional values or ranges to consider when calculating the maximum value.")),
+    ],
+    compute: function (...args) {
+        const maxa = reduceNumbersTextAs0(args, (acc, a) => {
+            return Math.max(a, acc);
+        }, -Infinity, this.locale);
+        return { value: maxa === -Infinity ? 0 : maxa, format: inferFormat(args[0]) };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MAXIFS
+// -----------------------------------------------------------------------------
+const MAXIFS = {
+    description: _t("Returns the maximum value in a range of cells, filtered by a set of criteria."),
+    args: [
+        arg("range (range)", _t("The range of cells from which the maximum will be determined.")),
+        arg("criteria_range1 (range)", _t("The range of cells over which to evaluate criterion1.")),
+        arg("criterion1 (string)", _t("The pattern or test to apply to criteria_range1, such that each cell that evaluates to TRUE will be included in the filtered set.")),
+        arg("criteria_range2 (any, range, repeating)", _t("Additional ranges over which to evaluate the additional criteria. The filtered set will be the intersection of the sets produced by each criterion-range pair.")),
+        arg("criterion2 (string, repeating)", _t("The pattern or test to apply to criteria_range2.")),
+    ],
+    compute: function (range, ...args) {
+        let result = -Infinity;
+        visitMatchingRanges(args, (i, j) => {
+            const value = range[i]?.[j]?.value;
+            if (typeof value === "number") {
+                result = result < value ? value : result;
+            }
+        }, this.locale);
+        return result === -Infinity ? 0 : result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MEDIAN
+// -----------------------------------------------------------------------------
+const MEDIAN = {
+    description: _t("Median value in a numeric dataset."),
+    args: [
+        arg("value1 (any, range)", _t("The first value or range to consider when calculating the median value.")),
+        arg("value2 (any, range, repeating)", _t("Additional values or ranges to consider when calculating the median value.")),
+    ],
+    compute: function (...values) {
+        let data = [];
+        visitNumbers(values, (value) => {
+            data.push(value);
+        }, this.locale);
+        return {
+            value: centile(data, { value: 0.5 }, true, this.locale),
+            format: inferFormat(data[0]),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MIN
+// -----------------------------------------------------------------------------
+const MIN = {
+    description: _t("Minimum value in a numeric dataset."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range to consider when calculating the minimum value.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to consider when calculating the minimum value.")),
+    ],
+    compute: function (...values) {
+        return min(values, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MINA
+// -----------------------------------------------------------------------------
+const MINA = {
+    description: _t("Minimum numeric value in a dataset."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range to consider when calculating the minimum value.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to consider when calculating the minimum value.")),
+    ],
+    compute: function (...args) {
+        const mina = reduceNumbersTextAs0(args, (acc, a) => {
+            return Math.min(a, acc);
+        }, Infinity, this.locale);
+        return { value: mina === Infinity ? 0 : mina, format: inferFormat(args[0]) };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MINIFS
+// -----------------------------------------------------------------------------
+const MINIFS = {
+    description: _t("Returns the minimum value in a range of cells, filtered by a set of criteria."),
+    args: [
+        arg("range (range)", _t("The range of cells from which the minimum will be determined.")),
+        arg("criteria_range1 (range)", _t("The range of cells over which to evaluate criterion1.")),
+        arg("criterion1 (string)", _t("The pattern or test to apply to criteria_range1, such that each cell that evaluates to TRUE will be included in the filtered set.")),
+        arg("criteria_range2 (any, range, repeating)", _t("Additional ranges over which to evaluate the additional criteria. The filtered set will be the intersection of the sets produced by each criterion-range pair.")),
+        arg("criterion2 (string, repeating)", _t("The pattern or test to apply to criteria_range2.")),
+    ],
+    compute: function (range, ...args) {
+        let result = Infinity;
+        visitMatchingRanges(args, (i, j) => {
+            const value = range[i]?.[j]?.value;
+            if (typeof value === "number") {
+                result = result > value ? value : result;
+            }
+        }, this.locale);
+        return result === Infinity ? 0 : result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PEARSON
+// -----------------------------------------------------------------------------
+function pearson(dataY, dataX) {
+    const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+    assertNonEmpty(flatDataX, flatDataY);
+    const n = flatDataX.length;
+    let sumX = 0, sumY = 0, sumXY = 0, sumXX = 0, sumYY = 0;
+    for (let i = 0; i < n; i++) {
+        const xij = flatDataX[i];
+        const yij = flatDataY[i];
+        sumX += xij;
+        sumY += yij;
+        sumXY += xij * yij;
+        sumXX += xij * xij;
+        sumYY += yij * yij;
+    }
+    return ((n * sumXY - sumX * sumY) / Math.sqrt((n * sumXX - sumX * sumX) * (n * sumYY - sumY * sumY)));
+}
+const PEARSON = {
+    description: _t("Compute the Pearson product-moment correlation coefficient of a dataset."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        return pearson(dataY, dataX);
+    },
+    isExported: true,
+};
+// CORREL
+// In GSheet, CORREL is just an alias to PEARSON
+const CORREL = PEARSON;
+// -----------------------------------------------------------------------------
+// PERCENTILE
+// -----------------------------------------------------------------------------
+const PERCENTILE = {
+    description: _t("Value at a given percentile of a dataset."),
+    args: [
+        arg("data (any, range)", _t("The array or range containing the dataset to consider.")),
+        arg("percentile (number)", _t("The percentile whose value within data will be calculated and returned.")),
+    ],
+    compute: function (data, percentile) {
+        return PERCENTILE_INC.compute.bind(this)(data, percentile);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PERCENTILE.EXC
+// -----------------------------------------------------------------------------
+const PERCENTILE_EXC = {
+    description: _t("Value at a given percentile of a dataset exclusive of 0 and 1."),
+    args: [
+        arg("data (any, range)", _t("The array or range containing the dataset to consider.")),
+        arg("percentile (number)", _t("The percentile, exclusive of 0 and 1, whose value within 'data' will be calculated and returned.")),
+    ],
+    compute: function (data, percentile) {
+        return {
+            value: centile([data], percentile, false, this.locale),
+            format: inferFormat(data),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PERCENTILE.INC
+// -----------------------------------------------------------------------------
+const PERCENTILE_INC = {
+    description: _t("Value at a given percentile of a dataset."),
+    args: [
+        arg("data (any, range)", _t("The array or range containing the dataset to consider.")),
+        arg("percentile (number)", _t("The percentile whose value within data will be calculated and returned.")),
+    ],
+    compute: function (data, percentile) {
+        return {
+            value: centile([data], percentile, true, this.locale),
+            format: inferFormat(data),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// POLYFIT
+// -----------------------------------------------------------------------------
+const POLYFIT_COEFFS = {
+    description: _t("Compute the coefficients of polynomial regression of the dataset."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+        arg("order (number)", _t("The order of the polynomial to fit the data, between 1 and 6.")),
+        arg("intercept (boolean, default=TRUE)", _t("A flag specifying whether to compute the intercept or not.")),
+    ],
+    compute: function (dataY, dataX, order, intercept = { value: true }) {
+        const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+        assertNonEmpty(flatDataX, flatDataY);
+        return polynomialRegression(flatDataY, flatDataX, toNumber(order, this.locale), toBoolean(intercept));
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// POLYFIT.FORECAST
+// -----------------------------------------------------------------------------
+const POLYFIT_FORECAST = {
+    description: _t("Predict value by computing a polynomial regression of the dataset."),
+    args: [
+        arg("x (number, range<number>)", _t("The value(s) on the x-axis to forecast.")),
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+        arg("order (number)", _t("The order of the polynomial to fit the data, between 1 and 6.")),
+        arg("intercept (boolean, default=TRUE)", _t("A flag specifying whether to compute the intercept or not.")),
+    ],
+    compute: function (x, dataY, dataX, order, intercept = { value: true }) {
+        const _order = toNumber(order, this.locale);
+        const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+        assertNonEmpty(flatDataX, flatDataY);
+        const coeffs = polynomialRegression(flatDataY, flatDataX, _order, toBoolean(intercept)).flat();
+        return matrixMap(toMatrix(x), (xij) => evaluatePolynomial(coeffs, toNumber(xij, this.locale), _order));
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// QUARTILE
+// -----------------------------------------------------------------------------
+const QUARTILE = {
+    description: _t("Value nearest to a specific quartile of a dataset."),
+    args: [
+        arg("data (any, range)", _t("The array or range containing the dataset to consider.")),
+        arg("quartile_number (number)", _t("Which quartile value to return.")),
+    ],
+    compute: function (data, quartileNumber) {
+        return QUARTILE_INC.compute.bind(this)(data, quartileNumber);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// QUARTILE.EXC
+// -----------------------------------------------------------------------------
+const QUARTILE_EXC = {
+    description: _t("Value nearest to a specific quartile of a dataset exclusive of 0 and 4."),
+    args: [
+        arg("data (any, range)", _t("The array or range containing the dataset to consider.")),
+        arg("quartile_number (number)", _t("Which quartile value, exclusive of 0 and 4, to return.")),
+    ],
+    compute: function (data, quartileNumber) {
+        const _quartileNumber = Math.trunc(toNumber(quartileNumber, this.locale));
+        const percent = { value: 0.25 * _quartileNumber };
+        return {
+            value: centile([data], percent, false, this.locale),
+            format: inferFormat(data),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// QUARTILE.INC
+// -----------------------------------------------------------------------------
+const QUARTILE_INC = {
+    description: _t("Value nearest to a specific quartile of a dataset."),
+    args: [
+        arg("data (any, range)", _t("The array or range containing the dataset to consider.")),
+        arg("quartile_number (number)", _t("Which quartile value to return.")),
+    ],
+    compute: function (data, quartileNumber) {
+        const percent = { value: 0.25 * Math.trunc(toNumber(quartileNumber, this.locale)) };
+        return {
+            value: centile([data], percent, true, this.locale),
+            format: inferFormat(data),
+        };
+    },
+    isExported: true,
+};
+// RANK
+// -----------------------------------------------------------------------------
+const RANK = {
+    description: _t("Returns the rank of a specified value in a dataset."),
+    args: [
+        arg("value (number)", _t("The value whose rank will be determined.")),
+        arg("data (range)", _t("The range containing the dataset to consider.")),
+        arg("is_ascending (boolean, default=FALSE)", _t("Whether to consider the values in data in descending or ascending order.")),
+    ],
+    compute: function (value, data, isAscending = { value: false }) {
+        const _isAscending = toBoolean(isAscending);
+        const _value = toNumber(value, this.locale);
+        let rank = 1;
+        let found = false;
+        for (const row of data) {
+            for (const cell of row) {
+                if (typeof cell.value !== "number") {
+                    continue;
+                }
+                const _cell = toNumber(cell, this.locale);
+                if (_cell === _value) {
+                    found = true;
+                }
+                else if (_cell > _value !== _isAscending) {
+                    rank++;
+                }
+            }
+        }
+        if (!found) {
+            return new NotAvailableError(_t("Value not found in the given data."));
+        }
+        return rank;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RSQ
+// -----------------------------------------------------------------------------
+const RSQ = {
+    description: _t("Compute the square of r, the Pearson product-moment correlation coefficient of a dataset."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        return Math.pow(pearson(dataX, dataY), 2.0);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SLOPE
+// -----------------------------------------------------------------------------
+const SLOPE = {
+    description: _t("Compute the slope of the linear regression."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+        assertNonEmpty(flatDataX, flatDataY);
+        const [[slope]] = fullLinearRegression([flatDataX], [flatDataY]);
+        return slope;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SMALL
+// -----------------------------------------------------------------------------
+const SMALL = {
+    description: _t("Nth smallest element in a data set."),
+    args: [
+        arg("data (any, range)", _t("The array or range containing the dataset to consider.")),
+        arg("n (number)", _t("The rank from smallest to largest of the element to return.")),
+    ],
+    compute: function (data, n) {
+        const _n = Math.trunc(toNumber(n?.value, this.locale));
+        let largests = [];
+        let index;
+        let count = 0;
+        visitAny([data], (d) => {
+            if (typeof d?.value === "number") {
+                index = dichotomicSearch(largests, d, "nextSmaller", "asc", largests.length, (array, i) => array[i].value);
+                largests.splice(index + 1, 0, d);
+                count++;
+                if (count > _n) {
+                    largests.pop();
+                    count--;
+                }
+            }
+        });
+        const result = largests.pop();
+        assert(() => result !== undefined, _t("[[FUNCTION_NAME]] has no valid input data."));
+        assert(() => count >= _n, _t("Function [[FUNCTION_NAME]] parameter 2 value (%s) is out of range.", _n));
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SPEARMAN
+// -----------------------------------------------------------------------------
+const SPEARMAN = {
+    description: _t("Compute the Spearman rank correlation coefficient of a dataset."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataX, dataY) {
+        const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+        assertNonEmpty(flatDataX, flatDataY);
+        const n = flatDataX.length;
+        const order = flatDataX.map((e, i) => [e, flatDataY[i]]);
+        order.sort((a, b) => a[0] - b[0]);
+        for (let i = 0; i < n; ++i) {
+            order[i][0] = i;
+        }
+        order.sort((a, b) => a[1] - b[1]);
+        let sum = 0.0;
+        for (let i = 0; i < n; ++i) {
+            sum += (order[i][0] - i) ** 2;
+        }
+        return 1 - (6 * sum) / (n ** 3 - n);
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// STDEV
+// -----------------------------------------------------------------------------
+const STDEV = {
+    description: _t("Standard deviation."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the sample.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the sample.")),
+    ],
+    compute: function (...args) {
+        return Math.sqrt(VAR.compute.bind(this)(...args));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// STDEV.P
+// -----------------------------------------------------------------------------
+const STDEV_P = {
+    description: _t("Standard deviation of entire population."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the population.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the population.")),
+    ],
+    compute: function (...args) {
+        return Math.sqrt(VAR_P.compute.bind(this)(...args));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// STDEV.S
+// -----------------------------------------------------------------------------
+const STDEV_S = {
+    description: _t("Standard deviation."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the sample.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the sample.")),
+    ],
+    compute: function (...args) {
+        return Math.sqrt(VAR_S.compute.bind(this)(...args));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// STDEVA
+// -----------------------------------------------------------------------------
+const STDEVA = {
+    description: _t("Standard deviation of sample (text as 0)."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the sample.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the sample.")),
+    ],
+    compute: function (...args) {
+        return Math.sqrt(VARA.compute.bind(this)(...args));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// STDEVP
+// -----------------------------------------------------------------------------
+const STDEVP = {
+    description: _t("Standard deviation of entire population."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the population.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the population.")),
+    ],
+    compute: function (...args) {
+        return Math.sqrt(VARP.compute.bind(this)(...args));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// STDEVPA
+// -----------------------------------------------------------------------------
+const STDEVPA = {
+    description: _t("Standard deviation of entire population (text as 0)."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the population.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the population.")),
+    ],
+    compute: function (...args) {
+        return Math.sqrt(VARPA.compute.bind(this)(...args));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// STEYX
+// -----------------------------------------------------------------------------
+const STEYX = {
+    description: _t("Calculates the standard error of the predicted y-value for each x in the regression of a dataset."),
+    args: [
+        arg("data_y (range<number>)", _t("The range representing the array or matrix of dependent data.")),
+        arg("data_x (range<number>)", _t("The range representing the array or matrix of independent data.")),
+    ],
+    compute: function (dataY, dataX) {
+        const { flatDataX, flatDataY } = filterAndFlatData(dataY, dataX);
+        assertNonEmpty(flatDataX, flatDataY);
+        const data = fullLinearRegression([flatDataX], [flatDataY], true, true);
+        return data[1][2];
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TREND
+// -----------------------------------------------------------------------------
+const TREND = {
+    description: _t("Fits points to linear trend derived via least-squares."),
+    args: [
+        arg("known_data_y (number, range<number>)", _t("The array or range containing dependent (y) values that are already known, used to curve fit an ideal linear trend.")),
+        arg("known_data_x (number, range<number>, optional, default={1;2;3;...})", _t("The values of the independent variable(s) corresponding with known_data_y.")),
+        arg("new_data_x (number, range<number>, optional, default=known_data_x)", _t("The data points to return the y values for on the ideal curve fit.")),
+        arg("b (boolean, optional, default=TRUE)", _t("Given a general linear form of y = m*x+b for a curve fit, calculates b if TRUE or forces b to be 0 and only calculates the m values if FALSE, i.e. forces the curve fit to pass through the origin.")),
+    ],
+    compute: function (knownDataY, knownDataX = [[]], newDataX = [[]], b = { value: true }) {
+        assertNonEmptyMatrix(knownDataY, "known_data_y");
+        return predictLinearValues(toNumberMatrix(knownDataY, "known_data_y"), toNumberMatrix(knownDataX, "known_data_x"), toNumberMatrix(newDataX, "new_data_y"), toBoolean(b));
+    },
+};
+// -----------------------------------------------------------------------------
+// VAR
+// -----------------------------------------------------------------------------
+const VAR = {
+    description: _t("Variance."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the sample.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the sample.")),
+    ],
+    compute: function (...args) {
+        return variance(args, true, false, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VAR.P
+// -----------------------------------------------------------------------------
+const VAR_P = {
+    description: _t("Variance of entire population."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the population.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the population.")),
+    ],
+    compute: function (...args) {
+        return variance(args, false, false, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VAR.S
+// -----------------------------------------------------------------------------
+const VAR_S = {
+    description: _t("Variance."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the sample.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the sample.")),
+    ],
+    compute: function (...args) {
+        return variance(args, true, false, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VARA
+// -----------------------------------------------------------------------------
+const VARA = {
+    description: _t("Variance of sample (text as 0)."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the sample.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the sample.")),
+    ],
+    compute: function (...args) {
+        return variance(args, true, true, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VARP
+// -----------------------------------------------------------------------------
+const VARP = {
+    description: _t("Variance of entire population."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the population.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the population.")),
+    ],
+    compute: function (...args) {
+        return variance(args, false, false, this.locale);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VARPA
+// -----------------------------------------------------------------------------
+const VARPA = {
+    description: _t("Variance of entire population (text as 0)."),
+    args: [
+        arg("value1 (number, range<number>)", _t("The first value or range of the population.")),
+        arg("value2 (number, range<number>, repeating)", _t("Additional values or ranges to include in the population.")),
+    ],
+    compute: function (...args) {
+        return variance(args, false, true, this.locale);
+    },
+    isExported: true,
+};
+
+var statistical = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    AVEDEV: AVEDEV,
+    AVERAGE: AVERAGE,
+    AVERAGEA: AVERAGEA,
+    AVERAGEIF: AVERAGEIF,
+    AVERAGEIFS: AVERAGEIFS,
+    AVERAGE_WEIGHTED: AVERAGE_WEIGHTED,
+    CORREL: CORREL,
+    COUNT: COUNT,
+    COUNTA: COUNTA,
+    COVAR: COVAR,
+    COVARIANCE_P: COVARIANCE_P,
+    COVARIANCE_S: COVARIANCE_S,
+    FORECAST: FORECAST,
+    GROWTH: GROWTH,
+    INTERCEPT: INTERCEPT,
+    LARGE: LARGE,
+    LINEST: LINEST,
+    LOGEST: LOGEST,
+    MATTHEWS: MATTHEWS,
+    MAX: MAX,
+    MAXA: MAXA,
+    MAXIFS: MAXIFS,
+    MEDIAN: MEDIAN,
+    MIN: MIN,
+    MINA: MINA,
+    MINIFS: MINIFS,
+    PEARSON: PEARSON,
+    PERCENTILE: PERCENTILE,
+    PERCENTILE_EXC: PERCENTILE_EXC,
+    PERCENTILE_INC: PERCENTILE_INC,
+    POLYFIT_COEFFS: POLYFIT_COEFFS,
+    POLYFIT_FORECAST: POLYFIT_FORECAST,
+    QUARTILE: QUARTILE,
+    QUARTILE_EXC: QUARTILE_EXC,
+    QUARTILE_INC: QUARTILE_INC,
+    RANK: RANK,
+    RSQ: RSQ,
+    SLOPE: SLOPE,
+    SMALL: SMALL,
+    SPEARMAN: SPEARMAN,
+    STDEV: STDEV,
+    STDEVA: STDEVA,
+    STDEVP: STDEVP,
+    STDEVPA: STDEVPA,
+    STDEV_P: STDEV_P,
+    STDEV_S: STDEV_S,
+    STEYX: STEYX,
+    TREND: TREND,
+    VAR: VAR,
+    VARA: VARA,
+    VARP: VARP,
+    VARPA: VARPA,
+    VAR_P: VAR_P,
+    VAR_S: VAR_S
+});
+
+function getMatchingCells(database, field, criteria, locale) {
+    // Example
+    // # DATABASE             # CRITERIA          # field = "C"
+    //
+    // | A | B | C |          | A | C |
+    // |===========|          |=======|
+    // | 1 | x | j |          |<2 | j |
+    // | 1 | Z | k |          |   | 7 |
+    // | 5 | y | 7 |
+    // 1 - Select coordinates of database columns ----------------------------------------------------
+    const indexColNameDB = new Map();
+    const dimRowDB = database.length;
+    for (let indexCol = dimRowDB - 1; indexCol >= 0; indexCol--) {
+        indexColNameDB.set(toString(database[indexCol][0]).toUpperCase(), indexCol);
+    }
+    // Example continuation: indexColNameDB = {"A" => 0, "B" => 1, "C" => 2}
+    // 2 - Check if the field parameter exists in the column names of the database -------------------
+    // field may either be a text label corresponding to a column header in the
+    // first row of database or a numeric index indicating which column to consider,
+    // where the first column has the value 1.
+    const fieldValue = field?.value;
+    if (typeof fieldValue !== "number" && typeof fieldValue !== "string") {
+        throw new EvaluationError(_t("The field must be a number or a string"));
+    }
+    let index;
+    if (typeof fieldValue === "number") {
+        index = Math.trunc(fieldValue) - 1;
+        if (index < 0 || dimRowDB - 1 < index) {
+            throw new EvaluationError(_t("The field (%(fieldValue)s) must be one of %(dimRowDB)s or must be a number between 1 and %s inclusive.", {
+                fieldValue: fieldValue.toString(),
+                dimRowDB: dimRowDB.toString(),
+            }));
+        }
+    }
+    else {
+        const colName = toString(field).toUpperCase();
+        index = indexColNameDB.get(colName) ?? -1;
+        if (index === -1) {
+            throw new EvaluationError(_t("The field (%s) must be one of %s.", toString(field), [...indexColNameDB.keys()].toString()));
+        }
+    }
+    // Example continuation: index = 2
+    // 3 - For each criteria row, find database row that correspond ----------------------------------
+    const dimColCriteria = criteria[0].length;
+    if (dimColCriteria < 2) {
+        throw new EvaluationError(_t("The criteria range contains %s row, it must be at least 2 rows.", dimColCriteria.toString()));
+    }
+    let matchingRows = new Set();
+    const dimColDB = database[0].length;
+    for (let indexRow = 1; indexRow < dimColCriteria; indexRow++) {
+        let args = [];
+        let existColNameDB = true;
+        for (let indexCol = 0; indexCol < criteria.length; indexCol++) {
+            const currentName = toString(criteria[indexCol][0]).toUpperCase();
+            const indexColDB = indexColNameDB.get(currentName);
+            const criter = criteria[indexCol][indexRow];
+            if (criter.value !== null) {
+                if (indexColDB !== undefined) {
+                    args.push([database[indexColDB].slice(1, dimColDB)]);
+                    args.push(criter);
+                }
+                else {
+                    existColNameDB = false;
+                    break;
+                }
+            }
+        }
+        // Example continuation: args1 = [[1,1,5], "<2", ["j","k",7], "j"]
+        // Example continuation: args2 = [["j","k",7], "7"]
+        if (existColNameDB) {
+            if (args.length > 0) {
+                visitMatchingRanges(args, (i, j) => {
+                    matchingRows.add(j);
+                }, locale, true);
+            }
+            else {
+                // return indices of each database row when a criteria table row is void
+                matchingRows = new Set(Array(dimColDB - 1).keys());
+                break;
+            }
+        }
+    }
+    // Example continuation: matchingRows = {0, 2}
+    // 4 - return for each database row corresponding, the cells corresponding to the field parameter
+    const fieldCol = database[index];
+    // Example continuation:: fieldCol = ["C", "j", "k", 7]
+    const matchingCells = [...matchingRows].map((x) => fieldCol[x + 1]);
+    // Example continuation:: matchingCells = ["j", 7]
+    return matchingCells;
+}
+const databaseArgs = [
+    arg("database (range)", _t("The array or range containing the data to consider, structured in such a way that the first row contains the labels for each column's values.")),
+    arg("field (number, string)", _t("Indicates which column in database contains the values to be extracted and operated on.")),
+    arg("criteria (range)", _t("An array or range containing zero or more criteria to filter the database values by before operating.")),
+];
+// -----------------------------------------------------------------------------
+// DAVERAGE
+// -----------------------------------------------------------------------------
+const DAVERAGE = {
+    description: _t("Average of a set of values from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return AVERAGE.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DCOUNT
+// -----------------------------------------------------------------------------
+const DCOUNT = {
+    description: _t("Counts values from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return COUNT.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DCOUNTA
+// -----------------------------------------------------------------------------
+const DCOUNTA = {
+    description: _t("Counts values and text from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return COUNTA.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DGET
+// -----------------------------------------------------------------------------
+const DGET = {
+    description: _t("Single value from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        assert(() => cells.length === 1, _t("More than one match found in DGET evaluation."));
+        return cells[0];
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DMAX
+// -----------------------------------------------------------------------------
+const DMAX = {
+    description: _t("Maximum of values from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return MAX.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DMIN
+// -----------------------------------------------------------------------------
+const DMIN = {
+    description: _t("Minimum of values from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return MIN.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DPRODUCT
+// -----------------------------------------------------------------------------
+const DPRODUCT = {
+    description: _t("Product of values from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return PRODUCT.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DSTDEV
+// -----------------------------------------------------------------------------
+const DSTDEV = {
+    description: _t("Standard deviation of population sample from table."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return STDEV.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DSTDEVP
+// -----------------------------------------------------------------------------
+const DSTDEVP = {
+    description: _t("Standard deviation of entire population from table."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return STDEVP.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DSUM
+// -----------------------------------------------------------------------------
+const DSUM = {
+    description: _t("Sum of values from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return SUM.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DVAR
+// -----------------------------------------------------------------------------
+const DVAR = {
+    description: _t("Variance of population sample from table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return VAR.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DVARP
+// -----------------------------------------------------------------------------
+const DVARP = {
+    description: _t("Variance of a population from a table-like range."),
+    args: databaseArgs,
+    compute: function (database, field, criteria) {
+        const cells = getMatchingCells(database, field, criteria, this.locale);
+        return VARP.compute.bind(this)([cells]);
+    },
+    isExported: true,
+};
+
+var database = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    DAVERAGE: DAVERAGE,
+    DCOUNT: DCOUNT,
+    DCOUNTA: DCOUNTA,
+    DGET: DGET,
+    DMAX: DMAX,
+    DMIN: DMIN,
+    DPRODUCT: DPRODUCT,
+    DSTDEV: DSTDEV,
+    DSTDEVP: DSTDEVP,
+    DSUM: DSUM,
+    DVAR: DVAR,
+    DVARP: DVARP
+});
+
+const DEFAULT_TYPE = 1;
+const DEFAULT_WEEKEND = 1;
+var TIME_UNIT;
+(function (TIME_UNIT) {
+    TIME_UNIT["WHOLE_YEARS"] = "Y";
+    TIME_UNIT["WHOLE_MONTHS"] = "M";
+    TIME_UNIT["WHOLE_DAYS"] = "D";
+    TIME_UNIT["DAYS_WITHOUT_WHOLE_MONTHS"] = "MD";
+    TIME_UNIT["MONTH_WITHOUT_WHOLE_YEARS"] = "YM";
+    TIME_UNIT["DAYS_BETWEEN_NO_MORE_THAN_ONE_YEAR"] = "YD";
+})(TIME_UNIT || (TIME_UNIT = {}));
+// -----------------------------------------------------------------------------
+// DATE
+// -----------------------------------------------------------------------------
+const DATE = {
+    description: _t("Converts year/month/day into a date."),
+    args: [
+        arg("year (number)", _t("The year component of the date.")),
+        arg("month (number)", _t("The month component of the date.")),
+        arg("day (number)", _t("The day component of the date.")),
+    ],
+    compute: function (year, month, day) {
+        let _year = Math.trunc(toNumber(year, this.locale));
+        const _month = Math.trunc(toNumber(month, this.locale));
+        const _day = Math.trunc(toNumber(day, this.locale));
+        // For years less than 0 or greater than 10000, return #ERROR.
+        assert(() => 0 <= _year && _year <= 9999, _t("The year (%s) must be between 0 and 9999 inclusive.", _year.toString()));
+        // Between 0 and 1899, we add that value to 1900 to calculate the year
+        if (_year < 1900) {
+            _year += 1900;
+        }
+        const jsDate = new DateTime(_year, _month - 1, _day);
+        const result = jsDateToRoundNumber(jsDate);
+        assert(() => result >= 0, _t("The function [[FUNCTION_NAME]] result must be greater than or equal 01/01/1900."));
+        return {
+            value: result,
+            format: this.locale.dateFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DATEDIF
+// -----------------------------------------------------------------------------
+const DATEDIF = {
+    description: _t("Calculates the number of days, months, or years between two dates."),
+    args: [
+        arg("start_date (date)", _t("The start date to consider in the calculation. Must be a reference to a cell containing a DATE, a function returning a DATE type, or a number.")),
+        arg("end_date (date)", _t("The end date to consider in the calculation. Must be a reference to a cell containing a DATE, a function returning a DATE type, or a number.")),
+        arg("unit (string)", _t('A text abbreviation for unit of time. Accepted values are "Y" (the number of whole years between start_date and end_date), "M" (the number of whole months between start_date and end_date), "D" (the number of days between start_date and end_date), "MD" (the number of days between start_date and end_date after subtracting whole months), "YM" (the number of whole months between start_date and end_date after subtracting whole years), "YD" (the number of days between start_date and end_date, assuming start_date and end_date were no more than one year apart).')),
+    ],
+    compute: function (startDate, endDate, unit) {
+        const _unit = toString(unit).toUpperCase();
+        assert(() => Object.values(TIME_UNIT).includes(_unit), expectStringSetError(Object.values(TIME_UNIT), toString(unit)));
+        const _startDate = Math.trunc(toNumber(startDate, this.locale));
+        const _endDate = Math.trunc(toNumber(endDate, this.locale));
+        const jsStartDate = numberToJsDate(_startDate);
+        const jsEndDate = numberToJsDate(_endDate);
+        assert(() => _endDate >= _startDate, _t("start_date (%s) should be on or before end_date (%s).", jsStartDate.toLocaleDateString(), jsEndDate.toLocaleDateString()));
+        switch (_unit) {
+            case TIME_UNIT.WHOLE_YEARS:
+                return getTimeDifferenceInWholeYears(jsStartDate, jsEndDate);
+            case TIME_UNIT.WHOLE_MONTHS:
+                return getTimeDifferenceInWholeMonths(jsStartDate, jsEndDate);
+            case TIME_UNIT.WHOLE_DAYS: {
+                return getTimeDifferenceInWholeDays(jsStartDate, jsEndDate);
+            }
+            case TIME_UNIT.MONTH_WITHOUT_WHOLE_YEARS: {
+                return (getTimeDifferenceInWholeMonths(jsStartDate, jsEndDate) -
+                    getTimeDifferenceInWholeYears(jsStartDate, jsEndDate) * 12);
+            }
+            case TIME_UNIT.DAYS_WITHOUT_WHOLE_MONTHS:
+                // Using "MD" may get incorrect result in Excel
+                // See: https://support.microsoft.com/en-us/office/datedif-function-25dba1a4-2812-480b-84dd-8b32a451b35c
+                let days = jsEndDate.getDate() - jsStartDate.getDate();
+                if (days < 0) {
+                    const monthBeforeEndMonth = new DateTime(jsEndDate.getFullYear(), jsEndDate.getMonth() - 1, 1);
+                    const daysInMonthBeforeEndMonth = getDaysInMonth(monthBeforeEndMonth);
+                    days = daysInMonthBeforeEndMonth - Math.abs(days);
+                }
+                return days;
+            case TIME_UNIT.DAYS_BETWEEN_NO_MORE_THAN_ONE_YEAR: {
+                if (areTwoDatesWithinOneYear(_startDate, _endDate)) {
+                    return getTimeDifferenceInWholeDays(jsStartDate, jsEndDate);
+                }
+                const endDateWithinOneYear = new DateTime(jsStartDate.getFullYear(), jsEndDate.getMonth(), jsEndDate.getDate());
+                let days = getTimeDifferenceInWholeDays(jsStartDate, endDateWithinOneYear);
+                if (days < 0) {
+                    endDateWithinOneYear.setFullYear(jsStartDate.getFullYear() + 1);
+                    days = getTimeDifferenceInWholeDays(jsStartDate, endDateWithinOneYear);
+                }
+                return days;
+            }
+        }
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DATEVALUE
+// -----------------------------------------------------------------------------
+const DATEVALUE = {
+    description: _t("Converts a date string to a date value."),
+    args: [arg("date_string (string)", _t("The string representing the date."))],
+    compute: function (dateString) {
+        const _dateString = toString(dateString);
+        const internalDate = parseDateTime(_dateString, this.locale);
+        assert(() => internalDate !== null, _t("The date_string (%s) cannot be parsed to date/time.", _dateString.toString()));
+        return Math.trunc(internalDate.value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DAY
+// -----------------------------------------------------------------------------
+const DAY = {
+    description: _t("Day of the month that a specific date falls on."),
+    args: [arg("date (string)", _t("The date from which to extract the day."))],
+    compute: function (date) {
+        return toJsDate(date, this.locale).getDate();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DAYS
+// -----------------------------------------------------------------------------
+const DAYS = {
+    description: _t("Number of days between two dates."),
+    args: [
+        arg("end_date (date)", _t("The end of the date range.")),
+        arg("start_date (date)", _t("The start of the date range.")),
+    ],
+    compute: function (endDate, startDate) {
+        const _endDate = toJsDate(endDate, this.locale);
+        const _startDate = toJsDate(startDate, this.locale);
+        const dateDif = _endDate.getTime() - _startDate.getTime();
+        return Math.round(dateDif / MS_PER_DAY);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DAYS360
+// -----------------------------------------------------------------------------
+const DEFAULT_DAY_COUNT_METHOD = 0;
+const DAYS360 = {
+    description: _t("Number of days between two dates on a 360-day year (months of 30 days)."),
+    args: [
+        arg("start_date (date)", _t("The start date to consider in the calculation.")),
+        arg("end_date (date)", _t("The end date to consider in the calculation.")),
+        arg(`method (number, default=${DEFAULT_DAY_COUNT_METHOD})`, _t("An indicator of what day count method to use. (0) US NASD method (1) European method")),
+    ],
+    compute: function (startDate, endDate, method = { value: DEFAULT_DAY_COUNT_METHOD }) {
+        const _startDate = Math.trunc(toNumber(startDate, this.locale));
+        const _endDate = Math.trunc(toNumber(endDate, this.locale));
+        const dayCountConvention = toBoolean(method) ? 4 : 0;
+        const yearFrac = getYearFrac(_startDate, _endDate, dayCountConvention);
+        return Math.sign(_endDate - _startDate) * Math.round(yearFrac * 360);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// EDATE
+// -----------------------------------------------------------------------------
+const EDATE = {
+    description: _t("Date a number of months before/after another date."),
+    args: [
+        arg("start_date (date)", _t("The date from which to calculate the result.")),
+        arg("months (number)", _t("The number of months before (negative) or after (positive) 'start_date' to calculate.")),
+    ],
+    compute: function (startDate, months) {
+        const _startDate = toJsDate(startDate, this.locale);
+        const _months = Math.trunc(toNumber(months, this.locale));
+        const jsDate = addMonthsToDate(_startDate, _months, false);
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// EOMONTH
+// -----------------------------------------------------------------------------
+const EOMONTH = {
+    description: _t("Last day of a month before or after a date."),
+    args: [
+        arg("start_date (date)", _t("The date from which to calculate the result.")),
+        arg("months (number)", _t("The number of months before (negative) or after (positive) 'start_date' to consider.")),
+    ],
+    compute: function (startDate, months) {
+        const _startDate = toJsDate(startDate, this.locale);
+        const _months = Math.trunc(toNumber(months, this.locale));
+        const yStart = _startDate.getFullYear();
+        const mStart = _startDate.getMonth();
+        const jsDate = new DateTime(yStart, mStart + _months + 1, 0);
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// HOUR
+// -----------------------------------------------------------------------------
+const HOUR = {
+    description: _t("Hour component of a specific time."),
+    args: [arg("time (date)", _t("The time from which to calculate the hour component."))],
+    compute: function (date) {
+        return toJsDate(date, this.locale).getHours();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISOWEEKNUM
+// -----------------------------------------------------------------------------
+const ISOWEEKNUM = {
+    description: _t("ISO week number of the year."),
+    args: [
+        arg("date (date)", _t("The date for which to determine the ISO week number. Must be a reference to a cell containing a date, a function returning a date type, or a number.")),
+    ],
+    compute: function (date) {
+        const _date = toJsDate(date, this.locale);
+        const y = _date.getFullYear();
+        // 1 - As the 1st week of a year can start the previous year or after the 1st
+        // january we first look if the date is in the weeks of the current year, previous
+        // year or year after.
+        // A - We look for the current year, the first days of the first week
+        // and the last days of the last week
+        // The first week of the year is the week that contains the first
+        // Thursday of the year.
+        let firstThursday = 1;
+        while (new DateTime(y, 0, firstThursday).getDay() !== 4) {
+            firstThursday += 1;
+        }
+        const firstDayOfFirstWeek = new DateTime(y, 0, firstThursday - 3);
+        // The last week of the year is the week that contains the last Thursday of
+        // the year.
+        let lastThursday = 31;
+        while (new DateTime(y, 11, lastThursday).getDay() !== 4) {
+            lastThursday -= 1;
+        }
+        const lastDayOfLastWeek = new DateTime(y, 11, lastThursday + 3);
+        // B - If our date > lastDayOfLastWeek then it's in the weeks of the year after
+        // If our date < firstDayOfFirstWeek then it's in the weeks of the year before
+        let offsetYear;
+        if (firstDayOfFirstWeek.getTime() <= _date.getTime()) {
+            if (_date.getTime() <= lastDayOfLastWeek.getTime()) {
+                offsetYear = 0;
+            }
+            else {
+                offsetYear = 1;
+            }
+        }
+        else {
+            offsetYear = -1;
+        }
+        // 2 - now that the year is known, we are looking at the difference between
+        // the first day of this year and the date. The difference in days divided by
+        // 7 gives us the week number
+        let firstDay;
+        switch (offsetYear) {
+            case 0:
+                firstDay = firstDayOfFirstWeek;
+                break;
+            case 1:
+                // firstDay is the 1st day of the 1st week of the year after
+                // firstDay = lastDayOfLastWeek + 1 Day
+                firstDay = new DateTime(y, 11, lastThursday + 3 + 1);
+                break;
+            case -1:
+                // firstDay is the 1st day of the 1st week of the previous year.
+                // The first week of the previous year is the week that contains the
+                // first Thursday of the previous year.
+                let firstThursdayPreviousYear = 1;
+                while (new DateTime(y - 1, 0, firstThursdayPreviousYear).getDay() !== 4) {
+                    firstThursdayPreviousYear += 1;
+                }
+                firstDay = new DateTime(y - 1, 0, firstThursdayPreviousYear - 3);
+                break;
+        }
+        const diff = (_date.getTime() - firstDay.getTime()) / MS_PER_DAY;
+        return Math.floor(diff / 7) + 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MINUTE
+// -----------------------------------------------------------------------------
+const MINUTE = {
+    description: _t("Minute component of a specific time."),
+    args: [arg("time (date)", _t("The time from which to calculate the minute component."))],
+    compute: function (date) {
+        return toJsDate(date, this.locale).getMinutes();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MONTH
+// -----------------------------------------------------------------------------
+const MONTH = {
+    description: _t("Month of the year a specific date falls in"),
+    args: [arg("date (date)", _t("The date from which to extract the month."))],
+    compute: function (date) {
+        return toJsDate(date, this.locale).getMonth() + 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NETWORKDAYS
+// -----------------------------------------------------------------------------
+const NETWORKDAYS = {
+    description: _t("Net working days between two provided days."),
+    args: [
+        arg("start_date (date)", _t("The start date of the period from which to calculate the number of net working days.")),
+        arg("end_date (date)", _t("The end date of the period from which to calculate the number of net working days.")),
+        arg("holidays (date, range<date>, optional)", _t("A range or array constant containing the date serial numbers to consider holidays.")),
+    ],
+    compute: function (startDate, endDate, holidays) {
+        return NETWORKDAYS_INTL.compute.bind(this)(startDate, endDate, { value: 1 }, holidays);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NETWORKDAYS.INTL
+// -----------------------------------------------------------------------------
+/**
+ * Transform weekend Spreadsheet information into Date Day JavaScript information.
+ * Take string (String method) or number (Number method), return array of numbers.
+ *
+ * String method: weekends can be specified using seven 0’s and 1’s, where the
+ * first number in the set represents Monday and the last number is for Sunday.
+ * A zero means that the day is a work day, a 1 means that the day is a weekend.
+ * For example, “0000011” would mean Saturday and Sunday are weekends.
+ *
+ * Number method: instead of using the string method above, a single number can
+ * be used. 1 = Saturday/Sunday are weekends, 2 = Sunday/Monday, and this pattern
+ * repeats until 7 = Friday/Saturday. 11 = Sunday is the only weekend, 12 = Monday
+ * is the only weekend, and this pattern repeats until 17 = Saturday is the only
+ * weekend.
+ *
+ * Example:
+ * - 11 return [0] (correspond to Sunday)
+ * - 12 return [1] (correspond to Monday)
+ * - 3 return [1,2] (correspond to Monday and Tuesday)
+ * - "0101010" return [2,4,6] (correspond to Tuesday, Thursday and Saturday)
+ */
+function weekendToDayNumber(data) {
+    const weekend = data?.value;
+    // case "string"
+    if (typeof weekend === "string") {
+        assert(() => {
+            if (weekend.length !== 7) {
+                return false;
+            }
+            for (let day of weekend) {
+                if (day !== "0" && day !== "1") {
+                    return false;
+                }
+            }
+            return true;
+        }, _t('When weekend is a string (%s) it must be composed of "0" or "1".', weekend));
+        let result = [];
+        for (let i = 0; i < 7; i++) {
+            if (weekend[i] === "1") {
+                result.push((i + 1) % 7);
+            }
+        }
+        return result;
+    }
+    //case "number"
+    if (typeof weekend === "number") {
+        assert(() => (1 <= weekend && weekend <= 7) || (11 <= weekend && weekend <= 17), _t("The weekend (%s) must be a string or a number in the range 1-7 or 11-17.", weekend.toString()));
+        // case 1 <= weekend <= 7
+        if (weekend <= 7) {
+            // 1 = Saturday/Sunday are weekends
+            // 2 = Sunday/Monday
+            // ...
+            // 7 = Friday/Saturday.
+            return [weekend - 2 === -1 ? 6 : weekend - 2, weekend - 1];
+        }
+        // case 11 <= weekend <= 17
+        // 11 = Sunday is the only weekend
+        // 12 = Monday is the only weekend
+        // ...
+        // 17 = Saturday is the only weekend.
+        return [weekend - 11];
+    }
+    throw new EvaluationError(_t("The weekend must be a number or a string."));
+}
+const NETWORKDAYS_INTL = {
+    description: _t("Net working days between two dates (specifying weekends)."),
+    args: [
+        arg("start_date (date)", _t("The start date of the period from which to calculate the number of net working days.")),
+        arg("end_date (date)", _t("The end date of the period from which to calculate the number of net working days.")),
+        arg(`weekend (any, default=${DEFAULT_WEEKEND})`, _t("A number or string representing which days of the week are considered weekends.")),
+        arg("holidays (date, range<date>, optional)", _t("A range or array constant containing the dates to consider as holidays.")),
+    ],
+    compute: function (startDate, endDate, weekend = { value: DEFAULT_WEEKEND }, holidays) {
+        const _startDate = toJsDate(startDate, this.locale);
+        const _endDate = toJsDate(endDate, this.locale);
+        const daysWeekend = weekendToDayNumber(weekend);
+        let timesHoliday = new Set();
+        if (holidays !== undefined) {
+            visitAny([holidays], (h) => {
+                const holiday = toJsDate(h, this.locale);
+                timesHoliday.add(holiday.getTime());
+            });
+        }
+        const invertDate = _startDate.getTime() > _endDate.getTime();
+        const stopDate = DateTime.fromTimestamp((invertDate ? _startDate : _endDate).getTime());
+        let stepDate = DateTime.fromTimestamp((invertDate ? _endDate : _startDate).getTime());
+        const timeStopDate = stopDate.getTime();
+        let timeStepDate = stepDate.getTime();
+        let netWorkingDay = 0;
+        while (timeStepDate <= timeStopDate) {
+            if (!daysWeekend.includes(stepDate.getDay()) && !timesHoliday.has(timeStepDate)) {
+                netWorkingDay += 1;
+            }
+            stepDate.setDate(stepDate.getDate() + 1);
+            timeStepDate = stepDate.getTime();
+        }
+        return invertDate ? -netWorkingDay : netWorkingDay;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NOW
+// -----------------------------------------------------------------------------
+const NOW = {
+    description: _t("Current date and time as a date value."),
+    args: [],
+    compute: function () {
+        const today = DateTime.now();
+        const delta = today.getTime() - INITIAL_1900_DAY.getTime();
+        const time = today.getHours() / 24 + today.getMinutes() / 1440 + today.getSeconds() / 86400;
+        return {
+            value: Math.floor(delta / MS_PER_DAY) + time,
+            format: getDateTimeFormat(this.locale),
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SECOND
+// -----------------------------------------------------------------------------
+const SECOND = {
+    description: _t("Minute component of a specific time."),
+    args: [arg("time (date)", _t("The time from which to calculate the second component."))],
+    compute: function (date) {
+        return toJsDate(date, this.locale).getSeconds();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TIME
+// -----------------------------------------------------------------------------
+const TIME = {
+    description: _t("Converts hour/minute/second into a time."),
+    args: [
+        arg("hour (number)", _t("The hour component of the time.")),
+        arg("minute (number)", _t("The minute component of the time.")),
+        arg("second (number)", _t("The second component of the time.")),
+    ],
+    compute: function (hour, minute, second) {
+        let _hour = Math.trunc(toNumber(hour, this.locale));
+        let _minute = Math.trunc(toNumber(minute, this.locale));
+        let _second = Math.trunc(toNumber(second, this.locale));
+        _minute += Math.floor(_second / 60);
+        _second = (_second % 60) + (_second < 0 ? 60 : 0);
+        _hour += Math.floor(_minute / 60);
+        _minute = (_minute % 60) + (_minute < 0 ? 60 : 0);
+        _hour %= 24;
+        assert(() => _hour >= 0, _t("The function [[FUNCTION_NAME]] result cannot be negative"));
+        return {
+            value: _hour / 24 + _minute / (24 * 60) + _second / (24 * 60 * 60),
+            format: this.locale.timeFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TIMEVALUE
+// -----------------------------------------------------------------------------
+const TIMEVALUE = {
+    description: _t("Converts a time string into its serial number representation."),
+    args: [arg("time_string (string)", _t("The string that holds the time representation."))],
+    compute: function (timeString) {
+        const _timeString = toString(timeString);
+        const internalDate = parseDateTime(_timeString, this.locale);
+        assert(() => internalDate !== null, _t("The time_string (%s) cannot be parsed to date/time.", _timeString));
+        const result = internalDate.value - Math.trunc(internalDate.value);
+        return result < 0 ? 1 + result : result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TODAY
+// -----------------------------------------------------------------------------
+const TODAY = {
+    description: _t("Current date as a date value."),
+    args: [],
+    compute: function () {
+        const today = DateTime.now();
+        const jsDate = new DateTime(today.getFullYear(), today.getMonth(), today.getDate());
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// WEEKDAY
+// -----------------------------------------------------------------------------
+const WEEKDAY = {
+    description: _t("Day of the week of the date provided (as number)."),
+    args: [
+        arg("date (date)", _t("The date for which to determine the day of the week. Must be a reference to a cell containing a date, a function returning a date type, or a number.")),
+        arg(`type (number, default=${DEFAULT_TYPE})`, _t("A number indicating which numbering system to use to represent weekdays. By default, counts starting with Sunday = 1.")),
+    ],
+    compute: function (date, type = { value: DEFAULT_TYPE }) {
+        const _date = toJsDate(date, this.locale);
+        const _type = Math.round(toNumber(type, this.locale));
+        const m = _date.getDay();
+        assert(() => [1, 2, 3].includes(_type), _t("The type (%s) must be 1, 2 or 3.", _type.toString()));
+        if (_type === 1)
+            return m + 1;
+        if (_type === 2)
+            return m === 0 ? 7 : m;
+        return m === 0 ? 6 : m - 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// WEEKNUM
+// -----------------------------------------------------------------------------
+const WEEKNUM = {
+    description: _t("Week number of the year."),
+    args: [
+        arg("date (date)", _t("The date for which to determine the week number. Must be a reference to a cell containing a date, a function returning a date type, or a number.")),
+        arg(`type (number, default=${DEFAULT_TYPE})`, _t("A number representing the day that a week starts on. Sunday = 1.")),
+    ],
+    compute: function (date, type = { value: DEFAULT_TYPE }) {
+        const _date = toJsDate(date, this.locale);
+        const _type = Math.round(toNumber(type, this.locale));
+        assert(() => _type === 1 || _type === 2 || (11 <= _type && _type <= 17) || _type === 21, _t("The type (%s) is out of range.", _type.toString()));
+        if (_type === 21) {
+            return ISOWEEKNUM.compute.bind(this)(date);
+        }
+        let startDayOfWeek;
+        if (_type === 1 || _type === 2) {
+            startDayOfWeek = _type - 1;
+        }
+        else {
+            // case 11 <= _type <= 17
+            startDayOfWeek = _type - 10 === 7 ? 0 : _type - 10;
+        }
+        const y = _date.getFullYear();
+        let dayStart = 1;
+        let startDayOfFirstWeek = new DateTime(y, 0, dayStart);
+        while (startDayOfFirstWeek.getDay() !== startDayOfWeek) {
+            dayStart += 1;
+            startDayOfFirstWeek = new DateTime(y, 0, dayStart);
+        }
+        const dif = (_date.getTime() - startDayOfFirstWeek.getTime()) / MS_PER_DAY;
+        if (dif < 0) {
+            return 1;
+        }
+        return Math.floor(dif / 7) + (dayStart === 1 ? 1 : 2);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// WORKDAY
+// -----------------------------------------------------------------------------
+const WORKDAY = {
+    description: _t("Date after a number of workdays."),
+    args: [
+        arg("start_date (date)", _t("The date from which to begin counting.")),
+        arg("num_days (number)", _t("The number of working days to advance from start_date. If negative, counts backwards.")),
+        arg("holidays (date, range<date>, optional)", _t("A range or array constant containing the dates to consider holidays.")),
+    ],
+    compute: function (startDate, numDays, holidays = { value: null }) {
+        return WORKDAY_INTL.compute.bind(this)(startDate, numDays, { value: 1 }, holidays);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// WORKDAY.INTL
+// -----------------------------------------------------------------------------
+const WORKDAY_INTL = {
+    description: _t("Date after a number of workdays (specifying weekends)."),
+    args: [
+        arg("start_date (date)", _t("The date from which to begin counting.")),
+        arg("num_days (number)", _t("The number of working days to advance from start_date. If negative, counts backwards.")),
+        arg(`weekend (any, default=${DEFAULT_WEEKEND})`, _t("A number or string representing which days of the week are considered weekends.")),
+        arg("holidays (date, range<date>, optional)", _t("A range or array constant containing the dates to consider holidays.")),
+    ],
+    compute: function (startDate, numDays, weekend = { value: DEFAULT_WEEKEND }, holidays) {
+        let _startDate = toJsDate(startDate, this.locale);
+        let _numDays = Math.trunc(toNumber(numDays, this.locale));
+        if (typeof weekend.value === "string") {
+            assert(() => weekend.value !== "1111111", _t("The weekend must be different from '1111111'."));
+        }
+        const daysWeekend = weekendToDayNumber(weekend);
+        let timesHoliday = new Set();
+        if (holidays !== undefined) {
+            visitAny([holidays], (h) => {
+                const holiday = toJsDate(h, this.locale);
+                timesHoliday.add(holiday.getTime());
+            });
+        }
+        let stepDate = DateTime.fromTimestamp(_startDate.getTime());
+        let timeStepDate = stepDate.getTime();
+        const unitDay = Math.sign(_numDays);
+        let stepDay = Math.abs(_numDays);
+        while (stepDay > 0) {
+            stepDate.setDate(stepDate.getDate() + unitDay);
+            timeStepDate = stepDate.getTime();
+            if (!daysWeekend.includes(stepDate.getDay()) && !timesHoliday.has(timeStepDate)) {
+                stepDay -= 1;
+            }
+        }
+        const delta = timeStepDate - INITIAL_1900_DAY.getTime();
+        return {
+            value: Math.round(delta / MS_PER_DAY),
+            format: this.locale.dateFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// YEAR
+// -----------------------------------------------------------------------------
+const YEAR = {
+    description: _t("Year specified by a given date."),
+    args: [arg("date (date)", _t("The date from which to extract the year."))],
+    compute: function (date) {
+        return toJsDate(date, this.locale).getFullYear();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// YEARFRAC
+// -----------------------------------------------------------------------------
+const DEFAULT_DAY_COUNT_CONVENTION$1 = 0;
+const YEARFRAC = {
+    description: _t("Exact number of years between two dates."),
+    args: [
+        arg("start_date (date)", _t("The start date to consider in the calculation. Must be a reference to a cell containing a date, a function returning a date type, or a number.")),
+        arg("end_date (date)", _t("The end date to consider in the calculation. Must be a reference to a cell containing a date, a function returning a date type, or a number.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION$1})`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (startDate, endDate, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION$1 }) {
+        let _startDate = Math.trunc(toNumber(startDate, this.locale));
+        let _endDate = Math.trunc(toNumber(endDate, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assert(() => _startDate >= 0, _t("The start_date (%s) must be positive or null.", _startDate.toString()));
+        assert(() => _endDate >= 0, _t("The end_date (%s) must be positive or null.", _endDate.toString()));
+        assert(() => 0 <= _dayCountConvention && _dayCountConvention <= 4, _t("The day_count_convention (%s) must be between 0 and 4 inclusive.", _dayCountConvention.toString()));
+        return getYearFrac(_startDate, _endDate, _dayCountConvention);
+    },
+};
+// -----------------------------------------------------------------------------
+// MONTH.START
+// -----------------------------------------------------------------------------
+const MONTH_START = {
+    description: _t("First day of the month preceding a date."),
+    args: [arg("date (date)", _t("The date from which to calculate the result."))],
+    compute: function (date) {
+        const _startDate = toJsDate(date, this.locale);
+        const yStart = _startDate.getFullYear();
+        const mStart = _startDate.getMonth();
+        const jsDate = new DateTime(yStart, mStart, 1);
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// MONTH.END
+// -----------------------------------------------------------------------------
+const MONTH_END = {
+    description: _t("Last day of the month following a date."),
+    args: [arg("date (date)", _t("The date from which to calculate the result."))],
+    compute: function (date) {
+        return EOMONTH.compute.bind(this)(date, { value: 0 });
+    },
+};
+// -----------------------------------------------------------------------------
+// QUARTER
+// -----------------------------------------------------------------------------
+const QUARTER = {
+    description: _t("Quarter of the year a specific date falls in"),
+    args: [arg("date (date)", _t("The date from which to extract the quarter."))],
+    compute: function (date) {
+        return Math.ceil((toJsDate(date, this.locale).getMonth() + 1) / 3);
+    },
+};
+// -----------------------------------------------------------------------------
+// QUARTER.START
+// -----------------------------------------------------------------------------
+const QUARTER_START = {
+    description: _t("First day of the quarter of the year a specific date falls in."),
+    args: [arg("date (date)", _t("The date from which to calculate the start of quarter."))],
+    compute: function (date) {
+        const quarter = QUARTER.compute.bind(this)(date);
+        const year = YEAR.compute.bind(this)(date);
+        const jsDate = new DateTime(year, (quarter - 1) * 3, 1);
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// QUARTER.END
+// -----------------------------------------------------------------------------
+const QUARTER_END = {
+    description: _t("Last day of the quarter of the year a specific date falls in."),
+    args: [arg("date (date)", _t("The date from which to calculate the end of quarter."))],
+    compute: function (date) {
+        const quarter = QUARTER.compute.bind(this)(date);
+        const year = YEAR.compute.bind(this)(date);
+        const jsDate = new DateTime(year, quarter * 3, 0);
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// YEAR.START
+// -----------------------------------------------------------------------------
+const YEAR_START = {
+    description: _t("First day of the year a specific date falls in."),
+    args: [arg("date (date)", _t("The date from which to calculate the start of the year."))],
+    compute: function (date) {
+        const year = YEAR.compute.bind(this)(date);
+        const jsDate = new DateTime(year, 0, 1);
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// YEAR.END
+// -----------------------------------------------------------------------------
+const YEAR_END = {
+    description: _t("Last day of the year a specific date falls in."),
+    args: [arg("date (date)", _t("The date from which to calculate the end of the year."))],
+    compute: function (date) {
+        const year = YEAR.compute.bind(this)(date);
+        const jsDate = new DateTime(year + 1, 0, 0);
+        return {
+            value: jsDateToRoundNumber(jsDate),
+            format: this.locale.dateFormat,
+        };
+    },
+};
+
+var date = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    DATE: DATE,
+    DATEDIF: DATEDIF,
+    DATEVALUE: DATEVALUE,
+    DAY: DAY,
+    DAYS: DAYS,
+    DAYS360: DAYS360,
+    EDATE: EDATE,
+    EOMONTH: EOMONTH,
+    HOUR: HOUR,
+    ISOWEEKNUM: ISOWEEKNUM,
+    MINUTE: MINUTE,
+    MONTH: MONTH,
+    MONTH_END: MONTH_END,
+    MONTH_START: MONTH_START,
+    NETWORKDAYS: NETWORKDAYS,
+    NETWORKDAYS_INTL: NETWORKDAYS_INTL,
+    NOW: NOW,
+    QUARTER: QUARTER,
+    QUARTER_END: QUARTER_END,
+    QUARTER_START: QUARTER_START,
+    SECOND: SECOND,
+    TIME: TIME,
+    TIMEVALUE: TIMEVALUE,
+    TODAY: TODAY,
+    WEEKDAY: WEEKDAY,
+    WEEKNUM: WEEKNUM,
+    WORKDAY: WORKDAY,
+    WORKDAY_INTL: WORKDAY_INTL,
+    YEAR: YEAR,
+    YEARFRAC: YEARFRAC,
+    YEAR_END: YEAR_END,
+    YEAR_START: YEAR_START
+});
+
+const DEFAULT_DELTA_ARG = 0;
+// -----------------------------------------------------------------------------
+// DELTA
+// -----------------------------------------------------------------------------
+const DELTA = {
+    description: _t("Compare two numeric values, returning 1 if they're equal."),
+    args: [
+        arg("number1 (number)", _t("The first number to compare.")),
+        arg(`number2 (number, default=${DEFAULT_DELTA_ARG})`, _t("The second number to compare.")),
+    ],
+    compute: function (number1, number2 = { value: DEFAULT_DELTA_ARG }) {
+        const _number1 = toNumber(number1, this.locale);
+        const _number2 = toNumber(number2, this.locale);
+        return _number1 === _number2 ? 1 : 0;
+    },
+    isExported: true,
+};
+
+var engineering = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    DELTA: DELTA
+});
+
+const SORT_TYPES = [
+    CellValueType.number,
+    CellValueType.error,
+    CellValueType.text,
+    CellValueType.boolean,
+];
+function cellsSortingCriterion(sortingOrder) {
+    const inverse = sortingOrder === "ascending" ? 1 : -1;
+    return (left, right) => {
+        if (left.type === CellValueType.empty) {
+            return right.type === CellValueType.empty ? 0 : 1;
+        }
+        else if (right.type === CellValueType.empty) {
+            return -1;
+        }
+        let typeOrder = SORT_TYPES.indexOf(left.type) - SORT_TYPES.indexOf(right.type);
+        if (typeOrder === 0) {
+            if (left.type === CellValueType.text || left.type === CellValueType.error) {
+                typeOrder = left.value.localeCompare(right.value);
+            }
+            else {
+                typeOrder = left.value - right.value;
+            }
+        }
+        return inverse * typeOrder;
+    };
+}
+function sortCells(cells, sortDirection, emptyCellAsZero) {
+    const cellsWithIndex = cells.map((cell, index) => ({
+        index,
+        type: cell.type,
+        value: cell.value,
+    }));
+    const cellsToSort = emptyCellAsZero
+        ? cellsWithIndex.map((cell) => cell.type === CellValueType.empty ? { ...cell, type: CellValueType.number, value: 0 } : cell)
+        : cellsWithIndex;
+    return cellsToSort.sort(cellsSortingCriterion(sortDirection));
+}
+function interactiveSortSelection(env, sheetId, anchor, zone, sortDirection) {
+    let result = DispatchResult.Success;
+    //several columns => bypass the contiguity check
+    let multiColumns = zone.right > zone.left;
+    if (env.model.getters.doesIntersectMerge(sheetId, zone)) {
+        multiColumns = false;
+        let table;
+        for (let row = zone.top; row <= zone.bottom; row++) {
+            table = [];
+            for (let col = zone.left; col <= zone.right; col++) {
+                let merge = env.model.getters.getMerge({ sheetId, col, row });
+                if (merge && !table.includes(merge.id.toString())) {
+                    table.push(merge.id.toString());
+                }
+            }
+            if (table.length >= 2) {
+                multiColumns = true;
+                break;
+            }
+        }
+    }
+    const { col, row } = anchor;
+    if (multiColumns) {
+        result = env.model.dispatch("SORT_CELLS", { sheetId, col, row, zone, sortDirection });
+    }
+    else {
+        // check contiguity
+        const contiguousZone = env.model.getters.getContiguousZone(sheetId, zone);
+        if (isEqual(contiguousZone, zone)) {
+            // merge as it is
+            result = env.model.dispatch("SORT_CELLS", {
+                sheetId,
+                col,
+                row,
+                zone,
+                sortDirection,
+            });
+        }
+        else {
+            env.askConfirmation(_t("We found data next to your selection. Since this data was not selected, it will not be sorted. Do you want to extend your selection?"), () => {
+                zone = contiguousZone;
+                result = env.model.dispatch("SORT_CELLS", {
+                    sheetId,
+                    col,
+                    row,
+                    zone,
+                    sortDirection,
+                });
+            }, () => {
+                result = env.model.dispatch("SORT_CELLS", {
+                    sheetId,
+                    col,
+                    row,
+                    zone,
+                    sortDirection,
+                });
+            });
+        }
+    }
+    if (result.isCancelledBecause("InvalidSortZone" /* CommandResult.InvalidSortZone */)) {
+        const { col, row } = anchor;
+        env.model.selection.selectZone({ cell: { col, row }, zone });
+        env.raiseError(_t("Cannot sort. To sort, select only cells or only merges that have the same size."));
+    }
+}
+
+function sortMatrix(matrix, locale, ...criteria) {
+    for (let i = 0; i < criteria.length; i++) {
+        const param = i % 2 === 0 ? "sort_column" : "is_ascending";
+        assert(() => criteria[i] !== undefined, _t("Value for parameter %s is missing in [[FUNCTION_NAME]].", param));
+    }
+    const sortingOrders = [];
+    const sortColumns = [];
+    const nRows = matrix.length;
+    for (let i = 0; i < criteria.length; i += 2) {
+        sortingOrders.push(toBoolean(toScalar(criteria[i + 1])?.value) ? "ascending" : "descending");
+        const sortColumn = criteria[i];
+        if (isMatrix(sortColumn) && (sortColumn.length > 1 || sortColumn[0].length > 1)) {
+            assert(() => sortColumn.length === 1 && sortColumn[0].length === nRows, _t("Wrong size for %s. Expected a range of size 1x%s. Got %sx%s.", `sort_column${i + 1}`, nRows, sortColumn.length, sortColumn[0].length));
+            sortColumns.push(sortColumn.flat().map((c) => c.value));
+        }
+        else {
+            const colIndex = toNumber(toScalar(sortColumn)?.value, locale);
+            if (colIndex < 1 || colIndex > matrix[0].length) {
+                return matrix;
+            }
+            sortColumns.push(matrix.map((row) => row[colIndex - 1].value));
+        }
+    }
+    if (sortColumns.length === 0) {
+        for (let i = 0; i < matrix[0].length; i++) {
+            sortColumns.push(matrix.map((row) => row[i].value));
+            sortingOrders.push("ascending");
+        }
+    }
+    const sortingCriteria = {
+        descending: cellsSortingCriterion("descending"),
+        ascending: cellsSortingCriterion("ascending"),
+    };
+    const indexes = range(0, matrix.length);
+    indexes.sort((a, b) => {
+        for (const [i, sortColumn] of sortColumns.entries()) {
+            const left = sortColumn[a];
+            const right = sortColumn[b];
+            const leftCell = {
+                value: left,
+                type: left === null
+                    ? CellValueType.empty
+                    : typeof left === "string"
+                        ? CellValueType.text
+                        : typeof left,
+            };
+            const rightCell = {
+                value: right,
+                type: right === null
+                    ? CellValueType.empty
+                    : typeof right === "string"
+                        ? CellValueType.text
+                        : typeof right,
+            };
+            const result = sortingCriteria[sortingOrders[i]](leftCell, rightCell);
+            if (result !== 0) {
+                return result;
+            }
+        }
+        return 0;
+    });
+    return indexes.map((i) => matrix[i]);
+}
+// -----------------------------------------------------------------------------
+// FILTER
+// -----------------------------------------------------------------------------
+const FILTER = {
+    description: _t("Returns a filtered version of the source range, returning only rows or columns that meet the specified conditions."),
+    // TODO modify args description when vectorization on formulas is available
+    args: [
+        arg("range (any, range<any>)", _t("The data to be filtered.")),
+        arg("condition1 (boolean, range<boolean>)", _t("A column or row containing true or false values corresponding to the first column or row of range.")),
+        arg("condition2 (boolean, range<boolean>, repeating)", _t("Additional column or row containing true or false values.")),
+    ],
+    compute: function (range, ...conditions) {
+        let _array = toMatrix(range);
+        const _conditionsMatrices = conditions.map((cond) => matrixMap(toMatrix(cond), (data) => data.value));
+        _conditionsMatrices.map((c) => assertSingleColOrRow(_t("The arguments condition must be a single column or row."), c));
+        assertSameDimensions(_t("The arguments conditions must have the same dimensions."), ...conditions);
+        const _conditions = _conditionsMatrices.map((c) => c.flat());
+        const mode = _conditionsMatrices[0].length === 1 ? "row" : "col";
+        _array = mode === "row" ? transposeMatrix(_array) : _array;
+        assert(() => _conditions.every((cond) => cond.length === _array.length), _t("FILTER has mismatched sizes on the range and conditions."));
+        const result = [];
+        for (let i = 0; i < _array.length; i++) {
+            const row = _array[i];
+            if (_conditions.every((c) => (typeof c[i] === "boolean" || typeof c[i] === "number") && c[i])) {
+                result.push(row);
+            }
+        }
+        if (!result.length) {
+            return new NotAvailableError(_t("No match found in FILTER evaluation"));
+        }
+        return mode === "row" ? transposeMatrix(result) : result;
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// SORT
+// -----------------------------------------------------------------------------
+const SORT = {
+    description: _t("Sorts the rows of a given array or range by the values in one or more columns."),
+    args: [
+        arg("range (range)", _t("The data to be sorted.")),
+        arg("sort_column (any, range<number>, repeating)", _t("The index of the column in range or a range outside of range containing the values by which to sort.")),
+        arg("is_ascending (boolean, repeating)", _t("TRUE or FALSE indicating whether to sort sort_column in ascending order. FALSE sorts in descending order.")),
+    ],
+    compute: function (range, ...sortingCriteria) {
+        const _range = transposeMatrix(range);
+        return transposeMatrix(sortMatrix(_range, this.locale, ...sortingCriteria));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SORTN
+// -----------------------------------------------------------------------------
+const SORTN = {
+    description: _t("Returns the first n items in a data set after performing a sort."),
+    args: [
+        arg("range (range)", _t("The data to be sorted.")),
+        arg("n (number, default=1)", _t("The number of items to return.")),
+        arg("display_ties_mode (number, default=0)", _t("A number representing the way to display ties.")),
+        arg("sort_column (number, range<number>, repeating)", _t("The index of the column in range or a range outside of range containing the values by which to sort.")),
+        arg("is_ascending (boolean, repeating)", _t("TRUE or FALSE indicating whether to sort sort_column in ascending order. FALSE sorts in descending order.")),
+    ],
+    compute: function (range, n, displayTiesMode, ...sortingCriteria) {
+        const _n = toNumber(n?.value ?? 1, this.locale);
+        assert(() => _n >= 0, _t("Wrong value of 'n'. Expected a positive number. Got %s.", _n));
+        const _displayTiesMode = toNumber(displayTiesMode?.value ?? 0, this.locale);
+        assert(() => _displayTiesMode >= 0 && _displayTiesMode <= 3, _t("Wrong value of 'display_ties_mode'. Expected a positive number between 0 and 3. Got %s.", _displayTiesMode));
+        const sortedData = sortMatrix(transposeMatrix(range), this.locale, ...sortingCriteria);
+        const sameRows = (i, j) => JSON.stringify(sortedData[i].map((c) => c.value)) ===
+            JSON.stringify(sortedData[j].map((c) => c.value));
+        /*
+         * displayTiesMode determine how ties (equal values) are dealt with:
+         * 0 - ignore ties and show first n rows only
+         * 1 - show first n rows plus any additional ties with nth row
+         * 2 - show n rows but remove duplicates
+         * 3 - show first n unique rows and all duplicates of these rows
+         */
+        switch (_displayTiesMode) {
+            case 0:
+                return transposeMatrix(sortedData.slice(0, _n));
+            case 1:
+                for (let i = _n; i < sortedData.length; i++) {
+                    if (!sameRows(i, _n - 1)) {
+                        return transposeMatrix(sortedData.slice(0, i));
+                    }
+                }
+                return transposeMatrix(sortedData);
+            case 2: {
+                const uniques = [sortedData[0]];
+                for (let i = 1; i < sortedData.length; i++) {
+                    for (let j = 0; j < i; j++) {
+                        if (sameRows(i, j)) {
+                            break;
+                        }
+                        if (j === i - 1) {
+                            uniques.push(sortedData[i]);
+                        }
+                    }
+                }
+                return transposeMatrix(uniques.slice(0, _n));
+            }
+            case 3: {
+                const uniques = [sortedData[0]];
+                let counter = 1;
+                for (let i = 1; i < sortedData.length; i++) {
+                    if (!sameRows(i, i - 1)) {
+                        counter++;
+                    }
+                    if (counter > _n) {
+                        break;
+                    }
+                    uniques.push(sortedData[i]);
+                }
+                return transposeMatrix(uniques);
+            }
+        }
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// UNIQUE
+// -----------------------------------------------------------------------------
+const UNIQUE = {
+    description: _t("Unique rows in the provided source range."),
+    args: [
+        arg("range (any, range<any>)", _t("The data to filter by unique entries.")),
+        arg("by_column (boolean, default=FALSE)", _t("Whether to filter the data by columns or by rows.")),
+        arg("exactly_once (boolean, default=FALSE)", _t("Whether to return only entries with no duplicates.")),
+    ],
+    compute: function (range = { value: "" }, byColumn, exactlyOnce) {
+        if (!isMatrix(range)) {
+            return [[range]];
+        }
+        const _byColumn = toBoolean(byColumn?.value) || false;
+        const _exactlyOnce = toBoolean(exactlyOnce?.value) || false;
+        if (!_byColumn) {
+            range = transposeMatrix(range);
+        }
+        const map = new Map();
+        for (const data of range) {
+            const key = JSON.stringify(data.map((item) => item.value));
+            const occurrence = map.get(key);
+            if (!occurrence) {
+                map.set(key, { data, count: 1 });
+            }
+            else {
+                occurrence.count++;
+            }
+        }
+        const result = [];
+        for (const row of map.values()) {
+            if (_exactlyOnce && row.count > 1) {
+                continue;
+            }
+            result.push(row.data);
+        }
+        if (!result.length)
+            return new EvaluationError(_t("No unique values found"));
+        return _byColumn ? result : transposeMatrix(result);
+    },
+    isExported: true,
+};
+
+var filter = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    FILTER: FILTER,
+    SORT: SORT,
+    SORTN: SORTN,
+    UNIQUE: UNIQUE
+});
+
+/** Assert maturity date > settlement date */
+function assertMaturityAndSettlementDatesAreValid(settlement, maturity) {
+    assert(() => settlement < maturity, _t("The maturity (%s) must be strictly greater than the settlement (%s).", maturity.toString(), settlement.toString()));
+}
+/** Assert settlement date > issue date */
+function assertSettlementAndIssueDatesAreValid(settlement, issue) {
+    assert(() => issue < settlement, _t("The settlement date (%s) must be strictly greater than the issue date (%s).", settlement.toString(), issue.toString()));
+}
+/** Assert coupon frequency is in [1, 2, 4] */
+function assertCouponFrequencyIsValid(frequency) {
+    assert(() => [1, 2, 4].includes(frequency), _t("The frequency (%s) must be one of %s", frequency.toString(), [1, 2, 4].toString()));
+}
+/** Assert dayCountConvention is between 0 and 4 */
+function assertDayCountConventionIsValid(dayCountConvention) {
+    assert(() => 0 <= dayCountConvention && dayCountConvention <= 4, _t("The day_count_convention (%s) must be between 0 and 4 inclusive.", dayCountConvention.toString()));
+}
+function assertRedemptionStrictlyPositive(redemption) {
+    assert(() => redemption > 0, _t("The redemption (%s) must be strictly positive.", redemption.toString()));
+}
+function assertPriceStrictlyPositive(price) {
+    assert(() => price > 0, _t("The price (%s) must be strictly positive.", price.toString()));
+}
+function assertNumberOfPeriodsStrictlyPositive(nPeriods) {
+    assert(() => nPeriods > 0, _t("The number_of_periods (%s) must be greater than 0.", nPeriods.toString()));
+}
+function assertRateStrictlyPositive(rate) {
+    assert(() => rate > 0, _t("The rate (%s) must be strictly positive.", rate.toString()));
+}
+function assertLifeStrictlyPositive(life) {
+    assert(() => life > 0, _t("The life (%s) must be strictly positive.", life.toString()));
+}
+function assertCostStrictlyPositive(cost) {
+    assert(() => cost > 0, _t("The cost (%s) must be strictly positive.", cost.toString()));
+}
+function assertPurchaseDatePositiveOrZero(purchaseDate) {
+    assert(() => purchaseDate >= 0, _t("The purchase_date (%s) must be positive or null.", purchaseDate.toString()));
+}
+function assertIssuePositiveOrZero(issue) {
+    assert(() => issue >= 0, _t("The issue (%s) must be positive or null.", issue.toString()));
+}
+function assertCostPositiveOrZero(cost) {
+    assert(() => cost >= 0, _t("The cost (%s) must be positive or null.", cost.toString()));
+}
+function assertPeriodStrictlyPositive(period) {
+    assert(() => period > 0, _t("The period (%s) must be strictly positive.", period.toString()));
+}
+function assertPeriodPositiveOrZero(period) {
+    assert(() => period >= 0, _t("The period (%s) must be positive or null.", period.toString()));
+}
+function assertSalvagePositiveOrZero(salvage) {
+    assert(() => salvage >= 0, _t("The salvage (%s) must be positive or null.", salvage.toString()));
+}
+function assertSalvageSmallerOrEqualThanCost(salvage, cost) {
+    assert(() => salvage <= cost, _t("The salvage (%s) must be smaller or equal than the cost (%s).", salvage.toString(), cost.toString()));
+}
+function assertPresentValueStrictlyPositive(pv) {
+    assert(() => pv > 0, _t("The present value (%s) must be strictly positive.", pv.toString()));
+}
+function assertPeriodSmallerOrEqualToLife(period, life) {
+    assert(() => period <= life, _t("The period (%s) must be less than or equal life (%s).", period.toString(), life.toString()));
+}
+function assertInvestmentStrictlyPositive(investment) {
+    assert(() => investment > 0, _t("The investment (%s) must be strictly positive.", investment.toString()));
+}
+function assertDiscountStrictlyPositive(discount) {
+    assert(() => discount > 0, _t("The discount (%s) must be strictly positive.", discount.toString()));
+}
+function assertDiscountStrictlySmallerThanOne(discount) {
+    assert(() => discount < 1, _t("The discount (%s) must be smaller than 1.", discount.toString()));
+}
+function assertDeprecationFactorStrictlyPositive(factor) {
+    assert(() => factor > 0, _t("The depreciation factor (%s) must be strictly positive.", factor.toString()));
+}
+function assertSettlementLessThanOneYearBeforeMaturity(settlement, maturity, locale) {
+    const startDate = toJsDate(settlement, locale);
+    const endDate = toJsDate(maturity, locale);
+    const startDatePlusOneYear = toJsDate(settlement, locale);
+    startDatePlusOneYear.setFullYear(startDate.getFullYear() + 1);
+    assert(() => endDate.getTime() <= startDatePlusOneYear.getTime(), _t("The settlement date (%s) must at most one year after the maturity date (%s).", settlement.toString(), maturity.toString()));
+}
+/**
+ * Check if the given periods are valid. This will assert :
+ *
+ * - 0 < numberOfPeriods
+ * - 0 < firstPeriod <= lastPeriod
+ * - 0 < lastPeriod <= numberOfPeriods
+ *
+ */
+function assertFirstAndLastPeriodsAreValid(firstPeriod, lastPeriod, numberOfPeriods) {
+    assertNumberOfPeriodsStrictlyPositive(numberOfPeriods);
+    assert(() => firstPeriod > 0, _t("The first_period (%s) must be strictly positive.", firstPeriod.toString()));
+    assert(() => lastPeriod > 0, _t("The last_period (%s) must be strictly positive.", lastPeriod.toString()));
+    assert(() => firstPeriod <= lastPeriod, _t("The first_period (%s) must be smaller or equal to the last_period (%s).", firstPeriod.toString(), lastPeriod.toString()));
+    assert(() => lastPeriod <= numberOfPeriods, _t("The last_period (%s) must be smaller or equal to the number_of_periods (%s).", firstPeriod.toString(), numberOfPeriods.toString()));
+}
+/**
+ * Check if the given periods are valid. This will assert :
+ *
+ * - 0 < life
+ * - 0 <= startPeriod <= endPeriod
+ * - 0 <= endPeriod <= life
+ *
+ */
+function assertStartAndEndPeriodAreValid(startPeriod, endPeriod, life) {
+    assertLifeStrictlyPositive(life);
+    assert(() => startPeriod >= 0, _t("The start_period (%s) must be greater or equal than 0.", startPeriod.toString()));
+    assert(() => endPeriod >= 0, _t("The end_period (%s) must be greater or equal than 0.", endPeriod.toString()));
+    assert(() => startPeriod <= endPeriod, _t("The start_period (%s) must be smaller or equal to the end_period (%s).", startPeriod.toString(), endPeriod.toString()));
+    assert(() => endPeriod <= life, _t("The end_period (%s) must be smaller or equal to the life (%s).", startPeriod.toString(), life.toString()));
+}
+function assertRateGuessStrictlyGreaterThanMinusOne(guess) {
+    assert(() => guess > -1, _t("The rate_guess (%s) must be strictly greater than -1.", guess.toString()));
+}
+function assertCashFlowsAndDatesHaveSameDimension(cashFlows, dates) {
+    assert(() => cashFlows.length === dates.length && cashFlows[0].length === dates[0].length, _t("The cashflow_amounts and cashflow_dates ranges must have the same dimensions."));
+}
+function assertCashFlowsHavePositiveAndNegativesValues(cashFlow) {
+    assert(() => cashFlow.some((val) => val > 0) && cashFlow.some((val) => val < 0), _t("There must be both positive and negative values in cashflow_amounts."));
+}
+function assertEveryDateGreaterThanFirstDateOfCashFlowDates(dates) {
+    assert(() => dates.every((date) => date >= dates[0]), _t("All the dates should be greater or equal to the first date in cashflow_dates (%s).", dates[0].toString()));
+}
+
+const DEFAULT_DAY_COUNT_CONVENTION = 0;
+const DEFAULT_END_OR_BEGINNING = 0;
+const DEFAULT_FUTURE_VALUE = 0;
+const COUPON_FUNCTION_ARGS = [
+    arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+    arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+    arg("frequency (number)", _t("The number of interest or coupon payments per year (1, 2, or 4).")),
+    arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+];
+/**
+ * Use the Newton–Raphson method to find a root of the given function in an iterative manner.
+ *
+ * @param func the function to find a root of
+ * @param derivFunc the derivative of the function
+ * @param startValue the initial value for the first iteration of the algorithm
+ * @param maxIterations the maximum number of iterations
+ * @param epsMax the epsilon for the root
+ * @param nanFallback a function giving a fallback value to use if func(x) returns NaN. Useful if the
+ *                       function is not defined for some range, but we know approximately where the root is when the Newton
+ *                       algorithm ends up in this range.
+ */
+function newtonMethod(func, derivFunc, startValue, maxIterations, epsMax = 1e-10, nanFallback) {
+    let x = startValue;
+    let newX;
+    let xDelta;
+    let y;
+    let yEqual0 = false;
+    let count = 0;
+    let previousFallback = undefined;
+    do {
+        y = func(x);
+        if (isNaN(y)) {
+            assert(() => count < maxIterations && nanFallback !== undefined, _t("Function [[FUNCTION_NAME]] didn't find any result."));
+            count++;
+            x = nanFallback(previousFallback);
+            previousFallback = x;
+            continue;
+        }
+        newX = x - y / derivFunc(x);
+        xDelta = Math.abs(newX - x);
+        x = newX;
+        yEqual0 = xDelta < epsMax || Math.abs(y) < epsMax;
+        assert(() => count < maxIterations, _t("Function [[FUNCTION_NAME]] didn't find any result."));
+        count++;
+    } while (!yEqual0);
+    return x;
+}
+// -----------------------------------------------------------------------------
+// ACCRINTM
+// -----------------------------------------------------------------------------
+const ACCRINTM = {
+    description: _t("Accrued interest of security paying at maturity."),
+    args: [
+        arg("issue (date)", _t("The date the security was initially issued.")),
+        arg("maturity (date)", _t("The maturity date of the security.")),
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("redemption (number)", _t("The redemption amount per 100 face value, or par.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (issue, maturity, rate, redemption, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        const start = Math.trunc(toNumber(issue, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _redemption = toNumber(redemption, this.locale);
+        const _rate = toNumber(rate, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertIssuePositiveOrZero(start);
+        assertSettlementAndIssueDatesAreValid(end, start);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assertRedemptionStrictlyPositive(_redemption);
+        assertRateStrictlyPositive(_rate);
+        const yearFrac = getYearFrac(start, end, _dayCountConvention);
+        return _redemption * _rate * yearFrac;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// AMORLINC
+// -----------------------------------------------------------------------------
+const AMORLINC = {
+    description: _t("Depreciation for an accounting period."),
+    args: [
+        arg("cost (number)", _t("The initial cost of the asset.")),
+        arg("purchase_date (date)", _t("The date the asset was purchased.")),
+        arg("first_period_end (date)", _t("The date the first period ended.")),
+        arg("salvage (number)", _t("The value of the asset at the end of depreciation.")),
+        arg("period (number)", _t("The single period within life for which to calculate depreciation.")),
+        arg("rate (number)", _t("The deprecation rate.")),
+        arg("day_count_convention (number, optional)", _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (cost, purchaseDate, firstPeriodEnd, salvage, period, rate, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _cost = toNumber(cost, this.locale);
+        const _purchaseDate = Math.trunc(toNumber(purchaseDate, this.locale));
+        const _firstPeriodEnd = Math.trunc(toNumber(firstPeriodEnd, this.locale));
+        const _salvage = toNumber(salvage, this.locale);
+        const _period = toNumber(period, this.locale);
+        const _rate = toNumber(rate, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertCostStrictlyPositive(_cost);
+        assertPurchaseDatePositiveOrZero(_purchaseDate);
+        assertSalvagePositiveOrZero(_salvage);
+        assertSalvageSmallerOrEqualThanCost(_salvage, _cost);
+        assertPeriodPositiveOrZero(_period);
+        assertRateStrictlyPositive(_rate);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assert(() => _purchaseDate <= _firstPeriodEnd, _t("The purchase_date (%s) must be before the first_period_end (%s).", _purchaseDate.toString(), _firstPeriodEnd.toString()));
+        /**
+         * https://wiki.documentfoundation.org/Documentation/Calc_Functions/AMORLINC
+         *
+         * AMORLINC period 0 = cost * rate * YEARFRAC(purchase date, first period end)
+         * AMORLINC period n = cost * rate
+         * AMORLINC at the last period is such that the remaining deprecated cost is equal to the salvage value.
+         *
+         * The period is and rounded to 1 if < 1 truncated if > 1,
+         *
+         * Compatibility note :
+         * If (purchase date) === (first period end), on GSheet the deprecation at the first period is 0, and on Excel
+         * it is a full period deprecation. We choose to use the Excel behaviour.
+         */
+        const roundedPeriod = _period < 1 && _period > 0 ? 1 : Math.trunc(_period);
+        const deprec = _cost * _rate;
+        const yearFrac = getYearFrac(_purchaseDate, _firstPeriodEnd, _dayCountConvention);
+        const firstDeprec = _purchaseDate === _firstPeriodEnd ? deprec : deprec * yearFrac;
+        const valueAtPeriod = _cost - firstDeprec - deprec * roundedPeriod;
+        if (valueAtPeriod >= _salvage) {
+            return roundedPeriod === 0 ? firstDeprec : deprec;
+        }
+        return _salvage - valueAtPeriod < deprec ? deprec - (_salvage - valueAtPeriod) : 0;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUPDAYS
+// -----------------------------------------------------------------------------
+const COUPDAYS = {
+    description: _t("Days in coupon period containing settlement date."),
+    args: COUPON_FUNCTION_ARGS,
+    compute: function (settlement, maturity, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        // https://wiki.documentfoundation.org/Documentation/Calc_Functions/COUPDAYS
+        if (_dayCountConvention === 1) {
+            const before = COUPPCD.compute.bind(this)(settlement, maturity, frequency, dayCountConvention).value;
+            const after = COUPNCD.compute.bind(this)(settlement, maturity, frequency, dayCountConvention).value;
+            return after - before;
+        }
+        const daysInYear = _dayCountConvention === 3 ? 365 : 360;
+        return daysInYear / _frequency;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUPDAYBS
+// -----------------------------------------------------------------------------
+const COUPDAYBS = {
+    description: _t("Days from settlement until next coupon."),
+    args: COUPON_FUNCTION_ARGS,
+    compute: function (settlement, maturity, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        const couponBeforeStart = COUPPCD.compute.bind(this)(settlement, maturity, frequency, dayCountConvention).value;
+        if ([1, 2, 3].includes(_dayCountConvention)) {
+            return start - couponBeforeStart;
+        }
+        if (_dayCountConvention === 4) {
+            const yearFrac = getYearFrac(couponBeforeStart, start, _dayCountConvention);
+            return Math.round(yearFrac * 360);
+        }
+        const startDate = toJsDate(start, this.locale);
+        const dateCouponBeforeStart = toJsDate(couponBeforeStart, this.locale);
+        const y1 = dateCouponBeforeStart.getFullYear();
+        const y2 = startDate.getFullYear();
+        const m1 = dateCouponBeforeStart.getMonth() + 1; // +1 because months in js start at 0 and it's confusing
+        const m2 = startDate.getMonth() + 1;
+        let d1 = dateCouponBeforeStart.getDate();
+        let d2 = startDate.getDate();
+        /**
+         * Rules based on https://en.wikipedia.org/wiki/Day_count_convention#30/360_US
+         *
+         * These are slightly modified (no mention of if investment is EOM and rules order is modified),
+         * but from my testing this seems the rules used by Excel/GSheet.
+         */
+        if (m1 === 2 &&
+            m2 === 2 &&
+            isLastDayOfMonth(dateCouponBeforeStart) &&
+            isLastDayOfMonth(startDate)) {
+            d2 = 30;
+        }
+        if (d2 === 31 && (d1 === 30 || d1 === 31)) {
+            d2 = 30;
+        }
+        if (m1 === 2 && isLastDayOfMonth(dateCouponBeforeStart)) {
+            d1 = 30;
+        }
+        if (d1 === 31) {
+            d1 = 30;
+        }
+        return (y2 - y1) * 360 + (m2 - m1) * 30 + (d2 - d1);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUPDAYSNC
+// -----------------------------------------------------------------------------
+const COUPDAYSNC = {
+    description: _t("Days from settlement until next coupon."),
+    args: COUPON_FUNCTION_ARGS,
+    compute: function (settlement, maturity, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        const couponAfterStart = COUPNCD.compute.bind(this)(settlement, maturity, frequency, dayCountConvention).value;
+        if ([1, 2, 3].includes(_dayCountConvention)) {
+            return couponAfterStart - start;
+        }
+        if (_dayCountConvention === 4) {
+            const yearFrac = getYearFrac(start, couponAfterStart, _dayCountConvention);
+            return Math.round(yearFrac * 360);
+        }
+        const coupDayBs = COUPDAYBS.compute.bind(this)(settlement, maturity, frequency, dayCountConvention);
+        const coupDays = COUPDAYS.compute.bind(this)(settlement, maturity, frequency, dayCountConvention);
+        return coupDays - coupDayBs;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUPNCD
+// -----------------------------------------------------------------------------
+const COUPNCD = {
+    description: _t("Next coupon date after the settlement date."),
+    args: COUPON_FUNCTION_ARGS,
+    compute: function (settlement, maturity, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        const monthsPerPeriod = 12 / _frequency;
+        const coupNum = COUPNUM.compute.bind(this)(settlement, maturity, frequency, dayCountConvention);
+        const date = addMonthsToDate(toJsDate(end, this.locale), -(coupNum - 1) * monthsPerPeriod, true);
+        return {
+            value: jsDateToRoundNumber(date),
+            format: this.locale.dateFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUPNUM
+// -----------------------------------------------------------------------------
+const COUPNUM = {
+    description: _t("Number of coupons between settlement and maturity."),
+    args: COUPON_FUNCTION_ARGS,
+    compute: function (settlement, maturity, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        let num = 1;
+        let currentDate = end;
+        const monthsPerPeriod = 12 / _frequency;
+        while (currentDate > start) {
+            currentDate = jsDateToRoundNumber(addMonthsToDate(toJsDate(currentDate, this.locale), -monthsPerPeriod, false));
+            num++;
+        }
+        return num - 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COUPPCD
+// -----------------------------------------------------------------------------
+const COUPPCD = {
+    description: _t("Last coupon date prior to or on the settlement date."),
+    args: COUPON_FUNCTION_ARGS,
+    compute: function (settlement, maturity, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        const monthsPerPeriod = 12 / _frequency;
+        const coupNum = COUPNUM.compute.bind(this)(settlement, maturity, frequency, dayCountConvention);
+        const date = addMonthsToDate(toJsDate(end, this.locale), -coupNum * monthsPerPeriod, true);
+        return {
+            value: jsDateToRoundNumber(date),
+            format: this.locale.dateFormat,
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CUMIPMT
+// -----------------------------------------------------------------------------
+const CUMIPMT = {
+    description: _t("Cumulative interest paid over a set of periods."),
+    args: [
+        arg("rate (number)", _t("The interest rate.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+        arg("first_period (number)", _t("The number of the payment period to begin the cumulative calculation.")),
+        arg("last_period (number)", _t("The number of the payment period to end the cumulative calculation.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    compute: function (rate, numberOfPeriods, presentValue, firstPeriod, lastPeriod, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        const first = toNumber(firstPeriod, this.locale);
+        const last = toNumber(lastPeriod, this.locale);
+        const r = toNumber(rate, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        const n = toNumber(numberOfPeriods, this.locale);
+        const type = toBoolean(endOrBeginning) ? 1 : 0;
+        assertFirstAndLastPeriodsAreValid(first, last, n);
+        assertRateStrictlyPositive(r);
+        assertPresentValueStrictlyPositive(pv);
+        let cumSum = 0;
+        for (let i = first; i <= last; i++) {
+            cumSum += impt(r, i, n, pv, 0, type);
+        }
+        return cumSum;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CUMPRINC
+// -----------------------------------------------------------------------------
+const CUMPRINC = {
+    description: _t("Cumulative principal paid over a set of periods."),
+    args: [
+        arg("rate (number)", _t("The interest rate.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+        arg("first_period (number)", _t("The number of the payment period to begin the cumulative calculation.")),
+        arg("last_period (number)", _t("The number of the payment period to end the cumulative calculation.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    compute: function (rate, numberOfPeriods, presentValue, firstPeriod, lastPeriod, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        const first = toNumber(firstPeriod, this.locale);
+        const last = toNumber(lastPeriod, this.locale);
+        const r = toNumber(rate, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        const n = toNumber(numberOfPeriods, this.locale);
+        const type = toBoolean(endOrBeginning) ? 1 : 0;
+        assertFirstAndLastPeriodsAreValid(first, last, n);
+        assertRateStrictlyPositive(r);
+        assertPresentValueStrictlyPositive(pv);
+        let cumSum = 0;
+        for (let i = first; i <= last; i++) {
+            cumSum += ppmt(r, i, n, pv, 0, type);
+        }
+        return cumSum;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DB
+// -----------------------------------------------------------------------------
+const DB = {
+    description: _t("Depreciation via declining balance method."),
+    args: [
+        arg("cost (number)", _t("The initial cost of the asset.")),
+        arg("salvage (number)", _t("The value of the asset at the end of depreciation.")),
+        arg("life (number)", _t("The number of periods over which the asset is depreciated.")),
+        arg("period (number)", _t("The single period within life for which to calculate depreciation.")),
+        arg("month (number, optional)", _t("The number of months in the first year of depreciation.")),
+    ],
+    // to do: replace by dollar format
+    compute: function (cost, salvage, life, period, ...args) {
+        const _cost = toNumber(cost, this.locale);
+        const _salvage = toNumber(salvage, this.locale);
+        const _life = toNumber(life, this.locale);
+        const _period = Math.trunc(toNumber(period, this.locale));
+        const _month = args.length ? Math.trunc(toNumber(args[0], this.locale)) : 12;
+        const lifeLimit = _life + (_month === 12 ? 0 : 1);
+        assertCostPositiveOrZero(_cost);
+        assertSalvagePositiveOrZero(_salvage);
+        assertPeriodStrictlyPositive(_period);
+        assertLifeStrictlyPositive(_life);
+        assert(() => 1 <= _month && _month <= 12, _t("The month (%s) must be between 1 and 12 inclusive.", _month.toString()));
+        assert(() => _period <= lifeLimit, _t("The period (%s) must be less than or equal to %s.", _period.toString(), lifeLimit.toString()));
+        const monthPart = _month / 12;
+        let rate = 1 - Math.pow(_salvage / _cost, 1 / _life);
+        // round to 3 decimal places
+        rate = Math.round(rate * 1000) / 1000;
+        let before = _cost;
+        let after = _cost * (1 - rate * monthPart);
+        for (let i = 1; i < _period; i++) {
+            before = after;
+            after = before * (1 - rate);
+            if (i === _life) {
+                after = before * (1 - rate * (1 - monthPart));
+            }
+        }
+        return {
+            value: before - after,
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DDB
+// -----------------------------------------------------------------------------
+const DEFAULT_DDB_DEPRECIATION_FACTOR = 2;
+function ddb(cost, salvage, life, period, factor) {
+    assertCostPositiveOrZero(cost);
+    assertSalvagePositiveOrZero(salvage);
+    assertPeriodStrictlyPositive(period);
+    assertLifeStrictlyPositive(life);
+    assertPeriodSmallerOrEqualToLife(period, life);
+    assertDeprecationFactorStrictlyPositive(factor);
+    if (cost === 0 || salvage >= cost)
+        return 0;
+    const deprecFactor = factor / life;
+    if (deprecFactor > 1) {
+        return period === 1 ? cost - salvage : 0;
+    }
+    if (period <= 1) {
+        return cost * deprecFactor;
+    }
+    const previousCost = cost * Math.pow(1 - deprecFactor, period - 1);
+    const nextCost = cost * Math.pow(1 - deprecFactor, period);
+    const deprec = nextCost < salvage ? previousCost - salvage : previousCost - nextCost;
+    return Math.max(deprec, 0);
+}
+const DDB = {
+    description: _t("Depreciation via double-declining balance method."),
+    args: [
+        arg("cost (number)", _t("The initial cost of the asset.")),
+        arg("salvage (number)", _t("The value of the asset at the end of depreciation.")),
+        arg("life (number)", _t("The number of periods over which the asset is depreciated.")),
+        arg("period (number)", _t("The single period within life for which to calculate depreciation.")),
+        arg(`factor (number, default=${DEFAULT_DDB_DEPRECIATION_FACTOR})`, _t("The factor by which depreciation decreases.")),
+    ],
+    compute: function (cost, salvage, life, period, factor = { value: DEFAULT_DDB_DEPRECIATION_FACTOR }) {
+        const _cost = toNumber(cost, this.locale);
+        const _salvage = toNumber(salvage, this.locale);
+        const _life = toNumber(life, this.locale);
+        const _period = toNumber(period, this.locale);
+        const _factor = toNumber(factor, this.locale);
+        return {
+            value: ddb(_cost, _salvage, _life, _period, _factor),
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DISC
+// -----------------------------------------------------------------------------
+const DISC = {
+    description: _t("Discount rate of a security based on price."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("price (number)", _t("The price at which the security is bought per 100 face value.")),
+        arg("redemption (number)", _t("The redemption amount per 100 face value, or par.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, price, redemption, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _price = toNumber(price, this.locale);
+        const _redemption = toNumber(redemption, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assertPriceStrictlyPositive(_price);
+        assertRedemptionStrictlyPositive(_redemption);
+        /**
+         * https://support.microsoft.com/en-us/office/disc-function-71fce9f3-3f05-4acf-a5a3-eac6ef4daa53
+         *
+         * B = number of days in year, depending on year basis
+         * DSM = number of days from settlement to maturity
+         *
+         *        redemption - price          B
+         * DISC = ____________________  *    ____
+         *            redemption             DSM
+         */
+        const yearsFrac = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        return (_redemption - _price) / _redemption / yearsFrac;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DOLLARDE
+// -----------------------------------------------------------------------------
+const DOLLARDE = {
+    description: _t("Convert a decimal fraction to decimal value."),
+    args: [
+        arg("fractional_price (number)", _t("The price quotation given using fractional decimal conventions.")),
+        arg("unit (number)", _t("The units of the fraction, e.g. 8 for 1/8ths or 32 for 1/32nds.")),
+    ],
+    compute: function (fractionalPrice, unit) {
+        const price = toNumber(fractionalPrice, this.locale);
+        const _unit = Math.trunc(toNumber(unit, this.locale));
+        assert(() => _unit > 0, _t("The unit (%s) must be strictly positive.", _unit.toString()));
+        const truncatedPrice = Math.trunc(price);
+        const priceFractionalPart = price - truncatedPrice;
+        const frac = 10 ** Math.ceil(Math.log10(_unit)) / _unit;
+        return truncatedPrice + priceFractionalPart * frac;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DOLLARFR
+// -----------------------------------------------------------------------------
+const DOLLARFR = {
+    description: _t("Convert a decimal value to decimal fraction."),
+    args: [
+        arg("decimal_price (number)", _t("The price quotation given as a decimal value.")),
+        arg("unit (number)", _t("The units of the desired fraction, e.g. 8 for 1/8ths or 32 for 1/32nds.")),
+    ],
+    compute: function (decimalPrice, unit) {
+        const price = toNumber(decimalPrice, this.locale);
+        const _unit = Math.trunc(toNumber(unit, this.locale));
+        assert(() => _unit > 0, _t("The unit (%s) must be strictly positive.", _unit.toString()));
+        const truncatedPrice = Math.trunc(price);
+        const priceFractionalPart = price - truncatedPrice;
+        const frac = _unit / 10 ** Math.ceil(Math.log10(_unit));
+        return truncatedPrice + priceFractionalPart * frac;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DURATION
+// -----------------------------------------------------------------------------
+const DURATION = {
+    description: _t("Number of periods for an investment to reach a value."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("yield (number)", _t("The expected annual yield of the security.")),
+        arg("frequency (number)", _t("The number of interest or coupon payments per year (1, 2, or 4).")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, rate, securityYield, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const _rate = toNumber(rate, this.locale);
+        const _yield = toNumber(securityYield, this.locale);
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assert(() => _rate >= 0, _t("The rate (%s) must be positive or null.", _rate.toString()));
+        assert(() => _yield >= 0, _t("The yield (%s) must be positive or null.", _yield.toString()));
+        const years = getYearFrac(start, end, _dayCountConvention);
+        const timeFirstYear = years - Math.trunc(years) || 1 / _frequency;
+        const nbrCoupons = Math.ceil(years * _frequency);
+        // The DURATION function return the Macaulay duration
+        // See example: https://en.wikipedia.org/wiki/Bond_duration#Formulas
+        const cashFlowFromCoupon = _rate / _frequency;
+        const yieldPerPeriod = _yield / _frequency;
+        let count = 0;
+        let sum = 0;
+        for (let i = 1; i <= nbrCoupons; i++) {
+            const cashFlowPerPeriod = cashFlowFromCoupon + (i === nbrCoupons ? 1 : 0);
+            const presentValuePerPeriod = cashFlowPerPeriod / (1 + yieldPerPeriod) ** i;
+            sum += (timeFirstYear + (i - 1) / _frequency) * presentValuePerPeriod;
+            count += presentValuePerPeriod;
+        }
+        return count === 0 ? 0 : sum / count;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// EFFECT
+// -----------------------------------------------------------------------------
+const EFFECT = {
+    description: _t("Annual effective interest rate."),
+    args: [
+        arg("nominal_rate (number)", _t("The nominal interest rate per year.")),
+        arg("periods_per_year (number)", _t("The number of compounding periods per year.")),
+    ],
+    compute: function (nominal_rate, periods_per_year) {
+        const nominal = toNumber(nominal_rate, this.locale);
+        const periods = Math.trunc(toNumber(periods_per_year, this.locale));
+        assert(() => nominal > 0, _t("The nominal rate (%s) must be strictly greater than 0.", nominal.toString()));
+        assert(() => periods > 0, _t("The number of periods by year (%s) must strictly greater than 0.", periods.toString()));
+        // https://en.wikipedia.org/wiki/Nominal_interest_rate#Nominal_versus_effective_interest_rate
+        return Math.pow(1 + nominal / periods, periods) - 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FV
+// -----------------------------------------------------------------------------
+const DEFAULT_PRESENT_VALUE = 0;
+function fv(r, n, p, pv, t) {
+    if (r === 0) {
+        return -(pv + p * n);
+    }
+    return -pv * (1 + r) ** n - (p * (1 + r * t) * ((1 + r) ** n - 1)) / r;
+}
+const FV = {
+    description: _t("Future value of an annuity investment."),
+    args: [
+        arg("rate (number)", _t("The interest rate.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("payment_amount (number)", _t("The amount per period to be paid.")),
+        arg(`present_value (number, default=${DEFAULT_PRESENT_VALUE})`, _t("The current value of the annuity.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    // to do: replace by dollar format
+    compute: function (rate, numberOfPeriods, paymentAmount, presentValue = { value: DEFAULT_PRESENT_VALUE }, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        presentValue = presentValue || 0;
+        endOrBeginning = endOrBeginning || 0;
+        const r = toNumber(rate, this.locale);
+        const n = toNumber(numberOfPeriods, this.locale);
+        const p = toNumber(paymentAmount, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        const type = toBoolean(endOrBeginning) ? 1 : 0;
+        return {
+            value: fv(r, n, p, pv, type),
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FVSCHEDULE
+// -----------------------------------------------------------------------------
+const FVSCHEDULE = {
+    description: _t("Future value of principal from series of rates."),
+    args: [
+        arg("principal (number)", _t("The amount of initial capital or value to compound against.")),
+        arg("rate_schedule (number, range<number>)", _t("A series of interest rates to compound against the principal.")),
+    ],
+    compute: function (principalAmount, rateSchedule) {
+        const principal = toNumber(principalAmount, this.locale);
+        return reduceAny([rateSchedule], (acc, rate) => acc * (1 + toNumber(rate, this.locale)), principal);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// INTRATE
+// -----------------------------------------------------------------------------
+const INTRATE = {
+    description: _t("Calculates effective interest rate."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("investment (number)", _t("The amount invested in the security.")),
+        arg("redemption (number)", _t("The amount to be received at maturity.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, investment, redemption, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _redemption = toNumber(redemption, this.locale);
+        const _investment = toNumber(investment, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertInvestmentStrictlyPositive(_investment);
+        assertRedemptionStrictlyPositive(_redemption);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        /**
+         * https://wiki.documentfoundation.org/Documentation/Calc_Functions/INTRATE
+         *
+         *             (Redemption  - Investment) / Investment
+         * INTRATE =  _________________________________________
+         *              YEARFRAC(settlement, maturity, basis)
+         */
+        const yearFrac = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        return (_redemption - _investment) / _investment / yearFrac;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// IPMT
+// -----------------------------------------------------------------------------
+function impt(r, per, n, pv, fv, type) {
+    return pmt(r, n, pv, fv, type) - ppmt(r, per, n, pv, fv, type);
+}
+const IPMT = {
+    description: _t("Payment on the principal of an investment."),
+    args: [
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("period (number)", _t("The amortization period, in terms of number of periods.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+        arg(`future_value (number, default=${DEFAULT_FUTURE_VALUE})`, _t("The future value remaining after the final payment has been made.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    compute: function (rate, currentPeriod, numberOfPeriods, presentValue, futureValue = { value: DEFAULT_FUTURE_VALUE }, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        const r = toNumber(rate, this.locale);
+        const period = toNumber(currentPeriod, this.locale);
+        const n = toNumber(numberOfPeriods, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        const fv = toNumber(futureValue, this.locale);
+        const type = toBoolean(endOrBeginning) ? 1 : 0;
+        return {
+            value: impt(r, period, n, pv, fv, type),
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// IRR
+// -----------------------------------------------------------------------------
+const DEFAULT_RATE_GUESS = 0.1;
+const IRR = {
+    description: _t("Internal rate of return given periodic cashflows."),
+    args: [
+        arg("cashflow_amounts (number, range<number>)", _t("An array or range containing the income or payments associated with the investment.")),
+        arg(`rate_guess (number, default=${DEFAULT_RATE_GUESS})`, _t("An estimate for what the internal rate of return will be.")),
+    ],
+    compute: function (cashFlowAmounts, rateGuess = { value: DEFAULT_RATE_GUESS }) {
+        const _rateGuess = toNumber(rateGuess, this.locale);
+        assertRateGuessStrictlyGreaterThanMinusOne(_rateGuess);
+        // check that values contains at least one positive value and one negative value
+        // and extract number present in the cashFlowAmount argument
+        let positive = false;
+        let negative = false;
+        let amounts = [];
+        visitNumbers([cashFlowAmounts], ({ value: amount }) => {
+            if (amount > 0)
+                positive = true;
+            if (amount < 0)
+                negative = true;
+            amounts.push(amount);
+        }, this.locale);
+        assert(() => positive && negative, _t("The cashflow_amounts must include negative and positive values."));
+        const firstAmount = amounts.shift();
+        // The result of IRR is the rate at which the NPV() function will return zero with the given values.
+        // This algorithm uses the Newton's method on the NPV function to determine the result
+        // Newton's method: https://en.wikipedia.org/wiki/Newton%27s_method
+        // As the NPV function isn't continuous, we apply the Newton's method on the numerator of the NPV formula.
+        function npvNumerator(rate, startValue, values) {
+            const nbrValue = values.length;
+            let i = 0;
+            return values.reduce((acc, v) => {
+                i++;
+                return acc + v * rate ** (nbrValue - i);
+            }, startValue * rate ** nbrValue);
+        }
+        function npvNumeratorDeriv(rate, startValue, values) {
+            const nbrValue = values.length;
+            let i = 0;
+            return values.reduce((acc, v) => {
+                i++;
+                return acc + v * (nbrValue - i) * rate ** (nbrValue - i - 1);
+            }, startValue * nbrValue * rate ** (nbrValue - 1));
+        }
+        function func(x) {
+            return npvNumerator(x, firstAmount, amounts);
+        }
+        function derivFunc(x) {
+            return npvNumeratorDeriv(x, firstAmount, amounts);
+        }
+        return {
+            value: newtonMethod(func, derivFunc, _rateGuess + 1, 20, 1e-5) - 1,
+            format: "0%",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISPMT
+// -----------------------------------------------------------------------------
+const ISPMT = {
+    description: _t("Returns the interest paid at a particular period of an investment."),
+    args: [
+        arg("rate (number)", _t("The interest rate.")),
+        arg("period (number)", _t("The period for which you want to view the interest payment.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+    ],
+    compute: function (rate, currentPeriod, numberOfPeriods, presentValue) {
+        const interestRate = toNumber(rate, this.locale);
+        const period = toNumber(currentPeriod, this.locale);
+        const nOfPeriods = toNumber(numberOfPeriods, this.locale);
+        const investment = toNumber(presentValue, this.locale);
+        assert(() => nOfPeriods !== 0, _t("The number of periods must be different than 0.", nOfPeriods.toString()));
+        const currentInvestment = investment - investment * (period / nOfPeriods);
+        return -1 * currentInvestment * interestRate;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MDURATION
+// -----------------------------------------------------------------------------
+const MDURATION = {
+    description: _t("Modified Macaulay duration."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("yield (number)", _t("The expected annual yield of the security.")),
+        arg("frequency (number)", _t("The number of interest or coupon payments per year (1, 2, or 4).")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, rate, securityYield, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        const duration = DURATION.compute.bind(this)(settlement, maturity, rate, securityYield, frequency, dayCountConvention);
+        const y = toNumber(securityYield, this.locale);
+        const k = Math.trunc(toNumber(frequency, this.locale));
+        return duration / (1 + y / k);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MIRR
+// -----------------------------------------------------------------------------
+const MIRR = {
+    description: _t("Modified internal rate of return."),
+    args: [
+        arg("cashflow_amounts (range<number>)", _t("A range containing the income or payments associated with the investment. The array should contain bot payments and incomes.")),
+        arg("financing_rate (number)", _t("The interest rate paid on funds invested.")),
+        arg("reinvestment_return_rate (number)", _t("The return (as a percentage) earned on reinvestment of income received from the investment.")),
+    ],
+    compute: function (cashflowAmount, financingRate, reinvestmentRate) {
+        const fRate = toNumber(financingRate, this.locale);
+        const rRate = toNumber(reinvestmentRate, this.locale);
+        const cashFlow = transposeMatrix(cashflowAmount)
+            .flat()
+            .filter((t) => t.value !== null)
+            .map((val) => toNumber(val, this.locale));
+        const n = cashFlow.length;
+        /**
+         * https://en.wikipedia.org/wiki/Modified_internal_rate_of_return
+         *
+         *         /  FV(positive cash flows, reinvestment rate) \  ^ (1 / (n - 1))
+         * MIRR = |  ___________________________________________  |                 - 1
+         *         \   - PV(negative cash flows, finance rate)   /
+         *
+         * with n the number of cash flows.
+         *
+         * You can compute FV and PV as :
+         *
+         * FV =    SUM      [ (cashFlow[i]>0 ? cashFlow[i] : 0) * (1 + rRate)**(n - i-1) ]
+         *       i= 0 => n
+         *
+         * PV =    SUM      [ (cashFlow[i]<0 ? cashFlow[i] : 0) / (1 + fRate)**i ]
+         *       i= 0 => n
+         */
+        let fv = 0;
+        let pv = 0;
+        for (const i of range(0, n)) {
+            const amount = cashFlow[i];
+            if (amount >= 0) {
+                fv += amount * (rRate + 1) ** (n - i - 1);
+            }
+            else {
+                pv += amount / (fRate + 1) ** i;
+            }
+        }
+        assert(() => pv !== 0 && fv !== 0, _t("There must be both positive and negative values in cashflow_amounts."));
+        const exponent = 1 / (n - 1);
+        return (-fv / pv) ** exponent - 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NOMINAL
+// -----------------------------------------------------------------------------
+const NOMINAL = {
+    description: _t("Annual nominal interest rate."),
+    args: [
+        arg("effective_rate (number)", _t("The effective interest rate per year.")),
+        arg("periods_per_year (number)", _t("The number of compounding periods per year.")),
+    ],
+    compute: function (effective_rate, periods_per_year) {
+        const effective = toNumber(effective_rate, this.locale);
+        const periods = Math.trunc(toNumber(periods_per_year, this.locale));
+        assert(() => effective > 0, _t("The effective rate (%s) must must strictly greater than 0.", effective.toString()));
+        assert(() => periods > 0, _t("The number of periods by year (%s) must strictly greater than 0.", periods.toString()));
+        // https://en.wikipedia.org/wiki/Nominal_interest_rate#Nominal_versus_effective_interest_rate
+        return (Math.pow(effective + 1, 1 / periods) - 1) * periods;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NPER
+// -----------------------------------------------------------------------------
+const NPER = {
+    description: _t("Number of payment periods for an investment."),
+    args: [
+        arg("rate (number)", _t("The interest rate.")),
+        arg("payment_amount (number)", _t("The amount of each payment made.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+        arg(`future_value (number, default=${DEFAULT_FUTURE_VALUE})`, _t("The future value remaining after the final payment has been made.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    compute: function (rate, paymentAmount, presentValue, futureValue = { value: DEFAULT_FUTURE_VALUE }, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        futureValue = futureValue || 0;
+        endOrBeginning = endOrBeginning || 0;
+        const r = toNumber(rate, this.locale);
+        const p = toNumber(paymentAmount, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        const fv = toNumber(futureValue, this.locale);
+        const t = toBoolean(endOrBeginning) ? 1 : 0;
+        /**
+         * https://wiki.documentfoundation.org/Documentation/Calc_Functions/NPER
+         *
+         * 0 = pv * (1 + r)^N + fv + [ p * (1 + r * t) * ((1 + r)^N - 1) ] / r
+         *
+         * We solve the equation for N:
+         *
+         * with C = [ p * (1 + r * t)] / r and
+         *      R = 1 + r
+         *
+         * => 0 = pv * R^N + C * R^N - C + fv
+         * <=> (C - fv) = R^N * (pv + C)
+         * <=> log[(C - fv) / (pv + C)] = N * log(R)
+         */
+        if (r === 0) {
+            return -(fv + pv) / p;
+        }
+        const c = (p * (1 + r * t)) / r;
+        return Math.log((c - fv) / (pv + c)) / Math.log(1 + r);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NPV
+// -----------------------------------------------------------------------------
+function npvResult(r, startValue, values, locale) {
+    let i = 0;
+    return reduceNumbers(values, (acc, v) => {
+        i++;
+        return acc + v / (1 + r) ** i;
+    }, startValue, locale);
+}
+const NPV = {
+    description: _t("The net present value of an investment based on a series of periodic cash flows and a discount rate."),
+    args: [
+        arg("discount (number)", _t("The discount rate of the investment over one period.")),
+        arg("cashflow1 (number, range<number>)", _t("The first future cash flow.")),
+        arg("cashflow2 (number, range<number>, repeating)", _t("Additional future cash flows.")),
+    ],
+    // to do: replace by dollar format
+    compute: function (discount, ...values) {
+        const _discount = toNumber(discount, this.locale);
+        assert(() => _discount !== -1, _t("The discount (%s) must be different from -1.", _discount.toString()));
+        return {
+            value: npvResult(_discount, 0, values, this.locale),
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PDURATION
+// -----------------------------------------------------------------------------
+const PDURATION = {
+    description: _t("Computes the number of periods needed for an investment to reach a value."),
+    args: [
+        arg("rate (number)", _t("The rate at which the investment grows each period.")),
+        arg("present_value (number)", _t("The investment's current value.")),
+        arg("future_value (number)", _t("The investment's desired future value.")),
+    ],
+    compute: function (rate, presentValue, futureValue) {
+        const _rate = toNumber(rate, this.locale);
+        const _presentValue = toNumber(presentValue, this.locale);
+        const _futureValue = toNumber(futureValue, this.locale);
+        assertRateStrictlyPositive(_rate);
+        assert(() => _presentValue > 0, _t("The present_value (%s) must be strictly positive.", _presentValue.toString()));
+        assert(() => _futureValue > 0, _t("The future_value (%s) must be strictly positive.", _futureValue.toString()));
+        return (Math.log(_futureValue) - Math.log(_presentValue)) / Math.log(1 + _rate);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PMT
+// -----------------------------------------------------------------------------
+function pmt(r, n, pv, fv, t) {
+    assertNumberOfPeriodsStrictlyPositive(n);
+    /**
+     * https://wiki.documentfoundation.org/Documentation/Calc_Functions/PMT
+     *
+     * 0 = pv * (1 + r)^N + fv + [ p * (1 + r * t) * ((1 + r)^N - 1) ] / r
+     *
+     * We simply the equation for p
+     */
+    if (r === 0) {
+        return -(fv + pv) / n;
+    }
+    let payment = -(pv * (1 + r) ** n + fv);
+    payment = (payment * r) / ((1 + r * t) * ((1 + r) ** n - 1));
+    return payment;
+}
+const PMT = {
+    description: _t("Periodic payment for an annuity investment."),
+    args: [
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+        arg(`future_value (number, default=${DEFAULT_FUTURE_VALUE})`, _t("The future value remaining after the final payment has been made.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    compute: function (rate, numberOfPeriods, presentValue, futureValue = { value: DEFAULT_FUTURE_VALUE }, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        const n = toNumber(numberOfPeriods, this.locale);
+        const r = toNumber(rate, this.locale);
+        const t = toBoolean(endOrBeginning) ? 1 : 0;
+        const fv = toNumber(futureValue, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        return { value: pmt(r, n, pv, fv, t), format: "#,##0.00" };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PPMT
+// -----------------------------------------------------------------------------
+function ppmt(r, per, n, pValue, fValue, t) {
+    assertNumberOfPeriodsStrictlyPositive(n);
+    assert(() => per > 0 && per <= n, _t("The period must be between 1 and number_of_periods (%s)", n));
+    const payment = pmt(r, n, pValue, fValue, t);
+    if (t === 1 && per === 1)
+        return payment;
+    const eqPeriod = t === 0 ? per - 1 : per - 2;
+    const eqPv = pValue + payment * t;
+    const capitalAtPeriod = -fv(r, eqPeriod, payment, eqPv, 0);
+    const currentInterest = capitalAtPeriod * r;
+    return payment + currentInterest;
+}
+const PPMT = {
+    description: _t("Payment on the principal of an investment."),
+    args: [
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("period (number)", _t("The amortization period, in terms of number of periods.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+        arg(`future_value (number, default=${DEFAULT_FUTURE_VALUE})`, _t("The future value remaining after the final payment has been made.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    compute: function (rate, currentPeriod, numberOfPeriods, presentValue, futureValue = { value: DEFAULT_FUTURE_VALUE }, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        const n = toNumber(numberOfPeriods, this.locale);
+        const r = toNumber(rate, this.locale);
+        const period = toNumber(currentPeriod, this.locale);
+        const type = toBoolean(endOrBeginning) ? 1 : 0;
+        const fv = toNumber(futureValue, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        return {
+            value: ppmt(r, period, n, pv, fv, type),
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PV
+// -----------------------------------------------------------------------------
+const PV = {
+    description: _t("Present value of an annuity investment."),
+    args: [
+        arg("rate (number)", _t("The interest rate.")),
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("payment_amount (number)", _t("The amount per period to be paid.")),
+        arg(`future_value (number, default=${DEFAULT_FUTURE_VALUE})`, _t("The future value remaining after the final payment has been made.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+    ],
+    // to do: replace by dollar format
+    compute: function (rate, numberOfPeriods, paymentAmount, futureValue = { value: DEFAULT_FUTURE_VALUE }, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }) {
+        futureValue = futureValue || 0;
+        endOrBeginning = endOrBeginning || 0;
+        const r = toNumber(rate, this.locale);
+        const n = toNumber(numberOfPeriods, this.locale);
+        const p = toNumber(paymentAmount, this.locale);
+        const fv = toNumber(futureValue, this.locale);
+        const type = toBoolean(endOrBeginning) ? 1 : 0;
+        // https://wiki.documentfoundation.org/Documentation/Calc_Functions/PV
+        return {
+            value: r
+                ? -((p * (1 + r * type) * ((1 + r) ** n - 1)) / r + fv) / (1 + r) ** n
+                : -(fv + p * n),
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PRICE
+// -----------------------------------------------------------------------------
+const PRICE = {
+    description: _t("Price of a security paying periodic interest."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("yield (number)", _t("The expected annual yield of the security.")),
+        arg("redemption (number)", _t("The redemption amount per 100 face value, or par.")),
+        arg("frequency (number)", _t("The number of interest or coupon payments per year (1, 2, or 4).")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, rate, securityYield, redemption, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _rate = toNumber(rate, this.locale);
+        const _yield = toNumber(securityYield, this.locale);
+        const _redemption = toNumber(redemption, this.locale);
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assert(() => _rate >= 0, _t("The rate (%s) must be positive or null.", _rate.toString()));
+        assert(() => _yield >= 0, _t("The yield (%s) must be positive or null.", _yield.toString()));
+        assertRedemptionStrictlyPositive(_redemption);
+        const years = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        const nbrRealCoupons = years * _frequency;
+        const nbrFullCoupons = Math.ceil(nbrRealCoupons);
+        const timeFirstCoupon = nbrRealCoupons - Math.floor(nbrRealCoupons) || 1;
+        const yieldFactorPerPeriod = 1 + _yield / _frequency;
+        const cashFlowFromCoupon = (100 * _rate) / _frequency;
+        if (nbrFullCoupons === 1) {
+            return ((cashFlowFromCoupon + _redemption) / ((timeFirstCoupon * _yield) / _frequency + 1) -
+                cashFlowFromCoupon * (1 - timeFirstCoupon));
+        }
+        let cashFlowsPresentValue = 0;
+        for (let i = 1; i <= nbrFullCoupons; i++) {
+            cashFlowsPresentValue +=
+                cashFlowFromCoupon / yieldFactorPerPeriod ** (i - 1 + timeFirstCoupon);
+        }
+        const redemptionPresentValue = _redemption / yieldFactorPerPeriod ** (nbrFullCoupons - 1 + timeFirstCoupon);
+        return (redemptionPresentValue + cashFlowsPresentValue - cashFlowFromCoupon * (1 - timeFirstCoupon));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PRICEDISC
+// -----------------------------------------------------------------------------
+const PRICEDISC = {
+    description: _t("Price of a discount security."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("discount (number)", _t("The discount rate of the security at time of purchase.")),
+        arg("redemption (number)", _t("The redemption amount per 100 face value, or par.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, discount, redemption, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _discount = toNumber(discount, this.locale);
+        const _redemption = toNumber(redemption, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assertDiscountStrictlyPositive(_discount);
+        assertRedemptionStrictlyPositive(_redemption);
+        /**
+         * https://support.microsoft.com/en-us/office/pricedisc-function-d06ad7c1-380e-4be7-9fd9-75e3079acfd3
+         *
+         * B = number of days in year, depending on year basis
+         * DSM = number of days from settlement to maturity
+         *
+         * PRICEDISC = redemption - discount * redemption * (DSM/B)
+         */
+        const yearsFrac = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        return _redemption - _discount * _redemption * yearsFrac;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PRICEMAT
+// -----------------------------------------------------------------------------
+const PRICEMAT = {
+    description: _t("Calculates the price of a security paying interest at maturity, based on expected yield."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("issue (date)", _t("The date the security was initially issued.")),
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("yield (number)", _t("The expected annual yield of the security.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, issue, rate, securityYield, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _issue = Math.trunc(toNumber(issue, this.locale));
+        const _rate = toNumber(rate, this.locale);
+        const _yield = toNumber(securityYield, this.locale);
+        const _dayCount = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertSettlementAndIssueDatesAreValid(_settlement, _issue);
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertDayCountConventionIsValid(_dayCount);
+        assert(() => _rate >= 0, _t("The rate (%s) must be positive or null.", _rate.toString()));
+        assert(() => _yield >= 0, _t("The yield (%s) must be positive or null.", _yield.toString()));
+        /**
+         * https://support.microsoft.com/en-us/office/pricemat-function-52c3b4da-bc7e-476a-989f-a95f675cae77
+         *
+         * B = number of days in year, depending on year basis
+         * DSM = number of days from settlement to maturity
+         * DIM = number of days from issue to maturity
+         * DIS = number of days from issue to settlement
+         *
+         *             100 + (DIM/B * rate * 100)
+         *  PRICEMAT =  __________________________   - (DIS/B * rate * 100)
+         *              1 + (DSM/B * yield)
+         *
+         * The ratios number_of_days / days_in_year are computed using the YEARFRAC function, that handle
+         * differences due to day count conventions.
+         *
+         * Compatibility note :
+         *
+         * Contrary to GSheet and OpenOffice, Excel doesn't seems to always use its own YEARFRAC function
+         * to compute PRICEMAT, and give different values for some combinations of dates and day count
+         * conventions ( notably for leap years and dayCountConvention = 1 (Actual/Actual)).
+         *
+         * Our function PRICEMAT give us the same results as LibreOffice Calc.
+         * Google Sheet use the formula with YEARFRAC, but its YEARFRAC function results are different
+         * from the results of Excel/LibreOffice, thus we get different values with PRICEMAT.
+         *
+         */
+        const settlementToMaturity = getYearFrac(_settlement, _maturity, _dayCount);
+        const issueToSettlement = getYearFrac(_settlement, _issue, _dayCount);
+        const issueToMaturity = getYearFrac(_issue, _maturity, _dayCount);
+        const numerator = 100 + issueToMaturity * _rate * 100;
+        const denominator = 1 + settlementToMaturity * _yield;
+        const term2 = issueToSettlement * _rate * 100;
+        return numerator / denominator - term2;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RATE
+// -----------------------------------------------------------------------------
+const RATE_GUESS_DEFAULT = 0.1;
+const RATE = {
+    description: _t("Interest rate of an annuity investment."),
+    args: [
+        arg("number_of_periods (number)", _t("The number of payments to be made.")),
+        arg("payment_per_period (number)", _t("The amount per period to be paid.")),
+        arg("present_value (number)", _t("The current value of the annuity.")),
+        arg(`future_value (number, default=${DEFAULT_FUTURE_VALUE})`, _t("The future value remaining after the final payment has been made.")),
+        arg(`end_or_beginning (number, default=${DEFAULT_END_OR_BEGINNING})`, _t("Whether payments are due at the end (0) or beginning (1) of each period.")),
+        arg(`rate_guess (number, default=${RATE_GUESS_DEFAULT})`, _t("An estimate for what the interest rate will be.")),
+    ],
+    compute: function (numberOfPeriods, paymentPerPeriod, presentValue, futureValue = { value: DEFAULT_FUTURE_VALUE }, endOrBeginning = { value: DEFAULT_END_OR_BEGINNING }, rateGuess = { value: RATE_GUESS_DEFAULT }) {
+        const n = toNumber(numberOfPeriods, this.locale);
+        const payment = toNumber(paymentPerPeriod, this.locale);
+        const type = toBoolean(endOrBeginning) ? 1 : 0;
+        const guess = toNumber(rateGuess, this.locale) || RATE_GUESS_DEFAULT;
+        let fv = toNumber(futureValue, this.locale);
+        let pv = toNumber(presentValue, this.locale);
+        assertNumberOfPeriodsStrictlyPositive(n);
+        assert(() => [payment, pv, fv].some((val) => val > 0) && [payment, pv, fv].some((val) => val < 0), _t("There must be both positive and negative values in [payment_amount, present_value, future_value].", n.toString()));
+        assertRateGuessStrictlyGreaterThanMinusOne(guess);
+        fv -= payment * type;
+        pv += payment * type;
+        // https://github.com/apache/openoffice/blob/trunk/main/sc/source/core/tool/interpr2.cxx
+        const func = (rate) => {
+            const powN = Math.pow(1 + rate, n);
+            const intResult = (powN - 1) / rate;
+            return fv + pv * powN + payment * intResult;
+        };
+        const derivFunc = (rate) => {
+            const powNMinus1 = Math.pow(1 + rate, n - 1);
+            const powN = Math.pow(1 + rate, n);
+            const intResult = (powN - 1) / rate;
+            const intResultDeriv = (n * powNMinus1) / rate - intResult / rate;
+            const fTermDerivation = pv * n * powNMinus1 + payment * intResultDeriv;
+            return fTermDerivation;
+        };
+        return {
+            value: newtonMethod(func, derivFunc, guess, 40, 1e-5),
+            format: "0%",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RECEIVED
+// -----------------------------------------------------------------------------
+const RECEIVED = {
+    description: _t("Amount received at maturity for a security."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("investment (number)", _t("The amount invested (irrespective of face value of each security).")),
+        arg("discount (number)", _t("The discount rate of the security invested in.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, investment, discount, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _investment = toNumber(investment, this.locale);
+        const _discount = toNumber(discount, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assertInvestmentStrictlyPositive(_investment);
+        assertDiscountStrictlyPositive(_discount);
+        /**
+         * https://support.microsoft.com/en-us/office/received-function-7a3f8b93-6611-4f81-8576-828312c9b5e5
+         *
+         *                    investment
+         * RECEIVED = _________________________
+         *              1 - discount * DSM / B
+         *
+         * with DSM = number of days from settlement to maturity and B = number of days in a year
+         *
+         * The ratio DSM/B can be computed with the YEARFRAC function to take the dayCountConvention into account.
+         */
+        const yearsFrac = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        return _investment / (1 - _discount * yearsFrac);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RRI
+// -----------------------------------------------------------------------------
+const RRI = {
+    description: _t("Computes the rate needed for an investment to reach a specific value within a specific number of periods."),
+    args: [
+        arg("number_of_periods (number)", _t("The number of periods.")),
+        arg("present_value (number)", _t("The present value of the investment.")),
+        arg("future_value (number)", _t("The future value of the investment.")),
+    ],
+    compute: function (numberOfPeriods, presentValue, futureValue) {
+        const n = toNumber(numberOfPeriods, this.locale);
+        const pv = toNumber(presentValue, this.locale);
+        const fv = toNumber(futureValue, this.locale);
+        assertNumberOfPeriodsStrictlyPositive(n);
+        /**
+         * https://support.microsoft.com/en-us/office/rri-function-6f5822d8-7ef1-4233-944c-79e8172930f4
+         *
+         * RRI = (future value / present value) ^ (1 / number of periods) - 1
+         */
+        return (fv / pv) ** (1 / n) - 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SLN
+// -----------------------------------------------------------------------------
+const SLN = {
+    description: _t("Depreciation of an asset using the straight-line method."),
+    args: [
+        arg("cost (number)", _t("The initial cost of the asset.")),
+        arg("salvage (number)", _t("The value of the asset at the end of depreciation.")),
+        arg("life (number)", _t("The number of periods over which the asset is depreciated.")),
+    ],
+    compute: function (cost, salvage, life) {
+        const _cost = toNumber(cost, this.locale);
+        const _salvage = toNumber(salvage, this.locale);
+        const _life = toNumber(life, this.locale);
+        // No assertion is done on the values of the arguments to be compatible with Excel/Gsheet that don't check the values.
+        // It's up to the user to make sure the arguments make sense, which is good design because the user is smart.
+        return {
+            value: (_cost - _salvage) / _life,
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SYD
+// -----------------------------------------------------------------------------
+const SYD = {
+    description: _t("Depreciation via sum of years digit method."),
+    args: [
+        arg("cost (number)", _t("The initial cost of the asset.")),
+        arg("salvage (number)", _t("The value of the asset at the end of depreciation.")),
+        arg("life (number)", _t("The number of periods over which the asset is depreciated.")),
+        arg("period (number)", _t("The single period within life for which to calculate depreciation.")),
+    ],
+    compute: function (cost, salvage, life, period) {
+        const _cost = toNumber(cost, this.locale);
+        const _salvage = toNumber(salvage, this.locale);
+        const _life = toNumber(life, this.locale);
+        const _period = toNumber(period, this.locale);
+        assertPeriodStrictlyPositive(_period);
+        assertLifeStrictlyPositive(_life);
+        assertPeriodSmallerOrEqualToLife(_period, _life);
+        /**
+         * This deprecation method use the sum of digits of the periods of the life as the deprecation factor.
+         * For example for a life = 5, we have a deprecation factor or 1 + 2 + 3 + 4 + 5 = 15 = life * (life + 1) / 2 = F.
+         *
+         * The deprecation for a period p is then computed based on F and the remaining lifetime at the period P.
+         *
+         * deprecation = (cost - salvage) * (number of remaining periods / F)
+         */
+        const deprecFactor = (_life * (_life + 1)) / 2;
+        const remainingPeriods = _life - _period + 1;
+        return {
+            value: (_cost - _salvage) * (remainingPeriods / deprecFactor),
+            format: "#,##0.00",
+        };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TBILLPRICE
+// -----------------------------------------------------------------------------
+function tBillPrice(start, end, disc) {
+    /**
+     * https://support.microsoft.com/en-us/office/tbillprice-function-eacca992-c29d-425a-9eb8-0513fe6035a2
+     *
+     * TBILLPRICE = 100 * (1 - discount * DSM / 360)
+     *
+     * with DSM = number of days from settlement to maturity
+     *
+     * The ratio DSM/360 can be computed with the YEARFRAC function with dayCountConvention = 2 (actual/360).
+     */
+    const yearFrac = getYearFrac(start, end, 2);
+    return 100 * (1 - disc * yearFrac);
+}
+const TBILLPRICE = {
+    description: _t("Price of a US Treasury bill."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("discount (number)", _t("The discount rate of the bill at time of purchase.")),
+    ],
+    compute: function (settlement, maturity, discount) {
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const disc = toNumber(discount, this.locale);
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertSettlementLessThanOneYearBeforeMaturity(start, end, this.locale);
+        assertDiscountStrictlyPositive(disc);
+        assertDiscountStrictlySmallerThanOne(disc);
+        return tBillPrice(start, end, disc);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TBILLEQ
+// -----------------------------------------------------------------------------
+const TBILLEQ = {
+    description: _t("Equivalent rate of return for a US Treasury bill."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("discount (number)", _t("The discount rate of the bill at time of purchase.")),
+    ],
+    compute: function (settlement, maturity, discount) {
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const disc = toNumber(discount, this.locale);
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertSettlementLessThanOneYearBeforeMaturity(start, end, this.locale);
+        assertDiscountStrictlyPositive(disc);
+        assertDiscountStrictlySmallerThanOne(disc);
+        /**
+         * https://support.microsoft.com/en-us/office/tbilleq-function-2ab72d90-9b4d-4efe-9fc2-0f81f2c19c8c
+         *
+         *               365 * discount
+         * TBILLEQ = ________________________
+         *            360 - discount * DSM
+         *
+         * with DSM = number of days from settlement to maturity
+         *
+         * What is not indicated in the Excel documentation is that this formula only works for duration between settlement
+         * and maturity that are less than 6 months (182 days). This is because US Treasury bills use semi-annual interest,
+         * and thus we have to take into account the compound interest for the calculation.
+         *
+         * For this case, the formula becomes (Treasury Securities and Derivatives, by Frank J. Fabozzi, page 49)
+         *
+         *            -2X + 2* SQRT[ X² - (2X - 1) * (1 - 100/p) ]
+         * TBILLEQ = ________________________________________________
+         *                            2X - 1
+         *
+         * with X = DSM / (number of days in a year),
+         *  and p is the price, computed with TBILLPRICE
+         *
+         * Note that from my tests in Excel, we take (number of days in a year) = 366 ONLY if DSM is 366, not if
+         * the settlement year is a leap year.
+         *
+         */
+        const nDays = DAYS.compute.bind(this)({ value: end }, { value: start });
+        if (nDays <= 182) {
+            return (365 * disc) / (360 - disc * nDays);
+        }
+        const p = tBillPrice(start, end, disc) / 100;
+        const daysInYear = nDays === 366 ? 366 : 365;
+        const x = nDays / daysInYear;
+        const num = -2 * x + 2 * Math.sqrt(x ** 2 - (2 * x - 1) * (1 - 1 / p));
+        const denom = 2 * x - 1;
+        return num / denom;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TBILLYIELD
+// -----------------------------------------------------------------------------
+const TBILLYIELD = {
+    description: _t("The yield of a US Treasury bill based on price."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("price (number)", _t("The price at which the security is bought per 100 face value.")),
+    ],
+    compute: function (settlement, maturity, price) {
+        const start = Math.trunc(toNumber(settlement, this.locale));
+        const end = Math.trunc(toNumber(maturity, this.locale));
+        const p = toNumber(price, this.locale);
+        assertMaturityAndSettlementDatesAreValid(start, end);
+        assertSettlementLessThanOneYearBeforeMaturity(start, end, this.locale);
+        assertPriceStrictlyPositive(p);
+        /**
+         * https://support.microsoft.com/en-us/office/tbillyield-function-6d381232-f4b0-4cd5-8e97-45b9c03468ba
+         *
+         *              100 - price     360
+         * TBILLYIELD = ____________ * _____
+         *                 price        DSM
+         *
+         * with DSM = number of days from settlement to maturity
+         *
+         * The ratio DSM/360 can be computed with the YEARFRAC function with dayCountConvention = 2 (actual/360).
+         *
+         */
+        const yearFrac = getYearFrac(start, end, 2);
+        return ((100 - p) / p) * (1 / yearFrac);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VDB
+// -----------------------------------------------------------------------------
+const DEFAULT_VDB_NO_SWITCH = false;
+const VDB = {
+    description: _t("Variable declining balance. WARNING : does not handle decimal periods."),
+    args: [
+        arg("cost (number)", _t("The initial cost of the asset.")),
+        arg("salvage (number)", _t("The value of the asset at the end of depreciation.")),
+        arg("life (number)", _t("The number of periods over which the asset is depreciated.")),
+        arg("start (number)", _t("Starting period to calculate depreciation.")),
+        arg("end (number)", _t("Ending period to calculate depreciation.")),
+        arg(`factor (number, default=${DEFAULT_DDB_DEPRECIATION_FACTOR})`, _t("The number of months in the first year of depreciation.")),
+        arg(`no_switch (number, default=${DEFAULT_VDB_NO_SWITCH})`, _t("Whether to switch to straight-line depreciation when the depreciation is greater than the declining balance calculation.")),
+    ],
+    compute: function (cost, salvage, life, startPeriod, endPeriod, factor = { value: DEFAULT_DDB_DEPRECIATION_FACTOR }, noSwitch = { value: DEFAULT_VDB_NO_SWITCH }) {
+        factor = factor || 0;
+        const _cost = toNumber(cost, this.locale);
+        const _salvage = toNumber(salvage, this.locale);
+        const _life = toNumber(life, this.locale);
+        /* TODO : handle decimal periods
+         * on end_period it looks like it is a simple linear function, but I cannot understand exactly how
+         * decimals periods are handled with start_period.
+         */
+        const _startPeriod = Math.trunc(toNumber(startPeriod, this.locale));
+        const _endPeriod = Math.trunc(toNumber(endPeriod, this.locale));
+        const _factor = toNumber(factor, this.locale);
+        const _noSwitch = toBoolean(noSwitch);
+        assertCostPositiveOrZero(_cost);
+        assertSalvagePositiveOrZero(_salvage);
+        assertStartAndEndPeriodAreValid(_startPeriod, _endPeriod, _life);
+        assertDeprecationFactorStrictlyPositive(_factor);
+        if (_cost === 0)
+            return 0;
+        if (_salvage >= _cost) {
+            return _startPeriod < 1 ? _cost - _salvage : 0;
+        }
+        const doubleDeprecFactor = _factor / _life;
+        if (doubleDeprecFactor >= 1) {
+            return _startPeriod < 1 ? _cost - _salvage : 0;
+        }
+        let previousCost = _cost;
+        let currentDeprec = 0;
+        let resultDeprec = 0;
+        let isLinearDeprec = false;
+        for (let i = 0; i < _endPeriod; i++) {
+            // compute the current deprecation, or keep the last one if we reached a stage of linear deprecation
+            if (!isLinearDeprec || _noSwitch) {
+                const doubleDeprec = previousCost * doubleDeprecFactor;
+                const remainingPeriods = _life - i;
+                const linearDeprec = (previousCost - _salvage) / remainingPeriods;
+                if (!_noSwitch && linearDeprec > doubleDeprec) {
+                    isLinearDeprec = true;
+                    currentDeprec = linearDeprec;
+                }
+                else {
+                    currentDeprec = doubleDeprec;
+                }
+            }
+            const nextCost = Math.max(previousCost - currentDeprec, _salvage);
+            if (i >= _startPeriod) {
+                resultDeprec += previousCost - nextCost;
+            }
+            previousCost = nextCost;
+        }
+        return resultDeprec;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// XIRR
+// -----------------------------------------------------------------------------
+const XIRR = {
+    description: _t("Internal rate of return given non-periodic cash flows."),
+    args: [
+        arg("cashflow_amounts (range<number>)", _t("An range containing the income or payments associated with the investment.")),
+        arg("cashflow_dates (range<number>)", _t("An range with dates corresponding to the cash flows in cashflow_amounts.")),
+        arg(`rate_guess (number, default=${RATE_GUESS_DEFAULT})`, _t("An estimate for what the internal rate of return will be.")),
+    ],
+    compute: function (cashflowAmounts, cashflowDates, rateGuess = { value: RATE_GUESS_DEFAULT }) {
+        const guess = toNumber(rateGuess, this.locale);
+        const _cashFlows = cashflowAmounts.flat().map((val) => toNumber(val, this.locale));
+        const _dates = cashflowDates.flat().map((val) => toNumber(val, this.locale));
+        assertCashFlowsAndDatesHaveSameDimension(cashflowAmounts, cashflowDates);
+        assertCashFlowsHavePositiveAndNegativesValues(_cashFlows);
+        assertEveryDateGreaterThanFirstDateOfCashFlowDates(_dates);
+        assertRateGuessStrictlyGreaterThanMinusOne(guess);
+        const map = new Map();
+        for (const i of range(0, _dates.length)) {
+            const date = _dates[i];
+            if (map.has(date))
+                map.set(date, map.get(date) + _cashFlows[i]);
+            else
+                map.set(date, _cashFlows[i]);
+        }
+        const dates = Array.from(map.keys());
+        const values = dates.map((date) => map.get(date));
+        /**
+         * https://support.microsoft.com/en-us/office/xirr-function-de1242ec-6477-445b-b11b-a303ad9adc9d
+         *
+         * The rate is computed iteratively by trying to solve the equation
+         *
+         *
+         * 0 =    SUM     [ P_i * (1 + rate) ^((d_0 - d_i) / 365) ]  + P_0
+         *     i = 1 => n
+         *
+         * with P_i = price number i
+         *      d_i = date number i
+         *
+         * This function is not defined for rate < -1. For the case where we get rates < -1 in the Newton method, add
+         * a fallback for a number very close to -1 to continue the Newton method.
+         *
+         */
+        const func = (rate) => {
+            let value = values[0];
+            for (const i of range(1, values.length)) {
+                const dateDiff = (dates[0] - dates[i]) / 365;
+                value += values[i] * (1 + rate) ** dateDiff;
+            }
+            return value;
+        };
+        const derivFunc = (rate) => {
+            let deriv = 0;
+            for (const i of range(1, values.length)) {
+                const dateDiff = (dates[0] - dates[i]) / 365;
+                deriv += dateDiff * values[i] * (1 + rate) ** (dateDiff - 1);
+            }
+            return deriv;
+        };
+        const nanFallback = (previousFallback) => {
+            // -0.9 => -0.99 => -0.999 => ...
+            if (!previousFallback)
+                return -0.9;
+            return previousFallback / 10 - 0.9;
+        };
+        return newtonMethod(func, derivFunc, guess, 40, 1e-5, nanFallback);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// XNPV
+// -----------------------------------------------------------------------------
+const XNPV = {
+    description: _t("Net present value given to non-periodic cash flows.."),
+    args: [
+        arg("discount (number)", _t("The discount rate of the investment over one period.")),
+        arg("cashflow_amounts (number, range<number>)", _t("An range containing the income or payments associated with the investment.")),
+        arg("cashflow_dates (number, range<number>)", _t("An range with dates corresponding to the cash flows in cashflow_amounts.")),
+    ],
+    compute: function (discount, cashflowAmounts, cashflowDates) {
+        const rate = toNumber(discount, this.locale);
+        const _cashFlows = isMatrix(cashflowAmounts)
+            ? cashflowAmounts.flat().map((data) => strictToNumber(data, this.locale))
+            : [strictToNumber(cashflowAmounts, this.locale)];
+        const _dates = isMatrix(cashflowDates)
+            ? cashflowDates.flat().map((data) => strictToNumber(data, this.locale))
+            : [strictToNumber(cashflowDates, this.locale)];
+        if (isMatrix(cashflowDates) && isMatrix(cashflowAmounts)) {
+            assertCashFlowsAndDatesHaveSameDimension(cashflowAmounts, cashflowDates);
+        }
+        else {
+            assert(() => _cashFlows.length === _dates.length, _t("There must be the same number of values in cashflow_amounts and cashflow_dates."));
+        }
+        assertEveryDateGreaterThanFirstDateOfCashFlowDates(_dates);
+        assertRateStrictlyPositive(rate);
+        if (_cashFlows.length === 1)
+            return _cashFlows[0];
+        // aggregate values of the same date
+        const map = new Map();
+        for (const i of range(0, _dates.length)) {
+            const date = _dates[i];
+            if (map.has(date))
+                map.set(date, map.get(date) + _cashFlows[i]);
+            else
+                map.set(date, _cashFlows[i]);
+        }
+        const dates = Array.from(map.keys());
+        const values = dates.map((date) => map.get(date));
+        /**
+         * https://support.microsoft.com/en-us/office/xirr-function-de1242ec-6477-445b-b11b-a303ad9adc9d
+         *
+         * The present value is computed using
+         *
+         *
+         * NPV =    SUM     [ P_i *(1 + rate) ^((d_0 - d_i) / 365) ]  + P_0
+         *       i = 1 => n
+         *
+         * with P_i = price number i
+         *      d_i = date number i
+         *
+         *
+         */
+        let pv = values[0];
+        for (const i of range(1, values.length)) {
+            const dateDiff = (dates[0] - dates[i]) / 365;
+            pv += values[i] * (1 + rate) ** dateDiff;
+        }
+        return pv;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// YIELD
+// -----------------------------------------------------------------------------
+const YIELD = {
+    description: _t("Annual yield of a security paying periodic interest."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("price (number)", _t("The price at which the security is bought per 100 face value.")),
+        arg("redemption (number)", _t("The redemption amount per 100 face value, or par.")),
+        arg("frequency (number)", _t("The number of interest or coupon payments per year (1, 2, or 4).")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, rate, price, redemption, frequency, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _rate = toNumber(rate, this.locale);
+        const _price = toNumber(price, this.locale);
+        const _redemption = toNumber(redemption, this.locale);
+        const _frequency = Math.trunc(toNumber(frequency, this.locale));
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertCouponFrequencyIsValid(_frequency);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assert(() => _rate >= 0, _t("The rate (%s) must be positive or null.", _rate.toString()));
+        assertPriceStrictlyPositive(_price);
+        assertRedemptionStrictlyPositive(_redemption);
+        const years = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        const nbrRealCoupons = years * _frequency;
+        const nbrFullCoupons = Math.ceil(nbrRealCoupons);
+        const timeFirstCoupon = nbrRealCoupons - Math.floor(nbrRealCoupons) || 1;
+        const cashFlowFromCoupon = (100 * _rate) / _frequency;
+        if (nbrFullCoupons === 1) {
+            const subPart = _price + cashFlowFromCoupon * (1 - timeFirstCoupon);
+            return (((_redemption + cashFlowFromCoupon - subPart) * _frequency * (1 / timeFirstCoupon)) /
+                subPart);
+        }
+        // The result of YIELD function is the yield at which the PRICE function will return the given price.
+        // This algorithm uses the Newton's method on the PRICE function to determine the result.
+        // Newton's method: https://en.wikipedia.org/wiki/Newton%27s_method
+        // As the PRICE function isn't continuous, we apply the Newton's method on the numerator of the PRICE formula.
+        // For simplicity, it is not yield but yieldFactorPerPeriod (= 1 + yield / frequency) which will be calibrated in Newton's method.
+        // yield can be deduced from yieldFactorPerPeriod in sequence.
+        function priceNumerator(price, timeFirstCoupon, nbrFullCoupons, yieldFactorPerPeriod, cashFlowFromCoupon, redemption) {
+            let result = redemption -
+                (price + cashFlowFromCoupon * (1 - timeFirstCoupon)) *
+                    yieldFactorPerPeriod ** (nbrFullCoupons - 1 + timeFirstCoupon);
+            for (let i = 1; i <= nbrFullCoupons; i++) {
+                result += cashFlowFromCoupon * yieldFactorPerPeriod ** (i - 1);
+            }
+            return result;
+        }
+        function priceNumeratorDeriv(price, timeFirstCoupon, nbrFullCoupons, yieldFactorPerPeriod, cashFlowFromCoupon) {
+            let result = -(price + cashFlowFromCoupon * (1 - timeFirstCoupon)) *
+                (nbrFullCoupons - 1 + timeFirstCoupon) *
+                yieldFactorPerPeriod ** (nbrFullCoupons - 2 + timeFirstCoupon);
+            for (let i = 1; i <= nbrFullCoupons; i++) {
+                result += cashFlowFromCoupon * (i - 1) * yieldFactorPerPeriod ** (i - 2);
+            }
+            return result;
+        }
+        function func(x) {
+            return priceNumerator(_price, timeFirstCoupon, nbrFullCoupons, x, cashFlowFromCoupon, _redemption);
+        }
+        function derivFunc(x) {
+            return priceNumeratorDeriv(_price, timeFirstCoupon, nbrFullCoupons, x, cashFlowFromCoupon);
+        }
+        const initYield = _rate + 1;
+        const initYieldFactorPerPeriod = 1 + initYield / _frequency;
+        const methodResult = newtonMethod(func, derivFunc, initYieldFactorPerPeriod, 100, 1e-5);
+        return (methodResult - 1) * _frequency;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// YIELDDISC
+// -----------------------------------------------------------------------------
+const YIELDDISC = {
+    description: _t("Annual yield of a discount security."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("price (number)", _t("The price at which the security is bought per 100 face value.")),
+        arg("redemption (number)", _t("The redemption amount per 100 face value, or par.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, price, redemption, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _price = toNumber(price, this.locale);
+        const _redemption = toNumber(redemption, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assertPriceStrictlyPositive(_price);
+        assertRedemptionStrictlyPositive(_redemption);
+        /**
+         * https://wiki.documentfoundation.org/Documentation/Calc_Functions/YIELDDISC
+         *
+         *                    (redemption / price) - 1
+         * YIELDDISC = _____________________________________
+         *             YEARFRAC(settlement, maturity, basis)
+         */
+        const yearFrac = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        return (_redemption / _price - 1) / yearFrac;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// YIELDMAT
+// -----------------------------------------------------------------------------
+const YIELDMAT = {
+    description: _t("Annual yield of a security paying interest at maturity."),
+    args: [
+        arg("settlement (date)", _t("The settlement date of the security, the date after issuance when the security is delivered to the buyer.")),
+        arg("maturity (date)", _t("The maturity or end date of the security, when it can be redeemed at face, or par value.")),
+        arg("issue (date)", _t("The date the security was initially issued.")),
+        arg("rate (number)", _t("The annualized rate of interest.")),
+        arg("price (number)", _t("The price at which the security is bought.")),
+        arg(`day_count_convention (number, default=${DEFAULT_DAY_COUNT_CONVENTION} )`, _t("An indicator of what day count method to use.")),
+    ],
+    compute: function (settlement, maturity, issue, rate, price, dayCountConvention = { value: DEFAULT_DAY_COUNT_CONVENTION }) {
+        dayCountConvention = dayCountConvention || 0;
+        const _settlement = Math.trunc(toNumber(settlement, this.locale));
+        const _maturity = Math.trunc(toNumber(maturity, this.locale));
+        const _issue = Math.trunc(toNumber(issue, this.locale));
+        const _rate = toNumber(rate, this.locale);
+        const _price = toNumber(price, this.locale);
+        const _dayCountConvention = Math.trunc(toNumber(dayCountConvention, this.locale));
+        assertMaturityAndSettlementDatesAreValid(_settlement, _maturity);
+        assertDayCountConventionIsValid(_dayCountConvention);
+        assert(() => _settlement >= _issue, _t("The settlement (%s) must be greater than or equal to the issue (%s).", _settlement.toString(), _issue.toString()));
+        assert(() => _rate >= 0, _t("The rate (%s) must be positive or null.", _rate.toString()));
+        assertPriceStrictlyPositive(_price);
+        const issueToMaturity = getYearFrac(_issue, _maturity, _dayCountConvention);
+        const issueToSettlement = getYearFrac(_issue, _settlement, _dayCountConvention);
+        const settlementToMaturity = getYearFrac(_settlement, _maturity, _dayCountConvention);
+        const numerator = (100 * (1 + _rate * issueToMaturity)) / (_price + 100 * _rate * issueToSettlement) - 1;
+        return numerator / settlementToMaturity;
+    },
+    isExported: true,
+};
+
+var financial = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    ACCRINTM: ACCRINTM,
+    AMORLINC: AMORLINC,
+    COUPDAYBS: COUPDAYBS,
+    COUPDAYS: COUPDAYS,
+    COUPDAYSNC: COUPDAYSNC,
+    COUPNCD: COUPNCD,
+    COUPNUM: COUPNUM,
+    COUPPCD: COUPPCD,
+    CUMIPMT: CUMIPMT,
+    CUMPRINC: CUMPRINC,
+    DB: DB,
+    DDB: DDB,
+    DISC: DISC,
+    DOLLARDE: DOLLARDE,
+    DOLLARFR: DOLLARFR,
+    DURATION: DURATION,
+    EFFECT: EFFECT,
+    FV: FV,
+    FVSCHEDULE: FVSCHEDULE,
+    INTRATE: INTRATE,
+    IPMT: IPMT,
+    IRR: IRR,
+    ISPMT: ISPMT,
+    MDURATION: MDURATION,
+    MIRR: MIRR,
+    NOMINAL: NOMINAL,
+    NPER: NPER,
+    NPV: NPV,
+    PDURATION: PDURATION,
+    PMT: PMT,
+    PPMT: PPMT,
+    PRICE: PRICE,
+    PRICEDISC: PRICEDISC,
+    PRICEMAT: PRICEMAT,
+    PV: PV,
+    RATE: RATE,
+    RECEIVED: RECEIVED,
+    RRI: RRI,
+    SLN: SLN,
+    SYD: SYD,
+    TBILLEQ: TBILLEQ,
+    TBILLPRICE: TBILLPRICE,
+    TBILLYIELD: TBILLYIELD,
+    VDB: VDB,
+    XIRR: XIRR,
+    XNPV: XNPV,
+    YIELD: YIELD,
+    YIELDDISC: YIELDDISC,
+    YIELDMAT: YIELDMAT
+});
+
+const functionRegex = /[a-zA-Z0-9\_]+(\.[a-zA-Z0-9\_]+)*/;
+const UNARY_OPERATORS_PREFIX = ["-", "+"];
+const UNARY_OPERATORS_POSTFIX = ["%"];
+const ASSOCIATIVE_OPERATORS = ["*", "+", "&"];
+const OP_PRIORITY = {
+    "^": 30,
+    "%": 30,
+    "*": 20,
+    "/": 20,
+    "+": 15,
+    "-": 15,
+    "&": 13,
+    ">": 10,
+    "<>": 10,
+    ">=": 10,
+    "<": 10,
+    "<=": 10,
+    "=": 10,
+};
+/**
+ * Parse the next operand in an arithmetic expression.
+ * e.g.
+ *  for 1+2*3, the next operand is 1
+ *  for (1+2)*3, the next operand is (1+2)
+ *  for SUM(1,2)+3, the next operand is SUM(1,2)
+ */
+function parseOperand(tokens) {
+    const current = tokens.shift();
+    if (!current) {
+        throw new BadExpressionError();
+    }
+    switch (current.type) {
+        case "DEBUGGER":
+            const next = parseExpression(tokens, 1000);
+            next.debug = true;
+            return next;
+        case "NUMBER":
+            return { type: "NUMBER", value: parseNumber(current.value, DEFAULT_LOCALE) };
+        case "STRING":
+            return { type: "STRING", value: removeStringQuotes(current.value) };
+        case "INVALID_REFERENCE":
+            return {
+                type: "REFERENCE",
+                value: CellErrorType.InvalidReference,
+            };
+        case "REFERENCE":
+            if (tokens[0]?.value === ":" && tokens[1]?.type === "REFERENCE") {
+                tokens.shift();
+                const rightReference = tokens.shift();
+                return {
+                    type: "REFERENCE",
+                    value: `${current.value}:${rightReference?.value}`,
+                };
+            }
+            return {
+                type: "REFERENCE",
+                value: current.value,
+            };
+        case "SYMBOL":
+            const value = current.value;
+            const nextToken = tokens[0];
+            if (nextToken?.type === "LEFT_PAREN" &&
+                functionRegex.test(current.value) &&
+                value === unquote(value, "'")) {
+                const args = parseFunctionArgs(tokens);
+                return { type: "FUNCALL", value: value, args };
+            }
+            const upperCaseValue = value.toUpperCase();
+            if (upperCaseValue === "TRUE" || upperCaseValue === "FALSE") {
+                return { type: "BOOLEAN", value: upperCaseValue === "TRUE" };
+            }
+            return { type: "SYMBOL", value: unquote(current.value, "'") };
+        case "LEFT_PAREN":
+            const result = parseExpression(tokens);
+            consumeOrThrow(tokens, "RIGHT_PAREN", _t("Missing closing parenthesis"));
+            return result;
+        case "OPERATOR":
+            const operator = current.value;
+            if (UNARY_OPERATORS_PREFIX.includes(operator)) {
+                return {
+                    type: "UNARY_OPERATION",
+                    value: operator,
+                    operand: parseExpression(tokens, OP_PRIORITY[operator]),
+                };
+            }
+            throw new BadExpressionError(_t("Unexpected token: %s", current.value));
+        default:
+            throw new BadExpressionError(_t("Unexpected token: %s", current.value));
+    }
+}
+function parseFunctionArgs(tokens) {
+    consumeOrThrow(tokens, "LEFT_PAREN", _t("Missing opening parenthesis"));
+    const nextToken = tokens[0];
+    if (nextToken?.type === "RIGHT_PAREN") {
+        consumeOrThrow(tokens, "RIGHT_PAREN");
+        return [];
+    }
+    const args = [];
+    args.push(parseOneFunctionArg(tokens));
+    while (tokens[0]?.type !== "RIGHT_PAREN") {
+        consumeOrThrow(tokens, "ARG_SEPARATOR", _t("Wrong function call"));
+        args.push(parseOneFunctionArg(tokens));
+    }
+    consumeOrThrow(tokens, "RIGHT_PAREN");
+    return args;
+}
+function parseOneFunctionArg(tokens) {
+    const nextToken = tokens[0];
+    if (nextToken?.type === "ARG_SEPARATOR" || nextToken?.type === "RIGHT_PAREN") {
+        // arg is empty: "sum(1,,2)" "sum(,1)" "sum(1,)"
+        return { type: "EMPTY", value: "" };
+    }
+    return parseExpression(tokens);
+}
+function consumeOrThrow(tokens, type, message) {
+    const token = tokens.shift();
+    if (!token || token.type !== type) {
+        throw new BadExpressionError(message);
+    }
+}
+function parseExpression(tokens, parent_priority = 0) {
+    if (tokens.length === 0) {
+        throw new BadExpressionError();
+    }
+    let left = parseOperand(tokens);
+    // as long as we have operators with higher priority than the parent one,
+    // continue parsing the expression because it is a child sub-expression
+    while (tokens[0]?.type === "OPERATOR" && OP_PRIORITY[tokens[0].value] > parent_priority) {
+        const operator = tokens.shift().value;
+        if (UNARY_OPERATORS_POSTFIX.includes(operator)) {
+            left = {
+                type: "UNARY_OPERATION",
+                value: operator,
+                operand: left,
+                postfix: true,
+            };
+        }
+        else {
+            const right = parseExpression(tokens, OP_PRIORITY[operator]);
+            left = {
+                type: "BIN_OPERATION",
+                value: operator,
+                left,
+                right,
+            };
+        }
+    }
+    return left;
+}
+/**
+ * Parse an expression (as a string) into an AST.
+ */
+function parse(str) {
+    return parseTokens(rangeTokenize(str));
+}
+function parseTokens(tokens) {
+    tokens = tokens.filter((x) => x.type !== "SPACE");
+    if (tokens[0]?.value === "=") {
+        tokens.splice(0, 1);
+    }
+    const result = parseExpression(tokens);
+    if (tokens.length) {
+        throw new BadExpressionError();
+    }
+    return result;
+}
+/**
+ * Allows to visit all nodes of an AST and apply a mapping function
+ * to nodes of a specific type.
+ * Useful if you want to convert some part of a formula.
+ *
+ * @example
+ * convertAstNodes(ast, "FUNCALL", convertFormulaToExcel)
+ *
+ * function convertFormulaToExcel(ast: ASTFuncall) {
+ *   // ...
+ *   return modifiedAst
+ * }
+ */
+function convertAstNodes(ast, type, fn) {
+    return mapAst(ast, (ast) => {
+        if (ast.type === type) {
+            return fn(ast);
+        }
+        return ast;
+    });
+}
+function iterateAstNodes(ast) {
+    return Array.from(astIterator(ast));
+}
+function* astIterator(ast) {
+    yield ast;
+    switch (ast.type) {
+        case "FUNCALL":
+            for (const arg of ast.args) {
+                yield* astIterator(arg);
+            }
+            break;
+        case "UNARY_OPERATION":
+            yield* astIterator(ast.operand);
+            break;
+        case "BIN_OPERATION":
+            yield* astIterator(ast.left);
+            yield* astIterator(ast.right);
+            break;
+    }
+}
+function mapAst(ast, fn) {
+    ast = fn(ast);
+    switch (ast.type) {
+        case "FUNCALL":
+            return {
+                ...ast,
+                args: ast.args.map((child) => mapAst(child, fn)),
+            };
+        case "UNARY_OPERATION":
+            return {
+                ...ast,
+                operand: mapAst(ast.operand, fn),
+            };
+        case "BIN_OPERATION":
+            return {
+                ...ast,
+                right: mapAst(ast.right, fn),
+                left: mapAst(ast.left, fn),
+            };
+        default:
+            return ast;
+    }
+}
+/**
+ * Converts an ast formula to the corresponding string
+ */
+function astToFormula(ast) {
+    switch (ast.type) {
+        case "FUNCALL":
+            const args = ast.args.map((arg) => astToFormula(arg));
+            return `${ast.value}(${args.join(",")})`;
+        case "NUMBER":
+            return ast.value.toString();
+        case "REFERENCE":
+            return ast.value;
+        case "STRING":
+            return `"${ast.value}"`;
+        case "BOOLEAN":
+            return ast.value ? "TRUE" : "FALSE";
+        case "UNARY_OPERATION":
+            return ast.postfix
+                ? leftOperandToFormula(ast) + ast.value
+                : ast.value + rightOperandToFormula(ast);
+        case "BIN_OPERATION":
+            return leftOperandToFormula(ast) + ast.value + rightOperandToFormula(ast);
+        default:
+            return ast.value;
+    }
+}
+/**
+ * Convert the left operand of a binary operation to the corresponding string
+ * and enclose the result inside parenthesis if necessary.
+ */
+function leftOperandToFormula(operationAST) {
+    const mainOperator = operationAST.value;
+    const leftOperation = "left" in operationAST ? operationAST.left : operationAST.operand;
+    const leftOperator = leftOperation.value;
+    const needParenthesis = leftOperation.type === "BIN_OPERATION" && OP_PRIORITY[leftOperator] < OP_PRIORITY[mainOperator];
+    return needParenthesis ? `(${astToFormula(leftOperation)})` : astToFormula(leftOperation);
+}
+/**
+ * Convert the right operand of a binary or unary operation to the corresponding string
+ * and enclose the result inside parenthesis if necessary.
+ */
+function rightOperandToFormula(operationAST) {
+    const mainOperator = operationAST.value;
+    const rightOperation = "right" in operationAST ? operationAST.right : operationAST.operand;
+    const rightPriority = OP_PRIORITY[rightOperation.value];
+    const mainPriority = OP_PRIORITY[mainOperator];
+    let needParenthesis = false;
+    if (rightOperation.type !== "BIN_OPERATION") {
+        needParenthesis = false;
+    }
+    else if (rightPriority < mainPriority) {
+        needParenthesis = true;
+    }
+    else if (rightPriority === mainPriority && !ASSOCIATIVE_OPERATORS.includes(mainOperator)) {
+        needParenthesis = true;
+    }
+    return needParenthesis ? `(${astToFormula(rightOperation)})` : astToFormula(rightOperation);
+}
+
+/**
+ * Add the following information on tokens:
+ * - length
+ * - start
+ * - end
+ */
+function enrichTokens(tokens) {
+    let current = 0;
+    return tokens.map((x) => {
+        const len = x.value.toString().length;
+        const token = Object.assign({}, x, {
+            start: current,
+            end: current + len,
+            length: len,
+        });
+        current = token.end;
+        return token;
+    });
+}
+/**
+ * add on each token the length, start and end
+ * also matches the opening to its closing parenthesis (using the same number)
+ */
+function mapParenthesis(tokens) {
+    let maxParen = 1;
+    const stack = [];
+    return tokens.map((token) => {
+        if (token.type === "LEFT_PAREN") {
+            stack.push(maxParen);
+            token.parenIndex = maxParen;
+            maxParen++;
+        }
+        else if (token.type === "RIGHT_PAREN") {
+            token.parenIndex = stack.pop();
+        }
+        return token;
+    });
+}
+/**
+ * add on each token its parent function and the index corresponding to
+ * its position as an argument of the function.
+ * In this example "=MIN(42,SUM(MAX(1,2),3))":
+ * - the parent function of the token correspond to number 42 is the MIN function
+ * - the argument position of the token correspond to number 42 is 0
+ * - the parent function of the token correspond to number 3 is the SUM function
+ * - the argument position of the token correspond to number 3 is 1
+ */
+function mapParentFunction(tokens) {
+    let stack = [];
+    let functionStarted = "";
+    function pushTokenToFunctionContext(token) {
+        if (stack.length === 0) {
+            return;
+        }
+        const functionContext = stack.at(-1);
+        if (functionContext && functionContext.argsTokens) {
+            const { argsTokens, argPosition } = functionContext;
+            if (!argsTokens[argPosition]) {
+                argsTokens[argPosition] = [];
+            }
+            argsTokens[argPosition].push({ value: token.value, type: token.type });
+        }
+    }
+    const res = tokens.map((token, i) => {
+        if (!["SPACE", "LEFT_PAREN"].includes(token.type)) {
+            functionStarted = "";
+        }
+        switch (token.type) {
+            case "SYMBOL":
+                pushTokenToFunctionContext(token);
+                functionStarted = token.value;
+                break;
+            case "LEFT_PAREN":
+                stack.push({ parent: functionStarted, argPosition: 0, argsTokens: [], args: [] });
+                pushTokenToFunctionContext(token);
+                functionStarted = "";
+                break;
+            case "RIGHT_PAREN":
+                const child = stack.pop();
+                child?.argsTokens?.flat().forEach(pushTokenToFunctionContext);
+                pushTokenToFunctionContext(token);
+                break;
+            case "ARG_SEPARATOR":
+                pushTokenToFunctionContext(token);
+                if (stack.length) {
+                    // increment position on current function
+                    stack[stack.length - 1].argPosition++;
+                }
+                break;
+            default:
+                pushTokenToFunctionContext(token);
+                break;
+        }
+        if (stack.length) {
+            const functionContext = stack[stack.length - 1];
+            if (functionContext.parent) {
+                token.functionContext = Object.assign({}, functionContext);
+            }
+        }
+        return token;
+    });
+    return res;
+}
+/**
+ * Parse the list of tokens that compose the arguments of a function to
+ * their AST representation.
+ */
+function addArgsAST(tokens) {
+    for (const token of tokens) {
+        if (token.functionContext) {
+            const { argsTokens, args } = token.functionContext;
+            // remove argsTokens from the context to remove noise
+            // The business logic should not need it, it is only used temporarily
+            // to build the arguments ASTs.
+            delete token.functionContext.argsTokens;
+            if (args.length || !argsTokens) {
+                // function context already process at a previous token
+                continue;
+            }
+            if (argsTokens[0]?.[0]?.type === "LEFT_PAREN") {
+                // remove the parenthesis leading the first argument
+                argsTokens[0] = argsTokens[0].slice(1);
+            }
+            for (const argTokens of argsTokens) {
+                let tokens = argTokens;
+                if (tokens.at(-1)?.type === "ARG_SEPARATOR") {
+                    tokens = tokens.slice(0, -1);
+                }
+                try {
+                    args.push(parseTokens(tokens));
+                }
+                catch (error) {
+                    args.push(undefined);
+                }
+            }
+        }
+    }
+    return tokens;
+}
+/**
+ * Take the result of the tokenizer and transform it to be usable in the composer.
+ *
+ * @param formula
+ */
+function composerTokenize(formula, locale) {
+    const tokens = rangeTokenize(formula, locale);
+    return addArgsAST(mapParentFunction(mapParenthesis(enrichTokens(tokens))));
+}
+
+/**
+ * Change the reference types inside the given token, if the token represent a range or a cell
+ *
+ * Eg. :
+ *   A1 => $A$1 => A$1 => $A1 => A1
+ *   A1:$B$1 => $A$1:B$1 => A$1:$B1 => $A1:B1 => A1:$B$1
+ */
+function loopThroughReferenceType(token) {
+    if (token.type !== "REFERENCE")
+        return token;
+    const { xc, sheetName } = splitReference(token.value);
+    const [left, right] = xc.split(":");
+    const updatedLeft = getTokenNextReferenceType(left);
+    const updatedRight = right ? `:${getTokenNextReferenceType(right)}` : "";
+    return { ...token, value: getFullReference(sheetName, updatedLeft + updatedRight) };
+}
+/**
+ * Get a new token with a changed type of reference from the given cell token symbol.
+ * Undefined behavior if given a token other than a cell or if the Xc contains a sheet reference
+ *
+ * A1 => $A$1 => A$1 => $A1 => A1
+ */
+function getTokenNextReferenceType(xc) {
+    switch (getReferenceType(xc)) {
+        case "none":
+            xc = setXcToFixedReferenceType(xc, "colrow");
+            break;
+        case "colrow":
+            xc = setXcToFixedReferenceType(xc, "row");
+            break;
+        case "row":
+            xc = setXcToFixedReferenceType(xc, "col");
+            break;
+        case "col":
+            xc = setXcToFixedReferenceType(xc, "none");
+            break;
+    }
+    return xc;
+}
+/**
+ * Returns the given XC with the given reference type. The XC string should not contain a sheet name.
+ */
+function setXcToFixedReferenceType(xc, referenceType) {
+    if (xc.includes("!")) {
+        throw new Error("The given XC should not contain a sheet name");
+    }
+    xc = xc.replace(/\$/g, "");
+    let indexOfNumber;
+    switch (referenceType) {
+        case "col":
+            return "$" + xc;
+        case "row":
+            indexOfNumber = xc.search(/[0-9]/);
+            return xc.slice(0, indexOfNumber) + "$" + xc.slice(indexOfNumber);
+        case "colrow":
+            indexOfNumber = xc.search(/[0-9]/);
+            if (indexOfNumber === -1 || indexOfNumber === 0) {
+                // no row number (eg. A) or no column (eg. 1)
+                return "$" + xc;
+            }
+            xc = xc.slice(0, indexOfNumber) + "$" + xc.slice(indexOfNumber);
+            return "$" + xc;
+        case "none":
+            return xc;
+    }
+}
+/**
+ * Return the type of reference used in the given XC of a cell.
+ * Undefined behavior if the XC have a sheet reference
+ */
+function getReferenceType(xcCell) {
+    if (isColAndRowFixed(xcCell)) {
+        return "colrow";
+    }
+    else if (isColFixed(xcCell)) {
+        return "col";
+    }
+    else if (isRowFixed(xcCell)) {
+        return "row";
+    }
+    return "none";
+}
+function isColFixed(xc) {
+    return xc.startsWith("$");
+}
+function isRowFixed(xc) {
+    return xc.includes("$", 1);
+}
+function isColAndRowFixed(xc) {
+    return xc.startsWith("$") && xc.length > 1 && xc.slice(1).includes("$");
+}
+/**
+ * Return the cycled reference if any (A1 -> $A$1 -> A$1 -> $A1 -> A1)
+ */
+function cycleFixedReference(selection, content, locale) {
+    const currentTokens = content.startsWith("=")
+        ? composerTokenize(content, locale)
+        : [];
+    const tokens = currentTokens.filter((t) => (t.start <= selection.start && t.end >= selection.start) ||
+        (t.start >= selection.start && t.start < selection.end));
+    const refTokens = tokens.filter((token) => token.type === "REFERENCE");
+    if (refTokens.length === 0) {
+        return;
+    }
+    const updatedReferences = tokens
+        .map(loopThroughReferenceType)
+        .map((token) => token.value)
+        .join("");
+    const start = tokens[0].start;
+    const end = tokens[tokens.length - 1].end;
+    const newContent = content.slice(0, start) + updatedReferences + content.slice(end);
+    const lengthDiff = newContent.length - content.length;
+    const startOfTokens = refTokens[0].start;
+    const endOfTokens = refTokens[refTokens.length - 1].end + lengthDiff;
+    const newSelection = { start: startOfTokens, end: endOfTokens };
+    if (refTokens.length === 1 && selection.start === selection.end) {
+        newSelection.start = newSelection.end;
+    }
+    return { content: newContent, selection: newSelection };
+}
+
+// -----------------------------------------------------------------------------
+// CELL
+// -----------------------------------------------------------------------------
+// NOTE: missing from Excel: "color", "filename", "parentheses", "prefix", "protect" and "width"
+const CELL_INFO_TYPES = ["address", "col", "contents", "format", "row", "type"];
+const CELL = {
+    description: _t("Gets information about a cell."),
+    args: [
+        arg("info_type (string)", _t("The type of information requested. Can be one of %s", CELL_INFO_TYPES.join(", "))),
+        arg("reference (meta)", _t("The reference to the cell.")),
+    ],
+    compute: function (info, reference) {
+        const _info = toString(info).toLowerCase();
+        assert(() => CELL_INFO_TYPES.includes(_info), _t("The info_type should be one of %s.", CELL_INFO_TYPES.join(", ")));
+        const sheetId = this.__originSheetId;
+        const _reference = toString(reference);
+        const topLeftReference = _reference.includes(":") ? _reference.split(":")[0] : _reference;
+        let { sheetName, xc } = splitReference(topLeftReference);
+        // only put the sheet name if the referenced range is in another sheet than the cell the formula is on
+        sheetName = sheetName === this.getters.getSheetName(sheetId) ? undefined : sheetName;
+        const fixedRef = getFullReference(sheetName, setXcToFixedReferenceType(xc, "colrow"));
+        const range = this.getters.getRangeFromSheetXC(sheetId, fixedRef);
+        switch (_info) {
+            case "address":
+                return this.getters.getRangeString(range, sheetId);
+            case "col":
+                return range.zone.left + 1;
+            case "contents": {
+                const position = { sheetId: range.sheetId, col: range.zone.left, row: range.zone.top };
+                return this.getters.getEvaluatedCell(position).value;
+            }
+            case "format": {
+                const position = { sheetId: range.sheetId, col: range.zone.left, row: range.zone.top };
+                return this.getters.getEvaluatedCell(position).format || "";
+            }
+            case "row":
+                return range.zone.top + 1;
+            case "type": {
+                const position = { sheetId: range.sheetId, col: range.zone.left, row: range.zone.top };
+                const type = this.getters.getEvaluatedCell(position).type;
+                if (type === CellValueType.empty) {
+                    return "b"; // blank
+                }
+                else if (type === CellValueType.text) {
+                    return "l"; // label
+                }
+                else {
+                    return "v"; // value
+                }
+            }
+        }
+        return "";
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISERR
+// -----------------------------------------------------------------------------
+const ISERR = {
+    description: _t("Whether a value is an error other than #N/A."),
+    args: [arg("value (any)", _t("The value to be verified as an error type."))],
+    compute: function (data) {
+        const value = data?.value;
+        return isEvaluationError(value) && value !== CellErrorType.NotAvailable;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISERROR
+// -----------------------------------------------------------------------------
+const ISERROR = {
+    description: _t("Whether a value is an error."),
+    args: [arg("value (any)", _t("The value to be verified as an error type."))],
+    compute: function (data) {
+        const value = data?.value;
+        return isEvaluationError(value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISLOGICAL
+// -----------------------------------------------------------------------------
+const ISLOGICAL = {
+    description: _t("Whether a value is `true` or `false`."),
+    args: [arg("value (any)", _t("The value to be verified as a logical TRUE or FALSE."))],
+    compute: function (value) {
+        return typeof value?.value === "boolean";
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISNA
+// -----------------------------------------------------------------------------
+const ISNA = {
+    description: _t("Whether a value is the error #N/A."),
+    args: [arg("value (any)", _t("The value to be verified as an error type."))],
+    compute: function (data) {
+        return data?.value === CellErrorType.NotAvailable;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISNONTEXT
+// -----------------------------------------------------------------------------
+const ISNONTEXT = {
+    description: _t("Whether a value is non-textual."),
+    args: [arg("value (any)", _t("The value to be checked."))],
+    compute: function (value) {
+        return !ISTEXT.compute.bind(this)(value);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISNUMBER
+// -----------------------------------------------------------------------------
+const ISNUMBER = {
+    description: _t("Whether a value is a number."),
+    args: [arg("value (any)", _t("The value to be verified as a number."))],
+    compute: function (value) {
+        return typeof value?.value === "number";
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISTEXT
+// -----------------------------------------------------------------------------
+const ISTEXT = {
+    description: _t("Whether a value is text."),
+    args: [arg("value (any)", _t("The value to be verified as text."))],
+    compute: function (value) {
+        return typeof value?.value === "string" && isEvaluationError(value?.value) === false;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ISBLANK
+// -----------------------------------------------------------------------------
+const ISBLANK = {
+    description: _t("Whether the referenced cell is empty"),
+    args: [arg("value (any)", _t("Reference to the cell that will be checked for emptiness."))],
+    compute: function (value) {
+        return value?.value === null;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NA
+// -----------------------------------------------------------------------------
+const NA = {
+    description: _t("Returns the error value #N/A."),
+    args: [],
+    compute: function () {
+        return { value: CellErrorType.NotAvailable };
+    },
+    isExported: true,
+};
+
+var info = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    CELL: CELL,
+    ISBLANK: ISBLANK,
+    ISERR: ISERR,
+    ISERROR: ISERROR,
+    ISLOGICAL: ISLOGICAL,
+    ISNA: ISNA,
+    ISNONTEXT: ISNONTEXT,
+    ISNUMBER: ISNUMBER,
+    ISTEXT: ISTEXT,
+    NA: NA
+});
+
+// -----------------------------------------------------------------------------
+// AND
+// -----------------------------------------------------------------------------
+const AND = {
+    description: _t("Logical `and` operator."),
+    args: [
+        arg("logical_expression1 (boolean, range<boolean>)", _t("An expression or reference to a cell containing an expression that represents some logical value, i.e. TRUE or FALSE, or an expression that can be coerced to a logical value.")),
+        arg("logical_expression2 (boolean, range<boolean>, repeating)", _t("More expressions that represent logical values.")),
+    ],
+    compute: function (...logicalExpressions) {
+        const { result, foundBoolean } = boolAnd(logicalExpressions);
+        assert(() => foundBoolean, _t("[[FUNCTION_NAME]] has no valid input data."));
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FALSE
+// -----------------------------------------------------------------------------
+const FALSE = {
+    description: _t("Logical value `false`."),
+    args: [],
+    compute: function () {
+        return false;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// IF
+// -----------------------------------------------------------------------------
+const IF = {
+    description: _t("Returns value depending on logical expression."),
+    args: [
+        arg("logical_expression (boolean, range<boolean>)", _t("An expression or reference to a cell containing an expression that represents some logical value, i.e. TRUE or FALSE.")),
+        arg("value_if_true (any, range)", _t("The value the function returns if logical_expression is TRUE.")),
+        arg("value_if_false (any, range, default=FALSE)", _t("The value the function returns if logical_expression is FALSE.")),
+    ],
+    compute: function (logicalExpression, valueIfTrue, valueIfFalse) {
+        if (isMultipleElementMatrix(logicalExpression)) {
+            return applyVectorization(IF.compute, [logicalExpression, valueIfTrue, valueIfFalse]);
+        }
+        let result = toBoolean(toScalar(logicalExpression)) ? valueIfTrue : valueIfFalse;
+        // useful for interpreting empty cell references as empty strings. But must be removed to make empty cell references equal to zero
+        if (!isMultipleElementMatrix(result)) {
+            result = toScalar(result);
+        }
+        if (result === undefined) {
+            return { value: "" };
+        }
+        if (!isMatrix(result) && result.value === null) {
+            return { ...result, value: "" };
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// IFERROR
+// -----------------------------------------------------------------------------
+const IFERROR = {
+    description: _t("Value if it is not an error, otherwise 2nd argument."),
+    args: [
+        arg("value (any, range)", _t("The value to return if value itself is not an error.")),
+        arg(`value_if_error (any, range, default="empty")`, _t("The value the function returns if value is an error.")),
+    ],
+    compute: function (value, valueIfError) {
+        if (isMultipleElementMatrix(value)) {
+            return applyVectorization(IFERROR.compute, [value, valueIfError]);
+        }
+        let result = isEvaluationError(toScalar(value)?.value) ? valueIfError : value;
+        // useful for interpreting empty cell references as empty strings. But must be removed to make empty cell references equal to zero
+        if (!isMultipleElementMatrix(result)) {
+            result = toScalar(result);
+        }
+        if (result === undefined) {
+            return { value: "" };
+        }
+        if (!isMatrix(result) && result.value === null) {
+            return { ...result, value: "" };
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// IFNA
+// -----------------------------------------------------------------------------
+const IFNA = {
+    description: _t("Value if it is not an #N/A error, otherwise 2nd argument."),
+    args: [
+        arg("value (any, range)", _t("The value to return if value itself is not #N/A an error.")),
+        arg(`value_if_error (any, range, default="empty")`, _t("The value the function returns if value is an #N/A error.")),
+    ],
+    compute: function (value, valueIfError) {
+        if (isMultipleElementMatrix(value)) {
+            return applyVectorization(IFNA.compute, [value, valueIfError]);
+        }
+        let result = toScalar(value)?.value === CellErrorType.NotAvailable ? valueIfError : value;
+        // useful for interpreting empty cell references as empty strings. But must be removed to make empty cell references equal to zero
+        if (!isMultipleElementMatrix(result)) {
+            result = toScalar(result);
+        }
+        if (result === undefined) {
+            return { value: "" };
+        }
+        if (!isMatrix(result) && result.value === null) {
+            return { ...result, value: "" };
+        }
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// IFS
+// -----------------------------------------------------------------------------
+const IFS = {
+    description: _t("Returns a value depending on multiple logical expressions."),
+    args: [
+        arg("condition1 (boolean, range<boolean>)", _t("The first condition to be evaluated. This can be a boolean, a number, an array, or a reference to any of those.")),
+        arg("value1 (any, range)", _t("The returned value if condition1 is TRUE.")),
+        arg("condition2 (boolean, any, range, repeating)", _t("Additional conditions to be evaluated if the previous ones are FALSE.")),
+        arg("value2 (any, range, repeating)", _t("Additional values to be returned if their corresponding conditions are TRUE.")),
+    ],
+    compute: function (...values) {
+        assert(() => values.length % 2 === 0, _t("Wrong number of arguments. Expected an even number of arguments."));
+        while (values.length > 0) {
+            if (isMultipleElementMatrix(values[0])) {
+                return applyVectorization(IFS.compute, values);
+            }
+            const condition = toBoolean(toScalar(values.shift()));
+            let valueIfTrue = values.shift();
+            if (condition) {
+                // useful for interpreting empty cell references as empty strings. But must be removed to make empty cell references equal to zero
+                if (!isMultipleElementMatrix(valueIfTrue)) {
+                    valueIfTrue = toScalar(valueIfTrue);
+                }
+                if (valueIfTrue === undefined) {
+                    return { value: "" };
+                }
+                if (!isMatrix(valueIfTrue) && valueIfTrue.value === null) {
+                    return { ...valueIfTrue, value: "" };
+                }
+                return valueIfTrue;
+            }
+        }
+        return new EvaluationError(_t("No match."));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// NOT
+// -----------------------------------------------------------------------------
+const NOT = {
+    description: _t("Returns opposite of provided logical value."),
+    args: [
+        arg("logical_expression (boolean)", _t("An expression or reference to a cell holding an expression that represents some logical value.")),
+    ],
+    compute: function (logicalExpression) {
+        return !toBoolean(logicalExpression);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// OR
+// -----------------------------------------------------------------------------
+const OR = {
+    description: _t("Logical `or` operator."),
+    args: [
+        arg("logical_expression1 (boolean, range<boolean>)", _t("An expression or reference to a cell containing an expression that represents some logical value, i.e. TRUE or FALSE, or an expression that can be coerced to a logical value.")),
+        arg("logical_expression2 (boolean, range<boolean>, repeating)", _t("More expressions that evaluate to logical values.")),
+    ],
+    compute: function (...logicalExpressions) {
+        const { result, foundBoolean } = boolOr(logicalExpressions);
+        assert(() => foundBoolean, _t("[[FUNCTION_NAME]] has no valid input data."));
+        return result;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TRUE
+// -----------------------------------------------------------------------------
+const TRUE = {
+    description: _t("Logical value `true`."),
+    args: [],
+    compute: function () {
+        return true;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// XOR
+// -----------------------------------------------------------------------------
+const XOR = {
+    description: _t("Logical `xor` operator."),
+    args: [
+        arg("logical_expression1 (boolean, range<boolean>)", _t("An expression or reference to a cell containing an expression that represents some logical value, i.e. TRUE or FALSE, or an expression that can be coerced to a logical value.")),
+        arg("logical_expression2 (boolean, range<boolean>, repeating)", _t("More expressions that evaluate to logical values.")),
+    ],
+    compute: function (...logicalExpressions) {
+        let foundBoolean = false;
+        let acc = false;
+        conditionalVisitBoolean(logicalExpressions, (arg) => {
+            foundBoolean = true;
+            acc = acc ? !arg : arg;
+            return true; // no stop condition
+        });
+        assert(() => foundBoolean, _t("[[FUNCTION_NAME]] has no valid input data."));
+        return acc;
+    },
+    isExported: true,
+};
+
+var logical = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    AND: AND,
+    FALSE: FALSE,
+    IF: IF,
+    IFERROR: IFERROR,
+    IFNA: IFNA,
+    IFS: IFS,
+    NOT: NOT,
+    OR: OR,
+    TRUE: TRUE,
+    XOR: XOR
+});
+
+/**
+ * Get the pivot ID from the formula pivot ID.
+ */
+function getPivotId(pivotFormulaId, getters) {
+    const pivotId = getters.getPivotId(pivotFormulaId);
+    if (!pivotId) {
+        throw new EvaluationError(_t('There is no pivot with id "%s"', pivotFormulaId));
+    }
+    return pivotId;
+}
+function assertMeasureExist(pivotId, measure, getters) {
+    const { measures } = getters.getPivotCoreDefinition(pivotId);
+    if (!measures.find((m) => m.id === measure)) {
+        const validMeasures = `(${measures.map((m) => m.id).join(", ")})`;
+        throw new EvaluationError(_t("The argument %s is not a valid measure. Here are the measures: %s", measure, validMeasures));
+    }
+}
+function assertDomainLength(domain) {
+    if (domain.length % 2 !== 0) {
+        throw new EvaluationError(_t("Function PIVOT takes an even number of arguments."));
+    }
+}
+function addPivotDependencies(evalContext, pivotId, forMeasures) {
+    //TODO This function can be very costly when used with PIVOT.VALUE and PIVOT.HEADER
+    const dependencies = [];
+    const coreDefinition = evalContext.getters.getPivotCoreDefinition(pivotId);
+    if (coreDefinition.type === "SPREADSHEET" && coreDefinition.dataSet) {
+        const { sheetId, zone } = coreDefinition.dataSet;
+        const xc = zoneToXc(zone);
+        const range = evalContext.getters.getRangeFromSheetXC(sheetId, xc);
+        if (range === undefined || range.invalidXc || range.invalidSheetName) {
+            throw new InvalidReferenceError();
+        }
+        if (evalContext.__originCellPosition &&
+            range.sheetId === evalContext.__originSheetId &&
+            isZoneInside(positionToZone(evalContext.__originCellPosition), zone)) {
+            throw new CircularDependencyError();
+        }
+        dependencies.push(range);
+    }
+    for (const measure of forMeasures) {
+        if (measure.computedBy) {
+            dependencies.push(...evalContext.getters.getMeasureFullDependencies(pivotId, measure));
+        }
+    }
+    const originPosition = evalContext.__originCellPosition;
+    if (originPosition && dependencies.length) {
+        // The following line is used to reset the dependencies of the cell, to avoid
+        // keeping dependencies from previous evaluation of the PIVOT formula (i.e.
+        // in case the reference has been changed).
+        evalContext.updateDependencies?.(originPosition);
+        evalContext.addDependencies?.(originPosition, dependencies);
+    }
+}
+
+const DEFAULT_IS_SORTED = true;
+const DEFAULT_MATCH_MODE = 0;
+const DEFAULT_SEARCH_MODE = 1;
+const DEFAULT_ABSOLUTE_RELATIVE_MODE = 1;
+function valueNotAvailable(searchKey) {
+    return {
+        value: CellErrorType.NotAvailable,
+        message: _t("Did not find value '%s' in [[FUNCTION_NAME]] evaluation.", toString(searchKey)),
+    };
+}
+// -----------------------------------------------------------------------------
+// ADDRESS
+// -----------------------------------------------------------------------------
+const ADDRESS = {
+    description: _t("Returns a cell reference as a string. "),
+    args: [
+        arg("row (number)", _t("The row number of the cell reference. ")),
+        arg("column (number)", _t("The column number (not name) of the cell reference. A is column number 1. ")),
+        arg(`absolute_relative_mode (number, default=${DEFAULT_ABSOLUTE_RELATIVE_MODE})`, _t("An indicator of whether the reference is row/column absolute. 1 is row and column absolute (e.g. $A$1), 2 is row absolute and column relative (e.g. A$1), 3 is row relative and column absolute (e.g. $A1), and 4 is row and column relative (e.g. A1).")),
+        arg("use_a1_notation (boolean, default=TRUE)", _t("A boolean indicating whether to use A1 style notation (TRUE) or R1C1 style notation (FALSE).")),
+        arg("sheet (string, optional)", _t("A string indicating the name of the sheet into which the address points.")),
+    ],
+    compute: function (row, column, absoluteRelativeMode = { value: DEFAULT_ABSOLUTE_RELATIVE_MODE }, useA1Notation = { value: true }, sheet) {
+        const rowNumber = strictToInteger(row, this.locale);
+        const colNumber = strictToInteger(column, this.locale);
+        assertNumberGreaterThanOrEqualToOne(rowNumber);
+        assertNumberGreaterThanOrEqualToOne(colNumber);
+        const _absoluteRelativeMode = strictToInteger(absoluteRelativeMode, this.locale);
+        assert(() => [1, 2, 3, 4].includes(_absoluteRelativeMode), expectNumberRangeError(1, 4, _absoluteRelativeMode));
+        const _useA1Notation = toBoolean(useA1Notation);
+        let cellReference;
+        if (_useA1Notation) {
+            const rangePart = {
+                rowFixed: [1, 2].includes(_absoluteRelativeMode) ? true : false,
+                colFixed: [1, 3].includes(_absoluteRelativeMode) ? true : false,
+            };
+            cellReference = toXC(colNumber - 1, rowNumber - 1, rangePart);
+        }
+        else {
+            const rowPart = [1, 2].includes(_absoluteRelativeMode) ? `R${rowNumber}` : `R[${rowNumber}]`;
+            const colPart = [1, 3].includes(_absoluteRelativeMode) ? `C${colNumber}` : `C[${colNumber}]`;
+            cellReference = rowPart + colPart;
+        }
+        if (sheet !== undefined) {
+            return getFullReference(toString(sheet), cellReference);
+        }
+        return cellReference;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COLUMN
+// -----------------------------------------------------------------------------
+const COLUMN = {
+    description: _t("Column number of a specified cell."),
+    args: [
+        arg("cell_reference (meta, default='this cell')", _t("The cell whose column number will be returned. Column A corresponds to 1. By default, the function use the cell in which the formula is entered.")),
+    ],
+    compute: function (cellReference) {
+        if (isEvaluationError(cellReference?.value)) {
+            return cellReference;
+        }
+        if (cellReference === undefined) {
+            assert(() => this.__originCellPosition?.col !== undefined, "In this context, the function [[FUNCTION_NAME]] needs to have a cell or range in parameter.");
+            return this.__originCellPosition.col + 1;
+        }
+        const zone = this.getters.getRangeFromSheetXC(this.getters.getActiveSheetId(), cellReference.value).zone;
+        if (zone.left === zone.right) {
+            return zone.left + 1;
+        }
+        return generateMatrix(zone.right - zone.left + 1, 1, (col, row) => ({
+            value: zone.left + col + 1,
+        }));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// COLUMNS
+// -----------------------------------------------------------------------------
+const COLUMNS = {
+    description: _t("Number of columns in a specified array or range."),
+    args: [arg("range (meta)", _t("The range whose column count will be returned."))],
+    compute: function (range) {
+        if (isEvaluationError(range?.value)) {
+            return range;
+        }
+        const zone = toZone(range.value);
+        return zone.right - zone.left + 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// HLOOKUP
+// -----------------------------------------------------------------------------
+const HLOOKUP = {
+    description: _t("Horizontal lookup"),
+    args: [
+        arg("search_key (string, number, boolean)", _t("The value to search for. For example, 42, 'Cats', or I24.")),
+        arg("range (any, range)", _t("The range to consider for the search. The first row in the range is searched for the key specified in search_key.")),
+        arg("index (number)", _t("The row index of the value to be returned, where the first row in range is numbered 1.")),
+        arg(`is_sorted (boolean, default=${DEFAULT_IS_SORTED})`, _t("Indicates whether the row to be searched (the first row of the specified range) is sorted, in which case the closest match for search_key will be returned.")),
+    ],
+    compute: function (searchKey, range, index, isSorted = { value: DEFAULT_IS_SORTED }) {
+        const _index = Math.trunc(toNumber(index?.value, this.locale));
+        const _range = toMatrix(range);
+        assert(() => 1 <= _index && _index <= _range[0].length, _t("[[FUNCTION_NAME]] evaluates to an out of bounds range."));
+        const getValueFromRange = (range, index) => range[index][0].value;
+        const _isSorted = toBoolean(isSorted.value);
+        const colIndex = _isSorted
+            ? dichotomicSearch(_range, searchKey, "nextSmaller", "asc", _range.length, getValueFromRange)
+            : linearSearch(range, searchKey, "wildcard", _range.length, getValueFromRange, this.lookupCaches);
+        const col = _range[colIndex];
+        if (col === undefined) {
+            return valueNotAvailable(searchKey);
+        }
+        return col[_index - 1];
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// INDEX
+// -----------------------------------------------------------------------------
+const INDEX = {
+    description: _t("Returns the content of a cell, specified by row and column offset."),
+    args: [
+        arg("reference (any, range)", _t("The range of cells from which the values are returned.")),
+        arg("row (number, default=0)", _t("The index of the row to be returned from within the reference range of cells.")),
+        arg("column (number, default=0)", _t("The index of the column to be returned from within the reference range of cells.")),
+    ],
+    compute: function (reference, row = { value: 0 }, column = { value: 0 }) {
+        const _reference = toMatrix(reference);
+        const _row = toNumber(row.value, this.locale);
+        const _column = toNumber(column.value, this.locale);
+        assert(() => _column >= 0 &&
+            _column - 1 < _reference.length &&
+            _row >= 0 &&
+            _row - 1 < _reference[0].length, _t("Index out of range."));
+        if (_row === 0 && _column === 0) {
+            return _reference;
+        }
+        if (_row === 0) {
+            return [_reference[_column - 1]];
+        }
+        if (_column === 0) {
+            return _reference.map((col) => [col[_row - 1]]);
+        }
+        return _reference[_column - 1][_row - 1];
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// INDIRECT
+// -----------------------------------------------------------------------------
+const INDIRECT = {
+    description: _t("Returns the content of a cell, specified by a string."),
+    args: [
+        arg("reference (string)", _t("The range of cells from which the values are returned.")),
+        arg("use_a1_notation (boolean, default=TRUE)", _t("A boolean indicating whether to use A1 style notation (TRUE) or R1C1 style notation (FALSE).")),
+    ],
+    compute: function (reference, useA1Notation = { value: true }) {
+        let _reference = reference?.value?.toString();
+        if (!_reference) {
+            return new InvalidReferenceError(_t("Reference should be defined."));
+        }
+        const _useA1Notation = toBoolean(useA1Notation);
+        if (!_useA1Notation) {
+            return new EvaluationError(_t("R1C1 notation is not supported."));
+        }
+        const sheetId = this.__originSheetId;
+        const originPosition = this.__originCellPosition;
+        if (originPosition) {
+            // The following line is used to reset the dependencies of the cell, to avoid
+            // keeping dependencies from previous evaluation of the INDIRECT formula (i.e.
+            // in case the reference has been changed).
+            this.updateDependencies?.(originPosition);
+        }
+        const range = this.getters.getRangeFromSheetXC(sheetId, _reference);
+        if (range === undefined || range.invalidXc || range.invalidSheetName) {
+            return new InvalidReferenceError();
+        }
+        if (originPosition) {
+            this.addDependencies?.(originPosition, [range]);
+        }
+        const values = [];
+        for (let col = range.zone.left; col <= range.zone.right; col++) {
+            const colValues = [];
+            for (let row = range.zone.top; row <= range.zone.bottom; row++) {
+                const position = { sheetId: range.sheetId, col, row };
+                colValues.push(this.getters.getEvaluatedCell(position));
+            }
+            values.push(colValues);
+        }
+        return values.length === 1 && values[0].length === 1 ? values[0][0] : values;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LOOKUP
+// -----------------------------------------------------------------------------
+const LOOKUP = {
+    description: _t("Look up a value."),
+    args: [
+        arg("search_key (string, number, boolean)", _t("The value to search for. For example, 42, 'Cats', or I24.")),
+        arg("search_array (any, range)", _t("One method of using this function is to provide a single sorted row or column search_array to look through for the search_key with a second argument result_range. The other way is to combine these two arguments into one search_array where the first row or column is searched and a value is returned from the last row or column in the array. If search_key is not found, a non-exact match may be returned.")),
+        arg("result_range (any, range, optional)", _t("The range from which to return a result. The value returned corresponds to the location where search_key is found in search_range. This range must be only a single row or column and should not be used if using the search_result_array method.")),
+    ],
+    compute: function (searchKey, searchArray, resultRange) {
+        const _searchArray = toMatrix(searchArray);
+        const _resultRange = toMatrix(resultRange);
+        let nbCol = _searchArray.length;
+        let nbRow = _searchArray[0].length;
+        const verticalSearch = nbRow >= nbCol;
+        const getElement = verticalSearch
+            ? (range, index) => range[0][index].value
+            : (range, index) => range[index][0].value;
+        const rangeLength = verticalSearch ? nbRow : nbCol;
+        const index = dichotomicSearch(_searchArray, searchKey, "nextSmaller", "asc", rangeLength, getElement);
+        if (index === -1 ||
+            (verticalSearch && _searchArray[0][index] === undefined) ||
+            (!verticalSearch && _searchArray[index][nbRow - 1] === undefined)) {
+            return valueNotAvailable(searchKey);
+        }
+        if (_resultRange[0].length === 0) {
+            return verticalSearch ? _searchArray[nbCol - 1][index] : _searchArray[index][nbRow - 1];
+        }
+        nbCol = _resultRange.length;
+        nbRow = _resultRange[0].length;
+        assert(() => nbCol === 1 || nbRow === 1, _t("The result_range must be a single row or a single column."));
+        if (nbCol > 1) {
+            assert(() => index <= nbCol - 1, _t("[[FUNCTION_NAME]] evaluates to an out of range row value %s.", (index + 1).toString()));
+            return _resultRange[index][0];
+        }
+        assert(() => index <= nbRow - 1, _t("[[FUNCTION_NAME]] evaluates to an out of range column value %s.", (index + 1).toString()));
+        return _resultRange[0][index];
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MATCH
+// -----------------------------------------------------------------------------
+const DEFAULT_SEARCH_TYPE = 1;
+const MATCH = {
+    description: _t("Position of item in range that matches value."),
+    args: [
+        arg("search_key (string, number, boolean)", _t("The value to search for. For example, 42, 'Cats', or I24.")),
+        arg("range (any, range)", _t("The one-dimensional array to be searched.")),
+        arg(`search_type (number, default=${DEFAULT_SEARCH_TYPE})`, _t("The search method. 1 (default) finds the largest value less than or equal to search_key when range is sorted in ascending order. 0 finds the exact value when range is unsorted. -1 finds the smallest value greater than or equal to search_key when range is sorted in descending order.")),
+    ],
+    compute: function (searchKey, range, searchType = { value: DEFAULT_SEARCH_TYPE }) {
+        let _searchType = toNumber(searchType, this.locale);
+        const _range = toMatrix(range);
+        const nbCol = _range.length;
+        const nbRow = _range[0].length;
+        assert(() => nbCol === 1 || nbRow === 1, _t("The range must be a single row or a single column."));
+        let index = -1;
+        const getElement = nbCol === 1
+            ? (_range, index) => _range[0][index].value
+            : (_range, index) => _range[index][0].value;
+        const rangeLen = nbCol === 1 ? _range[0].length : _range.length;
+        _searchType = Math.sign(_searchType);
+        switch (_searchType) {
+            case 1:
+                index = dichotomicSearch(_range, searchKey, "nextSmaller", "asc", rangeLen, getElement);
+                break;
+            case 0:
+                index = linearSearch(_range, searchKey, "wildcard", rangeLen, getElement, this.lookupCaches);
+                break;
+            case -1:
+                index = dichotomicSearch(_range, searchKey, "nextGreater", "desc", rangeLen, getElement);
+                break;
+        }
+        if ((nbCol === 1 && _range[0][index] === undefined) ||
+            (nbCol !== 1 && _range[index] === undefined)) {
+            return valueNotAvailable(searchKey);
+        }
+        return index + 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ROW
+// -----------------------------------------------------------------------------
+const ROW = {
+    description: _t("Row number of a specified cell."),
+    args: [
+        arg("cell_reference (meta, default='this cell')", _t("The cell whose row number will be returned. By default, this function uses the cell in which the formula is entered.")),
+    ],
+    compute: function (cellReference) {
+        if (isEvaluationError(cellReference?.value)) {
+            return cellReference;
+        }
+        if (cellReference === undefined) {
+            assert(() => this.__originCellPosition?.row !== undefined, "In this context, the function [[FUNCTION_NAME]] needs to have a cell or range in parameter.");
+            return this.__originCellPosition.row + 1;
+        }
+        const zone = this.getters.getRangeFromSheetXC(this.getters.getActiveSheetId(), cellReference.value).zone;
+        if (zone.top === zone.bottom) {
+            return zone.top + 1;
+        }
+        return generateMatrix(1, zone.bottom - zone.top + 1, (col, row) => ({
+            value: zone.top + row + 1,
+        }));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// ROWS
+// -----------------------------------------------------------------------------
+const ROWS = {
+    description: _t("Number of rows in a specified array or range."),
+    args: [arg("range (meta)", _t("The range whose row count will be returned."))],
+    compute: function (range) {
+        if (isEvaluationError(range?.value)) {
+            return range;
+        }
+        const zone = toZone(range.value);
+        return zone.bottom - zone.top + 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VLOOKUP
+// -----------------------------------------------------------------------------
+const VLOOKUP = {
+    description: _t("Vertical lookup."),
+    args: [
+        arg("search_key (string, number, boolean)", _t("The value to search for. For example, 42, 'Cats', or I24.")),
+        arg("range (any, range)", _t("The range to consider for the search. The first column in the range is searched for the key specified in search_key.")),
+        arg("index (number)", _t("The column index of the value to be returned, where the first column in range is numbered 1.")),
+        arg(`is_sorted (boolean, default=${DEFAULT_IS_SORTED})`, _t("Indicates whether the column to be searched (the first column of the specified range) is sorted, in which case the closest match for search_key will be returned.")),
+    ],
+    compute: function (searchKey, range, index, isSorted = { value: DEFAULT_IS_SORTED }) {
+        const _index = Math.trunc(toNumber(index?.value, this.locale));
+        const _range = toMatrix(range);
+        assert(() => 1 <= _index && _index <= _range.length, _t("[[FUNCTION_NAME]] evaluates to an out of bounds range."));
+        const getValueFromRange = (range, index) => range[0][index].value;
+        const _isSorted = toBoolean(isSorted.value);
+        const rowIndex = _isSorted
+            ? dichotomicSearch(_range, searchKey, "nextSmaller", "asc", _range[0].length, getValueFromRange)
+            : linearSearch(_range, searchKey, "wildcard", _range[0].length, getValueFromRange, this.lookupCaches);
+        const value = _range[_index - 1][rowIndex];
+        if (value === undefined) {
+            return valueNotAvailable(searchKey);
+        }
+        return value;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// XLOOKUP
+// -----------------------------------------------------------------------------
+const MATCH_MODE = {
+    "0": "strict",
+    "1": "nextGreater",
+    "-1": "nextSmaller",
+    "2": "wildcard",
+};
+const XLOOKUP = {
+    description: _t("Search a range for a match and return the corresponding item from a second range."),
+    args: [
+        arg("search_key (string,number,boolean)", _t("The value to search for.")),
+        arg("lookup_range (any, range)", _t("The range to consider for the search. Should be a single column or a single row.")),
+        arg("return_range (any, range)", _t("The range containing the return value. Should have the same dimensions as lookup_range.")),
+        arg("if_not_found (any, optional)", _t("If a valid match is not found, return this value.")),
+        arg(`match_mode (any, default=${DEFAULT_MATCH_MODE})`, _t("(0) Exact match. \
+        (-1) Return next smaller item if no match. \
+        (1) Return next greater item if no match. \
+        (2) Wildcard match.")),
+        arg(`search_mode (any, default=${DEFAULT_SEARCH_MODE})`, _t("(1) Search starting at first item. \
+      (-1) Search starting at last item. \
+      (2) Perform a binary search that relies on lookup_array being sorted in ascending order. If not sorted, invalid results will be returned. \
+      (-2) Perform a binary search that relies on lookup_array being sorted in descending order. If not sorted, invalid results will be returned.\
+      ")),
+    ],
+    compute: function (searchKey, lookupRange, returnRange, defaultValue, matchMode = { value: DEFAULT_MATCH_MODE }, searchMode = { value: DEFAULT_SEARCH_MODE }) {
+        const _matchMode = Math.trunc(toNumber(matchMode.value, this.locale));
+        const _searchMode = Math.trunc(toNumber(searchMode.value, this.locale));
+        const _lookupRange = toMatrix(lookupRange);
+        const _returnRange = toMatrix(returnRange);
+        assert(() => _lookupRange.length === 1 || _lookupRange[0].length === 1, _t("lookup_range should be either a single row or single column."));
+        assert(() => [-1, 1, -2, 2].includes(_searchMode), _t("search_mode should be a value in [-1, 1, -2, 2]."));
+        assert(() => [-1, 0, 1, 2].includes(_matchMode), _t("match_mode should be a value in [-1, 0, 1, 2]."));
+        const lookupDirection = _lookupRange.length === 1 ? "col" : "row";
+        assert(() => !(_matchMode === 2 && [-2, 2].includes(_searchMode)), _t("the search and match mode combination is not supported for XLOOKUP evaluation."));
+        assert(() => lookupDirection === "col"
+            ? _returnRange[0].length === _lookupRange[0].length
+            : _returnRange.length === _lookupRange.length, _t("return_range should have the same dimensions as lookup_range."));
+        const getElement = lookupDirection === "col"
+            ? (range, index) => range[0][index].value
+            : (range, index) => range[index][0].value;
+        const rangeLen = lookupDirection === "col" ? _lookupRange[0].length : _lookupRange.length;
+        const mode = MATCH_MODE[_matchMode];
+        const reverseSearch = _searchMode === -1;
+        const index = _searchMode === 2 || _searchMode === -2
+            ? dichotomicSearch(_lookupRange, searchKey, mode, _searchMode === 2 ? "asc" : "desc", rangeLen, getElement)
+            : linearSearch(_lookupRange, searchKey, mode, rangeLen, getElement, this.lookupCaches, reverseSearch);
+        if (index !== -1) {
+            return lookupDirection === "col"
+                ? _returnRange.map((col) => [col[index]])
+                : [_returnRange[index]];
+        }
+        if (defaultValue === undefined) {
+            return valueNotAvailable(searchKey);
+        }
+        return [[defaultValue]];
+    },
+    isExported: true,
+};
+//--------------------------------------------------------------------------
+// Pivot functions
+//--------------------------------------------------------------------------
+// PIVOT.VALUE
+const PIVOT_VALUE = {
+    description: _t("Get the value from a pivot."),
+    args: [
+        arg("pivot_id (number,string)", _t("ID of the pivot.")),
+        arg("measure_name (string)", _t("Name of the measure.")),
+        arg("domain_field_name (string,optional,repeating)", _t("Field name.")),
+        arg("domain_value (number,string,boolean,optional,repeating)", _t("Value.")),
+    ],
+    compute: function (formulaId, measureName, ...domainArgs) {
+        const _pivotFormulaId = toString(formulaId);
+        const _measure = toString(measureName);
+        const pivotId = getPivotId(_pivotFormulaId, this.getters);
+        assertMeasureExist(pivotId, _measure, this.getters);
+        assertDomainLength(domainArgs);
+        const pivot = this.getters.getPivot(pivotId);
+        const coreDefinition = this.getters.getPivotCoreDefinition(pivotId);
+        addPivotDependencies(this, pivotId, coreDefinition.measures.filter((m) => m.id === _measure));
+        pivot.init({ reload: pivot.needsReevaluation });
+        const error = pivot.assertIsValid({ throwOnError: false });
+        if (error) {
+            return error;
+        }
+        if (!pivot.areDomainArgsFieldsValid(domainArgs)) {
+            const suggestion = _t("Consider using a dynamic pivot formula: %s. Or re-insert the static pivot from the Data menu.", `=PIVOT(${_pivotFormulaId})`);
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("Dimensions don't match the pivot definition") + ". " + suggestion,
+            };
+        }
+        const domain = pivot.parseArgsToPivotDomain(domainArgs);
+        if (this.getters.getActiveSheetId() === this.__originSheetId) {
+            this.getters.getPivotPresenceTracker(pivotId)?.trackValue(_measure, domain);
+        }
+        return pivot.getPivotCellValueAndFormat(_measure, domain);
+    },
+};
+// PIVOT.HEADER
+const PIVOT_HEADER = {
+    description: _t("Get the header of a pivot."),
+    args: [
+        arg("pivot_id (number,string)", _t("ID of the pivot.")),
+        arg("domain_field_name (string,optional,repeating)", _t("Field name.")),
+        arg("domain_value (number,string,value,optional,repeating)", _t("Value.")),
+    ],
+    compute: function (pivotId, ...domainArgs) {
+        const _pivotFormulaId = toString(pivotId);
+        const _pivotId = getPivotId(_pivotFormulaId, this.getters);
+        assertDomainLength(domainArgs);
+        const pivot = this.getters.getPivot(_pivotId);
+        addPivotDependencies(this, _pivotId, []);
+        pivot.init({ reload: pivot.needsReevaluation });
+        const error = pivot.assertIsValid({ throwOnError: false });
+        if (error) {
+            return error;
+        }
+        if (!pivot.areDomainArgsFieldsValid(domainArgs)) {
+            const suggestion = _t("Consider using a dynamic pivot formula: %s. Or re-insert the static pivot from the Data menu.", `=PIVOT(${_pivotFormulaId})`);
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("Dimensions don't match the pivot definition") + ". " + suggestion,
+            };
+        }
+        const domain = pivot.parseArgsToPivotDomain(domainArgs);
+        if (this.getters.getActiveSheetId() === this.__originSheetId) {
+            this.getters.getPivotPresenceTracker(_pivotId)?.trackHeader(domain);
+        }
+        const lastNode = domain.at(-1);
+        if (lastNode?.field === "measure") {
+            return pivot.getPivotMeasureValue(toString(lastNode.value), domain);
+        }
+        const { value, format } = pivot.getPivotHeaderValueAndFormat(domain);
+        return {
+            value,
+            format: !lastNode || lastNode.field === "measure" || lastNode.value === "false"
+                ? undefined
+                : format,
+        };
+    },
+};
+const PIVOT = {
+    description: _t("Get a pivot table."),
+    args: [
+        arg("pivot_id (string)", _t("ID of the pivot.")),
+        arg("row_count (number, optional)", _t("number of rows")),
+        arg("include_total (boolean, default=TRUE)", _t("Whether to include total/sub-totals or not.")),
+        arg("include_column_titles (boolean, default=TRUE)", _t("Whether to include the column titles or not.")),
+        arg("column_count (number, optional)", _t("number of columns")),
+    ],
+    compute: function (pivotFormulaId, rowCount = { value: 10000 }, includeTotal = { value: true }, includeColumnHeaders = { value: true }, columnCount = { value: Number.MAX_VALUE }) {
+        const _pivotFormulaId = toString(pivotFormulaId);
+        const _rowCount = toNumber(rowCount, this.locale);
+        if (_rowCount < 0) {
+            return new EvaluationError(_t("The number of rows must be positive."));
+        }
+        const _columnCount = toNumber(columnCount, this.locale);
+        if (_columnCount < 0) {
+            return new EvaluationError(_t("The number of columns must be positive."));
+        }
+        const _includeColumnHeaders = toBoolean(includeColumnHeaders);
+        const _includedTotal = toBoolean(includeTotal);
+        const pivotId = getPivotId(_pivotFormulaId, this.getters);
+        const pivot = this.getters.getPivot(pivotId);
+        const coreDefinition = this.getters.getPivotCoreDefinition(pivotId);
+        addPivotDependencies(this, pivotId, coreDefinition.measures);
+        pivot.init({ reload: pivot.needsReevaluation });
+        const error = pivot.assertIsValid({ throwOnError: false });
+        if (error) {
+            return error;
+        }
+        const table = pivot.getTableStructure();
+        const cells = table.getPivotCells(_includedTotal, _includeColumnHeaders);
+        const headerRows = _includeColumnHeaders ? table.columns.length : 0;
+        const pivotTitle = this.getters.getPivotDisplayName(pivotId);
+        const tableHeight = Math.min(headerRows + _rowCount, cells[0].length);
+        if (tableHeight === 0) {
+            return [[{ value: pivotTitle }]];
+        }
+        const tableWidth = Math.min(1 + _columnCount, cells.length);
+        const result = [];
+        for (const col of range(0, tableWidth)) {
+            result[col] = [];
+            for (const row of range(0, tableHeight)) {
+                const pivotCell = cells[col][row];
+                switch (pivotCell.type) {
+                    case "EMPTY":
+                        result[col].push({ value: "" });
+                        break;
+                    case "HEADER":
+                        const valueAndFormat = pivot.getPivotHeaderValueAndFormat(pivotCell.domain);
+                        result[col].push(addIndentAndAlignToPivotHeader(pivot, pivotCell.domain, valueAndFormat));
+                        break;
+                    case "MEASURE_HEADER":
+                        result[col].push(pivot.getPivotMeasureValue(pivotCell.measure, pivotCell.domain));
+                        break;
+                    case "VALUE":
+                        result[col].push(pivot.getPivotCellValueAndFormat(pivotCell.measure, pivotCell.domain));
+                        break;
+                }
+            }
+        }
+        if (_includeColumnHeaders) {
+            result[0][0] = { value: pivotTitle };
+        }
+        return result;
+    },
+};
+//--------------------------------------------------------------------------
+// OFFSET
+//--------------------------------------------------------------------------
+const OFFSET = {
+    description: _t("Returns a range reference shifted by a specified number of rows and columns from a starting cell reference."),
+    args: [
+        arg("cell_reference (meta)", _t("The starting point from which to count the offset rows and columns.")),
+        arg("offset_rows (number)", _t("The number of rows to offset by.")),
+        arg("offset_columns (number)", _t("The number of columns to offset by.")),
+        arg("height (number, default='height of cell_reference')", _t("The number of rows of the range to return starting at the offset target.")),
+        arg("width (number, default='width of cell_reference')", _t("The number of columns of the range to return starting at the offset target.")),
+    ],
+    compute: function (cellReference, offsetRows, offsetColumns, height, width) {
+        if (isEvaluationError(cellReference?.value)) {
+            return cellReference;
+        }
+        const _cellReference = cellReference?.value;
+        if (!_cellReference) {
+            return new EvaluationError("In this context, the function OFFSET needs to have a cell or range in parameter.");
+        }
+        const zone = toZone(_cellReference);
+        let offsetHeight = zone.bottom - zone.top + 1;
+        let offsetWidth = zone.right - zone.left + 1;
+        if (height) {
+            const _height = toNumber(height, this.locale);
+            assertPositive(_t("Height value is %(_height)s. It should be greater than or equal to 1.", { _height }), _height);
+            offsetHeight = _height;
+        }
+        if (width) {
+            const _width = toNumber(width, this.locale);
+            assertPositive(_t("Width value is %(_width)s. It should be greater than or equal to 1.", { _width }), _width);
+            offsetWidth = _width;
+        }
+        const { sheetName } = splitReference(_cellReference);
+        const sheetId = (sheetName && this.getters.getSheetIdByName(sheetName)) || this.getters.getActiveSheetId();
+        const _offsetRows = toNumber(offsetRows, this.locale);
+        const _offsetColumns = toNumber(offsetColumns, this.locale);
+        const originPosition = this.__originCellPosition;
+        if (originPosition) {
+            this.updateDependencies?.(originPosition);
+        }
+        const startingCol = zone.left + _offsetColumns;
+        const startingRow = zone.top + _offsetRows;
+        if (startingCol < 0 || startingRow < 0) {
+            return new InvalidReferenceError(_t("OFFSET evaluates to an out of bounds range."));
+        }
+        const dependencyZone = {
+            left: startingCol,
+            top: startingRow,
+            right: startingCol + offsetWidth - 1,
+            bottom: startingRow + offsetHeight - 1,
+        };
+        const range = this.getters.getRangeFromZone(sheetId, dependencyZone);
+        if (range.invalidXc || range.invalidSheetName) {
+            return new InvalidReferenceError();
+        }
+        if (originPosition) {
+            this.addDependencies?.(originPosition, [range]);
+        }
+        return generateMatrix(offsetWidth, offsetHeight, (col, row) => this.getters.getEvaluatedCell({
+            sheetId,
+            col: startingCol + col,
+            row: startingRow + row,
+        }));
+    },
+};
+
+var lookup = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    ADDRESS: ADDRESS,
+    COLUMN: COLUMN,
+    COLUMNS: COLUMNS,
+    HLOOKUP: HLOOKUP,
+    INDEX: INDEX,
+    INDIRECT: INDIRECT,
+    LOOKUP: LOOKUP,
+    MATCH: MATCH,
+    OFFSET: OFFSET,
+    PIVOT: PIVOT,
+    PIVOT_HEADER: PIVOT_HEADER,
+    PIVOT_VALUE: PIVOT_VALUE,
+    ROW: ROW,
+    ROWS: ROWS,
+    VLOOKUP: VLOOKUP,
+    XLOOKUP: XLOOKUP
+});
+
+// -----------------------------------------------------------------------------
+// ADD
+// -----------------------------------------------------------------------------
+const ADD = {
+    description: _t("Sum of two numbers."),
+    args: [
+        arg("value1 (number)", _t("The first addend.")),
+        arg("value2 (number)", _t("The second addend.")),
+    ],
+    compute: function (value1, value2) {
+        return {
+            value: toNumber(value1, this.locale) + toNumber(value2, this.locale),
+            format: value1?.format || value2?.format,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// CONCAT
+// -----------------------------------------------------------------------------
+const CONCAT = {
+    description: _t("Concatenation of two values."),
+    args: [
+        arg("value1 (string)", _t("The value to which value2 will be appended.")),
+        arg("value2 (string)", _t("The value to append to value1.")),
+    ],
+    compute: function (value1, value2) {
+        return toString(value1) + toString(value2);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// DIVIDE
+// -----------------------------------------------------------------------------
+const DIVIDE = {
+    description: _t("One number divided by another."),
+    args: [
+        arg("dividend (number)", _t("The number to be divided.")),
+        arg("divisor (number)", _t("The number to divide by.")),
+    ],
+    compute: function (dividend, divisor) {
+        const _divisor = toNumber(divisor, this.locale);
+        assert(() => _divisor !== 0, _t("The divisor must be different from zero."), CellErrorType.DivisionByZero);
+        return {
+            value: toNumber(dividend, this.locale) / _divisor,
+            format: dividend?.format || divisor?.format,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// EQ
+// -----------------------------------------------------------------------------
+function isEmpty(data) {
+    return data === undefined || data.value === null;
+}
+const getNeutral = { number: 0, string: "", boolean: false };
+function areAlmostEqual(value1, value2, epsilon = 2e-16) {
+    return Math.abs(value1 - value2) < epsilon;
+}
+const EQ = {
+    description: _t("Equal."),
+    args: [
+        arg("value1 (string, number, boolean)", _t("The first value.")),
+        arg("value2 (string, number, boolean)", _t("The value to test against value1 for equality.")),
+    ],
+    compute: function (value1, value2) {
+        let _value1 = isEmpty(value1) ? getNeutral[typeof value2?.value] : value1?.value;
+        let _value2 = isEmpty(value2) ? getNeutral[typeof value1?.value] : value2?.value;
+        if (typeof _value1 === "string") {
+            _value1 = _value1.toUpperCase();
+        }
+        if (typeof _value2 === "string") {
+            _value2 = _value2.toUpperCase();
+        }
+        if (typeof _value1 === "number" && typeof _value2 === "number") {
+            return areAlmostEqual(_value1, _value2);
+        }
+        return _value1 === _value2;
+    },
+};
+// -----------------------------------------------------------------------------
+// GT
+// -----------------------------------------------------------------------------
+function applyRelationalOperator(value1, value2, cb) {
+    let _value1 = isEmpty(value1) ? getNeutral[typeof value2?.value] : value1?.value;
+    let _value2 = isEmpty(value2) ? getNeutral[typeof value1?.value] : value2?.value;
+    if (isEvaluationError(_value1)) {
+        throw value1;
+    }
+    if (isEvaluationError(_value2)) {
+        throw value2;
+    }
+    if (typeof _value1 !== "number") {
+        _value1 = toString(_value1).toUpperCase();
+    }
+    if (typeof _value2 !== "number") {
+        _value2 = toString(_value2).toUpperCase();
+    }
+    const tV1 = typeof _value1;
+    const tV2 = typeof _value2;
+    if (tV1 === "string" && tV2 === "number") {
+        return true;
+    }
+    if (tV2 === "string" && tV1 === "number") {
+        return false;
+    }
+    return cb(_value1, _value2);
+}
+const GT = {
+    description: _t("Strictly greater than."),
+    args: [
+        arg("value1 (number, string, boolean)", _t("The value to test as being greater than value2.")),
+        arg("value2 (number, string, boolean)", _t("The second value.")),
+    ],
+    compute: function (value1, value2) {
+        return applyRelationalOperator(value1, value2, (v1, v2) => {
+            if (typeof v1 === "number" && typeof v2 === "number") {
+                return !areAlmostEqual(v1, v2) && v1 > v2;
+            }
+            return v1 > v2;
+        });
+    },
+};
+// -----------------------------------------------------------------------------
+// GTE
+// -----------------------------------------------------------------------------
+const GTE = {
+    description: _t("Greater than or equal to."),
+    args: [
+        arg("value1 (number, string, boolean)", _t("The value to test as being greater than or equal to value2.")),
+        arg("value2 (number, string, boolean)", _t("The second value.")),
+    ],
+    compute: function (value1, value2) {
+        return applyRelationalOperator(value1, value2, (v1, v2) => {
+            if (typeof v1 === "number" && typeof v2 === "number") {
+                return areAlmostEqual(v1, v2) || v1 > v2;
+            }
+            return v1 >= v2;
+        });
+    },
+};
+// -----------------------------------------------------------------------------
+// LT
+// -----------------------------------------------------------------------------
+const LT = {
+    description: _t("Less than."),
+    args: [
+        arg("value1 (number, string, boolean)", _t("The value to test as being less than value2.")),
+        arg("value2 (number, string, boolean)", _t("The second value.")),
+    ],
+    compute: function (value1, value2) {
+        return !GTE.compute.bind(this)(value1, value2);
+    },
+};
+// -----------------------------------------------------------------------------
+// LTE
+// -----------------------------------------------------------------------------
+const LTE = {
+    description: _t("Less than or equal to."),
+    args: [
+        arg("value1 (number, string, boolean)", _t("The value to test as being less than or equal to value2.")),
+        arg("value2 (number, string, boolean)", _t("The second value.")),
+    ],
+    compute: function (value1, value2) {
+        return !GT.compute.bind(this)(value1, value2);
+    },
+};
+// -----------------------------------------------------------------------------
+// MINUS
+// -----------------------------------------------------------------------------
+const MINUS = {
+    description: _t("Difference of two numbers."),
+    args: [
+        arg("value1 (number)", _t("The minuend, or number to be subtracted from.")),
+        arg("value2 (number)", _t("The subtrahend, or number to subtract from value1.")),
+    ],
+    compute: function (value1, value2) {
+        return {
+            value: toNumber(value1, this.locale) - toNumber(value2, this.locale),
+            format: value1?.format || value2?.format,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// MULTIPLY
+// -----------------------------------------------------------------------------
+const MULTIPLY = {
+    description: _t("Product of two numbers"),
+    args: [
+        arg("factor1 (number)", _t("The first multiplicand.")),
+        arg("factor2 (number)", _t("The second multiplicand.")),
+    ],
+    compute: function (factor1, factor2) {
+        return {
+            value: toNumber(factor1, this.locale) * toNumber(factor2, this.locale),
+            format: factor1?.format || factor2?.format,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// NE
+// -----------------------------------------------------------------------------
+const NE = {
+    description: _t("Not equal."),
+    args: [
+        arg("value1 (string, number, boolean)", _t("The first value.")),
+        arg("value2 (string, number, boolean)", _t("The value to test against value1 for inequality.")),
+    ],
+    compute: function (value1, value2) {
+        return !EQ.compute.bind(this)(value1, value2);
+    },
+};
+// -----------------------------------------------------------------------------
+// POW
+// -----------------------------------------------------------------------------
+const POW = {
+    description: _t("A number raised to a power."),
+    args: [
+        arg("base (number)", _t("The number to raise to the exponent power.")),
+        arg("exponent (number)", _t("The exponent to raise base to.")),
+    ],
+    compute: function (base, exponent) {
+        return POWER.compute.bind(this)(base, exponent);
+    },
+};
+// -----------------------------------------------------------------------------
+// UMINUS
+// -----------------------------------------------------------------------------
+const UMINUS = {
+    description: _t("A number with the sign reversed."),
+    args: [
+        arg("value (number)", _t("The number to have its sign reversed. Equivalently, the number to multiply by -1.")),
+    ],
+    compute: function (value) {
+        return {
+            value: -toNumber(value, this.locale),
+            format: value?.format,
+        };
+    },
+};
+// -----------------------------------------------------------------------------
+// UNARY_PERCENT
+// -----------------------------------------------------------------------------
+const UNARY_PERCENT = {
+    description: _t("Value interpreted as a percentage."),
+    args: [arg("percentage (number)", _t("The value to interpret as a percentage."))],
+    compute: function (percentage) {
+        return toNumber(percentage, this.locale) / 100;
+    },
+};
+// -----------------------------------------------------------------------------
+// UPLUS
+// -----------------------------------------------------------------------------
+const UPLUS = {
+    description: _t("A specified number, unchanged."),
+    args: [arg("value (any)", _t("The number to return."))],
+    compute: function (value = { value: null }) {
+        return value;
+    },
+};
+
+var operators = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    ADD: ADD,
+    CONCAT: CONCAT,
+    DIVIDE: DIVIDE,
+    EQ: EQ,
+    GT: GT,
+    GTE: GTE,
+    LT: LT,
+    LTE: LTE,
+    MINUS: MINUS,
+    MULTIPLY: MULTIPLY,
+    NE: NE,
+    POW: POW,
+    UMINUS: UMINUS,
+    UNARY_PERCENT: UNARY_PERCENT,
+    UPLUS: UPLUS
+});
+
+const transformFromFactor = (factor) => ({
+    transform: (x) => x * factor,
+    inverseTransform: (x) => x / factor,
+});
+const standard = { transform: (x) => x, inverseTransform: (x) => x };
+const ANG2M = 1e-10;
+const IN2M = 0.0254;
+const PICAPT2M = IN2M / 72;
+const FT2M = 0.3048;
+const YD2M = 0.9144;
+const MI2M = 1609.34;
+const NMI2M = 1852;
+const LY2M = 9.46073047258e15;
+const UNITS = {
+    // WEIGHT UNITs : Standard = gramme
+    g: { ...standard, category: "weight" },
+    u: { ...transformFromFactor(1.66053e-24), category: "weight" },
+    grain: { ...transformFromFactor(0.0647989), category: "weight" },
+    ozm: { ...transformFromFactor(28.3495), category: "weight" },
+    lbm: { ...transformFromFactor(453.592), category: "weight" },
+    stone: { ...transformFromFactor(6350.29), category: "weight" },
+    sg: { ...transformFromFactor(14593.90294), category: "weight" },
+    cwt: { ...transformFromFactor(45359.237), category: "weight" },
+    uk_cwt: { ...transformFromFactor(50802.3), category: "weight" },
+    ton: { ...transformFromFactor(907184.74), category: "weight" },
+    uk_ton: { ...transformFromFactor(1016046.9), category: "weight" },
+    // DISTANCE UNITS : Standard = meter
+    m: { ...standard, category: "distance" },
+    km: { ...transformFromFactor(1000), category: "distance" },
+    ang: { ...transformFromFactor(ANG2M), category: "distance" },
+    Picapt: { ...transformFromFactor(PICAPT2M), category: "distance" },
+    pica: { ...transformFromFactor(IN2M / 6), category: "distance" },
+    in: { ...transformFromFactor(IN2M), category: "distance" },
+    ft: { ...transformFromFactor(FT2M), category: "distance" },
+    yd: { ...transformFromFactor(YD2M), category: "distance" },
+    ell: { ...transformFromFactor(1.143), category: "distance" },
+    mi: { ...transformFromFactor(MI2M), category: "distance" },
+    survey_mi: { ...transformFromFactor(1609.34), category: "distance" },
+    Nmi: { ...transformFromFactor(NMI2M), category: "distance" },
+    ly: { ...transformFromFactor(LY2M), category: "distance" },
+    parsec: { ...transformFromFactor(3.0856775814914e16), category: "distance" },
+    // TIME UNITS : Standard = second
+    sec: { ...standard, category: "time" },
+    min: { ...transformFromFactor(60), category: "time" },
+    hr: { ...transformFromFactor(3600), category: "time" },
+    day: { ...transformFromFactor(86400), category: "time" },
+    yr: { ...transformFromFactor(31556952), category: "time" },
+    // PRESSURE UNITS : Standard = Pascal
+    Pa: { ...standard, category: "pressure" },
+    bar: { ...transformFromFactor(100000), category: "pressure" },
+    mmHg: { ...transformFromFactor(133.322), category: "pressure" },
+    Torr: { ...transformFromFactor(133.322), category: "pressure" },
+    psi: { ...transformFromFactor(6894.76), category: "pressure" },
+    atm: { ...transformFromFactor(101325), category: "pressure" },
+    // FORCE UNITS : Standard = Newton
+    N: { ...standard, category: "force" },
+    dyn: { ...transformFromFactor(1e-5), category: "force" },
+    pond: { ...transformFromFactor(0.00980665), category: "force" },
+    lbf: { ...transformFromFactor(4.44822), category: "force" },
+    // ENERGY UNITS : Standard = Joule
+    J: { ...standard, category: "energy" },
+    eV: { ...transformFromFactor(1.60218e-19), category: "energy" },
+    e: { ...transformFromFactor(1e-7), category: "energy" },
+    flb: { ...transformFromFactor(1.3558179483), category: "energy" },
+    c: { ...transformFromFactor(4.184), category: "energy" },
+    cal: { ...transformFromFactor(4.1868), category: "energy" },
+    BTU: { ...transformFromFactor(1055.06), category: "energy" },
+    Wh: { ...transformFromFactor(3600), category: "energy" },
+    HPh: { ...transformFromFactor(2684520), category: "energy" },
+    // POWER UNITS : Standard = Watt
+    W: { ...standard, category: "power" },
+    PS: { ...transformFromFactor(735.499), category: "power" },
+    HP: { ...transformFromFactor(745.7), category: "power" },
+    // MAGNETISM UNITS : Standard = Tesla
+    T: { ...standard, category: "magnetism" },
+    ga: { ...transformFromFactor(1e-4), category: "magnetism" },
+    // TEMPERATURE UNITS : Standard = Kelvin
+    K: { ...standard, category: "temperature" },
+    C: {
+        transform: (T) => T + 273.15,
+        inverseTransform: (T) => T - 273.15,
+        category: "temperature",
+    },
+    F: {
+        transform: (T) => ((T - 32) * 5) / 9 + 273.15,
+        inverseTransform: (T) => ((T - 273.15) * 9) / 5 + 32,
+        category: "temperature",
+    },
+    Rank: { ...transformFromFactor(5 / 9), category: "temperature" },
+    Reau: {
+        transform: (T) => T * 1.25 + 273.15,
+        inverseTransform: (T) => (T - 273.15) / 1.25,
+        category: "temperature",
+    },
+    // VOLUME UNITS : Standard = cubic meter
+    "m^3": { ...standard, category: "volume", order: 3 },
+    "ang^3": { ...transformFromFactor(Math.pow(ANG2M, 3)), category: "volume", order: 3 },
+    "Picapt^3": { ...transformFromFactor(Math.pow(PICAPT2M, 3)), category: "volume", order: 3 },
+    tsp: { ...transformFromFactor(4.92892e-6), category: "volume" },
+    tspm: { ...transformFromFactor(5e-6), category: "volume" },
+    tbs: { ...transformFromFactor(1.4786764825785619e-5), category: "volume" },
+    "in^3": { ...transformFromFactor(Math.pow(IN2M, 3)), category: "volume", order: 3 },
+    oz: { ...transformFromFactor(2.95735295625e-5), category: "volume" },
+    cup: { ...transformFromFactor(0.000237), category: "volume" },
+    pt: { ...transformFromFactor(0.0004731765), category: "volume" },
+    uk_pt: { ...transformFromFactor(0.000568261), category: "volume" },
+    qt: { ...transformFromFactor(0.0009463529), category: "volume" },
+    l: { ...transformFromFactor(1e-3), category: "volume" },
+    uk_qt: { ...transformFromFactor(0.0011365225), category: "volume" },
+    gal: { ...transformFromFactor(0.0037854118), category: "volume" },
+    uk_gal: { ...transformFromFactor(0.00454609), category: "volume" },
+    "ft^3": { ...transformFromFactor(Math.pow(FT2M, 3)), category: "volume", order: 3 },
+    bushel: { ...transformFromFactor(0.0352390704), category: "volume" },
+    barrel: { ...transformFromFactor(0.158987295), category: "volume" },
+    "yd^3": { ...transformFromFactor(Math.pow(YD2M, 3)), category: "volume", order: 3 },
+    MTON: { ...transformFromFactor(1.13267386368), category: "volume" },
+    GRT: { ...transformFromFactor(2.83168), category: "volume" },
+    "mi^3": { ...transformFromFactor(Math.pow(MI2M, 3)), category: "volume", order: 3 },
+    "Nmi^3": { ...transformFromFactor(Math.pow(NMI2M, 3)), category: "volume", order: 3 },
+    "ly^3": { ...transformFromFactor(Math.pow(LY2M, 3)), category: "volume", order: 3 },
+    // AREA UNITS : Standard = square meter
+    "m^2": { ...standard, category: "area", order: 2 },
+    "ang^2": { ...transformFromFactor(Math.pow(ANG2M, 2)), category: "area", order: 2 },
+    "Picapt^2": { ...transformFromFactor(Math.pow(PICAPT2M, 2)), category: "area", order: 2 },
+    "in^2": { ...transformFromFactor(Math.pow(IN2M, 2)), category: "area", order: 2 },
+    "ft^2": { ...transformFromFactor(Math.pow(FT2M, 2)), category: "area", order: 2 },
+    "yd^2": { ...transformFromFactor(Math.pow(YD2M, 2)), category: "area", order: 2 },
+    ar: { ...transformFromFactor(100), category: "area" },
+    Morgen: { ...transformFromFactor(2500), category: "area" },
+    uk_acre: { ...transformFromFactor(4046.8564224), category: "area" },
+    us_acre: { ...transformFromFactor(4046.8726098743), category: "area" },
+    ha: { ...transformFromFactor(1e4), category: "area" },
+    "mi^2": { ...transformFromFactor(Math.pow(MI2M, 2)), category: "area", order: 2 },
+    "Nmi^2": { ...transformFromFactor(Math.pow(NMI2M, 2)), category: "area", order: 2 },
+    "ly^2": { ...transformFromFactor(Math.pow(LY2M, 2)), category: "area", order: 2 },
+    // INFORMATION UNITS : Standard = bit
+    bit: { ...standard, category: "information" },
+    byte: { ...transformFromFactor(8), category: "information" },
+    // SPEED UNITS : Standard = m/s
+    "m/s": { ...standard, category: "speed" },
+    "m/hr": { ...transformFromFactor(1 / 3600), category: "speed" },
+    "km/hr": { ...transformFromFactor(1 / 3.6), category: "speed" },
+    mph: { ...transformFromFactor(0.44704), category: "speed" },
+    kn: { ...transformFromFactor(0.5144444444), category: "speed" },
+    admkn: { ...transformFromFactor(0.5147733333), category: "speed" },
+};
+const UNITS_ALIASES = {
+    shweight: "cwt",
+    lcwt: "uk_cwt",
+    hweight: "uk_cwt",
+    LTON: "uk_ton",
+    brton: "uk_ton",
+    pc: "parsec",
+    Pica: "Picapt",
+    d: "day",
+    mn: "min",
+    s: "sec",
+    p: "Pa",
+    at: "atm",
+    dy: "dyn",
+    ev: "eV",
+    hh: "HPh",
+    wh: "Wh",
+    btu: "BTU",
+    h: "HP",
+    cel: "C",
+    fah: "F",
+    kel: "K",
+    us_pt: "pt",
+    L: "l",
+    lt: "l",
+    ang3: "ang^3",
+    ft3: "ft^3",
+    in3: "in^3",
+    ly3: "ly^3",
+    m3: "m^3",
+    mi3: "mi^3",
+    yd3: "yd^3",
+    Nmi3: "Nmi^3",
+    Picapt3: "Picapt^3",
+    "Pica^3": "Picapt^3",
+    Pica3: "Picapt^3",
+    regton: "GRT",
+    ang2: "ang^2",
+    ft2: "ft^2",
+    in2: "in^2",
+    ly2: "ly^2",
+    m2: "m^2",
+    mi2: "mi^2",
+    Nmi2: "Nmi^2",
+    Picapt2: "Picapt^2",
+    "Pica^2": "Picapt^2",
+    Pica2: "Picapt^2",
+    yd2: "yd^2",
+    "m/h": "m/hr",
+    "m/sec": "m/s",
+};
+const UNIT_PREFIXES = {
+    "": 1,
+    Y: 1e24,
+    Z: 1e21,
+    E: 1e18,
+    P: 1e15,
+    T: 1e12,
+    G: 1e9,
+    M: 1e6,
+    k: 1e3,
+    h: 1e2,
+    da: 1e1,
+    e: 1e1,
+    d: 1e-1,
+    c: 1e-2,
+    m: 1e-3,
+    u: 1e-6,
+    n: 1e-9,
+    p: 1e-12,
+    f: 1e-15,
+    a: 1e-18,
+    z: 1e-21,
+    y: 1e-21,
+    Yi: Math.pow(2, 80),
+    Zi: Math.pow(2, 70),
+    Ei: Math.pow(2, 60),
+    Pi: Math.pow(2, 50),
+    Ti: Math.pow(2, 40),
+    Gi: Math.pow(2, 30),
+    Mi: Math.pow(2, 20),
+    ki: Math.pow(2, 10),
+};
+const TRANSLATED_CATEGORIES = {
+    weight: _t("Weight"),
+    distance: _t("Distance"),
+    time: _t("Time"),
+    pressure: _t("Pressure"),
+    force: _t("Force"),
+    energy: _t("Energy"),
+    power: _t("Power"),
+    magnetism: _t("Magnetism"),
+    temperature: _t("Temperature"),
+    volume: _t("Volume"),
+    area: _t("Area"),
+    information: _t("Information"),
+    speed: _t("Speed"),
+};
+function getTranslatedCategory(key) {
+    return TRANSLATED_CATEGORIES[key] ?? "";
+}
+function getTransformation(key) {
+    for (const [prefix, value] of Object.entries(UNIT_PREFIXES)) {
+        if (prefix && !key.startsWith(prefix))
+            continue;
+        const _key = key.slice(prefix.length);
+        let conversion = UNITS[_key];
+        if (!conversion && UNITS_ALIASES[_key]) {
+            conversion = UNITS[UNITS_ALIASES[_key]];
+        }
+        if (conversion) {
+            return {
+                ...conversion,
+                factor: conversion.order ? Math.pow(value, conversion.order) : value,
+            };
+        }
+    }
+    return;
+}
+
+// -----------------------------------------------------------------------------
+// CONVERT
+// -----------------------------------------------------------------------------
+const CONVERT = {
+    description: _t("Converts a numeric value to a different unit of measure."),
+    args: [
+        arg("value (number)", _t("the numeric value in start_unit to convert to end_unit")),
+        arg("start_unit (string)", _t("The starting unit, the unit currently assigned to value")),
+        arg("end_unit (string)", _t("The unit of measure into which to convert value")),
+    ],
+    compute: function (value, startUnit, endUnit) {
+        const _value = toNumber(value, this.locale);
+        const _startUnit = toString(startUnit);
+        const _endUnit = toString(endUnit);
+        const startConversion = getTransformation(_startUnit);
+        const endConversion = getTransformation(_endUnit);
+        if (!startConversion) {
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("Invalid units of measure ('%s')", _startUnit),
+            };
+        }
+        if (!endConversion) {
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("Invalid units of measure ('%s')", _endUnit),
+            };
+        }
+        if (startConversion.category !== endConversion.category) {
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("Incompatible units of measure ('%s' vs '%s')", getTranslatedCategory(startConversion.category), getTranslatedCategory(endConversion.category)),
+            };
+        }
+        return {
+            value: endConversion.inverseTransform(startConversion.factor * startConversion.transform(_value)) /
+                endConversion.factor,
+            format: value?.format,
+        };
+    },
+    isExported: true,
+};
+
+var parser = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    CONVERT: CONVERT
+});
+
+const DEFAULT_STARTING_AT = 1;
+/** Regex matching all the words in a string */
+const wordRegex = /[A-Za-zÀ-ÖØ-öø-ÿ]+/g;
+// -----------------------------------------------------------------------------
+// CHAR
+// -----------------------------------------------------------------------------
+const CHAR = {
+    description: _t("Gets character associated with number."),
+    args: [
+        arg("table_number (number)", _t("The number of the character to look up from the current Unicode table in decimal format.")),
+    ],
+    compute: function (tableNumber) {
+        const _tableNumber = Math.trunc(toNumber(tableNumber, this.locale));
+        assert(() => _tableNumber >= 1, _t("The table_number (%s) is out of range.", _tableNumber.toString()));
+        return String.fromCharCode(_tableNumber);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CLEAN
+// -----------------------------------------------------------------------------
+const CLEAN = {
+    description: _t("Remove non-printable characters from a piece of text."),
+    args: [arg("text (string)", _t("The text whose non-printable characters are to be removed."))],
+    compute: function (text) {
+        const _text = toString(text);
+        let cleanedStr = "";
+        for (const char of _text) {
+            if (char && char.charCodeAt(0) > 31) {
+                cleanedStr += char;
+            }
+        }
+        return cleanedStr;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// CONCATENATE
+// -----------------------------------------------------------------------------
+const CONCATENATE = {
+    description: _t("Appends strings to one another."),
+    args: [
+        arg("string1 (string, range<string>)", _t("The initial string.")),
+        arg("string2 (string, range<string>, repeating)", _t("More strings to append in sequence.")),
+    ],
+    compute: function (...datas) {
+        return reduceAny(datas, (acc, a) => acc + toString(a), "");
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// EXACT
+// -----------------------------------------------------------------------------
+const EXACT = {
+    description: _t("Tests whether two strings are identical."),
+    args: [
+        arg("string1 (string)", _t("The first string to compare.")),
+        arg("string2 (string)", _t("The second string to compare.")),
+    ],
+    compute: function (string1, string2) {
+        return toString(string1) === toString(string2);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// FIND
+// -----------------------------------------------------------------------------
+const FIND = {
+    description: _t("First position of string found in text, case-sensitive."),
+    args: [
+        arg("search_for (string)", _t("The string to look for within text_to_search.")),
+        arg("text_to_search (string)", _t("The text to search for the first occurrence of search_for.")),
+        arg(`starting_at (number, default=${DEFAULT_STARTING_AT})`, _t("The character within text_to_search at which to start the search.")),
+    ],
+    compute: function (searchFor, textToSearch, startingAt = { value: DEFAULT_STARTING_AT }) {
+        const _searchFor = toString(searchFor);
+        const _textToSearch = toString(textToSearch);
+        const _startingAt = toNumber(startingAt, this.locale);
+        assert(() => _textToSearch !== "", _t("The text_to_search must be non-empty."));
+        assert(() => _startingAt >= 1, _t("The starting_at (%s) must be greater than or equal to 1.", _startingAt.toString()));
+        const result = _textToSearch.indexOf(_searchFor, _startingAt - 1);
+        assert(() => result >= 0, _t("In [[FUNCTION_NAME]] evaluation, cannot find '%s' within '%s'.", _searchFor.toString(), _textToSearch));
+        return result + 1;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// JOIN
+// -----------------------------------------------------------------------------
+const JOIN = {
+    description: _t("Concatenates elements of arrays with delimiter."),
+    args: [
+        arg("delimiter (string)", _t("The character or string to place between each concatenated value.")),
+        arg("value_or_array1 (string, range<string>)", _t("The value or values to be appended using delimiter.")),
+        arg("value_or_array2 (string, range<string>, repeating)", _t("More values to be appended using delimiter.")),
+    ],
+    compute: function (delimiter, ...valuesOrArrays) {
+        const _delimiter = toString(delimiter);
+        return reduceAny(valuesOrArrays, (acc, a) => (acc ? acc + _delimiter : "") + toString(a), "");
+    },
+};
+// -----------------------------------------------------------------------------
+// LEFT
+// -----------------------------------------------------------------------------
+const LEFT = {
+    description: _t("Substring from beginning of specified string."),
+    args: [
+        arg("text (string)", _t("The string from which the left portion will be returned.")),
+        arg("number_of_characters (number, optional)", _t("The number of characters to return from the left side of string.")),
+    ],
+    compute: function (text, ...args) {
+        const _numberOfCharacters = args.length ? toNumber(args[0], this.locale) : 1;
+        assert(() => _numberOfCharacters >= 0, _t("The number_of_characters (%s) must be positive or null.", _numberOfCharacters.toString()));
+        return toString(text).substring(0, _numberOfCharacters);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LEN
+// -----------------------------------------------------------------------------
+const LEN = {
+    description: _t("Length of a string."),
+    args: [arg("text (string)", _t("The string whose length will be returned."))],
+    compute: function (text) {
+        return toString(text).length;
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// LOWER
+// -----------------------------------------------------------------------------
+const LOWER = {
+    description: _t("Converts a specified string to lowercase."),
+    args: [arg("text (string)", _t("The string to convert to lowercase."))],
+    compute: function (text) {
+        return toString(text).toLowerCase();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// MID
+// -----------------------------------------------------------------------------
+const MID = {
+    description: _t("A segment of a string."),
+    args: [
+        arg("text (string)", _t("The string to extract a segment from.")),
+        arg("starting_at (number)", _t("The index from the left of string from which to begin extracting. The first character in string has the index 1.")),
+        arg("extract_length (number)", _t("The length of the segment to extract.")),
+    ],
+    compute: function (text, starting_at, extract_length) {
+        const _text = toString(text);
+        const _starting_at = toNumber(starting_at, this.locale);
+        const _extract_length = toNumber(extract_length, this.locale);
+        assert(() => _starting_at >= 1, _t("The starting_at argument (%s) must be positive greater than one.", _starting_at.toString()));
+        assert(() => _extract_length >= 0, _t("The extract_length argument (%s) must be positive or null.", _extract_length.toString()));
+        return _text.slice(_starting_at - 1, _starting_at + _extract_length - 1);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// PROPER
+// -----------------------------------------------------------------------------
+const PROPER = {
+    description: _t("Capitalizes each word in a specified string."),
+    args: [
+        arg("text_to_capitalize (string)", _t("The text which will be returned with the first letter of each word in uppercase and all other letters in lowercase.")),
+    ],
+    compute: function (text) {
+        const _text = toString(text);
+        return _text.replace(wordRegex, (word) => {
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        });
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// REPLACE
+// -----------------------------------------------------------------------------
+const REPLACE = {
+    description: _t("Replaces part of a text string with different text."),
+    args: [
+        arg("text (string)", _t("The text, a part of which will be replaced.")),
+        arg("position (number)", _t("The position where the replacement will begin (starting from 1).")),
+        arg("length (number)", _t("The number of characters in the text to be replaced.")),
+        arg("new_text (string)", _t("The text which will be inserted into the original text.")),
+    ],
+    compute: function (text, position, length, newText) {
+        const _position = toNumber(position, this.locale);
+        assert(() => _position >= 1, _t("The position (%s) must be greater than or equal to 1.", _position.toString()));
+        const _text = toString(text);
+        const _length = toNumber(length, this.locale);
+        const _newText = toString(newText);
+        return _text.substring(0, _position - 1) + _newText + _text.substring(_position - 1 + _length);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// RIGHT
+// -----------------------------------------------------------------------------
+const RIGHT = {
+    description: _t("A substring from the end of a specified string."),
+    args: [
+        arg("text (string)", _t("The string from which the right portion will be returned.")),
+        arg("number_of_characters (number, optional)", _t("The number of characters to return from the right side of string.")),
+    ],
+    compute: function (text, ...args) {
+        const _numberOfCharacters = args.length ? toNumber(args[0], this.locale) : 1;
+        assert(() => _numberOfCharacters >= 0, _t("The number_of_characters (%s) must be positive or null.", _numberOfCharacters.toString()));
+        const _text = toString(text);
+        const stringLength = _text.length;
+        return _text.substring(stringLength - _numberOfCharacters, stringLength);
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SEARCH
+// -----------------------------------------------------------------------------
+const SEARCH = {
+    description: _t("First position of string found in text, ignoring case."),
+    args: [
+        arg("search_for (string)", _t("The string to look for within text_to_search.")),
+        arg("text_to_search (string)", _t("The text to search for the first occurrence of search_for.")),
+        arg(`starting_at (number, default=${DEFAULT_STARTING_AT})`, _t("The character within text_to_search at which to start the search.")),
+    ],
+    compute: function (searchFor, textToSearch, startingAt = { value: DEFAULT_STARTING_AT }) {
+        const _searchFor = toString(searchFor).toLowerCase();
+        const _textToSearch = toString(textToSearch).toLowerCase();
+        const _startingAt = toNumber(startingAt, this.locale);
+        if (_textToSearch === "") {
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("The text_to_search must be non-empty."),
+            };
+        }
+        if (_startingAt < 1) {
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("The starting_at (%s) must be greater than or equal to 1.", _startingAt),
+            };
+        }
+        const result = _textToSearch.indexOf(_searchFor, _startingAt - 1);
+        if (result === -1) {
+            return {
+                value: CellErrorType.GenericError,
+                message: _t("In [[FUNCTION_NAME]] evaluation, cannot find '%s' within '%s'.", _searchFor, _textToSearch),
+            };
+        }
+        return { value: result + 1 };
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// SPLIT
+// -----------------------------------------------------------------------------
+const SPLIT_DEFAULT_SPLIT_BY_EACH = true;
+const SPLIT_DEFAULT_REMOVE_EMPTY_TEXT = true;
+const SPLIT = {
+    description: _t("Split text by specific character delimiter(s)."),
+    args: [
+        arg("text (string)", _t("The text to divide.")),
+        arg("delimiter (string)", _t("The character or characters to use to split text.")),
+        arg(`split_by_each (boolean, default=${SPLIT_DEFAULT_SPLIT_BY_EACH}})`, _t("Whether or not to divide text around each character contained in delimiter.")),
+        arg(`remove_empty_text (boolean, default=${SPLIT_DEFAULT_REMOVE_EMPTY_TEXT})`, _t("Whether or not to remove empty text messages from the split results. The default behavior is to treat \
+        consecutive delimiters as one (if TRUE). If FALSE, empty cells values are added between consecutive delimiters.")),
+    ],
+    compute: function (text, delimiter, splitByEach = { value: SPLIT_DEFAULT_SPLIT_BY_EACH }, removeEmptyText = { value: SPLIT_DEFAULT_REMOVE_EMPTY_TEXT }) {
+        const _text = toString(text);
+        const _delimiter = escapeRegExp(toString(delimiter));
+        const _splitByEach = toBoolean(splitByEach);
+        const _removeEmptyText = toBoolean(removeEmptyText);
+        assert(() => _delimiter.length > 0, _t("The _delimiter (%s) must be not be empty.", _delimiter));
+        const regex = _splitByEach ? new RegExp(`[${_delimiter}]`, "g") : new RegExp(_delimiter, "g");
+        let result = _text.split(regex);
+        if (_removeEmptyText) {
+            result = result.filter((text) => text !== "");
+        }
+        return transposeMatrix([result]);
+    },
+    isExported: false,
+};
+// -----------------------------------------------------------------------------
+// SUBSTITUTE
+// -----------------------------------------------------------------------------
+const SUBSTITUTE = {
+    description: _t("Replaces existing text with new text in a string."),
+    args: [
+        arg("text_to_search (string)", _t("The text within which to search and replace.")),
+        arg("search_for (string)", _t("The string to search for within text_to_search.")),
+        arg("replace_with (string)", _t("The string that will replace search_for.")),
+        arg("occurrence_number (number, optional)", _t("The instance of search_for within text_to_search to replace with replace_with. By default, all occurrences of search_for are replaced; however, if occurrence_number is specified, only the indicated instance of search_for is replaced.")),
+    ],
+    compute: function (textToSearch, searchFor, replaceWith, occurrenceNumber) {
+        const _occurrenceNumber = toNumber(occurrenceNumber, this.locale);
+        assert(() => _occurrenceNumber >= 0, _t("The occurrenceNumber (%s) must be positive or null.", _occurrenceNumber.toString()));
+        const _textToSearch = toString(textToSearch);
+        const _searchFor = toString(searchFor);
+        if (_searchFor === "") {
+            return _textToSearch;
+        }
+        const _replaceWith = toString(replaceWith);
+        const reg = new RegExp(escapeRegExp(_searchFor), "g");
+        if (_occurrenceNumber === 0) {
+            return _textToSearch.replace(reg, _replaceWith);
+        }
+        let n = 0;
+        return _textToSearch.replace(reg, (text) => (++n === _occurrenceNumber ? _replaceWith : text));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TEXTJOIN
+// -----------------------------------------------------------------------------
+const TEXTJOIN = {
+    description: _t("Combines text from multiple strings and/or arrays."),
+    args: [
+        arg("delimiter (string)", _t(" A string, possible empty, or a reference to a valid string. If empty, the text will be simply concatenated.")),
+        arg("ignore_empty (boolean)", _t("A boolean; if TRUE, empty cells selected in the text arguments won't be included in the result.")),
+        arg("text1 (string, range<string>)", _t("Any text item. This could be a string, or an array of strings in a range.")),
+        arg("text2 (string, range<string>, repeating)", _t("Additional text item(s).")),
+    ],
+    compute: function (delimiter, ignoreEmpty, ...textsOrArrays) {
+        const _delimiter = toString(delimiter);
+        const _ignoreEmpty = toBoolean(ignoreEmpty);
+        let n = 0;
+        return reduceAny(textsOrArrays, (acc, a) => !(_ignoreEmpty && toString(a) === "") ? (n++ ? acc + _delimiter : "") + toString(a) : acc, "");
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TRIM
+// -----------------------------------------------------------------------------
+const TRIM = {
+    description: _t("Removes space characters."),
+    args: [
+        arg("text (string)", _t("The text or reference to a cell containing text to be trimmed.")),
+    ],
+    compute: function (text) {
+        return trimContent(toString(text));
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// UPPER
+// -----------------------------------------------------------------------------
+const UPPER = {
+    description: _t("Converts a specified string to uppercase."),
+    args: [arg("text (string)", _t("The string to convert to uppercase."))],
+    compute: function (text) {
+        return toString(text).toUpperCase();
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// TEXT
+// -----------------------------------------------------------------------------
+const TEXT = {
+    description: _t("Converts a number to text according to a specified format."),
+    args: [
+        arg("number (number)", _t("The number, date or time to format.")),
+        arg("format (string)", _t("The pattern by which to format the number, enclosed in quotation marks.")),
+    ],
+    compute: function (number, format) {
+        const _number = toNumber(number, this.locale);
+        return formatValue(_number, { format: toString(format), locale: this.locale });
+    },
+    isExported: true,
+};
+// -----------------------------------------------------------------------------
+// VALUE
+// -----------------------------------------------------------------------------
+const VALUE = {
+    description: _t("Converts a string to a numeric value."),
+    args: [arg("value (number)", _t("the string to be converted"))],
+    compute: function (value) {
+        return toNumber(value, this.locale);
+    },
+    isExported: true,
+};
+
+var text = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    CHAR: CHAR,
+    CLEAN: CLEAN,
+    CONCATENATE: CONCATENATE,
+    EXACT: EXACT,
+    FIND: FIND,
+    JOIN: JOIN,
+    LEFT: LEFT,
+    LEN: LEN,
+    LOWER: LOWER,
+    MID: MID,
+    PROPER: PROPER,
+    REPLACE: REPLACE,
+    RIGHT: RIGHT,
+    SEARCH: SEARCH,
+    SPLIT: SPLIT,
+    SUBSTITUTE: SUBSTITUTE,
+    TEXT: TEXT,
+    TEXTJOIN: TEXTJOIN,
+    TRIM: TRIM,
+    UPPER: UPPER,
+    VALUE: VALUE
+});
+
+// -----------------------------------------------------------------------------
+// HYPERLINK
+// -----------------------------------------------------------------------------
+const HYPERLINK = {
+    description: _t("Creates a hyperlink in a cell."),
+    args: [
+        arg("url (string)", _t("The full URL of the link enclosed in quotation marks.")),
+        arg("link_label (string, optional)", _t("The text to display in the cell, enclosed in quotation marks.")),
+    ],
+    compute: function (url, linkLabel) {
+        const processedUrl = toString(url).trim();
+        const processedLabel = toString(linkLabel) || processedUrl;
+        if (processedUrl === "")
+            return processedLabel;
+        return markdownLink(processedLabel, processedUrl);
+    },
+    isExported: true,
+};
+
+var web = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    HYPERLINK: HYPERLINK
+});
+
+const categories = [
+    { name: _t("Array"), functions: array },
+    { name: _t("Database"), functions: database },
+    { name: _t("Date"), functions: date },
+    { name: _t("Filter"), functions: filter },
+    { name: _t("Financial"), functions: financial },
+    { name: _t("Info"), functions: info },
+    { name: _t("Lookup"), functions: lookup },
+    { name: _t("Logical"), functions: logical },
+    { name: _t("Math"), functions: math },
+    { name: _t("Misc"), functions: misc },
+    { name: _t("Operator"), functions: operators },
+    { name: _t("Statistical"), functions: statistical },
+    { name: _t("Text"), functions: text },
+    { name: _t("Engineering"), functions: engineering },
+    { name: _t("Web"), functions: web },
+    { name: _t("Parser"), functions: parser },
+];
+const functionNameRegex = /^[A-Z0-9\_\.]+$/;
+class FunctionRegistry extends Registry {
+    mapping = {};
+    add(name, addDescr) {
+        name = name.toUpperCase();
+        if (!functionNameRegex.test(name)) {
+            throw new Error(_t("Invalid function name %s. Function names can exclusively contain alphanumerical values separated by dots (.) or underscore (_)", name));
+        }
+        const descr = addMetaInfoFromArg(addDescr);
+        validateArguments(descr.args);
+        this.mapping[name] = createComputeFunction(descr, name);
+        super.add(name, descr);
+        return this;
+    }
+}
+const functionRegistry = new FunctionRegistry();
+for (let category of categories) {
+    const fns = category.functions;
+    for (let name in fns) {
+        const addDescr = fns[name];
+        addDescr.category = addDescr.category || category.name;
+        name = name.replace(/_/g, ".");
+        functionRegistry.add(name, { isExported: false, ...addDescr });
+    }
+}
+//------------------------------------------------------------------------------
+// CREATE COMPUTE FUNCTION
+//------------------------------------------------------------------------------
+function createComputeFunction(descr, functionName) {
+    function vectorizedCompute(...args) {
+        const acceptToVectorize = [];
+        for (let i = 0; i < args.length; i++) {
+            const argDefinition = descr.args[descr.getArgToFocus(i + 1) - 1];
+            const arg = args[i];
+            if (!isMatrix(arg) && argDefinition.acceptMatrixOnly) {
+                throw new BadExpressionError(_t("Function %s expects the parameter '%s' to be reference to a cell or range.", functionName, (i + 1).toString()));
+            }
+            acceptToVectorize.push(!argDefinition.acceptMatrix);
+        }
+        return replaceErrorPlaceholderInResult(applyVectorization(errorHandlingCompute.bind(this), args, acceptToVectorize));
+    }
+    function replaceErrorPlaceholderInResult(result) {
+        if (!isMatrix(result)) {
+            replaceFunctionNamePlaceholder(result, functionName);
+        }
+        else {
+            matrixForEach(result, (result) => replaceFunctionNamePlaceholder(result, functionName));
+        }
+        return result;
+    }
+    function errorHandlingCompute(...args) {
+        for (let i = 0; i < args.length; i++) {
+            const arg = args[i];
+            const argDefinition = descr.args[descr.getArgToFocus(i + 1) - 1];
+            // Early exit if the argument is an error and the function does not accept errors
+            // We only check scalar arguments, not matrix arguments for performance reasons.
+            // Casting helpers are responsible for handling errors in matrix arguments.
+            if (!argDefinition.acceptErrors && !isMatrix(arg) && isEvaluationError(arg?.value)) {
+                return arg;
+            }
+        }
+        try {
+            return computeFunctionToObject.apply(this, args);
+        }
+        catch (e) {
+            return handleError(e, functionName);
+        }
+    }
+    function computeFunctionToObject(...args) {
+        const result = descr.compute.apply(this, args);
+        if (!isMatrix(result)) {
+            if (typeof result === "object" && result !== null && "value" in result) {
+                return result;
+            }
+            return { value: result };
+        }
+        if (typeof result[0][0] === "object" && result[0][0] !== null && "value" in result[0][0]) {
+            return result;
+        }
+        return matrixMap(result, (row) => ({ value: row }));
+    }
+    return vectorizedCompute;
+}
+function handleError(e, functionName) {
+    // the error could be an user error (instance of EvaluationError)
+    // or a javascript error (instance of Error)
+    // we don't want block the user with an implementation error
+    // so we fallback to a generic error
+    if (hasStringValue(e) && isEvaluationError(e.value)) {
+        if (hasStringMessage(e)) {
+            replaceFunctionNamePlaceholder(e, functionName);
+        }
+        return e;
+    }
+    console.error(e);
+    return new EvaluationError(implementationErrorMessage + (hasStringMessage(e) ? " " + e.message : ""));
+}
+function hasStringValue(obj) {
+    return (obj?.value !== undefined &&
+        typeof obj.value === "string");
+}
+function replaceFunctionNamePlaceholder(functionResult, functionName) {
+    // for performance reasons: change in place and only if needed
+    if (functionResult.message?.includes("[[FUNCTION_NAME]]")) {
+        functionResult.message = functionResult.message.replace("[[FUNCTION_NAME]]", functionName);
+    }
+}
+const implementationErrorMessage = _t("An unexpected error occurred. Submit a support ticket at odoo.com/help.");
+function hasStringMessage(obj) {
+    return (obj?.message !== undefined &&
+        typeof obj.message === "string");
+}
+
 >>>>>>> upstream/18.0
 autoCompleteProviders.add("functions", {
     sequence: 100,
@@ -191360,11 +201303,14 @@ class DOMFocusableElementStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mutators = ["setFocusableElement"];
     focusableElement = undefined;
     setFocusableElement(element) {
         this.focusableElement = element;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192184,6 +202130,9 @@ class DOMFocusableElementStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -193561,6 +203510,7 @@ class FunctionDescriptionProvider extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const functions$2 = functionRegistry.content;
 =======
 const functions = functionRegistry.content;
@@ -194186,6 +204136,9 @@ const functions = functionRegistry.content;
 =======
 const functions = functionRegistry.content;
 >>>>>>> upstream/18.0
+=======
+const functions$2 = functionRegistry.content;
+>>>>>>> upstream/18.0
 const ASSISTANT_WIDTH = 300;
 const CLOSE_ICON_RADIUS = 9;
 const selectionIndicatorClass = "selector-flag";
@@ -194667,7 +204620,11 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.DOMFocusableElementStore.focusableElement?.focus();
+=======
+                this.DOMFocusableElementStore.focus();
+>>>>>>> upstream/18.0
 =======
                 this.DOMFocusableElementStore.focus();
 >>>>>>> upstream/18.0
@@ -195841,7 +205798,10 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.composerStore.stopComposerRangeSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -196351,6 +206311,7 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.assistant.forcedClosed = true;
     }
     openAssistant() {
@@ -196545,6 +206506,8 @@ class Composer extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197175,6 +207138,9 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -197867,6 +207833,7 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -197991,6 +207958,11 @@ class Composer extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    get canBeToggled() {
+        return this.autoCompleteState.provider?.canBeToggled ?? true;
+    }
 >>>>>>> upstream/18.0
 =======
     get canBeToggled() {
@@ -199409,10 +209381,14 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
                 parentFunction in functions$2 &&
                 token.type !== "UNKNOWN") {
                 // initialize Formula Assistant
                 const description = functions$2[parentFunction];
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -200454,6 +210430,8 @@ class Composer extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 const argPosition = tokenContext.argPosition;
                 this.functionDescriptionState.functionName = parentFunction;
                 this.functionDescriptionState.functionDescription = description;
@@ -200671,7 +210649,11 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!value || this.assistant.forcedClosed) {
+=======
+        if (!value || (this.assistant.forcedClosed && this.canBeToggled)) {
+>>>>>>> upstream/18.0
 =======
         if (!value || (this.assistant.forcedClosed && this.canBeToggled)) {
 >>>>>>> upstream/18.0
@@ -201511,6 +211493,9 @@ class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 class FunctionCodeBuilder {
     scope;
     code = "";
@@ -201900,6 +211885,9 @@ function getFunctionsFromAST(ast, functionNames) {
     }));
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -202490,7 +212478,10 @@ function insertTokenAfterArgSeparator(tokenAtCursor, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.composer.stopComposerRangeSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -202910,7 +212901,10 @@ function insertTokenAfterLeftParenthesis(tokenAtCursor, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     this.composer.stopComposerRangeSelection();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204205,7 +214199,11 @@ class GaugeChartComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [rect.width, rect.height, this.runtime, this.canvas.el];
+=======
+            return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
+>>>>>>> upstream/18.0
 =======
             return [rect.width, rect.height, this.runtime, this.canvas.el, window.devicePixelRatio];
 >>>>>>> upstream/18.0
@@ -205475,9 +215473,12 @@ class BarChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated)
             return undefined;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -206414,6 +216415,10 @@ function getChartTimeOptions(labels, labelFormat, locale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tooltipFormat: luxonFormat,
+>>>>>>> upstream/18.0
 =======
         tooltipFormat: luxonFormat,
 >>>>>>> upstream/18.0
@@ -207641,10 +217646,13 @@ class ComboChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated) {
             return undefined;
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208482,7 +218490,11 @@ class GaugeChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dataRange: context.range ? context.range[0].dataRange : undefined,
+=======
+            dataRange: context.range?.[0]?.dataRange,
+>>>>>>> upstream/18.0
 =======
             dataRange: context.range?.[0]?.dataRange,
 >>>>>>> upstream/18.0
@@ -209457,9 +219469,12 @@ class LineChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated)
             return undefined;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -210413,9 +220428,12 @@ class PieChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated)
             return undefined;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -211490,7 +221508,11 @@ function createPyramidChartRuntime(chart, getters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     config.options.plugins.chartShowValuesPlugin.callback = (x) => callback(Math.abs(x));
+=======
+    config.options.plugins.chartShowValuesPlugin.callback = (value, dataset, index) => callback(Math.abs(value), dataset, index);
+>>>>>>> upstream/18.0
 =======
     config.options.plugins.chartShowValuesPlugin.callback = (value, dataset, index) => callback(Math.abs(value), dataset, index);
 >>>>>>> upstream/18.0
@@ -212538,10 +222560,13 @@ class ScatterChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Excel does not support aggregating labels
         if (this.aggregated) {
             return undefined;
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -213373,7 +223398,11 @@ class WaterfallChart extends AbstractChart {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat) {
+=======
+function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat, dataSetsValues) {
+>>>>>>> upstream/18.0
 =======
 function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat, dataSetsValues) {
 >>>>>>> upstream/18.0
@@ -214450,11 +224479,14 @@ function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     config.options.plugins.chartShowValuesPlugin = {
         showValues: chart.showValues,
         background: chart.background,
         callback: formatTickValue(localeFormat),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -215206,6 +225238,9 @@ function getWaterfallConfiguration(chart, labels, dataSeriesLabels, localeFormat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -215963,10 +225998,14 @@ function createWaterfallChartRuntime(chart, getters) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const config = getWaterfallConfiguration(chart, labels, dataSeriesLabels, {
         format: dataSetFormat,
         locale,
     });
+=======
+    const config = getWaterfallConfiguration(chart, labels, dataSeriesLabels, { format: dataSetFormat, locale }, dataSetsValues);
+>>>>>>> upstream/18.0
 =======
     const config = getWaterfallConfiguration(chart, labels, dataSeriesLabels, { format: dataSetFormat, locale }, dataSetsValues);
 >>>>>>> upstream/18.0
@@ -217131,7 +227170,10 @@ class ChartFigure extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: Function,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -217533,7 +227575,10 @@ class ImageFigure extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: Function,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -217969,7 +228014,11 @@ figureRegistry.add("image", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getChartMenu(figureId, onFigureDeleted, env) {
+=======
+function getChartMenu(figureId, env) {
+>>>>>>> upstream/18.0
 =======
 function getChartMenu(figureId, env) {
 >>>>>>> upstream/18.0
@@ -218487,12 +228536,15 @@ function getChartMenu(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         getDeleteMenuItem(figureId, onFigureDeleted, env),
     ];
     return createActions(menuItemSpecs);
 }
 function getImageMenuRegistry(figureId, onFigureDeleted, env) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -218873,6 +228925,9 @@ function getImageMenuRegistry(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219275,7 +229330,11 @@ function getImageMenuRegistry(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         getDeleteMenuItem(figureId, onFigureDeleted, env),
+=======
+        getDeleteMenuItem(figureId, env),
+>>>>>>> upstream/18.0
 =======
         getDeleteMenuItem(figureId, env),
 >>>>>>> upstream/18.0
@@ -219811,7 +229870,11 @@ function getCutMenuItem(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 function getDeleteMenuItem(figureId, onFigureDeleted, env) {
+=======
+function getDeleteMenuItem(figureId, env) {
+>>>>>>> upstream/18.0
 =======
 function getDeleteMenuItem(figureId, env) {
 >>>>>>> upstream/18.0
@@ -220325,7 +230388,10 @@ function getDeleteMenuItem(figureId, env) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             onFigureDeleted();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -221062,6 +231128,7 @@ class HoveredCellStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.col = position.col;
         this.row = position.row;
     }
@@ -221069,6 +231136,8 @@ class HoveredCellStore extends SpreadsheetStore {
         this.col = undefined;
         this.row = undefined;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -221890,6 +231959,9 @@ class HoveredCellStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -222720,8 +232792,11 @@ class CellPopoverStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.persistentPopover = undefined;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223534,6 +233609,9 @@ class CellPopoverStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -224811,6 +234889,7 @@ class FilterMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const strValues = [...cellValues, ...filterValues];
         const normalizedFilteredValues = filterValues.map(toLowerCase);
         // Set with lowercase values to avoid duplicates
@@ -224825,6 +234904,8 @@ class FilterMenu extends Component {
             };
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -225562,6 +235643,9 @@ class FilterMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -226576,11 +236660,14 @@ const duplicateSheet = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const sheetIdTo = env.model.uuidGenerator.smallUuid();
         env.model.dispatch("DUPLICATE_SHEET", {
             sheetId: sheetIdFrom,
             sheetIdTo,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -227398,6 +237485,9 @@ const duplicateSheet = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228286,6 +238376,7 @@ function useInterval(callback, delay) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     useEffect(() => {
         intervalId = setInterval(callback, delay);
         return () => clearInterval(intervalId);
@@ -228299,6 +238390,8 @@ function useInterval(callback, delay) {
             if (intervalId === undefined) {
                 intervalId = setInterval(callback, delay);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -229161,6 +239254,9 @@ function useInterval(callback, delay) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -230714,7 +240810,10 @@ const CAN_REMOVE_COLUMNS_ROWS = (dimension, env) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -231415,6 +241514,9 @@ const CAN_REMOVE_COLUMNS_ROWS = (dimension, env) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -233193,7 +243295,11 @@ const reinsertDynamicPivotMenu = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sequence: 1020,
+=======
+    sequence: 60,
+>>>>>>> upstream/18.0
 =======
     sequence: 60,
 >>>>>>> upstream/18.0
@@ -234033,7 +244139,11 @@ const reinsertStaticPivotMenu = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sequence: 1020,
+=======
+    sequence: 70,
+>>>>>>> upstream/18.0
 =======
     sequence: 70,
 >>>>>>> upstream/18.0
@@ -236439,8 +246549,14 @@ topbarMenuRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .addChild("data_sources_data", ["data"], (env) => {
     const sequence = 50;
+=======
+    .addChild("pivot_data_sources", ["data"], (env) => {
+    const sequence = 50;
+    const numberOfPivots = env.model.getters.getPivotIds().length;
+>>>>>>> upstream/18.0
 =======
     .addChild("pivot_data_sources", ["data"], (env) => {
     const sequence = 50;
@@ -237698,7 +247814,11 @@ topbarMenuRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sequence: sequence + index,
+=======
+            sequence: sequence + index / numberOfPivots,
+>>>>>>> upstream/18.0
 =======
             sequence: sequence + index / numberOfPivots,
 >>>>>>> upstream/18.0
@@ -238577,12 +248697,15 @@ class OTRegistry extends Registry {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let toTransform of toTransforms) {
             if (!this.content[toTransform]) {
                 this.content[toTransform] = new Map();
             }
             this.content[toTransform].set(executed, fn);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -239284,6 +249407,9 @@ class OTRegistry extends Registry {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -239990,7 +250116,11 @@ class OTRegistry extends Registry {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.content[toTransform] && this.content[toTransform].get(executed);
+=======
+        return this.content[executed] && this.content[executed].get(toTransform);
+>>>>>>> upstream/18.0
 =======
         return this.content[executed] && this.content[executed].get(toTransform);
 >>>>>>> upstream/18.0
@@ -242329,7 +252459,11 @@ class ColorPicker extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const val = ev.target.value.slice(0, 7);
+=======
+        const val = ev.target.value.replace("##", "#").slice(0, 7);
+>>>>>>> upstream/18.0
 =======
         const val = ev.target.value.replace("##", "#").slice(0, 7);
 >>>>>>> upstream/18.0
@@ -244709,6 +254843,7 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         this.editionMode = "editing";
 >>>>>>> upstream/18.0
@@ -244732,6 +254867,9 @@ class AbstractComposerStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
         this.editionMode = "editing";
+>>>>>>> upstream/18.0
+=======
+        this.stopComposerRangeSelection();
 >>>>>>> upstream/18.0
 =======
         this.stopComposerRangeSelection();
@@ -245637,7 +255775,11 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.getters.getSheetName(activeSheetId) !== sheetName) {
+=======
+            if (!isSheetNameEqual(this.getters.getSheetName(activeSheetId), sheetName)) {
+>>>>>>> upstream/18.0
 =======
             if (!isSheetNameEqual(this.getters.getSheetName(activeSheetId), sheetName)) {
 >>>>>>> upstream/18.0
@@ -246801,6 +256943,10 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    canBeToggled: provider.canBeToggled,
+>>>>>>> upstream/18.0
 =======
                     canBeToggled: provider.canBeToggled,
 >>>>>>> upstream/18.0
@@ -247435,6 +257581,7 @@ class AbstractComposerStore extends SpreadsheetStore {
                 proposals &&
                 !["ARG_SEPARATOR", "LEFT_PAREN", "OPERATOR"].includes(tokenAtCursor.type)) {
                 const filteredProposals = fuzzyLookup(searchTerm, proposals, (p) => p.fuzzySearchKey || p.text);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248464,6 +258611,9 @@ class AbstractComposerStore extends SpreadsheetStore {
 =======
                 if (!exactMatch || filteredProposals.length) {
 >>>>>>> upstream/18.0
+=======
+                if (!exactMatch || filteredProposals.length) {
+>>>>>>> upstream/18.0
                     proposals = filteredProposals;
                 }
             }
@@ -248683,6 +258833,10 @@ class AbstractComposerStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    canBeToggled: provider.canBeToggled,
+>>>>>>> upstream/18.0
 =======
                     canBeToggled: provider.canBeToggled,
 >>>>>>> upstream/18.0
@@ -249633,6 +259787,10 @@ class StandaloneComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        let content = this._currentContent;
+>>>>>>> upstream/18.0
 =======
         let content = this._currentContent;
 >>>>>>> upstream/18.0
@@ -250690,7 +260848,11 @@ class StandaloneComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return rangeTokenize(this.args().content)
+=======
+            content = rangeTokenize(this.args().content)
+>>>>>>> upstream/18.0
 =======
             content = rangeTokenize(this.args().content)
 >>>>>>> upstream/18.0
@@ -251752,7 +261914,11 @@ class StandaloneComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this._currentContent;
+=======
+        return localizeContent(content, this.getters.getLocale());
+>>>>>>> upstream/18.0
 =======
         return localizeContent(content, this.getters.getLocale());
 >>>>>>> upstream/18.0
@@ -253119,7 +263285,11 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   .o-cf-preview {
+=======
+  .o-spreadsheet .o-cf-preview {
+>>>>>>> upstream/18.0
 =======
   .o-spreadsheet .o-cf-preview {
 >>>>>>> upstream/18.0
@@ -253577,8 +263747,14 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 60px;
     padding: 10px;
+=======
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+>>>>>>> upstream/18.0
 =======
     height: 80px;
     padding: 10px;
@@ -254270,7 +264446,10 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       position: absolute;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -254618,12 +264797,15 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       left: 65px;
       margin-bottom: auto;
       margin-right: 8px;
       margin-top: auto;
       position: relative;
       width: 142px;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -254972,11 +265154,14 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .o-cf-delete {
       left: 90%;
       top: 39%;
       position: absolute;
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -255320,7 +265505,11 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       left: -8px;
+=======
+      left: 2px;
+>>>>>>> upstream/18.0
 =======
       left: 2px;
 >>>>>>> upstream/18.0
@@ -256643,7 +266832,11 @@ dataValidationEvaluatorRegistry.add("dateIs", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const today = jsDateToRoundNumber(DateTime.now());
+=======
+            const today = Math.floor(jsDateToNumber(DateTime.now()));
+>>>>>>> upstream/18.0
 =======
             const today = Math.floor(jsDateToNumber(DateTime.now()));
 >>>>>>> upstream/18.0
@@ -258013,6 +268206,7 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     setup() {
         if (this.props.rule) {
             const sheetId = this.env.model.getters.getActiveSheetId();
@@ -258020,6 +268214,8 @@ class DataValidationEditor extends Component {
                 ...this.props.rule,
                 ranges: this.props.rule.ranges.map((range) => this.env.model.getters.getRangeString(range, sheetId)),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -258543,6 +268739,9 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -259094,7 +269293,10 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const sheetId = this.env.model.getters.getActiveSheetId();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -259621,8 +269823,13 @@ class DataValidationEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             sheetId,
             ranges: this.state.rule.ranges.map((xc) => this.env.model.getters.getRangeDataFromXc(sheetId, xc)),
+=======
+            sheetId: this.editingSheetId,
+            ranges: this.state.rule.ranges.map((xc) => this.env.model.getters.getRangeDataFromXc(this.editingSheetId, xc)),
+>>>>>>> upstream/18.0
 =======
             sheetId: this.editingSheetId,
             ranges: this.state.rule.ranges.map((xc) => this.env.model.getters.getRangeDataFromXc(this.editingSheetId, xc)),
@@ -260611,7 +270818,10 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -260863,6 +271073,7 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -260909,6 +271120,8 @@ class FindAndReplaceStore extends SpreadsheetStore {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -261093,6 +271306,9 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -261630,6 +271846,10 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.preserveSelectedMatchIndex = true;
+>>>>>>> upstream/18.0
 =======
         this.preserveSelectedMatchIndex = true;
 >>>>>>> upstream/18.0
@@ -262620,7 +272840,11 @@ class FindAndReplaceStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.selectNextCell(Direction.next);
+=======
+        this.preserveSelectedMatchIndex = false;
+>>>>>>> upstream/18.0
 =======
         this.preserveSelectedMatchIndex = false;
 >>>>>>> upstream/18.0
@@ -263667,10 +273891,13 @@ class FindAndReplacePanel extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get pendingSearch() {
         return this.updateSearchContent.isDebouncePending();
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -263931,6 +274158,9 @@ class FindAndReplacePanel extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -264989,6 +275219,7 @@ class PivotMeasureEditor extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     get isCalculatedMeasureInvalid() {
         return this.env.model.getters.getMeasureCompiledFormula(this.props.measure).isBadExpression;
@@ -265302,6 +275533,11 @@ class PivotMeasureEditor extends Component {
 =======
     get isCalculatedMeasureInvalid() {
         return this.env.model.getters.getMeasureCompiledFormula(this.props.measure).isBadExpression;
+    }
+>>>>>>> upstream/18.0
+=======
+    get isCalculatedMeasureInvalid() {
+        return compile(this.props.measure.computedBy?.formula ?? "").isBadExpression;
     }
 >>>>>>> upstream/18.0
 =======
@@ -266689,7 +276925,11 @@ class PivotLayoutConfigurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const baseId = fieldName + (aggregator ? `:${aggregator}` : "");
+=======
+        const baseId = fieldName.replaceAll("'", "") + (aggregator ? `:${aggregator}` : "");
+>>>>>>> upstream/18.0
 =======
         const baseId = fieldName.replaceAll("'", "") + (aggregator ? `:${aggregator}` : "");
 >>>>>>> upstream/18.0
@@ -267529,6 +277769,7 @@ class PivotLayoutConfigurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.onDimensionsUpdated({
             measures: measures.concat([
                 {
@@ -267536,6 +277777,8 @@ class PivotLayoutConfigurator extends Component {
                     fieldName: measureName,
                     aggregator: "sum",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -268140,6 +278383,9 @@ class PivotLayoutConfigurator extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -269509,7 +279755,13 @@ function compareDimensionValues(dimension, a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return dimension.order === "asc" ? Number(a) - Number(b) : Number(b) - Number(a);
+=======
+        return dimension.order === "asc"
+            ? toNumber(a, DEFAULT_LOCALE) - toNumber(b, DEFAULT_LOCALE)
+            : toNumber(b, DEFAULT_LOCALE) - toNumber(a, DEFAULT_LOCALE);
+>>>>>>> upstream/18.0
 =======
         return dimension.order === "asc"
             ? toNumber(a, DEFAULT_LOCALE) - toNumber(b, DEFAULT_LOCALE)
@@ -271072,8 +281324,13 @@ function createDate(dimension, value, locale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const granularity = dimension.granularity;
     if (!granularity || !(granularity in MAP_VALUE_DIMENSION_DATE)) {
+=======
+    const granularity = dimension.granularity || "month";
+    if (!(granularity in MAP_VALUE_DIMENSION_DATE)) {
+>>>>>>> upstream/18.0
 =======
     const granularity = dimension.granularity || "month";
     if (!(granularity in MAP_VALUE_DIMENSION_DATE)) {
@@ -272447,6 +282704,12 @@ function createDate(dimension, value, locale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                case "month":
+                    number = Math.floor(toNumber(value, locale));
+                    break;
+>>>>>>> upstream/18.0
 =======
                 case "month":
                     number = Math.floor(toNumber(value, locale));
@@ -274166,7 +284429,10 @@ const MAP_VALUE_DIMENSION_DATE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -274981,6 +285247,9 @@ const MAP_VALUE_DIMENSION_DATE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -275732,6 +286001,7 @@ class SpreadsheetPivot {
         const cells = this.filterDataEntriesFromDomain(this.dataEntries, domain);
         const finalCell = cells[0]?.[dimension.nameWithGranularity];
         if (dimension.type === "datetime") {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276817,6 +287087,9 @@ class SpreadsheetPivot {
 =======
             const adapter = pivotTimeAdapter((dimension.granularity || "month"));
 >>>>>>> upstream/18.0
+=======
+            const adapter = pivotTimeAdapter((dimension.granularity || "month"));
+>>>>>>> upstream/18.0
             return adapter.toValueAndFormat(lastNode.value, this.getters.getLocale());
         }
         if (!finalCell) {
@@ -277036,10 +287309,14 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             value: finalCell.value,
             format: finalCell.format,
         };
+=======
+        return finalCell;
+>>>>>>> upstream/18.0
 =======
         return finalCell;
 >>>>>>> upstream/18.0
@@ -277973,10 +288250,13 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { field, value } = domain;
         const { nameWithGranularity } = this.getDimension(field);
         return dataEntries.filter((entry) => entry[nameWithGranularity]?.value === value);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -278607,6 +288887,9 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -279028,6 +289311,7 @@ class SpreadsheetPivot {
     }
     getTypeFromZone(sheetId, zone) {
         const cells = this.getters.getEvaluatedCellsInZone(sheetId, zone);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279887,6 +290171,8 @@ class SpreadsheetPivot {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const nonEmptyCells = cells.filter((cell) => !(cell.type === CellValueType.empty || cell.value === ""));
         if (nonEmptyCells.length === 0) {
             return "integer";
@@ -280120,6 +290406,9 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -280657,6 +290946,7 @@ class SpreadsheetPivot {
                     entry[field.name] = { value: null, type: CellValueType.empty, formattedValue: "" };
                 }
                 else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -281775,6 +292065,9 @@ class SpreadsheetPivot {
 =======
                     entry[field.name] = cell;
 >>>>>>> upstream/18.0
+=======
+                    entry[field.name] = cell;
+>>>>>>> upstream/18.0
                 }
             }
             entry["__count"] = { value: 1, type: CellValueType.number, formattedValue: "1" };
@@ -282059,7 +292352,11 @@ class SpreadsheetPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const adapter = pivotTimeAdapter(dimension.granularity);
+=======
+                    const adapter = pivotTimeAdapter((dimension.granularity || "month"));
+>>>>>>> upstream/18.0
 =======
                     const adapter = pivotTimeAdapter((dimension.granularity || "month"));
 >>>>>>> upstream/18.0
@@ -283163,6 +293460,10 @@ const dateGranularities = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "month",
+>>>>>>> upstream/18.0
 =======
     "month",
 >>>>>>> upstream/18.0
@@ -283981,6 +294282,7 @@ const dateGranularities = [
     "day",
     "day_of_week",
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284877,6 +295179,8 @@ pivotRegistry.add("SPREADSHEET", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const datetimeGranularities = [
     ...dateGranularities,
     "hour_number",
@@ -284917,6 +295221,9 @@ pivotRegistry.add("SPREADSHEET", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -285115,6 +295422,9 @@ function adaptPivotRange(range, applyChange) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -285569,7 +295879,11 @@ class PivotSidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const granularity = unusedGranularities[dimension.fieldName]?.values().next().value || "year";
+=======
+                const granularity = unusedGranularities[dimension.fieldName]?.values().next().value;
+>>>>>>> upstream/18.0
 =======
                 const granularity = unusedGranularities[dimension.fieldName]?.values().next().value;
 >>>>>>> upstream/18.0
@@ -285677,6 +295991,7 @@ class PivotSidePanelStore extends SpreadsheetStore {
                 : this.datetimeGranularities);
         }
         for (const field of dateFields) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -286677,6 +296992,9 @@ class PivotSidePanelStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
             granularitiesPerFields[field.fieldName].delete(field.granularity || "month");
+>>>>>>> upstream/18.0
+=======
+            granularitiesPerFields[field.fieldName].delete(field.granularity);
 >>>>>>> upstream/18.0
 =======
             granularitiesPerFields[field.fieldName].delete(field.granularity);
@@ -288277,7 +298595,10 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: { type: Function, optional: true },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -288661,7 +298982,10 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: () => { },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289113,9 +299437,12 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onWillUnmount(() => {
             this.props.onFigureDeleted();
         });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289511,7 +299838,10 @@ class FigureComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.props.onFigureDeleted();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289827,6 +300157,7 @@ class FigureComponent extends Component {
         this.menuState.position = position;
         this.menuState.menuItems = figureRegistry
             .get(this.props.figure.tag)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290332,6 +300663,9 @@ class FigureComponent extends Component {
 =======
             .menuBuilder(this.props.figure.id, this.env);
 >>>>>>> upstream/18.0
+=======
+            .menuBuilder(this.props.figure.id, this.env);
+>>>>>>> upstream/18.0
     }
 }
 
@@ -290444,6 +300778,7 @@ class ArrayFormulaHighlight extends SpreadsheetStore {
         this.highlightStore.register(this);
     }
     get highlights() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291043,6 +301378,11 @@ class ArrayFormulaHighlight extends SpreadsheetStore {
         const spreader = this.model.getters.getArrayFormulaSpreadingOn(position);
         const zone = spreader
 >>>>>>> upstream/18.0
+=======
+        const position = this.model.getters.getActivePosition();
+        const spreader = this.model.getters.getArrayFormulaSpreadingOn(position);
+        const zone = spreader
+>>>>>>> upstream/18.0
             ? this.model.getters.getSpreadZone(spreader, { ignoreSpillError: true })
             : this.model.getters.getSpreadZone(position, { ignoreSpillError: true });
         if (!zone) {
@@ -291147,6 +301487,10 @@ class ArrayFormulaHighlight extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const isArrayFormulaBlocked = this.model.getters.isArrayFormulaSpillBlocked(spreader ?? position);
+>>>>>>> upstream/18.0
 =======
         const isArrayFormulaBlocked = this.model.getters.isArrayFormulaSpillBlocked(spreader ?? position);
 >>>>>>> upstream/18.0
@@ -291547,7 +301891,11 @@ class ArrayFormulaHighlight extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 dashed: cell.value === CellErrorType.SpilledBlocked,
+=======
+                dashed: isArrayFormulaBlocked,
+>>>>>>> upstream/18.0
 =======
                 dashed: isArrayFormulaBlocked,
 >>>>>>> upstream/18.0
@@ -292088,6 +302436,7 @@ class CellComposerStore extends AbstractComposerStore {
         if (!spreader) {
             return undefined;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293118,6 +303467,9 @@ class CellComposerStore extends AbstractComposerStore {
 =======
         return this.getters.getCellText(spreader, { showFormula: true });
 >>>>>>> upstream/18.0
+=======
+        return this.getters.getCellText(spreader, { showFormula: true });
+>>>>>>> upstream/18.0
     }
     get currentEditedCell() {
         return {
@@ -293264,8 +303616,11 @@ class CellComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const evaluated = this.getters.evaluateFormula(this.sheetId, content);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -293406,6 +303761,9 @@ class CellComposerStore extends AbstractComposerStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -293787,7 +304145,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -294414,6 +304775,9 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -295066,7 +305430,11 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { col, row, sheetId } = this.composerStore.currentEditedCell;
+=======
+        const { col, row, sheetId } = this.currentEditedCell;
+>>>>>>> upstream/18.0
 =======
         const { col, row, sheetId } = this.currentEditedCell;
 >>>>>>> upstream/18.0
@@ -295980,6 +306348,11 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Remove the wrapper border width
+        const maxHeight = this.props.gridDims.height - this.rect.y - 2 * COMPOSER_BORDER_WIDTH;
+>>>>>>> upstream/18.0
 =======
         // Remove the wrapper border width
         const maxHeight = this.props.gridDims.height - this.rect.y - 2 * COMPOSER_BORDER_WIDTH;
@@ -297352,6 +307725,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            inputStyle: `max-height: ${maxHeight}px;`,
+>>>>>>> upstream/18.0
 =======
             inputStyle: `max-height: ${maxHeight}px;`,
 >>>>>>> upstream/18.0
@@ -298427,6 +308804,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        let shouldRecomputeRect = isEditing && !deepEquals(this.currentEditedCell, this.composerStore.currentEditedCell);
+>>>>>>> upstream/18.0
 =======
         let shouldRecomputeRect = isEditing && !deepEquals(this.currentEditedCell, this.composerStore.currentEditedCell);
 >>>>>>> upstream/18.0
@@ -299265,7 +309646,10 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -299891,6 +310275,9 @@ class GridComposer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -300939,9 +311326,13 @@ class FiguresContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = {
         onFigureDeleted: Function,
     };
+=======
+    static props = {};
+>>>>>>> upstream/18.0
 =======
     static props = {};
 >>>>>>> upstream/18.0
@@ -301802,10 +312193,16 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static props = {
         focusGrid: Function,
     };
     static components = { ValidationMessages };
+=======
+    static props = {};
+    static components = { ValidationMessages };
+    DOMFocusableElementStore;
+>>>>>>> upstream/18.0
 =======
     static props = {};
     static components = { ValidationMessages };
@@ -302568,6 +312965,10 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.DOMFocusableElementStore = useStore(DOMFocusableElementStore);
+>>>>>>> upstream/18.0
 =======
         this.DOMFocusableElementStore = useStore(DOMFocusableElementStore);
 >>>>>>> upstream/18.0
@@ -303089,7 +313490,11 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.props.focusGrid();
+=======
+            this.focusDefaultElement();
+>>>>>>> upstream/18.0
 =======
             this.focusDefaultElement();
 >>>>>>> upstream/18.0
@@ -303619,7 +314024,11 @@ class GridAddRowsFooter extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.focusGrid();
+=======
+        this.focusDefaultElement();
+>>>>>>> upstream/18.0
 =======
         this.focusDefaultElement();
 >>>>>>> upstream/18.0
@@ -304010,6 +314419,7 @@ class GridAddRowsFooter extends Component {
         if (this.inputRef.el !== document.activeElement || ev.target === this.inputRef.el) {
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -304708,6 +315118,8 @@ class PaintFormatStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.focusDefaultElement();
     }
     focusDefaultElement() {
@@ -304842,6 +315254,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -305331,6 +315746,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -306047,6 +316465,7 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copyFormats() {
         const sheetId = this.getters.getActiveSheetId();
         const zones = this.getters.getSelectedZones();
@@ -306054,6 +316473,8 @@ class PaintFormatStore extends SpreadsheetStore {
         for (const handler of this.clipboardHandlers) {
             Object.assign(copiedData, handler.copy(getClipboardDataPositions(sheetId, zones)));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -306756,6 +317177,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -307217,6 +317641,7 @@ class PaintFormatStore extends SpreadsheetStore {
         return copiedData;
     }
     paintFormat(sheetId, target) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -307911,6 +318336,8 @@ class PaintFormatStore extends SpreadsheetStore {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!this.copiedData) {
             return;
         }
@@ -308149,6 +318576,9 @@ class PaintFormatStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -308711,6 +319141,7 @@ function useCellHovered(env, gridRef, callback) {
     }
     return hoveredPosition;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -309626,6 +320057,8 @@ function useTouchMove(gridRef, handler, canMoveUp) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 class GridOverlay extends Component {
     static template = "o-spreadsheet-GridOverlay";
     static props = {
@@ -309760,7 +320193,10 @@ class GridOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: { type: Function, optional: true },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -310154,7 +320590,10 @@ class GridOverlay extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted: () => { },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -310429,6 +320868,7 @@ class GridOverlay extends Component {
         onWillUnmount(() => {
             resizeObserver.disconnect();
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -311315,6 +321755,8 @@ class GridOverlay extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.cellPopovers = useStore(CellPopoverStore);
         this.paintFormatStore = useStore(PaintFormatStore);
     }
@@ -311587,8 +322029,11 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.state.isResizing || this.state.isMoving || this.state.isSelecting) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -311992,6 +322437,9 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -312445,7 +322893,10 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -312849,6 +323300,9 @@ class AbstractResizer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -313499,7 +323953,11 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     right: 0;
+=======
+    right: ${SCROLLBAR_WIDTH}px;
+>>>>>>> upstream/18.0
 =======
     right: ${SCROLLBAR_WIDTH}px;
 >>>>>>> upstream/18.0
@@ -314789,9 +325247,14 @@ css /* scss */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     right: 0;
     width: ${HEADER_WIDTH}px;
     height: calc(100% - ${HEADER_HEIGHT + SCROLLBAR_WIDTH}px);
+=======
+    bottom: ${SCROLLBAR_WIDTH}px;
+    width: ${HEADER_WIDTH}px;
+>>>>>>> upstream/18.0
 =======
     bottom: ${SCROLLBAR_WIDTH}px;
     width: ${HEADER_WIDTH}px;
@@ -316239,9 +326702,12 @@ class RowResizer extends AbstractResizer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!result.isSuccessful && result.reasons.includes("WillRemoveExistingMerge" /* CommandResult.WillRemoveExistingMerge */)) {
             this.env.raiseError(MergeErrorMessage);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -316870,6 +327336,9 @@ class RowResizer extends AbstractResizer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -317914,6 +328383,7 @@ class GridRenderer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const maxWidth = width - 2 * MIN_CELL_TEXT_MARGIN;
 =======
         // we want to give priority to the style, so if there is one we don't fill with white spaces
@@ -318037,6 +328507,8 @@ class GridRenderer {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const maxWidth = width - 2 * MIN_CELL_TEXT_MARGIN;
         const formatWidth = style.align ? 0 : maxWidth;
         const multiLineText = this.getters.getCellMultiLineText(position, {
@@ -318054,6 +328526,9 @@ class GridRenderer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -318510,10 +328985,13 @@ function useGridDrawing(refName, model, canvasSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // @ts-ignore 'drawLayer' is not declated as a mutator because:
             // it does not mutate anything. Most importantly it's used
             // during rendering. Invoking a mutator during rendering would
             // trigger another rendering, ultimately resulting in an infinite loop.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -319353,6 +329831,7 @@ function useGridDrawing(refName, model, canvasSize) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -319430,6 +329909,8 @@ const friction = 0.95;
 const verticalScrollFactor = 1;
 const horizontalScrollFactor = 1;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -320202,6 +330683,9 @@ const resetTimeoutDuration = 100;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320979,6 +331463,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    let resetTimeout = null;
+>>>>>>> upstream/18.0
 =======
     let resetTimeout = null;
 >>>>>>> upstream/18.0
@@ -322019,7 +332507,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -322792,6 +333283,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -323556,6 +334050,12 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!elapsedTime) {
+            return;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!elapsedTime) {
             return;
@@ -325054,7 +335554,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -325827,6 +336330,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -326591,7 +337097,10 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -327332,6 +337841,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -328140,6 +338652,9 @@ function useTouchScroll(ref, updateScroll, canMoveUp) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -329261,7 +339776,11 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     initialPanelProps = {};
+=======
+    currentPanelProps = {};
+>>>>>>> upstream/18.0
 =======
     currentPanelProps = {};
 >>>>>>> upstream/18.0
@@ -329804,11 +340323,14 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.computeState(this.componentTag, this.initialPanelProps).isOpen;
     }
     get panelProps() {
         const state = this.computeState(this.componentTag, this.initialPanelProps);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -330212,6 +340734,9 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -330619,7 +341144,11 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const state = this.computeState(this.componentTag, this.initialPanelProps);
+=======
+        const state = this.computeState(this.componentTag, this.currentPanelProps);
+>>>>>>> upstream/18.0
 =======
         const state = this.computeState(this.componentTag, this.currentPanelProps);
 >>>>>>> upstream/18.0
@@ -331167,11 +341696,14 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.initialPanelProps?.onCloseSidePanel?.();
         }
         this.componentTag = componentTag;
         this.initialPanelProps = state.props ?? {};
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -331575,6 +342107,9 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -331986,8 +342521,13 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.initialPanelProps.onCloseSidePanel?.();
         this.initialPanelProps = {};
+=======
+        this.currentPanelProps.onCloseSidePanel?.();
+        this.currentPanelProps = {};
+>>>>>>> upstream/18.0
 =======
         this.currentPanelProps.onCloseSidePanel?.();
         this.currentPanelProps = {};
@@ -332683,8 +343223,11 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return customComputeState(this.getters, panelProps);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -333089,6 +343632,9 @@ class SidePanelStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -333502,6 +344048,7 @@ class Grid extends Component {
         this.cellPopovers = useStore(CellPopoverStore);
         useEffect(() => {
             if (!this.sidePanel.isOpen) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -335196,6 +345743,11 @@ class Grid extends Component {
             }
         }, () => [this.sidePanel.isOpen]);
 >>>>>>> upstream/18.0
+=======
+                this.DOMFocusableElementStore.focus();
+            }
+        }, () => [this.sidePanel.isOpen]);
+>>>>>>> upstream/18.0
         useTouchScroll(this.gridRef, this.moveCanvas.bind(this), () => {
             const { scrollY } = this.env.model.getters.getActiveSheetScrollInfo();
             return scrollY > 0;
@@ -335493,6 +346045,9 @@ class Grid extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -336551,7 +347106,11 @@ class Grid extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.DOMFocusableElementStore.focusableElement?.focus();
+=======
+            this.DOMFocusableElementStore.focus();
+>>>>>>> upstream/18.0
 =======
             this.DOMFocusableElementStore.focus();
 >>>>>>> upstream/18.0
@@ -338001,7 +348560,10 @@ class EditableName extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -339125,6 +349687,9 @@ class PivotHTMLRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -340136,7 +350701,10 @@ class BordersPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -341031,6 +351599,9 @@ class BordersPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -342513,7 +353084,11 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const style = this.removeDefaultStyleValues(cell.style);
+=======
+                const style = this.extractCustomStyle(cell);
+>>>>>>> upstream/18.0
 =======
                 const style = this.extractCustomStyle(cell);
 >>>>>>> upstream/18.0
@@ -342858,7 +353433,11 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     sheet.cells[xc].style = getItemId(this.removeDefaultStyleValues(cell.style), data.styles);
+=======
+                    sheet.cells[xc].style = getItemId(this.extractCustomStyle(cell), data.styles);
+>>>>>>> upstream/18.0
 =======
                     sheet.cells[xc].style = getItemId(this.extractCustomStyle(cell), data.styles);
 >>>>>>> upstream/18.0
@@ -343185,11 +353764,14 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeDefaultStyleValues(style) {
         const cleanedStyle = { ...style };
         for (const property in DEFAULT_STYLE) {
             if (cleanedStyle[property] === DEFAULT_STYLE[property]) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -343423,6 +354005,9 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -343787,10 +354372,13 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const hasContent = "content" in after || "formula" in after;
         // Compute the new cell properties
         const afterContent = hasContent ? replaceNewLines(after?.content) : before?.content || "";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -343973,6 +354561,9 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -344159,7 +354750,11 @@ class CellPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const format = "format" in after ? after.format : before && before.format;
+=======
+        const format = after.format !== undefined ? after.format : before && before.format;
+>>>>>>> upstream/18.0
 =======
         const format = after.format !== undefined ? after.format : before && before.format;
 >>>>>>> upstream/18.0
@@ -344964,9 +355559,13 @@ class ChartPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.getters.getFigureSheetId(cmd.id)
             ? "Success" /* CommandResult.Success */
             : "ChartDoesNotExist" /* CommandResult.ChartDoesNotExist */;
+=======
+        return this.isChartDefined(cmd.id) ? "Success" /* CommandResult.Success */ : "ChartDoesNotExist" /* CommandResult.ChartDoesNotExist */;
+>>>>>>> upstream/18.0
 =======
         return this.isChartDefined(cmd.id) ? "Success" /* CommandResult.Success */ : "ChartDoesNotExist" /* CommandResult.ChartDoesNotExist */;
 >>>>>>> upstream/18.0
@@ -346589,7 +357188,11 @@ class DataValidationPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const adaptedRules = this.removeRangesFromRules(sheetId, newRule.ranges, rules);
+=======
+        const adaptedRules = this.removeRangesFromRules(sheetId, newRule.ranges, rules, newRule.id);
+>>>>>>> upstream/18.0
 =======
         const adaptedRules = this.removeRangesFromRules(sheetId, newRule.ranges, rules, newRule.id);
 >>>>>>> upstream/18.0
@@ -347515,10 +358118,13 @@ class DataValidationPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeRangesFromRules(sheetId, ranges, rules) {
         rules = deepCopy(rules);
         for (const rule of rules) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -348209,6 +358815,9 @@ class DataValidationPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -349158,7 +359767,11 @@ class HeaderSizePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sizes.splice(addIndex, 0, ...Array(cmd.quantity).fill(baseSize));
+=======
+                sizes = insertItemsAtIndex(sizes, Array(cmd.quantity).fill(baseSize), addIndex);
+>>>>>>> upstream/18.0
 =======
                 sizes = insertItemsAtIndex(sizes, Array(cmd.quantity).fill(baseSize), addIndex);
 >>>>>>> upstream/18.0
@@ -350038,9 +360651,14 @@ class HeaderVisibilityPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const hiddenHeaders = [...this.hiddenHeaders[cmd.sheetId][cmd.dimension]];
                 const addIndex = getAddHeaderStartIndex(cmd.position, cmd.base);
                 hiddenHeaders.splice(addIndex, 0, ...Array(cmd.quantity).fill(false));
+=======
+                const addIndex = getAddHeaderStartIndex(cmd.position, cmd.base);
+                const hiddenHeaders = insertItemsAtIndex([...this.hiddenHeaders[cmd.sheetId][cmd.dimension]], Array(cmd.quantity).fill(false), addIndex);
+>>>>>>> upstream/18.0
 =======
                 const addIndex = getAddHeaderStartIndex(cmd.position, cmd.base);
                 const hiddenHeaders = insertItemsAtIndex([...this.hiddenHeaders[cmd.sheetId][cmd.dimension]], Array(cmd.quantity).fill(false), addIndex);
@@ -351615,6 +362233,10 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isAdaptingRanges = false;
+>>>>>>> upstream/18.0
 =======
     isAdaptingRanges = false;
 >>>>>>> upstream/18.0
@@ -352095,6 +362717,12 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (this.isAdaptingRanges) {
+            throw new Error("Plugins cannot dispatch commands during adaptRanges phase");
+        }
+>>>>>>> upstream/18.0
 =======
         if (this.isAdaptingRanges) {
             throw new Error("Plugins cannot dispatch commands during adaptRanges phase");
@@ -352763,6 +363391,7 @@ class RangeAdapter {
                     if (range.sheetId === cmd.sheetId) {
                         return { changeType: "CHANGE", range };
                     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353844,6 +364473,9 @@ class RangeAdapter {
 =======
                     if (isSheetNameEqual(range.invalidSheetName, cmd.name)) {
 >>>>>>> upstream/18.0
+=======
+                    if (isSheetNameEqual(range.invalidSheetName, cmd.name)) {
+>>>>>>> upstream/18.0
                         const invalidSheetName = undefined;
                         const sheetId = cmd.sheetId;
                         const newRange = range.clone({ sheetId, invalidSheetName });
@@ -354008,6 +364640,10 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isAdaptingRanges = true;
+>>>>>>> upstream/18.0
 =======
         this.isAdaptingRanges = true;
 >>>>>>> upstream/18.0
@@ -354464,6 +365100,10 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isAdaptingRanges = false;
+>>>>>>> upstream/18.0
 =======
         this.isAdaptingRanges = false;
 >>>>>>> upstream/18.0
@@ -355081,7 +365721,11 @@ class RangeAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sheetName = rangeImpl.invalidSheetName;
+=======
+                sheetName = getCanonicalSymbolName(rangeImpl.invalidSheetName);
+>>>>>>> upstream/18.0
 =======
                 sheetName = getCanonicalSymbolName(rangeImpl.invalidSheetName);
 >>>>>>> upstream/18.0
@@ -355936,6 +366580,10 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "getDuplicateSheetName",
+>>>>>>> upstream/18.0
 =======
         "getDuplicateSheetName",
 >>>>>>> upstream/18.0
@@ -357044,8 +367692,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return this.sheets[cmd.sheetIdTo] ? "DuplicatedSheetId" /* CommandResult.DuplicatedSheetId */ : "Success" /* CommandResult.Success */;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -357861,6 +368512,9 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -358749,7 +369403,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.duplicateSheet(cmd.sheetId, cmd.sheetIdTo);
+=======
+                this.duplicateSheet(cmd.sheetId, cmd.sheetIdTo, cmd.sheetNameTo);
+>>>>>>> upstream/18.0
 =======
                 this.duplicateSheet(cmd.sheetId, cmd.sheetIdTo, cmd.sheetNameTo);
 >>>>>>> upstream/18.0
@@ -359973,7 +370631,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (key.toUpperCase() === unquotedName.toUpperCase()) {
+=======
+                if (isSheetNameEqual(key, unquotedName)) {
+>>>>>>> upstream/18.0
 =======
                 if (isSheetNameEqual(key, unquotedName)) {
 >>>>>>> upstream/18.0
@@ -361119,6 +371781,7 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let i = 1;
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         let name = `${baseName}${i}`;
@@ -361127,6 +371790,10 @@ class SheetPlugin extends CorePlugin {
             i++;
         }
         return name;
+=======
+        const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
+        return getNextSheetName(names, baseName);
+>>>>>>> upstream/18.0
 =======
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         return getNextSheetName(names, baseName);
@@ -362662,7 +373329,11 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (orderedSheetIds.find((id) => sheets[id]?.name.toLowerCase() === name && id !== cmd.sheetId)) {
+=======
+        if (orderedSheetIds.find((id) => isSheetNameEqual(sheets[id]?.name, name) && id !== cmd.sheetId)) {
+>>>>>>> upstream/18.0
 =======
         if (orderedSheetIds.find((id) => isSheetNameEqual(sheets[id]?.name, name) && id !== cmd.sheetId)) {
 >>>>>>> upstream/18.0
@@ -363807,9 +374478,14 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     duplicateSheet(fromId, toId) {
         const sheet = this.getSheet(fromId);
         const toName = this.getDuplicateSheetName(sheet.name);
+=======
+    duplicateSheet(fromId, toId, toName) {
+        const sheet = this.getSheet(fromId);
+>>>>>>> upstream/18.0
 =======
     duplicateSheet(fromId, toId, toName) {
         const sheet = this.getSheet(fromId);
@@ -365196,6 +375872,7 @@ class SheetPlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let i = 1;
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         const baseName = _t("Copy of %s", sheetName);
@@ -365205,6 +375882,10 @@ class SheetPlugin extends CorePlugin {
             i++;
         }
         return name;
+=======
+        const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
+        return getDuplicateSheetName(sheetName, names);
+>>>>>>> upstream/18.0
 =======
         const names = this.orderedSheetIds.map(this.getSheetName.bind(this));
         return getDuplicateSheetName(sheetName, names);
@@ -366846,7 +377527,13 @@ class TablePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.dispatch("REMOVE_MERGE", { sheetId: cmd.sheetId, target: mergesInTarget });
+=======
+                if (mergesInTarget.length) {
+                    this.dispatch("REMOVE_MERGE", { sheetId: cmd.sheetId, target: mergesInTarget });
+                }
+>>>>>>> upstream/18.0
 =======
                 if (mergesInTarget.length) {
                     this.dispatch("REMOVE_MERGE", { sheetId: cmd.sheetId, target: mergesInTarget });
@@ -368397,6 +379084,7 @@ class TablePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const position of positions(zoneToCheckIfEmpty)) {
             const cellPosition = { sheetId, ...position };
             // Since this plugin is loaded before CellPlugin, the getters still give us the old cell content
@@ -368406,6 +379094,8 @@ class TablePlugin extends CorePlugin {
                 this.getTablesOverlappingZones(sheetId, [positionToZone(position)]).length) {
                 return "none";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -369133,6 +379823,9 @@ class TablePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -370397,6 +381090,10 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "getMeasureFullDependencies",
+>>>>>>> upstream/18.0
 =======
         "getMeasureFullDependencies",
 >>>>>>> upstream/18.0
@@ -370811,7 +381508,11 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.compileCalculatedMeasures(cmd.pivot.measures);
+=======
+                this.compileCalculatedMeasures(cmd.pivotId, cmd.pivot.measures);
+>>>>>>> upstream/18.0
 =======
                 this.compileCalculatedMeasures(cmd.pivotId, cmd.pivot.measures);
 >>>>>>> upstream/18.0
@@ -371179,7 +381880,10 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -371528,6 +382232,7 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -371591,6 +382296,8 @@ class PivotCorePlugin extends CorePlugin {
             for (const formulaString in this.compiledMeasureFormulas[sheetId]) {
                 const compiledFormula = this.compiledMeasureFormulas[sheetId][formulaString];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -371845,6 +382552,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -372104,8 +382814,14 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (newFormulaString !== formulaString) {
                     this.replaceMeasureFormula(sheetId, formulaString, newFormulaString);
+=======
+                const oldFormulaString = measure.computedBy.formula;
+                if (newFormulaString !== oldFormulaString) {
+                    this.replaceMeasureFormula(pivotId, measure, newFormulaString);
+>>>>>>> upstream/18.0
 =======
                 const oldFormulaString = measure.computedBy.formula;
                 if (newFormulaString !== oldFormulaString) {
@@ -372641,6 +383357,7 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getMeasureCompiledFormula(measure) {
         if (!measure.computedBy) {
             throw new Error(`Measure ${measure.fieldName} is not computed by formula`);
@@ -372648,6 +383365,8 @@ class PivotCorePlugin extends CorePlugin {
         const sheetId = measure.computedBy.sheetId;
         return this.compiledMeasureFormulas[sheetId][measure.computedBy.formula];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -372905,6 +383624,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373159,6 +383881,7 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.compileCalculatedMeasures(pivot.measures);
         this.history.update("formulaIds", formulaId, pivotId);
         this.history.update("nextFormulaId", this.nextFormulaId + 1);
@@ -373172,6 +383895,8 @@ class PivotCorePlugin extends CorePlugin {
             }
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -373454,6 +384179,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -373676,6 +384404,7 @@ class PivotCorePlugin extends CorePlugin {
             dependencies: rangeDependencies,
         };
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374205,6 +384934,8 @@ class PivotCorePlugin extends CorePlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     replaceMeasureFormula(pivotId, measure, newFormulaString) {
         const pivot = this.pivots[pivotId];
         if (!pivot) {
@@ -374298,6 +385029,9 @@ class PivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -374558,6 +385292,7 @@ class SettingsPlugin extends CorePlugin {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -375528,6 +386263,9 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
 =======
 class SpreadsheetPivotCorePlugin extends CorePlugin {
 >>>>>>> upstream/18.0
+=======
+class SpreadsheetPivotCorePlugin extends CorePlugin {
+>>>>>>> upstream/18.0
     allowDispatch(cmd) {
         switch (cmd.type) {
             case "ADD_PIVOT":
@@ -375537,6 +386275,7 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
         }
         return "Success" /* CommandResult.Success */;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -376977,6 +387716,8 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     checkDataSetValidity(definition) {
         if (definition.type === "SPREADSHEET" && definition.dataSet) {
             const { zone, sheetId } = definition.dataSet;
@@ -377267,6 +388008,9 @@ class SpreadsheetPivotCorePlugin extends CorePlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -378174,7 +388918,11 @@ onIterationEndEvaluationRegistry.add("pivots", (getters) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pivotRegistry.get(pivot.type).onIterationEndEvaluation(pivot);
+=======
+        pivot.markAsDirtyForEvaluation?.();
+>>>>>>> upstream/18.0
 =======
         pivot.markAsDirtyForEvaluation?.();
 >>>>>>> upstream/18.0
@@ -379788,6 +390536,7 @@ class SpreadsheetRTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (left.data == right.data &&
             left.boundingBox.sheetId === right.boundingBox.sheetId &&
             left.boundingBox?.zone.left === right.boundingBox.zone.left &&
@@ -379795,6 +390544,8 @@ class SpreadsheetRTree {
             left.boundingBox?.zone.right === right.boundingBox.zone.right &&
             left.boundingBox?.zone.bottom === right.boundingBox.zone.bottom);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -380344,6 +391095,9 @@ class SpreadsheetRTree {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -380952,7 +391706,11 @@ class FormulaDependencyGraph {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getCellsDependingOn(ranges) {
+=======
+    getCellsDependingOn(ranges, ignore) {
+>>>>>>> upstream/18.0
 =======
     getCellsDependingOn(ranges, ignore) {
 >>>>>>> upstream/18.0
@@ -381659,7 +392417,11 @@ class FormulaDependencyGraph {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!visited.has(position)) {
+=======
+                if (!visited.has(position) && !ignore.has(position)) {
+>>>>>>> upstream/18.0
 =======
                 if (!visited.has(position) && !ignore.has(position)) {
 >>>>>>> upstream/18.0
@@ -382504,12 +393266,15 @@ class SpreadingRelation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Remove a node, also remove it from other nodes adjacency list
      */
     removeNode(position) {
         this.resultsToArrayFormulas.remove({
             boundingBox: { sheetId: position.sheetId, zone: positionToZone(position) },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -382745,6 +393510,9 @@ class SpreadingRelation {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -382917,6 +393685,7 @@ class SpreadingRelation {
 const EMPTY_ARRAY = [];
 
 const MAX_ITERATION = 30;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -384274,6 +395043,10 @@ const EMPTY_CELL = Object.freeze(createEvaluatedCell({ value: null }));
 const ERROR_CYCLE_CELL = Object.freeze(createEvaluatedCell(new CircularDependencyError()));
 const EMPTY_CELL = Object.freeze(createEvaluatedCell({ value: null }));
 >>>>>>> upstream/18.0
+=======
+const ERROR_CYCLE_CELL = Object.freeze(createEvaluatedCell(new CircularDependencyError()));
+const EMPTY_CELL = Object.freeze(createEvaluatedCell({ value: null }));
+>>>>>>> upstream/18.0
 class Evaluator {
     context;
     getters;
@@ -384309,6 +395082,7 @@ class Evaluator {
         return this.evaluatedCells.keysForSheet(sheetId);
     }
     getArrayFormulaSpreadingOn(position) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -385891,6 +396665,11 @@ class Evaluator {
         if (isEmpty) {
             return undefined;
 >>>>>>> upstream/18.0
+=======
+        const isEmpty = this.getEvaluatedCell(position).type === CellValueType.empty;
+        if (isEmpty) {
+            return undefined;
+>>>>>>> upstream/18.0
         }
         const arrayFormulas = this.spreadingRelations.searchFormulaPositionsSpreadingOn(position.sheetId, positionToZone(position));
         return Array.from(arrayFormulas).find((position) => !this.blockedArrayFormulas.has(position));
@@ -385994,6 +396773,12 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isArrayFormulaSpillBlocked(position) {
+        return this.blockedArrayFormulas.has(position);
+    }
+>>>>>>> upstream/18.0
 =======
     isArrayFormulaSpillBlocked(position) {
         return this.blockedArrayFormulas.has(position);
@@ -386613,6 +397398,7 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const sheetId = range.sheetId;
             const { left, bottom, right, top } = range.zone;
             for (let col = left; col <= right; col++) {
@@ -386982,6 +397768,8 @@ class Evaluator {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // ensure that all ranges are computed
             this.compilationParams.ensureRange(range);
         }
@@ -387041,6 +397829,9 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -387252,11 +398043,14 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     evaluateFormulaResult(sheetId, formulaString) {
         const compiledFormula = compile(formulaString);
         const ranges = compiledFormula.dependencies.map((xc) => this.getters.getRangeFromSheetXC(sheetId, xc));
         this.updateCompilationParameters();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -387396,6 +398190,9 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -387579,7 +398376,11 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.updateCompilationParameters();
+=======
+            this.updateCompilationParametersForGridEvaluation();
+>>>>>>> upstream/18.0
 =======
             this.updateCompilationParametersForGridEvaluation();
 >>>>>>> upstream/18.0
@@ -387899,7 +398700,10 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -388234,6 +399038,7 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -388304,6 +399109,8 @@ class Evaluator {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -388533,6 +399340,9 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -388874,7 +399684,11 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const invalidatedPositions = this.formulaDependencies().getCellsDependingOn(excludeTopLeft(resultZone).map((zone) => ({ sheetId, zone })));
+=======
+        const invalidatedPositions = this.formulaDependencies().getCellsDependingOn(excludeTopLeft(resultZone).map((zone) => ({ sheetId, zone })), this.nextPositionsToUpdate);
+>>>>>>> upstream/18.0
 =======
         const invalidatedPositions = this.formulaDependencies().getCellsDependingOn(excludeTopLeft(resultZone).map((zone) => ({ sheetId, zone })), this.nextPositionsToUpdate);
 >>>>>>> upstream/18.0
@@ -389681,7 +400495,11 @@ class Evaluator {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.formulaDependencies().getCellsDependingOn(ranges);
+=======
+        return this.formulaDependencies().getCellsDependingOn(ranges, this.nextPositionsToUpdate);
+>>>>>>> upstream/18.0
 =======
         return this.formulaDependencies().getCellsDependingOn(ranges, this.nextPositionsToUpdate);
 >>>>>>> upstream/18.0
@@ -390288,10 +401106,13 @@ function updateEvalContextAndExecute(compiledFormula, compilationParams, sheetId
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     compilationParams.evalContext.__originCellPosition = originCellPosition;
     compilationParams.evalContext.__originSheetId = sheetId;
     return compiledFormula.execute(compiledFormula.dependencies, compilationParams.referenceDenormalizer, compilationParams.ensureRange, getSymbolValue, compilationParams.evalContext);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -390478,6 +401299,9 @@ function updateEvalContextAndExecute(compiledFormula, compilationParams, sheetId
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -390805,6 +401629,10 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "isArrayFormulaSpillBlocked",
+>>>>>>> upstream/18.0
 =======
         "isArrayFormulaSpillBlocked",
 >>>>>>> upstream/18.0
@@ -391197,8 +402025,13 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     evaluateFormula(sheetId, formulaString) {
         const result = this.evaluateFormulaResult(sheetId, formulaString);
+=======
+    evaluateFormula(sheetId, formulaString, originCellPosition) {
+        const result = this.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
+>>>>>>> upstream/18.0
 =======
     evaluateFormula(sheetId, formulaString, originCellPosition) {
         const result = this.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
@@ -391434,8 +402267,13 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     evaluateFormulaResult(sheetId, formulaString) {
         return this.evaluator.evaluateFormulaResult(sheetId, formulaString);
+=======
+    evaluateFormulaResult(sheetId, formulaString, originCellPosition) {
+        return this.evaluator.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
+>>>>>>> upstream/18.0
 =======
     evaluateFormulaResult(sheetId, formulaString, originCellPosition) {
         return this.evaluator.evaluateFormulaResult(sheetId, formulaString, originCellPosition);
@@ -391773,6 +402611,12 @@ class EvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isArrayFormulaSpillBlocked(position) {
+        return this.evaluator.isArrayFormulaSpillBlocked(position);
+    }
+>>>>>>> upstream/18.0
 =======
     isArrayFormulaSpillBlocked(position) {
         return this.evaluator.isArrayFormulaSpillBlocked(position);
@@ -393438,7 +404282,11 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (cmd.type === "UPDATE_CELL" && "content" in cmd) ||
+=======
+            (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
+>>>>>>> upstream/18.0
 =======
             (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
 >>>>>>> upstream/18.0
@@ -394357,9 +405205,12 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (overlap(tableZone, staticTable.range.zone)) {
                     tableZone = { ...tableZone, right: staticTable.range.zone.left - 1 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -394474,6 +405325,9 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -394656,9 +405510,12 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     exportForExcel(data) {
         for (const sheet of data.sheets) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -394699,6 +405556,9 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -394736,12 +405596,15 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (coreTable?.type !== "dynamic" || !table) {
                     continue;
                 }
                 tableData.range = zoneToXc(table.range.zone);
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -394800,6 +405663,9 @@ class DynamicTablesPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -395037,7 +405903,10 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -395676,6 +406545,7 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -395943,6 +406813,8 @@ class HeaderSizeUIPlugin extends UIPlugin {
         switch (cmd.type) {
             case "START":
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -396172,6 +407044,9 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -396349,6 +407224,7 @@ class HeaderSizeUIPlugin extends UIPlugin {
                 this.history.update("tallestCellInRow", cmd.sheetId, tallestCells);
                 break;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396983,6 +407859,8 @@ class HeaderSizeUIPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             case "RESIZE_COLUMNS_ROWS":
                 {
                     const sheetId = cmd.sheetId;
@@ -397138,7 +408016,11 @@ class HeaderSizeUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return getDefaultCellHeight(this.ctx, cell, colSize);
+=======
+        return getDefaultCellHeight(this.ctx, cell, this.getters.getLocale(), colSize);
+>>>>>>> upstream/18.0
 =======
         return getDefaultCellHeight(this.ctx, cell, this.getters.getLocale(), colSize);
 >>>>>>> upstream/18.0
@@ -397496,6 +408378,10 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        pivotId;
+>>>>>>> upstream/18.0
 =======
         pivotId;
 >>>>>>> upstream/18.0
@@ -397750,6 +408636,7 @@ function withPivotPresentationLayer (PivotClass) {
         rankDesc = {};
         runningTotal = {};
         runningTotalInPercent = {};
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398515,6 +409402,8 @@ function withPivotPresentationLayer (PivotClass) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         constructor(pivotId, custom, params) {
             super(custom, params);
             this.getters = params.getters;
@@ -398603,6 +409492,9 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -398984,7 +409876,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             super.init(params);
+=======
+            super.markAsDirtyForEvaluation?.();
+>>>>>>> upstream/18.0
 =======
             super.markAsDirtyForEvaluation?.();
 >>>>>>> upstream/18.0
@@ -399846,7 +410742,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (columns.length + rows.length !== domain.length) {
+=======
+            if (measure.aggregator && columns.length + rows.length !== domain.length) {
+>>>>>>> upstream/18.0
 =======
             if (measure.aggregator && columns.length + rows.length !== domain.length) {
 >>>>>>> upstream/18.0
@@ -400542,7 +411442,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const formula = this.getters.getMeasureCompiledFormula(measure);
+=======
+            const formula = this.getters.getMeasureCompiledFormula(this.pivotId, measure);
+>>>>>>> upstream/18.0
 =======
             const formula = this.getters.getMeasureCompiledFormula(this.pivotId, measure);
 >>>>>>> upstream/18.0
@@ -400997,6 +411901,12 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (symbolIndex === -1) {
+                        return new NotAvailableError();
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (symbolIndex === -1) {
                         return new NotAvailableError();
@@ -402202,6 +413112,12 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (symbolIndex === -1) {
+                        return new NotAvailableError();
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (symbolIndex === -1) {
                         return new NotAvailableError();
@@ -403528,7 +414444,10 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -404400,6 +415319,9 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -405210,7 +416132,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return tree;
+=======
+            return [];
+>>>>>>> upstream/18.0
 =======
             return [];
 >>>>>>> upstream/18.0
@@ -406440,7 +417366,11 @@ function withPivotPresentationLayer (PivotClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const UNDO_REDO_PIVOT_COMMANDS = ["ADD_PIVOT", "UPDATE_PIVOT"];
+=======
+const UNDO_REDO_PIVOT_COMMANDS = ["ADD_PIVOT", "UPDATE_PIVOT", "REMOVE_PIVOT"];
+>>>>>>> upstream/18.0
 =======
 const UNDO_REDO_PIVOT_COMMANDS = ["ADD_PIVOT", "UPDATE_PIVOT", "REMOVE_PIVOT"];
 >>>>>>> upstream/18.0
@@ -407222,9 +418152,13 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!pivotRegistry.get(this.getters.getPivotCoreDefinition(pivotId).type).externalData) {
                     this.setupPivot(pivotId, { recreate: true });
                 }
+=======
+                this.setupPivot(pivotId, { recreate: true });
+>>>>>>> upstream/18.0
 =======
                 this.setupPivot(pivotId, { recreate: true });
 >>>>>>> upstream/18.0
@@ -407925,7 +418859,11 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { functionName, args } = result;
+=======
+        let { functionName, args } = result;
+>>>>>>> upstream/18.0
 =======
         let { functionName, args } = result;
 >>>>>>> upstream/18.0
@@ -408787,6 +419725,12 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const offsetRow = position.row - mainPosition.row;
+            const offsetCol = position.col - mainPosition.col;
+            args = args.map((arg) => (isMatrix(arg) ? arg[offsetCol][offsetRow] : arg));
+>>>>>>> upstream/18.0
 =======
             const offsetRow = position.row - mainPosition.row;
             const offsetCol = position.col - mainPosition.col;
@@ -410010,6 +420954,7 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const definition = this.getters.getPivotCoreDefinition(pivotId);
 =======
         const definition = deepCopy(this.getters.getPivotCoreDefinition(pivotId));
@@ -410308,6 +421253,8 @@ class PivotUIPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const definition = deepCopy(this.getters.getPivotCoreDefinition(pivotId));
         if (!(pivotId in this.pivots)) {
             const Pivot = withPivotPresentationLayer(pivotRegistry.get(definition.type).ui);
@@ -410394,6 +421341,9 @@ class PivotUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -410981,6 +421931,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "AUTOFILL_CELL":
                 this.autoFillMerge(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 const sheetId = this.getters.getActiveSheetId();
@@ -411000,6 +421951,8 @@ class AutofillPlugin extends UIPlugin {
                 });
                 this.autofillCF(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
                 this.autofillDV(cmd.originCol, cmd.originRow, cmd.col, cmd.row);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -411911,6 +422864,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const autofillCellsData = [];
+>>>>>>> upstream/18.0
 =======
         const autofillCellsData = [];
 >>>>>>> upstream/18.0
@@ -413104,7 +424061,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -414300,7 +425261,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -415496,7 +426461,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -416692,7 +427661,11 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         this.computeNewCell(generator, col, row, apply);
+=======
+                        autofillCellsData.push(this.computeNewCell(generator, col, row));
+>>>>>>> upstream/18.0
 =======
                         autofillCellsData.push(this.computeNewCell(generator, col, row));
 >>>>>>> upstream/18.0
@@ -417882,7 +428855,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -418782,6 +429758,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -419677,7 +430656,10 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -420652,6 +431634,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -421617,6 +432602,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     computeNewCell(generator, col, row, apply) {
         const { cellData, tooltip, origin } = generator.next();
         const { content, style, border, format } = cellData;
@@ -421634,6 +432620,8 @@ class AutofillPlugin extends UIPlugin {
             });
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -422533,6 +433521,9 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -423487,8 +434478,13 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autoFillMerge(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
+=======
+    autofillMerge(sheetId, data) {
+        const { originCol, originRow, col, row } = data;
+>>>>>>> upstream/18.0
 =======
     autofillMerge(sheetId, data) {
         const { originCol, originRow, col, row } = data;
@@ -424995,6 +435991,7 @@ class AutofillPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     autofillCF(originCol, originRow, col, row) {
         const sheetId = this.getters.getActiveSheetId();
         const cfOrigin = this.getters.getRulesByCell(sheetId, originCol, originRow);
@@ -425024,6 +436021,8 @@ class AutofillPlugin extends UIPlugin {
             sheetId,
         });
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -426289,10 +437288,15 @@ function mergeTransformation(toTransform, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const zone2 of executed.target) {
             if (!overlap(zone1, zone2)) {
                 target.push({ ...zone1 });
             }
+=======
+        if (executed.target.every((zone2) => !overlap(zone1, zone2))) {
+            target.push(zone1);
+>>>>>>> upstream/18.0
 =======
         if (executed.target.every((zone2) => !overlap(zone1, zone2))) {
             target.push(zone1);
@@ -427833,11 +438837,14 @@ function transformAll(toTransform, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for (const executedCommand of executed) {
         transformedCommands = transformedCommands
             .map((cmd) => transform(cmd, executedCommand))
             .filter(isDefined);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -428548,6 +439555,9 @@ function transformAll(toTransform, executed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -429731,7 +440741,10 @@ class Session extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.waitingAck = true;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -430460,6 +441473,10 @@ class Session extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.waitingAck = true;
+>>>>>>> upstream/18.0
 =======
         this.waitingAck = true;
 >>>>>>> upstream/18.0
@@ -432207,12 +443224,15 @@ class SheetUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getCellMultiLineText(position, args) {
         const style = this.getters.getCellStyle(position);
         const text = this.getters.getCellText(position, {
             showFormula: this.getters.shouldShowFormulas(),
             availableWidth: args.maxWidth,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -432251,6 +443271,9 @@ class SheetUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -432603,7 +443626,11 @@ class SheetUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (cell.isFormula) {
+=======
+                if (cell.isFormula || this.getters.getArrayFormulaSpreadingOn(position)) {
+>>>>>>> upstream/18.0
 =======
                 if (cell.isFormula || this.getters.getArrayFormulaSpreadingOn(position)) {
 >>>>>>> upstream/18.0
@@ -433621,7 +444648,11 @@ class TableComputedStylePlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (cmd.type === "UPDATE_CELL" && "content" in cmd) ||
+=======
+            (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
+>>>>>>> upstream/18.0
 =======
             (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd)) ||
 >>>>>>> upstream/18.0
@@ -435359,7 +446390,10 @@ class HistoryPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -436216,6 +447250,9 @@ class PivotPresencePlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -437301,7 +448338,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -438138,7 +449179,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -439060,7 +450105,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -439898,7 +450947,11 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const copiedData = this.copy(cut);
+=======
+                const copiedData = this.copy(cut, "shiftCells");
+>>>>>>> upstream/18.0
 =======
                 const copiedData = this.copy(cut, "shiftCells");
 >>>>>>> upstream/18.0
@@ -440845,12 +451898,15 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     copy(zones) {
         let copiedData = {};
         const clipboardData = this.getClipboardData(zones);
         for (const { handlerName, handler } of this.selectClipboardHandlers(clipboardData)) {
             const data = handler.copy(clipboardData);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -441477,6 +452533,9 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -441906,6 +452965,7 @@ class ClipboardPlugin extends UIPlugin {
         if (!copiedData) {
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -442635,6 +453695,8 @@ class ClipboardPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const sheetId = this.getters.getActiveSheetId();
         const handlers = this.selectClipboardHandlers(copiedData);
         const { target, zone, selectedZones } = getPasteTargetFromHandlers(sheetId, zones, copiedData, handlers, options);
@@ -442874,6 +453936,9 @@ class ClipboardPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -443879,10 +454944,13 @@ class FilterEvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for (let row = filteredZone.top; row <= filteredZone.bottom; row++) {
                 const value = this.getCellValueAsString(sheetId, filter.col, row);
                 if (filteredValues.includes(value)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -444604,6 +455672,9 @@ class FilterEvaluationPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -445776,6 +456847,11 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const { col, row } = this.gridSelection.anchor.cell;
+        this.moveClient({ sheetId: this.activeSheet.id, col, row });
+>>>>>>> upstream/18.0
 =======
         const { col, row } = this.gridSelection.anchor.cell;
         this.moveClient({ sheetId: this.activeSheet.id, col, row });
@@ -447199,7 +458275,10 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -447829,6 +458908,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -448253,6 +459335,7 @@ class GridSelectionPlugin extends UIPlugin {
             },
         ];
         const sheetId = this.getActiveSheetId();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448996,6 +460079,8 @@ class GridSelectionPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const base = isBasedBefore ? cmd.base : cmd.base + 1;
         const pasteTarget = [
             {
@@ -449005,6 +460090,7 @@ class GridSelectionPlugin extends UIPlugin {
                 bottom: !isCol ? base + thickness - 1 : this.getters.getNumberRows(cmd.sheetId) - 1,
             },
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450370,6 +461456,11 @@ class GridSelectionPlugin extends UIPlugin {
             const handler = new Handler(this.getters, this.dispatch);
             const data = handler.copy(getClipboardDataPositions(sheetId, target), "shiftCells");
 >>>>>>> upstream/18.0
+=======
+        for (const Handler of clipboardHandlersRegistries.cellHandlers.getAll()) {
+            const handler = new Handler(this.getters, this.dispatch);
+            const data = handler.copy(getClipboardDataPositions(sheetId, target), "shiftCells");
+>>>>>>> upstream/18.0
             if (!data) {
                 continue;
             }
@@ -450620,6 +461711,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -451323,6 +462417,7 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const toRemove = isBasedBefore ? cmd.elements.map((el) => el + thickness) : cmd.elements;
         let currentIndex = isBasedBefore ? cmd.base : cmd.base + 1;
         for (const element of toRemove) {
@@ -451332,6 +462427,8 @@ class GridSelectionPlugin extends UIPlugin {
                 sheetId: cmd.sheetId,
                 size,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -451959,6 +463056,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -452610,9 +463710,12 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return "Success" /* CommandResult.Success */;
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -453261,6 +464364,9 @@ class GridSelectionPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -454532,9 +465638,12 @@ class SheetViewPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.sheetsWithDirtyViewports.add(cmd.sheetId);
                 break;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -455380,6 +466489,9 @@ class SheetViewPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -455953,6 +467065,7 @@ class SheetViewPlugin extends UIPlugin {
             case "FOLD_HEADER_GROUPS_IN_ZONE":
             case "UNFOLD_HEADER_GROUPS_IN_ZONE":
             case "UNFOLD_ALL_HEADER_GROUPS":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -457616,6 +468729,8 @@ class SheetViewPlugin extends UIPlugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             case "FOLD_ALL_HEADER_GROUPS":
                 this.sheetsWithDirtyViewports.add(cmd.sheetId);
                 break;
@@ -457634,6 +468749,9 @@ class SheetViewPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -457945,6 +469063,7 @@ class SheetViewPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "UNFREEZE_ROWS":
             case "UNFREEZE_COLUMNS":
             case "FREEZE_COLUMNS":
@@ -457952,6 +469071,8 @@ class SheetViewPlugin extends UIPlugin {
             case "UNFREEZE_COLUMNS_ROWS":
                 this.resetViewports(this.getters.getActiveSheetId());
                 break;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -459072,6 +470193,11 @@ class HeaderPositionsUIPlugin extends UIPlugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                // Either the content, format or style can impact the header sizes of a sheet
+                // As such, every command can have a potential effect on the viewport
+>>>>>>> upstream/18.0
 =======
                 // Either the content, format or style can impact the header sizes of a sheet
                 // As such, every command can have a potential effect on the viewport
@@ -459514,6 +470640,10 @@ const featurePluginRegistry = new Registry()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .add("pivot_presence", PivotPresencePlugin)
+>>>>>>> upstream/18.0
 =======
     .add("pivot_presence", PivotPresencePlugin)
 >>>>>>> upstream/18.0
@@ -460973,12 +472103,15 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.DOMFocusableElementStore.focusableElement?.focus();
         }
         if (ev.key === "Escape") {
             this.cancelEdition();
             this.DOMFocusableElementStore.focusableElement?.focus();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -461791,6 +472924,9 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -462549,6 +473685,7 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const input = this.sheetNameRef.el;
         if (!this.state.isEditing || !input)
             return;
@@ -462558,6 +473695,8 @@ class BottomBarSheet extends Component {
         const inputValue = this.getInputContent() || "";
         input.innerText = inputValue;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -463185,6 +474324,9 @@ class BottomBarSheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -463982,7 +475124,11 @@ class AggregateStatisticsStore extends SpreadsheetStore {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (cmd.type === "UPDATE_CELL" && "content" in cmd)) {
+=======
+            (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd))) {
+>>>>>>> upstream/18.0
 =======
             (cmd.type === "UPDATE_CELL" && ("content" in cmd || "format" in cmd))) {
 >>>>>>> upstream/18.0
@@ -465602,7 +476748,10 @@ class SpreadsheetDashboard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -466486,6 +477635,9 @@ class SpreadsheetDashboard extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -468822,7 +479974,11 @@ class Spreadsheet extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }, () => [this.env.model.getters.getActiveSheetId()]);
+=======
+        });
+>>>>>>> upstream/18.0
 =======
         });
 >>>>>>> upstream/18.0
@@ -470590,7 +481746,12 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { col: refCol, row: refRow } = this.getReferencePosition();
+=======
+        const { cell: refCell, zone: refZone } = this.getReferenceAnchor();
+        const { col: refCol, row: refRow } = refCell;
+>>>>>>> upstream/18.0
 =======
         const { cell: refCell, zone: refZone } = this.getReferenceAnchor();
         const { col: refCol, row: refRow } = refCell;
@@ -471722,6 +482883,7 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 result = refCol <= right - n ? expand({ top, left, bottom, right: newRight }) : null;
             }
             if (deltaCol > 0) {
@@ -471736,6 +482898,8 @@ class SelectionStreamProcessorImpl {
                 const newTop = this.getNextAvailableRow(deltaRow, refCol, top + (n - 1));
                 result = top + n <= refRow ? expand({ top: newTop, left, bottom, right }) : null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -472422,6 +483586,9 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -473325,7 +484492,11 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     getReferencePosition() {
+=======
+    getReferenceAnchor() {
+>>>>>>> upstream/18.0
 =======
     getReferenceAnchor() {
 >>>>>>> upstream/18.0
@@ -474230,6 +485401,7 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             col: this.getters.isColHidden(sheetId, anchorCol)
                 ? this.getters.findVisibleHeader(sheetId, "COL", left, right) || anchorCol
@@ -474238,6 +485410,8 @@ class SelectionStreamProcessorImpl {
                 ? this.getters.findVisibleHeader(sheetId, "ROW", top, bottom) || anchorRow
                 : anchorRow,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -474925,6 +486099,9 @@ class SelectionStreamProcessorImpl {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -477030,6 +488207,12 @@ function addStyles(styles) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (style.alignment && style.alignment.shrinkToFit) {
+            alignAttrs.push(["shrinkToFit", "1"]);
+        }
+>>>>>>> upstream/18.0
 =======
         if (style.alignment && style.alignment.shrinkToFit) {
             alignAttrs.push(["shrinkToFit", "1"]);
@@ -479053,6 +490236,10 @@ const components = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    PivotHTMLRenderer,
+>>>>>>> upstream/18.0
 =======
     PivotHTMLRenderer,
 >>>>>>> upstream/18.0
@@ -479913,6 +491100,7 @@ const constants = {
 export { AbstractCellClipboardHandler, AbstractChart, AbstractFigureClipboardHandler, CellErrorType, CommandResult, CorePlugin, DispatchResult, EvaluationError, Model, PivotRuntimeDefinition, Registry, Revision, SPREADSHEET_DIMENSIONS, Spreadsheet, SpreadsheetPivotTable, UIPlugin, __info__, addFunction, addRenderingLayer, astToFormula, compile, compileTokens, components, constants, convertAstNodes, coreTypes, findCellInNewZone, functionCache, helpers, hooks, invalidateCFEvaluationCommands, invalidateDependenciesCommands, invalidateEvaluationCommands, iterateAstNodes, links, load, parse, parseTokens, readonlyAllowedCommands, registries, setDefaultSheetViewSize, setTranslationMethod, stores, tokenColors, tokenize };
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481691,5 +492879,10 @@ __info__.hash = "046ebe02e";
 __info__.version = "18.0.61";
 __info__.date = "2026-03-27T06:25:57.011Z";
 __info__.hash = "046ebe02e";
+>>>>>>> upstream/18.0
+=======
+__info__.version = "18.0.62";
+__info__.date = "2026-04-07T07:40:23.179Z";
+__info__.hash = "14b42d1c6b";
 >>>>>>> upstream/18.0
 //# sourceMappingURL=o_spreadsheet.js.map

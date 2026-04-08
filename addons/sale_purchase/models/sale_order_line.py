@@ -108,7 +108,11 @@ class SaleOrderLine(models.Model):
                 quantity = line.product_uom._compute_quantity(new_qty, last_purchase_line.product_uom)
                 last_purchase_line.write({'product_qty': quantity})
             elif last_purchase_line.state in ['purchase', 'done', 'cancel']:  # create new PO, by forcing the quantity as the difference from SO line
+<<<<<<< HEAD
                 quantity = line.product_uom._compute_quantity(new_qty - origin_values.get(line.id, 0.0), last_purchase_line.product_uom)
+=======
+                quantity = new_qty - origin_values.get(line.id, 0.0)
+>>>>>>> upstream/18.0
                 line._purchase_service_create(quantity=quantity)
 
     def _purchase_get_date_order(self, supplierinfo):
@@ -416,7 +420,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id == purchase_order.company_id)
+=======
+        supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id in purchase_order.company_id.parent_ids)
+>>>>>>> upstream/18.0
 =======
         supplier_taxes = self.product_id.supplier_taxes_id.filtered(lambda t: t.company_id in purchase_order.company_id.parent_ids)
 >>>>>>> upstream/18.0

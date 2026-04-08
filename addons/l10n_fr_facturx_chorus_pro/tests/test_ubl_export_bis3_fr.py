@@ -26,7 +26,10 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89,6 +92,9 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

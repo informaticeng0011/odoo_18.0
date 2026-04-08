@@ -71,6 +71,7 @@ registry.category("web_tour.tours").add("website_livechat.question_selection_ove
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -85,6 +86,9 @@ registry.category("web_tour.tours").add("website_livechat.question_selection_ove
 =======
 >>>>>>> upstream/18.0
         { trigger: ".o-livechat-root:shadow span:contains(Conversation ended...)" },
+=======
+        { trigger: ".o-livechat-root:shadow span:contains(This conversation has ended.)" },
+>>>>>>> upstream/18.0
 =======
         { trigger: ".o-livechat-root:shadow span:contains(This conversation has ended.)" },
 >>>>>>> upstream/18.0
@@ -224,6 +228,9 @@ registry.category("web_tour.tours").add("website_livechat.question_selection_ove
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

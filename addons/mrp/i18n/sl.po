@@ -173,6 +173,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -883,10 +884,15 @@
 # * mrp
 #
 >>>>>>> upstream/18.0
+=======
+# * mrp
+#
+>>>>>>> upstream/18.0
 # Translators:
 # JernejEditor, 2024
 # Wil Odoo, 2024
 # Grega Vavtar <grega@hbs.si>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2124,10 +2130,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Aleš Pipan, 2025
 # Jan Zorko <jan.zorko@implex.si>, 2025.
 # Tadej Vengust <tadej.vengust@implex.si>, 2025.
 # Žiga Trček <ziga.trcek@implex.si>, 2025, 2026.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2405,10 +2414,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4065,6 +4078,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:36+0000\n"
 "PO-Revision-Date: 2026-03-21 09:29+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -4086,6 +4101,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4123,6 +4141,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5173,12 +5192,18 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_state
 msgid ""
 " * Draft: The MO is not confirmed yet.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6065,6 +6090,10 @@ msgid ""
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
 >>>>>>> upstream/18.0
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 " * In Progress: The production has started (on the MO or on the WO).\n"
 " * To Close: The production is done, the MO has to be closed.\n"
 " * Done: The MO is closed, the stock moves are posted. \n"
@@ -6229,7 +6258,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6711,6 +6743,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7039,6 +7074,7 @@ msgstr " <br/><br/> Komponente bodo vzete iz <b>%s</b>."
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7927,6 +7963,10 @@ msgid ""
 " <br/><br/> The manufactured products will be moved towards <b>%"
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
 >>>>>>> upstream/18.0
+=======
+" <br/><br/> The manufactured products will be moved towards <b>%"
+"(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -8092,7 +8132,11 @@ msgid " When all components are available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " Ko so vse komponente na voljo"
+>>>>>>> upstream/18.0
 =======
 msgstr " Ko so vse komponente na voljo"
 >>>>>>> upstream/18.0
@@ -8784,7 +8828,11 @@ msgid "%(product)s: Insufficient Quantity To Unbuild"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Nezadnostna količina za razgradnjo"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Nezadnostna količina za razgradnjo"
 >>>>>>> upstream/18.0
@@ -9334,6 +9382,7 @@ msgid "+ %d day(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp
@@ -9815,6 +9864,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "+ %d dan/dni"
+
+#. module: mrp
 >>>>>>> upstream/18.0
 =======
 msgstr "+ %d dan/dni"
@@ -10083,6 +10137,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10631,7 +10688,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              3 Steps: Pick components from stock, produce, and then move final product(s) from production area to stock."
+=======
+"              3 Steps: Pick components from stock, produce, and then move "
+"final product(s) from production area to stock."
+>>>>>>> upstream/18.0
 =======
 "              3 Steps: Pick components from stock, produce, and then move "
 "final product(s) from production area to stock."
@@ -11557,7 +11619,11 @@ msgid "100"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "100"
+>>>>>>> upstream/18.0
 =======
 msgstr "100"
 >>>>>>> upstream/18.0
@@ -12438,7 +12504,11 @@ msgid "25"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "25"
+>>>>>>> upstream/18.0
 =======
 msgstr "25"
 >>>>>>> upstream/18.0
@@ -13322,6 +13392,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 
@@ -13329,6 +13400,8 @@ msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13866,6 +13939,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14400,9 +14476,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14935,6 +15014,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15296,6 +15378,7 @@ msgid ""
 "<p class=\"o_view_nocontent_smiling_face\">\n"
 "                        Upload files to your product\n"
 "                    </p><p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16182,6 +16265,10 @@ msgid ""
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
 >>>>>>> upstream/18.0
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 "                    </p>"
 msgstr ""
 
@@ -16210,7 +16297,11 @@ msgid "<span class=\"col-6\">Late</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Zapoznelo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Zapoznelo</span>"
 >>>>>>> upstream/18.0
@@ -16288,7 +16379,11 @@ msgid "<span class=\"col-6\">Waiting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Na čakanju</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Na čakanju</span>"
 >>>>>>> upstream/18.0
@@ -16504,7 +16599,11 @@ msgid "<span class=\"fw-bold text-nowrap\">To Produce</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bold text-nowrap\">Izdelati</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-bold text-nowrap\">Izdelati</span>"
 >>>>>>> upstream/18.0
@@ -17154,7 +17253,11 @@ msgid "<span class=\"o_stat_text\">BoM Overview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Pregled kosovnice</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Pregled kosovnice</span>"
 >>>>>>> upstream/18.0
@@ -17804,7 +17907,11 @@ msgid "<span class=\"o_stat_text\">Load</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Obremenjenost</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Obremenjenost</span>"
 >>>>>>> upstream/18.0
@@ -18415,7 +18522,11 @@ msgid "<span class=\"o_stat_text\">Manufacturing</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Proizvodnja</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Proizvodnja</span>"
 >>>>>>> upstream/18.0
@@ -18935,7 +19046,11 @@ msgid "<span class=\"o_stat_text\">Operations<br/>Performance</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Učinkovitost<br/>operacij</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Učinkovitost<br/>operacij</span>"
 >>>>>>> upstream/18.0
@@ -19580,7 +19695,11 @@ msgid "<span class=\"o_stat_text\">Overview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Pregled</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Pregled</span>"
 >>>>>>> upstream/18.0
@@ -20226,7 +20345,11 @@ msgid "<span class=\"o_stat_text\">Product Moves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Premiki izdelkov</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Premiki izdelkov</span>"
 >>>>>>> upstream/18.0
@@ -20724,7 +20847,11 @@ msgid "<span class=\"o_stat_text\">Traceability</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Sledljivost</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Sledljivost</span>"
 >>>>>>> upstream/18.0
@@ -20786,6 +20913,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid ""
 "<span class=\"text-muted\">Modifying the quantity to produce will also "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21673,6 +21801,10 @@ msgid ""
 "modify the quantities of components to consume for this manufacturing order."
 "</span>"
 >>>>>>> upstream/18.0
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -21845,7 +21977,11 @@ msgid "<span>&amp;nbsp;(minutes)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>&amp;nbsp;(minute)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>&amp;nbsp;(minute)</span>"
 >>>>>>> upstream/18.0
@@ -22526,7 +22662,11 @@ msgid "<span>minutes</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>minut</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>minut</span>"
 >>>>>>> upstream/18.0
@@ -23167,7 +23307,11 @@ msgid "<strong class=\"mr8 oe_inline\">to</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"mr8 oe_inline\">do</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"mr8 oe_inline\">do</strong>"
 >>>>>>> upstream/18.0
@@ -23896,7 +24040,11 @@ msgid "? This may lead to inconsistencies in your inventory."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "? To lahko privede do nedoslednosti v vašem inventarju."
+>>>>>>> upstream/18.0
 =======
 msgstr "? To lahko privede do nedoslednosti v vašem inventarju."
 >>>>>>> upstream/18.0
@@ -24544,7 +24692,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
+=======
+"                                Instead, it is used to decompose a BoM into "
+"its components when:"
+>>>>>>> upstream/18.0
 =======
 "                                Instead, it is used to decompose a BoM into "
 "its components when:"
@@ -25555,7 +25708,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs!"
+=======
+"You should install the mrp_byproduct module if you want to manage extra "
+"products on BoMs!"
+>>>>>>> upstream/18.0
 =======
 "You should install the mrp_byproduct module if you want to manage extra "
 "products on BoMs!"
@@ -26445,7 +26603,11 @@ msgid "Allow Work Order Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dovoli odvisnosti med delovnimi nalogi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dovoli odvisnosti med delovnimi nalogi"
 >>>>>>> upstream/18.0
@@ -27073,6 +27235,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dovoli uporabnikom proizvodnje, da urejajo količine za porabo, brez potrebe "
+"za predhodnjo dovoljenje"
+>>>>>>> upstream/18.0
 =======
 "Dovoli uporabnikom proizvodnje, da urejajo količine za porabo, brez potrebe "
 "za predhodnjo dovoljenje"
@@ -27882,7 +28049,11 @@ msgid "Allowed with warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dovoljeno z opozorilom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dovoljeno z opozorilom"
 >>>>>>> upstream/18.0
@@ -28527,7 +28698,11 @@ msgid "Alternative Workcenters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alternativne delovne postaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alternativne delovne postaje"
 >>>>>>> upstream/18.0
@@ -29170,6 +29345,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alternativne delovne postaje, ki so lahko zamenjane s to, za odpremo "
+"proizvodnje"
+>>>>>>> upstream/18.0
 =======
 "Alternativne delovne postaje, ki so lahko zamenjane s to, za odpremo "
 "proizvodnje"
@@ -29970,7 +30150,11 @@ msgid "Archive Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhiviraj operacijo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhiviraj operacijo"
 >>>>>>> upstream/18.0
@@ -30624,7 +30808,11 @@ msgid "Are you sure you want to cancel this manufacturing order?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ste prepričani, da želite preklicati ta proizvodni nalog?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ste prepričani, da želite preklicati ta proizvodni nalog?"
 >>>>>>> upstream/18.0
@@ -31395,8 +31583,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+>>>>>>> upstream/18.0
 =======
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
@@ -32368,8 +32561,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+>>>>>>> upstream/18.0
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 >>>>>>> upstream/18.0
@@ -33156,6 +33353,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bills of Materials, also called recipes, are used to autocomplete components"
 " and work order instructions."
 =======
@@ -33232,6 +33430,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33711,6 +33911,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34210,7 +34413,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                materials used to make a finished product; through a manufacturing\n"
+=======
+"                materials used to make a finished product; through a "
+"manufacturing\n"
+>>>>>>> upstream/18.0
 =======
 "                materials used to make a finished product; through a "
 "manufacturing\n"
@@ -35157,7 +35365,11 @@ msgid "BoM Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stroški kosovnic"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stroški kosovnic"
 >>>>>>> upstream/18.0
@@ -35799,7 +36011,11 @@ msgid "BoM Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavka kosovnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavka kosovnice"
 >>>>>>> upstream/18.0
@@ -36451,7 +36667,11 @@ msgid "BoM Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled kosovnice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled kosovnice"
 >>>>>>> upstream/18.0
@@ -37117,7 +37337,11 @@ msgid "By-product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stranski izdelek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stranski izdelek"
 >>>>>>> upstream/18.0
@@ -37775,7 +37999,11 @@ msgid "By-products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stranski izdelki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stranski izdelki"
 >>>>>>> upstream/18.0
@@ -38613,7 +38841,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Katalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Katalog"
 >>>>>>> upstream/18.0
@@ -39690,7 +39922,11 @@ msgid "Cleanup Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trajanje čiščenja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trajanje čiščenja"
 >>>>>>> upstream/18.0
@@ -40335,7 +40571,11 @@ msgid "Cleanup Time (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trajanje čiščenja (minute)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trajanje čiščenja (minute)"
 >>>>>>> upstream/18.0
@@ -41022,7 +41262,11 @@ msgid "Component Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status komponent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status komponent"
 >>>>>>> upstream/18.0
@@ -41690,7 +41934,11 @@ msgid "Components Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komponente na voljo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Komponente na voljo"
 >>>>>>> upstream/18.0
@@ -42348,7 +42596,11 @@ msgid "Compute based on tracked time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izračunaj na podlagi beleženega časa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izračunaj na podlagi beleženega časa"
 >>>>>>> upstream/18.0
@@ -42834,6 +43086,7 @@ msgstr "Izračunaj na podlagi beleženega časa"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43899,6 +44152,11 @@ msgid ""
 "subassemblies.                                                       Also "
 "note that purchase security lead times will be added when appropriate."
 >>>>>>> upstream/18.0
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: mrp
@@ -44064,7 +44322,11 @@ msgid "Computed on last"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazadnje izračunano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazadnje izračunano"
 >>>>>>> upstream/18.0
@@ -44753,7 +45015,11 @@ msgid "Consumed in Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porabljeno v operaciji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Porabljeno v operaciji"
 >>>>>>> upstream/18.0
@@ -45406,7 +45672,11 @@ msgid "Consumption Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opozorilo o porabi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opozorilo o porabi"
 >>>>>>> upstream/18.0
@@ -46058,7 +46328,11 @@ msgid "Copy Existing Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopiraj obstoječe operacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kopiraj obstoječe operacije"
 >>>>>>> upstream/18.0
@@ -46716,7 +46990,11 @@ msgid "Cost Share (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delež Stroškov (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Delež Stroškov (%)"
 >>>>>>> upstream/18.0
@@ -47371,7 +47649,11 @@ msgid "Count of MO generated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število odprtih proizvodnih nalogov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število odprtih proizvodnih nalogov"
 >>>>>>> upstream/18.0
@@ -47914,8 +48196,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -48823,7 +49110,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
+=======
+"Create and confirm Manufacturing Orders this many days in advance, to have "
+"enough time to replenish components or manufacture semi-finished products.\n"
+>>>>>>> upstream/18.0
 =======
 "Create and confirm Manufacturing Orders this many days in advance, to have "
 "enough time to replenish components or manufacture semi-finished products.\n"
@@ -49805,6 +50097,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -49815,6 +50108,8 @@ msgstr ""
 "V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji zaloge tega skladišča ali njemu podrejenih.\n"
 "Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa 'Interna'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50359,6 +50654,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50904,6 +51202,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Datum načrtovanega konca proizvodnje ali datum dejanskega konca proizvodnje."
+>>>>>>> upstream/18.0
 =======
 "Datum načrtovanega konca proizvodnje ali datum dejanskega konca proizvodnje."
 >>>>>>> upstream/18.0
@@ -51546,6 +51848,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Datum načrtovanega začetka proizvodnje ali datum, ko ko je dejansko bila "
+"proizvodnja začeta."
+>>>>>>> upstream/18.0
 =======
 "Datum načrtovanega začetka proizvodnje ali datum, ko ko je dejansko bila "
 "proizvodnja začeta."
@@ -52365,7 +52672,11 @@ msgid "Days to prepare Manufacturing Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dni za pripravo proizvodnega naloga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dni za pripravo proizvodnega naloga"
 >>>>>>> upstream/18.0
@@ -53015,7 +53326,11 @@ msgid "Default Duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privzeto trajanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Privzeto trajanje"
 >>>>>>> upstream/18.0
@@ -53684,6 +53999,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
 =======
@@ -53777,6 +54093,8 @@ msgid ""
 "production will only be counted once."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54247,6 +54565,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54794,6 +55115,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Določite delovni urnik vira. Če ni nastavljen, bo imel vir popolnoma "
+"prilagodljiv delovni čas."
+>>>>>>> upstream/18.0
 =======
 "Določite delovni urnik vira. Če ni nastavljen, bo imel vir popolnoma "
 "prilagodljiv delovni čas."
@@ -55847,12 +56173,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
 "  Note that in the case of component Highlight Consumption, where consumption is registered manually exclusively, consumption warnings will still be issued when appropriate also.\n"
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56391,6 +56720,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56913,7 +57245,11 @@ msgid "Delayed Productions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamaknjene proizvodnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamaknjene proizvodnje"
 >>>>>>> upstream/18.0
@@ -57550,7 +57886,11 @@ msgid "Delegate part of the production process to subcontractors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delegiraj del proizvodnega procesa podizvajalcem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Delegiraj del proizvodnega procesa podizvajalcem"
 >>>>>>> upstream/18.0
@@ -58194,7 +58534,11 @@ msgid "Description of the work center..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis delovne postaje..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis delovne postaje..."
 >>>>>>> upstream/18.0
@@ -58953,6 +59297,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -59967,7 +60315,11 @@ msgid "Do you confirm you want to unbuild"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrjujete, da želite razgraditi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrjujete, da želite razgraditi"
 >>>>>>> upstream/18.0
@@ -60659,7 +61011,11 @@ msgid "Duration Computation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izračun Trajanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izračun Trajanja"
 >>>>>>> upstream/18.0
@@ -61373,7 +61729,11 @@ msgid "End"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konec"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konec"
 >>>>>>> upstream/18.0
@@ -62228,7 +62588,11 @@ msgid "Ensure the traceability of a storable product in your warehouse."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zagotovite sledljivost skladiščenega izdelka v vašem skladišču."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zagotovite sledljivost skladiščenega izdelka v vašem skladišču."
 >>>>>>> upstream/18.0
@@ -63046,7 +63410,11 @@ msgid "Equipment Failure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napaka na opremi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napaka na opremi"
 >>>>>>> upstream/18.0
@@ -63694,7 +64062,11 @@ msgid "Exception(s) occurred on the manufacturing order(s):"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izjeme so se pojavila na sledečih proizvodih nalogih:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izjeme so se pojavila na sledečih proizvodih nalogih:"
 >>>>>>> upstream/18.0
@@ -64353,7 +64725,11 @@ msgid "Expected %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pričakovano %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pričakovano %s"
 >>>>>>> upstream/18.0
@@ -65001,7 +65377,11 @@ msgid "Expected Duration (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pričakovano trajanje (minute)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pričakovano trajanje (minute)"
 >>>>>>> upstream/18.0
@@ -65710,7 +66090,11 @@ msgid "Flexible Consumption"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagodljiva Poraba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagodljiva Poraba"
 >>>>>>> upstream/18.0
@@ -66509,7 +66893,11 @@ msgid "Force"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sila"
 >>>>>>> upstream/18.0
@@ -67526,7 +67914,11 @@ msgid "Forecast Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poročilo napovedi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poročilo napovedi"
 >>>>>>> upstream/18.0
@@ -68174,6 +68566,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -68183,6 +68576,8 @@ msgstr ""
 "V kontekstu posameznega skladišča vključuje blago shranjeno na lokaciji zaloge tega skladišča in njemu podrejenih.\n"
 "Drugače vključuje blago shranjeno na katerikoli lokaciji zaloge tipa 'interna'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68725,6 +69120,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69266,7 +69664,11 @@ msgid "Free to use / On Hand"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosto za uporabo / Na zalogi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosto za uporabo / Na zalogi"
 >>>>>>> upstream/18.0
@@ -69917,7 +70319,11 @@ msgid "Fully Productive Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polno produktiven čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polno produktiven čas"
 >>>>>>> upstream/18.0
@@ -70660,7 +71066,11 @@ msgid "Google Slide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Diapozitiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Diapozitiv"
 >>>>>>> upstream/18.0
@@ -71497,7 +71907,11 @@ msgid "Google Slide Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezava do Google diapozitivov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezava do Google diapozitivov"
 >>>>>>> upstream/18.0
@@ -72408,7 +72822,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73119,6 +73536,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73757,7 +74177,11 @@ msgid "Highlight Consumption"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi porabo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označi porabo"
 >>>>>>> upstream/18.0
@@ -74397,7 +74821,11 @@ msgid "Hourly processing cost."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Strošek ure operiranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Strošek ure operiranja"
 >>>>>>> upstream/18.0
@@ -75126,8 +75554,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Če je označeno, se bo v primeru preklica (ali razdelitve) premika prejšnjega"
 " premika (ki ga je ustvarilo naslednje oskrbovanje), isto zgodilo s tem "
+=======
+"Če je označeno, se bo v primeru preklica (ali razdelitve) premika prejšnjega "
+"premika (ki ga je ustvarilo naslednje oskrbovanje), isto zgodilo s tem "
+>>>>>>> upstream/18.0
 =======
 "Če je označeno, se bo v primeru preklica (ali razdelitve) premika prejšnjega "
 "premika (ki ga je ustvarilo naslednje oskrbovanje), isto zgodilo s tem "
@@ -76021,8 +76454,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Če je aktivno polje nastavljeno, bo doboljeno skriti zapis vira, ne da bi ga"
 " brisali."
+=======
+"Če je aktivno polje nastavljeno, bo doboljeno skriti zapis vira, ne da bi ga "
+"brisali."
+>>>>>>> upstream/18.0
 =======
 "Če je aktivno polje nastavljeno, bo doboljeno skriti zapis vira, ne da bi ga "
 "brisali."
@@ -76933,8 +77371,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
@@ -77844,8 +78287,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to plan the workorder. Please check the workcenter "
 "availabilities."
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+>>>>>>> upstream/18.0
 =======
 "Impossible to plan the workorder. Please check the workcenter availabilities."
 >>>>>>> upstream/18.0
@@ -78578,6 +79025,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Informativen datum, ki dovoljuje definiranje kdaj je proizvodni nalog "
+"lahkonajkasneje izveden, da izpolnjuje pravočasno dostavo."
+>>>>>>> upstream/18.0
 =======
 "Informativen datum, ki dovoljuje definiranje kdaj je proizvodni nalog "
 "lahkonajkasneje izveden, da izpolnjuje pravočasno dostavo."
@@ -79399,8 +79851,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 =======
 msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
@@ -80231,7 +80687,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Janez Novak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Janez Novak"
 >>>>>>> upstream/18.0
@@ -81218,7 +81678,11 @@ msgid "Kanban Dashboard Graph"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Graf nadzorne plošče Kanban"
+>>>>>>> upstream/18.0
 =======
 msgstr "Graf nadzorne plošče Kanban"
 >>>>>>> upstream/18.0
@@ -82334,7 +82798,11 @@ msgid "Late Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapoznela razpoložljivost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapoznela razpoložljivost"
 >>>>>>> upstream/18.0
@@ -82983,6 +83451,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Status razpoložljivosti najkasnejših komponent za ta PN. Zeleno pomeni, da "
+"ima PN status pripravljenosti pripravljeno, glede na konfiguracijo kosovnice."
+>>>>>>> upstream/18.0
 =======
 "Status razpoložljivosti najkasnejših komponent za ta PN. Zeleno pomeni, da "
 "ima PN status pripravljenosti pripravljeno, glede na konfiguracijo kosovnice."
@@ -83824,7 +84297,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Select Bill of Materials to visualise this document as a product attachment when this product is in a bill of material."
+=======
+"Select Bill of Materials to visualise this document as a product attachment "
+"when this product is in a bill of material."
+>>>>>>> upstream/18.0
 =======
 "Select Bill of Materials to visualise this document as a product attachment "
 "when this product is in a bill of material."
@@ -84725,7 +85203,11 @@ msgid "Lock/Unlock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakleni/odkleni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakleni/odkleni"
 >>>>>>> upstream/18.0
@@ -85414,7 +85896,11 @@ msgid "MO Backorder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaostalo naročilo za PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaostalo naročilo za PN"
 >>>>>>> upstream/18.0
@@ -86056,7 +86542,11 @@ msgid "MO Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PN preklican"
+>>>>>>> upstream/18.0
 =======
 msgstr "PN preklican"
 >>>>>>> upstream/18.0
@@ -86698,7 +87188,11 @@ msgid "MO Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PN potrjen"
+>>>>>>> upstream/18.0
 =======
 msgstr "PN potrjen"
 >>>>>>> upstream/18.0
@@ -87341,7 +87835,11 @@ msgid "MO Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Strošek PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Strošek PN"
 >>>>>>> upstream/18.0
@@ -87983,7 +88481,11 @@ msgid "MO Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stroški PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stroški PN"
 >>>>>>> upstream/18.0
@@ -88637,7 +89139,11 @@ msgid "MO Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled PN"
 >>>>>>> upstream/18.0
@@ -89278,7 +89784,11 @@ msgid "MO Overview Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poročilo s pregledom PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poročilo s pregledom PN"
 >>>>>>> upstream/18.0
@@ -89920,7 +90430,11 @@ msgid "MO Pending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čakajoči PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čakajoči PN"
 >>>>>>> upstream/18.0
@@ -90561,7 +91075,11 @@ msgid "MO Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napredek PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napredek PN"
 >>>>>>> upstream/18.0
@@ -91191,7 +91709,11 @@ msgid "MO Readiness"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pripravljenost PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pripravljenost PN"
 >>>>>>> upstream/18.0
@@ -91836,7 +92358,11 @@ msgid "MO Ready"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pripravljeni PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pripravljeni PN"
 >>>>>>> upstream/18.0
@@ -92476,7 +93002,11 @@ msgid "MO To Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PN za končati"
+>>>>>>> upstream/18.0
 =======
 msgstr "PN za končati"
 >>>>>>> upstream/18.0
@@ -93314,9 +93844,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93849,6 +94382,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94384,9 +94920,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94919,6 +95458,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95281,6 +95823,7 @@ msgstr ""
 msgid ""
 "Manufacturing readiness for this MO, as per bill of material configuration:\n"
 "            * Ready: The material is available to start the production.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95849,6 +96392,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            * Waiting: The material is not available to start the "
 "production.\n"
 msgstr ""
@@ -96013,6 +96558,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96624,7 +97172,11 @@ msgid "Marc Demo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marc Demo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marc Demo"
 >>>>>>> upstream/18.0
@@ -97653,7 +98205,11 @@ msgid "Material Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razpoližljivost materiala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razpoližljivost materiala"
 >>>>>>> upstream/18.0
@@ -98378,7 +98934,11 @@ msgid "My MOs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moji PN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moji PN"
 >>>>>>> upstream/18.0
@@ -99095,7 +99655,10 @@ msgstr "Brez zaostalega naročila"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99630,6 +100193,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100277,7 +100843,11 @@ msgid "No product found. Let's create one!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni najdenega izdelka. Ustvarimo enega!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni najdenega izdelka. Ustvarimo enega!"
 >>>>>>> upstream/18.0
@@ -101258,7 +101828,11 @@ msgid "No work orders to do!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ni delovnih nalogov za opraviti!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ni delovnih nalogov za opraviti!"
 >>>>>>> upstream/18.0
@@ -102023,7 +102597,11 @@ msgid "OEE Target"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OEE cilj"
+>>>>>>> upstream/18.0
 =======
 msgstr "OEE cilj"
 >>>>>>> upstream/18.0
@@ -102671,9 +103249,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103206,6 +103787,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -103767,7 +104351,11 @@ msgid "Operation Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odvisne Operacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odvisne Operacije"
 >>>>>>> upstream/18.0
@@ -104441,7 +105029,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
+=======
+"                Each operation is done at a specific Work Center and has a "
+"specific duration."
+>>>>>>> upstream/18.0
 =======
 "                Each operation is done at a specific Work Center and has a "
 "specific duration."
@@ -105440,7 +106033,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija ni podprta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija ni podprta"
 >>>>>>> upstream/18.0
@@ -106520,7 +107117,11 @@ msgid "Overall Effective Efficiency Target in percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cilj splošna efektivne učinkovitosti v procentih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cilj splošna efektivne učinkovitosti v procentih"
 >>>>>>> upstream/18.0
@@ -107152,7 +107753,11 @@ msgid "Overall Equipment Effectiveness"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Splošna učinkovitost opreme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Splošna učinkovitost opreme"
 >>>>>>> upstream/18.0
@@ -107941,7 +108546,11 @@ msgid "Parent Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Starševski čarovnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Starševski čarovnik"
 >>>>>>> upstream/18.0
@@ -108965,6 +109574,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prilepite URL svojega Google Slide-a. Prepričajte se, da je dostop do "
+"dokumenta javen."
+>>>>>>> upstream/18.0
 =======
 "Prilepite URL svojega Google Slide-a. Prepričajte se, da je dostop do "
 "dokumenta javen."
@@ -110059,7 +110673,11 @@ msgid "Plan Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Načrtuj naloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Načrtuj naloge"
 >>>>>>> upstream/18.0
@@ -110699,7 +111317,11 @@ msgid "Plan based on Components Availability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Načrtuj glede na razpoložljivost komponent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Načrtuj glede na razpoložljivost komponent"
 >>>>>>> upstream/18.0
@@ -111379,7 +112001,11 @@ msgid "Print Work Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Natisni delovni nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Natisni delovni nalog"
 >>>>>>> upstream/18.0
@@ -111824,7 +112450,11 @@ msgid "Process Defect"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napaka v procesu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napaka v procesu"
 >>>>>>> upstream/18.0
@@ -112461,7 +113091,11 @@ msgid "Process manufacturing orders from the barcode application"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obdelava proizvodnih nalogov iz aplikacije za črtne kode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obdelava proizvodnih nalogov iz aplikacije za črtne kode"
 >>>>>>> upstream/18.0
@@ -113086,7 +113720,11 @@ msgid "Process operations at specific work centers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procesiraj operacije na določenih delovnih postajah"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procesiraj operacije na določenih delovnih postajah"
 >>>>>>> upstream/18.0
@@ -113739,7 +114377,11 @@ msgid "Produce All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvedi vse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvedi vse"
 >>>>>>> upstream/18.0
@@ -114384,7 +115026,11 @@ msgid "Produce residual products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvedi stranske izdelke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvedi stranske izdelke"
 >>>>>>> upstream/18.0
@@ -115009,7 +115655,11 @@ msgid "Produce residual products (A + B -> C + D)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvedi stranske izdelke (A + B -> C + D)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvedi stranske izdelke (A + B -> C + D)"
 >>>>>>> upstream/18.0
@@ -115640,7 +116290,11 @@ msgid "Produced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdelano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izdelano"
 >>>>>>> upstream/18.0
@@ -116285,7 +116939,11 @@ msgid "Produced in Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdelano v operaciji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izdelano v operaciji"
 >>>>>>> upstream/18.0
@@ -116953,7 +117611,11 @@ msgid "Product Attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priponke izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Priponke izdelka"
 >>>>>>> upstream/18.0
@@ -117600,7 +118262,11 @@ msgid "Product Moves (Stock Move Line)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Premiki zaloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Premiki zaloge"
 >>>>>>> upstream/18.0
@@ -118166,7 +118832,11 @@ msgid "Product to build..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdelek za izdelavo..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Izdelek za izdelavo..."
 >>>>>>> upstream/18.0
@@ -118829,7 +119499,11 @@ msgid "Production Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informacije o proizvodnji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informacije o proizvodnji"
 >>>>>>> upstream/18.0
@@ -119527,7 +120201,11 @@ msgid "Productive Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čas dela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čas dela"
 >>>>>>> upstream/18.0
@@ -120167,7 +120845,11 @@ msgid "Productive hours over the last month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ure dela zadnji mesec"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ure dela zadnji mesec"
 >>>>>>> upstream/18.0
@@ -120878,7 +121560,11 @@ msgid "Quantity Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostala količina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preostala količina"
 >>>>>>> upstream/18.0
@@ -121589,7 +122275,11 @@ msgid "Real Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dejanski strošek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dejanski strošek"
 >>>>>>> upstream/18.0
@@ -122231,7 +122921,11 @@ msgid "Real Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dejanski stroški"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dejanski stroški"
 >>>>>>> upstream/18.0
@@ -122897,7 +123591,11 @@ msgid "Reduced Speed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zmanjšana hitrost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zmanjšana hitrost"
 >>>>>>> upstream/18.0
@@ -123538,7 +124236,11 @@ msgid "Reduced Yield"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zmanjšan iztržek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zmanjšan iztržek"
 >>>>>>> upstream/18.0
@@ -124208,8 +124910,12 @@ msgstr "Referenca mora biti enoznačna"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
@@ -124937,7 +125643,11 @@ msgid "Replenishments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obnovitve količin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obnovitve količin"
 >>>>>>> upstream/18.0
@@ -125663,7 +126373,11 @@ msgid "Scheduled End"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Načrtovan konec"
+>>>>>>> upstream/18.0
 =======
 msgstr "Načrtovan konec"
 >>>>>>> upstream/18.0
@@ -126336,7 +127050,11 @@ msgid "Scrap Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odpiši izdelke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpiši izdelke"
 >>>>>>> upstream/18.0
@@ -127046,7 +127764,11 @@ msgid "Set Quantities & Validate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavi količine & Potrdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavi količine & Potrdi"
 >>>>>>> upstream/18.0
@@ -127693,7 +128415,11 @@ msgid "Set duration manually"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ročno nastavljanje trajanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ročno nastavljanje trajanja"
 >>>>>>> upstream/18.0
@@ -128336,6 +129062,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nastavi vrsti red, v katerem se naj delovni nalogi procesirajo. Vključi to "
+"funcionalnost znotraj vsake kosovnice v zavihku 'Razno'"
+>>>>>>> upstream/18.0
 =======
 "Nastavi vrsti red, v katerem se naj delovni nalogi procesirajo. Vključi to "
 "funcionalnost znotraj vsake kosovnice v zavihku 'Razno'"
@@ -129127,7 +129858,11 @@ msgid "Setup Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trajanje nastavitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trajanje nastavitve"
 >>>>>>> upstream/18.0
@@ -129772,7 +130507,11 @@ msgid "Setup Time (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trajanje nastavitve (minute)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trajanje nastavitve (minute)"
 >>>>>>> upstream/18.0
@@ -130416,7 +131155,11 @@ msgid "Setup and Adjustments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavitev in nastavitve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavitev in nastavitve"
 >>>>>>> upstream/18.0
@@ -131160,6 +131903,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders are already done, so you cannot unplan this manufacturing order.\n"
 =======
 "Some work orders are already done, so you cannot unplan this manufacturing "
@@ -131253,6 +131997,8 @@ msgid ""
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -131724,6 +132470,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132038,6 +132787,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132616,6 +133366,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Some work orders have already started, so you cannot unplan this "
 "manufacturing order.\n"
 "\n"
@@ -132779,6 +133531,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -133102,6 +133857,7 @@ msgstr "Izvorna lokacija"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "Specific Capacities"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133655,6 +134411,8 @@ msgid "Specific number of pieces that can be produced in parallel per product."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Specifične kapacitete"
 
 #. module: mrp
@@ -133819,6 +134577,9 @@ msgid "Specific number of pieces that can be produced in parallel per product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134374,7 +135135,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zvezna država ali regija"
+=======
+msgstr "Stanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stanje"
 >>>>>>> upstream/18.0
@@ -135091,7 +135856,11 @@ msgid "Subcontracting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podizvajanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podizvajanje"
 >>>>>>> upstream/18.0
@@ -135802,7 +136571,11 @@ msgid "The Workorder (%s) cannot be started twice!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delovni nalogi (%s) ne morejo biti začeti dvakrat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Delovni nalogi (%s) ne morejo biti začeti dvakrat!"
 >>>>>>> upstream/18.0
@@ -136480,6 +137253,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Operacija, kjer so bile komponente porabljene ali pa kreirani končni izdelki."
+>>>>>>> upstream/18.0
 =======
 "Operacija, kjer so bile komponente porabljene ali pa kreirani končni izdelki."
 >>>>>>> upstream/18.0
@@ -137134,6 +137911,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odstotek končnih stroškov proizvodnje za ta stranski izdelek. Vsota deležev "
+"vseh stranskih izdelkov mora biti manjša ali enaka 100."
+>>>>>>> upstream/18.0
 =======
 "Odstotek končnih stroškov proizvodnje za ta stranski izdelek. Vsota deležev "
 "vseh stranskih izdelkov mora biti manjša ali enaka 100."
@@ -137958,7 +138740,11 @@ msgid "The quantity to unbuild must be positive!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina za razgradnjo mora biti pozitivna!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Količina za razgradnjo mora biti pozitivna!"
 >>>>>>> upstream/18.0
@@ -138606,8 +139392,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The serial number %(number)s used for byproduct %(product_name)s has already"
 " been produced"
+=======
+"The serial number %(number)s used for byproduct %(product_name)s has already "
+"been produced"
+>>>>>>> upstream/18.0
 =======
 "The serial number %(number)s used for byproduct %(product_name)s has already "
 "been produced"
@@ -139655,6 +140446,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To polje se uporablja za določitev časovnega pasu, v katerem bodo viri "
+"delovali."
+>>>>>>> upstream/18.0
 =======
 "To polje se uporablja za določitev časovnega pasu, v katerem bodo viri "
 "delovali."
@@ -140896,7 +141692,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -141363,6 +142162,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141696,6 +142498,7 @@ msgstr "To je strošek, določen na izdelku."
 #. module: mrp
 #: model_terms:ir.actions.act_window,help:mrp.action_mrp_unbuild_moves
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142228,6 +143031,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This menu gives you the full traceability of inventory operations on a "
 "specific product.\n"
 "                You can filter on the product to see all the past movements "
@@ -142408,6 +143213,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -142957,7 +143765,11 @@ msgid "Time Efficiency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Časovna učinkovitost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Časovna učinkovitost"
 >>>>>>> upstream/18.0
@@ -143612,7 +144424,11 @@ msgid "Time Tracking: %(user)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beleženje časa: %(user)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Beleženje časa: %(user)s"
 >>>>>>> upstream/18.0
@@ -144311,7 +145127,11 @@ msgid "To Launch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za pričeti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za pričeti"
 >>>>>>> upstream/18.0
@@ -144968,7 +145788,11 @@ msgid "To Produce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdelati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izdelati"
 >>>>>>> upstream/18.0
@@ -145691,7 +146515,11 @@ msgid "Total expected duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupaj pričakovano trajanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupaj pričakovano trajanje"
 >>>>>>> upstream/18.0
@@ -146332,7 +147160,11 @@ msgid "Total expected duration (in minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupaj pričakovano trajanje (v minutah)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupaj pričakovano trajanje (v minutah)"
 >>>>>>> upstream/18.0
@@ -146973,7 +147805,11 @@ msgid "Total real duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupaj dejansko trajanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupaj dejansko trajanje"
 >>>>>>> upstream/18.0
@@ -147614,7 +148450,11 @@ msgid "Total real duration (in minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupaj dejansko trajanje (v minutah)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupaj dejansko trajanje (v minutah)"
 >>>>>>> upstream/18.0
@@ -148342,7 +149182,11 @@ msgid "Unbuilt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nekončano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nekončano"
 >>>>>>> upstream/18.0
@@ -148988,7 +149832,11 @@ msgid "Unfold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razvij"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razvij"
 >>>>>>> upstream/18.0
@@ -149686,7 +150534,11 @@ msgid "Unit Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stroški enote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stroški enote"
 >>>>>>> upstream/18.0
@@ -150509,7 +151361,11 @@ msgid "Unlock Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odkleni proizvodne naloge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odkleni proizvodne naloge"
 >>>>>>> upstream/18.0
@@ -151139,7 +151995,11 @@ msgid "Unplan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odplaniraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odplaniraj"
 >>>>>>> upstream/18.0
@@ -151775,7 +152635,11 @@ msgid "Update BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posodobi kosovnico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posodobi kosovnico"
 >>>>>>> upstream/18.0
@@ -152453,7 +153317,11 @@ msgid "Upload your PDF file."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naložite svojo datoteko PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "Naložite svojo datoteko PDF."
 >>>>>>> upstream/18.0
@@ -153319,8 +154187,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "specified for a tracked product that is having its consumed amount "
 "increased:%(products)s"
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+>>>>>>> upstream/18.0
 =======
 "specified for a tracked product that is having its consumed amount increased:"
 "%(products)s"
@@ -154252,7 +155125,11 @@ msgid "Waiting for another WO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čaka na drug DN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čaka na drug DN"
 >>>>>>> upstream/18.0
@@ -154931,7 +155808,11 @@ msgid "Waiting for components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čaka na komponente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čaka na komponente"
 >>>>>>> upstream/18.0
@@ -155634,8 +156515,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
+=======
+"try to create a Manufacturing Order for that product using a BoM of the same "
+"operation type. That allows to define stock rules which trigger different "
+>>>>>>> upstream/18.0
 =======
 "try to create a Manufacturing Order for that product using a BoM of the same "
 "operation type. That allows to define stock rules which trigger different "
@@ -156528,9 +157414,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -157063,6 +157952,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -157581,7 +158473,11 @@ msgid "When components for 1st operation are available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ko so na voljo komponente za prvo operacijo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ko so na voljo komponente za prvo operacijo"
 >>>>>>> upstream/18.0
@@ -158331,6 +159227,7 @@ msgid "Work Centers Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Pregled Delovnih Postaj"
@@ -158424,6 +159321,9 @@ msgstr "Pregled Delovnih Postaj"
 >>>>>>> upstream/18.0
 =======
 msgstr "Pregled Delovnih Postaj"
+>>>>>>> upstream/18.0
+=======
+msgstr "Pregled delovnih postaj"
 >>>>>>> upstream/18.0
 =======
 msgstr "Pregled delovnih postaj"
@@ -158987,7 +159887,11 @@ msgid "Work Order Dependencies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odvisnosti med delovnimi nalogi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odvisnosti med delovnimi nalogi"
 >>>>>>> upstream/18.0
@@ -159658,7 +160562,11 @@ msgid "Work Sheet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delovni list"
+>>>>>>> upstream/18.0
 =======
 msgstr "Delovni list"
 >>>>>>> upstream/18.0
@@ -160326,7 +161234,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
+=======
+"                    Operations are defined in the bill of materials or added "
+"in the manufacturing order directly."
+>>>>>>> upstream/18.0
 =======
 "                    Operations are defined in the bill of materials or added "
 "in the manufacturing order directly."
@@ -161221,6 +162134,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 =======
 "            Operations are defined in the bill of materials or added in the "
@@ -161312,6 +162226,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161780,6 +162696,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -162248,7 +163167,11 @@ msgid "Work orders in progress. Click to block work center."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delovni nalogi v teku. Kliknite za blokiranje deovne postaje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Delovni nalogi v teku. Kliknite za blokiranje deovne postaje."
 >>>>>>> upstream/18.0
@@ -163011,6 +163934,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 <<<<<<< HEAD
@@ -163124,6 +164048,8 @@ msgid ""
 "You cannot change the workcenter of a work order that is in progress or done."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -163580,6 +164506,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -164046,7 +164975,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164500,6 +165432,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165032,10 +165967,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165570,6 +166508,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165608,6 +166547,8 @@ msgid ""
 "                        </b>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165934,6 +166875,7 @@ msgstr ""
 "                        <b invisible=\"consumption != 'strict'\">\n"
 "                            Prosimo preglejte porabo komponent ali prosite "
 "vodjo za potrditev\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166413,6 +167355,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <span invisible=\"mrp_production_count != "
 "1\">tega proizvodnega naloga</span>\n"
 "                            <span invisible=\"mrp_production_count == "
@@ -166567,6 +167511,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -167064,8 +168011,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
+=======
+"'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
+"Productivity Losses."
+>>>>>>> upstream/18.0
 =======
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration / "
 "Productivity Losses."
@@ -167972,8 +168924,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to supply Lot/Serial Number for products and 'consume' them: "
 "%(missing_products)s"
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 =======
 "You need to supply Lot/Serial Number for products and 'consume' them: %"
 "(missing_products)s"
@@ -168950,7 +169907,11 @@ msgid "ZPL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ZPL"
+>>>>>>> upstream/18.0
 =======
 msgstr "ZPL"
 >>>>>>> upstream/18.0
@@ -169857,7 +170818,11 @@ msgid "from location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "iz lokacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "iz lokacije"
 >>>>>>> upstream/18.0
@@ -170662,6 +171627,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: mrp
 #. odoo-javascript
@@ -170682,6 +171648,8 @@ msgstr ""
 #: code:addons/mrp/static/src/components/mo_overview_operations_block/mrp_mo_overview_operations_block.xml:0
 msgid "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 msgstr ""
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

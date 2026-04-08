@@ -101,6 +101,7 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('l10n_latam_move_check_ids.amount', 'amount', 'l10n_ar_net_amount', 'l10n_latam_new_check_ids.amount', 'payment_method_code')
     def _compute_l10n_ar_adjustment_warning(self):
         wizard_register = self
@@ -112,6 +113,8 @@ class AccountPaymentRegister(models.TransientModel):
                 wizard_register -= wizard
         wizard_register.l10n_ar_adjustment_warning = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -398,6 +401,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -807,7 +813,10 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1517,6 +1526,9 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2099,7 +2111,12 @@ class AccountPaymentRegister(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('tax_id.l10n_ar_withholding_payment_type', '=', wizard.partner_type)
+=======
+                ('tax_id.l10n_ar_withholding_payment_type', '=', wizard.partner_type),
+                ('tax_id.active', '=', True)
+>>>>>>> upstream/18.0
 =======
                 ('tax_id.l10n_ar_withholding_payment_type', '=', wizard.partner_type),
                 ('tax_id.active', '=', True)

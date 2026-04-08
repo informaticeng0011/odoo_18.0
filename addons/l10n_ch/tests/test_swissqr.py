@@ -3,6 +3,11 @@
 import time
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+<<<<<<< HEAD
+=======
+
+from odoo.addons.l10n_ch.models.res_bank import UNICODE_ALLOWED
+>>>>>>> upstream/18.0
 from odoo.tests import tagged
 from odoo.tools.misc import mod10r
 
@@ -64,6 +69,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
                     'partner_id': self.customer.id,
                     'currency_id': self.env.ref(currency_to_use).id,
                     'date': time.strftime('%Y') + '-12-22',
+<<<<<<< HEAD
+=======
+                    'ref': 'ABC \u202F421',
+>>>>>>> upstream/18.0
                     'invoice_line_ids': [
                         (
                             0,
@@ -142,6 +151,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                 'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -321,6 +334,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
         if ref_type == 'QRR':
             self.assertTrue(invoice.payment_reference)
             struct_ref = invoice.payment_reference
+<<<<<<< HEAD
             unstr_msg = invoice.ref or invoice.name or ''
         else:
             struct_ref = ''
@@ -768,6 +782,18 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+        else:
+            struct_ref = ''
+        # Check that invalid characters are removed from Unstructured message 'invoice.ref'
+        unstr_msg = 'ABC 421'
+
+        expected_payload = (
+            "SPC\n"
+            "0200\n"
+            "1\n"
+            f"{invoice.partner_bank_id.sanitized_acc_number}\n"  # IBAN
+>>>>>>> upstream/18.0
             "S\n"
             "company_1_data\n"
             "Route de Berne\n"
@@ -917,6 +943,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1208,6 +1237,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "\n\n\n\n\n\n\n"
             "42.00\n"
             "CHF\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1644,12 +1674,15 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "S\n"
             "Partner\n"
             "Route de Berne\n"
             "41\n"
             "1000\n"
             "Lausanne\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2090,6 +2123,13 @@ class TestSwissQR(AccountTestInvoicingCommon):
             ref_type=ref_type,
             struct_ref=struct_ref or '',
             unstr_msg=unstr_msg,
+=======
+            "CH\n"
+            f"{ref_type}\n"
+            f"{struct_ref}\n"
+            f"{unstr_msg}\n"
+            "EPD"
+>>>>>>> upstream/18.0
         )
 
         expected_params = {
@@ -2099,11 +2139,19 @@ class TestSwissQR(AccountTestInvoicingCommon):
             'height': 256,
             'quiet': 1,
             'mask': 'ch_cross',
+<<<<<<< HEAD
             'value': payload,
         }
 
         params = invoice.partner_bank_id._get_qr_code_generation_params(
             'ch_qr', 42.0, invoice.currency_id, invoice.partner_id, unstr_msg, struct_ref
+=======
+            'value': expected_payload,
+        }
+
+        params = invoice.partner_bank_id._get_qr_code_generation_params(
+            'ch_qr', 42.0, invoice.currency_id, invoice.partner_id, invoice.ref, struct_ref
+>>>>>>> upstream/18.0
         )
 
         self.assertEqual(params, expected_params)
@@ -2165,3 +2213,36 @@ class TestSwissQR(AccountTestInvoicingCommon):
         payment_transaction._set_pending()
 
         self.assertEqual(order.reference, mod10r(order.reference[:-1]))
+<<<<<<< HEAD
+=======
+
+    def test_swiss_allowed_unicode(self):
+        # Test Unicode range U+0000 to U+20FF
+
+        # Any space char is replaced with ' ':
+        #  - Printable '\u00A0' - NO-BREAK SPACE
+        #  - ASCII '\x09\x0a\x0b\x0c\x0d\x1c\x1d\x1e\x1f' (not printable)
+        #  - Non-ASCII '\u0085\u202F...' (not printable)
+        space_chars = {
+            *'\x09\x0a\x0b\x0c\x0d\x1c\x1d\x1e\x1f\u0085\u00A0'
+            '\u1680\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u2028\u2029\u202F\u205F'
+        }
+
+        # All Printable codepoints in range U+0020 - U+017F are allowed
+        # plus U+00AD {SOFT HYPHEN} and U+0218, U+0219, U+021A, U+021B, U+20AC
+        str_allowed = ''.join(sorted(UNICODE_ALLOWED - {'\u00A0'}))  # NO-BREAK SPACE is replaced by SPACE
+
+        # Not allowed chars
+        str_rejected = ''.join({chr(ucode) for ucode in range(0x2100)} - UNICODE_ALLOWED - space_chars)
+
+        filter_text = self.env['res.partner.bank']._l10n_ch_filter_text
+
+        self.assertEqual(filter_text('\t   Aaa    \n  Bb   '), 'Aaa Bb')
+        self.assertEqual(filter_text(str_allowed), str_allowed.strip())  # UNICODE_ALLOWED can have a space at the start
+        self.assertEqual(filter_text(str_rejected), '')
+        self.assertEqual(filter_text(None), '')
+        self.assertEqual(filter_text(False), '')
+        self.assertEqual(filter_text('-'.join(space_chars)), ' '.join('-' * (len(space_chars) - 1)))
+        self.assertEqual(filter_text('@  \u202f88\nline 2  '), '@ 88 line 2')
+        self.assertEqual(len(str_allowed) + len(str_rejected) + len(space_chars), 0x2100)
+>>>>>>> upstream/18.0

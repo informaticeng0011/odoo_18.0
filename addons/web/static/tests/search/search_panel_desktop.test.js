@@ -699,8 +699,11 @@ test("category has been archived", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         { id: 3, name: "asustek" },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1444,6 +1447,9 @@ test("category has been archived", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3065,7 +3071,11 @@ test("filter with domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect({ ...kwargs, context: {} }).toEqual({
+=======
+        expect({ ...kwargs, context: {} }).toMatchObject({
+>>>>>>> upstream/18.0
 =======
         expect({ ...kwargs, context: {} }).toMatchObject({
 >>>>>>> upstream/18.0
@@ -4193,9 +4203,13 @@ test("search panel is available on list and kanban by default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views = {
         ...Partner._views,
         [["search", false]]: /* xml */ `
+=======
+    Partner._views.search = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views.search = /* xml */ `
 >>>>>>> upstream/18.0
@@ -5194,8 +5208,12 @@ test("search panel is available on list and kanban by default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `,
     };
+=======
+        `;
+>>>>>>> upstream/18.0
 =======
         `;
 >>>>>>> upstream/18.0
@@ -6205,9 +6223,13 @@ test("search panel with view_types attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views = {
         ...Partner._views,
         [["search", false]]: /* xml */ `
+=======
+    Partner._views.search = /* xml */ `
+>>>>>>> upstream/18.0
 =======
     Partner._views.search = /* xml */ `
 >>>>>>> upstream/18.0
@@ -7206,8 +7228,12 @@ test("search panel with view_types attribute", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `,
     };
+=======
+        `;
+>>>>>>> upstream/18.0
 =======
         `;
 >>>>>>> upstream/18.0
@@ -9042,6 +9068,67 @@ test("reached limit for a filter", async () => {
     expect(`.o_search_panel_filter_value`).toHaveCount(0);
 });
 
+<<<<<<< HEAD
+=======
+test("error message is correctly cleared (category case)", async () => {
+    Company._records.push({ id: 8, name: "third company", category_id: 6 });
+    Partner._records[0].company_id = 8;
+    Partner._views = {
+        search: /* xml */ `
+            <search>
+                <filter name="filter_bar_false" string="Not Bar" domain="[('bar', '=', false)]"/>
+                <searchpanel>
+                    <field name="company_id" limit="2"/>
+                </searchpanel>
+            </search>
+        `,
+    };
+
+    await mountWithSearch(TestComponent, {
+        resModel: "partner",
+        searchViewId: false,
+    });
+
+    expect(`section div.alert.alert-warning`).toHaveCount(1);
+    expect(`section div.alert.alert-warning`).toHaveText("Too many items to display.");
+
+    await toggleSearchBarMenu();
+    await toggleMenuItem("Not Bar");
+
+    expect(`section div.alert.alert-warning`).toHaveCount(0);
+    expect(`.o_search_panel_category_value`).toHaveCount(2);
+});
+
+test("error message is correctly cleared (filter case)", async () => {
+    Company._records.push({ id: 8, name: "third company", category_id: 6 });
+    Partner._records[0].company_id = 8;
+    Partner._views = {
+        search: /* xml */ `
+            <search>
+                <filter name="filter_bar_false" string="Not Bar" domain="[('bar', '=', false)]"/>
+                <searchpanel>
+                    <field name="company_id" select="multi" limit="2"/>
+                </searchpanel>
+            </search>
+        `,
+    };
+
+    await mountWithSearch(TestComponent, {
+        resModel: "partner",
+        searchViewId: false,
+    });
+
+    expect(`section div.alert.alert-warning`).toHaveCount(1);
+    expect(`section div.alert.alert-warning`).toHaveText("Too many items to display.");
+
+    await toggleSearchBarMenu();
+    await toggleMenuItem("Not Bar");
+
+    expect(`section div.alert.alert-warning`).toHaveCount(0);
+    expect(`.o_search_panel_filter_value`).toHaveCount(1);
+});
+
+>>>>>>> upstream/18.0
 test("a selected value becomming invalid should no more impact the view", async () => {
     Partner._views = {
         search: /* xml */ `
@@ -9294,6 +9381,7 @@ test("search panel width is kept when switching between controllers", async () =
     await getService("action").switchView("kanban");
     expect(queryFirst(".o_search_panel").offsetWidth).toBe(newWidth);
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10147,6 +10235,8 @@ test("search panel with sample data", async (assert) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 test("search panel with sample data", async () => {
     Partner._records = [];
@@ -10397,6 +10487,9 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11143,6 +11236,7 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         </kanban>`,
         [["list", false]]: /* xml */ `
         <list sample="1">
@@ -11150,6 +11244,8 @@ test("search panel with sample data", async () => {
         </list>`,
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11893,6 +11989,9 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12390,6 +12489,7 @@ test("search panel with sample data", async () => {
     onRpc("has_group", () => true);
     await mountWithCleanup(WebClient);
     await getService("action").doAction(1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13243,6 +13343,8 @@ test("search panel with sample data", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     await getService("action").switchView("kanban");
     expect(`.o_search_panel_filter_value:eq(0) input`).toHaveStyle({ "pointer-events": "auto" });
@@ -13496,6 +13598,9 @@ test("search panel with sample data", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
