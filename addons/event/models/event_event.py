@@ -191,6 +191,10 @@ import textwrap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import urllib.parse
+>>>>>>> upstream/18.0
 =======
 import urllib.parse
 >>>>>>> upstream/18.0
@@ -1676,7 +1680,10 @@ class EventEvent(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2239,6 +2246,9 @@ class EventEvent(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2629,13 +2639,19 @@ class EventEvent(models.Model):
             cal_event.add('dtend').value = event.date_end.astimezone(pytz.timezone(event.date_tz))
             cal_event.add('summary').value = event.name
 <<<<<<< HEAD
+<<<<<<< HEAD
             cal_event.add('description').value = event._get_external_description()
 =======
+=======
+>>>>>>> upstream/18.0
             external_description = event._get_external_description()
             cal_event.add('description').value = external_description
             xalt = cal_event.add('X-ALT-DESC')
             xalt.value = external_description
             xalt.params['FMTTYPE'] = ['text/html']
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if event.address_id:
                 cal_event.add('location').value = event.address_inline

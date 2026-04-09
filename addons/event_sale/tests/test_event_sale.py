@@ -302,7 +302,10 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -543,6 +546,9 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -814,6 +820,12 @@ class TestEventSale(TestEventSaleCommon):
 
     def test_ticket_price_with_currency_conversion(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        """ Test that the price of the ticket and the `sale_price_total` are
+        correctly converted when using another currency.
+        """
+>>>>>>> upstream/18.0
 =======
         """ Test that the price of the ticket and the `sale_price_total` are
         correctly converted when using another currency.
@@ -827,8 +839,14 @@ class TestEventSale(TestEventSaleCommon):
             return currency
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         currency_VEF = _prepare_currency(self, 'VEF')
         currency_USD = _prepare_currency(self, 'USD')
+=======
+        currency_USD = _prepare_currency(self, 'USD')
+        currency_VEF = _prepare_currency(self, 'VEF')
+        currency_VEF.rate_ids.rate = 5.0
+>>>>>>> upstream/18.0
 =======
         currency_USD = _prepare_currency(self, 'USD')
         currency_VEF = _prepare_currency(self, 'VEF')
@@ -843,6 +861,10 @@ class TestEventSale(TestEventSaleCommon):
         self.env.user.company_ids += company_test
         self.env.user.company_id = company_test
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        currency_VEF.rate_ids.company_id = company_test
+>>>>>>> upstream/18.0
 =======
         currency_VEF.rate_ids.company_id = company_test
 >>>>>>> upstream/18.0
@@ -890,7 +912,10 @@ class TestEventSale(TestEventSaleCommon):
         so.action_update_prices()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # Asserting using a fixed value to make sure the conversion is correctly applied
         # with a value other than 1.0 for the conversion rate between USD and VEF.
         self.assertEqual(
@@ -898,6 +923,9 @@ class TestEventSale(TestEventSaleCommon):
             5000.0,  # 1000 * 5.0 (conversion rate between USD and VEF)
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertAlmostEqual(
             so.amount_total,
@@ -908,7 +936,10 @@ class TestEventSale(TestEventSaleCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         so.action_confirm()
         self.assertAlmostEqual(
             event.sale_price_subtotal,
@@ -918,6 +949,9 @@ class TestEventSale(TestEventSaleCommon):
             delta=1,
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_ticket_price_with_pricelist_and_tax(self):
         self.env.user.partner_id.country_id = False

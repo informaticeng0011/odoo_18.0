@@ -170,7 +170,10 @@ import { browser } from "../browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -684,6 +687,9 @@ import { browser } from "../browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1216,6 +1222,7 @@ export class ConnectionAbortedError extends Error {}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function makeErrorFromResponse(reponse) {
     // Odoo returns error like this, in a error field instead of properly
     // using http error codes...
@@ -1558,6 +1565,8 @@ export function makeErrorFromResponse(reponse) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 export class RequestEntityTooLargeError extends Error {
     constructor() {
         super("The request you sent exceeded the maximum size limit configured on the server");
@@ -1597,6 +1606,9 @@ export class RequestEntityTooLargeError extends Error {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1841,6 +1853,9 @@ export function makeErrorFromResponse(response) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2242,12 +2257,15 @@ rpc._rpc = function (url, params, settings) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (request.status === 502) {
                 // If Odoo is behind another server (eg.: nginx)
                 const error = new ConnectionLostError(url);
                 rpcBus.trigger("RPC:RESPONSE", { data, settings, error });
                 reject(error);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2361,6 +2379,9 @@ rpc._rpc = function (url, params, settings) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2630,7 +2651,11 @@ rpc._rpc = function (url, params, settings) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (let [header, value] of Object.entries(headers)) {
+=======
+        for (const [header, value] of Object.entries(headers)) {
+>>>>>>> upstream/18.0
 =======
         for (const [header, value] of Object.entries(headers)) {
 >>>>>>> upstream/18.0

@@ -265,7 +265,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             card_id = id_mapping.get(int(coupon['card_id'], False)) or int(coupon['card_id'])
+=======
+            card_id = id_mapping.get(int(coupon['card_id']), False) or int(coupon['card_id'])
+>>>>>>> upstream/18.0
 =======
             card_id = id_mapping.get(int(coupon['card_id']), False) or int(coupon['card_id'])
 >>>>>>> upstream/18.0
@@ -1130,6 +1134,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._remove_duplicate_coupon_data(coupon_data)
+>>>>>>> upstream/18.0
 =======
         self._remove_duplicate_coupon_data(coupon_data)
 >>>>>>> upstream/18.0
@@ -1761,6 +1769,7 @@ class PosOrder(models.Model):
         coupon_new_id_map = {k: k for k in coupon_data.keys() if k > 0}
 
         # Create the coupons that were awarded by the order.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2693,6 +2702,9 @@ class PosOrder(models.Model):
 =======
         coupons_to_create = {k: v for k, v in coupon_data.items() if k < 0 and not v.get('giftCardId') and (v.get('points') or v.get('line_codes'))}
 >>>>>>> upstream/18.0
+=======
+        coupons_to_create = {k: v for k, v in coupon_data.items() if k < 0 and not v.get('giftCardId') and (v.get('points') or v.get('line_codes'))}
+>>>>>>> upstream/18.0
         for coupon in coupons_to_create.values():
             if "gift_code" in coupon:
                 coupon["code"] = coupon.get("gift_code")
@@ -2803,6 +2815,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3063,6 +3078,7 @@ class PosOrder(models.Model):
                     filtered(lambda c: c.trigger == 'create').pos_report_print_id
             for report in report_per_program[coupon.program_id]:
                 coupon_per_report[report.id].append(coupon.id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3700,6 +3716,24 @@ class PosOrder(models.Model):
             }
             for coupon_id, coupon_vals in coupon_data.items()
         ]
+=======
+
+        # Adding loyalty history lines
+        loyalty_points = []
+        for coupon_id, coupon_vals in coupon_data.items():
+            if 'points_earned' in coupon_vals and 'points_spent' in coupon_vals:
+                won = coupon_vals['points_earned']
+                spent = coupon_vals['points_spent']
+            else:
+                won = coupon_vals['points'] if coupon_vals['points'] > 0 else 0
+                spent = -coupon_vals['points'] if coupon_vals['points'] < 0 else 0
+            loyalty_points.append({
+                'order_id': self.id,
+                'card_id': coupon_id,
+                'spent': spent,
+                'won': won,
+            })
+>>>>>>> upstream/18.0
         coupon_updates = [
             {
                 'id': coupon.id,
@@ -3917,6 +3951,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4574,9 +4611,14 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner_coupons = self.env['loyalty.card'].search(
                     [('partner_id', '=', partner_id), ('program_type', '=', 'loyalty')])
                 existing_coupon_for_program = partner_coupons.filtered(lambda c: c.program_id.id == coupon_vals['program_id'])
+=======
+                existing_coupon_for_program = self.env['loyalty.card'].search(
+                    [('partner_id', '=', partner_id), ('program_type', 'in', ['loyalty', 'ewallet']), ('program_id', '=', coupon_vals['program_id'])])
+>>>>>>> upstream/18.0
 =======
                 existing_coupon_for_program = self.env['loyalty.card'].search(
                     [('partner_id', '=', partner_id), ('program_type', 'in', ['loyalty', 'ewallet']), ('program_id', '=', coupon_vals['program_id'])])
@@ -5628,7 +5670,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6267,6 +6312,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

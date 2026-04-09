@@ -49,6 +49,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -462,7 +467,11 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
@@ -1346,7 +1355,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2203,6 +2215,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2787,6 +2802,7 @@ class TestSaleOrder(ClickAndCollectCommon):
         })
         so = self._create_in_store_delivery_order()
         so.fiscal_position_id = fp_us
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3580,6 +3596,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
         self.assertNotEqual(so.fiscal_position_id, fp_us)
 
     def test_free_qty_calculated_from_order_wh_if_dm_is_in_store(self):
@@ -3684,7 +3703,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3846,6 +3868,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

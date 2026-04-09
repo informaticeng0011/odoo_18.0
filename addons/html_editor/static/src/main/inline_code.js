@@ -1,4 +1,5 @@
 import { Plugin } from "@html_editor/plugin";
+<<<<<<< HEAD
 import { splitTextNode } from "@html_editor/utils/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -365,10 +366,16 @@ import { closestElement, selectElements } from "@html_editor/utils/dom_traversal
 =======
 import { closestElement, selectElements } from "@html_editor/utils/dom_traversal";
 >>>>>>> upstream/18.0
+=======
+import { closestBlock, isBlock } from "@html_editor/utils/blocks";
+import { splitTextNode } from "@html_editor/utils/dom";
+import { closestElement, findFurthest, selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 import { DIRECTIONS } from "@html_editor/utils/position";
 
 export class InlineCodePlugin extends Plugin {
     static id = "inlineCode";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,6 +652,9 @@ export class InlineCodePlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
     static dependencies = ["selection", "history", "input", "feff"];
+=======
+    static dependencies = ["clipboard", "feff", "history", "input", "selection", "split"];
+>>>>>>> upstream/18.0
     resources = {
         input_handlers: this.onInput.bind(this),
         normalize_handlers: this.normalize.bind(this),
@@ -746,6 +756,7 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -926,6 +937,40 @@ export class InlineCodePlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+        /** Overrides */
+        paste_overrides: (selection, clipboardData) => {
+            const caretNode =
+                selection.direction === DIRECTIONS.RIGHT
+                    ? selection.anchorNode
+                    : selection.focusNode;
+            if (closestElement(caretNode, "code.o_inline_code")) {
+                this.dependencies.clipboard.pasteText(
+                    selection,
+                    clipboardData.getData("text/plain")
+                );
+                return true;
+            }
+        },
+
+        /** Predicates */
+        is_formattable_node_predicates: (node) => {
+            if (closestElement(node, "code.o_inline_code")) {
+                return false;
+            }
+        },
+        is_powerbox_available_predicates: (node) => {
+            if (closestElement(node, "code.o_inline_code")) {
+                return false;
+            }
+        },
+        toolbar_visibility_predicates: (node) => {
+            if (closestElement(node, "code.o_inline_code")) {
+                return false;
+            }
+        },
 >>>>>>> upstream/18.0
     };
 
@@ -1222,11 +1267,14 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dependencies.selection.setSelection({ anchorNode: textNode, anchorOffset: offset });
         const textHasTwoTicks = /`.*`/.test(textNode.textContent);
         // We don't apply the code tag if there is no content between the two `
         if (textHasTwoTicks && textNode.textContent.replace(/`/g, "").length) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2041,6 +2089,9 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2606,6 +2657,7 @@ export class InlineCodePlugin extends Plugin {
             if (startOffset) {
                 splitTextNode(textNode, startOffset);
             }
+<<<<<<< HEAD
             // Remove ticks.
             textNode.textContent = textNode.textContent.substring(
                 1,
@@ -2616,6 +2668,19 @@ export class InlineCodePlugin extends Plugin {
             codeElement.classList.add("o_inline_code");
             textNode.before(codeElement);
             codeElement.append(textNode);
+=======
+            const splitLimit = findFurthest(textNode, closestBlock(textNode), (n) => !isBlock(n));
+            const splitNode = this.dependencies.split.splitAroundUntil(textNode, splitLimit);
+            // Insert code element with plain text.
+            const codeElement = this.document.createElement("code");
+            codeElement.classList.add("o_inline_code");
+            // Remove ticks from the text content.
+            codeElement.textContent = splitNode.textContent.substring(
+                1,
+                splitNode.textContent.length - 1
+            );
+            splitNode.replaceWith(codeElement);
+>>>>>>> upstream/18.0
             if (
                 !codeElement.previousSibling ||
                 codeElement.previousSibling.nodeType !== Node.TEXT_NODE
@@ -2729,7 +2794,10 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3006,6 +3074,9 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

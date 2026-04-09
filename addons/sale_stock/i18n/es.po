@@ -208,6 +208,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_stock
 <<<<<<< HEAD
 # 
@@ -860,6 +861,9 @@
 =======
 # * sale_stock
 >>>>>>> upstream/18.0
+=======
+# * sale_stock
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1073,6 +1077,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
@@ -1538,6 +1543,10 @@
 >>>>>>> upstream/18.0
 =======
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+>>>>>>> upstream/18.0
+=======
+# "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Larissa Manderfeld (lman)" <lman@odoo.com>, 2025.
@@ -1755,6 +1764,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2926,6 +2936,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-14 09:13+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
@@ -2983,6 +2995,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3092,6 +3107,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4343,6 +4359,11 @@ msgstr ""
 " ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
@@ -4595,6 +4616,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Shipped\n"
 "                                    </span>"
@@ -4602,6 +4624,8 @@ msgstr ""
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Enviado\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5236,6 +5260,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5868,12 +5895,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Some deliveries are already done. Returns can be created from the Delivery Orders.\n"
 "                </span>"
 msgstr ""
 "<span invisible=\"not display_delivery_alert\">\n"
 "                   Ya se realizaron algunas entregas. Se pueden crear devoluciones a partir de las órdenes de entrega.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6505,6 +6535,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7148,8 +7181,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los productos almacenables son productos para los que gestiona el "
 "inventario."
+=======
+"Los productos almacenables son productos para los que gestiona el inventario."
+>>>>>>> upstream/18.0
 =======
 "Los productos almacenables son productos para los que gestiona el inventario."
 >>>>>>> upstream/18.0
@@ -7990,6 +8027,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -8002,6 +8040,8 @@ msgstr ""
 "  - Partes de horas: la cantidad equivale a la suma de las horas registradas en las tareas vinculadas a esta línea de venta\n"
 "  - Movimientos del inventario: la cantidad viene de los albaranes confirmados\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8644,6 +8684,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9185,6 +9228,7 @@ msgstr "Mostrar widget de cantidad"
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
 "Do not forget to change the partner on the following delivery orders: %s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10023,6 +10067,9 @@ msgstr "No olvide cambiar el contacto en las siguientes órdenes de entrega: %s"
 =======
 msgstr "No olvide cambiar el contacto en las siguientes órdenes de entrega: %s"
 >>>>>>> upstream/18.0
+=======
+msgstr "No olvide cambiar el contacto en las siguientes órdenes de entrega: %s"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__effective_date
@@ -10123,7 +10170,11 @@ msgid "Forecasted Stock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stock pronosticado"
+=======
+msgstr "Stock previsto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stock previsto"
 >>>>>>> upstream/18.0
@@ -10411,6 +10462,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid ""
 "Margin of error for dates promised to customers. Products will be scheduled "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11044,6 +11096,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "for procurement and delivery that many days earlier than the actual promised "
 "date, to cope with unexpected delays in the supply chain."
 msgstr ""
@@ -11259,6 +11313,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11984,11 +12041,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                replenishment propositions, shipping connectors, barcode scanner, etc."
 msgstr ""
 "Reduzca las entregas parciales con reservaciones, gestión de ubicaciones, propuestas\n"
 "                de reposición inteligente, conectores de envío, lectores de códigos de barras, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12620,6 +12680,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13261,7 +13324,11 @@ msgid "Replenish on Order (MTO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obtener bajo pedido (fabricación sobre pedido)"
+=======
+msgstr "Reposición bajo pedido (fabricación sobre pedido)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reposición bajo pedido (fabricación sobre pedido)"
 >>>>>>> upstream/18.0
@@ -14263,6 +14330,7 @@ msgstr "Informe de reglas de inventario"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model,name:sale_stock.model_stock_valuation_layer
 msgid "Stock Valuation Layer"
@@ -14271,6 +14339,8 @@ msgstr ""
 #. module: sale_stock
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14897,6 +14967,9 @@ msgstr "Capa de valoración de stock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15536,6 +15609,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        From <strong>\"%(old_address)s\"</strong> to <strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this document."
 msgstr ""
@@ -15543,6 +15617,8 @@ msgstr ""
 "                        De <strong>\"%(old_address)s\"</strong> a <strong>\"%(new_address)s\"</strong>,\n"
 "                        Probablemente debe actualizar el contacto en este documento."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16177,6 +16253,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16808,8 +16887,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The ordered quantity cannot be decreased below the amount already delivered."
 " Instead, create a return in your inventory."
+=======
+"The ordered quantity cannot be decreased below the amount already delivered. "
+"Instead, create a return in your inventory."
+>>>>>>> upstream/18.0
 =======
 "The ordered quantity cannot be decreased below the amount already delivered. "
 "Instead, create a return in your inventory."
@@ -17912,6 +17996,10 @@ msgstr "Disponibilidad virtual a la fecha"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model,name:sale_stock.model_stock_warehouse
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model,name:sale_stock.model_stock_warehouse
 >>>>>>> upstream/18.0

@@ -578,7 +578,11 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(pol.name, f"{self.service_purchase_1.display_name}\n{product_attribute.name}: {product_attribute_value.name}: {custom_value}")
+=======
+        self.assertEqual(pol.name, f"{self.service_purchase_1.display_name}\n\n{product_attribute.name}: {product_attribute_value.name}: {custom_value}")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(pol.name, f"{self.service_purchase_1.display_name}\n\n{product_attribute.name}: {product_attribute_value.name}: {custom_value}")
 >>>>>>> upstream/18.0
@@ -1679,7 +1683,10 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2538,6 +2545,7 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3088,6 +3096,8 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_purchase_service_qty_increase_with_uom_conversion(self):
         """Ensure that increasing the quantity of a service-to-purchase product
@@ -3117,4 +3127,7 @@ class TestSalePurchase(TestCommonSalePurchaseNoChart):
         so.order_line.product_uom_qty = 2
         po_2 = so._get_purchase_orders() - po_1
         self.assertEqual(po_2.order_line.product_qty, 12, "The quantity on the SO line should be converted to the purchase UoM.")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

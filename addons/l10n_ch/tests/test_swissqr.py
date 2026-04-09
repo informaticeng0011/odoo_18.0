@@ -4,6 +4,11 @@ import time
 
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo.addons.l10n_ch.models.res_bank import UNICODE_ALLOWED
+>>>>>>> upstream/18.0
 =======
 
 from odoo.addons.l10n_ch.models.res_bank import UNICODE_ALLOWED
@@ -70,6 +75,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
                     'currency_id': self.env.ref(currency_to_use).id,
                     'date': time.strftime('%Y') + '-12-22',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'ref': 'ABC \u202F421',
+>>>>>>> upstream/18.0
 =======
                     'ref': 'ABC \u202F421',
 >>>>>>> upstream/18.0
@@ -152,6 +161,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                 'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -334,6 +347,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
         if ref_type == 'QRR':
             self.assertTrue(invoice.payment_reference)
             struct_ref = invoice.payment_reference
+<<<<<<< HEAD
 <<<<<<< HEAD
             unstr_msg = invoice.ref or invoice.name or ''
         else:
@@ -783,6 +797,8 @@ class TestSwissQR(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         else:
             struct_ref = ''
         # Check that invalid characters are removed from Unstructured message 'invoice.ref'
@@ -793,6 +809,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "0200\n"
             "1\n"
             f"{invoice.partner_bank_id.sanitized_acc_number}\n"  # IBAN
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             "S\n"
             "company_1_data\n"
@@ -944,6 +963,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1237,6 +1259,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "\n\n\n\n\n\n\n"
             "42.00\n"
             "CHF\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1676,12 +1699,15 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "S\n"
             "Partner\n"
             "Route de Berne\n"
             "41\n"
             "1000\n"
             "Lausanne\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2124,11 +2150,16 @@ class TestSwissQR(AccountTestInvoicingCommon):
             struct_ref=struct_ref or '',
             unstr_msg=unstr_msg,
 =======
+=======
+>>>>>>> upstream/18.0
             "CH\n"
             f"{ref_type}\n"
             f"{struct_ref}\n"
             f"{unstr_msg}\n"
             "EPD"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )
 
@@ -2140,17 +2171,23 @@ class TestSwissQR(AccountTestInvoicingCommon):
             'quiet': 1,
             'mask': 'ch_cross',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'value': payload,
         }
 
         params = invoice.partner_bank_id._get_qr_code_generation_params(
             'ch_qr', 42.0, invoice.currency_id, invoice.partner_id, unstr_msg, struct_ref
 =======
+=======
+>>>>>>> upstream/18.0
             'value': expected_payload,
         }
 
         params = invoice.partner_bank_id._get_qr_code_generation_params(
             'ch_qr', 42.0, invoice.currency_id, invoice.partner_id, invoice.ref, struct_ref
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         )
 
@@ -2214,7 +2251,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
 
         self.assertEqual(order.reference, mod10r(order.reference[:-1]))
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_swiss_allowed_unicode(self):
         # Test Unicode range U+0000 to U+20FF
@@ -2245,4 +2285,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
         self.assertEqual(filter_text('-'.join(space_chars)), ' '.join('-' * (len(space_chars) - 1)))
         self.assertEqual(filter_text('@  \u202f88\nline 2  '), '@ 88 line 2')
         self.assertEqual(len(str_allowed) + len(str_rejected) + len(space_chars), 0x2100)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

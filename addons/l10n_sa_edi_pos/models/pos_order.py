@@ -12,7 +12,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37,7 +40,11 @@ class PosOrder(models.Model):
 
         for order in orders_needing_invoice:
             if order.account_move:
+<<<<<<< HEAD
                 order.account_move.edi_document_ids.filtered(
+=======
+                order.account_move.sudo().edi_document_ids.filtered(
+>>>>>>> upstream/18.0
                     lambda d: d.state == 'to_send' and d.edi_format_id._needs_web_services()
                 )._process_documents_web_services(with_commit=False)
 
@@ -47,6 +54,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

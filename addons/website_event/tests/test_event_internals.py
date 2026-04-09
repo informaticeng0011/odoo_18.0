@@ -2,6 +2,11 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import logging
+import unittest
+>>>>>>> upstream/18.0
 =======
 import logging
 import unittest
@@ -16,7 +21,10 @@ from odoo.addons.website_event.controllers.main import WebsiteEventController
 from odoo.addons.event.tests.common import EventCase
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 _logger = logging.getLogger(__name__)
 
 try:
@@ -25,6 +33,9 @@ except ImportError:
     _logger.warning("`vobject` Python module not found, iCal file generation disabled. Consider installing this module if you want to generate iCal files")
     vobject = None
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestEventData(EventCase, MockVisitor):
@@ -40,7 +51,10 @@ class TestEventData(EventCase, MockVisitor):
         cls.events_visibility_test = cls.event_public | cls.event_link_only | cls.event_logged_users
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @users('public_test')
     def test_ics_file_html_description(self):
         """Verify that _get_ics_file returns a valid .ics description
@@ -73,6 +87,9 @@ class TestEventData(EventCase, MockVisitor):
         self.assertEqual(xalt.params.get('FMTTYPE'), ['text/html'])
         self.assertEqual(xalt.value, external_description)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_process_attendees_form(self):
         event = self.env['event.event'].create({

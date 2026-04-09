@@ -80,7 +80,11 @@ def migrate(cr, version):
         if not old_tag_ids or not new_tag_id:
             continue
         env['account.account'].with_context(active_test=False).search([
+<<<<<<< HEAD
             ('company_id', 'in', dk_companies.ids),
+=======
+            ('company_ids', 'in', dk_companies.ids),
+>>>>>>> upstream/18.0
             ('tag_ids', 'in', old_tag_ids),
         ]).tag_ids = [
             Command.link(new_tag_id),
@@ -97,7 +101,11 @@ def migrate(cr, version):
         ('name', 'in', deprecated_account_names),
     ]).mapped('res_id'))
 
+<<<<<<< HEAD
     for account in env['account.account'].with_context(active_test=False).search([('company_id', 'in', dk_companies.ids)]):
+=======
+    for account in env['account.account'].with_context(active_test=False).search([('company_ids', 'in', dk_companies.ids)]):
+>>>>>>> upstream/18.0
         # Adapt existing codes to use 6 digits.
         if len(account.code) < 6:
             account.code = account.code.ljust(6, '0')

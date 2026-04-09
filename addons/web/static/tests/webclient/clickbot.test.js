@@ -286,7 +286,10 @@ test("clickbot clickeverywhere test", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -683,6 +686,9 @@ test("only one app", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1303,7 +1309,11 @@ test("clickbot show rpc error when an error dialog is detected", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_search_read", async () => {
+=======
+    onRpc("web_search_read", () => {
+>>>>>>> upstream/18.0
 =======
     onRpc("web_search_read", () => {
 >>>>>>> upstream/18.0
@@ -2254,6 +2264,10 @@ test("clickbot show rpc error when an error dialog is detected", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                message: "This is a server Error, it should be displayed in an error dialog",
+>>>>>>> upstream/18.0
 =======
                 message: "This is a server Error, it should be displayed in an error dialog",
 >>>>>>> upstream/18.0

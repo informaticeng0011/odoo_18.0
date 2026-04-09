@@ -99,6 +99,7 @@ from markupsafe import Markup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, models, Command
 from odoo.addons.base.models.res_bank import sanitize_account_number
 from odoo.exceptions import UserError, ValidationError
@@ -1004,6 +1005,8 @@ from odoo.tools import float_is_zero, float_repr, format_list
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import _, api, models
 from odoo.addons.base.models.res_bank import sanitize_account_number
 from odoo.exceptions import UserError, ValidationError
@@ -1057,6 +1060,9 @@ from odoo.tools import float_compare, float_is_zero, float_repr, format_list
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1368,6 +1374,9 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1881,6 +1890,10 @@ UOM_TO_UNECE_CODE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uom.product_uom_minute': 'MIN',
+>>>>>>> upstream/18.0
 =======
     'uom.product_uom_minute': 'MIN',
 >>>>>>> upstream/18.0
@@ -2177,7 +2190,11 @@ UOM_TO_UNECE_CODE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'uom.product_uom_qt': 'QT',
+=======
+    'uom.product_uom_qt': 'QTL',
+>>>>>>> upstream/18.0
 =======
     'uom.product_uom_qt': 'QTL',
 >>>>>>> upstream/18.0
@@ -2357,6 +2374,10 @@ UOM_TO_UNECE_CODE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uom.product_uom_kwh': 'KWH',
+>>>>>>> upstream/18.0
 =======
     'uom.product_uom_kwh': 'KWH',
 >>>>>>> upstream/18.0
@@ -2828,6 +2849,10 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'AE': {'0235': 'vat'},
+>>>>>>> upstream/18.0
 =======
     'AE': {'0235': 'vat'},
 >>>>>>> upstream/18.0
@@ -3491,7 +3516,11 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'DE': {'9930': 'vat'},
+=======
+    'DE': {'9930': 'vat', '0246': 'l10n_de_widnr'},
+>>>>>>> upstream/18.0
 =======
     'DE': {'9930': 'vat', '0246': 'l10n_de_widnr'},
 >>>>>>> upstream/18.0
@@ -3581,6 +3610,7 @@ EAS_MAPPING = {
     'SG': {'0195': 'l10n_sg_unique_entity_number'},
     'GB': {'9932': 'vat'},
     'GR': {'9933': 'vat'},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3978,6 +4008,9 @@ EAS_MAPPING = {
 =======
     'HR': {'9934': 'vat', '0088': 'company_registry'},
 >>>>>>> upstream/18.0
+=======
+    'HR': {'9934': 'vat', '0088': 'company_registry'},
+>>>>>>> upstream/18.0
     'HU': {'9910': 'l10n_hu_eu_vat'},
     'IE': {'9935': 'vat'},
     'IS': {'0196': 'vat'},
@@ -3986,6 +4019,7 @@ EAS_MAPPING = {
     'LI': {'9936': 'vat'},
     'LT': {'9937': 'vat'},
     'LU': {'9938': 'vat'},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4823,6 +4857,9 @@ EAS_MAPPING = {
 =======
     'LV': {'0218': 'company_registry', '9939': 'vat'},
 >>>>>>> upstream/18.0
+=======
+    'LV': {'0218': 'company_registry', '9939': 'vat'},
+>>>>>>> upstream/18.0
     'MC': {'9940': 'vat'},
     'ME': {'9941': 'vat'},
     'MK': {'9942': 'vat'},
@@ -4857,6 +4894,10 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'NG': {'0244': 'vat'},
+>>>>>>> upstream/18.0
 =======
     'NG': {'0244': 'vat'},
 >>>>>>> upstream/18.0
@@ -4947,6 +4988,7 @@ EAS_MAPPING = {
     'RS': {'9948': 'vat'},
     'SE': {'0007': 'company_registry', '9955': 'vat'},
     'SI': {'9949': 'vat'},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5576,6 +5618,8 @@ EAS_MAPPING = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     'SK': {'9950': 'vat', '0245': 'company_registry'},
     'SM': {'9951': 'vat'},
     'TR': {'9952': 'vat'},
@@ -5606,6 +5650,9 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5880,6 +5927,7 @@ EAS_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6199,6 +6247,8 @@ EAS_MAPPING = {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6361,6 +6411,9 @@ EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6594,6 +6647,7 @@ SUPPORTED_FILE_TYPES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6611,6 +6665,8 @@ SUPPORTED_FILE_TYPES = {
 
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7004,6 +7060,9 @@ class FloatFmt(float):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7309,6 +7368,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def module_installed(self, module_name):
+        return self.env['ir.module.module']._get(module_name).state == 'installed'
+
+>>>>>>> upstream/18.0
 =======
     def module_installed(self, module_name):
         return self.env['ir.module.module']._get(module_name).state == 'installed'
@@ -7659,8 +7724,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         list of codes: https://docs.peppol.eu/poacc/billing/3.0/codelist/UNECERec20/
         or https://unece.org/fileadmin/DAM/cefact/recommendations/bkup_htm/add2c.htm (sorted by letter)
+=======
+        list of codes: https://docs.peppol.eu/poacc/billing/3.0/codelist/UNECERec20/ (sorted by letter)
+>>>>>>> upstream/18.0
 =======
         list of codes: https://docs.peppol.eu/poacc/billing/3.0/codelist/UNECERec20/ (sorted by letter)
 >>>>>>> upstream/18.0
@@ -7840,6 +7909,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _can_export_selfbilling(self):
+        return False
+
+>>>>>>> upstream/18.0
 =======
     def _can_export_selfbilling(self):
         return False
@@ -8298,8 +8373,11 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         european_economic_area = self.env.ref('base.europe').country_ids.mapped('code') + ['NO', 'IS', 'LI']
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8409,6 +8487,7 @@ class AccountEdiCommon(models.AbstractModel):
         if supplier.country_id == customer.country_id:
             if not tax or tax.amount == 0:
                 # in theory, you should indicate the precise law article
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8683,6 +8762,9 @@ class AccountEdiCommon(models.AbstractModel):
 =======
                 return create_dict(tax_category_code='E')
 >>>>>>> upstream/18.0
+=======
+                return create_dict(tax_category_code='E')
+>>>>>>> upstream/18.0
             elif tax.has_negative_factor:
                 # Special case: Purchase reverse-charge taxes for self-billed invoices.
                 # From the buyer's perspective, this is a standard tax with a non-zero percentage but
@@ -8692,6 +8774,7 @@ class AccountEdiCommon(models.AbstractModel):
                 # For a self-billed invoice we, the buyer, create the invoice on behalf of the seller.
                 # So in the XML we put the zero-percent tax with code 'AE' that the seller would have used.
                 return create_dict(tax_category_code='AE')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9051,6 +9134,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             else:
                 return create_dict(tax_category_code='S')  # standard VAT
 
@@ -9103,6 +9188,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9204,6 +9292,7 @@ class AccountEdiCommon(models.AbstractModel):
                 # otherwise, the validator will complain because G and K code should be used with 0% tax
                 # For purchase reverse-charge taxes for self-billed invoices, we put the zero-percent tax
                 # with code 'G' or 'K' that the buyer would have used, see explanation above.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9554,11 +9643,16 @@ class AccountEdiCommon(models.AbstractModel):
                 return create_dict(tax_category_code='S')
             if customer.country_id.code not in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES:
 >>>>>>> upstream/18.0
+=======
+                return create_dict(tax_category_code='S')
+            if customer.country_id.code not in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES:
+>>>>>>> upstream/18.0
                 return create_dict(
                     tax_category_code='G',
                     tax_exemption_reason_code='VATEX-EU-G',
                     tax_exemption_reason=_('Export outside the EU'),
                 )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9756,6 +9850,9 @@ class AccountEdiCommon(models.AbstractModel):
 =======
             if customer.country_id.code in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES:
 >>>>>>> upstream/18.0
+=======
+            if customer.country_id.code in EUROPEAN_ECONOMIC_AREA_COUNTRY_CODES:
+>>>>>>> upstream/18.0
                 return create_dict(
                     tax_category_code='K',
                     tax_exemption_reason_code='VATEX-EU-IC',
@@ -9765,6 +9862,7 @@ class AccountEdiCommon(models.AbstractModel):
         if tax.amount != 0:
             return create_dict(tax_category_code='S')
         else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10488,6 +10586,10 @@ class AccountEdiCommon(models.AbstractModel):
             return create_dict(tax_category_code='E')
 
 >>>>>>> upstream/18.0
+=======
+            return create_dict(tax_category_code='E')
+
+>>>>>>> upstream/18.0
     def _get_tax_category_code(self, customer, supplier, tax):
         if not tax:
             return 'E'
@@ -10730,6 +10832,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11330,6 +11435,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with invoice._get_edi_creation() as invoice:
             logs = self._import_fill_invoice(invoice, tree, qty_factor)
 
@@ -11371,6 +11477,10 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
         with invoice.with_context(disable_onchange_name_predictive=True)._get_edi_creation() as invoice:
+            logs = self._import_fill_invoice(invoice, tree, qty_factor)
+>>>>>>> upstream/18.0
+=======
+        with invoice._get_edi_creation() as invoice:
             logs = self._import_fill_invoice(invoice, tree, qty_factor)
 >>>>>>> upstream/18.0
 =======
@@ -11582,6 +11692,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with invoice._get_edi_creation() as invoice:
 =======
         with invoice.with_context(disable_onchange_name_predictive=True)._get_edi_creation() as invoice:
@@ -11637,6 +11748,8 @@ class AccountEdiCommon(models.AbstractModel):
             self._correct_invoice_tax_amount(tree, invoice)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11699,6 +11812,7 @@ class AccountEdiCommon(models.AbstractModel):
             self._correct_invoice_tax_amount(tree, invoice)
 
         # Set XML as ubl_cii_xml_file (XML used to import)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11809,6 +11923,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if invoice.is_purchase_document(include_receipts=True):
             file_data['attachment'].write({
                 'res_field': 'ubl_cii_xml_file',
@@ -11828,6 +11944,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11860,6 +11979,7 @@ class AccountEdiCommon(models.AbstractModel):
         return True
 
     def _import_attachments(self, invoice, tree):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12331,6 +12451,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Import the embedded documents in the xml if some are found
         attachments = self.env['ir.attachment']
         if invoice.message_main_attachment_id:
@@ -12365,6 +12487,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12428,6 +12553,7 @@ class AccountEdiCommon(models.AbstractModel):
         for document in additional_docs:
             attachment_name = document.find('{*}ID')
             attachment_data = document.find('{*}Attachment/{*}EmbeddedDocumentBinaryObject')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12810,6 +12936,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if attachment_name is not None and attachment_data is not None:
                 mimetype = attachment_data.attrib.get('mimeCode')
                 if not (extension := SUPPORTED_FILE_TYPES.get(mimetype)):
@@ -12943,6 +13071,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13323,7 +13454,11 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'mimetype': 'application/pdf',
+=======
+                    'mimetype': mimetype,
+>>>>>>> upstream/18.0
 =======
                     'mimetype': mimetype,
 >>>>>>> upstream/18.0
@@ -13829,7 +13964,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'pdf' not in invoice.message_main_attachment_id.mimetype:
+=======
+                        'pdf' not in invoice.message_main_attachment_id.mimetype and \
+                        mimetype == 'application/pdf':
+>>>>>>> upstream/18.0
 =======
                         'pdf' not in invoice.message_main_attachment_id.mimetype and \
                         mimetype == 'application/pdf':
@@ -14467,7 +14607,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner_vals = {'name': name, 'email': email, 'phone': phone, 'street': street, 'street2': street2, 'zip': zip_code, 'city': city}
+=======
+            partner_vals = {'name': name, 'email': email, 'phone': phone, 'street': street, 'street2': street2,
+                            'zip': zip_code, 'city': city, 'is_company': True}
+>>>>>>> upstream/18.0
 =======
             partner_vals = {'name': name, 'email': email, 'phone': phone, 'street': street, 'street2': street2,
                             'zip': zip_code, 'city': city, 'is_company': True}
@@ -14964,6 +15109,7 @@ class AccountEdiCommon(models.AbstractModel):
         return partner, logs
 
     def _import_partner_bank(self, invoice, bank_details):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16897,6 +17043,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if invoice.move_type in ('out_refund', 'in_invoice'):
             partner = invoice.partner_id
         elif invoice.move_type in ('out_invoice', 'in_refund'):
@@ -16956,6 +17104,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17327,7 +17478,10 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17999,6 +18153,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18482,6 +18639,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if line_values is None:
+                continue
+
+>>>>>>> upstream/18.0
 =======
             if line_values is None:
                 continue
@@ -18759,6 +18922,7 @@ class AccountEdiCommon(models.AbstractModel):
 
     def _retrieve_invoice_line_vals(self, tree, document_type=False, qty_factor=1):
         # Start and End date (enterprise fields)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19393,6 +19557,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         xpath_dict = self._get_invoice_line_xpaths(document_type, qty_factor)
         deferred_values = {}
         start_date = end_date = None
@@ -19610,6 +19776,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20085,6 +20254,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             **self._retrieve_line_vals(tree, document_type, qty_factor),
             **deferred_values,
@@ -20388,6 +20558,10 @@ class AccountEdiCommon(models.AbstractModel):
         line_vals = self._retrieve_line_vals(tree, document_type, qty_factor)
         if not line_vals.get('price_subtotal'):
 >>>>>>> upstream/18.0
+=======
+        line_vals = self._retrieve_line_vals(tree, document_type, qty_factor)
+        if not line_vals.get('price_subtotal'):
+>>>>>>> upstream/18.0
             return None
 
         return {
@@ -20447,6 +20621,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20592,7 +20769,11 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             charge_indicator = allowance_charge_node.findtext(xpath_dict['allowance_charge_indicator'])
+=======
+            charge_indicator = allowance_charge_node.findtext(xpath_dict['allowance_charge_indicator']) or 'false'
+>>>>>>> upstream/18.0
 =======
             charge_indicator = allowance_charge_node.findtext(xpath_dict['allowance_charge_indicator']) or 'false'
 >>>>>>> upstream/18.0
@@ -20768,6 +20949,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21007,6 +21191,7 @@ class AccountEdiCommon(models.AbstractModel):
         """
         xpath_dict = self._get_line_xpaths(document_type, qty_factor)
         # basis_qty (optional)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21800,6 +21985,9 @@ class AccountEdiCommon(models.AbstractModel):
 =======
         basis_qty = float(self._find_value(xpath_dict['basis_qty'], tree) or 1) or 1.0
 >>>>>>> upstream/18.0
+=======
+        basis_qty = float(self._find_value(xpath_dict['basis_qty'], tree) or 1) or 1.0
+>>>>>>> upstream/18.0
 
         # gross_price_unit (optional)
         gross_price_unit = None
@@ -21807,6 +21995,7 @@ class AccountEdiCommon(models.AbstractModel):
         if gross_price_unit_node is not None:
             gross_price_unit = float(gross_price_unit_node.text)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22414,6 +22603,11 @@ class AccountEdiCommon(models.AbstractModel):
         net_price_unit = None
         net_price_unit_node = tree.find(xpath_dict['net_price_unit'])
 >>>>>>> upstream/18.0
+=======
+        # net_price_unit (mandatory)
+        net_price_unit = None
+        net_price_unit_node = tree.find(xpath_dict['net_price_unit'])
+>>>>>>> upstream/18.0
         if net_price_unit_node is not None:
             net_price_unit = float(net_price_unit_node.text)
 
@@ -22427,6 +22621,7 @@ class AccountEdiCommon(models.AbstractModel):
             delivered_qty = float(quantity_node.text)
             uom_xml = quantity_node.attrib.get('unitCode')
             if uom_xml:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22462,6 +22657,11 @@ class AccountEdiCommon(models.AbstractModel):
                 if uom_infered_xmlid:
                     product_uom = self.env.ref(uom_infered_xmlid, raise_if_not_found=False) or self.env['uom.uom']
 >>>>>>> upstream/18.0
+=======
+                uom_infered_xmlid = {v: k for k, v in UOM_TO_UNECE_CODE.items()}.get(uom_xml)
+                if uom_infered_xmlid:
+                    product_uom = self.env.ref(uom_infered_xmlid, raise_if_not_found=False) or self.env['uom.uom']
+>>>>>>> upstream/18.0
         if product and product_uom and product_uom.category_id != product.product_tmpl_id.uom_id.category_id:
             # uom incompatibility
             product_uom = self.env['uom.uom']
@@ -22469,6 +22669,7 @@ class AccountEdiCommon(models.AbstractModel):
         # line_net_subtotal (mandatory)
         price_subtotal = None
         line_total_amount_node = tree.find(xpath_dict['line_total_amount'])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22764,10 +22965,15 @@ class AccountEdiCommon(models.AbstractModel):
         if line_total_amount_node is not None and line_total_amount_node.text and line_total_amount_node.text.strip():
             price_subtotal = float(line_total_amount_node.text)
 >>>>>>> upstream/18.0
+=======
+        if line_total_amount_node is not None and line_total_amount_node.text and line_total_amount_node.text.strip():
+            price_subtotal = float(line_total_amount_node.text)
+>>>>>>> upstream/18.0
 
         # quantity
         quantity = delivered_qty * qty_factor
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23081,6 +23287,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # rebate (optional)
         rebate = self._retrieve_rebate_val(tree, xpath_dict, quantity)
 
@@ -23184,6 +23392,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23392,6 +23603,7 @@ class AccountEdiCommon(models.AbstractModel):
         elif price_subtotal is not None:
             price_unit = (price_subtotal + allow_charge_amount) / (delivered_qty or 1)
         else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24408,6 +24620,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             price_unit = 0
 
         # discount
@@ -24438,6 +24652,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24677,6 +24894,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25099,6 +25319,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if net_price_unit is not None and price_subtotal != net_price_unit * (delivered_qty / basis_qty) - allow_charge_amount:
 =======
         if net_price_unit is not None and float_compare(price_subtotal, net_price_unit * (delivered_qty / basis_qty) - allow_charge_amount, currency.decimal_places):
@@ -25228,6 +25449,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (
             net_price_unit is not None
             and price_subtotal is not None
@@ -25253,6 +25476,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25339,6 +25565,10 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'price_subtotal': price_subtotal,
+>>>>>>> upstream/18.0
 =======
             'price_subtotal': price_subtotal,
 >>>>>>> upstream/18.0
@@ -25447,6 +25677,7 @@ class AccountEdiCommon(models.AbstractModel):
                     return tax
         return self.env['account.tax']
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25844,6 +26075,9 @@ class AccountEdiCommon(models.AbstractModel):
 =======
     def _retrieve_taxes(self, record, line_values, tax_type, tax_exigibility=False):
 >>>>>>> upstream/18.0
+=======
+    def _retrieve_taxes(self, record, line_values, tax_type, tax_exigibility=False):
+>>>>>>> upstream/18.0
         """
         Retrieve the taxes on the document line at import.
 
@@ -25864,6 +26098,7 @@ class AccountEdiCommon(models.AbstractModel):
             ]
             tax = self.env['account.tax']
             if hasattr(record, '_get_specific_tax'):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26208,6 +26443,9 @@ class AccountEdiCommon(models.AbstractModel):
 =======
                 tax = record._get_specific_tax(line_values['name'], 'percent', amount, tax_type).filtered_domain(domain)[:1]
 >>>>>>> upstream/18.0
+=======
+                tax = record._get_specific_tax(line_values['name'], 'percent', amount, tax_type).filtered_domain(domain)[:1]
+>>>>>>> upstream/18.0
             if tax_exigibility:
                 if not tax and tax_exigibility:
                     tax = self.env['account.tax'].search(domain + [('price_include', '=', False), ('tax_exigibility', '=', tax_exigibility)], limit=1)
@@ -26317,6 +26555,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26562,6 +26803,12 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not charge['line_quantity']:
+                continue
+
+>>>>>>> upstream/18.0
 =======
             if not charge['line_quantity']:
                 continue
@@ -26697,6 +26944,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             charges_vals.append([
                 charge['reason_code'] + " " + charge['reason'],
                 1,
@@ -26704,6 +26952,8 @@ class AccountEdiCommon(models.AbstractModel):
                 taxes,
             ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26770,6 +27020,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

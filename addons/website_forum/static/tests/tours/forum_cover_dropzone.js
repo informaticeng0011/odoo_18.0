@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { insertSnippet, registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+=======
+import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+>>>>>>> upstream/18.0
 
 registerWebsitePreviewTour(
     "forum_cover_dropzone",
@@ -15,11 +19,16 @@ registerWebsitePreviewTour(
             run: "click",
         },
         {
+<<<<<<< HEAD
             content: "Add the s_title into the forum cover.",
+=======
+            content: "Select the 'Title' snippet in the dialog.",
+>>>>>>> upstream/18.0
             trigger: ':iframe .o_snippet_preview_wrap[data-snippet-id="s_title"]:not(.d-none)',
             run: "click",
         },
         {
+<<<<<<< HEAD
             content: "Check that the s_title was inserted in the forum cover.",
             trigger: ":iframe .s_cover .s_title",
         },
@@ -32,6 +41,25 @@ registerWebsitePreviewTour(
         {
             content: "Check that the s_text was inserted in the forum cover.",
             trigger: ":iframe .s_cover .s_text_block",
+=======
+            content: "Check that the 'Title' snippet was inserted in the forum cover.",
+            trigger: ":iframe .s_cover .s_title",
+        },
+        // Add a snippet with drag and drop.
+        {
+            content: "Drag the Form snippet group into the forum cover.",
+            trigger: `#oe_snippets .oe_snippet[name="Contact & Forms"].o_we_draggable .oe_snippet_thumbnail:not(.o_we_ongoing_insertion)`,
+            run: "drag_and_drop :iframe #wrapwrap .s_cover",
+        },
+        {
+            content: "Select the 'Title - Form' snippet in the dialog",
+            trigger: ':iframe .o_snippet_preview_wrap[data-snippet-id="s_title_form"]:not(.d-none)',
+            run: "click",
+        },
+        {
+            content: "Check that the 'Title - Form' snippet was inserted in the forum cover.",
+            trigger: ":iframe .s_cover .s_title_form",
+>>>>>>> upstream/18.0
         },
         // Check that it is impossible to drop "Embed Code" (= sanitized area).
         {

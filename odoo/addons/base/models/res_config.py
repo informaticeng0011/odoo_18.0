@@ -13,6 +13,10 @@ from odoo.exceptions import AccessError, RedirectWarning, UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import str2bool
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import str2bool
 >>>>>>> upstream/18.0
@@ -347,7 +351,11 @@ class ResConfigSettings(models.TransientModel, ResConfigModuleInstallationMixin)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     value = bool(value)
+=======
+                    value = str2bool(value, bool(value))
+>>>>>>> upstream/18.0
 =======
                     value = str2bool(value, bool(value))
 >>>>>>> upstream/18.0
