@@ -2,7 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, fields, models, _
+<<<<<<< HEAD
 from ast import literal_eval
+=======
+>>>>>>> upstream/18.0
 
 
 class ProjectTaskTypeDelete(models.TransientModel):
@@ -55,6 +58,7 @@ class ProjectTaskTypeDelete(models.TransientModel):
         return self._get_action()
 
     def _get_action(self):
+<<<<<<< HEAD
         project_id = self.env.context.get('default_project_id')
 
         if project_id:
@@ -75,3 +79,11 @@ class ProjectTaskTypeDelete(models.TransientModel):
         action['context'] = context
         action['target'] = 'main'
         return action
+=======
+        return {
+            'type': 'ir.actions.act_window_close',
+            'infos': {
+                'success': True,
+            },
+        }
+>>>>>>> upstream/18.0

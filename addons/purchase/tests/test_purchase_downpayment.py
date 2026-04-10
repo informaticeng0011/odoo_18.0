@@ -9,6 +9,12 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 
     def test_downpayment_basic(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        custom_expense_account = self.company_data['default_account_expense'].copy()
+        self.product_order.property_account_expense_id = custom_expense_account
+
+>>>>>>> upstream/18.0
 =======
         custom_expense_account = self.company_data['default_account_expense'].copy()
         self.product_order.property_account_expense_id = custom_expense_account
@@ -20,6 +26,10 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 
         dp_bill = self.init_invoice('in_invoice', amounts=[69.00], post=True)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        dp_bill.invoice_line_ids.account_id = custom_expense_account
+>>>>>>> upstream/18.0
 =======
         dp_bill.invoice_line_ids.account_id = custom_expense_account
 >>>>>>> upstream/18.0
@@ -43,9 +53,15 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
         self.assertRecordValues(generated_bill.invoice_line_ids, [
             # pylint: disable=C0326
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'product_id': self.product_order.id, 'display_type': 'product',      'quantity': 10, 'is_downpayment': False, 'balance': 10.0 * self.product_order.standard_price},
             {'product_id': False,                 'display_type': 'line_section', 'quantity': 0,  'is_downpayment': True,  'balance': 0.0},
             {'product_id': False,                 'display_type': 'product',      'quantity': -1, 'is_downpayment': True,  'balance': -69.0},
+=======
+            {'product_id': self.product_order.id, 'display_type': 'product',      'quantity': 10, 'is_downpayment': False, 'balance': 10.0 * self.product_order.standard_price, 'account_id': custom_expense_account.id},
+            {'product_id': False,                 'display_type': 'line_section', 'quantity': 0,  'is_downpayment': True,  'balance': 0.0, 'account_id': False},
+            {'product_id': False,                 'display_type': 'product',      'quantity': -1, 'is_downpayment': True,  'balance': -69.0, 'account_id': custom_expense_account.id},
+>>>>>>> upstream/18.0
 =======
             {'product_id': self.product_order.id, 'display_type': 'product',      'quantity': 10, 'is_downpayment': False, 'balance': 10.0 * self.product_order.standard_price, 'account_id': custom_expense_account.id},
             {'product_id': False,                 'display_type': 'line_section', 'quantity': 0,  'is_downpayment': True,  'balance': 0.0, 'account_id': False},
@@ -368,7 +384,10 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1196,6 +1215,7 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1246,6 +1266,8 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1982,6 +2004,9 @@ class TestPurchaseDownpayment(TestPurchaseToInvoiceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

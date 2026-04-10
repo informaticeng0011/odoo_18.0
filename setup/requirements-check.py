@@ -50,6 +50,10 @@ from packaging.requirements import Requirement
 from packaging.tags import mac_platforms  # noqa: PLC2701
 from packaging.utils import canonicalize_name
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from packaging.version import parse, InvalidVersion
+>>>>>>> upstream/18.0
 =======
 from packaging.version import parse, InvalidVersion
 >>>>>>> upstream/18.0
@@ -85,14 +89,20 @@ def urlopen(url):
 
 def parse_version(vstring: str) -> Optional[Version]:
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not vstring:
         return None
     return tuple(map(int, vstring.split('.')))
 =======
+=======
+>>>>>>> upstream/18.0
     try:
         return parse(vstring).release
     except InvalidVersion:
         return None
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 
@@ -433,7 +443,11 @@ def main(args):
     if args.format:
         output_format = args.format
 <<<<<<< HEAD
+<<<<<<< HEAD
         assert format in SUPPORTED_FORMATS
+=======
+        assert output_format in SUPPORTED_FORMATS
+>>>>>>> upstream/18.0
 =======
         assert output_format in SUPPORTED_FORMATS
 >>>>>>> upstream/18.0

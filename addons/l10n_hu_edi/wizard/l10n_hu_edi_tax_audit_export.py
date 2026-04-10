@@ -132,7 +132,11 @@ class L10nHuEdiTaxAuditExport(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 with contextlib.closing(self.env.cr.savepoint(flush=False)):
+=======
+                with contextlib.closing(self.env.cr.savepoint()):
+>>>>>>> upstream/18.0
 =======
                 with contextlib.closing(self.env.cr.savepoint()):
 >>>>>>> upstream/18.0

@@ -198,6 +198,10 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.defaultColor = "rgba(0, 0, 0, 0)";
+>>>>>>> upstream/18.0
 =======
         this.defaultColor = "rgba(0, 0, 0, 0)";
 >>>>>>> upstream/18.0
@@ -802,6 +806,10 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        window.removeEventListener("resize", this._onResize);
+>>>>>>> upstream/18.0
 =======
         window.removeEventListener("resize", this._onResize);
 >>>>>>> upstream/18.0
@@ -1317,9 +1325,12 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ctx.canvas.width = this.width;
                 ctx.canvas.height = this.size;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1597,6 +1608,9 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1899,7 +1913,10 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2178,6 +2195,9 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2501,6 +2521,10 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const dpr = window.devicePixelRatio || 1;
+>>>>>>> upstream/18.0
 =======
         const dpr = window.devicePixelRatio || 1;
 >>>>>>> upstream/18.0
@@ -2874,12 +2898,15 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ctx.fillText(textNb, canvas.width / 2, canvas.height / 2);
 
         const unitSize = this.size / 12;
         ctx.font = `${unitSize}px Arial`;
         ctx.fillText(textUnit, canvas.width / 2, canvas.height / 2 + nbSize / 1.5, this.width);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3158,6 +3185,9 @@ const CountdownWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

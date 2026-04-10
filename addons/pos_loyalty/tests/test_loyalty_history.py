@@ -248,7 +248,10 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -957,6 +960,7 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1374,6 +1378,8 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_loyalty_history_earn_and_spend(self):
         """When points are earned and spent in the same order, the loyalty history
@@ -1419,6 +1425,9 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
         # $10 product → 10 pts earned; 10% discount reward → 5 pts spent
         self.assertEqual(history.issued, 10.0, "Issued should be 10 (gross earned), not the net")
         self.assertEqual(history.used, 5.0, "Used should be 5 (gross spent), not the net")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_gift_card_partner(self):
@@ -1565,6 +1574,9 @@ class TestPOSLoyaltyHistory(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

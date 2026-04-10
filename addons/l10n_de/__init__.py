@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from . import models
+<<<<<<< HEAD
+=======
+from . import report
+>>>>>>> upstream/18.0
 
 
 def _post_init_hook(env):

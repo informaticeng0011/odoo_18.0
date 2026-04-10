@@ -53,7 +53,10 @@ export class Plugin {
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
      * Test the given arguments against all the predicates registered under
      * `resourceId` (which ends with "_predicates" by convention), and return
      * true if any predicate returns `true` and none returns `false` (ignoring
@@ -82,6 +85,9 @@ export class Plugin {
     }
 
     /**
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
      * @param {string} resourceId
      * @returns {Array}

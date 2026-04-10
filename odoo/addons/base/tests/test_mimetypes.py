@@ -372,6 +372,10 @@ class test_guess_mimetype(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(get_extension('filename.ab_c'), '.ab_c')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(get_extension('filename.ab_c'), '.ab_c')
 >>>>>>> upstream/18.0
@@ -1307,7 +1311,10 @@ class test_guess_mimetype(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1940,6 +1947,9 @@ class test_guess_mimetype(BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

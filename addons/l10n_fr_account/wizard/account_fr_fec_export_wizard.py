@@ -69,6 +69,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import csv
 import io
 from odoo.tools import float_is_zero, SQL
@@ -76,6 +77,8 @@ from odoo import fields, models, api
 from odoo.tools.misc import get_lang
 from stdnum.fr import siren
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -288,6 +291,9 @@ from odoo.modules.registry import Registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -515,6 +521,7 @@ class FecExportWizard(models.TransientModel):
         else:
             return company.vat
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -869,6 +876,10 @@ class FecExportWizard(models.TransientModel):
     def _get_fec_stream(self):
         company = self.env.company
 >>>>>>> upstream/18.0
+=======
+    def _get_fec_stream(self):
+        company = self.env.company
+>>>>>>> upstream/18.0
         header = [
             u'JournalCode',    # 0
             u'JournalLib',     # 1
@@ -890,6 +901,7 @@ class FecExportWizard(models.TransientModel):
             u'Idevise',        # 17
             ]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1782,6 +1794,8 @@ class FecExportWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         aa_name = self.env['account.account']._field_to_sql('account_move_line__account_id', 'name')
 
         def format_row(row):
@@ -2100,6 +2114,9 @@ class FecExportWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2319,7 +2336,11 @@ class FecExportWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'file_content': content,
+=======
+            'file_content': self._get_fec_stream(),
+>>>>>>> upstream/18.0
 =======
             'file_content': self._get_fec_stream(),
 >>>>>>> upstream/18.0

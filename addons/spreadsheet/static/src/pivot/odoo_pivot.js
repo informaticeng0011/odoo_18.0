@@ -9,7 +9,12 @@ import { LOADING_ERROR } from "@spreadsheet/data_sources/data_source";
 import { omit } from "@web/core/utils/objects";
 import { OdooPivotLoader } from "./odoo_pivot_loader";
 
+<<<<<<< HEAD
 const { pivotRegistry, supportedPivotPositionalFormulaRegistry } = registries;
+=======
+const { pivotRegistry, supportedPivotPositionalFormulaRegistry, pivotNormalizationValueRegistry } =
+    registries;
+>>>>>>> upstream/18.0
 const { pivotTimeAdapter, toString, areDomainArgsFieldsValid, toNormalizedPivotValue, deepEquals } =
     helpers;
 
@@ -389,6 +394,10 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this._loadPropertiesDefinitions();
+>>>>>>> upstream/18.0
 =======
         await this._loadPropertiesDefinitions();
 >>>>>>> upstream/18.0
@@ -1645,7 +1654,10 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2382,6 +2394,7 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2726,6 +2739,8 @@ export class OdooPivot {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2932,6 +2947,9 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3202,7 +3220,11 @@ pivotRegistry.add("ODOO", {
         ((MEASURES_TYPES.includes(field.type) && field.aggregator) || field.type === "many2one") &&
         field.name !== "id" &&
         field.store,
+<<<<<<< HEAD
     isGroupable: (field) => field.groupable,
+=======
+    isGroupable: (field) => field.groupable && pivotNormalizationValueRegistry.contains(field.type),
+>>>>>>> upstream/18.0
 });
 
 supportedPivotPositionalFormulaRegistry.add("ODOO", true);

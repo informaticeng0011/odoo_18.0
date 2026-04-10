@@ -340,6 +340,12 @@ export class ImportAction extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (res.hasError) {
+                return;
+            }
+>>>>>>> upstream/18.0
 =======
             if (res.hasError) {
                 return;

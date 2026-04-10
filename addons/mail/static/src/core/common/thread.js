@@ -24,8 +24,12 @@ import { Transition } from "@web/core/transition";
 import { useBus, useRefListener, useService } from "@web/core/utils/hooks";
 import { escape } from "@web/core/utils/strings";
 
+<<<<<<< HEAD
 export const PRESENT_VIEWPORT_THRESHOLD = 3;
 const PRESENT_MESSAGE_THRESHOLD = 10;
+=======
+export const PRESENT_VIEWPORT_THRESHOLD = 1;
+>>>>>>> upstream/18.0
 
 /**
  * @typedef {Object} Props
@@ -189,6 +193,10 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.ui = useService("ui");
+>>>>>>> upstream/18.0
 =======
         this.ui = useService("ui");
 >>>>>>> upstream/18.0
@@ -704,7 +712,11 @@ export class Thread extends Component {
             this.env.inChatter ? 22 : width - ps - pe - 22
         }px, ${
             this.env.inChatter && !this.env.inChatter.aside
+<<<<<<< HEAD
                 ? 0
+=======
+                ? -22
+>>>>>>> upstream/18.0
                 : height - pt - pb - (this.env.inChatter?.aside ? 75 : 0)
         }px)`;
     }
@@ -937,6 +949,7 @@ export class Thread extends Component {
     }
 
     get PRESENT_THRESHOLD() {
+<<<<<<< HEAD
         const viewportHeight = (this.getViewportEl?.clientHeight ?? 0) * PRESENT_VIEWPORT_THRESHOLD;
         const messagesHeight = [...this.props.thread.nonEmptyMessages]
             .reverse()
@@ -944,6 +957,9 @@ export class Thread extends Component {
             .map((message) => this.refByMessageId.get(message.id))
             .reduce((totalHeight, message) => totalHeight + (message?.el?.clientHeight ?? 0), 0);
         const threshold = Math.max(viewportHeight, messagesHeight);
+=======
+        const threshold = (this.viewportEl?.clientHeight ?? 0) * PRESENT_VIEWPORT_THRESHOLD;
+>>>>>>> upstream/18.0
         return this.state.showJumpPresent ? threshold - 200 : threshold;
     }
 
@@ -1005,7 +1021,10 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1103,6 +1122,9 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1282,6 +1304,12 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!this.ui.isSmall) {
+            this.props.thread.composer.autofocus++;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!this.ui.isSmall) {
             this.props.thread.composer.autofocus++;
@@ -2172,6 +2200,12 @@ export class Thread extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (msg.is_note) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (msg.is_note) {
             return false;

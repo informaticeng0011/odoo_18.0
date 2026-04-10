@@ -235,7 +235,11 @@ class Digest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'formatted_date': datetime.today().strftime('%B %d, %Y'),
+=======
+                'formatted_date': tools.format_date(self.env, datetime.today(), date_format='MMMM dd, yyyy'),
+>>>>>>> upstream/18.0
 =======
                 'formatted_date': tools.format_date(self.env, datetime.today(), date_format='MMMM dd, yyyy'),
 >>>>>>> upstream/18.0
@@ -663,13 +667,19 @@ class Digest(models.Model):
         start, end, companies = self._get_kpi_compute_parameters()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         base_domain = [
             ('company_id', 'in', companies.ids),
 =======
+=======
+>>>>>>> upstream/18.0
         company_field = self._get_company_field(model)
 
         base_domain = [
             (company_field, 'in', companies.ids),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             (date_field, '>=', start),
             (date_field, '<', end),
@@ -681,7 +691,11 @@ class Digest(models.Model):
         values = self.env[model]._read_group(
             domain=base_domain,
 <<<<<<< HEAD
+<<<<<<< HEAD
             groupby=['company_id'],
+=======
+            groupby=[company_field],
+>>>>>>> upstream/18.0
 =======
             groupby=[company_field],
 >>>>>>> upstream/18.0
@@ -694,6 +708,12 @@ class Digest(models.Model):
             digest[digest_kpi_field] = values_per_company.get(company.id, 0)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_company_field(self, model):
+        return 'company_ids' if model in ['res.users'] else 'company_id'
+
+>>>>>>> upstream/18.0
 =======
     def _get_company_field(self, model):
         return 'company_ids' if model in ['res.users'] else 'company_id'

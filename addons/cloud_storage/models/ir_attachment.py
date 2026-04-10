@@ -146,6 +146,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import uuid
 
 from odoo import models, fields, _
@@ -153,6 +154,8 @@ from odoo.exceptions import UserError
 from odoo.http import Stream
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -598,6 +601,9 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -920,6 +926,11 @@ class CloudStorageAttachment(models.Model):
             for record in self:
                 record.write({
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    # Preserve the existing mimetype to avoid it being guessed
+                    'mimetype': record.mimetype,
+>>>>>>> upstream/18.0
 =======
                     # Preserve the existing mimetype to avoid it being guessed
                     'mimetype': record.mimetype,
@@ -1075,7 +1086,10 @@ class CloudStorageAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1530,6 +1544,9 @@ class CloudStorageAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2069,7 +2086,10 @@ class CloudStorageAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2482,6 +2502,7 @@ class CloudStorageAttachment(models.Model):
     def _get_cloud_storage_unsupported_models(self):
         # Some models may use their attachments' data in the business code
         # We should avoid those attachments to be uploaded to the cloud storage
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3095,6 +3116,8 @@ class CloudStorageAttachment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         models = self.env.registry.descendants(['mail.thread.main.attachment'], '_inherit', '_inherits')
         if 'documents.mixin' in self.env:
             models.update(self.env.registry.descendants(['documents.mixin'], '_inherit'))
@@ -3274,6 +3297,9 @@ class CloudStorageAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

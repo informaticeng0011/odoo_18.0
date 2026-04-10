@@ -230,6 +230,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <attribute name="class">d-none</attribute>
 =======
                 <attribute name="t-att-class">'d-none' if o.company_id.country_id.code == 'SA' else ''</attribute>
@@ -903,6 +904,9 @@
 =======
                 <attribute name="t-att-class">'d-none' if o.company_id.country_id.code == 'SA' else 'row clearfix ms-auto text-nowrap border-top border-bottom p-2'</attribute>
 >>>>>>> upstream/18.0
+=======
+                <attribute name="t-att-class">'d-none' if o.company_id.country_id.code == 'SA' else 'row clearfix ms-auto text-nowrap border-top border-bottom p-2'</attribute>
+>>>>>>> upstream/18.0
             </xpath>
             <xpath expr="//div[hasclass('clearfix')]" position="after">
                 <table t-if="o.company_id.country_id.code == 'SA' and o.currency_id != o.company_id.currency_id"
@@ -924,6 +928,7 @@
                     </tr>
                     <tr>
                         <td><p class="m-0" t-esc="sar_rate" t-options='{"widget": "float", "precision": 5}'/></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1461,10 +1466,14 @@
 =======
                         <td><p class="m-0" t-esc="abs(o.amount_untaxed_signed)"
 >>>>>>> upstream/18.0
+=======
+                        <td><p class="m-0" t-esc="abs(o.amount_untaxed_signed)"
+>>>>>>> upstream/18.0
                             t-options='{"widget": "monetary", "display_currency": o.company_currency_id}'/></td>
                         <td><p class="m-0"
                             t-esc="o.currency_id._convert(o.amount_tax, o.company_id.currency_id, o.company_id, curr_date)"
                             t-options='{"widget": "monetary", "display_currency": o.company_currency_id}'/></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2002,6 +2011,9 @@
 =======
                         <td><p class="m-0" t-esc="abs(o.amount_total_signed)"
 >>>>>>> upstream/18.0
+=======
+                        <td><p class="m-0" t-esc="abs(o.amount_total_signed)"
+>>>>>>> upstream/18.0
                             t-options='{"widget": "monetary", "display_currency": o.company_currency_id}'/></td>
                     </tr>
                 </table>
@@ -2146,6 +2158,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <!-- DEPRECATED - to be removed in master  -->
+>>>>>>> upstream/18.0
 =======
                 <!-- DEPRECATED - to be removed in master  -->
 >>>>>>> upstream/18.0
@@ -2684,6 +2700,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <!-- DEPRECATED - to be removed in master -->
+>>>>>>> upstream/18.0
 =======
                 <!-- DEPRECATED - to be removed in master -->
 >>>>>>> upstream/18.0

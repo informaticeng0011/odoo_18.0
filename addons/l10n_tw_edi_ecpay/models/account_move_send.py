@@ -49,7 +49,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and move.company_id.country_id.code == 'TW'
+=======
+                and move.company_id.account_fiscal_country_id.code == 'TW'
+>>>>>>> upstream/18.0
 =======
                 and move.company_id.account_fiscal_country_id.code == 'TW'
 >>>>>>> upstream/18.0
@@ -197,7 +201,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and move.company_id.country_id.code == 'TW'
+=======
+                and move.company_id.account_fiscal_country_id.code == 'TW'
+>>>>>>> upstream/18.0
 =======
                 and move.company_id.account_fiscal_country_id.code == 'TW'
 >>>>>>> upstream/18.0

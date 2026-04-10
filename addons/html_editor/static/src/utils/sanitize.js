@@ -238,7 +238,10 @@ export function initElementForEdition(element, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -903,6 +906,7 @@ export function initElementForEdition(element, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         img.style.setProperty("width", width);
         img.style.setProperty("height", height);
     }
@@ -942,6 +946,11 @@ export function initElementForEdition(element, options = {}) {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        img.style.setProperty("width", isNaN(width) ? width : `${width}px`);
+        img.style.setProperty("height", isNaN(height) ? height : `${height}px`);
+    }
 >>>>>>> upstream/18.0
 =======
         img.style.setProperty("width", isNaN(width) ? width : `${width}px`);

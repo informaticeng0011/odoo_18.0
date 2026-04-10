@@ -1,6 +1,10 @@
 import { after, describe, expect, test } from "@odoo/hoot";
 import {
     defineModels,
+<<<<<<< HEAD
+=======
+    fields,
+>>>>>>> upstream/18.0
     getService,
     makeMockEnv,
     models,
@@ -13,9 +17,19 @@ import { rpcBus } from "@web/core/network/rpc";
 class Dev extends models.Model {
     _name = "dev";
     _rec_name = "display_name";
+<<<<<<< HEAD
     _records = [
         { id: 1, display_name: "Julien" },
         { id: 2, display_name: "Pierre" },
+=======
+
+    active = fields.Boolean({ default: true });
+
+    _records = [
+        { id: 1, display_name: "Julien" },
+        { id: 2, display_name: "Pierre" },
+        { id: 5, display_name: "Paul", active: false },
+>>>>>>> upstream/18.0
     ];
 }
 
@@ -128,6 +142,25 @@ test("inaccessible or missing id", async () => {
     expect.verifySteps(["dev:web_search_read:3"]);
 });
 
+<<<<<<< HEAD
+=======
+test("loadDisplayNames fetches archived records", async () => {
+    await makeMockEnv();
+    onRpc(({ method, model, kwargs }) => {
+        if (method === "web_search_read") {
+            expect.step(method);
+            expect(model).toBe("dev");
+            expect(kwargs.domain).toEqual([["id", "in", [5]]]);
+            expect(kwargs.context.active_test).toBe(false);
+        }
+    });
+
+    const displayNames = await getService("name").loadDisplayNames("dev", [5]);
+    expect(displayNames).toEqual({ 5: "Paul" });
+    expect.verifySteps(["web_search_read"]);
+});
+
+>>>>>>> upstream/18.0
 test("batch + inaccessible/missing", async () => {
     await makeMockEnv();
     onRpc(({ model, method, kwargs }) => {

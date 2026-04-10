@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { test } from "@odoo/hoot";
 import { press } from "@odoo/hoot-dom";
 import { testEditor } from "../_helpers/editor";
 import { deleteBackward, deleteForward, insertText } from "../_helpers/user_actions";
 =======
+=======
+>>>>>>> upstream/18.0
 import { animationFrame, expect, test, waitFor } from "@odoo/hoot";
 import { click, press } from "@odoo/hoot-dom";
 import { setupEditor, testEditor } from "../_helpers/editor";
@@ -11,6 +14,9 @@ import { deleteBackward, deleteForward, insertText } from "../_helpers/user_acti
 import { expectElementCount } from "../_helpers/ui_expectations";
 import { getContent } from "../_helpers/selection";
 import { contains } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 test("should merge successive inline code", async () => {
@@ -64,7 +70,10 @@ test("should allow plain text insertion after inline code", async () => {
     });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("should create inline code and exclude surrounding formatting", async () => {
     await testEditor({
@@ -156,4 +165,7 @@ test("should open toolbar for mixed selection and apply formatting outside inlin
         `<p>abc<code class="o_inline_code">t[est</code><span class="display-1-fs"><font style="color: rgb(0, 0, 255);"><strong>de]</strong></font></span>f</p>`
     );
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
