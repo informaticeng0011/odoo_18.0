@@ -273,10 +273,15 @@ import { Component, onWillRender, useState, xml } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { parseRegExp } from "../../hoot-dom/hoot_dom_utils";
 import { Test } from "../core/test";
 import { EXCLUDE_PREFIX } from "../core/url";
 import { formatTime, getFuzzyScore, normalize } from "../hoot_utils";
+=======
+import { Test } from "../core/test";
+import { formatTime, parseQuery } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { Test } from "../core/test";
 import { formatTime, parseQuery } from "../hoot_utils";
@@ -1606,6 +1611,7 @@ import { HootTestResult } from "./hoot_test_result";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {{
  * }} HootReportingProps
  *
@@ -2079,6 +2085,8 @@ import { HootTestResult } from "./hoot_test_result";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @typedef {import("../core/test").Test} Test
  *
  * @typedef {{
@@ -2317,6 +2325,9 @@ import { HootTestResult } from "./hoot_test_result";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2792,6 +2803,7 @@ import { HootTestResult } from "./hoot_test_result";
 // Global
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3881,6 +3893,9 @@ const { Boolean } = globalThis;
 =======
 const { Boolean } = globalThis;
 >>>>>>> upstream/18.0
+=======
+const { Boolean } = globalThis;
+>>>>>>> upstream/18.0
 
 //-----------------------------------------------------------------------------
 // Internal
@@ -4150,10 +4165,13 @@ const issueTemplate = (varName, colorClassName) => /* xml */ `
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const sortByDurationAscending = (a, b) => a.duration - b.duration;
 
 const sortByDurationDescending = (a, b) => b.duration - a.duration;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4871,6 +4889,9 @@ function sortByDurationDescending(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5596,7 +5617,10 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6135,6 +6159,9 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6828,7 +6855,11 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         !test.config.todo && !test.config.skip && test.results.every((r) => r.pass);
+=======
+                        !test.config.todo && !test.config.skip && test.results.some((r) => r.pass);
+>>>>>>> upstream/18.0
 =======
                         !test.config.todo && !test.config.skip && test.results.some((r) => r.pass);
 >>>>>>> upstream/18.0
@@ -7873,6 +7904,7 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { filter } = this.config;
         if (!filter) {
             return null;
@@ -7886,6 +7918,8 @@ export class HootReporting extends Component {
         const pattern = isExcluding ? nFilter.slice(EXCLUDE_PREFIX.length) : nFilter;
         return (key) => getFuzzyScore(pattern, key) > 0;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8708,6 +8742,7 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8910,6 +8945,8 @@ export class HootReporting extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9424,6 +9461,9 @@ export class HootReporting extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

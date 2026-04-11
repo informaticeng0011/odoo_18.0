@@ -255,6 +255,11 @@ def patch_all():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    from .lxml import patch_lxml
+    patch_lxml()
+>>>>>>> upstream/18.0
 =======
     from .lxml import patch_lxml
     patch_lxml()
@@ -1185,3 +1190,8 @@ def patch_all():
     patch_werkzeug()
     from .zeep import patch_zeep
     patch_zeep()
+<<<<<<< HEAD
+=======
+    from .markupsafe import patch_markup
+    patch_markup()
+>>>>>>> upstream/18.0

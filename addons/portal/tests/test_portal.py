@@ -171,6 +171,10 @@ from odoo.http import Request
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -853,7 +857,10 @@ class TestUsersHttp(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1206,6 +1213,16 @@ class TestUsersHttp(HttpCase):
             'acc_type': 'bank',
         })
 
+<<<<<<< HEAD
+=======
+        bank_account_2 = self.env['res.partner.bank'].create({
+            'acc_number': '987654321',
+            'partner_id': portal_user.partner_id.id,
+            'acc_holder_name': 'Partner A',
+            'acc_type': 'bank',
+        })
+
+>>>>>>> upstream/18.0
         common_data = {
             'phone': '1234567890',
             'email': 'test@example.com',
@@ -1220,10 +1237,15 @@ class TestUsersHttp(HttpCase):
         response = self.url_open(url='/my/account', data={**common_data, 'name': portal_user.partner_id.name, 'csrf_token': Request.csrf_token(self)})
         self.assertEqual(response.status_code, 200)
         self.assertEqual(bank_account.acc_holder_name, 'Partner A Holder')
+<<<<<<< HEAD
+=======
+        self.assertEqual(bank_account_2.acc_holder_name, 'Partner A')
+>>>>>>> upstream/18.0
 
         # request 2: request with changed partner name
         response2 = self.url_open(url='/my/account', data={**common_data, 'name': 'Partner New Name', 'csrf_token': Request.csrf_token(self)})
         self.assertEqual(response2.status_code, 200)
+<<<<<<< HEAD
         self.assertEqual(bank_account.acc_holder_name, 'Partner New Name')
 
 <<<<<<< HEAD
@@ -1730,6 +1752,11 @@ class TestUsersHttp(HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(bank_account.acc_holder_name, 'Partner A Holder')
+        self.assertEqual(bank_account_2.acc_holder_name, 'Partner New Name')
+
 >>>>>>> upstream/18.0
     def test_deactivate_portal_user(self):
         # Create a portal user with data which should be removed on deactivation

@@ -250,7 +250,10 @@ class CustomerPortal(sale_portal.CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -989,6 +992,7 @@ class CustomerPortal(sale_portal.CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1147,6 +1151,8 @@ class CustomerPortal(sale_portal.CustomerPortal):
         try:
             sale_order = self._document_check_access('sale.order', order_id, access_token=access_token)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1636,6 +1642,9 @@ class CustomerPortal(sale_portal.CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1968,6 +1977,7 @@ class CustomerPortal(sale_portal.CustomerPortal):
             'products': [],
         }
         for line in sale_order.order_line:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2713,6 +2723,8 @@ class CustomerPortal(sale_portal.CustomerPortal):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if not line._show_in_cart():
                 continue
 
@@ -2973,6 +2985,9 @@ class CustomerPortal(sale_portal.CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

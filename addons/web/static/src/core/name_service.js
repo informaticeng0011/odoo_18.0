@@ -75,12 +75,18 @@ export const nameService = {
                     const specification = { display_name: {} };
                     orm.silent
 <<<<<<< HEAD
+<<<<<<< HEAD
                         .webSearchRead(resModel, [["id", "in", idsInBatch]], { specification })
 =======
+=======
+>>>>>>> upstream/18.0
                         .webSearchRead(resModel, [["id", "in", idsInBatch]], {
                             specification,
                             context: { active_test: false },
                         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                         .then(({ records }) => {
                             const displayNames = Object.fromEntries(

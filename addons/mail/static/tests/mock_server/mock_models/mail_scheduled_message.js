@@ -250,6 +250,7 @@ import { fields, models, serverState } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { DEFAULT_MAIL_VIEW_ID } from "./constants";
 
 export class MailScheduledMessage extends models.ServerModel {
@@ -257,6 +258,11 @@ export class MailScheduledMessage extends models.ServerModel {
     _views = {
         [`form,${DEFAULT_MAIL_VIEW_ID}`]: `<form/>`,
     };
+=======
+
+export class MailScheduledMessage extends models.ServerModel {
+    _inherit = "mail.scheduled.message";
+>>>>>>> upstream/18.0
 =======
 
 export class MailScheduledMessage extends models.ServerModel {
@@ -1770,7 +1776,11 @@ export class MailScheduledMessage extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     IrAttachment.browse(message.attachment_ids),
+=======
+                    IrAttachment.browse(message.attachment_ids)
+>>>>>>> upstream/18.0
 =======
                     IrAttachment.browse(message.attachment_ids)
 >>>>>>> upstream/18.0

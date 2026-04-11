@@ -145,9 +145,12 @@ import { patch } from "@web/core/utils/patch";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 patch(Composer.prototype, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -440,7 +443,11 @@ patch(Composer.prototype, {
     setup() {
         super.setup();
         onWillStart(() => {
+<<<<<<< HEAD
             if (!this.thread.id) {
+=======
+            if (this.thread && !this.thread.id) {
+>>>>>>> upstream/18.0
                 this.state.active = false;
             }
         });
@@ -589,6 +596,9 @@ patch(Composer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

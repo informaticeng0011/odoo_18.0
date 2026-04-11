@@ -76,7 +76,11 @@ from collections import defaultdict
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, fields, models, _
+=======
+from odoo import api, Command, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import api, Command, fields, models
 >>>>>>> upstream/18.0
@@ -349,7 +353,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -458,6 +465,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -539,6 +549,7 @@ class StockMove(models.Model):
 
     def _get_source_document(self):
         res = super()._get_source_document()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1492,6 +1503,9 @@ class StockMove(models.Model):
 =======
         return self.sale_line_id.order_id or res
 >>>>>>> upstream/18.0
+=======
+        return self.sale_line_id.order_id or res
+>>>>>>> upstream/18.0
 
     def _get_sale_order_lines(self):
         """ Return all possible sale order lines for one stock move. """
@@ -1653,7 +1667,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2079,6 +2096,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2363,6 +2383,7 @@ class StockMoveLine(models.Model):
     _inherit = "stock.move.line"
 
     def _should_show_lot_in_invoice(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3208,6 +3229,9 @@ class StockMoveLine(models.Model):
 =======
         return 'customer' in {self.location_id.usage, self.location_dest_id.usage} or self.env.ref('stock.stock_location_inter_company') in (self.location_id, self.location_dest_id)
 >>>>>>> upstream/18.0
+=======
+        return 'customer' in {self.location_id.usage, self.location_dest_id.usage} or self.env.ref('stock.stock_location_inter_company') in (self.location_id, self.location_dest_id)
+>>>>>>> upstream/18.0
 
 
 class ProcurementGroup(models.Model):
@@ -3238,6 +3262,7 @@ class StockPicking(models.Model):
     def _set_sale_id(self):
         if self.group_id:
             self.group_id.sale_id = self.sale_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3595,6 +3620,8 @@ class StockPicking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         elif self.sale_id:
             vals = {
                 'sale_id': self.sale_id.id,
@@ -3717,6 +3744,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3988,6 +4018,7 @@ class StockPicking(models.Model):
                 'qty_delivered': quantity,
                 'product_uom': move.product_uom.id,
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4705,6 +4736,8 @@ class StockPicking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             so_line = sale_order.order_line.filtered(lambda sol: sol.product_id == product)
             if product.invoice_policy == 'delivery':
                 # Check if there is already a SO line for this product to get
@@ -4946,6 +4979,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5664,6 +5700,7 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # New lines should be added at the bottom of the SO (higher sequence number)
             if not so_line:
@@ -6715,6 +6752,8 @@ class StockPicking(models.Model):
                 so_line_vals['sequence'] = max(sale_order.order_line.mapped('sequence')) + len(sale_order_lines_vals) + 1
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6801,6 +6840,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6986,6 +7028,7 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sale_orders = defaultdict(lambda: self.env['sale.order'])
         for move_line in self.env['stock.move.line'].search([('lot_id', 'in', self.ids), ('state', '=', 'done')]):
             move = move_line.move_id
@@ -6995,6 +7038,8 @@ class StockLot(models.Model):
             lot.sale_order_ids = sale_orders[lot.id]
             lot.sale_order_count = len(lot.sale_order_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7226,6 +7271,9 @@ class StockLot(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -211,6 +211,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { EventBus, whenReady } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1301,6 +1302,10 @@ import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-d
 import { EventBus } from "@odoo/owl";
 import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-dom/helpers/dom";
 >>>>>>> upstream/18.0
+=======
+import { EventBus } from "@odoo/owl";
+import { getCurrentDimensions, getDocument, getWindow } from "@web/../lib/hoot-dom/helpers/dom";
+>>>>>>> upstream/18.0
 import {
     mockedCancelAnimationFrame,
     mockedClearInterval,
@@ -1310,6 +1315,7 @@ import {
     mockedSetTimeout,
 } from "@web/../lib/hoot-dom/helpers/time";
 import { interactor } from "../../hoot-dom/hoot_dom_utils";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2278,6 +2284,10 @@ import { ensureTest, getRunner } from "../main_runner";
 import { MockEventTarget, strictEqual, waitForDocument } from "../hoot_utils";
 import { ensureTest, getRunner } from "../main_runner";
 >>>>>>> upstream/18.0
+=======
+import { MockEventTarget, strictEqual, waitForDocument } from "../hoot_utils";
+import { ensureTest, getRunner } from "../main_runner";
+>>>>>>> upstream/18.0
 import {
     MockAnimation,
     mockedAnimate,
@@ -2437,6 +2447,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockBlob,
+>>>>>>> upstream/18.0
 =======
     MockBlob,
 >>>>>>> upstream/18.0
@@ -3154,6 +3168,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    mockLocation,
+>>>>>>> upstream/18.0
 =======
     mockLocation,
 >>>>>>> upstream/18.0
@@ -4118,7 +4136,10 @@ import { MockStorage } from "./storage";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { MockBlob } from "./sync_values";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4413,6 +4434,7 @@ import { MockBlob } from "./sync_values";
 //-----------------------------------------------------------------------------
 
 const {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5873,6 +5895,11 @@ const {
     HTMLAnchorElement,
     MutationObserver,
 >>>>>>> upstream/18.0
+=======
+    EventTarget,
+    HTMLAnchorElement,
+    MutationObserver,
+>>>>>>> upstream/18.0
     Number: { isNaN: $isNaN, parseFloat: $parseFloat },
     Object: {
         assign: $assign,
@@ -6148,6 +6175,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6394,6 +6422,9 @@ const {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        defineProperty: $defineProperty,
 >>>>>>> upstream/18.0
 =======
         defineProperty: $defineProperty,
@@ -6845,6 +6876,7 @@ const {
         keys: $keys,
         hasOwn: $hasOwn,
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8045,6 +8077,8 @@ const { addEventListener, removeEventListener } = EventTarget.prototype;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     Reflect: { ownKeys: $ownKeys },
     Set,
     WeakMap,
@@ -8200,6 +8234,9 @@ const { preventDefault } = Event.prototype;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8501,6 +8538,7 @@ const { preventDefault } = Event.prototype;
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9328,6 +9366,8 @@ const applyPropertyDescriptors = (target, descriptors) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {unknown} target
  * @param {Record<string, PropertyDescriptor>} descriptors
  */
@@ -9611,6 +9651,9 @@ function applyPropertyDescriptors(target, descriptors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10430,10 +10473,13 @@ function applyPropertyDescriptors(target, descriptors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $defineProperty(owner, property, descriptor);
     }
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11257,6 +11303,9 @@ function applyPropertyDescriptors(target, descriptors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12076,7 +12125,11 @@ function applyPropertyDescriptors(target, descriptors) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const callMediaQueryChanges = (changedKeys) => {
+=======
+function callMediaQueryChanges(changedKeys) {
+>>>>>>> upstream/18.0
 =======
 function callMediaQueryChanges(changedKeys) {
 >>>>>>> upstream/18.0
@@ -13174,7 +13227,11 @@ function callMediaQueryChanges(changedKeys) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -14269,6 +14326,7 @@ function callMediaQueryChanges(changedKeys) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const findOriginalDescriptor = (target, property) => {
     for (const od of originalDescriptors) {
         if (od.target === target && od.property === property) {
@@ -14278,6 +14336,8 @@ const findOriginalDescriptor = (target, property) => {
     return null;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15100,6 +15160,9 @@ function findOriginalDescriptor(target, property) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15919,9 +15982,15 @@ function findOriginalDescriptor(target, property) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @returns {any}
  */
 const findPropertyOwner = (object, property) => {
+=======
+ * @returns {unknown}
+ */
+function findPropertyOwner(object, property) {
+>>>>>>> upstream/18.0
 =======
  * @returns {unknown}
  */
@@ -17562,8 +17631,11 @@ function findPropertyOwner(object, property) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18170,7 +18242,10 @@ function getWatchedEventTargets(view) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18215,6 +18290,9 @@ function getWatchedEventTargets(view) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18542,6 +18620,9 @@ function makeEventDescriptor(type) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19361,7 +19442,11 @@ function makeEventDescriptor(type) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const matchesQueryPart = (mediaQueryString) => {
+=======
+function matchesQueryPart(mediaQueryString) {
+>>>>>>> upstream/18.0
 =======
 function matchesQueryPart(mediaQueryString) {
 >>>>>>> upstream/18.0
@@ -20480,9 +20565,12 @@ function matchesQueryPart(mediaQueryString) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21313,6 +21401,9 @@ function mockedAddEventListener(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22137,6 +22228,10 @@ function mockedElementFromPoint(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @type {Document["elementsFromPoint"]}
+>>>>>>> upstream/18.0
 =======
  * @type {Document["elementsFromPoint"]}
 >>>>>>> upstream/18.0
@@ -23252,11 +23347,14 @@ function mockedElementsFromPoint(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
  * @type {typeof matchMedia}
  */
 const mockedMatchMedia = (mediaQueryString) => new MockMediaQueryList(mediaQueryString);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23956,7 +24054,10 @@ function mockedMatchMedia(mediaQueryString) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24403,6 +24504,9 @@ function mockedPreventDefault() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24919,7 +25023,10 @@ function mockedRemoveEventListener(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25566,6 +25673,9 @@ function observeAddedNodes(mutations) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26303,6 +26413,9 @@ function restoreTouch(view) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26913,7 +27026,10 @@ class MockMediaQueryList extends MockEventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27058,6 +27174,9 @@ class MockMutationObserver extends MutationObserver {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27154,6 +27273,7 @@ const DEFAULT_MEDIA_VALUES = {
     "prefers-reduced-motion": "reduce",
 };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28259,10 +28379,14 @@ const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
 =======
 const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
 >>>>>>> upstream/18.0
+=======
+const TOUCH_EVENTS = ["touchcancel", "touchend", "touchmove", "touchstart"];
+>>>>>>> upstream/18.0
 
 const R_AND = /\s*\band\b\s*/;
 const R_COMMA = /\s*,\s*/;
 const R_MEDIA_QUERY_PROPERTY = /\(\s*([\w-]+)\s*:\s*(.+)\s*\)/;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29081,6 +29205,8 @@ const originalDescriptors = [];
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const R_OWL_SYNTHETIC_LISTENER = /\bnativeToSyntheticEvent\b/;
 
 /** @type {WeakMap<unknown, Record<string, PropertyDescriptor>>} */
@@ -29357,6 +29483,7 @@ const originalTouchFunctions = getTouchTargets(globalThis).map(getTouchDescripto
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29811,6 +29938,11 @@ const originalTouchFunctions = getTouchTargets(globalThis).map(getTouchDescripto
 =======
 >>>>>>> upstream/18.0
 
+=======
+
+/** @type {Set<MockMutationObserver>} */
+const activeMutationObservers = new Set();
+>>>>>>> upstream/18.0
 =======
 
 /** @type {Set<MockMutationObserver>} */
@@ -30042,6 +30174,7 @@ const mockConsole = new MockConsole();
 const mockLocalStorage = new MockStorage();
 const mockMediaValues = { ...DEFAULT_MEDIA_VALUES };
 const mockSessionStorage = new MockStorage();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30861,6 +30994,8 @@ const R_OWL_SYNTHETIC_LISTENER = /\bnativeToSyntheticEvent\b/;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /** @type {WeakSet<Event>} */
 const preventedEvents = new WeakSet();
 let mockTitle = "";
@@ -31012,6 +31147,9 @@ let mockTitle = "";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31585,6 +31723,9 @@ const ANCHOR_MOCK_DESCRIPTORS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32429,7 +32570,10 @@ const WINDOW_MOCK_DESCRIPTORS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     EventTarget: { value: MockEventTarget },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33028,6 +33172,10 @@ const WINDOW_MOCK_DESCRIPTORS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MutationObserver: { value: MockMutationObserver },
+>>>>>>> upstream/18.0
 =======
     MutationObserver: { value: MockMutationObserver },
 >>>>>>> upstream/18.0
@@ -33461,6 +33609,11 @@ export function cleanupWindow() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const view = getWindow();
+
+>>>>>>> upstream/18.0
 =======
     const view = getWindow();
 
@@ -34832,6 +34985,7 @@ export function cleanupWindow() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Body & head attributes
     for (const { name } of document.head.attributes) {
         document.head.removeAttribute(name);
@@ -34853,6 +35007,8 @@ export function getTitle() {
     } else {
         return document.title;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35455,7 +35611,10 @@ export function getTitle() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35593,6 +35752,9 @@ export function getTitle() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35962,6 +36124,9 @@ export function getTitle() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36509,6 +36674,7 @@ export function getTitle() {
 }
 
 export function getViewPortHeight() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37329,6 +37495,8 @@ export function getViewPortHeight() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const view = getWindow();
     const heightDescriptor = findOriginalDescriptor(view, "innerHeight");
     if (heightDescriptor) {
@@ -37606,6 +37774,9 @@ export function getViewPortHeight() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38153,6 +38324,7 @@ export function getViewPortHeight() {
 }
 
 export function getViewPortWidth() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38973,6 +39145,8 @@ export function getViewPortWidth() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const view = getWindow();
     const titleDescriptor = findOriginalDescriptor(view, "innerWidth");
     if (titleDescriptor) {
@@ -39250,6 +39424,9 @@ export function getViewPortWidth() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39945,7 +40122,10 @@ export function getViewPortWidth() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40394,6 +40574,7 @@ export function isPrevented(event) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40449,6 +40630,8 @@ export function isPrevented(event) {
  */
 export function mockMatchMedia(values) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40816,6 +40999,9 @@ export function mockMatchMedia(values) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41065,6 +41251,7 @@ export function mockMatchMedia(values) {
 }
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41916,6 +42103,8 @@ export function patchWindow({ document, window } = globalThis) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {Event} event
  */
 export function mockPreventDefault(event) {
@@ -41926,6 +42115,7 @@ export function mockPreventDefault(event) {
 
 /**
  * @param {boolean} setTouch
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42126,6 +42316,11 @@ export function mockPreventDefault(event) {
 >>>>>>> upstream/18.0
  */
 export function mockTouch(setTouch) {
+=======
+ */
+export function mockTouch(setTouch) {
+    ensureTest("mockTouch");
+>>>>>>> upstream/18.0
 =======
  */
 export function mockTouch(setTouch) {
@@ -42977,7 +43172,11 @@ export function patchWindow(view = getWindow()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     whenReady(() => {
+=======
+    waitForDocument(view.document).then(() => {
+>>>>>>> upstream/18.0
 =======
     waitForDocument(view.document).then(() => {
 >>>>>>> upstream/18.0
@@ -43889,6 +44088,9 @@ export function patchWindow(view = getWindow()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44438,6 +44640,7 @@ export function patchWindow(view = getWindow()) {
  * @param {string} value
  */
 export function setTitle(value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45314,6 +45517,8 @@ export function watchListeners() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const doc = getDocument();
     const titleDescriptor = findOriginalDescriptor(doc, "title");
     if (titleDescriptor) {
@@ -45542,9 +45747,12 @@ export function setupWindow() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function watchListeners() {
     const targets = getWatchedEventTargets(getWindow());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46192,6 +46400,9 @@ export function watchListeners(view = getWindow()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46893,6 +47104,9 @@ export function watchListeners(view = getWindow()) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47497,6 +47711,7 @@ export function watchKeys(target, whiteList) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const acceptedKeys = new Set([...$ownKeys(target), ...(whiteList || [])]);
 
     return function checkKeys() {
@@ -47505,6 +47720,8 @@ export function watchKeys(target, whiteList) {
         );
         for (const key of keysDiff) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47644,6 +47861,9 @@ export function watchKeys(target, whiteList) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

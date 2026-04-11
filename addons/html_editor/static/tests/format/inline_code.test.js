@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { test } from "@odoo/hoot";
 import { press } from "@odoo/hoot-dom";
 import { testEditor } from "../_helpers/editor";
 import { deleteBackward, deleteForward, insertText } from "../_helpers/user_actions";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { animationFrame, expect, test, waitFor } from "@odoo/hoot";
@@ -15,6 +18,9 @@ import { expectElementCount } from "../_helpers/ui_expectations";
 import { getContent } from "../_helpers/selection";
 import { contains } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71,7 +77,10 @@ test("should allow plain text insertion after inline code", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -152,7 +161,12 @@ test("should open toolbar for mixed selection and apply formatting outside inlin
 
     // Apply text color should still affect only the non-inline-code portion.
     await click(".o-we-toolbar .o-select-color-foreground");
+<<<<<<< HEAD
     await contains("button[data-color='#0000FF']").click();
+=======
+    await expectElementCount(".o_font_color_selector", 1);
+    await contains(".o_color_button[data-color='#0000FF']").click();
+>>>>>>> upstream/18.0
     expect(getContent(el)).toBe(
         `<p>abc<code class="o_inline_code">t[est</code><font style="color: rgb(0, 0, 255);"><strong>de]</strong></font>f</p>`
     );
@@ -166,6 +180,9 @@ test("should open toolbar for mixed selection and apply formatting outside inlin
     );
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

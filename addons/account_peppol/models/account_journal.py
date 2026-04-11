@@ -1,5 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, fields, models
+=======
+from odoo import _, api, fields, models
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError
@@ -13,7 +18,10 @@ class AccountJournal(models.Model):
     is_peppol_journal = fields.Boolean(string="Account used for Peppol", default=False)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.constrains('type')
     def _check_type_for_peppol_journal(self):
         for journal in self:
@@ -22,6 +30,9 @@ class AccountJournal(models.Model):
                                   "a type different than 'Purchase'.\nPlease change the journal used for Peppol"
                                   " reception before changing the type of this journal."))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def peppol_get_new_documents(self):
         edi_users = self.env['account_edi_proxy_client.user'].search([

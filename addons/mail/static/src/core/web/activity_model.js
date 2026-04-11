@@ -23,9 +23,12 @@ import { assignDefined } from "@mail/utils/common/misc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { _t } from "@web/core/l10n/translation";
 import { formatDate, formatDateTime } from "@web/core/l10n/dates";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98,6 +101,9 @@ import { setElementContent } from "@web/core/utils/html";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -269,7 +275,10 @@ export class Activity extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -348,6 +357,9 @@ export class Activity extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -474,7 +486,11 @@ export class Activity extends Record {
             [[this.id]],
             { feedback: this.feedback }
         );
+<<<<<<< HEAD
         this.activityBroadcastChannel?.postMessage({
+=======
+        this.store.activityBroadcastChannel?.postMessage({
+>>>>>>> upstream/18.0
             type: "RELOAD_CHATTER",
             payload: { id: this.res_id, model: this.res_model },
         });
@@ -482,9 +498,18 @@ export class Activity extends Record {
     }
 
     remove({ broadcast = true } = {}) {
+<<<<<<< HEAD
         this.delete();
         if (broadcast) {
             this.activityBroadcastChannel?.postMessage({
+=======
+        if (!this.exists()) {
+            return;
+        }
+        this.delete();
+        if (broadcast) {
+            this.store.activityBroadcastChannel?.postMessage({
+>>>>>>> upstream/18.0
                 type: "DELETE",
                 payload: { id: this.id },
             });

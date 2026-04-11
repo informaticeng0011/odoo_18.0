@@ -108,7 +108,10 @@ class TestDigest(TestDigestCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         self.user_employee.company_ids |= self.company_2
@@ -117,6 +120,9 @@ class TestDigest(TestDigestCommon):
             msg='The employee user should be counted in the other company if in allowed companies')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

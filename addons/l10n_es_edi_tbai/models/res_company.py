@@ -165,8 +165,11 @@ class ResCompany(models.Model):
     def _l10n_es_freelancer(self):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.vat and re.fullmatch(r"(ES)?(\d{8}[A-Z]|[X-Z].*)", self.vat) or False
 =======
+=======
+>>>>>>> upstream/18.0
         if not self.vat:
             return False
 
@@ -175,4 +178,7 @@ class ResCompany(models.Model):
             vat = vat[2:]
 
         return re.fullmatch(r"(\d{8}[TRWAGMYFPDXBNJZSQVHLCKE]|[XYZ]\d{7}[TRWAGMYFPDXBNJZSQVHLCKE]|E\d{7}[A-J0-9])", vat) or False
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

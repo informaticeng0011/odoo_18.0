@@ -9,7 +9,10 @@ export class ProjectTaskKanbanDynamicGroupList extends RelationalModel.DynamicGr
         return !!this.groupByField && this.groupByField.name === "stage_id";
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     async _unlinkGroups(groups) {
         if (this.groupByField.name === "stage_id") {
@@ -27,6 +30,9 @@ export class ProjectTaskKanbanDynamicGroupList extends RelationalModel.DynamicGr
         }
         return super._unlinkGroups();
     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

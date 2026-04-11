@@ -448,7 +448,11 @@ test("suggest recipient on 'Send message' composer (all checked by default)", as
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-Composer-send");
+=======
+    await click(".o-mail-Composer-send:enabled");
+>>>>>>> upstream/18.0
 =======
     await click(".o-mail-Composer-send:enabled");
 >>>>>>> upstream/18.0
@@ -1317,7 +1321,11 @@ test("suggest recipient on 'Send message' composer (recipient checked/unchecked)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-Composer-send");
+=======
+    await click(".o-mail-Composer-send:enabled");
+>>>>>>> upstream/18.0
 =======
     await click(".o-mail-Composer-send:enabled");
 >>>>>>> upstream/18.0
@@ -2218,7 +2226,10 @@ test("suggested recipients should be added as follower when posting a message", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2869,6 +2880,9 @@ test("suggested recipients without name should show display_name instead", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -29,7 +29,11 @@ class RestaurantFloor(models.Model):
     def _load_pos_data_fields(self, config_id):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['name', 'background_color', 'table_ids', 'sequence', 'pos_config_ids', 'floor_background_image']
+=======
+        return ['name', 'background_color', 'table_ids', 'sequence', 'pos_config_ids', 'floor_background_image', 'active']
+>>>>>>> upstream/18.0
 =======
         return ['name', 'background_color', 'table_ids', 'sequence', 'pos_config_ids', 'floor_background_image', 'active']
 >>>>>>> upstream/18.0

@@ -179,9 +179,14 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import models
 from odoo.exceptions import AccessDenied
+=======
+from odoo import models
+from odoo.exceptions import AccessDenied, AccessError
+>>>>>>> upstream/18.0
 =======
 from odoo import models
 from odoo.exceptions import AccessDenied, AccessError
@@ -1092,11 +1097,14 @@ class IrWebsocket(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         document.check_access('read')
                         document.check_field_access_rights('read', [field_name])
                         document.check_access('write')
                         document.check_field_access_rights('write', [field_name])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1632,6 +1640,9 @@ class IrWebsocket(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

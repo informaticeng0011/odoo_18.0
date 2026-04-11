@@ -349,7 +349,10 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         self.assertTrue(all(stock_output_amls.mapped('reconciled')))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_no_duplicate_picking_on_repeated_invoice_action(self):
         """Calling action_pos_order_invoice multiple times (e.g. a backend user
         clicking 'Customer Invoice' on an already-invoiced order) must not
@@ -394,6 +397,9 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         order.action_pos_order_invoice()
         self.assertEqual(len(order.picking_ids), 1, "Repeated call must not create a duplicate picking")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_action_pos_order_invoice_with_discount(self):
         """This test make sure that the line containing 'Discoun from' is correctly added to the invoice"""
@@ -715,7 +721,10 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1624,6 +1633,9 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -210,6 +210,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 from freezegun import freeze_time
 import logging
@@ -643,6 +644,8 @@ _logger = logging.getLogger(__name__)
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import base64
 
 from datetime import datetime
@@ -651,6 +654,7 @@ from lxml import etree
 from pytz import timezone
 from odoo import Command
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1285,6 +1289,8 @@ from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.exceptions import ValidationError, UserError
 from odoo.tests import tagged
 from odoo.tools import misc
@@ -1453,6 +1459,9 @@ from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1786,6 +1795,7 @@ from odoo.addons.l10n_sa_edi.tests.common import TestSaEdiCommon
 
 @tagged('post_install_l10n', '-at_install', 'post_install')
 class TestEdiZatca(TestSaEdiCommon):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2953,6 +2963,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     # """Test ZATCA EDI compliance for Saudi Arabia."""
 
     def _test_document_generation(self, test_file_path, expected_xpath, freeze_time_at, additional_xpath='', document_type=False, move=False, move_data=False):
@@ -3312,7 +3324,10 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3852,6 +3867,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4417,6 +4435,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5060,6 +5081,10 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Context for wizards
+>>>>>>> upstream/18.0
 =======
             # Context for wizards
 >>>>>>> upstream/18.0
@@ -5697,6 +5722,7 @@ class TestEdiZatca(TestSaEdiCommon):
                 'active_model': 'sale.order',
                 'active_ids': [sale_order.id],
                 'active_id': sale_order.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7103,6 +7129,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'default_journal_id': self.customer_invoice_journal.id,
             }
 
@@ -7120,6 +7148,7 @@ class TestEdiZatca(TestSaEdiCommon):
             final.invoice_line_ids.filtered('is_downpayment').name = 'Down Payment'
             final.invoice_date_due = '2022-09-22'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7576,6 +7605,8 @@ class TestEdiZatca(TestSaEdiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # Test invoices
             for move, test_file in [
                 (downpayment, "downpayment_invoice"),
@@ -7752,6 +7783,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8304,6 +8338,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8396,6 +8431,8 @@ class TestEdiZatca(TestSaEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8920,6 +8957,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9110,6 +9148,8 @@ class TestEdiZatca(TestSaEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9407,6 +9447,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9427,6 +9468,8 @@ class TestEdiZatca(TestSaEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9629,6 +9672,7 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9746,6 +9790,29 @@ class TestEdiZatca(TestSaEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_child_company_api_mode_change_does_not_reset_parent_journal(self):
+        """Changing a child company's ZATCA API mode must not reset the parent company's journal."""
+        self.customer_invoice_journal._l10n_sa_load_edi_demo_data()
+        self.assertTrue(self.customer_invoice_journal.l10n_sa_production_csid_json)
+
+        child_journal = self.env['account.journal'].create({
+            'name': 'Child Sales Journal',
+            'code': 'CSAL',
+            'type': 'sale',
+            'company_id': self.sa_branch.id,
+        })
+        child_journal._l10n_sa_load_edi_demo_data()
+        self.assertTrue(child_journal.l10n_sa_production_csid_json)
+
+        self.sa_branch.l10n_sa_api_mode = 'preprod'
+
+        self.assertFalse(child_journal.l10n_sa_production_csid_json,
+            "Child journal should be reset after API mode change")
+        self.assertTrue(self.customer_invoice_journal.l10n_sa_production_csid_json,
+            "Parent journal must not be reset when child company API mode changes")
 >>>>>>> upstream/18.0
 
     def test_invoice_cash_rounding_payable_amount(self):
@@ -9801,6 +9868,9 @@ class TestEdiZatca(TestSaEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

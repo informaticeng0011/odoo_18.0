@@ -82,7 +82,11 @@ def migrate(cr, version):
         env['account.account'].with_context(active_test=False).search([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('company_id', 'in', dk_companies.ids),
+=======
+            ('company_ids', 'in', dk_companies.ids),
+>>>>>>> upstream/18.0
 =======
             ('company_ids', 'in', dk_companies.ids),
 >>>>>>> upstream/18.0
@@ -107,6 +111,7 @@ def migrate(cr, version):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for account in env['account.account'].with_context(active_test=False).search([('company_id', 'in', dk_companies.ids)]):
 =======
     for account in env['account.account'].with_context(active_test=False).search([('company_ids', 'in', dk_companies.ids)]):
@@ -115,12 +120,17 @@ def migrate(cr, version):
         if len(account.code) < 6:
             account.code = account.code.ljust(6, '0')
 =======
+=======
+>>>>>>> upstream/18.0
     for account in env['account.account'].with_context(active_test=False).search([('company_ids', 'in', dk_companies.ids)]):
         # Adapt existing codes to use 6 digits.
         for company in dk_companies:
             account_comp = account.with_company(company)
             if account_comp.code and len(account_comp.code) < 6:
                 account_comp.code = account_comp.code.ljust(6, '0')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         # Deprecate removed accounts.
         if account.id in deprecated_account_ids:

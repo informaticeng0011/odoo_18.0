@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 
 import { mountView } from "@web/../tests/web_test_helpers";
 
 import { defineProjectModels, ProjectTask } from "./project_models";
 =======
+=======
+>>>>>>> upstream/18.0
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { animationFrame, click, edit } from "@odoo/hoot-dom";
 
@@ -39,11 +42,15 @@ class ProjectTaskTypeDeleteWizard extends models.Model {
     };
 }
 projectModels.ProjectTaskTypeDeleteWizard = ProjectTaskTypeDeleteWizard;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 defineProjectModels();
 describe.current.tags("desktop");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 test("shadow stages should be displayed in the project Kanban", async () => {
     ProjectTask._records = [];
@@ -64,6 +71,8 @@ test("shadow stages should be displayed in the project Kanban", async () => {
             'active_model': "project.task.type.delete.wizard",
             'default_project_id': 1,
 =======
+=======
+>>>>>>> upstream/18.0
 beforeEach(() => {
     projectModels.ProjectTask._records = [];
     projectModels.ProjectTask._views.kanban = `
@@ -104,6 +113,9 @@ test("shadow stages should be displayed in the project Kanban", async () => {
         context: {
             active_model: "project.task.type.delete.wizard",
             default_project_id: 1,
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
     });
@@ -112,7 +124,10 @@ test("shadow stages should be displayed in the project Kanban", async () => {
     expect(".o_kanban_example_background_container").toHaveCount(1);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("delete just created stage", async () => {
     await mountView({
@@ -171,4 +186,7 @@ test("delete existing stage", async () => {
     await animationFrame();
     expect(".o_column_title").toHaveCount(0, { mesage: "The stage should have been deleted." });
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
