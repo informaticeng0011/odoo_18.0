@@ -1,11 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 
 import { mountView } from "@web/../tests/web_test_helpers";
 
 import { defineProjectModels, ProjectTask } from "./project_models";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
@@ -43,6 +46,9 @@ class ProjectTaskTypeDeleteWizard extends models.Model {
 }
 projectModels.ProjectTaskTypeDeleteWizard = ProjectTaskTypeDeleteWizard;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50,6 +56,7 @@ projectModels.ProjectTaskTypeDeleteWizard = ProjectTaskTypeDeleteWizard;
 defineProjectModels();
 describe.current.tags("desktop");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 test("shadow stages should be displayed in the project Kanban", async () => {
@@ -71,6 +78,8 @@ test("shadow stages should be displayed in the project Kanban", async () => {
             'active_model': "project.task.type.delete.wizard",
             'default_project_id': 1,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 beforeEach(() => {
@@ -114,6 +123,9 @@ test("shadow stages should be displayed in the project Kanban", async () => {
             active_model: "project.task.type.delete.wizard",
             default_project_id: 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125,7 +137,10 @@ test("shadow stages should be displayed in the project Kanban", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -187,6 +202,9 @@ test("delete existing stage", async () => {
     expect(".o_column_title").toHaveCount(0, { mesage: "The stage should have been deleted." });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

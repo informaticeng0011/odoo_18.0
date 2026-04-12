@@ -98,8 +98,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* web_editor
 # 
+=======
+# * web_editor
+#
+>>>>>>> upstream/18.0
 =======
 # * web_editor
 #
@@ -595,6 +600,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -890,10 +896,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2012,6 +2022,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-03-07 18:00+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:39+0000\n"
+"PO-Revision-Date: 2026-04-11 09:11+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "web_editor/sk/>\n"
@@ -2019,6 +2033,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2419,6 +2434,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.1\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
+">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2476,6 +2496,7 @@ msgid "(URL or Embed)"
 msgstr "(URL or Embed)"
 
 #. module: web_editor
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "100%"
 msgstr "100%"
@@ -2486,6 +2507,8 @@ msgid "1977"
 msgstr ""
 
 #. module: web_editor
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -2496,6 +2519,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "2 columns"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: web_editor
@@ -2507,6 +2531,9 @@ msgstr "25"
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "25%"
 msgstr "25%"
+=======
+msgstr "2 stĺpce"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2519,13 +2546,21 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "3 Stars"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3 hviezdičky"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "3 columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "3 stĺpce"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2538,7 +2573,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "4 columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 stĺpce"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2551,12 +2590,16 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "5 Stars"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "50%"
 msgstr "50%"
+=======
+msgstr "5 hviezdičiek"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2567,11 +2610,14 @@ msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
+<<<<<<< HEAD
 msgid "90"
 msgstr ""
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
+=======
+>>>>>>> upstream/18.0
 msgid "<span class=\"flex-grow-0 ms-1 text-white-50\">%</span>"
 msgstr ""
 
@@ -2676,31 +2722,51 @@ msgstr "Pridať URL"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a blockquote section"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridať sekciu s citátom"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridať tlačidlo"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a code section"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridať sekciu kódu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add a link"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridať odkaz"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Add an emoji"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridať emoji"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -2753,7 +2819,11 @@ msgstr "Všetko"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/document_selector.js:0
 msgid "All documents have been loaded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všetky dokumenty boli načítané"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2776,12 +2846,20 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.js:0
 msgid "An error occurred while fetching the entered URL."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri načítaní zadaného URL došlo k chybe."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Angle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úhol"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2812,7 +2890,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "Are you sure you want to delete this file?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naozaj chcete odstrániť tento súbor?"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2835,7 +2917,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Autoconvert to relative link"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automaticky previesť na relatívny odkaz"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2847,7 +2933,11 @@ msgstr "Autoplay"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Back to one column"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Späť na jeden stĺpec"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -2875,25 +2965,41 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Danger"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banner Nebezpečenstvo"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banner Informácie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Success"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banner Úspech"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Banner Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Banner Varovanie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -2922,7 +3028,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Big section heading"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis veľkej sekcie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -3004,7 +3114,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Bulleted list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zoznam s odrážkami"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3018,13 +3132,21 @@ msgstr "Tlačidlo"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 msgid "Button Primary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primárne tlačidlo"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link.js:0
 msgid "Button Secondary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekundárne tlačidlo"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3061,7 +3183,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Checklist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrolný zoznam"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3159,7 +3285,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Content generated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generovaný obsah"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -3170,25 +3300,41 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 2 columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Previesť do 2 stĺpcov"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 3 columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Previesť do 3 stĺpcov"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Convert into 4 columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Previesť do 4 stĺpcov"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Copy-paste your URL or embed code here"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skopírujte a vložte sem svoju URL adresu alebo kód na vloženie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3200,7 +3346,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_service.js:0
 msgid "Could not load the file \"%s\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodarilo sa načítať súbor „%s “."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -3217,19 +3367,31 @@ msgstr "Vytvoriť"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Create a list with numbering"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť zoznam s číslovaním"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Create a simple bulleted list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť jednoduchý zoznam s odrážkami"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Create an URL."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť URL."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__create_uid
@@ -3311,7 +3473,11 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Define a custom gradient"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Definovať vlastný prechod"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3506,7 +3672,11 @@ msgid "Dynamic Placeholder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dynamický zástupný text"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dynamický zástupný text"
 >>>>>>> upstream/18.0
@@ -3711,31 +3881,51 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Edit media description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upraviť popis médií"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Embed Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť obrázok"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Embed Youtube Video"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť video z YouTube"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Embed the image in the document."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť obrázok do dokumentu."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Embed the youtube video in the document."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť video z YouTube do dokumentu."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3758,33 +3948,57 @@ msgstr "Chyba"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Extend to the closest corner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozšíriť do najbližšieho rohu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Extend to the closest side"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozšíriť na najbližšiu stranu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Extend to the farthest corner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozšíriť do najvzdialenejšieho rohu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Extend to the farthest side"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rozšíriť na najvzdialenejšiu stranu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_html_field_history_mixin
 msgid "Field html History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pole html História"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "File has been uploaded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Súbor bol nahratý"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -3802,7 +4016,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Fill Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Farba výplne"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -3940,7 +4158,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/snippets.xml:0
 msgid "Gradient"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gradient"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_http
@@ -3957,7 +4179,11 @@ msgstr "Hlavička 1"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Header 1 Display 1"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis 1 Zobrazenie 1"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -4012,42 +4238,66 @@ msgstr "Hlavička 6"
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 1"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis 1"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 2"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis 2"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 3"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis 3"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 4"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis 4"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 5"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis 5"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Heading 6"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis 6"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -4059,6 +4309,7 @@ msgstr "Výška"
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4359,6 +4610,8 @@ msgstr "Skryť logo Dailymotion"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Hide fullscreen button"
 msgstr "Skryť tlačidlo plnej obrazovky"
 
@@ -4369,6 +4622,7 @@ msgid "Hide player controls"
 msgstr "Skryť hráčske ovládania"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4777,6 +5031,11 @@ msgstr "Historické dáta"
 msgid "History data"
 msgstr "Historické dáta"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:web_editor.field_html_field_history_mixin__html_field_history
+msgid "History data"
+msgstr "Historické dáta"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_html_field_history_mixin__html_field_history_metadata
@@ -4816,7 +5075,11 @@ msgid "History metadata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metadáta histórie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metadáta histórie"
 >>>>>>> upstream/18.0
@@ -4985,7 +5248,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.js:0
 msgid "Icons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikony"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5001,7 +5268,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Illustrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ilustrácie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5064,19 +5335,31 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a danger banner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte varovný banner"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Insert a field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte pole"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert a horizontal rule separator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte horizontálnu oddeľovaciu čiaru"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5088,25 +5371,41 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert a rating over 3 stars"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte hodnotenie nad 3 hviezdičky"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert a rating over 5 stars"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte hodnotenie nad 5 hviezdičiek"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a success banner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte banner o úspešnom vykonaní"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert a table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť tabuľku"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5118,31 +5417,51 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert a warning banner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložte varovný banner"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert above"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť nad"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Insert an info banner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť informačný banner"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert below"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť pod"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert left"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť vľavo"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5160,7 +5479,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Insert right"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť vpravo"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5268,7 +5591,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5566,6 +5892,9 @@ msgstr "Instagram"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5776,7 +6105,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/web_editor/models/ir_ui_view.py:0
 msgid "Invalid field value for %(field_name)s: %(value)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neplatná hodnota poľa pre %(field_name)s: %(value)s"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5918,7 +6251,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/backend/html_field.js:0
 msgid "Marketing Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marketingové nástroje"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
@@ -5949,7 +6286,11 @@ msgstr "Médium"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Medium section heading"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis strednej sekcie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -5967,31 +6308,51 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Move down"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Presunúť nadol"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Move left"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Presunúť doľava"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Move right"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Presunúť doprava"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Move up"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posunúť nahor"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "My Images"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moje obrázky"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -6016,7 +6377,11 @@ msgstr "Nie"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "No URL specified"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL nebolo špecifikované"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -6040,7 +6405,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "No pictograms found."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenašli sa žiadne piktogramy."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -6069,7 +6438,11 @@ msgstr "Normálna"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Numbered list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Číslovaný zoznam"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
@@ -6093,7 +6466,11 @@ msgstr "Otvoriť v novom okne"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "Optimized"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Optimalizované"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -6138,13 +6515,21 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Paragraph block"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Blok odseku"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Paste as URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložiť ako URL"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -6159,6 +6544,7 @@ msgstr "Pozícia"
 
 #. module: web_editor
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6975,6 +7361,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Preview"
@@ -6984,7 +7372,11 @@ msgstr "Náhľad"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/upload_progress_toast/upload_progress_toast.xml:0
 msgid "Progress bar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukazovateľ priebehu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model:ir.model.fields.selection,name:web_editor.selection__web_editor_converter_test__selection_str__c
@@ -7102,7 +7494,11 @@ msgstr ""
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
 msgid "Radial"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radiálne"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7142,7 +7538,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Remove columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odstráňte stĺpce"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7186,7 +7586,11 @@ msgstr "Vymeniť"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Replace media"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nahradiť médiá"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7376,7 +7780,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/media_dialog.xml:0
 msgid "Select a media"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vybrať médium"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7441,7 +7849,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "Show optimized images"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť optimalizované obrázky"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_background_options
@@ -7499,7 +7911,11 @@ msgstr "Malé"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Small section heading"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadpis malej sekcie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7582,19 +7998,31 @@ msgstr "Štýl"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.xml:0
 msgid "Suggestions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Návrhy"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Switch direction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zmeniť smer"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Switch the text's direction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zmeňte smer textu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7619,7 +8047,11 @@ msgstr "Text"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 msgid "Text Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Farba textu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7643,13 +8075,21 @@ msgstr "Zdá sa, že adresa URL nefunguje."
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "The URL seems valid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL adresa sa zdá byť platná."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-python
 #: code:addons/web_editor/models/ir_qweb_fields.py:0
 msgid "The datetime %(value)s does not match the format %(format)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dátum a čas %(value)s nezodpovedá formátu %(format)s"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-python
@@ -7658,6 +8098,11 @@ msgid ""
 "The document was already saved from someone with a different history for "
 "model \"%(model)s\", field \"%(field)s\" with id \"%(id)d\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dokument už bol uložený od niekoho s inou históriou pre model „%(model)s “, "
+"pole „%(field)s “ s id „%(id)d “."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7669,7 +8114,11 @@ msgstr "Poskytnuté URL neodkazuje na žiadne podporované video"
 #. odoo-python
 #: code:addons/web_editor/tools.py:0
 msgid "The provided url is invalid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadaná URL adresa je neplatná"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -7682,6 +8131,7 @@ msgstr "Poskytnuté URL je neplatné"
 #: code:addons/web_editor/static/src/js/wysiwyg/conflict_dialog.xml:0
 msgid ""
 "The version from the database will be used.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8173,6 +8623,10 @@ msgid ""
 "                            If you need to keep your changes, copy the "
 "content below and edit the new document."
 >>>>>>> upstream/18.0
+=======
+"                            If you need to keep your changes, copy the "
+"content below and edit the new document."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: web_editor
@@ -8203,7 +8657,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/link_popover_widget.js:0
 msgid "This URL is invalid. Preview couldn't be updated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Táto URL adresa je neplatná. Náhľad sa nepodarilo aktualizovať."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8227,13 +8685,21 @@ msgstr "Tento dokument ni je uložený!"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "This file is a public view attachment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento súbor je verejnou prílohou."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.js:0
 msgid "This file is attached to the current record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento súbor je priložený k aktuálnemu záznamu."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8248,6 +8714,11 @@ msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
 "it, please first download it from the original source and upload it in Odoo."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pre tento typ obrázku nie je orezávanie podporované.<br/>Ak ho chcete "
+"orezať, najprv si ho stiahnite z pôvodného zdroja a nahrajte ho do Odoo."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8283,7 +8754,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle bold"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepnúť tučné písmo"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8295,13 +8770,21 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle icon spin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepnúť ikonu otáčania"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle italic"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepnúť kurzívu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8313,13 +8796,21 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle strikethrough"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepnúť preškrtnuté"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Toggle underline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepnúť podčiarknutie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8338,7 +8829,11 @@ msgstr "Pomôcka"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Track tasks with a checklist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledujte úlohy pomocou kontrolného zoznamu"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -8368,13 +8863,21 @@ msgstr "Preložiť"
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "Translate with AI"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preložiť pomocou AI"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/widgets/chatgpt_translate_dialog.xml:0
 msgid "Translating..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekladá sa..."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8386,7 +8889,11 @@ msgstr "Priehľadné farby"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/icon_selector.xml:0
 msgid "Try searching with other keywords."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skúste vyhľadávať s inými kľúčovými slovami."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.colorpicker
@@ -8397,7 +8904,11 @@ msgstr "Typ"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/editor/odoo-editor/src/OdooEditor.js:0
 msgid "Type \"/\" for commands"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napíšte „/“ pre príkazy"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -8467,7 +8978,11 @@ msgstr "Videá"
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/video_selector.js:0
 msgid "Videos are muted when autoplay is enabled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Videá sú stlmené, ak je povolené automatické prehrávanie"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_ui_view
@@ -8608,7 +9123,10 @@ msgstr "Test webového editora"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8912,6 +9430,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9132,6 +9653,11 @@ msgid ""
 "Wow, it feels a bit empty in here. Upload from the button in the top right "
 "corner!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Wow, tu to vyzerá trochu prázdne. Nahrajte obsah pomocou tlačidla v pravom "
+"hornom rohu!"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -9163,12 +9689,21 @@ msgid ""
 "You can not replace a field by this image. If you want to use this image, "
 "first save it on your computer and then upload it here."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Týmto obrázkom nemôžete nahradiť pole. Ak chcete tento obrázok použiť, "
+"najprv ho uložte do počítača a potom ho nahrajte sem."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/image_selector.xml:0
 msgid "You can not use this image in a field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento obrázok nemôžete použiť v poli"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -9194,6 +9729,7 @@ msgstr ""
 
 #. module: web_editor
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9494,6 +10030,8 @@ msgstr "Youku"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/web_editor/static/src/xml/wysiwyg.xml:0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
 msgid "Your URL"
@@ -9503,7 +10041,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/web_editor/static/src/js/wysiwyg/wysiwyg.js:0
 msgid "Your content was successfully generated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Váš obsah bol úspešne vygenerovaný."
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #. odoo-javascript
@@ -9800,12 +10342,15 @@ msgstr "pridať"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "all"
 msgstr "všetko"
 
 #. module: web_editor
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10637,6 +11182,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/web_editor/static/src/components/media_dialog/file_selector.xml:0
 msgid "database"
@@ -11183,11 +11729,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "exclusion"
 msgstr ""
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12022,11 +12571,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "lighten"
 msgstr ""
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12843,11 +13395,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "multiply"
 msgstr ""
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13670,6 +14225,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
 msgid "overlay"
 msgstr ""
@@ -13681,6 +14238,7 @@ msgid "px"
 msgstr "px"
 
 #. module: web_editor
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15319,6 +15877,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:web_editor.snippet_options_image_optimization_widgets
+msgid "screen"
+msgstr "obrazovka"
+
+#. module: web_editor
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/web_editor/static/src/xml/editor.xml:0
 msgid "to"
 msgstr "na"
@@ -15332,7 +15898,11 @@ msgstr "videá"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_websocket
 msgid "websocket message handling"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "spracovanie správ websocket"
+>>>>>>> upstream/18.0
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippet_options
@@ -15436,6 +16006,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -15630,6 +16201,20 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgid "25"
+#~ msgstr "25"
+
+#~ msgid "25%"
+#~ msgstr "25%"
+
+#~ msgid "50%"
+#~ msgstr "50%"
 >>>>>>> upstream/18.0
 
 #~ msgid "Hide Dailymotion logo"
@@ -15737,6 +16322,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

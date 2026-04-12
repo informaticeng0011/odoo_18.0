@@ -350,7 +350,10 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_no_duplicate_picking_on_repeated_invoice_action(self):
@@ -398,6 +401,9 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
         self.assertEqual(len(order.picking_ids), 1, "Repeated call must not create a duplicate picking")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -722,7 +728,10 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1634,6 +1643,9 @@ class TestAngloSaxonFlow(TestAngloSaxonCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

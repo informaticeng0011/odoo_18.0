@@ -274,8 +274,11 @@ export class DynamicGroupList extends DynamicList {
         const shouldReload = groups.some((g) => g.count > 0);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this._unlinkGroups(groups);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const succeeded = await this._unlinkGroups(groups);
@@ -283,6 +286,9 @@ export class DynamicGroupList extends DynamicList {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

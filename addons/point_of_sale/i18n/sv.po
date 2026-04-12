@@ -212,8 +212,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* point_of_sale
 # 
+=======
+# * point_of_sale
+#
+>>>>>>> upstream/18.0
 =======
 # * point_of_sale
 #
@@ -1376,6 +1381,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2025
 # Wil Odoo, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
@@ -2298,6 +2304,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Wil Odoo, 2025
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2025
@@ -2488,6 +2496,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2944,11 +2953,16 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4673,6 +4687,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-04 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-04-11 09:08+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "point_of_sale/sv/>\n"
 "Language: sv\n"
@@ -4680,6 +4699,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5399,6 +5419,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -5617,11 +5640,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This issue occurs because the quantity becomes zero after rounding during the conversion. To fix this, adjust the conversion factors or rounding method to ensure that even the smallest quantity in the original unit does not round down to zero in the target unit."
 msgstr ""
 "\n"
 "Detta problem uppstår eftersom kvantiteten blir noll efter avrundning under konverteringen. För att åtgärda detta, justera omvandlingsfaktorerna eller avrundningsmetoden för att säkerställa att inte ens den minsta kvantiteten i den ursprungliga enheten avrundas nedåt till noll i målenheten."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6265,6 +6291,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6936,8 +6965,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(old_pm)s ändras till %(new_pm)s och från %(old_amount)s till "
 "%(new_amount)s"
+=======
+"%(old_pm)s ändras till %(new_pm)s och från %(old_amount)s till %(new_amount)s"
+>>>>>>> upstream/18.0
 =======
 "%(old_pm)s ändras till %(new_pm)s och från %(old_amount)s till %(new_amount)s"
 >>>>>>> upstream/18.0
@@ -7802,7 +7835,11 @@ msgid "%(product_name)s: Deleted line (quantity: %(qty)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product_name)s: Raderad rad (kvantitet: %(qty)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product_name)s: Raderad rad (kvantitet: %(qty)s)"
 >>>>>>> upstream/18.0
@@ -8664,7 +8701,11 @@ msgid "%(title)s %(product_name)s with %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(title)s %(product_name)s med %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(title)s %(product_name)s med %(taxes)s"
 >>>>>>> upstream/18.0
@@ -9541,7 +9582,11 @@ msgid "%s untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s obeskattad"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s obeskattad"
 >>>>>>> upstream/18.0
@@ -10195,6 +10240,7 @@ msgstr "+ Ny butik"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
+<<<<<<< HEAD
 msgid "0.00"
 msgstr "0,00"
 
@@ -11082,10 +11128,13 @@ msgstr "08-12345678"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
+=======
+>>>>>>> upstream/18.0
 msgid "2-03-2000 9:00 AM"
 msgstr "2000-03-02 9:00"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11958,6 +12007,8 @@ msgid "45"
 msgstr "45"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:point_of_sale.field_pos_order__ticket_code
 msgid ""
 "5 digits alphanumeric code to be used by portal user to request an invoice"
@@ -11976,6 +12027,7 @@ msgid "5-pocket jeans in cotton denim.."
 msgstr "5-ficks jeans i bomullsdenim."
 
 #. module: point_of_sale
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
 msgid "5.00"
 msgstr "5,00"
@@ -12011,10 +12063,13 @@ msgid "99.99"
 msgstr "99,99"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 #: model:mail.template,body_html:point_of_sale.pos_email_marketing_template
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h4>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12654,6 +12709,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable "
 "Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
@@ -12871,6 +12928,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13513,11 +13573,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Kära <t t-out=\"object.partner_id.name or 'Värdefull kund'\">Azure Interior</t>,\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "Vi har ett tidsbegränsat erbjudande endast för dig, njut av en platt 20% rabatt på ditt nästa köp hos oss.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14157,6 +14220,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14824,6 +14890,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor"
 "             %(pos_name)s amounting in %(amount)s from %(company_name)s. "
 "</p>"
@@ -14832,6 +14899,8 @@ msgstr ""
 "             %(pos_name)s uppgående till %(amount)s från %(company_name)s. "
 "</p>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15472,6 +15541,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16113,7 +16185,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"float-end\" invisible=\"is_total_cost_computed\">Bestäms</span>"
+=======
+msgstr ""
+"<span class=\"float-end\" invisible=\"is_total_cost_computed\">Bestäms</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span class=\"float-end\" invisible=\"is_total_cost_computed\">Bestäms</span>"
@@ -17179,11 +17256,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
 "<span class=\"o_form_label\">Streckkoder</span>\n"
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17823,6 +17903,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18507,11 +18590,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    in order to install a Payment Terminal and make a fully integrated payment method."
 msgstr ""
 "<strong> &gt; Betal Terminaler</strong>\n"
 "                                    för att installera en betalningsterminal och göra en fullt integrerad betalningsmetod."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19151,6 +19237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19622,6 +19711,15 @@ msgid "? Clicking \"Confirm\" will validate the payment."
 msgstr "? Genom att klicka på \"Bekräfta\" bekräftas betalningen."
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
+msgid "A"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__uuid
 msgid ""
 "A globally unique identifier for this pos configuration, used to prevent "
@@ -19839,8 +19937,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "En globalt unik identifierare för denna kassa-konfiguration, som används för"
 " att förhindra konflikter i klientgenererad data."
+=======
+"En globalt unik identifierare för denna kassa-konfiguration, som används för "
+"att förhindra konflikter i klientgenererad data."
+>>>>>>> upstream/18.0
 =======
 "En globalt unik identifierare för denna kassa-konfiguration, som används för "
 "att förhindra konflikter i klientgenererad data."
@@ -20908,6 +21011,7 @@ msgstr "En anteckning med detta namn finns redan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_payment_uuid_unique
 msgid "A payment with this uuid already exists"
@@ -20916,6 +21020,8 @@ msgstr ""
 #. module: point_of_sale
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21551,6 +21657,9 @@ msgstr "En betalning med denna uuid finns redan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22189,8 +22298,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ett sekvensnummer som ökas varje gång en användare återupptar kassa "
 "sessionen"
+=======
+"Ett sekvensnummer som ökas varje gång en användare återupptar kassa sessionen"
+>>>>>>> upstream/18.0
 =======
 "Ett sekvensnummer som ökas varje gång en användare återupptar kassa sessionen"
 >>>>>>> upstream/18.0
@@ -23100,8 +23213,12 @@ msgid "Accept payments with Viva Wallet on a terminal or tap on phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ta emot betalningar med Viva Wallet på en terminal eller via telefonen"
+=======
+msgstr "Ta emot betalningar med Viva Wallet på en terminal eller via telefonen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta emot betalningar med Viva Wallet på en terminal eller via telefonen"
 >>>>>>> upstream/18.0
@@ -24016,8 +24133,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account used as outstanding account when creating accounting payment records"
 " for bank payments."
+=======
+"Account used as outstanding account when creating accounting payment records "
+"for bank payments."
+>>>>>>> upstream/18.0
 =======
 "Account used as outstanding account when creating accounting payment records "
 "for bank payments."
@@ -25091,7 +25213,11 @@ msgid "Accounting journal used to create invoices."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Bokföringsjournal som används för att skapa fakturor."
+=======
+msgstr "Bokföringsverifikat som används för att skapa fakturor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Bokföringsverifikat som används för att skapa fakturor."
 >>>>>>> upstream/18.0
@@ -25945,7 +26071,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bokföringsjournal som används för att bokföra Kassa-sessionsverifikat och "
+=======
+"Bokföringsverifikat som används för att bokföra Kassa-sessionsverifikat och "
+>>>>>>> upstream/18.0
 =======
 "Bokföringsverifikat som används för att bokföra Kassa-sessionsverifikat och "
 >>>>>>> upstream/18.0
@@ -26637,7 +26767,10 @@ msgstr "Åtgärd Krävs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26788,6 +26921,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27280,8 +27416,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "som försäljningsjournalen som är inställd på detta försäljningsställe om du "
 "använder bokföringsapplikationen."
+=======
+"som försäljningsverifikaten som är inställd på detta försäljningsställe om "
+"du använder bokföringsapplikationen."
+>>>>>>> upstream/18.0
 =======
 "som försäljningsverifikaten som är inställd på detta försäljningsställe om "
 "du använder bokföringsapplikationen."
@@ -28348,6 +28489,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
 =======
@@ -28357,6 +28499,8 @@ msgid ""
 msgstr ""
 "Alla betalningsmetoder måste vara i samma valuta som försäljningsjournalen "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -28991,6 +29135,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29771,6 +29918,10 @@ msgstr "Belopp totalt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -30846,6 +30997,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ett fel inträffade när sessionen stängdes. Osynkroniserade order kommer att "
+"vara tillgängliga i nästa session. Sidan kommer att laddas om."
+>>>>>>> upstream/18.0
 =======
 "Ett fel inträffade när sessionen stängdes. Osynkroniserade order kommer att "
 "vara tillgängliga i nästa session. Sidan kommer att laddas om."
@@ -31906,7 +32062,11 @@ msgid "An error occurred while loading the Point of Sale: \n"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ett fel inträffade när du laddade kassan: \n"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ett fel inträffade när du laddade kassan: \n"
 >>>>>>> upstream/18.0
@@ -32764,10 +32924,16 @@ msgstr "En intern identifiering av skrivaren"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
 msgid "An order line with this uuid already exists"
 msgstr ""
+=======
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
+msgid "An order line with this uuid already exists"
+msgstr "En orderrad med denna uuid finns redan"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
 msgid "An order line with this uuid already exists"
@@ -34038,7 +34204,13 @@ msgid "An order with this uuid already exists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
+=======
+msgstr "En order med denna uuid finns redan"
 
 #. module: point_of_sale
 >>>>>>> upstream/18.0
@@ -35373,12 +35545,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "At the session closing: A picking is created for the entire session when it's closed\n"
 " In real time: Each order sent to the server create its own picking"
 msgstr ""
 "Vid sessionens stängning: En plockning skapas för hela sessionen när den är stängd\n"
 " I realtid: Varje beställning som skickas till servern skapar sin egen plockning"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36020,6 +36195,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36746,7 +36924,10 @@ msgstr "Bank"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37149,6 +37330,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37662,7 +37846,11 @@ msgid "Bills & Receipts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Räkningar och kvitton"
+=======
+msgstr "Leverantörsfakturor och kvitton"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leverantörsfakturor och kvitton"
 >>>>>>> upstream/18.0
@@ -38499,7 +38687,11 @@ msgid "By:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Av:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Av:"
 >>>>>>> upstream/18.0
@@ -39212,6 +39404,7 @@ msgid "Cannot return change without a cash payment method"
 msgstr "Kan inte ge växel utan någon kontaktbetalningsmetod"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40877,6 +41070,8 @@ msgstr "Det går inte att väga produkten - vågen är inte ansluten till IoT Bo
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Card"
@@ -41089,7 +41284,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41240,6 +41438,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41619,8 +41820,12 @@ msgid "Casual t-shirt 100% cotton. Various colors and sizes available."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Casual t-shirt i 100% bomull. Olika färger och storlekar tillgängliga."
+=======
+msgstr "Casual t-shirt i 100% bomull. Olika färger och storlekar tillgängliga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Casual t-shirt i 100% bomull. Olika färger och storlekar tillgängliga."
 >>>>>>> upstream/18.0
@@ -42520,8 +42725,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check if the product should be weighted using the hardware scale "
 "integration."
+=======
+"Check if the product should be weighted using the hardware scale integration."
+>>>>>>> upstream/18.0
 =======
 "Check if the product should be weighted using the hardware scale integration."
 >>>>>>> upstream/18.0
@@ -43436,7 +43645,11 @@ msgid "Choose an order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Välj en order"
+>>>>>>> upstream/18.0
 =======
 msgstr "Välj en order"
 >>>>>>> upstream/18.0
@@ -44291,6 +44504,7 @@ msgstr "Välj hur webbadressen till portalen ska skrivas ut på kvittot."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Choose the tax you want to apply"
@@ -44300,6 +44514,8 @@ msgstr ""
 #. odoo-javascript
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44936,6 +45152,9 @@ msgstr "Välj den skatt du vill tillämpa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45596,7 +45815,11 @@ msgid "Clear Cache"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rensa cacheminnet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rensa cacheminnet"
 >>>>>>> upstream/18.0
@@ -46468,7 +46691,11 @@ msgid "Close Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stäng register"
+=======
+msgstr "Stäng kassan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stäng kassan"
 >>>>>>> upstream/18.0
@@ -47342,7 +47569,11 @@ msgid "Closed Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stängt register"
+=======
+msgstr "Stängd kassa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stängd kassa"
 >>>>>>> upstream/18.0
@@ -48225,7 +48456,11 @@ msgid "Closing Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stängningsregister"
+=======
+msgstr "Stänger kassan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stänger kassan"
 >>>>>>> upstream/18.0
@@ -48921,7 +49156,10 @@ msgstr "Avslutande session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49072,6 +49310,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49222,7 +49463,10 @@ msgstr "Slutlig skillnad i %(payment_method)s (%(session)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49379,6 +49623,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49880,7 +50127,11 @@ msgid "Connecting to the IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ansluta till IoT-boxen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ansluta till IoT-boxen"
 >>>>>>> upstream/18.0
@@ -50742,7 +50993,11 @@ msgid "Connection failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anslutningen misslyckades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anslutningen misslyckades"
 >>>>>>> upstream/18.0
@@ -51592,7 +51847,11 @@ msgid "Connection successful"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anslutningen lyckades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anslutningen lyckades"
 >>>>>>> upstream/18.0
@@ -52489,8 +52748,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversion Error: The following unit of measure conversions result in a zero"
 " quantity due to rounding:"
+=======
+"Conversion Error: The following unit of measure conversions result in a zero "
+"quantity due to rounding:"
+>>>>>>> upstream/18.0
 =======
 "Conversion Error: The following unit of measure conversions result in a zero "
 "quantity due to rounding:"
@@ -53634,6 +53898,7 @@ msgstr "Anslagstavla"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -53673,6 +53938,14 @@ msgstr "Förbindelse förlorad"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/models/utils/indexed_db.js:0
+msgid "Database Connection Lost"
+msgstr ""
+
+#. module: point_of_sale
+#. odoo-javascript
 >>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/navbar/sync_popup/sync_popup.xml:0
 #: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.js:0
@@ -54115,7 +54388,11 @@ msgid "Dine In"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ät på plats"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ät på plats"
 >>>>>>> upstream/18.0
@@ -54965,7 +55242,11 @@ msgid "Dine In -> Take Out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ät på plats -> Ta med ut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ät på plats -> Ta med ut"
 >>>>>>> upstream/18.0
@@ -55929,8 +56210,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Saknar åtkomsträttighet, hoppa över denna data för användarens sammanställda"
 " utskick"
+=======
+"Saknar åtkomsträttighet, hoppa över denna data för användarens sammanställda "
+"utskick"
+>>>>>>> upstream/18.0
 =======
 "Saknar åtkomsträttighet, hoppa över denna data för användarens sammanställda "
 "utskick"
@@ -57015,6 +57301,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Proxy where the printer can be found, and a list of product categories.\n"
 "            An Order Printer will only print updates for products belonging to one of\n"
 "            its categories."
@@ -57023,6 +57310,8 @@ msgstr ""
 "            Proxy där skrivaren kan hittas, och en lista med produktkategorier.\n"
 "            En orderskrivare skriver endast ut uppdateringar för produkter som tillhör en av\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57667,6 +57956,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58325,7 +58617,11 @@ msgid "Edit Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redigera betalning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redigera betalning"
 >>>>>>> upstream/18.0
@@ -59232,9 +59528,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Anställda kan skanna sin bricka eller ange en PIN-kod för att logga in på en"
 " PoS-session. Dessa uppgifter kan konfigureras på fliken *HR-inställningar* "
 "i medarbetarformuläret."
+=======
+"Anställda kan skanna sin bricka eller ange en PIN-kod för att logga in på en "
+"PoS-session. Dessa uppgifter kan konfigureras på fliken *HR-inställningar* i "
+"medarbetarformuläret."
+>>>>>>> upstream/18.0
 =======
 "Anställda kan skanna sin bricka eller ange en PIN-kod för att logga in på en "
 "PoS-session. Dessa uppgifter kan konfigureras på fliken *HR-inställningar* i "
@@ -60542,8 +60844,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ensure that there is an existing bank journal. Check if chart of accounts is"
 " installed in your company."
+=======
+"Ensure that there is an existing bank journal. Check if chart of accounts is "
+"installed in your company."
+>>>>>>> upstream/18.0
 =======
 "Ensure that there is an existing bank journal. Check if chart of accounts is "
 "installed in your company."
@@ -61670,7 +61977,11 @@ msgid "Failed in printing %s changes of the order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Misslyckades med att skriva ut %s ändringar av ordern"
+>>>>>>> upstream/18.0
 =======
 msgstr "Misslyckades med att skriva ut %s ändringar av ordern"
 >>>>>>> upstream/18.0
@@ -62560,8 +62871,12 @@ msgstr "Flingigt smördeg, skiktad för en lätt och gyllene croissant."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+=======
+msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+>>>>>>> upstream/18.0
 =======
 msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 >>>>>>> upstream/18.0
@@ -63341,7 +63656,10 @@ msgstr "För oprecisa industriella pekskärmar."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63597,6 +63915,9 @@ msgstr "Tvinga avbryt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63863,7 +64184,10 @@ msgstr "Tvinga Färdig"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64119,6 +64443,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64573,7 +64900,11 @@ msgid "Get Weight"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Få vikt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Få vikt"
 >>>>>>> upstream/18.0
@@ -65642,8 +65973,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Om markerat kommer detta mynt/denna sedel att finnas tillgängligt i alla "
 "PoS."
+=======
+"Om markerat kommer detta mynt/denna sedel att finnas tillgängligt i alla PoS."
+>>>>>>> upstream/18.0
 =======
 "Om markerat kommer detta mynt/denna sedel att finnas tillgängligt i alla PoS."
 >>>>>>> upstream/18.0
@@ -66578,7 +66913,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                appen Fakturering/Redovisning skapas betalningsmetoderna Bank och\n"
+=======
+"                appen Fakturering/Redovisning skapas betalningsmetoderna "
+"Bank och\n"
+>>>>>>> upstream/18.0
 =======
 "                appen Fakturering/Redovisning skapas betalningsmetoderna "
 "Bank och\n"
@@ -67709,7 +68049,11 @@ msgid "Invoice Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faktura Journal"
+=======
+msgstr "Faktura verifikat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faktura verifikat"
 >>>>>>> upstream/18.0
@@ -68609,7 +68953,11 @@ msgid "IoT Customer Display Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fel på IoT-kunddisplayen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fel på IoT-kunddisplayen"
 >>>>>>> upstream/18.0
@@ -69533,6 +69881,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Det verkar som om du inte har tillräckligt med rättigheter för att skapa "
+"konfigurationer för försäljningsställen."
+>>>>>>> upstream/18.0
 =======
 "Det verkar som om du inte har tillräckligt med rättigheter för att skapa "
 "konfigurationer för försäljningsställen."
@@ -70600,7 +70953,11 @@ msgid "Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Journal"
+=======
+msgstr "Verifikat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifikat"
 >>>>>>> upstream/18.0
@@ -71265,6 +71622,16 @@ msgid "Kpi Pos Total Value"
 msgstr "Kpi Pos Totalt värde"
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model:product.attribute.value,name:point_of_sale.product_attribute_value_l
+#, fuzzy
+#| msgid "XL"
+msgid "L"
+msgstr "XL"
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:product.template,name:point_of_sale.led_lamp_product_template
 msgid "LED Lamp"
 msgstr "LED Lampa"
@@ -71568,7 +71935,11 @@ msgid "Launch fake tours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lansera falska turer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lansera falska turer"
 >>>>>>> upstream/18.0
@@ -72435,11 +72806,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Overrides the company's receivable account (for Point of Sale) used in the journal entries."
 msgstr ""
 "Lämna tomt för att använda standardkontot från företagets inställning.\n"
 "Åsidosätter företagets kundfordringskonto (för Point of Sale) som används i journalposterna."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73079,6 +73453,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73724,6 +74101,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the journal where to book the accumulated payments (or individual payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal via statement lines.\n"
 "For bank journal, we write to the outstanding account specified in this payment method.\n"
@@ -73734,6 +74112,8 @@ msgstr ""
 "För kassajournal skriver vi direkt till standardkontot i journalen via kontoutdragsrader.\n"
 "För bankjournaler skriver vi till det utestående konto som anges i denna betalningsmetod.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74376,7 +74756,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Definierar den journal där de ackumulerade betalningarna (eller enskilda "
+=======
+"Definierar det verifikat där de ackumulerade betalningarna (eller enskilda "
+>>>>>>> upstream/18.0
 =======
 "Definierar det verifikat där de ackumulerade betalningarna (eller enskilda "
 >>>>>>> upstream/18.0
@@ -75227,6 +75611,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75833,7 +76220,10 @@ msgstr "Ladda produktmeny"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76276,6 +76666,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76597,6 +76990,14 @@ msgid "Lower body"
 msgstr "Nedre delen av kroppen"
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model:product.attribute.value,name:point_of_sale.product_attribute_value_m
+msgid "M"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:product.template,name:point_of_sale.magnetic_board_product_template
 msgid "Magnetic Board"
 msgstr "Magnetisk tavla"
@@ -76821,8 +77222,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make several pricelists available in the Point of Sale. You can also apply a"
 " pricelist to specific customers from their contact form (in Sales tab). To "
+=======
+"Make several pricelists available in the Point of Sale. You can also apply a "
+"pricelist to specific customers from their contact form (in Sales tab). To "
+>>>>>>> upstream/18.0
 =======
 "Make several pricelists available in the Point of Sale. You can also apply a "
 "pricelist to specific customers from their contact form (in Sales tab). To "
@@ -77897,6 +78303,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kontrollera att det finns en IoT Box-prenumeration kopplad till din Odoo-"
+"databas och starta sedan om IoT Box."
+>>>>>>> upstream/18.0
 =======
 "Kontrollera att det finns en IoT Box-prenumeration kopplad till din Odoo-"
 "databas och starta sedan om IoT Box."
@@ -79125,7 +79536,11 @@ msgid "Navigate to your PoS Customer Display on the other computer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navigera till din PoS Customer Display på den andra datorn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Navigera till din PoS Customer Display på den andra datorn"
 >>>>>>> upstream/18.0
@@ -79989,7 +80404,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Behöver förlustkonto för följande journaler för att bokföra det förlorade "
+=======
+"Behöver förlustkonto för följande verifikat för att bokföra det förlorade "
+>>>>>>> upstream/18.0
 =======
 "Behöver förlustkonto för följande verifikat för att bokföra det förlorade "
 >>>>>>> upstream/18.0
@@ -80842,7 +81261,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Behöver resultatkonto för följande journaler för att bokföra det erhållna "
+=======
+"Behöver resultatkonto för följande verifikat för att bokföra det erhållna "
+>>>>>>> upstream/18.0
 =======
 "Behöver resultatkonto för följande verifikat för att bokföra det erhållna "
 >>>>>>> upstream/18.0
@@ -81768,7 +82191,11 @@ msgid "No PoS configuration found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen PoS-konfiguration hittades"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen PoS-konfiguration hittades"
 >>>>>>> upstream/18.0
@@ -82647,8 +83074,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No chart of account configured, go to the \"configuration / settings\" menu,"
 " and install one from the Invoicing tab."
+=======
+"No chart of account configured, go to the \"configuration / settings\" menu, "
+"and install one from the Invoicing tab."
+>>>>>>> upstream/18.0
 =======
 "No chart of account configured, go to the \"configuration / settings\" menu, "
 "and install one from the Invoicing tab."
@@ -83749,6 +84181,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ingen öppen session tillgänglig. Vänligen öppna en ny session för att fånga "
+"ordern."
+>>>>>>> upstream/18.0
 =======
 "Ingen öppen session tillgänglig. Vänligen öppna en ny session för att fånga "
 "ordern."
@@ -84815,7 +85252,11 @@ msgid "No other products found for \"%s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Inga andra produkter hittades för \"%s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Inga andra produkter hittades för \"%s\"."
 >>>>>>> upstream/18.0
@@ -85607,7 +86048,10 @@ msgstr "Nomenklatur"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86010,6 +86454,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86634,7 +87081,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Endast journaler av typen 'Cash' eller 'Bank' kan användas med "
+=======
+"Endast verifikat av typen 'Kontant' eller 'Bank' kan användas med "
+>>>>>>> upstream/18.0
 =======
 "Endast verifikat av typen 'Kontant' eller 'Bank' kan användas med "
 >>>>>>> upstream/18.0
@@ -87516,7 +87967,11 @@ msgid "Open Register"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Öppet register"
+=======
+msgstr "Öppna kassan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Öppna kassan"
 >>>>>>> upstream/18.0
@@ -88265,7 +88720,10 @@ msgstr "Ingående kassa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88428,6 +88886,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88822,6 +89283,7 @@ msgstr "Ordernummer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
@@ -88831,6 +89293,8 @@ msgstr ""
 #. module: point_of_sale
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89467,6 +89931,9 @@ msgstr "Beställning föråldrad"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90114,11 +90581,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            order updates in the kitchen/bar when the waiter updates the order."
 msgstr ""
 "Orderskrivare används av restauranger och barer för att skriva ut\n"
 "            orderuppdateringar i köket/baren när servitören uppdaterar beställningen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90758,6 +91228,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91846,11 +92319,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "Kontrollera om skrivaren fortfarande är ansluten.\n"
 "Vissa webbläsare tillåter inte HTTP-anrop från webbplatser till enheter i nätverket (av säkerhetsskäl). Om så är fallet måste du följa Odoos dokumentation för \"Självsignerat certifikat för ePOS-skrivare\" och \"Säker anslutning (HTTPS)\" för att lösa problemet. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92494,6 +92970,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93137,8 +93616,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Stäng alla sessioner för försäljningsställen i denna period innan du stänger"
 " den. Öppna sessioner är: %s "
+=======
+"Stäng alla sessioner för försäljningsställen i denna period innan du stänger "
+"den. Öppna sessioner är: %s "
+>>>>>>> upstream/18.0
 =======
 "Stäng alla sessioner för försäljningsställen i denna period innan du stänger "
 "den. Öppna sessioner är: %s "
@@ -94204,11 +94688,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please close and validate the following open PoS Sessions before modifying this payment method.\n"
 "Open sessions: %s"
 msgstr ""
 "Stäng och validera följande öppna PoS-sessioner innan du ändrar denna betalningsmetod.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94848,6 +95335,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95488,8 +95978,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please create/select a Point of Sale above to show the configuration "
 "options."
+=======
+"Please create/select a Point of Sale above to show the configuration options."
+>>>>>>> upstream/18.0
 =======
 "Please create/select a Point of Sale above to show the configuration options."
 >>>>>>> upstream/18.0
@@ -96353,7 +96847,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ange dina faktureringsuppgifter <small class=\"text-muted\">eller</small>"
+=======
+msgstr ""
+"Ange dina faktureringsuppgifter <small class=\"text-muted\">eller</small>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Ange dina faktureringsuppgifter <small class=\"text-muted\">eller</small>"
@@ -97427,8 +97926,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gå till %s-journalen och definiera ett förlustkonto. Detta konto kommer att "
 "användas för att bokföra kassaskillnaden."
+=======
+"Gå till %s-verifikatet och definiera ett förlustkonto. Detta konto kommer "
+"att användas för att bokföra kassaskillnaden."
+>>>>>>> upstream/18.0
 =======
 "Gå till %s-verifikatet och definiera ett förlustkonto. Detta konto kommer "
 "att användas för att bokföra kassaskillnaden."
@@ -98492,7 +98996,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gå till %s-journalen och definiera ett vinstkonto. Detta konto kommer att "
+=======
+"Gå till %s-verifikatet och definiera ett vinstkonto. Detta konto kommer att "
+>>>>>>> upstream/18.0
 =======
 "Gå till %s-verifikatet och definiera ett vinstkonto. Detta konto kommer att "
 >>>>>>> upstream/18.0
@@ -99152,6 +99660,7 @@ msgstr "Välj en partner för försäljningen."
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100483,6 +100992,10 @@ msgstr "Vänligen registrera voucher-numret"
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
 msgstr "Vänligen skanna QR-koden med %s"
 
@@ -100713,7 +101226,11 @@ msgid "PoS Customer Display opened in a new window"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS Customer Display Öppnas i ett nytt fönster"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS Customer Display Öppnas i ett nytt fönster"
 >>>>>>> upstream/18.0
@@ -102048,8 +102565,12 @@ msgid "Print a report with all the sales of the current PoS Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Skriv ut en rapport med all försäljning för den aktuella PoS-sessionen"
+=======
+msgstr "Skriv ut en rapport med all försäljning för den aktuella PoS-sessionen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skriv ut en rapport med all försäljning för den aktuella PoS-sessionen"
 >>>>>>> upstream/18.0
@@ -102913,6 +103434,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Skriv ut information på kvittot så att kunden enkelt kan komma åt fakturan "
+"när som helst, från Odoos portal."
+>>>>>>> upstream/18.0
 =======
 "Skriv ut information på kvittot så att kunden enkelt kan komma åt fakturan "
 "när som helst, från Odoos portal."
@@ -103983,7 +104509,10 @@ msgstr "Produktmall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104175,6 +104704,9 @@ msgstr "Uteslutning av attribut i produktmall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104687,6 +105219,10 @@ msgstr "Lila"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -105753,7 +106289,10 @@ msgstr "Relaterad session: %(link)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105778,6 +106317,9 @@ msgstr "Ladda om"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106044,7 +106586,11 @@ msgid "Request Invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Begär faktura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Begär faktura"
 >>>>>>> upstream/18.0
@@ -106959,12 +107505,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reversal of POS closing entry %(entry)s for order %(order)s from session "
 "%(session)s"
 msgstr ""
 "Återföring av POS stängningspost %(entry)s för order %(order)s från session "
 "%(session)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107603,6 +108152,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108307,6 +108859,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Att köra en falsk tur skapar slumpmässiga beställningar. Använd på egen risk."
+>>>>>>> upstream/18.0
 =======
 "Att köra en falsk tur skapar slumpmässiga beställningar. Använd på egen risk."
 >>>>>>> upstream/18.0
@@ -108947,6 +109503,14 @@ msgid "Rye Bread"
 msgstr "Rågbröd"
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model:product.attribute.value,name:point_of_sale.product_attribute_value_s
+msgid "S"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__message_has_sms_error
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_has_sms_error
 msgid "SMS Delivery error"
@@ -109207,7 +109771,11 @@ msgid "Sales Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Försäljningsjournal"
+=======
+msgstr "Försäljningsverifikat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Försäljningsverifikat"
 >>>>>>> upstream/18.0
@@ -110090,7 +110658,11 @@ msgid "Scale error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fel på skalan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fel på skalan"
 >>>>>>> upstream/18.0
@@ -111184,8 +111756,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ange en maximal tillåten skillnad mellan förväntade och räknade pengar under"
 " avslutningen av sessionen"
+=======
+"Ange en maximal tillåten skillnad mellan förväntade och räknade pengar under "
+"avslutningen av sessionen"
+>>>>>>> upstream/18.0
 =======
 "Ange en maximal tillåten skillnad mellan förväntade och räknade pengar under "
 "avslutningen av sessionen"
@@ -112254,8 +112831,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ange en maximal tillåten skillnad mellan förväntade och räknade pengar under"
 " avslutningen av sessionen."
+=======
+"Ange en maximal tillåten skillnad mellan förväntade och räknade pengar under "
+"avslutningen av sessionen."
+>>>>>>> upstream/18.0
 =======
 "Ange en maximal tillåten skillnad mellan förväntade och räknade pengar under "
 "avslutningen av sessionen."
@@ -113763,7 +114345,11 @@ msgid "Take Out -> Dine In"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ta med ut -> äta på plats"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ta med ut -> äta på plats"
 >>>>>>> upstream/18.0
@@ -114648,7 +115234,11 @@ msgid "Tax ID: %(vatId)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tax ID: %(vatId)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tax ID: %(vatId)s"
 >>>>>>> upstream/18.0
@@ -115496,7 +116086,10 @@ msgstr "Tel:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115899,6 +116492,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116228,6 +116824,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116865,6 +117462,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The amount of your payment lines must be rounded to validate the "
 "transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead "
@@ -117080,9 +117679,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117718,6 +118320,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -118148,6 +118753,7 @@ msgstr "Betalkortets varumärke (t.ex. Visa, AMEX, ...)"
 #. module: point_of_sale
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119039,6 +119645,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The cash rounding strategy of the point of sale %(pos)s must be: '%(value)s'"
 msgstr ""
@@ -119255,6 +119863,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -119665,6 +120274,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119691,6 +120302,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -120003,6 +120617,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -120823,12 +121440,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The default tip product is missing. Please manually specify the tip product."
 " (See Tips field.)"
 msgstr ""
 "Den förvalda tipsprodukten saknas. Vänligen ange tipsprodukten manuellt. (Se"
 " fältet Tips.)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -121467,6 +122087,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122120,8 +122743,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Den skatteposition som användes i den ursprungliga ordern är inte laddad. Se"
 " till att den är laddad genom att lägga till den i pos-konfigurationen."
+=======
+"Den skatteposition som användes i den ursprungliga ordern är inte laddad. Se "
+"till att den är laddad genom att lägga till den i pos-konfigurationen."
+>>>>>>> upstream/18.0
 =======
 "Den skatteposition som användes i den ursprungliga ordern är inte laddad. Se "
 "till att den är laddad genom att lägga till den i pos-konfigurationen."
@@ -123197,6 +123825,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
 =======
@@ -123207,6 +123836,8 @@ msgstr ""
 "Fakturadagboken måste vara i samma valuta som försäljningsdagboken eller i "
 "företagets valuta om detta inte är angivet."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123842,6 +124473,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124490,8 +125124,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The money counted doesn't match what we expected. Want to log the difference"
 " for the books?"
+=======
+"The money counted doesn't match what we expected. Want to log the difference "
+"for the books?"
+>>>>>>> upstream/18.0
 =======
 "The money counted doesn't match what we expected. Want to log the difference "
 "for the books?"
@@ -125582,7 +126221,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126224,11 +126866,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126867,6 +127512,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127505,8 +128153,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ordern har synkroniserats tidigare. Vänligen skapa fakturan från backend för"
 " ordern: "
+=======
+"Ordern har synkroniserats tidigare. Vänligen skapa fakturan från backend för "
+"ordern: "
+>>>>>>> upstream/18.0
 =======
 "Ordern har synkroniserats tidigare. Vänligen skapa fakturan från backend för "
 "ordern: "
@@ -128596,8 +129249,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "selected category trees. If no category is specified, all available products"
 " will be shown"
+=======
+"selected category trees. If no category is specified, all available products "
+"will be shown"
+>>>>>>> upstream/18.0
 =======
 "selected category trees. If no category is specified, all available products "
 "will be shown"
@@ -129682,8 +130340,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The pricelist used if no customer is selected or if the customer has no Sale"
 " Pricelist configured if any."
+=======
+"The pricelist used if no customer is selected or if the customer has no Sale "
+"Pricelist configured if any."
+>>>>>>> upstream/18.0
 =======
 "The pricelist used if no customer is selected or if the customer has no Sale "
 "Pricelist configured if any."
@@ -130783,8 +131446,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested quantity to be refunded is higher than the refundable "
 "quantity."
+=======
+"The requested quantity to be refunded is higher than the refundable quantity."
+>>>>>>> upstream/18.0
 =======
 "The requested quantity to be refunded is higher than the refundable quantity."
 >>>>>>> upstream/18.0
@@ -131594,7 +132261,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -132102,6 +132772,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132680,8 +133353,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "när som helst och bokföras i bokföringen från Point of Sales "
 "instrumentpanel."
+=======
+"när som helst och bokföras i bokföringen från Point of Sales instrumentpanel."
+>>>>>>> upstream/18.0
 =======
 "när som helst och bokföras i bokföringen från Point of Sales instrumentpanel."
 >>>>>>> upstream/18.0
@@ -133543,6 +134220,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The session is being closed by another user. The page will be reloaded."
 =======
@@ -133550,6 +134228,8 @@ msgid "The session is being closed by another user. The page will be reloaded."
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134184,6 +134864,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134856,8 +135539,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Razorpay. Set your Razorpay credentials on"
 " the related payment method."
+=======
+"The transactions are processed by Razorpay. Set your Razorpay credentials on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Razorpay. Set your Razorpay credentials on "
 "the related payment method."
@@ -135926,8 +136614,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Six. Set the IP address of the terminal on"
 " the related payment method."
+=======
+"The transactions are processed by Six. Set the IP address of the terminal on "
+"the related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Six. Set the IP address of the terminal on "
 "the related payment method."
@@ -136996,8 +137689,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Stripe. Set your Stripe credentials on the"
 " related payment method."
+=======
+"The transactions are processed by Stripe. Set your Stripe credentials on the "
+"related payment method."
+>>>>>>> upstream/18.0
 =======
 "The transactions are processed by Stripe. Set your Stripe credentials on the "
 "related payment method."
@@ -138091,11 +138789,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are still orders in draft state in the session. Pay or cancel the following orders to validate the session:\n"
 "%s"
 msgstr ""
 "Det finns fortfarande order i utkaststatus i sessionen. Betala eller annullera följande order för att validera sessionen:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138735,6 +139436,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139403,6 +140107,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
@@ -139411,6 +140116,8 @@ msgstr ""
 "\n"
 " Betala det exakta beloppet eller lägg till en kontant betalningsmetod i kassakonfigurationen"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140055,6 +140762,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140532,6 +141242,7 @@ msgstr "Kombinationen existerar inte."
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__amount_authorized_diff
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__pos_amount_authorized_diff
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141594,6 +142305,10 @@ msgid ""
 "This field depicts the maximum difference allowed between the ending balance "
 "and the theoretical cash when closing a session, for non-POS managers. If "
 >>>>>>> upstream/18.0
+=======
+"This field depicts the maximum difference allowed between the ending balance "
+"and the theoretical cash when closing a session, for non-POS managers. If "
+>>>>>>> upstream/18.0
 "this maximum is reached, the user will have an error message at the closing "
 "of his session saying that he needs to contact his manager."
 msgstr ""
@@ -141627,6 +142342,7 @@ msgid "This invoice has been created from the point of sale session: %s"
 msgstr "Denna faktura har skapats från sessionen på försäljningsstället: %s"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142368,6 +143084,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/account_move.py:0
 msgid ""
@@ -142541,6 +143259,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143083,7 +143804,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denna journal är kopplad till en betalningsmetod. Du kan inte ändra dess typ"
+=======
+"Detta verifikat är kopplad till en betalningsmetod. Du kan inte ändra dess "
+"typ"
+>>>>>>> upstream/18.0
 =======
 "Detta verifikat är kopplad till en betalningsmetod. Du kan inte ändra dess "
 "typ"
@@ -144147,6 +144873,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Detta verifikat är kopplad till betalningsmetod %(payment_method)s som "
+"används av order %(pos_order)s i den aktiva pos-sessionen %(pos_session)s"
+>>>>>>> upstream/18.0
 =======
 "Detta verifikat är kopplad till betalningsmetod %(payment_method)s som "
 "används av order %(pos_order)s i den aktiva pos-sessionen %(pos_session)s"
@@ -145210,12 +145941,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                } orders in the browser. You will lose all the data. This operation cannot be undone."
 msgstr ""
 "Denna operation kommer att förstöra alla ${\n"
 "                    betalda ? \"paid\" : \"unpaid\"\n"
 "                } order i webbläsaren. Du kommer att förlora alla data. Den här åtgärden kan inte ångras."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -145853,7 +146587,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    betalda ? \"paid\" : \"unpaid\"\n"
+"                } order i webbläsaren. Du kommer att förlora alla data. Den "
+"här åtgärden kan inte ångras."
+>>>>>>> upstream/18.0
+=======
+"                    paid ? \"paid\" : \"unpaid\"\n"
 "                } order i webbläsaren. Du kommer att förlora alla data. Den "
 "här åtgärden kan inte ångras."
 >>>>>>> upstream/18.0
@@ -147132,6 +147872,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denna order har redan återbetalningsrader för %s. Vi kan inte ändra den kund"
 " som är kopplad till den. Skapa en ny order för den nya kunden."
 
@@ -147960,6 +148701,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Denna order har redan återbetalningsrader för %s. Vi kan inte ändra den kund "
 "som är kopplad till den. Skapa en ny order för den nya kunden."
 
@@ -148180,10 +148923,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -148818,6 +149564,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -149590,12 +150339,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
 msgstr ""
 "För att ta bort en produkt, se till att alla försäljningstillfällen är stängda.\n"
 "\n"
 "Att ta bort en produkt som är tillgänglig under en session skulle vara som att försöka ta en hamburgare ur en kunds hand mitt i tuggan; kaos kommer att uppstå när ketchup och majonnäs flyger överallt!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -150239,6 +150991,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150670,6 +151425,7 @@ msgid ""
 "To ensure due balance follow-up, generate an invoice or download the "
 "accounting application. "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151732,6 +152488,10 @@ msgstr ""
 "För att säkerställa vederbörlig balansuppföljning, generera en faktura eller "
 "ladda ner bokföringsapplikationen. "
 >>>>>>> upstream/18.0
+=======
+"För att säkerställa vederbörlig balansuppföljning, generera en faktura eller "
+"ladda ner bokföringsapplikationen. "
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__to_invoice
@@ -151899,6 +152659,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
 >>>>>>> upstream/18.0
@@ -152680,7 +153444,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please set corresponding tax account in each repartition line of the following taxes: \n"
+=======
+"Please set corresponding tax account in each repartition line of the "
+"following taxes: \n"
+>>>>>>> upstream/18.0
 =======
 "Please set corresponding tax account in each repartition line of the "
 "following taxes: \n"
@@ -153760,8 +154529,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Det går inte att ändra denna PoS-konfiguration eftersom du inte kan ändra %s"
 " när en session är öppen."
+=======
+"Det går inte att ändra denna PoS-konfiguration eftersom du inte kan ändra %s "
+"när en session är öppen."
+>>>>>>> upstream/18.0
 =======
 "Det går inte att ändra denna PoS-konfiguration eftersom du inte kan ändra %s "
 "när en session är öppen."
@@ -154889,7 +155663,11 @@ msgid "Unnamed Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Icke namngiven produkt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Icke namngiven produkt"
 >>>>>>> upstream/18.0
@@ -155926,6 +156704,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Varning, det betalda beloppet är högre än det totala beloppet. (Skillnad: "
 "%s)"
 =======
@@ -156082,6 +156861,8 @@ msgstr ""
 "Varning, det betalda beloppet är högre än det totala beloppet. (Skillnad: %s)"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -156569,6 +157350,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -157128,7 +157912,11 @@ msgid "Weighing Product:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vägande produkt:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vägande produkt:"
 >>>>>>> upstream/18.0
@@ -158015,6 +158803,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "accounting journal for all the orders not invoiced. Invoices are recorded in"
 " accounting separately."
 =======
@@ -158024,6 +158813,8 @@ msgid ""
 msgstr ""
 "När du avslutar en session genereras en post i följande bokföringsjournal "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -158658,6 +159449,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -159108,6 +159902,16 @@ msgid "With a"
 msgstr "Med en"
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
+#, fuzzy
+#| msgid "XL"
+msgid "X"
+msgstr "XL"
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #: model:product.attribute.value,name:point_of_sale.product_attribute_value_xl
 msgid "XL"
 msgstr "XL"
@@ -159148,6 +159952,7 @@ msgstr "Du får inte ändra denna kvantitet"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/store/pos_store.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -159787,6 +160592,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You are trying to sell products with serial/lot numbers, but some of them "
 "are not set.\n"
 "Would you like to proceed anyway?"
@@ -160004,6 +160811,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -160471,6 +161281,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/stock_picking.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161533,6 +162344,10 @@ msgid ""
 "You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
 "(config)s'."
 >>>>>>> upstream/18.0
+=======
+"You cannot archive '%(picking_type)s' as it is used by POS configuration '%"
+"(config)s'."
+>>>>>>> upstream/18.0
 msgstr ""
 "Du kan inte arkivera \"%(picking_type)s\" eftersom det används av POS-"
 "konfigurationen \"%(config)s\"."
@@ -161742,7 +162557,10 @@ msgstr "Du kan inte skapa en session som startar före: %(lock_date_info)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162273,6 +163091,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -162909,7 +163730,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -163680,6 +164504,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-python
@@ -163883,6 +164708,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164518,6 +165345,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -164951,6 +165781,7 @@ msgstr "Du kan inte fakturera order som hör till olika företag."
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165837,6 +166668,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 "You cannot share open orders with configuration that does not use the same "
@@ -165849,6 +166682,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "You cannot use the same journal on multiples cash payment methods."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166869,6 +167703,10 @@ msgstr ""
 msgstr ""
 "Du kan inte använda samma verifikat för flera kontantbetalningsmetoder."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Du kan inte använda samma verifikat för flera kontantbetalningsmetoder."
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -167089,8 +167927,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du har inte behörighet att öppna en POS-session. Försök att öppna en session"
 " med en annan användare"
+=======
+"Du har inte behörighet att öppna en POS-session. Försök att öppna en session "
+"med en annan användare"
+>>>>>>> upstream/18.0
 =======
 "Du har inte behörighet att öppna en POS-session. Försök att öppna en session "
 "med en annan användare"
@@ -168169,8 +169012,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Du har aktiverat alternativet \"Identifiera kund\" för betalningsmetoden "
 "%(payment_method)s, men ordern %(order)s innehåller inte någon kund."
+=======
+"Du har aktiverat alternativet \"Identifiera kund\" för betalningsmetoden %"
+"(payment_method)s, men ordern %(order)s innehåller inte någon kund."
+>>>>>>> upstream/18.0
 =======
 "Du har aktiverat alternativet \"Identifiera kund\" för betalningsmetoden %"
 "(payment_method)s, men ordern %(order)s innehåller inte någon kund."
@@ -169251,6 +170099,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du måste ha tillgång till \"Administrationsinställningar\" för att kunna "
+"ladda kläddata."
+>>>>>>> upstream/18.0
 =======
 "Du måste ha tillgång till \"Administrationsinställningar\" för att kunna "
 "ladda kläddata."
@@ -170312,6 +171165,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Du måste ha tillgång till \"Administrationsinställningar\" för att kunna "
+"ladda möbeldata."
+>>>>>>> upstream/18.0
 =======
 "Du måste ha tillgång till \"Administrationsinställningar\" för att kunna "
 "ladda möbeldata."
@@ -171391,8 +172249,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must set the iot box's IP address to use an IoT-connected screen. You'll"
 " find the field under the 'IoT Box' option."
+=======
+"You must set the iot box's IP address to use an IoT-connected screen. You'll "
+"find the field under the 'IoT Box' option."
+>>>>>>> upstream/18.0
 =======
 "You must set the iot box's IP address to use an IoT-connected screen. You'll "
 "find the field under the 'IoT Box' option."
@@ -172284,6 +173147,14 @@ msgstr ""
 "                                Vänligen se till att"
 
 #. module: point_of_sale
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
+msgid "Z"
+msgstr ""
+
+#. module: point_of_sale
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/components/product_info_banner/product_info_banner.xml:0
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/product_info_popup/product_info_popup.xml:0
@@ -172578,12 +173449,15 @@ msgstr "rabatt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. 0123456789"
 msgstr "t.ex. 0123456789"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -173419,12 +174293,15 @@ msgstr "t.ex. läskedrycker"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt_screen.xml:0
 msgid "e.g. john.doe@mail.com"
 msgstr "t.ex. john.doe@mail.com"
 
 #. module: point_of_sale
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -174101,6 +174978,7 @@ msgstr "för att aktivera knapparna."
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_invoice_document
 msgid "using"
 msgstr "med"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175541,6 +176419,81 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+
+#. module: point_of_sale
+#. odoo-javascript
+#: code:addons/point_of_sale/static/src/app/generic_components/orderline/orderline.xml:0
+#: code:addons/point_of_sale/static/src/app/navbar/sale_details_button/sales_detail_report.xml:0
+msgid "x"
+msgstr ""
+
+#~ msgid "0.00"
+#~ msgstr "0,00"
+
+#~ msgid "00014-001-0001"
+#~ msgstr "00014-001-0001"
+
+#~ msgid "10"
+#~ msgstr "10"
+
+#~ msgid "100.00"
+#~ msgstr "100,00"
+
+#~ msgid "1000"
+#~ msgstr "1000"
+
+#~ msgid "10000"
+#~ msgstr "10000"
+
+#~ msgid "10000.00"
+#~ msgstr "10000,00"
+
+#~ msgid "123.45"
+#~ msgstr "123,45"
+
+#~ msgid "1234567890"
+#~ msgstr "08-12345678"
+
+#~ msgid "39"
+#~ msgstr "39"
+
+#~ msgid "40"
+#~ msgstr "40"
+
+#~ msgid "41"
+#~ msgstr "41"
+
+#~ msgid "42"
+#~ msgstr "42"
+
+#~ msgid "43"
+#~ msgstr "43"
+
+#~ msgid "45"
+#~ msgstr "45"
+
+#~ msgid "5.00"
+#~ msgstr "5,00"
+
+#~ msgid "50.00"
+#~ msgstr "50,00"
+
+#~ msgid "567789"
+#~ msgstr "567789"
+
+#~ msgid "7897"
+#~ msgstr "7897"
+
+#~ msgid "95.00"
+#~ msgstr "95,00"
+
+#~ msgid "987657"
+#~ msgstr "987657"
+
+#~ msgid "99.99"
+#~ msgstr "99,99"
+>>>>>>> upstream/18.0
 
 #~ msgid "Cannot weigh product - IoT Box is disconnected"
 #~ msgstr "Det går inte att väga produkten - IoT Box är frånkopplad"
@@ -175557,6 +176510,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

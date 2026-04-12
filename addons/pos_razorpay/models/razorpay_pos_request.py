@@ -102,7 +102,11 @@ class RazorpayPosRequest:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.razorpay_api_key = payment_method.razorpay_api_key
+=======
+        self.razorpay_api_key = payment_method.sudo().razorpay_api_key
+>>>>>>> upstream/18.0
 =======
         self.razorpay_api_key = payment_method.sudo().razorpay_api_key
 >>>>>>> upstream/18.0
@@ -522,6 +526,7 @@ class RazorpayPosRequest:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'appKey': self.razorpay_api_key,
 =======
             'appKey': self.sudo().razorpay_api_key,
@@ -546,6 +551,9 @@ class RazorpayPosRequest:
 >>>>>>> upstream/18.0
 =======
             'appKey': self.sudo().razorpay_api_key,
+>>>>>>> upstream/18.0
+=======
+            'appKey': self.razorpay_api_key,
 >>>>>>> upstream/18.0
 =======
             'appKey': self.razorpay_api_key,

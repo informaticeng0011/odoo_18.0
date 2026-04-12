@@ -212,12 +212,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* loyalty
 # 
 # Translators:
 # Vladimir Vrgoč, 2024
 # Luka Carević <luka@uvid.hr>, 2024
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -855,6 +858,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1583,6 +1589,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Goran Kliska <gkliska@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -2250,6 +2257,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Goran Kliska <gkliska@gmail.com>, 2025
 # Ivica Dimjašević, 2025
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2465,6 +2474,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2887,11 +2897,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4144,6 +4158,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-11 22:21+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-04-11 18:02+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/loyalty/"
 "hr/>\n"
 "Language: hr\n"
@@ -4152,6 +4171,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4787,11 +4807,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__trigger
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5150,6 +5174,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Automatic: Customers will be eligible for a reward automatically in "
 "their cart.\n"
 "        Use a code: Customers will be eligible for a reward if they enter a "
@@ -5272,6 +5298,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5511,6 +5538,15 @@ msgid ""
 >>>>>>> upstream/18.0
 "        "
 msgstr ""
+=======
+"        "
+msgstr ""
+"\n"
+"        Automatski: Kupci će biti automatski kvalificirani za nagradu u "
+"svojoj košarici.\n"
+"        Koristi kod: Kupci će biti kvalificirani za nagradu ako unesu kod.\n"
+"        "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__available_on
@@ -5524,6 +5560,7 @@ msgstr ""
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__portal_visible
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6120,6 +6157,10 @@ msgid ""
 "        Show in web portal, PoS customer ticket, eCommerce checkout, the "
 "number of points available and used by reward.\n"
 >>>>>>> upstream/18.0
+=======
+"        Show in web portal, PoS customer ticket, eCommerce checkout, the "
+"number of points available and used by reward.\n"
+>>>>>>> upstream/18.0
 "        "
 msgstr ""
 
@@ -6130,6 +6171,7 @@ msgid " (Max %s)"
 msgstr " (Max %s)"
 
 #. module: loyalty
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "$100"
 msgstr "$100"
@@ -6139,24 +6181,42 @@ msgstr "$100"
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%g%% on "
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_reward.py:0
+msgid "%g%% on "
+msgstr "%g%% na "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s on "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s na "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s per point"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s po bodu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "%s per point on "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s po bodu na "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -6166,39 +6226,60 @@ msgstr "( Max"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "(if at least"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(ako barem"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "(tax excluded)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(bez poreza)"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "-> View History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-> Prikaži povijest"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.10_percent_coupon
 msgid "10% Discount Coupons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuponi s popustom 10%"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.reward,description:loyalty.10_percent_coupon_reward
 #: model:loyalty.reward,description:loyalty.10_percent_with_code_reward
 msgid "10% on your order"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 msgid "1000"
 msgstr "1000"
+=======
+msgstr "10% na vašu narudžbu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "2+1 Free"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: loyalty
@@ -6210,11 +6291,15 @@ msgstr "2023-08-20"
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 msgid "2023-12-31"
 msgstr "2023-12-31"
+=======
+msgstr "2+1 besplatno"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,body_html:loyalty.mail_template_gift_card
 msgid ""
 "<div style=\"background: #ffffff\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6357,6 +6442,8 @@ msgid ""
 "                    <span style=\"background-color:#999999; display:inline-block; width:auto; border-radius:5px;\">\n"
 "                        <a t-attf-href=\"{{ object.get_base_url() }}/shop\" target=\"_blank\" style=\"text-decoration:none; font-family:arial, 'helvetica neue', helvetica, sans-serif; font-size:22px; color:#FFFFFF; border-style:solid; border-color:#999999; border-width:20px 30px; display:inline-block; background-color:#999999; border-radius:5px; font-weight:bold; font-style:normal; line-height:26px; width:auto; text-align:center\">Use it right now!</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6758,6 +6845,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7004,12 +7094,17 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Product Domain\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Domena proizvoda\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/>"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: loyalty
@@ -7611,28 +7706,51 @@ msgid ""
 "<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>All Products</span>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-cube fa-fw\" title=\"Proizvodi\"/>"
+
+#. module: loyalty
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
+msgid ""
+"<i class=\"fa fa-cube fa-fw\" title=\"Products\"/><span>All Products</span>"
+msgstr ""
+"<i class=\"fa fa-cube fa-fw\" title=\"Proizvodi\"/><span>Svi proizvodi</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-cubes fa-fw\" title=\"Product Categories\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-cubes fa-fw\" title=\"Kategorije proizvoda\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-search fa-fw\" title=\"Product Domain\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-search fa-fw\" title=\"Domena proizvoda\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "<i class=\"fa fa-tags fa-fw\" title=\"Product Tags\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-tags fa-fw\" title=\"Oznake proizvoda\"/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7759,6 +7877,8 @@ msgid ""
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'gift_card'\">Gift Cards</span>\n"
 "                                <span class=\"o_stat_text\" invisible=\"program_type != 'ewallet'\">eWallets</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8126,6 +8246,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8364,6 +8485,22 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"<span class=\"o_stat_text\" invisible=\"program_type not in ('coupons', "
+"'next_order_coupons')\">Kuponi</span>\n"
+"                                <span class=\"o_stat_text\" "
+"invisible=\"program_type != 'loyalty'\">Kartice vjernosti</span>\n"
+"                                <span class=\"o_stat_text\" "
+"invisible=\"program_type not in ('promotion', 'buy_x_get_y')\">Promos</span>"
+"\n"
+"                                <span class=\"o_stat_text\" "
+"invisible=\"program_type != 'promo_code'\">Discount</span>\n"
+"                                <span class=\"o_stat_text\" "
+"invisible=\"program_type != 'gift_card'\">Poklon kartice</span>\n"
+"                                <span class=\"o_stat_text\" "
+"invisible=\"program_type != 'ewallet'\">eNovčanici</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -8371,10 +8508,16 @@ msgid ""
 "<span class=\"text-center\">OR</span>\n"
 "                                        <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"text-center\">ILI</span>\n"
+"                                        <br/>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8973,11 +9116,22 @@ msgid ""
 "of coupon points defined as the coupon value</span>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Grant the amount "
+"of coupon points defined as the coupon value</span>"
+msgstr ""
+"<span colspan=\"2\" invisible=\"program_type != 'coupons'\">Dodijeli "
+"količinu bodova kupona definiranu kao vrijednost kupona</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "<span invisible=\"not clear_wallet\"> (or more)</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not clear_wallet\"> (ili više)</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
@@ -8989,40 +9143,74 @@ msgid ""
 "                            Generate \n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"not will_send_mail\">\n"
+"                            Generiraj i pošalji \n"
+"                        </span>\n"
+"                        <span invisible=\"will_send_mail\">\n"
+"                            Generiraj \n"
+"                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.portal_loyalty_history_breadcrumbs
 msgid "<span>History</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Povijest</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "<span>Minimum purchase of</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Minimalna kupnja od</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "<span>Valid for purchase above</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Vrijedi za kupnju iznad</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "<span>on</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>na</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "<span>products</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>proizvoda</span>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 msgid "<strong>Gift Card Code</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kod poklon kartice</strong>"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,body_html:loyalty.mail_template_loyalty_card
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9155,6 +9343,8 @@ msgid ""
 "            <t t-if=\"reward.required_points &lt;= object.points\">\n"
 "                <span style=\"font-size: 50px; color: #875A7B; font-weight: bold;\" t-esc=\"reward.description\">Reward Description</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9525,6 +9715,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9890,11 +10083,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            before <t t-out=\"object.expiration_date or ''\">2021-06-16</t>\n"
 "        </t>\n"
 "        <p style=\"margin-top: 16px;\">\n"
 "            <strong style=\"padding: 16px 8px 16px 8px; border-radius: 3px; background-color: #F1F1F1;\" t-out=\"object.code or ''\">15637502648479132902</strong>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10256,6 +10452,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10616,7 +10815,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Minimum purchase of <t t-out=\"rule.minimum_qty or ''\">10</t> products\n"
+=======
+"                    Minimum purchase of <t t-out=\"rule.minimum_qty or "
+"''\">10</t> products\n"
+>>>>>>> upstream/18.0
 =======
 "                    Minimum purchase of <t t-out=\"rule.minimum_qty or "
 "''\">10</t> products\n"
@@ -11216,7 +11420,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Valid for purchase above <t t-out=\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out=\"'%0.2f' % float(rule.minimum_amount) or ''\">10.00</t>\n"
+=======
+"                    Valid for purchase above <t t-"
+"out=\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out=\"'%0.2f' % "
+"float(rule.minimum_amount) or ''\">10.00</t>\n"
+>>>>>>> upstream/18.0
 =======
 "                    Valid for purchase above <t t-"
 "out=\"rule.company_id.currency_id.symbol or ''\">$</t><t t-out=\"'%0.2f' % "
@@ -11936,10 +12146,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"object._get_signature()\" data-o-mail-quote-container=\"1\">\n"
 "            <br/>\n"
 "            <t t-out=\"object._get_signature() or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12299,6 +12512,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12563,25 +12779,41 @@ msgstr "Program treba sadržavati barem jednu nagradu."
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_buttons
 msgid "A reward is waiting for you"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagrada vas čeka"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "A reward product can't be of type \"combo\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagradni proizvod ne može biti vrste \"combo\"."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_card.py:0
 msgid "A trigger with the same code as one of your coupon already exists."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okidač s istim kodom kao jedan od vaših kupona već postoji."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "ABCDE12345"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ABCDE12345"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_needaction
@@ -12602,7 +12834,11 @@ msgstr "Aktivno"
 #: model:ir.model.fields,field_description:loyalty.field_res_partner__loyalty_card_count
 #: model:ir.model.fields,field_description:loyalty.field_res_users__loyalty_card_count
 msgid "Active loyalty cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivne kartice vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
@@ -12623,23 +12859,39 @@ msgstr "Dodaj pravilo"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__all_discount_product_ids
 msgid "All Discount Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi proizvodi popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_form
 msgid "Among"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Među"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "Among:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Među:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_generate_wizard__mode__anonymous
 msgid "Anonymous Customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anonimni kupci"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__mode
@@ -12649,7 +12901,11 @@ msgstr "Aplikacija"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "Applied to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primijenjeno na:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__applies_on
@@ -12665,7 +12921,11 @@ msgstr "Arhivirano"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_mail__trigger__create
 msgid "At Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri stvaranju"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_attachment_count
@@ -12682,13 +12942,21 @@ msgstr "Automatski"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Automatic promo: 10% off on orders higher than $50"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatska promocija: 10% popusta na narudžbe veće od $50"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__available_on
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Available On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupno na"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_form
@@ -12705,31 +12973,51 @@ msgstr "Barkod"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Buy 10 products to get 10$ off on the 11th one"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupite 10 proizvoda za $10 popusta na 11."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Buy 2 products and get a third one for free"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupite 2 proizvoda i dobijete treći besplatno"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,name:loyalty.3_cabinets_plus_1_free
 msgid "Buy 3 large cabinets, get one for free"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupite 3 velika ormara, dobijete jedan besplatno"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__buy_x_get_y
 msgid "Buy X Get Y"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupi X dobij Y"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid "Can not generate coupon, no program is set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće generirati kupon, nije postavljen program."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
@@ -12741,12 +13029,20 @@ msgstr "Otkaži"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__card_id
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__card_id
 msgid "Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartica"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 msgid "Card expires"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartica istječe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__product_category_id
@@ -12756,7 +13052,11 @@ msgstr "Kategorije"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__cheapest
 msgid "Cheapest Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najjeftiniji proizvod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__clear_wallet
@@ -12766,7 +13066,11 @@ msgstr "Očisti novčanik"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Clear all promo point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Očisti sve promotivne bodove"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__code
@@ -12806,7 +13110,11 @@ msgstr "Sastavi email"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__rule_ids
 msgid "Conditional rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvjetna pravila"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_form
@@ -12816,6 +13124,7 @@ msgstr "Uvjeti"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13989,6 +14298,9 @@ msgstr "Potvrdi"
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__confirmation_message
@@ -14026,28 +14338,48 @@ msgstr "Šifra kupona"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__coupon_count
 msgid "Coupon Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj kupona"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Coupon point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovi kupona"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.program,portal_point_name:loyalty.10_percent_coupon
 msgid "Coupon points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovi kupona"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Coupon value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijednost kupona"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,name:loyalty.mail_template_loyalty_card
 msgid "Coupon: Coupon Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupon: informacije o kuponu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -14268,7 +14600,11 @@ msgid "Coupons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuponi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kuponi"
 >>>>>>> upstream/18.0
@@ -14909,12 +15245,20 @@ msgstr "Kuponi"
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_gift_ewallet_action
 msgid "Create a new one from scratch, or use one of the templates below."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirajte novi od početka ili koristite jedan od predložaka ispod."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_discount_loyalty_action
 msgid "Create one from scratch, or use a templates below:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirajte od početka ili koristite predložak ispod:"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
@@ -14951,7 +15295,11 @@ msgstr "Kreirano"
 #: code:addons/loyalty/models/loyalty_program.py:0
 #: model:loyalty.program,portal_point_name:loyalty.3_cabinets_plus_1_free
 msgid "Credit(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krediti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__currency_id
@@ -14969,17 +15317,29 @@ msgstr "Oznaka valute, koristi se prilikom ispisa iznosa."
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__both
 msgid "Current & Future orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutne i buduće narudžbe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__current
 msgid "Current order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutna narudžba"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__customer_tag_ids
 msgid "Customer Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznake kupaca"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__customer_ids
@@ -14989,12 +15349,20 @@ msgstr "Kupci"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "DEMO_CODE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_CODE"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "DEMO_TEXT"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_TEXT"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -15007,6 +15375,7 @@ msgstr "Datum"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15605,6 +15974,13 @@ msgid ""
 "for rewards."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Define Discount codes on conditional rules then share it with your customers "
+"for rewards."
+msgstr ""
+"Definirajte kodove popusta na uvjetnim pravilima i podijelite ih s kupcima "
+"za nagrade."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -15621,7 +15997,11 @@ msgstr "Opis"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Description on order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis na narudžbi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount
@@ -15639,22 +16019,38 @@ msgstr "Kuponi i Vjernost"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_applicability
 msgid "Discount Applicability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primjenjivost popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__promo_code
 msgid "Discount Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_line_product_id
 msgid "Discount Line Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod stavke popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_mode
 msgid "Discount Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__payment_program_discount_product_id
@@ -15664,7 +16060,11 @@ msgstr "Proizvod popusta"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_domain
 msgid "Discount Product Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domena proizvoda popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -15672,34 +16072,58 @@ msgstr ""
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__code
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "Discount code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 #: model:loyalty.program,portal_point_name:loyalty.10_percent_with_code
 msgid "Discount point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovi popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Discount product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod popusta"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_category_id
 msgid "Discounted Prod. Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorije proizvoda s popustom"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_tag_id
 msgid "Discounted Prod. Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka proizvoda s popustom"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_product_ids
 msgid "Discounted Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodi s popustom"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -15730,6 +16154,11 @@ msgid ""
 "Drive repeat purchases by sending a unique, single-use coupon code for the "
 "next purchase when a customer buys something in your store."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Potaknite ponovljene kupnje slanjem jedinstvenog, jednokratnog koda kupona "
+"za sljedeću kupnju kada kupac nešto kupi u vašoj trgovini."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -15737,6 +16166,10 @@ msgid ""
 "Each rule can grant points to the customer he will be able to exchange "
 "against rewards"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Svako pravilo može dodijeliti bodove kupcu koje će moći zamijeniti za nagrade"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_mail__mail_template_id
@@ -15746,7 +16179,11 @@ msgstr "Predložak e-maila"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__mail_template_id
 msgid "Email template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__date_to
@@ -15757,7 +16194,11 @@ msgstr "Završni datum"
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Example: Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primjer: poklon za kupca"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__expiration_date
@@ -15768,25 +16209,41 @@ msgstr "Datum isteka "
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_card.py:0
 msgid "Expiration date cannot be set on a loyalty card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum isteka ne može se postaviti na karticu vjernosti."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fidelity Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartica vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fidelity Cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartice vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Fill in your eWallet, to pay future orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napunite svoj eNovčanik za plaćanje budućih narudžbi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_follower_ids
@@ -16013,7 +16470,11 @@ msgid "For"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za"
 >>>>>>> upstream/18.0
@@ -16654,36 +17115,60 @@ msgstr "Za"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "For all customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za sve kupce"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__reward_type__product
 msgid "Free Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Besplatan proizvod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "Free Product - %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Besplatan proizvod - %s"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:loyalty.reward,description:loyalty.3_cabinets_plus_1_free_reward
 msgid "Free Product - Large Cabinet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Besplatan proizvod - Veliki ormar"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "Free Product - [%s]"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Besplatan proizvod - [%s]"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "Free product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Besplatan proizvod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__applies_on__future
@@ -16900,7 +17385,11 @@ msgid "Future orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buduće narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buduće narudžbe"
 >>>>>>> upstream/18.0
@@ -17553,27 +18042,46 @@ msgid ""
 "Point of Sale or regular orders to claim the Reward. You can define "
 "constraints on its usage through conditional rule."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Generirajte i dijelite kodove kupona ručno. Može se koristiti u eCommerceu, "
+"POS-u ili standardnim narudžbama za zahtjevanje nagrade. Ograničenja "
+"korištenja možete definirati uvjetnim pravilom."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_generate_wizard
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate Coupons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generiraj kupone"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate Gift Cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generiraj poklon kartice"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Generate and share unique coupons with your customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generirajte i dijelite jedinstvene kupone s kupcima"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Generate eWallet"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: loyalty
@@ -18397,11 +18905,24 @@ msgstr ""
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Get 10% off on some products, with a code"
 msgstr ""
+=======
+msgstr "Generiraj eNovčanik"
+
+#. module: loyalty
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_program.py:0
+msgid "Get 10% off on some products, with a code"
+msgstr "Ostvarite 10% popusta na neke proizvode s kodom"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_gift_ewallet_view_form
 msgid "Gift &amp; Ewallet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poklon i eNovčanik"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -18412,33 +18933,54 @@ msgstr ""
 #: model:loyalty.reward,description:loyalty.gift_card_program_reward
 #: model:product.template,name:loyalty.gift_card_product_50_product_template
 msgid "Gift Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poklon kartica"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Gift Card Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodi poklon kartica"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Gift Card value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijednost poklon kartice"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,name:loyalty.mail_template_gift_card
 msgid "Gift Card: Gift Card Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poklon kartica: informacije o poklon kartici"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 #: model:loyalty.program,name:loyalty.gift_card_program
 msgid "Gift Cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poklon kartice"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18798,6 +19340,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Gift Cards are created manually or automatically sent by email when the "
 "customer orders a gift card product.\n"
 "                                    <br/>\n"
@@ -18921,6 +19465,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19159,12 +19704,24 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Poklon kartice kreiraju se ručno ili se automatski šalju e-poštom kada kupac "
+"naruči proizvod poklon kartice.\n"
+"                                    <br/>\n"
+"                                    Zatim se poklon kartice mogu koristiti "
+"kao način plaćanja u vašim trgovinama ili eCommerceu."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid "Gift For Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poklon za kupca"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.actions.act_window,name:loyalty.loyalty_program_gift_ewallet_action
@@ -19175,7 +19732,11 @@ msgstr "Poklon bon & eNovčanik"
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "Gift for customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poklon za kupca"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__points_granted
@@ -19187,6 +19748,7 @@ msgstr "Dodijeli"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19785,6 +20347,13 @@ msgid ""
 "exchange of X credits."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Grant 1 credit for each item bought then reward the customer with Y items in "
+"exchange of X credits."
+msgstr ""
+"Dodijelite 1 kredit za svaku kupljenu stavku, zatim nagradite kupca s Y "
+"stavki u zamjenu za X kredita."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__has_message
@@ -19794,12 +20363,20 @@ msgstr "Ima poruku"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.gift_card_report
 msgid "Here is your gift card!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evo vaše poklon kartice!"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "Here is your reward from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evo vaše nagrade od"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__history_ids
@@ -19809,12 +20386,20 @@ msgstr "Povijest"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_form
 msgid "History Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavke povijesti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povijest kartica vjernosti i eNovčanika"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__id
@@ -19842,13 +20427,21 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "If minimum"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako minimum"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "In exchange of"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "U zamjenu za"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_search
@@ -19859,7 +20452,11 @@ msgstr "Neaktivan"
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid "Invalid quantity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravna količina."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_is_follower
@@ -19869,17 +20466,29 @@ msgstr "Je li pratitelj"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__is_global_discount
 msgid "Is Global Discount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je globalni popust"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__is_nominative
 msgid "Is Nominative"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je na ime"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__is_payment_program
 msgid "Is Payment Program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je platni program"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -19887,7 +20496,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__issued
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Issued"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdano"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__coupon_count_display
@@ -19904,7 +20517,11 @@ msgstr "John Doe"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Last Transactions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje transakcije"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__write_uid
@@ -19938,7 +20555,11 @@ msgstr "Limit"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__limit_usage
 msgid "Limit Usage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograniči korištenje"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
@@ -19949,7 +20570,11 @@ msgstr "Logo"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Loyalty Card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartica vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -19957,17 +20582,29 @@ msgstr ""
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.res_partner_form
 msgid "Loyalty Cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartice vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_mail
 msgid "Loyalty Communication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komunikacija vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_card
 msgid "Loyalty Coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupon vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_program
@@ -19987,28 +20624,48 @@ msgstr "Pravila odanosti"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "Loyalty Transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcija vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Loyalty point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovi vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__discount_max_amount
 msgid "Max Discount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maks. popust"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__max_usage
 msgid "Max Usage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maks. korištenje"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_program_check_max_usage
 msgid "Max usage must be strictly positive if a limit is used."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Maksimalno korištenje mora biti strogo pozitivno ako se koristi ograničenje."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_base_partner_merge_automatic_wizard
@@ -20028,12 +20685,20 @@ msgstr "Poruke"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__minimum_amount_tax_mode
 msgid "Minimum Amount Tax Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porezni način minimalnog iznosa"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__minimum_amount
 msgid "Minimum Purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minimalna kupnja"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__minimum_qty
@@ -20043,46 +20708,78 @@ msgstr "Minimalna količina"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__multi_product
 msgid "Multi Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card_update_balance__new_balance
 msgid "New Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novi saldo"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_card_update_balance.py:0
 msgid "New Balance should be positive and different then old balance."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novi saldo mora biti pozitivan i različit od starog salda."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Next Order Coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupon za sljedeću narudžbu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__next_order_coupons
 msgid "Next Order Coupons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuponi za sljedeću narudžbu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_card_action
 msgid "No Coupons Found."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nisu pronađeni kuponi."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_gift_ewallet_action
 msgid "No loyalty program found."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije pronađen program vjernosti."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_program_discount_loyalty_action
 msgid "No program found."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije pronađen program."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_needaction_counter
@@ -20119,7 +20816,11 @@ msgstr "Narudžba"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_history__order_model
 msgid "Order Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model narudžbe"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__partner_id
@@ -20129,7 +20830,11 @@ msgstr "Partner"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_form
 msgid "Point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__points
@@ -20142,17 +20847,29 @@ msgstr "Bodovi"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__points_display
 msgid "Points Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaz bodova"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Points Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinica bodova"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__required_points
 msgid "Points needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebni bodovi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__point_name
@@ -20161,11 +20878,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__point_name
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_name
 msgid "Portal Point Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv bodova u portalu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__portal_visible
 msgid "Portal Visible"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: loyalty
@@ -21015,6 +21737,12 @@ msgstr ""
 #: model:ir.model,name:loyalty.model_product_pricelist
 >>>>>>> upstream/18.0
 =======
+#: model:ir.model,name:loyalty.model_product_pricelist
+>>>>>>> upstream/18.0
+=======
+msgstr "Vidljivo u portalu"
+
+#. module: loyalty
 #: model:ir.model,name:loyalty.model_product_pricelist
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__pricelist_ids
@@ -21030,7 +21758,11 @@ msgstr "Proizvod"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__product_domain
 msgid "Product Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domena proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_tag_id
@@ -21046,7 +21778,11 @@ msgstr "Varijanta proizvoda"
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__payment_program_discount_product_id
 msgid "Product used in the sales order to apply the discount."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvod koji se koristi u prodajnoj narudžbi za primjenu popusta."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_reward__discount_line_product_id
@@ -21054,6 +21790,11 @@ msgid ""
 "Product used in the sales order to apply the discount. Each reward has its "
 "own product for reporting purpose"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Proizvod koji se koristi u prodajnoj narudžbi za primjenu popusta. Svaka "
+"nagrada ima vlastiti proizvod za potrebe izvještavanja"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__trigger_product_ids
@@ -21074,7 +21815,11 @@ msgstr "Program"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__name
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Program Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv programa"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__program_type
@@ -21083,12 +21828,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__program_type
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__program_type
 msgid "Program Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta programa"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Program trigger"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okidač programa"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -21100,24 +21853,40 @@ msgstr "Promo kod"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Promo point(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promotivni bodovi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Promos"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promocije"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Promotional Program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promotivni program"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__promotion
 msgid "Promotions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promocije"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__coupon_qty
@@ -21127,12 +21896,20 @@ msgstr "Količina"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_form
 msgid "Quantity rewarded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagrađena količina"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "Quantity to generate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina za generiranje"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__rating_ids
@@ -21148,32 +21925,56 @@ msgstr "Nagrada"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_mode
 msgid "Reward Point Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način bodova nagrade"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_domain
 msgid "Reward Product Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Domena nagradnog proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_qty
 msgid "Reward Product Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina nagradnog proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_uom_id
 msgid "Reward Product Uom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinica mjere nagradnog proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_product_ids
 msgid "Reward Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagradni proizvodi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__reward_type
 msgid "Reward Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta nagrade"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__reward_ids
@@ -21184,12 +21985,20 @@ msgstr "Nagrade"
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_rule_reward_point_amount_positive
 msgid "Rule points reward must be strictly positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovi nagrade pravila moraju biti strogo pozitivni."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Rules & Rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravila i nagrade"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__message_has_sms_error
@@ -21199,13 +22008,21 @@ msgstr "Greška u slanju SMSa"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_generate_wizard__mode__selected
 msgid "Selected Customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabrani kupci"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Sell Gift Cards, that allows to purchase products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajte poklon kartice koje omogućuju kupnju proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_view_tree
@@ -21216,17 +22033,29 @@ msgstr "Pošalji"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Send a coupon after an order, valid for next purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji kupon nakon narudžbe, vrijedi za sljedeću kupnju"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,description:loyalty.mail_template_gift_card
 msgid "Sent to customer who purchased a gift card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano kupcu koji je kupio poklon karticu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,description:loyalty.mail_template_loyalty_card
 msgid "Sent to customer with coupon information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano kupcu s informacijama o kuponu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__sequence
@@ -21239,11 +22068,19 @@ msgid ""
 "Set up conditional rules on the order that will give access to rewards for "
 "customers"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postavite uvjetna pravila na narudžbi koja će kupcima dati pristup nagradama"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Show points Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži jedinicu bodova"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_reward__discount_applicability__specific
@@ -21460,7 +22297,11 @@ msgid "Specific Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Specifični proizvodi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Specifični proizvodi"
 >>>>>>> upstream/18.0
@@ -22101,13 +22942,21 @@ msgstr "Specifični proizvodi"
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__reward_point_split
 msgid "Split per unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podijeli po jedinici"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "Split per unit is not allowed for Loyalty and eWallet programs."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dijeljenje po jedinici nije dopušteno za programe vjernosti i eNovčanik."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__date_from
@@ -22132,17 +22981,29 @@ msgstr ""
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "Thank you,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvala,"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_reward_discount_positive
 msgid "The discount must be strictly positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popust mora biti strogo pozitivan."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__date_to
 msgid "The end date is included in the validity period of this program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum završetka uključen je u razdoblje valjanosti ovog programa"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -22150,6 +23011,10 @@ msgstr ""
 msgid ""
 "The loyalty program's currency must be the same as all it's pricelists ones."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Valuta programa vjernosti mora biti ista kao valute svih njegovih cjenika."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -22160,17 +23025,29 @@ msgstr "Promo kod mora biti jedinstven."
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_reward_required_points_positive
 msgid "The required points for a reward must be strictly positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebni bodovi za nagradu moraju biti strogo pozitivni."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.constraint,message:loyalty.constraint_loyalty_reward_product_qty_positive
 msgid "The reward product quantity must be strictly positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina nagradnog proizvoda mora biti strogo pozitivna."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__date_from
 msgid "The start date is included in the validity period of this program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum početka uključen je u razdoblje valjanosti ovog programa"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -22178,29 +23055,47 @@ msgstr ""
 msgid ""
 "The validity period's start date must be anterior or equal to its end date."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Datum početka razdoblja valjanosti mora biti prije ili jednak datumu "
+"završetka."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_history_template
 msgid "There are currently no transaction lines for this card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutno nema stavki transakcija za ovu karticu."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.actions.act_window,help:loyalty.loyalty_card_action
 msgid "There haven't been any coupons generated yet."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nisu generirani kuponi."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_reward__reward_product_ids
 msgid "These are the products that can be claimed with this rule."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo su proizvodi koji se mogu zahtijevati s ovim pravilom."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_reward__discount_max_amount
 msgid ""
 "This is the max amount this reward may discount, leave to 0 for no limit."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-python
@@ -22838,12 +23733,20 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Ovo je maksimalni iznos kojim ova nagrada može popustiti; ostavite 0 za bez "
+"ograničenja."
+
+#. module: loyalty
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_pricelist.py:0
 msgid ""
 "This pricelist may not be archived. It is being used for active promotion "
 "programs: %s"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: loyalty
 #. odoo-python
@@ -23481,26 +24384,50 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Ovaj cjenik ne može biti arhiviran. Koristi se za aktivne promotivne "
+"programe: %s"
+
+#. module: loyalty
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/loyalty/models/product_product.py:0
 msgid ""
 "This product may not be archived. It is being used for an active promotion "
 "program."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ovaj proizvod ne može biti arhiviran. Koristi se za aktivni promotivni "
+"program."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_program__pricelist_ids
 msgid "This program is specific to this pricelist set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj program specifičan je za ovaj skup cjenika."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:product.template,name:loyalty.ewallet_product_50_product_template
 msgid "Top-up eWallet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadopuni eNovčanik"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__total_order_count
 msgid "Total Order Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukupan broj narudžbi"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_program__trigger
@@ -23508,6 +24435,7 @@ msgid "Trigger"
 msgstr "Pokreni"
 
 #. module: loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24391,6 +25319,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "Unsupported search operator"
@@ -24657,6 +25587,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25182,32 +26115,56 @@ msgstr ""
 #: code:addons/loyalty/models/loyalty_card.py:0
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "Update Balance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažuriraj saldo"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model,name:loyalty.model_loyalty_card_update_balance
 msgid "Update Loyalty Card Points"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažuriraj bodove kartice vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__use_count
 msgid "Use Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj korištenja"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__trigger__with_code
 msgid "Use a code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi kod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "Use points on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi bodove na"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "Use this promo code before"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristite ovaj promotivni kod prije"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -25221,7 +26178,11 @@ msgstr "Korišteno"
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_reward__user_has_debug
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_rule__user_has_debug
 msgid "User Has Debug"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik ima debug"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__valid_until
@@ -25232,7 +26193,11 @@ msgstr "Vrijedi do"
 #. odoo-javascript
 #: code:addons/loyalty/static/src/js/portal/loyalty_card_dialog/loyalty_card_dialog.xml:0
 msgid "Valid until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijedi do"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_card__website_message_ids
@@ -25252,7 +26217,11 @@ msgstr "Kada"
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_mail__trigger__points_reach
 msgid "When Reaching"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kad dosegne"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -25260,6 +26229,11 @@ msgid ""
 "When customers make an order, they accumulate points they can exchange for "
 "rewards on the current order or on a future one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kada kupci naruče, skupljaju bodove koje mogu zamijeniti za nagrade na "
+"trenutnoj narudžbi ili na budućoj."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -25267,6 +26241,11 @@ msgid ""
 "When generating coupon, you can define a specific points value that can be "
 "exchanged for rewards."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pri generiranju kupona možete definirati specifičnu vrijednost bodova koja "
+"se može zamijeniti za nagrade."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields,help:loyalty.field_loyalty_rule__reward_point_split
@@ -25278,29 +26257,49 @@ msgstr ""
 #. module: loyalty
 #: model:ir.model.fields,field_description:loyalty.field_loyalty_generate_wizard__will_send_mail
 msgid "Will Send Mail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslat će e-poštu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "Win points with each purchase, and claim gifts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osvojite bodove sa svakom kupnjom i zahtijevajte poklone"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__mode__with_code
 msgid "With a promotion code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S promotivnim kodom"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_card_update_balance_form
 msgid "You are about to change the balance of the card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravo ćete promijeniti saldo kartice"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "You can not delete a program in an active state"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne možete obrisati program u aktivnom stanju"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -25310,11 +26309,17 @@ msgid ""
 "You cannot delete %(name)s as it is used in 'Coupons & Loyalty'. Please "
 "archive it instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ne možete obrisati %(name)s jer se koristi u 'Kuponi i vjernost'. Umjesto "
+"toga arhivirajte."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/wizard/loyalty_generate_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25913,16 +26918,31 @@ msgid ""
 "(customer_number)i customers"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You're about to generate %(program_type)s with a value of %(value)s for %"
+"(customer_number)i customers"
+msgstr ""
+"Upravo ćete generirati %(program_type)s s vrijednošću %(value)s za %"
+"(customer_number)i kupaca"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,subject:loyalty.mail_template_gift_card
 msgid "Your Gift Card at {{ object.company_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaša poklon kartica u {{ object.company_id.name }}"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:mail.template,subject:loyalty.mail_template_loyalty_card
 msgid "Your reward coupon from {{ object.program_id.company_id.name }} "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš nagradni kupon od {{ object.program_id.company_id.name }} "
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
@@ -25937,7 +26957,11 @@ msgstr "popust"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "e.g. 10% discount on laptops"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. 10% popusta na laptope"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -25945,27 +26969,44 @@ msgstr ""
 #: code:addons/loyalty/models/loyalty_reward.py:0
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_program__program_type__ewallet
 msgid "eWallet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "eNovčanik"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "eWallet Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodi eNovčanika"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_generate_wizard_view_form
 msgid "eWallet value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijednost eNovčanika"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_program.py:0
 msgid "eWallets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "eNovčanici"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26325,6 +27366,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "eWallets are created manually or automatically when the customer orders a "
 "eWallet product.\n"
 "                                    <br/>\n"
@@ -26448,6 +27491,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26686,6 +27730,14 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"eNovčanici se kreiraju ručno ili automatski kada kupac naruči proizvod "
+"eNovčanika.\n"
+"                                    <br/>\n"
+"                                    Zatim se eNovčanici nude izravno kao "
+"način plaćanja u trgovinama ili eCommerceu."
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
@@ -26695,28 +27747,48 @@ msgstr "artikl(a)"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "loyalty Reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nagrada vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on the cheapest product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "na najjeftiniji proizvod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_report
 msgid "on your next order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "na vašu sljedeću narudžbu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
 msgid "on your order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "na vašu narudžbu"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "per %s spent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "po potrošenom %s"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -26728,7 +27800,11 @@ msgstr "po narudžbi"
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_rule.py:0
 msgid "per unit paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "po plaćenoj jedinici"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
@@ -26946,7 +28022,11 @@ msgid "specific products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "specifični proizvodi"
+>>>>>>> upstream/18.0
 =======
 msgstr "specifični proizvodi"
 >>>>>>> upstream/18.0
@@ -27587,28 +28667,48 @@ msgstr "specifični proizvodi"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "spent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "potrošeno"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__excl
 msgid "tax excluded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "bez poreza"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model:ir.model.fields.selection,name:loyalty.selection__loyalty_rule__minimum_amount_tax_mode__incl
 msgid "tax included"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "s porezom"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #. odoo-python
 #: code:addons/loyalty/models/loyalty_reward.py:0
 msgid "the cheapest product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "najjeftiniji proizvod"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_rule_view_kanban
 msgid "the value of the coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vrijednost kupona"
+>>>>>>> upstream/18.0
 
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
@@ -27618,6 +28718,7 @@ msgstr "do"
 #. module: loyalty
 #: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
 msgid "usages"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: loyalty
@@ -29972,4 +31073,35 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "korištenja"
+
+#. module: loyalty
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_program_view_form
+msgid "used)"
+msgstr "iskorišteno)"
+
+#. module: loyalty
+#: model_terms:ir.ui.view,arch_db:loyalty.loyalty_reward_view_kanban
+msgid "x"
+msgstr ""
+
+#. module: loyalty
+#. odoo-python
+#: code:addons/loyalty/models/loyalty_reward.py:0
+msgid "your order"
+msgstr "vaša narudžba"
+
+#~ msgid "$100"
+#~ msgstr "$100"
+
+#~ msgid "1000"
+#~ msgstr "1000"
+
+#~ msgid "2023-08-20"
+#~ msgstr "2023-08-20"
+
+#~ msgid "2023-12-31"
+#~ msgstr "2023-12-31"
 >>>>>>> upstream/18.0

@@ -76,8 +76,11 @@ export const nameService = {
                     orm.silent
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         .webSearchRead(resModel, [["id", "in", idsInBatch]], { specification })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         .webSearchRead(resModel, [["id", "in", idsInBatch]], {
@@ -85,6 +88,9 @@ export const nameService = {
                             context: { active_test: false },
                         })
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

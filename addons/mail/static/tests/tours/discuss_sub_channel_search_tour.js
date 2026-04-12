@@ -161,6 +161,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { contains, dragenterFiles, dropFiles, scroll } from "@web/../tests/utils";
 import { registry } from "@web/core/registry";
 
@@ -168,6 +169,8 @@ registry.category("web_tour.tours").add("test_discuss_sub_channel_search", {
     steps: () => [
         {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -689,6 +692,9 @@ registry.category("web_tour.tours").add("test_discuss_sub_channel_search", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1205,6 +1211,10 @@ registry.category("web_tour.tours").add("test_discuss_sub_channel_search", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                waitForLoadMoreToDisappearDef = new Deferred();
+>>>>>>> upstream/18.0
 =======
                 waitForLoadMoreToDisappearDef = new Deferred();
 >>>>>>> upstream/18.0
@@ -1876,6 +1886,11 @@ registry.category("web_tour.tours").add("test_discuss_sub_channel_search", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                await waitForLoadMoreToDisappearDef;
+                waitForLoadMoreToDisappearDef = new Deferred();
+>>>>>>> upstream/18.0
 =======
                 await waitForLoadMoreToDisappearDef;
                 waitForLoadMoreToDisappearDef = new Deferred();
@@ -2703,6 +2718,11 @@ registry.category("web_tour.tours").add("test_discuss_sub_channel_search", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                await waitForLoadMoreToDisappearDef;
+                waitForLoadMoreToDisappearDef = new Deferred();
+>>>>>>> upstream/18.0
 =======
                 await waitForLoadMoreToDisappearDef;
                 waitForLoadMoreToDisappearDef = new Deferred();
@@ -3530,6 +3550,10 @@ registry.category("web_tour.tours").add("test_discuss_sub_channel_search", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                await waitForLoadMoreToDisappearDef;
+>>>>>>> upstream/18.0
 =======
                 await waitForLoadMoreToDisappearDef;
 >>>>>>> upstream/18.0
@@ -4265,9 +4289,12 @@ registry.category("web_tour.tours").add("create_thread_for_attachment_without_bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Click on send button",
             trigger: ".o-mail-Composer-send",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4906,6 +4933,9 @@ registry.category("web_tour.tours").add("create_thread_for_attachment_without_bo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

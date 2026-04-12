@@ -75,6 +75,10 @@ class JoEdiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.jod = cls.env.ref('base.JOD')
+>>>>>>> upstream/18.0
 =======
         cls.jod = cls.env.ref('base.JOD')
 >>>>>>> upstream/18.0
@@ -400,8 +404,13 @@ class JoEdiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_jo_create_refund(self, invoice_vals, return_reason, refund_vals):
         invoice = self._l10n_jo_create_invoice(invoice_vals)
+=======
+    def _l10n_jo_create_refund(self, invoice, return_reason, refund_vals):
+        invoice = self._l10n_jo_create_invoice(invoice) if isinstance(invoice, dict) else invoice
+>>>>>>> upstream/18.0
 =======
     def _l10n_jo_create_refund(self, invoice, return_reason, refund_vals):
         invoice = self._l10n_jo_create_invoice(invoice) if isinstance(invoice, dict) else invoice

@@ -7,6 +7,10 @@ import {
     defineMailModels,
     inputFiles,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    insertText,
+>>>>>>> upstream/18.0
 =======
     insertText,
 >>>>>>> upstream/18.0
@@ -17,9 +21,12 @@ import {
     triggerHotkey,
 } from "@mail/../tests/mail_test_helpers";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { advanceTime, mockDate } from "@odoo/hoot-mock";
 import { mockService, onRpc, patchWithCleanup, serverState } from "@web/../tests/web_test_helpers";
 =======
+=======
+>>>>>>> upstream/18.0
 import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 import { MailActivity } from "@mail/../tests/mock_server/mock_models/mail_activity";
 
@@ -31,6 +38,9 @@ import {
     patchWithCleanup,
     serverState,
 } from "@web/../tests/web_test_helpers";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 import { deserializeDateTime, serializeDate, today } from "@web/core/l10n/dates";
 import { getOrigin } from "@web/core/utils/urls";
@@ -292,9 +302,13 @@ test("activity upload document is available", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find(
         (r) => r.name === "Upload Document"
     );
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
 >>>>>>> upstream/18.0
@@ -1316,9 +1330,13 @@ test("activity can upload a document", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find(
         (r) => r.name === "Upload Document"
     );
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Upload Document");
 >>>>>>> upstream/18.0
@@ -2530,7 +2548,11 @@ test("activity with mail template layout", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find((r) => r.name === "Email");
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
 >>>>>>> upstream/18.0
@@ -3555,7 +3577,11 @@ test("activity with mail template: preview mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find((r) => r.name === "Email");
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
 >>>>>>> upstream/18.0
@@ -4592,7 +4618,11 @@ test("activity with mail template: send mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const activityType = pyEnv["mail.activity.type"]._records.find((r) => r.name === "Email");
+=======
+    const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
+>>>>>>> upstream/18.0
 =======
     const activityType = pyEnv["mail.activity.type"].find((r) => r.name === "Email");
 >>>>>>> upstream/18.0
@@ -5588,6 +5618,7 @@ test("activity with mail template: send mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/res.partner/activity_send_mail", async (request) => {
         step("activity_send_mail");
         const { params } = await request.json();
@@ -5595,6 +5626,8 @@ test("activity with mail template: send mail", async () => {
         expect(params.args[0][0]).toBe(partnerId);
         expect(params.args[1]).toBe(mailTemplateId);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6305,6 +6338,9 @@ test("activity with mail template: send mail", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7132,12 +7168,15 @@ test("activity click on cancel", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/unlink", async (request) => {
         step("unlink");
         const { params } = await request.json();
         expect(params.args[0]).toHaveLength(1);
         expect(params.args[0][0]).toBe(activityId);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7847,6 +7886,9 @@ test("activity click on cancel", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8497,7 +8539,10 @@ test("activity with a channel mention", async () => {
     await contains(".o-mail-ChatWindow-header", { text: "Channel" });
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("activity updates are shared between tabs", async () => {
     const pyEnv = await startServer();
@@ -8587,4 +8632,7 @@ test("activity updates are shared between tabs", async () => {
     });
     await expect.waitForSteps(["/mail/thread/messages"]);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -99,6 +99,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Wil Odoo, 2024
@@ -794,6 +795,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -896,6 +899,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1095,6 +1101,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1894,6 +1901,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Larisa_nexterp, 2025\n"
 "Language-Team: Romanian (https://app.transifex.com/odoo/teams/41243/ro/)\n"
@@ -2000,6 +2010,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2414,6 +2427,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<small>Treceți la condiția \"else\" a acestui bloc pentru a vizualiza sau "
+"edita tabelul.</small>"
+>>>>>>> upstream/18.0
 =======
 "<small>Treceți la condiția \"else\" a acestui bloc pentru a vizualiza sau "
 "edita tabelul.</small>"
@@ -3478,7 +3496,11 @@ msgid "<strong>Product matrix block</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Bloc matrice produs</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Bloc matrice produs</strong>"
 >>>>>>> upstream/18.0
@@ -4336,7 +4358,11 @@ msgid "Cell name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume celulă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume celulă"
 >>>>>>> upstream/18.0
@@ -5190,7 +5216,11 @@ msgid "Choose Product Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alegeți variantele de produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alegeți variantele de produs"
 >>>>>>> upstream/18.0
@@ -6043,7 +6073,11 @@ msgid "Column name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume coloană"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume coloană"
 >>>>>>> upstream/18.0
@@ -6699,6 +6733,7 @@ msgid "Gender"
 msgstr "Sex"
 
 #. module: product_matrix
+<<<<<<< HEAD
 #: model:product.attribute.value,name:product_matrix.product_attribute_value_m
 msgid "Men"
 <<<<<<< HEAD
@@ -7550,6 +7585,23 @@ msgstr "Bărbat"
 =======
 msgstr "Bărbat"
 >>>>>>> upstream/18.0
+=======
+#: model:product.attribute.value,name:product_matrix.product_attribute_value_size_l
+#, fuzzy
+#| msgid "XL"
+msgid "L"
+msgstr "XL"
+
+#. module: product_matrix
+#: model:product.attribute.value,name:product_matrix.product_attribute_value_size_m
+msgid "M"
+msgstr ""
+
+#. module: product_matrix
+#: model:product.attribute.value,name:product_matrix.product_attribute_value_m
+msgid "Men"
+msgstr "Bărbat"
+>>>>>>> upstream/18.0
 
 #. module: product_matrix
 #: model:product.template,name:product_matrix.matrix_product_template_shirt
@@ -7766,7 +7818,11 @@ msgid "My Company Tshirt (GRID)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tricou Compania Mea (GRID)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tricou Compania Mea (GRID)"
 >>>>>>> upstream/18.0
@@ -8635,7 +8691,11 @@ msgid "Pink"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Roz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Roz"
 >>>>>>> upstream/18.0
@@ -9523,7 +9583,11 @@ msgid "Product Template Attribute Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare Atribut Model Produs"
+=======
+msgstr "Valoare atribut șablon produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare atribut șablon produs"
 >>>>>>> upstream/18.0
@@ -10376,6 +10440,7 @@ msgid "Rainbow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Curcubeu"
@@ -11012,6 +11077,16 @@ msgstr "Curcubeu"
 >>>>>>> upstream/18.0
 =======
 msgstr "Curcubeu"
+>>>>>>> upstream/18.0
+=======
+msgstr "Curcubeu"
+
+#. module: product_matrix
+#: model:product.attribute.value,name:product_matrix.product_attribute_value_size_s
+#, fuzzy
+#| msgid "XS"
+msgid "S"
+msgstr "XS"
 >>>>>>> upstream/18.0
 
 #. module: product_matrix
@@ -11229,7 +11304,11 @@ msgid "Show your company love around you =)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arată dragostea pentru compania ta în jurul tău =)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Arată dragostea pentru compania ta în jurul tău =)."
 >>>>>>> upstream/18.0
@@ -12082,7 +12161,11 @@ msgid "Size"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dimensiune"
+=======
+msgstr "Mărime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mărime"
 >>>>>>> upstream/18.0
@@ -12938,6 +13021,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Matricea variantelor de produs ale acestei comenzi va fi afișată aici, dacă "
+"există."
+>>>>>>> upstream/18.0
 =======
 "Matricea variantelor de produs ale acestei comenzi va fi afișată aici, dacă "
 "există."
@@ -14002,7 +14090,11 @@ msgid "Variant price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preț variantă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț variantă"
 >>>>>>> upstream/18.0
@@ -14870,7 +14962,11 @@ msgid "XL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "XL"
+>>>>>>> upstream/18.0
 =======
 msgstr "XL"
 >>>>>>> upstream/18.0
@@ -15753,7 +15849,11 @@ msgid "XS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "XS"
+>>>>>>> upstream/18.0
 =======
 msgstr "XS"
 >>>>>>> upstream/18.0

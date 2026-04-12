@@ -291,8 +291,13 @@ export class ComboConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (product.isConfigurable() && product.product_template_variant_value_ids.length === 0) {
             const payload = await this.pos.openConfigurator(product);
+=======
+        if (product.needToConfigure()) {
+            const payload = await this.pos.openConfigurator(product, { hideAlwaysVariants: true });
+>>>>>>> upstream/18.0
 =======
         if (product.needToConfigure()) {
             const payload = await this.pos.openConfigurator(product, { hideAlwaysVariants: true });
@@ -1270,7 +1275,10 @@ export class ComboConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1554,6 +1562,9 @@ export class ComboConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

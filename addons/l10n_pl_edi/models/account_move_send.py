@@ -105,6 +105,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'l10n_pl_edi_session_id': move.company_id.l10n_pl_edi_session_id,
 =======
                         'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
@@ -181,6 +182,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         'l10n_pl_edi_session_id': move.company_id.sudo().l10n_pl_edi_session_id,
                         'l10n_pl_edi_header': False,
                         'l10n_pl_edi_attachment_id': self.env['ir.attachment'].sudo().create({
@@ -216,6 +219,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -279,6 +285,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def _link_invoice_documents(self, invoices_data):
         # EXTENDS 'account'
@@ -305,6 +312,8 @@ class AccountMoveSend(models.AbstractModel):
             'l10n_pl_edi_attachment_id',
             'l10n_pl_edi_attachment_file',
         ])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

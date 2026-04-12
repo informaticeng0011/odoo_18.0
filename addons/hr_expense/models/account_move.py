@@ -153,7 +153,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         "name": "",
+=======
+                        "name": move.payment_reference or "",
+>>>>>>> upstream/18.0
 =======
                         "name": move.payment_reference or "",
 >>>>>>> upstream/18.0
@@ -513,7 +517,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if product_line.expense_id:
+=======
+        if product_line.expense_id.payment_mode == 'own_account':
+>>>>>>> upstream/18.0
 =======
         if product_line.expense_id.payment_mode == 'own_account':
 >>>>>>> upstream/18.0
@@ -1059,7 +1067,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.write({'expense_sheet_id': False, 'ref': False})
+=======
+        with_expense = self.filtered('expense_sheet_id')
+        # Only clear reference for moves with expense sheets.
+        with_expense.write({'expense_sheet_id': False, 'ref': False})
+>>>>>>> upstream/18.0
 =======
         with_expense = self.filtered('expense_sheet_id')
         # Only clear reference for moves with expense sheets.

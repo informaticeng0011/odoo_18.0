@@ -236,6 +236,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_company_root_delegated_field_names(self):
         return super()._get_company_root_delegated_field_names() + [
             'l10n_sa_api_mode',
@@ -666,13 +667,19 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def write(self, vals):
         for company in self:
             if 'l10n_sa_api_mode' in vals:
                 if company.l10n_sa_api_mode == 'prod' and vals['l10n_sa_api_mode'] != 'prod':
                     raise UserError(_("You cannot change the ZATCA Submission Mode once it has been set to Production"))
 <<<<<<< HEAD
+<<<<<<< HEAD
                 journals = self.env['account.journal'].search(self.env['account.journal']._check_company_domain(company))
+=======
+                journals = self.env['account.journal'].search([('company_id', '=', company.id)])
+>>>>>>> upstream/18.0
 =======
                 journals = self.env['account.journal'].search([('company_id', '=', company.id)])
 >>>>>>> upstream/18.0
