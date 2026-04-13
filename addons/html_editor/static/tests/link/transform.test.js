@@ -12,6 +12,7 @@ import { cleanLinkArtifacts } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { getContent, setSelection } from "../_helpers/selection";
 import { insertText, undo } from "../_helpers/user_actions";
 
@@ -1932,6 +1933,10 @@ import { insertSpace, insertText, undo } from "../_helpers/user_actions";
 import { getContent } from "../_helpers/selection";
 import { insertSpace, insertText, undo } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
+=======
+import { getContent } from "../_helpers/selection";
+import { insertSpace, insertText, undo } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 
 /**
  * Automatic link creation when pressing Space, Enter or Shift+Enter after an url
@@ -2050,7 +2055,11 @@ import { insertSpace, insertText, undo } from "../_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should transform url after space", async () => {
+=======
+test("should transform url after space (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should transform url after space (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2515,6 +2524,11 @@ test("should transform url after space (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url after space (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url after space (2)", async () => {
@@ -3101,7 +3115,11 @@ test("should transform url after space (2)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should transform url followed by punctuation characters after space", async () => {
+=======
+test("should transform url followed by punctuation characters after space (1)", async () => {
+>>>>>>> upstream/18.0
 =======
 test("should transform url followed by punctuation characters after space (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3565,6 +3583,11 @@ test("should transform url followed by punctuation characters after space (1)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (2)", async () => {
@@ -4140,6 +4163,11 @@ test("should transform url followed by punctuation characters after space (2)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (3)", async () => {
@@ -4715,6 +4743,11 @@ test("should transform url followed by punctuation characters after space (3)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (4)", async () => {
@@ -5290,6 +5323,11 @@ test("should transform url followed by punctuation characters after space (4)", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should transform url followed by punctuation characters after space (5)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should transform url followed by punctuation characters after space (5)", async () => {
@@ -5792,6 +5830,7 @@ test("should transform url after shift+enter", async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("should not transform an email url after space", async () => {
     await testEditor({
         contentBefore: "<p>user@domain.com[]</p>",
@@ -5828,12 +5867,17 @@ test("should not transform an email url after space", async () => {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 test("should transform an email to url after space", async () => {
     await testEditor({
         contentBefore: "<p>user@domain.com[]</p>",
         stepFunction: (editor) => insertSpace(editor),
         contentAfter: '<p><a href="mailto:user@domain.com">user@domain.com</a>&nbsp;[]</p>',
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5860,7 +5904,12 @@ test("transform text url into link and undo it", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText(editor, "www.abc.jpg ");
+=======
+    await insertText(editor, "www.abc.jpg");
+    await insertSpace(editor);
+>>>>>>> upstream/18.0
 =======
     await insertText(editor, "www.abc.jpg");
     await insertSpace(editor);
@@ -5911,9 +5960,13 @@ test("transform text url into link and undo it", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(cleanLinkArtifacts(getContent(el))).toBe(
         '<p><a href="http://www.abc.jpg">www.abc.jpg</a>[]</p>'
     );
+=======
+    expect(cleanLinkArtifacts(getContent(el))).toBe("<p>www.abc.jpg&nbsp;[]</p>");
+>>>>>>> upstream/18.0
 =======
     expect(cleanLinkArtifacts(getContent(el))).toBe("<p>www.abc.jpg&nbsp;[]</p>");
 >>>>>>> upstream/18.0

@@ -434,6 +434,7 @@ test("Load 100 recipients at once", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Load recipient without email", async () => {
     const pyEnv = await startServer();
     const [partnerId_1, partnerId_2] = pyEnv["res.partner"].create([
@@ -441,6 +442,8 @@ test("Load recipient without email", async () => {
         { name: "Mario" },
     ]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1086,6 +1089,9 @@ test("Load recipient without email and/or name", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1737,7 +1743,10 @@ test("Load recipient without email and/or name", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2380,6 +2389,9 @@ test("Load recipient without email and/or name", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3025,6 +3037,12 @@ test("Load recipient without email and/or name", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await contains(".o-mail-RecipientList li", {
+        text: "[Luigi, Invoice Address] (no email address)",
+    });
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-RecipientList li", {
         text: "[Luigi, Invoice Address] (no email address)",

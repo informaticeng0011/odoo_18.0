@@ -77,7 +77,11 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     :param endpoint: ``upload`` (for sending) | ``stareMesaj`` (for fetching status) | ``descarcare`` (for downloading answer)
+=======
+    :param endpoint: ``upload`` (for sending) | ``stareMesaj`` (for fetching status) | ``descarcare`` (for downloading answer)  | ``transformare`` (to get the official PDF from efactura)
+>>>>>>> upstream/18.0
 =======
     :param endpoint: ``upload`` (for sending) | ``stareMesaj`` (for fetching status) | ``descarcare`` (for downloading answer)  | ``transformare`` (to get the official PDF from efactura)
 >>>>>>> upstream/18.0
@@ -264,6 +268,7 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
     :return: Dictionary of {'error': <str>} or {'content': <response.content>} from E-Factura
     """
     send_mode = 'test' if company.l10n_ro_edi_test_env else 'prod'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -982,6 +987,8 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     if endpoint == 'transformare':
         url = "https://webservicesp.anaf.ro/prod/FCTEL/rest/transformare/FACT1/DA"
         headers = {'Content-Type': 'text/plain'}
@@ -1054,6 +1061,9 @@ def make_efactura_request(session, company, endpoint, method, params, data=None)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1529,7 +1539,11 @@ class L10nRoEdiDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             endpoint='upload',
+=======
+            endpoint='upload' if self.env.context.get('is_b2b') else 'uploadb2c',  # TODO: change the context value into a method parameter in master
+>>>>>>> upstream/18.0
 =======
             endpoint='upload' if self.env.context.get('is_b2b') else 'uploadb2c',  # TODO: change the context value into a method parameter in master
 >>>>>>> upstream/18.0

@@ -338,6 +338,10 @@ export const busService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        let lastNotificationId = null;
+>>>>>>> upstream/18.0
 =======
         let lastNotificationId = null;
 >>>>>>> upstream/18.0
@@ -1579,7 +1583,12 @@ export const busService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     multiTab.setSharedValue("last_notification_id", notifications.at(-1).id);
+=======
+                    lastNotificationId = notifications.at(-1).id;
+                    multiTab.setSharedValue("last_notification_id", lastNotificationId);
+>>>>>>> upstream/18.0
 =======
                     lastNotificationId = notifications.at(-1).id;
                     multiTab.setSharedValue("last_notification_id", lastNotificationId);
@@ -3291,7 +3300,10 @@ export const busService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4196,6 +4208,9 @@ export const busService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

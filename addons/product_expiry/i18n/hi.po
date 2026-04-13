@@ -141,8 +141,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_expiry
 # 
+=======
+# * product_expiry
+#
+>>>>>>> upstream/18.0
 =======
 # * product_expiry
 #
@@ -943,6 +948,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ujjawal Pathak, 2025
 >>>>>>> upstream/18.0
@@ -1781,10 +1787,15 @@
 # Ujjawal Pathak, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Ujjawal Pathak, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2737,6 +2748,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-11 09:07+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-11 09:07+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "product_expiry/hi/>\n"
@@ -2745,6 +2760,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3224,6 +3240,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -3232,6 +3251,11 @@ msgid ""
 "product_expiry_alert\">Expiration Alert</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-danger\" invisible=\"not product_expiry_alert\">"
+"समाप्त होने का अलर्ट</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-danger\" invisible=\"not product_expiry_alert\">"
 "समाप्त होने का अलर्ट</span>"
@@ -3245,6 +3269,12 @@ msgid ""
 "expiration_date\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+"invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
+"expiration_date\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
@@ -3255,7 +3285,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
 msgid "<span> days after receipt</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> प्राप्ति के बाद दिन</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> प्राप्ति के बाद दिन</span>"
 >>>>>>> upstream/18.0
@@ -3264,7 +3298,11 @@ msgstr "<span> प्राप्ति के बाद दिन</span>"
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
 msgid "<span> days before expiration date</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> एक्सपायरी डेट से पहले दिन</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> एक्सपायरी डेट से पहले दिन</span>"
 >>>>>>> upstream/18.0
@@ -3275,7 +3313,11 @@ msgstr "<span> एक्सपायरी डेट से पहले दि�
 #: model:ir.model.fields,field_description:product_expiry.field_stock_lot__alert_date
 msgid "Alert Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अलर्ट की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "अलर्ट की तारीख"
 >>>>>>> upstream/18.0
@@ -3284,7 +3326,11 @@ msgstr "अलर्ट की तारीख"
 #: model:mail.activity.type,name:product_expiry.mail_activity_type_alert_date_reached
 msgid "Alert Date Reached"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अलर्ट की तारीख आ गई है"
+>>>>>>> upstream/18.0
 =======
 msgstr "अलर्ट की तारीख आ गई है"
 >>>>>>> upstream/18.0
@@ -3293,7 +3339,11 @@ msgstr "अलर्ट की तारीख आ गई है"
 #: model_terms:ir.ui.view,arch_db:product_expiry.report_lot_label_expiry
 msgid "B.b."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "B.b।"
+>>>>>>> upstream/18.0
 =======
 msgstr "B.b।"
 >>>>>>> upstream/18.0
@@ -3303,7 +3353,11 @@ msgstr "B.b।"
 #: model:ir.model.fields,field_description:product_expiry.field_product_template__use_time
 msgid "Best Before Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस्तेमाल करने की आखिरी तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस्तेमाल करने की आखिरी तारीख"
 >>>>>>> upstream/18.0
@@ -3312,7 +3366,11 @@ msgstr "इस्तेमाल करने की आखिरी तार�
 #: model:ir.model.fields,field_description:product_expiry.field_stock_lot__use_date
 msgid "Best before Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस्तेमाल करने की आखिरी तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस्तेमाल करने की आखिरी तारीख"
 >>>>>>> upstream/18.0
@@ -3546,7 +3604,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कॉन्फ़िगरेशन सेटिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "कॉन्फ़िगरेशन सेटिंग"
 >>>>>>> upstream/18.0
@@ -4235,7 +4297,11 @@ msgstr "पुष्टि करें"
 #: model:ir.model,name:product_expiry.model_expiry_picking_confirmation
 msgid "Confirm Expiry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायर होने की पुष्टि करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायर होने की पुष्टि करें"
 >>>>>>> upstream/18.0
@@ -4386,7 +4452,11 @@ msgid "Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कंफर्मेशन"
+>>>>>>> upstream/18.0
 =======
 msgstr "कंफर्मेशन"
 >>>>>>> upstream/18.0
@@ -5045,7 +5115,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस तारीख को बनाया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस तारीख को बनाया गया"
 >>>>>>> upstream/18.0
@@ -5732,6 +5806,11 @@ msgid ""
 "\"Expiration Alerts\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\"एक्सपायरी अलर्ट\" फ़िल्टर का उपयोग करके एक्सपायर हो चुके लॉट्स और सीरियल नंबर "
+"निर्धारित करने की तारीख।"
+>>>>>>> upstream/18.0
 =======
 "\"एक्सपायरी अलर्ट\" फ़िल्टर का उपयोग करके एक्सपायर हो चुके लॉट्स और सीरियल नंबर "
 "निर्धारित करने की तारीख।"
@@ -5967,7 +6046,11 @@ msgid "Dates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "तारीख"
 >>>>>>> upstream/18.0
@@ -6881,7 +6964,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खारिज करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "खारिज करें"
 >>>>>>> upstream/18.0
@@ -7565,7 +7652,11 @@ msgstr "खारिज करें"
 #: model:ir.model.fields,field_description:product_expiry.field_res_config_settings__group_expiry_date_on_delivery_slip
 msgid "Display Expiration Dates on Delivery Slips"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी स्लिप पर एक्सपायरी डेट दिखाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी स्लिप पर एक्सपायरी डेट दिखाएं"
 >>>>>>> upstream/18.0
@@ -7805,7 +7896,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिस्प्ले नाम"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिस्प्ले नाम"
 >>>>>>> upstream/18.0
@@ -8507,7 +8602,11 @@ msgstr "डिस्प्ले नाम"
 #: model_terms:ir.ui.view,arch_db:product_expiry.report_lot_label_expiry
 msgid "Exp."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायरी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायरी"
 >>>>>>> upstream/18.0
@@ -8517,7 +8616,11 @@ msgstr "एक्सपायरी"
 #: model_terms:ir.ui.view,arch_db:product_expiry.search_product_lot_filter_inherit_product_expiry
 msgid "Expiration Alerts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायरी अलर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायरी अलर्ट"
 >>>>>>> upstream/18.0
@@ -8672,7 +8775,11 @@ msgid "Expiration Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खत्म होने की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "खत्म होने की तारीख"
 >>>>>>> upstream/18.0
@@ -9101,7 +9208,11 @@ msgstr "खत्म होने की तारीख"
 #: model_terms:ir.ui.view,arch_db:product_expiry.res_config_settings_view_form_stock
 msgid "Expiration dates will appear on the delivery slip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायरी डेट डिलीवरी स्लिप पर दिखाई देगी"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायरी डेट डिलीवरी स्लिप पर दिखाई देगी"
 >>>>>>> upstream/18.0
@@ -9110,7 +9221,11 @@ msgstr "एक्सपायरी डेट डिलीवरी स्लि
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid "Expiration:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायरी:"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायरी:"
 >>>>>>> upstream/18.0
@@ -9119,7 +9234,11 @@ msgstr "एक्सपायरी:"
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Expired Lot(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायर हो चुका लॉट"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायर हो चुका लॉट"
 >>>>>>> upstream/18.0
@@ -9128,7 +9247,11 @@ msgstr "एक्सपायर हो चुका लॉट"
 #: model:ir.model.fields,field_description:product_expiry.field_stock_lot__product_expiry_reminded
 msgid "Expiry has been reminded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायरी का रिमाइंडर भेज दिया गया है"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायरी का रिमाइंडर भेज दिया गया है"
 >>>>>>> upstream/18.0
@@ -9137,7 +9260,11 @@ msgstr "एक्सपायरी का रिमाइंडर भेज �
 #: model:product.removal,name:product_expiry.removal_fefo
 msgid "First Expiry First Out (FEFO)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फर्स्ट एक्सपायरी फर्स्ट आउट (FEFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "फर्स्ट एक्सपायरी फर्स्ट आउट (FEFO)"
 >>>>>>> upstream/18.0
@@ -9377,7 +9504,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आईडी"
+>>>>>>> upstream/18.0
 =======
 msgstr "आईडी"
 >>>>>>> upstream/18.0
@@ -10079,7 +10210,11 @@ msgstr "आईडी"
 #: model:res.groups,name:product_expiry.group_expiry_date_on_delivery_slip
 msgid "Include expiration dates on delivery slip"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवरी स्लिप पर एक्सपायरी डेट शामिल करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवरी स्लिप पर एक्सपायरी डेट शामिल करें"
 >>>>>>> upstream/18.0
@@ -10310,7 +10445,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इन्होंने आखिरी बार अपडेट किया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इन्होंने आखिरी बार अपडेट किया"
 >>>>>>> upstream/18.0
@@ -11207,7 +11346,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आखिरी बार अपडेट हुआ"
+>>>>>>> upstream/18.0
 =======
 msgstr "आखिरी बार अपडेट हुआ"
 >>>>>>> upstream/18.0
@@ -12022,7 +12165,11 @@ msgid "Lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉट"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉट"
 >>>>>>> upstream/18.0
@@ -12472,7 +12619,11 @@ msgid "Lot/Serial"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉट/सीरियल"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉट/सीरियल"
 >>>>>>> upstream/18.0
@@ -12549,6 +12700,12 @@ msgid ""
 "not be consumed. It will be computed on the lot/serial number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"प्रॉडक्ट की प्राप्ति (वेंडर से मिलने या प्रॉडक्शन के बाद स्टॉक में आने) के बाद के दिनों की "
+"संख्या, जिसके बाद सामान खतरनाक हो सकता है और उसका सेवन नहीं किया जाना चाहिए. इसकी "
+"गणना लॉट/सीरियल नंबर के आधार पर की जाएगी।"
+>>>>>>> upstream/18.0
 =======
 "प्रॉडक्ट की प्राप्ति (वेंडर से मिलने या प्रॉडक्शन के बाद स्टॉक में आने) के बाद के दिनों की "
 "संख्या, जिसके बाद सामान खतरनाक हो सकता है और उसका सेवन नहीं किया जाना चाहिए. इसकी "
@@ -12564,6 +12721,11 @@ msgid ""
 "number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"एक्सपायरी डेट से पहले के दिनों की संख्या जब लॉट/सीरियल नंबर पर अलर्ट भेजा जाना चाहिए. "
+"इसकी गणना लॉट/सीरियल नंबर के आधार पर की जाएगी।"
+>>>>>>> upstream/18.0
 =======
 "एक्सपायरी डेट से पहले के दिनों की संख्या जब लॉट/सीरियल नंबर पर अलर्ट भेजा जाना चाहिए. "
 "इसकी गणना लॉट/सीरियल नंबर के आधार पर की जाएगी।"
@@ -12577,6 +12739,11 @@ msgid ""
 "removed from the stock. It will be computed on the lot/serial number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"समाप्त होने की तारीख से पहले के दिनों की संख्या जिसके बाद सामान को स्टॉक से हटा दिया "
+"जाना चाहिए. इसकी गणना लॉट/सीरियल नंबर पर की जाएगी।"
+>>>>>>> upstream/18.0
 =======
 "समाप्त होने की तारीख से पहले के दिनों की संख्या जिसके बाद सामान को स्टॉक से हटा दिया "
 "जाना चाहिए. इसकी गणना लॉट/सीरियल नंबर पर की जाएगी।"
@@ -12587,6 +12754,7 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
 msgid ""
 "Number of days before the Expiration Date after which the goods starts "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13082,18 +13250,27 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "deteriorating, without being dangerous yet. It will be computed on the lot/"
 "serial number."
 msgstr ""
 "खत्म होने की तारीख से पहले के दिनों की संख्या जब सामान खराब होना शुरू हो जाता है, "
 "हालांकि अभी तक खतरनाक नहीं होता है. इसकी गणना लॉट/सीरियल नंबर पर की जाएगी।"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__picking_ids
 msgid "Picking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पिकिंग"
+>>>>>>> upstream/18.0
 =======
 msgstr "पिकिंग"
 >>>>>>> upstream/18.0
@@ -13102,7 +13279,11 @@ msgstr "पिकिंग"
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Proceed except for expired one"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायर हो चुके आइटम को छोड़कर आगे बढ़ें"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायर हो चुके आइटम को छोड़कर आगे बढ़ें"
 >>>>>>> upstream/18.0
@@ -13132,7 +13313,11 @@ msgid "Procurement Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोक्युर्मन्ट ग्रुप"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोक्युर्मन्ट ग्रुप"
 >>>>>>> upstream/18.0
@@ -13210,7 +13395,11 @@ msgstr "उत्पाद"
 #: model:ir.model.fields,field_description:product_expiry.field_stock_move_line__is_expired
 msgid "Product Expiry Alert"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट एक्सपायरी अलर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट एक्सपायरी अलर्ट"
 >>>>>>> upstream/18.0
@@ -13240,7 +13429,11 @@ msgid "Product Moves (Stock Move Line)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रॉडक्ट मूव्स (स्टॉक मूव लाइन)"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रॉडक्ट मूव्स (स्टॉक मूव लाइन)"
 >>>>>>> upstream/18.0
@@ -13373,7 +13566,11 @@ msgid "Quants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "क्वांट"
+>>>>>>> upstream/18.0
 =======
 msgstr "क्वांट"
 >>>>>>> upstream/18.0
@@ -13553,7 +13750,11 @@ msgstr "क्वांट"
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant__removal_date
 msgid "Removal Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हटाने की तारीख"
+>>>>>>> upstream/18.0
 =======
 msgstr "हटाने की तारीख"
 >>>>>>> upstream/18.0
@@ -13562,7 +13763,11 @@ msgstr "हटाने की तारीख"
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid "Removal:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "हटाना:"
+>>>>>>> upstream/18.0
 =======
 msgstr "हटाना:"
 >>>>>>> upstream/18.0
@@ -13571,7 +13776,11 @@ msgstr "हटाना:"
 #: model:ir.model.fields,field_description:product_expiry.field_expiry_picking_confirmation__show_lots
 msgid "Show Lots"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लॉट्स दिखाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "लॉट्स दिखाएं"
 >>>>>>> upstream/18.0
@@ -13586,7 +13795,11 @@ msgstr "चाल स्टॉक"
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__is_expired
 msgid "The Expiration Date has been reached."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायरी तारीख आ चुकी है।"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायरी तारीख आ चुकी है।"
 >>>>>>> upstream/18.0
@@ -13596,7 +13809,11 @@ msgstr "एक्सपायरी तारीख आ चुकी है।"
 #: code:addons/product_expiry/models/production_lot.py:0
 msgid "The alert date has been reached for this lot/serial number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस लॉट/सीरियल नंबर के लिए अलर्ट की तारीख आ गई है"
+>>>>>>> upstream/18.0
 =======
 msgstr "इस लॉट/सीरियल नंबर के लिए अलर्ट की तारीख आ गई है"
 >>>>>>> upstream/18.0
@@ -13610,6 +13827,11 @@ msgid ""
 "dangerous and must not be consumed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह वह तारीख है जिस पर इस सीरियल नंबर वाला सामान खतरनाक हो सकता है और उसका सेवन "
+"नहीं किया जाना चाहिए।"
+>>>>>>> upstream/18.0
 =======
 "यह वह तारीख है जिस पर इस सीरियल नंबर वाला सामान खतरनाक हो सकता है और उसका सेवन "
 "नहीं किया जाना चाहिए।"
@@ -13623,6 +13845,11 @@ msgid ""
 "removed from the stock. This date will be used in FEFO removal strategy."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह वह तारीख है जिस पर इस सीरियल नंबर वाले सामान को स्टॉक से हटा दिया जाना चाहिए. "
+"इस तारीख का उपयोग FEFO रणनीति में किया जाएगा।"
+>>>>>>> upstream/18.0
 =======
 "यह वह तारीख है जिस पर इस सीरियल नंबर वाले सामान को स्टॉक से हटा दिया जाना चाहिए. "
 "इस तारीख का उपयोग FEFO रणनीति में किया जाएगा।"
@@ -13635,6 +13862,11 @@ msgid ""
 "deteriorating, without being dangerous yet."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"यह वह तारीख है जिस पर इस सीरियल नंबर वाला सामान खराब होना शुरू हो जाता है, हालांकि "
+"यह अभी खतरनाक नहीं है।"
+>>>>>>> upstream/18.0
 =======
 "यह वह तारीख है जिस पर इस सीरियल नंबर वाला सामान खराब होना शुरू हो जाता है, हालांकि "
 "यह अभी खतरनाक नहीं है।"
@@ -13654,7 +13886,11 @@ msgstr "स्थानांतरण"
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant__use_expiration_date
 msgid "Use Expiration Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक्सपायरी की तारीख का इस्तेमाल करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "एक्सपायरी की तारीख का इस्तेमाल करें"
 >>>>>>> upstream/18.0
@@ -13667,6 +13903,7 @@ msgstr "एक्सपायरी की तारीख का इस्त�
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__use_expiration_date
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14163,12 +14400,17 @@ msgid ""
 "numbers"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "When this box is ticked, you have the possibility to specify dates to manage "
 "product expiration, on the product and on the corresponding lot/serial "
 "numbers"
 msgstr ""
 "जब यह बॉक्स टिक किया जाता है, तो आपके पास प्रॉडक्ट और संबंधित लॉट/सीरियल नंबर पर "
 "एक्सपायरी की तारीख को मैनेज करने की सुविधा होती है"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
@@ -14179,6 +14421,11 @@ msgid ""
 "Do you confirm you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"आप एक्सपायर हो चुके कुछ लॉट्स डिलीवर करने जा रहे हैं.\n"
+"क्या आप पुष्टि करते हैं कि आप आगे बढ़ना चाहते हैं?"
+>>>>>>> upstream/18.0
 =======
 "आप एक्सपायर हो चुके कुछ लॉट्स डिलीवर करने जा रहे हैं.\n"
 "क्या आप पुष्टि करते हैं कि आप आगे बढ़ना चाहते हैं?"
@@ -14188,6 +14435,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14683,6 +14931,8 @@ msgid ""
 "Do you confirm you want to proceed?"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is "
 "expired.\n"
 "Do you confirm you want to proceed?"
@@ -14690,13 +14940,20 @@ msgstr ""
 "आप प्रॉडक्ट %(product_name)s, %(lot_name)s डिलीवर करने जा रहे हैं जो एक्सपायर हो "
 "चुका है.\n"
 "क्या आप पुष्टि करते हैं कि आप आगे बढ़ना चाहते हैं?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^A0N,44,33^FDUse by:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^A0N,44,33^FD इस तारीख तक इस्तेमाल करें:"
+>>>>>>> upstream/18.0
 =======
 msgstr "^A0N,44,33^FD इस तारीख तक इस्तेमाल करें:"
 >>>>>>> upstream/18.0
@@ -14708,6 +14965,11 @@ msgid ""
 "^FD"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^BCN,100,Y,N,N\n"
+"^FD"
+>>>>>>> upstream/18.0
 =======
 "^BCN,100,Y,N,N\n"
 "^FD"
@@ -14717,7 +14979,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FO100,150"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,150"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,150"
 >>>>>>> upstream/18.0
@@ -14729,6 +14995,11 @@ msgid ""
 "^A0N,44,33^FDBest before:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,150\n"
+"^A0N,44,33^FD इस्तेमाल करने की आखिरी तारीख:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,150\n"
 "^A0N,44,33^FD इस्तेमाल करने की आखिरी तारीख:"
@@ -14741,6 +15012,11 @@ msgid ""
 "^A0N,44,33^FDUse by:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,150\n"
+"^A0N,44,33^FDइस तारीख तक इस्तेमाल करें:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,150\n"
 "^A0N,44,33^FDइस तारीख तक इस्तेमाल करें:"
@@ -14750,7 +15026,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FO100,200"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,200"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,200"
 >>>>>>> upstream/18.0
@@ -14762,6 +15042,11 @@ msgid ""
 "^A0N,44,33^FDUse by:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,200\n"
+"^A0N,44,33^FD इस तारीख तक इस्तेमाल करें:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,200\n"
 "^A0N,44,33^FD इस तारीख तक इस्तेमाल करें:"
@@ -14771,7 +15056,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FO100,200^BY3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,200^BY3"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,200^BY3"
 >>>>>>> upstream/18.0
@@ -14783,6 +15072,11 @@ msgid ""
 "^A0N,44,33^FD"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,50\n"
+"^A0N,44,33^FD"
+>>>>>>> upstream/18.0
 =======
 "^FO100,50\n"
 "^A0N,44,33^FD"
@@ -14792,7 +15086,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FS"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FS"
 >>>>>>> upstream/18.0
@@ -14805,6 +15103,12 @@ msgid ""
 "^A0N,44,33^FDLN/SN:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FS\n"
+"^FO100,100\n"
+"^A0N,44,33^FDLN/SN:"
+>>>>>>> upstream/18.0
 =======
 "^FS\n"
 "^FO100,100\n"
@@ -14820,11 +15124,17 @@ msgid ""
 "^FD"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "^FS\n"
 "^FO100,200^BY3\n"
 "^BCN,100,Y,N,N\n"
 "^FD"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
@@ -14834,6 +15144,11 @@ msgid ""
 "^FO100,250^BY3"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FS\n"
+"^FO100,250^BY3"
+>>>>>>> upstream/18.0
 =======
 "^FS\n"
 "^FO100,250^BY3"
@@ -14843,7 +15158,11 @@ msgstr ""
 #: model:product.removal,method:product_expiry.removal_fefo
 msgid "fefo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "fefo"
+>>>>>>> upstream/18.0
 =======
 msgstr "fefo"
 >>>>>>> upstream/18.0

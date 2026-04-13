@@ -223,6 +223,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'property_account_receivable_id': 'chart131',
             'property_account_payable_id': 'chart331',
             'property_account_expense_categ_id': 'chart1561',
@@ -1011,6 +1012,8 @@ class AccountChartTemplate(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'property_account_receivable_id': 'chart1311',
             'property_account_payable_id': 'chart3311',
             'property_account_expense_categ_id': 'chart632',
@@ -1109,6 +1112,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1308,6 +1314,7 @@ class AccountChartTemplate(models.AbstractModel):
                 'bank_account_code_prefix': '112',
                 'cash_account_code_prefix': '111',
                 'transfer_account_code_prefix': '113',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2161,6 +2168,9 @@ class AccountChartTemplate(models.AbstractModel):
 =======
                 'account_default_pos_receivable_account_id': 'chart1311',
 >>>>>>> upstream/18.0
+=======
+                'account_default_pos_receivable_account_id': 'chart1311',
+>>>>>>> upstream/18.0
                 'income_currency_exchange_account_id': 'chart515',
                 'expense_currency_exchange_account_id': 'chart635',
                 'account_journal_early_pay_discount_loss_account_id': 'chart635',
@@ -2168,6 +2178,7 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_sale_tax_id': 'tax_sale_vat10',
                 'account_purchase_tax_id': 'tax_purchase_vat10',
                 'transfer_account_id': 'chart1131',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3260,6 +3271,11 @@ class AccountChartTemplate(models.AbstractModel):
                 'deferred_revenue_account_id': 'chart33871',
                 'account_production_wip_account_id': 'chart1541',
 >>>>>>> upstream/18.0
+=======
+                'deferred_expense_account_id': 'chart2421',
+                'deferred_revenue_account_id': 'chart33871',
+                'account_production_wip_account_id': 'chart1541',
+>>>>>>> upstream/18.0
                 'default_cash_difference_income_account_id': 'chart711',
                 'default_cash_difference_expense_account_id': 'chart811',
                 'account_journal_suspense_account_id': 'chart1121',
@@ -3365,6 +3381,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

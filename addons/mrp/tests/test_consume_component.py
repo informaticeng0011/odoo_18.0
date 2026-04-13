@@ -28,6 +28,7 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import common, tagged, Form
 =======
 from odoo.tests import common, Command, tagged, Form
@@ -61,6 +62,9 @@ from odoo.tests import common, Command, tagged, Form
 >>>>>>> upstream/18.0
 =======
 from odoo.tests import common, Command, tagged, Form
+>>>>>>> upstream/18.0
+=======
+from odoo.tests import common, tagged, Form
 >>>>>>> upstream/18.0
 =======
 from odoo.tests import common, tagged, Form
@@ -571,6 +575,7 @@ class TestConsumeComponent(TestConsumeComponentCommon):
             {'should_consume_qty': 1.0, 'quantity': 1.0, 'picked': True},
             {'should_consume_qty': 1.0, 'quantity': 1.0, 'picked': True},
         ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1431,6 +1436,8 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_no_component_consumption_on_lot_removal(self):
         """
@@ -1714,6 +1721,9 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

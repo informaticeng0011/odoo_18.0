@@ -182,6 +182,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { tourState } from "./tour_state";
 import { config as transitionConfig } from "@web/core/transition";
 import { TourStepAutomatic } from "./tour_step_automatic";
@@ -918,6 +919,8 @@ import * as hootDom from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import * as hootDom from "@odoo/hoot-dom";
 import { enableEventLogs, setupEventActions } from "@web/../lib/hoot-dom/helpers/events";
 import { browser } from "@web/core/browser/browser";
@@ -1108,6 +1111,9 @@ import { TourStepAutomatic } from "./tour_step_automatic";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1708,6 +1714,9 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2461,6 +2470,10 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        enableEventLogs(this.debugMode);
+>>>>>>> upstream/18.0
 =======
         enableEventLogs(this.debugMode);
 >>>>>>> upstream/18.0
@@ -3577,7 +3590,11 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             await hoot.delay(stepDelay);
+=======
+                            await hootDom.delay(stepDelay);
+>>>>>>> upstream/18.0
 =======
                             await hootDom.delay(stepDelay);
 >>>>>>> upstream/18.0
@@ -4643,8 +4660,11 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const result = await step.doAction();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5291,7 +5311,11 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     The key { expectUnloadPage } is defined but page has not been unloaded within 20000 ms. 
+=======
+                                    The key { expectUnloadPage } is defined but page has not been unloaded within 20000 ms.
+>>>>>>> upstream/18.0
 =======
                                     The key { expectUnloadPage } is defined but page has not been unloaded within 20000 ms.
 >>>>>>> upstream/18.0
@@ -6079,6 +6103,9 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6781,7 +6808,13 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         return result;
+=======
+                        if (this.allowUnload) {
+                            return "StopTheMacro!";
+                        }
+>>>>>>> upstream/18.0
 =======
                         if (this.allowUnload) {
                             return "StopTheMacro!";
@@ -8211,7 +8244,11 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             delete window.hoot;
+=======
+            delete window[hootNameSpace];
+>>>>>>> upstream/18.0
 =======
             delete window[hootNameSpace];
 >>>>>>> upstream/18.0
@@ -9357,7 +9394,12 @@ export class TourAutomatic {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.hoot = hoot;
+=======
+        const hootNameSpace = hootDom.exposeHelpers(hootDom);
+        console.debug(`Hoot DOM helpers available from \`window.${hootNameSpace}\``);
+>>>>>>> upstream/18.0
 =======
         const hootNameSpace = hootDom.exposeHelpers(hootDom);
         console.debug(`Hoot DOM helpers available from \`window.${hootNameSpace}\``);

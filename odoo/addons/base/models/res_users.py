@@ -224,7 +224,10 @@ class Groups(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -286,6 +289,9 @@ class Groups(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -581,7 +587,11 @@ class Groups(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             group_name = values.pop().strip()
+=======
+            group_name = values.pop().strip() if values else ''
+>>>>>>> upstream/18.0
 =======
             group_name = values.pop().strip() if values else ''
 >>>>>>> upstream/18.0
@@ -1633,7 +1643,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'share', 'device_ids',
+=======
+            'share', 'device_ids', 'display_name',
+>>>>>>> upstream/18.0
 =======
             'share', 'device_ids', 'display_name',
 >>>>>>> upstream/18.0
@@ -2623,6 +2637,7 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _fetch_query(self, query, fields):
         records = super()._fetch_query(query, fields)
         if not set(USER_PRIVATE_FIELDS).isdisjoint(field.name for field in fields):
@@ -2630,6 +2645,8 @@ class Users(models.Model):
                 return records
             for fname in USER_PRIVATE_FIELDS:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2712,6 +2729,9 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2893,7 +2913,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if fname in USER_PRIVATE_FIELDS:
+=======
+        if fname in self.USER_PRIVATE_FIELDS:
+>>>>>>> upstream/18.0
 =======
         if fname in self.USER_PRIVATE_FIELDS:
 >>>>>>> upstream/18.0
@@ -3000,7 +3024,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if fname in USER_PRIVATE_FIELDS:
+=======
+        if fname in self.USER_PRIVATE_FIELDS:
+>>>>>>> upstream/18.0
 =======
         if fname in self.USER_PRIVATE_FIELDS:
 >>>>>>> upstream/18.0
@@ -3108,7 +3136,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if domain_fields.intersection(USER_PRIVATE_FIELDS):
+=======
+            if domain_fields.intersection(self.USER_PRIVATE_FIELDS):
+>>>>>>> upstream/18.0
 =======
             if domain_fields.intersection(self.USER_PRIVATE_FIELDS):
 >>>>>>> upstream/18.0
@@ -3447,6 +3479,10 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        public_user = self.env.ref('base.public_user', False)
+>>>>>>> upstream/18.0
 =======
         public_user = self.env.ref('base.public_user', False)
 >>>>>>> upstream/18.0
@@ -4091,6 +4127,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if public_user and public_user in self:
+            raise UserError(_("Deleting the public user is not allowed. Deleting this profile will compromise critical functionalities."))
+>>>>>>> upstream/18.0
 =======
         if public_user and public_user in self:
             raise UserError(_("Deleting the public user is not allowed. Deleting this profile will compromise critical functionalities."))
@@ -4839,7 +4880,11 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             *USER_PRIVATE_FIELDS,
+=======
+            *self.USER_PRIVATE_FIELDS,
+>>>>>>> upstream/18.0
 =======
             *self.USER_PRIVATE_FIELDS,
 >>>>>>> upstream/18.0
@@ -5883,7 +5928,11 @@ class UsersImplied(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = super(UsersImplied, self).write(values)
+=======
+        res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
+>>>>>>> upstream/18.0
 =======
         res = super(UsersImplied, self.with_context(no_add_implied_groups=True)).write(values)
 >>>>>>> upstream/18.0
@@ -6933,6 +6982,12 @@ class UsersImplied(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('no_add_implied_groups'):
+            # in a recursive write, defer adding implied groups to the base call
+            return res
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('no_add_implied_groups'):
             # in a recursive write, defer adding implied groups to the base call
@@ -8663,7 +8718,11 @@ class GroupsView(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else None
+=======
+            user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
+>>>>>>> upstream/18.0
 =======
             user_type_invisible = f'{user_type_field_name} != {group_employee.id}' if user_type_field_name else ''
 >>>>>>> upstream/18.0
@@ -10068,7 +10127,10 @@ class UsersView(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10818,6 +10880,9 @@ class UsersView(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11681,7 +11746,10 @@ class APIKeysUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12324,6 +12392,9 @@ class APIKeysUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
