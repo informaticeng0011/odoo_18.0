@@ -180,8 +180,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_picking_batch
 # 
+=======
+# * stock_picking_batch
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_picking_batch
 #
@@ -1121,6 +1126,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
@@ -1227,6 +1233,11 @@
 # Anastasiia Koroleva, 2025
 >>>>>>> upstream/18.0
 # 
+=======
+# Anastasiia Koroleva, 2025
+#
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2025.
+>>>>>>> upstream/18.0
 =======
 # Anastasiia Koroleva, 2025
 #
@@ -2231,6 +2242,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-03-19 20:37+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3098,6 +3110,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:39+0000\n"
 "PO-Revision-Date: 2025-10-22 09:40+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:39+0000\n"
+"PO-Revision-Date: 2025-10-22 09:40+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "stock_picking_batch/ru/>\n"
@@ -3106,6 +3122,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3952,6 +3969,11 @@ msgstr "2023-08-20"
 "(n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
@@ -4131,7 +4153,11 @@ msgid "<span class=\"col-6\">Waves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Волны</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Волны</span>"
 >>>>>>> upstream/18.0
@@ -4837,6 +4863,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
 "=\"white-space: nowrap;\">Волновая группировка</span>"
@@ -5128,6 +5155,10 @@ msgstr ""
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
 "=\"white-space: nowrap;\">Волновая группировка</span>"
+>>>>>>> upstream/18.0
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
+"style=\"white-space: nowrap;\">Волновая группировка</span>"
 >>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
@@ -5709,6 +5740,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\""
 ">Группировка партиями</span>"
@@ -6000,6 +6032,10 @@ msgstr ""
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\""
 ">Группировка партиями</span>"
+>>>>>>> upstream/18.0
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not "
+"auto_batch\">Группировка партиями</span>"
 >>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not "
@@ -6540,11 +6576,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
 "Перевод не будет автоматически добавлен к партиям, количество строк в которых превысит это значение, если перевод будет добавлен к ним.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6848,6 +6887,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7152,11 +7194,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
 "Перевод не будет автоматически добавляться к партиям, количество переводов в которых превысит это значение.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7460,6 +7505,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7854,7 +7902,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Оформление исключения активности"
+=======
+msgstr "Оформление задачи-исключения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Оформление задачи-исключения"
 >>>>>>> upstream/18.0
@@ -8688,7 +8740,11 @@ msgid "Batch & Wave Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перемещение партиями и волновое перемещение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перемещение партиями и волновое перемещение"
 >>>>>>> upstream/18.0
@@ -9392,7 +9448,11 @@ msgid "Batch Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Параметры партии"
+>>>>>>> upstream/18.0
 =======
 msgstr "Параметры партии"
 >>>>>>> upstream/18.0
@@ -10134,7 +10194,11 @@ msgid "Batch transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перемещение партиями"
+>>>>>>> upstream/18.0
 =======
 msgstr "Перемещение партиями"
 >>>>>>> upstream/18.0
@@ -10859,7 +10923,11 @@ msgid "Categories to consider when grouping waves."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Категории, учитываемые при волновой группировке."
+>>>>>>> upstream/18.0
 =======
 msgstr "Категории, учитываемые при волновой группировке."
 >>>>>>> upstream/18.0
@@ -11574,7 +11642,11 @@ msgid "Cluster transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кластерные перемещения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Кластерные перемещения"
 >>>>>>> upstream/18.0
@@ -12342,7 +12414,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Создано:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Создано:"
 >>>>>>> upstream/18.0
@@ -13205,7 +13281,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Создано"
+=======
+msgstr "Дата создания:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата создания:"
 >>>>>>> upstream/18.0
@@ -14093,7 +14173,11 @@ msgid "Group by Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Группировать по локации назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Группировать по локации назначения"
 >>>>>>> upstream/18.0
@@ -14798,7 +14882,11 @@ msgid "Group by Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Группировать по исходной локации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Группировать по исходной локации"
 >>>>>>> upstream/18.0
@@ -15530,7 +15618,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Значок, обозначающий исключение Дела."
+=======
+msgstr "Иконка, указывающая на задачу-исключение."
+>>>>>>> upstream/18.0
 =======
 msgstr "Иконка, указывающая на задачу-исключение."
 >>>>>>> upstream/18.0
@@ -16339,7 +16431,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Последнее обновление:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Последнее обновление:"
 >>>>>>> upstream/18.0
@@ -17206,7 +17302,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Последнее обновление"
+=======
+msgstr "Дата последнего обновления:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата последнего обновления:"
 >>>>>>> upstream/18.0
@@ -18040,6 +18140,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Запускайте задания на комплектацию по рядам или зонам и выполняйте "
+"консолидацию в зоне упаковки. Идеально для больших складов."
+>>>>>>> upstream/18.0
 =======
 "Запускайте задания на комплектацию по рядам или зонам и выполняйте "
 "консолидацию в зоне упаковки. Идеально для больших складов."
@@ -18942,7 +19047,11 @@ msgid "Locations to consider when grouping waves."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Локации, учитываемые при волновой группировке."
+>>>>>>> upstream/18.0
 =======
 msgstr "Локации, учитываемые при волновой группировке."
 >>>>>>> upstream/18.0
@@ -19646,7 +19755,11 @@ msgid "Maximum lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимальное количество строк"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимальное количество строк"
 >>>>>>> upstream/18.0
@@ -20351,7 +20464,11 @@ msgid "Maximum transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Максимальное количество перемещений"
+>>>>>>> upstream/18.0
 =======
 msgstr "Максимальное количество перемещений"
 >>>>>>> upstream/18.0
@@ -20912,7 +21029,10 @@ msgstr "Мои переводы"
 #. module: stock_picking_batch
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 #. odoo-python
@@ -20922,6 +21042,9 @@ msgstr ""
 
 #. module: stock_picking_batch
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21161,6 +21284,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Скомплектовать несколько заказов за один проход и подготовить заказы во "
+"время комплектации. Это сокращает время упаковки и подходит для мелких "
+"товаров."
+>>>>>>> upstream/18.0
 =======
 "Скомплектовать несколько заказов за один проход и подготовить заказы во "
 "время комплектации. Это сокращает время упаковки и подходит для мелких "
@@ -22150,8 +22279,12 @@ msgstr "Тип комплектования"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
@@ -22632,7 +22765,11 @@ msgid "Prepare Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подготовить партию"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подготовить партию"
 >>>>>>> upstream/18.0
@@ -23333,7 +23470,11 @@ msgid "Prepare Wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Подготовить волну"
+>>>>>>> upstream/18.0
 =======
 msgstr "Подготовить волну"
 >>>>>>> upstream/18.0
@@ -24019,6 +24160,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
 msgstr ""
@@ -24596,6 +24738,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 msgstr ""
 "Объедините несколько заказов в одно задание на отбор и выполните "
@@ -24699,6 +24843,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25032,6 +25179,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -25041,6 +25189,8 @@ msgstr ""
 "              - Если дата не изменена вручную и переводы добавляются/удаляются/обновляются, то это будет их самая ранняя запланированная дата\n"
 "                но эта запланированная дата не будет установлена для всех переводов в партии."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25352,6 +25502,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25735,7 +25888,11 @@ msgid "Select locations you want to group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите локации для группировки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите локации для группировки"
 >>>>>>> upstream/18.0
@@ -26440,7 +26597,11 @@ msgid "Select product categories you want to group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Выберите категории товаров для группировки"
+>>>>>>> upstream/18.0
 =======
 msgstr "Выберите категории товаров для группировки"
 >>>>>>> upstream/18.0
@@ -27180,6 +27341,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Разделить перемещения по заданным локациям, затем сгруппировать перемещения "
+"с одинаковой локацией."
+>>>>>>> upstream/18.0
 =======
 "Разделить перемещения по заданным локациям, затем сгруппировать перемещения "
 "с одинаковой локацией."
@@ -27984,6 +28150,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
 msgstr ""
@@ -28561,6 +28728,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Split transfers by product category, then group transfers that have the same "
 "product category."
 msgstr ""
@@ -28665,6 +28834,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29045,6 +29217,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Разделить перемещения по товарам, затем сгруппировать перемещения с "
+"одинаковыми товарами."
+>>>>>>> upstream/18.0
 =======
 "Разделить перемещения по товарам, затем сгруппировать перемещения с "
 "одинаковыми товарами."
@@ -29911,12 +30088,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
 msgstr ""
 "Следующие передачи не могут быть добавлены к пакетной передаче %(batch)s. Проверьте их состояния и типы операций.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30221,6 +30401,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30498,6 +30681,7 @@ msgstr "Тип операции"
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31219,6 +31403,9 @@ msgstr "Тип задачи-исключения в записи."
 =======
 msgstr "Тип задачи-исключения в записи."
 >>>>>>> upstream/18.0
+=======
+msgstr "Тип задачи-исключения в записи."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -31399,7 +31586,11 @@ msgid "Unassigned responsible from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ответственный %s снят с назначения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ответственный %s снят с назначения"
 >>>>>>> upstream/18.0
@@ -32118,7 +32309,11 @@ msgid "Wave Locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Локации волны"
+>>>>>>> upstream/18.0
 =======
 msgstr "Локации волны"
 >>>>>>> upstream/18.0
@@ -32815,7 +33010,11 @@ msgid "Wave Product Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Категории товаров волны"
+>>>>>>> upstream/18.0
 =======
 msgstr "Категории товаров волны"
 >>>>>>> upstream/18.0
@@ -33529,7 +33728,11 @@ msgid "Wave transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Волновые перемещения"
+>>>>>>> upstream/18.0
 =======
 msgstr "Волновые перемещения"
 >>>>>>> upstream/18.0
@@ -34278,7 +34481,11 @@ msgid "shipping_volume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_volume"
+>>>>>>> upstream/18.0
 =======
 msgstr "shipping_volume"
 >>>>>>> upstream/18.0
@@ -34995,6 +35202,7 @@ msgid "shipping_weight"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "shipping_weight"
@@ -35527,11 +35735,16 @@ msgstr "shipping_weight"
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "shipping_weight"
 
 #~ msgid "2023-08-20"
 #~ msgstr "2023-08-20"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -231,7 +231,11 @@ from odoo.tools import file_open, mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account_reports.tests.common import TestAccountReportsCommon
+=======
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 >>>>>>> upstream/18.0
@@ -1126,7 +1130,11 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @TestAccountReportsCommon.setup_country('my')
+=======
+    @AccountTestInvoicingCommon.setup_country('my')
+>>>>>>> upstream/18.0
 =======
     @AccountTestInvoicingCommon.setup_country('my')
 >>>>>>> upstream/18.0
@@ -2000,7 +2008,10 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2108,6 +2119,7 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2162,6 +2174,24 @@ class TestMyInvoisPoS(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_individual_invoice_prepayment_unlink(self):
+        """Ensure that individual POS e-invoices have a PaidAmount of 0.00 and the correct PayableAmount."""
+        with freeze_time("2025-01-01"):
+            with self.with_pos_session(), patch(CONTACT_PROXY_METHOD, new=self._mock_successful_submission):
+                order = self._create_order({'pos_order_lines_ui_args': [(self.product_two, 1.0)], 'customer': self.invoicing_customer, 'is_invoiced': True})
+
+            invoice = order.account_move
+            xml_tree = etree.fromstring(invoice.l10n_my_edi_file_id.raw)
+            tax_inclusive_node = xml_tree.xpath("cac:LegalMonetaryTotal/cbc:TaxInclusiveAmount", namespaces=NS_MAP)
+            self.assertTrue(tax_inclusive_node, "TaxInclusiveAmount node is missing from the XML.")
+            expected_total = tax_inclusive_node[0].text
+
+            self._assert_node_values(xml_tree, "cac:PrepaidPayment/cbc:PaidAmount", '0.00')
+            self._assert_node_values(xml_tree, "cac:LegalMonetaryTotal/cbc:PayableAmount", expected_total)
+
+    @mute_logger('odoo.addons.point_of_sale.models.pos_order')
 >>>>>>> upstream/18.0
     def test_send_consolidated_invoice(self):
         with freeze_time("2025-01-01"):
@@ -2407,7 +2437,10 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2676,6 +2709,9 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

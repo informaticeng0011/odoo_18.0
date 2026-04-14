@@ -190,7 +190,11 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_round, float_repr, date_utils, SQL
+=======
+from odoo.tools import float_round, float_repr, float_compare, date_utils, SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_round, float_repr, float_compare, date_utils, SQL
 >>>>>>> upstream/18.0
@@ -912,7 +916,10 @@ REVERSED_COUNTRY_CODE = {v: k for k, v in COUNTRY_CODE_MAP.items()}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1353,6 +1360,7 @@ SPANISH_CREDIT_REASON_TYPE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1581,6 +1589,9 @@ SPANISH_CREDIT_REASON_TYPE = {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
 >>>>>>> upstream/18.0
 =======
 
@@ -1939,7 +1950,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2589,6 +2603,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3022,6 +3039,7 @@ class AccountMove(models.Model):
             and not self.l10n_es_edi_facturae_xml_id \
             and not self.l10n_es_is_simplified \
             and self.is_invoice(include_receipts=True) \
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3881,6 +3899,9 @@ class AccountMove(models.Model):
 =======
             and self.country_code == 'ES' \
 >>>>>>> upstream/18.0
+=======
+            and self.country_code == 'ES' \
+>>>>>>> upstream/18.0
             and self.company_id.sudo().l10n_es_edi_facturae_certificate_ids  # We only enable Facturae if a certificate is valid or has been valid (which will raise an error)
 
     def _l10n_es_edi_facturae_get_filename(self):
@@ -4081,8 +4102,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             reason_description = [label for code, label in self._fields['l10n_es_edi_facturae_reason_code'].selection
                                   if code == reason_code][0]
+=======
+            reason_description = SPANISH_CREDIT_REASON_TYPE[reason_code]
+>>>>>>> upstream/18.0
 =======
             reason_description = SPANISH_CREDIT_REASON_TYPE[reason_code]
 >>>>>>> upstream/18.0
@@ -4713,10 +4738,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_es_edi_facturae_get_tax_node_from_tax_data(self, values):
         self.ensure_one()
         tax = values['grouping_key']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5262,6 +5290,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5627,6 +5658,7 @@ class AccountMove(models.Model):
             'tax_record': tax,
             'TaxRate': f'{abs(tax.amount):.3f}',
             'TaxableBase': {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6175,6 +6207,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'TotalAmount': self.currency_id.round(values[f'{prefix}base_amount_currency']),
                 'EquivalentInEuros': self.company_currency_id.round(values[f'{prefix}base_amount']),
             },
@@ -6361,6 +6395,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6933,7 +6970,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         extended_dp = 6 if self.company_id.tax_calculation_rounding_method == 'round_globally' else 2
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7497,7 +7537,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'GrossAmount': line.price_subtotal,
+=======
+            'GrossAmount': float_round(tax_details['raw_total_excluded_currency'], precision_digits=8),
+>>>>>>> upstream/18.0
 =======
             'GrossAmount': float_round(tax_details['raw_total_excluded_currency'], precision_digits=8),
 >>>>>>> upstream/18.0
@@ -8227,6 +8271,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raw_total_cost = tax_details['total_excluded_currency'] / (1 - (line.discount / 100.0))
         xml_values['TotalCost'] = line.currency_id.round(raw_total_cost)
 
@@ -8239,6 +8284,8 @@ class AccountMove(models.Model):
         discount_amount = max(raw_discount_amount, 0.0)
         if discount_amount:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8789,6 +8836,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9156,6 +9206,7 @@ class AccountMove(models.Model):
                 'DiscountAmount': discount_amount,
             })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9706,6 +9757,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if float_compare(discount_amount, 0.0, precision_digits=8) < 0:
             xml_values['Charges'].append({
                 'ChargeReason': '/',
@@ -9892,6 +9945,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10313,6 +10369,7 @@ class AccountMove(models.Model):
         invoice_values = {
             'invoice_record': self,
             'invoice_currency': inv_curr,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11505,6 +11562,10 @@ class AccountMove(models.Model):
             'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
             'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
 >>>>>>> upstream/18.0
+=======
+            'InvoiceDocumentType': 'FA' if self.l10n_es_is_simplified else 'FC',
+            'InvoiceClass': 'OR' if self.move_type in ['out_refund', 'in_refund'] else 'OO',
+>>>>>>> upstream/18.0
             'Corrective': self._l10n_es_edi_facturae_get_corrective_data(),
             'InvoiceIssueData': {
                 'OperationDate': operation_date,
@@ -11537,6 +11598,7 @@ class AccountMove(models.Model):
 
         # Taxes.
         AccountTax = self.env['account.tax']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12330,6 +12392,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         base_lines, _tax_lines = self._get_rounded_base_and_tax_lines()
 
         def grouping_function_per_tax(base_line, tax_data):
@@ -12516,6 +12580,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12882,6 +12949,7 @@ class AccountMove(models.Model):
             invoice_values['TotalGrossAmount'] += invoice_line_values['GrossAmount']
             invoice_values['Items'].append(invoice_line_values)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13439,6 +13507,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         def grouping_function_per_base_line_tax(base_line, tax_data):
             if not tax_data:
                 return
@@ -13469,6 +13539,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13521,6 +13594,7 @@ class AccountMove(models.Model):
         base_lines_aggregated_values = AccountTax._aggregate_base_lines_tax_details(base_lines, grouping_function_per_base_line_tax)
         values_per_grouping_key = AccountTax._aggregate_base_lines_aggregated_values(base_lines_aggregated_values)
         for grouping_key, values in values_per_grouping_key.items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14152,6 +14226,10 @@ class AccountMove(models.Model):
             if not grouping_key:
                 continue
 >>>>>>> upstream/18.0
+=======
+            if not grouping_key:
+                continue
+>>>>>>> upstream/18.0
             tax_record = values['base_line_x_taxes_data'][0][1][0]['tax']
             if not tax_record:
                 continue
@@ -14181,6 +14259,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14311,6 +14392,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14649,6 +14733,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        refund_multiplier = -1 if self.move_type in ('out_refund', 'in_refund') else 1
+>>>>>>> upstream/18.0
 =======
         refund_multiplier = -1 if self.move_type in ('out_refund', 'in_refund') else 1
 >>>>>>> upstream/18.0
@@ -15389,7 +15477,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'refund_multiplier': -1 if self.move_type in ('out_refund', 'in_refund') else 1,
+=======
+            'refund_multiplier': refund_multiplier,
+>>>>>>> upstream/18.0
 =======
             'refund_multiplier': refund_multiplier,
 >>>>>>> upstream/18.0
@@ -16133,6 +16225,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -17172,7 +17268,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

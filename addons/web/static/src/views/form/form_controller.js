@@ -378,6 +378,10 @@ export class FormController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.actionService = useService("action");
+>>>>>>> upstream/18.0
 =======
         this.actionService = useService("action");
 >>>>>>> upstream/18.0
@@ -1503,7 +1507,10 @@ export class FormController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2154,6 +2161,9 @@ export class FormController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2833,7 +2843,11 @@ export class FormController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.model.root.dirty) {
+=======
+        if (this.model.root.dirty && !this.allowLeavingWithoutSaving) {
+>>>>>>> upstream/18.0
 =======
         if (this.model.root.dirty && !this.allowLeavingWithoutSaving) {
 >>>>>>> upstream/18.0
@@ -3872,6 +3886,12 @@ export class FormController extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!("onError" in params)) {
+            params.onError = this.onSaveError.bind(this);
+        }
+>>>>>>> upstream/18.0
 =======
         if (!("onError" in params)) {
             params.onError = this.onSaveError.bind(this);

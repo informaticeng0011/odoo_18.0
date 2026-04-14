@@ -214,7 +214,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '1.0',
+=======
+    'version': '1.1',
+>>>>>>> upstream/18.0
 =======
     'version': '1.1',
 >>>>>>> upstream/18.0
@@ -1012,6 +1016,10 @@ up a management by affair.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'pre_init_hook': '_pre_init_hook',
+>>>>>>> upstream/18.0
 =======
     'pre_init_hook': '_pre_init_hook',
 >>>>>>> upstream/18.0

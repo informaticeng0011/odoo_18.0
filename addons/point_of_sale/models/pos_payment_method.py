@@ -148,6 +148,7 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         selection = [('none', 'None required'), ('terminal', 'Terminal')]
         if self.env['res.partner.bank'].get_available_qr_methods_in_sequence():
             selection.append(('qr_code', 'Bank App (QR Code)'))
@@ -646,6 +647,8 @@ class PosPaymentMethod(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         selection = [('none', self.env._("None required")), ('terminal', self.env._("Terminal"))]
         if self.env['res.partner.bank'].get_available_qr_methods_in_sequence():
             selection.append(('qr_code', self.env._("Bank App (QR Code)")))
@@ -715,6 +718,9 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1099,7 +1105,11 @@ class PosPaymentMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     payment_method_type = fields.Selection(selection=_get_payment_method_type, string="Integration", default='none', required=True)
+=======
+    payment_method_type = fields.Selection(selection=lambda self: self._get_payment_method_type(), string="Integration", default='none', required=True)
+>>>>>>> upstream/18.0
 =======
     payment_method_type = fields.Selection(selection=lambda self: self._get_payment_method_type(), string="Integration", default='none', required=True)
 >>>>>>> upstream/18.0

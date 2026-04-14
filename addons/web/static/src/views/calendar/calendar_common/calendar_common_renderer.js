@@ -227,6 +227,10 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
+>>>>>>> upstream/18.0
 =======
         this.timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
 >>>>>>> upstream/18.0
@@ -969,6 +973,7 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
         return record.start.toFormat(timeFormat);
     }
@@ -977,6 +982,8 @@ export class CalendarCommonRenderer extends Component {
         const timeFormat = is24HourFormat() ? "HH:mm" : "hh:mm a";
         return record.end.toFormat(timeFormat);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1477,6 +1484,9 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1924,7 +1934,11 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const el of this.fc.el.querySelectorAll(this.computeEventSelector(event))) {
+=======
+        for (const el of this.fc.api.el.querySelectorAll(this.computeEventSelector(event))) {
+>>>>>>> upstream/18.0
 =======
         for (const el of this.fc.api.el.querySelectorAll(this.computeEventSelector(event))) {
 >>>>>>> upstream/18.0
@@ -2369,7 +2383,11 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const el of this.fc.el.querySelectorAll(this.computeEventSelector(event))) {
+=======
+        for (const el of this.fc.api.el.querySelectorAll(this.computeEventSelector(event))) {
+>>>>>>> upstream/18.0
 =======
         for (const el of this.fc.api.el.querySelectorAll(this.computeEventSelector(event))) {
 >>>>>>> upstream/18.0
@@ -2929,8 +2947,11 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onEventContent({ event }) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3433,6 +3454,9 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4146,7 +4170,10 @@ export class CalendarCommonRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         el.classList.remove("fc-daygrid-more-link");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

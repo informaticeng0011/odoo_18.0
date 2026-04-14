@@ -300,6 +300,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { parseDateTime } from "@web/core/l10n/dates";
 =======
 import { parseDateTime, deserializeDate } from "@web/core/l10n/dates";
@@ -1207,6 +1208,9 @@ import { parseDateTime, deserializeDateTime } from "@web/core/l10n/dates";
 =======
 import { parseDateTime, deserializeDateTime } from "@web/core/l10n/dates";
 >>>>>>> upstream/18.0
+=======
+import { parseDateTime, deserializeDateTime } from "@web/core/l10n/dates";
+>>>>>>> upstream/18.0
 import { roundDecimals, floatIsZero } from "@web/core/utils/numbers";
 
 /*
@@ -1298,7 +1302,12 @@ export function deduceUrl(url) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { protocol } = window.location;
+=======
+    const protocol = odoo.use_lna ? "http:" : window.location.protocol;
+    url = odoo.use_lna ? url.replace(/^(\d+)-(\d+)-(\d+)-(\d+).*/, "$1.$2.$3.$4") : url;
+>>>>>>> upstream/18.0
 =======
     const protocol = odoo.use_lna ? "http:" : window.location.protocol;
     url = odoo.use_lna ? url.replace(/^(\d+)-(\d+)-(\d+)-(\d+).*/, "$1.$2.$3.$4") : url;
@@ -2016,7 +2025,10 @@ export function lt(a, b, { decimals } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2857,8 +2869,13 @@ export function computeProductPricelistCache(service, data = []) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             (item.date_start && deserializeDate(item.date_start) > date) ||
             (item.date_end && deserializeDate(item.date_end) < date)
+=======
+            (item.date_start && deserializeDateTime(item.date_start) > date) ||
+            (item.date_end && deserializeDateTime(item.date_end) < date)
+>>>>>>> upstream/18.0
 =======
             (item.date_start && deserializeDateTime(item.date_start) > date) ||
             (item.date_end && deserializeDateTime(item.date_end) < date)
@@ -4019,6 +4036,9 @@ export function computeProductPricelistCache(service, data = []) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

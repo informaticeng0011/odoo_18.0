@@ -91,6 +91,7 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 SELECT row_number() over(ORDER BY leaves.employee_id) as id,
                 leaves.employee_id as employee_id,
                 leaves.active_employee as active_employee,
@@ -276,6 +277,8 @@ class LeaveReport(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 WITH
                 /* Validated leaves */
                 validated_leaves as (
@@ -290,14 +293,20 @@ class LeaveReport(models.Model):
                     WHERE l.state IN ('validate', 'validate1')
                 ),
 
+<<<<<<< HEAD
                 /* FIFO-ordered validated allocations */
                 ordered_allocations as (
+=======
+                /* Base allocations with overlap group detection */
+                base_allocations as (
+>>>>>>> upstream/18.0
                     SELECT
 						allocation.id as allocation_id,
 						allocation.employee_id as employee_id,
 						employee.active as active_employee,
 						allocation.number_of_days as number_of_days,
 						allocation.number_of_hours_display as number_of_hours,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -343,11 +352,15 @@ class LeaveReport(models.Model):
 =======
 						employee.department_id as department_id,
 >>>>>>> upstream/18.0
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 						allocation.holiday_status_id as leave_type,
 						allocation.state as state,
 						allocation.date_from as date_from,
 						allocation.date_to as date_to,
 						allocation.employee_company_id as company_id,
+<<<<<<< HEAD
 						ROW_NUMBER() OVER (
 							PARTITION BY allocation.employee_id, allocation.holiday_status_id
 							ORDER BY allocation.date_from, allocation.id
@@ -362,11 +375,68 @@ class LeaveReport(models.Model):
 							ORDER BY allocation.date_from, allocation.id
 							ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 						) as cumulative_allocated_hours
+=======
+						CASE
+							WHEN allocation.date_from > MAX(COALESCE(allocation.date_to, 'infinity'::date)) OVER (
+								PARTITION BY allocation.employee_id, allocation.holiday_status_id
+								ORDER BY allocation.date_from, allocation.id
+								ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING
+							)
+							THEN 1
+							ELSE 0
+						END as is_new_group
+>>>>>>> upstream/18.0
                     FROM hr_leave_allocation allocation
                     JOIN hr_employee employee ON (allocation.employee_id = employee.id)
                     WHERE allocation.state = 'validate'
                 ),
 
+<<<<<<< HEAD
+=======
+                /* Assign overlap group ids */
+                grouped_allocations as (
+                    SELECT
+						ba.*,
+						SUM(ba.is_new_group) OVER (
+							PARTITION BY ba.employee_id, ba.leave_type
+							ORDER BY ba.date_from, ba.allocation_id
+							ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+						) as overlap_group
+                    FROM base_allocations ba
+                ),
+
+                /* FIFO-ordered allocations with cumulative sums within each overlap group */
+                ordered_allocations as (
+                    SELECT
+						ga.allocation_id as allocation_id,
+						ga.employee_id as employee_id,
+						ga.active_employee as active_employee,
+						ga.number_of_days as number_of_days,
+						ga.number_of_hours as number_of_hours,
+						ga.department_id as department_id,
+						ga.leave_type as leave_type,
+						ga.state as state,
+						ga.date_from as date_from,
+						ga.date_to as date_to,
+						ga.company_id as company_id,
+						ROW_NUMBER() OVER (
+							PARTITION BY ga.employee_id, ga.leave_type, ga.overlap_group
+							ORDER BY ga.date_from, ga.allocation_id
+						) as fifo_rank,
+						SUM(ga.number_of_days) OVER (
+							PARTITION BY ga.employee_id, ga.leave_type, ga.overlap_group
+							ORDER BY ga.date_from, ga.allocation_id
+							ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+						) as cumulative_allocated_days,
+						SUM(ga.number_of_hours) OVER (
+							PARTITION BY ga.employee_id, ga.leave_type, ga.overlap_group
+							ORDER BY ga.date_from, ga.allocation_id
+							ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+						) as cumulative_allocated_hours
+                    FROM grouped_allocations ga
+                ),
+
+>>>>>>> upstream/18.0
                 /* Leaves applicable to each allocation */
                 taken_per_allocation as (
                     SELECT
@@ -419,8 +489,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         AND vl.date_to   >= oa.date_from
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -546,6 +619,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -676,8 +752,13 @@ class LeaveReport(models.Model):
 						fb.department_id as department_id,
 						fb.leave_type as leave_type,
 						fb.state as state,
+<<<<<<< HEAD
 						fb.date_from as date_from,
 						fb.date_to as date_to,
+=======
+						fb.date_from::timestamp + interval '12 hours' as date_from,
+						fb.date_to::timestamp + interval '12 hours' as date_to,
+>>>>>>> upstream/18.0
 						'left' as holiday_status,
 						fb.company_id as company_id
                     FROM fifo_balances fb
@@ -700,7 +781,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						request.department_id as department_id,
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 =======
 						employee.department_id as department_id,
 >>>>>>> upstream/18.0
@@ -800,6 +885,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
