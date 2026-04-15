@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* stock_landed_costs
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -308,6 +309,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * stock_landed_costs
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -413,6 +417,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -613,11 +618,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -933,10 +942,18 @@ msgstr ""
 "Last-Translator: Tony Ng, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
 "zh_TW/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-14 08:24+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-18/stock_landed_costs/zh_Hant/>\n"
+>>>>>>> upstream/18.0
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1239,6 +1256,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #. odoo-python
@@ -1248,6 +1269,7 @@ msgstr "%(product)s：%(quantity)s 件已出庫"
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.stock_landed_cost_view_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1552,6 +1574,8 @@ msgstr "<i class=\"fa fa-clock-o\" title=\"日期\" role=\"img\" aria-label=\"�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-clock-o\" title=\"Date\" role=\"img\" aria-label=\"Date\"/>"
 msgstr ""
@@ -1656,6 +1680,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2271,7 +2298,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "指示產品是否為到岸成本：當收到供應商賬單時，您可以在之前的收據上分配此成本。"
+=======
+msgstr ""
+"指示產品是否為到岸成本：當收到供應商賬單時，您可以在之前的收據上分配此成本。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "指示產品是否為到岸成本：當收到供應商賬單時，您可以在之前的收據上分配此成本。"
@@ -3011,7 +3043,11 @@ msgstr "已經驗證的到岸成本不能被取消，但是您可以建立一個
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_valuation_adjustment_lines
 msgid "Valuation Adjustment Lines"
+<<<<<<< HEAD
 msgstr "估值調整明細"
+=======
+msgstr "估值調整資料行"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__valuation_adjustment_lines
@@ -3151,7 +3187,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "您不能在選擇的 %s 應用到岸成本。到岸成本只能應用於採用先進先出或平均成本計算方法的產品。"
+=======
+msgstr ""
+"您不能在選擇的 %s 應用到岸成本。到岸成本只能應用於採用先進先出或平均成本計算"
+"方法的產品。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "您不能在選擇的 %s 應用到岸成本。到岸成本只能應用於採用先進先出或平均成本計算"
@@ -3763,8 +3805,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the product type or disable landed cost option because the"
 " product is used in an account move line."
+=======
+"You cannot change the product type or disable landed cost option because the "
+"product is used in an account move line."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the product type or disable landed cost option because the "
 "product is used in an account move line."

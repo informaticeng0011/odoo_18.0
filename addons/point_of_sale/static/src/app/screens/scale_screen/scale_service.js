@@ -239,6 +239,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { floatCompare } from "@point_of_sale/utils";
+>>>>>>> upstream/18.0
 =======
 import { floatCompare } from "@point_of_sale/utils";
 >>>>>>> upstream/18.0
@@ -1220,6 +1224,11 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.lastWeight = null;
+        this.weight = 0;
+>>>>>>> upstream/18.0
 =======
         this.lastWeight = null;
         this.weight = 0;
@@ -2437,7 +2446,10 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.weight = 0;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3169,7 +3181,10 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3895,6 +3910,9 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4392,6 +4410,7 @@ export class PosScaleService extends Reactive {
     async readWeight() {
         this.loading = true;
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5369,6 +5388,10 @@ export class PosScaleService extends Reactive {
             this.weight = await this._getWeightFromScale();
             this._clearLastWeightIfValid();
 >>>>>>> upstream/18.0
+=======
+            this.weight = await this._getWeightFromScale();
+            this._clearLastWeightIfValid();
+>>>>>>> upstream/18.0
         } catch (error) {
             this.isMeasuring = false;
             this.onError?.(error.message);
@@ -5634,7 +5657,10 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6361,6 +6387,9 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7092,7 +7121,10 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7824,6 +7856,9 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8358,6 +8393,7 @@ export class PosScaleService extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     _checkScaleIsConnected() {
         if (this.hardwareProxy.connectionInfo.status !== "connected") {
@@ -8367,6 +8403,8 @@ export class PosScaleService extends Reactive {
             throw new Error(_t("Cannot weigh product - Scale is not connected to IoT Box"));
         }
     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

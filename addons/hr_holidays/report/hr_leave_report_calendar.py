@@ -3,6 +3,7 @@
 from odoo import api, fields, models, tools
 
 from odoo.addons.base.models.res_partner import _tz_get
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -896,6 +897,10 @@ from odoo.osv import expression
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import ValidationError
+
+>>>>>>> upstream/18.0
 
 class LeaveReportCalendar(models.Model):
     _name = "hr.leave.report.calendar"
@@ -1200,7 +1205,11 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     name = fields.Char(string='Name', readonly=True, compute="_compute_name", search="_search_name")
+=======
+    name = fields.Char(string='Name', readonly=True, compute="_compute_name")
+>>>>>>> upstream/18.0
 =======
     name = fields.Char(string='Name', readonly=True, compute="_compute_name")
 >>>>>>> upstream/18.0
@@ -2477,6 +2486,7 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _search_name(self, operator, value):
         query = self.env['hr.leave.report.calendar'].sudo()._search([('leave_id.duration_display', operator, value)])
         domain = ['|', ('employee_id.name', operator, value), ('id', 'in', query)]
@@ -3078,12 +3088,15 @@ class LeaveReportCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.depends('leave_manager_id')
     def _compute_is_manager(self):
         for leave in self:
             leave.is_manager = self.env.user.has_group('hr_holidays.group_hr_holidays_user') or leave.leave_manager_id == self.env.user
 
     def action_approve(self):
+<<<<<<< HEAD
         self.leave_id.action_approve(check_state=False)
 
     def action_validate(self):
@@ -3091,3 +3104,39 @@ class LeaveReportCalendar(models.Model):
 
     def action_refuse(self):
         self.leave_id.action_refuse()
+=======
+        current_user = self.env.user
+        if current_user.has_group('hr_holidays.group_hr_holidays_user'):
+            # If the user is a leave manager, approve the leave
+            self.leave_id.action_approve()
+        elif self.leave_manager_id == current_user and self.sudo().holiday_status_id.leave_validation_type in ('manager', 'both'):
+            # If the user is the employee's time off approver, approve the leave
+            self.sudo().leave_id.sudo(False).action_approve()
+        else:
+            # If the user is not a leave manager, raise an error
+            raise ValidationError(self.env._("You are not allowed to approve this leave request."))
+
+    def action_validate(self):
+        current_user = self.env.user
+        if current_user.has_group('hr_holidays.group_hr_holidays_user'):
+            # If the user is a leave manager, validate the leave
+            self.leave_id.action_validate()
+        elif self.leave_manager_id == current_user and self.sudo().holiday_status_id.leave_validation_type in ('manager', 'both'):
+            # If the user is the employee's time off approver, validate the leave
+            self.sudo().leave_id.sudo(False).action_validate()
+        else:
+            # If the user is not a leave manager, raise an error
+            raise ValidationError(self.env._("You are not allowed to validate this leave request."))
+
+    def action_refuse(self):
+        current_user = self.env.user
+        if current_user.has_group('hr_holidays.group_hr_holidays_user'):
+            # If the user is a leave manager, refuse the leave
+            self.leave_id.action_refuse()
+        elif self.leave_manager_id == current_user and self.sudo().holiday_status_id.leave_validation_type in ('manager', 'both'):
+            # If the user is the employee's time off approver, refuse the leave
+            self.sudo().leave_id.sudo(False).action_refuse()
+        else:
+            # If the user is not a leave manager, raise an error
+            raise ValidationError(self.env._("You are not allowed to refuse this leave request."))
+>>>>>>> upstream/18.0

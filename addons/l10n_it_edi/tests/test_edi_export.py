@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 from unittest import SkipTest
@@ -180,6 +181,10 @@ from unittest import SkipTest
 >>>>>>> upstream/18.0
 =======
 from unittest import SkipTest
+>>>>>>> upstream/18.0
+=======
+from unittest import SkipTest
+from lxml import etree
 >>>>>>> upstream/18.0
 =======
 from unittest import SkipTest
@@ -692,6 +697,7 @@ class TestItEdiExport(TestItEdi):
         usd = self.env.ref('base.USD')
         self.env['res.currency.rate'].create({
             'name': '2025-01-01',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1833,6 +1839,9 @@ class TestItEdiExport(TestItEdi):
 =======
             'rate': 1.54639273,
 >>>>>>> upstream/18.0
+=======
+            'rate': 1.54639273,
+>>>>>>> upstream/18.0
             'currency_id': usd.id,
             'company_id': self.company.id,
         })
@@ -2115,6 +2124,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2169,6 +2179,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2829,6 +2841,9 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3533,6 +3548,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3587,6 +3603,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4282,6 +4300,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4620,6 +4639,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4797,6 +4818,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4887,6 +4909,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_export_invoice_uom_unicode_normalization(self):
         """Test that non-standard Unicode characters (e.g. m², m³) are correctly normalized for XML invoices."""
@@ -4906,4 +4930,7 @@ class TestItEdiExport(TestItEdi):
 
         uom_nodes = invoice_tree.xpath("//*[local-name()='DettaglioLinee']/*[local-name()='UnitaMisura']")
         self.assertEqual(uom_nodes[0].text, 'm2')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

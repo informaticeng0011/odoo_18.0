@@ -56,6 +56,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -303,6 +307,7 @@ class TestBLMixin(common.TestMassMailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         MailingBLacklist._primary_email = 'not_a_field'
         with self.assertRaises(UserError):
             self.env['mailing.test.blacklist'].search([('is_blacklisted', '=', False)])
@@ -314,6 +319,8 @@ class TestBLMixin(common.TestMassMailCommon):
         MailingBLacklist._primary_email = 'email_from'
         self.env['mailing.test.blacklist'].search([('is_blacklisted', '=', False)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -489,6 +496,9 @@ class TestBLMixin(common.TestMassMailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

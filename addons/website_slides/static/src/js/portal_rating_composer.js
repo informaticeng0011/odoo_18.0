@@ -214,6 +214,10 @@ import RatingPopupComposer from "@portal_rating/js/portal_rating_composer";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 >>>>>>> upstream/18.0
@@ -1082,7 +1086,10 @@ RatingPopupComposer.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1507,6 +1514,7 @@ RatingPopupComposer.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     _reloadRatingPopupComposer: function () {
         if (this.options.res_model !== "slide.channel") {
@@ -1736,6 +1744,8 @@ RatingPopupComposer.include({
     _reloadRatingPopupComposer: function () {
         if (this.options.res_model !== "slide.channel") {
             return this._super(...arguments);
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1912,6 +1922,7 @@ RatingPopupComposer.include({
                 ? _t("Reviews (%s)", this.rating_count)
                 : _t("Reviews");
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2528,6 +2539,9 @@ RatingPopupComposer.include({
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    },
 >>>>>>> upstream/18.0
 =======
     },

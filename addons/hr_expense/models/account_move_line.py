@@ -291,7 +291,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expense_id = fields.Many2one('hr.expense', string='Expense', copy=True) # copy=True, else we don't know price is tax incl.
+=======
+    expense_id = fields.Many2one('hr.expense', string='Expense', copy=True, index='btree_not_null')  # copy=True, else we don't know price is tax incl.
+>>>>>>> upstream/18.0
 =======
     expense_id = fields.Many2one('hr.expense', string='Expense', copy=True, index='btree_not_null')  # copy=True, else we don't know price is tax incl.
 >>>>>>> upstream/18.0
@@ -1147,10 +1151,13 @@ class AccountMoveLine(models.Model):
         attachment_domains = super(AccountMoveLine, self)._get_attachment_domains()
         if self.expense_id:
 <<<<<<< HEAD
+<<<<<<< HEAD
             attachment_domains.append([('res_model', '=', 'hr.expense'), ('res_id', '=', self.expense_id.id)])
         return attachment_domains
 
 =======
+=======
+>>>>>>> upstream/18.0
             attachment_domains.append([('res_model', '=', 'hr.expense'), ('res_id', 'in', self.expense_id.ids)])
         return attachment_domains
 
@@ -1161,6 +1168,9 @@ class AccountMoveLine(models.Model):
             or id_model2attachments.get(('hr.expense', move_line.expense_id.id))
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _compute_totals(self):
         expenses = self.filtered('expense_id')
@@ -1348,7 +1358,12 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return SQL(' AND (base_line.expense_id IS NULL OR account_move_line.expense_id = base_line.expense_id)')
+=======
+        query = super()._get_extra_query_base_tax_line_mapping()
+        return SQL('%s AND (base_line.expense_id IS NULL OR account_move_line.expense_id = base_line.expense_id)', query)
+>>>>>>> upstream/18.0
 =======
         query = super()._get_extra_query_base_tax_line_mapping()
         return SQL('%s AND (base_line.expense_id IS NULL OR account_move_line.expense_id = base_line.expense_id)', query)

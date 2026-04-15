@@ -297,11 +297,14 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if tax.type_tax_use in ('sale', 'purchase'):
                 tax.l10n_ar_type_tax_use = tax.type_tax_use
             elif tax.l10n_ar_withholding_payment_type in ('supplier', 'customer'):
                 tax.l10n_ar_type_tax_use = tax.l10n_ar_withholding_payment_type
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1035,6 +1038,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1768,7 +1774,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for tax in self:
+=======
+        for tax in self.filtered(lambda t: t.country_code == 'AR'):
+>>>>>>> upstream/18.0
 =======
         for tax in self.filtered(lambda t: t.country_code == 'AR'):
 >>>>>>> upstream/18.0

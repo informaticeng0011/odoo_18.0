@@ -163,6 +163,10 @@ import { Mutex } from "@web/core/utils/concurrency";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 =======
 import { redirect } from '@web/core/utils/urls';
 >>>>>>> upstream/18.0
@@ -878,7 +882,11 @@ var ProductComparison = publicWidget.Widget.extend(VariantMixin, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 window.location.href = Object.keys(self.comparelist_product_ids || {}).length === 0 ? '/shop' : newLink;
+=======
+                redirect(Object.keys(self.comparelist_product_ids || {}).length === 0 ? '/shop' : newLink);
+>>>>>>> upstream/18.0
 =======
                 redirect(Object.keys(self.comparelist_product_ids || {}).length === 0 ? '/shop' : newLink);
 >>>>>>> upstream/18.0
@@ -1648,7 +1656,10 @@ var ProductComparison = publicWidget.Widget.extend(VariantMixin, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2376,6 +2387,9 @@ var ProductComparison = publicWidget.Widget.extend(VariantMixin, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

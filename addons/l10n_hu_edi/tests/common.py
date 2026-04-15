@@ -125,6 +125,10 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.yesterday = cls.today - datetime.timedelta(days=1)
+>>>>>>> upstream/18.0
 =======
         cls.yesterday = cls.today - datetime.timedelta(days=1)
 >>>>>>> upstream/18.0
@@ -647,7 +651,11 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': cls.today - datetime.timedelta(days=1),
+=======
+                'name': cls.yesterday,
+>>>>>>> upstream/18.0
 =======
                 'name': cls.yesterday,
 >>>>>>> upstream/18.0
@@ -1245,7 +1253,11 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_simple_move(self, move_type='out_invoice', currency=None):
+=======
+    def _create_simple_move(self, move_type='out_invoice', currency=None, amount=None):
+>>>>>>> upstream/18.0
 =======
     def _create_simple_move(self, move_type='out_invoice', currency=None, amount=None):
 >>>>>>> upstream/18.0
@@ -2118,7 +2130,11 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'price_unit': 10000.0,
+=======
+                    'price_unit': amount or 10000.0,
+>>>>>>> upstream/18.0
 =======
                     'price_unit': amount or 10000.0,
 >>>>>>> upstream/18.0
@@ -2985,9 +3001,15 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def create_invoice_simple(self, currency=None):
         """ Create a really basic invoice - just one line. """
         return self._create_simple_move(move_type='out_invoice', currency=currency)
+=======
+    def create_invoice_simple(self, currency=None, amount=None):
+        """ Create a really basic invoice - just one line. """
+        return self._create_simple_move(move_type='out_invoice', currency=currency, amount=amount)
+>>>>>>> upstream/18.0
 =======
     def create_invoice_simple(self, currency=None, amount=None):
         """ Create a really basic invoice - just one line. """
@@ -4334,7 +4356,11 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': self.today,
+=======
+            'invoice_date': self.yesterday,
+>>>>>>> upstream/18.0
 =======
             'invoice_date': self.yesterday,
 >>>>>>> upstream/18.0
@@ -4917,7 +4943,11 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def create_reversal(self, invoice, is_modify=False):
+=======
+    def create_reversal(self, invoice, is_modify=False, amount=None):
+>>>>>>> upstream/18.0
 =======
     def create_reversal(self, invoice, is_modify=False, amount=None):
 >>>>>>> upstream/18.0
@@ -5782,8 +5812,11 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return wizard_reverse.new_move_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6455,6 +6488,9 @@ class L10nHuEdiTestCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

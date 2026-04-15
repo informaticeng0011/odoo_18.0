@@ -79,7 +79,10 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_sol_analytic_distribution_multicompany_task(self):
         """Test that the analytic distribution on SOL uses the correct company's
         project when the product's project_id is company-dependent.
@@ -139,6 +142,9 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
         # The analytic distribution should come from project_b (Company B), not project_a
         self.assertEqual(sale_order_line.analytic_distribution, {str(analytic_account_b.id): 100})
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_project_analytic_distribution_on_invoice_lines(self):
         """
@@ -456,7 +462,10 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1349,6 +1358,9 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -268,6 +268,7 @@ export class CompanySelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.selectedCompaniesIds.includes(companyId)) {
             if (unshift) {
                 this.selectedCompaniesIds.unshift(companyId);
@@ -280,6 +281,8 @@ export class CompanySelector {
             this.selectedCompaniesIds.unshift(companyId);
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,6 +900,9 @@ export class CompanySelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

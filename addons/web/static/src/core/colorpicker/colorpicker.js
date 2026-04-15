@@ -86,6 +86,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    normalizeCSSColor,
+>>>>>>> upstream/18.0
 =======
     normalizeCSSColor,
 >>>>>>> upstream/18.0
@@ -557,6 +561,11 @@ import { Component, onMounted, onWillUpdateProps, useExternalListener, useRef } 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const DEFAULT_COLOR = "#FF0000";
+
+>>>>>>> upstream/18.0
 =======
 const DEFAULT_COLOR = "#FF0000";
 
@@ -1646,7 +1655,11 @@ export class Colorpicker extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         defaultColor: "#FF0000",
+=======
+        defaultColor: DEFAULT_COLOR,
+>>>>>>> upstream/18.0
 =======
         defaultColor: DEFAULT_COLOR,
 >>>>>>> upstream/18.0
@@ -2346,6 +2359,7 @@ export class Colorpicker extends Component {
             const defaultCssColor = this.props.selectedColor
                 ? this.props.selectedColor
                 : this.props.defaultColor;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3422,6 +3436,10 @@ export class Colorpicker extends Component {
             const rgba =
                 convertCSSColorToRgba(defaultCssColor) || convertCSSColorToRgba(DEFAULT_COLOR);
 >>>>>>> upstream/18.0
+=======
+            const rgba =
+                convertCSSColorToRgba(defaultCssColor) || convertCSSColorToRgba(DEFAULT_COLOR);
+>>>>>>> upstream/18.0
             if (rgba) {
                 this._updateRgba(rgba.red, rgba.green, rgba.blue, rgba.opacity);
             }
@@ -3516,7 +3534,13 @@ export class Colorpicker extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.setSelectedColor(newSelectedColor);
+=======
+            if (normalizeCSSColor(newSelectedColor) !== this.colorComponents.cssColor) {
+                this.setSelectedColor(newSelectedColor);
+            }
+>>>>>>> upstream/18.0
 =======
             if (normalizeCSSColor(newSelectedColor) !== this.colorComponents.cssColor) {
                 this.setSelectedColor(newSelectedColor);

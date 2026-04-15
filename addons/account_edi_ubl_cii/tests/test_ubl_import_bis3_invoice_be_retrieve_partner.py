@@ -35,7 +35,10 @@ class TestUblImportBis3InvoiceBERetrievePartner(TestUblImportBis3InvoiceBE):
         )
         self.assertRecordValues(invoice.partner_id, [{'id': partner.id}])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2020-01-01')
     def test_import_partner_retrieval_no_contact(self):
@@ -51,4 +54,7 @@ class TestUblImportBis3InvoiceBERetrievePartner(TestUblImportBis3InvoiceBE):
             journal=self.company_data['default_journal_sale'],
         )
         self.assertEqual(self.partner_be, invoice.partner_id, "We find the belgian partner, not his contact")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

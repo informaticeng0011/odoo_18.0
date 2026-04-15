@@ -215,8 +215,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp_account
 # 
+=======
+# * mrp_account
+#
+>>>>>>> upstream/18.0
 =======
 # * mrp_account
 #
@@ -1297,6 +1302,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2158,10 +2164,16 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Alen Komljen <alen@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Alen Komljen <alen@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3031,6 +3043,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-25 13:42+0000\n"
 "Last-Translator: Alen Komljen <alen@uvid.hr>\n"
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-04-14 08:29+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "mrp_account/hr/>\n"
 "Language: hr\n"
@@ -3039,6 +3056,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3693,11 +3711,15 @@ msgstr "$5000"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 msgid "%s - Labour"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: mrp_account
@@ -4360,6 +4382,11 @@ msgstr "2023-08-15"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "%s - rad"
+
+#. module: mrp_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_move_form_inherit_mrp_account
 msgid "<span class=\"o_stat_text\">Manufacturing</span>"
 msgstr "<span class=\"o_stat_text\">Proizvodnja</span>"
@@ -4407,7 +4434,11 @@ msgstr "<span> Jedinica mjere </span>"
 #. module: mrp_account
 #: model:ir.model.constraint,message:mrp_account.constraint_mrp_account_wip_accounting_line_check_debit_credit
 msgid "A single line cannot be both credit and debit."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna stavka ne može biti istovremeno i potražna i dugovna."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__account_id
@@ -4423,11 +4454,20 @@ msgstr "Stavka temeljnice"
 #: model:ir.model,name:mrp_account.model_mrp_account_wip_accounting_line
 msgid "Account move line to be created when posting WIP account move"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Stavka temeljnice koja se kreira pri knjiženju temeljnice proizvodnje u "
+"tijeku"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "Acme Corp."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Acme Corp."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_account_analytic_account
@@ -4610,7 +4650,11 @@ msgstr "Promijenjeno"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_report_mrp_report_mo_overview
 msgid "MO Overview Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvještaj pregleda naloga za proizvodnju"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
@@ -4643,7 +4687,11 @@ msgstr "Broj proizvodnih naloga"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Manufacturing WIP - %(orders_list)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodnja u tijeku - %(orders_list)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__mo_ids
@@ -4658,6 +4706,7 @@ msgstr "Analitička stavka PN"
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5521,16 +5570,29 @@ msgid "Please make sure the total credit amount equals the total debit amount."
 msgid "Please make sure the total credit amount equals the total debit amount."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+msgstr ""
+"Osigurajte da ukupni potražni iznos bude jednak ukupnom dugovnom iznosu."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post Manufacturing WIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Knjiži proizvodnju u tijeku"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post WIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Knjiži proizvodnju u tijeku"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.actions.act_window,name:mrp_account.action_wip_accounting
@@ -5750,7 +5812,11 @@ msgid "Post WIP Accounting Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Knjiži obračunsku stavku u tijeku proizvodnje (WIP)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Knjiži obračunsku stavku u tijeku proizvodnje (WIP)"
 >>>>>>> upstream/18.0
@@ -6635,7 +6701,11 @@ msgid "Production Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodni račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Proizvodni račun"
 >>>>>>> upstream/18.0
@@ -7285,7 +7355,11 @@ msgstr "Proizvodni račun"
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "REF123"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "REF123"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__reference
@@ -7511,7 +7585,11 @@ msgid "Relevant WIP MOs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relevantni WIP proizvodni nalozi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relevantni WIP proizvodni nalozi"
 >>>>>>> upstream/18.0
@@ -8167,13 +8245,21 @@ msgstr "Datum povrata"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal date must be after the posting date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum stornacije mora biti nakon datuma knjiženja."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal of: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stornacija: %s"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_production__show_valuation
@@ -8192,10 +8278,16 @@ msgid ""
 "The MOs that this WIP entry was based on. Expected to be set at time of WIP "
 "entry creation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nalozi za proizvodnju na kojima se temeljila ova stavka proizvodnje u "
+"tijeku. Očekuje se da su postavljeni u trenutku kreiranja."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9490,10 +9582,19 @@ msgid ""
 "instead."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"The expense is accounted for when the manufacturing order is marked as done. "
+"If not set, it is the expense account of the final product that will be used "
+"instead."
+msgstr ""
+"Trošak se knjiži kada je nalog za proizvodnju označen kao dovršen. Ako nije "
+"postavljeno, koristit će se konto troška gotovog proizvoda."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_product_category__property_stock_account_production_cost_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10140,6 +10241,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This account will be used as a valuation counterpart for both components and "
 "final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will "
@@ -10358,6 +10461,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10788,6 +10892,13 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Ovaj konto koristit će se kao protukonto vrednovanja za komponente i gotove "
+"proizvode za naloge za proizvodnju.\n"
+"                Ako postoje bilo kakvi troškovi radnog centra/zaposlenika, "
+"ta vrijednost ostat će na kontu nakon što se proizvodnja dovrši."
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
@@ -10808,39 +10919,67 @@ msgstr "Jedinice"
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Component Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodnja u tijeku - vrijednost komponenti"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Overhead"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodnja u tijeku - režijski troškovi"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/models/account_move.py:0
 msgid "WIP MOs of %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalozi proizvodnje u tijeku za %s"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.report_wip
 msgid "WIP Report for"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvještaj proizvodnje u tijeku za"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__line_ids
 msgid "WIP accounting lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Računovodstvene stavke proizvodnje u tijeku"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__wip_accounting_id
 msgid "WIP accounting wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak računovodstva proizvodnje u tijeku"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.actions.report,name:mrp_account.wip_report
 msgid "WIP report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvještaj proizvodnje u tijeku"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workorder__wc_analytic_account_line_ids
@@ -10850,7 +10989,11 @@ msgstr "RN stavka analitike"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_account_wip_accounting
 msgid "Wizard to post Manufacturing WIP account move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za knjiženje temeljnice proizvodnje u tijeku"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workcenter
@@ -10897,7 +11040,10 @@ msgstr "[RC] %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10913,6 +11059,9 @@ msgstr "[RC] %s"
 #~ msgstr "2023-08-15"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -215,8 +215,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase
 # 
+=======
+# * purchase
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase
 #
@@ -1085,6 +1090,7 @@
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # 0ba0ac30481a756f36528ba6f9a4317e_6443a87 <52eefe24349934c364624ef40611b7a3_1010754>, 2024
 # Bole <bole@dajmi5.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2618,10 +2624,19 @@
 =======
 # Vladimir Vrgoč <vladimir@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Zvonimir Galic, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Vladimir Vrgoč <vladimir@uvid.hr>, 2025.
+# Odoo Translation Bot <c3p@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4015,6 +4030,11 @@ msgstr ""
 "PO-Revision-Date: 2025-12-01 12:44+0000\n"
 "Last-Translator: Vladimir Vrgoč <vladimir@uvid.hr>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-04-14 08:29+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "purchase/hr/>\n"
 "Language: hr\n"
@@ -4023,6 +4043,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4796,11 +4817,15 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5402,6 +5427,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
@@ -5607,6 +5634,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6032,7 +6062,11 @@ msgstr "%(vendor)s je potvrdio da će prijem biti %(date)s"
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "%s modified receipt dates for the following products:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s je izmijenio datume primitka za sljedeće proizvode:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -6194,6 +6228,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+", 100% je besplatno! Uštedjet ćete vrijeme izradom prekrasnih ponuda i "
+"praćenjem prodaje."
+>>>>>>> upstream/18.0
 =======
 ", 100% je besplatno! Uštedjet ćete vrijeme izradom prekrasnih ponuda i "
 "praćenjem prodaje."
@@ -6989,6 +7028,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -7000,6 +7040,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7608,6 +7650,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8209,10 +8254,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8812,6 +8860,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9421,6 +9472,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -9440,6 +9492,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10060,6 +10114,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10669,6 +10726,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -10676,6 +10734,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11279,6 +11339,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11880,6 +11943,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -11891,6 +11955,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12503,6 +12569,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12929,7 +12998,11 @@ msgstr "<i class=\"fa fa-fw fa-check\"/>Plaćeno"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<i class=\"fa fa-fw fa-check\"/>Reversed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/>Stornirano"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -12943,6 +13016,11 @@ msgid ""
 "Bill\" title=\"Waiting for Bill\"/><span class=\"d-none d-md-inline\"> "
 "Waiting for Bill</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"Čeka račun\" "
+"title=\"Čeka račun\"/><span class=\"d-none d-md-inline\"> Čeka račun</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -12962,6 +13040,7 @@ msgstr "<i class=\"fa fa-print me-1\"/> Preuzmi / Ispiši"
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13959,6 +14038,13 @@ msgid ""
 "span>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+msgstr ""
+"<span class=\"d-none d-md-inline\">Datum potvrde</span>\n"
+"                          <span class=\"d-block d-md-none\">Potvrda</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -13966,6 +14052,11 @@ msgid ""
 "<span class=\"d-none d-md-inline\">Purchase Order #</span>\n"
 "                          <span class=\"d-block d-md-none\">Ref.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-md-inline\">Nalog za nabavu br.</span>\n"
+"                          <span class=\"d-block d-md-none\">Ref.</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
@@ -13973,10 +14064,16 @@ msgid ""
 "<span class=\"d-none d-md-inline\">Request for Quotation #</span>\n"
 "                        <span class=\"d-block d-md-none\">Ref.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-md-inline\">Zahtjev za ponudu br.</span>\n"
+"                        <span class=\"d-block d-md-none\">Ref.</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14182,6 +14279,8 @@ msgstr ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Zahtjev za ponudom</span>\n"
 "           <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Narudžba</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14785,6 +14884,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15186,12 +15288,20 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span class=\"o_stat_text\">Bill Matching</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Uparivanje računa</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "<span class=\"o_stat_text\">Purchase Matching</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Uparivanje nabave</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_normal_form_view_inherit_purchase
@@ -15206,6 +15316,7 @@ msgid ""
 "mail_reminder_confirmed\">(confirmed by vendor)</span>"
 msgstr ""
 "<span class=\"text-muted\" attrs=\"{'invisible': "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16004,6 +16115,9 @@ msgstr ""
 =======
 "[('mail_reminder_confirmed', '=', False)]}\">(potvrđeno od dobavljača)</span>"
 >>>>>>> upstream/18.0
+=======
+"[('mail_reminder_confirmed', '=', False)]}\">(potvrđeno od dobavljača)</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_partner_property_form
@@ -16013,7 +16127,11 @@ msgstr "<span> dan(a) prije</span>"
 #. module: purchase
 #: model_terms:web_tour.tour,rainbow_man_message:purchase.purchase_tour
 msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span><b>Dobar posao!</b> Prošli ste sve korake ove ture.</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -16305,7 +16423,10 @@ msgstr "<strong class=\"d-block mb-1\">Računi</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16839,6 +16960,7 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -17631,6 +17753,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Adresa za dostavu</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
@@ -17645,7 +17772,11 @@ msgstr "<strong>Iznos</strong>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Buyer</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kupac</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
@@ -17706,6 +17837,7 @@ msgid "<strong>Request For Quotation Date:</strong>"
 msgstr "<strong>Datum zahtjeva za nabavom:</strong>"
 
 #. module: purchase
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18508,6 +18640,8 @@ msgstr "<strong>Adresa isporuke</strong>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Taxes</strong>"
 msgstr "<strong>Porezi</strong>"
@@ -18554,6 +18688,12 @@ msgid ""
 "supplier to deliver goods or services to the buyer at a preset price for a "
 "period of time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Okvirni nalog za nabavu je sporazum o kupnji između kupca i dobavljača za "
+"isporuku robe ili usluga kupcu po unaprijed određenoj cijeni tijekom "
+"određenog razdoblja."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -18590,6 +18730,7 @@ msgstr "Upozorenje pristupa"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19191,6 +19332,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -19396,6 +19539,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19804,7 +19950,11 @@ msgstr "Temeljnica"
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_accrued_expense_entry
 msgid "Accrued Expense Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Temeljnica razgraničenog troška"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_needaction
@@ -19834,7 +19984,11 @@ msgstr "Ikona tipa aktivnosti"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
 msgid "Add Down Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj predujam"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.bill_to_po_wizard_form
@@ -19929,7 +20083,11 @@ msgstr "Dopusti uređivanje nabavnih naloga"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__aml_id
 msgid "Aml"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka dnevnika"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__amount
@@ -19980,7 +20138,11 @@ msgstr "Odobri nalog"
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Are you sure you want to cancel the selected RFQs/Orders?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jeste li sigurni da želite otkazati odabrane zahtjeve za ponudu/naloge?"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_attachment_count
@@ -20078,7 +20240,11 @@ msgstr "Usklađivanje računa"
 #. module: purchase
 #: model:ir.model,name:purchase.model_bill_to_po_wizard
 msgid "Bill to Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun u nalog za nabavu"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
@@ -20427,7 +20593,11 @@ msgid "Connect with your software!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povežite se sa svojim softverom!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povežite se sa svojim softverom!"
 >>>>>>> upstream/18.0
@@ -21005,7 +21175,11 @@ msgid "Connect your software"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povežite svoj softver"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povežite svoj softver"
 >>>>>>> upstream/18.0
@@ -21553,6 +21727,7 @@ msgstr "Dana"
 #: model:ir.model.fields,field_description:purchase.field_res_partner__reminder_date_before_receipt
 #: model:ir.model.fields,field_description:purchase.field_res_users__reminder_date_before_receipt
 msgid "Days Before Receipt"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22414,6 +22589,9 @@ msgstr "Dani prije primitka"
 =======
 msgstr "Dani prije primitka"
 >>>>>>> upstream/18.0
+=======
+msgstr "Dani prije primitka"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__delay
@@ -22584,6 +22762,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zadana vrijednost ovisno o tome uključuje li prodajna cijena korištena za "
+"proizvod i fakture ove tvrtke poreze."
+>>>>>>> upstream/18.0
 =======
 "Zadana vrijednost ovisno o tome uključuje li prodajna cijena korištena za "
 "proizvod i fakture ove tvrtke poreze."
@@ -23381,8 +23564,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Datum isporuke koji je obećan od strane dobavljača. Ovaj datum koristi se za"
 " određivanje očekivanog datuma primitka proizvoda."
+=======
+"Datum isporuke koji je obećan od strane dobavljača. Ovaj datum koristi se za "
+"određivanje očekivanog datuma primitka proizvoda."
+>>>>>>> upstream/18.0
 =======
 "Datum isporuke koji je obećan od strane dobavljača. Ovaj datum koristi se za "
 "određivanje očekivanog datuma primitka proizvoda."
@@ -24417,6 +24605,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Povucite i ispustite PDF datoteku zahtjeva za ponudu na svoj popis ponuda u "
+"Odoo-u. Uživajte u automatizaciji!"
+>>>>>>> upstream/18.0
 =======
 "Povucite i ispustite PDF datoteku zahtjeva za ponudu na svoj popis ponuda u "
 "Odoo-u. Uživajte u automatizaciji!"
@@ -24993,7 +25186,11 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
 msgid "Dropship Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adresa dropshippinga"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_planned
@@ -25021,12 +25218,20 @@ msgstr "Fiskalna pozicija"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 msgid "Follow orders you have to fulfill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratite naloge koje trebate ispuniti"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 msgid "Follow your Requests for Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratite svoje zahtjeve za ponudu"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_follower_ids
@@ -25058,7 +25263,11 @@ msgstr "Od %s"
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iz elektroničkog dokumenta"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__invoice_status__invoiced
@@ -25186,6 +25395,12 @@ msgid ""
 "In selected purchase order to merge these details must be same\n"
 "Vendor, currency, destination, dropship address and agreement"
 msgstr ""
+<<<<<<< HEAD
+=======
+"U odabranim nalozima za nabavu koji se spajaju, ovi detalji moraju biti "
+"isti\n"
+"Dobavljač, valuta, odredište, adresa dropshippinga i ugovor"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_view_search_catalog
@@ -25333,7 +25548,11 @@ msgid "In the Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "U narudžbi"
+>>>>>>> upstream/18.0
 =======
 msgstr "U narudžbi"
 >>>>>>> upstream/18.0
@@ -25767,6 +25986,7 @@ msgstr "U narudžbi"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__incoterm_id
 msgid "Incoterm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26628,6 +26848,9 @@ msgstr "Incoterm"
 =======
 msgstr "Incoterm"
 >>>>>>> upstream/18.0
+=======
+msgstr "Incoterm"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
@@ -26674,7 +26897,11 @@ msgstr "Je u Nalogu za nabavu"
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__is_purchase_matched
 #: model:ir.model.fields,field_description:purchase.field_account_move__is_purchase_matched
 msgid "Is Purchase Matched"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je li nabava uparena"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_move
@@ -26932,8 +27159,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -28002,7 +28234,11 @@ msgid "Manage blanket orders and purchase templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje općim narudžbama i predlošcima kupnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljanje općim narudžbama i predlošcima kupnje"
 >>>>>>> upstream/18.0
@@ -28868,8 +29104,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -29874,8 +30115,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -30895,7 +31141,11 @@ msgid "Match"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odgovarajuće"
+=======
+msgstr "Poveži stavku izvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poveži stavku izvoda"
 >>>>>>> upstream/18.0
@@ -31641,6 +31891,7 @@ msgstr "Ime, OIB, e-pošta ili referenca"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -31660,6 +31911,14 @@ msgstr "Najnoviji"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "New"
+msgstr "Novo"
+
+#. module: purchase
+#. odoo-python
 >>>>>>> upstream/18.0
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Newest"
@@ -31909,7 +32168,11 @@ msgid "No Purchase Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema analize nabave"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema analize nabave"
 >>>>>>> upstream/18.0
@@ -32569,7 +32832,11 @@ msgstr "Nije pronađen nalog za narudžbu. Stvorimo ga!"
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_history
 msgid "No purchase order were made for this product yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nije kreiran nijedan nalog za nabavu za ovaj proizvod!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
@@ -32667,6 +32934,7 @@ msgid ""
 "Once you get the price from the vendor, you can complete the purchase order "
 "with the right price."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33664,6 +33932,10 @@ msgstr ""
 "Kada dobijete cijenu od strane dobavljača, možete dovršiti narudžbu s točnom "
 "cijenom."
 >>>>>>> upstream/18.0
+=======
+"Kada dobijete cijenu od strane dobavljača, možete dovršiti narudžbu s točnom "
+"cijenom."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_form_action
@@ -33740,7 +34012,11 @@ msgstr "Nalozi"
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "Order due %(date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog dospijeva %(date)s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -33791,6 +34067,7 @@ msgid ""
 "Please select at least two purchase orders with state RFQ and RFQ sent to "
 "merge."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: purchase
 <<<<<<< HEAD
@@ -34993,6 +35270,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__pol_id
 msgid "Pol"
 msgstr ""
+=======
+"Molimo odaberite najmanje dva naloga za nabavu u stanju zahtjev za ponudu "
+"ili poslani zahtjev za ponudu za spajanje."
+
+#. module: purchase
+#. odoo-python
+#: code:addons/purchase/models/purchase_bill_line_match.py:0
+msgid "Please select bill lines with the same vendor."
+msgstr "Molimo odaberite stavke računa s istim dobavljačem."
+
+#. module: purchase
+#: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__pol_id
+msgid "Pol"
+msgstr "Stavka NN"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_url
@@ -35076,12 +35368,20 @@ msgstr "Tip proizvoda"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_price
 msgid "Product Uom Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cijena po JM proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_line_match__product_uom_qty
 msgid "Product Uom Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Količina po JM proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_product
@@ -35178,13 +35478,21 @@ msgstr "Vodeće vrijeme nabave"
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_bill_line_match
 msgid "Purchase Line and Vendor Bill line matching view"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaz uparivanja stavke nabave i stavke ulaznog računa"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "Purchase Matching"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uparivanje nabave"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -35582,8 +35890,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Navedite adresu ako želite da dobavljač izvrši dostavu direktno kupcu, inače"
 " ostavite prazno polje za isporuku u Vašu tvrtku."
+=======
+"Navedite adresu ako želite da dobavljač izvrši dostavu direktno kupcu, inače "
+"ostavite prazno polje za isporuku u Vašu tvrtku."
+>>>>>>> upstream/18.0
 =======
 "Navedite adresu ako želite da dobavljač izvrši dostavu direktno kupcu, inače "
 "ostavite prazno polje za isporuku u Vašu tvrtku."
@@ -36778,8 +37091,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -37786,8 +38104,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Referenca prodajnog naloga ili ponude koju je poslao prodavač. Koristi se za"
 " povezivanje kada primite proizvode jer je ova referenca obično napisana na "
+=======
+"Referenca prodajnog naloga ili ponude koju je poslao prodavač. Koristi se za "
+"povezivanje kada primite proizvode jer je ova referenca obično napisana na "
+>>>>>>> upstream/18.0
 =======
 "Referenca prodajnog naloga ili ponude koju je poslao prodavač. Koristi se za "
 "povezivanje kada primite proizvode jer je ova referenca obično napisana na "
@@ -38837,12 +39160,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 msgstr ""
 "Zahtjevi za ponudom su dokumenti koji će biti poslani Vašim dobavljačima kako bi ste zatražili cijene različitih proizvoda čiju kupnju razmatrate\n"
 "                Kada je postignut sporazum s dobavljačem, on će biti potvrđen te pretvoren u nalog za nabavu."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39446,6 +39772,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39901,7 +40230,11 @@ msgstr "Sigurnosni token"
 #. odoo-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Select Vendor Bill lines to add to a Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite stavke ulaznog računa za dodavanje u nalog za nabavu"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
@@ -39925,6 +40258,7 @@ msgid ""
 "block the flow. The Message has to be written in the next field."
 msgstr ""
 "Odabirom opcije \"Upozorenje\" obavijestit ćete korisnika porukom, odabirom "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40922,6 +41256,10 @@ msgstr ""
 "opcije \"Blokiranje poruke\" učinit ćete izuzetak s porukom i blokirati tok. "
 "Poruku treba napisati u sljedećem polju."
 >>>>>>> upstream/18.0
+=======
+"opcije \"Blokiranje poruke\" učinit ćete izuzetak s porukom i blokirati tok. "
+"Poruku treba napisati u sljedećem polju."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -40969,6 +41307,11 @@ msgstr "Poslano dobavljaču za Nalogom za nabavu u privitku"
 msgid ""
 "Sent to vendors before expected arrival, based on the purchase order setting"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Šalje se dobavljačima prije očekivanog dolaska, na temelju postavke naloga "
+"za nabavu"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__sequence
@@ -41159,7 +41502,11 @@ msgid "Start on Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Započni na Odoou"
+>>>>>>> upstream/18.0
 =======
 msgstr "Započni na Odoou"
 >>>>>>> upstream/18.0
@@ -41722,7 +42069,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Županija/fed.država"
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status"
 >>>>>>> upstream/18.0
@@ -42141,17 +42492,29 @@ msgstr "Podzbroj"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Qty Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zbroj fakturirane količine"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Qty Ordered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zbroj naručene količine"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Qty Received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zbroj primljene količine"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
@@ -42299,7 +42662,11 @@ msgid "Sum of Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zbroj ukupnog iznosa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zbroj ukupnog iznosa"
 >>>>>>> upstream/18.0
@@ -42876,7 +43243,11 @@ msgid "Sum of Untaxed Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zbroj neoporezovanog ukupnog iznosa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zbroj neoporezovanog ukupnog iznosa"
 >>>>>>> upstream/18.0
@@ -43636,7 +44007,11 @@ msgid "The RFQ has been acknowledged by %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ZZP je priznat od strane %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "ZZP je priznat od strane %s."
 >>>>>>> upstream/18.0
@@ -44620,7 +44995,11 @@ msgid "The order receipt has been acknowledged by %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primitak narudžbe je potvrđen od strane %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Primitak narudžbe je potvrđen od strane %s."
 >>>>>>> upstream/18.0
@@ -45560,7 +45939,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -46566,8 +46950,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -47381,7 +47770,11 @@ msgstr "Trenutno nemate zahtjeva za ponudama."
 #: code:addons/purchase/wizard/bill_to_po_wizard.py:0
 msgid ""
 "There are no products to add to the Purchase Order. Are these Down Payments?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema proizvoda za dodavanje u nalog za nabavu. Jesu li ovo predujmovi?"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -47396,6 +47789,7 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48042,6 +48436,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This analysis allows you to easily check and analyse your company purchase "
 "history and performance.\n"
 "                You can track your negotiation performance, the delivery "
@@ -48245,6 +48641,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48860,6 +49259,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49465,6 +49867,11 @@ msgid ""
 "Unable to cancel purchase order(s): %s. You must first cancel their related "
 "vendor bills."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nije moguće otkazati nalog(e) za nabavu: %s. Prvo morate otkazati povezane "
+"ulazne račune."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_bill_line_match_tree
@@ -49480,7 +49887,11 @@ msgstr "Jedinična cijena"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_unit_discounted
 msgid "Unit Price (Discounted)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinična cijena (s popustom)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -49700,6 +50111,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Upotrijebite gornji REST URL za dobivanje strukturiranih podataka "
+"narudžbenice u UBL formatu."
+>>>>>>> upstream/18.0
 =======
 "Upotrijebite gornji REST URL za dobivanje strukturiranih podataka "
 "narudžbenice u UBL formatu."
@@ -50308,7 +50724,11 @@ msgstr "Ulazni račun"
 #. odoo-python
 #: code:addons/purchase/models/purchase_bill_line_match.py:0
 msgid "Vendor Bill lines can only be added to one Purchase Order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavke ulaznog računa mogu se dodati samo u jedan nalog za nabavu."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
@@ -50541,7 +50961,11 @@ msgid "Want to import this document in Odoo?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želite li uvesti ovaj dokument u Odoo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Želite li uvesti ovaj dokument u Odoo?"
 >>>>>>> upstream/18.0
@@ -51219,8 +51643,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
+=======
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+>>>>>>> upstream/18.0
 =======
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
@@ -52220,9 +52649,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "postotak pre nizak, aktivirajte <i>automatske podsjetnike</i>. Nekoliko dana"
 " prije nego što pošiljka treba biti zaprimljena, Odoo će dobavljaču poslati "
 "e-mail za potvrdu datuma slanja pošiljke i informirati Vas u slučaju bilo "
+=======
+"postotak pre nizak, aktivirajte <i>automatske podsjetnike</i>. Nekoliko dana "
+"prije nego što pošiljka treba biti zaprimljena, Odoo će dobavljaču poslati e-"
+"mail za potvrdu datuma slanja pošiljke i informirati Vas u slučaju bilo "
+>>>>>>> upstream/18.0
 =======
 "postotak pre nizak, aktivirajte <i>automatske podsjetnike</i>. Nekoliko dana "
 "prije nego što pošiljka treba biti zaprimljena, Odoo će dobavljaču poslati e-"
@@ -53453,8 +53888,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nije moguće promijeniti vrstu stavke naloga za nabavu. Umjesto toga potrebno"
 " je izbrisati trenutnu stavku te stvoriti novu stavku ispravne vrste."
+=======
+"Nije moguće promijeniti vrstu stavke naloga za nabavu. Umjesto toga potrebno "
+"je izbrisati trenutnu stavku te stvoriti novu stavku ispravne vrste."
+>>>>>>> upstream/18.0
 =======
 "Nije moguće promijeniti vrstu stavke naloga za nabavu. Umjesto toga potrebno "
 "je izbrisati trenutnu stavku te stvoriti novu stavku ispravne vrste."
@@ -54398,7 +54838,11 @@ msgid "You don't use a good CRM software?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne koristite dobar CRM softver?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne koristite dobar CRM softver?"
 >>>>>>> upstream/18.0
@@ -55035,7 +55479,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                bez obzira na to radi li se o uskladištivom proizvodu, potrošnom materijalu ili usluzi."
+=======
+"                bez obzira na to radi li se o uskladištivom proizvodu, "
+"potrošnom materijalu ili usluzi."
+>>>>>>> upstream/18.0
 =======
 "                bez obzira na to radi li se o uskladištivom proizvodu, "
 "potrošnom materijalu ili usluzi."
@@ -56039,7 +56488,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                bez obzira na to radi li se o uskladištivom proizvodu, potrošnom materijalu ili usluzi."
+=======
+"                bez obzira na to radi li se o uskladištivom proizvodu, "
+"potrošnom materijalu ili usluzi."
+>>>>>>> upstream/18.0
 =======
 "                bez obzira na to radi li se o uskladištivom proizvodu, "
 "potrošnom materijalu ili usluzi."
@@ -56843,11 +57297,17 @@ msgstr ""
 msgid ""
 "You must select at least one Purchase Order line to match or create bill."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Morate odabrati najmanje jednu stavku naloga za nabavu za uparivanje ili "
+"kreiranje računa."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57053,6 +57513,8 @@ msgstr ""
 "Vaša ponuda sadrži proizvode tvrtke %(product_company)s dok Vaša ponuda pripada tvrtki %(quote_company)s. \n"
 " Molimo promijenite tvrtku Vaše ponude ili uklonite proizvode drugih tvrtki (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57656,6 +58118,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58222,7 +58687,11 @@ msgid "to create quotes automatically."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "za automatsko kreiranje ponuda."
+>>>>>>> upstream/18.0
 =======
 msgstr "za automatsko kreiranje ponuda."
 >>>>>>> upstream/18.0
@@ -58799,7 +59268,11 @@ msgid "to learn all the ways to connect your software with"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "naučiti sve načine povezivanja vašeg softvera s"
+>>>>>>> upstream/18.0
 =======
 msgstr "naučiti sve načine povezivanja vašeg softvera s"
 >>>>>>> upstream/18.0
@@ -59440,8 +59913,12 @@ msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "{{ object.company_id.name }} Narudžba (Ref {{ object.name or 'n/a' }})"
+=======
+msgstr "{{ object.company_id.name }} Narudžba (Ref {{ object.name or 'n/a' }})"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.company_id.name }} Narudžba (Ref {{ object.name or 'n/a' }})"
 >>>>>>> upstream/18.0

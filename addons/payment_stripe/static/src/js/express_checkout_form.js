@@ -285,6 +285,7 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const orderDeliveryAmount = parseInt(this.paymentContext['deliveryAmount'])
         let minorAmount = parseInt(this.paymentContext['minorAmount'])
         if (orderDeliveryAmount) { // The delivery method is set on the order.
@@ -1095,6 +1096,9 @@ paymentExpressCheckoutForm.include({
 =======
         let minorAmount = parseInt(this.paymentContext['minorAmount'] || 0)
 >>>>>>> upstream/18.0
+=======
+        let minorAmount = parseInt(this.paymentContext['minorAmount'] || 0)
+>>>>>>> upstream/18.0
         const displayItems = [
             {
                 label: _t("Your order"),
@@ -1241,6 +1245,7 @@ paymentExpressCheckoutForm.include({
             // shipping address, the shipping options need to be fetched again.
             paymentRequest.on('shippingaddresschange', async (ev) => {
                 // Call the shipping address update route to fetch the shipping options.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2314,6 +2319,9 @@ paymentExpressCheckoutForm.include({
 =======
                 const availableCarriersData = await rpc(
 >>>>>>> upstream/18.0
+=======
+                const availableCarriersData = await rpc(
+>>>>>>> upstream/18.0
                     this.paymentContext['shippingAddressUpdateRoute'],
                     {
                         partial_delivery_address: {
@@ -2324,6 +2332,7 @@ paymentExpressCheckoutForm.include({
                         },
                     },
                 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4875,6 +4884,19 @@ paymentExpressCheckoutForm.include({
 =======
                         shippingOptions: delivery_methods.map(carrier => ({
 >>>>>>> upstream/18.0
+=======
+                const recomputedAmount = await rpc(
+                    this.paymentContext['shippingAddressUpdateRoute'] + '/compute_taxes',
+                );
+                const { delivery_methods, delivery_discount_minor_amount } = availableCarriersData;
+                if (delivery_methods.length === 0 || recomputedAmount.external_tax_error) {
+                    ev.updateWith({status: 'invalid_shipping_address'});
+                } else {
+                    this.paymentContext['minorAmount'] = recomputedAmount;
+                    ev.updateWith({
+                        status: 'success',
+                        shippingOptions: delivery_methods.map(carrier => ({
+>>>>>>> upstream/18.0
                             id: String(carrier.id),
                             label: carrier.name,
                             detail: carrier.description ? carrier.description:'',
@@ -5148,8 +5170,11 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ...this._getOrderDetails(availableCarriers[0].minorAmount),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5955,6 +5980,9 @@ paymentExpressCheckoutForm.include({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

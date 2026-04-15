@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* pos_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +407,10 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * pos_sale
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
 # Vladimir Vrgoč, 2024
@@ -414,6 +419,7 @@
 # hrvoje sić <hrvoje.sic@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Jurica Pomper, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1376,10 +1382,15 @@
 # Luka Carević <luka@uvid.hr>, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2154,6 +2165,13 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Luka Carević <luka@uvid.hr>, 2025\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-04-14 08:28+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"pos_sale/hr/>\n"
+>>>>>>> upstream/18.0
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2260,6 +2278,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2460,46 +2479,78 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/orderline/orderline.xml:0
 msgid "(tax incl.)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(s porezom)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
 msgid "<span style=\"margin: 0px 5px;\">:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span style=\"margin: 0px 5px;\">:</span>"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "A new order has been created."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiran je novi nalog."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__amount_unpaid
 msgid "Amount To Pay In POS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznos za platiti na POS-u"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,help:pos_sale.field_sale_order__amount_unpaid
 msgid "Amount left to pay in POS to avoid double payment or double invoicing."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Preostali iznos za plaćanje na POS-u kako bi se izbjeglo dvostruko plaćanje "
+"ili dvostruko fakturiranje."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (fixed amount)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primijeni predujam (fiksni iznos)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (percentage)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primijeni predujam (postotak)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_res_config_settings
@@ -2514,7 +2565,11 @@ msgstr "Tečaj"
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.message_body
 msgid "Delivered from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isporučeno od"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__qty_delivered
@@ -2525,7 +2580,11 @@ msgstr "Količina za isporuku"
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Do you want to load the SN/Lots linked to the Sales Order?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želite li učitati serijske brojeve/serije povezane s prodajnim nalogom?"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
@@ -2751,7 +2810,11 @@ msgid "Down Payment (POS)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predujam (POS)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predujam (POS)"
 >>>>>>> upstream/18.0
@@ -3401,7 +3464,11 @@ msgstr "Predujam (POS)"
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
 msgid "Down Payment Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji predujma"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_config__down_payment_product_id
@@ -3417,12 +3484,21 @@ msgid ""
 "Down payment (ref: %(order_reference)s on \n"
 " %(date)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Predujam (ref: %(order_reference)s dana \n"
+" %(date)s)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Due balance: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostalo dugovanje: %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
@@ -3447,29 +3523,50 @@ msgid ""
 "It seems that you didn't configure a down payment product in your point of "
 "sale. You can go to your point of sale configuration to choose one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Izgleda da niste konfigurirali proizvod predujma u vašem prodajnom mjestu. "
+"Možete otići u konfiguraciju prodajnog mjesta i odabrati ga."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-python
 #: code:addons/pos_sale/models/sale_order.py:0
 msgid "Linked POS Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani POS nalozi"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
 msgid "Linked Sale Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani prodajni nalog"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-python
 #: code:addons/pos_sale/models/pos_order.py:0
 msgid "Linked Sale Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani prodajni nalozi"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "No down payment product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema proizvoda predujma"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_crm_team__pos_sessions_open_count
@@ -3479,13 +3576,21 @@ msgstr ""
 #. module: pos_sale
 #: model:ir.actions.act_window,name:pos_sale.pos_session_action_from_crm_team
 msgid "Open Sessions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvorene sesije"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Optional Products:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neobavezni proizvodi:"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_report__order_reference
@@ -3496,7 +3601,11 @@ msgstr "Narudžba"
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__pos_order_line_ids
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
 msgid "Order lines Transfered to Point of Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavke naloga prenesene na prodajno mjesto"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields.selection,name:pos_sale.selection__sale_report__order_reference__pos_order
@@ -3716,7 +3825,11 @@ msgid "POS Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS narudžba"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS narudžba"
 >>>>>>> upstream/18.0
@@ -4418,13 +4531,21 @@ msgstr "Ponuda/Nalog"
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "SN/Lots Loading"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učitavanje serijskih brojeva/serija"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/orderline/orderline.xml:0
 msgid "SO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajni nalog"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__sale_order_count
@@ -4463,7 +4584,11 @@ msgstr "Prodajni tim"
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "Sales Team (PoS)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajni tim (POS)"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
@@ -4683,7 +4808,11 @@ msgid "Sales are reported to the following sales team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaja se prijavljuje sljedećem prodajnom timu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodaja se prijavljuje sljedećem prodajnom timu"
 >>>>>>> upstream/18.0
@@ -5349,7 +5478,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Set Sale Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavi prodajni nalog"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
@@ -5360,7 +5493,11 @@ msgstr "Obradi nalog"
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorna stavka prodajnog naloga"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_sale_report__state
@@ -5379,7 +5516,11 @@ msgstr "Stopa valute prema valuti važećoj na datum narudžbe"
 #: model:ir.model.fields,help:pos_sale.field_pos_session__crm_team_id
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "This Point of sale's sales will be related to this Sales Team."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaje ovog prodajnog mjesta bit će povezane s ovim prodajnim timom."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
@@ -5599,7 +5740,11 @@ msgid "This product will be applied when down payment is made"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj proizvod će se primijeniti prilikom uplate predujma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj proizvod će se primijeniti prilikom uplate predujma"
 >>>>>>> upstream/18.0
@@ -6250,7 +6395,11 @@ msgstr "Ovaj proizvod će se primijeniti prilikom uplate predujma"
 #: model:ir.model.fields,help:pos_sale.field_pos_config__down_payment_product_id
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_down_payment_product_id
 msgid "This product will be used as down payment on a sale order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj proizvod će se koristiti kao predujam na prodajnom nalogu."
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_stock_picking
@@ -6263,6 +6412,11 @@ msgid ""
 "Transferred<br/>\n"
 "                                from Sale"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Preneseno<br/>\n"
+"                                iz prodaje"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.view_order_form_inherit_pos_sale
@@ -6293,7 +6447,10 @@ msgstr "od"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6307,6 +6464,9 @@ msgid "x"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

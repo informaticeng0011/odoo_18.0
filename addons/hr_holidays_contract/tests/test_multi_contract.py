@@ -500,7 +500,11 @@ class TestHolidaysMultiContract(TestHolidayContract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'requires_allocation': 'yes',
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -1267,7 +1271,10 @@ class TestHolidaysMultiContract(TestHolidayContract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1634,6 +1641,9 @@ class TestHolidaysMultiContract(TestHolidayContract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

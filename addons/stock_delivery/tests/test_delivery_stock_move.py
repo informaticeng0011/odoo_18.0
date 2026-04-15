@@ -215,8 +215,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -865,6 +868,9 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1765,7 +1771,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2448,6 +2457,7 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2879,13 +2889,20 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 
     @freeze_time("2024-06-06 11:00")
 >>>>>>> upstream/18.0
+=======
+
+    @freeze_time("2024-06-06 11:00")
+>>>>>>> upstream/18.0
     def test_delivery_slip_product_value(self):
         """Test that product value reported on the delivery slip is correct.
         """
         product = self.product_cable_management_box
         tax = self.company_data['default_tax_sale']
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         other_currency = self.setup_other_currency('EUR', rates=[
             ('2024-06-06', 0.1),
         ])
@@ -2894,12 +2911,19 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
             'currency_id': other_currency.id,
         })
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         sale_order = self.env['sale.order'].create({
             'partner_id': self.partner_a.id,
             'partner_invoice_id': self.partner_a.id,
             'partner_shipping_id': self.partner_a.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pricelist_id': pricelist_in_other_curr.id,
+>>>>>>> upstream/18.0
 =======
             'pricelist_id': pricelist_in_other_curr.id,
 >>>>>>> upstream/18.0
@@ -2944,6 +2968,9 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

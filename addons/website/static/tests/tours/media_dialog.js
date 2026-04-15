@@ -155,6 +155,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    clickOnEditAndWaitEditMode,
+>>>>>>> upstream/18.0
 =======
     clickOnEditAndWaitEditMode,
 >>>>>>> upstream/18.0
@@ -962,7 +966,10 @@ registerWebsitePreviewTour("website_media_dialog_insert_media", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1491,6 +1498,9 @@ registerWebsitePreviewTour("website_replace_remove_image", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

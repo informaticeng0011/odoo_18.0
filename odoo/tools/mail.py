@@ -214,6 +214,10 @@ safe_attrs = defs.safe_attrs | frozenset(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     'data-bs-toggle',  # support nav-tabs
+>>>>>>> upstream/18.0
 =======
      'data-bs-toggle',  # support nav-tabs
 >>>>>>> upstream/18.0
@@ -678,7 +682,11 @@ class _Cleaner(clean.Cleaner):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'float', 'vertical-align', 'display', 'object-fit',
+=======
+        'float', 'vertical-align', 'display', 'object-fit', 'direction',
+>>>>>>> upstream/18.0
 =======
         'float', 'vertical-align', 'display', 'object-fit', 'direction',
 >>>>>>> upstream/18.0
@@ -1056,6 +1064,11 @@ def html_normalize(src, filter_callback=None, output_method="html"):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    doc = html.fromstring(html.tostring(doc, method=output_method))
+
+>>>>>>> upstream/18.0
 =======
     doc = html.fromstring(html.tostring(doc, method=output_method))
 
@@ -1969,7 +1982,12 @@ def html2plaintext(html, body_id=None, encoding='utf-8', include_references=True
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def plaintext2html(text, container_tag=None):
+=======
+
+def plaintext2html(text, container_tag=None, with_paragraph=True):
+>>>>>>> upstream/18.0
 =======
 
 def plaintext2html(text, container_tag=None, with_paragraph=True):
@@ -2644,9 +2662,13 @@ def plaintext2html(text, container_tag=None, with_paragraph=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - enclose content into ``<p>``
     - convert url into clickable link
     - 2 or more consecutive ``<br/>`` are considered as paragraph breaks
+=======
+    - convert url into clickable link
+>>>>>>> upstream/18.0
 =======
     - convert url into clickable link
 >>>>>>> upstream/18.0
@@ -3187,6 +3209,11 @@ def plaintext2html(text, container_tag=None, with_paragraph=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    :param with_paragraph: whether or not considering 2 or more consecutive ``<br/>``
+        as paragraph breaks and enclosing content in ``<p>``
+>>>>>>> upstream/18.0
 =======
     :param with_paragraph: whether or not considering 2 or more consecutive ``<br/>``
         as paragraph breaks and enclosing content in ``<p>``
@@ -3869,6 +3896,7 @@ def plaintext2html(text, container_tag=None, with_paragraph=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     idx = 0
     final = '<p>'
     br_tags = re.compile(r'(([<]\s*[bB][rR]\s*/?[>]\s*){2,})')
@@ -3877,6 +3905,8 @@ def plaintext2html(text, container_tag=None, with_paragraph=True):
         idx = item.end()
     final += text[idx:] + '</p>'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4285,6 +4315,9 @@ def plaintext2html(text, container_tag=None, with_paragraph=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

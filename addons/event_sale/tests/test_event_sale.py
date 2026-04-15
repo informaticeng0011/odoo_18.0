@@ -308,7 +308,10 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -567,6 +570,9 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -856,6 +862,12 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        """ Test that the price of the ticket and the `sale_price_total` are
+        correctly converted when using another currency.
+        """
+>>>>>>> upstream/18.0
 =======
         """ Test that the price of the ticket and the `sale_price_total` are
         correctly converted when using another currency.
@@ -905,8 +917,14 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         currency_VEF = _prepare_currency(self, 'VEF')
         currency_USD = _prepare_currency(self, 'USD')
+=======
+        currency_USD = _prepare_currency(self, 'USD')
+        currency_VEF = _prepare_currency(self, 'VEF')
+        currency_VEF.rate_ids.rate = 5.0
+>>>>>>> upstream/18.0
 =======
         currency_USD = _prepare_currency(self, 'USD')
         currency_VEF = _prepare_currency(self, 'VEF')
@@ -957,6 +975,10 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        currency_VEF.rate_ids.company_id = company_test
+>>>>>>> upstream/18.0
 =======
         currency_VEF.rate_ids.company_id = company_test
 >>>>>>> upstream/18.0
@@ -1028,7 +1050,10 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1054,6 +1079,9 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1082,7 +1110,10 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1110,6 +1141,9 @@ class TestEventSale(TestEventSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

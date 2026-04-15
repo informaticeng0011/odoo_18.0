@@ -36,5 +36,10 @@ class ResPartner(models.Model):
         if not company:
             company = self.env.company
         self_partner = self.with_company(company)
+<<<<<<< HEAD
         self_partner._nemhandel_fill_participant_supported_documents()
+=======
+        if self_partner.nemhandel_verification_state == 'valid':
+            self_partner._nemhandel_fill_participant_supported_documents()
+>>>>>>> upstream/18.0
         return False

@@ -302,6 +302,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import unittest
+>>>>>>> upstream/18.0
 =======
 import unittest
 >>>>>>> upstream/18.0
@@ -1523,7 +1527,10 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2437,6 +2444,12 @@ class TestPaymentTransaction(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if 'product.product' not in cls.env:
+            raise unittest.SkipTest("requires product")
+
+>>>>>>> upstream/18.0
 =======
         if 'product.product' not in cls.env:
             raise unittest.SkipTest("requires product")

@@ -4,7 +4,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { insertSnippet, registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+=======
+import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
+>>>>>>> upstream/18.0
 =======
 import { registerWebsitePreviewTour } from "@website/js/tours/tour_utils";
 >>>>>>> upstream/18.0
@@ -45,7 +49,11 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Add the s_title into the forum cover.",
+=======
+            content: "Select the 'Title' snippet in the dialog.",
+>>>>>>> upstream/18.0
 =======
             content: "Select the 'Title' snippet in the dialog.",
 >>>>>>> upstream/18.0
@@ -74,6 +82,7 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Check that the s_title was inserted in the forum cover.",
             trigger: ":iframe .s_cover .s_title",
         },
@@ -87,6 +96,8 @@ registerWebsitePreviewTour(
             content: "Check that the s_text was inserted in the forum cover.",
             trigger: ":iframe .s_cover .s_text_block",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119,6 +130,9 @@ registerWebsitePreviewTour(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
