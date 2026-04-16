@@ -1058,7 +1058,11 @@ class IrActionsServer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        elif self.update_path:
+>>>>>>> upstream/18.0
 =======
         elif self.update_path:
 >>>>>>> upstream/18.0
@@ -2137,6 +2141,10 @@ class IrActionsServer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    eval_context['records'] = eval_context['record'] = records.browse(active_id)
+>>>>>>> upstream/18.0
 =======
                     eval_context['records'] = eval_context['record'] = records.browse(active_id)
 >>>>>>> upstream/18.0
@@ -3353,6 +3361,7 @@ class IrActionsActClient(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_default_form_view(self):
         doc = super(IrActionsActClient, self)._get_default_form_view()
         params = doc.find(".//field[@name='params']")
@@ -3361,6 +3370,8 @@ class IrActionsActClient(models.Model):
         params_store.getparent().remove(params_store)
         return doc
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

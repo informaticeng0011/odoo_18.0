@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+from odoo import Command
+
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -627,7 +633,11 @@ class TestMultiCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({'name': 'Deco Addict'})
+=======
+        partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
+>>>>>>> upstream/18.0
 =======
         partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
 >>>>>>> upstream/18.0
@@ -1038,7 +1048,10 @@ class TestMultiCompany(TransactionCase):
                 })
             ]})
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_quants_visibility_with_multi_company_receipt(self):
         """Tests that validating a receipt with both companies selected
@@ -1073,4 +1086,7 @@ class TestMultiCompany(TransactionCase):
         quants_company_b = self.env['stock.quant'].with_company(self.company_b).search(domain_b)
         self.assertTrue(quants_company_a)
         self.assertFalse(quants_company_b)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

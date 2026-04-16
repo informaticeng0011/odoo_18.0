@@ -29,7 +29,15 @@ def _mock_call_nemhandel_proxy(func, self, *args, **kwargs):
 
     def _mock_get_document(user, args, kwargs):
         message_uuid = args[1]['message_uuids'][0]
+<<<<<<< HEAD
         return {message_uuid: {'state': 'done'}}
+=======
+        return {message_uuid: {
+            'state': 'done',
+            'origin_message_uuid': message_uuid,
+            'document_type': 'Invoice'
+        }}
+>>>>>>> upstream/18.0
 
     def _mock_send_document(user, args, kwargs):
         # Trigger the reception of vendor bills

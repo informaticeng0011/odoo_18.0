@@ -386,7 +386,10 @@ debugRegistry.category("form").add("viewMetadata", viewMetadata);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1046,6 +1049,9 @@ function sortKeysDeep(obj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1711,7 +1717,11 @@ class RawRecordDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return JSON.stringify(record, Object.keys(record).sort(), 2);
+=======
+        return JSON.stringify(sortKeysDeep(record), null, 2);
+>>>>>>> upstream/18.0
 =======
         return JSON.stringify(sortKeysDeep(record), null, 2);
 >>>>>>> upstream/18.0
@@ -2584,7 +2594,11 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { resId, resModel } = component.model.config;
+=======
+    const { resId, resModel, fields } = component.model.config;
+>>>>>>> upstream/18.0
 =======
     const { resId, resModel, fields } = component.model.config;
 >>>>>>> upstream/18.0
@@ -3473,6 +3487,7 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const records = await component.model.orm.read(resModel, [resId]);
 =======
 =======
@@ -3496,6 +3511,8 @@ export function viewRawRecord({ component, env }) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4146,6 +4163,9 @@ export function viewRawRecord({ component, env }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

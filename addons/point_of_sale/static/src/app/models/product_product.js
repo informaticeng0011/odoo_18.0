@@ -317,8 +317,11 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get_price(pricelist, quantity, price_extra = 0, recurring = false, list_price = false) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -889,6 +892,9 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1466,9 +1472,12 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let price = (list_price || this.lst_price) + (price_extra || 0);
         const rule = this.getPricelistRule(pricelist, quantity);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2042,6 +2051,9 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2459,7 +2471,26 @@ export class ProductProduct extends Base {
 
     getPricelistRule(pricelist, quantity) {
         const rules = !pricelist ? [] : this.cachedPricelistRules[pricelist?.id] || [];
+<<<<<<< HEAD
         return rules.find((rule) => !rule.min_quantity || quantity >= rule.min_quantity);
+=======
+        const applicableRules = rules.filter(
+            (rule) => !rule.min_quantity || quantity >= rule.min_quantity
+        );
+        if (!applicableRules) {
+            return undefined;
+        }
+        const productIdRule = applicableRules?.find(
+            (rule) => rule.product_id && rule.product_id.id === this.id
+        );
+        const productTmplIdRule = applicableRules?.find(
+            (rule) => rule.product_tmpl_id && rule.product_tmpl_id.id === this.raw.product_tmpl_id
+        );
+        const categoryRule = applicableRules?.find(
+            (rule) => rule.categ_id && this.parentCategories.includes(rule.categ_id.id)
+        );
+        return productIdRule || productTmplIdRule || categoryRule || applicableRules[0];
+>>>>>>> upstream/18.0
     }
     getImageUrl() {
         return (
@@ -2560,6 +2591,7 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _isArchivedCombination(attributeValueIds) {
         if (!this._archived_combinations) {
             return false;
@@ -2583,6 +2615,8 @@ export class ProductProduct extends Base {
             if (ptavCommon.length === attributeValueIds.length) {
                 isCombinationArchived = true;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2816,6 +2850,9 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3032,7 +3069,11 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return isCombinationArchived;
+=======
+        return attributeValueIds.some((id) => excludedPTAV.has(id));
+>>>>>>> upstream/18.0
 =======
         return attributeValueIds.some((id) => excludedPTAV.has(id));
 >>>>>>> upstream/18.0
@@ -3467,6 +3508,12 @@ export class ProductProduct extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get variants() {
+        return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];
+    }
+>>>>>>> upstream/18.0
 =======
     get variants() {
         return this.product_tmpl_id?.["<-product.product.product_tmpl_id"];

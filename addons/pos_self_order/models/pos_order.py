@@ -48,9 +48,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import models, fields, api, _
 from odoo.exceptions import UserError
+=======
+from odoo import Command, models, fields, api
+from odoo.tools import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, models, fields, api
 from odoo.tools import float_round
@@ -561,6 +566,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             config.notify_synchronisation(config.current_session_id.id, self.env.context.get('login_number', 0))
 >>>>>>> upstream/18.0
@@ -1187,6 +1193,8 @@ class PosOrder(models.Model):
 >>>>>>> upstream/18.0
             config._notify('ORDER_STATE_CHANGED', {})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1332,7 +1340,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         existing_order = pos_config.env['pos.order'].browse(order.get('id'))
+=======
+        existing_order = pos_config.env['pos.order'].search([('uuid', '=', order.get('uuid'))], limit=1)
+>>>>>>> upstream/18.0
 =======
         existing_order = pos_config.env['pos.order'].search([('uuid', '=', order.get('uuid'))], limit=1)
 >>>>>>> upstream/18.0
@@ -1529,8 +1541,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [Command.CREATE, 0, {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1670,6 +1685,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1836,6 +1854,10 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        lines = [line for line in lines if len(line)]
+>>>>>>> upstream/18.0
 =======
         lines = [line for line in lines if len(line)]
 >>>>>>> upstream/18.0
@@ -2082,6 +2104,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = self.company_id
         pricelist = self.pricelist_id
         selected_attributes = line.attribute_value_ids
@@ -2101,6 +2124,8 @@ class PosOrder(models.Model):
         line.price_subtotal = base_line['tax_details']['total_excluded_currency']
         line.price_subtotal_incl = base_line['tax_details']['total_included_currency']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2234,6 +2259,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2415,6 +2443,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

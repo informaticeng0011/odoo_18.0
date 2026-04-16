@@ -97,7 +97,11 @@ registry.category("web_tour.tours").add("pos_pricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickCustomer("Deco Addict"),
+=======
+            ProductScreen.clickCustomer("Acme Corporation"),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickCustomer("Acme Corporation"),
 >>>>>>> upstream/18.0
@@ -576,6 +580,7 @@ registry.category("web_tour.tours").add("pos_pricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -608,6 +613,8 @@ registry.category("web_tour.tours").add("test_default_pricelist_when_creating_pa
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

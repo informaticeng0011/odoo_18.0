@@ -72,7 +72,10 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
         self.assertRecordValues(invoice2.invoice_line_ids, expected_grouped_lines)
         self.assertRecordValues(invoice2, expected_total_amounts)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_import_invoice_group_lines_correct_tax_amount(self):
         self.percent_tax(21.0, type_tax_use='purchase')  # Create 21 % tax to make sure the import will find it
@@ -88,4 +91,7 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
         self.assertEqual(invoice.amount_tax, 9.06)
         invoice.action_group_ungroup_lines_by_tax()
         self.assertEqual(invoice.amount_tax, 9.06)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

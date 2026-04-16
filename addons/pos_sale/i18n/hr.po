@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -411,6 +412,10 @@
 # * pos_sale
 #
 >>>>>>> upstream/18.0
+=======
+# * pos_sale
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
 # Vladimir Vrgoč, 2024
@@ -419,6 +424,7 @@
 # hrvoje sić <hrvoje.sic@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Jurica Pomper, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1386,10 +1392,15 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2166,11 +2177,16 @@ msgstr ""
 "Last-Translator: Luka Carević <luka@uvid.hr>, 2025\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-04-14 08:28+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "pos_sale/hr/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -2178,6 +2194,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2483,13 +2500,20 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #. odoo-javascript
 #: code:addons/pos_sale/static/src/overrides/components/orderline/orderline.xml:0
 msgid "(tax incl.)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(s porezom)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(s porezom)"
 >>>>>>> upstream/18.0
@@ -2498,7 +2522,11 @@ msgstr "(s porezom)"
 #: model_terms:ir.ui.view,arch_db:pos_sale.report_invoice_document
 msgid "<span style=\"margin: 0px 5px;\">:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span style=\"margin: 0px 5px;\">:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"margin: 0px 5px;\">:</span>"
 >>>>>>> upstream/18.0
@@ -2508,7 +2536,11 @@ msgstr "<span style=\"margin: 0px 5px;\">:</span>"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "A new order has been created."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiran je novi nalog."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiran je novi nalog."
 >>>>>>> upstream/18.0
@@ -2517,7 +2549,11 @@ msgstr "Kreiran je novi nalog."
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order__amount_unpaid
 msgid "Amount To Pay In POS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznos za platiti na POS-u"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznos za platiti na POS-u"
 >>>>>>> upstream/18.0
@@ -2527,6 +2563,11 @@ msgstr "Iznos za platiti na POS-u"
 msgid "Amount left to pay in POS to avoid double payment or double invoicing."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Preostali iznos za plaćanje na POS-u kako bi se izbjeglo dvostruko plaćanje "
+"ili dvostruko fakturiranje."
+>>>>>>> upstream/18.0
 =======
 "Preostali iznos za plaćanje na POS-u kako bi se izbjeglo dvostruko plaćanje "
 "ili dvostruko fakturiranje."
@@ -2537,7 +2578,11 @@ msgstr ""
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (fixed amount)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primijeni predujam (fiksni iznos)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primijeni predujam (fiksni iznos)"
 >>>>>>> upstream/18.0
@@ -2547,7 +2592,11 @@ msgstr "Primijeni predujam (fiksni iznos)"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Apply a down payment (percentage)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primijeni predujam (postotak)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primijeni predujam (postotak)"
 >>>>>>> upstream/18.0
@@ -2566,7 +2615,11 @@ msgstr "Tečaj"
 #: model_terms:ir.ui.view,arch_db:pos_sale.message_body
 msgid "Delivered from"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isporučeno od"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isporučeno od"
 >>>>>>> upstream/18.0
@@ -2581,7 +2634,11 @@ msgstr "Količina za isporuku"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Do you want to load the SN/Lots linked to the Sales Order?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želite li učitati serijske brojeve/serije povezane s prodajnim nalogom?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Želite li učitati serijske brojeve/serije povezane s prodajnim nalogom?"
 >>>>>>> upstream/18.0
@@ -2811,7 +2868,11 @@ msgid "Down Payment (POS)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predujam (POS)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predujam (POS)"
 >>>>>>> upstream/18.0
@@ -3465,7 +3526,11 @@ msgstr "Predujam (POS)"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__down_payment_details
 msgid "Down Payment Details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji predujma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalji predujma"
 >>>>>>> upstream/18.0
@@ -3485,6 +3550,11 @@ msgid ""
 " %(date)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Predujam (ref: %(order_reference)s dana \n"
+" %(date)s)"
+>>>>>>> upstream/18.0
 =======
 "Predujam (ref: %(order_reference)s dana \n"
 " %(date)s)"
@@ -3495,7 +3565,11 @@ msgstr ""
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "Due balance: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostalo dugovanje: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preostalo dugovanje: %s"
 >>>>>>> upstream/18.0
@@ -3524,6 +3598,11 @@ msgid ""
 "sale. You can go to your point of sale configuration to choose one."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izgleda da niste konfigurirali proizvod predujma u vašem prodajnom mjestu. "
+"Možete otići u konfiguraciju prodajnog mjesta i odabrati ga."
+>>>>>>> upstream/18.0
 =======
 "Izgleda da niste konfigurirali proizvod predujma u vašem prodajnom mjestu. "
 "Možete otići u konfiguraciju prodajnog mjesta i odabrati ga."
@@ -3534,7 +3613,11 @@ msgstr ""
 #: code:addons/pos_sale/models/sale_order.py:0
 msgid "Linked POS Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani POS nalozi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezani POS nalozi"
 >>>>>>> upstream/18.0
@@ -3543,7 +3626,11 @@ msgstr "Povezani POS nalozi"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_origin_id
 msgid "Linked Sale Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani prodajni nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezani prodajni nalog"
 >>>>>>> upstream/18.0
@@ -3553,7 +3640,11 @@ msgstr "Povezani prodajni nalog"
 #: code:addons/pos_sale/models/pos_order.py:0
 msgid "Linked Sale Orders"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani prodajni nalozi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezani prodajni nalozi"
 >>>>>>> upstream/18.0
@@ -3563,7 +3654,11 @@ msgstr "Povezani prodajni nalozi"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "No down payment product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema proizvoda predujma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema proizvoda predujma"
 >>>>>>> upstream/18.0
@@ -3577,7 +3672,11 @@ msgstr ""
 #: model:ir.actions.act_window,name:pos_sale.pos_session_action_from_crm_team
 msgid "Open Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvorene sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvorene sesije"
 >>>>>>> upstream/18.0
@@ -3587,7 +3686,11 @@ msgstr "Otvorene sesije"
 #: code:addons/pos_sale/static/src/overrides/components/product_info_popup/product_info_popup.xml:0
 msgid "Optional Products:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neobavezni proizvodi:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neobavezni proizvodi:"
 >>>>>>> upstream/18.0
@@ -3602,7 +3705,11 @@ msgstr "Narudžba"
 #: model:ir.model.fields,field_description:pos_sale.field_sale_order_line__pos_order_line_ids
 msgid "Order lines Transfered to Point of Sale"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavke naloga prenesene na prodajno mjesto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stavke naloga prenesene na prodajno mjesto"
 >>>>>>> upstream/18.0
@@ -3826,7 +3933,11 @@ msgid "POS Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS narudžba"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS narudžba"
 >>>>>>> upstream/18.0
@@ -4532,7 +4643,11 @@ msgstr "Ponuda/Nalog"
 #: code:addons/pos_sale/static/src/overrides/models/pos_store.js:0
 msgid "SN/Lots Loading"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učitavanje serijskih brojeva/serija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Učitavanje serijskih brojeva/serija"
 >>>>>>> upstream/18.0
@@ -4542,7 +4657,11 @@ msgstr "Učitavanje serijskih brojeva/serija"
 #: code:addons/pos_sale/static/src/overrides/components/orderline/orderline.xml:0
 msgid "SO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajni nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodajni nalog"
 >>>>>>> upstream/18.0
@@ -4585,7 +4704,11 @@ msgstr "Prodajni tim"
 #: model:ir.model.fields,field_description:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "Sales Team (PoS)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajni tim (POS)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodajni tim (POS)"
 >>>>>>> upstream/18.0
@@ -4809,7 +4932,11 @@ msgid "Sales are reported to the following sales team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaja se prijavljuje sljedećem prodajnom timu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodaja se prijavljuje sljedećem prodajnom timu"
 >>>>>>> upstream/18.0
@@ -5479,7 +5606,11 @@ msgstr ""
 #: code:addons/pos_sale/static/src/overrides/components/control_buttons/control_buttons.xml:0
 msgid "Set Sale Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavi prodajni nalog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavi prodajni nalog"
 >>>>>>> upstream/18.0
@@ -5494,7 +5625,11 @@ msgstr "Obradi nalog"
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order_line__sale_order_line_id
 msgid "Source Sale Order Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorna stavka prodajnog naloga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvorna stavka prodajnog naloga"
 >>>>>>> upstream/18.0
@@ -5517,7 +5652,11 @@ msgstr "Stopa valute prema valuti važećoj na datum narudžbe"
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_crm_team_id
 msgid "This Point of sale's sales will be related to this Sales Team."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaje ovog prodajnog mjesta bit će povezane s ovim prodajnim timom."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodaje ovog prodajnog mjesta bit će povezane s ovim prodajnim timom."
 >>>>>>> upstream/18.0
@@ -5741,7 +5880,11 @@ msgid "This product will be applied when down payment is made"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj proizvod će se primijeniti prilikom uplate predujma"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj proizvod će se primijeniti prilikom uplate predujma"
 >>>>>>> upstream/18.0
@@ -6396,7 +6539,11 @@ msgstr "Ovaj proizvod će se primijeniti prilikom uplate predujma"
 #: model:ir.model.fields,help:pos_sale.field_res_config_settings__pos_down_payment_product_id
 msgid "This product will be used as down payment on a sale order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj proizvod će se koristiti kao predujam na prodajnom nalogu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj proizvod će se koristiti kao predujam na prodajnom nalogu."
 >>>>>>> upstream/18.0
@@ -6413,6 +6560,11 @@ msgid ""
 "                                from Sale"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Preneseno<br/>\n"
+"                                iz prodaje"
+>>>>>>> upstream/18.0
 =======
 "Preneseno<br/>\n"
 "                                iz prodaje"
@@ -6448,7 +6600,10 @@ msgstr "od"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6465,6 +6620,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

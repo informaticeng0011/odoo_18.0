@@ -147,6 +147,7 @@ registry.category("web_tour.tours").add("SplitBillScreenTour2", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.clickBack(),
             Chrome.clickMenuOption("Orders"),
 <<<<<<< HEAD
@@ -246,6 +247,8 @@ registry.category("web_tour.tours").add("SplitBillScreenTour2", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             Chrome.waitRequest(),
             PaymentScreen.clickBack(),
             Chrome.clickMenuOption("Orders"),
@@ -296,6 +299,9 @@ registry.category("web_tour.tours").add("SplitBillScreenTour2", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -443,6 +449,10 @@ registry.category("web_tour.tours").add("SplitBillScreenTour2", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            Chrome.waitRequest(),
+>>>>>>> upstream/18.0
 =======
             Chrome.waitRequest(),
 >>>>>>> upstream/18.0
@@ -855,7 +865,11 @@ registry.category("web_tour.tours").add("SplitBillScreenTour3", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickPayButton(true),
+=======
+            ProductScreen.clickPayButton(),
+>>>>>>> upstream/18.0
 =======
             ProductScreen.clickPayButton(),
 >>>>>>> upstream/18.0
@@ -1864,7 +1878,10 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2721,6 +2738,9 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3294,6 +3314,7 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
             ProductScreen.addOrderline("Water", "1"),
             ProductScreen.addOrderline("Minute Maid", "1"),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4154,6 +4175,8 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // The water, the first combo, and one out of the two items
             // of the second combo will go in the new splitted order.
             // we will then check if the rest of the items from the selected
@@ -4446,6 +4469,9 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5021,6 +5047,7 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
             SplitBillScreen.orderlineHas("Combo Product 3", "1", "1"),
             SplitBillScreen.orderlineHas("Combo Product 5", "1", "1"),
             SplitBillScreen.orderlineHas("Combo Product 8", "1", "1"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5883,6 +5910,8 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             SplitBillScreen.orderlineHas("Office Combo", "2", "1"),
             SplitBillScreen.orderlineHas("Combo Product 2", "2", "0"),
             SplitBillScreen.orderlineHas("Combo Product 4", "2", "0"),
@@ -6175,6 +6204,9 @@ registry.category("web_tour.tours").add("SplitBillScreenTour4ProductCombo", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

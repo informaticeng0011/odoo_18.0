@@ -255,6 +255,10 @@ import { undo } from "../_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "../_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -1265,6 +1269,7 @@ test("should only display the table ui menu if the table isContentEditable=true"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
 
     await hover(el.querySelector("td"));
@@ -1272,6 +1277,8 @@ test("should only display the table ui menu if the table isContentEditable=true"
     // 1 menu for columns, and 1 for rows
     expect(".o-we-table-menu").toHaveCount(2);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2024,6 +2031,9 @@ test("should only display the table ui menu if the table isContentEditable=true"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2783,7 +2793,11 @@ test("should display the table ui menu only if hover on first row/col", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -3807,12 +3821,15 @@ test("should not display the table ui menu if the table element isContentEditabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
 
     await hover(el.querySelector("td"));
     await animationFrame();
     expect(".o-we-table-menu").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4565,6 +4582,9 @@ test("should not display the table ui menu if the table element isContentEditabl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5321,6 +5341,7 @@ test("should not display the table ui menu if we leave the editor content", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
 
     await hover(el.querySelector("td"));
@@ -5331,6 +5352,8 @@ test("should not display the table ui menu if we leave the editor content", asyn
     await animationFrame();
     expect(".o-we-table-menu").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6087,6 +6110,9 @@ test("should not display the table ui menu if we leave the editor content", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6843,12 +6869,15 @@ test("should display the table ui menu when hovering on TH", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
 
     await hover(el.querySelector("th"));
     await animationFrame();
     expect(".o-we-table-menu").toHaveCount(2);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7601,6 +7630,9 @@ test("should display the table ui menu when hovering on TH", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8194,7 +8226,10 @@ test("should not display the resizeCursor if the table element isContentEditable
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8380,6 +8415,9 @@ test("should show the table UI menus when hovering a list inside a table cell", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8749,7 +8787,11 @@ test("list of table commands in first column", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -9778,7 +9820,11 @@ test("list of table commands in second column", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -10802,7 +10848,11 @@ test("list of table commands in last column", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -11569,6 +11619,73 @@ test("list of table commands in last column", async () => {
     ]);
 });
 
+<<<<<<< HEAD
+=======
+test("list of commands updates when hovering different table columns", async () => {
+    const { el } = await setupEditor(`
+        <p><br></p>
+        <table>
+            <tbody>
+            <tr><td class="a">1[]</td><td class="b">2</td><td class="c">3</td></tr>
+            </tbody>
+        </table>`);
+    await expectElementCount(".o-we-table-menu", 0);
+
+    // check list of commands on first column
+    await hover(el.querySelector("td.a"));
+    await waitFor(".o-we-table-menu");
+    expect("[data-type='column'].o-we-table-menu").toHaveCount(1);
+    expect("[data-type='row'].o-we-table-menu").toHaveCount(1);
+    await click("[data-type='column'].o-we-table-menu");
+    await waitFor(".dropdown-menu");
+    await hover(el);
+    await animationFrame();
+    expect("[data-type='column'].o-we-table-menu").toHaveCount(1);
+    expect("[data-type='row'].o-we-table-menu").toHaveCount(0);
+    expect(availableCommands(queryOne(".dropdown-menu"))).toEqual([
+        // no move left
+        "move_right",
+        "insert_left",
+        "insert_right",
+        "delete",
+    ]);
+    // Close menu
+    await click("[data-type='column'].o-we-table-menu");
+    await animationFrame();
+
+    // check list of commands on second column
+    await hover(el.querySelector("td.b"));
+    await animationFrame();
+    expect("[data-type='column'].o-we-table-menu").toHaveCount(1);
+    await click("[data-type='column'].o-we-table-menu");
+    await waitFor(".dropdown-menu");
+    expect(availableCommands(queryOne(".dropdown-menu"))).toEqual([
+        "move_left",
+        "move_right",
+        "insert_left",
+        "insert_right",
+        "delete",
+    ]);
+    // Close menu
+    await click("[data-type='column'].o-we-table-menu");
+    await animationFrame();
+
+    // check list of commands on last column
+    await hover(el.querySelector("td.c"));
+    await animationFrame();
+    expect("[data-type='column'].o-we-table-menu").toHaveCount(1);
+    await click("[data-type='column'].o-we-table-menu");
+    await waitFor(".dropdown-menu");
+    expect(availableCommands(queryOne(".dropdown-menu"))).toEqual([
+        "move_left",
+        // no move right
+        "insert_left",
+        "insert_right",
+        "delete",
+    ]);
+});
+
+>>>>>>> upstream/18.0
 test("list of table commands in first row", async () => {
     const { el } = await setupEditor(`
         <table>
@@ -11828,7 +11945,11 @@ test("list of table commands in first row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -12859,7 +12980,11 @@ test("list of table commands in second row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -13885,7 +14010,11 @@ test("list of table commands in last row", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -14652,6 +14781,74 @@ test("list of table commands in last row", async () => {
     ]);
 });
 
+<<<<<<< HEAD
+=======
+test("list of commands updates when hovering different table rows", async () => {
+    const { el } = await setupEditor(`
+        <table>
+            <tbody>
+            <tr><td class="a">1[]</td></tr>
+            <tr><td class="b">2</td></tr>
+            <tr><td class="c">3</td></tr>
+            </tbody>
+        </table>`);
+    await expectElementCount(".o-we-table-menu", 0);
+
+    // check list of commands on first row
+    await hover(el.querySelector("td.a"));
+    await waitFor(".o-we-table-menu");
+    expect("[data-type='column'].o-we-table-menu").toHaveCount(1);
+    expect("[data-type='row'].o-we-table-menu").toHaveCount(1);
+    await click("[data-type='row'].o-we-table-menu");
+    await waitFor(".dropdown-menu");
+    await hover(el);
+    await animationFrame();
+    expect("[data-type='column'].o-we-table-menu").toHaveCount(0);
+    expect("[data-type='row'].o-we-table-menu").toHaveCount(1);
+    expect(availableCommands(queryOne(".dropdown-menu"))).toEqual([
+        // no move up
+        "move_down",
+        "insert_above",
+        "insert_below",
+        "delete",
+    ]);
+    // Close menu
+    await click("[data-type='row'].o-we-table-menu");
+    await animationFrame();
+
+    // check list of commands on second row
+    await hover(el.querySelector("td.b"));
+    await animationFrame();
+    expect("[data-type='row'].o-we-table-menu").toHaveCount(1);
+    await click("[data-type='row'].o-we-table-menu");
+    await waitFor(".dropdown-menu");
+    expect(availableCommands(queryOne(".dropdown-menu"))).toEqual([
+        "move_up",
+        "move_down",
+        "insert_above",
+        "insert_below",
+        "delete",
+    ]);
+    // Close menu
+    await click("[data-type='row'].o-we-table-menu");
+    await animationFrame();
+
+    // check list of commands on last row
+    await hover(el.querySelector("td.c"));
+    await animationFrame();
+    expect("[data-type='row'].o-we-table-menu").toHaveCount(1);
+    await click("[data-type='row'].o-we-table-menu");
+    await waitFor(".dropdown-menu");
+    expect(availableCommands(queryOne(".dropdown-menu"))).toEqual([
+        "move_up",
+        // no move down
+        "insert_above",
+        "insert_below",
+        "delete",
+    ]);
+});
+
+>>>>>>> upstream/18.0
 test("open/close table menu", async () => {
     const { el } = await setupEditor(`
         <table>
@@ -14911,7 +15108,11 @@ test("open/close table menu", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -15944,7 +16145,11 @@ test("basic delete column operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -16773,7 +16978,11 @@ test("basic delete column operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <tr><td class="a">[]1</td></tr>
+=======
+                <tr><td class="a">1[]</td></tr>
+>>>>>>> upstream/18.0
 =======
                 <tr><td class="a">1[]</td></tr>
 >>>>>>> upstream/18.0
@@ -17237,7 +17446,11 @@ test("basic delete row operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -18066,7 +18279,11 @@ test("basic delete row operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <tr><td class="a">[]1</td><td class="b">2</td></tr>
+=======
+                <tr><td class="a">1[]</td><td class="b">2</td></tr>
+>>>>>>> upstream/18.0
 =======
                 <tr><td class="a">1[]</td><td class="b">2</td></tr>
 >>>>>>> upstream/18.0
@@ -18331,7 +18548,10 @@ test("basic delete row operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18550,6 +18770,9 @@ test("editable should be focused after delete operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18933,7 +19156,11 @@ test("insert column left operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -19985,7 +20212,11 @@ test("insert column right operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -21037,7 +21268,11 @@ test("insert row above operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -22091,7 +22326,11 @@ test("insert row above operation should not retain height and width styles", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -23134,7 +23373,11 @@ test("insert row below operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -24188,7 +24431,11 @@ test("move column left operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -25232,7 +25479,11 @@ test("move column right operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -26276,7 +26527,11 @@ test("move row above operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -27321,7 +27576,11 @@ test("preserve table rows width on move row above operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -28355,7 +28614,11 @@ test("move row below operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -29400,7 +29663,11 @@ test("preserve table rows width on move row below operation", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -30434,7 +30701,11 @@ test("reset table size to remove custom width", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0
@@ -31475,7 +31746,11 @@ test("reset table size to remove custom height", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-table-menu").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-table-menu", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-table-menu", 0);
 >>>>>>> upstream/18.0

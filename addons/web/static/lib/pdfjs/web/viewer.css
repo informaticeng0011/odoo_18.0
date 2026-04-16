@@ -150,6 +150,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  --link-fg-color:#0060df;
+  --link-hover-fg-color:#0250bb;
+  --separator-color:#f0f0f4;
+>>>>>>> upstream/18.0
 =======
   --link-fg-color:#0060df;
   --link-hover-fg-color:#0250bb;
@@ -937,6 +943,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   --button-primary-hover-bg-color:var(--button-primary-bg-color);
   --button-primary-hover-fg-color:var(--button-primary-fg-color);
   --button-primary-hover-border-color:var(--button-primary-hover-bg-color);
@@ -952,6 +959,8 @@
   color:var(--text-primary-color);
   box-shadow:var(--dialog-shadow);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1337,6 +1346,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1732,6 +1744,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    --link-fg-color:#0df;
+    --link-hover-fg-color:#80ebff;
+    --separator-color:#52525e;
+>>>>>>> upstream/18.0
 =======
     --link-fg-color:#0df;
     --link-hover-fg-color:#80ebff;
@@ -2521,6 +2539,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    --link-fg-color:#0df;
+    --link-hover-fg-color:#80ebff;
+    --separator-color:#52525e;
+>>>>>>> upstream/18.0
 =======
     --link-fg-color:#0df;
     --link-hover-fg-color:#80ebff;
@@ -3311,6 +3335,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    --link-fg-color:LinkText;
+    --link-hover-fg-color:LinkText;
+    --separator-color:CanvasText;
+>>>>>>> upstream/18.0
 =======
     --link-fg-color:LinkText;
     --link-hover-fg-color:LinkText;
@@ -4102,8 +4132,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer *:focus-visible{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4500,6 +4533,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4887,8 +4923,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer .radio{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5301,6 +5340,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5690,7 +5732,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer .radio > .radioButton{
+=======
+:is(:is(.dialog .mainContainer) .radio)  > .radioButton{
+>>>>>>> upstream/18.0
 =======
 :is(:is(.dialog .mainContainer) .radio)  > .radioButton{
 >>>>>>> upstream/18.0
@@ -6209,7 +6255,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer .radio > .radioButton input{
+=======
+:is(:is(:is(.dialog .mainContainer) .radio) > .radioButton) input{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(.dialog .mainContainer) .radio) > .radioButton) input{
 >>>>>>> upstream/18.0
@@ -6733,12 +6783,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer .radio > .radioButton input:hover{
             filter:var(--hover-filter);
           }
 
 .dialog .mainContainer .radio > .radioButton input:checked{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7125,6 +7178,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7512,7 +7568,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer .radio > .radioLabel{
+=======
+:is(:is(.dialog .mainContainer) .radio)  > .radioLabel{
+>>>>>>> upstream/18.0
 =======
 :is(:is(.dialog .mainContainer) .radio)  > .radioLabel{
 >>>>>>> upstream/18.0
@@ -8032,7 +8092,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer .radio > .radioLabel > span{
+=======
+:is(:is(:is(.dialog .mainContainer) .radio) > .radioLabel)  > span{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(.dialog .mainContainer) .radio) > .radioLabel)  > span{
 >>>>>>> upstream/18.0
@@ -8550,7 +8614,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer button{
+=======
+:is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton)){
+>>>>>>> upstream/18.0
 =======
 :is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton)){
 >>>>>>> upstream/18.0
@@ -9072,7 +9140,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer button:hover{
+=======
+:is(:is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton))):hover{
+>>>>>>> upstream/18.0
 =======
 :is(:is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton))):hover{
 >>>>>>> upstream/18.0
@@ -9589,7 +9661,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer button.secondaryButton{
+=======
+.secondaryButton:is(:is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton))){
+>>>>>>> upstream/18.0
 =======
 .secondaryButton:is(:is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton))){
 >>>>>>> upstream/18.0
@@ -10107,7 +10183,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer button.secondaryButton:hover{
+=======
+.secondaryButton:is(:is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton))):hover{
+>>>>>>> upstream/18.0
 =======
 .secondaryButton:is(:is(.dialog .mainContainer) button:not(:is(.toggle-button,.closeButton))):hover{
 >>>>>>> upstream/18.0
@@ -10625,6 +10705,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer button.primaryButton{
         color:var(--button-primary-hover-fg-color);
         background-color:var(--button-primary-hover-bg-color);
@@ -10634,6 +10715,8 @@
 
 .dialog .mainContainer button.primaryButton:hover{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11023,6 +11106,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11411,8 +11497,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer textarea{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11803,6 +11892,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12197,7 +12289,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer textarea:focus{
+=======
+:is(:is(.dialog .mainContainer) textarea):focus{
+>>>>>>> upstream/18.0
 =======
 :is(:is(.dialog .mainContainer) textarea):focus{
 >>>>>>> upstream/18.0
@@ -12714,7 +12810,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog .mainContainer textarea:disabled{
+=======
+:is(:is(.dialog .mainContainer) textarea):disabled{
+>>>>>>> upstream/18.0
 =======
 :is(:is(.dialog .mainContainer) textarea):disabled{
 >>>>>>> upstream/18.0
@@ -13231,7 +13331,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13782,6 +13885,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14185,7 +14291,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .textLayer :is(span, br){
+=======
+.textLayer :is(span,br){
+>>>>>>> upstream/18.0
 =======
 .textLayer :is(span,br){
 >>>>>>> upstream/18.0
@@ -14705,8 +14815,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .textLayer > :not(.markedContent),
   .textLayer .markedContent span:not(.markedContent){
+=======
+.textLayer  > :not(.markedContent),.textLayer .markedContent span:not(.markedContent){
+>>>>>>> upstream/18.0
 =======
 .textLayer  > :not(.markedContent),.textLayer .markedContent span:not(.markedContent){
 >>>>>>> upstream/18.0
@@ -15227,7 +15341,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15616,6 +15733,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16004,6 +16124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     margin:-1px;
     padding:1px;
@@ -16011,6 +16132,8 @@
     -webkit-backdrop-filter:var(--highlight-backdrop-filter);
             backdrop-filter:var(--highlight-backdrop-filter);
     border-radius:4px;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16409,6 +16532,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .textLayer .highlight.appended{
       position:initial;
     }
@@ -16427,6 +16551,8 @@
 
 .textLayer .highlight.selected{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16835,6 +16961,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17252,9 +17381,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .textLayer .endOfContent.active{
       top:0;
     }
+=======
+.textLayer.selecting .endOfContent{
+    top:0;
+  }
+>>>>>>> upstream/18.0
 =======
 .textLayer.selecting .endOfContent{
     top:0;
@@ -18032,12 +18167,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   position:absolute;
   top:0;
   left:0;
   pointer-events:none;
   transform-origin:0 0;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18434,7 +18572,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .annotationLayer .textWidgetAnnotation :is(input, textarea):required, .annotationLayer .choiceWidgetAnnotation select:required, .annotationLayer .buttonWidgetAnnotation:is(.checkBox, .radioButton) input:required{
+=======
+    .annotationLayer .textWidgetAnnotation :is(input,textarea):required,.annotationLayer .choiceWidgetAnnotation select:required,.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input:required{
+>>>>>>> upstream/18.0
 =======
     .annotationLayer .textWidgetAnnotation :is(input,textarea):required,.annotationLayer .choiceWidgetAnnotation select:required,.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input:required{
 >>>>>>> upstream/18.0
@@ -18954,7 +19096,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       .annotationLayer .linkAnnotation:hover{
+=======
+      :is(.annotationLayer .linkAnnotation):hover{
+>>>>>>> upstream/18.0
 =======
       :is(.annotationLayer .linkAnnotation):hover{
 >>>>>>> upstream/18.0
@@ -19471,7 +19617,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       .annotationLayer .linkAnnotation > a:hover{
+=======
+      :is(.annotationLayer .linkAnnotation) > a:hover{
+>>>>>>> upstream/18.0
 =======
       :is(.annotationLayer .linkAnnotation) > a:hover{
 >>>>>>> upstream/18.0
@@ -20012,7 +20162,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20403,6 +20556,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20798,8 +20954,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer.disabled section,
     .annotationLayer.disabled .popup{
+=======
+.annotationLayer.disabled section,.annotationLayer.disabled .popup{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer.disabled section,.annotationLayer.disabled .popup{
 >>>>>>> upstream/18.0
@@ -21322,7 +21482,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .annotationContent.freetext{
+=======
+.freetext:is(.annotationLayer .annotationContent){
+>>>>>>> upstream/18.0
 =======
 .freetext:is(.annotationLayer .annotationContent){
 >>>>>>> upstream/18.0
@@ -21855,12 +22019,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer section:has(div.annotationContent) canvas.annotationContent{
         display:none;
       }
 
 .annotationLayer :is(.linkAnnotation, .buttonWidgetAnnotation.pushButton) > a{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22251,6 +22418,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22642,8 +22812,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer :is(.linkAnnotation, .buttonWidgetAnnotation.pushButton):not(.hasBorder)
     > a:hover{
+=======
+.annotationLayer :is(.linkAnnotation,.buttonWidgetAnnotation.pushButton):not(.hasBorder) > a:hover{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer :is(.linkAnnotation,.buttonWidgetAnnotation.pushButton):not(.hasBorder) > a:hover{
 >>>>>>> upstream/18.0
@@ -23178,7 +23352,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .textWidgetAnnotation :is(input, textarea), .annotationLayer .choiceWidgetAnnotation select, .annotationLayer .buttonWidgetAnnotation:is(.checkBox, .radioButton) input{
+=======
+.annotationLayer .textWidgetAnnotation :is(input,textarea),.annotationLayer .choiceWidgetAnnotation select,.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer .textWidgetAnnotation :is(input,textarea),.annotationLayer .choiceWidgetAnnotation select,.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input{
 >>>>>>> upstream/18.0
@@ -23701,7 +23879,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .textWidgetAnnotation :is(input, textarea):required, .annotationLayer .choiceWidgetAnnotation select:required, .annotationLayer .buttonWidgetAnnotation:is(.checkBox, .radioButton) input:required{
+=======
+.annotationLayer .textWidgetAnnotation :is(input,textarea):required,.annotationLayer .choiceWidgetAnnotation select:required,.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input:required{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer .textWidgetAnnotation :is(input,textarea):required,.annotationLayer .choiceWidgetAnnotation select:required,.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input:required{
 >>>>>>> upstream/18.0
@@ -24229,7 +24411,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .textWidgetAnnotation [disabled]:is(input, textarea), .annotationLayer .choiceWidgetAnnotation select[disabled], .annotationLayer .buttonWidgetAnnotation:is(.checkBox, .radioButton) input[disabled]{
+=======
+.annotationLayer .textWidgetAnnotation [disabled]:is(input,textarea),.annotationLayer .choiceWidgetAnnotation select[disabled],.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input[disabled]{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer .textWidgetAnnotation [disabled]:is(input,textarea),.annotationLayer .choiceWidgetAnnotation select[disabled],.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input[disabled]{
 >>>>>>> upstream/18.0
@@ -24747,6 +24933,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .textWidgetAnnotation :is(input, textarea):hover, .annotationLayer .choiceWidgetAnnotation select:hover, .annotationLayer .buttonWidgetAnnotation:is(.checkBox, .radioButton) input:hover{
     border:2px solid var(--input-hover-border-color);
   }
@@ -24757,6 +24944,8 @@
 
 .annotationLayer .textWidgetAnnotation :is(input, textarea):focus, .annotationLayer .choiceWidgetAnnotation select:focus{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25147,6 +25336,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25536,7 +25728,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .buttonWidgetAnnotation:is(.checkBox, .radioButton) :focus{
+=======
+.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) :focus{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) :focus{
 >>>>>>> upstream/18.0
@@ -26064,9 +26260,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .buttonWidgetAnnotation.checkBox input:checked::before,
   .annotationLayer .buttonWidgetAnnotation.checkBox input:checked::after,
   .annotationLayer .buttonWidgetAnnotation.radioButton input:checked::before{
+=======
+.annotationLayer .buttonWidgetAnnotation.checkBox input:checked::before,.annotationLayer .buttonWidgetAnnotation.checkBox input:checked::after,.annotationLayer .buttonWidgetAnnotation.radioButton input:checked::before{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer .buttonWidgetAnnotation.checkBox input:checked::before,.annotationLayer .buttonWidgetAnnotation.checkBox input:checked::after,.annotationLayer .buttonWidgetAnnotation.radioButton input:checked::before{
 >>>>>>> upstream/18.0
@@ -26585,8 +26785,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .buttonWidgetAnnotation.checkBox input:checked::before,
   .annotationLayer .buttonWidgetAnnotation.checkBox input:checked::after{
+=======
+.annotationLayer .buttonWidgetAnnotation.checkBox input:checked::before,.annotationLayer .buttonWidgetAnnotation.checkBox input:checked::after{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer .buttonWidgetAnnotation.checkBox input:checked::before,.annotationLayer .buttonWidgetAnnotation.checkBox input:checked::after{
 >>>>>>> upstream/18.0
@@ -27130,7 +27334,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .buttonWidgetAnnotation:is(.checkBox, .radioButton) input{
+=======
+.annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input{
+>>>>>>> upstream/18.0
 =======
 .annotationLayer .buttonWidgetAnnotation:is(.checkBox,.radioButton) input{
 >>>>>>> upstream/18.0
@@ -27734,7 +27942,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationLayer .annotationTextContent span{
+=======
+:is(.annotationLayer .annotationTextContent) span{
+>>>>>>> upstream/18.0
 =======
 :is(.annotationLayer .annotationTextContent) span{
 >>>>>>> upstream/18.0
@@ -28583,6 +28795,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .canvasWrapper svg[data-main-rotation="90"] mask,
       .canvasWrapper svg[data-main-rotation="90"] use:not(.clip, .mask){
         transform:matrix(0, 1, -1, 0, 1, 0);
@@ -28601,6 +28814,8 @@
 .canvasWrapper svg.highlight{
       --blend-mode:multiply;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29006,6 +29221,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29266,6 +29484,7 @@
       mix-blend-mode:var(--blend-mode);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29661,6 +29880,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .highlight:is(.canvasWrapper svg):not(.free){
         fill-rule:evenodd;
       }
@@ -29793,6 +30014,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30182,7 +30406,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .canvasWrapper svg.highlightOutline.hovered:not(.free):not(.selected){
+=======
+.highlightOutline.hovered:is(.canvasWrapper svg):not(.free):not(.selected){
+>>>>>>> upstream/18.0
 =======
 .highlightOutline.hovered:is(.canvasWrapper svg):not(.free):not(.selected){
 >>>>>>> upstream/18.0
@@ -30699,7 +30927,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .canvasWrapper svg.highlightOutline.selected:not(.free) .mainOutline{
+=======
+.highlightOutline.selected:is(.canvasWrapper svg):not(.free) .mainOutline{
+>>>>>>> upstream/18.0
 =======
 .highlightOutline.selected:is(.canvasWrapper svg):not(.free) .mainOutline{
 >>>>>>> upstream/18.0
@@ -31218,7 +31450,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .canvasWrapper svg.highlightOutline.selected:not(.free) .secondaryOutline{
+=======
+.highlightOutline.selected:is(.canvasWrapper svg):not(.free) .secondaryOutline{
+>>>>>>> upstream/18.0
 =======
 .highlightOutline.selected:is(.canvasWrapper svg):not(.free) .secondaryOutline{
 >>>>>>> upstream/18.0
@@ -31735,7 +31971,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .canvasWrapper svg.highlightOutline.free.hovered:not(.selected){
+=======
+.highlightOutline.free.hovered:is(.canvasWrapper svg):not(.selected){
+>>>>>>> upstream/18.0
 =======
 .highlightOutline.free.hovered:is(.canvasWrapper svg):not(.selected){
 >>>>>>> upstream/18.0
@@ -32252,7 +32492,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .canvasWrapper svg.highlightOutline.free.selected .mainOutline{
+=======
+.highlightOutline.free.selected:is(.canvasWrapper svg) .mainOutline{
+>>>>>>> upstream/18.0
 =======
 .highlightOutline.free.selected:is(.canvasWrapper svg) .mainOutline{
 >>>>>>> upstream/18.0
@@ -32771,7 +33015,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .canvasWrapper svg.highlightOutline.free.selected .secondaryOutline{
+=======
+.highlightOutline.free.selected:is(.canvasWrapper svg) .secondaryOutline{
+>>>>>>> upstream/18.0
 =======
 .highlightOutline.free.selected:is(.canvasWrapper svg) .secondaryOutline{
 >>>>>>> upstream/18.0
@@ -33301,6 +33549,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   --toggle-background-color:var(--button-background-color);
   --toggle-background-color-hover:var(--button-background-color-hover);
@@ -33343,6 +33592,8 @@
   background:var(--toggle-background-color);
   box-sizing:border-box;
   flex-shrink:0;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33785,7 +34036,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34212,6 +34466,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34641,8 +34898,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .toggle-button[aria-pressed="true"]:enabled:hover::before,
   .toggle-button[aria-pressed="true"]:enabled:active::before{
+=======
+.toggle-button[aria-pressed="true"]:enabled:hover::before,.toggle-button[aria-pressed="true"]:enabled:active::before{
+>>>>>>> upstream/18.0
 =======
 .toggle-button[aria-pressed="true"]:enabled:hover::before,.toggle-button[aria-pressed="true"]:enabled:active::before{
 >>>>>>> upstream/18.0
@@ -35182,8 +35443,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .toggle-button[aria-pressed="true"]:enabled:hover,
     .toggle-button[aria-pressed="true"]:enabled:hover:active{
+=======
+    .toggle-button[aria-pressed="true"]:enabled:hover,.toggle-button[aria-pressed="true"]:enabled:hover:active{
+>>>>>>> upstream/18.0
 =======
     .toggle-button[aria-pressed="true"]:enabled:hover,.toggle-button[aria-pressed="true"]:enabled:hover:active{
 >>>>>>> upstream/18.0
@@ -35704,8 +35969,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .toggle-button:hover::before,
     .toggle-button:active::before{
+=======
+    .toggle-button:hover::before,.toggle-button:active::before{
+>>>>>>> upstream/18.0
 =======
     .toggle-button:hover::before,.toggle-button:active::before{
 >>>>>>> upstream/18.0
@@ -36275,6 +36544,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+  --new-alt-text-warning-image:url(images/altText_warning.svg);
+>>>>>>> upstream/18.0
 =======
 
   --new-alt-text-warning-image:url(images/altText_warning.svg);
@@ -36938,7 +37212,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37324,6 +37601,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37711,7 +37991,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38097,6 +38380,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38517,7 +38803,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38907,6 +39196,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39322,6 +39614,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .draggable.selectedEditor:is(.freeTextEditor, .inkEditor, .stampEditor){
     cursor:move;
   }
@@ -39332,6 +39625,8 @@
 
 .annotationEditorLayer .selectedEditor:is(.freeTextEditor, .inkEditor, .stampEditor){
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39722,6 +40017,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40109,7 +40407,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .selectedEditor:is(.freeTextEditor, .inkEditor, .stampEditor)::before{
+=======
+.selectedEditor:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor))::before{
+>>>>>>> upstream/18.0
 =======
 .selectedEditor:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor))::before{
 >>>>>>> upstream/18.0
@@ -40629,7 +40931,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor):hover:not(.selectedEditor){
+=======
+:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)):hover:not(.selectedEditor){
+>>>>>>> upstream/18.0
 =======
 :is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)):hover:not(.selectedEditor){
 >>>>>>> upstream/18.0
@@ -41146,7 +41452,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor):hover:not(.selectedEditor)::before{
+=======
+:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)):hover:not(.selectedEditor)::before{
+>>>>>>> upstream/18.0
 =======
 :is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)):hover:not(.selectedEditor)::before{
 >>>>>>> upstream/18.0
@@ -41665,8 +41975,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar{
+=======
+:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar{
+>>>>>>> upstream/18.0
 =======
 :is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar{
 >>>>>>> upstream/18.0
@@ -42193,7 +42507,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42622,6 +42939,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42900,6 +43220,7 @@
     box-shadow:var(--editor-toolbar-shadow);
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43340,6 +43661,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .hidden:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar){
       display:none;
     }
@@ -43484,6 +43807,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43874,6 +44200,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .divider{
         width:1px;
@@ -43882,6 +44209,8 @@
         );
         background-color:var(--editor-toolbar-border-color);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44270,6 +44599,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44529,6 +44861,7 @@
         margin-inline:2px;
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44919,6 +45252,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 :is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar) .buttons) .highlightButton{
         width:var(--editor-toolbar-height);
       }
@@ -45051,6 +45386,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45447,6 +45785,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .highlightButton:hover::before{
           background-color:var(--editor-toolbar-hover-fg-color);
@@ -45460,6 +45799,8 @@
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .delete::before{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45850,6 +46191,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46246,6 +46590,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .delete:hover::before{
           background-color:var(--editor-toolbar-hover-fg-color);
@@ -46259,6 +46604,8 @@
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons > :not(.divider){
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46649,6 +46996,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47037,8 +47387,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons > :not(.divider):hover{
+=======
+:is(:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar) .buttons) > :not(.divider)):hover{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar) .buttons) > :not(.divider)):hover{
 >>>>>>> upstream/18.0
@@ -47558,6 +47912,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons > :not(.divider):hover:active{
             outline:none;
@@ -47566,6 +47921,8 @@
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons > :not(.divider):focus-visible{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -47952,6 +48309,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48339,8 +48699,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText{
+=======
+:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar) .buttons) .altText{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor,.highlightEditor),.textLayer) .editToolbar) .buttons) .altText{
 >>>>>>> upstream/18.0
@@ -48869,6 +49233,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText:disabled{
           pointer-events:none;
@@ -48877,6 +49242,8 @@
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText::before{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49263,6 +49630,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49660,6 +50030,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText:hover::before{
           background-color:var(--editor-toolbar-hover-fg-color);
@@ -49668,6 +50039,8 @@
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText.done::before{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50054,6 +50427,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50441,6 +50817,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText .tooltip{
           display:none;
@@ -50449,6 +50826,8 @@
 :is(.annotationEditorLayer
   :is(.freeTextEditor, .inkEditor, .stampEditor, .highlightEditor),.textLayer) .editToolbar .buttons .altText .tooltip.show{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50860,6 +51239,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51247,7 +51629,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51657,6 +52042,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52064,6 +52452,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media (prefers-color-scheme: dark){
 
 :where(html:not(.is-light)) :is(.annotationEditorLayer
@@ -52092,6 +52481,8 @@
           }
             }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52543,7 +52934,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .stampEditor canvas{
+=======
+:is(.annotationEditorLayer .stampEditor) canvas{
+>>>>>>> upstream/18.0
 =======
 :is(.annotationEditorLayer .stampEditor) canvas{
 >>>>>>> upstream/18.0
@@ -53060,10 +53455,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor) > .resizers{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53511,6 +53909,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53770,6 +54171,7 @@
       inset:0;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54158,6 +54560,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .hidden:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers){
         display:none;
       }
@@ -54290,6 +54694,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54553,6 +54960,7 @@
         position:absolute;
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55066,10 +55474,14 @@
 =======
 .topLeft:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
+=======
+.topLeft:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
           top:var(--resizer-shift);
           left:var(--resizer-shift);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55583,10 +55995,14 @@
 =======
 .topMiddle:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
+=======
+.topMiddle:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
           top:var(--resizer-shift);
           left:calc(50% + var(--resizer-shift));
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56100,6 +56516,9 @@
 =======
 .topRight:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
+=======
+.topRight:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
           top:var(--resizer-shift);
           right:var(--resizer-shift);
         }
@@ -56232,7 +56651,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor) > .resizers > .resizer.middleRight{
+=======
+.middleRight:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
 =======
 .middleRight:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
@@ -56749,7 +57172,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor) > .resizers > .resizer.bottomRight{
+=======
+.bottomRight:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
 =======
 .bottomRight:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
@@ -57266,7 +57693,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor) > .resizers > .resizer.bottomMiddle{
+=======
+.bottomMiddle:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
 =======
 .bottomMiddle:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
@@ -57783,7 +58214,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor) > .resizers > .resizer.bottomLeft{
+=======
+.bottomLeft:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
 =======
 .bottomLeft:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
@@ -58300,7 +58735,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer :is(.freeTextEditor, .inkEditor, .stampEditor) > .resizers > .resizer.middleLeft{
+=======
+.middleLeft:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
+>>>>>>> upstream/18.0
 =======
 .middleLeft:is(:is(:is(.annotationEditorLayer :is(.freeTextEditor,.inkEditor,.stampEditor)) > .resizers) > .resizer){
 >>>>>>> upstream/18.0
@@ -58689,6 +59128,7 @@
           left:var(--resizer-shift);
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59241,6 +59681,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .topLeft:is(:is(.annotationEditorLayer[data-main-rotation="0"] :is([data-editor-rotation="0"],[data-editor-rotation="180"]),.annotationEditorLayer[data-main-rotation="90"] :is([data-editor-rotation="270"],[data-editor-rotation="90"]),.annotationEditorLayer[data-main-rotation="180"] :is([data-editor-rotation="180"],[data-editor-rotation="0"]),.annotationEditorLayer[data-main-rotation="270"] :is([data-editor-rotation="90"],[data-editor-rotation="270"])) > .resizers > .resizer),.bottomRight:is(:is(.annotationEditorLayer[data-main-rotation="0"] :is([data-editor-rotation="0"],[data-editor-rotation="180"]),.annotationEditorLayer[data-main-rotation="90"] :is([data-editor-rotation="270"],[data-editor-rotation="90"]),.annotationEditorLayer[data-main-rotation="180"] :is([data-editor-rotation="180"],[data-editor-rotation="0"]),.annotationEditorLayer[data-main-rotation="270"] :is([data-editor-rotation="90"],[data-editor-rotation="270"])) > .resizers > .resizer){
         cursor:nwse-resize;
       }
@@ -59405,6 +59847,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59664,6 +60109,7 @@
         inset-block-start:0;
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60183,10 +60629,14 @@
 =======
 [dir="rtl"] :is(:is(.annotationEditorLayer :is([data-main-rotation="0"] [data-editor-rotation="90"],[data-main-rotation="90"] [data-editor-rotation="0"],[data-main-rotation="180"] [data-editor-rotation="270"],[data-main-rotation="270"] [data-editor-rotation="180"])) .editToolbar){
 >>>>>>> upstream/18.0
+=======
+[dir="rtl"] :is(:is(.annotationEditorLayer :is([data-main-rotation="0"] [data-editor-rotation="90"],[data-main-rotation="90"] [data-editor-rotation="0"],[data-main-rotation="180"] [data-editor-rotation="270"],[data-main-rotation="270"] [data-editor-rotation="180"])) .editToolbar){
+>>>>>>> upstream/18.0
         inset-inline-end:calc(100% + var(--editor-toolbar-vert-offset));
         inset-block-start:0;
       }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60706,11 +61156,15 @@
 =======
 :is(.annotationEditorLayer :is([data-main-rotation="0"] [data-editor-rotation="180"],[data-main-rotation="90"] [data-editor-rotation="90"],[data-main-rotation="180"] [data-editor-rotation="0"],[data-main-rotation="270"] [data-editor-rotation="270"])) .editToolbar{
 >>>>>>> upstream/18.0
+=======
+:is(.annotationEditorLayer :is([data-main-rotation="0"] [data-editor-rotation="180"],[data-main-rotation="90"] [data-editor-rotation="90"],[data-main-rotation="180"] [data-editor-rotation="0"],[data-main-rotation="270"] [data-editor-rotation="270"])) .editToolbar{
+>>>>>>> upstream/18.0
       rotate:180deg;
       inset-inline-end:100%;
       inset-block-start:calc(0pc - var(--editor-toolbar-vert-offset));
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61111,6 +61565,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 :is(.annotationEditorLayer :is([data-main-rotation="0"] [data-editor-rotation="270"],[data-main-rotation="90"] [data-editor-rotation="180"],[data-main-rotation="180"] [data-editor-rotation="90"],[data-main-rotation="270"] [data-editor-rotation="0"])) .editToolbar{
       rotate:90deg;
     }
@@ -61243,6 +61699,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61630,6 +62089,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [dir="rtl"] .annotationEditorLayer
     :is(
       [data-main-rotation="0"] [data-editor-rotation="270"],
@@ -61637,6 +62097,9 @@
       [data-main-rotation="180"] [data-editor-rotation="90"],
       [data-main-rotation="270"] [data-editor-rotation="0"]
     ) .editToolbar{
+=======
+[dir="rtl"] :is(:is(.annotationEditorLayer :is([data-main-rotation="0"] [data-editor-rotation="270"],[data-main-rotation="90"] [data-editor-rotation="180"],[data-main-rotation="180"] [data-editor-rotation="90"],[data-main-rotation="270"] [data-editor-rotation="0"])) .editToolbar){
+>>>>>>> upstream/18.0
 =======
 [dir="rtl"] :is(:is(.annotationEditorLayer :is([data-main-rotation="0"] [data-editor-rotation="270"],[data-main-rotation="90"] [data-editor-rotation="180"],[data-main-rotation="180"] [data-editor-rotation="90"],[data-main-rotation="270"] [data-editor-rotation="0"])) .editToolbar){
 >>>>>>> upstream/18.0
@@ -62172,7 +62635,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog.altText #altTextContainer #overallDescription{
+=======
+:is(.dialog.altText #altTextContainer) #overallDescription{
+>>>>>>> upstream/18.0
 =======
 :is(.dialog.altText #altTextContainer) #overallDescription{
 >>>>>>> upstream/18.0
@@ -62692,12 +63159,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog.altText #altTextContainer #overallDescription span{
         align-self:stretch;
       }
 
 .dialog.altText #altTextContainer #overallDescription .title{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63084,6 +63554,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63472,7 +63945,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog.altText #altTextContainer #addDescription{
+=======
+:is(.dialog.altText #altTextContainer) #addDescription{
+>>>>>>> upstream/18.0
 =======
 :is(.dialog.altText #altTextContainer) #addDescription{
 >>>>>>> upstream/18.0
@@ -63991,7 +64468,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog.altText #altTextContainer #addDescription .descriptionArea{
+=======
+:is(:is(.dialog.altText #altTextContainer) #addDescription) .descriptionArea{
+>>>>>>> upstream/18.0
 =======
 :is(:is(.dialog.altText #altTextContainer) #addDescription) .descriptionArea{
 >>>>>>> upstream/18.0
@@ -64508,7 +64989,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog.altText #altTextContainer #addDescription .descriptionArea textarea{
+=======
+:is(:is(:is(.dialog.altText #altTextContainer) #addDescription) .descriptionArea) textarea{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(.dialog.altText #altTextContainer) #addDescription) .descriptionArea) textarea{
 >>>>>>> upstream/18.0
@@ -65025,7 +65510,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dialog.altText #altTextContainer #buttons{
+=======
+:is(.dialog.altText #altTextContainer) #buttons{
+>>>>>>> upstream/18.0
 =======
 :is(.dialog.altText #altTextContainer) #buttons{
 >>>>>>> upstream/18.0
@@ -65545,7 +66034,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66131,6 +66623,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66554,7 +67049,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .colorPicker button:is(:hover, .selected) > .swatch{
+=======
+.colorPicker button:is(:hover,.selected) > .swatch{
+>>>>>>> upstream/18.0
 =======
 .colorPicker button:is(:hover,.selected) > .swatch{
 >>>>>>> upstream/18.0
@@ -67099,12 +67598,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .highlightEditor:not(.free){
       transform:none;
     }
 
 .annotationEditorLayer .highlightEditor .internal{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67491,6 +67993,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67754,6 +68259,7 @@
       pointer-events:auto;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68146,6 +68652,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .disabled:is(.annotationEditorLayer .highlightEditor) .internal{
       pointer-events:none;
     }
@@ -68282,6 +68790,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68670,7 +69181,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .highlightEditor .editToolbar .buttons .colorPicker{
+=======
+:is(:is(:is(.annotationEditorLayer .highlightEditor) .editToolbar) .buttons) .colorPicker{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(.annotationEditorLayer .highlightEditor) .editToolbar) .buttons) .colorPicker{
 >>>>>>> upstream/18.0
@@ -69192,7 +69707,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .highlightEditor .editToolbar .buttons .colorPicker::after{
+=======
+:is(:is(:is(:is(.annotationEditorLayer .highlightEditor) .editToolbar) .buttons) .colorPicker)::after{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(:is(.annotationEditorLayer .highlightEditor) .editToolbar) .buttons) .colorPicker)::after{
 >>>>>>> upstream/18.0
@@ -69718,6 +70237,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .highlightEditor .editToolbar .buttons .colorPicker:hover::after{
             background-color:var(--editor-toolbar-hover-fg-color);
           }
@@ -69732,6 +70252,8 @@
 
 .annotationEditorLayer .highlightEditor .editToolbar .buttons .colorPicker .dropdown{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70126,6 +70648,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70524,7 +71049,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .highlightEditor .editToolbar .buttons .colorPicker .dropdown button{
+=======
+:is(:is(:is(:is(:is(.annotationEditorLayer .highlightEditor) .editToolbar) .buttons) .colorPicker) .dropdown) button{
+>>>>>>> upstream/18.0
 =======
 :is(:is(:is(:is(:is(.annotationEditorLayer .highlightEditor) .editToolbar) .buttons) .colorPicker) .dropdown) button{
 >>>>>>> upstream/18.0
@@ -71047,6 +71576,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .annotationEditorLayer .highlightEditor .editToolbar .buttons .colorPicker .dropdown button:is(:active, :focus-visible){
                 outline:none;
               }
@@ -71061,6 +71591,8 @@
 
 .annotationEditorLayer .highlightEditor .editToolbar .buttons .colorPicker .dropdown button:is(:hover, :active, :focus-visible) > .swatch{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71455,6 +71987,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71718,6 +72253,7 @@
 }
 
 #highlightParamsToolbarContainer{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72116,6 +72652,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   gap:16px;
   padding-inline:10px;
   padding-block-end:12px;
@@ -72248,6 +72786,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72637,7 +73178,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #highlightParamsToolbarContainer .colorPicker .dropdown{
+=======
+:is(#highlightParamsToolbarContainer .colorPicker) .dropdown{
+>>>>>>> upstream/18.0
 =======
 :is(#highlightParamsToolbarContainer .colorPicker) .dropdown{
 >>>>>>> upstream/18.0
@@ -73157,7 +73702,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #highlightParamsToolbarContainer .colorPicker .dropdown button{
+=======
+:is(:is(#highlightParamsToolbarContainer .colorPicker) .dropdown) button{
+>>>>>>> upstream/18.0
 =======
 :is(:is(#highlightParamsToolbarContainer .colorPicker) .dropdown) button{
 >>>>>>> upstream/18.0
@@ -73679,10 +74228,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       }
 
 #highlightParamsToolbarContainer .colorPicker .dropdown button .swatch{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74068,6 +74620,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74327,6 +74882,7 @@
           height:24px;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74719,6 +75275,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 :is(:is(:is(#highlightParamsToolbarContainer .colorPicker) .dropdown) button):is(:active,:focus-visible){
           outline:none;
         }
@@ -74855,6 +75413,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75249,8 +75810,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #highlightParamsToolbarContainer #editorHighlightThickness .editorParamsLabel{
       width:100%;
+=======
+:is(#highlightParamsToolbarContainer #editorHighlightThickness) .editorParamsLabel{
+>>>>>>> upstream/18.0
 =======
 :is(#highlightParamsToolbarContainer #editorHighlightThickness) .editorParamsLabel{
 >>>>>>> upstream/18.0
@@ -75767,7 +76332,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker{
+=======
+:is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
+>>>>>>> upstream/18.0
 =======
 :is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
 >>>>>>> upstream/18.0
@@ -76290,7 +76859,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :where(html:not(.is-light)) #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker{
+=======
+:where(html:not(.is-light)) :is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
+>>>>>>> upstream/18.0
 =======
 :where(html:not(.is-light)) :is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
 >>>>>>> upstream/18.0
@@ -76807,7 +77380,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :where(html.is-dark) #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker{
+=======
+:where(html.is-dark) :is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
+>>>>>>> upstream/18.0
 =======
 :where(html.is-dark) :is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
 >>>>>>> upstream/18.0
@@ -77325,7 +77902,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker{
+=======
+:is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
+>>>>>>> upstream/18.0
 =======
 :is(#highlightParamsToolbarContainer #editorHighlightThickness) .thicknessPicker{
 >>>>>>> upstream/18.0
@@ -77842,6 +78423,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(#highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker > .editorParamsSlider[disabled]){
         opacity:0.4;
       }
@@ -77849,6 +78431,8 @@
 #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker::before,
       #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker::after{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78235,6 +78819,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78626,12 +79213,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker::after{
         width:24px;
       }
 
 #highlightParamsToolbarContainer #editorHighlightThickness .thicknessPicker .editorParamsSlider{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79018,6 +79608,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79413,9 +80006,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #highlightParamsToolbarContainer #editorHighlightVisibility .divider{
       --divider-color:#d7d7db;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79820,6 +80416,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80082,6 +80681,7 @@
       background-color:var(--divider-color);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80613,6 +81213,9 @@
 =======
 :is(#highlightParamsToolbarContainer #editorHighlightVisibility) .toggler{
 >>>>>>> upstream/18.0
+=======
+:is(#highlightParamsToolbarContainer #editorHighlightVisibility) .toggler{
+>>>>>>> upstream/18.0
       display:flex;
       justify-content:space-between;
       align-items:center;
@@ -80747,7 +81350,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81183,6 +81789,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81606,6 +82215,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  --page-bg-color:unset;
+>>>>>>> upstream/18.0
 =======
   --page-bg-color:unset;
 >>>>>>> upstream/18.0
@@ -82132,7 +82745,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82518,6 +83134,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82779,6 +83398,7 @@
     height:100%;
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83172,6 +83792,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 :is(.pdfViewer .canvasWrapper) canvas{
       margin:0;
       display:block;
@@ -83311,6 +83933,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83698,7 +84323,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .pdfViewer .canvasWrapper canvas .structTree{
+=======
+:is(:is(.pdfViewer .canvasWrapper) canvas) .structTree{
+>>>>>>> upstream/18.0
 =======
 :is(:is(.pdfViewer .canvasWrapper) canvas) .structTree{
 >>>>>>> upstream/18.0
@@ -84215,6 +84844,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  --scale-round-x:1px;
+  --scale-round-y:1px;
+
+>>>>>>> upstream/18.0
 =======
   --scale-round-x:1px;
   --scale-round-y:1px;
@@ -84991,7 +85626,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color:rgb(255 255 255);
+=======
+  background-color:var(--page-bg-color, rgb(255 255 255));
+>>>>>>> upstream/18.0
 =======
   background-color:var(--page-bg-color, rgb(255 255 255));
 >>>>>>> upstream/18.0
@@ -85601,10 +86240,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   --toolbar-icon-opacity:0.7;
   --doorhanger-icon-opacity:0.9;
   --editor-toolbar-base-offset:105px;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85994,6 +86636,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86463,6 +87108,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  --secondaryToolbarButton-imageAltTextSettings-icon:var(
+    --toolbarButton-editorStamp-icon
+  );
+>>>>>>> upstream/18.0
 =======
   --secondaryToolbarButton-imageAltTextSettings-icon:var(
     --toolbarButton-editorStamp-icon
@@ -87359,12 +88010,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *{
   padding:0;
   margin:0;
 }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87764,6 +88418,9 @@ html[data-toolbar-density="touch"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88154,6 +88811,10 @@ body{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  margin:0;
+>>>>>>> upstream/18.0
 =======
   margin:0;
 >>>>>>> upstream/18.0
@@ -88670,7 +89331,10 @@ body{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89061,6 +89725,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89478,6 +90145,10 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  margin:0;
+>>>>>>> upstream/18.0
 =======
   margin:0;
 >>>>>>> upstream/18.0
@@ -89994,6 +90665,7 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   inset-block:32px 0;
   inset-inline-start:calc(-1 * var(--sidebar-width));
   width:var(--sidebar-width);
@@ -90002,6 +90674,8 @@ body.wait::before{
   font:message-box;
   border-top:1px solid rgb(51 51 51);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90390,6 +91064,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90782,6 +91459,10 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -91302,11 +91983,14 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 #sidebarContent{
   inset-block:32px 0;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -91695,6 +92379,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92088,10 +92775,13 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   inset:32px 0 0;
   outline:none;
 }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92478,6 +93168,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92743,6 +93436,7 @@ body.wait::before{
   transition-property:inset-inline-start;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93143,6 +93837,8 @@ body.wait::before{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #sidebarContainer :is(input, button, select){
   font:message-box;
 }
@@ -93276,6 +93972,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93663,6 +94362,7 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   height:32px;
   background-color:var(--sidebar-toolbar-bg-color);
   box-shadow:var(--toolbarSidebar-box-shadow);
@@ -93670,6 +94370,8 @@ body.wait::before{
 }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94091,6 +94793,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94355,6 +95060,7 @@ body.wait::before{
   cursor:ew-resize;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94768,10 +95474,13 @@ body.wait::before{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #outerContainer.sidebarOpen #loadingBar{
   inset-inline-start:var(--sidebar-width);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95202,11 +95911,14 @@ body.wait::before{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #outerContainer.sidebarResizing
   :is(#sidebarContainer, #viewerContainer, #loadingBar){
   transition-duration:0s;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95755,11 +96467,14 @@ body.wait::before{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .doorHanger,
 .doorHangerRight{
   border-radius:2px;
   box-shadow:0 1px 5px var(--doorhanger-border-color), 0 0 0 1px var(--doorhanger-border-color);
   border:var(--doorhanger-border-color-whcm);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96239,6 +96954,8 @@ body.wait::before{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
   background-color:var(--doorhanger-bg-color);
   inset-block-start:calc(100% + var(--doorhanger-height) - 2px);
 }
@@ -96417,6 +97134,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96688,6 +97408,7 @@ body.wait::before{
   color:var(--dialog-button-hover-color);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97105,6 +97826,8 @@ body.wait::before{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .splitToolbarButtonSeparator{
   float:var(--inline-start);
   width:0;
@@ -97240,6 +97963,9 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97511,6 +98237,7 @@ body.wait::before{
   box-sizing:border-box;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98100,6 +98827,9 @@ body.wait::before{
 =======
 .treeItemToggler::before{
 >>>>>>> upstream/18.0
+=======
+.treeItemToggler::before{
+>>>>>>> upstream/18.0
   position:absolute;
   display:inline-block;
   width:16px;
@@ -98111,6 +98841,7 @@ body.wait::before{
           mask-size:cover;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98645,6 +99376,9 @@ body.wait::before{
 =======
 #sidebarToggleButton::before{
 >>>>>>> upstream/18.0
+=======
+#sidebarToggleButton::before{
+>>>>>>> upstream/18.0
   -webkit-mask-image:var(--toolbarButton-sidebarToggle-icon);
           mask-image:var(--toolbarButton-sidebarToggle-icon);
   transform:scaleX(var(--dir-factor));
@@ -98778,7 +99512,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #secondaryToolbarToggle::before{
+=======
+#secondaryToolbarToggleButton::before{
+>>>>>>> upstream/18.0
 =======
 #secondaryToolbarToggleButton::before{
 >>>>>>> upstream/18.0
@@ -99296,6 +100034,7 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #findPrevious::before{
   -webkit-mask-image:var(--findbarButton-previous-icon);
           mask-image:var(--findbarButton-previous-icon);
@@ -99306,6 +100045,8 @@ body.wait::before{
           mask-image:var(--findbarButton-next-icon);
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99700,7 +100441,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #zoomOut::before{
+=======
+#zoomOutButton::before{
+>>>>>>> upstream/18.0
 =======
 #zoomOutButton::before{
 >>>>>>> upstream/18.0
@@ -100217,7 +100962,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #zoomIn::before{
+=======
+#zoomInButton::before{
+>>>>>>> upstream/18.0
 =======
 #zoomInButton::before{
 >>>>>>> upstream/18.0
@@ -100739,7 +101488,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #editorFreeText::before{
+=======
+#editorFreeTextButton::before{
+>>>>>>> upstream/18.0
 =======
 #editorFreeTextButton::before{
 >>>>>>> upstream/18.0
@@ -101256,7 +102009,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #editorHighlight::before{
+=======
+#editorHighlightButton::before{
+>>>>>>> upstream/18.0
 =======
 #editorHighlightButton::before{
 >>>>>>> upstream/18.0
@@ -101773,7 +102530,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #editorInk::before{
+=======
+#editorInkButton::before{
+>>>>>>> upstream/18.0
 =======
 #editorInkButton::before{
 >>>>>>> upstream/18.0
@@ -102290,7 +103051,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #editorStamp::before{
+=======
+#editorStampButton::before{
+>>>>>>> upstream/18.0
 =======
 #editorStampButton::before{
 >>>>>>> upstream/18.0
@@ -102807,7 +103572,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(#print, #secondaryPrint)::before{
+=======
+#printButton::before{
+>>>>>>> upstream/18.0
 =======
 #printButton::before{
 >>>>>>> upstream/18.0
@@ -103329,7 +104098,11 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 :is(#download, #secondaryDownload)::before{
+=======
+#downloadButton::before{
+>>>>>>> upstream/18.0
 =======
 #downloadButton::before{
 >>>>>>> upstream/18.0
@@ -103846,6 +104619,7 @@ body.wait::before{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 a.secondaryToolbarButton{
   padding-top:5px;
   text-decoration:none;
@@ -104111,11 +104885,14 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #viewBookmark::before{
   -webkit-mask-image:var(--toolbarButton-bookmark-icon);
           mask-image:var(--toolbarButton-bookmark-icon);
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104521,6 +105298,8 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #currentOutlineItem::before{
   -webkit-mask-image:var(--toolbarButton-currentOutlineItem-icon);
           mask-image:var(--toolbarButton-currentOutlineItem-icon);
@@ -104655,7 +105434,11 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #viewFind::before{
+=======
+#viewFindButton::before{
+>>>>>>> upstream/18.0
 =======
 #viewFindButton::before{
 >>>>>>> upstream/18.0
@@ -105184,6 +105967,7 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .secondaryToolbarButton{
   position:relative;
   margin:0;
@@ -105289,6 +106073,8 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105712,6 +106498,9 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106109,6 +106898,7 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .toolbarField[type="checkbox"]{
   opacity:0;
   position:absolute !important;
@@ -106116,6 +106906,11 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
   margin:10px 0 3px;
   margin-inline-start:7px;
 }
+=======
+.toolbarField:focus{
+    border-color:#0a84ff;
+  }
+>>>>>>> upstream/18.0
 =======
 .toolbarField:focus{
     border-color:#0a84ff;
@@ -106897,8 +107692,13 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .loadingInput:has(> #pageNumber.loading)::after{
     display:block;
+=======
+.loadingInput:has( > .loading:is(#pageNumber))::after{
+    display:inline;
+>>>>>>> upstream/18.0
 =======
 .loadingInput:has( > .loading:is(#pageNumber))::after{
     display:inline;
@@ -107545,7 +108345,10 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107931,6 +108734,9 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108318,9 +109124,14 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     top:calc(50% - 8px);
     width:16px;
     height:16px;
+=======
+    width:var(--icon-size);
+    height:var(--icon-size);
+>>>>>>> upstream/18.0
 =======
     width:var(--icon-size);
     height:var(--icon-size);
@@ -108978,6 +109789,7 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .toolbarField:focus{
   border-color:#0a84ff;
 }
@@ -109001,6 +109813,8 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
   padding-inline-start:3px;
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109398,6 +110212,10 @@ a:is(.toolbarButton, .secondaryToolbarButton)[href="#"]{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -109940,6 +110758,10 @@ a:focus > .thumbnail,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -110461,6 +111283,10 @@ a:focus > .thumbnail,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -110977,6 +111803,10 @@ a:focus > .thumbnail > .thumbnailImage,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -111526,10 +112356,13 @@ a:focus > .thumbnail > .thumbnailImage,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #layersView .treeItem > a > label{
   padding-inline-start:4px;
 }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -111916,6 +112749,9 @@ a:focus > .thumbnail > .thumbnailImage,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -112311,6 +113147,10 @@ a:focus > .thumbnail > .thumbnailImage,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -112828,6 +113668,10 @@ a:focus > .thumbnail > .thumbnailImage,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -113345,6 +114189,10 @@ a:focus > .thumbnail > .thumbnailImage,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -113881,7 +114729,11 @@ a:focus > .thumbnail > .thumbnailImage,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     display:inherit;
+=======
+    display:inline flex;
+>>>>>>> upstream/18.0
 =======
     display:inline flex;
 >>>>>>> upstream/18.0
@@ -114418,6 +115270,10 @@ dialog{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -114949,10 +115805,13 @@ dialog .separator{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   height:1px;
   width:100%;
   background-color:var(--separator-color);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115338,6 +116197,9 @@ dialog .separator{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -115735,6 +116597,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -116254,6 +117120,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -116770,6 +117640,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -117286,6 +118160,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -117802,6 +118680,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -118321,6 +119203,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -118837,6 +119723,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -119353,6 +120243,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -119874,7 +120768,10 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -120686,6 +121583,9 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121081,6 +121981,7 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   body[data-pdfjsprinting] #outerContainer{
     display:none;
   }
@@ -121342,6 +122243,8 @@ dialog :link{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
   body[data-pdfjsprinting] #outerContainer{
     display:none;
@@ -121478,6 +122381,9 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121898,6 +122804,7 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   display:none;
 }
 
@@ -121912,6 +122819,8 @@ dialog :link{
 }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -122574,6 +123483,9 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122967,6 +123879,7 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   :root{
     --editor-toolbar-base-offset:40px;
   }
@@ -122976,6 +123889,8 @@ dialog :link{
   #outerContainer .visibleMediumView{
     display:inherit;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -123362,6 +124277,9 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123623,6 +124541,7 @@ dialog :link{
 @media all and (max-width: 690px){
   .hiddenSmallView,
   .hiddenSmallView *{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124014,6 +124933,8 @@ dialog :link{
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     display:none !important;
   }
 
@@ -124147,6 +125068,9 @@ dialog :link{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

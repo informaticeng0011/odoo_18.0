@@ -12,6 +12,10 @@ from odoo.tools import date_utils, mute_logger, test_reports
 
 from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -286,7 +290,10 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
                         'request_date_to': date.today() + relativedelta(day=10),
                     })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_manager_can_approve_from_leave_report_calendar(self):
         """Check if an approval user that has not additional access rights for Time Off can approve a leave for an employee."""
@@ -318,4 +325,7 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
         self.assertEqual(leave.state, 'confirm')
         leave_report.action_approve()
         self.assertEqual(leave.state, 'validate')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

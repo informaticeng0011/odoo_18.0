@@ -4,6 +4,7 @@ from odoo import api, fields, models, tools
 
 from odoo.addons.base.models.res_partner import _tz_get
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -901,6 +902,10 @@ from odoo.osv import expression
 from odoo.exceptions import ValidationError
 
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import ValidationError
+
+>>>>>>> upstream/18.0
 
 class LeaveReportCalendar(models.Model):
     _name = "hr.leave.report.calendar"
@@ -1206,7 +1211,11 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     name = fields.Char(string='Name', readonly=True, compute="_compute_name", search="_search_name")
+=======
+    name = fields.Char(string='Name', readonly=True, compute="_compute_name")
+>>>>>>> upstream/18.0
 =======
     name = fields.Char(string='Name', readonly=True, compute="_compute_name")
 >>>>>>> upstream/18.0
@@ -2487,6 +2496,7 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _search_name(self, operator, value):
         query = self.env['hr.leave.report.calendar'].sudo()._search([('leave_id.duration_display', operator, value)])
         domain = ['|', ('employee_id.name', operator, value), ('id', 'in', query)]
@@ -3090,12 +3100,15 @@ class LeaveReportCalendar(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.depends('leave_manager_id')
     def _compute_is_manager(self):
         for leave in self:
             leave.is_manager = self.env.user.has_group('hr_holidays.group_hr_holidays_user') or leave.leave_manager_id == self.env.user
 
     def action_approve(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
         self.leave_id.action_approve(check_state=False)
 
@@ -3105,6 +3118,8 @@ class LeaveReportCalendar(models.Model):
     def action_refuse(self):
         self.leave_id.action_refuse()
 =======
+=======
+>>>>>>> upstream/18.0
         current_user = self.env.user
         if current_user.has_group('hr_holidays.group_hr_holidays_user'):
             # If the user is a leave manager, approve the leave
@@ -3139,4 +3154,7 @@ class LeaveReportCalendar(models.Model):
         else:
             # If the user is not a leave manager, raise an error
             raise ValidationError(self.env._("You are not allowed to refuse this leave request."))
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

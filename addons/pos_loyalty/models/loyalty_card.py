@@ -48,6 +48,7 @@ class LoyaltyCard(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [('program_id', 'in', [program["id"] for program in data["loyalty.program"]['data']])]
 
     @api.model
@@ -1136,6 +1137,8 @@ class LoyaltyCard(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return [
             ('partner_id', 'in', [partner["id"] for partner in data["res.partner"]['data']]),
             ('program_id', 'in', [program["id"] for program in data["loyalty.program"]['data']]),
@@ -1179,6 +1182,9 @@ class LoyaltyCard(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

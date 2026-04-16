@@ -316,8 +316,11 @@ class MarketingCardController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         redirect_url = campaign_sudo.link_tracker_id.short_url or campaign_sudo.target_url or campaign_sudo.get_base_url()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -967,6 +970,9 @@ class MarketingCardController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1478,6 +1484,10 @@ class MarketingCardController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'post_suggestion': campaign_sudo.post_suggestion,
+>>>>>>> upstream/18.0
 =======
                 'post_suggestion': campaign_sudo.post_suggestion,
 >>>>>>> upstream/18.0

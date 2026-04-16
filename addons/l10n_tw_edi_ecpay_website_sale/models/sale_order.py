@@ -86,7 +86,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("1", "ECpay e-invoice carrier"),
+=======
+            ("1", "Member Account"),
+>>>>>>> upstream/18.0
 =======
             ("1", "Member Account"),
 >>>>>>> upstream/18.0
@@ -364,7 +368,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.company_id.country_id.code == 'TW' and self.company_id._is_ecpay_enabled():
+=======
+        if self.company_id.account_fiscal_country_id.code == 'TW' and self.company_id._is_ecpay_enabled():
+>>>>>>> upstream/18.0
 =======
         if self.company_id.account_fiscal_country_id.code == 'TW' and self.company_id._is_ecpay_enabled():
 >>>>>>> upstream/18.0

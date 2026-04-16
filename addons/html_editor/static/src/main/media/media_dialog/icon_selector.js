@@ -6,6 +6,7 @@ import { Component, useState } from "@odoo/owl";
 export class IconSelector extends Component {
     static mediaSpecificClasses = ["fa"];
     static mediaSpecificStyles = ["color", "background-color"];
+<<<<<<< HEAD
     static mediaExtraClasses = [
         "rounded-circle",
         "rounded",
@@ -15,6 +16,9 @@ export class IconSelector extends Component {
         /^bg-\S+$/,
         /^fa-\S+$/,
     ];
+=======
+    static mediaExtraClasses = [/^text-\S+$/, /^bg-\S+$/, /^fa-\S+$/];
+>>>>>>> upstream/18.0
     static tagNames = ["SPAN", "I"];
     static template = "html_editor.IconSelector";
     static components = {

@@ -87,7 +87,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with_remaining_hours = self.env.context.get('with_remaining_hours')
+=======
+        with_remaining_hours = self.env.context.get('with_remaining_hours') and not self.env.context.get('skip_remaining_hours', False)
+>>>>>>> upstream/18.0
 =======
         with_remaining_hours = self.env.context.get('with_remaining_hours') and not self.env.context.get('skip_remaining_hours', False)
 >>>>>>> upstream/18.0
@@ -448,7 +452,11 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour)
+=======
+                remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
+>>>>>>> upstream/18.0
 =======
                 remaining_hours = line.product_uom._compute_quantity(qty_left, uom_hour, round=False)
 >>>>>>> upstream/18.0
@@ -941,6 +949,7 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         for line in lines_by_timesheet:
             qty_to_invoice = mapping.get(line.id, 0.0)
@@ -1102,6 +1111,8 @@ class SaleOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         timesheet_uom = self.order_id.timesheet_encode_uom_id
 
         for line in lines_by_timesheet:
@@ -1131,6 +1142,9 @@ class SaleOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

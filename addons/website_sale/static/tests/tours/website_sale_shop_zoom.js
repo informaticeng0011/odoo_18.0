@@ -171,6 +171,7 @@ registry.category("web_tour.tours").add('shop_zoom', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: `.oe_product_cart a:contains(/^${imageName}$/)`,
         run: "click",
 <<<<<<< HEAD
@@ -467,6 +468,11 @@ registry.category("web_tour.tours").add('shop_zoom', {
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
+=======
+        trigger: `.oe_product_cart a:text(${imageName})`,
+        run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======

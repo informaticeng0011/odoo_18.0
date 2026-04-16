@@ -80,7 +80,10 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_sol_analytic_distribution_multicompany_task(self):
@@ -143,6 +146,9 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
         self.assertEqual(sale_order_line.analytic_distribution, {str(analytic_account_b.id): 100})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -463,7 +469,10 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1359,6 +1368,9 @@ class TestAnalyticDistribution(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

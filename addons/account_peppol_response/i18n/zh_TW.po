@@ -1,19 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol_response
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * account_peppol_response
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2026-04-10 18:38+0000\n"
 "Last-Translator: \n"
@@ -23,6 +30,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-04-14 08:31+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
@@ -33,13 +42,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16.2\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "<span>This information will be sent with your response.</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>此資訊會與你的回應一併傳送。</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>此資訊會與你的回應一併傳送。</span>"
 >>>>>>> upstream/18.0
@@ -51,7 +67,11 @@ msgid ""
 "A Peppol response was sent to the Peppol Access Point declaring you "
 "%(status)s this document."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已向 Peppol 接入點傳送 Peppol 回應，宣告你是此文件的 %(status)s。"
+>>>>>>> upstream/18.0
 =======
 msgstr "已向 Peppol 接入點傳送 Peppol 回應，宣告你是此文件的 %(status)s。"
 >>>>>>> upstream/18.0
@@ -60,7 +80,11 @@ msgstr "已向 Peppol 接入點傳送 Peppol 回應，宣告你是此文件的 %
 #: model:ir.model,name:account_peppol_response.model_account_edi_proxy_client_user
 msgid "Account EDI proxy user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "賬戶 EDI 代理使用者"
+>>>>>>> upstream/18.0
 =======
 msgstr "賬戶 EDI 代理使用者"
 >>>>>>> upstream/18.0
@@ -69,7 +93,11 @@ msgstr "賬戶 EDI 代理使用者"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ab
 msgid "Acknowledgement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "確認收到"
+>>>>>>> upstream/18.0
 =======
 msgstr "確認收到"
 >>>>>>> upstream/18.0
@@ -78,7 +106,11 @@ msgstr "確認收到"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Actions to suggest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "建議的動作"
+>>>>>>> upstream/18.0
 =======
 msgstr "建議的動作"
 >>>>>>> upstream/18.0
@@ -90,7 +122,11 @@ msgid ""
 "An error occurred while responding to this invoice's expeditor.%(br)sStatus:"
 " %(status)s - %(error)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "發送回應至此發票的催辦人時，發生錯誤。%(br)s狀態：%(status)s - %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "發送回應至此發票的催辦人時，發生錯誤。%(br)s狀態：%(status)s - %(error)s"
 >>>>>>> upstream/18.0
@@ -99,7 +135,11 @@ msgstr "發送回應至此發票的催辦人時，發生錯誤。%(br)s狀態：
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ap
 msgid "Approval"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "批准"
+>>>>>>> upstream/18.0
 =======
 msgstr "批准"
 >>>>>>> upstream/18.0
@@ -108,7 +148,11 @@ msgstr "批准"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__ap
 msgid "Approved"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已批准"
+>>>>>>> upstream/18.0
 =======
 msgstr "已批准"
 >>>>>>> upstream/18.0
@@ -119,7 +163,11 @@ msgstr "已批准"
 #: code:addons/account_peppol_response/wizard/peppol_rejection_wizard.py:0
 msgid "At least one reason must be given when rejecting a Peppol invoice."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "拒絕 Peppol 發票時，須最少提供一個原因。"
+>>>>>>> upstream/18.0
 =======
 msgstr "拒絕 Peppol 發票時，須最少提供一個原因。"
 >>>>>>> upstream/18.0
@@ -128,7 +176,11 @@ msgstr "拒絕 Peppol 發票時，須最少提供一個原因。"
 #: model:ir.model,name:account_peppol_response.model_account_peppol_response
 msgid "Business Level Responses for Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 業務層面回應"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 業務層面回應"
 >>>>>>> upstream/18.0
@@ -137,7 +189,11 @@ msgstr "Peppol 業務層面回應"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__code
 msgid "Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "代碼"
+>>>>>>> upstream/18.0
 =======
 msgstr "代碼"
 >>>>>>> upstream/18.0
@@ -146,7 +202,11 @@ msgstr "代碼"
 #: model:ir.model,name:account_peppol_response.model_res_company
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "公司"
+>>>>>>> upstream/18.0
 =======
 msgstr "公司"
 >>>>>>> upstream/18.0
@@ -155,7 +215,11 @@ msgstr "公司"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__company_id
 msgid "Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "公司"
+>>>>>>> upstream/18.0
 =======
 msgstr "公司"
 >>>>>>> upstream/18.0
@@ -164,7 +228,11 @@ msgstr "公司"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ca
 msgid "Conditionally accepted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "有條件接受"
+>>>>>>> upstream/18.0
 =======
 msgstr "有條件接受"
 >>>>>>> upstream/18.0
@@ -173,7 +241,11 @@ msgstr "有條件接受"
 #: model:ir.model,name:account_peppol_response.model_res_partner
 msgid "Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "聯絡人"
+>>>>>>> upstream/18.0
 =======
 msgstr "聯絡人"
 >>>>>>> upstream/18.0
@@ -184,7 +256,11 @@ msgstr "聯絡人"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "建立者"
+>>>>>>> upstream/18.0
 =======
 msgstr "建立者"
 >>>>>>> upstream/18.0
@@ -195,7 +271,11 @@ msgstr "建立者"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "建立日期"
+>>>>>>> upstream/18.0
 =======
 msgstr "建立日期"
 >>>>>>> upstream/18.0
@@ -204,7 +284,11 @@ msgstr "建立日期"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__description
 msgid "Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "描述"
 >>>>>>> upstream/18.0
@@ -215,7 +299,11 @@ msgstr "描述"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "顯示名稱"
+>>>>>>> upstream/18.0
 =======
 msgstr "顯示名稱"
 >>>>>>> upstream/18.0
@@ -224,7 +312,11 @@ msgstr "顯示名稱"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Does not support Invoice Responses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "不支援發票回應"
+>>>>>>> upstream/18.0
 =======
 msgstr "不支援發票回應"
 >>>>>>> upstream/18.0
@@ -233,7 +325,11 @@ msgstr "不支援發票回應"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__done
 msgid "Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "完成"
+>>>>>>> upstream/18.0
 =======
 msgstr "完成"
 >>>>>>> upstream/18.0
@@ -242,7 +338,11 @@ msgstr "完成"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__error
 msgid "Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "錯誤"
+>>>>>>> upstream/18.0
 =======
 msgstr "錯誤"
 >>>>>>> upstream/18.0
@@ -253,7 +353,11 @@ msgstr "錯誤"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "識別碼"
+>>>>>>> upstream/18.0
 =======
 msgstr "識別碼"
 >>>>>>> upstream/18.0
@@ -262,7 +366,11 @@ msgstr "識別碼"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ip
 msgid "In Process"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "處理中"
+>>>>>>> upstream/18.0
 =======
 msgstr "處理中"
 >>>>>>> upstream/18.0
@@ -271,7 +379,11 @@ msgstr "處理中"
 #: model:ir.model,name:account_peppol_response.model_account_move
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "日記賬記項"
+>>>>>>> upstream/18.0
 =======
 msgstr "日記賬記項"
 >>>>>>> upstream/18.0
@@ -282,7 +394,11 @@ msgstr "日記賬記項"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "最後更新者"
+>>>>>>> upstream/18.0
 =======
 msgstr "最後更新者"
 >>>>>>> upstream/18.0
@@ -293,7 +409,11 @@ msgstr "最後更新者"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "最後更新日期"
+>>>>>>> upstream/18.0
 =======
 msgstr "最後更新日期"
 >>>>>>> upstream/18.0
@@ -302,7 +422,11 @@ msgstr "最後更新日期"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__list_identifier
 msgid "List identifier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "清單識別碼"
+>>>>>>> upstream/18.0
 =======
 msgstr "清單識別碼"
 >>>>>>> upstream/18.0
@@ -312,7 +436,11 @@ msgstr "清單識別碼"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Miscellaneous:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "雜項："
+>>>>>>> upstream/18.0
 =======
 msgstr "雜項："
 >>>>>>> upstream/18.0
@@ -322,7 +450,11 @@ msgstr "雜項："
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__move_id
 msgid "Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "分錄"
+>>>>>>> upstream/18.0
 =======
 msgstr "分錄"
 >>>>>>> upstream/18.0
@@ -331,7 +463,11 @@ msgstr "分錄"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__name
 msgid "Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "名稱"
+>>>>>>> upstream/18.0
 =======
 msgstr "名稱"
 >>>>>>> upstream/18.0
@@ -340,7 +476,11 @@ msgstr "名稱"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__not_serviced
 msgid "Not Serviced"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "未提供服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "未提供服務"
 >>>>>>> upstream/18.0
@@ -349,7 +489,11 @@ msgstr "未提供服務"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusaction
 msgid "OPStatusAction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusAction"
+>>>>>>> upstream/18.0
 =======
 msgstr "OPStatusAction"
 >>>>>>> upstream/18.0
@@ -358,7 +502,11 @@ msgstr "OPStatusAction"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusreason
 msgid "OPStatusReason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusReason"
+>>>>>>> upstream/18.0
 =======
 msgstr "OPStatusReason"
 >>>>>>> upstream/18.0
@@ -368,7 +516,11 @@ msgstr "OPStatusReason"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_move_state
 msgid "PEPPOL status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 狀態"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 狀態"
 >>>>>>> upstream/18.0
@@ -377,7 +529,11 @@ msgstr "Peppol 狀態"
 #: model:ir.actions.server,name:account_peppol_response.ir_cron_peppol_auto_register_services_ir_actions_server
 msgid "PEPPOL: auto register services"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL：自動登記服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "PEPPOL：自動登記服務"
 >>>>>>> upstream/18.0
@@ -386,7 +542,11 @@ msgstr "PEPPOL：自動登記服務"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__pd
 msgid "Paid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已付款"
+>>>>>>> upstream/18.0
 =======
 msgstr "已付款"
 >>>>>>> upstream/18.0
@@ -395,7 +555,11 @@ msgstr "已付款"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__processing
 msgid "Pending Reception"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "等候接收"
+>>>>>>> upstream/18.0
 =======
 msgstr "等候接收"
 >>>>>>> upstream/18.0
@@ -405,7 +569,11 @@ msgstr "等候接收"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_can_send_response
 msgid "Peppol Can Send Response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 可傳送回應"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 可傳送回應"
 >>>>>>> upstream/18.0
@@ -414,7 +582,11 @@ msgstr "Peppol 可傳送回應"
 #: model:ir.model,name:account_peppol_response.model_account_peppol_rejection_wizard
 msgid "Peppol Rejection wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 拒絕精靈"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 拒絕精靈"
 >>>>>>> upstream/18.0
@@ -425,7 +597,11 @@ msgstr "Peppol 拒絕精靈"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_form
 msgid "Peppol Response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 回應"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 回應"
 >>>>>>> upstream/18.0
@@ -435,7 +611,11 @@ msgstr "Peppol 回應"
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_response_support
 msgid "Peppol Response Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 回應服務"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 回應服務"
 >>>>>>> upstream/18.0
@@ -446,7 +626,11 @@ msgstr "Peppol 回應服務"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_list
 msgid "Peppol Responses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 回應"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 回應"
 >>>>>>> upstream/18.0
@@ -455,7 +639,11 @@ msgstr "Peppol 回應"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_message_uuid
 msgid "Peppol UUID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol UUID 識別碼"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol UUID 識別碼"
 >>>>>>> upstream/18.0
@@ -465,7 +653,11 @@ msgstr "Peppol UUID 識別碼"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Peppol business response error: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 業務回應錯誤：%s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 業務回應錯誤：%s"
 >>>>>>> upstream/18.0
@@ -474,7 +666,11 @@ msgstr "Peppol 業務回應錯誤：%s"
 #: model:ir.model,name:account_peppol_response.model_account_peppol_clarification
 msgid "Peppol clarifications used for rejection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 用於拒絕的澄清"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 用於拒絕的澄清"
 >>>>>>> upstream/18.0
@@ -483,7 +679,11 @@ msgstr "Peppol 用於拒絕的澄清"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_move_form
 msgid "Peppol info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 資訊"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 資訊"
 >>>>>>> upstream/18.0
@@ -492,7 +692,11 @@ msgstr "Peppol 資訊"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_state
 msgid "Peppol status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 狀態"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 狀態"
 >>>>>>> upstream/18.0
@@ -501,7 +705,11 @@ msgstr "Peppol 狀態"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Reasons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "原因"
+>>>>>>> upstream/18.0
 =======
 msgstr "原因"
 >>>>>>> upstream/18.0
@@ -511,7 +719,11 @@ msgstr "原因"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Reasons:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "原因："
+>>>>>>> upstream/18.0
 =======
 msgstr "原因："
 >>>>>>> upstream/18.0
@@ -520,7 +732,11 @@ msgstr "原因："
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__ab
 msgid "Received"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已收到"
+>>>>>>> upstream/18.0
 =======
 msgstr "已收到"
 >>>>>>> upstream/18.0
@@ -531,7 +747,11 @@ msgstr "已收到"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Reject Peppol Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "拒絕 Peppol 文件"
+>>>>>>> upstream/18.0
 =======
 msgstr "拒絕 Peppol 文件"
 >>>>>>> upstream/18.0
@@ -540,7 +760,11 @@ msgstr "拒絕 Peppol 文件"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__re
 msgid "Rejected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已拒絕"
+>>>>>>> upstream/18.0
 =======
 msgstr "已拒絕"
 >>>>>>> upstream/18.0
@@ -549,7 +773,11 @@ msgstr "已拒絕"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__re
 msgid "Rejection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "拒絕"
+>>>>>>> upstream/18.0
 =======
 msgstr "拒絕"
 >>>>>>> upstream/18.0
@@ -558,7 +786,11 @@ msgstr "拒絕"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
 msgid "Rejection actions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "拒絕操作"
+>>>>>>> upstream/18.0
 =======
 msgstr "拒絕操作"
 >>>>>>> upstream/18.0
@@ -567,7 +799,11 @@ msgstr "拒絕操作"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
 msgid "Rejection reasons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "拒絕原因"
+>>>>>>> upstream/18.0
 =======
 msgstr "拒絕原因"
 >>>>>>> upstream/18.0
@@ -576,7 +812,11 @@ msgstr "拒絕原因"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__response_code
 msgid "Response Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "回應代碼"
+>>>>>>> upstream/18.0
 =======
 msgstr "回應代碼"
 >>>>>>> upstream/18.0
@@ -585,7 +825,11 @@ msgstr "回應代碼"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Send Rejection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "傳送拒絕"
+>>>>>>> upstream/18.0
 =======
 msgstr "傳送拒絕"
 >>>>>>> upstream/18.0
@@ -595,7 +839,11 @@ msgstr "傳送拒絕"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Suggested actions:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "建議操作："
+>>>>>>> upstream/18.0
 =======
 msgstr "建議操作："
 >>>>>>> upstream/18.0
@@ -605,7 +853,11 @@ msgstr "建議操作："
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_supported_documents
 msgid "Supported Peppol Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "支援的 Peppol 文件"
+>>>>>>> upstream/18.0
 =======
 msgstr "支援的 Peppol 文件"
 >>>>>>> upstream/18.0
@@ -614,7 +866,11 @@ msgstr "支援的 Peppol 文件"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Supports Invoice Responses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "支援發票回應"
+>>>>>>> upstream/18.0
 =======
 msgstr "支援發票回應"
 >>>>>>> upstream/18.0
@@ -626,7 +882,11 @@ msgid ""
 "The Peppol receiver of this document has rejected it with the following "
 "information:%(br)s%(rejection_message)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 接收方已拒絕接收此文件，並提供以下資訊：%(br)s%(rejection_message)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 接收方已拒絕接收此文件，並提供以下資訊：%(br)s%(rejection_message)s"
 >>>>>>> upstream/18.0
@@ -636,7 +896,11 @@ msgstr "Peppol 接收方已拒絕接收此文件，並提供以下資訊：%(br)
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has accepted it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 接收方回覆已接受此文件。"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 接收方回覆已接受此文件。"
 >>>>>>> upstream/18.0
@@ -646,7 +910,11 @@ msgstr "Peppol 接收方回覆已接受此文件。"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has received it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol 接收方回覆已收到此文件。"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol 接收方回覆已收到此文件。"
 >>>>>>> upstream/18.0
@@ -659,6 +927,11 @@ msgid ""
 "the document's sender. Not mandatory."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"向文件發送方建議採取的操作，以確保文件（在之後）再次傳送時，能夠被接受。這些"
+"建議會傳送給文件發送方。非強制填寫。"
+>>>>>>> upstream/18.0
 =======
 "向文件發送方建議採取的操作，以確保文件（在之後）再次傳送時，能夠被接受。這些"
 "建議會傳送給文件發送方。非強制填寫。"
@@ -670,7 +943,11 @@ msgid ""
 "The reasons to reject the received PEPPOL document. These will be sent to "
 "the document's sender."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "拒絕接收 PEPPOL 文件的原因。這些原因會發送給文件發送方。"
+>>>>>>> upstream/18.0
 =======
 msgstr "拒絕接收 PEPPOL 文件的原因。這些原因會發送給文件發送方。"
 >>>>>>> upstream/18.0
@@ -679,7 +956,11 @@ msgstr "拒絕接收 PEPPOL 文件的原因。這些原因會發送給文件發�
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__uq
 msgid "Under query"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "查詢中"
+>>>>>>> upstream/18.0
 =======
 msgstr "查詢中"
 >>>>>>> upstream/18.0
@@ -689,7 +970,11 @@ msgstr "查詢中"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "accepted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已接受"
+>>>>>>> upstream/18.0
 =======
 msgstr "已接受"
 >>>>>>> upstream/18.0
@@ -699,7 +984,11 @@ msgstr "已接受"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "received"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已收到"
+>>>>>>> upstream/18.0
 =======
 msgstr "已收到"
 >>>>>>> upstream/18.0
@@ -709,7 +998,11 @@ msgstr "已收到"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "rejected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "已拒絕"
+>>>>>>> upstream/18.0
 =======
 msgstr "已拒絕"
 >>>>>>> upstream/18.0
