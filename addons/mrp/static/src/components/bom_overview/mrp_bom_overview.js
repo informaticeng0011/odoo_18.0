@@ -142,7 +142,11 @@ export class BomOverviewComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.state.currentVariantId ||= Object.keys(this.variants)[0];
+=======
+            this.state.currentVariantId ||= this.state.bomData.product_id;
+>>>>>>> upstream/18.0
 =======
             this.state.currentVariantId ||= this.state.bomData.product_id;
 >>>>>>> upstream/18.0
@@ -432,8 +436,15 @@ export class BomOverviewComponent extends Component {
                          "&operations=" + this.state.showOptions.operations +
                          "&lead_times=" + this.state.showOptions.leadTimes +
                          "&quantity=" + (this.state.bomQuantity || 1) +
+<<<<<<< HEAD
                          "&unfolded_ids=" + JSON.stringify(Array.from(this.unfoldedIds)) +
                          "&warehouse_id=" + (this.state.currentWarehouse ? this.state.currentWarehouse.id : false);
+=======
+                         "&unfolded_ids=" + JSON.stringify(Array.from(this.unfoldedIds));
+        if (this.state.currentWarehouse) {
+            reportName += "&warehouse_id=" + this.state.currentWarehouse.id;
+        }
+>>>>>>> upstream/18.0
         if (printAll) {
             reportName += "&all_variants=1";
         } else if (this.showVariants && this.state.currentVariantId) {

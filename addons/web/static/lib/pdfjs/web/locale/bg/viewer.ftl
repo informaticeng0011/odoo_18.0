@@ -180,12 +180,15 @@ pdfjs-bookmark-button-label = Текуща страница
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Отваряне в приложение
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Отваряне в приложение
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -627,7 +630,10 @@ pdfjs-document-properties-file-size = Големина на файл:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1020,6 +1026,9 @@ pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) }
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1420,6 +1429,12 @@ pdfjs-document-properties-modification-date = Дата на промяна:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#   $dateObj (Date) - the creation/modification date and time of the PDF file
+pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+# Variables:
+>>>>>>> upstream/18.0
 =======
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -2350,6 +2365,12 @@ pdfjs-text-annotation-type =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Variables:
+#   $dateObj (Date) - the modification date and time of the annotation
+pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
+>>>>>>> upstream/18.0
 =======
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
@@ -3144,8 +3165,11 @@ pdfjs-editor-stamp-button-label = Добавяне или променяне н�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-editor-remove-button =
     .title = Премахване
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3593,7 +3617,10 @@ pdfjs-editor-resizer-label-middle-left = Ляво в средата — прео
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3994,6 +4021,9 @@ pdfjs-editor-resizer-middle-left =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4399,7 +4429,10 @@ pdfjs-editor-colorpicker-red =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4795,6 +4828,9 @@ pdfjs-editor-colorpicker-red =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

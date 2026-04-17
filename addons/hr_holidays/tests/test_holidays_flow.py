@@ -13,6 +13,10 @@ from odoo.tools import date_utils, mute_logger, test_reports
 from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -291,7 +295,10 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
                     })
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -326,6 +333,9 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
         leave_report.action_approve()
         self.assertEqual(leave.state, 'validate')
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

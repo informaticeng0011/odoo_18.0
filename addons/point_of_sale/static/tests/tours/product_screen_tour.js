@@ -196,6 +196,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/* global posmodel */
+>>>>>>> upstream/18.0
 =======
 /* global posmodel */
 >>>>>>> upstream/18.0
@@ -1032,7 +1036,10 @@ registry.category("web_tour.tours").add("ProductScreenTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1691,6 +1698,9 @@ registry.category("web_tour.tours").add("ProductScreenTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2467,6 +2477,7 @@ registry.category("web_tour.tours").add("FloatingOrderTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ].flat(),
 });
 
@@ -2527,6 +2538,8 @@ registry.category("web_tour.tours").add("FloatingOrderTour", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3149,6 +3162,9 @@ registry.category("web_tour.tours").add("FloatingOrderTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3792,6 +3808,9 @@ registry.category("web_tour.tours").add("test_tax_control_button_visiblity", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4529,9 +4548,12 @@ registry.category("web_tour.tours").add("CashClosingDetails", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Dialog.confirm("Proceed Anyway", ".btn-primary"),
             Chrome.clickBtn("Backend"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5245,6 +5267,9 @@ registry.category("web_tour.tours").add("CashClosingDetails", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5972,9 +5997,12 @@ registry.category("web_tour.tours").add("PosCustomerAllFieldsDisplayed", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ProductScreen.clickPartnerButton(),
             PartnerList.searchCustomerValue("john@doe.com"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6293,6 +6321,9 @@ registry.category("web_tour.tours").add("PosCustomerAllFieldsDisplayed", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6602,6 +6633,7 @@ registry.category("web_tour.tours").add("PosCategoriesOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: '.category-button:eq(0) > span:contains("AAA")',
             },
             {
@@ -6613,6 +6645,8 @@ registry.category("web_tour.tours").add("PosCategoriesOrder", {
             {
                 trigger: '.category-button:eq(1) > span:contains("AAB")',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6917,6 +6951,9 @@ registry.category("web_tour.tours").add("PosCategoriesOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7118,6 +7155,7 @@ registry.category("web_tour.tours").add("PosCategoriesOrder", {
             },
             ProductScreen.productIsDisplayed("Product in AAB and AAX", 0),
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7422,6 +7460,8 @@ registry.category("web_tour.tours").add("PosCategoriesOrder", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 trigger: '.category-button:eq(2) > div span:contains("AAX")',
             },
             {
@@ -7528,6 +7568,9 @@ registry.category("web_tour.tours").add("PosCategoriesOrder", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8141,7 +8184,10 @@ registry.category("web_tour.tours").add("AddMultipleSerialsAtOnce", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9044,7 +9090,10 @@ registry.category("web_tour.tours").add("test_draft_orders_not_syncing", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9886,6 +9935,9 @@ registry.category("web_tour.tours").add("test_one_attribute_value_scan_barcode",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10764,6 +10816,7 @@ registry.category("web_tour.tours").add("FiscalPositionTaxLabels", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10940,6 +10993,8 @@ registry.category("web_tour.tours").add("FiscalPositionTaxLabels", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11653,6 +11708,7 @@ registry.category("web_tour.tours").add("test_pos_ui_round_globally", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11751,6 +11807,8 @@ registry.category("web_tour.tours").add("test_pos_ui_round_globally", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12274,6 +12332,7 @@ registry.category("web_tour.tours").add("test_product_ref_displayed", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12286,6 +12345,8 @@ registry.category("web_tour.tours").add("test_product_ref_displayed", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12786,6 +12847,7 @@ registry.category("web_tour.tours").add("test_dynamic_product_price", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12866,6 +12928,8 @@ registry.category("web_tour.tours").add("test_dynamic_product_price", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13242,6 +13306,9 @@ registry.category("web_tour.tours").add("test_orderline_merge_with_higher_price_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

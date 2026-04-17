@@ -12,6 +12,7 @@
     <template id="report_invoice_document" inherit_id="account.report_invoice_document" primary="True">
         <xpath expr="//t[@t-call='web.external_layout']" position="attributes">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <attribute name="t-call">account_edi_ubl_cii.external_layout_with_context</attribute>
         </xpath>
     </template>
@@ -24,6 +25,8 @@
             </t>
         </xpath>
 =======
+=======
+>>>>>>> upstream/18.0
             <attribute name="t-call">web.internal_layout</attribute>
         </xpath>
 
@@ -63,6 +66,9 @@
 
     <template id="external_layout_with_context" inherit_id="web.internal_layout" primary="True">
     <!-- # TODO REMOVE IN MASTER -->
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     </template>
 

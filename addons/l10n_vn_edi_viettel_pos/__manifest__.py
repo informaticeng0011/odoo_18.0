@@ -19,6 +19,10 @@ Using SInvoice by Viettel
     'data': [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "security/ir.model.access.csv",
+>>>>>>> upstream/18.0
 =======
         "security/ir.model.access.csv",
 >>>>>>> upstream/18.0

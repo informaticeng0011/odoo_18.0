@@ -75,8 +75,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol_selfbilling
 #
+=======
+# * account_peppol_selfbilling
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * account_peppol_selfbilling
 #
@@ -503,6 +509,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2026-01-15 18:38+0000\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -735,6 +742,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-03-20 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-03-20 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-01-27 23:16+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Persian <https://translate.odoo.com/projects/odoo-18/"
@@ -819,6 +829,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1024,11 +1037,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <t t-out=\"object.partner_id.name\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
 "            </t>\n"
 "            <t t-else=\"\">\n"
 "                <t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1173,6 +1189,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1321,7 +1340,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            self-billing invoice <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+=======
+"            self-billing invoice <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            self-billing invoice <span style=\"font-weight:bold;\" t-"
 "out=\"object.name or ''\">INV/2021/05/0005</span>\n"
@@ -1562,10 +1586,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1710,6 +1737,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1854,6 +1884,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
 "            PS: you can review your timesheets <a t-att-href=\"'/my/timesheets?search_in=invoice&amp;search=%s' % object.name\">from the portal.</a>\n"
@@ -1864,6 +1895,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2017,6 +2050,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2190,7 +2226,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2390,8 +2429,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                <t t-out=\"object.partner_id.name\">براندون فریمن</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">آژور اینتریور</t>),\n"
+=======
+"                <t t-out=\"object.partner_id.name\">براندون فریمن</t> (<t t-"
+"out=\"object.partner_id.parent_id.name or ''\">آژور اینتریور</t>),\n"
+>>>>>>> upstream/18.0
 =======
 "                <t t-out=\"object.partner_id.name\">براندون فریمن</t> (<t t-"
 "out=\"object.partner_id.parent_id.name or ''\">آژور اینتریور</t>),\n"
@@ -2640,8 +2684,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">"
 "INV/2021/05/0005</span>\n"
+=======
+"            <span style=\"font-weight:bold;\" t-out=\"object.name or "
+"''\">INV/2021/05/0005</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            <span style=\"font-weight:bold;\" t-out=\"object.name or "
 "''\">INV/2021/05/0005</span>\n"
@@ -2884,8 +2933,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        به مبلغ <span style=\"font-weight:bold;\" t-out=\"format_amount"
 "(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
+=======
+"        به مبلغ <span style=\"font-weight:bold;\" t-"
+"out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
+"143,750.00</span>\n"
+>>>>>>> upstream/18.0
 =======
 "        به مبلغ <span style=\"font-weight:bold;\" t-"
 "out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ "
@@ -3172,6 +3227,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if="
 "\"hasattr(object, 'timesheet_count') and object.timesheet_count\">\n"
 "            <br/><br/>\n"
@@ -3188,6 +3244,8 @@ msgstr ""
 "t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\""
 ">میچل ادمین</t></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3341,6 +3399,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3512,6 +3573,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3716,7 +3780,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+=======
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+>>>>>>> upstream/18.0
 =======
 "            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
 "(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
@@ -3959,7 +4028,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            self-billing credit note <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+=======
+"            self-billing credit note <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+>>>>>>> upstream/18.0
 =======
 "            self-billing credit note <span style=\"font-weight:bold;\" t-"
 "out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
@@ -4200,6 +4274,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
 "        </t>\n"
 "        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
@@ -4210,6 +4285,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4363,6 +4440,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4463,6 +4543,7 @@ msgid ""
 msgstr ""
 
 #. module: account_peppol_selfbilling
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4977,6 +5058,11 @@ msgstr "سند حسابداری ارسال شد"
 msgid "Account Move Send"
 msgstr "سند حسابداری ارسال شد"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:account_peppol_selfbilling.model_account_move_send
+msgid "Account Move Send"
+msgstr "سند حسابداری ارسال شد"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:ir.model.fields,field_description:account_peppol_selfbilling.field_account_bank_statement_line__can_send_as_self_invoice
@@ -4985,6 +5071,7 @@ msgid "Can Send As Self Invoice"
 msgstr ""
 
 #. module: account_peppol_selfbilling
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5541,6 +5628,11 @@ msgstr "روزنامه"
 msgid "Journal"
 msgstr "روزنامه"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:account_peppol_selfbilling.model_account_journal
+msgid "Journal"
+msgstr "روزنامه"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:ir.model,name:account_peppol_selfbilling.model_account_move
@@ -5620,7 +5712,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سند دفترروزنامه‌"
+>>>>>>> upstream/18.0
 =======
 msgstr "سند دفترروزنامه‌"
 >>>>>>> upstream/18.0
@@ -5928,9 +6024,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This journal is for self-billing invoices. If the company has activated "
 "self-billing sending on Peppol, vendor bills will be available to be sent as"
 " self-billed invoices via Peppol."
+=======
+"This journal is for self-billing invoices. If the company has activated self-"
+"billing sending on Peppol, vendor bills will be available to be sent as self-"
+"billed invoices via Peppol."
+>>>>>>> upstream/18.0
 =======
 "This journal is for self-billing invoices. If the company has activated self-"
 "billing sending on Peppol, vendor bills will be available to be sent as self-"
@@ -6246,7 +6348,11 @@ msgid "UBL BIS Billing 3.0.12"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UBL BIS Billing 3.0.12"
+>>>>>>> upstream/18.0
 =======
 msgstr "UBL BIS Billing 3.0.12"
 >>>>>>> upstream/18.0
@@ -6551,7 +6657,11 @@ msgid "Vendor Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "صورتحساب فروشنده"
+>>>>>>> upstream/18.0
 =======
 msgstr "صورتحساب فروشنده"
 >>>>>>> upstream/18.0
@@ -6856,7 +6966,11 @@ msgid "Vendor Credit Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "سند بستانکار فروشنده"
+>>>>>>> upstream/18.0
 =======
 msgstr "سند بستانکار فروشنده"
 >>>>>>> upstream/18.0
@@ -7133,8 +7247,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.company_id.name }} Self-billing credit note (Ref {{ object.name or"
 " 'n/a' }})"
+=======
+"{{ object.company_id.name }} Self-billing credit note (Ref {{ object.name or "
+"'n/a' }})"
+>>>>>>> upstream/18.0
 =======
 "{{ object.company_id.name }} Self-billing credit note (Ref {{ object.name or "
 "'n/a' }})"
@@ -7375,10 +7494,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ object.company_id.name }} Self-billing invoice (Ref {{ object.name or "
 "'n/a' }})"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7501,6 +7623,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #~ msgid "Account EDI proxy user"
 #~ msgstr "کاربر پروکسی EDI حساب"
 <<<<<<< HEAD
@@ -7565,6 +7688,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7645,6 +7770,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

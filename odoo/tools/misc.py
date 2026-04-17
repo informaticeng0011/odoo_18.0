@@ -78,7 +78,11 @@ from difflib import HtmlDiff
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from functools import reduce, wraps
+=======
+from functools import lru_cache, reduce, wraps
+>>>>>>> upstream/18.0
 =======
 from functools import lru_cache, reduce, wraps
 >>>>>>> upstream/18.0
@@ -907,8 +911,14 @@ def get_iso_codes(lang: str) -> str:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if lang.split('_')[0] == lang.split('_')[1].lower():
             lang = lang.split('_')[0]
+=======
+        lang_items = lang.split('_')
+        if lang_items[0] == lang_items[1].lower():
+            lang = lang_items[0]
+>>>>>>> upstream/18.0
 =======
         lang_items = lang.split('_')
         if lang_items[0] == lang_items[1].lower():
@@ -2651,6 +2661,7 @@ class lower_logging(logging.Handler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             record.msg = record.msg.replace('Traceback (most recent call last):', '_Traceback_ (most recent call last):')
 >>>>>>> upstream/18.0
@@ -2679,6 +2690,11 @@ class lower_logging(logging.Handler):
             record.msg = record.msg.replace('Traceback (most recent call last):', '_Traceback_ (most recent call last):')
 >>>>>>> upstream/18.0
             record.args = tuple(arg.replace('Traceback (most recent call last):', '_Traceback_ (most recent call last):') if isinstance(arg, str) else arg for arg in record.args)
+=======
+            if MungedTracebackLogRecord.__base__ is logging.LogRecord:
+                MungedTracebackLogRecord.__bases__ = (record.__class__,)
+            record.__class__ = MungedTracebackLogRecord
+>>>>>>> upstream/18.0
 =======
             if MungedTracebackLogRecord.__base__ is logging.LogRecord:
                 MungedTracebackLogRecord.__bases__ = (record.__class__,)
@@ -3442,7 +3458,10 @@ class lower_logging(logging.Handler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3826,6 +3845,9 @@ class MungedTracebackLogRecord(logging.LogRecord):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4514,6 +4536,12 @@ class Callbacks:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def __len__(self) -> int:
+        return len(self._funcs)
+
+>>>>>>> upstream/18.0
 =======
     def __len__(self) -> int:
         return len(self._funcs)
@@ -5201,6 +5229,10 @@ def get_lang(env: Environment, lang_code: str | None = None) -> LangData:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+@lru_cache
+>>>>>>> upstream/18.0
 =======
 @lru_cache
 >>>>>>> upstream/18.0
@@ -6044,7 +6076,11 @@ def get_diff(data_from, data_to, custom_style=False, dark_color_scheme=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'diff_header': 'bg-600 text-center align-top px-2',
+=======
+            'diff_header': 'bg-600 text-light text-center align-top px-2',
+>>>>>>> upstream/18.0
 =======
             'diff_header': 'bg-600 text-light text-center align-top px-2',
 >>>>>>> upstream/18.0

@@ -14,6 +14,10 @@ from . import test_profiler
 from . import test_session_info
 from . import test_assets
 from . import test_login
+<<<<<<< HEAD
+=======
+from . import test_web_read
+>>>>>>> upstream/18.0
 from . import test_web_search_read
 from . import test_web_read_group
 from . import test_domain
@@ -288,6 +292,10 @@ from . import test_reports
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_pivot_export
+>>>>>>> upstream/18.0
 =======
 from . import test_pivot_export
 >>>>>>> upstream/18.0

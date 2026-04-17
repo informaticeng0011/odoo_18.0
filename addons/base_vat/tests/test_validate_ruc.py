@@ -13,12 +13,21 @@ from zeep.wsdl import Document
 class TestStructure(TransactionCase):
     @classmethod
     def setUpClass(cls):
+<<<<<<< HEAD
         def check_vies(vat_number):
             return {'valid': vat_number == 'BE0477472701'}
 
         super().setUpClass()
         cls.env.user.company_id.vat_check_vies = False
         cls._vies_check_func = check_vies
+=======
+        def _check_vies_iap(record):
+            return "valid" if record.vat == 'BE0477472701' else "unassigned"
+
+        super().setUpClass()
+        cls.env.user.company_id.vat_check_vies = False
+        cls._check_vies_iap = _check_vies_iap
+>>>>>>> upstream/18.0
 
     def test_peru_ruc_format(self):
         """Only values that has the length of 11 will be checked as RUC, that's what we are proving. The second part
@@ -52,7 +61,11 @@ class TestStructure(TransactionCase):
         })
 
         # reactivate it and correct the vat number
+<<<<<<< HEAD
         with patch('odoo.addons.base_vat.models.res_partner.check_vies', type(self)._vies_check_func):
+=======
+        with patch('odoo.addons.base_vat.models.res_partner.ResPartner._check_vies_iap', TestStructure._check_vies_iap):
+>>>>>>> upstream/18.0
             self.env.user.company_id.vat_check_vies = True
             with self.assertRaises(ValidationError), self.env.cr.savepoint():
                 company.vat = "BE0987654321"  # VIES refused, don't fallback on other check
@@ -355,7 +368,10 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1038,6 +1054,7 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1076,6 +1093,8 @@ class TestStructure(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1695,10 +1714,13 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2318,6 +2340,7 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2477,6 +2500,8 @@ class TestStructure(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2853,6 +2878,9 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3301,6 +3329,7 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3605,6 +3634,8 @@ class TestStructure(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3727,6 +3758,9 @@ class TestStructure(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

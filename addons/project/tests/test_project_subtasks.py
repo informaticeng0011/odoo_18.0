@@ -374,8 +374,13 @@ class TestProjectSubtasks(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 subtask_form.project_id = self.env['project.project']
                 subtask_form.parent_id = self.env['project.task']
+=======
+                subtask_form.parent_id = self.env['project.task']
+                subtask_form.project_id = self.env['project.project']
+>>>>>>> upstream/18.0
 =======
                 subtask_form.parent_id = self.env['project.task']
                 subtask_form.project_id = self.env['project.project']
@@ -1891,7 +1896,10 @@ class TestProjectSubtasks(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2677,6 +2685,9 @@ class TestProjectSubtasks(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

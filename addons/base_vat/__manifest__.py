@@ -36,6 +36,10 @@ only the country code will be validated.
     """,
     'depends': ['account'],
     'data': [
+<<<<<<< HEAD
+=======
+        'data/ir_cron.xml',
+>>>>>>> upstream/18.0
         'views/res_config_settings_views.xml',
         'views/res_partner_views.xml',
     ],

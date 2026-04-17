@@ -25,7 +25,11 @@ export class BomOverviewControlPanel extends Component {
         data: { type: Object, optional: true },
         showUom: { type: Boolean, optional: true },
         uomName: { type: String, optional: true },
+<<<<<<< HEAD
         currentWarehouse: Object,
+=======
+        currentWarehouse: { type: Object, optional: true },
+>>>>>>> upstream/18.0
         warehouses: { type: Array, optional: true },
         print: Function,
         changeWarehouse: Function,
@@ -90,7 +94,11 @@ export class BomOverviewControlPanel extends Component {
         return this.props.warehouses.map(wh => ({
             id: wh.id,
             label: wh.name,
+<<<<<<< HEAD
             class: { selected: wh.name === this.props.currentWarehouse.name },
+=======
+            class: { selected: wh.name === this.props.currentWarehouse?.name },
+>>>>>>> upstream/18.0
             onSelected: () => this.props.changeWarehouse(wh.id)
         }));
     }

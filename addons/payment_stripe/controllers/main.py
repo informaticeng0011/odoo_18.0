@@ -261,6 +261,7 @@ from odoo.http import request
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools.misc import file_open
 =======
 from odoo.tools import file_open, mute_logger
@@ -1011,6 +1012,8 @@ from odoo.addons.payment_stripe.const import HANDLED_WEBHOOK_EVENTS
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo.tools import file_open, mute_logger
 
 from odoo.addons.payment import utils as payment_utils
@@ -1205,6 +1208,9 @@ from odoo.addons.payment_stripe.const import CURRENCY_DECIMALS, HANDLED_WEBHOOK_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1613,6 +1619,7 @@ class StripeController(http.Controller):
                 payload={'expand[]': 'payment_method'},  # Expand all required objects.
                 method='GET',
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3095,6 +3102,11 @@ class StripeController(http.Controller):
             logged_intent = {k: v for k, v in payment_intent.items() if k not in secret_keys}
             _logger.info("Received payment_intents response:\n%s", pprint.pformat(logged_intent))
 >>>>>>> upstream/18.0
+=======
+            secret_keys = tx_sudo._get_specific_secret_keys()
+            logged_intent = {k: v for k, v in payment_intent.items() if k not in secret_keys}
+            _logger.info("Received payment_intents response:\n%s", pprint.pformat(logged_intent))
+>>>>>>> upstream/18.0
             self._include_payment_intent_in_notification_data(payment_intent, data)
         else:
             # Fetch the SetupIntent and PaymentMethod objects from Stripe.
@@ -3360,7 +3372,12 @@ class StripeController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.redirect('/payment/status')
+=======
+        with mute_logger('werkzeug'):  # avoid logging secret URL params
+            return request.redirect('/payment/status')
+>>>>>>> upstream/18.0
 =======
         with mute_logger('werkzeug'):  # avoid logging secret URL params
             return request.redirect('/payment/status')
@@ -4666,7 +4683,13 @@ class StripeController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_to_refund, source_tx_sudo.currency_id
+=======
+            amount_to_refund,
+            source_tx_sudo.currency_id,
+            arbitrary_decimal_number=CURRENCY_DECIMALS.get(source_tx_sudo.currency_id.name),
+>>>>>>> upstream/18.0
 =======
             amount_to_refund,
             source_tx_sudo.currency_id,

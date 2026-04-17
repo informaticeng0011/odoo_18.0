@@ -73,7 +73,10 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
         self.assertRecordValues(invoice2, expected_total_amounts)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -92,6 +95,9 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
         invoice.action_group_ungroup_lines_by_tax()
         self.assertEqual(invoice.amount_tax, 9.06)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

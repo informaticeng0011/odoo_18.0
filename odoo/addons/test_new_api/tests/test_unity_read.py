@@ -238,7 +238,11 @@ class TestUnityRead(TransactionCase):
         })
         self.env.invalidate_all()
         with self.assertQueryCount(1        # read the course with author id
+<<<<<<< HEAD
                                    + 1      # read the lessons of the course
+=======
+                                   + 2      # read the lessons of the course
+>>>>>>> upstream/18.0
                                    + 1      # read the author name of course
                                    + 1      # ids of the teachers of each lesson
                                    + 1):    # read the teacher name of each lessons in one query
@@ -393,7 +397,11 @@ class TestUnityRead(TransactionCase):
 
     def test_read_many2many_gives_ids(self):
         with self.assertQueryCount(1        # 1 query for course
+<<<<<<< HEAD
                                    + 1      # 1 query for the lessons
+=======
+                                   + 2      # 2 queries for the lessons
+>>>>>>> upstream/18.0
                                    + 1):    # 1 query for the attendees ids
             read = self.course.web_read({'display_name': {},
                                          'lesson_ids': {
@@ -548,7 +556,11 @@ class TestUnityRead(TransactionCase):
             }])
 
     def test_many2many_order_increases_query_count(self):
+<<<<<<< HEAD
         with self.assertQueryCount(3):
+=======
+        with self.assertQueryCount(4):
+>>>>>>> upstream/18.0
             self.course.web_read(
                 {
                     'name': {},

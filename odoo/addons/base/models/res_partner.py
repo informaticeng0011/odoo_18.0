@@ -354,6 +354,12 @@ class FormatAddressMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                new_address_node = sub_arch.find('.//div[@class="o_address_format"]')
+                if new_address_node is not None:
+                    sub_arch = new_address_node
+>>>>>>> upstream/18.0
 =======
                 new_address_node = sub_arch.find('.//div[@class="o_address_format"]')
                 if new_address_node is not None:
@@ -1976,7 +1982,11 @@ class PartnerCategory(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [('id', 'child_of', self._search(domain))]
+=======
+            return [('id', 'child_of', self._search(list(domain)))]
+>>>>>>> upstream/18.0
 =======
             return [('id', 'child_of', self._search(list(domain)))]
 >>>>>>> upstream/18.0
@@ -2914,7 +2924,11 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     company_registry = fields.Char(string="Company ID", compute='_compute_company_registry', store=True, readonly=False,
+=======
+    company_registry = fields.Char(string="Company ID", compute='_compute_company_registry', store=True, readonly=False, index='btree_not_null',
+>>>>>>> upstream/18.0
 =======
     company_registry = fields.Char(string="Company ID", compute='_compute_company_registry', store=True, readonly=False, index='btree_not_null',
 >>>>>>> upstream/18.0
@@ -3695,7 +3709,11 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not self.is_company:
+=======
+            if not self.is_company and not self.env.context.get('partner_display_name_hide_company'):
+>>>>>>> upstream/18.0
 =======
             if not self.is_company and not self.env.context.get('partner_display_name_hide_company'):
 >>>>>>> upstream/18.0
@@ -3930,6 +3948,10 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.depends('vat')
+>>>>>>> upstream/18.0
 =======
     @api.depends('vat')
 >>>>>>> upstream/18.0
@@ -4734,7 +4756,10 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4755,6 +4780,9 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4897,8 +4925,11 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends_context('show_address', 'partner_show_db_id', 'address_inline', 'show_email', 'show_vat', 'lang')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4921,6 +4952,9 @@ class Partner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

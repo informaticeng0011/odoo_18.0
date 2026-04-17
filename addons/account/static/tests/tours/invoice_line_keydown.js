@@ -144,12 +144,15 @@ registry.category('web_tour.tours').add('section_saved_on_tab_keydown_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run: 'edit Deco Addict',
         },
         {
             content: "Valid customer",
             trigger: '.ui-menu-item a:contains("Deco Addict")',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -548,6 +551,9 @@ registry.category('web_tour.tours').add('section_saved_on_tab_keydown_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

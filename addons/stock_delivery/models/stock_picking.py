@@ -129,7 +129,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -442,6 +445,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -709,7 +715,11 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 picking.is_return_picking = any(m.origin_returned_move_id for m in picking.move_ids_without_package)
+=======
+                picking.is_return_picking = any(m.origin_returned_move_id and m.location_dest_usage == 'internal' for m in picking.move_ids_without_package)
+>>>>>>> upstream/18.0
 =======
                 picking.is_return_picking = any(m.origin_returned_move_id and m.location_dest_usage == 'internal' for m in picking.move_ids_without_package)
 >>>>>>> upstream/18.0
@@ -1158,7 +1168,13 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return self._set_delivery_package_type(batch_pack=len(move_line_ids.picking_id) > 1)
+=======
+                return self.with_context(
+                    default_move_line_ids=move_line_ids.ids
+                )._set_delivery_package_type(batch_pack=len(move_line_ids.picking_id) > 1)
+>>>>>>> upstream/18.0
 =======
                 return self.with_context(
                     default_move_line_ids=move_line_ids.ids

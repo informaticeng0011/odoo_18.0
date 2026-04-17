@@ -65,12 +65,15 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def setUp(self):
         super().setUp()
         self.other_company = self.env['res.company'].create({'name': 'Other Company'})
         self.public_partner = self.env['res.partner'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -220,6 +223,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -321,6 +327,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'email': 'public_email@example.com',
             'type': 'contact',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475,6 +482,8 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.env.ref('base.partner_admin').write({
             'name': 'Mitchell Admin',
             'email': 'admin@yourcompany.example.com',
@@ -531,6 +540,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2152,7 +2164,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2925,6 +2940,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -210,7 +210,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Hong Kong, 2017-09-18
+=======
+Hong Kong, Japan, 2017-09-18
+>>>>>>> upstream/18.0
 =======
 Hong Kong, Japan, 2017-09-18
 >>>>>>> upstream/18.0
@@ -1075,6 +1079,10 @@ Toshikimi Shigenobu nobu@quartile.co https://github.com/nobuQuartile
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Sayaka Yamada sayaka@quartile.co https://github.com/Sayaka-qrtl
+>>>>>>> upstream/18.0
 =======
 Sayaka Yamada sayaka@quartile.co https://github.com/Sayaka-qrtl
 >>>>>>> upstream/18.0

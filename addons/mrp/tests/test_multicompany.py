@@ -271,6 +271,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -1614,7 +1618,10 @@ class TestMrpMulticompany(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2499,6 +2506,7 @@ class TestMrpMulticompany(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2529,6 +2537,8 @@ class TestMrpMulticompany(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3370,6 +3380,7 @@ class TestMrpMulticompany(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3908,4 +3919,29 @@ class TestMrpMulticompany(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_bom_report_without_warehouse(self):
+        """
+        Checks that bom overview/report shows availabilities as "Not Available" when the warehouse is not active.
+        """
+        self.warehouse_a.active = False
+        product, component = self.env['product.product'].create([
+            {'name': 'p1', 'is_storable': True},
+            {'name': 'c1', 'is_storable': True},
+        ])
+        bom = self.env['mrp.bom'].create({
+            'product_tmpl_id': product.product_tmpl_id.id,
+            'company_id': self.company_a.id,
+            'bom_line_ids': [(0, 0, {'product_id': component.id})]
+        })
+        report = self.env['report.mrp.report_bom_structure'].with_company(self.company_a)
+        bom_overview = report._get_report_data(bom_id=bom.id)
+        bom_report = report._get_report_values(docids=[bom.id], data={})
+
+        self.assertFalse(bom_overview["lines"]["availability_delay"])
+        self.assertFalse(bom_report["docs"][0]["availability_delay"])
+        self.assertEqual("unavailable", bom_overview["lines"]["availability_state"])
+        self.assertEqual("unavailable", bom_report["docs"][0]["availability_state"])
 >>>>>>> upstream/18.0

@@ -23,7 +23,11 @@
         <BomOverviewTable
             uomName="uomName"
             showOptions="state.showOptions"
+<<<<<<< HEAD
             currentWarehouseId="state.currentWarehouse.id"
+=======
+            currentWarehouseId="state.currentWarehouse?.id"
+>>>>>>> upstream/18.0
             data="state.bomData"
             precision="state.precision"
             changeFolded.bind="onChangeFolded"/>
