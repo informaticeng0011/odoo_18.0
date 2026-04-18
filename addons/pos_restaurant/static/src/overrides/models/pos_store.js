@@ -315,7 +315,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.mainScreen.component.name !== "PaymentScreen" &&
+=======
+                    !["LoginScreen", "PaymentScreen"].includes(this.mainScreen.component.name) &&
+>>>>>>> upstream/18.0
 =======
                     !["LoginScreen", "PaymentScreen"].includes(this.mainScreen.component.name) &&
 >>>>>>> upstream/18.0
@@ -1645,6 +1649,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.addPendingOrder([order.id]);
         return order;
     },
@@ -1652,6 +1657,8 @@ patch(PosStore.prototype, {
         if (this.config.module_pos_restaurant && !this.get_order().uiState.booked) {
             this.get_order().setBooked(true);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2579,6 +2586,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3205,9 +3215,15 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ...this.models["restaurant.floor"].map((floor) =>
                     floor.table_ids.map((table) => table.id)
                 )
+=======
+                ...this.config.floor_ids
+                    .filter((floor) => floor.active)
+                    .map((floor) => floor.table_ids.map((table) => table.id))
+>>>>>>> upstream/18.0
 =======
                 ...this.config.floor_ids
                     .filter((floor) => floor.active)
@@ -3389,9 +3405,13 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.models["pos.order"].filter(
             (o) => o.table_id?.id === table.id && !o.finalized && o.lines.length
         );
+=======
+        return this.models["pos.order"].filter((o) => o.table_id?.id === table.id && !o.finalized);
+>>>>>>> upstream/18.0
 =======
         return this.models["pos.order"].filter((o) => o.table_id?.id === table.id && !o.finalized);
 >>>>>>> upstream/18.0
@@ -3630,7 +3650,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!this.tableHasOrders(destinationTable)) {
+=======
+        if (!destinationOrder) {
+>>>>>>> upstream/18.0
 =======
         if (!destinationOrder) {
 >>>>>>> upstream/18.0
@@ -3841,6 +3865,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        preparationLineCopy.uuid = newOrderLine.uuid;
+>>>>>>> upstream/18.0
 =======
                         preparationLineCopy.uuid = newOrderLine.uuid;
 >>>>>>> upstream/18.0

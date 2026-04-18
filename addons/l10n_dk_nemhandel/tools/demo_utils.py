@@ -31,8 +31,11 @@ def _mock_call_nemhandel_proxy(func, self, *args, **kwargs):
         message_uuid = args[1]['message_uuids'][0]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {message_uuid: {'state': 'done'}}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         return {message_uuid: {
@@ -41,6 +44,9 @@ def _mock_call_nemhandel_proxy(func, self, *args, **kwargs):
             'document_type': 'Invoice'
         }}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

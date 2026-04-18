@@ -6,6 +6,7 @@ from odoo.addons.base.models.res_partner import _tz_get
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -911,6 +912,10 @@ from odoo.exceptions import ValidationError
 from odoo.exceptions import ValidationError
 
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import ValidationError
+
+>>>>>>> upstream/18.0
 
 class LeaveReportCalendar(models.Model):
     _name = "hr.leave.report.calendar"
@@ -1218,7 +1223,11 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     name = fields.Char(string='Name', readonly=True, compute="_compute_name", search="_search_name")
+=======
+    name = fields.Char(string='Name', readonly=True, compute="_compute_name")
+>>>>>>> upstream/18.0
 =======
     name = fields.Char(string='Name', readonly=True, compute="_compute_name")
 >>>>>>> upstream/18.0
@@ -2507,6 +2516,7 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _search_name(self, operator, value):
         query = self.env['hr.leave.report.calendar'].sudo()._search([('leave_id.duration_display', operator, value)])
         domain = ['|', ('employee_id.name', operator, value), ('id', 'in', query)]
@@ -2514,6 +2524,8 @@ class LeaveReportCalendar(models.Model):
             domain = expression.OR([domain , [('leave_id.holiday_status_id.name', operator, value)]])
         return domain
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3123,6 +3135,7 @@ class LeaveReportCalendar(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.leave_id.action_approve(check_state=False)
 
     def action_validate(self):
@@ -3131,6 +3144,8 @@ class LeaveReportCalendar(models.Model):
     def action_refuse(self):
         self.leave_id.action_refuse()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3171,6 +3186,9 @@ class LeaveReportCalendar(models.Model):
             raise ValidationError(self.env._("You are not allowed to refuse this leave request."))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

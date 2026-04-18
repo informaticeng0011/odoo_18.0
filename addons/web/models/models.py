@@ -135,11 +135,14 @@ class Base(models.AbstractModel):
                 co_records = self[field_name]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if 'order' in field_spec and field_spec['order']:
                     co_records = co_records.with_context(active_test=False).search(
                         [('id', 'in', co_records.ids)], order=field_spec['order'],
                     ).with_context(co_records.env.context)  # Reapply previous context
 =======
+=======
+>>>>>>> upstream/18.0
                 field_spec_order = field_spec.get('order')
                 field_spec_has_fields = 'fields' in field_spec
                 has_co_records = any(co_records.ids)
@@ -185,6 +188,9 @@ class Base(models.AbstractModel):
                         values[field_name] = [id_ for id_ in values[field_name] if id_ in co_records_ids]
 
                 if field_spec_order:
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     order_key = {
                         co_record.id: index
@@ -192,8 +198,11 @@ class Base(models.AbstractModel):
                     }
                     for values in values_list:
 <<<<<<< HEAD
+<<<<<<< HEAD
                         # filter out inaccessible corecords in case of "cache pollution"
                         values[field_name] = [id_ for id_ in values[field_name] if id_ in order_key]
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                         values[field_name] = sorted(values[field_name], key=order_key.__getitem__)
@@ -202,9 +211,15 @@ class Base(models.AbstractModel):
                     co_records = co_records.with_context(**field_spec['context'])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if 'fields' in field_spec:
                     if field_spec.get('limit') is not None:
                         limit = field_spec['limit']
+=======
+                if field_spec_has_fields:
+                    limit = field_spec.get('limit')
+                    if limit is not None:
+>>>>>>> upstream/18.0
 =======
                 if field_spec_has_fields:
                     limit = field_spec.get('limit')

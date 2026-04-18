@@ -318,6 +318,10 @@ FormEditorRegistry.add('create_task', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        required: true,
+>>>>>>> upstream/18.0
 =======
         required: true,
 >>>>>>> upstream/18.0

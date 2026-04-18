@@ -270,8 +270,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1096,7 +1099,10 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1918,6 +1924,9 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2804,7 +2813,10 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3387,6 +3399,28 @@ class TestResPartner(TransactionCase):
     def test_normalized_country_and_vat(self):
         self._test_normalized_data([
             {
+<<<<<<< HEAD
+=======
+                # Spanish VAT starting with a letter+digit (e.g. 'A9...'):
+                # the first two chars are NOT a country-code prefix, so the
+                # full VAT must be preserved as-is.
+                'country_id': self.env.ref('base.es'),
+                'vat': 'A95758389',
+                'l10n_it_codice_fiscale': False,
+                'normalized_country_code': 'ES',
+                'normalized_vat': 'A95758389',
+            },
+            {
+                # Same VAT already carrying the 'ES' prefix must also be
+                # stripped correctly to the bare number.
+                'country_id': self.env.ref('base.es'),
+                'vat': 'ESA95758389',
+                'l10n_it_codice_fiscale': False,
+                'normalized_country_code': 'ES',
+                'normalized_vat': 'A95758389',
+            },
+            {
+>>>>>>> upstream/18.0
                 'country_id': self.usa,
                 'vat': '911-92-3333',
                 'l10n_it_codice_fiscale': False,
@@ -3709,6 +3743,7 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4125,6 +4160,8 @@ class TestResPartner(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4329,6 +4366,9 @@ class TestResPartner(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

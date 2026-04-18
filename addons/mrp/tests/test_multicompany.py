@@ -272,6 +272,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -1619,7 +1623,10 @@ class TestMrpMulticompany(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2507,6 +2514,7 @@ class TestMrpMulticompany(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2537,6 +2545,8 @@ class TestMrpMulticompany(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3381,6 +3391,7 @@ class TestMrpMulticompany(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3921,6 +3932,8 @@ class TestMrpMulticompany(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_bom_report_without_warehouse(self):
         """
@@ -3944,4 +3957,7 @@ class TestMrpMulticompany(common.TransactionCase):
         self.assertFalse(bom_report["docs"][0]["availability_delay"])
         self.assertEqual("unavailable", bom_overview["lines"]["availability_state"])
         self.assertEqual("unavailable", bom_report["docs"][0]["availability_state"])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

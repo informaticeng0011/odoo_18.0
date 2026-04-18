@@ -247,6 +247,10 @@ Master Data:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'demo/account_tax_demo.xml',
+>>>>>>> upstream/18.0
 =======
         'demo/account_tax_demo.xml',
 >>>>>>> upstream/18.0

@@ -2,6 +2,10 @@
 from odoo import models, fields, api, _
 from odoo.osv import expression
 from odoo.exceptions import UserError, RedirectWarning, ValidationError
+<<<<<<< HEAD
+=======
+from odoo.tools import float_round
+>>>>>>> upstream/18.0
 from odoo.tools.misc import formatLang
 from dateutil.relativedelta import relativedelta
 import logging
@@ -182,6 +186,7 @@ class AccountMove(models.Model):
             ]
             journal = self.env['account.journal']
             msg = False
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -718,6 +723,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if res_code in ['8', '9', '10'] and rec.journal_id.l10n_ar_afip_pos_system not in expo_journals:
                 # if it is a foreign partner and journal is not for expo, we try to change it to an expo journal
                 journal = journal.search(domain + [('l10n_ar_afip_pos_system', 'in', expo_journals)], limit=1)
@@ -900,6 +907,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1439,7 +1449,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1983,6 +1996,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2402,6 +2418,7 @@ class AccountMove(models.Model):
             param['l10n_latam_document_type_id'] = self.l10n_latam_document_type_id.id or 0
         return where_string, param
 
+<<<<<<< HEAD
     def _l10n_ar_get_amounts(self, company_currency=False):
         """ Method used to prepare data to present amounts and taxes related amounts when creating an
         electronic invoice for argentinean and the txt files for digital VAT books. Only take into account the argentinean taxes """
@@ -2422,6 +2439,13 @@ class AccountMove(models.Model):
             if any(tax.tax_group_id.l10n_ar_vat_afip_code and tax.tax_group_id.l10n_ar_vat_afip_code not in ['0', '1', '2'] for tax in line.tax_ids):
                 vat_taxable |= line
 
+=======
+    def _l10n_ar_get_amounts(self, base_lines=None):
+        """ Method used to prepare data to present amounts and taxes related amounts when creating an
+        electronic invoice for argentinean and the txt files for digital VAT books. Only take into account the argentinean taxes """
+        self.ensure_one()
+        base_lines = base_lines or []
+>>>>>>> upstream/18.0
         profits_tax_group = self.env['account.chart.template'].with_company(self.company_id).ref(
             'tax_group_percepcion_ganancias',
             raise_if_not_found=False,
@@ -2438,6 +2462,7 @@ class AccountMove(models.Model):
                 button_text=_("Accounting Settings"),
             )
 
+<<<<<<< HEAD
         return {'vat_amount': sign * sum(vat_taxes.mapped(amount_field)),
                 # For invoices of letter C should not pass VAT
                 'vat_taxable_amount': sign * sum(vat_taxable.mapped(amount_field)) if self.l10n_latam_document_type_id.l10n_ar_letter != 'C' else self.amount_untaxed,
@@ -2480,6 +2505,138 @@ class AccountMove(models.Model):
             res += [{'Id': '3', 'BaseImp': sign * vat_base_0, 'Importe': 0.0}]
 
         return res if res else []
+=======
+        def tax_grouping_by_have_vat_afip_code(_arg_base_line, arg_tax_data):
+            arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
+            return {'have_vat_afip_code': bool(arg_tax_data['tax'].tax_group_id.l10n_ar_vat_afip_code)}
+
+        def tax_grouping_by_have_vat_afip_not_012(_arg_base_line, arg_tax_data):
+            arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
+            return {'have_vat_afip_not_012': arg_tax_data['tax'].tax_group_id.l10n_ar_vat_afip_code not in (False, '0', '1', '2')}
+
+        def tax_grouping_by_vat_afip_code(_arg_base_line, arg_tax_data):
+            arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
+            return {'vat_afip_code': arg_tax_data['tax'].tax_group_id.l10n_ar_vat_afip_code}
+
+        def tax_grouping_by_tribute_afip_code(_arg_base_line, arg_tax_data):
+            arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
+            return {'tribute_afip_code': arg_tax_data['tax'].tax_group_id.l10n_ar_tribute_afip_code}
+
+        def tax_grouping_by_in_profits_group(_arg_base_line, arg_tax_data):
+            arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
+            return {'in_profits_group': arg_tax_data['tax'].tax_group_id == profits_tax_group}
+
+        def tax_grouping_by_tribute_09_non_profit(_arg_base_line, arg_tax_data):
+            arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
+            return {'tribute_09_non_profit': arg_tax_data['tax'].tax_group_id.l10n_ar_tribute_afip_code == '09' and
+                                             arg_tax_data['tax'].tax_group_id != profits_tax_group}
+
+        have_vat_afip_code_base_lines_aggregated_values = self.env['account.tax']._aggregate_base_lines_tax_details(base_lines, tax_grouping_by_have_vat_afip_code)
+        have_vat_afip_not_012_base_lines_aggregated_values = self.env['account.tax']._aggregate_base_lines_tax_details(base_lines, tax_grouping_by_have_vat_afip_not_012)
+        vat_afip_code_base_lines_aggregated_values = self.env['account.tax']._aggregate_base_lines_tax_details(base_lines, tax_grouping_by_vat_afip_code)
+        tribute_afip_code_base_lines_aggregated_values = self.env['account.tax']._aggregate_base_lines_tax_details(base_lines, tax_grouping_by_tribute_afip_code)
+        in_profits_group_base_lines_aggregated_values = self.env['account.tax']._aggregate_base_lines_tax_details(base_lines, tax_grouping_by_in_profits_group)
+        tribute_09_non_profit_base_lines_aggregated_values = self.env['account.tax']._aggregate_base_lines_tax_details(base_lines, tax_grouping_by_tribute_09_non_profit)
+
+        have_vat_afip_code_aggregated_tax_details = self.env['account.tax']._aggregate_base_lines_aggregated_values(have_vat_afip_code_base_lines_aggregated_values)
+        have_vat_afip_not_012_aggregated_tax_details = self.env['account.tax']._aggregate_base_lines_aggregated_values(have_vat_afip_not_012_base_lines_aggregated_values)
+        vat_afip_code_aggregated_tax_details = self.env['account.tax']._aggregate_base_lines_aggregated_values(vat_afip_code_base_lines_aggregated_values)
+        tribute_afip_code_aggregated_tax_details = self.env['account.tax']._aggregate_base_lines_aggregated_values(tribute_afip_code_base_lines_aggregated_values)
+        in_profits_group_aggregated_tax_details = self.env['account.tax']._aggregate_base_lines_aggregated_values(in_profits_group_base_lines_aggregated_values)
+        tribute_09_non_profit_aggregated_tax_details = self.env['account.tax']._aggregate_base_lines_aggregated_values(tribute_09_non_profit_base_lines_aggregated_values)
+
+        res = {
+            'vat_amount': 0,
+            'vat_taxable_amount': 0,
+            'vat_exempt_base_amount': 0,
+            'vat_untaxed_base_amount': 0,
+            'not_vat_taxes_amount': 0,
+            'iibb_perc_amount': 0,
+            'mun_perc_amount': 0,
+            'intern_tax_amount': 0,
+            'other_taxes_amount': 0,
+            'profits_perc_amount': 0,
+            'vat_perc_amount': 0,
+            'other_perc_amount': 0,
+        }
+
+        for grouping_key, values in have_vat_afip_code_aggregated_tax_details.items():
+            if grouping_key['have_vat_afip_code']:
+                res['vat_amount'] = values['tax_amount_currency']
+            else:
+                res['not_vat_taxes_amount'] = values['tax_amount_currency']
+
+        for grouping_key, values in have_vat_afip_not_012_aggregated_tax_details.items():
+            if grouping_key['have_vat_afip_not_012']:
+                res['vat_taxable_amount'] = values['base_amount_currency']
+
+        for grouping_key, values in vat_afip_code_aggregated_tax_details.items():
+            if grouping_key['vat_afip_code'] == '2':
+                res['vat_exempt_base_amount'] = values['base_amount_currency']
+            elif grouping_key['vat_afip_code'] == '1':
+                res['vat_untaxed_base_amount'] = values['base_amount_currency']
+
+        for grouping_key, values in tribute_afip_code_aggregated_tax_details.items():
+            if grouping_key['tribute_afip_code'] == '07':
+                res['iibb_perc_amount'] = values['tax_amount_currency']
+            elif grouping_key['tribute_afip_code'] == '08':
+                res['mun_perc_amount'] = values['tax_amount_currency']
+            elif grouping_key['tribute_afip_code'] == '04':
+                res['intern_tax_amount'] = values['tax_amount_currency']
+            elif grouping_key['tribute_afip_code'] == '99':
+                res['other_taxes_amount'] = values['tax_amount_currency']
+            elif grouping_key['tribute_afip_code'] == '06':
+                res['vat_perc_amount'] = values['tax_amount_currency']
+
+        for grouping_key, values in in_profits_group_aggregated_tax_details.items():
+            if grouping_key['in_profits_group']:
+                res['profits_perc_amount'] = values['tax_amount_currency']
+
+        for grouping_key, values in tribute_09_non_profit_aggregated_tax_details.items():
+            if grouping_key['tribute_09_non_profit']:
+                res['tribute_09_non_profit'] = values['tax_amount_currency']
+
+        if self.l10n_latam_document_type_id.l10n_ar_letter == 'C':
+            res['vat_taxable_amount'] = self.amount_untaxed
+
+        if self.move_type in ('out_refund', 'in_refund') and self.l10n_latam_document_type_id.code in self._get_l10n_ar_codes_used_for_inv_and_ref():
+            for amount_key, amount_value in res.items():
+                res[amount_key] = amount_value * -1
+
+        for amount_key, amount_value in res.items():
+            res[amount_key] = float_round(amount_value, precision_digits=2)
+
+        return res
+
+    def _get_vat(self, base_lines=None):
+        """ Applies on wsfe web service and in the VAT digital books """
+        # if we are on a document that works invoice and refund and it's a refund, we need to export it as negative
+
+        def tax_grouping_by_vat_afip_code(_arg_base_line, arg_tax_data):
+            arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
+            return {'vat_afip_code': arg_tax_data['tax'].tax_group_id.l10n_ar_vat_afip_code}
+
+        res = []
+        base_lines = base_lines or self._get_rounded_base_and_tax_lines()[0]
+        vat_afip_code_base_lines_aggregated_values = self.env['account.tax']._aggregate_base_lines_tax_details(base_lines, tax_grouping_by_vat_afip_code)
+        vat_afip_code_aggregated_tax_details = self.env['account.tax']._aggregate_base_lines_aggregated_values(vat_afip_code_base_lines_aggregated_values)
+        amount_sign = 1
+
+        if self.move_type in ('out_refund', 'in_refund') and self.l10n_latam_document_type_id.code in self._get_l10n_ar_codes_used_for_inv_and_ref():
+            amount_sign = -1
+
+        for grouping_key, values in vat_afip_code_aggregated_tax_details.items():
+            if grouping_key['vat_afip_code'] not in (False, '0', '1', '2') and (values['base_amount_currency'] or values['tax_amount_currency']):
+                res.append({
+                    'Id': grouping_key['vat_afip_code'],
+                    'BaseImp': float_round(amount_sign * values['base_amount_currency'], precision_digits=2),
+                    'Importe': float_round(amount_sign * values['tax_amount_currency'], precision_digits=2),
+                })
+                if grouping_key['vat_afip_code'] == '3':
+                    res[-1]['Importe'] = 0.0
+
+        return res
+>>>>>>> upstream/18.0
 
     def _get_name_invoice_report(self):
         self.ensure_one()
@@ -2763,6 +2920,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -3996,7 +4158,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and not self.currency_id.is_zero(values['tax_amount_currency'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

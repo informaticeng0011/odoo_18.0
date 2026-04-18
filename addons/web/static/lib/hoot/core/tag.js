@@ -282,7 +282,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const checkTagSimilarity = (tagKey, tagName) => {
+=======
+function checkTagSimilarity(tagKey, tagName) {
+>>>>>>> upstream/18.0
 =======
 function checkTagSimilarity(tagKey, tagName) {
 >>>>>>> upstream/18.0
@@ -1265,7 +1269,11 @@ function checkTagSimilarity(tagKey, tagName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -2237,7 +2245,12 @@ export function applyTags(job, tags) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 )} as it explicitly excludes tags ${excluded.map(stringify).join(" & ")}`
+=======
+                )} as it explicitly excludes tags ${excluded.map(stringify).join(" & ")}`,
+                { level: "global" }
+>>>>>>> upstream/18.0
 =======
                 )} as it explicitly excludes tags ${excluded.map(stringify).join(" & ")}`,
                 { level: "global" }
@@ -3351,6 +3364,7 @@ export function defineTags(...definitions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const tagKey = def.key || normalize(def.name);
 =======
         const tagKey = def.key || normalize(def.name.toLowerCase());
@@ -3987,6 +4001,8 @@ export function defineTags(...definitions) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const tagKey = def.key || normalize(def.name.toLowerCase());
         if (existingTags[tagKey]) {
             throw new HootError(`duplicate definition for tag "${def.name}"`, {
@@ -4194,6 +4210,9 @@ export function defineTags(...definitions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4612,6 +4631,7 @@ export function defineTags(...definitions) {
  * @param {string[]} tagNames
  */
 export function getTags(tagNames) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6289,6 +6309,11 @@ export function getTags(tagNames) {
         const nKey = normalize(tagKey.toLowerCase());
         const tag = existingTags[nKey] || defineTags({ key: nKey, name: tagNames[i] })[0];
 >>>>>>> upstream/18.0
+=======
+    return tagNames.map((tagKey, i) => {
+        const nKey = normalize(tagKey.toLowerCase());
+        const tag = existingTags[nKey] || defineTags({ key: nKey, name: tagNames[i] })[0];
+>>>>>>> upstream/18.0
         return tag;
     });
 }
@@ -6492,7 +6517,11 @@ export function getTagSimilarities() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param  {Iterable<string>} tagKeys
+=======
+ * @param {Iterable<string>} tagKeys
+>>>>>>> upstream/18.0
 =======
  * @param {Iterable<string>} tagKeys
 >>>>>>> upstream/18.0
@@ -7371,7 +7400,11 @@ export class Tag {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.exclude = exclude.map(normalize);
+=======
+            this.exclude = exclude.map((id) => normalize(id.toLowerCase()));
+>>>>>>> upstream/18.0
 =======
             this.exclude = exclude.map((id) => normalize(id.toLowerCase()));
 >>>>>>> upstream/18.0

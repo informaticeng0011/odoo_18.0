@@ -26,7 +26,11 @@ export class BomOverviewControlPanel extends Component {
         showUom: { type: Boolean, optional: true },
         uomName: { type: String, optional: true },
 <<<<<<< HEAD
+<<<<<<< HEAD
         currentWarehouse: Object,
+=======
+        currentWarehouse: { type: Object, optional: true },
+>>>>>>> upstream/18.0
 =======
         currentWarehouse: { type: Object, optional: true },
 >>>>>>> upstream/18.0
@@ -95,7 +99,11 @@ export class BomOverviewControlPanel extends Component {
             id: wh.id,
             label: wh.name,
 <<<<<<< HEAD
+<<<<<<< HEAD
             class: { selected: wh.name === this.props.currentWarehouse.name },
+=======
+            class: { selected: wh.name === this.props.currentWarehouse?.name },
+>>>>>>> upstream/18.0
 =======
             class: { selected: wh.name === this.props.currentWarehouse?.name },
 >>>>>>> upstream/18.0

@@ -282,6 +282,7 @@ Ricard Calvo ricard.calvo@forgeflow.com https://github.com/RicardCForgeFlow
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Marina Alapont marina.alapont@forgeflow.com https://github.com/MarinaAForgeFlow
 >>>>>>> upstream/18.0
@@ -569,6 +570,8 @@ Thiago Mulero thiago.mulero@forgeflow.com https://github.com/ThiagoMForgeFlow
 Laura Cazorla laura.cazorla@forgeflow.com https://github.com/LauraCForgeFlow
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1104,6 +1107,9 @@ Alex Paris alex.paris@forgeflow.com https://github.com/AlexPForgeFlow
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

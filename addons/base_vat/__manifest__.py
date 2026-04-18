@@ -37,6 +37,10 @@ only the country code will be validated.
     'depends': ['account'],
     'data': [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'data/ir_cron.xml',
+>>>>>>> upstream/18.0
 =======
         'data/ir_cron.xml',
 >>>>>>> upstream/18.0

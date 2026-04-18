@@ -55,6 +55,10 @@ readonlyAllowedCommands.add("UPDATE_OBJECT_DOMAINS");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+readonlyAllowedCommands.add("LOG_DATASOURCE_EXPORT");
+>>>>>>> upstream/18.0
 =======
 readonlyAllowedCommands.add("LOG_DATASOURCE_EXPORT");
 >>>>>>> upstream/18.0
