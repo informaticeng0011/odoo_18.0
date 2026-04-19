@@ -225,7 +225,10 @@ import { Test } from "../../core/test";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -892,6 +895,9 @@ function disableHighlighting() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1566,6 +1572,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const restoreHighlighting = disableHighlighting();
+
+>>>>>>> upstream/18.0
 =======
         const restoreHighlighting = disableHighlighting();
 
@@ -2678,7 +2689,11 @@ describe(parseUrl(import.meta.url), () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(t.code).toBe(
+=======
+        expect(String(t.code)).toBe(
+>>>>>>> upstream/18.0
 =======
         expect(String(t.code)).toBe(
 >>>>>>> upstream/18.0
@@ -3563,6 +3578,11 @@ test("${testName}", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        restoreHighlighting();
+>>>>>>> upstream/18.0
 =======
 
         restoreHighlighting();

@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol_response
 #
 =======
@@ -26,11 +27,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * account_peppol_response
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# "Malaz Siddig Elsayed Abuidris (msea)" <msea@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +59,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-04-14 08:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-04-15 11:35+0000\n"
+"Last-Translator: \"Malaz Siddig Elsayed Abuidris (msea)\" <msea@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Arabic <https://translate.odoo.com/projects/odoo-18/"
 "account_peppol_response/ar/>\n"
 "Language: ar\n"
@@ -63,6 +75,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74,7 +89,11 @@ msgstr ""
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "<span>This information will be sent with your response.</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>سيتم إرسال هذه المعلومات مع ردك.</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -83,6 +102,10 @@ msgid ""
 "A Peppol response was sent to the Peppol Access Point declaring you "
 "%(status)s this document."
 msgstr ""
+<<<<<<< HEAD
+=======
+"تم إرسال استجابة Peppol إلى نقطة وصول Peppol تعلن أنك %(status)s هذا المستند."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_edi_proxy_client_user
@@ -91,7 +114,11 @@ msgid "Account EDI proxy user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مستخدِم وكيل تبادل البيانات إلكترونياً في الحساب"
+>>>>>>> upstream/18.0
 =======
 msgstr "مستخدِم وكيل تبادل البيانات إلكترونياً في الحساب"
 >>>>>>> upstream/18.0
@@ -108,12 +135,20 @@ msgstr "مستخدِم وكيل تبادل البيانات إلكترونياً
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ab
 msgid "Acknowledgement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "شكر وتقدير"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Actions to suggest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الإجراءات المقترحة"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -122,6 +157,10 @@ msgid ""
 "An error occurred while responding to this invoice's expeditor.%(br)sStatus:"
 " %(status)s - %(error)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"حدث خطأ أثناء الرد على مرسل هذه الفاتورة.%(br)sالحالة: %(status)s - %(error)s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ap
@@ -130,7 +169,11 @@ msgid "Approval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الموافقة"
+>>>>>>> upstream/18.0
 =======
 msgstr "الموافقة"
 >>>>>>> upstream/18.0
@@ -151,7 +194,11 @@ msgid "Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تمت الموافقة"
+>>>>>>> upstream/18.0
 =======
 msgstr "تمت الموافقة"
 >>>>>>> upstream/18.0
@@ -170,12 +217,20 @@ msgstr "تمت الموافقة"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol_response/wizard/peppol_rejection_wizard.py:0
 msgid "At least one reason must be given when rejecting a Peppol invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "يجب تقديم سبب واحد على الأقل عند رفض فاتورة Peppol."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_response
 msgid "Business Level Responses for Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "استجابات مستوى الأعمال لـ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__code
@@ -184,7 +239,11 @@ msgid "Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رمز"
+>>>>>>> upstream/18.0
 =======
 msgstr "رمز"
 >>>>>>> upstream/18.0
@@ -205,7 +264,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الشركات"
+>>>>>>> upstream/18.0
 =======
 msgstr "الشركات"
 >>>>>>> upstream/18.0
@@ -226,7 +289,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الشركة"
+>>>>>>> upstream/18.0
 =======
 msgstr "الشركة"
 >>>>>>> upstream/18.0
@@ -243,7 +310,11 @@ msgstr "الشركة"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ca
 msgid "Conditionally accepted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مقبول بشروط"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_res_partner
@@ -252,7 +323,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "جهة الاتصال"
+>>>>>>> upstream/18.0
 =======
 msgstr "جهة الاتصال"
 >>>>>>> upstream/18.0
@@ -275,7 +350,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "أنشئ بواسطة"
+>>>>>>> upstream/18.0
 =======
 msgstr "أنشئ بواسطة"
 >>>>>>> upstream/18.0
@@ -298,7 +377,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "أنشئ في"
+>>>>>>> upstream/18.0
 =======
 msgstr "أنشئ في"
 >>>>>>> upstream/18.0
@@ -319,7 +402,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الوصف"
+>>>>>>> upstream/18.0
 =======
 msgstr "الوصف"
 >>>>>>> upstream/18.0
@@ -342,7 +429,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "اسم العرض"
+>>>>>>> upstream/18.0
 =======
 msgstr "اسم العرض"
 >>>>>>> upstream/18.0
@@ -359,7 +450,11 @@ msgstr "اسم العرض"
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Does not support Invoice Responses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "لا يدعم ردود الفواتير"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__done
@@ -368,7 +463,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "منتهي"
+>>>>>>> upstream/18.0
 =======
 msgstr "منتهي"
 >>>>>>> upstream/18.0
@@ -389,7 +488,11 @@ msgid "Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "خطأ"
+>>>>>>> upstream/18.0
 =======
 msgstr "خطأ"
 >>>>>>> upstream/18.0
@@ -412,7 +515,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "المُعرف"
+>>>>>>> upstream/18.0
 =======
 msgstr "المُعرف"
 >>>>>>> upstream/18.0
@@ -433,7 +540,11 @@ msgid "In Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "قيد التنفيذ"
+>>>>>>> upstream/18.0
 =======
 msgstr "قيد التنفيذ"
 >>>>>>> upstream/18.0
@@ -454,7 +565,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "قيد اليومية"
+>>>>>>> upstream/18.0
 =======
 msgstr "قيد اليومية"
 >>>>>>> upstream/18.0
@@ -477,7 +592,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آخر تحديث بواسطة"
+>>>>>>> upstream/18.0
 =======
 msgstr "آخر تحديث بواسطة"
 >>>>>>> upstream/18.0
@@ -500,7 +619,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "آخر تحديث في"
+>>>>>>> upstream/18.0
 =======
 msgstr "آخر تحديث في"
 >>>>>>> upstream/18.0
@@ -517,13 +640,21 @@ msgstr "آخر تحديث في"
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__list_identifier
 msgid "List identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "معرف القائمة"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Miscellaneous:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "أمور متنوعة:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__move_ids
@@ -533,7 +664,11 @@ msgid "Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "حركة"
+>>>>>>> upstream/18.0
 =======
 msgstr "حركة"
 >>>>>>> upstream/18.0
@@ -554,7 +689,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الاسم"
+>>>>>>> upstream/18.0
 =======
 msgstr "الاسم"
 >>>>>>> upstream/18.0
@@ -571,17 +710,29 @@ msgstr "الاسم"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__not_serviced
 msgid "Not Serviced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "غير متوفر"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusaction
 msgid "OPStatusAction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusAction"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusreason
 msgid "OPStatusReason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusReason"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_move_state
@@ -591,7 +742,11 @@ msgid "PEPPOL status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL status"
+>>>>>>> upstream/18.0
 =======
 msgstr "PEPPOL status"
 >>>>>>> upstream/18.0
@@ -608,7 +763,11 @@ msgstr "PEPPOL status"
 #. module: account_peppol_response
 #: model:ir.actions.server,name:account_peppol_response.ir_cron_peppol_auto_register_services_ir_actions_server
 msgid "PEPPOL: auto register services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL: خدمات التسجيل التلقائي"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__pd
@@ -617,7 +776,11 @@ msgid "Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مدفوع"
+>>>>>>> upstream/18.0
 =======
 msgstr "مدفوع"
 >>>>>>> upstream/18.0
@@ -638,7 +801,11 @@ msgid "Pending Reception"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "بانتظار الاستقبال"
+>>>>>>> upstream/18.0
 =======
 msgstr "بانتظار الاستقبال"
 >>>>>>> upstream/18.0
@@ -656,53 +823,89 @@ msgstr "بانتظار الاستقبال"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_can_send_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_can_send_response
 msgid "Peppol Can Send Response"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "يمكن لـ Peppol إرسال استجابة"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_rejection_wizard
 msgid "Peppol Rejection wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "معالج رفض Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_response_ids
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_response_ids
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_form
 msgid "Peppol Response"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "استجابة Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_partner__peppol_response_support
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_response_support
 msgid "Peppol Response Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "خدمة استجابة Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_list
 msgid "Peppol Responses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "استجابات Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_message_uuid
 msgid "Peppol UUID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol UUID"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Peppol business response error: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "خطأ في استجابة Peppol للأعمال: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_clarification
 msgid "Peppol clarifications used for rejection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "توضيحات Peppol المستخدمة للرفض"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_move_form
 msgid "Peppol info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "معلومات Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_state
@@ -711,7 +914,11 @@ msgid "Peppol status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol status"
 >>>>>>> upstream/18.0
@@ -732,7 +939,11 @@ msgid "Reasons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الأسباب"
+>>>>>>> upstream/18.0
 =======
 msgstr "الأسباب"
 >>>>>>> upstream/18.0
@@ -750,7 +961,11 @@ msgstr "الأسباب"
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Reasons:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الأسباب:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__ab
@@ -759,7 +974,11 @@ msgid "Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تم الاستلام"
+>>>>>>> upstream/18.0
 =======
 msgstr "تم الاستلام"
 >>>>>>> upstream/18.0
@@ -778,7 +997,11 @@ msgstr "تم الاستلام"
 #: code:addons/account_peppol_response/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Reject Peppol Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رفض مستند Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__re
@@ -787,7 +1010,11 @@ msgid "Rejected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تم الرفض"
+>>>>>>> upstream/18.0
 =======
 msgstr "تم الرفض"
 >>>>>>> upstream/18.0
@@ -804,44 +1031,76 @@ msgstr "تم الرفض"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__re
 msgid "Rejection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الرفض"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
 msgid "Rejection actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "إجراءات الرفض"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
 msgid "Rejection reasons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "أسباب الرفض"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__response_code
 msgid "Response Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رمز الاستجابة"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Send Rejection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "إرسال الرفض"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Suggested actions:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "الإجراءات المقترحة:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_partner__peppol_supported_documents
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_supported_documents
 msgid "Supported Peppol Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مستندات Peppol المدعومة"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Supports Invoice Responses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "يدعم الردود على الفواتير"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -850,18 +1109,31 @@ msgid ""
 "The Peppol receiver of this document has rejected it with the following "
 "information:%(br)s%(rejection_message)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"رفض مستلم Peppol لهذا المستند مع المعلومات التالية:%(br)s%(rejection_message)"
+"s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has accepted it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رد مستلم Peppol لهذا المستند بأنه قد قبله."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has received it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "رد مستلم Peppol لهذا المستند بأنه قد استلمه."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,help:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
@@ -870,6 +1142,11 @@ msgid ""
 "document to be accepted when sent again (eventually). These will be sent to "
 "the document's sender. Not mandatory."
 msgstr ""
+<<<<<<< HEAD
+=======
+"الإجراءات التي سيتم اقتراحها على مرسل المستند حتى يتم قبول المستند عند إرساله "
+"مرة أخرى (في النهاية). سيتم إرسال هذه الإجراءات إلى مرسل المستند. غير إلزامي."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,help:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
@@ -877,11 +1154,19 @@ msgid ""
 "The reasons to reject the received PEPPOL document. These will be sent to "
 "the document's sender."
 msgstr ""
+<<<<<<< HEAD
+=======
+"أسباب رفض مستند PEPPOL المستلم. سيتم إرسال هذه الأسباب إلى مرسل المستند."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__uq
 msgid "Under query"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تحت الاستعلام"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -891,7 +1176,11 @@ msgid "accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "تم القبول"
+>>>>>>> upstream/18.0
 =======
 msgstr "تم القبول"
 >>>>>>> upstream/18.0
@@ -909,10 +1198,18 @@ msgstr "تم القبول"
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "المستلم"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "rejected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "مرفوض"
+>>>>>>> upstream/18.0

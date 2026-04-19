@@ -36,7 +36,11 @@ class MercadoPagoController(http.Controller):
     @http.route(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         f'{_webhook_url}/<reference>', type='http', auth='public', methods=['POST'], csrf=False
+=======
+        f'{_webhook_url}/<path:reference>', type='http', auth='public', methods=['POST'], csrf=False
+>>>>>>> upstream/18.0
 =======
         f'{_webhook_url}/<path:reference>', type='http', auth='public', methods=['POST'], csrf=False
 >>>>>>> upstream/18.0

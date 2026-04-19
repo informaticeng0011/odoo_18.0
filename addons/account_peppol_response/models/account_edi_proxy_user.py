@@ -178,12 +178,15 @@ class AccountEdiProxyClientUser(models.Model):
         other_messages = {}
         for uuid, content in messages.items():
 <<<<<<< HEAD
+<<<<<<< HEAD
             if content['document_type'] != 'ApplicationResponse':
                 other_messages[uuid] = content
                 continue
 
             peppol_response = uuid_to_record[uuid]
 =======
+=======
+>>>>>>> upstream/18.0
             record = uuid_to_record[uuid]
             # In case of an error there is no 'document_type' in the content.
             if record._name != 'account.peppol.response' or 'document_type' in content and content['document_type'] != 'ApplicationResponse':
@@ -191,6 +194,9 @@ class AccountEdiProxyClientUser(models.Model):
                 continue
 
             peppol_response = record
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             if content.get('error'):
                 if content['error'].get('code') == 702:

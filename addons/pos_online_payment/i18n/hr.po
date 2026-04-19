@@ -147,8 +147,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_online_payment
 # 
+=======
+# * pos_online_payment
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_online_payment
 #
@@ -962,6 +967,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 >>>>>>> upstream/18.0
@@ -1893,10 +1899,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Ana Matulin <ana@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Ana Matulin <ana@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2993,6 +3005,11 @@ msgstr ""
 "PO-Revision-Date: 2025-12-09 08:21+0000\n"
 "Last-Translator: Ana Matulin <ana@uvid.hr>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-18 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "pos_online_payment/hr/>\n"
 "Language: hr\n"
@@ -3001,6 +3018,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3567,10 +3585,14 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "<strong>Error:</strong> The currency is missing or invalid."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: pos_online_payment
@@ -3998,22 +4020,40 @@ msgid "<strong>Error:</strong> There was a problem during the payment process."
 msgid "<strong>Error:</strong> There was a problem during the payment process."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "<strong>Pogreška:</strong> valuta nedostaje ili nije valjana."
+
+#. module: pos_online_payment
+#: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
+msgid "<strong>Error:</strong> There was a problem during the payment process."
+msgstr ""
+"<strong>Pogreška:</strong> došlo je do problema tijekom procesa plaćanja."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid "A POS config cannot have more than one online payment method."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS konfiguracija ne može imati više od jedne online metode plaćanja."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcija plaćanja mora biti navedena."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4437,11 +4477,21 @@ msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "A validation payment cannot be used for a Point of Sale online payment."
+msgstr ""
+"Validacijsko plaćanje ne može se koristiti za online plaćanje prodajnog "
+"mjesta."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "All available providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi dostupni pružatelji"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -4451,11 +4501,21 @@ msgid ""
 "same currency as the Sales Journal, or the company currency if that is not "
 "set, of the POS config."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Svi pružatelji plaćanja konfigurirani za online metodu plaćanja moraju "
+"koristiti istu valutu kao prodajni dnevnik ili valutu tvrtke ako je ta "
+"nepostavljena, POS konfiguracije."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__online_payment_provider_ids
 msgid "Allowed Providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopušteni pružatelji"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
@@ -4471,13 +4531,21 @@ msgstr "Iznos:"
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Cancel payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkaži plaćanje"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot create a POS online payment without an accounting payment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće kreirati POS online plaćanje bez računovodstvenog plaćanja."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -4486,12 +4554,21 @@ msgid ""
 "Cannot create a POS payment with a not online payment method and an online "
 "accounting payment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nije moguće kreirati POS plaćanje s metodom koja nije online i online "
+"računovodstvenim plaćanjem."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće uređivati osnovne podatke POS online plaćanja."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -4500,34 +4577,59 @@ msgid ""
 "Could not create an online payment method (company_id=%(company_id)d, "
 "pos_config_id=%(pos_config_id)d)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nije moguće kreirati online metodu plaćanja (company_id=%(company_id)d, "
+"pos_config_id=%(pos_config_id)d)"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__has_an_online_payment_provider
 msgid "Has An Online Payment Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima online pružatelja plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invalid online payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravno online plaćanje"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invalid online payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravna online plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invoice could not be generated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun nije mogao biti generiran"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_order__next_online_payment_amount
 msgid "Next online payment amount to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sljedeći iznos online plaćanja za platiti"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields.selection,name:pos_online_payment.selection__pos_payment_method__type__online
@@ -4544,7 +4646,11 @@ msgstr "Online plaćanje"
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_order__online_payment_method_id
 msgid "Online Payment Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online metoda plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment__online_account_payment_id
@@ -4768,7 +4874,11 @@ msgid "Online accounting payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Računovodstveno plaćanje online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Računovodstveno plaćanje online"
 >>>>>>> upstream/18.0
@@ -5431,23 +5541,39 @@ msgstr "Računovodstveno plaćanje online"
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Online payment unavailable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online plaćanje nedostupno"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online plaćanja ne mogu imati negativan iznos (%s: %s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Order ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID naloga"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Order ID:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID naloga:"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
@@ -5677,7 +5803,11 @@ msgid "Order reference:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referenca narudžbe"
 >>>>>>> upstream/18.0
@@ -6340,7 +6470,11 @@ msgstr "Referenca narudžbe"
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Order saving issue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Problem spremanja naloga"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -6570,7 +6704,11 @@ msgid "POS Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS narudžba"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS narudžba"
 >>>>>>> upstream/18.0
@@ -7278,19 +7416,31 @@ msgstr "Obradio"
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR kod za plaćanje"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skenirajte QR kod za plaćanje"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skeniraj za plaćanje"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -7302,7 +7452,11 @@ msgstr "Greška poslužitelja"
 #. odoo-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS online plaćanje (tx.id=%d) nije moglo biti ispravno spremljeno"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -7311,46 +7465,79 @@ msgid ""
 "The POS online payment (tx.id=%d) could not be saved correctly because the "
 "online payment method could not be found"
 msgstr ""
+<<<<<<< HEAD
+=======
+"POS online plaćanje (tx.id=%d) nije moglo biti ispravno spremljeno jer nije "
+"pronađena online metoda plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS sesija nije otvorena."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_payment_transaction__pos_order_id
 msgid "The Point of Sale order linked to the payment transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog prodajnog mjesta povezan s transakcijom plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_account_payment__pos_order_id
 msgid "The Point of Sale order linked to this payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog prodajnog mjesta povezan s ovim plaćanjem"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The QR Code for paying could not be generated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR kod za plaćanje nije mogao biti generiran."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznos za plaćanje se promijenio. Osvježite stranicu."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valuta nije valjana."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The invoice could not be generated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun nije mogao biti generiran."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -7503,7 +7690,11 @@ msgid "The order has been cancelled."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Narudžba je otkazana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Narudžba je otkazana."
 >>>>>>> upstream/18.0
@@ -7950,56 +8141,92 @@ msgstr "Narudžba je otkazana."
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The order has not been saved correctly on the server."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog nije ispravno spremljen na poslužitelju."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner POS online plaćanja (id=%d) nije pronađen"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pružatelj plaćanja nije valjan."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plaćanje treba biti izravno, s preusmjeravanjem ili izvršeno tokenom."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token plaćanja nije valjan."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcija plaćanja (%d) ima negativan iznos."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navedeni nalog ili token pristupa nije valjan."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navedeni partner_id razlikuje se od očekivanog."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The saved order could not be retrieved."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremljeni nalog nije mogao biti dohvaćen."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -8008,12 +8235,21 @@ msgid ""
 "The total amount of remaining online payments to execute (%s) doesn't "
 "correspond to the remaining unpaid amount of the order (%s)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ukupni iznos preostalih online plaćanja za izvršiti (%s) ne odgovara "
+"preostalom neplaćenom iznosu naloga (%s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "There are online payments that were missing in your view."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postoje online plaćanja koja su nedostajala u vašem prikazu."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -8022,6 +8258,11 @@ msgid ""
 "There is a problem with the server. The order online payment status cannot "
 "be retrieved."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postoji problem s poslužiteljem. Status online plaćanja naloga ne može se "
+"dohvatiti."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -8030,6 +8271,11 @@ msgid ""
 "There is a problem with the server. The order online payment status cannot "
 "be retrieved. Are you sure there is no online payment for this order ?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postoji problem s poslužiteljem. Status online plaćanja naloga ne može se "
+"dohvatiti. Jeste li sigurni da nema online plaćanja za ovaj nalog?"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -8037,12 +8283,20 @@ msgstr ""
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Za ovaj nalog prodajnog mjesta nije konfigurirana online metoda plaćanja."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema ničega za platiti za ovaj nalog."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
@@ -8194,7 +8448,11 @@ msgid "There is nothing to pay."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema se što platiti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema se što platiti."
 >>>>>>> upstream/18.0
@@ -8649,6 +8907,12 @@ msgid ""
 "To use an online payment method in a POS config, it must have at least one "
 "published payment provider supporting the currency of that POS config."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Za korištenje online metode plaćanja u POS konfiguraciji, mora imati "
+"najmanje jednog objavljenog pružatelja plaćanja koji podržava valutu te POS "
+"konfiguracije."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -8780,7 +9044,11 @@ msgid "Tokenization is not available for logged out customers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tokenizacija nije dostupna za odjavljene korisnike."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tokenizacija nije dostupna za odjavljene korisnike."
 >>>>>>> upstream/18.0
@@ -9163,12 +9431,20 @@ msgstr "Tokenizacija nije dostupna za odjavljene korisnike."
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Transaction Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca transakcije"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Try again"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušaj ponovno"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__type
@@ -9179,7 +9455,11 @@ msgstr "Vrsta"
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Updated online payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažurirana online plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_pos_payment_method__is_online_payment
@@ -9187,6 +9467,11 @@ msgid ""
 "Use this payment method for online payments (payments made on a web page "
 "with online payment providers)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Koristite ovu metodu plaćanja za online plaćanja (plaćanja izvršena na web "
+"stranici s online pružateljima plaćanja)"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -9197,14 +9482,26 @@ msgstr "Da"
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "You have not activated any"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niste aktivirali nijedan"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "payment provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pružatelj plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "to allow online payments."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "za dopuštanje online plaćanja."
+>>>>>>> upstream/18.0

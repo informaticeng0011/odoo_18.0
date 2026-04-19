@@ -28,6 +28,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_loyalty
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -810,6 +811,10 @@
 # * sale_loyalty
 #
 >>>>>>> upstream/18.0
+=======
+# * sale_loyalty
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Vladimir Vrgoč, 2024
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2024
@@ -818,6 +823,7 @@
 # hrvoje sić <hrvoje.sic@gmail.com>, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Bole <bole@dajmi5.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1599,10 +1605,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2363,6 +2373,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-03-20 18:37+0000\n"
+"PO-Revision-Date: 2026-04-18 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"sale_loyalty/hr/>\n"
+>>>>>>> upstream/18.0
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2563,6 +2580,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2895,6 +2913,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.16.2\n"
@@ -2985,23 +3006,39 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid " - On products with the following taxes: %(taxes)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " - na proizvodima sa sljedećim porezima: %(taxes)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "<span class=\"fa fa-clipboard\"/> Copy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-clipboard\"/> Kopiraj"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "<strong>Loyalty Card</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kartica vjernosti</strong>"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "A better global discount is already applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bolji globalni popust već je primijenjen."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
@@ -3009,6 +3046,10 @@ msgstr ""
 msgid ""
 "A minimum of %(amount)s %(currency)s should be purchased to get the reward"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Za dobivanje nagrade potrebno je kupiti najmanje %(amount)s %(currency)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_coupon_wizard_view_form
@@ -3019,17 +3060,29 @@ msgstr "Primjeni"
 #. module: sale_loyalty
 #: model:ir.actions.act_window,name:sale_loyalty.sale_loyalty_reward_wizard_action
 msgid "Available Rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupne nagrade"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
 msgid "Choose a product:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite proizvod:"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
 msgid "Choose your reward:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite svoju nagradu:"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.used_gift_card
@@ -3051,13 +3104,21 @@ msgstr "Šifra kupona"
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__coupon_point_ids
 msgid "Coupon Point"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bod kupona"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/wizard/sale_loyalty_reward_wizard.py:0
 msgid "Coupon not found while trying to add the following reward: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupon nije pronađen pri pokušaju dodavanja sljedeće nagrade: %s"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
@@ -3105,11 +3166,16 @@ msgstr "Naziv za prikaz"
 #. module: sale_loyalty
 #: model:ir.actions.act_window,name:sale_loyalty.sale_loyalty_coupon_wizard_action
 msgid "Enter Promotion or Coupon Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unesite promotivni kod ili kod kupona"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.used_gift_card
 msgid "Expired Date:"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_loyalty
@@ -3707,11 +3773,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "Gift #"
 msgstr ""
+=======
+msgstr "Datum isteka:"
+
+#. module: sale_loyalty
+#: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
+msgid "Gift #"
+msgstr "Poklon br."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
 msgid "Gift Card Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod poklon kartice"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.ui.menu,name:sale_loyalty.menu_gift_ewallet_type_config
@@ -3721,12 +3799,20 @@ msgstr "Poklon bon & eNovčanik"
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_history
 msgid "History for Loyalty cards and Ewallets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povijest kartica vjernosti i eNovčanika"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__points_cost
 msgid "How much point this reward costs on the loyalty card."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko bodova ova nagrada košta na kartici vjernosti."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_coupon_wizard__id
@@ -3739,28 +3825,45 @@ msgstr "ID"
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "Invalid product to claim."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravan proizvod za potraživanje."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/wizard/sale_loyalty_coupon_wizard.py:0
 msgid "Invalid sales order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravan prodajni nalog."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__is_reward_line
 msgid "Is a program reward line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je stavka nagrade programa"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
 msgid "Issued"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izdano"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-javascript
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Issued :"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_loyalty
@@ -3846,6 +3949,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Izdano:"
+
+#. module: sale_loyalty
 >>>>>>> upstream/18.0
 #: model:ir.model,name:sale_loyalty.model_account_move_line
 msgid "Journal Item"
@@ -3879,6 +3987,9 @@ msgstr "Stavka dnevnika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3951,17 +4062,29 @@ msgstr "Promijenjeno"
 #. odoo-javascript
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Loyalty Card :"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kartica vjernosti:"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_card
 msgid "Loyalty Coupon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupon vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__loyalty_data
 msgid "Loyalty Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podaci vjernosti"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_loyalty_program
@@ -3976,22 +4099,35 @@ msgstr "Nagrada za odanost"
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__applied_coupon_ids
 msgid "Manually Applied Coupons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručno primijenjeni kuponi"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__code_enabled_rule_ids
 msgid "Manually Triggered Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručno aktivirana pravila"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__multi_product_reward
 msgid "Multi Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4970,23 +5106,42 @@ msgid ""
 "order."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"No card found for this loyalty program and no points will be given with this "
+"order."
+msgstr ""
+"Nije pronađena kartica za ovaj program vjernosti i neće biti dodijeljenih "
+"bodova s ovim nalogom."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/wizard/sale_loyalty_reward_wizard.py:0
 msgid "No reward selected."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nijedna nagrada nije odabrana."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_loyalty_reward_wizard_view_form
 msgid "No rewards available for this customer!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema dostupnih nagrada za ovog kupca!"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "One or more rewards on the sale order is invalid. Please check them."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna ili više nagrada na prodajnom nalogu nije valjana. Provjerite ih."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_coupon_wizard__order_id
@@ -5021,7 +5176,11 @@ msgstr "Bodovi"
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__points_cost
 msgid "Points Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trošak bodova"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__reward_ids
@@ -5033,33 +5192,57 @@ msgstr "Nagrada"
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order__reward_amount
 msgid "Reward Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznos nagrade"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_order_line__reward_identifier_code
 msgid "Reward Identifier Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifikacijski kod nagrade"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__reward_product_ids
 msgid "Reward Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Proizvodi nagrade"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_sale_loyalty_coupon_wizard
 msgid "Sale Loyalty - Apply Coupon Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajna vjernost - čarobnjak za primjenu kupona"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_sale_loyalty_reward_wizard
 msgid "Sale Loyalty - Reward Selection Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajna vjernost - čarobnjak za odabir nagrade"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model,name:sale_loyalty.model_sale_order_coupon_points
 msgid ""
 "Sale Order Coupon Points - Keeps track of how a sale order impacts a coupon"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bodovi kupona prodajnog naloga - prati kako prodajni nalog utječe na kupon"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_loyalty_program__sale_ok
@@ -5079,18 +5262,30 @@ msgstr "Stavka prodajnog naloga"
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__selected_product_id
 msgid "Selected Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabrani proizvod"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,field_description:sale_loyalty.field_sale_loyalty_reward_wizard__selected_reward_id
 msgid "Selected Reward"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabrana nagrada"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "TEMPORARY DISCOUNT LINE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PRIVREMENA STAVKA POPUSTA"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_order_line__reward_identifier_code
@@ -5098,69 +5293,118 @@ msgid ""
 "Technical field used to link multiple reward lines from the same reward "
 "together."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tehničko polje koje se koristi za povezivanje više stavki nagrade iz iste "
+"nagrade."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The coupon can only be claimed on future orders."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupon se može iskoristiti samo na budućim nalozima."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The coupon does not have enough points for the selected reward."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupon nema dovoljno bodova za odabranu nagradu."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.constraint,message:sale_loyalty.constraint_sale_order_coupon_points_order_coupon_unique
 msgid "The coupon points entry already exists."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka bodova kupona već postoji."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "The program is not available for this order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Program nije dostupan za ovaj nalog."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_loyalty_card__order_id
 msgid "The sales order from which coupon is generated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajni nalog iz kojeg je generiran kupon"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "There is nothing to discount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema ničega za popust"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model:ir.model.fields,help:sale_loyalty.field_sale_loyalty_reward_wizard__reward_product_ids
 msgid "These are the products that can be claimed with this rule."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo su proizvodi koji se mogu iskoristiti s ovim pravilom."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This code is expired (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj kod je istekao (%s)."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This code is invalid (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj kod nije valjan (%s)."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This coupon has already been used."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj kupon je već iskorišten."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This coupon is expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj kupon je istekao."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
@@ -5169,41 +5413,71 @@ msgid ""
 "This discount (%(discount)s) is not compatible with \"%(other_discount)s\". "
 "Please remove it in order to apply this one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ovaj popust (%(discount)s) nije kompatibilan s \"%(other_discount)s\". "
+"Uklonite ga kako biste primijenili ovaj."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program cannot be applied with code."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj program se ne može primijeniti s kodom."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program is already applied to this order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj program je već primijenjen na ovaj nalog."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program is not available for public users."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj program nije dostupan javnim korisnicima."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This program requires a code to be applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj program zahtijeva kod za primjenu."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "This promo code is already applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj promo kod je već primijenjen."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_view_form_inherit_sale_loyalty
 msgid "Update current promotional lines and select new rewards if applicable."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ažurirajte trenutne promotivne stavke i odaberite nove nagrade ako je "
+"primjenjivo."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_order_portal_loyalty_content
@@ -5214,13 +5488,21 @@ msgstr "Korišteno"
 #. odoo-javascript
 #: code:addons/sale_loyalty/static/src/views/fields/loyalty_total/loyalty_data_field.xml:0
 msgid "Used :"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iskorišteno:"
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #. odoo-python
 #: code:addons/sale_loyalty/models/sale_order.py:0
 msgid "You don't have the required product quantities on your sales order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemate tražene količine proizvoda na svom prodajnom nalogu."
+>>>>>>> upstream/18.0
 
 #. module: sale_loyalty
 #: model_terms:ir.ui.view,arch_db:sale_loyalty.sale_purchased_gift_card
@@ -5228,3 +5510,8 @@ msgid ""
 "You will find below your gift cards code. An email has been sent with it. "
 "You can use it starting right now."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ispod ćete pronaći kod svoje poklon kartice. E-mail je poslan s njime. "
+"Možete ga koristiti odmah."
+>>>>>>> upstream/18.0

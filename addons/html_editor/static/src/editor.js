@@ -173,6 +173,10 @@ export class Editor {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editable.setAttribute("translate", "no");
+>>>>>>> upstream/18.0
 =======
         editable.setAttribute("translate", "no");
 >>>>>>> upstream/18.0

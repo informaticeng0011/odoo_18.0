@@ -1002,7 +1002,11 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(UserError, r"The move \(.*\) is not balanced\."):
+=======
+        with self.assertRaisesRegex(UserError, r"The entry is not balanced."):
+>>>>>>> upstream/18.0
 =======
         with self.assertRaisesRegex(UserError, r"The entry is not balanced."):
 >>>>>>> upstream/18.0
@@ -2427,7 +2431,10 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3273,6 +3280,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3379,6 +3387,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4049,6 +4059,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4205,6 +4216,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4531,6 +4544,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
         })
         self.env.flush_all()
         self.assertEqual(fields_recomputed, [])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5043,6 +5057,10 @@ class TestAccountMove(AccountTestInvoicingCommon):
 
     def test_post_invoice_fails_with_account_and_journal_company_inconsistency(self):
 >>>>>>> upstream/18.0
+=======
+
+    def test_post_invoice_fails_with_account_and_journal_company_inconsistency(self):
+>>>>>>> upstream/18.0
         """
         Ensure that an invoice cannot be posted when at least one line account
         belongs to a different company than the journal.
@@ -5050,6 +5068,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
         The test verifies that:
         - Using a journal from a branch company (child of the account's company) is allowed
         - Using a journal from an unrelated company correctly raises a UserError
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5278,6 +5297,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         - Using a shared account between two companies works as expected
         """
         account = self.company_data['default_account_revenue']
@@ -5358,6 +5379,9 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5509,6 +5533,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
         })
         journal_branch = self.env['account.journal'].create({
             'name': 'Company Branch Journal',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5734,6 +5759,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'type': 'general',
             'code': 'CBrJ',
             'company_id': company_branch.id,
@@ -5812,6 +5839,9 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5960,6 +5990,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
         company_b = self.env['res.company'].create({'name': 'Company B'})
         journal_b = self.env['account.journal'].create({
             'name': 'Company B Journal',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6244,6 +6275,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'type': 'general',
             'code': 'CBJ',
             'company_id': company_b.id,
@@ -6334,6 +6367,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6434,6 +6468,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6528,6 +6564,7 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6556,6 +6593,8 @@ class TestAccountMove(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6604,6 +6643,9 @@ class TestAccountMove(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -3,6 +3,10 @@ from odoo import models, fields, api, _
 from odoo.osv import expression
 from odoo.exceptions import UserError, RedirectWarning, ValidationError
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_round
 >>>>>>> upstream/18.0
@@ -186,6 +190,7 @@ class AccountMove(models.Model):
             ]
             journal = self.env['account.journal']
             msg = False
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -725,6 +730,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if res_code in ['8', '9', '10'] and rec.journal_id.l10n_ar_afip_pos_system not in expo_journals:
                 # if it is a foreign partner and journal is not for expo, we try to change it to an expo journal
                 journal = journal.search(domain + [('l10n_ar_afip_pos_system', 'in', expo_journals)], limit=1)
@@ -908,6 +915,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1450,7 +1460,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1997,6 +2010,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2419,6 +2435,7 @@ class AccountMove(models.Model):
         return where_string, param
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_ar_get_amounts(self, company_currency=False):
         """ Method used to prepare data to present amounts and taxes related amounts when creating an
         electronic invoice for argentinean and the txt files for digital VAT books. Only take into account the argentinean taxes """
@@ -2440,11 +2457,16 @@ class AccountMove(models.Model):
                 vat_taxable |= line
 
 =======
+=======
+>>>>>>> upstream/18.0
     def _l10n_ar_get_amounts(self, base_lines=None):
         """ Method used to prepare data to present amounts and taxes related amounts when creating an
         electronic invoice for argentinean and the txt files for digital VAT books. Only take into account the argentinean taxes """
         self.ensure_one()
         base_lines = base_lines or []
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         profits_tax_group = self.env['account.chart.template'].with_company(self.company_id).ref(
             'tax_group_percepcion_ganancias',
@@ -2462,6 +2484,7 @@ class AccountMove(models.Model):
                 button_text=_("Accounting Settings"),
             )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         return {'vat_amount': sign * sum(vat_taxes.mapped(amount_field)),
                 # For invoices of letter C should not pass VAT
@@ -2506,6 +2529,8 @@ class AccountMove(models.Model):
 
         return res if res else []
 =======
+=======
+>>>>>>> upstream/18.0
         def tax_grouping_by_have_vat_afip_code(_arg_base_line, arg_tax_data):
             arg_tax_data = arg_tax_data or {'tax': self.env['account.tax']}
             return {'have_vat_afip_code': bool(arg_tax_data['tax'].tax_group_id.l10n_ar_vat_afip_code)}
@@ -2636,6 +2661,9 @@ class AccountMove(models.Model):
                     res[-1]['Importe'] = 0.0
 
         return res
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def _get_name_invoice_report(self):
@@ -2921,6 +2949,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -4159,7 +4192,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and not self.currency_id.is_zero(values['tax_amount_currency'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

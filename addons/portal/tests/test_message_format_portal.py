@@ -41,7 +41,10 @@ class TestMessageFormatPortal(common.TransactionCase):
         self.assertTrue(formatted_result[0].get('is_message_subtype_note'))
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -55,6 +58,9 @@ class TestMessageFormatPortal(common.TransactionCase):
         result = message.portal_message_format()
         self.assertEqual(result[0]['author'], False)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

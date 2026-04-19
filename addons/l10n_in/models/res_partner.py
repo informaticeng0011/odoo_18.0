@@ -64,6 +64,10 @@ TEST_GST_NUMBER = "36AABCT1332L011"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+TEST_GST_NUMBER_BVM = "29AAGCB1286Q000"
+>>>>>>> upstream/18.0
 =======
 TEST_GST_NUMBER_BVM = "29AAGCB1286Q000"
 >>>>>>> upstream/18.0
@@ -297,6 +301,7 @@ class ResPartner(models.Model):
         for partner in self:
             partner.display_pan_warning = partner.vat and partner.l10n_in_pan and partner.l10n_in_pan != partner.vat[2:12]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1132,6 +1137,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.onchange('vat')
     def onchange_vat(self):
         if self.vat and self.check_vat_in(self.vat):
@@ -1152,6 +1159,7 @@ class ResPartner(models.Model):
             but this is not a valid number as per the regular expression
             so TEST_GST_NUMBER is considered always valid
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1393,12 +1401,16 @@ class ResPartner(models.Model):
 =======
         if vat in (TEST_GST_NUMBER, TEST_GST_NUMBER_BVM):
 >>>>>>> upstream/18.0
+=======
+        if vat in (TEST_GST_NUMBER, TEST_GST_NUMBER_BVM):
+>>>>>>> upstream/18.0
             return True
         return super().check_vat_in(vat)
 
     @api.model
     def _l10n_in_get_partner_vals_by_vat(self, vat):
         partner_data = self.enrich_by_gst(vat)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2548,12 +2560,16 @@ class ResPartner(models.Model):
 =======
         for fname in list(partner_data.keys()):
 >>>>>>> upstream/18.0
+=======
+        for fname in list(partner_data.keys()):
+>>>>>>> upstream/18.0
             if fname not in self.env['res.partner']._fields:
                 partner_data.pop(fname, None)
         partner_data.update({
             'country_id': partner_data.get('country_id', {}).get('id'),
             'state_id': partner_data.get('state_id', {}).get('id'),
             'company_type': 'company',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3219,11 +3235,15 @@ class ResPartner(models.Model):
 =======
             'l10n_in_gst_treatment': partner_data.get('l10n_in_gst_treatment', 'regular'),
 >>>>>>> upstream/18.0
+=======
+            'l10n_in_gst_treatment': partner_data.get('l10n_in_gst_treatment', 'regular'),
+>>>>>>> upstream/18.0
         })
         return partner_data
 
     def action_update_state_as_per_gstin(self):
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4267,6 +4287,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if self.check_vat_in(self.vat):
             state_id = self.env['res.country.state'].search([('l10n_in_tin', '=', self.vat[:2])], limit=1)
             self.state_id = state_id
@@ -4490,6 +4512,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

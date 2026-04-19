@@ -301,9 +301,15 @@ export const datetimePickerService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const apply = () => {
                     const valueCopy = deepCopy(pickerProps.value);
                     if (areDatesEqual(lastAppliedValue, valueCopy)) {
+=======
+                const apply = async () => {
+                    const valueCopy = deepCopy(pickerProps.value);
+                    if (areDatesEqual(lastInitialProps.value, valueCopy)) {
+>>>>>>> upstream/18.0
 =======
                 const apply = async () => {
                     const valueCopy = deepCopy(pickerProps.value);
@@ -1623,8 +1629,13 @@ export const datetimePickerService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     hookParams.onApply?.(pickerProps.value);
                     lastAppliedValue = valueCopy;
+=======
+                    await hookParams.onApply?.(pickerProps.value);
+                    lastInitialProps.value = valueCopy;
+>>>>>>> upstream/18.0
 =======
                     await hookParams.onApply?.(pickerProps.value);
                     lastInitialProps.value = valueCopy;
@@ -2726,7 +2737,11 @@ export const datetimePickerService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (lastInitialProps && arePropsEqual(lastInitialProps, propsCopy)) {
+=======
+                    if (arePropsEqual(lastInitialProps, propsCopy)) {
+>>>>>>> upstream/18.0
 =======
                     if (arePropsEqual(lastInitialProps, propsCopy)) {
 >>>>>>> upstream/18.0
@@ -3607,7 +3622,10 @@ export const datetimePickerService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     lastAppliedValue = propsCopy.value;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4541,7 +4559,11 @@ export const datetimePickerService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (areDatesEqual(previousValue, pickerProps.value)) {
+=======
+                    if (source === "input" && areDatesEqual(previousValue, pickerProps.value)) {
+>>>>>>> upstream/18.0
 =======
                     if (source === "input" && areDatesEqual(previousValue, pickerProps.value)) {
 >>>>>>> upstream/18.0
@@ -5585,10 +5607,15 @@ export const datetimePickerService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 /** @type {DateTimePickerProps | null} */
                 let lastInitialProps = null;
                 /** @type {DateTimePickerProps["value"] | null}*/
                 let lastAppliedValue = null;
+=======
+                /** @type {Partial<DateTimePickerProps>} */
+                let lastInitialProps = {};
+>>>>>>> upstream/18.0
 =======
                 /** @type {Partial<DateTimePickerProps>} */
                 let lastInitialProps = {};

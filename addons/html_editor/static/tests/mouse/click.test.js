@@ -219,7 +219,11 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { pointerDown, pointerUp, waitForNone } from "@odoo/hoot-dom";
+=======
+import { animationFrame, pointerDown, pointerUp, waitForNone } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, pointerDown, pointerUp, waitForNone } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -1213,6 +1217,10 @@ test("should have collapsed selection when mouse down on a table cell", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0

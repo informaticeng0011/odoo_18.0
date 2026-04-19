@@ -114,6 +114,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2025-01-27 13:03+0000\n"
 "PO-Revision-Date: 2025-01-27 13:03+0000\n"
 =======
@@ -548,6 +549,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-04-10 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-17 18:37+0000\n"
+"PO-Revision-Date: 2026-04-17 18:37+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -565,6 +570,7 @@ msgstr ""
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -881,11 +887,15 @@ msgid "11111111111 (NIN) or 2222222222 (VKN)"
 =======
 msgid "11111111111 (NIN) or 2222222222 (VKN)"
 >>>>>>> upstream/18.0
+=======
+msgid "11111111111 (NIN) or 2222222222 (VKN)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1263,6 +1273,10 @@ msgid ""
 msgid ""
 "12345678 or UA12345678 (EDRPOU), 1234567890 (RNOPP) or 123456789012 (IPN)"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"12345678 or UA12345678 (EDRPOU), 1234567890 (RNOPP) or 123456789012 (IPN)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_vat
@@ -1281,12 +1295,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "3101012009"
 msgstr ""
 
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1317,6 +1334,14 @@ msgid "AR200-5536168-2 or 20055361682"
 msgstr ""
 
 #. module: base_vat
+<<<<<<< HEAD
+=======
+#: model:ir.actions.server,name:base_vat.vies_iap_check_update_ir_actions_server
+msgid "Base VAT: Sync updates from IAP VIES"
+msgstr ""
+
+#. module: base_vat
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid "CHE-123.456.788 TVA or CHE-123.456.788 MWST or CHE-123.456.788 IVA"
@@ -1339,6 +1364,7 @@ msgid "Config Settings"
 msgstr ""
 
 #. module: base_vat
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
 msgid ""
@@ -1347,6 +1373,8 @@ msgid ""
 msgstr ""
 
 #. module: base_vat
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:base_vat.model_res_partner
 msgid "Contact"
 msgstr ""
@@ -1409,6 +1437,15 @@ msgstr ""
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+<<<<<<< HEAD
+=======
+msgid "Invalid IAP VIES endpoint"
+msgstr ""
+
+#. module: base_vat
+#. odoo-python
+#: code:addons/base_vat/models/res_partner.py:0
+>>>>>>> upstream/18.0
 msgid "MXGODE561231GR8 or GODE561231GR8"
 msgstr ""
 
@@ -1442,7 +1479,23 @@ msgstr ""
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+<<<<<<< HEAD
 msgid "The VAT number %s could not be interpreted by the VIES server."
+=======
+msgid "The Intra-Community validity has been updated."
+msgstr ""
+
+#. module: base_vat
+#. odoo-python
+#: code:addons/base_vat/models/res_partner.py:0
+msgid "The VIES check failed. Please check the Tax ID manually."
+msgstr ""
+
+#. module: base_vat
+#. odoo-python
+#: code:addons/base_vat/models/res_partner.py:0
+msgid "The VIES check is pending. The status will be updated soon."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_vat
@@ -1464,6 +1517,7 @@ msgstr ""
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+<<<<<<< HEAD
 msgid ""
 "The request for VAT validation was not processed. VIES service has responded"
 " with the following error: %s"
@@ -1472,6 +1526,8 @@ msgstr ""
 #. module: base_vat
 #. odoo-python
 #: code:addons/base_vat/models/res_partner.py:0
+=======
+>>>>>>> upstream/18.0
 msgid "VAT"
 msgstr ""
 

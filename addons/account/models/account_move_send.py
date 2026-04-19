@@ -222,6 +222,10 @@ from odoo.exceptions import UserError, ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.misc import OrderedSet
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.misc import OrderedSet
 >>>>>>> upstream/18.0
@@ -1113,9 +1117,15 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_default_sending_method(self, move) -> set:
         """ By default, we use the sending method set on the partner or email. """
         return move.partner_id.with_company(move.company_id).invoice_sending_method or 'email'
+=======
+    def _get_default_sending_method(self, move) -> str:
+        """ By default, we use the sending method set on the partner or email. """
+        return move.commercial_partner_id.with_company(move.company_id).invoice_sending_method or 'email'
+>>>>>>> upstream/18.0
 =======
     def _get_default_sending_method(self, move) -> str:
         """ By default, we use the sending method set on the partner or email. """
@@ -2533,6 +2543,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_default_invoice_edi_format(self, move) -> str:
 =======
     def _get_default_invoice_edi_format(self, move, **kwargs) -> str:
@@ -3241,6 +3252,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_default_invoice_edi_format(self, move, **kwargs) -> str:
         """ By default, we generate the EDI format set on partner. """
         return move.commercial_partner_id.with_company(move.company_id).invoice_edi_format
@@ -3466,6 +3479,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4225,7 +4241,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_edi_format': get_setting('invoice_edi_format', default_value=self._get_default_invoice_edi_format(move)),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5152,6 +5171,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'email' in vals['sending_methods']:
             mail_template = get_setting('mail_template') or self._get_default_mail_template_id(move)
             mail_lang = get_setting('mail_lang') or self._get_default_mail_lang(move, mail_template)
@@ -5503,6 +5523,8 @@ class AccountMoveSend(models.AbstractModel):
             mail_template = get_setting('mail_template') or self._get_default_mail_template_id(move)
             mail_lang = get_setting('mail_lang') or self._get_default_mail_lang(move, mail_template)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5918,6 +5940,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6194,6 +6219,7 @@ class AccountMoveSend(models.AbstractModel):
                 extra_edis=vals['extra_edis'],
                 pdf_report=vals['pdf_report'],
             )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7944,6 +7970,9 @@ class AccountMoveSend(models.AbstractModel):
 =======
             vals['mail_attachments_widget'] = get_setting('mail_attachments_widget', default_value=mail_attachments_widget)
 >>>>>>> upstream/18.0
+=======
+            vals['mail_attachments_widget'] = get_setting('mail_attachments_widget', default_value=mail_attachments_widget)
+>>>>>>> upstream/18.0
         return vals
 
     # -------------------------------------------------------------------------
@@ -8021,7 +8050,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8210,6 +8242,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8398,6 +8433,7 @@ class AccountMoveSend(models.AbstractModel):
     # -------------------------------------------------------------------------
 
     @api.model
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9496,6 +9532,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_default_mail_attachments_widget(self, move, mail_template, invoice_edi_format=None, extra_edis=None, pdf_report=None):
         if extra_edis is None:
             extra_edis = {}
@@ -9718,6 +9756,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10160,6 +10201,7 @@ class AccountMoveSend(models.AbstractModel):
             + self._get_mail_template_attachments_data(mail_template)
 
     @api.model
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11389,6 +11431,9 @@ class AccountMoveSend(models.AbstractModel):
 =======
     def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
 >>>>>>> upstream/18.0
+=======
+    def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
+>>>>>>> upstream/18.0
         """ Returns all the placeholder data.
         Should be extended to add placeholder based on the sending method.
         :param: move:       The current move.
@@ -11672,8 +11717,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice_template = pdf_report or self._get_default_pdf_report_id(move)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12468,6 +12516,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12999,6 +13048,8 @@ class AccountMoveSend(models.AbstractModel):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         extra_mail_templates = mail_template.report_template_ids - invoice_template
 
         attachments = []
@@ -13013,6 +13064,9 @@ class AccountMoveSend(models.AbstractModel):
             })
         return attachments
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13155,11 +13209,14 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if any(move.state != 'posted' for move in moves):
             raise UserError(_("You can't generate invoices that are not posted."))
         if any(not move.is_sale_document(include_receipts=True) for move in moves):
             raise UserError(_("You can only generate sales documents."))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13451,6 +13508,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13812,7 +13872,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14219,6 +14282,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14498,6 +14564,7 @@ class AccountMoveSend(models.AbstractModel):
         return True
 
     @api.model
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15420,6 +15487,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _is_applicable_to_move(self, method, move, **move_data):
         """ TO OVERRIDE - """
         if method == 'email' and 'mail_partner_ids' in move_data:
@@ -15730,6 +15799,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16669,7 +16741,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move.with_context(no_new_invoice=True).message_post(body=self._format_error_html(error))
+=======
+            move.with_context(no_document=True, no_new_invoice=True).message_post(body=self._format_error_html(error))
+>>>>>>> upstream/18.0
 =======
             move.with_context(no_document=True, no_new_invoice=True).message_post(body=self._format_error_html(error))
 >>>>>>> upstream/18.0
@@ -17349,6 +17425,7 @@ class AccountMoveSend(models.AbstractModel):
         to_send_mail = {
             move: move_data
             for move, move_data in moves_data.items()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18578,6 +18655,9 @@ class AccountMoveSend(models.AbstractModel):
 =======
             if 'email' in move_data['sending_methods'] and self._is_applicable_to_move('email', move, **move_data)
 >>>>>>> upstream/18.0
+=======
+            if 'email' in move_data['sending_methods'] and self._is_applicable_to_move('email', move, **move_data)
+>>>>>>> upstream/18.0
         }
         self._send_mails(to_send_mail)
 
@@ -18813,6 +18893,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                no_document=True,
+>>>>>>> upstream/18.0
 =======
                 no_document=True,
 >>>>>>> upstream/18.0
@@ -19948,7 +20032,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for sending_method in custom_settings.get('sending_methods', [])
+=======
+            for sending_method in OrderedSet(custom_settings.get('sending_methods', ()))
+>>>>>>> upstream/18.0
 =======
             for sending_method in OrderedSet(custom_settings.get('sending_methods', ()))
 >>>>>>> upstream/18.0

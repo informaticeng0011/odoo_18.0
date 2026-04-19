@@ -280,6 +280,12 @@ from odoo.addons.base.tests.common import BaseUsersCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.payment import utils as payment_utils
+from odoo.addons.website.tools import MockRequest
+from odoo.addons.website_sale.controllers.main import WebsiteSale
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.payment import utils as payment_utils
 from odoo.addons.website.tools import MockRequest
@@ -2023,7 +2029,10 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2849,6 +2858,9 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3837,7 +3849,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             shipping_options = self.make_jsonrpc_request(
+=======
+            shipping_options_data = self.make_jsonrpc_request(
+>>>>>>> upstream/18.0
 =======
             shipping_options_data = self.make_jsonrpc_request(
 >>>>>>> upstream/18.0
@@ -4937,7 +4953,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'shipping_option': shipping_options[0],
+=======
+                'shipping_option': shipping_options_data['delivery_methods'][0],
+>>>>>>> upstream/18.0
 =======
                 'shipping_option': shipping_options_data['delivery_methods'][0],
 >>>>>>> upstream/18.0
@@ -6061,7 +6081,11 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'shipping_option': shipping_options[0],
+=======
+                    'shipping_option': shipping_options['delivery_methods'][0],
+>>>>>>> upstream/18.0
 =======
                     'shipping_option': shipping_options['delivery_methods'][0],
 >>>>>>> upstream/18.0
@@ -6945,7 +6969,10 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7141,6 +7168,9 @@ class TestWebsiteSaleDeliveryExpressCheckoutFlows(BaseUsersCommon, WebsiteSaleCo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -90,7 +90,11 @@ import { router } from "@web/core/browser/router";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillStart, useState, useEffect } from "@odoo/owl";
+=======
+import { Component, onWillStart, useState, useEffect, useExternalListener } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, onWillStart, useState, useEffect, useExternalListener } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -447,6 +451,11 @@ export class SpreadsheetDashboardAction extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        useExternalListener(window, "afterprint", this.logExport.bind(this));
+
+>>>>>>> upstream/18.0
 =======
         useExternalListener(window, "afterprint", this.logExport.bind(this));
 
@@ -919,7 +928,10 @@ export class SpreadsheetDashboardAction extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1103,6 +1115,7 @@ export class SpreadsheetDashboardAction extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.model.dispatch("LOG_DATASOURCE_EXPORT", { action: "print" });
     }
 <<<<<<< HEAD
@@ -1240,6 +1253,10 @@ export class SpreadsheetDashboardAction extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        dashboard.model.dispatch("LOG_DATASOURCE_EXPORT", { action: "print" });
+    }
 >>>>>>> upstream/18.0
 =======
         dashboard.model.dispatch("LOG_DATASOURCE_EXPORT", { action: "print" });

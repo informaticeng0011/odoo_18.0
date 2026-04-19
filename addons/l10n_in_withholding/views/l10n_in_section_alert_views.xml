@@ -39,7 +39,11 @@
                             <field class="w-25 text-center oe_inline" name="aggregate_limit" invisible="not is_aggregate_limit"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field class="w-25" name="aggregate_period" invisible="not is_aggregate_limit"/>
+=======
+                            <field class="w-25" name="aggregate_period" invisible="not is_aggregate_limit" required="is_aggregate_limit"/>
+>>>>>>> upstream/18.0
 =======
                             <field class="w-25" name="aggregate_period" invisible="not is_aggregate_limit" required="is_aggregate_limit"/>
 >>>>>>> upstream/18.0

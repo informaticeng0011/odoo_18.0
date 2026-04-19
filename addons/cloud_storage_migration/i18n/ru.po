@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_migration
 #
 =======
@@ -86,11 +87,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * cloud_storage_migration
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# "Anastasiia Koroleva (koan)" <koan@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141,6 +149,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-29 12:21+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-04-17 14:51+0000\n"
+"Last-Translator: \"Anastasiia Koroleva (koan)\" <koan@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Russian <https://translate.odoo.com/projects/odoo-18/"
 "cloud_storage_migration/ru/>\n"
 "Language: ru\n"
@@ -163,6 +175,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -194,12 +209,20 @@ msgstr ""
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "All Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Все вложения"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_to_migrate
 msgid "All Attachments Migration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Миграция всех вложений"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model,name:cloud_storage_migration.model_ir_attachment
@@ -218,7 +241,11 @@ msgid "Attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вложение"
+>>>>>>> upstream/18.0
 =======
 msgstr "Вложение"
 >>>>>>> upstream/18.0
@@ -269,6 +296,11 @@ msgid ""
 "Attachment (%s) does not have a stored filename and cannot be migrated to "
 "cloud storage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Вложение (%s) не имеет сохраненного имени файла и не может быть перенесено в "
+"облачное хранилище."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #. odoo-python
@@ -277,11 +309,20 @@ msgid ""
 "Attachment (%s) is not a binary attachment and cannot be migrated to cloud "
 "storage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Вложение (%s) не является бинарным файлом и не может быть перенесено в "
+"облачное хранилище."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Attachments Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отчет о вложениях"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
@@ -300,7 +341,11 @@ msgid "Cloud Storage Migration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Миграция в облачное хранилище"
+>>>>>>> upstream/18.0
 =======
 msgstr "Миграция в облачное хранилище"
 >>>>>>> upstream/18.0
@@ -347,30 +392,50 @@ msgstr "Миграция в облачное хранилище"
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_models
 msgid "Cloud Storage Migration All Models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Миграция всех моделей в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_cron
 msgid "Cloud Storage Migration Cron"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Планировщик миграции в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_models
 msgid "Cloud Storage Migration Message Models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Модели сообщений о миграции в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_report
 #: model:ir.model,name:cloud_storage_migration.model_cloud_storage_migration_report
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.view_cloud_storage_migration_report_list
 msgid "Cloud Storage Migration Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отчет о миграции в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #. odoo-python
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "Cloud storage provider is not configured"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Провайдер облачного хранилища не настроен"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model,name:cloud_storage_migration.model_res_config_settings
@@ -389,7 +454,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Параметры конфигурации"
+>>>>>>> upstream/18.0
 =======
 msgstr "Параметры конфигурации"
 >>>>>>> upstream/18.0
@@ -436,7 +505,11 @@ msgstr "Параметры конфигурации"
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cron Job"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Задача планировщика"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__display_name
@@ -455,7 +528,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Отображаемое имя"
+>>>>>>> upstream/18.0
 =======
 msgstr "Отображаемое имя"
 >>>>>>> upstream/18.0
@@ -502,7 +579,11 @@ msgstr "Отображаемое имя"
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
 msgid "Has Attachment Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Имеет поле вложения"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__id
@@ -521,7 +602,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -571,6 +656,11 @@ msgid ""
 "Indicates whether all attachments associated with this model are scheduled "
 "for cloud storage migration"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Указывает, запланирована ли миграция всех вложений, связанных с этой "
+"моделью, в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
@@ -578,6 +668,11 @@ msgid ""
 "Indicates whether attachments linked to mail messages for this model are "
 "scheduled for cloud storage migration"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Указывает, запланирована ли миграция вложений из почтовых сообщений этой "
+"модели в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
@@ -585,51 +680,92 @@ msgid ""
 "Indicates whether this model has a relational field linking to ir.attachment"
 " model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Указывает, есть ли в этой модели реляционное поле, связанное с моделью "
+"ir.attachment"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
 msgid "Largest Attachment (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Самое большое вложение (МБ)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Message Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вложения сообщений"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Message Attachments Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Количество вложений сообщения"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
 msgid "Message Attachments Migration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Миграция вложений сообщений"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
 msgid "Message Attachments Size (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Размер вложений сообщения (МБ)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
 msgid "Message Largest Attachment (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Самое большое вложение в сообщениях (МБ)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.actions.server,name:cloud_storage_migration.ir_cron_manual_migrate_local_to_cloud_storage_ir_actions_server
 msgid "Migrate Local Attachment Binaries to Cloud Storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перенести бинарные файлы локальных вложений в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "Migrate Models' All Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перенести все вложения моделей"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Migrate Models' Message Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перенести вложения из сообщений моделей"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
@@ -648,7 +784,11 @@ msgid "Migrate local attachments to cloud storage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Миграция локальных вложений в облачное хранилище"
+>>>>>>> upstream/18.0
 =======
 msgstr "Миграция локальных вложений в облачное хранилище"
 >>>>>>> upstream/18.0
@@ -695,7 +835,11 @@ msgstr "Миграция локальных вложений в облачное
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Migration Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Прогресс миграции"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model
@@ -714,7 +858,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Модель"
+>>>>>>> upstream/18.0
 =======
 msgstr "Модель"
 >>>>>>> upstream/18.0
@@ -775,7 +923,11 @@ msgid "Model Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Название модели"
+>>>>>>> upstream/18.0
 =======
 msgstr "Название модели"
 >>>>>>> upstream/18.0
@@ -822,13 +974,21 @@ msgstr "Название модели"
 #. module: cloud_storage_migration
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
 msgid "No attachment data found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Данные вложений не найдены"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #. odoo-python
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "No model for cloud storage migration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Нет модели для миграции в облачное хранилище"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
@@ -847,7 +1007,11 @@ msgid "Parameters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Параметры"
+>>>>>>> upstream/18.0
 =======
 msgstr "Параметры"
 >>>>>>> upstream/18.0
@@ -894,7 +1058,11 @@ msgstr "Параметры"
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Shows the progress of cloud storage migration (current/total)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Показывает прогресс миграции в облачное хранилище (текущее/всего)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
@@ -902,6 +1070,11 @@ msgid ""
 "Size in megabytes of the largest attachment associated with any record of "
 "this model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Размер в мегабайтах самого большого вложения, связанного с любой записью "
+"этой модели"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
@@ -909,6 +1082,11 @@ msgid ""
 "Size in megabytes of the largest attachment linked to mail messages for this"
 " model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Размер в мегабайтах самого большого вложения, прикрепленного к сообщениям "
+"этой модели"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
@@ -916,26 +1094,47 @@ msgid ""
 "This report shows statistics about attachments that could be migrated to "
 "cloud storage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Этот отчет содержит статистику вложений, которые могут быть перенесены в "
+"облачное хранилище."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total Attachments Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Общее количество вложений"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
 msgid "Total Attachments Size (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Общий размер вложений (МБ)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total number of attachments associated with all records of this model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Общее количество вложений, связанных со всеми записями этой модели"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Total number of attachments linked to mail messages for this model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Общее количество вложений, прикрепленных к сообщениям этой модели"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
@@ -943,6 +1142,10 @@ msgid ""
 "Total size in megabytes of all attachments associated with records of this "
 "model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Общий размер в мегабайтах всех вложений, связанных с записями этой модели"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
@@ -950,3 +1153,8 @@ msgid ""
 "Total size in megabytes of all attachments linked to mail messages for this "
 "model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Общий размер в мегабайтах всех вложений, прикрепленных к сообщениям этой "
+"модели"
+>>>>>>> upstream/18.0

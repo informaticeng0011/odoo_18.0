@@ -147,8 +147,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
+=======
+# * sale_pdf_quote_builder
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_pdf_quote_builder
 #
@@ -889,6 +894,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1331,10 +1337,15 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1891,12 +1902,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-15 11:34+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "sale_pdf_quote_builder/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2656,6 +2673,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,print_report_name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -2669,17 +2692,26 @@ msgstr ""
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span class=\"pe-2\">Templates:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Szablony:</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span>Document type:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Typ dokumentu:</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3208,11 +3240,19 @@ msgid ""
 "document."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"A form field set as used in product documents can't be linked to a quotation "
+"document."
+msgstr ""
+"Pole formularza ustawione jako używane w dokumentach produktu nie może być "
+"powiązane z dokumentem oferty."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3741,6 +3781,13 @@ msgid ""
 "document."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"A form field set as used in quotation documents can't be linked to a product "
+"document."
+msgstr ""
+"Pole formularza ustawione jako używane w dokumentach ofertowych nie może być "
+"powiązane z dokumentem produktu."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__access_token
@@ -3872,6 +3919,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Leave it empty if you don't want to share this document with sales customer.\n"
 "On quote: the document will be sent to and accessible by customers at any time.\n"
 "e.g. this option can be useful to share Product description files.\n"
@@ -3887,6 +3935,8 @@ msgstr ""
 "Ta opcja może być przydatna np. do udostępniania instrukcji obsługi lub treści cyfrowych zakupionych w sklepie internetowym. \n"
 "Wewnątrz cytatu: Dokument zostanie włączony do pliku pdf oferty i zamówienia sprzedaży między stronami nagłówka a tabelą oferty. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4224,6 +4274,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4454,7 +4507,11 @@ msgstr "Adres załącznika"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__available_product_document_ids
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__available_product_document_ids
 msgid "Available Product Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostępne dokumenty produktu"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__checksum
@@ -4465,7 +4522,11 @@ msgstr "Suma kontrolna / SHA1"
 #. odoo-javascript
 #: code:addons/sale_pdf_quote_builder/static/src/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card.js:0
 msgid "Click to write content for the PDF quote..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknij, aby napisać treść do oferty w pliku PDF..."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__company_id
@@ -4476,12 +4537,20 @@ msgstr "Firma"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Configure dynamic fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skonfiguruj dynamiczne pola"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 msgid "Configure the path to fill the form fields."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skonfiguruj ścieżkę do wypełnienia w polach formularza."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__create_uid
@@ -4508,7 +4577,11 @@ msgstr "Konfigurowalny"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__customizable_pdf_form_fields
 msgid "Customizable PDF Form Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurowalne pola formularza PDF"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__db_datas
@@ -4540,7 +4613,11 @@ msgstr "Typ dokumentu"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Document type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ dokumentu"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
@@ -4582,30 +4659,50 @@ msgstr "Stopka"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "Form Field Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa pola formularza"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Form Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pola formularza"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_product_document__form_field_ids
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__form_field_ids
 msgid "Form Fields Included"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zawarte pola formularza"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.constraint,message:sale_pdf_quote_builder.constraint_sale_pdf_form_field_unique_name_per_doc_type
 msgid "Form field name must be unique for a given document type."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa pola formularza musi być unikalna dla danego typu dokumentu."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_pdf_form_field
 msgid "Form fields of inside quotation documents."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pola formularza wewnątrz dokumentów oferty."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
@@ -4627,7 +4724,11 @@ msgstr "Nagłówek/stopka"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_template__quotation_document_ids
 msgid "Headers and footers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagłówki i stopki"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.act_window,name:sale_pdf_quote_builder.quotation_document_action
@@ -4654,6 +4755,11 @@ msgid ""
 "If unchecked, it will allow you to hide the header or footer without "
 "removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jeśli ta opcja nie jest zaznaczona, pozwoli to na ukrycie nagłówka lub "
+"stopki bez usuwania ich."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__image_height
@@ -4678,7 +4784,11 @@ msgstr "Indeksowana zawartość"
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__product_document__attached_on_sale__inside
 msgid "Inside quote pdf"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PDF w ofercie"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -4687,6 +4797,11 @@ msgid ""
 "Invalid form field name %(field_name)s. A form field name in a header or a "
 "footer can not start with \"sol_id_\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nieprawidłowa nazwa pola formularza %(field_name)s. Nazwa pola formularza w "
+"nagłówku lub stopce nie może się zaczynać od \"sol_id_\"."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -4695,6 +4810,11 @@ msgid ""
 "Invalid form field name %(field_name)s. It should only contain "
 "alphanumerics, hyphens or underscores."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nieprawidłowa nazwa pola formularza %(field_name)s. Powinien zawierać "
+"jedynie znaki alfanumeryczne, myślniki i podkreślenia."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -4703,11 +4823,20 @@ msgid ""
 "Invalid path %(path)s. It should only contain alphanumerics, hyphens, "
 "underscores or points."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nieprawidłowa ścieżka %(path)s. Powinna zawierać jedynie znaki "
+"alfanumeryczne, myślniki, podkreślenia lub kropki."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__is_pdf_quote_builder_available
 msgid "Is Pdf Quote Builder Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jest dostępny kreator ofert pdf"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__public
@@ -4721,6 +4850,12 @@ msgid ""
 "It seems that we're not able to process this pdf inside a quotation. It is "
 "either encrypted, or encoded in a format we do not support."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Wygląda na to, że nie jesteśmy w stanie przetworzyć tego pliku pdf w "
+"ofercie. Jest on albo zaszyfrowany albo zakodowany w formacie, którego nie "
+"obsługujemy."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__key
@@ -4742,7 +4877,11 @@ msgstr "Data ostatniej aktualizacji"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Mark fields as safe to fill in the quote."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznacz pola jako bezpieczne do wypełnienia w ofercie."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__mimetype
@@ -4764,13 +4903,21 @@ msgstr "Nie"
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "Only PDF documents can be attached inside a quote."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tylko dokumenty w formacie PDF mogą zostać załączone w ofercie."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Only PDF documents can be used as header or footer."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tylko dokumenty pdf mogą zostać użyte jako nagłówek lub stopka."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__original_id
@@ -4789,12 +4936,22 @@ msgid ""
 "                <br>\n"
 "                to boost your sales."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Spersonalizuj swoje oferty dzięki chwytliwym nagłówkom i stopkom,\n"
+"                <br>\n"
+"                aby zwiększyć sprzedaż."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "Please use only relational fields until the last value of your path."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Używaj tylko pól relacyjnych aż do ostatniej wartości swojej ścieżki."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
@@ -4806,17 +4963,26 @@ msgstr "Produkt"
 #: model:ir.model,name:sale_pdf_quote_builder.model_product_document
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__sale_pdf_form_field__document_type__product_document
 msgid "Product Document"
+<<<<<<< HEAD
 msgstr "Product Document"
+=======
+msgstr "Dokument produktu"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__product_document_ids
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__product_document_ids
 msgid "Product Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenty produktu"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4928,6 +5094,8 @@ msgid ""
 "                        details of the quote and then the footer pages. <br/>\n"
 "                        If empty, it will use those define in the company settings. <br/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5250,6 +5418,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5460,6 +5629,17 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Dodaj strony nagłówkowe i stopki, aby stworzyć atrakcyjną ofertę zawierającą "
+"więcej informacji\n"
+"                        o Twojej firmie, produktach i usługach. <br/>\n"
+"                        Plik PDF z ofertą zostanie utworzony poprzez "
+"połączenie nagłówków, opisów produktów,\n"
+"                        szczegółów oferty, a następnie stopki. <br/>\n"
+"                        Jeśli pola są puste, zostaną użyte wartości "
+"zdefiniowane w ustawieniach firmy. <br/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -5469,12 +5649,20 @@ msgstr "Oferta / Zamówienie"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Quotation Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokument oferty"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__quotation_document_ids
 msgid "Quotation Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenty oferty"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_order_template
@@ -5490,7 +5678,11 @@ msgstr "Szablony ofert"
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_quotation_document
 msgid "Quotation's Headers & Footers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nagłówki i stopki oferty"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_form_inherit_sale_pdf_quote_builder
@@ -5643,7 +5835,11 @@ msgid "Quote Builder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreator ofert"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreator ofert"
 >>>>>>> upstream/18.0
@@ -6363,7 +6559,11 @@ msgid "Sale : Visible at"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprzedaż: Widoczne na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprzedaż: Widoczne na"
 >>>>>>> upstream/18.0
@@ -7101,6 +7301,11 @@ msgstr "Sprzedaż: Widoczne na"
 #: model:ir.actions.server,name:sale_pdf_quote_builder.cron_post_upgrade_assign_missing_form_fields_ir_actions_server
 msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kreator oferty sprzedaży pdf: przypisz pola formularza do dokumentów po "
+"aktualizacji"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_order
@@ -7126,12 +7331,20 @@ msgstr "Nazwa zapisanego pliku"
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pole %(field_name)s nie istnieje w modelu %(model_name)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "The form field name as written in the PDF."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa pola formularza jak zapisano w PDF."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_pdf_form_field__path
@@ -7139,6 +7352,11 @@ msgid ""
 "The path to follow to dynamically fill the form field. \n"
 "Leave empty to be able to customized it in the quotation form."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ścieżka, którą należy podążać, aby dynamicznie wypełnić pole formularza.\n"
+"Pozostaw puste, aby móc spersonalizować ją w formularzu oferty."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_order_line__product_document_ids
@@ -7146,6 +7364,11 @@ msgid ""
 "The product documents for this order line that will be merged in the PDF "
 "quote."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Dokumenty produktowe dla tej pozycji zamówienia, które zostaną scalone w "
+"ofercie PDF."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__theme_template_id
@@ -7155,7 +7378,11 @@ msgstr "Szablon motywu"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "This document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten dokument"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__type
@@ -7165,7 +7392,11 @@ msgstr "Typ"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.actions.act_window,help:sale_pdf_quote_builder.quotation_document_action
 msgid "Upload quotation headers and footers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prześlij nagłówki i stopki oferty"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__url
@@ -7192,6 +7423,11 @@ msgstr "Strona internetowa"
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "When attached inside a quote, the document must be a file, not a URL."
 msgstr ""
+<<<<<<< HEAD
+=======
+"W przypadku dołączenia wewnątrz oferty, dokument musi być plikiem, a nie "
+"adresem URL."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python

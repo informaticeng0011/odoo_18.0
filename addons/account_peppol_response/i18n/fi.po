@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol_response
 #
 =======
@@ -26,11 +27,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * account_peppol_response
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Saara Hakanen <sahak@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +59,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-04-14 08:30+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-04-16 08:40+0000\n"
+"Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Finnish <https://translate.odoo.com/projects/odoo-18/"
 "account_peppol_response/fi/>\n"
 "Language: fi\n"
@@ -62,6 +74,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73,7 +88,11 @@ msgstr ""
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "<span>This information will be sent with your response.</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Nämä tiedot lähetetään vastauksesi mukana.</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -82,6 +101,11 @@ msgid ""
 "A Peppol response was sent to the Peppol Access Point declaring you "
 "%(status)s this document."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Peppol-yhteyspisteeseen lähetettiin Peppol-vastaus ilmoittaen %(status)s "
+"tälle asiakirjalle."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_edi_proxy_client_user
@@ -90,7 +114,11 @@ msgid "Account EDI proxy user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilin EDI proxy -käyttäjä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilin EDI proxy -käyttäjä"
 >>>>>>> upstream/18.0
@@ -107,12 +135,20 @@ msgstr "Tilin EDI proxy -käyttäjä"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ab
 msgid "Acknowledgement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuittaus"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Actions to suggest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ehdotettavat toimenpiteet"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -121,6 +157,11 @@ msgid ""
 "An error occurred while responding to this invoice's expeditor.%(br)sStatus:"
 " %(status)s - %(error)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Virhe tämän laskun lähettäjälle vastattaessa.%(br)sTila: %(status)s - %"
+"(error)s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ap
@@ -129,7 +170,11 @@ msgid "Approval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hyväksyntä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hyväksyntä"
 >>>>>>> upstream/18.0
@@ -150,7 +195,11 @@ msgid "Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hyväksytty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hyväksytty"
 >>>>>>> upstream/18.0
@@ -169,12 +218,20 @@ msgstr "Hyväksytty"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol_response/wizard/peppol_rejection_wizard.py:0
 msgid "At least one reason must be given when rejecting a Peppol invoice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol-laskua hylätessä on annettava vähintään yksi syy."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_response
 msgid "Business Level Responses for Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yritystason vastaukset Peppolille"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__code
@@ -183,7 +240,11 @@ msgid "Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koodi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koodi"
 >>>>>>> upstream/18.0
@@ -204,7 +265,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yritykset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yritykset"
 >>>>>>> upstream/18.0
@@ -225,7 +290,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yritys"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yritys"
 >>>>>>> upstream/18.0
@@ -242,7 +311,11 @@ msgstr "Yritys"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ca
 msgid "Conditionally accepted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ehdollinen hyväksyntä"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_res_partner
@@ -251,7 +324,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Yhteystiedot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Yhteystiedot"
 >>>>>>> upstream/18.0
@@ -274,7 +351,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Luonut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Luonut"
 >>>>>>> upstream/18.0
@@ -297,7 +378,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Luotu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Luotu"
 >>>>>>> upstream/18.0
@@ -318,7 +403,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kuvaus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kuvaus"
 >>>>>>> upstream/18.0
@@ -341,7 +430,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Näyttönimi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näyttönimi"
 >>>>>>> upstream/18.0
@@ -358,7 +451,11 @@ msgstr "Näyttönimi"
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Does not support Invoice Responses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ei tue laskujen vastauksia"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__done
@@ -367,7 +464,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valmis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valmis"
 >>>>>>> upstream/18.0
@@ -388,7 +489,11 @@ msgid "Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Virhe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Virhe"
 >>>>>>> upstream/18.0
@@ -411,7 +516,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tunnus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tunnus"
 >>>>>>> upstream/18.0
@@ -432,7 +541,11 @@ msgid "In Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Käsittelyssä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Käsittelyssä"
 >>>>>>> upstream/18.0
@@ -453,7 +566,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kirjaus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kirjaus"
 >>>>>>> upstream/18.0
@@ -476,7 +593,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viimeksi päivittänyt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viimeksi päivittänyt"
 >>>>>>> upstream/18.0
@@ -499,7 +620,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viimeksi päivitetty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Viimeksi päivitetty"
 >>>>>>> upstream/18.0
@@ -516,13 +641,21 @@ msgstr "Viimeksi päivitetty"
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__list_identifier
 msgid "List identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Luettelotunniste"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Miscellaneous:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekalaiset:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__move_ids
@@ -532,7 +665,11 @@ msgid "Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Siirto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Siirto"
 >>>>>>> upstream/18.0
@@ -553,7 +690,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nimi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nimi"
 >>>>>>> upstream/18.0
@@ -570,17 +711,29 @@ msgstr "Nimi"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__not_serviced
 msgid "Not Serviced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ei huollettu"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusaction
 msgid "OPStatusAction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusAction"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusreason
 msgid "OPStatusReason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusReason"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_move_state
@@ -590,7 +743,11 @@ msgid "PEPPOL status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL-tila"
+>>>>>>> upstream/18.0
 =======
 msgstr "PEPPOL-tila"
 >>>>>>> upstream/18.0
@@ -607,7 +764,11 @@ msgstr "PEPPOL-tila"
 #. module: account_peppol_response
 #: model:ir.actions.server,name:account_peppol_response.ir_cron_peppol_auto_register_services_ir_actions_server
 msgid "PEPPOL: auto register services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL: automaattiset rekisteröintipalvelut"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__pd
@@ -616,7 +777,11 @@ msgid "Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksettu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksettu"
 >>>>>>> upstream/18.0
@@ -637,7 +802,11 @@ msgid "Pending Reception"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odottaa vastaanottoa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odottaa vastaanottoa"
 >>>>>>> upstream/18.0
@@ -655,53 +824,89 @@ msgstr "Odottaa vastaanottoa"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_can_send_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_can_send_response
 msgid "Peppol Can Send Response"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol voi lähettää vastauksen"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_rejection_wizard
 msgid "Peppol Rejection wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ohjattu Peppol-hylkäystoiminto"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_bank_statement_line__peppol_response_ids
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_response_ids
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_form
 msgid "Peppol Response"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol-vastaus"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_partner__peppol_response_support
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_response_support
 msgid "Peppol Response Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol-vastauspalvelu"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_list
 msgid "Peppol Responses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol-vastaukset"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_message_uuid
 msgid "Peppol UUID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol UUID"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Peppol business response error: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol-yritysvastausvirhe: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model,name:account_peppol_response.model_account_peppol_clarification
 msgid "Peppol clarifications used for rejection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hylkäämiseen käytettävät Peppol-selvennykset"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_move_form
 msgid "Peppol info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol-tiedot"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_state
@@ -710,7 +915,11 @@ msgid "Peppol status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol-tila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol-tila"
 >>>>>>> upstream/18.0
@@ -731,7 +940,11 @@ msgid "Reasons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Syyt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Syyt"
 >>>>>>> upstream/18.0
@@ -749,7 +962,11 @@ msgstr "Syyt"
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Reasons:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Syyt:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__ab
@@ -758,7 +975,11 @@ msgid "Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vastaanotettu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vastaanotettu"
 >>>>>>> upstream/18.0
@@ -777,7 +998,11 @@ msgstr "Vastaanotettu"
 #: code:addons/account_peppol_response/models/account_move.py:0
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Reject Peppol Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hylkää Peppol-asiakirja"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_move__peppol_move_state__re
@@ -786,7 +1011,11 @@ msgid "Rejected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hylätty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hylätty"
 >>>>>>> upstream/18.0
@@ -803,44 +1032,76 @@ msgstr "Hylätty"
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__re
 msgid "Rejection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hylkäys"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
 msgid "Rejection actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hylkäystoiminnot"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
 msgid "Rejection reasons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hylkäysperusteet"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__response_code
 msgid "Response Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vastauskoodi"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Send Rejection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lähetä hylkäys"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Suggested actions:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ehdotetut toiminnot:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_partner__peppol_supported_documents
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_supported_documents
 msgid "Supported Peppol Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tuetut Peppol-asiakirjat"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Supports Invoice Responses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tukee laskuvastauksia"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -849,18 +1110,31 @@ msgid ""
 "The Peppol receiver of this document has rejected it with the following "
 "information:%(br)s%(rejection_message)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tämän asiakirjan Peppol-vastaanottaja on hylännyt sen seuraavin tiedoin:%(br)"
+"s%(rejection_message)s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has accepted it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tämän asiakirjan Peppol-vastaanottaja vastasi hyväksyneensä sen."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has received it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tämän asiakirjan Peppol-vastaanottaja vastasi vastaanottaneensa sen."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,help:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
@@ -869,6 +1143,12 @@ msgid ""
 "document to be accepted when sent again (eventually). These will be sent to "
 "the document's sender. Not mandatory."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Asiakirjan lähettäjälle ehdotettavat toiminnot, jotta asiakirjan hyväksytään "
+"uudelleen lähetettäessä (lopulta). Nämä lähetetään asiakirjan lähettäjälle. "
+"Ei pakollinen."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields,help:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
@@ -876,11 +1156,20 @@ msgid ""
 "The reasons to reject the received PEPPOL document. These will be sent to "
 "the document's sender."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vastaanotetun PEPPOL-asiakirjan hylkäyksen syyt. Nämä lähetetään asiakirjan "
+"lähettäjälle."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__uq
 msgid "Under query"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selvitettävänä"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
@@ -890,7 +1179,11 @@ msgid "accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "hyväksytty"
+>>>>>>> upstream/18.0
 =======
 msgstr "hyväksytty"
 >>>>>>> upstream/18.0
@@ -908,10 +1201,18 @@ msgstr "hyväksytty"
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vastaanotettu"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #. odoo-python
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "rejected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "hylätty"
+>>>>>>> upstream/18.0

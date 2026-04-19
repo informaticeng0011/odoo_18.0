@@ -346,6 +346,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    htmlEscape,
+>>>>>>> upstream/18.0
 =======
     htmlEscape,
 >>>>>>> upstream/18.0
@@ -1741,11 +1745,14 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const { embed_url: src } = await this._serviceRpc(
                 '/web_editor/video_url/data',
                 { video_url: url },
             );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2167,6 +2174,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2692,6 +2702,10 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            disableTransform: this.options.disableTransform,
+>>>>>>> upstream/18.0
 =======
             disableTransform: this.options.disableTransform,
 >>>>>>> upstream/18.0
@@ -3776,6 +3790,12 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (localization.direction === "rtl") {
+                this.odooEditor.document.body.setAttribute("is-rtl-backend", "true");
+            }
+>>>>>>> upstream/18.0
 =======
             if (localization.direction === "rtl") {
                 this.odooEditor.document.body.setAttribute("is-rtl-backend", "true");
@@ -5010,12 +5030,15 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     && $target[0].isContentEditable
                     && !$target.attr('data-oe-model')
                     && !$target.find('> [data-oe-model]').length
                     && !$target[0].closest('.o_extra_menu_items')
                     && $target[0].isContentEditable) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5335,6 +5358,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6372,7 +6398,10 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6887,6 +6916,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7416,6 +7448,10 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    this.odooEditor.observerActive("undo_redo_header");
+>>>>>>> upstream/18.0
 =======
                     this.odooEditor.observerActive("undo_redo_header");
 >>>>>>> upstream/18.0
@@ -8645,7 +8681,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _onMediaDialogSave(params, element) {
+=======
+    async _onMediaDialogSave(params, element) {
+>>>>>>> upstream/18.0
 =======
     async _onMediaDialogSave(params, element) {
 >>>>>>> upstream/18.0
@@ -9779,8 +9819,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (params.node) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10440,8 +10483,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         $element.trigger(event);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10668,6 +10714,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11103,6 +11152,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11958,6 +12010,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            await saveCallback(element);
+            this.odooEditor.historyUnpauseSteps();
+>>>>>>> upstream/18.0
 =======
             await saveCallback(element);
             this.odooEditor.historyUnpauseSteps();
@@ -13388,8 +13445,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const result = this.odooEditor.execCommand('insert', element);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14238,6 +14298,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15087,6 +15150,7 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if (this.state.showSnippetsMenu) {
             this.snippetsMenuBus.trigger("ACTIVATE_SNIPPET", {
@@ -15098,6 +15162,8 @@ export class Wysiwyg extends Component {
                 }
             });
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16035,7 +16101,13 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !(ev.clickEvent && ev.clickEvent.__isColorpickerClick);
+=======
+        const shouldHide = !(ev.clickEvent && this._isColorpickerClick);
+        delete this._isColorpickerClick;
+        return shouldHide;
+>>>>>>> upstream/18.0
 =======
         const shouldHide = !(ev.clickEvent && this._isColorpickerClick);
         delete this._isColorpickerClick;
@@ -16787,6 +16859,7 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.odooEditor.automaticStepSkipStack();
             // Select the media in the DOM.
             const selection = this.odooEditor.document.getSelection();
@@ -16805,6 +16878,8 @@ export class Wysiwyg extends Component {
             this._updateMediaJustifyButton();
             this._updateFaResizeButtons();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17142,6 +17217,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17757,7 +17835,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${_t(title)}">${emoji}</i>
+=======
+                        <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${htmlEscape(title)}">${emoji}</i>
+>>>>>>> upstream/18.0
 =======
                         <i class="o_editor_banner_icon mb-3 fst-normal" aria-label="${htmlEscape(title)}">${emoji}</i>
 >>>>>>> upstream/18.0
@@ -18983,7 +19065,10 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19929,6 +20014,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20888,12 +20976,18 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const categories = [{ name: _t('Banners'), priority: 65 },];
         const commands = [
             this._getBannerCommand(_t('Banner Info'), '💡', 'info', 'fa-info-circle', _t('Insert an info banner'), 24),
             this._getBannerCommand(_t('Banner Success'), '✅', 'success', 'fa-check-circle', _t('Insert a success banner'), 23),
             this._getBannerCommand(_t('Banner Warning'), '⚠️', 'warning', 'fa-exclamation-triangle', _t('Insert a warning banner'), 22),
             this._getBannerCommand(_t('Banner Danger'), '❌', 'danger', 'fa-exclamation-circle', _t('Insert a danger banner'), 21),
+=======
+        const categories = [...this._getBannerCategory()];
+        const commands = [
+            ...this._getBannerCommands(),
+>>>>>>> upstream/18.0
 =======
         const categories = [...this._getBannerCategory()];
         const commands = [
@@ -22958,8 +23052,11 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (this.options.autohideToolbar && !this.odooEditor.document.getSelection().isCollapsed) ||
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23279,6 +23376,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23607,6 +23707,12 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (e.target.closest(".o_colorpicker_widget")) {
+            this._isColorpickerClick = true;
+        }
+>>>>>>> upstream/18.0
 =======
         if (e.target.closest(".o_colorpicker_widget")) {
             this._isColorpickerClick = true;
@@ -24877,6 +24983,7 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         newAttachmentSrc = await this._serviceRpc(
             `/web_editor/modify_image/${encodeURIComponent(el.dataset.originalId)}`,
             {
@@ -24889,6 +24996,8 @@ export class Wysiwyg extends Component {
             },
         );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25369,6 +25478,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25841,10 +25953,13 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             el.setAttribute('src', newAttachmentSrc);
             // Also update carousel thumbnail.
             weUtils.forwardToThumbnail(el);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26317,6 +26432,9 @@ export class Wysiwyg extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
