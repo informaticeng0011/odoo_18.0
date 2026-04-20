@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component } from "@odoo/owl";
 =======
 import { Component, onMounted, onWillUpdateProps, useRef } from "@odoo/owl";
@@ -239,6 +240,9 @@ import { Component, onMounted, useEffect, useExternalListener, useRef } from "@o
 =======
 import { Component, onMounted, useEffect, useExternalListener, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
+=======
+import { Component, onMounted, useEffect, useExternalListener, useRef } from "@odoo/owl";
+>>>>>>> upstream/18.0
 import { Dropdown } from "@web/core/dropdown/dropdown";
 import { DropdownItem } from "@web/core/dropdown/dropdown_item";
 import { _t } from "@web/core/l10n/translation";
@@ -254,6 +258,7 @@ export class TableMenu extends Component {
         addRow: Function,
         removeRow: Function,
         resetTableSize: Function,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +449,8 @@ export class TableMenu extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         close: Function,
         dropdownState: Object,
         target: { validate: (el) => el.nodeType === Node.ELEMENT_NODE },
@@ -499,6 +506,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -608,6 +618,7 @@ export class TableMenu extends Component {
     static components = { Dropdown, DropdownItem };
 
     setup() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1194,6 +1205,8 @@ export class TableMenu extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this.dropdownRef = useRef("dropdown");
         onMounted(() => {
             this.overlayEl = this.dropdownRef.el;
@@ -1219,6 +1232,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1284,6 +1300,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1397,6 +1416,7 @@ export class TableMenu extends Component {
         );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1732,6 +1752,8 @@ export class TableMenu extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     updatePosition() {
         const { target, type, direction } = this.props;
         if (!this.overlayEl || !target) {
@@ -1740,6 +1762,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1820,6 +1845,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1980,11 +2008,14 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ? targetRect.left - containerRect.left
                 : containerRect.right - targetRect.right;
             Object.assign(this.overlayEl.style, {
                 top: `${targetRect.top - containerRect.top}px`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2143,6 +2174,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2313,6 +2347,9 @@ export class TableMenu extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -50,7 +50,10 @@ class TestRefundFlows(StripeCommon, PaymentHttpCommon):
             self._make_json_request(url, data=self.canceled_refund_notification_data)
         self.assertEqual(handle_notification_data_mock.call_count, 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @mute_logger('odoo.addons.payment_stripe.controllers.main')
     def test_void_webhook_notification_does_not_trigger_processing(self):
@@ -67,4 +70,7 @@ class TestRefundFlows(StripeCommon, PaymentHttpCommon):
             self._make_json_request(url, data=self.void_payment_data)
         self.assertEqual(handle_notification_data_mock.call_count, 0)
         self.assertFalse(tx.child_transaction_ids)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

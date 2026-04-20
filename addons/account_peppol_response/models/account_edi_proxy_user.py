@@ -179,12 +179,15 @@ class AccountEdiProxyClientUser(models.Model):
         for uuid, content in messages.items():
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if content['document_type'] != 'ApplicationResponse':
                 other_messages[uuid] = content
                 continue
 
             peppol_response = uuid_to_record[uuid]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             record = uuid_to_record[uuid]
@@ -195,6 +198,9 @@ class AccountEdiProxyClientUser(models.Model):
 
             peppol_response = record
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

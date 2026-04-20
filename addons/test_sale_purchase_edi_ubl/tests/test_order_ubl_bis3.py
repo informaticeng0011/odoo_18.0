@@ -197,6 +197,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'discount': 10.0,
+>>>>>>> upstream/18.0
 =======
                 'discount': 10.0,
 >>>>>>> upstream/18.0
@@ -759,6 +763,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'discount': 0.0,
+>>>>>>> upstream/18.0
 =======
                 'discount': 0.0,
 >>>>>>> upstream/18.0
@@ -1334,6 +1342,10 @@ class TestOrderEdiUbl(TestAccountEdiUblCii):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            line['discount'] = 0.0
+>>>>>>> upstream/18.0
 =======
             line['discount'] = 0.0
 >>>>>>> upstream/18.0

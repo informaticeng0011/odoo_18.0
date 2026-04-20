@@ -137,6 +137,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 =======
 import logging
 >>>>>>> upstream/18.0
@@ -686,6 +690,11 @@ from odoo.tools.lru import LRU
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_logger = logging.getLogger(__name__)
+
+>>>>>>> upstream/18.0
 =======
 _logger = logging.getLogger(__name__)
 
@@ -1410,8 +1419,12 @@ class Driver(Thread, metaclass=DriverMetaClass):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :param data: the `_actions` key mapped to the action method we want to call
         :type data: string
+=======
+        :param dict data: the `_actions` key mapped to the action method we want to call
+>>>>>>> upstream/18.0
 =======
         :param dict data: the `_actions` key mapped to the action method we want to call
 >>>>>>> upstream/18.0
@@ -1963,6 +1976,7 @@ class Driver(Thread, metaclass=DriverMetaClass):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _check_idempotency(self, iot_idempotent_id, session_id):
         """
         Some IoT requests for the same action might be received several times.
@@ -1975,6 +1989,8 @@ class Driver(Thread, metaclass=DriverMetaClass):
         cache = self._iot_idempotent_ids_cache
         if iot_idempotent_id in cache:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2400,6 +2416,9 @@ class Driver(Thread, metaclass=DriverMetaClass):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

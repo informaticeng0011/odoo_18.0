@@ -442,6 +442,7 @@ TRANSLATED_ELEMENTS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRANSLATED_ATTRS = dict.fromkeys({
     'string', 'add-label', 'help', 'sum', 'avg', 'confirm', 'placeholder', 'alt', 'title', 'aria-label',
     'aria-keyshortcuts', 'aria-placeholder', 'aria-roledescription', 'aria-valuetext',
@@ -1011,10 +1012,13 @@ TRANSLATED_ATTRS = dict.fromkeys({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # ⚠ Note that it implicitly includes their t-attf-* equivalent.
 TRANSLATED_ATTRS = dict.fromkeys({
     'string', 'add-label', 'help', 'sum', 'avg', 'confirm', 'placeholder', 'alt', 'title', 'aria-label',
     'aria-keyshortcuts', 'aria-placeholder', 'aria-roledescription', 'aria-valuetext',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1994,6 +1998,9 @@ TRANSLATED_ATTRS = dict.fromkeys({
 =======
     'value_label', 'data-tooltip', 'label', 'cancel-label', 'confirm-label', 'confirm-title',
 >>>>>>> upstream/18.0
+=======
+    'value_label', 'data-tooltip', 'label', 'cancel-label', 'confirm-label', 'confirm-title',
+>>>>>>> upstream/18.0
 }, lambda e: True)
 
 def translate_attrib_value(node):
@@ -2295,7 +2302,10 @@ TRANSLATED_ATTRS.update(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3155,6 +3165,9 @@ OWL_TRANSLATED_ATTRS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3802,6 +3815,7 @@ def translate_xml_node(node, callback, parse, serialize):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def translatable(node):
         """ Return whether the given node can be translated as a whole. """
         return (
@@ -3818,6 +3832,8 @@ def translate_xml_node(node, callback, parse, serialize):
 
     def hastext(node, pos=0):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4034,6 +4050,9 @@ def translate_xml_node(node, callback, parse, serialize):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4232,6 +4251,10 @@ def translate_xml_node(node, callback, parse, serialize):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        force_inline = force_inline or is_force_inline(node)
+>>>>>>> upstream/18.0
 =======
         force_inline = force_inline or is_force_inline(node)
 >>>>>>> upstream/18.0
@@ -4497,7 +4520,11 @@ def translate_xml_node(node, callback, parse, serialize):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and translatable(node[pos])
+=======
+                and translatable(node[pos], force_inline)
+>>>>>>> upstream/18.0
 =======
                 and translatable(node[pos], force_inline)
 >>>>>>> upstream/18.0
@@ -4764,9 +4791,15 @@ def translate_xml_node(node, callback, parse, serialize):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     or hastext(node[pos])
                     # node[pos] has no text, but there is some text after it
                     or hastext(node, pos + 1)
+=======
+                    or hastext(node[pos], 0, force_inline)
+                    # node[pos] has no text, but there is some text after it
+                    or hastext(node, pos + 1, force_inline)
+>>>>>>> upstream/18.0
 =======
                     or hastext(node[pos], 0, force_inline)
                     # node[pos] has no text, but there is some text after it
@@ -5180,7 +5213,11 @@ def translate_xml_node(node, callback, parse, serialize):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 while pos < len(node) and translatable(node[pos]):
+=======
+                while pos < len(node) and translatable(node[pos], is_force_inline(node)):
+>>>>>>> upstream/18.0
 =======
                 while pos < len(node) and translatable(node[pos], is_force_inline(node)):
 >>>>>>> upstream/18.0
@@ -6139,8 +6176,14 @@ def _push(callback, term, source_line):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     # Avoid non-char tokens like ':' '...' '.00' etc.
     if len(term) > 8 or any(x.isalpha() for x in term):
+=======
+    # We only want to export strings that are likely to be translated.
+    # We avoid exporting strings that contain no letters, like `:`, `...`, `.00`, etc.
+    if any(x.isalpha() for x in term):
+>>>>>>> upstream/18.0
 =======
     # We only want to export strings that are likely to be translated.
     # We avoid exporting strings that contain no letters, like `:`, `...`, `.00`, etc.
@@ -6241,6 +6284,7 @@ def _extract_translatable_qweb_terms(element, callback):
             # component nodes
             is_component = el.tag[0].isupper() or "t-component" in el.attrib or "t-set-slot" in el.attrib
             for attr in el.attrib:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7374,6 +7418,9 @@ def _extract_translatable_qweb_terms(element, callback):
 =======
                 if (not is_component and attr in OWL_TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
 >>>>>>> upstream/18.0
+=======
+                if (not is_component and attr in OWL_TRANSLATED_ATTRS) or (is_component and attr.endswith(".translate")):
+>>>>>>> upstream/18.0
                     _push(callback, el.attrib[attr], el.sourceline)
             _extract_translatable_qweb_terms(el, callback)
         _push(callback, el.tail, el.sourceline)
@@ -7499,6 +7546,7 @@ class TranslationReader:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # empty and one-letter terms are ignored, they probably are not meant to be
         # translated, and would be very hard to translate anyway.
         sanitized_term = (source or '').strip()
@@ -7508,6 +7556,8 @@ class TranslationReader:
             return
         self._to_translate.append((module, source, name, res_id, ttype, tuple(comments or ()), record_id, value))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7555,6 +7605,9 @@ class TranslationReader:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8140,6 +8193,7 @@ class TranslationImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         for lang in langs:
                             # translate and confirm model_terms translations
                             values[lang] = field.translate(lambda term: translation_dictionary.get(term, {}).get(lang), _value_en)
@@ -8150,6 +8204,8 @@ class TranslationImporter:
                             UPDATE "{model_table}" AS m
                             SET "{field_name}" =  t.value
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8533,6 +8589,9 @@ class TranslationImporter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9145,7 +9204,11 @@ def get_po_paths(module_name: str, lang: str, env: odoo.api.Environment | None =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     lang_base = lang.split('_')[0]
+=======
+    lang_base = lang.split('_', 1)[0]
+>>>>>>> upstream/18.0
 =======
     lang_base = lang.split('_', 1)[0]
 >>>>>>> upstream/18.0
@@ -10163,12 +10226,15 @@ def get_po_paths(module_name: str, lang: str, env: odoo.api.Environment | None =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     po_paths = [
         join(module_name, dir_, filename + '.po')
         for filename in OrderedSet(po_names)
         for dir_ in ('i18n', 'i18n_extra')
     ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10930,6 +10996,9 @@ def get_po_paths(module_name: str, lang: str, env: odoo.api.Environment | None =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11746,7 +11815,11 @@ def _get_translation_upgrade_queries(cr, field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         query = "DELETE FROM _ir_translation WHERE type = 'model' AND name = %s"
+=======
+        query = "DELETE FROM _ir_translation WHERE type = 'model' AND state = 'translated' AND name = %s"
+>>>>>>> upstream/18.0
 =======
         query = "DELETE FROM _ir_translation WHERE type = 'model' AND state = 'translated' AND name = %s"
 >>>>>>> upstream/18.0
@@ -12640,7 +12713,11 @@ def _get_translation_upgrade_queries(cr, field):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         query = "DELETE FROM _ir_translation WHERE type = 'model_terms' AND name = %s"
+=======
+        query = "DELETE FROM _ir_translation WHERE type = 'model_terms' AND state = 'translated' AND name = %s"
+>>>>>>> upstream/18.0
 =======
         query = "DELETE FROM _ir_translation WHERE type = 'model_terms' AND state = 'translated' AND name = %s"
 >>>>>>> upstream/18.0

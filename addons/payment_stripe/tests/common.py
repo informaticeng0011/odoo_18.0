@@ -59,7 +59,10 @@ class StripeCommon(PaymentCommon):
             'type': 'charge.refunded'
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.void_payment_data = {
             'data': {
                 'object': {
@@ -69,6 +72,9 @@ class StripeCommon(PaymentCommon):
             },
             'type': 'charge.refunded',
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         cls.canceled_refund_notification_data = {
             'data': {

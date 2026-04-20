@@ -258,6 +258,10 @@ import { PosOrderline } from "@point_of_sale/app/models/pos_order_line";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { PosOrder } from "@point_of_sale/app/models/pos_order";
+>>>>>>> upstream/18.0
 =======
 import { PosOrder } from "@point_of_sale/app/models/pos_order";
 >>>>>>> upstream/18.0
@@ -1314,7 +1318,10 @@ patch(PosOrderline.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2096,6 +2103,9 @@ patch(PosOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

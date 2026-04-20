@@ -234,6 +234,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
+>>>>>>> upstream/18.0
 =======
         cls.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
 >>>>>>> upstream/18.0
@@ -970,7 +974,11 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'BE15001559627230'})],
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'BE15001559627230', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [(0, 0, {'acc_number': 'BE15001559627230', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -1243,7 +1251,11 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'BE90735788866632'})],
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'BE90735788866632', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [(0, 0, {'acc_number': 'BE90735788866632', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -1544,7 +1556,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1703,6 +1718,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1950,6 +1968,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+>>>>>>> upstream/18.0
 =======
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
 >>>>>>> upstream/18.0
@@ -2371,6 +2393,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
             invoice.ubl_cii_xml_id,
             xpaths=f'''
                 <xpath expr="./*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3079,6 +3102,8 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='InvoiceLine'][1]/*[local-name()='ID']" position="replace">
@@ -3323,6 +3348,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3797,6 +3825,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(attachment.name[-12:], "ubl_bis3.xml")
         self._assert_imported_invoice_from_etree(invoice, attachment)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5092,6 +5121,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
     def test_export_import_refund(self):
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
 >>>>>>> upstream/18.0
+=======
+    def test_export_import_refund(self):
+        self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
+>>>>>>> upstream/18.0
         refund = self._generate_move(
             self.partner_1,
             self.partner_2,
@@ -5125,6 +5158,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
             refund.ubl_cii_xml_id,
             xpaths=f'''
                 <xpath expr="./*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5833,6 +5867,8 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
                 </xpath>
                 <xpath expr="./*[local-name()='PaymentMeans']/*[local-name()='PaymentID']" position="replace">
@@ -6077,6 +6113,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6551,6 +6590,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         self.assertEqual(attachment.name[-12:], "ubl_bis3.xml")
         self._assert_imported_invoice_from_etree(refund, attachment)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9628,6 +9668,8 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_encoding_in_attachment_ubl(self):
         invoice = self._generate_move(
             seller=self.partner_1,
@@ -9637,6 +9679,7 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
         )
         self._test_encoding_in_attachment(invoice.ubl_cii_xml_id, 'ubl_bis3.xml')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17686,6 +17729,8 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     ####################################################
     # Test import
     ####################################################
@@ -17808,6 +17853,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -18095,6 +18144,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env['res.partner'].search([('vat', '=', 'BE0246697724'), ('id', '!=', self.company_data['company'].id)]).vat = False  # clean demo company to avoid picking it as a partner
+>>>>>>> upstream/18.0
 =======
         self.env['res.partner'].search([('vat', '=', 'BE0246697724'), ('id', '!=', self.company_data['company'].id)]).vat = False  # clean demo company to avoid picking it as a partner
 >>>>>>> upstream/18.0
@@ -18325,7 +18378,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18483,6 +18539,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18627,7 +18686,11 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'invoice_lines': [{'price_subtotal': x} for x in (200, -200, 3999, 1, 1000, 899, 1)],
+=======
+                'invoice_lines': [{'price_subtotal': x} for x in (200, -200, 4000, 1000, 900)],
+>>>>>>> upstream/18.0
 =======
                 'invoice_lines': [{'price_subtotal': x} for x in (200, -200, 4000, 1000, 900)],
 >>>>>>> upstream/18.0
@@ -18812,7 +18875,10 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19012,6 +19078,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19163,7 +19232,11 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'invoice_lines': [{'price_subtotal': 1200}],
+=======
+                'invoice_lines': [{'price_subtotal': 1200.0}],
+>>>>>>> upstream/18.0
 =======
                 'invoice_lines': [{'price_subtotal': 1200.0}],
 >>>>>>> upstream/18.0
@@ -19338,12 +19411,15 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         (-4, self.tax_6),
                         (-48, tax_21),
                         (52, self.tax_0),
                         (200, self.tax_6),
                         (2400, tax_21),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19394,6 +19470,9 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19535,8 +19614,13 @@ class TestUBLBE(TestUBLCommon, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_total': 3630,
                 'amount_tax': 630,
+=======
+                'amount_total': 3630.0,
+                'amount_tax': 630.0,
+>>>>>>> upstream/18.0
 =======
                 'amount_total': 3630.0,
                 'amount_tax': 630.0,

@@ -325,6 +325,7 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kit_lines = self.filtered(lambda move_line: move_line.move_id.bom_line_id.bom_id.type == 'phantom')
 =======
         kit_lines = self.filtered(lambda ml: ml.move_id.bom_line_id.bom_id.type == 'phantom' and ml.move_id.product_packaging_id)
@@ -357,6 +358,8 @@ class StockMoveLine(models.Model):
         kit_lines = self.filtered(lambda ml: ml.move_id.bom_line_id.bom_id.type == 'phantom' and ml.move_id.product_packaging_id)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1048,6 +1051,9 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1748,9 +1754,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # calculate the quantity needed of packging
             move_line.product_packaging_qty = (qty_bom_uom / (bom_line.product_qty / bom_qty_product_uom)) / move_line.move_id.product_packaging_id.qty
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2214,6 +2223,7 @@ class StockMoveLine(models.Model):
             # calculate the number of kit on the move line according to the number of comp
             kit_qty = qty_bom_uom / kit_ratio
             # calculate the quantity needed of packaging
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3020,6 +3030,9 @@ class StockMoveLine(models.Model):
 =======
             move_line.product_packaging_qty = move_line.move_id.product_packaging_id._compute_qty(kit_qty)
 >>>>>>> upstream/18.0
+=======
+            move_line.product_packaging_qty = move_line.move_id.product_packaging_id._compute_qty(kit_qty)
+>>>>>>> upstream/18.0
         super(StockMoveLine, self - kit_lines)._compute_product_packaging_qty()
 
     @api.model
@@ -3305,9 +3318,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             line['packaging_qty'] = line['packaging']._compute_qty(kit_qty_ordered, bom_id.product_uom_id)
             line['packaging_quantity'] = line['packaging']._compute_qty(kit_qty_done, bom_id.product_uom_id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4072,6 +4088,9 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4860,6 +4879,12 @@ class StockMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _exclude_requiring_lot(self):
+        return (self.move_id.unbuild_id and not self.move_id.origin_returned_move_id.move_line_ids.lot_id) or super()._exclude_requiring_lot()
+
+>>>>>>> upstream/18.0
 =======
     def _exclude_requiring_lot(self):
         return (self.move_id.unbuild_id and not self.move_id.origin_returned_move_id.move_line_ids.lot_id) or super()._exclude_requiring_lot()
@@ -6035,7 +6060,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Cost Share (%)", digits=(5, 2),  # decimal = 2 is important for rounding calculations!!
+=======
+        "Cost Share (%)", digits=0,
+>>>>>>> upstream/18.0
 =======
         "Cost Share (%)", digits=0,
 >>>>>>> upstream/18.0
@@ -6597,6 +6626,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if not values.get('location_final_id'):
+                    values['location_final_id'] = mo.warehouse_id.lot_stock_id.id
+>>>>>>> upstream/18.0
 =======
                 if not values.get('location_final_id'):
                     values['location_final_id'] = mo.warehouse_id.lot_stock_id.id
@@ -7527,6 +7561,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if not self.env.context.get('auto_conso') and any(cmd[0] == Command.CREATE for cmd in vals.get('move_line_ids', [])):
             vals['manual_consumption'] = True
@@ -7623,6 +7658,8 @@ class StockMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7636,6 +7673,9 @@ class StockMove(models.Model):
             vals['picked'] = True
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7663,6 +7703,7 @@ class StockMove(models.Model):
         for move in self:
             if float_compare(move.product_uom_qty - old_qties.get(move.id, 0), 0, precision_rounding=move.product_uom.rounding) < 0\
                     and move.procure_method == 'make_to_order'\
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7988,6 +8029,9 @@ class StockMove(models.Model):
 =======
                     and move.move_orig_ids and all(m.state == 'done' for m in move.move_orig_ids):
 >>>>>>> upstream/18.0
+=======
+                    and move.move_orig_ids and all(m.state == 'done' for m in move.move_orig_ids):
+>>>>>>> upstream/18.0
                 continue
             if float_compare(move.product_uom_qty, 0, precision_rounding=move.product_uom.rounding) > 0:
                 if move._should_bypass_reservation() \
@@ -7995,6 +8039,7 @@ class StockMove(models.Model):
                         or (move.reservation_date and move.reservation_date <= fields.Date.today()):
                     to_assign |= move
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8501,6 +8546,8 @@ class StockMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if move.procure_method == 'make_to_order' or move.rule_id.procure_method == 'mts_else_mto':
                 procurement_qty = move.product_uom_qty - old_qties.get(move.id, 0)
                 if move.move_orig_ids:
@@ -8586,6 +8633,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8779,6 +8829,7 @@ class StockMove(models.Model):
         return super(StockMove, moves)._action_done(cancel_backorder)
 
     def _should_bypass_reservation(self, forced_location=False):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9872,6 +9923,9 @@ class StockMove(models.Model):
 =======
         return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
 >>>>>>> upstream/18.0
+=======
+        return super()._should_bypass_reservation(forced_location) or self.product_id.with_company(self.company_id).is_kits
+>>>>>>> upstream/18.0
 
     def action_explode(self):
         """ Explodes pickings """
@@ -9981,11 +10035,15 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for bom_line, line_data in lines:
                 if float_is_zero(move.product_uom_qty, precision_rounding=move.product_uom.rounding) or self.env.context.get('is_scrap'):
                     phantom_moves_vals_list += move._generate_move_phantom(bom_line, 0, line_data['qty'])
                 else:
                     phantom_moves_vals_list += move._generate_move_phantom(bom_line, line_data['qty'], 0)
+=======
+            phantom_moves_vals_list += move._generate_all_phantom_moves(lines)
+>>>>>>> upstream/18.0
 =======
             phantom_moves_vals_list += move._generate_all_phantom_moves(lines)
 >>>>>>> upstream/18.0
@@ -10400,7 +10458,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10672,6 +10733,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11160,7 +11224,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11920,6 +11987,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12512,9 +12582,12 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 incoming_qty = sum(bom_line_moves.filtered(filters['incoming_moves']).mapped(get_qty))
                 outgoing_qty = sum(bom_line_moves.filtered(filters['outgoing_moves']).mapped(get_qty))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12639,6 +12712,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

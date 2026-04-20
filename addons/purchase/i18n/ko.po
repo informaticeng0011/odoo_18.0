@@ -202,6 +202,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +211,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * purchase
 #
 >>>>>>> upstream/18.0
 =======
@@ -1229,6 +1234,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -1847,10 +1853,15 @@
 # "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3441,11 +3452,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-04-17 11:30+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/purchase/"
 "ko/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -3654,6 +3670,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4445,6 +4462,10 @@ msgstr ""
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -4471,6 +4492,7 @@ msgstr ""
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5087,6 +5109,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
@@ -5297,6 +5321,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5924,7 +5951,12 @@ msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(product)s 시작일 %(original_receipt_date)s 종료일 %(new_receipt_date)s"
+=======
+msgstr ""
+"%(product)s 시작일 %(original_receipt_date)s 종료일 %(new_receipt_date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%(product)s 시작일 %(original_receipt_date)s 종료일 %(new_receipt_date)s"
@@ -6974,7 +7006,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ", 완전 무료입니다! 매력적인 견적을 작성하고 효율적으로 판매를 추적하여 시간을 절약할 수 있습니다."
+=======
+msgstr ""
+", 완전 무료입니다! 매력적인 견적을 작성하고 효율적으로 판매를 추적하여 시간"
+"을 절약할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 ", 완전 무료입니다! 매력적인 견적을 작성하고 효율적으로 판매를 추적하여 시간"
@@ -8223,6 +8261,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -8234,6 +8273,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8857,6 +8898,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9473,10 +9517,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10091,6 +10138,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10709,6 +10759,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        안녕하세요, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>님.\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
@@ -10722,6 +10773,8 @@ msgstr ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11348,6 +11401,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11964,10 +12020,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12582,6 +12641,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13205,6 +13267,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -13224,6 +13287,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13859,6 +13924,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14477,6 +14545,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        안녕하세요, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>님.\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
@@ -14498,6 +14567,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15135,6 +15206,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15758,6 +15832,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -15765,6 +15840,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16383,6 +16460,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16999,6 +17079,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -17010,6 +17091,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17637,6 +17720,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18254,6 +18340,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        안녕하세요, <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>님.\n"
 "        <t t-if=\"object.partner_id.parent_id\">\n"
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
@@ -18261,6 +18348,8 @@ msgstr ""
 "        <br/><br/>\n"
 "        다음 견적 요청서 첨부 파일을 확인해 주시기 바랍니다:<span style=\"font-weight:bold;\" t-out=\"object.name or ''\">P00015</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18879,6 +18968,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19497,6 +19589,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                수락</a>\n"
 "\n"
@@ -19508,6 +19601,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20135,6 +20230,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20755,7 +20853,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-credit-card me-1\" aria-label=\"매입\" role=\"img\" title=\"매입\"/>"
+=======
+msgstr ""
+"<i class=\"fa fa-credit-card me-1\" aria-label=\"매입\" role=\"img\" "
+"title=\"매입\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-credit-card me-1\" aria-label=\"매입\" role=\"img\" "
@@ -21987,8 +22091,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"완료\" "
 "title=\"완료\"/><span class=\"d-none d-md-inline\"> 완료</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"완료\" title=\"완료"
+"\"/><span class=\"d-none d-md-inline\"> 완료</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"완료\" title=\"완료"
 "\"/><span class=\"d-none d-md-inline\"> 완료</span>"
@@ -23032,8 +23141,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"청구서 대기 중\" "
 "title=\"청구서 대기 중\"/><span class=\"d-none d-md-inline\"> 청구서 대기 중</span>"
+=======
+"<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"청구서 대기 중"
+"\" title=\"청구서 대기 중\"/><span class=\"d-none d-md-inline\"> 청구서 대기 "
+"중</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"청구서 대기 중"
 "\" title=\"청구서 대기 중\"/><span class=\"d-none d-md-inline\"> 청구서 대기 "
@@ -24265,8 +24380,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"취소됨\" "
 "title=\"취소됨\"/><span class=\"d-none d-md-inline\"> 취소됨</span>"
+=======
+"<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"취소됨\" title=\"취"
+"소됨\"/><span class=\"d-none d-md-inline\"> 취소됨</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"취소됨\" title=\"취"
 "소됨\"/><span class=\"d-none d-md-inline\"> 취소됨</span>"
@@ -25297,7 +25417,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
@@ -26343,12 +26468,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">견적서 요청 </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">발주서 </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26967,6 +27095,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27601,8 +27732,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted\" invisible=\"not mail_reminder_confirmed\">(공급업체 "
 "확인 완료)</span>"
+=======
+"<span class=\"text-muted\" invisible=\"not mail_reminder_confirmed\">(공급업"
+"체 확인 완료)</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\" invisible=\"not mail_reminder_confirmed\">(공급업"
 "체 확인 완료)</span>"
@@ -28725,6 +28861,7 @@ msgstr "<strong class=\"d-block mb-1\">청구서</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -28733,6 +28870,11 @@ msgstr "<strong class=\"d-block mb-1\">청구서</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">배송지 주소:</strong>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
@@ -30333,6 +30475,7 @@ msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -30342,6 +30485,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">배송지 주소</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"d-block mt-3\">배송지 주소</strong>"
@@ -32016,6 +32164,7 @@ msgstr "<strong>견적 요청일:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>배송지 주소 :</strong>"
@@ -32026,6 +32175,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr "<strong>배송지 주소</strong>"
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32813,7 +32964,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "포괄 구매 주문은 구매자와 공급업체가 지정된 기간 동안 미리 정해진 가격으로 상품이나 서비스를 납품하기로 하는 계약입니다."
+=======
+msgstr ""
+"포괄 구매 주문은 구매자와 공급업체가 지정된 기간 동안 미리 정해진 가격으로 상"
+"품이나 서비스를 납품하기로 하는 계약입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "포괄 구매 주문은 구매자와 공급업체가 지정된 기간 동안 미리 정해진 가격으로 상"
@@ -34055,7 +34212,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "구매 발주 시 패키지 유형을 선택하고 패키지 당 단위 수의 배수로 수량을 지정할 수 있습니다."
+=======
+msgstr ""
+"구매 발주 시 패키지 유형을 선택하고 패키지 당 단위 수의 배수로 수량을 지정할 "
+"수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "구매 발주 시 패키지 유형을 선택하고 패키지 당 단위 수의 배수로 수량을 지정할 "
@@ -35296,7 +35459,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 =======
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
@@ -36445,7 +36613,12 @@ msgid "Allow automatically send email to remind your vendor the receipt date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "공급업체에게 입고일을 주지시키기 위한 이메일을 자동 전송하도록 허용합니다."
+=======
+msgstr ""
+"공급업체에게 입고일을 주지시키기 위한 이메일을 자동 전송하도록 허용합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "공급업체에게 입고일을 주지시키기 위한 이메일을 자동 전송하도록 허용합니다."
@@ -37568,7 +37741,12 @@ msgid "Automatically lock confirmed orders to prevent editing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "확정된 주문을 자동으로 잠금 처리하여 내용이 변경되지 않도록 방지합니다."
+=======
+msgstr ""
+"확정된 주문을 자동으로 잠금 처리하여 내용이 변경되지 않도록 방지합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "확정된 주문을 자동으로 잠금 처리하여 내용이 변경되지 않도록 방지합니다."
@@ -38602,7 +38780,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "정확한 날짜를 확정하도록 예상 입고일 전 공급업체에 자동으로 이메일을 보냅니다."
+=======
+msgstr ""
+"정확한 날짜를 확정하도록 예상 입고일 전 공급업체에 자동으로 이메일을 보냅니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "정확한 날짜를 확정하도록 예상 입고일 전 공급업체에 자동으로 이메일을 보냅니"
@@ -40093,7 +40277,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "측정 단위 간의 변환은 동일한 카테고리에 속한 경우에만 가능합니다. 변환은 비율에 따라 이루어집니다."
+=======
+msgstr ""
+"측정 단위 간의 변환은 동일한 카테고리에 속한 경우에만 가능합니다. 변환은 비율"
+"에 따라 이루어집니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "측정 단위 간의 변환은 동일한 카테고리에 속한 경우에만 가능합니다. 변환은 비율"
@@ -41442,7 +41632,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "제품 및 인보이스에 적용된 판매 가격에 세금이 포함되는지 여부에 대한 기본 설정입니다."
+=======
+msgstr ""
+"제품 및 인보이스에 적용된 판매 가격에 세금이 포함되는지 여부에 대한 기본 설정"
+"입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "제품 및 인보이스에 적용된 판매 가격에 세금이 포함되는지 여부에 대한 기본 설정"
@@ -42683,7 +42879,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "업체의 예상 배송일입니다. 예상 배송일은 공급업체 가격표 리드타임과 현재 날짜를 기준으로 계산됩니다."
+=======
+msgstr ""
+"업체의 예상 배송일입니다. 예상 배송일은 공급업체 가격표 리드타임과 현재 날짜"
+"를 기준으로 계산됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "업체의 예상 배송일입니다. 예상 배송일은 공급업체 가격표 리드타임과 현재 날짜"
@@ -43914,7 +44116,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "업체에서 약속한 납기일입니다. 관련 품목의 입고 예정일을 결정하는 데 사용합니다."
+=======
+msgstr ""
+"업체에서 약속한 납기일입니다. 관련 품목의 입고 예정일을 결정하는 데 사용합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "업체에서 약속한 납기일입니다. 관련 품목의 입고 예정일을 결정하는 데 사용합니"
@@ -45231,7 +45439,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "견적서 요청 PDF 파일을 Odoo의 견적서 목록으로 끌어다 놓으세요. 자동화를 즐겨보세요!"
+=======
+msgstr ""
+"견적서 요청 PDF 파일을 Odoo의 견적서 목록으로 끌어다 놓으세요. 자동화를 즐겨"
+"보세요!"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "견적서 요청 PDF 파일을 Odoo의 견적서 목록으로 끌어다 놓으세요. 자동화를 즐겨"
@@ -46280,7 +46494,11 @@ msgstr "%s을 포함한 내역 추가"
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__fiscal_position_id
 msgid "Fiscal Position"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "재정 위치"
+=======
+msgstr "재정 포지션"
+>>>>>>> upstream/18.0
 =======
 msgstr "재정 포지션"
 >>>>>>> upstream/18.0
@@ -46557,7 +46775,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "상품이란 상대에게 제공하는 유형적인 자재와 물품을 말합니다. 서비스는 상대에게 제공하는 비물질적 상품입니다."
+=======
+msgstr ""
+"상품이란 상대에게 제공하는 유형적인 자재와 물품을 말합니다. 서비스는 상대에"
+"게 제공하는 비물질적 상품입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "상품이란 상대에게 제공하는 유형적인 자재와 물품을 말합니다. 서비스는 상대에"
@@ -47843,7 +48067,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 기능을 선택하면 거래처 청구서에 3단계 매칭을 활성화합니다. 청구서 금액을 지불하려면 주문한 상품의 수령이 완료되어야 합니다."
+=======
+"이 기능을 선택하면 거래처 청구서에 3단계 매칭을 활성화합니다. 청구서 금액을 "
+"지불하려면 주문한 상품의 수령이 완료되어야 합니다."
+>>>>>>> upstream/18.0
 =======
 "이 기능을 선택하면 거래처 청구서에 3단계 매칭을 활성화합니다. 청구서 금액을 "
 "지불하려면 주문한 상품의 수령이 완료되어야 합니다."
@@ -48870,7 +49099,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 기능을 선택하면, 그리드 항목을 통해 제품의 세부선택 사항이 발주서에 추가됩니다."
+=======
+msgstr ""
+"이 기능을 선택하면, 그리드 항목을 통해 제품의 세부선택 사항이 발주서에 추가됩"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이 기능을 선택하면, 그리드 항목을 통해 제품의 세부선택 사항이 발주서에 추가됩"
@@ -50144,7 +50379,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Incoterm(국제 상업 약관)은 국제 무역 거래에서 사용되는 미리 정의된 상업 용어입니다."
+=======
+msgstr ""
+"Incoterm(국제 상업 약관)은 국제 무역 거래에서 사용되는 미리 정의된 상업 용어"
+"입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Incoterm(국제 상업 약관)은 국제 무역 거래에서 사용되는 미리 정의된 상업 용어"
@@ -51459,8 +51700,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -52556,12 +52802,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
 "공급업체 리드타임에 대한 여유 기간입니다. 시스템이 품목 재구매를 위한 발주서를 생성할 때, 예상치 못한 공급업체 지연에 대처하기 위해 "
 "그 며칠 전에 예약됩니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53177,6 +53426,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53793,12 +54045,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
 msgstr ""
 "공급업체 리드타임에 대한 여유 기간입니다. 시스템이 품목 재구매를 위한 발주서를 생성할 때, 예상치 못한 공급업체 지연에 대처하기 위해 "
 "그 며칠 전에 예약됩니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54414,6 +54669,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54930,6 +55188,7 @@ msgstr "업체명, 사업자 등록번호, 이메일 또는 참조 사항"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -54959,6 +55218,8 @@ msgstr "최신"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/purchase/models/purchase_order.py:0
 msgid "New"
 msgstr "신규"
@@ -54969,6 +55230,9 @@ msgstr "신규"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55325,7 +55589,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "공급업체에서 단가를 받으면, 맞는 가격이 포함된 발주서를 완료할 수 있습니다."
+=======
+msgstr ""
+"공급업체에서 단가를 받으면, 맞는 가격이 포함된 발주서를 완료할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "공급업체에서 단가를 받으면, 맞는 가격이 포함된 발주서를 완료할 수 있습니다."
@@ -56352,7 +56621,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "공급업체에 품목을 발주하려면, 구매요청서를 승인하는 즉시 바로 발주서로 변환됩니다."
+=======
+msgstr ""
+"공급업체에 품목을 발주하려면, 구매요청서를 승인하는 즉시 바로 발주서로 변환됩"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "공급업체에 품목을 발주하려면, 구매요청서를 승인하는 즉시 바로 발주서로 변환됩"
@@ -57694,8 +57969,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "두 개 이상의 구매주문서를 선택하여 최신 견적요청서 및 발송된 견적요청서를 병합합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58312,10 +58590,14 @@ msgid "Please select bill lines with the same vendor."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "동일한 공급업체의 청구서 항목을 선택하세요."
 >>>>>>> upstream/18.0
 =======
 msgstr "동일한 공급업체의 청구서 항목을 선택하세요."
@@ -59520,7 +59802,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "공급 업체에서 고객에게 직접 전달하려는 경우 주소를 입력하십시오. 그렇지 않으면 자신의 회사에 전달하기 위해 비워 두십시오."
+=======
+msgstr ""
+"공급 업체에서 고객에게 직접 전달하려는 경우 주소를 입력하십시오. 그렇지 않으"
+"면 자신의 회사에 전달하기 위해 비워 두십시오."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "공급 업체에서 고객에게 직접 전달하려는 경우 주소를 입력하십시오. 그렇지 않으"
@@ -60944,8 +61232,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -61975,8 +62268,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "공급업체가 보낸 판매 주문 또는 입찰에 대한 참조입니다. 일반적으로 공급업체가 보낸 배송주문서에 참조가 적혀 있으므로 제품 수령 시 일치"
 " 여부를 확인하는 데 사용할 수 있습니다."
+=======
+"공급업체가 보낸 판매 주문 또는 입찰에 대한 참조입니다. 일반적으로 공급업체가 "
+"보낸 배송주문서에 참조가 적혀 있으므로 제품 수령 시 일치 여부를 확인하는 데 "
+"사용할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 "공급업체가 보낸 판매 주문 또는 입찰에 대한 참조입니다. 일반적으로 공급업체가 "
 "보낸 배송주문서에 참조가 적혀 있으므로 제품 수령 시 일치 여부를 확인하는 데 "
@@ -63254,11 +63553,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 msgstr ""
 "견적요청서는 매입하려는 다양한 품목의 가격 정보를 요청하기 위해 공급업체로 발송되는 문서입니다.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63875,6 +64177,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64568,8 +64873,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\"경고\" 옵션을 선택하면 사용자들이 메시지를 받을 수 있습니다. \"차단 메시지\"을 선택하면, 예외가 발생하고 메시지 흐름이 "
 "차단됩니다. 메시지는 다음 필드에 작성되어야 합니다."
+=======
+"\"경고\" 옵션을 선택하면 사용자들이 메시지를 받을 수 있습니다. \"차단 메시지"
+"\"을 선택하면, 예외가 발생하고 메시지 흐름이 차단됩니다. 메시지는 다음 필드"
+"에 작성되어야 합니다."
+>>>>>>> upstream/18.0
 =======
 "\"경고\" 옵션을 선택하면 사용자들이 메시지를 받을 수 있습니다. \"차단 메시지"
 "\"을 선택하면, 예외가 발생하고 메시지 흐름이 차단됩니다. 메시지는 다음 필드"
@@ -65803,7 +66114,11 @@ msgid ""
 "Technical field to filter the available taxes depending on the fiscal "
 "country and fiscal position."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "재정 국가 및 재정 위치에 따라 세금을 필터링할 수 있는 기술 필드입니다."
+=======
+msgstr "재정 국가 및 재정 포지션에 따라 세금을 필터링할 수 있는 기술 필드입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr "재정 국가 및 재정 포지션에 따라 세금을 필터링할 수 있는 기술 필드입니다."
 >>>>>>> upstream/18.0
@@ -66059,7 +66374,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -67089,10 +67409,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
 msgstr "공급업체에서 확정된 견적요청서에 대해 거절하도록 요청했습니다. 승락할 경우, 이 구매발주서를 취소하세요."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67707,6 +68030,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68342,7 +68668,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "청구서를 발행할 항목이 없습니다. 입고 수량을 기준으로 품목을 관리하는 경우, 해당 수량의 입고 여부를 확인하세요."
+=======
+msgstr ""
+"청구서를 발행할 항목이 없습니다. 입고 수량을 기준으로 품목을 관리하는 경우, "
+"해당 수량의 입고 여부를 확인하세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "청구서를 발행할 항목이 없습니다. 입고 수량을 기준으로 품목을 관리하는 경우, "
@@ -69571,11 +69903,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 msgstr ""
 "이와 같은 분석을 통하여 회사의 구매 내역 및 실적을 쉽게 확인하여 분석할 수 있습니다. \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70192,6 +70527,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70819,7 +71157,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "신규 생성된 모든 품목에 기본 값으로 적용됩니다. 품목 세부사항 양식에서 다시 변경할 수 있습니다."
+=======
+msgstr ""
+"신규 생성된 모든 품목에 기본 값으로 적용됩니다. 품목 세부사항 양식에서 다시 "
+"변경할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "신규 생성된 모든 품목에 기본 값으로 적용됩니다. 품목 세부사항 양식에서 다시 "
@@ -72057,8 +72401,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 품목은 %(pack_size).2f%(pack_name)s (으)로 포장됩니다. %(quantity).2f%(unit)s 을(를) "
 "구매해야 합니다."
+=======
+"이 품목은 %(pack_size).2f%(pack_name)s (으)로 포장됩니다. %(quantity).2f%"
+"(unit)s 을(를) 구매해야 합니다."
+>>>>>>> upstream/18.0
 =======
 "이 품목은 %(pack_size).2f%(pack_name)s (으)로 포장됩니다. %(quantity).2f%"
 "(unit)s 을(를) 구매해야 합니다."
@@ -73220,7 +73569,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s 구매발주서를 취소할 수 없습니다. 먼저 관련 공급업체 청구서를 취소해야 합니다."
+=======
+msgstr ""
+"%s 구매발주서를 취소할 수 없습니다. 먼저 관련 공급업체 청구서를 취소해야 합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s 구매발주서를 취소할 수 없습니다. 먼저 관련 공급업체 청구서를 취소해야 합니"
@@ -74610,8 +74965,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "공급업체 청구서는 구매주문건 또는 영수증을 기준으로 미리 생성될 수 있습니다. 이를 통해 Odoo의 초안 문서에 따라 공급업체로부터 받은"
 " 청구서를 관리할 수 있습니다."
+=======
+"공급업체 청구서는 구매주문건 또는 영수증을 기준으로 미리 생성될 수 있습니다. "
+"이를 통해 Odoo의 초안 문서에 따라 공급업체로부터 받은 청구서를 관리할 수 있습"
+"니다."
+>>>>>>> upstream/18.0
 =======
 "공급업체 청구서는 구매주문건 또는 영수증을 기준으로 미리 생성될 수 있습니다. "
 "이를 통해 Odoo의 초안 문서에 따라 공급업체로부터 받은 청구서를 관리할 수 있습"
@@ -75993,7 +76354,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "경고"
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0
@@ -77233,7 +77598,11 @@ msgid "Warnings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "경고"
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0
@@ -78367,6 +78736,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
@@ -78375,6 +78745,8 @@ msgstr ""
 " <i>자동 알림</i> 기능을 활성화할 수 있습니다. 입고 예정일 전에 Odoo에서 공급업체로 이메일을 발송하여 배송일 확정을 요청하고"
 " 혹시 지연될 경우 바로 알려 드립니다. 공급업체 관련 통계를 확인하려면 OTD 비율 항목을 클릭하세요."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78993,6 +79365,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79613,9 +79988,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "발주서를 이메일로 보낼때 Odoo는 공급업체에 주문 수신여부를 요청합니다. 공급업체가 이메일의 버튼을 클릭하여 주문을 승인하면 발주서에 "
 "관련 정보가 추가됩니다. 필터 기능을 사용하면 공급업체가 승인하지 않은 주문을 손쉽게 추적할 수 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80229,6 +80607,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80845,7 +81226,13 @@ msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "업체명, 사업자 등록번호, 이메일 또는 내부 참조 사항으로 공급업체를 검색할 수 있습니다."
+=======
+msgstr ""
+"업체명, 사업자 등록번호, 이메일 또는 내부 참조 사항으로 공급업체를 검색할 수 "
+"있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "업체명, 사업자 등록번호, 이메일 또는 내부 참조 사항으로 공급업체를 검색할 수 "
@@ -82083,7 +82470,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "발주서 내역의 유형을 변경할 수 없습니다. 대신 현재 내역을 삭제하고 적절한 유형의 새 내역을 만들어야 합니다."
+=======
+msgstr ""
+"발주서 내역의 유형을 변경할 수 없습니다. 대신 현재 내역을 삭제하고 적절한 유"
+"형의 새 내역을 만들어야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "발주서 내역의 유형을 변경할 수 없습니다. 대신 현재 내역을 삭제하고 적절한 유"
@@ -83337,7 +83730,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "매칭하거나 업체 청구서를 생성하려면 최소 하나 이상의 구매발주서 내역을 선택해야 합니다."
+=======
+msgstr ""
+"매칭하거나 업체 청구서를 생성하려면 최소 하나 이상의 구매발주서 내역을 선택해"
+"야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "매칭하거나 업체 청구서를 생성하려면 최소 하나 이상의 구매발주서 내역을 선택해"
@@ -84567,12 +84966,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
 "귀하의 견적서에 %(product_company)s 회사의 품목이 포함되어 있으나 견적서는 %(quote_company)s 회사에 대한 견적입니다.\n"
 "견적서 업체명을 변경하거나 다른 업체의 품목을 삭제해주시기 바랍니다 (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85191,6 +85593,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
