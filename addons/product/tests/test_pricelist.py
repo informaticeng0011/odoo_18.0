@@ -87,6 +87,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
 from odoo.fields import Command
 from odoo.tests import tagged, Form
@@ -97,6 +98,8 @@ from odoo.addons.product.tests.common import ProductCommon
 @tagged('post_install', '-at_install')
 class TestPricelist(ProductCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -366,6 +369,9 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -634,7 +640,11 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.sale_pricelist_id = cls.env['product.pricelist'].create({
+=======
+        cls.sale_pricelist_id, cls.pricelist_eu = cls.env['product.pricelist'].create([{
+>>>>>>> upstream/18.0
 =======
         cls.sale_pricelist_id, cls.pricelist_eu = cls.env['product.pricelist'].create([{
 >>>>>>> upstream/18.0
@@ -1006,8 +1016,11 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1271,6 +1284,9 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1625,7 +1641,10 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1940,6 +1959,9 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2241,11 +2263,15 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pricelist_europe = self.env['product.pricelist'].create({
             'name': 'Sale pricelist',
             'country_group_ids': self.env.ref('base.europe').ids,
         })
 
+=======
+        pricelist_europe = self.pricelist_eu
+>>>>>>> upstream/18.0
 =======
         pricelist_europe = self.pricelist_eu
 >>>>>>> upstream/18.0
@@ -2797,7 +2823,10 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3636,6 +3665,7 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3742,6 +3772,8 @@ class TestPricelist(ProductVariantsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4445,6 +4477,7 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4713,6 +4746,8 @@ class TestPricelist(ProductVariantsCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5004,6 +5039,9 @@ class TestPricelist(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

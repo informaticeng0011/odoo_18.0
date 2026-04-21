@@ -121,7 +121,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component } from "@odoo/owl";
+=======
+import { Component, useEffect, useRef } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, useEffect, useRef } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -624,7 +628,10 @@ export class KanbanDropdownMenuWrapper extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -996,6 +1003,9 @@ export class KanbanDropdownMenuWrapper extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

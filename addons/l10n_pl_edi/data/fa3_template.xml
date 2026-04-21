@@ -48,12 +48,19 @@
           <!-- AdresL2: Second line of the address (optional). -->
           <AdresL2 t-if="seller.street2" t-out="seller.street2"/>
         </Adres>
+<<<<<<< HEAD
         <t t-if="seller.email or seller.phone">
         <DaneKontaktowe>
             <Email t-out="seller.email"/>
             <Telefon t-out="seller.phone"/>
         </DaneKontaktowe>
         </t>
+=======
+        <DaneKontaktowe t-if="seller.email or seller.phone">
+          <Email t-if="seller.email" t-out="seller.email"/>
+          <Telefon t-if="seller.phone" t-out="seller.phone"/>
+        </DaneKontaktowe>
+>>>>>>> upstream/18.0
       </Podmiot1>
 
       <!--
@@ -99,6 +106,7 @@
             <AdresL2 t-if="buyer.street2" t-out="buyer.street2"/>
           </Adres>
         </t>
+<<<<<<< HEAD
         <t t-if="buyer.email or buyer.phone">
         <DaneKontaktowe>
             <Email t-out="buyer.email"/>
@@ -106,6 +114,12 @@
         </DaneKontaktowe>
         </t>
 
+=======
+        <DaneKontaktowe t-if="buyer.email or buyer.phone">
+          <Email t-if="buyer.email" t-out="buyer.email"/>
+          <Telefon t-if="buyer.phone" t-out="buyer.phone"/>
+        </DaneKontaktowe>
+>>>>>>> upstream/18.0
             <!-- JST flag: 1=subordinate local gov unit; 2=otherwise. If 1, complete Podmiot3 with NIP/IDWew and role=8 -->
           <JST>2</JST>
 
@@ -202,11 +216,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <P_15 t-out="float_repr(invoice.amount_total_signed, 2)"/>
 
           <!-- KursWalutyZ: Exchange rate of the currency to PLN on the invoice date. TO-CHECK -->
           <KursWalutyZ t-out="invoice.invoice_currency_rate"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -262,6 +279,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

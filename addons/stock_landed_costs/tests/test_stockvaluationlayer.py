@@ -241,9 +241,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form, tagged
 from odoo.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -960,6 +963,9 @@ import time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1718,7 +1724,11 @@ class TestStockValuationLCFIFO(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(in_svl.value, 249.9)
+=======
+        self.assertAlmostEqual(in_svl.value, 250.0, 2)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(in_svl.value, 250.0, 2)
 >>>>>>> upstream/18.0
@@ -2674,7 +2684,10 @@ class TestStockValuationLCFIFOVB(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3474,6 +3487,9 @@ class TestAccountInvoicingWithCOA(TestStockValuationLCCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

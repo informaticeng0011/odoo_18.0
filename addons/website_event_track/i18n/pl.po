@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_event_track
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,10 +482,15 @@
 # * website_event_track
 #
 >>>>>>> upstream/18.0
+=======
+# * website_event_track
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Wil Odoo, 2024
 # Paweł Wodyński <pw@myodoo.pl>, 2024
 # Marta Wacławek, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -930,10 +936,15 @@
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1429,12 +1440,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:39+0000\n"
 "PO-Revision-Date: 2026-04-16 08:39+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "website_event_track/pl/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1443,6 +1459,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1836,6 +1853,11 @@ msgstr ""
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
@@ -2029,6 +2051,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    Dear <t t-out=\"object.partner_id.name or object.partner_name or ''\">Brandon Freeman</t><br/>\n"
 "    We are pleased to inform you that your proposal <t t-out=\"object.name or ''\">What This Event Is All About</t> has been accepted and confirmed for the event <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t>.\n"
 "    <br/>\n"
@@ -2036,6 +2059,8 @@ msgid ""
 "    <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: #FFFFFF; text-decoration: none !important; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2367,6 +2392,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2587,6 +2615,7 @@ msgid ""
 "    Thank you,\n"
 "    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3123,6 +3152,10 @@ msgid ""
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
 "o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 >>>>>>> upstream/18.0
+=======
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 "    </t>\n"
 msgstr ""
 
@@ -3213,7 +3246,11 @@ msgstr "<i class=\"fa fa-ban me-2\"/>Nieopublikowane"
 msgid "<i class=\"fa fa-bell mx-2 text-muted\"/> Favorite Talks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-bell mx-2 text-muted\"/> Ulubione prelekcje"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-bell mx-2 text-muted\"/> Ulubione prelekcje"
 >>>>>>> upstream/18.0
@@ -3224,6 +3261,7 @@ msgstr "<i class=\"fa fa-bell mx-2 text-muted\"/> Ulubione prelekcje"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "<span class=\"d-none d-md-block\">&amp;bull;</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
@@ -3413,6 +3451,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<span class=\"d-none d-md-block\">&amp;bull;</span>"
 
 #. module: website_event_track
@@ -3421,6 +3461,9 @@ msgstr "<span class=\"d-none d-md-block\">&amp;bull;</span>"
 msgid "<span class=\"fa fa-plus me-1\"/> Schedule Tracks"
 msgstr "<span class=\"fa fa-plus me-1\"/> Zaplanuj prelekcje"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3429,6 +3472,7 @@ msgstr "<span class=\"fa fa-plus me-1\"/> Zaplanuj prelekcje"
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid ""
 "<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3751,6 +3795,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-close mr4\" "
 "role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
 "                                    <span "
@@ -3861,6 +3907,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4073,6 +4120,8 @@ msgid ""
 "                                </span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "                                </span>"
@@ -4084,6 +4133,9 @@ msgstr ""
 "class=\"o_wetrack_proposal_error_message\"/>\n"
 "                                </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4096,6 +4148,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_wetrack_proposal_label_content\">Wstęp do prelekcji</span>\n"
+"                                        <span>*</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wetrack_proposal_label_content\">Wstęp do prelekcji</span>\n"
 "                                        <span>*</span>"
@@ -4113,6 +4170,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_wetrack_proposal_label_content\">Tytuł prelekcji</span>\n"
+"                                        <span>*</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_wetrack_proposal_label_content\">Tytuł prelekcji</span>\n"
 "                                        <span>*</span>"
@@ -4127,7 +4189,11 @@ msgstr ""
 msgid "<span class=\"text-muted\"> tracks</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> ścieżki</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> ścieżki</span>"
 >>>>>>> upstream/18.0
@@ -4182,6 +4248,7 @@ msgid ""
 " * Red indicates something is preventing the progress of this track\n"
 " * Green indicates the track is ready to be pulled to the next stage"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4506,6 +4573,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Stan wystąpień kanban wskazuje na szczególne sytuacje, które na nią "
 "wpływają:\n"
 " * Szary jest domyślną sytuacją\n"
@@ -4618,6 +4687,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4868,6 +4940,7 @@ msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5298,6 +5371,9 @@ msgstr ""
 =======
 "Dodaj opis by pomóc swoim współpracowniikom zrozumieć powód i cel tego etapu."
 >>>>>>> upstream/18.0
+=======
+"Dodaj opis by pomóc swoim współpracowniikom zrozumieć powód i cel tego etapu."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -5314,6 +5390,7 @@ msgstr "Dodaj nowy poziom w lejku zadań"
 msgid ""
 "Add tags to your tracks to help your attendees browse your event web pages."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5851,13 +5928,21 @@ msgstr ""
 "Dodaj znaczniki do swoich wystąpień by pomóc uczestnikom przeszukiwać strony "
 "internetowe Twojego wydarzenia."
 >>>>>>> upstream/18.0
+=======
+"Dodaj znaczniki do swoich wystąpień by pomóc uczestnikom przeszukiwać strony "
+"internetowe Twojego wydarzenia."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
 msgid "Advanced lead management: tips and tricks from the fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaawansowane zarządzanie leadami: porady i triki z praktyki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaawansowane zarządzanie leadami: porady i triki z praktyki"
 >>>>>>> upstream/18.0
@@ -5882,7 +5967,11 @@ msgstr "Plan spotkania"
 msgid "Agenda Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kolor programu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kolor programu"
 >>>>>>> upstream/18.0
@@ -5915,6 +6004,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zezwalaj na nagrywanie wideo i dźwięku\n"
+"                                    prezentacji, w celu opublikowania na "
+"naszej stronie internetowej."
+>>>>>>> upstream/18.0
 =======
 "Zezwalaj na nagrywanie wideo i dźwięku\n"
 "                                    prezentacji, w celu opublikowania na "
@@ -6062,8 +6157,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Kluczowe wystąpienie nie może zostać nieulubione, to pole przetrzymuje wybór"
 " kontaktu aby usunąć przypomnienie o kluczowym wystąpieniu."
+=======
+"Kluczowe wystąpienie nie może zostać nieulubione, to pole przetrzymuje wybór "
+"kontaktu aby usunąć przypomnienie o kluczowym wystąpieniu."
+>>>>>>> upstream/18.0
 =======
 "Kluczowe wystąpienie nie może zostać nieulubione, to pole przetrzymuje wybór "
 "kontaktu aby usunąć przypomnienie o kluczowym wystąpieniu."
@@ -6603,6 +6703,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As you may have heard before, making your own furniture is actually not as difficult or as complicated as you think.\n"
 "    In fact, some projects are so easy anyone could successfully complete them. For example, making a cute stool out of\n"
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
@@ -6612,6 +6713,8 @@ msgstr ""
 "W zasadzie, wiele projektów jest tak łatwe, że każdy mógłby zakończyć je z sukcesem. Na przykład, stworzenie ślicznego stołka z \n"
 "starej opony jest jak bułka z masłem i jeżeli potrzebujesz stolika możesz taki łatwo zrobić poprzez złączenie razem\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6944,6 +7047,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7179,7 +7285,11 @@ msgstr "Dostępne znaczniki śledzenia"
 msgid "Available on all event Agenda pages"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostępne na wszystkich stronach programu wydarzeń"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostępne na wszystkich stronach programu wydarzeń"
 >>>>>>> upstream/18.0
@@ -7192,7 +7302,11 @@ msgstr "Dostępne na wszystkich stronach programu wydarzeń"
 msgid "Back to All Talks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Powrót do wszystkich prelekcji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Powrót do wszystkich prelekcji"
 >>>>>>> upstream/18.0
@@ -7275,7 +7389,11 @@ msgstr "Anulowano"
 msgid "Cancelled Stage"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anulowany etap"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulowany etap"
 >>>>>>> upstream/18.0
@@ -7337,6 +7455,7 @@ msgstr "Nazwa firmy"
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7542,6 +7661,9 @@ msgstr "Konfiguracja ustawień"
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,subject:website_event_track.mail_template_data_track_confirmation
@@ -7562,6 +7684,7 @@ msgid ""
 "simple explanation! Interested?"
 msgstr ""
 "Myślałeś by zbudowac drewniany domek? Obejrzyj ten film by dowiedzieć się "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8099,6 +8222,10 @@ msgstr ""
 "więcej na temat procesu konstrukcji i końcowy efekt. Proste wyjaśnienie krok "
 "po kroku! Zainteresowany? "
 >>>>>>> upstream/18.0
+=======
+"więcej na temat procesu konstrukcji i końcowy efekt. Proste wyjaśnienie krok "
+"po kroku! Zainteresowany? "
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -8202,6 +8329,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"UMIEŚĆ TUTAJ BLOKI KONSTRUKCYJNE, ABY BYŁY DOSTĘPNE NA WSZYSTKICH STRONACH "
+"PROPOZYCJI WSZYSTKICH WYDARZEŃ"
+>>>>>>> upstream/18.0
 =======
 "UMIEŚĆ TUTAJ BLOKI KONSTRUKCYJNE, ABY BYŁY DOSTĘPNE NA WSZYSTKICH STRONACH "
 "PROPOZYCJI WSZYSTKICH WYDARZEŃ"
@@ -8398,8 +8530,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zdefiniuj kolejność, w jakiej lokacje będą wyświetlane na stronie "
 "\"Agenda\"."
+=======
+"Zdefiniuj kolejność, w jakiej lokacje będą wyświetlane na stronie \"Agenda\"."
+>>>>>>> upstream/18.0
 =======
 "Zdefiniuj kolejność, w jakiej lokacje będą wyświetlane na stronie \"Agenda\"."
 >>>>>>> upstream/18.0
@@ -8950,7 +9086,11 @@ msgstr "Ulubione"
 msgid "Filter Tracks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtruj ścieżki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtruj ścieżki"
 >>>>>>> upstream/18.0
@@ -8988,7 +9128,11 @@ msgstr "Zwinięty w Kanban"
 msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obserwatorzy"
+=======
+msgstr "Obserwujący"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obserwujący"
 >>>>>>> upstream/18.0
@@ -9001,7 +9145,11 @@ msgstr "Obserwujący"
 msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obserwatorzy (partnerzy)"
+=======
+msgstr "Obserwujący (partnerzy)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obserwujący (partnerzy)"
 >>>>>>> upstream/18.0
@@ -9029,7 +9177,11 @@ msgstr "W pełni dostępne"
 msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przyszłe czynności"
+=======
+msgstr "Przyszłe aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Przyszłe aktywności"
 >>>>>>> upstream/18.0
@@ -9282,8 +9434,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jeśli zaznaczone, automatycznie publikuje wystąpienia, żeby linki z dostępem"
 "  zostały dostarczone do klientów"
+=======
+"Jeśli zaznaczone, automatycznie publikuje wystąpienia, żeby linki z "
+"dostępem  zostały dostarczone do klientów"
+>>>>>>> upstream/18.0
 =======
 "Jeśli zaznaczone, automatycznie publikuje wystąpienia, żeby linki z "
 "dostępem  zostały dostarczone do klientów"
@@ -9851,8 +10008,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
+=======
+"If set, the talk will be set as favorite for each attendee registered to the "
+"event."
+>>>>>>> upstream/18.0
 =======
 "If set, the talk will be set as favorite for each attendee registered to the "
 "event."
@@ -10484,7 +10646,11 @@ msgstr "Życie w domu dookoła świata: Historia Williama"
 msgid "Lightning Talks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krótkie prelekcje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krótkie prelekcje"
 >>>>>>> upstream/18.0
@@ -10673,8 +10839,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zarządzaj stąd miejsca w których organizujesz swoje wystąpienia (np. pokoje,"
 " pomieszczenia)"
+=======
+"Zarządzaj stąd miejsca w których organizujesz swoje wystąpienia (np. pokoje, "
+"pomieszczenia)"
+>>>>>>> upstream/18.0
 =======
 "Zarządzaj stąd miejsca w których organizujesz swoje wystąpienia (np. pokoje, "
 "pomieszczenia)"
@@ -11340,8 +11511,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pamiętaj, że znaczniki bez koloru nie będą widocznie na stronie "
 "internetowej."
+=======
+"Pamiętaj, że znaczniki bez koloru nie będą widocznie na stronie internetowej."
+>>>>>>> upstream/18.0
 =======
 "Pamiętaj, że znaczniki bez koloru nie będą widocznie na stronie internetowej."
 >>>>>>> upstream/18.0
@@ -11694,7 +11869,11 @@ msgstr "Stare jest nowe"
 msgid "Our Last Day Together!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nasz ostatni wspólny dzień!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nasz ostatni wspólny dzień!"
 >>>>>>> upstream/18.0
@@ -11728,6 +11907,7 @@ msgstr "Obraz"
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "Plan your experience by adding your favorites talks to your wishlist"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12265,6 +12445,10 @@ msgstr ""
 "Zaplanuj swoje doznanie poprzez dodanie ulubionych wystąpień do swojej listy "
 "życzeń"
 >>>>>>> upstream/18.0
+=======
+"Zaplanuj swoje doznanie poprzez dodanie ulubionych wystąpień do swojej listy "
+"życzeń"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
@@ -12319,7 +12503,11 @@ msgstr "Propozycja"
 msgid "Proposals are closed."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Propozycje są zamknięte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Propozycje są zamknięte."
 >>>>>>> upstream/18.0
@@ -12380,7 +12568,11 @@ msgstr "Odmówiono"
 msgid "Regular Talks"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalne prelekcje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalne prelekcje"
 >>>>>>> upstream/18.0
@@ -12444,7 +12636,11 @@ msgstr "Błąd dostarczenia wiadomości SMS"
 msgid "Search a talk ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wyszukaj prelekcję..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wyszukaj prelekcję..."
 >>>>>>> upstream/18.0
@@ -12463,7 +12659,11 @@ msgstr "Zabezpieczanie drewna podczas transportu"
 msgid "Select Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wybierz kategorie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wybierz kategorie"
 >>>>>>> upstream/18.0
@@ -12477,6 +12677,7 @@ msgid ""
 "Sent to speakers whose track proposal is accepted (set the template on the "
 "right stage)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13014,6 +13215,10 @@ msgstr ""
 "Wysłane do prelegentów, których propozycja wystąpienia została zaakceptowana "
 "(ustaw szablon na właściwym etapie)"
 >>>>>>> upstream/18.0
+=======
+"Wysłane do prelegentów, których propozycja wystąpienia została zaakceptowana "
+"(ustaw szablon na właściwym etapie)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__seo_name
@@ -13040,7 +13245,11 @@ msgstr "Ustaw jako ulubione"
 msgid "Show Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokaż przycisk"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokaż przycisk"
 >>>>>>> upstream/18.0
@@ -13087,7 +13296,11 @@ msgstr "Zdjęcie mówcy"
 msgid "Speaker Profile"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Profil prelegenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Profil prelegenta"
 >>>>>>> upstream/18.0
@@ -13137,6 +13350,7 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Status na podstawie czynności\n"
 "Zaległe: Termin już minął\n"
 "Dzisiaj: Data czynności przypada na dzisiaj\n"
@@ -13144,11 +13358,16 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Status na podstawie aktywności\n"
 "Zaległe: Termin już minął\n"
 "Dzisiaj: Data aktywności przypada na dzisiaj\n"
 "Zaplanowane: Przyszłe aktywności."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13190,7 +13409,11 @@ msgstr "Tagi"
 msgid "Talk Intro"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wstęp do prelekcji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wstęp do prelekcji"
 >>>>>>> upstream/18.0
@@ -13345,8 +13568,12 @@ msgid "Task in progress. Click to block or set as done."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Zadanie w trakcie. Naciśnij by oznaczyć jako zablokowane lub zrobione."
+=======
+msgstr "Zadanie w trakcie. Naciśnij by oznaczyć jako zablokowane lub zrobione."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadanie w trakcie. Naciśnij by oznaczyć jako zablokowane lub zrobione."
 >>>>>>> upstream/18.0
@@ -13816,12 +14043,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 msgstr ""
 "Jest wiele różnych rodzajów drewna dostępnych na świecie ale tutaj porozmiawmy o tych najdroższych\n"
 "na świecie i trzymając się tematu, ułożyliśmy dziesięć najdroższych gatunków drewna."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14149,6 +14379,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14371,6 +14604,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Są to 30-minutowe wystąpienia na wiele różnych tematów. Większość tematów "
+"jest akceptowana w ramach krótkich prelekcji."
+>>>>>>> upstream/18.0
 =======
 "Są to 30-minutowe wystąpienia na wiele różnych tematów. Większość tematów "
 "jest akceptowana w ramach krótkich prelekcji."
@@ -14386,6 +14624,11 @@ msgid "These are standard talks with slides, alocated in slots of 60 minutes."
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Są to standardowe prezentacje ze slajdami, przydzielone w 60-minutowych "
+"slotach."
+>>>>>>> upstream/18.0
 =======
 "Są to standardowe prezentacje ze slajdami, przydzielone w 60-minutowych "
 "slotach."
@@ -14505,8 +14748,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "They will be created automatically once attendees start browsing your "
 "events."
+=======
+"They will be created automatically once attendees start browsing your events."
+>>>>>>> upstream/18.0
 =======
 "They will be created automatically once attendees start browsing your events."
 >>>>>>> upstream/18.0
@@ -14945,8 +15192,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To pole przetrzymuje grafikę używaną jako ikona mobilnej aplikacji na "
 "stronie"
+=======
+"To pole przetrzymuje grafikę używaną jako ikona mobilnej aplikacji na stronie"
+>>>>>>> upstream/18.0
 =======
 "To pole przetrzymuje grafikę używaną jako ikona mobilnej aplikacji na stronie"
 >>>>>>> upstream/18.0
@@ -15311,6 +15562,12 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Terminowe udostępnianie materiałów prezentacyjnych (slajdów)\n"
+"                                    do publikacji na naszej stronie "
+"internetowej."
+>>>>>>> upstream/18.0
 =======
 "Terminowe udostępnianie materiałów prezentacyjnych (slajdów)\n"
 "                                    do publikacji na naszej stronie "
@@ -15332,7 +15589,11 @@ msgstr "Tytuł"
 msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dzisiejsze czynności"
+=======
+msgstr "Dzisiejsze aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dzisiejsze aktywności"
 >>>>>>> upstream/18.0
@@ -15460,12 +15721,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
 "Najdroższe typy drewna na świecie to dosyć ciekawy temat i wiele ludzi może być zaskoczonych,\n"
 "że są setki typów drewna istniejących na całym świecie, które mają różne właściwości i użycie."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15793,6 +16057,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16259,8 +16526,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Wystąpienia definiują harmonogram wydarzenia. To mogą być rozmowy, warsztaty"
 " lub jakakolwiek inna aktywność."
+=======
+"Wystąpienia definiują harmonogram wydarzenia. To mogą być rozmowy, warsztaty "
+"lub jakakolwiek inna aktywność."
+>>>>>>> upstream/18.0
 =======
 "Wystąpienia definiują harmonogram wydarzenia. To mogą być rozmowy, warsztaty "
 "lub jakakolwiek inna aktywność."
@@ -16826,6 +17098,7 @@ msgstr "Nieprzeczytane wiadomości"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:event.track,description:website_event_track.event_7_track_6
 msgid ""
 "Use these simple steps to easily haul LONG lumber in a short box pickup truck.  A dose of carpenter's\n"
@@ -17047,13 +17320,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 #: code:addons/website_event_track/models/website_visitor.py:0
 msgid "Unsupported 'Not In' operation on track wishlist visitors"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacja 'Not In' nie jest obsługiwana na liście życzeń odwiedzających"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacja 'Not In' nie jest obsługiwana na liście życzeń odwiedzających"
 >>>>>>> upstream/18.0
@@ -17181,6 +17460,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17506,12 +17788,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
 "Używając unikalnej metody pakowania na pasek do wiązania (nie Bungee) pozwala budulcowi na zostanie\n"
 "ścieśniętych bezpiecznie BEZ potrzeby na wiązanie i odwiązywanie zawiłych i skomplikowanych wiązadeł. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17839,6 +18124,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17937,6 +18223,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18057,6 +18345,7 @@ msgstr ""
 msgid "Values set here are website-specific."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18223,6 +18512,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Wartości skonfigurowane tutaj są specyficzne dla strony internetowej."
 >>>>>>> upstream/18.0
 =======
 msgstr "Wartości skonfigurowane tutaj są specyficzne dla strony internetowej."
@@ -18278,7 +18570,11 @@ msgstr "Poczekaj na odwiedzających by dodali wystąpienia do ich ulubionych"
 msgid "We could not find any track at this moment."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "W tej chwili nie znaleźliśmy żadnej ścieżki."
+>>>>>>> upstream/18.0
 =======
 msgstr "W tej chwili nie znaleźliśmy żadnej ścieżki."
 >>>>>>> upstream/18.0
@@ -18292,7 +18588,11 @@ msgstr "W tej chwili nie znaleźliśmy żadnej ścieżki."
 msgid "We could not find any track matching your search for:"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie znaleźliśmy żadnych wyników pasujących do Twojego wyszukiwania:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie znaleźliśmy żadnych wyników pasujących do Twojego wyszukiwania:"
 >>>>>>> upstream/18.0
@@ -18317,6 +18617,7 @@ msgid ""
 "                                inclusion in the programme."
 msgstr ""
 "Przyjmiemy szeroką gamę\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18639,6 +18940,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                prezentacji, od raportów dotyczących "
 "projektów\n"
 "                                akademickich i komercyjnych, po tutoriale i "
@@ -18749,6 +19052,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18979,6 +19285,10 @@ msgid "We're sorry, this event does not accept proposals anymore"
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Przepraszamy, ale nie przyjmujemy już zgłoszeń dotyczących tego wydarzenia"
+>>>>>>> upstream/18.0
 =======
 "Przepraszamy, ale nie przyjmujemy już zgłoszeń dotyczących tego wydarzenia"
 >>>>>>> upstream/18.0
@@ -19080,7 +19390,11 @@ msgstr ""
 msgid "Who's OpenWood anyway?"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kto to w ogóle jest OpenWood?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kto to w ogóle jest OpenWood?"
 >>>>>>> upstream/18.0
@@ -19150,7 +19464,11 @@ msgstr "np. \"John Doe urodził się w...\"."
 msgid "e.g. \"Main Conference Room\""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "np. „Główna sala konferencyjna”"
+>>>>>>> upstream/18.0
 =======
 msgstr "np. „Główna sala konferencyjna”"
 >>>>>>> upstream/18.0
@@ -19169,7 +19487,11 @@ msgstr "np. \"Ta mowa będzie o...\"."
 msgid "e.g. Get Yours Now!"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "np. Zdobądź swoją kopię już teraz!"
+>>>>>>> upstream/18.0
 =======
 msgstr "np. Zdobądź swoją kopię już teraz!"
 >>>>>>> upstream/18.0
@@ -19199,7 +19521,11 @@ msgstr "godziny"
 msgid "in %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "w %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "w %s"
 >>>>>>> upstream/18.0
@@ -19212,7 +19538,11 @@ msgstr "w %s"
 msgid "minutes after Track start"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "minut po rozpoczęciu wystąpienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "minut po rozpoczęciu wystąpienia"
 >>>>>>> upstream/18.0
@@ -19293,6 +19623,7 @@ msgstr "zaczyna się"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -19391,6 +19722,8 @@ msgstr "zaczyna się"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19418,6 +19751,7 @@ msgid "x"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19425,6 +19759,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "x"
 >>>>>>> upstream/18.0
 =======
 msgstr "x"
@@ -19508,6 +19845,9 @@ msgstr "x"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

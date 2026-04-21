@@ -233,7 +233,11 @@ from odoo.addons.hr_expense.tests.common import TestExpenseCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import RedirectWarning, UserError, ValidationError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -1145,7 +1149,11 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {'balance': -1760.00, 'account_id': default_account_payable_id, 'name': False,                                   'date': date(2021, 10, 31),           'invoice_date': date(2021, 10, 10)},
+=======
+            {'balance': -1760.00, 'account_id': default_account_payable_id, 'name': 'Expense for John Smith',                                   'date': date(2021, 10, 31),           'invoice_date': date(2021, 10, 10)},
+>>>>>>> upstream/18.0
 =======
             {'balance': -1760.00, 'account_id': default_account_payable_id, 'name': 'Expense for John Smith',                                   'date': date(2021, 10, 31),           'invoice_date': date(2021, 10, 10)},
 >>>>>>> upstream/18.0
@@ -2247,7 +2255,10 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2557,6 +2568,9 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3245,6 +3259,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_expense_sheet_with_employee_of_no_work_email(self):
         """
         Should raise a RedirectWarning when the selected employee in the sheet doesn't have a work email.
@@ -3263,6 +3278,8 @@ class TestExpenses(TestExpenseCommon):
         with self.assertRaises(RedirectWarning):
             sheet.action_approve_expense_sheets()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4530,7 +4547,10 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5260,6 +5280,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5490,6 +5511,8 @@ class TestExpenses(TestExpenseCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5848,6 +5871,7 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6022,6 +6046,8 @@ class TestExpenses(TestExpenseCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6167,6 +6193,9 @@ class TestExpenses(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

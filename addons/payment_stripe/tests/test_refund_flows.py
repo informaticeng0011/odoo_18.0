@@ -51,7 +51,10 @@ class TestRefundFlows(StripeCommon, PaymentHttpCommon):
         self.assertEqual(handle_notification_data_mock.call_count, 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -71,6 +74,9 @@ class TestRefundFlows(StripeCommon, PaymentHttpCommon):
         self.assertEqual(handle_notification_data_mock.call_count, 0)
         self.assertFalse(tx.child_transaction_ids)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

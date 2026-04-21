@@ -247,7 +247,11 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ...wsTourUtils.addToCart({ productName: "Combo product", search: false }),
+=======
+            ...wsTourUtils.addToCart({ productName: "Combo product", search: false , expectUnloadPage: true}),
+>>>>>>> upstream/18.0
 =======
             ...wsTourUtils.addToCart({ productName: "Combo product", search: false , expectUnloadPage: true}),
 >>>>>>> upstream/18.0
@@ -1212,7 +1216,10 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1934,6 +1941,9 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2656,6 +2666,10 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
                 expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -3626,8 +3640,13 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 content: "Verify the combo product's price",
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(93.00)',
+=======
+                content: "Verify the combo product's price (tax included)",
+                trigger: 'div[name="website_sale_cart_line_price"]:contains(106.95)',
+>>>>>>> upstream/18.0
 =======
                 content: "Verify the combo product's price (tax included)",
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(106.95)',
@@ -4843,7 +4862,11 @@ registry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(62.00)',
+=======
+                trigger: 'div[name="website_sale_cart_line_price"]:contains(71.31)',
+>>>>>>> upstream/18.0
 =======
                 trigger: 'div[name="website_sale_cart_line_price"]:contains(71.31)',
 >>>>>>> upstream/18.0

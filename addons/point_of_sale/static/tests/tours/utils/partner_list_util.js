@@ -236,7 +236,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function clickPartner(name = "") {
+=======
+export function clickPartner(name = "", { expectUnloadPage = false } = {}) {
+>>>>>>> upstream/18.0
 =======
 export function clickPartner(name = "", { expectUnloadPage = false } = {}) {
 >>>>>>> upstream/18.0
@@ -1193,6 +1197,10 @@ export function clickPartner(name = "", { expectUnloadPage = false } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage,
 >>>>>>> upstream/18.0
@@ -2125,7 +2133,10 @@ export function checkDropDownItemText(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2734,6 +2745,9 @@ export function clickDropDownItem(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

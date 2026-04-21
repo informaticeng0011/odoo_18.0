@@ -279,6 +279,10 @@ export function humanNumber(number, options = { decimals: 0, minDigits: 1 }) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @param {nummber} [optinos.minDigits] the minimum number of decimal digits to display.
+>>>>>>> upstream/18.0
 =======
  * @param {nummber} [optinos.minDigits] the minimum number of decimal digits to display.
 >>>>>>> upstream/18.0
@@ -752,6 +756,7 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (options.humanReadable) {
         return humanNumber(value, options);
     }
@@ -1439,6 +1444,8 @@ export function formatFloat(value, options = {}) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1693,10 +1700,13 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // When no precision is set, 12 is chosen as the precision. It is high enough to keep it precise,
         // but not too high in order to avoid rounding errors..
         precision = 12;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1940,6 +1950,9 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2188,6 +2201,9 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2368,6 +2384,7 @@ export function formatFloat(value, options = {}) {
     const grouping = options.grouping || l10n.grouping;
     const thousandsSep = "thousandsSep" in options ? options.thousandsSep : l10n.thousandsSep;
     const decimalPoint = "decimalPoint" in options ? options.decimalPoint : l10n.decimalPoint;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3032,6 +3049,8 @@ export function formatFloat(value, options = {}) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const formatted = value.toFixed(precision).split(".");
     formatted[0] = insertThousandsSep(formatted[0], thousandsSep, grouping);
     if (formatted[1]) {
@@ -3124,6 +3143,9 @@ export function formatFloat(value, options = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

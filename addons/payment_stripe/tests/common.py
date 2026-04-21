@@ -60,7 +60,10 @@ class StripeCommon(PaymentCommon):
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         cls.void_payment_data = {
@@ -73,6 +76,9 @@ class StripeCommon(PaymentCommon):
             'type': 'charge.refunded',
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

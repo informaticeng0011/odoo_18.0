@@ -234,7 +234,11 @@ class IrRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _MODES = ['read', 'write', 'create', 'unlink']
+=======
+    _MODES = ('read', 'write', 'create', 'unlink')
+>>>>>>> upstream/18.0
 =======
     _MODES = ('read', 'write', 'create', 'unlink')
 >>>>>>> upstream/18.0
@@ -967,7 +971,13 @@ class IrRule(models.Model):
         are OR-ed together, the entire group succeeds or fails, while global
         rules get AND-ed and can each fail)
         """
+<<<<<<< HEAD
         Model = for_records.browse(()).sudo()
+=======
+        # disable active_test so rule evaluation considers inactive records
+        # otherwise failing rules may be incorrectly reported
+        Model = for_records.browse(()).sudo().with_context(active_test=False)
+>>>>>>> upstream/18.0
         eval_context = self._eval_context()
 
         all_rules = self._get_rules(Model._name, mode=mode).sudo()

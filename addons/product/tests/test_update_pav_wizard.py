@@ -189,6 +189,7 @@ class TestUpdateProductAttributeValueWizard(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         action = self.color_attribute_red.action_update_prices()
 
         with Form(self.env[action['res_model']].with_context(action['context'])) as wizard:
@@ -197,6 +198,8 @@ class TestUpdateProductAttributeValueWizard(ProductVariantsCommon):
         wizard_record.action_confirm()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -654,6 +657,9 @@ class TestUpdateProductAttributeValueWizard(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1115,6 +1121,10 @@ class TestUpdateProductAttributeValueWizard(ProductVariantsCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertFalse(any(self.color_attribute.value_ids.mapped('default_extra_price_changed')))
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(any(self.color_attribute.value_ids.mapped('default_extra_price_changed')))
 >>>>>>> upstream/18.0

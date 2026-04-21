@@ -95,11 +95,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 from odoo.addons.l10n_sa_edi.tests.common import AccountEdiTestCommon
 from odoo.addons.point_of_sale.tests.test_generic_localization import TestGenericLocalization
 from odoo.tests import tagged
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -396,6 +399,9 @@ from odoo.addons.point_of_sale.tests.test_generic_localization import TestGeneri
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -600,6 +606,7 @@ class TestGenericSAEdi(TestGenericLocalization):
         super().setUpClass()
         cls.main_pos_config.journal_id._l10n_sa_load_edi_demo_data()
         cls.company.write({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1465,6 +1472,9 @@ class TestGenericSAEdi(TestGenericLocalization):
 =======
             'name': 'Generic SA EDI',
 >>>>>>> upstream/18.0
+=======
+            'name': 'Generic SA EDI',
+>>>>>>> upstream/18.0
             'email': 'info@company.saexample.com',
             'phone': '+966 51 234 5678',
             'street2': 'Testomania',
@@ -1576,7 +1586,10 @@ class TestGenericSAEdi(TestGenericLocalization):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1901,6 +1914,9 @@ class TestUi(TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -76,6 +76,10 @@
             'spreadsheet/static/src/pivot/pivot_helpers.js',
             'spreadsheet/static/src/o_spreadsheet/odoo_module.js',
             'spreadsheet/static/src/helpers/helpers.js',
+<<<<<<< HEAD
+=======
+            'spreadsheet/static/src/helpers/neutralized_link.js',
+>>>>>>> upstream/18.0
             'spreadsheet/static/src/public_readonly_app/**/*.xml',
             'spreadsheet/static/src/public_readonly_app/**/*.scss',
             'spreadsheet/static/src/public_readonly_app/**/*',
@@ -281,6 +285,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('remove', 'spreadsheet/static/src/print_assets/**/*'),
+>>>>>>> upstream/18.0
 =======
             ('remove', 'spreadsheet/static/src/print_assets/**/*'),
 >>>>>>> upstream/18.0

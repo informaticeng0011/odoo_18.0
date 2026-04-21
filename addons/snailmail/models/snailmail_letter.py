@@ -262,7 +262,10 @@ class SnailmailLetter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -671,6 +674,9 @@ class SnailmailLetter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1075,7 +1081,10 @@ class SnailmailLetter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         obj = self.env[self.model].browse(self.res_id)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1484,6 +1493,7 @@ class SnailmailLetter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if report.print_report_name:
                 report_name = safe_eval(report.print_report_name, {'object': obj})
             elif report.attachment:
@@ -1491,6 +1501,8 @@ class SnailmailLetter(models.Model):
             else:
                 report_name = 'Document'
             filename = "%s.%s" % (report_name, "pdf")
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1766,6 +1778,7 @@ class SnailmailLetter(models.Model):
                 self.env.ref(f'web.external_layout_{layout}')
                 for layout in ('bubble', 'wave', 'folder')
             }:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2419,6 +2432,8 @@ class SnailmailLetter(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 self.company_id.sudo().external_report_layout_id = self.env.ref('web.external_layout_standard')
             filename, pdf_bin = self._generate_report_pdf(report)
             self.company_id.sudo().external_report_layout_id = prev
@@ -2471,6 +2486,9 @@ class SnailmailLetter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2734,6 +2752,11 @@ class SnailmailLetter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if error == 'TOO_MANY_PAGES':
+            return _('The document to be sent exceeds the maximum allowed limit of 8 pages.')
+>>>>>>> upstream/18.0
 =======
         if error == 'TOO_MANY_PAGES':
             return _('The document to be sent exceeds the maximum allowed limit of 8 pages.')

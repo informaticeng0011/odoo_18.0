@@ -17,6 +17,10 @@ from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -311,6 +315,7 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -323,6 +328,10 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 
+=======
+
+    @freeze_time("2023-03-15")
+>>>>>>> upstream/18.0
     def test_manager_can_approve_from_leave_report_calendar(self):
         """Check if an approval user that has not additional access rights for Time Off can approve a leave for an employee."""
 
@@ -358,6 +367,9 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

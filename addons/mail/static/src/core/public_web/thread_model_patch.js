@@ -266,7 +266,11 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.model === "discuss.channel") {
+=======
+            if (this.model === "discuss.channel" && this.inChathubOnNewMessage) {
+>>>>>>> upstream/18.0
 =======
             if (this.model === "discuss.channel" && this.inChathubOnNewMessage) {
 >>>>>>> upstream/18.0
@@ -1156,7 +1160,10 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         !this.store.discuss.isActive &&
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1831,7 +1838,10 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2496,6 +2506,9 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3179,7 +3192,11 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             !this.store.shouldDisplayWelcomeViewInitially
+=======
+            !this.store.shouldDisplayWelcomeView
+>>>>>>> upstream/18.0
 =======
             !this.store.shouldDisplayWelcomeView
 >>>>>>> upstream/18.0
