@@ -185,6 +185,7 @@ from ast import literal_eval
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models, fields, api, SUPERUSER_ID
 =======
 =======
@@ -1041,6 +1042,8 @@ from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from lxml import html
 
 from odoo import SUPERUSER_ID, _, api, fields, models
@@ -1064,6 +1067,9 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1430,7 +1436,10 @@ class website_form_model_fields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1823,7 +1832,11 @@ class website_form_model_fields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     arch_parsed = etree.fromstring(record[field_name])
+=======
+                    arch_parsed = html.fromstring(record[field_name])
+>>>>>>> upstream/18.0
 =======
                     arch_parsed = html.fromstring(record[field_name])
 >>>>>>> upstream/18.0
@@ -2077,6 +2090,9 @@ class website_form_model_fields(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

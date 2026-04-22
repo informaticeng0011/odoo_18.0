@@ -447,6 +447,10 @@ class ScheduledMessage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    subject=scheduled_message.subject,
+>>>>>>> upstream/18.0
 =======
                     subject=scheduled_message.subject,
 >>>>>>> upstream/18.0
@@ -1537,7 +1541,11 @@ class ScheduledMessage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         messages_to_post._post_message(raise_exception=False)
+=======
+        messages_to_post.with_context(mail_notify_force_send=True)._post_message(raise_exception=False)
+>>>>>>> upstream/18.0
 =======
         messages_to_post.with_context(mail_notify_force_send=True)._post_message(raise_exception=False)
 >>>>>>> upstream/18.0

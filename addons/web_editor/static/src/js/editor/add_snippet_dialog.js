@@ -143,6 +143,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { cookie } from "@web/core/browser/cookie";
+>>>>>>> upstream/18.0
 =======
 import { cookie } from "@web/core/browser/cookie";
 >>>>>>> upstream/18.0
@@ -656,8 +660,14 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (isFirefox) {
                 // Make sure empty preview iframe is loaded.
+=======
+            if (isFirefox && !(this.iframeDocument.readyState === "complete")) {
+                // Make sure empty preview iframe is loaded. This was necessary
+                // in Firefox < 148 as it created and parsed a new document.
+>>>>>>> upstream/18.0
 =======
             if (isFirefox && !(this.iframeDocument.readyState === "complete")) {
                 // Make sure empty preview iframe is loaded. This was necessary
@@ -1074,6 +1084,10 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this.insertColorScheme();
+>>>>>>> upstream/18.0
 =======
             this.insertColorScheme();
 >>>>>>> upstream/18.0
@@ -1492,6 +1506,7 @@ export class AddSnippetDialog extends Component {
     }
 
     get iframeDocument() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2577,6 +2592,9 @@ export class AddSnippetDialog extends Component {
 =======
         return this.iframeRef.el?.contentDocument;
 >>>>>>> upstream/18.0
+=======
+        return this.iframeRef.el?.contentDocument;
+>>>>>>> upstream/18.0
     }
     /**
      * Gets snippet groups.
@@ -2732,6 +2750,12 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (!originalSnippet) {
+                        return;
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (!originalSnippet) {
                         return;
@@ -3019,6 +3043,12 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (!itemEl) {
+                    continue;
+                }
+>>>>>>> upstream/18.0
 =======
                 if (!itemEl) {
                     continue;
@@ -3349,7 +3379,10 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3764,6 +3797,9 @@ export class AddSnippetDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -91,7 +91,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_ar.tests.common import TestAr
+=======
+from odoo.addons.l10n_ar.tests.common import TestArCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.l10n_ar.tests.common import TestArCommon
 >>>>>>> upstream/18.0
@@ -466,7 +470,11 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestL10nArWithholdingArRi(TestAr):
+=======
+class TestArWithholdingArRi(TestArCommon):
+>>>>>>> upstream/18.0
 =======
 class TestArWithholdingArRi(TestArCommon):
 >>>>>>> upstream/18.0
@@ -940,7 +948,10 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1257,6 +1268,7 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1281,6 +1293,8 @@ class TestArWithholdingArRi(TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1546,6 +1560,9 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2056,7 +2073,10 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2367,6 +2387,7 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2391,6 +2412,8 @@ class TestArWithholdingArRi(TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2664,6 +2687,9 @@ class TestArWithholdingArRi(TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -8,6 +8,10 @@ import { addGlobalFilter } from "@spreadsheet/../tests/helpers/commands";
 import { freezeOdooData } from "@spreadsheet/helpers/model";
 import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { setCellContent } from "../helpers/commands";
+>>>>>>> upstream/18.0
 =======
 import { setCellContent } from "../helpers/commands";
 >>>>>>> upstream/18.0
@@ -72,7 +76,10 @@ test("click close button in filter panel will close the panel", async function (
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("Internal links converted to neutralized are not clickable", async function (assert) {
     const model = await createModelWithDataSource();
     setCellContent(model, "A1", "[label](odoo://ir_menu_xml_id/test_menu)");
@@ -81,6 +88,9 @@ test("Internal links converted to neutralized are not clickable", async function
     expect(fixture.querySelector(".o-dashboard-clickable-cell")).toBe(null);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("Hides the download button when the downloadExcelUrl is not provided", async function () {
     const model = await createModelWithDataSource();

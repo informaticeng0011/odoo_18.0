@@ -18,6 +18,10 @@ class SomeObj(models.Model):
     forbidden2 = fields.Integer(groups='test_access_rights.test_group')
     forbidden3 = fields.Integer(groups=fields.NO_ACCESS)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    active = fields.Boolean(default=True)
+>>>>>>> upstream/18.0
 =======
     active = fields.Boolean(default=True)
 >>>>>>> upstream/18.0

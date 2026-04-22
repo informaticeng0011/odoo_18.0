@@ -427,7 +427,10 @@ If you really, really need access, perhaps you can win over your friendly admini
 Note: this might be a multi-company issue. Switching company may help - in Odoo, not in real life!""")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_access_error_reports_correct_rules_with_archived_record(self):
         """ Ensure archived records do not cause unrelated rules to be reported as failing
         """
@@ -449,6 +452,9 @@ Blame the following rules:
 If you really, really need access, perhaps you can win over your friendly administrator with a batch of freshly baked cookies."""
         % (self.user.name, self.user.id, self.record._description, self.record.display_name, self.record._name, self.record.id))
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class TestFieldGroupFeedback(Feedback):

@@ -827,8 +827,13 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_a = self._create_product(name="Horse-meat burger")
         product_b = self._create_product(name="French fries")
+=======
+        product_a = self._create_product(name="Horse-meat burger", invoice_policy='delivery')
+        product_b = self._create_product(name="French fries", invoice_policy='delivery')
+>>>>>>> upstream/18.0
 =======
         product_a = self._create_product(name="Horse-meat burger", invoice_policy='delivery')
         product_b = self._create_product(name="French fries", invoice_policy='delivery')
@@ -2338,7 +2343,10 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3228,6 +3236,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4093,12 +4104,15 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Rounding to 0.1, should be rounded with UP (ceil) rounding_method
         # Not floor or half up rounding.
         sol_prod_deliver.product_uom.rounding *= 10
         sol_prod_deliver.product_uom.flush_recordset(['rounding'])
         expected_qty = 5.2
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4620,6 +4634,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5303,8 +5320,13 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         and with an account prefix set,
         the default analytic account is correctly set during the conversion from so to invoice
+=======
+        and with an account prefix set, the default analytic account is correctly set during the conversion from
+        so to invoice. An additional analytic account set manually in another plan is also passed to the invoice.
+>>>>>>> upstream/18.0
 =======
         and with an account prefix set, the default analytic account is correctly set during the conversion from
         so to invoice. An additional analytic account set manually in another plan is also passed to the invoice.
@@ -6625,7 +6647,10 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7413,6 +7438,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8212,11 +8240,14 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.action_confirm()
         so.order_line.qty_delivered = 1
         aml = so._create_invoices().invoice_line_ids
         self.assertRecordValues(aml, [{'analytic_distribution': analytic_distribution_model.analytic_distribution}])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9005,6 +9036,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10066,11 +10100,14 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(inv.invoice_line_ids[0].name, f"{so.order_line[0].product_id.display_name} {so.order_line[0].name}", "When the description doesn't contain the product name, it should be added to the invoice line name")
         self.assertEqual(inv.invoice_line_ids[1].name, f"{so.order_line[1].name}", "When the description is the product name, the invoice line name should only be the description")
         self.assertEqual(inv.invoice_line_ids[2].name, f"{so.order_line[2].name}", "When description contains the product name, the invoice line name should only be the description")
         self.assertEqual(inv.invoice_line_ids[3].name, f"{so.order_line[3].product_id.display_name} {so.order_line[3].name}", "When the product name contains the description, the invoice line name should contain the product name and the description")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10450,6 +10487,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11070,7 +11110,10 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11988,6 +12031,9 @@ class TestSaleToInvoice(TestSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

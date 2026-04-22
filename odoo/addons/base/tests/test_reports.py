@@ -39,6 +39,11 @@ import odoo.tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import tools
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo import tools
 from odoo.exceptions import UserError
@@ -249,6 +254,10 @@ class TestReports(odoo.tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_edi_ubl_cii.account_invoices_generated_by_odoo': [('move_type', 'in', ('in_invoice', 'in_refund'))],
+>>>>>>> upstream/18.0
 =======
             'account_edi_ubl_cii.account_invoices_generated_by_odoo': [('move_type', 'in', ('in_invoice', 'in_refund'))],
 >>>>>>> upstream/18.0
@@ -540,7 +549,10 @@ class TestReports(odoo.tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -671,6 +683,9 @@ class TestReports(odoo.tests.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1315,7 +1330,10 @@ class TestReportsRendering(TestReportsRenderingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1767,6 +1785,9 @@ class TestReportsRendering(TestReportsRenderingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

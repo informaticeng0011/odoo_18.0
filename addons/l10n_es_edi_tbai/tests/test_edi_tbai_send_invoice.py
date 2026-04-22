@@ -258,6 +258,11 @@ from .common import TestEsEdiTbaiCommonGipuzkoa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import base64
+from lxml import etree
+>>>>>>> upstream/18.0
 =======
 import base64
 from lxml import etree
@@ -1721,7 +1726,10 @@ class TestSendAndPrintEdiGipuzkoa(TestEsEdiTbaiCommonGipuzkoa):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2505,6 +2513,9 @@ class TestSendAndPrintEdiGipuzkoa(TestEsEdiTbaiCommonGipuzkoa):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

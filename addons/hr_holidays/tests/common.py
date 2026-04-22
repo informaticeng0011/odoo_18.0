@@ -124,8 +124,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.tests import common
+=======
+from odoo import fields
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.tests import common, Form
+>>>>>>> upstream/18.0
 =======
 from odoo import fields
 from odoo.addons.mail.tests.common import mail_new_test_user
@@ -861,6 +867,12 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.user_hrresponsible = mail_new_test_user(cls.env, login='jeremy', groups='base.group_user,hr_holidays.group_hr_holidays_responsible')
+        cls.user_hrresponsible_id = cls.user_hrresponsible.id
+
+>>>>>>> upstream/18.0
 =======
         cls.user_hrresponsible = mail_new_test_user(cls.env, login='jeremy', groups='base.group_user,hr_holidays.group_hr_holidays_responsible')
         cls.user_hrresponsible_id = cls.user_hrresponsible.id
@@ -1482,7 +1494,10 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1783,6 +1798,9 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2113,7 +2131,10 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2433,7 +2454,10 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2630,6 +2654,9 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2891,6 +2918,7 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3011,6 +3039,8 @@ class TestHrHolidaysCommon(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3212,6 +3242,9 @@ class TestHrHolidaysCommon(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

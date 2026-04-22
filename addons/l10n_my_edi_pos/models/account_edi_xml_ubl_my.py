@@ -26,7 +26,10 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55,6 +58,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -279,6 +285,10 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._setup_base_lines(vals)
+>>>>>>> upstream/18.0
 =======
         self._setup_base_lines(vals)
 >>>>>>> upstream/18.0
@@ -840,8 +850,14 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'currency_id': consolidated_invoice.currency_id,
             'company_currency_id': consolidated_invoice.company_id.currency_id,
+=======
+            'company': consolidated_invoice.company_id,
+            'currency_id': consolidated_invoice.currency_id,
+            'company_currency_id': consolidated_invoice.company_currency_id,
+>>>>>>> upstream/18.0
 =======
             'company': consolidated_invoice.company_id,
             'currency_id': consolidated_invoice.currency_id,
@@ -1638,9 +1654,12 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 total_amount += sign * ((base_line['price_unit'] / base_line['rate']) * base_line['quantity'])
                 total_amount_currency += sign * (base_line['price_unit'] * base_line['quantity'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1888,6 +1907,9 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2293,6 +2315,7 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # We aggregate multiple PoS orders into an UBL InvoiceLine.
         # So any cash rounding will just be part of the line's amount.
@@ -2765,6 +2788,10 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
         # We aggregate multiple PoS orders into an UBL InvoiceLine.
+        # So any cash rounding will just be part of the line's amount.
+        vals['cash_rounding_base_lines'] = []
+>>>>>>> upstream/18.0
+=======
         # So any cash rounding will just be part of the line's amount.
         vals['cash_rounding_base_lines'] = []
 >>>>>>> upstream/18.0
@@ -3510,7 +3537,11 @@ class AccountEdiXmlUBLMyInvoisMY(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         amount_paid = vals[f'total_paid_amount{currency_suffix}']
+=======
+        amount_paid = 0.0
+>>>>>>> upstream/18.0
 =======
         amount_paid = 0.0
 >>>>>>> upstream/18.0

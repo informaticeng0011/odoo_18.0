@@ -217,7 +217,11 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import TransactionCase, tagged
+=======
+from odoo.tests import tagged, TransactionCase
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged, TransactionCase
 >>>>>>> upstream/18.0
@@ -1093,6 +1097,7 @@ class TestKpiProvider(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_kpi_summary(self):
         """
         - Ensure that nothing is reported when there is nothing to report
@@ -1117,6 +1122,8 @@ class TestKpiProvider(TransactionCase):
         self.assertCountEqual(self.env['kpi.provider'].get_account_kpi_summary(), [])
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1779,6 +1786,9 @@ class TestKpiProvider(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2214,6 +2224,7 @@ class TestKpiProvider(TransactionCase):
         account_id = self.env['account.account'].search([('company_ids', '=', company_id)], limit=1)
         base_move = {
             'company_id': company_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2872,6 +2883,8 @@ class TestKpiProvider(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'invoice_line_ids': [Command.create({'account_id': account_id.id, 'quantity': 15, 'price_unit': 10})],
             'partner_id': self.partner_id.id,
         }
@@ -3091,6 +3104,9 @@ class TestKpiProvider(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3531,6 +3547,7 @@ class TestKpiProvider(TransactionCase):
             [{**base_move, 'move_type': 'in_receipt'}] * 8
         )
         self.assertCountEqual(self.env['kpi.provider'].get_account_kpi_summary(), [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4255,6 +4272,8 @@ class TestKpiProvider(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             {'id': 'account_journal_type.general', 'name': 'Miscellaneous', 'type': 'integer', 'value': 2},
             {'id': 'account_journal_type.sale', 'name': 'Sales', 'type': 'integer', 'value': 3 + 4 + 7},
             {'id': 'account_journal_type.purchase', 'name': 'Purchase', 'type': 'integer', 'value': 5 + 6 + 8},
@@ -4546,6 +4565,9 @@ class TestKpiProvider(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

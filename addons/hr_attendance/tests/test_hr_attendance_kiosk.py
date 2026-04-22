@@ -1,5 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -43,7 +48,10 @@ class TestHrAttendanceKiosk(HttpCase):
         self.assertEqual(kiosk_info['company_name'], 'company_B')
         self.assertEqual(kiosk_info['departments'][0]['count'], 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_employee_infos_on_kiosk(self):
         with patch.object(Request, "render", return_value=None) as render:
@@ -69,4 +77,7 @@ class TestHrAttendanceKiosk(HttpCase):
         )
         result = json.loads(response.content).get('result')
         self.assertTrue(result['records'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

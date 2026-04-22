@@ -13,6 +13,11 @@ class TestUblExportBis3InvoiceBEDownPayment(TestUblExportBis3BE):
 
     @classmethod
     def get_default_groups(cls):
+<<<<<<< HEAD
+=======
+        # This runs during the super.setUpClass() call, we didn't make sure (yet) that the module exists.
+        cls.ensure_installed('sale')
+>>>>>>> upstream/18.0
         groups = super().get_default_groups()
         return groups | cls.env.ref('sales_team.group_sale_manager')
 

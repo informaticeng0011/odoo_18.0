@@ -21,7 +21,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '1.3',
+=======
+    'version': '1.4',
+>>>>>>> upstream/18.0
 =======
     'version': '1.4',
 >>>>>>> upstream/18.0
@@ -215,8 +219,13 @@ This is the module to manage the **accounting chart for Denmark**. Cover both on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         - 25% moms
         - Resturationsmoms 6,25%
+=======
+        - 25 % moms
+        - Restaurationsmoms 6,25 %
+>>>>>>> upstream/18.0
 =======
         - 25 % moms
         - Restaurationsmoms 6,25 %
@@ -842,11 +851,14 @@ This is the module to manage the **accounting chart for Denmark**. Cover both on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         - 3.lande
 
 - Finans raporter
         - Resulttopgørelse
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1220,6 +1232,9 @@ This is the module to manage the **accounting chart for Denmark**. Cover both on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1472,6 +1487,7 @@ This is the module to manage the **accounting chart for Denmark**. Cover both on
             - Afregning
             - Rubrik A, B og C
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1859,6 +1875,8 @@ Produkt setup:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 - **Anglo-saksisk regnskabsmetode**
 
 .
@@ -1998,6 +2016,9 @@ Produktopsætning:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2250,6 +2271,7 @@ Produktopsætning:
 
 **Ydelse**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2628,6 +2650,8 @@ Produktopsætning:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 **Salgsmoms:**      Salgsmoms 25 %, ydelser
 
 **Salgskonto:**     1.011 Salg af ydelser inkl. moms
@@ -2758,6 +2782,9 @@ Produktopsætning:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3010,6 +3037,7 @@ Produktopsætning:
 
 **Vare med omvendt betalingspligt**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3388,6 +3416,8 @@ Produktopsætning:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 **Salgsmoms:**      Salg med omvendt betalingspligt
 
 **Salgskonto:**     1.012 Salg af varer ekskl. moms
@@ -3518,6 +3548,9 @@ Produktopsætning:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3895,12 +3928,18 @@ Produktopsætning:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Købsmoms:**       Restaurationsmoms 6,25%, købsmoms
 
 **Købskonto:**      4010 Restaurationsbesøg
 
 .
 
+=======
+**Købsmoms:**       Restaurationsmoms 6,25 %, købsmoms
+
+**Købskonto:**      4010 Restaurationsbesøg
+>>>>>>> upstream/18.0
 =======
 **Købsmoms:**       Restaurationsmoms 6,25 %, købsmoms
 
