@@ -120,6 +120,10 @@ class TestPaymentProviderVisibility(PaymentHttpCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.sale_order.require_payment = True
+>>>>>>> upstream/18.0
 =======
         self.sale_order.require_payment = True
 >>>>>>> upstream/18.0

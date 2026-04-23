@@ -31,6 +31,10 @@ import { createElement, append, createTextNode } from "@web/core/utils/xml";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getLNATargetAddressSpace } from "@point_of_sale/app/utils/init_lna";
+>>>>>>> upstream/18.0
 =======
 import { getLNATargetAddressSpace } from "@point_of_sale/app/utils/init_lna";
 >>>>>>> upstream/18.0
@@ -138,6 +142,7 @@ function ePOSPrint(children) {
 export class EpsonPrinter extends BasePrinter {
     setup({ ip }) {
         super.setup(...arguments);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -982,6 +987,8 @@ export class EpsonPrinter extends BasePrinter {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         const protocol = odoo.use_lna ? "http:" : window.location.protocol;
         this.url = protocol + "//" + ip;
@@ -1017,6 +1024,9 @@ export class EpsonPrinter extends BasePrinter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1109,6 +1119,7 @@ export class EpsonPrinter extends BasePrinter {
      * @override
      */
     async sendPrintingJob(img) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1577,11 +1588,14 @@ export class EpsonPrinter extends BasePrinter {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const params = {
             method: "POST",
             body: img,
         };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2049,6 +2063,8 @@ export class EpsonPrinter extends BasePrinter {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (this.lnaTargetAddressSpace) {
             params.targetAddressSpace = this.lnaTargetAddressSpace;
         }
@@ -2082,6 +2098,9 @@ export class EpsonPrinter extends BasePrinter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

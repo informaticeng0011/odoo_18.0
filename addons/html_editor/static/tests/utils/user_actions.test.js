@@ -20,7 +20,11 @@ import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { simulateArrowKeyPress } from "../_helpers/user_actions";
+=======
+import { insertSpace, simulateArrowKeyPress } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { insertSpace, simulateArrowKeyPress } from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -204,7 +208,10 @@ describe("simulateArrowKeyPress method", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -287,6 +294,9 @@ describe("insertSpace method", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

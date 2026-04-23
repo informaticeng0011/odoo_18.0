@@ -122,14 +122,28 @@ export function useSpreadsheetNotificationStore() {
      *
      * @param {string} body body content to display
      * @param {Function} confirm Callback if the user press 'Confirm'
+<<<<<<< HEAD
      */
     function askConfirmation(body, confirm) {
+=======
+     * @param {Function} cancel Callback if the user press 'Cancel'
+     */
+    function askConfirmation(body, confirm, cancel) {
+        const confirmLabel = cancel ? _t("Yes") : _t("Confirm");
+        const cancelLabel = cancel && _t("No");
+>>>>>>> upstream/18.0
         dialog.add(ConfirmationDialog, {
             title: _t("Odoo Spreadsheet"),
             body,
             confirm,
+<<<<<<< HEAD
             cancel: () => {}, // Must be defined to display the Cancel button
             confirmLabel: _t("Confirm"),
+=======
+            cancel: cancel || (() => {}), // Must be defined to display the Cancel button
+            confirmLabel,
+            cancelLabel,
+>>>>>>> upstream/18.0
         });
     }
 

@@ -699,6 +699,7 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @mute_logger('odoo.addons.base.models.ir_model', 'odoo.models')
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1336,6 +1337,8 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_scheduler_exclusion_list_usage(self):
         """ Ensure mass mailing blacklist is ignored for registration but applied for event mailing """
         self.env["mail.blacklist"].create({
@@ -1464,6 +1467,9 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1892,7 +1898,10 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2554,6 +2563,9 @@ class TestMailSchedule(EventCase, MockEmail, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

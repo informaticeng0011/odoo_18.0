@@ -60,6 +60,11 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import timedelta
+
+>>>>>>> upstream/18.0
 =======
 from datetime import timedelta
 
@@ -372,6 +377,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.tests.test_ir_cron import CronMixinCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.test_ir_cron import CronMixinCase
 >>>>>>> upstream/18.0
@@ -624,7 +633,11 @@ def attachment_to_dict(attachment):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestL10nPlEdi(AccountTestInvoicingCommon):
+=======
+class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
+>>>>>>> upstream/18.0
 =======
 class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 >>>>>>> upstream/18.0
@@ -912,6 +925,19 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
             ae.args = (ae.args[0] + f"\nFile used for comparison: {filename}", )
             raise
 
+<<<<<<< HEAD
+=======
+    def _assert_import_invoice(self, filename, expected_values):
+        path = f'l10n_pl_edi/tests/import_xmls/{filename}'
+        with tools.file_open(path, mode='rb') as fd:
+            invoice = self.env['account.move'].create(self.env['account.move'].l10n_pl_edi_get_ksef_bill_vals_from_xml(fd.read()))
+        try:
+            self.assertRecordValues(invoice.invoice_line_ids, expected_values)
+        except AssertionError as ae:
+            ae.args = (ae.args[0] + f"\nFile used for comparison: {filename}", )
+            raise
+
+>>>>>>> upstream/18.0
     @freeze_time('2026-01-23')
     def test_ksef_fa3_standard_vat(self):
         """
@@ -1158,7 +1184,12 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id
+=======
+            'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
             'allow_out_payment': True,
@@ -1545,7 +1576,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1622,6 +1656,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1815,7 +1852,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2084,6 +2124,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        start = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
         start = fields.Datetime.now()
 >>>>>>> upstream/18.0
@@ -2207,6 +2251,7 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
         self.assertFalse(bill_2)
 
         self.assertEqual(len(capt.records), cron_runs_before + 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2461,4 +2506,30 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 =======
         self.assertGreaterEqual(capt.records[-1].call_at, start + timedelta(seconds=120))
         self.assertLessEqual(capt.records[-1].call_at, start + timedelta(seconds=240))
+>>>>>>> upstream/18.0
+=======
+        self.assertGreaterEqual(capt.records[-1].call_at, start + timedelta(seconds=120))
+        self.assertLessEqual(capt.records[-1].call_at, start + timedelta(seconds=240))
+
+    def test_import_invoice_with_net_and_gross_unit_price(self):
+        self._assert_import_invoice('invoice_with_net_and_gross_unit_price.xml', [
+            {
+                'name': '[FURN_0006] Podstawka pod monitor',
+                'price_unit': 3.19,
+                'price_total': 3.92,
+                'tax_ids': self.env['account.chart.template'].ref('vz_kraj_23').ids,
+            },
+            {
+                'name': '[FOOD_0001] Chleb pszenny',
+                'price_unit': 5.0,
+                'price_total': 13.5,
+                'tax_ids': self.env['account.chart.template'].ref('vz_kraj_8').ids,
+            },
+            {
+                'name': '[BOOK_0001] Podręcznik szkolny',
+                'price_unit': 5.0,
+                'price_total': 21.0,
+                'tax_ids': self.env['account.chart.template'].ref('vz_kraj_5').ids,
+            },
+        ])
 >>>>>>> upstream/18.0

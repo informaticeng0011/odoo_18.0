@@ -19,6 +19,10 @@ class SomeObj(models.Model):
     forbidden3 = fields.Integer(groups=fields.NO_ACCESS)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    active = fields.Boolean(default=True)
+>>>>>>> upstream/18.0
 =======
     active = fields.Boolean(default=True)
 >>>>>>> upstream/18.0

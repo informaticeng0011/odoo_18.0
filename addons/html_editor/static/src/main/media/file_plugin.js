@@ -72,6 +72,11 @@ import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { closestElement, firstLeaf, lastLeaf } from "@html_editor/utils/dom_traversal";
+import { nodeSize } from "@html_editor/utils/position";
+>>>>>>> upstream/18.0
 =======
 import { closestElement, firstLeaf, lastLeaf } from "@html_editor/utils/dom_traversal";
 import { nodeSize } from "@html_editor/utils/position";
@@ -422,7 +427,11 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["dom", "history"];
+=======
+    static dependencies = ["dom", "history", "selection"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["dom", "history", "selection"];
 >>>>>>> upstream/18.0
@@ -878,6 +887,7 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         functional_empty_node_predicates: (node) =>
             node?.nodeName === "SPAN" && node.classList.contains("o_file_box"),
@@ -1633,6 +1643,8 @@ export class FilePlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         /** Predicates */
         functional_empty_node_predicates: (node) =>
@@ -1651,8 +1663,11 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         toolbar_visibility_predicates: (node) => !closestElement(node, ".o_file_box"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1697,6 +1712,9 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1881,6 +1899,9 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2313,8 +2334,13 @@ export class FilePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { name: filename, mimetype } = attachment;
         return renderStaticFileBox(filename, mimetype, url);
+=======
+        const { name: filename, mimetype, id } = attachment;
+        return renderStaticFileBox(filename, mimetype, url, id);
+>>>>>>> upstream/18.0
 =======
         const { name: filename, mimetype, id } = attachment;
         return renderStaticFileBox(filename, mimetype, url, id);

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1042,6 +1043,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * mass_mailing
 #
 # Translators:
@@ -1053,6 +1056,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1072,6 +1078,7 @@
 # Maria Muntean, 2024
 # Wil Odoo, 2024
 # Larisa_nexterp, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1878,10 +1885,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2942,6 +2954,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-04-14 08:20+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -2954,6 +2968,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2973,6 +2990,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3387,6 +3405,11 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #. odoo-python
@@ -3615,7 +3638,11 @@ msgid " %(subject)s (final)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " %(subject)s (final)"
+>>>>>>> upstream/18.0
 =======
 msgstr " %(subject)s (final)"
 >>>>>>> upstream/18.0
@@ -4303,6 +4330,7 @@ msgid "# Favorite Filters"
 msgstr "# Filtre Favorite"
 
 #. module: mass_mailing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5225,6 +5253,11 @@ msgstr "% Listă neagră"
 msgid "% Blacklist"
 msgstr "% Listă neagră"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_form
+msgid "% Blacklist"
+msgstr "% Listă neagră"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_form
@@ -5452,7 +5485,11 @@ msgid "% Bounce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "% Răspunsuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "% Răspunsuri"
 >>>>>>> upstream/18.0
@@ -6349,7 +6386,11 @@ msgid "% Opt-out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "% Renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "% Renunțare"
 >>>>>>> upstream/18.0
@@ -7253,6 +7294,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(contact_name)s s-a abonat la următoarea/următoarele listă/listă de "
+"corespondență"
+>>>>>>> upstream/18.0
 =======
 "%(contact_name)s s-a abonat la următoarea/următoarele listă/listă de "
 "corespondență"
@@ -8374,6 +8420,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(contact_name)s s-a dezabonat de la următoarea/următoarele listă/listă de "
+"corespondență"
+>>>>>>> upstream/18.0
 =======
 "%(contact_name)s s-a dezabonat de la următoarea/următoarele listă/listă de "
 "corespondență"
@@ -9505,7 +9556,11 @@ msgid "%s Mailing Contacts have been added. "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s Contactele de mailing au fost adăugate. "
+=======
+msgstr "%s Contacte de mailing au fost adăugate. "
+>>>>>>> upstream/18.0
 =======
 msgstr "%s Contacte de mailing au fost adăugate. "
 >>>>>>> upstream/18.0
@@ -10188,6 +10243,7 @@ msgid "(scheduled for %s)"
 msgstr "(programat pentru %s)"
 
 #. module: mass_mailing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11111,11 +11167,17 @@ msgstr "Rapoarte statistice de mailing 24H"
 msgid "24H Stat Mailing Reports"
 msgstr "Rapoarte statistice de mailing 24H"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__mass_mailing_reports
+msgid "24H Stat Mailing Reports"
+msgstr "Rapoarte statistice de mailing 24H"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #. odoo-python
 #: code:addons/mass_mailing/models/mailing.py:0
 msgid "24H Stats of %(mailing_type)s \"%(mailing_name)s\""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12015,6 +12077,9 @@ msgstr "Statistici 24H pentru %(mailing_type)s \"%(mailing_name)s\""
 =======
 msgstr "Statistici 24H pentru %(mailing_type)s \"%(mailing_name)s\""
 >>>>>>> upstream/18.0
+=======
+msgstr "Statistici 24H pentru %(mailing_type)s \"%(mailing_name)s\""
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
@@ -12022,6 +12087,7 @@ msgid "400px"
 msgstr "400px"
 
 #. module: mass_mailing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12067,6 +12133,8 @@ msgstr "75%"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "800px"
 msgstr "800px"
@@ -12074,6 +12142,7 @@ msgstr "800px"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_blockquote
 msgid "<b>John DOE</b> • CEO of MyCompany"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12967,12 +13036,16 @@ msgstr "<b>John DOE</b> • CEO MyCompany"
 =======
 msgstr "<b>John DOE</b> • CEO MyCompany"
 >>>>>>> upstream/18.0
+=======
+msgstr "<b>John DOE</b> • CEO MyCompany"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
 msgid ""
 "<br/>\n"
 "                                    <span class=\"text-muted\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13924,6 +13997,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-envelope-o\"/> "
 "Contacts\n"
 "                                    </span>"
@@ -14062,6 +14137,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14326,6 +14404,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15182,6 +15261,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <span class=\"text-muted\">Blacklist</"
 "span>"
 msgstr ""
@@ -15317,6 +15398,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15806,6 +15890,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<br/>\n"
 "                                    <span class=\"text-muted\">Răspunsuri</span>"
@@ -16177,6 +16262,11 @@ msgstr ""
 =======
 "<br/>\n"
 "                                    <span class=\"text-muted\">Răspunsuri</span>"
+>>>>>>> upstream/18.0
+=======
+"<br/>\n"
+"                                    <span class=\"text-muted\">Răspunsuri</"
+"span>"
 >>>>>>> upstream/18.0
 =======
 "<br/>\n"
@@ -16833,6 +16923,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_list_view_kanban
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17689,6 +17780,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <span class=\"text-muted\">Mailings</"
 "span>"
 msgstr ""
@@ -17824,6 +17917,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18313,6 +18409,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<br/>\n"
 "                                    <span class=\"text-muted\">Renunțare</span>"
@@ -18684,6 +18781,11 @@ msgstr ""
 =======
 "<br/>\n"
 "                                    <span class=\"text-muted\">Renunțare</span>"
+>>>>>>> upstream/18.0
+=======
+"<br/>\n"
+"                                    <span class=\"text-muted\">Renunțare</"
+"span>"
 >>>>>>> upstream/18.0
 =======
 "<br/>\n"
@@ -19339,6 +19441,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.theme_default_template
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20198,6 +20301,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<br/>We want to take this opportunity to welcome you to our ever-growing "
 "community!\n"
 "                <br/>Your platform is ready for work, it will help you "
@@ -20338,6 +20443,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20824,7 +20932,11 @@ msgid "<font class=\"text-o-color-1\">25 September 2022 - 4:30 PM</font>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<font class=\"text-o-color-1\">25 Septembrie 2022 - 4:30 PM</font>"
+=======
+msgstr "<font class=\"text-o-color-1\">25 Septembrie 2022 - 16:30</font>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<font class=\"text-o-color-1\">25 Septembrie 2022 - 16:30</font>"
 >>>>>>> upstream/18.0
@@ -21721,7 +21833,11 @@ msgid "<font class=\"text-o-color-1\">26 September 2022 - 1:30 PM</font>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<font class=\"text-o-color-1\">26 Septembrie 2022 - 1:30 PM</font>"
+=======
+msgstr "<font class=\"text-o-color-1\">26 Septembrie 2022 - 13:30</font>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<font class=\"text-o-color-1\">26 Septembrie 2022 - 13:30</font>"
 >>>>>>> upstream/18.0
@@ -22525,12 +22641,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<font class=\"text-o-color-2\"><span style=\"font-"
 "weight:bolder;\">-20%</span></font>"
 msgstr ""
 "<font class=\"text-o-color-2\"><span style=\"font-"
 "weight:bolder;\">-20%</span></font>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22923,6 +23042,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23186,6 +23308,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_alert
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23580,6 +23703,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<font style=\"color: rgb(12 84 96);\">Don't write about products or services "
 "here, write about solutions.</font>"
 msgstr ""
@@ -23714,6 +23839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23980,6 +24108,7 @@ msgid ""
 "<font style=\"font-size: 12px;\">Add a caption to enhance the meaning of "
 "this image.</font>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25097,6 +25226,10 @@ msgstr ""
 "<font style=\"font-size: 12px;\">Adăugați o legendă pentru a evidenția "
 "semnificația acestei imagini.</font>"
 >>>>>>> upstream/18.0
+=======
+"<font style=\"font-size: 12px;\">Adăugați o legendă pentru a evidenția "
+"semnificația acestei imagini.</font>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_event
@@ -25115,6 +25248,7 @@ msgstr "<font style=\"font-size: 48px;\">Un titlu puternic</font>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_cover
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25879,10 +26013,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<font style=\"font-size: 62px; font-weight: bold;\">Catchy Headline</font>"
 msgstr ""
 "<font style=\"font-size: 62px; font-weight: bold;\">Titlu captivant</font>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27257,10 +27394,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid "<i class=\"fa fa-bar-chart\"/> Compare Version"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28400,6 +28540,8 @@ msgstr "<i class=\"fa fa-bullseye me-2\" role=\"img\" aria-label=\"Lead/Oportuni
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<i class=\"fa fa-bar-chart\"/> Compară versiunea"
 
 #. module: mass_mailing
@@ -28539,6 +28681,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29025,7 +29170,11 @@ msgid "<i class=\"fa fa-copy\"/> Create an Alternative"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-copy\"/> Creați o Alternativă"
+=======
+msgstr "<i class=\"fa fa-copy\"/> Creează o alternativă"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-copy\"/> Creează o alternativă"
 >>>>>>> upstream/18.0
@@ -29922,7 +30071,11 @@ msgid "<i class=\"fa fa-envelope\"/> Send this as winner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-envelope\"/> Trimiteți acesta ca câștigător"
+=======
+msgstr "<i class=\"fa fa-envelope\"/> Trimite acesta ca și câștigător"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-envelope\"/> Trimite acesta ca și câștigător"
 >>>>>>> upstream/18.0
@@ -30823,6 +30976,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"fa fa-envelope\"/><span name=\"ab_test_auto\">\n"
 "                                                    Trimite câștigătorul acum\n"
@@ -31289,6 +31443,8 @@ msgstr ""
 "                                                </span>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31680,6 +31836,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31944,6 +32103,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid ""
 "<i class=\"fa fa-exclamation-triangle text-danger\" aria-hidden=\"true\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32800,6 +32960,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        The sum of all percentages for this A/B campaign "
 "totals"
 msgstr ""
@@ -32935,6 +33097,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33424,8 +33589,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-exclamation-triangle\" role=\"img\" aria-label=\"Warning\" "
 "title=\"Warning\"/>"
+=======
+"<i class=\"fa fa-exclamation-triangle\" role=\"img\" aria-"
+"label=\"Avertisment\" title=\"Avertisment\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle\" role=\"img\" aria-"
 "label=\"Avertisment\" title=\"Avertisment\"/>"
@@ -34545,7 +34715,11 @@ msgid "<i class=\"fa fa-fw fa-circle\"/> Circles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-circle\"/>Cercuri"
+=======
+msgstr "<i class=\"fa fa-fw fa-circle\"/> Cercuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-circle\"/> Cercuri"
 >>>>>>> upstream/18.0
@@ -35467,7 +35641,11 @@ msgid "<i class=\"oi oi-arrow-right\"></i> Configure Opt-out Reasons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right\"></i> Configurează motivele de renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right\"></i> Configurează motivele de renunțare"
 >>>>>>> upstream/18.0
@@ -36144,6 +36322,7 @@ msgid ""
 "<i>Write a quote here from one of your customers. Quotes are a great way to "
 "build confidence in your products or services.</i>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37484,10 +37663,16 @@ msgstr ""
 "modalitate excelentă de a construi încrederea în produsele sau serviciile "
 "dvs.</i>"
 >>>>>>> upstream/18.0
+=======
+"<i>Scrieți aici un citat de la unul dintre clienții dvs. Citatele sunt o "
+"modalitate excelentă de a construi încrederea în produsele sau serviciile "
+"dvs.</i>"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38439,6 +38624,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<small class=\"oe_edit_only text-muted mb-2\" style=\"font-size:74%\" "
 "invisible=\"reply_to_mode == 'update' or mailing_model_name in "
 "['mailing.contact', 'res.partner', 'mailing.list']\">\n"
@@ -38581,6 +38768,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38853,6 +39043,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39710,6 +39901,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"fa fa-hourglass-o me-2 small my-auto\" aria-label=\"Scheduled "
 "date\"/>\n"
 "                                        <span>Next Batch</span>"
@@ -39846,6 +40039,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40335,6 +40531,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-paper-plane me-2 small my-auto\" aria-label=\"Data "
+"trimiterii\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fa fa-paper-plane me-2 small my-auto\" aria-label=\"Data "
 "trimiterii\"/>"
@@ -41459,7 +41660,11 @@ msgid "<span class=\"o_stat_text\">Open Recipient</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Deschide destinatar</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Deschide destinatar</span>"
 >>>>>>> upstream/18.0
@@ -42356,7 +42561,11 @@ msgid "<span class=\"oe_grey\" invisible=\"name\">e.g. \"John Smith\"</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oe_grey\" invisible=\"name\">ex: \"John Smith\"</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"oe_grey\" invisible=\"name\">ex: \"John Smith\"</span>"
 >>>>>>> upstream/18.0
@@ -43268,7 +43477,11 @@ msgid "<span class=\"text-muted\">Opt-out</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\">Renunțare</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\">Renunțare</span>"
 >>>>>>> upstream/18.0
@@ -44166,6 +44379,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span invisible=\"not mailing_on_mailing_list\">Contact corespondență</span>"
+>>>>>>> upstream/18.0
 =======
 "<span invisible=\"not mailing_on_mailing_list\">Contact corespondență</span>"
 >>>>>>> upstream/18.0
@@ -44839,6 +45056,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45696,6 +45914,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span name=\"canceled_text\">emails have been cancelled and will not be sent."
 "</span>"
 msgstr ""
@@ -45830,6 +46050,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46101,6 +46324,7 @@ msgid ""
 "<span name=\"mailing_schedule_type_now_text\">This mailing will be sent as "
 "soon as possible.</span>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46959,6 +47183,8 @@ msgid "<span name=\"next_departure_text\">This mailing is scheduled for </span>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span name=\"mailing_schedule_type_now_text\">Această corespondență va fi "
 "trimisă cât mai curând posibil.</span>"
 
@@ -47095,6 +47321,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47584,6 +47813,7 @@ msgid "<span name=\"process_text\">emails are being processed.</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<span name=\"process_text\">e-mailurile sunt în curs de procesare.</span>"
@@ -47863,6 +48093,10 @@ msgstr "<span name=\"process_text\">e-mailurile sunt în curs de procesare.</spa
 >>>>>>> upstream/18.0
 =======
 msgstr "<span name=\"process_text\">e-mailurile sunt în curs de procesare.</span>"
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"<span name=\"process_text\">e-mailurile sunt în curs de procesare.</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -48388,6 +48622,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49245,6 +49480,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span name=\"refresh_text\">This mailing will be sent as soon as possible.</"
 "span>"
 msgstr ""
@@ -49379,6 +49616,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49642,6 +49882,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50036,6 +50277,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span name=\"scheduled_text\">emails are in queue and will be sent soon.</"
 "span>"
 msgstr ""
@@ -50170,6 +50413,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50656,7 +50902,11 @@ msgid "<span name=\"sent\">emails have been sent.</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span name=\"sent\">e-mailurile au fost trimise .</span>"
+=======
+msgstr "<span name=\"sent\">e-mailurile au fost trimise.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span name=\"sent\">e-mailurile au fost trimise.</span>"
 >>>>>>> upstream/18.0
@@ -51554,6 +51804,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span style=\"color: #878d97;\">Dezactivează rapoartele de "
 "corespondență</span>"
@@ -51925,6 +52176,10 @@ msgstr ""
 =======
 "<span style=\"color: #878d97;\">Dezactivează rapoartele de "
 "corespondență</span>"
+>>>>>>> upstream/18.0
+=======
+"<span style=\"color: #878d97;\">Dezactivează rapoartele de corespondență</"
+"span>"
 >>>>>>> upstream/18.0
 =======
 "<span style=\"color: #878d97;\">Dezactivează rapoartele de corespondență</"
@@ -52580,12 +52835,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span style=\"color: rgb(12 84 96); font-size: 16px; font-weight: "
 "bolder;\">Explain the benefits you offer</span>"
 msgstr ""
 "<span style=\"color: rgb(12 84 96); font-size: 16px; font-weight: "
 "bolder;\">Explicați beneficiile pe care le oferiți</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52978,6 +53236,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53371,7 +53632,12 @@ msgid "<span style=\"font-size: 11px\">user / month (billed annually)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span style=\"font-size: 11px\">utilizator / lună (facturat anual)</span>"
+=======
+msgstr ""
+"<span style=\"font-size: 11px\">utilizator / lună (facturat anual)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span style=\"font-size: 11px\">utilizator / lună (facturat anual)</span>"
@@ -54124,7 +54390,11 @@ msgid "<span style=\"font-size: 48px;\">45</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span style=\"font-size: 48px;\">45</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"font-size: 48px;\">45</span>"
 >>>>>>> upstream/18.0
@@ -55021,7 +55291,11 @@ msgid "<span style=\"font-size: 48px;\">8</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span style=\"font-size: 48px;\">8</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"font-size: 48px;\">8</span>"
 >>>>>>> upstream/18.0
@@ -55919,7 +56193,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span style=\"font-weight: bolder;\">50,000+ companii</span> rulează Odoo."
+=======
+"<span style=\"font-weight: bolder;\">50.000+ companii</span> folosesc Odoo."
+>>>>>>> upstream/18.0
 =======
 "<span style=\"font-weight: bolder;\">50.000+ companii</span> folosesc Odoo."
 >>>>>>> upstream/18.0
@@ -56821,7 +57099,11 @@ msgid "<span style=\"font-weight: bolder;\">GET $20 OFF</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span style=\"font-weight: bolder;\">PRIMIȚI $20 REDUCERE</span>"
+=======
+msgstr "<span style=\"font-weight: bolder;\">PRIMEȘTI $20 REDUCERE</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"font-weight: bolder;\">PRIMEȘTI $20 REDUCERE</span>"
 >>>>>>> upstream/18.0
@@ -57731,8 +58013,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span style=\"font-weight:bolder\">Avansate</span>\n"
 "                                    caracteristici"
+=======
+"<span style=\"font-weight:bolder\">Caracteristici avansate</span>\n"
+"                                    "
+>>>>>>> upstream/18.0
 =======
 "<span style=\"font-weight:bolder\">Caracteristici avansate</span>\n"
 "                                    "
@@ -58852,7 +59139,11 @@ msgid "<span style=\"font-weight:bolder\">Fully customizable</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span style=\"font-weight:bolder\">Personalizări complete</span>"
+=======
+msgstr "<span style=\"font-weight:bolder\">Complet personalizabil</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span style=\"font-weight:bolder\">Complet personalizabil</span>"
 >>>>>>> upstream/18.0
@@ -59764,6 +60055,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span>Nu au mai rămas suficienți destinatari pentru această "
 "corespondență</span>"
@@ -60135,6 +60427,10 @@ msgstr ""
 =======
 "<span>Nu au mai rămas suficienți destinatari pentru această "
 "corespondență</span>"
+>>>>>>> upstream/18.0
+=======
+"<span>Nu au mai rămas suficienți destinatari pentru această corespondență</"
+"span>"
 >>>>>>> upstream/18.0
 =======
 "<span>Nu au mai rămas suficienți destinatari pentru această corespondență</"
@@ -60883,7 +61179,11 @@ msgid "<span>Valid Email Recipients</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Destinatari email validați</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Destinatari email validați</span>"
 >>>>>>> upstream/18.0
@@ -61780,7 +62080,11 @@ msgid "<span>​</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>​</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>​</span>"
 >>>>>>> upstream/18.0
@@ -62454,6 +62758,7 @@ msgstr "<span>​</span>"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63405,6 +63710,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<strong class=\"d-block\" invisible=\"mailing_type == 'mail' or not "
 "ab_testing_enabled or state != 'done' or sent != 0 or failed != 0 or "
 "canceled != 0\">\n"
@@ -63547,6 +63854,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64033,7 +64343,11 @@ msgid "<u>Refresh <i class=\"fa fa-refresh ms-1\"/></u>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<u>Reîmprospătează <i class=\"fa fa-refresh ms-1\"/></u>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<u>Reîmprospătează <i class=\"fa fa-refresh ms-1\"/></u>"
 >>>>>>> upstream/18.0
@@ -64936,7 +65250,11 @@ msgid "A color block"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un bloc de culori"
+=======
+msgstr "Un bloc de culoare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Un bloc de culoare"
 >>>>>>> upstream/18.0
@@ -65841,7 +66159,11 @@ msgid "A great title"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un titlu minunat"
+=======
+msgstr "Un titlu grozav"
+>>>>>>> upstream/18.0
 =======
 msgstr "Un titlu grozav"
 >>>>>>> upstream/18.0
@@ -66740,7 +67062,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Un contact poștal nu se poate abona la aceeași listă poștală de mai multe "
+=======
+"Un contact nu se poate abona la aceeași listă de corespondență de mai multe "
+>>>>>>> upstream/18.0
 =======
 "Un contact nu se poate abona la aceeași listă de corespondență de mai multe "
 >>>>>>> upstream/18.0
@@ -67643,7 +67969,11 @@ msgid "A short description of this great feature."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O scurtă descriere a acestei funcții minunate."
+=======
+msgstr "O scurtă descriere a acestei funcționalități grozave."
+>>>>>>> upstream/18.0
 =======
 msgstr "O scurtă descriere a acestei funcționalități grozave."
 >>>>>>> upstream/18.0
@@ -68540,7 +68870,11 @@ msgid "A small explanation of this great feature, in clear words."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O mică explicație a acestei funcții minunate, în cuvinte clare."
+=======
+msgstr "O mică explicație a acestei funcții grozave, în cuvinte clare."
+>>>>>>> upstream/18.0
 =======
 msgstr "O mică explicație a acestei funcții grozave, în cuvinte clare."
 >>>>>>> upstream/18.0
@@ -69442,7 +69776,11 @@ msgid "A/B Campaign Winner Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mailing câștigător al campaniei A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mailing câștigător al campaniei A/B"
 >>>>>>> upstream/18.0
@@ -70346,7 +70684,11 @@ msgid "A/B Test Mailings #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mailings de test A/B"
+=======
+msgstr "Număr mailings test A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr mailings test A/B"
 >>>>>>> upstream/18.0
@@ -71243,7 +71585,11 @@ msgid "A/B Test Winner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câștigătorul testului A/B"
+=======
+msgstr "Câștigător test A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câștigător test A/B"
 >>>>>>> upstream/18.0
@@ -72147,7 +72493,11 @@ msgid "A/B Testing Campaign Finished"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campania de testare A/B a fost finalizată"
+=======
+msgstr "Campania de testare A/B finalizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campania de testare A/B finalizată"
 >>>>>>> upstream/18.0
@@ -73044,7 +73394,11 @@ msgid "A/B Testing Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descrierea testului A/B"
+=======
+msgstr "Descriere testare A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descriere testare A/B"
 >>>>>>> upstream/18.0
@@ -73941,7 +74295,11 @@ msgid "A/B Testing percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A / B Procent de testare"
+=======
+msgstr "Procent testare A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procent testare A/B"
 >>>>>>> upstream/18.0
@@ -74869,7 +75227,11 @@ msgid "Active mailing using this mail server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mailings active care utilizează acest server de poștă"
+=======
+msgstr "Mailing activ care folosește acest server de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mailing activ care folosește acest server de e-mail"
 >>>>>>> upstream/18.0
@@ -75771,7 +76133,11 @@ msgid "Activity Exception Decoration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Decorator Excepție Activitate"
+=======
+msgstr "Decorare excepție activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Decorare excepție activitate"
 >>>>>>> upstream/18.0
@@ -76673,7 +77039,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma tipului de activitate"
+=======
+msgstr "Pictogramă tip activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă tip activitate"
 >>>>>>> upstream/18.0
@@ -77348,6 +77718,7 @@ msgstr "Pictogramă tip activitate"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_three_columns
 msgid ""
 "Adapt these three columns to fit your design need. To duplicate, delete or "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78208,6 +78579,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "move columns, select the column and use the top icons to perform your action."
 msgstr ""
 "Adaptați aceste trei coloane pentru a se potrivi nevoilor dvs. de design. "
@@ -78342,6 +78715,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78835,7 +79211,11 @@ msgid "Add Contacts to Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați contacte la lista de corespondență"
+=======
+msgstr "Adaugă contacte la lista de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă contacte la lista de corespondență"
 >>>>>>> upstream/18.0
@@ -79732,7 +80112,11 @@ msgid "Add Mailing Contacts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați contacte de corespondență"
+=======
+msgstr "Adaugă contacte de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă contacte de corespondență"
 >>>>>>> upstream/18.0
@@ -80629,7 +81013,11 @@ msgid "Add Selected Contacts to a Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați contactele selectate la o listă de corespondență"
+=======
+msgstr "Adaugă contactele selectate la o listă de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă contactele selectate la o listă de corespondență"
 >>>>>>> upstream/18.0
@@ -81526,7 +81914,11 @@ msgid "Add a great slogan."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați un slogan minunat."
+=======
+msgstr "Adaugă un slogan grozav."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă un slogan grozav."
 >>>>>>> upstream/18.0
@@ -82423,7 +82815,11 @@ msgid "Add and Send Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați și trimiteți corespondența"
+=======
+msgstr "Adaugă și trimite corespondența"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă și trimite corespondența"
 >>>>>>> upstream/18.0
@@ -83320,7 +83716,11 @@ msgid "Add to List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați la listă"
+=======
+msgstr "Adaugă la listă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la listă"
 >>>>>>> upstream/18.0
@@ -84217,7 +84617,11 @@ msgid "Add to Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați la șabloane"
+=======
+msgstr "Adaugă la șabloane"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la șabloane"
 >>>>>>> upstream/18.0
@@ -85115,7 +85519,11 @@ msgid "Add to favorite filters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adăugați la filtre favorite"
+=======
+msgstr "Adaugă la filtre favorite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la filtre favorite"
 >>>>>>> upstream/18.0
@@ -86022,7 +86430,11 @@ msgid "Align Bottom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniați partea de jos"
+=======
+msgstr "Aliniază jos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniază jos"
 >>>>>>> upstream/18.0
@@ -86919,7 +87331,11 @@ msgid "Align Center"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniați centru"
+=======
+msgstr "Aliniază centru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniază centru"
 >>>>>>> upstream/18.0
@@ -87816,7 +88232,11 @@ msgid "Align Left"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniați la stânga"
+=======
+msgstr "Aliniază stânga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniază stânga"
 >>>>>>> upstream/18.0
@@ -88713,7 +89133,11 @@ msgid "Align Middle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniați la mijloc"
+=======
+msgstr "Aliniază mijloc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniază mijloc"
 >>>>>>> upstream/18.0
@@ -89610,7 +90034,11 @@ msgid "Align Right"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniați la dreapta"
+=======
+msgstr "Aliniază dreapta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniază dreapta"
 >>>>>>> upstream/18.0
@@ -90507,7 +90935,11 @@ msgid "Align Top"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniați partea de sus"
+=======
+msgstr "Aliniază sus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniază sus"
 >>>>>>> upstream/18.0
@@ -91405,7 +91837,11 @@ msgid "Alignment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniament"
+=======
+msgstr "Aliniere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniere"
 >>>>>>> upstream/18.0
@@ -92311,8 +92747,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aline este una dintre persoanele iconice din viață care pot spune că adoră "
 "ceea ce fac. Ea îndrumă peste 100 de dezvoltatori interni și are grijă de "
+=======
+"Aline este una dintre persoanele iconice care pot spune că iubesc ceea ce "
+"fac. Ea ghidează peste 100 de dezvoltatori interni și are grijă de "
+>>>>>>> upstream/18.0
 =======
 "Aline este una dintre persoanele iconice care pot spune că iubesc ceea ce "
 "fac. Ea ghidează peste 100 de dezvoltatori interni și are grijă de "
@@ -93434,7 +93875,11 @@ msgid "All Rights Reserved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Toate Drepturile Rezervate"
+=======
+msgstr "Toate drepturile rezervate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate drepturile rezervate"
 >>>>>>> upstream/18.0
@@ -94331,8 +94776,12 @@ msgid "All these icons are completely free for commercial use."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Toate aceste icoane sunt complet gratuite pentru utilizare comercială."
+=======
+msgstr "Toate aceste pictograme sunt complet gratuite pentru uz comercial."
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate aceste pictograme sunt complet gratuite pentru uz comercial."
 >>>>>>> upstream/18.0
@@ -95229,7 +95678,11 @@ msgid "Allow A/B Testing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permite testare A / B"
+=======
+msgstr "Permite testare A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite testare A/B"
 >>>>>>> upstream/18.0
@@ -96126,7 +96579,11 @@ msgid "Allow Feedback"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permite feedback"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite feedback"
 >>>>>>> upstream/18.0
@@ -97023,7 +97480,11 @@ msgid "Allow recipients to blacklist themselves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Permiteți destinatarilor să se pună pe lista neagră"
+=======
+msgstr "Permite destinatarilor să se adauge pe lista neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permite destinatarilor să se adauge pe lista neagră"
 >>>>>>> upstream/18.0
@@ -97923,8 +98384,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Permiteți destinatarului să gestioneze starea sa în lista neagră prin pagina"
 " de dezabonare."
+=======
+"Permite destinatarului să își gestioneze singur starea pe lista neagră prin "
+"pagina de dezabonare."
+>>>>>>> upstream/18.0
 =======
 "Permite destinatarului să își gestioneze singur starea pe lista neagră prin "
 "pagina de dezabonare."
@@ -99049,6 +99515,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -99774,6 +100241,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Permite destinatarului să își gestioneze singur starea pe lista neagră prin "
 "pagina de dezabonare. Dacă opțiunea este activă, butonul 'Adaugă-mă pe lista "
 "neagră' este ascuns pe pagina de dezabonare. Butonul 'Revino' va fi mereu "
@@ -99907,6 +100376,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100420,6 +100892,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A apărut o eroare. Vă rugăm să încercați mai târziu sau să ne contactați."
+>>>>>>> upstream/18.0
 =======
 "A apărut o eroare. Vă rugăm să încercați mai târziu sau să ne contactați."
 >>>>>>> upstream/18.0
@@ -101318,7 +101794,11 @@ msgid "An error occurred. Please retry later."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A apărut o eroare. Vă rugăm să încercați mai târziu."
+>>>>>>> upstream/18.0
 =======
 msgstr "A apărut o eroare. Vă rugăm să încercați mai târziu."
 >>>>>>> upstream/18.0
@@ -102223,7 +102703,11 @@ msgid "And a great subtitle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Și o subtitrare minunată"
+=======
+msgstr "Și un subtitlu grozav"
+>>>>>>> upstream/18.0
 =======
 msgstr "Și un subtitlu grozav"
 >>>>>>> upstream/18.0
@@ -103125,7 +103609,11 @@ msgid "Another feature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "O altă caracteristică"
+=======
+msgstr "O altă funcție"
+>>>>>>> upstream/18.0
 =======
 msgstr "O altă funcție"
 >>>>>>> upstream/18.0
@@ -104022,7 +104510,11 @@ msgid "Apply changes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aplică schimbările"
+=======
+msgstr "Aplică modificările"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aplică modificările"
 >>>>>>> upstream/18.0
@@ -104924,7 +105416,11 @@ msgid "Archive source mailing lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Arhivați sursa listelor de corespondență"
+=======
+msgstr "Arhivează listele de corespondență sursă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arhivează listele de corespondență sursă"
 >>>>>>> upstream/18.0
@@ -105830,7 +106326,11 @@ msgid "Are you sure you want to unsubscribe from our mailing list?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sigur doriți să vă dezabonați de la lista noastră de corespondență?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sigur doriți să vă dezabonați de la lista noastră de corespondență?"
 >>>>>>> upstream/18.0
@@ -106505,6 +107005,7 @@ msgstr "Sigur doriți să vă dezabonați de la lista noastră de corespondenț�
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107362,6 +107863,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Are you sure you want to unsubscribe from the mailing list \"%"
 "(unsubscribed_lists)s\"?"
 msgstr ""
@@ -107496,6 +107999,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -107982,7 +108488,11 @@ msgid "Ask For Feedback"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Solicită feedback"
+>>>>>>> upstream/18.0
 =======
 msgstr "Solicită feedback"
 >>>>>>> upstream/18.0
@@ -108883,8 +109393,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cel puțin una dintre listele de e-mail pe care încercați să o arhivați este "
 "utilizată într-o campanie de corespondență în curs de desfășurare."
+=======
+"Cel puțin una dintre listele de corespondență pe care încercați să o "
+"arhivați este utilizată într-o campanie de corespondență în curs de "
+"desfășurare."
+>>>>>>> upstream/18.0
 =======
 "Cel puțin una dintre listele de corespondență pe care încercați să o "
 "arhivați este utilizată într-o campanie de corespondență în curs de "
@@ -110253,7 +110769,11 @@ msgid "Average of Bounced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Media de respingeri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Media de respingeri"
 >>>>>>> upstream/18.0
@@ -111155,7 +111675,11 @@ msgid "Average of Delivered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Media de livrare"
+=======
+msgstr "Media de livrări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Media de livrări"
 >>>>>>> upstream/18.0
@@ -112052,7 +112576,11 @@ msgid "Average of Opened"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Media de deschidere"
+=======
+msgstr "Media de deschideri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Media de deschideri"
 >>>>>>> upstream/18.0
@@ -112960,7 +113488,11 @@ msgid "Based on Mailing Lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bazat pe liste de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bazat pe liste de corespondență"
 >>>>>>> upstream/18.0
@@ -113878,7 +114410,11 @@ msgid "Blacklist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista neagră"
+=======
+msgstr "Listă neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă neagră"
 >>>>>>> upstream/18.0
@@ -114775,7 +115311,11 @@ msgid "Blacklist (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista neagră (%s)"
+=======
+msgstr "Listă neagră (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă neagră (%s)"
 >>>>>>> upstream/18.0
@@ -115449,6 +115989,7 @@ msgstr "Listă neagră (%s)"
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_res_config_settings__show_blacklist_buttons
 msgid "Blacklist Option when Unsubscribing"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116938,6 +117479,8 @@ msgstr "Pe lista neagră"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Opțiune listă neagră la dezabonare"
 
 #. module: mass_mailing
@@ -117004,6 +117547,9 @@ msgstr "Pe lista neagră"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117350,7 +117896,11 @@ msgid "Blacklisted Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresă listată în lista neagră"
+=======
+msgstr "Adresă pe lista neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă pe lista neagră"
 >>>>>>> upstream/18.0
@@ -118247,7 +118797,11 @@ msgid "Blacklisted Email Addresses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adrese e-mail în lista neagra"
+=======
+msgstr "Adrese e-mail pe lista neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adrese e-mail pe lista neagră"
 >>>>>>> upstream/18.0
@@ -119145,7 +119699,11 @@ msgid "Blocklist removal request from portal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cerere de eliminare din lista de blocare din portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere de eliminare din lista de blocare din portal"
 >>>>>>> upstream/18.0
@@ -119820,6 +120378,7 @@ msgstr "Cerere de eliminare din lista de blocare din portal"
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120677,6 +121236,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Blocklist removal request from portal of mailing %(mailing_link)s (document %"
 "(record_link)s)"
 msgstr ""
@@ -120811,6 +121372,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121298,7 +121862,11 @@ msgid "Blocklist request from portal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cerere de blocare din portal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cerere de blocare din portal"
 >>>>>>> upstream/18.0
@@ -121973,6 +122541,7 @@ msgstr "Cerere de blocare din portal"
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -122830,6 +123399,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Blocklist request from portal of mailing %(mailing_link)s (document %"
 "(record_link)s)"
 msgstr ""
@@ -122964,6 +123535,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123454,6 +124028,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Cerere de blocare din linkul de dezabonare al corespondenței "
 "%(mailing_link)s (utilizare directă a linkului)"
@@ -123825,6 +124400,10 @@ msgstr ""
 =======
 "Cerere de blocare din linkul de dezabonare al corespondenței "
 "%(mailing_link)s (utilizare directă a linkului)"
+>>>>>>> upstream/18.0
+=======
+"Cerere de blocare din linkul de dezabonare al corespondenței %"
+"(mailing_link)s (utilizare directă a linkului)"
 >>>>>>> upstream/18.0
 =======
 "Cerere de blocare din linkul de dezabonare al corespondenței %"
@@ -124577,6 +125156,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Cerere de blocare din linkul de dezabonare al corespondenței "
 "%(mailing_link)s (document %(record_link)s)"
@@ -124948,6 +125528,10 @@ msgstr ""
 =======
 "Cerere de blocare din linkul de dezabonare al corespondenței "
 "%(mailing_link)s (document %(record_link)s)"
+>>>>>>> upstream/18.0
+=======
+"Cerere de blocare din linkul de dezabonare al corespondenței %"
+"(mailing_link)s (document %(record_link)s)"
 >>>>>>> upstream/18.0
 =======
 "Cerere de blocare din linkul de dezabonare al corespondenței %"
@@ -125712,7 +126296,11 @@ msgid "Body converted to be sent by mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Corp convertit pentru a fi trimis prin poștă"
+=======
+msgstr "Conținut convertit pentru trimitere prin e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținut convertit pentru trimitere prin e-mail"
 >>>>>>> upstream/18.0
@@ -126628,7 +127216,11 @@ msgid "Bounce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Salt"
+=======
+msgstr "Respins"
+>>>>>>> upstream/18.0
 =======
 msgstr "Respins"
 >>>>>>> upstream/18.0
@@ -127525,7 +128117,11 @@ msgid "Bounce (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Respins (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Respins (%)"
 >>>>>>> upstream/18.0
@@ -128426,6 +129022,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Respingerea apare când un mesaj nu poate fi livrat (adresă falsă, probleme "
+"cu serverul, ...). Verificați fiecare înregistrare pentru a vedea ce nu a "
+"funcționat."
+>>>>>>> upstream/18.0
 =======
 "Respingerea apare când un mesaj nu poate fi livrat (adresă falsă, probleme "
 "cu serverul, ...). Verificați fiecare înregistrare pentru a vedea ce nu a "
@@ -129779,7 +130381,11 @@ msgid "Bounced (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sărit (%)"
+=======
+msgstr "Respins (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Respins (%)"
 >>>>>>> upstream/18.0
@@ -130677,7 +131283,11 @@ msgid "Bounced Ratio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratio Respingere"
+=======
+msgstr "Raport respingeri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport respingeri"
 >>>>>>> upstream/18.0
@@ -131575,7 +132185,11 @@ msgid "Business Benefits on %(expected)i %(mailing_type)s Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Beneficii de afaceri pe %(expected)i %(mailing_type)s trimis"
+=======
+msgstr "Beneficii de afaceri pentru %(expected)i %(mailing_type)s trimise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Beneficii de afaceri pentru %(expected)i %(mailing_type)s trimise"
 >>>>>>> upstream/18.0
@@ -132479,7 +133093,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Folosind <b>Breadcrumb</b>, puteți naviga înapoi la prezentare generală."
+=======
+"Folosind <b>Breadcrumb</b>, puteți naviga înapoi la prezentarea generală."
+>>>>>>> upstream/18.0
 =======
 "Folosind <b>Breadcrumb</b>, puteți naviga înapoi la prezentarea generală."
 >>>>>>> upstream/18.0
@@ -133376,7 +133994,11 @@ msgid "Calendar Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată Calendar"
+=======
+msgstr "Dată calendar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dată calendar"
 >>>>>>> upstream/18.0
@@ -134288,7 +134910,11 @@ msgid "Campaign Stages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stadii campanie"
+=======
+msgstr "Etape campanie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etape campanie"
 >>>>>>> upstream/18.0
@@ -135185,7 +135811,11 @@ msgid "Campaign Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Etichete Campanie"
+=======
+msgstr "Etichete campanie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etichete campanie"
 >>>>>>> upstream/18.0
@@ -136105,7 +136735,11 @@ msgid "Canceled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anulat(ă)"
+=======
+msgstr "Anulat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anulat"
 >>>>>>> upstream/18.0
@@ -137008,7 +137642,11 @@ msgid "Carriage-return-separated list of email addresses."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista de adrese de e-mail separate prin caracterul de întoarcere."
+=======
+msgstr "Listă de adrese de e-mail separate prin enter."
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă de adrese de e-mail separate prin enter."
 >>>>>>> upstream/18.0
@@ -137684,6 +138322,7 @@ msgstr "Listă de adrese de e-mail separate prin enter."
 msgid ""
 "Catchy preview sentence that encourages recipients to open this email.\n"
 "In most inboxes, this is displayed next to the subject.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138636,6 +139275,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Keep it empty if you prefer the first characters of your email content to "
 "appear instead."
 msgstr ""
@@ -138773,6 +139414,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139053,6 +139697,7 @@ msgstr "Schimbă iconițele"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid "Check how well your mailing is doing a day after it has been sent"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139649,6 +140294,10 @@ msgstr ""
 =======
 "Verificați cât de bine performează corespondența dvs. la o zi după ce a fost"
 " trimisă"
+>>>>>>> upstream/18.0
+=======
+"Verificați cât de bine performează corespondența dvs. la o zi după ce a fost "
+"trimisă"
 >>>>>>> upstream/18.0
 =======
 "Verificați cât de bine performează corespondența dvs. la o zi după ce a fost "
@@ -140398,6 +141047,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Verificați cât de bine funcționează corespondența dvs. o zi după ce a fost "
 "trimisă."
 =======
@@ -141292,6 +141942,10 @@ msgstr ""
 "Verificați cât de bine performează corespondența dvs. la o zi după ce a fost "
 "trimisă."
 >>>>>>> upstream/18.0
+=======
+"Verificați cât de bine performează corespondența dvs. la o zi după ce a fost "
+"trimisă."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_product_list
@@ -141519,7 +142173,11 @@ msgid "Check out all our books"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați toate cărțile noastre"
+=======
+msgstr "Verifică toate cărțile noastre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică toate cărțile noastre"
 >>>>>>> upstream/18.0
@@ -142416,7 +143074,11 @@ msgid "Check out all our clothes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați toate hainele noastre"
+=======
+msgstr "Verifică toate hainele noastre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică toate hainele noastre"
 >>>>>>> upstream/18.0
@@ -143313,7 +143975,11 @@ msgid "Check out all our furniture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați toată mobila noastră"
+=======
+msgstr "Verifică toată mobila noastră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică toată mobila noastră"
 >>>>>>> upstream/18.0
@@ -144211,7 +144877,11 @@ msgid "Check the email address and click send."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Verificați adresa de e-mail și faceți clic pe Trimite."
+=======
+msgstr "Verifică adresa de e-mail și apasă Trimite."
+>>>>>>> upstream/18.0
 =======
 msgstr "Verifică adresa de e-mail și apasă Trimite."
 >>>>>>> upstream/18.0
@@ -145108,7 +145778,11 @@ msgid "Choose a date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alege o dată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alege o dată"
 >>>>>>> upstream/18.0
@@ -146006,7 +146680,11 @@ msgid "Choose this <b>theme</b>."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alegeți această <b>temă</b>."
+=======
+msgstr "Alege această <b>temă</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alege această <b>temă</b>."
 >>>>>>> upstream/18.0
@@ -146905,7 +147583,11 @@ msgid "Choose your mailing subscriptions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alegeți-vă abonamentele de corespondență"
+=======
+msgstr "Alege-ți abonamentele de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alege-ți abonamentele de corespondență"
 >>>>>>> upstream/18.0
@@ -147804,8 +148486,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Faceți clic pe acest buton pentru a adăuga această corespondență la "
 "șabloanele dvs."
+=======
+"Apasă pe acest buton pentru a adăuga această corespondență la șabloanele "
+"tale."
+>>>>>>> upstream/18.0
 =======
 "Apasă pe acest buton pentru a adăuga această corespondență la șabloanele "
 "tale."
@@ -148926,7 +149613,11 @@ msgid "Click on this paragraph to edit it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faceți clic pe acest paragraf pentru a-l edita."
+=======
+msgstr "Apasă pe acest paragraf pentru a-l edita."
+>>>>>>> upstream/18.0
 =======
 msgstr "Apasă pe acest paragraf pentru a-l edita."
 >>>>>>> upstream/18.0
@@ -149832,7 +150523,11 @@ msgid "Clicked (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Click (%)"
+=======
+msgstr "Clic (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Clic (%)"
 >>>>>>> upstream/18.0
@@ -150745,7 +151440,11 @@ msgid "Color Index"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Index Culori"
+=======
+msgstr "Index culoare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Index culoare"
 >>>>>>> upstream/18.0
@@ -151549,6 +152248,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Color blocks are a simple and effective way to <b>present and highlight your"
 " content</b>. Choose an image or a color for the background. You can even "
 "resize and duplicate the blocks to create your own layout. Add images or "
@@ -152096,6 +152796,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Color blocks are a simple and effective way to <b>present and highlight your "
 "content</b>. Choose an image or a color for the background. You can even "
 "resize and duplicate the blocks to create your own layout. Add images or "
@@ -152230,6 +152932,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152715,6 +153420,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -153399,6 +154107,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Revino mai târziu pentru a descoperi de ce contactele se dezabonează.<br>"
+>>>>>>> upstream/18.0
 =======
 "Revino mai târziu pentru a descoperi de ce contactele se dezabonează.<br>"
 >>>>>>> upstream/18.0
@@ -154299,6 +155011,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Revino după ce corespondența a fost trimisă pentru a urmări cine a dat clic "
+"pe linkurile incluse."
+>>>>>>> upstream/18.0
 =======
 "Revino după ce corespondența a fost trimisă pentru a urmări cine a dat clic "
 "pe linkurile incluse."
@@ -155421,7 +156138,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Revino odată ce corespondența a fost trimisă pentru a urmări cine a deschis "
+=======
+"Revino după ce corespondența a fost trimisă pentru a urmări cine a deschis "
+"mesajul."
+>>>>>>> upstream/18.0
 =======
 "Revino după ce corespondența a fost trimisă pentru a urmări cine a deschis "
 "mesajul."
@@ -156546,7 +157268,11 @@ msgid "Company Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numele companiei"
+=======
+msgstr "Nume companie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume companie"
 >>>>>>> upstream/18.0
@@ -157458,7 +158184,11 @@ msgid "Configure Outgoing Mail Servers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Configurați serverele de mail de ieșire"
+=======
+msgstr "Configurează serverele de e-mail de ieșire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Configurează serverele de e-mail de ieșire"
 >>>>>>> upstream/18.0
@@ -158355,7 +159085,11 @@ msgid "Congratulations, I love your first mailing. :)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Felicitări, îmi place primul dvs. mail. :)"
+=======
+msgstr "Felicitări, îmi place prima ta corespondență. :)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Felicitări, îmi place prima ta corespondență. :)"
 >>>>>>> upstream/18.0
@@ -159252,7 +159986,11 @@ msgid "Connection failed (outgoing mail server problem)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conectarea a eșuat (problema la serverului de trimitere e-mail)"
+=======
+msgstr "Conexiune eșuată (problemă server e-mail de ieșire)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conexiune eșuată (problemă server e-mail de ieșire)"
 >>>>>>> upstream/18.0
@@ -160150,7 +160888,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -161055,7 +161797,11 @@ msgid "Contact Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Contact"
+=======
+msgstr "Nume contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume contact"
 >>>>>>> upstream/18.0
@@ -161952,7 +162698,11 @@ msgid "Contact Naming"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Denumire contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Denumire contact"
 >>>>>>> upstream/18.0
@@ -162849,7 +163599,11 @@ msgid "Contact list that will be imported, one contact per line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista de contacte care vor fi importate, un contact pe linie"
+=======
+msgstr "Lista de contacte care va fi importată, un contact pe linie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de contacte care va fi importată, un contact pe linie"
 >>>>>>> upstream/18.0
@@ -163746,7 +164500,11 @@ msgid "Contact us"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați-ne"
+=======
+msgstr "Contactează-ne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contactează-ne"
 >>>>>>> upstream/18.0
@@ -164426,6 +165184,7 @@ msgstr "Contacte"
 #. odoo-python
 #: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165283,6 +166042,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Contacts successfully imported. Number of contacts imported: %"
 "(imported_count)s"
 msgstr ""
@@ -165416,6 +166177,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165680,6 +166444,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mass_mailing/wizard/mailing_contact_import.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166537,6 +167302,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Contacts successfully imported. Number of contacts imported: %"
 "(imported_count)s. Number of duplicates ignored: %(duplicate_count)s"
 msgstr ""
@@ -166671,6 +167438,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -166934,6 +167704,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.snippet_options
 msgid "Content Background"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168074,6 +168845,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Fundal conținut"
 
 #. module: mass_mailing
@@ -168211,6 +168984,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -168698,7 +169474,11 @@ msgid "Could not retrieve URL: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu s-a putut prelua URL-ul: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu s-a putut prelua URL-ul: %s"
 >>>>>>> upstream/18.0
@@ -169596,7 +170376,11 @@ msgid "Counter of the number of bounced emails for this contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contor al numărului de e-mailuri returnate pentru acest contact"
+=======
+msgstr "Contorul numărului de e-mailuri respinse pentru acest contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contorul numărului de e-mailuri respinse pentru acest contact"
 >>>>>>> upstream/18.0
@@ -170503,7 +171287,11 @@ msgid "Create a Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o corespondență"
+=======
+msgstr "Creează o corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o corespondență"
 >>>>>>> upstream/18.0
@@ -171400,7 +172188,11 @@ msgid "Create a Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o listă de corespondență"
+=======
+msgstr "Creează o listă de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o listă de corespondență"
 >>>>>>> upstream/18.0
@@ -172297,7 +173089,11 @@ msgid "Create a mailing campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o campanie de e-mail"
+=======
+msgstr "Creează o campanie de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o campanie de e-mail"
 >>>>>>> upstream/18.0
@@ -173194,7 +173990,11 @@ msgid "Create a mailing contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați un contact de corespondență"
+=======
+msgstr "Creează un contact de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează un contact de corespondență"
 >>>>>>> upstream/18.0
@@ -174092,7 +174892,11 @@ msgid "Create a new mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o corespondență nouă"
+=======
+msgstr "Creează o corespondență nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o corespondență nouă"
 >>>>>>> upstream/18.0
@@ -174989,7 +175793,11 @@ msgid "Create an Alternative Version"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o versiune alternativă"
+=======
+msgstr "Creează o versiune alternativă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o versiune alternativă"
 >>>>>>> upstream/18.0
@@ -175912,7 +176720,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -176826,7 +177638,11 @@ msgid "DRAG BUILDING BLOCKS HERE"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "TRAGE BLOCURI DE CONSTRUCȚIE AICI"
+=======
+msgstr "TRAGE BLOCURILE DE CONSTRUCȚIE AICI"
+>>>>>>> upstream/18.0
 =======
 msgstr "TRAGE BLOCURILE DE CONSTRUCȚIE AICI"
 >>>>>>> upstream/18.0
@@ -177735,7 +178551,11 @@ msgid "Date at which the mailing was or will be sent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data la care a fost sau va fi trimisă corespondența."
+=======
+msgstr "Data la care corespondența a fost sau va fi trimisă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Data la care corespondența a fost sau va fi trimisă."
 >>>>>>> upstream/18.0
@@ -178635,8 +179455,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data care va fi folosită pentru a determina când să se trimită corespondența"
 " "
+=======
+"Data care va fi folosită pentru a determina când se trimite corespondența "
+"câștigătoare"
+>>>>>>> upstream/18.0
 =======
 "Data care va fi folosită pentru a determina când se trimite corespondența "
 "câștigătoare"
@@ -179756,7 +180581,11 @@ msgid "Dedicated Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Server Dedicat"
+=======
+msgstr "Server dedicat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Server dedicat"
 >>>>>>> upstream/18.0
@@ -180663,7 +181492,11 @@ msgid "Default Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Server Implicit"
+=======
+msgstr "Server implicit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Server implicit"
 >>>>>>> upstream/18.0
@@ -181350,6 +182183,7 @@ msgid ""
 "Delete the above image or replace it with a picture that illustrates your "
 "message. Click on the picture to change its <em>rounded corner</em> style."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182691,6 +183525,11 @@ msgstr ""
 "mesajul dvs. Faceți clic pe imagine pentru a-i schimba stilul de <em>colțuri "
 "rotunjite</em>."
 >>>>>>> upstream/18.0
+=======
+"Ștergeți imaginea de mai sus sau înlocuiți-o cu o fotografie care ilustrează "
+"mesajul dvs. Faceți clic pe imagine pentru a-i schimba stilul de <em>colțuri "
+"rotunjite</em>."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__delivered
@@ -182933,7 +183772,11 @@ msgid "Design"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Proiectare"
+=======
+msgstr "Design"
+>>>>>>> upstream/18.0
 =======
 msgstr "Design"
 >>>>>>> upstream/18.0
@@ -183837,7 +184680,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Proiectează un email atrăgător, definește destinatarii și urmărește "
+=======
+"Proiectează un e-mail atrăgător, definește destinatarii și urmărește "
+>>>>>>> upstream/18.0
 =======
 "Proiectează un e-mail atrăgător, definește destinatarii și urmărește "
 >>>>>>> upstream/18.0
@@ -184736,7 +185583,11 @@ msgid "Design added to the %s Templates!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Design adăugat la șabloanele %s!"
+=======
+msgstr "Designul a fost adăugat la șabloanele %s!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Designul a fost adăugat la șabloanele %s!"
 >>>>>>> upstream/18.0
@@ -185634,7 +186485,11 @@ msgid "Design removed from the %s Templates!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Design eliminat din șabloanele %s!"
+=======
+msgstr "Designul a fost eliminat din șabloanele %s!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Designul a fost eliminat din șabloanele %s!"
 >>>>>>> upstream/18.0
@@ -186531,7 +187386,11 @@ msgid "Destination Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista de corespondență a destinației"
+=======
+msgstr "Listă de corespondență destinație"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă de corespondență destinație"
 >>>>>>> upstream/18.0
@@ -187429,7 +188288,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abandonează"
+=======
+msgstr "Renunță"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunță"
 >>>>>>> upstream/18.0
@@ -188326,7 +189189,11 @@ msgid "Discount Offer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ofertă de reducere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ofertă de reducere"
 >>>>>>> upstream/18.0
@@ -189228,7 +190095,11 @@ msgid "Discover all the features"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descoperă toate caracteristicile"
+=======
+msgstr "Descoperă toate funcționalitățile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descoperă toate funcționalitățile"
 >>>>>>> upstream/18.0
@@ -190142,7 +191013,11 @@ msgid "Document ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Document ID"
+=======
+msgstr "ID document"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID document"
 >>>>>>> upstream/18.0
@@ -191052,7 +191927,11 @@ msgid "Domain field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Câmp domeniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmp domeniu"
 >>>>>>> upstream/18.0
@@ -191949,7 +192828,11 @@ msgid "Don't forget to send your preferred version"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu uita să trimiți versiunea preferată"
+=======
+msgstr "Nu uitați să trimiteți versiunea preferată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu uitați să trimiteți versiunea preferată"
 >>>>>>> upstream/18.0
@@ -192848,7 +193731,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu vă faceți griji, contactul pe care l-am creat este un utilizator intern."
+=======
+"Nu vă faceți griji, contactul de corespondență creat este un utilizator "
+"intern."
+>>>>>>> upstream/18.0
 =======
 "Nu vă faceți griji, contactul de corespondență creat este un utilizator "
 "intern."
@@ -193980,7 +194868,11 @@ msgid "Double click an icon to replace it with one of your choice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dublu click pe o pictogramă pentru a o înlocui cu una la alegere"
+=======
+msgstr "Dublu click pe o pictogramă pentru a o înlocui cu una aleasă de dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dublu click pe o pictogramă pentru a o înlocui cu una aleasă de dvs."
 >>>>>>> upstream/18.0
@@ -194885,7 +195777,11 @@ msgid "Duplicate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Duplicare"
+=======
+msgstr "Duplică"
+>>>>>>> upstream/18.0
 =======
 msgstr "Duplică"
 >>>>>>> upstream/18.0
@@ -195783,7 +196679,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Duplicați blocurile și coloanele pentru a adăuga mai multe caracteristici."
+=======
+"Duplicați blocuri și coloane pentru a adăuga mai multe funcționalități."
+>>>>>>> upstream/18.0
 =======
 "Duplicați blocuri și coloane pentru a adăuga mai multe funcționalități."
 >>>>>>> upstream/18.0
@@ -196680,7 +197580,11 @@ msgid "Duplicated Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email duplicat"
+=======
+msgstr "E-mail duplicat"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail duplicat"
 >>>>>>> upstream/18.0
@@ -197582,7 +198486,11 @@ msgid "Edit Styles"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Editare Stiluri"
+=======
+msgstr "Editează stiluri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Editează stiluri"
 >>>>>>> upstream/18.0
@@ -198489,7 +199397,11 @@ msgid "Email Blacklisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail Lista neagră"
+=======
+msgstr "E-mail pe lista neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail pe lista neagră"
 >>>>>>> upstream/18.0
@@ -199394,7 +200306,11 @@ msgid "Email Marketing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Marketing E-mail"
+=======
+msgstr "Marketing prin e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marketing prin e-mail"
 >>>>>>> upstream/18.0
@@ -200071,6 +200987,7 @@ msgstr "Marketing prin e-mail"
 msgid ""
 "Email Marketing uses it as its default mail server to send mass mailings"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201187,6 +202104,10 @@ msgstr ""
 "Marketingul prin e-mail îl folosește ca server implicit pentru trimiterea e-"
 "mailurilor în masă"
 >>>>>>> upstream/18.0
+=======
+"Marketingul prin e-mail îl folosește ca server implicit pentru trimiterea e-"
+"mailurilor în masă"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_thread
@@ -201414,7 +202335,11 @@ msgid "Email Thread"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fir E-mail"
+=======
+msgstr "Fir de e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fir de e-mail"
 >>>>>>> upstream/18.0
@@ -202312,7 +203237,11 @@ msgid "Email added to our blocklist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail adăugat pe lista noastră de blocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail adăugat pe lista noastră de blocare"
 >>>>>>> upstream/18.0
@@ -203209,7 +204138,11 @@ msgid "Email composition wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Asistent de compunere email-uri"
+=======
+msgstr "Asistent compunere e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent compunere e-mail"
 >>>>>>> upstream/18.0
@@ -204107,7 +205040,11 @@ msgid "Email removed from our blocklist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail eliminat din lista noastră de blocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail eliminat din lista noastră de blocare"
 >>>>>>> upstream/18.0
@@ -205005,7 +205942,11 @@ msgid "Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email-uri"
+=======
+msgstr "E-mailuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mailuri"
 >>>>>>> upstream/18.0
@@ -205902,7 +206843,11 @@ msgid "Emails Statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistici email-uri"
+=======
+msgstr "Statistici e-mailuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici e-mailuri"
 >>>>>>> upstream/18.0
@@ -206800,7 +207745,11 @@ msgid "Engagement on %(expected)i %(mailing_type)s Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Angajament pe %(expected)i %(mailing_type)s trimis"
+=======
+msgstr "Angajament pe %(expected)i %(mailing_type)s trimise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Angajament pe %(expected)i %(mailing_type)s trimise"
 >>>>>>> upstream/18.0
@@ -207717,7 +208666,11 @@ msgid "Exclude Blacklisted Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Excludere Email-uri Listă Neagră"
+=======
+msgstr "Exclude e-mailuri pe lista neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exclude e-mailuri pe lista neagră"
 >>>>>>> upstream/18.0
@@ -208614,7 +209567,11 @@ msgid "Exclude Me"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Exclude-mă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exclude-mă"
 >>>>>>> upstream/18.0
@@ -209511,7 +210468,11 @@ msgid "Exclude Opt Out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Excludere renunțare"
+=======
+msgstr "Exclude renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Exclude renunțare"
 >>>>>>> upstream/18.0
@@ -210408,7 +211369,11 @@ msgid "Expected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Estimat"
+=======
+msgstr "Estimare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estimare"
 >>>>>>> upstream/18.0
@@ -211321,7 +212286,11 @@ msgid "Failure reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Motivul Eșecului"
+=======
+msgstr "Motiv eșec"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motiv eșec"
 >>>>>>> upstream/18.0
@@ -212218,7 +213187,11 @@ msgid "Failure type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Eșec"
+=======
+msgstr "Tip eșec"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip eșec"
 >>>>>>> upstream/18.0
@@ -213115,7 +214088,11 @@ msgid "Favorite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Favorite"
+=======
+msgstr "Favorit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Favorit"
 >>>>>>> upstream/18.0
@@ -214012,7 +214989,11 @@ msgid "Favorite Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data Favorite"
+=======
+msgstr "Data favorit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data favorit"
 >>>>>>> upstream/18.0
@@ -214909,7 +215890,11 @@ msgid "Favorite Filter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Filtru Favorit"
+=======
+msgstr "Filtru favorit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtru favorit"
 >>>>>>> upstream/18.0
@@ -215843,7 +216828,11 @@ msgid "Feedback from %(author_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Feedback de la %(author_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Feedback de la %(author_name)s"
 >>>>>>> upstream/18.0
@@ -216751,7 +217740,11 @@ msgid "Filter Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume filtru "
+=======
+msgstr "Nume filtru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume filtru"
 >>>>>>> upstream/18.0
@@ -217649,7 +218642,11 @@ msgid "Filter templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtrează șabloane"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtrează șabloane"
 >>>>>>> upstream/18.0
@@ -218556,7 +219553,11 @@ msgid "First Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prenume"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prenume"
 >>>>>>> upstream/18.0
@@ -219463,7 +220464,11 @@ msgid "Fit content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conținut potrivit"
+=======
+msgstr "Potrivește conținutul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrivește conținutul"
 >>>>>>> upstream/18.0
@@ -220372,7 +221377,11 @@ msgid "Font Family"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Familie font"
+>>>>>>> upstream/18.0
 =======
 msgstr "Familie font"
 >>>>>>> upstream/18.0
@@ -221269,7 +222278,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font awesome, de ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font awesome, de ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -222166,7 +223179,11 @@ msgid "Footer Center"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subsol Centrat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subsol Centrat"
 >>>>>>> upstream/18.0
@@ -223063,7 +224080,11 @@ msgid "Footer Left"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Subsol Stânga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Subsol Stânga"
 >>>>>>> upstream/18.0
@@ -223970,8 +224991,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "companiei. Îi place să aibă mâinile ocupate, participând la dezvoltarea "
 "software-ului, a strategiilor de marketing și a experienței clienților. "
+=======
+"companiei. Îi place să fie implicat în dezvoltarea software-ului, "
+"marketingului și strategiilor de experiență a clienților."
+>>>>>>> upstream/18.0
 =======
 "companiei. Îi place să fie implicat în dezvoltarea software-ului, "
 "marketingului și strategiilor de experiență a clienților."
@@ -225102,7 +226128,11 @@ msgid "Fullscreen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ecran Complet"
+=======
+msgstr "Ecran complet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ecran complet"
 >>>>>>> upstream/18.0
@@ -225999,7 +227029,11 @@ msgid "Furniture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mobila"
+=======
+msgstr "Mobilă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mobilă"
 >>>>>>> upstream/18.0
@@ -226899,6 +227933,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Obțineți vânzările interne (CRM) complet integrate cu vânzările online "
+"(eCommerce), vânzările din magazin (Point of Sale) și piețele precum Amazon."
+>>>>>>> upstream/18.0
 =======
 "Obțineți vânzările interne (CRM) complet integrate cu vânzările online "
 "(eCommerce), vânzările din magazin (Point of Sale) și piețele precum Amazon."
@@ -228075,7 +229114,11 @@ msgid "Here's your coupon code - but hurry! Ends 9/28"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aici este codul tău de cupon - dar te grabi! Se termină 9/28"
+=======
+msgstr "Aici este codul tău de cupon - dar grăbește-te! Se termină pe 28/9"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aici este codul tău de cupon - dar grăbește-te! Se termină pe 28/9"
 >>>>>>> upstream/18.0
@@ -228972,7 +230015,11 @@ msgid "Highest Click Rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cea mai mare rata de clicuri"
+=======
+msgstr "Cea mai mare rată de clicuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cea mai mare rată de clicuri"
 >>>>>>> upstream/18.0
@@ -229869,7 +230916,11 @@ msgid "Highest Open Rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cea mai mare rata de deschidere"
+=======
+msgstr "Cea mai mare rată de deschidere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cea mai mare rată de deschidere"
 >>>>>>> upstream/18.0
@@ -230766,7 +231817,11 @@ msgid "Highest Reply Rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cea mai mare rata de răspuns"
+=======
+msgstr "Cea mai mare rată de răspuns"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cea mai mare rată de răspuns"
 >>>>>>> upstream/18.0
@@ -231663,7 +232718,11 @@ msgid "I changed my mind"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "M-am răzgândit"
+>>>>>>> upstream/18.0
 =======
 msgstr "M-am răzgândit"
 >>>>>>> upstream/18.0
@@ -232560,7 +233619,11 @@ msgid "I never subscribed to this list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu m-am abonat niciodată la această listă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu m-am abonat niciodată la această listă"
 >>>>>>> upstream/18.0
@@ -233457,7 +234520,11 @@ msgid "I receive too many emails from this list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primesc prea multe emailuri de la această listă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primesc prea multe emailuri de la această listă"
 >>>>>>> upstream/18.0
@@ -234149,6 +235216,7 @@ msgstr "ID"
 #: model:ir.model.fields,help:mass_mailing.field_mailing_trace__mail_mail_id_int
 msgid ""
 "ID of the related mail_mail. This field is an integer field because the "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235102,6 +236170,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "related mail_mail can be deleted separately from its statistics. However the "
 "ID is needed for several action and controllers."
 msgstr ""
@@ -235237,6 +236307,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -235729,7 +236802,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă care indică o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă care indică o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -236627,7 +237704,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 >>>>>>> upstream/18.0
@@ -237301,6 +238382,7 @@ msgstr "Dacă este bifat, mesajele noi necesită atenția dumneavoastră."
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_mailing__ab_testing_enabled
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238257,6 +239339,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If checked, recipients will be mailed only once for the whole campaign. This "
 "lets you send different mailings to randomly selected recipients and test "
 "the effectiveness of the mailings, without causing duplicate messages."
@@ -238394,6 +239478,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -238883,7 +239970,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -239783,8 +240874,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este setat, o campanie de email marketing va fi creată astfel încât să "
 "puteți urmări rezultatele în aplicația de email marketing."
+=======
+"Dacă este setat, va fi creat un mailing în masă pentru a putea urmări "
+"rezultatele în aplicația Email Marketing."
+>>>>>>> upstream/18.0
 =======
 "Dacă este setat, va fi creat un mailing în masă pentru a putea urmări "
 "rezultatele în aplicația Email Marketing."
@@ -240908,8 +242004,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă adresa de e-mail este pe lista neagră, contactul nu va mai primi mesaje"
 " de corespondență în masă, din nicio listă"
+=======
+"Dacă adresa de email este pe lista neagră, contactul nu va mai primi "
+"emailuri în masă, din nicio listă"
+>>>>>>> upstream/18.0
 =======
 "Dacă adresa de email este pe lista neagră, contactul nu va mai primi "
 "emailuri în masă, din nicio listă"
@@ -242043,7 +243144,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "mici de 42 de milioane de pixeli"
+=======
+"mici de 42 milioane pixeli"
+>>>>>>> upstream/18.0
 =======
 "mici de 42 milioane pixeli"
 >>>>>>> upstream/18.0
@@ -242961,7 +244066,11 @@ msgid "Import Mailing Contacts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Importă contacte de corespondență în masă"
+=======
+msgstr "Importă contacte de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importă contacte de corespondență"
 >>>>>>> upstream/18.0
@@ -243859,7 +244968,11 @@ msgid "Import Template for Mailing List Contacts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Importă șablon pentru contactele listei de corespondență în masă"
+=======
+msgstr "Importă șablon pentru contactele listei de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importă șablon pentru contactele listei de corespondență"
 >>>>>>> upstream/18.0
@@ -244767,7 +245880,11 @@ msgid "Inline field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Câmp inline"
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmp inline"
 >>>>>>> upstream/18.0
@@ -245674,7 +246791,11 @@ msgid "Invalid email address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresă de email invalidă "
+=======
+msgstr "Adresă de email invalidă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de email invalidă"
 >>>>>>> upstream/18.0
@@ -246571,7 +247692,11 @@ msgid "Invalid from address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Invalid de la adresa"
+=======
+msgstr "Adresă de la invalidă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de la invalidă"
 >>>>>>> upstream/18.0
@@ -247254,6 +248379,7 @@ msgid ""
 "numbers and improves them. She is determined to drive success and delivers "
 "her professional acumen to bring the company to the next level."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248595,6 +249721,11 @@ msgstr ""
 "să le îmbunătățim. Este determinată să aducă succes și folosește expertiza "
 "profesională pentru a duce compania la nivelul următor."
 >>>>>>> upstream/18.0
+=======
+"Iris, cu experiența ei internațională, ne ajută să înțelegem ușor cifrele și "
+"să le îmbunătățim. Este determinată să aducă succes și folosește expertiza "
+"profesională pentru a duce compania la nivelul următor."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__is_ab_test_sent
@@ -248822,7 +249953,11 @@ msgid "Is Ab Test Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este trimis testul A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este trimis testul A/B"
 >>>>>>> upstream/18.0
@@ -249719,7 +250854,11 @@ msgid "Is Body Empty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este corp gol"
+=======
+msgstr "Este corpul gol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este corpul gol"
 >>>>>>> upstream/18.0
@@ -250622,7 +251761,11 @@ msgid "Is Mailing Campaign Activated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este activată campania de corespondență în masă"
+=======
+msgstr "Este activată campania de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este activată campania de corespondență"
 >>>>>>> upstream/18.0
@@ -251519,7 +252662,11 @@ msgid "Is the Winner of its Campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este câștigătorul campaniei sale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este câștigătorul campaniei sale"
 >>>>>>> upstream/18.0
@@ -252416,7 +253563,11 @@ msgid "Italic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înclinat"
+=======
+msgstr "Cursiv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cursiv"
 >>>>>>> upstream/18.0
@@ -253318,7 +254469,11 @@ msgid "Join us and make your company a better place."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alătură-te nouă și fă compania ta un loc mai bun"
+=======
+msgstr "Alătură-te nouă și fă compania ta un loc mai bun."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alătură-te nouă și fă compania ta un loc mai bun."
 >>>>>>> upstream/18.0
@@ -254220,7 +255375,11 @@ msgid "Keep Archives"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Păstrați Arhive"
+=======
+msgstr "Păstrează arhivele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Păstrează arhivele"
 >>>>>>> upstream/18.0
@@ -255117,7 +256276,11 @@ msgid "LOGIN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "LOGARE"
+=======
+msgstr "AUTENTIFICARE"
+>>>>>>> upstream/18.0
 =======
 msgstr "AUTENTIFICARE"
 >>>>>>> upstream/18.0
@@ -256021,7 +257184,11 @@ msgid "Large"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Larg"
+=======
+msgstr "Mare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mare"
 >>>>>>> upstream/18.0
@@ -256918,7 +258085,11 @@ msgid "Last Feature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima Funcție"
+=======
+msgstr "Ultima funcție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima funcție"
 >>>>>>> upstream/18.0
@@ -257815,7 +258986,11 @@ msgid "Last Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume de familie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume de familie"
 >>>>>>> upstream/18.0
@@ -258728,7 +259903,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare făcută de"
+=======
+msgstr "Ultima actualizare de către"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare de către"
 >>>>>>> upstream/18.0
@@ -259636,7 +260815,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -260540,7 +261723,11 @@ msgid "Left Logo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Logo stânga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Logo stânga"
 >>>>>>> upstream/18.0
@@ -261437,7 +262624,11 @@ msgid "Left Text"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Text stânga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text stânga"
 >>>>>>> upstream/18.0
@@ -262335,7 +263526,11 @@ msgid "Let's try the Email Marketing app."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Să încercăm aplicația Email Marketing."
+=======
+msgstr "Hai să încercăm aplicația Email Marketing."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hai să încercăm aplicația Email Marketing."
 >>>>>>> upstream/18.0
@@ -263233,7 +264428,11 @@ msgid "Link Tracker"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmărire Link"
+=======
+msgstr "Urmărire link"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmărire link"
 >>>>>>> upstream/18.0
@@ -264130,7 +265329,11 @@ msgid "Link Tracker Click"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Faceți clic pe Link Tracker"
+=======
+msgstr "Click pe urmărire link"
+>>>>>>> upstream/18.0
 =======
 msgstr "Click pe urmărire link"
 >>>>>>> upstream/18.0
@@ -265027,7 +266230,11 @@ msgid "Link Trackers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Urmăritori de link-uri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmăritori de link-uri"
 >>>>>>> upstream/18.0
@@ -265924,7 +267131,11 @@ msgid "Link Trackers Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr urmăritori de link-uri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr urmăritori de link-uri"
 >>>>>>> upstream/18.0
@@ -266825,8 +268036,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Urmăritorii de link-uri vor măsura de câte ori este făcut clic pe fiecare "
 "link și proporția %s care au făcut clic cel puțin o dată în e-mail-ul dvs."
+=======
+"Urmăritorii de link-uri vor măsura de câte ori fiecare link este accesat și "
+"proporția de %s care au dat clic cel puțin o dată în corespondența ta."
+>>>>>>> upstream/18.0
 =======
 "Urmăritorii de link-uri vor măsura de câte ori fiecare link este accesat și "
 "proporția de %s care au dat clic cel puțin o dată în corespondența ta."
@@ -267956,7 +269172,11 @@ msgid "Links click"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Click Link-uri"
+=======
+msgstr "Click-uri pe link-uri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Click-uri pe link-uri"
 >>>>>>> upstream/18.0
@@ -268864,7 +270084,11 @@ msgid "Mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-Mail"
+=======
+msgstr "E-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail"
 >>>>>>> upstream/18.0
@@ -269761,7 +270985,11 @@ msgid "Mail Blacklist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mail Listă Neagră"
+=======
+msgstr "Listă neagră e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă neagră e-mail"
 >>>>>>> upstream/18.0
@@ -270658,7 +271886,11 @@ msgid "Mail Body"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cuprins e-mail"
+=======
+msgstr "Conținut e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținut e-mail"
 >>>>>>> upstream/18.0
@@ -271560,7 +272792,11 @@ msgid "Mail ID (tech)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ID Mail (tech)"
+=======
+msgstr "ID e-mail (tehnic)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID e-mail (tehnic)"
 >>>>>>> upstream/18.0
@@ -272457,7 +273693,11 @@ msgid "Mail Marketing: A/B Testing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Marketing prin e-mail: A/B Testing"
+=======
+msgstr "Marketing e-mail: Testare A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marketing e-mail: Testare A/B"
 >>>>>>> upstream/18.0
@@ -273354,7 +274594,11 @@ msgid "Mail Marketing: Process queue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Marketing prin e-mail: Procesează coada"
+=======
+msgstr "Marketing e-mail: Procesează coada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marketing e-mail: Procesează coada"
 >>>>>>> upstream/18.0
@@ -274251,7 +275495,11 @@ msgid "Mail Render Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Redare Mail Mixin"
+=======
+msgstr "Mixin redare e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin redare e-mail"
 >>>>>>> upstream/18.0
@@ -275150,7 +276398,11 @@ msgid "Mail Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Server Mail"
+=======
+msgstr "Server e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Server e-mail"
 >>>>>>> upstream/18.0
@@ -276047,7 +277299,11 @@ msgid "Mail Server Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Server Mail Disponibil"
+=======
+msgstr "Server e-mail disponibil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Server e-mail disponibil"
 >>>>>>> upstream/18.0
@@ -276948,7 +278204,11 @@ msgid "Mail Statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistici mail"
+=======
+msgstr "Statistici e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici e-mail"
 >>>>>>> upstream/18.0
@@ -277845,7 +279105,11 @@ msgid "Mail Traces"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmărire Mail"
+=======
+msgstr "Urmăriri e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmăriri e-mail"
 >>>>>>> upstream/18.0
@@ -278747,7 +280011,11 @@ msgid "Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Expediere"
+=======
+msgstr "Corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondență"
 >>>>>>> upstream/18.0
@@ -279644,7 +280912,11 @@ msgid "Mailing Background"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fundal corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fundal corespondență"
 >>>>>>> upstream/18.0
@@ -280541,7 +281813,11 @@ msgid "Mailing Campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campanie Corespondeță"
+=======
+msgstr "Campanie corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campanie corespondență"
 >>>>>>> upstream/18.0
@@ -281438,7 +282714,11 @@ msgid "Mailing Campaigns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campanii Corespondență"
+=======
+msgstr "Campanii corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campanii corespondență"
 >>>>>>> upstream/18.0
@@ -282338,7 +283618,11 @@ msgid "Mailing Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contact Corespondență"
+=======
+msgstr "Contact corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact corespondență"
 >>>>>>> upstream/18.0
@@ -283235,7 +284519,11 @@ msgid "Mailing Contact Import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Import Contact Corespondență"
+=======
+msgstr "Import contact corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Import contact corespondență"
 >>>>>>> upstream/18.0
@@ -284133,7 +285421,11 @@ msgid "Mailing Contacts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contacte corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contacte corespondență"
 >>>>>>> upstream/18.0
@@ -285030,7 +286322,11 @@ msgid "Mailing Enabled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Corespondență Activată"
+=======
+msgstr "Corespondență activată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondență activată"
 >>>>>>> upstream/18.0
@@ -285943,7 +287239,11 @@ msgid "Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Listă de discuții"
+=======
+msgstr "Listă corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă corespondență"
 >>>>>>> upstream/18.0
@@ -286840,7 +288140,11 @@ msgid "Mailing List #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Listă corespondență #"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă corespondență #"
 >>>>>>> upstream/18.0
@@ -287743,7 +289047,11 @@ msgid "Mailing List Contacts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Persoane de contact cu lista de corespondență"
+=======
+msgstr "Contacte listă corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contacte listă corespondență"
 >>>>>>> upstream/18.0
@@ -288641,7 +289949,11 @@ msgid "Mailing List Subscription"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abonament la lista de corespondență"
+=======
+msgstr "Abonament listă corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abonament listă corespondență"
 >>>>>>> upstream/18.0
@@ -289541,7 +290853,11 @@ msgid "Mailing List Subscriptions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abonamente la lista de corespondență"
+=======
+msgstr "Abonamente listă corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abonamente listă corespondență"
 >>>>>>> upstream/18.0
@@ -290446,7 +291762,11 @@ msgid "Mailing Lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Liste de e-mail"
+=======
+msgstr "Liste corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liste corespondență"
 >>>>>>> upstream/18.0
@@ -291343,7 +292663,11 @@ msgid "Mailing Lists:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liste corespondență:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liste corespondență:"
 >>>>>>> upstream/18.0
@@ -292240,7 +293564,11 @@ msgid "Mailing Reports Turned Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rapoarte de corespondență dezactivate"
+=======
+msgstr "Rapoarte corespondență dezactivate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapoarte corespondență dezactivate"
 >>>>>>> upstream/18.0
@@ -293045,6 +294373,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                If needed, they can be turned back on from the"
 msgstr ""
 "Rapoartele de corespondență au fost dezactivate pentru toți utilizatorii. <br/>\n"
@@ -293680,6 +295009,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                If needed, they can be turned back on from "
 "the"
 msgstr ""
@@ -293815,6 +295146,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -294306,7 +295640,11 @@ msgid "Mailing Subscription Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motiv abonament corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motiv abonament corespondență"
 >>>>>>> upstream/18.0
@@ -295203,7 +296541,11 @@ msgid "Mailing Subscriptions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Abonamente Corespondență"
+=======
+msgstr "Abonamente corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abonamente corespondență"
 >>>>>>> upstream/18.0
@@ -296100,7 +297442,11 @@ msgid "Mailing Test"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Testare corespondență"
+=======
+msgstr "Test corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Test corespondență"
 >>>>>>> upstream/18.0
@@ -296999,7 +298345,11 @@ msgid "Mailing Traces"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmărire corespondență"
+=======
+msgstr "Urmăriri corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmăriri corespondență"
 >>>>>>> upstream/18.0
@@ -297896,7 +299246,11 @@ msgid "Mailing Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tip Mailing"
+=======
+msgstr "Tip corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip corespondență"
 >>>>>>> upstream/18.0
@@ -298793,7 +300147,11 @@ msgid "Mailing Type Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Descriere tip mailing"
+=======
+msgstr "Descriere tip corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descriere tip corespondență"
 >>>>>>> upstream/18.0
@@ -299699,7 +301057,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Persoana de contact vă permite să separați publicul dvs. de marketing de "
+=======
+"Contactele de corespondență vă permit să separați audiența de marketing de "
+>>>>>>> upstream/18.0
 =======
 "Contactele de corespondență vă permit să separați audiența de marketing de "
 >>>>>>> upstream/18.0
@@ -300598,7 +301960,11 @@ msgid "Mailing filters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Filtre de corespondență"
+=======
+msgstr "Filtre corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtre corespondență"
 >>>>>>> upstream/18.0
@@ -301505,7 +302871,11 @@ msgid "Mailings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Corespondenta"
+=======
+msgstr "Corespondențe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondențe"
 >>>>>>> upstream/18.0
@@ -302402,7 +303772,11 @@ msgid "Mailings that are assigned to me"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaje care mi se atribuie"
+=======
+msgstr "Corespondențe care mi se atribuie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondențe care mi se atribuie"
 >>>>>>> upstream/18.0
@@ -303299,7 +304673,11 @@ msgid "Manage Mass Mailing Campaigns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gestionați campaniile de Mailing în masă"
+=======
+msgstr "Gestionează campaniile de corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionează campaniile de corespondență în masă"
 >>>>>>> upstream/18.0
@@ -304197,7 +305575,11 @@ msgid "Manage Subscriptions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gestionează abonamentele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionează abonamentele"
 >>>>>>> upstream/18.0
@@ -305094,7 +306476,11 @@ msgid "Manage mass mailing campaigns"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gestionați campaniile de Mailing în masă"
+=======
+msgstr "Gestionează campaniile de corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionează campaniile de corespondență în masă"
 >>>>>>> upstream/18.0
@@ -306001,7 +307387,11 @@ msgid "Marketing Content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Conținut Marketing"
+=======
+msgstr "Conținut de marketing"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținut de marketing"
 >>>>>>> upstream/18.0
@@ -306903,7 +308293,11 @@ msgid "Mass Mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mail în masă"
+=======
+msgstr "Corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondență în masă"
 >>>>>>> upstream/18.0
@@ -307809,7 +309203,11 @@ msgid "Mass Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Emailuri în masă"
+=======
+msgstr "Corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondență în masă"
 >>>>>>> upstream/18.0
@@ -308707,7 +310105,11 @@ msgid "Mass Mailing \"%s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Emailuri în masă \"%s\""
+=======
+msgstr "Corespondență în masă \"%s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondență în masă \"%s\""
 >>>>>>> upstream/18.0
@@ -309605,7 +311007,11 @@ msgid "Mass Mailing Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Analize mail în masă"
+=======
+msgstr "Analiză corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analiză corespondență în masă"
 >>>>>>> upstream/18.0
@@ -310503,7 +311909,11 @@ msgid "Mass Mailing Campaign"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Campanie emailuri în masă"
+=======
+msgstr "Campanie de corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Campanie de corespondență în masă"
 >>>>>>> upstream/18.0
@@ -311400,7 +312810,11 @@ msgid "Mass Mailing Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume Mailing în masă"
+=======
+msgstr "Nume corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume corespondență în masă"
 >>>>>>> upstream/18.0
@@ -312301,7 +313715,11 @@ msgid "Mass Mailing Statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistici Emailuri în masă"
+=======
+msgstr "Statistici corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici corespondență în masă"
 >>>>>>> upstream/18.0
@@ -313199,7 +314617,11 @@ msgid "Mass Mailings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Emailuri în masă"
+=======
+msgstr "Corespondențe în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondențe în masă"
 >>>>>>> upstream/18.0
@@ -314096,7 +315518,11 @@ msgid "Media List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Listă Media "
+=======
+msgstr "Listă media"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă media"
 >>>>>>> upstream/18.0
@@ -315009,7 +316435,11 @@ msgid "Membership updated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abonament actualizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abonament actualizat"
 >>>>>>> upstream/18.0
@@ -315913,7 +317343,11 @@ msgid "Merge Mass Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Îmbinați lista de distribuție în masă"
+=======
+msgstr "Îmbină lista de corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Îmbină lista de corespondență în masă"
 >>>>>>> upstream/18.0
@@ -316815,7 +318249,11 @@ msgid "Merge into a new mailing list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mergeți într-o nouă listă de discuții"
+=======
+msgstr "Îmbină într-o listă de corespondență nouă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Îmbină într-o listă de corespondență nouă"
 >>>>>>> upstream/18.0
@@ -317712,7 +319150,11 @@ msgid "Merge into an existing mailing list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mergeți într-o listă de corespondență existentă"
+=======
+msgstr "Îmbină într-o listă de corespondență existentă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Îmbină într-o listă de corespondență existentă"
 >>>>>>> upstream/18.0
@@ -318610,7 +320052,11 @@ msgid "Message Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eroare de livrare a mesajului"
+=======
+msgstr "Eroare livrare mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eroare livrare mesaj"
 >>>>>>> upstream/18.0
@@ -319301,6 +320747,7 @@ msgstr "Mich Stark, COO"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
 msgid ""
 "Mich loves taking on challenges. With his multi-year experience as "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320254,6 +321701,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Commercial Director in the software industry, Mich has helped the company to "
 "get where it is today. Mich is among the best minds."
 msgstr ""
@@ -320389,6 +321838,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320653,6 +322105,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.theme_default_template
 msgid ""
 "Michael Fletcher<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321418,6 +322871,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                   <span style=\"font-size: 12px; font-weight: bolder;"
 "\">Customer Service</span>"
 msgstr ""
@@ -321553,6 +323008,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -322039,7 +323497,11 @@ msgid "Missing email address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa de email lipsește"
+=======
+msgstr "Adresă de email lipsă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de email lipsă"
 >>>>>>> upstream/18.0
@@ -322936,7 +324398,11 @@ msgid "Missing from address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lipsește de la adresa"
+=======
+msgstr "Adresă de la lipsă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de la lipsă"
 >>>>>>> upstream/18.0
@@ -323861,7 +325327,11 @@ msgid "More Info"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alte informații"
+=======
+msgstr "Mai multe informații"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mai multe informații"
 >>>>>>> upstream/18.0
@@ -324763,7 +326233,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -325660,7 +327134,11 @@ msgid "My Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Compania Mea"
+=======
+msgstr "Compania mea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Compania mea"
 >>>>>>> upstream/18.0
@@ -326562,7 +328040,11 @@ msgid "My Mailings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesajele mele"
+=======
+msgstr "Corespondențele mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondențele mele"
 >>>>>>> upstream/18.0
@@ -327487,7 +328969,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următoarea activitate din calendar"
+=======
+msgstr "Următorul eveniment din calendarul activităților"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următorul eveniment din calendarul activităților"
 >>>>>>> upstream/18.0
@@ -328384,7 +329870,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită pentru următoarea activitate"
+=======
+msgstr "Termen limită următoarea activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită următoarea activitate"
 >>>>>>> upstream/18.0
@@ -329281,7 +330771,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sumarul următoarei activități"
+=======
+msgstr "Sumar următoarea activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar următoarea activitate"
 >>>>>>> upstream/18.0
@@ -330178,7 +331672,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul tip de activitate"
+=======
+msgstr "Tip următoarea activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip următoarea activitate"
 >>>>>>> upstream/18.0
@@ -331075,7 +332573,11 @@ msgid "Next Departure Is Past"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Următoarea plecare este în trecut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Următoarea plecare este în trecut"
 >>>>>>> upstream/18.0
@@ -331973,7 +333475,11 @@ msgid "No %s address bounced yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nici o adresă %s nu a fost respinsă până acum!"
+=======
+msgstr "Nicio adresă %s nu a fost respinsă încă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nicio adresă %s nu a fost respinsă încă!"
 >>>>>>> upstream/18.0
@@ -332871,7 +334377,11 @@ msgid "No %s clicked your mailing yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun %s nu a dat clic pe mesajul dvs. până acum!"
+=======
+msgstr "Niciun %s nu a dat clic pe corespondența dvs. încă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciun %s nu a dat clic pe corespondența dvs. încă!"
 >>>>>>> upstream/18.0
@@ -333769,7 +335279,11 @@ msgid "No %s opened your mailing yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun %s nu a deschis mesajul dvs. până acum!"
+=======
+msgstr "Niciun %s nu a deschis corespondența dvs. încă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciun %s nu a deschis corespondența dvs. încă!"
 >>>>>>> upstream/18.0
@@ -334667,7 +336181,11 @@ msgid "No %s received your mailing yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun %s nu a primit mesajul dvs. până acum!"
+=======
+msgstr "Niciun %s nu a primit corespondența dvs. încă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciun %s nu a primit corespondența dvs. încă!"
 >>>>>>> upstream/18.0
@@ -335565,7 +337083,11 @@ msgid "No %s replied to your mailing yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun %s nu a răspuns la mesajul dvs. până acum!"
+=======
+msgstr "Niciun %s nu a răspuns la corespondența dvs. încă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciun %s nu a răspuns la corespondența dvs. încă!"
 >>>>>>> upstream/18.0
@@ -336463,7 +337985,11 @@ msgid "No Link Tracker for that mailing!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu există tracker de link pentru această corespondență!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există tracker de link pentru această corespondență!"
 >>>>>>> upstream/18.0
@@ -337360,7 +338886,11 @@ msgid "No Mailing Data yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu există date de corespondență încă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există date de corespondență încă!"
 >>>>>>> upstream/18.0
@@ -338267,7 +339797,11 @@ msgid "No customization"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără particularizare"
+=======
+msgstr "Fără personalizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără personalizare"
 >>>>>>> upstream/18.0
@@ -339170,7 +340704,11 @@ msgid "No data yet."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu există date încă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu există date încă."
 >>>>>>> upstream/18.0
@@ -339854,6 +341392,7 @@ msgid ""
 "No mailing for this A/B testing campaign has been sent yet! Send one first "
 "and try again later."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -340971,6 +342510,10 @@ msgstr ""
 "Nicio corespondență pentru această campanie de testare A/B nu a fost trimisă "
 "încă! Trimiteți una mai întâi și încercați din nou mai târziu."
 >>>>>>> upstream/18.0
+=======
+"Nicio corespondență pentru această campanie de testare A/B nu a fost trimisă "
+"încă! Trimiteți una mai întâi și încercați din nou mai târziu."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
@@ -341201,8 +342744,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu este necesar să importați liste de corespondență, puteți trimite mesaje "
 "corespondenței către contacte salvate în alte aplicații Odoo."
+=======
+"Nu este nevoie să importați liste de corespondență, puteți trimite mesaje "
+"către contacte salvate în alte aplicații Odoo."
+>>>>>>> upstream/18.0
 =======
 "Nu este nevoie să importați liste de corespondență, puteți trimite mesaje "
 "către contacte salvate în alte aplicații Odoo."
@@ -342339,7 +343887,11 @@ msgid "None"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Fără"
+=======
+msgstr "Niciuna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niciuna"
 >>>>>>> upstream/18.0
@@ -343236,7 +344788,11 @@ msgid "Normalized Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail normalizat"
+=======
+msgstr "Email normalizat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Email normalizat"
 >>>>>>> upstream/18.0
@@ -344133,7 +345689,11 @@ msgid "Normalized email address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa de e-mail normalizată"
+=======
+msgstr "Adresă de email normalizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de email normalizată"
 >>>>>>> upstream/18.0
@@ -345032,7 +346592,11 @@ msgid "Not subscribed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neabonat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neabonat"
 >>>>>>> upstream/18.0
@@ -345929,7 +347493,11 @@ msgid "Nothing to see yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nimic de văzut încă!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nimic de văzut încă!"
 >>>>>>> upstream/18.0
@@ -346832,7 +348400,11 @@ msgid "Number of Blacklisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de adrese blocate"
+=======
+msgstr "Număr de adrese pe lista neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de adrese pe lista neagră"
 >>>>>>> upstream/18.0
@@ -347729,7 +349301,11 @@ msgid "Number of Clicks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nr. Click-uri"
+=======
+msgstr "Număr de clicuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de clicuri"
 >>>>>>> upstream/18.0
@@ -348631,7 +350207,11 @@ msgid "Number of Emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de e-mailuri"
+=======
+msgstr "Număr de emailuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de emailuri"
 >>>>>>> upstream/18.0
@@ -349528,7 +351108,11 @@ msgid "Number of Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de mesaje corespondență"
+=======
+msgstr "Număr de corespondențe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de corespondențe"
 >>>>>>> upstream/18.0
@@ -350425,7 +352009,11 @@ msgid "Number of Mass Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de corespondență în masă"
+=======
+msgstr "Număr de corespondențe în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de corespondențe în masă"
 >>>>>>> upstream/18.0
@@ -351322,7 +352910,11 @@ msgid "Number of Opted-out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr de persoane care au ales să nu primească mesaje"
+=======
+msgstr "Număr de persoane dezabonate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de persoane dezabonate"
 >>>>>>> upstream/18.0
@@ -352219,7 +353811,11 @@ msgid "Number of Recipients"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Număr Destinatari"
+=======
+msgstr "Număr destinatari"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr destinatari"
 >>>>>>> upstream/18.0
@@ -353116,7 +354712,11 @@ msgid "Number of bounced email."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Număr de e-mailuri respinse."
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de e-mailuri respinse."
 >>>>>>> upstream/18.0
@@ -354020,7 +355620,11 @@ msgid "Number of messages requiring action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje care necesită acțiune"
+=======
+msgstr "Număr de mesaje care necesită acțiune"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje care necesită acțiune"
 >>>>>>> upstream/18.0
@@ -354918,7 +356522,11 @@ msgid "Number of messages with delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numărul de mesaje cu eroare de livrare"
+=======
+msgstr "Număr de mesaje cu eroare de livrare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr de mesaje cu eroare de livrare"
 >>>>>>> upstream/18.0
@@ -355820,7 +357428,11 @@ msgid "ON YOUR NEXT ORDER!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "LA URMĂTOAREA DUMNEAVOASTRĂ COMANDĂ!"
+=======
+msgstr "LA URMĂTOAREA COMANDĂ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "LA URMĂTOAREA COMANDĂ!"
 >>>>>>> upstream/18.0
@@ -356731,8 +358343,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odată ce a fost identificată cea mai bună variantă, aceasta va fi trimisă "
 "restului de destinatari."
+=======
+"Odată ce cea mai bună versiune este identificată, o vom trimite "
+"destinatarilor rămași."
+>>>>>>> upstream/18.0
 =======
 "Odată ce cea mai bună versiune este identificată, o vom trimite "
 "destinatarilor rămași."
@@ -357855,6 +359472,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odată ce trimiteți aceste e-mailuri, vor face o intrare grandioasă în toate "
+"inbox-urile, creând agitație!"
+>>>>>>> upstream/18.0
 =======
 "Odată ce trimiteți aceste e-mailuri, vor face o intrare grandioasă în toate "
 "inbox-urile, creând agitație!"
@@ -358989,7 +360611,11 @@ msgid "Opened"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Deschis(a)"
+=======
+msgstr "Deschis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deschis"
 >>>>>>> upstream/18.0
@@ -359898,7 +361524,11 @@ msgid "Opened Ratio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Rațio deschis"
+=======
+msgstr "Raport deschidere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport deschidere"
 >>>>>>> upstream/18.0
@@ -360796,7 +362426,11 @@ msgid "Opt Out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu participați"
+=======
+msgstr "Renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunțare"
 >>>>>>> upstream/18.0
@@ -361470,6 +363104,7 @@ msgstr "Renunțare"
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact__opt_out
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362423,6 +364058,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Opt out flag for a specific mailing list. This field should not be used in a "
 "view without a unique and active mailing list context."
 msgstr ""
@@ -362558,6 +364195,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -363045,7 +364685,11 @@ msgid "Opt-Out Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raport renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport renunțare"
 >>>>>>> upstream/18.0
@@ -363942,7 +365586,11 @@ msgid "Opt-out (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu participați (%)"
+=======
+msgstr "Renunțare (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunțare (%)"
 >>>>>>> upstream/18.0
@@ -364839,7 +366487,11 @@ msgid "Opt-out Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motiv renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motiv renunțare"
 >>>>>>> upstream/18.0
@@ -365736,7 +367388,11 @@ msgid "Opted Out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Optat pentru a nu primi"
+=======
+msgstr "Renunțat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunțat"
 >>>>>>> upstream/18.0
@@ -366633,7 +368289,11 @@ msgid "Opted-out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Optat pentru a nu primi"
+=======
+msgstr "Renunțat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Renunțat"
 >>>>>>> upstream/18.0
@@ -367309,6 +368969,7 @@ msgstr "Renunțat"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368264,6 +369925,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -368400,6 +370063,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -368887,7 +370553,11 @@ msgid "Optout Reasons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motive renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motive renunțare"
 >>>>>>> upstream/18.0
@@ -369784,7 +371454,11 @@ msgid "Other"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Altele"
+=======
+msgstr "Altul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Altul"
 >>>>>>> upstream/18.0
@@ -370686,7 +372360,11 @@ msgid "Outgoing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ieșiri"
+=======
+msgstr "Ieșire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ieșire"
 >>>>>>> upstream/18.0
@@ -371583,7 +373261,11 @@ msgid "Outgoing Mails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Email-uri Expediate"
+=======
+msgstr "E-mailuri trimise"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mailuri trimise"
 >>>>>>> upstream/18.0
@@ -372480,7 +374162,11 @@ msgid "Padding ↔"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spațiere ↔"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spațiere ↔"
 >>>>>>> upstream/18.0
@@ -373388,7 +375074,11 @@ msgid "Percentage of Blacklisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procentaj de persoane blocate"
+=======
+msgstr "Procent persoane pe lista neagră"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procent persoane pe lista neagră"
 >>>>>>> upstream/18.0
@@ -374285,7 +375975,11 @@ msgid "Percentage of Bouncing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procentaj de persoane care au returnat"
+=======
+msgstr "Procent respinse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procent respinse"
 >>>>>>> upstream/18.0
@@ -375182,7 +376876,11 @@ msgid "Percentage of Opted-out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Procentaj de persoane care nu participă"
+=======
+msgstr "Procent renunțare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procent renunțare"
 >>>>>>> upstream/18.0
@@ -376082,8 +377780,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Procentajul de persoane care vor primi e-mail. Destinatarii vor fi alesi "
 "întâmplător."
+=======
+"Procentul de contacte care vor primi e-mail. Destinatarii vor fi aleși "
+"aleatoriu."
+>>>>>>> upstream/18.0
 =======
 "Procentul de contacte care vor primi e-mail. Destinatarii vor fi aleși "
 "aleatoriu."
@@ -377203,9 +378906,13 @@ msgid "Pick a dedicated outgoing mail server for your mass mailings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Alegeți un server de e-mail de ieșire dedicat pentru e-mail-urile dvs. de "
 "masă"
+=======
+msgstr "Alegeți un server de e-mail dedicat pentru corespondențele în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alegeți un server de e-mail dedicat pentru corespondențele în masă"
 >>>>>>> upstream/18.0
@@ -378103,7 +379810,11 @@ msgid "Pick the <b>email subject</b>."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alegeți <b> subiectul e-mailului</b>."
+=======
+msgstr "Alegeți <b>subiectul e-mailului</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Alegeți <b>subiectul e-mailului</b>."
 >>>>>>> upstream/18.0
@@ -378919,6 +380630,7 @@ msgid "Please let us know why you updated your subscription."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379291,6 +381003,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Vă rugăm să ne spuneți motivul pentru care ați actualizat abonamentul."
+>>>>>>> upstream/18.0
+=======
+msgstr "Vă rugăm să ne spuneți motivul pentru care ați actualizat abonamentul."
 >>>>>>> upstream/18.0
 =======
 msgstr "Vă rugăm să ne spuneți motivul pentru care ați actualizat abonamentul."
@@ -379911,6 +381626,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vă rugăm să ne spuneți motivul pentru care doriți să fiți pe lista noastră "
+"de blocare."
+>>>>>>> upstream/18.0
 =======
 "Vă rugăm să ne spuneți motivul pentru care doriți să fiți pe lista noastră "
 "de blocare."
@@ -381036,7 +382756,11 @@ msgid "Post heading"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Postare rubrică"
+=======
+msgstr "Titlu postare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Titlu postare"
 >>>>>>> upstream/18.0
@@ -381933,7 +383657,11 @@ msgid "Preferred Reply-To Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresă de răspuns preferată"
+=======
+msgstr "Adresă preferată pentru răspuns"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă preferată pentru răspuns"
 >>>>>>> upstream/18.0
@@ -382835,7 +384563,11 @@ msgid "Preview Text"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Previzualizare Text"
+=======
+msgstr "Text de previzualizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text de previzualizare"
 >>>>>>> upstream/18.0
@@ -383732,7 +385464,11 @@ msgid "Primary Buttons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Butoane primare"
+=======
+msgstr "Butoane principale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Butoane principale"
 >>>>>>> upstream/18.0
@@ -384674,7 +386410,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -385572,7 +387312,11 @@ msgid "Read More"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mai mult"
+=======
+msgstr "Citește mai mult"
+>>>>>>> upstream/18.0
 =======
 msgstr "Citește mai mult"
 >>>>>>> upstream/18.0
@@ -386470,6 +388214,7 @@ msgid "Ready for take-off!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Gata pentru decolare!"
 =======
 msgstr "Gata de lansare!"
@@ -387009,6 +388754,8 @@ msgstr "Gata de lansare!"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Gata de lansare!"
 
 #. module: mass_mailing
@@ -387144,6 +388891,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -387644,7 +389394,11 @@ msgid "Received Ratio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport Primit"
+=======
+msgstr "Raport primit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport primit"
 >>>>>>> upstream/18.0
@@ -388551,7 +390305,11 @@ msgid "Recipient Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăritori destinatari"
+=======
+msgstr "Urmăritori destinatar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmăritori destinatar"
 >>>>>>> upstream/18.0
@@ -389461,7 +391219,11 @@ msgid "Recipients Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modelul destinatarilor"
+=======
+msgstr "Model destinatari"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model destinatari"
 >>>>>>> upstream/18.0
@@ -390359,7 +392121,11 @@ msgid "Recipients Model Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Numele modelului destinatarilor"
+=======
+msgstr "Nume model destinatari"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume model destinatari"
 >>>>>>> upstream/18.0
@@ -391256,7 +393022,11 @@ msgid "Recipients Real Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Beneficiarii Modelul real"
+=======
+msgstr "Model destinatari real"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model destinatari real"
 >>>>>>> upstream/18.0
@@ -392153,7 +393923,11 @@ msgid "Redeem Discount!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valorificați reducerea!"
+=======
+msgstr "Folosește reducerea!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosește reducerea!"
 >>>>>>> upstream/18.0
@@ -393055,7 +394829,11 @@ msgid "Register Now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare"
+=======
+msgstr "Înregistrează-te acum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrează-te acum"
 >>>>>>> upstream/18.0
@@ -393952,7 +395730,11 @@ msgid "Regular"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obișnuit"
+=======
+msgstr "Normal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normal"
 >>>>>>> upstream/18.0
@@ -394849,7 +396631,11 @@ msgid "Reload a favorite filter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reîncărcați un filtru preferat"
+=======
+msgstr "Reîncarcă un filtru favorit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reîncarcă un filtru favorit"
 >>>>>>> upstream/18.0
@@ -395747,7 +397533,11 @@ msgid "Remove from Favorites"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eliminați din Favorite"
+=======
+msgstr "Elimină din favorite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elimină din favorite"
 >>>>>>> upstream/18.0
@@ -396646,7 +398436,11 @@ msgid "Remove from Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Eliminați din șabloane"
+=======
+msgstr "Elimină din șabloane"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elimină din șabloane"
 >>>>>>> upstream/18.0
@@ -397543,7 +399337,11 @@ msgid "Rendering Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Model de redare"
+=======
+msgstr "Model de randare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model de randare"
 >>>>>>> upstream/18.0
@@ -398461,7 +400259,11 @@ msgid "Replied Ratio"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raportul răspuns"
+=======
+msgstr "Raport răspuns"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport răspuns"
 >>>>>>> upstream/18.0
@@ -399388,7 +401190,11 @@ msgid "Restore"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Restabilire"
+=======
+msgstr "Restabilește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Restabilește"
 >>>>>>> upstream/18.0
@@ -400297,7 +402103,11 @@ msgid "Round Corners"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Colțuri rotunde"
+=======
+msgstr "Colțuri rotunjite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Colțuri rotunjite"
 >>>>>>> upstream/18.0
@@ -401205,7 +403015,11 @@ msgid "Sample Mail Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wizard e-mail de probă"
+=======
+msgstr "Asistent e-mail de probă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asistent e-mail de probă"
 >>>>>>> upstream/18.0
@@ -402103,7 +403917,11 @@ msgid "Save as Favorite Filter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Salvați ca filtru favorit"
+=======
+msgstr "Salvează ca filtru favorit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Salvează ca filtru favorit"
 >>>>>>> upstream/18.0
@@ -403008,7 +404826,11 @@ msgid "Schedule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Programare"
+=======
+msgstr "Programează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Programează"
 >>>>>>> upstream/18.0
@@ -403912,7 +405734,11 @@ msgid "Scheduled Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată planificată"
+=======
+msgstr "Data programată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data programată"
 >>>>>>> upstream/18.0
@@ -404819,7 +406645,11 @@ msgid "Scheduled date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data planificată"
+=======
+msgstr "Data programată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data programată"
 >>>>>>> upstream/18.0
@@ -405717,7 +407547,11 @@ msgid "Scheduled for"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Planificat pentru"
+=======
+msgstr "Programat pentru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Programat pentru"
 >>>>>>> upstream/18.0
@@ -406614,7 +408448,11 @@ msgid "Scheduled on #{record.next_departure.value}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Programat în #{record.next_departure.value}"
+=======
+msgstr "Programat la #{record.next_departure.value}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Programat la #{record.next_departure.value}"
 >>>>>>> upstream/18.0
@@ -407511,7 +409349,11 @@ msgid "Scheduled on #{record.schedule_date.value}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Programat în #{record.schedule_date.value}"
+=======
+msgstr "Programat la #{record.schedule_date.value}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Programat la #{record.schedule_date.value}"
 >>>>>>> upstream/18.0
@@ -408191,6 +410033,7 @@ msgstr "Scor"
 #. odoo-python
 #: code:addons/mass_mailing/models/ir_model.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409050,6 +410893,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Searching Mailing Enabled models supports only direct search using '='' or '!"
 "='."
 msgstr ""
@@ -409184,6 +411029,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -409670,7 +411518,11 @@ msgid "Second Feature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facilitate secundară"
+=======
+msgstr "A doua caracteristică"
+>>>>>>> upstream/18.0
 =======
 msgstr "A doua caracteristică"
 >>>>>>> upstream/18.0
@@ -410567,7 +412419,11 @@ msgid "Second feature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Funcție Secundară"
+=======
+msgstr "A doua funcție"
+>>>>>>> upstream/18.0
 =======
 msgstr "A doua funcție"
 >>>>>>> upstream/18.0
@@ -411464,7 +413320,11 @@ msgid "Second list of Features"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista Secundară de funcții"
+=======
+msgstr "A doua listă de funcții"
+>>>>>>> upstream/18.0
 =======
 msgstr "A doua listă de funcții"
 >>>>>>> upstream/18.0
@@ -412366,7 +414226,11 @@ msgid "Select a Target Model..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectați un model țintă..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați un model țintă..."
 >>>>>>> upstream/18.0
@@ -413263,7 +415127,11 @@ msgid "Select and delete blocks to remove features."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectați și ștergeți blocurile pentru a elimina facilitățile."
+=======
+msgstr "Selectați și ștergeți blocuri pentru a elimina funcții."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați și ștergeți blocuri pentru a elimina funcții."
 >>>>>>> upstream/18.0
@@ -414160,7 +416028,11 @@ msgid "Select mailing lists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectați liste de corespondețe"
+=======
+msgstr "Selectați liste de corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați liste de corespondență"
 >>>>>>> upstream/18.0
@@ -415057,7 +416929,11 @@ msgid "Select recipients..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selectați destinatari..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Selectați destinatari..."
 >>>>>>> upstream/18.0
@@ -415955,7 +417831,12 @@ msgid "Selection to determine the winner mailing that will be sent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Selectați pentru a determina mailing-ul câștigător care va fi trimis."
+=======
+msgstr ""
+"Selecție pentru a determina corespondența câștigătoare care va fi trimisă."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Selecție pentru a determina corespondența câștigătoare care va fi trimisă."
@@ -417082,7 +418963,11 @@ msgid "Send Final On"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimite final la"
+=======
+msgstr "Trimite finalul la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite finalul la"
 >>>>>>> upstream/18.0
@@ -417986,7 +419871,11 @@ msgid "Send Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimite e-mail"
+=======
+msgstr "Trimite corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite corespondență"
 >>>>>>> upstream/18.0
@@ -418883,7 +420772,11 @@ msgid "Send Mass Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimite e-mail în masă"
+=======
+msgstr "Trimite corespondență în masă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite corespondență în masă"
 >>>>>>> upstream/18.0
@@ -419781,7 +421674,11 @@ msgid "Send a Sample Mail"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimite un email de probă"
+=======
+msgstr "Trimite un e-mail de probă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimite un e-mail de probă"
 >>>>>>> upstream/18.0
@@ -420681,8 +422578,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trimiteți un raport responsabilului de mailing într-o zi după ce mailing-ul "
 "a fost trimis."
+=======
+"Trimiteți un raport responsabilului de corespondență la o zi după ce a fost "
+"trimisă."
+>>>>>>> upstream/18.0
 =======
 "Trimiteți un raport responsabilului de corespondență la o zi după ce a fost "
 "trimisă."
@@ -421803,7 +423705,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trimiteți un e-mail de probă pentru a testa scopul la adresa de mai jos."
+=======
+"Trimiteți o corespondență de probă pentru testare la adresa de mai jos."
+>>>>>>> upstream/18.0
 =======
 "Trimiteți o corespondență de probă pentru testare la adresa de mai jos."
 >>>>>>> upstream/18.0
@@ -422701,6 +424607,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Trimiteți o versiune de test a corespondenței pentru a previzualiza designul"
+>>>>>>> upstream/18.0
 =======
 "Trimiteți o versiune de test a corespondenței pentru a previzualiza designul"
 >>>>>>> upstream/18.0
@@ -423608,8 +425518,11 @@ msgid "Send test"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -424282,6 +426195,9 @@ msgstr "Trimite la toți"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -424954,7 +426870,11 @@ msgid "Sending"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimitere"
+=======
+msgstr "Se trimite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Se trimite"
 >>>>>>> upstream/18.0
@@ -425862,7 +427782,11 @@ msgid "Sent By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Trimis de către"
+=======
+msgstr "Trimis de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis de"
 >>>>>>> upstream/18.0
@@ -426759,7 +428683,11 @@ msgid "Sent Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dată trimitere"
+=======
+msgstr "Data trimiterii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data trimiterii"
 >>>>>>> upstream/18.0
@@ -427657,7 +429585,11 @@ msgid "Sent Mailings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail-uri trimise"
+=======
+msgstr "Corespondențe trimise"
+>>>>>>> upstream/18.0
 =======
 msgstr "Corespondențe trimise"
 >>>>>>> upstream/18.0
@@ -428559,7 +430491,11 @@ msgid "Sent Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Perioadă Trimise"
+=======
+msgstr "Perioada trimiterii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Perioada trimiterii"
 >>>>>>> upstream/18.0
@@ -429462,7 +431398,11 @@ msgid "Sent. Thanks you for your feedback!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trimis. Vă mulțumim pentru feedback!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trimis. Vă mulțumim pentru feedback!"
 >>>>>>> upstream/18.0
@@ -430360,7 +432300,11 @@ msgid "Separate Mailing Contact Names into two fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separă numele contactului de corespondență în două câmpuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separă numele contactului de corespondență în două câmpuri"
 >>>>>>> upstream/18.0
@@ -431262,7 +433206,11 @@ msgid "Separators"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Separatori"
+=======
+msgstr "Separatoare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separatoare"
 >>>>>>> upstream/18.0
@@ -432176,7 +434124,11 @@ msgid "Show In Preferences"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișează în Preferințe"
+=======
+msgstr "Afișează în preferințe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afișează în preferințe"
 >>>>>>> upstream/18.0
@@ -433086,7 +435038,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deoarece data și ora pentru acest test nu a fost programată, nu uitați să "
+=======
+"Deoarece data și ora pentru acest test nu au fost programate, nu uitați să "
+>>>>>>> upstream/18.0
 =======
 "Deoarece data și ora pentru acest test nu au fost programate, nu uitați să "
 >>>>>>> upstream/18.0
@@ -434016,8 +435972,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "susține discursuri motivaționale pe diferite teme. Rămâneți la curent cu "
 "ultimele trenduri de gestionare a afacerilor &amp; technologies"
+=======
+"susține prezentări inspiraționale pe diverse teme. Rămâneți la curent cu "
+"cele mai noi tendințe de management și tehnologii."
+>>>>>>> upstream/18.0
 =======
 "susține prezentări inspiraționale pe diverse teme. Rămâneți la curent cu "
 "cele mai noi tendințe de management și tehnologii."
@@ -435137,7 +437098,11 @@ msgid "Specified Email Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa de email specificată"
+=======
+msgstr "Adresă de e-mail specificată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă de e-mail specificată"
 >>>>>>> upstream/18.0
@@ -436034,7 +437999,11 @@ msgid "Split First and Last Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separă prenumele și numele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separă prenumele și numele"
 >>>>>>> upstream/18.0
@@ -436937,7 +438906,11 @@ msgid "Start by creating your first <b>Mailing</b>."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Începeți prin a crea prima dvs. <b>E-mailing</b>."
+=======
+msgstr "Începeți prin a crea prima <b>corespondență</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Începeți prin a crea prima <b>corespondență</b>."
 >>>>>>> upstream/18.0
@@ -437835,7 +439808,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -438732,7 +440709,11 @@ msgid "Statistics"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Statistica"
+=======
+msgstr "Statistici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statistici"
 >>>>>>> upstream/18.0
@@ -439644,9 +441625,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
 "Astăzi: data activității este astăzi\n"
 "Planificate: activități viitoare."
+=======
+"Întârziat: Data scadentă a trecut\n"
+"Astăzi: Data activității este astăzi\n"
+"Planificat: Activități viitoare."
+>>>>>>> upstream/18.0
 =======
 "Întârziat: Data scadentă a trecut\n"
 "Astăzi: Data activității este astăzi\n"
@@ -440989,7 +442976,11 @@ msgid "Stores last click datetime in case of multi clicks."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stochează ultima dată de clic în cazul mai multor clicuri."
+=======
+msgstr "Stochează data și ora ultimului clic în caz de clicuri multiple."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stochează data și ora ultimului clic în caz de clicuri multiple."
 >>>>>>> upstream/18.0
@@ -441886,7 +443877,11 @@ msgid "Stretch to Equal Height"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intindeți la înălțime egală"
+=======
+msgstr "Întinde la înălțime egală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Întinde la înălțime egală"
 >>>>>>> upstream/18.0
@@ -442790,7 +444785,11 @@ msgid "Subscribed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Abonat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Abonat"
 >>>>>>> upstream/18.0
@@ -443690,7 +445689,11 @@ msgid "Subscription Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data abonării"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data abonării"
 >>>>>>> upstream/18.0
@@ -444588,7 +446591,11 @@ msgid "Subscription Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Informații despre abonament"
+=======
+msgstr "Informații abonament"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informații abonament"
 >>>>>>> upstream/18.0
@@ -445485,7 +447492,11 @@ msgid "Successfully Unsubscribed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dezabonare realizată cu succes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezabonare realizată cu succes"
 >>>>>>> upstream/18.0
@@ -446383,7 +448394,11 @@ msgid "Successfully unsubscribed!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dezabonare realizată cu succes!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dezabonare realizată cu succes!"
 >>>>>>> upstream/18.0
@@ -447285,7 +449300,11 @@ msgid "Take Future Schedule Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Luați data programării viitoare"
+=======
+msgstr "Preia data programării viitoare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preia data programării viitoare"
 >>>>>>> upstream/18.0
@@ -448190,8 +450209,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Câmp tehnic utilizat pentru a ști dacă utilizatorul a activat opțiunea de "
 "server de e-mail de ieșire în setări"
+=======
+"Câmp tehnic folosit pentru a verifica dacă utilizatorul a activat opțiunea "
+"de server de e-mail de ieșire în setări"
+>>>>>>> upstream/18.0
 =======
 "Câmp tehnic folosit pentru a verifica dacă utilizatorul a activat opțiunea "
 "de server de e-mail de ieșire în setări"
@@ -449311,7 +451335,11 @@ msgid "Tell what's the value for the customer for this feature."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Spuneți ce valoare are pentru client această caracteristică."
+=======
+msgstr "Spuneți ce valoare are această caracteristică pentru client."
+>>>>>>> upstream/18.0
 =======
 msgstr "Spuneți ce valoare are această caracteristică pentru client."
 >>>>>>> upstream/18.0
@@ -450219,7 +452247,11 @@ msgid "Test Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Test mail"
+=======
+msgstr "Test corespondență"
+>>>>>>> upstream/18.0
 =======
 msgstr "Test corespondență"
 >>>>>>> upstream/18.0
@@ -451117,7 +453149,11 @@ msgid "Test mailing could not be sent to %s:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testul de corespondență nu a putut fi trimis la %s:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testul de corespondență nu a putut fi trimis la %s:"
 >>>>>>> upstream/18.0
@@ -452015,7 +454051,11 @@ msgid "Test mailing successfully sent to %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Testul de e-mailing a fost trimis cu succes la %s"
+=======
+msgstr "Testul de corespondență a fost trimis cu succes la %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testul de corespondență a fost trimis cu succes la %s"
 >>>>>>> upstream/18.0
@@ -452913,7 +454953,11 @@ msgid "Test this mailing by sending a copy to yourself."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Testați această corespondență trimițându-vă o copie."
+=======
+msgstr "Testează această corespondență trimițându-ți o copie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Testează această corespondență trimițându-ți o copie."
 >>>>>>> upstream/18.0
@@ -453821,7 +455865,11 @@ msgid "Text - Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Imagine - Text"
+=======
+msgstr "Text - Imagine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Text - Imagine"
 >>>>>>> upstream/18.0
@@ -454729,7 +456777,11 @@ msgid "Thank you for joining us!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mulțumesc că ni te-ai alăturat!"
+=======
+msgstr "Mulțumim că ni te-ai alăturat!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mulțumim că ni te-ai alăturat!"
 >>>>>>> upstream/18.0
@@ -455626,8 +457678,12 @@ msgid "That way, Odoo evolves much faster than any other solution."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "În acest fel, Odoo evoluează mult mai repede decât orice altă soluție."
+=======
+msgstr "Astfel, Odoo evoluează mult mai rapid decât orice altă soluție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Astfel, Odoo evoluează mult mai rapid decât orice altă soluție."
 >>>>>>> upstream/18.0
@@ -456524,7 +458580,11 @@ msgid "The A/B Testing Percentage needs to be between 0 and 100%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Procentul de testare A/B trebuie să fie între 0 și 100%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Procentul de testare A/B trebuie să fie între 0 și 100%"
 >>>>>>> upstream/18.0
@@ -457421,8 +459481,12 @@ msgid "The contact has chosen not to receive mails anymore from this list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Persoana de contact a ales să nu mai primească e-mailuri din această listă"
+=======
+msgstr "Contactul a ales să nu mai primească e-mailuri din această listă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contactul a ales să nu mai primească e-mailuri din această listă"
 >>>>>>> upstream/18.0
@@ -458319,7 +460383,11 @@ msgid "The content of these emails is not relevant to me"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conținutul acestor e-mailuri nu este relevant pentru mine"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conținutul acestor e-mailuri nu este relevant pentru mine"
 >>>>>>> upstream/18.0
@@ -459225,6 +461293,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lista de corespondență poate fi accesibilă destinatarilor în pagina de "
+"gestionare a abonamentelor pentru a-și actualiza preferințele."
+>>>>>>> upstream/18.0
 =======
 "Lista de corespondență poate fi accesibilă destinatarilor în pagina de "
 "gestionare a abonamentelor pentru a-și actualiza preferințele."
@@ -460251,6 +462324,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The open source model of Odoo has allowed us to leverage thousands of developers and\n"
 "                    business experts to build hundreds of apps in just a few years."
 msgstr ""
@@ -460980,6 +463054,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The open source model of Odoo has allowed us to leverage thousands of "
 "developers and\n"
 "                    business experts to build hundreds of apps in just a few "
@@ -461117,6 +463193,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -461607,7 +463686,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modelul open source al Odoo ne-a permis să folosim mii de dezvoltatori și "
+=======
+"Modelul open source Odoo ne-a permis să valorificăm mii de dezvoltatori și "
+>>>>>>> upstream/18.0
 =======
 "Modelul open source Odoo ne-a permis să valorificăm mii de dezvoltatori și "
 >>>>>>> upstream/18.0
@@ -462509,8 +464592,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Filtrul salvat țintează destinatari diferiți și este incompatibil cu această"
 " campanie de e-mailing."
+=======
+"Filtrul salvat vizează destinatari diferiți și este incompatibil cu această "
+"corespondență."
+>>>>>>> upstream/18.0
 =======
 "Filtrul salvat vizează destinatari diferiți și este incompatibil cu această "
 "corespondență."
@@ -463633,9 +465721,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Versiunea câștigătoare a fost deja trimisă. Folosiți <b>Comparați "
 "versiunea</b> pentru a obține o privire de ansamblu asupra acestei campanii "
 "de testare A/B."
+=======
+"Câștigătorul a fost deja trimis. Folosiți <b>Compară versiunea</b> pentru a "
+"vedea o prezentare generală a acestei campanii de testare A/B."
+>>>>>>> upstream/18.0
 =======
 "Câștigătorul a fost deja trimis. Folosiți <b>Compară versiunea</b> pentru a "
 "vedea o prezentare generală a acestei campanii de testare A/B."
@@ -464761,7 +466854,11 @@ msgid "There are no recipients selected."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu există destinatari selectați."
+=======
+msgstr "Nu sunt selectați destinatari."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu sunt selectați destinatari."
 >>>>>>> upstream/18.0
@@ -465658,7 +467755,11 @@ msgid "Third Feature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A treia facilitate"
+=======
+msgstr "A treia caracteristică"
+>>>>>>> upstream/18.0
 =======
 msgstr "A treia caracteristică"
 >>>>>>> upstream/18.0
@@ -466565,7 +468666,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "E-mailurile dumneavoastră ar putea fi marcate ca spam în clienții de e-mail."
+=======
+"E-mailurile dvs. pot fi marcate ca spam de către clienții de e-mail."
+>>>>>>> upstream/18.0
 =======
 "E-mailurile dvs. pot fi marcate ca spam de către clienții de e-mail."
 >>>>>>> upstream/18.0
@@ -467466,6 +469571,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Acest e-mail a fost adăugat automat pe lista de blocare din cauza prea "
 "multor respingeri."
@@ -468119,6 +470225,8 @@ msgstr ""
 "multor respingeri."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -468303,6 +470411,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -468427,6 +470538,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_view_form
 msgid "This email is blacklisted for mass mailings. Click to unblacklist."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469544,10 +471656,15 @@ msgstr ""
 "Acest e-mail este pe lista neagră pentru corespondență în masă. Click pentru "
 "a elimina din listă."
 >>>>>>> upstream/18.0
+=======
+"Acest e-mail este pe lista neagră pentru corespondență în masă. Click pentru "
+"a elimina din listă."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact__email_normalized
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -470407,6 +472524,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This field is used to search on email address as the primary email field can "
 "contain more than strictly an email address."
 msgstr ""
@@ -470541,6 +472660,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -470806,6 +472928,7 @@ msgstr ""
 msgid ""
 "This is useful if your marketing campaigns are composed of several emails"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -471923,6 +474046,10 @@ msgstr ""
 "Este util dacă campaniile dvs. de marketing sunt compuse din mai multe e-"
 "mailuri"
 >>>>>>> upstream/18.0
+=======
+"Este util dacă campaniile dvs. de marketing sunt compuse din mai multe e-"
+"mailuri"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.view_mail_mass_mailing_form
@@ -472150,7 +474277,11 @@ msgid "This mailing has no selected design (yet!)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Această campanie de e-mailing nu are nici un design selectat (încă!)."
+=======
+msgstr "Această corespondență nu are niciun design selectat (încă!)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Această corespondență nu are niciun design selectat (încă!)."
 >>>>>>> upstream/18.0
@@ -473060,7 +475191,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "direcționate către un e-mail dat."
+=======
+"direcționate către o adresă de e-mail specifică."
+>>>>>>> upstream/18.0
 =======
 "direcționate către o adresă de e-mail specifică."
 >>>>>>> upstream/18.0
@@ -473968,7 +476103,11 @@ msgid "Title Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Poziție Titlu"
+=======
+msgstr "Poziție titlu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poziție titlu"
 >>>>>>> upstream/18.0
@@ -474643,6 +476782,7 @@ msgstr "Poziție titlu"
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_three_columns
 msgid ""
 "To add a fourth column, reduce the size of these three columns using the "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -475503,6 +477643,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "right icon of each block. Then, duplicate one of the columns to create a new "
 "one as a copy."
 msgstr ""
@@ -475638,6 +477780,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -475901,6 +478046,7 @@ msgstr ""
 #. module: mass_mailing
 #. odoo-python
 #: code:addons/mass_mailing/models/mailing.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476759,6 +478905,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "To send the winner mailing the campaign should not have been completed."
 msgstr ""
 "Pentru a trimite corespondența câștigătoare, campania nu trebuie să fie "
@@ -476892,6 +479040,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -477381,7 +479532,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pentru a trimite campania câștigătoare, aceeași campanie ar trebui să fie "
+=======
+"Pentru a trimite corespondența câștigătoare, trebuie folosită aceeași "
+"campanie pentru toate corespondențele."
+>>>>>>> upstream/18.0
 =======
 "Pentru a trimite corespondența câștigătoare, trebuie folosită aceeași "
 "campanie pentru toate corespondențele."
@@ -478505,6 +480661,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pentru a urmări câte răspunsuri primește această campanie de e-mailing, "
 "asigurați-vă că adresa de răspuns aparține acestei baze de date."
 =======
@@ -479399,6 +481556,10 @@ msgstr ""
 "Pentru a urmări câte răspunsuri primește această corespondență, asigurați-vă "
 "că adresa de răspuns aparține acestei baze de date."
 >>>>>>> upstream/18.0
+=======
+"Pentru a urmări câte răspunsuri primește această corespondență, asigurați-vă "
+"că adresa de răspuns aparține acestei baze de date."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_company_team
@@ -479648,7 +481809,11 @@ msgid "Total Bounces"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total respingeri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total respingeri"
 >>>>>>> upstream/18.0
@@ -480545,7 +482710,11 @@ msgid "Traces have to be linked to records with a not null res_id."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Urmăririle trebuie să fie legate de înregistrări cu un res_id nenul."
+=======
+msgstr "Urmăririle trebuie să fie legate de înregistrări cu res_id nenul."
+>>>>>>> upstream/18.0
 =======
 msgstr "Urmăririle trebuie să fie legate de înregistrări cu res_id nenul."
 >>>>>>> upstream/18.0
@@ -481464,7 +483633,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -482373,7 +484546,11 @@ msgid "UTM Medium: delivery method (email, sms, ...)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mediu UTM: metoda de livrare (e-mail, sms, ...)"
+=======
+msgstr "Mediu UTM: metodă de livrare (e-mail, sms, ...)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mediu UTM: metodă de livrare (e-mail, sms, ...)"
 >>>>>>> upstream/18.0
@@ -483308,8 +485485,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Îmbunătățirile de utilizabilitate făcute pe Odoo se vor aplica\n"
 "automat tuturor aplicațiilor noastre integrate în totalitate."
+=======
+"Îmbunătățirile de utilizare făcute pe Odoo se vor aplica automat tuturor "
+"aplicațiilor noastre complet integrate."
+>>>>>>> upstream/18.0
 =======
 "Îmbunătățirile de utilizare făcute pe Odoo se vor aplica automat tuturor "
 "aplicațiilor noastre complet integrate."
@@ -484436,7 +486618,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "se bazează pe primul server de poștă de ieșire disponibil (bazat pe "
+=======
+"se bazează pe primul server de e-mail de ieșire disponibil (bazat pe "
+>>>>>>> upstream/18.0
 =======
 "se bazează pe primul server de e-mail de ieșire disponibil (bazat pe "
 >>>>>>> upstream/18.0
@@ -485334,7 +487520,11 @@ msgid "Use alternative versions to be able to select the winner."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Folosiți versiuni alternative pentru a putea selecta câștigătorul."
+>>>>>>> upstream/18.0
 =======
 msgstr "Folosiți versiuni alternative pentru a putea selecta câștigătorul."
 >>>>>>> upstream/18.0
@@ -486016,6 +488206,7 @@ msgid ""
 "Use this component for creating a list of featured elements to which you "
 "want to bring attention."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487133,11 +489324,16 @@ msgstr ""
 "Folosiți această componentă pentru a crea o listă de elemente evidențiate "
 "asupra cărora doriți să atrageți atenția."
 >>>>>>> upstream/18.0
+=======
+"Folosiți această componentă pentru a crea o listă de elemente evidențiate "
+"asupra cărora doriți să atrageți atenția."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_trace_report_action_mail
 msgid ""
 "Use this menu to keep track of the results of your mailings.<br>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -487994,6 +490190,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    From here, you'll be able to overview the rate of "
 "replies, clicks, bounces..."
 msgstr ""
@@ -488129,6 +490327,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -488619,10 +490820,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Utilizați acest fragment pentru a crea diferite tipuri de componente care "
 "prezintă o imagine aliniată la stânga sau la dreapta alături de conținut "
 "textual. Duplicați elementul pentru a crea o listă care să se potrivească "
 "nevoilor dvs."
+=======
+"Folosiți acest fragment pentru a construi diverse tipuri de componente care "
+"prezintă o imagine aliniată la stânga sau la dreapta alături de conținut "
+"text. Duplicați elementul pentru a crea o listă potrivită nevoilor dvs."
+>>>>>>> upstream/18.0
 =======
 "Folosiți acest fragment pentru a construi diverse tipuri de componente care "
 "prezintă o imagine aliniată la stânga sau la dreapta alături de conținut "
@@ -489976,7 +492183,11 @@ msgid "Valid Email Recipients"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Destinatari email validați"
+>>>>>>> upstream/18.0
 =======
 msgstr "Destinatari email validați"
 >>>>>>> upstream/18.0
@@ -490878,7 +493089,11 @@ msgid "Vertical Alignment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliniament Vertical"
+=======
+msgstr "Aliniament vertical"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aliniament vertical"
 >>>>>>> upstream/18.0
@@ -491776,7 +493991,11 @@ msgid "View Online"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizare Online"
+=======
+msgstr "Vizualizează online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizează online"
 >>>>>>> upstream/18.0
@@ -492454,6 +494673,7 @@ msgid ""
 "Wait until your mailing has been sent to check how many recipients you "
 "managed to reach."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493571,6 +495791,10 @@ msgstr ""
 "Așteptați până când corespondența dvs. a fost trimisă pentru a verifica câți "
 "destinatari ați reușit să atingeți."
 >>>>>>> upstream/18.0
+=======
+"Așteptați până când corespondența dvs. a fost trimisă pentru a verifica câți "
+"destinatari ați reușit să atingeți."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.mailing_contact_import_view_form
@@ -493798,7 +496022,11 @@ msgid "Want to import country, company name and more?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Doriți să importați țara, numele companiei și mai multe?"
+=======
+msgstr "Doriți să importați țara, numele companiei și altele?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doriți să importați țara, numele companiei și altele?"
 >>>>>>> upstream/18.0
@@ -494695,7 +496923,11 @@ msgid "Warning Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaj de Avertizare"
+=======
+msgstr "Mesaj de avertizare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj de avertizare"
 >>>>>>> upstream/18.0
@@ -495593,7 +497825,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Mesajul de avertizare afișat în formularul de vizualizare a e-mailului"
+=======
+"Mesajul de avertizare afișat în formularul de vizualizare a corespondenței"
+>>>>>>> upstream/18.0
 =======
 "Mesajul de avertizare afișat în formularul de vizualizare a corespondenței"
 >>>>>>> upstream/18.0
@@ -496268,6 +498504,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount1
 msgid ""
 "We are continuing to grow and we miss seeing you be a part of it! We've "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497224,6 +499461,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "increased store hours and have lot's of new brands available. To welcome you "
 "back please accept this 20% discount on you next purchase by clicking the "
 "button."
@@ -497361,6 +499600,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -497853,7 +500095,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje website"
 >>>>>>> upstream/18.0
@@ -498751,7 +500997,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric comunicare website"
 >>>>>>> upstream/18.0
@@ -499648,7 +501898,11 @@ msgid "Welcome Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaj de întâmpinare"
+=======
+msgstr "Mesaj de bun venit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj de bun venit"
 >>>>>>> upstream/18.0
@@ -500550,7 +502804,11 @@ msgid "When this mailing was added in the favorites"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Când acest e-mail a fost adăugat la favorite"
+=======
+msgstr "Când această corespondență a fost adăugată la favorite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Când această corespondență a fost adăugată la favorite"
 >>>>>>> upstream/18.0
@@ -501227,6 +503485,7 @@ msgid ""
 "Whether this model supports marketing mailing capabilities (notably email "
 "and SMS)."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -502344,11 +504603,16 @@ msgstr ""
 "Dacă acest model suportă funcționalități de marketing prin corespondență (în "
 "special email și SMS)."
 >>>>>>> upstream/18.0
+=======
+"Dacă acest model suportă funcționalități de marketing prin corespondență (în "
+"special email și SMS)."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_filter_action
 msgid ""
 "While designing the mailing, you can define the rules to filter recipients.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -503299,6 +505563,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                To save the same criteria for future use, you can add it to "
 "the favorite list\n"
 "                by clicking on <i class=\"fa fa-floppy-o text-warning\"></i> "
@@ -503439,6 +505705,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -503709,6 +505978,7 @@ msgstr "Lățime"
 #: model:ir.model.fields,field_description:mass_mailing.field_mailing_mailing__ab_testing_winner_selection
 #: model:ir.model.fields,field_description:mass_mailing.field_utm_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -504602,11 +506872,15 @@ msgstr "Selectare câștigător"
 =======
 msgstr "Selectare câștigător"
 >>>>>>> upstream/18.0
+=======
+msgstr "Selectare câștigător"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_text_block
 msgid ""
 "With strong technical foundations, Odoo's framework is unique.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -505372,6 +507646,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    It provides top notch usability that scales across all "
 "apps."
 msgstr ""
@@ -505507,6 +507783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -505997,9 +508276,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cu baze tehnice solide, framework-ul Odoo este unic. Oferă o utilizare de "
 "<span style=\"font-weight: bolder;\">top care se extinde pe toate "
 "aplicațiile</span>."
+=======
+"Cu baze tehnice solide, framework-ul Odoo este unic. Oferă <span "
+"style=\"font-weight: bolder;\">o utilizare excelentă care se extinde la "
+"toate aplicațiile</span>."
+>>>>>>> upstream/18.0
 =======
 "Cu baze tehnice solide, framework-ul Odoo este unic. Oferă <span "
 "style=\"font-weight: bolder;\">o utilizare excelentă care se extinde la "
@@ -507346,9 +509631,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Scrieți unul sau două paragrafe care să descrie produsul, serviciile sau o "
 "anumită caracteristică. <br/> Pentru a avea succes, conținutul dvs. trebuie "
 "să fie util cititorilor dvs."
+=======
+"Scrieți unul sau două paragrafe care descriu produsul, serviciile sau o "
+"funcționalitate specifică.<br/> Pentru a avea succes, conținutul trebuie să "
+"fie util cititorilor dvs."
+>>>>>>> upstream/18.0
 =======
 "Scrieți unul sau două paragrafe care descriu produsul, serviciile sau o "
 "funcționalitate specifică.<br/> Pentru a avea succes, conținutul trebuie să "
@@ -508695,6 +510986,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Fiecare linie va fi importată ca un contact din lista de distribuție."
 =======
 "                    Fiecare linie va fi importată ca un contact din lista de corespondență."
@@ -509495,6 +511787,10 @@ msgstr ""
 "                    Fiecare linie va fi importată ca un contact din lista de "
 "corespondență."
 >>>>>>> upstream/18.0
+=======
+"                    Fiecare linie va fi importată ca un contact din lista de "
+"corespondență."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_features
@@ -509502,6 +511798,7 @@ msgid "Write what the customer would like to know, not what you want to show."
 msgstr "Scrieți ce ar dori să știe clientul, nu ce doriți să arătați."
 
 #. module: mass_mailing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -510420,10 +512717,16 @@ msgstr "X"
 msgid "X"
 msgstr "X"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:mass_mailing.social_links
+msgid "X"
+msgstr "X"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing
 #. odoo-python
 #: code:addons/mass_mailing/controllers/main.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511545,6 +513848,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "You are no longer part of our mailing list(s)."
 msgstr "Nu mai faceți parte din lista/le noastre de corespondență."
 
@@ -511564,6 +513869,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -511813,7 +514121,11 @@ msgid "You are no longer part of the %(mailing_name)s mailing list."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu mai faceți parte din lista de corespondență %(mailing_name)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu mai faceți parte din lista de corespondență %(mailing_name)s."
 >>>>>>> upstream/18.0
@@ -512711,7 +515023,11 @@ msgid "You are no longer part of the %(mailing_names)s mailing list."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu mai faceți parte din lista/le de corespondență %(mailing_names)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu mai faceți parte din lista/le de corespondență %(mailing_names)s."
 >>>>>>> upstream/18.0
@@ -513608,7 +515924,11 @@ msgid "You are not subscribed to any of our mailing list."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nu sunteți abonat la niciuna din lista noastră de corespondență."
+=======
+msgstr "Nu sunteți abonat la nicio listă de corespondență."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu sunteți abonat la nicio listă de corespondență."
 >>>>>>> upstream/18.0
@@ -514505,7 +516825,12 @@ msgid "You can edit colors and backgrounds to highlight features."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Puteți edita culori și fundaluri pentru a evidenția caracteristicile."
+=======
+msgstr ""
+"Puteți edita culorile și fundalurile pentru a evidenția funcționalitățile."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Puteți edita culorile și fundalurile pentru a evidenția funcționalitățile."
@@ -515626,7 +517951,11 @@ msgid "You can only apply this action from Mailing Lists."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Puteți aplica această acțiune numai din liste de distribuție."
+=======
+msgstr "Puteți aplica această acțiune doar din listele de corespondență."
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți aplica această acțiune doar din listele de corespondență."
 >>>>>>> upstream/18.0
@@ -516431,6 +518760,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete these UTM Mediums as they are linked to the following mailings in Mass Mailing:\n"
 "%(mailing_names)s"
 msgstr ""
@@ -517066,6 +519396,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot delete these UTM Mediums as they are linked to the following "
 "mailings in Mass Mailing:\n"
 "%(mailing_names)s"
@@ -517201,6 +519533,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -517466,6 +519801,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mass_mailing/models/utm_source.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -518231,6 +520567,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot delete these UTM Sources as they are linked to the following "
 "mailings in Mass Mailing:\n"
 "%(mailing_names)s"
@@ -518366,6 +520704,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -518634,6 +520975,7 @@ msgid ""
 "You don't need to import your mailing lists, you can easily\n"
 "                send emails<br> to any contact saved in other Odoo apps."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519490,6 +521832,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Nu este nevoie să importați listele de corespondență, puteți trimite cu "
 "ușurință\n"
 "                e-mailuri<br> către orice contact salvat în alte aplicații "
@@ -519623,6 +521967,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -520117,7 +522464,11 @@ msgid "You may also be interested in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ați putea fi interesat și de"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ați putea fi interesat și de"
 >>>>>>> upstream/18.0
@@ -521018,6 +523369,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Trebuie să furnizați fie list_ids, fie subscription_ids pentru a crea "
+"contacte noi."
+>>>>>>> upstream/18.0
 =======
 "Trebuie să furnizați fie list_ids, fie subscription_ids pentru a crea "
 "contacte noi."
@@ -522139,7 +524495,11 @@ msgid "You will not hear from us anymore."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu veți mai primi mesaje de la noi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu veți mai primi mesaje de la noi."
 >>>>>>> upstream/18.0
@@ -523040,6 +525400,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu veți mai primi noutăți de la listele de corespondență la care sunteți "
+"abonat:"
+>>>>>>> upstream/18.0
 =======
 "Nu veți mai primi noutăți de la listele de corespondență la care sunteți "
 "abonat:"
@@ -524165,7 +526530,11 @@ msgid "Your email is currently"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mailul dvs. este în prezent"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mailul dvs. este în prezent"
 >>>>>>> upstream/18.0
@@ -525063,6 +527432,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"E-mailul dvs. este în prezent <strong>pe lista noastră de blocare</strong>."
+>>>>>>> upstream/18.0
 =======
 "E-mailul dvs. este în prezent <strong>pe lista noastră de blocare</strong>."
 >>>>>>> upstream/18.0
@@ -525960,7 +528333,11 @@ msgid "[TEST] %(mailing_subject)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "[TEST] %(mailing_subject)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "[TEST] %(mailing_subject)s"
 >>>>>>> upstream/18.0
@@ -526857,7 +529234,11 @@ msgid "e.g. \"B2B Canadian Customers\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "de ex: \"Clienți B2B din Canada\""
+>>>>>>> upstream/18.0
 =======
 msgstr "de ex: \"Clienți B2B din Canada\""
 >>>>>>> upstream/18.0
@@ -527754,7 +530135,11 @@ msgid "e.g. \"John\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: \"John\""
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: \"John\""
 >>>>>>> upstream/18.0
@@ -528651,7 +531036,11 @@ msgid "e.g. \"Smith\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: \"Smith\""
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: \"Smith\""
 >>>>>>> upstream/18.0
@@ -529554,7 +531943,11 @@ msgid "e.g. \"VIP\", \"Roadshow\", ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: \"VIP\", \"Roadshow\", ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: \"VIP\", \"Roadshow\", ..."
 >>>>>>> upstream/18.0
@@ -530462,7 +532855,11 @@ msgid "e.g. I received too many emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ex: Am primit prea multe emailuri"
+>>>>>>> upstream/18.0
 =======
 msgstr "ex: Am primit prea multe emailuri"
 >>>>>>> upstream/18.0
@@ -531372,6 +533769,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"email1@example.com\n"
+"email2@example.com"
+>>>>>>> upstream/18.0
 =======
 "email1@example.com\n"
 "email2@example.com"
@@ -532497,7 +534899,11 @@ msgid "in our block list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pe lista noastră de blocare"
+>>>>>>> upstream/18.0
 =======
 msgstr "pe lista noastră de blocare"
 >>>>>>> upstream/18.0
@@ -533171,6 +535577,7 @@ msgstr "pe lista noastră de blocare"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533823,6 +536230,10 @@ msgid ""
 "is the winner of the A/B testing campaign and has been sent to all remaining "
 "recipients."
 >>>>>>> upstream/18.0
+=======
+"is the winner of the A/B testing campaign and has been sent to all remaining "
+"recipients."
+>>>>>>> upstream/18.0
 msgstr ""
 "este câștigătorul campaniei de testare A/B și a fost trimis tuturor "
 "destinatarilor rămași."
@@ -533831,6 +536242,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing.ab_testing_description
 msgid ""
 "of all potential recipients.<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534687,6 +537099,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <b class=\"text-danger\">Some of the mailings will "
 "not be sent</b>, as only 1 email will be sent for each unique recipient in "
 "this campaign."
@@ -534824,6 +537238,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -535325,7 +537742,11 @@ msgid "to the remaining recipients."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "către destinatarii rămași."
+>>>>>>> upstream/18.0
 =======
 msgstr "către destinatarii rămași."
 >>>>>>> upstream/18.0
@@ -536227,7 +538648,11 @@ msgid "will receive this version."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vor primi această versiune."
+>>>>>>> upstream/18.0
 =======
 msgstr "vor primi această versiune."
 >>>>>>> upstream/18.0
@@ -537124,7 +539549,11 @@ msgid "will receive this version.<br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "vor primi această versiune.<br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "vor primi această versiune.<br/>"
 >>>>>>> upstream/18.0
@@ -537864,6 +540293,7 @@ msgstr "⌙ Inactiv"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -537962,6 +540392,8 @@ msgstr "⌙ Inactiv"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -538007,6 +540439,9 @@ msgstr "⌙ Inactiv"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -538096,6 +540531,9 @@ msgstr "⌙ Inactiv"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

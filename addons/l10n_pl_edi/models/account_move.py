@@ -63,10 +63,13 @@ from xml.dom.minidom import parseString
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from stdnum.pl.nip import compact
 
 from odoo import api, fields, models
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -252,6 +255,9 @@ from odoo import Command, api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -474,7 +480,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -659,6 +668,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -938,8 +950,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'K_17' in tag_names:
                 return "8"
+=======
+            if 'K_15' in tag_names:
+                return "5"
+>>>>>>> upstream/18.0
 =======
             if 'K_15' in tag_names:
                 return "5"
@@ -1332,7 +1349,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1490,6 +1510,7 @@ class AccountMove(models.Model):
             currency_code = get_value(invoice_node, '{*}KodWaluty')
             move_line_nodes = invoice_node.findall("{*}FaWiersz")
 
+<<<<<<< HEAD
             lines = [
                 {
                     'name': get_value(line_node, '{*}P_7') or '/',
@@ -1500,6 +1521,35 @@ class AccountMove(models.Model):
                 }
                 for line_node in move_line_nodes
             ]
+=======
+            lines = []
+            for line_node in move_line_nodes:
+                name = get_value(line_node, '{*}P_7') or '/'
+                tax_name = get_value(line_node, '{*}P_12') or ''
+
+                if P_9A := get_value(line_node, '{*}P_9A'):
+                    price_unit = float(P_9A)
+                elif P_9B := get_value(line_node, '{*}P_9B'):
+                    if xml_id := p12_to_tax_xml_id_map.get(tax_name):
+                        if tax := self.env['account.chart.template'].ref(xml_id, raise_if_not_found=False):
+                            price_unit = float(P_9B) * (1 - tax.amount / (100 + tax.amount))
+                        else:
+                            raise UserError(self.env._("Purchase tax corresponding to '%s' required for the KSeF import was not found in the system.", tax_name))
+                    else:
+                        raise UserError(self.env._("Tax corresponding to '%s' required to derive the net unit price from gross price during KSeF import was not found in the mapping.", tax_name))
+                else:
+                    raise UserError(self.env._("No net or gross unit price found in the FA (3) for the line with product '%s'.", name))
+
+                lines.append(
+                    {
+                        'name': name,
+                        'uom_name': get_value(line_node, '{*}P_8A') or '',
+                        'quantity': float(get_value(line_node, '{*}P_8B') or 0.0),
+                        'price_unit': price_unit,
+                        'tax_name': tax_name,
+                    }
+                )
+>>>>>>> upstream/18.0
 
             return {
                 'vendor_nip': vendor_nip,
@@ -1713,6 +1763,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

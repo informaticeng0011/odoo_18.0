@@ -115,9 +115,15 @@ class Binary(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if unique in ('any', '%'):
             unique = ANY_UNIQUE
         attachment = None
+=======
+        stream = None
+        if unique in ('any', '%'):
+            unique = ANY_UNIQUE
+>>>>>>> upstream/18.0
 =======
         stream = None
         if unique in ('any', '%'):
@@ -256,7 +262,13 @@ class Binary(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not attachment:
+=======
+            if attachment:
+                stream = env['ir.binary']._get_stream_from(attachment, 'raw', filename)
+        if stream is None:
+>>>>>>> upstream/18.0
 =======
             if attachment:
                 stream = env['ir.binary']._get_stream_from(attachment, 'raw', filename)
@@ -410,6 +422,7 @@ class Binary(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if css and bundle.stylesheets:
                         attachment = env['ir.attachment'].sudo().browse(bundle.css().id)
                     elif js and bundle.javascripts:
@@ -421,6 +434,8 @@ class Binary(http.Controller):
             raise request.not_found()
         stream = env['ir.binary']._get_stream_from(attachment, 'raw', filename)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -493,6 +508,9 @@ class Binary(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -637,7 +655,11 @@ class Binary(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ], type='http', auth='public', readonly=True)
+=======
+    ], type='http', auth='public', readonly=True, save_session=False)
+>>>>>>> upstream/18.0
 =======
     ], type='http', auth='public', readonly=True, save_session=False)
 >>>>>>> upstream/18.0

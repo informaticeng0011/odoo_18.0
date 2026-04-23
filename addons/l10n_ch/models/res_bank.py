@@ -17,6 +17,10 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from itertools import chain
+>>>>>>> upstream/18.0
 =======
 from itertools import chain
 >>>>>>> upstream/18.0
@@ -68,6 +72,7 @@ from odoo import api, fields, models, _
 from odoo.addons.base.models.res_bank import sanitize_account_number
 from odoo.addons.base_iban.models.res_partner_bank import normalize_iban, pretty_iban, validate_iban
 from odoo.exceptions import ValidationError
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -705,6 +710,9 @@ from odoo.tools import LazyTranslate, street_split
 =======
 from odoo.tools import LazyTranslate, street_split
 >>>>>>> upstream/18.0
+=======
+from odoo.tools import LazyTranslate, street_split
+>>>>>>> upstream/18.0
 from odoo.tools.misc import mod10r
 
 _lt = LazyTranslate(__name__)
@@ -724,6 +732,12 @@ _lt = LazyTranslate(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Swiss Payment Standards - Swiss Implementation Guidelines for the QR-bill - version 2.3
+UNICODE_ALLOWED = {chr(ucode) for ucode in
+                   chain(range(0x20, 0x80), range(0xA0, 0x180), range(0x218, 0x21C), [0x20AC])}
+>>>>>>> upstream/18.0
 =======
 # Swiss Payment Standards - Swiss Implementation Guidelines for the QR-bill - version 2.3
 UNICODE_ALLOWED = {chr(ucode) for ucode in
@@ -876,6 +890,7 @@ class ResPartnerBank(models.Model):
             vals['l10n_ch_qr_iban'] = pretty_iban(normalize_iban(vals['l10n_ch_qr_iban']))
         return super().write(vals)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1647,6 +1662,8 @@ class ResPartnerBank(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _l10n_ch_filter_text(self, value):
         value = ' '.join((value or '').split())
         if value.isprintable() and value.isascii() or {*value} < UNICODE_ALLOWED:
@@ -1679,6 +1696,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1725,6 +1745,7 @@ class ResPartnerBank(models.Model):
             reference = structured_communication.replace(' ', '')
 
         currency = currency or self.currency_id or self.company_id.currency_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2335,6 +2356,8 @@ class ResPartnerBank(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cred_name = filter_text(self.acc_holder_name or self.partner_id.name)
         debt_name = filter_text(debtor_partner.commercial_partner_id.name)
 
@@ -2353,6 +2376,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2386,6 +2412,7 @@ class ResPartnerBank(models.Model):
             '0200',                                               # Version
             '1',                                                  # Coding Type
             acc_number,                                           # IBAN / QR-IBAN
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2900,6 +2927,10 @@ class ResPartnerBank(models.Model):
             'S',                                                  # Creditor Address Type
             cred_name[:70],                                       # Creditor Name
 >>>>>>> upstream/18.0
+=======
+            'S',                                                  # Creditor Address Type
+            cred_name[:70],                                       # Creditor Name
+>>>>>>> upstream/18.0
             cred_street,                                          # Creditor Street Name
             cred_street_number,                                   # Creditor Building Number
             cred_zip,                                             # Creditor Postal Code
@@ -3062,6 +3093,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3389,6 +3423,7 @@ class ResPartnerBank(models.Model):
             '',                                                   # Ultimate Creditor Country
             '{:.2f}'.format(amount),                              # Amount
             currency.name,                                        # Currency
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3904,6 +3939,10 @@ class ResPartnerBank(models.Model):
             'S',                                                  # Ultimate Debtor Address Type
             debt_name[:70],                                       # Ultimate Debtor Name
 >>>>>>> upstream/18.0
+=======
+            'S',                                                  # Ultimate Debtor Address Type
+            debt_name[:70],                                       # Ultimate Debtor Name
+>>>>>>> upstream/18.0
             debt_street,                                          # Ultimate Debtor Street Name
             debt_street_number,                                   # Ultimate Debtor Building Number
             debt_zip,                                             # Ultimate Debtor Postal Code
@@ -4067,6 +4106,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4546,6 +4588,12 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # newlines shift field content to a different line, causing the QR code to be rejected
+        return [line.replace('\n', ' ') for line in result]
+
+>>>>>>> upstream/18.0
 =======
         # newlines shift field content to a different line, causing the QR code to be rejected
         return [line.replace('\n', ' ') for line in result]
@@ -5505,6 +5553,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Returns a tuple of two elements containing the address lines to use
         for this partner. Line 1 contains the street and number, line 2 contains
         zip and city. Those two lines are limited to 70 characters
@@ -5833,6 +5882,8 @@ class ResPartnerBank(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         """ Retrieves the partner's address fields, truncated to respect the line specs.
         :returns: tuple(street, street_number, zip, city)
         """
@@ -5852,6 +5903,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5900,7 +5954,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             concatenated_building_number = f"{building_number} {partner.street2 or ''}".strip()
+=======
+            concatenated_building_number = f"{building_number} {filter_text(partner.street2)}".strip()
+>>>>>>> upstream/18.0
 =======
             concatenated_building_number = f"{building_number} {filter_text(partner.street2)}".strip()
 >>>>>>> upstream/18.0
@@ -5965,7 +6023,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             street_2_split = street_split(partner.street2 or '')
+=======
+            street_2_split = street_split(filter_text(partner.street2))
+>>>>>>> upstream/18.0
 =======
             street_2_split = street_split(filter_text(partner.street2))
 >>>>>>> upstream/18.0
@@ -6016,6 +6078,7 @@ class ResPartnerBank(models.Model):
             if building_number:
                 street_name = f"{street_name} {street_2_split['street_name']}".strip()
             else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6463,6 +6526,11 @@ class ResPartnerBank(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                building_number = filter_text(partner.street2)
+
+        return street_name[:70], building_number[:16], partner.zip[:16], partner.city[:35]
 >>>>>>> upstream/18.0
 =======
                 building_number = filter_text(partner.street2)

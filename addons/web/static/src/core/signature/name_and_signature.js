@@ -187,7 +187,10 @@ export class NameAndSignature extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -441,6 +444,9 @@ export class NameAndSignature extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -831,7 +837,12 @@ export class NameAndSignature extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const text = this.props.signature.name;
+=======
+        // This replaces non-breaking spaces with breaking spaces
+        const text = this.props.signature.name.replace(/ /g, " ");
+>>>>>>> upstream/18.0
 =======
         // This replaces non-breaking spaces with breaking spaces
         const text = this.props.signature.name.replace(/ /g, " ");

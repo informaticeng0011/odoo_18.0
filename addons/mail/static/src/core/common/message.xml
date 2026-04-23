@@ -236,6 +236,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 t-att-data-persistent="message.persistent"
 >>>>>>> upstream/18.0
@@ -250,6 +251,10 @@
 >>>>>>> upstream/18.0
 =======
                 t-att-data-persistent="message.persistent"
+>>>>>>> upstream/18.0
+=======
+                t-att-data-persistent="message.persistent"
+                t-att-data-starred="message.starred"
 >>>>>>> upstream/18.0
 =======
                 t-att-data-persistent="message.persistent"
@@ -1393,6 +1398,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            <t t-if="isAlignedRight and message.is_note" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
 =======
                             <t t-if="isAlignedRight and message.is_note" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
@@ -2291,7 +2300,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     on <a t-att-href="message.resUrl"><t t-esc="message.thread.displayName"/></a>
+=======
+                                    on <a t-if="message.thread.displayName" t-att-href="message.resUrl" t-esc="message.thread.displayName"/><em class="pe-1 text-decoration-line-through" t-else="">Deleted document</em>
+>>>>>>> upstream/18.0
 =======
                                     on <a t-if="message.thread.displayName" t-att-href="message.resUrl" t-esc="message.thread.displayName"/><em class="pe-1 text-decoration-line-through" t-else="">Deleted document</em>
 >>>>>>> upstream/18.0
@@ -2972,6 +2985,7 @@
                                 </span>
                             </div>
                             <t t-if="isAlignedRight" t-call="mail.Message.notification"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4217,6 +4231,9 @@
 =======
                             <t t-if="!isAlignedRight and message.is_note" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
+=======
+                            <t t-if="!isAlignedRight and message.is_note" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
                         </div>
                         <div
                             class="o-mail-Message-contentContainer position-relative d-flex"
@@ -4226,6 +4243,7 @@
                         >
                             <div class="o-mail-Message-content o-min-width-0" t-att-class="{ 'w-100': state.isEditing, 'opacity-50': message.isPending, 'pt-1': message.is_note }">
                                 <div class="o-mail-Message-textContent position-relative d-flex" t-att-class="{ 'w-100': state.isEditing }">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5257,6 +5275,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                     <t t-set="showTextVisually" t-value="!message.linkPreviewSquash and (message.hasTextContent or showSubtypeDescription)"/>
                                     <t t-if="message.message_type === 'notification' and message.body" t-call="mail.Message.bodyAsNotification" name="bodyAsNotification"/>
                                     <t t-if="message.message_type !== 'notification' and !message.is_transient and (message.hasTextContent or message.subtype_description or state.isEditing or message.edited or message.parentMessage)">
@@ -5407,6 +5427,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5846,7 +5869,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 <MessageInReply t-if="message.parentMessage" message="message" onClick="props.onParentMessageClick"/>
+=======
+                                                <MessageInReply t-if="message.parentMessage" class="'mx-2 p-1 pb-0 ' + (showTextVisually ? 'mt-1' : 'my-1')" message="message" onClick="props.onParentMessageClick"/>
+>>>>>>> upstream/18.0
 =======
                                                 <MessageInReply t-if="message.parentMessage" class="'mx-2 p-1 pb-0 ' + (showTextVisually ? 'mt-1' : 'my-1')" message="message" onClick="props.onParentMessageClick"/>
 >>>>>>> upstream/18.0
@@ -6431,7 +6458,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                             'py-2': !message.is_note and !state.isEditing,
+=======
+                                                            'py-2': !message.is_note and !state.isEditing and showTextVisually,
+>>>>>>> upstream/18.0
 =======
                                                             'py-2': !message.is_note and !state.isEditing and showTextVisually,
 >>>>>>> upstream/18.0
@@ -6876,6 +6907,7 @@
                                                     <t t-else="">
                                                         <em t-if="message.subject and !message.isSubjectSimilarToThreadName and !message.isSubjectDefault" class="d-block text-muted smaller">Subject: <t t-out="props.messageSearch?.highlight(message.subject) ?? message.subject"/></em>
                                                         <div class="overflow-x-auto" t-if="message.message_type and message.message_type.includes('email')" t-ref="shadowBody"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8193,6 +8225,11 @@
                                                         <div class="o-mail-Message-richBody overflow-x-auto" t-elif="message.body and !message.linkPreviewSquash" t-out="props.messageSearch?.highlight(message.body) ?? message.body"/>
                                                         <p class="fst-italic text-muted small" t-if="message.showTranslation">
 >>>>>>> upstream/18.0
+=======
+                                                        <t t-elif="message.showTranslation" t-out="message.translationValue"/>
+                                                        <div class="o-mail-Message-richBody overflow-x-auto" t-elif="message.body and !message.linkPreviewSquash" t-out="props.messageSearch?.highlight(message.body) ?? message.body"/>
+                                                        <p class="fst-italic text-muted small" t-if="message.showTranslation">
+>>>>>>> upstream/18.0
                                                             <t t-if="message.translationSource" t-esc="translatedFromText"/>
                                                         </p>
                                                         <p class="fst-italic text-muted small" t-if="message.translationErrors">
@@ -8212,6 +8249,7 @@
                                             </div>
                                         </t>
                                     </t>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9457,6 +9495,9 @@
 =======
                                     <t t-if="!message.is_note and message.hasTextContent and !env.inChatWindow" t-call="mail.Message.actions"/>
 >>>>>>> upstream/18.0
+=======
+                                    <t t-if="!message.is_note and message.hasTextContent and !env.inChatWindow" t-call="mail.Message.actions"/>
+>>>>>>> upstream/18.0
                                 </div>
                                 <AttachmentList
                                     t-if="message.attachment_ids.length > 0"
@@ -9464,6 +9505,7 @@
                                     unlinkAttachment.bind="onClickAttachmentUnlink"
                                     imagesHeight="message.attachment_ids.length === 1 ? 300 : 75"
                                     messageSearch="props.messageSearch"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10807,6 +10849,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                 <LinkPreviewList t-if="!state.isEditing and message.linkPreviewSquash and message.parentMessage" linkPreviews="message.linkPreviews" deletable="false"/>
                                 <LinkPreviewList t-if="message.linkPreviews.length > 0 and store.hasLinkPreviewFeature and !message.linkPreviewSquash" linkPreviews="message.linkPreviews" deletable="message.isSelfAuthored or store.self.isAdmin"/>
                             </div>
@@ -10955,6 +10999,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11613,7 +11660,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12549,6 +12599,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -183,6 +183,10 @@ from odoo.http import Request
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -913,7 +917,10 @@ class TestUsersHttp(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1302,7 +1309,10 @@ class TestUsersHttp(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1343,6 +1353,9 @@ class TestUsersHttp(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1392,6 +1405,10 @@ class TestUsersHttp(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(bank_account_2.acc_holder_name, 'Partner A')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(bank_account_2.acc_holder_name, 'Partner A')
 >>>>>>> upstream/18.0
@@ -1432,6 +1449,7 @@ class TestUsersHttp(HttpCase):
         # request 2: request with changed partner name
         response2 = self.url_open(url='/my/account', data={**common_data, 'name': 'Partner New Name', 'csrf_token': Request.csrf_token(self)})
         self.assertEqual(response2.status_code, 200)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1950,6 +1968,11 @@ class TestUsersHttp(HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertEqual(bank_account.acc_holder_name, 'Partner A Holder')
+        self.assertEqual(bank_account_2.acc_holder_name, 'Partner New Name')
+
 >>>>>>> upstream/18.0
 =======
         self.assertEqual(bank_account.acc_holder_name, 'Partner A Holder')

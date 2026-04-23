@@ -428,7 +428,10 @@ Note: this might be a multi-company issue. Switching company may help - in Odoo,
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_access_error_reports_correct_rules_with_archived_record(self):
@@ -453,6 +456,9 @@ If you really, really need access, perhaps you can win over your friendly admini
         % (self.user.name, self.user.id, self.record._description, self.record.display_name, self.record._name, self.record.id))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

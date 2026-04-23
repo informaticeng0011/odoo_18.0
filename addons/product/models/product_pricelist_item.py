@@ -196,7 +196,11 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     fixed_price = fields.Float(string="Fixed Price", digits='Product Price')
+=======
+    fixed_price = fields.Float(string="Fixed Price", min_display_digits='Product Price')
+>>>>>>> upstream/18.0
 =======
     fixed_price = fields.Float(string="Fixed Price", min_display_digits='Product Price')
 >>>>>>> upstream/18.0
@@ -560,7 +564,11 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -918,7 +926,11 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -1283,12 +1295,15 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
         help="Specify the minimum amount of margin over the base price.")
     price_max_margin = fields.Float(
         string="Max. Price Margin",
         digits='Product Price',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1555,6 +1570,9 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1848,7 +1866,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2127,6 +2148,9 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2416,6 +2440,7 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 base_str = ""
                 if item.base == 'pricelist' and item.base_pricelist_id:
                     base_str = item.base_pricelist_id.display_name
@@ -2423,6 +2448,9 @@ class PricelistItem(models.Model):
                     base_str = _("product cost")
                 else:
                     base_str = _("sales price")
+=======
+                base_str = item._get_price_label_base_str()
+>>>>>>> upstream/18.0
 =======
                 base_str = item._get_price_label_base_str()
 >>>>>>> upstream/18.0
@@ -2964,7 +2992,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3549,6 +3580,9 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4262,6 +4296,10 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.base_pricelist_id = False
+>>>>>>> upstream/18.0
 =======
         self.base_pricelist_id = False
 >>>>>>> upstream/18.0
@@ -5208,7 +5246,13 @@ class PricelistItem(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             variants_rules = self.filtered('product_id')
+=======
+            variants_rules = self.filtered(
+                lambda r: bool(r.product_id) and bool(r.product_tmpl_id)
+            )
+>>>>>>> upstream/18.0
 =======
             variants_rules = self.filtered(
                 lambda r: bool(r.product_id) and bool(r.product_tmpl_id)

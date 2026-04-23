@@ -247,7 +247,11 @@ registry.category("web_tour.tours").add('shop_mail', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({productName: 'Acoustic Bloc Screens', search: false}),
+=======
+        ...tourUtils.addToCart({productName: 'Acoustic Bloc Screens', search: false, expectUnloadPage: true}),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.addToCart({productName: 'Acoustic Bloc Screens', search: false, expectUnloadPage: true}),
 >>>>>>> upstream/18.0
@@ -1216,6 +1220,10 @@ registry.category("web_tour.tours").add('shop_mail', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

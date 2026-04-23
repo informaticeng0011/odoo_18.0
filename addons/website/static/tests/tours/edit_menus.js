@@ -105,11 +105,41 @@ registerWebsitePreviewTour('edit_menus', {
         trigger: ".modal:not(.o_inactive_modal) .modal-dialog .o_website_dialog input.is-invalid",
     },
     {
+<<<<<<< HEAD
         content: "It didn't save without a url. Fill url input.",
         trigger: '.modal:not(.o_inactive_modal) .modal-dialog .o_website_dialog input:eq(1)',
         run: "edit #",
     },
     {
+=======
+        content: "It didn't save without a url. Fill url input. Enter a relative URL containing a space",
+        trigger: '.modal:not(.o_inactive_modal) .modal-dialog .o_website_dialog input:eq(1)',
+        run: "edit /url with space",
+    },
+    {
+        content: "Check that a warning is shown for relative URLs with spaces",
+        trigger: ".modal-dialog .o_website_dialog small.text-warning:not(.invisible)",
+    },
+    {
+        content: "Enter an absolute URL with spaces (should not show warning)",
+        trigger: ".modal-dialog .o_website_dialog input:eq(1)",
+        run: "edit http://example.com/url with space",
+    },
+    {
+        content: "Verify the warning is hidden for absolute URLs with spaces",
+        trigger: ".modal-dialog .o_website_dialog small.text-warning.invisible:not(:visible)",
+    },
+    {
+        content: "Clear the URL and enter a valid one without spaces",
+        trigger: ".modal-dialog .o_website_dialog input:eq(1)",
+        run: "edit #",
+    },
+    {
+        content: "Verify the warning remains hidden when the URL has no spaces",
+        trigger: ".modal-dialog .o_website_dialog small.text-warning.invisible:not(:visible)",
+    },
+    {
+>>>>>>> upstream/18.0
         content: "Confirm the new menu entry",
         trigger: ".modal:not(.o_inactive_modal) .modal-footer .btn-primary:contains(ok)",
         run: "click",
@@ -553,10 +583,16 @@ registerWebsitePreviewTour('edit_menus', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return helpers.drag_and_drop('.oe_menu_editor li:contains("Home")', {
                 position: {
                     y: 27,
                     left: 5,
+=======
+            return helpers.drag_and_drop(".oe_menu_editor li:contains('Home') .fa-bars", {
+                position : {
+                    top: 20,
+>>>>>>> upstream/18.0
 =======
             return helpers.drag_and_drop(".oe_menu_editor li:contains('Home') .fa-bars", {
                 position : {
