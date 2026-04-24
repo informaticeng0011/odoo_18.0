@@ -148,11 +148,14 @@ class MigrationManager(object):
 
     def migrate_module(self, pkg, stage):
         assert stage in ('pre', 'post', 'end')
+<<<<<<< HEAD
         stageformat = {
             'pre': '[>%s]',
             'post': '[%s>]',
             'end': '[$%s]',
         }
+=======
+>>>>>>> upstream/18.0
         state = pkg.state if stage in ('pre', 'post') else getattr(pkg, 'load_state', None)
 
         if not (hasattr(pkg, 'update') or state == 'to upgrade') or state == 'to install':
@@ -167,6 +170,7 @@ class MigrationManager(object):
 
         def _get_migration_versions(pkg, stage):
             versions = sorted({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -848,6 +852,9 @@ class MigrationManager(object):
 =======
                 ver: None
 >>>>>>> upstream/18.0
+=======
+                ver: None
+>>>>>>> upstream/18.0
                 for lv in self.migrations[pkg.name].values()
                 for ver, lf in lv.items()
                 if lf
@@ -899,7 +906,12 @@ class MigrationManager(object):
         for version in versions:
             if compare(version):
                 for pyfile in _get_migration_files(pkg, version, stage):
+<<<<<<< HEAD
                     exec_script(self.cr, installed_version, pyfile, pkg.name, stage, stageformat[stage] % version)
+=======
+                    exec_script(self.cr, installed_version, pyfile, pkg.name, stage, version)
+
+>>>>>>> upstream/18.0
 
 
 VALID_MIGRATE_PARAMS = list(itertools.product(
@@ -909,10 +921,19 @@ VALID_MIGRATE_PARAMS = list(itertools.product(
 
 def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
     version = version or installed_version
+<<<<<<< HEAD
+=======
+    fmt_version = {
+        'pre': '[>%s]',
+        'post': '[%s>]',
+        'end': '[$%s]',
+    }[stage] % version
+>>>>>>> upstream/18.0
     name, ext = os.path.splitext(os.path.basename(pyfile))
     if ext.lower() != '.py':
         return
     try:
+<<<<<<< HEAD
         mod = load_script(pyfile, name)
     except ImportError as e:
         raise ImportError('module %(addon)s: Unable to load %(stage)s-migration file %(file)s' % dict(locals(), file=pyfile)) from e
@@ -923,6 +944,16 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
                 locals(),
                 file=pyfile,
             ))
+=======
+        mod = load_script(pyfile, f"odoo.upgrade.{addon}.{version}.{name}")
+    except ImportError as e:
+        raise ImportError('module %(addon)s: Unable to load %(stage)s-upgrade file %(pyfile)s' % locals()) from e
+
+    if not hasattr(mod, 'migrate'):
+        raise AttributeError(
+            'module %(addon)s: Each %(stage)s-upgrade file must have a "migrate(cr, installed_version)" function, not found in %(pyfile)s' % locals()
+        )
+>>>>>>> upstream/18.0
 
     try:
         sig = inspect.signature(mod.migrate)
@@ -935,5 +966,9 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
     ):
         raise TypeError("module %(addon)s: `migrate`'s signature should be `(cr, version)`, %(func)s is %(sig)s" % dict(locals(), func=mod.migrate, sig=sig))
 
+<<<<<<< HEAD
     _logger.info('module %(addon)s: Running migration %(version)s %(name)s' % dict(locals(), name=mod.__name__))  # noqa: G002
+=======
+    _logger.info('module %(addon)s: Running upgrade %(fmt_version)s %(name)s', locals())
+>>>>>>> upstream/18.0
     mod.migrate(cr, installed_version)

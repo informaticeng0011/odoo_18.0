@@ -405,7 +405,10 @@ test("Elements are confined within their container", async () => {
     await drop();
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("Dragging cancels previous drag sequences", async () => {
     class List extends Component {
@@ -442,4 +445,7 @@ test("Dragging cancels previous drag sequences", async () => {
 
     expect(".o_dragged").toHaveCount(0);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

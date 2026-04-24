@@ -72,6 +72,10 @@ import { ErrorHandler } from "@web/core/utils/components";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { localization } from "@web/core/l10n/localization";
+>>>>>>> upstream/18.0
 =======
 import { localization } from "@web/core/l10n/localization";
 >>>>>>> upstream/18.0
@@ -364,7 +368,11 @@ export class MainComponentsContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="o-main-components-container">
+=======
+    <div class="o-main-components-container" t-att-class="{'o_rtl': this.isRTL}">
+>>>>>>> upstream/18.0
 =======
     <div class="o-main-components-container" t-att-class="{'o_rtl': this.isRTL}">
 >>>>>>> upstream/18.0
@@ -655,6 +663,10 @@ export class MainComponentsContainer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isRTL = localization.direction === "rtl";
+>>>>>>> upstream/18.0
 =======
         this.isRTL = localization.direction === "rtl";
 >>>>>>> upstream/18.0

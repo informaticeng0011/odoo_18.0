@@ -361,6 +361,10 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
@@ -1144,6 +1148,7 @@ class TestJoEdiTypes(JoEdiCommon):
         }
         refund_vals = {
             'name': 'TestEIN022R',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2207,6 +2212,9 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
             'invoice_date': '2023-11-10',
         }
         refund = self._l10n_jo_create_refund(invoice_vals, 'Test/Return', refund_vals)
@@ -2481,6 +2489,10 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
+>>>>>>> upstream/18.0
 =======
             'currency_id': self.usd.id,  # should not affect values as they are reported in invoice currency
 >>>>>>> upstream/18.0
@@ -3556,6 +3568,7 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_jo_special_refund_usd(self):
         """
         same test as `test_jo_special_refund`, but with price divided over 2
@@ -3664,6 +3677,8 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
 >>>>>>> upstream/18.0
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4512,6 +4527,7 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4586,6 +4602,8 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5386,6 +5404,7 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5830,6 +5849,8 @@ class TestJoEdiTypes(JoEdiCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5951,6 +5972,9 @@ class TestJoEdiTypes(JoEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

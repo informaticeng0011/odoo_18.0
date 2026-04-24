@@ -133,6 +133,12 @@ class Cloc(object):
         if not exclude:
             exclude = set()
         for i in filter(None, exclude_list):
+<<<<<<< HEAD
+=======
+            assert '..' not in i, (
+                f"Invalid exclusion path '{i}': '..' is not allowed. Use a normalized path."
+            )
+>>>>>>> upstream/18.0
             exclude.update(str(p) for p in pathlib.Path(path).glob(i))
 
         module_name = os.path.basename(path)

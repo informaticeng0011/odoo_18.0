@@ -27,11 +27,14 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_partial_import_tax_fixed_tax_amounts(self):
         # Fail to retrieve the tax.
         invoice = self._import_invoice_as_attachment_on(
             test_name='test_partial_import_tax_fixed_tax_amounts',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93,6 +96,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -183,7 +189,11 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test_name='test_partial_import_tax_fixed_tax_amounts',
+=======
+            test_name='test_partial_import_tax_manual_tax_amounts',
+>>>>>>> upstream/18.0
 =======
             test_name='test_partial_import_tax_manual_tax_amounts',
 >>>>>>> upstream/18.0
@@ -292,9 +302,12 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2020-01-01')
     def test_partial_import_tax_fixed_tax_amounts_invoice_predictive(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -412,6 +425,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -488,7 +504,11 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test_name='test_partial_import_tax_fixed_tax_amounts',
+=======
+            test_name='test_partial_import_tax_manual_tax_amounts',
+>>>>>>> upstream/18.0
 =======
             test_name='test_partial_import_tax_manual_tax_amounts',
 >>>>>>> upstream/18.0

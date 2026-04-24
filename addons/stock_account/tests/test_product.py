@@ -3,6 +3,10 @@
 from odoo.addons.stock_account.tests.test_stockvaluationlayer import TestStockValuationCommon
 from odoo.fields import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged
 >>>>>>> upstream/18.0
@@ -56,7 +60,10 @@ class TestStockAccountProduct(TestStockValuationCommon):
         final_variants = template.product_variant_ids
         self.assertEqual(len(final_variants), 2, "Expected 2 product variants after attribute change.")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_total_value_as_restricted_user(self):
         """
@@ -133,4 +140,7 @@ class TestStockAccountProductMultiCompany(TestStockValuationCommon):
         vals_b = product_sudo_b._prepare_valuation_layer_field_values(aggregates_b)
         self.assertAlmostEqual(vals_b['total_value'], 60.0,
             msg="total_value in sudo must not aggregate qty_available from all companies")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

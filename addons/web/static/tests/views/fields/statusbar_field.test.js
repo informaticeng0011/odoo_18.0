@@ -797,7 +797,11 @@ test("For the same record, a single rpc is done to recover the specialData", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -1889,7 +1893,11 @@ test("open form with statusbar, leave and come back to another one with other do
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: `
+>>>>>>> upstream/18.0
 =======
         form: `
 >>>>>>> upstream/18.0
@@ -3089,7 +3097,10 @@ test("correctly load statusbar when dynamic domain changes", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3758,6 +3769,9 @@ test('"status" with no stages does not crash command palette', async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

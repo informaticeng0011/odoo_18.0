@@ -184,7 +184,11 @@ describe("not collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should insert a character in a fully selected font in a heading, preserving its style", async () => {
+=======
+    test("should insert a character in a fully selected font in a heading, preserving its style (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should insert a character in a fully selected font in a heading, preserving its style (1)", async () => {
 >>>>>>> upstream/18.0
@@ -691,6 +695,12 @@ describe("not collapsed selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should insert a character in a fully selected font in a heading, preserving its style (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

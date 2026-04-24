@@ -33,6 +33,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_authorize
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -368,6 +369,9 @@
 =======
 # * payment_authorize
 >>>>>>> upstream/18.0
+=======
+# * payment_authorize
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -482,6 +486,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -634,6 +639,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -738,6 +746,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1093,6 +1102,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-03-06 18:39+0000\n"
 "PO-Revision-Date: 2026-03-21 09:20+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1130,6 +1141,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1199,6 +1213,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1628,10 +1643,16 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1753,6 +1774,8 @@ msgstr ""
 "                        <option value=\"savings\">Conto di risparmio</option>\n"
 "                        <option value=\"businessChecking\">Conto corrente aziendale</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2097,6 +2120,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2510,8 +2536,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossibile recuperare i dettagli della transazione. (Codice errore: "
 "%(error_code)s; error_details: %(error_message)s)"
+=======
+"Impossibile recuperare i dettagli della transazione. (Codice errore: %"
+"(error_code)s; error_details: %(error_message)s)"
+>>>>>>> upstream/18.0
 =======
 "Impossibile recuperare i dettagli della transazione. (Codice errore: %"
 "(error_code)s; error_details: %(error_message)s)"
@@ -3134,11 +3165,14 @@ msgstr "Elaborazione del pagamento non riuscita"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr ""
 "Dati ricevuti con codice di stato \"%(status)s\" e codice di errore "
 "\"%(error)s\""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3471,6 +3505,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3729,6 +3766,7 @@ msgid ""
 "The transaction is not in a status to be refunded. (status: %(status)s, "
 "details: %(message)s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4281,6 +4319,10 @@ msgstr ""
 "Lo stato della transazione non permette di effettuare il rimborso. (Stato: %"
 "(status)s, dettagli: %(message)s)"
 >>>>>>> upstream/18.0
+=======
+"Lo stato della transazione non permette di effettuare il rimborso. (Stato: %"
+"(status)s, dettagli: %(message)s)"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #. odoo-python
@@ -4304,6 +4346,7 @@ msgid "This action cannot be performed while the provider is disabled."
 msgstr "L'azione non può essere eseguita quando il fornitore è disattivato."
 
 #. module: payment_authorize
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4425,6 +4468,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4527,6 +4572,9 @@ msgstr "Transazione non trovata."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

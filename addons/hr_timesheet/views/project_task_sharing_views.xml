@@ -344,7 +344,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <kanban class="o_kanban_mobile">
+=======
+                        <kanban class="o_kanban_mobile" action="action_open_timesheet_view_portal" type="object">
+>>>>>>> upstream/18.0
 =======
                         <kanban class="o_kanban_mobile" action="action_open_timesheet_view_portal" type="object">
 >>>>>>> upstream/18.0
@@ -1257,7 +1261,11 @@
                                 <label class="fw-bold text-danger" for="remaining_hours" string="Days Remaining"
                                        invisible="allocated_hours == 0.0 or not encode_uom_in_days or remaining_hours &gt;= 0"/>
                             </span>
+<<<<<<< HEAD
                             <field name="remaining_hours" widget="timesheet_uom" class="oe_subtotal_footer_separator"
+=======
+                            <field name="remaining_hours" widget="timesheet_uom" class="oe_subtotal_footer_separator" decoration-danger="remaining_hours &lt; 0"
+>>>>>>> upstream/18.0
                                   invisible="allocated_hours == 0.0" nolabel="1"/>
                         </group>
                     </group>

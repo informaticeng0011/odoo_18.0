@@ -279,6 +279,7 @@ import random
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from collections import defaultdict
 =======
@@ -600,6 +601,11 @@ from functools import partial
 =======
 from collections import defaultdict
 from functools import partial
+>>>>>>> upstream/18.0
+=======
+from collections import defaultdict
+from functools import partial
+from pytz import timezone
 >>>>>>> upstream/18.0
 =======
 from collections import defaultdict
@@ -1938,7 +1944,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         points_per_coupon = defaultdict(dict)
+=======
+        points_per_coupon = defaultdict(partial(defaultdict, int))
+>>>>>>> upstream/18.0
 =======
         points_per_coupon = defaultdict(partial(defaultdict, int))
 >>>>>>> upstream/18.0
@@ -3052,7 +3062,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             points_per_coupon[line.coupon_id]['cost'] = line.points_cost
+=======
+            points_per_coupon[line.coupon_id]['cost'] += line.points_cost
+>>>>>>> upstream/18.0
 =======
             points_per_coupon[line.coupon_id]['cost'] += line.points_cost
 >>>>>>> upstream/18.0
@@ -4217,7 +4231,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': _("Free Product - %(product)s", product=product.with_context(display_default_code=False).display_name),
+=======
+            'name': reward.description,
+>>>>>>> upstream/18.0
 =======
             'name': reward.description,
 >>>>>>> upstream/18.0
@@ -4919,6 +4937,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                currency=line.currency_id,
+>>>>>>> upstream/18.0
 =======
                 currency=line.currency_id,
 >>>>>>> upstream/18.0
@@ -5369,6 +5391,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not tax_data:
+                return None
+>>>>>>> upstream/18.0
 =======
             if not tax_data:
                 return None
@@ -6567,7 +6594,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             discountable += line.price_total
+=======
+            discountable += line.price_total / line.product_uom_qty
+>>>>>>> upstream/18.0
 =======
             discountable += line.price_total / line.product_uom_qty
 >>>>>>> upstream/18.0
@@ -7365,7 +7396,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             point_cost = converted_discount / reward.discount
+=======
+            point_cost = coupon.currency_id.round(converted_discount / reward.discount)
+>>>>>>> upstream/18.0
 =======
             point_cost = coupon.currency_id.round(converted_discount / reward.discount)
 >>>>>>> upstream/18.0
@@ -8303,7 +8338,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         today = fields.Date.context_today(self)
+=======
+        today = self._get_confirmed_tx_create_date()
+>>>>>>> upstream/18.0
 =======
         today = self._get_confirmed_tx_create_date()
 >>>>>>> upstream/18.0
@@ -9103,7 +9142,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         today = fields.Date.context_today(self)
+=======
+        today = self._get_confirmed_tx_create_date()
+>>>>>>> upstream/18.0
 =======
         today = self._get_confirmed_tx_create_date()
 >>>>>>> upstream/18.0
@@ -9899,7 +9942,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10497,6 +10543,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         confirmed_txs = self.transaction_ids.filtered(lambda tx: tx.state in ('done', 'authorized'))
         if confirmed_txs:
             # If order is getting confirmed, use the earliest finalized transaction's create date
@@ -10524,6 +10571,8 @@ class SaleOrder(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11101,6 +11150,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11500,6 +11552,7 @@ class SaleOrder(models.Model):
         Returns all programs that give points on the current order.
         """
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12641,6 +12694,9 @@ class SaleOrder(models.Model):
 =======
         return self.coupon_point_ids.filtered('points').coupon_id.program_id
 >>>>>>> upstream/18.0
+=======
+        return self.coupon_point_ids.filtered('points').coupon_id.program_id
+>>>>>>> upstream/18.0
 
     def _get_reward_programs(self):
         """
@@ -12654,6 +12710,7 @@ class SaleOrder(models.Model):
         Returns all coupons that are a reward.
         """
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14365,6 +14422,11 @@ class SaleOrder(models.Model):
             lambda c: c.program_id.applies_on == 'future',
         )
 >>>>>>> upstream/18.0
+=======
+        return self.coupon_point_ids.filtered('points').coupon_id.filtered(
+            lambda c: c.program_id.applies_on == 'future',
+        )
+>>>>>>> upstream/18.0
 
     def _get_applied_programs(self):
         """
@@ -14595,8 +14657,14 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if any(line.is_reward_line for line in self.order_line):
             self._update_programs_and_rewards()
+=======
+        for order in self:
+            if any(line.is_reward_line for line in order.order_line):
+                order._update_programs_and_rewards()
+>>>>>>> upstream/18.0
 =======
         for order in self:
             if any(line.is_reward_line for line in order.order_line):
@@ -15930,12 +15998,15 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if coupon.program_id.applies_on != 'future' and self.state not in ('sale', 'done'):
             # Points that will be given by the order upon confirming the order
             points += self.coupon_point_ids.filtered(lambda p: p.coupon_id == coupon).points
         # Points already used by rewards
         points -= sum(self.order_line.filtered(lambda l: l.coupon_id == coupon).mapped('points_cost'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16611,6 +16682,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17390,6 +17464,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if vals['product_id'] == line.product_id.id:
+                vals['name'] = line.name  # Preserve custom description
+>>>>>>> upstream/18.0
 =======
             if vals['product_id'] == line.product_id.id:
                 vals['name'] = line.name  # Preserve custom description
@@ -18853,6 +18932,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def compute_discount(reward, discountable):
             """Compute the discount amount for the given reward, w.r.t. the discountable amount.
 
@@ -18873,6 +18953,10 @@ class SaleOrder(models.Model):
 
         discount_current_reward = compute_discount(current_reward, discountable)
         discount_new_reward = compute_discount(new_reward, discountable)
+=======
+        discount_current_reward = self._get_discount_amount(current_reward, discountable)
+        discount_new_reward = self._get_discount_amount(new_reward, discountable)
+>>>>>>> upstream/18.0
 =======
         discount_current_reward = self._get_discount_amount(current_reward, discountable)
         discount_new_reward = self._get_discount_amount(new_reward, discountable)
@@ -20456,7 +20540,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21408,6 +21495,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22145,6 +22235,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        check_date = self._get_confirmed_tx_create_date()
+>>>>>>> upstream/18.0
 =======
         check_date = self._get_confirmed_tx_create_date()
 >>>>>>> upstream/18.0
@@ -22587,6 +22681,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # Skip coupons generated by this order that only apply on future orders
             if coupon.program_id.applies_on == 'future' and coupon.order_id == self:
@@ -23353,6 +23448,8 @@ class SaleOrder(models.Model):
                 continue
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23565,6 +23662,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23982,10 +24082,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.applied_coupon_ids = self.applied_coupon_ids.filtered(lambda c:
             (not c.expiration_date or c.expiration_date >= fields.Date.today())
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24581,6 +24684,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25198,8 +25304,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             products_qties[line.product_id] += line.product_uom_qty
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25411,6 +25520,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26034,6 +26146,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             global_reward = program.reward_ids.filtered('is_global_discount')
             applied_global_reward = self._get_applied_global_discount()
             if (
@@ -26041,6 +26154,8 @@ class SaleOrder(models.Model):
                 and applied_global_reward
                 and self._best_global_discount_already_applied(applied_global_reward, global_reward)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26986,6 +27101,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27613,6 +27731,7 @@ class SaleOrder(models.Model):
                 return {'error': _(
                     'This discount (%(discount)s) is not compatible with "%(other_discount)s". '
                     'Please remove it in order to apply this one.',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29175,6 +29294,10 @@ class SaleOrder(models.Model):
                     discount=best_global_rewards.description,
                     other_discount=applied_global_reward.description
 >>>>>>> upstream/18.0
+=======
+                    discount=best_global_rewards.description,
+                    other_discount=applied_global_reward.description
+>>>>>>> upstream/18.0
                 )}
         # Check for applicability from the program's triggers/rules.
         # This step should also compute the amount of points to give for that program on that order.
@@ -29397,6 +29520,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        check_date = self._get_confirmed_tx_create_date()
+>>>>>>> upstream/18.0
 =======
         check_date = self._get_confirmed_tx_create_date()
 >>>>>>> upstream/18.0
@@ -30197,7 +30324,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif coupon.expiration_date and coupon.expiration_date < fields.Date.today():
+=======
+            if coupon.expiration_date and coupon.expiration_date < check_date:
+>>>>>>> upstream/18.0
 =======
             if coupon.expiration_date and coupon.expiration_date < check_date:
 >>>>>>> upstream/18.0
@@ -30937,8 +31068,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif (program.limit_usage and program.total_order_count >= program.max_usage):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31369,6 +31503,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

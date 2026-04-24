@@ -31,6 +31,7 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         account = self.company_data['default_account_revenue'].copy()
 
         # First invoice to train the prediction.
@@ -38,6 +39,8 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
             name="turlututu",
             price_unit=1.0,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105,6 +108,9 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -178,6 +184,10 @@ class TestUblImportBis3InvoiceBERetrieveAccount(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'product_id': product.id,
+>>>>>>> upstream/18.0
 =======
             'product_id': product.id,
 >>>>>>> upstream/18.0

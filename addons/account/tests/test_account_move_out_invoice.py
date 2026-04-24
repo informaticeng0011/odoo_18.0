@@ -227,7 +227,11 @@ from odoo import fields, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
@@ -1220,7 +1224,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1768,6 +1775,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2418,11 +2428,14 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Check rounding.
         decimal_precision_name = self.env['account.move.line']._fields['price_unit']._digits
         decimal_precision = self.env['decimal.precision'].search([('name', '=', decimal_precision_name)])
         decimal_precision.digits = 4
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2706,7 +2719,11 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'price_unit': 163.6425, # 90.0034 / 1.10 * 2
+=======
+            'price_unit': 163.64254545454546,  # 90.0034 / 1.10 * 2
+>>>>>>> upstream/18.0
 =======
             'price_unit': 163.64254545454546,  # 90.0034 / 1.10 * 2
 >>>>>>> upstream/18.0
@@ -3471,6 +3488,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         decimal_precision_name = self.env['account.move.line']._fields['price_unit']._digits
         decimal_precision = self.env['decimal.precision'].search([('name', '=', decimal_precision_name)])
 
@@ -3478,6 +3496,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 
         self.other_currency.rounding = 0.01
         decimal_precision.digits = 4
+=======
+        self.other_currency.rounding = 0.01
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.01
 >>>>>>> upstream/18.0
@@ -4657,6 +4678,11 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 
@@ -5488,7 +5514,11 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
+=======
+                'price_unit': 0.045,
+>>>>>>> upstream/18.0
 =======
                 'price_unit': 0.045,
 >>>>>>> upstream/18.0
@@ -5894,12 +5924,15 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
                 'price_subtotal': 0.01,
                 'price_total': 0.01,
                 'amount_currency': -0.01,
                 'credit': 0.01,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6169,6 +6202,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6445,8 +6481,13 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_currency': 260.01,
                 'debit': 260.01,
+=======
+                'amount_currency': 260.0,
+                'debit': 260.0,
+>>>>>>> upstream/18.0
 =======
                 'amount_currency': 260.0,
                 'debit': 260.0,
@@ -6898,9 +6939,15 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 200.01,
             'amount_tax': 60.0,
             'amount_total': 260.01,
+=======
+            'amount_untaxed': 200.0,
+            'amount_tax': 60.0,
+            'amount_total': 260.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 200.0,
             'amount_tax': 60.0,
@@ -7533,6 +7580,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.invoice.write({'invoice_origin': 'S00001'})
+>>>>>>> upstream/18.0
 =======
         self.invoice.write({'invoice_origin': 'S00001'})
 >>>>>>> upstream/18.0
@@ -7904,6 +7955,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "allow_out_payment": True,
+>>>>>>> upstream/18.0
 =======
             "allow_out_payment": True,
 >>>>>>> upstream/18.0
@@ -8273,6 +8328,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_origin': 'S00001'
+>>>>>>> upstream/18.0
 =======
             'invoice_origin': 'S00001'
 >>>>>>> upstream/18.0
@@ -8655,6 +8714,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_origin': 'S00001',
+>>>>>>> upstream/18.0
 =======
             'invoice_origin': 'S00001',
 >>>>>>> upstream/18.0
@@ -9523,6 +9586,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "allow_out_payment": True,
+>>>>>>> upstream/18.0
 =======
             "allow_out_payment": True,
 >>>>>>> upstream/18.0
@@ -11370,7 +11437,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12294,6 +12364,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13089,16 +13162,39 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 
     def test_discount_allocation_account_on_invoice(self):
         # Ensure two aml of display_type 'discount' are correctly created when setting an account for discounts in the settings
+<<<<<<< HEAD
         discount_account = self.company_data['default_account_expense'].copy()
         self.company_data['company'].account_discount_expense_allocation_id = discount_account
 
         invoice = self.env['account.move'].create({
             'move_type': 'out_invoice',
             'partner_id': self.partner_a.id,
+=======
+        product_a_account = self.env['account.account'].create({
+            'name': 'account_a',
+            'code': "100001",
+            'account_type': 'income_other',
+        })
+        product_b_account = self.product_b.property_account_income_id
+
+        self.product_a.property_account_income_id = product_a_account
+        discount_account = self.company_data['default_account_expense'].copy()
+        self.company_data['company'].account_discount_expense_allocation_id = discount_account
+
+        currency = self.setup_other_currency('EUR', rates=[
+            ('2025-01-01', 0.000717398539),
+        ])
+
+        invoice = self.env['account.move'].create({
+            'move_type': 'out_invoice',
+            'partner_id': self.partner_a.id,
+            'currency_id': currency.id,
+>>>>>>> upstream/18.0
             'invoice_line_ids': [
                 Command.create({
                     'product_id': self.product_a.id,
                     'quantity': 1,
+<<<<<<< HEAD
                     'discount': 5,
                 })
             ],
@@ -13111,13 +13207,44 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
                 'amount_currency': -50.0,
                 'debit': 0.0,
                 'credit': 50.0,
+=======
+                    'price_unit': 10.0,
+                    'discount': 57.85,
+                }),
+                Command.create({
+                    'product_id': self.product_b.id,
+                    'quantity': 1,
+                    'price_unit': 70.0,
+                    'discount': 57.85,
+                }),
+            ],
+        })
+        self.assertRecordValues(invoice.line_ids.filtered(lambda l: l.display_type == 'discount'), [
+            {
+                'account_id': product_a_account.id,
+                'tax_ids': [],
+                'amount_currency': -5.79,
+                'balance': -8070.83,
+
+>>>>>>> upstream/18.0
             },
             {
                 'account_id': discount_account.id,
                 'tax_ids': [],
+<<<<<<< HEAD
                 'amount_currency': 50.0,
                 'debit': 50.0,
                 'credit': 0.0,
+=======
+                'amount_currency': 46.29,
+                'balance': 64524.81,
+            },
+            {
+                'account_id': product_b_account.id,
+                'tax_ids': [],
+                'amount_currency': -40.5,
+                'balance': -56453.98,
+>>>>>>> upstream/18.0
             },
         ])
 
@@ -13579,6 +13706,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "allow_out_payment": True,
+>>>>>>> upstream/18.0
 =======
             "allow_out_payment": True,
 >>>>>>> upstream/18.0
@@ -13860,6 +13991,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "allow_out_payment": True,
+>>>>>>> upstream/18.0
 =======
             "allow_out_payment": True,
 >>>>>>> upstream/18.0
@@ -14448,7 +14583,10 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15355,6 +15493,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15383,6 +15522,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16223,6 +16364,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16404,6 +16546,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16982,6 +17126,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17606,6 +17753,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17636,6 +17784,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18298,6 +18448,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18350,6 +18501,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18913,6 +19066,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18969,6 +19123,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19456,6 +19612,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19472,6 +19629,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19934,6 +20093,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19962,6 +20122,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20390,6 +20552,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20447,6 +20610,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20777,6 +20942,9 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21165,6 +21333,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21271,6 +21440,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21499,6 +21670,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21635,6 +21807,8 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_out_invoice_fiscal_position_branch_taxes(self):
         """Price should be recomputed when tax inclusion changes via fiscal position"""
@@ -21685,4 +21859,7 @@ class TestAccountMoveOutInvoiceOnchanges(AccountTestInvoicingCommon):
             1000.00,
             msg="Price should be tax included"
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

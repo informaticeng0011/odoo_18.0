@@ -269,7 +269,11 @@ def _make_mydata_request(company, endpoint, xml_content) -> dict[str, str] | dic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {'error': err}
+=======
+        return {'error': str(err)}
+>>>>>>> upstream/18.0
 =======
         return {'error': str(err)}
 >>>>>>> upstream/18.0
@@ -1189,7 +1193,11 @@ class GreeceEDIDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _description = "Greece document object for tracking all sent XML to MyDATA"
+=======
+    _description = "Greece document object for tracking all sent XML to myDATA"
+>>>>>>> upstream/18.0
 =======
     _description = "Greece document object for tracking all sent XML to myDATA"
 >>>>>>> upstream/18.0
@@ -2097,7 +2105,11 @@ class GreeceEDIDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='MyDATA Status',
+=======
+        string='myDATA Status',
+>>>>>>> upstream/18.0
 =======
         string='myDATA Status',
 >>>>>>> upstream/18.0
@@ -2998,7 +3010,11 @@ class GreeceEDIDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     attachment_id = fields.Many2one(comodel_name='ir.attachment', string='XML file')
+=======
+    attachment_id = fields.Many2one(comodel_name='ir.attachment', string='XML File')
+>>>>>>> upstream/18.0
 =======
     attachment_id = fields.Many2one(comodel_name='ir.attachment', string='XML File')
 >>>>>>> upstream/18.0

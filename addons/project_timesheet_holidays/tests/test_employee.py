@@ -169,7 +169,10 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -589,6 +592,9 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1001,7 +1007,10 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1414,6 +1423,9 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2055,7 +2067,10 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2976,6 +2991,9 @@ class TestEmployee(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3595,7 +3613,10 @@ class TestEmployee(TransactionCase):
         self.assertEqual(str(timesheet.date), '2020-01-01', 'The timesheet should be created for the correct date')
         self.assertEqual(timesheet.unit_amount, 8, 'The timesheet should be created for the correct duration')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2020-01-01')
     def test_timesheet_inactive_employee(self):
@@ -3636,4 +3657,7 @@ class TestEmployee(TransactionCase):
         timesheets = self.env['account.analytic.line'].search([
             ('employee_id', '=', employee.id)])
         self.assertEqual(len(timesheets), old_timesheet_count, "New timesheets should not have been generated due to employee being inactive/archived")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

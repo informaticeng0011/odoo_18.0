@@ -231,6 +231,10 @@ import { FormControllerWithHTMLExpander } from '@resource/views/form_with_html_e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getHtmlFieldMetadata, setHtmlFieldMetadata } from "@html_editor/fields/html_field";
+>>>>>>> upstream/18.0
 =======
 import { getHtmlFieldMetadata, setHtmlFieldMetadata } from "@html_editor/fields/html_field";
 >>>>>>> upstream/18.0
@@ -1201,7 +1205,12 @@ export class ProjectTaskFormController extends FormControllerWithHTMLExpander {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             restoredData[versionedFieldName] = html;
+=======
+                            const contentMetadata = getHtmlFieldMetadata(record.data[versionedFieldName]);
+                            restoredData[versionedFieldName] = setHtmlFieldMetadata(html, contentMetadata);
+>>>>>>> upstream/18.0
 =======
                             const contentMetadata = getHtmlFieldMetadata(record.data[versionedFieldName]);
                             restoredData[versionedFieldName] = setHtmlFieldMetadata(html, contentMetadata);

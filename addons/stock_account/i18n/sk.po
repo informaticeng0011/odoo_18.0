@@ -110,8 +110,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 # 
+=======
+# * stock_account
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_account
 #
@@ -556,6 +561,7 @@
 # Rastislav Brencic <rastislav.brencic@azet.sk>, 2024
 # Wil Odoo, 2024
 # Tomáš Píšek, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1902,10 +1908,14 @@ msgstr ""
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2136,6 +2146,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-02-25 17:01+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-02-25 17:01+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "stock_account/sk/>\n"
@@ -2255,6 +2269,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2547,7 +2564,11 @@ msgid " [Accounted on %s]"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " [Zaúčtované dňa %s]"
+>>>>>>> upstream/18.0
 =======
 msgstr " [Zaúčtované dňa %s]"
 >>>>>>> upstream/18.0
@@ -2727,6 +2748,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3278,6 +3300,10 @@ msgid ""
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
 "(product)s\n"
 >>>>>>> upstream/18.0
+=======
+"%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
+"(product)s\n"
+>>>>>>> upstream/18.0
 "%(reason)s"
 msgstr ""
 
@@ -3285,6 +3311,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid ""
 ")\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3987,6 +4014,8 @@ msgstr "6,00"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <small class=\"mx-2 fst-italic\">Use a negative "
 "added value to record a decrease in the product value</small>"
 msgstr ""
@@ -4003,6 +4032,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4103,7 +4135,11 @@ msgid "<span>SN/LN</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>SČ/šarža</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>SČ/šarža</span>"
 >>>>>>> upstream/18.0
@@ -4362,7 +4398,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridajte dodatočné náklady (doprava, clá, ...) k hodnote produktu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridajte dodatočné náklady (doprava, clá, ...) k hodnote produktu."
 >>>>>>> upstream/18.0
@@ -4583,7 +4623,11 @@ msgid "Added Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridaná hodnota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridaná hodnota"
 >>>>>>> upstream/18.0
@@ -4809,7 +4853,11 @@ msgid "Adjust Valuation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Úprava ocenenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Úprava ocenenia"
 >>>>>>> upstream/18.0
@@ -4977,6 +5025,7 @@ msgstr "Úprava ocenenia"
 #: model:ir.model.fields,help:stock_account.field_res_config_settings__module_stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_account.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5529,6 +5578,10 @@ msgid ""
 "Affect landed costs on reception operations and split them among products to "
 "update their cost price."
 >>>>>>> upstream/18.0
+=======
+"Affect landed costs on reception operations and split them among products to "
+"update their cost price."
+>>>>>>> upstream/18.0
 msgstr ""
 "Ovplyvňuje vzniknuté náklady pri príjme a rozdeľuje ich na jednotlivé "
 "produkty pre aktualizáciu ceny nákladov."
@@ -5595,7 +5648,11 @@ msgid "Analytic Account Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Riadok analytického účtu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riadok analytického účtu"
 >>>>>>> upstream/18.0
@@ -5872,7 +5929,11 @@ msgid "Analytic Plans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analytické plány"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analytické plány"
 >>>>>>> upstream/18.0
@@ -6282,7 +6343,11 @@ msgid "BC46282798"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BC46282798"
+>>>>>>> upstream/18.0
 =======
 msgstr "BC46282798"
 >>>>>>> upstream/18.0
@@ -6503,7 +6568,11 @@ msgid "Bacon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slanina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slanina"
 >>>>>>> upstream/18.0
@@ -6676,6 +6745,7 @@ msgstr "Zrušené"
 #. odoo-python
 #: code:addons/stock_account/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7228,6 +7298,10 @@ msgid ""
 "Cannot find a stock input account for the product %s. You must define one on "
 "the product category, or on the location, before processing this operation."
 >>>>>>> upstream/18.0
+=======
+"Cannot find a stock input account for the product %s. You must define one on "
+"the product category, or on the location, before processing this operation."
+>>>>>>> upstream/18.0
 msgstr ""
 "Účet pre príjem na sklad nenájdený pre produkt %s. Musíte ho zadefinovať v "
 "kategórii produktu, alebo pre lokáciu, kým možno pokračovať v operácii."
@@ -7315,7 +7389,11 @@ msgid "Cogs Origin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pôvod nákladov na predaný tovar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pôvod nákladov na predaný tovar"
 >>>>>>> upstream/18.0
@@ -7639,8 +7717,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Costing method change for product category %(category)s: from %(old_method)s"
 " to %(new_method)s."
+=======
+"Costing method change for product category %(category)s: from %(old_method)s "
+"to %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "Costing method change for product category %(category)s: from %(old_method)s "
 "to %(new_method)s."
@@ -8201,9 +8284,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Counterpart journal items for all incoming stock moves will be posted in this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8535,6 +8621,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8874,7 +8963,11 @@ msgid "Display Lots & Serial Numbers on Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť šarže a sériové čísla na faktúrach"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť šarže a sériové čísla na faktúrach"
 >>>>>>> upstream/18.0
@@ -9101,7 +9194,11 @@ msgid "Display Serial & Lot Number on Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť šarže a sériové čísla na faktúrach"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť šarže a sériové čísla na faktúrach"
 >>>>>>> upstream/18.0
@@ -9269,6 +9366,7 @@ msgstr "Zobraziť šarže a sériové čísla na faktúrach"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9821,6 +9919,10 @@ msgid ""
 "Due to a change of product category (from %(old_category)s to %"
 "(new_category)s), the costing method has changed for product %(product)s: "
 >>>>>>> upstream/18.0
+=======
+"Due to a change of product category (from %(old_category)s to %"
+"(new_category)s), the costing method has changed for product %(product)s: "
+>>>>>>> upstream/18.0
 "from %(old_method)s to %(new_method)s."
 msgstr ""
 
@@ -9904,6 +10006,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ak je táto možnosť zaškrtnutá, ocenenie bude špecifické podľa čísla šarže/"
+"sériového čísla."
+>>>>>>> upstream/18.0
 =======
 "Ak je táto možnosť zaškrtnutá, ocenenie bude špecifické podľa čísla šarže/"
 "sériového čísla."
@@ -10286,7 +10393,11 @@ msgid "Lots & Serial numbers will appear on the invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čísla šarží a sériové čísla budú uvedené na faktúre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čísla šarží a sériové čísla budú uvedené na faktúre"
 >>>>>>> upstream/18.0
@@ -10467,6 +10578,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock_account.field_product_template__valuation
 #: model:ir.model.fields,help:stock_account.field_stock_valuation_layer_revaluation__property_valuation
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10798,6 +10910,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Manual: The accounting entries to value the inventory are not posted "
 "automatically.\n"
 "        Automated: An accounting entry is automatically created to value the "
@@ -10911,6 +11025,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11170,6 +11287,7 @@ msgstr "Produkt"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11721,6 +11839,10 @@ msgid ""
 "Product %(product)s has quantity in valued location %(location)s without any "
 "lot.\n"
 >>>>>>> upstream/18.0
+=======
+"Product %(product)s has quantity in valued location %(location)s without any "
+"lot.\n"
+>>>>>>> upstream/18.0
 "Please assign lots to all your quantities before enabling lot valuation."
 msgstr ""
 
@@ -11737,7 +11859,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11779,6 +11904,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11894,7 +12022,11 @@ msgid "Production WIP Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Účet rozpracovanej výroby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Účet rozpracovanej výroby"
 >>>>>>> upstream/18.0
@@ -12115,7 +12247,11 @@ msgid "Production WIP Overhead Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Účet režijných nákladov rozpracovanej výroby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Účet režijných nákladov rozpracovanej výroby"
 >>>>>>> upstream/18.0
@@ -12453,7 +12589,10 @@ msgstr "Riadok návratky"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12787,6 +12926,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13142,6 +13284,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Standard Price: The products are valued at their standard cost defined on the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average cost.\n"
 "        First In First Out (FIFO): The products are valued supposing those that enter the company first will also leave it first.\n"
@@ -13151,6 +13294,8 @@ msgstr ""
 "        Priemerná nákupná cena: Produkty sú ocenené podľa priemernej váženej nákupnej ceny.\n"
 "        First In First Out (FIFO): Produkty sú ocenené podľa zásady, že tie ktoré vstúpili na sklad prvé budú mať výstup ako prvé."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13492,6 +13637,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13851,6 +13999,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Technické pole na správne zobrazenie aktuálne vybranej meny spoločnosti, "
+"ktorá zodpovedá celkovej hodnote všetkých ocenení produktu"
+>>>>>>> upstream/18.0
 =======
 "Technické pole na správne zobrazenie aktuálne vybranej meny spoločnosti, "
 "ktorá zodpovedá celkovej hodnote všetkých ocenení produktu"
@@ -14165,6 +14318,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/stock_account/static/src/fields/boolean_confirm.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14737,6 +14891,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This operation might lead in a loss of data. Valuation will be identical for "
 "all lots/SN. Do you want to proceed ? "
 msgstr ""
@@ -14753,6 +14909,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14781,6 +14940,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15456,6 +15616,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This product is valuated by lot/serial number. Changing the cost will update "
 "the cost of every lot/serial number in stock."
 msgstr ""
@@ -15570,6 +15732,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16020,6 +16185,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16535,7 +16703,11 @@ msgid "Total Remaining Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celková zostávajúca hodnota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celková zostávajúca hodnota"
 >>>>>>> upstream/18.0
@@ -16718,6 +16890,7 @@ msgstr "Prevod"
 #: model:ir.model.fields,help:stock_account.field_stock_move__to_refund
 #: model:ir.model.fields,help:stock_account.field_stock_return_picking_line__to_refund
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17052,6 +17225,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Trigger a decrease of the delivered/received quantity in the associated Sale "
 "Order/Purchase Order"
 msgstr ""
@@ -17166,6 +17341,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17465,7 +17643,11 @@ msgid "Update quantities on SO/PO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktualizovať množstvo v predajnej/nákupnej objednávke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktualizovať množstvo v predajnej/nákupnej objednávke"
 >>>>>>> upstream/18.0
@@ -17757,8 +17939,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "všeobecného Účtu skladových výstupov nastavenom pre tento produkt. Toto nemá"
 " žiadny efekt na interné lokácie."
+=======
+"všeobecného Účtu skladových výstupov nastavenom pre tento produkt. Toto nemá "
+"žiadny efekt na interné lokácie."
+>>>>>>> upstream/18.0
 =======
 "všeobecného Účtu skladových výstupov nastavenom pre tento produkt. Toto nemá "
 "žiadny efekt na interné lokácie."
@@ -18322,8 +18509,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "všeobecného Účtu skladových výstupov nastavenom pre tento produkt. Toto nemá"
 " žiadny efekt na interné lokácie."
+=======
+"všeobecného Účtu skladových výstupov nastavenom pre tento produkt. Toto nemá "
+"žiadny efekt na interné lokácie."
+>>>>>>> upstream/18.0
 =======
 "všeobecného Účtu skladových výstupov nastavenom pre tento produkt. Toto nemá "
 "žiadny efekt na interné lokácie."
@@ -18831,7 +19023,11 @@ msgid "Valuation Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mena ocenenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mena ocenenia"
 >>>>>>> upstream/18.0
@@ -19021,6 +19217,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19573,6 +19770,10 @@ msgid ""
 "Valuation method change for product category %(category)s: from %"
 "(old_method)s to %(new_method)s."
 >>>>>>> upstream/18.0
+=======
+"Valuation method change for product category %(category)s: from %"
+"(old_method)s to %(new_method)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
@@ -19643,7 +19844,11 @@ msgid "Value On Hand:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hodnota skladom:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hodnota skladom:"
 >>>>>>> upstream/18.0
@@ -19817,6 +20022,7 @@ msgstr ""
 #: model:ir.model.fields,help:stock_account.field_stock_lot__standard_price
 msgid ""
 "Value of the lot (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20261,11 +20467,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
 "Hodnota šarže (automaticky vypočítaná v primernej cene).\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20465,6 +20674,11 @@ msgstr ""
 "úprava zásob).\n"
 "        Používa sa na výpočet marží pri predajných objednávkach."
 >>>>>>> upstream/18.0
+=======
+"        Používa sa na ocenenie produktu, ak nie je známa nákupná cena (napr. "
+"úprava zásob).\n"
+"        Používa sa na výpočet marží pri predajných objednávkach."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -20532,6 +20746,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Keď je pre produkt povolené automatické oceňovanie zásob, tento účet bude "
+"obsahovať aktuálnu hodnotu produktov."
+>>>>>>> upstream/18.0
 =======
 "Keď je pre produkt povolené automatické oceňovanie zásob, tento účet bude "
 "obsahovať aktuálnu hodnotu produktov."
@@ -20862,9 +21081,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21197,6 +21419,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21725,6 +21950,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -22763,8 +22992,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any input valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any input valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any input valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -23329,8 +23563,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
@@ -23899,8 +24138,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
+=======
+"You don't have any stock valuation account defined on your product category. "
+"You must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock valuation account defined on your product category. "
 "You must define one before processing this operation."
@@ -24418,7 +24662,11 @@ msgid "locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lokáciach"
+>>>>>>> upstream/18.0
 =======
 msgstr "lokáciach"
 >>>>>>> upstream/18.0
@@ -24603,6 +24851,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "6.00"
+#~ msgstr "6,00"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "6.00"

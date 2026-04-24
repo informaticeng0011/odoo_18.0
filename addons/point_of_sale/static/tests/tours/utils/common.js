@@ -271,12 +271,15 @@ export function negateStep(step) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function run(run, content = "run function") {
     return { content, trigger: "body", run };
 }
 export function refresh() {
     return run(() => window.location.reload(), "refresh page");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1002,6 +1005,9 @@ export function refresh() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

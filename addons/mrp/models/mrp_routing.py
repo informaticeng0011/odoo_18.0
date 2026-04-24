@@ -113,17 +113,23 @@ class MrpRoutingWorkcenter(models.Model):
     def create(self, vals_list):
         res = super().create(vals_list)
 <<<<<<< HEAD
+<<<<<<< HEAD
         res.bom_id._set_outdated_bom_in_productions()
         return res
 
     def write(self, vals):
         self.bom_id._set_outdated_bom_in_productions()
 =======
+=======
+>>>>>>> upstream/18.0
         res.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
         return res
 
     def write(self, vals):
         self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if 'bom_id' in vals:
             for op in self:
@@ -139,7 +145,11 @@ class MrpRoutingWorkcenter(models.Model):
         byproduct_lines = self.env['mrp.bom.byproduct'].search([('operation_id', 'in', self.ids)])
         byproduct_lines.write({'operation_id': False})
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.bom_id._set_outdated_bom_in_productions()
+=======
+        self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
+>>>>>>> upstream/18.0
 =======
         self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
 >>>>>>> upstream/18.0
@@ -148,7 +158,11 @@ class MrpRoutingWorkcenter(models.Model):
     def action_unarchive(self):
         res = super().action_unarchive()
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.bom_id._set_outdated_bom_in_productions()
+=======
+        self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
+>>>>>>> upstream/18.0
 =======
         self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
 >>>>>>> upstream/18.0

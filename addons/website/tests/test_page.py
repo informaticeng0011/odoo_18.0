@@ -613,7 +613,10 @@ class TestNewPage(common.TransactionCase):
         self.assertEqual(len(pages), 1, "Exactly one page should be at /snippets.")
         self.assertNotEqual(pages.key, "website.snippets", "Page's key cannot be website.snippets.")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_pagenew_links_menu_without_leading_slash(self):
         website = self.env.ref('website.default_website')
@@ -640,4 +643,7 @@ class TestNewPage(common.TransactionCase):
                     menu.page_id,
                     f"Menu '{menu.name}' was not linked to the created page."
                 )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

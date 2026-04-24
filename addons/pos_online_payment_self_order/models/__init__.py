@@ -3,6 +3,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_http
+>>>>>>> upstream/18.0
 =======
 from . import ir_http
 >>>>>>> upstream/18.0

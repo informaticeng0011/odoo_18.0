@@ -3,6 +3,7 @@ from datetime import date, timedelta
 
 from odoo import Command
 from odoo.fields import Date
+<<<<<<< HEAD
 from odoo.tools import float_is_zero
 from odoo.exceptions import AccessError, UserError, ValidationError
 from odoo.addons.hr_timesheet.tests.test_timesheet import TestCommonTimesheet
@@ -904,6 +905,15 @@ from odoo.tests import Form, tagged, new_test_user
 =======
 from odoo.tests import Form, tagged, new_test_user
 >>>>>>> upstream/18.0
+=======
+from odoo.osv import expression
+from odoo.tools import float_is_zero
+from odoo.exceptions import AccessError, UserError, ValidationError
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.addons.hr_timesheet.tests.test_timesheet import TestCommonTimesheet
+from odoo.addons.sale_timesheet.tests.common import TestCommonSaleTimesheet
+from odoo.tests import Form, tagged, new_test_user
+>>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install')
 class TestSaleTimesheet(TestCommonSaleTimesheet):
@@ -1139,7 +1149,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1848,6 +1861,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3510,7 +3526,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4062,6 +4081,7 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4296,6 +4316,8 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         """Checks that when an invoice is created, the hours that have already been invoiced aren't taken into
         account."""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4410,6 +4432,7 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4482,6 +4505,10 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.env['ir.config_parameter'].sudo().set_param('sale.invoiced_timesheet', 'approved')
+
 >>>>>>> upstream/18.0
         product = self.env['product.product'].create({
             'name': "Service delivered, create task in global project",
@@ -4506,7 +4533,11 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         })
         sale_order.action_confirm()
         task = sale_order.tasks_ids
+<<<<<<< HEAD
         self.env['account.analytic.line'].create({
+=======
+        timesheets = self.env['account.analytic.line'].create([{
+>>>>>>> upstream/18.0
             'name': 'Test Line',
             'date': '2026-01-08',
             'project_id': task.project_id.id,
@@ -4514,7 +4545,12 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
             'unit_amount': 2,
             'employee_id': self.employee_user.id,
             'company_id': self.company_data['company'].id,
+<<<<<<< HEAD
         })
+=======
+        }] * 2)
+        timesheets[0].validated = True
+>>>>>>> upstream/18.0
         context = {
             'active_model': 'sale.order',
             'active_ids': [self.so.id],
@@ -4553,6 +4589,7 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         })
         with self.assertRaises(UserError, msg='Should not be able to invoice already invoiced timesheets'):
             wizard_2.create_invoices()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4714,6 +4751,8 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         product = self.env['product.product'].create({
             'name': "Test service product",
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_timesheet_uom_conversion_with_period(self):
         """
@@ -4726,11 +4765,15 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         # Case 1: SOL in Days, Encoding in Hours
         self.env.company.timesheet_encode_uom_id = self.uom_hour.id
         product_vals = {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'standard_price': 30,
             'list_price': 90,
             'type': 'service',
             'service_policy': 'delivered_timesheet',
+<<<<<<< HEAD
 <<<<<<< HEAD
             'invoice_policy': 'delivery',
             'service_type': 'timesheet',
@@ -4745,6 +4788,8 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
             'order_line': [
                 Command.create({'product_id': product.id, 'product_uom_qty': 3, 'product_uom': uom_days.id}),
 =======
+=======
+>>>>>>> upstream/18.0
             'service_tracking': 'task_global_project',
             'project_id': self.project_global.id,
             'taxes_id': False,
@@ -4761,6 +4806,9 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
                     'product_uom_qty': 3,
                     'product_uom': uom_days.id
                 }),
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             ],
         })
@@ -4778,7 +4826,11 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         context = {
             'active_model': 'sale.order',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'active_ids': [sale_order.id],
+=======
+            'active_ids': sale_order.ids,
+>>>>>>> upstream/18.0
 =======
             'active_ids': sale_order.ids,
 >>>>>>> upstream/18.0
@@ -4790,7 +4842,11 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
             'date_start_invoice_timesheet': '2026-03-16',
             'date_end_invoice_timesheet': '2026-03-20',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'sale_order_ids': [(6, 0, sale_order.ids)],
+=======
+            'sale_order_ids': [Command.set(sale_order.ids)],
+>>>>>>> upstream/18.0
 =======
             'sale_order_ids': [Command.set(sale_order.ids)],
 >>>>>>> upstream/18.0
@@ -4826,6 +4882,7 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4882,6 +4939,8 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
         # Case 2: Both SOL and Encoding in Days
         self.env.company.timesheet_encode_uom_id = uom_days.id
@@ -4921,6 +4980,72 @@ class TestSaleTimesheet(TestCommonSaleTimesheet):
         invoice_dict = wizard.create_invoices()
         invoice_days = self.env['account.move'].browse(invoice_dict['res_id'])
         self.assertEqual(invoice_days.invoice_line_ids.quantity, 1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+
+    def test_portal_sale_order_timesheet_visibility(self):
+        """
+        Ensure a portal user only sees timesheets of subscribed SO lines.
+        Steps:
+        1. Create a portal user.
+        2. Use one SO line from self.so.
+        3. Create a second SO with product.
+        4. Log timesheets on both SO lines' tasks.
+        5. Subscribe portal user only to the first SO line's task.
+        6. Verify:
+        - User can sees timesheet for subscribed SO line (line 1).
+        - User does not see timesheet for the other SO line (line 2).
+        """
+        portal_user = mail_new_test_user(
+            self.env,
+            name='Portal user',
+            login='portal_user',
+            email='portal_user@example.com',
+            groups='base.group_portal',
+        )
+        so_line_1 = self.so.order_line[1]
+        sale_order_2 = self.env['sale.order'].with_context(mail_notrack=True, mail_create_nolog=True).create({
+            'partner_id': self.partner_a.id,
+            'user_id': self.user_employee_company_B.id,
+        })
+        so_line_2 = self.env['sale.order.line'].create({
+            'order_id': sale_order_2.id,
+            'product_id': self.product_order_timesheet3.id,
+        })
+        sale_order_2.action_confirm()
+        AnalyticLine = self.env['account.analytic.line']
+        timesheets_entry = AnalyticLine.create([
+            {
+                'name': 'Timesheet for line 1',
+                'employee_id': self.employee_user.id,
+                'task_id': so_line_1.task_id.id,
+                'so_line': so_line_1.id,
+            },
+            {
+                'name': 'Timesheet for line 2',
+                'employee_id': self.employee_user.id,
+                'task_id': so_line_2.task_id.id,
+                'so_line': so_line_2.id,
+            },
+        ])
+        timesheet_1, timesheet_2 = timesheets_entry[0], timesheets_entry[1]
+        (so_line_1.task_id | so_line_2.task_id).message_subscribe(partner_ids=portal_user.partner_id.ids)
+        domain = AnalyticLine.with_user(portal_user)._timesheet_get_portal_domain()
+        domain = expression.AND([
+            domain,
+            [('so_line', 'in', so_line_1.ids)]
+        ])
+
+        timesheets = AnalyticLine.search(domain)
+        self.assertIn(
+            timesheet_1.id, timesheets.ids,
+            "Portal user should see the timesheet of the subscribed SO line (line 1)."
+        )
+        self.assertNotIn(
+            timesheet_2.id, timesheets.ids,
+            "Portal user should not see the timesheet of another SO line (line 2)."
+        )
 >>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install')

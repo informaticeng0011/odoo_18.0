@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="seller.email or seller.phone">
         <DaneKontaktowe>
             <Email t-out="seller.email"/>
@@ -62,12 +63,17 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <DaneKontaktowe t-if="seller.email or seller.phone">
           <Email t-if="seller.email" t-out="seller.email"/>
           <Telefon t-if="seller.phone" t-out="seller.phone"/>
         </DaneKontaktowe>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121,6 +127,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="buyer.email or buyer.phone">
         <DaneKontaktowe>
             <Email t-out="buyer.email"/>
@@ -133,12 +140,17 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <DaneKontaktowe t-if="buyer.email or buyer.phone">
           <Email t-if="buyer.email" t-out="buyer.email"/>
           <Telefon t-if="buyer.phone" t-out="buyer.phone"/>
         </DaneKontaktowe>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -243,11 +255,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <P_15 t-out="float_repr(invoice.amount_total_signed, 2)"/>
 
           <!-- KursWalutyZ: Exchange rate of the currency to PLN on the invoice date. TO-CHECK -->
           <KursWalutyZ t-out="invoice.invoice_currency_rate"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -312,6 +327,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
