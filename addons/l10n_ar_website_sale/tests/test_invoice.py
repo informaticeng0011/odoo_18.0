@@ -102,12 +102,15 @@ from odoo.addons.sale.tests.common import SaleCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_ar.tests.common import TestAr
 
 
 @tagged('-at_install', 'post_install', 'post_install_l10n')
 class TestWebsiteSaleInvoice(AccountPaymentCommon, SaleCommon, TestAr):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -395,6 +398,9 @@ class TestArWebsiteSaleInvoice(AccountPaymentCommon, SaleCommon, TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

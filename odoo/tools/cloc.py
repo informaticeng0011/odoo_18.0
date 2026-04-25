@@ -134,6 +134,12 @@ class Cloc(object):
             exclude = set()
         for i in filter(None, exclude_list):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            assert '..' not in i, (
+                f"Invalid exclusion path '{i}': '..' is not allowed. Use a normalized path."
+            )
+>>>>>>> upstream/18.0
 =======
             assert '..' not in i, (
                 f"Invalid exclusion path '{i}': '..' is not allowed. Use a normalized path."

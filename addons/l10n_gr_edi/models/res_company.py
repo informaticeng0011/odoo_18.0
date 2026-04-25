@@ -252,7 +252,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Receive issued MyDATA Invoices and create draft Vendor Bills based on the received XML. """
+=======
+        """ Receive issued myDATA Invoices and create draft Vendor Bills based on the received XML. """
+>>>>>>> upstream/18.0
 =======
         """ Receive issued myDATA Invoices and create draft Vendor Bills based on the received XML. """
 >>>>>>> upstream/18.0
@@ -1177,7 +1181,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.error("Something when wrong when fetching MyDATA bill: %s", err)
+=======
+                _logger.error("Something when wrong when fetching myDATA bill: %s", err)
+>>>>>>> upstream/18.0
 =======
                 _logger.error("Something when wrong when fetching myDATA bill: %s", err)
 >>>>>>> upstream/18.0

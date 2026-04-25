@@ -182,6 +182,7 @@ class PeppolConnectorCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _mock_participant_status(self, peppol_state):
 
         def replacement_method(url, **kwargs):
@@ -192,6 +193,8 @@ class PeppolConnectorCommon(AccountTestInvoicingCommon):
                 },
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -483,6 +486,9 @@ class PeppolConnectorCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -801,7 +807,11 @@ class PeppolConnectorCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return DotDict({**results, 'json': lambda: results})
+=======
+                    return DotDict({**results, 'json': lambda: results, 'raise_for_status': lambda: None})
+>>>>>>> upstream/18.0
 =======
                     return DotDict({**results, 'json': lambda: results, 'raise_for_status': lambda: None})
 >>>>>>> upstream/18.0

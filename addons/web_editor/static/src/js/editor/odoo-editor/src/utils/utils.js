@@ -1270,6 +1270,10 @@ export function getAdjacentCharacter(editable, side) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
+>>>>>>> upstream/18.0
 =======
     [focusNode, focusOffset] = getDeepestPosition(focusNode, focusOffset);
 >>>>>>> upstream/18.0
@@ -2625,7 +2629,12 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ((n.nodeType === Node.TEXT_NODE && (isVisibleTextNode(n) || isZWS(n))) ||
+=======
+            ((n.nodeType === Node.TEXT_NODE &&
+                (isVisibleTextNode(n) || isZWS(n) || (/^\n+$/.test(n.nodeValue) && !applyStyle))) ||
+>>>>>>> upstream/18.0
 =======
             ((n.nodeType === Node.TEXT_NODE &&
                 (isVisibleTextNode(n) || isZWS(n) || (/^\n+$/.test(n.nodeValue) && !applyStyle))) ||
@@ -3805,6 +3814,7 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // with a class that is not related to font size (in case the formatting
         // comes from the class).
         while (
@@ -3812,6 +3822,8 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
             !isUnbreakable(parentNode) && !isUnbreakable(currentNode) &&
             (parentNode.classList.length === 0 ||
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4608,6 +4620,9 @@ export const formatSelection = (editor, formatName, {applyStyle, formatProps} = 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5720,9 +5735,12 @@ export function isSelectionFormat(editable, format) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const selectedNodes = getTraversedNodes(editable)
         .filter((n) => n.nodeType === Node.TEXT_NODE && n.nodeValue.replaceAll(ZWNBSP_CHAR, '').length);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6401,6 +6419,9 @@ export function isSelectionFormat(editable, format) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7169,7 +7190,12 @@ export function isUnremovable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) // Node is in DOM but not in editable.
+=======
+        (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
+        (node.dataset && node.dataset.bsToggle === 'tab')
+>>>>>>> upstream/18.0
 =======
         (node.ownerDocument && node.ownerDocument.defaultWindow && !ancestors(node).find(ancestor => ancestor.oid === 'root')) || // Node is in DOM but not in editable.
         (node.dataset && node.dataset.bsToggle === 'tab')
@@ -9013,7 +9039,11 @@ export function isEmptyBlock(blockEl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (node.nodeName != 'BR' && (isSelfClosingElement(node) || isIconElement(node))) {
+=======
+        if (node.nodeName != 'BR' && (isSelfClosingElement(node) || isIconElement(node) || isZWS(node))) {
+>>>>>>> upstream/18.0
 =======
         if (node.nodeName != 'BR' && (isSelfClosingElement(node) || isIconElement(node) || isZWS(node))) {
 >>>>>>> upstream/18.0
@@ -10191,7 +10221,10 @@ export function fillEmpty(el) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10873,6 +10906,9 @@ export function fillEmpty(el) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11918,11 +11954,14 @@ const priorityRestoreStateRules = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         { direction: DIRECTIONS.RIGHT, cType1: CTGROUPS.BR, cType2: CTYPES.SPACE | CTGROUPS.BLOCK },
         { spaceVisibility: true },
     ],
     [
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12606,6 +12645,9 @@ const priorityRestoreStateRules = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

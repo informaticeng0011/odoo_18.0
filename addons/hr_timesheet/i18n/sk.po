@@ -111,8 +111,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_timesheet
 # 
+=======
+# * hr_timesheet
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_timesheet
 #
@@ -672,6 +677,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1006,10 +1012,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1505,6 +1515,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-04-14 08:30+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-04-14 08:30+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "hr_timesheet/sk/>\n"
@@ -1512,6 +1526,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1906,6 +1921,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.portal_timesheet_table
@@ -1926,7 +1946,11 @@ msgid "%(effective)s %(uom_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s %(uom_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s %(uom_name)s"
 >>>>>>> upstream/18.0
@@ -1972,7 +1996,11 @@ msgid "%(effective)s / %(allocated)s %(uom_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s / %(allocated)s %(uom_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s / %(allocated)s %(uom_name)s"
 >>>>>>> upstream/18.0
@@ -2018,7 +2046,11 @@ msgid "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(effective)s / %(allocated)s %(uom_name)s (%(success_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -2064,7 +2096,11 @@ msgid "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(exceeding_hours)s %(uom_name)s (+%(exceeding_rate)s%%)"
 >>>>>>> upstream/18.0
@@ -2110,7 +2146,11 @@ msgid "%(hours)sh"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sh"
 >>>>>>> upstream/18.0
@@ -2156,7 +2196,11 @@ msgid "%(hours)sh%(minutes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(hours)sh%(minutes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(hours)sh%(minutes)s"
 >>>>>>> upstream/18.0
@@ -2202,7 +2246,11 @@ msgid "%(name)s's Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy - %(name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy - %(name)s"
 >>>>>>> upstream/18.0
@@ -2238,6 +2286,7 @@ msgstr "Pracovné výkazy - %(name)s"
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2775,6 +2824,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'%(missing_plan_names)s' analytic plan(s) required on the project '%"
 "(project_name)s' linked to the timesheet."
 msgstr ""
@@ -2789,6 +2840,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2936,7 +2990,11 @@ msgid "(incl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(vrátanie"
+>>>>>>> upstream/18.0
 =======
 msgstr "(vrátanie"
 >>>>>>> upstream/18.0
@@ -3284,7 +3342,11 @@ msgid "1 day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 deň"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 deň"
 >>>>>>> upstream/18.0
@@ -3319,6 +3381,7 @@ msgstr "1 deň"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.timesheet_table
 msgid "2 hours"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3979,6 +4042,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "2 hodiny"
 
 #. module: hr_timesheet
@@ -4005,6 +4070,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4049,7 +4117,11 @@ msgid "<span class=\"text-nowrap\">Time Spent on Sub-tasks:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-nowrap\">Čas vykázaný na podúlohách:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-nowrap\">Čas vykázaný na podúlohách:</span>"
 >>>>>>> upstream/18.0
@@ -4084,6 +4156,7 @@ msgstr "<span class=\"text-nowrap\">Čas vykázaný na podúlohách:</span>"
 #. module: hr_timesheet
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4630,6 +4703,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span invisible=\"has_timesheet\">\n"
 "                        Are you sure you want to delete these employees?\n"
 "                    </span>"
@@ -4646,6 +4721,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4699,7 +4777,11 @@ msgid "<span>Employee</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Zamestnanec</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Zamestnanec</span>"
 >>>>>>> upstream/18.0
@@ -4754,7 +4836,11 @@ msgid "<span>Time Spent</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Vykázaný čas</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Vykázaný čas</span>"
 >>>>>>> upstream/18.0
@@ -4829,7 +4915,11 @@ msgid "<strong>Progress:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Pokrok:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Pokrok:</strong>"
 >>>>>>> upstream/18.0
@@ -4874,7 +4964,11 @@ msgid "<strong>Time Remaining: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Zostávajúci čas: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Zostávajúci čas: </strong>"
 >>>>>>> upstream/18.0
@@ -4919,7 +5013,11 @@ msgid "<strong>Time recorded on sub-tasks: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Čas zaznamenaný na podúlohách: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Čas zaznamenaný na podúlohách: </strong>"
 >>>>>>> upstream/18.0
@@ -4964,7 +5062,11 @@ msgid "<strong>Total Days: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Celkom dní: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Celkom dní: </strong>"
 >>>>>>> upstream/18.0
@@ -5009,7 +5111,11 @@ msgid "<strong>Total Hours: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Celkom hodín: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Celkom hodín: </strong>"
 >>>>>>> upstream/18.0
@@ -5064,7 +5170,11 @@ msgid "<strong>Total Time Spent: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Celkový vykázaný čas: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Celkový vykázaný čas: </strong>"
 >>>>>>> upstream/18.0
@@ -5210,7 +5320,11 @@ msgid "Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridelený čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridelený čas"
 >>>>>>> upstream/18.0
@@ -5429,6 +5543,7 @@ msgstr "Použiteľnosť analytického plánu"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_project
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_report_by_task
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5966,6 +6081,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Analyze the projects and tasks on which your employees spend their time."
 "<br>\n"
 "                Evaluate which part is billable and what costs it represents."
@@ -5983,6 +6100,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6016,7 +6136,11 @@ msgid "Approver Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pripomienka pre schvaľovateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pripomienka pre schvaľovateľa"
 >>>>>>> upstream/18.0
@@ -6061,7 +6185,11 @@ msgid "Archive Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Archivovať zamestnancov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Archivovať zamestnancov"
 >>>>>>> upstream/18.0
@@ -6106,7 +6234,11 @@ msgid "Audrey Peterson"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Audrey Peterson"
+>>>>>>> upstream/18.0
 =======
 msgstr "Audrey Peterson"
 >>>>>>> upstream/18.0
@@ -6151,7 +6283,11 @@ msgid "Average of Progress"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priemerný pokrok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Priemerný pokrok"
 >>>>>>> upstream/18.0
@@ -6211,7 +6347,11 @@ msgid "Call client and discuss project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zavolať klientovi a prediskutovať projekt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zavolať klientovi a prediskutovať projekt"
 >>>>>>> upstream/18.0
@@ -6311,7 +6451,11 @@ msgid "Days / Half-Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dni / Polovice dní"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dni / Polovice dní"
 >>>>>>> upstream/18.0
@@ -6356,7 +6500,11 @@ msgid "Days Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zostávajúce dni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zostávajúce dni"
 >>>>>>> upstream/18.0
@@ -6402,7 +6550,11 @@ msgid "Deactivate the account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deaktivovať účet."
+>>>>>>> upstream/18.0
 =======
 msgstr "Deaktivovať účet."
 >>>>>>> upstream/18.0
@@ -6438,6 +6590,7 @@ msgstr "Deaktivovať účet."
 #: model:ir.model.fields,help:hr_timesheet.field_res_company__internal_project_id
 msgid "Default project value for timesheet generated from time off type."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6884,6 +7037,9 @@ msgstr ""
 =======
 "Predvolená hodnota projektu pre pracovný výkaz generovaný z typu voľných dní."
 >>>>>>> upstream/18.0
+=======
+"Predvolená hodnota projektu pre pracovný výkaz generovaný z typu voľných dní."
+>>>>>>> upstream/18.0
 
 #. module: hr_timesheet
 #: model:ir.model.fields,help:hr_timesheet.field_account_analytic_line__employee_id
@@ -6911,7 +7067,11 @@ msgid "Delete Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odstrániť zamestnanca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odstrániť zamestnanca"
 >>>>>>> upstream/18.0
@@ -7012,6 +7172,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dodajte svoje služby automaticky po dosiahnutí míľnika tak, že ho prepojíte "
+"s položkou predajnej objednávky."
+>>>>>>> upstream/18.0
 =======
 "Dodajte svoje služby automaticky po dosiahnutí míľnika tak, že ho prepojíte "
 "s položkou predajnej objednávky."
@@ -7281,7 +7446,11 @@ msgid "Describe your activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popíšte svoju činnosť"
+>>>>>>> upstream/18.0
 =======
 msgstr "Popíšte svoju činnosť"
 >>>>>>> upstream/18.0
@@ -7371,7 +7540,11 @@ msgid "Employee Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprievodca odstránením zamestnanca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sprievodca odstránením zamestnanca"
 >>>>>>> upstream/18.0
@@ -7428,7 +7601,11 @@ msgid "Employees' Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy zamestnancov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy zamestnancov"
 >>>>>>> upstream/18.0
@@ -7473,7 +7650,11 @@ msgid "Encoding Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spôsob zadávania"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spôsob zadávania"
 >>>>>>> upstream/18.0
@@ -7509,6 +7690,7 @@ msgstr "Spôsob zadávania"
 #. odoo-python
 #: code:addons/hr_timesheet/models/project_project.py:0
 msgid "Extra Time"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7949,6 +8131,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Čas navyše"
 
 #. module: hr_timesheet
@@ -7964,6 +8148,9 @@ msgstr "Vytvorte pracovné výkazy pre schválené žiadosti o voľno a sviatky"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8002,7 +8189,11 @@ msgid "Has Department Manager Access"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má prístup vedúceho oddelenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Má prístup vedúceho oddelenia"
 >>>>>>> upstream/18.0
@@ -8047,7 +8238,11 @@ msgid "Hours / Minutes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hodiny / Minúty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hodiny / Minúty"
 >>>>>>> upstream/18.0
@@ -8187,7 +8382,11 @@ msgid "Message Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partneri pre správy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partneri pre správy"
 >>>>>>> upstream/18.0
@@ -8290,7 +8489,11 @@ msgid "My Department's Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správy môjho oddelenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správy môjho oddelenia"
 >>>>>>> upstream/18.0
@@ -8543,7 +8746,11 @@ msgid "My Team's Updates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správy môjho tímu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správy môjho tímu"
 >>>>>>> upstream/18.0
@@ -8758,7 +8965,11 @@ msgid "No Parent Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žiadna nadradená úloha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Žiadna nadradená úloha"
 >>>>>>> upstream/18.0
@@ -8803,7 +9014,11 @@ msgid "No Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žiadna úloha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Žiadna úloha"
 >>>>>>> upstream/18.0
@@ -8867,7 +9082,11 @@ msgid "Number of allocated hours minus the number of hours spent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet pridelených hodín mínus počet odpracovaných hodín."
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet pridelených hodín mínus počet odpracovaných hodín."
 >>>>>>> upstream/18.0
@@ -8988,6 +9207,7 @@ msgstr "Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -9269,6 +9489,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid "Please first delete all of their timesheets."
 msgstr "Najprv prosím vymažte všetky ich pracovné výkazy."
@@ -9283,6 +9505,9 @@ msgstr "Najprv prosím vymažte všetky ich pracovné výkazy."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9407,7 +9632,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Projektový účet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Projektový účet"
 >>>>>>> upstream/18.0
@@ -9675,6 +9904,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zaznamenajte si odpracované hodiny jedným stlačením klávesov Shift + "
+"príslušná klávesová skratka a pridajte tak 15 minút k svojim projektom."
+>>>>>>> upstream/18.0
 =======
 "Zaznamenajte si odpracované hodiny jedným stlačením klávesov Shift + "
 "príslušná klávesová skratka a pridajte tak 15 minút k svojim projektom."
@@ -9734,7 +9968,11 @@ msgid "Research and Development"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výskum a vývoj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Výskum a vývoj"
 >>>>>>> upstream/18.0
@@ -9779,7 +10017,11 @@ msgid "Research and Development/New Portal System"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výskum a vývoj/Nový portálový systém"
+>>>>>>> upstream/18.0
 =======
 msgstr "Výskum a vývoj/Nový portálový systém"
 >>>>>>> upstream/18.0
@@ -9824,7 +10066,11 @@ msgid "Review all timesheets related to your projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skontrolujte všetky pracovné výkazy súvisiace s vašimi projektmi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skontrolujte všetky pracovné výkazy súvisiace s vašimi projektmi"
 >>>>>>> upstream/18.0
@@ -9882,7 +10128,11 @@ msgid "Search in Parent Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hľadať v nariadených úlohách"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hľadať v nariadených úlohách"
 >>>>>>> upstream/18.0
@@ -9939,7 +10189,11 @@ msgid "See Timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozrieť pracovné výkazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozrieť pracovné výkazy"
 >>>>>>> upstream/18.0
@@ -9994,6 +10248,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Posielajte pravidelné e-mailové pripomienky schvaľovateľom pracovných "
+"výkazov, ktorí ešte majú pracovné výkazy na schálenie"
+>>>>>>> upstream/18.0
 =======
 "Posielajte pravidelné e-mailové pripomienky schvaľovateľom pracovných "
 "výkazov, ktorí ešte majú pracovné výkazy na schálenie"
@@ -10051,6 +10310,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Posielajte pravidelné e-mailové pripomienky užívateľom pracovných výkazov, "
+"ktorí ešte majú pracovné výkazy na zaznamenanie"
+>>>>>>> upstream/18.0
 =======
 "Posielajte pravidelné e-mailové pripomienky užívateľom pracovných výkazov, "
 "ktorí ešte majú pracovné výkazy na zaznamenanie"
@@ -10110,7 +10374,11 @@ msgid "Sub-Task of '"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podúloha '"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podúloha '"
 >>>>>>> upstream/18.0
@@ -10156,7 +10424,11 @@ msgid "Sub-tasks Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vykázaný čas na podúlohách"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vykázaný čas na podúlohách"
 >>>>>>> upstream/18.0
@@ -10220,6 +10492,7 @@ msgstr "Interný projekt spoločnosti by mal byť v tejto spoločnosti."
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10757,6 +11030,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The project, the task and the analytic accounts of the timesheet must belong "
 "to the same company."
 msgstr ""
@@ -10771,6 +11046,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10911,8 +11189,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "These projects have some timesheet entries referencing them. Before removing"
 " these projects, you have to remove these timesheet entries."
+=======
+"These projects have some timesheet entries referencing them. Before removing "
+"these projects, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "These projects have some timesheet entries referencing them. Before removing "
 "these projects, you have to remove these timesheet entries."
@@ -11519,8 +11802,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This project has some timesheet entries referencing it. Before removing this"
 " project, you have to remove these timesheet entries."
+=======
+"This project has some timesheet entries referencing it. Before removing this "
+"project, you have to remove these timesheet entries."
+>>>>>>> upstream/18.0
 =======
 "This project has some timesheet entries referencing it. Before removing this "
 "project, you have to remove these timesheet entries."
@@ -11986,6 +12274,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Táto úloha nemôže byť súkromná, pretože sú s ňou prepojené niektoré pracovné "
+"výkazy."
+>>>>>>> upstream/18.0
 =======
 "Táto úloha nemôže byť súkromná, pretože sú s ňou prepojené niektoré pracovné "
 "výkazy."
@@ -12145,9 +12438,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Táto úloha má niekoľko záznamov časového rozvrhu, ktoré sa na ňu odvolávajú."
 " Pred odstránením tejto úlohy musíte odstrániť tieto položky časového "
 "rozvrhu."
+=======
+"Táto úloha má niekoľko záznamov časového rozvrhu, ktoré sa na ňu odvolávajú. "
+"Pred odstránením tejto úlohy musíte odstrániť tieto položky časového rozvrhu."
+>>>>>>> upstream/18.0
 =======
 "Táto úloha má niekoľko záznamov časového rozvrhu, ktoré sa na ňu odvolávajú. "
 "Pred odstránením tejto úlohy musíte odstrániť tieto položky časového rozvrhu."
@@ -12709,11 +13007,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you use the timesheet linked to projects, don't forget to setup the right unit of measure in your employees."
 msgstr ""
 "Toto nastaví mernú jednotku používanú v projektoch a úlohách.\n"
 "Ak používate časové rozvrhy spojené s projektmi, nezabudnite nastaviť správnu mernú jednotku u vašich zamestnancov."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13050,6 +13351,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13352,7 +13656,11 @@ msgid "Time Remaining"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zostávajúci čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zostávajúci čas"
 >>>>>>> upstream/18.0
@@ -13553,7 +13861,11 @@ msgid "Time Remaining Percentage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zostávajúci čas v percentách"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zostávajúci čas v percentách"
 >>>>>>> upstream/18.0
@@ -13598,7 +13910,11 @@ msgid "Time Remaining on SO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zostávajúci čas na predajnej objednávke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zostávajúci čas na predajnej objednávke"
 >>>>>>> upstream/18.0
@@ -13665,7 +13981,11 @@ msgid "Time Spent on Sub-Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vykázaný čas na podúlohách"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vykázaný čas na podúlohách"
 >>>>>>> upstream/18.0
@@ -13720,7 +14040,11 @@ msgid "Time Spent on Sub-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vykázaný čas na podúlohách"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vykázaný čas na podúlohách"
 >>>>>>> upstream/18.0
@@ -13804,6 +14128,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vykázaný čas na tejto úlohe a jej podúlohách (a ich vlastných podúlohách)."
+>>>>>>> upstream/18.0
 =======
 "Vykázaný čas na tejto úlohe a jej podúlohách (a ich vlastných podúlohách)."
 >>>>>>> upstream/18.0
@@ -13894,7 +14222,11 @@ msgid "Timesheet Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prehľad pracovných výkazov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prehľad pracovných výkazov"
 >>>>>>> upstream/18.0
@@ -13939,7 +14271,11 @@ msgid "Timesheet Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čas pracovného výkazu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čas pracovného výkazu"
 >>>>>>> upstream/18.0
@@ -14023,7 +14359,11 @@ msgid "Timesheets - %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy - %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy - %s"
 >>>>>>> upstream/18.0
@@ -14068,7 +14408,11 @@ msgid "Timesheets 80%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy 80%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy 80%"
 >>>>>>> upstream/18.0
@@ -14114,7 +14458,11 @@ msgid "Timesheets >100%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy >100%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy >100%"
 >>>>>>> upstream/18.0
@@ -14162,7 +14510,11 @@ msgid "Timesheets Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analýza pracovných výkazov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analýza pracovných výkazov"
 >>>>>>> upstream/18.0
@@ -14207,7 +14559,11 @@ msgid "Timesheets Analysis Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prehľad pracovných výkazov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prehľad pracovných výkazov"
 >>>>>>> upstream/18.0
@@ -14252,7 +14608,11 @@ msgid "Timesheets Control"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontrola pracovných výkazov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontrola pracovných výkazov"
 >>>>>>> upstream/18.0
@@ -14297,7 +14657,11 @@ msgid "Timesheets by Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy podľa zamestnanca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy podľa zamestnanca"
 >>>>>>> upstream/18.0
@@ -14342,7 +14706,11 @@ msgid "Timesheets by Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy podľa projektu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy podľa projektu"
 >>>>>>> upstream/18.0
@@ -14387,7 +14755,11 @@ msgid "Timesheets by Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pracovné výkazy podľa úlohy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pracovné výkazy podľa úlohy"
 >>>>>>> upstream/18.0
@@ -14433,7 +14805,11 @@ msgid "Timesheets cannot be created on a private task."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na súkromnej úlohe nie je možné vytvoriť pracovné výkazy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Na súkromnej úlohe nie je možné vytvoriť pracovné výkazy."
 >>>>>>> upstream/18.0
@@ -14469,6 +14845,7 @@ msgstr "Na súkromnej úlohe nie je možné vytvoriť pracovné výkazy."
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_timesheet.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14905,6 +15282,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Timesheets must be created with an active employee in the selected companies."
 msgstr ""
 "Pracovné výkazy musia byť vytvorené s aktívnym zamestnancom vo vybraných "
@@ -14918,6 +15297,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14955,6 +15337,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pracovné výkazy musia byť vytvorené s aspoň jedným aktívnym analytickým "
+"účtom definovaným v pláne „%(plan_name)s “."
+>>>>>>> upstream/18.0
 =======
 "Pracovné výkazy musia byť vytvorené s aspoň jedným aktívnym analytickým "
 "účtom definovaným v pláne „%(plan_name)s “."
@@ -15015,7 +15402,11 @@ msgid "Tip: Record your Timesheets faster"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip: Zaznamenávajte svoje pracovné výkazy rýchlejšie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip: Zaznamenávajte svoje pracovné výkazy rýchlejšie"
 >>>>>>> upstream/18.0
@@ -15065,6 +15456,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Na používanie funkcie pracovného výkazu potrebujete analytický účet "
+"projektu. Prosím, vytvorte si ho v pláne „%(plan_name)s “ alebo vypnite "
+"funkciu pracovných výkazov."
+>>>>>>> upstream/18.0
 =======
 "Na používanie funkcie pracovného výkazu potrebujete analytický účet "
 "projektu. Prosím, vytvorte si ho v pláne „%(plan_name)s “ alebo vypnite "
@@ -15154,7 +15551,11 @@ msgid "Total Allocated Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celkový pridelený čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celkový pridelený čas"
 >>>>>>> upstream/18.0
@@ -15229,7 +15630,11 @@ msgid "Total Days Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celkový počet vykázaných dní"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celkový počet vykázaných dní"
 >>>>>>> upstream/18.0
@@ -15277,7 +15682,11 @@ msgid "Total Time Spent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celkový vykázaný čas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celkový vykázaný čas"
 >>>>>>> upstream/18.0
@@ -15430,8 +15839,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Track your working hours by projects every day and invoice this time to your"
 " customers."
+=======
+"Track your working hours by projects every day and invoice this time to your "
+"customers."
+>>>>>>> upstream/18.0
 =======
 "Track your working hours by projects every day and invoice this time to your "
 "customers."
@@ -16007,7 +16421,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Make sure to use the right format and order e.g. Improve the configuration screen 5h #feature #v16 @Mitchell !"
+=======
+"        Make sure to use the right format and order e.g. Improve the "
+"configuration screen 5h #feature #v16 @Mitchell !"
+>>>>>>> upstream/18.0
 =======
 "        Make sure to use the right format and order e.g. Improve the "
 "configuration screen 5h #feature #v16 @Mitchell !"
@@ -16473,7 +16892,11 @@ msgid "User: all timesheets"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Užívateľ: všetky pracovné výkazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Užívateľ: všetky pracovné výkazy"
 >>>>>>> upstream/18.0
@@ -16518,7 +16941,11 @@ msgid "User: own timesheets only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Užívateľ: iba vlastné pracovné výkazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Užívateľ: iba vlastné pracovné výkazy"
 >>>>>>> upstream/18.0
@@ -16573,7 +17000,11 @@ msgid "View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť podrobnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť podrobnosti"
 >>>>>>> upstream/18.0
@@ -16639,6 +17070,7 @@ msgstr "Zobraziť podrobnosti"
 #: model_terms:ir.actions.act_window,help:hr_timesheet.timesheet_action_from_employee
 msgid ""
 "You can register and track your workings hours by project every\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17176,6 +17608,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    day. Every time spent on a project will become a cost "
 "and can be re-invoiced to\n"
 "                    customers if required."
@@ -17194,6 +17628,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17224,6 +17661,7 @@ msgstr "Nemáte prístup k pracovným výkazom, ktoré nie sú vaše."
 #. odoo-python
 #: code:addons/hr_timesheet/models/hr_employee.py:0
 msgid "You cannot delete employees who have timesheets."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17592,6 +18030,11 @@ msgstr "Zamestnancov, ktorí majú pracovné výkazy, nie je možné odstrániť
 
 #. module: hr_timesheet
 >>>>>>> upstream/18.0
+=======
+msgstr "Zamestnancov, ktorí majú pracovné výkazy, nie je možné odstrániť."
+
+#. module: hr_timesheet
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.hr_employee_delete_wizard_form
 msgid ""
 "You cannot delete employees who have timesheets.\n"
@@ -17665,6 +18108,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17902,6 +18348,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18105,6 +18552,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18137,6 +18586,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18161,6 +18613,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "You cannot log timesheets on this project since it is linked to an inactive "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18698,6 +19151,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "analytic account.<br/> Please change this account, or reactivate the current "
 "one to timesheet on the project."
 msgstr ""
@@ -18713,6 +19168,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18748,6 +19206,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Na existujúcich pracovných výkazoch nemôžete nastaviť archivovaného "
+"zamestnanca."
+>>>>>>> upstream/18.0
 =======
 "Na existujúcich pracovných výkazoch nemôžete nastaviť archivovaného "
 "zamestnanca."
@@ -18803,6 +19266,7 @@ msgstr "pre"
 #: model_terms:ir.ui.view,arch_db:hr_timesheet.view_task_form2_inherited
 msgid ""
 "on\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19339,6 +19803,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <span class=\"fw-bold text-dark\"> Sub-tasks</"
 "span>)"
 msgstr ""
@@ -19354,6 +19820,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19390,6 +19859,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"na\n"
+"                           <span class=\"fw-bold text-dark\"> podúlohách</"
+"span>)"
+>>>>>>> upstream/18.0
 =======
 "na\n"
 "                           <span class=\"fw-bold text-dark\"> podúlohách</"

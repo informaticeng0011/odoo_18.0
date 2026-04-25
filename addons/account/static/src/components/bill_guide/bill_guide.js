@@ -107,6 +107,10 @@ export class BillGuide extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.showSampleAction = false;
+>>>>>>> upstream/18.0
 =======
         this.showSampleAction = false;
 >>>>>>> upstream/18.0
@@ -491,6 +495,10 @@ export class BillGuide extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.showSampleAction = await this.orm.call("account.journal", "is_sample_action_available");
+>>>>>>> upstream/18.0
 =======
         this.showSampleAction = await this.orm.call("account.journal", "is_sample_action_available");
 >>>>>>> upstream/18.0

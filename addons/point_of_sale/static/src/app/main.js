@@ -204,8 +204,11 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mount(Loader, document.body, { getTemplate, translateFn: _t, props: { loader } });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -782,6 +785,9 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1185,6 +1191,27 @@ whenReady(() => {
             event.returnValue = confirmationMessage;
             return confirmationMessage;
         }
+<<<<<<< HEAD
+=======
+        const pos = app.env.services.pos;
+        if (pos?.session?.state === "opening_control") {
+            const data = JSON.stringify({
+                jsonrpc: "2.0",
+                method: "call",
+                id: 1,
+                params: {
+                    model: "pos.session",
+                    method: "delete_opening_control_session",
+                    args: [[pos.session.id]],
+                    kwargs: {},
+                },
+            });
+            navigator.sendBeacon(
+                "/web/dataset/call_kw",
+                new Blob([data], { type: "application/json" })
+            );
+        }
+>>>>>>> upstream/18.0
     });
     const classList = document.body.classList;
     if (localization.direction === "rtl") {

@@ -3,6 +3,10 @@ import { TicketScreen } from "@point_of_sale/app/screens/ticket_screen/ticket_sc
 import { makeAwaitable } from "@point_of_sale/app/store/make_awaitable_dialog";
 import { AddTbaiRefundReasonPopup } from "@l10n_es_edi_tbai_pos/app/add_tbai_refund_reason_popup/add_tbai_refund_reason_popup";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { qrCodeSrc } from "@point_of_sale/utils";
+>>>>>>> upstream/18.0
 =======
 import { qrCodeSrc } from "@point_of_sale/utils";
 >>>>>>> upstream/18.0
@@ -18,6 +22,7 @@ patch(TicketScreen.prototype, {
                 destinationOrder.to_invoice = true;
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -961,6 +966,8 @@ patch(TicketScreen.prototype, {
         await super.addAdditionalRefundInfo(...arguments);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         await super.addAdditionalRefundInfo(...arguments);
     },
     async print(order) {
@@ -975,6 +982,9 @@ patch(TicketScreen.prototype, {
             order.l10n_es_pos_tbai_qrsrc = url ? qrCodeSrc(url) : undefined;
         }
         return super.print(...arguments);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 });

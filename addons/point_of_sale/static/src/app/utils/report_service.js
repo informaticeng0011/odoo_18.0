@@ -179,8 +179,13 @@ export const reportService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     dependencies: ["ui", "orm", "pos"],
     start(env, { ui, orm, pos }) {
+=======
+    dependencies: ["ui"],
+    start(env, { ui }) {
+>>>>>>> upstream/18.0
 =======
     dependencies: ["ui"],
     start(env, { ui }) {

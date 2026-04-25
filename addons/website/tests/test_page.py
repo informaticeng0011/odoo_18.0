@@ -614,7 +614,10 @@ class TestNewPage(common.TransactionCase):
         self.assertNotEqual(pages.key, "website.snippets", "Page's key cannot be website.snippets.")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -644,6 +647,9 @@ class TestNewPage(common.TransactionCase):
                     f"Menu '{menu.name}' was not linked to the created page."
                 )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -13,7 +13,11 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import RedirectWarning
 >>>>>>> upstream/18.0
@@ -284,7 +288,11 @@ def test_get_data(self, template_code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'currency_id': 'base.EUR',
+=======
+            'currency_id': self.env.ref('base.EUR').id,
+>>>>>>> upstream/18.0
 =======
             'currency_id': self.env.ref('base.EUR').id,
 >>>>>>> upstream/18.0
@@ -1516,7 +1524,10 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2388,6 +2399,9 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3320,8 +3334,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           - Company: The default sales/purchase taxes should be updated. It should only impact the creation
                      of new products so it is probably not going to be an issue.
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4218,8 +4235,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.company.account_sale_tax_id, tax_3)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5365,6 +5385,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # force first load since company data is removed on reload
+        company.chart_template = False
+>>>>>>> upstream/18.0
 =======
         # force first load since company data is removed on reload
         company.chart_template = False
@@ -6613,7 +6638,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaisesRegex(UserError, 'update your localization'):
+=======
+        with self.assertRaisesRegex(RedirectWarning, 'update your localization'):
+>>>>>>> upstream/18.0
 =======
         with self.assertRaisesRegex(RedirectWarning, 'update your localization'):
 >>>>>>> upstream/18.0
@@ -7051,7 +7080,11 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'test_tax_1_template.description@en_US': Markup('<p>Tax 1 Description</p>'),
+=======
+            'test_tax_1_template.description@en_US': Markup('Tax 1 Description'),
+>>>>>>> upstream/18.0
 =======
             'test_tax_1_template.description@en_US': Markup('Tax 1 Description'),
 >>>>>>> upstream/18.0
@@ -8041,8 +8074,13 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'translation.test_chart_template_company_test_free_tax.description@en_US': Markup('<p>Free Tax Description</p>'),
             'translation.test_chart_template_company_test_free_tax.description@fr_BE': Markup('<p>Free Tax Description</p>'),
+=======
+            'translation.test_chart_template_company_test_free_tax.description@en_US': Markup('Free Tax Description'),
+            'translation.test_chart_template_company_test_free_tax.description@fr_BE': Markup('Free Tax Description FR'),
+>>>>>>> upstream/18.0
 =======
             'translation.test_chart_template_company_test_free_tax.description@en_US': Markup('Free Tax Description'),
             'translation.test_chart_template_company_test_free_tax.description@fr_BE': Markup('Free Tax Description FR'),
@@ -9296,7 +9334,10 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9846,6 +9887,9 @@ class TestChartTemplate(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -51,7 +51,11 @@ for module in _ALLOWED_MODULES:
 _UNSAFE_ATTRIBUTES = [
     # Frames
 <<<<<<< HEAD
+<<<<<<< HEAD
     'f_builtins', 'f_code', 'f_globals', 'f_locals',
+=======
+    'f_builtins', 'f_code', 'f_globals', 'f_locals', 'f_generator',
+>>>>>>> upstream/18.0
 =======
     'f_builtins', 'f_code', 'f_globals', 'f_locals', 'f_generator',
 >>>>>>> upstream/18.0
@@ -64,6 +68,7 @@ _UNSAFE_ATTRIBUTES = [
     # Tracebacks
     'tb_frame',
     # Generators
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1249,6 +1254,9 @@ _UNSAFE_ATTRIBUTES = [
 =======
     'gi_code', 'gi_frame', 'gi_yieldfrom',
 >>>>>>> upstream/18.0
+=======
+    'gi_code', 'gi_frame', 'gi_yieldfrom',
+>>>>>>> upstream/18.0
     # Coroutines
     'cr_await', 'cr_code', 'cr_frame',
     # Coroutine generators
@@ -1291,6 +1299,11 @@ _CONST_OPCODES = set(to_opcodes([
     # 3.13
     'TO_BOOL',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # 3.14 https://docs.python.org/3/whatsnew/3.14.html#cpython-bytecode-changes
+    'LOAD_SMALL_INT',
+>>>>>>> upstream/18.0
 =======
     # 3.14 https://docs.python.org/3/whatsnew/3.14.html#cpython-bytecode-changes
     'LOAD_SMALL_INT',
@@ -1375,7 +1388,10 @@ _SAFE_OPCODES = _EXPR_OPCODES.union(to_opcodes([
     'CONVERT_VALUE', 'FORMAT_SIMPLE', 'FORMAT_WITH_SPEC',
     'SET_FUNCTION_ATTRIBUTE',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     # 3.14
     'LOAD_FAST_BORROW', 'LOAD_FAST_BORROW_LOAD_FAST_BORROW',  # LOAD_FAST optimizations
     'POP_ITER',
@@ -1383,6 +1399,9 @@ _SAFE_OPCODES = _EXPR_OPCODES.union(to_opcodes([
     # c.f. https://github.com/python/cpython/blob/9181d776daf87f0e4e2ce02c08f162150fdf7d79/Python/pylifecycle.c#L830-L836
     'LOAD_COMMON_CONSTANT',
     'NOT_TAKEN',
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 ])) - _BLACKLIST
 
@@ -1899,7 +1918,11 @@ def safe_eval(expr, globals_dict=None, locals_dict=None, mode="eval", nocopy=Fal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     globals_dict['__builtins__'] = _BUILTINS
+=======
+    globals_dict['__builtins__'] = dict(_BUILTINS)
+>>>>>>> upstream/18.0
 =======
     globals_dict['__builtins__'] = dict(_BUILTINS)
 >>>>>>> upstream/18.0

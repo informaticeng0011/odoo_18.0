@@ -52,6 +52,10 @@ export class OverlayPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.targetRectProviders = this.getResource("overlay_selection_target_rect_providers");
+>>>>>>> upstream/18.0
 =======
         this.targetRectProviders = this.getResource("overlay_selection_target_rect_providers");
 >>>>>>> upstream/18.0
@@ -170,7 +174,10 @@ export class OverlayPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -240,6 +247,9 @@ export class OverlayPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -331,9 +341,12 @@ export class Overlay {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 initialSelection = {
                     range: selection.getRangeAt(0),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -398,6 +411,9 @@ export class Overlay {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -471,6 +487,10 @@ export class Overlay {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    getCustomRect: this.plugin.getCustomRect.bind(this.plugin),
+>>>>>>> upstream/18.0
 =======
                     getCustomRect: this.plugin.getCustomRect.bind(this.plugin),
 >>>>>>> upstream/18.0

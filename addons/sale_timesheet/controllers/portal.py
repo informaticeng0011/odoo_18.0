@@ -13,6 +13,10 @@ from odoo.addons.hr_timesheet.controllers.portal import TimesheetCustomerPortal
 from odoo.addons.portal.controllers.portal import pager as portal_pager
 from odoo.addons.project.controllers.portal import ProjectCustomerPortal
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.sale.controllers.portal import CustomerPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sale.controllers.portal import CustomerPortal
 >>>>>>> upstream/18.0
@@ -126,7 +130,10 @@ class SaleTimesheetCustomerPortal(TimesheetCustomerPortal):
     def portal_my_timesheets(self, *args, groupby='so_line', **kw):
         return super().portal_my_timesheets(*args, groupby=groupby, **kw)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 
 class SaleTimesheetSaleCustomerPortal(CustomerPortal):
@@ -141,4 +148,7 @@ class SaleTimesheetSaleCustomerPortal(CustomerPortal):
         ])
         values['is_timesheet'] = request.env['account.analytic.line'].sudo().search_count(domain, limit=1)
         return values
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

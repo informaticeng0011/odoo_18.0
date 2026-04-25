@@ -114,6 +114,10 @@ from werkzeug.datastructures import FileStorage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from werkzeug.exceptions import UnprocessableEntity
+>>>>>>> upstream/18.0
 =======
 from werkzeug.exceptions import UnprocessableEntity
 >>>>>>> upstream/18.0
@@ -558,6 +562,11 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not jdata:
+            raise UnprocessableEntity(_('No data to export'))
+>>>>>>> upstream/18.0
 =======
         if not jdata:
             raise UnprocessableEntity(_('No data to export'))
@@ -1127,8 +1136,13 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         measure_count = jdata['measure_count']
         origin_count = jdata['origin_count']
+=======
+        measure_count = min(jdata['measure_count'], 100000)
+        origin_count = min(jdata['origin_count'], 100000)
+>>>>>>> upstream/18.0
 =======
         measure_count = min(jdata['measure_count'], 100000)
         origin_count = min(jdata['origin_count'], 100000)
@@ -1792,12 +1806,15 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for j in range(header['width']):
                     worksheet.write(y, x + j, header['title'] if j == 0 else '', header_plain)
                 if header['height'] > 1:
                     carry.append({'x': x, 'height': header['height'] - 1})
                 x = x + header['width']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2188,6 +2205,9 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2756,7 +2776,11 @@ class TableExporter(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             worksheet.write(y, x, row['indent'] * '     ' + row['title'], header_plain)
+=======
+            worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
+>>>>>>> upstream/18.0
 =======
             worksheet.write(y, x, f"{row['indent'] * '     '}{row['title']}", header_plain)
 >>>>>>> upstream/18.0

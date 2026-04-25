@@ -599,7 +599,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <field name="product_uom"/>
+=======
+                                    <field name="product_uom" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                                     <field name="product_uom" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0
@@ -1630,6 +1634,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="product_qty" class="ms-auto"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2251,6 +2256,10 @@
 >>>>>>> upstream/18.0
 =======
                                 <field name="product_uom_id" class="small ms-1" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
+=======
+                                <field name="product_qty" class="ms-auto flex-shrink-0"/>
+                                <field name="product_uom_id" class="small ms-1 flex-shrink-0" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0
 =======
                                 <field name="product_qty" class="ms-auto flex-shrink-0"/>

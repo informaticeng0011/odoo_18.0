@@ -90,7 +90,13 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         default_field_content = nl2br_enclose(default_field.name.capitalize(), 'h4') + nl2br_enclose(html2plaintext(default_field_data), 'p')
+=======
+        default_field_content = nl2br_enclose(html2plaintext(default_field_data), 'p')
+        if default_field.name and default_field.name != 'description':
+            default_field_content = nl2br_enclose(default_field.name.capitalize(), 'h4') + default_field_content
+>>>>>>> upstream/18.0
 =======
         default_field_content = nl2br_enclose(html2plaintext(default_field_data), 'p')
         if default_field.name and default_field.name != 'description':
@@ -505,6 +511,7 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             data['record']['partner_id'] = partner.id
             data['record']['email_from'] = values['email_from']
             if partner:
@@ -673,10 +680,13 @@ class WebsiteForm(form.WebsiteForm):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             data['record']['email_from'] = values['email_from']
             if partner:
                 data['record']['partner_id'] = partner.id
                 custom = [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -919,6 +929,8 @@ class WebsiteForm(form.WebsiteForm):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                    (field, data['record'].pop(field))
                    for field in ['partner_name', 'partner_phone', 'partner_company_name']
                    if data['record'].get(field)
@@ -958,6 +970,9 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1312,7 +1327,12 @@ class WebsiteForm(form.WebsiteForm):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 data['record']['partner_name'] = values['partner_name']
+=======
+                if values.get('partner_name'):
+                    data['record']['partner_name'] = values['partner_name']
+>>>>>>> upstream/18.0
 =======
                 if values.get('partner_name'):
                     data['record']['partner_name'] = values['partner_name']

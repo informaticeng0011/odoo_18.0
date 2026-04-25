@@ -163,7 +163,11 @@ import { click, on } from "@odoo/hoot-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { tick } from "@odoo/hoot-mock";
+=======
+import { mockMatchMedia, tick } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { mockMatchMedia, tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -2476,7 +2480,10 @@ describe("History", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2981,6 +2988,9 @@ describe("Scoped apps", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

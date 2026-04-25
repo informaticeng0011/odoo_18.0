@@ -3,6 +3,10 @@ import { ActionSwiper } from "@web/core/action_swiper/action_swiper";
 import { Component, useState, useRef, useEffect } from "@odoo/owl";
 import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Deferred } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 =======
 import { Deferred } from "@web/core/utils/concurrency";
 >>>>>>> upstream/18.0
@@ -52,6 +56,10 @@ export class SettingsPage extends Component {
                 const { scrollTop } = this.scrollMap[currentTab] || 0;
                 settingsEl.scrollTop = scrollTop;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this.tabChangeProm?.resolve();
+>>>>>>> upstream/18.0
 =======
                 this.tabChangeProm?.resolve();
 >>>>>>> upstream/18.0
@@ -79,6 +87,7 @@ export class SettingsPage extends Component {
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     async onRightSwipe(prom) {
         this.state.selectedTab = this.props.modules[this.getCurrentIndex() - 1].key;
         await prom;
@@ -88,6 +97,8 @@ export class SettingsPage extends Component {
         this.state.selectedTab = this.props.modules[this.getCurrentIndex() + 1].key;
         await prom;
 =======
+=======
+>>>>>>> upstream/18.0
     async onRightSwipe() {
         this.tabChangeProm = new Deferred();
         this.state.selectedTab = this.props.modules[this.getCurrentIndex() - 1].key;
@@ -98,6 +109,9 @@ export class SettingsPage extends Component {
         this.tabChangeProm = new Deferred();
         this.state.selectedTab = this.props.modules[this.getCurrentIndex() + 1].key;
         await this.tabChangeProm;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         this.scrollToSelectedTab();
     }
