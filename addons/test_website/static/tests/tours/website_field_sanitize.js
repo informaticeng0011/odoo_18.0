@@ -16,7 +16,11 @@ registerWebsitePreviewTour("website_designer_iframe_video",
         {
             content: "Check that the video was correctly saved",
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .media_iframe_video[data-oe-expression*='G8b4UZIcTfg']",
+=======
+            trigger: ":iframe .media_iframe_video[data-oe-expression*='nbso3NVz3p8']",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .media_iframe_video[data-oe-expression*='nbso3NVz3p8']",
 >>>>>>> upstream/18.0
@@ -36,7 +40,11 @@ registerWebsitePreviewTour("website_restricted_editor_iframe_video", {
             content: "Check that the video iframe was correctly restored after saving the changes",
             trigger:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ":iframe [data-oe-field]:not([data-oe-sanitize-prevent-edition]) .media_iframe_video[data-oe-expression*='G8b4UZIcTfg']",
+=======
+                ":iframe [data-oe-field]:not([data-oe-sanitize-prevent-edition]) .media_iframe_video[data-oe-expression*='nbso3NVz3p8']",
+>>>>>>> upstream/18.0
 =======
                 ":iframe [data-oe-field]:not([data-oe-sanitize-prevent-edition]) .media_iframe_video[data-oe-expression*='nbso3NVz3p8']",
 >>>>>>> upstream/18.0

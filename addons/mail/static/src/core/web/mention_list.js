@@ -86,6 +86,10 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        thread: { optional: true },
+>>>>>>> upstream/18.0
 =======
         thread: { optional: true },
 >>>>>>> upstream/18.0
@@ -406,8 +410,13 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             () => {
                 if (!this.state.searchTerm) {
+=======
+            (term, delimiter, thread) => {
+                if (!term) {
+>>>>>>> upstream/18.0
 =======
             (term, delimiter, thread) => {
                 if (!term) {
@@ -789,6 +798,7 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         await this.suggestionService.fetchSuggestions({
                             delimiter: this.props.type === "partner" ? "@" : "#",
                             term: this.state.searchTerm,
@@ -1018,10 +1028,14 @@ export class MentionList extends Component {
 =======
                         await this.suggestionService.fetchSuggestions({ delimiter, term });
 >>>>>>> upstream/18.0
+=======
+                        await this.suggestionService.fetchSuggestions({ delimiter, term });
+>>>>>>> upstream/18.0
                     } finally {
                         this.state.isFetching = false;
                     }
                     const { suggestions } = this.suggestionService.searchSuggestions(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1402,6 +1416,10 @@ export class MentionList extends Component {
                         { delimiter, term },
                         { sort: true, thread }
 >>>>>>> upstream/18.0
+=======
+                        { delimiter, term },
+                        { sort: true, thread }
+>>>>>>> upstream/18.0
                     );
                     this.state.options = suggestions;
                 });
@@ -1481,8 +1499,11 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             () => [this.state.searchTerm]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1710,6 +1731,9 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1961,6 +1985,7 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.state.options.forEach((option) => {
                     props.options.push({
                         label: option.name,
@@ -1978,6 +2003,8 @@ export class MentionList extends Component {
                 break;
             }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2178,6 +2205,10 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        channel: suggestion,
+>>>>>>> upstream/18.0
 =======
                         channel: suggestion,
 >>>>>>> upstream/18.0
@@ -2367,6 +2398,9 @@ export class MentionList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

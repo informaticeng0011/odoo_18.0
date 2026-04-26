@@ -438,8 +438,11 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return all(tag in order.order_line.product_id.all_product_tag_ids for tag in self.must_have_tag_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1203,6 +1206,9 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1949,7 +1955,11 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.product_id.type == "service":
+=======
+            if line.product_id.type in {"service", "combo"}:
+>>>>>>> upstream/18.0
 =======
             if line.product_id.type in {"service", "combo"}:
 >>>>>>> upstream/18.0

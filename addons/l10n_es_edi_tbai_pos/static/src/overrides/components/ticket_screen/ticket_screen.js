@@ -4,6 +4,10 @@ import { makeAwaitable } from "@point_of_sale/app/store/make_awaitable_dialog";
 import { AddTbaiRefundReasonPopup } from "@l10n_es_edi_tbai_pos/app/add_tbai_refund_reason_popup/add_tbai_refund_reason_popup";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { qrCodeSrc } from "@point_of_sale/utils";
+>>>>>>> upstream/18.0
 =======
 import { qrCodeSrc } from "@point_of_sale/utils";
 >>>>>>> upstream/18.0
@@ -22,6 +26,7 @@ patch(TicketScreen.prototype, {
                 destinationOrder.to_invoice = true;
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -968,6 +973,8 @@ patch(TicketScreen.prototype, {
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await super.addAdditionalRefundInfo(...arguments);
     },
     async print(order) {
@@ -983,6 +990,9 @@ patch(TicketScreen.prototype, {
         }
         return super.print(...arguments);
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

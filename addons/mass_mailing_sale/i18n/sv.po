@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* mass_mailing_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +451,10 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * mass_mailing_sale
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Simon S, 2024
 # Kim Asplund <kim.asplund@gmail.com>, 2024
@@ -458,6 +463,7 @@
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Lasse L, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -907,10 +913,14 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1258,10 +1268,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Martin Trigaux, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-24 09:25+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+"Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
+"mass_mailing_sale/sv/>\n"
+>>>>>>> upstream/18.0
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1597,17 +1615,29 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #. odoo-python
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 msgid "INVOICED"
+<<<<<<< HEAD
 msgstr "FAKTURERAD"
+=======
+msgstr "FAKTURERAT"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sale.mailing_mailing_view_form
 msgid "Invoiced"
+<<<<<<< HEAD
 msgstr "Fakturerad"
+=======
+msgstr "Fakturerat"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #: model:ir.model.fields,field_description:mass_mailing_sale.field_mailing_mailing__sale_invoiced_amount
@@ -1618,24 +1648,40 @@ msgstr "Fakturerat belopp"
 #. odoo-python
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 msgid "Invoices Analysis"
+<<<<<<< HEAD
 msgstr "Fakturaanalys"
+=======
+msgstr "Fakturaanalyser"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #: model:ir.model,name:mass_mailing_sale.model_mailing_mailing
 msgid "Mass Mailing"
+<<<<<<< HEAD
 msgstr "Marknadsföring per e-post"
+=======
+msgstr "Massutskick via e-post"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #. odoo-python
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 msgid "No Quotations yet!"
+<<<<<<< HEAD
 msgstr "Inga Offerter ännu!"
+=======
+msgstr "Inga offerter än!"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #. odoo-python
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 msgid "No Revenues yet!"
+<<<<<<< HEAD
 msgstr "Inga intäkter ännu!"
+=======
+msgstr "Inga intäkter än!"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #. odoo-python
@@ -1661,8 +1707,13 @@ msgid ""
 "Quotations will appear here once your customers add products to their Carts "
 "or when your sales reps assign this mailing."
 msgstr ""
+<<<<<<< HEAD
 "Offerter visas här när dina kunder lägger till produkter i sina varukorgar "
 "eller när dina säljare tilldelar detta utskick."
+=======
+"Offerter dyker upp här om en kund lägger till produkter i sin varukorg eller "
+"om en säljare tilldelar detta utskick."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #: model:ir.model.fields.selection,name:mass_mailing_sale.selection__utm_campaign__ab_testing_winner_selection__sale_invoiced_amount
@@ -1673,13 +1724,21 @@ msgstr "Intäkter"
 #. odoo-python
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 msgid "Revenues will appear here once orders are turned into invoices."
+<<<<<<< HEAD
 msgstr "Intäkter visas här när order har omvandlats till fakturor."
+=======
+msgstr "Intäkter syns här när en order omvandlas till en faktura."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #. odoo-python
 #: code:addons/mass_mailing_sale/models/mailing_mailing.py:0
 msgid "Sales Analysis"
+<<<<<<< HEAD
 msgstr "Försäljningsanalys"
+=======
+msgstr "Analyser av försäljning"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #: model:ir.model,name:mass_mailing_sale.model_sale_order
@@ -1689,14 +1748,26 @@ msgstr "Försäljningsorder"
 #. module: mass_mailing_sale
 #: model:ir.model.fields,help:mass_mailing_sale.field_utm_campaign__ab_testing_winner_selection
 msgid "Selection to determine the winner mailing that will be sent."
+<<<<<<< HEAD
 msgstr "Urval för att bestämma vinnarutskicket som ska skickas."
+=======
+msgstr "Val av det e-postmeddelande som ska gå ut till vinnaren."
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #: model:ir.model,name:mass_mailing_sale.model_utm_campaign
 msgid "UTM Campaign"
+<<<<<<< HEAD
 msgstr "UTM kampanj"
+=======
+msgstr "UTM-kampanj"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sale
 #: model:ir.model.fields,field_description:mass_mailing_sale.field_utm_campaign__ab_testing_winner_selection
 msgid "Winner Selection"
+<<<<<<< HEAD
 msgstr "Vinnarurval"
+=======
+msgstr "Val av vinnare"
+>>>>>>> upstream/18.0

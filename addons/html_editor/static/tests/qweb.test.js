@@ -79,6 +79,10 @@ import { dispatchClean } from "./_helpers/dispatch";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { bold } from "./_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { bold } from "./_helpers/user_actions";
 >>>>>>> upstream/18.0
@@ -672,7 +676,10 @@ test("cleaning removes content editable", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -951,6 +958,9 @@ test("should create a history step when applying bold to a QWeb tag", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

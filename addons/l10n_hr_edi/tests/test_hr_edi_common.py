@@ -109,7 +109,11 @@ class TestL10nHrEdiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [Command.create({'acc_number': 'HR10000000000000'})],
+=======
+            'bank_ids': [Command.create({'acc_number': 'HR10000000000000', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [Command.create({'acc_number': 'HR10000000000000', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -406,7 +410,11 @@ class TestL10nHrEdiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [Command.create({'acc_number': 'HR20000000000000'})],
+=======
+            'bank_ids': [Command.create({'acc_number': 'HR20000000000000', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [Command.create({'acc_number': 'HR20000000000000', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -703,7 +711,11 @@ class TestL10nHrEdiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [Command.create({'acc_number': 'HR30000000000000'})],
+=======
+            'bank_ids': [Command.create({'acc_number': 'HR30000000000000', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [Command.create({'acc_number': 'HR30000000000000', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0

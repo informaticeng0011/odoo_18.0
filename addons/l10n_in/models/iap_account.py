@@ -80,12 +80,15 @@ class IapAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         user_token = self.get(IAP_SERVICE_NAME)
         params.update({
             "dbuuid": self.env["ir.config_parameter"].sudo().get_param("database.uuid"),
             "account_token": user_token.account_token,
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -293,6 +296,9 @@ class IapAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -497,7 +503,11 @@ class IapAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         endpoint = self.env["ir.config_parameter"].sudo().get_param(config_parameter, default_endpoint)
+=======
+        endpoint = IrConfigParam.get_param(config_parameter, default_endpoint)
+>>>>>>> upstream/18.0
 =======
         endpoint = IrConfigParam.get_param(config_parameter, default_endpoint)
 >>>>>>> upstream/18.0

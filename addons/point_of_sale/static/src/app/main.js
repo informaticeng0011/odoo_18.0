@@ -205,8 +205,11 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mount(Loader, document.body, { getTemplate, translateFn: _t, props: { loader } });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -786,6 +789,9 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1192,7 +1198,10 @@ whenReady(() => {
             return confirmationMessage;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         const pos = app.env.services.pos;
         if (pos?.session?.state === "opening_control") {
             const data = JSON.stringify({
@@ -1211,6 +1220,9 @@ whenReady(() => {
                 new Blob([data], { type: "application/json" })
             );
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     });
     const classList = document.body.classList;

@@ -137,7 +137,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should duplicate an empty paragraph", async () => {
+=======
+        test("should duplicate an empty paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should duplicate an empty paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -659,6 +663,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should duplicate an empty paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -1428,7 +1438,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert an empty paragraph before a paragraph", async () => {
+=======
+        test("should insert an empty paragraph before a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert an empty paragraph before a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -1942,6 +1956,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert an empty paragraph before a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -2712,7 +2732,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should split a paragraph in two", async () => {
+=======
+        test("should split a paragraph in two (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should split a paragraph in two (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3226,6 +3250,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph in two (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -3995,6 +4025,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph in two (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -4766,7 +4802,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert an empty paragraph after a paragraph", async () => {
+=======
+        test("should insert an empty paragraph after a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert an empty paragraph after a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5280,6 +5320,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert an empty paragraph after a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -6218,7 +6264,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should duplicate an empty paragraph twice", async () => {
+=======
+        test("should duplicate an empty paragraph twice (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should duplicate an empty paragraph twice (1)", async () => {
 >>>>>>> upstream/18.0
@@ -6746,6 +6796,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should duplicate an empty paragraph twice (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -7565,7 +7621,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should split a paragraph before a format node", async () => {
+=======
+        test("should split a paragraph before a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should split a paragraph before a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -8079,6 +8139,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph before a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -8847,6 +8913,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph before a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -9617,6 +9689,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph before a format node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -10390,7 +10468,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should split a paragraph after a format node", async () => {
+=======
+        test("should split a paragraph after a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should split a paragraph after a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -10904,6 +10986,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph after a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -11672,6 +11760,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph after a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -12441,6 +12535,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph after a format node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -13213,7 +13313,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should split a paragraph at the beginning of a format node", async () => {
+=======
+        test("should split a paragraph at the beginning of a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should split a paragraph at the beginning of a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -13727,6 +13831,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph at the beginning of a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -14495,6 +14605,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph at the beginning of a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -15266,7 +15382,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should split a paragraph within a format node", async () => {
+=======
+        test("should split a paragraph within a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should split a paragraph within a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -15780,6 +15900,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph within a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -16549,6 +16675,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph within a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -17320,7 +17452,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should split a paragraph at the end of a format node", async () => {
+=======
+        test("should split a paragraph at the end of a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should split a paragraph at the end of a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -17834,6 +17970,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph at the end of a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -18602,6 +18744,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split a paragraph at the end of a format node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -19387,7 +19535,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert line breaks outside the edges of an anchor in unbreakable", async () => {
+=======
+        test("should insert line breaks outside the edges of an anchor in unbreakable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert line breaks outside the edges of an anchor in unbreakable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -19901,6 +20053,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert line breaks outside the edges of an anchor in unbreakable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -20668,6 +20826,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert line breaks outside the edges of an anchor in unbreakable (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -21435,6 +21599,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert line breaks outside the edges of an anchor in unbreakable (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -22202,6 +22372,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should insert line breaks outside the edges of an anchor in unbreakable (5)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -22998,7 +23174,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should insert a paragraph break outside the ending edge of an anchor", async () => {
+=======
+        test("should insert a paragraph break outside the ending edge of an anchor (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should insert a paragraph break outside the ending edge of an anchor (1)", async () => {
 >>>>>>> upstream/18.0
@@ -23518,6 +23698,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should insert a paragraph break outside the ending edge of an anchor (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should insert a paragraph break outside the ending edge of an anchor (2)", async () => {
@@ -24226,7 +24411,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete the first half of a paragraph, then split it", async () => {
+=======
+    test("should delete the first half of a paragraph, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete the first half of a paragraph, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -24741,6 +24930,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete the first half of a paragraph, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -25511,7 +25706,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete part of a paragraph, then split it", async () => {
+=======
+    test("should delete part of a paragraph, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete part of a paragraph, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -26026,6 +26225,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete part of a paragraph, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -26796,7 +27001,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete the last half of a paragraph, then split it", async () => {
+=======
+    test("should delete the last half of a paragraph, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete the last half of a paragraph, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -27311,6 +27520,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete the last half of a paragraph, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -28081,7 +28296,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete all contents of a paragraph, then split it", async () => {
+=======
+    test("should delete all contents of a paragraph, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete all contents of a paragraph, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -28596,6 +28815,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete all contents of a paragraph, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

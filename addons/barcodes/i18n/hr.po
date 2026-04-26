@@ -226,8 +226,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes
 # 
+=======
+# * barcodes
+#
+>>>>>>> upstream/18.0
 =======
 # * barcodes
 #
@@ -1362,6 +1367,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2267,10 +2273,16 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3170,6 +3182,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-20 11:48+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-24 07:53+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "barcodes/hr/>\n"
 "Language: hr\n"
@@ -3178,6 +3195,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3855,16 +3873,24 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid " '*' is not a valid Regex Barcode Pattern. Did you mean '.*'?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " '*' nije valjan regex uzorak barkoda. Jeste li mislili '.*'?"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4596,6 +4622,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and "
 "categorized.\n"
 "                                When a barcode is scanned it is associated "
@@ -4822,6 +4850,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5245,6 +5276,7 @@ msgstr ""
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6298,6 +6330,13 @@ msgid ""
 "barcodes"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+msgstr ""
+"Nomenklatura barkoda definira kako prodajno mjesto prepoznaje i tumači "
+"barkodove"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
@@ -6318,7 +6357,11 @@ msgstr "Uvijek"
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__name
 msgid "An internal identification for this barcode nomenclature rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Interna identifikacija za ovo pravilo nomenklature barkoda"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_nomenclature__name
@@ -6339,7 +6382,11 @@ msgstr "Barkod"
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_barcodes_barcode_events_mixin
 msgid "Barcode Event Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin događaja barkoda"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_barcode_nomenclature
@@ -6375,7 +6422,11 @@ msgstr "Barkod čitač"
 #. odoo-javascript
 #: code:addons/barcodes/static/src/barcode_handlers.js:0
 msgid "Barcode: %(barcode)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Barkod: %(barcode)s"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_res_company
@@ -6658,7 +6709,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7115,6 +7169,7 @@ msgid ""
 "In order to use barcodes.barcode_events_mixin, method on_barcode_scanned "
 "must be implemented"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: barcodes
 <<<<<<< HEAD
@@ -7792,6 +7847,12 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Za korištenje barcodes.barcode_events_mixin, metoda on_barcode_scanned mora "
+"biti implementirana"
+
+#. module: barcodes
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__write_uid
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__write_uid
@@ -7812,6 +7873,7 @@ msgstr "Nikad"
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_res_company__nomenclature_id
 msgid "Nomenclature"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8717,10 +8779,14 @@ msgstr "Nomenklatura"
 =======
 msgstr "Nomenklatura"
 >>>>>>> upstream/18.0
+=======
+msgstr "Nomenklatura"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9408,6 +9474,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -9633,6 +9701,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10284,6 +10355,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10740,7 +10814,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/barcodes/static/src/components/barcode_scanner.js:0
 msgid "Please, Scan again!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skenirajte ponovno!"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__name
@@ -10778,7 +10856,11 @@ msgstr "Uzorak barkoda za validaciju"
 #: code:addons/barcodes/models/barcode_rule.py:0
 msgid ""
 "The barcode pattern %(pattern)s does not lead to a valid regular expression."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uzorak barkoda %(pattern)s ne vodi do valjanog regularnog izraza."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_nomenclature__rule_ids
@@ -10788,7 +10870,11 @@ msgstr "Popis pravila barkodova"
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__alias
 msgid "The matched pattern will alias to this barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usklađeni uzorak bit će alias za ovaj barkod"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -10797,6 +10883,11 @@ msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: a rule can only "
 "contain one pair of braces."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postoji sintaksna pogreška u uzorku barkoda %(pattern)s: pravilo može "
+"sadržavati samo jedan par vitičastih zagrada."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -10805,6 +10896,11 @@ msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: braces can only "
 "contain N's followed by D's."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postoji sintaksna pogreška u uzorku barkoda %(pattern)s: vitičaste zagrade "
+"mogu sadržavati samo N-ove iza kojih slijede D-ovi."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -10812,6 +10908,11 @@ msgstr ""
 msgid ""
 "There is a syntax error in the barcode pattern %(pattern)s: empty braces."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postoji sintaksna pogreška u uzorku barkoda %(pattern)s: prazne vitičaste "
+"zagrade."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields,help:barcodes.field_barcode_rule__encoding
@@ -10830,6 +10931,7 @@ msgstr "Vrsta"
 #: model:ir.model.fields,help:barcodes.field_barcode_nomenclature__upc_ean_conv
 msgid ""
 "UPC Codes can be converted to EAN by prefixing them with a zero. This "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11883,6 +11985,14 @@ msgid ""
 "one way or another when trying to match a rule with the other encoding."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+msgstr ""
+"UPC kodovi mogu se pretvoriti u EAN dodavanjem nule ispred. Ova postavka "
+"određuje treba li UPC/EAN barkod automatski pretvoriti u jednom ili drugom "
+"smjeru pri pokušaju usklađivanja s pravilom s drugim kodiranjem."
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #: model:ir.model.fields.selection,name:barcodes.selection__barcode_rule__encoding__upca
@@ -11908,6 +12018,7 @@ msgstr "Jedinica proizvoda"
 #. odoo-javascript
 #: code:addons/barcodes/static/src/barcode_handlers.js:0
 msgid "Unknown barcode command"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: barcodes
@@ -12546,6 +12657,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Nepoznata naredba barkoda"
+
+#. module: barcodes
+#: model:ir.model.fields,help:barcodes.field_barcode_rule__sequence
+>>>>>>> upstream/18.0
 msgid "Used to order rules such that rules with a smaller sequence match first"
 msgstr ""
 "Koristi se za redoslijed pravila tako da pravilo s manjom sekvencom primjeni "
@@ -12759,6 +12876,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13393,7 +13513,10 @@ msgstr "Vrijednost posljednjeg skeniranog barkoda."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13818,6 +13941,7 @@ msgstr "Vrijednost posljednjeg skeniranog barkoda."
 #: code:addons/barcodes/models/barcode_nomenclature.py:0
 msgid ""
 "You cannot delete '%(name)s' because it's the default barcode nomenclature."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14446,4 +14570,7 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Ne možete obrisati '%(name)s' jer je to zadana nomenklatura barkoda."
 >>>>>>> upstream/18.0

@@ -348,6 +348,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_placeholder_mail_attachments_data(self, move, extra_edis=None):
         # EXTENDS 'account'
         results = super()._get_placeholder_mail_attachments_data(move, extra_edis=extra_edis)
@@ -1245,6 +1246,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _get_placeholder_mail_attachments_data(self, move, invoice_edi_format=None, extra_edis=None):
         if extra_edis is None:
             extra_edis = {}
@@ -1476,6 +1479,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2053,6 +2059,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Download SInvoice documents in order to attach them to the email we sent to the customer.
             # If the email is not being sent, we will still get the files and attach them to the invoice.
             xml_data, xml_error_message = invoice._l10n_vn_edi_fetch_invoice_xml_file_data()
@@ -2150,6 +2157,8 @@ class AccountMoveSend(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if not self.env.context.get('skip_fetch_sinvoice_files'):
                 error = invoice._l10n_vn_edi_fetch_invoice_files()
                 if error:
@@ -2182,6 +2191,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

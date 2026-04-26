@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from difflib import SequenceMatcher
 
@@ -39,6 +40,8 @@ ACCOUNT_DOMAIN = "['&', ('deprecated', '=', False), ('account_type', 'not in', (
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112,6 +115,9 @@ ACCOUNT_DOMAIN = "['&', ('deprecated', '=', False), ('account_type', 'not in', (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -272,11 +278,14 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'income': self.property_account_income_id or self.categ_id.property_account_income_categ_id,
             'expense': self.property_account_expense_id or self.categ_id.property_account_expense_categ_id
         }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -480,6 +489,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -806,7 +818,11 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = self.taxes_id.filtered(lambda t: t.company_id == self.env.company).compute_all(
+=======
+        res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
+>>>>>>> upstream/18.0
 =======
         res = self.taxes_id._filter_taxes_by_company(self.env.company).compute_all(
 >>>>>>> upstream/18.0
@@ -1596,6 +1612,7 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product_grouped_by_tax in self.grouped('taxes_id').values():
             product_grouped_by_tax.taxes_id += default_customer_taxes
         self.invalidate_recordset(['taxes_id'])
@@ -1606,6 +1623,8 @@ class ProductTemplate(models.Model):
             product_grouped_by_tax.supplier_taxes_id += default_supplier_taxes
         self.invalidate_recordset(['supplier_taxes_id'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2280,6 +2299,9 @@ class ProductTemplate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2730,6 +2752,7 @@ class ProductTemplate(models.Model):
         # If no company was set for the product, the product will be available for all companies and therefore should
         # have the default taxes of the other companies as well. sudo() is used since we're going to need to fetch all
         # the other companies default taxes which the user may not have access to.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3547,6 +3570,9 @@ class ProductTemplate(models.Model):
 =======
         other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
 >>>>>>> upstream/18.0
+=======
+        other_companies = self.env['res.company'].sudo().search(['!', ('id', 'child_of', self.env.companies.ids)])
+>>>>>>> upstream/18.0
         if other_companies and products:
             products_without_company = products.filtered(lambda p: not p.company_id).sudo()
             products_without_company._force_default_tax(other_companies)
@@ -3609,10 +3635,13 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 product_taxes = product.taxes_id.filtered(lambda x: x.company_id == company)
             elif document_type == 'purchase':
                 product_taxes = product.supplier_taxes_id.filtered(lambda x: x.company_id == company)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3624,6 +3653,9 @@ class ProductProduct(models.Model):
             product_taxes = product_taxes._filter_taxes_by_company(company)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3700,6 +3732,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _retrieve_product(self, name=None, default_code=None, barcode=None, company=None, extra_domain=None):
         '''Search all products and find one that matches one of the parameters.
 
@@ -3715,6 +3748,8 @@ class ProductProduct(models.Model):
 
         def find_product_by_name_similarity(base_domain):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3795,6 +3830,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3853,6 +3891,7 @@ class ProductProduct(models.Model):
             products = self.search(
                 expression.AND([
                     [('name', 'ilike', name)],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3942,12 +3981,16 @@ class ProductProduct(models.Model):
 =======
                     values['static_domain'],
 >>>>>>> upstream/18.0
+=======
+                    values['static_domain'],
+>>>>>>> upstream/18.0
                 ]),
             )
             for product in products:
                 if SequenceMatcher(None, name.lower(), product.name.lower()).ratio() >= similarity_threshold:
                     return product
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7225,6 +7268,8 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if name and '\n' in name:
             # cut Sales Description from the name
             name = name.split('\n')[0]
@@ -7404,6 +7449,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
