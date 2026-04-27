@@ -150,7 +150,10 @@ class TestQwebFieldInteger(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -439,6 +442,10 @@ class TestQwebFieldFloatConverter(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(self.value_to_html(0, options), '0.000')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.value_to_html(0, options), '0.000')
 >>>>>>> upstream/18.0
@@ -788,6 +795,10 @@ class TestQwebFieldFloatConverter(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(self.value_to_html(1234567890.1234567890, options), '1,234,567,890.12346')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.value_to_html(1234567890.1234567890, options), '1,234,567,890.12346')
 >>>>>>> upstream/18.0
@@ -1147,6 +1158,9 @@ class TestQwebFieldFloatConverter(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1558,7 +1572,10 @@ class TestQwebFieldContact(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2206,6 +2223,9 @@ class TestQwebFieldMany2One(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

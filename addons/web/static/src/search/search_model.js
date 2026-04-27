@@ -304,10 +304,13 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @typedef {import("@web/core/domain").DomainRepr} DomainRepr */
 /** @typedef {import("@web/core/domain").DomainListRepr} DomainListRepr */
 /** @typedef {import("../views/utils").OrderTerm} OrderTerm */
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1147,6 +1150,9 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2716,7 +2722,12 @@ export class SearchModel extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const trees = !tree.negate && tree.value === "&" ? tree.children : [tree];
+=======
+        const containsChildren = !tree.negate && tree.type === "connector" && tree.value == "&";
+        const trees = containsChildren ? tree.children : [tree];
+>>>>>>> upstream/18.0
 =======
         const containsChildren = !tree.negate && tree.type === "connector" && tree.value == "&";
         const trees = containsChildren ? tree.children : [tree];
@@ -4205,7 +4216,11 @@ export class SearchModel extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         string: `${definition.string} (${definitionRecordName})`,
+=======
+                        string: definition.string,
+>>>>>>> upstream/18.0
 =======
                         string: definition.string,
 >>>>>>> upstream/18.0
@@ -5158,7 +5173,11 @@ export class SearchModel extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (!searchItemsNames.includes(fullName)) {
+=======
+                    if (!searchItemsNames.includes(fullName) && definition.type !== "separator") {
+>>>>>>> upstream/18.0
 =======
                     if (!searchItemsNames.includes(fullName) && definition.type !== "separator") {
 >>>>>>> upstream/18.0
@@ -6006,7 +6025,11 @@ export class SearchModel extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        delete category.errorMsg;
+>>>>>>> upstream/18.0
 =======
         delete category.errorMsg;
 >>>>>>> upstream/18.0
@@ -6125,7 +6148,11 @@ export class SearchModel extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        delete filter.errorMsg;
+>>>>>>> upstream/18.0
 =======
         delete filter.errorMsg;
 >>>>>>> upstream/18.0

@@ -176,6 +176,10 @@ import { debounce as debounceFn } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 =======
 import { redirect } from '@web/core/utils/urls';
 >>>>>>> upstream/18.0
@@ -1042,7 +1046,10 @@ export class ReorderDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1816,6 +1823,9 @@ export class ReorderDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2540,7 +2550,11 @@ export class ReorderDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             window.location = "/shop/cart";
+=======
+            redirect('/shop/cart');
+>>>>>>> upstream/18.0
 =======
             redirect('/shop/cart');
 >>>>>>> upstream/18.0
@@ -3340,6 +3354,7 @@ export class ReorderDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await rpc("/shop/cart/update_json", {
                 product_id: product.product_id,
                 add_qty: product.qty,
@@ -3348,6 +3363,8 @@ export class ReorderDialog extends Component {
                 display: false,
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4125,6 +4142,9 @@ export class ReorderDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

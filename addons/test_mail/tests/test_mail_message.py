@@ -103,9 +103,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from markupsafe import Markup
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -417,6 +420,9 @@ from odoo.addons.base.models.ir_mail_server import MailDeliveryException
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -732,7 +738,10 @@ from odoo.tools import is_html_empty, mute_logger, formataddr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1180,6 +1189,9 @@ class TestMessageHelpersRobustness(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1835,6 +1847,7 @@ class TestMessageValues(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 @tagged("mail_message")
@@ -1873,6 +1886,8 @@ class TestMessageStore(MailCommon, HttpCase):
         })
         res = self.make_jsonrpc_request("/mail/data", {"failures": True})
         self.assertEqual([t["name"] for t in res["mail.thread"]], ['Some description'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

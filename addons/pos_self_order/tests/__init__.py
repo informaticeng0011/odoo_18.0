@@ -42,6 +42,10 @@ from . import self_order_common_test
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_res_config_settings
+>>>>>>> upstream/18.0
 =======
 from . import test_res_config_settings
 >>>>>>> upstream/18.0
@@ -225,6 +229,10 @@ from . import test_self_order_sequence
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_self_order_prices
+>>>>>>> upstream/18.0
 =======
 from . import test_self_order_prices
 >>>>>>> upstream/18.0

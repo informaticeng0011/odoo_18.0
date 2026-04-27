@@ -362,7 +362,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kanban: `
+=======
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
 =======
         "kanban,1": /* xml */ `
 >>>>>>> upstream/18.0
@@ -1435,9 +1439,12 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         list: `<list><field name="foo"/></list>`,
         form: `
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2239,6 +2246,9 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3047,8 +3057,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search><field name="foo" string="Foo"/></search>`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3849,6 +3862,9 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4660,7 +4676,10 @@ class Pony extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

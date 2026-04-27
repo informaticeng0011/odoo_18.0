@@ -78,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_hr_recruitment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1432,11 +1433,15 @@
 =======
 # * website_hr_recruitment
 >>>>>>> upstream/18.0
+=======
+# * website_hr_recruitment
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Marta Wacławek, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1853,10 +1858,15 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3606,17 +3616,23 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-04-24 07:54+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "website_hr_recruitment/pl/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4190,6 +4206,11 @@ msgstr ""
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
 #. odoo-python
@@ -4206,7 +4227,10 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "           <span class=\"text-muted small\"> Czas odpowiedź</span>\n"
 "            <h6>2 dni otwarte</h6>\n"
@@ -4217,6 +4241,9 @@ msgstr ""
 "\n"
 "            <h6>4 dni po rozmowie kwalifikacyjnej</h6>\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -4224,7 +4251,11 @@ msgstr ""
 #: code:addons/website_hr_recruitment/controllers/main.py:0
 msgid " In case of issue, contact %(contact_infos)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " W razie problemów prosimy o kontakt %(contact_infos)s"
+>>>>>>> upstream/18.0
 =======
 msgstr " W razie problemów prosimy o kontakt %(contact_infos)s"
 >>>>>>> upstream/18.0
@@ -4241,6 +4272,7 @@ msgid "'. Showing results for '"
 msgstr "'. Wyświetl wyniki dla '"
 
 #. module: website_hr_recruitment
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5491,6 +5523,8 @@ msgstr "+1 (650) 555-0187"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.default_website_description
 msgid "12 days / year, including <br/>6 of your choice."
 msgstr "12 dni w roku, w tym<br/>6 do wyboru."
@@ -5514,6 +5548,10 @@ msgstr "<i class=\"fa fa-globe me-1\" title=\"Strona\"/>"
 msgid "<i class=\"fa fa-long-arrow-left text-primary me-2\"/>All Jobs"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-long-arrow-left text-primary me-2\"/>Wszystkie oferty pracy"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-long-arrow-left text-primary me-2\"/>Wszystkie oferty pracy"
 >>>>>>> upstream/18.0
@@ -5525,6 +5563,11 @@ msgid ""
 "aria-label=\"Employment type\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-suitcase fa-fw\" title=\"Typ zatrudnienia\" role=\"img\" "
+"aria-label=\"Typ zatrudnienia\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-suitcase fa-fw\" title=\"Typ zatrudnienia\" role=\"img\" "
 "aria-label=\"Typ zatrudnienia\"/>"
@@ -5534,7 +5577,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
 msgid "<i class=\"oi oi-arrow-left\"/> Job Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-left\"/> Opis stanowiska"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-left\"/> Opis stanowiska"
 >>>>>>> upstream/18.0
@@ -5862,7 +5909,11 @@ msgid "<span class=\"fst-italic\">No address specified</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fst-italic\">Nie określono adresu</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fst-italic\">Nie określono adresu</span>"
 >>>>>>> upstream/18.0
@@ -6926,6 +6977,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            <span class=\"h3 mt8 mb32 fw-bold\">Take a look around our website:</span>"
 =======
 "                                            <span class=\"h3 mt8 mb32 fw-"
@@ -7377,12 +7429,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                                            <span class=\"h3 mt8 mb32 fw-"
 "bold\">Take a look around our website:</span>"
 msgstr ""
 "<span class=\"h5 fw-light\">W międzyczasie</span><br/>\n"
 "                                           <span class=\"h3 mt8 mb32 fw-"
 "bold\"> Zapraszamy do zapoznania się z naszą stroną internetową:</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -7390,6 +7447,10 @@ msgstr ""
 msgid "<span class=\"navbar-brand h5 my-0 me-sm-auto\">Our Job Offers</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"navbar-brand h5 my-0 me-sm-auto\">Nasze oferty pracy</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"navbar-brand h5 my-0 me-sm-auto\">Nasze oferty pracy</span>"
 >>>>>>> upstream/18.0
@@ -7530,7 +7591,12 @@ msgid "<span class=\"s_website_form_label_content\">Short Introduction</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"s_website_form_label_content\">Krótkie wprowadzenie</span>"
+=======
+msgstr ""
+"<span class=\"s_website_form_label_content\">Krótkie wprowadzenie</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span class=\"s_website_form_label_content\">Krótkie wprowadzenie</span>"
@@ -8101,11 +8167,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Twój e-mail</span>\n"
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8448,6 +8517,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8791,11 +8863,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Twoja nazwa</span>\n"
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9138,6 +9213,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9481,11 +9559,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 msgstr ""
 "<span class=\"s_website_form_label_content\">Twój numer telefonu</span>\n"
 "                                                <span class=\"s_website_form_mark\"> *</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9828,6 +9909,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10081,6 +10165,11 @@ msgid ""
 "profile</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted small\">Prześlij nam swoje CV lub profil na "
+"LinkedInie</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted small\">Prześlij nam swoje CV lub profil na "
 "LinkedInie</span>"
@@ -10091,7 +10180,11 @@ msgstr ""
 #: code:addons/website_hr_recruitment/static/src/fields/boolean_toggle_labeled_field.js:0
 msgid "A clickable label for the toggle. Contains text for the false state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klikalna etykieta przełącznika. Zawiera tekst dla stanu false."
+>>>>>>> upstream/18.0
 =======
 msgstr "Klikalna etykieta przełącznika. Zawiera tekst dla stanu false."
 >>>>>>> upstream/18.0
@@ -10101,7 +10194,11 @@ msgstr "Klikalna etykieta przełącznika. Zawiera tekst dla stanu false."
 #: code:addons/website_hr_recruitment/static/src/fields/boolean_toggle_labeled_field.js:0
 msgid "A clickable label for the toggle. Contains text for the true state."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klikalna etykieta przełącznika. Zawiera tekst dla stanu true."
+>>>>>>> upstream/18.0
 =======
 msgstr "Klikalna etykieta przełącznika. Zawiera tekst dla stanu true."
 >>>>>>> upstream/18.0
@@ -10160,6 +10257,7 @@ msgstr "Wszystkie typy"
 #. odoo-python
 #: code:addons/website_hr_recruitment/controllers/main.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10725,11 +10823,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "An application already exists for %(value)s. Duplicates might be rejected. %"
 "(recruiter_contact)s"
 msgstr ""
 "Już istnieje aplikacja na stanowisko %(value)s. Duplikaty mogą zostać "
 "odrzucone. %(recruiter_contact)s"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -10741,7 +10844,11 @@ msgstr "Aplikant"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.hr_job_form_inherit
 msgid "Application Info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informacje o aplikacji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informacje o aplikacji"
 >>>>>>> upstream/18.0
@@ -10879,6 +10986,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        to create and deploy disruptive products.</b> Come work at a growing company\n"
 "                        that offers great benefits with opportunities to moving forward and learn\n"
 "                        alongside accomplished leaders. We're seeking an experienced and outstanding\n"
@@ -10891,6 +10999,8 @@ msgstr ""
 "Jako pracownik naszej firmy będziesz współpracować z każdym działem\n"
 "tworzyć i wdrażać przełomowe produkty.<b> Podejmij pracę w rozwijającej się firmie\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11245,6 +11355,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11587,8 +11700,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To stanowisko jest z natury zarówno <b>kreatywne, jak i wymagające</b>, co trzeba mieć na uwadze. Od kandydata oczekujemy proaktywności i umiejętności kończenia zadań. Aby odnieść sukces, musisz mieć solidne umiejętności rozwiązywania problemów."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11929,6 +12045,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12212,6 +12331,7 @@ msgstr "Twórz treści, które pomogą naszym użytkownikom na co dzień"
 #. module: website_hr_recruitment
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12665,10 +12785,15 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Create new job pages from the <strong>+ <i>New</i></strong> top-right button."
 msgstr ""
 "Twórz nowe oferty pracy, klikając na przycisk <strong>+ <i>Nowe</i></strong> "
 "w prawym górnym rogu."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -12820,11 +12945,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    You can make a real contribution to the success of the company.\n"
 "                    <br/>\n"
 "                    Several activities are often organized all over the year, such as weekly\n"
 "                    sports sessions, team building events, monthly drink, and much more"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13168,6 +13296,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13393,6 +13522,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Każdy pracownik ma szansę zobaczyć efekty swojej pracy.\n"
 "                    Możesz realnie przyczynić się do sukcesu firmy.\n"
@@ -13401,6 +13532,9 @@ msgstr ""
 "wydarzeń, takich jak cotygodniowe\n"
 "                    zajęcia sportowe, imprezy integracyjne, comiesięczne "
 "spotkania przy drinku i wiele innych."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -13576,11 +13710,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                The next step is either a call or a meeting in our offices.\n"
 "                                                <br/><br/>\n"
 "                                                Feel free to <strong>contact me if you want a faster\n"
 "                                                feedback</strong> or if you don't get news from me\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13924,6 +14061,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14150,6 +14288,8 @@ msgid ""
 "                                                quickly enough."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                                                quickly enough."
 msgstr ""
 "Zazwyczaj <strong>odpowiadam na zgłoszenia w przeciągu 3 dni</strong>.\n"
@@ -14162,6 +14302,9 @@ msgstr ""
 "przedziale czasowym,\n"
 "                                               </strong>skontaktuj się ze\n"
 "                                                mną."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -14182,7 +14325,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid "Insert a Job Description..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wpisz opis stanowiska..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Wpisz opis stanowiska..."
 >>>>>>> upstream/18.0
@@ -14222,7 +14369,11 @@ msgstr "Stanowisko"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid "Job not found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie znaleziono stanowiska"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie znaleziono stanowiska"
 >>>>>>> upstream/18.0
@@ -14602,7 +14753,11 @@ msgid "No address specified"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie określono adresu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie określono adresu"
 >>>>>>> upstream/18.0
@@ -15855,12 +16010,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_hr_recruitment/static/src/fields/boolean_toggle_labeled_field.xml:0
 msgid "Not Published"
 msgstr "Nieopublikowane"
 
 #. module: website_hr_recruitment
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16779,8 +16937,11 @@ msgstr "Produkty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_hr_recruitment/static/src/fields/boolean_toggle_labeled_field.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17483,8 +17644,12 @@ msgid "Real responsibilities and challenges in a fast evolving company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Prawdziwa odpowiedzialność i wyzwania w szybko rozwijającej się firmie"
+=======
+msgstr "Prawdziwa odpowiedzialność i wyzwania w szybko rozwijającej się firmie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prawdziwa odpowiedzialność i wyzwania w szybko rozwijającej się firmie"
 >>>>>>> upstream/18.0
@@ -17978,8 +18143,12 @@ msgid "Set if the application is published on the website of the company."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Ustaw, czy aplikacja ma być publikowana na stronie internetowej firmy."
+=======
+msgstr "Ustaw, czy aplikacja ma być publikowana na stronie internetowej firmy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustaw, czy aplikacja ma być publikowana na stronie internetowej firmy."
 >>>>>>> upstream/18.0
@@ -18325,7 +18494,11 @@ msgstr "Ustaw, czy aplikacja ma być publikowana na stronie internetowej firmy."
 #: code:addons/website_hr_recruitment/static/src/js/widgets/copy_link_menuitem.js:0
 msgid "Share Job"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udostępnij ofertę pracy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udostępnij ofertę pracy"
 >>>>>>> upstream/18.0
@@ -18335,7 +18508,11 @@ msgstr "Udostępnij ofertę pracy"
 #: code:addons/website_hr_recruitment/static/src/js/website_hr_recruitment_editor.js:0
 msgid "Short Introduction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krótkie wprowadzenie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krótkie wprowadzenie"
 >>>>>>> upstream/18.0
@@ -18375,7 +18552,11 @@ msgstr "Pełny adres URL dostępu do dokumentu przez stronę."
 #: code:addons/website_hr_recruitment/static/src/js/widgets/copy_link_menuitem.js:0
 msgid "The job link has been copied to the clipboard."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Link z ofertą został skopiowany do schowka."
+>>>>>>> upstream/18.0
 =======
 msgstr "Link z ofertą został skopiowany do schowka."
 >>>>>>> upstream/18.0
@@ -18385,7 +18566,11 @@ msgstr "Link z ofertą został skopiowany do schowka."
 #: code:addons/website_hr_recruitment/models/hr_applicant.py:0
 msgid "The job offer has been closed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oferta pracy została zamknięta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Oferta pracy została zamknięta."
 >>>>>>> upstream/18.0
@@ -18395,7 +18580,11 @@ msgstr "Oferta pracy została zamknięta."
 #: code:addons/website_hr_recruitment/static/src/js/website_hr_applicant_form.js:0
 msgid "The profile that you gave us doesn't seems like a linkedin profile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Profil, który otrzymaliśmy nie wygląda na profil z LinkedIn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Profil, który otrzymaliśmy nie wygląda na profil z LinkedIn"
 >>>>>>> upstream/18.0
@@ -18404,6 +18593,7 @@ msgstr "Profil, który otrzymaliśmy nie wygląda na profil z LinkedIn"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.index
 msgid ""
 "There are currently no open job opportunities,<br class=\"mb-2\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18968,6 +19158,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                                            but feel free to <span "
 "class=\"fw-bold\">contact us</span> for a spontaneous application."
 msgstr ""
@@ -18975,6 +19167,9 @@ msgstr ""
 "                                            ale zachęcamy do <span "
 "class=\"fw-bold\">skontaktowania się z nami</span> w sprawie spontanicznej "
 "aplikacji."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -18982,7 +19177,11 @@ msgstr ""
 #: code:addons/website_hr_recruitment/static/src/fields/boolean_toggle_labeled_field.js:0
 msgid "ToggleLabeled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ToggleLabeled"
+>>>>>>> upstream/18.0
 =======
 msgstr "ToggleLabeled"
 >>>>>>> upstream/18.0
@@ -18991,7 +19190,11 @@ msgstr "ToggleLabeled"
 #: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_recruitment_source__url
 msgid "Tracker URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adres URL trackera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adres URL trackera"
 >>>>>>> upstream/18.0
@@ -19319,7 +19522,11 @@ msgid "Unspecified type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieokreślony typ"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieokreślony typ"
 >>>>>>> upstream/18.0
@@ -20392,11 +20599,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We are a team of passionate people whose goal is to improve everyone's life through disruptive products.\n"
 "                                We build great products to solve your business problems."
 msgstr ""
 "Jesteśmy zespołem ludzi z pasją, których celem jest poprawa życia każdego człowieka poprzez przełomowe produkty.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20740,6 +20950,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20975,6 +21188,11 @@ msgid ""
 "can continue if it's not a mistake."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Znaleźliśmy niedawne zgłoszenie o podobnej nazwie, adresie e-mail i numerze "
+"telefonu. Kontynuuj, jeśli to nie jest pomyłka."
+>>>>>>> upstream/18.0
 =======
 "Znaleźliśmy niedawne zgłoszenie o podobnej nazwie, adresie e-mail i numerze "
 "telefonu. Kontynuuj, jeśli to nie jest pomyłka."
@@ -20988,6 +21206,12 @@ msgid ""
 "months. Please consider before applying in order not to duplicate efforts."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"W naszym systemie znaleźliśmy poprzednią zamkniętą aplikację z ostatnich 6 "
+"miesięcy. Prosimy o rozważenie tego przed złożeniem aplikacji, aby uniknąć "
+"powielania wysiłków."
+>>>>>>> upstream/18.0
 =======
 "W naszym systemie znaleźliśmy poprzednią zamkniętą aplikację z ostatnich 6 "
 "miesięcy. Prosimy o rozważenie tego przed złożeniem aplikacji, aby uniknąć "
@@ -21061,6 +21285,7 @@ msgstr "Co jest fajnego w pracy?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -21137,6 +21362,8 @@ msgstr ""
 msgid "Your <b>contact</b> information is:"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.job_right_side_bar
 msgid "X"
 msgstr "X"
@@ -21145,6 +21372,9 @@ msgstr "X"
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.thankyou_ir_ui_view
 msgid "Your <b>contact</b> information is:"
 msgstr "Twoje dane <b>kontaktowe</b>:"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_hr_recruitment
@@ -21166,6 +21396,11 @@ msgid ""
 "                                    We usually respond within 3 days..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Twoja aplikacja została pomyślnie przesłana,<br class=\"mb-2\"/>\n"
+"                                    Zazwyczaj odpowiadamy w ciągu 3 dni..."
+>>>>>>> upstream/18.0
 =======
 "Twoja aplikacja została pomyślnie przesłana,<br class=\"mb-2\"/>\n"
 "                                    Zazwyczaj odpowiadamy w ciągu 3 dni..."
@@ -21183,6 +21418,11 @@ msgid ""
 "the Jobs list page..."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"np. Podsumuj pozycję w jednym lub dwóch wierszach, które będą wyświetlane na "
+"stronie listy ofert pracy..."
+>>>>>>> upstream/18.0
 =======
 "np. Podsumuj pozycję w jednym lub dwóch wierszach, które będą wyświetlane na "
 "stronie listy ofert pracy..."
@@ -21192,7 +21432,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_hr_recruitment.apply
 msgid "e.g. https://www.linkedin.com/in/fpodoo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "np. https://www.linkedin.com/in/fpodoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "np. https://www.linkedin.com/in/fpodoo"
 >>>>>>> upstream/18.0
@@ -21206,7 +21450,11 @@ msgstr "info@twojafirma.przyklad.com"
 #: model:ir.model.fields,field_description:website_hr_recruitment.field_hr_job__full_url
 msgid "job URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL oferty pracy"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL oferty pracy"
 >>>>>>> upstream/18.0
@@ -21292,7 +21540,11 @@ msgid "open position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "wolne stanowisko"
+>>>>>>> upstream/18.0
 =======
 msgstr "wolne stanowisko"
 >>>>>>> upstream/18.0
@@ -21552,6 +21804,12 @@ msgstr "nieopublikowane"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "+1 (650) 555-0187"
+#~ msgstr "+1 (650) 555-0187"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "+1 (650) 555-0187"

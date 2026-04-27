@@ -312,12 +312,15 @@ class SaleEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order.write(order_values)
         logs += partner_logs + delivery_partner_logs + currency_logs + line_logs + allowance_charges_logs
 
         return logs
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1127,6 +1130,9 @@ class SaleEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

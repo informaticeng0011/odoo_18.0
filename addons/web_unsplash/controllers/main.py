@@ -110,7 +110,10 @@ class Web_Unsplash(http.Controller):
                 'name': '_'.join(url_frags),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'url': '/' + '/'.join(url_frags),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -122,7 +125,10 @@ class Web_Unsplash(http.Controller):
             attachment = HTML_Editor._attachment_create(self, **attachment_data)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             # Creating an attachment with binary type and URL is normally forbidden
@@ -130,6 +136,9 @@ class Web_Unsplash(http.Controller):
             # However, we want to bypass this protection for unsplash images
             attachment.sudo().url = '/' + '/'.join(url_frags)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -161,7 +161,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ('unique_active_edi_identification', '', 'This edi identification is already assigned to an active user'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -476,12 +479,15 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not index_exists(self.env.cr, 'account_edi_proxy_client_user_unique_active_edi_identification'):
             self.env.cr.execute("""
                 CREATE UNIQUE INDEX account_edi_proxy_client_user_unique_active_edi_identification
                                  ON account_edi_proxy_client_user(edi_identification, proxy_type, edi_mode)
                               WHERE (active = True)
             """)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -798,6 +804,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.cr.execute("DROP INDEX IF EXISTS account_edi_proxy_client_user_unique_active_edi_identification")
+
+>>>>>>> upstream/18.0
 =======
         self.env.cr.execute("DROP INDEX IF EXISTS account_edi_proxy_client_user_unique_active_edi_identification")
 
@@ -1349,7 +1360,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             response = requests.post(
+=======
+            res = requests.post(
+>>>>>>> upstream/18.0
 =======
             res = requests.post(
 >>>>>>> upstream/18.0
@@ -1754,9 +1769,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 auth=OdooEdiProxyAuth(user=self)).json()
         except (ValueError, requests.exceptions.ConnectionError, requests.exceptions.MissingSchema, requests.exceptions.Timeout, requests.exceptions.HTTPError):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2059,6 +2077,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2365,10 +2386,13 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message = _('The url that this service requested returned an error. The url it tried to contact was %(url)s. %(error_message)s', url=url, error_message=response['error']['message'])
             if response['error']['code'] == 404:
                 message = _('The url that this service tried to contact does not exist. The url was “%s”', url)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2684,6 +2708,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3139,7 +3166,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3829,6 +3859,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4526,6 +4559,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 response = self._make_request(self._get_server_url(proxy_type, edi_mode) + '/iap/account_edi/2/create_user', params={
                     'dbuuid': company.env['ir.config_parameter'].get_param('database.uuid'),
                     'company_id': company.id,
@@ -4534,6 +4568,8 @@ class AccountEdiProxyClientUser(models.Model):
                     'proxy_type': proxy_type,
                 })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5216,6 +5252,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp_subcontracting_purchase
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -455,12 +456,17 @@
 # * mrp_subcontracting_purchase
 #
 >>>>>>> upstream/18.0
+=======
+# * mrp_subcontracting_purchase
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Martin Trigaux, 2024
 # Lasse L, 2024
 # Simon S, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -914,10 +920,14 @@
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1267,16 +1277,22 @@ msgstr ""
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-24 14:32+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "mrp_subcontracting_purchase/sv/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1617,6 +1633,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_subcontracting_purchase
 #. odoo-python
@@ -1628,7 +1648,11 @@ msgstr "+ %d dag(ar)"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting_purchase.purchase_order_form_mrp_subcontracting_purchase
 msgid "<span class=\"o_stat_text\">Resupply</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Återförsörja</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Påfyllning</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Påfyllning</span>"
 >>>>>>> upstream/18.0
@@ -1637,7 +1661,11 @@ msgstr "<span class=\"o_stat_text\">Påfyllning</span>"
 #: model_terms:ir.ui.view,arch_db:mrp_subcontracting_purchase.stock_picking_form_mrp_subcontracting
 msgid "<span class=\"o_stat_text\">Source PO</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Källa PO</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Den ursprungliga inköpsordern</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Den ursprungliga inköpsordern</span>"
 >>>>>>> upstream/18.0
@@ -1646,7 +1674,11 @@ msgstr "<span class=\"o_stat_text\">Den ursprungliga inköpsordern</span>"
 #: model:ir.model,name:mrp_subcontracting_purchase.model_report_mrp_report_bom_structure
 msgid "BOM Overview Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Översiktsrapport för Materiallista"
+=======
+msgstr "Översiktsrapport över materialförteckningar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Översiktsrapport över materialförteckningar"
 >>>>>>> upstream/18.0
@@ -1655,7 +1687,11 @@ msgstr "Översiktsrapport över materialförteckningar"
 #: model:ir.model.fields,field_description:mrp_subcontracting_purchase.field_purchase_order__subcontracting_resupply_picking_count
 msgid "Count of Subcontracting Resupply"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Antal leveranser från underleverantörer"
+=======
+msgstr "Antal påfyllningar från underleverantörer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal påfyllningar från underleverantörer"
 >>>>>>> upstream/18.0
@@ -1664,7 +1700,11 @@ msgstr "Antal påfyllningar från underleverantörer"
 #: model:ir.model.fields,help:mrp_subcontracting_purchase.field_purchase_order__subcontracting_resupply_picking_count
 msgid "Count of Subcontracting Resupply for component"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Antal underleverantörsleveranser för komponent"
+=======
+msgstr "Antal påfyllningar av komponenter från underleverantörer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal påfyllningar av komponenter från underleverantörer"
 >>>>>>> upstream/18.0
@@ -1679,7 +1719,11 @@ msgstr "Dagar till leverans av komponenter"
 #: model:ir.model,name:mrp_subcontracting_purchase.model_account_move_line
 msgid "Journal Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Journalpost"
+=======
+msgstr "Affärshändelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Affärshändelse"
 >>>>>>> upstream/18.0
@@ -1689,7 +1733,11 @@ msgstr "Affärshändelse"
 #: code:addons/mrp_subcontracting_purchase/models/stock_rule.py:0
 msgid "Manufacturing Lead Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tillverkningsledtid"
+=======
+msgstr "Ledtid vid produktion"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ledtid vid produktion"
 >>>>>>> upstream/18.0
@@ -1698,7 +1746,11 @@ msgstr "Ledtid vid produktion"
 #: model:ir.model.fields,field_description:mrp_subcontracting_purchase.field_stock_picking__subcontracting_source_purchase_count
 msgid "Number of subcontracting PO Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Antal underleverantörer PO-källa"
+=======
+msgstr "Antal underleverantörer kopplade till en inköpsorder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal underleverantörer kopplade till en inköpsorder"
 >>>>>>> upstream/18.0
@@ -1707,7 +1759,11 @@ msgstr "Antal underleverantörer kopplade till en inköpsorder"
 #: model:ir.model.fields,help:mrp_subcontracting_purchase.field_stock_picking__subcontracting_source_purchase_count
 msgid "Number of subcontracting Purchase Order Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Antal underleverantörer, inköpsorderkälla"
+=======
+msgstr "Antal underleverantörer kopplade till en inköpsorder"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal underleverantörer kopplade till en inköpsorder"
 >>>>>>> upstream/18.0
@@ -1722,7 +1778,11 @@ msgstr "Inköpsorder"
 #: code:addons/mrp_subcontracting_purchase/models/stock_picking.py:0
 msgid "Source PO of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Källa PO av %s"
+=======
+msgstr "Ursprunglig inköpsorder för %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ursprunglig inköpsorder för %s"
 >>>>>>> upstream/18.0
@@ -1731,7 +1791,11 @@ msgstr "Ursprunglig inköpsorder för %s"
 #: model:ir.model,name:mrp_subcontracting_purchase.model_stock_move
 msgid "Stock Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lagerflytt"
+=======
+msgstr "Lagerrörelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lagerrörelse"
 >>>>>>> upstream/18.0
@@ -1756,7 +1820,11 @@ msgstr "Överföring"
 #: code:addons/mrp_subcontracting_purchase/models/stock_rule.py:0
 msgid "Vendor Lead Time"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Leverantörs ledtid"
+=======
+msgstr "Leverantörens ledtid"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leverantörens ledtid"
 >>>>>>> upstream/18.0

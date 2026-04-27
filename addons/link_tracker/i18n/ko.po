@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* link_tracker
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -345,11 +346,15 @@
 =======
 # * link_tracker
 >>>>>>> upstream/18.0
+=======
+# * link_tracker
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Daye Jeong, 2024
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -688,10 +693,14 @@
 =======
 # "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1041,16 +1050,22 @@ msgstr ""
 "Last-Translator: Daye Jeong, 2024\n"
 "Language-Team: Korean (https://app.transifex.com/odoo/teams/41243/ko/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-24 12:46+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/"
 "link_tracker/ko/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1728,11 +1743,16 @@ msgstr "<i class=\"fa fa-fw fa-mouse-pointer\" aria-label=\"클릭\" role=\"이�
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
 
 #. module: link_tracker
 #: model_terms:ir.ui.view,arch_db:link_tracker.utm_campaign_view_kanban
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-fw fa-mouse-pointer\" aria-label=\"Clicks\" role=\"img\"/>"
@@ -1850,6 +1870,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2125,6 +2148,7 @@ msgstr "코드"
 #. odoo-python
 #: code:addons/link_tracker/models/link_tracker.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2692,12 +2716,17 @@ msgid ""
 msgstr ""
 "링크 트래커 값 조합(URL, 캠페인, 매체, 소스, 레이블)은 고유해야 합니다.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "Combinations of Link Tracker values (URL, campaign, medium, source, and "
 "label) must be unique.\n"
 "The following combinations are already used: \n"
 "- %(error_lines)s"
 msgstr ""
 "UTM 빌더 값 조합(URL, 캠페인, 매체, 소스, 레이블)은 고유해야 합니다.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "다음 조합이 이미 사용 중입니다:\n"
 "- %(error_lines)s"
@@ -2713,7 +2742,11 @@ msgstr "국가"
 #: model_terms:ir.actions.act_window,help:link_tracker.link_tracker_action_campaign
 msgid "Create a link tracker"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "링크 추적기 만들기"
+=======
+msgstr "UTM 빌더 생성하기"
+>>>>>>> upstream/18.0
 =======
 msgstr "UTM 빌더 생성하기"
 >>>>>>> upstream/18.0
@@ -2737,7 +2770,11 @@ msgstr "작성일자"
 #: code:addons/link_tracker/models/link_tracker.py:0
 msgid "Creating a Link Tracker without URL is not possible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "URL 없이 링크 추적기를 생성할 수 없습니다"
+=======
+msgstr "URL이 없는 링크 추적기는 생성할 수 없습니다"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL이 없는 링크 추적기는 생성할 수 없습니다"
 >>>>>>> upstream/18.0
@@ -2809,7 +2846,11 @@ msgstr "링크 클릭"
 #: model:ir.ui.menu,name:link_tracker.link_tracker_menu_main
 msgid "Link Tracker"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "링크 추적기"
+=======
+msgstr "UTM 빌더"
+>>>>>>> upstream/18.0
 =======
 msgstr "UTM 빌더"
 >>>>>>> upstream/18.0
@@ -2818,7 +2859,11 @@ msgstr "UTM 빌더"
 #: model:ir.model,name:link_tracker.model_link_tracker_click
 msgid "Link Tracker Click"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "링크 추적기 클릭"
+=======
+msgstr "UTM 빌더 클릭"
+>>>>>>> upstream/18.0
 =======
 msgstr "UTM 빌더 클릭"
 >>>>>>> upstream/18.0
@@ -2827,7 +2872,11 @@ msgstr "UTM 빌더 클릭"
 #: model:ir.model,name:link_tracker.model_link_tracker_code
 msgid "Link Tracker Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "링크 추적기 코드"
+=======
+msgstr "UTM 빌더 코드"
+>>>>>>> upstream/18.0
 =======
 msgstr "UTM 빌더 코드"
 >>>>>>> upstream/18.0
@@ -2910,6 +2959,7 @@ msgstr "대상 URL"
 #: model:ir.model.fields,help:link_tracker.field_link_tracker__campaign_id
 #: model:ir.model.fields,help:link_tracker.field_link_tracker_click__campaign_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3252,6 +3302,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This is a name that helps you keep track of your different campaign efforts, "
 "e.g. Fall_Drive, Christmas_Special"
 msgstr ""
@@ -3369,6 +3421,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3718,7 +3773,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "링크의 유입 경로입니다 (예: 검색 엔진, 다른 웹사이트, 이메일 목록 제목 등)."
+=======
+msgstr ""
+"링크의 유입 경로입니다 (예: 검색 엔진, 다른 웹사이트, 이메일 목록 제목 등)."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "링크의 유입 경로입니다 (예: 검색 엔진, 다른 웹사이트, 이메일 목록 제목 등)."
@@ -4302,7 +4362,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "UTM 빌더는 링크 클릭에 대한 통계를 수집하고 짧은 URL을 생성하는 데 사용됩니다."
+=======
+msgstr ""
+"UTM 빌더는 링크 클릭에 대한 통계를 수집하고 짧은 URL을 생성하는 데 사용됩니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "UTM 빌더는 링크 클릭에 대한 통계를 수집하고 짧은 URL을 생성하는 데 사용됩니"
@@ -5019,7 +5085,12 @@ msgid "“%s” is not a valid link, links cannot redirect to the current page."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "“%s”는 유효한 링크가 아니므로 링크를 현재 페이지로 리디렉션할 수 없습니다."
+=======
+msgstr ""
+"“%s”는 유효한 링크가 아니므로 링크를 현재 페이지로 리디렉션할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "“%s”는 유효한 링크가 아니므로 링크를 현재 페이지로 리디렉션할 수 없습니다."

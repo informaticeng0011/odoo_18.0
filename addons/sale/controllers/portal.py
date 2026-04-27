@@ -171,7 +171,11 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             total=SaleOrder.search_count(domain),
+=======
+            total=SaleOrder.search_count(domain) if SaleOrder.has_access('read') else 0,
+>>>>>>> upstream/18.0
 =======
             total=SaleOrder.search_count(domain) if SaleOrder.has_access('read') else 0,
 >>>>>>> upstream/18.0
@@ -552,7 +556,11 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         orders = SaleOrder.search(domain, order=sort_order, limit=self._items_per_page, offset=pager_values['offset'])
+=======
+        orders = SaleOrder.search(domain, order=sort_order, limit=self._items_per_page, offset=pager_values['offset']) if SaleOrder.has_access('read') else SaleOrder
+>>>>>>> upstream/18.0
 =======
         orders = SaleOrder.search(domain, order=sort_order, limit=self._items_per_page, offset=pager_values['offset']) if SaleOrder.has_access('read') else SaleOrder
 >>>>>>> upstream/18.0
@@ -868,7 +876,10 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -882,6 +893,9 @@ class CustomerPortal(payment_portal.PaymentPortal):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -911,6 +925,7 @@ class CustomerPortal(payment_portal.PaymentPortal):
                 download=download,
             )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1524,6 +1539,11 @@ class CustomerPortal(payment_portal.PaymentPortal):
         is_link_preview = request.httprequest.headers.get('Odoo-Link-Preview')
         if request.env.user.share and access_token and is_link_preview != 'True':
 >>>>>>> upstream/18.0
+=======
+        # If the route is fetched from the link previewer avoid triggering that quotation is viewed.
+        is_link_preview = request.httprequest.headers.get('Odoo-Link-Preview')
+        if request.env.user.share and access_token and is_link_preview != 'True':
+>>>>>>> upstream/18.0
             # If a public/portal user accesses the order with the access token
             # Log a note on the chatter.
             today = fields.Date.today().isoformat()
@@ -1568,6 +1588,7 @@ class CustomerPortal(payment_portal.PaymentPortal):
         else:
             history_session_key = 'my_orders_history'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2173,6 +2194,10 @@ class CustomerPortal(payment_portal.PaymentPortal):
         values = self._sale_order_get_page_view_values(
             order_sudo, access_token, values, history_session_key, **kw)
 >>>>>>> upstream/18.0
+=======
+        values = self._sale_order_get_page_view_values(
+            order_sudo, access_token, values, history_session_key, **kw)
+>>>>>>> upstream/18.0
 
         return request.render('sale.sale_order_portal_template', values)
 
@@ -2498,7 +2523,12 @@ class CustomerPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             request.env.cr.commit()
+=======
+            # flush now to make signature data available to PDF render request
+            request.env.cr.flush()
+>>>>>>> upstream/18.0
 =======
             # flush now to make signature data available to PDF render request
             request.env.cr.flush()
@@ -3640,6 +3670,12 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if order_sudo.is_expired:
+                raise ValidationError(_("The sale order has expired."))
+
+>>>>>>> upstream/18.0
 =======
             if order_sudo.is_expired:
                 raise ValidationError(_("The sale order has expired."))

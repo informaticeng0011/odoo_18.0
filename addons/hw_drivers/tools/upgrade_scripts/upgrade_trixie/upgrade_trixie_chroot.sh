@@ -118,7 +118,10 @@ DEBIAN_FRONTEND=noninteractive apt-get full-upgrade -y -o Dpkg::Options::="--for
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -447,6 +450,9 @@ curl -fsSL https://pkgs.tailscale.com/stable/raspbian/bullseye.tailscale-keyring
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -782,8 +788,13 @@ DEBIAN_FRONTEND=noninteractive apt-get full-upgrade -y -o Dpkg::Options::="--for
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Reinstall packages that got removed in the upgrade
 apt-get install -y chromium python3-lxml-html-clean
+=======
+# Reinstall packages needed in saas-19.1
+apt-get install -y chromium python3-lxml-html-clean apt-transport-https tailscale
+>>>>>>> upstream/18.0
 =======
 # Reinstall packages needed in saas-19.1
 apt-get install -y chromium python3-lxml-html-clean apt-transport-https tailscale

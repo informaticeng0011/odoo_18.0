@@ -184,12 +184,15 @@ pdfjs-bookmark-button-label = Pàgina actual
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Used in Firefox for Android.
 pdfjs-open-in-app-button =
     .title = Obre en una aplicació
 # Used in Firefox for Android.
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
 pdfjs-open-in-app-button-label = Obre en una aplicació
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -833,7 +836,10 @@ pdfjs-editor-ink-button-label = Dibuixa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1254,6 +1260,9 @@ pdfjs-editor-ink-button-label = Dibuixa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1690,7 +1699,10 @@ pdfjs-ink-canvas =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2119,6 +2131,9 @@ pdfjs-ink-canvas =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

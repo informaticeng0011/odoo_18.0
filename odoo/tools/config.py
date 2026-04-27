@@ -253,6 +253,10 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        group.add_option("--skip-auto-install", dest="skip_auto_install", action="store_true", my_default=False, help="skip the automatic installation of modules marked as auto_install")
+>>>>>>> upstream/18.0
 =======
         group.add_option("--skip-auto-install", dest="skip_auto_install", action="store_true", my_default=False, help="skip the automatic installation of modules marked as auto_install")
 >>>>>>> upstream/18.0
@@ -790,7 +794,11 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         group.add_option("--test-tags", dest="test_tags",
+=======
+        group.add_option("-t", "--test-tags", dest="test_tags",
+>>>>>>> upstream/18.0
 =======
         group.add_option("-t", "--test-tags", dest="test_tags",
 >>>>>>> upstream/18.0
@@ -1425,7 +1433,11 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'syslog', 'without_demo', 'screencasts', 'screenshots',
+=======
+                'syslog', 'without_demo', 'skip_auto_install', 'screencasts', 'screenshots',
+>>>>>>> upstream/18.0
 =======
                 'syslog', 'without_demo', 'skip_auto_install', 'screencasts', 'screenshots',
 >>>>>>> upstream/18.0
@@ -2004,7 +2016,11 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'stop_after_init', 'without_demo', 'http_enable', 'syslog',
+=======
+            'stop_after_init', 'without_demo', 'skip_auto_install', 'http_enable', 'syslog',
+>>>>>>> upstream/18.0
 =======
             'stop_after_init', 'without_demo', 'skip_auto_install', 'http_enable', 'syslog',
 >>>>>>> upstream/18.0
@@ -2463,6 +2479,7 @@ class configmanager(object):
         else:
             self.options['addons_path'] = ",".join(
                 self._normalize(x)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3283,6 +3300,8 @@ class configmanager(object):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 for x in self.options['addons_path'].split(',')
                 if x.strip())
 
@@ -3561,6 +3580,9 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4109,6 +4131,7 @@ class configmanager(object):
         )
         self.options["pre_upgrade_scripts"] = (
             ",".join(self._normalize(x)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5470,6 +5493,10 @@ class configmanager(object):
                 for x in self.options['pre_upgrade_scripts'].split(',')
                 if x.strip())
 >>>>>>> upstream/18.0
+=======
+                for x in self.options['pre_upgrade_scripts'].split(',')
+                if x.strip())
+>>>>>>> upstream/18.0
             if self.options['pre_upgrade_scripts']
             else ""
         )
@@ -5562,8 +5589,11 @@ class configmanager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not self._is_addons_path(res):
                 raise optparse.OptionValueError("option %s: the path %r is not a valid addons directory" % (opt, path))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

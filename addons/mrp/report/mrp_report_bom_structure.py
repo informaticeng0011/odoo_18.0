@@ -250,7 +250,11 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if bom_data.get('producible_qty', 0):
+=======
+        if bom_data.get('producible_qty', 0) and not self.env.context.get('skip_producible_qty'):
+>>>>>>> upstream/18.0
 =======
         if bom_data.get('producible_qty', 0) and not self.env.context.get('skip_producible_qty'):
 >>>>>>> upstream/18.0
@@ -959,6 +963,7 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             warehouse = self.env['stock.warehouse'].browse(self.get_warehouses()[0]['id'])
 
         lines = self._get_bom_data(bom, warehouse, product=product, line_qty=bom_quantity, level=0)
@@ -1569,6 +1574,8 @@ class ReportBomStructure(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             warehouses = self.get_warehouses()
             warehouse = self.env['stock.warehouse'].browse(warehouses[0]['id']) if warehouses else self.env['stock.warehouse']
 
@@ -1582,6 +1589,9 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1814,6 +1824,9 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2763,7 +2776,11 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cost_share = byproduct.cost_share / 100
+=======
+            cost_share = byproduct.cost_share / 100 if byproduct.product_qty > 0 else 0
+>>>>>>> upstream/18.0
 =======
             cost_share = byproduct.cost_share / 100 if byproduct.product_qty > 0 else 0
 >>>>>>> upstream/18.0
@@ -3544,7 +3561,12 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             warehouse = self.env['stock.warehouse'].browse(self.get_warehouses()[0]['id'])
+=======
+            warehouses = self.get_warehouses()
+            warehouse = self.env['stock.warehouse'].browse(warehouses[0]['id']) if warehouses else self.env['stock.warehouse']
+>>>>>>> upstream/18.0
 =======
             warehouses = self.get_warehouses()
             warehouse = self.env['stock.warehouse'].browse(warehouses[0]['id']) if warehouses else self.env['stock.warehouse']
@@ -3688,7 +3710,11 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not found_rules:
+=======
+        if not found_rules and warehouse:
+>>>>>>> upstream/18.0
 =======
         if not found_rules and warehouse:
 >>>>>>> upstream/18.0
@@ -4167,7 +4193,13 @@ class ReportBomStructure(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise UserError(_('Impossible to plan. Please check the workcenter availabilities.'))
+=======
+            err = UserError(_('Impossible to plan. Please check the workcenter availabilities.'))
+            err._planning_error = True
+            raise err
+>>>>>>> upstream/18.0
 =======
             err = UserError(_('Impossible to plan. Please check the workcenter availabilities.'))
             err._planning_error = True

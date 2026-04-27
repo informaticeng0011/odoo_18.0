@@ -313,8 +313,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import json
 import logging
+=======
+import logging
+
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 import logging
 
@@ -2362,6 +2368,7 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if clearance_data.get('json_errors'):
             errors = [json.loads(j).get('validationResults', {}) for j in clearance_data['json_errors']]
             error_msg = ''
@@ -2374,6 +2381,8 @@ class AccountEdiFormat(models.Model):
                     is_warning = False
                     error_msg += '\n - %s | %s' % (err['code'], err['message'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3328,6 +3337,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3961,6 +3973,7 @@ class AccountEdiFormat(models.Model):
                 'error': error_msg,
                 'rejected': not is_warning,
                 'response': signed_xml.decode(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5084,6 +5097,8 @@ class AccountEdiFormat(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'blocking_level': 'warning' if is_warning else 'error',
                 'status_code': status_code,
             }
@@ -5314,6 +5329,9 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6161,8 +6179,13 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if response_data.get('rejected'):
                 invoice._l10n_sa_log_results(submitted_xml, response_data, error=True)
+=======
+            # If request timedout, just log note a warning message
+            invoice._l10n_sa_log_results(submitted_xml, response_data, error=response_data.get('rejected'))
+>>>>>>> upstream/18.0
 =======
             # If request timedout, just log note a warning message
             invoice._l10n_sa_log_results(submitted_xml, response_data, error=response_data.get('rejected'))
@@ -7307,7 +7330,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.code != 'sa_zatca' or company.country_id.code != 'SA':
+=======
+        if self.code != 'sa_zatca' or company.country_id and company.country_id.code != 'SA':
+>>>>>>> upstream/18.0
 =======
         if self.code != 'sa_zatca' or company.country_id and company.country_id.code != 'SA':
 >>>>>>> upstream/18.0
@@ -7866,6 +7893,7 @@ class AccountEdiFormat(models.Model):
         if not company._l10n_sa_check_organization_unit():
             errors.append(
                 _("- The company VAT identification must contain 15 digits, with the first and last digits being '3' as per the BR-KSA-39 and BR-KSA-40 of ZATCA KSA business rule."))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8775,6 +8803,9 @@ class AccountEdiFormat(models.Model):
 =======
         if not journal.company_id.sudo().l10n_sa_private_key_id:
 >>>>>>> upstream/18.0
+=======
+        if not journal.company_id.sudo().l10n_sa_private_key_id:
+>>>>>>> upstream/18.0
             errors.append(
                 _("- No Private Key was generated for company %s. A Private Key is mandatory in order to generate Certificate Signing Requests (CSR).", company.name))
         if not journal.l10n_sa_serial_number:
@@ -8859,7 +8890,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             errors.append(_("- Please, make sure the invoice date is set to either the same as or before Today."))
+=======
+            errors.append(_("- Please set the Invoice Date to be either less than or equal to today as per the Asia/Riyadh time zone, since ZATCA does not allow future-dated invoicing."))
+>>>>>>> upstream/18.0
 =======
             errors.append(_("- Please set the Invoice Date to be either less than or equal to today as per the Asia/Riyadh time zone, since ZATCA does not allow future-dated invoicing."))
 >>>>>>> upstream/18.0
@@ -9218,6 +9253,11 @@ class AccountEdiFormat(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if "<pdfaid:conformance>B</pdfaid:conformance>" in content:
+                content.replace("<pdfaid:conformance>B</pdfaid:conformance>", "<pdfaid:conformance>A</pdfaid:conformance>")
+>>>>>>> upstream/18.0
 =======
             if "<pdfaid:conformance>B</pdfaid:conformance>" in content:
                 content.replace("<pdfaid:conformance>B</pdfaid:conformance>", "<pdfaid:conformance>A</pdfaid:conformance>")

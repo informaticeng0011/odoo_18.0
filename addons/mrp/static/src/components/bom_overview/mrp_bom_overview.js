@@ -152,7 +152,11 @@ export class BomOverviewComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.state.currentVariantId ||= Object.keys(this.variants)[0];
+=======
+            this.state.currentVariantId ||= this.state.bomData.product_id;
+>>>>>>> upstream/18.0
 =======
             this.state.currentVariantId ||= this.state.bomData.product_id;
 >>>>>>> upstream/18.0
@@ -482,9 +486,12 @@ export class BomOverviewComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                          "&unfolded_ids=" + JSON.stringify(Array.from(this.unfoldedIds)) +
                          "&warehouse_id=" + (this.state.currentWarehouse ? this.state.currentWarehouse.id : false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -516,6 +523,9 @@ export class BomOverviewComponent extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

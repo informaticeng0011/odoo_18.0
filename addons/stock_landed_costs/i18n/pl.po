@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_landed_costs
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +402,9 @@
 =======
 # * stock_landed_costs
 >>>>>>> upstream/18.0
+=======
+# * stock_landed_costs
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -518,6 +522,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -628,6 +633,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -804,6 +812,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1303,6 +1312,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-15 13:13+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -1315,6 +1326,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1392,6 +1406,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 <<<<<<< HEAD
@@ -1804,6 +1819,11 @@ msgstr ""
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
@@ -1850,6 +1870,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 msgid "%(product)s: %(quantity)s already out"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2510,6 +2531,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "%(product)s: %(quantity)s już wysłano"
 
 #. module: stock_landed_costs
@@ -2525,6 +2548,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2562,7 +2588,11 @@ msgid "Account Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dziennik"
+=======
+msgstr "Dziennik księgowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dziennik księgowy"
 >>>>>>> upstream/18.0
@@ -2604,7 +2634,11 @@ msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Czynności"
+=======
+msgstr "Aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktywności"
 >>>>>>> upstream/18.0
@@ -2717,6 +2751,7 @@ msgstr "Oblicz"
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2946,6 +2981,9 @@ msgstr "Konfiguracja ustawień"
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__price_unit
@@ -2978,7 +3016,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Linie kosztów i korekt nie pasują do siebie. Być może należy ponownie "
+=======
+"Pozycje kosztów i korekt nie pasują do siebie. Być może należy ponownie "
+>>>>>>> upstream/18.0
 =======
 "Pozycje kosztów i korekt nie pasują do siebie. Być może należy ponownie "
 >>>>>>> upstream/18.0
@@ -3085,7 +3127,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Wykonano"
+=======
+msgstr "Gotowe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gotowe"
 >>>>>>> upstream/18.0
@@ -3123,7 +3169,11 @@ msgid "Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Projekt"
+=======
+msgstr "Wersja robocza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wersja robocza"
 >>>>>>> upstream/18.0
@@ -3172,7 +3222,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3200,6 +3253,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3227,7 +3283,11 @@ msgid "Followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obserwatorzy"
+=======
+msgstr "Obserwujący"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obserwujący"
 >>>>>>> upstream/18.0
@@ -3264,7 +3324,11 @@ msgid "Followers (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obserwatorzy (partnerzy)"
+=======
+msgstr "Obserwujący (partnerzy)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obserwujący (partnerzy)"
 >>>>>>> upstream/18.0
@@ -3306,7 +3370,11 @@ msgid "Future Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przyszłe czynności"
+=======
+msgstr "Przyszłe aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Przyszłe aktywności"
 >>>>>>> upstream/18.0
@@ -3473,6 +3541,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koszty dostawy pozwalają na uwzględnienie dodatkowych kosztów (wysyłka, "
+"ubezpieczenie, cła itp.) w cenie produktu."
+>>>>>>> upstream/18.0
 =======
 "Koszty dostawy pozwalają na uwzględnienie dodatkowych kosztów (wysyłka, "
 "ubezpieczenie, cła itp.) w cenie produktu."
@@ -3551,7 +3624,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ostateczny terminin moich aktywności"
+=======
+msgstr "Ostateczny termin moich aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostateczny termin moich aktywności"
 >>>>>>> upstream/18.0
@@ -3605,7 +3682,11 @@ msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Następna Czynność wydarzenia w kalendarzu"
+=======
+msgstr "Następna aktywność wydarzenia w kalendarzu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Następna aktywność wydarzenia w kalendarzu"
 >>>>>>> upstream/18.0
@@ -3688,7 +3769,11 @@ msgid "Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pobranie"
+=======
+msgstr "Kompletacja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kompletacja"
 >>>>>>> upstream/18.0
@@ -3732,8 +3817,12 @@ msgid "Please define %s on which those additional costs should apply."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Prosimy o określenie %s, które dodatkowe koszty powinny mieć zastosowanie."
+=======
+msgstr "Zdefiniuj %s, przy którym dodatkowe koszty powinny mieć zastosowanie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdefiniuj %s, przy którym dodatkowe koszty powinny mieć zastosowanie."
 >>>>>>> upstream/18.0
@@ -3807,7 +3896,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Błąd dostarczenia wiadomości SMS"
+=======
+msgstr "Błąd dostarczenia SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Błąd dostarczenia SMS"
 >>>>>>> upstream/18.0
@@ -3871,11 +3964,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Status na podstawie czynności\n"
 "Zaległe: Termin już minął\n"
 "Dzisiaj: Data czynności przypada na dzisiaj\n"
 "Zaplanowane: Przyszłe czynności."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3901,6 +3997,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3939,7 +4038,11 @@ msgid "Stock Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przesunięcie"
+=======
+msgstr "Ruch magazynowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ruch magazynowy"
 >>>>>>> upstream/18.0
@@ -3982,7 +4085,11 @@ msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dzisiejsze czynności"
+=======
+msgstr "Dzisiejsze aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dzisiejsze aktywności"
 >>>>>>> upstream/18.0
@@ -4025,7 +4132,11 @@ msgid "Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekazy"
+=======
+msgstr "Transfery"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfery"
 >>>>>>> upstream/18.0
@@ -4068,6 +4179,7 @@ msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
 "landed costs to reverse them"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4635,6 +4747,10 @@ msgstr ""
 "Zatwierdzonych kosztów nabycia nie można anulować, ale można utworzyć ujemne "
 "koszty nabycia, aby je odwrócić"
 >>>>>>> upstream/18.0
+=======
+"Zatwierdzonych kosztów nabycia nie można anulować, ale można utworzyć ujemne "
+"koszty nabycia, aby je odwrócić"
+>>>>>>> upstream/18.0
 
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_valuation_adjustment_lines
@@ -4696,7 +4812,11 @@ msgid "Valuation Adjustment Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie korekty wyceny"
+=======
+msgstr "Wiersze korekty wyceny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wiersze korekty wyceny"
 >>>>>>> upstream/18.0
@@ -5028,8 +5148,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the product type or disable landed cost option because the"
 " product is used in an account move line."
+=======
+"You cannot change the product type or disable landed cost option because the "
+"product is used in an account move line."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the product type or disable landed cost option because the "
 "product is used in an account move line."

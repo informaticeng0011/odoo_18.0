@@ -229,8 +229,14 @@ from odoo.addons.sms.tests.common import SMSCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
 from odoo.tests import tagged
+=======
+from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
+from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
+from odoo.tests import tagged, users
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
 from odoo.addons.test_mail_sms.tests.common import TestSMSRecipients
@@ -1880,6 +1886,10 @@ class TestSMSComposerBatch(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -2837,7 +2847,10 @@ class TestSMSComposerBatch(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3550,6 +3563,9 @@ class TestSMSComposerBatchTwilio(SMSCommon, MockSmsTwilioApi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4517,7 +4533,10 @@ class TestSMSComposerMass(SMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5230,6 +5249,9 @@ class TestSMSComposerMassTwilio(SMSCommon, MockSmsTwilioApi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

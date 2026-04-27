@@ -227,8 +227,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 # 
+=======
+# * sale_pdf_quote_builder
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_pdf_quote_builder
 #
@@ -1373,8 +1378,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2057,6 +2065,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2388,6 +2397,9 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
@@ -2669,6 +2681,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3783,6 +3796,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-24 07:53+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-24 07:53+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "sale_pdf_quote_builder/hr/>\n"
 "Language: hr\n"
@@ -3791,6 +3809,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4563,6 +4582,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,print_report_name:sale_pdf_quote_builder.action_report_saleorder_raw
@@ -4577,7 +4599,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span class=\"pe-2\">Templates:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">Predlošci:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"pe-2\">Predlošci:</span>"
 >>>>>>> upstream/18.0
@@ -4677,7 +4703,10 @@ msgid "<span>Document type:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4959,6 +4988,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5146,11 +5176,17 @@ msgstr ""
 "Polje obrasca postavljeno kao korišteno u dokumentima proizvoda ne može biti "
 "povezano s dokumentom ponude."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Polje obrasca postavljeno kao korišteno u dokumentima proizvoda ne može biti "
+"povezano s dokumentom ponude."
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #. odoo-python
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5829,16 +5865,22 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "A form field set as used in quotation documents can't be linked to a product "
 "document."
 msgstr ""
 "Polje obrasca postavljeno kao korišteno u dokumentima ponuda ne može biti "
 "povezano s dokumentom proizvoda."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__access_token
 msgid "Access Token"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6748,6 +6790,9 @@ msgstr "Pristupni token"
 =======
 msgstr "Pristupni token"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pristupni token"
+>>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__active
@@ -6769,6 +6814,7 @@ msgstr "Sve prenešene datoteke"
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_product_document__attached_on_sale
 msgid ""
 "Allows you to share the document with your customers within a sale.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7239,6 +7285,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Leave it empty if you don't want to share this document with sales "
 "customer.\n"
 "On quote: the document will be sent to and accessible by customers at any "
@@ -7363,6 +7411,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7705,8 +7756,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "npr. ova opcija može biti korisna za dijeljenje datoteka s opisom proizvoda."
 "\n"
+=======
+"npr. ova opcija može biti korisna za dijeljenje datoteka s opisom "
+"proizvoda.\n"
+>>>>>>> upstream/18.0
 =======
 "npr. ova opcija može biti korisna za dijeljenje datoteka s opisom "
 "proizvoda.\n"
@@ -8318,6 +8374,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8649,7 +8708,11 @@ msgstr "URL priloga"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__available_product_document_ids
 msgid "Available Product Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupni dokumenti proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupni dokumenti proizvoda"
 >>>>>>> upstream/18.0
@@ -8664,7 +8727,11 @@ msgstr "Kontrolni zbroj/SHA1"
 #: code:addons/sale_pdf_quote_builder/static/src/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card.js:0
 msgid "Click to write content for the PDF quote..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknite za pisanje sadržaja PDF ponude..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknite za pisanje sadržaja PDF ponude..."
 >>>>>>> upstream/18.0
@@ -8905,7 +8972,11 @@ msgid "Configure dynamic fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfiguriraj dinamička polja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguriraj dinamička polja"
 >>>>>>> upstream/18.0
@@ -9592,7 +9663,11 @@ msgstr "Konfiguriraj dinamička polja"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 msgid "Configure the path to fill the form fields."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfiguriraj putanju za popunjavanje polja obrasca."
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguriraj putanju za popunjavanje polja obrasca."
 >>>>>>> upstream/18.0
@@ -9618,7 +9693,11 @@ msgstr "Kreirano"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "Customizable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagodljivo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagodljivo"
 >>>>>>> upstream/18.0
@@ -9627,7 +9706,11 @@ msgstr "Prilagodljivo"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__customizable_pdf_form_fields
 msgid "Customizable PDF Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagodljiva polja PDF obrasca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagodljiva polja PDF obrasca"
 >>>>>>> upstream/18.0
@@ -9867,7 +9950,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Briši"
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
@@ -10797,7 +10884,11 @@ msgid "Document type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip dokumenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip dokumenta"
 >>>>>>> upstream/18.0
@@ -11521,7 +11612,11 @@ msgstr "Podnožje"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "Form Field Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv polja obrasca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv polja obrasca"
 >>>>>>> upstream/18.0
@@ -11532,7 +11627,11 @@ msgstr "Naziv polja obrasca"
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polja obrasca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polja obrasca"
 >>>>>>> upstream/18.0
@@ -11768,7 +11867,11 @@ msgid "Form Fields Included"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uključena polja obrasca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uključena polja obrasca"
 >>>>>>> upstream/18.0
@@ -12546,7 +12649,11 @@ msgid "Form field name must be unique for a given document type."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv polja obrasca mora biti jedinstven za danu vrstu dokumenta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv polja obrasca mora biti jedinstven za danu vrstu dokumenta."
 >>>>>>> upstream/18.0
@@ -12828,7 +12935,11 @@ msgstr "Naziv polja obrasca mora biti jedinstven za danu vrstu dokumenta."
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_pdf_form_field
 msgid "Form fields of inside quotation documents."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polja obrasca unutarnjih dokumenata ponude."
+>>>>>>> upstream/18.0
 =======
 msgstr "Polja obrasca unutarnjih dokumenata ponude."
 >>>>>>> upstream/18.0
@@ -13075,7 +13186,11 @@ msgid "Header/Footer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaglavlje/Podnožje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaglavlje/Podnožje"
 >>>>>>> upstream/18.0
@@ -13988,7 +14103,11 @@ msgid "Headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaglavlja i podnožja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaglavlja i podnožja"
 >>>>>>> upstream/18.0
@@ -14904,7 +15023,11 @@ msgid "Headers/Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaglavlja/Podnožja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaglavlja/Podnožja"
 >>>>>>> upstream/18.0
@@ -15605,6 +15728,11 @@ msgid ""
 "removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako nije označeno, omogućit će vam skrivanje zaglavlja ili podnožja bez "
+"njegova uklanjanja."
+>>>>>>> upstream/18.0
 =======
 "Ako nije označeno, omogućit će vam skrivanje zaglavlja ili podnožja bez "
 "njegova uklanjanja."
@@ -15634,7 +15762,11 @@ msgstr "Indeksirani sadržaj"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__product_document__attached_on_sale__inside
 msgid "Inside quote pdf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unutar PDF-a ponude"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unutar PDF-a ponude"
 >>>>>>> upstream/18.0
@@ -15647,6 +15779,11 @@ msgid ""
 "footer can not start with \"sol_id_\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Neispravan naziv polja obrasca %(field_name)s. Naziv polja obrasca u "
+"zaglavlju ili podnožju ne može započinjati sa \"sol_id_\"."
+>>>>>>> upstream/18.0
 =======
 "Neispravan naziv polja obrasca %(field_name)s. Naziv polja obrasca u "
 "zaglavlju ili podnožju ne može započinjati sa \"sol_id_\"."
@@ -15660,6 +15797,11 @@ msgid ""
 "alphanumerics, hyphens or underscores."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Neispravan naziv polja obrasca %(field_name)s. Smije sadržavati samo "
+"alfanumeričke znakove, crtice ili donje crte."
+>>>>>>> upstream/18.0
 =======
 "Neispravan naziv polja obrasca %(field_name)s. Smije sadržavati samo "
 "alfanumeričke znakove, crtice ili donje crte."
@@ -15673,6 +15815,11 @@ msgid ""
 "underscores or points."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Neispravna putanja %(path)s. Smije sadržavati samo alfanumeričke znakove, "
+"crtice, donje crte ili točke."
+>>>>>>> upstream/18.0
 =======
 "Neispravna putanja %(path)s. Smije sadržavati samo alfanumeričke znakove, "
 "crtice, donje crte ili točke."
@@ -15682,7 +15829,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__is_pdf_quote_builder_available
 msgid "Is Pdf Quote Builder Available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je PDF alat za izradu ponuda dostupan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je PDF alat za izradu ponuda dostupan"
 >>>>>>> upstream/18.0
@@ -15700,6 +15851,11 @@ msgid ""
 "either encrypted, or encoded in a format we do not support."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Izgleda da ne možemo obraditi ovaj PDF unutar ponude. Ili je šifriran ili "
+"kodiran u formatu koji ne podržavamo."
+>>>>>>> upstream/18.0
 =======
 "Izgleda da ne možemo obraditi ovaj PDF unutar ponude. Ili je šifriran ili "
 "kodiran u formatu koji ne podržavamo."
@@ -15726,7 +15882,11 @@ msgstr "Promijenjeno"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Mark fields as safe to fill in the quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označi polja kao sigurna za popunjavanje u ponudi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Označi polja kao sigurna za popunjavanje u ponudi."
 >>>>>>> upstream/18.0
@@ -15752,7 +15912,11 @@ msgstr "Ne"
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "Only PDF documents can be attached inside a quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo PDF dokumenti mogu biti priloženi unutar ponude."
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo PDF dokumenti mogu biti priloženi unutar ponude."
 >>>>>>> upstream/18.0
@@ -15762,7 +15926,11 @@ msgstr "Samo PDF dokumenti mogu biti priloženi unutar ponude."
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Only PDF documents can be used as header or footer."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo PDF dokumenti mogu se koristiti kao zaglavlje ili podnožje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo PDF dokumenti mogu se koristiti kao zaglavlje ili podnožje."
 >>>>>>> upstream/18.0
@@ -15771,7 +15939,11 @@ msgstr "Samo PDF dokumenti mogu se koristiti kao zaglavlje ili podnožje."
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__original_id
 msgid "Original (unoptimized, unresized) attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvorni (neoptimizirani, nepromijenjene veličine) prilog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvorni (neoptimizirani, nepromijenjene veličine) prilog"
 >>>>>>> upstream/18.0
@@ -16015,6 +16187,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Personalizirajte svoje ponude s upečatljivim zaglavljem i podnožjem\n"
+"                <br>\n"
+"                kako biste povećali svoju prodaju."
+>>>>>>> upstream/18.0
 =======
 "Personalizirajte svoje ponude s upečatljivim zaglavljem i podnožjem\n"
 "                <br>\n"
@@ -17157,6 +17335,10 @@ msgstr ""
 msgid "Please use only relational fields until the last value of your path."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristite samo relacijska polja do posljednje vrijednosti svoje putanje."
+>>>>>>> upstream/18.0
 =======
 "Koristite samo relacijska polja do posljednje vrijednosti svoje putanje."
 >>>>>>> upstream/18.0
@@ -17178,7 +17360,11 @@ msgstr "Dokument proizvoda"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__product_document_ids
 msgid "Product Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenti proizvoda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dokumenti proizvoda"
 >>>>>>> upstream/18.0
@@ -17186,6 +17372,7 @@ msgstr "Dokumenti proizvoda"
 #. module: sale_pdf_quote_builder
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17871,6 +18058,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Provide header pages and footer pages to compose an attractive quotation "
 "with more information\n"
 "                        about your company, your products and you services. "
@@ -17994,6 +18183,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18453,6 +18645,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18916,7 +19111,11 @@ msgstr "Ponuda / Nalog"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Quotation Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokument ponude"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dokument ponude"
 >>>>>>> upstream/18.0
@@ -18925,7 +19124,11 @@ msgstr "Dokument ponude"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__quotation_document_ids
 msgid "Quotation Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dokumenti ponude"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dokumenti ponude"
 >>>>>>> upstream/18.0
@@ -19171,7 +19374,11 @@ msgid "Quotation's Headers & Footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaglavlja i podnožja ponuda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaglavlja i podnožja ponuda"
 >>>>>>> upstream/18.0
@@ -20085,7 +20292,11 @@ msgid "Quote Builder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alat za kreiranje ponuda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alat za kreiranje ponuda"
 >>>>>>> upstream/18.0
@@ -20998,7 +21209,11 @@ msgid "Related attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani prilog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezani prilog"
 >>>>>>> upstream/18.0
@@ -21716,6 +21931,11 @@ msgstr "Prodaja : Vidljivo na"
 msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alat za izradu PDF ponuda: dodijeli polja obrasca dokumentima nakon "
+"nadogradnje"
+>>>>>>> upstream/18.0
 =======
 "Alat za izradu PDF ponuda: dodijeli polja obrasca dokumentima nakon "
 "nadogradnje"
@@ -21746,7 +21966,11 @@ msgstr "Pohranjeni naziv datoteke"
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polje %(field_name)s ne postoji na modelu %(model_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polje %(field_name)s ne postoji na modelu %(model_name)s"
 >>>>>>> upstream/18.0
@@ -21755,7 +21979,11 @@ msgstr "Polje %(field_name)s ne postoji na modelu %(model_name)s"
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "The form field name as written in the PDF."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv polja obrasca kako je napisan u PDF-u."
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv polja obrasca kako je napisan u PDF-u."
 >>>>>>> upstream/18.0
@@ -21767,6 +21995,11 @@ msgid ""
 "Leave empty to be able to customized it in the quotation form."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Putanja koju treba slijediti za dinamičko popunjavanje polja obrasca. \n"
+"Ostavite prazno kako biste je mogli prilagoditi u obrascu ponude."
+>>>>>>> upstream/18.0
 =======
 "Putanja koju treba slijediti za dinamičko popunjavanje polja obrasca. \n"
 "Ostavite prazno kako biste je mogli prilagoditi u obrascu ponude."
@@ -21779,6 +22012,10 @@ msgid ""
 "quote."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dokumenti proizvoda za ovu stavku naloga koji će biti spojeni u PDF ponude."
+>>>>>>> upstream/18.0
 =======
 "Dokumenti proizvoda za ovu stavku naloga koji će biti spojeni u PDF ponude."
 >>>>>>> upstream/18.0
@@ -21792,7 +22029,11 @@ msgstr "Predložak teme"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "This document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj dokument"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj dokument"
 >>>>>>> upstream/18.0
@@ -22032,7 +22273,11 @@ msgid "Upload quotation headers and footers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učitaj zaglavlja i podnožja ponude"
+>>>>>>> upstream/18.0
 =======
 msgstr "Učitaj zaglavlja i podnožja ponude"
 >>>>>>> upstream/18.0
@@ -22724,7 +22969,11 @@ msgstr "Url"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Visible to all"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidljivo svima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vidljivo svima"
 >>>>>>> upstream/18.0
@@ -22733,7 +22982,11 @@ msgstr "Vidljivo svima"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__voice_ids
 msgid "Voice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Glas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Glas"
 >>>>>>> upstream/18.0
@@ -22748,7 +23001,11 @@ msgstr "Web stranica"
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "When attached inside a quote, the document must be a file, not a URL."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kada je priloženo unutar ponude, dokument mora biti datoteka, ne URL."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kada je priloženo unutar ponude, dokument mora biti datoteka, ne URL."
 >>>>>>> upstream/18.0
