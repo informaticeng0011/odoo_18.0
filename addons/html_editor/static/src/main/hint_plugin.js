@@ -153,9 +153,15 @@ import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isEmptyBlock, isProtected } from "@html_editor/utils/dom_info";
 import { removeClass } from "@html_editor/utils/dom";
 import { childNodes, selectElements } from "@html_editor/utils/dom_traversal";
+=======
+import { isEditorTab, isEmptyBlock, isProtected } from "@html_editor/utils/dom_info";
+import { removeClass } from "@html_editor/utils/dom";
+import { childNodes, descendants, selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 =======
 import { isEditorTab, isEmptyBlock, isProtected } from "@html_editor/utils/dom_info";
 import { removeClass } from "@html_editor/utils/dom";
@@ -1149,8 +1155,11 @@ export class HintPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (el && el.matches(hint.selector) && !isProtected(el) && isEmptyBlock(el)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1617,6 +1626,9 @@ export class HintPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2084,8 +2096,11 @@ export class HintPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (target && !target.classList.contains("o-we-hint")) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2550,6 +2565,9 @@ export class HintPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

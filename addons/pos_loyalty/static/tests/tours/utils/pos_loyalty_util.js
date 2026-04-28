@@ -183,7 +183,11 @@ export function isRewardButtonHighlighted(isHighlighted, closeModal = true) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 : '.control-buttons button:contains("Reward"):not(:has(.highlight))',
+=======
+                : '.control-buttons button.disabled:contains("Reward")',
+>>>>>>> upstream/18.0
 =======
                 : '.control-buttons button.disabled:contains("Reward")',
 >>>>>>> upstream/18.0
@@ -639,7 +643,11 @@ export function eWalletButtonState({ highlighted, text = "eWallet", click = fals
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             : `.control-buttons button:contains("${text}"):not(:has(.highlight))`,
+=======
+            : `.control-buttons button.disabled:contains("${text}")`,
+>>>>>>> upstream/18.0
 =======
             : `.control-buttons button.disabled:contains("${text}")`,
 >>>>>>> upstream/18.0
@@ -1265,7 +1273,10 @@ export function customerIs(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2094,6 +2105,9 @@ export function isPointsDisplayed(isDisplayed) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2852,7 +2866,10 @@ export function pointsAwardedAre(points_str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3467,6 +3484,9 @@ export function pointsTotalIs(points_str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4152,7 +4172,10 @@ export function createManualGiftCard(code, amount, date = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4844,6 +4867,9 @@ export function clickGiftCardProgram(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

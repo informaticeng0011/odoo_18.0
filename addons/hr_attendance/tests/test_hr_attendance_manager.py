@@ -68,12 +68,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # addons/hr_attendance/tests/test_hr_attendance_manager.py
 
 from odoo.tests.common import TransactionCase, tagged
 from odoo.tests import new_test_user
 from odoo.exceptions import AccessError
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -286,6 +289,9 @@ from odoo.tests.common import TransactionCase, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -503,8 +509,11 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Create a test user
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -716,6 +725,9 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -933,6 +945,7 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.abigail = cls.env['hr.employee'].create({
             'name': 'Abigail Employee',
         })
@@ -943,6 +956,8 @@ class TestAttendanceManager(TransactionCase):
         self.attendance = self.env['hr.attendance'].create({
             'employee_id': self.marc_employee.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1164,6 +1179,9 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1377,7 +1395,11 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_cannot_change_employee_without_manager_rights(self):
+=======
+    def test_attendance_officer_rights(self):
+>>>>>>> upstream/18.0
 =======
     def test_attendance_officer_rights(self):
 >>>>>>> upstream/18.0
@@ -1662,6 +1684,7 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertRaises(AccessError):
             attendance_as_marc.write({'employee_id': self.abigail.id})
 
@@ -1679,6 +1702,8 @@ class TestAttendanceManager(TransactionCase):
         # Verify the employee_id has actually changed
         self.assertEqual(attendance_as_marc.employee_id, self.abigail)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1906,6 +1931,9 @@ class TestAttendanceManager(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

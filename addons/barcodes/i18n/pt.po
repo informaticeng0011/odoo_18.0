@@ -156,6 +156,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1006,10 +1007,15 @@
 # * barcodes
 #
 >>>>>>> upstream/18.0
+=======
+# * barcodes
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
 # NumerSpiral HBG, 2025
 # Wil Odoo, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1945,10 +1951,15 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2836,6 +2847,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-01-27 23:14+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
@@ -2926,6 +2939,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3101,6 +3117,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4205,6 +4222,11 @@ msgstr ""
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -4367,6 +4389,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 " '*' não é um padrão de código de barras Regex válido. Você quis dizer '.*'?"
 >>>>>>> upstream/18.0
@@ -4576,6 +4599,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 " '*' não é um padrão de código de barras Regex válido. Você quis dizer '.*'?"
+>>>>>>> upstream/18.0
+=======
+" '*' não é um Padrão Regex de Código de Barras válido. Quis dizer '.*' ?"
 >>>>>>> upstream/18.0
 =======
 " '*' não é um Padrão Regex de Código de Barras válido. Quis dizer '.*' ?"
@@ -5051,6 +5077,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -5060,6 +5087,8 @@ msgstr ""
 "Quando um código de barras é digitalizado, é associado à <i>primeira</i> regra com um padrão de\n"
 "combinação.O padrão de sintaxe é o da expressão regular, e um código de barras é combinado\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5708,6 +5737,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6348,8 +6380,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A barcode nomenclature defines how the point of sale identify and interprets"
 " barcodes"
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 =======
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
@@ -7434,8 +7471,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Uma identificação interna para a regra de nomenclatura deste código de "
 "barras"
+=======
+"Uma identificação interna para a regra de nomenclatura deste código de barras"
+>>>>>>> upstream/18.0
 =======
 "Uma identificação interna para a regra de nomenclatura deste código de barras"
 >>>>>>> upstream/18.0
@@ -8248,6 +8289,7 @@ msgid "Barcode Event Mixin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Mixin de evento de código de barras"
@@ -8458,6 +8500,9 @@ msgstr "Mixin de evento de código de barras"
 >>>>>>> upstream/18.0
 =======
 msgstr "Mixin de evento de código de barras"
+>>>>>>> upstream/18.0
+=======
+msgstr "Mixin de Eventos de Código de Barras"
 >>>>>>> upstream/18.0
 =======
 msgstr "Mixin de Eventos de Código de Barras"
@@ -8838,7 +8883,11 @@ msgid "Barcode: %(barcode)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cód. Barras: %(barcode)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cód. Barras: %(barcode)s"
 >>>>>>> upstream/18.0
@@ -9230,7 +9279,11 @@ msgid "HTTP Routing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Roteamento HTTP"
+=======
+msgstr "Rotas HTTP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rotas HTTP"
 >>>>>>> upstream/18.0
@@ -9494,6 +9547,7 @@ msgstr "Rotas HTTP"
 #: model:ir.model.fields,field_description:barcodes.field_barcode_nomenclature__id
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__id
 msgid "ID"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10390,12 +10444,18 @@ msgstr "ID"
 
 #. module: barcodes
 >>>>>>> upstream/18.0
+=======
+msgstr "ID"
+
+#. module: barcodes
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/barcodes/models/barcode_events_mixin.py:0
 msgid ""
 "In order to use barcodes.barcode_events_mixin, method on_barcode_scanned "
 "must be implemented"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10861,6 +10921,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11120,6 +11182,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11315,6 +11380,7 @@ msgstr "Nomenclatura"
 #. module: barcodes
 #: model_terms:ir.ui.view,arch_db:barcodes.view_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11955,6 +12021,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Patterns can also define how numerical values, such as weight or price, can "
 "be\n"
 "                                encoded into the barcode. They are indicated "
@@ -11965,6 +12033,7 @@ msgid ""
 "<code>{NNNDD}</code>. In these cases,\n"
 "                                the barcode field on the associated records "
 "<i>must</i> show these digits as\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12820,6 +12889,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                zeroes."
 msgstr ""
 "Os padrões também podem definir como valores numéricos, tais como o peso ou "
@@ -12918,6 +12989,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13250,6 +13324,7 @@ msgid "Please, Scan again!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Escaneie novamente."
@@ -13460,6 +13535,9 @@ msgstr "Escaneie novamente."
 >>>>>>> upstream/18.0
 =======
 msgstr "Escaneie novamente."
+>>>>>>> upstream/18.0
+=======
+msgstr "Por favor, digitalize novamente!"
 >>>>>>> upstream/18.0
 =======
 msgstr "Por favor, digitalize novamente!"
@@ -13843,6 +13921,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O padrão de cód. de barras %(pattern)s não corresponde a uma expressão "
+"regular válida."
+>>>>>>> upstream/18.0
 =======
 "O padrão de cód. de barras %(pattern)s não corresponde a uma expressão "
 "regular válida."
@@ -14361,6 +14444,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Há um erro de sintaxe no padrão de código de barras %(pattern)s: uma regra "
 "só pode conter um par de chaves."
@@ -14640,6 +14724,10 @@ msgstr ""
 =======
 "Há um erro de sintaxe no padrão de código de barras %(pattern)s: uma regra "
 "só pode conter um par de chaves."
+>>>>>>> upstream/18.0
+=======
+"Há um erro de sintaxe no padrão do código de barras %(pattern)s: uma regra "
+"só pode conter um par de colchetes."
 >>>>>>> upstream/18.0
 =======
 "Há um erro de sintaxe no padrão do código de barras %(pattern)s: uma regra "
@@ -15089,7 +15177,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "vazio"
+=======
+"vazio."
+>>>>>>> upstream/18.0
 =======
 "vazio."
 >>>>>>> upstream/18.0
@@ -15579,8 +15671,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+>>>>>>> upstream/18.0
 =======
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
@@ -16675,12 +16772,15 @@ msgstr "Comando de Código de Barras Desconhecido"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
 msgstr ""
 "Utilizado para ordenar as regras de forma que essas regras com uma sequência"
 " menor correspondam primeiro"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17318,6 +17418,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17958,7 +18061,10 @@ msgstr "Valor do último código de barras lido."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18599,6 +18705,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18849,6 +18956,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Não pode eliminar '%(name)s' porque é a nomenclatura de códigos de barras "
+"predefinida."
 >>>>>>> upstream/18.0
 =======
 "Não pode eliminar '%(name)s' porque é a nomenclatura de códigos de barras "

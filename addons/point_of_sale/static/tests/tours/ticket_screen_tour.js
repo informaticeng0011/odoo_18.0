@@ -237,6 +237,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as Utils from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import * as Utils from "@point_of_sale/../tests/tours/utils/common";
 >>>>>>> upstream/18.0
@@ -1319,7 +1323,10 @@ registry.category("web_tour.tours").add("FiscalPositionNoTaxRefund", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2005,6 +2012,9 @@ registry.category("web_tour.tours").add("FiscalPositionNoTaxRefund", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2639,7 +2649,10 @@ registry.category("web_tour.tours").add("RefundFewQuantities", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3056,6 +3069,9 @@ registry.category("web_tour.tours").add("test_order_refund_flow", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3576,7 +3592,10 @@ registry.category("web_tour.tours").add("LotTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4302,6 +4321,7 @@ registry.category("web_tour.tours").add("test_serial_number_do_not_duplicate_aft
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4608,6 +4628,8 @@ registry.category("web_tour.tours").add("test_serial_number_do_not_duplicate_aft
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4849,6 +4871,9 @@ registry.category("web_tour.tours").add("test_not_available_pricelist_not_set_on
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

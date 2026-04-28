@@ -875,7 +875,10 @@ test(`check the avatar of the attendee in the calendar filter panel`, async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1721,7 +1724,10 @@ test(`Select multiple attendees in the calendar filter panel autocomplete on des
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2594,7 +2600,10 @@ test(`add a filter with the search more dialog on desktop`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3572,7 +3581,10 @@ test(`add a filter with the search more dialog on mobile`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4809,9 +4821,14 @@ test(`create event with timezone in week mode European locale`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     await selectTimeRange("2016-12-13 08:00:00", "2016-12-13 10:00:00");
     expect(`.fc-event-main .fc-event-time`).toHaveText("8:00 - 10:00");
+=======
+    await selectTimeRange("2016-12-13 08:00:00", "2016-12-13 10:00:00");
+    expect(`.fc-event-main .fc-event-time`).toHaveText("08:00 - 10:00");
+>>>>>>> upstream/18.0
 =======
     await selectTimeRange("2016-12-13 08:00:00", "2016-12-13 10:00:00");
     expect(`.fc-event-main .fc-event-time`).toHaveText("08:00 - 10:00");
@@ -5724,7 +5741,10 @@ test(`create event with timezone in week mode European locale`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6279,6 +6299,9 @@ test(`create multi day event in week mode`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8097,7 +8120,10 @@ test(`Add filters and specific color`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "has_access (event)",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9471,7 +9497,10 @@ test(`Update event with filters on mobile`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10885,6 +10914,11 @@ test(`calendar fallback to form view id in action if necessary`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    Event._views["form,43"] = /* xml */ `<form />`;
+
+>>>>>>> upstream/18.0
 =======
     Event._views["form,43"] = /* xml */ `<form />`;
 
@@ -12286,7 +12320,10 @@ test(`initial_date given in the context`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14027,8 +14064,11 @@ test(`calendar render properties in popover`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(queryAllTexts(`${popover} .o_field_properties .o_card_property_field`)).toEqual([
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14861,6 +14901,9 @@ test(`calendar render properties in popover`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15874,7 +15917,10 @@ test("sample data are not removed when switching back from calendar view", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16711,7 +16757,11 @@ test(`Scale: scale default is fetched from localStorage`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (key === "scaleOf-viewId-123456789") {
+=======
+            if (key === "scaleOf-viewId-19") {
+>>>>>>> upstream/18.0
 =======
             if (key === "scaleOf-viewId-19") {
 >>>>>>> upstream/18.0
@@ -17789,6 +17839,10 @@ test(`Scale: scale default is fetched from localStorage`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: 19,
+>>>>>>> upstream/18.0
 =======
         viewId: 19,
 >>>>>>> upstream/18.0
@@ -18893,7 +18947,10 @@ test(`Retaining the 'all' filter value on re-rendering`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search/>`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19747,7 +19804,10 @@ test("save selected date during view switching", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20307,6 +20367,7 @@ test(`check if active fields are fetched in addition to field names in record da
 
     onRpc("event", "search_read", ({ kwargs }) => {
         expect.step("event.search_read");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21316,6 +21377,9 @@ test(`check if active fields are fetched in addition to field names in record da
 =======
         expect(kwargs.fields).toInclude("delay");
 >>>>>>> upstream/18.0
+=======
+        expect(kwargs.fields).toInclude("delay");
+>>>>>>> upstream/18.0
     });
 
     await mountView({
@@ -21376,7 +21440,11 @@ test("update time while drag and drop on month mode", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("html field on calendar shouldn't have a tooltip", async () => {
+=======
+test("html and boolean fields on calendar shouldn't have a tooltip", async () => {
+>>>>>>> upstream/18.0
 =======
 test("html and boolean fields on calendar shouldn't have a tooltip", async () => {
 >>>>>>> upstream/18.0
@@ -21433,6 +21501,10 @@ test("html and boolean fields on calendar shouldn't have a tooltip", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="is_all_day"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="is_all_day"/>
 >>>>>>> upstream/18.0
@@ -21473,6 +21545,7 @@ test("html and boolean fields on calendar shouldn't have a tooltip", async () =>
         `,
     });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22531,6 +22604,8 @@ test("html and boolean fields on calendar shouldn't have a tooltip", async () =>
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await clickEvent(MockServer.env["event"][0].id);
     const descriptionField = queryFirst('.o_cw_popover_field .o_field_widget[name="description"]');
     let parentLi = descriptionField.closest("li");
@@ -22548,6 +22623,9 @@ test("html and boolean fields on calendar shouldn't have a tooltip", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

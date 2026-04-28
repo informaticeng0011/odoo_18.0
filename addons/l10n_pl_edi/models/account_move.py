@@ -68,10 +68,13 @@ from xml.dom.minidom import parseString
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from stdnum.pl.nip import compact
 
 from odoo import api, fields, models
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -272,6 +275,9 @@ from odoo import Command, api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -509,7 +515,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -709,6 +718,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1003,8 +1015,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'K_17' in tag_names:
                 return "8"
+=======
+            if 'K_15' in tag_names:
+                return "5"
+>>>>>>> upstream/18.0
 =======
             if 'K_15' in tag_names:
                 return "5"
@@ -1422,7 +1439,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1595,6 +1615,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lines = [
                 {
                     'name': get_value(line_node, '{*}P_7') or '/',
@@ -1606,6 +1627,8 @@ class AccountMove(models.Model):
                 for line_node in move_line_nodes
             ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1645,6 +1668,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1793,7 +1819,11 @@ class AccountMove(models.Model):
 
         to_process = [invoice_nr for invoice_nr in invoice_numbers if invoice_nr not in already_processed]
 
+<<<<<<< HEAD
         bills_vals_list = []
+=======
+        bills_to_create = {}
+>>>>>>> upstream/18.0
 
         for invoice_nr in to_process:
             response = service.get_invoice_by_ksef_number(invoice_nr)
@@ -1802,6 +1832,7 @@ class AccountMove(models.Model):
                 break
             bill_data = self.l10n_pl_edi_get_ksef_bill_vals_from_xml(response['xml_content'])
             bill_data['l10n_pl_edi_number'] = invoice_nr
+<<<<<<< HEAD
             bills_vals_list.append(bill_data)
 
         self.create(bills_vals_list)
@@ -2002,4 +2033,25 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            bills_to_create[invoice_nr] = {
+                'vals': bill_data,
+                'xml_content': response['xml_content'],
+            }
+
+        created_moves = self.create([bill['vals'] for bill in bills_to_create.values()])
+
+        for created_move in created_moves:
+            self.env['ir.attachment'].sudo().create({
+                'description': self.env._('KSeF Fetched Invoice XML'),
+                'name': f"KSeF-{created_move.l10n_pl_edi_number.replace('/', '_')}.xml",
+                'type': 'binary',
+                'mimetype': 'application/xml',
+                'raw': bills_to_create[created_move.l10n_pl_edi_number]['xml_content'],
+                'res_id': created_move.id,
+                'res_model': created_move._name,
+            })
+
+        return blocking_error
 >>>>>>> upstream/18.0

@@ -443,7 +443,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -945,6 +948,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1333,6 +1339,22 @@
                     <h6 class="bg-secondary p-1 fw-bold">Session Control</h6>
                     <div class="oe_structure"></div>
                     <div style="break-inside: avoid;">
+<<<<<<< HEAD
+=======
+                        <t t-if="cash_rounding_total">
+                            <strong>Cash Rounding:
+                                <span t-if="currency['position']">
+                                    <span t-out='cash_rounding_total' t-options="{'widget': 'float', 'precision': currency['precision']}">0.00</span>
+                                    <span t-out='currency["symbol"]'>$</span>
+                                </span>
+                                <span t-else="">
+                                    <span t-out='currency["symbol"]'>$</span>
+                                    <span t-out='cash_rounding_total' t-options="{'widget': 'float', 'precision': currency['precision']}">0.00</span>
+                                </span>
+                            </strong>
+                            <br/>
+                        </t>
+>>>>>>> upstream/18.0
                         <strong>Total:
                             <span t-if="currency['position']">
                                 <span t-out='currency["total_paid"]' t-options="{'widget': 'float', 'precision': currency['precision']}">99.99</span><span t-out='currency["symbol"]'>$</span>

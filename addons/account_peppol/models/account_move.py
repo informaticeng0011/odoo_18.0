@@ -297,7 +297,11 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.models.company import PEPPOL_DEFAULT_COUNTRIES
+=======
+from odoo.addons.account.models.company import PEPPOL_MAILING_COUNTRIES
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.models.company import PEPPOL_MAILING_COUNTRIES
 >>>>>>> upstream/18.0
@@ -1212,7 +1216,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     peppol_message_uuid = fields.Char(string='PEPPOL message ID')
+=======
+    peppol_message_uuid = fields.Char(string='PEPPOL message ID', copy=False)
+>>>>>>> upstream/18.0
 =======
     peppol_message_uuid = fields.Char(string='PEPPOL message ID', copy=False)
 >>>>>>> upstream/18.0
@@ -1289,6 +1297,7 @@ class AccountMove(models.Model):
         selection=[
             ('ready', 'Ready to send'),
             ('to_send', 'Queued'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2554,6 +2563,9 @@ class AccountMove(models.Model):
 =======
             ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
 >>>>>>> upstream/18.0
+=======
+            ('skipped', 'Skipped'),  # TODO remove this state in master, we now put a regular error.
+>>>>>>> upstream/18.0
             ('processing', 'Pending Reception'),
             ('done', 'Done'),
             ('error', 'Error'),
@@ -2562,6 +2574,7 @@ class AccountMove(models.Model):
         string='PEPPOL status',
         copy=False,
     )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2575,6 +2588,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     peppol_is_sent = fields.Boolean(compute='_compute_peppol_is_sent')
 
     def action_cancel_peppol_documents(self):
@@ -2583,6 +2598,9 @@ class AccountMove(models.Model):
         if any(move.peppol_is_sent for move in self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2610,7 +2628,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and move.peppol_move_state not in ('processing', 'done')
+=======
+                and not move.peppol_is_sent
+>>>>>>> upstream/18.0
 =======
                 and not move.peppol_is_sent
 >>>>>>> upstream/18.0
@@ -2625,6 +2647,7 @@ class AccountMove(models.Model):
             else:
                 move.peppol_move_state = move.peppol_move_state
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3527,6 +3550,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @api.depends('peppol_move_state')
     def _compute_peppol_is_sent(self):
         for move in self:
@@ -3534,6 +3559,9 @@ class AccountMove(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3807,6 +3835,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4334,6 +4365,7 @@ class AccountMove(models.Model):
         if company_on_peppol and company_country in PEPPOL_MAILING_COUNTRIES and invoice_country in PEPPOL_MAILING_COUNTRIES:
             render_context['peppol_info'] = {
                 'peppol_country': invoice_country,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5313,12 +5345,17 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 'is_peppol_sent': invoice.peppol_is_sent,
                 'partner_on_peppol': invoice.commercial_partner_id.peppol_verification_state in ('valid', 'not_valid_format'),
             }
         return render_context
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

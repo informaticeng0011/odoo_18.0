@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_adyen
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -356,6 +357,9 @@
 =======
 # * payment_adyen
 >>>>>>> upstream/18.0
+=======
+# * payment_adyen
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Tony Ng, 2024
@@ -474,6 +478,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -682,6 +687,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
@@ -714,6 +722,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1067,6 +1076,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-04-17 11:31+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -1080,6 +1091,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1214,6 +1228,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1424,6 +1439,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16.2\n"
@@ -1464,6 +1483,7 @@ msgstr ""
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1807,6 +1827,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning:</strong> To capture the amount manually, you also need to "
 "set\n"
 "                    the Capture Delay to manual on your Adyen account "
@@ -1924,6 +1946,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2159,6 +2184,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2731,6 +2757,10 @@ msgid ""
 "A request was sent to void the transaction with reference %(reference)s (%"
 "(provider)s)."
 >>>>>>> upstream/18.0
+=======
+"A request was sent to void the transaction with reference %(reference)s (%"
+"(provider)s)."
+>>>>>>> upstream/18.0
 msgstr "已發送交易作廢請求，參考：%(reference)s（%(provider)s）。"
 
 #. module: payment_adyen
@@ -2784,7 +2814,11 @@ msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "無法建立與 API 的連線。"
+=======
+msgstr "未能建立與 API 的連線。"
+>>>>>>> upstream/18.0
 =======
 msgstr "未能建立與 API 的連線。"
 >>>>>>> upstream/18.0
@@ -2852,7 +2886,11 @@ msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "沒有找到匹配參考 %s 的交易。"
+=======
+msgstr "找不到符合以下參考編號的交易：%s。"
+>>>>>>> upstream/18.0
 =======
 msgstr "找不到符合以下參考編號的交易：%s。"
 >>>>>>> upstream/18.0
@@ -3072,7 +3110,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adyen 處理交易 %s 的金額，與所請求金額不同。已建立金額正確的另一項交易。"
+=======
+msgstr ""
+"Adyen 處理交易 %s 的金額，與所請求金額不同。已建立金額正確的另一項交易。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Adyen 處理交易 %s 的金額，與所請求金額不同。已建立金額正確的另一項交易。"
@@ -3668,8 +3711,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The capture request of %(amount)s for the transaction with reference %(ref)s"
 " has been requested (%(provider_name)s)."
+=======
+"The capture request of %(amount)s for the transaction with reference %(ref)s "
+"has been requested (%(provider_name)s)."
+>>>>>>> upstream/18.0
 =======
 "The capture request of %(amount)s for the transaction with reference %(ref)s "
 "has been requested (%(provider_name)s)."

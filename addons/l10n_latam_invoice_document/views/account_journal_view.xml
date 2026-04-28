@@ -255,6 +255,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="country_code" invisible="1"/>
                 <field name="l10n_latam_company_use_documents" invisible="1"/>
 =======
@@ -332,6 +333,10 @@
 =======
                 <field name="country_code" invisible="1"/> <!-- TODO: to be removed in master -->
                 <field name="l10n_latam_company_use_documents" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                <field name="country_code" invisible="1"/>
+                <field name="l10n_latam_company_use_documents" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                 <field name="country_code" invisible="1"/>
@@ -1253,6 +1258,12 @@
             <field name="type" position="after">
                 <field name="l10n_latam_use_documents" invisible="not l10n_latam_company_use_documents or type not in ['purchase', 'sale']"/>
             </field>
+<<<<<<< HEAD
+=======
+            <field name="restrict_mode_hash_table" position="attributes">
+                <attribute name="invisible" separator=" or " add="(l10n_latam_use_documents and type == 'purchase')"/>
+            </field>
+>>>>>>> upstream/18.0
         </field>
     </record>
 

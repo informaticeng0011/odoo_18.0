@@ -171,6 +171,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # DEPRECATED - to be removed in master
+>>>>>>> upstream/18.0
 =======
         # DEPRECATED - to be removed in master
 >>>>>>> upstream/18.0
@@ -790,8 +794,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.partner_id.company_type == 'person'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1287,6 +1294,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1856,7 +1866,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     qr_code_str = move._l10n_sa_get_qr_code(move.journal_id, xml_content, x509_cert_sudo,
+=======
+                    qr_code_str = move._l10n_sa_get_qr_code(move.company_id, xml_content, x509_cert_sudo,
+>>>>>>> upstream/18.0
 =======
                     qr_code_str = move._l10n_sa_get_qr_code(move.company_id, xml_content, x509_cert_sudo,
 >>>>>>> upstream/18.0
@@ -2800,7 +2814,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_sa_get_qr_code(self, journal_id, unsigned_xml, certificate, signature, is_b2c=False):
+=======
+    def _l10n_sa_get_qr_code(self, company_id, unsigned_xml, certificate, signature, is_b2c=False):
+>>>>>>> upstream/18.0
 =======
     def _l10n_sa_get_qr_code(self, company_id, unsigned_xml, certificate, signature, is_b2c=False):
 >>>>>>> upstream/18.0
@@ -3734,6 +3752,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if invoice_datetime and journal_id.company_id.vat and certificate and signature:
             prehash_content = etree.tostring(root)
             invoice_hash = edi_format._l10n_sa_generate_invoice_xml_hash(prehash_content, 'digest')
@@ -3743,6 +3762,8 @@ class AccountMove(models.Model):
             seller_name_enc = self._l10n_sa_get_qr_code_encoding(1, journal_id.company_id.display_name.encode())
             seller_vat_enc = self._l10n_sa_get_qr_code_encoding(2, journal_id.company_id.vat.encode())
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4433,6 +4454,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5241,7 +5265,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6194,6 +6221,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6849,6 +6879,7 @@ class AccountMove(models.Model):
             Save submitted invoice XML hash in case of either Rejection or Acceptance.
         """
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8258,6 +8289,10 @@ class AccountMove(models.Model):
         bootstrap_cls, title, subtitle, content = ("success", _("Invoice Successfully Submitted to ZATCA"), "", "" if (not error or not response_data) else response_data)
         status_code = response_data.get('status_code')
 >>>>>>> upstream/18.0
+=======
+        bootstrap_cls, title, subtitle, content = ("success", _("Invoice Successfully Submitted to ZATCA"), "", "" if (not error or not response_data) else response_data)
+        status_code = response_data.get('status_code')
+>>>>>>> upstream/18.0
         attachment = False
         if error:
             xml_filename = self.env['account.edi.xml.ubl_21.zatca']._export_invoice_filename(self)
@@ -8272,6 +8307,7 @@ class AccountMove(models.Model):
                 'mimetype': 'application/xml',
             })
             bootstrap_cls, title = ("danger", _("Invoice was rejected by ZATCA"))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10308,6 +10344,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             subtitle = _('The invoice was rejected by ZATCA. Please, check the response below:')
             content = response_data['error']
         if response_data and response_data.get('validationResults', {}).get('warningMessages'):
@@ -10587,6 +10625,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11275,7 +11316,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11967,6 +12011,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12571,7 +12618,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12907,6 +12957,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

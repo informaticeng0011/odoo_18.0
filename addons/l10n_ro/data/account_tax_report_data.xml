@@ -292,7 +292,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="name">9 - TAX BASE - Supplies of goods and services taxable at 19% rate</field>
+=======
+                        <field name="name">9 - TAX BASE - Supplies of goods and services taxable at 21% rate</field>
+>>>>>>> upstream/18.0
 =======
                         <field name="name">9 - TAX BASE - Supplies of goods and services taxable at 21% rate</field>
 >>>>>>> upstream/18.0
@@ -487,6 +491,7 @@
                                 <field name="formula">09 - TAX BASE</field>
                             </record>
                         </field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,6 +885,11 @@
                     <record id="account_tax_report_ro_baza_rd10" model="account.report.line">
                         <field name="name">10 - TAX BASE - Supplies of goods and services taxable at 11% rate</field>
 >>>>>>> upstream/18.0
+=======
+                    </record>
+                    <record id="account_tax_report_ro_baza_rd10" model="account.report.line">
+                        <field name="name">10 - TAX BASE - Supplies of goods and services taxable at 11% rate</field>
+>>>>>>> upstream/18.0
                         <field name="code">tax_ro_baza_rd10</field>
                         <field name="expression_ids">
                             <record id="account_tax_report_ro_baza_rd10_tag" model="account.report.expression">
@@ -888,6 +898,7 @@
                                 <field name="formula">10 - TAX BASE</field>
                             </record>
                         </field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1281,6 +1292,11 @@
                     <record id="account_tax_report_ro_baza_rd11" model="account.report.line">
                         <field name="name">11 - TAX BASE - Supplies of goods and services taxable at 9% rate, according to article 3 of law No. 141/2025</field>
 >>>>>>> upstream/18.0
+=======
+                    </record>
+                    <record id="account_tax_report_ro_baza_rd11" model="account.report.line">
+                        <field name="name">11 - TAX BASE - Supplies of goods and services taxable at 9% rate, according to article 3 of law No. 141/2025</field>
+>>>>>>> upstream/18.0
                         <field name="code">tax_ro_baza_rd11</field>
                         <field name="expression_ids">
                             <record id="account_tax_report_ro_baza_rd11_tag" model="account.report.expression">
@@ -1289,6 +1305,7 @@
                                 <field name="formula">11 - TAX BASE</field>
                             </record>
                         </field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1493,10 +1510,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     </record>
                     <record id="account_tax_report_ro_baza_rd12" model="account.report.line">
                         <field name="name">12 - TAX BASE - Purchases of goods and services subject to simplification measures for which the beneficiary is liable to pay VAT (reverse charge) , of which:</field>
                         <field name="code">tax_ro_baza_rd12</field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1692,6 +1712,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <field name="aggregation_formula">tax_ro_baza_rd121.balance + tax_ro_baza_rd122.balance</field>
                         <field name="children_ids">
                             <record id="account_tax_report_ro_baza_rd121" model="account.report.line">
@@ -1757,6 +1779,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1952,7 +1977,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="name">12.2 - TAX BASE - Purchases of goods and services, taxable at 9% rate</field>
+=======
+                                <field name="name">12.2 - TAX BASE - Purchases of goods, taxable at 11% rate</field>
+>>>>>>> upstream/18.0
 =======
                                 <field name="name">12.2 - TAX BASE - Purchases of goods, taxable at 11% rate</field>
 >>>>>>> upstream/18.0
@@ -2210,6 +2239,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <record id="account_tax_report_ro_baza_rd123" model="account.report.line">
                                 <field name="name">12.3 - TAX BASE - Purchases of goods and services, taxable at 5% rate</field>
                                 <field name="code">tax_ro_baza_rd123</field>
@@ -2221,6 +2251,8 @@
                                     </record>
                                 </field>
                             </record>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2483,7 +2515,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="name">9 - VAT - Supplies of goods and services taxable at 19% rate</field>
+=======
+                        <field name="name">9 - VAT - Supplies of goods and services taxable at 21% rate</field>
+>>>>>>> upstream/18.0
 =======
                         <field name="name">9 - VAT - Supplies of goods and services taxable at 21% rate</field>
 >>>>>>> upstream/18.0
@@ -2678,6 +2714,7 @@
                                 <field name="formula">09 - VAT</field>
                             </record>
                         </field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3077,6 +3114,11 @@
                     <record id="account_tax_report_ro_tva_rd10" model="account.report.line">
                         <field name="name">10 - VAT - Supplies of goods and services taxable at 11% rate</field>
 >>>>>>> upstream/18.0
+=======
+                    </record>
+                    <record id="account_tax_report_ro_tva_rd10" model="account.report.line">
+                        <field name="name">10 - VAT - Supplies of goods and services taxable at 11% rate</field>
+>>>>>>> upstream/18.0
                         <field name="code">tax_ro_tva_rd10</field>
                         <field name="expression_ids">
                             <record id="account_tax_report_ro_tva_rd10_tag" model="account.report.expression">
@@ -3085,6 +3127,7 @@
                                 <field name="formula">10 - VAT</field>
                             </record>
                         </field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3484,6 +3527,11 @@
                     <record id="account_tax_report_ro_tva_rd11" model="account.report.line">
                         <field name="name">11 - VAT - Supplies of taxable goods at 9% rate, according to article 3 of law No. 141/2025</field>
 >>>>>>> upstream/18.0
+=======
+                    </record>
+                    <record id="account_tax_report_ro_tva_rd11" model="account.report.line">
+                        <field name="name">11 - VAT - Supplies of taxable goods at 9% rate, according to article 3 of law No. 141/2025</field>
+>>>>>>> upstream/18.0
                         <field name="code">tax_ro_tva_rd11</field>
                         <field name="expression_ids">
                             <record id="account_tax_report_ro_tva_rd11_tag" model="account.report.expression">
@@ -3492,6 +3540,7 @@
                                 <field name="formula">11 - VAT</field>
                             </record>
                         </field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3702,10 +3751,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     </record>
                     <record id="account_tax_report_ro_tva_rd12" model="account.report.line">
                         <field name="name">12 - VAT - Purchases of goods and services subject to simplification measures for which the beneficiary is liable to pay VAT (reverse charge) , of which:</field>
                         <field name="code">tax_ro_tva_rd12</field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3901,6 +3953,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <field name="aggregation_formula">tax_ro_tva_rd121.balance + tax_ro_tva_rd122.balance</field>
                         <field name="children_ids">
                             <record id="account_tax_report_ro_tva_rd121" model="account.report.line">
@@ -3966,6 +4020,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4161,7 +4218,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="name">12.2 - VAT - Purchases of goods and services, taxable at 9% rate</field>
+=======
+                                <field name="name">12.2 - VAT - Purchases of goods, taxable at 11% rate</field>
+>>>>>>> upstream/18.0
 =======
                                 <field name="name">12.2 - VAT - Purchases of goods, taxable at 11% rate</field>
 >>>>>>> upstream/18.0
@@ -4419,6 +4480,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <record id="account_tax_report_ro_tva_rd123" model="account.report.line">
                                 <field name="name">12.3 - VAT - Purchases of goods and services, taxable at 5% rate</field>
                                 <field name="code">tax_ro_tva_rd123</field>
@@ -4430,6 +4492,8 @@
                                     </record>
                                 </field>
                             </record>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4820,6 +4884,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="aggregation_formula">tax_ro_baza_rd24.balance + tax_ro_baza_rd25.balance + tax_ro_baza_rd26.balance + tax_ro_baza_rd27.balance + tax_ro_baza_rd30.balance</field>
                 <field name="children_ids">
                     <record id="account_tax_report_ro_baza_rd24" model="account.report.line">
@@ -4849,6 +4914,8 @@
                                     </record>
                                 </field>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5042,6 +5109,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5169,6 +5239,7 @@
                         </field>
                     </record>
                     <record id="account_tax_report_ro_baza_rd25" model="account.report.line">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5392,6 +5463,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <field name="name">25 - TAX BASE - Purchases of goods and services taxable at 11% rate</field>
                         <field name="code">tax_ro_baza_rd25</field>
                         <field name="expression_ids">
@@ -5473,6 +5546,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5664,12 +5740,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <record id="account_tax_report_ro_baza_rd262" model="account.report.line">
                                 <field name="name">26.2 - TAX BASE - Purchases of goods taxable at 5%, non-deductible 50%</field>
                                 <field name="code">tax_ro_baza_rd262</field>
                                 <field name="expression_ids">
                                     <record id="account_tax_report_ro_baza_rd262_tag" model="account.report.expression">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5858,6 +5937,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5989,6 +6071,7 @@
                             </record>
                         </field>
                     </record>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6347,6 +6430,10 @@
                     <record id="account_tax_report_ro_baza_rd30" model="account.report.line">
                         <field name="name">29 - TAX BASE - Purchases of tax-exempt or non-taxable goods and services, of which:</field>
 >>>>>>> upstream/18.0
+=======
+                    <record id="account_tax_report_ro_baza_rd30" model="account.report.line">
+                        <field name="name">29 - TAX BASE - Purchases of tax-exempt or non-taxable goods and services, of which:</field>
+>>>>>>> upstream/18.0
                         <field name="code">tax_ro_baza_rd30</field>
                         <field name="expression_ids">
                             <record id="account_tax_report_ro_baza_rd30_tag" model="account.report.expression">
@@ -6414,7 +6501,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="formula">30 - TAX BASE</field>
+=======
+                                <field name="formula">29 - TAX BASE</field>
+>>>>>>> upstream/18.0
 =======
                                 <field name="formula">29 - TAX BASE</field>
 >>>>>>> upstream/18.0
@@ -6667,7 +6758,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <field name="name">30.1 - TAX BASE - Tax-exempt intra-Community purchases of services (not completed under the simplified method)</field>
+=======
+                                <field name="name">29.1 - TAX BASE - Tax-exempt intra-Community purchases of services (not completed under the simplified method)</field>
+>>>>>>> upstream/18.0
 =======
                                 <field name="name">29.1 - TAX BASE - Tax-exempt intra-Community purchases of services (not completed under the simplified method)</field>
 >>>>>>> upstream/18.0
@@ -6921,7 +7016,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <field name="formula">30_1 - TAX BASE</field>
+=======
+                                        <field name="formula">29_1 - TAX BASE</field>
+>>>>>>> upstream/18.0
 =======
                                         <field name="formula">29_1 - TAX BASE</field>
 >>>>>>> upstream/18.0
@@ -7180,6 +7279,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="aggregation_formula">tax_ro_tva_rd24.balance + tax_ro_tva_rd25.balance + tax_ro_tva_rd26.balance + tax_ro_tva_rd27.balance + tax_ro_tva_rd28.balance + tax_ro_tva_rd29.balance</field>
                 <field name="children_ids">
                     <record id="account_tax_report_ro_tva_rd24" model="account.report.line">
@@ -7209,6 +7309,8 @@
                                     </record>
                                 </field>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7402,6 +7504,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7591,7 +7696,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="name">25 - VAT - Purchases of goods and services taxable at 9% rate</field>
+=======
+                        <field name="name">25 - VAT - Purchases of goods and services taxable at 11%</field>
+>>>>>>> upstream/18.0
 =======
                         <field name="name">25 - VAT - Purchases of goods and services taxable at 11%</field>
 >>>>>>> upstream/18.0
@@ -7848,6 +7957,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="children_ids">
                             <record id="account_tax_report_ro_tva_rd251" model="account.report.line">
                                 <field name="name">25.1 - VAT - Purchases of goods and services taxable at 9% rate</field>
@@ -7884,6 +7994,8 @@
                                 <field name="expression_ids">
                                     <record id="account_tax_report_ro_tva_rd261_tag" model="account.report.expression">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8078,6 +8190,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8269,12 +8384,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <record id="account_tax_report_ro_tva_rd262" model="account.report.line">
                                 <field name="name">26.2 - VAT - Purchases of goods taxable at 5%, non-deductible 50%</field>
                                 <field name="code">tax_ro_tva_rd262</field>
                                 <field name="expression_ids">
                                     <record id="account_tax_report_ro_tva_rd262_tag" model="account.report.expression">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8463,6 +8581,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8656,12 +8777,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <record id="account_tax_report_ro_tva_rd27" model="account.report.line">
                         <field name="name">27 - VAT - Purchases of goods and services subject to simplification measures for which the beneficiary is liable to pay VAT (reverse charge), of which (row 25=row 12)</field>
                         <field name="code">tax_ro_tva_rd27</field>
                         <field name="expression_ids">
                             <record id="account_tax_report_ro_tva_rd27_tag" model="account.report.expression">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8850,6 +8974,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8978,6 +9105,7 @@
                                 <field name="formula">27 - VAT</field>
                             </record>
                         </field>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9204,6 +9332,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     </record>
                     <record id="account_tax_report_ro_tva_rd29" model="account.report.line">
                         <field name="name">28 - VAT - Flat-rate compensation adjustments</field>
@@ -9271,6 +9401,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9400,6 +9533,7 @@
                             </record>
                         </field>
                     </record>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9600,6 +9734,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 </field>
             </record>
             <record id="account_tax_report_ro_baza_total_rd31" model="account.report.line">
@@ -9665,6 +9801,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9854,7 +9993,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="name">31 - VAT - TOTAL DEDUCTIBLE TAX (amount from row 20 to row 29, except row 20.1,22.1, 27.1, 27.2, 27.3)</field>
+=======
+                <field name="name">30 - VAT - TOTAL DEDUCTIBLE TAX (amount from row 20 to row 28, except row 20.1, 22.1, 26.1, 26.2)</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="name">30 - VAT - TOTAL DEDUCTIBLE TAX (amount from row 20 to row 28, except row 20.1, 22.1, 26.1, 26.2)</field>
 >>>>>>> upstream/18.0
@@ -10107,7 +10250,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="name">32 - VAT - SUB-TOTAL TAX DEDUCTED PURSUANT TO ARTICLE 297 AND ARTICLE 298 OR ARTICLE 300 AND ARTICLE 298 (row 30&lt;=row 29)</field>
+=======
+                <field name="name">31 - VAT - SUB-TOTAL TAX DEDUCTED PURSUANT TO ARTICLE 297 AND ARTICLE 298 OR ARTICLE 300 AND ARTICLE 298</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="name">31 - VAT - SUB-TOTAL TAX DEDUCTED PURSUANT TO ARTICLE 297 AND ARTICLE 298 OR ARTICLE 300 AND ARTICLE 298</field>
 >>>>>>> upstream/18.0
@@ -10360,7 +10507,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="name">33 - VAT - VAT actually refunded to foreign purchasers, including commission to authorised establishments</field>
+=======
+                <field name="name">32 - VAT - VAT actually refunded to foreign purchasers, including commission to authorised establishments</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="name">32 - VAT - VAT actually refunded to foreign purchasers, including commission to authorised establishments</field>
 >>>>>>> upstream/18.0
@@ -10614,7 +10765,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10820,6 +10974,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10947,6 +11104,7 @@
                     </record>
                 </field>
             </record>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11148,6 +11306,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <record id="account_tax_report_ro_tva_rd35" model="account.report.line">
                 <field name="name">34 - VAT - Pro-rata adjustments / adjustments for capital goods</field>
                 <field name="code">tax_ro_tva_rd35</field>
@@ -11214,6 +11374,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11343,6 +11506,7 @@
                     </record>
                 </field>
             </record>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11666,6 +11830,10 @@
             <record id="account_tax_report_ro_tva_rd36" model="account.report.line">
                 <field name="name">35 - VAT - TOTAL TAX DEDUCTED (row 31 + row 32 + row 33 + row 34)</field>
 >>>>>>> upstream/18.0
+=======
+            <record id="account_tax_report_ro_tva_rd36" model="account.report.line">
+                <field name="name">35 - VAT - TOTAL TAX DEDUCTED (row 31 + row 32 + row 33 + row 34)</field>
+>>>>>>> upstream/18.0
                 <field name="code">tax_ro_tva_rd36</field>
                 <field name="aggregation_formula">tax_ro_tva_intracom_eu_a.balance + tax_ro_tva_achiz.balance + tax_ro_tva_rd33.balance + tax_ro_tva_rd34.balance + tax_ro_tva_rd35.balance</field>
             </record>
@@ -11732,7 +11900,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="name">40 - VAT - VAT differences to be paid established by the tax inspection authorities by means of a communicated decision and not paid by the date of submission of the VAT return</field>
+=======
+                <field name="name">39 - VAT - VAT differences to be paid established by the tax inspection authorities by means of a communicated decision and not paid by the date of submission of the VAT return</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="name">39 - VAT - VAT differences to be paid established by the tax inspection authorities by means of a communicated decision and not paid by the date of submission of the VAT return</field>
 >>>>>>> upstream/18.0
@@ -11986,7 +12158,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="formula">40 - VAT</field>
+=======
+                        <field name="formula">39 - VAT</field>
+>>>>>>> upstream/18.0
 =======
                         <field name="formula">39 - VAT</field>
 >>>>>>> upstream/18.0
@@ -12239,7 +12415,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <field name="name">43 - VAT - Negative VAT differences established by the tax inspection authorities by decision communicated by the date of submission of the VAT return</field>
+=======
+                <field name="name">42 - VAT - Negative VAT differences established by the tax inspection authorities by decision communicated by the date of submission of the VAT return</field>
+>>>>>>> upstream/18.0
 =======
                 <field name="name">42 - VAT - Negative VAT differences established by the tax inspection authorities by decision communicated by the date of submission of the VAT return</field>
 >>>>>>> upstream/18.0
@@ -12493,7 +12673,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <field name="formula">43 - VAT</field>
+=======
+                        <field name="formula">42 - VAT</field>
+>>>>>>> upstream/18.0
 =======
                         <field name="formula">42 - VAT</field>
 >>>>>>> upstream/18.0

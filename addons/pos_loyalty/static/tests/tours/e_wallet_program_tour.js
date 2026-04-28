@@ -7,6 +7,7 @@ import * as TicketScreen from "@point_of_sale/../tests/tours/utils/ticket_screen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import * as PartnerList from "@point_of_sale/../tests/tours/utils/partner_list_util";
@@ -568,6 +569,8 @@ import * as PartnerList from "@point_of_sale/../tests/tours/utils/partner_list_u
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -588,6 +591,9 @@ import * as PartnerList from "@point_of_sale/../tests/tours/utils/partner_list_u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -794,6 +800,9 @@ import { delay } from "@web/core/utils/concurrency";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1392,7 +1401,10 @@ registry.category("web_tour.tours").add("EWalletProgramTour1", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2007,6 +2019,9 @@ registry.category("web_tour.tours").add("EWalletProgramTour1", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2538,7 +2553,10 @@ registry.category("web_tour.tours").add("EWalletLoyaltyHistory", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2572,6 +2590,9 @@ registry.category("web_tour.tours").add("test_ewallet_tax_included_invoice", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -267,6 +267,7 @@ import { isBlock, closestBlock } from "@html_editor/utils/blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { fillEmpty } from "@html_editor/utils/dom";
 import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
 import { isVisibleTextNode } from "@html_editor/utils/dom_info";
@@ -1605,6 +1606,11 @@ import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
 import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
 import { isEmptyBlock, isRedundantElement, isVisibleTextNode } from "@html_editor/utils/dom_info";
 >>>>>>> upstream/18.0
+=======
+import { fillEmpty, unwrapContents } from "@html_editor/utils/dom";
+import { leftLeafOnlyNotBlockPath } from "@html_editor/utils/dom_state";
+import { isEmptyBlock, isRedundantElement, isVisibleTextNode } from "@html_editor/utils/dom_info";
+>>>>>>> upstream/18.0
 import {
     closestElement,
     createDOMPathGenerator,
@@ -1876,6 +1882,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    selectElements,
+>>>>>>> upstream/18.0
 =======
     selectElements,
 >>>>>>> upstream/18.0
@@ -2924,6 +2934,10 @@ import { FontSizeSelector } from "./font_size_selector";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { childNodes } from "../../utils/dom_traversal";
+>>>>>>> upstream/18.0
 =======
 import { childNodes } from "../../utils/dom_traversal";
 >>>>>>> upstream/18.0
@@ -4041,6 +4055,7 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     document: this.document,
 >>>>>>> upstream/18.0
@@ -4054,6 +4069,10 @@ export class FontPlugin extends Plugin {
                     document: this.document,
 >>>>>>> upstream/18.0
 =======
+                    document: this.document,
+>>>>>>> upstream/18.0
+=======
+                    onBlur: () => this.dependencies.selection.focusEditable(),
                     document: this.document,
 >>>>>>> upstream/18.0
 =======
@@ -5290,6 +5309,10 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        normalize_handlers: this.normalize.bind(this),
+>>>>>>> upstream/18.0
 =======
         normalize_handlers: this.normalize.bind(this),
 >>>>>>> upstream/18.0
@@ -6333,6 +6356,11 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        before_insert_processors: this.handleInsertWithinPre.bind(this),
+>>>>>>> upstream/18.0
 =======
 
         before_insert_processors: this.handleInsertWithinPre.bind(this),
@@ -7539,6 +7567,7 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8073,6 +8102,8 @@ export class FontPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     normalize(root) {
         for (const el of selectElements(
             root,
@@ -8227,6 +8258,9 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8798,6 +8832,9 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9651,8 +9688,14 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Transform an empty heading, blockquote or pre at the beginning of the
      * editable into a paragraph.
+=======
+     * Transform an empty heading or pre at the beginning of the
+     * editable into a base container. An empty blockquote is transformed
+     * into a base container, regardless of its position in the editable.
+>>>>>>> upstream/18.0
 =======
      * Transform an empty heading or pre at the beginning of the
      * editable into a base container. An empty blockquote is transformed
@@ -10581,6 +10624,7 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!rangeIsCollapsed) {
             return;
         }
@@ -10893,11 +10937,14 @@ export class FontPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const closestHandledElement = closestElement(endContainer, handledElemSelector);
         if (!rangeIsCollapsed && closestHandledElement?.tagName !== "BLOCKQUOTE") {
             return;
         }
         // Check if cursor is inside an empty heading, blockquote or pre.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11378,6 +11425,9 @@ export class FontPlugin extends Plugin {
 =======
         if (!closestHandledElement || !isEmptyBlock(closestHandledElement)) {
 >>>>>>> upstream/18.0
+=======
+        if (!closestHandledElement || !isEmptyBlock(closestHandledElement)) {
+>>>>>>> upstream/18.0
             return;
         }
         // Check if unremovable.
@@ -11666,7 +11716,10 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12392,6 +12445,9 @@ export class FontPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

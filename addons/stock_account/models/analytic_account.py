@@ -77,6 +77,10 @@ class AccountAnalyticAccount(models.Model):
         for existing_aal in lines:
             # TODO: recommend something better for this line in review, please
             accounts = sum(map(existing_aal.mapped, line_columns), self.env['account.analytic.account'])
+<<<<<<< HEAD
+=======
+            existing_aal = existing_aal.sudo()
+>>>>>>> upstream/18.0
             if accounts in distribution:
                 # Update the existing AAL for this account
                 percentage = distribution[accounts]

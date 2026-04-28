@@ -244,6 +244,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Deferred } from "@web/../lib/hoot-dom/helpers/time";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -970,6 +971,8 @@ import {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     addInteractionListener,
     getColorHex,
@@ -1202,6 +1205,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1920,6 +1926,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     HootError,
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2029,6 +2036,10 @@ import {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    getConstructor,
+    HootError,
 >>>>>>> upstream/18.0
 =======
     getConstructor,
@@ -3332,8 +3343,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     match,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4202,6 +4216,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4598,6 +4613,8 @@ import { logger } from "./logger";
 import { logger } from "./logger";
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5163,6 +5180,9 @@ import { logger } from "./logger";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5800,7 +5820,13 @@ import { Test } from "./test";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {string | string[] | ((pass: boolean, raw: typeof String["raw"]) => string | string[])} AssertionMessage
+=======
+ * @typedef {string | ((pass: boolean) => string)} AssertionMessage
+ *
+ * @typedef {string | string[] | ((pass: boolean, raw: typeof String["raw"]) => string | string[])} AssertionReportMessage
+>>>>>>> upstream/18.0
 =======
  * @typedef {string | ((pass: boolean) => string)} AssertionMessage
  *
@@ -7330,9 +7356,14 @@ import { Test } from "./test";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {T & {
  *  deferred: Deferred<boolean>;
  *  options: VerifierOptions
+=======
+ * @typedef {T & ReturnType<Promise.withResolvers> & {
+ *  options: VerifierOptions;
+>>>>>>> upstream/18.0
 =======
  * @typedef {T & ReturnType<Promise.withResolvers> & {
  *  options: VerifierOptions;
@@ -8510,6 +8541,11 @@ import { Test } from "./test";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *  onFail: AssertionReportMessage;
+ *  onPass: AssertionReportMessage;
+>>>>>>> upstream/18.0
 =======
  *  onFail: AssertionReportMessage;
  *  onPass: AssertionReportMessage;
@@ -9785,6 +9821,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Boolean,
 =======
 >>>>>>> upstream/18.0
@@ -10556,6 +10593,11 @@ const {
     Error,
     Intl: { ListFormat },
 >>>>>>> upstream/18.0
+=======
+    clearTimeout,
+    Error,
+    Intl: { ListFormat },
+>>>>>>> upstream/18.0
     Math: { abs: $abs, floor: $floor },
     Object: { assign: $assign, create: $create, entries: $entries, keys: $keys },
     parseFloat,
@@ -10815,6 +10857,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    WeakMap,
+>>>>>>> upstream/18.0
 =======
     WeakMap,
 >>>>>>> upstream/18.0
@@ -11834,7 +11880,11 @@ const $now = performance.now.bind(performance);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const detailsFromEntries = (entries) => {
+=======
+function detailsFromEntries(entries) {
+>>>>>>> upstream/18.0
 =======
 function detailsFromEntries(entries) {
 >>>>>>> upstream/18.0
@@ -12853,7 +12903,11 @@ function detailsFromEntries(entries) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -13614,6 +13668,7 @@ function detailsFromEntries(entries) {
 /**
  * @param {...unknown} args
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15127,10 +15182,16 @@ function detailsFromValues(...args) {
     return detailsFromEntries(args.map((arg) => [null, arg]));
 }
 >>>>>>> upstream/18.0
+=======
+function detailsFromValues(...args) {
+    return detailsFromEntries(args.map((arg) => [null, arg]));
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {...unknown} args
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16647,6 +16708,11 @@ function detailsFromValuesWithDiff(...args) {
     return detailsFromValues(...args).concat([Markup.diff(...args)]);
 }
 >>>>>>> upstream/18.0
+=======
+function detailsFromValuesWithDiff(...args) {
+    return detailsFromValues(...args).concat([Markup.diff(...args)]);
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Error} [error]
@@ -16903,7 +16969,11 @@ function detailsFromValuesWithDiff(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const formatError = (error) => {
+=======
+function formatError(error) {
+>>>>>>> upstream/18.0
 =======
 function formatError(error) {
 >>>>>>> upstream/18.0
@@ -17917,7 +17987,11 @@ function formatError(error) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -18680,6 +18754,7 @@ function formatError(error) {
  * @param {boolean} plural
  * @param {boolean} not
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20194,6 +20269,11 @@ function formatMessage(message, plural, not) {
     return message.replaceAll(R_PLURAL, plural ? "$2" : "$1").replaceAll(R_NOT, not ? "$2" : "$1");
 }
 >>>>>>> upstream/18.0
+=======
+function formatMessage(message, plural, not) {
+    return message.replaceAll(R_PLURAL, plural ? "$2" : "$1").replaceAll(R_NOT, not ? "$2" : "$1");
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {Iterable<unknown> | Record<unknown, unknown>} object
@@ -20450,7 +20530,11 @@ function formatMessage(message, plural, not) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getLength = (object) => {
+=======
+function getLength(object) {
+>>>>>>> upstream/18.0
 =======
 function getLength(object) {
 >>>>>>> upstream/18.0
@@ -21466,7 +21550,11 @@ function getLength(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -22479,7 +22567,11 @@ function getLength(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getStack = (depth) => {
+=======
+function getStack(depth) {
+>>>>>>> upstream/18.0
 =======
 function getStack(depth) {
 >>>>>>> upstream/18.0
@@ -23499,7 +23591,11 @@ function getStack(depth) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -24514,7 +24610,11 @@ function getStack(depth) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getStyleValues = (node, keys) => {
+=======
+function getStyleValues(node, keys) {
+>>>>>>> upstream/18.0
 =======
 function getStyleValues(node, keys) {
 >>>>>>> upstream/18.0
@@ -25531,7 +25631,11 @@ function getStyleValues(node, keys) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -26546,7 +26650,11 @@ function getStyleValues(node, keys) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const includes = (object, item) => {
+=======
+function includes(object, item) {
+>>>>>>> upstream/18.0
 =======
 function includes(object, item) {
 >>>>>>> upstream/18.0
@@ -27569,8 +27677,13 @@ function includes(object, item) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return includes($keys(object), item);
 };
+=======
+    return item in object;
+}
+>>>>>>> upstream/18.0
 =======
     return item in object;
 }
@@ -28839,7 +28952,11 @@ function includes(object, item) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const listJoin = (list, separator, lastSeparator) => {
+=======
+function listJoin(list, separator, lastSeparator) {
+>>>>>>> upstream/18.0
 =======
 function listJoin(list, separator, lastSeparator) {
 >>>>>>> upstream/18.0
@@ -29869,6 +29986,7 @@ function listJoin(list, separator, lastSeparator) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /** @type {typeof makeLabel} */
@@ -29877,6 +29995,8 @@ const makeLabelOrString = (...args) => {
     return label[1] === null ? label[0] : label;
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30597,7 +30717,11 @@ function makeLabelOrString(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (logger.allows("debug")) {
+=======
+    if (logger.canLog("debug")) {
+>>>>>>> upstream/18.0
 =======
     if (logger.canLog("debug")) {
 >>>>>>> upstream/18.0
@@ -31492,6 +31616,9 @@ function makeLabelOrString(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32252,8 +32379,14 @@ function makeLabelOrString(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const matcherModifierError = (modifier, message) =>
     new HootError(`cannot use modifier "${modifier}": ${message}`);
+=======
+function matcherModifierError(modifier, message) {
+    return new HootError(`cannot use modifier "${modifier}": ${message}`);
+}
+>>>>>>> upstream/18.0
 =======
 function matcherModifierError(modifier, message) {
     return new HootError(`cannot use modifier "${modifier}": ${message}`);
@@ -33771,7 +33904,11 @@ function matcherModifierError(modifier, message) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseInlineStyle = (style, defaultValue) => {
+=======
+function parseInlineStyle(style, defaultValue) {
+>>>>>>> upstream/18.0
 =======
 function parseInlineStyle(style, defaultValue) {
 >>>>>>> upstream/18.0
@@ -34795,11 +34932,14 @@ function parseInlineStyle(style, defaultValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /** @type {StringConstructor["raw"]} */
 const r = (template, ...substitutions) => makeLabel(String.raw(template, ...substitutions), null);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35559,6 +35699,9 @@ function r(template, ...substitutions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36318,7 +36461,13 @@ function r(template, ...substitutions) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const scopeError = (method) => new HootError(`cannot call \`${method}()\` outside of a test`);
+=======
+function scopeError(method) {
+    return new HootError(`cannot call \`${method}()\` outside of a test`);
+}
+>>>>>>> upstream/18.0
 =======
 function scopeError(method) {
     return new HootError(`cannot call \`${method}()\` outside of a test`);
@@ -37836,6 +37985,7 @@ function scopeError(method) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const valueMatches = (value, matcher) => {
 =======
 function valueMatches(value, matcher) {
@@ -37914,6 +38064,8 @@ function valueMatches(value, matcher) {
     }
     if (matcher instanceof RegExp) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38600,6 +38752,9 @@ function valueMatches(value, matcher) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39313,7 +39468,11 @@ function valueMatches(value, matcher) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -40366,7 +40525,10 @@ const R_PLURAL = /\[([\w\s]*)%([\w\s]*)\]/g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const R_WHITE_SPACE = /\s+/g;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41208,9 +41370,12 @@ const LABEL_RECEIVED = "Received:";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const MAX_STACK_LENGTH = 10;
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41970,6 +42135,9 @@ const debugLabelCache = new WeakMap();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42770,8 +42938,13 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [r`called`, ...times, r`without calling any matchers`],
                 pass: false,
+=======
+                pass: false,
+                reportMessage: [r`called`, ...times, r`without calling any matchers`],
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 reportMessage: [r`called`, ...times, r`without calling any matchers`],
@@ -44040,6 +44213,7 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [r`unverified steps`],
                 pass: false,
                 failedDetails: detailsFromEntries([["Steps:", currentResult.currentSteps]]),
@@ -44738,6 +44912,8 @@ export function makeExpect(params) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 docLabel: "expect.step",
                 pass: false,
                 failedDetails: detailsFromEntries([["Steps:", currentResult.currentSteps]]),
@@ -44929,6 +45105,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45311,6 +45490,7 @@ export function makeExpect(params) {
         if (!(assertionCount + queryCount)) {
             currentResult.registerEvent("assertion", {
                 label: "assertions",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46256,6 +46436,9 @@ export function makeExpect(params) {
 =======
                 docLabel: "expect.assertions",
 >>>>>>> upstream/18.0
+=======
+                docLabel: "expect.assertions",
+>>>>>>> upstream/18.0
                 pass: false,
                 reportMessage: [
                     r`expected at least`,
@@ -46513,6 +46696,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47023,6 +47209,7 @@ export function makeExpect(params) {
         ) {
             currentResult.registerEvent("assertion", {
                 label: "assertions",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48472,12 +48659,18 @@ export function makeExpect(params) {
                 pass: false,
                 reportMessage: [
 >>>>>>> upstream/18.0
+=======
+                docLabel: "expect.assertions",
+                pass: false,
+                reportMessage: [
+>>>>>>> upstream/18.0
                     r`expected`,
                     currentResult.expectedAssertions,
                     r`assertions, but`,
                     assertionCount,
                     r`were run`,
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49235,6 +49428,8 @@ export function makeExpect(params) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             });
         }
 
@@ -49242,6 +49437,7 @@ export function makeExpect(params) {
         if (currentResult.currentErrors.length) {
             currentResult.registerEvent("assertion", {
                 label: "errors",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50692,6 +50888,11 @@ export function makeExpect(params) {
                 pass: false,
                 reportMessage: [currentResult.currentErrors.length, r`unverified error(s)`],
 >>>>>>> upstream/18.0
+=======
+                docLabel: "expect.errors",
+                pass: false,
+                reportMessage: [currentResult.currentErrors.length, r`unverified error(s)`],
+>>>>>>> upstream/18.0
             });
         }
 
@@ -50699,6 +50900,7 @@ export function makeExpect(params) {
         if (currentResult.expectedErrors && currentResult.expectedErrors !== errorCount) {
             currentResult.registerEvent("assertion", {
                 label: "errors",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52148,6 +52350,11 @@ export function makeExpect(params) {
                 pass: false,
                 reportMessage: [
 >>>>>>> upstream/18.0
+=======
+                docLabel: "expect.errors",
+                pass: false,
+                reportMessage: [
+>>>>>>> upstream/18.0
                     r`expected`,
                     currentResult.expectedErrors,
                     r`errors, but`,
@@ -52406,7 +52613,10 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 pass: false,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53171,8 +53381,13 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     message: [r`all assertions passed: remove "todo" test modifier`],
                     pass: false,
+=======
+                    pass: false,
+                    reportMessage: [r`all assertions passed: remove "todo" test modifier`],
+>>>>>>> upstream/18.0
 =======
                     pass: false,
                     reportMessage: [r`all assertions passed: remove "todo" test modifier`],
@@ -54443,8 +54658,13 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message: [r`test was aborted, results may not be relevant`],
                 pass: false,
+=======
+                pass: false,
+                reportMessage: [r`test was aborted, results may not be relevant`],
+>>>>>>> upstream/18.0
 =======
                 pass: false,
                 reportMessage: [r`test was aborted, results may not be relevant`],
@@ -55626,6 +55846,10 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                duration: test.lastResults?.duration || 0,
+>>>>>>> upstream/18.0
 =======
                 duration: test.lastResults?.duration || 0,
 >>>>>>> upstream/18.0
@@ -56308,7 +56532,10 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56876,6 +57103,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57280,6 +57510,7 @@ export function makeExpect(params) {
         currentResultInErrorState = false;
         const listenedEvents = ["query"];
         if (!params.headless) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58289,6 +58520,9 @@ export function makeExpect(params) {
 =======
             listenedEvents.push("interaction", "server", "time");
 >>>>>>> upstream/18.0
+=======
+            listenedEvents.push("interaction", "server", "time");
+>>>>>>> upstream/18.0
         }
         removeInteractionListener = addInteractionListener(listenedEvents, onInteraction);
     }
@@ -58302,6 +58536,7 @@ export function makeExpect(params) {
             return false;
         }
         const { errors, options } = resolver;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58569,6 +58804,8 @@ export function makeExpect(params) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const { currentErrors } = currentResult;
         const pass =
             currentErrors.length === errors.length &&
@@ -58660,6 +58897,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58842,6 +59082,7 @@ export function makeExpect(params) {
         if (pass || forceCheck) {
             currentResult.consumeErrors();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59608,6 +59849,8 @@ export function makeExpect(params) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             const reportMessage = pass
                 ? errors.length
                     ? listJoin(errors, ARROW_RIGHT)
@@ -59615,6 +59858,7 @@ export function makeExpect(params) {
                 : "expected the following errors";
             const assertion = {
                 label: "verifyErrors",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59997,6 +60241,8 @@ export function makeExpect(params) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60375,6 +60621,7 @@ export function makeExpect(params) {
                 message: options?.message,
                 pass,
                 reportMessage,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61658,6 +61905,8 @@ export function makeExpect(params) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             };
             if (!pass) {
                 const fActual = currentErrors.map(formatError);
@@ -61751,6 +62000,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61949,6 +62201,7 @@ export function makeExpect(params) {
             currentResult.consumeSteps();
 
             const separator = options?.ignoreOrder ? AMPERSAND : ARROW_RIGHT;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62779,6 +63032,8 @@ export function makeExpect(params) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             const reportMessage = pass
                 ? receivedSteps.length
                     ? listJoin(receivedSteps, separator)
@@ -62974,6 +63229,10 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                docLabel: "expect.verifySteps",
+>>>>>>> upstream/18.0
 =======
                 docLabel: "expect.verifySteps",
 >>>>>>> upstream/18.0
@@ -63796,6 +64055,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64495,7 +64757,10 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65062,6 +65327,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65666,6 +65934,12 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * Registers a step for the current test, that can be consumed by `expect.verifySteps`.
+     * Unconsumed steps will fail the test.
+     *
+>>>>>>> upstream/18.0
 =======
      * Registers a step for the current test, that can be consumed by `expect.verifySteps`.
      * Unconsumed steps will fail the test.
@@ -66722,7 +66996,10 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66989,6 +67266,9 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67365,6 +67645,11 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     *  expect.step("web_read_group");
+     *  expect.step([1, 2]);
+>>>>>>> upstream/18.0
 =======
      *  expect.step("web_read_group");
      *  expect.step([1, 2]);
@@ -68386,9 +68671,15 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             errors,
             options,
             deferred: new Deferred(),
+=======
+            ...Promise.withResolvers(),
+            errors,
+            options,
+>>>>>>> upstream/18.0
 =======
             ...Promise.withResolvers(),
             errors,
@@ -69762,7 +70053,11 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return currentResult.errorResolver.deferred;
+=======
+        return currentResult.errorResolver.promise;
+>>>>>>> upstream/18.0
 =======
         return currentResult.errorResolver.promise;
 >>>>>>> upstream/18.0
@@ -70707,9 +71002,15 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             steps,
             options,
             deferred: new Deferred(),
+=======
+            ...Promise.withResolvers(),
+            steps,
+            options,
+>>>>>>> upstream/18.0
 =======
             ...Promise.withResolvers(),
             steps,
@@ -72083,7 +72384,11 @@ export function makeExpect(params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return currentResult.stepResolver.deferred;
+=======
+        return currentResult.stepResolver.promise;
+>>>>>>> upstream/18.0
 =======
         return currentResult.stepResolver.promise;
 >>>>>>> upstream/18.0
@@ -73110,7 +73415,11 @@ export class CaseResult {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.headless = Boolean(headless);
+=======
+        this.headless = !!headless;
+>>>>>>> upstream/18.0
 =======
         this.headless = !!headless;
 >>>>>>> upstream/18.0
@@ -74102,7 +74411,11 @@ export class CaseResult {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.errorResolver.deferred.resolve(true);
+=======
+            this.errorResolver.resolve(true);
+>>>>>>> upstream/18.0
 =======
             this.errorResolver.resolve(true);
 >>>>>>> upstream/18.0
@@ -75023,7 +75336,11 @@ export class CaseResult {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.stepResolver.deferred.resolve(true);
+=======
+            this.stepResolver.resolve(true);
+>>>>>>> upstream/18.0
 =======
             this.stepResolver.resolve(true);
 >>>>>>> upstream/18.0
@@ -75924,6 +76241,12 @@ export class CaseResult {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if (value && this.headless) {
+                    delete value.docLabel; // Only required in UI
+                }
+>>>>>>> upstream/18.0
 =======
                 if (value && this.headless) {
                     delete value.docLabel; // Only required in UI
@@ -77140,6 +77463,7 @@ export class CaseResult {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -77218,6 +77542,9 @@ export class CaseResult {
 =======
 >>>>>>> upstream/18.0
             if (logger.allows("debug") && CASE_EVENT_LOG_COLORS.includes(type)) {
+=======
+            if (logger.canLog("debug") && CASE_EVENT_LOG_COLORS.includes(type)) {
+>>>>>>> upstream/18.0
 =======
             if (logger.canLog("debug") && CASE_EVENT_LOG_COLORS.includes(type)) {
 >>>>>>> upstream/18.0
@@ -78124,6 +78451,9 @@ export class CaseResult {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78998,6 +79328,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => strictEqual(this._received, expected),
             message:
                 options?.message ||
@@ -79007,6 +79338,8 @@ export class Matcher {
                         : [r`expected values to be strictly equal`]),
             getFailedDetails: () => detailsFromValuesWithDiff(expected, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79765,6 +80098,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80543,6 +80879,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => $abs(expected - this._received) < margin,
             message:
                 options?.message ||
@@ -80552,6 +80889,8 @@ export class Matcher {
                         : [r`expected values to be close to the given value`]),
             getFailedDetails: () => detailsFromValuesWithDiff(expected, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81310,6 +81649,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82089,6 +82431,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => isEmpty(this._received),
             message:
                 options?.message ||
@@ -82098,6 +82441,8 @@ export class Matcher {
                         : [this._received, r`should[! not] be empty`]),
             getFailedDetails: () => detailsFromValues(this._received),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82856,6 +83201,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83630,6 +83978,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => min < this._received,
             message:
                 options?.message ||
@@ -83642,6 +83991,8 @@ export class Matcher {
                     ["Minimum:", min],
                     [null, this._received],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84403,6 +84754,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84926,6 +85280,7 @@ export class Matcher {
         return this._resolve(() => ({
             name: "toBeInstanceOf",
             acceptedType: "any",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85921,6 +86276,9 @@ export class Matcher {
 =======
             predicate: (received) => isInstanceOf(received, cls),
 >>>>>>> upstream/18.0
+=======
+            predicate: (received) => isInstanceOf(received, cls),
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [this._received, r`is[! not] an instance of`, cls],
             onFail: () => [r`expected value[! not] to be an instance of the given class`],
@@ -86179,6 +86537,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86954,6 +87315,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => this._received < max,
             message:
                 options?.message ||
@@ -86966,6 +87328,8 @@ export class Matcher {
                     ["Maximum:", max],
                     [null, this._received],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87727,6 +88091,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88502,6 +88869,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => isOfType(this._received, type),
             message:
                 options?.message ||
@@ -88514,6 +88882,8 @@ export class Matcher {
                     ["Expected type:", type],
                     ["Received value:", this._received],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89275,6 +89645,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90060,6 +90433,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => min <= this._received && this._received <= max,
             message:
                 options?.message ||
@@ -90069,6 +90443,8 @@ export class Matcher {
                         : [r`expected value[! not] to be between given range`]),
             getFailedDetails: () => detailsFromValues(`${min} - ${max}`, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90827,6 +91203,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91601,6 +91980,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => deepEqual(this._received, expected, options),
             message:
                 options?.message ||
@@ -91610,6 +91990,8 @@ export class Matcher {
                         : [r`expected values to[! not] be deeply equal`]),
             getFailedDetails: () => detailsFromValuesWithDiff(expected, this._received),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92368,6 +92750,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93151,12 +93536,18 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message:
                     options?.message ||
                     ((pass) =>
                         pass
                             ? [this._received, r`has[! not] a length of`, length]
                             : [r`expected value[! not] to have the given length`]),
+=======
+                message: options?.message,
+                onPass: () => [this._received, r`has[! not] a length of`, length],
+                onFail: () => [r`expected value[! not] to have the given length`],
+>>>>>>> upstream/18.0
 =======
                 message: options?.message,
                 onPass: () => [this._received, r`has[! not] a length of`, length],
@@ -94704,6 +95095,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => includes(this._received, item),
             message:
                 options?.message ||
@@ -94716,6 +95108,8 @@ export class Matcher {
                     ["Item:", item],
                     ["Object:", this._received],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95477,6 +95871,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96252,6 +96649,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => match(this._received, matcher),
             message:
                 options?.message ||
@@ -96264,6 +96662,8 @@ export class Matcher {
                     ["Matcher:", matcher],
                     [null, this._received],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97025,6 +97425,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97800,7 +98203,10 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98625,6 +99031,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: () => deepEqual(this._received, partialObject, { partial: true }),
             message:
                 options?.message ||
@@ -98637,6 +99044,8 @@ export class Matcher {
                     ["Partial object:", partialObject],
                     ["Object:", this._received],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99398,6 +99807,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100172,6 +100584,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100985,6 +101400,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message:
                     options?.message ||
                     ((pass) =>
@@ -101000,6 +101416,8 @@ export class Matcher {
                                   } a value that did not match the given matcher`,
                               ]),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101764,6 +102182,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102550,6 +102971,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: (checked) => Boolean(checked),
             message:
                 options?.message ||
@@ -102559,6 +102981,8 @@ export class Matcher {
                         : [r`expected`, this._received, r`[! not] to be ${prop}`]),
             getFailedDetails: (val) => detailsFromEntries([["Checked:", val]]),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103317,6 +103741,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -103837,6 +104264,7 @@ export class Matcher {
     toBeDisplayed(options) {
         this._ensureArguments(arguments);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104620,6 +105048,8 @@ export class Matcher {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return this._resolve(() => ({
             name: "toBeDisplayed",
             acceptedType: ["string", "node", "node[]"],
@@ -104881,6 +105311,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105655,6 +106088,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             predicate: (enabled) => Boolean(enabled),
             message:
                 options?.message ||
@@ -105664,6 +106098,8 @@ export class Matcher {
                         : [r`expected`, this._received, r`to be [enabled!disabled]`]),
             getFailedDetails: (val) => detailsFromEntries([["Enabled:", val]]),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -106422,6 +106858,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -107193,6 +107632,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -107201,6 +107641,8 @@ export class Matcher {
                         : [this._received, r`should[! not] be focused`]),
             getFailedDetails: (val) => detailsFromEntries([["Focused:", val]]),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107958,6 +108400,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108479,6 +108924,7 @@ export class Matcher {
     toBeVisible(options) {
         this._ensureArguments(arguments);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109262,6 +109708,8 @@ export class Matcher {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return this._resolve(() => ({
             name: "toBeVisible",
             acceptedType: ["string", "node", "node[]"],
@@ -109523,6 +109971,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -110303,6 +110754,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -110326,6 +110778,8 @@ export class Matcher {
             getFailedDetails: (val) =>
                 detailsFromValuesWithDiff(expectsValue ? value : attribute, val),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -111093,6 +111547,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111875,6 +112332,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -111892,6 +112350,8 @@ export class Matcher {
                               r`[to have all!not to have any] of the given class names`,
                           ]),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112656,6 +113116,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113440,6 +113903,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 message:
                     options?.message ||
                     (() => [
@@ -113448,6 +113912,8 @@ export class Matcher {
                         ...(anyAmount ? [r`and expected [any amount!none]`] : []),
                     ]),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -114208,6 +114674,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -115032,6 +115501,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -115054,6 +115524,8 @@ export class Matcher {
             getFailedDetails: (val) =>
                 detailsFromValuesWithDiff(expectsValue ? value : property, val),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115821,6 +116293,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116614,6 +117089,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -116622,6 +117098,8 @@ export class Matcher {
                         : [r`expected`, this._received, r`to have the given DOM rect`]),
             getFailedDetails: (val) => detailsFromValuesWithDiff(rect, val),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117379,6 +117857,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -118163,6 +118644,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -118179,6 +118661,8 @@ export class Matcher {
                           ]),
             getFailedDetails: (val) => detailsFromValuesWithDiff(styleDef, val),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118944,6 +119428,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -119724,6 +120211,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -119732,6 +120220,8 @@ export class Matcher {
                         : [r`expected`, this._received, r`[! not] to have the given text`]),
             getFailedDetails: (val) => detailsFromValuesWithDiff(text, val),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -120489,6 +120979,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121090,9 +121583,15 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {ExpectOptions} [options]
      * @example
      *  expect("input[type=email]").toHaveValue("john@doe.com");
+=======
+     * @param {ExpectOptions & { raw?: boolean }} [options]
+     * @example
+     *  expect("input[name=age]").toHaveValue(29);
+>>>>>>> upstream/18.0
 =======
      * @param {ExpectOptions & { raw?: boolean }} [options]
      * @example
@@ -121625,6 +122124,11 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @example
+     *  expect("input[name=age]").toHaveValue("29", { raw: true });
+>>>>>>> upstream/18.0
 =======
      * @example
      *  expect("input[name=age]").toHaveValue("29", { raw: true });
@@ -122081,7 +122585,11 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             mapElements: (el) => getNodeValue(el),
+=======
+            mapElements: (el) => getNodeValue(el, options?.raw),
+>>>>>>> upstream/18.0
 =======
             mapElements: (el) => getNodeValue(el, options?.raw),
 >>>>>>> upstream/18.0
@@ -122363,6 +122871,7 @@ export class Matcher {
                 }
                 return valueMatches(elValue, value);
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123125,6 +123634,8 @@ export class Matcher {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             message: options?.message,
             onPass: () => [this._received, r`[[has%have]![does%do] not have] value`, value],
             onFail: () => [r`expected`, this._received, r`[! not] to have the given value`],
@@ -123380,6 +123891,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124193,12 +124707,15 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             message: [
                                 r`expected promise to reject, instead resolved with:`,
                                 result,
                             ],
                             pass: false,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -124921,6 +125438,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125652,12 +126172,15 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             message: [
                                 r`expected promise to resolve, instead rejected with:`,
                                 reason,
                             ],
                             pass: false,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126380,6 +126903,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127130,9 +127656,12 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { name, acceptedType, mapElements, predicate, message, getFailedDetails } =
             specCallback();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -127896,6 +128425,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -128405,6 +128935,8 @@ export class Matcher {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         const types = ensureArray(acceptedType);
         if (!types.some((type) => isOfType(this._received, type))) {
@@ -128506,6 +129038,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -128939,6 +129474,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const not = this._flags & FLAGS.not;
         const passPredicate = (...args) => (not ? !predicate(...args) : predicate(...args));
         const pass = mapElements ? this._received.every(passPredicate) : passPredicate();
@@ -128950,6 +129486,8 @@ export class Matcher {
                 flags: this._flags,
                 pass,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129724,6 +130262,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -130235,6 +130776,7 @@ export class Matcher {
                         passPredicate
                     );
                 } else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -131244,6 +131786,9 @@ export class Matcher {
 =======
                     assertion.failedDetails = getFailedDetails(this._received);
 >>>>>>> upstream/18.0
+=======
+                    assertion.failedDetails = getFailedDetails(this._received);
+>>>>>>> upstream/18.0
                 }
                 assertion.stack = currentStack;
             }
@@ -131490,7 +132035,11 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!(expected instanceof RegExp)) {
+=======
+        if (!isInstanceOf(expected, RegExp)) {
+>>>>>>> upstream/18.0
 =======
         if (!isInstanceOf(expected, RegExp)) {
 >>>>>>> upstream/18.0
@@ -132437,6 +132986,7 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message:
                 options?.message ||
                 ((pass) =>
@@ -132450,6 +133000,8 @@ export class Matcher {
                               r`to match the given value`,
                           ]),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -133212,6 +133764,9 @@ export class Matcher {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -133986,6 +134541,7 @@ export class Assertion extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /** @type {string | null | undefined} */
     additionalMessage;
@@ -134243,6 +134799,8 @@ export class Assertion extends CaseEvent {
     additionalMessage;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134808,6 +135366,9 @@ export class Assertion extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135187,6 +135748,7 @@ export class Assertion extends CaseEvent {
 
     /**
      * @param {number} number
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136136,6 +136698,8 @@ export class Assertion extends CaseEvent {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
      * @param {Partial<Assertion & {
      *  docLabel?: string;
      *  message: AssertionMessage,
@@ -136328,6 +136892,9 @@ export class Assertion extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -136895,6 +137462,10 @@ export class Assertion extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.docLabel = values.docLabel;
+>>>>>>> upstream/18.0
 =======
         this.docLabel = values.docLabel;
 >>>>>>> upstream/18.0
@@ -137723,6 +138294,7 @@ export class Assertion extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let { message } = values;
         if (typeof message === "function") {
             message = message(this.pass, r);
@@ -137730,6 +138302,8 @@ export class Assertion extends CaseEvent {
 
         const parts = $isArray(message) && !isLabel(message) ? message : [makeLabel(message, null)];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138500,6 +139074,9 @@ export class Assertion extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139238,12 +139815,15 @@ export class DOMCaseEvent extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     constructor(type, [name, args, returnValue]) {
         super();
 
         this.type = CASE_EVENT_TYPES[type].value;
         this.label = name;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -139815,6 +140395,9 @@ export class DOMCaseEvent extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140404,7 +140987,10 @@ export class CaseError extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140973,6 +141559,9 @@ export class CaseError extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141542,6 +142131,10 @@ export class Step extends CaseEvent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    docLabel = "expect.step";
+>>>>>>> upstream/18.0
 =======
     docLabel = "expect.step";
 >>>>>>> upstream/18.0
