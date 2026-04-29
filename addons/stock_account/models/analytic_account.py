@@ -78,6 +78,10 @@ class AccountAnalyticAccount(models.Model):
             # TODO: recommend something better for this line in review, please
             accounts = sum(map(existing_aal.mapped, line_columns), self.env['account.analytic.account'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            existing_aal = existing_aal.sudo()
+>>>>>>> upstream/18.0
 =======
             existing_aal = existing_aal.sudo()
 >>>>>>> upstream/18.0

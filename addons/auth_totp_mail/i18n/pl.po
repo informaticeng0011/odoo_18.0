@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +361,9 @@
 =======
 # * auth_totp_mail
 >>>>>>> upstream/18.0
+=======
+# * auth_totp_mail
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -479,6 +483,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -687,6 +692,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -722,6 +730,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1078,6 +1087,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-15 09:54+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -1092,6 +1103,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1232,6 +1246,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1440,6 +1455,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.16.2\n"
@@ -1593,6 +1611,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"user.name  or ''\"/> requested you activate two-factor authentication to protect your account.<br/><br/>\n"
 "        Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
 "        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
@@ -1601,6 +1620,8 @@ msgid ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1956,6 +1977,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2194,6 +2218,7 @@ msgid ""
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2551,6 +2576,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Dzień dobry <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 "        <t t-out=\"user.name  or ''\"/> prosi Cię o aktywowanie "
 "uwierzytelniania dwuskładnikowego, aby chronić Twoje konto.<br/><br/>\n"
@@ -2567,6 +2594,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2593,6 +2623,7 @@ msgstr ""
 "            <a t-att-href=\"object.get_totp_invite_url()\" "
 "style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-"
 "decoration: none; color: #fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2947,6 +2978,9 @@ msgstr ""
 =======
 "                Aktywuj uwierzytelnianie dwuskładnikowe\n"
 >>>>>>> upstream/18.0
+=======
+"                Aktywuj uwierzytelnianie dwuskładnikowe\n"
+>>>>>>> upstream/18.0
 "            </a>\n"
 "        </p>\n"
 "    \n"
@@ -2973,7 +3007,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Do Twojego konta właśnie zostało dodane zaufane urządzenie: %(device_name)s"
+=======
+"Do Twojego konta zostało właśnie dodane zaufane urządzenie: %(device_name)s"
+>>>>>>> upstream/18.0
 =======
 "Do Twojego konta zostało właśnie dodane zaufane urządzenie: %(device_name)s"
 >>>>>>> upstream/18.0
@@ -3021,7 +3059,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Z Twojego konta właśnie zostało usunięte zaufane urządzenie: %(device_name)s"
+=======
+"Z Twojego konta właśnie zostało usunięte zaufane urządzenie: %(device_names)s"
+>>>>>>> upstream/18.0
 =======
 "Z Twojego konta właśnie zostało usunięte zaufane urządzenie: %(device_names)s"
 >>>>>>> upstream/18.0
@@ -3078,7 +3120,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zaproszenie do aktywacji uwierzytelniania dwuetapowego do Twojego konta Odoo"
+=======
+"Zaproszenie do aktywacji uwierzytelniania dwuskładnikowego do Twojego konta "
+"Odoo"
+>>>>>>> upstream/18.0
 =======
 "Zaproszenie do aktywacji uwierzytelniania dwuskładnikowego do Twojego konta "
 "Odoo"
@@ -3127,6 +3174,7 @@ msgid ""
 "Invitation to use two-factor authentication sent for the following user(s): "
 "%s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3704,6 +3752,10 @@ msgstr ""
 "Zaproszenie do użycia uwierzytelniania dwuskładnikowego wysłane do "
 "następujących użytkowników: %s"
 >>>>>>> upstream/18.0
+=======
+"Zaproszenie do użycia uwierzytelniania dwuskładnikowego wysłane do "
+"następujących użytkowników: %s"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail.view_users_form
@@ -3723,7 +3775,11 @@ msgid "Invite to use two-factor authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zaproś do użycia uwierzytelniania dwuetapowego"
+=======
+msgstr "Zaproś do użycia uwierzytelniania dwuskładnikowego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaproś do użycia uwierzytelniania dwuskładnikowego"
 >>>>>>> upstream/18.0
@@ -3773,7 +3829,11 @@ msgid "Open two-factor authentication configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Otwórz konfigurację uwierzytelniania dwuetapowego"
+=======
+msgstr "Otwórz konfigurację uwierzytelniania dwuskładnikowego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otwórz konfigurację uwierzytelniania dwuskładnikowego"
 >>>>>>> upstream/18.0
@@ -3959,8 +4019,12 @@ msgid "Two-factor authentication has been deactivated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Uwierzytelnianie dwuskładnikowe zostało zdezaktywowane na Twoim koncie"
+=======
+msgstr "Uwierzytelnianie dwuskładnikowe zostało zdezaktywowane na Twoim koncie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uwierzytelnianie dwuskładnikowe zostało zdezaktywowane na Twoim koncie"
 >>>>>>> upstream/18.0

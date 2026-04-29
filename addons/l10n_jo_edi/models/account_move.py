@@ -67,7 +67,10 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import requests
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -233,6 +236,7 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +371,10 @@ JOFOTARA_URL = "https://backend.jofotara.gov.jo/core/invoices/"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+from odoo.tools.sql import column_exists, create_column
+
 >>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import column_exists, create_column
@@ -765,6 +773,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -1948,6 +1960,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     reversed_entry_id = fields.Many2one(tracking=True)
 >>>>>>> upstream/18.0
@@ -2762,6 +2775,8 @@ class AccountMove(models.Model):
     reversed_entry_id = fields.Many2one(tracking=True)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2837,6 +2852,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3192,11 +3210,14 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _compute_l10n_jo_edi_computed_xml(self):
         for invoice in self:
             xml_content = self.env['account.edi.xml.ubl_21.jo']._export_invoice(invoice)[0]
             invoice.l10n_jo_edi_computed_xml = base64.b64encode(xml_content)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4063,6 +4084,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4926,7 +4950,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5725,6 +5752,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6516,6 +6546,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                "l10n_jo_edi_qr": False,
+>>>>>>> upstream/18.0
 =======
                 "l10n_jo_edi_qr": False,
 >>>>>>> upstream/18.0
@@ -7583,7 +7617,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.l10n_jo_edi_state == 'sent' and self.l10n_jo_edi_xml_attachment_id:
+=======
+        if self.l10n_jo_edi_state in self._l10n_jo_edi_state_sent_options() and self.l10n_jo_edi_xml_attachment_id:
+>>>>>>> upstream/18.0
 =======
         if self.l10n_jo_edi_state in self._l10n_jo_edi_state_sent_options() and self.l10n_jo_edi_xml_attachment_id:
 >>>>>>> upstream/18.0
@@ -8374,6 +8412,7 @@ class AccountMove(models.Model):
         return super()._get_name_invoice_report()
 
     def _l10n_jo_build_jofotara_headers(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10340,6 +10379,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return self.company_id._l10n_jo_build_jofotara_headers()
 
     def _send_l10n_jo_edi_request(self, params, headers):
@@ -10412,6 +10453,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10552,6 +10596,7 @@ class AccountMove(models.Model):
         headers = self._l10n_jo_build_jofotara_headers()
         xml_invoice = self.env['account.edi.xml.ubl_21.jo']._export_invoice(self)[0]
         params = {'invoice': base64.b64encode(xml_invoice).decode()}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12355,6 +12400,11 @@ class AccountMove(models.Model):
         if 'error' in dict_response and len(dict_response) == 1:
             return dict_response['error']
 >>>>>>> upstream/18.0
+=======
+        dict_response = self._send_l10n_jo_edi_request(params, headers)
+        if 'error' in dict_response and len(dict_response) == 1:
+            return dict_response['error']
+>>>>>>> upstream/18.0
         self.l10n_jo_edi_qr = str(dict_response.get('EINV_QR', ''))
         self.invoice_pdf_report_id.res_field = False
         self.env["ir.attachment"].create(
@@ -12371,6 +12421,7 @@ class AccountMove(models.Model):
         return f"{self.name.replace('/', '_')}_edi.xml"
 
     def _l10n_jo_validate_config(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13460,6 +13511,9 @@ class AccountMove(models.Model):
 =======
         return self.company_id._l10n_jo_validate_config()
 >>>>>>> upstream/18.0
+=======
+        return self.company_id._l10n_jo_validate_config()
+>>>>>>> upstream/18.0
 
     def _l10n_jo_validate_fields(self):
         def has_non_digit_vat(partner, partner_type, error_msgs):
@@ -13741,6 +13795,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13767,6 +13822,11 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            if not self.ref:
+                error_msgs.append(_('Please make sure the "Customer Reference" contains the reason for the return'))
+
 >>>>>>> upstream/18.0
 =======
             if not self.ref:
@@ -15275,6 +15335,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             error_msg += _("JoFotara portal cannot process negative quantity nor negative price on invoice lines")
 
         for line in self.invoice_line_ids.filtered(lambda line: line.display_type not in ('line_note', 'line_section')):
@@ -15287,6 +15348,8 @@ class AccountMove(models.Model):
 
         return error_msg
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16088,6 +16151,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16882,8 +16948,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.l10n_jo_edi_error = False
             self.l10n_jo_edi_state = 'sent'
+=======
+            self._mark_sent_jo_edi()
+>>>>>>> upstream/18.0
 =======
             self._mark_sent_jo_edi()
 >>>>>>> upstream/18.0

@@ -106,7 +106,11 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.partner = cls.env['res.partner'].create({'name': 'Deco Addict'})
+=======
+        cls.partner = cls.env['res.partner'].create({'name': 'Acme Corporation'})
+>>>>>>> upstream/18.0
 =======
         cls.partner = cls.env['res.partner'].create({'name': 'Acme Corporation'})
 >>>>>>> upstream/18.0
@@ -1549,7 +1553,10 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2368,6 +2375,7 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2544,6 +2552,8 @@ class TestWarehouse(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3113,6 +3123,7 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3157,6 +3168,8 @@ class TestWarehouse(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3682,6 +3695,9 @@ class TestWarehouse(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

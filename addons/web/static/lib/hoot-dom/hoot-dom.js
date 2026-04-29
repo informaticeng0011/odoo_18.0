@@ -255,6 +255,10 @@ import * as events from "./helpers/events";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as time from "./helpers/time";
+>>>>>>> upstream/18.0
 =======
 import * as time from "./helpers/time";
 >>>>>>> upstream/18.0
@@ -1336,6 +1340,10 @@ export {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queryAny,
+>>>>>>> upstream/18.0
 =======
     queryAny,
 >>>>>>> upstream/18.0
@@ -2441,8 +2449,11 @@ export {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     advanceFrame,
     advanceTime,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2954,6 +2965,7 @@ export {
     Deferred,
     delay,
     freezeTime,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4173,6 +4185,10 @@ export {
     unfreezeTime,
     microTick,
 >>>>>>> upstream/18.0
+=======
+    unfreezeTime,
+    microTick,
+>>>>>>> upstream/18.0
     setFrameRate,
     tick,
     waitUntil,
@@ -4183,6 +4199,7 @@ export {
 //-----------------------------------------------------------------------------
 
 // DOM
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4973,6 +4990,8 @@ export const observe = interactor("query", dom.observe);
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 export const waitFor = interactor("query", dom.waitFor);
 export const waitForNone = interactor("query", dom.waitForNone);
 
@@ -5291,6 +5310,7 @@ export const unload = interactor("interaction", events.unload);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 // Debug
@@ -5477,6 +5497,8 @@ export { exposeHelpers } from "./hoot_dom_utils";
 export { exposeHelpers } from "./hoot_dom_utils";
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6241,6 +6263,9 @@ export { exposeHelpers } from "./hoot_dom_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

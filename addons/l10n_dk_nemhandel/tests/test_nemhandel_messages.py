@@ -98,6 +98,10 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from urllib import parse
+>>>>>>> upstream/18.0
 =======
 from urllib import parse
 >>>>>>> upstream/18.0
@@ -510,6 +514,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -750,6 +758,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'origin_message_uuid': FAKE_UUID[0],
+>>>>>>> upstream/18.0
 =======
                 'origin_message_uuid': FAKE_UUID[0],
 >>>>>>> upstream/18.0
@@ -859,6 +871,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'origin_message_uuid': FAKE_UUID[1],
+>>>>>>> upstream/18.0
 =======
                 'origin_message_uuid': FAKE_UUID[1],
 >>>>>>> upstream/18.0
@@ -955,6 +971,7 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                         'error': False if not error else 'Test error',
                     }
                 ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1081,6 +1098,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
             }},
             '/api/nemhandel/1/send_response': {'result': {'messages': [{'message_uuid': 'rrrrrrrr-rrrr-rrrr-rrrr-rrrrrrrrrrrr'}] * nr_invoices}},
 >>>>>>> upstream/18.0
+=======
+            }},
+            '/api/nemhandel/1/send_response': {'result': {'messages': [{'message_uuid': 'rrrrrrrr-rrrr-rrrr-rrrr-rrrrrrrrrrrr'}] * nr_invoices}},
+>>>>>>> upstream/18.0
         }
         return proxy_documents, responses
 
@@ -1095,6 +1116,7 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
     def _request_handler(cls, s: Session, r: PreparedRequest, /, **kw):
         response = Response()
         response.status_code = 200
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1492,6 +1514,11 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
             nemhandel_identifier = parse.parse_qs(r.path_url.rsplit('?')[1])['peppol_identifier'][0].lower()
             url_quoted_nemhandel_identifier = parse.quote_plus(nemhandel_identifier)
 >>>>>>> upstream/18.0
+=======
+        if r.path_url.startswith('/api/peppol/1/lookup'):
+            nemhandel_identifier = parse.parse_qs(r.path_url.rsplit('?')[1])['peppol_identifier'][0].lower()
+            url_quoted_nemhandel_identifier = parse.quote_plus(nemhandel_identifier)
+>>>>>>> upstream/18.0
             if nemhandel_identifier.endswith('12345674'):
                 response.status_code = 404
                 response.json = lambda: {"error": {"code": "NOT_FOUND", "message": "no naptr record", "retryable": False}}
@@ -1525,6 +1552,7 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
                     },
                 }
                 return response
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1761,6 +1789,8 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1851,6 +1881,9 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1930,6 +1963,12 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        elif url == '/api/nemhandel/1/send_response':
+            num_responses = len(body['params']['reference_uuids'])
+            proxy_documents, responses = cls._get_mock_data(cls.env.context.get('error'), nr_invoices=num_responses)
+>>>>>>> upstream/18.0
 =======
         elif url == '/api/nemhandel/1/send_response':
             num_responses = len(body['params']['reference_uuids'])
@@ -2288,7 +2327,10 @@ class TestNemhandelMessage(TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

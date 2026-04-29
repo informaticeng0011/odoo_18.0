@@ -264,7 +264,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Many2ManyBinaryField
+=======
+    Many2ManyBinaryField,
+>>>>>>> upstream/18.0
 =======
     Many2ManyBinaryField,
 >>>>>>> upstream/18.0
@@ -1068,6 +1072,7 @@ export class MailComposerAttachmentList extends Many2ManyBinaryField {
     async onFileRemove(fileId) {
         super.onFileRemove(fileId);
         const attachment = this.mailStore.Attachment.insert(fileId);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2369,6 +2374,8 @@ export class MailComposerAttachmentList extends Many2ManyBinaryField {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (attachment && attachment.res_model === "mail.compose.message") {
             await this.attachmentUploadService.unlink(attachment);
         }
@@ -2465,6 +2472,9 @@ export class MailComposerAttachmentList extends Many2ManyBinaryField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

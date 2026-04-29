@@ -559,7 +559,10 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1387,6 +1390,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1743,6 +1747,8 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2043,6 +2049,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2161,6 +2168,8 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2269,6 +2278,7 @@ class TestReportSession(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2317,6 +2327,8 @@ class TestReportSession(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_report_sale_details_total_with_cash_rounding(self):
         """Test that the sale details report shows the cash rounding amount."""
@@ -2370,4 +2382,7 @@ class TestReportSession(TestPoSCommon):
             report['cash_rounding_total'], 11.45 - 11.46, places=2,
             msg="Cash rounding total should equal sum of (amount_paid - amount_total) across orders"
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

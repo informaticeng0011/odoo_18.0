@@ -169,6 +169,10 @@ from babel.dates import format_date
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -800,8 +804,13 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # demo data
         if not self.order_ids:
+=======
+        has_workorders = bool(self.env['mrp.workorder'].search_count([('workcenter_id', 'in', self.ids)], limit=1))
+        if not has_workorders:  # demo data
+>>>>>>> upstream/18.0
 =======
         has_workorders = bool(self.env['mrp.workorder'].search_count([('workcenter_id', 'in', self.ids)], limit=1))
         if not has_workorders:  # demo data
@@ -858,10 +867,13 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for workcenter in self:
             load_limit = sum(workcenter.resource_calendar_id.attendance_ids.mapped('duration_hours'))
             wc_data = {'is_sample_data': not self.order_ids, 'labels': list(week_range.values())}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -890,6 +902,9 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1152,12 +1167,15 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for order in self:
             if order.productive_time:
                 order.oee = round(order.productive_time * 100.0 / (order.productive_time + order.blocked_time), 2)
             else:
                 order.oee = 0.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1675,6 +1693,9 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2215,6 +2236,11 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ICP = self.env['ir.config_parameter'].sudo()
+        max_planning_iterations = max(int(ICP.get_param('mrp.workcenter_max_planning_iterations', '50')), 1)
+>>>>>>> upstream/18.0
 =======
         ICP = self.env['ir.config_parameter'].sudo()
         max_planning_iterations = max(int(ICP.get_param('mrp.workcenter_max_planning_iterations', '50')), 1)
@@ -2692,6 +2718,7 @@ class MrpWorkcenter(models.Model):
         get_workorder_intervals = partial(self.resource_calendar_id._leave_intervals_batch, domain=workorder_intervals_leaves_domain, resources=resource, tz=timezone(self.resource_calendar_id.tz))
         extra_leaves_slots_intervals = Intervals([(make_aware(start)[0], make_aware(stop)[0], self.env['resource.calendar.attendance']) for start, stop in extra_leaves_slots])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3435,6 +3462,8 @@ class MrpWorkcenter(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         remaining = duration = max(duration, 1 / 60)
         now = make_aware(datetime.now())[0]
         delta = timedelta(days=14)
@@ -3556,6 +3585,9 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3810,8 +3842,13 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       and (conflict := interval & workorder_intervals or interval & extra_leaves_slots_intervals):
                         (_start, start, _records) = conflict._items[0]  # restart available interval at conflicting interval stop
+=======
+                      and (conflict := workorder_intervals.conflicting(interval) or extra_leaves_slots_intervals.conflicting(interval)):
+                        start = min(max(_stop for _start, _stop, _records in conflict), stop)  # restart available interval at conflicting interval stop
+>>>>>>> upstream/18.0
 =======
                       and (conflict := workorder_intervals.conflicting(interval) or extra_leaves_slots_intervals.conflicting(interval)):
                         start = min(max(_stop for _start, _stop, _records in conflict), stop)  # restart available interval at conflicting interval stop
@@ -3888,8 +3925,13 @@ class MrpWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       and (conflict := interval & workorder_intervals or interval & extra_leaves_slots_intervals):
                         (stop, _stop, _records) = conflict._items[0]  # restart available interval at conflicting interval start
+=======
+                      and (conflict := workorder_intervals.conflicting(interval) or extra_leaves_slots_intervals.conflicting(interval)):
+                        stop = max(min(_start for _start, _stop, _records in conflict), start)  # restart available interval at conflicting interval start
+>>>>>>> upstream/18.0
 =======
                       and (conflict := workorder_intervals.conflicting(interval) or extra_leaves_slots_intervals.conflicting(interval)):
                         stop = max(min(_start for _start, _stop, _records in conflict), start)  # restart available interval at conflicting interval start
@@ -4356,6 +4398,11 @@ class MrpWorkcenterProductivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date_end:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date_end:
             return

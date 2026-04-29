@@ -51,6 +51,12 @@ class TestPaymentTransaction(PaymentHttpCommon, XenditCommon):
             'odoo.addons.payment_xendit.models.payment_transaction.PaymentTransaction'
             '._get_specific_rendering_values', return_value={'api_url': 'https://dummy.com'}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ), patch(
+            'odoo.addons.payment.utils.generate_access_token',
+            new=self._generate_test_access_token
+>>>>>>> upstream/18.0
 =======
         ), patch(
             'odoo.addons.payment.utils.generate_access_token',
@@ -107,13 +113,19 @@ class TestPaymentTransaction(PaymentHttpCommon, XenditCommon):
         currency_idr = self.env.ref('base.IDR')
         tx = self._create_transaction('redirect', amount=1000.50, currency_id=currency_idr.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
         processing_values = tx._get_specific_processing_values({})
 =======
+=======
+>>>>>>> upstream/18.0
         with patch(
             'odoo.addons.payment.utils.generate_access_token',
             new=self._generate_test_access_token
         ):
             processing_values = tx._get_specific_processing_values({})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         self.assertEqual(processing_values.get('rounded_amount'), 1000)
 

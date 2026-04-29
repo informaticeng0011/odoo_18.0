@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 import re
 from contextlib import suppress
 
@@ -31,10 +35,20 @@ def qunit_error_checker(message):
     return True  # in other cases, always stop (missing dependency, ...)
 
 
+<<<<<<< HEAD
 def _get_filters(test_params):
     filters = []
     for sign, param in test_params:
         parts = param.split(',')
+=======
+def _get_filters(test_params, hoot=True):
+    filters = []
+    for sign, param in test_params:
+        if hoot:
+            parts = re.split(r',(?=-?@)', param)
+        else:
+            parts = param.split(',')
+>>>>>>> upstream/18.0
         for part in parts:
             part = part.strip()
             if not part:
@@ -54,7 +68,11 @@ class QunitCommon(odoo.tests.HttpCase):
         self.qunit_filters = self.get_qunit_filters()
 
     def get_qunit_regex(self, test_params):
+<<<<<<< HEAD
         filters = _get_filters(test_params)
+=======
+        filters = _get_filters(test_params, hoot=False)
+>>>>>>> upstream/18.0
         positive = [f'({re.escape(f)}.*)' for sign, f in filters if sign == '+']
         negative = [f'({re.escape(f)}.*)' for sign, f in filters if sign == '-']
         filter = ''
@@ -117,6 +135,7 @@ class HOOTCommon(odoo.tests.HttpCase):
             h = self._generate_hash(f)
             if sign == '-':
                 h = f'-{h}'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1263,6 +1282,8 @@ class HOOTCommon(odoo.tests.HttpCase):
         return filter
 
 =======
+=======
+>>>>>>> upstream/18.0
             # Since we don't know if the descriptor we have is a test or a suite, we need to provide the hash for a generic "job"
             filter += f'&id={h}'
         return filter
@@ -1277,6 +1298,13 @@ class HOOTCommon(odoo.tests.HttpCase):
                 match = re.search(r'\[HOOT\] Test "(@([^/]+)/[^"]+)"', message)
                 if match:
                     test = match.group(1)
+<<<<<<< HEAD
+                    result['params'] = test
+        return result
+
+>>>>>>> upstream/18.0
+=======
+                    test = test.replace('\\', '\\\\').replace('[', '\\[').replace(']', '\\]')
                     result['params'] = test
         return result
 
@@ -1289,6 +1317,7 @@ class HOOTCommon(odoo.tests.HttpCase):
     def test_get_hoot_filter(self):
         self._test_params = []
         self.assertEqual(self.get_hoot_filters(), '')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2206,11 +2235,15 @@ class HOOTCommon(odoo.tests.HttpCase):
 =======
         expected = '&id=e39ce9ba&id=-69a6561d'
 >>>>>>> upstream/18.0
+=======
+        expected = '&id=e39ce9ba&id=-69a6561d'
+>>>>>>> upstream/18.0
         self._test_params = [('+', '@web/core,-@web/core/autocomplete')]
         self.assertEqual(self.get_hoot_filters(), expected)
         self._test_params = [('+', '@web/core'), ('-', '@web/core/autocomplete')]
         self.assertEqual(self.get_hoot_filters(), expected)
         self._test_params = [('+', '-@web/core/autocomplete,-@web/core/autocomplete2')]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3588,6 +3621,36 @@ class HOOTCommon(odoo.tests.HttpCase):
         self._test_params = [('-', '-@web/core/autocomplete,-@web/core/autocomplete2')]
         self.assertEqual(self.get_hoot_filters(), '&id=69a6561d&id=cb246db5')
 >>>>>>> upstream/18.0
+=======
+        self.assertEqual(self.get_hoot_filters(), '&id=-69a6561d&id=-cb246db5')
+        self._test_params = [('-', '-@web/core/autocomplete,-@web/core/autocomplete2')]
+        self.assertEqual(self.get_hoot_filters(), '&id=69a6561d&id=cb246db5')
+        self._test_params = [('+', '@web/core/autocomplete,@web/core/autocomplete,with,commas')]
+        self.assertEqual(self.get_hoot_filters(), '&id=69a6561d&id=0df1dad5')
+        self._test_params = [('-', '-@web/core/autocomplete,-@web/core/autocomplete,with,commas')]
+        self.assertEqual(self.get_hoot_filters(), '&id=69a6561d&id=0df1dad5')
+
+    def test_canonical_tags(self):
+        def get_log(test_name):
+            message = f'''[HOOT] Test "{test_name}" failed:
+            Failed assertion:
+            ...
+            '''
+
+            log = logging.LogRecord('', '', '', '', message, None, None)
+            return log
+
+        self.assertEqual(
+            self.get_canonical_tag(log=get_log('@web/core/some test')),
+            '/web/tests/test_js.py:HOOTCommon.test_canonical_tags[@web/core/some test]',
+        )
+        self.assertEqual(
+            self.get_canonical_tag(log=get_log(r'@web/test, with \ backslash and [brackets]')),
+            r'/web/tests/test_js.py:HOOTCommon.test_canonical_tags[@web/test, with \\ backslash and \[brackets\]]',
+            "Reserved characters should have been escaped",
+        )
+
+>>>>>>> upstream/18.0
 
 @odoo.tests.tagged('post_install', '-at_install')
 class WebSuite(QunitCommon, HOOTCommon):
@@ -3824,7 +3887,11 @@ class WebSuite(QunitCommon, HOOTCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=desktop&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] test suite succeeded", error_checker=unit_test_error_checker)
+=======
+        self.browser_js(f'/web/tests?headless&loglevel=2&preset=desktop&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
+>>>>>>> upstream/18.0
 =======
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=desktop&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
 >>>>>>> upstream/18.0
@@ -4745,7 +4812,11 @@ class WebSuite(QunitCommon, HOOTCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browser_js(f'/web/static/lib/hoot/tests/index.html?headless&loglevel=2{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] test suite succeeded", error_checker=unit_test_error_checker)
+=======
+        self.browser_js(f'/web/static/lib/hoot/tests/index.html?headless&loglevel=2{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
+>>>>>>> upstream/18.0
 =======
         self.browser_js(f'/web/static/lib/hoot/tests/index.html?headless&loglevel=2{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
 >>>>>>> upstream/18.0
@@ -5720,7 +5791,11 @@ class MobileWebSuite(QunitCommon, HOOTCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=mobile&tag=-headless&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] test suite succeeded", error_checker=unit_test_error_checker)
+=======
+        self.browser_js(f'/web/tests?headless&loglevel=2&preset=mobile&tag=-headless&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
+>>>>>>> upstream/18.0
 =======
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=mobile&tag=-headless&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
 >>>>>>> upstream/18.0

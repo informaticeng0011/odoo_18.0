@@ -230,6 +230,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -1767,7 +1771,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2449,6 +2456,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        (compo01 + compo02 + kit).write({'invoice_policy': 'order'})
+>>>>>>> upstream/18.0
 =======
         (compo01 + compo02 + kit).write({'invoice_policy': 'order'})
 >>>>>>> upstream/18.0
@@ -3363,6 +3374,7 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3819,4 +3831,58 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_invoice_additional_kit_component_from_delivery(self):
+        """
+        Sell a kit, deliver more than expected which should automatically
+        update the sol with component lines then invoice.
+        """
+        component = self._create_product(name="Lovely Component", is_storable=True, standard_price=10)
+        kit = self._create_product(name="Kit", is_storable=True, standard_price=30)
+        (component + kit).write({'invoice_policy': 'delivery'})
+        warehouse = self.company_data['default_warehouse']
+        self.env['stock.quant']._update_available_quantity(component, warehouse.lot_stock_id, 10.0)
+        self.env['mrp.bom'].create({
+            'type': 'phantom',
+            'product_id': kit.id,
+            'product_tmpl_id': kit.product_tmpl_id.id,
+            'product_qty': 1,
+            'bom_line_ids': [
+                Command.create({'product_id': component.id, 'product_qty': 1}),
+            ],
+        })
+        sale_order = self.env['sale.order'].create({
+            'partner_id': self.partner_a.id,
+            'order_line': [
+                Command.create({
+                    'product_id': kit.id,
+                    'product_uom_qty': 1,
+                    'price_unit': 10,
+                }),
+            ],
+        })
+        sale_order.action_confirm()
+        delivery = sale_order.picking_ids
+        with Form(delivery) as delivery_form:
+            with delivery_form.move_ids_without_package.new() as move:
+                move.product_id = kit
+                move.product_uom_qty = 1.0
+        delivery.button_validate()
+        self.assertRecordValues(sale_order.order_line.sorted(lambda sol: sol.product_id.id), [
+            {'product_id': component.id, 'product_uom_qty': 0.0, 'qty_delivered': 1.0},
+            {'product_id': kit.id, 'product_uom_qty': 1.0, 'qty_delivered': 1.0},
+        ])
+        invoice = sale_order.with_context(default_journal_id=self.company_data['default_journal_sale'].id)._create_invoices()
+        invoice.action_post()
+        stock_output_amls = self.env['account.move.line'].search([('account_id', '=', self.company_data['default_account_stock_out'].id)], order='id asc')
+        self.assertRecordValues(stock_output_amls,
+            [
+                {'product_id': component.id, 'reconciled': True,    'debit': 10.0,     'credit':  0.0},
+                {'product_id': component.id, 'reconciled': True,    'debit': 10.0,     'credit':  0.0},
+                {'product_id': kit.id,       'reconciled': True,    'debit': 0.0,     'credit':  10.0},
+                {'product_id': component.id, 'reconciled': True,    'debit': 0.0,     'credit':  10.0},
+            ]
+        )
 >>>>>>> upstream/18.0

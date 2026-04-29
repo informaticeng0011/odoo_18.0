@@ -1802,7 +1802,10 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2551,6 +2554,7 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3007,6 +3011,8 @@ class StockQuantRemovalStrategy(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_least_package_removal_strategy_with_pack_and_reserve_mix(self):
         '''
@@ -3032,4 +3038,7 @@ class StockQuantRemovalStrategy(TransactionCase):
         move._action_assign()
         # There is enough in stock for reservation to match the demand
         self.assertEqual(move.quantity, move.product_qty)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

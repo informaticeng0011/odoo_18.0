@@ -98,7 +98,11 @@ export class SignatureField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        this.notification = useService("notification");
+>>>>>>> upstream/18.0
 =======
         this.notification = useService("notification");
 >>>>>>> upstream/18.0
@@ -569,6 +573,10 @@ export const signatureField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    supportedTypes: ["binary"],
+>>>>>>> upstream/18.0
 =======
     supportedTypes: ["binary"],
 >>>>>>> upstream/18.0

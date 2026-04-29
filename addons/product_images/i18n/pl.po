@@ -59,6 +59,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_images
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -408,6 +409,9 @@
 =======
 # * product_images
 >>>>>>> upstream/18.0
+=======
+# * product_images
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -526,6 +530,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -636,6 +641,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -818,6 +826,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1174,6 +1183,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-24 23:32+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -1237,6 +1248,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1359,6 +1373,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1881,11 +1896,17 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: product_images
 #. odoo-python
 #: code:addons/product_images/wizard/product_fetch_image_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2235,6 +2256,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(matching_images_count)s matching images have been found for %"
 "(product_count)s products."
 msgstr ""
@@ -2354,6 +2377,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2703,7 +2729,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            As only 10,000 products can be processed per day, the remaining will be\n"
+=======
+"                            As only 10,000 products can be processed per "
+"day, the remaining will be\n"
+>>>>>>> upstream/18.0
 =======
 "                            As only 10,000 products can be processed per "
 "day, the remaining will be\n"
@@ -3290,8 +3321,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zadanie przetwarzania produktów w tle jest już uruchomione. Spróbuj ponownie"
 " później."
+=======
+"Zadanie przetwarzania produktów w tle jest już uruchomione. Spróbuj ponownie "
+"później."
+>>>>>>> upstream/18.0
 =======
 "Zadanie przetwarzania produktów w tle jest już uruchomione. Spróbuj ponownie "
 "później."
@@ -3825,7 +3861,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -4200,7 +4240,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Należy pamiętać, że niektóre obrazy mogą nie być wolne od tantiem. Nie należy\n"
+=======
+"Należy pamiętać, że niektóre obrazy mogą nie być wolne od tantiem. Nie "
+"należy\n"
+>>>>>>> upstream/18.0
 =======
 "Należy pamiętać, że niektóre obrazy mogą nie być wolne od tantiem. Nie "
 "należy\n"
@@ -4844,8 +4889,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lista wybranych produktów, które spełniają kryteria (mają kod kreskowy i nie"
 " mają obrazu)."
+=======
+"Lista wybranych produktów, które spełniają kryteria (mają kod kreskowy i nie "
+"mają obrazu)."
+>>>>>>> upstream/18.0
 =======
 "Lista wybranych produktów, które spełniają kryteria (mają kod kreskowy i nie "
 "mają obrazu)."
@@ -5431,8 +5481,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "została usunięta. Skontaktuj się z administratorem, aby przywrócić akcję lub"
 " ponownie zainstalować moduł \"product_images\"."
+=======
+"została usunięta. Skontaktuj się z administratorem, aby przywrócić akcję lub "
+"ponownie zainstalować moduł \"product_images\"."
+>>>>>>> upstream/18.0
 =======
 "została usunięta. Skontaktuj się z administratorem, aby przywrócić akcję lub "
 "ponownie zainstalować moduł \"product_images\"."
@@ -6046,12 +6101,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            processed because they either already have an image or their barcode\n"
 "                            number is not set."
 msgstr ""
 "produkty nie będą\n"
 "przetworzone, ponieważ albo mają już obraz, albo ich numer kodu kreskowego nie jest ustawiony.."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6401,6 +6459,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -157,6 +157,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1093,6 +1094,9 @@
 =======
 # * barcodes_gs1_nomenclature
 >>>>>>> upstream/18.0
+=======
+# * barcodes_gs1_nomenclature
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
@@ -1255,6 +1259,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1469,6 +1474,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1945,6 +1953,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3038,6 +3047,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:24+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -3198,6 +3210,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3515,6 +3530,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4459,12 +4475,18 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #. odoo-python
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5473,6 +5495,10 @@ msgstr ""
 "to be converted to a valid date: '%(error_message)s'"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"to be converted to a valid date: '%(error_message)s'"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
@@ -5634,7 +5660,11 @@ msgid "Alpha-Numeric Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número alfanumérico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número alfanumérico"
 >>>>>>> upstream/18.0
@@ -6270,6 +6300,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Delimitador de regex alternativo para o FNC1. O separador não deve "
+"corresponder ao início/fim de nenhum padrão de regras relacionado."
+>>>>>>> upstream/18.0
 =======
 "Delimitador de regex alternativo para o FNC1. O separador não deve "
 "corresponder ao início/fim de nenhum padrão de regras relacionado."
@@ -7059,7 +7094,11 @@ msgid "Associated Uom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UM associada"
+>>>>>>> upstream/18.0
 =======
 msgstr "UM associada"
 >>>>>>> upstream/18.0
@@ -7845,7 +7884,11 @@ msgid "Decimal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Decimal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Decimal"
 >>>>>>> upstream/18.0
@@ -8877,7 +8920,11 @@ msgid "Destination location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local do destino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local do destino"
 >>>>>>> upstream/18.0
@@ -9520,7 +9567,11 @@ msgid "FNC1 Separator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separador FNC1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separador FNC1"
 >>>>>>> upstream/18.0
@@ -10153,7 +10204,11 @@ msgid "GS1 Content Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipo de conteúdo GS1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipo de conteúdo GS1"
 >>>>>>> upstream/18.0
@@ -10919,7 +10974,11 @@ msgid "GS1-128"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "GS1-128"
+>>>>>>> upstream/18.0
 =======
 msgstr "GS1-128"
 >>>>>>> upstream/18.0
@@ -11958,6 +12017,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se for verdadeiro, use o último dígito do AI para determinar onde está o "
+"primeiro decimal"
+>>>>>>> upstream/18.0
 =======
 "Se for verdadeiro, use o último dígito do AI para determinar onde está o "
 "primeiro decimal"
@@ -12748,7 +12812,11 @@ msgid "Invalid barcode: can't be formated as date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código de barras inválido: não pode ser formatado como data"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código de barras inválido: não pode ser formatado como data"
 >>>>>>> upstream/18.0
@@ -13382,7 +13450,11 @@ msgid "Invalid barcode: the check digit is incorrect"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código de barras inválido: o dígito de verificação está incorreto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código de barras inválido: o dígito de verificação está incorreto"
 >>>>>>> upstream/18.0
@@ -14016,7 +14088,11 @@ msgid "Is GS1 Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É uma nomenclatura GS1"
+>>>>>>> upstream/18.0
 =======
 msgstr "É uma nomenclatura GS1"
 >>>>>>> upstream/18.0
@@ -14664,7 +14740,11 @@ msgid "Numeric Identifier"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identificador numérico"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identificador numérico"
 >>>>>>> upstream/18.0
@@ -15297,7 +15377,11 @@ msgid "Pack Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Data da embalagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data da embalagem"
 >>>>>>> upstream/18.0
@@ -15946,7 +16030,11 @@ msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O separador alternativo FNC1 não é um Regex válido: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "O separador alternativo FNC1 não é um Regex válido: %(error)s"
 >>>>>>> upstream/18.0
@@ -16594,7 +16682,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17067,6 +17158,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17542,7 +17636,11 @@ msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O padrão de regra '%(rule)s' não é um Regex válido: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "O padrão de regra '%(rule)s' não é um Regex válido: %(error)s"
 >>>>>>> upstream/18.0
@@ -18249,9 +18347,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this rule uses decimal, check it can't get sometime else than a digit as last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the value can't be casted as a measure."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18940,6 +19041,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19085,6 +19187,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19559,6 +19663,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20037,6 +20144,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Essa nomenclatura usa a especificação GS1, e somente as regras de "
+"codificação GS1-128 são aceitas nesse tipo de nomenclatura."
+>>>>>>> upstream/18.0
 =======
 "Essa nomenclatura usa a especificação GS1, e somente as regras de "
 "codificação GS1-128 são aceitas nesse tipo de nomenclatura."
@@ -20828,6 +20940,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Esse código de barras não pode ser analisado por nenhuma regra de código de "
+"barras."
+>>>>>>> upstream/18.0
 =======
 "Esse código de barras não pode ser analisado por nenhuma regra de código de "
 "barras."
@@ -21618,7 +21735,11 @@ msgid "This barcode can't be partially or fully parsed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse código de barras não pode ser parcial ou totalmente analisado."
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse código de barras não pode ser parcial ou totalmente analisado."
 >>>>>>> upstream/18.0
@@ -22254,7 +22375,10 @@ msgstr "Tipo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22710,6 +22834,9 @@ msgstr "Tipo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

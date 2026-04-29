@@ -106,7 +106,11 @@ class TestTaskState(TestProjectCommon):
         self.task_1._onchange_project_id()
         self.assertEqual(self.task_1.state, '01_in_progress', "task_1 state should automatically switch back to in_progress when its project changes")
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.task_2.state, '01_in_progress', "task_2 state should automatically switch back to in_progress when its project changes")
+=======
+        self.assertEqual(self.task_2.state, '1_canceled', "task_2 state should remain to cancelled when its project changes")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.task_2.state, '1_canceled', "task_2 state should remain to cancelled when its project changes")
 >>>>>>> upstream/18.0
@@ -490,6 +494,7 @@ class TestTaskState(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1122,6 +1127,8 @@ class TestTaskState(TestProjectCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_subtask_closed_state_not_reset_on_parent_project_change(self):
         subtask_changes_requested, subtask_done = self.env['project.task'].create([
@@ -1145,6 +1152,9 @@ class TestTaskState(TestProjectCommon):
         subtask_done.write({'state': '1_canceled'})
         self.task_1.write({'project_id': self.project_goats.id})
         self.assertEqual(subtask_done.state, '1_canceled')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_state_dont_reset_when_enabling_task_dependencies(self):
@@ -1505,6 +1515,9 @@ class TestTaskState(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

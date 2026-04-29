@@ -148,6 +148,7 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     env = api.Environment(cr, SUPERUSER_ID, {})
 =======
     env = api.Environment(cr, SUPERUSER_ID, {"lang": "en_US"})
@@ -643,6 +644,8 @@ def migrate(cr, version):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     env = api.Environment(cr, SUPERUSER_ID, {"lang": "en_US"})
 
     companies = env["res.company"].search([("chart_template", "=", "id"), ("parent_id", "=", False)])
@@ -740,6 +743,9 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -933,6 +939,7 @@ def migrate(cr, version):
         "tax_PT6", "tax_PT7",
     ]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1462,6 +1469,8 @@ def migrate(cr, version):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     for company in companies:
         ChartTemplate = env["account.chart.template"].with_company(company)
         # =============================
@@ -1584,6 +1593,9 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1873,7 +1885,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tax = ChartTemplate.with_company(company).ref(xmlid, raise_if_not_found=False)
+=======
+            tax = ChartTemplate.ref(xmlid, raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
             tax = ChartTemplate.ref(xmlid, raise_if_not_found=False)
 >>>>>>> upstream/18.0
@@ -2255,7 +2271,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tax = ChartTemplate.with_company(company).ref(xmlid, raise_if_not_found=False)
+=======
+            tax = ChartTemplate.ref(xmlid, raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
             tax = ChartTemplate.ref(xmlid, raise_if_not_found=False)
 >>>>>>> upstream/18.0
@@ -2644,7 +2664,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 rec = ChartTemplate.with_company(company).ref(xmlid, raise_if_not_found=False)
+=======
+                rec = ChartTemplate.ref(xmlid, raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
                 rec = ChartTemplate.ref(xmlid, raise_if_not_found=False)
 >>>>>>> upstream/18.0
@@ -3030,9 +3054,15 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         old_group = ChartTemplate.with_company(company).ref("l10n_id_tax_group_luxury_goods", raise_if_not_found=False)
         new_group = ChartTemplate.with_company(company).ref("l10n_id_tax_group_stlg", raise_if_not_found=False)
         tax_luxury_sales = ChartTemplate.with_company(company).ref("tax_luxury_sales", raise_if_not_found=False)
+=======
+        old_group = ChartTemplate.ref("l10n_id_tax_group_luxury_goods", raise_if_not_found=False)
+        new_group = ChartTemplate.ref("l10n_id_tax_group_stlg", raise_if_not_found=False)
+        tax_luxury_sales = ChartTemplate.ref("tax_luxury_sales", raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
         old_group = ChartTemplate.ref("l10n_id_tax_group_luxury_goods", raise_if_not_found=False)
         new_group = ChartTemplate.ref("l10n_id_tax_group_stlg", raise_if_not_found=False)

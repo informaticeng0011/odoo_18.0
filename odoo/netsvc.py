@@ -83,7 +83,11 @@ class PostgreSQLHandler(logging.Handler):
                 if module.current_test:
                     try:
 <<<<<<< HEAD
+<<<<<<< HEAD
                         metadata['test'] = module.current_test.get_log_metadata()
+=======
+                        metadata['test'] = module.current_test.get_log_metadata(record)
+>>>>>>> upstream/18.0
 =======
                         metadata['test'] = module.current_test.get_log_metadata(record)
 >>>>>>> upstream/18.0
@@ -555,6 +559,12 @@ def init_logger():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    # This warning is triggered library only during the python precompilation which does not occur on readonly filesystem
+    warnings.filterwarnings("ignore", r'invalid escape sequence', category=DeprecationWarning, module=".*vobject")
+    warnings.filterwarnings("ignore", r'invalid escape sequence', category=SyntaxWarning, module=".*vobject")
+>>>>>>> upstream/18.0
 =======
     # This warning is triggered library only during the python precompilation which does not occur on readonly filesystem
     warnings.filterwarnings("ignore", r'invalid escape sequence', category=DeprecationWarning, module=".*vobject")

@@ -66,6 +66,11 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import timedelta
+
+>>>>>>> upstream/18.0
 =======
 from datetime import timedelta
 
@@ -408,6 +413,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.tests.test_ir_cron import CronMixinCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.test_ir_cron import CronMixinCase
 >>>>>>> upstream/18.0
@@ -684,7 +693,11 @@ def attachment_to_dict(attachment):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestL10nPlEdi(AccountTestInvoicingCommon):
+=======
+class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
+>>>>>>> upstream/18.0
 =======
 class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 >>>>>>> upstream/18.0
@@ -996,7 +1009,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1022,6 +1038,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1285,7 +1304,12 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id
+=======
+            'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
             'allow_out_payment': True,
@@ -1702,7 +1726,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1797,6 +1824,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2008,7 +2038,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2227,7 +2260,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         created_move_attachment = self.env['ir.attachment'].search([
             ('res_model', '=', 'account.move'),
             ('res_id', '=', created_move.id),
@@ -2236,6 +2272,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
         with tools.file_open('l10n_pl_edi/tests/export_xmls/fa3_bill.xml', mode='rb') as file:
             self.assertEqual(created_move_attachment.raw, file.read())
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_l10n_pl_edi_download_bill_retry_after(self):
         """Test that when a rate limit error occurs the progress is preserved and the cron is rescheduled."""
@@ -2306,6 +2345,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        start = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
         start = fields.Datetime.now()
 >>>>>>> upstream/18.0
@@ -2443,7 +2486,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
         bill_1 = self.env['account.move'].search([('l10n_pl_edi_number', '=', 'KSEF-BILL-001')])
         self.assertTrue(bill_1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         bill_1_attachment = self.env['ir.attachment'].search([
             ('res_model', '=', 'account.move'),
             ('res_id', '=', bill_1.id),
@@ -2451,12 +2497,16 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
         self.assertTrue(bill_1_attachment)
         with tools.file_open('l10n_pl_edi/tests/export_xmls/fa3_bill.xml', mode='rb') as file:
             self.assertEqual(bill_1_attachment.raw, file.read())
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         bill_2 = self.env['account.move'].search([('l10n_pl_edi_number', '=', 'KSEF-BILL-002')])
         self.assertFalse(bill_2)
 
         self.assertEqual(len(capt.records), cron_runs_before + 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2729,6 +2779,8 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertGreaterEqual(capt.records[-1].call_at, start + timedelta(seconds=120))
         self.assertLessEqual(capt.records[-1].call_at, start + timedelta(seconds=240))
 
@@ -2758,6 +2810,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

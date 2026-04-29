@@ -94,7 +94,10 @@ patch(PosOrderline.prototype, {
         return super.getDisplayData();
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     can_be_merged_with(orderline) {
         return (
@@ -102,5 +105,8 @@ patch(PosOrderline.prototype, {
             this._e_wallet_program_id === orderline._e_wallet_program_id
         );
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 });

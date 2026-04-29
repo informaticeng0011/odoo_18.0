@@ -283,7 +283,10 @@ This addon provides an extensible, maintainable editor.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'author': "odoo",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1113,6 +1116,10 @@ This addon provides an extensible, maintainable editor.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('include', 'html_editor.assets_link_popover'),
+>>>>>>> upstream/18.0
 =======
             ('include', 'html_editor.assets_link_popover'),
 >>>>>>> upstream/18.0
@@ -2209,7 +2216,10 @@ This addon provides an extensible, maintainable editor.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3019,6 +3029,9 @@ This addon provides an extensible, maintainable editor.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

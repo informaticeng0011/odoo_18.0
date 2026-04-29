@@ -286,7 +286,11 @@ class LunchProduct extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "kanban,false": `
+=======
+        kanban: `
+>>>>>>> upstream/18.0
 =======
         kanban: `
 >>>>>>> upstream/18.0
@@ -1399,7 +1403,11 @@ test("Check is_favorite field is readonly if the field is readonly", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     LunchProduct._views["kanban,false"] = LunchProduct._views["kanban,false"].replace(
+=======
+    LunchProduct._views["kanban"] = LunchProduct._views["kanban"].replace(
+>>>>>>> upstream/18.0
 =======
     LunchProduct._views["kanban"] = LunchProduct._views["kanban"].replace(
 >>>>>>> upstream/18.0
