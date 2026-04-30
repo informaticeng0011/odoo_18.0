@@ -19,6 +19,10 @@ HR_READABLE_FIELDS = [
     'last_activity_time',
     'can_edit',
     'is_system',
+<<<<<<< HEAD
+=======
+    'employee_country_code',
+>>>>>>> upstream/18.0
     'employee_resource_calendar_id',
     'work_contact_id',
 ]
@@ -161,6 +165,10 @@ class User(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    employee_country_code = fields.Char(related='employee_id.company_country_code', string="Employee's Country Code", readonly=True, related_sudo=False)
+>>>>>>> upstream/18.0
 =======
     employee_country_code = fields.Char(related='employee_id.company_country_code', string="Employee's Country Code", readonly=True, related_sudo=False)
 >>>>>>> upstream/18.0

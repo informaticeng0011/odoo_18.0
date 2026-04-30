@@ -1803,7 +1803,10 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2555,6 +2558,7 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3011,6 +3015,8 @@ class StockQuantRemovalStrategy(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -3039,6 +3045,9 @@ class StockQuantRemovalStrategy(TransactionCase):
         # There is enough in stock for reservation to match the demand
         self.assertEqual(move.quantity, move.product_qty)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

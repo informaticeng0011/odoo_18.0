@@ -235,7 +235,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -1676,7 +1682,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2374,6 +2383,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2858,6 +2870,7 @@
         <template id="account_invoice_partner_facturx_export_22">
             <t  xmlns:ram="urn:un:unece:uncefact:data:standard:ReusableAggregateBusinessInformationEntity:100"
                 xmlns:rsm="urn:un:unece:uncefact:data:standard:CrossIndustryInvoice:100"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3679,6 +3692,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
@@ -3870,6 +3885,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4496,7 +4514,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -5893,7 +5917,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100">
+=======
+                xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
+                xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+>>>>>>> upstream/18.0
 =======
                 xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:100"
                 xmlns:qdt="urn:un:unece:uncefact:data:standard:QualifiedDataType:100"
@@ -7240,8 +7270,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <ram:SpecifiedTaxRegistration t-if="record.company_id.vat">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7706,6 +7739,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8068,6 +8104,7 @@
 
                         <!-- Bank account. -->
                         <ram:SpecifiedTradeSettlementPaymentMeans t-if="record.partner_bank_id.sanitized_acc_number">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8989,6 +9026,9 @@
 =======
                             <ram:TypeCode t-out="payment_means_code"/>
 >>>>>>> upstream/18.0
+=======
+                            <ram:TypeCode t-out="payment_means_code"/>
+>>>>>>> upstream/18.0
                             <ram:PayeePartyCreditorFinancialAccount>
                                 <ram:IBANID
                                     t-if="record.partner_bank_id.acc_type == 'iban'"
@@ -9091,7 +9131,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9264,6 +9307,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9515,7 +9561,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <pdfaid:conformance>B</pdfaid:conformance>
+=======
+                        <pdfaid:conformance>A</pdfaid:conformance>
+>>>>>>> upstream/18.0
 =======
                         <pdfaid:conformance>A</pdfaid:conformance>
 >>>>>>> upstream/18.0

@@ -22,6 +22,11 @@ class AccountMoveLine(models.Model):
                     # We then take the first bom of the product.
                     bom = self.env['mrp.bom']._bom_find(products=so_line.product_id, company_id=so_line.company_id.id, bom_type='phantom')[so_line.product_id]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if not bom:
+                        return price_unit
+>>>>>>> upstream/18.0
 =======
                     if not bom:
                         return price_unit

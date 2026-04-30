@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* certificate
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1127,6 +1128,9 @@
 =======
 # * certificate
 >>>>>>> upstream/18.0
+=======
+# * certificate
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1150,6 +1154,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1442,6 +1447,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Bren Driesen <brdri@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Bren Driesen <brdri@odoo.com>, 2026.
@@ -1501,6 +1509,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2622,6 +2631,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-03 18:39+0000\n"
 "PO-Revision-Date: 2026-04-11 09:03+0000\n"
 "Last-Translator: Bren Driesen <brdri@odoo.com>\n"
@@ -2644,6 +2655,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2683,6 +2697,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2994,6 +3009,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.16.2\n"
@@ -3706,7 +3725,10 @@ msgstr "De datum waarop het certificaat geldig wordt (UTC)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4625,6 +4647,9 @@ msgstr "De sleutelgrootte moet minimaal 512 bytes zijn."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5545,7 +5570,10 @@ msgstr "De privésleutel kon niet worden geladen."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6464,6 +6492,9 @@ msgstr "De publieke exponent moet 65537 zijn (of 3 voor legacy-doeleinden)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7125,6 +7156,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7142,6 +7174,8 @@ msgstr ""
 #| msgid ""
 #| "This certificate could not be loaded. Either the content or the password "
 #| "is erroneous."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7200,8 +7234,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dit certificaat kon niet worden geladen. De inhoud of het wachtwoord is "
 "onjuist."
+=======
+"Dit certificaat kon niet worden geladen. Geef het certificaatwachtwoord in."
+>>>>>>> upstream/18.0
 =======
 "Dit certificaat kon niet worden geladen. Geef het certificaatwachtwoord in."
 >>>>>>> upstream/18.0
@@ -7284,6 +7322,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7459,8 +7500,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deze sleutel kon niet worden geladen. De inhoud of het wachtwoord is "
 "onjuist."
+=======
+"Deze sleutel kon niet worden geladen. De inhoud of het wachtwoord is onjuist."
+>>>>>>> upstream/18.0
 =======
 "Deze sleutel kon niet worden geladen. De inhoud of het wachtwoord is onjuist."
 >>>>>>> upstream/18.0
@@ -7950,8 +7995,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
+=======
+"Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC, "
+"RSA."
+>>>>>>> upstream/18.0
 =======
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC, "
 "RSA."
@@ -8539,6 +8589,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used to set a public key in case the one self-contained in the certificate is erroneus.\n"
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
 "             "
@@ -8546,6 +8597,8 @@ msgstr ""
 "Wordt gebruikt om een publieke sleutel in te stellen voor het geval de sleutel in het certificaat foutief is.\n"
 "                Als een publieke sleutel op deze manier wordt ingesteld, wordt deze gebruikt in plaats van de sleutel in het certificaat.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8901,6 +8954,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

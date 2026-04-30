@@ -85,6 +85,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'spreadsheet/static/src/helpers/neutralized_link.js',
+>>>>>>> upstream/18.0
 =======
             'spreadsheet/static/src/helpers/neutralized_link.js',
 >>>>>>> upstream/18.0
@@ -326,6 +330,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('remove', 'spreadsheet/static/src/print_assets/**/*'),
+>>>>>>> upstream/18.0
 =======
             ('remove', 'spreadsheet/static/src/print_assets/**/*'),
 >>>>>>> upstream/18.0

@@ -267,7 +267,13 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (not p.orderpoint_id and p.move_raw_ids) or (p.move_dest_ids.procure_method != 'make_to_order' and not p.move_raw_ids and not p.workorder_ids)
+=======
+        if not p.move_raw_ids:
+            return (not p.workorder_ids and (p.orderpoint_id or p.move_dest_ids.procure_method == 'make_to_stock'))
+        return not p.orderpoint_id
+>>>>>>> upstream/18.0
 =======
         if not p.move_raw_ids:
             return (not p.workorder_ids and (p.orderpoint_id or p.move_dest_ids.procure_method == 'make_to_stock'))
@@ -1874,6 +1880,7 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if location_dest_id.warehouse_id.manufacture_steps == 'pbm_sam' and values.get('move_dest_ids') and values.get('group_id') and values['move_dest_ids'][0].origin != values['group_id'].name:
 =======
         if location_dest_id.warehouse_id.manufacture_steps == 'pbm_sam' and values.get('move_dest_ids') and values.get('group_id') and not values['move_dest_ids'][0].origin.startswith(values['group_id'].name):
@@ -2829,6 +2836,9 @@ class StockRule(models.Model):
 =======
         if location_dest_id.warehouse_id.manufacture_steps == 'pbm_sam' and values.get('move_dest_ids') and values.get('group_id') and values['group_id'].name not in values['move_dest_ids'][0].origin:
 >>>>>>> upstream/18.0
+=======
+        if location_dest_id.warehouse_id.manufacture_steps == 'pbm_sam' and values.get('move_dest_ids') and values.get('group_id') and values['group_id'].name not in values['move_dest_ids'][0].origin:
+>>>>>>> upstream/18.0
             origin = values['move_dest_ids'][0].origin
             mo_values.update({
                 'name': values['group_id'].name,
@@ -3058,7 +3068,10 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3664,6 +3677,9 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4300,6 +4316,7 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if bom.type == 'normal':
 =======
         if not bom or bom.type == 'normal':
@@ -4387,6 +4404,9 @@ class StockRule(models.Model):
 >>>>>>> upstream/18.0
 =======
         if not bom or bom.type == 'normal':
+>>>>>>> upstream/18.0
+=======
+        if bom.type == 'normal':
 >>>>>>> upstream/18.0
 =======
         if bom.type == 'normal':

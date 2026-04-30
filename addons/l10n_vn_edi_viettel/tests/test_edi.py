@@ -52,7 +52,11 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -226,6 +230,7 @@ class TestVNEDI(AccountTestInvoicingCommon):
         cls.partner_a.write({
             'street': '121 Hang Bac Street',
             'state_id': cls.env.ref('base.state_vn_VN-HN').id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1147,6 +1152,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 =======
             'city': 'Hà Nội',
 >>>>>>> upstream/18.0
+=======
+            'city': 'Hà Nội',
+>>>>>>> upstream/18.0
             'country_id': cls.env.ref('base.vn').id,
             'vat': '0100109106-505',
             'phone': '3825 7670',
@@ -1221,6 +1229,7 @@ class TestVNEDI(AccountTestInvoicingCommon):
                     'buyerName': 'partner_a',
                     'buyerLegalName': 'partner_a',
                     'buyerTaxCode': '0100109106-505',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2105,6 +2114,8 @@ class TestVNEDI(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     'buyerAddressLine': '121 Hang Bac Street, Hà Nội, Hà Nội Vietnam',
                     'buyerPhoneNumber': '38257670',
                     'buyerEmail': 'partner_a@gmail.com',
@@ -2148,6 +2159,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2273,7 +2287,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'sellerAddressLine': '3 Alley 45 Phan Dinh Phung, Quan Thanh Ward',
+=======
+                    'sellerAddressLine': '3 Alley 45 Phan Dinh Phung, Quan Thanh Ward, Hà Nội Vietnam',
+>>>>>>> upstream/18.0
 =======
                     'sellerAddressLine': '3 Alley 45 Phan Dinh Phung, Quan Thanh Ward, Hà Nội Vietnam',
 >>>>>>> upstream/18.0
@@ -2515,7 +2533,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'itemName': 'product_a',
+=======
+                    'itemName': '[BN/1035] product_a',
+>>>>>>> upstream/18.0
 =======
                     'itemName': '[BN/1035] product_a',
 >>>>>>> upstream/18.0
@@ -2986,7 +3008,10 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3276,7 +3301,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'buyerAddressLine': '121 Hang Bac Street',
+=======
+                    'buyerAddressLine': '121 Hang Bac Street, Hà Nội, Hà Nội Vietnam',
+>>>>>>> upstream/18.0
 =======
                     'buyerAddressLine': '121 Hang Bac Street, Hà Nội, Hà Nội Vietnam',
 >>>>>>> upstream/18.0
@@ -3446,7 +3475,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'sellerAddressLine': '3 Alley 45 Phan Dinh Phung, Quan Thanh Ward',
+=======
+                    'sellerAddressLine': '3 Alley 45 Phan Dinh Phung, Quan Thanh Ward, Hà Nội Vietnam',
+>>>>>>> upstream/18.0
 =======
                     'sellerAddressLine': '3 Alley 45 Phan Dinh Phung, Quan Thanh Ward, Hà Nội Vietnam',
 >>>>>>> upstream/18.0
@@ -3710,6 +3743,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3975,6 +4011,7 @@ class TestVNEDI(AccountTestInvoicingCommon):
         # 2. Check the itemInfo to ensure that the values make sense
         expected = {
             'unitPrice': -100.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4668,6 +4705,8 @@ class TestVNEDI(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'itemTotalAmountWithoutTax': 100.0,
             'taxAmount': 10.0,
             'itemTotalAmountWithTax': 110.0,
@@ -4901,6 +4940,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5539,7 +5581,11 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], 0.5)
+=======
+        self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], "0.50")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(json_data['generalInvoiceInfo']['exchangeRate'], "0.50")
 >>>>>>> upstream/18.0
@@ -6092,6 +6138,7 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -6196,6 +6243,8 @@ class TestVNEDI(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6554,6 +6603,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6759,6 +6811,9 @@ class TestVNEDI(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

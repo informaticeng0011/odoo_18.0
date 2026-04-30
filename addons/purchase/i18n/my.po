@@ -76,6 +76,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Oakarmin Iron <oakarminiron@gmail.com>, 2025.
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -724,10 +725,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Odoo Translation Bot <c3p@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Oakarmin Iron <oakarminiron@gmail.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Odoo Translation Bot <c3p@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2019,6 +2026,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-14 08:29+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-04-14 08:29+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/purchase/"
 "my/>\n"
 "Language: my\n"
@@ -2026,6 +2038,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2575,6 +2588,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
@@ -2794,7 +2810,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
+=======
+"                (object.state in ('draft', 'sent') and 'Request for "
+"Quotation - %s' % (object.name) or\n"
+>>>>>>> upstream/18.0
 =======
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
@@ -3937,6 +3958,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -3948,6 +3970,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4601,6 +4625,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5247,10 +5274,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5895,6 +5925,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6549,6 +6582,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -6568,6 +6602,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7233,6 +7269,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7887,6 +7926,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -7894,6 +7934,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8542,6 +8584,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9188,6 +9233,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -9199,6 +9245,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9856,6 +9904,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10555,7 +10606,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
@@ -11645,9 +11701,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12291,6 +12350,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12898,7 +12960,11 @@ msgid "<span>Ask confirmation</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>အတည်ပြုဖို့မေးရန်</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>အတည်ပြုဖို့မေးရန်</span>"
 >>>>>>> upstream/18.0
@@ -13491,6 +13557,7 @@ msgstr ""
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14562,6 +14629,10 @@ msgid ""
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 >>>>>>> upstream/18.0
+=======
+"According to product configuration, the received quantity can be "
+"automatically computed by mechanism:\n"
+>>>>>>> upstream/18.0
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
@@ -14644,7 +14715,11 @@ msgid "Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လှုပ်ရှားမှုများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "လှုပ်ရှားမှုများ"
 >>>>>>> upstream/18.0
@@ -15062,7 +15137,11 @@ msgid "Add a note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှတ်စု တစ်ခုတိုး"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှတ်စု တစ်ခုတိုး"
 >>>>>>> upstream/18.0
@@ -15888,7 +15967,11 @@ msgid "Add a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်း တစ်ခုတိုး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်း တစ်ခုတိုး"
 >>>>>>> upstream/18.0
@@ -16692,7 +16775,11 @@ msgid "Add a section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အစိတ်အပိုင်း တစ်ခုတိုး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အစိတ်အပိုင်း တစ်ခုတိုး"
 >>>>>>> upstream/18.0
@@ -17564,7 +17651,11 @@ msgid "All RFQs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQs အားလုံး"
+>>>>>>> upstream/18.0
 =======
 msgstr "RFQs အားလုံး"
 >>>>>>> upstream/18.0
@@ -18354,7 +18445,11 @@ msgid "Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပိုင်းခြားနိုင်သောစာရင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပိုင်းခြားနိုင်သောစာရင်း"
 >>>>>>> upstream/18.0
@@ -18924,7 +19019,11 @@ msgid "Attribute Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝိသေသ တန်ဖိုးများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝိသေသ တန်ဖိုးများ"
 >>>>>>> upstream/18.0
@@ -19331,7 +19430,11 @@ msgid "Attributes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝိသေသများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝိသေသများ"
 >>>>>>> upstream/18.0
@@ -20059,7 +20162,11 @@ msgid "Auto-Complete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အလိုအလျှောက်ပြီးစီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အလိုအလျှောက်ပြီးစီး"
 >>>>>>> upstream/18.0
@@ -20305,7 +20412,11 @@ msgid "Auto-complete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အလိုအလျှောက်ပြီးစီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အလိုအလျှောက်ပြီးစီး"
 >>>>>>> upstream/18.0
@@ -20581,7 +20692,11 @@ msgid "Average Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပျမ်းမျှ ကုန်ကျစရိတ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပျမ်းမျှ ကုန်ကျစရိတ်"
 >>>>>>> upstream/18.0
@@ -20963,7 +21078,11 @@ msgid "Avg Order Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပျမ်းမျှအော်ဒါ တန်ဖိုး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပျမ်းမျှအော်ဒါ တန်ဖိုး"
 >>>>>>> upstream/18.0
@@ -21777,7 +21896,11 @@ msgid "Bill Control"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘေလ် ထိန်းချုပ်မှူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘေလ် ထိန်းချုပ်မှူ"
 >>>>>>> upstream/18.0
@@ -22505,7 +22628,11 @@ msgid "Bill Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘီလ် အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘီလ် အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -22750,7 +22877,11 @@ msgid "Bill Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘီလ် လိုင်းများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘီလ် လိုင်းများ"
 >>>>>>> upstream/18.0
@@ -22996,7 +23127,11 @@ msgid "Bill Matching"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘီလ် ကိုက်ညီမှူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘီလ် ကိုက်ညီမှူ"
 >>>>>>> upstream/18.0
@@ -23241,7 +23376,11 @@ msgid "Bill to Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဝယ်အော်ဒါ သို့ ဘီလ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဝယ်အော်ဒါ သို့ ဘီလ်"
 >>>>>>> upstream/18.0
@@ -23497,7 +23636,11 @@ msgid "Billed Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘေလ်ဆောင်ပြီး အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘေလ်ဆောင်ပြီး အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -23888,7 +24031,11 @@ msgid "Billing Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘေလ်အခြေအနေ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘေလ်အခြေအနေ"
 >>>>>>> upstream/18.0
@@ -24546,7 +24693,11 @@ msgid "Bills Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘီလ် လက်ခံပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘီလ် လက်ခံပြီး"
 >>>>>>> upstream/18.0
@@ -24980,7 +25131,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပယ်ဖျက်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပယ်ဖျက်ပြီး"
 >>>>>>> upstream/18.0
@@ -25852,7 +26007,11 @@ msgid "Catalog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကတ်တလောက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကတ်တလောက်"
 >>>>>>> upstream/18.0
@@ -26677,7 +26836,11 @@ msgid "Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အမျိုးအမည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အမျိုးအမည်"
 >>>>>>> upstream/18.0
@@ -27335,7 +27498,11 @@ msgid "Commercial Entity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကူးသန်းရောင်းဝယ် အဖွဲ့အစည်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကူးသန်းရောင်းဝယ် အဖွဲ့အစည်း"
 >>>>>>> upstream/18.0
@@ -27601,7 +27768,11 @@ msgid "Company Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကုမ္ပဏီ ၏ ငွေကြေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကုမ္ပဏီ ၏ ငွေကြေး"
 >>>>>>> upstream/18.0
@@ -28036,7 +28207,11 @@ msgid "Confirm Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါကို အတည်ပြု"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါကို အတည်ပြု"
 >>>>>>> upstream/18.0
@@ -28941,7 +29116,11 @@ msgid "Confirm Receipt Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရရှိသည့်နေ့ကို အတည်ပြုသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရရှိသည့်နေ့ကို အတည်ပြုသည်"
 >>>>>>> upstream/18.0
@@ -29824,7 +30003,11 @@ msgid "Control Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ထိန်းချုပ်မှူ ပေါ်လစီ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ထိန်းချုပ်မှူ ပေါ်လစီ"
 >>>>>>> upstream/18.0
@@ -30681,7 +30864,11 @@ msgid "Copy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကူး"
 >>>>>>> upstream/18.0
@@ -31542,7 +31729,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တည်ဆောက်သည့်အချိန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "တည်ဆောက်သည့်အချိန်"
 >>>>>>> upstream/18.0
@@ -32240,7 +32431,11 @@ msgid "Currency Rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ငွေလဲနှုန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ငွေလဲနှုန်း"
 >>>>>>> upstream/18.0
@@ -32974,7 +33169,11 @@ msgid "Days to Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အတည်ပြုရန်ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အတည်ပြုရန်ရက်"
 >>>>>>> upstream/18.0
@@ -33219,7 +33418,11 @@ msgid "Days to Receive"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လက်ခံရန် ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လက်ခံရန် ရက်"
 >>>>>>> upstream/18.0
@@ -33586,7 +33789,11 @@ msgid "Decline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ငြင်းပယ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ငြင်းပယ်"
 >>>>>>> upstream/18.0
@@ -34402,7 +34609,11 @@ msgid "Disc.%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒစ်စကောင့်%"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒစ်စကောင့်%"
 >>>>>>> upstream/18.0
@@ -35267,7 +35478,11 @@ msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒစ်စကောင့်(%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒစ်စကောင့်(%)"
 >>>>>>> upstream/18.0
@@ -36090,7 +36305,11 @@ msgid "Display Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပြသသောပုံစံ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပြသသောပုံစံ"
 >>>>>>> upstream/18.0
@@ -36599,7 +36818,11 @@ msgid "Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဒိုမိန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဒိုမိန်း"
 >>>>>>> upstream/18.0
@@ -36936,7 +37159,11 @@ msgid "Dropship Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပို့ရမည့် လိပ်စာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပို့ရမည့် လိပ်စာ"
 >>>>>>> upstream/18.0
@@ -37809,7 +38036,11 @@ msgid "Fiscal Position"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘဏ္ဍာရေး တည်နေရာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘဏ္ဍာရေး တည်နေရာ"
 >>>>>>> upstream/18.0
@@ -38640,7 +38871,11 @@ msgid "Fully Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘေလ်ပြည့်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘေလ်ပြည့်ပြီး"
 >>>>>>> upstream/18.0
@@ -39472,7 +39707,11 @@ msgid "Gross Weight"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လုံးပေါင်း အလေးချိန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လုံးပေါင်း အလေးချိန်"
 >>>>>>> upstream/18.0
@@ -40324,7 +40563,11 @@ msgid "Group By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အုပ်စုအလိုက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အုပ်စုအလိုက်"
 >>>>>>> upstream/18.0
@@ -41149,7 +41392,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အိုင်ကွန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အိုင်ကွန်"
 >>>>>>> upstream/18.0
@@ -42008,7 +42255,11 @@ msgid "Incoterm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အင်ကိုတမ်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "အင်ကိုတမ်း"
 >>>>>>> upstream/18.0
@@ -42579,7 +42830,11 @@ msgid "Invoicing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပြေစာထုတ်ခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပြေစာထုတ်ခြင်း"
 >>>>>>> upstream/18.0
@@ -43036,7 +43291,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဂျာနယ်စာရင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဂျာနယ်စာရင်း"
 >>>>>>> upstream/18.0
@@ -43873,6 +44132,7 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ဂျာနယ်ပစ္စည်း"
@@ -43891,6 +44151,9 @@ msgstr "ဂျာနယ်ပစ္စည်း"
 >>>>>>> upstream/18.0
 =======
 msgstr "ဂျာနယ်ပစ္စည်း"
+>>>>>>> upstream/18.0
+=======
+msgstr "ဂျာနယ်စာရင်းလိုင်း"
 >>>>>>> upstream/18.0
 =======
 msgstr "ဂျာနယ်စာရင်းလိုင်း"
@@ -44723,7 +44986,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးပြင်ဆင်သူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးပြင်ဆင်သူ"
 >>>>>>> upstream/18.0
@@ -45545,7 +45812,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံးပြင်ဆင်ချိန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံးပြင်ဆင်ချိန်"
 >>>>>>> upstream/18.0
@@ -46238,7 +46509,11 @@ msgid "Lead Time to Purchase"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝယ်ရန် အချိန်ပို"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝယ်ရန် အချိန်ပို"
 >>>>>>> upstream/18.0
@@ -47052,8 +47327,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -48179,7 +48459,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါတင်၊ လက်ခံရရှိ၊ ငွေချေသည့် အရေအတွက်အားလုံးကိုတိကျသေချာစေပါသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါတင်၊ လက်ခံရရှိ၊ ငွေချေသည့် အရေအတွက်အားလုံးကိုတိကျသေချာစေပါသည်"
 >>>>>>> upstream/18.0
@@ -49049,7 +49333,11 @@ msgid "Manual"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မန်နူရယ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "မန်နူရယ်"
 >>>>>>> upstream/18.0
@@ -49871,8 +50159,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for procuring products, they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for procuring products, they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -50949,8 +51242,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -52014,7 +52312,11 @@ msgid "Merge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပေါင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပေါင်း"
 >>>>>>> upstream/18.0
@@ -52835,7 +53137,11 @@ msgid "Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မက်ဆေ့ဂျ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မက်ဆေ့ဂျ်များ"
 >>>>>>> upstream/18.0
@@ -53571,7 +53877,11 @@ msgid "My Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကျွန်ပ်၏ အော်ဒါများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကျွန်ပ်၏ အော်ဒါများ"
 >>>>>>> upstream/18.0
@@ -54000,7 +54310,11 @@ msgid "My RFQs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကျွန်ပ်၏ RFQs"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကျွန်ပ်၏ RFQs"
 >>>>>>> upstream/18.0
@@ -54609,6 +54923,7 @@ msgstr ""
 
 #. module: purchase
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55371,6 +55686,11 @@ msgstr "အသစ်"
 msgid "New"
 msgstr "အသစ်"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/purchase/models/purchase_order.py:0
+msgid "New"
+msgstr "အသစ်"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -55394,6 +55714,9 @@ msgstr "အသစ်ဆုံး"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55692,7 +56015,11 @@ msgid "Normal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပုံမှန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပုံမှန်"
 >>>>>>> upstream/18.0
@@ -56542,7 +56869,11 @@ msgid "Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှတ်စု"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှတ်စု"
 >>>>>>> upstream/18.0
@@ -57385,7 +57716,11 @@ msgid "Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှတ်စုများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှတ်စုများ"
 >>>>>>> upstream/18.0
@@ -58222,7 +58557,11 @@ msgid "Nothing to Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘေလ်တောင်းစရာမရှိ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘေလ်တောင်းစရာမရှိ"
 >>>>>>> upstream/18.0
@@ -59070,7 +59409,11 @@ msgid "Number of errors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အယ်ရာ အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အယ်ရာ အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -59917,7 +60260,11 @@ msgid "Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အိုဒူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အိုဒူး"
 >>>>>>> upstream/18.0
@@ -60754,7 +61101,11 @@ msgid "On ordered quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါပေါ်မှ အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါပေါ်မှ အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -61599,7 +61950,11 @@ msgid "On received quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လက်ခံရရှိသော အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လက်ခံရရှိသော အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -62476,7 +62831,11 @@ msgid "Order Date: Last 365 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါရက် - နောက်ဆုံး ၃၆၅ ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါရက် - နောက်ဆုံး ၃၆၅ ရက်"
 >>>>>>> upstream/18.0
@@ -63355,7 +63714,11 @@ msgid "Ordered quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှာယူပြီး အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှာယူပြီး အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -64264,7 +64627,11 @@ msgid "Other Information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခြား အချက်အလက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခြား အချက်အလက်"
 >>>>>>> upstream/18.0
@@ -65213,7 +65580,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65859,6 +66229,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66518,7 +66891,11 @@ msgid "Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စျေးနှုန်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "စျေးနှုန်း"
 >>>>>>> upstream/18.0
@@ -67387,7 +67764,11 @@ msgid "Print RFQ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ ကို ပရင့်"
+>>>>>>> upstream/18.0
 =======
 msgstr "RFQ ကို ပရင့်"
 >>>>>>> upstream/18.0
@@ -68212,7 +68593,11 @@ msgid "Priority"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဉီးစားပေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဉီးစားပေး"
 >>>>>>> upstream/18.0
@@ -69019,7 +69404,11 @@ msgid "Product Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကုန်ပစ္စည်း Category များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကုန်ပစ္စည်း Category များ"
 >>>>>>> upstream/18.0
@@ -69833,7 +70222,11 @@ msgid "Product Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကုန်ပစ္စည်း Category"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကုန်ပစ္စည်း Category"
 >>>>>>> upstream/18.0
@@ -70667,7 +71060,11 @@ msgid "Product Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပစ္စည်းအမျိုးအစား"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပစ္စည်းအမျိုးအစား"
 >>>>>>> upstream/18.0
@@ -71585,7 +71982,11 @@ msgid "Purchase Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဝယ်ဖော်ပြချက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဝယ်ဖော်ပြချက်"
 >>>>>>> upstream/18.0
@@ -72622,7 +73023,11 @@ msgid "Purchase: Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဝယ်: အဝယ် အော်ဒါ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဝယ်: အဝယ် အော်ဒါ"
 >>>>>>> upstream/18.0
@@ -73473,7 +73878,11 @@ msgid "Purchased"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝယ်ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝယ်ပြီး"
 >>>>>>> upstream/18.0
@@ -74317,7 +74726,11 @@ msgid "Purchased Last 7 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံး ၇ ရက် အဝယ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံး ၇ ရက် အဝယ်များ"
 >>>>>>> upstream/18.0
@@ -75157,7 +75570,11 @@ msgid "Purchased in the last 365 days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "နောက်ဆုံး ၃၆၅ ရက် အဝယ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "နောက်ဆုံး ၃၆၅ ရက် အဝယ်များ"
 >>>>>>> upstream/18.0
@@ -75951,7 +76368,11 @@ msgid "Purchases"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အဝယ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အဝယ်များ"
 >>>>>>> upstream/18.0
@@ -76665,7 +77086,11 @@ msgid "Qty Ordered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အော်ဒါထားသော အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "အော်ဒါထားသော အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -77529,7 +77954,11 @@ msgid "RFQ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "🤝RFQ"
+>>>>>>> upstream/18.0
 =======
 msgstr "🤝RFQ"
 >>>>>>> upstream/18.0
@@ -78383,7 +78812,11 @@ msgid "RFQ Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ ပို့ပြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "RFQ ပို့ပြီး"
 >>>>>>> upstream/18.0
@@ -79226,7 +79659,11 @@ msgid "RFQs Sent Last 7 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လွန်ခဲ့သော ၇ ရက်မှRFQs"
+>>>>>>> upstream/18.0
 =======
 msgstr "လွန်ခဲ့သော ၇ ရက်မှRFQs"
 >>>>>>> upstream/18.0
@@ -80098,7 +80535,11 @@ msgid "Received quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "လက်ခံပြီး အရေအတွက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "လက်ခံပြီး အရေအတွက်"
 >>>>>>> upstream/18.0
@@ -80994,7 +81435,11 @@ msgid "Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မှီငြမ်းချက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "မှီငြမ်းချက်"
 >>>>>>> upstream/18.0
@@ -81847,8 +82292,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 =======
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
@@ -82949,7 +83399,11 @@ msgid "Reporting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရီပို့ တင်ပြခြင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရီပို့ တင်ပြခြင်း"
 >>>>>>> upstream/18.0
@@ -83817,7 +84271,11 @@ msgid "Request for Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "🤝RFQ🤝"
+>>>>>>> upstream/18.0
 =======
 msgstr "🤝RFQ🤝"
 >>>>>>> upstream/18.0
@@ -84649,9 +85107,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85295,6 +85756,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -85935,7 +86399,11 @@ msgid "Responsible User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တာဝန်ရှိသူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တာဝန်ရှိသူ"
 >>>>>>> upstream/18.0
@@ -86790,7 +87258,11 @@ msgid "Scheduled Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စီစဉ်ထားသော ရက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "စီစဉ်ထားသော ရက်"
 >>>>>>> upstream/18.0
@@ -87684,7 +88156,11 @@ msgid "Section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အစိတ်အပိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "အစိတ်အပိုင်း"
 >>>>>>> upstream/18.0
@@ -88621,7 +89097,11 @@ msgid "Share"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဝေမျှ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဝေမျှ"
 >>>>>>> upstream/18.0
@@ -89453,7 +89933,11 @@ msgid "Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မူလအစ"
+>>>>>>> upstream/18.0
 =======
 msgstr "မူလအစ"
 >>>>>>> upstream/18.0
@@ -90261,7 +90745,11 @@ msgid "Source Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "မူလ စာရွက်စာတမ်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "မူလ စာရွက်စာတမ်း"
 >>>>>>> upstream/18.0
@@ -90943,7 +91431,11 @@ msgid "Starred"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "⭐ပြထားသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "⭐ပြထားသည်"
 >>>>>>> upstream/18.0
@@ -91717,6 +92209,7 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ပြည်နယ်"
@@ -91969,6 +92462,9 @@ msgstr "ပြည်နယ်"
 >>>>>>> upstream/18.0
 =======
 msgstr "ပြည်နယ်"
+>>>>>>> upstream/18.0
+=======
+msgstr "အခြေအနေ"
 >>>>>>> upstream/18.0
 =======
 msgstr "အခြေအနေ"
@@ -92358,7 +92854,11 @@ msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခြေအနေ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခြေအနေ"
 >>>>>>> upstream/18.0
@@ -93089,7 +93589,11 @@ msgid "Supplier Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဤငွေကြေးဖြင့်ရောင်းသည်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဤငွေကြေးဖြင့်ရောင်းသည်"
 >>>>>>> upstream/18.0
@@ -93864,7 +94368,11 @@ msgid "Terms and Conditions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "သဘောတူညီမှူနှင့် အခြေအနေများ"
+>>>>>>> upstream/18.0
 =======
 msgstr "သဘောတူညီမှူနှင့် အခြေအနေများ"
 >>>>>>> upstream/18.0
@@ -94337,7 +94845,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
+=======
+"                    converted into a purchase order, you will be able to "
+"control the receipt\n"
+>>>>>>> upstream/18.0
 =======
 "                    converted into a purchase order, you will be able to "
 "control the receipt\n"
@@ -95415,8 +95928,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel"
 " this PO"
+=======
+"The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
+"this PO"
+>>>>>>> upstream/18.0
 =======
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
@@ -96517,9 +97035,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97163,6 +97684,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97826,7 +98350,11 @@ msgid "This note is added to purchase orders."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဤစာ ကို အဝယ်အော်ဒါများတွင် ထည့်သွင်းမည်။"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဤစာ ကို အဝယ်အော်ဒါများတွင် ထည့်သွင်းမည်။"
 >>>>>>> upstream/18.0
@@ -98876,7 +99404,11 @@ msgid "Units of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တိုင်းတာသည့် ယူနစ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တိုင်းတာသည့် ယူနစ်များ"
 >>>>>>> upstream/18.0
@@ -99753,7 +100285,11 @@ msgid "Units of Measure Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တိုင်းတာသည့် ယူနစ်များ ခွဲခြားပုံ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တိုင်းတာသည့် ယူနစ်များ ခွဲခြားပုံ"
 >>>>>>> upstream/18.0
@@ -100608,7 +101144,11 @@ msgid "Units of Measures"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "တိုင်းတာသည့် ယူနစ်များ"
+>>>>>>> upstream/18.0
 =======
 msgstr "တိုင်းတာသည့် ယူနစ်များ"
 >>>>>>> upstream/18.0
@@ -101442,7 +101982,11 @@ msgid "Untaxed Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အခွန်မပါ ပမာဏ"
+>>>>>>> upstream/18.0
 =======
 msgstr "အခွန်မပါ ပမာဏ"
 >>>>>>> upstream/18.0
@@ -102224,7 +102768,11 @@ msgid "Urgent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အရေးတကြီး"
+>>>>>>> upstream/18.0
 =======
 msgstr "အရေးတကြီး"
 >>>>>>> upstream/18.0
@@ -102730,7 +103278,11 @@ msgid "Vendor Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ရောင်းသူ့ အညွှန်းစာ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ရောင်းသူ့ အညွှန်းစာ"
 >>>>>>> upstream/18.0
@@ -103600,7 +104152,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဗျူး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဗျူး"
 >>>>>>> upstream/18.0
@@ -104418,7 +104974,11 @@ msgid "Waiting Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဘေလ်စောင့်နေဆဲ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဘေလ်စောင့်နေဆဲ"
 >>>>>>> upstream/18.0
@@ -105232,7 +105792,11 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "❗သတိပေးချက်"
+>>>>>>> upstream/18.0
 =======
 msgstr "❗သတိပေးချက်"
 >>>>>>> upstream/18.0
@@ -106112,8 +106676,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
+=======
+"shipment, Odoo will send the vendor an email to ask confirmation of shipment "
+"dates and keep you informed in case of any delays. To get the vendor's "
+>>>>>>> upstream/18.0
 =======
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment "
 "dates and keep you informed in case of any delays. To get the vendor's "
@@ -107246,9 +107815,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107892,6 +108464,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

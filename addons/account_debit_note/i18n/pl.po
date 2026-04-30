@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_debit_note
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -713,6 +714,9 @@
 =======
 # * account_debit_note
 >>>>>>> upstream/18.0
+=======
+# * account_debit_note
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -947,6 +951,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1369,6 +1374,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -1428,6 +1436,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2227,6 +2236,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-11 09:02+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -2249,6 +2260,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2520,6 +2534,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2942,6 +2957,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.16.2\n"
@@ -3016,6 +3034,7 @@ msgstr "Anuluj"
 #. module: account_debit_note
 #: model:ir.model.fields,help:account_debit_note.field_account_journal__debit_sequence
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4168,6 +4187,10 @@ msgid ""
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
 >>>>>>> upstream/18.0
+=======
+"Check this box if you don't want to share the same sequence for invoices and "
+"debit notes made from this journal"
+>>>>>>> upstream/18.0
 msgstr ""
 "Zaznacz to pole, jeśli nie chcesz, aby numeracja faktur i not debetowych z "
 "tego dziennika była taka sama."
@@ -4268,7 +4291,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "do not debetowych z not kredytowych."
+=======
+"do not debetowych z faktur korygujących."
+>>>>>>> upstream/18.0
 =======
 "do not debetowych z faktur korygujących."
 >>>>>>> upstream/18.0
@@ -4623,7 +4650,11 @@ msgstr "Noty debetowe stworzone dla tej faktury"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/account_debit_note/models/account_move.py:0
 >>>>>>> upstream/18.0
@@ -5347,8 +5378,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Możesz stworzyć notę debetową jedynie dla Faktury Klienta, Noty Kredytowej "
 "Klienta, Rachunku Dostawcy lub Noty Kredytowej Dostawcy."
+=======
+"Możesz stworzyć notę debetową jedynie dla Faktury Klienta, Faktury "
+"korygującej Klienta, Rachunku Dostawcy lub Faktury korygującej Dostawcy."
+>>>>>>> upstream/18.0
 =======
 "Możesz stworzyć notę debetową jedynie dla Faktury Klienta, Faktury "
 "korygującej Klienta, Rachunku Dostawcy lub Faktury korygującej Dostawcy."
@@ -5662,8 +5698,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
+>>>>>>> upstream/18.0
 =======
 "You can't make a debit note for an invoice that is already linked to a debit "
 "note."

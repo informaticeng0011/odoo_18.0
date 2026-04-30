@@ -213,7 +213,10 @@ class TestSelector(TransactionCase):
         self.assertEqual({('standard', None, None, None, None), }, tags.exclude)  # exept standard ones
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_tags_selector_split(self):
         self.assertEqual(
             list(TagsSelector(r'.test_1[param1,param2]').parameters),
@@ -265,6 +268,9 @@ class TestSelector(TransactionCase):
             "backslashes can be escaped",
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 @tagged('nodatabase')

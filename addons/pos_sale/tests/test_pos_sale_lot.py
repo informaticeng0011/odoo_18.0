@@ -99,7 +99,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         order = self.env['pos.order'].sync_from_ui([pos_order])
         self.assertEqual(self.env['pos.order'].browse(order['pos.order'][0]['id']).picking_ids.move_line_ids.lot_id, lot1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_read_converted_lot_quantities_pick_then_deliver(self):
         """
@@ -169,4 +172,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.assertEqual(conv['product_uom_qty'], 2)
         lot_qty_sum = sum(conv.get('lot_qty_by_name', {}).values())
         self.assertEqual(lot_qty_sum, 2)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

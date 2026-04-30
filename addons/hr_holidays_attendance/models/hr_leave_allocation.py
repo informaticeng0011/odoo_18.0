@@ -35,6 +35,7 @@ class HolidaysAllocation(models.Model):
     def create(self, vals_list):
         res = super().create(vals_list)
 <<<<<<< HEAD
+<<<<<<< HEAD
         for allocation in res:
             if allocation.overtime_deductible:
                 duration = allocation.number_of_hours_display
@@ -50,10 +51,14 @@ class HolidaysAllocation(models.Model):
 =======
         res._validate_overtime_and_create_adjustment()
 >>>>>>> upstream/18.0
+=======
+        res._validate_overtime_and_create_adjustment()
+>>>>>>> upstream/18.0
         return res
 
     def write(self, vals):
         res = super().write(vals)
+<<<<<<< HEAD
 <<<<<<< HEAD
         if 'number_of_days' not in vals:
             return res
@@ -61,6 +66,8 @@ class HolidaysAllocation(models.Model):
             raise ValidationError(_('Only an Officer or Administrator is allowed to edit the allocation duration in this status.'))
         for allocation in self.sudo().filtered('overtime_id'):
 =======
+=======
+>>>>>>> upstream/18.0
         if 'number_of_days' not in vals and 'holiday_status_id' not in vals:
             return res
         if not self.env.user.has_group("hr_holidays.group_hr_holidays_user") and any(allocation.state not in ('draft', 'confirm') for allocation in self):
@@ -69,6 +76,9 @@ class HolidaysAllocation(models.Model):
         for allocation in self.sudo().filtered('overtime_id'):
             if 'number_of_days' not in vals:
                 continue
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             employee = allocation.employee_id
             duration = allocation.number_of_hours_display
@@ -85,7 +95,10 @@ class HolidaysAllocation(models.Model):
         return res
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _validate_overtime_and_create_adjustment(self):
         overtime_vals_list = []
         allocations_to_update = []
@@ -109,6 +122,9 @@ class HolidaysAllocation(models.Model):
             for allocation, overtime in zip(allocations_to_update, overtimes):
                 allocation.sudo().overtime_id = overtime.id
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _get_accrual_plan_level_work_entry_prorata(self, level, start_period, start_date, end_period, end_date):
         self.ensure_one()
@@ -206,6 +222,7 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         attendances = self.env['hr.attendance'].sudo().search([
             ('employee_id', '=', self.employee_id.id),
             ('check_in', '>=', start_dt),
@@ -214,6 +231,8 @@ class HolidaysAllocation(models.Model):
         work_entry_prorata = sum(attendances.mapped('worked_hours'))
         return work_entry_prorata
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -491,6 +510,9 @@ class HolidaysAllocation(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

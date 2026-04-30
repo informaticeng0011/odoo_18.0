@@ -4,7 +4,12 @@ from odoo.exceptions import ValidationError
 from odoo.tests.common import TransactionCase
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form
+=======
+from odoo.tests import Form, tagged
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged
 from odoo import Command
@@ -510,7 +515,10 @@ class TestAnalyticAccount(TestMrpAnalyticAccount):
         self.assertEqual(mo.move_raw_ids.analytic_account_line_ids.category, 'manufacturing_order')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -557,6 +565,9 @@ class TestAnalyticAccountTimesheet(TestMrpAnalyticAccount):
             'production_id': mo2.id,
         }).action_validate()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

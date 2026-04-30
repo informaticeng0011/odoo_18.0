@@ -2,6 +2,10 @@ import * as ProductScreen from "@point_of_sale/../tests/tours/utils/product_scre
 import * as Chrome from "@point_of_sale/../tests/tours/utils/chrome_util";
 import * as Dialog from "@point_of_sale/../tests/tours/utils/dialog_util";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as Offline from "@point_of_sale/../tests/tours/utils/offline_util";
+>>>>>>> upstream/18.0
 =======
 import * as Offline from "@point_of_sale/../tests/tours/utils/offline_util";
 >>>>>>> upstream/18.0
@@ -267,7 +271,10 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -856,6 +863,9 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1387,7 +1397,10 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1784,6 +1797,9 @@ registry.category("web_tour.tours").add("GS1BarcodeScanningTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2062,7 +2078,10 @@ registry.category("web_tour.tours").add("BarcodeScanPartnerTour", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("test_offline_barcode_not_in_pos", {
     steps: () =>
@@ -2076,4 +2095,7 @@ registry.category("web_tour.tours").add("test_offline_barcode_not_in_pos", {
             Chrome.endTour(),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

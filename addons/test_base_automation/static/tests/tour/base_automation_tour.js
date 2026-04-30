@@ -809,7 +809,11 @@ registry.category("web_tour.tours").add("base_automation.on_change_rule_creation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".ui-menu-item > a:contains(/^View$/)",
+=======
+            trigger: ".ui-menu-item > a:text(View)",
+>>>>>>> upstream/18.0
 =======
             trigger: ".ui-menu-item > a:text(View)",
 >>>>>>> upstream/18.0
@@ -1513,7 +1517,11 @@ registry.category("web_tour.tours").add("base_automation.on_change_rule_creation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ".ui-menu-item > a:contains(/^Active$/)",
+=======
+            trigger: ".ui-menu-item > a:text(Active)",
+>>>>>>> upstream/18.0
 =======
             trigger: ".ui-menu-item > a:text(Active)",
 >>>>>>> upstream/18.0

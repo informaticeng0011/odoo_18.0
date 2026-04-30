@@ -50,6 +50,7 @@ const urlRegexp =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Escape < > & as html entities
  *
  * @param {string}
@@ -69,6 +70,8 @@ const _escapeEntities = (function () {
 })();
 
 /**
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -246,6 +249,7 @@ function linkify(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result = htmlJoin(result, text.slice(curIndex, match.index));
         // Decode the url first, in case it's already an encoded url
         const url = decodeURI(match[0]);
@@ -258,6 +262,8 @@ function linkify(text) {
                 )}</a>`
             )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -365,6 +371,9 @@ function linkify(text) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

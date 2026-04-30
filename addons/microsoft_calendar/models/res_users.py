@@ -79,7 +79,10 @@ class User(models.Model):
 
     def _sync_microsoft_calendar(self):
         self.ensure_one()
+<<<<<<< HEAD
         self.sudo().microsoft_last_sync_date = fields.datetime.now()
+=======
+>>>>>>> upstream/18.0
         if self._get_microsoft_sync_status() != "sync_active":
             return False
 
@@ -419,7 +422,11 @@ class User(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if sync_status == 'sync_active' and not self.microsoft_calendar_token:
+=======
+            if sync_status == 'sync_active' and not self.sudo().microsoft_calendar_token:
+>>>>>>> upstream/18.0
 =======
             if sync_status == 'sync_active' and not self.sudo().microsoft_calendar_token:
 >>>>>>> upstream/18.0

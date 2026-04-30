@@ -185,6 +185,7 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(lead.reveal_id, '123_ClearbitID_%s' % base_name, 'Ensure reveal_id is set to clearbit ID')
             # clearbit information
             self.assertEqual(lead.contact_name, 'Contact %s 0' % base_name)
@@ -200,6 +201,8 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
             self.assertEqual(lead.street, 'Mennrather Str. 123456')
             self.assertEqual(lead.website, 'https://www.%s.de' % base_name)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -508,6 +511,9 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -834,6 +840,7 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(lead.reveal_id, '123_ClearbitID_%s' % base_name, 'Ensure reveal_id is set to clearbit ID')
             # clearbit information
             self.assertFalse(lead.contact_name)
@@ -848,6 +855,8 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
             self.assertEqual(lead.street, 'Mennrather Str. 123456')
             self.assertEqual(lead.website, 'https://www.%s.de' % base_name)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1156,6 +1165,9 @@ class TestLeadMine(TestCrmCommon, MockIAPReveal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

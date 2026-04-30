@@ -1,4 +1,5 @@
 import re
+<<<<<<< HEAD
 import requests
 from unittest.mock import patch
 
@@ -23,6 +24,16 @@ class TestAuthLDAP(BaseCase):
             with self.registry.cursor() as cr:
                 cr.execute("DELETE FROM res_users WHERE login = 'test_ldap_user'")
         self.addCleanup(remove_ldap_user)
+=======
+from unittest.mock import patch
+
+import odoo
+from odoo.tests.common import HttpCase, tagged
+
+
+@tagged("-at_install", "post_install")
+class TestAuthLDAP(HttpCase):
+>>>>>>> upstream/18.0
 
     def test_auth_ldap(self):
         def _get_ldap_dicts(*args, **kwargs):
@@ -53,9 +64,14 @@ class TestAuthLDAP(BaseCase):
                 },
             )
 
+<<<<<<< HEAD
         with self.registry.cursor() as cr:
             cr.execute("SELECT id FROM res_users WHERE login = 'test_ldap_user'")
             self.assertFalse(cr.rowcount, "User should not be present")
+=======
+        self.env.cr.execute("SELECT id FROM res_users WHERE login = 'test_ldap_user'")
+        self.assertFalse(self.env.cr.rowcount, "User should not be present")
+>>>>>>> upstream/18.0
 
         body = self.url_open("/web/login").text
         csrf = re.search(r'csrf_token: "(\w*?)"', body).group(1)
@@ -76,8 +92,15 @@ class TestAuthLDAP(BaseCase):
         self.assertEqual(
             session.sid, res.cookies["session_id"], "A session must exist at this point")
 
+<<<<<<< HEAD
         with self.registry.cursor() as cr:
             cr.execute(
                 "SELECT id FROM res_users WHERE login = %s and id = %s",
                 ("test_ldap_user", session.uid))
             self.assertTrue(cr.rowcount, "User should be present")
+=======
+        self.env.cr.execute(
+            "SELECT id FROM res_users WHERE login = %s and id = %s",
+            ("test_ldap_user", session.uid))
+        self.assertTrue(self.env.cr.rowcount, "User should be present")
+>>>>>>> upstream/18.0

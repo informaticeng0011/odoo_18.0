@@ -222,6 +222,7 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TAX_KIND_SELECTION = [
     ('vat', 'VAT tax'),
     ('withholding', 'Withholding tax'),
@@ -300,6 +301,8 @@ TAX_KIND_SELECTION = [
 =======
 >>>>>>> upstream/18.0
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -783,6 +786,7 @@ PENSION_FUND_TYPE_SELECTION = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     ('TC01', 'National pension fund for lawyers and solicitors'),
     ('TC02', 'Pension fund for accountants with a degree'),
     ('TC03', 'Pension fund for surveyors'),
@@ -806,6 +810,8 @@ PENSION_FUND_TYPE_SELECTION = [
     ('TC21', 'ENPAP national pension fund for psychologists'),
     ('TC22', 'INPS national pension fund'),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1050,6 +1056,9 @@ PENSION_FUND_TYPE_SELECTION = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1209,6 +1218,7 @@ class AccountTax(models.Model):
     l10n_it_withholding_reason = fields.Selection(WITHHOLDING_REASON_SELECTION, string="Withholding tax reason (Italy)", help="Withholding tax reason. Only for Italian accounting EDI.")
     l10n_it_pension_fund_type = fields.Selection(PENSION_FUND_TYPE_SELECTION, string="Pension fund type (Italy)", help="Pension Fund Type. Only for Italian accounting EDI.")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1866,6 +1876,8 @@ class AccountTax(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _l10n_it_filter_kind(self, kind):
         # EXTENDS l10n_it_edi
         match kind:
@@ -2053,7 +2065,10 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2604,6 +2619,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3193,6 +3211,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3265,6 +3284,8 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3814,6 +3835,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4399,7 +4423,11 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if tax.l10n_it_withholding_type and tax.l10n_it_withholding_type != 'RT04' and tax.amount >= 0:
+=======
+            if tax.l10n_it_withholding_type and tax.amount >= 0:
+>>>>>>> upstream/18.0
 =======
             if tax.l10n_it_withholding_type and tax.amount >= 0:
 >>>>>>> upstream/18.0
@@ -5277,6 +5305,7 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (tax.l10n_it_withholding_type or tax.l10n_it_withholding_reason) and tax.l10n_it_pension_fund_type:
                 raise ValidationError(_("Tax '%s' cannot be both a Withholding tax and a Pension fund tax. Please create two separate ones.", tax.name))
 =======
@@ -5352,6 +5381,8 @@ class AccountTax(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5899,6 +5930,9 @@ class AccountTax(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

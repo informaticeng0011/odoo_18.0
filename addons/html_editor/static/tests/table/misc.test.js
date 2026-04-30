@@ -101,6 +101,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
 import { setupEditor } from "../_helpers/editor";
 import { click, queryAll, queryFirst, waitFor } from "@odoo/hoot-dom";
@@ -956,6 +957,8 @@ import { expectElementCount } from "../_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { describe, expect, test } from "@odoo/hoot";
 import { setupEditor } from "../_helpers/editor";
 import { click, queryAll, queryFirst, waitFor } from "@odoo/hoot-dom";
@@ -1066,6 +1069,9 @@ import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1379,12 +1385,15 @@ function insertTable(editor, cols, rows) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("can insert a table", async () => {
     const { el, editor } = await setupEditor("<p>hello[]</p>", {});
     insertTable(editor, 4, 3);
     expect(el.querySelectorAll("tr").length).toBe(3);
     expect(el.querySelectorAll("td").length).toBe(12);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1757,6 +1766,9 @@ describe("insertTable", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1984,6 +1996,7 @@ test("can color cells", async () => {
 
     await click(".o_color_button[data-color='#6BADDE']");
     await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3041,6 +3054,9 @@ test("can color cells", async () => {
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
     expect(".o_font_color_selector").toHaveCount(0); // selector closed
 
     // Collapse selection to deselect cells
@@ -3278,9 +3294,15 @@ test("can color cells", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(cells[0]).toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
     expect(cells[1]).toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
     expect(cells[2]).not.toHaveStyle({ "background-color": "rgb(107, 173, 222)" });
+=======
+    expect(cells[0]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+    expect(cells[1]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+    expect(cells[2]).not.toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
+>>>>>>> upstream/18.0
 =======
     expect(cells[0]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });
     expect(cells[1]).toHaveStyle({ "background-color": "rgba(107, 173, 222, 0.6)" });

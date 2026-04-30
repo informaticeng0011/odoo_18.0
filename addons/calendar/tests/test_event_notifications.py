@@ -25,6 +25,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
         cls.partner = cls.user.partner_id
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2018')  # class event has hardcoded dates
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2018')  # class event has hardcoded dates
 >>>>>>> upstream/18.0
@@ -56,6 +60,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
             }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2018')  # class event has hardcoded dates
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2018')  # class event has hardcoded dates
 >>>>>>> upstream/18.0
@@ -151,6 +159,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
             self.event.start_date += relativedelta(days=-1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2018')  # class event has hardcoded dates
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2018')  # class event has hardcoded dates
 >>>>>>> upstream/18.0
@@ -727,7 +739,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1488,6 +1503,9 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

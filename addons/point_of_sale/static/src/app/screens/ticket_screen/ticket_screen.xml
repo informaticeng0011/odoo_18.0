@@ -275,7 +275,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.uiState.locked ? ()=>{} : this._setOrder(order)" >
+=======
+                                    t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.finalized ? ()=>{} : this._setOrder(order)" >
+>>>>>>> upstream/18.0
 =======
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() => order.finalized ? ()=>{} : this._setOrder(order)" >
 >>>>>>> upstream/18.0
@@ -1229,7 +1233,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.uiState.locked ? ()=>{} : this._setOrder(order)" >
+=======
+                                    t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.finalized ? ()=>{} : this._setOrder(order)" >
+>>>>>>> upstream/18.0
 =======
                                     t-on-click="() => this.onClickOrder(order)" t-on-dblclick="() =>  order.finalized ? ()=>{} : this._setOrder(order)" >
 >>>>>>> upstream/18.0
@@ -2103,7 +2111,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-set="_destinationOrderUid" t-value="toRefundDetail.destination_order_uuid"/>
+=======
+                                    <t t-set="_destinationOrderUid" t-value="toRefundDetail.destination_order?.uuid"/>
+>>>>>>> upstream/18.0
 =======
                                     <t t-set="_destinationOrderUid" t-value="toRefundDetail.destination_order?.uuid"/>
 >>>>>>> upstream/18.0

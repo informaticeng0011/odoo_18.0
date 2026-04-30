@@ -21,8 +21,11 @@ class TagsSelector(object):
     def __init__(self, spec):
         """ Parse the spec to determine tags to include and exclude. """
 <<<<<<< HEAD
+<<<<<<< HEAD
         parts = re.split(r',(?![^\[]*\])', spec)  # split on all comma not inside [] (not followed by ])
 =======
+=======
+>>>>>>> upstream/18.0
         parts = ['']
         bracket_level = 0
         escape_next = False
@@ -47,6 +50,9 @@ class TagsSelector(object):
             escape_next = False
             parts[-1] += char
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         filter_specs = [t.strip() for t in parts if t.strip()]
         self.exclude = set()

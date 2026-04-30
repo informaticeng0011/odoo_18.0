@@ -208,7 +208,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { patchTranslations, preloadBundle } from "@web/../tests/web_test_helpers";
+=======
+import { patchTranslations, patchWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { patchTranslations, patchWithCleanup, preloadBundle } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -1068,10 +1072,13 @@ preloadBundle("web.assets_emoji");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("emoji picker works well with translation with double quotes", async () => {
     patchTranslations({
         "Japanese “here” button": `Bouton "ici" japonais`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1703,6 +1710,9 @@ test("emoji picker correctly handles translations with special characters", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2340,6 +2350,11 @@ test("emoji picker correctly handles translations with special characters", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await insertText("input[placeholder='Search emoji']", "dollar", { replace: true });
+    await contains(`.o-Emoji[title*='Symbole du dollar']`);
+>>>>>>> upstream/18.0
 =======
     await insertText("input[placeholder='Search emoji']", "dollar", { replace: true });
     await contains(`.o-Emoji[title*='Symbole du dollar']`);
@@ -3576,7 +3591,10 @@ test("selecting an emoji while holding down the Shift key prevents the emoji pic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4219,6 +4237,9 @@ test("Emoji picker shows failure to load emojis", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
