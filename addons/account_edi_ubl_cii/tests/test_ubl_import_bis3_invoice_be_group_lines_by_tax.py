@@ -56,6 +56,7 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
         self.assertRecordValues(invoice.invoice_line_ids, expected_grouped_lines)
         self.assertRecordValues(invoice, expected_total_amounts)
 
+<<<<<<< HEAD
         # Ungroup the lines, we should be back in the original state.
         invoice.action_group_ungroup_lines_by_tax()
         self.assertRecordValues(invoice.invoice_line_ids, expected_not_grouped_lines)
@@ -65,6 +66,12 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
         invoice.action_group_ungroup_lines_by_tax()
         invoice.action_post()
 
+=======
+        # Post it to test the next invoice is automatically grouped by default.
+        invoice.action_post()
+
+        # Import a second invoice, should have lines grouped
+>>>>>>> upstream/18.0
         invoice2 = self._import_invoice_as_attachment_on(
             test_name='test_import_invoice_group_lines_by_tax',
             journal=self.company_data['default_journal_purchase'],
@@ -87,6 +94,7 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -117,6 +125,13 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+        # Still we should be able to ungroup lines
+        invoice2.action_group_ungroup_lines_by_tax()
+        self.assertRecordValues(invoice2.invoice_line_ids, expected_not_grouped_lines)
+        self.assertRecordValues(invoice2, expected_total_amounts)
 >>>>>>> upstream/18.0
 
     def test_import_invoice_group_lines_correct_tax_amount(self):
@@ -148,6 +163,9 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

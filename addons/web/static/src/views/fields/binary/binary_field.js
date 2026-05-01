@@ -273,12 +273,15 @@ export class BinaryField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (
             this.props.record.data[this.props.fileNameField] ||
             this.props.record.data[this.props.name] ||
             ""
         ).slice(0, toBase64Length(MAX_FILENAME_SIZE_BYTES));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1014,6 +1017,9 @@ export class BinaryField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

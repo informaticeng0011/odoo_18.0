@@ -127,6 +127,10 @@ from odoo.tools.float_utils import float_compare, float_is_zero
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.misc import clean_context
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.misc import clean_context
 >>>>>>> upstream/18.0
@@ -1529,6 +1533,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not picking.id:
+                continue
+>>>>>>> upstream/18.0
 =======
             if not picking.id:
                 continue
@@ -2872,6 +2881,7 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'domain': [('id', 'in', self.move_line_ids.ids)],
             'context': {
 <<<<<<< HEAD
@@ -3385,6 +3395,11 @@ class Picking(models.Model):
             'context': {
                 'sml_specific_default': True,
 >>>>>>> upstream/18.0
+=======
+            'domain': [('picking_id', '=', self.id)],
+            'context': {
+                'sml_specific_default': True,
+>>>>>>> upstream/18.0
                 'default_picking_id': self.id,
                 'default_location_id': self.location_id.id,
                 'default_location_dest_id': self.location_dest_id.id,
@@ -3458,9 +3473,12 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _check_move_lines_map_quant_package(self, package):
         return package._check_move_lines_map_quant(self.move_line_ids.filtered(lambda ml: ml.package_id == package and ml.product_id.is_storable))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3487,6 +3505,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3519,12 +3540,15 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for package in self.move_line_ids.package_id:
             pickings = self.move_line_ids.filtered(lambda ml: ml.package_id == package).picking_id
             if pickings._check_move_lines_map_quant_package(package):
                 package_level_ids = pickings.package_level_ids.filtered(lambda pl: pl.package_id == package)
                 move_lines_to_pack = pickings.move_line_ids.filtered(lambda ml: ml.package_id == package and not ml.result_package_id and ml.state not in ('done', 'cancel'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3553,6 +3577,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3587,6 +3614,7 @@ class Picking(models.Model):
                     move_lines_without_package_level = move_lines_to_pack - move_lines_in_package_level
                     if package.package_use == 'disposable':
                         (move_lines_in_package_level | move_lines_without_package_level).result_package_id = package
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3717,6 +3745,8 @@ class Picking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     for ml in move_lines_in_package_level:
                         ml.package_level_id = ml.move_id.package_level_id.id
                     move_lines_without_package_level.package_level_id = package_level_ids[0].id
@@ -3729,9 +3759,12 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     for pl in package_level_ids:
                         pl.location_dest_id = pickings._get_entire_pack_location_dest(pl.move_line_ids) or pickings.location_dest_id.id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3759,6 +3792,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4035,7 +4071,12 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if all(float_is_zero(move.quantity, precision_digits=precision_digits) for move in picking.move_ids.filtered(lambda m: m.state not in ('done', 'cancel'))):
+=======
+            has_pick = any(move.picked and move.state not in ('done', 'cancel') for move in picking.move_ids)
+            if all(float_is_zero(move.quantity, precision_digits=precision_digits) for move in picking.move_ids.filtered(lambda m: m.state not in ('done', 'cancel') and (not has_pick or m.picked))):
+>>>>>>> upstream/18.0
 =======
             has_pick = any(move.picked and move.state not in ('done', 'cancel') for move in picking.move_ids)
             if all(float_is_zero(move.quantity, precision_digits=precision_digits) for move in picking.move_ids.filtered(lambda m: m.state not in ('done', 'cancel') and (not has_pick or m.picked))):
@@ -5234,6 +5275,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self = self.filtered(lambda p: p.state != 'done')
+>>>>>>> upstream/18.0
 =======
         self = self.filtered(lambda p: p.state != 'done')
 >>>>>>> upstream/18.0
@@ -6372,7 +6417,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6804,6 +6852,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7313,7 +7364,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'You cannot validate a transfer if no quantities are reserved. '
+=======
+            'You cannot validate a transfer if no quantities are reserved, or if only non-reserved moves are picked.'
+>>>>>>> upstream/18.0
 =======
             'You cannot validate a transfer if no quantities are reserved, or if only non-reserved moves are picked.'
 >>>>>>> upstream/18.0
@@ -8310,7 +8365,10 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8927,6 +8985,7 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 
 <<<<<<< HEAD
@@ -9778,6 +9837,11 @@ class Picking(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            'return_id': self.return_id.id,
+        })
+
 >>>>>>> upstream/18.0
 =======
             'return_id': self.return_id.id,
@@ -9854,6 +9918,7 @@ class Picking(models.Model):
             if backorder_moves:
                 moves_to_backorder = backorder_moves.filtered(lambda m: m.picking_id == picking)
             else:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10753,6 +10818,8 @@ class Picking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 moves_to_backorder = picking._get_moves_to_backorder()
             moves_to_backorder._recompute_state()
             if moves_to_backorder:
@@ -11053,6 +11120,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11915,7 +11985,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         package = self.env['stock.quant.package'].create({})
+=======
+        package = self._get_put_in_pack_package()
+>>>>>>> upstream/18.0
 =======
         package = self._get_put_in_pack_package()
 >>>>>>> upstream/18.0
@@ -12227,6 +12301,12 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_put_in_pack_package(self):
+        return self.env['stock.quant.package'].create({})
+
+>>>>>>> upstream/18.0
 =======
     def _get_put_in_pack_package(self):
         return self.env['stock.quant.package'].create({})
@@ -12731,6 +12811,11 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if self.env.context.get('sml_specific_default'):
+            self = self.with_context(clean_context(self.env.context))
+>>>>>>> upstream/18.0
 =======
         if self.env.context.get('sml_specific_default'):
             self = self.with_context(clean_context(self.env.context))

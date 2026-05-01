@@ -4,10 +4,13 @@
         <li t-if="company.company_registry and company.account_fiscal_country_id.code == 'CZ'">
             Company ID: <span t-field="company.company_registry"/>
         </li>
+<<<<<<< HEAD
         <li t-if="company.vat and company.account_fiscal_country_id.code == 'CZ'">
             <t t-out="company.country_id.vat_label or 'Tax ID'"/>:
             <span t-out="company.vat"/>
         </li>
+=======
+>>>>>>> upstream/18.0
     </template>
 
     <template id="l10n_cz_external_layout_standard" inherit_id="web.external_layout_standard">
@@ -51,10 +54,13 @@
             <div t-if="company.company_registry and company.account_fiscal_country_id.code == 'CZ'">
                 Company ID: <span t-field="company.company_registry"/>
             </div>
+<<<<<<< HEAD
             <div t-if="company.vat and company.account_fiscal_country_id.code == 'CZ'">
                 <t t-out="company.country_id.vat_label or 'Tax ID'"/>:
                 <span t-out="company.vat"/>
             </div>
+=======
+>>>>>>> upstream/18.0
         </xpath>
     </template>
 </odoo>

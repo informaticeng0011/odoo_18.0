@@ -110,7 +110,11 @@ from odoo.addons.hr_contract.tests.common import TestContractCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo.tests import tagged, Form
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged, Form
 >>>>>>> upstream/18.0
@@ -679,7 +683,10 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1392,6 +1399,9 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2280,7 +2290,10 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2972,7 +2985,11 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for calculating unusual days when an employee has overlapping contracts.
+=======
+        for calculating unusual days employee in multiple cases.
+>>>>>>> upstream/18.0
 =======
         for calculating unusual days employee in multiple cases.
 >>>>>>> upstream/18.0
@@ -3885,6 +3902,10 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        - Contract C (Part-time): Thursday and Friday off
+>>>>>>> upstream/18.0
 =======
         - Contract C (Part-time): Thursday and Friday off
 >>>>>>> upstream/18.0
@@ -4799,6 +4820,12 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        Case 3: When there are more than 1 running contract
+            ➤ Expected: All contract should be Considered
+>>>>>>> upstream/18.0
 =======
 
         Case 3: When there are more than 1 running contract
@@ -6177,6 +6204,7 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 '2024-11-01': False,   # Friday
                 '2024-11-02': True,    # Saturday
@@ -6193,6 +6221,8 @@ class TestHrContracts(TestContractCommon):
         # Create overlapping contracts
         contract_1 = self.create_contract('open', 'normal', date(2024, 1, 1), date(2024, 11, 10), self.employee.id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6904,6 +6934,9 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7361,6 +7394,7 @@ class TestHrContracts(TestContractCommon):
 
         # Assign part-time calendar to contract_1
         contract_1.resource_calendar_id = self.resource_calendar_part_time.id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8060,6 +8094,8 @@ class TestHrContracts(TestContractCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         contract_2.resource_calendar_id = self.resource_calendar_part_time.id
 
         # Case 1: Contract A (open) should be used
@@ -8301,6 +8337,7 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8547,6 +8584,8 @@ class TestHrContracts(TestContractCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8870,6 +8909,9 @@ class TestHrContracts(TestContractCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

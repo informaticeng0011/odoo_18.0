@@ -100,7 +100,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.assertEqual(self.env['pos.order'].browse(order['pos.order'][0]['id']).picking_ids.move_line_ids.lot_id, lot1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -173,6 +176,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         lot_qty_sum = sum(conv.get('lot_qty_by_name', {}).values())
         self.assertEqual(lot_qty_sum, 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

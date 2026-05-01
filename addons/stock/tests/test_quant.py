@@ -1363,6 +1363,47 @@ class StockQuant(TransactionCase):
             'lot_id': False,
         }])
 
+<<<<<<< HEAD
+=======
+    def test_forced_full_packaging_reservation(self):
+        '''
+        Ensure reservations respect the setting set on the product's category.
+        '''
+        self.env.user.groups_id += self.env.ref('product.group_stock_packaging')
+        six_pack = self.env['product.packaging'].create({
+            'name': '6 Pack',
+            'qty': 6,
+            'product_id': self.product.id,
+        })
+        self.product.categ_id.packaging_reserve_method = 'full'
+        # Delivery for 26 units
+        delivery = self.env['stock.picking'].create({
+            'picking_type_id': self.ref('stock.picking_type_out'),
+            'location_id': self.stock_location.id,
+            'location_dest_id': self.ref('stock.stock_location_customers'),
+            'move_ids': [Command.create({
+                'name': 'Test full packaging move',
+                'product_id': self.product.id,
+                'location_id': self.stock_location.id,
+                'location_dest_id': self.ref('stock.stock_location_customers'),
+                'product_uom_qty': 26,
+                'product_uom': self.product.uom_id.id,
+                'product_packaging_id': six_pack.id,
+            })],
+            'state': 'draft',
+        })
+
+        # Only 1 full packaging in stock, so reservation should be 6
+        self.env['stock.quant']._update_available_quantity(self.product, self.stock_location, 9)
+        delivery.action_confirm()
+        self.assertEqual(delivery.move_ids.quantity, 6)
+
+        # Plenty in stock, reservation should be the max amount of full packagings so 24
+        self.env['stock.quant']._update_available_quantity(self.product, self.stock_location, 100)
+        delivery.action_assign()
+        self.assertEqual(delivery.move_ids.quantity, 24)
+
+>>>>>>> upstream/18.0
 
 class StockQuantRemovalStrategy(TransactionCase):
     def setUp(self):
@@ -1804,7 +1845,10 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2559,6 +2603,7 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3015,6 +3060,8 @@ class StockQuantRemovalStrategy(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3046,6 +3093,9 @@ class StockQuantRemovalStrategy(TransactionCase):
         self.assertEqual(move.quantity, move.product_qty)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

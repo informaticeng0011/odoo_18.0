@@ -135,8 +135,14 @@ test("make voice message in chat", async () => {
     patchWithCleanup(VoicePlayer.prototype, {
         async drawWave(...args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             voicePlayerDrawing.resolve();
             return super.drawWave(...args);
+=======
+            const res = await super.drawWave(...args);
+            voicePlayerDrawing.resolve();
+            return res;
+>>>>>>> upstream/18.0
 =======
             const res = await super.drawWave(...args);
             voicePlayerDrawing.resolve();

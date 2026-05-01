@@ -231,11 +231,14 @@ function getPartialValueEditorInfo(fieldDef, operator, params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {
                 component: Input,
                 extractProps: ({ value, update }) => ({
                     value: String(value),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -294,6 +297,9 @@ function getPartialValueEditorInfo(fieldDef, operator, params = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -364,6 +364,7 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -506,6 +507,8 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 
     def test_no_recompute_purchase_price_not_timesheet(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1204,6 +1207,9 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1908,7 +1914,10 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2607,6 +2616,9 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3315,7 +3327,10 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3790,6 +3805,7 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
             'so_line': sale_order.order_line.id,
         })
         self.env.flush_all()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4691,6 +4707,8 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(sale_order.order_line.filtered(lambda sol: sol.product_id == self.product_1).purchase_price, 3)
         sale_order.order_line = [Command.create({
             'product_id': simple_service.id,
@@ -4929,6 +4947,9 @@ class TestSaleTimesheetMargin(TestCommonSaleTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

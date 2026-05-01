@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* certificate
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1131,6 +1132,9 @@
 =======
 # * certificate
 >>>>>>> upstream/18.0
+=======
+# * certificate
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1252,6 +1256,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1446,6 +1451,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
@@ -1508,6 +1516,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2633,6 +2642,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-03 18:39+0000\n"
 "PO-Revision-Date: 2026-04-11 09:03+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
@@ -2656,6 +2667,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2697,6 +2711,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3009,6 +3024,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
@@ -3745,7 +3765,10 @@ msgstr "La data di inizio validità del certificato (UTC)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4667,6 +4690,9 @@ msgstr "La dimensione della chiave deve essere di almeno 512 byte."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5284,6 +5310,7 @@ msgstr "Non è stato possibile caricare la chiave privata."
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6556,6 +6583,11 @@ msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
 msgstr ""
 "L'esponente pubblico dovrebbe essere 65537 (oppure 3 nei sistemi più vecchi)."
 >>>>>>> upstream/18.0
+=======
+msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
+msgstr ""
+"L'esponente pubblico dovrebbe essere 65537 (oppure 3 nei sistemi più vecchi)."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -6865,6 +6897,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7529,6 +7564,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7546,6 +7582,8 @@ msgstr ""
 #| msgid ""
 #| "This certificate could not be loaded. Either the content or the password "
 #| "is erroneous."
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7607,8 +7645,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Non è stato possibile caricare il certificato. Il contenuto o la password "
 "sono errati."
+=======
+"Impossibile caricare questo certificato. Fornisci la password del "
+"certificato."
+>>>>>>> upstream/18.0
 =======
 "Impossibile caricare questo certificato. Fornisci la password del "
 "certificato."
@@ -7714,6 +7757,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7919,8 +7965,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
+=======
+"Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC, "
+"RSA."
+>>>>>>> upstream/18.0
 =======
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC, "
 "RSA."
@@ -8513,6 +8564,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used to set a public key in case the one self-contained in the certificate is erroneus.\n"
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
 "             "
@@ -8520,6 +8572,8 @@ msgstr ""
 "Utilizzato per impostare una chiave pubblica nel caso in cui quella contenuta nel certificato sia errata.\n"
 "                Quando una chiave pubblica viene impostata in questo modo, sarà utilizzata al posto di quella contenuta nel certificato.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8878,6 +8932,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

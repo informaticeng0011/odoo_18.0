@@ -22,8 +22,11 @@ class TagsSelector(object):
         """ Parse the spec to determine tags to include and exclude. """
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         parts = re.split(r',(?![^\[]*\])', spec)  # split on all comma not inside [] (not followed by ])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         parts = ['']
@@ -51,6 +54,9 @@ class TagsSelector(object):
             parts[-1] += char
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

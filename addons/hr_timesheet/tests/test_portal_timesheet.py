@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from odoo import Command
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.addons.mail.tools.discuss import Store
+>>>>>>> upstream/18.0
 from odoo.tests import tagged
 
 from odoo.addons.project.tests.test_project_sharing import TestProjectSharingCommon
@@ -68,3 +73,26 @@ class TestPortalTimesheet(TestProjectSharingCommon):
                 self.assertEqual(view_id, form_view_id)
             elif view_type == 'kanban':
                 self.assertEqual(view_id, kanban_view_id)
+<<<<<<< HEAD
+=======
+
+    def test_collaborators_accessible_by_timesheet_user(self):
+        """Test that a restricted user (with only HR Timesheet User access) can
+        access project collaborators (fetched when fetching a project) without
+        getting an AccessError.
+        """
+        user = mail_new_test_user(
+            self.env,
+            login="employee_user",
+            groups="hr_timesheet.group_hr_timesheet_user",
+        )
+        self.project_portal.collaborator_ids = [
+            Command.create({"partner_id": self.partner_portal.id})
+        ]
+        store = Store()
+        self.project_portal.with_user(user)._thread_to_store(store, request_list=["followers"])
+        self.assertEqual(
+            store.get_result()["mail.thread"][0]["collaborator_ids"],
+            [{"id": self.partner_portal.id, "type": "partner"}],
+        )
+>>>>>>> upstream/18.0

@@ -227,9 +227,13 @@ class TestStockValuation(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.stock_valuation_layer_ids.unit_cost,
             last_po_id.currency_id.round(ap_price),
             "Wrong Unit price")
+=======
+        self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
 >>>>>>> upstream/18.0
@@ -1897,7 +1901,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -2509,7 +2517,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -2948,7 +2960,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 14.09)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 14.091)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 14.091)
 >>>>>>> upstream/18.0
@@ -4962,7 +4978,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company.anglo_saxon_accounting = False
+=======
+        company.anglo_saxon_accounting = True
+>>>>>>> upstream/18.0
 =======
         company.anglo_saxon_accounting = True
 >>>>>>> upstream/18.0
@@ -6119,7 +6139,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7038,6 +7061,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_accounts = self.product1.product_tmpl_id.get_product_accounts()
         payable_id = self.company_data['default_account_payable'].id
         stock_in_id = product_accounts['stock_input'].id
@@ -7058,6 +7082,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             {'debit': 0,   'credit': 50.0,    'account_id': stock_in_id,  'reconciled': False, 'amount_currency': -110.0},
             {'debit': 50.0,   'credit': 0,    'account_id': stock_valuation,  'reconciled': False, 'amount_currency': 110.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7930,6 +7956,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9014,7 +9043,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9373,6 +9405,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9946,7 +9981,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10540,7 +10578,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10944,6 +10985,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11430,6 +11474,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11592,6 +11637,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12076,6 +12123,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12244,6 +12292,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12470,6 +12520,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12600,4 +12651,66 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_pdiff_no_reset_tax(self):
+        """ Check that confirming a Bill for a perpetual product from a PO with a different price
+        where some quantities are already out stock (so in a situation where pdiff
+        compensation amls are created) does not reset a manually set total tax on the Bill."""
+
+        warehouse = self.env['stock.warehouse'].search([('company_id', '=', self.env.company.id)], limit=1)
+        stock_location = warehouse.lot_stock_id
+        customer_location = self.env.ref('stock.stock_location_customers')
+        self.product1.product_tmpl_id.categ_id.property_cost_method = 'average'
+        self.product1.product_tmpl_id.categ_id.property_valuation = 'real_time'
+        self.product1.supplier_taxes_id = self.company.account_purchase_tax_id
+
+        # PO for 30 @ 0
+        po = self.env['purchase.order'].create({
+            'partner_id': self.partner_id.id,
+            'order_line': [
+                Command.create({
+                    'name': self.product1.name,
+                    'product_id': self.product1.id,
+                    'product_qty': 30.0,
+                    'price_unit': 0.0,
+                }),
+            ],
+        })
+        po.button_confirm()
+        receipt = po.picking_ids
+        receipt.move_ids.move_line_ids.quantity = 30
+        receipt.button_validate()
+
+        # deliver 10
+        delivery = self.env['stock.picking'].create({
+            'location_id': stock_location.id,
+            'location_dest_id': customer_location.id,
+            'picking_type_id': warehouse.out_type_id.id,
+            'move_ids': [(0, 0, {
+                'name': self.product1.name,
+                'product_id': self.product1.id,
+                'product_uom_qty': 10,
+                'product_uom': self.product1.uom_id.id,
+                'location_id': stock_location.id,
+                'location_dest_id': customer_location.id,
+            })],
+        })
+        delivery.action_confirm()
+        delivery.move_ids.quantity = 10.0
+        delivery.button_validate()
+
+        # create bill with price 100
+        action = po.action_create_invoice()
+        bill = self.env["account.move"].browse(action["res_id"])
+        bill.invoice_date = fields.Date.today()
+        bill.invoice_line_ids.price_unit = 100
+
+        # set tax amount as 500 and confirm bill
+        bill.line_ids.filtered(lambda l: l.display_type == "tax").balance = 500
+        bill.action_post()
+
+        # check bill total tax has not changed
+        self.assertEqual(bill.amount_tax, 500)
 >>>>>>> upstream/18.0

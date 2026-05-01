@@ -266,6 +266,7 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from itertools import product
 >>>>>>> upstream/18.0
@@ -358,6 +359,10 @@ from itertools import product
 >>>>>>> upstream/18.0
 =======
 from itertools import product
+>>>>>>> upstream/18.0
+=======
+from itertools import product
+from unittest.mock import patch
 >>>>>>> upstream/18.0
 =======
 from itertools import product
@@ -1521,11 +1526,14 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 @tagged('post_install', '-at_install')
 class TestAccountPaymentRegister(AccountTestInvoicingCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2221,6 +2229,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2799,6 +2810,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -3056,6 +3071,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -3616,7 +3635,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4406,6 +4428,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5326,7 +5351,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+            'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
 =======
             'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
 >>>>>>> upstream/18.0
@@ -6293,7 +6322,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+            'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
 =======
             'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
 >>>>>>> upstream/18.0
@@ -7373,7 +7406,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+                'memo': 'BILL/2017/01/0001, BILL/2017/01/0002, RBILL/2017/01/0001',
+>>>>>>> upstream/18.0
 =======
                 'memo': 'BILL/2017/01/0001, BILL/2017/01/0002, RBILL/2017/01/0001',
 >>>>>>> upstream/18.0
@@ -8170,6 +8207,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -8478,6 +8519,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -9026,7 +9071,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'memo': Like(f'BATCH/{self.current_year}/...'),
+=======
+                'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
+>>>>>>> upstream/18.0
 =======
                 'memo': 'BILL/2017/01/0001, BILL/2017/01/0002',
 >>>>>>> upstream/18.0
@@ -9863,7 +9912,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10133,7 +10185,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['res.partner.bank'].create({
+=======
+        partner_b_bank_account = self.env['res.partner.bank'].create({
+>>>>>>> upstream/18.0
 =======
         partner_b_bank_account = self.env['res.partner.bank'].create({
 >>>>>>> upstream/18.0
@@ -10411,8 +10467,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice_2 = invoice_1.copy({'invoice_date': invoice_1.invoice_date, 'partner_id': partner_b.id})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10619,6 +10678,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10832,7 +10894,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         active_ids = (invoice_1 + refund_1 + invoice_2).ids
+=======
+        active_ids = (refund_1 + invoice_1 + invoice_2).ids
+>>>>>>> upstream/18.0
 =======
         active_ids = (refund_1 + invoice_1 + invoice_2).ids
 >>>>>>> upstream/18.0
@@ -11114,6 +11180,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'partner_bank_id': self.partner_bank_account1.id,
+>>>>>>> upstream/18.0
 =======
                 'partner_bank_id': self.partner_bank_account1.id,
 >>>>>>> upstream/18.0
@@ -11390,6 +11460,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             },
         ])
 
@@ -11485,6 +11556,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11690,6 +11763,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12153,7 +12229,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12864,6 +12943,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13868,7 +13950,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14034,6 +14119,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14306,7 +14394,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(payments[1], [
+=======
+        self.assertRecordValues(payments[2], [
+>>>>>>> upstream/18.0
 =======
         self.assertRecordValues(payments[2], [
 >>>>>>> upstream/18.0
@@ -14710,7 +14802,11 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(payments[2], [
+=======
+        self.assertRecordValues(payments[1], [
+>>>>>>> upstream/18.0
 =======
         self.assertRecordValues(payments[1], [
 >>>>>>> upstream/18.0
@@ -15043,6 +15139,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
             },
         ])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15540,6 +15637,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
         self.assertRecordValues(payments[2].move_id.line_ids.sorted('balance'), [
             # == Payment 3: to pay invoice_2 ==
 >>>>>>> upstream/18.0
+=======
+        self.assertRecordValues(payments[2].move_id.line_ids.sorted('balance'), [
+            # == Payment 3: to pay invoice_2 ==
+>>>>>>> upstream/18.0
             # Payable line:
             {
                 'debit': 0.0,
@@ -15657,8 +15758,13 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(payments[2].move_id.line_ids.sorted('balance'), [
             # == Payment 3: to pay refund_1 ==
+=======
+        self.assertRecordValues(payments[1].move_id.line_ids.sorted('balance'), [
+            # == Payment 2: to pay refund_1 ==
+>>>>>>> upstream/18.0
 =======
         self.assertRecordValues(payments[1].move_id.line_ids.sorted('balance'), [
             # == Payment 2: to pay refund_1 ==
@@ -16564,7 +16670,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17294,7 +17403,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18001,7 +18113,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'communication': Like(f'BATCH/{self.current_year}/...'),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18750,6 +18865,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_group_payment_method_with_branch(self):
         # create a new branch
         self.env.company.write({
@@ -18772,6 +18888,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
             self.partner_a.with_company(branch).write({
                 'property_account_receivable_id': receivable_account.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19589,6 +19707,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20378,6 +20499,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         (branch_invoices | parent_invoice).action_post()
 
         # branch1 + parent
@@ -20469,6 +20591,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21349,6 +21473,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22192,6 +22319,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22901,7 +23031,10 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23280,6 +23413,7 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23504,6 +23638,8 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23562,6 +23698,9 @@ class TestAccountPaymentRegister(AccountTestInvoicingCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

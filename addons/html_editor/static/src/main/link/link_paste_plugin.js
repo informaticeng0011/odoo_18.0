@@ -213,7 +213,11 @@ import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { leftPos } from "@html_editor/utils/position";
+=======
+import { childNodeIndex } from "@html_editor/utils/position";
+>>>>>>> upstream/18.0
 =======
 import { childNodeIndex } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
@@ -1063,7 +1067,11 @@ export class LinkPastePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         before_paste_handlers: this.removeFullySelectedLink.bind(this),
+=======
+        before_paste_handlers: this.selectFullySelectedLink.bind(this),
+>>>>>>> upstream/18.0
 =======
         before_paste_handlers: this.selectFullySelectedLink.bind(this),
 >>>>>>> upstream/18.0
@@ -1997,6 +2005,7 @@ export class LinkPastePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     removeFullySelectedLink(selection) {
         // Replace entire link if its label is fully selected.
         const link = closestElement(selection.anchorNode, "a");
@@ -2009,6 +2018,8 @@ export class LinkPastePlugin extends Plugin {
                 anchorOffset: start[1],
                 normalize: false,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2651,6 +2662,9 @@ export class LinkPastePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -230,6 +230,16 @@ class TestHttpStatic(TestHttpStaticCommon):
                 assert_filename='pyramid.of.gizeh.png',
             )
 
+<<<<<<< HEAD
+=======
+        with self.subTest("long name"):
+            res = self.assertDownloadGizeh(
+                f'/web/content/test_http.gizeh_png?filename={"a" * 4000}.png',
+                assert_filename=f'{"a" * 100}.png',
+            )
+            self.assertEqual(res.headers['Content-Disposition'], f'inline; filename={"a" * 100}.png')
+
+>>>>>>> upstream/18.0
     def test_static12_not_found_to_placeholder(self):
         with self.subTest(x_sendfile=False):
             self.assertDownloadPlaceholder('/web/image/idontexist')
@@ -707,7 +717,10 @@ class TestHttpStatic(TestHttpStaticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1238,6 +1251,7 @@ class TestHttpStatic(TestHttpStaticCommon):
             'name': 'dummy test_http test_static server',
             'smtp_host': 'localhost',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2025,6 +2039,8 @@ class TestHttpStatic(TestHttpStaticCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         record.smtp_ssl_certificate = b'non base64 value'
         self.assertDownload(
             f'/web/content/ir.mail_server/{record.id}/smtp_ssl_certificate',
@@ -2290,6 +2306,9 @@ class TestHttpStatic(TestHttpStaticCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
