@@ -198,6 +198,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_stripe
 # 
 # Translators:
@@ -598,11 +599,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * payment_stripe
 #
 # Translators:
 # Wil Odoo, 2024
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1279,10 +1283,14 @@
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2164,6 +2172,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-02-07 10:35+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-02-07 10:35+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "payment_stripe/ja/>\n"
@@ -2172,6 +2184,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2848,6 +2861,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-javascript
@@ -2896,6 +2912,7 @@ msgstr "Webhookを作成"
 #. module: payment_stripe
 #: model_terms:ir.ui.view,arch_db:payment_stripe.payment_provider_form
 msgid "Get your Secret and Publishable keys"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3229,6 +3246,9 @@ msgstr "SecretキーとPublishableキーを取得してください"
 =======
 msgstr "SecretキーとPublishableキーを取得してください"
 >>>>>>> upstream/18.0
+=======
+msgstr "SecretキーとPublishableキーを取得してください"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #: model:ir.model.fields,help:payment_stripe.field_payment_provider__stripe_webhook_secret
@@ -3236,6 +3256,7 @@ msgid ""
 "If a webhook is enabled on your Stripe account, this signing secret must be "
 "set to authenticate the messages sent from Stripe to Odoo."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3827,6 +3848,10 @@ msgstr ""
 "StripeアカウントでWebhookが有効になっている場合、Odooに送信されるメッセージを"
 "認証するために、この署名用シークレットを設定する必要があります。"
 >>>>>>> upstream/18.0
+=======
+"StripeアカウントでWebhookが有効になっている場合、Odooに送信されるメッセージを"
+"認証するために、この署名用シークレットを設定する必要があります。"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-javascript
@@ -3864,6 +3889,7 @@ msgstr "支払トークン"
 #. module: payment_stripe
 #: model:ir.model,name:payment_stripe.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4657,6 +4683,9 @@ msgstr "支払取引"
 =======
 msgstr "支払取引"
 >>>>>>> upstream/18.0
+=======
+msgstr "支払取引"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-javascript
@@ -4827,7 +4856,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stripe Connectはお客様の国では使用できません。他の決済プロバイダーをご利用ください。"
+=======
+msgstr ""
+"Stripe Connectはお客様の国では使用できません。他の決済プロバイダーをご利用く"
+"ださい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Stripe Connectはお客様の国では使用できません。他の決済プロバイダーをご利用く"
@@ -5582,7 +5617,11 @@ msgid "Stripe Mandate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stripe委任状"
+=======
+msgstr "Stripe同意書"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe同意書"
 >>>>>>> upstream/18.0
@@ -6235,7 +6274,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返金が行われませんでした。Stripeダッシュボードにログインして、この件に関する詳細情報を取得し、会計上の不一致に対処して下さい。"
+=======
+msgstr ""
+"返金が行われませんでした。Stripeダッシュボードにログインして、この件に関する"
+"詳細情報を取得し、会計上の不一致に対処して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "返金が行われませんでした。Stripeダッシュボードにログインして、この件に関する"
@@ -6978,6 +7023,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Stripeシークレットキーが設定されてない場合は、Stripe Webhookを作成できません。"
 =======
 msgstr ""
@@ -7569,11 +7615,17 @@ msgstr ""
 "Stripeシークレットキーが設定されてない場合は、Stripe Webhookを作成できませ"
 "ん。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Stripeシークレットキーが設定されてない場合は、Stripe Webhookを作成できませ"
+"ん。"
+>>>>>>> upstream/18.0
 
 #. module: payment_stripe
 #. odoo-python
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7930,6 +7982,8 @@ msgstr "Stripeへのオンボーディングが完了するまで、プロバイ
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot set the provider state to Enabled until your onboarding to Stripe "
 "is completed."
 msgstr ""
@@ -8052,6 +8106,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8410,10 +8467,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot set the provider to Test Mode while it is linked with your Stripe"
 " account."
 msgstr "Stripeアカウントとリンクしている間は、プロバイダーをテストモードに設定することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8770,6 +8830,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1364,7 +1364,10 @@ class StockQuant(TransactionCase):
         }])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_forced_full_packaging_reservation(self):
         '''
         Ensure reservations respect the setting set on the product's category.
@@ -1403,6 +1406,9 @@ class StockQuant(TransactionCase):
         delivery.action_assign()
         self.assertEqual(delivery.move_ids.quantity, 24)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class StockQuantRemovalStrategy(TransactionCase):
@@ -1846,7 +1852,10 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2604,6 +2613,7 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3060,6 +3070,8 @@ class StockQuantRemovalStrategy(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3094,6 +3106,9 @@ class StockQuantRemovalStrategy(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

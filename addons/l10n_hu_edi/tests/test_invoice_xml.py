@@ -243,7 +243,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import tools, fields
+=======
+from odoo import tools, fields, Command
+>>>>>>> upstream/18.0
 =======
 from odoo import tools, fields, Command
 >>>>>>> upstream/18.0
@@ -1240,6 +1244,7 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_invoice_and_credit_note(self):
         with freeze_time('2024-02-01'):
             invoice = self.create_invoice_simple()
@@ -1734,6 +1739,8 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             cls.company_data['company'].write({
                 'bank_ids': [Command.create({
                     'acc_number': 'HU0123456789',
@@ -1814,6 +1821,9 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2049,6 +2059,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                     'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -2362,6 +2376,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                 'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -2674,6 +2692,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                 'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -3155,6 +3177,9 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3903,6 +3928,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            credit_note.partner_bank_id = self.bank_partner
+>>>>>>> upstream/18.0
 =======
             credit_note.partner_bank_id = self.bank_partner
 >>>>>>> upstream/18.0
@@ -4953,6 +4982,10 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            invoice.partner_bank_id = self.bank_company
+>>>>>>> upstream/18.0
 =======
             invoice.partner_bank_id = self.bank_company
 >>>>>>> upstream/18.0
@@ -5769,6 +5802,12 @@ class L10nHuEdiTestInvoiceXml(L10nHuEdiTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # Assert that the `l10n_hu_chain_index` is not silently set by the tax audit export
+            self.assertFalse(invoice.l10n_hu_invoice_chain_index, "The chain index shouldn't be set by the tax audit report")
+
+>>>>>>> upstream/18.0
 =======
             # Assert that the `l10n_hu_chain_index` is not silently set by the tax audit export
             self.assertFalse(invoice.l10n_hu_invoice_chain_index, "The chain index shouldn't be set by the tax audit report")

@@ -209,7 +209,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                <span itemprop="name">Deco Addict</span>
+=======
+                               <span itemprop="name">Acme Corporation</span>
+>>>>>>> upstream/18.0
 =======
                                <span itemprop="name">Acme Corporation</span>
 >>>>>>> upstream/18.0
@@ -885,6 +889,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                            <div id="total" class="clearfix row mt-n3">
 =======
                            <div id="total" class="clearfix mt-n3">
@@ -915,6 +920,9 @@
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix mt-n3">
+>>>>>>> upstream/18.0
+=======
+                           <div id="total" class="clearfix row mt-n3">
 >>>>>>> upstream/18.0
 =======
                            <div id="total" class="clearfix row mt-n3">
@@ -2043,6 +2051,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div>
                     <img t-if="company.logo" class="o_company_logo_big" t-att-src="image_data_uri(company.logo)" alt="Logo"/>
                     <div t-if="company.report_header" t-field="company.report_header" class="o_company_tagline fw-bold mt-2">Company tagline</div>
@@ -2775,6 +2784,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <div class="mw-50">
                     <img t-if="company.logo" class="o_company_logo_big" t-att-src="image_data_uri(company.logo)" alt="Logo"/>
                     <div t-if="company.report_header" t-field="company.report_header" class="o_company_tagline fw-bold mt-2">Company tagline</div>
@@ -2893,6 +2904,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3130,6 +3144,7 @@
                             </span>
                         </li>
                         <li t-else="">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4087,6 +4102,9 @@
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
                                 <div class="bg-light border-1 rounded h-100 d-flex flex-column align-items-center justify-content-center p-4 w-100 opacity-75 text-muted text-center">
                                     <strong>Company details block</strong>
                                     <div>Contains the company details.</div>
@@ -4180,8 +4198,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li t-if="not forced_vat"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4446,6 +4467,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4896,7 +4920,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div name="company_address" class="float-end mb4">
+=======
+                    <div name="company_address" class="mb4">
+>>>>>>> upstream/18.0
 =======
                     <div name="company_address" class="mb4">
 >>>>>>> upstream/18.0
@@ -5861,7 +5889,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span t-field="company.company_details" class="text-nowrap">
+=======
+                                <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                                 <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -6672,8 +6704,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <li t-if="not forced_vat"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6938,6 +6973,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7134,6 +7172,7 @@
         </div>
 
         <div t-attf-class="footer o_company_#{company.id}_layout {{report_type != 'pdf' and 'mt-auto'}}">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7960,6 +7999,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <div class="o_footer_content" t-attf-class="{{'d-flex' if is_html_empty(company.report_header) else 'row' }} o_footer_content border-top pt-2">
                 <div t-attf-class="{{'flex-grow-1' if is_html_empty(company.report_header) else 'col-8'}} {{'me-2' if is_html_empty(company.report_header) and report_type == 'pdf' else ''}}">
                     <span t-field="company.report_footer"/>
@@ -8240,6 +8281,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8805,6 +8849,7 @@
                             </div>
                         </span></li>
                         <li t-else="">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9762,6 +9807,9 @@
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
                                 <div class="bg-light border-1 rounded h-100 d-flex flex-column align-items-center justify-content-center p-4 w-100 opacity-75 text-muted text-center">
                                     <strong>Company details block</strong>
                                     <div>Contains the company details.</div>
@@ -9855,8 +9903,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li t-if="not forced_vat"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10121,6 +10172,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10317,6 +10371,7 @@
         </div>
 
         <div t-attf-class="footer o_company_#{company.id}_layout {{report_type != 'pdf' and 'mt-auto'}}">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11143,6 +11198,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <div class="o_footer_content" t-attf-class="{{'d-flex' if is_html_empty(company.report_header) else 'row' }} o_footer_content border-top pt-2">
                 <div t-attf-class="{{'flex-grow-1' if is_html_empty(company.report_header) else 'col-8'}} {{'me-2' if is_html_empty(company.report_header) and report_type == 'pdf' else ''}}">
                     <span t-field="company.report_footer"/>
@@ -11423,6 +11480,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12228,7 +12288,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span t-field="company.company_details" class="text-nowrap">
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
@@ -13039,8 +13103,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li t-if="not forced_vat"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13305,6 +13372,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13804,7 +13874,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div t-if="report_type == 'pdf'">Page <span class="page"/> / <span class="topage"/></div>
+=======
+                    <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
+>>>>>>> upstream/18.0
 =======
                     <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
 >>>>>>> upstream/18.0
@@ -14845,6 +14919,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div>
                     <img t-if="company.logo" class="o_company_logo_big mb-2" t-att-src="image_data_uri(company.logo)" alt="Logo"/>
                     <div t-if="company.report_header" t-field="company.report_header" class="o_company_tagline fw-bold">Company tagline</div>
@@ -15577,6 +15652,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <div class="w-50">
                     <img t-if="company.logo" class="o_company_logo_big mb-2" t-att-src="image_data_uri(company.logo)" alt="Logo"/>
                     <div t-if="company.report_header" t-field="company.report_header" class="o_company_tagline fw-bold">Company tagline</div>
@@ -15695,6 +15772,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15930,6 +16010,7 @@
                             </div>
                         </span></li>
                         <li t-else="">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16887,6 +16968,9 @@
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
                                 <div class="d-flex flex-column align-items-center justify-content-center border-1 rounded p-4 h-100 w-100 bg-light opacity-75 text-muted text-center">
                                     <strong>Company details block</strong>
                                     <div>Contains the company details.</div>
@@ -16980,8 +17064,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li t-if="not forced_vat"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17246,6 +17333,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17452,6 +17542,7 @@
                 <div class="flex-grow-1 me-2 text-start" t-field="company.report_footer"/>
                 <div class="text-end text-muted">
                     <div t-if="report_type == 'pdf' and display_name_in_footer" t-out="o.name">(document name)</div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18217,6 +18308,9 @@
 =======
                     <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
 >>>>>>> upstream/18.0
+=======
+                    <div t-if="report_type == 'pdf'" class="text-nowrap">Page <span class="page"/> / <span class="topage"/></div>
+>>>>>>> upstream/18.0
                 </div>
             </div>
         </div>
@@ -18231,6 +18325,7 @@
             </svg>
 
             <div class="d-flex justify-content-between">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19077,6 +19172,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <div class="w-50">
                     <img t-if="company.logo" class="o_company_logo mb-2" t-att-src="image_data_uri(company.logo)" alt="Logo"/>
                     <div t-if="company.report_header" t-field="company.report_header" class="o_company_tagline fw-bold">Company tagline</div>
@@ -19195,6 +19292,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19430,6 +19530,7 @@
                             </div>
                         </span></li>
                         <li t-else="">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20387,6 +20488,9 @@
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
                                 <div class="d-flex flex-column align-items-center justify-content-center border-1 rounded p-4 h-100 w-100 bg-light opacity-75 text-muted text-center">
                                     <strong>Company details block</strong>
                                     <div>Contains the company details.</div>
@@ -20480,8 +20584,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li t-if="not forced_vat"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20746,6 +20853,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20946,6 +21056,7 @@
 
         <!-- Footer -->
         <div t-attf-class="footer o_company_#{company.id}_layout {{report_type != 'pdf' and 'position-relative mt-auto mx-n5'}}">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21456,6 +21567,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <svg t-attf-class="{{report_type == 'pdf' and 'position-fixed start-0' or 'position-absolute'}} w-100" preserveAspectRatio="none" t-attf-height="{{report_type == 'pdf' and '180' or '100%'}}" viewBox="0 0 1000 180" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M427.731 19.757C686.904 51.3469 898.971 38.039 1000 27.6922V180H0V8.20934C66.363 -0.991089 198.347 -8.20218 427.731 19.757Z" t-att-fill="company.secondary_color" fill-opacity=".1"/>
             </svg>
@@ -21628,6 +21741,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21979,6 +22095,7 @@
                <circle cx="550" cy="550" r="550" t-att-fill="company.primary_color" fill-opacity=".1"/>
             </svg>
             <div class="d-flex justify-content-between">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22825,6 +22942,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <div class="w-50">
                     <img t-if="company.logo" class="o_company_logo mb-2" t-att-src="image_data_uri(company.logo)" alt="Logo"/>
                     <div t-if="company.report_header" t-field="company.report_header" class="o_company_tagline fw-bold">Company tagline</div>
@@ -22943,6 +23062,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23178,6 +23300,7 @@
                             </div>
                         </span></li>
                         <li t-else="">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24135,6 +24258,9 @@
 =======
                             <span t-field="company.company_details">
 >>>>>>> upstream/18.0
+=======
+                            <span t-field="company.company_details">
+>>>>>>> upstream/18.0
                                 <div class="d-flex flex-column align-items-center justify-content-center border-1 rounded p-4 h-100 w-100 bg-light opacity-75 text-muted text-center">
                                     <strong>Company details block</strong>
                                     <div>Contains the company details.</div>
@@ -24228,8 +24354,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li t-if="not forced_vat"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24494,6 +24623,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24936,7 +25068,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     thead th, #total .o_total td {
+=======
+                    thead th, #total .o_total td, thead td {
+>>>>>>> upstream/18.0
 =======
                     thead th, #total .o_total td, thead td {
 >>>>>>> upstream/18.0

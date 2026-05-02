@@ -231,6 +231,10 @@ class UoM(models.Model):
         if self == to_unit:
             amount = qty
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            rounding_method = 'HALF-UP'  # If "converting" to the same unit, use the usual HALF-UP rounding method
+>>>>>>> upstream/18.0
 =======
             rounding_method = 'HALF-UP'  # If "converting" to the same unit, use the usual HALF-UP rounding method
 >>>>>>> upstream/18.0

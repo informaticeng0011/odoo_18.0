@@ -123,7 +123,10 @@ class TestConfigureShops(TestPoSCommon):
         self.assertTrue(second_id not in pos_config.payment_method_ids.ids)
         self.assertTrue(len(pos_config.payment_method_ids) == 2)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_warehouse_synced_with_picking_type(self):
         """Changing the operation type should update the warehouse on the POS config."""
@@ -148,4 +151,7 @@ class TestConfigureShops(TestPoSCommon):
             pos_config.warehouse_id, warehouse_2,
             "warehouse_id should follow picking_type_id.warehouse_id after changing operation type"
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

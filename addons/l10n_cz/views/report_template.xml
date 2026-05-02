@@ -5,10 +5,13 @@
             Company ID: <span t-field="company.company_registry"/>
         </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <li t-if="company.vat and company.account_fiscal_country_id.code == 'CZ'">
             <t t-out="company.country_id.vat_label or 'Tax ID'"/>:
             <span t-out="company.vat"/>
         </li>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     </template>
@@ -55,10 +58,13 @@
                 Company ID: <span t-field="company.company_registry"/>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="company.vat and company.account_fiscal_country_id.code == 'CZ'">
                 <t t-out="company.country_id.vat_label or 'Tax ID'"/>:
                 <span t-out="company.vat"/>
             </div>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         </xpath>

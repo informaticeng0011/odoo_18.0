@@ -2,6 +2,11 @@
 
 from odoo import Command
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.addons.mail.tools.discuss import Store
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.addons.mail.tools.discuss import Store
@@ -74,7 +79,10 @@ class TestPortalTimesheet(TestProjectSharingCommon):
             elif view_type == 'kanban':
                 self.assertEqual(view_id, kanban_view_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_collaborators_accessible_by_timesheet_user(self):
         """Test that a restricted user (with only HR Timesheet User access) can
@@ -95,4 +103,7 @@ class TestPortalTimesheet(TestProjectSharingCommon):
             store.get_result()["mail.thread"][0]["collaborator_ids"],
             [{"id": self.partner_portal.id, "type": "partner"}],
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

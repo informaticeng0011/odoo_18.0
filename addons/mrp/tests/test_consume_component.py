@@ -47,6 +47,7 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import common, tagged, Form
 =======
 from odoo.tests import common, Command, tagged, Form
@@ -140,6 +141,9 @@ from odoo.tests import common, tagged, Form
 >>>>>>> upstream/18.0
 =======
 from odoo.tests import common, tagged, Form
+>>>>>>> upstream/18.0
+=======
+from odoo.tests import common, Command, tagged, Form
 >>>>>>> upstream/18.0
 =======
 from odoo.tests import common, Command, tagged, Form
@@ -925,6 +929,7 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1389,6 +1394,8 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1472,6 +1479,7 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         mo.move_raw_line_ids.quantity = 1
 =======
         mo.move_raw_ids.move_line_ids.quantity = 1
@@ -1499,6 +1507,9 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 >>>>>>> upstream/18.0
 =======
         mo.move_raw_line_ids.quantity = 1
+>>>>>>> upstream/18.0
+=======
+        mo.move_raw_ids.move_line_ids.quantity = 1
 >>>>>>> upstream/18.0
 =======
         mo.move_raw_ids.move_line_ids.quantity = 1
@@ -1539,6 +1550,7 @@ class TestConsumeComponent(TestConsumeComponentCommon):
         })
         mo.button_mark_done()
         mo.invalidate_recordset()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1631,6 +1643,8 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertRecordValues(mo.move_raw_ids.move_line_ids, [
             {'quantity': 1.0},
             {'quantity': 1.0},
@@ -1639,6 +1653,9 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2016,6 +2033,7 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2542,6 +2560,8 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2640,6 +2660,9 @@ class TestConsumeComponent(TestConsumeComponentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

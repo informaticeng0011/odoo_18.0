@@ -96,6 +96,11 @@ patch(Chatter.prototype, {
         /** @type {number|null} */
         this.loadingAttachmentTimeout = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        /** @type {Map<string, Function>} */
+        this.uploadHandlers = new Map();
+>>>>>>> upstream/18.0
 =======
         /** @type {Map<string, Function>} */
         this.uploadHandlers = new Map();
@@ -125,7 +130,11 @@ patch(Chatter.prototype, {
                     this.state.isAttachmentBoxOpened = true;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -348,6 +357,7 @@ patch(Chatter.prototype, {
     },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     async onUploaded(data) {
         await this.attachmentUploader.uploadData(data);
         if (this.props.hasParentReloadOnAttachmentsChanged) {
@@ -359,6 +369,8 @@ patch(Chatter.prototype, {
         }
         this.state.thread.scrollTop = "bottom";
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @param {string} data deprecated, passing thread is enough
      * @param {import("models").Thread} thread
@@ -387,6 +399,9 @@ patch(Chatter.prototype, {
             });
         }
         return this.uploadHandlers.get(threadLocalId);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
 

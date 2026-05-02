@@ -179,6 +179,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 =======
 import { redirect } from '@web/core/utils/urls';
 >>>>>>> upstream/18.0
@@ -1110,7 +1114,11 @@ publicWidget.registry.ProductWishlist = publicWidget.Widget.extend(VariantMixin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.location.href = '/shop/cart';
+=======
+        redirect('/shop/cart');
+>>>>>>> upstream/18.0
 =======
         redirect('/shop/cart');
 >>>>>>> upstream/18.0
@@ -1843,7 +1851,11 @@ publicWidget.registry.ProductWishlist = publicWidget.Widget.extend(VariantMixin,
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         window.location = '/shop/wishlist';
+=======
+        redirect('/shop/wishlist');
+>>>>>>> upstream/18.0
 =======
         redirect('/shop/wishlist');
 >>>>>>> upstream/18.0

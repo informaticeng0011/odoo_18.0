@@ -161,7 +161,11 @@ import pprint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, models
+=======
+from odoo import _, models, release
+>>>>>>> upstream/18.0
 =======
 from odoo import _, models, release
 >>>>>>> upstream/18.0
@@ -899,6 +903,12 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        partner_country_code = (
+            self.partner_country_id.code or self.provider_id.company_id.country_id.code or 'NL'
+        )
+>>>>>>> upstream/18.0
 =======
         partner_country_code = (
             self.partner_country_id.code or self.provider_id.company_id.country_id.code or 'NL'
@@ -2123,6 +2133,7 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'countryCode': partner_country_code,
 >>>>>>> upstream/18.0
@@ -2259,6 +2270,8 @@ class PaymentTransaction(models.Model):
             'countryCode': partner_country_code,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2738,6 +2751,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3268,7 +3284,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3880,6 +3899,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

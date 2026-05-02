@@ -238,7 +238,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             existing_partner = order.env['res.partner'].search([
+=======
+            existing_partner = order.env['res.partner'].with_context(active_test=False).search([
+>>>>>>> upstream/18.0
 =======
             existing_partner = order.env['res.partner'].with_context(active_test=False).search([
 >>>>>>> upstream/18.0
@@ -546,6 +550,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # Archive partner to prevent selection from the UI for Click&Collect.
+                'active': order.carrier_id.delivery_type != 'in_store',
+>>>>>>> upstream/18.0
 =======
                 # Archive partner to prevent selection from the UI for Click&Collect.
                 'active': order.carrier_id.delivery_type != 'in_store',

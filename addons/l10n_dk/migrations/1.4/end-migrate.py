@@ -103,7 +103,11 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('company_id', 'in', dk_companies.ids),
+=======
+            ('company_ids', 'in', dk_companies.ids),
+>>>>>>> upstream/18.0
 =======
             ('company_ids', 'in', dk_companies.ids),
 >>>>>>> upstream/18.0
@@ -212,6 +216,7 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     for account in env['account.account'].with_context(active_test=False).search([('company_id', 'in', dk_companies.ids)]):
 =======
     for account in env['account.account'].with_context(active_test=False).search([('company_ids', 'in', dk_companies.ids)]):
@@ -220,6 +225,8 @@ def migrate(cr, version):
         if len(account.code) < 6:
             account.code = account.code.ljust(6, '0')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -289,6 +296,9 @@ def migrate(cr, version):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

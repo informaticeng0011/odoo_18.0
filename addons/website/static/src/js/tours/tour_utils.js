@@ -414,7 +414,11 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
                 backend ? ":iframe" : ""
             } ul.top_menu`,
 <<<<<<< HEAD
+<<<<<<< HEAD
             run(actions) {
+=======
+            async run(actions) {
+>>>>>>> upstream/18.0
 =======
             async run(actions) {
 >>>>>>> upstream/18.0
@@ -423,8 +427,11 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
                 // Don't click on the extra menu button if it's already visible.
                 if (extraMenuButton && !extraMenuButton.classList.contains("show")) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     actions.click(extraMenuButton);
 =======
+=======
+>>>>>>> upstream/18.0
                     const dropdownFullyOpen = Promise.withResolvers();
                     extraMenuButton.addEventListener(
                         "shown.bs.dropdown",
@@ -433,6 +440,9 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
                     );
                     actions.click(extraMenuButton);
                     await dropdownFullyOpen.promise;
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
             },

@@ -387,6 +387,7 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.carrier.write({
             'must_have_tag_ids': [self.must_have_tag.id],
         })
@@ -400,6 +401,8 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
             })],
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1181,6 +1184,9 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

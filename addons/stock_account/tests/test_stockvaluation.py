@@ -2169,7 +2169,10 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2814,6 +2817,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3762,7 +3768,11 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(self.product1.standard_price, 16.67)
+=======
+        self.assertAlmostEqual(self.product1.standard_price, 16.6666667)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(self.product1.standard_price, 16.6666667)
 >>>>>>> upstream/18.0
@@ -4833,6 +4843,7 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'account_id': self.stock_input_account.id, 'debit': 240, 'credit': 0},
                 {'account_id': self.stock_valuation_account.id, 'debit': 0, 'credit': 240},
                 {'account_id': self.stock_valuation_account.id, 'debit': 239.97, 'credit': 0},
@@ -4842,6 +4853,8 @@ class TestStockValuation(TestStockValuationBase):
 
         self.assertEqual(self.product1.standard_price, 12.63)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5138,6 +5151,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5505,6 +5521,7 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {'account_id': self.stock_valuation_account.id, 'debit': 239.97, 'credit': 0},
                 {'account_id': self.stock_input_account.id, 'debit': 0, 'credit': 239.97},
             ]
@@ -5512,6 +5529,8 @@ class TestStockValuation(TestStockValuationBase):
 
         self.assertEqual(self.product1.standard_price, 12.63)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5806,6 +5825,9 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7499,7 +7521,10 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8471,6 +8496,7 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9076,6 +9102,8 @@ class TestStockValuation(TestStockValuationBase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

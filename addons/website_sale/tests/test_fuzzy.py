@@ -39,7 +39,10 @@ class TestFuzzy(ProductVariantsCommon):
         self.assertEqual(0, results_count, "Should have found none")
         self.assertIsNone(fuzzy_term, "Should have no suggestion")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_search_products_accessibility_multi_company(self):
         company_2 = self.env['res.company'].create({'name': 'test'})
@@ -61,4 +64,7 @@ class TestFuzzy(ProductVariantsCommon):
         self.product_template_sofa.company_id = False
         _, results, _ = website._search_with_fuzzy('products_only', 'Sofa', 5, 'name asc', options)
         self.assertIn(self.product_template_sofa, results[0]['results'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

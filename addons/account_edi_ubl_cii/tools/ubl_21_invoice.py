@@ -48,6 +48,10 @@ import odoo.addons.account_edi_ubl_cii.tools.ubl_21_common as cac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import odoo.addons.account_edi_ubl_cii.tools.ubl_21_extensions as ext
+>>>>>>> upstream/18.0
 =======
 import odoo.addons.account_edi_ubl_cii.tools.ubl_21_extensions as ext
 >>>>>>> upstream/18.0
@@ -256,7 +260,11 @@ Invoice = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'ext:UBLExtensions': {},
+=======
+    'ext:UBLExtensions': ext.UBLExtensions,
+>>>>>>> upstream/18.0
 =======
     'ext:UBLExtensions': ext.UBLExtensions,
 >>>>>>> upstream/18.0
@@ -470,6 +478,10 @@ Invoice = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:TaxPointDate': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:TaxPointDate': {},
 >>>>>>> upstream/18.0
@@ -726,6 +738,10 @@ Invoice = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:AccountingCost': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:AccountingCost': {},
 >>>>>>> upstream/18.0
@@ -982,8 +998,11 @@ Invoice = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'cac:AdditionalDocumentReference': cac.DocumentReference,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1174,6 +1193,9 @@ Invoice = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

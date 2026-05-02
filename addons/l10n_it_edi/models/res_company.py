@@ -262,7 +262,12 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and bool(record.l10n_it_eco_index_share_capital) ^ bool(record.l10n_it_eco_index_sole_shareholder)):
+=======
+                and (bool(record.l10n_it_eco_index_share_capital)
+                    ^ (record.l10n_it_eco_index_sole_shareholder and record.l10n_it_eco_index_sole_shareholder != 'NO'))):
+>>>>>>> upstream/18.0
 =======
                 and (bool(record.l10n_it_eco_index_share_capital)
                     ^ (record.l10n_it_eco_index_sole_shareholder and record.l10n_it_eco_index_sole_shareholder != 'NO'))):
@@ -954,6 +959,7 @@ class ResCompany(models.Model):
     @api.depends("account_edi_proxy_client_ids")
     def _compute_l10n_it_edi_proxy_user_id(self):
         for company in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2362,6 +2368,10 @@ class ResCompany(models.Model):
             edi_company = company._l10n_it_get_edi_company()
             company.l10n_it_edi_proxy_user_id = edi_company.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
 >>>>>>> upstream/18.0
+=======
+            edi_company = company._l10n_it_get_edi_company()
+            company.l10n_it_edi_proxy_user_id = edi_company.account_edi_proxy_client_ids.filtered(lambda x: x.proxy_type == 'l10n_it_edi')
+>>>>>>> upstream/18.0
 
     def _l10n_it_edi_export_check(self):
         checks = {
@@ -2668,7 +2678,10 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3466,6 +3479,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

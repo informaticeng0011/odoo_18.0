@@ -359,6 +359,10 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                build_errors = None
+>>>>>>> upstream/18.0
 =======
                 build_errors = None
 >>>>>>> upstream/18.0
@@ -1613,6 +1617,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if build_errors:
                         invoice_data['error'] = {
                             'error_title': _("Error when rebuilding the CIUS-RO E-Factura XML"),
@@ -1626,6 +1631,8 @@ class AccountMoveSend(models.AbstractModel):
 
                 invoice._l10n_ro_edi_send_invoice(xml_data)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2509,6 +2516,12 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if self._can_commit():
+                    self.env.cr.commit()
+
+>>>>>>> upstream/18.0
 =======
                 if self._can_commit():
                     self.env.cr.commit()
@@ -4070,6 +4083,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

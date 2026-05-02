@@ -21,9 +21,12 @@ export class AttachmentUploader {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     async uploadFile(file, options) {
         return this.attachmentUploadService.upload(this.thread, this.composer, file, options);
 =======
+=======
+>>>>>>> upstream/18.0
     /**
      * @param {File} file
      * @param {Object} [options]
@@ -34,6 +37,9 @@ export class AttachmentUploader {
     async uploadFile(file, options) {
         const thread = options?.thread || this.thread;
         return this.attachmentUploadService.upload(thread, this.composer, file, options);
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
