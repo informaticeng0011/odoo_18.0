@@ -370,7 +370,11 @@ viewsRegistry.category("form").add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const TIMEOUT = 500;
+=======
+const TIMEOUT = 2000;
+>>>>>>> upstream/18.0
 =======
 const TIMEOUT = 2000;
 >>>>>>> upstream/18.0
@@ -1544,6 +1548,7 @@ export function waitForChannels(channels, { operation = "add" } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const message = (pass, r) =>
             pass
                 ? [r`Channel(s)`, channels, operation === "add" ? r`added` : r`deleted`]
@@ -1556,6 +1561,8 @@ export function waitForChannels(channels, { operation = "add" } = {}) {
                       operation === "add" ? r`added` : r`deleted`,
                   ];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2330,6 +2337,9 @@ export function waitForChannels(channels, { operation = "add" } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

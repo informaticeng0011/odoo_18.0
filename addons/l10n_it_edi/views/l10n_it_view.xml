@@ -115,6 +115,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             string="Send Tax Integration"
                             invisible="state != 'posted' or not l10n_it_edi_is_self_invoice or is_move_sent or country_code != 'IT'"
                             data-hotkey="y"/>
@@ -1377,6 +1378,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             string="Send to SDI"
                             invisible="state != 'posted' or not l10n_it_edi_is_self_invoice or is_move_sent or country_code != 'IT' or l10n_it_edi_state in ('rejected', 'rejected_by_pa_partner')"
                             data-hotkey="y"/>
@@ -1386,6 +1389,9 @@
                     <field name="l10n_it_edi_attachment_id" invisible="1"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1452,7 +1458,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         invisible="l10n_it_edi_state not in ('being_sent', 'processing', 'forward_attempt')"
+=======
+                        invisible="l10n_it_edi_state not in ('being_sent', 'processing', 'forward_attempt', 'forwarded')
+                                   or (l10n_it_edi_state == 'forwarded' and not l10n_it_partner_is_public_administration)"
+>>>>>>> upstream/18.0
 =======
                         invisible="l10n_it_edi_state not in ('being_sent', 'processing', 'forward_attempt', 'forwarded')
                                    or (l10n_it_edi_state == 'forwarded' and not l10n_it_partner_is_public_administration)"
@@ -1903,6 +1914,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="l10n_it_partner_pa" invisible="1"/>
 =======
                             <field name="l10n_it_partner_pa" invisible="1"/> <!-- TODO: to be removed in master -->
@@ -1960,6 +1972,9 @@
 >>>>>>> upstream/18.0
 =======
                             <field name="l10n_it_partner_pa" invisible="1"/> <!-- TODO: to be removed in master -->
+>>>>>>> upstream/18.0
+=======
+                            <field name="l10n_it_partner_pa" invisible="1"/>
 >>>>>>> upstream/18.0
 =======
                             <field name="l10n_it_partner_pa" invisible="1"/>

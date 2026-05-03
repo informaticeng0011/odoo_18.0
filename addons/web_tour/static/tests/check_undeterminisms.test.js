@@ -230,7 +230,11 @@ const mainErrorMessage = (trigger) =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     `ERROR during perform action:\nPotential non deterministic behavior found in 300ms for trigger ${trigger}.`;
+=======
+    `Error: Potential non deterministic behavior found in 300ms for trigger ${trigger}.`;
+>>>>>>> upstream/18.0
 =======
     `Error: Potential non deterministic behavior found in 300ms for trigger ${trigger}.`;
 >>>>>>> upstream/18.0
@@ -1164,8 +1168,11 @@ beforeEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         error: (s) => expect.step(`error: ${s}`),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1824,6 +1831,9 @@ beforeEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

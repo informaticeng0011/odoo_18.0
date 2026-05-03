@@ -227,6 +227,11 @@ class TestManualConsumption(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        location = self.env['stock.location'].search([], limit=1)
+        mo.procurement_group_id.mrp_production_ids.location_final_id = location
+>>>>>>> upstream/18.0
 =======
         location = self.env['stock.location'].search([], limit=1)
         mo.procurement_group_id.mrp_production_ids.location_final_id = location
@@ -812,6 +817,10 @@ class TestManualConsumption(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(mo.location_final_id, location)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(mo.location_final_id, location)
 >>>>>>> upstream/18.0

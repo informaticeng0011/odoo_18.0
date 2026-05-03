@@ -40,7 +40,10 @@ class TestFuzzy(ProductVariantsCommon):
         self.assertIsNone(fuzzy_term, "Should have no suggestion")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -65,6 +68,9 @@ class TestFuzzy(ProductVariantsCommon):
         _, results, _ = website._search_with_fuzzy('products_only', 'Sofa', 5, 'name asc', options)
         self.assertIn(self.product_template_sofa, results[0]['results'])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

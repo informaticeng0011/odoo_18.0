@@ -42,7 +42,11 @@ class ProjectTask(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     sale_order_state = fields.Selection(related='sale_order_id.state')
+=======
+    sale_order_state = fields.Selection(related='sale_order_id.state', tracking=False)
+>>>>>>> upstream/18.0
 =======
     sale_order_state = fields.Selection(related='sale_order_id.state', tracking=False)
 >>>>>>> upstream/18.0
@@ -98,6 +102,7 @@ class ProjectTask(models.Model):
     @api.depends('sale_line_id', 'project_id', 'allow_billable')
     def _compute_sale_order_id(self):
         for task in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -387,6 +392,9 @@ class ProjectTask(models.Model):
 =======
             if not (task.allow_billable and task.sale_line_id):
 >>>>>>> upstream/18.0
+=======
+            if not (task.allow_billable and task.sale_line_id):
+>>>>>>> upstream/18.0
                 task.sale_order_id = False
                 continue
             sale_order = (
@@ -436,6 +444,7 @@ class ProjectTask(models.Model):
                 sale_line = False
                 if task.parent_id.sale_line_id and task.parent_id.partner_id.commercial_partner_id == task.partner_id.commercial_partner_id:
                     sale_line = task.parent_id.sale_line_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1137,6 +1146,8 @@ class ProjectTask(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 elif task.milestone_id.sale_line_id:
                     sale_line = task.milestone_id.sale_line_id
                 elif task.project_id.sale_line_id and task.project_id.partner_id.commercial_partner_id == task.partner_id.commercial_partner_id:
@@ -1374,6 +1385,9 @@ class ProjectTask(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2207,7 +2221,11 @@ class ProjectTask(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "Portal Sale Order",
+=======
+            "name": self.env._("Portal Sale Order"),
+>>>>>>> upstream/18.0
 =======
             "name": self.env._("Portal Sale Order"),
 >>>>>>> upstream/18.0

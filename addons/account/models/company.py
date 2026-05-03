@@ -337,7 +337,10 @@ PEPPOL_DEFAULT_COUNTRIES = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1241,6 +1244,7 @@ PEPPOL_MAILING_COUNTRIES = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1379,6 +1383,8 @@ PEPPOL_LIST = PEPPOL_DEFAULT_COUNTRIES + [
     'AD', 'AL',  'BA', 'BG', 'GB', 'HR', 'HU', 'LI', 'MC', 'ME',
     'MK', 'RS', 'SK', 'SM', 'TR', 'VA',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2079,6 +2085,9 @@ PEPPOL_LIST = PEPPOL_DEFAULT_COUNTRIES + [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3192,8 +3201,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             company.user_hard_lock_date = max(c.hard_lock_date or date.min for c in company.sudo().parent_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4092,6 +4104,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5438,6 +5453,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return bool(self.env['account.move.line'].search([('company_id', 'child_of', self.id)], limit=1))
 =======
         return bool(self.env['account.move.line'].search_count([('company_id', 'child_of', self.id)], limit=1))
@@ -5489,6 +5505,9 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
         return bool(self.env['account.move.line'].search_count([('company_id', 'child_of', self.id)], limit=1))
+>>>>>>> upstream/18.0
+=======
+        return bool(self.env['account.move.line'].sudo().search_count([('company_id', 'child_of', self.id)], limit=1))
 >>>>>>> upstream/18.0
 =======
         return bool(self.env['account.move.line'].sudo().search_count([('company_id', 'child_of', self.id)], limit=1))

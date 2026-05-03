@@ -55,6 +55,7 @@ Pro rules and show the errors.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'data/ubl_21_templates.xml',
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -290,6 +291,8 @@ Pro rules and show the errors.
         'report/account_edi_ubl_cii_report_templates.xml',
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -382,6 +385,9 @@ Pro rules and show the errors.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -627,6 +633,10 @@ Pro rules and show the errors.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uninstall_hook': 'uninstall_hook',
+>>>>>>> upstream/18.0
 =======
     'uninstall_hook': 'uninstall_hook',
 >>>>>>> upstream/18.0

@@ -415,7 +415,11 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
             } ul.top_menu`,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run(actions) {
+=======
+            async run(actions) {
+>>>>>>> upstream/18.0
 =======
             async run(actions) {
 >>>>>>> upstream/18.0
@@ -428,8 +432,11 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
                 if (extraMenuButton && !extraMenuButton.classList.contains("show")) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     actions.click(extraMenuButton);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     const dropdownFullyOpen = Promise.withResolvers();
@@ -441,6 +448,9 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
                     actions.click(extraMenuButton);
                     await dropdownFullyOpen.promise;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

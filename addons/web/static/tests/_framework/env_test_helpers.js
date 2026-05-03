@@ -350,10 +350,13 @@ export function getService(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  */
 export async function makeMockEnv(partialEnv, { makeNew = false } = {}) {
     if (currentEnv && !makeNew) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1173,6 +1176,9 @@ export async function makeMockEnv(partialEnv, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1997,6 +2003,7 @@ export async function makeMockEnv(partialEnv, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     currentEnv = makeEnv();
     after(() => {
         currentEnv = null;
@@ -2019,6 +2026,8 @@ export async function makeMockEnv(partialEnv, options) {
 
     return currentEnv;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2857,6 +2866,9 @@ export async function makeMockEnv(partialEnv, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

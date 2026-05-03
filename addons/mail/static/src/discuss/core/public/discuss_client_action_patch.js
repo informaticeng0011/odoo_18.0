@@ -242,7 +242,11 @@ patch(DiscussClientAction.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             welcome: this.store.shouldDisplayWelcomeViewInitially,
+=======
+            welcome: this.store.shouldDisplayWelcomeView,
+>>>>>>> upstream/18.0
 =======
             welcome: this.store.shouldDisplayWelcomeView,
 >>>>>>> upstream/18.0
@@ -1196,11 +1200,14 @@ patch(DiscussClientAction.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.store.discuss.thread?.defaultDisplayMode === "video_full_screen";
     },
     closeWelcomePage() {
         this.publicState.welcome = false;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1904,6 +1911,9 @@ patch(DiscussClientAction.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

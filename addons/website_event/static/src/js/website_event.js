@@ -262,6 +262,7 @@ var EventRegistrationForm = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const [modal, recaptchaToken] = await Promise.all([
             rpc(formEl.action, post),
             this._recaptcha.getToken("website_event_registration"),
@@ -275,6 +276,11 @@ var EventRegistrationForm = publicWidget.Widget.extend({
             buttonEl.disabled = false;
             return false;
         }
+=======
+        const [modal] = await Promise.all([
+            rpc(formEl.action, post),
+        ]);
+>>>>>>> upstream/18.0
 =======
         const [modal] = await Promise.all([
             rpc(formEl.action, post),
@@ -1401,8 +1407,11 @@ var EventRegistrationForm = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         modalEl.querySelector("form").addEventListener("submit", (ev) => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1972,6 +1981,9 @@ var EventRegistrationForm = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2533,7 +2545,12 @@ var EventRegistrationForm = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ev.currentTarget.appendChild(tokenInput);
+=======
+            form.appendChild(tokenInput);
+            form.submit();
+>>>>>>> upstream/18.0
 =======
             form.appendChild(tokenInput);
             form.submit();

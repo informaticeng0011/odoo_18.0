@@ -151,7 +151,11 @@ class MailMessage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     },
+=======
+                    } if message.author_id else False,
+>>>>>>> upstream/18.0
 =======
                     } if message.author_id else False,
 >>>>>>> upstream/18.0
@@ -224,6 +228,7 @@ class MailMessage(models.Model):
 
     def _is_editable_in_portal(self, **kwargs):
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -604,6 +609,9 @@ class MailMessage(models.Model):
 >>>>>>> upstream/18.0
 =======
         if self.model and self.res_id:
+>>>>>>> upstream/18.0
+=======
+        if self.model and self.res_id and self.env.user._is_public():
 >>>>>>> upstream/18.0
 =======
         if self.model and self.res_id and self.env.user._is_public():

@@ -160,7 +160,11 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should outdent a checklist", async () => {
+=======
+    test("should outdent a checklist (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should outdent a checklist (1)", async () => {
 >>>>>>> upstream/18.0
@@ -712,6 +716,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should outdent a checklist (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1533,7 +1543,11 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('should outdent a checklist and previous line as "title"', async () => {
+=======
+    test('should outdent a checklist and previous line as "title" (1)', async () => {
+>>>>>>> upstream/18.0
 =======
     test('should outdent a checklist and previous line as "title" (1)', async () => {
 >>>>>>> upstream/18.0
@@ -2087,6 +2101,12 @@ describe("Checklist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test('should outdent a checklist and previous line as "title" (2)', async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -2997,7 +3017,11 @@ describe("with selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should outdent the last element of a list with sublist", async () => {
+=======
+    test("should outdent the last element of a list with sublist (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should outdent the last element of a list with sublist (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3563,6 +3587,12 @@ describe("with selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should outdent the last element of a list with sublist (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -4764,7 +4794,11 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test.skip("should outdent multiples list item in the middle element of a list with sublist", async () => {
+=======
+    test.skip("should outdent multiples list item in the middle element of a list with sublist (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test.skip("should outdent multiples list item in the middle element of a list with sublist (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5334,7 +5368,10 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5738,6 +5775,9 @@ describe("with selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

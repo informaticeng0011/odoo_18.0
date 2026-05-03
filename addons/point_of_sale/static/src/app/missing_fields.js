@@ -231,6 +231,7 @@ registry.category("fields").add("list.list_activity", { component: DefaultField 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -244,6 +245,8 @@ registry.category("fields").add("auto_save_res_partner", { component: DefaultFie
 registry.category("fields").add("website_redirect_button", { component: DefaultField });
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -124,7 +124,10 @@ class TestConfigureShops(TestPoSCommon):
         self.assertTrue(len(pos_config.payment_method_ids) == 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -152,6 +155,9 @@ class TestConfigureShops(TestPoSCommon):
             "warehouse_id should follow picking_type_id.warehouse_id after changing operation type"
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

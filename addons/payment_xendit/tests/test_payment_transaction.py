@@ -55,6 +55,12 @@ class TestPaymentTransaction(PaymentHttpCommon, XenditCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ), patch(
+            'odoo.addons.payment.utils.generate_access_token',
+            new=self._generate_test_access_token
+>>>>>>> upstream/18.0
 =======
         ), patch(
             'odoo.addons.payment.utils.generate_access_token',
@@ -135,8 +141,11 @@ class TestPaymentTransaction(PaymentHttpCommon, XenditCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         processing_values = tx._get_specific_processing_values({})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -154,6 +163,9 @@ class TestPaymentTransaction(PaymentHttpCommon, XenditCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -132,9 +132,12 @@ export function useSpreadsheetNotificationStore() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      */
     function askConfirmation(body, confirm) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -167,6 +170,9 @@ export function useSpreadsheetNotificationStore() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -200,8 +206,14 @@ export function useSpreadsheetNotificationStore() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cancel: () => {}, // Must be defined to display the Cancel button
             confirmLabel: _t("Confirm"),
+=======
+            cancel: cancel || (() => {}), // Must be defined to display the Cancel button
+            confirmLabel,
+            cancelLabel,
+>>>>>>> upstream/18.0
 =======
             cancel: cancel || (() => {}), // Must be defined to display the Cancel button
             confirmLabel,

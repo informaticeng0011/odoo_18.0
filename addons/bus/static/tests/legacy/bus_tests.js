@@ -348,7 +348,10 @@ QUnit.test("second tab still receives notifications after main pagehide", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1128,6 +1131,9 @@ QUnit.test("second tab still receives notifications after main pagehide", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1963,6 +1969,7 @@ QUnit.test("Websocket disconnects upon user log out", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const firstTabEnv = await makeTestEnv();
     firstTabEnv.services["bus_service"].start();
     await waitForBusEvent(firstTabEnv, "connect");
@@ -1972,6 +1979,8 @@ QUnit.test("Websocket disconnects upon user log out", async () => {
     const env2 = await makeTestEnv();
     env2.services["bus_service"].start();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2549,6 +2558,9 @@ QUnit.test("Websocket disconnects upon user log out", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

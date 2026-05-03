@@ -194,7 +194,10 @@ import { makeErrorFromResponse } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -784,6 +787,9 @@ import { makeErrorFromResponse } from "@web/core/network/rpc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1407,7 +1413,11 @@ export function getKwArgs(allArgs, ...argNames) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         throw new MockServerError("more positional arguments than there are given argument names");
+=======
+        throw new MockServerError("More positional arguments than there are given argument names");
+>>>>>>> upstream/18.0
 =======
         throw new MockServerError("More positional arguments than there are given argument names");
 >>>>>>> upstream/18.0
@@ -2204,7 +2214,11 @@ export function getRecordQualifier(record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {Record<string, string | any>} params
+=======
+ * @param {ServerErrorInit} params
+>>>>>>> upstream/18.0
 =======
  * @param {ServerErrorInit} params
 >>>>>>> upstream/18.0
@@ -2990,7 +3004,10 @@ export function makeServerError({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         message: message || "Odoo Server Error",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3576,9 +3593,12 @@ export function makeServerError({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             message: description,
         },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4159,6 +4179,9 @@ export function makeServerError({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
