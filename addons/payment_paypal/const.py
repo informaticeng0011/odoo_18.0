@@ -182,7 +182,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Last seen on: 22 September 2022.
+=======
+# Last seen on: 04 November 2025.
+
+# CNY removed as it requires in-country PayPal accounts but China mostly uses WeChat and Alipay.
+>>>>>>> upstream/18.0
 =======
 # Last seen on: 04 November 2025.
 
@@ -1267,7 +1273,10 @@ SUPPORTED_CURRENCIES = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'CNY',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

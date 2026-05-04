@@ -42,6 +42,10 @@ from . import test_controllers
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_models
+>>>>>>> upstream/18.0
 =======
 from . import test_models
 >>>>>>> upstream/18.0

@@ -162,8 +162,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_xendit
 # 
+=======
+# * payment_xendit
+#
+>>>>>>> upstream/18.0
 =======
 # * payment_xendit
 #
@@ -816,6 +821,7 @@
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1915,10 +1921,15 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2823,6 +2834,10 @@ msgstr ""
 "POT-Creation-Date: 2026-05-01 17:39+0000\n"
 "PO-Revision-Date: 2026-05-02 18:01+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-05-01 17:39+0000\n"
+"PO-Revision-Date: 2026-05-02 18:01+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "payment_xendit/da/>\n"
@@ -2831,6 +2846,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -3317,6 +3333,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-python
@@ -3326,6 +3345,11 @@ msgid ""
 "again."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Der opstod en fejl under behandlingen af din betaling (%s). Prøv venligst "
+"igen."
+>>>>>>> upstream/18.0
 =======
 "Der opstod en fejl under behandlingen af din betaling (%s). Prøv venligst "
 "igen."
@@ -3335,7 +3359,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Card Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kortkode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kortkode"
 >>>>>>> upstream/18.0
@@ -3344,7 +3372,11 @@ msgstr "Kortkode"
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Card Holder First Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kortholderens fornavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kortholderens fornavn"
 >>>>>>> upstream/18.0
@@ -3353,7 +3385,11 @@ msgstr "Kortholderens fornavn"
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Card Holder Last Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kortholderens efternavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kortholderens efternavn"
 >>>>>>> upstream/18.0
@@ -3606,7 +3642,11 @@ msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det var ikke muligt at oprette forbindelse til API'et."
+>>>>>>> upstream/18.0
 =======
 msgstr "Det var ikke muligt at oprette forbindelse til API'et."
 >>>>>>> upstream/18.0
@@ -4325,7 +4365,11 @@ msgstr "Udløbsdato"
 #: code:addons/payment_xendit/static/src/js/payment_form.js:0
 msgid "Invalid CVN"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugyldig CVN"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugyldig CVN"
 >>>>>>> upstream/18.0
@@ -4335,7 +4379,11 @@ msgstr "Ugyldig CVN"
 #: code:addons/payment_xendit/static/src/js/payment_form.js:0
 msgid "Invalid Card Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugyldigt kortnummer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugyldigt kortnummer"
 >>>>>>> upstream/18.0
@@ -4345,7 +4393,11 @@ msgstr "Ugyldigt kortnummer"
 #: code:addons/payment_xendit/static/src/js/payment_form.js:0
 msgid "Invalid Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugyldig dato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugyldig dato"
 >>>>>>> upstream/18.0
@@ -4354,7 +4406,11 @@ msgstr "Ugyldig dato"
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "John"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John"
+>>>>>>> upstream/18.0
 =======
 msgstr "John"
 >>>>>>> upstream/18.0
@@ -4369,7 +4425,11 @@ msgstr "MM"
 #: code:addons/payment_xendit/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der blev ikke fundet nogen transaktion, der matcher referencen %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Der blev ikke fundet nogen transaktion, der matcher referencen %s."
 >>>>>>> upstream/18.0
@@ -4405,7 +4465,11 @@ msgstr "Offentlig nøgle"
 #: code:addons/payment_xendit/models/payment_transaction.py:0
 msgid "Received data with missing reference."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modtagne data med manglende reference."
+>>>>>>> upstream/18.0
 =======
 msgstr "Modtagne data med manglende reference."
 >>>>>>> upstream/18.0
@@ -4419,13 +4483,19 @@ msgstr "Hemmelig nøgle"
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Smith"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Smith"
 
 #. module: payment_xendit
 #. odoo-python
 #: code:addons/payment_xendit/controllers/main.py:0
 msgid "The access token doesn't match the transaction reference."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgstr ""
 
@@ -4437,6 +4507,11 @@ msgid ""
 "information: '%s'"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kommunikationen med API'en mislykkedes. Xendit gav os følgende information: "
+"'%s'"
+>>>>>>> upstream/18.0
 =======
 "Kommunikationen med API'en mislykkedes. Xendit gav os følgende information: "
 "'%s'"
@@ -4446,7 +4521,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_xendit.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsudbyderens tekniske kode."
+>>>>>>> upstream/18.0
 =======
 msgstr "Betalingsudbyderens tekniske kode."
 >>>>>>> upstream/18.0
@@ -4456,7 +4535,11 @@ msgstr "Betalingsudbyderens tekniske kode."
 #: code:addons/payment_xendit/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transaktionen er ikke knyttet til et token."
+>>>>>>> upstream/18.0
 =======
 msgstr "Transaktionen er ikke knyttet til et token."
 >>>>>>> upstream/18.0
@@ -4465,7 +4548,11 @@ msgstr "Transaktionen er ikke knyttet til et token."
 #: model_terms:ir.ui.view,arch_db:payment_xendit.payment_provider_form_xendit
 msgid "Webhook Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook-token"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook-token"
 >>>>>>> upstream/18.0
@@ -4635,7 +4722,11 @@ msgid "Xendit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xendit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Xendit"
 >>>>>>> upstream/18.0
@@ -5127,7 +5218,11 @@ msgstr "Xendit"
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_public_key
 msgid "Xendit Public Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xendit offentlig nøgle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Xendit offentlig nøgle"
 >>>>>>> upstream/18.0
@@ -5136,7 +5231,11 @@ msgstr "Xendit offentlig nøgle"
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_secret_key
 msgid "Xendit Secret Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xendit hemmelig nøgle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Xendit hemmelig nøgle"
 >>>>>>> upstream/18.0
@@ -5145,7 +5244,11 @@ msgstr "Xendit hemmelig nøgle"
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_webhook_token
 msgid "Xendit Webhook Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Xendit-webhook-token"
+>>>>>>> upstream/18.0
 =======
 msgstr "Xendit-webhook-token"
 >>>>>>> upstream/18.0
@@ -5154,7 +5257,11 @@ msgstr "Xendit-webhook-token"
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "YYYY"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "YYYY"
+>>>>>>> upstream/18.0
 =======
 msgstr "YYYY"
 >>>>>>> upstream/18.0

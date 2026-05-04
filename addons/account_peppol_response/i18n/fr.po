@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol_response
 #
 =======
@@ -112,16 +113,22 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # * account_peppol_response
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # "Manon Rondou (ronm)" <ronm@odoo.com>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +196,10 @@ msgstr ""
 "PO-Revision-Date: 2026-05-02 09:20+0000\n"
 "Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2026-05-02 09:20+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
 "account_peppol_response/fr/>\n"
 "Language: fr\n"
@@ -196,6 +207,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.16.2\n"
 <<<<<<< HEAD
@@ -253,12 +265,19 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_response
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "<span>This information will be sent with your response.</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Ces informations seront envoyées avec votre réponse.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Ces informations seront envoyées avec votre réponse.</span>"
 >>>>>>> upstream/18.0
@@ -271,6 +290,11 @@ msgid ""
 "%(status)s this document."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Une réponse Peppol a été envoyée au point d’accès Peppol indiquant le statut "
+"suivant pour ce document : %(status)s."
+>>>>>>> upstream/18.0
 =======
 "Une réponse Peppol a été envoyée au point d’accès Peppol indiquant le statut "
 "suivant pour ce document : %(status)s."
@@ -298,7 +322,11 @@ msgid "Account EDI proxy user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Compte EDI de l'utilisateur proxy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Compte EDI de l'utilisateur proxy"
 >>>>>>> upstream/18.0
@@ -361,7 +389,11 @@ msgstr "Compte EDI de l'utilisateur proxy"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ab
 msgid "Acknowledgement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Accusé de réception"
+>>>>>>> upstream/18.0
 =======
 msgstr "Accusé de réception"
 >>>>>>> upstream/18.0
@@ -370,7 +402,11 @@ msgstr "Accusé de réception"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Actions to suggest"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actions à suggérer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actions à suggérer"
 >>>>>>> upstream/18.0
@@ -383,6 +419,11 @@ msgid ""
 " %(status)s - %(error)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Une erreur s’est produite lors de la réponse à l’expéditeur de cette "
+"facture.%(br)sStatut : %(status)s - %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Une erreur s’est produite lors de la réponse à l’expéditeur de cette "
 "facture.%(br)sStatut : %(status)s - %(error)s"
@@ -410,7 +451,11 @@ msgid "Approval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Validation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Validation"
 >>>>>>> upstream/18.0
@@ -491,7 +536,11 @@ msgid "Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Approuvé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Approuvé"
 >>>>>>> upstream/18.0
@@ -557,6 +606,10 @@ msgstr "Approuvé"
 msgid "At least one reason must be given when rejecting a Peppol invoice."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Au moins une raison doit être fournie lors du rejet d’une facture Peppol."
+>>>>>>> upstream/18.0
 =======
 "Au moins une raison doit être fournie lors du rejet d’une facture Peppol."
 >>>>>>> upstream/18.0
@@ -565,7 +618,11 @@ msgstr ""
 #: model:ir.model,name:account_peppol_response.model_account_peppol_response
 msgid "Business Level Responses for Peppol"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Réponses au niveau métier pour Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Réponses au niveau métier pour Peppol"
 >>>>>>> upstream/18.0
@@ -592,7 +649,11 @@ msgid "Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Code"
+>>>>>>> upstream/18.0
 =======
 msgstr "Code"
 >>>>>>> upstream/18.0
@@ -673,7 +734,11 @@ msgid "Companies"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sociétés"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sociétés"
 >>>>>>> upstream/18.0
@@ -754,7 +819,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Société"
+>>>>>>> upstream/18.0
 =======
 msgstr "Société"
 >>>>>>> upstream/18.0
@@ -817,7 +886,11 @@ msgstr "Société"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__ca
 msgid "Conditionally accepted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Accepté sous condition"
+>>>>>>> upstream/18.0
 =======
 msgstr "Accepté sous condition"
 >>>>>>> upstream/18.0
@@ -844,7 +917,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -927,7 +1004,11 @@ msgid "Created by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Créé par"
+>>>>>>> upstream/18.0
 =======
 msgstr "Créé par"
 >>>>>>> upstream/18.0
@@ -1010,7 +1091,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Créé le"
+>>>>>>> upstream/18.0
 =======
 msgstr "Créé le"
 >>>>>>> upstream/18.0
@@ -1091,7 +1176,11 @@ msgid "Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Description"
+>>>>>>> upstream/18.0
 =======
 msgstr "Description"
 >>>>>>> upstream/18.0
@@ -1174,7 +1263,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nom d'affichage"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nom d'affichage"
 >>>>>>> upstream/18.0
@@ -1237,7 +1330,11 @@ msgstr "Nom d'affichage"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Does not support Invoice Responses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne prend pas en charge les réponses aux factures"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne prend pas en charge les réponses aux factures"
 >>>>>>> upstream/18.0
@@ -1264,7 +1361,11 @@ msgid "Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Terminé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Terminé"
 >>>>>>> upstream/18.0
@@ -1345,7 +1446,11 @@ msgid "Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erreur"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erreur"
 >>>>>>> upstream/18.0
@@ -1428,7 +1533,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -1509,7 +1618,11 @@ msgid "In Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En cours de traitement"
+>>>>>>> upstream/18.0
 =======
 msgstr "En cours de traitement"
 >>>>>>> upstream/18.0
@@ -1590,7 +1703,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Écriture comptable"
+>>>>>>> upstream/18.0
 =======
 msgstr "Écriture comptable"
 >>>>>>> upstream/18.0
@@ -1673,7 +1790,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mis à jour par"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mis à jour par"
 >>>>>>> upstream/18.0
@@ -1756,7 +1877,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mis à jour le"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mis à jour le"
 >>>>>>> upstream/18.0
@@ -1819,7 +1944,11 @@ msgstr "Mis à jour le"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_clarification__list_identifier
 msgid "List identifier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Identifiant de liste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Identifiant de liste"
 >>>>>>> upstream/18.0
@@ -1829,7 +1958,11 @@ msgstr "Identifiant de liste"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Miscellaneous:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Divers :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Divers :"
 >>>>>>> upstream/18.0
@@ -1857,7 +1990,11 @@ msgid "Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mouvement"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mouvement"
 >>>>>>> upstream/18.0
@@ -1938,7 +2075,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nom"
 >>>>>>> upstream/18.0
@@ -2001,7 +2142,11 @@ msgstr "Nom"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__peppol_state__not_serviced
 msgid "Not Serviced"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Non pris en charge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Non pris en charge"
 >>>>>>> upstream/18.0
@@ -2010,7 +2155,11 @@ msgstr "Non pris en charge"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusaction
 msgid "OPStatusAction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusAction"
+>>>>>>> upstream/18.0
 =======
 msgstr "OPStatusAction"
 >>>>>>> upstream/18.0
@@ -2019,7 +2168,11 @@ msgstr "OPStatusAction"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_clarification__list_identifier__opstatusreason
 msgid "OPStatusReason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OPStatusReason"
+>>>>>>> upstream/18.0
 =======
 msgstr "OPStatusReason"
 >>>>>>> upstream/18.0
@@ -2047,7 +2200,11 @@ msgid "PEPPOL status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statut PEPPOL"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statut PEPPOL"
 >>>>>>> upstream/18.0
@@ -2110,7 +2267,11 @@ msgstr "Statut PEPPOL"
 #: model:ir.actions.server,name:account_peppol_response.ir_cron_peppol_auto_register_services_ir_actions_server
 msgid "PEPPOL: auto register services"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL : enregistrement automatique des services"
+>>>>>>> upstream/18.0
 =======
 msgstr "PEPPOL : enregistrement automatique des services"
 >>>>>>> upstream/18.0
@@ -2137,7 +2298,11 @@ msgid "Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Payé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Payé"
 >>>>>>> upstream/18.0
@@ -2218,7 +2383,11 @@ msgid "Pending Reception"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Réception en attente"
+>>>>>>> upstream/18.0
 =======
 msgstr "Réception en attente"
 >>>>>>> upstream/18.0
@@ -2282,7 +2451,11 @@ msgstr "Réception en attente"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_move__peppol_can_send_response
 msgid "Peppol Can Send Response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol peut envoyer une réponse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peppol peut envoyer une réponse"
 >>>>>>> upstream/18.0
@@ -2291,7 +2464,11 @@ msgstr "Peppol peut envoyer une réponse"
 #: model:ir.model,name:account_peppol_response.model_account_peppol_rejection_wizard
 msgid "Peppol Rejection wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistant de rejet Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Assistant de rejet Peppol"
 >>>>>>> upstream/18.0
@@ -2302,7 +2479,11 @@ msgstr "Assistant de rejet Peppol"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_form
 msgid "Peppol Response"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Réponse Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Réponse Peppol"
 >>>>>>> upstream/18.0
@@ -2312,7 +2493,11 @@ msgstr "Réponse Peppol"
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_response_support
 msgid "Peppol Response Service"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Service de réponse Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Service de réponse Peppol"
 >>>>>>> upstream/18.0
@@ -2323,7 +2508,11 @@ msgstr "Service de réponse Peppol"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_list
 msgid "Peppol Responses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Réponses Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Réponses Peppol"
 >>>>>>> upstream/18.0
@@ -2332,7 +2521,11 @@ msgstr "Réponses Peppol"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__peppol_message_uuid
 msgid "Peppol UUID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UUID Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "UUID Peppol"
 >>>>>>> upstream/18.0
@@ -2342,7 +2535,11 @@ msgstr "UUID Peppol"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Peppol business response error: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Erreur de réponse métier Peppol : %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Erreur de réponse métier Peppol : %s"
 >>>>>>> upstream/18.0
@@ -2351,7 +2548,11 @@ msgstr "Erreur de réponse métier Peppol : %s"
 #: model:ir.model,name:account_peppol_response.model_account_peppol_clarification
 msgid "Peppol clarifications used for rejection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Clarifications Peppol utilisées pour le rejet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Clarifications Peppol utilisées pour le rejet"
 >>>>>>> upstream/18.0
@@ -2360,7 +2561,11 @@ msgstr "Clarifications Peppol utilisées pour le rejet"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_response_view_move_form
 msgid "Peppol info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informations Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informations Peppol"
 >>>>>>> upstream/18.0
@@ -2387,7 +2592,11 @@ msgid "Peppol status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Statut Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Statut Peppol"
 >>>>>>> upstream/18.0
@@ -2468,7 +2677,11 @@ msgid "Reasons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Motifs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Motifs"
 >>>>>>> upstream/18.0
@@ -2532,7 +2745,11 @@ msgstr "Motifs"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Reasons:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raisons :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raisons :"
 >>>>>>> upstream/18.0
@@ -2559,7 +2776,11 @@ msgid "Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reçu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reçu"
 >>>>>>> upstream/18.0
@@ -2624,7 +2845,11 @@ msgstr "Reçu"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Reject Peppol Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rejeter le document Peppol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rejeter le document Peppol"
 >>>>>>> upstream/18.0
@@ -2651,7 +2876,11 @@ msgid "Rejected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Refusé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Refusé"
 >>>>>>> upstream/18.0
@@ -2714,7 +2943,11 @@ msgstr "Refusé"
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__re
 msgid "Rejection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rejet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rejet"
 >>>>>>> upstream/18.0
@@ -2723,7 +2956,11 @@ msgstr "Rejet"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__action_ids
 msgid "Rejection actions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actions de rejet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actions de rejet"
 >>>>>>> upstream/18.0
@@ -2732,7 +2969,11 @@ msgstr "Actions de rejet"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_rejection_wizard__reason_ids
 msgid "Rejection reasons"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raisons de rejet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raisons de rejet"
 >>>>>>> upstream/18.0
@@ -2741,7 +2982,11 @@ msgstr "Raisons de rejet"
 #: model:ir.model.fields,field_description:account_peppol_response.field_account_peppol_response__response_code
 msgid "Response Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Code de réponse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Code de réponse"
 >>>>>>> upstream/18.0
@@ -2750,7 +2995,11 @@ msgstr "Code de réponse"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.account_peppol_rejection_wizard_view_form
 msgid "Send Rejection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Envoyer le rejet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Envoyer le rejet"
 >>>>>>> upstream/18.0
@@ -2760,7 +3009,11 @@ msgstr "Envoyer le rejet"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "Suggested actions:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actions suggérées :"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actions suggérées :"
 >>>>>>> upstream/18.0
@@ -2770,7 +3023,11 @@ msgstr "Actions suggérées :"
 #: model:ir.model.fields,field_description:account_peppol_response.field_res_users__peppol_supported_documents
 msgid "Supported Peppol Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documents Peppol pris en charge"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documents Peppol pris en charge"
 >>>>>>> upstream/18.0
@@ -2779,7 +3036,11 @@ msgstr "Documents Peppol pris en charge"
 #: model_terms:ir.ui.view,arch_db:account_peppol_response.res_partner_form_account_peppol_response
 msgid "Supports Invoice Responses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prise en charge des réponses aux factures"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prise en charge des réponses aux factures"
 >>>>>>> upstream/18.0
@@ -2792,6 +3053,11 @@ msgid ""
 "information:%(br)s%(rejection_message)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Le destinataire Peppol de ce document l’a rejeté avec les informations "
+"suivantes :%(br)s%(rejection_message)s"
+>>>>>>> upstream/18.0
 =======
 "Le destinataire Peppol de ce document l’a rejeté avec les informations "
 "suivantes :%(br)s%(rejection_message)s"
@@ -2802,7 +3068,11 @@ msgstr ""
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has accepted it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Le destinataire Peppol de ce document a répondu qu’il l’avait accepté."
+>>>>>>> upstream/18.0
 =======
 msgstr "Le destinataire Peppol de ce document a répondu qu’il l’avait accepté."
 >>>>>>> upstream/18.0
@@ -2812,7 +3082,11 @@ msgstr "Le destinataire Peppol de ce document a répondu qu’il l’avait accep
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "The Peppol receiver of this document replied that he has received it."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Le destinataire Peppol de ce document a répondu qu’il l’avait reçu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Le destinataire Peppol de ce document a répondu qu’il l’avait reçu."
 >>>>>>> upstream/18.0
@@ -2825,6 +3099,12 @@ msgid ""
 "the document's sender. Not mandatory."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Les actions à suggérer à l’expéditeur du document afin que celui-ci soit "
+"accepté lors d’un nouvel envoi (éventuellement). Elles seront envoyées à "
+"l’expéditeur du document. Non obligatoire."
+>>>>>>> upstream/18.0
 =======
 "Les actions à suggérer à l’expéditeur du document afin que celui-ci soit "
 "accepté lors d’un nouvel envoi (éventuellement). Elles seront envoyées à "
@@ -2838,6 +3118,11 @@ msgid ""
 "the document's sender."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Les raisons de rejeter le document PEPPOL reçu. Elles seront envoyées à "
+"l’expéditeur du document."
+>>>>>>> upstream/18.0
 =======
 "Les raisons de rejeter le document PEPPOL reçu. Elles seront envoyées à "
 "l’expéditeur du document."
@@ -2847,7 +3132,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:account_peppol_response.selection__account_peppol_response__response_code__uq
 msgid "Under query"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "En cours d’examen"
+>>>>>>> upstream/18.0
 =======
 msgstr "En cours d’examen"
 >>>>>>> upstream/18.0
@@ -2875,7 +3164,11 @@ msgid "accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "accepté"
+>>>>>>> upstream/18.0
 =======
 msgstr "accepté"
 >>>>>>> upstream/18.0
@@ -2939,7 +3232,11 @@ msgstr "accepté"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "received"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "reçu"
+>>>>>>> upstream/18.0
 =======
 msgstr "reçu"
 >>>>>>> upstream/18.0
@@ -2949,7 +3246,11 @@ msgstr "reçu"
 #: code:addons/account_peppol_response/models/account_edi_proxy_user.py:0
 msgid "rejected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "rejeté"
+>>>>>>> upstream/18.0
 =======
 msgstr "rejeté"
 >>>>>>> upstream/18.0

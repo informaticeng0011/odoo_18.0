@@ -234,8 +234,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import_module
 # 
+=======
+# * base_import_module
+#
+>>>>>>> upstream/18.0
 =======
 # * base_import_module
 #
@@ -1413,6 +1418,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
@@ -2279,10 +2285,16 @@
 # Ana Matulin <ana@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Ana Matulin <ana@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3439,6 +3451,11 @@ msgstr ""
 "PO-Revision-Date: 2026-05-02 09:06+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-02 09:06+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "base_import_module/hr/>\n"
 "Language: hr\n"
@@ -3447,6 +3464,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
@@ -4149,12 +4167,16 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4516,6 +4538,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You may need the Enterprise version to install the data module. Please visit "
 "https://www.odoo.com/pricing-plan for more information.\n"
 "If you need Website themes, it can be downloaded from https://github.com/"
@@ -4639,6 +4663,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4878,12 +4903,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "\n"
 "Možda vam je potrebna Enterprise verzija za instalaciju modula s podacima. "
 "Posjetite https://www.odoo.com/pricing-plan za više informacija.\n"
 "Ako trebate teme web stranice, možete ih preuzeti s https://github.com/odoo/"
 "design-themes.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -4916,6 +4946,10 @@ msgid ""
 "Connection to %(url)s failed, the module %(module)s cannot be downloaded."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Povezivanje na %(url)s nije uspjelo, modul %(module)s nije moguće preuzeti."
+>>>>>>> upstream/18.0
 =======
 "Povezivanje na %(url)s nije uspjelo, modul %(module)s nije moguće preuzeti."
 >>>>>>> upstream/18.0
@@ -4926,6 +4960,11 @@ msgstr ""
 msgid "Connection to %s failed The list of industry modules cannot be fetched"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Povezivanje na %s nije uspjelo. Nije moguće dohvatiti popis modula za "
+"djelatnost"
+>>>>>>> upstream/18.0
 =======
 "Povezivanje na %s nije uspjelo. Nije moguće dohvatiti popis modula za "
 "djelatnost"
@@ -4962,11 +5001,17 @@ msgid ""
 "\n"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Pogreška pri uvozu modula '%(module)s'.\n"
 "\n"
 " %(error_message)s \n"
 "\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -4982,6 +5027,7 @@ msgstr "Forsiraj inicijalizaciju"
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5464,6 +5510,9 @@ msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
 =======
 msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
 >>>>>>> upstream/18.0
+=======
+msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Forsiraj inicijalizaciju iako je instaliran( ažurirati će zapise sa "
 "\"noupdate=1\")"
@@ -5489,7 +5538,11 @@ msgstr "Uvezi modul"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__with_demo
 msgid "Import demo data of module"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvezi demo podatke modula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvezi demo podatke modula"
 >>>>>>> upstream/18.0
@@ -5514,7 +5567,11 @@ msgstr "Instaliraj"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Install an Industry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instaliraj djelatnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliraj djelatnost"
 >>>>>>> upstream/18.0
@@ -5523,7 +5580,11 @@ msgstr "Instaliraj djelatnost"
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install the application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Instaliraj aplikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Instaliraj aplikaciju"
 >>>>>>> upstream/18.0
@@ -5551,6 +5612,11 @@ msgid ""
 "load them if this is your production database."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Učitajte demo podatke za testiranje značajki djelatnosti s uzorcima zapisa. "
+"Ne učitavajte ih ako je ovo vaša produkcijska baza."
+>>>>>>> upstream/18.0
 =======
 "Učitajte demo podatke za testiranje značajki djelatnosti s uzorcima zapisa. "
 "Ne učitavajte ih ako je ovo vaša produkcijska baza."
@@ -5803,7 +5869,11 @@ msgid "Module Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta modula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta modula"
 >>>>>>> upstream/18.0
@@ -6521,7 +6591,11 @@ msgstr "Datoteka modula (.zip)"
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__modules_dependencies
 msgid "Modules Dependencies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovisnosti modula"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovisnosti modula"
 >>>>>>> upstream/18.0
@@ -6704,7 +6778,11 @@ msgid "Official Apps"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Službene aplikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Službene aplikacije"
 >>>>>>> upstream/18.0
@@ -7197,7 +7275,11 @@ msgstr "Službene aplikacije"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only administrators can install data modules."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo administratori mogu instalirati module s podacima."
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo administratori mogu instalirati module s podacima."
 >>>>>>> upstream/18.0
@@ -7229,6 +7311,7 @@ msgstr "Prilagodbe studia zahtijevaju Odoo Studio aplikaciju."
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7829,11 +7912,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The installation of the data module would fail as the following dependencies "
 "can't be found in the addons-path:\n"
 msgstr ""
 "Instalacija modula s podacima ne bi uspjela jer sljedeće ovisnosti nisu "
 "pronađene u addons-path:\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: base_import_module
@@ -7843,6 +7931,11 @@ msgid ""
 "The list of industry applications cannot be fetched. Please try again later"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije moguće dohvatiti popis aplikacija za djelatnost. Pokušajte ponovno "
+"kasnije"
+>>>>>>> upstream/18.0
 =======
 "Nije moguće dohvatiti popis aplikacija za djelatnost. Pokušajte ponovno "
 "kasnije"
@@ -7853,7 +7946,11 @@ msgstr ""
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "The module %s cannot be downloaded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modul %s nije moguće preuzeti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modul %s nije moguće preuzeti"
 >>>>>>> upstream/18.0
@@ -7863,7 +7960,11 @@ msgstr "Modul %s nije moguće preuzeti"
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Unknown module dependencies:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepoznate ovisnosti modula:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepoznate ovisnosti modula:"
 >>>>>>> upstream/18.0

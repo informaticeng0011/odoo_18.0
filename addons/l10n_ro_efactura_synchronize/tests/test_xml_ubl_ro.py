@@ -214,7 +214,10 @@ def _patch_request_ciusro_synchronize_invoices(self, company, session, nb_days=1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -460,6 +463,9 @@ def _patch_request_ciusro_xml_to_pdf(self, company, xml_data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -747,7 +753,11 @@ class TestUBLROSynchronize(TestUBLROCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(bills.amount_total, 1785.0)
+=======
+        self.assertEqual(bills.amount_total, 1815.0)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(bills.amount_total, 1815.0)
 >>>>>>> upstream/18.0
@@ -1163,7 +1173,10 @@ class TestUBLROSynchronize(TestUBLROCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1431,6 +1444,9 @@ class TestUBLROSynchronize(TestUBLROCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
