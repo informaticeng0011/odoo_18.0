@@ -36,6 +36,7 @@ class DecimalPrecision(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if application == 'Discount' and stackmap.get('ignore_discount_precision'):
             return 100
 =======
@@ -161,5 +162,9 @@ class DecimalPrecision(models.Model):
 =======
         if stackmap.get('ignore_discount_precision') and application in ('Discount', 'Product Unit of Measure'):
             return 14
+>>>>>>> upstream/18.0
+=======
+        if stackmap.get('ignore_discount_precision') and application in ('Discount', 'Product Unit of Measure'):
+            return 13
 >>>>>>> upstream/18.0
         return super().precision_get(application)

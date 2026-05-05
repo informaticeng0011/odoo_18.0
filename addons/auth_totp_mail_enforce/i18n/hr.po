@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail_enforce
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,10 +496,15 @@
 # * auth_totp_mail_enforce
 #
 >>>>>>> upstream/18.0
+=======
+# * auth_totp_mail_enforce
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Tina Milas, 2024
 # Martin Trigaux, 2024
 # Bole <bole@dajmi5.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -984,10 +990,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1362,6 +1372,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-24 07:52+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1375,6 +1387,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1518,6 +1533,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1740,6 +1756,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.17\n"
@@ -1784,6 +1803,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+".\n"
+"                <br/>"
+>>>>>>> upstream/18.0
 =======
 ".\n"
 "                <br/>"
@@ -1950,6 +1974,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
@@ -1957,6 +1982,8 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2326,6 +2353,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2692,6 +2722,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
 "    <small>Please note that this code expires in <t t-out=\"expiration\"/>.</small>\n"
@@ -2708,6 +2739,8 @@ msgid ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3090,6 +3123,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3342,6 +3378,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
 "<i class=\"fa fa-envelope-o\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3930,6 +3967,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                To login, enter below the six-digit authentication code just "
 "sent via email to"
 msgstr ""
@@ -3944,6 +3983,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3985,7 +4027,11 @@ msgid "Code Checking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provjera koda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provjera koda"
 >>>>>>> upstream/18.0
@@ -4046,7 +4092,11 @@ msgid "Employees only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo zaposlenici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo zaposlenici"
 >>>>>>> upstream/18.0
@@ -4091,6 +4141,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nametnite dvofaktorsku autentifikaciju e-poštom za zaposlenike ili za sve "
+"korisnike (uključujući portalne korisnike) ako nisu omogućili nijednu drugu "
+"metodu dvofaktorske autentifikacije."
+>>>>>>> upstream/18.0
 =======
 "Nametnite dvofaktorsku autentifikaciju e-poštom za zaposlenike ili za sve "
 "korisnike (uključujući portalne korisnike) ako nisu omogućili nijednu drugu "
@@ -4149,7 +4205,11 @@ msgid "Enforce two-factor authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nametni dvofaktorsku autentifikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nametni dvofaktorsku autentifikaciju"
 >>>>>>> upstream/18.0
@@ -4195,7 +4255,11 @@ msgid "Ip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IP"
+>>>>>>> upstream/18.0
 =======
 msgstr "IP"
 >>>>>>> upstream/18.0
@@ -4251,7 +4315,11 @@ msgid "Limit Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta ograničenja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta ograničenja"
 >>>>>>> upstream/18.0
@@ -4292,7 +4360,11 @@ msgid "Re-send email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno pošalji e-poštu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponovno pošalji e-poštu"
 >>>>>>> upstream/18.0
@@ -4343,7 +4415,11 @@ msgid "Settings: 2Fa New Login"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavke: nova prijava 2FA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavke: nova prijava 2FA"
 >>>>>>> upstream/18.0
@@ -4384,7 +4460,11 @@ msgid "TOTP rate limit logs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevnici ograničenja TOTP-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dnevnici ograničenja TOTP-a"
 >>>>>>> upstream/18.0
@@ -4425,7 +4505,11 @@ msgid "Two-factor authentication enforcing policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Politika nametanja dvofaktorske autentifikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Politika nametanja dvofaktorske autentifikacije"
 >>>>>>> upstream/18.0
@@ -4473,7 +4557,11 @@ msgid "Verification failed, please double-check the 6-digit code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Provjera nije uspjela, još jednom provjerite šesteroznamenkasti kod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Provjera nije uspjela, još jednom provjerite šesteroznamenkasti kod"
 >>>>>>> upstream/18.0
@@ -4505,6 +4593,7 @@ msgstr "Provjera nije uspjela, još jednom provjerite šesteroznamenkasti kod"
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5094,6 +5183,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "We strongly recommend enabling the two-factor authentication using an "
 "authenticator app to help secure your account.\n"
 "                <br/>"
@@ -5109,6 +5200,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5151,7 +5245,11 @@ msgid "Your two-factor authentication code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš kod za dvofaktorsku autentifikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaš kod za dvofaktorsku autentifikaciju"
 >>>>>>> upstream/18.0

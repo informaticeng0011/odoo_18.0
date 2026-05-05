@@ -162,6 +162,10 @@ import { getActiveHotkey } from "@web/core/hotkeys/hotkey_service";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useInputField } from "@web/views/fields/input_field_hook";
+>>>>>>> upstream/18.0
 =======
 import { useInputField } from "@web/views/fields/input_field_hook";
 >>>>>>> upstream/18.0
@@ -884,7 +888,11 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super.getCellTitle(column, record);
+=======
+        return super.getCellTitle(column, record);
+>>>>>>> upstream/18.0
 =======
         return super.getCellTitle(column, record);
 >>>>>>> upstream/18.0
@@ -1850,6 +1858,7 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1974,6 +1983,8 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 
     isCellReadonly(column, record) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2682,6 +2693,9 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3451,6 +3465,9 @@ export class ProductLabelSectionAndNoteListRender extends SectionAndNoteListRend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4286,7 +4303,10 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4775,6 +4795,9 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5470,7 +5493,10 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6360,6 +6386,9 @@ export class ProductLabelSectionAndNoteField extends Many2OneField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

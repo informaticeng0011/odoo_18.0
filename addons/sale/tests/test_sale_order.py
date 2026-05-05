@@ -330,7 +330,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -496,6 +499,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -630,6 +636,7 @@ class TestSaleOrder(SaleCommon):
             self.sale_order.partner_id.name,
             self.sale_order.with_context(sale_show_partner_name=True).display_name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1547,6 +1554,8 @@ class TestSaleOrder(SaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_sol_names(self):
         """Check that the SOL description gets used for the display name."""
         no_variant_attr = self.env['product.attribute'].create({
@@ -1840,7 +1849,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2661,6 +2673,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3214,6 +3229,7 @@ class TestSaleOrder(SaleCommon):
                 'product_id': no_variant_product.id,
                 'product_no_variant_attribute_value_ids': ptav1.ids,
             }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4882,11 +4898,17 @@ class TestSaleOrder(SaleCommon):
         ]
         sol1, sol2, sol3, sol4, sol5, sol6 = self.sale_order.order_line
 >>>>>>> upstream/18.0
+=======
+            Command.create({'product_id': product_with_desc.id}),
+        ]
+        sol1, sol2, sol3, sol4, sol5, sol6 = self.sale_order.order_line
+>>>>>>> upstream/18.0
         sol1.name += "\nOK THANK YOU\nGOOD BYE"
 
         self.assertEqual(
             sol1.display_name,
             f"{self.sale_order.name} - OK THANK YOU ({self.partner.name})",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5710,6 +5732,8 @@ class TestSaleOrder(SaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "Product line with a custom description should display the first line of description",
         )
         self.assertEqual(
@@ -5987,6 +6011,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6827,6 +6854,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6890,6 +6918,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7733,6 +7763,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7763,6 +7794,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8585,6 +8618,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9540,7 +9576,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10381,6 +10420,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11375,7 +11417,10 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12120,6 +12165,7 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12130,6 +12176,8 @@ class TestSaleOrder(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12843,6 +12891,9 @@ class TestSaleOrder(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13666,7 +13717,12 @@ class TestSaleMailComposerUI(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'email': 'dummy@example.com'
+=======
+            'lang': 'en_US',
+            'email': 'en@example.com',
+>>>>>>> upstream/18.0
 =======
             'lang': 'en_US',
             'email': 'en@example.com',
@@ -13840,7 +13896,10 @@ class TestSaleMailComposerUI(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13985,6 +14044,9 @@ class TestSaleMailComposerUI(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

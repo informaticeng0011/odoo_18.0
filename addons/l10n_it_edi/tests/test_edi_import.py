@@ -197,7 +197,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -630,6 +633,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -914,6 +920,7 @@ class TestItEdiImport(TestItEdi):
             'invoice_date': fields.Date.from_string('2014-12-18'),
             'amount_untaxed': 5.0,
             'amount_tax': 1.1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1487,6 +1494,8 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1918,6 +1927,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2205,7 +2217,11 @@ class TestItEdiImport(TestItEdi):
             'move_type': 'in_invoice',
             'invoice_date': fields.Date.from_string('2014-12-18'),
             'amount_untaxed': 28.75,
+<<<<<<< HEAD
             'amount_tax': 6.32,
+=======
+            'amount_tax': 6.33,
+>>>>>>> upstream/18.0
             'invoice_line_ids': [{
                 'quantity': 5.0,
                 'price_unit': 1.0,
@@ -2217,6 +2233,7 @@ class TestItEdiImport(TestItEdi):
                 'price_unit': 10.0,
                 'discount': 52.5,
                 'debit': 23.75,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2595,6 +2612,8 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3306,6 +3325,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3961,7 +3983,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4517,6 +4542,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5089,7 +5117,11 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_untaxed': 57.54,
+=======
+                'amount_untaxed': 39.54,
+>>>>>>> upstream/18.0
 =======
                 'amount_untaxed': 39.54,
 >>>>>>> upstream/18.0
@@ -5884,8 +5916,11 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoices = self.env['account.move'].search([('payment_reference', '=', 'TWICE_TEST')])
         self.assertEqual(len(invoices), 1)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6293,7 +6328,11 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 3.0,
+=======
+            'amount_untaxed': 5.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 5.0,
 >>>>>>> upstream/18.0
@@ -7069,11 +7108,14 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 {
                     'quantity': 1.0,
                     'name': 'SCONTO',
                     'price_unit': -2,
                 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7662,7 +7704,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8184,6 +8229,7 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8512,6 +8558,42 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    def test_receive_bill_with_discount_rounding_issue(self):
+        applied_xml = """
+            <xpath expr="//FatturaElettronicaBody/DatiBeniServizi/DettaglioLinee[1]" position="inside">
+                <ScontoMaggiorazione>
+                    <Tipo>SC</Tipo>
+                    <Percentuale>50.00</Percentuale>
+                </ScontoMaggiorazione>
+            </xpath>
+
+            <xpath expr="//FatturaElettronicaBody/DatiBeniServizi/DettaglioLinee[1]/PrezzoUnitario" position="replace">
+                <PrezzoUnitario>11.85</PrezzoUnitario>
+            </xpath>
+            <xpath expr="//FatturaElettronicaBody/DatiBeniServizi/DettaglioLinee[1]/Quantita" position="replace">
+                <Quantita>3</Quantita>
+            </xpath>
+            <xpath expr="//FatturaElettronicaBody/DatiBeniServizi/DettaglioLinee[1]/PrezzoTotale" position="replace">
+                <PrezzoTotale>17.78</PrezzoTotale>
+            </xpath>
+        """
+
+        self._assert_import_invoice('IT01234567890_FPR01.xml', [{
+            'invoice_date': fields.Date.from_string('2014-12-18'),
+            'amount_untaxed': 17.78,
+            'amount_tax': 3.91,
+            'invoice_line_ids': [
+                {
+                    'quantity': 3.0,
+                    'name': 'DESCRIZIONE DELLA FORNITURA',
+                    'price_unit': 11.85,
+                    'discount': 50.0,
+                },
+            ],
+        }], applied_xml)
+
 >>>>>>> upstream/18.0
     def test_invoice_user_can_compute_is_self_invoice(self):
         """Ensure that a user having only group_account_invoice can compute field l10n_it_edi_is_self_invoice"""
@@ -8753,7 +8835,10 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9478,6 +9563,7 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9788,6 +9874,8 @@ class TestItEdiImport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10102,6 +10190,9 @@ class TestItEdiImport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

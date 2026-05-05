@@ -179,7 +179,11 @@ export class ComboPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order.lastChangesSent[this.selfOrder.editedLine.uuid]
+=======
+            order.uiState.lineChanges[this.selfOrder.editedLine.uuid]
+>>>>>>> upstream/18.0
 =======
             order.uiState.lineChanges[this.selfOrder.editedLine.uuid]
 >>>>>>> upstream/18.0
@@ -906,7 +910,10 @@ export class ComboPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1874,6 +1881,9 @@ export class ComboPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2859,8 +2869,11 @@ export class ComboPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 attribute_value_ids: Object.values(this.env.selectedValues).map((s) => parseInt(s)),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3819,6 +3832,9 @@ export class ComboPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

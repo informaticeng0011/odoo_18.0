@@ -98,7 +98,10 @@ def is_valid_structured_reference_be(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -267,6 +270,9 @@ def is_valid_structured_reference_dk(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -692,7 +698,10 @@ def is_valid_structured_reference_nl(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1518,6 +1527,9 @@ def is_valid_structured_reference_si(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2101,6 +2113,7 @@ def is_valid_structured_reference(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         is_valid_structured_reference_fi(reference) or
         is_valid_structured_reference_no_se(reference) or
         is_valid_structured_reference_nl(reference) or
@@ -3019,6 +3032,8 @@ def is_valid_structured_reference(reference):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         is_valid_structured_reference_dk(reference) or
         is_valid_structured_reference_fi(reference) or
         is_valid_structured_reference_no_se(reference) or
@@ -3074,6 +3089,9 @@ def is_valid_structured_reference(reference):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3278,6 +3296,9 @@ def is_valid_structured_reference_for_country(reference, country_code=''):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

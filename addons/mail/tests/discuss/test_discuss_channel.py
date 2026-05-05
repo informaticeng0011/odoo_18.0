@@ -638,12 +638,15 @@ class TestChannelInternals(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_set_last_seen_message_should_send_notification_only_once(self):
         chat = self.env['discuss.channel'].with_user(self.user_admin).channel_get((self.partner_employee | self.user_admin.partner_id).ids)
         msg_1 = self._add_messages(chat, 'Body1', author=self.user_employee.partner_id)
         member = chat.channel_member_ids.filtered(lambda m: m.partner_id == self.user_admin.partner_id)
         self._reset_bus()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1402,6 +1405,9 @@ class TestChannelInternals(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1876,6 +1882,7 @@ class TestChannelInternals(MailCommon, HttpCase):
                 (self.env.cr.dbname, "discuss.channel", chat.id),
                 (self.env.cr.dbname, "res.partner", self.user_admin.partner_id.id),
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2632,6 +2639,8 @@ class TestChannelInternals(MailCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             mark_as_read_notifs,
         ):
             member._mark_as_read(msg_1.id)
@@ -2877,6 +2886,9 @@ class TestChannelInternals(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3987,7 +3999,10 @@ class TestChannelInternals(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4702,6 +4717,9 @@ class TestChannelInternals(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

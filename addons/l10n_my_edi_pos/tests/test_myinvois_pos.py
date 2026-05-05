@@ -252,7 +252,11 @@ from odoo.tools import file_open, mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account_reports.tests.common import TestAccountReportsCommon
+=======
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 >>>>>>> upstream/18.0
@@ -1231,7 +1235,11 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @TestAccountReportsCommon.setup_country('my')
+=======
+    @AccountTestInvoicingCommon.setup_country('my')
+>>>>>>> upstream/18.0
 =======
     @AccountTestInvoicingCommon.setup_country('my')
 >>>>>>> upstream/18.0
@@ -2189,7 +2197,10 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2360,6 +2371,7 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2416,6 +2428,8 @@ class TestMyInvoisPoS(TestPoSCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2492,6 +2506,9 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2798,7 +2815,10 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3130,6 +3150,9 @@ class TestMyInvoisPoS(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1,6 +1,12 @@
 import { expect, test } from "@odoo/hoot";
+<<<<<<< HEAD
 import { queryAllTexts } from "@odoo/hoot-dom";
 import {
+=======
+import { press, queryAllTexts } from "@odoo/hoot-dom";
+import {
+    contains,
+>>>>>>> upstream/18.0
     defineModels,
     fields,
     getFacetTexts,
@@ -21,6 +27,7 @@ class Foo extends models.Model {
     date = fields.Date();
     float = fields.Float({ groupable: false });
     foo = fields.Char();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -847,6 +854,8 @@ class Foo extends models.Model {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 class Partner extends models.Model {}
@@ -992,3 +1001,58 @@ test(`select a field name in Add Custom Group menu properly trigger the correspo
     expect(`.o_add_custom_group_menu`).toHaveCount(1);
     expect(getFacetTexts()).toEqual(["Candlelight"]);
 });
+<<<<<<< HEAD
+=======
+
+test(`keyboard navigation on custom group by item`, async () => {
+    await mountWithSearch(SearchBar, {
+        resModel: "foo",
+        searchMenuTypes: ["groupBy"],
+        searchViewId: false,
+        searchViewArch: `
+            <search>
+                <filter string="Foo" name="group_by_foo" context="{'group_by': 'foo'}"/>
+            </search>
+        `,
+        searchViewFields: {
+            foo: { string: "Foo", type: "char", store: true, sortable: true, groupable: true },
+            date: { string: "Date", type: "date", store: true, sortable: true, groupable: true },
+        },
+    });
+
+    await toggleSearchBarMenu();
+    await press("arrowup");
+    expect(".o_add_custom_group_menu").toHaveClass("focus", {
+        message: "arrowup with no currently focused item always jumps to the last navigable item",
+    });
+});
+
+test.tags("desktop");
+test(`hover on custom group by item`, async () => {
+    await mountWithSearch(SearchBar, {
+        resModel: "foo",
+        searchMenuTypes: ["groupBy"],
+        searchViewId: false,
+        searchViewArch: `
+            <search>
+                <filter string="Foo" name="group_by_foo" context="{'group_by': 'foo'}"/>
+            </search>
+        `,
+        searchViewFields: {
+            foo: { string: "Foo", type: "char", store: true, sortable: true, groupable: true },
+            date: { string: "Date", type: "date", store: true, sortable: true, groupable: true },
+        },
+    });
+
+    await toggleSearchBarMenu();
+    await contains(".o_group_by_menu .o_menu_item:first").hover();
+    expect(".o_group_by_menu .focus").toHaveCount(1);
+    expect(".o_add_custom_group_menu").not.toHaveClass("focus");
+
+    await contains(".o_add_custom_group_menu").hover();
+    expect(".o_add_custom_group_menu").toHaveClass("focus");
+    expect(".o_group_by_menu .focus").toHaveCount(1, {
+        message: "only one item should be focused at a time",
+    });
+});
+>>>>>>> upstream/18.0

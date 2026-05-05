@@ -170,7 +170,11 @@ import { createSpreadsheetWithPivot } from "@spreadsheet/../tests/helpers/pivot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { freezeOdooData } from "@spreadsheet/helpers/model";
+=======
+import { freezeOdooData, waitForDataLoaded } from "@spreadsheet/helpers/model";
+>>>>>>> upstream/18.0
 =======
 import { freezeOdooData, waitForDataLoaded } from "@spreadsheet/helpers/model";
 >>>>>>> upstream/18.0
@@ -1009,7 +1013,10 @@ test("from/to global filter without value is exported", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1487,6 +1494,9 @@ test("Empty ODOO.LIST result is frozen to an empty string", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1842,9 +1852,15 @@ test("odoo links are replaced with their label", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(frozenData.sheets[0].cells.A1.content).toBe("menu_xml");
     expect(frozenData.sheets[0].cells.A2.content).toBe("menu_id");
     expect(frozenData.sheets[0].cells.A3.content).toBe("odoo_view");
+=======
+    expect(frozenData.sheets[0].cells.A1.content).toBe("[menu_xml](neutralized:link)");
+    expect(frozenData.sheets[0].cells.A2.content).toBe("[menu_id](neutralized:link)");
+    expect(frozenData.sheets[0].cells.A3.content).toBe("[odoo_view](neutralized:link)");
+>>>>>>> upstream/18.0
 =======
     expect(frozenData.sheets[0].cells.A1.content).toBe("[menu_xml](neutralized:link)");
     expect(frozenData.sheets[0].cells.A2.content).toBe("[menu_id](neutralized:link)");
@@ -2090,7 +2106,11 @@ test("spilled pivot table", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(cells.A11.content).toBe("");
+=======
+    expect(cells.A11.content).toBe('=""');
+>>>>>>> upstream/18.0
 =======
     expect(cells.A11.content).toBe('=""');
 >>>>>>> upstream/18.0
@@ -2732,6 +2752,7 @@ test("spilled pivot table", async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3060,6 +3081,9 @@ test('empty string computed measure is exported as =""', async function () {
 =======
 test('empty string computed measure is exported as =""', async function () {
 >>>>>>> upstream/18.0
+=======
+test('empty string computed measure is exported as =""', async function () {
+>>>>>>> upstream/18.0
     const { model } = await createSpreadsheetWithPivot();
     setCellContent(model, "A10", "=PIVOT(1)");
     expect(getEvaluatedCell(model, "B12").value).toBe(""); // empty value
@@ -3224,6 +3248,9 @@ test('empty string computed measure is exported as =""', async function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

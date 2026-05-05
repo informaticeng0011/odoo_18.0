@@ -261,6 +261,7 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1043,6 +1044,8 @@ class TestHolidaysOvertime(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
             overtime_leave_data = self.leave_type_no_alloc.with_company(self.company).with_context(employee_id=self.employee.id).get_allocation_data_request()
             self.assertEqual(overtime_leave_data[0][0], "Extra Hours")
@@ -1089,6 +1092,9 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1211,6 +1217,7 @@ class TestHolidaysOvertime(TransactionCase):
         self.assertEqual(self.employee.total_overtime, 8)
 
         leave.action_reset_confirm()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2388,6 +2395,10 @@ class TestHolidaysOvertime(TransactionCase):
         self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
         self.assertEqual(self.employee.total_overtime, 0)
 >>>>>>> upstream/18.0
+=======
+        self.assertTrue(leave.overtime_id.exists(), "Overtime should created")
+        self.assertEqual(self.employee.total_overtime, 0)
+>>>>>>> upstream/18.0
 
         overtime = leave.overtime_id
         leave.unlink()
@@ -2492,7 +2503,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2541,6 +2555,9 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2831,7 +2848,10 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3555,6 +3575,7 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3919,6 +3940,8 @@ class TestHolidaysOvertime(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4126,6 +4149,9 @@ class TestHolidaysOvertime(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

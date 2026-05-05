@@ -337,7 +337,11 @@ class Intervals(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         bounds2 = _boundaries(other, 'switch', 'switch')
+=======
+        bounds2 = _boundaries(Intervals(other), 'switch', 'switch')
+>>>>>>> upstream/18.0
 =======
         bounds2 = _boundaries(Intervals(other), 'switch', 'switch')
 >>>>>>> upstream/18.0
@@ -902,7 +906,10 @@ class Intervals(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -991,6 +998,9 @@ class Intervals(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

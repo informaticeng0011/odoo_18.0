@@ -245,6 +245,12 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_program_timezone(self):
+        return self.website_id.salesperson_id.tz or super()._get_program_timezone()
+
+>>>>>>> upstream/18.0
 =======
     def _get_program_timezone(self):
         return self.website_id.salesperson_id.tz or super()._get_program_timezone()
@@ -1717,7 +1723,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2583,6 +2592,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3492,7 +3504,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for reward in coupon.program_id.reward_ids:
+=======
+            for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
+>>>>>>> upstream/18.0
 =======
             for reward in coupon.program_id.reward_ids - self.order_line.reward_id:
 >>>>>>> upstream/18.0

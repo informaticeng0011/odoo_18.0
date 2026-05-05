@@ -14,6 +14,10 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged
 >>>>>>> upstream/18.0
@@ -111,7 +115,10 @@ class TestStockAccountProduct(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -221,6 +228,9 @@ class TestStockAccountProductMultiCompany(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

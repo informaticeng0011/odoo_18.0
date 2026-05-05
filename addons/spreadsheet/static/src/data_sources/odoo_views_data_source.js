@@ -92,6 +92,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { LoadingDataError } from "@spreadsheet/o_spreadsheet/errors";
+>>>>>>> upstream/18.0
 =======
 import { LoadingDataError } from "@spreadsheet/o_spreadsheet/errors";
 >>>>>>> upstream/18.0
@@ -431,6 +435,7 @@ export class OdooViewsDataSource extends LoadableDataSource {
      */
     _assertMetaDataLoaded() {
         if (!this._isModelValid) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1124,6 +1129,9 @@ export class OdooViewsDataSource extends LoadableDataSource {
 =======
             throw this._loadError;
 >>>>>>> upstream/18.0
+=======
+            throw this._loadError;
+>>>>>>> upstream/18.0
         }
         if (!this._metaDataLoaded) {
             this.loadMetadata();
@@ -1250,7 +1258,10 @@ export class OdooViewsDataSource extends LoadableDataSource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1528,6 +1539,9 @@ export class OdooViewsDataSource extends LoadableDataSource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1846,7 +1860,10 @@ export class OdooViewsDataSource extends LoadableDataSource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2121,6 +2138,9 @@ export class OdooViewsDataSource extends LoadableDataSource {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

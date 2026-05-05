@@ -283,7 +283,10 @@ import { isBrowserFirefox, isBrowserChrome } from "@web/core/browser/feature_det
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1129,6 +1132,9 @@ export class HTMLElementLoadingError extends Error {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1723,6 +1729,7 @@ export class ThirdPartyScriptError extends UncaughtError {
     }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3437,6 +3444,11 @@ export const errorService = {
     start(env) {
         function handleError(uncaughtError, retry = true) {
 >>>>>>> upstream/18.0
+=======
+export const errorService = {
+    start(env) {
+        function handleError(uncaughtError, retry = true) {
+>>>>>>> upstream/18.0
             function shouldLogError() {
                 // Only log errors that are relevant business-wise, following the heuristics:
                 // Error.event and Error.traceback have been assigned
@@ -3798,8 +3810,11 @@ export const errorService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const error = ev.reason;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4659,6 +4674,9 @@ export const errorService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
