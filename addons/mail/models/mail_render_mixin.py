@@ -361,6 +361,7 @@ class MailRenderMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.info("Failed to render template: %s", template_src, exc_info=True)
                 raise UserError(
                     _("Failed to render QWeb template: %(template_src)s\n\n%(template_traceback)s)",
@@ -368,6 +369,8 @@ class MailRenderMixin(models.AbstractModel):
                       template_traceback=traceback.format_exc())
                     ) from e
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -517,6 +520,9 @@ class MailRenderMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -760,9 +766,12 @@ class MailRenderMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     _("Failed to render inline_template template: %(template_txt)s",
                       template_txt=template_txt)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -860,6 +869,9 @@ class MailRenderMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

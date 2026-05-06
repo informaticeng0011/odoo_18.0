@@ -295,6 +295,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, beforeEach } from "@odoo/hoot";
 import { mockWorker } from "@odoo/hoot-mock";
 =======
@@ -1486,6 +1487,10 @@ import { MockServer, patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { after, Deferred, mockWorker } from "@odoo/hoot";
 import { MockServer, patchWithCleanup } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
+=======
+import { after, Deferred, mockWorker } from "@odoo/hoot";
+import { MockServer, patchWithCleanup } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 
 import { WebsocketWorker } from "@bus/workers/websocket_worker";
 import { patch } from "@web/core/utils/patch";
@@ -1494,6 +1499,7 @@ import { patch } from "@web/core/utils/patch";
 // Internal
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2394,11 +2400,14 @@ const getWebSocketCallbacks = () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function cleanupWebSocketCallbacks() {
     wsCallbacks?.clear();
     wsCallbacks = null;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2680,6 +2689,9 @@ function cleanupWebSocketWorker() {
 =======
 function cleanupWebSocketWorker() {
 >>>>>>> upstream/18.0
+=======
+function cleanupWebSocketWorker() {
+>>>>>>> upstream/18.0
     if (currentWebSocketWorker.connectTimeout) {
         clearTimeout(currentWebSocketWorker.connectTimeout);
     }
@@ -2699,6 +2711,7 @@ function getWebSocketCallbacks() {
     return wsCallbacks;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3599,6 +3612,8 @@ function setupWebSocketWorker() {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function setupWebSocketWorker() {
     currentWebSocketWorker = new WebsocketWorker();
 
@@ -3675,6 +3690,9 @@ function setupWebSocketWorker() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3848,6 +3866,7 @@ export function onWebsocketEvent(eventName, callback) {
 // Setup
 //-----------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4756,6 +4775,8 @@ patch(MockServer.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 patchWithCleanup(MockServer.prototype, {
     start() {
         setupWebSocketWorker();
@@ -4829,6 +4850,9 @@ patchWithCleanup(MockServer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5268,6 +5292,9 @@ patchWithCleanup(MockServer.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

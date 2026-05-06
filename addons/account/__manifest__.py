@@ -295,6 +295,10 @@ You could use this simplified accounting in case you work with an (external) acc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/base_document_layout_views.xml',
+>>>>>>> upstream/18.0
 =======
         'views/base_document_layout_views.xml',
 >>>>>>> upstream/18.0
@@ -1261,6 +1265,7 @@ You could use this simplified accounting in case you work with an (external) acc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'views/base_document_layout_views.xml',
 =======
 >>>>>>> upstream/18.0
@@ -1736,6 +1741,8 @@ You could use this simplified accounting in case you work with an (external) acc
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         'views/account_lock_exception_views.xml',
         'views/report_templates.xml',
         'wizard/account_merge_wizard_views.xml',
@@ -1772,6 +1779,9 @@ You could use this simplified accounting in case you work with an (external) acc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

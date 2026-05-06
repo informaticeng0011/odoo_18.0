@@ -168,7 +168,11 @@ from lxml import etree
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command, tools
+=======
+from odoo import tools
+>>>>>>> upstream/18.0
 =======
 from odoo import tools
 >>>>>>> upstream/18.0
@@ -837,6 +841,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -1521,7 +1529,10 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2024,6 +2035,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2630,6 +2644,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2766,6 +2781,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3081,6 +3098,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3388,7 +3408,11 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             r"can only have one tax group \(excluding STLG\)[\s\S]*Luxury-Goods and Non-Luxury-Goods taxes"
+=======
+            r"can only have one PPN tax group \(excluding STLG\)[\s\S]*Luxury-Goods and Non-Luxury-Goods taxes"
+>>>>>>> upstream/18.0
 =======
             r"can only have one PPN tax group \(excluding STLG\)[\s\S]*Luxury-Goods and Non-Luxury-Goods taxes"
 >>>>>>> upstream/18.0
@@ -3901,6 +3925,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4369,6 +4396,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
         self.assertXmlTreeEqual(result_tree, expected_tree)
 
     def test_efaktur_xml_trx_01(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5037,6 +5065,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 =======
         """ Test that with transaction code 01, OtherTaxBase should equal to TaxBase."""
 >>>>>>> upstream/18.0
+=======
+        """ Test that with transaction code 01, OtherTaxBase should equal to TaxBase."""
+>>>>>>> upstream/18.0
 
         out_invoice = self.env["account.move"].create({
             'move_type': 'out_invoice',
@@ -5044,6 +5075,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
             'invoice_date': '2019-05-01',
             'date': '2019-05-01',
             'invoice_line_ids': [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5545,6 +5577,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 (0, 0, {'product_id': self.product_a.id, 'name': 'line1', 'price_unit': 100000, 'quantity': 1, 'tax_ids': [self.non_luxury_tax.id]})
             ],
             'l10n_id_kode_transaksi': '01',
@@ -5715,6 +5749,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6057,6 +6094,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
                 <TrxCode>01</TrxCode>
             </xpath>
             <xpath expr="//OtherTaxBase" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7020,6 +7058,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <OtherTaxBase>100000.00</OtherTaxBase>
             </xpath>
             <xpath expr="//TaxBase" position="replace">
@@ -7196,6 +7236,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7704,6 +7747,10 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -8374,7 +8421,11 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 (0, 0, {'product_id': self.product_a.id, 'name': 'line1', 'price_unit': 100000, 'quantity': 1})
+=======
+                (0, 0, {'product_id': self.product_a.id, 'name': 'line1', 'price_unit': 100000, 'quantity': 1, 'tax_ids': [self.zero_tax.id]})
+>>>>>>> upstream/18.0
 =======
                 (0, 0, {'product_id': self.product_a.id, 'name': 'line1', 'price_unit': 100000, 'quantity': 1, 'tax_ids': [self.zero_tax.id]})
 >>>>>>> upstream/18.0
@@ -8896,6 +8947,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
                 <FacilityStamp>TD.01105</FacilityStamp>
             </xpath>
             <xpath expr="//OtherTaxBase" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10320,6 +10372,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <OtherTaxBase>91666.67</OtherTaxBase>
             </xpath>
             <xpath expr="//VATRate" position="replace">
@@ -10492,6 +10546,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11023,7 +11080,11 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'l10n_id_kode_transaksi': '01',
+=======
+            'l10n_id_kode_transaksi': '04',
+>>>>>>> upstream/18.0
 =======
             'l10n_id_kode_transaksi': '04',
 >>>>>>> upstream/18.0
@@ -11703,7 +11764,11 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <TrxCode>01</TrxCode>
+=======
+                    <TrxCode>04</TrxCode>
+>>>>>>> upstream/18.0
 =======
                     <TrxCode>04</TrxCode>
 >>>>>>> upstream/18.0
@@ -12222,6 +12287,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
                         <Code>000000</Code>
                         <Name>product_a</Name>
                         <Unit>UM.0018</Unit>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13073,10 +13139,13 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <Price>100000.00</Price>
                         <Qty>1.0</Qty>
                         <TotalDiscount>0.00</TotalDiscount>
                         <TaxBase>100000.00</TaxBase>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13922,6 +13991,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         <OtherTaxBase>91666.67</OtherTaxBase>
                         <VATRate>12</VATRate>
                         <VAT>11000.00</VAT>
@@ -14092,6 +14163,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14436,6 +14510,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
         """ Test XML content of an invoice containing multiple invoice lines (which also includes
         a "description" line.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15101,6 +15176,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 =======
         Expected to see multiple <GoodService> within <ListOfGoodService> tag and the
 >>>>>>> upstream/18.0
+=======
+        Expected to see multiple <GoodService> within <ListOfGoodService> tag and the
+>>>>>>> upstream/18.0
         line should be excluded from the XML description
         """
         product_2 = self.env['product.product'].create({'name': "Product B"})
@@ -15130,6 +15208,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
                     <Code>000000</Code>
                     <Name>Product B</Name>
                     <Unit>UM.0018</Unit>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15981,6 +16060,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <Price>100000.00</Price>
                     <Qty>1.0</Qty>
                     <TotalDiscount>0.00</TotalDiscount>
@@ -16270,6 +16351,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17005,6 +17089,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Test that when selling product that involves the luxury good tax, STLGRate and STLG
         should be filled in """
 
@@ -17515,6 +17600,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 =======
         """ Test that when selling product that involves the luxury good tax"""
 >>>>>>> upstream/18.0
+=======
+        """ Test that when selling product that involves the luxury good tax"""
+>>>>>>> upstream/18.0
 
         out_invoice = self.env["account.move"].create({
             'move_type': 'out_invoice',
@@ -17522,6 +17610,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
             'invoice_date': '2019-05-01',
             'date': '2019-05-01',
             'invoice_line_ids': [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18521,6 +18610,11 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
             ],
             'l10n_id_kode_transaksi': '04',
 >>>>>>> upstream/18.0
+=======
+                (0, 0, {'product_id': self.product_a.id, 'name': 'line1', 'price_unit': 100000, 'quantity': 1, 'tax_ids': [self.luxury_tax.id]}),
+            ],
+            'l10n_id_kode_transaksi': '04',
+>>>>>>> upstream/18.0
         })
         out_invoice.action_post()
         out_invoice.download_efaktur()
@@ -18530,6 +18624,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
             etree.fromstring(self.sample_xml),
             '''
             <xpath expr="//TrxCode" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19494,6 +19589,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <TrxCode>04</TrxCode>
             </xpath>
             <xpath expr="//OtherTaxBase" position="replace">
@@ -19706,6 +19803,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20042,6 +20142,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
                 <STLGRate>20.0</STLGRate>
             </xpath>
             <xpath expr="//STLG" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20913,6 +21014,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 <STLG>20000.00</STLG>
             </xpath>
             '''
@@ -21173,6 +21276,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21858,7 +21964,11 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -22557,6 +22667,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     def test_efaktur_tax_include(self):
         """ Test when tax configuration is tax included in price should affect price calculation """
@@ -22892,6 +23003,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_efaktur_tax_include(self):
         """ Test when tax configuration is tax included in price should affect price calculation """
@@ -23061,6 +23174,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23692,7 +23808,11 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Price>100000.0</Price>
+=======
+                <Price>100000.00</Price>
+>>>>>>> upstream/18.0
 =======
                 <Price>100000.00</Price>
 >>>>>>> upstream/18.0
@@ -24845,6 +24965,7 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <Price>100000.0</Price>
             </xpath>
             <xpath expr="//TotalDiscount" position="replace">
@@ -24859,6 +24980,8 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
             <xpath expr="//VAT" position="replace">
                 <VAT>9900.0</VAT>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25712,6 +25835,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26376,7 +26502,10 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26777,6 +26906,9 @@ class TestEfakturCoretax(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

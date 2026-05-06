@@ -179,6 +179,10 @@ from . import sale_order
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import account_move_reversal
+>>>>>>> upstream/18.0
 =======
 from . import account_move_reversal
 >>>>>>> upstream/18.0

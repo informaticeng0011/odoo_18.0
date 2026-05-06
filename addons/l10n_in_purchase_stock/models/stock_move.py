@@ -336,7 +336,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     line_id.price_subtotal / qty,
+=======
+                    line_id.product_uom._compute_price(line_id.price_subtotal / qty, self.product_uom),
+>>>>>>> upstream/18.0
 =======
                     line_id.product_uom._compute_price(line_id.price_subtotal / qty, self.product_uom),
 >>>>>>> upstream/18.0

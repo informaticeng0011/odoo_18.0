@@ -125,12 +125,15 @@ class MrpRoutingWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res.bom_id._set_outdated_bom_in_productions()
         return res
 
     def write(self, vals):
         self.bom_id._set_outdated_bom_in_productions()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172,6 +175,9 @@ class MrpRoutingWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -223,7 +229,11 @@ class MrpRoutingWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.bom_id._set_outdated_bom_in_productions()
+=======
+        self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
+>>>>>>> upstream/18.0
 =======
         self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
 >>>>>>> upstream/18.0
@@ -280,7 +290,11 @@ class MrpRoutingWorkcenter(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.bom_id._set_outdated_bom_in_productions()
+=======
+        self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
+>>>>>>> upstream/18.0
 =======
         self.bom_id.with_context(skip_bom_outdated_unmark=True)._set_outdated_bom_in_productions()
 >>>>>>> upstream/18.0

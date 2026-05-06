@@ -14,6 +14,10 @@ export class PdfViewerField extends Component {
     };
     static props = {
         ...standardFieldProps,
+<<<<<<< HEAD
+=======
+        fileNameField: { type: String, optional: true },
+>>>>>>> upstream/18.0
     };
 
     setup() {
@@ -45,8 +49,18 @@ export class PdfViewerField extends Component {
         return `/web/static/lib/pdfjs/web/viewer.html?file=${file}#page=${page}`;
     }
 
+<<<<<<< HEAD
     update({ data }) {
         const changes = { [this.props.name]: data || false };
+=======
+    update({ name, data }) {
+        const changes = {
+            [this.props.name]: data || false,
+        };
+        if (this.props.fileNameField && this.props.record.data[this.props.fileNameField] !== name) {
+            changes[this.props.fileNameField] = name || false;
+        }
+>>>>>>> upstream/18.0
         return this.props.record.update(changes);
     }
 
@@ -55,10 +69,17 @@ export class PdfViewerField extends Component {
         this.update({});
     }
 
+<<<<<<< HEAD
     onFileUploaded({ data, objectUrl }) {
         this.state.isValid = true;
         this.state.objectUrl = objectUrl;
         this.update({ data });
+=======
+    onFileUploaded({ name, data, objectUrl }) {
+        this.state.isValid = true;
+        this.state.objectUrl = objectUrl;
+        this.update({ name, data });
+>>>>>>> upstream/18.0
     }
 
     onLoadFailed() {
@@ -81,6 +102,10 @@ export const pdfViewerField = {
         },
     ],
     supportedTypes: ["binary"],
+<<<<<<< HEAD
+=======
+    extractProps: ({ attrs }) => ({ fileNameField: attrs.filename }),
+>>>>>>> upstream/18.0
 };
 
 registry.category("fields").add("pdf_viewer", pdfViewerField);

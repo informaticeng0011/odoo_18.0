@@ -201,6 +201,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    --hoot-spacing: 0.25rem;
+>>>>>>> upstream/18.0
 =======
 
     --hoot-spacing: 0.25rem;
@@ -1292,7 +1297,11 @@ ul {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     gap: 0.5rem;
+=======
+    gap: calc(var(--hoot-spacing) * 2);
+>>>>>>> upstream/18.0
 =======
     gap: calc(var(--hoot-spacing) * 2);
 >>>>>>> upstream/18.0
@@ -2427,6 +2436,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.bg-blue {
+    background-color: var(--blue);
+}
+>>>>>>> upstream/18.0
 =======
 .bg-blue {
     background-color: var(--blue);
@@ -4019,6 +4034,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.bg-blue-900 {
+    background-color: var(--blue-900);
+}
+>>>>>>> upstream/18.0
 =======
 .bg-blue-900 {
     background-color: var(--blue-900);
@@ -5606,6 +5627,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.border-blue {
+    border-color: var(--blue);
+}
+>>>>>>> upstream/18.0
 =======
 .border-blue {
     border-color: var(--blue);
@@ -7286,6 +7313,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.cursor-move {
+    cursor: move;
+}
+>>>>>>> upstream/18.0
 =======
 .cursor-move {
     cursor: move;
@@ -8875,6 +8908,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+>>>>>>> upstream/18.0
 =======
 .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -10483,9 +10522,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .start-1\/2 {
     inset-inline-start: 50%;
 }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11159,7 +11201,11 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     inset-inline-end: 0.5rem;
+=======
+    inset-inline-end: calc(var(--hoot-spacing) * 2);
+>>>>>>> upstream/18.0
 =======
     inset-inline-end: calc(var(--hoot-spacing) * 2);
 >>>>>>> upstream/18.0
@@ -11950,7 +11996,11 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     top: 0.5rem;
+=======
+    top: calc(var(--hoot-spacing) * 2);
+>>>>>>> upstream/18.0
 =======
     top: calc(var(--hoot-spacing) * 2);
 >>>>>>> upstream/18.0
@@ -12778,6 +12828,7 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 0.25rem;
 }
 .w-2 {
@@ -12792,6 +12843,8 @@ input[type="checkbox"]:checked {
 .w-5 {
     width: 1.25rem;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13393,6 +13446,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13988,6 +14044,7 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .w-64 {
     width: 16rem;
 }
@@ -14384,10 +14441,13 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 .min-w-0 {
     min-width: 0;
 }
 .min-w-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14988,6 +15048,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     min-width: calc(var(--hoot-spacing) * 1);
 }
 .min-w-2 {
@@ -15196,6 +15258,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15599,6 +15664,7 @@ input[type="checkbox"]:checked {
     max-width: 0;
 }
 .max-w-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16199,6 +16265,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     max-width: calc(var(--hoot-spacing) * 1);
 }
 .max-w-2 {
@@ -16407,6 +16475,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17003,6 +17074,7 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 0.25rem;
 }
 .h-2 {
@@ -17017,6 +17089,8 @@ input[type="checkbox"]:checked {
 .h-5 {
     height: 1.25rem;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17618,6 +17692,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18213,10 +18290,13 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .h-7 {
     height: 1.75rem;
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18809,6 +18889,7 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     min-height: 0.25rem;
 }
 .min-h-2 {
@@ -18823,6 +18904,8 @@ input[type="checkbox"]:checked {
 .min-h-5 {
     min-height: 1.25rem;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19424,6 +19507,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19824,6 +19910,7 @@ input[type="checkbox"]:checked {
     max-height: 0;
 }
 .max-h-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20427,6 +20514,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     max-height: calc(var(--hoot-spacing) * 1);
 }
 .max-h-2 {
@@ -20638,6 +20727,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21239,6 +21331,7 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     gap: 0.25rem;
 }
 .gap-2 {
@@ -21250,6 +21343,8 @@ input[type="checkbox"]:checked {
 .gap-4 {
     gap: 1rem;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21845,6 +21940,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22242,6 +22340,7 @@ input[type="checkbox"]:checked {
     column-gap: 0;
 }
 .gap-x-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22839,6 +22938,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     column-gap: calc(var(--hoot-spacing) * 1);
 }
 .gap-x-2 {
@@ -23044,6 +23145,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23441,6 +23545,7 @@ input[type="checkbox"]:checked {
     row-gap: 0;
 }
 .gap-y-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24038,6 +24143,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     row-gap: calc(var(--hoot-spacing) * 1);
 }
 .gap-y-2 {
@@ -24243,6 +24350,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24642,6 +24752,7 @@ input[type="checkbox"]:checked {
     margin: 0;
 }
 .m-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25239,6 +25350,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     margin: calc(var(--hoot-spacing) * 1);
 }
 .m-2 {
@@ -25444,6 +25557,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25842,6 +25958,7 @@ input[type="checkbox"]:checked {
     margin-right: 0;
 }
 .mx-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26443,6 +26560,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     margin-left: calc(var(--hoot-spacing) * 1);
     margin-right: calc(var(--hoot-spacing) * 1);
 }
@@ -26652,6 +26771,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27050,6 +27172,7 @@ input[type="checkbox"]:checked {
     margin-bottom: 0;
 }
 .my-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27651,6 +27774,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     margin-top: calc(var(--hoot-spacing) * 1);
     margin-bottom: calc(var(--hoot-spacing) * 1);
 }
@@ -27860,6 +27985,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28257,6 +28385,7 @@ input[type="checkbox"]:checked {
     margin-inline-start: 0;
 }
 .ms-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28854,6 +28983,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     margin-inline-start: calc(var(--hoot-spacing) * 1);
 }
 .ms-2 {
@@ -29059,6 +29190,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29459,6 +29593,7 @@ input[type="checkbox"]:checked {
     margin-inline-end: 0;
 }
 .me-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30056,6 +30191,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     margin-inline-end: calc(var(--hoot-spacing) * 1);
 }
 .me-2 {
@@ -30261,6 +30398,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30661,6 +30801,7 @@ input[type="checkbox"]:checked {
     margin-top: 0;
 }
 .mt-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31258,6 +31399,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     margin-top: calc(var(--hoot-spacing) * 1);
 }
 .mt-2 {
@@ -31463,6 +31606,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31860,6 +32006,7 @@ input[type="checkbox"]:checked {
     margin-bottom: 0;
 }
 .mb-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32457,6 +32604,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     margin-bottom: calc(var(--hoot-spacing) * 1);
 }
 .mb-2 {
@@ -32662,6 +32811,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33064,6 +33216,7 @@ input[type="checkbox"]:checked {
     padding: 1px;
 }
 .p-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33664,6 +33817,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     padding: calc(var(--hoot-spacing) * 1);
 }
 .p-2 {
@@ -33872,6 +34027,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34270,6 +34428,7 @@ input[type="checkbox"]:checked {
     padding-right: 0;
 }
 .px-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34871,6 +35030,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     padding-left: calc(var(--hoot-spacing) * 1);
     padding-right: calc(var(--hoot-spacing) * 1);
 }
@@ -35080,6 +35241,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35478,6 +35642,7 @@ input[type="checkbox"]:checked {
     padding-bottom: 0;
 }
 .py-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36079,6 +36244,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     padding-top: calc(var(--hoot-spacing) * 1);
     padding-bottom: calc(var(--hoot-spacing) * 1);
 }
@@ -36288,6 +36455,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36685,6 +36855,7 @@ input[type="checkbox"]:checked {
     padding-inline-start: 0;
 }
 .ps-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37282,6 +37453,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     padding-inline-start: calc(var(--hoot-spacing) * 1);
 }
 .ps-2 {
@@ -37487,6 +37660,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37884,6 +38060,7 @@ input[type="checkbox"]:checked {
     padding-inline-end: 0;
 }
 .pe-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38481,6 +38658,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     padding-inline-end: calc(var(--hoot-spacing) * 1);
 }
 .pe-2 {
@@ -38686,6 +38865,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39083,6 +39265,7 @@ input[type="checkbox"]:checked {
     padding-top: 0;
 }
 .pt-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39680,6 +39863,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     padding-top: calc(var(--hoot-spacing) * 1);
 }
 .pt-2 {
@@ -39885,6 +40070,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40282,6 +40470,7 @@ input[type="checkbox"]:checked {
     padding-bottom: 0;
 }
 .pb-1 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40879,6 +41068,8 @@ input[type="checkbox"]:checked {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     padding-bottom: calc(var(--hoot-spacing) * 1);
 }
 .pb-2 {
@@ -41084,6 +41275,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41824,6 +42018,12 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.text-blue {
+    color: var(--blue);
+}
+>>>>>>> upstream/18.0
 =======
 .text-blue {
     color: var(--blue);
@@ -43414,7 +43614,10 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -44197,6 +44400,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44972,6 +45178,7 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     line-height: 1rem;
 }
 .text-sm {
@@ -44982,6 +45189,8 @@ input[type="checkbox"]:checked {
     font-size: 1.25rem;
     line-height: 1.75rem;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45576,6 +45785,9 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46214,12 +46426,15 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Transform: translate */
 
 .\-translate-x-1\/2 {
     transform: translateX(-50%);
 }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46962,8 +47177,13 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         padding-left: 1rem;
         padding-right: 1rem;
+=======
+        padding-left: calc(var(--hoot-spacing) * 4);
+        padding-right: calc(var(--hoot-spacing) * 4);
+>>>>>>> upstream/18.0
 =======
         padding-left: calc(var(--hoot-spacing) * 4);
         padding-right: calc(var(--hoot-spacing) * 4);
@@ -47972,7 +48192,11 @@ input[type="checkbox"]:checked {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         gap: 0.25rem;
+=======
+        gap: var(--hoot-spacing);
+>>>>>>> upstream/18.0
 =======
         gap: var(--hoot-spacing);
 >>>>>>> upstream/18.0
