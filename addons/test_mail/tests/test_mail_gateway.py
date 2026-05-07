@@ -82,6 +82,7 @@ class TestEmailParsing(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_message_parse_and_replace_binary_octetstream(self):
         """ Incoming email containing a wrong Content-Type as described in RFC2046/section-3 """
         received_mail = self.from_string(test_mail_data.MAIL_MULTIPART_BINARY_OCTET_STREAM)
@@ -556,6 +557,8 @@ class TestEmailParsing(MailCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_message_parse_and_replace_bad_content_type(self):
         """Incoming emails with unsupported attachment Content-Types should not crash parsing."""
         for content_type in ('binary/octet-stream', '*/*', 'bin/plain'):
@@ -629,6 +632,9 @@ class TestEmailParsing(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2193,9 +2199,12 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertNotIn(self.partner_1, test_channel.channel_partner_ids)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2851,6 +2860,9 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3949,7 +3961,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE']:
+=======
+        for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
         for encoding in ['', 'UTF-8', 'UTF-16LE', 'UTF-32BE', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -4651,7 +4667,11 @@ class TestMailgateway(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if encoding not in ['', 'UTF-8']:
+=======
+            if encoding not in ['', 'UTF-8', 'cp-850']:
+>>>>>>> upstream/18.0
 =======
             if encoding not in ['', 'UTF-8', 'cp-850']:
 >>>>>>> upstream/18.0
@@ -5686,6 +5706,10 @@ class TestMailGatewayLoops(MailGatewayCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'message_type': 'email'
+>>>>>>> upstream/18.0
 =======
                 'message_type': 'email'
 >>>>>>> upstream/18.0

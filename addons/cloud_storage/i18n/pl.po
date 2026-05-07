@@ -165,6 +165,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage
 # 
 # Translators:
@@ -172,6 +173,8 @@
 # Marta Wacławek, 2025
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -671,6 +674,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -949,6 +953,9 @@
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2025.
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
@@ -1155,6 +1162,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2114,6 +2122,11 @@ msgstr ""
 "PO-Revision-Date: 2026-02-24 23:29+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-24 23:29+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "cloud_storage/pl/>\n"
 "Language: pl\n"
@@ -2121,6 +2134,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3070,6 +3084,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage
 #: model:ir.model,name:cloud_storage.model_ir_attachment
@@ -3250,7 +3269,11 @@ msgid "Cloud Storage Provider for new attachments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostawca przechowywania w chmurze dla nowych załączników"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostawca przechowywania w chmurze dla nowych załączników"
 >>>>>>> upstream/18.0
@@ -3915,7 +3938,11 @@ msgid "Cloud Storage Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustawienia pamięci w chmurze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustawienia pamięci w chmurze"
 >>>>>>> upstream/18.0
@@ -4581,7 +4608,11 @@ msgid "Cloud Storage is not enabled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pamięć w chmurze nie jest aktywowana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pamięć w chmurze nie jest aktywowana"
 >>>>>>> upstream/18.0
@@ -5247,7 +5278,11 @@ msgid "Cloud storage configuration has been changed. Please refresh the page."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zmieniono konfigurację pamięci w chmurze. Odśwież stronę."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zmieniono konfigurację pamięci w chmurze. Odśwież stronę."
 >>>>>>> upstream/18.0
@@ -5913,7 +5948,11 @@ msgid "Cloud storage error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Błąd pamięci w chmurze"
+>>>>>>> upstream/18.0
 =======
 msgstr "Błąd pamięci w chmurze"
 >>>>>>> upstream/18.0
@@ -6413,6 +6452,7 @@ msgstr "Błąd pamięci w chmurze"
 #. module: cloud_storage
 #: model:ir.model,name:cloud_storage.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7111,11 +7151,17 @@ msgstr "Konfiguracja ustawień"
 
 #. module: cloud_storage
 >>>>>>> upstream/18.0
+=======
+msgstr "Konfiguracja ustawień"
+
+#. module: cloud_storage
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/cloud_storage/models/ir_attachment.py:0
 msgid ""
 "Failed to download attachment (%(id)s) from cloud: %(code)s - %(reason)s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7308,6 +7354,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Nie udało się pobrać załącznika (%(id)s) z chmury: %(code)s - %(reason)s"
+
+#. module: cloud_storage
 >>>>>>> upstream/18.0
 =======
 "Nie udało się pobrać załącznika (%(id)s) z chmury: %(code)s - %(reason)s"
@@ -8236,7 +8287,11 @@ msgid "Minimum File Size (bytes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minimalny rozmiar pliku (bajty)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minimalny rozmiar pliku (bajty)"
 >>>>>>> upstream/18.0
@@ -8901,7 +8956,11 @@ msgid "Minimum size(bytes) for attachments to be stored in the cloud storage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minimalny rozmiar (bajty) dla załączników zapisywanych w chmurze."
+>>>>>>> upstream/18.0
 =======
 msgstr "Minimalny rozmiar (bajty) dla załączników zapisywanych w chmurze."
 >>>>>>> upstream/18.0
@@ -9567,7 +9626,11 @@ msgid "Please configure the Cloud Storage before enabling it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skonfiguruj pamięć w chmurze przed aktywacją jej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skonfiguruj pamięć w chmurze przed aktywacją jej"
 >>>>>>> upstream/18.0
@@ -10233,6 +10296,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wybierz dostawcę pamięci w chmurze do przechowywania nowych załączników."
+>>>>>>> upstream/18.0
 =======
 "Wybierz dostawcę pamięci w chmurze do przechowywania nowych załączników."
 >>>>>>> upstream/18.0
@@ -10903,7 +10970,11 @@ msgid "You are not allowed to upload file to the cloud storage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie masz uprawnień do przesyłania załączników do chmury"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie masz uprawnień do przesyłania załączników do chmury"
 >>>>>>> upstream/18.0
@@ -11578,10 +11649,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        (in bytes) as url attachments to the server and then upload the file to\n"
 "        the cloud storage."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12082,6 +12156,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

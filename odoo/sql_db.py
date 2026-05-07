@@ -274,10 +274,13 @@ class BaseCursor:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.transaction is not None:
             self.transaction.flush()
         self.precommit.run()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -642,6 +645,9 @@ class BaseCursor:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1256,6 +1262,12 @@ class Cursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if os.getenv('ODOO_FAKETIME_TEST_MODE') and self.dbname in tools.config['db_name'].split(','):
+            self.execute("SET search_path = public, pg_catalog;")
+            self.commit()  # ensure that the search_path remains after a rollback
+>>>>>>> upstream/18.0
 =======
         if os.getenv('ODOO_FAKETIME_TEST_MODE') and self.dbname in tools.config['db_name'].split(','):
             self.execute("SET search_path = public, pg_catalog;")
@@ -2563,7 +2575,10 @@ class Cursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2781,6 +2796,9 @@ class Cursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3009,7 +3027,10 @@ class Cursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         current_thread = threading.current_thread()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3228,8 +3249,13 @@ class Cursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for hook in getattr(current_thread, 'query_hooks', ()):
             hook(self, query, params, start, delay)
+=======
+        for update_query_endtime_function in update_query_endtime_functions:
+            update_query_endtime_function(delay)
+>>>>>>> upstream/18.0
 =======
         for update_query_endtime_function in update_query_endtime_functions:
             update_query_endtime_function(delay)
@@ -3721,6 +3747,7 @@ class TestCursor(BaseCursor):
 
     def close(self):
         if not self._closed:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4668,6 +4695,8 @@ class TestCursor(BaseCursor):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             try:
                 self.rollback()
                 if self._savepoint:
@@ -4990,6 +5019,9 @@ class TestCursor(BaseCursor):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5933,7 +5965,11 @@ def connection_info_for(db_or_uri, readonly=False):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             cfg = tools.config.get('db_replica_' + p, cfg)
+=======
+            cfg = tools.config.get('db_replica_' + p) or cfg
+>>>>>>> upstream/18.0
 =======
             cfg = tools.config.get('db_replica_' + p) or cfg
 >>>>>>> upstream/18.0

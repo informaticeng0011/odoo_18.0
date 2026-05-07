@@ -203,7 +203,13 @@ class TestTRNilveraMockedRequests(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             invoice: {**invoice.read()[0], 'extra_edis': {'tr_nilvera'}}
+=======
+            invoice: {
+                **self.env['account.move.send']._get_default_sending_settings(invoice),
+            }
+>>>>>>> upstream/18.0
 =======
             invoice: {
                 **self.env['account.move.send']._get_default_sending_settings(invoice),
@@ -683,8 +689,11 @@ class TestTRNilveraMockedRequests(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertListEqual(sorted(invoice.attachment_ids.mapped('mimetype')), ['application/pdf', 'application/xml'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -860,6 +869,9 @@ class TestTRNilveraMockedRequests(TestUBLTRCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

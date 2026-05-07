@@ -19,7 +19,11 @@ import * as NumberPopup from "@point_of_sale/../tests/tours/utils/number_popup_u
  * clickPaymentMethod("Cash");
  *
  * // Clicks on the "Bank" payment method and checks the remaining amount and change
+<<<<<<< HEAD
  * clickPaymentMethod("Cash", true, { remaining: "50.20", change: "10.50" });
+=======
+ * clickPaymentMethod("Cash", true, { remaining: "50.20", change: "-10.50" });
+>>>>>>> upstream/18.0
  *
  * // Clicks on the "Cash" payment method and checks the amount to be paid
  * clickPaymentMethod("Cash", true, { amount: "10.20" });
@@ -89,6 +93,7 @@ export function clickInvoiceButton() {
 export function clickValidate() {
     return [
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1283,6 +1288,10 @@ export function clickValidate() {
             content: "validate payment",
             trigger: `.payment-screen button.validation-button.next`,
 >>>>>>> upstream/18.0
+=======
+            content: "validate payment",
+            trigger: `.payment-screen button.validation-button.next`,
+>>>>>>> upstream/18.0
             run: "click",
         },
     ];
@@ -1300,7 +1309,11 @@ export function clickValidate() {
  *  PaymentScreen.clickNumpad("0"), <- desktop: add a 0
  *  PaymentScreen.fillPaymentLineAmountMobile("Cash", "700"), <- mobile: rewrite the amount
  *  PaymentScreen.remainingIs("0.00"),
+<<<<<<< HEAD
  *  PaymentScreen.changeIs("628.0"),
+=======
+ *  PaymentScreen.changeIs("-628.0"),
+>>>>>>> upstream/18.0
  *
  * @param {String} keys space-separated numpad keys
  */
@@ -1352,7 +1365,11 @@ export function clickTipButton() {
  *
  * @example
  * // Enter the amount "100" on the "Bank" payment line and check that the remaining amount is 50 and the change is 20
+<<<<<<< HEAD
  * enterPaymentLineAmount("Bank", "100", true, { remaining: "50.0", change: "20.0" });
+=======
+ * enterPaymentLineAmount("Bank", "100", true, { remaining: "50.0", change: "-20.0" });
+>>>>>>> upstream/18.0
  */
 export function enterPaymentLineAmount(lineName, keys, isCheckNeeded = false, options = {}) {
     const { remaining = null, change = null, amount = null } = options;
@@ -1444,6 +1461,7 @@ export function validateButtonIsHighlighted(isHighlighted = true) {
     return [
         {
             isActive: ["desktop"],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2165,6 +2183,8 @@ export function validateButtonIsHighlighted(isHighlighted = true) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             content: `validate button is ${isHighlighted ? "highlighted" : "not highlighted"}`,
             trigger: isHighlighted
                 ? `.payment-screen button.validation-button.next.highlight`
@@ -2405,6 +2425,9 @@ export function validateButtonIsHighlighted(isHighlighted = true) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2966,6 +2989,7 @@ export function clickPartnerButton() {
         },
         {
             content: "partner screen is shown",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3755,6 +3779,9 @@ export function clickPartnerButton() {
 =======
             trigger: `${PartnerList.clickPartner().trigger}`,
 >>>>>>> upstream/18.0
+=======
+            trigger: `${PartnerList.clickPartner().trigger}`,
+>>>>>>> upstream/18.0
         },
     ];
 }
@@ -3882,7 +3909,10 @@ export function shippingLaterHighlighted() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4228,6 +4258,9 @@ export function isInvoiceButtonUnchecked() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

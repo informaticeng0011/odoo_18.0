@@ -239,7 +239,11 @@ registerWebsitePreviewTour('shop_list_view_b2c', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .product_price .oe_price .oe_currency_value:contains(/^825.00$/)",
+=======
+            trigger: ":iframe .product_price .oe_price .oe_currency_value:text(825.00)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .product_price .oe_price .oe_currency_value:text(825.00)",
 >>>>>>> upstream/18.0
@@ -968,7 +972,11 @@ registerWebsitePreviewTour('shop_list_view_b2c', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .product_price .oe_price .oe_currency_value:contains(/^880.44$/)",
+=======
+            trigger: ":iframe .product_price .oe_price .oe_currency_value:text(880.44)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .product_price .oe_price .oe_currency_value:text(880.44)",
 >>>>>>> upstream/18.0
@@ -1515,6 +1523,7 @@ registerWebsitePreviewTour('shop_list_view_b2c', {
             trigger: ':iframe a:contains(Add to cart)',
             run: "click",
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2354,6 +2363,8 @@ registerWebsitePreviewTour('shop_list_view_b2c', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         goToCart({ backend: true, expectUnloadPage: false }),
         {
             content: "check price on /cart",
@@ -2537,6 +2548,9 @@ registerWebsitePreviewTour('shop_list_view_b2c', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

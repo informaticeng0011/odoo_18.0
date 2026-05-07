@@ -24,7 +24,11 @@ registry.category("web_tour.tours").add("OnlinePaymentErrorsTour", {
             PaymentScreen.clickPaymentMethod("Cash"),
             PaymentScreen.enterPaymentLineAmount("Cash", "2"),
             PaymentScreen.selectedPaymentlineHas("Cash", "2.0"),
+<<<<<<< HEAD
             PaymentScreen.changeIs("1.0"),
+=======
+            PaymentScreen.changeIs("-1.0"),
+>>>>>>> upstream/18.0
             PaymentScreen.validateButtonIsHighlighted(true),
             PaymentScreen.clickValidate(),
             // successfully confirming the dialog would imply that the error popup is actually shown
@@ -255,7 +259,10 @@ registry.category("web_tour.tours").add("OnlinePaymentErrorsTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -864,6 +871,9 @@ registry.category("web_tour.tours").add("test_selected_customer_after_adding_pay
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

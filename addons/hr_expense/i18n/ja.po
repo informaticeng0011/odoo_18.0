@@ -204,6 +204,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_expense
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -920,6 +921,9 @@
 =======
 # * hr_expense
 >>>>>>> upstream/18.0
+=======
+# * hr_expense
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1161,6 +1165,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1577,6 +1582,10 @@
 =======
 # Ryoko Tsuda <ryoko@quartile.co>, 2025.
 # "Junko Augias (juau)" <juau@odoo.com>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Ryoko Tsuda <ryoko@quartile.co>, 2025.
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # Ryoko Tsuda <ryoko@quartile.co>, 2025.
@@ -2046,6 +2055,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3472,6 +3482,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-05-02 09:05+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
@@ -3480,6 +3492,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3491,6 +3506,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4629,6 +4645,10 @@ msgstr "$600.00"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -4645,6 +4665,7 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5595,6 +5616,9 @@ msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 =======
 msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 >>>>>>> upstream/18.0
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr "%(user)s がこの経費が類似の経費と重複していないことを確認"
 
 #. module: hr_expense
@@ -5635,6 +5659,7 @@ msgid "1 %(exp_cur)s = %(rate)s %(comp_cur)s"
 msgstr "1 %(exp_cur)s = %(rate)s %(comp_cur)s"
 
 #. module: hr_expense
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6778,6 +6803,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "<b>Wasting time recording your receipts?</b> Let’s try a better way."
@@ -6807,6 +6834,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6910,6 +6940,7 @@ msgid ""
 "A default outstanding account must be defined in the settings for company-"
 "paid expenses. Or specify one in the Journal for the %(method)s payment "
 "method."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8333,6 +8364,11 @@ msgstr ""
 "会社負担の経費の設定で、未消込勘定のデフォルト値を定義する必要があります。ま"
 "たは、支払方法 %(method)s 用の仕訳帳で指定します。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"会社負担の経費の設定で、未消込勘定のデフォルト値を定義する必要があります。ま"
+"たは、支払方法 %(method)s 用の仕訳帳で指定します。"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__account_id
@@ -8365,6 +8401,7 @@ msgstr "活動"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_exception_decoration
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9130,6 +9167,9 @@ msgstr "例外の活動を示す装飾"
 =======
 msgstr "例外の活動を示す装飾"
 >>>>>>> upstream/18.0
+=======
+msgstr "例外の活動を示す装飾"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_state
@@ -9257,7 +9297,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "活動種別アイコン"
+=======
+msgstr "活動タイプアイコン"
+>>>>>>> upstream/18.0
 =======
 msgstr "活動タイプアイコン"
 >>>>>>> upstream/18.0
@@ -9878,9 +9922,12 @@ msgstr "全ての報告"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
 msgstr "経費レポートに記載されるすべての経費は、同じ\"支払者\"基準でなければなりません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10594,6 +10641,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11076,6 +11126,7 @@ msgstr "全ての許可済支払方法"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__amount_residual
 msgid "Amount Due"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12101,6 +12152,9 @@ msgstr "未精算金額"
 =======
 msgstr "未精算金額"
 >>>>>>> upstream/18.0
+=======
+msgstr "未精算金額"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
@@ -12234,7 +12288,11 @@ msgid "Analytic Distribution"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "分析用配分"
+=======
+msgstr "分析分配"
+>>>>>>> upstream/18.0
 =======
 msgstr "分析分配"
 >>>>>>> upstream/18.0
@@ -12777,7 +12835,11 @@ msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "分析計画の適用範囲"
+=======
+msgstr "分析プランの適用範囲"
+>>>>>>> upstream/18.0
 =======
 msgstr "分析プランの適用範囲"
 >>>>>>> upstream/18.0
@@ -13877,7 +13939,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格に含まれる税金も価格に含まれない税金も、経費については価格に含まれる税金として扱われます。"
+=======
+msgstr ""
+"価格に含まれる税金も価格に含まれない税金も、経費については価格に含まれる税金"
+"として扱われます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "価格に含まれる税金も価格に含まれない税金も、経費については価格に含まれる税金"
@@ -15390,7 +15458,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて行われます。"
+=======
+msgstr ""
+"単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
+"行われます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
@@ -16961,7 +17035,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ポケットの中に経費チケットをしまっておく必要はありません。領収書の写真を撮るだけで、Odooがあなたに代わってデジタル化します。OCRと人工知能が自動的にデータを埋めてくれます。"
+=======
+"ポケットの中に経費チケットをしまっておく必要はありません。領収書の写真を撮る"
+"だけで、Odooがあなたに代わってデジタル化します。OCRと人工知能が自動的にデータ"
+"を埋めてくれます。"
+>>>>>>> upstream/18.0
 =======
 "ポケットの中に経費チケットをしまっておく必要はありません。領収書の写真を撮る"
 "だけで、Odooがあなたに代わってデジタル化します。OCRと人工知能が自動的にデータ"
@@ -18392,7 +18472,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "本当に自社宛に顧客請求書を発行したいのですか？取引先から\"会社名\"を削除して設定を修正して下さい。この顧客請求書を取消し、もう一度やり直して下さい。"
+=======
+"本当に自社宛に顧客請求書を発行したいのですか？取引先から\"会社名\"を削除して"
+"設定を修正して下さい。この顧客請求書を取消し、もう一度やり直して下さい。"
+>>>>>>> upstream/18.0
 =======
 "本当に自社宛に顧客請求書を発行したいのですか？取引先から\"会社名\"を削除して"
 "設定を修正して下さい。この顧客請求書を取消し、もう一度やり直して下さい。"
@@ -19402,7 +19487,11 @@ msgid "Employee (to reimburse)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "従業員 (要払戻)"
+=======
+msgstr "従業員 (立替)"
+>>>>>>> upstream/18.0
 =======
 msgstr "従業員 (立替)"
 >>>>>>> upstream/18.0
@@ -19710,8 +19799,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 =======
 "Enter a name then choose a category and configure the amount of your expense."
 >>>>>>> upstream/18.0
@@ -21216,7 +21309,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "マネジャーは報告をここで承認し、その後、会計担当が会計エントリを投稿することができます。"
+=======
+msgstr ""
+"マネジャーは報告をここで承認し、その後、会計担当が会計エントリを投稿すること"
+"ができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "マネジャーは報告をここで承認し、その後、会計担当が会計エントリを投稿すること"
@@ -22839,7 +22938,11 @@ msgid "Only HR Officers or the concerned employee can reset to draft."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ドラフトをリセットできるのは、人事担当者または関連する従業員のみです。"
+=======
+msgstr "ドラフトに戻せるのは、人事担当者または関連する従業員のみです。"
+>>>>>>> upstream/18.0
 =======
 msgstr "ドラフトに戻せるのは、人事担当者または関連する従業員のみです。"
 >>>>>>> upstream/18.0
@@ -23787,7 +23890,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このレポートの経費が会社または従業員によって支払われた場合は、その旨を指定して下さい。"
+=======
+msgstr ""
+"このレポートの経費が会社または従業員によって支払われた場合は、その旨を指定し"
+"て下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このレポートの経費が会社または従業員によって支払われた場合は、その旨を指定し"
@@ -25213,7 +25322,11 @@ msgid "Public Employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "公務員"
+=======
+msgstr "公開従業員"
+>>>>>>> upstream/18.0
 =======
 msgstr "公開従業員"
 >>>>>>> upstream/18.0
@@ -25772,6 +25885,7 @@ msgid ""
 "don't <em>need to save</em> - Odoo will save eveyrthing for you when you "
 "navigate."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26958,6 +27072,10 @@ msgstr ""
 "準備はいいですか？ここから手動で保存したり、変更を破棄することができます。"
 "<em>保存する必要</em>はありません。Odooがナビゲート時に全て保存します。"
 >>>>>>> upstream/18.0
+=======
+"準備はいいですか？ここから手動で保存したり、変更を破棄することができます。"
+"<em>保存する必要</em>はありません。Odooがナビゲート時に全て保存します。"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__reason
@@ -27028,7 +27146,11 @@ msgid "Reimburse Expenses in Payslip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "給与明細で経費を払い戻す"
+=======
+msgstr "給与明細で経費精算"
+>>>>>>> upstream/18.0
 =======
 msgstr "給与明細で経費精算"
 >>>>>>> upstream/18.0
@@ -27105,7 +27227,11 @@ msgid "Reimburse in Payslip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "給与明細で払い戻す"
+=======
+msgstr "給与明細で経費精算"
+>>>>>>> upstream/18.0
 =======
 msgstr "給与明細で経費精算"
 >>>>>>> upstream/18.0
@@ -27384,7 +27510,11 @@ msgid "Reset to Draft"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ドラフトにリセット"
+=======
+msgstr "ドラフトに戻す"
+>>>>>>> upstream/18.0
 =======
 msgstr "ドラフトに戻す"
 >>>>>>> upstream/18.0
@@ -28210,6 +28340,7 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS配信エラー"
 =======
 msgstr "SMS送信エラー"
@@ -28747,6 +28878,9 @@ msgstr "SMS送信エラー"
 >>>>>>> upstream/18.0
 =======
 msgstr "SMS送信エラー"
+>>>>>>> upstream/18.0
+=======
+msgstr "SMS配信エラー"
 >>>>>>> upstream/18.0
 =======
 msgstr "SMS配信エラー"
@@ -29068,7 +29202,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+>>>>>>> upstream/18.0
 =======
 "If empty, the approval is done by an Administrator or Approver (determined "
 "in settings/users)."
@@ -30272,8 +30411,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "領収書を添付してこのメールエイリアスにメールを送信すると、ワンクリックで経費が作成されます。メール件名の最初の単語がカテゴリの内部参照またはカテゴリ名を含んでいる場合、対応するカテゴリが自動的に設定されます。メールの件名に経費の金額を入力すると、その金額も経費に設定されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30986,6 +31128,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31728,12 +31873,15 @@ msgstr "次のアクションの日付が今日より前のすべてのレコー
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr "仕事用Eメールのない従業員を表示"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32377,7 +32525,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "遅延: 期限が既に過ぎています\n"
+=======
+"期限超過：期限日がすでに過ぎています\n"
+>>>>>>> upstream/18.0
 =======
 "期限超過：期限日がすでに過ぎています\n"
 >>>>>>> upstream/18.0
@@ -32819,6 +32971,7 @@ msgid ""
 msgstr "会社経費の未払金額を記録する口座。"
 
 #. module: hr_expense
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33696,6 +33849,8 @@ msgid "The company's default journal used when an employee expense is created."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr_expense/models/ir_actions_report.py:0
 msgid ""
@@ -33780,6 +33935,9 @@ msgid "The company's default journal used when an employee expense is created."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34170,7 +34328,12 @@ msgid "The current user has no related employee. Please, create one."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現ユーザには関連する従業員レコードがありません。従業員を作成してください。"
+=======
+msgstr ""
+"現ユーザには関連する従業員レコードがありません。従業員を作成してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "現ユーザには関連する従業員レコードがありません。従業員を作成してください。"
@@ -35360,10 +35523,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
 msgstr "メールの件名の最初の単語がカテゴリコードに対応していません。カテゴリを手動で設定する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36077,6 +36243,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36557,6 +36726,7 @@ msgid ""
 "The following approved expenses have similar employee, amount and category "
 "than some expenses of this report. Please verify this report does not "
 "contain duplicates."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37925,6 +38095,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "以下の承認済経費は、この経費報告に含まれる一部の経費と、従業員・金額・"
 "カテゴリが類似しています。本報告に重複が含まれていないことを確認してください"
@@ -37946,6 +38118,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38010,6 +38185,7 @@ msgstr "分割後の合計は同じままである必要があります。"
 
 #. module: hr_expense
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38732,6 +38908,8 @@ msgstr "一部の従業員の会社Eメールがありません。従業員フ�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
 msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
@@ -38975,7 +39153,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このカテゴリには未計上の経費がリンクされています。カテゴリ経費を更新すると、経費の金額が変更されます。本当にそれがやりたいことなのかをご確認下さい。"
+=======
+"このカテゴリには未計上の経費がリンクされています。カテゴリ経費を更新すると、"
+"経費の金額が変更されます。本当にそれがやりたいことなのかをご確認下さい。"
+>>>>>>> upstream/18.0
 =======
 "このカテゴリには未計上の経費がリンクされています。カテゴリ経費を更新すると、"
 "経費の金額が変更されます。本当にそれがやりたいことなのかをご確認下さい。"
@@ -40173,7 +40356,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この経費報告書は空です。空の経費報告書を提出または承認することはできません。"
+=======
+msgstr ""
+"この経費報告書は空です。空の経費報告書を提出または承認することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この経費報告書は空です。空の経費報告書を提出または承認することはできません。"
@@ -41157,7 +41345,11 @@ msgid "To Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未報告"
+=======
+msgstr "報告待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "報告待ち"
 >>>>>>> upstream/18.0
@@ -41241,7 +41433,11 @@ msgid "To be Reimbursed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "未払戻"
+=======
+msgstr "精算待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "精算待ち"
 >>>>>>> upstream/18.0
@@ -41357,7 +41553,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "記録上の例外活動の種類。"
+=======
+msgstr "レコード上の例外の活動タイプ。"
+>>>>>>> upstream/18.0
 =======
 msgstr "レコード上の例外の活動タイプ。"
 >>>>>>> upstream/18.0
@@ -41699,6 +41899,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -41710,6 +41911,8 @@ msgid ""
 msgstr ""
 "経費プロダクトのコストが0と異なる場合、そのプロダクトを使用するユーザは経費の金額を変更することができず、数量のみを変更することができます。マイレージ、日当、宿泊費、食事手当のように、会社から固定費で支給される経費カテゴリには、0以外の原価を使用して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42431,6 +42634,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43233,10 +43439,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
 msgstr "経費報告にリンクしている一部の項目だけを削除することはできません。全ての項目を同時に削除する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43950,6 +44159,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44667,7 +44879,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "経費報告にリンクされている一部の支払だけを削除することはできません。全ての支払を同時に削除する必要があります。"
+=======
+msgstr ""
+"経費報告にリンクされている一部の支払だけを削除することはできません。全ての支"
+"払を同時に削除する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "経費報告にリンクされている一部の支払だけを削除することはできません。全ての支"
@@ -46115,7 +46333,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "提出済、承認済、または支払済の経費報告書から全ての経費を削除することはできません。"
+=======
+msgstr ""
+"提出済、承認済、または支払済の経費報告書から全ての経費を削除することはできま"
+"せん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "提出済、承認済、または支払済の経費報告書から全ての経費を削除することはできま"
@@ -47567,10 +47791,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
 msgstr "レポートにリンクされている場合、通貨建ての支出合計を0に設定することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48283,6 +48510,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48998,7 +49228,12 @@ msgid "You cannot set the expense total to 0 if it's linked to a report."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "レポートにリンクされている場合、支出合計を0に設定することはできません。"
+=======
+msgstr ""
+"レポートにリンクされている場合、支出合計を0に設定することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "レポートにリンクされている場合、支出合計を0に設定することはできません。"
@@ -50191,6 +50426,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "承認済または支払済の経費報告書の経費を追加または削除する権利はありません。"
 
 #. module: hr_expense
@@ -50216,6 +50452,8 @@ msgstr "承認済または支払済の経費報告書の経費を追加または
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50937,6 +51175,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51668,6 +51909,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52406,10 +52650,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to have at least one category that can be expensed in your database"
 " to proceed!"
 msgstr "次に進むには、データベースに経費計上可能なカテゴリが少なくとも1つある必要があります！"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53123,6 +53370,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53684,7 +53934,11 @@ msgid "to be reimbursed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "払戻待ち"
+=======
+msgstr "精算待ち"
+>>>>>>> upstream/18.0
 =======
 msgstr "精算待ち"
 >>>>>>> upstream/18.0
@@ -53744,6 +53998,7 @@ msgstr "精算待ち"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "to submit"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54561,6 +54816,9 @@ msgstr "未申請"
 =======
 msgstr "未申請"
 >>>>>>> upstream/18.0
+=======
+msgstr "未申請"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -54602,7 +54860,10 @@ msgstr "同じ領収書が既に存在します。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54690,6 +54951,9 @@ msgstr "同じ領収書が既に存在します。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

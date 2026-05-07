@@ -97,6 +97,14 @@ for (let snippet of snippetsNames) {
             trigger: ":iframe .modal-footer .btn-secondary",
             run: "click",
         });
+<<<<<<< HEAD
+=======
+    } else if (snippet.name === 's_dynamic_snippet_products') {
+        snippetSteps.splice(2, 0, {
+            content: 'Wait for dynamic snippet products to be loaded',
+            trigger: ":iframe .s_dynamic_snippet_products .s_dynamic_snippet_row",
+        });
+>>>>>>> upstream/18.0
     } else if (isModal) {
         snippetSteps.splice(
             4,

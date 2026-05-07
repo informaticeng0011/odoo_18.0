@@ -19,15 +19,21 @@ const getIframeViewerParams = () =>
 class Partner extends models.Model {
     document = fields.Binary({ string: "Binary" });
 <<<<<<< HEAD
+<<<<<<< HEAD
     _records = [
         {
             document: "coucou==\n",
 =======
+=======
+>>>>>>> upstream/18.0
     document_name = fields.Char({ string: "Filename" });
     _records = [
         {
             document: "coucou==\n",
             document_name: "test.pdf",
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         },
     ];
@@ -85,7 +91,10 @@ test("PdfViewerField: upload rendering", async () => {
     expect(getIframeProtocol()).toBe("blob");
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("PdfViewerField: upload also sets filename", async () => {
     expect.assertions(1);
@@ -113,4 +122,7 @@ test("PdfViewerField: upload also sets filename", async () => {
     await waitFor("iframe.o_pdfview_iframe");
     await clickSave();
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

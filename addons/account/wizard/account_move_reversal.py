@@ -340,11 +340,14 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             'ref': _('Reversal of: %(move_name)s, %(reason)s', move_name=move.name, reason=self.reason)
                    if self.reason
                    else _('Reversal of: %s', move.name),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1097,6 +1100,9 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1715,6 +1721,10 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_origin': move.invoice_origin,
+>>>>>>> upstream/18.0
 =======
             'invoice_origin': move.invoice_origin,
 >>>>>>> upstream/18.0
@@ -2140,6 +2150,7 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partners = moves.company_id.partner_id + moves.commercial_partner_id
 
         bank_ids = self.env['res.partner.bank'].search([
@@ -2156,6 +2167,8 @@ class AccountMoveReversal(models.TransientModel):
             default_values_list.append({
                 'partner_bank_id': partner_to_bank.get(partner, self.env['res.partner.bank']).id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2403,6 +2416,9 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2666,6 +2682,10 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            new_moves._compute_partner_bank_id()
+>>>>>>> upstream/18.0
 =======
             new_moves._compute_partner_bank_id()
 >>>>>>> upstream/18.0
@@ -3005,6 +3025,10 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                new_moves._compute_partner_bank_id()
+>>>>>>> upstream/18.0
 =======
                 new_moves._compute_partner_bank_id()
 >>>>>>> upstream/18.0
@@ -3322,7 +3346,12 @@ class AccountMoveReversal(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'date': self.date
+=======
+            'date': self.date,
+            'invoice_origin': origin_move.invoice_origin,
+>>>>>>> upstream/18.0
 =======
             'date': self.date,
             'invoice_origin': origin_move.invoice_origin,

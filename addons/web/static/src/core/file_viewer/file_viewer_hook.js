@@ -172,6 +172,10 @@ export function createFileViewer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        close();
+>>>>>>> upstream/18.0
 =======
         close();
 >>>>>>> upstream/18.0

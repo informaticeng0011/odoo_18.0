@@ -178,6 +178,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
+>>>>>>> upstream/18.0
 =======
         cls.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
 >>>>>>> upstream/18.0
@@ -757,7 +761,11 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.company_data['company'].write({
+=======
+        cls.company_data['company'].partner_id.write({
+>>>>>>> upstream/18.0
 =======
         cls.company_data['company'].partner_id.write({
 >>>>>>> upstream/18.0
@@ -1107,6 +1115,11 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0230',
+            'peppol_endpoint': 'C2584563200',
+>>>>>>> upstream/18.0
 =======
             'peppol_eas': '0230',
             'peppol_endpoint': 'C2584563200',
@@ -1545,6 +1558,11 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'peppol_eas': '0230',
+            'peppol_endpoint': 'C2584563201',
+>>>>>>> upstream/18.0
 =======
             'peppol_eas': '0230',
             'peppol_endpoint': 'C2584563201',
@@ -2072,7 +2090,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2576,6 +2597,7 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2748,6 +2770,10 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
     def test_invoice_with_sst(self):
+=======
+    def test_invoice_with_sst(self):
+        self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
+>>>>>>> upstream/18.0
 =======
     def test_invoice_with_sst(self):
         self.env['ir.config_parameter'].set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'True')
@@ -3243,6 +3269,7 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3503,6 +3530,8 @@ class TestMyUBLPint(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

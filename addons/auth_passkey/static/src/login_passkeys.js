@@ -241,7 +241,11 @@ import publicWidget from "@web/legacy/js/public/public_widget";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { startAuthentication } from "../lib/simplewebauthn.js";
+=======
+import * as passkeyLib from "../lib/simplewebauthn.js";
+>>>>>>> upstream/18.0
 =======
 import * as passkeyLib from "../lib/simplewebauthn.js";
 >>>>>>> upstream/18.0
@@ -1205,7 +1209,11 @@ publicWidget.registry.passkeyLogin = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const auth = await startAuthentication(serverOptions).catch(e => console.error(e));
+=======
+        const auth = await passkeyLib.startAuthentication(serverOptions).catch(e => console.error(e));
+>>>>>>> upstream/18.0
 =======
         const auth = await passkeyLib.startAuthentication(serverOptions).catch(e => console.error(e));
 >>>>>>> upstream/18.0

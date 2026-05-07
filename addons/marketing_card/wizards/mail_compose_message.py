@@ -263,6 +263,11 @@ class MailComposeMessage(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    # in a mailing these are the same
+                    mail_values['body'] = body
+>>>>>>> upstream/18.0
 =======
                     # in a mailing these are the same
                     mail_values['body'] = body
@@ -1452,7 +1457,10 @@ class MailComposeMessage(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2167,6 +2175,9 @@ class MailComposeMessage(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

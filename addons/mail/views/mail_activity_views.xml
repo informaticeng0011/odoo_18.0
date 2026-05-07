@@ -309,7 +309,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -818,6 +821,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1620,7 +1626,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <field name="context">{
+=======
+        <!-- ensure pagination works even if _search removes records after fetching -->
+        <field name="context">{
+            'force_search_count': 1,
+>>>>>>> upstream/18.0
 =======
         <!-- ensure pagination works even if _search removes records after fetching -->
         <field name="context">{

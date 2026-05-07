@@ -5,12 +5,15 @@ class Picking(models.Model):
     _inherit = 'stock.picking'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('batch_id', 'company_id')
     def _compute_l10n_ro_edi_stock_enable(self):
         # OVERRIDES 'l10n_ro_edi_stock'
         for picking in self:
             picking.l10n_ro_edi_stock_enable = not picking.batch_id and picking.company_id.country_id.code == 'RO'
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('batch_id', 'company_id', 'picking_type_code')
     def _compute_l10n_ro_edi_stock_enable(self):
         # OVERRIDES 'l10n_ro_edi_stock'
@@ -20,6 +23,9 @@ class Picking(models.Model):
                 and picking.picking_type_code != 'internal'
                 and picking.company_id.country_id.code == 'RO'
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @api.model

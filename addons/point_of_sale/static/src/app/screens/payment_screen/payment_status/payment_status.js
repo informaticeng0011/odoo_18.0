@@ -7,7 +7,11 @@ export class PaymentScreenStatus extends Component {
     };
 
     get changeText() {
+<<<<<<< HEAD
         return this.env.utils.formatCurrency(this.props.order.get_change());
+=======
+        return this.env.utils.formatCurrency(-this.props.order.get_change());
+>>>>>>> upstream/18.0
     }
     get remainingText() {
         const { order_has_zero_remaining, order_remaining, order_sign } =

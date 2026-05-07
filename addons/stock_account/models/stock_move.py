@@ -310,9 +310,15 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return {lot: lot.standard_price or self.product_id.standard_price for lot in self.lot_ids}
             else:
                 return {self.env['stock.lot']: self.product_id.standard_price}
+=======
+                return {lot: lot.standard_price or self.product_id.with_company(self.company_id).standard_price for lot in self.lot_ids}
+            else:
+                return {self.env['stock.lot']: self.product_id.with_company(self.company_id).standard_price}
+>>>>>>> upstream/18.0
 =======
                 return {lot: lot.standard_price or self.product_id.with_company(self.company_id).standard_price for lot in self.lot_ids}
             else:
@@ -1977,9 +1983,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantities[line.lot_id] += line.product_uom_id._compute_quantity(
                         line.quantity, move.product_id.uom_id
                     )
+=======
+                    quantities[line.lot_id] += line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantities[line.lot_id] += line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -3279,9 +3289,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantities[line.lot_id] += line.product_uom_id._compute_quantity(
                         line.quantity, move.product_id.uom_id
                     )
+=======
+                    quantities[line.lot_id] += line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantities[line.lot_id] += line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -4629,7 +4643,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated)._product_price_update_after_done()
+=======
+        valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated).sudo()._product_price_update_after_done()
+>>>>>>> upstream/18.0
 =======
         valued_moves['out'].filtered(lambda m: m.product_id.lot_valuated).sudo()._product_price_update_after_done()
 >>>>>>> upstream/18.0
@@ -5952,7 +5970,11 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantity_by_lot[valued_move_line.lot_id] += valued_move_line.product_uom_id._compute_quantity(valued_move_line.quantity, move.product_id.uom_id)
+=======
+                    quantity_by_lot[valued_move_line.lot_id] += valued_move_line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantity_by_lot[valued_move_line.lot_id] += valued_move_line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -7296,9 +7318,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     quantities[line.lot_id] += line.product_uom_id._compute_quantity(
                         line.quantity, move.product_id.uom_id
                     )
+=======
+                    quantities[line.lot_id] += line.quantity_product_uom
+>>>>>>> upstream/18.0
 =======
                     quantities[line.lot_id] += line.quantity_product_uom
 >>>>>>> upstream/18.0
@@ -8319,7 +8345,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8505,6 +8534,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8857,6 +8889,7 @@ class StockMove(models.Model):
                 cost = -1 * cost
                 anglosaxon_am_vals = self.with_company(self.company_id)._prepare_account_move_vals(acc_valuation, acc_dest, journal_id, qty, description, svl_id, cost)
         elif self._is_dropshipped_returned():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9808,6 +9841,9 @@ class StockMove(models.Model):
 =======
             if cost > 0:
 >>>>>>> upstream/18.0
+=======
+            if cost > 0:
+>>>>>>> upstream/18.0
                 anglosaxon_am_vals = self.with_company(self.company_id).with_context(is_returned=True)._prepare_account_move_vals(acc_dest, acc_valuation, journal_id, qty, description, svl_id, cost)
             else:
                 cost = -1 * cost
@@ -9846,10 +9882,13 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return self.location_id and self.location_id.usage == 'customer'   # goods returned from customer
         if valued_type == 'out':
             return self.location_dest_id and self.location_dest_id.usage == 'supplier'   # goods returned to supplier
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9924,6 +9963,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10238,7 +10280,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11047,6 +11092,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11487,6 +11533,8 @@ class StockMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11643,6 +11691,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

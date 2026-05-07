@@ -244,7 +244,11 @@ registerWebsitePreviewTour('shop_customize', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .product_price .oe_price .oe_currency_value:contains(/^750.00$/)",
+=======
+            trigger: ":iframe .product_price .oe_price .oe_currency_value:text(750.00)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .product_price .oe_price .oe_currency_value:text(750.00)",
 >>>>>>> upstream/18.0
@@ -973,7 +977,11 @@ registerWebsitePreviewTour('shop_customize', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .product_price .oe_price .oe_currency_value:contains(/^800.40$/)",
+=======
+            trigger: ":iframe .product_price .oe_price .oe_currency_value:text(800.40)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .product_price .oe_price .oe_currency_value:text(800.40)",
 >>>>>>> upstream/18.0
@@ -1721,7 +1729,11 @@ registerWebsitePreviewTour('shop_customize', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .product_price .oe_price .oe_currency_value:contains(/^750.00$/)",
+=======
+            trigger: ":iframe .product_price .oe_price .oe_currency_value:text(750.00)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .product_price .oe_price .oe_currency_value:text(750.00)",
 >>>>>>> upstream/18.0
@@ -2450,7 +2462,11 @@ registerWebsitePreviewTour('shop_customize', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .product_price .oe_price .oe_currency_value:contains(/^800.40$/)",
+=======
+            trigger: ":iframe .product_price .oe_price .oe_currency_value:text(800.40)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .product_price .oe_price .oe_currency_value:text(800.40)",
 >>>>>>> upstream/18.0
@@ -3179,7 +3195,11 @@ registerWebsitePreviewTour('shop_customize', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .product_price .oe_price .oe_currency_value:contains(/^750.00$/)",
+=======
+            trigger: ":iframe .product_price .oe_price .oe_currency_value:text(750.00)",
+>>>>>>> upstream/18.0
 =======
             trigger: ":iframe .product_price .oe_price .oe_currency_value:text(750.00)",
 >>>>>>> upstream/18.0
@@ -3908,6 +3928,7 @@ registerWebsitePreviewTour('shop_customize', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: ":iframe .my_cart_quantity:contains(/^1$/),.o_extra_menu_items .fa-plus",
         },
 <<<<<<< HEAD
@@ -4205,6 +4226,11 @@ registerWebsitePreviewTour('shop_customize', {
         goToCart({ backend: true, expectUnloadPage: false }),
 >>>>>>> upstream/18.0
 =======
+        goToCart({ backend: true, expectUnloadPage: false }),
+>>>>>>> upstream/18.0
+=======
+            trigger: ":iframe .my_cart_quantity:text(1),.o_extra_menu_items .fa-plus",
+        },
         goToCart({ backend: true, expectUnloadPage: false }),
 >>>>>>> upstream/18.0
 =======

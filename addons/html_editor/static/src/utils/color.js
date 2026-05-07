@@ -190,6 +190,10 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { isElement } from "./dom_info";
+>>>>>>> upstream/18.0
 =======
 import { isElement } from "./dom_info";
 >>>>>>> upstream/18.0
@@ -778,6 +782,11 @@ export const COLOR_PALETTE_COMPATIBILITY_COLOR_NAMES = [
     "danger",
 ];
 
+<<<<<<< HEAD
+=======
+export const RGBA_OPACITY = 0.6;
+
+>>>>>>> upstream/18.0
 /**
  * Colors of the default palette, used for substitution in shapes/illustrations.
  * key: number of the color in the palette (ie, o-color-<1-5>)
@@ -987,6 +996,7 @@ export function isColorGradient(value) {
     return value && value.includes("-gradient(");
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1793,6 +1803,8 @@ export const BG_CLASSES_REGEX = /\bbg-[^\s]*\b/;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 export const TEXT_CLASSES_REGEX =
     /\btext-(primary|secondary|success|danger|warning|info|light|dark|body|muted|white|black|reset|gradient|opacity-\d{1,3}|o-[^\s]+|\d+)\b/;
 export const BG_CLASSES_REGEX = /\bbg-[^\s]*\b/;
@@ -2008,6 +2020,9 @@ export function hasTextColorClass(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2590,6 +2605,7 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const classRegex = mode === "color" ? TEXT_CLASSES_REGEX : BG_CLASSES_REGEX;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2638,6 +2654,8 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3350,6 +3368,9 @@ export function hasColor(element, mode) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3838,6 +3859,7 @@ export function hasColor(element, mode) {
         (style[mode] &&
             style[mode] !== "inherit" &&
             (!parent || style[mode] !== parent.style[mode])) ||
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4604,6 +4626,9 @@ export function hasColor(element, mode) {
 =======
         hasTextColorClass(element, mode)
 >>>>>>> upstream/18.0
+=======
+        hasTextColorClass(element, mode)
+>>>>>>> upstream/18.0
     );
 }
 
@@ -4623,3 +4648,30 @@ export function hasAnyNodesColor(nodes, mode) {
     }
     return false;
 }
+<<<<<<< HEAD
+=======
+
+export function computeBackgroundColorForElement(el) {
+    const elStyle = getComputedStyle(el);
+    const backgroundImage = elStyle.backgroundImage;
+    const hasGradient = isColorGradient(backgroundImage);
+    const hasTextGradientClass = el.classList.contains("text-gradient");
+
+    let backgroundColor = elStyle.backgroundColor;
+    const activeTab = document
+        .querySelector(".o_font_color_selector button.active")
+        ?.innerHTML.trim();
+    if (backgroundColor.startsWith("rgba") && activeTab === "Solid") {
+        // Buttons in the solid tab of color selector have no
+        // opacity, hence to match selected color correctly,
+        // we need to remove applied 0.6 opacity.
+        const values = backgroundColor.match(RGBA_REGEX) || [];
+        const alpha = parseFloat(values.pop()); // Extract alpha value
+        if (alpha === RGBA_OPACITY) {
+            backgroundColor = `rgb(${values.slice(0, 3).join(", ")})`; // Remove alpha
+        }
+    }
+
+    return hasGradient && !hasTextGradientClass ? backgroundImage : rgbaToHex(backgroundColor);
+}
+>>>>>>> upstream/18.0

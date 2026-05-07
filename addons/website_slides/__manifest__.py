@@ -73,6 +73,10 @@ Featuring
     'assets': {
         'web.assets_backend': [
             'website_slides/static/src/activity/**/*',
+<<<<<<< HEAD
+=======
+            'website_slides/static/src/core/**/*',
+>>>>>>> upstream/18.0
             'website_slides/static/src/slide_category_one2many_field.js',
             'website_slides/static/src/slide_category_list_renderer.js',
             'website_slides/static/src/scss/slide_views.scss',
@@ -484,6 +488,7 @@ Featuring
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'portal.assets_chatter': [
             'website_slides/static/src/chatter/frontend/**/*',
@@ -1902,6 +1907,20 @@ Featuring
 =======
         'portal.assets_chatter': [
             'website_slides/static/src/chatter/frontend/**/*',
+        ],
+>>>>>>> upstream/18.0
+=======
+        "im_livechat.assets_embed_core": [
+            "website_slides/static/src/core/common/**/*",
+        ],
+        "mail.assets_public": [
+            "website_slides/static/src/core/common/**/*",
+        ],
+        'portal.assets_chatter': [
+            'website_slides/static/src/chatter/frontend/**/*',
+        ],
+        "portal.assets_chatter_helpers": [
+            "website_slides/static/src/core/common/**/*",
         ],
 >>>>>>> upstream/18.0
     },

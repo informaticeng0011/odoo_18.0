@@ -15,6 +15,10 @@ export class PdfViewerField extends Component {
     static props = {
         ...standardFieldProps,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        fileNameField: { type: String, optional: true },
+>>>>>>> upstream/18.0
 =======
         fileNameField: { type: String, optional: true },
 >>>>>>> upstream/18.0
@@ -50,9 +54,12 @@ export class PdfViewerField extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     update({ data }) {
         const changes = { [this.props.name]: data || false };
 =======
+=======
+>>>>>>> upstream/18.0
     update({ name, data }) {
         const changes = {
             [this.props.name]: data || false,
@@ -60,6 +67,9 @@ export class PdfViewerField extends Component {
         if (this.props.fileNameField && this.props.record.data[this.props.fileNameField] !== name) {
             changes[this.props.fileNameField] = name || false;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return this.props.record.update(changes);
     }
@@ -70,15 +80,21 @@ export class PdfViewerField extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     onFileUploaded({ data, objectUrl }) {
         this.state.isValid = true;
         this.state.objectUrl = objectUrl;
         this.update({ data });
 =======
+=======
+>>>>>>> upstream/18.0
     onFileUploaded({ name, data, objectUrl }) {
         this.state.isValid = true;
         this.state.objectUrl = objectUrl;
         this.update({ name, data });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     }
 
@@ -103,6 +119,10 @@ export const pdfViewerField = {
     ],
     supportedTypes: ["binary"],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    extractProps: ({ attrs }) => ({ fileNameField: attrs.filename }),
+>>>>>>> upstream/18.0
 =======
     extractProps: ({ attrs }) => ({ fileNameField: attrs.filename }),
 >>>>>>> upstream/18.0

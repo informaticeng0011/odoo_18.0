@@ -191,7 +191,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'name': 'France - Factur-X integration with Chorus Pro',
+=======
+    'name': 'France - Peppol integration with Chorus Pro',
+>>>>>>> upstream/18.0
 =======
     'name': 'France - Peppol integration with Chorus Pro',
 >>>>>>> upstream/18.0
@@ -884,6 +888,10 @@ Add support to fill three optional fields used when using Chorus Pro, especially
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'views/report_invoice.xml',
+>>>>>>> upstream/18.0
 =======
         'views/report_invoice.xml',
 >>>>>>> upstream/18.0
