@@ -70,6 +70,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -795,6 +796,8 @@ import { browser } from "@web/core/browser/browser";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     animationFrame,
     beforeEach,
@@ -878,6 +881,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1286,6 +1292,9 @@ import { deleteBackward, insertText, splitTripleClick, undo } from "../_helpers/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1955,7 +1964,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should do nothing", async () => {
+=======
+        test("should do nothing (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should do nothing (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2521,7 +2534,10 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2943,6 +2959,9 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3393,7 +3412,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete the last character in a paragraph", async () => {
+=======
+        test("should delete the last character in a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete the last character in a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -3955,6 +3978,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete the last character in a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -4822,7 +4851,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should keep inline block", async () => {
+=======
+        test("should keep inline block (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should keep inline block (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5386,6 +5419,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should keep inline block (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -6227,6 +6266,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should keep inline block (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -7071,6 +7116,10 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -7665,7 +7714,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("ZWS: should delete element content but keep cursor in", async () => {
+=======
+        test("ZWS: should delete element content but keep cursor in (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("ZWS: should delete element content but keep cursor in (1)", async () => {
 >>>>>>> upstream/18.0
@@ -8231,6 +8284,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("ZWS: should delete element content but keep cursor in (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -9074,6 +9133,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("ZWS: should delete element content but keep cursor in (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -9918,6 +9983,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("ZWS: should delete element content but keep cursor in (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -10774,6 +10845,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should ignore ZWS and merge (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -11617,6 +11694,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should ignore ZWS and merge (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -12462,7 +12545,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should ignore ZWS and merge (2)", async () => {
+=======
+        test("should ignore ZWS and merge (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should ignore ZWS and merge (4)", async () => {
 >>>>>>> upstream/18.0
@@ -13024,6 +13111,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should ignore ZWS and merge (5)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -13868,7 +13961,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should not remove empty Bootstrap column", async () => {
+=======
+        test("should not remove empty Bootstrap column (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should not remove empty Bootstrap column (1)", async () => {
 >>>>>>> upstream/18.0
@@ -14434,6 +14531,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should not remove empty Bootstrap column (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -15277,6 +15380,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should not remove empty Bootstrap column (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -16122,7 +16231,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge the following inline text node", async () => {
+=======
+        test("should merge the following inline text node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge the following inline text node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -16684,6 +16797,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge the following inline text node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -17525,7 +17644,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge paragraphs", async () => {
+=======
+        test("should merge paragraphs (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge paragraphs (1)", async () => {
 >>>>>>> upstream/18.0
@@ -18087,6 +18210,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge paragraphs (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -19131,7 +19260,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete a leading line break", async () => {
+=======
+            test("should delete a leading line break (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete a leading line break (1)", async () => {
 >>>>>>> upstream/18.0
@@ -19693,6 +19826,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a leading line break (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -20536,7 +20675,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete a line break within a paragraph", async () => {
+=======
+            test("should delete a line break within a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete a line break within a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -21098,6 +21241,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a line break within a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -21937,6 +22086,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a line break within a paragraph (3)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -22780,7 +22935,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete a trailing line break", async () => {
+=======
+            test("should delete a trailing line break (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete a trailing line break (1)", async () => {
 >>>>>>> upstream/18.0
@@ -23342,6 +23501,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a trailing line break (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -24181,6 +24346,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should delete a trailing line break (3)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -25109,7 +25280,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete a line break when several", async () => {
+=======
+            test("should delete a line break when several (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete a line break when several (1)", async () => {
 >>>>>>> upstream/18.0
@@ -25673,6 +25848,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should delete a line break when several (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should delete a line break when several (2)", async () => {
@@ -26377,7 +26557,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete two line breaks", async () => {
+=======
+            test("should delete two line breaks (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete two line breaks (1)", async () => {
 >>>>>>> upstream/18.0
@@ -26944,6 +27128,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should delete two line breaks (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should delete two line breaks (2)", async () => {
@@ -27651,7 +27840,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete three line breaks (emptying a paragraph)", async () => {
+=======
+            test("should delete three line breaks (emptying a paragraph) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete three line breaks (emptying a paragraph) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -28218,6 +28411,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should delete three line breaks (emptying a paragraph) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should delete three line breaks (emptying a paragraph) (2)", async () => {
@@ -28926,7 +29124,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should delete three line breaks, then merge an empty parargaph into a paragraph with text", async () => {
+=======
+            test("should delete three line breaks, then merge an empty parargaph into a paragraph with text (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should delete three line breaks, then merge an empty parargaph into a paragraph with text (1)", async () => {
 >>>>>>> upstream/18.0
@@ -29495,6 +29697,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+            test("should delete three line breaks, then merge an empty parargaph into a paragraph with text (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
             test("should delete three line breaks, then merge an empty parargaph into a paragraph with text (2)", async () => {
@@ -30347,7 +30554,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete a character before a format node", async () => {
+=======
+        test("should delete a character before a format node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete a character before a format node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -30911,6 +31122,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete a character before a format node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -31812,7 +32029,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge an empty paragraph into a heading1 with text", async () => {
+=======
+        test("should merge an empty paragraph into a heading1 with text (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge an empty paragraph into a heading1 with text (1)", async () => {
 >>>>>>> upstream/18.0
@@ -32374,6 +32595,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge an empty paragraph into a heading1 with text (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -33223,7 +33450,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge a text preceding a paragraph (removing the paragraph)", async () => {
+=======
+        test("should merge a text preceding a paragraph (removing the paragraph) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge a text preceding a paragraph (removing the paragraph) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -33785,6 +34016,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a text preceding a paragraph (removing the paragraph) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -34799,7 +35036,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete a one letter word followed by visible space (start of block)", async () => {
+=======
+        test("should delete a one letter word followed by visible space (start of block) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete a one letter word followed by visible space (start of block) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -35361,6 +35602,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete a one letter word followed by visible space (start of block) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -36202,7 +36449,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete a one letter word surrounded by visible space", async () => {
+=======
+        test("should delete a one letter word surrounded by visible space (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete a one letter word surrounded by visible space (1)", async () => {
 >>>>>>> upstream/18.0
@@ -36764,6 +37015,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete a one letter word surrounded by visible space (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -37605,7 +37862,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should delete a one letter word preceded by visible space (end of block)", async () => {
+=======
+        test("should delete a one letter word preceded by visible space (end of block) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should delete a one letter word preceded by visible space (end of block) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -38167,6 +38428,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should delete a one letter word preceded by visible space (end of block) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -39016,7 +39283,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should fill empty block with a <br>", async () => {
+=======
+        test("should fill empty block with a <br> (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should fill empty block with a <br> (1)", async () => {
 >>>>>>> upstream/18.0
@@ -39578,6 +39849,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should fill empty block with a <br> (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -40419,7 +40696,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge a paragraph with text into a paragraph with text removing spaces", async () => {
+=======
+        test("should merge a paragraph with text into a paragraph with text removing spaces (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge a paragraph with text into a paragraph with text removing spaces (1)", async () => {
 >>>>>>> upstream/18.0
@@ -40985,6 +41266,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should merge a paragraph with text into a paragraph with text removing spaces (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -41830,7 +42117,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should remove a br and remove following spaces", async () => {
+=======
+        test("should remove a br and remove following spaces (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should remove a br and remove following spaces (1)", async () => {
 >>>>>>> upstream/18.0
@@ -42392,6 +42683,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should remove a br and remove following spaces (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should remove a br and remove following spaces (2)", async () => {
@@ -43102,7 +43398,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should merge in nested paragraphs and remove invisible inline content", async () => {
+=======
+        test("should merge in nested paragraphs and remove invisible inline content (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should merge in nested paragraphs and remove invisible inline content (1)", async () => {
 >>>>>>> upstream/18.0
@@ -43665,6 +43965,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should merge in nested paragraphs and remove invisible inline content (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should merge in nested paragraphs and remove invisible inline content (2)", async () => {
@@ -44368,7 +44673,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should not merge in nested blocks if inline content afterwards", async () => {
+=======
+        test("should not merge in nested blocks if inline content afterwards (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should not merge in nested blocks if inline content afterwards (1)", async () => {
 >>>>>>> upstream/18.0
@@ -44932,6 +45241,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+        test("should not merge in nested blocks if inline content afterwards (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
         test("should not merge in nested blocks if inline content afterwards (2)", async () => {
@@ -45716,7 +46030,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("ZWS : should keep inline block", async () => {
+=======
+    test("ZWS : should keep inline block (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("ZWS : should keep inline block (1)", async () => {
 >>>>>>> upstream/18.0
@@ -46282,6 +46600,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("ZWS : should keep inline block (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -47125,6 +47449,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("ZWS : should keep inline block (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -47968,6 +48298,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("ZWS : should keep inline block (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -48811,6 +49147,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("ZWS : should keep inline block (5)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -49692,7 +50034,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete across two paragraphs", async () => {
+=======
+    test("should delete across two paragraphs (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete across two paragraphs (1)", async () => {
 >>>>>>> upstream/18.0
@@ -50255,6 +50601,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete across two paragraphs (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -51112,7 +51464,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete all the text in a paragraph", async () => {
+=======
+    test("should delete all the text in a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete all the text in a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -51675,6 +52031,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete all the text in a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -52517,7 +52879,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete a complex selection accross format nodes and multiple paragraphs", async () => {
+=======
+    test("should delete a complex selection accross format nodes and multiple paragraphs (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete a complex selection accross format nodes and multiple paragraphs (1)", async () => {
 >>>>>>> upstream/18.0
@@ -53080,7 +53446,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53499,6 +53868,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53920,6 +54292,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a complex selection accross format nodes and multiple paragraphs (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -54760,7 +55138,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55179,6 +55560,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55602,7 +55986,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56036,7 +56423,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete a selection accross a heading1 and a paragraph", async () => {
+=======
+    test("should delete a selection accross a heading1 and a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete a selection accross a heading1 and a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -56599,6 +56990,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection accross a heading1 and a paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -57441,7 +57838,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph", async () => {
+=======
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph (1)", async () => {
 >>>>>>> upstream/18.0
@@ -58004,7 +58405,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58423,6 +58827,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58844,6 +59251,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete a selection from the beginning of a heading1 with a format to the middle of a paragraph (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -59684,7 +60097,10 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60103,6 +60519,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60651,6 +61070,7 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
@@ -60664,6 +61084,8 @@ describe("Selection not collapsed", () => {
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61457,6 +61879,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62252,12 +62677,15 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tripleClick(el.querySelector("h1"));
         await microTick();
         // Chrome puts the cursor at the start of next sibling
         expect(getContent(el)).toBe("<h1>[abc</h1><p>]<br></p><p>def</p>");
         await tick();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63045,6 +63473,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63715,7 +64146,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete last character of paragraph and merge the two p elements", async () => {
+=======
+    test("should delete last character of paragraph and merge the two p elements (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete last character of paragraph and merge the two p elements (1)", async () => {
 >>>>>>> upstream/18.0
@@ -64277,6 +64712,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete last character of paragraph and merge the two p elements (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -65056,6 +65497,7 @@ describe("Selection not collapsed", () => {
             stepFunction: deleteBackward,
             contentAfter: unformat(
                 `<table><tbody>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66303,6 +66745,10 @@ describe("Selection not collapsed", () => {
                         <tr><td>cd</td><td><p>[]<br></p></td><td>gh</td></tr>
                         <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>
 >>>>>>> upstream/18.0
+=======
+                        <tr><td>cd</td><td><p>[]<br></p></td><td>gh</td></tr>
+                        <tr><td>ij</td><td><p><br></p></td><td>mn</td></tr>
+>>>>>>> upstream/18.0
                         <tr><td>op</td><td>qr</td><td>st</td></tr>
                     </tbody></table>`
             ),
@@ -66404,7 +66850,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <tr><td>[]ef</td><td>gh</td></tr>
+=======
+                    <tr><td>ef[]</td><td>gh</td></tr>
+>>>>>>> upstream/18.0
 =======
                     <tr><td>ef[]</td><td>gh</td></tr>
 >>>>>>> upstream/18.0
@@ -66757,7 +67207,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <tr><td>[]cd</td></tr>
+=======
+                    <tr><td>cd[]</td></tr>
+>>>>>>> upstream/18.0
 =======
                     <tr><td>cd[]</td></tr>
 >>>>>>> upstream/18.0
@@ -67146,6 +67600,7 @@ describe("Selection not collapsed", () => {
                     <tr><td><br></td><td>]<br></td></tr>
                 </tbody></table>`
             ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67866,6 +68321,8 @@ describe("Selection not collapsed", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBeforeEdit: unformat(
                 `[<table class="o_selected_table"><tbody>
                     <tr><td class="o_selected_td"><br></td><td class="o_selected_td"><br></td></tr>
@@ -68111,6 +68568,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68761,6 +69221,7 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete if first element and append in paragraph", async () => {
         await testEditor({
             contentBefore: `<blockquote><br>[]</blockquote>`,
@@ -68818,6 +69279,9 @@ describe("Selection not collapsed", () => {
 =======
 >>>>>>> upstream/18.0
     test("should convert empty blockquote into base container regardless of its position in editable", async () => {
+=======
+    test("should convert empty blockquote into base container regardless of its position in editable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should convert empty blockquote into base container regardless of its position in editable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -69380,6 +69844,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should convert empty blockquote into base container regardless of its position in editable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -70222,6 +70692,7 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete if first element and append in paragraph", async () => {
         await testEditor({
 <<<<<<< HEAD
@@ -70794,6 +71265,8 @@ describe("Selection not collapsed", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     test("should not remove blockquote when it contains content on Backspace", async () => {
         await testEditor({
             contentBefore: `<blockquote><img>[]</blockquote>`,
@@ -70832,6 +71305,9 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71032,6 +71508,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete if first element and append in paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -71873,7 +72355,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not delete the block and appends a paragraph if the element has textContent ", async () => {
+=======
+    test("should not delete the block and appends a paragraph if the element has textContent (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not delete the block and appends a paragraph if the element has textContent (1)", async () => {
 >>>>>>> upstream/18.0
@@ -72435,6 +72921,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not delete the block and appends a paragraph if the element has textContent (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -73274,6 +73766,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not delete the block and appends a paragraph if the element has textContent (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -74205,12 +74703,16 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         beforeEach(() => {
             patchWithCleanup(browser.navigator, {
                 userAgent:
                     "Mozilla/5.0 (Linux; Android 10; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Mobile Safari/537.36",
             });
         });
+=======
+        beforeEach(() => mockUserAgent("android"));
+>>>>>>> upstream/18.0
 =======
         beforeEach(() => mockUserAgent("android"));
 >>>>>>> upstream/18.0

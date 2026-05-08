@@ -115,6 +115,7 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 SELECT row_number() over(ORDER BY leaves.employee_id) as id,
                 leaves.employee_id as employee_id,
                 leaves.active_employee as active_employee,
@@ -348,6 +349,8 @@ class LeaveReport(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 WITH
                 /* Validated leaves */
                 validated_leaves as (
@@ -362,6 +365,7 @@ class LeaveReport(models.Model):
                     WHERE l.state IN ('validate', 'validate1')
                 ),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -484,12 +488,17 @@ class LeaveReport(models.Model):
                 /* Base allocations with overlap group detection */
                 base_allocations as (
 >>>>>>> upstream/18.0
+=======
+                /* Base allocations with overlap group detection */
+                base_allocations as (
+>>>>>>> upstream/18.0
                     SELECT
 						allocation.id as allocation_id,
 						allocation.employee_id as employee_id,
 						employee.active as active_employee,
 						allocation.number_of_days as number_of_days,
 						allocation.number_of_hours_display as number_of_hours,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -631,11 +640,15 @@ class LeaveReport(models.Model):
 =======
 						employee.department_id as department_id,
 >>>>>>> upstream/18.0
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 						allocation.holiday_status_id as leave_type,
 						allocation.state as state,
 						allocation.date_from as date_from,
 						allocation.date_to as date_to,
 						allocation.employee_company_id as company_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -721,6 +734,8 @@ class LeaveReport(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 						CASE
 							WHEN allocation.date_from > MAX(COALESCE(allocation.date_to, 'infinity'::date)) OVER (
 								PARTITION BY allocation.employee_id, allocation.holiday_status_id
@@ -753,6 +768,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -829,7 +847,10 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -942,6 +963,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1065,8 +1089,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         AND vl.date_to   >= oa.date_from
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1264,6 +1291,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1466,8 +1496,13 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						fb.date_from as date_from,
 						fb.date_to as date_to,
+=======
+						fb.date_from::timestamp + interval '12 hours' as date_from,
+						fb.date_to::timestamp + interval '12 hours' as date_to,
+>>>>>>> upstream/18.0
 =======
 						fb.date_from::timestamp + interval '12 hours' as date_from,
 						fb.date_to::timestamp + interval '12 hours' as date_to,
@@ -1610,7 +1645,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						request.department_id as department_id,
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 =======
 						employee.department_id as department_id,
 >>>>>>> upstream/18.0
@@ -1806,6 +1845,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

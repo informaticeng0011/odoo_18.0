@@ -404,6 +404,12 @@ class TestCreateEvents(TestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Set user's microsoft_last_sync_date to now() to capture the event with the domain in
+        # _extend_microsoft_domain.
+        self.organizer_user.microsoft_last_sync_date = fields.datetime.now()
+>>>>>>> upstream/18.0
 =======
         # Set user's microsoft_last_sync_date to now() to capture the event with the domain in
         # _extend_microsoft_domain.
@@ -981,6 +987,7 @@ class TestCreateEvents(TestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Ensure that the calendar synchronization of user A is active. Deactivate user B synchronization.
         self.assertTrue(self.env['calendar.event'].with_user(self.organizer_user)._check_microsoft_sync_status())
         self.attendee_user.microsoft_synchronization_stopped = True
@@ -995,6 +1002,8 @@ class TestCreateEvents(TestCommon):
         event.with_user(self.organizer_user).sudo()._sync_odoo2microsoft()
         mock_insert.assert_not_called()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1917,6 +1926,9 @@ class TestCreateEvents(TestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2641,7 +2653,10 @@ class TestCreateEvents(TestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2688,9 +2703,17 @@ class TestCreateEvents(TestCommon):
             'stop': '2020-05-09 15:00',
         }
 
+<<<<<<< HEAD
         # set microsoft_last_sync_date for the user at t=-12h.
         with freeze_time(t_minus_12h), patch.object(User, '_get_microsoft_calendar_token', _mock_calendar_token):
             self.organizer_user.with_user(self.organizer_user).restart_microsoft_synchronization()
+=======
+        # set microsoft_last_sync_date for the user at t=-12h and sync any irrelevant event
+        with self.mock_datetime_and_now(t_minus_12h), patch.object(User, '_get_microsoft_calendar_token', _mock_calendar_token):
+            self.organizer_user.with_user(self.organizer_user).restart_microsoft_synchronization()
+            # also force set first sync far in the past as it affects the domain and we don't care to take it into account here
+            self.env['ir.config_parameter'].sudo().set_param('microsoft_calendar.sync.first_synchronization_date', t_minus_12h - timedelta(days=5))
+>>>>>>> upstream/18.0
         self.env.cr.postcommit.clear()
 
         # users without sync create events at last sync, 1 hour later, and 12 hours later
@@ -2698,9 +2721,18 @@ class TestCreateEvents(TestCommon):
         # if the user syncs after 12 hours, the event created 1 hour after the previous sync should sync too
         events = CalendarEvent
         for time, should_sync, expected_insert_count in zip([t_minus_12h, t_minus_11h, t_now], [True, False, True], [1, 1, 3]):
+<<<<<<< HEAD
             with freeze_time(time), patch.object(User, '_get_microsoft_calendar_token', _mock_calendar_token):
                 event = CalendarEvent.create(vals_list)
                 events |= event
+=======
+            # force reset it as syncing between loops will set it
+            self.organizer_user.microsoft_last_sync_date = t_minus_12h
+            with self.mock_datetime_and_now(time), patch.object(User, '_get_microsoft_calendar_token', _mock_calendar_token):
+                event = CalendarEvent.create(vals_list)
+                events |= event
+            with self.mock_datetime_and_now(t_now), patch.object(User, '_get_microsoft_calendar_token', _mock_calendar_token):
+>>>>>>> upstream/18.0
                 if should_sync:
                     # sudo() is for consistency, even though the case passes without it here.
                     self.organizer_user.with_user(self.organizer_user).sudo()._sync_microsoft_calendar()
@@ -2722,6 +2754,9 @@ class TestCreateEvents(TestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3087,7 +3122,10 @@ class TestSyncOdoo2MicrosoftMail(TestCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3949,6 +3987,9 @@ class TestSyncOdoo2MicrosoftMail(TestCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

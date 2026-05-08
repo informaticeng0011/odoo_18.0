@@ -84,7 +84,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_uom_qty': 10,
+=======
+                'product_qty': 10,
+>>>>>>> upstream/18.0
 =======
                 'product_qty': 10,
 >>>>>>> upstream/18.0
@@ -352,6 +356,7 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_picking.move_ids.quantity = 10
         in_picking.move_ids.picked = True
         in_picking.button_validate()
@@ -363,6 +368,8 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
         })
         default_vals.update({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -562,6 +569,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -761,8 +771,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stock_landed_cost = self.env['stock.landed.cost'].create(default_vals)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -969,11 +982,14 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(stock_landed_cost.state, "done")
 
         self.assertEqual(len(in_picking.move_ids.stock_valuation_layer_ids), 1)
         self.assertEqual(in_picking.move_ids.stock_valuation_layer_ids.value, 99)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1172,6 +1188,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1369,7 +1388,11 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'product_uom_qty': 10,
+=======
+                'product_qty': 10,
+>>>>>>> upstream/18.0
 =======
                 'product_qty': 10,
 >>>>>>> upstream/18.0
@@ -1648,7 +1671,10 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_picking.move_ids.quantity = 10
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1871,7 +1897,10 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2126,6 +2155,9 @@ class TestSubcontractingLandedCosts(TestMrpSubcontractingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

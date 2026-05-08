@@ -144,7 +144,11 @@ partnerCompareRegistry.add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     { sequence: 45 }
+=======
+    { sequence: 25 }
+>>>>>>> upstream/18.0
 =======
     { sequence: 25 }
 >>>>>>> upstream/18.0
@@ -436,6 +440,7 @@ partnerCompareRegistry.add(
         const cleanedEmail2 = cleanTerm(p2.email);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (cleanedEmail1.startsWith(searchTerm) && !cleanedEmail1.startsWith(searchTerm)) {
             return -1;
         }
@@ -443,11 +448,16 @@ partnerCompareRegistry.add(
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (cleanedEmail1.startsWith(searchTerm) && !cleanedEmail2.startsWith(searchTerm)) {
             return -1;
         }
         if (!cleanedEmail1.startsWith(searchTerm) && cleanedEmail2.startsWith(searchTerm)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

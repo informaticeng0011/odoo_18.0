@@ -67,6 +67,10 @@ export class NavBar extends Component {
             isAllAppsMenuOpened: false,
             isAppMenuSidebarOpened: false,
         });
+<<<<<<< HEAD
+=======
+        this.ui = useState(useService("ui"));
+>>>>>>> upstream/18.0
     }
 
     handleItemError(error, item) {

@@ -643,7 +643,11 @@ registry.category("web_tour.tours").add("test_cash_rounding_with_change", {
             PaymentScreen.clickNumpad("2 0"),
             PaymentScreen.fillPaymentLineAmountMobile("Bank", "20.00"),
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.changeIs("4.30"),
+=======
+            PaymentScreen.changeIs("-4.30"),
+>>>>>>> upstream/18.0
 =======
             PaymentScreen.changeIs("-4.30"),
 >>>>>>> upstream/18.0
@@ -985,7 +989,10 @@ registry.category("web_tour.tours").add("test_cash_rounding_with_change", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1649,6 +1656,7 @@ registry.category("web_tour.tours").add("test_cash_rounding_up_with_change", {
             PaymentScreen.clickPaymentMethod("Cash"),
             PaymentScreen.clickNumpad("2 0 0"),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
             PaymentScreen.changeIs("21"),
         ].flat(),
@@ -2628,10 +2636,15 @@ registry.category("web_tour.tours").add("test_cash_rounding_up_with_change", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
             PaymentScreen.changeIs("-21"),
         ].flat(),
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 registry.category("web_tour.tours").add("test_cash_rounding_only_cash_method_with_change", {
     steps: () =>
@@ -2649,7 +2662,11 @@ registry.category("web_tour.tours").add("test_cash_rounding_only_cash_method_wit
             PaymentScreen.clickNumpad("+20"),
             PaymentScreen.fillPaymentLineAmountMobile("Cash", "20.00"),
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.changeIs("4.30"),
+=======
+            PaymentScreen.changeIs("-4.30"),
+>>>>>>> upstream/18.0
 =======
             PaymentScreen.changeIs("-4.30"),
 >>>>>>> upstream/18.0

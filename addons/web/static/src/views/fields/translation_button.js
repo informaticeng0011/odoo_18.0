@@ -1,6 +1,10 @@
 import { localization } from "@web/core/l10n/localization";
 import { useOwnedDialogs } from "@web/core/utils/hooks";
 import { user } from "@web/core/user";
+<<<<<<< HEAD
+=======
+import { Record } from "@web/model/relational_model/record";
+>>>>>>> upstream/18.0
 import { TranslationDialog } from "./translation_dialog";
 
 import { Component } from "@odoo/owl";
@@ -17,7 +21,13 @@ export function useTranslationDialog() {
     const addDialog = useOwnedDialogs();
 
     async function openTranslationDialog({ record, fieldName }) {
+<<<<<<< HEAD
         const saved = await record.save();
+=======
+        // in case of DynamicList list views model.root won't be a Record but a DynamicList itself
+        const saved =
+            record.model.root instanceof Record ? await record.model.root.save() : record.save();
+>>>>>>> upstream/18.0
         if (!saved) {
             return;
         }

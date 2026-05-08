@@ -305,6 +305,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if delay_payment_request := kwargs.get('flow') == 'token':
+            request.update_context(delay_payment_request=True)  # wait until after tx validation
+>>>>>>> upstream/18.0
 =======
         if delay_payment_request := kwargs.get('flow') == 'token':
             request.update_context(delay_payment_request=True)  # wait until after tx validation
@@ -1504,6 +1509,11 @@ class PaymentPortal(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if delay_payment_request:
+            tx_sudo._send_payment_request()
+>>>>>>> upstream/18.0
 =======
         if delay_payment_request:
             tx_sudo._send_payment_request()

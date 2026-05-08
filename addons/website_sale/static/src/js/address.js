@@ -188,6 +188,10 @@ import { debounce } from "@web/core/utils/timing";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 =======
 import { redirect } from '@web/core/utils/urls';
 >>>>>>> upstream/18.0
@@ -1114,7 +1118,11 @@ publicWidget.registry.websiteSaleAddress = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 window.location = result.redirectUrl;
+=======
+                redirect(result.redirectUrl);
+>>>>>>> upstream/18.0
 =======
                 redirect(result.redirectUrl);
 >>>>>>> upstream/18.0
@@ -1814,7 +1822,11 @@ publicWidget.registry.websiteSaleAddress = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     fieldName => this.addressForm[fieldName].classList.add('is-invalid')
+=======
+                    fieldName => this.addressForm[fieldName]?.classList.add('is-invalid')
+>>>>>>> upstream/18.0
 =======
                     fieldName => this.addressForm[fieldName]?.classList.add('is-invalid')
 >>>>>>> upstream/18.0

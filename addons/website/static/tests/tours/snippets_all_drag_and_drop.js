@@ -98,12 +98,18 @@ for (let snippet of snippetsNames) {
             run: "click",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     } else if (snippet.name === 's_dynamic_snippet_products') {
         snippetSteps.splice(2, 0, {
             content: 'Wait for dynamic snippet products to be loaded',
             trigger: ":iframe .s_dynamic_snippet_products .s_dynamic_snippet_row",
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     } else if (isModal) {
         snippetSteps.splice(

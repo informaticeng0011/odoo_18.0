@@ -74,6 +74,10 @@ Featuring
         'web.assets_backend': [
             'website_slides/static/src/activity/**/*',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website_slides/static/src/core/**/*',
+>>>>>>> upstream/18.0
 =======
             'website_slides/static/src/core/**/*',
 >>>>>>> upstream/18.0
@@ -489,6 +493,7 @@ Featuring
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'portal.assets_chatter': [
             'website_slides/static/src/chatter/frontend/**/*',
@@ -1910,6 +1915,8 @@ Featuring
         ],
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         "im_livechat.assets_embed_core": [
             "website_slides/static/src/core/common/**/*",
         ],
@@ -1922,6 +1929,9 @@ Featuring
         "portal.assets_chatter_helpers": [
             "website_slides/static/src/core/common/**/*",
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     'license': 'LGPL-3',

@@ -20,10 +20,13 @@ class Partner extends models.Model {
     document = fields.Binary({ string: "Binary" });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _records = [
         {
             document: "coucou==\n",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     document_name = fields.Char({ string: "Filename" });
@@ -32,6 +35,9 @@ class Partner extends models.Model {
             document: "coucou==\n",
             document_name: "test.pdf",
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92,7 +98,10 @@ test("PdfViewerField: upload rendering", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -123,6 +132,9 @@ test("PdfViewerField: upload also sets filename", async () => {
     await clickSave();
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

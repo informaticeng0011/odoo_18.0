@@ -176,12 +176,18 @@ export class PaymentStripe extends PaymentInterface {
                     line.transaction_id = captured_transaction_id;
                 } else {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     await this.captureAfterPayment(processPayment, line);
 =======
+=======
+>>>>>>> upstream/18.0
                     if (!(await this.captureAfterPayment(processPayment, line))) {
                         line.set_payment_status("retry");
                         return false;
                     }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 }
 
@@ -221,6 +227,12 @@ export class PaymentStripe extends PaymentInterface {
     async captureAfterPayment(processPayment, line) {
         const capturePayment = await this.capturePayment(processPayment.paymentIntent.id);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!capturePayment) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!capturePayment) {
             return false;
@@ -233,6 +245,7 @@ export class PaymentStripe extends PaymentInterface {
         }
         line.transaction_id = capturePayment.id;
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 
     async capturePayment(paymentIntentId) {
@@ -797,10 +810,15 @@ export class PaymentStripe extends PaymentInterface {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
         return true;
     }
 
     async capturePayment(paymentIntentId) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return this.capturePaymentStripe(paymentIntentId);
     }
@@ -993,6 +1011,9 @@ export class PaymentStripe extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1560,8 +1581,11 @@ export class PaymentStripe extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 [paymentIntentId]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2128,6 +2152,9 @@ export class PaymentStripe extends PaymentInterface {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

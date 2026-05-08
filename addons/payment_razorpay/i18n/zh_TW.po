@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_razorpay
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1121,6 +1122,9 @@
 =======
 # * payment_razorpay
 >>>>>>> upstream/18.0
+=======
+# * payment_razorpay
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -1249,6 +1253,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1457,6 +1462,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
@@ -1519,6 +1527,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2772,6 +2781,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-04-17 11:30+0000\n"
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
@@ -2795,6 +2806,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2959,6 +2973,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3169,6 +3184,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16.2\n"
@@ -3281,7 +3300,11 @@ msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "無法建立與 API 的連線。"
+=======
+msgstr "未能建立與 API 的連線。"
+>>>>>>> upstream/18.0
 =======
 msgstr "未能建立與 API 的連線。"
 >>>>>>> upstream/18.0
@@ -3378,7 +3401,11 @@ msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "沒有找到匹配參考 %s 的交易。"
+=======
+msgstr "找不到符合以下參考編號的交易：%s。"
+>>>>>>> upstream/18.0
 =======
 msgstr "找不到符合以下參考編號的交易：%s。"
 >>>>>>> upstream/18.0
@@ -3557,6 +3584,7 @@ msgstr "網絡鈎子秘密"
 #. odoo-python
 #: code:addons/payment_razorpay/models/payment_token.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4738,6 +4766,11 @@ msgstr "此付款方式不可用作支付超過 %(currency_symbol)s %(max_amount
 "this payment method"
 msgstr "此付款方式不可用作支付超過 %(currency_symbol)s %(max_amount)s 的金額"
 >>>>>>> upstream/18.0
+=======
+"You can not pay amounts greater than %(currency_symbol)s %(max_amount)s with "
+"this payment method"
+msgstr "此付款方式不可用作支付超過 %(currency_symbol)s %(max_amount)s 的金額"
+>>>>>>> upstream/18.0
 
 #. module: payment_razorpay
 #. odoo-python
@@ -4745,6 +4778,7 @@ msgstr "此付款方式不可用作支付超過 %(currency_symbol)s %(max_amount
 msgid ""
 "Your last payment with reference %s will soon be processed. Please wait up "
 "to 24 hours before trying again, or use another payment method."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5302,6 +5336,11 @@ msgstr "你上次的付款（參考編號為 %s）即將會處理。請等待最
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"你上次的付款（參考編號為 %s）即將會處理。請等待最多 24 小時後再嘗試，或使用其"
+"他付款方式。"
 >>>>>>> upstream/18.0
 =======
 msgstr ""

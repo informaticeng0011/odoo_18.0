@@ -218,8 +218,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product
 # 
+=======
+# * product
+#
+>>>>>>> upstream/18.0
 =======
 # * product
 #
@@ -1414,6 +1419,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Xavier, 2025
 # Jonatan Gk, 2025
 <<<<<<< HEAD
@@ -2302,10 +2308,13 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Harcogourmet, 2025
 # Jonatan Gk, 2025
 # Santiago Payà <santiagopim@gmail.com>, 2025
 # Noemi Pla, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3269,10 +3278,14 @@
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4863,6 +4876,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-02-14 09:12+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-02-14 09:12+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/product/"
 "ca/>\n"
@@ -4871,6 +4888,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5655,6 +5673,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -5902,6 +5923,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"\n"
+"Nota: els productes als quals no tens accés no es mostraran."
+>>>>>>> upstream/18.0
 =======
 "\n"
 "\n"
@@ -7106,6 +7133,7 @@ msgid "# Products"
 msgstr "# Productes"
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9723,6 +9751,11 @@ msgid ""
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+>>>>>>> upstream/18.0
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
 "fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
@@ -9938,6 +9971,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10356,6 +10392,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11134,6 +11171,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "%(item_name)s: end date (%(end_date)s) should be after start date (%"
 "(start_date)s)"
 msgstr ""
@@ -11345,6 +11384,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12001,7 +12043,11 @@ msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% %(discount_type)s en %(base)s %(extra)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% %(discount_type)s en %(base)s %(extra)s"
 >>>>>>> upstream/18.0
@@ -12959,7 +13005,11 @@ msgid "%(percentage)s %% discount on %(pricelist)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% de descompte en %(pricelist)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% de descompte en %(pricelist)s"
 >>>>>>> upstream/18.0
@@ -13917,7 +13967,11 @@ msgid "%(percentage)s %% discount on sales price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% de descompte en el preu de venda"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% de descompte en el preu de venda"
 >>>>>>> upstream/18.0
@@ -14897,7 +14951,11 @@ msgid "(e.g: product description, ebook, legal notice, ...)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(per exemple: descripció del producte, ebook, avís legal, etc.)."
+>>>>>>> upstream/18.0
 =======
 msgstr "(per exemple: descripció del producte, ebook, avís legal, etc.)."
 >>>>>>> upstream/18.0
@@ -15855,7 +15913,11 @@ msgid "+ %(amount)s extra fee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+ cost addicional de %(amount)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "+ cost addicional de %(amount)s"
 >>>>>>> upstream/18.0
@@ -16813,7 +16875,11 @@ msgid "- %(amount)s rebate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- %(amount)s de rebaixa"
+>>>>>>> upstream/18.0
 =======
 msgstr "- %(amount)s de rebaixa"
 >>>>>>> upstream/18.0
@@ -17739,11 +17805,14 @@ msgstr "- %(amount)s de rebaixa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
 msgstr ""
 "- El codi de barres «%(barcode)s» ja està assignat al(s) producte(s): "
 "%(product_list)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18367,6 +18436,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18991,9 +19063,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19616,6 +19691,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20044,6 +20122,7 @@ msgid "1 year warranty extension"
 msgstr ""
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21909,6 +21988,11 @@ msgstr "10 unitats"
 msgid "10 Units"
 msgstr "10 unitats"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
+msgid "10 Units"
+msgstr "10 unitats"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,description_sale:product.product_product_4_product_template
@@ -21956,6 +22040,7 @@ msgstr ""
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22578,6 +22663,8 @@ msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Cu
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
 "title=\"Currency\"/>"
@@ -22790,6 +22877,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23417,6 +23507,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
 "                                            Rule\n"
 "                                        </span>"
@@ -23611,6 +23702,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24241,6 +24334,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24868,6 +24964,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
 "                                        Pricelist\n"
 "                                    </span>"
@@ -25062,6 +25159,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25692,6 +25791,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26352,7 +26454,11 @@ msgid "<span class=\"o_stat_text\">Products</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Productes</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Productes</span>"
 >>>>>>> upstream/18.0
@@ -27105,6 +27211,7 @@ msgid ""
 "                        to the loss of their possible customizations."
 msgstr ""
 "<strong>Advertència</strong>: afegir o eliminar atributs esborrarà i "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28142,6 +28249,10 @@ msgstr ""
 "recrearà les variants existents i portarà a la pèrdua de les seves possibles "
 "personalitzacions."
 >>>>>>> upstream/18.0
+=======
+"recrearà les variants existents i portarà a la pèrdua de les seves possibles "
+"personalitzacions."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_packaging_barcode_uniq
@@ -28176,6 +28287,7 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__description_sale
 #: model:ir.model.fields,help:product.field_product_template__description_sale
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29318,6 +29430,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A description of the Product that you want to communicate to your customers. "
 "This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
@@ -29531,6 +29645,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30161,12 +30278,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
 "Un preu és un conjunt de preus de venda o regles per calcular el preu de les línies de comandes de vendes basades en productes, categories de productes, dates i quantitats ordenades.\n"
 "            Aquesta és l'eina perfecta per gestionar diversos preus, descomptes estacionals, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30804,6 +30924,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31562,7 +31685,11 @@ msgid "Add Products to pricelist report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegeix productes a l'informe de la llista de preus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegeix productes a l'informe de la llista de preus"
 >>>>>>> upstream/18.0
@@ -32529,6 +32656,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Afegeix productes mitjançant el botó «Afegir productes» a la part superior dreta per\n"
 "                                incloure'ls a l'informe."
@@ -32651,6 +32779,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Afegeix productes mitjançant el botó «Afegir productes» a la part superior dreta per\n"
+"                                incloure'ls a l'informe."
+>>>>>>> upstream/18.0
+=======
+"Afegeix productes mitjançant el botó «Afegir productes» a la part superior "
+"dreta per\n"
 "                                incloure'ls a l'informe."
 >>>>>>> upstream/18.0
 =======
@@ -33931,7 +34064,11 @@ msgid "Add to all products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir a tots els productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir a tots els productes"
 >>>>>>> upstream/18.0
@@ -34888,7 +35025,11 @@ msgid "Add to existing products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir als productes existents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir als productes existents"
 >>>>>>> upstream/18.0
@@ -35845,7 +35986,11 @@ msgid "Add to products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir a productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir a productes"
 >>>>>>> upstream/18.0
@@ -36879,10 +37024,15 @@ msgstr "Totes les variants de producte que utilitzen aquesta etiqueta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -38313,7 +38463,11 @@ msgid "All categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Totes les categories"
+>>>>>>> upstream/18.0
 =======
 msgstr "Totes les categories"
 >>>>>>> upstream/18.0
@@ -39281,7 +39435,11 @@ msgid "All products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tots els productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tots els productes"
 >>>>>>> upstream/18.0
@@ -40239,7 +40397,11 @@ msgid "All variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Totes les variants"
+>>>>>>> upstream/18.0
 =======
 msgstr "Totes les variants"
 >>>>>>> upstream/18.0
@@ -41197,7 +41359,11 @@ msgid "Allow customers to set their own value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Permet que els clients estableixin el seu propi valor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Permet que els clients estableixin el seu propi valor"
 >>>>>>> upstream/18.0
@@ -42286,7 +42452,11 @@ msgid "Back to Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tornar al pressupost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tornar al pressupost"
 >>>>>>> upstream/18.0
@@ -43420,7 +43590,11 @@ msgid "Combo Choices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcions de combinacions"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcions de combinacions"
 >>>>>>> upstream/18.0
@@ -44405,7 +44579,11 @@ msgid "Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Element de la combinació"
+>>>>>>> upstream/18.0
 =======
 msgstr "Element de la combinació"
 >>>>>>> upstream/18.0
@@ -45461,8 +45639,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La conversió entre les unitats de mesura només és possible si pertanyen a la"
 " mateixa categoria. La conversió es basarà en les ràtios establertes."
+=======
+"La conversió entre les unitats de mesura només és possible si pertanyen a la "
+"mateixa categoria. La conversió es basarà en les ràtios establertes."
+>>>>>>> upstream/18.0
 =======
 "La conversió entre les unitats de mesura només és possible si pertanyen a la "
 "mateixa categoria. La conversió es basarà en les ràtios establertes."
@@ -46585,7 +46768,11 @@ msgid "Create a product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crear un producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crear un producte"
 >>>>>>> upstream/18.0
@@ -47823,7 +48010,11 @@ msgid "Documents Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nombre de documents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre de documents"
 >>>>>>> upstream/18.0
@@ -48780,7 +48971,11 @@ msgid "Documents of this variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Documents d'aquesta variant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Documents d'aquesta variant"
 >>>>>>> upstream/18.0
@@ -49743,7 +49938,11 @@ msgid "Download examples"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Descarregar exemples"
+>>>>>>> upstream/18.0
 =======
 msgstr "Descarregar exemples"
 >>>>>>> upstream/18.0
@@ -50699,8 +50898,12 @@ msgid "Each value should be defined only once per attribute per product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Cada valor s' ha de definir només una vegada per atribut per producte."
+=======
+msgstr "Cada valor s' ha de definir només una vegada per atribut per producte."
+>>>>>>> upstream/18.0
 =======
 msgstr "Cada valor s' ha de definir només una vegada per atribut per producte."
 >>>>>>> upstream/18.0
@@ -51559,7 +51762,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El valor mostrat depèn de la zona horària establerta a les vostres preferències."
+=======
+"El valor mostrat depèn de la zona horària establerta a les vostres "
+"preferències."
+>>>>>>> upstream/18.0
 =======
 "El valor mostrat depèn de la zona horària establerta a les vostres "
 "preferències."
@@ -52636,7 +52844,11 @@ msgid "Error exporting file. Please try again."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Error en exportar l'arxiu. Si us plau, torna a intentar-ho."
+>>>>>>> upstream/18.0
 =======
 msgstr "Error en exportar l'arxiu. Si us plau, torna a intentar-ho."
 >>>>>>> upstream/18.0
@@ -53619,7 +53831,11 @@ msgid "Extra Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcions addicionals"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcions addicionals"
 >>>>>>> upstream/18.0
@@ -54551,8 +54767,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 =======
 "Extra price for the variant with this attribute value on sale price. eg. 200 "
 "price extra, 1000 + 200 = 1200."
@@ -55661,6 +55882,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
@@ -55668,6 +55890,8 @@ msgstr ""
 " igual que la quantitat mínima especificada en aquest camp. Expressada en la"
 " UdM per defecte del producte."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56293,6 +56517,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57020,7 +57247,11 @@ msgid "Format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Formata"
+=======
+msgstr "Format"
+>>>>>>> upstream/18.0
 =======
 msgstr "Format"
 >>>>>>> upstream/18.0
@@ -58317,7 +58548,11 @@ msgid "Get product pictures using Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Obtén fotografies de producte usant codi de barres"
+=======
+msgstr "Obtingueu fotografies de producte utilitzant codi de barres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obtingueu fotografies de producte utilitzant codi de barres"
 >>>>>>> upstream/18.0
@@ -59650,6 +59885,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59774,6 +60010,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "Si no està marcat, podràs ocultar l'atribut sense haver d'eliminar-lo."
+>>>>>>> upstream/18.0
+=======
+msgstr "Si no està marcat, podràs ocultar l'atribut sense haver d'eliminar-lo."
 >>>>>>> upstream/18.0
 =======
 msgstr "Si no està marcat, podràs ocultar l'atribut sense haver d'eliminar-lo."
@@ -60590,7 +60829,10 @@ msgstr "Quilograms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60671,6 +60913,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60793,6 +61038,7 @@ msgid ""
 "receipt of the products in your warehouse. Used by the scheduler for "
 "automatic computation of the purchase order planning."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61830,6 +62076,10 @@ msgstr ""
 "Termini de lliurament en dies entre la confirmació de la comanda de compra i "
 "la recepció dels productes al seu magatzem. Utilitzat pel planificador per "
 >>>>>>> upstream/18.0
+=======
+"Termini de lliurament en dies entre la confirmació de la comanda de compra i "
+"la recepció dels productes al seu magatzem. Utilitzat pel planificador per "
+>>>>>>> upstream/18.0
 "al càlcul automàtic de la planificació de la comanda de compra."
 
 #. module: product
@@ -61874,6 +62124,7 @@ msgstr ""
 "Contacte amb nosaltres per citar-nos."
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62860,6 +63111,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:product.attribute.value,name:product.size_attribute_m
 msgid "M"
 msgstr ""
@@ -62894,6 +63147,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63206,7 +63462,11 @@ msgid "Markup"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Marge de benefici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Marge de benefici"
 >>>>>>> upstream/18.0
@@ -64309,7 +64569,11 @@ msgid "No products could be found."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No s'ha trobat cap producte."
+>>>>>>> upstream/18.0
 =======
 msgstr "No s'ha trobat cap producte."
 >>>>>>> upstream/18.0
@@ -65171,7 +65435,11 @@ msgid "No, keep it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No, guarda'l"
+=======
+msgstr "No, deixa-ho com està"
+>>>>>>> upstream/18.0
 =======
 msgstr "No, deixa-ho com està"
 >>>>>>> upstream/18.0
@@ -65857,8 +66125,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+>>>>>>> upstream/18.0
 =======
 "On the product %(product)s you cannot associate the value %(value)s with the "
 "attribute %(attribute)s because they do not match."
@@ -66902,12 +67175,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
 msgstr ""
 "En el producte %(product)s no podeu transformar l' atribut %(attribute_src)s"
 " a l' atribut %(attribute_dest)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67531,6 +67807,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68188,6 +68467,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vaja! '%(fileName)s' no s'ha pogut carregar perquè el format no és "
+"compatible."
+>>>>>>> upstream/18.0
 =======
 "Vaja! '%(fileName)s' no s'ha pogut carregar perquè el format no és "
 "compatible."
@@ -69387,7 +69671,11 @@ msgid "Original Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preu original"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preu original"
 >>>>>>> upstream/18.0
@@ -70400,7 +70688,11 @@ msgid "Please enter a positive whole number."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Si us plau, introdueix un nombre positiu sencer."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si us plau, introdueix un nombre positiu sencer."
 >>>>>>> upstream/18.0
@@ -71363,7 +71655,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72079,6 +72374,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72797,7 +73095,11 @@ msgid "Please select some products first."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Si us plau, primer selecciona alguns productes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si us plau, primer selecciona alguns productes."
 >>>>>>> upstream/18.0
@@ -73821,7 +74123,11 @@ msgid "Price Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tipus de preu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipus de preu"
 >>>>>>> upstream/18.0
@@ -74827,7 +75133,11 @@ msgid "Pricelist Report Preview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vista prèvia de l'informe de la llista de preus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vista prèvia de l'informe de la llista de preus"
 >>>>>>> upstream/18.0
@@ -75779,7 +76089,11 @@ msgid "Pricelists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tarifes de preus"
+=======
+msgstr "Llistes de preus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Llistes de preus"
 >>>>>>> upstream/18.0
@@ -76781,7 +77095,11 @@ msgid "Product Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Combo de productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Combo de productes"
 >>>>>>> upstream/18.0
@@ -77738,7 +78056,11 @@ msgid "Product Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Article del combo de productes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Article del combo de productes"
 >>>>>>> upstream/18.0
@@ -78701,7 +79023,11 @@ msgid "Product Creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creació de producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creació de producte"
 >>>>>>> upstream/18.0
@@ -79665,7 +79991,11 @@ msgid "Product Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Document del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document del producte"
 >>>>>>> upstream/18.0
@@ -80798,8 +81128,12 @@ msgid "Product model not defined, Please contact your administrator."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "No s' ha definit el model de producte, contacteu amb l' administrador."
+=======
+msgstr "No s' ha definit el model de producte, contacteu amb l' administrador."
+>>>>>>> upstream/18.0
 =======
 msgstr "No s' ha definit el model de producte, contacteu amb l' administrador."
 >>>>>>> upstream/18.0
@@ -81703,7 +82037,11 @@ msgid "Promotions, Coupons, Gift Card & Loyalty Program"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Promocions, cupons, programa de lleialtat de la targeta de regal"
+=======
+msgstr "Promocions, cupons, programa de fidelització de la targeta de regal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Promocions, cupons, programa de fidelització de la targeta de regal"
 >>>>>>> upstream/18.0
@@ -82686,7 +83024,11 @@ msgid "Purchase Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unitat de compra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unitat de compra"
 >>>>>>> upstream/18.0
@@ -83649,7 +83991,11 @@ msgid "Quantities (Price)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantitats (preu)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantitats (preu)"
 >>>>>>> upstream/18.0
@@ -84613,7 +84959,11 @@ msgid "Quantity (%s UoM)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantitat (%s UdM)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantitat (%s UdM)"
 >>>>>>> upstream/18.0
@@ -85359,6 +85709,7 @@ msgstr "Referència"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86396,6 +86747,10 @@ msgid ""
 "Register the prices requested by your vendors for each product, based on the "
 "quantity and the period."
 >>>>>>> upstream/18.0
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 msgstr ""
 "Registra els preus sol·licitats per cada producte, basat en la quantitat i "
 "el període."
@@ -86501,7 +86856,10 @@ msgstr "Consell de regla"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86582,6 +86940,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86943,7 +87304,11 @@ msgid "Show Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar el nom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar el nom"
 >>>>>>> upstream/18.0
@@ -87701,6 +88066,7 @@ msgid ""
 "Specify a template if this rule only applies to one product template. Keep "
 "empty otherwise."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88738,6 +89104,10 @@ msgstr ""
 "Especifiqui una plantilla si aquesta regla només s'aplica a una plantilla de "
 "producte. Deixi'l buit en cas contrari."
 >>>>>>> upstream/18.0
+=======
+"Especifiqui una plantilla si aquesta regla només s'aplica a una plantilla de "
+"producte. Deixi'l buit en cas contrari."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_surcharge
@@ -88844,7 +89214,11 @@ msgid "Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data inicial"
+=======
+msgstr "Data d'inici"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data d'inici"
 >>>>>>> upstream/18.0
@@ -89177,7 +89551,11 @@ msgid "Start date for this vendor price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data inicial per aquest preu de venedor"
+=======
+msgstr "Data d'inici per aquest preu de venedor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data d'inici per aquest preu de venedor"
 >>>>>>> upstream/18.0
@@ -89639,7 +90017,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "El valor mostrat depèn de la zona horària establerta a les vostres preferències."
+=======
+"El valor mostrat depèn de la zona horària establerta a les vostres "
+"preferències."
+>>>>>>> upstream/18.0
 =======
 "El valor mostrat depèn de la zona horària establerta a les vostres "
 "preferències."
@@ -90764,7 +91147,11 @@ msgid "Template Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valors de la plantilla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valors de la plantilla"
 >>>>>>> upstream/18.0
@@ -91728,7 +92115,11 @@ msgid "The Reference '%s' already exists."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "La referència '%s' ja existeix."
+>>>>>>> upstream/18.0
 =======
 msgstr "La referència '%s' ja existeix."
 >>>>>>> upstream/18.0
@@ -92655,12 +93046,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
 msgstr ""
 "L'atribut %(attribute)s  ha de tenir almenys un valor per al producte "
 "%(product)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93284,6 +93678,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93757,6 +94154,7 @@ msgstr "El marge mínim ha de ser inferior al marge màxim."
 msgid ""
 "The minimum price among the products in this combo. This value will be used "
 "to prorate the price of this combo with respect to the other combos in a "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94568,6 +94966,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "combo product. This heuristic ensures that whatever product the user chooses "
 "in a combo, it will always be the same price."
 msgstr ""
@@ -94782,6 +95182,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95209,6 +95612,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96021,6 +96425,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The number of variants to generate is above allowed limit. You should either "
 "not generate variants for each combination or generate them on demand from "
 "the sales order. To do so, open the form view of attributes and change the "
@@ -96236,6 +96642,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96877,8 +97286,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La quantitat a comprar d' aquest proveïdor a beneficiar del preu, expressada"
 " en la unitat de producte del proveïdor de mesura si no en qualsevol, en la "
+=======
+"La quantitat a comprar d' aquest proveïdor a beneficiar del preu, expressada "
+"en la unitat de producte del proveïdor de mesura si no en qualsevol, en la "
+>>>>>>> upstream/18.0
 =======
 "La quantitat a comprar d' aquest proveïdor a beneficiar del preu, expressada "
 "en la unitat de producte del proveïdor de mesura si no en qualsevol, en la "
@@ -97951,7 +98365,11 @@ msgid "The rounding method must be strictly positive."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "El mètode d'arrodoniment ha de ser positiu."
+>>>>>>> upstream/18.0
 =======
 msgstr "El mètode d'arrodoniment ha de ser positiu."
 >>>>>>> upstream/18.0
@@ -98878,8 +99296,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
+=======
+"The sale price is managed from the product template. Click on the 'Configure "
+"Variants' button to set the extra attribute prices."
+>>>>>>> upstream/18.0
 =======
 "The sale price is managed from the product template. Click on the 'Configure "
 "Variants' button to set the extra attribute prices."
@@ -99955,8 +100378,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aquesta configuració dels atributs del producte, els valors i les excepcions"
 " no comportarien cap variant possible. Si us plau, ompliu o esborreu el "
+=======
+"Aquesta configuració dels atributs del producte, els valors i les excepcions "
+"no comportarien cap variant possible. Si us plau, ompliu o esborreu el "
+>>>>>>> upstream/18.0
 =======
 "Aquesta configuració dels atributs del producte, els valors i les excepcions "
 "no comportarien cap variant possible. Si us plau, ompliu o esborreu el "
@@ -101030,12 +101458,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
 "Aquesta precisió d' arrodoniment és més alta que el valor decimal (%(digits)s).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -101661,6 +102092,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102365,7 +102799,11 @@ msgid "UOM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UdM"
+>>>>>>> upstream/18.0
 =======
 msgstr "UdM"
 >>>>>>> upstream/18.0
@@ -103355,7 +103793,11 @@ msgid "Unit price:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preu unitari:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preu unitari:"
 >>>>>>> upstream/18.0
@@ -104329,7 +104771,11 @@ msgid "Update extra prices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar els preus addicionals"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar els preus addicionals"
 >>>>>>> upstream/18.0
@@ -105286,7 +105732,11 @@ msgid "Update product attribute value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar el valor de l'atribut del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar el valor de l'atribut del producte"
 >>>>>>> upstream/18.0
@@ -106244,7 +106694,11 @@ msgid "Update product extra prices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar els preus addicionals del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar els preus addicionals del producte"
 >>>>>>> upstream/18.0
@@ -107201,7 +107655,11 @@ msgid "Update the extra price on existing products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Actualitzar el preu addicional en productes existents"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualitzar el preu addicional en productes existents"
 >>>>>>> upstream/18.0
@@ -108165,7 +108623,11 @@ msgid "Upload files to your product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pujar arxius al producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pujar arxius al producte"
 >>>>>>> upstream/18.0
@@ -109135,6 +109597,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilitza les regles de descompte i activa la configuració de descompte "
+"perquè el client pugui visualitzar el descompte."
+>>>>>>> upstream/18.0
 =======
 "Utilitza les regles de descompte i activa la configuració de descompte "
 "perquè el client pugui visualitzar el descompte."
@@ -110333,6 +110800,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Utilitza aquesta funció per emmagatzemar qualsevol arxiu que vulguis "
+"compartir amb els teus clients."
+>>>>>>> upstream/18.0
 =======
 "Utilitza aquesta funció per emmagatzemar qualsevol arxiu que vulguis "
 "compartir amb els teus clients."
@@ -111536,6 +112008,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
@@ -111726,6 +112199,8 @@ msgstr ""
 "        S'utilitza per calcular els marges de les comandes de venda."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112352,6 +112827,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113027,7 +113505,11 @@ msgid "Variant Creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Creació de la variant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creació de la variant"
 >>>>>>> upstream/18.0
@@ -114025,7 +114507,11 @@ msgid "Variant Tags"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Etiquetes de la variant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Etiquetes de la variant"
 >>>>>>> upstream/18.0
@@ -115062,8 +115548,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 =======
 "We pay special attention to detail, which is why our desks are of a superior "
 "quality."
@@ -116174,6 +116665,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Estàs a punt d'afegir el valor \"%(attribute_value)s\" a %(product_count)s "
+"productes."
+>>>>>>> upstream/18.0
 =======
 "Estàs a punt d'afegir el valor \"%(attribute_value)s\" a %(product_count)s "
 "productes."
@@ -117369,7 +117865,11 @@ msgid "You are about to update the extra price of %s products."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Estàs a punt d'actualitzar el preu addicional de %s productes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Estàs a punt d'actualitzar el preu addicional de %s productes."
 >>>>>>> upstream/18.0
@@ -118330,6 +118830,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Estàs desactivant la configuració de la llista de preus. S'arxivaran totes "
+"les llistes de preus actives."
+>>>>>>> upstream/18.0
 =======
 "Estàs desactivant la configuració de la llista de preus. S'arxivaran totes "
 "les llistes de preus actives."
@@ -119497,7 +120002,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 =======
 "Please increase the rounding of those units of measure, or the digits of "
 "this Decimal Accuracy."
@@ -120537,7 +121047,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si us plau, augmenteu la ronda d'aquestes unitats de mesura, o els dígits d' aquesta precisió decimal."
+=======
+"Si us plau, augmenteu la ronda d'aquestes unitats de mesura, o els dígits d' "
+"aquesta precisió decimal."
+>>>>>>> upstream/18.0
 =======
 "Si us plau, augmenteu la ronda d'aquestes unitats de mesura, o els dígits d' "
 "aquesta precisió decimal."
@@ -121614,7 +122129,11 @@ msgid "You can apply a mark-up on the cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "És possible aplicat un marge de benefici en el cost"
+>>>>>>> upstream/18.0
 =======
 msgstr "És possible aplicat un marge de benefici en el cost"
 >>>>>>> upstream/18.0
@@ -122593,6 +123112,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pots pujar una imatge que s'utilitzarà com el color del valor de l'atribut."
+>>>>>>> upstream/18.0
 =======
 "Pots pujar una imatge que s'utilitzarà com el color del valor de l'atribut."
 >>>>>>> upstream/18.0
@@ -123550,7 +124073,11 @@ msgid "You can't edit this product in the catalog."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No és possible editar aquest producte des del catàleg."
+>>>>>>> upstream/18.0
 =======
 msgstr "No és possible editar aquest producte des del catàleg."
 >>>>>>> upstream/18.0
@@ -124510,6 +125037,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No és possible arxivar aquest atribut perquè encara hi ha productes "
+"vinculats a aquest."
+>>>>>>> upstream/18.0
 =======
 "No és possible arxivar aquest atribut perquè encara hi ha productes "
 "vinculats a aquest."
@@ -125683,11 +126215,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "No podeu canviar el mode de creació de Varites de l' atribut %(attribute)s perquè s'utilitza en els següents productes:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -126312,6 +126847,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126731,6 +127269,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127509,6 +128048,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot change the attribute of the value %(value)s because it is used on "
 "the following products: %(products)s"
 msgstr ""
@@ -127720,6 +128261,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -128138,6 +128682,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128763,6 +129308,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot change the product of the value %(value)s set on product %"
 "(product)s."
 msgstr ""
@@ -128974,6 +129521,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129599,12 +130149,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
 "No podeu canviar el valor del valor %(value)s establert en el producte "
 "%(product)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130228,6 +130781,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -130905,7 +131461,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -131621,6 +132180,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132314,11 +132876,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
 "No podeu eliminar l' atribut %(attribute)s perquè s'utilitza en els següents productes:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -132943,6 +133508,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -133362,6 +133930,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134140,6 +134709,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot delete the value %(value)s because it is used on the following "
 "products:\n"
 "%(products)s\n"
@@ -134353,6 +134924,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134987,8 +135561,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 =======
 "You cannot move the attribute %(attribute)s from the product %(product_src)s "
 "to the product %(product_dest)s."
@@ -136043,6 +136622,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
 msgstr ""
 <<<<<<< HEAD
@@ -136201,6 +136781,8 @@ msgstr ""
 "                            sigui un producte emmagatzemable, un consumible o un servei."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -136825,6 +137407,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137454,7 +138039,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                 ja sigui un producte emmagatzemable, un consumible o un servei."
+=======
+"                 ja sigui un producte emmagatzemable, un consumible o un "
+"servei."
+>>>>>>> upstream/18.0
 =======
 "                 ja sigui un producte emmagatzemable, un consumible o un "
 "servei."
@@ -138496,6 +139086,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
@@ -138504,6 +139095,8 @@ msgstr ""
 "                El formulari de producte conté informació per simplificar el procés de venda:\n"
 "                preu, notes als pressupostos, dades comptables, mètodes d'adquisició, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -139134,6 +139727,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139758,6 +140354,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
@@ -139768,6 +140365,8 @@ msgstr ""
 "                El formulari de producte conté informació per simplificar el procés de venda:\n"
 "                preu, notes als pressupostos, dades comptables, mètodes d'adquisició, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140400,6 +140999,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141068,7 +141670,11 @@ msgid "csv"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr ".csv"
+>>>>>>> upstream/18.0
 =======
 msgstr ".csv"
 >>>>>>> upstream/18.0
@@ -142037,7 +142643,11 @@ msgid "e.g. 1234567890"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "per exemple, 1234567890"
+>>>>>>> upstream/18.0
 =======
 msgstr "per exemple, 1234567890"
 >>>>>>> upstream/18.0
@@ -142994,7 +143604,11 @@ msgid "e.g. Burger Choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "per exemple, opció d'hamburguesa"
+>>>>>>> upstream/18.0
 =======
 msgstr "per exemple, opció d'hamburguesa"
 >>>>>>> upstream/18.0
@@ -143967,7 +144581,11 @@ msgid "e.g. Starter - Meal - Desert"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "per exemple, entrant - principal - postres"
+>>>>>>> upstream/18.0
 =======
 msgstr "per exemple, entrant - principal - postres"
 >>>>>>> upstream/18.0
@@ -144960,7 +145578,11 @@ msgid "product cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "cost del producte"
+>>>>>>> upstream/18.0
 =======
 msgstr "cost del producte"
 >>>>>>> upstream/18.0
@@ -145924,7 +146546,11 @@ msgid "sales price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "preu de venda"
+>>>>>>> upstream/18.0
 =======
 msgstr "preu de venda"
 >>>>>>> upstream/18.0
@@ -146897,6 +147523,7 @@ msgid "xlsx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr ".xlsx"
@@ -147585,6 +148212,8 @@ msgstr ".xlsx"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ".xlsx"
 
 #~ msgid "$14.00"
@@ -147623,6 +148252,9 @@ msgstr ".xlsx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

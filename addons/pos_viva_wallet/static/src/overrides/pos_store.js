@@ -178,12 +178,15 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.data.connectWebSocket("VIVA_WALLET_LATEST_RESPONSE", () => {
             const pendingLine = this.getPendingPaymentLine("viva_wallet");
 
             if (pendingLine) {
                 pendingLine.payment_method_id.payment_terminal.handleVivaWalletStatusResponse();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -542,6 +545,7 @@ patch(PosStore.prototype, {
                     paymentLine.get_payment_status() !== "retry"
                 ) {
                     paymentLine.payment_method_id.payment_terminal.handleVivaWalletStatusResponse(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,6 +1068,8 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         paymentLine,
                         payload
                     );
@@ -1230,6 +1236,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

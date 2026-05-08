@@ -321,7 +321,13 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string="Salesperson", comodel_name='res.users', domain="[('share', '=', False)]",
+=======
+        string="Salesperson",
+        comodel_name='res.users',
+        domain=[('share', '=', False)],
+>>>>>>> upstream/18.0
 =======
         string="Salesperson",
         comodel_name='res.users',
@@ -2178,7 +2184,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             website.currency_id = website.pricelist_id.currency_id or website.company_id.currency_id
+=======
+            website.currency_id = website.pricelist_id.currency_id or website.company_id.sudo().currency_id
+>>>>>>> upstream/18.0
 =======
             website.currency_id = website.pricelist_id.currency_id or website.company_id.sudo().currency_id
 >>>>>>> upstream/18.0
@@ -3067,12 +3077,18 @@ class Website(models.Model):
         return pricelist
 
     def sale_product_domain(self):
+<<<<<<< HEAD
         website_domain = self.get_current_website().website_domain()
+=======
+        website = self or self.get_current_website()
+        website_domain = website.website_domain()
+>>>>>>> upstream/18.0
         if not self.env.user._is_internal():
             website_domain = expression.AND([website_domain, [
                 ('is_published', '=', True),
                 ('service_tracking', 'in', self.env['product.template']._get_saleable_tracking_types()),
             ]])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3107,6 +3123,10 @@ class Website(models.Model):
 >>>>>>> upstream/18.0
 =======
         company_domain = [('company_id', 'in', [False, self.company_id.id])]
+        return expression.AND([self._product_domain(), website_domain, company_domain])
+>>>>>>> upstream/18.0
+=======
+        company_domain = [('company_id', 'in', [False, website.company_id.id])]
         return expression.AND([self._product_domain(), website_domain, company_domain])
 >>>>>>> upstream/18.0
 
@@ -3492,7 +3512,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             salesperson_user_sudo = self.salesperson_id or partner_sudo.parent_id.user_id or partner_sudo.user_id
+=======
+            salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
+>>>>>>> upstream/18.0
 =======
             salesperson_user_sudo = self.salesperson_id or partner_sudo.user_id or partner_sudo.parent_id.user_id
 >>>>>>> upstream/18.0
@@ -4764,8 +4788,11 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 template.send_mail(sale_order.id, email_values={'email_to': sale_order.partner_id.email})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5641,6 +5668,9 @@ class Website(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
