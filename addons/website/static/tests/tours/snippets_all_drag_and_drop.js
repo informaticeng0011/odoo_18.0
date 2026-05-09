@@ -99,7 +99,10 @@ for (let snippet of snippetsNames) {
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     } else if (snippet.name === 's_dynamic_snippet_products') {
@@ -108,6 +111,9 @@ for (let snippet of snippetsNames) {
             trigger: ":iframe .s_dynamic_snippet_products .s_dynamic_snippet_row",
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

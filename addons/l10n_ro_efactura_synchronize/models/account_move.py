@@ -85,6 +85,10 @@ import requests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -679,12 +683,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attachment_sudo = self.env['ir.attachment'].sudo().create(
                 bill._l10n_ro_edi_create_attachment_values(message['answer']['invoice']['attachment_raw'])
             )
             bill._extend_with_attachments(attachment_sudo)
             bill.message_post(body=_("Synchronized with SPV from message %s", message['id']))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -963,6 +970,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -338,6 +338,7 @@ Emilio Pascual emilio@moduon.team https://github.com/emiliopascual
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 David Vidal david@moduon.team https://github.com/chienandalu
 >>>>>>> upstream/18.0
@@ -1539,6 +1540,8 @@ Sabrina Rodríguez sabrina@moduon.team https://github.com/sabrinarmartin
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 David Vidal david@moduon.team https://github.com/chienandalu
 Andrii Kompaniiets andrii@moduon.team https://github.com/Andrii9090 (up to 2025-01-31)
 Joel Estrada joel@moduon.team https://github.com/u0f (up to 2025-01-31)
@@ -1637,6 +1640,9 @@ Sabrina Rodríguez sabrina@moduon.team https://github.com/sabrinarmartin (up to 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

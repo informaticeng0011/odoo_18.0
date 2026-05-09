@@ -254,6 +254,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    mockService,
+>>>>>>> upstream/18.0
 =======
     mockService,
 >>>>>>> upstream/18.0
@@ -1296,6 +1300,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(kwargs).toEqual(
             {
                 context: {
@@ -1304,6 +1309,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                     tz: "taht",
                     uid: 7,
                 },
+=======
+        expect(kwargs).toMatchObject(
+            {
+>>>>>>> upstream/18.0
 =======
         expect(kwargs).toMatchObject(
             {
@@ -2581,6 +2590,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(kwargs).toEqual(
                 {
                     context: {
@@ -2591,6 +2601,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                         tz: "taht",
                         uid: 7,
                     }, // not part of the test, may change
+=======
+            expect(kwargs).toMatchObject(
+                {
+>>>>>>> upstream/18.0
 =======
             expect(kwargs).toMatchObject(
                 {
@@ -3864,6 +3878,7 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(kwargs).toEqual(
                 {
                     context: {
@@ -3874,6 +3889,10 @@ test("SelectCreateDialog use domain, group_by and search default", async () => {
                         tz: "taht",
                         uid: 7,
                     }, // not part of the test, may change
+=======
+            expect(kwargs).toMatchObject(
+                {
+>>>>>>> upstream/18.0
 =======
             expect(kwargs).toMatchObject(
                 {
@@ -5216,7 +5235,10 @@ test("SelectCreateDialog list view in readonly", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6315,7 +6337,10 @@ test("SelectCreateDialog empty list, default no content helper", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7169,7 +7194,10 @@ test("SelectCreateDialog empty list, noContentHelp props", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Partner._views["search"] = /* xml */ `<search/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7984,7 +8012,10 @@ test("SelectCreateDialog empty list, noContentHelp props", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8768,6 +8799,9 @@ test("SelectCreateDialog: enable select when grouped with domain selection", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

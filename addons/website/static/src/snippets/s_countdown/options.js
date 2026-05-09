@@ -305,7 +305,11 @@ options.registry.countdown = options.Class.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     params.attributeDefaultValue = 'rgba(0, 0, 0, 255)';
+=======
+                    params.attributeDefaultValue = "rgba(0, 0, 0, 0)";
+>>>>>>> upstream/18.0
 =======
                     params.attributeDefaultValue = "rgba(0, 0, 0, 0)";
 >>>>>>> upstream/18.0

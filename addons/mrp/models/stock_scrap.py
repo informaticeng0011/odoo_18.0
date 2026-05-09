@@ -250,7 +250,10 @@ class StockScrap(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -813,6 +816,9 @@ class StockScrap(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1249,7 +1255,12 @@ class StockScrap(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return super(StockScrap, scrap)._compute_scrap_qty()
+=======
+                super(StockScrap, scrap)._compute_scrap_qty()
+                continue
+>>>>>>> upstream/18.0
 =======
                 super(StockScrap, scrap)._compute_scrap_qty()
                 continue
@@ -1814,10 +1825,13 @@ class StockScrap(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'move_dest_ids': self.production_id.procurement_group_id.stock_move_ids.filtered(
                     lambda m: m.location_id == self.location_id
                               and m.product_id == self.product_id
                               and m.state not in ('assigned', 'done', 'cancel'))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

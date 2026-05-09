@@ -37,7 +37,10 @@ export class ProjectTaskKanbanDynamicGroupList extends RelationalModel.DynamicGr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -127,6 +130,7 @@ export class ProjectTaskKanbanDynamicGroupList extends RelationalModel.DynamicGr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return super._unlinkGroups();
     }
 <<<<<<< HEAD
@@ -159,6 +163,10 @@ export class ProjectTaskKanbanDynamicGroupList extends RelationalModel.DynamicGr
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        return super._unlinkGroups(groups);
+    }
 >>>>>>> upstream/18.0
 =======
         return super._unlinkGroups(groups);

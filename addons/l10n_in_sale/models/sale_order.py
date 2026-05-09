@@ -53,6 +53,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        sez_foreign_state = self.env.ref("l10n_in.state_in_oc", raise_if_not_found=False)
+>>>>>>> upstream/18.0
 =======
         sez_foreign_state = self.env.ref("l10n_in.state_in_oc", raise_if_not_found=False)
 >>>>>>> upstream/18.0
@@ -162,6 +166,7 @@ class SaleOrder(models.Model):
                 return False
             elif order.l10n_in_gst_treatment == 'special_economic_zone':
                 # Special Economic Zone
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -922,6 +927,9 @@ class SaleOrder(models.Model):
 =======
                 return sez_foreign_state or foreign_state
 >>>>>>> upstream/18.0
+=======
+                return sez_foreign_state or foreign_state
+>>>>>>> upstream/18.0
 
             # Computing Place of Supply for particular order
             partner = (
@@ -1172,6 +1180,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

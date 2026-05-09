@@ -55,6 +55,10 @@ import odoo.addons.account_edi_ubl_cii.tools.ubl_21_common as cac
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import odoo.addons.account_edi_ubl_cii.tools.ubl_21_extensions as ext
+>>>>>>> upstream/18.0
 =======
 import odoo.addons.account_edi_ubl_cii.tools.ubl_21_extensions as ext
 >>>>>>> upstream/18.0
@@ -304,6 +308,7 @@ CreditNoteLine = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> upstream/18.0
@@ -354,6 +359,8 @@ CreditNote = {
     '_tag': 'CreditNote',
     'ext:UBLExtensions': {},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -514,6 +521,9 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -697,6 +707,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:TaxPointDate': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:TaxPointDate': {},
 >>>>>>> upstream/18.0
@@ -982,6 +996,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cbc:AccountingCost': {},
+>>>>>>> upstream/18.0
 =======
     'cbc:AccountingCost': {},
 >>>>>>> upstream/18.0
@@ -1269,6 +1287,11 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
+    'cac:ContractDocumentReference': cac.ContractDocumentReference,
+>>>>>>> upstream/18.0
 =======
     'cac:DespatchDocumentReference': cac.DespatchDocumentReference,
     'cac:ContractDocumentReference': cac.ContractDocumentReference,
@@ -1793,6 +1816,10 @@ CreditNote = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'cac:PrepaidPayment': cac.PrepaidPayment,
+>>>>>>> upstream/18.0
 =======
     'cac:PrepaidPayment': cac.PrepaidPayment,
 >>>>>>> upstream/18.0

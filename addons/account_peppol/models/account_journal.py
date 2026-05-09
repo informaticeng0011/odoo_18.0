@@ -27,7 +27,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, fields, models
+=======
+from odoo import _, api, fields, models
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError
@@ -181,7 +186,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -274,6 +282,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

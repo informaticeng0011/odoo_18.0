@@ -125,8 +125,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import
 # 
+=======
+# * base_import
+#
+>>>>>>> upstream/18.0
 =======
 # * base_import
 #
@@ -756,6 +761,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -1257,10 +1263,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1658,6 +1669,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-02 09:05+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-02 09:05+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "base_import/sk/>\n"
@@ -1665,6 +1680,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2059,6 +2075,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -2122,6 +2143,7 @@ msgstr ""
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
 "An unknown issue occurred during import (possibly lost connection, data "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2503,6 +2525,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "limit exceeded or memory limits exceeded). Please retry in case the issue is "
 "transient. If the issue still occurs, try to split the file rather than "
 "import it at once."
@@ -2634,6 +2658,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3070,12 +3097,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
 "Stĺpec %(column)s obsahuje nesprávne hodnoty. Chyba v riadku "
 "%(line)d:%(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3453,6 +3483,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3849,12 +3882,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 msgstr ""
 "Nebolo možné získať URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4231,6 +4267,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4721,8 +4760,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
+=======
+"title row has %(title_row_entries)d entries while the first row has %"
+"(first_row_entries)d. You may need to change the separator character."
+>>>>>>> upstream/18.0
 =======
 "title row has %(title_row_entries)d entries while the first row has %"
 "(first_row_entries)d. You may need to change the separator character."
@@ -5439,8 +5483,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+>>>>>>> upstream/18.0
 =======
 "Found invalid image data, images should be imported as either URLs or base64-"
 "encoded data."
@@ -6111,8 +6160,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ak model používa otvorené chatovanie, sledovanie histórie nastaví predplatné"
 " a pošle upozornenia počas importu, ale povedie k pomalšiemu importu."
+=======
+"Ak model používa otvorené chatovanie, sledovanie histórie nastaví predplatné "
+"a pošle upozornenia počas importu, ale povedie k pomalšiemu importu."
+>>>>>>> upstream/18.0
 =======
 "Ak model používa otvorené chatovanie, sledovanie histórie nastaví predplatné "
 "a pošle upozornenia počas importu, ale povedie k pomalšiemu importu."
@@ -6794,7 +6848,11 @@ msgid "Progress bar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukazovateľ priebehu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukazovateľ priebehu"
 >>>>>>> upstream/18.0
@@ -7095,7 +7153,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7484,6 +7545,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7890,9 +7954,12 @@ msgstr "Sledovať históriu počas importu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
 msgstr "Nemožno načítať \"{extension}\" súbor: vyžaduje Python modul \"{modname}\""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8269,6 +8336,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8525,6 +8595,7 @@ msgstr ""
 msgid ""
 "Unsupported file format \"{}\", import only supports CSV, ODS, XLS and XLSX"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9027,6 +9098,9 @@ msgstr ""
 =======
 "Nepodporovaný formát súboru \"{}\", import podporuje iba CSV, ODS, XLS a XLSX"
 >>>>>>> upstream/18.0
+=======
+"Nepodporovaný formát súboru \"{}\", import podporuje iba CSV, ODS, XLS a XLSX"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -9051,6 +9125,7 @@ msgstr ""
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
 "Use HH for hours in a 24h system, use II in conjonction with 'p' for a 12h "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9678,12 +9753,17 @@ msgid ""
 "system. You can use a custom format in addition to the suggestions provided. "
 "Leave empty to let Odoo guess the format (recommended)"
 >>>>>>> upstream/18.0
+=======
+"system. You can use a custom format in addition to the suggestions provided. "
+"Leave empty to let Odoo guess the format (recommended)"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_import
 #. odoo-javascript
 #: code:addons/base_import/static/src/import_model.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10062,6 +10142,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Use YYYY to represent the year, MM for the month and DD for the day. Include "
 "separators such as a dot, forward slash or dash. You can use a custom format "
 "in addition to the suggestions provided. Leave empty to let Odoo guess the "
@@ -10190,6 +10272,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10647,7 +10732,11 @@ msgid "out of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "z"
+>>>>>>> upstream/18.0
 =======
 msgstr "z"
 >>>>>>> upstream/18.0

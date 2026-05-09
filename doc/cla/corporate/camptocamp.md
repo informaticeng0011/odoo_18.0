@@ -293,6 +293,7 @@ Italo Lopes italo.lopes@camptocamp.com https://github.com/imlopes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Luca Policastro luca.policastro@camptocamp.com https://github.com/Luca-Policastro
 >>>>>>> upstream/18.0
@@ -1061,6 +1062,8 @@ Tomasz Walter tomasz.walter@camptocamp.com https://github.com/twalter-c2c
 Paolo Yammouni paolo.yammouni@camptocamp.com https://github.com/paoloyam
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1218,6 +1221,7 @@ Henry Backman henry.backman@camptocamp.com https://github.com/henrybackman
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1258,6 +1262,9 @@ Henry Backman henry.backman@camptocamp.com https://github.com/henrybackman
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+Florent Xicluna florent.xicluna@camptocamp.com https://github.com/florentx
 >>>>>>> upstream/18.0
 =======
 Florent Xicluna florent.xicluna@camptocamp.com https://github.com/florentx

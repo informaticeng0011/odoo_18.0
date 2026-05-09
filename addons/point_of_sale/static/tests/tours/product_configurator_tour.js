@@ -241,6 +241,11 @@ import * as ProductConfigurator from "@point_of_sale/../tests/tours/utils/produc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as combo from "@point_of_sale/../tests/tours/utils/combo_popup_util";
+import { inLeftSide } from "@point_of_sale/../tests/tours/utils/common";
+>>>>>>> upstream/18.0
 =======
 import * as combo from "@point_of_sale/../tests/tours/utils/combo_popup_util";
 import { inLeftSide } from "@point_of_sale/../tests/tours/utils/common";
@@ -1308,7 +1313,10 @@ registry.category("web_tour.tours").add("ProductConfiguratorTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1592,6 +1600,9 @@ registry.category("web_tour.tours").add("ProductConfiguratorTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2071,7 +2082,10 @@ registry.category("web_tour.tours").add("ProductConfiguratorTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2803,6 +2817,9 @@ registry.category("web_tour.tours").add("test_combo_variant_mix", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

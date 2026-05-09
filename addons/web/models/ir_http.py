@@ -328,7 +328,11 @@ class Http(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     bots = ["bot", "crawl", "slurp", "spider", "curl", "wget", "facebookexternalhit", "whatsapp", "trendsmapresolver", "pinterest", "instagram"]
+=======
+    bots = ["bot", "crawl", "slurp", "spider", "curl", "wget", "facebookexternalhit", "whatsapp", "trendsmapresolver", "pinterest", "instagram", "google-pagerenderer", "preview"]
+>>>>>>> upstream/18.0
 =======
     bots = ["bot", "crawl", "slurp", "spider", "curl", "wget", "facebookexternalhit", "whatsapp", "trendsmapresolver", "pinterest", "instagram", "google-pagerenderer", "preview"]
 >>>>>>> upstream/18.0
@@ -1538,6 +1542,10 @@ class Http(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            "quick_login": str2bool(IrConfigSudo.get_param('web.quick_login', default=True), True),
+>>>>>>> upstream/18.0
 =======
             "quick_login": str2bool(IrConfigSudo.get_param('web.quick_login', default=True), True),
 >>>>>>> upstream/18.0
@@ -2528,7 +2536,11 @@ class Http(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'child_ids': (comp.child_ids & user.company_ids).ids,
+=======
+                            'child_ids': (comp.child_ids & all_companies_in_hierarchy_sudo).ids,
+>>>>>>> upstream/18.0
 =======
                             'child_ids': (comp.child_ids & all_companies_in_hierarchy_sudo).ids,
 >>>>>>> upstream/18.0
@@ -3481,6 +3493,10 @@ class Http(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'quick_login': str2bool(request.env['ir.config_parameter'].sudo().get_param('web.quick_login', default=True), True),
+>>>>>>> upstream/18.0
 =======
             'quick_login': str2bool(request.env['ir.config_parameter'].sudo().get_param('web.quick_login', default=True), True),
 >>>>>>> upstream/18.0

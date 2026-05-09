@@ -326,7 +326,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, _
+=======
+from odoo import models, _
+>>>>>>> upstream/18.0
 =======
 from odoo import models, _
 >>>>>>> upstream/18.0
@@ -1323,6 +1327,12 @@ class AccountMoveSendWizard(models.TransientModel):
         """
         for wizard in self:
             peppol_partner = wizard.move_id.partner_id.commercial_partner_id.with_company(wizard.company_id)
+<<<<<<< HEAD
+=======
+            if not peppol_partner.peppol_eas or not peppol_partner.peppol_endpoint:
+                peppol_partner._compute_peppol_endpoint()  # Try to recompute the Peppol credentials.
+            eas_label = dict(peppol_partner._fields['peppol_eas']._description_selection(self.env)).get(peppol_partner.peppol_eas)
+>>>>>>> upstream/18.0
             peppol_partner.button_account_peppol_check_partner_endpoint(company=wizard.company_id)
         super()._compute_sending_method_checkboxes()
         for wizard in self:
@@ -1332,7 +1342,20 @@ class AccountMoveSendWizard(models.TransientModel):
                 if peppol_partner.peppol_verification_state == 'not_valid':
                     addendum_disable_reason = _(' (Customer not on Peppol)')
                 elif peppol_partner.peppol_verification_state == 'not_verified':
+<<<<<<< HEAD
                     addendum_disable_reason = _(' (no VAT)')
+=======
+                    # The recomputation of the Peppol credentials did not manage to fill these fields.
+                    addendum_disable_reason = _(' (Customer not on Peppol)')
+                    if not peppol_partner.peppol_eas or not peppol_partner.peppol_endpoint:
+                        if not peppol_partner.vat:
+                            addendum_disable_reason = _(' (no VAT)')
+                        elif eas_label:
+                            addendum_disable_reason = _(
+                                ' (Missing %(eas)s)',
+                                eas=eas_label
+                            )
+>>>>>>> upstream/18.0
                 else:
                     addendum_disable_reason = ''
                 vals_not_valid = {'readonly': True, 'checked': False} if addendum_disable_reason else {}
@@ -1356,6 +1379,7 @@ class AccountMoveSendWizard(models.TransientModel):
                         }
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2347,10 +2371,13 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def action_send_and_print(self, allow_fallback_pdf=False):
         # EXTENDS 'account'
         self.ensure_one()
         if self.sending_methods and 'peppol' in self.sending_methods:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3067,6 +3094,8 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             move = self.move_id.with_company(self.move_id.company_id)
             if move.partner_id.commercial_partner_id.peppol_verification_state != 'valid':
                 raise UserError(_("Partner doesn't have a valid Peppol configuration."))
@@ -3308,6 +3337,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

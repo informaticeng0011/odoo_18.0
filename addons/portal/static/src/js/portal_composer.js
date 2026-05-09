@@ -387,7 +387,11 @@ var PortalComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Object.assign(this.options || {}, {
+=======
+        return {
+>>>>>>> upstream/18.0
 =======
         return {
 >>>>>>> upstream/18.0
@@ -1356,7 +1360,11 @@ var PortalComposer = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         });
+=======
+        };
+>>>>>>> upstream/18.0
 =======
         };
 >>>>>>> upstream/18.0

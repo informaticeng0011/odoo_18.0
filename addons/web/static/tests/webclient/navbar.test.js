@@ -8,6 +8,10 @@ import {
     getService,
     makeMockEnv,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    mockService,
+>>>>>>> upstream/18.0
 =======
     mockService,
 >>>>>>> upstream/18.0
@@ -264,16 +268,22 @@ test("can adapt with 'more' menu sections behavior", async () => {
 
     // TODO: this test case doesn't make sense since it relies on small widths
 <<<<<<< HEAD
+<<<<<<< HEAD
     // with `env.isSmall` still returning `false`.
     const env = await makeMockEnv();
     Object.defineProperty(env, "isSmall", { get: () => false });
 =======
+=======
+>>>>>>> upstream/18.0
     // with `ui.isSmall` still returning `false`.
     mockService("ui", () => ({
         isSmall: false,
         getActiveElementOf: () => document.activeElement,
     }));
     await makeMockEnv();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     // Set menu and mount
@@ -344,16 +354,22 @@ test("'more' menu sections adaptations do not trigger render in some cases", asy
 
     // TODO: this test case doesn't make sense since it relies on small widths
 <<<<<<< HEAD
+<<<<<<< HEAD
     // with `env.isSmall` still returning `false`.
     const env = await makeMockEnv();
     Object.defineProperty(env, "isSmall", { get: () => false });
 =======
+=======
+>>>>>>> upstream/18.0
     // with `ui.isSmall` still returning `false`.
     mockService("ui", () => ({
         isSmall: false,
         getActiveElementOf: () => document.activeElement,
     }));
     await makeMockEnv();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     const navbar = await mountWithCleanup(MyNavbar);
@@ -458,16 +474,22 @@ test("'more' menu sections properly updated on app change", async () => {
 
     // TODO: this test case doesn't make sense since it relies on small widths
 <<<<<<< HEAD
+<<<<<<< HEAD
     // with `env.isSmall` still returning `false`.
     const env = await makeMockEnv();
     Object.defineProperty(env, "isSmall", { get: () => false });
 =======
+=======
+>>>>>>> upstream/18.0
     // with `ui.isSmall` still returning `false`.
     mockService("ui", () => ({
         isSmall: false,
         getActiveElementOf: () => document.activeElement,
     }));
     await makeMockEnv();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     // Set menu and mount
@@ -530,7 +552,10 @@ test("Do not execute adapt when navbar is destroyed", async () => {
     expect.verifySteps([]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 test.tags("desktop");
 test("navbar adapts app brand and menu sections on resize from mobile to desktop and back to mobile", async () => {
@@ -574,4 +599,7 @@ test("navbar adapts app brand and menu sections on resize from mobile to desktop
     expect(".o_menu_brand").toHaveCount(0);
     expect(".o_menu_sections").toHaveCount(0);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

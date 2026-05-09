@@ -1,8 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
 import { deleteBackward } from "../_helpers/user_actions";
+=======
+import { describe, test, tick } from "@odoo/hoot";
+import { deleteBackward, simulateArrowKeyPress, undo } from "../_helpers/user_actions";
+>>>>>>> upstream/18.0
 =======
 import { describe, test, tick } from "@odoo/hoot";
 import { deleteBackward, simulateArrowKeyPress, undo } from "../_helpers/user_actions";
@@ -99,7 +104,10 @@ describe("empty list items, starting and ending with links", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119,6 +127,9 @@ test("Should properly restore selection on undo the delete", async () => {
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
