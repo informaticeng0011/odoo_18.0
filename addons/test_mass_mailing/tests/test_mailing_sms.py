@@ -244,6 +244,10 @@ from odoo.addons.phone_validation.tools import phone_validation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
 >>>>>>> upstream/18.0
@@ -1624,7 +1628,10 @@ class TestMassSMS(TestMassSMSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2417,6 +2424,9 @@ class TestMassSMSTwilio(TestMassSMSCommon, MockSmsTwilioApi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

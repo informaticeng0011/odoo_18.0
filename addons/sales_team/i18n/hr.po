@@ -240,8 +240,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sales_team
 # 
+=======
+# * sales_team
+#
+>>>>>>> upstream/18.0
 =======
 # * sales_team
 #
@@ -1450,6 +1455,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2502,10 +2508,16 @@
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3586,6 +3598,11 @@ msgstr ""
 "PO-Revision-Date: 2026-02-07 10:42+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-05-09 09:08+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "sales_team/hr/>\n"
 "Language: hr\n"
@@ -3594,6 +3611,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4404,6 +4422,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
@@ -4576,9 +4597,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 msgstr "<i class=\"fa fa-envelope me-1\" role=\"img\" aria-label=\"Email\" title=\"Email\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5086,6 +5110,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5461,6 +5488,7 @@ msgstr "Dodaj člana tima"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__crm_team_member_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6135,6 +6163,9 @@ msgid "Add members to automatically assign their documents to this sales team."
 =======
 msgid "Add members to automatically assign their documents to this sales team."
 >>>>>>> upstream/18.0
+=======
+msgid "Add members to automatically assign their documents to this sales team."
+>>>>>>> upstream/18.0
 msgstr ""
 "Dodaj članove za automatsko dodijeljivanje njihovih dokumenata ovom Timu "
 "prodaje."
@@ -6184,7 +6215,11 @@ msgstr "Avatar"
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Big Pretty Button :)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veliki lijepi gumb :)"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_tag
@@ -6261,7 +6296,11 @@ msgstr "Valuta"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__dashboard_button_name
 msgid "Dashboard Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gumb nadzorne ploče"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__dashboard_graph_data
@@ -6298,6 +6337,7 @@ msgstr "Omiljeni članovi"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6972,6 +7012,9 @@ msgid "Favorite teams to display them in the dashboard and access them easily."
 =======
 msgid "Favorite teams to display them in the dashboard and access them easily."
 >>>>>>> upstream/18.0
+=======
+msgid "Favorite teams to display them in the dashboard and access them easily."
+>>>>>>> upstream/18.0
 msgstr "Omiljeni timovi za laki pristup i prikaz na nadzornoj ploči ."
 
 #. module: sales_team
@@ -7016,6 +7059,11 @@ msgid ""
 "If True, users may belong to several sales teams. Otherwise membership is "
 "limited to a single sales team."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako je Točno, korisnici mogu pripadati nekoliko prodajnih timova. Inače je "
+"članstvo ograničeno na jedan prodajni tim."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__message_needaction
@@ -7035,6 +7083,11 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the Sales "
 "Team without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako je aktivno polje postavljeno na Netočno, omogućit će vam skrivanje "
+"prodajnog tima bez njegova uklanjanja."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__image_1920
@@ -7044,7 +7097,11 @@ msgstr "Slika"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__image_128
 msgid "Image (128)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika (128)"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor4
@@ -7077,6 +7134,11 @@ msgid ""
 "Main user sales team. Used notably for pipeline, or to set sales team in "
 "invoicing or subscription."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Glavni prodajni tim korisnika. Koristi se osobito za pipeline ili za "
+"postavljanje prodajnog tima u fakturiranju ili pretplati."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_company_ids
@@ -7096,7 +7158,11 @@ msgstr "Članovi"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_warning
 msgid "Membership Issue Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozorenje o problemu s članstvom"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_has_error
@@ -7168,7 +7234,11 @@ msgstr "POS blagajna"
 #. module: sales_team
 #: model:crm.team,name:sales_team.crm_team_1
 msgid "Pre-Sales"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pred-prodaja"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor1
@@ -7190,12 +7260,20 @@ msgstr "Prodaja"
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_tree
 msgid "Sales Men"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodavači"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_search
 msgid "Sales Person"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodavač"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_team
@@ -7210,18 +7288,30 @@ msgstr "Prodajni tim"
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_team_member
 msgid "Sales Team Member"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Član prodajnog tima"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__crm_team_member_ids
 #: model:ir.model.fields,field_description:sales_team.field_res_users__crm_team_member_ids
 msgid "Sales Team Members"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Članovi prodajnog tima"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__crm_team_member_all_ids
 msgid "Sales Team Members (incl. inactive)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Članovi prodajnog tima (uključujući neaktivne)"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_action_config
@@ -7264,7 +7354,11 @@ msgstr "Usluge"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_favorite
 msgid "Show on dashboard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži na nadzornoj ploči"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor2
@@ -7382,7 +7476,11 @@ msgid "Team Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji o timu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalji o timu"
 >>>>>>> upstream/18.0
@@ -7671,7 +7769,11 @@ msgstr "Članovi tima"
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
 msgid "Team Members are salespersons assigned to specific teams."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Članovi tima su prodavači dodijeljeni određenim timovima."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_action_pipeline
@@ -7681,11 +7783,16 @@ msgstr "Timovi"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__color
 msgid "The color of the channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Boja kanala"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__company_id
 msgid "The default company for this user."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sales_team
@@ -8191,6 +8298,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Zadana tvrtka za ovog korisnika."
+
+#. module: sales_team
 >>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
@@ -8198,6 +8310,7 @@ msgid ""
 "The following team members are not allowed in company '%(company)s' of the "
 "Sales Team '%(team)s': %(users)s"
 msgstr ""
+<<<<<<< HEAD
 
 #. module: sales_team
 <<<<<<< HEAD
@@ -8702,11 +8815,22 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Sljedeći članovi tima nisu dopušteni u tvrtki '%(company)s' prodajnog tima '%"
+"(team)s': %(users)s"
+
+#. module: sales_team
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid ""
 "Those represent the different categories of things you have to do (e.g. "
 "\"Call\" or \"Prepare meeting\")."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ovi predstavljaju različite kategorije stvari koje trebate učiniti (npr. "
+"\"Poziv\" ili \"Priprema sastanka\")."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor6
@@ -8718,12 +8842,21 @@ msgstr "Edukacija"
 msgid ""
 "UX: Give users not to add in the currently chosen team to avoid duplicates"
 msgstr ""
+<<<<<<< HEAD
+=======
+"UX: daj korisnike koje ne treba dodati u trenutno odabrani tim radi "
+"izbjegavanja duplikata"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__member_company_ids
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_company_ids
 msgid "UX: Limit to team company or all if no company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UX: ograniči na tvrtku tima ili sve ako nema tvrtke"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #. odoo-python
@@ -8733,6 +8866,7 @@ msgstr ""
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9408,6 +9542,12 @@ msgid "Use Sales Teams to organize your sales departments and draw up reports."
 msgid "Use Sales Teams to organize your sales departments and draw up reports."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "Use Sales Teams to organize your sales departments and draw up reports."
+msgstr ""
+"Koristite prodajne timove za organizaciju svojih prodajnih odjela i izradu "
+"izvještaja."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_pipeline
@@ -9416,6 +9556,11 @@ msgid ""
 "Use Sales Teams to organize your sales departments.\n"
 "                Each team will work with a separate pipeline."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Koristite prodajne timove za organizaciju svojih prodajnih odjela.\n"
+"                Svaki tim radit će s zasebnim pipelineom."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.sales_team_crm_tag_action
@@ -9663,6 +9808,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristite oznake za upravljanje i praćenje svojih prilika (struktura "
+"proizvoda, vrsta prodaje, ...)"
+>>>>>>> upstream/18.0
 =======
 "Koristite oznake za upravljanje i praćenje svojih prilika (struktura "
 "proizvoda, vrsta prodaje, ...)"
@@ -10798,7 +10948,10 @@ msgstr "Korisnik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11139,6 +11292,7 @@ msgid ""
 "User '%(user)s' is not allowed in the company '%(company)s' of the Sales "
 "Team '%(team)s'."
 msgstr ""
+<<<<<<< HEAD
 
 #. module: sales_team
 <<<<<<< HEAD
@@ -11646,11 +11800,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
 msgstr ""
+=======
+"Korisnik '%(user)s' nije dopušten u tvrtki '%(company)s' prodajnog tima '%"
+"(team)s'."
+
+#. module: sales_team
+#: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
+msgid "User Company"
+msgstr "Tvrtka korisnika"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_in_teams_ids
 msgid "User In Teams"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik u timovima"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_res_users__sale_team_id
@@ -11895,7 +12062,11 @@ msgid "User Sales Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajni tim korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodajni tim korisnika"
 >>>>>>> upstream/18.0
@@ -12630,7 +12801,11 @@ msgstr "Korisnik: samo vlastiti dokumenti"
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__member_ids
 msgid "Users assigned to this team."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnici dodijeljeni ovom timu."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.salesteam_website_sales
@@ -12648,6 +12823,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13491,6 +13667,13 @@ msgid ""
 "(duplicates)s already exist(s)."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You are trying to create duplicate membership(s). We found that %"
+"(duplicates)s already exist(s)."
+msgstr ""
+"Pokušavate kreirati duplicirano članstvo. Pronašli smo da %(duplicates)s već "
+"postoji."
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
@@ -13735,7 +13918,11 @@ msgid "e.g. North America"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Sjeverna Amerika"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Sjeverna Amerika"
 >>>>>>> upstream/18.0
@@ -14460,7 +14647,11 @@ msgstr "npr. Sjeverna Amerika"
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.sales_team_crm_tag_view_form
 msgid "e.g. Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Usluge"
+>>>>>>> upstream/18.0
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_salesman_all_leads
@@ -14477,6 +14668,7 @@ msgstr "korisnik će imati pristup samo do svojih podataka u prodaji."
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_manager
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14985,6 +15177,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "the user will have an access to the sales configuration as well as statistic "
 "reports."
 msgstr ""
@@ -15156,6 +15350,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

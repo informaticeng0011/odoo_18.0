@@ -28,7 +28,11 @@ class ProjectMilestone(models.Model):
     product_uom = fields.Many2one(related="sale_line_id.product_uom", export_string_translation=False)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     product_uom_qty = fields.Float("Quantity", compute="_compute_product_uom_qty", readonly=False)
+=======
+    product_uom_qty = fields.Float("Quantity", compute="_compute_product_uom_qty", compute_sudo=True, readonly=False)
+>>>>>>> upstream/18.0
 =======
     product_uom_qty = fields.Float("Quantity", compute="_compute_product_uom_qty", compute_sudo=True, readonly=False)
 >>>>>>> upstream/18.0

@@ -239,7 +239,11 @@ import { Record } from "./record";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { IS_DELETED_SYM, STORE_SYM } from "./misc";
+=======
+import { STORE_SYM } from "./misc";
+>>>>>>> upstream/18.0
 =======
 import { STORE_SYM } from "./misc";
 >>>>>>> upstream/18.0
@@ -1224,6 +1228,10 @@ export class Store extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const deletingRecordsByLocalId = new Map();
+>>>>>>> upstream/18.0
 =======
         const deletingRecordsByLocalId = new Map();
 >>>>>>> upstream/18.0
@@ -2277,7 +2285,13 @@ export class Store extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             const usingRecord2 = toRaw(this.recordByLocalId).get(localId);
+=======
+                            const usingRecord2 =
+                                toRaw(this.recordByLocalId).get(localId) ||
+                                deletingRecordsByLocalId.get(localId);
+>>>>>>> upstream/18.0
 =======
                             const usingRecord2 =
                                 toRaw(this.recordByLocalId).get(localId) ||
@@ -3732,6 +3746,11 @@ export class Store extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    deletingRecordsByLocalId.set(record.localId, record);
+                    this.recordByLocalId.delete(record.localId);
+>>>>>>> upstream/18.0
 =======
                     deletingRecordsByLocalId.set(record.localId, record);
                     this.recordByLocalId.delete(record.localId);
@@ -4939,9 +4958,13 @@ export class Store extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     record._[IS_DELETED_SYM] = true;
                     delete record.Model.records[record.localId];
                     this.recordByLocalId.delete(record.localId);
+=======
+                    deletingRecordsByLocalId.delete(record.localId);
+>>>>>>> upstream/18.0
 =======
                     deletingRecordsByLocalId.delete(record.localId);
 >>>>>>> upstream/18.0

@@ -266,6 +266,12 @@ class TestTestSuite(TestCase, metaclass=MetaCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        def get_method_additional_tags(self, method):
+            return []
+
+>>>>>>> upstream/18.0
 =======
         def get_method_additional_tags(self, method):
             return []
@@ -1811,7 +1817,11 @@ class TestRunnerLoggingCommon(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         message = re.sub(r'^\s*\^+\s*\n', '', message, flags=re.MULTILINE)
+=======
+        message = re.sub(r'^\s*~*\^+~*\s*\n', '', message, flags=re.MULTILINE)
+>>>>>>> upstream/18.0
 =======
         message = re.sub(r'^\s*~*\^+~*\s*\n', '', message, flags=re.MULTILINE)
 >>>>>>> upstream/18.0

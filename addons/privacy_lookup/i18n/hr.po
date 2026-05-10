@@ -240,8 +240,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* privacy_lookup
 # 
+=======
+# * privacy_lookup
+#
+>>>>>>> upstream/18.0
 =======
 # * privacy_lookup
 #
@@ -1447,6 +1452,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2408,10 +2414,16 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3345,6 +3357,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-13 13:59+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-09 09:15+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "privacy_lookup/hr/>\n"
 "Language: hr\n"
@@ -3353,6 +3370,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4072,6 +4090,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__additional_note
@@ -4081,17 +4102,29 @@ msgstr "Dodatna napomena"
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__anonymized_email
 msgid "Anonymized Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anonimizirana e-mail"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__anonymized_name
 msgid "Anonymized Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anonimizirano ime"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.actions.server,name:privacy_lookup.ir_actions_server_archive_all
 msgid "Archive Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arhiviraj odabir"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #. odoo-python
@@ -4103,7 +4136,11 @@ msgstr "Arhivirano"
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_line_view_search
 msgid "Can be archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Može se arhivirati"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model,name:privacy_lookup.model_res_partner
@@ -4132,6 +4169,7 @@ msgstr "Datum"
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_line_view_tree
 msgid "Delete"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5093,17 +5131,28 @@ msgstr "Obriši"
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.actions.server,name:privacy_lookup.ir_actions_server_unlink_all
 msgid "Delete Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši odabir"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #. odoo-python
 #: code:addons/privacy_lookup/wizard/privacy_lookup_wizard.py:0
 msgid "Deleted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrisano"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__display_name
@@ -5127,12 +5176,20 @@ msgstr "Email"
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard__execution_details
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard_line__execution_details
 msgid "Execution Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji izvršavanja"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__records_description
 msgid "Found Records"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pronađeni zapisi"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_line_view_search
@@ -5142,12 +5199,20 @@ msgstr "Grupiraj po"
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__user_id
 msgid "Handled By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rukovatelj"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard_line__has_active
 msgid "Has Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima aktivno"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__id
@@ -5158,6 +5223,7 @@ msgid "ID"
 msgstr "ID"
 
 #. module: privacy_lookup
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6382,11 +6448,26 @@ msgstr ""
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard_line__is_active
 msgid "Is Active"
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/privacy_lookup/wizard/privacy_lookup_wizard.py:0
+msgid "Invalid email address “%s”"
+msgstr "Neispravna e-mail adresa \"%s\""
+
+#. module: privacy_lookup
+#: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard_line__is_active
+msgid "Is Active"
+msgstr "Je aktivno"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard_line__is_unlinked
 msgid "Is Unlinked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije povezano"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_log__write_uid
@@ -6420,7 +6501,11 @@ msgstr "Zapisnik"
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_view_form
 msgid "Lookup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraga"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_line_view_search
@@ -6435,7 +6520,11 @@ msgstr "Naziv"
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_line_view_tree
 msgid "Open Record"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvori zapis"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.ui.menu,name:privacy_lookup.privacy_menu
@@ -6446,7 +6535,11 @@ msgstr "Privatnost"
 #: model:ir.model,name:privacy_lookup.model_privacy_log
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_log_view_form
 msgid "Privacy Log"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevnik privatnosti"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.actions.act_window,name:privacy_lookup.privacy_log_action
@@ -6454,7 +6547,11 @@ msgstr ""
 #: model:ir.ui.menu,name:privacy_lookup.pricacy_log_menu
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_log_view_list
 msgid "Privacy Logs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dnevnici privatnosti"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #. odoo-python
@@ -6704,7 +6801,11 @@ msgid "Privacy Lookup"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled privatnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled privatnosti"
 >>>>>>> upstream/18.0
@@ -7429,17 +7530,29 @@ msgstr "Pregled privatnosti"
 #. module: privacy_lookup
 #: model:ir.actions.act_window,name:privacy_lookup.action_privacy_lookup_wizard_line
 msgid "Privacy Lookup Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka pretrage privatnosti"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model,name:privacy_lookup.model_privacy_lookup_wizard
 msgid "Privacy Lookup Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak pretrage privatnosti"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model,name:privacy_lookup.model_privacy_lookup_wizard_line
 msgid "Privacy Lookup Wizard Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka čarobnjaka pretrage privatnosti"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard_line__resource_ref
@@ -7449,7 +7562,11 @@ msgstr "Zapis"
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard__records_description
 msgid "Records Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis zapisa"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_view_form
@@ -7709,7 +7826,11 @@ msgid "Resource name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv resursa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv resursa"
 >>>>>>> upstream/18.0
@@ -8434,32 +8555,52 @@ msgstr "Naziv resursa"
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_line_view_search
 msgid "Search References"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraži reference"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #. odoo-python
 #: code:addons/privacy_lookup/wizard/privacy_lookup_wizard.py:0
 msgid "The record is already unlinked."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapis je već odvezan."
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #. odoo-python
 #: code:addons/privacy_lookup/models/privacy_log.py:0
 msgid "This email address is not valid (%s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ova e-mail adresa nije valjana (%s)"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model_terms:ir.ui.view,arch_db:privacy_lookup.privacy_lookup_wizard_line_view_tree
 msgid ""
 "This operation is irreversible. Do you wish to proceed to the record "
 "deletion?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ova operacija je nepovratna. Želite li nastaviti s brisanjem zapisa?"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #. odoo-python
 #: code:addons/privacy_lookup/wizard/privacy_lookup_wizard.py:0
 msgid "Unarchived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dearhivirano"
+>>>>>>> upstream/18.0
 
 #. module: privacy_lookup
 #: model:ir.model.fields,field_description:privacy_lookup.field_privacy_lookup_wizard_line__wizard_id

@@ -493,7 +493,10 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1270,6 +1273,7 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1748,6 +1752,8 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_branch_user_bank_statement_foreign_currency(self):
         # Create a user that only belongs to branch a
@@ -1789,4 +1795,7 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
             'amount_total_in_currency_signed': 25,
             'amount_total_signed': 12.5,
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

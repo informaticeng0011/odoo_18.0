@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -649,11 +650,15 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1627,10 +1632,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-05-09 09:13+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/portal/"
+"bs/>\n"
+>>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2598,22 +2611,39 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "\" to validate your action."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "\" kako biste potvrdili svoju radnju."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 msgid "%s days overdue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s dana zakašnjenja"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "1. Enter your password to confirm you own this account"
 msgstr ""
+<<<<<<< HEAD
+=======
+"1. Unesite svoju lozinku kako biste potvrdili da ste vlasnik ovog računa"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
@@ -2621,6 +2651,7 @@ msgid ""
 "2. Confirm you want to delete your account by\n"
 "                                        copying down your login ("
 msgstr ""
+<<<<<<< HEAD
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.my_account_link
@@ -3381,10 +3412,21 @@ msgid ""
 "<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary text-primary-"
 "emphasis\"/> My Account"
 >>>>>>> upstream/18.0
+=======
+"2. Potvrdite da želite izbrisati svoj račun tako što ćete\n"
+"                                        kopirati svoje podatke za prijavu ("
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.my_account_link
+msgid ""
+"<i class=\"fa fa-fw fa-id-card-o me-1 small text-primary text-primary-"
+"emphasis\"/> My Account"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4142,10 +4184,16 @@ msgid ""
 "<i class=\"fa fa-fw fa-sign-out me-1 small text-primary text-primary-"
 "emphasis\"/> Logout"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"<i class=\"fa fa-fw fa-sign-out me-1 small text-primary text-primary-"
+"emphasis\"/> Logout"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_dropdown
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4534,6 +4582,8 @@ msgid "<i class=\"fa fa-pencil\"/> Edit"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-fw fa-th me-1 small text-primary text-primary-emphasis\"/> "
 "Apps"
@@ -4667,6 +4717,7 @@ msgid "<i class=\"fa fa-pencil\"/> Edit information"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4919,10 +4970,14 @@ msgid "<i class=\"fa fa-pencil\"/> Edit information"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-pencil\"/> Uredi informacije"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Back to edit mode"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -7081,11 +7136,43 @@ msgid ""
 "<i title=\"Documentation\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>Nazad na uređivanje"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.record_pager
+msgid ""
+"<i class=\"oi oi-chevron-left\" role=\"img\" aria-label=\"Previous\" "
+"title=\"Previous\"/>"
+msgstr ""
+"<i class=\"oi oi-chevron-left\" role=\"img\" aria-label=\"Prethodno\" "
+"title=\"Prethodno\"/>"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.record_pager
+msgid ""
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Next\" "
+"title=\"Next\"/>"
+msgstr ""
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Sljedeće\" "
+"title=\"Sljedeće\"/>"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+msgid ""
+"<i title=\"Documentation\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
+msgstr ""
+"<i title=\"Dokumentacija\" class=\"fa fa-fw o_button_icon fa-info-circle\"/>"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
 msgid "<option value=\"\">Country...</option>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<option value=\"\">Država...</option>"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -7220,8 +7307,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<small class=\"form-text text-muted\">Changing company name or VAT number is not allowed once document(s) have been issued for your account. <br/>Please contact us directly for this operation.</small>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7617,6 +7707,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7873,22 +7966,38 @@ msgstr ""
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small me-1 navbar-text\">Filter By:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"small me-1 navbar-text\">Filtriraj po:</span>"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small me-1 navbar-text\">Group By:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"small me-1 navbar-text\">Grupiši po:</span>"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small me-1 navbar-text\">Sort By:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"small me-1 navbar-text\">Sortiraj po:</span>"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
 msgid "<strong>Open </strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Otvoreno </strong>"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:mail.template,body_html:portal.mail_template_data_portal_welcome
@@ -8019,9 +8128,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8412,6 +8524,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8793,6 +8908,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your Account</span><br>\n"
@@ -8803,6 +8919,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9197,6 +9315,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9581,6 +9702,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
 "                    <div>\n"
@@ -9599,6 +9721,8 @@ msgid ""
 "                <tr><td style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10003,6 +10127,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10387,6 +10514,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\" align=\"left\">\n"
 "                    <t t-out=\"object.user_id.company_id.name or ''\">YourCompany</t>\n"
@@ -10399,6 +10527,8 @@ msgid ""
 "                    <t t-if=\"object.user_id.company_id.website\">\n"
 "                        | <a t-attf-href=\"'%s' % {{ object.user_id.company_id.website }}\" style=\"text-decoration:none; color: #454748;\" t-out=\"object.user_id.company_id.website or ''\">http://www.example.com</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10795,6 +10925,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11182,10 +11315,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 13px;\">\n"
 "        Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=portalinvite\" style=\"color: #875A7B;\">Odoo</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11568,6 +11704,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11829,6 +11968,7 @@ msgstr ""
 #. module: portal
 #: model:ir.model,name:portal.model_res_users_apikeys_description
 msgid "API Key Description"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -12850,11 +12990,27 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "Accept & Sign"
 msgstr ""
+=======
+msgstr "Opis API ključa"
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/js/portal_security.js:0
+msgid "API Key Ready"
+msgstr "API ključ spreman"
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/signature_form/signature_form.js:0
+msgid "Accept & Sign"
+msgstr "Prihvati i potpiši"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_warning
 #: model:ir.model.fields,field_description:portal.field_portal_share__access_warning
 msgid "Access warning"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -13245,36 +13401,66 @@ msgstr ""
 #: code:addons/portal/controllers/portal.py:0
 msgid "Account deleted!"
 msgstr ""
+=======
+msgstr "Upozorenje pristupa"
+
+#. module: portal
+#. odoo-python
+#: code:addons/portal/controllers/portal.py:0
+msgid "Account deleted!"
+msgstr "Račun izbrisan!"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Add a note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj bilješku"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Add attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj prilog"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Add contacts to share the document..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodajte kontakte za dijeljenje dokumenta..."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_share__note
 msgid "Add extra content to display in the email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodajte dodatni sadržaj za prikaz u emailu"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Added On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodano"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields.selection,name:portal.selection__portal_wizard_user__email_state__exist
 msgid "Already Registered"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -13665,11 +13851,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Are you sure you want to do this?"
 msgstr ""
+=======
+msgstr "Već registrovan"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+msgid "Are you sure you want to do this?"
+msgstr "Jeste li sigurni da to želite učiniti?"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Avatar"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -14053,6 +14248,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Avatar"
+
+#. module: portal
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Cancel"
@@ -14222,7 +14422,11 @@ msgid "Change Password"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promjeni šifru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Promjeni šifru"
 >>>>>>> upstream/18.0
@@ -14711,6 +14915,7 @@ msgstr "Promjeni šifru"
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15850,6 +16055,17 @@ msgid "Changing company name is not allowed once document(s) have been issued fo
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Changing VAT number is not allowed once document(s) have been issued for "
+"your account. Please contact us directly for this operation."
+msgstr ""
+"Promjena PDV broja nije dozvoljena nakon što su dokumenti izdani za vaš "
+"račun. Molimo kontaktirajte nas izravno za ovu operaciju."
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
+>>>>>>> upstream/18.0
 msgid ""
 "Changing company name is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
@@ -15985,6 +16201,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16240,6 +16459,7 @@ msgstr ""
 
 #. module: portal
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16747,6 +16967,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "Check failed"
 msgstr ""
+=======
+#: code:addons/portal/static/src/js/portal_security.js:0
+msgid "Check failed"
+msgstr "Provjera nije uspjela"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -16755,6 +16980,7 @@ msgstr "Grad"
 
 #. module: portal
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18023,6 +18249,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 #: model_terms:ir.ui.view,arch_db:portal.side_content
 >>>>>>> upstream/18.0
+=======
+#: code:addons/portal/static/src/signature_form/signature_form.xml:0
+msgid "Click here to see your document."
+msgstr "Kliknite ovdje da biste vidjeli svoj dokument."
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/js/portal_security.js:0
+#: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
+#: model_terms:ir.ui.view,arch_db:portal.side_content
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Close"
 msgstr "Zatvori"
@@ -18035,6 +18272,7 @@ msgstr "Naziv firme"
 #. module: portal
 #: model:ir.model,name:portal.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -18717,6 +18955,14 @@ msgstr "Potvrdi šifru"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_home
 msgid "Configure your connection parameters"
 msgstr ""
+=======
+msgstr "Postavke"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_home
+msgid "Configure your connection parameters"
+msgstr "Konfigurirajte parametre veze"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -18734,6 +18980,7 @@ msgstr "Potvrdi šifru"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_home
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Connection &amp; Security"
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19111,6 +19358,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Veza &amp; Sigurnost"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_res_partner
@@ -19241,6 +19491,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:portal.portal_layout
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_contact
+#: model_terms:ir.ui.view,arch_db:portal.side_content
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_contact
@@ -19877,7 +20133,11 @@ msgstr "Kontakt"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "Contact Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji kontakta"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
@@ -19910,6 +20170,7 @@ msgid "Created on"
 msgstr "Kreirano"
 
 #. module: portal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20303,16 +20564,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:portal.field_res_config_settings__portal_allow_api_keys
 msgid "Customer API Keys"
 msgstr ""
+=======
+#: model:ir.model.fields,field_description:portal.field_res_config_settings__portal_allow_api_keys
+msgid "Customer API Keys"
+msgstr "API ključevi kupaca"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_mixin__access_url
 msgid "Customer Portal URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL portala za kupce"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.res_config_settings_view_form
 msgid "Customers can generate API Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupci mogu generirati API ključeve"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
@@ -20484,7 +20758,11 @@ msgid "Delete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
@@ -20972,11 +21250,16 @@ msgstr "Obriši"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Delete Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izbriši račun"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Description"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21641,6 +21924,8 @@ msgstr "Detalji"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Opis"
 
 #. module: portal
@@ -21772,6 +22057,9 @@ msgstr "Detalji"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22027,13 +22315,18 @@ msgstr "Detalji"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Developer API Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razvojni API ključevi"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid ""
 "Disable your account, preventing any further login.<br/>\n"
 "                                        <b>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23570,6 +23863,25 @@ msgstr "Odbaci"
 msgid "Discard"
 msgstr "Odbaci"
 >>>>>>> upstream/18.0
+=======
+"                                            <i class=\"fa fa-exclamation-"
+"triangle text-danger\"/>\n"
+"                                            This action cannot be undone.\n"
+"                                        </b>"
+msgstr ""
+"Onemogućite svoj račun i tako spriječite daljnje prijave.<br/>\n"
+"                                        <b>\n"
+"                                            <i class=\"fa fa-exclamation-"
+"triangle text-danger\"/>\n"
+"                                            Ova se radnja ne može "
+"poništiti.\n"
+"                                        </b>"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_details
+msgid "Discard"
+msgstr "Odbaci"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__display_name
@@ -23579,6 +23891,7 @@ msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: portal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24106,12 +24419,22 @@ msgstr "Dokumenti"
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 msgid "Due in %s days"
 msgstr ""
+=======
+#. odoo-javascript
+#: code:addons/portal/static/src/js/portal_sidebar.js:0
+msgid "Due in %s days"
+msgstr "Rok dospijeća: %s dana"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/js/portal_sidebar.js:0
 msgid "Due today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dospijeva danas"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__email
@@ -24122,7 +24445,11 @@ msgstr "E-Mail"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Email Address already taken by another user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail adresa je već zauzeta od strane drugog korisnika"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_mail_thread
@@ -24131,6 +24458,7 @@ msgstr "Nit e-pošte"
 
 #. module: portal
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24897,11 +25225,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: code:addons/portal/static/src/xml/portal_security.xml:0
+msgid "Enter a description of and purpose for the key."
+msgstr "Unesite opis i namjenu ključa."
+
+#. module: portal
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Expiration Date"
 msgstr "Datum isteka roka"
 
 #. module: portal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25665,10 +26001,23 @@ msgstr ""
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Give a duration for the key's validity"
 msgstr ""
+=======
+#. odoo-javascript
+#: code:addons/portal/static/src/xml/portal_security.xml:0
+msgid "Forgot password?"
+msgstr "Zaboravljena lozinka?"
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/xml/portal_security.xml:0
+msgid "Give a duration for the key's validity"
+msgstr "Navedite trajanje važenja ključa"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Go Back"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -26051,22 +26400,42 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Grant Access"
 msgstr ""
+=======
+msgstr "Nazad"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.wizard_view
+msgid "Grant Access"
+msgstr "Dodijeli pristup"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_wizard
 msgid "Grant Portal Access"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodjeli pristup portalu"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.actions.act_window,name:portal.partner_wizard_action
 #: model:ir.actions.server,name:portal.partner_wizard_action_create_and_open
 msgid "Grant portal access"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodijeli pristup portalu"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_http
 msgid "HTTP Routing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HTTP rutiranje"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -26075,6 +26444,11 @@ msgid ""
 "Here is your new API key, use it instead of a password for RPC access.\n"
 "                Your login is still necessary for interactive usage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Evo vašeg novog API ključa, koristite ga umjesto lozinke za RPC pristup.\n"
+"                Vaša prijava je i dalje potrebna za interaktivno korištenje."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_breadcrumbs
@@ -26092,6 +26466,7 @@ msgstr "ID"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Important:"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -27011,11 +27386,28 @@ msgstr ""
 #: model:ir.model.fields.selection,name:portal.selection__portal_wizard_user__email_state__ko
 msgid "Invalid"
 msgstr ""
+=======
+msgstr "Važno:"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.wizard_view
+msgid "Internal User"
+msgstr "Interni korisnik"
+
+#. module: portal
+#: model:ir.model.fields.selection,name:portal.selection__portal_wizard_user__email_state__ko
+msgid "Invalid"
+msgstr "Neispravno"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Invalid Email Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nevažeća adresa e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
@@ -27027,12 +27419,20 @@ msgstr "Nepravilan email! Molimo unesite validnu email adresu."
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 msgid "Invalid report type: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nevažeća vrsta izvještaja: %s"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__welcome_message
 msgid "Invitation Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozivnica"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:mail.template,description:portal.mail_template_data_portal_welcome
@@ -27040,6 +27440,7 @@ msgid "Invitation email to contacts to create a user account"
 msgstr ""
 
 #. module: portal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27802,11 +28203,26 @@ msgstr ""
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__is_internal
 msgid "Is Internal"
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/portal/wizard/portal_share.py:0
+msgid "Invitation to access %s"
+msgstr "Pozivnica za pristup %s"
+
+#. module: portal
+#: model:ir.model.fields,field_description:portal.field_portal_wizard_user__is_internal
+msgid "Is Internal"
+msgstr "Je interni"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__is_portal
 msgid "Is Portal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je portal"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -27815,6 +28231,11 @@ msgid ""
 "It is very important that this description be clear\n"
 "                and complete,"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vrlo je važno da ovaj opis bude jasan \n"
+"i potpun,"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__write_uid
@@ -27833,13 +28254,21 @@ msgstr "Zadnje ažurirano"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__login_date
 msgid "Latest Authentication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najnovija autentifikacija"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Leave a comment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostavi komentar"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__share_link
@@ -27847,6 +28276,7 @@ msgid "Link"
 msgstr "Veza"
 
 #. module: portal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28605,6 +29035,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+msgid "Log out from all devices"
+msgstr "Odjava sa svih uređaja"
+
+#. module: portal
+>>>>>>> upstream/18.0
 #: model:ir.model,name:portal.model_mail_message
 msgid "Message"
 msgstr "Poruka"
@@ -28612,6 +29049,7 @@ msgstr "Poruka"
 #. module: portal
 #. odoo-python
 #: code:addons/portal/models/mail_thread.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29370,11 +29808,19 @@ msgid ""
 "(field_name)s field."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid ""
+"Model %(model_name)s does not support token signature, as it does not have %"
+"(field_name)s field."
+msgstr ""
+"Model %(model_name)s ne podržava potpis tokena jer nema polje %(field_name)s."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 msgid "Multi company reports are not supported."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -29901,6 +30347,14 @@ msgstr "Naziv:"
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
 msgid "My account"
 msgstr ""
+=======
+msgstr "Izvještaji za više kompanija nisu podržani."
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_layout
+msgid "My account"
+msgstr "Moj račun"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -30031,6 +30485,9 @@ msgstr "Naziv:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30287,6 +30744,7 @@ msgstr "Naziv:"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Name your key"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -30799,15 +31257,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "New API Key"
 msgstr ""
+=======
+msgstr "Nazovite ključ"
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/js/portal_security.js:0
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+msgid "New API Key"
+msgstr "Novi API ključ"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "New Password:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nova lozinka:"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31187,10 +31660,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Next"
 msgstr "Slijedeće"
 
 #. module: portal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31574,6 +32050,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:portal.field_portal_share__note
 msgid "Note"
 msgstr "Zabilješka"
@@ -31581,19 +32059,31 @@ msgstr "Zabilješka"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "Odoo Logo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo Logo"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/models/res_users_apikeys_description.py:0
 msgid "Only internal and portal users can create API keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo interni korisnici i korisnici portala mogu kreirati API ključeve"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Oops! Something went wrong. Try to reload the page and log in."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ups! Nešto je pošlo po zlu. Pokušajte ponovo učitati stranicu i prijaviti se."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__partner_ids
@@ -31759,7 +32249,11 @@ msgid "Partners"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partneri"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partneri"
 >>>>>>> upstream/18.0
@@ -32408,7 +32902,11 @@ msgid "Password"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šifra"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šifra"
 >>>>>>> upstream/18.0
@@ -32896,12 +33394,20 @@ msgstr "Šifra"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Password Updated!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lozinka ažurirana!"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Password:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lozinka:"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -32913,33 +33419,57 @@ msgstr "Telefon"
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Please enter your password to confirm you own this account"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Molimo unesite svoju lozinku kako biste potvrdili da ste vlasnik ovog računa"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Portal Access Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje pristupom portalu"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_url
 msgid "Portal Access URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL za pristup portalu"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_mixin
 msgid "Portal Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Portal Mixin"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_share
 msgid "Portal Sharing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dijeljenje portala"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_portal_wizard_user
 msgid "Portal User Config"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfiguracija korisnika portala"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:mail.template,name:portal.mail_template_data_portal_welcome
@@ -32952,6 +33482,7 @@ msgid "Powered by"
 msgstr "Podržano od strane"
 
 #. module: portal
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34106,16 +34637,38 @@ msgid ""
 "Put my email and phone in a block list to make sure I'm never contacted again"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+#. odoo-javascript
+#: code:addons/portal/static/src/xml/portal_chatter.xml:0
+msgid "Previous"
+msgstr "Prethodni"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+msgid ""
+"Put my email and phone in a block list to make sure I'm never contacted again"
+msgstr ""
+"Stavi moju e-poštu i telefon na listu blokiranih kako bih bio siguran da me "
+"više nikada neće kontaktirati"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_qweb
 msgid "Qweb"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Qweb"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Re-Invite"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno pozovi"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__partner_ids
@@ -34125,7 +34678,11 @@ msgstr "Primaoci"
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__resource_ref
 msgid "Related Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani dokument"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__res_id
@@ -34140,6 +34697,7 @@ msgstr "Povezani model dokumenta"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Revoke Access"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -34523,6 +35081,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "Revoke All Sessions"
 msgstr ""
+=======
+msgstr "Opozovi pristup"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+msgid "Revoke All Sessions"
+msgstr "Opozovi sve sesije"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -34531,6 +35097,7 @@ msgstr "Sačuvaj"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34909,6 +35476,10 @@ msgstr "Sačuvaj"
 >>>>>>> upstream/18.0
 msgid "Scope"
 msgstr ""
+=======
+msgid "Scope"
+msgstr "Opseg"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
@@ -34918,6 +35489,7 @@ msgstr "Pretraži"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Security"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35440,11 +36012,14 @@ msgstr "Sigurnost"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Sigurnost"
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/js/portal_security.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35823,6 +36398,10 @@ msgstr "Sigurnost"
 >>>>>>> upstream/18.0
 msgid "Security Control"
 msgstr ""
+=======
+msgid "Security Control"
+msgstr "Sigurnosna kontrola"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_mixin__access_token
@@ -35833,6 +36412,7 @@ msgstr "Sigurnosni token"
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid ""
 "Select which contacts should belong to the portal in the list below.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36212,10 +36792,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        The email address of each selected contact must be "
 "valid and unique.\n"
 "                        If necessary, you can fix any contact's email "
 "address directly in the list."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37101,6 +37684,18 @@ msgstr ""
 =======
 #: code:addons/portal/static/src/js/portal_composer.js:0
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Na donjoj listi odaberite kontakte koji bi trebali pripadati portalu.\n"
+"                        E-mail adresa svakog odabranog kontakta mora biti "
+"ispravna i jedinstvena.\n"
+"                        Ako je potrebno možete popraviti e-mail adresu "
+"izravno na listi."
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/js/portal_composer.js:0
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Send"
 msgstr "Pošalji"
@@ -37232,7 +37827,10 @@ msgstr "Pošalji"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37613,6 +38211,7 @@ msgstr "Pošalji poruku"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37868,6 +38467,12 @@ msgstr "Pošalji poruku"
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 msgid "Share Document"
 msgstr ""
+=======
+#: model:ir.actions.act_window,name:portal.portal_share_action
+#: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
+msgid "Share Document"
+msgstr "Dijeli dokument"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_ir_ui_view__customize_show
@@ -38033,7 +38638,11 @@ msgid "Show As Optional Inherit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži kao opcionalno nasljeđeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži kao opcionalno nasljeđeno"
 >>>>>>> upstream/18.0
@@ -38521,6 +39130,7 @@ msgstr "Prikaži kao opcionalno nasljeđeno"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.user_sign_in
 msgid "Sign in"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -38907,6 +39517,14 @@ msgid "Some fields are required. Please make sure to write a message or attach a
 #: model_terms:ir.ui.view,arch_db:portal.frontend_layout
 msgid "Skip to Content"
 msgstr ""
+=======
+msgstr "Prijava"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.frontend_layout
+msgid "Skip to Content"
+msgstr "Preskoči na sadržaj"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -38914,6 +39532,7 @@ msgstr ""
 msgid ""
 "Some fields are required. Please make sure to write a message or attach a "
 "document"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39291,6 +39910,10 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Neka polja su obavezna. Molimo vas da napišete poruku ili priložite dokument"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
@@ -39467,7 +40090,11 @@ msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status"
 >>>>>>> upstream/18.0
@@ -40084,9 +40711,12 @@ msgstr "Ulica"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_signature.xml:0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40469,6 +41099,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40722,16 +41353,25 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "Thank You!"
 msgstr ""
+=======
+msgid "Thank You!"
+msgstr "Hvala Vam!"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 msgid "The attachment %s cannot be removed because it is linked to a message."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilog %s ne može se ukloniti jer je povezan s porukom."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41370,10 +42010,16 @@ msgid ""
 "The attachment %s cannot be removed because it is not in a pending state."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid ""
+"The attachment %s cannot be removed because it is not in a pending state."
+msgstr "Prilog %s ne može se ukloniti jer nije u stanju čekanja."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42006,17 +42652,27 @@ msgid ""
 "The attachment does not exist or you do not have the rights to access it."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid ""
+"The attachment does not exist or you do not have the rights to access it."
+msgstr "Prilog ne postoji ili nemate prava pristupa."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "The contact \"%s\" does not have a valid email."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kontakt \"%s\" nema važeću e-mail adresu."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "The contact \"%s\" has the same email as an existing user"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -42780,10 +43436,14 @@ msgid "The key cannot be retrieved later and provides"
 msgid "The key cannot be retrieved later and provides"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Kontakt \"%s\" ima istu e-mail adresu kao i postojeći korisnik"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43290,16 +43950,31 @@ msgid "The key will be deleted once this period has elapsed."
 msgid "The key will be deleted once this period has elapsed."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "The key cannot be retrieved later and provides"
+msgstr "Ključ se ne može kasnije dohvatiti i pruža"
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/xml/portal_security.xml:0
+msgid "The key will be deleted once this period has elapsed."
+msgstr "Ključ će biti izbrisan nakon isteka ovog perioda."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 msgid "The new password and its confirmation must be identical."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nova lozinka i njena potvrda moraju biti identične."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43932,22 +44607,36 @@ msgid ""
 "The old password you provided is incorrect, your password was not changed."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid ""
+"The old password you provided is incorrect, your password was not changed."
+msgstr "Trenutna lozinka nije tačno upisana. Lozinka nije promijenjena."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "The partner \"%s\" already has the portal access."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner \"%s\" već ima pristup portalu."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "The partner \"%s\" has no portal access or is internal."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner \"%s\" nema pristup portalu ili je interni."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44712,16 +45401,29 @@ msgid ""
 "user."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid ""
+"The template \"Portal: new user\" not found for sending email to the portal "
+"user."
+msgstr ""
+"Predložak \"Portal: novi korisnik\" za slanje e-pošte korisniku portala nije "
+"pronađen."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/controllers/portal.py:0
 msgid "This document does not exist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj dokument ne postoji."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
 msgid "This is a preview of the customer portal."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -45484,21 +46186,44 @@ msgid ""
 "Portal."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Ovo je pregled korisničkog portala."
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.wizard_view
+msgid ""
+"This partner is linked to an internal User and already has access to the "
+"Portal."
+msgstr ""
+"Ovaj partner je povezan s internim korisnikom i već ima pristup portalu."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "This text is included at the end of the email sent to new portal users."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ovaj tekst se nalazi na kraju e-pošte poslane novim korisnicima portala."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,help:portal.field_portal_wizard__welcome_message
 msgid "This text is included in the email sent to new users of the portal."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ovaj je tekst uključen u e-mail koji se šalje novim korisnicima portala."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "Toggle filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekidač filtera"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__user_id
@@ -45664,7 +46389,11 @@ msgid "User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnik"
 >>>>>>> upstream/18.0
@@ -46162,21 +46891,34 @@ msgstr "PDV Broj"
 #. module: portal
 #: model:ir.model.fields.selection,name:portal.selection__portal_wizard_user__email_state__ok
 msgid "Valid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Važeće"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Valid Email Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Važeća adresa e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Verify New Password:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrdite novu lozinku:"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model,name:portal.model_ir_ui_view
 msgid "View"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46968,6 +47710,9 @@ msgstr "Pregled"
 =======
 msgstr "Pregled"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pregled"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_account_analytic_account__website_message_ids
@@ -46978,6 +47723,7 @@ msgstr "Pregled"
 #: model:ir.model.fields,field_description:portal.field_fleet_vehicle__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_fleet_vehicle_log_contract__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_fleet_vehicle_log_services__website_message_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47365,6 +48111,8 @@ msgstr "Pregled"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:portal.field_fleet_vehicle_model__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_gamification_badge__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_gamification_challenge__website_message_ids
@@ -47494,6 +48242,9 @@ msgstr "Pregled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47881,8 +48632,14 @@ msgstr "Pregled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:portal.field_note_note__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_phone_blacklist__website_message_ids
+=======
+#: model:ir.model.fields,field_description:portal.field_phone_blacklist__website_message_ids
+#: model:ir.model.fields,field_description:portal.field_product_category__website_message_ids
+#: model:ir.model.fields,field_description:portal.field_product_pricelist__website_message_ids
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:portal.field_phone_blacklist__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_product_category__website_message_ids
@@ -48656,6 +49413,7 @@ msgstr "Poruke sa website-a"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:portal.field_gamification_badge__website_message_ids
 #: model:ir.model.fields,help:portal.field_gamification_challenge__website_message_ids
 #: model:ir.model.fields,help:portal.field_hr_contract__website_message_ids
@@ -48667,6 +49425,8 @@ msgstr "Poruke sa website-a"
 #: model:ir.model.fields,help:portal.field_hr_plan_employee_activity__website_message_ids
 #: model:ir.model.fields,help:portal.field_loyalty_card__website_message_ids
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49046,6 +49806,9 @@ msgstr "Poruke sa website-a"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49307,6 +50070,7 @@ msgstr "Poruke sa website-a"
 #: model:ir.model.fields,help:portal.field_maintenance_equipment__website_message_ids
 #: model:ir.model.fields,help:portal.field_maintenance_equipment_category__website_message_ids
 #: model:ir.model.fields,help:portal.field_maintenance_request__website_message_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50065,19 +50829,32 @@ msgstr "Poruke sa website-a"
 #: model:ir.model.fields,help:portal.field_product_category__website_message_ids
 #: model:ir.model.fields,help:portal.field_product_pricelist__website_message_ids
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,help:portal.field_phone_blacklist__website_message_ids
+#: model:ir.model.fields,help:portal.field_product_category__website_message_ids
+#: model:ir.model.fields,help:portal.field_product_pricelist__website_message_ids
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:portal.field_product_product__website_message_ids
 #: model:ir.model.fields,help:portal.field_product_template__website_message_ids
 #: model:ir.model.fields,help:portal.field_rating_mixin__website_message_ids
 #: model:ir.model.fields,help:portal.field_res_partner__website_message_ids
 #: model:ir.model.fields,help:portal.field_res_users__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Historija komunikacije Web stranice"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "What's this key for?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čemu služi ovaj ključ?"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard_user__wizard_id
@@ -50088,6 +50865,7 @@ msgstr "Čarobnjak"
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "Write a message..."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -50854,10 +51632,26 @@ msgstr ""
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "Write down your key"
 msgstr ""
+=======
+msgstr "Napišite poruku..."
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/chatter/core/composer_patch.js:0
+msgid "Write a message…"
+msgstr "Napišite poruku…"
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/xml/portal_security.xml:0
+msgid "Write down your key"
+msgstr "Zapišite svoj ključ"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "Wrong password."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -51638,16 +52432,36 @@ msgstr ""
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "You must be"
 msgstr ""
+=======
+msgstr "Pogrešna lozinka."
+
+#. module: portal
+#. odoo-python
+#: code:addons/portal/controllers/portal.py:0
+msgid "You cannot leave any password empty."
+msgstr "Ne možete ostaviti nijedno polje lozinke praznim."
+
+#. module: portal
+#. odoo-javascript
+#: code:addons/portal/static/src/xml/portal_chatter.xml:0
+msgid "You must be"
+msgstr "Morate biti"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "You should enter \""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trebali biste unijeti \""
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-python
 #: code:addons/portal/wizard/portal_wizard.py:0
 msgid "You should first grant the portal access to the partner \"%s\"."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: portal
@@ -52409,12 +53223,25 @@ msgid ""
 "Your account at {{ object.user_id.company_id.name or "
 "object.partner_id.company_id.name }}"
 >>>>>>> upstream/18.0
+=======
+msgstr "Prvo biste trebali odobriti pristup portalu partneru \"%s\"."
+
+#. module: portal
+#: model:mail.template,subject:portal.mail_template_data_portal_welcome
+msgid ""
+"Your account at {{ object.user_id.company_id.name or "
+"object.partner_id.company_id.name }}"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_contact
 msgid "Your contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš kontakt"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details_fields
@@ -52423,6 +53250,7 @@ msgstr "Poštanski broj"
 
 #. module: portal
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52823,6 +53651,11 @@ msgid "full access"
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "full access"
 msgstr ""
+=======
+#: code:addons/portal/static/src/xml/portal_security.xml:0
+msgid "full access"
+msgstr "puni pristup"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_template
@@ -52952,6 +53785,7 @@ msgid "has invited you to access the following"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53204,6 +54038,9 @@ msgid "has invited you to access the following"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "vas je pozvao/la da pristupite sljedećem"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
@@ -53212,33 +54049,55 @@ msgid ""
 "it will be the only way to\n"
 "                identify the key once created"
 msgstr ""
+<<<<<<< HEAD
+=======
+"to će biti jedini način da se identificira\n"
+"                ključ nakon što bude kreiran"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "logged in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "prijavljeni"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "odoo"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_security
 msgid "password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "lozinka"
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_chatter.xml:0
 msgid "to post a comment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "objaviti komentar."
+>>>>>>> upstream/18.0
 
 #. module: portal
 #. odoo-javascript
 #: code:addons/portal/static/src/xml/portal_security.xml:0
 msgid "to your user account, it is very important to store it securely."
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53616,6 +54475,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "na vaš korisnički račun, vrlo je važno da ga sigurno pohranite."
 >>>>>>> upstream/18.0
 
 #~ msgid ""
@@ -53767,6 +54629,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

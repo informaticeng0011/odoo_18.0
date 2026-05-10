@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -649,11 +650,15 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1752,10 +1757,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-01-29 18:36+0000\n"
+"PO-Revision-Date: 2026-05-09 09:16+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/analytic/"
+"bs/>\n"
+>>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2723,11 +2736,17 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "%s (copy)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3216,6 +3235,8 @@ msgid "(no accounts)"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "%s (kopija)"
 
 #. module: analytic
@@ -3382,6 +3403,7 @@ msgid "%s analytic lines created"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3704,15 +3726,23 @@ msgid "%s analytic lines created"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "%s analitičkih stavki kreirano"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "<span class=\"o_stat_text\">Analytic Accounts</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Analitička konta</span>"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "<span class=\"o_stat_text\">Gross Margin</span>"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -4201,18 +4231,32 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "<span class=\"o_stat_text\">Bruto marža</span>"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid ""
 "A 'Project' plan needs to exist and its id needs to be set as "
 "`analytic.project_plan` in the system variables"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Plan 'Projekta' mora postojati i njegov id treba biti postavljen kao "
+"`analytic.project_plan` u sistemskim varijablama"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Account field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polje konta"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_ids
@@ -4378,6 +4422,7 @@ msgstr "Konta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4504,6 +4549,8 @@ msgstr "Konta"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4702,6 +4749,7 @@ msgstr "Konta"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_agrolait
 msgid "Acme Corporation"
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4995,6 +5043,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Acme Corporation"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_needaction
@@ -5007,6 +5058,7 @@ msgid "Active"
 msgstr "Aktivan"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5495,6 +5547,11 @@ msgid "Add a line"
 #: model:account.analytic.account,name:analytic.analytic_active_account
 msgid "Active account"
 msgstr ""
+=======
+#: model:account.analytic.account,name:analytic.analytic_active_account
+msgid "Active account"
+msgstr "Aktivni konto"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -5660,6 +5717,7 @@ msgid "Add a Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5982,22 +6040,37 @@ msgid "Add a Line"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Dodaj stavku"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.action_account_analytic_account_form
 #: model_terms:ir.actions.act_window,help:analytic.action_analytic_account_form
 msgid "Add a new analytic account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj novi analitički konto"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_administratif
 msgid "Administrative"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Administrativno"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__all_account_count
 msgid "All Analytic Accounts Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj svih analitičkih konta"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__amount
@@ -6007,6 +6080,7 @@ msgstr "Iznos"
 
 #. module: analytic
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6495,6 +6569,11 @@ msgstr ""
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Amount field"
 msgstr ""
+=======
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Amount field"
+msgstr "Polje iznosa"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-javascript
@@ -6661,6 +6740,9 @@ msgstr "Analitika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7147,11 +7229,14 @@ msgstr "Analitika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__account_id
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7636,6 +7721,9 @@ msgstr "Analitika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7975,6 +8063,7 @@ msgstr "Analitički računi"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__account_count
 msgid "Analytic Accounts Count"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -8623,6 +8712,13 @@ msgstr ""
 =======
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
 >>>>>>> upstream/18.0
+=======
+msgstr "Broj analitičkih konta"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_distribution
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_distribution
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_distribution
 msgid "Analytic Distribution"
 msgstr "Analitička raspodjela"
@@ -8789,6 +8885,11 @@ msgstr "Analitička raspodjela"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
@@ -9437,11 +9538,16 @@ msgstr "Analitička raspodjela"
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_tree_view
 msgid "Analytic Distribution Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model analitičke distribucije"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.action_analytic_distribution_model
 msgid "Analytic Distribution Models"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -9943,6 +10049,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_form
 msgid "Analytic Item"
 msgstr ""
+=======
+msgstr "Modeli analitičke distribucije"
+
+#. module: analytic
+#: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_form
+msgid "Analytic Item"
+msgstr "Analitička stavka"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action_entries
@@ -9965,6 +10079,7 @@ msgstr "Retci analitike"
 #. module: analytic
 #: model:ir.model,name:analytic.model_analytic_mixin
 msgid "Analytic Mixin"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -11428,6 +11543,24 @@ msgstr ""
 #: model:ir.model,name:analytic.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
 msgstr ""
+=======
+msgstr "Analitički Mixin"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__analytic_plan_id
+msgid "Analytic Plan"
+msgstr "Analitički plan"
+
+#. module: analytic
+#: model:ir.model,name:analytic.model_analytic_plan_fields_mixin
+msgid "Analytic Plan Fields"
+msgstr "Polja analitičkog plana"
+
+#. module: analytic
+#: model:ir.model,name:analytic.model_account_analytic_applicability
+msgid "Analytic Plan's Applicabilities"
+msgstr "Primjenjivost analitičkog plana"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.actions.act_window,name:analytic.account_analytic_plan_action
@@ -11435,6 +11568,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_tree_view
 msgid "Analytic Plans"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -12086,18 +12220,36 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
 msgid "Analytic Precision"
 msgstr ""
+=======
+msgstr "Analitički planovi"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__analytic_precision
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__analytic_precision
+#: model:ir.model.fields,field_description:analytic.field_analytic_mixin__analytic_precision
+msgid "Analytic Precision"
+msgstr "Preciznost analitike"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Accounts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analitički konti"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_plan.py:0
 msgid "Analytical Plans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analitički planovi"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__applicability
@@ -12265,7 +12417,11 @@ msgid "Applicability"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primjenjivost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primjenjivost"
 >>>>>>> upstream/18.0
@@ -12764,6 +12920,7 @@ msgstr "Vezani partner"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_asustek
 msgid "Asustek"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -13736,6 +13893,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Asustek"
+
+#. module: analytic
+#. odoo-python
+#: code:addons/analytic/models/analytic_line.py:0
+msgid "At least one analytic account must be set"
+msgstr "Najmanje jedan analitički konto mora biti postavljen"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj zakački"
@@ -13749,6 +13917,7 @@ msgstr "Saldo"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_kanban
 msgid "Balance:"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -14724,11 +14893,29 @@ msgstr ""
 #: model:account.analytic.account,name:analytic.analytic_partners_camp_to_camp
 msgid "Camp to Camp"
 msgstr ""
+=======
+msgstr "Saldo:"
+
+#. module: analytic
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Business domain"
+msgstr "Poslovna domena"
+
+#. module: analytic
+#: model:account.analytic.account,name:analytic.analytic_partners_camp_to_camp
+msgid "Camp to Camp"
+msgstr "Camp to Camp"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_integration_c2c
 msgid "CampToCamp"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CampToCamp"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__category
@@ -14894,7 +15081,11 @@ msgid "Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kategorija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorija"
 >>>>>>> upstream/18.0
@@ -15387,16 +15578,25 @@ msgstr "Analitički kontni plan"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_count
 msgid "Children Plans Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj podređenih planova"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__children_ids
 msgid "Childrens"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podređeni"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_plan_action
 msgid "Click to add a new analytic account plan."
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -15884,6 +16084,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Kliknite za dodavanje novog plana analitičkih konta."
+
+#. module: analytic
 >>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
@@ -16054,6 +16259,9 @@ msgstr "Boja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16384,6 +16592,7 @@ msgstr "Indeks boje"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_commercial_marketing
 msgid "Commercial & Marketing"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -17357,6 +17566,15 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__company_id
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__company_id
 >>>>>>> upstream/18.0
+=======
+msgstr "Komercijala i marketing"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account__company_id
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__company_id
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__company_id
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_line__company_id
+>>>>>>> upstream/18.0
 msgid "Company"
 msgstr "Kompanija"
 
@@ -17368,11 +17586,16 @@ msgstr "Puni naziv"
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Conditions to meet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvjeti za ispuniti"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model,name:analytic.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -17861,6 +18084,12 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Postavke"
+
+#. module: analytic
+#: model:ir.model.fields,help:analytic.field_account_analytic_line__product_uom_category_id
+>>>>>>> upstream/18.0
 msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
@@ -18027,6 +18256,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18356,6 +18588,11 @@ msgid ""
 "Costs will be created automatically when you register supplier\n"
 "                invoices, expenses or timesheets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Troškovi će biti kreirani automatski kad registrujete račune\n"
+"dobavljača, troškove ili evidencije radnog vremena."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__create_uid
@@ -18401,7 +18638,11 @@ msgstr "Datum"
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__active
 msgid "Deactivate the account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Deaktivirajte konto."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__debit
@@ -18410,6 +18651,7 @@ msgid "Debit"
 msgstr "Dugovanje"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18712,11 +18954,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__default_applicability
 msgid "Default Applicability"
 msgstr ""
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__default_applicability
+msgid "Default Applicability"
+msgstr "Zadana primjenjivost"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_deltapc
 msgid "Delta PC"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Delta PC"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_departments
@@ -18882,7 +19133,11 @@ msgid "Departments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjeljenja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjeljenja"
 >>>>>>> upstream/18.0
@@ -19376,6 +19631,7 @@ msgstr "Opis"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_desertic_hispafuentes
 msgid "Desertic - Hispafuentes"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -20348,6 +20604,17 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Desertic - Hispafuentes"
+
+#. module: analytic
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Disable save"
+msgstr "Onemogući spremanje"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__display_name
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__display_name
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__display_name
@@ -20357,6 +20624,7 @@ msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21329,10 +21597,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
 msgid "Distribution to apply"
 msgstr ""
+=======
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__distribution_analytic_account_ids
+#: model:ir.model.fields,field_description:analytic.field_analytic_mixin__distribution_analytic_account_ids
+msgid "Distribution Analytic Account"
+msgstr "Analitički konto distribucije"
+
+#. module: analytic
+#: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_form_view
+msgid "Distribution to apply"
+msgstr "Analitička distribucija za primijeniti"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_applicability__business_domain
 msgid "Domain"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21821,13 +22101,19 @@ msgid "Editing"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Domen"
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
 msgid "Don't update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne ažuriraj"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_finance
@@ -21992,6 +22278,7 @@ msgid "Finance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22314,6 +22601,9 @@ msgid "Finance"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Finansije"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_follower_ids
@@ -22326,6 +22616,7 @@ msgid "Followers (Partners)"
 msgstr "Pratioci (Partneri)"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23298,6 +23589,17 @@ msgstr ""
 #: model:ir.actions.act_window,name:analytic.account_analytic_line_action
 msgid "Gross Margin"
 msgstr ""
+=======
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Force applicability"
+msgstr "Nametni primjenjivost"
+
+#. module: analytic
+#: model:ir.actions.act_window,name:analytic.account_analytic_line_action
+msgid "Gross Margin"
+msgstr "Bruto marža"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_search
@@ -23308,6 +23610,7 @@ msgstr "Grupiši po..."
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -23793,6 +24096,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Ima poruku"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #: model:account.analytic.account,name:analytic.analytic_rd_hr
 msgid "Human Resources"
 msgstr "Ljudski resursi"
@@ -23958,6 +24266,9 @@ msgstr "Ljudski resursi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24295,13 +24606,18 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "In Odoo, sales orders and projects are implemented using\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25110,10 +25426,20 @@ msgid ""
 >>>>>>> upstream/18.0
 "                your margins easily."
 msgstr ""
+=======
+"                analytic accounts. You can track costs and revenues to "
+"analyse\n"
+"                your margins easily."
+msgstr ""
+"U Odoo-u prodajni nalozi i projekti su implementirani korištenjem\n"
+"analitičkih konta. Možete pratiti troškove i prihode kako biste jednostavno "
+"analizirali svoje marže."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.plan,name:analytic.analytic_plan_internal
 msgid "Internal"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25765,6 +26091,9 @@ msgstr "Interni"
 =======
 msgstr "Interni"
 >>>>>>> upstream/18.0
+=======
+msgstr "Interni"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_is_follower
@@ -25790,6 +26119,7 @@ msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26599,15 +26929,25 @@ msgid "Legal"
 msgid "Legal"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+#: model:account.analytic.account,name:analytic.analytic_rd_legal
+msgid "Legal"
+msgstr "Pravno"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_think_big_systems
 msgid "Lumber Inc"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lumber Inc"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_luminous_technologies
 msgid "Luminous Technologies"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -27100,11 +27440,24 @@ msgstr ""
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__mandatory
 msgid "Mandatory"
 msgstr ""
+=======
+msgstr "Luminous Technologies"
+
+#. module: analytic
+#: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__mandatory
+#: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__mandatory
+msgid "Mandatory"
+msgstr "Obavezno"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška pri isporuci poruke"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_ids
@@ -27114,7 +27467,11 @@ msgstr "Poruke"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_millennium_industries
 msgid "Millennium Industries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Millennium Industries"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__business_domain__general
@@ -27280,7 +27637,10 @@ msgid "Miscellaneous"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27767,6 +28127,7 @@ msgid "Multi edit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28089,6 +28450,9 @@ msgid "Multi edit"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Višestruko uređivanje"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__name
@@ -28099,6 +28463,7 @@ msgstr "Naziv:"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_nebula
 msgid "Nebula"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -28911,20 +29276,38 @@ msgid "New Model"
 msgid "New Model"
 >>>>>>> upstream/18.0
 msgstr ""
-
-#. module: analytic
-#: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
-msgid "No activity yet"
-msgstr ""
-
-#. module: analytic
-#: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
-msgid "No activity yet on this account"
-msgstr ""
+=======
+msgstr "Nebula"
 
 #. module: analytic
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "New Model"
+msgstr "Novi model"
+>>>>>>> upstream/18.0
+
+#. module: analytic
+#: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
+msgid "No activity yet"
+<<<<<<< HEAD
+msgstr ""
+=======
+msgstr "Nema još aktivnosti"
+>>>>>>> upstream/18.0
+
+#. module: analytic
+#: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
+msgid "No activity yet on this account"
+<<<<<<< HEAD
+msgstr ""
+=======
+msgstr "Na ovom kontu još nema aktivnosti"
+>>>>>>> upstream/18.0
+
+#. module: analytic
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29571,6 +29954,10 @@ msgid "No analytic plans found"
 msgid "No analytic plans found"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "No analytic plans found"
+msgstr "Nisu pronađeni analitički planovi"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_needaction_counter
@@ -29580,6 +29967,7 @@ msgstr "Broj akcija"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -30391,10 +30779,19 @@ msgstr ""
 msgid "Number of messages requiring action"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgstr "Broj grešaka"
+
+#. module: analytic
+#: model:ir.model.fields,help:analytic.field_account_analytic_account__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Broj poruka koje zahtijevaju radnju"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_account__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -30891,16 +31288,30 @@ msgstr ""
 #: code:addons/analytic/models/analytic_mixin.py:0
 msgid "One or more lines require a 100% analytic distribution."
 msgstr ""
+=======
+msgstr "Broj poruka sa greškama pri isporuci"
+
+#. module: analytic
+#. odoo-python
+#: code:addons/analytic/models/analytic_mixin.py:0
+msgid "One or more lines require a 100% analytic distribution."
+msgstr "Jedna ili više stavaka traže analitičku distribuciju od 100%."
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_internal
 msgid "Operating Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operativni troškovi"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_mixin.py:0
 msgid "Operation not supported"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -31393,6 +31804,15 @@ msgstr ""
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__optional
 msgid "Optional"
 msgstr ""
+=======
+msgstr "Operacija nije podržana"
+
+#. module: analytic
+#: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__optional
+#: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__optional
+msgid "Optional"
+msgstr "Opcionalno"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_line__category__other
@@ -31558,7 +31978,11 @@ msgid "Other"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Drugo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Drugo"
 >>>>>>> upstream/18.0
@@ -32046,7 +32470,11 @@ msgstr "Drugo"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_our_super_product
 msgid "Our Super Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naš super proizvod"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_id
@@ -32056,7 +32484,11 @@ msgstr "Nasljeđeni"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__parent_path
 msgid "Parent Path"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Putanja nadređenih"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__partner_id
@@ -32067,6 +32499,7 @@ msgstr "Partner"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__partner_category_id
 msgid "Partner Category"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -32554,6 +32987,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Kategorija partnera"
+
+#. module: analytic
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Percentage"
@@ -32561,6 +32999,7 @@ msgstr "Procenat"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account__plan_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33534,6 +33973,16 @@ msgid "Projects"
 #: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
 msgid "Product field"
 msgstr ""
+=======
+msgid "Plan"
+msgstr "Plan"
+
+#. module: analytic
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.js:0
+msgid "Product field"
+msgstr "Polje proizvoda"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_production
@@ -33709,6 +34158,7 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34031,6 +34481,9 @@ msgid "Project Account"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Konto projekta"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__unit_amount
@@ -34046,13 +34499,18 @@ msgstr "Referenca"
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_rd_department
 msgid "Research & Development"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istraživanje i razvoj"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
 "Revenues will be created automatically when you create customer\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34537,10 +34995,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                invoices. Customer invoices can be created based on sales "
 "orders\n"
 "                (fixed price invoices), on timesheets (based on the work "
 "done) or\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36971,6 +37432,35 @@ msgstr ""
 #: model:account.analytic.account,name:analytic.analytic_seagate_p2
 msgid "Seagate P2"
 msgstr ""
+=======
+"                on expenses (e.g. reinvoicing of travel costs)."
+msgstr ""
+"Prihodi će biti kreirani automatski kad kreirate izlazne fakture.\n"
+"Izlazne fakture se mogu kreirati na osnovu prodajnih naloga (fiksne cijene), "
+"evidencija radnog vremena (na osnovu obavljenog rada) ili\n"
+"na troškovima (npr. refakturiranje putnih troškova)."
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_plan__root_id
+msgid "Root"
+msgstr "Vršni"
+
+#. module: analytic
+#: model:ir.model.fields,field_description:analytic.field_account_analytic_account__root_plan_id
+msgid "Root Plan"
+msgstr "Korijenski plan"
+
+#. module: analytic
+#. odoo-javascript
+#: code:addons/analytic/static/src/components/analytic_distribution/analytic_distribution.xml:0
+msgid "Save as new analytic distribution model"
+msgstr "Spremi kao novi model analitičke distribucije"
+
+#. module: analytic
+#: model:account.analytic.account,name:analytic.analytic_seagate_p2
+msgid "Seagate P2"
+msgstr "Seagate P2"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
@@ -36978,6 +37468,7 @@ msgid "Search Analytic Lines"
 msgstr "Pretraži analitičke stavke"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37466,6 +37957,12 @@ msgid "Select a company for which the analytic distribution will be used (e.g. c
 #: code:addons/analytic/models/analytic_account.py:0
 msgid "See them"
 msgstr ""
+=======
+#. odoo-python
+#: code:addons/analytic/models/analytic_account.py:0
+msgid "See them"
+msgstr "Pogledaj ih"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__company_id
@@ -37473,6 +37970,7 @@ msgid ""
 "Select a company for which the analytic distribution will be used (e.g. "
 "create new customer invoice or Sales order if we select this company, it "
 "will automatically take this as an analytic account)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38441,10 +38939,20 @@ msgid "Select a partner category for which the analytic distribution will be use
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Odaberite kompaniju za koju će se koristiti analitička distribucija (npr. "
+"kreirati novu fakturu kupca ili prodajni nalog ako odaberemo ovu kompaniju, "
+"ona će to automatski uzeti kao analitički konto)"
+
+#. module: analytic
+#: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_category_id
+>>>>>>> upstream/18.0
 msgid ""
 "Select a partner category for which the analytic distribution will be used "
 "(e.g. create new customer invoice or Sales order if we select this partner, "
 "it will automatically take this as an analytic account)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39416,11 +39924,26 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"Odaberite kategoriju partnera za koju će se koristiti analitička "
+"distribucija (npr. kreirati novu fakturu kupca ili prodajni nalog ako "
+"odaberemo ovog partnera, on će to automatski uzeti kao analitički konto)"
+
+#. module: analytic
+#: model:ir.model.fields,help:analytic.field_account_analytic_distribution_model__partner_id
+>>>>>>> upstream/18.0
 msgid ""
 "Select a partner for which the analytic distribution will be used (e.g. "
 "create new customer invoice or Sales order if we select this partner, it "
 "will automatically take this as an analytic account)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Odaberite partnera za kojeg će se koristiti analitička distribucija (npr. "
+"kreirati novu fakturu kupca ili prodajni nalog ako odaberemo ovog partnera, "
+"on će to automatski uzeti kao analitički konto)"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_distribution_model__sequence
@@ -39429,6 +39952,7 @@ msgid "Sequence"
 msgstr "Sekvenca"
 
 #. module: analytic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39913,10 +40437,16 @@ msgstr "Sekvenca"
 #: model:account.analytic.account,name:analytic.analytic_spark
 msgid "Spark Systems"
 msgstr ""
+=======
+#: model:account.analytic.account,name:analytic.analytic_spark
+msgid "Spark Systems"
+msgstr "Spark Systems"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_plan_form_view
 msgid "Subplans"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: analytic
@@ -40408,6 +40938,14 @@ msgid "The selected account belongs to another company than the one you're tryin
 #: model:ir.model,name:analytic.model_ir_config_parameter
 msgid "System Parameter"
 msgstr ""
+=======
+msgstr "Podplanovi"
+
+#. module: analytic
+#: model:ir.model,name:analytic.model_ir_config_parameter
+msgid "System Parameter"
+msgstr "Sistemski parametar"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -40575,6 +41113,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40897,11 +41436,19 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Vrijednost za %s mora biti ID važećeg analitičkog plana koji nije podplan"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:account.analytic.account,name:analytic.analytic_absences
 msgid "Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odsustva"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_line_tree
@@ -40912,7 +41459,11 @@ msgstr "Ukupno"
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_applicability__applicability__unavailable
 #: model:ir.model.fields.selection,name:analytic.selection__account_analytic_plan__default_applicability__unavailable
 msgid "Unavailable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedostupno"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line__product_uom_id
@@ -41086,7 +41637,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41573,6 +42127,9 @@ msgstr "Ažuriraj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42060,9 +42617,12 @@ msgstr "Korisnik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:analytic.account_analytic_distribution_model_tree_view
 msgid "View"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42548,6 +43108,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42870,6 +43431,11 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Hej! Ova promjena bi izbrisala vaše trenutne podatke. Hajde da to "
+"izbjegnemo, zar ne?"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
@@ -43035,8 +43601,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You can't set a different company on your analytic account since there are some analytic items linked to it."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43526,6 +44095,7 @@ msgid "You cannot add a parent to the base plan '%s'"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43848,10 +44418,14 @@ msgid "You cannot add a parent to the base plan '%s'"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Ne možete dodati nadređenog osnovnom planu '%s'"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #. odoo-python
 #: code:addons/analytic/models/analytic_distribution_model.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44820,10 +45394,19 @@ msgid ""
 "company but a model shared between companies or with a different company"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid ""
+"You defined a distribution with analytic account(s) belonging to a specific "
+"company but a model shared between companies or with a different company"
+msgstr ""
+"Definirali ste distribuciju s analitičkim kontima koji pripadaju određenoj "
+"kompaniji, ali model koji dijele kompanije ili druga kompanija"
+>>>>>>> upstream/18.0
 
 #. module: analytic
 #: model_terms:ir.ui.view,arch_db:analytic.view_account_analytic_account_form
 msgid "e.g. Project XYZ"
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45307,6 +45890,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "npr. Projekt XYZ"
+>>>>>>> upstream/18.0
 
 #~ msgid "Loading..."
 #~ msgstr "Učitavam..."
@@ -45479,6 +46065,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

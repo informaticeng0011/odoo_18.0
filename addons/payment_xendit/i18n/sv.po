@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment_xendit
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -506,11 +507,16 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * payment_xendit
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Lasse L, 2024
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1016,10 +1022,14 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1416,10 +1426,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
+=======
+"POT-Creation-Date: 2026-05-01 17:39+0000\n"
+"PO-Revision-Date: 2026-05-09 09:12+0000\n"
+"Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
+"Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
+"payment_xendit/sv/>\n"
+>>>>>>> upstream/18.0
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1797,6 +1815,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-python
@@ -1804,9 +1826,13 @@ msgstr ""
 msgid ""
 "An error occurred during the processing of your payment (%s). Please try "
 "again."
+<<<<<<< HEAD
 msgstr ""
 "Ett fel uppstod under behandlingen av din betalning (%s). Vänligen försök "
 "igen."
+=======
+msgstr "Ett fel uppstod när betalningen behandlades (%s). Vänligen försök igen."
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
@@ -1847,7 +1873,11 @@ msgstr "E-post"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Expiration"
+<<<<<<< HEAD
 msgstr "Utgång"
+=======
+msgstr "Utgångsdatum"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-javascript
@@ -1870,7 +1900,11 @@ msgstr "Ogiltigt datum"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "John"
+<<<<<<< HEAD
 msgstr "Nisse"
+=======
+msgstr "John"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
@@ -1897,7 +1931,11 @@ msgstr "Betalningstransaktion"
 #. odoo-javascript
 #: code:addons/payment_xendit/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
+<<<<<<< HEAD
 msgstr "Betalningshanteringen misslyckades"
+=======
+msgstr "Betalningen kunde inte slutföras"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
@@ -1907,7 +1945,11 @@ msgstr "Telefonnummer"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.payment_provider_form_xendit
 msgid "Public Key"
+<<<<<<< HEAD
 msgstr "Publik nyckel"
+=======
+msgstr "Offentlig nyckel"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-python
@@ -1923,6 +1965,7 @@ msgstr "Hemlig nyckel"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "Smith"
+<<<<<<< HEAD
 msgstr "Hult"
 
 #. module: payment_xendit
@@ -1972,6 +2015,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Smith"
+
+#. module: payment_xendit
+#. odoo-python
+#: code:addons/payment_xendit/controllers/main.py:0
+msgid "The access token doesn't match the transaction reference."
+msgstr "Åtkomsttoken stämmer inte överens med betalningsreferensen."
+
+#. module: payment_xendit
+#. odoo-python
+>>>>>>> upstream/18.0
 #: code:addons/payment_xendit/models/payment_provider.py:0
 msgid ""
 "The communication with the API failed. Xendit gave us the following "
@@ -1983,7 +2038,11 @@ msgstr ""
 #. module: payment_xendit
 #: model:ir.model.fields,help:payment_xendit.field_payment_provider__code
 msgid "The technical code of this payment provider."
+<<<<<<< HEAD
 msgstr "Den tekniska koden för denna betalningsleverantör."
+=======
+msgstr "Betalningsleverantörens tekniska kod."
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #. odoo-python
@@ -1994,7 +2053,11 @@ msgstr "Transaktionen är inte kopplad till en token."
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.payment_provider_form_xendit
 msgid "Webhook Token"
+<<<<<<< HEAD
 msgstr "Webhook Pollett"
+=======
+msgstr "Webhook-token"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model:ir.model.fields.selection,name:payment_xendit.selection__payment_provider__code__xendit
@@ -2004,17 +2067,29 @@ msgstr "Xendit"
 #. module: payment_xendit
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_public_key
 msgid "Xendit Public Key"
+<<<<<<< HEAD
 msgstr "Xendit publik nyckel"
+=======
+msgstr "Offentlig nyckel för Xendit"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_secret_key
 msgid "Xendit Secret Key"
+<<<<<<< HEAD
 msgstr "Xendit hemlig nyckel"
+=======
+msgstr "Hemlig nyckel för Xendit"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model:ir.model.fields,field_description:payment_xendit.field_payment_provider__xendit_webhook_token
 msgid "Xendit Webhook Token"
+<<<<<<< HEAD
 msgstr "Xendit Webhook Pollett"
+=======
+msgstr "Webhook-token för Xendit"
+>>>>>>> upstream/18.0
 
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
@@ -2024,4 +2099,8 @@ msgstr "ÅÅÅÅ"
 #. module: payment_xendit
 #: model_terms:ir.ui.view,arch_db:payment_xendit.inline_form
 msgid "john.smith@example.com"
+<<<<<<< HEAD
 msgstr "nisse.hult@exempel.se"
+=======
+msgstr "john.smith@example.com"
+>>>>>>> upstream/18.0

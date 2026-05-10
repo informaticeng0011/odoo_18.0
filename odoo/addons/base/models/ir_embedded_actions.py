@@ -60,7 +60,10 @@ class IrEmbeddedActions(models.Model):
         return super().create(vals_list)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     @api.depends('action_id.display_name', 'name')
     def _compute_display_name(self):
         for record in self:
@@ -70,6 +73,9 @@ class IrEmbeddedActions(models.Model):
             else:
                 record.display_name = record.name
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # The record is deletable if it hasn't been created from a xml record (i.e. is not a default embedded action)
     def _compute_is_deletable(self):

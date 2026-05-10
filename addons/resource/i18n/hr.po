@@ -240,8 +240,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* resource
 # 
+=======
+# * resource
+#
+>>>>>>> upstream/18.0
 =======
 # * resource
 #
@@ -1450,6 +1455,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2439,10 +2445,16 @@
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3356,6 +3368,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-11 09:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-09 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "resource/hr/>\n"
 "Language: hr\n"
@@ -3364,6 +3381,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4111,6 +4129,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -4367,7 +4388,11 @@ msgid "<span class=\"o_stat_text\">Work Resources</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Radni resursi</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Radni resursi</span>"
 >>>>>>> upstream/18.0
@@ -5119,6 +5144,11 @@ msgid ""
 "Are you sure you want to switch to a 1-week calendar? All work entries will "
 "be lost."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Jeste li sigurni da želite prijeći na kalendar od 1 tjedna? Svi radni unosi "
+"bit će izgubljeni."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
@@ -5366,6 +5396,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jeste li sigurni da želite prijeći na kalendar s dvotjednim prikazom? Svi "
+"unosi radnog vremena bit će izgubljeni."
+>>>>>>> upstream/18.0
 =======
 "Jeste li sigurni da želite prijeći na kalendar s dvotjednim prikazom? Svi "
 "unosi radnog vremena bit će izgubljeni."
@@ -6623,7 +6658,11 @@ msgid "Company Full Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puno radno vrijeme u tvrtki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Puno radno vrijeme u tvrtki"
 >>>>>>> upstream/18.0
@@ -7418,6 +7457,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Define the working schedule of the resource. If not set, the resource will "
+"have fully flexible working hours."
+>>>>>>> upstream/18.0
 =======
 "Define the working schedule of the resource. If not set, the resource will "
 "have fully flexible working hours."
@@ -7847,7 +7891,11 @@ msgid "Flexible Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fleksibilno radno vrijeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fleksibilno radno vrijeme"
 >>>>>>> upstream/18.0
@@ -8584,7 +8632,11 @@ msgstr "Petak popodne"
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Friday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručak petkom"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -8595,7 +8647,11 @@ msgstr "Petak ujutro"
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_resource_form
 msgid "Fully Flexible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potpuno fleksibilno"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_attendance__sequence
@@ -8643,6 +8699,11 @@ msgid ""
 "If empty, this is a generic time off for the company. If a resource is set, "
 "the time off is only for this resource"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako je prazno, ovo je opće odsustvo za tvrtku. Ako je postavljen resurs, "
+"odsustvo vrijedi samo za taj resurs"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource__active
@@ -8659,6 +8720,11 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the Working "
 "Time without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako je aktivno polje postavljeno na netočno, omogućit će vam skrivanje "
+"radnog vremena bez njegovog uklanjanja."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -8705,7 +8771,11 @@ msgstr "Ponedjeljak popodne"
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Monday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručak ponedjeljkom"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -8728,6 +8798,7 @@ msgstr "Naziv"
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__full_time_required_hours
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9235,6 +9306,11 @@ msgid ""
 "Number of hours to work on the company schedule to be considered as fulltime."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Number of hours to work on the company schedule to be considered as fulltime."
+msgstr ""
+"Broj sati rada prema rasporedu tvrtke koji se smatra punim radnim vremenom."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_leaves__time_type__other
@@ -9341,7 +9417,11 @@ msgstr "Pretraži resurse"
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Search Working Period Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraži odsustva radnog razdoblja"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_search
@@ -9378,6 +9458,7 @@ msgstr "Udio korisnika"
 #. odoo-python
 #: code:addons/resource/models/res_company.py:0
 msgid "Standard 40 hours/week"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10339,6 +10420,9 @@ msgstr "Standardno 40 sati/tjedno"
 =======
 msgstr "Standardno 40 sati/tjedno"
 >>>>>>> upstream/18.0
+=======
+msgstr "Standardno 40 sati/tjedno"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__date_from
@@ -10362,7 +10446,11 @@ msgstr "Početni datum"
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Starting Date of Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum početka odsustva"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__6
@@ -10611,7 +10699,10 @@ msgstr "Nedjelja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11334,6 +11425,9 @@ msgstr "Prebaci"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11859,6 +11953,13 @@ msgid ""
 "the efficiency factor is 200%, however the expected duration will be 30 "
 "minutes."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ovo polje se koristi za izračun očekivanog trajanja radnog naloga na ovom "
+"radnom centru. Primjerice, ako radni nalog traje jedan sat i faktor "
+"učinkovitosti iznosi 100%, očekivano trajanje bit će jedan sat. Međutim, ako "
+"je faktor učinkovitosti 200%, očekivano trajanje bit će 30 minuta."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__3
@@ -11875,7 +11976,11 @@ msgstr "Četvrtak popodne"
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Thursday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručak četvrtkom"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -11893,7 +11998,11 @@ msgstr "Odsustva"
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_leave_form
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_leave_tree
 msgid "Time Off Detail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji odsustva"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__time_type
@@ -11932,7 +12041,11 @@ msgstr "Utorak popodne"
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Tuesday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručak utorkom"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -11968,7 +12081,11 @@ msgstr "Srijeda popodne"
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Wednesday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ručak srijedom"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -11987,6 +12104,11 @@ msgid ""
 "When enabled, it will allow employees to work flexibly, without relying on "
 "the company's working schedule (working hours)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Kada je omogućeno, zaposlenicima se omogućuje fleksibilan rad, neovisno o "
+"rasporedu rada tvrtke (radnom vremenu)."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__time_type
@@ -12117,8 +12239,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whether this should be computed as a time off or as work time (eg: "
 "formation)"
+=======
+"Whether this should be computed as a time off or as work time (eg: formation)"
+>>>>>>> upstream/18.0
 =======
 "Whether this should be computed as a time off or as work time (eg: formation)"
 >>>>>>> upstream/18.0
@@ -12772,7 +12898,11 @@ msgid "Working Schedules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Radni raspored"
+=======
+msgstr "Rasporedi rada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rasporedi rada"
 >>>>>>> upstream/18.0

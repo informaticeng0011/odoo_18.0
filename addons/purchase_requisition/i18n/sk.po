@@ -161,8 +161,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_requisition
 # 
+=======
+# * purchase_requisition
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase_requisition
 #
@@ -972,6 +977,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -1617,10 +1623,15 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2365,6 +2376,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-04-11 14:58+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-05-09 09:08+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "purchase_requisition/sk/>\n"
@@ -2372,6 +2387,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3118,10 +3134,16 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.actions.report,print_report_name:purchase_requisition.action_report_purchase_requisitions
 msgid "'Purchase Agreement - %s' % (object.name)"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase_requisition
@@ -3227,16 +3249,32 @@ msgstr "15. 9. 2023"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "<span><strong>From</strong></span>"
 msgstr ""
+=======
+msgstr "'Kúpna dohoda- %s' % (object.name)"
+
+#. module: purchase_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
+msgid "<span><strong>From</strong></span>"
+msgstr "<span><strong>Od</strong></span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "<span><strong>to</strong></span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span><strong>do</strong></span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "<strong>Contact:</strong><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kontakt:</strong><br/>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
@@ -3278,49 +3316,85 @@ msgstr "Ikona typu aktivity"
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__requisition_id
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__name
 msgid "Agreement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dohoda"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__requisition_type
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__requisition_type
 msgid "Agreement Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ dohody"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Agreement Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Platnosť dohody"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Agreement Validity:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Platnosť dohody:"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__alternative_po_ids
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__alternative_po_ids
 msgid "Alternative POs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alternatívne objednávky"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Alternative Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alternatívna nákupná objednávka"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
 msgid "Alternative Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozornenie na alternatívu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Alternatives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alternatívy"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid "An example of a purchase agreement is a blanket order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Príkladom kúpnej zmluvy je rámcová objednávka."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__analytic_distribution
@@ -3346,12 +3420,20 @@ msgstr "Počet príloh"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "BO00004"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BO00004"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__requisition_type__blanket_order
 msgid "Blanket Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rámcová objednávka"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -3517,7 +3599,11 @@ msgid "Blanket Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peňažné objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peňažné objednávky"
 >>>>>>> upstream/18.0
@@ -4034,7 +4120,11 @@ msgid "Buyer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nákupca"
 >>>>>>> upstream/18.0
@@ -4129,7 +4219,11 @@ msgstr "Zrušené"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
 msgid "Cancel Alternatives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zrušiť alternatívy"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__cancel
@@ -4155,7 +4249,11 @@ msgstr "Vyberte"
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__partner_id
 msgid "Choose a vendor for alternative PO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte dodávateľa pre alternatívny PO"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
@@ -4165,7 +4263,11 @@ msgstr "Zmazať"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
 msgid "Clear Selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vymazať vybrané"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -4196,23 +4298,39 @@ msgstr "Mena spoločnosti"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_line__price_total_cc
 msgid "Company Subtotal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Medzisúčet za spoločnosť"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
 msgid "Company Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celkom za spoločnosť"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Compare Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porovnať riadky objednávky"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Compare Product Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Porovnajte produktové riadky"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_res_config_settings
@@ -4235,6 +4353,7 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4867,11 +4986,19 @@ msgstr ""
 "Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do "
 "rovnakej kategórie. Konverzia bude spravená na základe pomerov."
 >>>>>>> upstream/18.0
+=======
+"Ku konverzii medzi mernými jednotkami môže dôjsť len v prípade, že patria do "
+"rovnakej kategórie. Konverzia bude spravená na základe pomerov."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__copy_products
 msgid "Copy Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopírovať produkty"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
@@ -4912,7 +5039,11 @@ msgid "Create Alternative"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť alternatívu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvoriť alternatívu"
 >>>>>>> upstream/18.0
@@ -5148,10 +5279,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5533,6 +5667,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5790,7 +5927,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Create alternative"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoriť alternatívu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_group__create_uid
@@ -5828,7 +5969,11 @@ msgstr "Dátum"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Demo Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Demo Referencia"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__description
@@ -5979,7 +6124,11 @@ msgid "Distribution Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Priradenie analytického účtu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Priradenie analytického účtu"
 >>>>>>> upstream/18.0
@@ -6382,11 +6531,20 @@ msgid ""
 "End date cannot be earlier than start date. Please check dates for "
 "agreements: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Koncové dátum nemôže byť skôr ako dátum začiatku. Skontrolujte, či sa dátumy "
+"zhodujú: %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Expected on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Očakáva sa"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_follower_ids
@@ -6407,6 +6565,7 @@ msgstr "Úžasná ikona fronty napr. fa-tasks"
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7040,6 +7199,16 @@ msgid ""
 >>>>>>> upstream/18.0
 "            from the negotiated prices."
 msgstr ""
+=======
+"            (e.g. a year) and you order products within this agreement to "
+"benefit\n"
+"            from the negotiated prices."
+msgstr ""
+"V prípade rámcovej objednávky môžete uzavrieť zmluvu na určité obdobie\n"
+"            (napr. rok) a objednávať produkty v rámci tejto zmluvy, aby ste "
+"mohli\n"
+"            profitovať z vyjednanej ceny."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -7097,6 +7266,7 @@ msgstr "Ak označené, potom majú niektoré správy chybu dodania."
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__creation_blocked
 msgid ""
 "If the chosen vendor or if any of the products in the original PO have a "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7856,6 +8026,11 @@ msgid ""
 "normally these fields are cleared w/warning message within form view, but we "
 "cannot recreate that in this case."
 >>>>>>> upstream/18.0
+=======
+"blocking warning then we prevent creation of alternative PO. This is because "
+"normally these fields are cleared w/warning message within form view, but we "
+"cannot recreate that in this case."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
@@ -7863,6 +8038,11 @@ msgstr ""
 msgid ""
 "If this is checked, the product quantities of the original PO will be copied"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ak je táto možnosť zaškrtnutá, množstvá produktov z pôvodnej objednávky budú "
+"skopírované"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_is_follower
@@ -7872,7 +8052,11 @@ msgstr "Odberateľ"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_requisition_alternative_warning_form
 msgid "Keep Alternatives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zachovať alternatívy"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order_group__write_uid
@@ -7900,17 +8084,29 @@ msgstr "Omeškané aktivity"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.res_config_settings_view_form_purchase_requisition
 msgid "Link RFQs together and compare them"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepojte žiadosti o cenovú ponuku a porovnajte ich"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
 msgid "Link to Existing RfQ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prepojiť na existujúcu žiadosť o cenovú ponuku"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:res.groups,name:purchase_requisition.group_purchase_alternatives
 msgid "Manage Purchase Alternatives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spravovať alternatívy nákupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_has_error
@@ -7988,7 +8184,11 @@ msgid "Mitchell Admin"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mitchell Admin"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mitchell Admin"
 >>>>>>> upstream/18.0
@@ -8187,7 +8387,11 @@ msgstr "Termín mojej aktivity"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "My Agreements"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moje dohody"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_form_inherit
@@ -8203,7 +8407,11 @@ msgstr "Nové"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "New Agreements"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nové dohody"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -8234,7 +8442,11 @@ msgstr "Typ ďalšej aktivity"
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Nothing to clear"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nič na vymazanie"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_needaction_counter
@@ -8244,7 +8456,11 @@ msgstr "Počet akcií"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__order_count
 msgid "Number of Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet objednávok"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__message_has_error_counter
@@ -8285,17 +8501,29 @@ msgstr "Objednávky"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__origin_po_id
 msgid "Origin Po"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pôvodná NO"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__alternative_po_ids
 msgid "Other potential purchase orders for purchasing products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ďalšie potenciálne nákupné objednávky na nákup produktov"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_alternative_warning__po_ids
 msgid "POs to Confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupné objednávky na potvrdenie"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__product_id
@@ -8328,12 +8556,20 @@ msgstr "Produkty na nákup"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__requisition_id
 msgid "Purchase Agreement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupná dohoda"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Purchase Agreement:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupná dohoda:"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition
@@ -8347,12 +8583,20 @@ msgstr "Nákupné dohody"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_res_config_settings__group_purchase_alternatives
 msgid "Purchase Alternatives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alternatívy nákupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__purchase_group_id
 msgid "Purchase Group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupina nákupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order
@@ -8382,7 +8626,11 @@ msgstr "Nákupné objednávky s rekvizíciou"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
 msgid "Purchase Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupná referencia"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__user_id
@@ -8404,12 +8652,20 @@ msgstr "Riadok nákupnej rekvizície"
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__requisition_type__purchase_template
 msgid "Purchase Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablóna nákupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Purchase Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šablóny nákupu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__product_qty
@@ -8425,7 +8681,11 @@ msgstr "RFQ"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "RFQs/Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žiadosti o ponuku/Objednávky"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__rating_ids
@@ -8475,7 +8735,11 @@ msgstr "Chyba doručenia SMS"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Search Purchase Agreements"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyhľadať nákupné dohody"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -8486,7 +8750,11 @@ msgstr "Zobraz všetky záznamy, ktorých následná aktivita je pred dnešným 
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "Some not cleared"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niektoré neboli vymazané"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -8494,6 +8762,11 @@ msgstr ""
 msgid ""
 "Some quantities were not cleared because their status is not a RFQ status."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Niektoré množstvá neboli vymazané, pretože ich stav nie je stavom 'žiadosť o "
+"cenovú ponuku'."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__date_start
@@ -8503,7 +8776,11 @@ msgstr "Dátum začiatku"
 #. module: purchase_requisition
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid "Start a new purchase agreement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začnite novú nákupnú dohodu"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__state
@@ -8528,7 +8805,11 @@ msgstr ""
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__supplier_info_ids
 msgid "Supplier Info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informácie o dodávateľovi"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_product_supplierinfo
@@ -8539,6 +8820,11 @@ msgstr "Cenník dodávateľa"
 #: model:ir.model,name:purchase_requisition.model_purchase_order_group
 msgid "Technical model to group PO for call to tenders"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Technický model na zoskupenie nákupných objednávok pre výzvy na predkladanie "
+"ponúk"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -8548,12 +8834,17 @@ msgstr "Obchodné podmienky"
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__origin_po_id
 msgid "The original PO that this alternative PO is being created for."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pôvodná nákupná objednávka, pre ktorý sa táto alternatívna NO vytvára."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/wizard/purchase_requisition_create_alternative.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9313,13 +9604,22 @@ msgid ""
 "from the original order has a blocking warning on it and cannot be selected "
 "to create an alternative."
 >>>>>>> upstream/18.0
+=======
+"The vendor you have selected or at least one of the products you are copying "
+"from the original order has a blocking warning on it and cannot be selected "
+"to create an alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "There are no quantities to clear."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie sú žiadne množstvá na vymazanie."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -9328,6 +9628,11 @@ msgid ""
 "There is already an open blanket order for this supplier. We suggest you "
 "complete this open blanket order, instead of creating a new one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pre tohto dodávateľa už existuje otvorená rámcová objednávka. Odporúčame vám "
+"dokončiť túto otvorenú rámcovú objednávku namiesto vytvárania novej."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -9341,6 +9646,7 @@ msgstr ""
 msgid ""
 "To close this purchase requisition, cancel related Requests for Quotation.\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9973,6 +10279,16 @@ msgid ""
 "double the trouble :)"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Imagine the mess if someone confirms these duplicates: double the order, "
+"double the trouble :)"
+msgstr ""
+"Ak chcete uzavrieť túto rámcovú objednávku, zrušte súvisiace žiadosti o "
+"cenovú ponuku.\n"
+"\n"
+"Predstavte si ten chaos, ak by niekto potvrdil tieto duplikáty: dvojnásobná "
+"objednávka, dvojnásobné problémy :)"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
@@ -10016,7 +10332,11 @@ msgstr "Výrobca"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_create_alternative__purchase_warn_msg
 msgid "Warning Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varovné správy"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -10025,6 +10345,11 @@ msgid ""
 "Warning for %(partner)s:\n"
 "%(warning_message)s\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Upozornenie pre %(partner)s:\n"
+"%(warning_message)s\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -10033,6 +10358,11 @@ msgid ""
 "Warning for %(product)s:\n"
 "%(warning_message)s\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Upozornenie pre %(product)s:\n"
+"%(warning_message)s\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -10054,11 +10384,16 @@ msgstr "História komunikácie webstránok"
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase.py:0
 msgid "What about the alternative Requests for Quotations?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A čo alternatívne žiadosti o cenové ponuky?"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_order__has_alternatives
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10691,23 +11026,40 @@ msgid ""
 "Whether or not this purchase order is linked to another purchase order as an "
 "alternative."
 >>>>>>> upstream/18.0
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_alternative_warning
 msgid "Wizard in case PO still has open alternative requests for quotation"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Sprievodca v prípade, že NO má stále otvorené alternatívne žiadosti o cenovú "
+"ponuku"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_create_alternative
 msgid "Wizard to preset values for alternative PO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sprievodca na nastavenie hodnôt pre alternatívne PO"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You can only delete draft or cancelled requisitions."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Môžete vymazať iba návrhy alebo zrušené rámcové objednávky."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -10716,23 +11068,37 @@ msgid ""
 "You cannot change the Agreement Type or Company of a not draft purchase "
 "agreement."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nie je možné zmeniť Typ zmluvy alebo Spoločnosť v nákupnej dohode, ktorá nie "
+"je v podobe návrhu."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a price."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemôžete potvrdiť rámcovú objednávku s riadkami, v ktorých chýba cena."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid "You cannot confirm a blanket order with lines missing a quantity."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nemôžete potvrdiť rámcovú objednávku s riadkami, v ktorých chýba množstvo."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
 #: code:addons/purchase_requisition/models/purchase_requisition.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11366,6 +11732,13 @@ msgid ""
 "product lines."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+msgstr ""
+"Nemôžete potvrdiť dohodu„%(agreement)s “, pretože neobsahuje žiadne "
+"produktové riadky."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #. odoo-python
@@ -11374,6 +11747,11 @@ msgid ""
 "You cannot have a negative or unit price of 0 for an already confirmed "
 "blanket order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"V potvrdenej rámcovej objednávke nemôžete mať zápornú cenu alebo jednotkovú "
+"cenu 0."
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -11407,7 +11785,10 @@ msgstr "napr. PO0025"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11495,6 +11876,9 @@ msgstr "napr. PO0025"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

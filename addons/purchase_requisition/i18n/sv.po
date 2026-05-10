@@ -240,8 +240,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_requisition
 # 
+=======
+# * purchase_requisition
+#
+>>>>>>> upstream/18.0
 =======
 # * purchase_requisition
 #
@@ -1466,6 +1471,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
 =======
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
@@ -2218,10 +2224,14 @@
 =======
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
 >>>>>>> upstream/18.0
+=======
+# Jakob Krabbe <jakob.krabbe@vertel.se>, 2025
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3116,6 +3126,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-12 22:21+0000\n"
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
@@ -3126,6 +3139,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.12.2\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3854,6 +3868,8 @@ msgstr "$500"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model:ir.actions.report,print_report_name:purchase_requisition.action_report_purchase_requisitions
@@ -3861,6 +3877,7 @@ msgid "'Purchase Agreement - %s' % (object.name)"
 msgstr "\"Köpeavtal - %s\" % (object.name)"
 
 #. module: purchase_requisition
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3904,6 +3921,8 @@ msgid "2023-09-15"
 msgstr "2023-09-15"
 
 #. module: purchase_requisition
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4358,6 +4377,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a call for tender by adding alternative requests for quotation to different vendors.\n"
 "                            Make your choice by selecting the best combination of lead time, OTD and/or total amount.\n"
 "                            By comparing product lines you can also decide to order some products from one vendor and others from another vendor."
@@ -4366,6 +4386,8 @@ msgstr ""
 "                            Gör ditt val genom att välja den bästa kombinationen av ledtid, OTD och/eller totalbelopp.\n"
 "                            Genom att jämföra produktlinjer kan du också bestämma dig för att beställa vissa produkter från en leverantör och andra från en annan leverantör."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4755,6 +4777,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5099,6 +5124,7 @@ msgid ""
 "End date cannot be earlier than start date. Please check dates for "
 "agreements: %s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5731,6 +5757,10 @@ msgstr ""
 "Slutdatum kan inte vara tidigare än startdatum. Kontrollera datum för avtal: "
 "%s"
 >>>>>>> upstream/18.0
+=======
+"Slutdatum kan inte vara tidigare än startdatum. Kontrollera datum för avtal: "
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.report_purchaserequisition_document
@@ -5756,6 +5786,7 @@ msgstr "Font Awesome-ikon t.ex. fa-tasks"
 #: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
 msgid ""
 "For a blanket order, you can record an agreement for a specific period\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6823,6 +6854,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            (e.g. a year) and you order products within this agreement to "
 "benefit\n"
 "            from the negotiated prices."
@@ -6956,6 +6989,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7391,9 +7427,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "blocking warning then we prevent creation of alternative PO. This is because"
 " normally these fields are cleared w/warning message within form view, but "
 "we cannot recreate that in this case."
+=======
+"blocking warning then we prevent creation of alternative PO. This is because "
+"normally these fields are cleared w/warning message within form view, but we "
+"cannot recreate that in this case."
+>>>>>>> upstream/18.0
 =======
 "blocking warning then we prevent creation of alternative PO. This is because "
 "normally these fields are cleared w/warning message within form view, but we "
@@ -8371,7 +8413,11 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nya"
+=======
+msgstr "Ny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ny"
 >>>>>>> upstream/18.0
@@ -9543,8 +9589,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vissa kvantiteter godkändes inte eftersom deras status inte är en RFQ-"
 "status."
+=======
+"Vissa kvantiteter godkändes inte eftersom deras status inte är en RFQ-status."
+>>>>>>> upstream/18.0
 =======
 "Vissa kvantiteter godkändes inte eftersom deras status inte är en RFQ-status."
 >>>>>>> upstream/18.0
@@ -10109,6 +10159,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The vendor you have selected or at least one of the products you are copying"
 " from the original order has a blocking warning on it and cannot be selected"
 " to create an alternative."
@@ -10117,6 +10168,8 @@ msgstr ""
 "kopierar från den ursprungliga ordern har en blockeringsvarning och kan inte"
 " väljas för att skapa ett alternativ."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10499,6 +10552,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10890,8 +10946,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Det finns redan en öppen blankettorder för den här leverantören. Vi föreslår"
 " att du slutför denna öppna blankettorder istället för att skapa en ny."
+=======
+"Det finns redan en öppen blankettorder för den här leverantören. Vi föreslår "
+"att du slutför denna öppna blankettorder istället för att skapa en ny."
+>>>>>>> upstream/18.0
 =======
 "Det finns redan en öppen blankettorder för den här leverantören. Vi föreslår "
 "att du slutför denna öppna blankettorder istället för att skapa en ny."
@@ -11535,12 +11596,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Imagine the mess if someone confirms these duplicates: double the order, double the trouble :)"
 msgstr ""
 "För att stänga denna inköpsrekvisition ska du annullera relaterade offertförfrågningar.\n"
 "\n"
 "Föreställ dig röran om någon bekräftar dessa dubbletter: dubbel order, dubbla problem :)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11924,6 +11988,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12391,8 +12458,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
+=======
+"Whether or not this purchase order is linked to another purchase order as an "
+"alternative."
+>>>>>>> upstream/18.0
 =======
 "Whether or not this purchase order is linked to another purchase order as an "
 "alternative."
@@ -13068,8 +13140,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot confirm agreement '%(agreement)s' because it does not contain any"
 " product lines."
+=======
+"You cannot confirm agreement '%(agreement)s' because it does not contain any "
+"product lines."
+>>>>>>> upstream/18.0
 =======
 "You cannot confirm agreement '%(agreement)s' because it does not contain any "
 "product lines."
@@ -13620,7 +13697,10 @@ msgstr "t.ex. PO0025"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13717,6 +13797,9 @@ msgstr "t.ex. PO0025"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

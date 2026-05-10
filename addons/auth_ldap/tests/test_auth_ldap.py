@@ -9,6 +9,7 @@ import re
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import requests
 from unittest.mock import patch
 
@@ -52,6 +53,8 @@ class TestAuthLDAP(BaseCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from unittest.mock import patch
 
 import odoo
@@ -69,6 +72,9 @@ class TestAuthLDAP(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -128,9 +134,14 @@ class TestAuthLDAP(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.registry.cursor() as cr:
             cr.execute("SELECT id FROM res_users WHERE login = 'test_ldap_user'")
             self.assertFalse(cr.rowcount, "User should not be present")
+=======
+        self.env.cr.execute("SELECT id FROM res_users WHERE login = 'test_ldap_user'")
+        self.assertFalse(self.env.cr.rowcount, "User should not be present")
+>>>>>>> upstream/18.0
 =======
         self.env.cr.execute("SELECT id FROM res_users WHERE login = 'test_ldap_user'")
         self.assertFalse(self.env.cr.rowcount, "User should not be present")
@@ -201,12 +212,15 @@ class TestAuthLDAP(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.registry.cursor() as cr:
             cr.execute(
                 "SELECT id FROM res_users WHERE login = %s and id = %s",
                 ("test_ldap_user", session.uid))
             self.assertTrue(cr.rowcount, "User should be present")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -238,6 +252,9 @@ class TestAuthLDAP(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

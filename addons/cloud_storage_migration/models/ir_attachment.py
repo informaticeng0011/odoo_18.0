@@ -90,11 +90,17 @@ class CloudStorageAttachmentMigration(models.Model):
             limit_time_real = config['limit_time_real_cron']
         # use half of the time limit to mitigate the timeout problem
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         log_msg = f'Starting cloud storage migration with timeout {limit_time_real // 2} seconds'
         if max_batch_file_size:
             log_msg += f' and max batch file size {max_batch_file_size} bytes'
         _logger.info(log_msg)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         end_time = limit_time_real // 2 + time.monotonic()
 
@@ -162,6 +168,7 @@ class CloudStorageAttachmentMigration(models.Model):
             if not attachment:
                 commit_min_attachment_id(max_attachment_id)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return
 
             total_file_size += attachment.file_size
@@ -172,6 +179,8 @@ class CloudStorageAttachmentMigration(models.Model):
                 break
             first_attachment = False
 =======
+=======
+>>>>>>> upstream/18.0
                 _logger.info('Cloud storage migration fully completed')
                 return
 
@@ -184,6 +193,9 @@ class CloudStorageAttachmentMigration(models.Model):
                 break
             first_attachment = False
             total_file_size += file_size
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
             # commit before migration to upload the file only once even if it causes timeout
@@ -193,6 +205,7 @@ class CloudStorageAttachmentMigration(models.Model):
                 attachment._migrate_local_to_cloud_storage(session)
                 self.env.cr.commit()
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.info('uploaded attachment %s to cloud storage', attachment.id)
             except Exception as e:  # noqa: BLE001
                 _logger.warning('Failed to upload attachment %s to cloud storage: %s', attachment.id, e)
@@ -200,6 +213,8 @@ class CloudStorageAttachmentMigration(models.Model):
 
             if end_time < time.monotonic():
 =======
+=======
+>>>>>>> upstream/18.0
                 _logger.info('uploaded attachment %s (%s bytes) to cloud storage', attachment.id, file_size)
             except Exception as e:  # noqa: BLE001
                 _logger.warning('Failed to upload attachment %s (%s bytes) to cloud storage: %s', attachment.id, file_size, e)
@@ -207,6 +222,9 @@ class CloudStorageAttachmentMigration(models.Model):
 
             if end_time < time.monotonic():
                 _logger.info('Timeout reached for cloud storage migration')
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 break
 

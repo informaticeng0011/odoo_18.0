@@ -76,6 +76,10 @@ Featuring
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'website_slides/static/src/core/**/*',
+>>>>>>> upstream/18.0
 =======
             'website_slides/static/src/core/**/*',
 >>>>>>> upstream/18.0
@@ -499,6 +503,7 @@ Featuring
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'portal.assets_chatter': [
             'website_slides/static/src/chatter/frontend/**/*',
@@ -1920,6 +1925,8 @@ Featuring
         ],
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1938,6 +1945,9 @@ Featuring
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

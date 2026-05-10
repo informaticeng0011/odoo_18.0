@@ -259,6 +259,11 @@ from . import db
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+COMMAND = None
+>>>>>>> upstream/18.0
 =======
 
 COMMAND = None

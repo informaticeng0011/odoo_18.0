@@ -240,8 +240,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_work_entry
 # 
+=======
+# * hr_work_entry
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_work_entry
 #
@@ -1459,6 +1464,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Ivica Dimjašević, 2025
 >>>>>>> upstream/18.0
@@ -2690,10 +2696,17 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Ivica Dimjašević, 2025
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3590,6 +3603,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-14 13:55+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-09 09:08+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "hr_work_entry/hr/>\n"
 "Language: hr\n"
@@ -3598,6 +3616,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4317,12 +4336,19 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_employee.py:0
 msgid "%s work entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s unosa rada"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_employee_view_form
@@ -4331,11 +4357,21 @@ msgid ""
 "                            Work Entries\n"
 "                            </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            Radni unosi\n"
+"                            </span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "<span>Hours</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Sati</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__active
@@ -4609,7 +4645,11 @@ msgid "Beginning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Početak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Početak"
 >>>>>>> upstream/18.0
@@ -5373,6 +5413,11 @@ msgid ""
 "Careful, the Code is used in many references, changing it could lead to "
 "unwanted changes."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pazite, šifra se koristi u mnogim referencama, njena promjena može dovesti "
+"do neželjenih promjena."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__color
@@ -5726,7 +5771,11 @@ msgid "External Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vanjski kod"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vanjski kod"
 >>>>>>> upstream/18.0
@@ -6456,17 +6505,29 @@ msgstr "Od"
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry
 msgid "HR Work Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka rada"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_work_entry_type
 msgid "HR Work Entry Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta stavke rada"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_employee__has_work_entries
 msgid "Has Work Entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima unose rada"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__id
@@ -6481,6 +6542,11 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the work "
 "entry type without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako je aktivno polje postavljeno na false, omogućit će vam da sakrijete "
+"vrstu unosa rada bez njezina uklanjanja."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_user_work_entry_employee__write_uid
@@ -6515,7 +6581,11 @@ msgstr "Nema podataka za prikaz"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Note: Validated work entries cannot be modified."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napomena: potvrđeni unosi rada ne mogu se mijenjati."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:hr.work.entry.type,name:hr_work_entry.overtime_work_entry_type
@@ -6766,7 +6836,11 @@ msgid "Payroll Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šifra za obračun plaća"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šifra za obračun plaća"
 >>>>>>> upstream/18.0
@@ -7496,7 +7570,11 @@ msgstr "Detalji odsustva resursa"
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_search
 msgid "Search Work Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraži unos rada"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_search
@@ -7527,6 +7605,7 @@ msgstr "Vrijeme početka treba biti prije vremena završetka."
 #. module: hr_work_entry
 #: model:ir.model.fields,field_description:hr_work_entry.field_hr_work_entry__state
 msgid "State"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8528,6 +8607,9 @@ msgstr "Status"
 =======
 msgstr "Status"
 >>>>>>> upstream/18.0
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry_type__country_code
@@ -8548,7 +8630,11 @@ msgstr "Isti kod ne može biti povezan s više vrsti radnih sati."
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "This work entry is validated. You can't delete it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj unos rada je potvrđen. Ne možete ga izbrisati."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_type_view_form
@@ -8793,7 +8879,11 @@ msgid "Time Off Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcije odsustva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcije odsustva"
 >>>>>>> upstream/18.0
@@ -9766,8 +9856,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pokušajte dodati nove zapise ili provjerite da u traci za pretraživanje nije"
 " zabilježen kakav aktivni filter"
+=======
+"Pokušajte dodati neke zapise ili provjerite da u traci za pretraživanje nema "
+"aktivnog filtera."
+>>>>>>> upstream/18.0
 =======
 "Pokušajte dodati neke zapise ili provjerite da u traci za pretraživanje nema "
 "aktivnog filtera."
@@ -10978,7 +11073,11 @@ msgid "Undefined"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nedefiniran"
+=======
+msgstr "Nedefinirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedefinirano"
 >>>>>>> upstream/18.0
@@ -11710,7 +11809,11 @@ msgstr "Nedefinirana vrsta"
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry__external_code
 #: model:ir.model.fields,help:hr_work_entry.field_hr_work_entry_type__external_code
 msgid "Use this code to export your data to a third party"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristite ovu šifru za izvoz svojih podataka trećoj strani"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.fields.selection,name:hr_work_entry.selection__hr_work_entry__state__validated
@@ -11971,7 +12074,11 @@ msgid "Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evidencije rada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evidencije rada"
 >>>>>>> upstream/18.0
@@ -12696,7 +12803,11 @@ msgstr "Evidencije rada"
 #. module: hr_work_entry
 #: model:ir.model,name:hr_work_entry.model_hr_user_work_entry_employee
 msgid "Work Entries Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaposlenici s unosima rada"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.actions.act_window,name:hr_work_entry.hr_work_entry_action
@@ -12704,7 +12815,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_calendar
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
 msgid "Work Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radni unos"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model_terms:ir.ui.view,arch_db:hr_work_entry.hr_work_entry_view_form
@@ -12742,12 +12857,21 @@ msgid ""
 "You can't change the Country of this work entry type cause it's currently "
 "used by the system. You need to delete related working entries first."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ne možete promijeniti zemlju ove vrste unosa rada jer je trenutno koristi "
+"sustav. Prvo morate izbrisati povezane unose rada."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #. odoo-python
 #: code:addons/hr_work_entry/models/hr_work_entry.py:0
 msgid "You can't change the country of this specific work entry type."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne možete promijeniti zemlju ove specifične vrste unosa rada."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry
 #: model:ir.model.constraint,message:hr_work_entry.constraint_hr_user_work_entry_employee_user_id_employee_id_unique

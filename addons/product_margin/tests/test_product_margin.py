@@ -234,9 +234,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import patch
 
 from odoo import Command
+=======
+
+from unittest.mock import patch
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 
 from unittest.mock import patch
@@ -1415,6 +1421,7 @@ from odoo.tests import tagged
 class TestProductMargin(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_aggregates(self):
         model = self.env['product.product']
         field_names = [
@@ -1435,12 +1442,17 @@ class TestProductMargin(AccountTestInvoicingCommon):
         customer = self.env['res.partner'].create({'name': 'Customer'})
         ipad = self.env['product.product'].create({
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
         cls.supplier = cls.env['res.partner'].create({'name': 'Supplier'})
         cls.customer = cls.env['res.partner'].create({'name': 'Customer'})
         cls.ipad = cls.env['product.product'].create({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'name': 'Ipad',
             'standard_price': 500.0,
@@ -1448,7 +1460,10 @@ class TestProductMargin(AccountTestInvoicingCommon):
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_product_margin(self):
         ''' In order to test the product_margin module '''
 
@@ -1456,6 +1471,9 @@ class TestProductMargin(AccountTestInvoicingCommon):
         customer = self.customer
         ipad = self.ipad
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         invoices = self.env['account.move'].create([
             {
@@ -1520,6 +1538,7 @@ class TestProductMargin(AccountTestInvoicingCommon):
         include negative quantities or prices.
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
         supplier = self.env['res.partner'].create({'name': 'Supplier'})
         customer = self.env['res.partner'].create({'name': 'Customer'})
         ipad = self.env['product.product'].create({
@@ -1527,6 +1546,11 @@ class TestProductMargin(AccountTestInvoicingCommon):
             'standard_price': 1000.0,
             'list_price': 1000.0,
         })
+=======
+        supplier = self.supplier
+        customer = self.customer
+        ipad = self.ipad
+>>>>>>> upstream/18.0
 =======
         supplier = self.supplier
         customer = self.customer
@@ -1559,6 +1583,7 @@ class TestProductMargin(AccountTestInvoicingCommon):
         vendor_bill = self.env['account.move'].create([{
             'move_type': 'in_invoice',
             'partner_id': supplier.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2496,6 +2521,9 @@ class TestProductMargin(AccountTestInvoicingCommon):
 =======
             'invoice_date': fields.Date.today(),
 >>>>>>> upstream/18.0
+=======
+            'invoice_date': fields.Date.today(),
+>>>>>>> upstream/18.0
             'invoice_line_ids': [
                 Command.create({
                     'product_id': ipad.id,
@@ -2515,7 +2543,10 @@ class TestProductMargin(AccountTestInvoicingCommon):
         self.assertEqual(results[ipad.id]['total_cost'], 250)
         self.assertEqual(results[ipad.id]['total_margin'], 750)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_sale_avg_price(self):
         customer = self.customer
@@ -2549,4 +2580,7 @@ class TestProductMargin(AccountTestInvoicingCommon):
         result = ipad._compute_product_margin_fields_values()
         sale_avg_price = ((20.0 * 750.0) + (10.0 * 100)) / 30.0
         self.assertEqual(result[ipad.id]['sale_avg_price'], sale_avg_price)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

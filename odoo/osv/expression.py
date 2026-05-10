@@ -245,6 +245,10 @@ import odoo.modules
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import MissingError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import MissingError
 >>>>>>> upstream/18.0
@@ -911,9 +915,12 @@ FALSE_LEAF = (0, '=', 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 TRUE_DOMAIN = [TRUE_LEAF]
 FALSE_DOMAIN = [FALSE_LEAF]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1644,6 +1651,9 @@ FALSE_DOMAIN = _ProtectedDomain([FALSE_LEAF])
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2945,10 +2955,13 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 domain = OR([
                     [('parent_path', '=like', rec.parent_path + '%')]
                     for rec in left_model_sudo.browse(ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3325,6 +3338,9 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3723,11 +3739,14 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 parent_ids = [
                     int(label)
                     for rec in left_model_sudo.browse(ids)
                     for label in rec.parent_path.split('/')[:-1]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4105,6 +4124,9 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4485,7 +4507,10 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4859,6 +4884,9 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5654,8 +5682,14 @@ class expression(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)
                     ids2 = comodel._search(domain)
+=======
+                    ids2 = comodel.browse(ids2)._filtered_access('read').ids
+                    domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)
+                    ids2 = comodel.sudo()._search(domain)
+>>>>>>> upstream/18.0
 =======
                     ids2 = comodel.browse(ids2)._filtered_access('read').ids
                     domain = HIERARCHY_FUNCS[operator]('id', ids2, comodel)

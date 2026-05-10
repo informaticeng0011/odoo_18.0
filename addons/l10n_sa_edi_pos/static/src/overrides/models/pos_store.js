@@ -129,8 +129,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             result.not_legal =
                 !order.l10n_sa_invoice_qr_code_str || order.l10n_sa_invoice_edi_state !== "sent";
+=======
+            result.not_legal = !order.l10n_sa_invoice_qr_code_str;
+>>>>>>> upstream/18.0
 =======
             result.not_legal = !order.l10n_sa_invoice_qr_code_str;
 >>>>>>> upstream/18.0
@@ -538,7 +542,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -657,6 +664,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

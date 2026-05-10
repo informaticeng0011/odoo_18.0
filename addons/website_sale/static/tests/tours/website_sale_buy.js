@@ -263,12 +263,16 @@ registry.category("web_tour.tours").add('shop_buy_product', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.searchProduct("Storage Box"),
         {
             content: "select Storage Box",
             trigger: '.oe_product_cart:first a:contains("Storage Box")',
             run: "click",
         },
+=======
+        ...tourUtils.searchProduct("Storage Box", { select: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.searchProduct("Storage Box", { select: true }),
 >>>>>>> upstream/18.0
@@ -1305,7 +1309,11 @@ registry.category("web_tour.tours").add('shop_buy_product', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.payWithTransfer(true),
+=======
+        ...tourUtils.payWithTransfer({ redirect: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.payWithTransfer({ redirect: true }),
 >>>>>>> upstream/18.0

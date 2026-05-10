@@ -267,12 +267,18 @@ class Currency(models.Model):
         if from_currency == to_currency:
             return 1
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = company or self.env.company
 =======
+=======
+>>>>>>> upstream/18.0
         if company == self.env.company.root_id:
             company = self.env.company  # Get rates through branch if selected company
         else:
             company = company or self.env.company
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         date = date or fields.Date.context_today(self)
         return from_currency.with_company(company).with_context(to_currency=to_currency.id, date=str(date)).inverse_rate

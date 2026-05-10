@@ -136,7 +136,11 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'comments': slide.website_message_ids or [],
+=======
+            'comments': request.env["mail.message"].search(slide._get_comments_domain()),
+>>>>>>> upstream/18.0
 =======
             'comments': request.env["mail.message"].search(slide._get_comments_domain()),
 >>>>>>> upstream/18.0
@@ -623,6 +627,9 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1190,6 +1197,7 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1278,6 +1286,8 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2271,7 +2281,12 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('subtype_id', '=', subtype_comment_id)
+=======
+                ('subtype_id', '=', subtype_comment_id),
+                ("rating_ids", "!=", False),
+>>>>>>> upstream/18.0
 =======
                 ('subtype_id', '=', subtype_comment_id),
                 ("rating_ids", "!=", False),
@@ -3807,7 +3822,11 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         slide = request.env['slide.slide'].sudo().browse(slide_id).exists()
+=======
+        slide = request.env['slide.slide'].search([('id', '=', int(slide_id))])
+>>>>>>> upstream/18.0
 =======
         slide = request.env['slide.slide'].search([('id', '=', int(slide_id))])
 >>>>>>> upstream/18.0
@@ -5163,7 +5182,10 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 slide.unlink()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5763,6 +5785,12 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            # redirection to channel's homepage for category slides
+            if slide.sudo().is_category:
+                return request.redirect(slide.channel_id.website_url)
+>>>>>>> upstream/18.0
 =======
             # redirection to channel's homepage for category slides
             if slide.sudo().is_category:
@@ -7040,6 +7068,12 @@ class WebsiteSlides(WebsiteProfile):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not slide.has_access('read'):
+                return request.render('website_slides.embed_slide_forbidden', {})
+
+>>>>>>> upstream/18.0
 =======
             if not slide.has_access('read'):
                 return request.render('website_slides.embed_slide_forbidden', {})

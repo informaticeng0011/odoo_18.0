@@ -144,7 +144,10 @@ class TestEmbeddedActionsBase(TransactionCaseWithUserDemo):
         self.assertEqual(embedded_action2.action_id, self.env['ir.actions.actions'].browse(self.action_2.id))
         self.assertFalse(embedded_action2.python_method)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_embedded_action_display_name_delegates_to_linked_action(self):
         """Embedded action display_name must delegate to linked action display_name."""
@@ -176,4 +179,7 @@ class TestEmbeddedActionsBase(TransactionCaseWithUserDemo):
             embedded_action.with_context(lang='fr_FR').display_name,
             linked_action.with_context(lang='fr_FR').display_name,
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

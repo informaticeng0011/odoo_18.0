@@ -154,8 +154,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* snailmail
 # 
+=======
+# * snailmail
+#
+>>>>>>> upstream/18.0
 =======
 # * snailmail
 #
@@ -1021,6 +1026,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 >>>>>>> upstream/18.0
@@ -1924,10 +1930,16 @@
 # Ana Matulin <ana@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Ana Matulin <ana@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2926,6 +2938,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-11 14:58+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-05-09 09:12+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "snailmail/hr/>\n"
 "Language: hr\n"
@@ -2934,6 +2951,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3423,11 +3441,18 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__attachment_error
 msgid "ATTACHMENT_ERROR"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POGREŠKA_PRILOGA"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_res_company__snailmail_cover
@@ -3675,7 +3700,11 @@ msgid "Add a Cover Page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj naslovnu stranicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj naslovnu stranicu"
 >>>>>>> upstream/18.0
@@ -4408,24 +4437,40 @@ msgstr "Adresa"
 msgid ""
 "An error occurred when sending a letter with Snailmail on “%(record_name)s”"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Došlo je do pogreške pri slanju pisma Snailmailom na \"%(record_name)s\""
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
 #: code:addons/snailmail/static/src/core/failure_model_patch.js:0
 msgid "An error occurred when sending a letter with Snailmail."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do pogreške pri slanju pisma Snailmailom."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "An error occurred when sending the document by post.<br>Error: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do pogreške pri slanju dokumenta poštom.<br>Pogreška: %s"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "An unknown error happened. Please contact the support."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dogodila se nepoznata pogreška. Obratite se podršci."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
@@ -4441,18 +4486,30 @@ msgstr "Prilog"
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__attachment_fname
 msgid "Attachment Filename"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv datoteke priloga"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
 #: code:addons/snailmail/static/src/core/notification_model_patch.js:0
 msgid "Awaiting Dispatch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čeka otpremu"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__duplex
 msgid "Both side"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obje strane"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_res_company__snailmail_duplex
@@ -4697,7 +4754,11 @@ msgid "Both sides"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obje strane"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obje strane"
 >>>>>>> upstream/18.0
@@ -5428,7 +5489,11 @@ msgstr "Kupi kredite"
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__credit_error
 msgid "CREDIT_ERROR"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POGREŠKA_KREDITA"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_letter_form
@@ -5509,7 +5574,11 @@ msgstr "Država"
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__cover
 msgid "Cover Page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naslovnica"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__create_uid
@@ -5559,7 +5628,11 @@ msgstr "Greška"
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__format_error
 msgid "FORMAT_ERROR"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POGREŠKA_FORMATA"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
@@ -5599,7 +5672,11 @@ msgid "Failure type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta pogreške"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta pogreške"
 >>>>>>> upstream/18.0
@@ -5688,7 +5765,11 @@ msgstr "Vrsta pogreške"
 #. module: snailmail
 #: model:ir.actions.act_window,name:snailmail.snailmail_letter_format_error_action
 msgid "Format Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogreška formata"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model,name:snailmail.model_snailmail_letter_format_error
@@ -5716,7 +5797,11 @@ msgstr "Informacija"
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Invalid recipient name."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravno ime primatelja."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__write_uid
@@ -5743,17 +5828,29 @@ msgstr "Pismo"
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Letter sent by post with Snailmail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pismo poslano poštom Snailmailom"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_letter_list
 msgid "Letters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pisma"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__missing_required_fields
 msgid "MISSING_REQUIRED_FIELDS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NEDOSTAJU_OBAVEZNA_POLJA"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model,name:snailmail.model_mail_message
@@ -5774,13 +5871,21 @@ msgstr "Model"
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__no_price_available
 msgid "NO_PRICE_AVAILABLE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NEMA_DOSTUPNE_CIJENE"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Not enough credits for Snail Mail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedovoljno kredita za Snail Mail"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_mail_notification__notification_type
@@ -5813,7 +5918,11 @@ msgid "Notification Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta obavijesti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta obavijesti"
 >>>>>>> upstream/18.0
@@ -5908,7 +6017,11 @@ msgstr "Obavijesti"
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "One or more required fields are empty."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedno ili više obaveznih polja je prazno."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__report_template
@@ -5919,6 +6032,7 @@ msgstr "Izborno izvješće za ispisati i pridodati"
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_letter_format_error
 msgid ""
 "Our service cannot read your letter due to its format.<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6550,6 +6664,10 @@ msgid ""
 "                Please modify the format of the template or update your "
 "settings\n"
 >>>>>>> upstream/18.0
+=======
+"                Please modify the format of the template or update your "
+"settings\n"
+>>>>>>> upstream/18.0
 "                to automatically add a blank cover page to all letters."
 msgstr ""
 
@@ -6562,7 +6680,11 @@ msgstr "Partner"
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Please use an A4 Paper format."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristite A4 format papira."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_res_config_settings__snailmail_duplex
@@ -6588,7 +6710,11 @@ msgstr "Primatelj"
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__reference
 msgid "Related Record"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani zapis"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model,name:snailmail.model_ir_actions_report
@@ -6604,6 +6730,10 @@ msgstr "Pošalji odmah"
 #: model:iap.service,description:snailmail.iap_service_snailmail
 msgid "Send your customer invoices and follow-up reports by post, worldwide."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Pošaljite svoje kupčeve račune i izvještaje praćenja poštom diljem svijeta."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
@@ -6615,13 +6745,21 @@ msgstr "Poslano"
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__user_id
 msgid "Sent by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslao"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "Snail Mails are successfully sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Snail Mailovi su uspješno poslani"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__mail_message__message_type__snailmail
@@ -6872,7 +7010,11 @@ msgid "Snailmail Color"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Snailmail boja (boja pošte)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Snailmail boja (boja pošte)"
 >>>>>>> upstream/18.0
@@ -7597,77 +7739,133 @@ msgstr "Snailmail boja (boja pošte)"
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_res_config_settings__snailmail_cover_readonly
 msgid "Snailmail Cover Readonly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Snailmail naslovnica samo za čitanje"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__mail_notification__failure_type__sn_credit
 msgid "Snailmail Credit Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogreška kredita Snailmaila"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
 #: code:addons/snailmail/static/src/messaging_menu/messaging_menu_patch.js:0
 msgid "Snailmail Failure: %(modelName)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neuspjeh Snailmaila: %(modelName)s"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
 #: code:addons/snailmail/static/src/messaging_menu/messaging_menu_patch.js:0
 msgid "Snailmail Failures"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neuspjesi Snailmaila"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__mail_notification__failure_type__sn_format
 msgid "Snailmail Format Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogreška formata Snailmaila"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model,name:snailmail.model_snailmail_letter
 #: model:ir.model.fields,field_description:snailmail.field_mail_notification__letter_id
 msgid "Snailmail Letter"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pismo poštom"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.actions.act_window,name:snailmail.action_mail_letters
 #: model:ir.ui.menu,name:snailmail.menu_snailmail_letters
 msgid "Snailmail Letters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pisma Snailmaila"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__mail_notification__failure_type__sn_fields
 msgid "Snailmail Missing Required Fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Snailmail nedostaju obavezna polja"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__mail_notification__failure_type__sn_price
 msgid "Snailmail No Price Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Snailmail nema dostupne cijene"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_snailmail_letter__message_id
 msgid "Snailmail Status Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruka statusa Snailmaila"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__mail_notification__failure_type__sn_trial
 msgid "Snailmail Trial Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogreška probnog Snailmaila"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__mail_notification__failure_type__sn_error
 msgid "Snailmail Unknown Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepoznata pogreška Snailmaila"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_mail_mail__snailmail_error
 #: model:ir.model.fields,field_description:snailmail.field_mail_message__snailmail_error
 msgid "Snailmail message in error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruka Snailmaila u pogrešci"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.actions.server,name:snailmail.snailmail_print_ir_actions_server
 msgid "Snailmail: process letters queue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Snailmail: obradi red čekanja pisama"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:iap.service,unit_name:snailmail.iap_service_snailmail
@@ -7912,7 +8110,11 @@ msgid "Stamps"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poštanske marke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poštanske marke"
 >>>>>>> upstream/18.0
@@ -8793,7 +8995,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Županija/fed.država"
+=======
+msgstr "Status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status"
 >>>>>>> upstream/18.0
@@ -9287,18 +9493,27 @@ msgstr "Ulica2"
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__trial_error
 msgid "TRIAL_ERROR"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POGREŠKA_PROBE"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "The address of the recipient is not complete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adresa primatelja nije potpuna"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9932,12 +10147,23 @@ msgid ""
 "contact the support if the problem persists."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"The attachment of the letter could not be sent. Please check its content and "
+"contact the support if the problem persists."
+msgstr ""
+"Prilog pisma nije bilo moguće poslati. Provjerite njegov sadržaj i obratite "
+"se podršci ako se problem nastavi."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid "The country of the partner is not covered by Snailmail."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Država partnera nije pokrivena Snailmailom."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
@@ -9985,7 +10211,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10073,6 +10302,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10130,11 +10360,16 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "The document was correctly sent by post.<br>The tracking id is %s"
 msgstr ""
+=======
+msgid "The document was correctly sent by post.<br>The tracking id is %s"
+msgstr "Dokument je ispravno poslan poštom.<br>ID praćenja je %s"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript
 #: code:addons/snailmail/static/src/core_ui/snailmail_error.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10641,6 +10876,9 @@ msgid ""
 =======
 "The letter could not be sent due to insufficient credits on your IAP account."
 >>>>>>> upstream/18.0
+=======
+"The letter could not be sent due to insufficient credits on your IAP account."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: snailmail
@@ -10652,7 +10890,11 @@ msgstr "Vrsta"
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__unknown_error
 msgid "UNKNOWN_ERROR"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "NEPOZNATA_POGREŠKA"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_letter_format_error
@@ -10678,6 +10920,7 @@ msgid ""
 "'comment': generated by user input e.g. through discuss or composer\n"
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11254,6 +11497,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
 "'user_notification': generated for a specific recipient"
@@ -11293,6 +11538,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11354,6 +11602,7 @@ msgstr ""
 msgid ""
 "When a letter is created, the status is 'Pending'.\n"
 "If the letter is correctly sent, the status goes in 'Sent',\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11986,6 +12235,15 @@ msgid ""
 "in the field 'Error Message'."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"If not, it will got in state 'Error' and the error message will be displayed "
+"in the field 'Error Message'."
+msgstr ""
+"Kada je pismo kreirano, status je 'Na čekanju'.\n"
+"Ako je pismo ispravno poslano, status prelazi u 'Poslano',\n"
+"Ako nije, prelazi u stanje 'Pogreška', a poruka pogreške bit će prikazana u "
+"polju 'Poruka pogreške'."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
@@ -11994,6 +12252,12 @@ msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
 "<a href=%s target=\"new\">iap.odoo.com</a> to claim your free credits."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nemate registriran IAP račun za ovu uslugu.<br>Idite na <a href=%s "
+"target=\"new\">iap.odoo.com</a> kako biste iskoristili svoje besplatne "
+"kredite."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-python
@@ -12002,6 +12266,11 @@ msgid ""
 "You don't have enough credits to perform this operation.<br>Please go to "
 "your <a href=%s target=\"new\">iap account</a>."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Nemate dovoljno kredita za izvršavanje ove operacije.<br>Idite na svoj <a "
+"href=%s target=\"new\">IAP račun</a>."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #. odoo-javascript

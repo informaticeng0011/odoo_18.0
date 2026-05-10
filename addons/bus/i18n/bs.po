@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -649,11 +650,15 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1629,10 +1634,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-03 18:39+0000\n"
+"PO-Revision-Date: 2026-05-09 09:07+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/bus/bs/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2224,6 +2237,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.14.3\n"
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: bus
 #: model:ir.model,name:bus.model_res_groups
@@ -2359,6 +2377,9 @@ msgstr "Zakačka"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2614,6 +2635,7 @@ msgstr "Zakačka"
 #. module: bus
 #: model:ir.model.fields.selection,name:bus.selection__bus_presence__status__away
 msgid "Away"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: bus
@@ -3375,6 +3397,16 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Odsutan"
+
+#. module: bus
+#: model:ir.model,name:bus.model_bus_listener_mixin
+msgid "Can send messages via bus.bus"
+msgstr "Može slati poruke putem bus.busa"
+
+#. module: bus
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:bus.field_bus_bus__channel
 msgid "Channel"
 msgstr "Kanal"
@@ -3406,6 +3438,7 @@ msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: bus
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4164,6 +4197,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:bus.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP usmjeravanje"
+
+#. module: bus
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:bus.field_bus_bus__id
 #: model:ir.model.fields,field_description:bus.field_bus_presence__id
 msgid "ID"
@@ -4174,17 +4214,29 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:bus.field_res_partner__im_status
 #: model:ir.model.fields,field_description:bus.field_res_users__im_status
 msgid "IM Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IM Status"
+>>>>>>> upstream/18.0
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_presence__last_poll
 msgid "Last Poll"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnja provjera"
+>>>>>>> upstream/18.0
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_presence__last_presence
 msgid "Last Presence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnja prisutnost"
+>>>>>>> upstream/18.0
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__write_uid
@@ -4365,7 +4417,11 @@ msgid "Models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modeli"
 >>>>>>> upstream/18.0
@@ -4861,6 +4917,7 @@ msgid "Online"
 msgstr "Na mreži"
 
 #. module: bus
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5516,12 +5573,18 @@ msgstr "Na mreži"
 #: model:ir.model,name:bus.model_ir_qweb
 msgid "Qweb"
 msgstr ""
+=======
+#: model:ir.model,name:bus.model_ir_qweb
+msgid "Qweb"
+msgstr "Qweb"
+>>>>>>> upstream/18.0
 
 #. module: bus
 #. odoo-javascript
 #: code:addons/bus/static/src/outdated_page_watcher_service.js:0
 #: code:addons/bus/static/src/services/assets_watchdog_service.js:0
 #: code:addons/bus/static/src/services/bus_service.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6007,6 +6070,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgid "Refresh"
+msgstr "Osvježi"
+
+#. module: bus
+#. odoo-javascript
+>>>>>>> upstream/18.0
 #: code:addons/bus/static/src/outdated_page_watcher_service.js:0
 #: code:addons/bus/static/src/services/bus_service.js:0
 msgid ""
@@ -6141,6 +6211,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6523,6 +6596,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:bus.model_res_users
 msgid "User"
 <<<<<<< HEAD
@@ -6667,6 +6741,8 @@ msgstr "Korisnik"
 msgstr "Korisnik"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7052,6 +7128,9 @@ msgstr "Korisnik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7310,6 +7389,7 @@ msgid "User Presence"
 msgstr ""
 
 #. module: bus
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8068,6 +8148,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:bus.model_res_users_settings
+msgid "User Settings"
+msgstr "Korisničke postavke"
+
+#. module: bus
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:bus.field_bus_presence__user_id
 msgid "Users"
 msgstr "Korisnici"
@@ -8201,8 +8288,11 @@ msgstr "Korisnici"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Your password is the default (admin)! If this system is exposed to untrusted users it is important to change it immediately for security reasons. I will keep nagging you about it!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8582,6 +8672,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8838,4 +8931,8 @@ msgstr ""
 #. module: bus
 #: model:ir.model,name:bus.model_ir_websocket
 msgid "websocket message handling"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "upravljanje porukama websocketa"
+>>>>>>> upstream/18.0
