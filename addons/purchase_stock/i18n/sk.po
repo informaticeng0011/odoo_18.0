@@ -127,6 +127,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_stock
 # 
 # Translators:
@@ -386,12 +387,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * purchase_stock
 #
 # Translators:
 # Wil Odoo, 2024
 # Tomáš Píšek, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -864,10 +868,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2095,6 +2103,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-09 09:14+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-09 09:14+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "purchase_stock/sk/>\n"
@@ -2102,6 +2114,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2676,12 +2689,21 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
 msgid "% On-Time Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "% Včasnosti dodávok"
+>>>>>>> upstream/18.0
 =======
 msgstr "% Včasnosti dodávok"
 >>>>>>> upstream/18.0
@@ -2820,6 +2842,7 @@ msgstr "+ %d deň(dni)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3457,6 +3480,8 @@ msgstr ""
 msgid "<span class=\"o_stat_text\">On-time Rate</span>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "+ %s day(s)"
@@ -3466,6 +3491,9 @@ msgstr "+ %s deň(dni)"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "<span class=\"o_stat_text\">On-time Rate</span>"
 msgstr "<span class=\"o_stat_text\">Miera včasnosti dodávok</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
@@ -3480,6 +3508,7 @@ msgstr "<span class=\"o_stat_value\">%</span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4116,13 +4145,21 @@ msgid ""
 msgid ""
 "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
 msgid "<span> days</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> dni</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> dni</span>"
 >>>>>>> upstream/18.0
@@ -4424,9 +4461,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
 msgid "<strong>Incoterm:</strong>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5300,6 +5340,7 @@ msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5881,10 +5922,14 @@ msgstr ""
 =======
 msgstr "<strong class=\"d-block mt-3\">Dodacia adresa</strong>"
 >>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Dodacia adresa</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase_stock.report_purchasequotation_document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7337,10 +7382,15 @@ msgstr "<strong>Incoterm:</strong>"
 msgid "<strong>Incoterm:</strong>"
 msgstr "<strong>Incoterm:</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid "<strong>Incoterm:</strong>"
+msgstr "<strong>Incoterm:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__is_storable
 msgid "A storable product is a product for which you manage stock."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7458,10 +7508,14 @@ msgstr "Skladový tovar je tovar, ktorý spravujete na sklade."
 =======
 msgstr "Skladový tovar je tovar, ktorý spravujete na sklade."
 >>>>>>> upstream/18.0
+=======
+msgstr "Skladový tovar je tovar, ktorý spravujete na sklade."
+>>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__qty_received_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8098,6 +8152,8 @@ msgid ""
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "According to product configuration, the received quantity can be "
 "automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
@@ -8107,6 +8163,9 @@ msgstr ""
 "nasledovne:\n"
 "  - Manuálne: množstvo sa nastavuje ručne\n"
 "  - Skladové pohyby: množstvo sa vypočíta z potvrdených skladových pohybov\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
@@ -8147,7 +8206,11 @@ msgstr "Spoločnosti"
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__effective_date
 msgid "Completion date of the first receipt order."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dátum dokončenia prvej dodávky k objednávke."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dátum dokončenia prvej dodávky k objednávke."
 >>>>>>> upstream/18.0
@@ -8167,7 +8230,11 @@ msgstr "Kontakt"
 #: code:addons/purchase_stock/models/purchase_order.py:0
 msgid "Corresponding receipt not found."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nenašiel sa zodpovedajúci príjem."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nenašiel sa zodpovedajúci príjem."
 >>>>>>> upstream/18.0
@@ -8176,7 +8243,11 @@ msgstr "Nenašiel sa zodpovedajúci príjem."
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_move__created_purchase_line_ids
 msgid "Created Purchase Order Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvorené riadky nákupnej objednávky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvorené riadky nákupnej objednávky"
 >>>>>>> upstream/18.0
@@ -8196,7 +8267,11 @@ msgstr "Vlastný popis"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__days_to_arrive
 msgid "Days To Arrive"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dni do príchodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dni do príchodu"
 >>>>>>> upstream/18.0
@@ -8205,7 +8280,11 @@ msgstr "Dni do príchodu"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
 msgid "Days needed to confirm a PO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet dní potrebných na potvrdenie NO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet dní potrebných na potvrdenie NO"
 >>>>>>> upstream/18.0
@@ -8216,6 +8295,11 @@ msgstr "Počet dní potrebných na potvrdenie NO"
 msgid "Days needed to confirm a PO, define when a PO should be validated"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Počet dní potrebných na potvrdenie NO, definujte, kedy by malo byť "
+"objednávka potvrdená"
+>>>>>>> upstream/18.0
 =======
 "Počet dní potrebných na potvrdenie NO, definujte, kedy by malo byť "
 "objednávka potvrdená"
@@ -8228,7 +8312,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_stock.field_res_config_settings__days_to_purchase
 msgid "Days to Purchase"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dni do nákupu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dni do nákupu"
 >>>>>>> upstream/18.0
@@ -8273,7 +8361,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__dest_address_id
 msgid "Dropship Address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adresa pre dropshipping"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresa pre dropshipping"
 >>>>>>> upstream/18.0
@@ -8293,7 +8385,11 @@ msgstr "Dátum účinnosti"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.vendor_delay_report_filter
 msgid "Effective Date Last Year"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skutočné datum Minulý rok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skutočné datum Minulý rok"
 >>>>>>> upstream/18.0
@@ -8302,7 +8398,11 @@ msgstr "Skutočné datum Minulý rok"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_report__days_to_arrival
 msgid "Effective Days To Arrival"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet dní do príchodu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet dní do príchodu"
 >>>>>>> upstream/18.0
@@ -8331,7 +8431,11 @@ msgstr "Očakávaný problém"
 #: model:ir.model.fields.selection,name:purchase_stock.selection__purchase_order__receipt_status__full
 msgid "Fully Received"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plne prijaté"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plne prijaté"
 >>>>>>> upstream/18.0
@@ -8341,7 +8445,11 @@ msgstr "Plne prijaté"
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Generate the draft vendor bill."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vygenerujte návrh faktúry dodávateľa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vygenerujte návrh faktúry dodávateľa."
 >>>>>>> upstream/18.0
@@ -8352,6 +8460,10 @@ msgstr "Vygenerujte návrh faktúry dodávateľa."
 msgid "Go back to the purchase order to generate the vendor bill."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vráťte sa k nákupnej objednávke, aby ste vygenerovali faktúru dodávateľa."
+>>>>>>> upstream/18.0
 =======
 "Vráťte sa k nákupnej objednávke, aby ste vygenerovali faktúru dodávateľa."
 >>>>>>> upstream/18.0
@@ -8365,7 +8477,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__incoming_picking_count
 msgid "Incoming Shipment count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet skladových príjemek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet skladových príjemek"
 >>>>>>> upstream/18.0
@@ -8505,7 +8621,11 @@ msgid "Incoterm Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokácia Incoterm"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokácia Incoterm"
 >>>>>>> upstream/18.0
@@ -8912,7 +9032,11 @@ msgstr "Položka účtovnej knihy"
 #: model:ir.model.fields,field_description:purchase_stock.field_product_supplierinfo__last_purchase_date
 msgid "Last Purchase"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posledný nákup"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posledný nákup"
 >>>>>>> upstream/18.0
@@ -8926,7 +9050,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__location_final_id
 msgid "Location from procurement"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Miesto z obstarávania"
+>>>>>>> upstream/18.0
 =======
 msgstr "Miesto z obstarávania"
 >>>>>>> upstream/18.0
@@ -9077,8 +9205,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Orders for reordering products,they will be scheduled that many days earlier"
 " to cope with unexpected vendor delays."
+=======
+"Orders for reordering products,they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+>>>>>>> upstream/18.0
 =======
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
@@ -9735,6 +9868,7 @@ msgstr "Nasledujúci prenos bol ovplyvnený:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -10369,12 +10503,17 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid "No Vendor Found"
 msgstr "Nenašiel sa žiadny dodávateľ"
 
 #. module: purchase_stock
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "No data yet"
@@ -10384,7 +10523,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_help_message_template
 msgid "No receipt yet! Automate them with purchase orders."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatiaľ žiadny príjem! Automatizujte ich pomocou nákupných objednávok."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatiaľ žiadny príjem! Automatizujte ich pomocou nákupných objednávok."
 >>>>>>> upstream/18.0
@@ -10398,6 +10541,7 @@ msgstr "Neprijaté"
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11033,18 +11177,27 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Odoo is not able to generate the anglo saxon entries. The total valuation of "
 "%s is zero."
 msgstr ""
 "Odoo nie je schopné generovať anglosaské záznamy. Celkové ocenenie %s je "
 "nula."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.vendor_delay_report_view_graph
 msgid "On-Time Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Včasnosť dodávok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Včasnosť dodávok"
 >>>>>>> upstream/18.0
@@ -11056,7 +11209,11 @@ msgstr "Včasnosť dodávok"
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__on_time_rate
 msgid "On-Time Delivery Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Miera včasnosti dodávok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Miera včasnosti dodávok"
 >>>>>>> upstream/18.0
@@ -11065,7 +11222,11 @@ msgstr "Miera včasnosti dodávok"
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__qty_on_time
 msgid "On-Time Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Včasné množstvo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Včasné množstvo"
 >>>>>>> upstream/18.0
@@ -11075,7 +11236,11 @@ msgstr "Včasné množstvo"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.vendor_delay_report_filter
 msgid "On-time Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Včasnosť dodávok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Včasnosť dodávok"
 >>>>>>> upstream/18.0
@@ -11084,7 +11249,11 @@ msgstr "Včasnosť dodávok"
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
 msgid "On-time Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Miera včasnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Miera včasnosti"
 >>>>>>> upstream/18.0
@@ -11099,6 +11268,7 @@ msgstr "Bod objednávky"
 #: model:ir.model.fields,help:purchase_stock.field_res_partner__on_time_rate
 #: model:ir.model.fields,help:purchase_stock.field_res_users__on_time_rate
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11735,6 +11905,8 @@ msgid ""
 "purchase_stock.on_time_delivery_days or the default 365"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Over the past x days; the number of products received on time divided by the "
 "number of ordered products.x is either the System Parameter "
 "purchase_stock.on_time_delivery_days or the default 365"
@@ -11742,13 +11914,20 @@ msgstr ""
 "Za posledných x dní; počet produktov doručených načas vydelený počtom "
 "objednaných produktov. X je buď systémový parameter "
 "purchase_stock.on_time_delivery_days, alebo predvolená hodnota 365"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_product_product__purchase_order_line_ids
 msgid "PO Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Riadky NO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riadky NO"
 >>>>>>> upstream/18.0
@@ -11757,7 +11936,11 @@ msgstr "Riadky NO"
 #: model:ir.model.fields.selection,name:purchase_stock.selection__purchase_order__receipt_status__partial
 msgid "Partially Received"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čiastočne prijaté"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čiastočne prijaté"
 >>>>>>> upstream/18.0
@@ -11774,7 +11957,11 @@ msgstr "Cenový rozdiel účtu"
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Process all the receipt quantities."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spracujte všetky množstvá v príjemkách."
+>>>>>>> upstream/18.0
 =======
 msgstr "Spracujte všetky množstvá v príjemkách."
 >>>>>>> upstream/18.0
@@ -11811,7 +11998,11 @@ msgstr "Doplnenie produktu"
 #: model:ir.model,name:purchase_stock.model_stock_replenish_mixin
 msgid "Product Replenish Mixin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mixin na doplnenie produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mixin na doplnenie produktu"
 >>>>>>> upstream/18.0
@@ -11831,7 +12022,11 @@ msgstr "Varianta produktu"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__propagate_cancel
 msgid "Propagate cancellation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Propagovať zrušenie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Propagovať zrušenie"
 >>>>>>> upstream/18.0
@@ -11841,7 +12036,11 @@ msgstr "Propagovať zrušenie"
 #: model:ir.model.fields,field_description:purchase_stock.field_res_users__purchase_line_ids
 msgid "Purchase Lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupné riadky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nákupné riadky"
 >>>>>>> upstream/18.0
@@ -11904,7 +12103,11 @@ msgstr "Potvrdenka"
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__receipt_status
 msgid "Receipt Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stav príjemky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stav príjemky"
 >>>>>>> upstream/18.0
@@ -11919,7 +12122,11 @@ msgstr "Prijať produkty"
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Receive the ordered products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijať objednané produkty."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijať objednané produkty."
 >>>>>>> upstream/18.0
@@ -11928,7 +12135,11 @@ msgstr "Prijať objednané produkty."
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__qty_received_method
 msgid "Received Qty Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté množstvo Metóda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijaté množstvo Metóda"
 >>>>>>> upstream/18.0
@@ -11946,6 +12157,12 @@ msgid ""
 "            Green: On time"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Červená: Oneskorené\n"
+"            Oranžová: Spracovať dnes\n"
+"            Zelená: Na čas"
+>>>>>>> upstream/18.0
 =======
 "Červená: Oneskorené\n"
 "            Oranžová: Spracovať dnes\n"
@@ -11988,7 +12205,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase_stock.product_supplierinfo_replenishment_tree_view
 msgid "Set as Supplier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastaviť ako dodávateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastaviť ako dodávateľa"
 >>>>>>> upstream/18.0
@@ -11997,7 +12218,11 @@ msgstr "Nastaviť ako dodávateľa"
 #: model:ir.model.fields,field_description:purchase_stock.field_product_supplierinfo__show_set_supplier_button
 msgid "Show Set Supplier Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť tlačidlo Nastaviť dodávateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť tlačidlo Nastaviť dodávateľa"
 >>>>>>> upstream/18.0
@@ -12007,7 +12232,11 @@ msgstr "Zobraziť tlačidlo Nastaviť dodávateľa"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_replenish_mixin__show_vendor
 msgid "Show Vendor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť dodávateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť dodávateľa"
 >>>>>>> upstream/18.0
@@ -12016,7 +12245,11 @@ msgstr "Zobraziť dodávateľa"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse_orderpoint__show_supplier
 msgid "Show supplier column"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť stĺpec dodávateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť stĺpec dodávateľa"
 >>>>>>> upstream/18.0
@@ -12056,7 +12289,11 @@ msgstr "Report skladového pravidla"
 #: model:ir.model,name:purchase_stock.model_stock_replenishment_info
 msgid "Stock supplier replenishment information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informácie dodávateľa k doplnení zásob"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informácie dodávateľa k doplnení zásob"
 >>>>>>> upstream/18.0
@@ -12065,7 +12302,11 @@ msgstr "Informácie dodávateľa k doplnení zásob"
 #: model:ir.model,name:purchase_stock.model_stock_replenishment_option
 msgid "Stock warehouse replenishment option"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Možnosť doplnenia skladových zásob"
+>>>>>>> upstream/18.0
 =======
 msgstr "Možnosť doplnenia skladových zásob"
 >>>>>>> upstream/18.0
@@ -12085,7 +12326,11 @@ msgstr "Cenník dodávateľa"
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_replenishment_info__supplierinfo_ids
 msgid "Supplierinfo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Informácie o dodávateľovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Informácie o dodávateľovi"
 >>>>>>> upstream/18.0
@@ -12109,6 +12354,11 @@ msgid ""
 "ask for a refund."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Množstvá na vašej nakupnej objednávke sú nižšie ako fakturované. Mali by ste "
+"požiadať o vrátenie peňazí."
+>>>>>>> upstream/18.0
 =======
 "Množstvá na vašej nakupnej objednávke sú nižšie ako fakturované. Mali by ste "
 "požiadať o vrátenie peňazí."
@@ -12119,6 +12369,7 @@ msgstr ""
 #: code:addons/purchase_stock/models/purchase_order_line.py:0
 msgid ""
 "The warehouse of operation type (%(operation_type)s) is inconsistent with "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12754,18 +13005,24 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "location (%(location)s) of reordering rule (%(reordering_rule)s) for product "
 "%(product)s. Change the operation type or cancel the request for quotation."
 msgstr ""
 "Sklad typu operácie (%(operation_type)s) nie je v súlade s lokáciou (%"
 "(location)s) pravidla doplnenia zásob (%(reordering_rule)s) pre produkt %"
 "(product)s. Zmeňte typ operácie alebo zrušte žiadosť o cenovú ponuku."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13528,6 +13785,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "There is no matching vendor price to generate the purchase order for product "
 "%s (no vendor defined, minimum quantity not reached, dates not valid, ...). "
 "Go on the product form and complete the list of vendors."
@@ -13536,6 +13795,9 @@ msgstr ""
 "objednávky pre produkt %s (nie je definovaný dodávateľ, nedosiahlo sa "
 "minimálne množstvo, dátumy nie sú platné...). Prejdite na formulár produktu "
 "a doplňte zoznam dodávateľov."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock
@@ -13562,6 +13824,7 @@ msgstr ""
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13947,6 +14210,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This adds a dropshipping route to apply on products in order to request your "
 "vendors to deliver to your customers. A product to dropship will generate a "
 "purchase request for quotation once the sales order confirmed. This is a on-"
@@ -14078,6 +14343,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14351,6 +14619,11 @@ msgid ""
 "already been validated."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tieto dátumy, na príjemkách %s ktoré už boli potvrdené, nebolo možné "
+"zodpovedajúcim spôsobom."
+>>>>>>> upstream/18.0
 =======
 "Tieto dátumy, na príjemkách %s ktoré už boli potvrdené, nebolo možné "
 "zodpovedajúcim spôsobom."
@@ -14362,6 +14635,10 @@ msgstr ""
 msgid "Those dates have been updated accordingly on the receipt %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tieto dátumy boli zodpovedajúcim spôsobom na príjemkách %s aktualizované ."
+>>>>>>> upstream/18.0
 =======
 "Tieto dátumy boli zodpovedajúcim spôsobom na príjemkách %s aktualizované ."
 >>>>>>> upstream/18.0
@@ -14438,7 +14715,11 @@ msgid "Track Inventory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sledovať zásoby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sledovať zásoby"
 >>>>>>> upstream/18.0
@@ -14650,7 +14931,11 @@ msgstr ""
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 msgid "Validate the receipt of all ordered products."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrďte prijatie všetkých objednaných produktov."
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrďte prijatie všetkých objednaných produktov."
 >>>>>>> upstream/18.0
@@ -14668,7 +14953,11 @@ msgstr "Výrobca"
 #: model:ir.model,name:purchase_stock.model_vendor_delay_report
 msgid "Vendor Delay Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prehľad o oneskoreniach dodávateľov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prehľad o oneskoreniach dodávateľov"
 >>>>>>> upstream/18.0
@@ -14683,7 +14972,11 @@ msgstr "Priebežná doba dodávateľa"
 #: model_terms:ir.actions.act_window,help:purchase_stock.action_purchase_vendor_delay_report
 msgid "Vendor On-time Delivery analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Analýza včasnosti dodávok dodávateľov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Analýza včasnosti dodávok dodávateľov"
 >>>>>>> upstream/18.0
@@ -14714,6 +15007,7 @@ msgstr "Keď sú produkty zakúpené, môźu byť doručené do tohto skladiska"
 #: code:addons/purchase_stock/models/stock_rule.py:0
 msgid ""
 "When products are needed in <b>%s</b>, <br/> a request for quotation is "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15349,12 +15643,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "created to fulfill the need.<br/>Note: This rule will be used in combination "
 "with the rules<br/>of the reception route(s)"
 msgstr ""
 "Keď sú produkty potrebné v <b>%s</b>, <br/>, vytvorí sa žiadosť o cenovú "
 "ponuku na splnenie tejto potreby.<br/>Poznámka: Toto pravidlo sa bude "
 "používať v kombinácii s pravidlami<br/> trasy (trás) pre príjem"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_stock

@@ -307,7 +307,11 @@ export class FloorScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.ui = useService("ui");
+=======
+        this.ui = useState(useService("ui"));
+>>>>>>> upstream/18.0
 =======
         this.ui = useState(useService("ui"));
 >>>>>>> upstream/18.0
@@ -1562,6 +1566,10 @@ export class FloorScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            active: true,
+>>>>>>> upstream/18.0
 =======
                             active: true,
 >>>>>>> upstream/18.0
@@ -1716,6 +1724,10 @@ export class FloorScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                active: true,
+>>>>>>> upstream/18.0
 =======
                 active: true,
 >>>>>>> upstream/18.0
@@ -2020,8 +2032,14 @@ export class FloorScreen extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.pos.models["restaurant.floor"].length > 0) {
             this.selectFloor(this.pos.models["restaurant.floor"].getAll()[0]);
+=======
+        const remainingFloors = this.pos.config.floor_ids.filter((f) => f.active);
+        if (remainingFloors.length > 0) {
+            this.selectFloor(remainingFloors[0]);
+>>>>>>> upstream/18.0
 =======
         const remainingFloors = this.pos.config.floor_ids.filter((f) => f.active);
         if (remainingFloors.length > 0) {

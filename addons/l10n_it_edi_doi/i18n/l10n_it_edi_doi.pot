@@ -188,6 +188,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Project-Id-Version: Odoo Server 17.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-06-11 09:25+0000\n"
@@ -921,6 +922,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-06 19:06+0000\n"
@@ -988,6 +991,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1160,6 +1166,7 @@ msgstr ""
 
 #. module: l10n_it_edi_doi
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1779,6 +1786,9 @@ msgstr ""
 =======
 #: code:addons/l10n_it_edi_doi/models/sale_order.py:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/l10n_it_edi_doi/models/sale_order.py:0
+>>>>>>> upstream/18.0
 msgid "A line using tax %s should not contain any other taxes"
 msgstr ""
 
@@ -2071,7 +2081,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_doi.field_account_payment__l10n_it_edi_doi_date
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2637,7 +2650,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_doi.field_account_payment__l10n_it_edi_doi_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3199,7 +3215,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_doi.field_account_payment__l10n_it_edi_doi_amount
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3773,7 +3792,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_doi.field_account_payment__l10n_it_edi_doi_warning
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4334,7 +4356,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4893,7 +4918,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5461,7 +5489,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6016,6 +6047,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6607,7 +6641,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7207,11 +7244,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_doi.field_sale_order_line__qty_invoiced_posted
 msgid "Invoiced Quantity (posted)"
 msgstr ""
 
 #. module: l10n_it_edi_doi
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7776,7 +7816,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8378,7 +8421,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8933,6 +8979,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9541,10 +9590,16 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
 msgid ""
 "Pay attention, the threshold of your Declaration of Intent %s of %s is exceeded by %s, this document included.\n"
 "Invoiced: %s; Not Yet Invoiced: %s"
+=======
+msgid ""
+"Pay attention, the threshold of your Declaration of Intent %(name)s of %(threshold)s is exceeded by %(exceeded)s, this document included.\n"
+"Invoiced: %(invoiced)s; Not Yet Invoiced: %(not_yet_invoiced)s"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Pay attention, the threshold of your Declaration of Intent %(name)s of %(threshold)s is exceeded by %(exceeded)s, this document included.\n"
@@ -10667,7 +10722,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11222,6 +11280,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11820,11 +11881,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_it_edi_doi.model_sale_order_line
 msgid "Sales Order Line"
 msgstr ""
 
 #. module: l10n_it_edi_doi
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12389,7 +12453,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12980,11 +13047,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:l10n_it_edi_doi.model_account_tax
 msgid "Tax"
 msgstr ""
 
 #. module: l10n_it_edi_doi
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13375,6 +13445,7 @@ msgstr ""
 #. module: l10n_it_edi_doi
 #. odoo-python
 #: code:addons/l10n_it_edi_doi/models/declaration_of_intent.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14481,11 +14552,17 @@ msgid ""
 "The Declaration of Intent belongs to company %(declaration_company)s, not "
 "%(company)s."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"The Declaration of Intent belongs to company %(declaration_company)s, not "
+"%(company)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_it_edi_doi
 #. odoo-python
 #: code:addons/l10n_it_edi_doi/models/declaration_of_intent.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15592,11 +15669,17 @@ msgid ""
 "The Declaration of Intent belongs to partner %(declaration_partner)s, not "
 "%(partner)s."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"The Declaration of Intent belongs to partner %(declaration_partner)s, not "
+"%(partner)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_it_edi_doi
 #. odoo-python
 #: code:addons/l10n_it_edi_doi/models/declaration_of_intent.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16150,12 +16233,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "The Declaration of Intent is in draft."
 msgstr ""
 
 #. module: l10n_it_edi_doi
 #. odoo-python
 #: code:addons/l10n_it_edi_doi/models/declaration_of_intent.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17262,6 +17348,11 @@ msgid ""
 "The Declaration of Intent is valid from %(start_date)s to %(end_date)s, not "
 "on %(date)s."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"The Declaration of Intent is valid from %(start_date)s to %(end_date)s, not "
+"on %(date)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: l10n_it_edi_doi
@@ -17451,7 +17542,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18010,8 +18104,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
 msgid "The Declaration of Intent uses currency %s, not %s."
+=======
+msgid ""
+"The Declaration of Intent uses currency %(declaration_currency)s, not "
+"%(currency)s."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "The Declaration of Intent uses currency %(declaration_currency)s, not "
@@ -19167,7 +19267,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:l10n_it_edi_doi.field_account_payment__l10n_it_edi_doi_amount
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19743,7 +19846,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:l10n_it_edi_doi.field_account_payment__l10n_it_edi_doi_use
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20318,7 +20424,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20879,7 +20988,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21439,7 +21551,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #, python-format
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

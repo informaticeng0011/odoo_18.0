@@ -168,6 +168,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -608,6 +609,9 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
@@ -658,6 +662,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1811,6 +1816,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-03-20 18:37+0000\n"
 "PO-Revision-Date: 2026-04-24 12:47+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1829,6 +1836,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1862,6 +1872,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3110,11 +3121,17 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_email_amount
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_email_amount
 msgid "# emails to send"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3775,6 +3792,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "# e-mailova za slanje"
 
 #. module: hr
@@ -3793,6 +3812,9 @@ msgstr "# e-mailova za slanje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3827,6 +3849,7 @@ msgid "%s (copy)"
 msgstr "%s (kopija)"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4531,6 +4554,11 @@ msgstr "'Značka - %s' % (object.name).replace('/', '')"
 msgid "'Badge - %s' % (object.name).replace('/', '')"
 msgstr "'Značka - %s' % (object.name).replace('/', '')"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.actions.report,print_report_name:hr.hr_employee_print_badge
+msgid "'Badge - %s' % (object.name).replace('/', '')"
+msgstr "'Značka - %s' % (object.name).replace('/', '')"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -4556,7 +4584,11 @@ msgid "1 Onsite Interview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 intervju u kompaniji"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 intervju u kompaniji"
 >>>>>>> upstream/18.0
@@ -4627,7 +4659,11 @@ msgid "1 Phone Call"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 telefonski poziv"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 telefonski poziv"
 >>>>>>> upstream/18.0
@@ -4698,7 +4734,11 @@ msgid "12 days / year, including <br>6 of your choice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12 dana / godina, uključujući<br>6 po vašem izboru."
+>>>>>>> upstream/18.0
 =======
 msgstr "12 dana / godina, uključujući<br>6 po vašem izboru."
 >>>>>>> upstream/18.0
@@ -4769,7 +4809,11 @@ msgid "2 open days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 otvorena dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "2 otvorena dana"
 >>>>>>> upstream/18.0
@@ -4840,7 +4884,11 @@ msgid "4 Days after Interview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 dana nakon razgovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 dana nakon razgovora"
 >>>>>>> upstream/18.0
@@ -4890,6 +4938,7 @@ msgstr "4 dana nakon razgovora"
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6777,6 +6826,8 @@ msgid "<small role=\"img\" class=\"fa fa-fw fa-circle-o text-success o_button_ic
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<b>Congratulations!</b> May I recommend you to setup an <a "
 "href=\"%s\">onboarding plan?</a>"
@@ -6800,6 +6851,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6848,6 +6902,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" "
+"title=\"Kompanija\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" "
 "title=\"Kompanija\"/>"
@@ -6928,7 +6987,11 @@ msgid "<i class=\"fa fa-fw me-2 fa-envelope text-primary\" title=\"Email\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw me-2 fa-envelope text-primary\" title=\"Email\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw me-2 fa-envelope text-primary\" title=\"Email\"/>"
 >>>>>>> upstream/18.0
@@ -7195,6 +7258,7 @@ msgid "<i class=\"fa fa-fw me-2 fa-phone text-primary\" title=\"Phone\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7599,6 +7663,9 @@ msgid "<i class=\"fa fa-fw me-2 fa-phone text-primary\" title=\"Phone\"/>"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw me-2 fa-phone text-primary\" title=\"Telefon\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw me-2 fa-phone text-primary\" title=\"Telefon\"/>"
 >>>>>>> upstream/18.0
@@ -7657,6 +7724,7 @@ msgid "<small><b>READ</b></small>"
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13012,6 +13080,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"flex-shrink-0 ml8 me-2\">IP Addresses</span>"
 msgstr "<span class=\"flex-shrink-0 ml8 me-2\">IP adrese</span>"
@@ -13057,6 +13127,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13102,6 +13175,7 @@ msgid "<span class=\"o_stat_text\">Connected Since</span>"
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14003,6 +14077,11 @@ msgstr "<span class=\"o_stat_text\">Kontakti</span>"
 msgid "<span class=\"o_stat_text\">Contacts</span>"
 msgstr "<span class=\"o_stat_text\">Kontakti</span>"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form_smartbutton_inherited
+msgid "<span class=\"o_stat_text\">Contacts</span>"
+msgstr "<span class=\"o_stat_text\">Kontakti</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_partner_view_form
@@ -14022,7 +14101,11 @@ msgid "<span class=\"o_stat_text\">Employee</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Djelatnik</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Djelatnik</span>"
 >>>>>>> upstream/18.0
@@ -14093,7 +14176,11 @@ msgid "<span class=\"text-muted small\">Days to get an Offer</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">Broj dana za dobivanje ponude</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted small\">Broj dana za dobivanje ponude</span>"
 >>>>>>> upstream/18.0
@@ -14164,7 +14251,11 @@ msgid "<span class=\"text-muted small\">Process</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">Postupak</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted small\">Postupak</span>"
 >>>>>>> upstream/18.0
@@ -14220,6 +14311,7 @@ msgstr "<span class=\"text-muted small\">Postupak</span>"
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Time to Answer</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15318,6 +15410,8 @@ msgstr "<span>Izvještavanje</span>"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<span class=\"text-muted small\">Vrijeme do odgovora</span>"
 
 #. module: hr
@@ -15338,6 +15432,9 @@ msgstr "<span>Izvještavanje</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15371,6 +15468,7 @@ msgstr "<span>Izvještavanje</span>"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "<span>View</span>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15697,6 +15795,9 @@ msgid "<span>View</span>"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "<span>Pogledaj</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Pogledaj</span>"
 >>>>>>> upstream/18.0
@@ -16213,7 +16314,11 @@ msgid "A full-time position <br>Attractive salary package."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pozicija na puno radno vrijeme <br>Privlačan paket plaća."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozicija na puno radno vrijeme <br>Privlačan paket plaća."
 >>>>>>> upstream/18.0
@@ -16279,6 +16384,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr
 <<<<<<< HEAD
@@ -17292,6 +17398,8 @@ msgstr ""
 #: code:addons/hr/static/src/components/avatar_card_resource/avatar_card_resource_popover.xml:0
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17339,6 +17447,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17390,7 +17501,11 @@ msgid "Absent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odsutan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odsutan"
 >>>>>>> upstream/18.0
@@ -17461,7 +17576,11 @@ msgid "Achieve monthly sales objectives"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postignite mjesečne ciljeve u prodaji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postignite mjesečne ciljeve u prodaji"
 >>>>>>> upstream/18.0
@@ -17729,7 +17848,10 @@ msgstr "Postignite mjesečne ciljeve u prodaji"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_needaction
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18385,7 +18507,10 @@ msgstr "Potrebna akcija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18837,6 +18962,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr
 <<<<<<< HEAD
@@ -19442,6 +19568,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Aktivirajte daljinski rad da omogućite zaposlenicima da navedu odakle rade."
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 "Aktivirajte daljinski rad da omogućite zaposlenicima da navedu odakle rade."
@@ -19523,6 +19654,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__active
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__active
 #: model:ir.model.fields,field_description:hr.field_hr_job__active
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20175,11 +20307,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__active
 msgid "Active"
 msgstr "Aktivan"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21269,10 +21404,15 @@ msgstr "Aktivan"
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_ids
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_ids
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr.field_hr_department__activity_ids
+#: model:ir.model.fields,field_description:hr.field_hr_employee__activity_ids
+>>>>>>> upstream/18.0
 msgid "Activities"
 msgstr "Aktivnosti"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22959,6 +23099,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_exception_decoration
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_exception_decoration
 msgid "Activity Exception Decoration"
@@ -22983,6 +23125,9 @@ msgstr "Plan aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23232,6 +23377,9 @@ msgstr "Plan aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23669,6 +23817,7 @@ msgid "Activity State"
 msgstr "Status aktivnosti"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24732,6 +24881,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_type_icon
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_type_icon
 msgid "Activity Type Icon"
@@ -24750,6 +24901,9 @@ msgstr "Ikona tipa aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24783,6 +24937,7 @@ msgstr "Ikona tipa aktivnosti"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Activity by"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25439,6 +25594,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Aktivnost po"
 
 #. module: hr
@@ -25459,6 +25616,9 @@ msgstr "Predložak plana aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25510,6 +25670,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Planovi aktivnosti se koriste za dodjeljivanje liste aktivnosti u samo "
+"nekoliko klikova\n"
+"     (npr. \"Onboarding\", \"Offboarding\"...)"
+>>>>>>> upstream/18.0
 =======
 "Planovi aktivnosti se koriste za dodjeljivanje liste aktivnosti u samo "
 "nekoliko klikova\n"
@@ -25604,6 +25770,7 @@ msgid "Activity schedule plan Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -26210,6 +26377,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Čarobnjak za zakazivanje i planiranje aktivnosti"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za zakazivanje i planiranje aktivnosti"
@@ -26292,6 +26464,7 @@ msgid "Add a new employee"
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27122,6 +27295,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_description
 #: model:ir.model.fields,field_description:hr.field_hr_employee__departure_description
 msgid "Additional Information"
@@ -27289,6 +27464,9 @@ msgstr "Dodatne informacije"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27633,6 +27811,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr
 <<<<<<< HEAD
@@ -28272,6 +28451,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Dodatne informacije:\n"
 "%(description)s"
 
@@ -28294,6 +28475,9 @@ msgstr "Dodatna napomena"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28333,6 +28517,7 @@ msgstr "Dodatna napomena"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Additional languages"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29541,6 +29726,8 @@ msgstr "Administracija"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Dodatni jezici"
 
 #. module: hr
@@ -29561,6 +29748,9 @@ msgstr "Administracija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29620,7 +29810,11 @@ msgid "Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Administrator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Administrator"
 >>>>>>> upstream/18.0
@@ -29685,7 +29879,11 @@ msgid "Advanced Presence Control"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napredna kontrola prisutnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Napredna kontrola prisutnosti"
 >>>>>>> upstream/18.0
@@ -29735,6 +29933,7 @@ msgstr "Napredna kontrola prisutnosti"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Advanced presence of employees"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30358,6 +30557,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Napredna prisutnost zaposlenika"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Napredna prisutnost zaposlenika"
@@ -30654,6 +30858,9 @@ msgstr "Napredna prisutnost zaposlenika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31091,6 +31298,7 @@ msgid "Alias Contact Security"
 msgstr "Sigurnosni nadimak kontakta"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31748,6 +31956,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Allow employees to update their own data"
 msgstr ""
@@ -31775,7 +31985,11 @@ msgid "Application Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavke aplikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavke aplikacije"
 >>>>>>> upstream/18.0
@@ -31987,6 +32201,7 @@ msgid "Apply"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -33499,6 +33714,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33549,6 +33766,9 @@ msgstr "Naukovanje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33582,6 +33802,7 @@ msgstr "Naukovanje"
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Approvers"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34687,6 +34908,8 @@ msgstr "Arhiviraj"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Odobravatelji"
 
 #. module: hr
@@ -34707,6 +34930,9 @@ msgstr "Arhiviraj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34962,6 +35188,9 @@ msgstr "Arhiviraj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35630,6 +35859,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As an employee of our company, you will <b>collaborate with each department to create and deploy\n"
 "                                disruptive products.</b> Come work at a growing company that offers great benefits with opportunities to\n"
 "                                moving forward and learn alongside accomplished leaders. We're seeking an experienced and outstanding member of staff.\n"
@@ -35637,6 +35867,8 @@ msgid ""
 "                                This position is both <b>creative and rigorous</b> by nature you need to think outside the box.\n"
 "                                We expect the candidate to be proactive and have a \"get it done\" spirit. To be successful,\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36081,6 +36313,7 @@ msgid ""
 "rigorous</b> by nature you need to think outside the box.\n"
 "                                We expect the candidate to be proactive and "
 "have a \"get it done\" spirit. To be successful,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37345,6 +37578,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                you will have solid solving problem skills."
 msgstr ""
 "Kao zaposlenik u našoj kompaniji <b>surađivat ćete sa svim odjelima kako bi "
@@ -37379,6 +37614,9 @@ msgstr "Dodjela"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37629,6 +37867,9 @@ msgstr "Dodjela"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38230,7 +38471,11 @@ msgid "Attendance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisutnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prisutnost"
 >>>>>>> upstream/18.0
@@ -38736,7 +38981,11 @@ msgid "Attendance/Point of Sale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisustvo/POS blagajna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prisustvo/POS blagajna"
 >>>>>>> upstream/18.0
@@ -38806,7 +39055,11 @@ msgid "Auto Subscribe Departments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjeli sa automatskom pretplatom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjeli sa automatskom pretplatom"
 >>>>>>> upstream/18.0
@@ -38871,7 +39124,11 @@ msgid "Automatically subscribe members of those departments to the channel."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatsko dodijeljivanje članova odabranih odjela na kanal."
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatsko dodijeljivanje članova odabranih odjela na kanal."
 >>>>>>> upstream/18.0
@@ -39094,6 +39351,7 @@ msgid "Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -40610,6 +40868,8 @@ msgstr ""
 msgid "Avatar"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40664,6 +40924,9 @@ msgstr "Avatar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40713,7 +40976,11 @@ msgid "Avatar 1024"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 1024"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar 1024"
 >>>>>>> upstream/18.0
@@ -40779,7 +41046,11 @@ msgid "Avatar 128"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 128"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar 128"
 >>>>>>> upstream/18.0
@@ -40845,7 +41116,11 @@ msgid "Avatar 256"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 256"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar 256"
 >>>>>>> upstream/18.0
@@ -40911,7 +41186,11 @@ msgid "Avatar 512"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar 512"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar 512"
 >>>>>>> upstream/18.0
@@ -40976,7 +41255,11 @@ msgid "Away"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odsutan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odsutan"
 >>>>>>> upstream/18.0
@@ -41041,7 +41324,11 @@ msgid "Bachelor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prvostupnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prvostupnik"
 >>>>>>> upstream/18.0
@@ -41112,7 +41399,11 @@ msgid "Bachelor Degree or Higher"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stupanj prvostupnika ili viši"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stupanj prvostupnika ili viši"
 >>>>>>> upstream/18.0
@@ -41163,6 +41454,7 @@ msgstr "Stupanj prvostupnika ili viši"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__barcode
 #: model:ir.model.fields,field_description:hr.field_res_users__barcode
 msgid "Badge ID"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42114,6 +42406,8 @@ msgstr "Račun banke"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "ID značke"
 
 #. module: hr
@@ -42134,6 +42428,9 @@ msgstr "Račun banke"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42167,6 +42464,7 @@ msgstr "Račun banke"
 #. module: hr
 #: model:ir.model,name:hr.model_res_partner_bank
 msgid "Bank Accounts"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42492,6 +42790,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Računi banke"
 >>>>>>> upstream/18.0
 =======
 msgstr "Računi banke"
@@ -43145,6 +43446,7 @@ msgid "Base"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -43369,6 +43671,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_ip
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43856,6 +44160,7 @@ msgstr "Osnova"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46592,6 +46897,8 @@ msgstr ""
 msgid "Based on user status in system"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46655,6 +46962,9 @@ msgstr "Prema statusu korisnika u sistemu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46856,7 +47166,11 @@ msgid "Binary file"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Binarna datoteka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Binarna datoteka"
 >>>>>>> upstream/18.0
@@ -47350,6 +47664,7 @@ msgid "Can Edit"
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48170,6 +48485,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form
 msgid "Cancel"
 msgstr "Otkaži"
@@ -48336,6 +48653,9 @@ msgstr "Otkaži"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48883,6 +49203,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49319,6 +49640,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_employee__certificate
 #: model:ir.model.fields,field_description:hr.field_res_users__certificate
 msgid "Certificate Level"
@@ -49337,6 +49660,9 @@ msgstr "Nivo certifikata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49385,7 +49711,11 @@ msgid "Change my Preferences"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Promijeni moje postavke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Promijeni moje postavke"
 >>>>>>> upstream/18.0
@@ -49598,7 +49928,11 @@ msgid "Chat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razgovor"
 >>>>>>> upstream/18.0
@@ -50319,6 +50653,7 @@ msgstr "Pododjeljenja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -52443,6 +52778,8 @@ msgid "City"
 msgstr "Grad"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52500,6 +52837,9 @@ msgstr "Grad"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52535,6 +52875,7 @@ msgstr "Grad"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__coach_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__coach_id
 #: model:ir.model.fields,field_description:hr.field_res_users__coach_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53404,11 +53745,15 @@ msgstr "Grad"
 =======
 #: model:ir.model.fields.selection,name:hr.selection__mail_activity_plan_template__responsible_type__coach
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:hr.selection__mail_activity_plan_template__responsible_type__coach
+>>>>>>> upstream/18.0
 msgid "Coach"
 msgstr "Trener"
 
 #. module: hr
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55315,6 +55660,8 @@ msgstr "Šifra"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid "Coach of employee %s is not set."
 msgstr "Trener zaposlenika %s nije postavljen."
@@ -55337,6 +55684,9 @@ msgstr "Šifra"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55371,6 +55721,7 @@ msgstr "Šifra"
 #: model_terms:ir.ui.view,arch_db:hr.view_department_form
 #: model_terms:ir.ui.view,arch_db:hr.view_department_tree
 msgid "Color"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55698,6 +56049,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Boja"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Boja"
@@ -56746,10 +57102,13 @@ msgstr "Kompanije"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan__company_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__company_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__company_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__company_id
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57208,7 +57567,11 @@ msgid "Company Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Država kompanije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Država kompanije"
 >>>>>>> upstream/18.0
@@ -57420,7 +57783,11 @@ msgid "Company Logo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Logo kompanije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Logo kompanije"
 >>>>>>> upstream/18.0
@@ -57931,7 +58298,11 @@ msgid "Company employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaposlenik kompanije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaposlenik kompanije"
 >>>>>>> upstream/18.0
@@ -58001,7 +58372,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavke"
 >>>>>>> upstream/18.0
@@ -58235,7 +58610,11 @@ msgid "Contact Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime kontakta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime kontakta"
 >>>>>>> upstream/18.0
@@ -58742,7 +59121,11 @@ msgid "Contact Phone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Telefon kontakta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Telefon kontakta"
 >>>>>>> upstream/18.0
@@ -58954,7 +59337,11 @@ msgid "Contract Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip ugovora"
 >>>>>>> upstream/18.0
@@ -59460,7 +59847,11 @@ msgid "Contract Types"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrste ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrste ugovora"
 >>>>>>> upstream/18.0
@@ -59510,6 +59901,7 @@ msgstr "Vrste ugovora"
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__contractor
 msgid "Contractor"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60300,6 +60692,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Izvođač"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Izvođač"
@@ -60542,6 +60939,9 @@ msgstr "Država"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61031,7 +61431,11 @@ msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šifra države"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šifra države"
 >>>>>>> upstream/18.0
@@ -61538,6 +61942,7 @@ msgid "Country of Birth"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -63200,6 +63605,8 @@ msgid "Create Date"
 msgstr "Kreiraj datum"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63253,6 +63660,9 @@ msgstr "Kreiraj datum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63286,6 +63696,7 @@ msgstr "Kreiraj datum"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form_inherit_hr
 msgid "Create Employee"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63347,10 +63758,14 @@ msgstr "Kreiraj zaposlenika"
 =======
 msgstr "Kreiraj zaposlenika"
 >>>>>>> upstream/18.0
+=======
+msgstr "Kreiraj zaposlenika"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64252,11 +64667,17 @@ msgstr "Kreiraj korisnika"
 msgid "Create User"
 msgstr "Kreiraj korisnika"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+msgid "Create User"
+msgstr "Kreiraj korisnika"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid "Create a new department"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64884,6 +65305,8 @@ msgstr ""
 msgid "Create a new employment type"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64932,6 +65355,9 @@ msgstr "Kreirajte novu vrstu zaposlenja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64980,7 +65406,11 @@ msgid "Create a new work location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj novu lokaciju rada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj novu lokaciju rada"
 >>>>>>> upstream/18.0
@@ -65045,6 +65475,7 @@ msgid "Create an Activity Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -65651,6 +66082,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Kreiraj plan aktivnosti"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj plan aktivnosti"
@@ -65750,7 +66186,11 @@ msgid "Create content that will help our users on a daily basis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stvarajte sadržaje koji će našim korisnicima pomagati na dnevnoj bazi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stvarajte sadržaje koji će našim korisnicima pomagati na dnevnoj bazi"
 >>>>>>> upstream/18.0
@@ -65815,7 +66255,11 @@ msgid "Create employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj zaposlenika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj zaposlenika"
 >>>>>>> upstream/18.0
@@ -66088,10 +66532,13 @@ msgstr "Kreiraj zaposlenika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan__create_uid
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__create_uid
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__create_uid
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__create_uid
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66755,10 +67202,13 @@ msgstr "Kreirao"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan__create_date
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__create_date
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__create_date
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__create_date
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67362,7 +67812,11 @@ msgid "Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valuta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valuta"
 >>>>>>> upstream/18.0
@@ -67876,6 +68330,7 @@ msgstr "Datum rođenja"
 #. odoo-python
 #: code:addons/hr/models/hr_departure_reason.py:0
 msgid "Default departure reasons cannot be deleted."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -68577,6 +69032,11 @@ msgstr "Zadane razloge prestanka radnog odnosa ne možete izbrisati."
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Zadane razloge prestanka radnog odnosa ne možete izbrisati."
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid ""
 "Define the allowed IP to be displayed as Present. In case of multiple "
@@ -68597,6 +69057,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Definirajte dozvoljeni IP koji će se prikazati kao Prisutan. U slučaju više "
+"adresa, razdvojite ih zarezom."
+>>>>>>> upstream/18.0
 =======
 "Definirajte dozvoljeni IP koji će se prikazati kao Prisutan. U slučaju više "
 "adresa, razdvojite ih zarezom."
@@ -68677,6 +69142,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Definirajte minimalni broj poslanih e-poruka koje će se prikazati kao "
+"Prisutno."
+>>>>>>> upstream/18.0
 =======
 "Definirajte minimalni broj poslanih e-poruka koje će se prikazati kao "
 "Prisutno."
@@ -68760,6 +69230,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Definirajte raspored rada resursa. Ako nije postavljeno, resurs će imati "
+"potpuno fleksibilno radno vrijeme."
+>>>>>>> upstream/18.0
 =======
 "Definirajte raspored rada resursa. Ako nije postavljeno, resurs će imati "
 "potpuno fleksibilno radno vrijeme."
@@ -69042,6 +69517,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69696,6 +70174,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Coordinating with the sales and support team for adopting different strategies\n"
 "Reviewing progress and identifying opportunities and new areas for development.\n"
 "Building strong relationships with clients / customers for business growth profitability.\n"
@@ -69704,6 +70183,8 @@ msgstr ""
 
 #. module: hr
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -70366,6 +70847,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71021,11 +71505,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan__department_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__department_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__department_id
 #: model:ir.model.fields,field_description:hr.field_res_users__department_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -71678,6 +72165,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72336,6 +72826,7 @@ msgstr "Odjeljenje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -73377,6 +73868,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_mail_activity_plan__department_assignable
 msgid "Department Assignable"
 msgstr "Odjel dodjeljiv"
@@ -73396,6 +73889,9 @@ msgstr "Odjel dodjeljiv"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73448,7 +73944,11 @@ msgid "Department Organization"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Organizacija odjela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Organizacija odjela"
 >>>>>>> upstream/18.0
@@ -73499,6 +73999,7 @@ msgstr "Organizacija odjela"
 #: model:ir.actions.act_window,name:hr.hr_department_kanban_action
 #: model:ir.actions.act_window,name:hr.hr_department_tree_action
 #: model:ir.ui.menu,name:hr.menu_hr_department_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74151,6 +74652,8 @@ msgstr "Organizacija odjela"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.view_department_filter
 msgid "Departments"
 msgstr "Odjeljenja"
@@ -74173,7 +74676,11 @@ msgid "Departure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odlazak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odlazak"
 >>>>>>> upstream/18.0
@@ -74239,7 +74746,11 @@ msgid "Departure Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum odlaska"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum odlaska"
 >>>>>>> upstream/18.0
@@ -74306,7 +74817,11 @@ msgid "Departure Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlog odlaska"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlog odlaska"
 >>>>>>> upstream/18.0
@@ -74372,7 +74887,11 @@ msgid "Departure Reasons"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razlozi odlaska"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razlozi odlaska"
 >>>>>>> upstream/18.0
@@ -74437,7 +74956,11 @@ msgid "Departure Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak odlaska"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak odlaska"
 >>>>>>> upstream/18.0
@@ -74508,7 +75031,11 @@ msgid "Direct subordinates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Direktno podređeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Direktno podređeni"
 >>>>>>> upstream/18.0
@@ -74573,7 +75100,11 @@ msgid "Directory"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imenik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imenik"
 >>>>>>> upstream/18.0
@@ -74785,7 +75316,11 @@ msgid "Discard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odbaci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odbaci"
 >>>>>>> upstream/18.0
@@ -75297,7 +75832,11 @@ msgid "Discover our products."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkrijte naše proizvode."
+>>>>>>> upstream/18.0
 =======
 msgstr "Otkrijte naše proizvode."
 >>>>>>> upstream/18.0
@@ -75362,7 +75901,11 @@ msgid "Discussion Channel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kanal za diskusiju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kanal za diskusiju"
 >>>>>>> upstream/18.0
@@ -75635,10 +76178,13 @@ msgstr "Kanal za diskusiju"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan__display_name
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__display_name
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__display_name
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__display_name
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76295,8 +76841,11 @@ msgstr "Prikazani naziv"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__divorced
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76954,6 +77503,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77555,7 +78107,11 @@ msgid "Doctor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doktor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doktor"
 >>>>>>> upstream/18.0
@@ -78061,7 +78617,11 @@ msgid "Driving License"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vozačka dozvola"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vozačka dozvola"
 >>>>>>> upstream/18.0
@@ -78335,11 +78895,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        You can make a real contribution to the success of the company.\n"
 "                        <br>\n"
 "                        Several activities are often organized all over the year, such as weekly\n"
 "                        sports sessions, team building events, monthly drink, and much more"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78995,6 +79558,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79400,6 +79964,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79450,6 +80016,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79504,7 +80073,11 @@ msgid "Eat &amp; Drink"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hrana &amp; piće"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hrana &amp; piće"
 >>>>>>> upstream/18.0
@@ -79775,9 +80348,12 @@ msgstr "Edukacija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80430,6 +81006,7 @@ msgstr "Edukacija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80541,6 +81118,10 @@ msgstr "Edukacija"
 >>>>>>> upstream/18.0
 msgid "Email"
 msgstr ""
+=======
+msgid "Email"
+msgstr "E-Mail"
+>>>>>>> upstream/18.0
 =======
 msgid "Email"
 msgstr "E-Mail"
@@ -81421,6 +82002,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:hr.model_hr_employee
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__employee_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__employee_id
@@ -81430,6 +82012,8 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__employee
 #: model:ir.model.fields.selection,name:hr.selection__hr_plan_activity_type__responsible__employee
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82086,6 +82670,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82741,6 +83328,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form_inherit_hr
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form_inherit_hr
 >>>>>>> upstream/18.0
@@ -83418,7 +84009,11 @@ msgid "Employee Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj zaposlenika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj zaposlenika"
 >>>>>>> upstream/18.0
@@ -83488,7 +84083,11 @@ msgid "Employee Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika zaposlenika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika zaposlenika"
 >>>>>>> upstream/18.0
@@ -83559,6 +84158,7 @@ msgid "Employee Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -84171,6 +84771,8 @@ msgstr ""
 msgid "Employee Plans"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84219,6 +84821,9 @@ msgstr "Planovi zaposlenika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84252,6 +84857,7 @@ msgstr "Planovi zaposlenika"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__employee_properties_definition
 msgid "Employee Properties"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84873,6 +85479,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Svojstva zaposlenika"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Svojstva zaposlenika"
@@ -84974,7 +85585,11 @@ msgid "Employee Termination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prekid radnog odnosa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prekid radnog odnosa"
 >>>>>>> upstream/18.0
@@ -85040,7 +85655,11 @@ msgid "Employee Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip zaposlenika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip zaposlenika"
 >>>>>>> upstream/18.0
@@ -85326,6 +85945,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
 >>>>>>> upstream/18.0
@@ -85828,6 +86448,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85981,6 +86603,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86089,6 +86714,7 @@ msgstr "Ime zaposlenog"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_resource_calendar_id
 msgid "Employee's Working Hours"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87147,6 +87773,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Radni sati zaposlenika"
 
 #. module: hr
@@ -87166,6 +87794,9 @@ msgstr "Radni sati zaposlenika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87426,6 +88057,10 @@ msgstr "Radni sati zaposlenika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr.res_partner_view_search
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr.res_partner_view_search
 >>>>>>> upstream/18.0
@@ -88088,6 +88723,7 @@ msgstr "Zaposleni"
 #: model:ir.model.fields,field_description:hr.field_res_partner__employees_count
 #: model:ir.model.fields,field_description:hr.field_res_users__employees_count
 msgid "Employees Count"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88792,6 +89428,11 @@ msgstr "Broj zaposlenika"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Broj zaposlenika"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_category_list
 msgid "Employees Tags"
 msgstr "Ozanake zaposlenih"
@@ -89014,6 +89655,7 @@ msgstr "Ozanake zaposlenih"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -90032,6 +90674,8 @@ msgstr ""
 msgid "Employment Type"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90084,6 +90728,9 @@ msgstr "Vrsta zaposlenja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90118,6 +90765,7 @@ msgstr "Vrsta zaposlenja"
 #: model:ir.actions.act_window,name:hr.hr_contract_type_action
 #: model:ir.ui.menu,name:hr.menu_view_hr_contract_type
 msgid "Employment Types"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90179,10 +90827,14 @@ msgstr "Vrste zaposlenja"
 =======
 msgstr "Vrste zaposlenja"
 >>>>>>> upstream/18.0
+=======
+msgstr "Vrste zaposlenja"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Enrich employee profiles with skills and resumes"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90888,6 +91540,11 @@ msgstr "Nadogradite profile zaposlenika vještinama i CVima"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Nadogradite profile zaposlenika vještinama i CVima"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model_terms:hr.job,website_description:hr.job_ceo
 #: model_terms:hr.job,website_description:hr.job_consultant
 #: model_terms:hr.job,website_description:hr.job_cto
@@ -90896,6 +91553,7 @@ msgstr "Nadogradite profile zaposlenika vještinama i CVima"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Expand your knowledge of various business industries"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91551,6 +92209,8 @@ msgstr "Očekivani broj zaposlenih za ovo radno mjesto nakon novog zapošljavanj
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Proširite svoje znanje o raznim poslovnim granama"
 
 #. module: hr
@@ -91569,6 +92229,9 @@ msgstr "Proširite svoje znanje o raznim poslovnim granama"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91818,6 +92481,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92276,7 +92942,11 @@ msgid "Experience in writing online content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iskustvo u pisanju online sadržaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iskustvo u pisanju online sadržaja"
 >>>>>>> upstream/18.0
@@ -92546,7 +93216,10 @@ msgstr "Developer sa iskustvom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93148,6 +93821,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr
 <<<<<<< HEAD
@@ -93314,6 +93988,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93801,6 +94477,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94152,7 +94831,11 @@ msgid "Field of Study"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Područje školovanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Područje školovanja"
 >>>>>>> upstream/18.0
@@ -94217,7 +94900,11 @@ msgid "Fired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otpušten"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otpušten"
 >>>>>>> upstream/18.0
@@ -94485,7 +95172,10 @@ msgstr "Otpušten"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_follower_ids
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95144,7 +95834,10 @@ msgstr "Pratioci"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_partner_ids
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95583,6 +96276,7 @@ msgid "Followers (Partners)"
 msgstr "Pratioci (Partneri)"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96641,6 +97335,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr.field_hr_department__activity_type_icon
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
@@ -96659,6 +97355,9 @@ msgstr "Font awesome ikona npr. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96692,6 +97391,7 @@ msgstr "Font awesome ikona npr. fa-tasks"
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/discuss_channel.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97950,6 +98650,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "For %(channels)s, channel_type should be 'channel' to have the department "
 "auto-subscription."
@@ -97970,6 +98672,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98018,7 +98723,11 @@ msgid "Freelancer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Honorarac"
+>>>>>>> upstream/18.0
 =======
 msgstr "Honorarac"
 >>>>>>> upstream/18.0
@@ -98089,6 +98798,7 @@ msgid "Fruit, coffee and <br>snacks provided."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -99751,6 +100461,8 @@ msgid "Future Activities"
 msgstr "Buduće aktivnosti"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99804,6 +100516,9 @@ msgstr "Buduće aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100005,7 +100720,11 @@ msgid "Generate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generiraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generiraj"
 >>>>>>> upstream/18.0
@@ -100511,7 +101230,11 @@ msgid "Give more details about the reason of archiving the employee."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navedite više detalja o razlogu arhiviranja zaposlenog."
+>>>>>>> upstream/18.0
 =======
 msgstr "Navedite više detalja o razlogu arhiviranja zaposlenog."
 >>>>>>> upstream/18.0
@@ -100582,7 +101305,11 @@ msgid "Google Adwords experience"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iskustvo s Google Adwords"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iskustvo s Google Adwords"
 >>>>>>> upstream/18.0
@@ -100647,7 +101374,11 @@ msgid "Graduate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Apsolvent"
+>>>>>>> upstream/18.0
 =======
 msgstr "Apsolvent"
 >>>>>>> upstream/18.0
@@ -100718,7 +101449,11 @@ msgid "Great team of smart people, in a friendly and open culture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvrstan tim pametnih ljudi, u prijateljskoj i otvorenoj kulturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvrstan tim pametnih ljudi, u prijateljskoj i otvorenoj kulturi"
 >>>>>>> upstream/18.0
@@ -100790,7 +101525,11 @@ msgid "HR Departments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HR odjeli"
+>>>>>>> upstream/18.0
 =======
 msgstr "HR odjeli"
 >>>>>>> upstream/18.0
@@ -100843,6 +101582,7 @@ msgid "HR Employee: check work permit validity"
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102105,6 +102845,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr/static/src/components/hr_presence_status/hr_presence_status.js:0
 msgid "HR Presence Status"
@@ -102126,6 +102868,9 @@ msgstr "HR status prisutnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102159,6 +102904,7 @@ msgid "HR Settings"
 msgstr "Postavke ljudskih resursa"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102861,11 +103607,17 @@ msgstr "Ima pristup voditelja odjela"
 msgid "Has Department Manager Access"
 msgstr "Ima pristup voditelja odjela"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr.field_hr_manager_department_report__has_department_manager_access
+msgid "Has Department Manager Access"
+msgstr "Ima pristup voditelja odjela"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__has_message
 #: model:ir.model.fields,field_description:hr.field_hr_employee__has_message
 #: model:ir.model.fields,field_description:hr.field_hr_job__has_message
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103547,6 +104299,10 @@ msgstr "Ima poruku"
 msgid "Has Message"
 msgstr "Ima poruku"
 >>>>>>> upstream/18.0
+=======
+msgid "Has Message"
+msgstr "Ima poruku"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -103557,6 +104313,7 @@ msgstr "Ima poruku"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Highly creative and autonomous"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104262,11 +105019,17 @@ msgstr "Visoko kreativan i autonoman"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Visoko kreativan i autonoman"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__work_location_type__home
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__work_location_type__home
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__work_location_type__home
 #: model:ir.model.fields.selection,name:hr.selection__hr_work_location__location_type__home
 msgid "Home"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104916,10 +105679,14 @@ msgstr "Početna"
 =======
 msgstr "Početna"
 >>>>>>> upstream/18.0
+=======
+msgstr "Početna"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__distance_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__distance_home_work
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106183,6 +106950,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Home-Work Distance"
 msgstr "Udaljenost od kuće do posla"
 
@@ -106205,6 +106974,9 @@ msgstr "Udaljenost od kuće do posla u km"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106239,6 +107011,7 @@ msgstr "Udaljenost od kuće do posla u km"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__distance_home_work_unit
 #: model:ir.model.fields,field_description:hr.field_res_users__distance_home_work_unit
 msgid "Home-Work Distance unit"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106859,6 +107632,9 @@ msgid "Home-Work Distance unit"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Jedinica udaljenosti kuća-posao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedinica udaljenosti kuća-posao"
 >>>>>>> upstream/18.0
@@ -107126,6 +107902,7 @@ msgstr "Jedinica udaljenosti kuća-posao"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,field_description:hr.field_resource_resource__hr_icon_display
 >>>>>>> upstream/18.0
@@ -108951,6 +109728,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109003,6 +109782,9 @@ msgstr "Izvještaj menadžera odjela ljudskih resursa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109052,7 +109834,11 @@ msgid "Hr Presence State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HR stanje prisutnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "HR stanje prisutnosti"
 >>>>>>> upstream/18.0
@@ -109118,6 +109904,7 @@ msgstr "Upravitelj ljudskim resursima"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_category__id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__id
 #: model:ir.model.fields,field_description:hr.field_hr_job__id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109773,6 +110560,8 @@ msgstr "Upravitelj ljudskim resursima"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__id
 msgid "ID"
 msgstr "ID"
@@ -109780,6 +110569,7 @@ msgstr "ID"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__id_card
 msgid "ID Card Copy"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109841,11 +110631,15 @@ msgstr "Kopija lične karte"
 =======
 msgstr "Kopija lične karte"
 >>>>>>> upstream/18.0
+=======
+msgstr "Kopija lične karte"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__barcode
 #: model:ir.model.fields,help:hr.field_res_users__barcode
 msgid "ID used for employee identification."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110546,10 +111340,16 @@ msgstr "ID korišten za identifikaciju zaposlenika."
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "ID korišten za identifikaciju zaposlenika."
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_employee__im_status
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__im_status
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__im_status
 msgid "IM Status"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110611,10 +111411,14 @@ msgstr "IM Status"
 =======
 msgstr "IM Status"
 >>>>>>> upstream/18.0
+=======
+msgstr "IM Status"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_exception_icon
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_exception_icon
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111544,12 +112348,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Icon"
 msgstr "Znak"
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__activity_exception_icon
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_exception_icon
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112066,6 +112873,10 @@ msgstr "Ikona za prikaz iznimki."
 msgid "Icon to indicate an exception activity."
 msgstr "Ikona za prikaz iznimki."
 >>>>>>> upstream/18.0
+=======
+msgid "Icon to indicate an exception activity."
+msgstr "Ikona za prikaz iznimki."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__identification_id
@@ -112294,7 +113105,10 @@ msgstr "Identifikacijski broj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__message_needaction
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112951,10 +113765,13 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:hr.field_hr_employee__message_has_error
 #: model:ir.model.fields,help:hr.field_hr_job__message_has_error
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__message_has_error
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -113392,6 +114209,7 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 #: model:ir.model.fields,help:hr.field_hr_employee__message_has_sms_error
 #: model:ir.model.fields,help:hr.field_hr_job__message_has_error
 #: model:ir.model.fields,help:hr.field_hr_job__message_has_sms_error
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114652,6 +115470,8 @@ msgstr "Ako je ovo polje postavljeno na neaktivno, moežte sakriti resurs bez da
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
@@ -114671,6 +115491,9 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114922,6 +115745,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -115375,6 +116201,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako imate više od jednog auta, samo odvojite registracijske oznake s "
+"razmakom."
+>>>>>>> upstream/18.0
 =======
 "Ako imate više od jednog auta, samo odvojite registracijske oznake s "
 "razmakom."
@@ -115602,7 +116433,11 @@ msgid "Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika"
 >>>>>>> upstream/18.0
@@ -116109,7 +116944,11 @@ msgid "Image 1024"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 1024"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika 1024"
 >>>>>>> upstream/18.0
@@ -116159,6 +116998,7 @@ msgstr "Slika 1024"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_128
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116843,6 +117683,10 @@ msgstr "Slika 128"
 msgid "Image 128"
 msgstr "Slika 128"
 >>>>>>> upstream/18.0
+=======
+msgid "Image 128"
+msgstr "Slika 128"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_256
@@ -116863,7 +117707,11 @@ msgid "Image 256"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 256"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika 256"
 >>>>>>> upstream/18.0
@@ -116929,7 +117777,11 @@ msgid "Image 512"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika 512"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika 512"
 >>>>>>> upstream/18.0
@@ -116995,7 +117847,11 @@ msgid "Import Template for Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvoz predloška za zaposlenike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvoz predloška za zaposlenike"
 >>>>>>> upstream/18.0
@@ -117045,6 +117901,7 @@ msgstr "Uvoz predloška za zaposlenike"
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_interim
 msgid "Interim"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117704,6 +118561,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Privremeni"
 
 #. module: hr
@@ -117724,6 +118583,9 @@ msgstr "Pripravnik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117774,7 +118636,11 @@ msgid "Is Flexible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je fleksibilno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je fleksibilno"
 >>>>>>> upstream/18.0
@@ -118041,6 +118907,9 @@ msgstr "Je fleksibilno"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -118695,7 +119564,10 @@ msgstr "Je pratilac"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -119147,7 +120019,11 @@ msgid "Is Fully Flexible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je potpuno fleksibilno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je potpuno fleksibilno"
 >>>>>>> upstream/18.0
@@ -119197,6 +120073,7 @@ msgstr "Je potpuno fleksibilno"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__is_manager
 msgid "Is Manager"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120460,6 +121337,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Je menadžer"
 
 #. module: hr
@@ -120482,6 +121361,9 @@ msgstr "Je sistemski"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -120745,7 +121627,11 @@ msgstr "Opis posla"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+=======
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 >>>>>>> upstream/18.0
@@ -121634,6 +122520,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 =======
 #: model:ir.model.fields,field_description:hr.field_resource_resource__job_title
@@ -122676,6 +123563,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_resource_resource__job_title
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -122695,6 +123584,9 @@ msgstr "Naziv radnog mjesta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122749,6 +123641,7 @@ msgid "Lang"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -123685,6 +124578,8 @@ msgstr "Jezik"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Jezik"
 
 #. module: hr
@@ -123705,6 +124600,9 @@ msgstr "Jezik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123756,7 +124654,11 @@ msgid "Last Activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posljednja aktivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posljednja aktivnost"
 >>>>>>> upstream/18.0
@@ -123824,7 +124726,11 @@ msgid "Last Activity Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijeme posljednje aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrijeme posljednje aktivnosti"
 >>>>>>> upstream/18.0
@@ -124097,10 +125003,13 @@ msgstr "Vrijeme posljednje aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan__write_uid
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__write_uid
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__write_uid
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__write_uid
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -124765,10 +125674,13 @@ msgstr "Zadnji ažurirao"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan__write_date
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__write_date
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__write_date
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__write_date
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125210,6 +126122,7 @@ msgstr "Zadnje ažurirano"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Late Activities"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125865,10 +126778,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Aktivnosti u kašnjenju"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.plan_wizard_action
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126970,6 +127886,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Launch Plan"
@@ -126990,6 +127908,9 @@ msgstr "Plan pokretanja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127027,6 +127948,7 @@ msgstr "Plan pokretanja"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Lead the entire sales cycle"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128087,6 +129009,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Vodite cijeli prodajni ciklus"
 
 #. module: hr
@@ -128108,6 +129032,9 @@ msgstr "Zakonski supružnik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -128310,7 +129237,11 @@ msgid "Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokacija"
 >>>>>>> upstream/18.0
@@ -128801,6 +129732,7 @@ msgstr "Lokacija"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_number
 msgid "Location Number"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129458,6 +130390,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Broj lokacije"
 
 #. module: hr
@@ -129478,6 +130412,9 @@ msgstr "Dugoročni projekti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129735,6 +130672,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -130398,6 +131338,7 @@ msgstr "Muški"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -130998,6 +131939,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:hr.department,name:hr.dep_management
 msgid "Management"
 msgstr "Upravljanje"
@@ -131164,6 +132107,9 @@ msgstr "Upravljanje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -131492,6 +132438,7 @@ msgstr "Upravljanje"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__parent_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__parent_id
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_parent_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132361,6 +133308,9 @@ msgstr "Upravljanje"
 =======
 #: model:ir.model.fields.selection,name:hr.selection__mail_activity_plan_template__responsible_type__manager
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields.selection,name:hr.selection__mail_activity_plan_template__responsible_type__manager
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Manager"
@@ -132368,6 +133318,7 @@ msgstr "Upravitelj"
 
 #. module: hr
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133269,6 +134220,11 @@ msgstr "Menadžer zaposlenika %s nije postavljen."
 msgid "Manager of employee %s is not set."
 msgstr "Menadžer zaposlenika %s nije postavljen."
 >>>>>>> upstream/18.0
+=======
+#: code:addons/hr/models/mail_activity_plan_template.py:0
+msgid "Manager of employee %s is not set."
+msgstr "Menadžer zaposlenika %s nije postavljen."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__marital
@@ -133283,6 +134239,7 @@ msgid "Marketing and Community Manager"
 msgstr "Upravitelj marketinga i odnosa sa javnošću"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134340,6 +135297,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Married"
@@ -134358,6 +135317,9 @@ msgstr "U braku"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134406,7 +135368,11 @@ msgid "Master"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Master"
+>>>>>>> upstream/18.0
 =======
 msgstr "Master"
 >>>>>>> upstream/18.0
@@ -134471,7 +135437,11 @@ msgid "Master Department"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Glavni odjel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Glavni odjel"
 >>>>>>> upstream/18.0
@@ -134542,7 +135512,11 @@ msgid "Master demos of our software"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovladajte demonstracijama našeg softvera"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovladajte demonstracijama našeg softvera"
 >>>>>>> upstream/18.0
@@ -134609,7 +135583,11 @@ msgid "Member of department"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Član odjela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Član odjela"
 >>>>>>> upstream/18.0
@@ -134826,7 +135804,11 @@ msgid "Menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meni"
 >>>>>>> upstream/18.0
@@ -135535,6 +136517,7 @@ msgstr "Meni"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_has_error
 =======
 >>>>>>> upstream/18.0
@@ -136002,11 +136985,16 @@ msgstr "Greška pri isporuci poruke"
 msgid "Message Delivery error"
 msgstr "Greška pri isporuci poruke"
 >>>>>>> upstream/18.0
+=======
+msgid "Message Delivery error"
+msgstr "Greška pri isporuci poruke"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_ids
 #: model:ir.model.fields,field_description:hr.field_hr_employee__message_ids
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136659,6 +137647,8 @@ msgstr "Greška pri isporuci poruke"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Messages"
 msgstr "Poruke"
 
@@ -136671,6 +137661,7 @@ msgstr "Poruke"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Must Have"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137732,6 +138723,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Mora imati"
 
 #. module: hr
@@ -137753,6 +138746,9 @@ msgstr "Rok za moju aktivnost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137802,7 +138798,11 @@ msgid "My Department"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj odjel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj odjel"
 >>>>>>> upstream/18.0
@@ -137874,7 +138874,11 @@ msgid "My Team"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moj tim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moj tim"
 >>>>>>> upstream/18.0
@@ -137925,6 +138929,7 @@ msgstr "Moj tim"
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__name
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__name
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__name
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138577,6 +139582,8 @@ msgstr "Moj tim"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Name"
 msgstr "Naziv:"
 
@@ -138594,6 +139601,7 @@ msgstr "Nacionalnost (Država)"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Negotiate and contract"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139252,6 +140260,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Pregovarati i zaključiti ugovor"
 
 #. module: hr
@@ -139273,6 +140283,9 @@ msgstr "Novi zaposlenici tokom vremena"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139310,6 +140323,7 @@ msgstr "Novi zaposlenici tokom vremena"
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Newly Hired"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139371,10 +140385,14 @@ msgstr "Novozaposleni"
 =======
 msgstr "Novozaposleni"
 >>>>>>> upstream/18.0
+=======
+msgstr "Novozaposleni"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_calendar_event_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -141039,6 +142057,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Next Activity Calendar Event"
 msgstr "Događaj sljedećeg kalendara aktivnosti"
 
@@ -141059,6 +142079,9 @@ msgstr "Događaj sljedećeg kalendara aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141309,8 +142332,13 @@ msgstr "Krajnji rok za sljedeću aktivnost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_summary
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_summary
+=======
+#: model:ir.model.fields,field_description:hr.field_hr_department__activity_summary
+#: model:ir.model.fields,field_description:hr.field_hr_employee__activity_summary
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_summary
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_summary
@@ -142400,8 +143428,13 @@ msgstr "Pregled sljedeće aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_type_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_type_id
+=======
+#: model:ir.model.fields,field_description:hr.field_hr_department__activity_type_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee__activity_type_id
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_type_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_type_id
@@ -143491,11 +144524,14 @@ msgstr "Tip sljedeće aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_employee_activity_kanban
 msgid "Next Activity:"
 msgstr ""
 
 #. module: hr
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -143953,6 +144989,7 @@ msgid "Nice to have"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -144560,6 +145597,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Poželjno"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Poželjno"
@@ -144660,6 +145702,7 @@ msgid "No Tags found ! Let's create one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -145266,6 +146309,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Nema pronađenih oznaka ! Kreirajmo novu"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Nema pronađenih oznaka ! Kreirajmo novu"
@@ -145351,6 +146399,7 @@ msgstr "Nema pronađenih oznaka ! Kreirajmo novu"
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "No dumb managers, no stupid tools to use, no rigid working hours"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146009,6 +147058,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Bez glupih menadžera, bez glupih alata za upotrebu, bez nefleksibilnog "
 "radnog vremena"
 
@@ -146027,6 +147078,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -146063,6 +147117,7 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_hrm
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147119,6 +148174,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "No waste of time in enterprise processes, real responsibilities and autonomy"
 msgstr ""
@@ -147137,6 +148194,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147391,7 +148451,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__note
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -148055,7 +149118,10 @@ msgstr "Zabilješke"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_needaction_counter
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -148717,6 +149783,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -149758,6 +150825,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_tree
 msgid "Number of Employees"
 msgstr "Broj zaposlenika"
@@ -149777,6 +150846,9 @@ msgstr "Broj zaposlenika"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -149814,6 +150886,7 @@ msgstr "Broj zaposlenih na ovom radnom mjestu"
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_has_error_counter
 #: model:ir.model.fields,field_description:hr.field_hr_employee__message_has_error_counter
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_has_error_counter
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151085,6 +152158,8 @@ msgstr "Broj poruka koje zahtjevaju neku akciju"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Number of errors"
 msgstr "Broj grešaka"
 
@@ -151103,6 +152178,9 @@ msgstr "Broj grešaka"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -151136,6 +152214,7 @@ msgstr "Broj grešaka"
 #: model:ir.model.fields,help:hr.field_hr_employee__message_needaction_counter
 #: model:ir.model.fields,help:hr.field_hr_job__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151801,11 +152880,15 @@ msgstr "Broj poruka koje zahtijevaju akciju"
 =======
 msgstr "Broj poruka koje zahtijevaju akciju"
 >>>>>>> upstream/18.0
+=======
+msgstr "Broj poruka koje zahtijevaju akciju"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_has_error_counter
 #: model:ir.model.fields,help:hr.field_hr_employee__message_has_error_counter
 #: model:ir.model.fields,help:hr.field_hr_job__message_has_error_counter
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -152490,6 +153573,10 @@ msgstr "Broj poruka sa greškama pri isporuci"
 msgid "Number of messages with delivery error"
 msgstr "Broj poruka sa greškama pri isporuci"
 >>>>>>> upstream/18.0
+=======
+msgid "Number of messages with delivery error"
+msgstr "Broj poruka sa greškama pri isporuci"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_recruitment
@@ -152497,6 +153584,7 @@ msgid "Number of new employees you expect to recruit."
 msgstr "Broj novih zaposlenih koje planirate da zaposlite."
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153167,11 +154255,14 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__work_location_type__office
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__work_location_type__office
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__work_location_type__office
 #: model:ir.model.fields.selection,name:hr.selection__hr_work_location__location_type__office
 msgid "Office"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153837,10 +154928,14 @@ msgstr "Ured"
 =======
 msgstr "Ured"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ured"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
 msgid "Officer: Manage all employees"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154541,6 +155636,11 @@ msgstr "Službenik: Upravlja svim zaposlenicima"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Službenik: Upravlja svim zaposlenicima"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
 msgid ""
@@ -154564,7 +155664,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -154611,6 +155714,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154861,6 +155967,7 @@ msgid "Open Profile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -155265,6 +156372,9 @@ msgid "Open Profile"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Otvori profil"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvori profil"
 >>>>>>> upstream/18.0
@@ -155330,7 +156440,11 @@ msgid "Operation not supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operacija nije podržana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operacija nije podržana"
 >>>>>>> upstream/18.0
@@ -155597,8 +156711,11 @@ msgstr "Operacija nije podržana"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields.selection,name:hr.selection__hr_plan_activity_type__responsible__other
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -156251,6 +157368,9 @@ msgstr "Operacija nije podržana"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156688,6 +157808,7 @@ msgid "Other"
 msgstr "Drugo"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157344,6 +158465,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:hr.job,website_description:hr.job_ceo
 #: model_terms:hr.job,website_description:hr.job_consultant
 #: model_terms:hr.job,website_description:hr.job_cto
@@ -157352,6 +158475,7 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Our Product"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157974,6 +159098,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Naš proizvod"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Naš proizvod"
@@ -158282,6 +159411,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -158718,6 +159848,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_employee__pin
 #: model:ir.model.fields,field_description:hr.field_res_users__pin
 msgid "PIN"
@@ -158736,6 +159868,9 @@ msgstr "PIN"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -158784,7 +159919,11 @@ msgid "PIN Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PIN kôd"
+>>>>>>> upstream/18.0
 =======
 msgstr "PIN kôd"
 >>>>>>> upstream/18.0
@@ -159051,8 +160190,11 @@ msgstr "PIN kôd"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "PIN used to Check In/Out in the Kiosk Mode of the Attendance application (if enabled in Configuration) and to change the cashier in the Point of Sale application."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -159705,6 +160847,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -160109,6 +161252,11 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"PIN se koristi za prijavu/odjavu u Kiosk modu modula Prisutnosti (ako je "
+"definirano u postavama) i za promjenu blagajnika u modulu POS blagajna."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "PIN se koristi za prijavu/odjavu u Kiosk modu modula Prisutnosti (ako je "
@@ -160208,7 +161356,11 @@ msgid "Parent Path"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Putanja nadređenih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Putanja nadređenih"
 >>>>>>> upstream/18.0
@@ -160421,7 +161573,11 @@ msgid "Partner-related data of the user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podatci vezani za partnera na korisniku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podatci vezani za partnera na korisniku"
 >>>>>>> upstream/18.0
@@ -160933,7 +162089,11 @@ msgid "Passion for software products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Strast za softverske proizvode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Strast za softverske proizvode"
 >>>>>>> upstream/18.0
@@ -160987,6 +162147,7 @@ msgid "Passport No"
 msgstr "Broj pasoša"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161643,6 +162804,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:hr.job,website_description:hr.job_ceo
 #: model_terms:hr.job,website_description:hr.job_consultant
 #: model_terms:hr.job,website_description:hr.job_cto
@@ -161666,7 +162829,11 @@ msgid "Perfect written English"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savršen pisani engleski"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savršen pisani engleski"
 >>>>>>> upstream/18.0
@@ -161737,7 +162904,11 @@ msgid "Perks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogodnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pogodnosti"
 >>>>>>> upstream/18.0
@@ -161802,7 +162973,11 @@ msgid "Permanent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trajno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trajno"
 >>>>>>> upstream/18.0
@@ -161864,6 +163039,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid "Personal information update."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -162564,10 +163740,16 @@ msgstr "Ažuriranje ličnih podataka."
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Ažuriranje ličnih podataka."
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_employee__phone
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__phone
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__phone
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163543,6 +164725,10 @@ msgstr "Telefon"
 msgid "Phone"
 msgstr "Telefon"
 >>>>>>> upstream/18.0
+=======
+msgid "Phone"
+msgstr "Telefon"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__place_of_birth
@@ -163551,6 +164737,7 @@ msgid "Place of Birth"
 msgstr "Mjesto rođenja"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165044,6 +166231,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_department__plan_ids
 msgid "Plan"
 msgstr "Plan"
@@ -165063,6 +166252,9 @@ msgstr "Plan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165113,6 +166305,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Plan %(plan_names)s ne može da koristi sektor jer se koristi samo za neke HR "
+"planove."
+>>>>>>> upstream/18.0
 =======
 "Plan %(plan_names)s ne može da koristi sektor jer se koristi samo za neke HR "
 "planove."
@@ -165192,7 +166389,11 @@ msgid "Plan Department Filterable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjeljenje plana može se filtrirati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjeljenje plana može se filtrirati"
 >>>>>>> upstream/18.0
@@ -165261,6 +166462,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr
 <<<<<<< HEAD
@@ -165871,6 +167073,8 @@ msgstr ""
 msgid "Plans"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -165920,6 +167124,9 @@ msgstr "Planovi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165968,7 +167175,11 @@ msgid "Plans Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj planova"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj planova"
 >>>>>>> upstream/18.0
@@ -166024,6 +167235,7 @@ msgstr "Broj planova"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Play any sport with colleagues, <br>the bill is covered."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166647,6 +167859,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Igrajte bilo koji sport s kolegama, <br>račun je pokriven."
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Igrajte bilo koji sport s kolegama, <br>račun je pokriven."
@@ -166943,6 +168160,9 @@ msgstr "Igrajte bilo koji sport s kolegama, <br>račun je pokriven."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -167380,6 +168600,7 @@ msgid ""
 "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169047,6 +170268,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "- followers: only followers of the related document or members of following "
 "channels\n"
 msgstr ""
@@ -169073,6 +170296,9 @@ msgstr "Uslov prisustva"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169322,6 +170548,7 @@ msgid "Presence Display"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -169726,6 +170953,9 @@ msgid "Presence Display"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Prikaz prisustva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaz prisustva"
 >>>>>>> upstream/18.0
@@ -169790,7 +171020,11 @@ msgid "Presence of employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisutnost zaposlenika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prisutnost zaposlenika"
 >>>>>>> upstream/18.0
@@ -169855,6 +171089,7 @@ msgid "Presence reporting screen, email and IP address control."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -170897,6 +172132,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Zaslon za izvješćivanje o prisutnosti, kontrola e-mail i IP adresa."
 
 #. module: hr
@@ -170916,6 +172153,9 @@ msgstr "Zaslon za izvješćivanje o prisutnosti, kontrola e-mail i IP adresa."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -170952,6 +172192,7 @@ msgstr "Zaslon za izvješćivanje o prisutnosti, kontrola e-mail i IP adresa."
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_present
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__present
 msgid "Present"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172427,6 +173668,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Prisutan"
 
 #. module: hr
@@ -172452,6 +173695,9 @@ msgstr "Štampaj značku"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -172502,6 +173748,7 @@ msgid "Private Car Plate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -173317,6 +174564,8 @@ msgstr ""
 msgid "Private City"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -173366,6 +174615,9 @@ msgstr "Privatna adresa - grad"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -173399,6 +174651,7 @@ msgstr "Privatna adresa - grad"
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Contact"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174229,6 +175482,8 @@ msgstr ""
 msgid "Private Country"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -174278,6 +175533,9 @@ msgstr "Privatna adresa - država"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174327,7 +175585,11 @@ msgid "Private Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Privatni e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Privatni e-mail"
 >>>>>>> upstream/18.0
@@ -174381,6 +175643,7 @@ msgid "Private Information"
 msgstr "Privatne informacije"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179301,6 +180564,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__private_phone
 msgid "Private Phone"
@@ -179348,6 +180613,9 @@ msgstr "Profesionalne usluge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -179543,6 +180811,7 @@ msgid "Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -180448,6 +181717,8 @@ msgstr "Svojstva"
 msgid "Public Employee"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -180496,6 +181767,9 @@ msgstr "Javni zaposlenik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -180550,6 +181824,7 @@ msgid "Qualify the customer needs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -181157,6 +182432,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Kvalifikacija potreba kupaca"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Kvalifikacija potreba kupaca"
@@ -181258,7 +182538,11 @@ msgid "R&D USA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "R&D USA"
+>>>>>>> upstream/18.0
 =======
 msgstr "R&D USA"
 >>>>>>> upstream/18.0
@@ -181325,6 +182609,7 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -181936,6 +183221,8 @@ msgstr ""
 msgid "Ready to recruit more efficiently?"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -181984,6 +183271,9 @@ msgstr "Spremni ste za efikasnije zapošljavanje?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -182038,7 +183328,11 @@ msgid "Real responsibilities and challenges in a fast evolving company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stvarne odgovornosti i izazovi u brzo rastućoj kompaniji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stvarne odgovornosti i izazovi u brzo rastućoj kompaniji"
 >>>>>>> upstream/18.0
@@ -182250,6 +183544,7 @@ msgid "Reason"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -182416,6 +183711,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Razlog"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Razlog"
@@ -183448,6 +184748,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -183891,6 +185194,7 @@ msgstr "Regrutovanje"
 #: code:addons/hr/models/hr_employee.py:0
 #: model:ir.actions.act_window,name:hr.hr_departure_wizard_action
 msgid "Register Departure"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -185161,6 +186465,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Registruj odlazak"
 
 #. module: hr
@@ -185183,6 +186489,9 @@ msgstr "Povezani kontakti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185217,6 +186526,7 @@ msgstr "Povezani kontakti"
 #. odoo-python
 #: code:addons/hr/models/res_partner.py:0 code:addons/hr/models/res_users.py:0
 msgid "Related Employees"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186450,6 +187760,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -186500,6 +187812,9 @@ msgstr "Broj povezanih partnera"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186551,7 +187866,11 @@ msgid "Related employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezani zaposlenik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezani zaposlenik"
 >>>>>>> upstream/18.0
@@ -186601,6 +187920,7 @@ msgstr "Povezani zaposlenik"
 #. module: hr
 #: model:ir.model.fields,help:hr.field_res_partner__employee_ids
 msgid "Related employees based on their private address"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187302,11 +188622,17 @@ msgstr "Povezani zaposlenici na temelju njihove privatne adrese"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Povezani zaposlenici na temelju njihove privatne adrese"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr.field_resource_resource__user_id
 msgid "Related user name for the resource to manage its access."
 msgstr "Povezano korisničko ime za resurs da upravlja njegovim pristupom."
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188565,6 +189891,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_homeworking
 msgid "Remote Work"
 msgstr "Rad na daljinu"
@@ -188584,6 +189912,9 @@ msgstr "Rad na daljinu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -188841,6 +190172,7 @@ msgstr "Zahtjevi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -189857,6 +191189,8 @@ msgstr ""
 msgid "Resigned"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -189907,6 +191241,9 @@ msgstr "Dao ostavku"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -189963,6 +191300,7 @@ msgid "Resource Calendar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -191625,6 +192963,8 @@ msgid "Resources"
 msgstr "Resursi"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -191678,6 +193018,9 @@ msgstr "Resursi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191720,6 +193063,7 @@ msgid "Responsibilities"
 msgstr "Odgovornosti"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -192812,6 +194156,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_department__activity_user_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_user_id
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr.field_hr_department__activity_user_id
+#: model:ir.model.fields,field_description:hr.field_hr_employee__activity_user_id
+>>>>>>> upstream/18.0
 msgid "Responsible User"
 msgstr "Odgovorni korisnik"
 
@@ -192833,7 +194181,11 @@ msgid "Retired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Penzionisan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Penzionisan"
 >>>>>>> upstream/18.0
@@ -193103,8 +194455,11 @@ msgstr "SIN broj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_employee__ssnid
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -193556,7 +194911,11 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška u slanju SMSa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Greška u slanju SMSa"
 >>>>>>> upstream/18.0
@@ -193822,6 +195181,9 @@ msgstr "Greška u slanju SMSa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -194259,6 +195621,7 @@ msgid "SSN No"
 msgstr "SSN broj"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195250,6 +196613,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:hr.department,name:hr.dep_sales
 msgid "Sales"
 msgstr "Prodaja"
@@ -195424,6 +196789,9 @@ msgstr "Zakaži"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -195767,6 +197135,7 @@ msgid "School"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -196985,6 +198354,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -197035,6 +198406,9 @@ msgstr "Sezonski"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -197087,6 +198461,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odaberite \"Zaposlenika\" koji će mentorirati ovog zaposlenika\n"
+"\"Trener\" po predefiniranom nema posebna prava ili odgovornosti."
+>>>>>>> upstream/18.0
 =======
 "Odaberite \"Zaposlenika\" koji će mentorirati ovog zaposlenika\n"
 "\"Trener\" po predefiniranom nema posebna prava ili odgovornosti."
@@ -197315,7 +198694,11 @@ msgid "Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekvenca"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekvenca"
 >>>>>>> upstream/18.0
@@ -197822,6 +199205,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Postavite zadano radno vrijeme kompanije kako bi ste upravljali radnim "
+"vremenom svojih zaposlenika"
+>>>>>>> upstream/18.0
 =======
 "Postavite zadano radno vrijeme kompanije kako bi ste upravljali radnim "
 "vremenom svojih zaposlenika"
@@ -198103,6 +199491,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_form
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 >>>>>>> upstream/18.0
@@ -198975,10 +200367,13 @@ msgstr "Postavke"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,field_description:hr.field_hr_employee__show_hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__show_hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__show_hr_icon_display
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -199577,7 +200972,11 @@ msgid "Share User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik djeljenja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnik djeljenja"
 >>>>>>> upstream/18.0
@@ -200286,6 +201685,7 @@ msgstr "Korisnik djeljenja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -200691,6 +202091,10 @@ msgstr "Korisnik djeljenja"
 >>>>>>> upstream/18.0
 msgid "Show Hr Icon Display"
 msgstr ""
+=======
+msgid "Show Hr Icon Display"
+msgstr "Prikaži HR ikonu"
+>>>>>>> upstream/18.0
 =======
 msgid "Show Hr Icon Display"
 msgstr "Prikaži HR ikonu"
@@ -200759,6 +202163,7 @@ msgid "Show employees"
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -201845,6 +203250,10 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/hr/models/hr_employee.py:0
+>>>>>>> upstream/18.0
 msgid "Single"
 msgstr "Samac"
 
@@ -201866,7 +203275,11 @@ msgid "Skills Management"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upravljanje vještinama"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upravljanje vještinama"
 >>>>>>> upstream/18.0
@@ -202137,6 +203550,10 @@ msgstr "Broj socijalnog osiguranja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:hr.field_res_users__ssnid
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:hr.field_res_users__ssnid
 >>>>>>> upstream/18.0
@@ -202792,6 +204209,7 @@ msgid "Social Security Number"
 msgstr "Broj socijalnog"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204051,6 +205469,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr/models/hr_employee_base.py:0
 msgid "Some employee already have a work contact"
@@ -204069,6 +205489,9 @@ msgstr "Neki zaposlenik već ima poslovni kontakt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -204123,7 +205546,11 @@ msgid "Sport Activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sportska aktivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sportska aktivnost"
 >>>>>>> upstream/18.0
@@ -204189,7 +205616,11 @@ msgid "Spouse Birthdate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum rođenja bračnog druga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum rođenja bračnog druga"
 >>>>>>> upstream/18.0
@@ -204243,6 +205674,7 @@ msgid "Spouse Complete Name"
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -204573,6 +206005,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Start Date"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
+msgid "Start Date"
+msgstr "Datum početka"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Start Date"
@@ -205603,6 +207040,7 @@ msgstr "Datum početka"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -205714,6 +207152,10 @@ msgstr "Datum početka"
 >>>>>>> upstream/18.0
 msgid "State"
 msgstr ""
+=======
+msgid "State"
+msgstr "Rep./Fed."
+>>>>>>> upstream/18.0
 =======
 msgid "State"
 msgstr "Rep./Fed."
@@ -206370,6 +207812,7 @@ msgid "Status"
 msgstr "Status"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207457,12 +208900,17 @@ msgstr "Status"
 #: model:ir.model.fields,help:hr.field_hr_department__activity_state
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_state
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,help:hr.field_hr_department__activity_state
+#: model:ir.model.fields,help:hr.field_hr_employee__activity_state
+>>>>>>> upstream/18.0
 msgid ""
 "Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209412,6 +210860,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Status po aktivnostima\n"
 "U kašnjenju: Datum aktivnosti je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
@@ -209438,6 +210888,9 @@ msgstr "Statutarni"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209637,6 +211090,9 @@ msgstr "Ulica..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209970,6 +211426,7 @@ msgstr "Ulica..."
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Strong analytical skills"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210676,6 +212133,11 @@ msgstr "Jake analitičke vještine"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Jake analitičke vještine"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
@@ -210697,6 +212159,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Struktura Zaposleni po odjelu i imaju pregled npr.\n"
+" troškova, rasporeda, slobodnog vremena, zapošljavanja, itd."
+>>>>>>> upstream/18.0
 =======
 "Struktura Zaposleni po odjelu i imaju pregled npr.\n"
 " troškova, rasporeda, slobodnog vremena, zapošljavanja, itd."
@@ -210978,6 +212445,7 @@ msgid "Student"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -211382,6 +212850,9 @@ msgid "Student"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Student"
+>>>>>>> upstream/18.0
 =======
 msgstr "Student"
 >>>>>>> upstream/18.0
@@ -211593,7 +213064,11 @@ msgid "Tag Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake"
 >>>>>>> upstream/18.0
@@ -212099,7 +213574,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv oznake već postoji !"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv oznake već postoji !"
 >>>>>>> upstream/18.0
@@ -212319,7 +213798,11 @@ msgid "Target"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cilj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cilj"
 >>>>>>> upstream/18.0
@@ -212837,6 +214320,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tehničko polje, povežite korisnika s ovim zaposlenikom prilikom kreiranja "
+"nove kartice zaposlenika"
+>>>>>>> upstream/18.0
 =======
 "Tehničko polje, povežite korisnika s ovim zaposlenikom prilikom kreiranja "
 "nove kartice zaposlenika"
@@ -212916,7 +214404,11 @@ msgid "Technical field, whether to create an employee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tehnička oblast, da li kreirati zaposlenog"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tehnička oblast, da li kreirati zaposlenog"
 >>>>>>> upstream/18.0
@@ -212966,6 +214458,7 @@ msgstr "Tehnička oblast, da li kreirati zaposlenog"
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_temporary
 msgid "Temporary"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213666,6 +215159,11 @@ msgstr "Privremeno"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Privremeno"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid ""
@@ -213686,7 +215184,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID značke mora biti alfanumerički bez akcenta i ne duži od 18 znakova."
+>>>>>>> upstream/18.0
 =======
 msgstr "ID značke mora biti alfanumerički bez akcenta i ne duži od 18 znakova."
 >>>>>>> upstream/18.0
@@ -213954,6 +215456,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -214502,6 +216005,8 @@ msgstr ""
 #: model:ir.model.fields,help:hr.field_res_users__employee_country_code
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -214550,6 +216055,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -214598,6 +216106,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: hr
 <<<<<<< HEAD
@@ -215206,6 +216715,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -215252,6 +216763,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -215294,6 +216808,7 @@ msgid ""
 msgstr ""
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -216558,6 +218073,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "The PIN must be a sequence of digits."
@@ -216581,6 +218098,9 @@ msgstr "Zadano radno vrijeme je postavljeno u Postavkama."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -216614,6 +218134,7 @@ msgstr "Zadano radno vrijeme je postavljeno u Postavkama."
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_activity_plan_template.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217893,6 +219414,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "The employee %s should be linked to a user."
 msgstr "Zaposlenik bi %s trebao biti povezan s korisnikom."
 
@@ -217914,6 +219437,9 @@ msgstr "Očekivani broj novih zaposlenika mora biti pozitivan."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -217947,6 +219473,7 @@ msgstr "Očekivani broj novih zaposlenika mora biti pozitivan."
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -219205,6 +220732,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The fields “%s”, which you are trying to read, are not available for "
 "employee public profiles."
@@ -219225,6 +220754,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219259,6 +220791,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid "The following fields were modified by %s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220118,6 +221651,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Sledeća polja je izmenio/la %s"
 
 #. module: hr
@@ -220139,6 +221674,9 @@ msgstr "Menadžer %s treba da bude povezan sa korisnikom."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220172,6 +221710,7 @@ msgstr "Menadžer %s treba da bude povezan sa korisnikom."
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_job_name_company_uniq
 msgid "The name of the job position must be unique per department in company!"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -220839,6 +222378,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Naziv radnog mjesta mora biti jedinstveno po odjeljenju unutar kompanije!"
 
@@ -221061,6 +222602,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221466,6 +223008,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "The user of %s's coach is not set."
 msgstr ""
+=======
+msgid "The user of %s's coach is not set."
+msgstr "Korisnik %s's za trenera nije definiran."
+>>>>>>> upstream/18.0
 =======
 msgid "The user of %s's coach is not set."
 msgstr "Korisnik %s's za trenera nije definiran."
@@ -221534,6 +223080,7 @@ msgstr ""
 
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222792,6 +224339,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "The user will have access to the human resources configuration as well as "
 "statistic reports."
@@ -222812,6 +224361,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -223066,6 +224618,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -224083,6 +225636,8 @@ msgstr ""
 msgid "This employee already has an user."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -224134,6 +225689,9 @@ msgstr "Ovaj djelatnik već ima korisnika."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -224168,6 +225726,7 @@ msgstr "Ovaj djelatnik već ima korisnika."
 #: model:ir.model.fields,help:hr.field_hr_employee__tz
 #: model:ir.model.fields,help:hr.field_hr_employee_base__tz
 #: model:ir.model.fields,help:hr.field_hr_employee_public__tz
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224819,6 +226378,8 @@ msgid "This field is used in order to define in which timezone the resources wil
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "This field is used in order to define in which timezone the employee will "
 "work."
@@ -224851,7 +226412,11 @@ msgid "This setting block is utilized to manage the frontend design."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj blok postavki se koristi za upravljanje dizajnom frontenda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj blok postavki se koristi za upravljanje dizajnom frontenda."
 >>>>>>> upstream/18.0
@@ -225118,6 +226683,7 @@ msgid "Those responsible types are limited to Employee plans."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -225567,6 +227133,9 @@ msgstr "Ti tipovi odgovornih su ograničeni na planove za zaposlene."
 =======
 msgstr "Ti tipovi odgovornih su ograničeni na planove za zaposlene."
 >>>>>>> upstream/18.0
+=======
+msgstr "Ti tipovi odgovornih su ograničeni na planove za zaposlene."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__tz
@@ -225576,6 +227145,7 @@ msgid "Timezone"
 msgstr "Vremenska zona"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226837,6 +228407,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:digest.tip,name:hr.digest_tip_hr_0
 #: model_terms:digest.tip,tip_description:hr.digest_tip_hr_0
 msgid "Tip: Where's Bryan?"
@@ -226855,6 +228427,9 @@ msgstr "Savjet: Gdje je Bryan?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -226888,6 +228463,7 @@ msgstr "Savjet: Gdje je Bryan?"
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228153,6 +229729,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "To avoid multi company issues (losing the access to your previous contracts, "
 "leaves, ...), you should create another employee in the new company instead."
@@ -228175,6 +229753,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228208,6 +229789,7 @@ msgstr ""
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Today Activities"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -229353,6 +230935,11 @@ msgstr "Današnje aktivnosti"
 
 #. module: hr
 >>>>>>> upstream/18.0
+=======
+msgstr "Današnje aktivnosti"
+
+#. module: hr
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_job__expected_employees
 msgid "Total Forecasted Employees"
 msgstr "Ukupno prognoziranih zaposlenih"
@@ -229372,6 +230959,7 @@ msgstr "Trener"
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Trainings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -231207,6 +232795,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Treniranja"
 
 #. module: hr
@@ -231230,6 +232820,9 @@ msgstr "Vrsta aktivnosti iznimke na zapisu."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -231425,6 +233018,9 @@ msgstr "Dearhiviraj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -231767,7 +233363,11 @@ msgid "Undetermined"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neodređeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neodređeno"
 >>>>>>> upstream/18.0
@@ -232039,6 +233639,7 @@ msgstr "Nepročitane poruke"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -233080,6 +234681,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:hr.open_view_categ_form
 msgid "Use tags to categorize your Employees."
 msgstr "Koristi oznake za kategorizaciju djelatnika."
@@ -233099,6 +234702,9 @@ msgstr "Koristi oznake za kategorizaciju djelatnika."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -233132,6 +234738,7 @@ msgstr "Koristi oznake za kategorizaciju djelatnika."
 #: model:ir.model.fields,field_description:hr.field_hr_employee__user_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__user_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__user_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -233784,6 +235391,8 @@ msgstr "Koristi oznake za kategorizaciju djelatnika."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_resource_resource__user_id
 msgid "User"
 msgstr "Korisnik"
@@ -233807,7 +235416,11 @@ msgid "User's partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnikov partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnikov partner"
 >>>>>>> upstream/18.0
@@ -233872,7 +235485,11 @@ msgid "Vacancies:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slobodna radna mjesta:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slobodna radna mjesta:"
 >>>>>>> upstream/18.0
@@ -233938,7 +235555,11 @@ msgid "Valid IP addresses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valjana IP adresa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valjana IP adresa"
 >>>>>>> upstream/18.0
@@ -234009,7 +235630,11 @@ msgid "Valid work permit for Belgium"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valjana dozvola za rad u Belgiji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valjana dozvola za rad u Belgiji"
 >>>>>>> upstream/18.0
@@ -234059,6 +235684,7 @@ msgstr "Valjana dozvola za rad u Belgiji"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_expire
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235146,6 +236772,10 @@ msgstr "Datum isteka vize"
 msgid "Visa Expiration Date"
 msgstr "Datum isteka vize"
 >>>>>>> upstream/18.0
+=======
+msgid "Visa Expiration Date"
+msgstr "Datum isteka vize"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_no
@@ -235156,6 +236786,7 @@ msgstr "Broj Vize"
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -235975,6 +237606,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Warning"
 msgstr "Upozorenje"
 
@@ -236140,6 +237773,9 @@ msgstr "Upozorenje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -236644,7 +238280,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruke sa website-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poruke sa website-a"
 >>>>>>> upstream/18.0
@@ -237152,6 +238792,7 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -237758,6 +239399,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Historija komunikacije Web stranice"
+
+#. module: hr
 >>>>>>> upstream/18.0
 =======
 msgstr "Historija komunikacije Web stranice"
@@ -237857,7 +239503,11 @@ msgid "What We Offer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Što nudimo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Što nudimo"
 >>>>>>> upstream/18.0
@@ -237928,7 +239578,11 @@ msgid "What's great in the job?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Što je sjajno u poslu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Što je sjajno u poslu?"
 >>>>>>> upstream/18.0
@@ -237979,6 +239633,7 @@ msgstr "Što je sjajno u poslu?"
 #: model:ir.model.fields,help:hr.field_hr_employee__member_of_department
 #: model:ir.model.fields,help:hr.field_hr_employee_base__member_of_department
 #: model:ir.model.fields,help:hr.field_hr_employee_public__member_of_department
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238634,6 +240289,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Whether the employee is a member of the active user's department or one of "
 "it's child department."
@@ -238653,6 +240310,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bilo da je zaposlenik član aktivnog korisničkog odjela ili neko od njegovih "
+"podređenih odjela."
+>>>>>>> upstream/18.0
 =======
 "Bilo da je zaposlenik član aktivnog korisničkog odjela ili neko od njegovih "
 "podređenih odjela."
@@ -238933,6 +240595,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -239370,6 +241035,7 @@ msgid "Widower"
 msgstr "Udovac"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240041,6 +241707,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__address_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__address_id
@@ -240053,6 +241721,7 @@ msgstr "Adresa na poslu"
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_contact_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__work_contact_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_contact_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -240953,6 +242622,11 @@ msgstr "Kreirana kartica kontakta"
 msgid "Work Contact"
 msgstr "Kreirana kartica kontakta"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr.field_res_users__work_contact_id
+msgid "Work Contact"
+msgstr "Kreirana kartica kontakta"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_email
@@ -241176,6 +242850,10 @@ msgstr "Kreirana kartica kontakta"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr.field_resource_resource__work_email
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr.field_resource_resource__work_email
 >>>>>>> upstream/18.0
@@ -242055,6 +243733,11 @@ msgstr "Poslovne informacije"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/hr/static/src/components/avatar_card/avatar_card_popover_patch.xml:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/hr/static/src/components/avatar_card/avatar_card_popover_patch.xml:0
@@ -243152,7 +244835,10 @@ msgstr "Lokacija posla"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -243605,7 +245291,11 @@ msgid "Work Location Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv lokacije rada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv lokacije rada"
 >>>>>>> upstream/18.0
@@ -243673,6 +245363,7 @@ msgid "Work Location Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr
@@ -244285,6 +245976,8 @@ msgstr ""
 msgid "Work Locations"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -244334,6 +246027,9 @@ msgstr "Lokacije rada"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244402,7 +246098,11 @@ msgid "Work Permit Expiration Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum isteka radne dozvole"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum isteka radne dozvole"
 >>>>>>> upstream/18.0
@@ -244473,7 +246173,11 @@ msgid "Work Permit Scheduled Activity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakazana radnja za Radnu dozvolu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakazana radnja za Radnu dozvolu"
 >>>>>>> upstream/18.0
@@ -244742,6 +246446,10 @@ msgstr "Zakazana radnja za Radnu dozvolu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr.field_resource_resource__work_phone
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr.field_resource_resource__work_phone
 >>>>>>> upstream/18.0
@@ -245614,6 +247322,7 @@ msgstr "Broj telefona na poslu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -246655,6 +248364,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__worker
 msgid "Worker"
 msgstr "Radnik"
@@ -246674,6 +248385,9 @@ msgstr "Radnik"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -246708,6 +248422,7 @@ msgid "Working Hours"
 msgstr "Radni sati"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247409,6 +249124,11 @@ msgstr "Radni raspored"
 msgid "Working Schedules"
 msgstr "Radni raspored"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.ui.menu,name:hr.menu_resource_calendar_view
+msgid "Working Schedules"
+msgstr "Radni raspored"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -247432,6 +249152,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije vam dozvoljen pristup evidenciji \"Zaposleni\" (hr.employee).\n"
+"Možemo vas preusmjeriti na listu javnih službenika."
+>>>>>>> upstream/18.0
 =======
 "Nije vam dozvoljen pristup evidenciji \"Zaposleni\" (hr.employee).\n"
 "Možemo vas preusmjeriti na listu javnih službenika."
@@ -247515,6 +249240,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije vam dozvoljeno da kreirate zaposlenog jer korisnik nema prava pristupa "
+"za %s"
+>>>>>>> upstream/18.0
 =======
 "Nije vam dozvoljeno da kreirate zaposlenog jer korisnik nema prava pristupa "
 "za %s"
@@ -247798,6 +249528,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -248235,6 +249968,7 @@ msgstr ""
 
 #. module: hr
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249090,6 +250824,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr/static/src/store_service_patch.js:0
 msgid "You can only chat with employees that have a dedicated user."
 msgstr ""
@@ -249109,6 +250845,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -249158,7 +250897,11 @@ msgid "You cannot create recursive departments."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne možete stvoriti rekurzivne odjele."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne možete stvoriti rekurzivne odjele."
 >>>>>>> upstream/18.0
@@ -249224,7 +250967,11 @@ msgid "You do not have access to this document."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemate dovoljne ovlasti za pristup ovom dokumentu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemate dovoljne ovlasti za pristup ovom dokumentu."
 >>>>>>> upstream/18.0
@@ -249491,6 +251238,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You participate to the update of our tutorial tools and pre-sales tools after the launch of a new version of Odoo. Indeed, any new version of the software brings significant improvements in terms of functionalities, ergonomics and configuration.\n"
 "You will have to become familiar with the existing tools (books, class supports, Odoo presentation’s slides, commercial tools),\n"
 "to participate to the update of those tools in order to make them appropriate for the new version of the software and, for sure,\n"
@@ -249498,6 +251246,8 @@ msgid ""
 "You join the Implementation Assistance department. This team of 3 people go with Odoo’s clients in the set up of the software. Your role will be\n"
 "to animate webinars in order to show the different functionalities of the software.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -250159,6 +251909,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -250597,6 +252350,7 @@ msgid ""
 "You help the support manager to set up new support services by\n"
 "being involved in the treatment of new cases,\n"
 "contributing to the set up of a new politic,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251659,6 +253413,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "being involved into satisfaction surveys in order to have a better knowledge "
 "of how the support given is seen by the customers."
 msgstr ""
@@ -251696,6 +253452,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -251946,10 +253705,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You will take part in the consulting services we provide to our partners and customers: design, analysis, development, testing, project management, support/coaching. You will work autonomously as well as coordinate and supervise small distributed development teams for some projects. Optionally, you will deliver Odoo training sessions to partners and customers (8-10 people/session). You will report to the Head of Professional Services and work closely with all developers and consultants.\n"
 "\n"
 "The job is located in Grand-Rosière (1367), Belgium (between Louvain-La-Neuve and Namur)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -252608,6 +254370,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254120,6 +255883,8 @@ msgid "ZIP"
 msgstr "Broj pošte"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -254179,6 +255944,9 @@ msgstr "Broj pošte"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254213,6 +255981,7 @@ msgstr "Broj pošte"
 #. odoo-python
 #: code:addons/hr/models/mail_alias.py:0
 msgid "addresses linked to registered employees"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254274,6 +256043,9 @@ msgstr "adrese povezane sa registriranim zaposlenicima"
 =======
 msgstr "adrese povezane sa registriranim zaposlenicima"
 >>>>>>> upstream/18.0
+=======
+msgstr "adrese povezane sa registriranim zaposlenicima"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_department_form
@@ -254281,6 +256053,7 @@ msgid "department"
 msgstr "odjeljenje"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256357,6 +258130,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "e.g. Building 2, Remote, etc."
 msgstr "npr. Zgrada 2, Od kuće, itd."
@@ -256382,6 +258157,9 @@ msgstr "npr. John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -256416,6 +258194,7 @@ msgid "e.g. Sales Manager"
 msgstr "npr.: Upravitelj prodajom"
 
 #. module: hr
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257116,6 +258895,11 @@ msgstr "npr. Sažetak ove pozicije u jednom do dva retka..."
 msgid "e.g. Summarize the position in one or two lines..."
 msgstr "npr. Sažetak ove pozicije u jednom do dva retka..."
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
+msgid "e.g. Summarize the position in one or two lines..."
+msgstr "npr. Sažetak ove pozicije u jednom do dva retka..."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
@@ -257135,7 +258919,11 @@ msgid "e.g. johndoe@example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. ivanhorvat@example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. ivanhorvat@example.com"
 >>>>>>> upstream/18.0
@@ -257200,7 +258988,11 @@ msgid "e.g. myprivateemail@example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. mojprivatnimail@example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. mojprivatnimail@example.com"
 >>>>>>> upstream/18.0
@@ -257412,7 +259204,11 @@ msgid "km"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "km"
+>>>>>>> upstream/18.0
 =======
 msgstr "km"
 >>>>>>> upstream/18.0
@@ -258119,6 +259915,7 @@ msgid "mi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258523,6 +260320,9 @@ msgid "mi"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "mi"
+>>>>>>> upstream/18.0
 =======
 msgstr "mi"
 >>>>>>> upstream/18.0
@@ -258588,6 +260388,7 @@ msgid "restricted to employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259193,6 +260994,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "ograničeno na zaposlenike"
 >>>>>>> upstream/18.0
 =======
 msgstr "ograničeno na zaposlenike"
@@ -259258,7 +261062,11 @@ msgid "work_permit_name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "naziv_radne_dozvole"
+>>>>>>> upstream/18.0
 =======
 msgstr "naziv_radne_dozvole"
 >>>>>>> upstream/18.0
@@ -259560,6 +261368,9 @@ msgstr "naziv_radne_dozvole"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

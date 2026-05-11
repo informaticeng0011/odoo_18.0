@@ -78,6 +78,7 @@ class TestPointOfSale(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def setUp(self):
         super(TestPointOfSale, self).setUp()
 
@@ -104,6 +105,8 @@ class TestPointOfSale(TransactionCase):
             'type': 'bank',
             'company_id': self.company1.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -345,6 +348,9 @@ class TestPointOfSale(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -567,7 +573,11 @@ class TestPointOfSale(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env.user.company_id = self.company1
+=======
+        cls.env.user.company_id = cls.company1
+>>>>>>> upstream/18.0
 =======
         cls.env.user.company_id = cls.company1
 >>>>>>> upstream/18.0

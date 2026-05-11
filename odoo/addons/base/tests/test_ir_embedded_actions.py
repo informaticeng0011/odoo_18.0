@@ -145,7 +145,10 @@ class TestEmbeddedActionsBase(TransactionCaseWithUserDemo):
         self.assertFalse(embedded_action2.python_method)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -180,6 +183,9 @@ class TestEmbeddedActionsBase(TransactionCaseWithUserDemo):
             linked_action.with_context(lang='fr_FR').display_name,
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

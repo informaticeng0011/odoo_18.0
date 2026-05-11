@@ -362,7 +362,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1087,6 +1090,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1933,7 +1939,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   SELECT payment.id
+=======
+                  SELECT payment.check_number
+>>>>>>> upstream/18.0
 =======
                   SELECT payment.check_number
 >>>>>>> upstream/18.0
@@ -3230,9 +3240,15 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             last_printed_check = self.browse(self.env.cr.fetchone())
             number_len = len(last_printed_check.check_number or "")
             next_check_number = '%0{}d'.format(number_len) % (int(last_printed_check.check_number) + 1)
+=======
+            last_check_number = (self.env.cr.fetchone() or (False,))[0]
+            number_len = len(last_check_number or "")
+            next_check_number = f'{int(last_check_number) + 1:0{number_len}}'
+>>>>>>> upstream/18.0
 =======
             last_check_number = (self.env.cr.fetchone() or (False,))[0]
             number_len = len(last_check_number or "")
@@ -5187,6 +5203,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'company': self.company_id.name,
+>>>>>>> upstream/18.0
 =======
             'company': self.company_id.name,
 >>>>>>> upstream/18.0
@@ -6413,7 +6433,12 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             number = ' - '.join([invoice.name, invoice.ref] if invoice.ref else [invoice.name])
+=======
+            invoice_name = invoice.name or '/'
+            number = ' - '.join([invoice_name, invoice.ref] if invoice.ref else [invoice_name])
+>>>>>>> upstream/18.0
 =======
             invoice_name = invoice.name or '/'
             number = ' - '.join([invoice_name, invoice.ref] if invoice.ref else [invoice_name])

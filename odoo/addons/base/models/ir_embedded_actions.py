@@ -61,7 +61,10 @@ class IrEmbeddedActions(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.depends('action_id.display_name', 'name')
@@ -74,6 +77,9 @@ class IrEmbeddedActions(models.Model):
                 record.display_name = record.name
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

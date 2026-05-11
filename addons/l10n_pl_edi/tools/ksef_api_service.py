@@ -92,6 +92,12 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.l10n_pl_edi.exceptions import KSeFRateLimitError
+
+
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.l10n_pl_edi.exceptions import KSeFRateLimitError
 
@@ -555,11 +561,14 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.refresh_token = company.l10n_pl_edi_refresh_token
         self.api_url = self._get_api_url()
         self.raw_symmetric_key = base64.b64decode(company.l10n_pl_edi_session_key) if company.l10n_pl_edi_session_key else None
         self.raw_iv = base64.b64decode(company.l10n_pl_edi_session_iv) if company.l10n_pl_edi_session_iv else None
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -738,6 +747,9 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -859,6 +871,7 @@ class KsefApiService:
     def _get_api_url(self):
         """Gets the correct KSeF API URL from the company's settings."""
         if self.mode == 'prod':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1236,6 +1249,9 @@ class KsefApiService:
 =======
             return 'https://api.ksef.mf.gov.pl/v2'
 >>>>>>> upstream/18.0
+=======
+            return 'https://api.ksef.mf.gov.pl/v2'
+>>>>>>> upstream/18.0
         return 'https://api-test.ksef.mf.gov.pl/v2'
 
     def _make_headers(self, token):
@@ -1313,7 +1329,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kwargs['headers'].update(self._make_headers(self.company.l10n_pl_edi_access_token))
+=======
+        kwargs['headers'].update(self._make_headers(self.company.sudo().l10n_pl_edi_access_token))
+>>>>>>> upstream/18.0
 =======
         kwargs['headers'].update(self._make_headers(self.company.sudo().l10n_pl_edi_access_token))
 >>>>>>> upstream/18.0
@@ -1578,6 +1598,12 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif response.status_code == 429:
+                retry_after = response.headers.get('Retry-After')
+                raise KSeFRateLimitError("Too Many Requests", retry_after=retry_after)
+>>>>>>> upstream/18.0
 =======
             elif response.status_code == 429:
                 retry_after = response.headers.get('Retry-After')
@@ -2087,7 +2113,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.company.l10n_pl_edi_session_id and self.get_session_status().get('code') == 100:
+=======
+        if self.company.sudo().l10n_pl_edi_session_id and self.get_session_status().get('code') == 100:
+>>>>>>> upstream/18.0
 =======
         if self.company.sudo().l10n_pl_edi_session_id and self.get_session_status().get('code') == 100:
 >>>>>>> upstream/18.0
@@ -2362,12 +2392,15 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.refresh_token:
             raise UserError(self.env._("No refresh token found to renew the session."))
 
         endpoint = f"{self.api_url}/auth/token/refresh"
         headers = self._make_headers(self.refresh_token)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2548,6 +2581,9 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2734,7 +2770,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.company.l10n_pl_edi_access_token = new_access_token
+=======
+            self.company.sudo().write({'l10n_pl_edi_access_token': new_access_token})
+>>>>>>> upstream/18.0
 =======
             self.company.sudo().write({'l10n_pl_edi_access_token': new_access_token})
 >>>>>>> upstream/18.0
@@ -2995,7 +3035,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         endpoint = f"{self.api_url}/sessions/online/{self.company.l10n_pl_edi_session_id}/invoices"
+=======
+        endpoint = f"{self.api_url}/sessions/online/{self.company.sudo().l10n_pl_edi_session_id}/invoices"
+>>>>>>> upstream/18.0
 =======
         endpoint = f"{self.api_url}/sessions/online/{self.company.sudo().l10n_pl_edi_session_id}/invoices"
 >>>>>>> upstream/18.0
@@ -3244,12 +3288,15 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.company.l10n_pl_edi_session_id:
             _logger.warning("No KSeF session data found to close.")
             return
 
         endpoint = f"{self.api_url}/sessions/online/{self.company.l10n_pl_edi_session_id}/close"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3430,6 +3477,9 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3619,10 +3669,13 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.company.l10n_pl_edi_session_id:
             raise UserError(self.env._("No active KSeF session found. Please open a session first."))
         endpoint = f"{self.api_url}/sessions/{self.company.l10n_pl_edi_session_id}"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3801,6 +3854,9 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3988,11 +4044,14 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.company.l10n_pl_edi_session_id:
             raise UserError(self.env._("No active KSeF session found. Please open a session first."))
 
         endpoint = f"{self.api_url}/sessions/online/{self.company.l10n_pl_edi_session_id}/invoices"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4172,6 +4231,9 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4357,7 +4419,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         session_id = session_id or self.company.l10n_pl_edi_session_id
+=======
+        session_id = session_id or self.company.sudo().l10n_pl_edi_session_id
+>>>>>>> upstream/18.0
 =======
         session_id = session_id or self.company.sudo().l10n_pl_edi_session_id
 >>>>>>> upstream/18.0
@@ -4600,7 +4666,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         session_id = session_id or self.company.l10n_pl_edi_session_id
+=======
+        session_id = session_id or self.company.sudo().l10n_pl_edi_session_id
+>>>>>>> upstream/18.0
 =======
         session_id = session_id or self.company.sudo().l10n_pl_edi_session_id
 >>>>>>> upstream/18.0
@@ -4936,7 +5006,10 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5160,7 +5233,11 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {'error': {'retry_after': e.retry_after, 'message': e.message}}
+=======
+            return {'error': {'retry_after': e.retry_after, 'message': str(e)}}
+>>>>>>> upstream/18.0
 =======
             return {'error': {'retry_after': e.retry_after, 'message': str(e)}}
 >>>>>>> upstream/18.0
@@ -5404,6 +5481,7 @@ class KsefApiService:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return {'error': {'retry_after': e.retry_after, 'message': e.message}}
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5462,6 +5540,9 @@ class KsefApiService:
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            return {'error': {'retry_after': e.retry_after, 'message': str(e)}}
 >>>>>>> upstream/18.0
 =======
             return {'error': {'retry_after': e.retry_after, 'message': str(e)}}

@@ -268,8 +268,11 @@ class Currency(models.Model):
             return 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company = company or self.env.company
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if company == self.env.company.root_id:
@@ -277,6 +280,9 @@ class Currency(models.Model):
         else:
             company = company or self.env.company
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_livechat
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,6 +415,9 @@
 =======
 # * website_livechat
 >>>>>>> upstream/18.0
+=======
+# * website_livechat
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -544,6 +548,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -738,6 +743,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -830,6 +838,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1308,16 +1317,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-05-09 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "website_livechat/sk/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1786,6 +1801,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__session_count
@@ -1800,6 +1820,11 @@ msgid ""
 "The chat request has been cancelled"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(visitor)s začal konverzáciu s %(operator)s.\n"
+"Žiadosť o chat bola zrušená"
+>>>>>>> upstream/18.0
 =======
 "%(visitor)s začal konverzáciu s %(operator)s.\n"
 "Žiadosť o chat bola zrušená"
@@ -1856,7 +1881,11 @@ msgstr "Chat"
 #: model:ir.model,name:website_livechat.model_chatbot_script
 msgid "Chatbot Script"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skript chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skript chatbota"
 >>>>>>> upstream/18.0
@@ -1865,7 +1894,11 @@ msgstr "Skript chatbota"
 #: model:ir.model,name:website_livechat.model_chatbot_script_step
 msgid "Chatbot Script Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krok skriptu chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krok skriptu chatbota"
 >>>>>>> upstream/18.0
@@ -1903,7 +1936,11 @@ msgid "Chats"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chaty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chaty"
 >>>>>>> upstream/18.0
@@ -2032,7 +2069,11 @@ msgstr "História"
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_search
 msgid "In Conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V konverzácii"
+>>>>>>> upstream/18.0
 =======
 msgstr "V konverzácii"
 >>>>>>> upstream/18.0
@@ -2080,6 +2121,11 @@ msgstr "Nový kanál"
 msgid "No Livechat Channel allows you to send a chat request for website %s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Žiaden kanál Livechat vám neumožňuje odoslať žiadosť o chat na webovej "
+"stránke %s."
+>>>>>>> upstream/18.0
 =======
 "Žiaden kanál Livechat vám neumožňuje odoslať žiadosť o chat na webovej "
 "stránke %s."
@@ -2099,7 +2145,11 @@ msgstr "OK"
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 msgid "Operator Avatar"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avatar operátora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avatar operátora"
 >>>>>>> upstream/18.0
@@ -2108,7 +2158,11 @@ msgstr "Avatar operátora"
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__livechat_operator_name
 msgid "Operator Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Názov operátora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Názov operátora"
 >>>>>>> upstream/18.0
@@ -2117,6 +2171,7 @@ msgstr "Názov operátora"
 #. odoo-python
 #: code:addons/website_livechat/models/website_visitor.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2752,11 +2807,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Recipients are not available. Please refresh the page to get latest visitors "
 "status."
 msgstr ""
 "Príjemcovia nie sú k dispozícii. Obnovte stránku, aby ste získali najnovší "
 "stav návštevníkov."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_livechat
@@ -2768,7 +2828,11 @@ msgstr "Smutná tvár"
 #: model:ir.actions.server,name:website_livechat.website_livechat_send_chat_request_action_server
 msgid "Send Chat Requests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoslať žiadosti o chat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoslať žiadosti o chat"
 >>>>>>> upstream/18.0
@@ -2777,7 +2841,11 @@ msgstr "Odoslať žiadosti o chat"
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_form
 msgid "Send chat request"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoslať žiadosť o chat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoslať žiadosť o chat"
 >>>>>>> upstream/18.0
@@ -2786,7 +2854,11 @@ msgstr "Odoslať žiadosť o chat"
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 msgid "Speaking With"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V hovore"
+>>>>>>> upstream/18.0
 =======
 msgstr "V hovore"
 >>>>>>> upstream/18.0
@@ -2795,7 +2867,11 @@ msgstr "V hovore"
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__livechat_operator_id
 msgid "Speaking with"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V hovore"
+>>>>>>> upstream/18.0
 =======
 msgstr "V hovore"
 >>>>>>> upstream/18.0
@@ -2830,7 +2906,11 @@ msgstr "Úplná URL na prístup k dokumentu cez webové stránky."
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "The visitor"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Návštevník"
+>>>>>>> upstream/18.0
 =======
 msgstr "Návštevník"
 >>>>>>> upstream/18.0
@@ -2860,7 +2940,11 @@ msgstr "Návštevník"
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "Visitor #%(id)d left the conversation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Návštevník č.%(id)d opustil konverzáciu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Návštevník č.%(id)d opustil konverzáciu."
 >>>>>>> upstream/18.0
@@ -2877,7 +2961,11 @@ msgstr ""
 #: code:addons/website_livechat/models/website_visitor.py:0
 msgid "Visitor #%d"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Návštevník #%d"
+>>>>>>> upstream/18.0
 =======
 msgstr "Návštevník #%d"
 >>>>>>> upstream/18.0
@@ -2893,7 +2981,11 @@ msgstr ""
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "Visitor left the conversation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Návštevník opustil konverzáciu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Návštevník opustil konverzáciu."
 >>>>>>> upstream/18.0
@@ -2902,7 +2994,11 @@ msgstr "Návštevník opustil konverzáciu."
 #: model:ir.actions.act_window,name:website_livechat.website_visitor_livechat_session_action
 msgid "Visitor's Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Relácie návštevníkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Relácie návštevníkov"
 >>>>>>> upstream/18.0
@@ -2911,7 +3007,11 @@ msgstr "Relácie návštevníkov"
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__discuss_channel_ids
 msgid "Visitor's livechat channels"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kanály živého chatu pre návštevníkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kanály živého chatu pre návštevníkov"
 >>>>>>> upstream/18.0
@@ -2932,7 +3032,11 @@ msgstr "Webstránka"
 #: model:ir.model.fields,field_description:website_livechat.field_res_config_settings__channel_id
 msgid "Website Live Channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Živý kanál webovej stránky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Živý kanál webovej stránky"
 >>>>>>> upstream/18.0
@@ -2964,7 +3068,11 @@ msgstr "Popis webstránky"
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "an operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "operátor"
+>>>>>>> upstream/18.0
 =======
 msgstr "operátor"
 >>>>>>> upstream/18.0

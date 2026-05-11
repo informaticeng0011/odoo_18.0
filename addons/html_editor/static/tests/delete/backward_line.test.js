@@ -269,6 +269,10 @@ import { unformat } from "../_helpers/format";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { mockUserAgent } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { mockUserAgent } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -1431,7 +1435,10 @@ test("should not merge an unbreakable element on CTRL+SHIFT+BACKSPACE (2)", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2239,6 +2246,9 @@ test("Should delete last line on MacOS", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

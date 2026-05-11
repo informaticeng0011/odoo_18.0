@@ -513,6 +513,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'project/static/src/views/project_task_kanban/*.scss',
+>>>>>>> upstream/18.0
 =======
             'project/static/src/views/project_task_kanban/*.scss',
 >>>>>>> upstream/18.0

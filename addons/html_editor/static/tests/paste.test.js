@@ -283,6 +283,10 @@ import { createBaseContainer } from "@html_editor/utils/base_container";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
 =======
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
@@ -1260,6 +1264,7 @@ describe("Html Paste cleaning - whitelist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should keep whitelisted Tags tag", async () => {
         const baseContainer = createBaseContainer("DIV");
         const baseContainerString = `${baseContainer.nodeName}`;
@@ -1274,6 +1279,8 @@ describe("Html Paste cleaning - whitelist", () => {
             const tagName = node.split(" ")[0].toLowerCase();
             if (!toIgnore(tagName.toUpperCase())) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1710,6 +1717,9 @@ describe("Html Paste cleaning - whitelist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2003,6 +2013,7 @@ describe("Html Paste cleaning - whitelist", () => {
                         pasteHtml(editor, `a<${tagDescription}>b</${tagName}>c`);
                     },
                     contentAfter: "<p>123" + html + "[]4</p>",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2852,6 +2863,8 @@ describe("Html Paste cleaning - whitelist", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     config: { baseContainer: "DIV" },
                 });
             });
@@ -2998,6 +3011,9 @@ describe("Html Paste cleaning - whitelist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3302,6 +3318,7 @@ describe("Html Paste cleaning - whitelist", () => {
                 );
             },
             contentAfter:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4047,6 +4064,8 @@ describe("Html Paste cleaning - whitelist", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 '<p>123a</p><table class="table table-bordered o_table"><tbody><tr><td>h</td></tr><tr><td>b</td></tr></tbody></table><p>d[]</p>',
         });
     });
@@ -4294,6 +4313,9 @@ describe("Html Paste cleaning - whitelist", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4972,7 +4994,11 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text in a p", async () => {
+=======
+        test("should paste a text in a p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text in a p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5548,6 +5574,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text in a p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -6407,6 +6439,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text in a p", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -7453,7 +7491,10 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8260,6 +8301,7 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8792,6 +8834,8 @@ describe("Simple text", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     });
 
     describe("range not collapsed", () => {
@@ -8937,6 +8981,9 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9369,6 +9416,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text in a p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -10228,6 +10281,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text in a p (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -11099,7 +11158,11 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two span", async () => {
+=======
+        test("should paste a text when selection across two span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -11675,6 +11738,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -12544,6 +12613,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -13413,6 +13488,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -14282,6 +14363,12 @@ describe("Simple text", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two element (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -15212,7 +15299,11 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two span", async () => {
+=======
+        test("should paste a text when selection across two span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -15788,6 +15879,12 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -16649,7 +16746,11 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two p (2)", async () => {
+=======
+        test("should paste a text when selection across two p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -17225,6 +17326,12 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -18086,7 +18193,11 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (2)", async () => {
+=======
+        test("should paste a text when selection leave a span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -18662,6 +18773,12 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -19523,7 +19640,11 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two element (2)", async () => {
+=======
+        test("should paste a text when selection across two element (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two element (1)", async () => {
 >>>>>>> upstream/18.0
@@ -20099,6 +20220,12 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two element (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -20958,6 +21085,12 @@ describe("Simple html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two element (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -21877,7 +22010,11 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two span", async () => {
+=======
+        test("should paste a text when selection across two span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -22453,6 +22590,12 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -23314,7 +23457,11 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two p (3)", async () => {
+=======
+        test("should paste a text when selection across two p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -23890,6 +24037,12 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -24751,7 +24904,11 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (3)", async () => {
+=======
+        test("should paste a text when selection leave a span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -25327,6 +25484,12 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -26188,7 +26351,11 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two element (3)", async () => {
+=======
+        test("should paste a text when selection across two element (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two element (1)", async () => {
 >>>>>>> upstream/18.0
@@ -26764,6 +26931,12 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two element (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -27623,6 +27796,12 @@ describe("Simple html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two element (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -28548,7 +28727,11 @@ describe("Simple html elements containing <br>", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should split p with <br> into seperate p elements", async () => {
+=======
+        test("should split p with <br> into seperate p elements (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should split p with <br> into seperate p elements (1)", async () => {
 >>>>>>> upstream/18.0
@@ -29124,6 +29307,12 @@ describe("Simple html elements containing <br>", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split p with <br> into seperate p elements (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -29983,6 +30172,12 @@ describe("Simple html elements containing <br>", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split p with <br> into seperate p elements (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -30842,6 +31037,12 @@ describe("Simple html elements containing <br>", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should split p with <br> into seperate p elements (4)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -31829,7 +32030,10 @@ describe("Simple html elements containing <br>", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32579,6 +32783,9 @@ describe("Simple html elements containing <br>", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33252,7 +33459,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not unwrap a node when pasting on empty node", async () => {
+=======
+    test("should not unwrap a node when pasting on empty node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not unwrap a node when pasting on empty node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -33828,6 +34039,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting on empty node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -34687,6 +34904,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting on empty node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -35546,6 +35769,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting on empty node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -36405,6 +36634,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting on empty node (5)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -37264,6 +37499,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting on empty node (6)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -38123,6 +38364,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting on empty node (7)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -38983,7 +39230,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not unwrap a node when pasting in between different node", async () => {
+=======
+    test("should not unwrap a node when pasting in between different node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not unwrap a node when pasting in between different node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -39559,6 +39810,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting in between different node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -40418,6 +40675,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting in between different node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -41278,7 +41541,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should unwrap a node when pasting in between same node", async () => {
+=======
+    test("should unwrap a node when pasting in between same node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should unwrap a node when pasting in between same node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -41854,6 +42121,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting in between same node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -42713,6 +42986,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting in between same node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -43572,6 +43851,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting in between same node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -44569,6 +44854,7 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -44843,6 +45129,11 @@ describe("Unwrapping html element", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    });
+
+    test("should unwrap a node when pasting in between same node (5)", async () => {
 >>>>>>> upstream/18.0
 =======
     });
@@ -45703,6 +45994,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting in between same node (6)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -46421,6 +46718,7 @@ describe("Unwrapping html element", () => {
             contentAfter:
                 '<p><font style="background-color: rgb(255, 0, 0);">nested []test</font></p>',
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47545,6 +47843,10 @@ describe("Unwrapping html element", () => {
     });
     test("should not unwrap a node when pasting at start of different node (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+    });
+    test("should not unwrap a node when pasting at start of different node (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>[]mn</p>",
             stepFunction: async (editor) => {
@@ -47694,6 +47996,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting at start of different node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -48553,6 +48861,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting at start of different node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -49413,7 +49727,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should unwrap a node when pasting at start of same node", async () => {
+=======
+    test("should unwrap a node when pasting at start of same node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should unwrap a node when pasting at start of same node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -49989,6 +50307,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting at start of same node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -50848,6 +51172,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting at start of same node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -51709,7 +52039,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should not unwrap a node when pasting at end of different node", async () => {
+=======
+    test("should not unwrap a node when pasting at end of different node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should not unwrap a node when pasting at end of different node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -52285,6 +52619,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting at end of different node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -53144,6 +53484,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should not unwrap a node when pasting at end of different node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -54004,7 +54350,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should unwrap a node when pasting at end of same node", async () => {
+=======
+    test("should unwrap a node when pasting at end of same node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should unwrap a node when pasting at end of same node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -54580,6 +54930,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting at end of same node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -55439,6 +55795,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap a node when pasting at end of same node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -56309,7 +56671,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should unwrap base container node when pasting on different empty node", async () => {
+=======
+    test("should unwrap base container node when pasting on different empty node (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should unwrap base container node when pasting on different empty node (1)", async () => {
 >>>>>>> upstream/18.0
@@ -56885,6 +57251,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap base container node when pasting on different empty node (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -57744,6 +58116,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap base container node when pasting on different empty node (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -58606,6 +58984,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap base container node when pasting on different empty node (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -59327,6 +59711,7 @@ describe("Unwrapping html element", () => {
             contentAfter: '<h1><font style="background-color: rgb(255, 0, 0);">abc</font>[]</h1>',
         });
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60334,6 +60719,10 @@ describe("Unwrapping html element", () => {
 
     test("should unwrap li elements having no ul/ol (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+
+    test("should unwrap li elements having no ul/ol (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<p>[]<br></p>",
             stepFunction: async (editor) => {
@@ -60483,6 +60872,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap li elements having no ul/ol (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -61342,6 +61737,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap li elements having no ul/ol (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -62205,7 +62606,11 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should unwrap li elements with multiple blocks having no ul/ol", async () => {
+=======
+    test("should unwrap li elements with multiple blocks having no ul/ol (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should unwrap li elements with multiple blocks having no ul/ol (1)", async () => {
 >>>>>>> upstream/18.0
@@ -62784,6 +63189,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap li elements with multiple blocks having no ul/ol (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -63646,6 +64057,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap li elements with multiple blocks having no ul/ol (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -64509,6 +64926,12 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should unwrap li elements with multiple blocks having no ul/ol (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -65500,6 +65923,9 @@ describe("Unwrapping html element", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66182,7 +66608,11 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two span", async () => {
+=======
+        test("should paste a text when selection across two span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -66758,6 +67188,12 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -67619,7 +68055,11 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two p (4)", async () => {
+=======
+        test("should paste a text when selection across two p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -68195,6 +68635,12 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -69056,7 +69502,11 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (4)", async () => {
+=======
+        test("should paste a text when selection leave a span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -69632,6 +70082,12 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -70493,7 +70949,11 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two element (4)", async () => {
+=======
+        test("should paste a text when selection across two element (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two element (1)", async () => {
 >>>>>>> upstream/18.0
@@ -71069,6 +71529,12 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two element (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -71928,6 +72394,12 @@ describe("Complex html span", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two element (3)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -72872,7 +73344,11 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two p (5)", async () => {
+=======
+        test("should paste a text when selection across two p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -73448,6 +73924,12 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -74309,7 +74791,11 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (5) baseContainer", async () => {
+=======
+        test("should paste a text when selection leave a span baseContainer (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span baseContainer (1)", async () => {
 >>>>>>> upstream/18.0
@@ -74885,6 +75371,12 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span baseContainer (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -75746,7 +76238,11 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (5) unbreakable", async () => {
+=======
+        test("should paste a text when selection leave a span unbreakable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span unbreakable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -76322,6 +76818,12 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span unbreakable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -77183,7 +77685,11 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (6)", async () => {
+=======
+        test("should paste a text when selection leave a span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -77760,6 +78266,12 @@ describe("Complex html p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -78736,7 +79248,11 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two p (6)", async () => {
+=======
+        test("should paste a text when selection across two p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -79313,6 +79829,12 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -80175,7 +80697,11 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (7) baseContainer", async () => {
+=======
+        test("should paste a text when selection leave a span baseContainer (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span baseContainer (1)", async () => {
 >>>>>>> upstream/18.0
@@ -80752,6 +81278,12 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span baseContainer (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -81614,7 +82146,11 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (7) unbreakable", async () => {
+=======
+        test("should paste a text when selection leave a span unbreakable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span unbreakable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -82191,6 +82727,12 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span unbreakable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -83053,7 +83595,11 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (8)", async () => {
+=======
+        test("should paste a text when selection leave a span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -83630,6 +84176,12 @@ describe("Complex html 3 p", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -84575,7 +85127,11 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two span", async () => {
+=======
+        test("should paste a text when selection across two span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -85152,6 +85708,12 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -86014,7 +86576,11 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two p (7)", async () => {
+=======
+        test("should paste a text when selection across two p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -86590,6 +87156,12 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -87451,7 +88023,11 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (9) baseContainer", async () => {
+=======
+        test("should paste a text when selection leave a span baseContainer (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span baseContainer (1)", async () => {
 >>>>>>> upstream/18.0
@@ -88027,6 +88603,12 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span baseContainer (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -88888,7 +89470,11 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (9) unbreakable", async () => {
+=======
+        test("should paste a text when selection leave a span unbreakable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span unbreakable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -89465,6 +90051,12 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span unbreakable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -90327,7 +90919,11 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (10)", async () => {
+=======
+        test("should paste a text when selection leave a span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -90904,6 +91500,12 @@ describe("Complex html p+i", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -91855,7 +92457,11 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two span", async () => {
+=======
+        test("should paste a text when selection across two span (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two span (1)", async () => {
 >>>>>>> upstream/18.0
@@ -92432,6 +93038,12 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two span (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -93294,7 +93906,11 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection across two p (8)", async () => {
+=======
+        test("should paste a text when selection across two p (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection across two p (1)", async () => {
 >>>>>>> upstream/18.0
@@ -93870,6 +94486,12 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection across two p (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -94731,7 +95353,11 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (11) baseContainer", async () => {
+=======
+        test("should paste a text when selection leave a span baseContainer (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span baseContainer (1)", async () => {
 >>>>>>> upstream/18.0
@@ -95307,6 +95933,12 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span baseContainer (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -96168,7 +96800,11 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste a text when selection leave a span (11) unbreakable", async () => {
+=======
+        test("should paste a text when selection leave a span unbreakable (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste a text when selection leave a span unbreakable (1)", async () => {
 >>>>>>> upstream/18.0
@@ -96745,6 +97381,12 @@ describe("Complex html 3p+b", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste a text when selection leave a span unbreakable (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -97745,7 +98387,10 @@ describe("Complex html div", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98517,6 +99162,9 @@ describe("Complex html div", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99630,7 +100278,11 @@ describe("pasting within blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should paste paragraph related elements within blockquote", async () => {
+=======
+    test("should paste paragraph related elements within blockquote (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should paste paragraph related elements within blockquote (1)", async () => {
 >>>>>>> upstream/18.0
@@ -100206,6 +100858,12 @@ describe("pasting within blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should paste paragraph related elements within blockquote (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -101065,6 +101723,12 @@ describe("pasting within blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should paste paragraph related elements within blockquote (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -101924,6 +102588,12 @@ describe("pasting within blockquote", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should paste paragraph related elements within blockquote (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -102645,6 +103315,7 @@ describe("pasting within blockquote", () => {
 });
 
 describe("pasting within pre", () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103630,11 +104301,15 @@ describe("pasting within pre", () => {
 =======
     test("should paste paragraph related elements within pre as plain text (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+    test("should paste paragraph related elements within pre as plain text (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: "<pre>[]<br></pre>",
             stepFunction: async (editor) => {
                 pasteHtml(editor, "<h1>abc</h1><h2>def</h2><h3>ghi</h3>");
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104478,6 +105153,8 @@ describe("pasting within pre", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentAfter: "<pre>abc\ndef\nghi[]</pre>",
         });
     });
@@ -104624,6 +105301,9 @@ describe("pasting within pre", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104912,6 +105592,7 @@ describe("pasting within pre", () => {
             stepFunction: async (editor) => {
                 pasteHtml(editor, "<h1>abc</h1><h2>def</h2><h3>ghi</h3>");
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105755,6 +106436,8 @@ describe("pasting within pre", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentAfter: "<pre>xabc\ndef\nghi[]</pre>",
         });
     });
@@ -105901,6 +106584,9 @@ describe("pasting within pre", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106189,6 +106875,7 @@ describe("pasting within pre", () => {
             stepFunction: async (editor) => {
                 pasteHtml(editor, "<h1>abc</h1><h2>def</h2><h3>ghi</h3>");
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107032,6 +107719,8 @@ describe("pasting within pre", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentAfter: "<pre>abc\ndef\nghi[]x</pre>",
         });
     });
@@ -107178,6 +107867,9 @@ describe("pasting within pre", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -107466,6 +108158,7 @@ describe("pasting within pre", () => {
             stepFunction: async (editor) => {
                 pasteHtml(editor, "<h1>abc</h1><h2>def</h2><h3>ghi</h3>");
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108204,6 +108897,8 @@ describe("pasting within pre", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentAfter: "<pre>xabc\ndef\nghi[]y</pre>",
         });
     });
@@ -108361,7 +109056,11 @@ describe("pasting within pre", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should paste lists within pre as plain text and keep the list style and indentation", async () => {
+=======
+    test("should paste lists within pre as plain text and keep the list style and indentation (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should paste lists within pre as plain text and keep the list style and indentation (1)", async () => {
 >>>>>>> upstream/18.0
@@ -108941,6 +109640,12 @@ describe("pasting within pre", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should paste lists within pre as plain text and keep the list style and indentation (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -109803,6 +110508,12 @@ describe("pasting within pre", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should paste lists within pre as plain text and keep the list style and indentation (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -110781,6 +111492,9 @@ describe("pasting within pre", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111445,7 +112159,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste and not transform an URL in a existing link (collapsed)", async () => {
+=======
+        test("should paste and not transform an URL in a existing link (collapsed) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste and not transform an URL in a existing link (collapsed) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -112021,6 +112739,12 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste and not transform an URL in a existing link (collapsed) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -112882,7 +113606,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste and update an URL in a existing link if label and url are aligned", async () => {
+=======
+        test("should paste and update an URL in a existing link if label and url are aligned (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste and update an URL in a existing link if label and url are aligned (1)", async () => {
 >>>>>>> upstream/18.0
@@ -113458,6 +114186,12 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste and update an URL in a existing link if label and url are aligned (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -114477,7 +115211,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -115590,7 +116328,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -116703,7 +117445,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -117682,7 +118428,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should paste and transform plain text content over an empty link (collapsed)", async () => {
+=======
+        test("should paste and transform plain text content over an empty link (collapsed) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should paste and transform plain text content over an empty link (collapsed) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -118258,6 +119008,12 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste and transform plain text content over an empty link (collapsed) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -119285,7 +120041,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -120395,7 +121155,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -121505,7 +122269,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -122615,7 +123383,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -123725,7 +124497,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -124612,7 +125388,10 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -124731,6 +125510,9 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125165,7 +125947,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -126275,7 +127061,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -127385,7 +128175,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -128495,7 +129289,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -129577,7 +130375,10 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130040,6 +130841,7 @@ describe("link", () => {
             });
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130844,6 +131646,9 @@ describe("link", () => {
 =======
         test("should paste and transform plain text content over a link if all of its contents is selected (not collapsed) (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+        test("should paste and transform plain text content over a link if all of its contents is selected (not collapsed) (1)", async () => {
+>>>>>>> upstream/18.0
             await testEditor({
                 contentBefore: '<p><a href="#">[xyz]</a></p>',
                 stepFunction: async (editor) => {
@@ -130993,6 +131798,12 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should paste and transform plain text content over a link if all of its contents is selected (not collapsed) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -131993,7 +132804,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -133107,7 +133922,11 @@ describe("link", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -134253,7 +135072,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -135362,7 +136185,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -136476,7 +137303,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -137587,7 +138418,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -138703,7 +139538,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -139819,7 +140658,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -140931,7 +141774,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -142045,7 +142892,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-powerbox", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 0);
 >>>>>>> upstream/18.0
@@ -143156,7 +144007,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -144282,7 +145137,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -145395,7 +146254,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -146508,7 +147371,11 @@ describe("images", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -147632,7 +148499,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -148746,7 +149617,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -149874,7 +150749,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -150988,7 +151867,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -152110,7 +152993,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -153226,7 +154113,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -154353,7 +155244,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -155480,7 +156375,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -156593,7 +157492,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -157705,7 +158608,11 @@ describe("youtube video", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-powerbox").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-powerbox", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-powerbox", 1);
 >>>>>>> upstream/18.0
@@ -158997,7 +159904,11 @@ describe("Paste HTML tables", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentAfter: `<table class="table table-bordered">
+=======
+            contentAfter: `<table class="table table-bordered o_table">
+>>>>>>> upstream/18.0
 =======
             contentAfter: `<table class="table table-bordered o_table">
 >>>>>>> upstream/18.0
@@ -159956,7 +160867,11 @@ ${"            "}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentAfter: `<table class="table table-bordered">
+=======
+            contentAfter: `<table class="table table-bordered o_table">
+>>>>>>> upstream/18.0
 =======
             contentAfter: `<table class="table table-bordered o_table">
 >>>>>>> upstream/18.0
@@ -160951,7 +161866,11 @@ ${"        "}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentAfter: `<table class="table table-bordered">
+=======
+            contentAfter: `<table class="table table-bordered o_table">
+>>>>>>> upstream/18.0
 =======
             contentAfter: `<table class="table table-bordered o_table">
 >>>>>>> upstream/18.0
@@ -161869,6 +162788,7 @@ ${"        "}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -161919,6 +162839,8 @@ ${"        "}
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162594,6 +163516,9 @@ ${"        "}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -163267,7 +164192,11 @@ ${"        "}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <table class="table table-bordered">
+=======
+                        <table class="table table-bordered o_table">
+>>>>>>> upstream/18.0
 =======
                         <table class="table table-bordered o_table">
 >>>>>>> upstream/18.0
@@ -164166,7 +165095,11 @@ ${"        "}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <table class="table table-bordered">
+=======
+                        <table class="table table-bordered o_table">
+>>>>>>> upstream/18.0
 =======
                         <table class="table table-bordered o_table">
 >>>>>>> upstream/18.0
@@ -165062,6 +165995,9 @@ ${"        "}
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165871,7 +166807,10 @@ describe("onDrop", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -166442,8 +167381,11 @@ describe("onDrop", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -166710,6 +167652,9 @@ describe("onDrop", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -167165,6 +168110,9 @@ describe("onDrop", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

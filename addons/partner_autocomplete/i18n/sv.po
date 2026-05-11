@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* partner_autocomplete
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -511,6 +512,10 @@
 # * partner_autocomplete
 #
 >>>>>>> upstream/18.0
+=======
+# * partner_autocomplete
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Chrille Hedberg <hedberg.chrille@gmail.com>, 2024
 # Robin Calvin, 2024
@@ -519,6 +524,7 @@
 # Martin Trigaux, 2024
 # Simon S, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,10 +1034,14 @@
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1423,16 +1433,22 @@ msgstr ""
 "Last-Translator: Jakob Krabbe <jakob.krabbe@vertel.se>, 2024\n"
 "Language-Team: Swedish (https://app.transifex.com/odoo/teams/41243/sv/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-09 09:14+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
 "Language-Team: Swedish <https://translate.odoo.com/projects/odoo-18/"
 "partner_autocomplete/sv/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1815,6 +1831,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: partner_autocomplete
 #: model:ir.model.fields,field_description:partner_autocomplete.field_res_partner__additional_info
@@ -1826,7 +1846,11 @@ msgstr "Ytterligare information"
 #: model:iap.service,description:partner_autocomplete.iap_service_partner_autocomplete
 msgid "Automatically enrich your contact base with corporate data."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Berika automatiskt din kontaktbas med företagsdata."
+=======
+msgstr "Fyll automatiskt i kontaktuppgifter med hjälp av företagsinformation."
+>>>>>>> upstream/18.0
 =======
 msgstr "Fyll automatiskt i kontaktuppgifter med hjälp av företagsinformation."
 >>>>>>> upstream/18.0
@@ -1836,7 +1860,11 @@ msgstr "Fyll automatiskt i kontaktuppgifter med hjälp av företagsinformation."
 #: code:addons/partner_autocomplete/static/src/xml/partner_autocomplete.xml:0
 msgid "Buy more credits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Köp fler krediter"
+=======
+msgstr "Köp fler kreditpoäng"
+>>>>>>> upstream/18.0
 =======
 msgstr "Köp fler kreditpoäng"
 >>>>>>> upstream/18.0
@@ -1882,7 +1910,11 @@ msgstr "Visningsnamn"
 #: model:ir.model.fields,field_description:partner_autocomplete.field_res_company__iap_enrich_auto_done
 msgid "Enrich Done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Berika färdig"
+=======
+msgstr "Automatisk ifyllning klar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatisk ifyllning klar"
 >>>>>>> upstream/18.0
@@ -1891,7 +1923,11 @@ msgstr "Automatisk ifyllning klar"
 #: model:iap.service,unit_name:partner_autocomplete.iap_service_partner_autocomplete
 msgid "Enrichments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Anrikningar"
+=======
+msgstr "Automatiska ifyllningar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatiska ifyllningar"
 >>>>>>> upstream/18.0
@@ -1906,7 +1942,11 @@ msgstr "HTTP-routing"
 #: code:addons/partner_autocomplete/static/src/js/partner_autocomplete_core.js:0
 msgid "IAP Account Token missing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "IAP Konto-pollett saknas"
+=======
+msgstr "IAP-token för kontot saknas"
+>>>>>>> upstream/18.0
 =======
 msgstr "IAP-token för kontot saknas"
 >>>>>>> upstream/18.0
@@ -1915,7 +1955,11 @@ msgstr "IAP-token för kontot saknas"
 #: model:ir.model,name:partner_autocomplete.model_iap_autocomplete_api
 msgid "IAP Partner Autocomplete API"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "IAP Partner Autocomplete API"
+=======
+msgstr "IAP automatisk ifyllning av kontakter API"
+>>>>>>> upstream/18.0
 =======
 msgstr "IAP automatisk ifyllning av kontakter API"
 >>>>>>> upstream/18.0
@@ -1929,7 +1973,11 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:partner_autocomplete.field_res_config_settings__partner_autocomplete_insufficient_credit
 msgid "Insufficient credit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Otillräcklig kredit"
+=======
+msgstr "Otillräckliga kreditpoäng"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otillräckliga kreditpoäng"
 >>>>>>> upstream/18.0
@@ -1954,7 +2002,11 @@ msgstr "Senast uppdaterad den"
 #: code:addons/partner_autocomplete/models/iap_autocomplete_api.py:0
 msgid "No account token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ingen kontopollett"
+=======
+msgstr "Ingen token för kontot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ingen token för kontot"
 >>>>>>> upstream/18.0
@@ -1964,7 +2016,11 @@ msgstr "Ingen token för kontot"
 #: code:addons/partner_autocomplete/static/src/js/partner_autocomplete_core.js:0
 msgid "Not enough credits for Partner Autocomplete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Inte tillräckligt med krediter för Partner Autocomplete"
+=======
+msgstr "Inte tillräckligt med kreditpoäng för automatisk ifyllning av kontakter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Inte tillräckligt med kreditpoäng för automatisk ifyllning av kontakter"
 >>>>>>> upstream/18.0
@@ -1989,7 +2045,11 @@ msgstr "Partner Autocomplete: Synkronisera med fjärr-DB"
 #: code:addons/partner_autocomplete/static/src/xml/partner_autocomplete.xml:0
 msgid "Search Worldwide 🌎"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sök globalt 🌎"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sök globalt 🌎"
 >>>>>>> upstream/18.0
@@ -2000,7 +2060,11 @@ msgstr "Sök globalt 🌎"
 #: code:addons/partner_autocomplete/static/src/js/partner_autocomplete_many2one.js:0
 msgid "Searching Autocomplete..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Söker efter Autocomplete..."
+=======
+msgstr "Söker efter automatisk ifyllning..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Söker efter automatisk ifyllning..."
 >>>>>>> upstream/18.0
@@ -2010,7 +2074,11 @@ msgstr "Söker efter automatisk ifyllning..."
 #: code:addons/partner_autocomplete/static/src/xml/partner_autocomplete.xml:0
 msgid "Set Your Account Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ställ in din kontopollett"
+=======
+msgstr "Ange en token för kontot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ange en token för kontot"
 >>>>>>> upstream/18.0
@@ -2026,7 +2094,11 @@ msgstr "Testläge"
 #: code:addons/partner_autocomplete/models/res_partner.py:0
 msgid "Unable to enrich company (no credit was consumed)."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kunde inte fylla i företagsuppgifter (ingen kreditpoäng förbrukades)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kunde inte fylla i företagsuppgifter (ingen kreditpoäng förbrukades)."
 >>>>>>> upstream/18.0
