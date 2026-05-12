@@ -9,7 +9,12 @@ patch(DataServiceOptions.prototype, {
                 key: "id",
                 condition: (record) => {
                     return (
+<<<<<<< HEAD
                         !record.pos_order_line_id || record.pos_order_line_id?.order_id?.finalized
+=======
+                        !record.pos_order_line_id ||
+                        record.pos_order_line_id?.order_id?.canBeRemovedFromIndexedDB
+>>>>>>> upstream/18.0
                     );
                 },
             },
@@ -18,7 +23,12 @@ patch(DataServiceOptions.prototype, {
                 condition: (record) => {
                     return (
                         !record.registration_id ||
+<<<<<<< HEAD
                         record.registration_id?.pos_order_line_id?.order_id?.finalized
+=======
+                        record.registration_id?.pos_order_line_id?.order_id
+                            ?.canBeRemovedFromIndexedDB
+>>>>>>> upstream/18.0
                     );
                 },
             },
@@ -269,6 +279,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get pohibitedAutoLoadedModels() {
+        return [...super.pohibitedAutoLoadedModels, "event.registration"];
+    },
+>>>>>>> upstream/18.0
 =======
     get pohibitedAutoLoadedModels() {
         return [...super.pohibitedAutoLoadedModels, "event.registration"];

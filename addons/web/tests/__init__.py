@@ -39,6 +39,10 @@ from . import test_login
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_web_read
+>>>>>>> upstream/18.0
 =======
 from . import test_web_read
 >>>>>>> upstream/18.0
@@ -413,6 +417,10 @@ from . import test_reports
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_pivot_export
+>>>>>>> upstream/18.0
 =======
 from . import test_pivot_export
 >>>>>>> upstream/18.0

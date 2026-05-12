@@ -148,6 +148,10 @@ class TestItEdi(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -490,7 +494,11 @@ class TestItEdi(AccountTestInvoicingCommon):
             ae.args = (ae.args[0] + f"\nFile used for comparison: {filename}", )
             raise
 
+<<<<<<< HEAD
     def _assert_import_invoice(self, filename, expected_values_list, xml_to_apply=None):
+=======
+    def _assert_import_invoice(self, filename, expected_values_list, xml_to_apply=None, move_type="in_invoice"):
+>>>>>>> upstream/18.0
         """ Tests an invoice imported from an XML vendor bill file on the filesystem
             against expected values. XPATHs can be applied with the `xml_to_apply`
             argument to the XML content before it's imported.
@@ -510,7 +518,16 @@ class TestItEdi(AccountTestInvoicingCommon):
             'name': filename,
             'raw': import_content,
         })
+<<<<<<< HEAD
         purchase_journal = self.company_data_2['default_journal_purchase'].with_context(default_move_type='in_invoice')
+=======
+
+        journal_type = {
+            'in_invoice': 'default_journal_purchase',
+            'out_invoice': 'default_journal_sale',
+        }[move_type]
+        purchase_journal = self.company_data_2[journal_type].with_context(default_move_type=move_type)
+>>>>>>> upstream/18.0
         invoices = purchase_journal._create_document_from_attachment(attachment.ids)
 
         expected_invoice_values_list = []

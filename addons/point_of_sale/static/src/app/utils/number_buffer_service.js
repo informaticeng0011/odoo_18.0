@@ -278,7 +278,11 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static serviceDependencies = ["mail.sound_effects", "localization"];
+=======
+    static serviceDependencies = ["mail.sound_effects", "localization", "overlay"];
+>>>>>>> upstream/18.0
 =======
     static serviceDependencies = ["mail.sound_effects", "localization", "overlay"];
 >>>>>>> upstream/18.0
@@ -1180,6 +1184,10 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.overlay = services.overlay;
+>>>>>>> upstream/18.0
 =======
         this.overlay = services.overlay;
 >>>>>>> upstream/18.0
@@ -2167,6 +2175,7 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (Object.keys(this.overlay.overlays).length) {
             return;
@@ -2218,6 +2227,8 @@ class NumberBuffer extends EventBus {
         }
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2861,6 +2872,9 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3527,7 +3541,10 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4192,6 +4209,9 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4999,11 +5019,15 @@ class NumberBuffer extends EventBus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // FIXME POSREF: the `buffer` shouldn't be dependent on the currency.
             this.state.buffer = this.component.env.utils.formatCurrency(
                 inputValue + currentBufferValue,
                 false
             );
+=======
+            this.state.buffer = (inputValue + currentBufferValue).toString();
+>>>>>>> upstream/18.0
 =======
             this.state.buffer = (inputValue + currentBufferValue).toString();
 >>>>>>> upstream/18.0

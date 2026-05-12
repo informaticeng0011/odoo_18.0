@@ -203,7 +203,10 @@ import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { omit } from "@web/core/utils/objects";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -626,7 +629,11 @@ patch(PaymentScreen.prototype, {
             }
         }
         for (const line of this.currentOrder._get_reward_lines()) {
+<<<<<<< HEAD
             if (line.coupon_id.id < 1) {
+=======
+            if (!line.coupon_id || line.coupon_id.id < 1) {
+>>>>>>> upstream/18.0
                 continue;
             }
             if (!pointChanges[line.coupon_id.id]) {
@@ -675,6 +682,7 @@ patch(PaymentScreen.prototype, {
         }
         await super.validateOrder(...arguments);
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1147,6 +1155,8 @@ patch(PaymentScreen.prototype, {
             order.new_coupon_info = payload.new_coupon_info;
         }
     },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

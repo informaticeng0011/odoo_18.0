@@ -354,7 +354,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 *self.env['account.move.line']._check_company_domain(self.tax_id.company_id),
+=======
+                ('company_id', 'child_of', self.tax_id.company_id.id),
+>>>>>>> upstream/18.0
 =======
                 ('company_id', 'child_of', self.tax_id.company_id.id),
 >>>>>>> upstream/18.0
@@ -1632,7 +1636,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if same_period_partner_withholdings := self.env['account.move.line']._read_group(domain_same_period_withholdings, ['partner_id'], ['balance:sum']):
+=======
+            if same_period_partner_withholdings := self.env['account.move.line'].sudo()._read_group(domain_same_period_withholdings, ['partner_id'], ['balance:sum']):
+>>>>>>> upstream/18.0
 =======
             if same_period_partner_withholdings := self.env['account.move.line'].sudo()._read_group(domain_same_period_withholdings, ['partner_id'], ['balance:sum']):
 >>>>>>> upstream/18.0
@@ -2909,7 +2917,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 *self.env['account.move.line']._check_company_domain(self.tax_id.company_id),
+=======
+                ('company_id', 'child_of', self.tax_id.company_id.id),
+>>>>>>> upstream/18.0
 =======
                 ('company_id', 'child_of', self.tax_id.company_id.id),
 >>>>>>> upstream/18.0
@@ -4187,7 +4199,11 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if same_period_partner_base := self.env['account.move.line']._read_group(domain_same_period_base, ['partner_id'], ['balance:sum']):
+=======
+            if same_period_partner_base := self.env['account.move.line'].sudo()._read_group(domain_same_period_base, ['partner_id'], ['balance:sum']):
+>>>>>>> upstream/18.0
 =======
             if same_period_partner_base := self.env['account.move.line'].sudo()._read_group(domain_same_period_base, ['partner_id'], ['balance:sum']):
 >>>>>>> upstream/18.0
@@ -5261,6 +5277,10 @@ class l10nArPaymentRegisterWithholding(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            rounding_method='round_per_line',
+>>>>>>> upstream/18.0
 =======
             rounding_method='round_per_line',
 >>>>>>> upstream/18.0

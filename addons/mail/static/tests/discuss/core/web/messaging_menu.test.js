@@ -81,7 +81,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -315,7 +318,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
+=======
+import { describe, expect, mockPermission, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockPermission, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -780,7 +787,11 @@ test("counter is taking into account non-fetched channels", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "denied");
 >>>>>>> upstream/18.0
@@ -1113,7 +1124,11 @@ test("counter is updated on receiving message on non-fetched channels", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "denied");
 >>>>>>> upstream/18.0

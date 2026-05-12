@@ -182,6 +182,11 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            timeout = self._get_microsoft_graph_timeout()
+
+>>>>>>> upstream/18.0
 =======
             timeout = self._get_microsoft_graph_timeout()
 
@@ -736,7 +741,11 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         record._microsoft_delete(record._get_organizer(), record.microsoft_id, timeout=3)
+=======
+                        record._microsoft_delete(record._get_organizer(), record.microsoft_id, timeout=timeout)
+>>>>>>> upstream/18.0
 =======
                         record._microsoft_delete(record._get_organizer(), record.microsoft_id, timeout=timeout)
 >>>>>>> upstream/18.0
@@ -1181,7 +1190,11 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         record._microsoft_patch(record._get_organizer(), record.microsoft_id, values, timeout=3)
+=======
+                        record._microsoft_patch(record._get_organizer(), record.microsoft_id, values, timeout=timeout)
+>>>>>>> upstream/18.0
 =======
                         record._microsoft_patch(record._get_organizer(), record.microsoft_id, values, timeout=timeout)
 >>>>>>> upstream/18.0
@@ -1633,10 +1646,13 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for record in records:
                 if record.need_sync_m and record.active:
                     record._microsoft_insert(record._microsoft_values(self._get_microsoft_synced_fields()), timeout=3)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1969,6 +1985,9 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2535,9 +2554,13 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Prevent current user to synchronize new events of non-synchronized users, otherwise the event
             # ownership will be lost in Outlook and it will block the future event sync for the original owner.
             if record.user_id and record.user_id != self.env.user and sender_user == self.env.user:
+=======
+            if record._is_microsoft_insertion_blocked(sender_user):
+>>>>>>> upstream/18.0
 =======
             if record._is_microsoft_insertion_blocked(sender_user):
 >>>>>>> upstream/18.0
@@ -3869,7 +3892,10 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4209,6 +4235,9 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4797,7 +4826,10 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5714,6 +5746,9 @@ class MicrosoftSync(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

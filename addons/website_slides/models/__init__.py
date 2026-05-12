@@ -1,5 +1,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+<<<<<<< HEAD
 from . import gamification_challenge
 from . import gamification_karma_tracking
 <<<<<<< HEAD
@@ -1196,6 +1197,13 @@ from . import ir_binary
 from . import mail_message
 >>>>>>> upstream/18.0
 =======
+from . import ir_binary
+from . import mail_message
+>>>>>>> upstream/18.0
+=======
+from . import base_partner_merge
+from . import gamification_challenge
+from . import gamification_karma_tracking
 from . import ir_binary
 from . import mail_message
 >>>>>>> upstream/18.0

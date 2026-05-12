@@ -243,7 +243,10 @@ import { fields } from "@web/../tests/web_test_helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -975,6 +978,9 @@ function historyDataToString(history) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1727,11 +1733,14 @@ export class DiscussChannel extends livechatModels.DiscussChannel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 channelInfo.visitor = {
                     country: country ? { id: country.id, code: country.code } : false,
                     name: partner?.name || partner?.display_name || visitor.display_name || `Visitor #${visitor.id}`,
                     history: visitor.history, // TODO should be computed
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2462,6 +2471,9 @@ export class DiscussChannel extends livechatModels.DiscussChannel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

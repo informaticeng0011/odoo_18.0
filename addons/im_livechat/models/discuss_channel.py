@@ -263,7 +263,11 @@ from odoo.addons.mail.tools.discuss import Store
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import email_normalize, html2plaintext, plaintext2html
+=======
+from odoo.tools import email_normalize, email_split, html2plaintext, plaintext2html
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import email_normalize, email_split, html2plaintext, plaintext2html
 >>>>>>> upstream/18.0
@@ -1448,7 +1452,11 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'email_to': email,
+=======
+            'email_to': email_split(email)[0],
+>>>>>>> upstream/18.0
 =======
             'email_to': email_split(email)[0],
 >>>>>>> upstream/18.0
@@ -2289,6 +2297,7 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Markup('').join(
             Markup('%s: %s<br/>') % (message.author_id.name or self.anonymous_name, html2plaintext(message.body))
             for message in self.message_ids.sorted('id')
@@ -2310,6 +2319,8 @@ class DiscussChannel(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2451,6 +2462,9 @@ class DiscussChannel(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

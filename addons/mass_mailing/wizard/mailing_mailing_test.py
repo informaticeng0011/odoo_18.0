@@ -75,7 +75,11 @@ class TestMassMailing(models.TransientModel):
                     'body': full_body,
                     'mailing_style': Markup(f'<style>{styles}</style>'),
                 }, minimal_qcontext=True),
+<<<<<<< HEAD
                 'is_notification': True,
+=======
+                'is_notification': False,
+>>>>>>> upstream/18.0
                 'mailing_id': mailing.id,
                 'attachment_ids': [(4, attachment.id) for attachment in mailing.attachment_ids],
                 'auto_delete': False,  # they are manually deleted after notifying the document
@@ -240,8 +244,13 @@ class TestMassMailing(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'model': 'res.users',
                 'res_id': self.env.user.id,
+=======
+                'model': record._name,
+                'res_id': record.id,
+>>>>>>> upstream/18.0
 =======
                 'model': record._name,
                 'res_id': record.id,

@@ -50,7 +50,11 @@ export class BomOverviewControlPanel extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         currentWarehouse: Object,
+=======
+        currentWarehouse: { type: Object, optional: true },
+>>>>>>> upstream/18.0
 =======
         currentWarehouse: { type: Object, optional: true },
 >>>>>>> upstream/18.0
@@ -215,7 +219,11 @@ export class BomOverviewControlPanel extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             class: { selected: wh.name === this.props.currentWarehouse.name },
+=======
+            class: { selected: wh.name === this.props.currentWarehouse?.name },
+>>>>>>> upstream/18.0
 =======
             class: { selected: wh.name === this.props.currentWarehouse?.name },
 >>>>>>> upstream/18.0
