@@ -211,7 +211,11 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         media: { type: Object, optional: true },
+=======
+        media: { validate: (n) => n.nodeType === Node.ELEMENT_NODE, optional: true },
+>>>>>>> upstream/18.0
 =======
         media: { validate: (n) => n.nodeType === Node.ELEMENT_NODE, optional: true },
 >>>>>>> upstream/18.0
@@ -941,7 +945,10 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             youku: "youku",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1529,7 +1536,10 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.PLATFORMS.dailymotion,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2122,7 +2132,10 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.PLATFORMS.dailymotion,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2713,6 +2726,7 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             hide_dm_logo: {
                 label: _t("Hide Dailymotion logo"),
                 platforms: [this.PLATFORMS.dailymotion],
@@ -2723,6 +2737,8 @@ export class VideoSelector extends Component {
                 platforms: [this.PLATFORMS.dailymotion],
                 urlParameter: "sharing-enable=0",
             },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3292,12 +3308,16 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     await this.updateVideo();
 
                     this.state.options = this.state.options.map((option) => {
                         const { urlParameter } = this.OPTIONS[option.id];
                         return { ...option, value: src.indexOf(urlParameter) >= 0 };
                     });
+=======
+                    await this.syncOptionsWithUrl();
+>>>>>>> upstream/18.0
 =======
                     await this.syncOptionsWithUrl();
 >>>>>>> upstream/18.0
@@ -3965,7 +3985,11 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.onChangeUrl = debounce((ev) => this.updateVideo(ev.target.value), 500);
+=======
+        this.onChangeUrl = debounce(async (ev) => await this.syncOptionsWithUrl(), 500);
+>>>>>>> upstream/18.0
 =======
         this.onChangeUrl = debounce(async (ev) => await this.syncOptionsWithUrl(), 500);
 >>>>>>> upstream/18.0
@@ -4629,6 +4653,10 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.state.urlInput = this.state.src;
+>>>>>>> upstream/18.0
 =======
         this.state.urlInput = this.state.src;
 >>>>>>> upstream/18.0
@@ -5380,7 +5408,10 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5876,6 +5907,9 @@ export class VideoSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

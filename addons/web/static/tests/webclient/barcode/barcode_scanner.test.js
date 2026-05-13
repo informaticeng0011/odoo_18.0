@@ -216,6 +216,10 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { animationFrame, press } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { animationFrame, press } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -930,6 +934,7 @@ test("Barcode scanner crop overlay", async () => {
 
     patchWithCleanup(BarcodeVideoScanner.prototype, {
         async isVideoReady() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2234,6 +2239,11 @@ test("Barcode scanner crop overlay", async () => {
             videoReady.resolve();
             return result;
 >>>>>>> upstream/18.0
+=======
+            const result = await super.isVideoReady(...arguments);
+            videoReady.resolve();
+            return result;
+>>>>>>> upstream/18.0
         },
         onResize(overlayInfo) {
             expect.step(overlayInfo);
@@ -2333,6 +2343,10 @@ test("Barcode scanner crop overlay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0
@@ -2713,6 +2727,10 @@ test("Barcode scanner crop overlay", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await animationFrame();
+>>>>>>> upstream/18.0
 =======
     await animationFrame();
 >>>>>>> upstream/18.0
@@ -3242,7 +3260,10 @@ test("BarcodeVideoScanner onReady props", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3949,6 +3970,9 @@ test("Closing barcode scanner while video is loading should not cause errors", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

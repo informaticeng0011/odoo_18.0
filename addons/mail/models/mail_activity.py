@@ -352,6 +352,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             documents = self.env[doc_model].browse(docid_actids)
             doc_operation = getattr(
                 documents, '_mail_post_access', 'read' if operation == 'read' else 'write'
@@ -359,6 +360,11 @@ class MailActivity(models.Model):
             if doc_result := documents._check_access(doc_operation):
                 for document in doc_result[0]:
                     forbidden_ids.extend(docid_actids[document.id])
+=======
+            allowed = self.env['mail.message']._filter_records_for_message_operation(doc_model, docid_actids, operation)
+            for document_id in [doc_id for doc_id in docid_actids if doc_id not in allowed.ids]:
+                forbidden_ids.extend(docid_actids[document_id])
+>>>>>>> upstream/18.0
 =======
             allowed = self.env['mail.message']._filter_records_for_message_operation(doc_model, docid_actids, operation)
             for document_id in [doc_id for doc_id in docid_actids if doc_id not in allowed.ids]:
@@ -994,6 +1000,7 @@ class MailActivity(models.Model):
 
         # subscribe (batch by model and user to speedup)
         for model, activity_data in activities._classify_by_model().items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2494,11 +2501,17 @@ class MailActivity(models.Model):
             for activity in activity_data['activities'].filtered(lambda act: act.user_id):
                 per_user[activity.user_id].add(activity.res_id)
 >>>>>>> upstream/18.0
+=======
+            per_user = defaultdict(set)
+            for activity in activity_data['activities'].filtered(lambda act: act.user_id):
+                per_user[activity.user_id].add(activity.res_id)
+>>>>>>> upstream/18.0
             for user, res_ids in per_user.items():
                 pids = user.partner_id.ids if user.partner_id in readable_user_partners else user.sudo().partner_id.ids
                 self.env[model].browse(res_ids).message_subscribe(partner_ids=pids)
 
         # send notifications about activity creation
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2775,6 +2788,8 @@ class MailActivity(models.Model):
             todo_activities.user_id._bus_send("mail.activity/updated", {"activity_deleted": True})
         return super(MailActivity, self).unlink()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3554,6 +3569,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4069,6 +4087,7 @@ class MailActivity(models.Model):
 
         allowed_ids = defaultdict(set)
         for res_model, res_ids in model_ids.items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5197,6 +5216,8 @@ class MailActivity(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             allowed = self.env['mail.message']._filter_records_for_message_operation(
                 res_model, res_ids, 'read',
             )
@@ -5292,6 +5313,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5615,8 +5639,11 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for activity in self:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5981,6 +6008,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6458,6 +6488,10 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            existing = records_sudo.exists()  # in case record was cascade-deleted in DB, skipping unlink override
+>>>>>>> upstream/18.0
 =======
             existing = records_sudo.exists()  # in case record was cascade-deleted in DB, skipping unlink override
 >>>>>>> upstream/18.0
@@ -6941,6 +6975,7 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 activity_message = record_sudo.message_post_with_source(
                     'mail.message_activity_done',
                     attachment_ids=attachment_ids,
@@ -6954,6 +6989,8 @@ class MailActivity(models.Model):
                     subtype_xmlid='mail.mt_activities',
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7324,6 +7361,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7688,7 +7728,11 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if activity_attachments[activity.id]:
+=======
+                if activity_attachments[activity.id] and activity_message:
+>>>>>>> upstream/18.0
 =======
                 if activity_attachments[activity.id] and activity_message:
 >>>>>>> upstream/18.0
@@ -8172,6 +8216,12 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # removing attachments linked to activity if record is missing
+                elif activity_attachments[activity.id]:
+                    self.env['ir.attachment'].browse(activity_attachments[activity.id]).unlink()
+>>>>>>> upstream/18.0
 =======
                 # removing attachments linked to activity if record is missing
                 elif activity_attachments[activity.id]:
@@ -9027,9 +9077,12 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Opens the related record based on the model and ID """
         self.ensure_one()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9765,6 +9818,9 @@ class MailActivity(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -68,7 +68,18 @@ export class TableOfContentPlugin extends Plugin {
 
     delayedUpdateTableOfContents(element) {
         const selector = HEADINGS.join(",");
+<<<<<<< HEAD
         if (!(!element || element.querySelector(selector) || element.closest(selector))) {
+=======
+        if (
+            !(
+                !element ||
+                this.manager.structure.headings.length ||
+                element.querySelector(selector) ||
+                element.closest(selector)
+            )
+        ) {
+>>>>>>> upstream/18.0
             return;
         }
         if (this.updateTimeout) {

@@ -274,12 +274,15 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     component_quantity = next(
                         (bml.product_qty for bml in move.product_id.bom_line_ids if bml in bom_lines),
                         1
                     )
                     value += component_quantity * move.product_id._compute_average_price(qty_invoiced * move.product_qty, qty_to_invoice * move.product_qty, move, is_returned=is_returned)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -908,6 +911,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1384,7 +1390,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return value
+=======
+        return bom.product_uom_id._compute_price(value / bom.product_qty, self.uom_id)
+>>>>>>> upstream/18.0
 =======
         return bom.product_uom_id._compute_price(value / bom.product_qty, self.uom_id)
 >>>>>>> upstream/18.0
@@ -1923,6 +1933,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_fifo_candidates_domain(self, company, lot=False):
         fifo_candidates_domain = super()._get_fifo_candidates_domain(company, lot=lot)
         if self in self.env.context.get('product_unbuild_map', ()):
@@ -1932,6 +1943,8 @@ class ProductProduct(models.Model):
             ])
         return fifo_candidates_domain
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

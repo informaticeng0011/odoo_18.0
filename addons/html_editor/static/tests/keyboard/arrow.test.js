@@ -157,7 +157,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should move past a zws (collapsed - ArrowRight)", async () => {
+=======
+    test("should move past a zws (collapsed - ArrowRight) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should move past a zws (collapsed - ArrowRight) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -739,6 +743,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should move past a zws (collapsed - ArrowRight) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -1611,7 +1621,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should move past a zws (collapsed - ArrowLeft)", async () => {
+=======
+    test("should move past a zws (collapsed - ArrowLeft) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should move past a zws (collapsed - ArrowLeft) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2193,7 +2207,10 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2627,6 +2644,9 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3063,7 +3083,10 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3497,6 +3520,9 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3935,7 +3961,10 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4369,6 +4398,9 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4809,7 +4841,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should move past a zws (collapsed at the end of a block)", async () => {
+=======
+    test("should move past a zws (collapsed at the end of a block) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should move past a zws (collapsed at the end of a block) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5391,6 +5427,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should move past a zws (collapsed at the end of a block) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -6260,6 +6302,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should move past a zws (collapsed at the end of a block) (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -7131,6 +7179,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should move past a zws (collapsed at the end of a block) (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -8004,7 +8058,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should select a zws", async () => {
+=======
+    test("should select a zws (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should select a zws (1)", async () => {
 >>>>>>> upstream/18.0
@@ -8586,11 +8644,14 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await testEditor({
             contentBefore: '<p>[ab<span class="a">]\u200B</span>cd</p>',
             stepFunction: keyPress(["Shift", "ArrowRight"]),
             contentAfter: '<p>[ab<span class="a">\u200B</span>c]d</p>',
         });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9027,7 +9088,10 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9465,6 +9529,9 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9900,6 +9967,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -10769,6 +10842,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws (5)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -11642,7 +11721,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should select a zws (3)", async () => {
+=======
+    test("should select a zws (6)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should select a zws (6)", async () => {
 >>>>>>> upstream/18.0
@@ -12224,6 +12307,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws (7)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -13095,7 +13184,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should select a zws backwards (ArrowLeft)", async () => {
+=======
+    test("should select a zws backwards (ArrowLeft) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should select a zws backwards (ArrowLeft) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -13677,6 +13770,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws backwards (ArrowLeft) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -14548,7 +14647,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should select a zws backwards (ArrowLeft - 2)", async () => {
+=======
+    test("should select a zws backwards (ArrowLeft) (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should select a zws backwards (ArrowLeft) (3)", async () => {
 >>>>>>> upstream/18.0
@@ -15130,6 +15233,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws backwards (ArrowLeft) (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -16001,7 +16110,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should select a zws backwards (ArrowLeft - 3)", async () => {
+=======
+    test("should select a zws backwards (ArrowLeft) (5)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should select a zws backwards (ArrowLeft) (5)", async () => {
 >>>>>>> upstream/18.0
@@ -16583,6 +16696,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws backwards (ArrowLeft) (6)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -17454,7 +17573,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should select a zws backwards (ArrowRight)", async () => {
+=======
+    test("should select a zws backwards (ArrowRight) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should select a zws backwards (ArrowRight) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -18036,6 +18159,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws backwards (ArrowRight) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -18905,6 +19034,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws backwards (ArrowRight) (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -19774,6 +19909,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws backwards (ArrowRight) (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -20645,7 +20786,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should select a zws backwards (ArrowRight - 2)", async () => {
+=======
+    test("should select a zws backwards (ArrowRight) (5)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should select a zws backwards (ArrowRight) (5)", async () => {
 >>>>>>> upstream/18.0
@@ -21227,6 +21372,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should select a zws backwards (ArrowRight) (6)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -22098,7 +22249,11 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should deselect a zws", async () => {
+=======
+    test("should deselect a zws (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should deselect a zws (1)", async () => {
 >>>>>>> upstream/18.0
@@ -22680,6 +22835,7 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await testEditor({
             contentBefore: '<p>ab<span class="a">[\u200B</span>]cd</p>',
             stepFunction: keyPress(["Shift", "ArrowLeft"]),
@@ -22695,6 +22851,8 @@ describe("Around ZWS", () => {
             stepFunction: keyPress(["Shift", "ArrowLeft"]),
             contentAfter: '<p>a]b[<span class="a">\u200B</span>cd</p>', // Normalized by the browser
         });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23131,7 +23289,10 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23585,6 +23746,9 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24020,6 +24184,12 @@ describe("Around ZWS", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should deselect a zws (6)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -25007,7 +25177,11 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should correctly move cursor over icons (ArrowRight)", async () => {
+=======
+    test("should correctly move cursor over icons (ArrowRight) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should correctly move cursor over icons (ArrowRight) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -25591,6 +25765,12 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should correctly move cursor over icons (ArrowRight) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -26462,6 +26642,12 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should correctly move cursor over icons (ArrowRight) (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -27334,7 +27520,11 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should correctly move cursor over icons (ArrowLeft)", async () => {
+=======
+    test("should correctly move cursor over icons (ArrowLeft) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should correctly move cursor over icons (ArrowLeft) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -27918,6 +28108,12 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should correctly move cursor over icons (ArrowLeft) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -28790,7 +28986,11 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should correctly move cursor over icons (ArrowUp)", async () => {
+=======
+    test("should correctly move cursor over icons (ArrowUp) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should correctly move cursor over icons (ArrowUp) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -29374,6 +29574,12 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should correctly move cursor over icons (ArrowUp) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -30246,7 +30452,11 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should correctly move cursor over icons (ArrowDown)", async () => {
+=======
+    test("should correctly move cursor over icons (ArrowDown) (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should correctly move cursor over icons (ArrowDown) (1)", async () => {
 >>>>>>> upstream/18.0
@@ -30830,6 +31040,12 @@ describe("Around icons", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should correctly move cursor over icons (ArrowDown) (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

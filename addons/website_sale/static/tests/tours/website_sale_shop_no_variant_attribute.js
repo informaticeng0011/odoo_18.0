@@ -195,6 +195,7 @@ registry.category("web_tour.tours").add('tour_shop_no_variant_attribute', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         trigger: ".oe_product_cart a:contains(/^Test Product 3$/)",
         run: "click",
 <<<<<<< HEAD
@@ -491,6 +492,11 @@ registry.category("web_tour.tours").add('tour_shop_no_variant_attribute', {
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
+=======
+        trigger: ".oe_product_cart a:text(Test Product 3)",
+        run: "click",
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
 =======

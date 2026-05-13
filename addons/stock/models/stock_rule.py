@@ -287,7 +287,11 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         domain="[('id', '=?', route_company_id)]")
+=======
+        domain="[('id', '=?', route_company_id)]", index=True)
+>>>>>>> upstream/18.0
 =======
         domain="[('id', '=?', route_company_id)]", index=True)
 >>>>>>> upstream/18.0
@@ -1360,7 +1364,10 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2097,6 +2104,9 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2835,7 +2845,11 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_date = fields.Datetime.to_string(move.date + relativedelta(days=self.delay))
+=======
+        new_date = self._get_push_new_date(move)
+>>>>>>> upstream/18.0
 =======
         new_date = self._get_push_new_date(move)
 >>>>>>> upstream/18.0
@@ -3915,6 +3929,7 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         final_location_id = False
         if move_to_copy.location_final_id and not move_to_copy.location_dest_id._child_of(move_to_copy.location_final_id):
@@ -4986,6 +5001,8 @@ class StockRule(models.Model):
             final_location_id = move_to_copy.location_final_id.id
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5319,6 +5336,9 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5546,6 +5566,7 @@ class StockRule(models.Model):
             'product_uom_qty': copied_quantity,
             'origin': move_to_copy.origin or move_to_copy.picking_id.name or "/",
             'location_id': move_to_copy.location_dest_id.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6954,6 +6975,10 @@ class StockRule(models.Model):
             'location_dest_id': location_dest_id,
             'location_final_id': final_location_id,
 >>>>>>> upstream/18.0
+=======
+            'location_dest_id': location_dest_id,
+            'location_final_id': final_location_id,
+>>>>>>> upstream/18.0
             'rule_id': self.id,
             'date': new_date,
             'date_deadline': move_to_copy.date_deadline,
@@ -7189,7 +7214,11 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'warehouse_id': self.warehouse_id.id,
+=======
+            'warehouse_id': self.warehouse_id.id or move_to_copy.location_dest_id.warehouse_id.id,
+>>>>>>> upstream/18.0
 =======
             'warehouse_id': self.warehouse_id.id or move_to_copy.location_dest_id.warehouse_id.id,
 >>>>>>> upstream/18.0
@@ -8511,7 +8540,11 @@ class ProcurementGroup(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.env.user.has_group('base.group_multi_company') and locations.filtered(lambda location: location.usage == 'transit'):
+=======
+        if locations.filtered(lambda location: location.usage == 'transit'):
+>>>>>>> upstream/18.0
 =======
         if locations.filtered(lambda location: location.usage == 'transit'):
 >>>>>>> upstream/18.0

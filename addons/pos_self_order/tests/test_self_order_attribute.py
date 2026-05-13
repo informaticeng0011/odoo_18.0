@@ -312,7 +312,11 @@ class TestSelfOrderAttribute(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product.attribute_line_ids[0].product_template_value_ids[0].price_extra = 0.0
+=======
+        product.attribute_line_ids[0].product_template_value_ids[0].price_extra = 0.25
+>>>>>>> upstream/18.0
 =======
         product.attribute_line_ids[0].product_template_value_ids[0].price_extra = 0.25
 >>>>>>> upstream/18.0
@@ -1293,7 +1297,10 @@ class TestSelfOrderAttribute(SelfOrderCommonTest):
         self.assertEqual(order.lines[1].product_id.id, chair_product_tmpl.product_variant_ids[1].id)
         self.assertEqual(order.lines[1].price_unit, 15.0)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         # test for kiosk
         self.pos_config.self_ordering_mode = "kiosk"
         custom_attribute = self.env['product.attribute'].create({
@@ -1309,6 +1316,9 @@ class TestSelfOrderAttribute(SelfOrderCommonTest):
             })]
         })
         self.start_tour(self_route, "selfAlwaysAttributeVariantsKiosk")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_self_order_product_info(self):

@@ -318,6 +318,11 @@ export class ActivityButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.defaultActivityStateClass = "text-muted";
+        this.defaultActivityDecorationClass = "fa-clock-o btn-link text-dark";
+>>>>>>> upstream/18.0
 =======
         this.defaultActivityStateClass = "text-muted";
         this.defaultActivityDecorationClass = "fa-clock-o btn-link text-dark";
@@ -1843,7 +1848,13 @@ export class ActivityButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 classes.push("text-muted");
+=======
+                if (this.defaultActivityStateClass) {
+                    classes.push(this.activityStateClass);
+                }
+>>>>>>> upstream/18.0
 =======
                 if (this.defaultActivityStateClass) {
                     classes.push(this.activityStateClass);
@@ -3673,7 +3684,11 @@ export class ActivityButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 classes.push("fa-clock-o btn-link text-dark");
+=======
+                classes.push(this.defaultActivityDecorationClass);
+>>>>>>> upstream/18.0
 =======
                 classes.push(this.defaultActivityDecorationClass);
 >>>>>>> upstream/18.0
@@ -4890,6 +4905,10 @@ export class ActivityButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    this.onActivityChanged();
+>>>>>>> upstream/18.0
 =======
                     this.onActivityChanged();
 >>>>>>> upstream/18.0
@@ -6002,6 +6021,12 @@ export class ActivityButton extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    /** Add custom behavior on activity changed */
+    onActivityChanged() {}
+>>>>>>> upstream/18.0
 =======
 
     /** Add custom behavior on activity changed */

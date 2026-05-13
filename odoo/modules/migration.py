@@ -167,11 +167,14 @@ class MigrationManager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stageformat = {
             'pre': '[>%s]',
             'post': '[%s>]',
             'end': '[$%s]',
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -224,6 +227,7 @@ class MigrationManager(object):
 
         def _get_migration_versions(pkg, stage):
             versions = sorted({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -981,6 +985,9 @@ class MigrationManager(object):
 =======
                 ver: None
 >>>>>>> upstream/18.0
+=======
+                ver: None
+>>>>>>> upstream/18.0
                 for lv in self.migrations[pkg.name].values()
                 for ver, lf in lv.items()
                 if lf
@@ -1051,7 +1058,12 @@ class MigrationManager(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     exec_script(self.cr, installed_version, pyfile, pkg.name, stage, stageformat[stage] % version)
+=======
+                    exec_script(self.cr, installed_version, pyfile, pkg.name, stage, version)
+
+>>>>>>> upstream/18.0
 =======
                     exec_script(self.cr, installed_version, pyfile, pkg.name, stage, version)
 
@@ -1156,7 +1168,10 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1216,6 +1231,9 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1257,6 +1275,7 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
     if ext.lower() != '.py':
         return
     try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1323,6 +1342,8 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         mod = load_script(pyfile, f"odoo.upgrade.{addon}.{version}.{name}")
     except ImportError as e:
         raise ImportError('module %(addon)s: Unable to load %(stage)s-upgrade file %(pyfile)s' % locals()) from e
@@ -1349,6 +1370,9 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1417,7 +1441,11 @@ def exec_script(cr, installed_version, pyfile, addon, stage, version=None):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _logger.info('module %(addon)s: Running migration %(version)s %(name)s' % dict(locals(), name=mod.__name__))  # noqa: G002
+=======
+    _logger.info('module %(addon)s: Running upgrade %(fmt_version)s %(name)s', locals())
+>>>>>>> upstream/18.0
 =======
     _logger.info('module %(addon)s: Running upgrade %(fmt_version)s %(name)s', locals())
 >>>>>>> upstream/18.0

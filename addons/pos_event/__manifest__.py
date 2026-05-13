@@ -23,10 +23,13 @@
             'pos_event/static/src/**/*',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
           'web.assets_tests': [
             'pos_event/static/tests/tours/**/*',
         ],
 =======
+=======
+>>>>>>> upstream/18.0
          'web.assets_tests': [
             'pos_event/static/tests/tours/**/*',
         ],
@@ -37,6 +40,9 @@
             'pos_event/static/src/app/models/data_service_options.js',
             'pos_event/static/tests/unit/**/*',
         ],
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     },
     'license': 'LGPL-3',

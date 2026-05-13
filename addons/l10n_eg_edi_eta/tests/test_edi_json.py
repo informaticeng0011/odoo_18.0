@@ -605,6 +605,15 @@ class TestEdiJson(TestEGEdiCommon):
                 currency_id=self.currency_aed_id.id,
                 partner_id=self.partner_b.id,
                 invoice_line_ids=[
+<<<<<<< HEAD
+=======
+                    # Non-product lines (e.g., sections) must be removed when sending to ETA.
+                    # This also verifies that currency rates are calculated based on the first product line.
+                    {
+                        'name': 'Section line',
+                        'display_type': 'line_section',
+                    },
+>>>>>>> upstream/18.0
                     {
                         'product_id': self.product_a.id,
                         'price_unit': 120.99,

@@ -9,6 +9,10 @@ from odoo.exceptions import ValidationError, UserError
 from datetime import date
 
 from collections import defaultdict
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 
 @tagged('post_install', '-at_install')
 class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
@@ -952,6 +956,7 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
             'amount_total': 1127.95,
         })
 
+<<<<<<< HEAD
     def test_in_invoice_line_onchange_currency_1(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1858,6 +1863,46 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
         self.other_currency.rounding = 0.001
 
 >>>>>>> upstream/18.0
+=======
+    def test_biggest_tax_rounding_with_invoice_address(self):
+        """
+        Test that we can post an invoice with partner_id != commercial_partner_id
+        and a cash rounding with the 'biggest tax' strategy
+        """
+        original_write = self.env.registry['account.move.line'].write
+
+        def _patch_write(self, vals):
+            # Some extension of the write method call the super() before using self
+            # In our case, the rounding line was deleted during the sync_tax_lines process
+            # leading to a MissingError
+            res = original_write(self, vals)
+            self.filtered(lambda line: line.move_id.move_type == 'in_invoice')
+            return res
+
+        self.env['res.config.settings'].write({'group_sale_delivery_address': True})
+
+        invoice_address = self.env['res.partner'].create({
+            'name': 'test invoice address',
+            'type': 'invoice',
+            'parent_id': self.partner_a.id,
+        })
+
+        invoice = self._create_invoice(
+            move_type='in_invoice',
+            partner_id=invoice_address,
+            invoice_cash_rounding_id=self.cash_rounding_b,
+            invoice_line_ids=[
+                self._prepare_invoice_line(price_unit=100.03, tax_ids=self.company_data['default_tax_sale'])
+            ]
+        )
+
+        with patch.object(self.env.registry['account.move.line'], 'write', _patch_write):
+            invoice.action_post()
+
+    def test_in_invoice_line_onchange_currency_1(self):
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
         move_form = Form(self.invoice)
         move_form.currency_id = self.other_currency
         move_form.save()
@@ -2061,7 +2106,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
+=======
+                'price_unit': 0.045,
+>>>>>>> upstream/18.0
 =======
                 'price_unit': 0.045,
 >>>>>>> upstream/18.0
@@ -2542,12 +2591,15 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
                 'price_subtotal': 0.01,
                 'price_total': 0.01,
                 'amount_currency': 0.01,
                 'debit': 0.01,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2874,6 +2926,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3207,8 +3262,13 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_currency': -208.01,
                 'credit': 208.01,
+=======
+                'amount_currency': -208.0,
+                'credit': 208.0,
+>>>>>>> upstream/18.0
 =======
                 'amount_currency': -208.0,
                 'credit': 208.0,
@@ -3755,9 +3815,15 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 160.01,
             'amount_tax': 48.0,
             'amount_total': 208.01,
+=======
+            'amount_untaxed': 160.0,
+            'amount_tax': 48.0,
+            'amount_total': 208.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 160.0,
             'amount_tax': 48.0,
@@ -4417,6 +4483,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -4824,7 +4894,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': False,
+=======
+                'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
+>>>>>>> upstream/18.0
 =======
                 'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
 >>>>>>> upstream/18.0
@@ -5342,7 +5416,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': False,
+=======
+                'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
+>>>>>>> upstream/18.0
 =======
                 'name': 'Reversal of: %s, %s' % (self.invoice.name, move_reversal.reason),
 >>>>>>> upstream/18.0
@@ -6349,7 +6427,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6943,6 +7024,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7913,6 +7997,7 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def create_statement_line(move, amount):
             statement_line = self.env['account.bank.statement.line'].create({
                 'payment_ref': 'ref',
@@ -7929,6 +8014,8 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
             (st_suspense_lines + line).reconcile()
             assert_partial(st_suspense_lines, line)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8285,7 +8372,12 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 create_statement_line(move, counterpart_amount)
+=======
+                reconciliation_info = self.pay_with_statement_line(move, self.company_data['default_journal_bank'].id, '2020-01-10', counterpart_amount)
+                assert_partial(reconciliation_info['statement_line_reconciled'], reconciliation_info['move_reconciled'])
+>>>>>>> upstream/18.0
 =======
                 reconciliation_info = self.pay_with_statement_line(move, self.company_data['default_journal_bank'].id, '2020-01-10', counterpart_amount)
                 assert_partial(reconciliation_info['statement_line_reconciled'], reconciliation_info['move_reconciled'])
@@ -9025,6 +9117,7 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_onchange_payment_reference(self):
         """
         Ensure payment reference propagation from move to payment term
@@ -9347,6 +9440,8 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_onchange_ref(self):
         """
         Ensure that updating the ref field updates the payment term line name when payment reference is empty.
@@ -9452,6 +9547,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9984,7 +10082,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10460,6 +10561,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10812,7 +10916,10 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10874,7 +10981,11 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertIn(self.invoice.id, get_ids('in_payment'))
+=======
+        self.assertIn(self.invoice.id, get_ids(self.invoice._get_invoice_in_payment_state()))
+>>>>>>> upstream/18.0
 =======
         self.assertIn(self.invoice.id, get_ids(self.invoice._get_invoice_in_payment_state()))
 >>>>>>> upstream/18.0
@@ -10918,6 +11029,9 @@ class TestAccountMoveInInvoiceOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

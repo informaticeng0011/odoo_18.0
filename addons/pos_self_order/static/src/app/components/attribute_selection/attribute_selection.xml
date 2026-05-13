@@ -5,7 +5,11 @@
             <div class="attribute-selection-content align-items-center justify-content-start px-3 flex-grow-1">
                 <div class="d-flex flex-column">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <div t-foreach="props.product.attribute_line_ids" t-as="attribute" t-key="attribute.id" class="attribute-row">
+=======
+                    <div t-foreach="attributesToDisplay" t-as="attribute" t-key="attribute.id" class="attribute-row">
+>>>>>>> upstream/18.0
 =======
                     <div t-foreach="attributesToDisplay" t-as="attribute" t-key="attribute.id" class="attribute-row">
 >>>>>>> upstream/18.0

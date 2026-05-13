@@ -212,6 +212,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
@@ -646,6 +647,8 @@ from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import Command
@@ -866,6 +869,9 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1629,7 +1635,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2640,6 +2649,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3868,7 +3880,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4551,6 +4566,9 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5357,7 +5375,10 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6497,6 +6518,7 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7157,4 +7179,31 @@ class TestProgramWithCodeOperations(TestSaleCouponCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_re_apply_not_claimed_coupon_code(self):
+        promo_code_program = self.env["loyalty.program"].create({
+            "name": "promo code program",
+            "program_type": "promo_code",
+            "applies_on": "current",
+            "trigger": "with_code",
+            "rule_ids": [Command.create({"mode": "with_code", "code": "10%_discount"})],
+            "reward_ids": [Command.create({"reward_type": "discount", "discount": 10})],
+        })
+        order = self.empty_order
+        order.write({"order_line": [Command.create({"product_id": self.product_A.id})]})
+        coupon_wizard = self.env["sale.loyalty.coupon.wizard"].create({
+            "order_id": order.id,
+            "coupon_code": "10%_discount",
+        })
+        reward_wizard_action = coupon_wizard.action_apply()
+        self.assertIn(
+            promo_code_program.reward_ids.id, reward_wizard_action["context"]["default_reward_ids"]
+        )
+        # retry the same code, should work since the reward is not claimed but discarded
+        reward_wizard_action = coupon_wizard.action_apply()
+        self.assertIn(
+            promo_code_program.reward_ids.id, reward_wizard_action["context"]["default_reward_ids"]
+        )
 >>>>>>> upstream/18.0

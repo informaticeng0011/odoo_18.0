@@ -129,6 +129,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                getRecordsBasedOnLines: (orderlines) => {
+                    return orderlines.map((line) => line.coupon_id).filter((c) => c);
+                },
+>>>>>>> upstream/18.0
 =======
                 getRecordsBasedOnLines: (orderlines) => {
                     return orderlines.map((line) => line.coupon_id).filter((c) => c);

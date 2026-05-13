@@ -171,6 +171,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1145,11 +1146,16 @@
 # * mass_mailing_sms
 #
 >>>>>>> upstream/18.0
+=======
+# * mass_mailing_sms
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Mads Søndergaard, 2024
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Martin Trigaux, 2025
 # Sanne Kristensen <sanne@vkdata.dk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2366,10 +2372,15 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3754,6 +3765,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-05-02 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -3768,6 +3781,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3791,6 +3807,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4861,6 +4878,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-javascript
@@ -4876,7 +4897,11 @@ msgid " (including link trackers and opt-out link)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (inklusive linktrackere og frameldelseslink)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (inklusive linktrackere og frameldelseslink)"
 >>>>>>> upstream/18.0
@@ -4922,7 +4947,11 @@ msgid " (including link trackers)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (inklusive linktrackere)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (inklusive linktrackere)"
 >>>>>>> upstream/18.0
@@ -4958,6 +4987,7 @@ msgstr " (inklusive linktrackere)"
 #. odoo-javascript
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including opt-out link)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5093,6 +5123,11 @@ msgstr " (inklusive frameldingslink)"
 
 #. module: mass_mailing_sms
 >>>>>>> upstream/18.0
+=======
+msgstr " (inklusive frameldingslink)"
+
+#. module: mass_mailing_sms
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "24H Stats of %(mailing_type)s \"%(mailing_name)s\""
@@ -5116,7 +5151,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5148,6 +5186,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5184,6 +5225,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS-"
+"beskeden er blevet annulleret og vil ikke blive sendt.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS-"
 "beskeden er blevet annulleret og vil ikke blive sendt.</span>"
@@ -5241,6 +5287,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS-"
+"beskeder kunne ikke leveres.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">SMS-"
 "beskeder kunne ikke leveres.</span>"
@@ -5298,6 +5349,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">Denne "
+"SMS-markedsføring er planlagt til </span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">Denne "
 "SMS-markedsføring er planlagt til </span>"
@@ -5342,6 +5398,7 @@ msgstr ""
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6539,6 +6596,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">SMS Text "
 "Messages are being processed.</span>"
 msgstr ""
@@ -6553,6 +6612,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6589,6 +6651,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"scheduled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS-"
+"beskeder er i kø og vil blive sendt snart.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"scheduled_text_sms\" invisible=\"mailing_type != 'sms'\">SMS-"
 "beskeder er i kø og vil blive sendt snart.</span>"
@@ -6646,6 +6713,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">>SMS Tekst "
+"Besked er afsendt.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">>SMS Tekst "
 "Besked er afsendt.</span>"
@@ -6701,6 +6773,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
 "<strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7434,6 +7507,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            It appears you don't have enough IAP credits. "
 "Click here to buy credits.\n"
 "                        </strong>"
@@ -7683,6 +7758,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8417,12 +8495,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            It appears your SMS account is not registered. Click here to set up your account.\n"
 "                        </strong>"
 msgstr ""
 "<strong>\n"
 "                            Det ser ud til at din SMS konto ikke er registreret. Klik her for at opsætte din konto.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9156,6 +9237,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9656,7 +9740,11 @@ msgid "<strong>This SMS could not be delivered.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Denne SMS kunne ikke leveres.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Denne SMS kunne ikke leveres.</strong>"
 >>>>>>> upstream/18.0
@@ -9718,7 +9806,11 @@ msgid "A/B Test Mailings SMS #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A/B-testforsendelse af SMS #"
+>>>>>>> upstream/18.0
 =======
 msgstr "A/B-testforsendelse af SMS #"
 >>>>>>> upstream/18.0
@@ -9762,6 +9854,7 @@ msgid "Action Needed"
 msgstr "Handling påkrævet"
 
 #. module: mass_mailing_sms
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10357,6 +10450,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10873,6 +10968,9 @@ msgstr "Der opstod en fejl."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11460,6 +11558,7 @@ msgstr "Antal vedhæftninger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -12639,6 +12738,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_authentication
 msgid "Authentication Error\""
 msgstr "Autentificeringsfejl\""
@@ -12653,6 +12754,9 @@ msgstr "Autentificeringsfejl\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12706,6 +12810,9 @@ msgstr "Gennemsnit af ikke leverbare"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12803,7 +12910,11 @@ msgid "Average of Clicked"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gennemsnit af klik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gennemsnit af klik"
 >>>>>>> upstream/18.0
@@ -12912,7 +13023,11 @@ msgid "BOUNCED (%i)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IKKE LEVERET (%i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "IKKE LEVERET (%i)"
 >>>>>>> upstream/18.0
@@ -12951,6 +13066,7 @@ msgid ""
 "Blacklist through SMS Marketing unsubscribe (mailing ID: %(mailing_id)s - "
 "model: %(model)s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14168,6 +14284,10 @@ msgstr ""
 "Blokér via SMS Marketing framelding (mailing ID: %(mailing_id)s - model: %"
 "(model)s)"
 >>>>>>> upstream/18.0
+=======
+"Blokér via SMS Marketing framelding (mailing ID: %(mailing_id)s - model: %"
+"(model)s)"
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_blacklist
@@ -14209,7 +14329,11 @@ msgid "CLICKED (%i)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KLIKKET (%i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "KLIKKET (%i)"
 >>>>>>> upstream/18.0
@@ -14322,7 +14446,11 @@ msgid "Carriage-return-separated list of phone numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Liste over telefonnumre, adskilt af linjeskift"
+>>>>>>> upstream/18.0
 =======
 msgstr "Liste over telefonnumre, adskilt af linjeskift"
 >>>>>>> upstream/18.0
@@ -14548,6 +14676,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kom tilbage, når der er sendt SMS-beskeder, for at se de samlede resultater."
+>>>>>>> upstream/18.0
 =======
 "Kom tilbage, når der er sendt SMS-beskeder, for at se de samlede resultater."
 >>>>>>> upstream/18.0
@@ -14597,7 +14729,11 @@ msgid "Country Not Supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Land understøttes ikke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Land understøttes ikke"
 >>>>>>> upstream/18.0
@@ -14642,7 +14778,11 @@ msgid "Country-specific Registration Required"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Landespecifik registrering påkrævet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Landespecifik registrering påkrævet"
 >>>>>>> upstream/18.0
@@ -14692,7 +14832,11 @@ msgid "Create a SMS Marketing Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret en SMS-marketingkampagne"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret en SMS-marketingkampagne"
 >>>>>>> upstream/18.0
@@ -15031,8 +15175,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Felt brugt til at lagre rensede telefonnumre. Hjælper med at øge hastigheden"
 " på søgninger og sammenligninger."
+=======
+"Felt brugt til at lagre rensede telefonnumre. Hjælper med at øge hastigheden "
+"på søgninger og sammenligninger."
+>>>>>>> upstream/18.0
 =======
 "Felt brugt til at lagre rensede telefonnumre. Hjælper med at øge hastigheden "
 "på søgninger og sammenligninger."
@@ -16276,6 +16425,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -17452,6 +17602,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_to
 msgid "From / To identic"
 msgstr "Fra/til identisk"
@@ -17466,6 +17618,9 @@ msgstr "Fra/til identisk"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17756,8 +17911,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -18980,6 +19140,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
 =======
@@ -19701,6 +19862,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Immediately send the SMS Mailing instead of queuing up. Use at your own risk."
 msgstr ""
 "Send SMS-beskeden med det samme i stedet for at sætte den i kø. Brug på eget "
@@ -19714,6 +19877,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19982,6 +20148,7 @@ msgstr "Inkluder frameld link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -21140,6 +21307,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21172,6 +21341,9 @@ msgstr "Ugyldig callback-URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21197,6 +21369,7 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22658,6 +22831,11 @@ msgstr ""
 "at kende forskel på hvilket nummer er blokeret      når der er både en mobil "
 "og telefon felt i en model. "
 >>>>>>> upstream/18.0
+=======
+"Indikere om et blokeret renset telefonnummer er et mobil nummer. Hjælper med "
+"at kende forskel på hvilket nummer er blokeret      når der er både en mobil "
+"og telefon felt i en model. "
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__phone_blacklisted
@@ -22695,7 +22873,11 @@ msgid "Invalid Destination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugyldig destination"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugyldig destination"
 >>>>>>> upstream/18.0
@@ -22782,7 +22964,11 @@ msgid "Link SMS to mailing/sms tracking models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forbind SMS med modeller til sporing af e-mails og SMS’er"
+>>>>>>> upstream/18.0
 =======
 msgstr "Forbind SMS med modeller til sporing af e-mails og SMS’er"
 >>>>>>> upstream/18.0
@@ -22930,7 +23116,11 @@ msgid "Mailing Trace"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mailsporing"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mailsporing"
 >>>>>>> upstream/18.0
@@ -22983,6 +23173,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"E-mailkontakter gør det muligt at adskille dit marketingpublikum fra dine "
+"kontakter."
+>>>>>>> upstream/18.0
 =======
 "E-mailkontakter gør det muligt at adskille dit marketingpublikum fra dine "
 "kontakter."
@@ -23297,6 +23492,7 @@ msgstr "Beskeder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -24473,6 +24669,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_missing
 msgid "Missing From Number"
 msgstr "Mangler fra nummer"
@@ -24487,6 +24685,9 @@ msgstr "Mangler fra nummer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24528,6 +24729,7 @@ msgstr "Ingen data endnu!"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25725,6 +25927,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "No need to import mailing lists, you can send SMS to contacts saved in other "
 "Odoo apps."
 msgstr ""
@@ -25739,6 +25943,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26010,7 +26217,11 @@ msgid "Not Delivered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikke leveret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikke leveret"
 >>>>>>> upstream/18.0
@@ -26786,6 +26997,7 @@ msgstr "Nummer(e)"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27983,6 +28195,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Once you send these text messages, they'll be making a grand entrance in all "
 "pockets, creating quite the bzzzzz!"
 msgstr ""
@@ -27997,6 +28211,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28214,6 +28431,7 @@ msgstr "Bedømmelser"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -28935,6 +29153,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Ready to unleash your text messages?"
 msgstr "Er du klar til at sende dine SMS’er afsted?"
@@ -28949,6 +29169,9 @@ msgstr "Er du klar til at sende dine SMS’er afsted?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28992,7 +29215,11 @@ msgid "Report for %(expected)i %(mailing_type)s Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapport for %(expected)i %(mailing_type)s sendt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rapport for %(expected)i %(mailing_type)s sendt"
 >>>>>>> upstream/18.0
@@ -29056,7 +29283,11 @@ msgid "SMS Contacts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS-kontakter"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS-kontakter"
 >>>>>>> upstream/18.0
@@ -29160,7 +29391,11 @@ msgid "SMS Trackers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS-trackere"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS-trackere"
 >>>>>>> upstream/18.0
@@ -29234,7 +29469,11 @@ msgid "SMS Winner Selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udvælgelse af SMS-vindere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Udvælgelse af SMS-vindere"
 >>>>>>> upstream/18.0
@@ -29400,6 +29639,7 @@ msgstr "Send en sms-prøve"
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send a sample SMS for testing purpose to the numbers below."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30328,6 +30568,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Send en test-SMS til nedenstående numre."
+
+#. module: mass_mailing_sms
 >>>>>>> upstream/18.0
 =======
 msgstr "Send en test-SMS til nedenstående numre."
@@ -30554,6 +30799,9 @@ msgstr "Send til alle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30924,6 +31172,7 @@ msgstr "Test SMS mailing"
 #. module: mass_mailing_sms
 #. odoo-python
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32141,6 +32390,10 @@ msgstr ""
 msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #. odoo-python
@@ -32165,6 +32418,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"UTM-mediet '%s' kan ikke slettes, da det anvendes i centrale funktioner, "
+"såsom SMS-marketing."
+>>>>>>> upstream/18.0
 =======
 "UTM-mediet '%s' kan ikke slettes, da det anvendes i centrale funktioner, "
 "såsom SMS-marketing."
@@ -32308,6 +32566,7 @@ msgstr "Valg af vinder"
 #. module: mass_mailing_sms
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33272,6 +33531,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Write an appealing SMS Text Message, define recipients and track its results."
 msgstr ""
 "Skriv en tiltalende SMS-besked, vælg dine modtagere og følg resultaterne i "
@@ -33285,6 +33546,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33567,6 +33831,7 @@ msgstr "er blevet fjernet fra"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 #~ msgid "Test SMS could not be sent to %(destination)s: %(state)s"
@@ -34628,6 +34893,8 @@ msgstr "er blevet fjernet fra"
 #~ msgstr "Test SMS kunne ikke sendes til %(destination)s: %(state)s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34728,6 +34995,9 @@ msgstr "er blevet fjernet fra"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

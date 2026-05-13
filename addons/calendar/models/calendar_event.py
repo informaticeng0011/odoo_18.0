@@ -353,7 +353,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partners |= self.env['res.partner'].browse(active_id)
+=======
+            partners |= self.env['res.partner'].browse(active_id)
+>>>>>>> upstream/18.0
 =======
             partners |= self.env['res.partner'].browse(active_id)
 >>>>>>> upstream/18.0
@@ -1502,8 +1506,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [("id", operator, value)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2236,6 +2243,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3243,6 +3253,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         defaults = self.env['calendar.event'].default_get(['activity_ids', 'res_model_id', 'res_id', 'user_id', 'res_model', 'partner_ids'])
 
         vals_list = [  # Else bug with quick_create when we are filter on an other user
@@ -3269,6 +3280,9 @@ class Meeting(models.Model):
 =======
 >>>>>>> upstream/18.0
         defaults = self.default_get([
+=======
+        defaults = self.browse().default_get([
+>>>>>>> upstream/18.0
 =======
         defaults = self.browse().default_get([
 >>>>>>> upstream/18.0
@@ -4252,7 +4266,12 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'res_id': vals.get('res_id', defaults.get('res_id')),
+=======
+                # when res_id is not defined or vals['res_id'] == 0, fallback on default
+                'res_id': vals.get('res_id') or defaults.get('res_id'),
+>>>>>>> upstream/18.0
 =======
                 # when res_id is not defined or vals['res_id'] == 0, fallback on default
                 'res_id': vals.get('res_id') or defaults.get('res_id'),
@@ -5488,6 +5507,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6238,6 +6260,7 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 meeting_activity_type = orig_activity_ids.activity_type_id
 
         if meeting_activity_type and (not defaults.get('activity_ids') or existing_event):
@@ -6261,6 +6284,8 @@ class Meeting(models.Model):
                     activity_vals['user_id'] = user_id
                 values['activity_ids'] = [(0, 0, activity_vals)]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7042,6 +7067,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7818,8 +7846,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         events._sync_activities(fields={f for vals in vals_list for f in vals.keys()})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8573,6 +8604,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9210,9 +9244,12 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # we send to all partners and not only the new ones
             (current_attendees - previous_attendees)._send_mail_to_attendees(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9258,6 +9295,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9390,6 +9430,7 @@ class Meeting(models.Model):
     @api.model
     def _get_mail_message_access(self, res_ids, operation, model_name=None):
         if operation == 'read' and (not model_name or model_name == 'event.event'):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9759,6 +9800,9 @@ class Meeting(models.Model):
 =======
             for event in self.browse(res_ids).with_prefetch(self._prefetch_ids):  # force prefetch, lost otherwise with rebrowsing
 >>>>>>> upstream/18.0
+=======
+            for event in self.browse(res_ids).with_prefetch(self._prefetch_ids):  # force prefetch, lost otherwise with rebrowsing
+>>>>>>> upstream/18.0
                 if event.privacy == "private" and self.env.user.partner_id not in event.attendee_ids.partner_id:
                     return 'write'
         return super()._get_mail_message_access(res_ids, operation, model_name=model_name)
@@ -9827,6 +9871,7 @@ class Meeting(models.Model):
         return videocall_channel
 
     def _get_default_privacy_domain(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10637,6 +10682,8 @@ class Meeting(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # search user settings from calendars that are not private ('public' and 'confidential').
         public_users_settings_ids = self.env['res.users.settings'].sudo().search(
             [('calendar_default_privacy', '!=', 'private')]).ids
@@ -10892,6 +10939,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11653,6 +11703,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12338,6 +12391,7 @@ class Meeting(models.Model):
                 if 'description' in fields:
                     activity_values['note'] = event.description
                 if 'start' in fields:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13343,6 +13397,9 @@ class Meeting(models.Model):
 =======
                     activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
 >>>>>>> upstream/18.0
+=======
+                    activity_values['date_deadline'] = self._get_activity_deadline_from_start(event.start, event.allday)
+>>>>>>> upstream/18.0
                 if 'user_id' in fields:
                     activity_values['user_id'] = event.user_id.id
                 if activity_values.keys():
@@ -13597,7 +13654,10 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14354,6 +14414,9 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15108,7 +15171,11 @@ class Meeting(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             existing_trigger = event.recurrence_id.trigger_id
+=======
+            existing_trigger = event.recurrence_id.sudo().trigger_id
+>>>>>>> upstream/18.0
 =======
             existing_trigger = event.recurrence_id.sudo().trigger_id
 >>>>>>> upstream/18.0

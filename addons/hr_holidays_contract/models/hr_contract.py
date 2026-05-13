@@ -151,7 +151,11 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done'):
+=======
+        if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done' or vals.get('resource_calendar_id', False)):
+>>>>>>> upstream/18.0
 =======
         if not (vals.get("state") == 'open' or vals.get('kanban_state') == 'done' or vals.get('resource_calendar_id', False)):
 >>>>>>> upstream/18.0
@@ -654,7 +658,11 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if vals.get('state') != 'open' and contract.state != 'draft':
+=======
+                if vals.get('state') != 'open' and contract.state not in ('draft', 'open'):
+>>>>>>> upstream/18.0
 =======
                 if vals.get('state') != 'open' and contract.state not in ('draft', 'open'):
 >>>>>>> upstream/18.0
@@ -1161,6 +1169,7 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if overlapping_contracts and leave.resource_calendar_id != overlapping_contracts[0].resource_calendar_id:
                             leave.resource_calendar_id = overlapping_contracts[0].resource_calendar_id
 <<<<<<< HEAD
@@ -1183,6 +1192,8 @@ class HrContract(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1556,6 +1567,9 @@ class HrContract(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

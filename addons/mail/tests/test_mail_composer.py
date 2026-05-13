@@ -508,6 +508,7 @@ class TestMailComposerUI(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['mail.template'].create({
             'auto_delete': True,
             'lang': '{{ object.lang }}',
@@ -516,6 +517,8 @@ class TestMailComposerUI(MailCommon, HttpCase):
             'partner_to': '{{ object.id }}',
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1261,6 +1264,9 @@ class TestMailComposerUI(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

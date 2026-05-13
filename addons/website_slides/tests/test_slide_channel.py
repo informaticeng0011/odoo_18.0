@@ -127,12 +127,15 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import users
 from unittest.mock import patch
 
 
 class TestSlidesManagement(slides_common.SlidesCase):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -510,6 +513,9 @@ class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -909,7 +915,10 @@ class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
         )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_merging_partners_with_course_memberships(self):
         """ Test merging partners with course memberships """
         course_1, course_2 = self.env['slide.channel'].create([{'name': 'Course 1'}, {'name': 'Course 2'}])
@@ -937,6 +946,9 @@ class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
         self.assertIn(course_1, partner_2.slide_channel_ids, "Course 1 should belong to destination partner")
         self.assertIn(course_2, partner_2.slide_channel_ids, "Course 2 should belong to destination partner")
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_mail_completed_with_different_templates(self):
         """ When the completion email is generated, it must take into account different templates. """
@@ -1140,7 +1152,10 @@ class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1552,6 +1567,9 @@ class TestSlidesManagement(slides_common.SlidesCase, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
