@@ -23,6 +23,10 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests import tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import tagged
 >>>>>>> upstream/18.0
@@ -156,7 +160,10 @@ class TestStockAccountProduct(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208,9 +215,12 @@ class TestStockAccountProduct(TestStockValuationCommon):
         """
         self.product1.product_tmpl_id.categ_id.property_cost_method = 'average'
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.product1.product_tmpl_id.categ_id.property_valuation = 'real_time'
         self._make_in_move(self.product1, 10, unit_cost=5.0)
 =======
+=======
+>>>>>>> upstream/18.0
         # Create SVL and quant directly to avoid requiring real_time valuation,
         # which needs stock accounts configured. avg_cost must be non-zero so
         # that _prepare_valuation_layer_field_values reaches the qty_available line.
@@ -226,6 +236,9 @@ class TestStockAccountProduct(TestStockValuationCommon):
             'location_id': self.stock_location.id,
             'quantity': 10.0,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # Simulate a restricted user (e.g. POS operator): no stock manager group
@@ -311,6 +324,9 @@ class TestStockAccountProductMultiCompany(TestStockValuationCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -322,11 +322,17 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 rec.l10n_eg_long_id = response_data.get('l10n_eg_long_id')
             else:
                 rec.l10n_eg_uuid = False
                 rec.l10n_eg_submission_number = False
                 rec.l10n_eg_long_id = False
+=======
+            else:
+                rec.l10n_eg_uuid = False
+                rec.l10n_eg_submission_number = False
+>>>>>>> upstream/18.0
 =======
             else:
                 rec.l10n_eg_uuid = False
@@ -1714,10 +1720,13 @@ class AccountMove(models.Model):
         to_currency = self.company_id.currency_id
         if from_currency != to_currency and self.invoice_line_ids:
 <<<<<<< HEAD
+<<<<<<< HEAD
             amount_currency = self.invoice_line_ids[0].amount_currency
             if not float_is_zero(amount_currency, precision_rounding=from_currency.rounding):
                 return abs(self.invoice_line_ids[0].balance / amount_currency)
 =======
+=======
+>>>>>>> upstream/18.0
             first_product_line = self.invoice_line_ids.filtered(lambda line: line.display_type == "product")[:1]
             amount_currency = first_product_line.amount_currency
             if not float_is_zero(amount_currency, precision_rounding=from_currency.rounding):
@@ -1725,5 +1734,8 @@ class AccountMove(models.Model):
                 # To avoid rounding discrepancies, the rate is recalculated from this final rounded balance instead of
                 # directly using invoice_currency_rate.
                 return abs(first_product_line.balance / amount_currency)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return 1.0

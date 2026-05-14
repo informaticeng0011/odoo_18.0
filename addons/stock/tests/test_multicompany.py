@@ -29,7 +29,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+from odoo import Command
+
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 
@@ -823,7 +829,11 @@ class TestMultiCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = self.env['res.partner'].create({'name': 'Deco Addict'})
+=======
+        partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
+>>>>>>> upstream/18.0
 =======
         partner = self.env['res.partner'].create({'name': 'Acme Corporation'})
 >>>>>>> upstream/18.0
@@ -1346,7 +1356,10 @@ class TestMultiCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1465,6 +1478,9 @@ class TestMultiCompany(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

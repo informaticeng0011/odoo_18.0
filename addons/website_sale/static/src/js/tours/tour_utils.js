@@ -264,8 +264,11 @@ import { clickOnElement } from '@website/js/tours/tour_utils';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function addToCart({productName, search = true, productHasVariants = false}) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1052,6 +1055,9 @@ export function addToCart({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1838,9 +1844,12 @@ export function addToCart({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     steps.push(clickOnElement(productName, `a:contains(${productName})`));
     steps.push(clickOnElement('Add to cart', '#add_to_cart'));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2632,6 +2641,9 @@ export function addToCart({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3351,7 +3363,11 @@ export function assertCartAmounts({taxes = false, untaxed = false, total = false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: `tr#order_total_taxes .oe_currency_value:contains(/^${taxes}$/)`,
+=======
+            trigger: `tr#order_total_taxes .oe_currency_value:text(${taxes})`,
+>>>>>>> upstream/18.0
 =======
             trigger: `tr#order_total_taxes .oe_currency_value:text(${taxes})`,
 >>>>>>> upstream/18.0
@@ -4105,7 +4121,11 @@ export function assertCartAmounts({taxes = false, untaxed = false, total = false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: `tr#order_total_untaxed .oe_currency_value:contains(/^${untaxed}$/)`,
+=======
+            trigger: `tr#order_total_untaxed .oe_currency_value:text(${untaxed})`,
+>>>>>>> upstream/18.0
 =======
             trigger: `tr#order_total_untaxed .oe_currency_value:text(${untaxed})`,
 >>>>>>> upstream/18.0
@@ -4859,7 +4879,11 @@ export function assertCartAmounts({taxes = false, untaxed = false, total = false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: `tr#order_total .oe_currency_value:contains(/^${total}$/)`,
+=======
+            trigger: `tr#order_total .oe_currency_value:text(${total})`,
+>>>>>>> upstream/18.0
 =======
             trigger: `tr#order_total .oe_currency_value:text(${total})`,
 >>>>>>> upstream/18.0
@@ -5613,7 +5637,11 @@ export function assertCartAmounts({taxes = false, untaxed = false, total = false
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: `tr#order_delivery .oe_currency_value:contains(/^${delivery}$/)`,
+=======
+            trigger: `tr#order_delivery .oe_currency_value:text(${delivery})`,
+>>>>>>> upstream/18.0
 =======
             trigger: `tr#order_delivery .oe_currency_value:text(${delivery})`,
 >>>>>>> upstream/18.0
@@ -6471,7 +6499,12 @@ export function fillAdressForm(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
+=======
+    },
+    expectUnloadPage = false
+>>>>>>> upstream/18.0
 =======
     },
     expectUnloadPage = false
@@ -7794,6 +7827,10 @@ export function fillAdressForm(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage,
 >>>>>>> upstream/18.0
@@ -8842,8 +8879,11 @@ export function fillAdressForm(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function goToCart({quantity = 1, position = "bottom", backend = false} = {}) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9370,6 +9410,7 @@ export function goToCart({
     backend = false,
     expectUnloadPage = true,
 } = {}) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10451,6 +10492,8 @@ export function goToCart({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     return {
         content: _t("Go to cart"),
         trigger: `${backend ? ":iframe" : ""} a sup.my_cart_quantity:text(${quantity})`,
@@ -10643,6 +10686,9 @@ export function goToCart({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11285,6 +11331,10 @@ export function goToCheckout() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -12337,6 +12387,7 @@ export function confirmOrder() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
 }
 
@@ -12348,6 +12399,8 @@ export function pay() {
         run: "click",
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13149,6 +13202,9 @@ export function pay({ expectUnloadPage = false, waitFinalizeYourPayment = false 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13943,7 +13999,11 @@ export function payWithDemo() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     pay(),
+=======
+    ...pay(),
+>>>>>>> upstream/18.0
 =======
     ...pay(),
 >>>>>>> upstream/18.0
@@ -14994,8 +15054,11 @@ export function payWithDemo() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function payWithTransfer(redirect=false) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15781,6 +15844,9 @@ export function payWithTransfer({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16309,6 +16375,7 @@ export function payWithTransfer({
     }
     if (!redirect) {
         return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17105,6 +17172,8 @@ export function payWithTransfer({
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             first_step,
             ...pay({ expectUnloadPage, waitFinalizeYourPayment }),
             {
@@ -17382,6 +17451,9 @@ export function payWithTransfer({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17907,6 +17979,7 @@ export function payWithTransfer({
                 run() {
                     window.location.href = '/contactus'; // Redirect in JS to avoid the RPC loop (20x1sec)
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18699,6 +18772,8 @@ export function searchProduct(productName) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 expectUnloadPage: true,
             },
             {
@@ -18971,6 +19046,9 @@ export function searchProduct(productName, { select = false } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19758,9 +19836,12 @@ export function searchProduct(productName, { select = false } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         clickOnElement('Search', 'form:has(input[name="search"]) .oe_search_button'),
     ];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20478,7 +20559,11 @@ export function searchProduct(productName, { select = false } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             trigger: `.oe_product_cart:first a:contains(/^${productName}$/i)`,
+=======
+            trigger: `.oe_product_cart:first a:text(${productName})`,
+>>>>>>> upstream/18.0
 =======
             trigger: `.oe_product_cart:first a:text(${productName})`,
 >>>>>>> upstream/18.0
@@ -21305,6 +21390,9 @@ export function searchProduct(productName, { select = false } = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22103,6 +22191,10 @@ export function selectPriceList(pricelist) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

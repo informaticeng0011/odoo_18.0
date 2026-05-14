@@ -240,9 +240,13 @@ class TestStockValuation(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.stock_valuation_layer_ids.unit_cost,
             last_po_id.currency_id.round(ap_price),
             "Wrong Unit price")
+=======
+        self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
 >>>>>>> upstream/18.0
@@ -1962,7 +1966,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -2626,7 +2634,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -3117,7 +3129,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 14.09)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 14.091)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 14.091)
 >>>>>>> upstream/18.0
@@ -5183,7 +5199,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company.anglo_saxon_accounting = False
+=======
+        company.anglo_saxon_accounting = True
+>>>>>>> upstream/18.0
 =======
         company.anglo_saxon_accounting = True
 >>>>>>> upstream/18.0
@@ -6392,7 +6412,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7350,6 +7373,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_accounts = self.product1.product_tmpl_id.get_product_accounts()
         payable_id = self.company_data['default_account_payable'].id
         stock_in_id = product_accounts['stock_input'].id
@@ -7370,6 +7394,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             {'debit': 0,   'credit': 50.0,    'account_id': stock_in_id,  'reconciled': False, 'amount_currency': -110.0},
             {'debit': 50.0,   'credit': 0,    'account_id': stock_valuation,  'reconciled': False, 'amount_currency': 110.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8281,6 +8307,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9404,7 +9433,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9802,6 +9834,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10414,7 +10449,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11047,7 +11085,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11490,6 +11531,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12015,6 +12059,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12177,6 +12222,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12700,6 +12747,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12868,6 +12916,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13133,6 +13183,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13265,6 +13316,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13361,6 +13414,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13385,4 +13439,40 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_svl_account_move_analytic_account_model_change_from_PO(self):
+        """ Tests whether, when an analytic account rule is set, and user changes manually the analytic account on
+        the po, it is the same that is mentioned in the account move created by the svl.
+        """
+        # Required for `analytic.group_analytic_accounting` to be visible in the view
+        self.env.user.groups_id += self.env.ref('analytic.group_analytic_accounting')
+        analytic_plan = self.env['account.analytic.plan'].create({'name': 'Plan Test'})
+        analytic_account_default = self.env['account.analytic.account'].create({'name': 'default', 'plan_id': analytic_plan.id})
+        analytic_account_manual = self.env['account.analytic.account'].create({'name': 'manual', 'plan_id': analytic_plan.id})
+        self.product1.standard_price = 10
+
+        self.env['account.analytic.distribution.model'].create({
+            'analytic_distribution': {analytic_account_default.id: 100},
+            'product_id': self.product1.id,
+        })
+        analytic_distribution_manual = {str(analytic_account_manual.id): 100}
+
+        po_form = Form(self.env['purchase.order'].with_context(tracking_disable=True))
+        po_form.partner_id = self.partner_a
+        with po_form.order_line.new() as po_line_form:
+            po_line_form.name = self.product1.name
+            po_line_form.product_id = self.product1
+            po_line_form.product_qty = 1.0
+            po_line_form.price_unit = 10
+            po_line_form.analytic_distribution = analytic_distribution_manual
+
+        purchase_order = po_form.save()
+        purchase_order.button_confirm()
+        purchase_order.picking_ids.button_validate()
+
+        amls = purchase_order.picking_ids.move_ids.stock_valuation_layer_ids.account_move_id.line_ids
+        self.assertEqual(amls[0].analytic_distribution, analytic_distribution_manual)
+        self.assertEqual(amls[1].analytic_distribution, analytic_distribution_manual)
 >>>>>>> upstream/18.0

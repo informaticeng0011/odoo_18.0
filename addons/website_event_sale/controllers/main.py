@@ -4,6 +4,10 @@
 from collections import defaultdict
 from odoo.http import request, route
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero
 >>>>>>> upstream/18.0
@@ -80,6 +84,7 @@ class WebsiteEventSaleController(WebsiteEventController):
         # we have at least one registration linked to a ticket -> sale mode activate
         if any(info['event_ticket_id'] for info in registrations):
 <<<<<<< HEAD
+<<<<<<< HEAD
             if order_sudo.amount_total:
                 request.session['sale_last_order_id'] = order_sudo.id
                 return request.redirect("/shop/checkout")
@@ -89,6 +94,8 @@ class WebsiteEventSaleController(WebsiteEventController):
                 request.website.sale_reset()
 
 =======
+=======
+>>>>>>> upstream/18.0
             # free tickets -> order with amount = 0: auto-confirm, no checkout
             if all(line.event_ticket_id and float_is_zero(line.event_ticket_id.price, precision_digits=2) for line in order_sudo.order_line):
                 order_sudo.action_confirm()  # tde notsure: email sending ?
@@ -96,5 +103,8 @@ class WebsiteEventSaleController(WebsiteEventController):
             elif order_sudo:
                 request.session['sale_last_order_id'] = order_sudo.id
                 return request.redirect("/shop/checkout")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return res

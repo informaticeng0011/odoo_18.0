@@ -316,7 +316,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1091,6 +1094,9 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2356,7 +2362,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2630,6 +2639,9 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3124,7 +3136,10 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
             {'amount_currency': 762.2},
         ])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_epd_with_cash_rounding_biggest_tax(self):
         """
@@ -3187,4 +3202,7 @@ class TestAccountEarlyPaymentDiscount(AccountTestInvoicingCommon):
             {'balance': 7.29},
             {'balance': 386.25},
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

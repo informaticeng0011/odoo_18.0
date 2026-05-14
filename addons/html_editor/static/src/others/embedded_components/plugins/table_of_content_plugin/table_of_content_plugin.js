@@ -69,8 +69,11 @@ export class TableOfContentPlugin extends Plugin {
     delayedUpdateTableOfContents(element) {
         const selector = HEADINGS.join(",");
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!(!element || element.querySelector(selector) || element.closest(selector))) {
 =======
+=======
+>>>>>>> upstream/18.0
         if (
             !(
                 !element ||
@@ -79,6 +82,9 @@ export class TableOfContentPlugin extends Plugin {
                 element.closest(selector)
             )
         ) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             return;
         }

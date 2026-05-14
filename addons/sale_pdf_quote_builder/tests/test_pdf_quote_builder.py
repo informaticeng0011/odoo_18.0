@@ -252,6 +252,7 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
@@ -647,6 +648,10 @@ from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
+=======
+from odoo.exceptions import ValidationError
+from odoo.http import Response
 >>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
@@ -1376,9 +1381,14 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             new_form_fields[6]: "Quotation",  # selection
             new_form_fields[7]: "$\xa0725.00",  # monetary
 
+=======
+            new_form_fields[6]: dict(self.sale_order._fields['state'].selection)['draft'],  # selection
+            new_form_fields[7]: "$\xa0725.00",  # monetary
+>>>>>>> upstream/18.0
 =======
             new_form_fields[6]: dict(self.sale_order._fields['state'].selection)['draft'],  # selection
             new_form_fields[7]: "$\xa0725.00",  # monetary
@@ -2397,6 +2407,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sequence': 0,
+>>>>>>> upstream/18.0
 =======
             'sequence': 0,
 >>>>>>> upstream/18.0
@@ -3156,6 +3170,7 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
             'date_test': "11/04/2020",
             'datetime_test': "12/21/2121 13:21:12",
             'float_test': "4.99",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4516,6 +4531,11 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
             'selection_test': dict(self.sale_order._fields['state'].selection)['draft'],
             'monetary_test': self.sale_order.currency_id.format(720.01),
 >>>>>>> upstream/18.0
+=======
+            'integer_test': "0",
+            'selection_test': dict(self.sale_order._fields['state'].selection)['draft'],
+            'monetary_test': self.sale_order.currency_id.format(720.01),
+>>>>>>> upstream/18.0
             'one2many_test': f"{sol_1.display_name}, {sol_2.display_name}",
             'many2one_test': self.sale_order.company_id.display_name,
             'many2many_test': "test tax1, test tax2",
@@ -4848,7 +4868,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5491,6 +5514,7 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
         so_form.sale_order_template_id = so_tmpl_2
         so_form.save()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6429,6 +6453,8 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertIn(self.header, self.sale_order.available_product_document_ids)
         so_form.record.quotation_document_ids[0].unlink()
         so_form.save()
@@ -6694,6 +6720,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7447,7 +7476,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8229,6 +8261,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8842,7 +8877,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9184,6 +9222,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9549,7 +9590,10 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9891,6 +9935,9 @@ class TestPDFQuoteBuilder(BaseUsersCommon, SaleManagementCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

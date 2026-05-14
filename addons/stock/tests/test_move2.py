@@ -984,7 +984,11 @@ class TestPickShip(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move.quantity = move.product_uom_qty 
+=======
+            move.quantity = move.product_uom_qty
+>>>>>>> upstream/18.0
 =======
             move.quantity = move.product_uom_qty
 >>>>>>> upstream/18.0
@@ -2803,6 +2807,7 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         1 picking from input to QC and another from QC to stock. The link at the end should follow this scheme.
 =======
         1 picking from input to QC and another from QC to stock, only when both receipt moves share the same procurement group.
@@ -2867,6 +2872,9 @@ class TestSinglePicking(TestStockCommon):
 =======
         1 picking from input to QC and another from QC to stock, only when both receipt moves share the same procurement group.
         The link at the end should follow this scheme.
+>>>>>>> upstream/18.0
+=======
+        1 picking from input to QC and another from QC to stock. The link at the end should follow this scheme.
 >>>>>>> upstream/18.0
 =======
         1 picking from input to QC and another from QC to stock. The link at the end should follow this scheme.
@@ -3145,6 +3153,7 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # procurement group simulating a common source document (e.g. PO/SO)
         pg = self.env['procurement.group'].create({})
@@ -3208,6 +3217,8 @@ class TestSinglePicking(TestStockCommon):
 =======
         # procurement group simulating a common source document (e.g. PO/SO)
         pg = self.env['procurement.group'].create({})
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3420,6 +3431,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3618,6 +3632,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3861,6 +3878,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3996,6 +4016,7 @@ class TestSinglePicking(TestStockCommon):
             'location_id': self.supplier_location,
             'location_dest_id': warehouse.wh_input_stock_loc_id.id,
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4274,6 +4295,8 @@ class TestSinglePicking(TestStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         receipt1.action_confirm()
         receipt2.action_confirm()
         (receipt1 | receipt2).button_validate()
@@ -4377,6 +4400,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4508,6 +4534,7 @@ class TestSinglePicking(TestStockCommon):
         a existing picking from input to QC and another from QC to stock.
         This existing picking is confirm in the same time (not possible in stock, but can be with batch picking)
         and have some move to merge.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4778,6 +4805,8 @@ class TestSinglePicking(TestStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         """
         warehouse = self.env['stock.warehouse'].create({
             'name': 'TEST WAREHOUSE',
@@ -4869,6 +4898,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5109,6 +5141,7 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -5176,6 +5209,8 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5995,7 +6030,10 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6558,6 +6596,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7235,7 +7276,10 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8199,6 +8243,9 @@ class TestSinglePicking(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9545,7 +9592,10 @@ class TestRoutes(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9908,6 +9958,9 @@ class TestRoutes(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10755,7 +10808,10 @@ class TestAutoAssign(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11405,8 +11461,13 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "uom_id": cls.env.ref("uom.product_uom_unit").id,
                 "uom_po_id": cls.env.ref("uom.product_uom_unit").id,
+=======
+                "tracking": "lot",
+                "uom_id": cls.env.ref("uom.product_uom_unit").id,
+>>>>>>> upstream/18.0
 =======
                 "tracking": "lot",
                 "uom_id": cls.env.ref("uom.product_uom_unit").id,
@@ -12373,7 +12434,12 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.stock_location = cls.env.ref("stock.stock_location_stock")
+=======
+        cls.warehouse = cls.env["stock.warehouse"].search([], limit=1)
+        cls.stock_location = cls.warehouse.out_type_id.default_location_src_id or cls.warehouse.lot_stock_id
+>>>>>>> upstream/18.0
 =======
         cls.warehouse = cls.env["stock.warehouse"].search([], limit=1)
         cls.stock_location = cls.warehouse.out_type_id.default_location_src_id or cls.warehouse.lot_stock_id
@@ -13335,8 +13401,12 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         warehouse = self.env["stock.warehouse"].search([], limit=1)
         warehouse.delivery_steps = "pick_ship"
+=======
+        self.warehouse.delivery_steps = "pick_ship"
+>>>>>>> upstream/18.0
 =======
         self.warehouse.delivery_steps = "pick_ship"
 >>>>>>> upstream/18.0
@@ -14106,8 +14176,13 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     warehouse.company_id,
                     {"warehouse_id": warehouse, "group_id": pg},
+=======
+                    self.warehouse.company_id,
+                    {"warehouse_id": self.warehouse, "group_id": pg},
+>>>>>>> upstream/18.0
 =======
                     self.warehouse.company_id,
                     {"warehouse_id": self.warehouse, "group_id": pg},
@@ -15127,6 +15202,9 @@ class TestPickShipBackorder(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

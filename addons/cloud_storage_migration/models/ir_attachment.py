@@ -82,7 +82,11 @@ class CloudStorageAttachmentMigration(models.Model):
             self.env.cr.execute("UPDATE ir_config_parameter SET value = %s WHERE key = 'cloud_storage_migration_min_attachment_id'", (str(attachment_id),))
             self.env.cr.commit()
 
+<<<<<<< HEAD
         limit_time_real = config['limit_time_real']
+=======
+        limit_time_real = config['limit_time_real'] or 120
+>>>>>>> upstream/18.0
         # ``config['limit_time_real_cron'] == 0`` means unlimited time for cron worker,
         # but will fallback to ``config['limit_time_real']`` for cron thread
         # here we use ``config['limit_time_real']`` for simplicity
@@ -94,7 +98,10 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -111,6 +118,9 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -190,6 +200,7 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return
 
             total_file_size += attachment.file_size
@@ -200,6 +211,8 @@ class CloudStorageAttachmentMigration(models.Model):
                 break
             first_attachment = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -224,6 +237,9 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -245,6 +261,7 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.info('uploaded attachment %s to cloud storage', attachment.id)
             except Exception as e:  # noqa: BLE001
                 _logger.warning('Failed to upload attachment %s to cloud storage: %s', attachment.id, e)
@@ -252,6 +269,8 @@ class CloudStorageAttachmentMigration(models.Model):
 
             if end_time < time.monotonic():
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -271,6 +290,9 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

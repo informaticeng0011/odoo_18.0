@@ -45,7 +45,11 @@ import { Toolbar } from "./toolbar";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { hasTouch } from "@web/core/browser/feature_detection";
+=======
+import { hasTouch, isMacOS } from "@web/core/browser/feature_detection";
+>>>>>>> upstream/18.0
 =======
 import { hasTouch, isMacOS } from "@web/core/browser/feature_detection";
 >>>>>>> upstream/18.0
@@ -186,6 +190,7 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 /**
  * @typedef {Object} ToolbarNamespace
  * @property {string} id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1163,6 +1168,9 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 =======
  * @property {(targetedNodes: Node[]) => boolean} isApplied
 >>>>>>> upstream/18.0
+=======
+ * @property {(targetedNodes: Node[]) => boolean} isApplied
+>>>>>>> upstream/18.0
  *
  *
  * @typedef {Object} ToolbarGroup
@@ -1368,6 +1376,7 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.addDomListener(this.editable, "keydown", (ev) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2041,6 +2050,8 @@ export class ToolbarPlugin extends Plugin {
                 if (ev.key?.startsWith("Arrow")) {
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2178,6 +2189,9 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2307,7 +2321,10 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2442,6 +2459,9 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2603,6 +2623,7 @@ export class ToolbarPlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3536,6 +3557,8 @@ export class ToolbarPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     /**
      * @deprecated
      */
@@ -3639,6 +3662,7 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (!isTextNode(node) || (node.textContent.trim().length && !isZWS(node)))
             );
 <<<<<<< HEAD
@@ -4373,6 +4397,11 @@ export class ToolbarPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
                     this.getResource("toolbar_visibility_predicates").every((p) => p(node)) &&
+                    (!isTextNode(node) || (node.textContent.trim().length && !isZWS(node)))
+            );
+>>>>>>> upstream/18.0
+=======
+                    (this.checkPredicates("toolbar_visibility_predicates", node) ?? true) &&
                     (!isTextNode(node) || (node.textContent.trim().length && !isZWS(node)))
             );
 >>>>>>> upstream/18.0
@@ -4827,7 +4856,11 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.getFilterTraverseNodes().length;
+=======
+        return this.getFilteredTargetedNodes().length;
+>>>>>>> upstream/18.0
 =======
         return this.getFilteredTargetedNodes().length;
 >>>>>>> upstream/18.0
@@ -5814,9 +5847,15 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const traversedNodes = this.getFilterTraverseNodes();
         for (const namespace of this.getResource("toolbar_namespaces")) {
             if (namespace.isApplied(traversedNodes)) {
+=======
+        const targetedNodes = this.getFilteredTargetedNodes();
+        for (const namespace of this.getResource("toolbar_namespaces")) {
+            if (namespace.isApplied(targetedNodes)) {
+>>>>>>> upstream/18.0
 =======
         const targetedNodes = this.getFilteredTargetedNodes();
         for (const namespace of this.getResource("toolbar_namespaces")) {
@@ -7303,6 +7342,7 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const nodes = this.getFilterTraverseNodes();
 =======
         const nodes = this.getFilteredTargetedNodes();
@@ -7467,6 +7507,8 @@ export class ToolbarPlugin extends Plugin {
         const nodes = this.getFilteredTargetedNodes();
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8041,6 +8083,9 @@ export class ToolbarPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

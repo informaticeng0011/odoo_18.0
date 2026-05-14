@@ -62,7 +62,10 @@ class TestWebsiteEventSale(HttpCaseWithUserPortal, TestWebsiteEventSaleCommon):
             ('order_line.event_ticket_id', '=', free_ticket.id)
         ]), "Sale order should be created for the free/paid tickets mix")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_website_event_sale_giftcard_covers_full_cost(self):
         """Test saleorder is not auto confirmed if the gift card in the card can fully cover the cost"""
@@ -123,4 +126,7 @@ class TestWebsiteEventSale(HttpCaseWithUserPortal, TestWebsiteEventSaleCommon):
         last_so = self.env['sale.order'].search([], order='id desc', limit=1)
         self.assertEqual(len(self.event.registration_ids), event_registration_count + 2)
         self.assertTrue(last_so.state == 'draft', "The status of unpaid events should be draft")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

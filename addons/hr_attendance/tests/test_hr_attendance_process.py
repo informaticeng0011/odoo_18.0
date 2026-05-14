@@ -250,7 +250,11 @@ from odoo.tests import new_test_user
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests.common import tagged, TransactionCase
+=======
+from odoo.tests.common import tagged, TransactionCase, freeze_time
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import tagged, TransactionCase, freeze_time
 >>>>>>> upstream/18.0
@@ -1004,7 +1008,10 @@ class TestHrAttendance(TransactionCase):
             'pin': '5678',
         })
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.hr_user = cls.env['res.users'].create({
             'name': 'HR Officer',
             'login': 'hr_officer',
@@ -1013,6 +1020,9 @@ class TestHrAttendance(TransactionCase):
                 # Explicitly NOT adding: hr_attendance.group_hr_attendance_user
             ])]
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def setUp(self):
@@ -1272,7 +1282,10 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2042,6 +2055,9 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2794,7 +2810,10 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3553,6 +3572,7 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3945,6 +3965,8 @@ class TestHrAttendance(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4098,6 +4120,7 @@ class TestHrAttendance(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4192,6 +4215,8 @@ class TestHrAttendance(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_attendance_checkout_while_employee_archived_without_rights(self):
         """Test that archiving employee by HR user closes attendance even if lacks of attendance permissions"""
@@ -4205,4 +4230,7 @@ class TestHrAttendance(TransactionCase):
             self.test_employee.with_user(self.hr_user).action_archive()
             self.assertTrue(not self.test_employee.active, "Employee should be archived successfully with sudo()")
             self.assertEqual(test_attendance.check_out, fields.Datetime.now(), "Attendance should be checked out at the time of archiving")
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

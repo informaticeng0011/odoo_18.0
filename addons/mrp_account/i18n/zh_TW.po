@@ -245,6 +245,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 # Translators:
 # Martin Trigaux, 2024
@@ -1068,6 +1069,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Martin Trigaux, 2024
@@ -1317,6 +1320,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1808,6 +1814,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3186,6 +3193,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
@@ -3194,6 +3204,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4033,12 +4044,18 @@ msgstr "$5000"
 
 #. module: mrp_account
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: mrp_account
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 msgid "%s - Labour"
 msgstr "%s - 勞動力"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4785,6 +4802,8 @@ msgstr "2023-08-15"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_move_form_inherit_mrp_account
 msgid "<span class=\"o_stat_text\">Manufacturing</span>"
 msgstr "<span class=\"o_stat_text\">製造</span>"
@@ -5081,6 +5100,7 @@ msgstr "MO分析帳戶項目"
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6059,6 +6079,9 @@ msgid "Please make sure the total credit amount equals the total debit amount."
 =======
 msgid "Please make sure the total credit amount equals the total debit amount."
 >>>>>>> upstream/18.0
+=======
+msgid "Please make sure the total credit amount equals the total debit amount."
+>>>>>>> upstream/18.0
 msgstr "請確保貸項及借項的總額相等。"
 
 #. module: mrp_account
@@ -6145,6 +6168,7 @@ msgid "Stock Move"
 msgstr "庫存移動"
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7275,6 +7299,8 @@ msgstr "庫存估值層"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
@@ -7285,6 +7311,7 @@ msgstr "此半成品記項所基於的製造訂單。預計在建立半成品記
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8020,6 +8047,8 @@ msgstr "製造訂單標記為完成時，便會記入開支。如果未設定，
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The expense is accounted for when the manufacturing order is marked as done. "
 "If not set, it is the expense account of the final product that will be used "
 "instead."
@@ -8268,6 +8297,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9003,9 +9035,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This account will be used as a valuation counterpart for both components and final products for manufacturing orders.\n"
 "                If there are any workcenter/employee costs, this value will remain on the account once the production is completed."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9739,6 +9774,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10579,6 +10617,7 @@ msgstr "[WC] %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 #~ msgid "Stock Valuation Layer"
@@ -11640,6 +11679,8 @@ msgstr "[WC] %s"
 #~ msgstr "庫存估值層"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11745,6 +11786,9 @@ msgstr "[WC] %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

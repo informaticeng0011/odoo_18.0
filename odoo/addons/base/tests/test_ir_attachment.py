@@ -248,6 +248,10 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -984,6 +988,7 @@ from unittest.mock import patch
 from PIL import Image
 
 import odoo
+<<<<<<< HEAD
 from odoo.exceptions import AccessError
 from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
 <<<<<<< HEAD
@@ -2162,6 +2167,11 @@ from odoo.tools import mute_logger
 =======
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import AccessError, ValidationError
+from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 from odoo.tools.image import image_to_base64
 
 HASH_SPLIT = 2      # FIXME: testing implementations detail is not a good idea
@@ -2660,7 +2670,10 @@ class TestIrAttachment(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3405,6 +3418,9 @@ class TestIrAttachment(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4248,7 +4264,10 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5154,6 +5173,9 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5791,3 +5813,19 @@ class TestPermissions(TransactionCaseWithUserDemo):
         # even from a record with write permissions
         with self.assertRaises(AccessError):
             copied.copy({'res_model': unwritable._name, 'res_id': unwritable.id})
+<<<<<<< HEAD
+=======
+
+    def test_circular_attachment(self):
+        """An ir.attachment should not be attached to itself with
+        its res_id. Upon write a UserError should be thrown.
+        """
+
+        Attachment = self.env['ir.attachment']
+        document = Attachment.create({'name': 'document'})
+        with self.assertRaises(ValidationError):
+            document.write({
+                'res_model': 'ir.attachment',
+                'res_id': document.id
+            })
+>>>>>>> upstream/18.0

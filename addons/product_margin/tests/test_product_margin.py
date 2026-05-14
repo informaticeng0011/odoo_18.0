@@ -238,9 +238,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import patch
 
 from odoo import Command
+=======
+
+from unittest.mock import patch
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 
 from unittest.mock import patch
@@ -1443,6 +1449,7 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_aggregates(self):
         model = self.env['product.product']
         field_names = [
@@ -1471,6 +1478,8 @@ class TestProductMargin(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -1481,6 +1490,9 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1500,7 +1512,10 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1520,6 +1535,9 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1596,6 +1614,7 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         supplier = self.env['res.partner'].create({'name': 'Supplier'})
         customer = self.env['res.partner'].create({'name': 'Customer'})
         ipad = self.env['product.product'].create({
@@ -1603,6 +1622,11 @@ class TestProductMargin(AccountTestInvoicingCommon):
             'standard_price': 1000.0,
             'list_price': 1000.0,
         })
+=======
+        supplier = self.supplier
+        customer = self.customer
+        ipad = self.ipad
+>>>>>>> upstream/18.0
 =======
         supplier = self.supplier
         customer = self.customer
@@ -1655,6 +1679,7 @@ class TestProductMargin(AccountTestInvoicingCommon):
         vendor_bill = self.env['account.move'].create([{
             'move_type': 'in_invoice',
             'partner_id': supplier.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2608,6 +2633,9 @@ class TestProductMargin(AccountTestInvoicingCommon):
 =======
             'invoice_date': fields.Date.today(),
 >>>>>>> upstream/18.0
+=======
+            'invoice_date': fields.Date.today(),
+>>>>>>> upstream/18.0
             'invoice_line_ids': [
                 Command.create({
                     'product_id': ipad.id,
@@ -2631,7 +2659,10 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2677,6 +2708,9 @@ class TestProductMargin(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

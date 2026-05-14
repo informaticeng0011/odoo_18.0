@@ -257,6 +257,10 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
+>>>>>>> upstream/18.0
 =======
         cls.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', 'False')
 >>>>>>> upstream/18.0
@@ -1088,7 +1092,11 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'DE48500105176424548921'})],
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'DE48500105176424548921', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [(0, 0, {'acc_number': 'DE48500105176424548921', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
@@ -1456,6 +1464,7 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': 'DE50500105175653254743'})],
 =======
             'bank_ids': [(0, 0, {'acc_number': 'DE50500105175653254743', 'allow_out_payment': True})],
@@ -1510,6 +1519,11 @@ class TestUBLDE(TestUBLCommon):
 >>>>>>> upstream/18.0
             'ref': 'ref_partner_2',
             'invoice_edi_format': 'xrechnung',
+=======
+            'bank_ids': [(0, 0, {'acc_number': 'DE50500105175653254743', 'allow_out_payment': True})],
+            'ref': 'ref_partner_2',
+            'invoice_edi_format': 'zugferd',
+>>>>>>> upstream/18.0
 =======
             'bank_ids': [(0, 0, {'acc_number': 'DE50500105175653254743', 'allow_out_payment': True})],
             'ref': 'ref_partner_2',
@@ -2064,6 +2078,7 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
 >>>>>>> upstream/18.0
@@ -2308,6 +2323,8 @@ class TestUBLDE(TestUBLCommon):
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2565,6 +2582,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2741,6 +2761,7 @@ class TestUBLDE(TestUBLCommon):
             invoice.ubl_cii_xml_id,
             xpaths=f'''
                 <xpath expr="./*[local-name()='ID']" position="replace">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3521,6 +3542,8 @@ class TestUBLDE(TestUBLCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <cbc:ID xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">___ignore___</cbc:ID>
                 </xpath>
                 <xpath expr=".//*[local-name()='InvoiceLine'][1]/*[local-name()='ID']" position="replace">
@@ -3789,6 +3812,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4308,6 +4334,7 @@ class TestUBLDE(TestUBLCommon):
             ''',
             expected_file_path='from_odoo/xrechnung_ubl_out_invoice.xml',
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5635,6 +5662,11 @@ class TestUBLDE(TestUBLCommon):
         self._assert_imported_invoice_from_etree(invoice, attachment)
 
 >>>>>>> upstream/18.0
+=======
+        self.assertEqual(attachment.name[-13:], "xrechnung.xml")
+        self._assert_imported_invoice_from_etree(invoice, attachment)
+
+>>>>>>> upstream/18.0
     def test_export_import_invoice_without_vat_and_peppol_endpoint(self):
         self.partner_2.write({
             'vat': False,
@@ -5656,6 +5688,7 @@ class TestUBLDE(TestUBLCommon):
         )
         attachment = self._assert_invoice_attachment(
             invoice.ubl_cii_xml_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7564,6 +7597,8 @@ class TestUBLDE(TestUBLCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             xpaths=None,
             expected_file_path='from_odoo/zugferd_out_invoice_without_vat.xml',
         )
@@ -7640,6 +7675,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8047,6 +8085,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8600,6 +8641,7 @@ class TestUBLDE(TestUBLCommon):
         )
         attachment = self._assert_invoice_attachment(
             refund.ubl_cii_xml_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9381,6 +9423,8 @@ class TestUBLDE(TestUBLCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             xpaths=None,
             expected_file_path='from_odoo/zugferd_out_refund.xml',
         )
@@ -9498,6 +9542,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9909,6 +9956,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10428,6 +10478,7 @@ class TestUBLDE(TestUBLCommon):
             ''',
             expected_file_path='from_odoo/xrechnung_ubl_out_refund.xml',
         )
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11429,6 +11480,11 @@ class TestUBLDE(TestUBLCommon):
         self._assert_imported_invoice_from_etree(refund, attachment)
 
 >>>>>>> upstream/18.0
+=======
+        self.assertEqual(attachment.name[-13:], "xrechnung.xml")
+        self._assert_imported_invoice_from_etree(refund, attachment)
+
+>>>>>>> upstream/18.0
     def test_export_import_refund_new(self):
         self.env['ir.config_parameter'].sudo().set_param('account_edi_ubl_cii.use_new_dict_to_xml_helpers', True)
         self.test_export_import_refund()
@@ -11693,6 +11749,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12327,6 +12386,10 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -12795,6 +12858,7 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -12867,6 +12931,8 @@ class TestUBLDE(TestUBLCommon):
 
     def test_leitweg_id(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13249,6 +13315,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13578,6 +13647,10 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'invoice_edi_format': 'xrechnung',
+>>>>>>> upstream/18.0
 =======
             'invoice_edi_format': 'xrechnung',
 >>>>>>> upstream/18.0
@@ -13888,6 +13961,10 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -14334,6 +14411,9 @@ class TestUBLDE(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -331,7 +331,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import api, models, _
+=======
+from odoo import models, _
+>>>>>>> upstream/18.0
 =======
 from odoo import models, _
 >>>>>>> upstream/18.0
@@ -1348,6 +1352,12 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not peppol_partner.peppol_eas or not peppol_partner.peppol_endpoint:
+                peppol_partner._compute_peppol_endpoint()  # Try to recompute the Peppol credentials.
+            eas_label = dict(peppol_partner._fields['peppol_eas']._description_selection(self.env)).get(peppol_partner.peppol_eas)
+>>>>>>> upstream/18.0
 =======
             if not peppol_partner.peppol_eas or not peppol_partner.peppol_endpoint:
                 peppol_partner._compute_peppol_endpoint()  # Try to recompute the Peppol credentials.
@@ -1387,8 +1397,11 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     addendum_disable_reason = _(' (no VAT)')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1411,6 +1424,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1443,6 +1459,7 @@ class AccountMoveSendWizard(models.TransientModel):
                         }
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2449,10 +2466,13 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def action_send_and_print(self, allow_fallback_pdf=False):
         # EXTENDS 'account'
         self.ensure_one()
         if self.sending_methods and 'peppol' in self.sending_methods:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3184,6 +3204,8 @@ class AccountMoveSendWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             move = self.move_id.with_company(self.move_id.company_id)
             if move.partner_id.commercial_partner_id.peppol_verification_state != 'valid':
                 raise UserError(_("Partner doesn't have a valid Peppol configuration."))
@@ -3430,6 +3452,9 @@ class AccountMoveSendWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

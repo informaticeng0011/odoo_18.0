@@ -73,7 +73,10 @@ class TestHrLeaveType(TestHrHolidaysCommon):
 
         self.assertFalse(leave_types, "Got valid leaves outside vaild period")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_allocation_stats_with_duplicate_leave_type_names(self):
         """ Test that allocation stats do not clash when multiple leave types share the same name """
@@ -98,4 +101,7 @@ class TestHrLeaveType(TestHrHolidaysCommon):
         }).action_validate()
         self.assertEqual(leave_type_comp.with_context(employee_id=employee_id).max_leaves, 0)
         self.assertEqual(leave_type_no_comp.with_context(employee_id=employee_id).max_leaves, 10)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
