@@ -607,7 +607,10 @@ class TestEdiJson(TestEGEdiCommon):
                 invoice_line_ids=[
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     # Non-product lines (e.g., sections) must be removed when sending to ETA.
@@ -617,6 +620,9 @@ class TestEdiJson(TestEGEdiCommon):
                         'display_type': 'line_section',
                     },
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

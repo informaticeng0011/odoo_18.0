@@ -26,6 +26,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_viva_wallet
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -529,6 +530,9 @@
 =======
 # * pos_viva_wallet
 >>>>>>> upstream/18.0
+=======
+# * pos_viva_wallet
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -699,6 +703,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -977,6 +982,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2026.
@@ -1060,6 +1068,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1674,6 +1683,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-17 21:43+0000\n"
 "Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
@@ -1704,6 +1715,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1759,6 +1773,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2335,6 +2350,11 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_api_key
@@ -2387,7 +2407,11 @@ msgid "Cannot process transactions with negative amount."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No se puede procesar transacciones con una cantidad negativa."
+=======
+msgstr "No es posible procesar transacciones con un importe negativo."
+>>>>>>> upstream/18.0
 =======
 msgstr "No es posible procesar transacciones con un importe negativo."
 >>>>>>> upstream/18.0
@@ -2513,6 +2537,7 @@ msgstr "Solo ‘group_pos_user’ puede cancelar un pago de Viva Wallet"
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3018,6 +3043,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
 msgstr "Solo ‘group_pos_user’ puede obtener el estado de pago de Viva Wallet"
@@ -3191,8 +3218,12 @@ msgstr "Solo ‘group_pos_user’ puede obtener el estado de pago de Viva Wallet
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+=======
+msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+>>>>>>> upstream/18.0
 =======
 msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 >>>>>>> upstream/18.0
@@ -3884,8 +3915,12 @@ msgid "There are some issues between us and Viva Wallet, try again later. %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Hay algunos problemas con Viva Wallet, inténtelo de nuevo más tarde.%s"
+=======
+msgstr "Hay algunos problemas con Viva Wallet, inténtelo de nuevo más tarde.%s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hay algunos problemas con Viva Wallet, inténtelo de nuevo más tarde.%s"
 >>>>>>> upstream/18.0
@@ -4565,8 +4600,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No se ha podido recuperar el token de portador de Viva Wallet: verifique que"
 " el ID de cliente y el secreto de cliente son correctos."
+=======
+"No se ha podido recuperar el token de portador de Viva Wallet: verifique que "
+"el ID de cliente y el secreto de cliente son correctos."
+>>>>>>> upstream/18.0
 =======
 "No se ha podido recuperar el token de portador de Viva Wallet: verifique que "
 "el ID de cliente y el secreto de cliente son correctos."
@@ -5402,6 +5442,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/merchant-id-and-api-key/"
@@ -5410,6 +5451,8 @@ msgstr ""
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/merchant-id-and-api-key/"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5910,6 +5953,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6411,6 +6457,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
@@ -6419,6 +6466,8 @@ msgstr ""
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6921,6 +6970,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7468,7 +7520,10 @@ msgstr "recibió un mensaje para un terminal no registrado en Odoo: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7968,6 +8023,9 @@ msgstr "recibió un mensaje para un terminal no registrado en Odoo: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

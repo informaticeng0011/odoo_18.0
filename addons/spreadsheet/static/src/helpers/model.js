@@ -37,6 +37,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getNeutralizedLink } from "./neutralized_link";
+>>>>>>> upstream/18.0
 =======
 import { getNeutralizedLink } from "./neutralized_link";
 >>>>>>> upstream/18.0
@@ -370,7 +374,11 @@ export async function freezeOdooData(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cell.content = evaluatedCell.value.toString();
+=======
+                cell.content = toFrozenContent(evaluatedCell);
+>>>>>>> upstream/18.0
 =======
                 cell.content = toFrozenContent(evaluatedCell);
 >>>>>>> upstream/18.0
@@ -1055,7 +1063,11 @@ export async function freezeOdooData(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 content: evaluatedCell.value.toString(),
+=======
+                                content: toFrozenContent(evaluatedCell),
+>>>>>>> upstream/18.0
 =======
                                 content: toFrozenContent(evaluatedCell),
 >>>>>>> upstream/18.0
@@ -1590,7 +1602,11 @@ export async function freezeOdooData(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cell.content = evaluatedCell.link.label;
+=======
+                cell.content = `[${evaluatedCell.link.label}](${getNeutralizedLink()})`;
+>>>>>>> upstream/18.0
 =======
                 cell.content = `[${evaluatedCell.link.label}](${getNeutralizedLink()})`;
 >>>>>>> upstream/18.0
@@ -1854,7 +1870,10 @@ export async function freezeOdooData(model) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2361,6 +2380,9 @@ function toFrozenContent(evaluatedCell) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

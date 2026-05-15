@@ -158,6 +158,11 @@ import random
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import datetime
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 import datetime
 from freezegun import freeze_time
@@ -1055,6 +1060,7 @@ class TestBlogPerformance(UtilPerf):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertLessEqual(self._get_url_hot_query('/blog'), 11)
 =======
         self.assertLessEqual(self._get_url_hot_query('/blog'), 10)
@@ -1635,6 +1641,8 @@ class TestBlogPerformance(UtilPerf):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # some blog post are published at the same time the test is run meaning that they are not published.
         # We ave multiple possibilities when _get_url_hot_query is called:
         # - all call to /blog are executed before the publication date: 9 total queries (8)
@@ -1797,6 +1805,9 @@ class TestBlogPerformance(UtilPerf):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

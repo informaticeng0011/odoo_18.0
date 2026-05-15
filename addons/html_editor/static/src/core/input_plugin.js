@@ -3,6 +3,7 @@ import { Plugin } from "../plugin";
 export class InputPlugin extends Plugin {
     static id = "input";
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["history"];
     setup() {
         this.addDomListener(this.editable, "beforeinput", this.onBeforeInput);
@@ -856,6 +857,8 @@ export class InputPlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     static dependencies = ["history", "selection"];
     setup() {
         this.addDomListener(this.editable, "beforeinput", this.onBeforeInput);
@@ -890,12 +893,16 @@ export class InputPlugin extends Plugin {
     }
 
     onBeforeInput(ev) {
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const selection = this.document.getSelection();
         if (!this.editable.contains(selection?.anchorNode)) {
             ev.preventDefault();
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1743,6 +1750,11 @@ export class InputPlugin extends Plugin {
 >>>>>>> upstream/18.0
         this.dependencies.history.stageSelection();
         this.dispatchTo("beforeinput_handlers", ev);
+=======
+        this.dependencies.history.stageSelection();
+        this.dispatchTo("beforeinput_handlers", ev);
+        this.dependencies.selection.setCachedSelection(null);
+>>>>>>> upstream/18.0
 =======
         this.dependencies.history.stageSelection();
         this.dispatchTo("beforeinput_handlers", ev);

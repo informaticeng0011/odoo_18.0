@@ -70,8 +70,11 @@ export class TableOfContentPlugin extends Plugin {
         const selector = HEADINGS.join(",");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!(!element || element.querySelector(selector) || element.closest(selector))) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (
@@ -83,6 +86,9 @@ export class TableOfContentPlugin extends Plugin {
             )
         ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

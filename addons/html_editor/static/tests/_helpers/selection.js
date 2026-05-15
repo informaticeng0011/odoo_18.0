@@ -284,6 +284,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { manuallyDispatchProgrammaticEvent, animationFrame } from "@odoo/hoot-dom";
+
+>>>>>>> upstream/18.0
 =======
 import { manuallyDispatchProgrammaticEvent, animationFrame } from "@odoo/hoot-dom";
 
@@ -1930,7 +1935,10 @@ function visitAndSetRange(target, ref, configSelection) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2825,6 +2833,9 @@ export async function simulateTripleClickSelect(target) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

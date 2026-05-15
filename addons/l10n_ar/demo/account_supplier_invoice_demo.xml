@@ -271,6 +271,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <field name="ref">demo_sup_invoice_8: Invoice to ADHOC with multiple taxes and perceptions</field>
+>>>>>>> upstream/18.0
 =======
         <field name="ref">demo_sup_invoice_8: Invoice to ADHOC with multiple taxes and perceptions</field>
 >>>>>>> upstream/18.0
@@ -948,6 +952,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -958,6 +963,8 @@
                 ref(f'account.{ref('base.company_ri')}_ri_tax_vat_0_compras'),
                 ref(f'account.{ref('base.company_ri')}_ri_tax_percepcion_iibb_caba_sufrida')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1451,6 +1458,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1946,7 +1956,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ref(f'account.{ref('base.company_ri')}_ri_tax_vat_0_compras'),
+=======
+                ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
+>>>>>>> upstream/18.0
 =======
                 ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
 >>>>>>> upstream/18.0
@@ -2608,6 +2622,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ref(f'account.{ref('base.company_ri')}_ri_tax_vat_0_compras'),
                 ref('account.%s_base_tax_otros_tributos' % ref('base.company_ri'))
             ])]
@@ -2620,6 +2635,8 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3113,6 +3130,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3631,7 +3651,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4139,7 +4162,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ref(f'account.{ref('base.company_ri')}_ri_tax_vat_0_compras'),
+=======
+                ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
+>>>>>>> upstream/18.0
 =======
                 ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
 >>>>>>> upstream/18.0
@@ -4801,8 +4828,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ref(f'account.{ref('base.company_ri')}_ri_tax_vat_0_compras'),
                 ref(f'account.{ref('base.company_ri')}_ri_tax_percepcion_iibb_caba_sufrida')
+=======
+                ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
+                ref('account.%s_ri_tax_percepcion_iibb_caba_sufrida' % ref('base.company_ri'))
+>>>>>>> upstream/18.0
 =======
                 ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
                 ref('account.%s_ri_tax_percepcion_iibb_caba_sufrida' % ref('base.company_ri'))
@@ -5638,7 +5670,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ref(f'account.{ref('base.company_ri')}_ri_tax_vat_0_compras'),
+=======
+                ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
+>>>>>>> upstream/18.0
 =======
                 ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
 >>>>>>> upstream/18.0
@@ -6136,6 +6172,7 @@
            }),
             (0, 0, {'product_id': ref('product.product_product_25'), 'price_unit': 1740.0, 'quantity': 1,
             'tax_ids': [(6, 0, [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6958,6 +6995,10 @@
                 ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
                 ref('account.%s_ri_tax_percepcion_iibb_caba_sufrida' % ref('base.company_ri'))
 >>>>>>> upstream/18.0
+=======
+                ref('account.%s_ri_tax_vat_0_compras' % ref('base.company_ri')),
+                ref('account.%s_ri_tax_percepcion_iibb_caba_sufrida' % ref('base.company_ri'))
+>>>>>>> upstream/18.0
             ])]
            }),
         ]"/>
@@ -7128,6 +7169,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7736,7 +7780,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8241,6 +8288,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

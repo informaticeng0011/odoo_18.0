@@ -33,6 +33,10 @@ from odoo.addons.project.controllers.portal import ProjectCustomerPortal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.sale.controllers.portal import CustomerPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sale.controllers.portal import CustomerPortal
 >>>>>>> upstream/18.0
@@ -226,7 +230,10 @@ class SaleTimesheetCustomerPortal(TimesheetCustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -301,6 +308,9 @@ class SaleTimesheetSaleCustomerPortal(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

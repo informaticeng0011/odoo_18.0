@@ -56,6 +56,10 @@ class IrActionsReport(models.Model):
                     last_page = res_pdf.getPage(-1)
                     last_page.mergePage(qr_pdf.getPage(0))
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    last_page.compressContentStreams()
+>>>>>>> upstream/18.0
 =======
                     last_page.compressContentStreams()
 >>>>>>> upstream/18.0

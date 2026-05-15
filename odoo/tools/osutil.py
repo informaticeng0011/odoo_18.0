@@ -156,6 +156,10 @@ def zip_dir(path, stream, include_dir=True, fnct_sort=None):      # TODO add ign
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    dir_root_path = os.path.realpath(path)
+>>>>>>> upstream/18.0
 =======
     dir_root_path = os.path.realpath(path)
 >>>>>>> upstream/18.0
@@ -551,10 +555,13 @@ def zip_dir(path, stream, include_dir=True, fnct_sort=None):      # TODO add ign
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     path = os.path.normpath(os.path.join(dirpath, fname))
                     if os.path.isfile(path):
                         zipf.write(path, path[len_prefix:])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -847,6 +854,9 @@ def zip_dir(path, stream, include_dir=True, fnct_sort=None):      # TODO add ign
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

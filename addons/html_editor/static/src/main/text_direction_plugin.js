@@ -279,6 +279,7 @@ export class TextDirectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const selectedTextNodes = [
             selection.anchorNode,
             ...this.dependencies.selection.getSelectedNodes(),
@@ -286,6 +287,8 @@ export class TextDirectionPlugin extends Plugin {
         const blocks = new Set(
             selectedTextNodes.map(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1024,6 +1027,9 @@ export class TextDirectionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

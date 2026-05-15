@@ -346,6 +346,7 @@ def data_method_provider(chart_template_name, country_code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'account_type': 'asset_current',
                 },
                 f'{external_id_prefix}test_account_tax_receivable_template': {
@@ -353,6 +354,8 @@ def data_method_provider(chart_template_name, country_code):
                     'code': '411200',
                     'account_type': 'asset_current',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1239,6 +1242,9 @@ def data_method_provider(chart_template_name, country_code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2124,10 +2130,13 @@ def data_method_provider(chart_template_name, country_code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'name': f'{external_id_prefix}tax recoverable',
                     'code': '451200',
                     'account_type': 'liability_current',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3009,6 +3018,9 @@ def data_method_provider(chart_template_name, country_code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3943,7 +3955,11 @@ def data_method_provider(chart_template_name, country_code):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _tax_vals(name, amount, external_id_prefix):
+=======
+def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_repartition=True):
+>>>>>>> upstream/18.0
 =======
 def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_repartition=True):
 >>>>>>> upstream/18.0
@@ -5153,6 +5169,7 @@ def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_rep
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'cash_basis_transition_account_id': f'{external_id_prefix}test_account_cash_basis_transition_account_id',
         'repartition_line_ids': [
             Command.create({'document_type': 'invoice', 'factor_percent': 100, 'repartition_type': 'base'}),
@@ -5162,6 +5179,8 @@ def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_rep
             Command.create({'document_type': 'refund', 'factor_percent': 100, 'repartition_type': 'tax',
                            'account_id': f'{external_id_prefix}test_account_tax_recoverable_template'}),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6071,6 +6090,9 @@ def _tax_vals(name, amount, external_id_prefix, cash_basis=False, account_on_rep
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7059,7 +7081,10 @@ class TestMultiVAT(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(tax.cash_basis_transition_account_id.code, '451501')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7969,7 +7994,10 @@ class TestMultiVAT(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(tax.cash_basis_transition_account_id.code, '451501')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8890,7 +8918,10 @@ class TestMultiVAT(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9822,6 +9853,9 @@ class TestMultiVAT(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

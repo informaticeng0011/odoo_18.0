@@ -197,6 +197,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, timedelta
 
 from odoo import models, fields
@@ -990,6 +991,8 @@ from odoo import api, fields, models
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import pytz
 from datetime import timedelta
 
@@ -1058,6 +1061,9 @@ from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1194,6 +1200,7 @@ class HolidaysRequest(models.Model):
 
     l10n_in_contains_sandwich_leaves = fields.Boolean()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2041,6 +2048,8 @@ class HolidaysRequest(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _l10n_in_is_working(self, on_date, public_holiday_dates, resource_calendar):
         return on_date not in public_holiday_dates and resource_calendar._works_on_date(on_date)
 
@@ -2152,7 +2161,10 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2349,6 +2361,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2573,6 +2588,7 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         public_holidays_dates_by_company = {
             company_id: {
                 (datetime.date(holiday.date_from.astimezone(tz)) + timedelta(days=offset)): holiday
@@ -2590,6 +2606,8 @@ class HolidaysRequest(models.Model):
         }
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2799,6 +2817,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3168,6 +3189,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3565,6 +3589,7 @@ class HolidaysRequest(models.Model):
 
     def _get_durations(self, check_leave_type=True, resource_calendar=None):
         result = super()._get_durations(check_leave_type, resource_calendar)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4817,6 +4842,11 @@ class HolidaysRequest(models.Model):
         indian_leaves, leaves_dates_by_employee, public_holidays_date_by_company = self._l10n_in_prepare_sandwich_context()
         if not indian_leaves:
 >>>>>>> upstream/18.0
+=======
+
+        indian_leaves, leaves_dates_by_employee, public_holidays_date_by_company = self._l10n_in_prepare_sandwich_context()
+        if not indian_leaves:
+>>>>>>> upstream/18.0
             return result
 
         for leave in indian_leaves:
@@ -4916,7 +4946,12 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.l10n_in_contains_sandwich_leaves = False
+=======
+        if all(state in ['refuse', 'cancel'] for state in self.mapped('state')):
+            self.l10n_in_contains_sandwich_leaves = False
+>>>>>>> upstream/18.0
 =======
         if all(state in ['refuse', 'cancel'] for state in self.mapped('state')):
             self.l10n_in_contains_sandwich_leaves = False
@@ -5310,6 +5345,11 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if any(state in ['validate', 'validate1', 'confirm'] for state in self.mapped('state')):
+            neighbors |= self
+>>>>>>> upstream/18.0
 =======
         if any(state in ['validate', 'validate1', 'confirm'] for state in self.mapped('state')):
             neighbors |= self
@@ -5731,7 +5771,10 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5970,6 +6013,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6323,6 +6369,9 @@ class HolidaysRequest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

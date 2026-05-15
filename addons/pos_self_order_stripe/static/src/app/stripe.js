@@ -127,13 +127,19 @@ export class Stripe {
 
     async collectPaymentMethod(clientSecret) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         const result = await this.terminal.collectPaymentMethod(clientSecret);
 =======
+=======
+>>>>>>> upstream/18.0
         const result = await this.terminal.collectPaymentMethod(clientSecret, {
             config_override: {
                 enable_customer_cancellation: true,
             },
         });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         if (result.error) {

@@ -246,6 +246,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -997,7 +1001,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
         cls.uom_unit = cls.env.ref('uom.product_uom_unit')
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def _make_in_move(self, product, quantity, unit_cost=None):
         unit_cost = unit_cost or product.standard_price
         in_move = self.env['stock.move'].create({
@@ -1033,6 +1040,9 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
         out_move._action_done()
         return out_move.with_context(svl=True)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @classmethod
     def _create_product(cls, **kwargs):
@@ -1885,7 +1895,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2615,6 +2628,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        (compo01 + compo02 + kit).write({'invoice_policy': 'order'})
+>>>>>>> upstream/18.0
 =======
         (compo01 + compo02 + kit).write({'invoice_policy': 'order'})
 >>>>>>> upstream/18.0
@@ -3593,6 +3610,7 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4051,6 +4069,8 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4148,6 +4168,7 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4178,6 +4199,8 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_kit_component_avco_rounding_4_digits(self):
         """
@@ -4242,4 +4265,7 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
         out_moves._action_done()
         self.assertEqual(len(component.stock_valuation_layer_ids), 5)
         self.assertEqual(sum(component.stock_valuation_layer_ids.mapped('value')), -3.34)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -110,6 +110,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from json import JSONDecodeError
+>>>>>>> upstream/18.0
 =======
 from json import JSONDecodeError
 >>>>>>> upstream/18.0
@@ -627,7 +631,11 @@ class ETransportAPI:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         except requests.exceptions.JSONDecodeError as e:
+=======
+        except JSONDecodeError as e:
+>>>>>>> upstream/18.0
 =======
         except JSONDecodeError as e:
 >>>>>>> upstream/18.0

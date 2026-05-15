@@ -228,6 +228,7 @@ class HRLeaveType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         leave_type_names = deductible_time_off_types.mapped('name')
         for employee in res:
             for leave_data in res[employee]:
@@ -237,6 +238,8 @@ class HRLeaveType(models.Model):
                 else:
                     leave_data[1]['overtime_deductible'] = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -676,7 +679,11 @@ class HRLeaveType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             'max_leaves': 0,
+=======
+                            'max_leaves': employee.sudo().total_overtime,
+>>>>>>> upstream/18.0
 =======
                             'max_leaves': employee.sudo().total_overtime,
 >>>>>>> upstream/18.0
@@ -1035,6 +1042,9 @@ class HRLeaveType(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

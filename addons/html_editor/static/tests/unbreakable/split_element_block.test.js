@@ -289,6 +289,7 @@ test("should insert a newline instead of splitting an explicit contenteditable='
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -925,6 +926,9 @@ test("should keep the last line break in the old paragraph (1)", async () => {
 =======
 test("should keep the last line break in the old paragraph (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+test("should keep the last line break in the old paragraph (1)", async () => {
+>>>>>>> upstream/18.0
     await testEditor({
         contentBefore: "<div><p>abc<br>[]<br></p></div>",
         stepFunction: splitBlock,
@@ -1076,6 +1080,11 @@ test("should keep the last line break in the old paragraph (1)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should keep the last line break in the old paragraph (2)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should keep the last line break in the old paragraph (2)", async () => {
@@ -1811,6 +1820,11 @@ test("should keep the last line break in the old paragraph (2)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should keep the last line break in the old paragraph (3)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should keep the last line break in the old paragraph (3)", async () => {
@@ -2546,6 +2560,11 @@ test("should keep the last line break in the old paragraph (3)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+test("should keep the last line break in the old paragraph (4)", async () => {
+>>>>>>> upstream/18.0
 =======
 });
 test("should keep the last line break in the old paragraph (4)", async () => {
@@ -3380,6 +3399,9 @@ test("should keep the last line break in the old paragraph (4)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
