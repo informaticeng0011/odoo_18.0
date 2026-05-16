@@ -247,6 +247,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.fields import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
 >>>>>>> upstream/18.0
@@ -1002,7 +1006,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _make_in_move(self, product, quantity, unit_cost=None):
@@ -1041,6 +1048,9 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
         return out_move.with_context(svl=True)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1896,7 +1906,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2629,6 +2642,10 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        (compo01 + compo02 + kit).write({'invoice_policy': 'order'})
+>>>>>>> upstream/18.0
 =======
         (compo01 + compo02 + kit).write({'invoice_policy': 'order'})
 >>>>>>> upstream/18.0
@@ -3611,6 +3628,7 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4069,6 +4087,8 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4169,6 +4189,7 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4199,6 +4220,8 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -4266,6 +4289,9 @@ class TestSaleMRPAngloSaxonValuation(ValuationReconciliationTestCommon):
         self.assertEqual(len(component.stock_valuation_layer_ids), 5)
         self.assertEqual(sum(component.stock_valuation_layer_ids.mapped('value')), -3.34)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

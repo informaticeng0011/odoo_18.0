@@ -123,8 +123,11 @@ def _ensure_document_not_encrypted(document):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if pdf.PdfFileReader(io.BytesIO(document), strict=False).isEncrypted:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -470,6 +473,9 @@ def _ensure_document_not_encrypted(document):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -825,8 +831,11 @@ def _get_form_fields_from_pdf(pdf_data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     reader = pdf.PdfFileReader(io.BytesIO(base64.b64decode(pdf_data)), strict=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1170,6 +1179,9 @@ def _get_form_fields_from_pdf(pdf_data):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

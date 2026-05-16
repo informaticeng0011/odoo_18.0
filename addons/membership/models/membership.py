@@ -139,7 +139,11 @@ class MembershipLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', required=True,
+=======
+        min_display_digits='Product Price', required=True,
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', required=True,
 >>>>>>> upstream/18.0
@@ -496,6 +500,7 @@ class MembershipLine(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._cr.execute('''
             SELECT reversed_entry_id, COUNT(id)
             FROM account_move
@@ -506,6 +511,8 @@ class MembershipLine(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         groups = self.env['account.move'].sudo().read_group(
             domain=[('reversed_entry_id', 'in', self.account_invoice_id.ids)],
             fields=['reversed_entry_id'],
@@ -513,6 +520,9 @@ class MembershipLine(models.Model):
         )
         reverse_map = {g['reversed_entry_id'][0]: g['reversed_entry_id_count'] for g in groups}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

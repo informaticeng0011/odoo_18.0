@@ -128,8 +128,11 @@ export class Stripe {
     async collectPaymentMethod(clientSecret) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const result = await this.terminal.collectPaymentMethod(clientSecret);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         const result = await this.terminal.collectPaymentMethod(clientSecret, {
@@ -138,6 +141,9 @@ export class Stripe {
             },
         });
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

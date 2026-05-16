@@ -348,6 +348,7 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if vals.get('active'):
             inactive_emp = self.filtered(lambda e: not e.active)
@@ -1433,6 +1434,8 @@ class Employee(models.Model):
             inactive_emp = self.filtered(lambda e: not e.active)
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1609,6 +1612,9 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1725,6 +1731,7 @@ class Employee(models.Model):
         if 'active' in vals:
             if vals.get('active'):
                 # Create future holiday timesheets
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3362,11 +3369,16 @@ class Employee(models.Model):
                 inactive_emp = inactive_emp.with_env(self_company.env)
                 inactive_emp._create_future_public_holidays_timesheets(inactive_emp)
 >>>>>>> upstream/18.0
+=======
+                inactive_emp = inactive_emp.with_env(self_company.env)
+                inactive_emp._create_future_public_holidays_timesheets(inactive_emp)
+>>>>>>> upstream/18.0
             else:
                 # Delete future holiday timesheets
                 self_company._delete_future_public_holidays_timesheets()
         elif 'resource_calendar_id' in vals:
             # Update future holiday timesheets
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4620,6 +4632,8 @@ class Employee(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             changed = self_company.filtered(
                 lambda employee: old_calendars.get(employee.id) != employee.resource_calendar_id.id
             )
@@ -4681,6 +4695,9 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4962,7 +4979,11 @@ class Employee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [('calendar_id', '=', False), ('date_from', '>=', today)],
+=======
+            [('calendar_id', '=', False), ('resource_id', '=', False), ('date_from', '>=', today)],
+>>>>>>> upstream/18.0
 =======
             [('calendar_id', '=', False), ('resource_id', '=', False), ('date_from', '>=', today)],
 >>>>>>> upstream/18.0

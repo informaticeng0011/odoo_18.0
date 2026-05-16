@@ -258,7 +258,11 @@ patch(Message.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         super.edit(body, attachments, {
+=======
+        return await super.edit(body, attachments, {
+>>>>>>> upstream/18.0
 =======
         return await super.edit(body, attachments, {
 >>>>>>> upstream/18.0

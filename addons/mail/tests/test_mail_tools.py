@@ -329,6 +329,7 @@ from odoo.tests import tagged, users
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.tools.parser import domain_eval
 from freezegun import freeze_time
@@ -416,6 +417,8 @@ from freezegun import freeze_time
 =======
 from odoo.addons.mail.tools.parser import domain_eval
 from freezegun import freeze_time
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1527,6 +1530,7 @@ class TestMailTools(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2257,6 +2261,8 @@ class TestMailTools(MailCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_mail_find_partner_from_emails_tiebreaker(self):
         """Test deterministic tie-breaking when two company partners share an email."""
         Partner = self.env['res.partner']
@@ -2284,6 +2290,9 @@ class TestMailTools(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -413,8 +413,13 @@ class TestFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Sub-test: Export/SEZ (Outside India)
         with self.subTest(scenario="Export/SEZ"):
+=======
+        # Sub-test: Export (Outside India)
+        with self.subTest(scenario="Export"):
+>>>>>>> upstream/18.0
 =======
         # Sub-test: Export (Outside India)
         with self.subTest(scenario="Export"):
@@ -1591,7 +1596,11 @@ class TestFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 template.ref('fiscal_position_in_export_sez_in')
+=======
+                template.ref('fiscal_position_in_sez')
+>>>>>>> upstream/18.0
 =======
                 template.ref('fiscal_position_in_sez')
 >>>>>>> upstream/18.0
@@ -2520,11 +2529,14 @@ class TestFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Here fpos should Inter-State. But due to `property_account_position_id` it will be Export/SEZ
             self.partner_a.write({
                 'state_id': company_state.id,  # Intra-State Partner
                 'property_account_position_id': template.ref('fiscal_position_in_export_sez_in').id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3219,6 +3231,9 @@ class TestFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3696,6 +3711,7 @@ class TestFiscal(L10nInTestInvoicingCommon):
     
             self.assertEqual(
                 vendor_bill.fiscal_position_id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4897,6 +4913,10 @@ class TestFiscal(L10nInTestInvoicingCommon):
                 self.env['account.chart.template'].ref('fiscal_position_in_lut_sez_1')
             )
 >>>>>>> upstream/18.0
+=======
+                self.env['account.chart.template'].ref('fiscal_position_in_lut_sez_1')
+            )
+>>>>>>> upstream/18.0
 
     def test_l10n_in_company_with_no_vat(self):
         """
@@ -5157,6 +5177,9 @@ class TestFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

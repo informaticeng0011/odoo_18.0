@@ -30,10 +30,13 @@ class ChooseDeliveryPackage(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             move_line_ids = rec.picking_id._package_move_lines(
                 batch_pack=self.env.context.get('batch_pack')
             )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61,6 +64,9 @@ class ChooseDeliveryPackage(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -326,7 +332,12 @@ class ChooseDeliveryPackage(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_line_ids = self.picking_id._package_move_lines(batch_pack=self.env.context.get("batch_pack"))
+=======
+        move_line_ids = self.env["stock.move.line"].browse(self.env.context.get("default_move_line_ids"))\
+            or self.picking_id._package_move_lines(batch_pack=self.env.context.get("batch_pack"))
+>>>>>>> upstream/18.0
 =======
         move_line_ids = self.env["stock.move.line"].browse(self.env.context.get("default_move_line_ids"))\
             or self.picking_id._package_move_lines(batch_pack=self.env.context.get("batch_pack"))

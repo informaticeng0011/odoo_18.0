@@ -188,6 +188,10 @@ patch(accountTaxHelpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            uom: evaluation_context.uom,
+>>>>>>> upstream/18.0
 =======
             uom: evaluation_context.uom,
 >>>>>>> upstream/18.0
@@ -952,7 +956,11 @@ patch(accountTaxHelpers, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** override **/
+=======
+    // EXTENDS 'account'
+>>>>>>> upstream/18.0
 =======
     // EXTENDS 'account'
 >>>>>>> upstream/18.0

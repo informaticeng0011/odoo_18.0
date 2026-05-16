@@ -490,7 +490,11 @@ export class BaseImportModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (importRes.nextrow) {
+=======
+            if (!isTest && importRes.nextrow) {
+>>>>>>> upstream/18.0
 =======
             if (!isTest && importRes.nextrow) {
 >>>>>>> upstream/18.0
@@ -1317,6 +1321,10 @@ export class BaseImportModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this.setOption("skip", 0);
+>>>>>>> upstream/18.0
 =======
                 this.setOption("skip", 0);
 >>>>>>> upstream/18.0

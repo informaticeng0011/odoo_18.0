@@ -215,7 +215,10 @@ from odoo import fields, models, api
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -767,6 +770,10 @@ UOM_TO_UNECE_CODE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'uom.product_uom_minute': 'MIN',
+>>>>>>> upstream/18.0
 =======
     'uom.product_uom_minute': 'MIN',
 >>>>>>> upstream/18.0
@@ -1210,7 +1217,11 @@ UOM_TO_UNECE_CODE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'uom.product_uom_qt': 'QT',
+=======
+    'uom.product_uom_qt': 'QTL',
+>>>>>>> upstream/18.0
 =======
     'uom.product_uom_qt': 'QTL',
 >>>>>>> upstream/18.0
@@ -1417,6 +1428,7 @@ UOM_TO_UNECE_CODE = {
     'uom.uom_square_foot': 'FTK',
     'uom.product_uom_yard': 'YRD',
     'uom.product_uom_millimeter': 'MMT',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1808,6 +1820,11 @@ UOM_TO_UNECE_CODE = {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    'uom.product_uom_kwh': 'KWH',
+}
+
 >>>>>>> upstream/18.0
 =======
     'uom.product_uom_kwh': 'KWH',
@@ -2645,6 +2662,7 @@ class UoM(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         mapping = {
             'uom.product_uom_unit': 'C62',
             'uom.product_uom_dozen': 'DZN',
@@ -2677,6 +2695,8 @@ class UoM(models.Model):
         matches = list(set(xml_ids) & set(mapping.keys()))
         return matches and mapping[matches[0]] or 'C62'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3319,6 +3339,9 @@ class UoM(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

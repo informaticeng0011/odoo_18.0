@@ -115,6 +115,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -508,6 +513,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -901,6 +911,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -1293,6 +1308,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'available_in_pos': True,
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'available_in_pos': True,
             'self_order_available': True,
@@ -1677,6 +1697,7 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_extra_product = self.env['product.product'].create({
             'name': 'Product with attributes',
             'is_storable': True,
@@ -1702,6 +1723,8 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
             'self_order_available': True,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1920,6 +1943,9 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2165,7 +2191,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_tmpl_id': price_extra_product.product_tmpl_id.id,
+=======
+            'product_tmpl_id': self.price_extra_product.product_tmpl_id.id,
+>>>>>>> upstream/18.0
 =======
             'product_tmpl_id': self.price_extra_product.product_tmpl_id.id,
 >>>>>>> upstream/18.0
@@ -2458,7 +2488,11 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_tmpl_id': price_extra_product.product_tmpl_id.id,
+=======
+            'product_tmpl_id': self.price_extra_product.product_tmpl_id.id,
+>>>>>>> upstream/18.0
 =======
             'product_tmpl_id': self.price_extra_product.product_tmpl_id.id,
 >>>>>>> upstream/18.0
@@ -2770,6 +2804,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -3085,6 +3123,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -3400,6 +3442,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'self_order_available': True,
+>>>>>>> upstream/18.0
 =======
             'self_order_available': True,
 >>>>>>> upstream/18.0
@@ -3815,7 +3861,10 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4032,6 +4081,7 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tax_21.price_include_override = 'tax_excluded'
         self.tax_6.price_include_override = 'tax_excluded'
 
@@ -4098,6 +4148,8 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4259,6 +4311,9 @@ class TestSelfOrderCombo(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

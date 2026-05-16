@@ -69,6 +69,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        autofocus: 0,
+>>>>>>> upstream/18.0
 =======
         autofocus: 0,
 >>>>>>> upstream/18.0
@@ -361,6 +365,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.root = useRef("root");
+>>>>>>> upstream/18.0
 =======
         this.root = useRef("root");
 >>>>>>> upstream/18.0
@@ -1343,8 +1351,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.ref.el.style.height = this.fakeTextarea.el.scrollHeight + "px";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2131,6 +2142,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2995,6 +3009,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ev.preventDefault();
+>>>>>>> upstream/18.0
 =======
         ev.preventDefault();
 >>>>>>> upstream/18.0
@@ -4293,7 +4311,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (this.isMobileOS) {
+=======
+                if (this.isMobileOS || ev.isComposing) {
+>>>>>>> upstream/18.0
 =======
                 if (this.isMobileOS || ev.isComposing) {
 >>>>>>> upstream/18.0
@@ -5106,6 +5128,7 @@ export class Composer extends Component {
         }
         default_body = this.formatDefaultBodyForFullComposer(
             default_body,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6271,6 +6294,9 @@ export class Composer extends Component {
 =======
             this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
 >>>>>>> upstream/18.0
+=======
+            this.props.composer.emailAddSignature ? this.thread.effectiveSelf.signature : ""
+>>>>>>> upstream/18.0
         );
         const context = {
             default_attachment_ids: attachmentIds,
@@ -6344,6 +6370,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            body_contains_signature_only: !body || body.trim().length === 0,
+>>>>>>> upstream/18.0
 =======
             body_contains_signature_only: !body || body.trim().length === 0,
 >>>>>>> upstream/18.0
@@ -6594,6 +6624,7 @@ export class Composer extends Component {
 
     async processMessage(cb) {
         const el = this.ref.el;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7263,6 +7294,8 @@ export class Composer extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (this.props.composer.attachments.some(({ uploading }) => uploading)) {
             this.env.services.notification.add(_t("Please wait while the file is uploading."), {
                 type: "warning",
@@ -7487,6 +7520,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8160,7 +8196,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8826,6 +8865,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9544,7 +9586,11 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (composer.text || composer.message.attachment_ids.length > 0) {
+=======
+        if (!this.askDeleteFromEdit) {
+>>>>>>> upstream/18.0
 =======
         if (!this.askDeleteFromEdit) {
 >>>>>>> upstream/18.0
@@ -10432,6 +10478,7 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.env.services.dialog.add(MessageConfirmDialog, {
                 message: composer.message,
                 onConfirm: () => this.message.remove(),
@@ -10876,10 +10923,13 @@ export class Composer extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             this.env.services.dialog.add(
                 MessageConfirmDialog,
                 {
                     message: composer.message,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11969,6 +12019,8 @@ export class Composer extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     onConfirm: () =>
                         this.message.remove({
                             removeFromThread: this.shouldHideFromMessageListOnDelete,
@@ -11981,6 +12033,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12221,6 +12276,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12884,7 +12942,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13547,6 +13608,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14030,7 +14094,12 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onFocusin() {
+=======
+    onFocusin(ev) {
+        ev.stopPropagation();
+>>>>>>> upstream/18.0
 =======
     onFocusin(ev) {
         ev.stopPropagation();
@@ -14390,7 +14459,10 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14950,6 +15022,9 @@ export class Composer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

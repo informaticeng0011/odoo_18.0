@@ -248,7 +248,11 @@ import { createUrl, refresh } from "../core/url";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useWindowListener } from "../hoot_utils";
+=======
+import { callHootKey, useHootKey, useWindowListener } from "../hoot_utils";
+>>>>>>> upstream/18.0
 =======
 import { callHootKey, useHootKey, useWindowListener } from "../hoot_utils";
 >>>>>>> upstream/18.0
@@ -1254,7 +1258,10 @@ const { setTimeout } = globalThis;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2015,6 +2022,9 @@ const HEADLESS_LINK_STYLE = ["color: #714b67", "text-decoration: underline"].joi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2771,6 +2781,7 @@ export class HootMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="env.runner.config.headless">
             <div class="absolute bottom-0 start-1/2 -translate-x-1/2
                 flex z-4 mb-4 px-4 py-2 gap-2 whitespace-nowrap
@@ -2779,6 +2790,8 @@ export class HootMain extends Component {
                 Running in headless mode
                 <a class="text-primary hover:underline" t-att-href="createUrl({ headless: null })">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3518,6 +3531,9 @@ export class HootMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4319,9 +4335,12 @@ export class HootMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         useWindowListener("keydown", (ev) => this.onWindowKeyDown(ev));
         useWindowListener("resize", (ev) => this.onWindowResize(ev));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5065,6 +5084,9 @@ export class HootMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5561,6 +5583,7 @@ export class HootMain extends Component {
     /**
      * @param {KeyboardEvent} ev
      */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6332,6 +6355,8 @@ export class HootMain extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     abort(ev) {
         const { runner } = this.env;
         this.escapeKeyPresses++;
@@ -6603,6 +6628,9 @@ export class HootMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7346,7 +7374,10 @@ export class HootMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8092,6 +8123,9 @@ export class HootMain extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

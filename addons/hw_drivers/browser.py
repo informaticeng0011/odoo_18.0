@@ -237,8 +237,12 @@ class Browser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browser = 'chromium-browser' if float(helpers.get_version()[1:]) >= MIN_IMAGE_VERSION else 'firefox'
         self.browser_process_name = 'chromium' if self.browser == 'chromium-browser' else self.browser
+=======
+        self.browser = 'chromium' if float(helpers.get_version()[1:8]) >= MIN_IMAGE_VERSION else 'firefox'
+>>>>>>> upstream/18.0
 =======
         self.browser = 'chromium' if float(helpers.get_version()[1:8]) >= MIN_IMAGE_VERSION else 'firefox'
 >>>>>>> upstream/18.0
@@ -857,6 +861,7 @@ class Browser:
         # Reopen to take new url or additional args into account
         self.close_browser()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2076,6 +2081,8 @@ class Browser:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         browser_args = list(CHROMIUM_ARGS) if self.browser == 'chromium' else []
 
         if state == BrowserState.KIOSK:
@@ -2199,6 +2206,9 @@ class Browser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2657,7 +2667,11 @@ class Browser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         subprocess.run(['pkill', self.browser_process_name], check=False)
+=======
+        subprocess.run(['pkill', self.browser], check=False)
+>>>>>>> upstream/18.0
 =======
         subprocess.run(['pkill', self.browser], check=False)
 >>>>>>> upstream/18.0
@@ -3456,7 +3470,11 @@ class Browser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '--class', self.browser_process_name,
+=======
+            '--class', self.browser,
+>>>>>>> upstream/18.0
 =======
             '--class', self.browser,
 >>>>>>> upstream/18.0
@@ -4257,7 +4275,11 @@ class Browser:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             '--class', self.browser_process_name,
+=======
+            '--class', self.browser,
+>>>>>>> upstream/18.0
 =======
             '--class', self.browser,
 >>>>>>> upstream/18.0
