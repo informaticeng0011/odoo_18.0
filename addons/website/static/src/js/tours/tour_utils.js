@@ -429,7 +429,11 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             run(actions) {
+=======
+            async run(actions) {
+>>>>>>> upstream/18.0
 =======
             async run(actions) {
 >>>>>>> upstream/18.0
@@ -498,8 +502,11 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     actions.click(extraMenuButton);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -553,6 +560,9 @@ export function clickOnExtraMenuItem(stepOptions, backend = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

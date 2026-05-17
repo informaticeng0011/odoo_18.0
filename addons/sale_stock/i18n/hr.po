@@ -247,8 +247,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_stock
 # 
+=======
+# * sale_stock
+#
+>>>>>>> upstream/18.0
 =======
 # * sale_stock
 #
@@ -1490,6 +1495,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2479,10 +2485,16 @@
 # Luka Carević <luka@uvid.hr>, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3368,6 +3380,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-08-26 14:55+0000\n"
 "Last-Translator: Karlo Mikešić <karlo@uvid.hr>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-16 09:03+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "sale_stock/hr/>\n"
 "Language: hr\n"
@@ -3376,6 +3393,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4116,6 +4134,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
@@ -4406,6 +4427,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Shipped\n"
 "                                    </span>"
@@ -4413,6 +4435,8 @@ msgstr ""
 "<span class=\"small badge rounded-pill text-bg-success orders_label_text_align\">\n"
 "                                        <i class=\"fa fa-fw fa-truck\"/> Poslano\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5161,6 +5185,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5907,7 +5934,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Some deliveries are already done. Returns can be created from the Delivery Orders.\n"
+=======
+"                    Some deliveries are already done. Returns can be created "
+"from the Delivery Orders.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Some deliveries are already done. Returns can be created "
 "from the Delivery Orders.\n"
@@ -7154,8 +7186,14 @@ msgstr "<strong>Oznaka kupca:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Incoterm</strong>"
 msgstr "<strong>Inkoterm</strong>"
+=======
+#, fuzzy
+msgid "<strong>Incoterm</strong>"
+msgstr "<strong>Incoterm</strong>"
+>>>>>>> upstream/18.0
 =======
 #, fuzzy
 msgid "<strong>Incoterm</strong>"
@@ -8647,6 +8685,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the delivered quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
@@ -8658,6 +8697,8 @@ msgstr ""
 "- Analitički iz troškova: količina je količinski zbroj knjiženih troškova\n"
 "- Vremenski list: količina je zbroj sati zabilježenih na zadacima povezanim s ovom prodajnom  stavkom\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9411,6 +9452,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9947,6 +9991,12 @@ msgid ""
 "            Orange: Partially Delivered\n"
 "            Green: Fully Delivered"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Plavo: Nije isporučeno/Započeto\n"
+"            Narančasto: Djelomično isporučeno\n"
+"            Zeleno: Potpuno isporučeno"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_stock_rules_report__so_route_ids
@@ -9961,7 +10011,11 @@ msgstr "Tvrtke"
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_sale_order__effective_date
 msgid "Completion date of the first delivery order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum dovršenja prvog dostavnog naloga."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_res_config_settings
@@ -10019,14 +10073,22 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__display_qty_widget
 msgid "Display Qty Widget"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Widget za prikaz količine"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-python
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
 "Do not forget to change the partner on the following delivery orders: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne zaboravite promijeniti partnera na sljedećim dostavnim nalozima: %s"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__effective_date
@@ -10036,12 +10098,20 @@ msgstr "Efektivni datum"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
 msgid "Exception(s) occurred on the picking:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do iznimke/iznimki na skladišnoj operaciji:"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
 msgid "Exception(s) occurred on the sale order(s):"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do iznimke/iznimki na prodajnom nalogu/nalozima:"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_picking
@@ -10089,7 +10159,11 @@ msgstr "Potpuno isporučeno"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__show_json_popover
 msgid "Has late picking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima zakašnjelu skladišnu operaciju"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_sale_order__picking_policy
@@ -10098,10 +10172,17 @@ msgid ""
 "based on the greatest product lead time. Otherwise, it will be based on the "
 "shortest."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Ako sve proizvode isporučujete odjednom, dostavni nalog će biti zakazan "
+"prema najdužem vremenu isporuke proizvoda. U suprotnom, bit će zakazan prema "
+"najkraćem."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
 msgid "Impacted Transfer(s):"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_stock
@@ -11590,6 +11671,15 @@ msgstr "Incoterm"
 msgid "Incoterm"
 msgstr "Incoterm"
 >>>>>>> upstream/18.0
+=======
+msgstr "Prijenos(i) na koje utječe:"
+
+#. module: sale_stock
+#: model:ir.model.fields,field_description:sale_stock.field_sale_order__incoterm
+#, fuzzy
+msgid "Incoterm"
+msgstr "Incoterm"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__incoterm_location
@@ -11841,7 +11931,11 @@ msgid "Incoterm Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Inkoterm lokacija"
+=======
+msgstr "Incoterm lokacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incoterm lokacija"
 >>>>>>> upstream/18.0
@@ -12834,7 +12928,11 @@ msgid "Incoterm details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Inkoterm detalji"
+=======
+msgstr "Incoterm detalji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incoterm detalji"
 >>>>>>> upstream/18.0
@@ -13827,7 +13925,11 @@ msgid "Incoterm:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Inkoterm:"
+=======
+msgstr "Incoterm:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Incoterm:"
 >>>>>>> upstream/18.0
@@ -14592,12 +14694,20 @@ msgstr "Skladišne rute"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__is_mto
 msgid "Is Mto"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je izrada po narudžbi"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__json_popover
 msgid "JSON data for the popover widget"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "JSON podaci za popover widget"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_account_move
@@ -14636,6 +14746,12 @@ msgid ""
 "for delivery that many days earlier than the actual promised date, to cope "
 "with unexpected delays in the supply chain."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Margina pogreške za datume obećane kupcima. Proizvodi će biti zakazani za "
+"isporuku toliko dana ranije od stvarno obećanog datuma, kako bi se nosili s "
+"neočekivanim kašnjenjima u opskrbnom lancu."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_res_company__security_lead
@@ -14643,6 +14759,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid ""
 "Margin of error for dates promised to customers. Products will be scheduled "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15881,6 +15998,14 @@ msgid ""
 "date, to cope with unexpected delays in the supply chain."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"for procurement and delivery that many days earlier than the actual promised "
+"date, to cope with unexpected delays in the supply chain."
+msgstr ""
+"Margina pogreške za datume obećane kupcima. Proizvodi će biti zakazani za "
+"nabavu i isporuku toliko dana ranije od stvarno obećanog datuma, kako bi se "
+"nosili s neočekivanim kašnjenjima u opskrbnom lancu."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__qty_delivered_method
@@ -16137,7 +16262,11 @@ msgid "Move forward expected delivery dates by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pomakni očekivane datume isporuke za"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pomakni očekivane datume isporuke za"
 >>>>>>> upstream/18.0
@@ -17130,7 +17259,11 @@ msgid "No delivery yet! Automate them with sales orders."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nema još isporuka! Automatizirjate ih sa prodajnim nalozima."
+=======
+msgstr "Nema još isporuka! Automatizirajte ih sa prodajnim nalozima."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema još isporuka! Automatizirajte ih sa prodajnim nalozima."
 >>>>>>> upstream/18.0
@@ -17911,7 +18044,11 @@ msgstr "Djelomično isporučeno"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_res_config_settings__default_picking_policy
 msgid "Picking Policy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Politika skladišne operacije"
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_procurement_group
@@ -18201,9 +18338,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                replenishment propositions, shipping connectors, barcode scanner, etc."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18949,6 +19089,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19793,7 +19936,11 @@ msgid "Security Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sigurnosno vrijeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sigurnosno vrijeme"
 >>>>>>> upstream/18.0
@@ -20786,7 +20933,11 @@ msgid "Security Lead Time for Sales"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " Sigurnosno vrijeme isporuke za prodaju"
+>>>>>>> upstream/18.0
 =======
 msgstr " Sigurnosno vrijeme isporuke za prodaju"
 >>>>>>> upstream/18.0
@@ -21828,7 +21979,10 @@ msgstr "Izvještaj skladišnih pravila"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22572,6 +22726,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23327,9 +23484,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        From <strong>\"%(old_address)s\"</strong> to <strong>\"%(new_address)s\"</strong>,\n"
 "                        You should probably update the partner on this document."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24072,6 +24232,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24566,11 +24727,20 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Adresa isporuke promijenjena je na prodajnom nalogu<br/>\n"
+"                        S <strong>\"%(old_address)s\"</strong> na <strong>\"%"
+"(new_address)s\"</strong>,\n"
+"                        Vjerojatno biste trebali ažurirati partnera na ovom "
+"dokumentu."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-javascript
 #: code:addons/sale_stock/static/src/product_catalog/sale_order_line/sale_order_line.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25809,6 +25979,13 @@ msgid ""
 "Instead, create a return in your inventory."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"The ordered quantity cannot be decreased below the amount already delivered. "
+"Instead, create a return in your inventory."
+msgstr ""
+"Naručena količina ne može se smanjiti ispod već isporučene količine. Umjesto "
+"toga, kreirajte povrat u skladištu."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-python
@@ -25817,6 +25994,11 @@ msgid ""
 "The ordered quantity of a sale order line cannot be decreased below the "
 "amount already delivered. Instead, create a return in your inventory."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Naručena količina stavke prodajnog naloga ne može se smanjiti ispod već "
+"isporučene količine. Umjesto toga, kreirajte povrat u skladištu."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-javascript
@@ -25853,6 +26035,7 @@ msgstr "Vidi predviđanje"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__virtual_available_at_date
 msgid "Virtual Available At Date"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_stock
@@ -26842,6 +27025,12 @@ msgstr ""
 #: model:ir.model,name:sale_stock.model_stock_warehouse
 >>>>>>> upstream/18.0
 =======
+#: model:ir.model,name:sale_stock.model_stock_warehouse
+>>>>>>> upstream/18.0
+=======
+msgstr "Virtualno dostupno na datum"
+
+#. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_warehouse
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__warehouse_id
@@ -26871,13 +27060,21 @@ msgstr "Kada kreće isporuka"
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid ""
 "You must have a warehouse for line using a delivery in different company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Morate imati skladište za stavku koja koristi dostavu u drugoj tvrtki."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #. odoo-python
 #: code:addons/sale_stock/models/sale_order.py:0
 msgid "You must set a warehouse on your sale order to proceed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Morate postaviti skladište na prodajnom nalogu za nastavak."
+>>>>>>> upstream/18.0
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so

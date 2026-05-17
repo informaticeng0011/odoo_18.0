@@ -326,6 +326,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
 import { testEditor } from "../_helpers/editor";
 import { unlinkFromPopover, unlinkByCommand, unlinkFromToolbar } from "../_helpers/user_actions";
@@ -984,10 +985,13 @@ import { unlinkFromPopover, unlinkByCommand, unlinkFromToolbar } from "../_helpe
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { describe, expect, test } from "@odoo/hoot";
 import { testEditor, setupEditor } from "../_helpers/editor";
 import { unlinkFromPopover, unlinkByCommand, unlinkFromToolbar } from "../_helpers/user_actions";
 import { getContent, setSelection } from "../_helpers/selection";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2417,6 +2421,11 @@ describe("range collapsed, remove by popover unlink button", () => {
 describe("range collapsed, remove by popover unlink button", () => {
     test("should remove the link if collapsed range at the end of a link (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+
+describe("range collapsed, remove by popover unlink button", () => {
+    test("should remove the link if collapsed range at the end of a link (1)", async () => {
+>>>>>>> upstream/18.0
         await testEditor({
             contentBefore: '<p>a<a href="exist">bcd[]</a>e</p>',
             stepFunction: unlinkFromPopover,
@@ -2570,6 +2579,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the end of a link (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -3465,6 +3480,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the end of a link (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -4360,6 +4381,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the end of a link (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -5257,7 +5284,11 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove the link if collapsed range in the middle a link", async () => {
+=======
+    test("should remove the link if collapsed range in the middle a link (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should remove the link if collapsed range in the middle a link (1)", async () => {
 >>>>>>> upstream/18.0
@@ -5855,6 +5886,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range in the middle a link (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -6750,6 +6787,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range in the middle a link (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -7645,6 +7688,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range in the middle a link (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -8542,7 +8591,11 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove the link if collapsed range at the start of a link", async () => {
+=======
+    test("should remove the link if collapsed range at the start of a link (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should remove the link if collapsed range at the start of a link (1)", async () => {
 >>>>>>> upstream/18.0
@@ -9141,7 +9194,10 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9587,6 +9643,9 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10036,6 +10095,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the start of a link (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -10931,6 +10996,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove the link if collapsed range at the start of a link (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -11828,7 +11899,11 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should remove only the current link if collapsed range in the middle of a link", async () => {
+=======
+    test("should remove only the current link if collapsed range in the middle of a link (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should remove only the current link if collapsed range in the middle of a link (1)", async () => {
 >>>>>>> upstream/18.0
@@ -12428,7 +12503,10 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12874,6 +12952,9 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13324,6 +13405,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove only the current link if collapsed range in the middle of a link (3)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -14220,6 +14307,12 @@ describe("range collapsed, remove by popover unlink button", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should remove only the current link if collapsed range in the middle of a link (4)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -15309,7 +15402,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15996,6 +16092,7 @@ describe("range not collapsed", () => {
                 contentAfter: "<p>a<i>[bcd]</i>e</p>",
             });
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17425,12 +17522,18 @@ describe("range not collapsed", () => {
     describe("remove by command", () => {
         test("should remove the link in the selected range at the end of a link (1)", async () => {
 >>>>>>> upstream/18.0
+=======
+    });
+    describe("remove by command", () => {
+        test("should remove the link in the selected range at the end of a link (1)", async () => {
+>>>>>>> upstream/18.0
             // FORWARD
             await testEditor({
                 contentBefore: '<p>a<a href="exist">bc[d]</a>e</p>',
                 stepFunction: async (editor) => {
                     await unlinkByCommand(editor);
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18302,6 +18405,8 @@ describe("range not collapsed", () => {
                 contentAfter: '<p>a<a href="exist">bc</a>[d]e</p>',
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18749,6 +18854,9 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19378,6 +19486,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                contentAfterEdit: '<p>a\ufeff<a href="exist">\ufeffbc\ufeff</a>\ufeff]d[e</p>',
+>>>>>>> upstream/18.0
 =======
                 contentAfterEdit: '<p>a\ufeff<a href="exist">\ufeffbc\ufeff</a>\ufeff]d[e</p>',
 >>>>>>> upstream/18.0
@@ -20514,7 +20626,11 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should remove the link in the selected range in the middle of a link", async () => {
+=======
+        test("should remove the link in the selected range in the middle of a link (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should remove the link in the selected range in the middle of a link (1)", async () => {
 >>>>>>> upstream/18.0
@@ -21115,6 +21231,12 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the link in the selected range in the middle of a link (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -22013,7 +22135,11 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should remove the link in the selected range at the start of a link", async () => {
+=======
+        test("should remove the link in the selected range at the start of a link (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should remove the link in the selected range at the start of a link (1)", async () => {
 >>>>>>> upstream/18.0
@@ -22792,6 +22918,7 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 contentAfterEdit: '<p>a[b]\ufeff<a href="exist">\ufeffcd\ufeff</a>\ufeffe</p>',
 >>>>>>> upstream/18.0
@@ -23335,6 +23462,8 @@ describe("range not collapsed", () => {
                 contentAfter: '<p>a[b]<a href="exist">cd</a>e</p>',
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23782,6 +23911,9 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24411,6 +24543,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                contentAfterEdit: '<p>a]b[\ufeff<a href="exist">\ufeffcd\ufeff</a>\ufeffe</p>',
+>>>>>>> upstream/18.0
 =======
                 contentAfterEdit: '<p>a]b[\ufeff<a href="exist">\ufeffcd\ufeff</a>\ufeffe</p>',
 >>>>>>> upstream/18.0
@@ -25547,7 +25683,11 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should remove the link in the selected range overlapping the end of a link", async () => {
+=======
+        test("should remove the link in the selected range overlapping the end of a link (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should remove the link in the selected range overlapping the end of a link (1)", async () => {
 >>>>>>> upstream/18.0
@@ -26148,6 +26288,12 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the link in the selected range overlapping the end of a link (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -27046,7 +27192,11 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test("should remove the link in the selected range overlapping the start of a link", async () => {
+=======
+        test("should remove the link in the selected range overlapping the start of a link (1)", async () => {
+>>>>>>> upstream/18.0
 =======
         test("should remove the link in the selected range overlapping the start of a link (1)", async () => {
 >>>>>>> upstream/18.0
@@ -27647,6 +27797,12 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        });
+
+        test("should remove the link in the selected range overlapping the start of a link (2)", async () => {
+>>>>>>> upstream/18.0
 =======
         });
 
@@ -28736,7 +28892,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29751,6 +29910,9 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

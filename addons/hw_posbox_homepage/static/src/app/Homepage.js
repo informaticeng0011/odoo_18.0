@@ -208,6 +208,10 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.loadDataDelay = 10000;
+>>>>>>> upstream/18.0
 =======
         this.loadDataDelay = 10000;
 >>>>>>> upstream/18.0
@@ -916,10 +920,13 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         setInterval(() => {
             this.loadInitialData();
         }, 10000);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1467,7 +1474,10 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1997,6 +2007,9 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2383,6 +2396,7 @@ export class Homepage extends Component {
             <div class="d-flex mb-4 flex-column align-items-center justify-content-center">
                 <h4 class="text-center m-0">IoT Box - <t t-esc="state.data.hostname" /></h4>
             </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3916,6 +3930,8 @@ export class Homepage extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             <div t-if="!state.data.is_certificate_ok and state.data.server_status !== 'Not Configured'" class="alert alert-warning" role="alert">
                 <p class="m-0 fw-bold">
                     This IoT Box doesn't have a valid certificate.
@@ -4136,6 +4152,9 @@ export class Homepage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

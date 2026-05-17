@@ -43,6 +43,10 @@ from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -228,7 +232,11 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'code_digits': '4',
+=======
+            'code_digits': '6',
+>>>>>>> upstream/18.0
 =======
             'code_digits': '6',
 >>>>>>> upstream/18.0
@@ -409,6 +417,7 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'bank_account_code_prefix': '648',
                 'cash_account_code_prefix': '647',
                 'transfer_account_code_prefix': '683',
@@ -418,6 +427,8 @@ class AccountChartTemplate(models.AbstractModel):
                 'account_journal_early_pay_discount_loss_account_id': 'dk_coa_2720',
                 'account_journal_early_pay_discount_gain_account_id': 'dk_coa_2720',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -554,6 +565,9 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -691,8 +705,13 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             company.account_journal_suspense_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6482')
             company.transfer_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6831')
+=======
+            company.account_journal_suspense_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')
+            company.transfer_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')
+>>>>>>> upstream/18.0
 =======
             company.account_journal_suspense_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')
             company.transfer_account_id.tag_ids = self.env.ref('l10n_dk.account_tag_6480')

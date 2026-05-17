@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 from unittest import SkipTest
@@ -212,6 +213,10 @@ from unittest import SkipTest
 >>>>>>> upstream/18.0
 =======
 from unittest import SkipTest
+>>>>>>> upstream/18.0
+=======
+from unittest import SkipTest
+from lxml import etree
 >>>>>>> upstream/18.0
 =======
 from unittest import SkipTest
@@ -852,6 +857,7 @@ class TestItEdiExport(TestItEdi):
         usd = self.env.ref('base.USD')
         self.env['res.currency.rate'].create({
             'name': '2025-01-01',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2121,6 +2127,9 @@ class TestItEdiExport(TestItEdi):
 =======
             'rate': 1.54639273,
 >>>>>>> upstream/18.0
+=======
+            'rate': 1.54639273,
+>>>>>>> upstream/18.0
             'currency_id': usd.id,
             'company_id': self.company.id,
         })
@@ -2435,6 +2444,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2489,6 +2499,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3245,6 +3257,9 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4045,6 +4060,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4099,6 +4115,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4890,6 +4908,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5228,6 +5247,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5501,6 +5522,7 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5591,6 +5613,8 @@ class TestItEdiExport(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5706,6 +5730,9 @@ class TestItEdiExport(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

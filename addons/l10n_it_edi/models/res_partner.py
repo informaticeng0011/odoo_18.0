@@ -257,7 +257,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     invoice_edi_format = fields.Selection(selection_add=[('it_edi_xml', 'FatturaPA')])
+=======
+    invoice_edi_format = fields.Selection(selection_add=[('it_edi_xml', 'Italy (Factura PA)')])
+>>>>>>> upstream/18.0
 =======
     invoice_edi_format = fields.Selection(selection_add=[('it_edi_xml', 'Italy (Factura PA)')])
 >>>>>>> upstream/18.0
@@ -1330,10 +1334,13 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             If there is a VAT number and the partner is not in EU, then the exported value is 'OO99999999999'
             If there is a VAT number and the partner is in EU, then remove the country prefix
             If there is no VAT and the partner is not in Italy, then the exported value is '0000000'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2240,6 +2247,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2870,6 +2880,7 @@ class ResPartner(models.Model):
         # VAT number and country code
         normalized_vat = self.vat
         normalized_country = self.country_code
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4076,6 +4087,9 @@ class ResPartner(models.Model):
 =======
         if has_vat := self.vat not in [False, '/', 'NA']:
 >>>>>>> upstream/18.0
+=======
+        if has_vat := self.vat not in [False, '/', 'NA']:
+>>>>>>> upstream/18.0
             normalized_vat = self.vat.replace(' ', '')
             if in_eu:
                 # If there is no country-code prefix, it's domestic to Italy
@@ -4086,6 +4100,7 @@ class ResPartner(models.Model):
                 else:
                     if not normalized_country:
                         normalized_country = normalized_vat[:2].upper()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4997,6 +5012,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     normalized_vat = normalized_vat.removeprefix(normalized_country)
             # If customer is from San Marino
             elif is_sm:
@@ -5029,6 +5046,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5392,8 +5412,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             normalized_vat = '0000000'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6298,6 +6321,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7102,7 +7128,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7386,6 +7415,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

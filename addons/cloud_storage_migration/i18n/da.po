@@ -42,8 +42,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_migration
 #
+=======
+# * cloud_storage_migration
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage_migration
 #
@@ -301,6 +307,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -392,6 +399,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-29 12:21+0000\n"
+=======
+"PO-Revision-Date: 2026-05-16 09:02+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
 "cloud_storage_migration/da/>\n"
@@ -400,6 +410,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.16.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -525,16 +536,27 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "All Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle vedhæftninger"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_to_migrate
 msgid "All Attachments Migration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrering af alle vedhæftede filer"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model,name:cloud_storage_migration.model_ir_attachment
@@ -581,7 +603,11 @@ msgid "Attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vedhæftning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vedhæftning"
 >>>>>>> upstream/18.0
@@ -716,6 +742,11 @@ msgid ""
 "Attachment (%s) does not have a stored filename and cannot be migrated to "
 "cloud storage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vedhæftet fil (%s) har ikke et gemt filnavn og kan ikke overføres til "
+"skylagring."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #. odoo-python
@@ -724,11 +755,20 @@ msgid ""
 "Attachment (%s) is not a binary attachment and cannot be migrated to cloud "
 "storage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Vedhæftet fil (%s) er ikke en binær vedhæftet fil og kan ikke overføres til "
+"skylagring."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Attachments Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapport over vedhæftede filer"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
@@ -775,7 +815,11 @@ msgid "Cloud Storage Migration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrering af cloudlager"
+>>>>>>> upstream/18.0
 =======
 msgstr "Migrering af cloudlager"
 >>>>>>> upstream/18.0
@@ -906,30 +950,50 @@ msgstr "Migrering af cloudlager"
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_models
 msgid "Cloud Storage Migration All Models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skylager-migrering af alle modeller"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_cron
 msgid "Cloud Storage Migration Cron"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrering af skylager"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_models
 msgid "Cloud Storage Migration Message Models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modeller for meddelelser om migrering af skylager"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.actions.act_window,name:cloud_storage_migration.action_cloud_storage_migration_report
 #: model:ir.model,name:cloud_storage_migration.model_cloud_storage_migration_report
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.view_cloud_storage_migration_report_list
 msgid "Cloud Storage Migration Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rapport om migrering af skylager"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #. odoo-python
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "Cloud storage provider is not configured"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skylagerudbyder er ikke konfigureret"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model,name:cloud_storage_migration.model_res_config_settings
@@ -976,7 +1040,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurationsindstillinger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurationsindstillinger"
 >>>>>>> upstream/18.0
@@ -1107,7 +1175,11 @@ msgstr "Konfigurationsindstillinger"
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
 msgid "Cron Job"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cron-job"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__display_name
@@ -1154,7 +1226,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vis navn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vis navn"
 >>>>>>> upstream/18.0
@@ -1285,7 +1361,11 @@ msgstr "Vis navn"
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
 msgid "Has Attachment Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har vedhæftningsfelt"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__id
@@ -1332,7 +1412,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -1466,6 +1550,11 @@ msgid ""
 "Indicates whether all attachments associated with this model are scheduled "
 "for cloud storage migration"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Angiver, om alle vedhæftede filer, der er knyttet til denne model, er "
+"planlagt til at blive migreret til skylagring"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
@@ -1473,6 +1562,11 @@ msgid ""
 "Indicates whether attachments linked to mail messages for this model are "
 "scheduled for cloud storage migration"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Angiver, om vedhæftede filer, der er knyttet til e-mailbeskeder for denne "
+"model, er planlagt til migrering til skylagring"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__has_attachment_rel
@@ -1480,51 +1574,92 @@ msgid ""
 "Indicates whether this model has a relational field linking to ir.attachment"
 " model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Angiver, om denne model har et relationsfelt, der linker til ir.attachment-"
+"modellen"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
 msgid "Largest Attachment (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Største vedhæftede fil (MB)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Message Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vedhæftede filer i meddelelser"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Message Attachments Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal vedhæftede filer i meddelelser"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_to_migrate
 msgid "Message Attachments Migration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrering af vedhæftede filer"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
 msgid "Message Attachments Size (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Størrelse på vedhæftede filer (MB)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
 msgid "Message Largest Attachment (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Største vedhæftede fil (MB)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.actions.server,name:cloud_storage_migration.ir_cron_manual_migrate_local_to_cloud_storage_ir_actions_server
 msgid "Migrate Local Attachment Binaries to Cloud Storage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overfør lokale vedhæftede binære filer til skylager"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_all_model_ids
 msgid "Migrate Models' All Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrér alle vedhæftede filer fra modeller"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_message_model_ids
 msgid "Migrate Models' Message Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Migrér modellers vedhæftede filer i beskeder"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
@@ -1571,7 +1706,11 @@ msgid "Migrate local attachments to cloud storage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overfør lokale vedhæftede filer til cloudlager"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overfør lokale vedhæftede filer til cloudlager"
 >>>>>>> upstream/18.0
@@ -1702,7 +1841,11 @@ msgstr "Overfør lokale vedhæftede filer til cloudlager"
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Migration Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status på migreringen"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__res_model
@@ -1749,7 +1892,11 @@ msgid "Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model"
 >>>>>>> upstream/18.0
@@ -1922,7 +2069,11 @@ msgid "Model Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modelnavn"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modelnavn"
 >>>>>>> upstream/18.0
@@ -2053,13 +2204,21 @@ msgstr "Modelnavn"
 #. module: cloud_storage_migration
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
 msgid "No attachment data found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen vedhæftede data fundet"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #. odoo-python
 #: code:addons/cloud_storage_migration/models/ir_attachment.py:0
 msgid "No model for cloud storage migration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ingen model for migrering af skylagring"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.ui.view,arch_db:cloud_storage_migration.cloud_storage_migration_config_settings_view_form
@@ -2106,7 +2265,11 @@ msgid "Parameters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Parametre"
+>>>>>>> upstream/18.0
 =======
 msgstr "Parametre"
 >>>>>>> upstream/18.0
@@ -2237,7 +2400,11 @@ msgstr "Parametre"
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_res_config_settings__cloud_storage_migration_progress
 msgid "Shows the progress of cloud storage migration (current/total)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Viser migreringsfremskridt for skylager (aktuel/samlet)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_max_size
@@ -2245,6 +2412,11 @@ msgid ""
 "Size in megabytes of the largest attachment associated with any record of "
 "this model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Størrelse i megabyte af den største vedhæftede fil, der er knyttet til en "
+"hvilken som helst post i denne model"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_max_size
@@ -2252,6 +2424,11 @@ msgid ""
 "Size in megabytes of the largest attachment linked to mail messages for this"
 " model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Størrelse i megabyte af den største vedhæftede fil, der er knyttet til e-"
+"mailmeddelelser for denne model"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model_terms:ir.actions.act_window,help:cloud_storage_migration.action_cloud_storage_migration_report
@@ -2259,26 +2436,47 @@ msgid ""
 "This report shows statistics about attachments that could be migrated to "
 "cloud storage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Denne rapport viser statistik om vedhæftede filer, der kan flyttes til "
+"skylager."
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total Attachments Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlet antal vedhæftede filer"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,field_description:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
 msgid "Total Attachments Size (MB)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlet størrelse på vedhæftede filer (MB)"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_count
 msgid "Total number of attachments associated with all records of this model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samlet antal vedhæftede filer knyttet til alle poster i denne model"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_count
 msgid "Total number of attachments linked to mail messages for this model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Samlet antal vedhæftede filer knyttet til e-mailmeddelelser for denne model"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__all_sum_size
@@ -2286,6 +2484,11 @@ msgid ""
 "Total size in megabytes of all attachments associated with records of this "
 "model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Samlet størrelse i megabyte af alle vedhæftede filer knyttet til poster i "
+"denne model"
+>>>>>>> upstream/18.0
 
 #. module: cloud_storage_migration
 #: model:ir.model.fields,help:cloud_storage_migration.field_cloud_storage_migration_report__message_sum_size
@@ -2293,3 +2496,8 @@ msgid ""
 "Total size in megabytes of all attachments linked to mail messages for this "
 "model"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Samlet størrelse i megabyte af alle vedhæftede filer, der er knyttet til e-"
+"mailmeddelelser for denne model"
+>>>>>>> upstream/18.0

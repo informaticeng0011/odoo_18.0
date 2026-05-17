@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* event_sms
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,6 +405,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * event_sms
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -541,6 +545,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -805,11 +810,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,10 +1230,18 @@ msgstr ""
 "Last-Translator: Tony Ng, 2024\n"
 "Language-Team: Chinese (Taiwan) (https://app.transifex.com/odoo/teams/41243/"
 "zh_TW/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-16 09:07+0000\n"
+"Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
+"Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
+"projects/odoo-18/event_sms/zh_Hant/>\n"
+>>>>>>> upstream/18.0
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1623,6 +1640,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=1; plural=0;\n"
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: event_sms
 #: model:ir.model,name:event_sms.model_event_mail
@@ -1781,11 +1802,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + (', at %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '.\\nSee you there!' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else 'Join us on %s/event/%i!' % (object.get_base_url(), object.event_id.id) }}"
 msgstr ""
 "準備好參加「{{ object.event_id.name }}」{{ object.event_date_range }} 嗎？\n"
 "{{ '活動開始時間是 %s' % format_time(time=object.event_begin_date, tz=object.event_id.date_tz, time_format='short', lang_code=object.partner_id.lang) + ('，地點為 %s' % object.event_id.address_inline if object.event_id.address_inline else '') + '。\\n到時見！' if object.event_id.address_inline or 'website_published' not in object.event_id._fields else '參加： %s/event/%i' % (object.get_base_url(), object.event_id.id) }}"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2198,6 +2222,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2494,7 +2521,11 @@ msgstr "發送"
 #: model:ir.model.fields,field_description:event_sms.field_event_mail__template_ref
 #: model:ir.model.fields,field_description:event_sms.field_event_type_mail__template_ref
 msgid "Template"
+<<<<<<< HEAD
 msgstr "範本文字"
+=======
+msgstr "範本"
+>>>>>>> upstream/18.0
 
 #. module: event_sms
 #: model:sms.template,body:event_sms.sms_template_data_event_registration
@@ -2637,7 +2668,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "user.env.company.name }}: 我們很高興確認您報名 {{ object.event_id.name }} 活動。"
+=======
+"user.env.company.name }}: 我們很高興確認您報名 {{ object.event_id.name }} 活"
+"動。"
+>>>>>>> upstream/18.0
 =======
 "user.env.company.name }}: 我們很高興確認您報名 {{ object.event_id.name }} 活"
 "動。"

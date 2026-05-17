@@ -247,8 +247,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_loyalty
 # 
+=======
+# * pos_loyalty
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_loyalty
 #
@@ -1489,9 +1494,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Arnau Ros, 2024
 # Manel Fernandez Ramirez <manelfera@outlook.com>, 2024
 # jabiri7, 2024
+=======
+# jabiri7, 2024
+# Arnau Ros, 2024
+# Manel Fernandez Ramirez <manelfera@outlook.com>, 2024
+>>>>>>> upstream/18.0
 =======
 # jabiri7, 2024
 # Arnau Ros, 2024
@@ -2733,6 +2744,7 @@
 # Josep Anton Belchi, 2024
 # marcescu, 2024
 # Ivan Espinola, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4461,10 +4473,18 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# Noemi Pla, 2025
+# Santiago Payà <santiagopim@gmail.com>, 2025
+# "Noemi Pla Garcia (nopl)" <nopl@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Jaime Ruiz Maccione <jaime.ruiz@sygel.es>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5824,6 +5844,11 @@ msgstr ""
 "PO-Revision-Date: 2026-03-21 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-03-20 18:37+0000\n"
+"PO-Revision-Date: 2026-05-16 09:07+0000\n"
+"Last-Translator: \"Noemi Pla Garcia (nopl)\" <nopl@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Catalan <https://translate.odoo.com/projects/odoo-18/"
 "pos_loyalty/ca/>\n"
 "Language: ca\n"
@@ -5831,6 +5856,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6627,11 +6653,15 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_identifier_code
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7035,6 +7065,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Technical field used to link multiple reward lines from the same "
 "reward together.\n"
 "    "
@@ -7174,6 +7206,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7466,6 +7501,7 @@ msgstr "Ja s'aplica un descompte global millor."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "A coupon/loyalty card must have a unique code."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8455,12 +8491,19 @@ msgstr "Un cupó/targeta de fidelització ha de tenir un codi únic."
 =======
 msgstr "Un cupó/targeta de fidelització ha de tenir un codi únic."
 >>>>>>> upstream/18.0
+=======
+msgstr "Un cupó/targeta de fidelització ha de tenir un codi únic."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "A reward could not be loaded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No s'ha pogut carregar una recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__promo_barcode
@@ -8783,7 +8826,11 @@ msgid "Active loyalty cards"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Activar les targetes de fidelització"
+>>>>>>> upstream/18.0
 =======
 msgstr "Activar les targetes de fidelització"
 >>>>>>> upstream/18.0
@@ -9960,7 +10007,11 @@ msgid "Add Balance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afegir saldo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afegir saldo"
 >>>>>>> upstream/18.0
@@ -10733,7 +10784,11 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "Available rewards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recompenses disponibles"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -10803,6 +10858,7 @@ msgstr "S'està desactivant la recompensa"
 #: model:ir.ui.menu,name:pos_loyalty.menu_discount_loyalty_type_config
 #: model_terms:ir.ui.view,arch_db:pos_loyalty.res_config_view_form_inherit_pos_loyalty
 msgid "Discount & Loyalty"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11792,6 +11848,9 @@ msgstr "Descomptes i Fidelització"
 =======
 msgstr "Descomptes i Fidelització"
 >>>>>>> upstream/18.0
+=======
+msgstr "Descomptes i Fidelització"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -11979,7 +12038,11 @@ msgid "Enter Gift Card Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Introdueix el número de la targeta regal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Introdueix el número de la targeta regal"
 >>>>>>> upstream/18.0
@@ -12510,7 +12573,11 @@ msgstr "Introdueix el número de la targeta regal"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/utils/manage_giftcard_popup/manage_giftcard_popup.xml:0
 msgid "Enter amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Introdueix l'import"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -12542,6 +12609,11 @@ msgid ""
 "Gift Card: %s\n"
 "Balance: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Targeta regal: %s\n"
+"Saldo: %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -12594,6 +12666,7 @@ msgid "Is Reward Line"
 msgstr "És una línia de reenviament"
 
 #. module: pos_loyalty
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13528,6 +13601,8 @@ msgstr "Comunicació de fidelització"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:pos_loyalty.model_account_move_line
 msgid "Journal Item"
 msgstr "Apunt comptable"
@@ -13591,6 +13666,9 @@ msgstr "Comunicació de fidelització"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13706,6 +13784,7 @@ msgstr "Comunicació de fidelització"
 #. module: pos_loyalty
 #: model:ir.model,name:pos_loyalty.model_loyalty_card
 msgid "Loyalty Coupon"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14695,6 +14774,9 @@ msgstr "Cupó de fidelització"
 =======
 msgstr "Cupó de fidelització"
 >>>>>>> upstream/18.0
+=======
+msgstr "Cupó de fidelització"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:loyalty.program,portal_point_name:pos_loyalty.loyalty_program
@@ -14733,13 +14815,21 @@ msgstr "No es pot reclamar cap recompensa amb aquest cupó."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/control_buttons/control_buttons.js:0
 msgid "No valid eWallet found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "No s'ha trobat cap moneder electrònic vàlid."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid "Onsite %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "In situ  %s"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -14876,13 +14966,21 @@ msgstr "Selecciona el programa"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.xml:0
 msgid "Sell physical gift card?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vendre una targeta regal física?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "Sell/Manage physical gift card"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vendre/Gestionar targetes regal físiques"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:product.template,name:pos_loyalty.simple_pen_product_template
@@ -14926,29 +15024,46 @@ msgstr "Aquest programa de codi promocional ja s'ha activat."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program is expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquest programa de codi promocional ha caducat."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program is not yet valid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquest programa de codi promocional encara no és vàlid."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_store.js:0
 msgid "That promo code program requires a specific pricelist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquest programa de codi promocional requereix una tarifa específica."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__coupon_id
 msgid "The coupon used to claim that reward."
+<<<<<<< HEAD
 msgstr "El cupó solia reclamar aquesta recompensa."
+=======
+msgstr "El cupó que es va utilitzar per obtindre la recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15351,6 +15466,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The following codes already exist in the database, perhaps they were already "
 "sold?\n"
 "%s"
@@ -15489,6 +15606,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15762,6 +15882,7 @@ msgid ""
 "The report action to be executed when creating a coupon/gift card/loyalty "
 "card in the PoS."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16885,6 +17006,10 @@ msgstr ""
 "L'informe de l'acció que s'executarà en crear un cupó/targeta de regal/"
 "targeta de fidelització al PoS."
 >>>>>>> upstream/18.0
+=======
+"L'informe de l'acció que s'executarà en crear un cupó/targeta de regal/"
+"targeta de fidelització al PoS."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -16893,6 +17018,11 @@ msgid ""
 "The reward \"%s\" contain an error in its domain, your domain must be "
 "compatible with the PoS client"
 msgstr ""
+<<<<<<< HEAD
+=======
+"La recompensa \"%s\" conté un error en el seu domini; el domini ha de ser "
+"compatible amb el client de TPV"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_pos_order_line__reward_id
@@ -16921,6 +17051,7 @@ msgstr "No hi ha punts suficients al cupó per reclamar aquesta recompensa."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "There are not enough products in the basket to claim this reward."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17455,6 +17586,9 @@ msgstr "No hi ha prou productes a la cistella per reclamar aquesta recompensa."
 =======
 msgstr "No hi ha prou productes a la cistella per reclamar aquesta recompensa."
 >>>>>>> upstream/18.0
+=======
+msgstr "No hi ha prou productes a la cistella per reclamar aquesta recompensa."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -17473,6 +17607,7 @@ msgid ""
 "There is no print report on the gift card program and your pos is set to "
 "print them."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18140,6 +18275,10 @@ msgstr ""
 "No hi ha cap informe d'impressió al programa de la targeta regal i el vostre "
 "equip està configurat per imprimir-los."
 >>>>>>> upstream/18.0
+=======
+"No hi ha cap informe d'impressió al programa de la targeta regal i el vostre "
+"equip està configurat per imprimir-los."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__valid_product_ids
@@ -18150,7 +18289,11 @@ msgstr "Aquests són els productes vàlids per a aquesta norma."
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/components/product_screen/order_summary/order_summary.js:0
 msgid "This Gift card has already been sold."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquesta targeta regal ja ha estat venuda."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -18168,13 +18311,21 @@ msgstr "Aquest cupó no és vàlid (%s)."
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is not available with the current pricelist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquest cupó no està disponible amb la llista de preus actual."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This coupon is not yet valid (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquest cupó encara no és vàlid (%s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-javascript
@@ -18183,6 +18334,7 @@ msgid ""
 "This gift card is not linked to any order. Do you really want to apply its "
 "reward?"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18850,6 +19002,10 @@ msgstr ""
 "Aquesta targeta regal no està enllaçada a cap comanda. Realment vols aplicar "
 "la seva recompensa?"
 >>>>>>> upstream/18.0
+=======
+"Aquesta targeta regal no està enllaçada a cap comanda. Realment vols aplicar "
+"la seva recompensa?"
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pos_report_print_id
@@ -18861,7 +19017,11 @@ msgstr ""
 #. odoo-python
 #: code:addons/pos_loyalty/models/pos_config.py:0
 msgid "This programs requires a code to be applied."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aquest programa requereix aplicar un codi."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -18949,6 +19109,11 @@ msgstr ""
 msgid ""
 "You either have not created an eWallet or all your eWallets have expired."
 msgstr ""
+<<<<<<< HEAD
+=======
+"No has creat cap moneder electrònic o bé tots els teus moneders electrònics "
+"han caducat."
+>>>>>>> upstream/18.0
 
 #. module: pos_loyalty
 #. odoo-python
@@ -18990,4 +19155,8 @@ msgstr "sense venciment"
 #. odoo-javascript
 #: code:addons/pos_loyalty/static/src/overrides/models/pos_order.js:0
 msgid "the gift cards"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "les targetes regal"
+>>>>>>> upstream/18.0

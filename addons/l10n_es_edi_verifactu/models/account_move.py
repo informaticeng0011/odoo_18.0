@@ -203,7 +203,10 @@ from odoo import _, api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import RedirectWarning
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1151,6 +1154,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         for move, vals in zip(self, record_values_list):
             # Add redirect warnings to journal entries with missing Veri*Factu documents for easier user flow.
@@ -1170,6 +1174,8 @@ class AccountMove(models.Model):
                 action = self._l10n_es_edi_verifactu_action_go_to_journal_entry(reversed_move)
                 raise RedirectWarning(msg, action, _("Go to the journal entry"))
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

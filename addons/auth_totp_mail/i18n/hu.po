@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* auth_totp_mail
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -534,10 +535,15 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * auth_totp_mail
+#
+>>>>>>> upstream/18.0
 # Translators:
 # A . <tibor@inventati.org>, 2024
 # Tamás Dombos, 2024
 # krnkris, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1071,10 +1077,14 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1485,10 +1495,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: krnkris, 2024\n"
 "Language-Team: Hungarian (https://app.transifex.com/odoo/teams/41243/hu/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-16 09:05+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
+"auth_totp_mail/hu/>\n"
+>>>>>>> upstream/18.0
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1887,6 +1905,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model:mail.template,body_html:auth_totp_mail.mail_template_totp_invite
@@ -1894,6 +1916,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2035,6 +2058,8 @@ msgid ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2444,6 +2469,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2734,6 +2762,11 @@ msgstr ""
 msgid ""
 "A trusted device has just been removed from your account: %(device_names)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Egy megbízható eszköz eltávolításra került a felhasználói fiókjából: %"
+"(device_names)s"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
@@ -2749,7 +2782,11 @@ msgstr "Hitelesítő eszköz"
 #. module: auth_totp_mail
 #: model:mail.template,subject:auth_totp_mail.mail_template_totp_invite
 msgid "Invitation to activate two-factor authentication on your Odoo account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívó a kétfaktoros azonosítás aktiválására az Odoo fiókon"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
@@ -2758,16 +2795,29 @@ msgid ""
 "Invitation to use two-factor authentication sent for the following user(s): "
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"A kétfaktoros azonosítás használatára meghívó került elküldésre a következő "
+"felhasználóknak: %s"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail.view_users_form
 msgid "Invite to use 2FA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívás 2FA használatára"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model:ir.actions.server,name:auth_totp_mail.action_invite_totp
 msgid "Invite to use two-factor authentication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívás a kétfaktoros azonosítás használatára"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail.res_users_view_form
@@ -2777,19 +2827,31 @@ msgstr "Név"
 #. module: auth_totp_mail
 #: model:ir.actions.server,name:auth_totp_mail.action_activate_two_factor_authentication
 msgid "Open two-factor authentication configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kétfaktoros azonosítás konfigurációjának megnyitása"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Security Update: 2FA Activated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biztonsági frissítés: 2FA aktiválva"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Security Update: 2FA Deactivated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biztonsági frissítés: 2FA deaktiválva"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
@@ -2801,24 +2863,40 @@ msgstr ""
 #. odoo-python
 #: code:addons/auth_totp_mail/models/auth_totp_device.py:0
 msgid "Security Update: Device Removed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biztonsági frissítés: eszköz eltávolítva"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model:mail.template,name:auth_totp_mail.mail_template_totp_invite
 msgid "Settings: 2Fa Invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beállítások: 2FA meghívó"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Two-factor authentication has been activated on your account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A kétfaktoros azonosítás aktiválásra került a fiókján"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #. odoo-python
 #: code:addons/auth_totp_mail/models/res_users.py:0
 msgid "Two-factor authentication has been deactivated on your account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A kétfaktoros azonosítés deaktiválásra került a fiókján"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model:ir.model,name:auth_totp_mail.model_res_users
@@ -2828,4 +2906,8 @@ msgstr "Felhasználó"
 #. module: auth_totp_mail
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail.account_security_setting_update
 msgid "activating Two-factor Authentication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kétfaktoros azonosítás aktiválása"
+>>>>>>> upstream/18.0

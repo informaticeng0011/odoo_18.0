@@ -337,7 +337,11 @@ from odoo import models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+DEFAULT_VAT = '0000000000000'
+>>>>>>> upstream/18.0
 =======
 DEFAULT_VAT = '0000000000000'
 >>>>>>> upstream/18.0
@@ -1685,7 +1689,10 @@ def get_formatted_sector_ro(city: str):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2692,6 +2699,9 @@ def _has_vat(vat):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3544,6 +3554,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -4422,6 +4437,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -5128,6 +5148,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 
     def _get_partner_party_tax_scheme_vals_list(self, partner, role):
         # EXTENDS 'account_edi_ubl_cii'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6148,6 +6169,8 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
         vals_list = super()._get_partner_party_tax_scheme_vals_list(partner, role)
@@ -6324,6 +6347,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7015,6 +7041,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7862,6 +7891,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -8896,7 +8930,10 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9906,6 +9943,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10752,6 +10792,11 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
+        # If you change this method, please change the corresponding new helper (at the end of this file).
+>>>>>>> upstream/18.0
 =======
         # Old helper not used by default (see _export_invoice override in account.edi.xml.ubl_bis3)
         # If you change this method, please change the corresponding new helper (at the end of this file).
@@ -11625,6 +11670,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12112,6 +12158,8 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12633,6 +12681,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13323,6 +13374,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14336,12 +14390,15 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not partner.commercial_partner_id.vat and not partner.commercial_partner_id.company_registry:
                 constraints[f"ciusro_{partner_type}_tax_identifier_required"] = _(
                     "The following partner doesn't have a VAT nor Company ID: %s. "
                     "At least one of them is required. ",
                     partner.display_name)
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15197,7 +15254,10 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15547,6 +15607,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
     # EXPORT: New (dict_to_xml) helpers
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17283,6 +17344,8 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _ubl_add_tax_currency_code_node(self, vals):
         # EXTENDS account.edi.xml.ubl_bis3
         self._ubl_add_tax_currency_code_node_company_currency(vals)
@@ -17362,6 +17425,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17605,6 +17671,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if not _has_vat(commercial_partner.vat):
             if commercial_partner.company_registry:
@@ -17617,6 +17684,8 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
             else:
                 vals['party_node']['cac:PartyTaxScheme'] = []
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17865,6 +17934,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18125,6 +18197,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if not _has_vat(commercial_partner.vat):
             vals['party_node']['cac:PartyTaxScheme'] = [{
@@ -18154,6 +18227,8 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
             if commercial_partner.company_registry:
                 company_id = DEFAULT_VAT
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18368,6 +18443,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18596,6 +18674,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18769,6 +18850,7 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
                 },
             }]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19290,6 +19372,8 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _export_invoice_constraints_new(self, invoice, vals):
         # OVERRIDE 'account.edi.xml.ubl_bis3': don't apply Peppol rules
         constraints = self.env['account.edi.xml.ubl_20']._export_invoice_constraints(invoice, vals)
@@ -19383,6 +19467,9 @@ class AccountEdiXmlUBLRO(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -112,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event_crm
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1260,6 +1261,9 @@
 =======
 # * event_crm
 >>>>>>> upstream/18.0
+=======
+# * event_crm
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1397,6 +1401,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1437,6 +1442,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2026.
@@ -1778,6 +1786,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3175,6 +3184,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-14 08:19+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
@@ -3211,6 +3222,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3410,6 +3424,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3771,6 +3786,10 @@ msgstr ""
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -3931,6 +3950,7 @@ msgstr "<span class=\"o_stat_text\"> リード</span>"
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5208,6 +5228,9 @@ msgstr "有効"
 =======
 msgstr "有効"
 >>>>>>> upstream/18.0
+=======
+msgstr "有効"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model_terms:ir.ui.view,arch_db:event_crm.event_lead_rule_view_form
@@ -5249,6 +5272,7 @@ msgstr "自動的にこの販売担当者に作成されたリードを割り当
 #. odoo-python
 #: code:addons/event_crm/models/event_event.py:0
 msgid "Aww! No Leads created, check your Lead Generation Rules and try again."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5936,6 +5960,10 @@ msgstr "リードが作成されていません。リード作成ルールを確
 msgstr "リードが作成されていません。リード作成ルールを確認して、もう一度やり直して下"
 "さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr "リードが作成されていません。リード作成ルールを確認して、もう一度やり直して下"
+"さい。"
+>>>>>>> upstream/18.0
 
 #. module: event_crm
 #: model:ir.model.fields,field_description:event_crm.field_event_lead_rule__company_id
@@ -6067,7 +6095,11 @@ msgid "Create a Lead Generation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リード生成規則を作成する"
+=======
+msgstr "リード生成ルールを作成する"
+>>>>>>> upstream/18.0
 =======
 msgstr "リード生成ルールを作成する"
 >>>>>>> upstream/18.0
@@ -6551,7 +6583,11 @@ msgid "Default lead type when this rule is applied."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この規則が適用された場合のデフォルトのリードタイプ。"
+=======
+msgstr "このルールが適用された場合のデフォルトのリードタイプ。"
+>>>>>>> upstream/18.0
 =======
 msgstr "このルールが適用された場合のデフォルトのリードタイプ。"
 >>>>>>> upstream/18.0
@@ -7017,7 +7053,11 @@ msgid "Event CRM: Generate Leads based on Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "イベントCRM: 規則に基づいてリードを生成"
+=======
+msgstr "イベントCRM: ルールに基づいてリードを生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "イベントCRM: ルールに基づいてリードを生成"
 >>>>>>> upstream/18.0
@@ -7475,7 +7515,11 @@ msgid "Event Lead Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "イベントリード規則"
+=======
+msgstr "イベントリードルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "イベントリードルール"
 >>>>>>> upstream/18.0
@@ -7943,7 +7987,11 @@ msgid "Event triggering the rule that created this lead"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このリードを作成した規則をトリガーするイベント"
+=======
+msgstr "このリードを作成したルールをトリガーするイベント"
+>>>>>>> upstream/18.0
 =======
 msgstr "このリードを作成したルールをトリガーするイベント"
 >>>>>>> upstream/18.0
@@ -8429,7 +8477,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この特定のイベントカテゴリの出席者を含むように出席者をフィルタリングします。設定されていない場合、イベントカテゴリの制限は適用されません。"
+=======
+msgstr ""
+"この特定のイベントカテゴリの出席者を含むように出席者をフィルタリングします。"
+"設定されていない場合、イベントカテゴリの制限は適用されません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この特定のイベントカテゴリの出席者を含むように出席者をフィルタリングします。"
@@ -9232,10 +9286,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Filter the attendees to include those of this specific event. If not set, no"
 " event restriction will be applied."
 msgstr "出席者をこの特定のイベントの出席者に絞り込みます。設定されていない場合、イベントの制限は適用されません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9637,6 +9694,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9943,7 +10003,11 @@ msgid "Generate Leads"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リードを作成"
+=======
+msgstr "リード生成"
+>>>>>>> upstream/18.0
 =======
 msgstr "リード生成"
 >>>>>>> upstream/18.0
@@ -10204,7 +10268,11 @@ msgid "Lead Generation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リード生成規則"
+=======
+msgstr "リード生成ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "リード生成ルール"
 >>>>>>> upstream/18.0
@@ -10657,7 +10725,11 @@ msgid "Lead Generation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リード生成規則"
+=======
+msgstr "リード生成ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "リード生成ルール"
 >>>>>>> upstream/18.0
@@ -11049,7 +11121,11 @@ msgid "Leads generated from this event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このイベントから作成されたリード"
+=======
+msgstr "このイベントから生成されたリード"
+>>>>>>> upstream/18.0
 =======
 msgstr "このイベントから生成されたリード"
 >>>>>>> upstream/18.0
@@ -11330,7 +11406,11 @@ msgid "Registration Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "登録規則"
+=======
+msgstr "登録ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "登録ルール"
 >>>>>>> upstream/18.0
@@ -11783,7 +11863,11 @@ msgid "Registration Rule:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "登録規則："
+=======
+msgstr "登録ルール："
+>>>>>>> upstream/18.0
 =======
 msgstr "登録ルール："
 >>>>>>> upstream/18.0
@@ -12241,7 +12325,11 @@ msgid "Registrations triggering the rule that created this lead"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このリードを作成した規則をトリガーする登録"
+=======
+msgstr "このリードを作成したルールをトリガーする登録"
+>>>>>>> upstream/18.0
 =======
 msgstr "このリードを作成したルールをトリガーする登録"
 >>>>>>> upstream/18.0
@@ -12715,6 +12803,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Restrict the trigger of this rule to events belonging to a specific company.\n"
 =======
 "Restrict the trigger of this rule to events belonging to a specific "
@@ -12804,6 +12893,8 @@ msgid ""
 msgstr ""
 "この規則のトリガーを特定の会社に属するイベントに制限します。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13142,6 +13233,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13482,7 +13576,11 @@ msgid "Rule Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "規則名"
+=======
+msgstr "ルール名"
+>>>>>>> upstream/18.0
 =======
 msgstr "ルール名"
 >>>>>>> upstream/18.0
@@ -13935,7 +14033,11 @@ msgid "Rule on @example.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " @example.com　上における規則"
+=======
+msgstr "@example.com　上におけるルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "@example.com　上におけるルール"
 >>>>>>> upstream/18.0
@@ -14388,7 +14490,11 @@ msgid "Rule that created this lead"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このリードを作成した規則"
+=======
+msgstr "このリードを作成したルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "このリードを作成したルール"
 >>>>>>> upstream/18.0
@@ -14851,7 +14957,11 @@ msgid "Search Lead Generation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リード生成規則を検索"
+=======
+msgstr "リード生成ルールを検索"
+>>>>>>> upstream/18.0
 =======
 msgstr "リード生成ルールを検索"
 >>>>>>> upstream/18.0
@@ -15347,7 +15457,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "最後に処理されたevent.registrationのID。どこから再開するかを知るために使用されます。"
+=======
+msgstr ""
+"最後に処理されたevent.registrationのID。どこから再開するかを知るために使用さ"
+"れます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "最後に処理されたevent.registrationのID。どこから再開するかを知るために使用さ"

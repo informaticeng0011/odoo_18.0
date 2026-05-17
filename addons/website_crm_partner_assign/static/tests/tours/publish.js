@@ -301,9 +301,12 @@ registerWebsitePreviewTour('test_cannot_publish_partner', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     content: 'Check there is no Publish/Unpublish',
     trigger: '.o_menu_systray:not(:has(.o_menu_systray_item.o_website_publish_container))',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1054,6 +1057,9 @@ registerWebsitePreviewTour('test_cannot_publish_partner', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

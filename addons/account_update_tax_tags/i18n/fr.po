@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_update_tax_tags
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -404,6 +405,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * account_update_tax_tags
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -541,6 +545,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -805,11 +810,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Manon Rondou (ronm)" <ronm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1221,10 +1230,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Manon Rondou, 2024\n"
 "Language-Team: French (https://app.transifex.com/odoo/teams/41243/fr/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-16 09:06+0000\n"
+"Last-Translator: \"Manon Rondou (ronm)\" <ronm@odoo.com>\n"
+"Language-Team: French <https://translate.odoo.com/projects/odoo-18/"
+"account_update_tax_tags/fr/>\n"
+>>>>>>> upstream/18.0
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 <<<<<<< HEAD
@@ -1624,6 +1641,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #: model:ir.model.fields,field_description:account_update_tax_tags.field_account_update_tax_tags_wizard__company_id
@@ -1704,7 +1726,11 @@ msgstr "Assistant de mise à jour des étiquettes fiscales"
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.res_config_settings_view_form
 msgid "Update tax tags on existing Journal Entries"
 msgstr ""
+<<<<<<< HEAD
 "Mise à jour des étiquettes fiscales sur les écritures comptables existantes"
+=======
+"Mise à jour des étiquettes fiscales sur les pièces comptables existantes"
+>>>>>>> upstream/18.0
 
 #. module: account_update_tax_tags
 #. odoo-python
@@ -1719,6 +1745,7 @@ msgstr ""
 #. module: account_update_tax_tags
 #: model_terms:ir.ui.view,arch_db:account_update_tax_tags.view_account_update_tax_tags_wizard_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2128,6 +2155,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Updating tax tags on existing Journal Entries is an <b>irreversible</b> "
 "action that will impact\n"
 "                    your reports.<br/>\n"
@@ -2138,6 +2167,7 @@ msgstr ""
 "                    so that it matches with the current configuration of "
 "your taxes.<br/>"
 msgstr ""
+<<<<<<< HEAD
 "La mise à jour des étiquettes fiscales sur les écritures comptables "
 "existantes est une action <b>irréversible</b> qui aura un impact \n"
 "                    sur vos rapports.<br/>\n"
@@ -2543,4 +2573,14 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"La mise à jour des étiquettes fiscales sur les pièces comptables existantes "
+"est une action <b>irréversible</b> qui aura un impact sur vos rapports.<br/>"
+"\n"
+"Il est fortement recommandé de sauvegarder votre base de données au "
+"préalable.<br/>\n"
+"La mise à jour modifiera les étiquettes fiscales de votre historique "
+"comptable à partir de la date sélectionnée, afin de les faire correspondre à "
+"la configuration actuelle de vos taxes.<br/>"
 >>>>>>> upstream/18.0

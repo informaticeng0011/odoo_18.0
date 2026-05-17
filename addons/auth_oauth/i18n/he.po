@@ -241,8 +241,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_oauth
 # 
+=======
+# * auth_oauth
+#
+>>>>>>> upstream/18.0
 =======
 # * auth_oauth
 #
@@ -1460,6 +1465,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # or balmas <or@laylinetech.com>, 2025.
@@ -2184,10 +2190,15 @@
 =======
 # or balmas <or@laylinetech.com>, 2025.
 >>>>>>> upstream/18.0
+=======
+# or balmas <or@laylinetech.com>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3054,6 +3065,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-09-16 22:20+0000\n"
 "Last-Translator: or balmas <or@laylinetech.com>\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-16 09:09+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Hebrew <https://translate.odoo.com/projects/odoo-18/"
 "auth_oauth/he/>\n"
 "Language: he\n"
@@ -3061,6 +3077,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3783,6 +3800,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.providers
@@ -3909,28 +3929,48 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users__oauth_provider_id
 msgid "OAuth Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ספק זיהוי"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.ui.menu,name:auth_oauth.menu_oauth_providers
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "OAuth Providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ספקי זיהוי"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.constraint,message:auth_oauth.constraint_res_users_uniq_users_oauth_provider_oauth_uid
 msgid "OAuth UID must be unique per provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OAuth UID חייב להיות יחודי לספק"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_users__oauth_uid
 msgid "OAuth User ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OAuth מזהה משתמש"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_auth_oauth_provider
 msgid "OAuth2 provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OAuth 2 ספק"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.view_users_form
@@ -3940,7 +3980,11 @@ msgstr ""
 #. module: auth_oauth
 #: model:ir.model.fields,help:auth_oauth.field_res_users__oauth_uid
 msgid "Oauth Provider user_id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "OAuth מזהה_משתמש לספק "
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__name
@@ -3965,13 +4009,21 @@ msgstr "רצף"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_res_config_settings__server_uri_google
 msgid "Server uri"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כתבות שרת"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #. odoo-python
 #: code:addons/auth_oauth/controllers/main.py:0
 msgid "Sign up is not allowed on this database."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "הרשמה לדאטהבייס זה אינה אפשרית"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model:ir.model,name:auth_oauth.model_ir_config_parameter
@@ -3991,7 +4043,11 @@ msgstr "משתמש"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
 msgid "UserInfo URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "כתובת מידע משתמש"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #. odoo-python
@@ -4001,14 +4057,27 @@ msgid ""
 "Please ask for an invitation and be sure to follow the link in your "
 "invitation email."
 msgstr ""
+<<<<<<< HEAD
+=======
+"אין לך גישה לדאטהבייס זה או שההשראה שלך הסתיימה. בקש הזמנה מחודשת ותשתמש "
+"בקישור יגיע לאמייל."
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.view_oauth_provider_form
 #: model_terms:ir.ui.view,arch_db:auth_oauth.view_oauth_provider_tree
 msgid "arch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "arch"
+>>>>>>> upstream/18.0
 
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "e.g. 1234-xyz.apps.googleusercontent.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "לדוגמא 1234-xyz.apps.googleusercontent.com"
+>>>>>>> upstream/18.0
