@@ -347,10 +347,13 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.state.images = this.state.images.map(img => {
                     img.active = false;
                     if (img.src === image.src) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1051,6 +1054,9 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1756,7 +1762,11 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         src: image.src,
+=======
+                        src: src,
+>>>>>>> upstream/18.0
 =======
                         src: src,
 >>>>>>> upstream/18.0
@@ -2693,7 +2703,11 @@ class ImageSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.seoContext.metaImage = image.src;
+=======
+                this.seoContext.metaImage = src;
+>>>>>>> upstream/18.0
 =======
                 this.seoContext.metaImage = src;
 >>>>>>> upstream/18.0
@@ -3778,11 +3792,14 @@ class SEOPreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.props.description.length > 160) {
             return this.props.description.substring(0, 159) + '…';
         }
         return this.props.description;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4528,6 +4545,9 @@ class SEOPreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5345,6 +5365,12 @@ export class OptimizeSEODialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            // Wait for the preview iframe because this dialog reads directly
+            // from the iframe DOM.
+            await this.waitForIframe();
+>>>>>>> upstream/18.0
 =======
             // Wait for the preview iframe because this dialog reads directly
             // from the iframe DOM.
@@ -6405,7 +6431,13 @@ export class OptimizeSEODialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.canEditUrl = this.canEditSeo && 'seo_name' in this.data;
+=======
+            // The URL must not be customizable if it does not contain an editable slug.
+            const editableSlugPattern = new RegExp(`.*/(${this.data.seo_name || ""}|${this.data.seo_name_default || ""})-\\d+.*`);
+            this.canEditUrl = this.canEditSeo && Boolean(new URL(path).pathname.match(editableSlugPattern));
+>>>>>>> upstream/18.0
 =======
             // The URL must not be customizable if it does not contain an editable slug.
             const editableSlugPattern = new RegExp(`.*/(${this.data.seo_name || ""}|${this.data.seo_name_default || ""})-\\d+.*`);
@@ -7021,7 +7053,10 @@ export class OptimizeSEODialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7611,6 +7646,9 @@ export class OptimizeSEODialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -170,6 +170,10 @@ import requests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import urllib.parse
+>>>>>>> upstream/18.0
 =======
 import urllib.parse
 >>>>>>> upstream/18.0
@@ -891,9 +895,15 @@ class QueryURL:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     fragments.append(werkzeug.urls.url_encode([(key, item) for item in value]))
                 else:
                     fragments.append(werkzeug.urls.url_encode([(key, value)]))
+=======
+                    fragments.append(urllib.parse.urlencode([(key, item) for item in value]))
+                else:
+                    fragments.append(urllib.parse.urlencode([(key, value)]))
+>>>>>>> upstream/18.0
 =======
                     fragments.append(urllib.parse.urlencode([(key, item) for item in value]))
                 else:
@@ -1898,7 +1908,12 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 url_to = werkzeug.urls.url_join(website.domain, '/website/force/%s?isredir=1&path=%s' % (website.id, path))
+=======
+                query_params = urllib.parse.urlencode({'isredir': 1, 'path': path})
+                url_to = werkzeug.urls.url_join(website.domain, f'/website/force/{website.id}?{query_params}')
+>>>>>>> upstream/18.0
 =======
                 query_params = urllib.parse.urlencode({'isredir': 1, 'path': path})
                 url_to = werkzeug.urls.url_join(website.domain, f'/website/force/{website.id}?{query_params}')
@@ -2540,6 +2555,10 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        mode_debug = kw.get('debug', 0)
+>>>>>>> upstream/18.0
 =======
         mode_debug = kw.get('debug', 0)
 >>>>>>> upstream/18.0
@@ -3536,7 +3555,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             path = request.website.get_client_action_url(path, mode_edit)
+=======
+            path = request.website.get_client_action_url(path, mode_edit, mode_debug)
+>>>>>>> upstream/18.0
 =======
             path = request.website.get_client_action_url(path, mode_edit, mode_debug)
 >>>>>>> upstream/18.0
@@ -4600,8 +4623,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.render('website.robots', {'url_root': request.httprequest.url_root}, mimetype='text/plain')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5397,6 +5423,9 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6479,6 +6508,7 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         menu = request.env['website.menu'].search([('url', '=', '/' + path)])
 =======
         menu = request.env['website.menu'].search([('url', '=', '/' + path), ('page_id', '=', False)])
@@ -6823,6 +6853,8 @@ class Website(Home):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # When searching for a menu, we also match URLs with or without a
         # leading slash to prevent mismatches when records were created without
         # a leading slash.
@@ -6851,6 +6883,9 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7057,7 +7092,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views = request.env["ir.ui.view"].get_related_views(key, bundles=False).filtered(lambda v: v.customize_show)
+=======
+        views = request.env["ir.ui.view"].with_context(is_customization_code=False).get_related_views(key, bundles=False).filtered(lambda v: v.customize_show)
+>>>>>>> upstream/18.0
 =======
         views = request.env["ir.ui.view"].with_context(is_customization_code=False).get_related_views(key, bundles=False).filtered(lambda v: v.customize_show)
 >>>>>>> upstream/18.0
@@ -7609,7 +7648,11 @@ class Website(Home):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return []
+=======
+            return json.dumps([])
+>>>>>>> upstream/18.0
 =======
             return json.dumps([])
 >>>>>>> upstream/18.0

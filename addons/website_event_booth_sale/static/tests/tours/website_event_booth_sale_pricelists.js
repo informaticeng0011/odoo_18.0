@@ -277,6 +277,10 @@ registry.category("web_tour.tours").add('event_booth_sale_pricelists_different_c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -1342,6 +1346,10 @@ registry.category("web_tour.tours").add('event_booth_sale_pricelists_different_c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -2412,6 +2420,10 @@ registry.category("web_tour.tours").add('event_booth_sale_pricelists_different_c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -3485,6 +3497,10 @@ registry.category("web_tour.tours").add('event_booth_sale_pricelists_different_c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
         expectUnloadPage: true,
 >>>>>>> upstream/18.0

@@ -71,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* im_livechat
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -609,10 +610,15 @@
 # * im_livechat
 #
 >>>>>>> upstream/18.0
+=======
+# * im_livechat
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Damian Brencic <brencicdamian12313@gmail.com>, 2024
 # Wil Odoo, 2024
 # Tomáš Píšek, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1150,10 +1156,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1781,16 +1791,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-03 18:39+0000\n"
 "PO-Revision-Date: 2026-05-16 09:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "im_livechat/sk/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2406,13 +2422,22 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: im_livechat
 #. odoo-python
 #: code:addons/im_livechat/models/chatbot_script_step.py:0
 msgid "\"%s\" is not a valid email."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "„%s “ nie je platná e-mailová adresa."
+>>>>>>> upstream/18.0
 =======
 msgstr "„%s “ nie je platná e-mailová adresa."
 >>>>>>> upstream/18.0
@@ -2446,7 +2471,11 @@ msgstr "% Spokojný"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_rating
 msgid "% of Happiness"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "% spokojných"
+>>>>>>> upstream/18.0
 =======
 msgstr "% spokojných"
 >>>>>>> upstream/18.0
@@ -2462,6 +2491,7 @@ msgstr "%s (kópia)"
 #: code:addons/im_livechat/models/chatbot_script.py:0
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2999,16 +3029,22 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "'%(input_email)s' does not look like a valid email. Can you please try again?"
 msgstr ""
 "'%(input_email)s' nevyzerá ako platná e-mailová adresa. Môžete to prosím "
 "skúsiť znova?"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel_rule__action
 msgid ""
 "* 'Show' displays the chat button on the pages.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3412,6 +3448,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "* 'Show with notification' is 'Show' in addition to a floating text just "
 "next to the button.\n"
 "* 'Open automatically' displays the button and automatically opens the "
@@ -3549,6 +3587,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3817,6 +3856,8 @@ msgid ""
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "* 'Hide' hides the chat button on the pages.\n"
 msgstr ""
 "* „Zobraziť“ zobrazí tlačidlo chatu na stránkach.\n"
@@ -3825,6 +3866,9 @@ msgstr ""
 "* „Otvoriť automaticky“ zobrazí tlačidlo a automaticky otvorí okno "
 "konverzácie.\n"
 "* „Skryť“ skryje tlačidlo chatu na stránkach.\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -3844,6 +3888,11 @@ msgid ""
 "ratings\" role=\"img\" aria-label=\"Happy face\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-smile-o text-success\" title=\"Percento spokojných "
+"hodnotení\" role=\"img\" aria-label=\"Happy face\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-smile-o text-success\" title=\"Percento spokojných "
 "hodnotení\" role=\"img\" aria-label=\"Happy face\"/>"
@@ -3853,7 +3902,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_test_script_page
 msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Back to edit mode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Späť do režimu úprav"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Späť do režimu úprav"
 >>>>>>> upstream/18.0
@@ -3862,7 +3915,11 @@ msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Späť do režimu úprav"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "<i title=\"Remove operator\" class=\"fa fa-fw fa-lg fa-close\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i title=\"Odobrať operátora\" class=\"fa fa-fw fa-lg fa-close\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i title=\"Odobrať operátora\" class=\"fa fa-fw fa-lg fa-close\"/>"
 >>>>>>> upstream/18.0
@@ -3871,7 +3928,11 @@ msgstr "<i title=\"Odobrať operátora\" class=\"fa fa-fw fa-lg fa-close\"/>"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_kanban
 msgid "<span class=\"fw-bold\">Country: </span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bold\">Krajina: </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fw-bold\">Krajina: </span>"
 >>>>>>> upstream/18.0
@@ -3894,6 +3955,7 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4571,17 +4633,23 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Reminder: This step will only be played if no operator is available.</"
 "span>"
 msgstr ""
 "<span>Upozornenie: Tento krok sa vykoná len v prípade, ak nie je k "
 "dispozícii žiadny operátor.</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid ""
 "<span>Tip: At least one interaction (Question, Email, ...) is needed before "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4985,19 +5053,27 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "the Bot can perform more complex actions (Forward to an Operator, ...). </"
 "span>\n"
 "                    <span>Use Channel Rules if you want the Bot to interact "
 "with visitors only when no operator is available.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Tip: Predtým, ako bot môže vykonávať zložitejšie akcie (presmerovanie "
 "na operátora, ...), je potrebná aspoň jedna interakcia (otázka, e-mail...). "
 "</span>\n"
 "                    <span>Použite pravidlá kanála, ak chcete, aby bot "
 "komunikoval s návštevníkmi len vtedy, keď nie je k dispozícii žiadny "
 "operátor.</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -5139,6 +5215,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5406,15 +5483,21 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "<span>Tip: Predtým, ako bot môže vykonávať zložitejšie akcie (presmerovanie "
 "na operátora...), je potrebná aspoň jedna interakcia (otázka, e-mail...).</"
 "span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6085,18 +6168,27 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span>Tip: Plan further steps for the Bot in case no operator is available.</"
 "span>"
 msgstr ""
 "<span>Tip: Naplánujte ďalšie kroky pre bota v prípade, že nie je k "
 "dispozícii žiadny operátor.</span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_test_script_page
 msgid "<span>You are currently testing</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>V súčasnosti testujete</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>V súčasnosti testujete</span>"
 >>>>>>> upstream/18.0
@@ -6106,6 +6198,11 @@ msgstr "<span>V súčasnosti testujete</span>"
 msgid "A mail.message can only be linked to a single chatbot message"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Správa mail.message (chatter) môže byť prepojená len s jednou správou "
+"chatbota"
+>>>>>>> upstream/18.0
 =======
 "Správa mail.message (chatter) môže byť prepojená len s jednou správou "
 "chatbota"
@@ -6115,6 +6212,7 @@ msgstr ""
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_report_channel__is_without_answer
 msgid ""
 "A session is without answer if the operator did not answer. \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6786,6 +6884,10 @@ msgid ""
 "                                       If the visitor is also the operator, "
 "the session will always be answered."
 >>>>>>> upstream/18.0
+=======
+"                                       If the visitor is also the operator, "
+"the session will always be answered."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -6802,7 +6904,11 @@ msgstr "Aktívne"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Add the following code to the &lt;head&gt; section of your website:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridajte nasledujúci kód do sekcii &lt;head&gt; vašej webovej stránky:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridajte nasledujúci kód do sekcii &lt;head&gt; vašej webovej stránky:"
 >>>>>>> upstream/18.0
@@ -6818,6 +6924,11 @@ msgid ""
 "Alternatively, share this URL with your customers or suppliers via email:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prípadne zdieľajte túto URL so svojimi zákazníkmi alebo dodávateľmi "
+"prostredníctvom e-mailu:"
+>>>>>>> upstream/18.0
 =======
 "Prípadne zdieľajte túto URL so svojimi zákazníkmi alebo dodávateľmi "
 "prostredníctvom e-mailu:"
@@ -6828,7 +6939,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/transcript_sender.xml:0
 msgid "An error occurred. Please try again."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo k chybe. Skúste to prosím znova."
+>>>>>>> upstream/18.0
 =======
 msgstr "Došlo k chybe. Skúste to prosím znova."
 >>>>>>> upstream/18.0
@@ -6837,7 +6952,11 @@ msgstr "Došlo k chybe. Skúste to prosím znova."
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_documentation_redirect
 msgid "And tadaaaa here you go! 🌟"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A tadaaaa, tu to máte! 🌟"
+>>>>>>> upstream/18.0
 =======
 msgstr "A tadaaaa, tu to máte! 🌟"
 >>>>>>> upstream/18.0
@@ -6877,7 +6996,11 @@ msgstr "Počet príloh"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__available_operator_ids
 msgid "Available Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostupný operátor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostupný operátor"
 >>>>>>> upstream/18.0
@@ -6933,7 +7056,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__operator_partner_id
 msgid "Bot Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operátor typu bot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operátor typu bot"
 >>>>>>> upstream/18.0
@@ -6942,7 +7069,11 @@ msgstr "Operátor typu bot"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__button_background_color
 msgid "Button Background Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Farba pozadia tlačidla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Farba pozadia tlačidla"
 >>>>>>> upstream/18.0
@@ -6951,7 +7082,11 @@ msgstr "Farba pozadia tlačidla"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__button_text_color
 msgid "Button Text Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Farba textu tlačidla"
+>>>>>>> upstream/18.0
 =======
 msgstr "Farba textu tlačidla"
 >>>>>>> upstream/18.0
@@ -7019,6 +7154,7 @@ msgstr "Vlastník vstupu chatu-u"
 #. module: im_livechat
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__channel_type
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7605,6 +7741,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Chat is private and unique between 2 persons. Group is private among invited "
 "persons. Channel can be freely joined (depending on its configuration)."
 msgstr ""
@@ -7653,6 +7791,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7747,7 +7888,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "Chatbot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatbot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatbot"
 >>>>>>> upstream/18.0
@@ -7756,7 +7901,11 @@ msgstr "Chatbot"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__chatbot_current_step_id
 msgid "Chatbot Current Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktuálny krok chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktuálny krok chatbota"
 >>>>>>> upstream/18.0
@@ -7765,7 +7914,11 @@ msgstr "Aktuálny krok chatbota"
 #: model:ir.model,name:im_livechat.model_chatbot_message
 msgid "Chatbot Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správa chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správa chatbota"
 >>>>>>> upstream/18.0
@@ -7774,7 +7927,11 @@ msgstr "Správa chatbota"
 #: model:ir.model.fields,field_description:im_livechat.field_discuss_channel__chatbot_message_ids
 msgid "Chatbot Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správy chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správy chatbota"
 >>>>>>> upstream/18.0
@@ -7783,7 +7940,11 @@ msgstr "Správy chatbota"
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid "Chatbot Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Názov chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Názov chatbota"
 >>>>>>> upstream/18.0
@@ -7792,7 +7953,11 @@ msgstr "Názov chatbota"
 #: model:ir.model,name:im_livechat.model_chatbot_script
 msgid "Chatbot Script"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skript chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skript chatbota"
 >>>>>>> upstream/18.0
@@ -7801,7 +7966,11 @@ msgstr "Skript chatbota"
 #: model:ir.model,name:im_livechat.model_chatbot_script_answer
 msgid "Chatbot Script Answer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odpoveď skriptu chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpoveď skriptu chatbota"
 >>>>>>> upstream/18.0
@@ -7810,7 +7979,11 @@ msgstr "Odpoveď skriptu chatbota"
 #: model:ir.model,name:im_livechat.model_chatbot_script_step
 msgid "Chatbot Script Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krok skriptu chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krok skriptu chatbota"
 >>>>>>> upstream/18.0
@@ -7819,7 +7992,11 @@ msgstr "Krok skriptu chatbota"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__script_step_id
 msgid "Chatbot Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krok chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krok chatbota"
 >>>>>>> upstream/18.0
@@ -7829,7 +8006,11 @@ msgstr "Krok chatbota"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Chatbots"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chatboty"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chatboty"
 >>>>>>> upstream/18.0
@@ -7839,6 +8020,10 @@ msgstr "Chatboty"
 msgid "Choose the live chat channel you want to display on your website."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vyberte kanál živého chatu, ktorý chcete zobraziť na svojej webovej stránke."
+>>>>>>> upstream/18.0
 =======
 "Vyberte kanál živého chatu, ktorý chcete zobraziť na svojej webovej stránke."
 >>>>>>> upstream/18.0
@@ -7870,7 +8055,11 @@ msgstr "Konfigurácia"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_kanban
 msgid "Configure Channel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konfigurovať kanál"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfigurovať kanál"
 >>>>>>> upstream/18.0
@@ -7887,6 +8076,7 @@ msgid "Conversation"
 msgstr "Konverzácia"
 
 #. module: im_livechat
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8106,6 +8296,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid "Conversation with %s"
@@ -8115,7 +8307,11 @@ msgstr "Konverzácia s %s"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_conversations
 msgid "Conversations handled"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spracované konverzácie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spracované konverzácie"
 >>>>>>> upstream/18.0
@@ -8141,7 +8337,11 @@ msgstr "Krajina návštevníka kanálu"
 #: model_terms:ir.actions.act_window,help:im_livechat.chatbot_script_action
 msgid "Create a Chatbot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvorte chatbota"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvorte chatbota"
 >>>>>>> upstream/18.0
@@ -8207,7 +8407,11 @@ msgstr "Dni aktivity"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__button_background_color
 msgid "Default background color of the Livechat button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predvolená farba pozadia tlačidla Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predvolená farba pozadia tlačidla Livechat"
 >>>>>>> upstream/18.0
@@ -8216,7 +8420,11 @@ msgstr "Predvolená farba pozadia tlačidla Livechat"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__header_background_color
 msgid "Default background color of the channel header once open"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predvolená farba pozadia záhlavia kanála po otvorení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predvolená farba pozadia záhlavia kanála po otvorení"
 >>>>>>> upstream/18.0
@@ -8225,7 +8433,11 @@ msgstr "Predvolená farba pozadia záhlavia kanála po otvorení"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__button_text_color
 msgid "Default text color of the Livechat button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predvolená farba textu tlačidla Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predvolená farba textu tlačidla Livechat"
 >>>>>>> upstream/18.0
@@ -8239,7 +8451,11 @@ msgstr "Prednastavený text zobrazený na Tlačidle podpory živého chatu"
 #: model:ir.model.fields,help:im_livechat.field_im_livechat_channel__title_color
 msgid "Default title color of the channel once open"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predvolená farba názvu kanála po otvorení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predvolená farba názvu kanála po otvorení"
 >>>>>>> upstream/18.0
@@ -8266,6 +8482,12 @@ msgid ""
 "not be taken into account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Oneskorenie (v sekundách) automatického otvorenia okna konverzácie. "
+"Poznámka: vybraná akcia musí byť „Otvoriť automaticky“, inak sa tento "
+"parameter nezohľadní."
+>>>>>>> upstream/18.0
 =======
 "Oneskorenie (v sekundách) automatického otvorenia okna konverzácie. "
 "Poznámka: vybraná akcia musí byť „Otvoriť automaticky“, inak sa tento "
@@ -8277,7 +8499,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/feedback_panel.xml:0
 msgid "Did we correctly answer your question?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odpovedali sme správne na vašu otázku?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpovedali sme správne na vašu otázku?"
 >>>>>>> upstream/18.0
@@ -8316,7 +8542,11 @@ msgstr "Zobrazovaný názov"
 #: code:addons/im_livechat/static/src/embed/common/livechat_button.xml:0
 msgid "Drag to Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Presuňte ťahaním"
+>>>>>>> upstream/18.0
 =======
 msgstr "Presuňte ťahaním"
 >>>>>>> upstream/18.0
@@ -8342,7 +8572,11 @@ msgstr "Trvanie konverzácie (v sekundách)"
 #: model:ir.model.fields,help:im_livechat.field_discuss_channel__duration
 msgid "Duration of the session in hours"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trvanie relácie v hodinách"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trvanie relácie v hodinách"
 >>>>>>> upstream/18.0
@@ -8378,7 +8612,11 @@ msgstr "Vysvetlite svoju poznámku"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "FOR OTHER WEBSITES"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PRE INÉ WEBOVÉ STRÁNKY"
+>>>>>>> upstream/18.0
 =======
 msgstr "PRE INÉ WEBOVÉ STRÁNKY"
 >>>>>>> upstream/18.0
@@ -8387,7 +8625,11 @@ msgstr "PRE INÉ WEBOVÉ STRÁNKY"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "FOR WEBSITES BUILT WITH ODOO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PRE WEBOVÉ STRÁNKY VYTVORENÉ S ODOO"
+>>>>>>> upstream/18.0
 =======
 msgstr "PRE WEBOVÉ STRÁNKY VYTVORENÉ S ODOO"
 >>>>>>> upstream/18.0
@@ -8396,7 +8638,11 @@ msgstr "PRE WEBOVÉ STRÁNKY VYTVORENÉ S ODOO"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script__first_step_warning__first_step_invalid
 msgid "First Step Invalid"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prvý krok Neplatný"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prvý krok Neplatný"
 >>>>>>> upstream/18.0
@@ -8405,7 +8651,11 @@ msgstr "Prvý krok Neplatný"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script__first_step_warning__first_step_operator
 msgid "First Step Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operátor prvého kroku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Operátor prvého kroku"
 >>>>>>> upstream/18.0
@@ -8414,7 +8664,11 @@ msgstr "Operátor prvého kroku"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__first_step_warning
 msgid "First Step Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozornenie k prvému kroku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozornenie k prvému kroku"
 >>>>>>> upstream/18.0
@@ -8433,7 +8687,11 @@ msgstr "Odberatelia (partneri)"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__forward_operator
 msgid "Forward to Operator"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preposlať operátorovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preposlať operátorovi"
 >>>>>>> upstream/18.0
@@ -8442,7 +8700,11 @@ msgstr "Preposlať operátorovi"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__free_input_single
 msgid "Free Input"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Voľný vstup"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voľný vstup"
 >>>>>>> upstream/18.0
@@ -8451,7 +8713,11 @@ msgstr "Voľný vstup"
 #: model:ir.model.fields.selection,name:im_livechat.selection__chatbot_script_step__step_type__free_input_multi
 msgid "Free Input (Multi-Line)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Voľný vstup (viac riadkov)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voľný vstup (viac riadkov)"
 >>>>>>> upstream/18.0
@@ -8473,6 +8739,12 @@ msgid ""
 "<strong>Marketing.</strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Prejsť na <strong>Webová stránka</strong> &gt; <strong> Konfigurácia</"
+"strong> &gt; <strong> Nastavenia</strong> &gt; <strong> E-mail</strong> "
+"&amp; <strong> Marketing.</strong>"
+>>>>>>> upstream/18.0
 =======
 "Prejsť na <strong>Webová stránka</strong> &gt; <strong> Konfigurácia</"
 "strong> &gt; <strong> Nastavenia</strong> &gt; <strong> E-mail</strong> "
@@ -8500,7 +8772,11 @@ msgstr "Má správu"
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__has_access_livechat
 msgid "Has access to Livechat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Má prístup k živému chatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Má prístup k živému chatu"
 >>>>>>> upstream/18.0
@@ -8516,7 +8792,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__header_background_color
 msgid "Header Background Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Farba pozadia nadpisu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Farba pozadia nadpisu"
 >>>>>>> upstream/18.0
@@ -8525,7 +8805,11 @@ msgstr "Farba pozadia nadpisu"
 #: model:im_livechat.channel,default_message:im_livechat.im_livechat_channel_data
 msgid "Hello, how may I help you?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako Vám môžem pomôcť?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ako Vám môžem pomôcť?"
 >>>>>>> upstream/18.0
@@ -8546,7 +8830,11 @@ msgstr "História"
 msgid ""
 "Hmmm, let me check if I can find someone that could help you with that..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hmmm, skúsim zistiť, či nenájdem niekoho, kto by s tým mohol pomôcť..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hmmm, skúsim zistiť, či nenájdem niekoho, kto by s tým mohol pomôcť..."
 >>>>>>> upstream/18.0
@@ -8566,7 +8854,11 @@ msgstr "Ako Vám môžem pomôcť?"
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_pricing_noone_available
 msgid "Hu-ho, it looks like none of our operators are available 🙁"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ach jaj, vyzerá to, že žiadny z našich operátorov nie je k dispozícii 🙁"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ach jaj, vyzerá to, že žiadny z našich operátorov nie je k dispozícii 🙁"
 >>>>>>> upstream/18.0
@@ -8575,7 +8867,11 @@ msgstr "Ach jaj, vyzerá to, že žiadny z našich operátorov nie je k dispozí
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_welcome_step_dispatch_answer_just_looking
 msgid "I am just looking around"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Len sa tu rozhliadam"
+>>>>>>> upstream/18.0
 =======
 msgstr "Len sa tu rozhliadam"
 >>>>>>> upstream/18.0
@@ -8584,7 +8880,11 @@ msgstr "Len sa tu rozhliadam"
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_welcome_step_dispatch_answer_documentation
 msgid "I am looking for your documentation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hľadám vašu dokumentáciu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hľadám vašu dokumentáciu"
 >>>>>>> upstream/18.0
@@ -8593,7 +8893,11 @@ msgstr "Hľadám vašu dokumentáciu"
 #: model:chatbot.script.answer,name:im_livechat.chatbot_script_welcome_step_dispatch_answer_pricing
 msgid "I have a pricing question"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mám otázku týkajúcu sa cenotvorby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mám otázku týkajúcu sa cenotvorby"
 >>>>>>> upstream/18.0
@@ -8625,7 +8929,11 @@ msgstr "Ak označené, potom majú niektoré správy chybu dodania."
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_documentation_exit
 msgid "If you need anything else, feel free to get back in touch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ak potrebujete čokoľvek iné, neváhajte sa na nás obrátiť"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ak potrebujete čokoľvek iné, neváhajte sa na nás obrátiť"
 >>>>>>> upstream/18.0
@@ -8665,7 +8973,11 @@ msgstr "Odberateľ"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_step__is_forward_operator_child
 msgid "Is Forward Operator Child"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je podriadený kroku preposlať na operátora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je podriadený kroku preposlať na operátora"
 >>>>>>> upstream/18.0
@@ -8690,7 +9002,11 @@ msgstr "Pripojiť"
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "Join %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pripojiť sa k %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pripojiť sa k %s"
 >>>>>>> upstream/18.0
@@ -8704,7 +9020,11 @@ msgstr "Pripojiť sa ku kanálu"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_conversations_value
 msgid "Kpi Livechat Conversations Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KPI živého chatu - Konverzácie"
+>>>>>>> upstream/18.0
 =======
 msgstr "KPI živého chatu - Konverzácie"
 >>>>>>> upstream/18.0
@@ -8713,7 +9033,11 @@ msgstr "KPI živého chatu - Konverzácie"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_rating_value
 msgid "Kpi Livechat Rating Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KPI živého chatu - Hodnotenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "KPI živého chatu - Hodnotenia"
 >>>>>>> upstream/18.0
@@ -8722,7 +9046,11 @@ msgstr "KPI živého chatu - Hodnotenia"
 #: model:ir.model.fields,field_description:im_livechat.field_digest_digest__kpi_livechat_response_value
 msgid "Kpi Livechat Response Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "KPI živého chatu - Odpovede"
+>>>>>>> upstream/18.0
 =======
 msgstr "KPI živého chatu - Odpovede"
 >>>>>>> upstream/18.0
@@ -8767,6 +9095,11 @@ msgid ""
 "with visitors in a few easy steps."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zistite, ako zobraziť bublinu živého chatu na vašej webovej stránke a "
+"začnite chatovať s návštevníkmi v niekoľkých jednoduchých krokoch."
+>>>>>>> upstream/18.0
 =======
 "Zistite, ako zobraziť bublinu živého chatu na vašej webovej stránke a "
 "začnite chatovať s návštevníkmi v niekoľkých jednoduchých krokoch."
@@ -8782,7 +9115,11 @@ msgstr "Voľno"
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "Leave %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opustiť %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opustiť %s"
 >>>>>>> upstream/18.0
@@ -8803,7 +9140,11 @@ msgstr "Živý chat"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel_rule__action
 msgid "Live Chat Button"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tlačidlo živého chatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tlačidlo živého chatu"
 >>>>>>> upstream/18.0
@@ -8842,7 +9183,11 @@ msgstr "Živý chat kanál"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__livechat_channel_count
 msgid "Livechat Channel Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet kanálov Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet kanálov Livechat"
 >>>>>>> upstream/18.0
@@ -8861,7 +9206,11 @@ msgstr "Livechat konverzácia"
 #: model_terms:ir.ui.view,arch_db:im_livechat.unit_embed_suite
 msgid "Livechat External Tests"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Externé testy Livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Externé testy Livechat"
 >>>>>>> upstream/18.0
@@ -8870,7 +9219,11 @@ msgstr "Externé testy Livechat"
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__livechat_lang_ids
 msgid "Livechat Languages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jazyky živého chatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jazyky živého chatu"
 >>>>>>> upstream/18.0
@@ -8922,7 +9275,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_res_users_settings__livechat_lang_ids
 msgid "Livechat languages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jazyky živého chatu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jazyky živého chatu"
 >>>>>>> upstream/18.0
@@ -8968,7 +9325,11 @@ msgstr "Zmeškané relácie"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
 msgid "My Sessions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moje relácie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moje relácie"
 >>>>>>> upstream/18.0
@@ -8984,7 +9345,11 @@ msgstr "Meno"
 #: code:addons/im_livechat/static/src/embed/common/livechat_service.js:0
 msgid "No available collaborator, please try again later."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žiadny spolupracovník nie je k dispozícii, skúste to neskôr."
+>>>>>>> upstream/18.0
 =======
 msgstr "Žiadny spolupracovník nie je k dispozícii, skúste to neskôr."
 >>>>>>> upstream/18.0
@@ -9019,7 +9384,11 @@ msgstr "Počet akcií"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__chatbot_script_count
 msgid "Number of Chatbot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet chatbotov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet chatbotov"
 >>>>>>> upstream/18.0
@@ -9080,7 +9449,11 @@ msgstr "Meno na online chate"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_step__triggering_answer_ids
 msgid "Only If"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iba ak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iba ak"
 >>>>>>> upstream/18.0
@@ -9089,7 +9462,11 @@ msgstr "Iba ak"
 #: model:ir.model.fields.selection,name:im_livechat.selection__im_livechat_channel_rule__action__auto_popup
 msgid "Open automatically"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvoriť automaticky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvoriť automaticky"
 >>>>>>> upstream/18.0
@@ -9134,7 +9511,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid "Optional Link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Voliteľný odkaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Voliteľný odkaz"
 >>>>>>> upstream/18.0
@@ -9193,7 +9574,11 @@ msgstr ""
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_just_looking
 msgid "Please do! If there is anything we can help with, let us know"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosím, urobte to! Ak vám môžeme s niečím pomôcť, dajte nám vedieť"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosím, urobte to! Ak vám môžeme s niečím pomôcť, dajte nám vedieť"
 >>>>>>> upstream/18.0
@@ -9252,7 +9637,10 @@ msgstr "Otázka"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9384,6 +9772,9 @@ msgstr "Qweb"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9549,7 +9940,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__mail_message_id
 msgid "Related Mail Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Súvisiaca e-mailová správa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Súvisiaca e-mailová správa"
 >>>>>>> upstream/18.0
@@ -9564,7 +9959,11 @@ msgstr "Report"
 #: code:addons/im_livechat/static/src/js/colors_reset_button/colors_reset_button.xml:0
 msgid "Reset to default colors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obnoviť predvolené farby"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obnoviť predvolené farby"
 >>>>>>> upstream/18.0
@@ -9574,7 +9973,11 @@ msgstr "Obnoviť predvolené farby"
 #: code:addons/im_livechat/static/src/embed/common/thread_actions.js:0
 msgid "Restart Conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obnoviť konverzáciu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obnoviť konverzáciu"
 >>>>>>> upstream/18.0
@@ -9584,7 +9987,11 @@ msgstr "Obnoviť konverzáciu"
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid "Restarting conversation..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obnovenie konverzácie..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Obnovenie konverzácie..."
 >>>>>>> upstream/18.0
@@ -9621,7 +10028,11 @@ msgstr "Napíšte niečo"
 #: code:addons/im_livechat/static/src/embed/common/composer_patch.js:0
 msgid "Say something..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Napíšte niečo..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Napíšte niečo..."
 >>>>>>> upstream/18.0
@@ -9640,7 +10051,11 @@ msgstr "Skript (externý)"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script_answer__script_step_id
 msgid "Script Step"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krok skriptu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krok skriptu"
 >>>>>>> upstream/18.0
@@ -9649,7 +10064,11 @@ msgstr "Krok skriptu"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_script__script_step_ids
 msgid "Script Steps"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kroky skriptu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kroky skriptu"
 >>>>>>> upstream/18.0
@@ -9676,7 +10095,11 @@ msgstr "Zobraziť 15 naposledy navštívených stránok"
 #: code:addons/im_livechat/static/src/embed/common/chatbot/chatbot_service.js:0
 msgid "Select an option above"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte jednu z vyššie uvedených možností"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyberte jednu z vyššie uvedených možností"
 >>>>>>> upstream/18.0
@@ -9745,6 +10168,10 @@ msgstr "Zobraziť"
 msgid "Show this step only if all of these answers have been selected."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tento krok sa zobrazí len v prípade, ak boli vybrané všetky tieto odpovede."
+>>>>>>> upstream/18.0
 =======
 "Tento krok sa zobrazí len v prípade, ak boli vybrané všetky tieto odpovede."
 >>>>>>> upstream/18.0
@@ -9753,7 +10180,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:im_livechat.selection__im_livechat_channel_rule__action__display_button_and_text
 msgid "Show with notification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zobraziť s upozornením"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobraziť s upozornením"
 >>>>>>> upstream/18.0
@@ -9784,7 +10215,11 @@ msgstr "Typ kroku"
 #: code:addons/im_livechat/models/chatbot_script.py:0
 msgid "Step of type 'Question' must have answers."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krok typu „Otázka“ musí mať odpovede."
+>>>>>>> upstream/18.0
 =======
 msgstr "Krok typu „Otázka“ musí mať odpovede."
 >>>>>>> upstream/18.0
@@ -9795,7 +10230,11 @@ msgstr "Krok typu „Otázka“ musí mať odpovede."
 #: code:addons/im_livechat/static/src/core/web/composer_patch.xml:0
 msgid "Tab to next livechat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tab na ďalší livechat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tab na ďalší livechat"
 >>>>>>> upstream/18.0
@@ -9836,7 +10275,11 @@ msgstr "Kanál pravidla"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/transcript_sender.xml:0
 msgid "The conversation was sent."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Konverzácia bola odoslaná."
+>>>>>>> upstream/18.0
 =======
 msgstr "Konverzácia bola odoslaná."
 >>>>>>> upstream/18.0
@@ -9846,6 +10289,7 @@ msgstr "Konverzácia bola odoslaná."
 msgid ""
 "The rule will only be applied for these countries. Example: if you select "
 "'Belgium' and 'United States' and that you set the action to 'Hide', the "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10516,6 +10960,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "chat button will be hidden on the specified URL from the visitors located in "
 "these 2 countries. This feature requires GeoIP installed on your server."
 msgstr ""
@@ -10523,6 +10969,9 @@ msgstr ""
 "Belgicko“ a „Spojené štáty“ a nastavíte akciu na „Skryť“, tlačidlo chatu "
 "bude skryté na uvedenej URL adrese pre návštevníkov nachádzajúcich sa v "
 "týchto 2 krajinách. Táto funkcia vyžaduje inštaláciu GeoIP na vašom serveri."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -10542,6 +10991,12 @@ msgid ""
 "that the script will end if the link is external to the livechat website)."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Návštevník bude po kliknutí na túto možnosť presmerovaný na tento odkaz "
+"(uvedomte si, že skript sa ukončí, ak je odkaz mimo webovej stránky "
+"livechatu)."
+>>>>>>> upstream/18.0
 =======
 "Návštevník bude po kliknutí na túto možnosť presmerovaný na tento odkaz "
 "(uvedomte si, že skript sa ukončí, ak je odkaz mimo webovej stránky "
@@ -10560,6 +11015,11 @@ msgid ""
 "you to Live Chat sessions."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tieto jazyky, okrem vášho hlavného jazyka, budú použité na vaše pridelenie "
+"do relácií živého chatu."
+>>>>>>> upstream/18.0
 =======
 "Tieto jazyky, okrem vášho hlavného jazyka, budú použité na vaše pridelenie "
 "do relácií živého chatu."
@@ -10649,7 +11109,10 @@ msgstr "Tento týždeň"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10866,6 +11329,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11020,6 +11486,10 @@ msgstr ""
 msgid "This username will be used as your name in the livechat channels."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Toto používateľské meno bude použité ako vaše meno v kanáloch livechatu."
+>>>>>>> upstream/18.0
 =======
 "Toto používateľské meno bude použité ako vaše meno v kanáloch livechatu."
 >>>>>>> upstream/18.0
@@ -11034,7 +11504,11 @@ msgstr "Čas na odpoveď"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_report_channel__time_to_answer
 msgid "Time to answer (sec)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čas na odpoveď (sek.)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čas na odpoveď (sek.)"
 >>>>>>> upstream/18.0
@@ -11045,6 +11519,10 @@ msgstr "Čas na odpoveď (sek.)"
 msgid "Tip: Use canned responses to chat faster"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tip: Používajte prednastavené odpovede, aby ste mohli chatovať rýchlejšie"
+>>>>>>> upstream/18.0
 =======
 "Tip: Používajte prednastavené odpovede, aby ste mohli chatovať rýchlejšie"
 >>>>>>> upstream/18.0
@@ -11058,7 +11536,11 @@ msgstr "Titul"
 #: model:ir.model.fields,field_description:im_livechat.field_im_livechat_channel__title_color
 msgid "Title Color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Farba nadpisu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Farba nadpisu"
 >>>>>>> upstream/18.0
@@ -11072,7 +11554,11 @@ msgstr "Spracované relácie"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid "Turn on the <strong>Live Chat</strong> feature."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapnite funkciu <strong>živého chatu</strong> ."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapnite funkciu <strong>živého chatu</strong> ."
 >>>>>>> upstream/18.0
@@ -11099,7 +11585,11 @@ msgstr "UUID"
 #: model_terms:ir.ui.view,arch_db:im_livechat.discuss_channel_view_search
 msgid "Unrated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bez hodnotenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bez hodnotenia"
 >>>>>>> upstream/18.0
@@ -11107,6 +11597,7 @@ msgstr "Bez hodnotenia"
 #. module: im_livechat
 #: model_terms:digest.tip,tip_description:im_livechat.digest_tip_im_livechat_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11780,6 +12271,10 @@ msgid ""
 "Use canned responses to define templates of messages in the livechat app. To "
 "load a canned response, start your sentence with ':' and select the template."
 >>>>>>> upstream/18.0
+=======
+"Use canned responses to define templates of messages in the livechat app. To "
+"load a canned response, start your sentence with ':' and select the template."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: im_livechat
@@ -11794,7 +12289,11 @@ msgstr "Užívateľ"
 #: model:ir.model.fields,field_description:im_livechat.field_res_users__user_livechat_username
 msgid "User Livechat Username"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meno užívateľa v živom chate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meno užívateľa v živom chate"
 >>>>>>> upstream/18.0
@@ -11873,7 +12372,11 @@ msgid "User Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavenia používateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavenia používateľa"
 >>>>>>> upstream/18.0
@@ -12092,7 +12595,11 @@ msgstr "Nastavenia používateľa"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__user_script_answer_id
 msgid "User's answer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odpoveď užívateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpoveď užívateľa"
 >>>>>>> upstream/18.0
@@ -12101,7 +12608,11 @@ msgstr "Odpoveď užívateľa"
 #: model:ir.model.fields,field_description:im_livechat.field_chatbot_message__user_raw_answer
 msgid "User's raw answer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pôvodná odpoveď užívateľa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pôvodná odpoveď užívateľa"
 >>>>>>> upstream/18.0
@@ -12125,7 +12636,11 @@ msgstr ""
 #: code:addons/im_livechat/models/discuss_channel.py:0
 msgid "Visitor left the conversation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Návštevník opustil konverzáciu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Návštevník opustil konverzáciu."
 >>>>>>> upstream/18.0
@@ -12154,7 +12669,11 @@ msgstr "História komunikácie webstránok"
 #: model:chatbot.script,title:im_livechat.chatbot_script_welcome_bot
 msgid "Welcome Bot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvítací bot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvítací bot"
 >>>>>>> upstream/18.0
@@ -12168,7 +12687,11 @@ msgstr "Uvítacia správa"
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_welcome
 msgid "Welcome to CompanyName! 👋"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vitajte v CompanyName! 👋"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vitajte v CompanyName! 👋"
 >>>>>>> upstream/18.0
@@ -12177,7 +12700,11 @@ msgstr "Vitajte v CompanyName! 👋"
 #: model:chatbot.script.step,message:im_livechat.chatbot_script_welcome_step_dispatch
 msgid "What are you looking for?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čo hľadáte?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čo hľadáte?"
 >>>>>>> upstream/18.0
@@ -12193,6 +12720,11 @@ msgid ""
 "Would you mind leaving your email address so that we can reach you back?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Mohli by ste nám zanechať svoju e-mailovú adresu, aby sme vás mohli "
+"kontaktovať?"
+>>>>>>> upstream/18.0
 =======
 "Mohli by ste nám zanechať svoju e-mailovú adresu, aby sme vás mohli "
 "kontaktovať?"
@@ -12203,7 +12735,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/embed/common/close_confirmation.xml:0
 msgid "Yes, leave conversation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Áno, opustiť konverzáciu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Áno, opustiť konverzáciu"
 >>>>>>> upstream/18.0
@@ -12212,7 +12748,11 @@ msgstr "Áno, opustiť konverzáciu"
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
 msgid "You"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vy"
 >>>>>>> upstream/18.0
@@ -12222,7 +12762,11 @@ msgstr "Vy"
 #: code:addons/im_livechat/controllers/attachment.py:0
 msgid "You are not allowed to upload attachments on this channel."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V tomto kanáli nemôžete nahrať prílohy."
+>>>>>>> upstream/18.0
 =======
 msgstr "V tomto kanáli nemôžete nahrať prílohy."
 >>>>>>> upstream/18.0
@@ -12234,6 +12778,11 @@ msgid ""
 "visitors."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Môžete vytvoriť nového chatbota s definovaným skriptom, ktorý bude "
+"komunikovať s návštevníkmi vašej webovej stránky."
+>>>>>>> upstream/18.0
 =======
 "Môžete vytvoriť nového chatbota s definovaným skriptom, ktorý bude "
 "komunikovať s návštevníkmi vašej webovej stránky."
@@ -12243,6 +12792,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:im_livechat.im_livechat_channel_action
 msgid ""
 "You can create channels for each website on which you want\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12913,6 +13463,8 @@ msgid ""
 "                visitors to talk in real time with your operators."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "                to integrate the website live chat widget, allowing your "
 "website\n"
 "                visitors to talk in real time with your operators."
@@ -12921,6 +13473,9 @@ msgstr ""
 "                integrovať widget živého chatu, čo umožní návštevníkom vašej "
 "webovej stránky\n"
 "                komunikovať v reálnom čase s vašimi operátormi."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: im_livechat
@@ -12928,7 +13483,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "You joined %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pripojili ste sa k %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pripojili ste sa k %s."
 >>>>>>> upstream/18.0
@@ -12938,7 +13497,11 @@ msgstr "Pripojili ste sa k %s."
 #: code:addons/im_livechat/static/src/core/web/livechat_channel_model_patch.js:0
 msgid "You left %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opustili ste %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Opustili ste %s."
 >>>>>>> upstream/18.0
@@ -12959,7 +13522,11 @@ msgstr ""
 #: code:addons/im_livechat/static/src/core/web/channel_member_list_patch.xml:0
 msgid "country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "krajina"
+>>>>>>> upstream/18.0
 =======
 msgstr "krajina"
 >>>>>>> upstream/18.0
@@ -12968,7 +13535,11 @@ msgstr "krajina"
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_view_form
 msgid "e.g. \"Meeting Scheduler Bot\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "napr. „Bot pre plánovanie schôdzok“"
+>>>>>>> upstream/18.0
 =======
 msgstr "napr. „Bot pre plánovanie schôdzok“"
 >>>>>>> upstream/18.0
@@ -12977,7 +13548,11 @@ msgstr "napr. „Bot pre plánovanie schôdzok“"
 #: model_terms:ir.ui.view,arch_db:im_livechat.chatbot_script_step_view_form
 msgid "e.g. 'How can I help you?'"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "napr. „Ako vám môžem pomôcť?“"
+>>>>>>> upstream/18.0
 =======
 msgstr "napr. „Ako vám môžem pomôcť?“"
 >>>>>>> upstream/18.0
@@ -12986,7 +13561,11 @@ msgstr "napr. „Ako vám môžem pomôcť?“"
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_rule_view_form
 msgid "e.g. /contactus"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "napr. /contactus"
+>>>>>>> upstream/18.0
 =======
 msgstr "napr. /contactus"
 >>>>>>> upstream/18.0
@@ -13006,7 +13585,11 @@ msgstr "napr. VasaWebstranka.com"
 #: code:addons/im_livechat/static/src/embed/common/feedback_panel/transcript_sender.xml:0
 msgid "mail@example.com"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "mail@example.com"
+>>>>>>> upstream/18.0
 =======
 msgstr "mail@example.com"
 >>>>>>> upstream/18.0

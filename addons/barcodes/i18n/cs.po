@@ -78,6 +78,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -778,6 +779,9 @@
 =======
 # * barcodes
 >>>>>>> upstream/18.0
+=======
+# * barcodes
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1013,6 +1017,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1319,6 +1324,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -1558,6 +1566,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2321,6 +2330,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-25 12:22+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -2403,6 +2414,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2562,6 +2576,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3492,6 +3507,11 @@ msgstr ""
 "(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : "
+"(n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: barcodes
 #. odoo-python
@@ -3734,6 +3754,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i>Barcodes Nomenclatures</i> define how barcodes are recognized and categorized.\n"
 "                                When a barcode is scanned it is associated to the <i>first</i> rule with a matching\n"
 "                                pattern. The pattern syntax is that of regular expression, and a barcode is matched\n"
@@ -3742,6 +3763,8 @@ msgstr ""
 "<i>Názvy čárových kódů</i> definují, jak jsou čárové kódy rozpoznávány a kategorizovány.\n"
 "Když je čárový kód naskenován, je spojen s <i>prvním</i> pravidlem se shodným vzorem. Syntaxe vzoru je stejná jako u regulárního výrazu a čárový kód se shoduje, pokud se regulární výraz shoduje s předponou čárového kódu."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4449,6 +4472,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4916,6 +4942,7 @@ msgstr ""
 #. module: barcodes
 #: model_terms:ir.actions.act_window,help:barcodes.action_barcode_nomenclature_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6078,6 +6105,10 @@ msgid ""
 "A barcode nomenclature defines how the point of sale identify and interprets "
 "barcodes"
 >>>>>>> upstream/18.0
+=======
+"A barcode nomenclature defines how the point of sale identify and interprets "
+"barcodes"
+>>>>>>> upstream/18.0
 msgstr ""
 "Nomenklatura čárových kódů definuje, jak prodejní místo čárové kódy "
 "identifikuje a interpretuje"
@@ -6259,7 +6290,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -6759,7 +6794,10 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7461,6 +7499,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8180,6 +8221,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Patterns can also define how numerical values, such as weight or price, can be\n"
 "                                encoded into the barcode. They are indicated by <code>{NNN}</code> where the N's\n"
 "                                define where the number's digits are encoded. Floats are also supported with the\n"
@@ -8193,6 +8235,8 @@ msgstr ""
 "                                desetiny jsou indikovány pomocí D-ček, jako <code>{NNNDD}</code>. V těchto případech,\n"
 "                                pole čárového kódu na odpovídajících záznamech  <i>musí</i> zobrazovat tyto číslice jako\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8908,6 +8952,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9705,8 +9752,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "setting determines if a UPC/EAN barcode should be automatically converted in"
 " one way or another when trying to match a rule with the other encoding."
+=======
+"setting determines if a UPC/EAN barcode should be automatically converted in "
+"one way or another when trying to match a rule with the other encoding."
+>>>>>>> upstream/18.0
 =======
 "setting determines if a UPC/EAN barcode should be automatically converted in "
 "one way or another when trying to match a rule with the other encoding."
@@ -10900,8 +10952,12 @@ msgstr "Neznámý příkaz čárového kódu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Used to order rules such that rules with a smaller sequence match first"
+=======
+msgid "Used to order rules such that rules with a smaller sequence match first"
+>>>>>>> upstream/18.0
 =======
 msgid "Used to order rules such that rules with a smaller sequence match first"
 >>>>>>> upstream/18.0
@@ -11838,7 +11894,10 @@ msgstr "Hodnota posledního naskenovaného čárového kódu."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12539,6 +12598,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

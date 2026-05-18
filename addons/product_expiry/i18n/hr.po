@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_expiry
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,11 +540,16 @@
 # * product_expiry
 #
 >>>>>>> upstream/18.0
+=======
+# * product_expiry
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Gordana Bilas, 2024
 # Martin Trigaux, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Bole <bole@dajmi5.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1995,10 +2001,15 @@
 # Goran Kliska <gkliska@gmail.com>, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Goran Kliska <gkliska@gmail.com>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3582,11 +3593,16 @@ msgstr ""
 "Last-Translator: Goran Kliska <gkliska@gmail.com>, 2025\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-16 09:08+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "product_expiry/hr/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -3594,6 +3610,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3995,6 +4012,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
@@ -4006,6 +4026,7 @@ msgstr ""
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5324,6 +5345,8 @@ msgid ""
 "expiration_date\"/>"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
 "expiration_date\"/>"
@@ -5331,13 +5354,20 @@ msgstr ""
 "<span title=\"Upozorenje\" class=\"fa fa-exclamation-triangle text-danger me-"
 "2\" invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
 "expiration_date\"/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
 msgid "<span> days after receipt</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> dana nakon primitka</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> dana nakon primitka</span>"
 >>>>>>> upstream/18.0
@@ -5346,7 +5376,11 @@ msgstr "<span> dana nakon primitka</span>"
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
 msgid "<span> days before expiration date</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> dana prije datuma isteka</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> dana prije datuma isteka</span>"
 >>>>>>> upstream/18.0
@@ -5367,7 +5401,11 @@ msgstr "Datum upozorenja je dosegnut"
 #: model_terms:ir.ui.view,arch_db:product_expiry.report_lot_label_expiry
 msgid "B.b."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "B.b."
+>>>>>>> upstream/18.0
 =======
 msgstr "B.b."
 >>>>>>> upstream/18.0
@@ -5391,6 +5429,7 @@ msgstr "Konfiguracijske postavke"
 #. module: product_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.confirm_expiry_view
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6708,6 +6747,9 @@ msgstr "Potvrdi"
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_expiry_picking_confirmation
@@ -6738,6 +6780,11 @@ msgid ""
 "\"Expiration Alerts\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Datum za određivanje isteklih serija i serijskih brojeva pomoću filtera "
+"\"Upozorenja o isteku\"."
+>>>>>>> upstream/18.0
 =======
 "Datum za određivanje isteklih serija i serijskih brojeva pomoću filtera "
 "\"Upozorenja o isteku\"."
@@ -6773,7 +6820,11 @@ msgstr "Naziv za prikaz"
 #: model_terms:ir.ui.view,arch_db:product_expiry.report_lot_label_expiry
 msgid "Exp."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istek"
 >>>>>>> upstream/18.0
@@ -6804,7 +6855,11 @@ msgstr "Datumi isteka će se prikazati na otpremnici"
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid "Expiration:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istek:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istek:"
 >>>>>>> upstream/18.0
@@ -6823,7 +6878,11 @@ msgstr "O isteku je poslan podsjetnik"
 #: model:product.removal,name:product_expiry.removal_fefo
 msgid "First Expiry First Out (FEFO)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prvo istječe, prvo izlazi (FEFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prvo istječe, prvo izlazi (FEFO)"
 >>>>>>> upstream/18.0
@@ -6867,6 +6926,12 @@ msgid ""
 "not be consumed. It will be computed on the lot/serial number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Broj dana nakon primitka proizvoda (od dobavljača ili u skladištu nakon "
+"proizvodnje) nakon kojih roba može postati opasna i ne smije se konzumirati. "
+"Izračunava se na seriji/serijskom broju."
+>>>>>>> upstream/18.0
 =======
 "Broj dana nakon primitka proizvoda (od dobavljača ili u skladištu nakon "
 "proizvodnje) nakon kojih roba može postati opasna i ne smije se konzumirati. "
@@ -6882,6 +6947,11 @@ msgid ""
 "number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Broj dana prije datuma isteka nakon kojih treba podići upozorenje na seriji/"
+"serijskom broju. Izračunava se na seriji/serijskom broju."
+>>>>>>> upstream/18.0
 =======
 "Broj dana prije datuma isteka nakon kojih treba podići upozorenje na seriji/"
 "serijskom broju. Izračunava se na seriji/serijskom broju."
@@ -6900,6 +6970,7 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
 msgid ""
 "Number of days before the Expiration Date after which the goods starts "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7570,11 +7641,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "deteriorating, without being dangerous yet. It will be computed on the lot/"
 "serial number."
 msgstr ""
 "Broj dana prije datuma isteka nakon kojih roba počinje propadati, ali još "
 "nije opasna. Izračunava se na seriji/serijskom broju."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
@@ -7630,7 +7706,11 @@ msgstr "Datum uklanjanja"
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_production_lot_view_kanban
 msgid "Removal:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uklanjanje:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uklanjanje:"
 >>>>>>> upstream/18.0
@@ -7799,8 +7879,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Datum na koji roba s ovim serijskim brojem može postati opasna i ne smije se"
 " konzumirati."
+=======
+"Datum na koji roba s ovim serijskim brojem može postati opasna i ne smije se "
+"konzumirati."
+>>>>>>> upstream/18.0
 =======
 "Datum na koji roba s ovim serijskim brojem može postati opasna i ne smije se "
 "konzumirati."
@@ -8512,6 +8597,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When this box is ticked, you have the possibility to specify dates to manage"
 " product expiration, on the product and on the corresponding lot/serial "
 =======
@@ -9049,12 +9135,17 @@ msgid ""
 "numbers"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "When this box is ticked, you have the possibility to specify dates to manage "
 "product expiration, on the product and on the corresponding lot/serial "
 "numbers"
 msgstr ""
 "Kada je ovo polje označeno, imate mogućnost odrediti datume za upravljanje "
 "istekom proizvoda, na proizvodu i na pripadajućim serijskim brojevima"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
@@ -9065,6 +9156,11 @@ msgid ""
 "Do you confirm you want to proceed?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Isporučit ćete neke istekle serije proizvoda.\n"
+"Potvrđujete li da želite nastaviti?"
+>>>>>>> upstream/18.0
 =======
 "Isporučit ćete neke istekle serije proizvoda.\n"
 "Potvrđujete li da želite nastaviti?"
@@ -9074,6 +9170,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9745,6 +9842,10 @@ msgid ""
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is "
 "expired.\n"
 >>>>>>> upstream/18.0
+=======
+"You are going to deliver the product %(product_name)s, %(lot_name)s which is "
+"expired.\n"
+>>>>>>> upstream/18.0
 "Do you confirm you want to proceed?"
 msgstr ""
 
@@ -9752,7 +9853,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^A0N,44,33^FDUse by:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^A0N,44,33^FDUpotrijebiti do:"
+>>>>>>> upstream/18.0
 =======
 msgstr "^A0N,44,33^FDUpotrijebiti do:"
 >>>>>>> upstream/18.0
@@ -9764,6 +9869,11 @@ msgid ""
 "^FD"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^BCN,100,Y,N,N\n"
+"^FD"
+>>>>>>> upstream/18.0
 =======
 "^BCN,100,Y,N,N\n"
 "^FD"
@@ -9773,7 +9883,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FO100,150"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,150"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,150"
 >>>>>>> upstream/18.0
@@ -9785,6 +9899,11 @@ msgid ""
 "^A0N,44,33^FDBest before:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,150\n"
+"^A0N,44,33^FDNajbolje upotrijebiti do:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,150\n"
 "^A0N,44,33^FDNajbolje upotrijebiti do:"
@@ -9797,6 +9916,11 @@ msgid ""
 "^A0N,44,33^FDUse by:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,150\n"
+"^A0N,44,33^FDUpotrijebiti do:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,150\n"
 "^A0N,44,33^FDUpotrijebiti do:"
@@ -9806,7 +9930,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FO100,200"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,200"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,200"
 >>>>>>> upstream/18.0
@@ -9818,6 +9946,11 @@ msgid ""
 "^A0N,44,33^FDUse by:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,200\n"
+"^A0N,44,33^FDUpotrijebiti do:"
+>>>>>>> upstream/18.0
 =======
 "^FO100,200\n"
 "^A0N,44,33^FDUpotrijebiti do:"
@@ -9827,7 +9960,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FO100,200^BY3"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FO100,200^BY3"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FO100,200^BY3"
 >>>>>>> upstream/18.0
@@ -9839,6 +9976,11 @@ msgid ""
 "^A0N,44,33^FD"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FO100,50\n"
+"^A0N,44,33^FD"
+>>>>>>> upstream/18.0
 =======
 "^FO100,50\n"
 "^A0N,44,33^FD"
@@ -9848,7 +9990,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_expiry.label_lot_template_view_expiry
 msgid "^FS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "^FS"
+>>>>>>> upstream/18.0
 =======
 msgstr "^FS"
 >>>>>>> upstream/18.0
@@ -9861,6 +10007,12 @@ msgid ""
 "^A0N,44,33^FDLN/SN:"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FS\n"
+"^FO100,100\n"
+"^A0N,44,33^FDLN/SN:"
+>>>>>>> upstream/18.0
 =======
 "^FS\n"
 "^FO100,100\n"
@@ -9876,11 +10028,17 @@ msgid ""
 "^FD"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "^FS\n"
 "^FO100,200^BY3\n"
 "^BCN,100,Y,N,N\n"
 "^FD"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: product_expiry
@@ -9890,6 +10048,11 @@ msgid ""
 "^FO100,250^BY3"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"^FS\n"
+"^FO100,250^BY3"
+>>>>>>> upstream/18.0
 =======
 "^FS\n"
 "^FO100,250^BY3"
@@ -9899,7 +10062,11 @@ msgstr ""
 #: model:product.removal,method:product_expiry.removal_fefo
 msgid "fefo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "fefo"
+>>>>>>> upstream/18.0
 =======
 msgstr "fefo"
 >>>>>>> upstream/18.0

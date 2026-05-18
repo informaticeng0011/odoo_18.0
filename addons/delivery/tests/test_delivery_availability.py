@@ -403,6 +403,7 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.carrier.write({
             'must_have_tag_ids': [self.must_have_tag.id],
         })
@@ -416,6 +417,8 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
             })],
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1245,6 +1248,9 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1907,7 +1913,10 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
         self.assertFalse(self.carrier.id in choose_delivery_carrier.available_carrier_ids.ids, "Carrier excluded tag is set on one product in the order")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1930,6 +1939,9 @@ class TestDeliveryAvailability(DeliveryCommon, SaleCommon):
         action = sale_order.action_open_delivery_wizard()
         self.assertEqual(action['context']['default_carrier_id'], False)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

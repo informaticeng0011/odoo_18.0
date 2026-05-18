@@ -209,7 +209,10 @@ import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { omit } from "@web/core/utils/objects";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -650,7 +653,11 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (line.coupon_id.id < 1) {
+=======
+            if (!line.coupon_id || line.coupon_id.id < 1) {
+>>>>>>> upstream/18.0
 =======
             if (!line.coupon_id || line.coupon_id.id < 1) {
 >>>>>>> upstream/18.0
@@ -717,6 +724,7 @@ patch(PaymentScreen.prototype, {
         }
         await super.validateOrder(...arguments);
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1195,6 +1203,8 @@ patch(PaymentScreen.prototype, {
             order.new_coupon_info = payload.new_coupon_info;
         }
     },
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

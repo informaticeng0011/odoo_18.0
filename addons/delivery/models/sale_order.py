@@ -126,10 +126,13 @@ class SaleOrder(models.Model):
             name = _('Add a shipping method')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             carrier = (
                 self.with_company(self.company_id).partner_shipping_id.property_delivery_carrier_id
                 or self.with_company(self.company_id).partner_shipping_id.commercial_partner_id.property_delivery_carrier_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             partner_id = self.with_company(self.company_id).partner_shipping_id
@@ -137,6 +140,9 @@ class SaleOrder(models.Model):
                 partner_id.property_delivery_carrier_id.filtered("active")
                 or partner_id.commercial_partner_id.property_delivery_carrier_id.filtered("active")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -267,7 +273,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             existing_partner = order.env['res.partner'].search([
+=======
+            existing_partner = order.env['res.partner'].with_context(active_test=False).search([
+>>>>>>> upstream/18.0
 =======
             existing_partner = order.env['res.partner'].with_context(active_test=False).search([
 >>>>>>> upstream/18.0
@@ -639,6 +649,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # Archive partner to prevent selection from the UI for Click&Collect.
+                'active': order.carrier_id.delivery_type != 'in_store',
+>>>>>>> upstream/18.0
 =======
                 # Archive partner to prevent selection from the UI for Click&Collect.
                 'active': order.carrier_id.delivery_type != 'in_store',

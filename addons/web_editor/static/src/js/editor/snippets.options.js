@@ -243,6 +243,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    isWebGLEnabled,
+>>>>>>> upstream/18.0
 =======
     isWebGLEnabled,
 >>>>>>> upstream/18.0
@@ -1124,7 +1128,11 @@ const CSS_ANIMATION_RULE_REGEX =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /(?<declaration>animation(?:-duration)?: .*?)(?<value>(?:\d+(?:\.\d+)?)|(?:\.\d+))(?<unit>ms|s)(?<separator>\s|;|"|$)/gm;
+=======
+    /(?<declaration>animation(?:-duration)?:\s*.*?)(?<value>(?:\d+(?:\.\d+)?)|(?:\.\d+))(?<unit>ms|s)(?<separator>\s|;|"|$)/gm;
+>>>>>>> upstream/18.0
 =======
     /(?<declaration>animation(?:-duration)?:\s*.*?)(?<value>(?:\d+(?:\.\d+)?)|(?:\.\d+))(?<unit>ms|s)(?<separator>\s|;|"|$)/gm;
 >>>>>>> upstream/18.0
@@ -2445,8 +2453,11 @@ const UserValueWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this._methodsParams.optionsPossibleValues[key] = dataValue.split(/\s*\|\s*/g);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3055,6 +3066,9 @@ const UserValueWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4251,7 +4265,10 @@ const SelectUserValueWidget = BaseSelectionUserValueWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4892,6 +4909,9 @@ const SelectUserValueWidget = BaseSelectionUserValueWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6189,6 +6209,10 @@ const ColorpickerUserValueWidget = SelectUserValueWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            options.getEditableCustomColors = wysiwyg.colorPalettesProps?.background?.getEditableCustomColors;
+>>>>>>> upstream/18.0
 =======
             options.getEditableCustomColors = wysiwyg.colorPalettesProps?.background?.getEditableCustomColors;
 >>>>>>> upstream/18.0
@@ -7104,7 +7128,11 @@ const MediapickerUserValueWidget = UserValueWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '499761556', '392935303', '728584384', '865314310', '511727912', '466830211'],
+=======
+                '499761556', '1092009120', '728584384', '865314310', '511727912', '466830211'],
+>>>>>>> upstream/18.0
 =======
                 '499761556', '1092009120', '728584384', '865314310', '511727912', '466830211'],
 >>>>>>> upstream/18.0
@@ -8144,7 +8172,11 @@ const ListUserValueWidget = UserValueWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const recordData = value;
+=======
+                const recordData = { ...value };
+>>>>>>> upstream/18.0
 =======
                 const recordData = { ...value };
 >>>>>>> upstream/18.0
@@ -10634,7 +10666,12 @@ const SnippetOptionWidget = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Call widget option methods and update $target
+=======
+            // Invoke widget option methods to update $target, handling any silent errors
+            // (e.g., when changing theme color and saving before the update is applied).
+>>>>>>> upstream/18.0
 =======
             // Invoke widget option methods to update $target, handling any silent errors
             // (e.g., when changing theme color and saving before the update is applied).
@@ -11905,6 +11942,10 @@ registry.sizing = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const isRtl = this.options.direction === "rtl";
+>>>>>>> upstream/18.0
 =======
         const isRtl = this.options.direction === "rtl";
 >>>>>>> upstream/18.0
@@ -12939,7 +12980,10 @@ registry.sizing = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13689,6 +13733,9 @@ registry.sizing = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14514,8 +14561,11 @@ registry.sizing = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     const dd = ev['page' + dir.XY] - dir.xy + dir.resize[1][dir.begin];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15263,6 +15313,9 @@ registry.sizing = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17378,7 +17431,10 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18274,6 +18330,9 @@ registry.ReplaceMedia = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19260,6 +19319,10 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._updateFilterAvailability();
+>>>>>>> upstream/18.0
 =======
         this._updateFilterAvailability();
 >>>>>>> upstream/18.0
@@ -20133,6 +20196,10 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this._updateFilterAvailability();
+>>>>>>> upstream/18.0
 =======
         this._updateFilterAvailability();
 >>>>>>> upstream/18.0
@@ -21143,6 +21210,7 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!['image/jpeg', 'image/webp'].includes(this._getImageMimetype(img))) {
             const optQuality = uiFragment.querySelector('we-range[data-set-quality]');
             if (optQuality) {
@@ -21325,6 +21393,8 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
         optQuality.setAttribute('data-name', 'quality_range_opt');
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21989,6 +22059,9 @@ const ImageHandlerOption = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23028,7 +23101,11 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ((isCropRequired && img.dataset.aspectRatio !== "1/1" && previewMode !== "reset")
+=======
+        if ((isCropRequired && img.dataset.isManualCrop !== "true" && img.dataset.aspectRatio !== "1/1" && previewMode !== "reset")
+>>>>>>> upstream/18.0
 =======
         if ((isCropRequired && img.dataset.isManualCrop !== "true" && img.dataset.aspectRatio !== "1/1" && previewMode !== "reset")
 >>>>>>> upstream/18.0
@@ -24182,7 +24259,10 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24936,6 +25016,9 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25698,7 +25781,10 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26467,6 +26553,9 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27510,6 +27599,12 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (widgetName == 'quality_range_opt' && this._unsupportedQualityOption() === true) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (widgetName == 'quality_range_opt' && this._unsupportedQualityOption() === true) {
             return false;
@@ -29584,6 +29679,12 @@ registry.ImageTools = ImageHandlerOption.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (ev._complete) {
+                ev._complete();
+            }
+>>>>>>> upstream/18.0
 =======
             if (ev._complete) {
                 ev._complete();
@@ -31528,7 +31629,10 @@ registry.BackgroundToggler = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32275,6 +32379,9 @@ registry.BackgroundToggler = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33833,7 +33940,13 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$target.css('background-size', widgetValue !== 'repeat-pattern' ? '' : '100px');
+=======
+        // Set image size to "100px" for repeating, and "cover" for gradient.
+        // Ensures gradient doesn’t repeat while image does.
+        this.$target[0].style.backgroundSize = widgetValue !== "repeat-pattern" ? "" : "100px, cover";
+>>>>>>> upstream/18.0
 =======
         // Set image size to "100px" for repeating, and "cover" for gradient.
         // Ensures gradient doesn’t repeat while image does.
@@ -35366,11 +35479,14 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (params.cssProperty === 'background-size'
                 && !this.$target.hasClass('o_bg_img_opt_repeat')) {
             // Disable the option when the image is in cover mode, otherwise
             // the background-size: auto style may be forced.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36127,6 +36243,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36889,9 +37008,12 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (methodName === 'backgroundType') {
             return this.$target.css('background-repeat') === 'repeat' ? 'repeat-pattern' : 'cover';
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37644,6 +37766,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38438,11 +38563,14 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.$bgDragger.css({
             width: `${this.$target.innerWidth()}px`,
             height: `${this.$target.innerHeight()}px`,
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39213,6 +39341,9 @@ registry.BackgroundPosition = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40385,8 +40516,11 @@ registry.DynamicSvg = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         newURL.searchParams.set(params.colorName, normalizeColor(widgetValue));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40680,6 +40814,9 @@ registry.DynamicSvg = SnippetOptionWidget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

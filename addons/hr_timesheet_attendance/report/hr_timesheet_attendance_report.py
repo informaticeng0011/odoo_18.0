@@ -370,8 +370,11 @@ class TimesheetAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     hr_attendance.check_in::date AS date,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1267,6 +1270,7 @@ class TimesheetAttendance(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 INNER JOIN hr_employee as employee ON employee.id = employee_id
                                 WHERE calendar.id = employee.resource_calendar_id)
                     as DATE) as date,
@@ -1558,6 +1562,11 @@ class TimesheetAttendance(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+                                INNER JOIN hr_employee as employee ON employee.id = hr_attendance.employee_id
+                                WHERE calendar.id = employee.resource_calendar_id)
+                    as DATE) as date,
 >>>>>>> upstream/18.0
 =======
                                 INNER JOIN hr_employee as employee ON employee.id = hr_attendance.employee_id

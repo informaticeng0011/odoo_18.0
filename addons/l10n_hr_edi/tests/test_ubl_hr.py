@@ -143,7 +143,10 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -469,6 +472,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -805,9 +811,15 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_export_invoice_with_exemption(self):
         """
         Test the content of a generated invoice with VAT exemption in Croation UBL format.
+=======
+    def test_export_invoice_with_exemption_k(self):
+        """
+        Test the content of a generated invoice with HR:K exemption in Croation UBL format.
+>>>>>>> upstream/18.0
 =======
     def test_export_invoice_with_exemption_k(self):
         """
@@ -1516,8 +1528,11 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with misc.file_open(f'addons/{self.test_module}/tests/test_files/test_invoice_exemption.xml', 'rb') as file:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1846,12 +1861,15 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Test the content of a generated invoice with HR:E exemption in Croation UBL format.
         """
         self.setup_partner_as_hr(self.env.company.partner_id)
         self.setup_partner_as_hr_alt(self.partner_a)
         tax = self.env['account.chart.template'].ref('VAT_S_other_exempt_O')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2141,6 +2159,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2460,6 +2481,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2806,7 +2830,10 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3078,6 +3105,7 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3162,6 +3190,8 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3310,6 +3340,9 @@ class TestL10nHrEdiXml(TestL10nHrEdiCommon, AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

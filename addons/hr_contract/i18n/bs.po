@@ -175,6 +175,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -682,10 +683,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1703,16 +1708,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-16 09:03+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/"
 "hr_contract/bs/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2728,6 +2739,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__contract_count
@@ -2749,7 +2765,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "/ month"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "/ mjesec"
+>>>>>>> upstream/18.0
 =======
 msgstr "/ mjesec"
 >>>>>>> upstream/18.0
@@ -2891,11 +2911,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span attrs=\"{'invisible' : [('contracts_count', '!=', 1)]}\" class=\"o_stat_text text-danger\">\n"
 "                                    Contract\n"
 "                                </span>\n"
 "                                <span attrs=\"{'invisible' : [('contracts_count', '=', 1)]}\" class=\"o_stat_text text-danger\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3316,6 +3339,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3724,11 +3750,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span attrs=\"{'invisible' : [('contracts_count', '=', 1)]}\" class=\"o_stat_text\">\n"
 "                                        Contracts\n"
 "                                    </span>\n"
 "                                    <span attrs=\"{'invisible' : [('contracts_count', '&gt;', 1)]}\" class=\"o_stat_text\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4133,6 +4162,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4405,6 +4437,7 @@ msgid ""
 msgstr ""
 
 #. module: hr_contract
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5103,6 +5136,11 @@ msgstr ""
 msgid "<span>Days</span>"
 msgstr "<span>Dana</span>"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
+msgid "<span>Days</span>"
+msgstr "<span>Dana</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #. odoo-python
@@ -5241,8 +5279,11 @@ msgstr "<span>Dana</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "According to the contract's end date, this contract has been put in red on the %s. Please advise and correct."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5653,6 +5694,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6067,6 +6111,7 @@ msgstr "Aktivan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__active_employee
 >>>>>>> upstream/18.0
@@ -6470,10 +6515,15 @@ msgstr "Aktivan"
 msgid "Active Employee"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__active_employee
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__active_employee
 msgid "Active Employee"
 msgstr "Aktivni zaposlenik"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -6490,7 +6540,11 @@ msgstr "Aktivnosti"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_exception_decoration
 msgid "Activity Exception Decoration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka izuzetka aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka izuzetka aktivnosti"
 >>>>>>> upstream/18.0
@@ -6505,6 +6559,7 @@ msgstr "Status aktivnosti"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_type_icon
 msgid "Activity Type Icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr_contract
@@ -7312,6 +7367,8 @@ msgstr ""
 msgid "Administrator"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Ikona tipa aktivnosti"
 
 #. module: hr_contract
@@ -7323,6 +7380,9 @@ msgstr "Čarobnjak za zakazivanje i planiranje aktivnosti"
 #: model:res.groups,name:hr_contract.group_hr_contract_manager
 msgid "Administrator"
 msgstr "Administrator"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -7463,7 +7523,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "An employee can only have one contract at the same time. (Excluding Draft and Cancelled contracts).\n"
+=======
+"An employee can only have one contract at the same time. (Excluding Draft "
+"and Cancelled contracts).\n"
+>>>>>>> upstream/18.0
 =======
 "An employee can only have one contract at the same time. (Excluding Draft "
 "and Cancelled contracts).\n"
@@ -8151,6 +8216,7 @@ msgstr "Broj zakački"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Bank Account Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8560,6 +8626,8 @@ msgstr "Broj bankovnog računa"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Bank Account"
 msgstr "Račun banke"
 
@@ -8700,6 +8768,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9111,7 +9182,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Calendar Mismatch: The employee's calendar does not match this contract's calendar. This could lead to unexpected behaviors."
+=======
+msgid ""
+"Calendar Mismatch: The employee's calendar does not match this contract's "
+"calendar. This could lead to unexpected behaviors."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Calendar Mismatch: The employee's calendar does not match this contract's "
@@ -9925,7 +10002,10 @@ msgstr "Otkazan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10330,6 +10410,9 @@ msgstr "Kompanije"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10613,6 +10696,7 @@ msgstr "Vozilo kompanije"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__company_country_id
 msgid "Company country"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr_contract
@@ -11163,12 +11247,17 @@ msgstr "Ugovor"
 msgid "Config Settings"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Država kompanije"
 
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_res_config_settings
 msgid "Config Settings"
 msgstr "Postavke"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -11311,6 +11400,9 @@ msgstr "Ugovor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11716,7 +11808,13 @@ msgstr "Ugovor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Contract %(contract)s: start date (%(start)s) must be earlier than contract end date (%(end)s)."
+=======
+msgid ""
+"Contract %(contract)s: start date (%(start)s) must be earlier than contract "
+"end date (%(end)s)."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Contract %(contract)s: start date (%(start)s) must be earlier than contract "
@@ -12531,6 +12629,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Contract Details"
 msgstr ""
 
@@ -12811,12 +12910,21 @@ msgstr ""
 msgid "Contract End Date"
 msgstr "Završni datum ugovora"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:hr_contract.hr_departure_wizard_view_form
+msgid "Contract End Date"
+msgstr "Završni datum ugovora"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Contract Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Period obavijesti o isteku ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Period obavijesti o isteku ugovora"
 >>>>>>> upstream/18.0
@@ -12958,6 +13066,7 @@ msgid "Contract Expiry Notice Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13224,6 +13333,9 @@ msgid "Contract Expiry Notice Period"
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr "Period obavijesti o isteku ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Period obavijesti o isteku ugovora"
 >>>>>>> upstream/18.0
@@ -13417,7 +13529,11 @@ msgid "Contract Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum početka ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum početka ugovora"
 >>>>>>> upstream/18.0
@@ -13936,6 +14052,7 @@ msgstr "Tip ugovora"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__contract_wage
 msgid "Contract Wage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr_contract
@@ -14341,10 +14458,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Ugovorena plaća"
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__contract_warning
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid "Contract Warning"
 msgstr ""
@@ -14508,6 +14630,11 @@ msgstr "Ugovor za obnovu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.ui.menu,name:hr_contract.hr_menu_contract
+#: model:ir.ui.menu,name:hr_contract.menu_hr_employee_contracts
+>>>>>>> upstream/18.0
 =======
 #: model:ir.ui.menu,name:hr_contract.hr_menu_contract
 #: model:ir.ui.menu,name:hr_contract.menu_hr_employee_contracts
@@ -15240,7 +15367,11 @@ msgid "Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Država"
+>>>>>>> upstream/18.0
 =======
 msgstr "Država"
 >>>>>>> upstream/18.0
@@ -15886,6 +16017,7 @@ msgstr "Država"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Country Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16026,6 +16158,11 @@ msgstr "Šifra države"
 msgstr "Šifra države"
 >>>>>>> upstream/18.0
 =======
+msgstr "Šifra države"
+>>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:hr_contract.field_hr_payroll_structure_type__country_code
+msgid "Country Code"
 msgstr "Šifra države"
 >>>>>>> upstream/18.0
 =======
@@ -16871,7 +17008,11 @@ msgid "Create"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreiraj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreiraj"
 >>>>>>> upstream/18.0
@@ -17596,7 +17737,11 @@ msgid "Default Working Hours"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadani radni sati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadani radni sati"
 >>>>>>> upstream/18.0
@@ -18121,7 +18266,11 @@ msgstr "Odjeljenje"
 #: model:ir.model,name:hr_contract.model_hr_departure_wizard
 msgid "Departure Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak odlaska"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak odlaska"
 >>>>>>> upstream/18.0
@@ -18129,6 +18278,7 @@ msgstr "Čarobnjak odlaska"
 #. module: hr_contract
 #. odoo-python
 #: code:addons/hr_contract/wizard/hr_departure_wizard.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18540,6 +18690,11 @@ msgid ""
 "Departure date can't be earlier than the start date of current contract."
 msgstr "Završni datum ugovora ne može biti manji od početnog datuma ugovora."
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"Departure date can't be earlier than the start date of current contract."
+msgstr "Završni datum ugovora ne može biti manji od početnog datuma ugovora."
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
@@ -18680,6 +18835,9 @@ msgstr "Detalji"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19169,7 +19327,11 @@ msgid "Employees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaposleni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaposleni"
 >>>>>>> upstream/18.0
@@ -19844,6 +20006,10 @@ msgstr "Istekao"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:hr_contract.field_hr_employee_public__first_contract_date
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee_public__first_contract_date
 >>>>>>> upstream/18.0
@@ -20262,6 +20428,7 @@ msgstr "Pratioci (Partneri)"
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -20822,6 +20989,11 @@ msgstr "Font awesome ikona npr. fa-tasks"
 
 #. module: hr_contract
 >>>>>>> upstream/18.0
+=======
+msgstr "Font awesome ikona npr. fa-tasks"
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_kanban
 msgid "From"
 msgstr "Od"
@@ -20969,6 +21141,9 @@ msgstr "Buduće aktivnosti"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21253,7 +21428,11 @@ msgstr "Ugovor o radu: ažuriraj status"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract_history__hr_responsible_id
 msgid "HR Responsible"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovoran iz HR"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovoran iz HR"
 >>>>>>> upstream/18.0
@@ -21262,7 +21441,11 @@ msgstr "Odgovoran iz HR"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__has_message
 msgid "Has Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima poruku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima poruku"
 >>>>>>> upstream/18.0
@@ -21451,7 +21634,11 @@ msgid "Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Znak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Znak"
 >>>>>>> upstream/18.0
@@ -21964,7 +22151,11 @@ msgstr "Znak"
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikona za prikaz aktivnosti izuzetka."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikona za prikaz aktivnosti izuzetka."
 >>>>>>> upstream/18.0
@@ -22110,6 +22301,7 @@ msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_sms_error
 >>>>>>> upstream/18.0
@@ -22912,11 +23104,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
 #. module: hr_contract
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__active_employee
 msgid ""
@@ -23060,6 +23257,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23516,7 +23716,11 @@ msgid "Kanban State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kanban status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kanban status"
 >>>>>>> upstream/18.0
@@ -24209,6 +24413,7 @@ msgid "Late Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Aktivnosti u kašnjenju"
@@ -24316,6 +24521,8 @@ msgstr "Aktivnosti u kašnjenju"
 msgstr "Aktivnosti u kašnjenju"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24588,7 +24795,11 @@ msgstr "Aktivnosti u kašnjenju"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_employee__legal_name
 msgid "Legal Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Službeno ime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Službeno ime"
 >>>>>>> upstream/18.0
@@ -24730,6 +24941,9 @@ msgstr "Meni"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25002,7 +25216,11 @@ msgstr "Meni"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška pri isporuci poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Greška pri isporuci poruke"
 >>>>>>> upstream/18.0
@@ -25021,7 +25239,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__my_activity_date_deadline
 msgid "My Activity Deadline"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rok za moju aktivnost"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rok za moju aktivnost"
 >>>>>>> upstream/18.0
@@ -25036,7 +25258,11 @@ msgstr "Novi"
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Događaj sljedećeg kalendara aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Događaj sljedećeg kalendara aktivnosti"
 >>>>>>> upstream/18.0
@@ -25196,7 +25422,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25601,6 +25830,9 @@ msgstr "Nema podataka za prikaz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26018,7 +26250,10 @@ msgstr "Broj akcija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26291,6 +26526,11 @@ msgid ""
 "warning is triggered."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Broj dana prije datuma završetka ugovora u kojem se aktivira upozorenje o "
+"isteku ugovora."
+>>>>>>> upstream/18.0
 =======
 "Broj dana prije datuma završetka ugovora u kojem se aktivira upozorenje o "
 "isteku ugovora."
@@ -26301,6 +26541,7 @@ msgstr ""
 msgid ""
 "Number of days prior to the work permit expiration date that a warning is "
 "triggered."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -27376,6 +27617,8 @@ msgid "Number of messages requiring action"
 msgstr ""
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Broj dana prije isteka radne dozvole za koje se aktivira upozorenje."
 
 #. module: hr_contract
@@ -27387,11 +27630,15 @@ msgstr "Broj grešaka"
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_needaction_counter
 msgid "Number of messages requiring action"
 msgstr "Broj poruka koje zahtijevaju radnju"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -28197,6 +28444,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Broj poruka sa greškama pri isporuci"
 
 #. module: hr_contract
@@ -28205,6 +28454,9 @@ msgid "Ongoing"
 msgstr "U tijeku"
 
 #. module: hr_contract
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_history_view_form
 msgid "Open Contract"
@@ -28213,6 +28465,7 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__hr_responsible_id
 msgid "Person responsible for validating the employee's contracts."
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -29824,6 +30077,8 @@ msgid "Ready"
 msgstr "Spremno"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Ovlaštena osoba za ovjeru ugovora zaposlenika."
 
 #. module: hr_contract
@@ -29840,6 +30095,9 @@ msgstr "Ocjene"
 #: model:ir.model.fields.selection,name:hr_contract.selection__hr_contract__kanban_state__done
 msgid "Ready"
 msgstr "Spremno"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -29983,6 +30241,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -30654,6 +30913,8 @@ msgstr ""
 msgid "Resource Working Time"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model,name:hr_contract.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
 msgstr "Detalji odsustva"
@@ -30662,6 +30923,9 @@ msgstr "Detalji odsustva"
 #: model:ir.model,name:hr_contract.model_resource_calendar
 msgid "Resource Working Time"
 msgstr "Radno vrijeme resursa"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -30836,7 +31100,11 @@ msgid "Resources"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resursi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Resursi"
 >>>>>>> upstream/18.0
@@ -31497,6 +31765,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -32165,11 +32434,16 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__message_has_sms_error
 msgid "SMS Delivery error"
 msgstr "Greška u slanju SMSa"
 
 #. module: hr_contract
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_form
 msgid "Salary Information"
@@ -32184,7 +32458,11 @@ msgstr "Podatci o plati"
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_contract_view_search
 msgid "Salary Structure Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta strukture plaće"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta strukture plaće"
 >>>>>>> upstream/18.0
@@ -32203,7 +32481,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_contract.field_hr_departure_wizard__set_date_end
 msgid "Set Contract End Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unesite završni datum ugovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unesite završni datum ugovora"
 >>>>>>> upstream/18.0
@@ -32212,7 +32494,11 @@ msgstr "Unesite završni datum ugovora"
 #: model:ir.model.fields,help:hr_contract.field_hr_departure_wizard__set_date_end
 msgid "Set the end date on the current contract."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unesite datum završetka aktualnog ugovora."
+>>>>>>> upstream/18.0
 =======
 msgstr "Unesite datum završetka aktualnog ugovora."
 >>>>>>> upstream/18.0
@@ -32247,11 +32533,17 @@ msgid ""
 "Planned: Future activities."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "Status po aktivnostima\n"
 "U kašnjenju: Datum aktivnosti je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -32396,6 +32688,10 @@ msgstr "Status ugovora"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,help:hr_contract.field_hr_payroll_structure_type__country_code
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,help:hr_contract.field_hr_payroll_structure_type__country_code
 >>>>>>> upstream/18.0
@@ -32803,6 +33099,11 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ISO oznaka države u dva slova.\n"
+"Možete koristiti za brzo pretraživanje."
+>>>>>>> upstream/18.0
 =======
 "ISO oznaka države u dva slova.\n"
 "Možete koristiti za brzo pretraživanje."
@@ -32813,6 +33114,7 @@ msgstr ""
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The contract of %s is about to expire."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: hr_contract
@@ -33218,12 +33520,17 @@ msgstr ""
 msgid "The default working hours are set in configuration."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr "Ugovor koji %s uskoro ističe."
 
 #. module: hr_contract
 #: model_terms:ir.ui.view,arch_db:hr_contract.hr_hr_employee_view_form2
 msgid "The default working hours are set in configuration."
 msgstr "Zadano radno vrijeme je postavljeno u Postavkama."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: hr_contract
@@ -33231,7 +33538,11 @@ msgstr "Zadano radno vrijeme je postavljeno u Postavkama."
 #: code:addons/hr_contract/models/hr_contract.py:0
 msgid "The work permit of %s is about to expire."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radna dozvola %s uskoro ističe."
+>>>>>>> upstream/18.0
 =======
 msgstr "Radna dozvola %s uskoro ističe."
 >>>>>>> upstream/18.0
@@ -33375,6 +33686,9 @@ msgstr "Za"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33818,7 +34132,11 @@ msgid "Today Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Današnje aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Današnje aktivnosti"
 >>>>>>> upstream/18.0
@@ -34336,7 +34654,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__activity_exception_decoration
 msgid "Type of the exception activity on record."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta aktivnosti iznimke na zapisu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta aktivnosti iznimke na zapisu."
 >>>>>>> upstream/18.0
@@ -34349,6 +34671,7 @@ msgstr ""
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_res_users
 msgid "User"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35031,6 +35354,9 @@ msgstr "Korisnik"
 =======
 msgstr "Korisnik"
 >>>>>>> upstream/18.0
+=======
+msgstr "Korisnik"
+>>>>>>> upstream/18.0
 
 #. module: hr_contract
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__visa_no
@@ -35178,7 +35504,10 @@ msgstr "Plata"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35458,7 +35787,11 @@ msgstr "Poruke sa website-a"
 #: model:ir.model.fields,help:hr_contract.field_hr_contract__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Historija komunikacije Web stranice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Historija komunikacije Web stranice"
 >>>>>>> upstream/18.0
@@ -35467,7 +35800,11 @@ msgstr "Historija komunikacije Web stranice"
 #: model_terms:ir.ui.view,arch_db:hr_contract.res_config_settings_view_form
 msgid "Work Permit Expiration Notice Period"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rok za obavijest o isteku radne dozvole"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rok za obavijest o isteku radne dozvole"
 >>>>>>> upstream/18.0
@@ -35476,6 +35813,7 @@ msgstr "Rok za obavijest o isteku radne dozvole"
 #: model:ir.model.fields,field_description:hr_contract.field_res_company__work_permit_expiration_notice_period
 #: model:ir.model.fields,field_description:hr_contract.field_res_config_settings__work_permit_expiration_notice_period
 msgid "Work Permit Expiry Notice Period"
+<<<<<<< HEAD
 <<<<<<< HEAD
 msgstr ""
 
@@ -35882,6 +36220,11 @@ msgstr "Period najave isteka radne dozvole"
 
 #. module: hr_contract
 >>>>>>> upstream/18.0
+=======
+msgstr "Period najave isteka radne dozvole"
+
+#. module: hr_contract
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:hr_contract.field_hr_contract__permit_no
 msgid "Work Permit No"
 msgstr "Broj radne dozvole"
@@ -36028,10 +36371,13 @@ msgstr "Raspored rada"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.ui.menu,name:hr_contract.menu_resource_calendar_view
 msgid "Working Times"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36444,6 +36790,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

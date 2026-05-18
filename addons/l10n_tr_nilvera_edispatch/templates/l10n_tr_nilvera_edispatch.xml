@@ -272,7 +272,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <cbc:PostalZone t-out="zipcode"/>
+=======
+            <cbc:PostalZone t-out="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+>>>>>>> upstream/18.0
 =======
             <cbc:PostalZone t-out="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
 >>>>>>> upstream/18.0
@@ -1334,7 +1338,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <cbc:CopyIndicator>false</cbc:CopyIndicator>
+=======
+            <cbc:CopyIndicator t-out="copy_indicator"/>
+>>>>>>> upstream/18.0
 =======
             <cbc:CopyIndicator t-out="copy_indicator"/>
 >>>>>>> upstream/18.0
@@ -2341,7 +2349,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3090,8 +3101,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="partner" t-value="picking.partner_id"/>
                     <t t-set="zipcode" t-value="partner.zip"/>
+=======
+                    <t t-set="partner" t-value="picking.partner_id.commercial_partner_id"/>
+>>>>>>> upstream/18.0
 =======
                     <t t-set="partner" t-value="picking.partner_id.commercial_partner_id"/>
 >>>>>>> upstream/18.0
@@ -4089,7 +4104,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4839,7 +4857,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5589,7 +5610,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-set="zipcode" t-value="partner.country_id.code == 'TR' and partner.zip or partner.l10n_tr_nilvera_edispatch_customs_zip"/>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

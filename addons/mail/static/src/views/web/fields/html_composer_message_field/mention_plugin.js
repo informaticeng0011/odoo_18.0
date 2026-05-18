@@ -112,7 +112,11 @@ export class MentionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             className: "popover",
+=======
+            className: "popover o-mail-MentionPlugin-overlay",
+>>>>>>> upstream/18.0
 =======
             className: "popover o-mail-MentionPlugin-overlay",
 >>>>>>> upstream/18.0
@@ -530,6 +534,10 @@ export class MentionPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    thread: this.config.thread,
+>>>>>>> upstream/18.0
 =======
                     thread: this.config.thread,
 >>>>>>> upstream/18.0
