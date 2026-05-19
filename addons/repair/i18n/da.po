@@ -191,8 +191,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
+=======
+# * repair
+#
+>>>>>>> upstream/18.0
 =======
 # * repair
 #
@@ -1212,6 +1217,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -2151,10 +2157,15 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3139,12 +3150,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-05-16 09:10+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/repair/"
 "da/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3153,6 +3169,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3762,6 +3779,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3769,7 +3789,11 @@ msgstr ""
 msgid "%(name)s Sequence repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Reparationssekvens"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(name)s Reparationssekvens"
 >>>>>>> upstream/18.0
@@ -3783,7 +3807,11 @@ msgstr "%(name)s Reparationssekvens"
 msgid "%(product)s: Insufficient Quantity To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Utilstrækkelig mængde, der skal repareres"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: Utilstrækkelig mængde, der skal repareres"
 >>>>>>> upstream/18.0
@@ -3796,7 +3824,11 @@ msgstr "%(product)s: Utilstrækkelig mængde, der skal repareres"
 msgid "('Repair Order - %s' % (object.name))"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "('Reparationsordre - %s' % (object.name))"
+>>>>>>> upstream/18.0
 =======
 msgstr "('Reparationsordre - %s' % (object.name))"
 >>>>>>> upstream/18.0
@@ -3809,7 +3841,11 @@ msgstr "('Reparationsordre - %s' % (object.name))"
 msgid "(<i>Recycle</i>)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(<i>Genbrug</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(<i>Genbrug</i>)"
 >>>>>>> upstream/18.0
@@ -3825,6 +3861,7 @@ msgstr "(<i>Fjern</i>)"
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__state
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4501,6 +4538,10 @@ msgid ""
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
 >>>>>>> upstream/18.0
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 "* The 'Confirmed' status is used when a user confirms the repair order.\n"
 "* The 'Under Repair' status is used when the repair is ongoing.\n"
 "* The 'Repaired' status is set when repairing is completed.\n"
@@ -4508,7 +4549,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 "* Status \"Ny\" bruges, når en bruger opretter en ny og ubekræftet "
@@ -4519,6 +4563,9 @@ msgstr ""
 "* Status \"Repareret\" angives, når reparationen er afsluttet.\n"
 "* Status \"Afbrudt\" bruges, når brugeren afbryder reparationsordren."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4533,7 +4580,11 @@ msgstr "<i>(Tilføj)</i>"
 msgid "<span class=\"col-6\">Confirmed</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Bekræftet</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Bekræftet</span>"
 >>>>>>> upstream/18.0
@@ -4735,7 +4786,11 @@ msgid "<span class=\"col-6\">Late</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Forsinket</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Forsinket</span>"
 >>>>>>> upstream/18.0
@@ -5315,7 +5370,11 @@ msgstr "<span class=\"col-6\">Forsinket</span>"
 msgid "<span class=\"col-6\">Under Repair</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Under reparation</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Under reparation</span>"
 >>>>>>> upstream/18.0
@@ -5328,7 +5387,11 @@ msgstr "<span class=\"col-6\">Under reparation</span>"
 msgid "<span class=\"o_stat_text\">Done:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Udført:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Udført:</span>"
 >>>>>>> upstream/18.0
@@ -5341,7 +5404,11 @@ msgstr "<span class=\"o_stat_text\">Udført:</span>"
 msgid "<span class=\"o_stat_text\">Repair Parts:</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Reservedele:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Reservedele:</span>"
 >>>>>>> upstream/18.0
@@ -5369,7 +5436,11 @@ msgstr "<span>Ordre</span>"
 msgid "<span>Repair Order #</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Reparationsordre #</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Reparationsordre #</span>"
 >>>>>>> upstream/18.0
@@ -5382,7 +5453,11 @@ msgstr "<span>Reparationsordre #</span>"
 msgid "<strong>Customer:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Kunde:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Kunde:</strong>"
 >>>>>>> upstream/18.0
@@ -5395,7 +5470,11 @@ msgstr "<strong>Kunde:</strong>"
 msgid "<strong>Lot/Serial:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Parti-/serienummer:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Parti-/serienummer:</strong>"
 >>>>>>> upstream/18.0
@@ -5408,7 +5487,11 @@ msgstr "<strong>Parti-/serienummer:</strong>"
 msgid "<strong>Product:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Produkt:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Produkt:</strong>"
 >>>>>>> upstream/18.0
@@ -5650,7 +5733,11 @@ msgid "Activity view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktivitetsvisning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktivitetsvisning"
 >>>>>>> upstream/18.0
@@ -6245,7 +6332,11 @@ msgstr "Tilføj interne notater."
 msgid "Added Parts Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Placering af tilføjede dele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Placering af tilføjede dele"
 >>>>>>> upstream/18.0
@@ -6269,7 +6360,11 @@ msgstr "Alle"
 msgid "All Parts are available"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle dele er tilgængelige"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alle dele er tilgængelige"
 >>>>>>> upstream/18.0
@@ -6282,7 +6377,11 @@ msgstr "Alle dele er tilgængelige"
 msgid "Allowed Lot"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilladt parti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilladt parti"
 >>>>>>> upstream/18.0
@@ -6305,7 +6404,11 @@ msgstr "Tilladt at Af-reservere Produktion"
 msgid "Any Part is late"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alle dele er forsinkede"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alle dele er forsinkede"
 >>>>>>> upstream/18.0
@@ -6331,7 +6434,11 @@ msgstr "Til rådighed"
 msgid "Back to Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tilbage til reparation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tilbage til reparation"
 >>>>>>> upstream/18.0
@@ -6407,7 +6514,11 @@ msgstr "Virksomhed"
 msgid "Component Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komponentens standardlagerplacering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Komponentens standardlagerplacering"
 >>>>>>> upstream/18.0
@@ -6421,7 +6532,11 @@ msgstr "Komponentens standardlagerplacering"
 msgid "Component Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komponentens kildeplacering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Komponentens kildeplacering"
 >>>>>>> upstream/18.0
@@ -6623,7 +6738,11 @@ msgid "Component Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komponentstatus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Komponentstatus"
 >>>>>>> upstream/18.0
@@ -7231,7 +7350,11 @@ msgstr ""
 msgid "Create Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret tilbud"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret tilbud"
 >>>>>>> upstream/18.0
@@ -7247,7 +7370,11 @@ msgstr "Opret tilbud"
 msgid "Create Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret reparation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret reparation"
 >>>>>>> upstream/18.0
@@ -7260,7 +7387,11 @@ msgstr "Opret reparation"
 msgid "Create Repair Orders from Returns"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opret reparationsordrer fra returneringer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opret reparationsordrer fra returneringer"
 >>>>>>> upstream/18.0
@@ -7494,7 +7625,11 @@ msgid "Date Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datokategori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datokategori"
 >>>>>>> upstream/18.0
@@ -8335,6 +8470,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"For nogle komponenter er der forskel mellem den oprindelige efterspørgsel og "
+"den faktisk anvendte mængde. Er du sikker på, at du vil bekræfte?"
+>>>>>>> upstream/18.0
 =======
 "For nogle komponenter er der forskel mellem den oprindelige efterspørgsel og "
 "den faktisk anvendte mængde. Er du sikker på, at du vil bekræfte?"
@@ -9352,7 +9492,11 @@ msgid "Forecast Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prognoserapport"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prognoserapport"
 >>>>>>> upstream/18.0
@@ -10126,7 +10270,11 @@ msgstr "Har besked"
 msgid "Has Uncomplete Moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har ufuldstændige bevægelser"
+>>>>>>> upstream/18.0
 =======
 msgstr "Har ufuldstændige bevægelser"
 >>>>>>> upstream/18.0
@@ -10170,6 +10318,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvis dette felt er markeret, sættes salgsprisen til 0 for alle produkter, "
+"der overføres fra reparationsordren."
+>>>>>>> upstream/18.0
 =======
 "Hvis dette felt er markeret, sættes salgsprisen til 0 for alle produkter, "
 "der overføres fra reparationsordren."
@@ -10186,6 +10339,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvis feltet er markeret, kan der oprettes en reparationsordre direkte fra en "
+"returnering."
+>>>>>>> upstream/18.0
 =======
 "Hvis feltet er markeret, kan der oprettes en reparationsordre direkte fra en "
 "returnering."
@@ -10199,6 +10357,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:repair.action_repair_order_tree
 msgid ""
 "In a repair order, you can detail the components you remove,\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10608,6 +10767,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                add or replace and record the time you spent on the "
 "different\n"
 "                operations."
@@ -10748,6 +10909,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11024,7 +11188,11 @@ msgstr ""
 msgid "In repair count"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal under reparation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal under reparation"
 >>>>>>> upstream/18.0
@@ -11037,7 +11205,11 @@ msgstr "Antal under reparation"
 msgid "In the Repair Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "I reparationsordren"
+>>>>>>> upstream/18.0
 =======
 msgstr "I reparationsordren"
 >>>>>>> upstream/18.0
@@ -11070,7 +11242,11 @@ msgstr "Er følger"
 msgid "Is Repairable"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kan repareres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kan repareres"
 >>>>>>> upstream/18.0
@@ -11131,6 +11307,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aktuel status for reservedelsbeholdningen til denne reparationsordre. Hvis "
+"status er grøn, er reparationsordren klar til behandling."
+>>>>>>> upstream/18.0
 =======
 "Aktuel status for reservedelsbeholdningen til denne reparationsordre. Hvis "
 "status er grøn, er reparationsordren klar til behandling."
@@ -11215,6 +11396,11 @@ msgstr "Deadline på mine aktiviteter "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
@@ -11413,6 +11599,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vær opmærksom på, at returlageret og reparationsstederne ikke er de samme!"
+>>>>>>> upstream/18.0
 =======
 "Vær opmærksom på, at returlageret og reparationsstederne ikke er de samme!"
 >>>>>>> upstream/18.0
@@ -11430,7 +11620,11 @@ msgstr "Antal handlinger"
 msgid "Number of Late Repair Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal forsinkede reparationsordrer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal forsinkede reparationsordrer"
 >>>>>>> upstream/18.0
@@ -11443,7 +11637,11 @@ msgstr "Antal forsinkede reparationsordrer"
 msgid "Number of Repair Orders Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal bekræftede reparationsordrer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal bekræftede reparationsordrer"
 >>>>>>> upstream/18.0
@@ -11456,7 +11654,11 @@ msgstr "Antal bekræftede reparationsordrer"
 msgid "Number of Repair Orders Under Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal reparationsordrer under reparation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal reparationsordrer under reparation"
 >>>>>>> upstream/18.0
@@ -11469,7 +11671,11 @@ msgstr "Antal reparationsordrer under reparation"
 msgid "Number of Repair Orders to Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal reparationsordrer, der skal behandles"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal reparationsordrer, der skal behandles"
 >>>>>>> upstream/18.0
@@ -11497,7 +11703,11 @@ msgstr "Antal beskeder med leveringsfejl"
 msgid "Number of repairs linked to this picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal reparationer i forbindelse med denne plukning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal reparationer i forbindelse med denne plukning"
 >>>>>>> upstream/18.0
@@ -11517,6 +11727,7 @@ msgstr "Operation type"
 
 #. module: repair
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12059,6 +12270,9 @@ msgstr "Operation type"
 =======
 #: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/repair/models/product.py:0 code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 msgid "Operation not supported"
 msgstr "Operation ikke understøttet"
 
@@ -12089,7 +12303,11 @@ msgstr "Dele"
 msgid "Parts Availability State"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status for deles tilgængelighed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status for deles tilgængelighed"
 >>>>>>> upstream/18.0
@@ -12107,7 +12325,11 @@ msgstr "Afventer"
 msgid "Picking Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plukningsprodukt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plukningsprodukt"
 >>>>>>> upstream/18.0
@@ -12153,7 +12375,11 @@ msgstr "Produkt B"
 msgid "Product Catalog Product Is In Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det pågældende produkt er til reparation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Det pågældende produkt er til reparation"
 >>>>>>> upstream/18.0
@@ -12167,7 +12393,11 @@ msgstr "Det pågældende produkt er til reparation"
 msgid "Product Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktets bestemmelsessted"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktets bestemmelsessted"
 >>>>>>> upstream/18.0
@@ -12196,7 +12426,11 @@ msgstr "Antal produkter"
 msgid "Product Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Produktkildens placering"
+>>>>>>> upstream/18.0
 =======
 msgstr "Produktkildens placering"
 >>>>>>> upstream/18.0
@@ -12277,7 +12511,11 @@ msgstr "Klar"
 msgid "Recycle"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Genbrug"
+>>>>>>> upstream/18.0
 =======
 msgstr "Genbrug"
 >>>>>>> upstream/18.0
@@ -12290,7 +12528,11 @@ msgstr "Genbrug"
 msgid "Recycle Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Placering for genbrug"
+>>>>>>> upstream/18.0
 =======
 msgstr "Placering for genbrug"
 >>>>>>> upstream/18.0
@@ -12303,7 +12545,11 @@ msgstr "Placering for genbrug"
 msgid "Recycled Parts Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Leveringssted for genbrugsdele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Leveringssted for genbrugsdele"
 >>>>>>> upstream/18.0
@@ -12321,7 +12567,11 @@ msgstr "Fjern"
 msgid "Remove Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fjern destinationsplaceringen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fjern destinationsplaceringen"
 >>>>>>> upstream/18.0
@@ -12334,7 +12584,11 @@ msgstr "Fjern destinationsplaceringen"
 msgid "Removed Parts Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Destination for de fjernede dele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Destination for de fjernede dele"
 >>>>>>> upstream/18.0
@@ -12356,7 +12610,11 @@ msgstr "Reparation"
 msgid "Repair MTO Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Regel for produktion efter ordre ved reparation"
+>>>>>>> upstream/18.0
 =======
 msgstr "Regel for produktion efter ordre ved reparation"
 >>>>>>> upstream/18.0
@@ -12370,7 +12628,11 @@ msgstr "Regel for produktion efter ordre ved reparation"
 msgid "Repair Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reparationsnoter"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reparationsnoter"
 >>>>>>> upstream/18.0
@@ -12383,7 +12645,11 @@ msgstr "Reparationsnoter"
 msgid "Repair Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reparationsoperationstype"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reparationsoperationstype"
 >>>>>>> upstream/18.0
@@ -12405,7 +12671,11 @@ msgstr "Reparationsordre"
 msgid "Repair Order(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reparationsordre(r)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reparationsordre(r)"
 >>>>>>> upstream/18.0
@@ -12445,7 +12715,11 @@ msgstr ""
 msgid "Repair Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reparationsegenskaber"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reparationsegenskaber"
 >>>>>>> upstream/18.0
@@ -12463,7 +12737,11 @@ msgstr "Reparationsreference"
 msgid "Repair Request"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reparationsanmodning"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reparationsanmodning"
 >>>>>>> upstream/18.0
@@ -12495,7 +12773,11 @@ msgstr ""
 msgid "Repair orders of %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reparationsordrer for %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reparationsordrer for %s"
 >>>>>>> upstream/18.0
@@ -12508,7 +12790,11 @@ msgstr "Reparationsordrer for %s"
 msgid "Repair part count"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal reservedele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal reservedele"
 >>>>>>> upstream/18.0
@@ -12527,7 +12813,11 @@ msgstr "Repareret"
 msgid "Repaired count"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Antal reparerede"
+>>>>>>> upstream/18.0
 =======
 msgstr "Antal reparerede"
 >>>>>>> upstream/18.0
@@ -12584,7 +12874,11 @@ msgstr "Returner"
 msgid "Return Order from which the product to be repaired comes from."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Returordre, som det produkt, der skal repareres, stammer fra."
+>>>>>>> upstream/18.0
 =======
 msgstr "Returordre, som det produkt, der skal repareres, stammer fra."
 >>>>>>> upstream/18.0
@@ -12597,7 +12891,11 @@ msgstr "Returordre, som det produkt, der skal repareres, stammer fra."
 msgid "Return Type Of"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Returtype for"
+>>>>>>> upstream/18.0
 =======
 msgstr "Returtype for"
 >>>>>>> upstream/18.0
@@ -12632,7 +12930,11 @@ msgstr "Salgsordrelinje"
 msgid "Sale Order Line Description."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beskrivelse af salgsordrelinje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Beskrivelse af salgsordrelinje."
 >>>>>>> upstream/18.0
@@ -12645,7 +12947,11 @@ msgstr "Beskrivelse af salgsordrelinje."
 msgid "Sale Order Line from which the Repair Order comes from."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salgsordrelinje, som reparationsordren stammer fra."
+>>>>>>> upstream/18.0
 =======
 msgstr "Salgsordrelinje, som reparationsordren stammer fra."
 >>>>>>> upstream/18.0
@@ -12658,7 +12964,11 @@ msgstr "Salgsordrelinje, som reparationsordren stammer fra."
 msgid "Sale Order from which the Repair Order comes from."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Salgsordre, som reparationsordren stammer fra."
+>>>>>>> upstream/18.0
 =======
 msgstr "Salgsordre, som reparationsordren stammer fra."
 >>>>>>> upstream/18.0
@@ -12692,7 +13002,11 @@ msgstr "Søg reparationsordre"
 msgid "Serial number is required for product to repair : %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Serienummer er påkrævet for at reparere produktet: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Serienummer er påkrævet for at reparere produktet: %s"
 >>>>>>> upstream/18.0
@@ -12967,7 +13281,11 @@ msgid "The day after tomorrow"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Overmorgen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Overmorgen"
 >>>>>>> upstream/18.0
@@ -13557,7 +13875,11 @@ msgstr ""
 msgid "This is a repair note."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dette er en reparationsnote."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dette er en reparationsnote."
 >>>>>>> upstream/18.0
@@ -13573,6 +13895,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dette er standarddestinationen for det produkt, der skal repareres, i "
+"reparationsordrer med denne opgavetype."
+>>>>>>> upstream/18.0
 =======
 "Dette er standarddestinationen for det produkt, der skal repareres, i "
 "reparationsordrer med denne opgavetype."
@@ -13590,6 +13917,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dette er standarddestinationen for genbrug, når der oprettes en "
+"reparationsordre med denne opgavetype."
+>>>>>>> upstream/18.0
 =======
 "Dette er standarddestinationen for genbrug, når der oprettes en "
 "reparationsordre med denne opgavetype."
@@ -13607,6 +13939,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dette er standarddestinationen for udtagning ved oprettelse af en "
+"reparationsordre med denne opgavetype."
+>>>>>>> upstream/18.0
 =======
 "Dette er standarddestinationen for udtagning ved oprettelse af en "
 "reparationsordre med denne opgavetype."
@@ -13619,6 +13956,7 @@ msgstr ""
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14292,12 +14630,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This is the default source location for the product to be repaired in repair "
 "orders with this operation type."
 msgstr ""
 "Dette er standardkildeplaceringen for det produkt, der skal repareres, i "
 "reparationsordrer med denne opgavetype."
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14309,6 +14652,10 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Det er her, komponenterne i det produkt, der skal repareres, befinder sig."
+>>>>>>> upstream/18.0
 =======
 "Det er her, komponenterne i det produkt, der skal repareres, befinder sig."
 >>>>>>> upstream/18.0
@@ -14327,7 +14674,11 @@ msgstr "Dette er stedet hvor produktet der skal repareres findes."
 msgid "This is the location where the repair parts are located."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det er her, reservedelene findes."
+>>>>>>> upstream/18.0
 =======
 msgstr "Det er her, reservedelene findes."
 >>>>>>> upstream/18.0
@@ -14341,7 +14692,11 @@ msgstr "Det er her, reservedelene findes."
 msgid "This is the location where the repaired product is located."
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det er her, det reparerede produkt befinder sig."
+>>>>>>> upstream/18.0
 =======
 msgstr "Det er her, det reparerede produkt befinder sig."
 >>>>>>> upstream/18.0
@@ -14354,7 +14709,11 @@ msgstr "Det er her, det reparerede produkt befinder sig."
 msgid "To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skal repareres"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skal repareres"
 >>>>>>> upstream/18.0
@@ -14397,6 +14756,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sandt, hvis denne reparation er knyttet til en returordre, og ordren er "
+"markeret som \"Afsluttet\". Ellers er det falsk."
+>>>>>>> upstream/18.0
 =======
 "Sandt, hvis denne reparation er knyttet til en returordre, og ordren er "
 "markeret som \"Afsluttet\". Ellers er det falsk."
@@ -14467,7 +14831,11 @@ msgid "Under Warranty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Under garanti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Under garanti"
 >>>>>>> upstream/18.0
@@ -14651,7 +15019,11 @@ msgstr "Du kan ikke angive negative kvantiteter."
 msgid "You cannot cancel a Repair Order that's already been completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Du kan ikke annullere en reparationsordre, der allerede er afsluttet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Du kan ikke annullere en reparationsordre, der allerede er afsluttet"
 >>>>>>> upstream/18.0
@@ -14663,6 +15035,7 @@ msgstr "Du kan ikke annullere en reparationsordre, der allerede er afsluttet"
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15337,6 +15710,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot create a quotation for a repair order that is already linked to "
 "an existing sale order.\n"
 "Concerned repair order(s):\n"
@@ -15347,6 +15722,9 @@ msgstr ""
 "Berørte reparationsordrer:\n"
 "%(ref_str)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15355,6 +15733,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16029,6 +16408,8 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You need to define a customer for a repair order in order to create an "
 "associated quotation.\n"
 "Concerned repair order(s):\n"
@@ -16039,6 +16420,9 @@ msgstr ""
 "Berørte reparationsordrer:\n"
 "%(ref_str)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

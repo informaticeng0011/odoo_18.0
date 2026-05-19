@@ -115,7 +115,11 @@ from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.l10n_tw_edi_ecpay.utils import call_ecpay_api, transfer_time
+=======
+from odoo.addons.l10n_tw_edi_ecpay.utils import call_ecpay_api, transfer_time, convert_utc_time_to_tw_time
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.l10n_tw_edi_ecpay.utils import call_ecpay_api, transfer_time, convert_utc_time_to_tw_time
 >>>>>>> upstream/18.0
@@ -989,6 +993,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.model
+>>>>>>> upstream/18.0
 =======
     @api.model
 >>>>>>> upstream/18.0
@@ -1591,9 +1599,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.partner_id.email and not self.partner_id.phone:
             errors.append(self.env._("Please fill in the customer email or phone number for Ecpay invoice creation."))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1651,6 +1662,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1738,6 +1752,7 @@ class AccountMove(models.Model):
 
             twd_excluded_amount = base_line['tax_details']['raw_total_excluded']
             twd_included_amount = base_line['tax_details']['raw_total_included']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2329,6 +2344,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             quantity = abs(line.quantity)
 
             if self.l10n_tw_edi_is_b2b:
@@ -2533,6 +2550,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2926,6 +2946,7 @@ class AccountMove(models.Model):
 
             # For special tax, we use twd_included_amount
             if tax_type == "4":
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3703,12 +3724,16 @@ class AccountMove(models.Model):
 =======
                 item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
 >>>>>>> upstream/18.0
+=======
+                item_price = float_round(twd_included_amount / quantity, precision_rounding=0.01)
+>>>>>>> upstream/18.0
                 item_amount = float_round(twd_included_amount, precision_rounding=0.01)
 
             # Set item sequence for each invoice line, the sequence cannot start from 0
             if not is_allowance:
                 line.l10n_tw_edi_ecpay_item_sequence = index
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4382,6 +4407,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # ItemRemark is in TW Chinese Characters because the official document uses TW Chinese Characters
             if self.l10n_tw_edi_is_b2b and is_allowance:
                 item_list.append({
@@ -4417,6 +4444,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4591,6 +4621,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4813,6 +4846,7 @@ class AccountMove(models.Model):
                 item_list.append({
                     "ItemSeq": line.l10n_tw_edi_ecpay_item_sequence,
                     "ItemName": line.name[:100],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5590,6 +5624,9 @@ class AccountMove(models.Model):
 =======
                     "ItemCount": quantity,
 >>>>>>> upstream/18.0
+=======
+                    "ItemCount": quantity,
+>>>>>>> upstream/18.0
                     "ItemWord": line.product_uom_id.name[:6] if line.product_uom_id else False,
                     "ItemPrice": item_price,
                     "ItemTaxType": line.tax_ids[0].l10n_tw_edi_tax_type if tax_type != "4" and line.tax_ids else "",
@@ -5626,6 +5663,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    "ItemRemark": f"商品單位: {line.product_uom_id.name[:6]}" if line.product_uom_id else ""
+>>>>>>> upstream/18.0
 =======
                     "ItemRemark": f"商品單位: {line.product_uom_id.name[:6]}" if line.product_uom_id else ""
 >>>>>>> upstream/18.0
@@ -5753,6 +5794,7 @@ class AccountMove(models.Model):
             item_list[-1]["ItemPrice"] = float_round(item_list[-1]["ItemAmount"] / item_list[-1]["ItemCount"], precision_rounding=0.01)
             sale_amount += exchange_difference
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6335,6 +6377,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if self.l10n_tw_edi_is_b2b and is_allowance:
             json_data["Details"] = item_list
         else:
@@ -6374,8 +6418,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         formatted_phone = self._reformat_phone_number(self.partner_id.phone) if self.partner_id.phone else ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6431,6 +6478,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6473,6 +6523,7 @@ class AccountMove(models.Model):
             "MerchantID": self.company_id.sudo().l10n_tw_edi_ecpay_merchant_id,
             "RelateNumber": self.l10n_tw_edi_related_number,
             "CustomerIdentifier": self.partner_id.vat if self.l10n_tw_edi_is_b2b and self.partner_id.vat else "",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7010,10 +7061,14 @@ class AccountMove(models.Model):
 =======
             "CustomerAddr": self.partner_id._l10n_tw_edi_formatted_address(),
 >>>>>>> upstream/18.0
+=======
+            "CustomerAddr": self.partner_id._l10n_tw_edi_formatted_address(),
+>>>>>>> upstream/18.0
             "CustomerEmail": self.partner_id.email or "",
             "CustomerPhone": formatted_phone,
             "InvType": self.l10n_tw_edi_invoice_type,
             "TaxType": tax_type,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7409,6 +7464,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         }
 
         if self.ref:
@@ -7543,6 +7600,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7976,6 +8036,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "InvoiceDate": self.l10n_tw_edi_invoice_create_date.strftime("%Y-%m-%d %H:%M:%S"),
             })
         else:
@@ -8051,6 +8112,8 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8376,6 +8439,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8774,7 +8840,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9278,8 +9347,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.partner_id.commercial_partner_id.contact_address_inline:
             buyer_json_data["Address"] = self.partner_id.commercial_partner_id.contact_address_inline
+=======
+        if partner := self.partner_id.commercial_partner_id:
+            buyer_json_data["Address"] = partner._l10n_tw_edi_formatted_address()
+>>>>>>> upstream/18.0
 =======
         if partner := self.partner_id.commercial_partner_id:
             buyer_json_data["Address"] = partner._l10n_tw_edi_formatted_address()
@@ -10000,6 +10074,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10541,7 +10618,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11081,6 +11161,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11580,7 +11663,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "InvoiceDate": self.l10n_tw_edi_invoice_create_date.strftime("%Y-%m-%d %H:%M:%S"),
+=======
+                "InvoiceDate": convert_utc_time_to_tw_time(self.l10n_tw_edi_invoice_create_date),
+>>>>>>> upstream/18.0
 =======
                 "InvoiceDate": convert_utc_time_to_tw_time(self.l10n_tw_edi_invoice_create_date),
 >>>>>>> upstream/18.0
@@ -12039,7 +12126,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "InvoiceDate": self.l10n_tw_edi_invoice_create_date.strftime("%Y-%m-%d %H:%M:%S"),
+=======
+            "InvoiceDate": convert_utc_time_to_tw_time(self.l10n_tw_edi_invoice_create_date),
+>>>>>>> upstream/18.0
 =======
             "InvoiceDate": convert_utc_time_to_tw_time(self.l10n_tw_edi_invoice_create_date),
 >>>>>>> upstream/18.0

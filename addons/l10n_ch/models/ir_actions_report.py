@@ -60,6 +60,10 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    last_page.compressContentStreams()
+>>>>>>> upstream/18.0
 =======
                     last_page.compressContentStreams()
 >>>>>>> upstream/18.0

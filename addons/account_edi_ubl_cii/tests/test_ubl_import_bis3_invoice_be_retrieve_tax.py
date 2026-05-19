@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 from odoo.addons.account_edi_ubl_cii.tests.test_ubl_import_bis3_invoice_be import TestUblImportBis3InvoiceBE
 from odoo.tests import tagged
 
@@ -7,6 +11,7 @@ from freezegun import freeze_time
 @tagged('post_install_l10n', 'post_install', '-at_install')
 class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -145,6 +150,8 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_partial_import_tax_manual_tax_amounts(self):
         # Fail to retrieve the tax.
         invoice = self._import_invoice_as_attachment_on(
@@ -193,6 +200,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -358,7 +368,11 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test_name='test_partial_import_tax_fixed_tax_amounts',
+=======
+            test_name='test_partial_import_tax_manual_tax_amounts',
+>>>>>>> upstream/18.0
 =======
             test_name='test_partial_import_tax_manual_tax_amounts',
 >>>>>>> upstream/18.0
@@ -567,9 +581,12 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2020-01-01')
     def test_partial_import_tax_fixed_tax_amounts_invoice_predictive(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -762,6 +779,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -868,6 +888,7 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 
         # Check the prediction.
         invoice = self._import_invoice_as_attachment_on(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1049,6 +1070,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 =======
             test_name='test_partial_import_tax_manual_tax_amounts',
 >>>>>>> upstream/18.0
+=======
+            test_name='test_partial_import_tax_manual_tax_amounts',
+>>>>>>> upstream/18.0
             journal=self.company_data['default_journal_sale'],
         )
         self.assertRecordValues(
@@ -1077,3 +1101,34 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
                 },
             ],
         )
+<<<<<<< HEAD
+=======
+
+    def test_import_foreign_tax(self):
+        tax_21 = self.percent_tax(21.0, type_tax_use='sale')
+        tax_21_foreign = self.percent_tax(21.0, type_tax_use='sale')
+
+        domestic = self.env['account.fiscal.position'].create({
+            'name': 'Domestic',
+            'company_id': self.company_data['company'].id,
+        })
+        foreign_trade = self.env['account.fiscal.position'].create({
+            'name': 'Foreign Trade',
+            'company_id': self.company_data['company'].id,
+            'tax_ids': [Command.create({'tax_src_id': tax_21.id, 'tax_dest_id': tax_21_foreign.id})],
+        })
+
+        self.partner_be.property_account_position_id = foreign_trade
+        bill = self._import_invoice_as_attachment_on(
+            test_name='test_partial_import_tax_manual_tax_amounts',
+            journal=self.company_data['default_journal_sale'],
+        )
+        self.assertEqual(bill.invoice_line_ids.tax_ids, tax_21_foreign)
+
+        self.partner_be.property_account_position_id = domestic
+        bill = self._import_invoice_as_attachment_on(
+            test_name='test_partial_import_tax_manual_tax_amounts',
+            journal=self.company_data['default_journal_sale'],
+        )
+        self.assertEqual(bill.invoice_line_ids.tax_ids, tax_21)
+>>>>>>> upstream/18.0

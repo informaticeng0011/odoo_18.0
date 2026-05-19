@@ -35,6 +35,10 @@ import { createModelWithDataSource } from "@spreadsheet/../tests/helpers/model";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { setCellContent } from "../helpers/commands";
+>>>>>>> upstream/18.0
 =======
 import { setCellContent } from "../helpers/commands";
 >>>>>>> upstream/18.0
@@ -207,7 +211,10 @@ test("click close button in filter panel will close the panel", async function (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -297,6 +304,9 @@ test("Internal links converted to neutralized are not clickable", async function
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

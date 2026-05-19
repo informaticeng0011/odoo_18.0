@@ -281,6 +281,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             gcc_cashier: order?.getCashierName() || this.get_cashier()?.name,
 >>>>>>> upstream/18.0
@@ -352,6 +353,10 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
             gcc_cashier: order?.getCashierName() || this.get_cashier()?.name,
+>>>>>>> upstream/18.0
+=======
+            gcc_cashier: order?.getCashierName() || this.get_cashier()?.name,
+            show_title: Boolean(order),
 >>>>>>> upstream/18.0
 =======
             gcc_cashier: order?.getCashierName() || this.get_cashier()?.name,

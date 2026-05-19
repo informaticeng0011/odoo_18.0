@@ -118,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import common
 from odoo import Command
 <<<<<<< HEAD
@@ -862,6 +863,8 @@ from unittest import skip
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 from . import common
 from odoo import Command
@@ -984,6 +987,9 @@ from odoo.exceptions import ValidationError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1226,6 +1232,7 @@ from odoo.tools.float_utils import float_split_str
 
 
 @tagged('post_install_l10n', '-at_install', 'post_install')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1590,6 +1597,8 @@ class TestManual(common.TestAr):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 class TestArManual(common.TestArCommon):
 
     @classmethod
@@ -1716,6 +1725,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2080,7 +2092,11 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = self._create_invoice()
+=======
+        invoice = self._create_invoice_ar()
+>>>>>>> upstream/18.0
 =======
         invoice = self._create_invoice_ar()
 >>>>>>> upstream/18.0
@@ -2569,6 +2585,7 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = self._create_invoice({'partner': self.partner})
         self.assertFalse(invoice.fiscal_position_id, 'Fiscal position should be set to empty')
 
@@ -2583,6 +2600,8 @@ class TestArManual(common.TestArCommon):
         # Barcelona food > Cliente / Proveedor del Exterior >  > IVA Exento
         invoice = self._create_invoice({'partner': self.res_partner_barcelona_food})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2950,6 +2969,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3367,7 +3389,11 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         invoice = self._create_invoice({'partner': self.partner})
+=======
+        invoice = self._create_invoice_ar()
+>>>>>>> upstream/18.0
 =======
         invoice = self._create_invoice_ar()
 >>>>>>> upstream/18.0
@@ -3806,6 +3832,7 @@ class TestArManual(common.TestArCommon):
             if len_l10n_ar_price_unit_digits == len_line_price_unit_digits == decimal_price_digits_setting:
                 self.assertEqual(l10n_ar_price_unit_decimal_part, line_price_unit_decimal_part)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5053,6 +5080,8 @@ class TestArManual(common.TestArCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_18_invoice_b_tax_breakdown_1(self):
         """ Display Both VAT and Other Taxes """
         invoice = self._create_invoice_ar(
@@ -5185,6 +5214,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5457,6 +5489,7 @@ class TestArManual(common.TestArCommon):
                             'id': self.tax_other.tax_group_id.id,
                             'base_amount_currency': 10000.0,
                             'tax_amount_currency': 100.0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6286,12 +6319,16 @@ class TestArManual(common.TestArCommon):
 =======
                             'display_base_amount_currency': False,
 >>>>>>> upstream/18.0
+=======
+                            'display_base_amount_currency': False,
+>>>>>>> upstream/18.0
                         },
                     ],
                 },
             ],
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7820,6 +7857,8 @@ class TestArManual(common.TestArCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_19_invoice_b_tax_breakdown_2(self):
         """ Display only Other Taxes (VAT taxes are 0) """
         invoice = self._create_invoice_ar(
@@ -7947,6 +7986,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8451,9 +8493,12 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'name': 'Other National Ind. Taxes $',
             },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9245,6 +9290,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9777,6 +9825,7 @@ class TestArManual(common.TestArCommon):
             'total_amount_currency': 10300.0,
             'subtotals': [],
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10799,6 +10848,8 @@ class TestArManual(common.TestArCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_20_invoice_b_tax_breakdown_3(self):
         """ Display only Other Taxes (VAT taxes are 0 and non other taxes) """
@@ -10927,6 +10978,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11441,6 +11495,9 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12331,6 +12388,7 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12515,6 +12573,8 @@ class TestArManual(common.TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13254,6 +13314,7 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13372,6 +13433,8 @@ class TestArManual(common.TestArCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13768,6 +13831,7 @@ class TestArManual(common.TestArCommon):
         })
         debit_note_wizard.create_debit()
         self.assertTrue(invoice.reversal_move_ids.debit_note_ids)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14385,6 +14449,8 @@ class TestArManual(common.TestArCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

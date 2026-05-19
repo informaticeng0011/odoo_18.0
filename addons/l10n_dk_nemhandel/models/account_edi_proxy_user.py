@@ -184,7 +184,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         :return: `True` if the document was saved, `False` if it was not
+=======
+        :return: the created invoice if the document was saved, `False` if it was not
+>>>>>>> upstream/18.0
 =======
         :return: the created invoice if the document was saved, `False` if it was not
 >>>>>>> upstream/18.0
@@ -389,7 +393,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return True
+=======
+        return move
+>>>>>>> upstream/18.0
 =======
         return move
 >>>>>>> upstream/18.0
@@ -581,6 +589,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -725,6 +737,7 @@ class AccountEdiProxyClientUser(models.Model):
                 )
             except UserError as e:
                 _logger.error(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1426,6 +1439,9 @@ class AccountEdiProxyClientUser(models.Model):
 =======
                     'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
 >>>>>>> upstream/18.0
+=======
+                    'Error while receiving the document from Nemhandel Proxy: %s', ', '.join(e.args),
+>>>>>>> upstream/18.0
                 )
                 continue
 
@@ -1484,7 +1500,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             proxy_acks = []
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1626,6 +1645,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for uuid, content in all_messages.items():
                 enc_key = content["enc_key"]
                 document_content = content["document"]
@@ -1654,6 +1674,8 @@ class AccountEdiProxyClientUser(models.Model):
             self.env.ref('l10n_dk_nemhandel.ir_cron_nemhandel_get_new_documents')._trigger()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1833,6 +1855,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1971,6 +1996,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             edi_user_moves = self.env['account.move'].search(
                 [
                     ('nemhandel_move_state', '=', 'processing'),
@@ -2019,6 +2045,8 @@ class AccountEdiProxyClientUser(models.Model):
             self.env.ref('l10n_dk_nemhandel.ir_cron_nemhandel_get_message_status')._trigger()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2215,6 +2243,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2536,7 +2567,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if e.message != "The user doesn't exist on the proxy":
+=======
+                if e.args and e.args[0] != "The user doesn't exist on the proxy":
+>>>>>>> upstream/18.0
 =======
                 if e.args and e.args[0] != "The user doesn't exist on the proxy":
 >>>>>>> upstream/18.0

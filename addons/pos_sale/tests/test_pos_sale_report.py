@@ -381,7 +381,11 @@ class TestPoSSaleReport(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         orders.append(self.create_ui_order_data([(self.product0, 5)], self.partner_1))
+=======
+        orders.append(self.create_ui_order_data([(self.product0, 5, 100), (self.product0, 3)], self.partner_1))
+>>>>>>> upstream/18.0
 =======
         orders.append(self.create_ui_order_data([(self.product0, 5, 100), (self.product0, 3)], self.partner_1))
 >>>>>>> upstream/18.0
@@ -1387,11 +1391,14 @@ class TestPoSSaleReport(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(report.qty_to_deliver, 5)
         self.assertEqual(report.qty_delivered, 0)
 
         order.picking_ids.move_ids.quantity = 5.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2140,6 +2147,9 @@ class TestPoSSaleReport(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2893,8 +2903,13 @@ class TestPoSSaleReport(TestPoSCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(report.qty_to_deliver, 0)
         self.assertEqual(report.qty_delivered, 5)
+=======
+        self.assertEqual(sum(report.mapped('qty_to_deliver')), 0)
+        self.assertEqual(sum(report.mapped('qty_delivered')), 8)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(sum(report.mapped('qty_to_deliver')), 0)
         self.assertEqual(sum(report.mapped('qty_delivered')), 8)

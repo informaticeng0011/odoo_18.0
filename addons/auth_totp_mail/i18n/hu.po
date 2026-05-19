@@ -2,6 +2,7 @@
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -544,10 +545,15 @@
 # * auth_totp_mail
 #
 >>>>>>> upstream/18.0
+=======
+# * auth_totp_mail
+#
+>>>>>>> upstream/18.0
 # Translators:
 # A . <tibor@inventati.org>, 2024
 # Tamás Dombos, 2024
 # krnkris, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1089,10 +1095,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1508,12 +1518,17 @@ msgstr ""
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-16 09:05+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.odoo.com/projects/odoo-18/"
 "auth_totp_mail/hu/>\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1521,6 +1536,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1929,6 +1945,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail
 #: model:mail.template,body_html:auth_totp_mail.mail_template_totp_invite
@@ -1936,6 +1956,7 @@ msgid ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Dear <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2079,6 +2100,8 @@ msgid ""
 "        </p><p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2494,6 +2517,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2790,6 +2816,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Egy megbízható eszköz eltávolításra került a felhasználói fiókjából: %"
+"(device_names)s"
+>>>>>>> upstream/18.0
 =======
 "Egy megbízható eszköz eltávolításra került a felhasználói fiókjából: %"
 "(device_names)s"
@@ -2815,7 +2846,11 @@ msgstr "Hitelesítő eszköz"
 msgid "Invitation to activate two-factor authentication on your Odoo account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívó a kétfaktoros azonosítás aktiválására az Odoo fiókon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meghívó a kétfaktoros azonosítás aktiválására az Odoo fiókon"
 >>>>>>> upstream/18.0
@@ -2832,6 +2867,11 @@ msgid ""
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A kétfaktoros azonosítás használatára meghívó került elküldésre a következő "
+"felhasználóknak: %s"
+>>>>>>> upstream/18.0
 =======
 "A kétfaktoros azonosítás használatára meghívó került elküldésre a következő "
 "felhasználóknak: %s"
@@ -2846,7 +2886,11 @@ msgstr ""
 msgid "Invite to use 2FA"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívás 2FA használatára"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meghívás 2FA használatára"
 >>>>>>> upstream/18.0
@@ -2859,7 +2903,11 @@ msgstr "Meghívás 2FA használatára"
 msgid "Invite to use two-factor authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Meghívás a kétfaktoros azonosítás használatára"
+>>>>>>> upstream/18.0
 =======
 msgstr "Meghívás a kétfaktoros azonosítás használatára"
 >>>>>>> upstream/18.0
@@ -2877,7 +2925,11 @@ msgstr "Név"
 msgid "Open two-factor authentication configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kétfaktoros azonosítás konfigurációjának megnyitása"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kétfaktoros azonosítás konfigurációjának megnyitása"
 >>>>>>> upstream/18.0
@@ -2891,7 +2943,11 @@ msgstr "Kétfaktoros azonosítás konfigurációjának megnyitása"
 msgid "Security Update: 2FA Activated"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biztonsági frissítés: 2FA aktiválva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Biztonsági frissítés: 2FA aktiválva"
 >>>>>>> upstream/18.0
@@ -2905,7 +2961,11 @@ msgstr "Biztonsági frissítés: 2FA aktiválva"
 msgid "Security Update: 2FA Deactivated"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biztonsági frissítés: 2FA deaktiválva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Biztonsági frissítés: 2FA deaktiválva"
 >>>>>>> upstream/18.0
@@ -2925,7 +2985,11 @@ msgstr ""
 msgid "Security Update: Device Removed"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biztonsági frissítés: eszköz eltávolítva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Biztonsági frissítés: eszköz eltávolítva"
 >>>>>>> upstream/18.0
@@ -2938,7 +3002,11 @@ msgstr "Biztonsági frissítés: eszköz eltávolítva"
 msgid "Settings: 2Fa Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Beállítások: 2FA meghívó"
+>>>>>>> upstream/18.0
 =======
 msgstr "Beállítások: 2FA meghívó"
 >>>>>>> upstream/18.0
@@ -2952,7 +3020,11 @@ msgstr "Beállítások: 2FA meghívó"
 msgid "Two-factor authentication has been activated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A kétfaktoros azonosítás aktiválásra került a fiókján"
+>>>>>>> upstream/18.0
 =======
 msgstr "A kétfaktoros azonosítás aktiválásra került a fiókján"
 >>>>>>> upstream/18.0
@@ -2966,7 +3038,11 @@ msgstr "A kétfaktoros azonosítás aktiválásra került a fiókján"
 msgid "Two-factor authentication has been deactivated on your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "A kétfaktoros azonosítés deaktiválásra került a fiókján"
+>>>>>>> upstream/18.0
 =======
 msgstr "A kétfaktoros azonosítés deaktiválásra került a fiókján"
 >>>>>>> upstream/18.0
@@ -2984,7 +3060,11 @@ msgstr "Felhasználó"
 msgid "activating Two-factor Authentication"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "kétfaktoros azonosítás aktiválása"
+>>>>>>> upstream/18.0
 =======
 msgstr "kétfaktoros azonosítás aktiválása"
 >>>>>>> upstream/18.0

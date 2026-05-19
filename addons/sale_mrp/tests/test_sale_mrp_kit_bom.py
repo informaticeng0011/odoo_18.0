@@ -336,6 +336,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -392,6 +393,9 @@ from odoo import Command
 >>>>>>> upstream/18.0
 =======
 from odoo import Command
+>>>>>>> upstream/18.0
+=======
+from odoo.fields import Command
 >>>>>>> upstream/18.0
 =======
 from odoo.fields import Command
@@ -1817,7 +1821,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2890,6 +2897,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4392,7 +4402,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5416,6 +5429,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6372,7 +6388,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7199,6 +7218,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        before and after validating
+>>>>>>> upstream/18.0
 =======
         before and after validating
 >>>>>>> upstream/18.0
@@ -8256,7 +8279,10 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8776,6 +8802,7 @@ class TestSaleMrpKitBom(TransactionCase):
                     'product_id': kit_product.id,
                     'product_uom_qty': 9,
                     'product_packaging_id': packaging_final_prod.id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9577,6 +9604,8 @@ class TestSaleMrpKitBom(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 }),
                 Command.create({
                     'name': kit_product.name,
@@ -9595,6 +9624,7 @@ class TestSaleMrpKitBom(TransactionCase):
         so.picking_ids.move_ids[0].product_packaging_id = packaging_comp
         self.assertEqual(so.picking_ids.move_ids.move_line_ids[0].product_packaging_qty, 2)
         # check that after validating, if the packages was changed to a package of the component the quantity is good
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11183,6 +11213,8 @@ class TestSaleMrpKitBom(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         so.picking_ids.button_validate()
         aggr_prod_qty = so.picking_ids.move_ids.move_line_ids[0]._get_aggregated_product_quantities(kit_name='Kit')
         key = f"{comp_product.id}_{comp_product.display_name}_{comp_product.stock_move_ids[0].description_bom_line}_{comp_product.uom_id.id}_{packaging_comp}_{kit_product.bom_ids.id}"
@@ -11192,6 +11224,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11513,6 +11548,7 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11759,6 +11795,8 @@ class TestSaleMrpKitBom(TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12263,6 +12301,9 @@ class TestSaleMrpKitBom(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

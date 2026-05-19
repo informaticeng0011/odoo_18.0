@@ -318,7 +318,11 @@ class TestSelfOrderAttribute(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product.attribute_line_ids[0].product_template_value_ids[0].price_extra = 0.0
+=======
+        product.attribute_line_ids[0].product_template_value_ids[0].price_extra = 0.25
+>>>>>>> upstream/18.0
 =======
         product.attribute_line_ids[0].product_template_value_ids[0].price_extra = 0.25
 >>>>>>> upstream/18.0
@@ -1323,7 +1327,10 @@ class TestSelfOrderAttribute(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1357,6 +1364,9 @@ class TestSelfOrderAttribute(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

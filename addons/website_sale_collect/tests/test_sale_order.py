@@ -89,6 +89,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -702,7 +707,11 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.set_delivery_line(self.free_delivery, 0)
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
@@ -1746,7 +1755,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2723,6 +2735,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3387,6 +3402,7 @@ class TestSaleOrder(ClickAndCollectCommon):
         })
         so = self._create_in_store_delivery_order()
         so.fiscal_position_id = fp_us
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4340,6 +4356,9 @@ class TestSaleOrder(ClickAndCollectCommon):
 =======
         so._set_delivery_method(self.free_delivery)
 >>>>>>> upstream/18.0
+=======
+        so._set_delivery_method(self.free_delivery)
+>>>>>>> upstream/18.0
         self.assertNotEqual(so.fiscal_position_id, fp_us)
 
     def test_free_qty_calculated_from_order_wh_if_dm_is_in_store(self):
@@ -4484,7 +4503,10 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4766,6 +4788,7 @@ class TestSaleOrder(ClickAndCollectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4942,4 +4965,24 @@ class TestSaleOrder(ClickAndCollectCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_picking_follower_is_active_parent_partner(self):
+        """Parent partner is subscribed to in_store delivery."""
+        wh_partner = self.warehouse.partner_id
+        new_so = self._create_in_store_delivery_order()
+        new_so._set_pickup_location(json.dumps({
+            'id': self.warehouse.id,
+            'name': wh_partner.name,
+            'street': "New test street",
+            'zip_code': wh_partner.zip,
+            'city': "New test city",
+            'state': wh_partner.state_id.code,
+            'country_code': wh_partner.country_code,
+        }))
+        new_so.action_confirm()
+        self.assertEqual(
+            new_so.picking_ids.message_partner_ids, new_so.picking_ids.partner_id.parent_id
+        )
 >>>>>>> upstream/18.0

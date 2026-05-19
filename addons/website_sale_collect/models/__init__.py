@@ -6,5 +6,9 @@ from . import payment_transaction
 from . import product_template
 from . import res_config_settings
 from . import sale_order
+<<<<<<< HEAD
+=======
+from . import stock_picking
+>>>>>>> upstream/18.0
 from . import stock_warehouse
 from . import website

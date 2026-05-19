@@ -22,3 +22,19 @@ export function getRowIndex(trOrTd) {
 export function getColumnIndex(td) {
     return td.cellIndex;
 }
+<<<<<<< HEAD
+=======
+
+/**
+ * Get all the cells of given table
+ * (excluding nested table cells).
+ *
+ * @param {HTMLTableElement} table
+ * @returns {Array<HTMLTableCellElement>}
+ */
+export function getTableCells(table) {
+    return [...table.querySelectorAll("td, th")].filter(
+        (cell) => closestElement(cell, "table") === table
+    );
+}
+>>>>>>> upstream/18.0

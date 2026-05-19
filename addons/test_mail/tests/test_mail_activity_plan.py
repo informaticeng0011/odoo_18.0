@@ -173,8 +173,14 @@ from odoo import Command, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.test_mail_activity import ActivityScheduleCase
 from odoo.exceptions import ValidationError
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+from odoo.addons.mail.tests.test_mail_activity import ActivityScheduleCase
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 from odoo.addons.mail.tests.test_mail_activity import ActivityScheduleCase
@@ -1349,7 +1355,10 @@ class TestActivitySchedule(ActivityScheduleCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1863,6 +1872,9 @@ class TestActivitySchedule(ActivityScheduleCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
