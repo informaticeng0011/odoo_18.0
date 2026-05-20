@@ -310,7 +310,10 @@ class CrmTeam(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -864,6 +867,9 @@ class CrmTeam(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1501,9 +1507,15 @@ class CrmTeam(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # manually launch company sanity check
         if values.get('company_id'):
             self.crm_team_member_ids._check_company(fnames=['crm_team_id'])
+=======
+
+        if values.get('company_id'):  # Force re-check of memberships constraint for this team
+            self.crm_team_member_ids._constrains_membership()
+>>>>>>> upstream/18.0
 =======
 
         if values.get('company_id'):  # Force re-check of memberships constraint for this team

@@ -73,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_work_entry_contract
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,6 +326,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * hr_work_entry_contract
 #
 >>>>>>> upstream/18.0
 =======
@@ -901,6 +906,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Kira Petersen, 2025
 >>>>>>> upstream/18.0
@@ -1863,10 +1869,15 @@
 # Kira Petersen, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2948,6 +2959,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-11 09:05+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -2990,6 +3003,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3069,6 +3085,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3622,6 +3639,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #: model:ir.model.fields,help:hr_work_entry_contract.field_hr_contract__work_entry_source
@@ -3766,10 +3787,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Working Schedule: Work entries will be generated from the working hours below.\n"
 "        Attendances: Work entries will be generated from the employee's attendances. (requires Attendance app)\n"
 "        Planning: Work entries will be generated from the employee's planning. (requires Planning app)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4181,6 +4205,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4309,6 +4334,8 @@ msgid ""
 "    "
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4537,6 +4564,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4688,6 +4718,7 @@ msgstr ""
 #: code:addons/hr_work_entry_contract/models/hr_work_entry.py:0
 msgid ""
 "%(employee)s does not have a contract from %(date_start)s to %(date_end)s."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5234,6 +5265,9 @@ msgstr "%(employee)s har ikke en kontrakt fra %(date_start)s til %(date_end)s."
 =======
 msgstr "%(employee)s har ikke en kontrakt fra %(date_start)s til %(date_end)s."
 >>>>>>> upstream/18.0
+=======
+msgstr "%(employee)s har ikke en kontrakt fra %(date_start)s til %(date_end)s."
+>>>>>>> upstream/18.0
 
 #. module: hr_work_entry_contract
 #. odoo-python
@@ -5289,6 +5323,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Du har ikke "
+"de nødvendige rettigheder til at gendanne validerede arbejdsposter"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle me-1\" title=\"Warning\"/>Du har ikke "
 "de nødvendige rettigheder til at gendanne validerede arbejdsposter"
@@ -5491,6 +5530,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">Advarsel: Gendannelse af arbejdsposteringen vil "
+"slette alle manuelle ændringer i den valgte periode.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted\">Advarsel: Gendannelse af arbejdsposteringen vil "
 "slette alle manuelle ændringer i den valgte periode.</span>"
@@ -5685,7 +5729,11 @@ msgid "Allow the work entry type to be linked with time off types."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gør det muligt at knytte arbejdsposteringen med fraværstyper."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gør det muligt at knytte arbejdsposteringen med fraværstyper."
 >>>>>>> upstream/18.0
@@ -5847,7 +5895,11 @@ msgid "Compensatory Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tillæg for overarbejde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tillæg for overarbejde"
 >>>>>>> upstream/18.0
@@ -6303,7 +6355,11 @@ msgid "Fully Flexible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Fuldt fleksibel"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fuldt fleksibel"
 >>>>>>> upstream/18.0
@@ -7171,7 +7227,11 @@ msgid "Generate Missing Work Entries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generér manglende arbejdsposteringer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generér manglende arbejdsposteringer"
 >>>>>>> upstream/18.0
@@ -7338,7 +7398,11 @@ msgid "Generic Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Generelt fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Generelt fravær"
 >>>>>>> upstream/18.0
@@ -7478,6 +7542,7 @@ msgstr "ID"
 #. odoo-python
 #: code:addons/hr_work_entry_contract/wizard/hr_work_entry_regeneration_wizard.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7892,6 +7957,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "In order to regenerate the work entries, you need to provide the wizard with "
 "an employee_id, a date_from and a date_to. In addition to that, the time "
 "interval defined by date_from and date_to must not contain any validated "
@@ -8034,6 +8101,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8352,6 +8422,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ugyldig indstilling: For fuldt fleksible kalendere kan kilden til "
+"arbejdsoptegnelsen ikke være 'Arbejdstimer'."
+>>>>>>> upstream/18.0
 =======
 "Ugyldig indstilling: For fuldt fleksible kalendere kan kilden til "
 "arbejdsoptegnelsen ikke være 'Arbejdstimer'."
@@ -8546,7 +8621,11 @@ msgid "Last Generation Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sidste genereringsdato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sidste genereringsdato"
 >>>>>>> upstream/18.0
@@ -8723,7 +8802,11 @@ msgid "Long Term Time Off"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Langvarigt fravær"
+>>>>>>> upstream/18.0
 =======
 msgstr "Langvarigt fravær"
 >>>>>>> upstream/18.0
@@ -9011,8 +9094,12 @@ msgstr "Syg fri tid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Sorry, generating work entries from cancelled contracts is not allowed."
+=======
+msgid "Sorry, generating work entries from cancelled contracts is not allowed."
+>>>>>>> upstream/18.0
 =======
 msgid "Sorry, generating work entries from cancelled contracts is not allowed."
 >>>>>>> upstream/18.0
@@ -9575,8 +9662,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Denne arbejdspostering kunne ikke valideres. Arbejdsposterings typen er ikke"
 " defineret."
+=======
+"Denne arbejdspostering kunne ikke valideres. Arbejdsposterings typen er ikke "
+"defineret."
+>>>>>>> upstream/18.0
 =======
 "Denne arbejdspostering kunne ikke valideres. Arbejdsposterings typen er ikke "
 "defineret."
@@ -10427,7 +10519,11 @@ msgid "Work Entry Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arbejdsindlæggets kilde"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arbejdsindlæggets kilde"
 >>>>>>> upstream/18.0
@@ -11268,7 +11364,11 @@ msgid "Work Entry Source Calendar Invalid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kildekalenderen for arbejdspostering er ugyldig"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kildekalenderen for arbejdspostering er ugyldig"
 >>>>>>> upstream/18.0

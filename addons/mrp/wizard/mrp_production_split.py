@@ -247,7 +247,11 @@ class MrpProductionSplit(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'user_id': wizard.production_id.user_id,
+=======
+                    'user_id': wizard.production_id.user_id.id,
+>>>>>>> upstream/18.0
 =======
                     'user_id': wizard.production_id.user_id.id,
 >>>>>>> upstream/18.0
@@ -1053,7 +1057,11 @@ class MrpProductionSplit(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'user_id': wizard.production_id.user_id,
+=======
+                'user_id': wizard.production_id.user_id.id,
+>>>>>>> upstream/18.0
 =======
                 'user_id': wizard.production_id.user_id.id,
 >>>>>>> upstream/18.0

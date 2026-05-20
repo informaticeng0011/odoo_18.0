@@ -256,7 +256,11 @@ export class WebsiteVisitor extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     history = fields.Char();
+=======
+    history_data = fields.Char();
+>>>>>>> upstream/18.0
 =======
     history_data = fields.Char();
 >>>>>>> upstream/18.0

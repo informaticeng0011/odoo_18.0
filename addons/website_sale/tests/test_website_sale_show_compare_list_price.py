@@ -103,7 +103,10 @@ class WebsiteSaleShopPriceListCompareListPriceDispayTests(AccountTestInvoicingHt
         })
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_compare_list_price_strikethrough_visibility(self):
         self.env.user.write({
             "groups_id": [
@@ -130,6 +133,9 @@ class WebsiteSaleShopPriceListCompareListPriceDispayTests(AccountTestInvoicingHt
             list_price, "Strikethrough shown when compare_list_price is greater than price"
         )
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_compare_list_price_price_list_display(self):
         self.env.user.write({

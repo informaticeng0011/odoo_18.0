@@ -257,7 +257,13 @@ import zipfile
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from contextlib import closing
+=======
+
+from contextlib import closing
+from datetime import datetime
+>>>>>>> upstream/18.0
 =======
 
 from contextlib import closing
@@ -1852,7 +1858,10 @@ def _initialize_db(id, db_name, demo, lang, user_password, login='admin', countr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2624,6 +2633,9 @@ def _check_faketime_mode(db_name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3380,6 +3392,10 @@ def _create_empty_database(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            _check_faketime_mode(name)
+>>>>>>> upstream/18.0
 =======
             _check_faketime_mode(name)
 >>>>>>> upstream/18.0
@@ -4410,6 +4426,10 @@ def _create_empty_database(name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _check_faketime_mode(name)
+>>>>>>> upstream/18.0
 =======
     _check_faketime_mode(name)
 >>>>>>> upstream/18.0

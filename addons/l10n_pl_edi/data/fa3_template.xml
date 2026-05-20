@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="seller.email or seller.phone">
         <DaneKontaktowe>
             <Email t-out="seller.email"/>
@@ -84,6 +85,8 @@
         </DaneKontaktowe>
         </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172,6 +175,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -303,6 +309,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="buyer.email or buyer.phone">
         <DaneKontaktowe>
             <Email t-out="buyer.email"/>
@@ -311,6 +318,8 @@
         </t>
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -399,6 +408,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -581,11 +593,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <P_15 t-out="float_repr(invoice.amount_total_signed, 2)"/>
 
           <!-- KursWalutyZ: Exchange rate of the currency to PLN on the invoice date. TO-CHECK -->
           <KursWalutyZ t-out="invoice.invoice_currency_rate"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -728,6 +743,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -959,14 +977,29 @@
                 <RachunekBankowy>
                     <NrRB t-out="invoice.partner_bank_id.acc_number.replace(' ', '')"/>
                     <NazwaBanku t-out="invoice.partner_bank_id.bank_id.name"/>
+<<<<<<< HEAD
                     <OpisRachunku t-out="invoice.currency_id.name"/>
+=======
+                    <OpisRachunku t-out="invoice.partner_bank_id.currency_id.name"/>
+>>>>>>> upstream/18.0
                 </RachunekBankowy>
             </t>
         </Platnosc>
 
+<<<<<<< HEAD
         <t t-if="invoice.invoice_incoterm_id">
         <WarunkiTransakcji>
             <WarunkiDostawy t-out="invoice.invoice_incoterm_id.code"/>
+=======
+        <t t-if="invoice.invoice_incoterm_id or invoice.ref">
+        <WarunkiTransakcji>
+            <WarunkiDostawy t-if="invoice.invoice_incoterm_id" t-out="invoice.invoice_incoterm_id.code"/>
+            <t t-if="invoice.ref">
+            <Zamowienia>
+              <NrZamowienia t-out="invoice.ref"/>
+            </Zamowienia>
+            </t>
+>>>>>>> upstream/18.0
         </WarunkiTransakcji>
         </t>
       </Fa>

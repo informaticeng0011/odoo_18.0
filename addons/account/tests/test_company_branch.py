@@ -503,7 +503,10 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1310,6 +1313,7 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1788,6 +1792,8 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1820,12 +1826,19 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
             'groups_id': [Command.set([
                 self.env.ref('base.group_system').id,
                 self.env.ref('base.group_erp_manager').id,
+<<<<<<< HEAD
                 self.env.ref('account.group_account_manager').id,
             ])],
         })
 
         # self.branch_user.write({"company_ids": self.branch_a.ids, "groups_id": [Command.link(self.env.ref('account.group_account_manager').id)]})
 
+=======
+                self.env.ref('account.group_account_user').id,
+            ])],
+        })
+
+>>>>>>> upstream/18.0
         journal = self.env['account.journal'].create({
             'name': "Bank (EUR)",
             'code': "EBNK",
@@ -1859,6 +1872,9 @@ class TestCompanyBranch(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

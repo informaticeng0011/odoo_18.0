@@ -252,8 +252,14 @@ import lxml.html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.test_mass_mailing.tests.common import TestMassMailCommon
 from odoo.fields import Command
+=======
+from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
+from odoo.addons.test_mass_mailing.tests.common import TestMassMailCommon
+from odoo.addons.test_mass_mailing.tests.common import TestMassSMSCommon
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.sms_twilio.tests.common import MockSmsTwilioApi
 from odoo.addons.test_mass_mailing.tests.common import TestMassMailCommon
@@ -1635,7 +1641,11 @@ class TestMailingTest(TestMassMailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.mock_mail_gateway():
+=======
+        with self.mock_mail_gateway(mail_unlink_sent=True):
+>>>>>>> upstream/18.0
 =======
         with self.mock_mail_gateway(mail_unlink_sent=True):
 >>>>>>> upstream/18.0
@@ -1674,6 +1684,7 @@ class TestMailingTest(TestMassMailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         # Also test that related messages were properly deleted
         self.assertFalse(self.env['mail.mail'].search([('subject', '=', expected_subject)]))
@@ -1698,6 +1709,8 @@ class TestMailingTest(TestMassMailCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Also test that related messages were properly deleted
         expected_test_subject = '[TEST] %s' % expected_subject
         self.assertFalse(self.env['mail.mail'].search([('subject', '=', expected_test_subject)]))
@@ -1710,6 +1723,9 @@ class TestMailingTest(TestMassMailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1992,7 +2008,10 @@ class TestMailingTest(TestMassMailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2785,6 +2804,9 @@ class TestMailingSMSTest(TestMassSMSCommon, MockSmsTwilioApi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

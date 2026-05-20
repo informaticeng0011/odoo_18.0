@@ -23,7 +23,10 @@ export function getColumnIndex(td) {
     return td.cellIndex;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 /**
  * Get all the cells of given table
@@ -37,4 +40,7 @@ export function getTableCells(table) {
         (cell) => closestElement(cell, "table") === table
     );
 }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

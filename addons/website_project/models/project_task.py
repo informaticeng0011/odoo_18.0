@@ -23,7 +23,15 @@ class ProjectTask(models.Model):
     def _inverse_partner_phone(self):
         for task in self:
             if task.partner_id:
+<<<<<<< HEAD
                 if task.partner_id.mobile or not task.partner_id.phone:
                     task.partner_id.mobile = task.partner_phone
                 else:
                     task.partner_id.phone = task.partner_phone
+=======
+                partner = task.partner_id.sudo()
+                if partner.mobile or not partner.phone:
+                    partner.mobile = task.partner_phone
+                else:
+                    partner.phone = task.partner_phone
+>>>>>>> upstream/18.0

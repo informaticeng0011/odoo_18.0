@@ -202,6 +202,7 @@ from odoo import fields, Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.models import BaseModel
 >>>>>>> upstream/18.0
@@ -1156,12 +1157,18 @@ from odoo.models import BaseModel
 from odoo.tests import Form, HttpCase, new_test_user, save_test_file
 from odoo.tools import config, file_path, file_open
 >>>>>>> upstream/18.0
+=======
+from odoo.models import BaseModel
+from odoo.tests import Form, HttpCase, new_test_user, save_test_file
+from odoo.tools import config, file_path, file_open
+>>>>>>> upstream/18.0
 from odoo.tools.float_utils import float_round
 
 from odoo.addons.product.tests.common import ProductCommon
 
 import json
 import base64
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2935,6 +2942,8 @@ _logger = logging.getLogger(__name__)
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import logging
 import re
 
@@ -2949,6 +2958,10 @@ import requests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -3120,6 +3133,7 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3160,6 +3174,8 @@ _logger = logging.getLogger(__name__)
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3532,6 +3548,9 @@ def skip_unless_external(func):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3951,6 +3970,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     extra_tags = ('-standard', 'external') if 'EXTERNAL_MODE' in (config['test_tags'] or {}) else ()
 >>>>>>> upstream/18.0
@@ -4115,6 +4135,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
 =======
     extra_tags = ['SAVE_XML', *(['-standard', 'external'] if 'EXTERNAL_MODE' in (config['test_tags'] or {}) else [])]
+>>>>>>> upstream/18.0
+=======
+    extra_tags = ('-standard', 'external') if 'EXTERNAL_MODE' in (config['test_tags'] or {}) else ()
 >>>>>>> upstream/18.0
 =======
     extra_tags = ('-standard', 'external') if 'EXTERNAL_MODE' in (config['test_tags'] or {}) else ()
@@ -4777,6 +4800,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.tax_number = 0
+>>>>>>> upstream/18.0
 =======
         cls.tax_number = 0
 >>>>>>> upstream/18.0
@@ -5955,6 +5982,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         in_outstanding_account = cls.env['account.account'].create({
             'name': "Outstanding Receipts",
             'code': 'OSTR00',
@@ -5967,6 +5995,10 @@ class AccountTestInvoicingCommon(ProductCommon):
             'reconcile': True,
             'account_type': 'asset_current'
         })
+=======
+        in_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_debit_account_id')
+        out_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_credit_account_id')
+>>>>>>> upstream/18.0
 =======
         in_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_debit_account_id')
         out_outstanding_account = cls.env['account.chart.template'].ref('account_journal_payment_credit_account_id')
@@ -7370,7 +7402,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8358,6 +8393,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8960,6 +8996,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9037,6 +9075,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9241,10 +9282,13 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         create_values.setdefault('property_account_income_id', cls.company_data['default_account_revenue'].id)
         create_values.setdefault('property_account_expense_id', cls.company_data['default_account_expense'].id)
         create_values.setdefault('taxes_id', [Command.set(cls.tax_sale_a.ids)])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9558,6 +9602,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9768,6 +9815,7 @@ class AccountTestInvoicingCommon(ProductCommon):
     @classmethod
     def get_default_groups(cls):
         groups = super().get_default_groups()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10244,6 +10292,10 @@ class AccountTestInvoicingCommon(ProductCommon):
         return groups | cls.env.ref('account.group_account_manager') | cls.env.ref('account.group_account_user') \
             | cls.env.ref('account.group_validate_bank_account')
 >>>>>>> upstream/18.0
+=======
+        return groups | cls.env.ref('account.group_account_manager') | cls.env.ref('account.group_account_user') \
+            | cls.env.ref('account.group_validate_bank_account')
+>>>>>>> upstream/18.0
 
     @classmethod
     def setup_other_currency(cls, code, **kwargs):
@@ -10259,6 +10311,7 @@ class AccountTestInvoicingCommon(ProductCommon):
     def _use_chart_template(cls, company, chart_template_ref=None):
         chart_template_ref = chart_template_ref or cls.env['account.chart.template']._guess_chart_template(company.country_id)
         template_vals = cls.env['account.chart.template']._get_chart_template_mapping()[chart_template_ref]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11066,6 +11119,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
         cls.ensure_installed(template_vals['module'])
 >>>>>>> upstream/18.0
+=======
+        cls.ensure_installed(template_vals['module'])
+>>>>>>> upstream/18.0
 
         # Install the chart template
         cls.env['account.chart.template'].try_loading(chart_template_ref, company=company, install_demo=False)
@@ -11240,6 +11296,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    ('deprecated', '=', False),
+>>>>>>> upstream/18.0
 =======
                     ('deprecated', '=', False),
 >>>>>>> upstream/18.0
@@ -11869,6 +11929,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    ('deprecated', '=', False),
+>>>>>>> upstream/18.0
 =======
                     ('deprecated', '=', False),
 >>>>>>> upstream/18.0
@@ -12344,6 +12408,7 @@ class AccountTestInvoicingCommon(ProductCommon):
             ),
             'default_account_payable': AccountAccount.search([
                     *account_company_domain,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13534,6 +13599,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     ('account_type', '=', 'liability_payable'),
                     ('deprecated', '=', False),
                 ], limit=1),
@@ -13708,6 +13775,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14329,6 +14399,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -14461,6 +14532,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15070,6 +15143,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15427,6 +15501,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
     def group_of_taxes(self, taxes, **kwargs):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15503,6 +15579,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15680,6 +15759,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15959,6 +16041,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tax_number += 1
         return self.env['account.tax'].create({
 <<<<<<< HEAD
@@ -16464,6 +16547,8 @@ class AccountTestInvoicingCommon(ProductCommon):
             **kwargs,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16543,6 +16628,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16622,6 +16710,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tax_number += 1
         return self.env['account.tax'].create({
 <<<<<<< HEAD
@@ -17127,6 +17216,8 @@ class AccountTestInvoicingCommon(ProductCommon):
             **kwargs,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17206,6 +17297,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17285,6 +17379,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.tax_number += 1
         return self.env['account.tax'].create({
 <<<<<<< HEAD
@@ -17790,6 +17885,8 @@ class AccountTestInvoicingCommon(ProductCommon):
             **kwargs,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17869,6 +17966,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17922,6 +18022,7 @@ class AccountTestInvoicingCommon(ProductCommon):
             'amount': amount,
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18881,6 +18982,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def python_tax(self, formula, **kwargs):
         self.ensure_installed('account_tax_python')
 
@@ -18911,6 +19014,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19088,6 +19194,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19598,6 +19707,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20396,6 +20508,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        """ This method is deprecated. Please call ``_create_invoice`` instead. """
+>>>>>>> upstream/18.0
 =======
         """ This method is deprecated. Please call ``_create_invoice`` instead. """
 >>>>>>> upstream/18.0
@@ -21180,7 +21296,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21565,6 +21684,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22046,7 +22168,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22635,11 +22760,14 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             elif not date and not invoice_date:
                 invoice_date = fields.Date.today()
 
         invoice_args |= {'date': date, 'invoice_date': invoice_date}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23022,6 +23150,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23424,7 +23555,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_invoice_one_line(cls, price_unit=None, product_id=None, name=None, quantity=1.0, tax_ids=None, discount=None, account_id=None, move_name=None, **invoice_args):
+=======
+    def _create_invoice_one_line(cls, price_unit=None, product_id=None, name=None, quantity=1.0, tax_ids=None, discount=None, account_id=None, move_name=None, date=None, **invoice_args):
+>>>>>>> upstream/18.0
 =======
     def _create_invoice_one_line(cls, price_unit=None, product_id=None, name=None, quantity=1.0, tax_ids=None, discount=None, account_id=None, move_name=None, date=None, **invoice_args):
 >>>>>>> upstream/18.0
@@ -23945,6 +24080,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            date=date,
+>>>>>>> upstream/18.0
 =======
             date=date,
 >>>>>>> upstream/18.0
@@ -24497,7 +24636,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24840,6 +24982,7 @@ class AccountTestInvoicingCommon(ProductCommon):
             .create(kwargs)
 
     @classmethod
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25457,6 +25600,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
     def _reverse_invoice(cls, invoice, is_modify=False, post=False, **reversal_args):
 >>>>>>> upstream/18.0
+=======
+    def _reverse_invoice(cls, invoice, is_modify=False, post=False, **reversal_args):
+>>>>>>> upstream/18.0
         reverse_action_values = (
             cls.env['account.move.reversal']
             .with_context(active_model='account.move', active_ids=invoice.ids)
@@ -25584,7 +25730,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             .reverse_moves()
+=======
+            .reverse_moves(is_modify=is_modify)
+>>>>>>> upstream/18.0
 =======
             .reverse_moves(is_modify=is_modify)
 >>>>>>> upstream/18.0
@@ -26074,7 +26224,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26452,6 +26605,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26863,7 +27019,10 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27365,6 +27524,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27842,6 +28004,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls._prepare_record_kwargs('sale.order', values)
+
+>>>>>>> upstream/18.0
 =======
         cls._prepare_record_kwargs('sale.order', values)
 
@@ -28785,6 +28952,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29286,6 +29456,7 @@ class AccountTestInvoicingCommon(ProductCommon):
                 self.assertDictEqual(current_tax_group, expected_tax_group)
 
     ####################################################
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30076,6 +30247,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     # Xml / JSON Comparison
     ####################################################
 
@@ -30214,6 +30387,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30590,6 +30766,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         subfolders = subfolder.split('/')
         ignore_schema_paths = []
         while subfolders:
@@ -30604,6 +30781,8 @@ class AccountTestInvoicingCommon(ProductCommon):
             except FileNotFoundError:
                 pass
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30968,6 +31147,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31481,8 +31663,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def assert_json(self, content_to_assert: dict, test_name: str, subfolder=''):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31743,6 +31928,7 @@ class AccountTestInvoicingCommon(ProductCommon):
                 for i in range(len(ignore_schema)):
                     cls._apply_json_ignore_schema(data[i], ignore_schema[i])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32134,6 +32320,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
     def assert_json(self, content_to_assert: dict | list, test_name: str, subfolder='', force_save=False):
 >>>>>>> upstream/18.0
+=======
+    def assert_json(self, content_to_assert: dict | list, test_name: str, subfolder='', force_save=False):
+>>>>>>> upstream/18.0
         """
         Helper to save/assert a dictionary to a JSON file located in the corresponding module `test_files`.
         By default, this method will assert the dictionary with the JSON content.
@@ -32143,6 +32332,7 @@ class AccountTestInvoicingCommon(ProductCommon):
         Before asserting, the dictionary will first be serialized to ensure it is in the same format of the saved JSON.
         This means that for example: all tuples within the dictionary will be converted to list, etc.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32867,6 +33057,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         :param content_to_assert: dictionary | list to save or assert to the corresponding test file
         :param test_name: the test file name
         :param subfolder: the test file subfolder(s), separated by `/` if there is more than one
@@ -32904,6 +33096,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32971,6 +33166,7 @@ class AccountTestInvoicingCommon(ProductCommon):
         if json_ignore_schema := self._get_json_ignore_schema(subfolder):
             self._apply_json_ignore_schema(content_to_assert, json_ignore_schema)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33100,12 +33296,16 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
         if 'SAVE_JSON' in (config['test_tags'] or '').split(',') or force_save:
 >>>>>>> upstream/18.0
+=======
+        if 'SAVE_JSON' in (config['test_tags'] or '').split(',') or force_save:
+>>>>>>> upstream/18.0
             with file_open(json_path, 'w') as f:
                 f.write(json.dumps(content_to_assert, indent=4))
             _logger.info("Saved the generated JSON content to %s", json_path)
         else:
             with file_open(json_path, 'rb') as f:
                 expected_content = json.loads(f.read())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33464,6 +33664,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             try:
                 self.assertDictEqual(content_to_assert, expected_content)
             except AssertionError:
@@ -33502,6 +33704,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33603,6 +33808,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            xpath_to_apply='',
+            force_save=False,
+>>>>>>> upstream/18.0
 =======
             xpath_to_apply='',
             force_save=False,
@@ -33779,6 +33989,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        :param xpath_to_apply: optional `xpath` string to be applied on the expected file
+        :param force_save: force the assert method to save the XML to the test file instead of asserting it
+>>>>>>> upstream/18.0
 =======
         :param xpath_to_apply: optional `xpath` string to be applied on the expected file
         :param force_save: force the assert method to save the XML to the test file instead of asserting it
@@ -33948,7 +34163,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if 'SAVE_XML' in config['test_tags']:
+=======
+        if 'SAVE_XML' in (config['test_tags'] or '').split(',') or force_save:
+>>>>>>> upstream/18.0
 =======
         if 'SAVE_XML' in (config['test_tags'] or '').split(',') or force_save:
 >>>>>>> upstream/18.0
@@ -34076,6 +34295,7 @@ class AccountTestInvoicingCommon(ProductCommon):
             # Save the xml_element content
             with file_open(test_file_path, 'wb') as f:
                 f.write(etree.tostring(xml_element, pretty_print=True, encoding='UTF-8'))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34557,6 +34777,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
                 _logger.info("Saved the generated XML content to %s", file_name)
 >>>>>>> upstream/18.0
+=======
+                _logger.info("Saved the generated XML content to %s", file_name)
+>>>>>>> upstream/18.0
         else:
             with file_open(test_file_path, 'rb') as f:
                 expected_xml_str = f.read()
@@ -34594,8 +34817,11 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertXmlTreeEqual(xml_element, expected_xml_tree)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34704,6 +34930,7 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34752,6 +34979,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34855,6 +35084,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35048,6 +35280,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35403,6 +35638,7 @@ class AccountTestInvoicingCommon(ProductCommon):
         '''
         tag_split = node.tag.split('}')
         tag_wo_ns = tag_split[-1]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36358,6 +36594,8 @@ class AccountTestInvoicingCommon(ProductCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         full_path = f'{path}/{tag_wo_ns}'
         return {
             'node': node,
@@ -36367,6 +36605,7 @@ class AccountTestInvoicingCommon(ProductCommon):
             'text': (node.text or '').strip(),
             'attrib': dict(node.attrib.items()),
             'children': [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37327,6 +37566,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 =======
                 cls._turn_node_as_dict_hierarchy(child_node, path=full_path)
 >>>>>>> upstream/18.0
+=======
+                cls._turn_node_as_dict_hierarchy(child_node, path=full_path)
+>>>>>>> upstream/18.0
                 for child_node in node.getchildren()
             ],
         }
@@ -37649,10 +37891,13 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(
                 [child['tag'] for child in node_dict['children']],
                 [child['tag'] for child in expected_node_dict['children']],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38509,6 +38754,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39258,7 +39506,12 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def with_applied_xpath(self, xml_tree, xpath):
+=======
+    @classmethod
+    def with_applied_xpath(cls, xml_tree, xpath):
+>>>>>>> upstream/18.0
 =======
     @classmethod
     def with_applied_xpath(cls, xml_tree, xpath):
@@ -40140,10 +40393,13 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env['ir.ui.view'].apply_inheritance_specs(xml_tree, diff_xml_tree)
 
     def get_xml_tree_from_attachment(self, attachment):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40670,6 +40926,9 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41200,7 +41459,12 @@ class AccountTestInvoicingCommon(ProductCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def get_xml_tree_from_string(self, xml_tree_str):
+=======
+    @classmethod
+    def get_xml_tree_from_string(cls, xml_tree_str):
+>>>>>>> upstream/18.0
 =======
     @classmethod
     def get_xml_tree_from_string(cls, xml_tree_str):
@@ -42234,6 +42498,7 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def group_of_taxes(self, taxes, **kwargs):
         self.number += 1
         return self.env['account.tax'].create({
@@ -42270,6 +42535,8 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             'amount': amount,
         })
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42989,9 +43256,12 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _jsonify_product_uom(self, uom):
         return {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43519,6 +43789,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44226,7 +44499,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45223,6 +45499,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46083,7 +46362,11 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_uom_id': self._jsonify_product_uom(line['product_uom_id']),
+=======
+            'product_uom_id': self._jsonify_product_uom(line['product_uom_id'], line['tax_ids']),
+>>>>>>> upstream/18.0
 =======
             'product_uom_id': self._jsonify_product_uom(line['product_uom_id'], line['tax_ids']),
 >>>>>>> upstream/18.0
@@ -46965,6 +47248,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
+>>>>>>> upstream/18.0
 =======
             'account_fiscal_country_id': self._jsonify_country(company.account_fiscal_country_id),
 >>>>>>> upstream/18.0
@@ -48392,6 +48679,7 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method):
 =======
     def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, precision_rounding, rounding_method, excluded_tax_ids):
@@ -49488,6 +49776,8 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _create_py_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, product_uom, precision_rounding, rounding_method, excluded_tax_ids):
         kwargs = {
             'product': product,
@@ -49669,6 +49959,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50035,6 +50328,7 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             )
         return results
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51160,12 +51454,16 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 =======
     def _create_js_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, product_uom, precision_rounding, rounding_method, excluded_tax_ids):
 >>>>>>> upstream/18.0
+=======
+    def _create_js_sub_test_taxes_computation(self, taxes, price_unit, quantity, product, product_uom, precision_rounding, rounding_method, excluded_tax_ids):
+>>>>>>> upstream/18.0
         return {
             'test': 'taxes_computation',
             'taxes': [self._jsonify_tax(tax) for tax in taxes],
             'price_unit': price_unit,
             'quantity': quantity,
             'product': self._jsonify_product(product, taxes),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51768,6 +52066,8 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             'excluded_tax_ids': excluded_tax_ids,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -52294,6 +52594,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52827,6 +53130,7 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         precision_rounding=0.01,
         rounding_method='round_per_line',
         excluded_special_modes=None,
@@ -53255,6 +53559,8 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
         excluded_tax_ids=None,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -53782,6 +54088,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54322,6 +54631,7 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             precision_rounding,
             rounding_method,
 <<<<<<< HEAD
@@ -54749,6 +55059,8 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             excluded_tax_ids,
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55275,6 +55587,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55809,11 +56124,14 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_py_sub_test_adapt_price_unit_to_another_taxes(self, price_unit, original_taxes, new_taxes, product):
         return {'price_unit': self.env['account.tax']._adapt_price_unit_to_another_taxes(price_unit, product, original_taxes, new_taxes)}
 
     def _create_js_sub_test_adapt_price_unit_to_another_taxes(self, price_unit, original_taxes, new_taxes, product):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56340,6 +56658,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56868,6 +57189,10 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'product_uom': self._jsonify_product_uom(product_uom, original_taxes + new_taxes),
+>>>>>>> upstream/18.0
 =======
             'product_uom': self._jsonify_product_uom(product_uom, original_taxes + new_taxes),
 >>>>>>> upstream/18.0
@@ -57572,7 +57897,11 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def assert_adapt_price_unit_to_another_taxes(self, price_unit, original_taxes, new_taxes, expected_price_unit, product=None):
+=======
+    def assert_adapt_price_unit_to_another_taxes(self, price_unit, original_taxes, new_taxes, expected_price_unit, product=None, product_uom=None):
+>>>>>>> upstream/18.0
 =======
     def assert_adapt_price_unit_to_another_taxes(self, price_unit, original_taxes, new_taxes, expected_price_unit, product=None, product_uom=None):
 >>>>>>> upstream/18.0
@@ -58282,6 +58611,7 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         )
 
     # -------------------------------------------------------------------------
@@ -58510,6 +58840,8 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59036,6 +59368,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59684,6 +60019,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60398,6 +60736,7 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def assert_invoice_tax_totals_summary(self, invoice, expected_values, soft_checking=False):
         self._assert_tax_totals_summary(invoice.tax_totals, expected_values, soft_checking=soft_checking)
         cash_rounding_base_amount_currency = invoice.tax_totals.get('cash_rounding_base_amount_currency', 0.0)
@@ -60407,6 +60746,8 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
             'amount_total': expected_values['total_amount_currency'],
         }])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60943,6 +61284,9 @@ class TestTaxCommon(AccountTestInvoicingHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61508,7 +61852,10 @@ class TestAccountMergeCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62081,6 +62428,9 @@ class PatchRequestsMixin(TestCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

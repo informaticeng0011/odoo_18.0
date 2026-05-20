@@ -24,7 +24,12 @@ from odoo.tests.common import TransactionCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form
+=======
+from odoo.tests import Form, tagged
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged
 from odoo import Command
@@ -630,7 +635,10 @@ class TestAnalyticAccount(TestMrpAnalyticAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -737,6 +745,9 @@ class TestAnalyticAccountTimesheet(TestMrpAnalyticAccount):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

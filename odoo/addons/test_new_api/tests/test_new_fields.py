@@ -1188,7 +1188,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1954,6 +1957,7 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2190,6 +2194,8 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2611,6 +2617,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3227,7 +3236,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3858,6 +3870,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6352,7 +6367,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
             records.mapped('rare_description')  # fetch that field only
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_100_rename_custom_field(self):
         model_record = self.env['ir.model']._get('res.partner')
         FIELD_PARAMS = {
@@ -6412,6 +6430,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
         manual_origin.unlink()
         self.assertFalse(manual_inherited.exists())
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_cache_key_invalidation(self):
         company0 = self.env.ref('base.main_company')
@@ -6637,7 +6658,10 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7167,6 +7191,9 @@ class TestFields(TransactionCaseWithUserDemo, TransactionExpressionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8389,6 +8416,7 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # in a perfect world this should be 1, but at the moment the value is
         # sanitized more than once during creation of the record
         self.assertEqual(patch.call_count, 2)
@@ -8399,6 +8427,8 @@ class TestHtmlField(TransactionCase):
 
         # the value is already sanitized for flushing
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9155,6 +9185,9 @@ class TestHtmlField(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10139,6 +10172,10 @@ class TestSelectionOndelete(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MODEL_COMPANY_DEPENDENT = 'test_new_api.model_selection_company_dependent'
+>>>>>>> upstream/18.0
 =======
     MODEL_COMPANY_DEPENDENT = 'test_new_api.model_selection_company_dependent'
 >>>>>>> upstream/18.0
@@ -10723,7 +10760,10 @@ class TestSelectionOndelete(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11081,6 +11121,9 @@ class TestSelectionOndelete(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11401,7 +11444,11 @@ class TestSelectionOndeleteAdvanced(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.addCleanup(setattr, Model, '_BaseModel__base_classes', Model._BaseModel__base_classes)
+=======
+            self.patch(Model, '_BaseModel__base_classes', Model._BaseModel__base_classes)
+>>>>>>> upstream/18.0
 =======
             self.patch(Model, '_BaseModel__base_classes', Model._BaseModel__base_classes)
 >>>>>>> upstream/18.0

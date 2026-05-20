@@ -156,7 +156,11 @@ partnerCompareRegistry.add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     { sequence: 45 }
+=======
+    { sequence: 25 }
+>>>>>>> upstream/18.0
 =======
     { sequence: 25 }
 >>>>>>> upstream/18.0
@@ -496,11 +500,14 @@ partnerCompareRegistry.add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (cleanedEmail1.startsWith(searchTerm) && !cleanedEmail1.startsWith(searchTerm)) {
             return -1;
         }
         if (!cleanedEmail2.startsWith(searchTerm) && cleanedEmail2.startsWith(searchTerm)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -544,6 +551,9 @@ partnerCompareRegistry.add(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

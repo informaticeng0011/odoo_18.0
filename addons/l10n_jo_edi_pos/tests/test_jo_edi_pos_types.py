@@ -358,6 +358,7 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_different_payment_methods(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +413,8 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
         def get_xml_order_type(order):
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -611,6 +614,9 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -778,11 +784,14 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (cash_amount, bank_amount, expected_type) in [
             (100, 0, '011'),
             (0, 100, '021'),
             (50, 50, False),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -993,6 +1002,9 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1187,10 +1199,13 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order = self._l10n_jo_create_order(order_vals)
             order_type = get_xml_order_type(order, cash_amount, bank_amount)
             self.assertEqual(order_type, expected_type)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1428,6 +1443,9 @@ class TestJoEdiPosTypes(JoEdiPosCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

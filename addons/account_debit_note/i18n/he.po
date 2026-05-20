@@ -244,6 +244,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_debit_note
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268,6 +269,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * account_debit_note
 #
 >>>>>>> upstream/18.0
 =======
@@ -1504,6 +1509,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -1522,6 +1528,9 @@
 >>>>>>> upstream/18.0
 =======
 #
+>>>>>>> upstream/18.0
+=======
+# or balmas <or@laylinetech.com>, 2025.
 >>>>>>> upstream/18.0
 =======
 # or balmas <or@laylinetech.com>, 2025.
@@ -2509,6 +2518,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: or balmas, 2025\n"
@@ -2749,6 +2759,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-09-05 18:39+0000\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+>>>>>>> upstream/18.0
 =======
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 >>>>>>> upstream/18.0
@@ -3404,6 +3417,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4139,6 +4155,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
 "1 == 0) ? 1: 2;\n"
 <<<<<<< HEAD
@@ -4156,6 +4173,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 2) ? 1 : 2);\n"
@@ -5402,6 +5423,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check this box if you don't want to share the same sequence for invoices and"
 " debit notes made from this journal"
 msgstr ""
@@ -6164,6 +6186,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Check this box if you don't want to share the same sequence for invoices and "
 "debit notes made from this journal"
 msgstr ""
@@ -6418,6 +6442,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7266,7 +7293,11 @@ msgid "Dedicated Debit Note Sequence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "רצף הערת חיוב ייעודי"
+>>>>>>> upstream/18.0
 =======
 msgstr "רצף הערת חיוב ייעודי"
 >>>>>>> upstream/18.0
@@ -8499,6 +8530,7 @@ msgstr "הודעת החיוב שנוצרה לחשבונית זו"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/account_debit_note/wizard/account_debit_note.py:0
 msgid "This debit note was created from: %s"
 <<<<<<< HEAD
@@ -8708,6 +8740,11 @@ msgstr "הערת חיוב זו נוצרה מ: "
 msgstr "הערת חיוב זו נוצרה מ: "
 >>>>>>> upstream/18.0
 =======
+msgstr "הערת חיוב זו נוצרה מ: "
+>>>>>>> upstream/18.0
+=======
+#: code:addons/account_debit_note/models/account_move.py:0
+msgid "This debit note was created from: %s"
 msgstr "הערת חיוב זו נוצרה מ: "
 >>>>>>> upstream/18.0
 =======
@@ -10275,6 +10312,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"אתה יכול ליצור הערת חיוב רק עבור חשבונית לקוח, זיכוי לקוח, חשבונית ספק או "
+"הערת חיוב לספק."
+>>>>>>> upstream/18.0
 =======
 "אתה יכול ליצור הערת חיוב רק עבור חשבונית לקוח, זיכוי לקוח, חשבונית ספק או "
 "הערת חיוב לספק."
@@ -11744,6 +11786,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can't make a debit note for an invoice that is already linked to a debit"
 " note."
 <<<<<<< HEAD
@@ -11953,6 +11996,11 @@ msgstr "לא ניתן ליצור הערת חיוב עבור חשבונית שכ�
 msgstr "לא ניתן ליצור הערת חיוב עבור חשבונית שכבר מקושרת להערת חיוב אחרת."
 >>>>>>> upstream/18.0
 =======
+msgstr "לא ניתן ליצור הערת חיוב עבור חשבונית שכבר מקושרת להערת חיוב אחרת."
+>>>>>>> upstream/18.0
+=======
+"You can't make a debit note for an invoice that is already linked to a debit "
+"note."
 msgstr "לא ניתן ליצור הערת חיוב עבור חשבונית שכבר מקושרת להערת חיוב אחרת."
 >>>>>>> upstream/18.0
 =======

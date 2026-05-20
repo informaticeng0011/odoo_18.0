@@ -294,6 +294,11 @@ def patch_all():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    from .lxml import patch_lxml
+    patch_lxml()
+>>>>>>> upstream/18.0
 =======
     from .lxml import patch_lxml
     patch_lxml()
@@ -1419,6 +1424,11 @@ def patch_all():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    from .markupsafe import patch_markup
+    patch_markup()
+>>>>>>> upstream/18.0
 =======
     from .markupsafe import patch_markup
     patch_markup()

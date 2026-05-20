@@ -49,7 +49,12 @@ import { OdooPivotLoader } from "./odoo_pivot_loader";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const { pivotRegistry, supportedPivotPositionalFormulaRegistry } = registries;
+=======
+const { pivotRegistry, supportedPivotPositionalFormulaRegistry, pivotNormalizationValueRegistry } =
+    registries;
+>>>>>>> upstream/18.0
 =======
 const { pivotRegistry, supportedPivotPositionalFormulaRegistry, pivotNormalizationValueRegistry } =
     registries;
@@ -629,6 +634,10 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await this._loadPropertiesDefinitions();
+>>>>>>> upstream/18.0
 =======
         await this._loadPropertiesDefinitions();
 >>>>>>> upstream/18.0
@@ -2045,7 +2054,10 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2902,6 +2914,7 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3246,6 +3259,8 @@ export class OdooPivot {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3572,6 +3587,9 @@ export class OdooPivot {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3962,7 +3980,11 @@ pivotRegistry.add("ODOO", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     isGroupable: (field) => field.groupable,
+=======
+    isGroupable: (field) => field.groupable && pivotNormalizationValueRegistry.contains(field.type),
+>>>>>>> upstream/18.0
 =======
     isGroupable: (field) => field.groupable && pivotNormalizationValueRegistry.contains(field.type),
 >>>>>>> upstream/18.0
