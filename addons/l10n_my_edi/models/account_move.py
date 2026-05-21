@@ -358,7 +358,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         help="Reference Number of Customs Form No.1, 9, etc.",
+=======
+        help="""Reference Number of Customs Forms
+Customs form No. 2 for Customer Invoices
+Customs form No. 1, 9, etc for Vendor Bills""",
+>>>>>>> upstream/18.0
 =======
         help="""Reference Number of Customs Forms
 Customs form No. 2 for Customer Invoices
@@ -2299,7 +2305,11 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_my_edi_submit_documents(self, xml_contents):
+=======
+    def _l10n_my_edi_submit_documents(self, xml_contents, commit=True):
+>>>>>>> upstream/18.0
 =======
     def _l10n_my_edi_submit_documents(self, xml_contents, commit=True):
 >>>>>>> upstream/18.0
@@ -3411,7 +3421,11 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if self._can_commit():
+=======
+            if commit and self._can_commit():
+>>>>>>> upstream/18.0
 =======
             if commit and self._can_commit():
 >>>>>>> upstream/18.0
@@ -4474,7 +4488,11 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_my_edi_fetch_updated_statuses(self):
+=======
+    def _l10n_my_edi_fetch_updated_statuses(self, commit=True):
+>>>>>>> upstream/18.0
 =======
     def _l10n_my_edi_fetch_updated_statuses(self, commit=True):
 >>>>>>> upstream/18.0
@@ -5549,7 +5567,10 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6338,6 +6359,9 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7147,7 +7171,11 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if self._can_commit():
+=======
+            if commit and self._can_commit():
+>>>>>>> upstream/18.0
 =======
             if commit and self._can_commit():
 >>>>>>> upstream/18.0
@@ -8515,8 +8543,11 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'search_date_invalid': _('The search params are invalid.'),  # Should never happen
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9424,6 +9455,9 @@ Customs form No. 1, 9, etc for Vendor Bills""",
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

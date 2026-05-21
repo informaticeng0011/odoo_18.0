@@ -358,7 +358,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         params += ['public_description']
+=======
+        params += ['public_description', 'list_price']
+>>>>>>> upstream/18.0
 =======
         params += ['public_description', 'list_price']
 >>>>>>> upstream/18.0
@@ -1306,6 +1310,7 @@ class ProductProduct(models.Model):
         return AND([domain, [('self_order_available', '=', True)]])
 
     def _load_pos_self_data(self, data):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2587,6 +2592,9 @@ class ProductProduct(models.Model):
 =======
         domain = self._load_pos_self_data_domain(data)
 >>>>>>> upstream/18.0
+=======
+        domain = self._load_pos_self_data_domain(data)
+>>>>>>> upstream/18.0
         config_id = data['pos.config']['data'][0]['id']
 
         # Add custom fields for 'formula' taxes.
@@ -2626,6 +2634,7 @@ class ProductProduct(models.Model):
 
     def _compute_product_price_with_pricelist(self, products, config_id):
         config = self.env['pos.config'].browse(config_id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2876,6 +2885,8 @@ class ProductProduct(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         archived_combinations = self._get_archived_combinations_per_product_tmpl_id(
             list({p['product_tmpl_id'] for p in products})
@@ -2968,6 +2979,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

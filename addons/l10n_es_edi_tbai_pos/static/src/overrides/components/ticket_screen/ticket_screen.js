@@ -29,6 +29,10 @@ import { AddTbaiRefundReasonPopup } from "@l10n_es_edi_tbai_pos/app/add_tbai_ref
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { qrCodeSrc } from "@point_of_sale/utils";
+>>>>>>> upstream/18.0
 =======
 import { qrCodeSrc } from "@point_of_sale/utils";
 >>>>>>> upstream/18.0
@@ -122,6 +126,7 @@ patch(TicketScreen.prototype, {
                 destinationOrder.to_invoice = true;
             }
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1143,6 +1148,8 @@ patch(TicketScreen.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         await super.addAdditionalRefundInfo(...arguments);
     },
     async print(order) {
@@ -1183,6 +1190,9 @@ patch(TicketScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

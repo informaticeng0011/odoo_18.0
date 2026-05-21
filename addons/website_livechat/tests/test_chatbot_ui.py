@@ -59,6 +59,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 
@@ -353,6 +358,10 @@ from odoo.addons.im_livechat.tests.common import TestImLivechatCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import html2plaintext
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import html2plaintext
 >>>>>>> upstream/18.0
@@ -657,11 +666,14 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ("I will transfer you to a human", operator, False),
             (
                 'invited <a href="#" data-oe-model="res.partner" data-oe-id="'
                 f'{operator_member.partner_id.id}">@Operator Michel</a> to the channel',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -837,6 +849,9 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1038,7 +1053,10 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1217,6 +1235,9 @@ class TestLivechatChatbotUI(TestImLivechatCommon, TestWebsiteLivechatCommon, Cha
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

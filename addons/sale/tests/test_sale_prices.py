@@ -224,10 +224,15 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(order_line.pricelist_item_id, pricelist_rule)
             self.assertEqual(
                 order_line.price_unit,
                 self.product.lst_price)
+=======
+            self.assertAlmostEqual(order_line.pricelist_item_id, pricelist_rule)
+            self.assertAlmostEqual(order_line.price_unit, self.product.lst_price)
+>>>>>>> upstream/18.0
 =======
             self.assertAlmostEqual(order_line.pricelist_item_id, pricelist_rule)
             self.assertAlmostEqual(order_line.price_unit, self.product.lst_price)
@@ -1178,7 +1183,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1838,9 +1846,15 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.assertEqual(line_form.price_unit, 0.83)
                 line_form.product_uom_qty = 1000
                 self.assertEqual(line_form.price_unit, 0.55)
+=======
+                self.assertAlmostEqual(line_form.price_unit, 0.825)
+                line_form.product_uom_qty = 1000
+                self.assertAlmostEqual(line_form.price_unit, 0.55)
+>>>>>>> upstream/18.0
 =======
                 self.assertAlmostEqual(line_form.price_unit, 0.825)
                 line_form.product_uom_qty = 1000
@@ -2688,6 +2702,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3960,7 +3977,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4795,6 +4815,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5829,7 +5852,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6623,6 +6649,7 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7123,4 +7150,45 @@ class TestSalePrices(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_combo_product_zero_base_price_distributes_evenly(self):
+        """When every combo's base price is 0, the combo product's price must be split evenly
+        across combos instead of dumped onto the last one.
+        """
+        order = self.empty_order
+
+        product_a = self._create_product(name="A", list_price=0.0)
+        product_b = self._create_product(name="B", list_price=0.0)
+        combos = self.env['product.combo'].create([{
+            'name': "G1",
+            'combo_item_ids': [Command.create({'product_id': product_a.id})],
+        }, {
+            'name': "G2",
+            'combo_item_ids': [Command.create({'product_id': product_b.id})],
+        }])
+        product_combo = self._create_product(
+            name="Meal Menu",
+            list_price=100.0,
+            type='combo',
+            combo_ids=[Command.set(combos.ids)],
+        )
+
+        combo_line = self.env['sale.order.line'].create({
+            'order_id': order.id,
+            'product_id': product_combo.id,
+        })
+        item_lines = self.env['sale.order.line'].create([{
+            'order_id': order.id,
+            'product_id': product.id,
+            'combo_item_id': combo.combo_item_ids.id,
+            'linked_line_id': combo_line.id,
+        } for product, combo in zip(product_a + product_b, combos)])
+
+        self.assertEqual(
+            item_lines.mapped('price_unit'), [50.0, 50.0],
+            "Combo price must be split evenly when all combos have zero base price",
+        )
+        self.assertEqual(order.amount_untaxed, 100.0)
 >>>>>>> upstream/18.0

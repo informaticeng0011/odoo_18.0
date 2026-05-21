@@ -29,6 +29,10 @@ from odoo.http import request
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.osv import expression
+>>>>>>> upstream/18.0
 =======
 from odoo.osv import expression
 >>>>>>> upstream/18.0
@@ -377,11 +381,14 @@ class Slide(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('website_message_ids.res_id', 'website_message_ids.model', 'website_message_ids.message_type')
     def _compute_comments_count(self):
         for slide in self:
             slide.comments_count = len(slide.website_message_ids)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -438,6 +445,9 @@ class Slide(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1356,6 +1366,10 @@ class Slide(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        params['supportsAllDrives'] = 'true'  # Allow Shared Drive links
+>>>>>>> upstream/18.0
 =======
         params['supportsAllDrives'] = 'true'  # Allow Shared Drive links
 >>>>>>> upstream/18.0
@@ -2173,6 +2187,7 @@ class Slide(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     def _mail_get_partner_fields(self, introspect_fields=False):
@@ -3769,6 +3784,8 @@ class Slide(models.Model):
         return []
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3825,6 +3842,9 @@ class Slide(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

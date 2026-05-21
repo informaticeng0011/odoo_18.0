@@ -211,6 +211,7 @@ class TestResConfigExecute(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -233,6 +234,8 @@ class TestResConfigExecute(TransactionCase):
         self.assertTrue(defaults['param_bool'])
 
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

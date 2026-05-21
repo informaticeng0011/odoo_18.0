@@ -224,7 +224,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { contains } from "@web/../tests/web_test_helpers";
+=======
+import { contains, mockService } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { contains, mockService } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -1101,7 +1105,10 @@ defineSpreadsheetDashboardModels();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1774,6 +1781,9 @@ function getServerData(spreadsheetData) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2472,6 +2482,7 @@ test("displays figures in first sheet", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const serverData = getDashboardServerData();
     serverData.models["spreadsheet.dashboard.group"].records = [
         {
@@ -2489,6 +2500,9 @@ test("displays figures in first sheet", async () => {
             dashboard_group_id: 1,
         },
     ];
+=======
+    const serverData = getServerData(spreadsheetData);
+>>>>>>> upstream/18.0
 =======
     const serverData = getServerData(spreadsheetData);
 >>>>>>> upstream/18.0
@@ -3365,7 +3379,10 @@ test("displays figures in first sheet", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4059,6 +4076,9 @@ test("clicking on a chart navigates to its linked Odoo menu", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4736,6 +4756,7 @@ test("double clicking on a figure doesn't open the side panel", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const serverData = getDashboardServerData();
     serverData.models["spreadsheet.dashboard.group"].records = [
         {
@@ -4753,6 +4774,9 @@ test("double clicking on a figure doesn't open the side panel", async () => {
             dashboard_group_id: 1,
         },
     ];
+=======
+    const serverData = getServerData(spreadsheetData);
+>>>>>>> upstream/18.0
 =======
     const serverData = getServerData(spreadsheetData);
 >>>>>>> upstream/18.0

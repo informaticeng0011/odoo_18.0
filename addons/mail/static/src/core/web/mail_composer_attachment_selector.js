@@ -219,7 +219,10 @@ import { FileUploader } from "@web/views/fields/file_handler";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -659,6 +662,7 @@ export class MailComposerAttachmentSelector extends Component {
 
     /** @param {Object} data */
     async onFileUploaded({ data, name, type }) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1484,10 +1488,13 @@ export class MailComposerAttachmentSelector extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         let resIds;
         if (this.props.record.resModel === "mail.scheduled.message") {
             resIds = [this.props.record.data.res_id.resId];
         } else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2312,6 +2319,8 @@ export class MailComposerAttachmentSelector extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // composer does not store res_ids past a certain limit, assume active_ids is used
             resIds = this.props.record.data.res_ids
                 ? JSON.parse(this.props.record.data.res_ids)
@@ -2430,6 +2439,9 @@ export class MailComposerAttachmentSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2875,7 +2887,13 @@ export class MailComposerAttachmentSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await this.operations.saveRecord([attachment.id]);
+=======
+        if (attachment) {
+            await this.operations.saveRecord([attachment.id]);
+        }
+>>>>>>> upstream/18.0
 =======
         if (attachment) {
             await this.operations.saveRecord([attachment.id]);
@@ -4155,7 +4173,13 @@ export const mailComposerAttachmentSelector = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 registry.category("fields").add("mail_composer_attachment_selector", mailComposerAttachmentSelector);
+=======
+registry
+    .category("fields")
+    .add("mail_composer_attachment_selector", mailComposerAttachmentSelector);
+>>>>>>> upstream/18.0
 =======
 registry
     .category("fields")

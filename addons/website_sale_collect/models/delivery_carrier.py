@@ -177,6 +177,7 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'name': wh_location['name'].title(),
                     'street': wh_location['street'].title(),
                     'city': wh_location.city.title(),
@@ -1238,6 +1239,8 @@ class DeliveryCarrier(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     'name': wh_location['name'],
                     'street': wh_location['street'] or '',
                     'city': wh_location.city or '',
@@ -1276,6 +1279,9 @@ class DeliveryCarrier(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

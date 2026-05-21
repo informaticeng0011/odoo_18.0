@@ -6,7 +6,11 @@ from freezegun import freeze_time
 from odoo.addons.stock.tests.common import TestStockCommon
 from odoo.tests import Form
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields
+=======
+from odoo import Command, fields
+>>>>>>> upstream/18.0
 =======
 from odoo import Command, fields
 >>>>>>> upstream/18.0
@@ -80,7 +84,10 @@ class TestStockReplenish(TestStockCommon):
         wizard = Form(self.env['product.replenish'].with_context(default_product_tmpl_id=product.id))
         self.assertEqual(wizard._values['quantity'], 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_replenish_route_from_another_company(self):
         company = self.env['res.company'].create({'name': 'Company 2'})
@@ -91,4 +98,7 @@ class TestStockReplenish(TestStockCommon):
         self.productA.write({'route_ids': [Command.link(route.id)]})
         wizard = Form(self.env['product.replenish'].with_context(default_product_tmpl_id=self.productA.product_tmpl_id.id))
         self.assertFalse(wizard._values['route_id'])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

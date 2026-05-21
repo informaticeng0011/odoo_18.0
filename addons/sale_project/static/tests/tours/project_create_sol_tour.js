@@ -327,6 +327,7 @@ registry.category("web_tour.tours").add('project_create_sol_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -393,6 +394,8 @@ registry.category("web_tour.tours").add('project_create_sol_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

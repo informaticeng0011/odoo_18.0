@@ -110,6 +110,10 @@ from odoo.tools import DotDict, lazy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.safe_eval import _UNSAFE_ATTRIBUTES
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.safe_eval import _UNSAFE_ATTRIBUTES
 >>>>>>> upstream/18.0
@@ -520,7 +524,11 @@ def get_public_method(model, name):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if name.startswith('_') or getattr(cla_method, '_api_private', False):
+=======
+        if name.startswith('_') or getattr(cla_method, '_api_private', False) or name in _UNSAFE_ATTRIBUTES:
+>>>>>>> upstream/18.0
 =======
         if name.startswith('_') or getattr(cla_method, '_api_private', False) or name in _UNSAFE_ATTRIBUTES:
 >>>>>>> upstream/18.0

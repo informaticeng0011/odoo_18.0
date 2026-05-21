@@ -166,9 +166,12 @@ class TestWishlistProcess(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_01_wishlist_tour(self):
         self.env['product.template'].search([]).write({'website_published': False})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -650,6 +653,9 @@ class TestWishlistProcess(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1265,6 +1271,7 @@ class TestWishlistProcess(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.start_tour("/", 'shop_wishlist')
 =======
         self.start_tour("/", 'shop_wishlist', timeout=120)
@@ -1540,6 +1547,11 @@ class TestWishlistProcess(HttpCase):
         self.start_tour("/", 'shop_wishlist', timeout=120)
 >>>>>>> upstream/18.0
 =======
+        self.start_tour("/", 'shop_wishlist', timeout=120)
+>>>>>>> upstream/18.0
+=======
+        # This tour is unreliable on runbot, because we do not wait for wish to be
+        # effectively removed from the wishlist before updating the page (see _removeWish)
         self.start_tour("/", 'shop_wishlist', timeout=120)
 >>>>>>> upstream/18.0
 =======

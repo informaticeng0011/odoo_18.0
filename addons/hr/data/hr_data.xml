@@ -228,7 +228,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <record id="employee_admin" model="hr.employee">
+=======
+        <record id="employee_admin" model="hr.employee" forcecreate="0">
+>>>>>>> upstream/18.0
 =======
         <record id="employee_admin" model="hr.employee" forcecreate="0">
 >>>>>>> upstream/18.0
@@ -949,7 +953,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="company_id" eval="False"/>
+=======
+            <field name="company_id" ref="base.main_company"/>
+>>>>>>> upstream/18.0
 =======
             <field name="company_id" ref="base.main_company"/>
 >>>>>>> upstream/18.0
@@ -1148,7 +1156,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <field name="company_id" eval="False"/>
+=======
+            <field name="company_id" ref="base.main_company"/>
+>>>>>>> upstream/18.0
 =======
             <field name="company_id" ref="base.main_company"/>
 >>>>>>> upstream/18.0

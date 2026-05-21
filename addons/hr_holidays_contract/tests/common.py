@@ -31,6 +31,10 @@ class TestHolidayContract(TransactionCase):
             'country_id': cls.env.ref('base.be').id,
             'department_id': cls.dep_rd.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'tz': 'Europe/Brussels',
+>>>>>>> upstream/18.0
 =======
             'tz': 'Europe/Brussels',
 >>>>>>> upstream/18.0

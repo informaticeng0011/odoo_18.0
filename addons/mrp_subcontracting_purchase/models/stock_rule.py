@@ -11,6 +11,12 @@ class StockRule(models.Model):
             max(Vendor lead time, Manufacturing lead time + DTPMO) + Days to Purchase + Purchase security lead time
         """
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not product.sudo().bom_ids:
+            return super()._get_lead_days(product, **values)
+
+>>>>>>> upstream/18.0
 =======
         if not product.sudo().bom_ids:
             return super()._get_lead_days(product, **values)

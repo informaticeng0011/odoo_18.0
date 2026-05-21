@@ -62,6 +62,7 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     last_page.compressContentStreams()
 >>>>>>> upstream/18.0
@@ -82,6 +83,8 @@ class IrActionsReport(models.Model):
 >>>>>>> upstream/18.0
 =======
                     last_page.compressContentStreams()
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
                     output_pdf = OdooPdfFileWriter()
@@ -91,6 +94,10 @@ class IrActionsReport(models.Model):
                         output_pdf.addPage(res_pdf.getPage(page_num))
 
                     output_pdf.addPage(last_page)  # Add the modified last page (with the QR code merged)
+<<<<<<< HEAD
+=======
+                    output_pdf.getPage(-1).compressContentStreams()
+>>>>>>> upstream/18.0
 
                     new_pdf_stream = io.BytesIO()
                     output_pdf.write(new_pdf_stream)

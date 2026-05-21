@@ -247,9 +247,13 @@ class TestStockValuation(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(move.stock_valuation_layer_ids.unit_cost,
             last_po_id.currency_id.round(ap_price),
             "Wrong Unit price")
+=======
+        self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(move.stock_valuation_layer_ids.unit_cost, ap_price, msg="Wrong Unit price")
 >>>>>>> upstream/18.0
@@ -1997,7 +2001,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -2689,7 +2697,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 42.86)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 42.8571429)
 >>>>>>> upstream/18.0
@@ -3208,7 +3220,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertAlmostEqual(product_avg.standard_price, 14.09)
+=======
+        self.assertAlmostEqual(product_avg.standard_price, 14.091)
+>>>>>>> upstream/18.0
 =======
         self.assertAlmostEqual(product_avg.standard_price, 14.091)
 >>>>>>> upstream/18.0
@@ -5302,7 +5318,11 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company.anglo_saxon_accounting = False
+=======
+        company.anglo_saxon_accounting = True
+>>>>>>> upstream/18.0
 =======
         company.anglo_saxon_accounting = True
 >>>>>>> upstream/18.0
@@ -6539,7 +6559,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7518,6 +7541,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_accounts = self.product1.product_tmpl_id.get_product_accounts()
         payable_id = self.company_data['default_account_payable'].id
         stock_in_id = product_accounts['stock_input'].id
@@ -7538,6 +7562,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
             {'debit': 0,   'credit': 50.0,    'account_id': stock_in_id,  'reconciled': False, 'amount_currency': -110.0},
             {'debit': 50.0,   'credit': 0,    'account_id': stock_valuation,  'reconciled': False, 'amount_currency': 110.0},
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8470,6 +8496,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9614,7 +9643,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10033,6 +10065,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10666,7 +10701,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11320,7 +11358,10 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11784,6 +11825,9 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12330,6 +12374,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12492,6 +12537,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13036,6 +13083,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13204,6 +13252,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13490,6 +13540,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13622,6 +13673,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13739,6 +13792,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13765,6 +13819,8 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13817,6 +13873,7 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13829,4 +13886,48 @@ class TestStockValuationWithCOA(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_bill_price_diff_cost_no_reset_tax(self):
+        """ Check that confirming a Bill for a standard perpetual product with price different
+        than the product's cost (so in a situation where price difference compensation amls are created)
+        does not reset a manually set total tax on the Bill."""
+
+        self.product1.product_tmpl_id.categ_id.property_cost_method = 'standard'
+        self.product1.product_tmpl_id.categ_id.property_valuation = 'real_time'
+        self.product1.supplier_taxes_id = self.company.account_purchase_tax_id
+        self.product1.standard_price = 10
+
+        po = self.env['purchase.order'].create({
+            'partner_id': self.partner_id.id,
+            'order_line': [
+                Command.create({
+                    'name': self.product1.name,
+                    'product_id': self.product1.id,
+                    'product_qty': 1.0,
+                    'price_unit': 20.0,
+                }),
+            ],
+        })
+        po.button_confirm()
+        receipt = po.picking_ids
+        receipt.move_ids.move_line_ids.quantity = 1
+        receipt.button_validate()
+
+        action = po.action_create_invoice()
+        bill = self.env["account.move"].browse(action["res_id"])
+        bill.invoice_date = fields.Date.today()
+
+        bill.line_ids.filtered(lambda l: l.display_type == "tax").balance = 100
+        bill.action_post()
+
+        self.assertEqual(bill.amount_tax, 100)
+        self.assertRecordValues(bill.line_ids.sorted('balance'), [
+            {'account_id': self.company_data['default_account_payable'].id,        'credit': 120.0,   'debit': 0.0},
+            {'account_id': self.stock_input_account.id,                            'credit': 10.0,    'debit': 0.0},
+            {'account_id': self.company_data['default_account_expense'].id,        'credit': 0.0,     'debit': 10.0},
+            {'account_id': self.stock_input_account.id,                            'credit': 0.0,     'debit': 20.0},
+            {'account_id': self.company_data['default_account_tax_purchase'].id,   'credit': 0.0,     'debit': 100.0},
+        ])
 >>>>>>> upstream/18.0

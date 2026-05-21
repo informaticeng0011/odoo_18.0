@@ -251,6 +251,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* point_of_sale
 # 
 =======
@@ -1258,6 +1259,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * point_of_sale
 #
 # Translators:
@@ -1267,6 +1270,7 @@
 # Tiffany Chang, 2024
 # Wil Odoo, 2025
 # Junko Augias, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2465,10 +2469,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Yoshi Tashiro <tashiro@quartile.co>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Yoshi Tashiro <tashiro@quartile.co>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4449,6 +4459,11 @@ msgstr ""
 "PO-Revision-Date: 2026-05-16 09:02+0000\n"
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-05-01 17:37+0000\n"
+"PO-Revision-Date: 2026-05-16 09:02+0000\n"
+"Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "point_of_sale/ja/>\n"
 "Language: ja\n"
@@ -4456,6 +4471,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5380,6 +5396,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -5637,11 +5656,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This issue occurs because the quantity becomes zero after rounding during the conversion. To fix this, adjust the conversion factors or rounding method to ensure that even the smallest quantity in the original unit does not round down to zero in the target unit."
 msgstr ""
 "\n"
 "この問題は、変換時に丸めが行われる際に数量がゼロになるために発生します。この問題を解決するには、変換係数または丸めの方法を調整し、元の単位の数量が目標単位でゼロに切り捨てられないようにします。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6401,6 +6423,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7188,7 +7213,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(old_pm)s が %(new_pm)s に、%(old_amount)s から %(new_amount)s に変わりました。"
+=======
+msgstr ""
+"%(old_pm)s が %(new_pm)s に、%(old_amount)s から %(new_amount)s に変わりまし"
+"た。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%(old_pm)s が %(new_pm)s に、%(old_amount)s から %(new_amount)s に変わりまし"
@@ -8811,7 +8842,11 @@ msgid "%(title)s %(product_name)s with %(taxes)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(title)s %(product_name)s 税: %(taxes)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(title)s %(product_name)s 税: %(taxes)s"
 >>>>>>> upstream/18.0
@@ -10170,7 +10205,11 @@ msgid "%s untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s 税抜金額"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s 税抜金額"
 >>>>>>> upstream/18.0
@@ -11226,6 +11265,7 @@ msgstr "+ 新規のショップ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "0.00"
 msgstr "0.00"
 
@@ -12193,10 +12233,13 @@ msgstr "1234567890"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "2-03-2000 9:00 AM"
 msgstr "2-03-2000 9:00 AM"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13188,6 +13231,8 @@ msgstr "45"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:point_of_sale.field_pos_order__ticket_code
 msgid ""
 "5 digits alphanumeric code to be used by portal user to request an invoice"
@@ -13204,6 +13249,7 @@ msgid "5-pocket jeans in cotton denim.."
 msgstr "コットンデニムの5ポケット・ジーンズ。"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13356,10 +13402,13 @@ msgstr "99.99"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:mail.template,body_html:point_of_sale.pos_email_marketing_template
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <h4>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14116,6 +14165,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Dear <t t-out=\"object.partner_id.name or 'Valuable "
 "Customer'\">Azure Interior</t>,\n"
 "    </h4>\n"
@@ -14372,6 +14423,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15131,11 +15185,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "         <t t-out=\"object.partner_id.name or 'Valuable Customer'\">Azure Interior</t>様、\n"
 "    </h4>\n"
 "    <p style=\"font-size: 13px;\">\n"
 "貴社だけに特別な期間限定のご案内です。次回のご購入から一律20％値引を致します。ぜひご利用をお待ちしております。    </p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15892,6 +15949,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16674,6 +16734,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<p>Dear %(client_name)s,<br/>Here is your Receipt %(is_invoiced)sfor"
 "             %(pos_name)s amounting in %(amount)s from %(company_name)s. "
 "</p>"
@@ -16681,6 +16742,8 @@ msgstr ""
 "<p> %(client_name)s様、<br/>レシート %(is_invoiced)s             %(pos_name)s金額 "
 "%(amount)s 発行元:%(company_name)sをお送りします</p>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17437,6 +17500,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18195,7 +18261,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"float-end\" invisible=\"is_total_cost_computed\">未定</span>"
+=======
+msgstr ""
+"<span class=\"float-end\" invisible=\"is_total_cost_computed\">未定</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<span class=\"float-end\" invisible=\"is_total_cost_computed\">未定</span>"
@@ -19456,11 +19527,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 msgstr ""
 "<span class=\"o_form_label\">バーコード</span>\n"
 "                                <i class=\"fa fa-info-circle me-1\" title=\"This setting is common to all PoS.\" pos-data-toggle=\"tooltip\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20217,6 +20291,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21016,11 +21093,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    in order to install a Payment Terminal and make a fully integrated payment method."
 msgstr ""
 "<strong> &gt; 決済端末</strong>\n"
 "                                    決済端末を設置し、完全に統合された決済方法を作成するためです。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21777,6 +21857,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22323,6 +22406,7 @@ msgstr "<strong>合計</strong>"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid "? Clicking \"Confirm\" will validate the payment."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23624,12 +23708,15 @@ msgstr "? \"確定\" をクリックすると、支払いが検証されます�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "? \"確定\" をクリックすると、支払いが検証されます。"
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/receipt_screen/receipt/order_receipt.xml:0
 msgid "A"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23709,6 +23796,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "A"
 >>>>>>> upstream/18.0
 =======
 msgstr "A"
@@ -24021,7 +24111,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "クライアントが生成したデータの競合を防ぐために使用される、このpos構成のグローバル一意識別子。"
+=======
+msgstr ""
+"クライアントが生成したデータの競合を防ぐために使用される、このpos構成のグロー"
+"バル一意識別子。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "クライアントが生成したデータの競合を防ぐために使用される、このpos構成のグロー"
@@ -25535,6 +25631,7 @@ msgstr "この名前のメモは既に存在します"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -26254,6 +26351,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_payment_uuid_unique
 msgid "A payment with this uuid already exists"
 msgstr "この uuid による支払いはすでに存在します"
@@ -26437,6 +26536,9 @@ msgstr "この uuid による支払いはすでに存在します"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27069,7 +27171,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現在、このPoSのセッションが開かれています。一部の設定は、セッションが閉じられた後にのみ変更できます。"
+=======
+msgstr ""
+"現在、このPoSのセッションが開かれています。一部の設定は、セッションが閉じられ"
+"た後にのみ変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "現在、このPoSのセッションが開かれています。一部の設定は、セッションが閉じられ"
@@ -28704,7 +28812,11 @@ msgid "Accept payments with a PayTM payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PayTM決済端末での支払を承認"
+=======
+msgstr "PayTM決済端末での支払を受け付ける"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayTM決済端末での支払を受け付ける"
 >>>>>>> upstream/18.0
@@ -30065,7 +30177,11 @@ msgid "Accept payments with a Razorpay payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Razorpay決済端末で支払いを受ける"
+=======
+msgstr "Razorpay決済端末で支払いを受け付ける"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razorpay決済端末で支払いを受け付ける"
 >>>>>>> upstream/18.0
@@ -31426,7 +31542,11 @@ msgid "Accept payments with a Six payment terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "シックス決済端末での支払いを受け入れる"
+=======
+msgstr "シックス決済端末での支払いを受け付ける"
+>>>>>>> upstream/18.0
 =======
 msgstr "シックス決済端末での支払いを受け付ける"
 >>>>>>> upstream/18.0
@@ -32745,10 +32865,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Account used as outstanding account when creating accounting payment records"
 " for bank payments."
 msgstr "銀行支払の会計支払記録を作成する際に、未消込勘定として使用される勘定科目。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33503,6 +33626,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34024,6 +34150,7 @@ msgstr "請求作成に使用する会計仕訳帳。"
 msgid ""
 "Accounting journal used to post POS session journal entries and POS invoice "
 "payments."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35280,6 +35407,10 @@ msgstr ""
 msgstr ""
 "POSセッションの仕訳とPOS請求書の支払を計上するために使用される会計仕訳帳。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"POSセッションの仕訳とPOS請求書の支払を計上するために使用される会計仕訳帳。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__message_needaction
@@ -35288,6 +35419,7 @@ msgid "Action Needed"
 msgstr "要アクション"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35764,6 +35896,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "Action cancelled (%(ACTION)s)"
@@ -35787,6 +35921,9 @@ msgstr "アクションがキャンセルされました (%(ACTION)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35838,6 +35975,7 @@ msgstr "point_of_sale用のSMS機能を有効化する"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__active
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__active
 msgid "Active"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37131,6 +37269,9 @@ msgstr "有効"
 =======
 msgstr "有効"
 >>>>>>> upstream/18.0
+=======
+msgstr "有効"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_ids
@@ -37140,6 +37281,7 @@ msgstr "活動"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37961,6 +38103,9 @@ msgstr "例外の活動を示す装飾"
 =======
 msgstr "例外の活動を示す装飾"
 >>>>>>> upstream/18.0
+=======
+msgstr "例外の活動を示す装飾"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__activity_state
@@ -38100,7 +38245,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "活動種別アイコン"
+=======
+msgstr "活動タイプアイコン"
+>>>>>>> upstream/18.0
 =======
 msgstr "活動タイプアイコン"
 >>>>>>> upstream/18.0
@@ -38767,7 +38916,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "レシートに5桁のコードを追加し、ユーザがポータル上でオーダの請求書をリクエストできるようにします。"
+=======
+msgstr ""
+"レシートに5桁のコードを追加し、ユーザがポータル上でオーダの請求書をリクエスト"
+"できるようにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "レシートに5桁のコードを追加し、ユーザがポータル上でオーダの請求書をリクエスト"
@@ -40357,7 +40512,11 @@ msgid "Add a closing note..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "終了ノートを追加..."
+=======
+msgstr "クロージングメモを追加..."
+>>>>>>> upstream/18.0
 =======
 msgstr "クロージングメモを追加..."
 >>>>>>> upstream/18.0
@@ -41705,6 +41864,7 @@ msgid "Add internal notes on order lines for the kitchen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "厨房へのオーダ明細に内部ノートを追加"
 =======
 msgstr "厨房へのオーダ明細に内部メモを追加"
@@ -42693,6 +42853,9 @@ msgstr "キッチンへのオーダ明細に内部メモを追加"
 =======
 msgstr "キッチンへのオーダ明細に内部メモを追加"
 >>>>>>> upstream/18.0
+=======
+msgstr "キッチンへのオーダ明細に内部メモを追加"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -42709,7 +42872,11 @@ msgid "Add to order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダへ追加"
+=======
+msgstr "オーダに追加"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダに追加"
 >>>>>>> upstream/18.0
@@ -43067,7 +43234,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "会計アプリを利用する場合、全ての有効な価格表は会社、もしくは、このPOSの売上仕訳帳と同じ通貨でなければなりません。"
+=======
+msgstr ""
+"会計アプリを利用する場合、全ての有効な価格表は会社、もしくは、このPOSの売上仕"
+"訳帳と同じ通貨でなければなりません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "会計アプリを利用する場合、全ての有効な価格表は会社、もしくは、このPOSの売上仕"
@@ -44584,10 +44757,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All payment methods must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
 msgstr "すべての支払い方法は、販売仕訳帳と同じ通貨であるか、設定されていない場合は会社の通貨である必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45343,6 +45519,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46155,7 +46334,12 @@ msgid "Amount for %(old_pm)s changed from %(old_amount)s to %(new_amount)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(old_pm)s 用の金額が %(old_amount)s から %(new_amount)s に変わりました　"
+=======
+msgstr ""
+"%(old_pm)s 用の金額が %(old_amount)s から %(new_amount)s に変わりました　"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%(old_pm)s 用の金額が %(old_amount)s から %(new_amount)s に変わりました　"
@@ -47491,6 +47675,10 @@ msgstr "金額合計"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -48712,7 +48900,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクト価格の読み込み中にエラーが発生しました。すべての価格表がPOSで利用可能であることを確認してください。"
+=======
+msgstr ""
+"プロダクト価格の読み込み中にエラーが発生しました。すべての価格表がPOSで利用可"
+"能であることを確認してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクト価格の読み込み中にエラーが発生しました。すべての価格表がPOSで利用可"
@@ -50226,7 +50420,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セッションを閉じている間にエラーが発生しました。同期されていないオーダは次のセッションで利用可能になります。ページが再読み込みされます。"
+=======
+msgstr ""
+"セッションを閉じている間にエラーが発生しました。同期されていないオーダは次の"
+"セッションで利用可能になります。ページが再読み込みされます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "セッションを閉じている間にエラーが発生しました。同期されていないオーダは次の"
@@ -51751,6 +51951,7 @@ msgstr "プリンタの内部識別"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -51897,6 +52098,11 @@ msgstr "プリンタの内部識別"
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
 msgid "An order line with this uuid already exists"
 msgstr ""
+=======
+#: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
+msgid "An order line with this uuid already exists"
+msgstr "このUUIDを持つオーダ明細はすでに存在します"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.constraint,message:point_of_sale.constraint_pos_order_line_uuid_unique
 msgid "An order line with this uuid already exists"
@@ -52975,6 +53181,7 @@ msgid "An order with this uuid already exists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: point_of_sale
@@ -53191,6 +53398,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "このUUIDを持つオーダはすでに存在します"
+
+#. module: point_of_sale
 >>>>>>> upstream/18.0
 =======
 msgstr "このUUIDを持つオーダはすでに存在します"
@@ -54318,7 +54530,11 @@ msgid "As of"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以下の時点で:"
+=======
+msgstr "時点:"
+>>>>>>> upstream/18.0
 =======
 msgstr "時点:"
 >>>>>>> upstream/18.0
@@ -55161,7 +55377,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "銀行アプリでQRコード決済を登録できるようにするには、仕訳帳上で少なくとも1つの銀行口座を定義する必要があります。"
+=======
+msgstr ""
+"銀行アプリでQRコード決済を登録できるようにするには、仕訳帳上で少なくとも1つの"
+"銀行口座を定義する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "銀行アプリでQRコード決済を登録できるようにするには、仕訳帳上で少なくとも1つの"
@@ -56678,11 +56900,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "At the session closing: A picking is created for the entire session when it's closed\n"
 " In real time: Each order sent to the server create its own picking"
 msgstr ""
 "セッション終了時:セッションが終了すると、セッション全体に対してピッキングが作成されますリアルタイム：サーバーに送信された各注文は、独自のピッキングを作成します"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57440,6 +57665,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58343,7 +58571,11 @@ msgid "Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "処理可能"
+=======
+msgstr "利用可能"
+>>>>>>> upstream/18.0
 =======
 msgstr "利用可能"
 >>>>>>> upstream/18.0
@@ -59715,7 +59947,11 @@ msgid "Bakery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製パン店"
+=======
+msgstr "ベーカリー"
+>>>>>>> upstream/18.0
 =======
 msgstr "ベーカリー"
 >>>>>>> upstream/18.0
@@ -61013,7 +61249,11 @@ msgid "Bakery Shop"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "製パン店 店舗"
+=======
+msgstr "ベーカリー 店舗"
+>>>>>>> upstream/18.0
 =======
 msgstr "ベーカリー 店舗"
 >>>>>>> upstream/18.0
@@ -62169,6 +62409,7 @@ msgstr "銀行"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -62620,6 +62861,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_payment_method.py:0
 msgid "Bank App (QR Code)"
@@ -62762,6 +63005,9 @@ msgstr "銀行アプリ (QRコード)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63165,7 +63411,11 @@ msgid "Bank Statement Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "銀行取引明細書内容"
+=======
+msgstr "銀行取引明細行"
+>>>>>>> upstream/18.0
 =======
 msgstr "銀行取引明細行"
 >>>>>>> upstream/18.0
@@ -63661,7 +63911,11 @@ msgid "Barcode Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バーコード表現規則"
+=======
+msgstr "バーコード表現ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "バーコード表現ルール"
 >>>>>>> upstream/18.0
@@ -64130,7 +64384,11 @@ msgid "Barcode Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バーコード規則"
+=======
+msgstr "バーコードルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "バーコードルール"
 >>>>>>> upstream/18.0
@@ -64663,7 +64921,11 @@ msgid "Billing address:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求先住所:"
+=======
+msgstr "請求先:"
+>>>>>>> upstream/18.0
 =======
 msgstr "請求先:"
 >>>>>>> upstream/18.0
@@ -65429,9 +65691,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "クーポン、プロモーション、ギフトカード、ロイヤリティなど、様々なキャンペーンで売上を向上させます。特定な条件を設定できます "
 "(プロダクト、お客様、最低購入数、期間)。リワードとしては、値引 (%又は値引額)や無料プロダクトを提供できます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66186,6 +66451,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66798,6 +67066,7 @@ msgid "Cannot return change without a cash payment method"
 msgstr "現金支払い方法なしで変更を戻すことはできません"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67928,6 +68197,8 @@ msgstr "プロダクトの計量ができません - スケールがIoT Boxに�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Card"
@@ -67982,6 +68253,7 @@ msgstr "現金 %(session_name)s"
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid "Cash Bakery"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69275,6 +69547,9 @@ msgstr "現金 ベーカリー"
 =======
 msgstr "現金 ベーカリー"
 >>>>>>> upstream/18.0
+=======
+msgstr "現金 ベーカリー"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -69370,7 +69645,10 @@ msgstr "現金丸め (POS)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69427,6 +69705,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69579,7 +69860,10 @@ msgstr "計上中に発生した現金差(益) - クロージング"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69847,6 +70131,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70181,7 +70468,11 @@ msgid "Cashdrawer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現金箱"
+=======
+msgstr "キャッシュドロワー"
+>>>>>>> upstream/18.0
 =======
 msgstr "キャッシュドロワー"
 >>>>>>> upstream/18.0
@@ -70868,7 +71159,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "カテゴリは、タッチスクリーンインターフェイスを介してプロダクトを閲覧するために使用されます。"
+=======
+msgstr ""
+"カテゴリは、タッチスクリーンインターフェイスを介してプロダクトを閲覧するため"
+"に使用されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "カテゴリは、タッチスクリーンインターフェイスを介してプロダクトを閲覧するため"
@@ -72417,10 +72714,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Check if the product should be weighted using the hardware scale "
 "integration."
 msgstr "ハードウェアスケール統合を使用して製品に重みを付ける必要があるかどうかを確認します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73175,6 +73475,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73953,7 +74256,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "インターネット接続を確認してから、赤いWi-Fiボタン(画面の右上)をクリックして同期を再試行してください。"
+=======
+msgstr ""
+"インターネット接続を確認してから、赤いWi-Fiボタン(画面の右上)をクリックして同"
+"期を再試行してください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "インターネット接続を確認してから、赤いWi-Fiボタン(画面の右上)をクリックして同"
@@ -75474,7 +75783,12 @@ msgid "Chewy and dense bagel, perfect for sandwiches or with cream cheese."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "もちもちで歯ごたえのあるベーグル、サンドウィッチやクリームチーズにぴったり。"
+=======
+msgstr ""
+"もちもちで歯ごたえのあるベーグル、サンドウィッチやクリームチーズにぴったり。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "もちもちで歯ごたえのあるベーグル、サンドウィッチやクリームチーズにぴったり。"
@@ -76741,7 +77055,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "顧客の種類 (免税、イートインとお持ち帰りなど)に応じて、注文時に特定の会計ポジションを選択します。"
+=======
+msgstr ""
+"顧客の種類 (免税、イートインとお持ち帰りなど)に応じて、注文時に特定の会計ポジ"
+"ションを選択します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "顧客の種類 (免税、イートインとお持ち帰りなど)に応じて、注文時に特定の会計ポジ"
@@ -78263,6 +78583,7 @@ msgstr "ポータルサイトのURLをレシートにどのように印刷する
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -79004,6 +79325,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/static/src/app/screens/product_screen/control_buttons/control_buttons.js:0
 msgid "Choose the tax you want to apply"
 msgstr "適用したい税を選択してください"
@@ -79181,6 +79504,9 @@ msgstr "適用したい税を選択してください"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79622,6 +79948,7 @@ msgstr "クロージング管理"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__stop_at
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_session_search
 msgid "Closing Date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80311,12 +80638,16 @@ msgstr "締め日時"
 =======
 msgstr "締め日時"
 >>>>>>> upstream/18.0
+=======
+msgstr "締め日時"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__is_closing_entry_by_product
 #: model:ir.model.fields,field_description:point_of_sale.field_res_config_settings__pos_is_closing_entry_by_product
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Closing Entry by product"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81386,6 +81717,9 @@ msgstr "プロダクト別締め仕訳"
 =======
 msgstr "プロダクト別締め仕訳"
 >>>>>>> upstream/18.0
+=======
+msgstr "プロダクト別締め仕訳"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__closing_notes
@@ -81495,7 +81829,10 @@ msgstr "セッション終了"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81763,6 +82100,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82030,7 +82370,10 @@ msgstr "クロージング差額%(payment_method)s(%(session)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -82304,6 +82647,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82960,7 +83306,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認"
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
@@ -84312,7 +84662,11 @@ msgid "Confirm?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "確認しましたか？"
+=======
+msgstr "確定?"
+>>>>>>> upstream/18.0
 =======
 msgstr "確定?"
 >>>>>>> upstream/18.0
@@ -85465,7 +85819,11 @@ msgid "Connect devices using an IoT Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "IoTボックスを使用してデバイスを接続する"
+=======
+msgstr "IoT Boxを使用してデバイスを接続する"
+>>>>>>> upstream/18.0
 =======
 msgstr "IoT Boxを使用してデバイスを接続する"
 >>>>>>> upstream/18.0
@@ -86197,8 +86555,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversion Error: The following unit of measure conversions result in a zero"
 " quantity due to rounding:"
+=======
+"Conversion Error: The following unit of measure conversions result in a zero "
+"quantity due to rounding:"
+>>>>>>> upstream/18.0
 =======
 "Conversion Error: The following unit of measure conversions result in a zero "
 "quantity due to rounding:"
@@ -87509,7 +87872,12 @@ msgid "Cozy sweater, perfect for colder weather. Available in various colors."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "寒い季節にぴったりの肌触りの良いセーター。様々なカラーをご用意しています。"
+=======
+msgstr ""
+"寒い季節にぴったりの肌触りの良いセーター。様々なカラーをご用意しています。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "寒い季節にぴったりの肌触りの良いセーター。様々なカラーをご用意しています。"
@@ -88790,6 +89158,7 @@ msgstr "ダッシュボード"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -88831,6 +89200,8 @@ msgstr "接続がなくなりました"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88951,6 +89322,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -89388,7 +89762,11 @@ msgid "Default unit of measure used for all stock operations."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "すべての在庫操作に使用されるデフォルトの測定単位。"
+=======
+msgstr "すべての在庫操作に使用されるデフォルトの単位。"
+>>>>>>> upstream/18.0
 =======
 msgstr "すべての在庫操作に使用されるデフォルトの単位。"
 >>>>>>> upstream/18.0
@@ -90546,7 +90924,11 @@ msgid "Destination account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "移動先の勘定科目"
+=======
+msgstr "振替先勘定科目"
+>>>>>>> upstream/18.0
 =======
 msgstr "振替先勘定科目"
 >>>>>>> upstream/18.0
@@ -91715,7 +92097,11 @@ msgid "Destination account is readonly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "移動先の勘定科目は読取専用です"
+=======
+msgstr "振替先勘定科目は読取専用です"
+>>>>>>> upstream/18.0
 =======
 msgstr "振替先勘定科目は読取専用です"
 >>>>>>> upstream/18.0
@@ -92871,7 +93257,11 @@ msgid "Disc:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ディスク:"
+=======
+msgstr "値引:"
+>>>>>>> upstream/18.0
 =======
 msgstr "値引:"
 >>>>>>> upstream/18.0
@@ -93897,7 +94287,11 @@ msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引 (%)"
+=======
+msgstr "割引 (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引 (%)"
 >>>>>>> upstream/18.0
@@ -95258,7 +95652,11 @@ msgid "Discount Notice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引注記"
+=======
+msgstr "割引注記"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引注記"
 >>>>>>> upstream/18.0
@@ -96620,7 +97018,11 @@ msgid "Discount:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引:"
+=======
+msgstr "割引:"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引:"
 >>>>>>> upstream/18.0
@@ -97981,7 +98383,11 @@ msgid "Discounted Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引対象プロダクト"
+=======
+msgstr "割引対象プロダクト"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引対象プロダクト"
 >>>>>>> upstream/18.0
@@ -99344,7 +99750,11 @@ msgid "Discounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引"
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引"
 >>>>>>> upstream/18.0
@@ -100669,7 +101079,13 @@ msgid "Do not have access, skip this data for user's digest email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "アクセス権がありません。ユーザのダイジェストメールにこのデータをスキップしてください"
+=======
+msgstr ""
+"アクセス権がありません。ユーザのダイジェストメールにこのデータをスキップして"
+"ください"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "アクセス権がありません。ユーザのダイジェストメールにこのデータをスキップして"
@@ -102199,9 +102615,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Proxy where the printer can be found, and a list of product categories.\n"
 "            An Order Printer will only print updates for products belonging to one of\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -102956,6 +103375,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -103511,6 +103933,7 @@ msgstr "セッション中に編集されたオーダ:%s"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "Electronic Scale"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -104676,6 +105099,9 @@ msgstr "電子スケール"
 =======
 msgstr "電子スケール"
 >>>>>>> upstream/18.0
+=======
+msgstr "電子スケール"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__email
@@ -104963,8 +105389,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "従業員はバッジをスキャンするか、PINを入力してPoSセッションにログインできます。これらの資格情報は、従業員フォームの[* "
 "HR設定*]タブで構成できます。"
+=======
+"従業員はバッジをスキャンするか、PINを入力してPoSセッションにログインできま"
+"す。これらの資格情報は、従業員フォームの[* HR設定*]タブで構成できます。"
+>>>>>>> upstream/18.0
 =======
 "従業員はバッジをスキャンするか、PINを入力してPoSセッションにログインできま"
 "す。これらの資格情報は、従業員フォームの[* HR設定*]タブで構成できます。"
@@ -106232,7 +106663,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リモート接続されたバーコードスキャナーでバーコードスキャンを有効にし、Vantivカードリーダーでカードをスワイプします。"
+=======
+msgstr ""
+"リモート接続されたバーコードスキャナーでバーコードスキャンを有効にし、Vantiv"
+"カードリーダーでカードをスワイプします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "リモート接続されたバーコードスキャナーでバーコードスキャンを有効にし、Vantiv"
@@ -107783,7 +108220,11 @@ msgid "Enables Electronic Scale integration."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "電子スケール統合を可能にします。"
+=======
+msgstr "電子スケール連携を有効にします。"
+>>>>>>> upstream/18.0
 =======
 msgstr "電子スケール連携を有効にします。"
 >>>>>>> upstream/18.0
@@ -108923,10 +109364,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ensure that there is an existing bank journal. Check if chart of accounts is"
 " installed in your company."
 msgstr "既存の銀行仕訳帳があることを確認して下さい。御社に勘定科目表がインストールされているか確認して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -109682,6 +110126,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -110292,6 +110739,7 @@ msgstr "バターたっぷりの薄い生地を重ねて作った軽く黄金色
 
 #. module: point_of_sale
 #: model:product.template,description_sale:point_of_sale.product_cheese_croissant_product_template
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111298,6 +111746,9 @@ msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 =======
 msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
 >>>>>>> upstream/18.0
+=======
+msgid "Flaky croissant filled with creamy cheese, a savory twist on a classic."
+>>>>>>> upstream/18.0
 msgstr "クリーミーなチーズがたっぷり入った薄焼きクロワッサン。"
 
 #. module: point_of_sale
@@ -111479,7 +111930,10 @@ msgstr "不正確な産業用タッチスクリーン用。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -111852,6 +112306,9 @@ msgstr "強制キャンセル"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -112112,6 +112569,7 @@ msgstr "強制的に完了"
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112686,6 +113144,10 @@ msgstr "強制キャンセル"
 msgid "Force cancel"
 msgstr "強制キャンセル"
 >>>>>>> upstream/18.0
+=======
+msgid "Force cancel"
+msgstr "強制キャンセル"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -112812,6 +113274,9 @@ msgstr "強制キャンセル"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -113321,7 +113786,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この決済方法を使用する場合、強制的に顧客を設定する必要があり、顧客ごとに仕訳が分割されます。クロージング処理が遅くなる可能性があります。"
+=======
+msgstr ""
+"この決済方法を使用する場合、強制的に顧客を設定する必要があり、顧客ごとに仕訳"
+"が分割されます。クロージング処理が遅くなる可能性があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この決済方法を使用する場合、強制的に顧客を設定する必要があり、顧客ごとに仕訳"
@@ -114992,7 +115463,11 @@ msgid "Global Discounts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "グローバル値引"
+=======
+msgstr "全体割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "全体割引"
 >>>>>>> upstream/18.0
@@ -116195,7 +116670,11 @@ msgid "Has Active Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "アクティブなセッションがあります"
+=======
+msgstr "有効なセッションがあります"
+>>>>>>> upstream/18.0
 =======
 msgstr "有効なセッションがあります"
 >>>>>>> upstream/18.0
@@ -116788,7 +117267,12 @@ msgid "Hearty multigrain loaf with seeds and grains for extra nutrition."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "栄養価の高い種と穀物を使った、ボリュームたっぷりのマルチグレイン・ローフ。"
+=======
+msgstr ""
+"栄養価の高い種と穀物を使った、ボリュームたっぷりのマルチグレイン・ローフ。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "栄養価の高い種と穀物を使った、ボリュームたっぷりのマルチグレイン・ローフ。"
@@ -118053,7 +118537,11 @@ msgid "Hide Use Payment Terminal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Use PaymentTerminalを非表示にする"
+=======
+msgstr "「決済端末を使用」を非表示にする"
+>>>>>>> upstream/18.0
 =======
 msgstr "「決済端末を使用」を非表示にする"
 >>>>>>> upstream/18.0
@@ -119133,7 +119621,12 @@ msgid "If checked, this coin/bill will be available in all PoS."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックを入れると、このコイン/仕入先請求書は全てのPOSで利用可能になります。"
+=======
+msgstr ""
+"チェックを入れると、このコイン/仕入先請求書は全てのPOSで利用可能になります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "チェックを入れると、このコイン/仕入先請求書は全てのPOSで利用可能になります。"
@@ -120395,7 +120888,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このオーダが払戻である場合、払戻されたオーダがこのフィールドに指定されます。"
+=======
+msgstr ""
+"このオーダが払戻である場合、払戻されたオーダがこのフィールドに指定されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このオーダが払戻である場合、払戻されたオーダがこのフィールドに指定されます。"
@@ -121660,7 +122158,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "全てのプロダクトを一度に配送する場合、配送順序はプロダクトのリードタイムが最も長い順序で予定されます。それ以外の場合は、最短のものを基準とします。"
+=======
+"全てのプロダクトを一度に配送する場合、配送順序はプロダクトのリードタイムが最"
+"も長い順序で予定されます。それ以外の場合は、最短のものを基準とします。"
+>>>>>>> upstream/18.0
 =======
 "全てのプロダクトを一度に配送する場合、配送順序はプロダクトのリードタイムが最"
 "も長い順序で予定されます。それ以外の場合は、最短のものを基準とします。"
@@ -122979,7 +123482,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "呼び出し/会計アプリの一般設定から勘定科目表をインストールすると、銀行と現金の支払い方法が自動的に作成されます。"
+=======
+msgstr ""
+"呼び出し/会計アプリの一般設定から勘定科目表をインストールすると、銀行と現金の"
+"支払い方法が自動的に作成されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "呼び出し/会計アプリの一般設定から勘定科目表をインストールすると、銀行と現金の"
@@ -124600,7 +125109,11 @@ msgid "Internal Notes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "内部注記"
+=======
+msgstr "内部メモ"
+>>>>>>> upstream/18.0
 =======
 msgstr "内部メモ"
 >>>>>>> upstream/18.0
@@ -125998,7 +126511,11 @@ msgid "Is Total Cost Computed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "総コスト計算済"
+=======
+msgstr "原価合計を計算済"
+>>>>>>> upstream/18.0
 =======
 msgstr "原価合計を計算済"
 >>>>>>> upstream/18.0
@@ -127183,7 +127700,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "掲載されていないPOS注文で使用される税金を変更することは禁じられています。税金を変更する前に、POSセッションを閉じる必要があります。"
+=======
+msgstr ""
+"掲載されていないPOS注文で使用される税金を変更することは禁じられています。税金"
+"を変更する前に、POSセッションを閉じる必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "掲載されていないPOS注文で使用される税金を変更することは禁じられています。税金"
@@ -128792,7 +129315,11 @@ msgid "Kitchen Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "厨房メモ"
+=======
+msgstr "キッチンメモ"
+>>>>>>> upstream/18.0
 =======
 msgstr "キッチンメモ"
 >>>>>>> upstream/18.0
@@ -129730,6 +130257,7 @@ msgstr "KpiPos合計金額"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -129750,6 +130278,8 @@ msgstr "XL"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -129860,6 +130390,9 @@ msgstr "L"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -130296,7 +130829,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Overrides the company's receivable account (for Point of Sale) used in the journal entries."
+=======
+"Overrides the company's receivable account (for Point of Sale) used in the "
+"journal entries."
+>>>>>>> upstream/18.0
 =======
 "Overrides the company's receivable account (for Point of Sale) used in the "
 "journal entries."
@@ -131565,6 +132103,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines the journal where to book the accumulated payments (or individual payment if Identify Customer is true) after closing the session.\n"
 "For cash journal, we directly write to the default account in the journal via statement lines.\n"
 "For bank journal, we write to the outstanding account specified in this payment method.\n"
@@ -131574,6 +132113,8 @@ msgstr ""
 "セッション終了後、累積支払(または顧客の識別がTRUEの場合は個別支払)を計上する仕訳を定義します。\n"
 "現金出納帳の場合は、明細行を使用して出納帳のデフォルト勘定に直接書き込みます。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -132337,6 +132878,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132856,6 +133400,7 @@ msgstr "ライトブルースリムジーンズ"
 msgid ""
 "Lightweight bomber jacket in linen with a ribbed stand-up collar and zip "
 "down the front."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134363,6 +134908,11 @@ msgstr ""
 "リネン製の軽量ボンバージャケット。リブ編みのスタンドカラーで、フロントにジッ"
 "パー付き。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"リネン製の軽量ボンバージャケット。リブ編みのスタンドカラーで、フロントにジッ"
+"パー付き。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__manual_discount
@@ -134566,7 +135116,10 @@ msgstr "プロダクトメニューをロード"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -135060,6 +135613,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "ローカルネットワークアクセス設定は有効化されていますが、お使いのブラウザはChr"
 "omiumベースではありません。この機能をご利用いただくには、Chromiumベースのブラ"
@@ -135094,6 +135648,11 @@ msgstr ""
 "ローカルネットワークアクセス設定は有効化されていますが、お使いのブラウザはChr"
 "omiumベースではありません。この機能をご利用いただくには、Chromiumベースのブラ"
 "ウザをご利用ください。"
+>>>>>>> upstream/18.0
+=======
+"ローカルネットワークアクセス設定は有効化されていますが、お使いのブラウザは"
+"Chromiumベースではありません。この機能をご利用いただくには、Chromiumベースの"
+"ブラウザをご利用ください。"
 >>>>>>> upstream/18.0
 =======
 "ローカルネットワークアクセス設定は有効化されていますが、お使いのブラウザは"
@@ -135848,6 +136407,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"このPOS端末ではローカルネットワークアクセスが有効化されていますが、お使いのブ"
+"ラウザのバージョンではサポートされていません。ブラウザを最新版に更新してくだ"
+"さい。"
+>>>>>>> upstream/18.0
 =======
 "このPOS端末ではローカルネットワークアクセスが有効化されていますが、お使いのブ"
 "ラウザのバージョンではサポートされていません。ブラウザを最新版に更新してくだ"
@@ -136636,6 +137201,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 <<<<<<< HEAD
@@ -136784,6 +137350,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -137176,6 +137744,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137516,6 +138087,7 @@ msgstr "下半身"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -137658,6 +138230,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:product.attribute.value,name:point_of_sale.product_attribute_value_m
 msgid "M"
 msgstr "M"
@@ -137680,6 +138254,9 @@ msgstr "M"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137978,6 +138555,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Make several pricelists available in the Point of Sale. You can also apply a"
 " pricelist to specific customers from their contact form (in Sales tab). To "
 "be valid, this pricelist must be listed here as an available pricelist. "
@@ -137985,6 +138563,8 @@ msgid ""
 msgstr ""
 "POSでいくつかの価格表を利用できるようにします。お問い合わせフォーム([販売]タブ)から特定の顧客に価格表を適用することもできます。有効にするには、この価格表を利用可能な価格表としてここにリストする必要があります。それ以外の場合は、デフォルトの価格表が適用されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138744,6 +139324,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139503,7 +140086,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Odooデータベースに関連付けられたIoT Boxサブスクリプションがあることを確認し、その後IoT Boxを再起動します。"
+=======
+msgstr ""
+"Odooデータベースに関連付けられたIoT Boxサブスクリプションがあることを確認し、"
+"その後IoT Boxを再起動します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Odooデータベースに関連付けられたIoT Boxサブスクリプションがあることを確認し、"
@@ -141017,7 +141606,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "IoT Boxv18.12以降を使用していることを確認してください。 %sに移動して、IoTボックスの証明書を受け入れます。"
+=======
+msgstr ""
+"IoT Boxv18.12以降を使用していることを確認してください。 %sに移動して、IoTボッ"
+"クスの証明書を受け入れます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "IoT Boxv18.12以降を使用していることを確認してください。 %sに移動して、IoTボッ"
@@ -142589,7 +143184,11 @@ msgid "Mobile"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "携帯電話"
+=======
+msgstr "モバイル"
+>>>>>>> upstream/18.0
 =======
 msgstr "モバイル"
 >>>>>>> upstream/18.0
@@ -143705,7 +144304,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "バーコードの命名法が設定されていません。これは設定の管理設定で変更できます。"
+=======
+msgstr ""
+"バーコードの命名法が設定されていません。これは設定の管理設定で変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "バーコードの命名法が設定されていません。これは設定の管理設定で変更できます。"
@@ -144967,7 +145571,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このセッションのキャッシュステートメントは見つかりませんでした。返却された現金を記録できません。"
+=======
+msgstr ""
+"このセッションのキャッシュステートメントは見つかりませんでした。返却された現"
+"金を記録できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このセッションのキャッシュステートメントは見つかりませんでした。返却された現"
@@ -146479,10 +147089,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No chart of account configured, go to the \"configuration / settings\" menu,"
 " and install one from the Invoicing tab."
 msgstr "勘定科目表が設定されていません。\" 設定 / 管理設定 \"メニューの \"請求\"タブからインストールして下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -147238,6 +147851,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147776,6 +148392,7 @@ msgstr " \"%s\"の顧客がもう見つかりません。"
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
 "No open session available. Please open a new session to capture the order."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149283,6 +149900,11 @@ msgstr ""
 "現在、未決済のセッションはありません。オーダを確定するには、新しいセッション"
 "を開いて下さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"現在、未決済のセッションはありません。オーダを確定するには、新しいセッション"
+"を開いて下さい。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_payment_form
@@ -149320,6 +149942,7 @@ msgid "Nomenclature"
 msgstr "体系"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149964,6 +150587,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_payment_method.py:0
 msgid "None required"
@@ -150099,6 +150724,9 @@ msgstr "不要"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150735,7 +151363,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この払戻し行には、マイナスの数量しか入力できません。返金数量を変更するには+/-をクリックして下さい。"
+=======
+msgstr ""
+"この払戻し行には、マイナスの数量しか入力できません。返金数量を変更するには+/-"
+"をクリックして下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この払戻し行には、マイナスの数量しか入力できません。返金数量を変更するには+/-"
@@ -152274,7 +152908,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PoSアプリのマネージャーアクセス権を持つユーザのみが、オーダのプロダクト価格を変更できます。"
+=======
+msgstr ""
+"PoSアプリのマネージャーアクセス権を持つユーザのみが、オーダのプロダクト価格を"
+"変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "PoSアプリのマネージャーアクセス権を持つユーザのみが、オーダのプロダクト価格を"
@@ -153816,7 +154456,11 @@ msgid "Opening"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オープニング"
+=======
+msgstr "開始残高"
+>>>>>>> upstream/18.0
 =======
 msgstr "開始残高"
 >>>>>>> upstream/18.0
@@ -154677,7 +155321,10 @@ msgstr "開始現金"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -154957,6 +155604,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -155217,6 +155867,7 @@ msgid "Order Number"
 msgstr "オーダ番号"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155832,6 +156483,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -156372,6 +157025,9 @@ msgstr "オーダが古くなっています"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -156743,6 +157399,7 @@ msgstr "オーダプリンタ"
 #: model_terms:ir.actions.act_window,help:point_of_sale.action_pos_printer_form
 msgid ""
 "Order Printers are used by restaurants and bars to print the\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157683,6 +158340,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            order updates in the kitchen/bar when the waiter updates the "
 "order."
 msgstr ""
@@ -157939,6 +158598,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -158796,7 +159458,11 @@ msgid "Payment Transaction ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支払トランザクションID"
+=======
+msgstr "支払取引ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払取引ID"
 >>>>>>> upstream/18.0
@@ -158997,7 +159663,11 @@ msgid "Payment reversed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "支払が取消されました"
+=======
+msgstr "支払取消済"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払取消済"
 >>>>>>> upstream/18.0
@@ -159242,7 +159912,11 @@ msgid "Picking Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピッキングカウント"
+=======
+msgstr "ピッキング数"
+>>>>>>> upstream/18.0
 =======
 msgstr "ピッキング数"
 >>>>>>> upstream/18.0
@@ -159280,6 +159954,7 @@ msgstr "お願いします。"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_screen.js:0
 msgid "Please Confirm Large Amount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160621,6 +161296,9 @@ msgstr "高額のため確認してください"
 =======
 msgstr "高額のため確認してください"
 >>>>>>> upstream/18.0
+=======
+msgstr "高額のため確認してください"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -160884,11 +161562,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some browsers don't allow HTTP calls from websites to devices in the network (for security reasons). If it is the case, you will need to follow Odoo's documentation for 'Self-signed certificate for ePOS printers' and 'Secure connection (HTTPS)' to solve the issue. "
 msgstr ""
 "プリンタが接続されているか確認して下さい。\n"
 "ブラウザによっては、ウェブサイトからネットワーク内のデバイスへのHTTPコールを許可しないものがあります（セキュリティ上の理由から）その場合、Odooの'ePOSプリンタ用の自己署名証明書'と'安全な接続(HTTPS)'のドキュメントに従って問題を解決する必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161649,6 +162330,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -162408,7 +163092,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "終了する前に、この期間のすべてのPOSセッションを終了してください。開いているセッションは次のとおりです:%s"
+=======
+msgstr ""
+"終了する前に、この期間のすべてのPOSセッションを終了してください。開いている"
+"セッションは次のとおりです:%s"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "終了する前に、この期間のすべてのPOSセッションを終了してください。開いている"
@@ -163920,11 +164610,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please close and validate the following open PoS Sessions before modifying this payment method.\n"
 "Open sessions: %s"
 msgstr ""
 "この支払い方法を変更する前に、以下のオープンPOSセッションを閉じて検証して下さい。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164681,6 +165374,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165187,6 +165883,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166193,6 +166890,9 @@ msgid ""
 =======
 "Please create/select a Point of Sale above to show the configuration options."
 >>>>>>> upstream/18.0
+=======
+"Please create/select a Point of Sale above to show the configuration options."
+>>>>>>> upstream/18.0
 msgstr "設定オプションを表示するには、上記のPOSを作成/選択して下さい。"
 
 #. module: point_of_sale
@@ -166220,6 +166920,7 @@ msgstr "全ての必要なフィールドに入力して下さい。"
 msgid ""
 "Please go on the %s journal and define a Loss Account. This account will be "
 "used to record cash difference."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167727,6 +168428,11 @@ msgstr ""
 "%sジャーナルにアクセスして、損失勘定を定義してください。このアカウントは、現"
 "金の差額を記録するために使用されます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"%sジャーナルにアクセスして、損失勘定を定義してください。このアカウントは、現"
+"金の差額を記録するために使用されます。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -167734,6 +168440,7 @@ msgstr ""
 msgid ""
 "Please go on the %s journal and define a Profit Account. This account will "
 "be used to record cash difference."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169365,6 +170072,11 @@ msgstr ""
 "%s仕訳帳にアクセスして、利益勘定を定義してください。このアカウントは、現金の"
 "差額を記録するために使用されます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"%s仕訳帳にアクセスして、利益勘定を定義してください。このアカウントは、現金の"
+"差額を記録するために使用されます。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -169372,6 +170084,7 @@ msgstr ""
 msgid ""
 "Please note that this operation will result in the loss of any data not "
 "saved on the server."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170879,6 +171592,11 @@ msgstr ""
 "この操作を行うと、サーバーに保存されていないデータは失われますのでご注意下さ"
 "い。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"この操作を行うと、サーバーに保存されていないデータは失われますのでご注意下さ"
+"い。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -170894,6 +171612,7 @@ msgstr "販売のためのパートナを提供して下さい。"
 
 #. module: point_of_sale
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172420,6 +173139,10 @@ msgstr "クーポン番号を登録して下さい。"
 #: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
 >>>>>>> upstream/18.0
+=======
+#: code:addons/point_of_sale/static/src/app/utils/qr_code_popup/qr_code_popup.js:0
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.js:0
+>>>>>>> upstream/18.0
 msgid "Please scan the QR code with %s"
 msgstr " %sでQRコードをスキャンして下さい。"
 
@@ -172603,6 +173326,7 @@ msgstr "POSオーダ"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_pos_order
 msgid "Point of Sale Orders Report"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173040,6 +173764,9 @@ msgstr "POSオーダレポート"
 =======
 msgstr "POSオーダレポート"
 >>>>>>> upstream/18.0
+=======
+msgstr "POSオーダレポート"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_payment_method
@@ -173086,6 +173813,7 @@ msgstr "POS"
 #: model:product.template,description_sale:point_of_sale.product_crocheted_poncho_unisize_product_template
 msgid ""
 "Poncho in a soft, crochet-look knit with a round, gently draped neckline."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174593,6 +175321,11 @@ msgstr ""
 "柔らかなかぎ針編み風ニットのポンチョで、丸く緩やかなドレープを描くネックライ"
 "ン。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"柔らかなかぎ針編み風ニットのポンチョで、丸く緩やかなドレープを描くネックライ"
+"ン。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__access_url
@@ -174642,7 +175375,11 @@ msgid "Pos Order Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pos Order Line"
+=======
+msgstr "POSオーダ明細"
+>>>>>>> upstream/18.0
 =======
 msgstr "POSオーダ明細"
 >>>>>>> upstream/18.0
@@ -174933,7 +175670,11 @@ msgid "Pricelist Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格表規則"
+=======
+msgstr "価格票ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "価格票ルール"
 >>>>>>> upstream/18.0
@@ -175616,7 +176357,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "顧客がいつでもOdooのポータルから顧客請求書に簡単にアクセスできるように、レシートに情報を印刷します。"
+=======
+msgstr ""
+"顧客がいつでもOdooのポータルから顧客請求書に簡単にアクセスできるように、レ"
+"シートに情報を印刷します。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "顧客がいつでもOdooのポータルから顧客請求書に簡単にアクセスできるように、レ"
@@ -177173,7 +177920,11 @@ msgid "Print orders at the kitchen, at the bar, etc."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "厨房、バーなどでオーダを印刷"
+=======
+msgstr "キッチン、バーなどでオーダを印刷"
+>>>>>>> upstream/18.0
 =======
 msgstr "キッチン、バーなどでオーダを印刷"
 >>>>>>> upstream/18.0
@@ -178325,7 +179076,10 @@ msgstr "プロダクトテンプレート"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -178634,6 +179388,9 @@ msgstr "プロダクトテンプレート属性除外"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -179263,6 +180020,10 @@ msgstr "紫"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/point_of_sale/static/src/customer_display/customer_facing_qr.xml:0
 >>>>>>> upstream/18.0
@@ -180578,7 +181339,11 @@ msgid "Read Weighing Scale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "体重計を読む"
+=======
+msgstr "スケールの読み取り"
+>>>>>>> upstream/18.0
 =======
 msgstr "スケールの読み取り"
 >>>>>>> upstream/18.0
@@ -181788,7 +182553,11 @@ msgid "Record payments with a terminal on this journal."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このジャーナルに端末で支払いを記録します。"
+=======
+msgstr "この仕訳帳に端末で支払いを記録します。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この仕訳帳に端末で支払いを記録します。"
 >>>>>>> upstream/18.0
@@ -182777,7 +183546,10 @@ msgstr "関連セッション:%(link)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -182919,6 +183691,9 @@ msgstr "リロード"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -183058,6 +183833,7 @@ msgstr "請求書をリクエスト"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/payment_screen/payment_lines/payment_lines.xml:0
 msgid "Request sent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183439,6 +184215,9 @@ msgstr "リクエストを送信しました"
 =======
 msgstr "リクエストを送信しました"
 >>>>>>> upstream/18.0
+=======
+msgstr "リクエストを送信しました"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
@@ -183502,6 +184281,7 @@ msgstr "返却済"
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184257,6 +185037,8 @@ msgstr "POSクロージング逆仕訳%(entry)sオーダ %(order)s用、セッ�
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Reversal of POS closing entry %(entry)s for order %(order)s from session %"
 "(session)s"
 msgstr ""
@@ -184511,6 +185293,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185089,7 +185874,11 @@ msgid "Reverse"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "逆仕訳"
+=======
+msgstr "取消"
+>>>>>>> upstream/18.0
 =======
 msgstr "取消"
 >>>>>>> upstream/18.0
@@ -185335,7 +186124,11 @@ msgid "Reverse Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "逆払い"
+=======
+msgstr "支払を取消"
+>>>>>>> upstream/18.0
 =======
 msgstr "支払を取消"
 >>>>>>> upstream/18.0
@@ -185581,7 +186374,11 @@ msgid "Reversed POS Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "逆転済POSオーダ"
+=======
+msgstr "取消済POSオーダ"
+>>>>>>> upstream/18.0
 =======
 msgstr "取消済POSオーダ"
 >>>>>>> upstream/18.0
@@ -185767,6 +186564,7 @@ msgstr "取消済POSオーダ"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/screens/ticket_screen/ticket_screen.xml:0
 msgid "Review"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186148,11 +186946,15 @@ msgstr "確認"
 =======
 msgstr "確認"
 >>>>>>> upstream/18.0
+=======
+msgstr "確認"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/navbar/closing_popup/closing_popup.js:0
 msgid "Review Orders"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187158,6 +187960,9 @@ msgstr "注文内容の確認"
 =======
 msgstr "注文内容の確認"
 >>>>>>> upstream/18.0
+=======
+msgstr "注文内容の確認"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:product.template,description_sale:point_of_sale.product_pain_au_chocolat_product_template
@@ -187185,6 +187990,7 @@ msgstr "支払明細の丸め誤差"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/components/tour_selector_popup/tour_selector_popup.xml:0
 msgid "Running a fake tour will create random orders. Use at your own risk."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188692,6 +189498,11 @@ msgstr ""
 "偽のツアーを実行すると、ランダムなオーダが作成されます。ご自身の責任でご利用"
 "下さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"偽のツアーを実行すると、ランダムなオーダが作成されます。ご自身の責任でご利用"
+"下さい。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:product.template,name:point_of_sale.product_rye_bread_product_template
@@ -188699,6 +189510,7 @@ msgid "Rye Bread"
 msgstr "ライ麦パン"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189564,11 +190376,17 @@ msgstr "S"
 msgid "S"
 msgstr "S"
 >>>>>>> upstream/18.0
+=======
+#: model:product.attribute.value,name:point_of_sale.product_attribute_value_s
+msgid "S"
+msgstr "S"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__message_has_sms_error
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189717,6 +190535,9 @@ msgstr "SMS配信エラー"
 =======
 msgstr "SMS配信エラー"
 >>>>>>> upstream/18.0
+=======
+msgstr "SMS配信エラー"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_sms
@@ -189768,7 +190589,11 @@ msgid "SMS Enabled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMSが有効化されました"
+=======
+msgstr "SMSを有効化"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMSを有効化"
 >>>>>>> upstream/18.0
@@ -190275,7 +191100,11 @@ msgid "Scale error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "秤エラー"
+=======
+msgstr "スケールエラー"
+>>>>>>> upstream/18.0
 =======
 msgstr "スケールエラー"
 >>>>>>> upstream/18.0
@@ -191645,7 +192474,11 @@ msgid "Session Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セッションジャーナルエントリ"
+=======
+msgstr "セッション仕訳"
+>>>>>>> upstream/18.0
 =======
 msgstr "セッション仕訳"
 >>>>>>> upstream/18.0
@@ -192928,7 +193761,11 @@ msgid "Shipping Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "配送方針"
+=======
+msgstr "配送ポリシー"
+>>>>>>> upstream/18.0
 =======
 msgstr "配送ポリシー"
 >>>>>>> upstream/18.0
@@ -194333,7 +195170,11 @@ msgid "Skip line when sending ticket to kitchen printers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "厨房プリンタにチケットを送信する際に明細をスキップします。"
+=======
+msgstr "キッチンプリンタにチケットを送信する際に明細をスキップします。"
+>>>>>>> upstream/18.0
 =======
 msgstr "キッチンプリンタにチケットを送信する際に明細をスキップします。"
 >>>>>>> upstream/18.0
@@ -195486,7 +196327,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "柔らかな生地にバター風味のシナモンフィリング、クリームチーズアイシングをトッピング。"
+=======
+msgstr ""
+"柔らかな生地にバター風味のシナモンフィリング、クリームチーズアイシングをトッ"
+"ピング。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "柔らかな生地にバター風味のシナモンフィリング、クリームチーズアイシングをトッ"
@@ -197008,7 +197855,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "一部の注文は、構成エラーのためにサーバーに送信できませんでした。 POSを終了することはできますが、問題が解決するまでセッションを閉じないでください。"
+=======
+"一部の注文は、構成エラーのためにサーバーに送信できませんでした。 POSを終了す"
+"ることはできますが、問題が解決するまでセッションを閉じないでください。"
+>>>>>>> upstream/18.0
 =======
 "一部の注文は、構成エラーのためにサーバーに送信できませんでした。 POSを終了す"
 "ることはできますが、問題が解決するまでセッションを閉じないでください。"
@@ -198274,7 +199126,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POSを終了することはできますが、問題が解決するまでセッションを閉じないでください。"
+=======
+"POSを終了することはできますが、問題が解決するまでセッションを閉じないでくださ"
+"い。"
+>>>>>>> upstream/18.0
 =======
 "POSを終了することはできますが、問題が解決するまでセッションを閉じないでくださ"
 "い。"
@@ -199535,7 +200392,12 @@ msgid "Some, if not all, post-processing after syncing order failed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "全てでなければ、いくつかについて、同期オーダー後の後処理に失敗しました。"
+=======
+msgstr ""
+"全てでなければ、いくつかについて、同期オーダー後の後処理に失敗しました。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "全てでなければ、いくつかについて、同期オーダー後の後処理に失敗しました。"
@@ -200738,7 +201600,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "遅延: 期限が既に過ぎています\n"
+=======
+"期限超過：期限日がすでに過ぎています\n"
+>>>>>>> upstream/18.0
 =======
 "期限超過：期限日がすでに過ぎています\n"
 >>>>>>> upstream/18.0
@@ -201256,7 +202122,11 @@ msgid "Stock Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "在庫規則"
+=======
+msgstr "在庫ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫ルール"
 >>>>>>> upstream/18.0
@@ -201907,7 +202777,13 @@ msgid "Stylish leather jacket, durable and fashionable for all occasions."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "スタイリッシュなレザージャケット。長く着られて、どんなオケージョンでもおしゃれ。"
+=======
+msgstr ""
+"スタイリッシュなレザージャケット。長く着られて、どんなオケージョンでもおしゃ"
+"れ。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "スタイリッシュなレザージャケット。長く着られて、どんなオケージョンでもおしゃ"
@@ -203450,7 +204326,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ピーカンがたっぷり入った甘いパイ。濃厚なバター風味のフィリングとフレーク状の塩味が特徴。"
+=======
+msgstr ""
+"ピーカンがたっぷり入った甘いパイ。濃厚なバター風味のフィリングとフレーク状の"
+"塩味が特徴。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ピーカンがたっぷり入った甘いパイ。濃厚なバター風味のフィリングとフレーク状の"
@@ -204879,7 +205761,11 @@ msgid "Tare"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "風袋重量"
+=======
+msgstr "風袋"
+>>>>>>> upstream/18.0
 =======
 msgstr "風袋"
 >>>>>>> upstream/18.0
@@ -205516,6 +206402,7 @@ msgstr "TEL:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -205988,6 +206875,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_payment_method.py:0
 msgid "Terminal"
@@ -206123,6 +207012,9 @@ msgstr "端末"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -206664,7 +207556,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POSは、スキャンされたバーコードに関連するプロダクト、顧客、従業員、またはアクションを見つけることができませんでした。"
+=======
+msgstr ""
+"POSは、スキャンされたバーコードに関連するプロダクト、顧客、従業員、またはアク"
+"ションを見つけることができませんでした。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "POSは、スキャンされたバーコードに関連するプロダクト、顧客、従業員、またはアク"
@@ -208191,7 +209089,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現金での支払方法を設定していない場合は、支払期日を超える金額を設定することはできません。"
+=======
+msgstr ""
+"現金での支払方法を設定していない場合は、支払期日を超える金額を設定することは"
+"できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "現金での支払方法を設定していない場合は、支払期日を超える金額を設定することは"
@@ -209703,9 +210607,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The amount of your payment lines must be rounded to validate the transaction.\n"
 "The rounding precision is %s so you should set %s as payment amount instead of %s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -210460,6 +211367,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -211308,7 +212218,10 @@ msgstr "クレジットカードのブランド (Visa、AMEX等)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -212028,6 +212941,7 @@ msgstr "POS%(pos)sの丸め方針は以下である必要があります: '%(val
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 <<<<<<< HEAD
@@ -212896,6 +213810,8 @@ msgstr "POS%(pos)sの丸め方針は以下である必要があります: '%(val
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -213041,6 +213957,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213141,6 +214060,7 @@ msgstr "デフォルトの価格表は、利用可能な価格表に含まれて
 msgid ""
 "The default pricelist must belong to no company or the company of the point "
 "of sale."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214648,11 +215568,17 @@ msgstr ""
 "デフォルトの価格表は、どの企業にも属さないか、またはPOSの企業に属している必要"
 "があります。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"デフォルトの価格表は、どの企業にも属さないか、またはPOSの企業に属している必要"
+"があります。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215408,6 +216334,8 @@ msgstr "デフォルトチッププロダクトがありません。チッププ
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The default tip product is missing. Please manually specify the tip product. "
 "(See Tips field.)"
 msgstr ""
@@ -215663,6 +216591,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -216432,7 +217363,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "元のオーダで使用された会計ポジションがロードされていません。POS設定に追加して、ロードされていることを確認して下さい。"
+=======
+msgstr ""
+"元のオーダで使用された会計ポジションがロードされていません。POS設定に追加し"
+"て、ロードされていることを確認して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "元のオーダで使用された会計ポジションがロードされていません。POS設定に追加し"
@@ -217946,7 +218883,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ハードウェアプロキシのホスト名またはIPアドレス。空のままにすると自動検出されます。"
+=======
+msgstr ""
+"ハードウェアプロキシのホスト名またはIPアドレス。空のままにすると自動検出され"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ハードウェアプロキシのホスト名またはIPアドレス。空のままにすると自動検出され"
@@ -219458,10 +220401,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The invoice journal must be in the same currency as the Sales Journal or the"
 " company currency if that is not set."
 msgstr "請求書仕訳帳は、販売仕訳帳と同じ通貨であるか、設定されていない場合は会社の通貨である必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -220217,6 +221163,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220984,8 +221933,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The money counted doesn't match what we expected. Want to log the difference"
 " for the books?"
+=======
+"The money counted doesn't match what we expected. Want to log the difference "
+"for the books?"
+>>>>>>> upstream/18.0
 =======
 "The money counted doesn't match what we expected. Want to log the difference "
 "for the books?"
@@ -222268,7 +223222,10 @@ msgstr "不明なエラーのため、注文をサーバーに送信できませ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -222956,6 +223913,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -223174,6 +224132,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223715,6 +224675,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -224327,7 +225290,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "注文は以前に同期されています。注文のバックエンドから請求書を作成してください。"
+=======
+msgstr ""
+"注文は以前に同期されています。注文のバックエンドから請求書を作成してくださ"
+"い。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "注文は以前に同期されています。注文のバックエンドから請求書を作成してくださ"
@@ -225859,11 +226828,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "selected category trees. If no category is specified, all available products"
 " will be shown"
 msgstr ""
 "POSには、選択したカテゴリツリーの1つに含まれる製品のみが表示されます。カテゴリが指定されていない場合、利用可能なすべての製品が表示されます"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -226619,6 +227591,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -227389,10 +228364,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The pricelist used if no customer is selected or if the customer has no Sale"
 " Pricelist configured if any."
 msgstr "顧客が選択されていない場合、または顧客に販売価格表が設定されていない場合に使用される価格表。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228148,6 +229126,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -228928,7 +229909,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "返金要求数量がオーダ数量より多いです。%sがリクエストされましたが、返金できるのは %sだけです。"
+=======
+msgstr ""
+"返金要求数量がオーダ数量より多いです。%sがリクエストされましたが、返金できる"
+"のは %sだけです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "返金要求数量がオーダ数量より多いです。%sがリクエストされましたが、返金できる"
@@ -230440,6 +231427,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The requested quantity to be refunded is higher than the refundable "
 "quantity."
 =======
@@ -230578,6 +231566,8 @@ msgstr "返金要求数量が返金可能数量より多いです。"
 
 #. module: point_of_sale
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -231206,6 +232196,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -231897,7 +232890,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "セッションは他のユーザによって既に終了されています。その間に完了した全ての売上はレスキューセッションに保存され、いつでも確認し、POSダッシュボードから会計に計上することができます。"
+=======
+"セッションは他のユーザによって既に終了されています。その間に完了した全ての売"
+"上はレスキューセッションに保存され、いつでも確認し、POSダッシュボードから会計"
+"に計上することができます。"
+>>>>>>> upstream/18.0
 =======
 "セッションは他のユーザによって既に終了されています。その間に完了した全ての売"
 "上はレスキューセッションに保存され、いつでも確認し、POSダッシュボードから会計"
@@ -233415,9 +234414,15 @@ msgstr "セッションは異常に長い間開かれました。閉鎖をご検
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The session is being closed by another user. The page will be reloaded."
 msgstr "セッションが他のユーザによって終了されています。ページが再読み込みされます。"
+=======
+msgid "The session is being closed by another user. The page will be reloaded."
+msgstr ""
+"セッションが他のユーザによって終了されています。ページが再読み込みされます。"
+>>>>>>> upstream/18.0
 =======
 msgid "The session is being closed by another user. The page will be reloaded."
 msgstr ""
@@ -234680,6 +235685,7 @@ msgstr ""
 msgid ""
 "The transactions are processed by Adyen. Set your Adyen credentials on the "
 "related payment method."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236431,6 +237437,11 @@ msgstr ""
 "取引はAdyenによって処理されます。関連する支払い方法でAdyenの認証情報を設定し"
 "ます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"取引はAdyenによって処理されます。関連する支払い方法でAdyenの認証情報を設定し"
+"ます。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
@@ -236693,7 +237704,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取引はMercado Pagoによって処理されます。関連する支払方法にMercado Pagoの認証情報を設定して下さい。"
+=======
+msgstr ""
+"取引はMercado Pagoによって処理されます。関連する支払方法にMercado Pagoの認証"
+"情報を設定して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "取引はMercado Pagoによって処理されます。関連する支払方法にMercado Pagoの認証"
@@ -238207,7 +239224,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取引はPayTMによって処理されます。関連する支払い方法にPayTMの認証情報を設定して下さい。"
+=======
+msgstr ""
+"取引はPayTMによって処理されます。関連する支払い方法にPayTMの認証情報を設定し"
+"て下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "取引はPayTMによって処理されます。関連する支払い方法にPayTMの認証情報を設定し"
@@ -239719,10 +240742,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The transactions are processed by Razorpay. Set your Razorpay credentials on"
 " the related payment method."
 msgstr "取引は Razorpay によって処理されます。関連する支払方法にRazorpayの認証情報を設定して下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -240478,6 +241504,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -240984,6 +242013,7 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_six
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242386,6 +243416,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The transactions are processed by Six. Set the IP address of the terminal on "
 "the related payment method."
 msgstr ""
@@ -242426,6 +243458,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -242502,6 +243537,7 @@ msgstr ""
 #: model:ir.model.fields,help:point_of_sale.field_res_config_settings__module_pos_stripe
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243257,6 +244293,8 @@ msgstr "取引はStripeによって処理されます。関連する支払方法
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The transactions are processed by Stripe. Set your Stripe credentials on the "
 "related payment method."
 msgstr ""
@@ -243512,6 +244550,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -244292,10 +245333,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There are still orders in draft state in the session. Pay or cancel the following orders to validate the session:\n"
 "%s"
 msgstr "セッションにはまだドラフト状態の注文があります。セッションを検証するには、次の注文を支払うかキャンセルします:%s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -245052,6 +246096,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -245811,7 +246858,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "計上する金額とオーダ金額に差異があるのは、おそらく税金か会計設定の変更が原因です。"
+=======
+msgstr ""
+"計上する金額とオーダ金額に差異があるのは、おそらく税金か会計設定の変更が原因"
+"です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "計上する金額とオーダ金額に差異があるのは、おそらく税金か会計設定の変更が原因"
@@ -247331,7 +248384,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "会社に構成された勘定科目表はありません。請求書の設定に移動して、勘定科目表をインストールしてください。"
+=======
+msgstr ""
+"会社に構成された勘定科目表はありません。請求書の設定に移動して、勘定科目表を"
+"インストールしてください。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "会社に構成された勘定科目表はありません。請求書の設定に移動して、勘定科目表を"
@@ -248843,12 +249902,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "There is no cash payment method available in this point of sale to handle the change.\n"
 "\n"
 " Please pay the exact amount or add a cash payment method in the point of sale configuration"
 msgstr ""
 "このPOSでは、変更を処理するために利用できる現金支払い方法はありません。正確な金額を支払うか、POS構成で現金支払い方法を追加してください"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -249607,6 +250669,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -250378,7 +251443,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "選択したプロダクトにシリアル/ロット番号がなく、POSアプリから作成できません。"
+=======
+msgstr ""
+"選択したプロダクトにシリアル/ロット番号がなく、POSアプリから作成できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "選択したプロダクトにシリアル/ロット番号がなく、POSアプリから作成できません。"
@@ -251641,7 +252711,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "検証・請求前に、オーダに少なくとも1つのプロダクトが含まれている必要があります。"
+=======
+msgstr ""
+"検証・請求前に、オーダに少なくとも1つのプロダクトが含まれている必要がありま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "検証・請求前に、オーダに少なくとも1つのプロダクトが含まれている必要がありま"
@@ -253170,6 +254246,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This field depicts the maximum difference allowed between the ending balance"
 " and the theoretical cash when closing a session, for non-POS managers. If "
 "this maximum is reached, the user will have an error message at the closing "
@@ -253177,6 +254254,8 @@ msgid ""
 msgstr ""
 "このフィールドは、非POSマネージャーの場合、セッションを閉じるときに終了残高と理論上の現金の間に許容される最大差を示します。この最大値に達すると、ユーザーはセッションの終了時にマネージャーに連絡する必要があることを示すエラーメッセージを表示します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -253936,6 +255015,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -254694,7 +255776,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このフィールドは、POSマネージャーグループのIDをPOSクライアントに渡すためにあります。"
+=======
+msgstr ""
+"このフィールドは、POSマネージャーグループのIDをPOSクライアントに渡すためにあ"
+"ります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このフィールドは、POSマネージャーグループのIDをPOSクライアントに渡すためにあ"
@@ -256207,7 +257295,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このフィールドは、POSユーザーグループのIDをPOSクライアントに渡すためにあります。"
+=======
+msgstr ""
+"このフィールドは、POSユーザーグループのIDをPOSクライアントに渡すためにありま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このフィールドは、POSユーザーグループのIDをPOSクライアントに渡すためにありま"
@@ -257671,6 +258765,7 @@ msgstr "この請求書はPOSセッションから作成されました: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__fiscal_position_ids
 msgid ""
 <<<<<<< HEAD
@@ -257829,6 +258924,8 @@ msgstr "これは、特定の税率を暗示するオンサイトおよびテイ
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -258437,6 +259534,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -259091,6 +260191,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -259858,8 +260961,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "この仕訳帳は、支払方法%(payment_method)s "
 "(オーダ%(pos_order)sで使用されている、有効化されたposセッション%(pos_session)s内)に関連付けられています。"
+=======
+"この仕訳帳は、支払方法%(payment_method)s (オーダ%(pos_order)sで使用されてい"
+"る、有効化されたposセッション%(pos_session)s内)に関連付けられています。"
+>>>>>>> upstream/18.0
 =======
 "この仕訳帳は、支払方法%(payment_method)s (オーダ%(pos_order)sで使用されてい"
 "る、有効化されたposセッション%(pos_session)s内)に関連付けられています。"
@@ -261122,12 +262230,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                } orders in the browser. You will lose all the data. This operation cannot be undone."
 msgstr ""
 "この操作はブラウザで全ての ${\n"
 "                    支払済 ? \"支払済\" : \"未払\"\n"
 "                } オーダを破棄します。全てのデータが失われます。この操作は取消すことはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -261885,6 +262996,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -262394,6 +263508,7 @@ msgid ""
 "This order already has refund lines for %s. We can't change the customer "
 "associated to it. Create a new order for the new customer."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263724,6 +264839,8 @@ msgstr "このオーダはすでに支払いが完了しています。ドラフ
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "このオーダにはすでに%sの返金行があります。このオーダに関連する顧客を変更する"
 "ことはできません。新しい顧客のために新しいオーダを作成して下さい。"
 
@@ -263987,6 +265104,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -264744,7 +265864,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このオーダはまだサーバに同期されていません。同期されていることを確認してから、もう一度試して下さい。"
+=======
+msgstr ""
+"このオーダはまだサーバに同期されていません。同期されていることを確認してか"
+"ら、もう一度試して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このオーダはまだサーバに同期されていません。同期されていることを確認してか"
@@ -266269,7 +267395,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このシーケンスはOdooによって自動的に作成されますが、注文明細の参照番号をカスタマイズするために変更できます。"
+=======
+msgstr ""
+"このシーケンスはOdooによって自動的に作成されますが、注文明細の参照番号をカス"
+"タマイズするために変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このシーケンスはOdooによって自動的に作成されますが、注文明細の参照番号をカス"
@@ -267783,7 +268915,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このシーケンスはOdooによって自動的に作成されますが、注文の参照番号をカスタマイズするために変更できます。"
+=======
+msgstr ""
+"このシーケンスはOdooによって自動的に作成されますが、注文の参照番号をカスタマ"
+"イズするために変更できます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このシーケンスはOdooによって自動的に作成されますが、注文の参照番号をカスタマ"
@@ -269419,7 +270557,11 @@ msgid "To Weigh With Scale"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "はかりで計量"
+=======
+msgstr "スケールで計量"
+>>>>>>> upstream/18.0
 =======
 msgstr "スケールで計量"
 >>>>>>> upstream/18.0
@@ -270551,12 +271693,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deleting a product available in a session would be like attempting to snatch a hamburger from a customer’s hand mid-bite; chaos will ensue as ketchup and mayo go flying everywhere!"
 msgstr ""
 "プロダクトを削除するには、全てのPOSセッションが終了していることを確認して下さい。\n"
 "\n"
 "セッションで利用可能なプロダクトを削除することは、ハンバーガーを食べている途中の客の手からハンバーガーを奪い取ろうとするようなものです!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -271316,6 +272461,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -271824,6 +272972,7 @@ msgstr ""
 msgid ""
 "To ensure due balance follow-up, generate an invoice or download the "
 "accounting application. "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273331,6 +274480,11 @@ msgstr ""
 "支払残高を確実にフォローアップするために、顧客請求書を作成するか、会計アプリ"
 "ケーションをダウンロードして下さい。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"支払残高を確実にフォローアップするために、顧客請求書を作成するか、会計アプリ"
+"ケーションをダウンロードして下さい。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__to_invoice
@@ -273536,6 +274690,10 @@ msgstr "製品を返品するには、POS%sでセッションを開く必要が�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_session_sales_details
 >>>>>>> upstream/18.0
@@ -274380,6 +275538,7 @@ msgid "Total Cost:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "総コスト:"
 =======
 msgstr "総原価:"
@@ -274389,6 +275548,9 @@ msgstr "総原価:"
 >>>>>>> upstream/18.0
 =======
 msgstr "総原価:"
+>>>>>>> upstream/18.0
+=======
+msgstr "原価合計:"
 >>>>>>> upstream/18.0
 =======
 msgstr "原価合計:"
@@ -275622,6 +276784,7 @@ msgid "Total cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "総コスト:"
 =======
 msgstr "総原価:"
@@ -276523,6 +277686,9 @@ msgstr "原価合計"
 =======
 msgstr "原価合計"
 >>>>>>> upstream/18.0
+=======
+msgstr "原価合計"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_order_line
@@ -276554,6 +277720,7 @@ msgstr "オーダ編集を追跡"
 msgid ""
 "Trainers in cotton canvas with a padded top edge, tongue and lacing at the "
 "front."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278061,10 +279228,16 @@ msgstr ""
 "コットン・キャンバスのトレーナー。パッド入りのトップエッジ、タン、フロントの"
 "紐が特徴。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"コットン・キャンバスのトレーナー。パッド入りのトップエッジ、タン、フロントの"
+"紐が特徴。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__cash_real_transaction
 msgid "Transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278782,6 +279955,9 @@ msgstr "取引"
 =======
 msgstr "取引"
 >>>>>>> upstream/18.0
+=======
+msgstr "取引"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -278842,7 +280018,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "記録上の例外活動の種類。"
+=======
+msgstr "レコード上の例外の活動タイプ。"
+>>>>>>> upstream/18.0
 =======
 msgstr "レコード上の例外の活動タイプ。"
 >>>>>>> upstream/18.0
@@ -279165,10 +280345,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please set corresponding tax account in each repartition line of the following taxes: \n"
 "%s"
 msgstr "セッションを閉じて検証できません。次の税金の各再分割行に対応する税勘定を設定してください:%s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -279925,6 +281108,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -280690,7 +281876,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セッションが開いている間は%sを変更できないため、このPoS構成を変更できません。"
+=======
+msgstr ""
+"セッションが開いている間は%sを変更できないため、このPoS構成を変更できません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "セッションが開いている間は%sを変更できないため、このPoS構成を変更できません。"
@@ -282054,7 +283245,11 @@ msgid "UoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "測定単位"
+=======
+msgstr "単位"
+>>>>>>> upstream/18.0
 =======
 msgstr "単位"
 >>>>>>> upstream/18.0
@@ -283139,7 +284334,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクトのピッキングを記録するために使用します。プロダクトは、デフォルトのソースロケーションから消費されます。"
+=======
+msgstr ""
+"プロダクトのピッキングを記録するために使用します。プロダクトは、デフォルトの"
+"ソースロケーションから消費されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクトのピッキングを記録するために使用します。プロダクトは、デフォルトの"
@@ -284687,7 +285888,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "調節可能なドローストリング付きフード、フロントジッパー開閉の多用途コットンパーカー。"
+=======
+msgstr ""
+"調節可能なドローストリング付きフード、フロントジッパー開閉の多用途コットン"
+"パーカー。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "調節可能なドローストリング付きフード、フロントジッパー開閉の多用途コットン"
@@ -286203,7 +287410,13 @@ msgid "Vintage jean jacket, a timeless piece for any casual outfit."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ヴィンテージのジーンズジャケット。どんなカジュアルなスタイルにも合う、タイムレスなアイテム。"
+=======
+msgstr ""
+"ヴィンテージのジーンズジャケット。どんなカジュアルなスタイルにも合う、タイム"
+"レスなアイテム。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ヴィンテージのジーンズジャケット。どんなカジュアルなスタイルにも合う、タイム"
@@ -287713,7 +288926,10 @@ msgstr "警告: 支払金額の合計が総額よりも高いです。(違い: %
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -288317,6 +289533,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -288972,7 +290191,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "警告 お使いのブラウザは IndexedDB をサポートしていません。データは保存されません。最新のブラウザをご利用下さい。"
+=======
+msgstr ""
+"警告 お使いのブラウザは IndexedDB をサポートしていません。データは保存されま"
+"せん。最新のブラウザをご利用下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "警告 お使いのブラウザは IndexedDB をサポートしていません。データは保存されま"
@@ -290515,7 +291740,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化されている場合、プロダクト画面の注文カートでは、オーダ明細はプロダクトカテゴリと順序に基づいてソートされます。"
+=======
+msgstr ""
+"有効化されている場合、プロダクト画面の注文カートでは、オーダ明細はプロダクト"
+"カテゴリと順序に基づいてソートされます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "有効化されている場合、プロダクト画面の注文カートでは、オーダ明細はプロダクト"
@@ -292034,7 +293265,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "無効の場合、POSマネジャーだけがプロダクト情報の中からプロダクトのマージンと原価を見ることができます。"
+=======
+msgstr ""
+"無効の場合、POSマネジャーだけがプロダクト情報の中からプロダクトのマージンと原"
+"価を見ることができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "無効の場合、POSマネジャーだけがプロダクト情報の中からプロダクトのマージンと原"
@@ -293546,11 +294783,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "accounting journal for all the orders not invoiced. Invoices are recorded in"
 " accounting separately."
 msgstr ""
 "セッションを閉じるたびに、請求されていないすべての注文について、次の会計仕訳帳に1つのエントリが生成されます。請求書は個別に会計に記録されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -294306,6 +295546,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -294874,6 +296117,7 @@ msgstr "とともに"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -294894,6 +296138,8 @@ msgstr "XL"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -295004,6 +296250,9 @@ msgstr "X"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -295342,7 +296591,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "現在オフラインです。ページを再読み込みすると、未保存のデータが失われる可能性があります。"
+=======
+msgstr ""
+"現在オフラインです。ページを再読み込みすると、未保存のデータが失われる可能性"
+"があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "現在オフラインです。ページを再読み込みすると、未保存のデータが失われる可能性"
@@ -296856,7 +298111,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "それを使用するPOSセッションがすでに開かれている間は、現金丸め構成を変更する権限がありません。"
+=======
+msgstr ""
+"それを使用するPOSセッションがすでに開かれている間は、現金丸め構成を変更する権"
+"限がありません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "それを使用するPOSセッションがすでに開かれている間は、現金丸め構成を変更する権"
@@ -298374,11 +299635,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are trying to sell products with serial/lot numbers, but some of them are not set.\n"
 "Would you like to proceed anyway?"
 msgstr ""
 "シリアル番号やロット番号が設定されているプロダクトを販売しようとしていますが、設定されていないものがあります。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -299135,6 +300399,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -299895,7 +301162,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セッションを取消できるのは、開始コントロールステータスかつオーダがないセッションのみです。"
+=======
+msgstr ""
+"セッションを取消できるのは、開始コントロールステータスかつオーダがないセッ"
+"ションのみです。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "セッションを取消できるのは、開始コントロールステータスかつオーダがないセッ"
@@ -301415,7 +302688,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リンク解除できるのは、新規または取消状態のオーダに関連するPOSオーダ明細のみです。"
+=======
+msgstr ""
+"リンク解除できるのは、新規または取消状態のオーダに関連するPOSオーダ明細のみで"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "リンク解除できるのは、新規または取消状態のオーダに関連するPOSオーダ明細のみで"
@@ -302931,8 +304210,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POSオーダが存在しない場合は、バックエンドのインターフェイスからPOSオーダを作成したり、プライスリストを解除したり、フォームツールを使ってPythonテストでpos.orderを作成したり、スタジオでフォームビューを編集したりすることはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -303687,6 +304969,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -304444,10 +305729,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot archive '%(picking_type)s' as it is used by POS configuration "
 "'%(config)s'."
 msgstr "'%(picking_type)s'はPOS設定'%(config)s'で使用されているため、アーカイブすることはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -305203,6 +306491,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -305731,6 +307022,7 @@ msgstr "オーダがドラフト中の場合はPOSをクローズできません
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_session.py:0
 msgid "You cannot create a session starting before: %(lock_date_info)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306558,6 +307850,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "次より前に開始するセッションを作成することはできません: %(lock_date_info)s"
 
@@ -306697,6 +307991,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -306947,6 +308242,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "POSオーダがある顧客は削除できません。代わりにアーカイブできます。"
 >>>>>>> upstream/18.0
 =======
 msgstr "POSオーダがある顧客は削除できません。代わりにアーカイブできます。"
@@ -307665,7 +308963,10 @@ msgstr "セッションが開いている間は、POSカテゴリを削除する
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -308622,6 +309923,9 @@ msgstr "POSの設定で使用されている丸め方法は削除できません
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -309267,6 +310571,7 @@ msgstr "異なる会社に属しているオーダを請求することはでき
 
 #. module: point_of_sale
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -310341,6 +311646,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
 "You cannot share open orders with configuration that does not use the same "
@@ -310596,7 +311903,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "同じ通貨を使用していない設定のオープンオーダを共有することはできません。"
+=======
+msgstr ""
+"同じ通貨を使用していない設定のオープンオーダを共有することはできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "同じ通貨を使用していない設定のオープンオーダを共有することはできません。"
@@ -311865,7 +313177,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POSセッションを開く権限がありません。別のユーザでセッションを開いてみて下さい。"
+=======
+msgstr ""
+"POSセッションを開く権限がありません。別のユーザでセッションを開いてみて下さ"
+"い。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "POSセッションを開く権限がありません。別のユーザでセッションを開いてみて下さ"
@@ -313387,7 +314705,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(payment_method)s支払方法の\"顧客の特定\"オプションを有効にしましたが、オーダ%(order)sに顧客が含まれていません。"
+=======
+msgstr ""
+"%(payment_method)s支払方法の\"顧客の特定\"オプションを有効にしましたが、オー"
+"ダ%(order)sに顧客が含まれていません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%(payment_method)s支払方法の\"顧客の特定\"オプションを有効にしましたが、オー"
@@ -314900,7 +316224,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "POSインターフェースを介して販売するすべての製品を定義する必要があります。"
+=======
+msgstr ""
+"POSインターフェースを介して販売するすべての製品を定義する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "POSインターフェースを介して販売するすべての製品を定義する必要があります。"
@@ -316180,7 +317509,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "セッションを開始するには、少なくとも1つの支払い方法を構成する必要があります。"
+=======
+msgstr ""
+"セッションを開始するには、少なくとも1つの支払い方法を構成する必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "セッションを開始するには、少なくとも1つの支払い方法を構成する必要があります。"
@@ -317443,6 +318777,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この支払方法でQRコードを生成するには、QRコード方法を選択する必要があります。"
 =======
 msgstr ""
@@ -318448,11 +319783,16 @@ msgstr ""
 msgstr ""
 "この支払方法でQRコードを生成するには、QRコード方法を選択する必要があります。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"この支払方法でQRコードを生成するには、QRコード方法を選択する必要があります。"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_config.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319209,6 +320549,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You must set the iot box's IP address to use an IoT-connected screen. You'll "
 "find the field under the 'IoT Box' option."
 msgstr ""
@@ -319464,6 +320806,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -320228,7 +321573,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "請求書を発行したり、オーダを発送したりする前に、顧客を選択する必要があります。"
+=======
+msgstr ""
+"請求書を発行したり、オーダを発送したりする前に、顧客を選択する必要がありま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "請求書を発行したり、オーダを発送したりする前に、顧客を選択する必要がありま"
@@ -321748,7 +323099,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "PoSセッションは%(date)s以降開いています。閉じて、新しいセッションを作成することをお勧めします。"
+=======
+msgstr ""
+"PoSセッションは%(date)s以降開いています。閉じて、新しいセッションを作成するこ"
+"とをお勧めします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "PoSセッションは%(date)s以降開いています。閉じて、新しいセッションを作成するこ"
@@ -323054,7 +324411,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -323174,6 +324534,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -323272,6 +324635,7 @@ msgstr "Eメールで"
 #. odoo-javascript
 #: code:addons/point_of_sale/static/src/app/generic_components/orderline/orderline.xml:0
 msgid "discount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324635,6 +325999,9 @@ msgstr "割引"
 =======
 msgstr "割引"
 >>>>>>> upstream/18.0
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_form
@@ -324662,6 +326029,7 @@ msgid "e.g. Soft Drinks"
 msgstr "例:ソフトドリンク"
 
 #. module: point_of_sale
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325595,6 +326963,8 @@ msgstr "例: john.doe@mail.com"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 #: model_terms:ir.ui.view,arch_db:point_of_sale.res_config_settings_view_form
 msgid "ePos Printer"
@@ -325707,6 +327077,7 @@ msgstr "qx9h1"
 #. odoo-python
 #: code:addons/point_of_sale/models/pos_order.py:0
 msgid "return"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -326480,6 +327851,9 @@ msgstr "返品"
 =======
 msgstr "返品"
 >>>>>>> upstream/18.0
+=======
+msgstr "返品"
+>>>>>>> upstream/18.0
 
 #. module: point_of_sale
 #. odoo-javascript
@@ -326502,6 +327876,7 @@ msgstr "ボタンを有効化します。"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.report_invoice_document
 msgid "using"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -328061,6 +329436,8 @@ msgstr "支払方法:"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "支払方法:"
 
 #. module: point_of_sale
@@ -328086,7 +329463,11 @@ msgid "x"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "x"
+>>>>>>> upstream/18.0
 =======
 msgstr "x"
 >>>>>>> upstream/18.0
@@ -328251,6 +329632,9 @@ msgstr "x"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -328383,6 +329767,9 @@ msgstr "x"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
