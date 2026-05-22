@@ -10,6 +10,7 @@ export class InputPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["history"];
     setup() {
         this.addDomListener(this.editable, "beforeinput", this.onBeforeInput);
@@ -877,6 +878,8 @@ export class InputPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     static dependencies = ["history", "selection"];
     setup() {
         this.addDomListener(this.editable, "beforeinput", this.onBeforeInput);
@@ -918,6 +921,9 @@ export class InputPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -938,6 +944,7 @@ export class InputPlugin extends Plugin {
             ev.preventDefault();
             return;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1792,6 +1799,11 @@ export class InputPlugin extends Plugin {
 >>>>>>> upstream/18.0
         this.dependencies.history.stageSelection();
         this.dispatchTo("beforeinput_handlers", ev);
+=======
+        this.dependencies.history.stageSelection();
+        this.dispatchTo("beforeinput_handlers", ev);
+        this.dependencies.selection.setCachedSelection(null);
+>>>>>>> upstream/18.0
 =======
         this.dependencies.history.stageSelection();
         this.dispatchTo("beforeinput_handlers", ev);

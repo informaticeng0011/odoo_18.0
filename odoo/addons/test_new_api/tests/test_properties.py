@@ -1910,7 +1910,10 @@ class PropertiesCase(TestPropertiesMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2688,6 +2691,9 @@ class PropertiesCase(TestPropertiesMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3483,6 +3489,10 @@ class PropertiesCase(TestPropertiesMixin):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        email.invalidate_recordset()
+>>>>>>> upstream/18.0
 =======
         email.invalidate_recordset()
 >>>>>>> upstream/18.0

@@ -377,7 +377,11 @@ class ir_cron(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     interval_number = fields.Integer(default=1, help="Repeat every x.", required=True)
+=======
+    interval_number = fields.Integer(default=1, aggregator=None, help="Repeat every x.", required=True)
+>>>>>>> upstream/18.0
 =======
     interval_number = fields.Integer(default=1, aggregator=None, help="Repeat every x.", required=True)
 >>>>>>> upstream/18.0
@@ -1609,7 +1613,11 @@ class ir_cron(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     priority = fields.Integer(default=5, help='The priority of the job, as an integer: 0 means higher priority, 10 means lower priority.')
+=======
+    priority = fields.Integer(default=5, aggregator=None, help='The priority of the job, as an integer: 0 means higher priority, 10 means lower priority.')
+>>>>>>> upstream/18.0
 =======
     priority = fields.Integer(default=5, aggregator=None, help='The priority of the job, as an integer: 0 means higher priority, 10 means lower priority.')
 >>>>>>> upstream/18.0
@@ -2827,7 +2835,11 @@ class ir_cron(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     registry = Registry(db_name)
+=======
+                    registry = Registry(db_name).check_signaling()
+>>>>>>> upstream/18.0
 =======
                     registry = Registry(db_name).check_signaling()
 >>>>>>> upstream/18.0

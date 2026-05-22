@@ -225,10 +225,15 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(order_line.pricelist_item_id, pricelist_rule)
             self.assertEqual(
                 order_line.price_unit,
                 self.product.lst_price)
+=======
+            self.assertAlmostEqual(order_line.pricelist_item_id, pricelist_rule)
+            self.assertAlmostEqual(order_line.price_unit, self.product.lst_price)
+>>>>>>> upstream/18.0
 =======
             self.assertAlmostEqual(order_line.pricelist_item_id, pricelist_rule)
             self.assertAlmostEqual(order_line.price_unit, self.product.lst_price)
@@ -1184,7 +1189,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1847,9 +1855,15 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.assertEqual(line_form.price_unit, 0.83)
                 line_form.product_uom_qty = 1000
                 self.assertEqual(line_form.price_unit, 0.55)
+=======
+                self.assertAlmostEqual(line_form.price_unit, 0.825)
+                line_form.product_uom_qty = 1000
+                self.assertAlmostEqual(line_form.price_unit, 0.55)
+>>>>>>> upstream/18.0
 =======
                 self.assertAlmostEqual(line_form.price_unit, 0.825)
                 line_form.product_uom_qty = 1000
@@ -2703,6 +2717,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3978,7 +3995,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4816,6 +4836,9 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5853,7 +5876,10 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6650,6 +6676,7 @@ class TestSalePrices(SaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7152,6 +7179,8 @@ class TestSalePrices(SaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_combo_product_zero_base_price_distributes_evenly(self):
         """When every combo's base price is 0, the combo product's price must be split evenly
@@ -7191,4 +7220,71 @@ class TestSalePrices(SaleCommon):
             "Combo price must be split evenly when all combos have zero base price",
         )
         self.assertEqual(order.amount_untaxed, 100.0)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+
+    def test_combo_product_extra_price_currency(self):
+        """Ensure that the extra price for combo products and their no_variant attribute is
+        correctly converted according to the sale order pricelist's currency."""
+        no_variant_attribute = self.env['product.attribute'].create({
+            'name': 'Test No Variant Attribute',
+            'create_variant': 'no_variant',
+            'value_ids': [
+                Command.create({'name': 'A'}),
+            ],
+        })
+        product_template = self.env['product.template'].create({
+            'name': 'Test Product Template with no_variant attribute',
+            'categ_id': self.product_category.id,
+            'attribute_line_ids': [
+                Command.create({
+                    'attribute_id': no_variant_attribute.id,
+                    'value_ids': [Command.set(no_variant_attribute.value_ids.ids)],
+                }),
+            ],
+            'taxes_id': False,
+        })
+        ptav = product_template.attribute_line_ids.product_template_value_ids
+        ptav.price_extra = 10.0
+        combo = self.env['product.combo'].create([{
+            'name': "Test Combo",
+            'combo_item_ids': [
+                Command.create(
+                    {'product_id': product_template.product_variant_id.id, 'extra_price': 50}
+                )
+            ],
+        }])
+        combo_product_template = self.env['product.template'].create({
+            'name': "Test Combo Product Template",
+            'list_price': 100.0,
+            'type': 'combo',
+            'combo_ids': [Command.set(combo.ids)],
+            'categ_id': self.product_category.id,
+            'taxes_id': False,
+        })
+
+        order = self.empty_order
+        combo_line = self.env['sale.order.line'].create({
+            'order_id': order.id,
+            'product_id': combo_product_template.product_variant_id.id,
+        })
+        self.env['sale.order.line'].create([{
+            'order_id': order.id,
+            'product_id': product_template.product_variant_id.id,
+            'product_no_variant_attribute_value_ids': [Command.link(ptav.id)],
+            'combo_item_id': combo.combo_item_ids.id,
+            'linked_line_id': combo_line.id,
+        }])
+
+        self.assertAlmostEqual(order.amount_total, (100 + 50 + 10), 2)
+
+        eur_curr = self._enable_currency('EUR')
+        eur_pricelist = self.env['product.pricelist'].create({
+            'name': 'EUR Pricelist',
+            'currency_id': eur_curr.id,
+        })
+        order.pricelist_id = eur_pricelist
+        order.action_update_prices()
+        self.assertAlmostEqual(order.amount_total, (100 + 50 + 10) * eur_curr.rate, 2)
 >>>>>>> upstream/18.0

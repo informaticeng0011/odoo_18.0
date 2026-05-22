@@ -243,7 +243,11 @@ from odoo import api, fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import ValidationError, AccessError
+=======
+from odoo.exceptions import ValidationError, AccessError, RedirectWarning
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError, AccessError, RedirectWarning
 >>>>>>> upstream/18.0
@@ -1046,6 +1050,10 @@ class HrEmployeePrivate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -1540,7 +1548,10 @@ class HrEmployeePrivate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2134,6 +2145,9 @@ class HrEmployeePrivate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2809,10 +2823,13 @@ class HrEmployeePrivate(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         res = self.env['hr.employee.public'].get_views(views, options)
         res['models'].update({'hr.employee': res['models']['hr.employee.public']})
         return res
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3516,6 +3533,9 @@ We can redirect you to the public employee list."""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4182,6 +4202,7 @@ We can redirect you to the public employee list."""
             employee_fields_to_empty = self._get_employee_m2o_to_empty_on_archived_employees()
             user_fields_to_empty = self._get_user_m2o_to_empty_on_archived_employees()
             employee_domain = [[(field, 'in', archived_employees.ids)] for field in employee_fields_to_empty]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5191,6 +5212,9 @@ We can redirect you to the public employee list."""
 =======
             user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
 >>>>>>> upstream/18.0
+=======
+            user_domain = [[(field, 'in', archived_employees.user_id.ids)] for field in user_fields_to_empty]
+>>>>>>> upstream/18.0
             employees = self.env['hr.employee'].search(expression.OR(employee_domain + user_domain))
             for employee in employees:
                 for field in employee_fields_to_empty:
@@ -5337,7 +5361,10 @@ We can redirect you to the public employee list."""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5493,6 +5520,9 @@ We can redirect you to the public employee list."""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

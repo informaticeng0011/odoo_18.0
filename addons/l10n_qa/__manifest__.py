@@ -173,6 +173,10 @@ Activates:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'auto_install': ['account'],
+>>>>>>> upstream/18.0
 =======
     'auto_install': ['account'],
 >>>>>>> upstream/18.0

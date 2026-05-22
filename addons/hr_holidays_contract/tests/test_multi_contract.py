@@ -537,7 +537,11 @@ class TestHolidaysMultiContract(TestHolidayContract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'requires_allocation': 'yes',
+=======
+            'requires_allocation': 'no',
+>>>>>>> upstream/18.0
 =======
             'requires_allocation': 'no',
 >>>>>>> upstream/18.0
@@ -1452,7 +1456,10 @@ class TestHolidaysMultiContract(TestHolidayContract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1930,6 +1937,7 @@ class TestHolidaysMultiContract(TestHolidayContract):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2198,6 +2206,8 @@ class TestHolidaysMultiContract(TestHolidayContract):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     @freeze_time('2024-06-12 10:00:00')
     def test_compute_leave_status_fully_flexible_contract(self):
@@ -2224,4 +2234,7 @@ class TestHolidaysMultiContract(TestHolidayContract):
             'is_absent': True,
             'current_leave_state': 'validate',
         }])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

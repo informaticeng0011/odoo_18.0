@@ -517,6 +517,7 @@ export function makeActionManager(env, router = _router) {
                 }
             }
         } else if (state.model) {
+<<<<<<< HEAD
             if (state.resId || state.view_type === "form") {
                 actionRequest = {
                     res_model: state.model,
@@ -529,15 +530,46 @@ export function makeActionManager(env, router = _router) {
                 // the session storage
                 const storedAction = browser.sessionStorage.getItem("current_action");
                 const lastAction = JSON.parse(storedAction || "{}");
+=======
+            const storedAction = browser.sessionStorage.getItem("current_action");
+            const lastAction = JSON.parse(storedAction || "{}");
+            if (lastAction.context) {
+                // If this method is called because of a company switch, the
+                // stored allowed_company_ids is incorrect.
+                delete lastAction.context.allowed_company_ids;
+            }
+            if (state.resId || state.view_type === "form") {
+                if (lastAction.res_model === state.model) {
+                    actionRequest = lastAction;
+                    options.props = { resId: state.resId === "new" ? undefined : state.resId };
+                    if (state.view_id) {
+                        actionRequest.views = [[state.view_id, "form"]];
+                    }
+                    options.viewType = "form";
+                } else {
+                    actionRequest = {
+                        res_model: state.model,
+                        res_id: state.resId === "new" ? undefined : state.resId,
+                        type: "ir.actions.act_window",
+                        views: [[state.view_id ? state.view_id : false, "form"]],
+                    };
+                }
+            } else {
+                // This is a window action on a multi-record view => restores it from
+                // the session storage
+>>>>>>> upstream/18.0
                 if (lastAction.help) {
                     lastAction.help = markup(lastAction.help);
                 }
                 if (lastAction.res_model === state.model) {
+<<<<<<< HEAD
                     if (lastAction.context) {
                         // If this method is called because of a company switch, the
                         // stored allowed_company_ids is incorrect.
                         delete lastAction.context.allowed_company_ids;
                     }
+=======
+>>>>>>> upstream/18.0
                     actionRequest = lastAction;
                     options.viewType = state.view_type;
                 }
@@ -1379,9 +1411,12 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (action.target === "download" || action.target === "self") {
             browser.location.assign(url);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2190,6 +2225,9 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3044,7 +3082,10 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3456,6 +3497,9 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

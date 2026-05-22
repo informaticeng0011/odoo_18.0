@@ -25,11 +25,14 @@ class ProjectTask(models.Model):
             if task.partner_id:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if task.partner_id.mobile or not task.partner_id.phone:
                     task.partner_id.mobile = task.partner_phone
                 else:
                     task.partner_id.phone = task.partner_phone
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 partner = task.partner_id.sudo()
@@ -38,6 +41,9 @@ class ProjectTask(models.Model):
                 else:
                     partner.phone = task.partner_phone
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

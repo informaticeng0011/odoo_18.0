@@ -342,7 +342,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_date': date(2022, 1, 1),
+=======
+            'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
             'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -1565,7 +1569,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2333,6 +2340,9 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3098,7 +3108,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3868,6 +3881,9 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4696,7 +4712,11 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'invoice_date': date(2022, 1, 1),
+=======
+                'invoice_date': date(2025, 1, 1),
+>>>>>>> upstream/18.0
 =======
                 'invoice_date': date(2025, 1, 1),
 >>>>>>> upstream/18.0
@@ -6055,7 +6075,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <OperacionEnRecargoDeEquivalenciaORegimenSimplificado>N</OperacionEnRecargoDeEquivalenciaORegimenSimplificado>
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6849,6 +6872,7 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 
     def test_xml_tree_cancel(self):
         post_xml = b"""<TicketBAI>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8130,6 +8154,9 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 =======
 <CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
 >>>>>>> upstream/18.0
+=======
+<CabeceraFactura><FechaExpedicionFactura>01-01-2025</FechaExpedicionFactura></CabeceraFactura>
+>>>>>>> upstream/18.0
 <ds:SignatureValue xmlns:ds="http://www.w3.org/2000/09/xmldsig#">TEXT</ds:SignatureValue>
 </TicketBAI>"""  # hack to set out_invoice's registration date
         post_edi_document = self.out_invoice._l10n_es_tbai_create_edi_document()
@@ -8310,7 +8337,10 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8807,6 +8837,9 @@ class TestEdiTbaiXmls(TestEsEdiTbaiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

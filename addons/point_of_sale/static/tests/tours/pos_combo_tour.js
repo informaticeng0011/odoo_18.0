@@ -162,6 +162,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/* global posmodel */
+
+>>>>>>> upstream/18.0
 =======
 /* global posmodel */
 
@@ -969,6 +974,10 @@ registry.category("web_tour.tours").add("ProductComboPriceTaxIncludedTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            combo.isNotPresent("Combo Product 1 (archived)"),
+>>>>>>> upstream/18.0
 =======
             combo.isNotPresent("Combo Product 1 (archived)"),
 >>>>>>> upstream/18.0
@@ -1511,6 +1520,7 @@ registry.category("web_tour.tours").add("ProductComboPriceTaxIncludedTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             {
                 content: "Check that Combo Product 10 (White) archived variant is disabled",
                 trigger: `.ptav-not-available article.product .product-content .product-name:contains("Combo Product 10 (White)")`,
@@ -1522,6 +1532,11 @@ registry.category("web_tour.tours").add("ProductComboPriceTaxIncludedTour", {
             // Check archived variant Selection
             combo.select("Combo Product 10 (White)"),
             combo.isConfirmationButtonDisabled(),
+=======
+            combo.select("Combo Product 5"),
+            combo.select("Combo Product 7"),
+            combo.isSelected("Combo Product 7"),
+>>>>>>> upstream/18.0
 =======
             combo.select("Combo Product 5"),
             combo.select("Combo Product 7"),
@@ -2627,7 +2642,10 @@ registry.category("web_tour.tours").add("ProductComboChangeFP", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3615,6 +3633,7 @@ registry.category("web_tour.tours").add("ProductComboChangePricelist", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3929,6 +3948,8 @@ registry.category("web_tour.tours").add("ProductComboChangePricelist", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4497,6 +4518,7 @@ registry.category("web_tour.tours").add("test_combo_disallowLineQuantityChange_2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4525,6 +4547,8 @@ registry.category("web_tour.tours").add("test_combo_disallowLineQuantityChange_2
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4997,6 +5021,7 @@ registry.category("web_tour.tours").add("test_combo_item_image_not_display", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5137,6 +5162,8 @@ registry.category("web_tour.tours").add("test_combo_item_image_not_display", {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5397,6 +5424,9 @@ registry.category("web_tour.tours").add("test_combo_price_unchanged_with_lot_tra
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -11,11 +11,19 @@ from collections import OrderedDict
 
 from werkzeug.exceptions import InternalServerError
 
+<<<<<<< HEAD
 from odoo import http
 from odoo.exceptions import UserError
 from odoo.http import content_disposition, request
 from odoo.tools import lazy_property, osutil
 from odoo.tools.misc import xlsxwriter
+=======
+from odoo import http, models
+from odoo.exceptions import UserError
+from odoo.http import content_disposition, request
+from odoo.tools import lazy_property, osutil
+from odoo.tools.misc import xlsxwriter, split_every
+>>>>>>> upstream/18.0
 
 
 _logger = logging.getLogger(__name__)
@@ -527,7 +535,11 @@ class ExportXlsxWriter:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 raise UserError(request.env._("Binary fields can not be exported to Excel unless their content is base64-encoded. That does not seem to be the case for %s.", self.field_names)[column]) from None
+=======
+                raise UserError(request.env._("Binary fields can not be exported to Excel unless their content is base64-encoded. That does not seem to be the case for %s.", self.columns_headers[column])) from None
+>>>>>>> upstream/18.0
 =======
                 raise UserError(request.env._("Binary fields can not be exported to Excel unless their content is base64-encoded. That does not seem to be the case for %s.", self.columns_headers[column])) from None
 >>>>>>> upstream/18.0
@@ -1944,7 +1956,11 @@ class ExportFormat(object):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             groupby_type = [Model._fields[x.split(':')[0]].type for x in groupby]
+=======
+            groupby_type = [Model._fields[x.split(':', 1)[0].split('.', 1)[0]].type for x in groupby]
+>>>>>>> upstream/18.0
 =======
             groupby_type = [Model._fields[x.split(':', 1)[0].split('.', 1)[0]].type for x in groupby]
 >>>>>>> upstream/18.0
@@ -2514,8 +2530,18 @@ class ExportFormat(object):
         else:
             records = Model.browse(ids) if ids else Model.search(domain, offset=0, limit=False, order=False)
 
+<<<<<<< HEAD
             export_data = records.export_data(field_names).get('datas', [])
             response_data = self.from_data(fields, columns_headers, export_data)
+=======
+            all_rows = []
+            for batch in split_every(models.PREFETCH_MAX, records.ids, Model.browse):
+                export_data = batch.export_data(field_names).get('datas', [])
+                all_rows.extend(export_data)
+                batch.invalidate_recordset()
+
+            response_data = self.from_data(fields, columns_headers, all_rows)
+>>>>>>> upstream/18.0
 
         _logger.info(
             "User %d exported %d %r records from %s. Fields: %s. %s: %s",

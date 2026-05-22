@@ -51,7 +51,11 @@ import { useService } from '@web/core/utils/hooks';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, useState, useSubEnv } from '@odoo/owl';
+=======
+import { Component, onMounted, onWillUnmount, useState, useSubEnv } from '@odoo/owl';
+>>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillUnmount, useState, useSubEnv } from '@odoo/owl';
 >>>>>>> upstream/18.0
@@ -299,6 +303,12 @@ export class ComboConfiguratorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        onMounted(() => this.env.bus.trigger("FORM-CONTROLLER:FORM-IN-DIALOG:ADD"));
+        onWillUnmount(() => this.env.bus.trigger("FORM-CONTROLLER:FORM-IN-DIALOG:REMOVE"));
+>>>>>>> upstream/18.0
 =======
 
         onMounted(() => this.env.bus.trigger("FORM-CONTROLLER:FORM-IN-DIALOG:ADD"));

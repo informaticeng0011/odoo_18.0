@@ -237,6 +237,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import models
 from . import tools
 from . import wizard
@@ -244,6 +245,9 @@ from . import wizard
 =======
 >>>>>>> upstream/18.0
 from odoo.tools.sql import create_column
+=======
+from odoo.tools.sql import column_exists, create_column
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import column_exists, create_column
 >>>>>>> upstream/18.0
@@ -1203,10 +1207,13 @@ def _pre_init_nemhandel(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     create_column(env.cr, "account_move", "nemhandel_move_state", "varchar")
     create_column(env.cr, "res_partner", "nemhandel_identifier_type", "varchar")
     create_column(env.cr, "res_partner", "nemhandel_identifier_value", "varchar")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1919,6 +1926,9 @@ def _pre_init_nemhandel(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2647,6 +2657,7 @@ def _pre_init_nemhandel(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2733,6 +2744,8 @@ def _pre_init_nemhandel(env):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3322,6 +3335,9 @@ def uninstall_hook(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

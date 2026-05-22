@@ -254,7 +254,11 @@ import { onChange } from "@mail/utils/common/misc";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { IS_DELETED_SYM, IS_DELETING_SYM, IS_RECORD_SYM, isRelation } from "./misc";
+=======
+import { IS_DELETED_SYM, IS_RECORD_SYM, isRelation } from "./misc";
+>>>>>>> upstream/18.0
 =======
 import { IS_DELETED_SYM, IS_RECORD_SYM, isRelation } from "./misc";
 >>>>>>> upstream/18.0
@@ -1202,7 +1206,10 @@ export class RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     [IS_DELETED_SYM] = false;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1965,6 +1972,7 @@ export class RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (record._[IS_DELETING_SYM]) {
 =======
         if (record._[IS_DELETED_SYM]) {
@@ -2166,6 +2174,9 @@ export class RecordInternal {
 >>>>>>> upstream/18.0
 =======
         if (record._[IS_DELETED_SYM]) {
+>>>>>>> upstream/18.0
+=======
+        if (record[IS_DELETED_SYM]) {
 >>>>>>> upstream/18.0
 =======
         if (record[IS_DELETED_SYM]) {
@@ -2992,6 +3003,7 @@ export class RecordInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (record._[IS_DELETING_SYM]) {
 =======
         if (record._[IS_DELETED_SYM]) {
@@ -3193,6 +3205,9 @@ export class RecordInternal {
 >>>>>>> upstream/18.0
 =======
         if (record._[IS_DELETED_SYM]) {
+>>>>>>> upstream/18.0
+=======
+        if (record[IS_DELETED_SYM]) {
 >>>>>>> upstream/18.0
 =======
         if (record[IS_DELETED_SYM]) {

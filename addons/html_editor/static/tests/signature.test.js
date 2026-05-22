@@ -134,7 +134,11 @@ test("apply 'Signature' command", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `<p>ab</p><div class="o-signature-container"><h1>Hello[]</h1></div><p>cd</p>`
+=======
+        `<p>ab</p><div class="o-signature-container" data-o-mail-quote="1"><h1>Hello[]</h1></div><p>cd</p>`
+>>>>>>> upstream/18.0
 =======
         `<p>ab</p><div class="o-signature-container" data-o-mail-quote="1"><h1>Hello[]</h1></div><p>cd</p>`
 >>>>>>> upstream/18.0
@@ -573,7 +577,11 @@ test("undo a 'Signature' command", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         `<p>abtest</p><div class="o-signature-container"><h1>Hello[]</h1></div><p>cd</p>`
+=======
+        `<p>abtest</p><div class="o-signature-container" data-o-mail-quote="1"><h1>Hello[]</h1></div><p>cd</p>`
+>>>>>>> upstream/18.0
 =======
         `<p>abtest</p><div class="o-signature-container" data-o-mail-quote="1"><h1>Hello[]</h1></div><p>cd</p>`
 >>>>>>> upstream/18.0

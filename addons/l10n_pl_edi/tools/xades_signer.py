@@ -7,6 +7,10 @@ from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import ec, padding, rsa
 from cryptography.hazmat.primitives.asymmetric.utils import decode_dss_signature
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from contextlib import suppress
+>>>>>>> upstream/18.0
 =======
 from contextlib import suppress
 >>>>>>> upstream/18.0
@@ -62,13 +66,19 @@ class XadesSigner:
 
     def sign_authentication_challenge(self, challenge_code, nip):
 <<<<<<< HEAD
+<<<<<<< HEAD
         xml_to_sign_str = f'<AuthTokenRequest xmlns="http://ksef.mf.gov.pl/auth/token/2.0"><Challenge>{challenge_code}</Challenge><ContextIdentifier><Nip>{nip}</Nip></ContextIdentifier><SubjectIdentifierType>certificateSubject</SubjectIdentifierType></AuthTokenRequest>'
 =======
+=======
+>>>>>>> upstream/18.0
         subject_str = ""
         with suppress(Exception):
             subject_str = self.cert.subject.rfc4514_string()
         identifier_type = "certificateSubject" if nip in subject_str else "certificateFingerprint"
         xml_to_sign_str = f'<AuthTokenRequest xmlns="http://ksef.mf.gov.pl/auth/token/2.0"><Challenge>{challenge_code}</Challenge><ContextIdentifier><Nip>{nip}</Nip></ContextIdentifier><SubjectIdentifierType>{identifier_type}</SubjectIdentifierType></AuthTokenRequest>'
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         root = etree.fromstring(xml_to_sign_str)
 

@@ -119,7 +119,10 @@ from markupsafe import Markup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lxml import etree
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,7 +455,12 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner.nemhandel_identifier_value = partner.company_registry
+=======
+                vat_country, vat_number = partner._split_vat(partner.company_registry or '')
+                partner.nemhandel_identifier_value = vat_number if vat_country == 'DK' else partner.company_registry
+>>>>>>> upstream/18.0
 =======
                 vat_country, vat_number = partner._split_vat(partner.company_registry or '')
                 partner.nemhandel_identifier_value = vat_number if vat_country == 'DK' else partner.company_registry
@@ -722,7 +730,10 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1108,6 +1119,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1375,6 +1389,7 @@ class ResPartner(models.Model):
 
     @api.model
     def _check_nemhandel_participant_exists(self, participant_info, edi_identification):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1954,6 +1969,8 @@ class ResPartner(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         service_href = ''
         if isinstance(participant_info, dict):
             participant_identifier = participant_info.get('identifier', '')
@@ -2090,6 +2107,9 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2506,7 +2526,11 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         participant_info = self._get_nemhandel_participant_info(edi_identification)
+=======
+        participant_info = self._nemhandel_lookup_participant(edi_identification)
+>>>>>>> upstream/18.0
 =======
         participant_info = self._nemhandel_lookup_participant(edi_identification)
 >>>>>>> upstream/18.0

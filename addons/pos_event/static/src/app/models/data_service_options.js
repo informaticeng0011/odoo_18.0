@@ -19,7 +19,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         !record.pos_order_line_id || record.pos_order_line_id?.order_id?.finalized
+=======
+                        !record.pos_order_line_id ||
+                        record.pos_order_line_id?.order_id?.canBeRemovedFromIndexedDB
+>>>>>>> upstream/18.0
 =======
                         !record.pos_order_line_id ||
                         record.pos_order_line_id?.order_id?.canBeRemovedFromIndexedDB
@@ -78,7 +83,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         record.registration_id?.pos_order_line_id?.order_id?.finalized
+=======
+                        record.registration_id?.pos_order_line_id?.order_id
+                            ?.canBeRemovedFromIndexedDB
+>>>>>>> upstream/18.0
 =======
                         record.registration_id?.pos_order_line_id?.order_id
                             ?.canBeRemovedFromIndexedDB
@@ -379,6 +389,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    get pohibitedAutoLoadedModels() {
+        return [...super.pohibitedAutoLoadedModels, "event.registration"];
+    },
+>>>>>>> upstream/18.0
 =======
     get pohibitedAutoLoadedModels() {
         return [...super.pohibitedAutoLoadedModels, "event.registration"];

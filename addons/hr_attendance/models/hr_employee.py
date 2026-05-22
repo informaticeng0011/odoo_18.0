@@ -322,7 +322,11 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         groups="hr_attendance.group_hr_attendance_manager",
+=======
+        groups="hr_attendance.group_hr_attendance_officer",
+>>>>>>> upstream/18.0
 =======
         groups="hr_attendance.group_hr_attendance_officer",
 >>>>>>> upstream/18.0
@@ -1364,6 +1368,7 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1505,6 +1510,11 @@ class HrEmployee(models.Model):
         super().action_archive()
         self.env['hr.attendance'].sudo().search([
 >>>>>>> upstream/18.0
+=======
+    def action_archive(self):
+        super().action_archive()
+        self.env['hr.attendance'].sudo().search([
+>>>>>>> upstream/18.0
             ('employee_id', 'in', self.ids),
             ('check_out', '=', False),
         ]).write({
@@ -1566,6 +1576,9 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1832,10 +1845,13 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for employee in self:
             employee.last_attendance_id = self.env['hr.attendance'].search([
                 ('employee_id', 'in', employee.ids),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2090,6 +2106,9 @@ class HrEmployee(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

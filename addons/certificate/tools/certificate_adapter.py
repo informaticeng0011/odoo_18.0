@@ -124,10 +124,13 @@ from base64 import b64decode
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import requests
 from OpenSSL.crypto import FILETYPE_PEM, load_certificate, load_privatekey
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -505,6 +508,9 @@ from OpenSSL.crypto import Error as CryptoError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -885,11 +891,14 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def __init__(self, *args, ciphers=None, **kwargs):
         self._context_args = {}
         if ciphers:
             self._context_args['ciphers'] = ciphers
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1267,6 +1276,9 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1650,9 +1662,12 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         kwargs['ssl_context'] = create_urllib3_context(**self._context_args)
         return super().init_poolmanager(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2037,6 +2052,9 @@ class CertificateAdapter(requests.adapters.HTTPAdapter):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

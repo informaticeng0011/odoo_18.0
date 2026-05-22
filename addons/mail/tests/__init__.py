@@ -86,6 +86,7 @@ from . import test_mail_activity
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from . import test_mail_composer
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -965,6 +966,11 @@ from . import test_mail_mail
 from . import test_mail_mail
 >>>>>>> upstream/18.0
 =======
+from . import test_mail_mail
+>>>>>>> upstream/18.0
+=======
+from . import test_mail_blacklist
+from . import test_mail_composer
 from . import test_mail_mail
 >>>>>>> upstream/18.0
 =======

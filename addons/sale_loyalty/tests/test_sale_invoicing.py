@@ -3,6 +3,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 from odoo.exceptions import UserError
 from odoo.tests import tagged
@@ -14,6 +15,8 @@ class TestSaleInvoicing(TestSaleCouponCommon):
     def test_invoicing_order_with_promotions(self):
         discount_coupon_program = self.env['loyalty.program'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from odoo.fields import Command
@@ -28,6 +31,9 @@ class TestSaleInvoicing(TestSaleCouponCommon):
         super().setUp()
         self.discount_coupon_program = self.env['loyalty.program'].create({
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35,6 +41,7 @@ class TestSaleInvoicing(TestSaleCouponCommon):
             'program_type': 'coupons',
             'applies_on': 'current',
             'trigger': 'auto',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             'rule_ids': [(0, 0, {})],
@@ -47,6 +54,8 @@ class TestSaleInvoicing(TestSaleCouponCommon):
         })
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             'rule_ids': [Command.create({})],
@@ -62,6 +71,9 @@ class TestSaleInvoicing(TestSaleCouponCommon):
 
     def test_invoicing_order_with_promotions(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83,6 +95,7 @@ class TestSaleInvoicing(TestSaleCouponCommon):
         #Check default invoice_policy on discount product
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(discount_coupon_program.reward_ids.discount_line_product_id.invoice_policy, 'order')
 
         order._update_programs_and_rewards()
@@ -90,11 +103,16 @@ class TestSaleInvoicing(TestSaleCouponCommon):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(self.discount_coupon_program.reward_ids.discount_line_product_id.invoice_policy, 'order')
 
         order._update_programs_and_rewards()
         self._claim_reward(order, self.discount_coupon_program)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126,6 +144,7 @@ class TestSaleInvoicing(TestSaleCouponCommon):
     def test_coupon_on_order_sequence(self):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         discount_coupon_program = self.env['loyalty.program'].create({
             'name': '10% Discount',
             'program_type': 'coupons',
@@ -140,6 +159,8 @@ class TestSaleInvoicing(TestSaleCouponCommon):
             })]
         })
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -160,9 +181,15 @@ class TestSaleInvoicing(TestSaleCouponCommon):
         #Check default invoice_policy on discount product
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(discount_coupon_program.reward_ids.discount_line_product_id.invoice_policy, 'order')
 
         self._auto_rewards(order, discount_coupon_program)
+=======
+        self.assertEqual(self.discount_coupon_program.reward_ids.discount_line_product_id.invoice_policy, 'order')
+
+        self._auto_rewards(order, self.discount_coupon_program)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.discount_coupon_program.reward_ids.discount_line_product_id.invoice_policy, 'order')
 
@@ -194,7 +221,10 @@ class TestSaleInvoicing(TestSaleCouponCommon):
         self.assertTrue(order.order_line.sorted(lambda x: x.sequence)[-1].is_reward_line, 'Global coupons appear on the last line')
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -226,6 +256,9 @@ class TestSaleInvoicing(TestSaleCouponCommon):
         reward_line = order.order_line.filtered('is_reward_line')
         self.assertEqual(reward_line.tax_id, tax_quebec)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -287,7 +287,11 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.props.record.data.product_type === 'combo';
+=======
+        return this.props.record.data.product_template_id && this.props.record.data.product_type === 'combo';
+>>>>>>> upstream/18.0
 =======
         return this.props.record.data.product_template_id && this.props.record.data.product_type === 'combo';
 >>>>>>> upstream/18.0
@@ -791,6 +795,7 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
         return className;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1652,6 +1657,8 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     get label() {
         let label = this.props.record.data.name;
         if (this.translatedProductName && label.startsWith(this.translatedProductName)) {
@@ -1936,6 +1943,9 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2778,8 +2788,12 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.translatedProductName === undefined) {
             // View was not updated to include `translatedProductName`
+=======
+        if (!this.translatedProductName) {
+>>>>>>> upstream/18.0
 =======
         if (!this.translatedProductName) {
 >>>>>>> upstream/18.0
@@ -3896,9 +3910,14 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.translatedProductName && value && this.translatedProductName.concat("\n", value)
                 || !value && this.translatedProductName
                 || value
+=======
+                value && this.translatedProductName.concat("\n", value)
+                || this.translatedProductName
+>>>>>>> upstream/18.0
 =======
                 value && this.translatedProductName.concat("\n", value)
                 || this.translatedProductName
@@ -5300,6 +5319,9 @@ export class SaleOrderLineProductField extends ProductLabelSectionAndNoteField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

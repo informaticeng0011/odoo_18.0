@@ -190,12 +190,16 @@ from typing import Optional
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import astroid
 
 try:
     from astroid import NodeNG
 except ImportError:
     from astroid.node_classes import NodeNG
+=======
+from astroid import nodes
+>>>>>>> upstream/18.0
 =======
 from astroid import nodes
 >>>>>>> upstream/18.0
@@ -955,11 +959,14 @@ callsites_for_queries = collections.defaultdict(list)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 root_call: contextvars.ContextVar[Optional[astroid.Call]] =\
     contextvars.ContextVar('root_call', default=None)
 @contextlib.contextmanager
 def push_call(node: astroid.Call):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1510,6 +1517,9 @@ def push_call(node: nodes.Call):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2091,6 +2101,7 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         nodes = deque([node])
         while nodes:
             node = nodes.popleft()
@@ -2106,6 +2117,8 @@ class OdooBaseChecker(BaseChecker):
             n = asserted.popleft()
             if isinstance(n, astroid.Name) and n.name == node.name:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2666,6 +2679,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3220,12 +3236,15 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if isinstance(node, astroid.Attribute):
             return self._get_attribute_chain(node.expr) + '.' + node.attrname
         elif isinstance(node, astroid.Name):
             return node.name
         elif isinstance(node, astroid.Call):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3777,6 +3796,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4329,11 +4351,14 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         name = node.func.attrname if isinstance(node.func, astroid.Attribute) else node.func.name
         if name == 'SQL':
             return True
         if isinstance(node.scope(), astroid.GeneratorExp):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4884,6 +4909,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5447,7 +5475,11 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _is_fstring_cst(self, node: astroid.JoinedStr, args_allowed=False, position=None):
+=======
+    def _is_fstring_cst(self, node: nodes.JoinedStr, args_allowed=False, position=None):
+>>>>>>> upstream/18.0
 =======
     def _is_fstring_cst(self, node: nodes.JoinedStr, args_allowed=False, position=None):
 >>>>>>> upstream/18.0
@@ -6184,8 +6216,13 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if isinstance(node, astroid.FormattedValue)
             if not (isinstance(node.value, astroid.Attribute) and node.value.attrname.startswith('_'))
+=======
+            if isinstance(node, nodes.FormattedValue)
+            if not (isinstance(node.value, nodes.Attribute) and node.value.attrname.startswith('_'))
+>>>>>>> upstream/18.0
 =======
             if isinstance(node, nodes.FormattedValue)
             if not (isinstance(node.value, nodes.Attribute) and node.value.attrname.startswith('_'))
@@ -7112,6 +7149,7 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _is_constexpr(self, node: NodeNG, *, args_allowed=False, position=None):
         if isinstance(node, astroid.Const): # astroid.const is always safe
             return True
@@ -7119,6 +7157,8 @@ class OdooBaseChecker(BaseChecker):
             return self.all_const(node.elts, args_allowed=args_allowed)
         elif isinstance(node, astroid.Tuple):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7671,6 +7711,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8223,7 +8266,11 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif isinstance(node, astroid.Dict):
+=======
+        elif isinstance(node, nodes.Dict):
+>>>>>>> upstream/18.0
 =======
         elif isinstance(node, nodes.Dict):
 >>>>>>> upstream/18.0
@@ -8960,6 +9007,7 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif isinstance(node, astroid.Starred):
             return self._is_constexpr(node.value, args_allowed=args_allowed, position=position)
         elif isinstance(node, astroid.BinOp): # recusively infer both side of the operation. Failing if either side is not inferable
@@ -8968,6 +9016,8 @@ class OdooBaseChecker(BaseChecker):
             if node.op == '%' and \
                 isinstance(node.left, astroid.Const) and \
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9521,6 +9571,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9892,6 +9945,7 @@ class OdooBaseChecker(BaseChecker):
                 return True
             right_operand = self._is_constexpr(node.right, args_allowed=args_allowed)
             return left_operand and right_operand
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10468,6 +10522,8 @@ class OdooBaseChecker(BaseChecker):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         elif isinstance(node, (nodes.Name, nodes.AssignName)):  # Variable: find the assignement instruction in the AST and infer its value.
             assignment = node.lookup(node.name)
             assigned_node = []
@@ -10676,6 +10732,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11230,11 +11289,14 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif isinstance(node, astroid.JoinedStr):
             return self._is_fstring_cst(node, args_allowed)
         elif isinstance(node, astroid.Call):
             if isinstance(node.func, astroid.Attribute):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11785,6 +11847,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12343,6 +12408,7 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif isinstance(node, astroid.IfExp):
             body = self._is_constexpr(node.body, args_allowed=args_allowed)
             orelse = self._is_constexpr(node.orelse, args_allowed=args_allowed)
@@ -12354,6 +12420,8 @@ class OdooBaseChecker(BaseChecker):
 
         elif isinstance(node, astroid.Attribute):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12910,6 +12978,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13472,11 +13543,14 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         while isinstance(node_expr, astroid.Attribute):
             expr_list.insert(0, node_expr.attrname)
             node_expr = node_expr.expr
         if isinstance(node_expr, astroid.Name):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14027,6 +14101,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14579,12 +14656,18 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _allowable(self, node):
         """
         :type node: NodeNG
         """
         scope = node.scope()
         if isinstance(scope, astroid.FunctionDef) and (scope.name.startswith("_") or scope.name == 'init'):
+=======
+    def _allowable(self, node: nodes.NodeNG) -> bool:
+        scope = node.scope()
+        if isinstance(scope, nodes.FunctionDef) and (scope.name.startswith("_") or scope.name == 'init'):
+>>>>>>> upstream/18.0
 =======
     def _allowable(self, node: nodes.NodeNG) -> bool:
         scope = node.scope()
@@ -15695,6 +15778,7 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (isinstance(node, astroid.Attribute)
             and isinstance(node.expr, astroid.Name)
             and node.attrname.startswith('_')
@@ -15702,6 +15786,8 @@ class OdooBaseChecker(BaseChecker):
 
     def _check_concatenation(self, node):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16254,6 +16340,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16624,6 +16713,7 @@ class OdooBaseChecker(BaseChecker):
         if self._allowable(node):
             return False
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17178,6 +17268,8 @@ class OdooBaseChecker(BaseChecker):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if isinstance(node, nodes.BinOp) and node.op in ('%', '+'):
             if isinstance(node.right, nodes.Tuple):
                 # execute("..." % (self._table, thing))
@@ -17366,6 +17458,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17936,8 +18031,13 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if isinstance(node, astroid.Call) \
                 and isinstance(node.func, astroid.Attribute) \
+=======
+        if isinstance(node, nodes.Call) \
+                and isinstance(node.func, nodes.Attribute) \
+>>>>>>> upstream/18.0
 =======
         if isinstance(node, nodes.Call) \
                 and isinstance(node.func, nodes.Attribute) \
@@ -18861,6 +18961,7 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if isinstance(node, astroid.JoinedStr):
             return not all(
                 self._allowable(formatted.value)
@@ -18874,6 +18975,8 @@ class OdooBaseChecker(BaseChecker):
                 # could also be e.g. arguments (if the source is a function parameter)
                 if isinstance(target.parent, astroid.Assign):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19434,6 +19537,9 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19993,9 +20099,15 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             isinstance(node, astroid.Call) and node.args and
             ((isinstance(node.func, astroid.Attribute) and node.func.attrname in ('execute', 'executemany', 'SQL') and self._get_cursor_name(node.func) in DFTL_CURSOR_EXPR) or
             (isinstance(node.func, astroid.Name) and node.func.name == 'SQL')) and
+=======
+            isinstance(node, nodes.Call) and node.args and
+            ((isinstance(node.func, nodes.Attribute) and node.func.attrname in ('execute', 'executemany', 'SQL') and self._get_cursor_name(node.func) in DFTL_CURSOR_EXPR) or
+            (isinstance(node.func, nodes.Name) and node.func.name == 'SQL')) and
+>>>>>>> upstream/18.0
 =======
             isinstance(node, nodes.Call) and node.args and
             ((isinstance(node.func, nodes.Attribute) and node.func.attrname in ('execute', 'executemany', 'SQL') and self._get_cursor_name(node.func) in DFTL_CURSOR_EXPR) or
@@ -21137,7 +21249,11 @@ class OdooBaseChecker(BaseChecker):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _is_const_def(self, node: astroid.FunctionDef, /, *, position: Optional[int], const_args: bool = False) -> bool:
+=======
+    def _is_const_def(self, node: nodes.FunctionDef, /, *, position: Optional[int], const_args: bool = False) -> bool:
+>>>>>>> upstream/18.0
 =======
     def _is_const_def(self, node: nodes.FunctionDef, /, *, position: Optional[int], const_args: bool = False) -> bool:
 >>>>>>> upstream/18.0

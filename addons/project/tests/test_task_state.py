@@ -129,7 +129,11 @@ class TestTaskState(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(self.task_2.state, '01_in_progress', "task_2 state should automatically switch back to in_progress when its project changes")
+=======
+        self.assertEqual(self.task_2.state, '1_canceled', "task_2 state should remain to cancelled when its project changes")
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(self.task_2.state, '1_canceled', "task_2 state should remain to cancelled when its project changes")
 >>>>>>> upstream/18.0
@@ -605,6 +609,7 @@ class TestTaskState(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1237,6 +1242,8 @@ class TestTaskState(TestProjectCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1329,6 +1336,9 @@ class TestTaskState(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1758,6 +1768,9 @@ class TestTaskState(TestProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
