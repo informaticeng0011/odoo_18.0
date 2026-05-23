@@ -137,7 +137,11 @@ export const fileUploadService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     start(env, { notificationService }) {
+=======
+    start(env, { notification: notificationService }) {
+>>>>>>> upstream/18.0
 =======
     start(env, { notification: notificationService }) {
 >>>>>>> upstream/18.0
@@ -677,7 +681,10 @@ export const fileUploadService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1047,6 +1054,9 @@ export const fileUploadService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1416,6 +1426,7 @@ export const fileUploadService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Error listener
             xhr.addEventListener("error", async () => {
                 delete uploads[upload.id];
@@ -1427,6 +1438,8 @@ export const fileUploadService = {
                 ) {
                     notificationService.add(_t("An error occured while uploading."), {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1842,6 +1855,9 @@ export const fileUploadService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2212,7 +2228,13 @@ export const fileUploadService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             });
+=======
+            }
+            // Error listener
+            xhr.addEventListener("error", (ev) => onError(ev.error));
+>>>>>>> upstream/18.0
 =======
             }
             // Error listener

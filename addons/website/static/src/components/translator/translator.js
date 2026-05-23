@@ -317,8 +317,11 @@ export class SelectTranslateDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node: String,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1084,6 +1087,9 @@ export class SelectTranslateDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1720,6 +1726,23 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
             $edited = $edited.add(attrEdit);
         });
         const textEdit = $editable.filter('textarea:contains(data-oe-translation-source-sha)');
+<<<<<<< HEAD
+=======
+        // Placeholder attributes on non-form elements (i.e. not input, select,
+        // textarea) are intended for content editors, not visible text
+        // for end-users. Example of such a placeholder: a blog post title.
+        const nodesToEditEls = Array.from($editable).filter(
+            (nodeEl) =>
+                nodeEl.matches('[placeholder*="data-oe-translation-source-sha="]') &&
+                !nodeEl.matches(":empty, input, select, textarea")
+        );
+        for (const nodeEl of nodesToEditEls) {
+            const trans = nodeEl.getAttribute("placeholder");
+            const match = trans.match(translationRegex);
+            nodeEl.setAttribute("placeholder", match[2]);
+        }
+
+>>>>>>> upstream/18.0
         textEdit.each(function () {
             var $node = $(this);
             var translation = $node.data('translation') || {};
@@ -2005,9 +2028,15 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         styleEl.sheet.insertRule(`[data-oe-translation-state].o_dirty {background: ${translatedColor} !important;}`);
         styleEl.sheet.insertRule(`[data-oe-translation-state="translated"] {background: ${translatedColor} !important;}`);
         styleEl.sheet.insertRule(`[data-oe-translation-state] {background: ${toTranslateColor} !important;}`);
+=======
+        styleEl.sheet.insertRule(`[data-oe-translation-state].o_dirty { background-color: ${translatedColor} !important; }`);
+        styleEl.sheet.insertRule(`[data-oe-translation-state="translated"] { background-color: ${translatedColor} !important; }`);
+        styleEl.sheet.insertRule(`[data-oe-translation-state] { background-color: ${toTranslateColor} !important; }`);
+>>>>>>> upstream/18.0
 =======
         styleEl.sheet.insertRule(`[data-oe-translation-state].o_dirty { background-color: ${translatedColor} !important; }`);
         styleEl.sheet.insertRule(`[data-oe-translation-state="translated"] { background-color: ${translatedColor} !important; }`);
@@ -3374,8 +3403,11 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 translationEl.addEventListener('click', showNotification);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4137,6 +4169,9 @@ export class WebsiteTranslator extends WebsiteEditorComponent {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

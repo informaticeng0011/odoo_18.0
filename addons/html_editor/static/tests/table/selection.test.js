@@ -227,6 +227,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { tick } from "@odoo/hoot-mock";
 import { setupEditor, testEditor } from "../_helpers/editor";
 import { unformat } from "../_helpers/format";
@@ -234,6 +235,8 @@ import { bold, resetSize, setColor } from "../_helpers/user_actions";
 import { getContent } from "../_helpers/selection";
 import { queryAll } from "@odoo/hoot-dom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -922,6 +925,9 @@ import { nodeSize } from "@html_editor/utils/position";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1592,7 +1598,10 @@ describe("custom selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2179,6 +2188,9 @@ describe("custom selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2548,6 +2560,7 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 contentAfterEdit:
                     "<p>a[bc</p>" +
                     '<table class="o_selected_table"><tbody><tr>' +
@@ -2555,6 +2568,8 @@ describe("select a full table on cross over", () => {
                     '<td class="o_selected_td">cd</td>' +
                     '<td class="o_selected_td">ef</td>' +
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2577,6 +2592,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2596,12 +2614,15 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 contentAfterEdit:
                     '<table class="o_selected_table"><tbody><tr>' +
                     '<td class="o_selected_td">ab</td>' +
                     '<td class="o_selected_td">cd</td>' +
                     '<td class="o_selected_td">e[f</td></tr></tbody></table><p>a]bc</p>',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2621,6 +2642,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2651,7 +2675,10 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2670,6 +2697,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2687,9 +2717,15 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     '<td class="o_selected_td">a]b</td>' +
                     '<td class="o_selected_td">cd</td>' +
                     '<td class="o_selected_td">ef</td></tr></tbody></table>',
+=======
+                    '<td class="o_selected_td">ab</td>' +
+                    '<td class="o_selected_td">cd</td>' +
+                    '<td class="o_selected_td">ef]</td></tr></tbody></table>',
+>>>>>>> upstream/18.0
 =======
                     '<td class="o_selected_td">ab</td>' +
                     '<td class="o_selected_td">cd</td>' +
@@ -2872,6 +2908,7 @@ describe("select a full table on cross over", () => {
                             </tr>
                         </tbody>
                     </table>`),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3874,6 +3911,8 @@ describe("select a full table on cross over", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 contentBeforeEdit: unformat(`
                     <p>a[bc</p>
                     <table class="o_selected_table">
@@ -3889,6 +3928,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4234,6 +4276,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4913,7 +4958,11 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <font style="color: aquamarine;">a]b</font>
+=======
+                                    <font style="color: aquamarine;">ab</font>
+>>>>>>> upstream/18.0
 =======
                                     <font style="color: aquamarine;">ab</font>
 >>>>>>> upstream/18.0
@@ -4935,7 +4984,11 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <font style="color: aquamarine;">ef</font>
+=======
+                                    <font style="color: aquamarine;">ef]</font>
+>>>>>>> upstream/18.0
 =======
                                     <font style="color: aquamarine;">ef]</font>
 >>>>>>> upstream/18.0
@@ -4967,7 +5020,10 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4982,6 +5038,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4998,7 +5057,11 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <font style="color: aquamarine;">ab</font>
+=======
+                                <font style="color: aquamarine;">[ab</font>
+>>>>>>> upstream/18.0
 =======
                                 <font style="color: aquamarine;">[ab</font>
 >>>>>>> upstream/18.0
@@ -5020,7 +5083,11 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <font style="color: aquamarine;">e[f</font>
+=======
+                                <font style="color: aquamarine;">ef</font>
+>>>>>>> upstream/18.0
 =======
                                 <font style="color: aquamarine;">ef</font>
 >>>>>>> upstream/18.0
@@ -5095,7 +5162,10 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5118,6 +5188,9 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5158,7 +5231,11 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <font style="color: aquamarine;">a]b</font>
+=======
+                                <font style="color: aquamarine;">ab</font>
+>>>>>>> upstream/18.0
 =======
                                 <font style="color: aquamarine;">ab</font>
 >>>>>>> upstream/18.0
@@ -5180,7 +5257,11 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <font style="color: aquamarine;">ef</font>
+=======
+                                <font style="color: aquamarine;">ef]</font>
+>>>>>>> upstream/18.0
 =======
                                 <font style="color: aquamarine;">ef]</font>
 >>>>>>> upstream/18.0
@@ -5481,7 +5562,10 @@ describe("select a full table on cross over", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6180,6 +6264,7 @@ describe("single cell selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
 
 <<<<<<< HEAD
@@ -6328,6 +6413,8 @@ describe("single cell selection", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6908,6 +6995,9 @@ describe("single cell selection", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -412,6 +412,10 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._validate_xml_encoding(view.arch)
+>>>>>>> upstream/18.0
 =======
             self._validate_xml_encoding(view.arch)
 >>>>>>> upstream/18.0
@@ -1086,6 +1090,10 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            self._validate_xml_encoding(view.arch_base)
+>>>>>>> upstream/18.0
 =======
             self._validate_xml_encoding(view.arch_base)
 >>>>>>> upstream/18.0
@@ -1719,6 +1727,7 @@ actual arch.
 
         return True
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3000,6 +3009,9 @@ actual arch.
 =======
     @api.constrains('groups_id', 'inherit_id', 'mode')
 >>>>>>> upstream/18.0
+=======
+    @api.constrains('groups_id', 'inherit_id', 'mode')
+>>>>>>> upstream/18.0
     def _check_groups(self):
         for view in self:
             if (view.groups_id and
@@ -3305,9 +3317,12 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.model_create_multi
     def create(self, vals_list):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4074,6 +4089,9 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4837,6 +4855,7 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if values.get('arch_base'):
                 self._validate_xml_encoding(values['arch_base'])
@@ -5200,6 +5219,8 @@ actual arch.
 =======
             if values.get('arch_base'):
                 self._validate_xml_encoding(values['arch_base'])
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5787,7 +5808,10 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6299,6 +6323,7 @@ actual arch.
                                 "Allowed types are: %(valid_types)s",
                                 view_type=values['type'], valid_types=', '.join(valid_types)
                             ))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7219,6 +7244,9 @@ actual arch.
 =======
                     except (etree.ParseError, ValueError):
 >>>>>>> upstream/18.0
+=======
+                    except (etree.ParseError, ValueError):
+>>>>>>> upstream/18.0
                         # don't raise here, the constraint that runs `self._check_xml` will
                         # do the job properly.
                         pass
@@ -7513,6 +7541,7 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if vals.get('arch_base'):
             self._validate_xml_encoding(vals['arch_base'])
@@ -7876,6 +7905,8 @@ actual arch.
 =======
         if vals.get('arch_base'):
             self._validate_xml_encoding(vals['arch_base'])
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8797,8 +8828,11 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 node.getparent().remove(node)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9147,6 +9181,9 @@ actual arch.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11056,6 +11093,11 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
+                continue
+>>>>>>> upstream/18.0
 =======
             elif field.type == "binary" and not isinstance(field, fields.Image) and not field.store:
                 continue
@@ -12657,7 +12699,10 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13539,6 +13584,9 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14158,6 +14206,7 @@ class Model(models.AbstractModel):
         arch, view = self._get_view(view_id, view_type, **options)
 
         # Apply post processing, groups and modifiers etc...
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15307,6 +15356,9 @@ class Model(models.AbstractModel):
 =======
         arch, models = self._get_view_postprocessed(view, arch, **options)
 >>>>>>> upstream/18.0
+=======
+        arch, models = self._get_view_postprocessed(view, arch, **options)
+>>>>>>> upstream/18.0
         models = self._get_view_fields(view_type or view.type, models)
         result = {
             'arch': arch,
@@ -15509,8 +15561,13 @@ class Model(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'change_default', 'context', 'currency_field', 'definition_record', 'definition_record_field', 'digits', 'domain', 'aggregator', 'groups',
             'help', 'model_field', 'name', 'readonly', 'related', 'relation', 'relation_field', 'required', 'searchable', 'selection', 'size',
+=======
+            'change_default', 'context', 'currency_field', 'definition_record', 'definition_record_field', 'digits', 'min_display_digits', 'domain', 'aggregator',
+            'groups', 'help', 'model_field', 'name', 'readonly', 'related', 'relation', 'relation_field', 'required', 'searchable', 'selection', 'size',
+>>>>>>> upstream/18.0
 =======
             'change_default', 'context', 'currency_field', 'definition_record', 'definition_record_field', 'digits', 'min_display_digits', 'domain', 'aggregator',
             'groups', 'help', 'model_field', 'name', 'readonly', 'related', 'relation', 'relation_field', 'required', 'searchable', 'selection', 'size',

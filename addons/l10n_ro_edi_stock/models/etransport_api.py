@@ -118,6 +118,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from json import JSONDecodeError
+>>>>>>> upstream/18.0
 =======
 from json import JSONDecodeError
 >>>>>>> upstream/18.0
@@ -542,6 +546,11 @@ class ETransportAPI:
                 return {'error': response.json()['message']}
             case 403:
                 return {'error': _("Access token is forbidden.")}
+<<<<<<< HEAD
+=======
+            case 401:
+                return {'error': _("Access token is unauthorized.")}
+>>>>>>> upstream/18.0
             case 204:
                 return {'error': _("You reached the limit of requests. Please try again later.")}
 
@@ -667,7 +676,11 @@ class ETransportAPI:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         except requests.exceptions.JSONDecodeError as e:
+=======
+        except JSONDecodeError as e:
+>>>>>>> upstream/18.0
 =======
         except JSONDecodeError as e:
 >>>>>>> upstream/18.0

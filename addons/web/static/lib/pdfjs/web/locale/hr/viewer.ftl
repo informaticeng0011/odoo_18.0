@@ -196,8 +196,13 @@ pdfjs-presentation-mode-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .title = Prebaci u prezentacijski način rada
 pdfjs-presentation-mode-button-label = Prezentacijski način rada
+=======
+    .title = Prebaci u modus prezentacija
+pdfjs-presentation-mode-button-label = Modus prezentacija
+>>>>>>> upstream/18.0
 =======
     .title = Prebaci u modus prezentacija
 pdfjs-presentation-mode-button-label = Modus prezentacija
@@ -1032,7 +1037,10 @@ pdfjs-save-button-label = Spremi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1534,6 +1542,9 @@ pdfjs-bookmark-button-label = Trenutna stranica
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2047,12 +2058,15 @@ pdfjs-cursor-text-select-tool-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .title = Omogući alat za označavanje teksta
 pdfjs-cursor-text-select-tool-button-label = Alat za označavanje teksta
 pdfjs-cursor-hand-tool-button =
     .title = Omogući ručni alat
 pdfjs-cursor-hand-tool-button-label = Ručni alat
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2553,6 +2567,9 @@ pdfjs-scroll-page-button-label = Klizanje stranice
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3071,7 +3088,11 @@ pdfjs-document-properties-button-label = Svojstva dokumenta …
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-document-properties-file-name = Naziv datoteke:
+=======
+pdfjs-document-properties-file-name = Ime datoteke:
+>>>>>>> upstream/18.0
 =======
 pdfjs-document-properties-file-name = Ime datoteke:
 >>>>>>> upstream/18.0
@@ -3753,7 +3774,11 @@ pdfjs-document-properties-producer = PDF stvaratelj:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-document-properties-version = PDF verzija:
+=======
+pdfjs-document-properties-version = PDF inačica:
+>>>>>>> upstream/18.0
 =======
 pdfjs-document-properties-version = PDF inačica:
 >>>>>>> upstream/18.0
@@ -4468,7 +4493,11 @@ pdfjs-layers-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     .title = Prikaži slojeve (dvoklik za vraćanje svih slojeva u zadano stanje)
+=======
+    .title = Prikaži slojeve (dvoklik za vraćanje svih slojeva u standardno stanje)
+>>>>>>> upstream/18.0
 =======
     .title = Prikaži slojeve (dvoklik za vraćanje svih slojeva u standardno stanje)
 >>>>>>> upstream/18.0
@@ -5162,6 +5191,7 @@ pdfjs-find-next-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-find-next-button-label = Sljedeće
 pdfjs-find-highlight-checkbox = Istankni sve
 pdfjs-find-match-case-checkbox-label = Razlikovanje velikih i malih slova
@@ -5169,6 +5199,8 @@ pdfjs-find-entire-word-checkbox-label = Cijele riječi
 pdfjs-find-reached-top = Dosegnut početak dokumenta, nastavak s kraja
 pdfjs-find-reached-bottom = Dosegnut kraj dokumenta, nastavak s početka
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5685,6 +5717,9 @@ pdfjs-find-match-count-limit =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6203,7 +6238,11 @@ pdfjs-missing-file-error = Nedostaje PDF datoteka.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-unexpected-response-error = Neočekivani odgovor poslužitelja.
+=======
+pdfjs-unexpected-response-error = Neočekivani odgovor servera.
+>>>>>>> upstream/18.0
 =======
 pdfjs-unexpected-response-error = Neočekivani odgovor servera.
 >>>>>>> upstream/18.0
@@ -6893,7 +6932,10 @@ pdfjs-editor-free-text-button-label = Tekst
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7413,6 +7455,9 @@ pdfjs-editor-remove-highlight-button =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7913,6 +7958,7 @@ pdfjs-editor-ink-opacity-input = Neprozirnost
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 pdfjs-free-text =
     .aria-label = Uređivač teksta
 pdfjs-free-text-default-content = Počni tipkati …
@@ -7920,6 +7966,8 @@ pdfjs-free-text-default-content = Počni tipkati …
 ## Alt-text dialog
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8444,6 +8492,9 @@ pdfjs-editor-alt-text-textarea =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8942,7 +8993,10 @@ pdfjs-editor-alt-text-textarea =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9517,6 +9571,9 @@ pdfjs-editor-alt-text-settings-close-button = Zatvori
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

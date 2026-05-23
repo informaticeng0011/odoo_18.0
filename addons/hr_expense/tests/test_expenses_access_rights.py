@@ -291,10 +291,13 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1,
             })
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -986,7 +989,10 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1440,6 +1446,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2014,6 +2023,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2821,7 +2833,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -3896,7 +3912,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 1000.0,
+=======
+                'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                 'quantity': 1000.0,
 >>>>>>> upstream/18.0
@@ -4964,7 +4984,10 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5761,6 +5784,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6573,8 +6599,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # An expense manager is not able to post the journal entry.
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7372,6 +7401,9 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8222,7 +8254,11 @@ class TestExpensesAccessRights(TestExpenseCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'price_unit': 1000.0,
+=======
+                    'quantity': 1000.0,
+>>>>>>> upstream/18.0
 =======
                     'quantity': 1000.0,
 >>>>>>> upstream/18.0

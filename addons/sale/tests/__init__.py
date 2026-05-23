@@ -215,6 +215,7 @@ from . import test_product_attribute_value
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_product_catalog
 >>>>>>> upstream/18.0
@@ -744,6 +745,8 @@ from . import test_product_configurator_data
 from . import test_sale_combo_configurator
 from . import test_sale_flow
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -842,6 +845,9 @@ from . import test_sale_early_payment_discount
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

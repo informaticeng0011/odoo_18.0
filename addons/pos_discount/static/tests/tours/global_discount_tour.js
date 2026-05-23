@@ -27,7 +27,10 @@ registry.category("web_tour.tours").add("pos_global_discount_tax_group_2", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("pos_global_discount_fixed_and_percent_taxes", {
     steps: () =>
@@ -40,4 +43,7 @@ registry.category("web_tour.tours").add("pos_global_discount_fixed_and_percent_t
             ProductScreen.totalAmountIs(118),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -21,7 +21,10 @@ registry.category("web_tour.tours").add("VivaWalletTour", {
         ].flat(),
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
 registry.category("web_tour.tours").add("VivaWalletKioskTour", {
     steps: () =>
@@ -36,4 +39,7 @@ registry.category("web_tour.tours").add("VivaWalletKioskTour", {
             PaymentScreen.isShown(),
         ].flat(),
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

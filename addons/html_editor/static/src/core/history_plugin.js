@@ -482,6 +482,7 @@ export class HistoryPlugin extends Plugin {
                     break;
                 }
                 case "childList": {
+<<<<<<< HEAD
                     record.addedNodes.forEach((added) => {
                         const mutation = {
                             type: "add",
@@ -518,6 +519,57 @@ export class HistoryPlugin extends Plugin {
                                 : undefined,
                         });
                     });
+=======
+                    [...record.removedNodes]
+                        // When nodes are expected to not be observed by the
+                        // history, e.g. because they belong to a distinct
+                        // lifecycle such as interactions, some operations such
+                        // as replaceChildren might impact such a node together
+                        // with observed ones.
+                        // Marking the node with skipHistoryHack makes sure that
+                        // it does not accidentally get observed during those
+                        // operations.
+                        // TODO Find a better solution.
+                        .filter((removed) => !removed.dataset?.skipHistoryHack)
+                        .forEach((removed, index, removedNodes) => {
+                            const previousSibling = record.previousSibling;
+                            const nextSibling = removedNodes[index + 1] || record.nextSibling;
+                            this.currentStep.mutations.push({
+                                type: "remove",
+                                id: this.nodeToIdMap.get(removed),
+                                parentId: this.nodeToIdMap.get(record.target),
+                                node: this.serializeNode(removed),
+                                nextId: nextSibling ? this.nodeToIdMap.get(nextSibling) : undefined,
+                                previousId: previousSibling
+                                    ? this.nodeToIdMap.get(previousSibling)
+                                    : undefined,
+                            });
+                        });
+                    [...record.addedNodes]
+                        // TODO Find a better solution.
+                        .filter((added) => !added.dataset?.skipHistoryHack)
+                        .forEach((added, index, addedNodes) => {
+                            const mutation = {
+                                type: "add",
+                            };
+                            const previousSibling = addedNodes[index - 1] || record.previousSibling;
+                            const nextSibling = record.nextSibling;
+                            if (!nextSibling && this.nodeToIdMap.get(record.target)) {
+                                mutation.append = this.nodeToIdMap.get(record.target);
+                            } else if (nextSibling && this.nodeToIdMap.get(nextSibling)) {
+                                mutation.before = this.nodeToIdMap.get(nextSibling);
+                            } else if (!previousSibling && this.nodeToIdMap.get(record.target)) {
+                                mutation.prepend = this.nodeToIdMap.get(record.target);
+                            } else if (previousSibling && this.nodeToIdMap.get(previousSibling)) {
+                                mutation.after = this.nodeToIdMap.get(previousSibling);
+                            } else {
+                                return false;
+                            }
+                            mutation.id = this.nodeToIdMap.get(added);
+                            mutation.node = this.serializeNode(added, mutatedNodes);
+                            this.currentStep.mutations.push(mutation);
+                        });
+>>>>>>> upstream/18.0
                     break;
                 }
             }
@@ -1433,7 +1485,11 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!nodesToStripFromChildren.has(child.nodeId)) {
+=======
+                if (!nodesToStripFromChildren.has(this.nodeToIdMap.get(child))) {
+>>>>>>> upstream/18.0
 =======
                 if (!nodesToStripFromChildren.has(this.nodeToIdMap.get(child))) {
 >>>>>>> upstream/18.0
@@ -2665,7 +2721,11 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.editable.contains(ev.targget)) {
+=======
+        if (this.editable.contains(ev.target)) {
+>>>>>>> upstream/18.0
 =======
         if (this.editable.contains(ev.target)) {
 >>>>>>> upstream/18.0

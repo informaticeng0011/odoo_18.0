@@ -40,7 +40,10 @@ class TestVivaWalletHttpCommon(TestPointOfSaleHttpCommon):
             self.main_pos_config.open_ui()
             self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'VivaWalletTour', login="accountman")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_vw_kiosk_request_data(self):
         """Kiosk: ``cashRegisterId`` must fall back to ``pos.config.name``."""
@@ -63,4 +66,7 @@ class TestVivaWalletHttpCommon(TestPointOfSaleHttpCommon):
                 'VivaWalletKioskTour',
                 login="accountman",
             )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

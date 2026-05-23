@@ -235,6 +235,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +272,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * event
 #
 >>>>>>> upstream/18.0
 =======
@@ -1462,6 +1467,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -2430,10 +2436,15 @@
 #
 # "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# "Kwanghee Park (kwpa)" <kwpa@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3774,6 +3785,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-02-14 09:10+0000\n"
 "Last-Translator: \"Kwanghee Park (kwpa)\" <kwpa@odoo.com>\n"
@@ -3819,6 +3832,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4147,6 +4163,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4716,6 +4733,10 @@ msgstr ""
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.12.2\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -5201,6 +5222,7 @@ msgid ""
 "'Full Page Ticket - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6423,6 +6445,10 @@ msgstr ""
 "'티켓 전체 페이지 - %s - %s' % ((object.event_id.name or "
 "'Event').replace('/',''), (object.name or '').replace('/',''))"
 >>>>>>> upstream/18.0
+=======
+"'티켓 전체 페이지 - %s - %s' % ((object.event_id.name or "
+"'Event').replace('/',''), (object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_full_page_ticket
@@ -6430,6 +6456,7 @@ msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
 msgstr "'티켓 전체 페이지 - %s' % (object.name or 'Event').replace('/','')"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6558,6 +6585,8 @@ msgstr "+123456789"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "- \"%(event_name)s\": Missing %(nb_too_many)i seats."
@@ -6569,6 +6598,7 @@ msgstr "- \"%(event_name)s\": 누락 수 %(nb_too_many)i 좌석."
 msgid ""
 "- the ticket \"%(ticket_name)s\" (%(event_name)s): Missing %(nb_too_many)i "
 "seats."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7795,6 +7825,10 @@ msgstr ""
 msgstr ""
 "- 티켓 \"%(ticket_name)s\" (%(event_name)s): 누락 수 %(nb_too_many)i 좌석."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"- 티켓 \"%(ticket_name)s\" (%(event_name)s): 누락 수 %(nb_too_many)i 좌석."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_formatted_event_address
@@ -7802,6 +7836,7 @@ msgid "1000 Brussels"
 msgstr "1000 브뤼셀"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7935,11 +7970,14 @@ msgstr "18+"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__four_per_sheet
 msgid "4 per sheet"
 msgstr "시트 장 4개"
 
 #. module: event
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8068,6 +8106,8 @@ msgstr "5-10"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:event.selection__event_event__badge_format__96x134
 msgid "96x134mm (Badge Printer)"
 msgstr "96x134mm (배지 프린터)"
@@ -8094,6 +8134,7 @@ msgstr "<b>기술실</b> -고급 Odoo 개발자 전용, 새로운 개발자 용.
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8829,6 +8870,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</"
 "b><br> We propose 3 different training sessions, 2 days each."
 msgstr ""
@@ -9077,6 +9120,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9572,6 +9618,7 @@ msgid ""
 "more time for thematical meetings, conferences, workshops and tutorial "
 "sessions in the afternoon."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10794,10 +10841,15 @@ msgstr ""
 "<b>아침에 본회의는 더 짧을 것입니다</b> 오후에는 주제별 회의, 컨퍼런스, 워크"
 "샵 및 자습서 세션에 더 많은 시간을 할애할 것입니다."
 >>>>>>> upstream/18.0
+=======
+"<b>아침에 본회의는 더 짧을 것입니다</b> 오후에는 주제별 회의, 컨퍼런스, 워크"
+"샵 및 자습서 세션에 더 많은 시간을 할애할 것입니다."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11538,6 +11590,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<b>The whole event is open to all public!</b> <br>We ask a participation fee "
 "of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and "
 "a surprising concert and beer party).<br> For those who don't want to "
@@ -11791,6 +11845,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12535,7 +12592,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            <span class=\"me-1\">시작일</span>"
+=======
+"                                            <span class=\"me-1\">시작일</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                            <span class=\"me-1\">시작일</"
 "span>"
@@ -13764,6 +13826,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            <span class=\"me-1\">종료일</span>"
 =======
 "                                            <span class=\"me-1\">종료일</"
@@ -14741,11 +14804,16 @@ msgstr ""
 "                                            <span class=\"me-1\">종료일</"
 "span>"
 >>>>>>> upstream/18.0
+=======
+"                                            <span class=\"me-1\">종료일</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15481,6 +15549,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <span class=\"text-muted\">Air your "
 "tracks online through a Youtube integration</span>"
 msgstr ""
@@ -15730,6 +15800,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16466,11 +16539,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"text-muted\">Share a quiz to your attendees once a track is over</span>"
 msgstr ""
 "<br/>\n"
 "                                        <span class=\"text-muted\">조회를 마치면 참석자들과 함께 퀴즈를 즐겨보세요.</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17206,6 +17282,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17947,10 +18026,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<em>프레젠테이션을 희망하시는 경우, 최대한 빨리 ngh (a) yourcompany (dot) com 를 통해 담당자 Famke "
 "씨에게 보내셔서 확인을 받으시기 바랍니다. 프레젠테이션은 예를 들어, 커뮤니티 모듈이나 케이스 스터디, 방법론적인 피드백이나 기술 등에 "
 "대한 프레젠테이션이어야 합니다. 모든 프레젠테이션은 반드시 영어로 진행되어야 합니다.</em> "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18685,6 +18767,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19183,6 +19268,7 @@ msgstr "<i class=\"fa fa-building\" title=\"Attendee Company\"/>"
 msgid ""
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm Attendance "
 "Button\" title=\"Confirm Attendance\"/>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20648,10 +20734,16 @@ msgstr ""
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"참석 확인 버튼\" "
 "title=\"참석 확인\"/>"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"참석 확인 버튼\" "
+"title=\"참석 확인\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21388,6 +21480,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Reset To Registered "
 "Button\" title=\"Reset To Registered\"/>"
 msgstr ""
@@ -21636,6 +21730,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22378,7 +22475,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-info-circle me-2\"></i>본 행사 및 모든 회의는 <b>영어</b>로 진행됩니다!"
+=======
+msgstr ""
+"<i class=\"fa fa-info-circle me-2\"></i>본 행사 및 모든 회의는 <b>영어</b>로 "
+"진행됩니다!"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "<i class=\"fa fa-info-circle me-2\"></i>본 행사 및 모든 회의는 <b>영어</b>로 "
@@ -23849,6 +23952,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"화살표 아이콘\" title=\"화살표\"/>"
 
 #. module: event
@@ -23856,6 +23960,8 @@ msgstr "<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"화살표 아이�
 msgid "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
 msgstr "<i class=\"fa fa-map-marker mt-1 me-2 text-center ps-1\" title=\"Location\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24595,6 +24701,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25340,11 +25449,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"badge text-bg-secondary o_wevent_badge float-"
 "end\">SPEAKER</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary o_wevent_badge float-end\">발표자</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26079,6 +26191,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26841,6 +26956,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -26850,6 +26966,8 @@ msgid ""
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else object._get_event_registration_ids_from_order()\"/>\n"
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27597,6 +27715,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28332,10 +28453,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29071,6 +29195,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29806,6 +29933,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <a t-attf-href=\"/event/{{ object.event_id.id }}/my_tickets?badge_mode=1&amp;registration_ids={{ registration_ids }}&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}\" target=\"_blank\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">\n"
 "                        Download Badges\n"
 "                    </a>\n"
@@ -29816,6 +29944,8 @@ msgid ""
 "                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30563,6 +30693,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31301,6 +31434,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -31312,6 +31446,8 @@ msgid ""
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</strong>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32057,6 +32193,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32549,6 +32688,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33287,6 +33427,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -33519,6 +33661,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34240,6 +34385,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34979,11 +35127,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name or ''\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35719,6 +35870,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36455,7 +36609,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -37927,7 +38087,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -39396,6 +39562,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -39448,6 +39615,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40270,6 +40439,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41009,7 +41181,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -42481,6 +42659,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -42491,6 +42670,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43234,6 +43415,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43973,7 +44157,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -45445,7 +45635,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -46673,7 +46868,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -48146,11 +48347,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48890,6 +49094,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49635,6 +49842,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -49642,6 +49850,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50382,6 +50592,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50877,6 +51090,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56588,6 +56802,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
@@ -56780,8 +56996,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<t t-set=\"is_sale\" t-value=\"'sale_order_id' in object and "
 "object.sale_order_id\"/>\n"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57394,6 +57613,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57885,6 +58107,7 @@ msgid ""
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58622,12 +58845,15 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</"
 "span><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59749,6 +59975,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
 "                    </span>\n"
@@ -59945,6 +60173,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60555,6 +60786,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61049,6 +61283,7 @@ msgid ""
 "    <!-- EVENT DESCRIPTION -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61792,11 +62027,14 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62342,6 +62580,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        안녕하세요 <t t-out=\"object.name or 'Guest'\"/>님,"
 "<br/><br/>\n"
 "                        다음 행사의 입장용 배지를 첨부 파일에서 확인해 주시"
@@ -62526,6 +62766,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62894,6 +63137,7 @@ msgid ""
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            <strong t-out=\"object.event_id.name or "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63826,6 +64070,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "''\">OpenWood Collection Online Reveal</strong>.\n"
 "                        </t>\n"
 "                    </div>\n"
@@ -64012,6 +64258,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64605,6 +64854,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65326,6 +65578,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66061,6 +66316,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We confirm your registration and hope to meet you there,<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
@@ -66195,6 +66451,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67098,6 +67356,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67713,6 +67974,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68205,6 +68469,7 @@ msgid ""
 "                    </div>\n"
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69670,6 +69935,11 @@ msgid ""
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -69921,7 +70191,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -71390,6 +71666,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -71442,6 +71719,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name or ''\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-value=\"'%s, %s' % (location, object.event_id.address_id.country_id.name)\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72265,6 +72544,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73004,7 +73286,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -74476,6 +74764,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -74486,6 +74775,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone or ''\"/></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75229,6 +75520,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75967,8 +76261,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online or event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76702,6 +76999,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77444,8 +77744,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <hr t-if=\"is_online and event_address\" width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78179,6 +78482,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -78914,6 +79220,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <table t-if=\"event_address and location\" style=\"width:100%;\"><tr><td>\n"
 "                        <div>\n"
 "                            <i class=\"fa fa-map-marker\"/>\n"
@@ -78921,6 +79228,8 @@ msgid ""
 "                                <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-attf-src=\"{{ event_address.static_map_url }}\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                <span t-else=\"\">See location on Google Maps</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79663,6 +79972,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80406,6 +80718,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <table t-if=\"object.company_id\" width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "        Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -80413,6 +80726,8 @@ msgid ""
 "            <br/>\n"
 "            Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81154,6 +81469,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81648,6 +81966,7 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87432,6 +87751,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
@@ -87695,6 +88016,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88430,6 +88754,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">Your registration</span><br/>\n"
@@ -88920,10 +89245,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89848,6 +90176,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    <span style=\"font-size: 10px;\">등록 안내</span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
 "out=\"object.name or 'Guest'\"/>\n"
@@ -90032,6 +90362,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90400,6 +90733,7 @@ msgid ""
 "size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: "
 "400; background-color: #875A7B; border: 0px solid #875A7B; border-"
 "radius:3px\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91334,6 +91668,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            티켓 보기\n"
 "                        </a>\n"
 "                    </div>\n"
@@ -91520,6 +91856,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92121,6 +92460,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92850,6 +93192,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93588,6 +93933,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <div>\n"
@@ -93727,6 +94073,8 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94627,6 +94975,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95253,6 +95604,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95988,6 +96342,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        The order for this ticket has reference <t t-out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-out=\"object.sale_order_id.date_order.date()\"/>\n"
 "                        <t t-if=\"object.sale_order_line_id.price_unit\"> for an amount of\n"
@@ -96479,10 +96834,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        The order for this ticket has reference <t t-"
 "out=\"object.sale_order_id.name\"/>\n"
 "                        and was placed on <t t-"
 "out=\"object.sale_order_id.date_order.date()\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97217,6 +97575,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <t t-if=\"object.sale_order_line_id.price_total\"> "
 "for an amount of\n"
 "                            <t t-"
@@ -97402,6 +97762,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97768,6 +98131,7 @@ msgid ""
 "                    <div>\n"
 "                        <br/>\n"
 "                        <strong>Add this event to your calendar</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98506,6 +98870,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
 "&amp;dates={{ date_begin }}/{{ date_end }}&amp;location={{ location }}"
@@ -98738,6 +99104,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99459,6 +99828,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100198,11 +100570,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"event_organizer.name\">YourCompany</t>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            The <t t-out=\"object.event_id.name or ''\">OpenWood Collection Online Reveal</t> Team\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100938,6 +101313,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101430,6 +101808,7 @@ msgid ""
 "                    </div>\n"
 "                </td></tr>\n"
 "                <tr><td style=\"text-align:center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102895,6 +103274,11 @@ msgid ""
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
 "size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
 >>>>>>> upstream/18.0
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 "                </td></tr>\n"
 "            </table>\n"
 "        </td>\n"
@@ -103146,7 +103530,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
@@ -104615,6 +105005,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <img src=\"/web_editor/font_to_img/61555/rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" alt=\"\"/>\n"
 "                            </td>\n"
 "                            <td style=\"padding: 0px 10px 0px 10px;width:50%;line-height:20px;vertical-align:top;\">\n"
@@ -104667,6 +105058,8 @@ msgid ""
 "                                        <div t-out=\"object.event_id.address_id.country_id.name\">Argentina</div>\n"
 "                                        <t t-set=\"location\" t-valuef=\"{{location}}, {{object.event_id.address_id.country_id.name}}\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -105489,6 +105882,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106228,7 +106624,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -107700,6 +108102,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">Questions about this event?</span>\n"
 "                            <div>Please contact the organizer:</div>\n"
 "                            <ul>\n"
@@ -107710,6 +108113,8 @@ msgid ""
 "                                <t t-if=\"event_organizer.phone\">\n"
 "                                    <li>Phone: <t t-out=\"event_organizer.phone\">+1 650-123-4567</t></li>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108453,6 +108858,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109192,7 +109600,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -110664,7 +111078,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>Get the best mobile experience.</strong>\n"
+=======
+"                            <strong>Get the best mobile experience.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <strong>Get the best mobile experience.</"
 "strong>\n"
@@ -111892,7 +112311,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -113365,11 +113790,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
 "                                    <t t-else=\"\">See location on Google Maps</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -114109,6 +114537,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114854,6 +115285,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
 "            Sent by <a target=\"_blank\" t-attf-href=\"{{ object.company_id.website }}\" style=\"color: #875A7B;\" t-out=\"object.company_id.name or ''\">YourCompany</a>\n"
@@ -114861,6 +115293,8 @@ msgid ""
 "                <br/>\n"
 "                Discover <a href=\"/event\" style=\"color:#875A7B;\">all our events</a>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115601,6 +116035,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -116340,6 +116777,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
 "<t t-set=\"date_begin\" t-value=\"format_datetime(object.event_id.date_begin, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
 "<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"/>\n"
@@ -116794,6 +117232,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
 "16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
 "color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
@@ -116945,6 +117385,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117226,6 +117669,7 @@ msgstr ""
 "<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"/>\n"
 "<t t-set=\"registration_ids\" t-value=\"object.ids if not is_sale else "
 "object._get_event_registration_ids_from_order()\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118295,10 +118739,16 @@ msgstr ""
 "style=\"padding: 16px; background-color: white; color: #454748; border-"
 "collapse:separate;\">\n"
 >>>>>>> upstream/18.0
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 16px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "<tbody>\n"
 "    <!-- HEADER -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119602,12 +120052,18 @@ msgstr ""
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 >>>>>>> upstream/18.0
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "                <tr><td valign=\"middle\">\n"
 "                    <span style=\"font-size: 10px;\">등록 안내</span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 "                        <t t-out=\"object.name or 'Guest'\"/>\n"
 "                    </span>\n"
 "                    <div style=\"margin-bottom: 5px;margin-top: 18px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120497,6 +120953,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <a t-attf-href=\"/event/{{ object.event_id.id }}/"
 "my_tickets?registration_ids={{ registration_ids }}"
 "&amp;tickets_hash={{ object.event_id._get_tickets_access_hash(registration_ids) }}"
@@ -120642,6 +121100,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -120925,6 +121386,7 @@ msgstr ""
 "                </td><td valign=\"middle\" align=\"right\">\n"
 "                    <t t-if=\"object.barcode\"> \n"
 "                        <div style=\"margin-bottom: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121594,6 +122056,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <img t-attf-src=\"/report/barcode/QR/"
 "{{object.barcode}}?&amp;width=100&amp;height=100&amp;quiet=0\" width=\"100\" "
 "height=\"100\" alt=\"QR Code\" t-att-style=\"'height: 100px !important;'\"/"
@@ -121743,6 +122207,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122242,6 +122709,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -122682,6 +123152,7 @@ msgstr ""
 "    <!-- EVENT DESCRIPTION -->\n"
 "    <tr>\n"
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124173,6 +124644,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
@@ -124332,6 +124805,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -124613,6 +125089,7 @@ msgstr ""
 "                    </div>\n"
 "                    <div t-if=\"is_sale\">\n"
 "                        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125603,6 +126080,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        티켓 주문서 참조 번호: <t t-"
 "out=\"object.sale_order_id.name\"/>\n"
 "                       주문 날짜: <t t-"
@@ -125750,6 +126229,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126031,6 +126513,7 @@ msgstr ""
 "                    </div>\n"
 "                    <div>\n"
 "                        <br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127203,6 +127686,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        <strong>캘린더에 일정 추가하기</strong>\n"
 "                        <a t-attf-href=\"https://www.google.com/calendar/"
 "render?action=TEMPLATE&amp;text={{ object.event_id.name }}"
@@ -127367,6 +127852,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -127648,6 +128136,7 @@ msgstr ""
 "                        <br/><br/>\n"
 "                    </div>\n"
 "                    <div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128619,6 +129108,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                        곧 만나뵙겠습니다.<br/>\n"
 "                        <span style=\"color: #454748;\">\n"
 "                        -- <br/>\n"
@@ -128767,6 +129258,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129266,7 +129760,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                  <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                  <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                  <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -130576,6 +131076,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 =======
 "            <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing="
@@ -131662,10 +132163,16 @@ msgstr ""
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
 "padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 >>>>>>> upstream/18.0
+=======
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+>>>>>>> upstream/18.0
 "                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
 "                    <table style=\"width:100%;\">\n"
 "                        <tr>\n"
 "                            <td style=\"vertical-align:top;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -132381,6 +132888,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <img src=\"/web_editor/font_to_img/61555/"
 "rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
 "alt=\"\"/>\n"
@@ -132533,6 +133042,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -132816,6 +133328,7 @@ msgstr ""
 "                                </div>\n"
 "                                <div>\n"
 "                                    <strong>종료일</strong>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133537,6 +134050,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <t t-out=\"object.event_id.date_end\" t-"
 "options=\"{&quot;widget&quot;: &quot;datetime&quot;, &quot;date_only&quot;: "
 "True, &quot;tz_name&quot;: object.event_id.date_tz, &quot;format&quot;: "
@@ -133748,6 +134263,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134250,7 +134768,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -135560,6 +136084,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <span style=\"font-weight:300;margin:10px 0px\">행사와 관련하여 궁금한 점이 있으신가요?</span>\n"
 "                            <div>주최측으로 연락 주시기 바랍니다:</div>\n"
 "                            <ul>\n"
@@ -136248,6 +136773,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <span style=\"font-weight:300;margin:10px 0px\">"
 "행사와 관련하여 궁금한 점이 있으신가요?</span>\n"
 "                            <div>주최 측으로 연락주시기 바랍니다:</div>\n"
@@ -136400,6 +136927,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -136902,7 +137432,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -138212,6 +138748,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <strong>모바일에서도 최적의 경험을 선사합니다.</strong>\n"
 =======
 "                            <strong>모바일에서도 최고의 경험을 "
@@ -139081,6 +139618,10 @@ msgstr ""
 "                            <strong>모바일에서도 최고의 경험을 선사합니다.</"
 "strong>\n"
 >>>>>>> upstream/18.0
+=======
+"                            <strong>모바일에서도 최고의 경험을 선사합니다.</"
+"strong>\n"
+>>>>>>> upstream/18.0
 "                            <a href=\"/event\">모바일 앱 설치하기</a>\n"
 "                        </div>\n"
 "                    </t>\n"
@@ -139305,7 +139846,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+=======
+"                        <hr width=\"100%\" style=\"background-"
+"color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
+"size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+>>>>>>> upstream/18.0
 =======
 "                        <hr width=\"100%\" style=\"background-"
 "color:rgb(204,204,204);border:medium none;clear:both;display:block;font-"
@@ -140616,6 +141163,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <i class=\"fa fa-map-marker\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/maps?q={{ location }}\" target=\"new\">\n"
 "                                    <img t-if=\"event_address.static_map_url and event_address.static_map_url_is_valid\" t-att-src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: 100%;\" alt=\"Google Maps\"/>\n"
@@ -141295,6 +141843,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <img src=\"/web_editor/font_to_img/61505/"
 "rgb(81,81,102)/20\" height=\"20\" style=\"vertical-align: bottom;\"/>\n"
 "                                <a t-attf-href=\"https://maps.google.com/"
@@ -141443,6 +141993,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141734,6 +142287,7 @@ msgstr ""
 "<!-- FOOTER BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <t t-if=\"object.company_id\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142776,6 +143330,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <table width=\"590\" border=\"0\" cellpadding=\"0\" "
 "cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; "
 "color: #454748; padding: 8px; border-collapse:separate;\">\n"
@@ -142925,6 +143481,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -143426,6 +143985,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144225,10 +144787,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Add a navigation menu to your event web pages with schedule, tracks, a track"
 " proposal form, etc."
 msgstr "일정, 트랙, 트랙 제안서 양식으로 행사 웹 페이지에 탐색 메뉴를 추가하십시오."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144962,6 +145527,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -145747,12 +146315,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "And this time, we go fully ONLINE! Meet us in our live streams from the comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various streams, make sure to be there on time."
 msgstr ""
 "또한 이번에는 완전히 온라인으로 진행됩니다! 집에서 편안하게 실시간 스트리밍으로 만나보세요.<br>\n"
 "        다양한 스트리밍 방송 중에 특별 할인 코드가 안내 될 예정이오니 본 방송을 놓치지 마시기 바랍니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -146491,6 +147062,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147274,7 +147848,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "백여 개의 풍선이 한꺼번에 날아올라서 하늘을 아름다운 색채의 캔버스로 변신시킵니다."
+=======
+msgstr ""
+"백여 개의 풍선이 한꺼번에 날아올라서 하늘을 아름다운 색채의 캔버스로 변신시킵"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "백여 개의 풍선이 한꺼번에 날아올라서 하늘을 아름다운 색채의 캔버스로 변신시킵"
@@ -148760,10 +149340,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "13 살 때 John DOE는 이미 고객을 위한 첫 번째 비즈니스 응용 프로그램을 개발하기 시작했습니다. 토목 공학을 습득 한 후 "
 "TinyERP를 설립했습니다. 이것은 OpenERP의 첫 번째 단계였으며 이후에는 전 세계에서 가장 많이 설치된 오픈 소스 비즈니스 "
 "소프트웨어인 Odoo가 되었습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -149497,6 +150080,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150349,10 +150935,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show"
 " of the century during our three day event."
 msgstr "바 파이터스, 레드 슬리퍼, 링크 플로이드 등의 밴드가 3일 간의 행사 기간 동안 세기의 쇼를 선사합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151087,6 +151676,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -151864,7 +152456,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bloem은 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아니라, 목재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
+=======
+"Bloem은 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아니라, 목"
+"재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
+>>>>>>> upstream/18.0
 =======
 "Bloem은 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아니라, 목"
 "재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
@@ -153106,10 +153703,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bring your outdoor field hockey season to the next level by taking the field"
 " at this 9th annual Field Hockey tournament."
 msgstr "제 9 회 연례 Field Hockey 토너먼트에서 필드를 통해 야외 필드 하키 시즌을 한 단계 높이십시오."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -153844,6 +154444,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -154624,7 +155227,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "챔버 웍스는 행사를 취소, 재명명 또는 재배치하거나 개최 일자를 변경할 권리가 있습니다."
+=======
+msgstr ""
+"챔버 웍스는 행사를 취소, 재명명 또는 재배치하거나 개최 일자를 변경할 권리가 "
+"있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "챔버 웍스는 행사를 취소, 재명명 또는 재배치하거나 개최 일자를 변경할 권리가 "
@@ -156095,7 +156704,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "티켓, 커뮤니케이션, 설명 및 기타 필드를 자동으로 채우려면 템플릿을 선택하세요."
+=======
+msgstr ""
+"티켓, 커뮤니케이션, 설명 및 기타 필드를 자동으로 채우려면 템플릿을 선택하세"
+"요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "티켓, 커뮤니케이션, 설명 및 기타 필드를 자동으로 채우려면 템플릿을 선택하세"
@@ -157789,8 +158404,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "사용할 수 있는 티켓 수를 지정합니다. 등록자가 너무 많은 경우 더 이상 티켓을 판매할 수 없습니다. 이 규칙을 무시하고 무제한으로 "
 "하려면 0으로 설정하시기 바랍니다."
+=======
+"사용할 수 있는 티켓 수를 지정합니다. 등록자가 너무 많은 경우 더 이상 티켓을 "
+"판매할 수 없습니다. 이 규칙을 무시하고 무제한으로 하려면 0으로 설정하시기 바"
+"랍니다."
+>>>>>>> upstream/18.0
 =======
 "사용할 수 있는 티켓 수를 지정합니다. 등록자가 너무 많은 경우 더 이상 티켓을 "
 "판매할 수 없습니다. 이 규칙을 무시하고 무제한으로 하려면 0으로 설정하시기 바"
@@ -159329,8 +159950,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 회의에서 저희 팀은 비즈니스 애플리케이션에 대한 자세한 개요를 제공할 것입니다. 여러분은 그것을 사용함으로써 얻을 수 있는 모든 "
 "이점을 알게 될 거예요."
+=======
+"이 회의에서 저희 팀은 비즈니스 애플리케이션에 대한 자세한 개요를 제공할 것입"
+"니다. 여러분은 그것을 사용함으로써 얻을 수 있는 모든 이점을 알게 될 거예요."
+>>>>>>> upstream/18.0
 =======
 "이 회의에서 저희 팀은 비즈니스 애플리케이션에 대한 자세한 개요를 제공할 것입"
 "니다. 여러분은 그것을 사용함으로써 얻을 수 있는 모든 이점을 알게 될 거예요."
@@ -160816,12 +161442,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                usually based on the types of events you organize (e.g. \"Workshop\",\n"
 "                \"Roadshow\", \"Online Webinar\", etc)."
 msgstr ""
 "행사 서식에는 자주 사용하는 설정 항목을 조합한 것으로,\n"
 "                  보통 귀하가 조직하는 행사 유형을 기준으로 합니다 (예: '워크샵',\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -161558,6 +162187,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -162368,7 +163000,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "행사가 종료되면 자동으로 이 단계로 이동합니다. 행사가 이 단계로 이동하면 자동으로 초록색으로 설정됩니다."
+=======
+msgstr ""
+"행사가 종료되면 자동으로 이 단계로 이동합니다. 행사가 이 단계로 이동하면 자동"
+"으로 초록색으로 설정됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "행사가 종료되면 자동으로 이 단계로 이동합니다. 행사가 이 단계로 이동하면 자동"
@@ -163839,12 +164477,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
 "            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
 msgstr ""
 "매년 저희는 커뮤니티와 협력사 및 최종 사용자들을 초청하여 만나 뵙고 있습니다! 함께 자리하여 새로운 기능이나 향후 버전에 관한 로드맵, 소프트웨어 실적과 워크샵 및 교육 세션 등을 한자리에 모여 발표하는 최고의 행사입니다.\n"
 "           본 행사는 저희 협력사가 사례 연구나 방법론 또는 개발 내용을 소개하는 자리이기도 합니다. 참석하셔서 새 버전에서 선보이는 기능을 직접 확인해 보세요."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -164588,6 +165229,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -165328,8 +165972,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "매년 우리는 커뮤니티, 파트너 및 최종 사용자를 초대하여 우리를 만나게 합니다! 새로운 기능, 향후 버전의 로드맵, 소프트웨어 성과, "
 "워크샵, 교육 세션 등을 모아서 제시하는 이상적인 행사입니다."
+=======
+"매년 우리는 커뮤니티, 파트너 및 최종 사용자를 초대하여 우리를 만나게 합니다! "
+"새로운 기능, 향후 버전의 로드맵, 소프트웨어 성과, 워크샵, 교육 세션 등을 모아"
+"서 제시하는 이상적인 행사입니다."
+>>>>>>> upstream/18.0
 =======
 "매년 우리는 커뮤니티, 파트너 및 최종 사용자를 초대하여 우리를 만나게 합니다! "
 "새로운 기능, 향후 버전의 로드맵, 소프트웨어 성과, 워크샵, 교육 세션 등을 모아"
@@ -166810,7 +167460,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "종료된 이벤트입니다. 종료 날짜가 지나면 Odoo에서 자동으로 이 단계로 이동합니다."
+=======
+msgstr ""
+"종료된 이벤트입니다. 종료 날짜가 지나면 Odoo에서 자동으로 이 단계로 이동합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "종료된 이벤트입니다. 종료 날짜가 지나면 Odoo에서 자동으로 이 단계로 이동합니"
@@ -168314,7 +168970,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "각 행사에 대해 최대 등록 좌석수(참석자 수)를 정의 할 수 있으며 이 수를 초과하면 등록되지 않습니다."
+=======
+msgstr ""
+"각 행사에 대해 최대 등록 좌석수(참석자 수)를 정의 할 수 있으며 이 수를 초과하"
+"면 등록되지 않습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "각 행사에 대해 최대 등록 좌석수(참석자 수)를 정의 할 수 있으며 이 수를 초과하"
@@ -169810,10 +170472,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "From this dashboard you can report, analyze and detect trends regarding your"
 " event registrations."
 msgstr "이 현황판에서 행사 등록과 관련한 추세를 보고, 분석 및 감지할 수 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -170547,6 +171212,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -171475,7 +172143,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "True인 경우 이 질문은 한 번만 표시되며 모든 참석자에게 전달됩니다. 그렇지 않은 경우 예약한 모든 참석자에게 질문이 표시됩니다."
+=======
+"True인 경우 이 질문은 한 번만 표시되며 모든 참석자에게 전달됩니다. 그렇지 않"
+"은 경우 예약한 모든 참석자에게 질문이 표시됩니다."
+>>>>>>> upstream/18.0
 =======
 "True인 경우 이 질문은 한 번만 표시되며 모든 참석자에게 전달됩니다. 그렇지 않"
 "은 경우 예약한 모든 참석자에게 질문이 표시됩니다."
@@ -172725,12 +173398,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If you don't know anything about Hockey, this is a great introduction to this wonderful sport as you will will be able to see some training process and also have some time\n"
 "                to chat with experienced players and trainers once the tournament is over!"
 msgstr ""
 "하키에 대해서 전혀 모르시는 경우, 이번이야말로 이 놀라운 스포츠에 대해 알아볼 수 있는 절호의 기회로, 훈련 과정 일부를 참관할 수 있을 뿐만 아니라 토너먼트 종료 후에는\n"
 "              노련한 선수 및 트레이너들과 이야기를 나누는 시간까지 마련되어 있습니다!  "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -173471,6 +174147,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174675,7 +175354,12 @@ msgid "Now that your event is ready, click here to move it to another stage."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이제 행사 준비가 완료되었습니다. 다른 단계로 이동하려면 여기를 클릭하세요."
+=======
+msgstr ""
+"이제 행사 준비가 완료되었습니다. 다른 단계로 이동하려면 여기를 클릭하세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이제 행사 준비가 완료되었습니다. 다른 단계로 이동하려면 여기를 클릭하세요."
@@ -175997,10 +176681,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "OpenElec Applications reserves the right to cancel, re-name or re-locate the"
 " event or change the dates on which it is held."
 msgstr "OpenElec Applications는 행사를 취소하거나 이름 변경 또는 재배치하거나 개최 날짜를 변경할 권리가 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -176735,6 +177422,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -177489,7 +178179,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "최신 컬렉션이 온라인에서 공개됩니다! 실시간 스트리밍으로 저희와 소통해요!"
+=======
+msgstr ""
+"최신 컬렉션이 온라인에서 공개됩니다! 실시간 스트리밍으로 저희와 소통해요!"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "최신 컬렉션이 온라인에서 공개됩니다! 실시간 스트리밍으로 저희와 소통해요!"
@@ -178723,8 +179418,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Override the default value displayed for the done state for kanban "
 "selection."
+=======
+"Override the default value displayed for the done state for kanban selection."
+>>>>>>> upstream/18.0
 =======
 "Override the default value displayed for the done state for kanban selection."
 >>>>>>> upstream/18.0
@@ -179847,7 +180546,12 @@ msgid "Ready to <b>organize events</b> in a few minutes? Let's get started!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "단 몇 분 만에 <b>행사 준비</b>를 하실 준비가 되셨나요? 이제 시작합니다! "
+=======
+msgstr ""
+"단 몇 분 만에 <b>행사 준비</b>를 하실 준비가 되셨나요? 이제 시작합니다! "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "단 몇 분 만에 <b>행사 준비</b>를 하실 준비가 되셨나요? 이제 시작합니다! "
@@ -181083,7 +181787,11 @@ msgid "Running"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "실행 중"
+=======
+msgstr "진행 중"
+>>>>>>> upstream/18.0
 =======
 msgstr "진행 중"
 >>>>>>> upstream/18.0
@@ -181647,7 +182355,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "모든 행사 준비 사항을 여기에서 계획하세요. 행사 등록이나 안내 이메일 자동 발송, 티켓 판매 등을 지정해 보세요."
+=======
+msgstr ""
+"모든 행사 준비 사항을 여기에서 계획하세요. 행사 등록이나 안내 이메일 자동 발"
+"송, 티켓 판매 등을 지정해 보세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "모든 행사 준비 사항을 여기에서 계획하세요. 행사 등록이나 안내 이메일 자동 발"
@@ -183233,8 +183947,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Shangai Pterocarpus 가구는 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아니라, 목재 가공업계에 신뢰와 "
 "진심을 담아드리고 있습니다."
+=======
+"Shangai Pterocarpus 가구는 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 "
+"있을 뿐만 아니라, 목재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
+>>>>>>> upstream/18.0
 =======
 "Shangai Pterocarpus 가구는 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 "
 "있을 뿐만 아니라, 목재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
@@ -184584,7 +185303,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "태그 색상. 색상을 설정하지 않으면 칸반이나 프론트 엔드에 내부 태그와 공개 분류 태그를 구분하기 위한 색상이 표시되지 않습니다."
+=======
+"태그 색상. 색상을 설정하지 않으면 칸반이나 프론트 엔드에 내부 태그와 공개 분"
+"류 태그를 구분하기 위한 색상이 표시되지 않습니다."
+>>>>>>> upstream/18.0
 =======
 "태그 색상. 색상을 설정하지 않으면 칸반이나 프론트 엔드에 내부 태그와 공개 분"
 "류 태그를 구분하기 위한 색상이 표시되지 않습니다."
@@ -185872,7 +186596,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "세계 최고의 조종사들이 본 행사를 위해 모여 최대의 화려한 쇼를 선사할 것입니다."
+=======
+msgstr ""
+"세계 최고의 조종사들이 본 행사를 위해 모여 최대의 화려한 쇼를 선사할 것입니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "세계 최고의 조종사들이 본 행사를 위해 모여 최대의 화려한 쇼를 선사할 것입니"
@@ -187359,7 +188089,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "행사에 잔여 좌석이 없는 경우에는 매진 처리됩니다. 입장권 판매의 경우 티켓 판매가 완료되면 행사는 매진 처리됩니다. "
+=======
+msgstr ""
+"행사에 잔여 좌석이 없는 경우에는 매진 처리됩니다. 입장권 판매의 경우 티켓 판"
+"매가 완료되면 행사는 매진 처리됩니다. "
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "행사에 잔여 좌석이 없는 경우에는 매진 처리됩니다. 입장권 판매의 경우 티켓 판"
@@ -188830,6 +189566,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "최고의 OpenWood 가구가 새로운 컬렉션과 함께 고객님의 자택으로 찾아옵니다."
 =======
 msgstr ""
@@ -189807,11 +190544,16 @@ msgstr ""
 msgstr ""
 "최고의 OpenWood 가구가 새로운 컬렉션과 함께 고객님의 자택으로 찾아옵니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"최고의 OpenWood 가구가 새로운 컬렉션과 함께 고객님의 자택으로 찾아옵니다."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190547,6 +191289,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The following tickets cannot be deleted while they have one or more "
 "registrations linked to them:\n"
 "- %s"
@@ -190796,6 +191540,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -191538,10 +192285,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The stop date cannot be earlier than the start date. Please check ticket "
 "%(ticket_name)s"
 msgstr "중지일은 시작일보다 이전 날짜가 될 수 없습니다. %(ticket_name)s 티켓을 확인하세요."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192276,6 +193026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -193027,8 +193780,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 행사는 또한 파트너의 사례 연구, 방법론 또는 개발을 소개 할 수 있는 기회이기도 합니다. 버전 12의 기능을 소스에서 직접 "
 "확인하십시오!"
+=======
+"이 행사는 또한 파트너의 사례 연구, 방법론 또는 개발을 소개 할 수 있는 기회이"
+"기도 합니다. 버전 12의 기능을 소스에서 직접 확인하십시오!"
+>>>>>>> upstream/18.0
 =======
 "이 행사는 또한 파트너의 사례 연구, 방법론 또는 개발을 소개 할 수 있는 기회이"
 "기도 합니다. 버전 12의 기능을 소스에서 직접 확인하십시오!"
@@ -194253,12 +195011,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This event is fully online and FREE, if you have paid for tickets, you should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video quality."
 msgstr ""
 "이 행사는 전체가 온라인으로 무료 진행됩니다. 티켓을 구입하신 경우, 환불을 받으시기 바랍니다.<br>\n"
 "        인터넷 연결 상태가 양호하여야 최상의 품질로 동영상을 시청하실 수 있습니다. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -194997,6 +195758,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -195746,7 +196510,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "가족과 함께 행복한 하루를 보낼 수 있는 완벽한 장소입니다. 영원히 남을 아름다운 추억의 장소를 보장해드립니다!"
+=======
+msgstr ""
+"가족과 함께 행복한 하루를 보낼 수 있는 완벽한 장소입니다. 영원히 남을 아름다"
+"운 추억의 장소를 보장해드립니다!"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "가족과 함께 행복한 하루를 보낼 수 있는 완벽한 장소입니다. 영원히 남을 아름다"
@@ -197217,7 +197987,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "친구들과 함께 역사상 최고의 락 음악을 들으며 즐거운 시간을 보내기에 완벽한 장소입니다!"
+=======
+msgstr ""
+"친구들과 함께 역사상 최고의 락 음악을 들으며 즐거운 시간을 보내기에 완벽한 장"
+"소입니다!"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "친구들과 함께 역사상 최고의 락 음악을 들으며 즐거운 시간을 보내기에 완벽한 장"
@@ -198748,7 +199524,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "티켓 유형으로 참석자들을 분류할 수 있습니다. 새로 <b>생성</b>해 보겠습니다."
+=======
+msgstr ""
+"티켓 유형으로 참석자들을 분류할 수 있습니다. 새로 <b>생성</b>해 보겠습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "티켓 유형으로 참석자들을 분류할 수 있습니다. 새로 <b>생성</b>해 보겠습니다."
@@ -200043,8 +200824,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tree Dealers는 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아니라, 목재 가공업계에 신뢰와 진심을 담아드리고 "
 "있습니다."
+=======
+"Tree Dealers는 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아"
+"니라, 목재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
+>>>>>>> upstream/18.0
 =======
 "Tree Dealers는 우드나 꽃, 버섯류를 다루는 고객님들을 도와드리고 있을 뿐만 아"
 "니라, 목재 가공업계에 신뢰와 진심을 담아드리고 있습니다."
@@ -201298,7 +202084,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Unconfirmed: registrations in a pending state waiting for an action (specific case, notably with sale status)\n"
+=======
+"Unconfirmed: registrations in a pending state waiting for an action "
+"(specific case, notably with sale status)\n"
+>>>>>>> upstream/18.0
 =======
 "Unconfirmed: registrations in a pending state waiting for an action "
 "(specific case, notably with sale status)\n"
@@ -202533,7 +203324,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 기술 메뉴에서 행사와 관련된 전체 커뮤니케이션 일정을 확인할 수 있습니다."
+=======
+msgstr ""
+"이 기술 메뉴에서 행사와 관련된 전체 커뮤니케이션 일정을 확인할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이 기술 메뉴에서 행사와 관련된 전체 커뮤니케이션 일정을 확인할 수 있습니다."
@@ -203851,7 +204647,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "첨석자가 행사에 등록하거나 수기로 등록 자료를 생성시킬 때까지 기다리시기 바랍니다."
+=======
+msgstr ""
+"첨석자가 행사에 등록하거나 수기로 등록 자료를 생성시킬 때까지 기다리시기 바랍"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "첨석자가 행사에 등록하거나 수기로 등록 자료를 생성시킬 때까지 기다리시기 바랍"
@@ -205419,6 +206221,7 @@ msgid "Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "경고"
 =======
 msgstr "주의"
@@ -206431,12 +207234,16 @@ msgstr "주의"
 =======
 msgstr "주의"
 >>>>>>> upstream/18.0
+=======
+msgstr "주의"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 #: model_terms:event.event,description:event.event_3
 #: model_terms:event.event,description:event.event_5
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207171,6 +207978,8 @@ msgstr "당사는 악천후로 인해 행사를 취소하거나 행사 이름이
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "We reserve the right to cancel, re-name or re-locate the event or change the "
 "dates on which it is held in case the weather fails us."
 msgstr ""
@@ -207419,6 +208228,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -208211,10 +209023,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can also add a description to help your coworkers understand the meaning"
 " and purpose of the stage."
 msgstr "직원들이 각 단계의 의미와 목적을 이해하는 데 도움이 되도록 설명을 추가 할 수도 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -208949,6 +209764,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -209832,7 +210650,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "티켓에 표시된 가장 빠른 시작일 날짜가 현재 일시 이전인 경우, 등록이 시작된 것입니다."
+=======
+msgstr ""
+"티켓에 표시된 가장 빠른 시작일 날짜가 현재 일시 이전인 경우, 등록이 시작된 것"
+"입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "티켓에 표시된 가장 빠른 시작일 날짜가 현재 일시 이전인 경우, 등록이 시작된 것"
@@ -211325,6 +212149,7 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -211729,6 +212554,8 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -211864,6 +212691,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -212896,6 +213726,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -215686,6 +216519,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -218580,6 +219416,9 @@ msgstr "{{ object.event_id.name }}: {{ object.event_date_range }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

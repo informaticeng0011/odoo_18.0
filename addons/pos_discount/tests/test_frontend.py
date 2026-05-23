@@ -72,7 +72,10 @@ class TestUi(TestPointOfSaleHttpCommon):
         self.main_pos_config.with_user(self.pos_user).open_ui()
         self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'pos_global_discount_tax_group_2', login="pos_user")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_global_discount_excludes_fixed_tax_from_discount_line(self):
         """Global discount line must not include fixed-amount taxes."""
@@ -105,4 +108,7 @@ class TestUi(TestPointOfSaleHttpCommon):
             "pos_global_discount_fixed_and_percent_taxes",
             login="pos_user",
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

@@ -480,6 +480,10 @@ class MailActivityMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('active', '=', True),  # never overdue if "done"
+>>>>>>> upstream/18.0
 =======
             ('active', '=', True),  # never overdue if "done"
 >>>>>>> upstream/18.0
@@ -1598,7 +1602,11 @@ class MailActivityMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['mail.activity'].sudo().search(
+=======
+        self.env['mail.activity'].with_context(active_test=False).sudo().search(
+>>>>>>> upstream/18.0
 =======
         self.env['mail.activity'].with_context(active_test=False).sudo().search(
 >>>>>>> upstream/18.0
@@ -2998,6 +3006,7 @@ class MailActivityMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if activity_type_id:
                 activity_type = self.env['mail.activity.type'].browse(activity_type_id)
             else:
@@ -3006,6 +3015,8 @@ class MailActivityMixin(models.AbstractModel):
             activity_type_id = act_values.get('activity_type_id', False)
             activity_type = self.env['mail.activity.type'].browse(activity_type_id) if activity_type_id else self.env['mail.activity.type']
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3788,6 +3799,7 @@ class MailActivityMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             activity_type = self._default_activity_type()
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3795,6 +3807,11 @@ class MailActivityMixin(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            # TODO master: reset invalid model to default type, keep it for stable as not harmful
+            if not activity_type:
+                activity_type = self._default_activity_type()
 >>>>>>> upstream/18.0
 =======
             # TODO master: reset invalid model to default type, keep it for stable as not harmful

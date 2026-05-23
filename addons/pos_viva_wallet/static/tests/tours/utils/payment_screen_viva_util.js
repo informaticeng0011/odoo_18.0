@@ -1,7 +1,10 @@
 /** @odoo-module */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 export function simulateKioskNamelessCashier() {
     return [
         {
@@ -21,6 +24,9 @@ export function simulateKioskNamelessCashier() {
     ];
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 export function send_payment_cancel() {
     return [

@@ -221,7 +221,10 @@ import { FileUploader } from "@web/views/fields/file_handler";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -665,6 +668,7 @@ export class MailComposerAttachmentSelector extends Component {
 
     /** @param {Object} data */
     async onFileUploaded({ data, name, type }) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1496,10 +1500,13 @@ export class MailComposerAttachmentSelector extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         let resIds;
         if (this.props.record.resModel === "mail.scheduled.message") {
             resIds = [this.props.record.data.res_id.resId];
         } else {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2330,6 +2337,8 @@ export class MailComposerAttachmentSelector extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             // composer does not store res_ids past a certain limit, assume active_ids is used
             resIds = this.props.record.data.res_ids
                 ? JSON.parse(this.props.record.data.res_ids)
@@ -2450,6 +2459,9 @@ export class MailComposerAttachmentSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2686,6 +2698,7 @@ export class MailComposerAttachmentSelector extends Component {
             id: resIds[0],
         });
         const file = new File([dataUrlToBlob(data, type)], name, { type });
+<<<<<<< HEAD
         const attachment = await this.attachmentUploadService.upload(thread, thread.composer, file);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3972,6 +3985,17 @@ export class MailComposerAttachmentSelector extends Component {
             await this.operations.saveRecord([attachment.id]);
         }
 >>>>>>> upstream/18.0
+=======
+        const isThreadComposer = this.props.record.context.is_thread_composer;
+        const attachment = await this.attachmentUploadService.upload(
+            thread,
+            isThreadComposer ? thread.composer : undefined,
+            file,
+        );
+        if (attachment) {
+            await this.operations.saveRecord([attachment.id]);
+        }
+>>>>>>> upstream/18.0
     }
 }
 
@@ -4193,7 +4217,13 @@ export const mailComposerAttachmentSelector = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 registry.category("fields").add("mail_composer_attachment_selector", mailComposerAttachmentSelector);
+=======
+registry
+    .category("fields")
+    .add("mail_composer_attachment_selector", mailComposerAttachmentSelector);
+>>>>>>> upstream/18.0
 =======
 registry
     .category("fields")

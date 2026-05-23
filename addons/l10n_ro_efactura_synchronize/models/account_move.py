@@ -99,6 +99,10 @@ import requests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from markupsafe import Markup
+>>>>>>> upstream/18.0
 =======
 from markupsafe import Markup
 >>>>>>> upstream/18.0
@@ -412,6 +416,7 @@ class AccountMove(models.Model):
     _inherit = 'account.move'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('l10n_ro_edi_index')
     def _compute_show_reset_to_draft_button(self):
         # OVERRIDE to remove the reset to draft button for invoices with an SPV
@@ -421,6 +426,8 @@ class AccountMove(models.Model):
             if move.l10n_ro_edi_index:
                 move.show_reset_to_draft_button = True
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     @api.model
@@ -454,6 +461,7 @@ class AccountMove(models.Model):
         document_ids_to_delete = []
         for invoice in non_indexed_invoices:
 <<<<<<< HEAD
+<<<<<<< HEAD
             # At that point, only one sent document should exist on an invoice
             sent_document = invoice.l10n_ro_edi_document_ids
 
@@ -461,11 +469,16 @@ class AccountMove(models.Model):
                 # The last document sent to ANAF was live for longer than the holding period, refuse it
                 document_ids_to_delete += invoice.l10n_ro_edi_document_ids.ids
 =======
+=======
+>>>>>>> upstream/18.0
             sent_document = invoice._l10n_ro_edi_get_sent_documents()
 
             if (fields.Datetime.now() - sent_document.create_date).days > HOLDING_DAYS:
                 # The last document sent to ANAF was live for longer than the holding period, refuse it
                 document_ids_to_delete += sent_document.ids
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
                 error_message = _(
@@ -531,7 +544,11 @@ class AccountMove(models.Model):
 
             if 'error' in message['answer']:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 document_ids_to_delete += invoice._l10n_ro_edi_get_sent_and_failed_documents().ids
+=======
+                document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+>>>>>>> upstream/18.0
 =======
                 document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
 >>>>>>> upstream/18.0
@@ -548,7 +565,11 @@ class AccountMove(models.Model):
             # matching where none of the two invoices received an index, all signatures are added to the invoice; the
             # user will have to manually update/select the correct one.
 <<<<<<< HEAD
+<<<<<<< HEAD
             document_ids_to_delete += invoice._l10n_ro_edi_get_sent_and_failed_documents().ids
+=======
+            document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+>>>>>>> upstream/18.0
 =======
             document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
 >>>>>>> upstream/18.0
@@ -588,7 +609,11 @@ class AccountMove(models.Model):
 
             if 'error' in message['answer']:
 <<<<<<< HEAD
+<<<<<<< HEAD
                 document_ids_to_delete += invoice._l10n_ro_edi_get_sent_and_failed_documents().ids
+=======
+                document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+>>>>>>> upstream/18.0
 =======
                 document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
 >>>>>>> upstream/18.0
@@ -600,7 +625,11 @@ class AccountMove(models.Model):
                 continue
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             document_ids_to_delete += invoice.l10n_ro_edi_document_ids.ids
+=======
+            document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
+>>>>>>> upstream/18.0
 =======
             document_ids_to_delete += invoice._l10n_ro_edi_get_sent_documents().ids
 >>>>>>> upstream/18.0
@@ -776,12 +805,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attachment_sudo = self.env['ir.attachment'].sudo().create(
                 bill._l10n_ro_edi_create_attachment_values(message['answer']['invoice']['attachment_raw'])
             )
             bill._extend_with_attachments(attachment_sudo)
             bill.message_post(body=_("Synchronized with SPV from message %s", message['id']))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1102,6 +1134,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

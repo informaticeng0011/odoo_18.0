@@ -250,6 +250,10 @@ export const UPDATE_EVENT = Object.freeze({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    RECOVERY: "recovery",
+>>>>>>> upstream/18.0
 =======
     RECOVERY: "recovery",
 >>>>>>> upstream/18.0
@@ -1700,6 +1704,10 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    !peer.connection ||
+>>>>>>> upstream/18.0
 =======
                     !peer.connection ||
 >>>>>>> upstream/18.0
@@ -2655,7 +2663,10 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3474,6 +3485,9 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4377,6 +4391,10 @@ export class PeerToPeer extends EventTarget {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this._emitUpdate({ name: UPDATE_EVENT.RECOVERY, payload: { id } });
+>>>>>>> upstream/18.0
 =======
                 this._emitUpdate({ name: UPDATE_EVENT.RECOVERY, payload: { id } });
 >>>>>>> upstream/18.0

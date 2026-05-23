@@ -49,6 +49,15 @@ class TestL10nBrPix(AccountTestInvoicingCommon):
         with self.assertRaises(ValidationError, msg="The random key"):
             self.partner_bank.proxy_value = "not a random key"
 
+<<<<<<< HEAD
+=======
+        with self.assertRaises(ValidationError, msg="not a valid CPF"):
+            self.partner_bank.write({"proxy_type": "br_cpf_cnpj", "proxy_value": False})
+
+        with self.assertRaises(ValidationError, msg="not a valid random key"):
+            self.partner_bank.write({"proxy_type": "br_random", "proxy_value": False})
+
+>>>>>>> upstream/18.0
     def _get_qr_code_string(self):
         self.invoice.qr_code_method = "emv_qr"
         demo_payment_reference = "NFe TÉST 0001"  # É and spaces should be removed

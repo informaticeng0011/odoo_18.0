@@ -372,6 +372,7 @@ export class EventRegistrationSummaryDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const response = await browser.fetch(`${iotBoxUrl}/hw_proxy/hello`, { signal: timeoutController.signal });
 =======
             const response = await browser.fetch(`${iotBoxUrl}/hw_proxy/hello`, { signal: timeoutController.signal, targetAddressSpace: "local" });
@@ -390,6 +391,9 @@ export class EventRegistrationSummaryDialog extends Component {
 >>>>>>> upstream/18.0
 =======
             const response = await browser.fetch(`${iotBoxUrl}/hw_proxy/hello`, { signal: timeoutController.signal, targetAddressSpace: "local" });
+>>>>>>> upstream/18.0
+=======
+            const response = await browser.fetch(`${iotBoxUrl}/hw_proxy/hello`, { signal: timeoutController.signal });
 >>>>>>> upstream/18.0
 =======
             const response = await browser.fetch(`${iotBoxUrl}/hw_proxy/hello`, { signal: timeoutController.signal });
