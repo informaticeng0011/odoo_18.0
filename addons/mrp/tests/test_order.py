@@ -1101,7 +1101,11 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(move_byproduct_1.quantity, 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(move_byproduct_1.picked)
+=======
+        self.assertFalse(move_byproduct_1.picked)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_byproduct_1.picked)
 >>>>>>> upstream/18.0
@@ -1115,7 +1119,11 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(move_byproduct_2.quantity, 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(move_byproduct_2.picked)
+=======
+        self.assertFalse(move_byproduct_2.picked)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_byproduct_2.picked)
 >>>>>>> upstream/18.0
@@ -1128,7 +1136,11 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(move_byproduct_3.quantity, 2.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(move_byproduct_3.picked)
+=======
+        self.assertFalse(move_byproduct_3.picked)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_byproduct_3.picked)
 >>>>>>> upstream/18.0
@@ -1160,7 +1172,11 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(move_byproduct_1.quantity, 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(move_byproduct_1.picked)
+=======
+        self.assertFalse(move_byproduct_1.picked)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_byproduct_1.picked)
 >>>>>>> upstream/18.0
@@ -1174,7 +1190,11 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(move_byproduct_2.quantity, 2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(move_byproduct_2.picked)
+=======
+        self.assertFalse(move_byproduct_2.picked)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_byproduct_2.picked)
 >>>>>>> upstream/18.0
@@ -1187,7 +1207,11 @@ class TestMrpOrder(TestMrpCommon):
         self.assertEqual(move_byproduct_3.quantity, 2.0)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(move_byproduct_3.picked)
+=======
+        self.assertFalse(move_byproduct_3.picked)
+>>>>>>> upstream/18.0
 =======
         self.assertFalse(move_byproduct_3.picked)
 >>>>>>> upstream/18.0
@@ -1269,7 +1293,10 @@ class TestMrpOrder(TestMrpCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def test_byproduct_update_produced(self):
@@ -1330,6 +1357,9 @@ class TestMrpOrder(TestMrpCommon):
         ])
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4025,7 +4055,10 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4364,6 +4397,9 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5945,7 +5981,10 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6317,6 +6356,9 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6697,7 +6739,10 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6725,6 +6770,9 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7088,7 +7136,10 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8007,6 +8058,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8362,6 +8414,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8811,6 +8865,9 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9296,6 +9353,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9450,6 +9508,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9912,6 +9972,7 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10048,6 +10109,8 @@ class TestMrpOrder(TestMrpCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10331,6 +10394,9 @@ class TestMrpOrder(TestMrpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10701,7 +10767,10 @@ class TestTourMrpOrder(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11133,6 +11202,9 @@ class TestTourMrpOrder(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

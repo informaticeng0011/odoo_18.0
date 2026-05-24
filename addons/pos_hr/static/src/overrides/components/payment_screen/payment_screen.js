@@ -274,7 +274,11 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.pos.config.module_pos_hr && this.pos.get_cashier() === null) {
+=======
+        if (this.pos.config.module_pos_hr) {
+>>>>>>> upstream/18.0
 =======
         if (this.pos.config.module_pos_hr) {
 >>>>>>> upstream/18.0

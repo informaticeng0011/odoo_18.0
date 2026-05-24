@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* payment_adyen
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -562,10 +563,15 @@
 =======
 #
 >>>>>>> upstream/18.0
+=======
+# * payment_adyen
+#
+>>>>>>> upstream/18.0
 # Translators:
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1723,10 +1729,15 @@
 # Kira Petersen, 2025
 #
 >>>>>>> upstream/18.0
+=======
+# Kira Petersen, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2614,10 +2625,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Kira Petersen, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/odoo/teams/41243/da/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:38+0000\n"
+"PO-Revision-Date: 2026-05-17 05:50+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Danish <https://translate.odoo.com/projects/odoo-18/"
+"payment_adyen/da/>\n"
+>>>>>>> upstream/18.0
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3037,10 +3056,15 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3462,10 +3486,13 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<strong>Warning:</strong> To capture the amount manually, you also need to "
 "set\n"
 "                    the Capture Delay to manual on your Adyen account "
 "settings."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3885,11 +3912,19 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"<strong>Advarsel:</strong> For at indtaste beløbet manuelt skal du også "
+"indstille\n"
+"                    indtastningsforsinkelsen til ‘manuelt’ i indstillingerne "
+"på din Adyen-konto."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4593,6 +4628,13 @@ msgid ""
 "(provider)s)."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"A request was sent to void the transaction with reference %(reference)s (%"
+"(provider)s)."
+msgstr ""
+"Der er sendt en anmodning om at annullere transaktionen med referencen %"
+"(reference)s (%(provider)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_api_key
@@ -4602,7 +4644,11 @@ msgstr "API nøgle"
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "API URL Prefix"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API-URL-præfiks"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields.selection,name:payment_adyen.selection__payment_provider__code__adyen
@@ -4615,17 +4661,29 @@ msgstr "Adyen"
 msgid ""
 "An error occurred during the processing of your payment. Please try again."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Der opstod en fejl under behandlingen af din betaling. Prøv venligst igen."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-javascript
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Cannot display the payment form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kan ikke vise betalingsformularen"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_client_key
 msgid "Client Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kundenøgle"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__code
@@ -4890,7 +4948,11 @@ msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Det var ikke muligt at oprette forbindelse til API'et."
+>>>>>>> upstream/18.0
 =======
 msgstr "Det var ikke muligt at oprette forbindelse til API'et."
 >>>>>>> upstream/18.0
@@ -5657,18 +5719,30 @@ msgstr "Det var ikke muligt at oprette forbindelse til API'et."
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_provider__adyen_hmac_key
 msgid "HMAC Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "HMAC-nøgle"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_capture_wizard__has_adyen_tx
 msgid "Has Adyen Tx"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Har Adyen Tx"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-javascript
 #: code:addons/payment_adyen/static/src/js/payment_form.js:0
 msgid "Incorrect payment details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Forkerte betalingsoplysninger"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_provider_form
@@ -5684,12 +5758,20 @@ msgstr "Merchant konto"
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der blev ikke fundet nogen transaktion, der matcher referencen %s."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model,name:payment_adyen.model_payment_capture_wizard
 msgid "Payment Capture Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Assistent til betalingsopkrævning"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model,name:payment_adyen.model_payment_provider
@@ -5717,45 +5799,78 @@ msgstr "Behandlingen af betaling mislykkedes"
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data for child transaction with missing transaction values"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Modtagne data for underordnede transaktioner med manglende "
+"transaktionsværdier"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with invalid payment state: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modtagne data med ugyldig betalingsstatus: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing merchant reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modtagne data med manglende forhandlerreference"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Received data with missing payment state."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Modtagne data med manglende betalingsstatus."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/controllers/main.py:0
 msgid "Received tampered payment request data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Der er modtaget forfalskede betalingsoplysninger."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,field_description:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "Shopper Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Køberens reference"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_api_key
 msgid "The API key of the webservice user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API-nøglen til webservicebrugeren"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_hmac_key
 msgid "The HMAC key of the webhook"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhookens HMAC-nøgle"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
@@ -5764,17 +5879,30 @@ msgid ""
 "The amount processed by Adyen for the transaction %s is different than the "
 "one requested. Another transaction is created with the correct amount."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det beløb, som Adyen har behandlet for transaktionen %s, afviger fra det "
+"anmodede beløb. Der oprettes en ny transaktion med det korrekte beløb."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_api_url_prefix
 msgid "The base URL for the API endpoints"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Basis-URL'en for API-slutpunkterne"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The capture of the transaction with reference %s failed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registreringen af transaktionen med referencen %s mislykkedes."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model_terms:ir.ui.view,arch_db:payment_adyen.payment_capture_wizard_view_form
@@ -5782,11 +5910,17 @@ msgid ""
 "The capture or void of the transaction might take a few minutes to be\n"
 "                    processed by Adyen and reflected in Odoo."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Det kan tage et par minutter, før transaktionen er\n"
+"                    behandlet af Adyen og afspejlet i Odoo."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6490,47 +6624,86 @@ msgid ""
 "has been requested (%(provider_name)s)."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"The capture request of %(amount)s for the transaction with reference %(ref)s "
+"has been requested (%(provider_name)s)."
+msgstr ""
+"Der er anmodet om indhentning af %(amount)s for transaktionen med referencen "
+"%(ref)s (%(provider_name)s)."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_client_key
 msgid "The client key of the webservice user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webservicebrugerens kundenøgle"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__adyen_merchant_account
 msgid "The code of the merchant account to use with this provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koden til den forhandlerkonto, der skal bruges hos denne udbyder"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_provider.py:0
 msgid "The communication with the API failed. Details: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kommunikationen med API'en mislykkedes. Detaljer: %s"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_provider__code
 msgid "The technical code of this payment provider."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Betalingsudbyderens tekniske kode."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transaktionen er ikke knyttet til et token."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #: model:ir.model.fields,help:payment_adyen.field_payment_token__adyen_shopper_reference
 msgid "The unique reference of the partner owning this token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Den unikke reference for den partner, der ejer dette token"
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "The void of the transaction with reference %s failed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transaktionen med referencen %s mislykkedes."
+>>>>>>> upstream/18.0
 
 #. module: payment_adyen
 #. odoo-python
 #: code:addons/payment_adyen/models/payment_transaction.py:0
 msgid "Your payment was refused. Please try again."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Din betaling blev afvist. Prøv igen."
+>>>>>>> upstream/18.0

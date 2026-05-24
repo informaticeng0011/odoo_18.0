@@ -34,6 +34,10 @@ class TestHolidayContract(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'tz': 'Europe/Brussels',
+>>>>>>> upstream/18.0
 =======
             'tz': 'Europe/Brussels',
 >>>>>>> upstream/18.0

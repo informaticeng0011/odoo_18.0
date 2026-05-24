@@ -3,59 +3,108 @@
 # * stock_picking_wave
 #
 # Translators:
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:50+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-06-09 10:40+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Lao (http://www.transifex.com/odoo/odoo-9/language/lo/)\n"
+=======
+"PO-Revision-Date: 2026-05-22 08:16+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
+"stock_picking_batch/lo/>\n"
+>>>>>>> upstream/18.0
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "<span class=\"o_form_label fw-bold\" attrs=\"{'invisible':[('auto_batch', '=', False)]}\">Group by</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label fw-bold\" attrs=\"{'invisible':[('auto_batch', "
+"'=', False)]}\">ຈັດກຸ່ມໂດຍ</span>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>FROM</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຈາກ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>Lot/Serial Number</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ເລກລັອດ/ຊີຣີ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>Package</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ແພັກເກັດ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>Product Barcode</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ບາໂຄດສິນຄ້າ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>Responsible:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຜູ້ຮັບຜິດຊອບ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>TO</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ເຖິງ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "<strong>→</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>→</strong>"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_lines
@@ -63,6 +112,11 @@ msgid ""
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການໂອນຈະບໍ່ຖືກເພີ່ມເຂົ້າໃນຊຸດໂດຍອັດຕະໂນມັດ ຖ້າຫາກມັນເຮັດໃຫ້ຈຳນວນລາຍການເກີນຄ່ານີ້.\n"
+"ກຳນົດເປັນ '0' ຖ້າບໍ່ຕ້ອງການຈຳກັດລາຍການ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
@@ -70,49 +124,86 @@ msgid ""
 "A transfer will not be automatically added to batches that will exceed this number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການໂອນຈະບໍ່ຖືກເພີ່ມເຂົ້າໃນຊຸດໂດຍອັດຕະໂນມັດ ຖ້າຫາກມັນເຮັດໃຫ້ຈຳນວນການໂອນເກີນຄ່ານີ້.\n"
+"ກຳນົດເປັນ '0' ຖ້າບໍ່ຕ້ອງການຈຳກັດການໂອນ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕົບແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Add Operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມການດຳເນີນງານ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Add pickings to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມລາຍການເບີກເຂົ້າໃນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_add_to_wave_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Add to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເຂົ້າໃນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -120,83 +211,147 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_add_to_wave_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_move_line_tree_detailed_wave
 msgid "Add to Wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເຂົ້າໃນການໂອນແບບເວບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_to_batch_action_stock_picking
 msgid "Add to batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເຂົ້າໃນຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_add_to_wave_action_stock_picking
 msgid "Add to wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເຂົ້າໃນເວບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Allocation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດສັນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__allowed_picking_ids
 msgid "Allowed Picking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການເບີກທີ່ອະນຸຍາດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "Assigned to %s Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມອບໝາຍໃຫ້ %s ເປັນຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_auto_confirm
 msgid "Auto-confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__auto_batch
 msgid "Automatic Batches"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນເປັນຊຸດອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_partner
 msgid "Automatically group batches by contacts."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມຊຸດການໂອນໂດຍອັດຕະໂນມັດຕາມຜູ້ຕິດຕໍ່."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_destination
 msgid "Automatically group batches by destination country."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມຊຸດການໂອນໂດຍອັດຕະໂນມັດຕາມປະເທດປາຍທາງ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Automatically group batches by their destination location."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມຊຸດການໂອນໂດຍອັດຕະໂນມັດຕາມສະຖານທີ່ປາຍທາງ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Automatically group batches by their source location."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມຊຸດການໂອນໂດຍອັດຕະໂນມັດຕາມສະຖານທີ່ຕົ້ນທາງ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__auto_batch
 msgid "Automatically put pickings into batches as they are confirmed when possible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອົາລາຍການເບີກເຂົ້າໃນຊຸດໂດຍອັດຕະໂນມັດເມື່ອມີການຢືນຢັນ ຖ້າເປັນໄປໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບາໂຄດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_form_inherit
 msgid "Batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -211,80 +366,136 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_internal_search_inherit
 msgid "Batch Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນເປັນຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_to_batch
 msgid "Batch Transfer Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການການໂອນເປັນຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.stock_picking_batch_action
 #: model:ir.ui.menu,name:stock_picking_batch.stock_picking_batch_menu
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Batch Transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນເປັນຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Batch Transfers not finished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນເປັນຊຸດທີ່ຍັງບໍ່ສຳເລັດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_move_line__batch_id
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking__batch_id
 msgid "Batch associated to this transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດທີ່ກ່ຽວຂ້ອງກັບການໂອນນີ້"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "Batches"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_add_to_wave_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_to_batch_form
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr "ຍົກເລີອກ"
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_batch__state__cancel
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr "ຍົກເລີກ"
+=======
+msgstr "ຍົກເລີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "Cannot create wave transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສ້າງການໂອນແບບເວບໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Check Availability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກວດສອບສິນຄ້າທີ່ມີຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Choose Labels Layout"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກຮູບແບບປ້າຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Choose Type of Labels To Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກປະເພດຂອງປ້າຍທີ່ຈະພິມ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Clear quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບລ້າງຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_add_to_wave_form
@@ -297,326 +508,570 @@ msgstr "ຢືນຢັນ"
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_partner
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_picking_type_form_inherit
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__count_picking_batch
 msgid "Count Picking Batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຊຸດການເບີກ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__count_picking_wave
 msgid "Count Picking Wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນເວບການເບີກ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
 msgid "Create a new batch transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງການໂອນເປັນຊຸດໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
 msgid "Create a new wave transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງການໂອນແບບເວບໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__create_uid
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__create_uid
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__create_date
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__create_date
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_destination
 msgid "Destination Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດປາຍທາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_dest_loc
 msgid "Destination Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ປາຍທາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Detailed Operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດການດຳເນີນງານ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__display_name
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__display_name
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_batch__state__done
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Done"
+<<<<<<< HEAD
 msgstr "ຈົບເເລັວ"
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__is_create_draft
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_batch__state__draft
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Draft"
+<<<<<<< HEAD
 msgstr "ຕົວທົດລອງ"
+=======
+msgstr "ຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__id
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__id
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນເພື່ອບົ່ງບອກກິດຈະກຳທີ່ຍົກເວັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_has_error
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking.py:0
 msgid "If the Automatic Batches feature is enabled, at least one 'Group by' option must be selected."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າເປີດໃຊ້ຄຸນສົມບັດການໂອນເປັນຊຸດອັດຕະໂນມັດ, ຕ້ອງເລືອກຢ່າງໜ້ອຍໜຶ່ງຕົວເລືອກ 'ຈັດກຸ່ມໂດຍ'."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "In Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພວມດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_batch__state__in_progress
 msgid "In progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພວມດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__write_uid
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__write_uid
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__write_date
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__write_date
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຊັກຊ້າ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__line_ids
 msgid "Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__picking_ids
 msgid "List of transfers associated to this batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການການໂອນທີ່ກ່ຽວຂ້ອງກັບຊຸດນີ້"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_lines
 msgid "Maximum lines per batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນລາຍການສູງສຸດຕໍ່ຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid "Maximum transfers per batch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການໂອນສູງສຸດຕໍ່ຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງຂໍ້ຄວາມຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__mode
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__mode
 msgid "Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂໝດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.view_move_line_tree
 msgid "Move Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການການເຄື່ອນຍ້າຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາສິ້ນສຸດກິດຈະກຳຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "My Transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການກິດຈະກຳໃນປະຕິທິນຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາສິ້ນສຸດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_needaction_counter
 msgid "Number of messages which requires an action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງການການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__picking_type_id
 msgid "Operation Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການດຳເນີນງານ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Operations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການດຳເນີນງານ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__picking_ids
 msgid "Picking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເບີກສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking_type
 msgid "Picking Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການເບີກສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາເພີ່ມຈຳນວນທີ່ 'ສຳເລັດແລ້ວ' ເຂົ້າໃນຊຸດການເບີກເພື່ອສ້າງແພັກເກັດໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Print Labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມປ້າຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນຍ້າຍສິນຄ້າ (ລາຍການການເຄື່ອນຍ້າຍສາງ)"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Put in Pack"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃສ່ເຂົ້າໃນແພັກເກັດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໃຫ້ຄະແນນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__user_id
@@ -624,23 +1079,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_to_batch__user_id
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງ SMS ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__scheduled_date
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Scheduled Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__scheduled_date
@@ -650,68 +1121,125 @@ msgid ""
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວັນທີກຳນົດສຳລັບການໂອນທີ່ຈະດຳເນີນການ.\n"
+"              - ຖ້າກຳນົດດ້ວຍຕົນເອງ, ວັນທີກຳນົດສຳລັບການໂອນທັງໝົດໃນຊຸດຈະຖືກອັບເດດເປັນວັນທີນີ້ໂດຍອັ"
+"ດຕະໂນມັດ.\n"
+"              - ຖ້າບໍ່ໄດ້ປ່ຽນດ້ວຍຕົນເອງ ແລະ ມີການເພີ່ມ/ລຶບ/ອັບເດດການໂອນ, ວັນທີນີ້ຈະເປັນວັນທີກຳນົດ"
+"ທີ່ໄວທີ່ສຸດຂອງພວກມັນ\n"
+"                ແຕ່ວັນທີກຳນົດນີ້ຈະບໍ່ຖືກຕັ້ງສຳລັບການໂອນທັງໝົດໃນຊຸດ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Search Batch Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາການໂອນເປັນຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Set quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_allocation
 msgid "Show Allocation Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງປຸ່ມການຈັດສັນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_check_availability
 msgid "Show Check Availability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງປຸ່ມກວດສອບສິນຄ້າທີ່ມີຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_clear_qty_button
 msgid "Show Clear Qty Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງປຸ່ມລຶບລ້າງຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_set_qty_button
 msgid "Show Set Qty Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງປຸ່ມກຳນົດຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__show_validate
 msgid "Show Validate Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງປຸ່ມກວດສອບຄວາມຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Show all records which has next action date is before today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງບັນທຶກທັງໝົດທີ່ມີວັນທີດຳເນີນການຖັດໄປກ່ອນມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_type__batch_group_by_src_loc
 msgid "Source Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ຕົ້ນທາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:mail.message.subtype,description:stock_picking_batch.mt_batch_state
 #: model:mail.message.subtype,name:stock_picking_batch.mt_batch_state
 msgid "Stage Changed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນປ່ຽນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__state
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "State"
+<<<<<<< HEAD
 msgstr "ສະພາບ"
+=======
+msgstr "ສະຖານະ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_state
@@ -721,37 +1249,68 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນທີຄົບກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_tree
 msgid "Stock Batch Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນສິນຄ້າເປັນຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_move
 msgid "Stock Move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນຍ້າຍສາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_package_destination
 msgid "Stock Package Destination"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປາຍທາງແພັກເກັດສາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__move_line_ids
 msgid "Stock move lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການການເຄື່ອນຍ້າຍສາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__move_ids
 msgid "Stock moves"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນຍ້າຍສາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Summary:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບ:"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
@@ -761,6 +1320,13 @@ msgid ""
 "\n"
 "Incompatibilities: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການໂອນຕໍ່ໄປນີ້ບໍ່ສາມາດເພີ່ມເຂົ້າໃນການໂອນເປັນຊຸດ %s ໄດ້. ກະລຸນາກວດສອບສະຖານະ ແລະ ປະເພດການດຳເນີ"
+"ນງານຂອງພວກມັນ, ຖ້າພວກມັນບໍ່ແມ່ນການໂອນແບບທັນທີ.\n"
+"\n"
+"ສິ່ງທີ່ບໍ່ເຂົ້າກັນ: %s"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.stock_picking_batch_action
@@ -770,6 +1336,13 @@ msgid ""
 "            It may also be useful to assign jobs (one person = one batch) or\n"
 "            help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເປົ້າໝາຍຂອງການໂອນເປັນຊຸດແມ່ນເພື່ອຈັດກຸ່ມການດຳເນີນງານທີ່ອາດຈະ\n"
+"            (ຈຳເປັນຕ້ອງ) ເຮັດຮ່ວມກັນເພື່ອເພີ່ມປະສິດທິພາບ.\n"
+"            ມັນຍັງອາດຈະເປັນປະໂຫຍດໃນການມອບໝາຍວຽກ (ໜຶ່ງຄົນ = ໜຶ່ງຊຸດ) ຫຼື\n"
+"            ຊ່ວຍໃນການຈັດການເວລາຂອງການດຳເນີນງານ (ວຽກທີ່ຈະຕ້ອງເຮັດຕອນ 1 ໂມງແລງ)."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.actions.act_window,help:stock_picking_batch.action_picking_tree_wave
@@ -779,148 +1352,264 @@ msgid ""
 "                    It may also be useful to assign jobs (one person = one batch) or\n"
 "                    help the timing management of operations (tasks to be done at 1pm)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເປົ້າໝາຍຂອງການໂອນແບບເວບແມ່ນເພື່ອຈັດກຸ່ມການດຳເນີນງານຈາກການໂອນທີ່ແຕກຕ່າງກັນ\n"
+"                    ເຂົ້າຮ່ວມກັນເພື່ອເພີ່ມປະສິດທິພາບ.\n"
+"                    ມັນຍັງອາດຈະເປັນປະໂຫຍດໃນການມອບໝາຍວຽກ (ໜຶ່ງຄົນ = ໜຶ່ງຊຸດ) ຫຼື\n"
+"                    ຊ່ວຍໃນການຈັດການເວລາຂອງການດຳເນີນງານ (ວຽກທີ່ຈະຕ້ອງເຮັດຕອນ 1 ໂມງແລ"
+"ງ)."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected operations should belong to a unique company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການດຳເນີນງານທີ່ເລືອກຄວນຈະເປັນຂອງບໍລິສັດດຽວກັນ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_picking_to_batch.py:0
 msgid "The selected pickings should belong to an unique company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການເບີກທີ່ເລືອກຄວນຈະເປັນຂອງບໍລິສັດດຽວກັນ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to a unique company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນທີ່ເລືອກຄວນຈະເປັນຂອງບໍລິສັດດຽວກັນ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/wizard/stock_add_to_wave.py:0
 msgid "The selected transfers should belong to the same operation type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນທີ່ເລືອກຄວນຈະເປັນຂອງປະເພດການດຳເນີນງານດຽວກັນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__is_wave
 msgid "This batch is a wave"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດນີ້ແມ່ນການໂອນແບບເວບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "To Do"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຈະຕ້ອງເຮັດ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_filter
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_picking
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.report_picking_batch
 msgid "Transfer"
+<<<<<<< HEAD
 msgstr "​ໂອນ"
+=======
+msgstr "ການໂອນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "Transferred by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂອນໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__picking_ids
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__picking_type_code
 msgid "Type of Operation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການດຳເນີນງານ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_batch_form
 msgid "Validate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກວດສອບຄວາມຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_warehouse
 msgid "Warehouse"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_add_to_wave__wave_id
 msgid "Wave Transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນແບບເວບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model,name:stock_picking_batch.model_stock_add_to_wave
 msgid "Wave Transfer Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການການໂອນແບບເວບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.actions.act_window,name:stock_picking_batch.action_picking_tree_wave
 #: model:ir.ui.menu,name:stock_picking_batch.stock_picking_wave_menu
 msgid "Wave Transfers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນແບບເວບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
 msgid "Waves"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວບ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,field_description:stock_picking_batch.field_stock_picking_batch__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_batch__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການສື່ສານເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_to_batch__is_create_draft
 msgid "When checked, create the batch in draft status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ຈະສ້າງຊຸດໃນສະຖານະຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You cannot delete Done batch transfers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລຶບການໂອນເປັນຊຸດທີ່ສຳເລັດແລ້ວໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #. odoo-python
 #: code:addons/stock_picking_batch/models/stock_picking_batch.py:0
 msgid "You have to set some pickings to batch."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານຕ້ອງກຳນົດລາຍການເບີກບາງຢ່າງເຂົ້າໃນຊຸດ."
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_to_batch__mode__new
 msgid "a new batch transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນເປັນຊຸດໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_add_to_wave__mode__new
 msgid "a new wave transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນແບບເວບໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_picking_to_batch__mode__existing
 msgid "an existing batch transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນເປັນຊຸດທີ່ມີຢູ່ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model:ir.model.fields.selection,name:stock_picking_batch.selection__stock_add_to_wave__mode__existing
 msgid "an existing wave transfer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນແບບເວບທີ່ມີຢູ່ແລ້ວ"
+>>>>>>> upstream/18.0

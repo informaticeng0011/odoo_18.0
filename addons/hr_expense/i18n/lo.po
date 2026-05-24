@@ -4,264 +4,462 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
+=======
+"PO-Revision-Date: 2026-05-19 12:44+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/hr_expense/"
+"lo/>\n"
+>>>>>>> upstream/18.0
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(user)s ຢືນຢັນວ່າລາຍຈ່າຍນີ້ບໍ່ແມ່ນລາຍຈ່າຍທີ່ຊ້ຳຊ້ອນກັບລາຍຈ່າຍທີ່ຄ້າຍຄືກັນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "%s: It is not from your department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s: ມັນບໍ່ໄດ້ມາຈາກພະແນກຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "%s: It is your own expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s: ມັນແມ່ນລາຍຈ່າຍຂອງທ່ານເອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "%s: Your are not a Manager or HR Officer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s: ທ່ານບໍ່ແມ່ນຜູ້ຈັດການ ຫຼື ເຈົ້າໜ້າທີ່ບຸກຄະລາກອນ (HR)"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.report,print_report_name:hr_expense.action_report_hr_expense_sheet
 msgid "'Expenses - %s - %s' % (object.employee_id.name, (object.name).replace('/', ''))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'ລາຍຈ່າຍ - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
+"''))"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "1 %(exp_cur)s = %(rate)s %(comp_cur)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 %(exp_cur)s = %(rate)s %(comp_cur)s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "<span class=\"d-inline-block\"><i class=\"text-muted\">Use this reference as a subject prefix when submitting by email.</i></span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-inline-block\"><i class=\"text-muted\">ໃຊ້ຂໍ້ມູນອ້າງອີງນີ້ເປັນຄຳນຳໜ້າຫົວ"
+"ຂໍ້ ເມື່ອສົ່ງຜ່ານທາງອີເມວ.</i></span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_move_form_inherit_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_payment_form_inherit_expense
 msgid "<span class=\"o_stat_text\">Expense Report</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ລາຍງານລາຍຈ່າຍ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "<span class=\"o_stat_text\">Journal Entry</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ການລົງບັນຊີປະຈຳວັນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "<span>@</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>@</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Date:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ວັນທີ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Description:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຄຳອະທິບາຍ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Employee:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ພະນັກງານ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Payment By:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຊຳລະໂດຍ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Total</strong>"
+<<<<<<< HEAD
 msgstr "<strong>ພະນັກງານຂາຍ:</strong>"
+=======
+msgstr "<strong>ລວມທັງໝົດ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "<strong>Validated By:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ກວດສອບໂດຍ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__account_id
 msgid "Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Accounting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__accounting_date
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__accounting_date
 msgid "Accounting Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_needaction
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_exception_decoration
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕົກແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_state
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_type_icon
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.mail_activity_type_action_config_hr_expense
 #: model:ir.ui.menu,name:hr_expense.hr_expense_menu_config_activity_type
 msgid "Activity Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_manager
 msgid "Administrator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ດູແລລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Alias"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນາມແຝງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_user
 msgid "All Approver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ນຸມັດທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_all
 msgid "All Expense Reports"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all
 msgid "All Reports"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍທັງໝົດໃນລາຍງານລາຍຈ່າຍ ຕ້ອງມີເກນ \"ຊຳລະໂດຍ\" ອັນດຽວກັນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "All payment methods allowed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດທຸກວິທີການຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__amount_residual
 msgid "Amount Due"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ຕ້ອງຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/mixins/document_upload.js:0
 msgid "An error occurred during the upload"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການອັບໂຫຼດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__account_id
 msgid "An expense account is expected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງການບັນຊີລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/views/expense_form_view.js:0
 msgid "An expense of same category, amount and date already exists."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີລາຍຈ່າຍໃນໝວດໝູ່, ຈຳນວນເງິນ ແລະ ວັນທີດຽວກັນນີ້ຢູ່ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "An expense report must contain only lines from the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍຕ້ອງມີພຽງແຕ່ລາຍການຈາກບໍລິສັດດຽວກັນເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_analytic_account
 msgid "Analytic Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__analytic_distribution
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__analytic_distribution
 msgid "Analytic Distribution"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈກຢາຍວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__analytic_distribution_search
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__analytic_distribution_search
 msgid "Analytic Distribution Search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາການແຈກຢາຍວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການນຳໃຊ້ແຜນວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__analytic_precision
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__analytic_precision
 msgid "Analytic Precision"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມຊັດເຈນຂອງການວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Apple App Store"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Apple App Store"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__approval_date
 msgid "Approval Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__approval_state
 msgid "Approval State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະການອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
@@ -269,13 +467,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Approve"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/views/list.xml:0
 msgid "Approve Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__approved
@@ -283,116 +489,200 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__approve
 #: model:mail.message.subtype,name:hr_expense.mt_expense_approved
 msgid "Approved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__approved_by
 msgid "Approved By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__approved_on
 msgid "Approved On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບໄວ້ໃນຄັງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Attach Receipt"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແນບບິນຮັບເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Attach a receipt - usually an image or a PDF file."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແນບບິນຮັບເງິນ - ປົກກະຕິແລ້ວແມ່ນຮູບພາບ ຫຼື ໄຟລ໌ PDF."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_attachment_count
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໄຟລ໌ແນບ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__reference
 msgid "Bill Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກອ້າງອີງໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__tax_ids
 msgid "Both price-included and price-excluded taxes will behave as price-included taxes for expenses."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທັງພາສີລວມໃນລາຄາ ແລະ ພາສີແຍກນອກລາຄາ ຈະຖືກປະຕິບັດເປັນພາສີລວມໃນລາຄາສຳລັບລາຍຈ່າຍ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__can_approve
 msgid "Can Approve"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດອະນຸມັດໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__can_reset
 msgid "Can Reset"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດຕັ້ງຄ່າໃໝ່ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_product_product__can_be_expensed
 #: model:ir.model.fields,field_description:hr_expense.field_product_template__can_be_expensed
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_template_search_view_inherit_hr_expense
 msgid "Can be Expensed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດນຳມາເປັນລາຍຈ່າຍໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr "ຍົກເລີອກ"
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__cannot_approve_reason
 msgid "Cannot Approve Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນທີ່ບໍ່ສາມາດອະນຸມັດໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__product_ids
 msgid "Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_id
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Category:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່:"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Category: not found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່: ບໍ່ພົບ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Certified honest and conform,<br/>(Date and signature).<br/><br/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮັບຮອງວ່າຖືກຕ້ອງ ແລະ ສອດຄ່ອງ,<br/>(ວັນທີ ແລະ ລາຍເຊັນ).<br/><br/>"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_communication_product_template
 msgid "Communication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສື່ສານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__company_id
@@ -407,22 +697,39 @@ msgstr "ບໍລິສັດ"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Company payment methods available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຊຳລະເງິນຂອງບໍລິສັດທີ່ມີໃຫ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າການກຳນົດຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_configuration
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__product_uom_category_id
 msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການປ່ຽນແປງລະຫວ່າງຫົວໜ່ວຍວັດແທກ ສາມາດເກີດຂຶ້ນໄດ້ກໍຕໍ່ເມື່ອພວກມັນຢູ່ໃນໝວດໝູ່ດຽວກັນ. ການປ່ຽນແປງຈະອີງຕາ"
+"ມອັດຕາສ່ວນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
@@ -430,29 +737,49 @@ msgstr ""
 #: code:addons/hr_expense/static/src/views/list.xml:0
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Create Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_account
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_all
 msgid "Create a new expense report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງລາຍງານລາຍຈ່າຍໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Create a report to submit one or more expenses to your manager."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສ້າງລາຍງານເພື່ອສົ່ງລາຍຈ່າຍໜຶ່ງລາຍການ ຫຼື ຫຼາຍກວ່ານັ້ນໃຫ້ຜູ້ຈັດການຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Create expenses from incoming emails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງລາຍຈ່າຍຈາກອີເມວຂາເຂົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "Create new expenses to get statistics."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງລາຍຈ່າຍໃໝ່ເພື່ອເບິ່ງສະຖິຕິ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__create_uid
@@ -462,7 +789,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__create_uid
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__create_date
@@ -472,7 +803,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__create_date
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__currency_id
@@ -480,51 +815,87 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__currency_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__currency_id
 msgid "Currency"
+<<<<<<< HEAD
 msgstr "ເງິນຕາ"
+=======
+msgstr "ສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__currency_rate
 msgid "Currency Rate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັດຕາແລກປ່ຽນເງິນຕາ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Dear"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮຽນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__hr_expense_alias_prefix
 msgid "Default Alias Name for Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ນາມແຝງເລີ່ມຕົ້ນສຳລັບລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__expense_journal_id
 msgid "Default Expense Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີລາຍຈ່າຍເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Default Journals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Default accounting journal for expenses paid by employees."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີການບັນຊີເລີ່ມຕົ້ນສຳລັບລາຍຈ່າຍທີ່ຊຳລະໂດຍພະນັກງານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_department
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__department_id
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__name
@@ -535,12 +906,20 @@ msgstr "ຄຳອະທິບາຍ"
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Did you try the mobile app?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານໄດ້ລອງໃຊ້ແອັບມືຖືແລ້ວບໍ່?"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Digitalize your receipts with OCR and Artificial Intelligence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດໃຫ້ບິນຮັບເງິນຂອງທ່ານເປັນດິຈິຕອນດ້ວຍ OCR ແລະ ປັນຍາປະດິດ (AI)"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__display_name
@@ -550,46 +929,79 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__display_name
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid "Do not keep your expense tickets in your pockets any longer. Just snap a picture of your receipt and let Odoo digitalizes it for you. The OCR and Artificial Intelligence will fill the data automatically."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ຕ້ອງເກັບບິນລາຍຈ່າຍໄວ້ໃນຖົງຂອງທ່ານອີກຕໍ່ໄປ. ພຽງແຕ່ຖ່າຍຮູບລາຍຮັບຂອງທ່ານ ແລະ ໃຫ້ Odoo ປ່ຽນເປັນດິຈິຕ"
+"ອນໃຫ້ທ່ານ. OCR ແລະ ປັນຍາປະດິດ ຈະຕື່ມຂໍ້ມູນໃຫ້ໂດຍອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_account_analytic_applicability__business_domain
 msgid "Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂດເມນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__done
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__done
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/mixins/qrcode.js:0
 msgid "Download our App"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດາວໂຫຼດແອັບຂອງພວກເຮົາ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_expense_reset
 msgid "Draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Drag and drop files to create expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາກ ແລະ ວາງໄຟລ໌ເພື່ອສ້າງລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/wizard/hr_expense_approve_duplicate.py:0
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__duplicate_expense_ids
 msgid "Duplicate Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍຊ້ຳຊ້ອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_employee
@@ -599,34 +1011,58 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__payment_mode__own_account
 msgid "Employee (to reimburse)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານ (ເພື່ອເບີກຄືນ)"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Employee Expense Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີລາຍຈ່າຍພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_account
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_account_employee_expenses
 msgid "Employee Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__address_id
 msgid "Employee Home Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ບ້ານຂອງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Enter a name then choose a category and configure the amount of your expense."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້ອນຊື່ ຈາກນັ້ນເລືອກໝວດໝູ່ ແລະ ກຳນົດຈຳນວນເງິນຂອງລາຍຈ່າຍຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:account.journal,name:hr_expense.hr_expense_account_journal
@@ -642,65 +1078,113 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.activity.type,name:hr_expense.mail_act_expense_approval
 msgid "Expense Approval"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການອະນຸມັດລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_approve_duplicate
 msgid "Expense Approve Duplicate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດລາຍຈ່າຍທີ່ຊ້ຳຊ້ອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_employee_tree_inherit_expense
 msgid "Expense Approver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ນຸມັດລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_product
 #: model:ir.ui.menu,name:hr_expense.menu_hr_product
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Expense Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__date
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Expense Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Expense Digitalization (OCR)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຮັດໃຫ້ລາຍຈ່າຍເປັນດິຈິຕອນ (OCR)"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__journal_id
 msgid "Expense Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__expense_line_ids
 msgid "Expense Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__is_editable
 msgid "Expense Lines Are Editable By Current User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຍຈ່າຍສາມາດແກ້ໄຂໄດ້ໂດຍຜູ້ໃຊ້ປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_employee_public__expense_manager_id
 msgid "Expense Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_refuse_wizard
 msgid "Expense Refuse Reason Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສ້າງເຫດຜົນການປະຕິເສດລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_sheet
@@ -708,12 +1192,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Expense Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__name
 msgid "Expense Report Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບລາຍງານລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_report
@@ -721,91 +1213,159 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Expense Reports"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_filtered
 msgid "Expense Reports Analysis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການວິເຄາະລາຍງານລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_to_approve
 msgid "Expense Reports to Approve"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍທີ່ຕ້ອງອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_account_bank_statement_line__expense_sheet_id
 #: model:ir.model.fields,field_description:hr_expense.field_account_move__expense_sheet_id
 #: model:ir.model.fields,field_description:hr_expense.field_account_payment__expense_sheet_id
 msgid "Expense Sheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_split
 msgid "Expense Split"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຍກລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__expense_split_line_ids
 msgid "Expense Split Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການແຍກລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_split_wizard
 msgid "Expense Split Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສ້າງການແຍກລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
 msgid "Expense Validate Duplicate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກວດສອບລາຍຈ່າຍທີ່ຊ້ຳຊ້ອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_product
 msgid "Expense categories can be reinvoiced to your customers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ລາຍຈ່າຍສາມາດອອກໃບບິນຄືນໃຫ້ລູກຄ້າຂອງທ່ານໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/account_move.py:0
 msgid "Expense entry created from: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຍຈ່າຍທີ່ສ້າງຂຶ້ນຈາກ: %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Expense refuse reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນການປະຕິເສດລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense report approved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍໄດ້ຮັບການອະນຸມັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_paid
 msgid "Expense report paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍໄດ້ຊຳລະແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
 msgid "Expense report refused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍຖືກປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_reset
 msgid "Expense report reset to Draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍຖືກຕັ້ງຄ່າໃໝ່ເປັນສະບັບຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all
 msgid "Expense reports regroup all the expenses incurred during a specific event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍຮວບຮວມລາຍຈ່າຍທັງໝົດທີ່ເກີດຂຶ້ນໃນລະຫວ່າງເຫດການໃດໜຶ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expense split"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຍກລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -819,7 +1379,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_actions_all
@@ -829,130 +1393,222 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_graph
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_pivot
 msgid "Expenses Analysis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການວິເຄາະລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.report,name:hr_expense.action_report_hr_expense_sheet
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Expenses Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_department__expense_sheets_to_approve_count
 msgid "Expenses Reports to Approve"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍຈ່າຍທີ່ຕ້ອງອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "Expenses by Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍຕາມວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expenses from which the report has been submitted to the approver and is waiting for approval."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍທີ່ໄດ້ສົ່ງລາຍງານໃຫ້ຜູ້ນຸມັດແລ້ວ ແລະ ກຳລັງລໍຖ້າການອະນຸມັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expenses from which the report is approved or posted. The payment still needs to be done."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຍຈ່າຍທີ່ລາຍງານໄດ້ຮັບການອະນຸມັດ ຫຼື ລົງບັນຊີແລ້ວ. ແຕ່ຍັງຕ້ອງລໍຖ້າການຊຳລະເງິນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Expenses of Your Team Member"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍຂອງສະມາຊິກໃນທີມຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Expenses that need to be submitted to the approver."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍທີ່ຈຳເປັນຕ້ອງສົ່ງໃຫ້ຜູ້ນຸມັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.account_journal_dashboard_kanban_view_inherit_hr_expense
 msgid "Expenses to Process"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຈ່າຍທີ່ຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_follower_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_partner_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__activity_type_icon
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ: fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Former Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະດີດພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "General Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Generate Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_gift_product_template
 msgid "Gifts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂອງຂວັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:product.template,description:hr_expense.expense_product_gift_product_template
 msgid "Gifts to customers or vendors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂອງຂວັນໃຫ້ລູກຄ້າ ຫຼື ຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Google Play Store"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Play Store"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__is_multiple_currency
 msgid "Handle lines with different currencies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການລາຍການທີ່ມີຫຼາຍສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__has_message
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:product.template,description:hr_expense.expense_product_travel_accommodation_product_template
 msgid "Hotel, plane ticket, taxi, etc."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຮງແຮມ, ປີ້ຍົນ, ແທັກຊີ, ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__id
@@ -962,25 +1618,41 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_exception_icon
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__activity_exception_icon
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນເພື່ອສະແດງກິດຈະກຳທີ່ຍົກເວັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_needaction
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍເລືອກ, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_has_error
@@ -988,100 +1660,172 @@ msgstr ""
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_has_error
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍເລືອກ, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "In Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢູ່ໃນຂັ້ນຕອນການຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__tax_ids
 msgid "Included taxes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Incoming Emails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວຂາເຂົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_categories_tree_view
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Internal Note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດພາຍໃນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__description
 msgid "Internal Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດພາຍໃນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Invalid attachments!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ຄັດຕິດບໍ່ຖືກຕ້ອງ!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__is_editable
 msgid "Is Editable By Current User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດແກ້ໄຂໄດ້ໂດຍຜູ້ໃຊ້ປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_is_follower
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__same_currency
 msgid "Is currency_id different from the company_currency_id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຕກຕ່າງຈາກ company_currency_id ຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_has_cost
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__product_has_cost
 msgid "Is product with non zero cost selected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນສິນຄ້າທີ່ມີຕົ້ນທຶນບໍ່ແມ່ນສູນທີ່ຖືກເລືອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "It all begins here - let's go!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸກຢ່າງເລີ່ມຕົ້ນທີ່ນີ້ - ໄປກັນເລີຍ!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_journal
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__employee_journal_id
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໝຸດບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__account_move_id
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_expense_entry_delete
 msgid "Journal Entry Deleted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີຖືກລຶບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການຍ່ອຍໃນສະໝຸດບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_entry_delete
 msgid "Journal entry deleted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີຖືກລຶບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__label_convert_rate
 msgid "Label Convert Rate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍຊື່ອັດຕາແລກປ່ຽນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__write_uid
@@ -1091,7 +1835,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__write_uid
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__write_date
@@ -1101,87 +1849,147 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__write_date
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຊັກຊ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__hr_expense_use_mailgateway
 msgid "Let your employees record expenses by email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຫ້ພະນັກງານຂອງທ່ານບັນທຶກຄ່າໃຊ້ຈ່າຍຜ່ານອີເມລ໌"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Let's check out where you can manage all your employees expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາເບິ່ງບ່ອນທີ່ທ່ານສາມາດຈັດການຄ່າໃຊ້ຈ່າຍທັງໝົດຂອງພະນັກງານຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Let's go back to your expenses."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບໄປທີ່ຄ່າໃຊ້ຈ່າຍຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Lunch with customer $12.32"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິນເຂົ້າທ່ຽງກັບລູກຄ້າ $12.32"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_main_attachment_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_main_attachment_id
 msgid "Main Attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານຄັດຕິດຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__user_id
 msgid "Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Managers can approve the report here, then an accountant can post the accounting entries."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຜູ້ຈັດການສາມາດອະນຸມັດບົດລາຍງານຢູ່ທີ່ນີ້, ຈາກນັ້ນນັກບັນຊີສາມາດລົງລາຍການບັນຊີໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Managers can inspect all expenses from here."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການສາມາດກວດສອບຄ່າໃຊ້ຈ່າຍທັງໝົດໄດ້ຈາກບ່ອນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_meal_product_template
 msgid "Meals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າອາຫານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_has_error
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_mileage_product_template
 msgid "Mileage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະທາງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__my_activity_date_deadline
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກໍານົດເວລາສິ້ນສຸດກິດຈະກໍາຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_actions_my_all
@@ -1189,278 +1997,479 @@ msgstr ""
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_my_expenses_all
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "My Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າໃຊ້ຈ່າຍຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_my_all
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_my_reports
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "My Reports"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "My Team"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີມງານຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "New Expense Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານຄ່າໃຊ້ຈ່າຍໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "New Expense Reports"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານຄ່າໃຊ້ຈ່າຍໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການປະຕິທິນກິດຈະກໍາຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_date_deadline
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກໍານົດເວລາສິ້ນສຸດກິດຈະກໍາຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_summary
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄໍາອະທິບາຍຫຍໍ້ກິດຈະກໍາຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_type_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກໍາຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "No Home Address found for the employee %s, please configure one."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບທີ່ຢູ່ເຮືອນສໍາລັບພະນັກງານ %s, ກະລຸນາກໍານົດຄ່າໃຫ້ລະອຽດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "No attachment was provided"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີເອກະສານຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_department_filtered
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_all
 msgid "No data yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີຂໍ້ມູນເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_product
 msgid "No expense categories found. Let's create one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບໝວດໝູ່ຄ່າໃຊ້ຈ່າຍ. ມາສ້າງໃໝ່ກັນເລີຍ!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_my_all
 msgid "No expense report found. Let's create one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບບົດລາຍງານຄ່າໃຊ້ຈ່າຍ. ມາສ້າງໃໝ່ກັນເລີຍ!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all
 msgid "No expense reports found. Let's create one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບບົດລາຍງານຄ່າໃຊ້ຈ່າຍ. ມາສ້າງໃໝ່ກັນເລີຍ!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 msgid "Not Refused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ໄດ້ຖືກປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Notes..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ..."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_needaction_counter
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__attachment_number
 msgid "Number of Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນເອກະສານຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__expense_number
 msgid "Number of Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນລາຍການຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_has_error_counter
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_needaction_counter
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_needaction_counter
 msgid "Number of messages which requires an action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງໄດ້ດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__message_has_error_counter
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
 msgid "Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_account
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_all
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_my_all
 msgid "Once you have created your expense, submit it to your manager who will validate it."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມື່ອທ່ານສ້າງຄ່າໃຊ້ຈ່າຍແລ້ວ, ໃຫ້ສົ່ງຫາຜູ້ຈັດການຂອງທ່ານເພື່ອຢັ້ງຢືນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Once your <b>Expense Report</b> is ready, you can submit it to your manager and wait for approval."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເມື່ອ <b>ບົດລາຍງານຄ່າໃຊ້ຈ່າຍ</b> ຂອງທ່ານພ້ອມແລ້ວ, ທ່ານສາມາດສົ່ງໃຫ້ຜູ້ຈັດການຂອງທ່ານ ແລະ ລໍຖ້າການອ"
+"ະນຸມັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Only HR Officers or the concerned employee can reset to draft."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະເພາະເຈົ້າໜ້າທີ່ບຸກຄະລາກອນ ຫຼື ພະນັກງານທີ່ກ່ຽວຂ້ອງເທົ່ານັ້ນທີ່ສາມາດປັບກັບເປັນຮ່າງໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Or"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼື"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Or send your receipts at"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼື ສົ່ງໃບຮັບເງິນຂອງທ່ານທີ່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 msgid "Original Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນເດີມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.product_product_no_cost_product_template
 msgid "Others"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອື່ນໆ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:mail.message.subtype,name:hr_expense.mt_expense_paid
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈ່າຍແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__payment_mode
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__payment_mode
 msgid "Paid By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈ່າຍໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Partial"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບາງສ່ວນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__payment_method_line_id
 msgid "Payment Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__payment_state
 msgid "Payment Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະການຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/account_payment.py:0
 msgid "Payment created for: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງການຊຳລະສຳລັບ: %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Payment method allowed for expenses paid by company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຊຳລະທີ່ອະນຸຍາດສຳລັບຄ່າໃຊ້ຈ່າຍທີ່ບໍລິສັດເປັນຜູ້ຈ່າຍ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_company__company_expense_allowed_payment_method_line_ids
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__company_expense_allowed_payment_method_line_ids
 msgid "Payment methods available for expenses paid by company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຊຳລະທີ່ມີໃຫ້ສຳລັບຄ່າໃຊ້ຈ່າຍທີ່ບໍລິສັດເປັນຜູ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_payment
 msgid "Payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:product.template,description:hr_expense.expense_product_communication_product_template
 msgid "Phone bills, postage, etc."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າໂທລະສັບ, ຄ່າໄປສະນີ, ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/views/list.xml:0
 msgid "Post Entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງລາຍການ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Post Journal Entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງລາຍການບັນຊີປະຈຳວັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__post
 msgid "Posted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງບັນຊີແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
 msgid "Powered by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັບເຄື່ອນໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Price in Company Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາເປັນສະກຸນເງິນຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Price:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາ:"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_product_template
@@ -1471,22 +2480,38 @@ msgstr "ສິນຄ້າ"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_description
 msgid "Product Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "Product Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_tree_view
 msgid "Product Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວເລືອກສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_employee_public
 msgid "Public Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -1502,50 +2527,87 @@ msgstr "ຈຳນວນ"
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__rating_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໃຫ້ຄະແນນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Ready? You can save it manually or discard modifications from here. You don't <em>need to save</em> - Odoo will save eveyrthing for you when you navigate."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພ້ອມແລ້ວບໍ? ທ່ານສາມາດບັນທຶກດ້ວຍຕົນເອງ ຫຼື ຍົກເລີກການປ່ຽນແປງໄດ້ຈາກບ່ອນນີ້. ທ່ານ <em>ບໍ່ຈຳເປັນຕ້ອງບັນທຶ"
+"ກ</em> - Odoo ຈະບັນທຶກທຸກຢ່າງໃຫ້ທ່ານເມື່ອທ່ານປ່ຽນໜ້າ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__reason
 msgid "Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 msgid "Reason to refuse Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນໃນການປະຕິເສດຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "Reason:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນ:"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Ref."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອ້າງອີງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__is_ref_editable
 msgid "Reference Is Editable By Current User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນອ້າງອີງສາມາດແກ້ໄຂໄດ້ໂດຍຜູ້ໃຊ້ປະຈຸບັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Refuse"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_refuse_wizard_action
 msgid "Refuse Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິເສດຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__refused
@@ -1554,12 +2616,20 @@ msgstr ""
 #: model:mail.message.subtype,name:hr_expense.mt_expense_refused
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Refused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Refused Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າໃຊ້ຈ່າຍທີ່ຖືກປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
@@ -1567,27 +2637,47 @@ msgstr ""
 #: model:ir.model,name:hr_expense.model_account_payment_register
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Register Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນການຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__module_hr_payroll_expense
 msgid "Reimburse Expenses in Payslip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີກຄືນຄ່າໃຊ້ຈ່າຍໃນໃບເງິນເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Reimburse expenses in payslips"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີກຄືນຄ່າໃຊ້ຈ່າຍໃນໃບເງິນເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Reimburse in Payslip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີກຄືນໃນໃບເງິນເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__company_currency_id
 msgid "Report Company Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານສະກຸນເງິນຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_reports
@@ -1597,47 +2687,79 @@ msgstr "ບົດລາຍງານ"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Reset to Draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປັບກັບຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_user_id
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:product.template,description:hr_expense.expense_product_meal_product_template
 msgid "Restaurants, business lunches, etc."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮ້ານອາຫານ, ກິນເຂົ້າທ່ຽງທາງທຸລະກິດ, ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__message_has_sms_error
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_categories_tree_view
 msgid "Sales Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__sample
 msgid "Sample"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/views/kanban.xml:0
 #: code:addons/hr_expense/static/src/views/list.xml:0
 msgid "Scan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແກນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/xml/expense_qr_modal_template.xml:0
 msgid "Scan this QR code to get the Odoo app:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແກນ QR code ນີ້ເພື່ອຕິດຕັ້ງແອັບ Odoo:"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_employee__expense_manager_id
@@ -1646,89 +2768,157 @@ msgid ""
 "Select the user responsible for approving \"Expenses\" of this employee.\n"
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເລືອກຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບໃນການອະນຸມັດ \"ຄ່າໃຊ້ຈ່າຍ\" ຂອງພະນັກງານຜູ້ນີ້.\n"
+"ຖ້າວ່າງໄວ້, ການອະນຸມັດຈະດຳເນີນການໂດຍ ຜູ້ບໍລິຫານ ຫຼື ຜູ້ອະນຸມັດ (ທີ່ກຳນົດໃນ ການຕັ້ງຄ່າ/ຜູ້ໃຊ້)."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__selectable_payment_method_line_ids
 msgid "Selectable Payment Method Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການວິທີການຊຳລະທີ່ສາມາດເລືອກໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Selected Unit of Measure for expense %(expense)s does not belong to the same category as the Unit of Measure of product %(product)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຫົວໜ່ວຍວັດແທກທີ່ເລືອກສຳລັບຄ່າໃຊ້ຈ່າຍ %(expense)s ບໍ່ໄດ້ຢູ່ໃນໝວດໝູ່ດຽວກັນກັບຫົວໜ່ວຍວັດແທກຂອງສິນຄ້າ %"
+"(product)s."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Send an email to this email alias with the receipt in attachment to create an expense in one click. If the first word of the mail subject contains the category's internal reference or the category name, the corresponding category will automatically be set. Type the expense amount in the mail subject to set it on the expense too."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສົ່ງອີເມລ໌ຫາທີ່ຢູ່ນາມແຝງນີ້ ພ້ອມແນບໃບຮັບເງິນເພື່ອສ້າງຄ່າໃຊ້ຈ່າຍໃນຄລິກດຽວ. ຖ້າຄຳທຳອິດຂອງຫົວຂໍ້ອີເມລ໌ມີລະຫັດ"
+"ອ້າງອີງພາຍໃນ ຫຼື ຊື່ໝວດໝູ່, ໝວດໝູ່ທີ່ກ່ຽວຂ້ອງຈະຖືກຕັ້ງໃຫ້ໂດຍອັດຕະໂນມັດ. ພິມຈຳນວນເງິນຄ່າໃຊ້ຈ່າຍໃນຫົວຂໍ້ອີເມ"
+"ລ໌ເພື່ອຕັ້ງຄ່າໃນລາຍການຄ່າໃຊ້ຈ່າຍເຊັ່ນກັນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_res_config_settings__module_hr_expense_extract
 msgid "Send bills to OCR to generate expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃບເກັບເງິນໄປຫາ OCR ເພື່ອສ້າງລາຍການຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_configuration
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_global_settings
 msgid "Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກໍານົດຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "Setup your domain alias"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງຄ່ານາມແຝງໂດເມນຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_approve_duplicate__sheet_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_refuse_wizard__sheet_ids
 msgid "Sheet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__sheet_is_editable
 msgid "Sheet Is Editable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບລາຍງານສາມາດແກ້ໄຂໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Show all records which has next action date is before today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງບັນທຶກທັງໝົດທີ່ມີວັນທີດຳເນີນການຖັດໄປກ່ອນມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 msgid "Snap pictures of your receipts and let Odoo<br> automatically create expenses for you."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ່າຍຮູບໃບຮັບເງິນຂອງທ່ານ ແລະ ໃຫ້ Odoo<br> ສ້າງຄ່າໃຊ້ຈ່າຍໃຫ້ທ່ານໂດຍອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "Specify expense journal to generate accounting entries."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບຸປຶ້ມບັນຊີປະຈຳວັນຂອງຄ່າໃຊ້ຈ່າຍເພື່ອສ້າງລາຍການບັນຊີ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_product_product__can_be_expensed
 #: model:ir.model.fields,help:hr_expense.field_product_template__can_be_expensed
 msgid "Specify whether the product can be selected in an expense."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບຸວ່າສິນຄ້ານີ້ສາມາດຖືກເລືອກໃນລາຍການຄ່າໃຊ້ຈ່າຍໄດ້ຫຼືບໍ່."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_split
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "Split Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຍກຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/wizard/hr_expense_split_wizard.py:0
 msgid "Split Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຍກຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__split_possible
 msgid "Split Possible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດແຍກໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__state
@@ -1747,62 +2937,109 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະອີງຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນທີກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/views/list.xml:0
 msgid "Submit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Submit to Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ຈັດການ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__submitted
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__approval_state__submit
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__submit
 msgid "Submitted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Subtotal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມຍ່ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Subtotal In Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມຍ່ອຍເປັນສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__tax_ids
 msgid "Tax"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__amount_tax_company
 msgid "Tax amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນອາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__amount_tax
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__amount_tax
 msgid "Tax amount in Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນອາກອນເປັນສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__amount_tax_company
 msgid "Tax amount in company currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນອາກອນເປັນສະກຸນເງິນຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__amount_tax
 msgid "Tax amount in currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນອາກອນເປັນສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__total_amount_taxes
@@ -1811,95 +3048,164 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Taxes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:res.groups,name:hr_expense.group_hr_expense_team_approver
 msgid "Team Approver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ອະນຸມັດທີມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_res_company__expense_journal_id
 #: model:ir.model.fields,help:hr_expense.field_res_config_settings__expense_journal_id
 msgid "The company's default journal used when an employee expense is created."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ປຶ້ມບັນຊີປະຈຳວັນເລີ່ມຕົ້ນຂອງບໍລິສັດທີ່ໃຊ້ເມື່ອມີການສ້າງຄ່າໃຊ້ຈ່າຍຂອງພະນັກງານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "The current user has no related employee. Please, create one."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ປະຈຸບັນບໍ່ມີພະນັກງານທີ່ກ່ຽວຂ້ອງ. ກະລຸນາສ້າງຂຶ້ນໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "The first word of the email subject did not correspond to any category code. You'll have to set the category manually on the expense."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄຳທຳອິດຂອງຫົວຂໍ້ອີເມລ໌ບໍ່ກົງກັບລະຫັດໝວດໝູ່ໃດໆ. ທ່ານຕ້ອງໄດ້ຕັ້ງໝວດໝູ່ດ້ວຍຕົນເອງໃນລາຍການຄ່າໃຊ້ຈ່າຍ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_approve_duplicate_view_form
 msgid "The following approved expenses have similar employee, amount and category than some expenses of this report. Please verify this report does not contain duplicates."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄ່າໃຊ້ຈ່າຍທີ່ໄດ້ຮັບການອະນຸມັດຕໍ່ໄປນີ້ມີ ພະນັກງານ, ຈຳນວນເງິນ ແລະ ໝວດໝູ່ ທີ່ຄ້າຍຄືກັບບາງລາຍການໃນບົດລາຍງ"
+"ານນີ້. ກະລຸນາກວດສອບວ່າບົດລາຍງານນີ້ບໍ່ມີລາຍການທີ່ຊ້ຳຊ້ອນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.constraint,message:hr_expense.constraint_hr_expense_sheet_journal_id_required_posted
 msgid "The journal must be set on posted expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງກຳນົດປຶ້ມບັນຊີປະຈຳວັນໃນຄ່າໃຊ້ຈ່າຍທີ່ລົງບັນຊີແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__employee_journal_id
 msgid "The journal used when the expense is paid by employee."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີປະຈຳວັນທີ່ໃຊ້ເມື່ອຄ່າໃຊ້ຈ່າຍຖືກຈ່າຍໂດຍພະນັກງານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__payment_method_line_id
 msgid "The payment method used when the expense is paid by the company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຊຳລະທີ່ໃຊ້ເມື່ອຄ່າໃຊ້ຈ່າຍຖືກຈ່າຍໂດຍບໍລິສັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "The status of all your current expenses is visible from here."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະຂອງຄ່າໃຊ້ຈ່າຍປະຈຸບັນທັງໝົດຂອງທ່ານແມ່ນສາມາດເຫັນໄດ້ຈາກບ່ອນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_split_wizard__split_possible
 msgid "The sum of after split shut remain the same"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜົນລວມຫຼັງຈາກການແຍກຕ້ອງຍັງຄົງເທົ່າເດີມ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "There you go - expense management in a nutshell!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮຽບຮ້ອຍ - ນີ້ຄືການຈັດການຄ່າໃຊ້ຈ່າຍແບບຫຍໍ້ໆ!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "This note will be shown to users when they select this expense product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດນີ້ຈະສະແດງໃຫ້ຜູ້ໃຊ້ເຫັນເມື່ອພວກເຂົາເລືອກສິນຄ້າຄ່າໃຊ້ຈ່າຍນີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:digest.tip,name:hr_expense.digest_tip_hr_expense_0
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid "Tip: Snap pictures of your receipts with the remote app"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄັດລັບ: ຖ່າຍຮູບໃບຮັບເງິນຂອງທ່ານດ້ວຍແອັບມືຖື"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__draft
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "To Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພື່ອລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__state__reported
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense_sheet__state__draft
 msgid "To Submit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພື່ອສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳຂອງມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__total_amount_company
@@ -1913,56 +3219,96 @@ msgstr "ລວມທັງໝົດ"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_expenses_analysis_tree
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Total Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນລວມທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__total_amount
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__total_amount
 msgid "Total In Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມທັງໝົດເປັນສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_expenses_analysis_tree
 msgid "Total Taxes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາກອນທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__untaxed_amount
 msgid "Total Untaxed Amount In Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າບໍ່ລວມອາກອນທັງໝົດເປັນສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_split_wizard__total_amount_original
 msgid "Total amount of the original Expense that we are splitting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທັງໝົດຂອງຄ່າໃຊ້ຈ່າຍເດີມທີ່ພວກເຮົາກຳລັງແຍກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split_wizard__total_amount_original
 msgid "Total amount original"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນເດີມທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:product.template,name:hr_expense.expense_product_travel_accommodation_product_template
 msgid "Travel & Accommodation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເດີນທາງ ແລະ ທີ່ພັກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__activity_exception_decoration
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__unit_amount
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_expenses_analysis_tree
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Unit Price"
+<<<<<<< HEAD
 msgstr "ລາຄາຫົວໜວຍ"
+=======
+msgstr "ລາຄາຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__unit_amount_display
 msgid "Unit Price Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງລາຄາຕໍ່ໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_uom_id
@@ -1972,118 +3318,204 @@ msgstr "ຫົວໜ່ວຍ"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__untaxed_amount
 msgid "Untaxed Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າບໍ່ລວມພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_uom_category_id
 msgid "UoM Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/views/kanban.xml:0
 msgid "Upload"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບໂຫຼດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Use the breadcrumbs to go back to the list of expenses."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ແຖບນຳທາງ (breadcrumbs) ເພື່ອກັບໄປຫາລາຍການຄ່າໃຊ້ຈ່າຍ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_res_users
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_approve_duplicate_action
 msgid "Validate Duplicate Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢັ້ງຢືນຄ່າໃຊ້ຈ່າຍທີ່ຊ້ຳຊ້ອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "View Attachments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງເອກະສານຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "View Expense"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງຄ່າໃຊ້ຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "View Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງບົດລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "Wasting time recording your receipts? Let’s try a better way."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເສຍເວລາໃນການບັນທຶກໃບຮັບເງິນບໍ? ມາລອງວິທີທີ່ດີກວ່າກັນເລີຍ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__website_message_ids
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມຈາກເວັບໄຊທ໌"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__website_message_ids
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການສື່ສານທາງເວັບໄຊທ໌"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "When the cost of an expense product is different than 0, then the user using this product won't be able to change the amount of the expense, only the quantity. Use a cost different than 0 for expense categories funded by the company at fixed cost like allowances for mileage, per diem, accommodation or meal."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເມື່ອຕົ້ນທຶນຂອງສິນຄ້າຄ່າໃຊ້ຈ່າຍຕ່າງຈາກ 0, ຜູ້ໃຊ້ທີ່ໃຊ້ສິນຄ້ານີ້ຈະບໍ່ສາມາດປ່ຽນຈຳນວນເງິນຂອງຄ່າໃຊ້ຈ່າຍໄດ້, ປ່ຽ"
+"ນໄດ້ພຽງແຕ່ຈຳນວນເທົ່ານັ້ນ. ໃຫ້ໃຊ້ຕົ້ນທຶນທີ່ຕ່າງຈາກ 0 ສຳລັບໝວດໝູ່ຄ່າໃຊ້ຈ່າຍທີ່ບໍລິສັດອອກໃຫ້ໃນລາຄາຄົງທີ່ ເຊັ່"
+"ນ: ຄ່າເບ້ຍລ້ຽງໄລຍະທາງ, ຄ່າລາຍວັນ, ທີ່ພັກ ຫຼື ອາຫານ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__product_has_tax
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__product_has_tax
 msgid "Whether tax is defined on a selected product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດວ່າໄດ້ລະບຸອາກອນໃນສິນຄ້າທີ່ເລືອກຫຼືບໍ່"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_split__wizard_id
 msgid "Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You are not authorized to edit the reference of this expense report."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ມີສິດໃນການແກ້ໄຂການອ້າງອີງຂອງບົດລາຍງານຄ່າໃຊ້ຈ່າຍນີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You are not authorized to edit this expense report."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ມີສິດໃນການແກ້ໄຂບົດລາຍງານຄ່າໃຊ້ຈ່າຍນີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You can not create report without category."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດສ້າງບົດລາຍງານໂດຍບໍ່ມີໝວດໝູ່ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "You can now submit it to the manager from the following link."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານສາມາດສົ່ງໃຫ້ຜູ້ຈັດການໄດ້ແລ້ວຈາກລິ້ງຕໍ່ໄປນີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You can only generate accounting entry for approved expense(s)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານສາມາດສ້າງລາຍການບັນຊີໄດ້ສະເພາະຄ່າໃຊ້ຈ່າຍທີ່ໄດ້ຮັບການອະນຸມັດແລ້ວເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot add expenses of another employee."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດເພີ່ມຄ່າໃຊ້ຈ່າຍຂອງພະນັກງານຄົນອື່ນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -2092,30 +3524,51 @@ msgid ""
 "You cannot approve:\n"
 " %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດອະນຸມັດ:\n"
+" %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot delete a posted or approved expense."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລຶບຄ່າໃຊ້ຈ່າຍທີ່ລົງບັນຊີ ຫຼື ອະນຸມັດແລ້ວໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot delete a posted or paid expense."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລຶບຄ່າໃຊ້ຈ່າຍທີ່ລົງບັນຊີ ຫຼື ຈ່າຍແລ້ວໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/analytic.py:0
 msgid "You cannot delete an analytic account that is used in an expense."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລຶບບັນຊີວິເຄາະທີ່ຖືກນຳໃຊ້ໃນຄ່າໃຊ້ຈ່າຍໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/account_payment.py:0
 msgid "You cannot do this modification since the payment is linked to an expense report."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດດຳເນີນການແກ້ໄຂນີ້ໄດ້ ເນື່ອງຈາກການຊຳລະຖືກເຊື່ອມໂຍງກັບບົດລາຍງານຄ່າໃຊ້ຈ່າຍ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -2124,86 +3577,151 @@ msgid ""
 "You cannot refuse:\n"
 " %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດປະຕິເສດ:\n"
+" %s"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot report expenses for different employees in the same report."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລາຍງານຄ່າໃຊ້ຈ່າຍຂອງພະນັກງານຫຼາຍຄົນໃນບົດລາຍງານດຽວກັນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot report the expenses without amount!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລາຍງານຄ່າໃຊ້ຈ່າຍໂດຍບໍ່ມີຈຳນວນເງິນໄດ້!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You cannot report twice the same line!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລາຍງານລາຍການດຽວກັນສອງຄັ້ງໄດ້!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You have no expense to report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ມີຄ່າໃຊ້ຈ່າຍທີ່ຈະລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "You need to have at least one category that can be expensed in your database to proceed!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານຈຳເປັນຕ້ອງມີຢ່າງໜ້ອຍໜຶ່ງໝວດໝູ່ທີ່ສາມາດເບີກຄ່າໃຊ້ຈ່າຍໄດ້ໃນຖານຂໍ້ມູນຂອງທ່ານເພື່ອດຳເນີນການຕໍ່!"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "Your Expense Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານຄ່າໃຊ້ຈ່າຍຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register
 msgid "Your expense has been successfully registered."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າໃຊ້ຈ່າຍຂອງທ່ານໄດ້ຖືກລົງທະບຽນສຳເລັດແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid "e.g. Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ເຂົ້າທ່ຽງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
 msgid "e.g. Lunch with Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ກິນເຂົ້າທ່ຽງກັບລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "e.g. Trip to NY"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ໄປເຮັດວຽກຢູ່ ນິວຢອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason
 msgid "has been refused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກປະຕິເສດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "to be reimbursed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າເບີກຄືນ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "to submit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid "under validation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງກວດສອບ"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "use OCR to fill data from a picture of the bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ OCR ເພື່ອຕື່ມຂໍ້ມູນຈາກຮູບຖ່າຍໃບເກັບເງິນ"
+>>>>>>> upstream/18.0

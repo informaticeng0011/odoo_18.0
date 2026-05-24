@@ -333,6 +333,7 @@ import { describe, expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { tick } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -1800,6 +1801,8 @@ import { insertText, italic, tripleClick, underline } from "../_helpers/user_act
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { tick } from "@odoo/hoot-mock";
 import { press } from "@odoo/hoot-dom";
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
@@ -1959,6 +1962,9 @@ import { getContent } from "../_helpers/selection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2509,6 +2515,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "../_helpers/user_actions";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2804,6 +2811,10 @@ import {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    undo,
+} from "../_helpers/user_actions";
 >>>>>>> upstream/18.0
 =======
     undo,
@@ -3906,7 +3917,11 @@ test("should make a few characters underline", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentAfter: `<p>ab${u(`[cde]`)}fg</p>`,
+=======
+        contentAfter: `<p>ab<u>[cde]</u>fg</p>`,
+>>>>>>> upstream/18.0
 =======
         contentAfter: `<p>ab<u>[cde]</u>fg</p>`,
 >>>>>>> upstream/18.0
@@ -4532,9 +4547,15 @@ test("should make a few characters not underline", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentBefore: `<p>${u(`ab[cde]fg`)}</p>`,
         stepFunction: underline,
         contentAfter: `<p>${u(`ab`)}[cde]${u(`fg`)}</p>`,
+=======
+        contentBefore: `<p><u>ab[cde]fg</u></p>`,
+        stepFunction: underline,
+        contentAfter: `<p><u>ab</u>[cde]<u>fg</u></p>`,
+>>>>>>> upstream/18.0
 =======
         contentBefore: `<p><u>ab[cde]fg</u></p>`,
         stepFunction: underline,
@@ -5472,7 +5493,11 @@ test("should make two paragraphs underline", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentAfter: `<p>${u(`[abc`)}</p><p>${u(`def]`)}</p>`,
+=======
+        contentAfter: `<p><u>[abc</u></p><p><u>def]</u></p>`,
+>>>>>>> upstream/18.0
 =======
         contentAfter: `<p><u>[abc</u></p><p><u>def]</u></p>`,
 >>>>>>> upstream/18.0
@@ -6098,7 +6123,11 @@ test("should make two paragraphs not underline", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentBefore: `<p>${u(`[abc`)}</p><p>${u(`def]`)}</p>`,
+=======
+        contentBefore: `<p><u>[abc</u></p><p><u>def]</u></p>`,
+>>>>>>> upstream/18.0
 =======
         contentBefore: `<p><u>[abc</u></p><p><u>def]</u></p>`,
 >>>>>>> upstream/18.0
@@ -6834,8 +6863,11 @@ test("should make a whole heading underline after a triple click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         stepFunction: underline,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7346,6 +7378,7 @@ test("should make a whole heading underline after a triple click", async () => {
             await tripleClick(editor.editable.querySelector("h1"));
             underline(editor);
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8262,6 +8295,9 @@ test("should make a whole heading underline after a triple click", async () => {
 =======
         contentAfter: `<h1><u>[ab]</u></h1><p>cd</p>`,
 >>>>>>> upstream/18.0
+=======
+        contentAfter: `<h1><u>[ab]</u></h1><p>cd</p>`,
+>>>>>>> upstream/18.0
     });
 });
 
@@ -8421,7 +8457,11 @@ test("should make a whole heading not underline after a triple click", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { el, editor } = await setupEditor(`<h1>${u(`ab`)}</h1><p>cd</p>`);
+=======
+    const { el, editor } = await setupEditor(`<h1><u>ab</u></h1><p>cd</p>`);
+>>>>>>> upstream/18.0
 =======
     const { el, editor } = await setupEditor(`<h1><u>ab</u></h1><p>cd</p>`);
 >>>>>>> upstream/18.0
@@ -9049,9 +9089,15 @@ test("should make a selection starting with underline text fully underline", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentBefore: `<p>${u(`[ab`)}</p><p>c]d</p>`,
         stepFunction: underline,
         contentAfter: `<p>${u(`[ab`)}</p><p>${u(`c]`)}d</p>`,
+=======
+        contentBefore: `<p><u>[ab</u></p><p>c]d</p>`,
+        stepFunction: underline,
+        contentAfter: `<p><u>[ab</u></p><p><u>c]</u>d</p>`,
+>>>>>>> upstream/18.0
 =======
         contentBefore: `<p><u>[ab</u></p><p>c]d</p>`,
         stepFunction: underline,
@@ -9987,9 +10033,15 @@ test("should make a selection with underline text in the middle fully underline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentBefore: `<p>[a${u(`b`)}</p><p>${u(`c`)}d]e</p>`,
         stepFunction: underline,
         contentAfter: `<p>${u(`[ab`)}</p><p>${u(`cd]`)}e</p>`,
+=======
+        contentBefore: `<p>[a<u>b</u></p><p><u>c</u>d]e</p>`,
+        stepFunction: underline,
+        contentAfter: `<p><u>[ab</u></p><p><u>cd]</u>e</p>`,
+>>>>>>> upstream/18.0
 =======
         contentBefore: `<p>[a<u>b</u></p><p><u>c</u>d]e</p>`,
         stepFunction: underline,
@@ -10926,9 +10978,15 @@ test("should make a selection ending with underline text fully underline", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentBefore: `<p>[ab</p><p>${u(`c]d`)}</p>`,
         stepFunction: underline,
         contentAfter: `<p>${u(`[ab`)}</p><p>${u(`c]d`)}</p>`,
+=======
+        contentBefore: `<p>[ab</p><p><u>c]d</u></p>`,
+        stepFunction: underline,
+        contentAfter: `<p><u>[ab</u></p><p><u>c]d</u></p>`,
+>>>>>>> upstream/18.0
 =======
         contentBefore: `<p>[ab</p><p><u>c]d</u></p>`,
         stepFunction: underline,
@@ -11866,6 +11924,7 @@ test("should get ready to type in underline", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentAfterEdit: `<p>ab${u(`[]\u200B`, "first")}cd</p>`,
 =======
         contentAfterEdit: `<p>ab<u data-oe-zws-empty-inline="">[]\u200B</u>cd</p>`,
@@ -12332,12 +12391,16 @@ test("should get ready to type in underline", async () => {
 =======
         contentAfterEdit: `<p>ab<u data-oe-zws-empty-inline="">\u200B[]</u>cd</p>`,
 >>>>>>> upstream/18.0
+=======
+        contentAfterEdit: `<p>ab<u data-oe-zws-empty-inline="">\u200B[]</u>cd</p>`,
+>>>>>>> upstream/18.0
         contentAfter: `<p>ab[]cd</p>`,
     });
 });
 
 test("should get ready to type in not underline", async () => {
     await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13101,6 +13164,8 @@ test("should get ready to type in not underline", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         contentBefore: `<p><u>ab[]cd</u></p>`,
         stepFunction: underline,
         contentAfterEdit: `<p><u>ab</u><span data-oe-zws-empty-inline="">\u200B[]</span><u>cd</u></p>`,
@@ -13161,6 +13226,9 @@ test("should get ready to type in not underline", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13436,7 +13504,11 @@ test("should not format non-editable text (underline)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         contentAfter: `<p>${u("[a")}</p><p contenteditable="false">b</p><p>${u("c]")}</p>`,
+=======
+        contentAfter: `<p><u>[a</u></p><p contenteditable="false">b</p><p><u>c]</u></p>`,
+>>>>>>> upstream/18.0
 =======
         contentAfter: `<p><u>[a</u></p><p contenteditable="false">b</p><p><u>c]</u></p>`,
 >>>>>>> upstream/18.0
@@ -14260,8 +14332,12 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -15424,7 +15500,11 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="o_selected_td"><p>${u(`[abc`)}</p></td>
+=======
+                        <td class="o_selected_td"><p><u>[abc</u></p></td>
+>>>>>>> upstream/18.0
 =======
                         <td class="o_selected_td"><p><u>[abc</u></p></td>
 >>>>>>> upstream/18.0
@@ -15894,6 +15974,7 @@ test("should make a few characters underline inside table (underline)", async ()
                         <td><p><br></p></td>
                     </tr>
                     <tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16515,6 +16596,9 @@ test("should make a few characters underline inside table (underline)", async ()
 =======
                         <td class="o_selected_td"><p><u>def</u></p></td>
 >>>>>>> upstream/18.0
+=======
+                        <td class="o_selected_td"><p><u>def</u></p></td>
+>>>>>>> upstream/18.0
                         <td><p><br></p></td>
                         <td><p><br></p></td>
                     </tr>
@@ -16674,7 +16758,11 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="o_selected_td"><p>${u(`]<br>`)}</p></td>
+=======
+                        <td class="o_selected_td"><p><u>]<br></u></p></td>
+>>>>>>> upstream/18.0
 =======
                         <td class="o_selected_td"><p><u>]<br></u></p></td>
 >>>>>>> upstream/18.0
@@ -17478,8 +17566,12 @@ test("should make a few characters underline inside table (underline)", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </table>`
         ),
+=======
+            </table>`),
+>>>>>>> upstream/18.0
 =======
             </table>`),
 >>>>>>> upstream/18.0
@@ -18643,6 +18735,7 @@ describe("with strikeThrough", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentBefore: `<p>ab${u(s(`cd[]ef`))}</p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab${u(s(`cd`))}${s(`[]\u200b`, "last")}${u(s(`ef`))}</p>`,
@@ -19251,6 +19344,8 @@ describe("with strikeThrough", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><s>cd[]ef</s></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><s>cd</s></u><s data-oe-zws-empty-inline="">\u200B[]</s><u><s>ef</s></u></p>`,
@@ -19311,6 +19406,9 @@ describe("with strikeThrough", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19429,6 +19527,7 @@ describe("with strikeThrough", () => {
 
     test("should restore underline after removing it (collapsed, strikeThrough)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20194,6 +20293,8 @@ describe("with strikeThrough", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><s>cd</s></u><s data-oe-zws-empty-inline="">\u200b[]</s><u><s>ef</s></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><s>cd</s></u><s data-oe-zws-empty-inline=""><u data-oe-zws-empty-inline="">\u200B[]</u></s><u><s>ef</s></u></p>`,
@@ -20254,6 +20355,9 @@ describe("with strikeThrough", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20372,6 +20476,7 @@ describe("with strikeThrough", () => {
 
     test("should remove underline after restoring it after removing it (collapsed, strikeThrough)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21135,6 +21240,8 @@ describe("with strikeThrough", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><s>cd</s></u><s><u>\u200B[]</u></s><u><s>ef</s></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><s>cd</s></u><s data-oe-zws-empty-inline="">\u200B[]</s><u><s>ef</s></u></p>`,
@@ -21195,6 +21302,9 @@ describe("with strikeThrough", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21313,6 +21423,7 @@ describe("with strikeThrough", () => {
 
     test("should remove underline after restoring it and writing after removing it (collapsed, strikeThrough)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22080,6 +22191,8 @@ describe("with strikeThrough", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><s>cd</s></u><s><u>ghi[]</u></s><u><s>ef</s></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><s>cd</s></u><s><u>ghi</u></s><s data-oe-zws-empty-inline="">\u200B[]</s><u><s>ef</s></u></p>`,
@@ -22141,6 +22254,9 @@ describe("with strikeThrough", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22292,6 +22408,7 @@ describe("with italic", () => {
                 italic(editor);
                 underline(editor);
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22913,6 +23030,9 @@ describe("with italic", () => {
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline=""><u data-oe-zws-empty-inline="">\u200B[]</u></em>cd</p>`,
 >>>>>>> upstream/18.0
+=======
+            contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline=""><u data-oe-zws-empty-inline="">\u200B[]</u></em>cd</p>`,
+>>>>>>> upstream/18.0
             contentAfter: `<p>ab[]cd</p>`,
         });
     });
@@ -22925,6 +23045,7 @@ describe("with italic", () => {
                 underline(editor);
                 underline(editor);
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23374,6 +23495,9 @@ describe("with italic", () => {
 >>>>>>> upstream/18.0
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">[]\u200B</em>cd</p>`,
+>>>>>>> upstream/18.0
+=======
+            contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">\u200B[]</em>cd</p>`,
 >>>>>>> upstream/18.0
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">\u200B[]</em>cd</p>`,
@@ -23713,6 +23837,7 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentAfterEdit: `<p>ab${em(`[]\u200B`, "first")}cd</p>`,
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">[]\u200B</em>cd</p>`,
@@ -24007,6 +24132,9 @@ describe("with italic", () => {
 >>>>>>> upstream/18.0
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">[]\u200B</em>cd</p>`,
+>>>>>>> upstream/18.0
+=======
+            contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">\u200B[]</em>cd</p>`,
 >>>>>>> upstream/18.0
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">\u200B[]</em>cd</p>`,
@@ -24346,6 +24474,7 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             contentAfterEdit: `<p>ab${em(`[]\u200B`, "first")}cd</p>`,
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">[]\u200B</em>cd</p>`,
@@ -24812,12 +24941,16 @@ describe("with italic", () => {
 =======
             contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">\u200B[]</em>cd</p>`,
 >>>>>>> upstream/18.0
+=======
+            contentAfterEdit: `<p>ab<em data-oe-zws-empty-inline="">\u200B[]</em>cd</p>`,
+>>>>>>> upstream/18.0
             contentAfter: `<p>ab[]cd</p>`,
         });
     });
 
     test("should get ready to write in italic without underline (underline was first)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25581,6 +25714,8 @@ describe("with italic", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><em>cd[]ef</em></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><em>cd</em></u><em data-oe-zws-empty-inline="">\u200B[]</em><u><em>ef</em></u></p>`,
@@ -25641,6 +25776,9 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25759,6 +25897,7 @@ describe("with italic", () => {
 
     test("should restore underline after removing it (collapsed, italic)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26522,6 +26661,8 @@ describe("with italic", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><em>cd</em></u><em>\u200B[]</em><u><em>ef</em></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><em>cd</em></u><em><u data-oe-zws-empty-inline="">\u200B[]</u></em><u><em>ef</em></u></p>`,
@@ -26582,6 +26723,9 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26700,6 +26844,7 @@ describe("with italic", () => {
 
     test("should remove underline after restoring it after removing it (collapsed, italic)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27463,6 +27608,8 @@ describe("with italic", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><em>cd</em></u><em><u>\u200B[]</u></em><u><em>ef</em></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><em>cd</em></u><em data-oe-zws-empty-inline="">\u200B[]</em><u><em>ef</em></u></p>`,
@@ -27523,6 +27670,9 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27641,6 +27791,7 @@ describe("with italic", () => {
 
     test("should remove underline after restoring it and writing after removing it (collapsed, italic)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28408,6 +28559,8 @@ describe("with italic", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             contentBefore: `<p>ab<u><em>cd</em></u><em><u>ghi[]</u></em><u><em>ef</em></u></p>`,
             stepFunction: underline,
             contentAfterEdit: `<p>ab<u><em>cd</em></u><em><u>ghi</u></em><em data-oe-zws-empty-inline="">\u200B[]</em><u><em>ef</em></u></p>`,
@@ -28469,6 +28622,9 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28587,6 +28743,7 @@ describe("with italic", () => {
 
     test("should remove underline, write, restore underline, write, remove underline again, write (collapsed, italic)", async () => {
         await testEditor({
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29208,6 +29365,9 @@ describe("with italic", () => {
 =======
             contentBefore: `<p>ab<u><em>cd[]ef</em></u></p>`,
 >>>>>>> upstream/18.0
+=======
+            contentBefore: `<p>ab<u><em>cd[]ef</em></u></p>`,
+>>>>>>> upstream/18.0
             stepFunction: async (editor) => {
                 /** @todo fix warnings */
                 patchWithCleanup(console, { warn: () => {} });
@@ -29219,6 +29379,7 @@ describe("with italic", () => {
                 underline(editor);
                 await insertText(editor, "C");
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30688,12 +30849,18 @@ describe("with italic", () => {
         });
     });
 >>>>>>> upstream/18.0
+=======
+            contentAfter: `<p>ab<u><em>cd</em></u><em>A<u>B</u>C[]</em><u><em>ef</em></u></p>`,
+        });
+    });
+>>>>>>> upstream/18.0
 
     test("should remove empty underline tag when changing selection", async () => {
         const { editor, el } = await setupEditor("<p>ab[]cd</p>");
 
         underline(editor);
         await tick();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31315,6 +31482,9 @@ describe("with italic", () => {
 =======
         expect(getContent(el)).toBe(`<p>ab<u data-oe-zws-empty-inline="">\u200B[]</u>cd</p>`);
 >>>>>>> upstream/18.0
+=======
+        expect(getContent(el)).toBe(`<p>ab<u data-oe-zws-empty-inline="">\u200B[]</u>cd</p>`);
+>>>>>>> upstream/18.0
 
         await simulateArrowKeyPress(editor, "ArrowLeft");
         await tick(); // await selectionchange
@@ -31653,6 +31823,7 @@ describe("with italic", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31851,6 +32022,8 @@ describe("with italic", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32330,6 +32503,7 @@ test("should not add history step for underline on collapsed selection", async (
     // step. The empty inline tag is temporary: auto-cleaned if unused. We want
     // to avoid having a phantom step in the history.
     await press(["ctrl", "u"]);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33097,6 +33271,9 @@ test("should not add history step for underline on collapsed selection", async (
 =======
     expect(getContent(el)).toBe(`<p>abcd<u data-oe-zws-empty-inline="">\u200B[]</u></p>`);
 >>>>>>> upstream/18.0
+=======
+    expect(getContent(el)).toBe(`<p>abcd<u data-oe-zws-empty-inline="">\u200B[]</u></p>`);
+>>>>>>> upstream/18.0
 
     await insertText(editor, "A");
     expect(getContent(el)).toBe(`<p>abcd<u>A[]</u></p>`);
@@ -33257,6 +33434,9 @@ test("should not add history step for underline on collapsed selection", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

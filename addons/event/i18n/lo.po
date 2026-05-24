@@ -4,154 +4,275 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
+=======
+"PO-Revision-Date: 2026-05-18 11:46+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/event/lo/>\n"
+>>>>>>> upstream/18.0
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__event_count
 #: model:ir.model.fields,field_description:event.field_res_users__event_count
 msgid "# Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_count_done
 msgid "# Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ສົ່ງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (%(count)s seats remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s (ຍັງເຫຼືອ %(count)s ບ່ອນນັ່ງ)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "%(event_name)s (Sold out)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s (ຂາຍໝົດແລ້ວ)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration #%(registration_id)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - ການລົງທະບຽນ #%(registration_id)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "%(event_name)s - Registration for %(attendee_name)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(event_name)s - ການລົງທະບຽນສຳລັບ %(attendee_name)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (%(count)s seats remaining)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(ticket_name)s (ຍັງເຫຼືອ %(count)s ບ່ອນນັ່ງ)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "%(ticket_name)s (Sold out)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(ticket_name)s (ຂາຍໝົດແລ້ວ)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "%s (copy)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (ສຳເນົາ)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_foldable_badge
 msgid "'Foldable Badge - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), (object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'ບັດຫ້ອຍຄໍແບບພັບໄດ້ - %s - %s' % ((object.event_id.name or 'ກິດຈະກຳ').replace('/"
+"',''), (object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_foldable_badge
 msgid "'Foldable Badge - %s' % (object.name or 'Event').replace('/','')"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'ບັດຫ້ອຍຄໍແບບພັບໄດ້ - %s' % (object.name or 'ກິດຈະກຳ').replace('/','')"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_registration_full_page_ticket
 msgid "'Full Page Ticket - %s - %s' % ((object.event_id.name or 'Event').replace('/',''), (object.name or '').replace('/',''))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"'ປີ້ແບບເຕັມໜ້າ - %s - %s' % ((object.event_id.name or 'ກິດຈະກຳ').replace('/',''), "
+"(object.name or '').replace('/',''))"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,print_report_name:event.action_report_event_event_full_page_ticket
 msgid "'Full Page Ticket - %s' % (object.name or 'Event').replace('/','')"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'ປີ້ແບບເຕັມໜ້າ - %s' % (object.name or 'ກິດຈະກຳ').replace('/','')"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "- \"%(event_name)s\": Missing %(nb_too_many)i seats."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- \"%(event_name)s\": ຂາດ %(nb_too_many)i ບ່ອນນັ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "- the ticket \"%(ticket_name)s\" (%(event_name)s): Missing %(nb_too_many)i seats."
 msgstr ""
+<<<<<<< HEAD
+=======
+"- ປີ້ \"%(ticket_name)s\" (%(event_name)s): ຂາດ %(nb_too_many)i ບ່ອນນັ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_2
 msgid "10-14"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10-14"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_3
 msgid "15-18"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "15-18"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_4
 msgid "18+"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "18+"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_1_tag_1
 msgid "5-10"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "5-10"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>Business Room</b> - To discuss implementation methodologies, best sales practices, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>ຫ້ອງທຸລະກິດ</b> - ເພື່ອສົນທະນາກ່ຽວກັບວິທີການຈັດຕັ້ງປະຕິບັດ, ເຕັກນິກການຂາຍທີ່ດີທີ່ສຸດ, ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>Technical Rooms</b> - One dedicated to advanced Odoo developers, one for new developers."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>ຫ້ອງເຕັກນິກ</b> - ຫ້ອງໜຶ່ງສຳລັບນັກພັດທະນາ Odoo ລະດັບສູງ, ແລະ ອີກຫ້ອງໜຶ່ງສຳລັບນັກພັດທະນາໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>The Design Fair is preceded by 2 days of Training Sessions for experts!</b><br> We propose 3 different training sessions, 2 days each."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>ງານ Design Fair ຈະເລີ່ມຕົ້ນດ້ວຍການຝຶກອົບຮົມສຳລັບຜູ້ຊ່ຽວຊານເປັນເວລາ 2 ມື້!</b><br> ພວກເຮົາສ"
+"ະເໜີ 3 ຫົວຂໍ້ການຝຶກອົບຮົມທີ່ແຕກຕ່າງກັນ, ຫົວຂໍ້ລະ 2 ມື້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>The plenary sessions in the morning will be shorter</b> and we will give more time for thematical meetings, conferences, workshops and tutorial sessions in the afternoon."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>ກອງປະຊຸມລວມໃນຕອນເຊົ້າຈະສັ້ນລົງ</b> ແລະ ພວກເຮົາຈະເພີ່ມເວລາໃຫ້ກັບການປະຊຸມຕາມຫົວຂໍ້, ສຳມະນ"
+"າ, ເວີກຊັອບ ແລະ ການແນະນຳຕ່າງໆໃນຕອນບ່າຍ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>The whole event is open to all public!</b> <br>We ask a participation fee of 49.50€ for the costs for the 3 days (coffee breaks, catering, drinks and a surprising concert and beer party).<br> For those who don't want to contribute, there is a free ticket, therefore, catering and access to evening events aren't included."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>ງານນີ້ເປີດໃຫ້ທຸກຄົນເຂົ້າຮ່ວມໄດ້!</b> <br>ພວກເຮົາເກັບຄ່າທຳນຽມການເຂົ້າຮ່ວມ 49.50€ ສຳລັບຄ່າໃຊ້ຈ່າ"
+"ຍ 3 ມື້ (ພັກດື່ມກາເຟ, ອາຫານ, ເຄື່ອງດື່ມ ແລະ ຄອນເສີດພິເສດພ້ອມປາຕີ້ເບຍ).<br> ສຳລັບຜູ້ທີ່ບໍ່ຕ້ອງການເສຍ"
+"ຄ່າໃຊ້ຈ່າຍ, ມີປີ້ຟຣີໃຫ້ ແຕ່ຈະບໍ່ລວມຄ່າອາຫານ ແລະ ການເຂົ້າຮ່ວມກິດຈະກຳຕອນແລງ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<b>Workshop Room</b> - Mainly for developers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ຫ້ອງເວີກຊັອບ</b> - ເນັ້ນສຳລັບນັກພັດທະນາເປັນຫຼັກ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -159,6 +280,12 @@ msgid ""
 "<br/>\n"
 "                                        <span class=\"text-muted\">Air your tracks online through a Youtube integration</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                        <span class=\"text-muted\">ຖ່າຍທອດສົດຫົວ"
+"ຂໍ້ຂອງທ່ານຜ່ານການເຊື່ອມຕໍ່ Youtube</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
@@ -166,6 +293,12 @@ msgid ""
 "<br/>\n"
 "                                        <span class=\"text-muted\">Share a quiz to your attendees once a track is over</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                        <span class=\"text-muted\">ແບ່ງປັນຄຳຖາມ"
+"ທົດສອບໃຫ້ກັບຜູ້ເຂົ້າຮ່ວມຫຼັງຈາກຈົບການບັນຍາຍ</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,body_html:event.event_registration_mail_template_badge
@@ -183,56 +316,121 @@ msgid ""
 "    </t>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"    ຮຽນ <t t-out=\"object.name or 'ທ່ານ'\"></t>,<br>\n"
+"    ຂອບໃຈສຳລັບຄວາມສົນໃຈຂອງທ່ານ.<br>\n"
+"    ນີ້ແມ່ນບັດຫ້ອຍຄໍຂອງທ່ານສຳລັບກິດຈະກຳ <t t-out=\"object.event_id.name or ''\">"
+"OpenWood Collection Online Reveal</t>.<br>\n"
+"    ຫາກທ່ານມີຄຳຖາມໃດໆ, ກະລຸນາແຈ້ງໃຫ້ພວກເຮົາຊາບ.\n"
+"    <br><br>\n"
+"    ຂໍຂອບໃຈ,\n"
+"    <t t-if=\"object.event_id.user_id.signature\">\n"
+"        <br>\n"
+"        <t t-out=\"object.event_id.user_id.signature or ''\">--<br>Mitchell "
+"Admin</t>\n"
+"    </t>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<em>If you wish to make a presentation, please send your topic proposal as soon as possible for approval to Mr. Famke Jenssens at ngh (a) yourcompany (dot) com. The presentations should be, for example, a presentation of a community module, a case study, methodology feedback, technical, etc. Each presentation must be in English.</em>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<em>ຫາກທ່ານຕ້ອງການນຳສະເໜີ, ກະລຸນາສົ່ງຫົວຂໍ້ຂອງທ່ານໃຫ້ໄວທີ່ສຸດເພື່ອຂໍການອະນຸມັດຈາກ ທ່ານ Famke "
+"Jenssens ທີ່ ngh (at) yourcompany (dot) com. ການນຳສະເໜີສາມາດເປັນໄດ້ທັງ ໂມດູນຊຸມຊົນ, ກໍລ"
+"ະນີສຶກສາ, ຄຳແນະນຳວິທີການ, ເຕັກນິກ ແລະ ອື່ນໆ. ທຸກໆການນຳສະເໜີຕ້ອງເປັນພາສາອັງກິດ.</em>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"Confirm button\" title=\"Confirm Registration\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-check fa-3x\" role=\"img\" aria-label=\"ປຸ່ມຢືນຢັນ\" title=\"ຢືນຢັ"
+"ນການລົງທະບຽນ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<i class=\"fa fa-check\" role=\"img\" aria-label=\"Confirm button\" title=\"Confirm Registration\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-check\" role=\"img\" aria-label=\"ປຸ່ມຢືນຢັນ\" title=\"ຢືນຢັນການລົງ"
+"ທະບຽນ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "<i class=\"fa fa-info-circle me-2\"></i>This event and all the conferences are in <b>English</b>!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-info-circle me-2\"></i>ກິດຈະກຳນີ້ ແລະ ການສຳມະນາທັງໝົດເປັນ <b>ພາສາອັ"
+"ງກິດ</b>!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"fa fa-level-up fa-rotate-90\" title=\"Confirmed\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-level-up fa-rotate-90\" title=\"ຢືນຢັນແລ້ວ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"fa fa-map-marker mt-1 me-1\" title=\"Location\"/>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-map-marker mt-1 me-1\" title=\"ສະຖານທີ່\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<i class=\"fa fa-user-plus fa-3x\" role=\"img\" aria-label=\"Attended button\" title=\"Confirm Attendance\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-user-plus fa-3x\" role=\"img\" aria-label=\"ປຸ່ມເຂົ້າຮ່ວມ\" "
+"title=\"ຢືນຢັນການເຂົ້າຮ່ວມ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"Attended button\" title=\"Confirm Attendance\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-user-plus\" role=\"img\" aria-label=\"ປຸ່ມເຂົ້າຮ່ວມ\" title=\"ຢືນຢັ"
+"ນການເຂົ້າຮ່ວມ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "<i class=\"oi oi-arrow-right me-2 o_event_fontsize_09\" title=\"End date\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right me-2 o_event_fontsize_09\" title=\"ວັນທີສິ້ນສຸດ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "<span class=\"badge text-bg-secondary o_wevent_badge float-end\">SPEAKER</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-secondary o_wevent_badge float-end\">ຜູ້ບັນຍາຍ</"
+"span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
@@ -241,11 +439,21 @@ msgid ""
 "                                    Registration statistics\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                                    ສະຖິຕິການລົງທະບຽນ\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "<span class=\"text-bg-danger\">Archived</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-bg-danger\">ເກັບຖາວອນແລ້ວ</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
@@ -253,12 +461,22 @@ msgid ""
 "<span class=\"text-muted\" states=\"done\">Attended</span>\n"
 "                                    <span class=\"text-muted\" states=\"cancel\">Canceled</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\" states=\"done\">ເຂົ້າຮ່ວມແລ້ວ</span>\n"
+"                                    <span class=\"text-muted\" "
+"states=\"cancel\">ຍົກເລີກແລ້ວ</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "<span>John Doe</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>John Doe</span>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,body_html:event.event_reminder
@@ -470,6 +688,323 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<t t-set=\"date_begin\" t-value=\"format_datetime"
+"(object.event_id.date_begin, tz='UTC', "
+"dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, "
+"tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"is_online\" t-value=\"'is_published' in object.event_id and "
+"object.event_id.is_published\"></t>\n"
+"<t t-set=\"event_organizer\" t-value=\"object.event_id.organizer_id\"></t>\n"
+"<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"></t>\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 16px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">ການລົງທະບຽນຂອງທ່ານ</span>"
+"<br>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\" t-"
+"out=\"object.name or 'ແຂກ'\"></span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <t t-if=\"is_online\">\n"
+"                        <a t-attf-href=\"{{ object.event_id.website_url }}\" "
+"style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: "
+"none !important; font-weight: 400; background-color: #875A7B; border: 0px "
+"solid #875A7B; border-radius:3px\">\n"
+"                            ເບິ່ງງານກິດຈະກຳ\n"
+"                        </a>\n"
+"                    </t>\n"
+"                    <t t-elif=\"not object.company_id.uses_default_logo\">\n"
+"                        <img t-att-src=\"'/logo.png?company=%s' % "
+"object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; "
+"width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- EVENT DESCRIPTION -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <div>\n"
+"                        ສະບາຍດີ <t t-out=\"object.name or 'ແຂກ'\"></t>,<br>\n"
+"                        ພວກເຮົາມີຄວາມຍິນດີທີ່ຈະແຈ້ງເຕືອນທ່ານວ່າ ງານກິດຈະກຳ\n"
+"                        <t t-if=\"is_online\">\n"
+"                            <a t-att-href=\"object.event_id.website_url\" "
+"style=\"color:#875A7B;text-decoration:none;\" t-out=\"object.event_id.name "
+"or ''\">OpenWood Collection Online Reveal</a>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <strong t-out=\"object.event_id.name or ''\">"
+"OpenWood Collection Online Reveal</strong>\n"
+"                        </t>\n"
+"                        ແມ່ນກຳລັງຈະເລີ່ມຕົ້ນ <strong t-"
+"out=\"object.get_date_range_str() or ''\">ໃນມື້ນີ້</strong>.\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        <br>\n"
+"                        <strong>ເພີ່ມງານກິດຈະກຳນີ້ໃສ່ປະຕິທິນຂອງທ່ານ</strong>\n"
+"                        <a t-attf-href=\"https://www.google.com/calendar/"
+"render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ "
+"date_begin }}/{{ date_end }}&amp;location={{ location }}\" "
+"style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-"
+"decoration:none;border-radius:3px;\" target=\"new\"><img src=\"/web_editor/"
+"font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" "
+"height=\"16\" alt=\"\"> Google</a>\n"
+"                        <a t-attf-href=\"/event/{{ slug(object.event_id) }}/"
+"ics\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-"
+"decoration:none;border-radius:3px;\"><img src=\"/web_editor/font_to_img/"
+"61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" "
+"alt=\"\"> iCal/Outlook</a>\n"
+"                        <a t-attf-href=\"https://calendar.yahoo.com/"
+"?v=60&amp;view=d&amp;type=20&amp;title={{ object.event_id.name }}&amp;in_loc="
+"{{ location }}&amp;st={{ format_datetime(object.event_id.date_begin, "
+"tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}&amp;et={{ format_datetime"
+"(object.event_id.date_end, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}\" "
+"style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-"
+"decoration:none;border-radius:3px;\" target=\"new\">\n"
+"                            <img src=\"/web_editor/font_to_img/61525/rgb"
+"(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> "
+"Yahoo\n"
+"                        </a>\n"
+"                        <br><br>\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        ພວກເຮົາຢືນຢັນການລົງທະບຽນຂອງທ່ານ ແລະ ຫວັງຢ່າງຍິ່ງວ່າຈະໄດ້ພົບທ່ານຢູ່ທີ່ນັ້"
+"ນ,<br>\n"
+"                        <span style=\"color: #454748;\">\n"
+"                        -- <br>\n"
+"                        <t t-if=\"event_organizer\">\n"
+"                            <t t-out=\"event_organizer.name or ''\">"
+"YourCompany</t>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            ທີມງານ <t t-out=\"object.event_id.name or ''\">"
+"OpenWood Collection Online Reveal</t>\n"
+"                        </t>\n"
+"                        </span>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- DETAILS -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <table style=\"width:100%;\">\n"
+"                        <tr>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <img src=\"/web_editor/font_to_img/61555/rgb"
+"(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
+"alt=\"\">\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px "
+"10px;width:50%;line-height:20px;vertical-align:top;\">\n"
+"                                <div><strong>ຈາກ</strong> <t t-"
+"out=\"object.event_id.date_begin_located or ''\">May 4, 2021, 7:00:00 AM</t>"
+"</div>\n"
+"                                <div><strong>ເຖິງ</strong> <t t-"
+"out=\"object.event_id.date_end_located or ''\">May 6, 2021, 5:00:00 PM</t></"
+"div>\n"
+"                                <div style=\"font-size:12px;color:#9e9e9e\">"
+"<i><t t-out=\"object.event_id.date_tz or ''\">Europe/Brussels</t></i></div>\n"
+"                            </td>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <img src=\"/web_editor/font_to_img/61505/"
+"rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
+"alt=\"\">\n"
+"                                </t>\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px "
+"10px;width:50%;vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <t t-set=\"location\" t-value=\"''\"></t>"
+"\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.name\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.name or ''\">Teksa SpA</div>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.street\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.street or ''\">Puerto Madero 9710</div>\n"
+"                                        <t t-set=\"location\" t-"
+"value=\"object.event_id.address_id.street\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.street2\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.street2 or ''\">Of A15, Santiago (RM)</div>"
+"\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.street2)\"></t>\n"
+"                                    </t>\n"
+"                                    <div>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.city\">\n"
+"                                        <t t-"
+"out=\"object.event_id.address_id.city or ''\">Pudahuel</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.city)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.state_id.name\">\n"
+"                                        <t t-"
+"out=\"object.event_id.address_id.state_id.name or ''\">C1</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.state_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.zip\">\n"
+"                                        <t t-"
+"out=\"object.event_id.address_id.zip or ''\">98450</t>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.zip)\"></t>\n"
+"                                    </t>\n"
+"                                    </div>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.country_id.name\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.country_id.name or ''\">Argentina</div>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.country_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                </t>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- CONTACT ORGANIZER -->\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <div>\n"
+"                            <span style=\"font-weight:300;margin:10px 0px\">ມີ"
+"ຄຳຖາມກ່ຽວກັບງານກິດຈະກຳນີ້ບໍ່?</span>\n"
+"                            <div>ກະລຸນາຕິດຕໍ່ຜູ້ຈັດງານ:</div>\n"
+"                            <ul>\n"
+"                                <li t-out=\"event_organizer.name or ''\">"
+"YourCompany</li>\n"
+"                                <t t-if=\"event_organizer.email\">\n"
+"                                    <li>ອີເມລ: <a t-attf-href=\"mailto:{{ "
+"event_organizer.email }}\" style=\"text-decoration:none;color:#875A7B;\" t-"
+"out=\"event_organizer.email or ''\"></a></li>\n"
+"                                </t>\n"
+"                                <t t-if=\"event_organizer.phone\">\n"
+"                                    <li>ເບີໂທລະສັບ: <t t-"
+"out=\"event_organizer.phone or ''\"></t></li>\n"
+"                                </t>\n"
+"                            </ul>\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- CONTACT ORGANIZER SEPARATION -->\n"
+"                    <hr t-if=\"is_online or event_address\" width=\"100%\" "
+"style=\"background-color:rgb(204,204,204);border:medium "
+"none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; "
+"margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- PWA MARKGETING -->\n"
+"                    <div t-if=\"is_online\">\n"
+"                        <strong>ຮັບປະສົບການການໃຊ້ງານຜ່ານມືຖືທີ່ດີທີ່ສຸດ.</strong>\n"
+"                        <a href=\"/event\">ຕິດຕັ້ງແອັບຯມືຖືຂອງພວກເຮົາ</a>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- PWA MARKGETING SEPARATION-->\n"
+"                    <hr t-if=\"is_online and event_address\" width=\"100%\" "
+"style=\"background-color:rgb(204,204,204);border:medium "
+"none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; "
+"margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- GOOGLE MAPS LINK -->\n"
+"                    <table t-if=\"event_address and location\" "
+"style=\"width:100%;\"><tr><td>\n"
+"                        <div>\n"
+"                            <i class=\"fa fa-map-marker\"></i>\n"
+"                            <a t-attf-href=\"https://maps.google.com/maps?q={"
+"{ location }}\" target=\"new\">\n"
+"                                <img t-if=\"event_address.static_map_url and "
+"event_address.static_map_url_is_valid\" t-attf-src=\"{{ "
+"event_address.static_map_url }}\" style=\"vertical-align:bottom; width: "
+"100%;\" alt=\"Google Maps\">\n"
+"                                <span t-else=\"\">ເບິ່ງສະຖານທີ່ໃນ Google Maps</"
+"span>\n"
+"                            </a>\n"
+"                        </div>\n"
+"                    </td></tr></table>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- FOOTER BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <table t-if=\"object.company_id\" width=\"590\" border=\"0\" "
+"cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-"
+"color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
+"        ສົ່ງໂດຍ <a target=\"_blank\" t-attf-href=\"{{ "
+"object.company_id.website }}\" style=\"color: #875A7B;\" t-"
+"out=\"object.company_id.name or ''\">YourCompany</a>\n"
+"        <t t-if=\"'website_url' in object.event_id and "
+"object.event_id.website_url\">\n"
+"            <br>\n"
+"            ຄົ້ນຫາ <a href=\"/event\" style=\"color:#875A7B;\">ທຸກງານກິດຈະກຳຂອງພວ"
+"ກເຮົາ</a>.\n"
+"        </t>\n"
+"      </td></tr>\n"
+"    </table>\n"
+"</td></tr>\n"
+"</table>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,body_html:event.event_subscription
@@ -693,106 +1228,502 @@ msgid ""
 "</table>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: "
+"16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; "
+"color: #454748; width: 100%; border-collapse:separate;\"><tr><td "
+"align=\"center\">\n"
+"<t t-set=\"date_begin\" t-value=\"format_datetime"
+"(object.event_id.date_begin, tz='UTC', "
+"dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"date_end\" t-value=\"format_datetime(object.event_id.date_end, "
+"tz='UTC', dt_format=&quot;yyyyMMdd'T'HHmmss'Z'&quot;)\"></t>\n"
+"<t t-set=\"is_online\" t-value=\"'is_published' in object.event_id and "
+"object.event_id.is_published\"></t>\n"
+"<t t-set=\"event_organizer\" t-value=\"object.event_id.organizer_id\"></t>\n"
+"<t t-set=\"event_address\" t-value=\"object.event_id.address_id\"></t>\n"
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" "
+"style=\"padding: 16px; background-color: white; color: #454748; border-"
+"collapse:separate;\">\n"
+"<tbody>\n"
+"    <!-- HEADER -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"middle\">\n"
+"                    <span style=\"font-size: 10px;\">ການລົງທະບຽນຂອງທ່ານ</span>"
+"<br>\n"
+"                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
+"                        <t t-out=\"object.name or 'ແຂກ'\"></t>\n"
+"                    </span>\n"
+"                </td><td valign=\"middle\" align=\"right\">\n"
+"                    <t t-if=\"is_online\">\n"
+"                        <a t-att-href=\"object.event_id.website_url\" "
+"style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: "
+"none !important; font-weight: 400; background-color: #875A7B; border: 0px "
+"solid #875A7B; border-radius:3px\">\n"
+"                            ເບິ່ງງານກິດຈະກຳ\n"
+"                        </a>\n"
+"                    </t>\n"
+"                    <t t-elif=\"not object.company_id.uses_default_logo\">\n"
+"                        <img t-att-src=\"'/logo.png?company=%s' % "
+"object.company_id.id\" style=\"padding: 0px; margin: 0px; height: auto; "
+"width: 80px;\" t-att-alt=\"'%s' % object.company_id.name\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td colspan=\"2\" style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin:16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- EVENT DESCRIPTION -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <div>\n"
+"                        ສະບາຍດີ <t t-out=\"object.name or 'ແຂກ'\"></t>,<br>\n"
+"                        ພວກເຮົາມີຄວາມຍິນດີທີ່ຈະຢືນຢັນການລົງທະບຽນຂອງທ່ານເຂົ້າຮ່ວມງານ\n"
+"                        <t t-if=\"is_online\">\n"
+"                            <a t-att-href=\"object.event_id.website_url\" "
+"style=\"color:#875A7B;text-decoration:none;\" t-out=\"object.event_id.name "
+"or ''\">OpenWood Collection Online Reveal</a>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <strong t-out=\"object.event_id.name or ''\">"
+"OpenWood Collection Online Reveal</strong>\n"
+"                        </t>\n"
+"                        ສຳລັບຜູ້ເຂົ້າຮ່ວມ <t t-out=\"object.name or 'ແຂກ'\"></t>.\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        <br>\n"
+"                        <strong>ເພີ່ມງານນີ້ໃສ່ປະຕິທິນຂອງທ່ານ</strong>\n"
+"                        <a t-attf-href=\"https://www.google.com/calendar/"
+"render?action=TEMPLATE&amp;text={{ object.event_id.name }}&amp;dates={{ "
+"date_begin }}/{{ date_end }}&amp;location={{ location }}\" "
+"style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-"
+"decoration:none;border-radius:3px;\" target=\"new\"><img src=\"/web_editor/"
+"font_to_img/61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" "
+"height=\"16\" alt=\"\"> Google</a>\n"
+"                        <a t-attf-href=\"/event/{{ slug(object.event_id) }}/"
+"ics\" style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-"
+"decoration:none;border-radius:3px;\"><img src=\"/web_editor/font_to_img/"
+"61525/rgb(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" "
+"alt=\"\"> iCal/Outlook</a>\n"
+"                        <a t-attf-href=\"https://calendar.yahoo.com/"
+"?v=60&amp;view=d&amp;type=20&amp;title={{ object.event_id.name }}&amp;in_loc="
+"{{ location }}&amp;st={{ format_datetime(object.event_id.date_begin, "
+"tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}&amp;et={{ format_datetime"
+"(object.event_id.date_end, tz='UTC', dt_format='yyyyMMdd\\'T\\'HHmmss') }}\" "
+"style=\"padding:3px 5px;border:1px solid #875A7B;color:#875A7B;text-"
+"decoration:none;border-radius:3px;\" target=\"new\">\n"
+"                            <img src=\"/web_editor/font_to_img/61525/rgb"
+"(135,90,123)/16\" style=\"vertical-align:middle;\" height=\"16\" alt=\"\"> "
+"Yahoo\n"
+"                        </a>\n"
+"                        <br><br>\n"
+"                    </div>\n"
+"                    <div>\n"
+"                        ແລ້ວພົບກັນໄວໆນີ້,<br>\n"
+"                        <span style=\"color: #454748;\">\n"
+"                        -- <br>\n"
+"                        <t t-if=\"event_organizer\">\n"
+"                            <t t-out=\"event_organizer.name or ''\">"
+"YourCompany</t>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            ທີມງານ <t t-out=\"object.event_id.name or ''\">"
+"OpenWood Collection Online Reveal</t>\n"
+"                        </t>\n"
+"                        </span>\n"
+"                    </div>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                  <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"    <!-- DETAILS -->\n"
+"    <tr>\n"
+"        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"            <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: white; "
+"padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <table style=\"width:100%;\">\n"
+"                        <tr>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <img src=\"/web_editor/font_to_img/61555/rgb"
+"(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
+"alt=\"\">\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px "
+"10px;width:50%;line-height:20px;vertical-align:top;\">\n"
+"                                <div><strong>ຈາກ</strong> <t t-"
+"out=\"object.event_id.date_begin_located or ''\">May 4, 2021, 7:00:00 AM</t>"
+"</div>\n"
+"                                <div><strong>ເຖິງ</strong> <t t-"
+"out=\"object.event_id.date_end_located or ''\">May 6, 2021, 5:00:00 PM</t></"
+"div>\n"
+"                                <div style=\"font-size:12px;color:#9e9e9e\">"
+"<i>(<t t-out=\"object.event_id.date_tz or ''\">Europe/Brussels</t>)</i></div>"
+"\n"
+"                            </td>\n"
+"                            <td style=\"vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <img src=\"/web_editor/font_to_img/61505/"
+"rgb(81,81,102)/34\" style=\"padding:4px;max-width:inherit;\" height=\"34\" "
+"alt=\"\">\n"
+"                                </t>\n"
+"                            </td>\n"
+"                            <td style=\"padding: 0px 10px 0px "
+"10px;width:50%;vertical-align:top;\">\n"
+"                                <t t-if=\"event_address\">\n"
+"                                    <t t-set=\"location\" t-value=\"''\"></t>"
+"\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.name\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.name or ''\">Teksa SpA</div>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.street\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.street or ''\">Puerto Madero 9710</div>\n"
+"                                        <t t-set=\"location\" t-"
+"value=\"object.event_id.address_id.street\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.street2\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.street2 or ''\">Of A15, Santiago (RM)</div>"
+"\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.street2)\"></t>\n"
+"                                    </t>\n"
+"                                    <div>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.city\">\n"
+"                                        <t t-"
+"out=\"object.event_id.address_id.city or ''\">Pudahuel</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.city)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.state_id.name\">\n"
+"                                        <t t-"
+"out=\"object.event_id.address_id.state_id.name or ''\">C1</t>,\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.state_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.zip\">\n"
+"                                        <t t-"
+"out=\"object.event_id.address_id.zip or ''\">98450</t>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.zip)\"></t>\n"
+"                                    </t>\n"
+"                                    </div>\n"
+"                                    <t t-"
+"if=\"object.event_id.address_id.country_id.name\">\n"
+"                                        <div t-"
+"out=\"object.event_id.address_id.country_id.name or ''\">Argentina</div>\n"
+"                                        <t t-set=\"location\" t-value=\"'%s, "
+"%s' % (location, object.event_id.address_id.country_id.name)\"></t>\n"
+"                                    </t>\n"
+"                                </t>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- CONTACT ORGANIZER -->\n"
+"                    <t t-if=\"event_organizer\">\n"
+"                        <div>\n"
+"                            <span style=\"font-weight:300;margin:10px 0px\">ມີ"
+"ຄຳຖາມກ່ຽວກັບງານນີ້ບໍ?</span>\n"
+"                            <div>ກະລຸນາຕິດຕໍ່ຜູ້ຈັດງານ:</div>\n"
+"                            <ul>\n"
+"                                <li><t t-out=\"event_organizer.name or ''\">"
+"YourCompany</t></li>\n"
+"                                <t t-if=\"event_organizer.email\">\n"
+"                                    <li>ອີເມວ: <a t-attf-href=\"mailto:{{ "
+"event_organizer.email }}\" style=\"text-decoration:none;color:#875A7B;\" t-"
+"out=\"event_organizer.email or ''\">info@yourcompany.com</a></li>\n"
+"                                </t>\n"
+"                                <t t-if=\"event_organizer.phone\">\n"
+"                                    <li>ເບີໂທລະສັບ: <t t-"
+"out=\"event_organizer.phone or ''\">+1 650-123-4567</t></li>\n"
+"                                </t>\n"
+"                            </ul>\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- CONTACT ORGANIZER SEPARATION -->\n"
+"                    <t t-if=\"is_online or event_address\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- PWA MARKGETING -->\n"
+"                    <t t-if=\"is_online\">\n"
+"                        <div>\n"
+"                            <strong>ຮັບປະສົບການນຳໃຊ້ຜ່ານມືຖືທີ່ດີທີ່ສຸດ.</strong>\n"
+"                            <a href=\"/event\">ຕິດຕັ້ງແອັບມືຖືຂອງພວກເຮົາ</a>\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"text-align:center;\">\n"
+"                    <!-- PWA MARKGETING SEPARATION-->\n"
+"                    <t t-if=\"is_online and event_address\">\n"
+"                        <hr width=\"100%\" style=\"background-color:rgb"
+"(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-"
+"height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"\n"
+"                <tr><td valign=\"top\" style=\"font-size: 14px;\">\n"
+"                    <!-- GOOGLE MAPS LINK -->\n"
+"                    <t t-if=\"event_address and location\">\n"
+"                        <table style=\"width:100%;\"><tr><td>\n"
+"                            <div>\n"
+"                                <i class=\"fa fa-map-marker\"></i>\n"
+"                                <a t-attf-href=\"https://maps.google.com/"
+"maps?q={{ location }}\" target=\"new\">\n"
+"                                    <img t-if=\"event_address.static_map_url "
+"and event_address.static_map_url_is_valid\" t-att-"
+"src=\"event_address.static_map_url\" style=\"vertical-align:bottom; width: "
+"100%;\" alt=\"Google Maps\">\n"
+"                                    <t t-else=\"\">ເບິ່ງສະຖານທີ່ໃນ Google Maps</"
+"t>\n"
+"                                </a>\n"
+"                            </div>\n"
+"                        </td></tr></table>\n"
+"                    </t>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td>\n"
+"    </tr>\n"
+"</tbody>\n"
+"</table>\n"
+"</td></tr>\n"
+"<!-- FOOTER BY -->\n"
+"<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
+"    <t t-if=\"object.company_id\">\n"
+"        <table width=\"590\" border=\"0\" cellpadding=\"0\" "
+"cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; "
+"color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"        <tr><td style=\"text-align: center; font-size: 14px;\">\n"
+"            ສົ່ງໂດຍ <a target=\"_blank\" t-attf-href=\"{{ "
+"object.company_id.website }}\" style=\"color: #875A7B;\" t-"
+"out=\"object.company_id.name or ''\">YourCompany</a>\n"
+"            <t t-if=\"is_online\">\n"
+"                <br>\n"
+"                ຄົ້ນຫາ <a href=\"/event\" style=\"color:#875A7B;\">ທຸກໆງານກິດຈະກຳ"
+"ຂອງພວກເຮົາ</a>.\n"
+"            </t>\n"
+"        </td></tr>\n"
+"        </table>\n"
+"    </t>\n"
+"</td></tr>\n"
+"</table>"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__description
 #: model:ir.model.fields,help:event.field_event_type_ticket__description
 msgid "A description of the ticket that you want to communicate to your customers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍກ່ຽວກັບປີ້ທີ່ທ່ານຕ້ອງການສື່ສານກັບລູກຄ້າຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_needaction
 #: model:ir.model.fields,field_description:event.field_event_registration__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__active
 #: model:ir.model.fields,field_description:event.field_event_registration__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag.category,name:event.event_tag_category_2
 msgid "Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_exception_decoration
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕົກແຕ່ງການຍົກເວັ້ນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_state
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_type_icon
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Add a description..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຄຳອະທິບາຍ..."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Add a navigation menu to your event web pages with schedule, tracks, a track proposal form, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພີ່ມເມນູນຳທາງໄປຍັງໜ້າເວັບກິດຈະກຳຂອງທ່ານ ພ້ອມຕາຕະລາງເວລາ, ຫົວຂໍ້ບັນຍາຍ, ແບບຟອມສະເໜີຫົວຂໍ້ ແລະ "
+"ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Add some internal notes (to do lists, contact info, ...)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມບັນທຶກພາຍໃນ (ລາຍການທີ່ຕ້ອງເຮັດ, ຂໍ້ມູນຕິດຕໍ່, ...)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_search
 msgid "Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.groups,name:event.group_event_manager
 msgid "Administrator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ບໍລິຫານລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_exhibitor
 msgid "Advanced Sponsors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ສະໜັບສະໜູນລະດັບສູງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_sub
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_type__after_sub
 msgid "After each registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼັງຈາກການລົງທະບຽນແຕ່ລະຄັ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__after_event
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_type__after_event
 msgid "After the event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼັງຈາກຈົບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag.category,name:event.event_tag_category_1
 msgid "Age"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາຍຸ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_6
 msgid "An unpublished event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຍັງບໍ່ໄດ້ເຜີຍແຜ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
@@ -800,33 +1731,60 @@ msgid ""
 "And this time, we go fully ONLINE! Meet us in our live streams from the comfort of your house.<br>\n"
 "        Special discount codes will be handed out during the various streams, make sure to be there on time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ແລະ ຄັ້ງນີ້, ພວກເຮົາຈະຈັດແບບອອນລາຍເຕັມຮູບແບບ! ພົບກັບພວກເຮົາຜ່ານການຖ່າຍທອດສົດຈາກບ້ານຂອງທ່າ"
+"ນ.<br>\n"
+"        ລະຫັດສ່ວນຫຼຸດພິເສດຈະຖືກແຈກຢາຍໃນລະຫວ່າງການຖ່າຍທອດສົດ, ຢ່າລືມເຂົ້າຮ່ວມໃຫ້ກົງເວລາ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_announced
 msgid "Announced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະກາດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Apply change."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳໃຊ້ການປ່ຽນແປງ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບຖາວອນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__is_launched
 msgid "Are sales launched"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມການຂາຍແລ້ວຫຼືບໍ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "Around one hundred ballons will simultaneously take flight and turn the sky into a beautiful canvas of colours."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໝາກປຸມເປົ້າປະມານໜຶ່ງຮ້ອຍໜ່ວຍຈະບິນຂຶ້ນພ້ອມໆກັນ ແລະ ປ່ຽນທ້ອງຟ້າໃຫ້ກາຍເປັນຜືນຜ້າໃບທີ່ສວຍງາມດ້ວຍສີສັນຕ່າງ"
+"ໆ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -834,47 +1792,81 @@ msgstr ""
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "As a team, we are happy to contribute to this event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນນາມທີມງານ, ພວກເຮົາມີຄວາມຍິນດີທີ່ໄດ້ມີສ່ວນຮ່ວມໃນງານກິດຈະກຳນີ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "At just 13 years old, John DOE was already starting to develop his first business applications for customers. After mastering civil engineering, he founded TinyERP. This was the first phase of OpenERP which would later became Odoo, the most installed open-source business software worldwide."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຕອນອາຍຸພຽງແຕ່ 13 ປີ, John DOE ໄດ້ເລີ່ມພັດທະນາແອັບພລິເຄຊັນທຸລະກິດທຳອິດຂອງລາວໃຫ້ກັບລູກຄ້າ. ຫຼັງຈາກ"
+"ທີ່ລາວຊ່ຽວຊານດ້ານວິສະວະກຳໂຍທາ, ລາວໄດ້ສ້າງຕັ້ງ TinyERP. ນີ້ແມ່ນໄລຍະທຳອິດຂອງ OpenERP ເຊິ່ງຕໍ່ມາໄ"
+"ດ້ກາຍເປັນ Odoo, ຊອບແວທຸລະກິດແບບໂອເພັນຊອດ (open-source) ທີ່ຖືກຕິດຕັ້ງຫຼາຍທີ່ສຸດໃນທົ່ວໂລກ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_attachment_count
 #: model:ir.model.fields,field_description:event.field_event_registration__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເນົາໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Attendance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_registration__state__done
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Attended"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຮ່ວມແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__date_closed
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Attended Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__registration_id
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__name
 msgid "Attendee Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.act_event_registration_from_event
@@ -885,45 +1877,78 @@ msgstr ""
 #: model:ir.ui.menu,name:event.menu_action_registration
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__auto_confirm
 msgid "Autoconfirm Registrations. Registrations will automatically be confirmed upon creation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຍືນຢັນການລົງທະບຽນອັດຕະໂນມັດ. ການລົງທະບຽນຈະຖືກຍືນຢັນໂດຍອັດຕະໂນມັດເມື່ອສ້າງຂຶ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__auto_confirm
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Autoconfirmation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__auto_confirm
 msgid "Automatically Confirm Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນການລົງທະບຽນອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_available
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_available
 msgid "Available Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບ່ອນນັ່ງທີ່ວ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
 msgid "Bands like Bar Fighters, Led Slippers and Link Floyd will offer you the show of the century during our three day event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວົງດົນຕີເຊັ່ນ Bar Fighters, Led Slippers ແລະ Link Floyd ຈະມອບການສະແດງແຫ່ງສະຕະວັດໃຫ້ທ່າ"
+"ນໃນລະຫວ່າງງານກິດຈະກຳສາມມື້ຂອງພວກເຮົາ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_barcode
 msgid "Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບາໂຄດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_type__before_event
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_type__before_event
 msgid "Before the event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກ່ອນເລີ່ມກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -935,86 +1960,151 @@ msgstr ""
 #: model:event.stage,legend_blocked:event.event_stage_new
 #: model:ir.model.fields.selection,name:event.selection__event_event__kanban_state__blocked
 msgid "Blocked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກບລັອກ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.partner,website_short_description:event.res_partner_event_1
 msgid "Bloem brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Bloem ນຳເອົາຄວາມຊື່ສັດ ແລະ ຄວາມຈິງຈັງມາສູ່ອຸດສາຫະກຳໄມ້ ໃນຂະນະທີ່ຊ່ວຍລູກຄ້າຈັດການກັບຕົ້ນໄມ້, ດອກໄ"
+"ມ້ ແລະ ເຫັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_booked
 msgid "Booked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈອງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "Booked By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈອງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__partner_id
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "Booked by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈອງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_event_booth
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Booth Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດການບູດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_5
 msgid "Bring your outdoor field hockey season to the next level by taking the field at this 9th annual Field Hockey tournament."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຍົກລະດັບລະດູການຮອກກີກາງແຈ້ງຂອງທ່ານໄປອີກຂັ້ນ ໂດຍການເຂົ້າຮ່ວມການແຂ່ງຂັນຮອກກີປະຈຳປີຄັ້ງທີ 9 ນີ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_4
 msgid "Business workshops"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວີກຊັອບທາງທຸລະກິດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_campaign_id
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr "ຍົກເລີອກ"
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Cancel Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_cancelled
 #: model:ir.model.fields.selection,name:event.selection__event_registration__state__cancel
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr "ຍົກເລີກ"
+=======
+msgstr "ຍົກເລີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_tag__category_id
 msgid "Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_tag__category_sequence
 msgid "Category Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Chamber Works reserves the right to cancel, re-name or re-locate the event or change the dates on which it is held."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Chamber Works ຂໍສະຫງວນສິດໃນການຍົກເລີກ, ປ່ຽນຊື່ ຫຼື ປ່ຽນສະຖານທີ່ຈັດງານ ຫຼື ປ່ຽນແປງວັນທີຈັດງານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_tag__color
 msgid "Color Index"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດັດຊະນີສີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -1022,23 +2112,39 @@ msgstr ""
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "Come see us live, we hope to meet you!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາເບິ່ງພວກເຮົາແບບສົດໆ, ພວກເຮົາຫວັງວ່າຈະໄດ້ພົບທ່ານ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Communication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສື່ສານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_mail__mail_registration_ids
 msgid "Communication related to event registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສື່ສານທີ່ກ່ຽວຂ້ອງກັບການລົງທະບຽນງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Community Chat Rooms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫ້ອງສົນທະນາຊຸມຊົນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__company_id
@@ -1051,55 +2157,95 @@ msgstr "ບໍລິສັດ"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__company_name
 msgid "Company Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Compose Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂຽນອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_3_tag_2
 msgid "Conference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກອງປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_2
 #: model_terms:event.event,description:event.event_2
 msgid "Conference for Architects"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກອງປະຊຸມສຳລັບສະຖາປານິກ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "Conferences, workshops and trainings will be organized in 6 rooms:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກອງປະຊຸມ, ການສຳມະນາ ແລະ ການຝຶກອົບຮົມຈະຖືກຈັດຂຶ້ນໃນ 6 ຫ້ອງ:"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.ui.menu,name:event.menu_event_configuration
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "Confirm Attendance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນການເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_registration_view_kanban
 msgid "Confirm Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_registration__state__open
@@ -1107,48 +2253,84 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Confirmed Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມທີ່ຢືນຢັນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__country_id
 msgid "Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Create Booths and manage their reservations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງບູດ ແລະ ຈັດການການຈອງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_view
 msgid "Create an Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
 msgid "Create an Event Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຂັ້ນຕອນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_tag_category_action_tree
 msgid "Create an Event Tag Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໝວດໝູ່ແທັກກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
 msgid "Create an Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງແມ່ແບບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__create_uid
@@ -1163,7 +2345,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type_mail__create_uid
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__create_date
@@ -1178,42 +2364,71 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type_mail__create_date
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_1
 msgid "Culture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັດທະນະທຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Customer"
+<<<<<<< HEAD
 msgstr "ຄຸ່ຄ້າ"
+=======
+msgstr "ລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Customer Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__days
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__days
 msgid "Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__seats_max
 #: model:ir.model.fields,help:event.field_event_type_ticket__seats_max
 msgid "Define the number of available tickets. If you have too many registrations you will not be able to sell tickets anymore. Set 0 to ignore this rule set as unlimited."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຳນົດຈຳນວນປີ້ທີ່ມີຢູ່. ຖ້າມີການລົງທະບຽນຫຼາຍເກີນໄປ ທ່ານຈະບໍ່ສາມາດຂາຍປີ້ໄດ້ອີກ. ຕັ້ງເປັນ 0 ເພື່ອລະເວັ້ນກົດລ"
+"ະບຽບນີ້ ຫຼື ກຳນົດເປັນແບບບໍ່ຈຳກັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__description
@@ -1225,12 +2440,20 @@ msgstr "ຄຳອະທິບາຍ"
 #. module: event
 #: model:event.event,name:event.event_0
 msgid "Design Fair Los Angeles"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານມະຫະກຳການອອກແບບ ລອສແອງເຈລິສ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_4
 msgid "Discover how to grow a sustainable business with our experts."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາວິທີການສ້າງທຸລະກິດແບບຍືນຍົງກັບຜູ້ຊ່ຽວຊານຂອງພວກເຮົາ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -1238,12 +2461,20 @@ msgstr ""
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "Discover more"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_meet
 msgid "Discussion Rooms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫ້ອງສົນທະນາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__display_name
@@ -1258,62 +2489,111 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type_mail__display_name
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Display Sponsors and Exhibitors on your event pages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງຜູ້ສະໜັບສະໜູນ ແລະ ຜູ້ວາງສະແດງໃນໜ້າກິດຈະກຳຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__sequence
 msgid "Display order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບການສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_event__kanban_state__done
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "During this conference, our team will give a detailed overview of our business applications. You’ll know all the benefits of using it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃນລະຫວ່າງກອງປະຊຸມນີ້, ທີມງານຂອງພວກເຮົາຈະໃຫ້ພາບລວມຢ່າງລະອຽດກ່ຽວກັບແອັບພລິເຄຊັນທຸລະກິດຂອງພວກເຮົ"
+"າ. ທ່ານຈະໄດ້ຮູ້ເຖິງປະໂຫຍດທັງໝົດຂອງການນຳໃຊ້ສ່ວນງານນີ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__email
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_mail_template
 msgid "Email Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ແບບອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_end
 msgid "End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_end_located
 msgid "End Date Located"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດຕາມເຂດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__pipe_end
 msgid "End Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນສຸດທ້າຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_done
 msgid "Ended"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິ້ນສຸດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_2
 msgid "Enhance your architectural business and improve professional skills."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເສີມສ້າງທຸລະກິດສະຖາປັດຕະຍາກຳຂອງທ່ານ ແລະ ປັບປຸງທັກສະທາງວິຊາຊີບ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_event
@@ -1324,12 +2604,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_mail
 msgid "Event Automated Mailing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງອີເມວກິດຈະກຳອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__event_type_id
@@ -1338,52 +2626,92 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_tree
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Event Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_view_form
 msgid "Event Category Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກໝວດໝູ່ງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_end_date
 msgid "Event End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Event Gamification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກມມິຟິເຄຊັນຂອງງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Event Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Event Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຈັດຕາຕະລາງອີເມວງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_tree
 msgid "Event Mail Schedulers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຈັດຕາຕະລາງອີເມວງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Event Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_calendar
 msgid "Event Organization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດຕັ້ງງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_organizer_id
 msgid "Event Organizer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_registration
@@ -1391,12 +2719,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Event Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_user_id
 msgid "Event Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -1415,40 +2751,79 @@ msgid ""
 "  - or the responsible of the event,\n"
 "  - or the last writer of the template.\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຕົວຈັດຕາຕະລາງງານກິດຈະກຳສຳລັບ:\n"
+"  - ງານກິດຈະກຳ: %(event_name)s (%(event_id)s)\n"
+"  - ກຳນົດເວລາ: %(date)s\n"
+"  - ແບບຢ່າງ: %(template_name)s (%(template_id)s)\n"
+"\n"
+"ລົ້ມເຫຼວດ້ວຍຂໍ້ຜິດພາດ:\n"
+"  - %(error)s\n"
+"\n"
+"ທ່ານໄດ້ຮັບອີເມວນີ້ຍ້ອນວ່າທ່ານແມ່ນ:\n"
+"  - ຜູ້ຈັດງານກິດຈະກຳ,\n"
+"  - ຫຼື ຜູ້ຮັບຜິດຊອບງານກິດຈະກຳ,\n"
+"  - ຫຼື ຜູ້ຂຽນຫຼ້າສຸດຂອງແບບຢ່າງນີ້.\n"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_stage
 msgid "Event Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_stage_action
 #: model:ir.ui.menu,name:event.event_stage_menu
 msgid "Event Stages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__event_begin_date
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Event Start Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_tag
 msgid "Event Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_tag_category
 msgid "Event Tag Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ແທັກກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_tag_category_action_tree
 #: model:ir.ui.menu,name:event.menu_event_category
 #: model_terms:ir.ui.view,arch_db:event.event_tag_view_tree
 msgid "Event Tags Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ແທັກງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_type
@@ -1456,25 +2831,41 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_tree
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ແບບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_type_ticket
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_form_from_type
 msgid "Event Template Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ແບບຢ່າງງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_type_ticket_view_tree_from_type
 msgid "Event Template Tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ແບບຢ່າງງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_type
 #: model:ir.ui.menu,name:event.menu_event_type
 #: model_terms:ir.ui.view,arch_db:event.event_type_view_search
 msgid "Event Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ແບບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_type
@@ -1483,58 +2874,104 @@ msgid ""
 "                usually based on the types of events you organize (e.g. \"Workshop\",\n"
 "                \"Roadshow\", \"Online Webinar\", etc)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ແບບຢ່າງງານກິດຈະກຳລວມເອົາການຕັ້ງຄ່າທີ່ທ່ານໃຊ້ເລື້ອຍໆ ແລະ ມັກຈະ\n"
+"                ອີງຕາມປະເພດຂອງງານກິດຈະກຳທີ່ທ່ານຈັດ (ເຊັ່ນ: \"ການສຳມະນາ\",\n"
+"                \"ການສະແດງສິນຄ້າ\", \"ເວບິນາອອນໄລນ໌\", ແລະ ອື່ນໆ)."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_event_ticket
 #: model:ir.model.fields,field_description:event.field_event_event__event_ticket_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__event_ticket_id
 msgid "Event Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_full_page_ticket
 msgid "Event Ticket For"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ງານກິດຈະກຳສຳລັບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_mail__event_type_id
 msgid "Event Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_tree
 msgid "Event registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_stage_action
 msgid "Event stages are used to track the progress of an Event from its origin until its conclusion."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຂັ້ນຕອນງານກິດຈະກຳແມ່ນໃຊ້ເພື່ອຕິດຕາມຄວາມຄືບໜ້າຂອງງານກິດຈະກຳຕັ້ງແຕ່ເລີ່ມຕົ້ນຈົນເຖິງສິ້ນສຸດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
 msgid "Event's Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ຂອງງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.server,name:event.event_mail_scheduler_ir_actions_server
 msgid "Event: Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານກິດຈະກຳ: ຕົວຈັດຕາຕະລາງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_registration_mail_template_badge
 msgid "Event: Registration Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານກິດຈະກຳ: ບັດລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_subscription
 msgid "Event: Registration Confirmation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານກິດຈະກຳ: ການຍືນຢັນການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,name:event.event_reminder
 msgid "Event: Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານກິດຈະກຳ: ການແຈ້ງເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_view
@@ -1546,28 +2983,50 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_mail
 msgid "Events Mail Schedulers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຈັດຕາຕະລາງອີເມວງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_tree
 msgid "Events Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນງານກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_type__auto_confirm
 msgid "Events and registrations will automatically be confirmed upon creation, easing the flow for simple events."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ງານກິດຈະກຳ ແລະ ການລົງທະບຽນຈະຖືກຍືນຢັນໂດຍອັດຕະໂນມັດເມື່ອສ້າງຂຶ້ນ, ເພື່ອຄວາມສະດວກສຳລັບງານກິດຈະກ"
+"ຳທີ່ບໍ່ຊັບຊ້ອນ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_stage__pipe_end
 msgid "Events will automatically be moved into this stage when they are finished. The event moved into this stage will automatically be set as green."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ງານກິດຈະກຳຈະຖືກຍ້າຍເຂົ້າສູ່ຂັ້ນຕອນນີ້ໂດຍອັດຕະໂນມັດເມື່ອສິ້ນສຸດລົງ. ງານກິດຈະກຳທີ່ຍ້າຍເຂົ້າສູ່ຂັ້ນຕອນນີ້ຈະຖືກຕັ້ງ"
+"ເປັນສີຂຽວໂດຍອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_4
@@ -1577,69 +3036,127 @@ msgid ""
 "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...\n"
 "            This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the new version!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທຸກໆປີພວກເຮົາເຊື້ອເຊີນຊຸມຊົນ, ຄູ່ຮ່ວມງານ ແລະ ຜູ້ໃຊ້ຂອງພວກເຮົາໃຫ້ມາພົບກັບພວກເຮົາ! ມັນເປັນງານກິດຈະກຳທີ່"
+"ດີເລີດໃນການພົບປະ ແລະ ນຳສະເໜີຟີເຈີໃໝ່ໆ, ແຜນການພັດທະນາໃນອະນາຄົດ, ຜົນສຳເລັດຂອງຊອບແວ, ການສຳມ"
+"ະນາ, ການຝຶກອົບຮົມ, ແລະ ອື່ນໆ...\n"
+"            ງານນີ້ຍັງເປັນໂອກາດໃນການສະແດງກໍລະນີສຶກສາ, ວິທີການ ຫຼື ການພັດທະນາຂອງຄູ່ຮ່ວມງານຂອງພ"
+"ວກເຮົາ. ເຂົ້າຮ່ວມງານນີ້ເພື່ອສຳຜັດກັບຟີເຈີຂອງເວີຊັນໃໝ່ໂດຍກົງຈາກແຫຼ່ງກຳເນີດ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "Every year we invite our community, partners and end-users to come and meet us! It's the ideal event to get together and present new features, roadmap of future versions, achievements of the software, workshops, training sessions, etc...."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທຸກໆປີພວກເຮົາເຊື້ອເຊີນຊຸມຊົນ, ຄູ່ຮ່ວມງານ ແລະ ຜູ້ໃຊ້ຂອງພວກເຮົາໃຫ້ມາພົບກັບພວກເຮົາ! ມັນເປັນງານກິດຈະກຳທີ່"
+"ດີເລີດໃນການພົບປະ ແລະ ນຳສະເໜີຟີເຈີໃໝ່ໆ, ແຜນການພັດທະນາໃນອະນາຄົດ, ຜົນສຳເລັດຂອງຊອບແວ, ການສຳມ"
+"ະນາ, ການຝຶກອົບຮົມ, ແລະ ອື່ນໆ...."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_0
 msgid "Exhibition"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານວາງສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Expected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄາດການໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Expected Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມທີ່ຄາດໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_kanban
 msgid "Expected attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມທີ່ຄາດໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_3
 msgid "Experience live music, local food and beverages."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳພັດກັບດົນຕີສົດ, ອາຫານ ແລະ ເຄື່ອງດື່ມທ້ອງຖິ່ນ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_foldable_badge
 msgid "Foldable Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັດທີ່ພັບໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_foldable_badge
 msgid "Foldable Badge Example"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງບັດທີ່ພັບໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__fold
 msgid "Folded in Kanban"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັບໄວ້ໃນຄັນບັງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_follower_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_partner_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຮ່ວມງານ)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__activity_type_icon
 #: model:ir.model.fields,help:event.field_event_registration__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -1649,131 +3166,233 @@ msgstr ""
 #: model_terms:event.event,description:event.event_5
 #: model_terms:event.event,description:event.event_7
 msgid "For any additional information, please contact us at"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ, ກະລຸນາຕິດຕໍ່ພວກເຮົາໄດ້ທີ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__seats_max
 msgid "For each event you can define a maximum registration of seats(number of attendees), above this numbers the registrations are not accepted."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສຳລັບແຕ່ລະງານກິດຈະກຳ ທ່ານສາມາດກຳນົດຈຳນວນການລົງທະບຽນສູງສຸດ (ຈຳນວນຜູ້ເຂົ້າຮ່ວມ), ຫາກເກີນຈຳນວນ"
+"ນີ້ຈະບໍ່ຮັບການລົງທະບຽນເພີ່ມ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_1
 msgid "For only 10, you gain access to catering. Yum yum."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພຽງແຕ່ 10, ທ່ານກໍສາມາດເຂົ້າເຖິງການບໍລິການອາຫານ. ແຊບຫຼາຍ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Foster interactions between attendees by creating virtual conference rooms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງເສີມການໂຕ້ຕອບລະຫວ່າງຜູ້ເຂົ້າຮ່ວມໂດຍການສ້າງຫ້ອງປະຊຸມສະເໝືອນຈິງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,name:event.event_0_ticket_0
 msgid "Free"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟຣີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_0
 msgid "Free entrance, no food!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຟຣີ, ບໍ່ມີອາຫານ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_new
 msgid "Freshly created"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໃໝ່ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_registration
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_stats_from_event
 msgid "From this dashboard you can report, analyze and detect trends regarding your event registrations."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຈາກແຜງຄວບຄຸມນີ້ ເຈົ້າສາມາດລາຍງານ, ວິເຄາະ ແລະ ກວດສອບທ່າອ່ຽງກ່ຽວກັບການລົງທະບຽນຮ່ວມງານຂອງເຈົ້"
+"າ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_registration_full_page_ticket
 msgid "Full Page Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ເຕັມໜ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.report,name:event.action_report_event_event_full_page_ticket
 msgid "Full Page Ticket Example"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງປີ້ເຕັມໜ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_done
 msgid "Fully ended"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິ້ນສຸດລົງຢ່າງສົມບູນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Functional flow of the main applications;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການເຮັດວຽກຂອງແອັບພລິເຄຊັນຫຼັກ;"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,name:event.event_4_ticket_0
 msgid "General Admission"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຂົ້າຮ່ວມທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_0
 msgid "Get Inspired • Stay Connected • Have Fun"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮັບແຮງບັນດານໃຈ • ເຊື່ອມຕໍ່ກັນ • ມ່ວນຊື່ນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_state
 msgid "Global communication Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະການສື່ສານທົ່ວໂລກ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Google Maps"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Maps"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__google_maps_static_api_key
 msgid "Google Maps API key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄີ API ຂອງ Google Maps"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__google_maps_static_api_secret
 msgid "Google Maps API secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດລັບ API ຂອງ Google Maps"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__use_google_maps_static_api
 msgid "Google Maps static API"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "API ແບບຄົງທີ່ຂອງ Google Maps"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_1
 msgid "Great Reno Ballon Race"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານແຂ່ງຂັນບານລູນ Reno ທີ່ຍິ່ງໃຫຍ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Great! Now all you have to do is wait for your attendees to show up!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຸດຍອດ! ຕອນນີ້ສິ່ງທີ່ເຈົ້າຕ້ອງເຮັດຄືລໍຖ້າໃຫ້ຜູ້ເຂົ້າຮ່ວມປະກົດຕົວ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_done
 msgid "Green Kanban Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍ Kanban ສີຂຽວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_normal
 msgid "Grey Kanban Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍ Kanban ສີເທົາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:res.partner,website_description:event.res_partner_event_1
@@ -1781,54 +3400,94 @@ msgstr ""
 #: model_terms:res.partner,website_description:event.res_partner_event_3
 #: model_terms:res.partner,website_description:event.res_partner_event_4
 msgid "Happy to be Sponsor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍິນດີທີ່ໄດ້ເປັນຜູ້ສະໜັບສະໜູນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__has_message
 #: model:ir.model.fields,field_description:event.field_event_registration__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Having attended this conference, participants should be able to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼັງຈາກເຂົ້າຮ່ວມກອງປະຊຸມນີ້, ຜູ້ເຂົ້າຮ່ວມຄວນຈະສາມາດ:"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
 msgid "Here it is, the 12th edition of our Live Musical Festival!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນີ້ຄືເທສະການດົນຕີສົດ ຄັ້ງທີ 12 ຂອງພວກເຮົາ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_5
 msgid "Hockey Tournament"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຂ່ງຂັນຮອກກີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__hours
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__hours
 msgid "Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (1)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີພັບ (1)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (2)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີພັບ (2)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (3)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີພັບ (3)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_report_template_foldable_badge
 msgid "How to Fold (4)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີພັບ (4)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__id
@@ -1843,31 +3502,51 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type_mail__id
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີ (ID)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_exception_icon
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/icon_selection_field/icon_selection_field.js:0
 msgid "Icon Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເລືອກໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__activity_exception_icon
 #: model:ir.model.fields,help:event.field_event_registration__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນເພື່ອລະບຸການຍົກເວັ້ນກິດຈະກຳ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__message_needaction
 #: model:ir.model.fields,help:event.field_event_registration__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຕ້ອງການຄວາມສົນໃຈຈາກເຈົ້າ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__message_has_error
@@ -1875,17 +3554,29 @@ msgstr ""
 #: model:ir.model.fields,help:event.field_event_registration__message_has_error
 #: model:ir.model.fields,help:event.field_event_registration__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__start_sale_datetime
 msgid "If ticketing is used, contains the earliest starting sale date of tickets."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫາກມີການໃຊ້ລະບົບປີ້, ຈະລະບຸວັນທີເລີ່ມຕົ້ນການຂາຍປີ້ທີ່ໄວທີ່ສຸດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "If you don't have this ticket, you will <b>not</b> be allowed entry!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫາກເຈົ້າບໍ່ມີປີ້ໃບນີ້, ເຈົ້າຈະ <b>ບໍ່</b> ໄດ້ຮັບອະນຸຍາດໃຫ້ເຂົ້າຮ່ວມ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
@@ -1893,17 +3584,31 @@ msgid ""
 "If you don't know anything about Hockey, this is a great introduction to this wonderful sport as you will will be able to see some training process and also have some time\n"
 "                to chat with experienced players and trainers once the tournament is over!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຫາກເຈົ້າບໍ່ຮູ້ຫຍັງກ່ຽວກັບຮອກກີ, ນີ້ຄືການແນະນຳທີ່ດີສຳລັບກິລາທີ່ຍອດຢ້ຽມນີ້ ເພາະເຈົ້າຈະໄດ້ເຫັນຂະບວນການຝຶກຊ້ອ"
+"ມ ແລະ ຍັງມີເວລາ\n"
+"                ລົມກັບຜູ້ຫຼິ້ນ ແລະ ຄູຝຶກທີ່ມີປະສົບການ ເມື່ອການແຂ່ງຂັນສິ້ນສຸດລົງ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__now
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__now
 msgid "Immediately"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "Important ticket information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນປີ້ທີ່ສຳຄັນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -1915,122 +3620,214 @@ msgstr ""
 #: model:event.stage,legend_normal:event.event_stage_new
 #: model:ir.model.fields.selection,name:event.selection__event_event__kanban_state__normal
 msgid "In Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Insert dynamic Google Maps in your email templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຊກ Google Maps ແບບໄດນາມິກໃນເທັມເພລດອີເມວຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_nbr
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_nbr
 msgid "Interval"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ວງເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Introduction, CRM, Sales Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດນຳ, CRM, ການຈັດການການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "Invalid event / ticket choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເລືອກງານ / ປີ້ ບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__sale_available
 msgid "Is Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດໃຊ້ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__is_expired
 msgid "Is Expired"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝົດອາຍຸແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_finished
 msgid "Is Finished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_is_follower
 #: model:ir.model.fields,field_description:event.field_event_registration__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_one_day
 msgid "Is One Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນງານມື້ດຽວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__is_ongoing
 msgid "Is Ongoing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງດຳເນີນຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_type__seats_max
 msgid "It will select this default maximum value when you choose this event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມັນຈະເລືອກຄ່າສູງສຸດເລີ່ມຕົ້ນນີ້ ເມື່ອທ່ານເລືອກງານນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "John DOE"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "John DOE"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "Join us for the greatest ballon race of all times!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຮ່ວມກັບພວກເຮົາໃນງານແຂ່ງຂັນບານລູນທີ່ຍິ່ງໃຫຍ່ທີ່ສຸດ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_4
 #: model_terms:event.event,description:event.event_6
 #: model_terms:ir.ui.view,arch_db:event.event_default_descripton
 msgid "Join us for this 24 hours Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຮ່ວມກັບພວກເຮົາໃນງານກິດຈະກຳ 24 ຊົ່ວໂມງນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "Join us for this 3-day Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຮ່ວມກັບພວກເຮົາໃນງານກິດຈະກຳ 3 ວັນນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__legend_blocked
 msgid "Kanban Blocked Explanation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍການຖືກບລັອກໃນ Kanban"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__legend_normal
 msgid "Kanban Ongoing Explanation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍການກຳລັງດຳເນີນການໃນ Kanban"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__kanban_state
 msgid "Kanban State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະ Kanban"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__kanban_state_label
 msgid "Kanban State Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍກຳກັບສະຖານະ Kanban"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__legend_done
 msgid "Kanban Valid Explanation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍການກວດສອບແລ້ວໃນ Kanban"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄີ (Key)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Last 30 days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "30 ວັນຜ່ານມາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__write_uid
@@ -2045,7 +3842,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type_mail__write_uid
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__write_date
@@ -2060,171 +3861,295 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type_mail__write_date
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຊ້າກວ່າກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Let's create your first <b>event</b>."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາສ້າງ <b>ງານກິດຈະກຳ</b> ທຳອິດຂອງເຈົ້າກັນເລີຍ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_limited
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_limited
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__seats_limited
 msgid "Limit Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳກັດຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Limit Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳກັດການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__has_seats_limitation
 msgid "Limited Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳກັດບ່ອນນັ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Live Broadcast"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ່າຍທອດສົດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_live
 msgid "Live Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂໝດຖ່າຍທອດສົດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_3
 msgid "Live Music Festival"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເທສະການດົນຕີສົດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__notification_type__mail
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__notification_type__mail
 msgid "Mail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_registration_ids
 msgid "Mail Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນຜ່ານອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_mail_ids
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_mail_ids
 msgid "Mail Schedule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດການສົ່ງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__scheduler_id
 msgid "Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຈັດຕາຕະລາງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.ui.menu,name:event.menu_event_mail_schedulers
 msgid "Mail Schedulers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຈັດຕາຕະລາງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_type_mail
 msgid "Mail Scheduling on Event Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດເວລາອີເມວຕາມໝວດໝູ່ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__mail_sent
 msgid "Mail Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງອີເມວແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Manage & publish a schedule with tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການ ແລະ ເຜີຍແຜ່ກຳນົດການພ້ອມກັບຫົວຂໍ້ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Mark as Attending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍວ່າເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Marketing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕະຫຼາດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
 msgid "Maximum"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສູງສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_max
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_max
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__seats_max
 msgid "Maximum Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳກັດຜູ້ເຂົ້າຮ່ວມສູງສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__seats_max
 msgid "Maximum Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການລົງທະບຽນສູງສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Maximum Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນບ່ອນນັ່ງສູງສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_medium_id
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Medium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງ (Medium)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_has_error
 #: model:ir.model.fields,field_description:event.field_event_registration__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__mobile
 msgid "Mobile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມືຖື"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__months
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__months
 msgid "Months"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_2
 msgid "Music"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດົນຕີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__my_activity_date_deadline
 #: model:ir.model.fields,field_description:event.field_event_registration__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາສິ້ນສຸດກິດຈະກຳຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "My Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__name
@@ -2232,41 +4157,69 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_tag_category__name
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,name:event.event_stage_new
 msgid "New"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_calendar_event_id
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການກິດຈະກຳໃນປະຕິທິນຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_date_deadline
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາສິ້ນສຸດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_summary
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_type_id
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_registration_action
 msgid "No Attendees expected yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ທັນມີຜູ້ເຂົ້າຮ່ວມທີ່ຄາດໄວ້ເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.act_event_registration_from_event
@@ -2274,13 +4227,21 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_kanban
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_stats_from_event
 msgid "No Attendees yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ທັນມີຜູ້ເຂົ້າຮ່ວມເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "None"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__note
@@ -2288,207 +4249,361 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_mail
 msgid "Nothing Scheduled yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີການກຳນົດເວລາເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Now that your event is ready, click here to move it to another stage."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມື່ອງານຂອງທ່ານກຽມພ້ອມແລ້ວ, ຄລິກທີ່ນີ້ເພື່ອຍ້າຍມັນໄປສູ່ຂັ້ນຕອນອື່ນ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_needaction_counter
 #: model:ir.model.fields,field_description:event.field_event_registration__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_used
 msgid "Number of Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_expected
 msgid "Number of Expected Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຜູ້ເຂົ້າຮ່ວມທີ່ຄາດໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_reserved
 msgid "Number of Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_has_error_counter
 #: model:ir.model.fields,field_description:event.field_event_registration__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__message_needaction_counter
 #: model:ir.model.fields,help:event.field_event_registration__message_needaction_counter
 msgid "Number of messages which requires an action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງການການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__message_has_error_counter
 #: model:ir.model.fields,help:event.field_event_registration__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Objectives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຸດປະສົງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
 msgid "Once again we assembled the most legendary bands in Rock history."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອີກເທື່ອໜຶ່ງທີ່ພວກເຮົາໄດ້ຮວບຮວມວົງດົນຕີທີ່ເປັນຕຳນານທີ່ສຸດໃນປະຫວັດສາດຣັອກ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Ongoing Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານທີ່ກຳລັງດຳເນີນຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_3_tag_1
 msgid "Online"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Online Exhibitors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ວາງສະແດງອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_sale
 msgid "Online Ticketing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈອງປີ້ອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Open date range picker. Pick a Start date for your event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດຕົວເລືອກໄລຍະວັນທີ. ເລືອກວັນທີເລີ່ມຕົ້ນສຳລັບງານຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "OpenElec Applications reserves the right to cancel, re-name or re-locate the event or change the dates on which it is held."
 msgstr ""
+<<<<<<< HEAD
+=======
+"OpenElec Applications ຂໍສະຫງວນສິດໃນການຍົກເລີກ, ປ່ຽນຊື່ ຫຼື ປ່ຽນສະຖານທີ່ຈັດງານ ຫຼື ປ່ຽນວັນທີຈັດງາ"
+"ນ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,name:event.event_7
 msgid "OpenWood Collection Online Reveal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເປີດຕົວຄໍເລັກຊັນ OpenWood ອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.partner,website_short_description:event.res_partner_event_2
 msgid "OpenWood brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"OpenWood ນຳເອົາຄວາມຊື່ສັດ ແລະ ຄວາມຈິງຈັງມາສູ່ອຸດສາຫະກຳໄມ້ ພ້ອມທັງຊ່ວຍລູກຄ້າໃນການຈັດການກັບຕົ້ນໄ"
+"ມ້, ດອກໄມ້ ແລະ ເຫັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "Operation not supported."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການດຳເນີນງານບໍ່ຮອງຮັບ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__organizer_id
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Organizer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດງານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_7
 msgid "Our newest collection will be revealed online! Interact with us on our live streams!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄໍເລັກຊັນໃໝ່ລ້າສຸດຂອງພວກເຮົາຈະຖືກເປີດຕົວອອນລາຍ! ມີສ່ວນຮ່ວມກັບພວກເຮົາຜ່ານການຖ່າຍທອດສົດ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_blocked
 #: model:ir.model.fields,help:event.field_event_stage__legend_blocked
 msgid "Override the default value displayed for the blocked state for kanban selection."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ່ຽນຄ່າເລີ່ມຕົ້ນທີ່ສະແດງສຳລັບສະຖານະທີ່ຖືກບລັອກໃນການເລືອກ kanban."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_done
 #: model:ir.model.fields,help:event.field_event_stage__legend_done
 msgid "Override the default value displayed for the done state for kanban selection."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ່ຽນຄ່າເລີ່ມຕົ້ນທີ່ສະແດງສຳລັບສະຖານະທີ່ສຳເລັດແລ້ວໃນການເລືອກ kanban."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__legend_normal
 #: model:ir.model.fields,help:event.field_event_stage__legend_normal
 msgid "Override the default value displayed for the normal state for kanban selection."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ່ຽນຄ່າເລີ່ມຕົ້ນທີ່ສະແດງສຳລັບສະຖານະປົກຕິໃນການເລືອກ kanban."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Participant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Partner"
+<<<<<<< HEAD
 msgstr "ຄຸ່ຄ້າ"
+=======
+msgstr "ຄູ່ຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__phone
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "Please come <b>at least</b> 30 minutes before the beginning of the event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາມາຮອດ <b>ຢ່າງໜ້ອຍ</b> 30 ນາທີ ກ່ອນເລີ່ມງານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/res_config_settings.py:0
 msgid "Please enter a valid base64 secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາໃສ່ລະຫັດລັບ base64 ທີ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Point of Sale (POS), Introduction to report customization."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຸດຂາຍ (POS), ການແນະນຳກ່ຽວກັບການປັບແຕ່ງລາຍງານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 #: model_terms:event.event,description:event.event_2
 msgid "Program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂປຣແກຣມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Project management, Human resources, Contract management."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດການໂຄງການ, ຊັບພະຍາກອນມະນຸດ, ການຈັດການສັນຍາ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Purchase, Sales &amp; Purchase management, Financial accounting."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດຊື້, ການຈັດການການຂາຍ ແລະ ການຈັດຊື້, ການບັນຊີການເງິນ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track_quiz
 msgid "Quiz on Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບທົດສອບກ່ຽວກັບຫົວຂໍ້ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__rating_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໃຫ້ຄະແນນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -2499,18 +4614,30 @@ msgstr ""
 #: model:event.stage,legend_done:event.event_stage_done
 #: model:event.stage,legend_done:event.event_stage_new
 msgid "Ready for Next Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຽມພ້ອມສຳລັບຂັ້ນຕອນຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Ready to <b>organize events</b> in a few minutes? Let's get started!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພ້ອມທີ່ຈະ <b>ຈັດການງານກິດຈະກຳ</b> ໃນບໍ່ເທົ່າໃດນາທີບໍ? ມາເລີ່ມກັນເລີຍ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__legend_blocked
 msgid "Red Kanban Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍ Kanban ສີແດງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -2521,70 +4648,122 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_pivot
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_tree
 msgid "Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_tree
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Registration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.groups,name:event.group_event_registration_desk
 msgid "Registration Desk"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຕະຮັບລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__end_sale_datetime
 msgid "Registration End"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Registration ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model,name:event.model_event_mail_registration
 msgid "Registration Mail Scheduler"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຈັດຕາຕະລາງອີເມວລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Registration Mails"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__start_sale_datetime
 msgid "Registration Start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "Registration for %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນສຳລັບ %s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Registration mail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_open
 msgid "Registration open"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.event_registration_action_stats_from_event
 msgid "Registration statistics"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖິຕິການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__registration_ids
 msgid "Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__event_registrations_open
@@ -2594,11 +4773,22 @@ msgid ""
 "- there are seats available on event\n"
 "- the tickets are sellable (if ticketing is used)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການລົງທະບຽນຈະເປີດຖ້າ:\n"
+"- ງານຍັງບໍ່ທັນສິ້ນສຸດ\n"
+"- ຍັງມີບ່ອນນັ່ງຫວ່າງໃນງານ\n"
+"- ສາມາດຂາຍປີ້ໄດ້ (ຫາກມີການໃຊ້ລະບົບປີ້)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_started
 msgid "Registrations started"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນເລີ່ມຕົ້ນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.ui.menu,name:event.menu_reporting_events
@@ -2608,114 +4798,199 @@ msgstr "ບົດລາຍງານ"
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_reserved
 msgid "Reserved Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບ່ອນນັ່ງທີ່ຈອງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__user_id
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__activity_user_id
 #: model:ir.model.fields,field_description:event.field_event_registration__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__mail_state__running
 msgid "Running"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_has_sms_error
 #: model:ir.model.fields,field_description:event.field_event_registration__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Scan badges to confirm attendances"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແກນບັດເພື່ອຢືນຢັນການເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Schedule & Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດການ ແລະ ຫົວຂໍ້ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__scheduled_date
 msgid "Schedule Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_view
 msgid "Schedule and organize your events: handle registrations, send automated confirmation emails, sell tickets, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຳນົດເວລາ ແລະ ຈັດການງານກິດຈະກຳຂອງທ່ານ: ຈັດການການລົງທະບຽນ, ສົ່ງອີເມວຢືນຢັນອັດຕະໂນມັດ, ຂາຍປີ້ "
+"ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__mail_state__scheduled
 msgid "Scheduled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail_registration__scheduled_date
 msgid "Scheduled Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
 msgid "Seasoned Hockey Fans and curious people, this tournament is for you!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຟນຮອກກີຕົວຈິງ ແລະ ຜູ້ທີ່ສົນໃຈ, ການແຂ່ງຂັນນີ້ແມ່ນສຳລັບເຈົ້າ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດລັບ (Secret)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets on your website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາຍປີ້ໃນເວັບໄຊທ໌ຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.res_config_settings_view_form
 msgid "Sell tickets with sales orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາຍປີ້ພ້ອມກັບໃບສັ່ງຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__notification_type
 #: model:ir.model.fields,field_description:event.field_event_type_mail__notification_type
 msgid "Send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Send by Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງທາງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__mail_done
 #: model:ir.model.fields.selection,name:event.selection__event_mail__mail_state__sent
 #: model_terms:ir.ui.view,arch_db:event.view_event_mail_form
 msgid "Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,description:event.event_reminder
 msgid "Sent automatically to attendees if there is a reminder defined on the event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມອັດຕະໂນມັດ ຫາກມີການກຳນົດການແຈ້ງເຕືອນໃນງານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,description:event.event_registration_mail_template_badge
 msgid "Sent automatically to someone after they registered to an event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ລົງທະບຽນອັດຕະໂນມັດ ຫຼັງຈາກທີ່ພວກເຂົາລົງທະບຽນຮ່ວມງານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,description:event.event_subscription
 msgid "Sent to attendees after registering to an event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມ ຫຼັງຈາກລົງທະບຽນຮ່ວມງານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__sequence
@@ -2725,68 +5000,117 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type__sequence
 #: model:ir.model.fields,field_description:event.field_event_type_ticket__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "Set To Unconfirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງເປັນຍັງບໍ່ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.actions.act_window,name:event.action_event_configuration
 #: model:ir.ui.menu,name:event.menu_event_global_settings
 msgid "Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.partner,website_short_description:event.res_partner_event_4
 msgid "Shangai Pterocarpus Furniture brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Shangai Pterocarpus Furniture ນຳເອົາຄວາມຊື່ສັດ ແລະ ຄວາມຈິງຈັງມາສູ່ອຸດສາຫະກຳໄມ້ ພ້ອມທັງຊ່ວຍ"
+"ລູກຄ້າໃນການຈັດການກັບຕົ້ນໄມ້, ດອກໄມ້ ແລະ ເຫັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Show all records which has next action date is before today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງທຸກລາຍການທີ່ວັນທີດຳເນີນການຖັດໄປກ່ອນມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_registrations_sold_out
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__is_sold_out
 msgid "Sold Out"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາຍໝົດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__utm_source_id
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງທີ່ມາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag,name:event.event_tag_category_2_tag_3
 #: model:event.type,name:event.event_type_2
 msgid "Sport"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິລາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__stage_id
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Stage Description and Tooltips"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍຂັ້ນຕອນ ແລະ ຄຳແນະນຳ (Tooltips)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__name
 msgid "Stage Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_stage__description
 msgid "Stage description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,name:event.event_0_ticket_1
@@ -2794,41 +5118,69 @@ msgstr ""
 #: model:event.event.ticket,name:event.event_3_ticket_0
 #: model:event.event.ticket,name:event.event_7_ticket_1
 msgid "Standard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາດຕະຖານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_begin
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_begin_located
 msgid "Start Date Located"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນຕາມສະຖານທີ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__start_sale_datetime
 msgid "Start sale date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url
 msgid "Static Map Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ແຜນທີ່ຄົງທີ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_partner__static_map_url_is_valid
 #: model:ir.model.fields,field_description:event.field_res_users__static_map_url_is_valid
 msgid "Static Map Url Is Valid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ແຜນທີ່ຄົງທີ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__state
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Status"
+<<<<<<< HEAD
 msgstr "ສະພາບ"
+=======
+msgstr "ສະຖານະ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__activity_state
@@ -2839,11 +5191,23 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນທີກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_tag__color
 msgid "Tag color. No color means no display in kanban or front-end, to distinguish internal tags from public categorization tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສີຂອງແທັກ. ຫາກບໍ່ມີສີ ໝາຍເຖິງຈະບໍ່ສະແດງໃນ kanban ຫຼື ໜ້າເວັບ, ເພື່ອແຍກແທັກພາຍໃນອອກຈາກແທັກໝວດໝູ່ສ"
+"າທາລະນະ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__tag_ids
@@ -2851,17 +5215,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_type__tag_ids
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_form
 msgid "Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Task in progress. Click to block or set as done."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວຽກກຳລັງດຳເນີນການ. ຄລິກເພື່ອບລັອກ ຫຼື ຕັ້ງເປັນສຳເລັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "Task is blocked. Click to unblock or set as done."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວຽກຖືກບລັອກ. ຄລິກເພື່ອປົດບລັອກ ຫຼື ຕັ້ງເປັນສຳເລັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__event_type_id
@@ -2870,54 +5246,95 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເທັມເພລດ (Template)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__template_model_id
 #: model:ir.model.fields,field_description:event.field_event_type_mail__template_model_id
 msgid "Template Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂມເດລເທັມເພລດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event,subtitle:event.event_1
 msgid "The Great Reno Balloon Race is the world's largest free hot-air ballooning event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"The Great Reno Balloon Race ແມ່ນງານເທສະການບານລູນລົມຮ້ອນທີ່ໃຫຍ່ທີ່ສຸດໃນໂລກທີ່ເປີດໃຫ້ເຂົ້າຊົມຟຣີ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_5
 msgid "The best Hockey teams of the country will compete for the national Hockey trophy."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທີມຮອກກີທີ່ດີທີ່ສຸດຂອງປະເທດຈະມາແຂ່ງຂັນກັນເພື່ອຊິງຂັນລາງວັນຮອກກີລະດັບຊາດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "The best aeronauts of the world will gather on this event to offer you the most spectacular show."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ນັກບິນບານລູນທີ່ເກັ່ງທີ່ສຸດໃນໂລກຈະມາຮວມຕົວກັນໃນງານນີ້ເພື່ອມອບການສະແດງທີ່ໜ້າຕື່ນຕາຕື່ນໃຈທີ່ສຸດໃຫ້ທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "The closing date cannot be earlier than the beginning date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີປິດບໍ່ສາມາດມາກ່ອນວັນທີເລີ່ມຕົ້ນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_cancelled
 msgid "The event has been cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານກິດຈະກຳຖືກຍົກເລີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_announced
 msgid "The event has been publicly announced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານກິດຈະກຳໄດ້ຖືກປະກາດຢ່າງເປັນທາງການແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__event_registrations_sold_out
 msgid "The event is sold out if no more seats are available on event. If ticketing is used and all tickets are sold out, the event will be sold out."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ງານຈະຖືວ່າຂາຍໝົດແລ້ວ ຫາກບໍ່ມີບ່ອນນັ່ງຫວ່າງໃນງານ. ຫາກມີການໃຊ້ລະບົບປີ້ ແລະ ປີ້ທຸກໃບຂາຍໝົດແລ້ວ, ງານນັ້ນ"
+"ກໍຈະຖືວ່າຂາຍໝົດແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid "The finest OpenWood furnitures are coming to your house in a brand new collection"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຟີນີເຈີ OpenWood ທີ່ດີທີ່ສຸດກຳລັງຈະໄປຮອດເຮືອນຂອງທ່ານໃນຄໍເລັກຊັນໃໝ່ລ້າສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
@@ -2926,34 +5343,60 @@ msgid ""
 "The following tickets cannot be deleted while they have one or more registrations linked to them:\n"
 "- %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ປີ້ຕໍ່ໄປນີ້ບໍ່ສາມາດລຶບໄດ້ ໃນຂະນະທີ່ມີການລົງທະບຽນຢ່າງໜ້ອຍໜຶ່ງລາຍການທີ່ເຊື່ອມໂຍງຢູ່:\n"
+"- %s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.stage,description:event.event_stage_booked
 msgid "The place has been reserved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ໄດ້ຖືກຈອງໄວ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "The safety of our attendees and our aeronauts comes first!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມປອດໄພຂອງຜູ້ເຂົ້າຮ່ວມ ແລະ ນັກບິນບານລູນຂອງພວກເຮົາຕ້ອງມາກ່ອນ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_ticket.py:0
 msgid "The stop date cannot be earlier than the start date. Please check ticket %(ticket_name)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວັນທີສິ້ນສຸດບໍ່ສາມາດມາກ່ອນວັນທີເລີ່ມຕົ້ນໄດ້. ກະລຸນາກວດສອບປີ້ %(ticket_name)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 #: code:addons/event/models/event_ticket.py:0
 msgid "There are not enough seats available for:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີບ່ອນນັ່ງບໍ່ພຽງພໍສຳລັບ:"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "This event is also an opportunity to showcase our partners' case studies, methodology or developments. Be there and see directly from the source the features of the version 12!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ງານນີ້ຍັງເປັນໂອກາດໃນການສະແດງກໍລະນີສຶກສາ, ວິທີການ ຫຼື ການພັດທະນາຂອງຄູ່ຄ້າຂອງພວກເຮົາ. ມາຮ່ວມງານ "
+"ແລະ ຊົມຄຸນສົມບັດຂອງເວີຊັນ 12 ໂດຍກົງຈາກແຫຼ່ງກຳເນີດ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
@@ -2961,44 +5404,78 @@ msgid ""
 "This event is fully online and FREE, if you have paid for tickets, you should get a refund.<br>\n"
 "        It will require a good Internet connection to get the best video quality."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ງານນີ້ແມ່ນຈັດຂຶ້ນແບບອອນລາຍທັງໝົດ ແລະ ຟຣີ, ຫາກທ່ານໄດ້ຈ່າຍຄ່າປີ້ແລ້ວ, ທ່ານຄວນໄດ້ຮັບເງິນຄືນ.<br>\n"
+"        ມັນຕ້ອງການການເຊື່ອມຕໍ່ອິນເຕີເນັດທີ່ດີເພື່ອໃຫ້ໄດ້ຄຸນນະພາບວິດີໂອທີ່ດີທີ່ສຸດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__ticket_instructions
 #: model:ir.model.fields,help:event.field_event_type__ticket_instructions
 msgid "This information will be printed on your tickets."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນນີ້ຈະຖືກພິມລົງໃນປີ້ຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "This is the <b>name</b> your guests will see when registering."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນີ້ຄື <b>ຊື່</b> ທີ່ແຂກຂອງທ່ານຈະເຫັນເມື່ອລົງທະບຽນ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
 msgid "This is the perfect place for spending a nice day with your family, we guarantee you will be leaving with beautiful everlasting memories!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ນີ້ຄືສະຖານທີ່ທີ່ສົມບູນແບບສຳລັບການໃຊ້ເວລາກັບຄອບຄົວຂອງທ່ານ, ພວກເຮົາຮັບປະກັນວ່າທ່ານຈະກັບໄປພ້ອມກັບຄວາມຊົ"
+"ງຈຳທີ່ສວຍງາມຕະຫຼອດໄປ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_3
 msgid "This is the perfect place for spending a nice time with your friends while listening to some of the most iconic rock songs of all times!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ນີ້ຄືສະຖານທີ່ທີ່ສົມບູນແບບສຳລັບການໃຊ້ເວລາກັບໝູ່ເພື່ອນ ພ້ອມທັງຟັງເພງຣັອກທີ່ເປັນຕຳນານທີ່ສຸດ!"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "This operator is not supported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວດຳເນີນການນີ້ບໍ່ຮອງຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "This step is done. Click to block or set in progress."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນນີ້ສຳເລັດແລ້ວ. ຄລິກເພື່ອບລັອກ ຫຼື ຕັ້ງເປັນກຳລັງດຳເນີນການ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_form_from_event
 msgid "Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__ticket_instructions
@@ -3006,19 +5483,31 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Ticket Instructions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳແນະນຳກ່ຽວກັບປີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Ticket Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດປີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Ticket types allow you to distinguish your attendees. Let's <b>create</b> a new one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ປະເພດປີ້ຊ່ວຍໃຫ້ທ່ານຈຳແນກຜູ້ເຂົ້າຮ່ວມໄດ້. ມາ <b>ສ້າງ</b> ປະເພດໃໝ່ກັນເລີຍ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type__event_type_ticket_ids
@@ -3027,136 +5516,237 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,ticket_instructions:event.event_0
 msgid "Tickets can be printed or scanned directly from your phone."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ສາມາດພິມອອກມາ ຫຼື ສະແກນໂດຍກົງຈາກມືຖືຂອງທ່ານໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__date_tz
 #: model:ir.model.fields,field_description:event.field_event_type__default_timezone
 msgid "Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "Total Registrations for this Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນທັງໝົດສຳລັບງານນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_res_config_settings__module_website_event_track
 msgid "Tracks and Agenda"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້ກິດຈະກຳ ແລະ ກຳນົດການ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.type,name:event.event_type_1
 msgid "Training"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຝຶກອົບຮົມ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.partner,website_short_description:event.res_partner_event_3
 msgid "Tree Dealers brings honesty and seriousness to wood industry while helping customers deal with trees, flowers and fungi."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Tree Dealers ນຳເອົາຄວາມຊື່ສັດ ແລະ ຄວາມຈິງຈັງມາສູ່ອຸດສາຫະກຳໄມ້ ພ້ອມທັງຊ່ວຍລູກຄ້າໃນການຈັດການກັບຕົ້"
+"ນໄມ້, ດອກໄມ້ ແລະ ເຫັດ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_type
 msgid "Trigger"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຕຸ້ນ (Trigger)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_type
 msgid "Trigger "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຕຸ້ນ "
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.tag.category,name:event.event_tag_category_3
 msgid "Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__activity_exception_decoration
 #: model:ir.model.fields,help:event.field_event_registration__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງກິດຈະກຳການຍົກເວັ້ນໃນລາຍການ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_registration__state__draft
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_tree_from_event
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Unconfirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ທັນຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_unconfirmed
 msgid "Unconfirmed Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນທີ່ຍັງບໍ່ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_unconfirmed
 #: model_terms:ir.ui.view,arch_db:event.view_event_tree
 msgid "Unconfirmed Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບ່ອນນັ່ງທີ່ຍັງບໍ່ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.action_event_mail
 msgid "Under this technical menu you will find all scheduled communication related to your events."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພາຍໃຕ້ເມນູທາງເຕັກນິກນີ້ ທ່ານຈະພົບເຫັນການສື່ສານທັງໝົດທີ່ກຳນົດເວລາໄວ້ທີ່ກ່ຽວຂ້ອງກັບງານຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Understand the various modules;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າໃຈໂມດູລຕ່າງໆ;"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_mail__interval_unit
 #: model:ir.model.fields,field_description:event.field_event_type_mail__interval_unit
 msgid "Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Upcoming events from today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານທີ່ກຳລັງຈະມາເຖິງນັບຈາກມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Upcoming/Running"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງຈະມາເຖິງ/ກຳລັງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.event_tag_category_action_tree
 msgid "Use Event Tag Categories to classify and organize your event tags."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ໝວດໝູ່ແທັກງານກິດຈະກຳເພື່ອຈຳແນກ ແລະ ຈັດການແທັກຂອງງານທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-javascript
 #: code:addons/event/static/src/js/tours/event_tour.js:0
 msgid "Use the <b>breadcrumbs</b> to go back to your kanban overview."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ <b>breadcrumbs</b> ເພື່ອກັບໄປທີ່ພາບລວມ kanban ຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event_ticket__seats_used
 msgid "Used Seats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບ່ອນນັ່ງທີ່ໃຊ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:res.groups,name:event.group_event_user
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,name:event.event_0_ticket_2
@@ -3164,29 +5754,49 @@ msgstr ""
 #: model:event.event.ticket,name:event.event_3_ticket_1
 #: model:event.event.ticket,name:event.event_7_ticket_2
 msgid "VIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວີໄອພີ (VIP)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_event.py:0
 msgid "Value should be True or False (not %s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າຄວນຈະເປັນ True ຫຼື False (ບໍ່ແມ່ນ %s)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_id
 msgid "Venue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ຈັດງານ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__address_inline
 msgid "Venue (formatted for one line uses)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ (ຮູບແບບສຳລັບໃຊ້ໃນແຖວດຽວ)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_mail.py:0
 msgid "WARNING: Event Scheduler Error for event: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນ: ຂໍ້ຜິດພາດໃນຕົວຈັດຕາຕະລາງງານສຳລັບງານ: %s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.actions.act_window,help:event.act_event_registration_from_event
@@ -3194,11 +5804,19 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:event.event_registration_action_kanban
 msgid "Wait until Attendees register to your Event or create their registrations manually."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລໍຖ້າຈົນກວ່າຜູ້ເຂົ້າຮ່ວມຈະລົງທະບຽນຮ່ວມງານ ຫຼື ສ້າງການລົງທະບຽນໃຫ້ພວກເຂົາດ້ວຍຕົນເອງ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "Warehouse management, Manufacturing (MRP) &amp; Sales, Import/Export."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດການສາງ, ການຜະລິດ (MRP) ແລະ ການຂາຍ, ການນຳເຂົ້າ/ສົ່ງອອກ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_1
@@ -3206,54 +5824,95 @@ msgstr ""
 #: model_terms:event.event,description:event.event_5
 msgid "We reserve the right to cancel, re-name or re-locate the event or change the dates on which it is held in case the weather fails us."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພວກເຮົາຂໍສະຫງວນສິດໃນການຍົກເລີກ, ປ່ຽນຊື່ ຫຼື ປ່ຽນສະຖານທີ່ຈັດງານ ຫຼື ປ່ຽນວັນທີຈັດງານ ໃນກໍລະນີທີ່ສະພາບອາ"
+"ກາດບໍ່ອຳນວຍ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__website_message_ids
 #: model:ir.model.fields,field_description:event.field_event_registration__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມຈາກເວັບໄຊທ໌"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__website_message_ids
 #: model:ir.model.fields,help:event.field_event_registration__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການສື່ສານຜ່ານເວັບໄຊທ໌"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields.selection,name:event.selection__event_mail__interval_unit__weeks
 #: model:ir.model.fields.selection,name:event.selection__event_type_mail__interval_unit__weeks
 msgid "Weeks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "What's new?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຫຍັງໃໝ່?"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__is_ongoing
 msgid "Whether event has begun"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານໄດ້ເລີ່ມຕົ້ນແລ້ວ ຫຼື ບໍ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__sale_available
 msgid "Whether it is possible to sell these tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດຂາຍປີ້ເຫຼົ່ານີ້ໄດ້ ຫຼື ບໍ່"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event_ticket__is_sold_out
 msgid "Whether seats are not available for this ticket."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບ່ອນນັ່ງຫວ່າງບໍ່ມີແລ້ວສຳລັບປີ້ໃບນີ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:event.event.ticket,description:event.event_0_ticket_2
 msgid "You are truly among the best."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າຄືໜຶ່ງໃນຜູ້ທີ່ດີທີ່ສຸດແທ້ໆ."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "You can also add a description to help your coworkers understand the meaning and purpose of the stage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານຍັງສາມາດເພີ່ມຄຳອະທິບາຍເພື່ອຊ່ວຍໃຫ້ເພື່ອນຮ່ວມງານເຂົ້າໃຈຄວາມໝາຍ ແລະ ຈຸດປະສົງຂອງຂັ້ນຕອນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
@@ -3261,68 +5920,121 @@ msgid ""
 "You can define here labels that will be displayed for the state instead\n"
 "                            of the default labels in the kanban view."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານສາມາດກຳນົດປ້າຍກຳກັບທີ່ຈະສະແດງສຳລັບສະຖານະໄດ້ທີ່ນີ້ ແທນທີ່\n"
+"                            ປ້າຍກຳກັບເລີ່ມຕົ້ນໃນມຸມມອງ kanban."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,subject:event.event_registration_mail_template_badge
 msgid "Your badge for {{ object.event_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັດເຂົ້າຮ່ວມງານຂອງທ່ານສຳລັບ {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,subject:event.event_subscription
 msgid "Your registration at {{ object.event_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນຂອງທ່ານທີ່ {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_form
 msgid "e.g. \"12-16 years old\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ \"ອາຍຸ 12-16 ປີ\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_tag_category_view_form
 msgid "e.g. \"Age Category\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ \"ໝວດໝູ່ອາຍຸ\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 msgid "e.g. \"Azure Interior\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ \"Azure Interior\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_stage_view_form
 msgid "e.g. \"Promoting\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ \"ການສົ່ງເສີມ\""
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_view_form_quick_create
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 msgid "e.g. Conference for Architects"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ ກອງປະຊຸມສຳລັບສະຖາປານິກ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "e.g. How to get to your event, door closing time, ..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ ການເດີນທາງມາຮ່ວມງານ, ເວລາປິດປະຕູ, ..."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "e.g. Online Conferences"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ ກອງປະຊຸມອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_form_view
 msgid "e.g. VIP Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ ປີ້ວີໄອພີ (VIP)"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_2
 msgid "events@odoo.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "events@odoo.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_7
 msgid "events@penwood.example.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "events@penwood.example.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -3330,66 +6042,114 @@ msgstr ""
 #: model_terms:event.event,description:event.event_3
 #: model_terms:event.event,description:event.event_5
 msgid "events@yourcompany.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "events@yourcompany.com"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "in %d days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນອີກ %d ມື້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "next month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເດືອນໜ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "next week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດໜ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "on %(date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນວັນທີ %(date)s"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:ir.model.fields,help:event.field_event_event__event_registrations_started
 msgid "registrations have started if the current datetime is after the earliest starting date of tickets."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການລົງທະບຽນໄດ້ເລີ່ມຕົ້ນແລ້ວ ຫາກວັນທີ ແລະ ເວລາປະຈຸບັນແມ່ນຫຼັງຈາກວັນທີເລີ່ມຕົ້ນທີ່ໄວທີ່ສຸດຂອງປີ້."
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_kanban_from_event
 msgid "reserved +"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈອງແລ້ວ +"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫາ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event
 #. odoo-python
 #: code:addons/event/models/event_registration.py:0
 msgid "tomorrow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ອື່ນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_ticket_view_kanban_from_event
 msgid "unconfirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: event
 #: model:mail.template,subject:event.event_reminder
 msgid "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }}: {{ object.get_date_range_str() }}"
+>>>>>>> upstream/18.0

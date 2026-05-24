@@ -4,47 +4,82 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
+=======
+"PO-Revision-Date: 2026-05-19 12:52+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/hr/lo/>\n"
+>>>>>>> upstream/18.0
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_email_amount
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_email_amount
 msgid "# emails to send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ອີເມລທີ່ຈະສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/wizard/hr_plan_wizard.py:0
 msgid "%(activity)s, assigned to %(name)s, due on the %(deadline)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(activity)s, ມອບໝາຍໃຫ້ %(name)s, ກຳນົດສົ່ງວັນທີ %(deadline)s"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_job.py:0
 msgid "%s (copy)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (ສຳເນົາ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_job_view_kanban
 msgid "&amp;nbsp;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp;nbsp;"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.report,print_report_name:hr.hr_employee_print_badge
 msgid "'Badge - %s' % (object.name).replace('/', '')"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'ບັດ - %s' % (object.name).replace('/', '')"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -55,7 +90,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "1 Onsite Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳພາດຢູ່ສະຖານທີ່ 1 ຄັ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -66,7 +105,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "1 Phone Call"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທລະສັບ 1 ຄັ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -77,7 +120,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "12 days / year, including <br>6 of your choice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "12 ວັນ / ປີ, ລວມທັງ <br>6 ວັນທີ່ທ່ານເລືອກເອງ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -88,7 +135,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "2 open days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 ວັນເປີດຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -99,38 +150,79 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "4 Days after Interview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 ວັນຫຼັງຈາກການສຳພາດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "<b>Congratulations!</b> May I recommend you to setup an <a href=\"%s\">onboarding plan?</a>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<b>ຂໍສະແດງຄວາມຍິນດີ!</b> ໃຫ້ຂ້ອຍແນະນຳໃຫ້ທ່ານຕັ້ງຄ່າ <a href=\"%s\">ແຜນການຮັບພະນັກງານໃໝ່ "
+"ບໍ່?</a> "
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"Company\" title=\"Company\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-building-o\" role=\"img\" aria-label=\"ບໍລິສັດ\" title=\"ບໍລິສັ"
+"ດ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "<small role=\"img\" class=\"fa fa-fw fa-circle text-success o_button_icon hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', 'presence_present')]}\" aria-label=\"Present\" title=\"Present\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small role=\"img\" class=\"fa fa-fw fa-circle text-success o_button_icon "
+"hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', "
+"'presence_present')]}\" aria-label=\"ມາ\" title=\"ມາ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "<small role=\"img\" class=\"fa fa-fw fa-circle text-warning o_button_icon hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', 'presence_to_define')]}\" aria-label=\"To define\" title=\"To define\" name=\"presence_to_define\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small role=\"img\" class=\"fa fa-fw fa-circle text-warning o_button_icon "
+"hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', "
+"'presence_to_define')]}\" aria-label=\"ລໍຖ້າກຳນົດ\" title=\"ລໍຖ້າກຳນົດ\" "
+"name=\"presence_to_define\"/>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "<small role=\"img\" class=\"fa fa-fw fa-circle-o text-muted o_button_icon hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', 'presence_absent')]}\" aria-label=\"Absent\" title=\"Absent\" name=\"presence_absent\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small role=\"img\" class=\"fa fa-fw fa-circle-o text-muted o_button_icon "
+"hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', "
+"'presence_absent')]}\" aria-label=\"ບໍ່ຢູ່\" title=\"ບໍ່ຢູ່\" "
+"name=\"presence_absent\"/>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "<small role=\"img\" class=\"fa fa-fw fa-circle-o text-success o_button_icon hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', 'presence_absent_active')]}\" aria-label=\"Present but not active\" title=\"Present but not active\" name=\"presence_absent_active\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small role=\"img\" class=\"fa fa-fw fa-circle-o text-success o_button_icon "
+"hr_presence align-middle\" attrs=\"{'invisible': [('hr_icon_display', '!=', "
+"'presence_absent_active')]}\" aria-label=\"ມາແຕ່ບໍ່ເຄື່ອນໄຫວ\" title=\"ມາແຕ່ບໍ່ເຄື່ອນໄຫ"
+"ວ\" name=\"presence_absent_active\"/>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -141,7 +233,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "<small><b>READ</b></small>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small><b>ອ່ານ</b></small>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -150,6 +246,11 @@ msgid ""
 "<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"Present\" title=\"Present\" name=\"presence_present\">\n"
 "                                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-circle text-success\" role=\"img\" aria-label=\"ມາ\" "
+"title=\"ມາ\" name=\"presence_present\"></span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -158,6 +259,11 @@ msgid ""
 "<span class=\"fa fa-circle text-warning\" role=\"img\" aria-label=\"To define\" title=\"To define\" name=\"presence_to_define\">\n"
 "                                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-circle text-warning\" role=\"img\" aria-label=\"ລໍຖ້າກຳນົ"
+"ດ\" title=\"ລໍຖ້າກຳນົດ\" name=\"presence_to_define\"></span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -166,6 +272,11 @@ msgid ""
 "<span class=\"fa fa-circle-o text-muted\" role=\"img\" aria-label=\"Absent\" title=\"Absent\" name=\"presence_absent\">\n"
 "                                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-circle-o text-muted\" role=\"img\" aria-label=\"ບໍ່ຢູ່\" "
+"title=\"ບໍ່ຢູ່\" name=\"presence_absent\"></span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_kanban
@@ -174,36 +285,65 @@ msgid ""
 "<span class=\"fa fa-circle-o text-success\" role=\"img\" aria-label=\"Present but not active\" title=\"Present but not active\" name=\"presence_absent_active\">\n"
 "                                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-circle-o text-success\" role=\"img\" aria-label=\"ມາແຕ່ບໍ່ເຄື່"
+"ອນໄຫວ\" title=\"ມາແຕ່ບໍ່ເຄື່ອນໄຫວ\" name=\"presence_absent_active\"></span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"flex-shrink-0 ml8 me-2\">IP Addresses (comma-separated)</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"flex-shrink-0 ml8 me-2\">ທີ່ຢູ່ IP (ແຍກດ້ວຍຈຸດ)</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "<span class=\"flex-shrink-0 ml8 me-2\">Minimum number of emails to send</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"flex-shrink-0 ml8 me-2\">ຈຳນວນອີເມລຕໍ່າສຸດທີ່ຈະສົ່ງ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "<span class=\"fw-bolder\">Reporting</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fw-bolder\">ການລາຍງານ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "<span class=\"o_form_label o_hr_form_label cursor-default\">Close Activities</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label o_hr_form_label cursor-default\">ປິດກິດຈະກຳ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "<span class=\"o_form_label o_hr_form_label cursor-default\">Detailed Reason</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label o_hr_form_label cursor-default\">ເຫດຜົນລະອຽດ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "<span class=\"o_form_label o_hr_form_label cursor-default\">HR Info</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label o_hr_form_label cursor-default\">ຂໍ້ມູນ HR</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
@@ -211,22 +351,38 @@ msgid ""
 "<span class=\"o_stat_text\">\n"
 "                                    Not Connected\n"
 "                                </span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ບໍ່ໄດ້ເຊື່ອມຕໍ່</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "<span class=\"o_stat_text\">Connected Since</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ເຊື່ອມຕໍ່ຕັ້ງແຕ່</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form_smartbutton
 msgid "<span class=\"o_stat_text\">Contacts</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ຜູ້ຕິດຕໍ່</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_partner_view_form
 msgid "<span class=\"o_stat_text\">Employee</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ພະນັກງານ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -237,7 +393,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Days to get an Offer</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">ຈຳນວນວັນເພື່ອໄດ້ຮັບຂໍ້ສະເໜີ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -248,7 +408,11 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Process</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">ຂັ້ນຕອນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,job_details:hr.job_ceo
@@ -259,17 +423,29 @@ msgstr ""
 #: model_terms:hr.job,job_details:hr.job_marketing
 #: model_terms:hr.job,job_details:hr.job_trainee
 msgid "<span class=\"text-muted small\">Time to Answer</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small\">ເວລາໃນການຕອບກັບ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "<span>Km</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ກມ</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "<span>new Employees</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ພະນັກງານໃໝ່</span>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -280,12 +456,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "A full-time position <br>Attractive salary package."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຳແໜ່ງເຕັມເວລາ <br>ຊຸດເງິນເດືອນທີ່ໜ້າສົນໃຈ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_user_uniq
 msgid "A user cannot be linked to multiple employees in the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ຄົນດຽວບໍ່ສາມາດເຊື່ອມຕໍ່ກັບພະນັກງານຫຼາຍຄົນໃນບໍລິສັດດຽວກັນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_absent
@@ -295,7 +479,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_absent
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__absent
 msgid "Absent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -306,7 +494,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Achieve monthly sales objectives"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນລຸເປົ້າໝາຍການຂາຍປະຈຳເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_needaction
@@ -314,7 +506,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_needaction
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງມີການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__active
@@ -325,7 +521,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan__active
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_ids
@@ -333,79 +533,135 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_ids
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_activity_type_view_tree
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_view_form
 msgid "Activities To Generate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຈະສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_activity_type_view_form
 msgid "Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_exception_decoration
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕົບແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_plan
 msgid "Activity Planning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການວາງແຜນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_state
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__activity_type_id
 msgid "Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_type_icon
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Activity by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid "Add a new employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມພະນັກງານໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_plan_action
 msgid "Add a new plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມແຜນການໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_plan_activity_type_action
 msgid "Add a new plan activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມກິດຈະກຳແຜນການໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_description
 #: model:ir.model.fields,field_description:hr.field_hr_employee__departure_description
 msgid "Additional Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__additional_note
 #: model:ir.model.fields,field_description:hr.field_res_users__additional_note
 msgid "Additional Note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -416,13 +672,21 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Additional languages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາສາເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_home_id
 #: model:ir.model.fields,field_description:hr.field_res_users__address_home_id
 msgid "Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -433,65 +697,113 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Administrative Work"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວຽກບໍລິຫານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_manager
 msgid "Administrator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ດູແລລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_presence
 msgid "Advanced Presence Control"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຄວບຄຸມການມາເຮັດວຽກຂັ້ນສູງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Advanced presence of employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕິດຕາມການມາເຮັດວຽກຂອງພະນັກງານຂັ້ນສູງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_mail_alias__alias_contact
 msgid "Alias Contact Security"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມປອດໄພຂອງນາມແຝງຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__lang
 #: model:ir.model.fields,help:hr.field_res_users__private_lang
 msgid "All the emails and documents sent to this contact will be translated in this language."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມລ ແລະ ເອກະສານທັງໝົດທີ່ສົ່ງຫາຜູ້ຕິດຕໍ່ນີ້ຈະຖືກແປເປັນພາສານີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Allow employees to update their own data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ພະນັກງານອັບເດດຂໍ້ມູນຂອງເຂົາເຈົ້າເອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Allow employees to update their own data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ພະນັກງານອັບເດດຂໍ້ມູນຂອງເຂົາເຈົ້າເອງ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Application Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າແອັບພລິເຄຊັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "Apply"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Approvers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__archive_private_address
 msgid "Archive Private Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບມ້ຽນທີ່ຢູ່ສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
@@ -505,7 +817,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບມ້ຽນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -524,6 +840,19 @@ msgid ""
 "                                We expect the candidate to be proactive and have a \"get it done\" spirit. To be successful,\n"
 "                                you will have solid solving problem skills."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃນຖານະພະນັກງານຂອງບໍລິສັດພວກເຮົາ, ທ່ານຈະໄດ້ <b>ຮ່ວມມືກັບແຕ່ລະພະແນກເພື່ອສ້າງ ແລະ ຈັດຕັ້ງປະຕິບັດ\n"
+" ຜະລິດຕະພັນທີ່ທັນສະໄໝ.</b> ມາເຮັດວຽກຢູ່ນຳບໍລິສັດທີ່ກຳລັງເຕີບໃຫຍ່ ເຊິ່ງໃຫ້ຜົນປະໂຫຍດທີ່ດີພ້ອມກັບໂອກາດໃນກ"
+"ານ\n"
+" ກ້າວໄປຂ້າງໜ້າ ແລະ ຮຽນຮູ້ໄປພ້ອມກັບຜູ້ນຳທີ່ມີປະສົບການ. ພວກເຮົາກຳລັງຊອກຫາບຸກຄະລາກອນທີ່ມີປະສົບການ ແລ"
+"ະ ມີຄວາມສາມາດໂດດເດັ່ນ.\n"
+" <br><br>\n"
+" ຕຳແໜ່ງນີ້ແມ່ນທັງ <b>ມີຄວາມຄິດສ້າງສັນ ແລະ ເຂັ້ມງວດ</b> ໂດຍທຳມະຊາດທ່ານຕ້ອງມີຄວາມຄິດນອກກອບ.\n"
+" ພວກເຮົາຄາດຫວັງໃຫ້ຜູ້ສະໝັກມີຄວາມຫ້າວຫັນ ແລະ ມີຈິດວິນຍານທີ່ວ່າ \"ເຮັດໃຫ້ມັນສຳເລັດ\". ເພື່ອທີ່ຈະປະສົບຄວ"
+"າມສຳເລັດ,\n"
+" ທ່ານຈະຕ້ອງມີທັກສະການແກ້ໄຂບັນຫາທີ່ໜັກແໜ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_attachment_count
@@ -531,32 +860,56 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_attachment_count
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Attendance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Attendance/Point of Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງເວລາ/ຈຸດຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__mail_alias__alias_contact__employees
 msgid "Authenticated Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທີ່ຢັ້ງຢືນຕົວຕົນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.discuss_channel_view_form
 msgid "Auto Subscribe Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕາມພະແນກອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_discuss_channel__subscription_department_ids
 msgid "Automatically subscribe members of those departments to the channel."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕາມສະມາຊິກຂອງພະແນກເຫຼົ່ານັ້ນເຂົ້າໃນຊ່ອງທາງໂດຍອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -567,52 +920,88 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Autonomy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມເປັນອິດສະຫຼະ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫວ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1920
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_1920
 msgid "Avatar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແທນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_1024
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_1024
 msgid "Avatar 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແທນຕົວ 1024"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_128
 msgid "Avatar 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແທນຕົວ 128"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_256
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_256
 msgid "Avatar 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແທນຕົວ 256"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__avatar_512
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__avatar_512
 msgid "Avatar 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແທນຕົວ 512"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Away"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__bachelor
 msgid "Bachelor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະລິນຍາຕີ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -623,108 +1012,188 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Bachelor Degree or Higher"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະລິນຍາຕີ ຂຶ້ນໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__barcode
 #: model:ir.model.fields,field_description:hr.field_res_users__barcode
 msgid "Badge ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດບັດພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__bank_account_id
 msgid "Bank Account Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກບັນຊີທະນາຄານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_base
 msgid "Base"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພື້ນຖານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_ip
 msgid "Based on IP Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີງຕາມທີ່ຢູ່ IP"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_attendance
 msgid "Based on attendances"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີງຕາມການລົງເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_email
 msgid "Based on number of emails sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີງຕາມຈຳນວນອີເມລທີ່ສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_login
 msgid "Based on user status in system"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີງຕາມສະຖານະຜູ້ໃຊ້ໃນລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_base
 msgid "Basic Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/background_image/background_image.xml:0
 msgid "Binary file"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ບີນາຣີ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__can_edit
 msgid "Can Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດແກ້ໄຂໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.plan_wizard
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__certificate
 #: model:ir.model.fields,field_description:hr.field_res_users__certificate
 msgid "Certificate Level"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະດັບໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.res_users_action_my
 msgid "Change my Preferences"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ່ຽນການຕັ້ງຄ່າຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/employee_chat/employee_chat.xml:0
 msgid "Chat"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົນທະນາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_ceo
 msgid "Chief Executive Officer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະທານເຈົ້າໜ້າທີ່ບໍລິຫານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_cto
 msgid "Chief Technical Officer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະທານເຈົ້າໜ້າທີ່ຝ່າຍເຕັກນິກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__child_ids
 msgid "Child Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກຍ່ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Citizenship"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສັນຊາດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "City"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມືອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__coach_id
@@ -733,13 +1202,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_users__coach_id
 #: model:ir.model.fields.selection,name:hr.selection__hr_plan_activity_type__responsible__coach
 msgid "Coach"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູຝຶກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_plan_activity_type.py:0
 msgid "Coach of employee %s is not set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູຝຶກຂອງພະນັກງານ %s ຍັງບໍ່ໄດ້ກຳນົດ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__color
@@ -748,13 +1225,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_category__color
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__color
 msgid "Color Index"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດັດຊະນີສີ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_company
 #: model_terms:ir.ui.view,arch_db:hr.view_department_tree
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__company_id
@@ -775,119 +1260,207 @@ msgstr "ບໍລິສັດ"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__company_country_id
 msgid "Company Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
 msgid "Company Logo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂລໂກ້ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__resource_calendar_id
 msgid "Company Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາເຮັດວຽກຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_id
 msgid "Company employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__complete_name
 msgid "Complete Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ເຕັມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_human_resources_configuration
 #: model_terms:ir.ui.view,arch_db:hr.hr_department_view_kanban
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_consultant
 msgid "Consultant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ປຶກສາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Contact Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_contact
 #: model:ir.model.fields,field_description:hr.field_res_users__emergency_contact
 msgid "Contact Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__emergency_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__emergency_phone
 msgid "Contact Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_contract_type
 msgid "Contract Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດສັນຍາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_contract_type_view_tree
 msgid "Contract Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດສັນຍາຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__contractor
 msgid "Contractor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບເໝົາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__company_country_code
 msgid "Country Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_of_birth
 #: model:ir.model.fields,field_description:hr.field_res_users__country_of_birth
 msgid "Country of Birth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດທີ່ເກີດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__create_date
 msgid "Create Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form_inherit_hr
 msgid "Create Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 #: model:ir.actions.server,name:hr.action_hr_employee_create_user
 msgid "Create User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid "Create a new department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງພະແນກໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -898,12 +1471,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Create content that will help our users on a daily basis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເນື້ອຫາທີ່ຈະຊ່ວຍຜູ້ໃຊ້ຂອງພວກເຮົາໃນແຕ່ລະວັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form
 msgid "Create employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__create_uid
@@ -920,7 +1501,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__create_uid
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__create_date
@@ -936,17 +1521,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__create_date
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__currency_id
 msgid "Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_employee
 msgid "Current Number of Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -957,19 +1554,31 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Customer Relationship"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາຍພົວພັນລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__birthday
 #: model:ir.model.fields,field_description:hr.field_res_users__birthday
 msgid "Date of Birth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນເດືອນປີເກີດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_departure_reason.py:0
 msgid "Default departure reasons cannot be deleted."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນການລາອອກເລີ່ມຕົ້ນບໍ່ສາມາດລຶບໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_ceo
@@ -984,6 +1593,19 @@ msgid ""
 "Building strong relationships with clients / customers for business growth profitability.\n"
 "Keep regular interaction with key clients for better extraction and expansion."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການສາທິດການບໍລິການ Odoo ທີ່ແຕກຕ່າງກັນສຳລັບລູກຄ້າແຕ່ລະຄົນ ແລະ ການຊັກຊວນໃຫ້ລູກຄ້າເຊື່ອໝັ້ນກ່ຽວກັບການນ"
+"ຳໃຊ້ແອັບພລິເຄຊັນ.\n"
+"ຜູ້ສະໝັກຄວນມີທັກສະການສື່ສານທີ່ດີເລີດ.\n"
+"ທັກສະການສ້າງສາຍພົວພັນ ແລະ ການຈູງໃຈ\n"
+"ຄວາມຊ່ຽວຊານໃນການຊອກຫາລູກຄ້າໃໝ່ (NCAs) ແລະ ການຄຸ້ມຄອງສາຍພົວພັນ.\n"
+"ການເກັບກຳຂໍ້ມູນການຕະຫຼາດ ແລະ ລູກຄ້າ.\n"
+"ການປະສານງານກັບທີມງານຂາຍ ແລະ ທີມຊ່ວຍເຫຼືອ ເພື່ອນຳໃຊ້ກົນລະຍຸດທີ່ແຕກຕ່າງກັນ\n"
+"ການທົບທວນຄວາມຄືບໜ້າ ແລະ ການກຳນົດໂອກາດ ແລະ ຂົງເຂດໃໝ່ສຳລັບການພັດທະນາ.\n"
+"ການສ້າງສາຍພົວພັນທີ່ແໜ້ນແຟ້ນກັບລູກຄ້າ ເພື່ອການເຕີບໂຕຂອງທຸລະກິດ ແລະ ຜົນກຳໄລ.\n"
+"ຮັກສາການພົວພັນຢ່າງສະໝໍ່າສະເໝີກັບລູກຄ້າຫຼັກ ເພື່ອການຂະຫຍາຍຕົວທີ່ດີຂຶ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_department
@@ -1000,18 +1622,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__name
 msgid "Department Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ພະແນກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/department_chart/department_chart.xml:0
 msgid "Department Organization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜັງການຈັດຕັ້ງພະແນກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_department_kanban_action
@@ -1020,57 +1654,97 @@ msgstr ""
 #: model:ir.ui.menu,name:hr.menu_hr_department_tree
 #: model_terms:ir.ui.view,arch_db:hr.view_department_filter
 msgid "Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Departure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລາອອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_date
 #: model:ir.model.fields,field_description:hr.field_hr_employee__departure_date
 msgid "Departure Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີລາອອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_departure_reason
 #: model:ir.model.fields,field_description:hr.field_hr_departure_wizard__departure_reason_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee__departure_reason_id
 msgid "Departure Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນການລາອອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_departure_reason_action
 #: model:ir.ui.menu,name:hr.menu_hr_departure_reason_tree
 msgid "Departure Reasons"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນການລາອອກຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_departure_wizard
 msgid "Departure Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍຈັດການການລາອອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Dependant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ນອນໃນການອຸປະຖຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__child_ids
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__child_ids
 msgid "Direct subordinates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຕ້ບັງຄັບບັນຊາໂດຍກົງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_employee
 msgid "Directory"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຊື່ບຸກຄະລາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1081,12 +1755,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Discover our products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາຜະລິດຕະພັນຂອງພວກເຮົາ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_discuss_channel
 msgid "Discussion Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງການສົນທະນາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__display_name
@@ -1103,22 +1785,38 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__display_name
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__divorced
 msgid "Divorced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢ່າຮ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__doctor
 msgid "Doctor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະລິນຍາເອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__driving_license
 msgid "Driving License"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຂັບຂີ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1135,6 +1833,14 @@ msgid ""
 "                        Several activities are often organized all over the year, such as weekly\n"
 "                        sports sessions, team building events, monthly drink, and much more"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພະນັກງານແຕ່ລະຄົນມີໂອກາດທີ່ຈະເຫັນຜົນກະທົບຂອງວຽກງານຂອງຕົນ.\n"
+"ທ່ານສາມາດປະກອບສ່ວນອັນແທ້ຈິງເຂົ້າໃນຄວາມສຳເລັດຂອງບໍລິສັດ.\n"
+"<br>\n"
+"ກິດຈະກຳຫຼາຍຢ່າງມັກຈະຖືກຈັດຂຶ້ນຕະຫຼອດປີ ເຊັ່ນ: ການຫຼິ້ນກິລາປະຈຳອາທິດ,\n"
+"ກິດຈະກຳສ້າງທີມ, ການສັງສັນປະຈຳເດືອນ ແລະ ອື່ນໆອີກຫຼາຍຢ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1145,30 +1851,50 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Eat &amp; Drink"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກິນ ແລະ ດື່ມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Education"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສຶກສາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມລ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_mail_alias
 msgid "Email Aliases"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນາມແຝງອີເມລ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Emergency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຸກເສີນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
@@ -1187,90 +1913,154 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_category
 msgid "Employee Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_count
 msgid "Employee Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_employee_self_edit
 msgid "Employee Editing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແກ້ໄຂຂໍ້ມູນພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.print_employee_badge
 msgid "Employee Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_lang
 msgid "Employee Lang"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາສາຂອງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__name
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 msgid "Employee Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_categ_form
 #: model:ir.model.fields,field_description:hr.field_res_users__category_ids
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_category_form
 msgid "Employee Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/views/archive_employee_hook.js:0
 msgid "Employee Termination"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສິ້ນສຸດການຈ້າງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__employee_type
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_type
 msgid "Employee Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Employee Update Rights"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິດການອັບເດດຂໍ້ມູນພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__bank_account_id
 #: model:ir.model.fields,help:hr.field_res_users__employee_bank_account_id
 msgid "Employee bank account to pay salaries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີທະນາຄານພະນັກງານເພື່ອຈ່າຍເງິນເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_bank_account_id
 msgid "Employee's Bank Account Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກບັນຊີທະນາຄານຂອງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_country_id
 msgid "Employee's Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດຂອງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_kanban_view_employees
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Employee's Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຂອງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_resource_calendar_id
 msgid "Employee's Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາເຮັດວຽກຂອງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.act_employee_from_department
@@ -1293,46 +2083,78 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_partner__employees_count
 #: model:ir.model.fields,field_description:hr.field_res_users__employees_count
 msgid "Employees Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_employee_tree
 msgid "Employees Structure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຄງສ້າງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_category_list
 msgid "Employees Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__contract_type_id
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Employment Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການຈ້າງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_contract_type_action
 #: model:ir.ui.menu,name:hr.menu_view_hr_contract_type
 msgid "Employment Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການຈ້າງງານຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Enrich employee profiles with skills and resumes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຂໍ້ມູນພະນັກງານດ້ວຍທັກສະ ແລະ ປະຫວັດຫຍໍ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__address_home_id
 #: model:ir.model.fields,help:hr.field_res_users__address_home_id
 msgid "Enter here the private address of the employee, not the one linked to your company."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ປ້ອນທີ່ຢູ່ສ່ວນຕົວຂອງພະນັກງານຢູ່ບ່ອນນີ້, ບໍ່ແມ່ນທີ່ຢູ່ທີ່ເຊື່ອມຕໍ່ກັບບໍລິສັດຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1343,12 +2165,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Expand your knowledge of various business industries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂະຫຍາຍຄວາມຮູ້ຂອງທ່ານໃນຂະແໜງທຸລະກິດຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__expected_employees
 msgid "Expected number of employees for this job position after new recruitment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານທີ່ຄາດຫວັງສຳລັບຕຳແໜ່ງງານນີ້ ຫຼັງຈາກການຮັບສະໝັກໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1359,33 +2189,57 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Experience in writing online content"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີປະສົບການໃນການຂຽນເນື້ອຫາອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_developer
 msgid "Experienced Developer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນັກພັດທະນາທີ່ມີປະສົບການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Family Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະຄອບຄົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__female
 msgid "Female"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍິງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_field
 #: model:ir.model.fields,field_description:hr.field_res_users__study_field
 msgid "Field of Study"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາຂາການຮຽນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_fired
 msgid "Fired"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກໄລ່ອອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_follower_ids
@@ -1393,7 +2247,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_follower_ids
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_partner_ids
@@ -1401,24 +2259,41 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_partner_ids
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_type_icon
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ: fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/discuss_channel.py:0
 msgid "For %(channels)s, channel_type should be 'channel' to have the department auto-subscription."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສຳລັບ %(channels)s, channel_type ຄວນເປັນ 'channel' ເພື່ອໃຫ້ມີການຕິດຕາມພະແນກໂດຍອັດຕະໂນ"
+"ມັດ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__freelance
 msgid "Freelancer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຮັດວຽກອິດສະຫຼະ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1429,28 +2304,48 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Fruit, coffee and <br>snacks provided."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີໝາກໄມ້, ກາເຟ ແລະ <br>ອາຫານຫວ່າງໃຫ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__gender
 #: model:ir.model.fields,field_description:hr.field_res_users__gender
 msgid "Gender"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Generate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_departure_wizard_view_form
 msgid "Give more details about the reason of archiving the employee."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຫ້ລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບເຫດຜົນໃນການເກັບມ້ຽນຂໍ້ມູນພະນັກງານ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1461,12 +2356,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Google Adwords experience"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີປະສົບການ Google Adwords"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__graduate
 msgid "Graduate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈົບການສຶກສາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1477,30 +2380,50 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Great team of smart people, in a friendly and open culture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີມງານທີ່ເກັ່ງ, ຢູ່ໃນວັດທະນະທຳທີ່ເປັນກັນເອງ ແລະ ເປີດກວ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_discuss_channel__subscription_department_ids
 msgid "HR Departments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກບຸກຄະລາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.server,name:hr.ir_cron_data_check_work_permit_validity_ir_actions_server
 msgid "HR Employee: check work permit validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານ HR: ກວດສອບອາຍຸການໃຊ້ງານຂອງໃບອະນຸຍາດເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "HR Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ HR"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__has_message
@@ -1508,7 +2431,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__has_message
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1519,30 +2446,50 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Highly creative and autonomous"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຄວາມຄິດສ້າງສັນສູງ ແລະ ເປັນອິດສະຫຼະ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_hired_employee
 msgid "Hired Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທີ່ຖືກຈ້າງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__km_home_work
 #: model:ir.model.fields,field_description:hr.field_res_users__km_home_work
 msgid "Home-Work Distance"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະທາງ ບ້ານ-ບ່ອນເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_homeworking
 msgid "Homeworking"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຮັດວຽກຢູ່ບ້ານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_icon_display
 msgid "Hr Icon Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສະແດງໄອຄອນ HR"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__hr_presence_state
@@ -1550,17 +2497,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__hr_presence_state
 #: model:ir.model.fields,field_description:hr.field_res_users__hr_presence_state
 msgid "Hr Presence State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະການມາເຮັດວຽກ HR"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_main
 msgid "Human Resources"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັບພະຍາກອນມະນຸດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_hrm
 msgid "Human Resources Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການຝ່າຍຊັບພະຍາກອນມະນຸດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__id
@@ -1577,36 +2536,60 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__id
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ (ID)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__id_card
 msgid "ID Card Copy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເນົາບັດປະຈຳຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__barcode
 #: model:ir.model.fields,help:hr.field_res_users__barcode
 msgid "ID used for employee identification."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດທີ່ໃຊ້ສຳລັບການຢືນຢືນຕົວຕົນຂອງພະນັກງານ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_exception_icon
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_exception_icon
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນເພື່ອສະແດງເຖິງກິດຈະກຳທີ່ຍົກເວັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__identification_id
 #: model:ir.model.fields,field_description:hr.field_res_users__identification_id
 msgid "Identification No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກບັດປະຈຳຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_needaction
@@ -1614,7 +2597,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr.field_hr_job__message_needaction
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍຕິກ, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງໄດ້ຮັບຄວາມສົນໃຈຈາກທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_has_error
@@ -1622,59 +2609,99 @@ msgstr ""
 #: model:ir.model.fields,help:hr.field_hr_job__message_has_error
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍຕິກ, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__active
 msgid "If the active field is set to False, it will allow you to hide the resource record without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າຟິວການໃຊ້ງານຖືກຕັ້ງເປັນ False, ມັນຈະຊ່ວຍໃຫ້ທ່ານເຊື່ອງຂໍ້ມູນຊັບພະຍາກອນໄດ້ໂດຍບໍ່ຕ້ອງລຶບມັນອອກ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__private_car_plate
 msgid "If you have more than one car, just separate the plates by a space."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າທ່ານມີລົດຫຼາຍກວ່າໜຶ່ງຄັນ, ພຽງແຕ່ແຍກປ້າຍທະບຽນດ້ວຍການເວັ້ນວ່າງ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_1920
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_1920
 msgid "Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_1024
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_1024
 msgid "Image 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ 1024"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_128
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_128
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__image_128
 msgid "Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ 128"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_256
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_256
 msgid "Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ 256"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__image_512
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__image_512
 msgid "Image 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ 512"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "Import Template for Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມການນຳເຂົ້າສຳລັບພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_interim
 msgid "Interim"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວຄາວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_is_follower
@@ -1682,24 +2709,40 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_is_follower
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__is_system
 msgid "Is System"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_tree
 msgid "Job"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__description
 msgid "Job Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_job
@@ -1711,18 +2754,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Job Position"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_hr_job
 #: model:ir.ui.menu,name:hr.menu_view_hr_job
 msgid "Job Positions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "Job Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສັງລວມຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__job_title
@@ -1731,24 +2786,40 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_res_users__job_title
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 msgid "Job Title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__jobs_ids
 #: model_terms:ir.ui.view,arch_db:hr.view_job_filter
 msgid "Jobs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__lang
 msgid "Lang"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາສາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Language"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາສາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__last_activity
@@ -1756,7 +2827,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity
 #: model:ir.model.fields,field_description:hr.field_res_users__last_activity
 msgid "Last Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳຫຼ້າສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__last_activity_time
@@ -1764,7 +2839,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__last_activity_time
 #: model:ir.model.fields,field_description:hr.field_res_users__last_activity_time
 msgid "Last Activity Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາກິດຈະກຳຫຼ້າສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__write_uid
@@ -1781,7 +2860,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__write_uid
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__write_date
@@ -1798,12 +2881,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__write_date
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຊັກຊ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.plan_wizard_action
@@ -1811,13 +2902,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_tree
 msgid "Launch Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/wizard/hr_plan_wizard.py:0
 msgid "Launch Plans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1828,44 +2927,77 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Lead the entire sales cycle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳພາຮອບວຽນການຂາຍທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__cohabitant
 msgid "Legal Cohabitant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຢູ່ຮ່ວມກັນຕາມກົດໝາຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
 msgid "Let's create a job position."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາສ້າງຕຳແໜ່ງງານນຳກັນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__location_number
 msgid "Location Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກທີສະຖານທີ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_hrm
 msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Lorem Ipsum ແມ່ນພຽງແຕ່ຂໍ້ຄວາມສົມມຸດທີ່ໃຊ້ໃນອຸດສາຫະກໍາການພິມ ແລະ ການຈັດພິມ. Lorem Ipsum ໄດ້ເປັ"
+"ນຂໍ້ຄວາມມາດຕະຖານຂອງອຸດສາຫະກໍາມາຕັ້ງແຕ່ຊຸມປີ 1500..."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__message_main_attachment_id
 msgid "Main Attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ຄັດຕິດຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__male
 msgid "Male"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊາຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__manager_id
@@ -1877,40 +3009,68 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_plan_activity_type.py:0
 msgid "Manager of employee %s is not set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການຂອງພະນັກງານ %s ຍັງບໍ່ທັນໄດ້ກຳນົດ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__marital
 #: model:ir.model.fields,field_description:hr.field_res_users__marital
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Marital Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະພາບການສົມລົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_marketing
 msgid "Marketing and Community Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການຝ່າຍການຕະຫຼາດ ແລະ ຊຸມຊົນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__married
 msgid "Married"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຕ່ງງານແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__master
 msgid "Master"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະລິນຍາໂທ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__master_department_id
 msgid "Master Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1921,24 +3081,40 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Master demos of our software"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຳນານການສາທິດຊອບແວຂອງພວກເຮົາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__member_of_department
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__member_of_department
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__member_of_department
 msgid "Member of department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະມາຊິກຂອງພະແນກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__member_ids
 msgid "Members"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະມາຊິກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_ir_ui_menu
 msgid "Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມນູ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_has_error
@@ -1946,7 +3122,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_has_error
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_ids
@@ -1954,7 +3134,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_ids
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -1965,31 +3149,51 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Must Have"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິ່ງທີ່ຕ້ອງມີ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__my_activity_date_deadline
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາກິດຈະກຳຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "My Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/user_menu/my_profile.js:0
 msgid "My Profile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂປຣໄຟລ໌ຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_search
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "My Team"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີມຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__name
@@ -1997,12 +3201,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__name
 #: model:ir.model.fields,field_description:hr.field_hr_plan__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__country_id
 msgid "Nationality (Country)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສັນຊາດ (ປະເທດ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2013,36 +3225,60 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Negotiate and contract"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈລະຈາ ແລະ ເຮັດສັນຍາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_calendar_event_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການປະຕິທິນກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_date_deadline
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_summary
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສັງລວມກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_type_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_employee_activity_kanban
 msgid "Next Activity:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳຖັດໄປ:"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2053,7 +3289,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Nice to have"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າມີກໍຈະດີ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2065,12 +3305,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "No dumb managers, no stupid tools to use, no rigid working hours"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ມີຜູ້ຈັດການທີ່ໄຮ້ສາລະ, ບໍ່ມີເຄື່ອງມືທີ່ຍຸ້ງຍາກ, ບໍ່ມີໂມງເຮັດວຽກທີ່ຕາຍຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_plan_activity_type.py:0
 msgid "No specific user given on activity %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີການລະບຸຜູ້ໃຊ້ສະເພາະໃນກິດຈະກຳ %s."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2082,22 +3330,38 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "No waste of time in enterprise processes, real responsibilities and autonomy"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ເສຍເວລາກັບຂັ້ນຕອນອົງກອນ, ມີຄວາມຮັບຜິດຊອບ ແລະ ອິດສະຫຼະໃນການເຮັດວຽກຕົວຈິງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Not available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ວ່າງ / ບໍ່ມີ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__note
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__note
 msgid "Note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__notes
 msgid "Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_needaction_counter
@@ -2105,18 +3369,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_needaction_counter
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__children
 #: model:ir.model.fields,field_description:hr.field_res_users__children
 msgid "Number of Dependent Children"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນບຸດໃນຄວາມອຸປະຖຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_employee
 msgid "Number of employees currently occupying this job position."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານທີ່ດຳລົງຕຳແໜ່ງນີ້ໃນປັດຈຸບັນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__message_has_error_counter
@@ -2124,12 +3400,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_job__message_has_error_counter
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_hired_employee
 msgid "Number of hired employees for this job position during recruitment phase."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານທີ່ຮັບເຂົ້າເຮັດວຽກໃນຕຳແໜ່ງນີ້ໃນໄລຍະການຮັບສະໝັກ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_needaction_counter
@@ -2137,7 +3421,11 @@ msgstr ""
 #: model:ir.model.fields,help:hr.field_hr_job__message_needaction_counter
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__message_needaction_counter
 msgid "Number of messages which requires an action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງມີການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_department__message_has_error_counter
@@ -2145,19 +3433,31 @@ msgstr ""
 #: model:ir.model.fields,help:hr.field_hr_job__message_has_error_counter
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_job__no_of_recruitment
 msgid "Number of new employees you expect to recruit."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານໃໝ່ທີ່ທ່ານຄາດວ່າຈະຮັບສະໝັກ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__related_contacts_count
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__related_contacts_count
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__related_contacts_count
 msgid "Number of related contacts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຜູ້ຕິດຕໍ່ທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
@@ -2166,6 +3466,12 @@ msgid ""
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໂຄງສ້າງພະແນກຂອງ Odoo ແມ່ນໃຊ້ເພື່ອຈັດການເອກະສານທັງໝົດ\n"
+"ທີ່ກ່ຽວຂ້ອງກັບພະນັກງານແຍກຕາມພະແນກ: ຄ່າໃຊ້ຈ່າຍ, ຕາຕະລາງເວລາ,\n"
+"ການລາພັກ, ການຮັບສະໝັກພະນັກງານ ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
@@ -2174,34 +3480,60 @@ msgid ""
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໂຄງສ້າງພະແນກຂອງ Odoo ແມ່ນໃຊ້ເພື່ອຈັດການເອກະສານທັງໝົດ\n"
+"ທີ່ກ່ຽວຂ້ອງກັບພະນັກງານແຍກຕາມພະແນກ: ຄ່າໃຊ້ຈ່າຍ, ຕາຕະລາງເວລາ,\n"
+"ການລາພັກ, ການຮັບສະໝັກພະນັກງານ ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,name:hr.group_hr_user
 msgid "Officer: Manage all employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າໜ້າທີ່: ຈັດການພະນັກງານທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_plan_plan
 msgid "On/Offboarding Plans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນການຮັບພະນັກງານໃໝ່/ແຜນອອກວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee_base.py:0
 msgid "Operation not supported"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການດຳເນີນການບໍ່ຮອງຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__certificate__other
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__gender__other
 #: model:ir.model.fields.selection,name:hr.selection__hr_plan_activity_type__responsible__other
 msgid "Other"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອື່ນໆ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__responsible_id
 msgid "Other Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບອື່ນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2212,40 +3544,69 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Our Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜະລິດຕະພັນຂອງພວກເຮົາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__pin
 #: model:ir.model.fields,field_description:hr.field_res_users__pin
 msgid "PIN"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ PIN"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "PIN Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ PIN"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__pin
 #: model:ir.model.fields,help:hr.field_res_users__pin
 msgid "PIN used to Check In/Out in the Kiosk Mode of the Attendance application (if enabled in Configuration) and to change the cashier in the Point of Sale application."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະຫັດ PIN ທີ່ໃຊ້ເພື່ອລົງທະບຽນເຂົ້າ/ອອກ ໃນໂໝດ Kiosk ຂອງແອັບຯການເຂົ້າຮ່ວມ ແລະ ເພື່ອປ່ຽນພະນັກງານຂ"
+"າຍໃນແອັບຯ POS."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_id
 msgid "Parent Department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກແມ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__parent_path
 msgid "Parent Path"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເສັ້ນທາງແມ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__user_partner_id
 #: model:ir.model.fields,help:hr.field_hr_employee_public__user_partner_id
 msgid "Partner-related data of the user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນທີ່ກ່ຽວຂ້ອງກັບຄູ່ຄ້າຂອງຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2256,18 +3617,30 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Passion for software products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຄວາມມັກຮັກໃນຜະລິດຕະພັນຊອບແວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__passport_id
 #: model:ir.model.fields,field_description:hr.field_res_users__passport_id
 msgid "Passport No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກທີໜັງສືຜ່ານແດນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Payroll"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີເງິນເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2278,7 +3651,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Perfect written English"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທັກສະການຂຽນພາສາອັງກິດທີ່ດີເລີດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2289,12 +3666,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Perks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິດທິປະໂຫຍດເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_permanent
 msgid "Permanent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖາວອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2305,25 +3690,41 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Personal Evolution"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການພັດທະນາຕົນເອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid "Personal information update."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຂໍ້ມູນສ່ວນຕົວ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__place_of_birth
 #: model:ir.model.fields,field_description:hr.field_res_users__place_of_birth
 msgid "Place of Birth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ເກີດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_plan_employee_activity
@@ -2332,44 +3733,76 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__plan_id
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_view_search
 msgid "Plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_plan_activity_type_action
 msgid "Plan Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວາງແຜນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_view_form
 msgid "Plan Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_plan_wizard
 msgid "Plan Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສ້າງແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_plan_activity_type
 msgid "Plan activity type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳຂອງແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_view_form
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_view_tree
 msgid "Planning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການວາງແຜນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_plan_action
 #: model_terms:ir.ui.view,arch_db:hr.view_department_form
 msgid "Plans"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__plans_count
 msgid "Plans Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2380,7 +3813,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Play any sport with colleagues, <br>the bill is covered."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼິ້ນກິລາໃດກໍໄດ້ກັບເພື່ອນຮ່ວມງານ, <br>ພວກເຮົາຈ່າຍຄ່າໃຊ້ຈ່າຍໃຫ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_mail_alias__alias_contact
@@ -2390,21 +3827,40 @@ msgid ""
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ນະໂຍບາຍໃນການສົ່ງຂໍ້ຄວາມລົງໃນເອກະສານໂດຍຜ່ານ mailgateway.\n"
+"- everyone: ທຸກຄົນສາມາດສົ່ງຂໍ້ຄວາມໄດ້\n"
+"- partners: ສະເພາະຄູ່ຄ້າທີ່ໄດ້ຮັບການຢືນຢັນຕົວຕົນແລ້ວ\n"
+"- followers: ສະເພາະຜູ້ຕິດຕາມເອກະສານທີ່ກ່ຽວຂ້ອງ ຫຼື ສະມາຊິກຂອງຊ່ອງທາງທີ່ຕິດຕາມຢູ່\n"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence Control"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຄວບຄຸມການມາເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence of employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການມາເຮັດວຽກຂອງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Presence reporting screen, email and IP address control."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜ້າຈໍລາຍງານການມາເຮັດວຽກ, ການຄວບຄຸມອີເມລ໌ ແລະ ທີ່ຢູ່ IP."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_present
@@ -2414,88 +3870,152 @@ msgstr ""
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_present
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__present
 msgid "Present"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_absent_active
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__hr_icon_display__presence_absent_active
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_absent_active
 msgid "Present but not active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢູ່ແຕ່ບໍ່ມີການເຄື່ອນໄຫວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.report,name:hr.hr_employee_print_badge
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Print Badge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມບັດປະຈຳຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Private Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_car_plate
 msgid "Private Car Plate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກທະບຽນລົດສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_city
 msgid "Private City"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມືອງ (ສ່ວນຕົວ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຕິດຕໍ່ສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_country_id
 msgid "Private Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດ (ສ່ວນຕົວ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__private_email
 #: model:ir.model.fields,field_description:hr.field_res_users__private_email
 msgid "Private Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມລ໌ສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Private Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__phone
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_phone
 msgid "Private Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_state_id
 msgid "Private State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຂວງ (ສ່ວນຕົວ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_street
 msgid "Private Street"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖະໜົນ (ສ່ວນຕົວ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_street2
 msgid "Private Street2"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖະໜົນ 2 (ສ່ວນຕົວ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__private_zip
 msgid "Private Zip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດໄປສະນີ (ສ່ວນຕົວ)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_employee_public
 msgid "Public Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນພະນັກງານທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2506,12 +4026,20 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Qualify the customer needs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄັດເລືອກຄວາມຕ້ອງການຂອງລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.action_hr_job
 msgid "Ready to recruit more efficiently?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພ້ອມທີ່ຈະຮັບສະໝັກພະນັກງານໃຫ້ມີປະສິດທິພາບຫຼາຍຂຶ້ນແລ້ວບໍ່?"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2522,100 +4050,168 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Real responsibilities and challenges in a fast evolving company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມຮັບຜິດຊອບ ແລະ ຄວາມທ້າທາຍຕົວຈິງໃນບໍລິສັດທີ່ພັດທະນາຢ່າງວ່ອງໄວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_departure_reason__name
 msgid "Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_config_recruitment
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "Recruitment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຮັບສະໝັກພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 #: model:ir.actions.act_window,name:hr.hr_departure_wizard_action
 msgid "Register Departure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນການອອກວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__related_contact_ids
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__related_contact_ids
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__related_contact_ids
 msgid "Related Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່ທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee_base.py:0
 msgid "Related Contacts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່ທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_partner.py:0 code:addons/hr/models/res_users.py:0
 msgid "Related Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Related User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_ids
 msgid "Related employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_res_partner__employee_ids
 msgid "Related employees based on their private address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທີ່ກ່ຽວຂ້ອງໂດຍອີງຕາມທີ່ຢູ່ສ່ວນຕົວຂອງພວກເຂົາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__user_id
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__user_id
 #: model:ir.model.fields,help:hr.field_resource_resource__user_id
 msgid "Related user name for the resource to manage its access."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຜູ້ໃຊ້ທີ່ກ່ຽວຂ້ອງສຳລັບຊັບພະຍາກອນເພື່ອຈັດການການເຂົ້າເຖິງ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.hr_menu_hr_reports
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
 msgid "Reporting"
+<<<<<<< HEAD
 msgstr "ບົດລາຍງານ"
+=======
+msgstr "ການລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__requirements
 msgid "Requirements"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ກຳນົດ/ຄຸນສົມບັດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_resigned
 msgid "Resigned"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາອອກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__resource_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__resource_id
 msgid "Resource"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__resource_calendar_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__resource_calendar_id
 msgid "Resource Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_resource_resource
 msgid "Resources"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2626,50 +4222,86 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Responsibilities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__responsible
 msgid "Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__activity_user_id
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.departure.reason,name:hr.departure_retired
 msgid "Retired"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະສຽນອາຍຸ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__sinid
 msgid "SIN No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກບັດປະກັນສັງຄົມ (SIN)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__ssnid
 msgid "SSN No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກບັດປະກັນສັງຄົມ (SSN)"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_users_simple_form
 msgid "Save"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນທຶກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Schedule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕາຕະລາງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__study_school
 #: model:ir.model.fields,field_description:hr.field_res_users__study_school
 msgid "School"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານການສຶກສາ / ໂຮງຮຽນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__coach_id
@@ -2680,62 +4312,107 @@ msgid ""
 "Select the \"Employee\" who is the coach of this employee.\n"
 "The \"Coach\" has no specific rights or responsibilities by default."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເລືອກ \"ພະນັກງານ\" ຜູ້ທີ່ເປັນຄູຝຶກໃຫ້ກັບພະນັກງານຜູ້ນີ້. \"ຄູຝຶກ\" ບໍ່ມີສິດ ຫຼື ຄວາມຮັບຜິດຊອບສະເພາະໃດໆໂດ"
+"ຍຄ່າເລີ່ມຕົ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_contract_type__sequence
 #: model:ir.model.fields,field_description:hr.field_hr_departure_reason__sequence
 #: model:ir.model.fields,field_description:hr.field_hr_job__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Set default company schedule to manage your employees working time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກໍານົດຕາຕະລາງບໍລິສັດເລີ່ມຕົ້ນເພື່ອຈັດການເວລາເຮັດວຽກຂອງພະນັກງານຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_config_settings_action
 #: model:ir.ui.menu,name:hr.hr_menu_configuration
 msgid "Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__show_hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__show_hr_icon_display
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__show_hr_icon_display
 msgid "Show Hr Icon Display"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງໄອຄອນ HR"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/components/department_chart/department_chart.xml:0
 msgid "Show employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__single
 msgid "Single"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂສດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_skills
 msgid "Skills Management"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດການທັກສະ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__sinid
 msgid "Social Insurance Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກປະກັນສັງຄົມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__ssnid
 msgid "Social Security Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກປະກັນສັງຄົມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_plan_activity_type__responsible_id
 msgid "Specific responsible of activity if not linked to the employee."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບກິດຈະກຳສະເພາະ ຖ້າບໍ່ໄດ້ເຊື່ອມໂຍງກັບພະນັກງານ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2746,30 +4423,50 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Sport Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳກິລາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_birthdate
 #: model:ir.model.fields,field_description:hr.field_res_users__spouse_birthdate
 msgid "Spouse Birthdate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນເດືອນປີເກີດຂອງຄູ່ສົມລົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__spouse_complete_name
 #: model:ir.model.fields,field_description:hr.field_res_users__spouse_complete_name
 msgid "Spouse Complete Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ເຕັມຂອງຄູ່ສົມລົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຂວງ / ສະຖານະ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Status"
+<<<<<<< HEAD
 msgstr "ສະພາບ"
+=======
+msgstr "ສະຖານະ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_state
@@ -2780,21 +4477,38 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະໂດຍອີງຕາມກິດຈະກຳ. ກາຍກຳນົດ: ວັນຄົບກຳນົດໄດ້ຜ່ານໄປແລ້ວ. ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້. ວາງແຜນ"
+"ແລ້ວ: ກິດຈະກຳໃນອະນາຄົດ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_plan__steps_count
 msgid "Steps Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Street 2..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖະໜົນ 2..."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "Street..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖະໜົນ..."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2805,28 +4519,48 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Strong analytical skills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທັກສະການວິເຄາະທີ່ເຂັ້ມແຂງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__student
 msgid "Student"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນັກສຶກສາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_plan_activity_type__summary
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__summary
 msgid "Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສັງລວມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_category__name
 msgid "Tag Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_category_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແທັກນີ້ມີແລ້ວ!"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__category_ids
@@ -2834,12 +4568,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__no_of_recruitment
 msgid "Target"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປົ້າໝາຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -2850,27 +4592,47 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Technical Expertise"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມຊ່ຽວຊານດ້ານເຕັກນິກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__create_employee_id
 msgid "Technical field, bind user to this employee on create"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟີວເຕັກນິກ, ເຊື່ອມໂຍງຜູ້ໃຊ້ກັບພະນັກງານຜູ້ນີ້ໃນເວລາສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__create_employee
 msgid "Technical field, whether to create an employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟີວເຕັກນິກ, ລະບຸວ່າຈະສ້າງພະນັກງານຫຼືບໍ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.contract.type,name:hr.contract_type_temporary
 msgid "Temporary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວຄາວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_employee_barcode_uniq
 msgid "The Badge ID must be unique, this one is already assigned to another employee."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດບັດຕ້ອງບໍ່ຊ້ຳກັນ, ລະຫັດນີ້ໄດ້ຖືກມອບໝາຍໃຫ້ພະນັກງານຄົນອື່ນແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__company_country_code
@@ -2878,159 +4640,267 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະຫັດປະເທດ ISO ເປັນສອງຕົວອັກສອນ. ທ່ານສາມາດໃຊ້ຟີວນີ້ເພື່ອການຄົ້ນຫາແບບວ່ອງໄວ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "The PIN must be a sequence of digits."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ PIN ຕ້ອງເປັນລຳດັບຂອງຕົວເລກ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_plan_activity_type.py:0
 msgid "The employee %s should be linked to a user."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານ %s ຄວນຈະເຊື່ອມໂຍງກັບຜູ້ໃຊ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__is_address_home_a_company
 #: model:ir.model.fields,field_description:hr.field_res_users__is_address_home_a_company
 msgid "The employee address has a company linked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ຂອງພະນັກງານມີບໍລິສັດທີ່ເຊື່ອມໂຍງຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__employee_type
 #: model:ir.model.fields,help:hr.field_res_users__employee_type
 msgid "The employee type. Although the primary purpose may seem to categorize employees, this field has also an impact in the Contract History. Only Employee type is supposed to be under contract and will have a Contract History."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ປະເພດພະນັກງານ. ຟີວນີ້ຍັງມີຜົນຕໍ່ປະຫວັດສັນຍາ. ສະເພາະປະເພດ \"ພະນັກງານ\" ເທົ່ານັ້ນທີ່ຈະມີປະຫວັດສັນຍາ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/wizard/hr_plan_wizard.py:0
 msgid "The employees should belong to the same company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານຄວນຈະຂຶ້ນກັບບໍລິສັດດຽວກັນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_job_no_of_recruitment_positive
 msgid "The expected number of new employees must be positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານໃໝ່ທີ່ຄາດໄວ້ຕ້ອງເປັນຄ່າບວກ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "The fields \"%s\" you try to read is not available on the public employee profile."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟີວ \"%s\" ທີ່ທ່ານພະຍາຍາມອ່ານແມ່ນບໍ່ມີຢູ່ໃນໂປຣໄຟລ໌ພະນັກງານທົ່ວໄປ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid "The following fields were modified by %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟີວດັ່ງຕໍ່ໄປນີ້ຖືກແກ້ໄຂໂດຍ %s"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_plan_activity_type.py:0
 msgid "The manager of %s should be linked to a user."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດການຂອງ %s ຄວນຈະເຊື່ອມໂຍງກັບຜູ້ໃຊ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.constraint,message:hr.constraint_hr_job_name_company_uniq
 msgid "The name of the job position must be unique per department in company!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຕຳແໜ່ງງານຕ້ອງບໍ່ຊ້ຳກັນຕໍ່ແຕ່ລະພະແນກໃນບໍລິສັດ!"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/wizard/hr_plan_wizard.py:0
 msgid "The plan %s cannot be launched: <br><ul>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນການ %s ບໍ່ສາມາດເລີ່ມໄດ້: <br><ul>"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/wizard/hr_plan_wizard.py:0
 msgid "The plan %s has been started"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນການ %s ໄດ້ເລີ່ມຂຶ້ນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_plan_activity_type.py:0
 msgid "The user of %s's coach is not set."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ເປັນຄູຝຶກຂອງ %s ຍັງບໍ່ທັນໄດ້ກຳນົດ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_user
 msgid "The user will be able to approve document created by employees."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ຈະສາມາດອະນຸມັດເອກະສານທີ່ສ້າງໂດຍພະນັກງານໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid "The user will have access to the human resources configuration as well as statistic reports."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຜູ້ໃຊ້ຈະສາມາດເຂົ້າເຖິງການຕັ້ງຄ່າຊັບພະຍາກອນມະນຸດ ລວມທັງບົດລາຍງານສະຖິຕິຕ່າງໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "The work permit of %(employee)s expires at %(date)s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບອະນຸຍາດເຮັດວຽກຂອງ %(employee)s ຈະໝົດອາຍຸໃນວັນທີ %(date)s."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "This employee already has an user."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານຜູ້ນີ້ມີຜູ້ໃຊ້ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__tz
 #: model:ir.model.fields,help:hr.field_hr_employee_base__tz
 #: model:ir.model.fields,help:hr.field_hr_employee_public__tz
 msgid "This field is used in order to define in which timezone the resources will work."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟີວນີ້ໃຊ້ເພື່ອລະບຸວ່າຊັບພະຍາກອນຈະເຮັດວຽກຢູ່ໃນເຂດເວລາໃດ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__tz
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__tz
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__tz
 msgid "Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_presence_state__to_define
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__hr_presence_state__to_define
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_presence_state__to_define
 msgid "To Define"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພື່ອກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "To avoid multi company issues (losing the access to your previous contracts, leaves, ...), you should create another employee in the new company instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພື່ອຫຼີກເວັ້ນບັນຫາຫຼາຍບໍລິສັດ ທ່ານຄວນສ້າງພະນັກງານຄົນອື່ນໃນບໍລິສັດໃໝ່ແທນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_to_define
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__hr_icon_display__presence_to_define
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_to_define
 msgid "To define"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພື່ອກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department__total_employee
 msgid "Total Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job__expected_employees
 msgid "Total Forecasted Employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນພະນັກງານທີ່ຄາດການໄວ້ທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:hr.job,name:hr.job_trainee
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__employee_type__trainee
 msgid "Trainee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານຝຶກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3041,20 +4911,32 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Trainings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຝຶກອົບຮົມ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__activity_exception_decoration
 #: model:ir.model.fields,help:hr.field_hr_plan_employee_activity__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__hr_icon_display__presence_undetermined
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_base__hr_icon_display__presence_undetermined
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee_public__hr_icon_display__presence_undetermined
 msgid "Undetermined"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ທັນກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_department_filter
@@ -3071,24 +4953,40 @@ msgstr "ຂໍ້ຄວາມບໍ່ໄດ້ອ່ານ"
 #: model:ir.model.fields,field_description:hr.field_hr_plan_employee_activity__user_id
 #: model:ir.model.fields,field_description:hr.field_resource_resource__user_id
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__user_partner_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__user_partner_id
 msgid "User's partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູ່ຄ້າຂອງຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_job_view_kanban
 msgid "Vacancies:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຳແໜ່ງວ່າງ:"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_company__hr_presence_control_ip_list
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__hr_presence_control_ip_list
 msgid "Valid IP addresses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ IP ທີ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3099,26 +4997,42 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "Valid work permit for Belgium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບອະນຸຍາດເຮັດວຽກທີ່ຖືກຕ້ອງສຳລັບປະເທດແບນຊິກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_expire
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_expire
 msgid "Visa Expire Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນໝົດອາຍຸວີຊາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__visa_no
 #: model:ir.model.fields,field_description:hr.field_res_users__visa_no
 msgid "Visa No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກທີວີຊາ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 #: model:ir.model.fields,field_description:hr.field_hr_plan_wizard__warning
 msgid "Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3129,7 +5043,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "What We Offer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິ່ງທີ່ພວກເຮົາສະເໜີໃຫ້"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,website_description:hr.job_ceo
@@ -3140,7 +5058,11 @@ msgstr ""
 #: model_terms:hr.job,website_description:hr.job_marketing
 #: model_terms:hr.job,website_description:hr.job_trainee
 msgid "What's great in the job?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິ່ງທີ່ດີໃນວຽກນີ້ແມ່ນຫຍັງ?"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,help:hr.field_hr_employee__member_of_department
@@ -3148,11 +5070,19 @@ msgstr ""
 #: model:ir.model.fields,help:hr.field_hr_employee_public__member_of_department
 msgid "Whether the employee is a member of the active user's department or one of it's child department."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະບຸວ່າພະນັກງານເປັນສະມາຊິກຂອງພະແນກທີ່ກຳລັງໃຊ້ງານຢູ່ ຫຼື ພະແນກຍ່ອຍຫຼືບໍ່."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__widower
 msgid "Widower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພໍ່ໝ້າຍ / ແມ່ໝ້າຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
@@ -3162,6 +5092,12 @@ msgid ""
 "                    can easily find all the information you need for each person;\n"
 "                    contact data, job position, availability, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພຽງແຕ່ເບິ່ງຜ່ານໆໃນໜ້າຈໍພະນັກງານຂອງ Odoo, ທ່ານ\n"
+"ກໍສາມາດຊອກຫາຂໍ້ມູນທັງໝົດທີ່ທ່ານຕ້ອງການສຳລັບແຕ່ລະຄົນໄດ້ຢ່າງງ່າຍດາຍ;\n"
+"ຂໍ້ມູນຕິດຕໍ່, ຕຳແໜ່ງງານ, ຄວາມພ້ອມໃນການເຮັດວຽກ ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
@@ -3170,6 +5106,12 @@ msgid ""
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພຽງແຕ່ເບິ່ງຜ່ານໆໃນໜ້າຈໍພະນັກງານຂອງ Odoo, ທ່ານ\n"
+"ກໍສາມາດຊອກຫາຂໍ້ມູນທັງໝົດທີ່ທ່ານຕ້ອງການສຳລັບແຕ່ລະຄົນໄດ້ຢ່າງງ່າຍດາຍ;\n"
+"ຂໍ້ມູນຕິດຕໍ່, ຕຳແໜ່ງງານ, ຄວາມພ້ອມໃນການເຮັດວຽກ ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__address_id
@@ -3178,14 +5120,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_work_location__address_id
 #: model:ir.model.fields,field_description:hr.field_res_users__address_id
 msgid "Work Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ບ່ອນເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_contact_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_base__work_contact_id
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_contact_id
 msgid "Work Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຕິດຕໍ່ບ່ອນເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_email
@@ -3193,14 +5143,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_email
 #: model:ir.model.fields,field_description:hr.field_res_users__work_email
 msgid "Work Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມລ໌ບ່ອນເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນບ່ອນເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_work_location
@@ -3212,13 +5170,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_form_view
 #: model_terms:ir.ui.view,arch_db:hr.hr_work_location_tree_view
 msgid "Work Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.hr_work_location_action
 #: model:ir.ui.menu,name:hr.menu_hr_work_location_tree
 msgid "Work Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__mobile_phone
@@ -3226,35 +5192,59 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__mobile_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__mobile_phone
 msgid "Work Mobile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບມືຖືບ່ອນເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_config_settings_view_form
 msgid "Work Organization"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດຕັ້ງວຽກງານ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__has_work_permit
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 #: model_terms:ir.ui.view,arch_db:hr.view_employee_form
 msgid "Work Permit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບອະນຸຍາດເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_expiration_date
 msgid "Work Permit Expiration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນໝົດອາຍຸໃບອະນຸຍາດເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__permit_no
 #: model:ir.model.fields,field_description:hr.field_res_users__permit_no
 msgid "Work Permit No"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກທີໃບອະນຸຍາດເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_permit_scheduled_activity
 msgid "Work Permit Scheduled Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ວາງແຜນໄວ້ສຳລັບໃບອະນຸຍາດເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__work_phone
@@ -3262,36 +5252,61 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__work_phone
 #: model:ir.model.fields,field_description:hr.field_res_users__work_phone
 msgid "Work Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບບ່ອນເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee__resource_calendar_id
 msgid "Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_users.py:0
 msgid "You are only allowed to update your preferences. Please contact a HR officer to update other information."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານໄດ້ຮັບອະນຸຍາດໃຫ້ອັບເດດສະເພາະການຕັ້ງຄ່າສ່ວນຕົວຂອງທ່ານເທົ່ານັ້ນ. ກະລຸນາຕິດຕໍ່ເຈົ້າໜ້າທີ່ HR ເພື່ອອັບເດດ"
+"ຂໍ້ມູນອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-javascript
 #: code:addons/hr/static/src/thread_service_patch.js:0
 msgid "You can only chat with employees that have a dedicated user."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານສາມາດແຊັດໄດ້ສະເພາະກັບພະນັກງານທີ່ມີຜູ້ໃຊ້ທີ່ຖືກກຳນົດໄວ້ແລ້ວເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_department.py:0
 msgid "You cannot create recursive departments."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດສ້າງພະແນກທີ່ຊ້ອນກັນແບບວົນລູບໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/hr_employee.py:0
 msgid "You do not have access to this document."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ມີສິດເຂົ້າເຖິງເອກະສານນີ້."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_trainee
@@ -3309,12 +5324,32 @@ msgid ""
 "contributing to the set up of a new politic,\n"
 "being involved into satisfaction surveys in order to have a better knowledge of how the support given is seen by the customers."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານມີສ່ວນຮ່ວມໃນການປັບປຸງເຄື່ອງມືການສອນ ແລະ ເຄື່ອງມືກ່ອນການຂາຍ ຫຼັງຈາກການເປີດຕົວ Odoo ເວີຊັນໃໝ່. "
+"ແນ່ນອນວ່າ, ຊອບແວເວີຊັນໃໝ່ໃດໆ ກໍລ້ວນແຕ່ມີການປັບປຸງທີ່ສຳຄັນ ທັງໃນດ້ານໜ້າທີ່ການໃຊ້ງານ, ຄວາມສະດວກໃນກາ"
+"ນນຳໃຊ້ ແລະ ການກຳນົດຄ່າ.\n"
+"ທ່ານຈະຕ້ອງໄດ້ທຳຄວາມຄຸ້ນເຄີຍກັບເຄື່ອງມືທີ່ມີຢູ່ (ປຶ້ມ, ເອກະສານປະກອບການຮຽນ, ສະໄລ້ການນຳສະເໜີຂອງ "
+"Odoo, ເຄື່ອງມືທາງການຄ້າ), ເພື່ອມີສ່ວນຮ່ວມໃນການປັບປຸງເຄື່ອງມືເຫຼົ່ານັ້ນໃຫ້ເໝາະສົມກັບຊອບແວເວີຊັນໃໝ່ ແລະ "
+"ແນ່ນອນວ່າ, ຕ້ອງໄດ້ສະເໜີການປັບປຸງເພື່ອໃຫ້ກວມເອົາຂອບເຂດໃໝ່ໆຂອງຊອບແວ.\n"
+"ທ່ານຈະໄດ້ເຂົ້າຮ່ວມໃນພະແນກຊ່ວຍເຫຼືອການຈັດຕັ້ງປະຕິບັດ. ທີມງານທີ່ມີສະມາຊິກ 3 ຄົນນີ້ ຈະເຮັດວຽກຮ່ວມກັບລູກຄ້າ"
+"ຂອງ Odoo ໃນການຕິດຕັ້ງຊອບແວ. ບົດບາດຂອງທ່ານແມ່ນ ດຳເນີນການສໍາມະນາທາງເວັບ (Webinar) ເພື່ອສະແ"
+"ດງໃຫ້ເຫັນໜ້າທີ່ການໃຊ້ງານຕ່າງໆຂອງຊອບແວ, ມີສ່ວນຮ່ວມໃນການສະໜັບສະໜູນລູກຄ້າ ແລະ ຕອບຄຳຖາມຂອງພວກເຂົ"
+"າ.\n"
+"ທ່ານຊ່ວຍຜູ້ຈັດການຝ່າຍສະໜັບສະໜູນໃນການສ້າງການບໍລິການສະໜັບສະໜູນໃໝ່ ໂດຍການມີສ່ວນຮ່ວມໃນການແກ້ໄຂກໍລະນີບັ"
+"ນຫາໃໝ່ໆ, ປະກອບສ່ວນໃນການວາງນະໂຍບາຍໃໝ່, ມີສ່ວນຮ່ວມໃນການສຳຫຼວດຄວາມເພິ່ງພໍໃຈ ເພື່ອໃຫ້ມີຄວາມເຂົ້າໃ"
+"ຈດີຂຶ້ນກ່ຽວກັບທັດສະນະຂອງລູກຄ້າຕໍ່ກັບການສະໜັບສະໜູນທີ່ໄດ້ຮັບ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/res_config_settings.py:0
 msgid "You should select at least one Advanced Presence Control option."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານຄວນເລືອກຢ່າງໜ້ອຍໜຶ່ງຕົວເລືອກຂອງການຄວບຄຸມການມີໜ້າຂັ້ນສູງ."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:hr.job,description:hr.job_cto
@@ -3323,45 +5358,89 @@ msgid ""
 "\n"
 "The job is located in Grand-Rosière (1367), Belgium (between Louvain-La-Neuve and Namur)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານຈະໄດ້ມີສ່ວນຮ່ວມໃນການບໍລິການໃຫ້ຄຳປຶກສາທີ່ພວກເຮົາສະໜອງໃຫ້ແກ່ຄູ່ຮ່ວມງານ ແລະ ລູກຄ້າ: ການອອກແບບ, "
+"ການວິເຄາະ, ການພັດທະນາ, ການທົດສອບ, ການບໍລິຫານໂຄງການ, ການສະໜັບສະໜູນ/ການສອນວຽກ.\n"
+"ທ່ານຈະໄດ້ເຮັດວຽກຢ່າງເປັນເອກະລາດ ພ້ອມທັງປະສານງານ ແລະ ກວດກາເບິ່ງແຍງທີມພັດທະນາຂະໜາດນ້ອຍທີ່ຢູ່ຕ່າງ"
+"ບ່ອນສຳລັບບາງໂຄງການ.\n"
+"ທ່ານອາດຈະໄດ້ຈັດການຝຶກອົບຮົມ Odoo ໃຫ້ແກ່ຄູ່ຮ່ວມງານ ແລະ ລູກຄ້າ (8-10 ຄົນ/ຄັ້ງ) ຕາມຄວາມເໝາະສົມ.\n"
+"ທ່ານຈະໄດ້ລາຍງານໂດຍກົງຕໍ່ຫົວໜ້າພາກສ່ວນບໍລິການດ້ານວິຊາຊີບ ແລະ ເຮັດວຽກຢ່າງໃກ້ຊິດກັບນັກພັດທະນາ ແລະ ທີ່ປຶ"
+"ກສາທຸກຄົນ.\n"
+"ສະຖານທີ່ເຮັດວຽກແມ່ນຕັ້ງຢູ່ Grand-Rosière (1367), ປະເທດແບນຊິກ (ລະຫວ່າງ Louvain-La-Neuve "
+"ແລະ Namur)."
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.res_users_view_form_profile
 msgid "ZIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດໄປສະນີ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/mail_alias.py:0
 msgid "addresses linked to registered employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ທີ່ເຊື່ອມໂຍງກັບພະນັກງານທີ່ລົງທະບຽນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_department_form
 msgid "department"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະແນກ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_employee_public_view_form
 msgid "e.g. John Doe"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ສົມໄຊ ດີເລີດ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.hr_plan_view_form
 msgid "e.g. Onboarding"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ການຮັບພະນັກງານໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model_terms:ir.ui.view,arch_db:hr.view_hr_job_form
 msgid "e.g. Sales Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ຜູ້ຈັດການຝ່າຍຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #: model:ir.model,name:hr.model_hr_plan
 msgid "plan"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນການ"
+>>>>>>> upstream/18.0
 
 #. module: hr
 #. odoo-python
 #: code:addons/hr/models/models.py:0
 msgid "restricted to employees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳກັດສະເພາະພະນັກງານ"
+>>>>>>> upstream/18.0

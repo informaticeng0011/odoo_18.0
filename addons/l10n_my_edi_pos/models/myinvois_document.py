@@ -233,14 +233,20 @@ class MyInvoisDocument(models.Model):
         if reset == 'year_range':
             company = self.company_id
 <<<<<<< HEAD
+<<<<<<< HEAD
             return date_utils.get_fiscal_year(self.myinvois_issuance_date, day=company.fiscalyear_last_day, month=int(company.fiscalyear_last_month))
 =======
+=======
+>>>>>>> upstream/18.0
             date_start, date_end = date_utils.get_fiscal_year(
                 self.myinvois_issuance_date,
                 day=company.fiscalyear_last_day,
                 month=int(company.fiscalyear_last_month),
             )
             return (date_start, date_end) + (None, None)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         return super()._get_sequence_date_range(reset)
 

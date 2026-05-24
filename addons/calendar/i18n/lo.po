@@ -4,25 +4,45 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2017-11-30 13:12+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
+=======
+"PO-Revision-Date: 2026-05-18 08:46+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/calendar/lo/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_res_partner__meeting_count
 #: model:ir.model.fields,field_description:calendar.field_res_users__meeting_count
 msgid "# Meetings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -31,24 +51,41 @@ msgid ""
 "%(date_start)s at %(time_start)s To\n"
 " %(date_end)s at %(time_end)s (%(timezone)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(date_start)s ເວລາ %(time_start)s ຫາ\n"
+" %(date_end)s ເວລາ %(time_end)s (%(timezone)s)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "%(day)s at (%(start)s To %(end)s) (%(timezone)s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(day)s ເວລາ (%(start)s ຫາ %(end)s) (%(timezone)s)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "%s has accepted the invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ໄດ້ຕອບຮັບການເຊີນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "%s has declined the invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ໄດ້ປະຕິເສດການເຊີນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,body_html:calendar.calendar_template_meeting_changedate
@@ -168,6 +205,185 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
+"'green', 'tentative': '#FFFF00', 'declined': 'red'}\"></t>\n"
+"    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in "
+"object.event_id and object.event_id.appointment_type_id\"></t>\n"
+"    <t t-set=\"customer\" t-value=\"object.event_id.find_partner_customer()"
+"\"></t>\n"
+"    <t t-set=\"target_responsible\" t-value=\"object.partner_id == "
+"object.event_id.partner_id\"></t>\n"
+"    <t t-set=\"target_customer\" t-value=\"object.partner_id == customer\"></"
+"t>\n"
+"     <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get"
+"('calendar_template_ignore_recurrence')\"></t>\n"
+"\n"
+"    <p>\n"
+"        ສະບາຍດີ <t t-out=\"object.common_name or ''\">Ready Mat</t>,<br><br>\n"
+"        <t t-if=\"is_online and target_responsible\">\n"
+"            <t t-if=\"customer\">\n"
+"                ວັນທີນັດໝາຍຂອງທ່ານກັບ <t t-out=\"customer.name or ''\">Jesse "
+"Brown</t> ໄດ້ຖືກອັບເດດແລ້ວ.\n"
+"            </t>\n"
+"            <t t-else=\"\">\n"
+"                ການນັດໝາຍຂອງທ່ານໄດ້ຖືກອັບເດດແລ້ວ.\n"
+"            </t>\n"
+"            ການນັດໝາຍ <strong t-"
+"out=\"object.event_id.appointment_type_id.name or ''\">Schedule a Demo</"
+"strong> ແມ່ນໄດ້ຖືກກຳນົດເວລາໃໝ່ໃນວັນທີ\n"
+"            <t t-out=\"object.event_id.get_display_time_tz"
+"(tz=object.partner_id.tz) or ''\">05/04/2021 at (11:00:00 To 11:30:00) "
+"(Europe/Brussels)</t>\n"
+"        </t>\n"
+"        <t t-elif=\"is_online and target_customer\">\n"
+"            ວັນທີນັດໝາຍຂອງທ່ານກັບ <t t-"
+"out=\"object.event_id.user_id.partner_id.name or ''\">Colleen Diaz</t> ໄດ້ຖືກອັບ"
+"ເດດແລ້ວ.\n"
+"            ການນັດໝາຍ <strong t-"
+"out=\"object.event_id.appointment_type_id.name or ''\"></strong> ແມ່ນໄດ້ຖືກກຳນົດເ"
+"ວລາໃໝ່ໃນວັນທີ\n"
+"            <t t-out=\"object.event_id.get_display_time_tz"
+"(tz=object.partner_id.tz) or ''\">05/04/2021 at (11:00:00 To 11:30:00) "
+"(Europe/Brussels)</t>.\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            ວັນທີຂອງການປະຊຸມໄດ້ຖືກອັບເດດແລ້ວ.\n"
+"            ການປະຊຸມ <strong t-out=\"object.event_id.name or ''\">Follow-up "
+"for Project proposal</strong> ທີ່ສ້າງໂດຍ <t t-"
+"out=\"object.event_id.user_id.partner_id.name or ''\">Colleen Diaz</t> ແມ່ນໄດ້ຖື"
+"ກກຳນົດເວລາໃໝ່ໃນວັນທີ\n"
+"            <t t-out=\"object.event_id.get_display_time_tz"
+"(tz=object.partner_id.tz) or ''\">05/04/2021 at (11:00:00 To 11:30:00) "
+"(Europe/Brussels)</t>.\n"
+"        </t>\n"
+"    </p>\n"
+"    <div style=\"text-align: center; padding: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/calendar/meeting/accept?token={{ "
+"object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: "
+"5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; "
+"border: 1px solid #875A7B; border-radius: 3px\">\n"
+"            ຕອບຮັບ</a>\n"
+"        <a t-attf-href=\"/calendar/meeting/decline?token={{ "
+"object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: "
+"5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; "
+"border: 1px solid #875A7B; border-radius: 3px\">\n"
+"            ປະຕິເສດ</a>\n"
+"        <a t-attf-href=\"/calendar/meeting/view?token={{ "
+"object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: "
+"5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; "
+"border: 1px solid #875A7B; border-radius: 3px\">\n"
+"            ເບິ່ງ</a>\n"
+"    </div>\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr>\n"
+"        <td width=\"130px;\" style=\"min-width: 130px;\">\n"
+"            <div style=\"border-top-start-radius: 3px; border-top-end-"
+"radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; "
+"font-weight: bold; color: #ffffff; min-height: 18px; background-color: "
+"#875A7B; border: 1px solid #875A7B;\">\n"
+"                <t t-out='format_datetime(dt=object.event_id.start, "
+"tz=object.mail_tz if not object.event_id.allday else None, "
+"dt_format=\"EEEE\", lang_code=object.env.lang) or \"\"'>Tuesday</t>\n"
+"            </div>\n"
+"            <div style=\"font-size: 48px; min-height: auto; font-weight: "
+"bold; text-align: center; color: #5F5F5F; background-color: #F8F8F8; border: "
+"1px solid #875A7B;\">\n"
+"                <t t-out=\"str(object.event_id.start.day) or ''\">4</t>\n"
+"            </div>\n"
+"            <div style=\"font-size: 12px; text-align: center; font-weight: "
+"bold; color: #ffffff; background-color: #875A7B;\">\n"
+"                <t t-out='format_datetime(dt=object.event_id.start, "
+"tz=object.mail_tz if not object.event_id.allday else None, dt_format=\"MMMM "
+"y\", lang_code=object.env.lang) or \"\"'>May 2021</t>\n"
+"            </div>\n"
+"            <div style=\"border-collapse: separate; color: #5F5F5F; text-"
+"align: center; font-size: 12px; border-bottom-end-radius: 3px; font-weight: "
+"bold; border: 1px solid #875A7B; border-bottom-start-radius: 3px;\">\n"
+"                 <t t-if=\"not object.event_id.allday\">\n"
+"                    <div>\n"
+"                        <t t-out='format_time(time=object.event_id.start, "
+"tz=object.mail_tz, time_format=\"short\", lang_code=object.env.lang) or "
+"\"\"'>11:00 AM</t>\n"
+"                    </div>\n"
+"                    <t t-if=\"object.mail_tz\">\n"
+"                        <div style=\"font-size: 10px; font-weight: normal\">"
+"\n"
+"                            (<t t-out=\"object.mail_tz or ''\">Europe/"
+"Brussels</t>)\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </t>\n"
+"            </div>\n"
+"        </td>\n"
+"        <td width=\"20px;\"></td>\n"
+"        <td style=\"padding-top: 5px;\">\n"
+"            <p><strong>ລາຍລະອຽດຂອງເຫດການ</strong></p>\n"
+"            <ul>\n"
+"                <t t-if=\"object.event_id.location\">\n"
+"                    <li>ສະຖານທີ່: <t t-out=\"object.event_id.location or ''\">"
+"Bruxelles</t>\n"
+"                        (<a target=\"_blank\" t-attf-href=\"http://"
+"maps.google.com/maps?oi=map&amp;q={{ object.event_id.location }}\">ເບິ່ງແຜນທີ່</"
+"a>)\n"
+"                    </li>\n"
+"                </t>\n"
+"                <t t-if=\"recurrent\">\n"
+"                    <li>ເມື່ອໃດ: <t t-out=\"object.recurrence_id.name or ''\">"
+"Every 1 Weeks, for 3 events</t></li>\n"
+"                </t>\n"
+"                <t t-if=\"not object.event_id.allday and "
+"object.event_id.duration\">\n"
+"                    <li>ໄລຍະເວລາ: <t t-out=\"('%dH%02d' % "
+"(object.event_id.duration,round(object.event_id.duration*60)%60)) or ''\">"
+"0H30</t></li>\n"
+"                </t>\n"
+"                <li>ຜູ້ເຂົ້າຮ່ວມ\n"
+"                <ul>\n"
+"                    <li t-foreach=\"object.event_id.attendee_ids\" t-"
+"as=\"attendee\">\n"
+"                        <div t-attf-style=\"display: inline-block; border-"
+"radius: 50%; width: 10px; height: 10px; background: {{ colors.get"
+"(attendee.state) or 'white' }};\"> </div>\n"
+"                        <t t-if=\"attendee.common_name != "
+"object.common_name\">\n"
+"                            <span style=\"margin-left:5px\" t-"
+"out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <span style=\"margin-left:5px\">ທ່ານ</span>\n"
+"                        </t>\n"
+"                    </li>\n"
+"                </ul></li>\n"
+"                <t t-if=\"object.event_id.videocall_location\">\n"
+"                    <li>\n"
+"                        ວິທີເຂົ້າຮ່ວມ:\n"
+"                        <t t-if=\"object.get_base_url() in "
+"object.event_id.videocall_location\"> ເຂົ້າຮ່ວມດ້ວຍ Odoo Discuss</t>\n"
+"                        <t t-else=\"\"> ເຂົ້າຮ່ວມທີ່</t><br>\n"
+"                        <a t-att-href=\"object.event_id.videocall_location\" "
+"target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">"
+"www.mycompany.com/calendar/join_videocall/xyz</a>\n"
+"                    </li>\n"
+"                </t>\n"
+"                <t t-if=\"not is_html_empty(object.event_id.description)\">\n"
+"                    <li>ຄຳອະທິບາຍຂອງເຫດການ:\n"
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+"                </t>\n"
+"            </ul>\n"
+"        </td>\n"
+"    </tr></table>\n"
+"    <br>\n"
+"    ຂໍຂອບໃຈ,\n"
+"    <t t-if=\"object.event_id.user_id.signature\">\n"
+"        <br>\n"
+"        <t t-out=\"object.event_id.user_id.signature or ''\">--<br>Mitchell "
+"Admin</t>\n"
+"    </t>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,body_html:calendar.calendar_template_meeting_update
@@ -253,6 +469,121 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
+"'green', 'tentative': '#FFFF00', 'declined': 'red'}\"></t>\n"
+"    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in object and "
+"object.appointment_type_id\"></t>\n"
+"    <t t-set=\"target_responsible\" t-value=\"object.partner_id == "
+"object.partner_id\"></t>\n"
+"    <t t-set=\"target_customer\" t-value=\"object.partner_id == customer\"></"
+"t>\n"
+"    <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get"
+"('calendar_template_ignore_recurrence')\"></t>\n"
+"    <t t-set=\"mail_tz\" t-value=\"object._get_mail_tz() or ctx.get"
+"('mail_tz')\"></t>\n"
+"    <div>\n"
+"        <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\">\n"
+"            <tr>\n"
+"                <td width=\"130px;\" style=\"min-width: 130px;\">\n"
+"                    <div style=\"border-top-start-radius: 3px; border-top-"
+"end-radius: 3px; font-size: 12px; border-collapse: separate; text-align: "
+"center; font-weight: bold; color: #ffffff; min-height: 18px; background-"
+"color: #875A7B; border: 1px solid #875A7B;\">\n"
+"                        <t t-out=\"format_datetime(dt=object.start, "
+"tz=mail_tz if not object.allday else None, dt_format='EEEE', "
+"lang_code=object.env.lang) \">ວັນອັງຄານ</t>\n"
+"                    </div>\n"
+"                    <div style=\"font-size: 48px; min-height: auto; font-"
+"weight: bold; text-align: center; color: #5F5F5F; background-color: #F8F8F8; "
+"border: 1px solid #875A7B;\">\n"
+"                        <t t-out=\"format_datetime(dt=object.start, "
+"tz=mail_tz if not object.allday else None, dt_format='d', "
+"lang_code=object.env.lang)\">4</t>\n"
+"                    </div>\n"
+"                    <div style=\"font-size: 12px; text-align: center; font-"
+"weight: bold; color: #ffffff; background-color: #875A7B;\">\n"
+"                        <t t-out=\"format_datetime(dt=object.start, "
+"tz=mail_tz if not object.allday else None, dt_format='MMMM y', "
+"lang_code=object.env.lang)\">ພຶດສະພາ 2021</t>\n"
+"                    </div>\n"
+"                    <div style=\"border-collapse: separate; color: #5F5F5F; "
+"text-align: center; font-size: 12px; border-bottom-end-radius: 3px; font-"
+"weight: bold; border: 1px solid #875A7B; border-bottom-start-radius: 3px;\">"
+"\n"
+"                        <t t-if=\"not object.allday\">\n"
+"                            <div>\n"
+"                                <t t-out=\"format_time(time=object.start, "
+"tz=mail_tz, time_format='short', lang_code=object.env.lang)\">11:00 AM</t>\n"
+"                            </div>\n"
+"                            <t t-if=\"mail_tz\">\n"
+"                                <div style=\"font-size: 10px; font-weight: "
+"normal\">\n"
+"                                    (<t t-out=\"mail_tz\"> Europe/Brussels</"
+"t>)\n"
+"                                </div>\n"
+"                            </t>\n"
+"                        </t>\n"
+"                    </div>\n"
+"                </td>\n"
+"                <td width=\"20px;\"></td>\n"
+"                <td style=\"padding-top: 5px;\">\n"
+"                    <p>\n"
+"                        <strong>ລາຍລະອຽດຂອງກິດຈະກຳ</strong>\n"
+"                    </p>\n"
+"                    <ul>\n"
+"                        <t t-if=\"not is_html_empty(object.description)\">\n"
+"                            <li>ຄຳອະທິບາຍ:\n"
+"                            <t t-out=\"object.description\">ກອງປະຊຸມພາຍໃນເພື່ອປຶກ"
+"ສາຫາລືກ່ຽວກັບການກຳນົດລາຄາໃໝ່ສຳລັບສິນຄ້າ ແລະ ການບໍລິການ.</t></li>\n"
+"                        </t>\n"
+"                        <t t-if=\"object.videocall_location\">\n"
+"                            <li>\n"
+"                                ວິທີເຂົ້າຮ່ວມ:\n"
+"                                <t t-if=\"object.get_base_url() in "
+"object.videocall_location\"> ເຂົ້າຮ່ວມດ້ວຍ Odoo Discuss</t>\n"
+"                                <t t-else=\"\"> ເຂົ້າຮ່ວມທີ່</t><br>\n"
+"                                <a t-att-href=\"object.videocall_location\" "
+"target=\"_blank\" t-out=\"object.videocall_location or ''\">"
+"www.mycompany.com/calendar/join_videocall/xyz</a>\n"
+"                            </li>\n"
+"                        </t>\n"
+"                        <t t-if=\"object.location\">\n"
+"                            <li>ສະຖານທີ່: <t t-out=\"object.location or ''\">"
+"Bruxelles</t>\n"
+"                                (<a target=\"_blank\" t-attf-href=\"http://"
+"maps.google.com/maps?oi=map&amp;q={{object.location}}\">ເບິ່ງແຜນທີ່</a>)\n"
+"                            </li>\n"
+"                        </t>\n"
+"                        <t t-if=\"recurrent\">\n"
+"                            <li>ເມື່ອໃດ: <t t-out=\"object.recurrence_id.name "
+"or ''\">ທຸກໆ 1 ອາທິດ, ສໍາລັບ 3 ກິດຈະກຳ</t></li>\n"
+"                        </t>\n"
+"                        <t t-if=\"not object.allday and object.duration\">\n"
+"                            <li>ໄລຍະເວລາ:\n"
+"                                <t t-out=\"('%dH%02d' % "
+"(object.duration,round(object.duration*60)%60))\">0H30</t>\n"
+"                            </li>\n"
+"                        </t>\n"
+"                    </ul>\n"
+"                </td>\n"
+"            </tr>\n"
+"        </table>\n"
+"    </div>\n"
+"    <div class=\"user_input\">\n"
+"        <hr>\n"
+"        <p placeholder=\"ປ້ອນຂໍ້ຄວາມຂອງທ່ານຢູ່ບ່ອນນີ້\"><br></p>\n"
+"\n"
+"    </div>\n"
+"    <t t-if=\"object.user_id.signature\">\n"
+"        <br>\n"
+"        <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>"
+"\n"
+"    </t>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,body_html:calendar.calendar_template_meeting_invitation
@@ -388,6 +719,208 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
+"'green', 'tentative': '#FFFF00', 'declined': 'red'}\"></t>\n"
+"    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in "
+"object.event_id and object.event_id.appointment_type_id\"></t>\n"
+"    <t t-set=\"customer\" t-value=\" object.event_id.find_partner_customer()"
+"\"></t>\n"
+"    <t t-set=\"target_responsible\" t-value=\"object.partner_id == "
+"object.event_id.partner_id\"></t>\n"
+"    <t t-set=\"target_customer\" t-value=\"object.partner_id == customer\"></"
+"t>\n"
+"    <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get"
+"('calendar_template_ignore_recurrence')\"></t>\n"
+"\n"
+"    <p>\n"
+"        ສະບາຍດີ <t t-out=\"object.common_name or ''\">Wood Corner</t>,<br><br>"
+"\n"
+"\n"
+"        <t t-if=\"is_online and target_customer\">\n"
+"            ການນັດໝາຍຂອງທ່ານ <strong t-"
+"out=\"object.event_id.appointment_type_id.name or ''\">Schedule a Demo</"
+"strong> <t t-if=\"object.event_id.appointment_type_id.category != "
+"'custom'\"> ກັບ <t t-out=\"object.event_id.user_id.name or ''\">Ready Mat</t>"
+"</t> ໄດ້ຖືກຈອງແລ້ວ.\n"
+"            <t t-if=\"is_online and object.state != 'accepted' and "
+"object.event_id.appointment_type_id.resource_manual_confirmation\">\n"
+"                ທ່ານຈະໄດ້ຮັບອີເມວຢືນຢັນພ້ອມກັບລາຍລະອຽດເພີ່ມເຕີມ ເມື່ອການນັດໝາຍຂອງທ່ານໄດ້ຮັບການ"
+"ຢືນຢັນແລ້ວ.\n"
+"            </t>\n"
+"        </t>\n"
+"        <t t-elif=\"is_online and target_responsible\">\n"
+"            <t t-if=\"customer\">\n"
+"                <t t-out=\"customer.name or ''\"></t> ໄດ້ກຳນົດເວລານັດໝາຍ "
+"<strong t-out=\"object.event_id.appointment_type_id.name or ''\">Schedule a "
+"Demo</strong> ກັບທ່ານ.\n"
+"            </t>\n"
+"            <t t-else=\"\">\n"
+"                ການນັດໝາຍຂອງທ່ານ <strong t-"
+"out=\"object.event_id.appointment_type_id.name or ''\">Schedule a Demo</"
+"strong> ໄດ້ຖືກຈອງແລ້ວ.\n"
+"            </t>\n"
+"        </t>\n"
+"        <t t-elif=\"not target_responsible\">\n"
+"            <t t-out=\"object.event_id.user_id.partner_id.name or ''\">"
+"Colleen Diaz</t> ໄດ້ເຊີນທ່ານເຂົ້າຮ່ວມການປະຊຸມ <strong t-out=\"object.event_id.name "
+"or ''\">Follow-up for Project proposal</strong>.\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            ການປະຊຸມຂອງທ່ານ <strong t-out=\"object.event_id.name or ''\">"
+"Follow-up for Project proposal</strong> ໄດ້ຖືກຈອງແລ້ວ.\n"
+"        </t>\n"
+"\n"
+"    </p>\n"
+"    <div style=\"text-align: center; padding: 16px 0px 16px 0px;\">\n"
+"        <t t-if=\"not is_online or object.state != 'accepted'\">\n"
+"            <a t-attf-href=\"/calendar/meeting/accept?token={"
+"{object.access_token}}&amp;id={{object.event_id.id}}\" style=\"padding: 5px "
+"10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; "
+"border: 1px solid #875A7B; border-radius: 3px\">\n"
+"                ຕອບຮັບ</a>\n"
+"            <a t-attf-href=\"/calendar/meeting/decline?token={"
+"{object.access_token}}&amp;id={{object.event_id.id}}\" style=\"padding: 5px "
+"10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; "
+"border: 1px solid #875A7B; border-radius: 3px\">\n"
+"                ປະຕິເສດ</a>\n"
+"        </t>\n"
+"        <a t-attf-href=\"/calendar/meeting/view?token={{object.access_token}}"
+"&amp;id={{object.event_id.id}}\" style=\"padding: 5px 10px; color: #FFFFFF; "
+"text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
+"border-radius: 3px\"><t t-out=\"'ປ່ຽນກຳນົດເວລາ' if is_online and "
+"target_customer else 'ເບິ່ງ'\">View</t></a>\n"
+"    </div>\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr>\n"
+"        <td width=\"130px;\" style=\"min-width: 130px;\">\n"
+"            <div style=\"border-top-start-radius: 3px; border-top-end-"
+"radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; "
+"font-weight: bold; color: #ffffff; min-height: 18px; background-color: "
+"#875A7B; border: 1px solid #875A7B;\">\n"
+"                <t t-out=\"format_datetime(dt=object.event_id.start, "
+"tz=object.mail_tz if not object.event_id.allday else None, dt_format='EEEE', "
+"lang_code=object.env.lang) or ''\">Tuesday</t>\n"
+"            </div>\n"
+"            <div style=\"font-size: 48px; min-height: auto; font-weight: "
+"bold; text-align: center; color: #5F5F5F; background-color: #F8F8F8; border: "
+"1px solid #875A7B;\">\n"
+"                <t t-out=\"str(object.event_id.start.day) or ''\">4</t>\n"
+"            </div>\n"
+"            <div style=\"font-size: 12px; text-align: center; font-weight: "
+"bold; color: #ffffff; background-color: #875A7B;\">\n"
+"                <t t-out=\"format_datetime(dt=object.event_id.start, "
+"tz=object.mail_tz if not object.event_id.allday else None, dt_format='MMMM "
+"y', lang_code=object.env.lang) or ''\">May 2021</t>\n"
+"            </div>\n"
+"            <div style=\"border-collapse: separate; color: #5F5F5F; text-"
+"align: center; font-size: 12px; border-bottom-end-radius: 3px; font-weight: "
+"bold ; border: 1px solid #875A7B; border-bottom-start-radius: 3px;\">\n"
+"                <t t-if=\"not object.event_id.allday\">\n"
+"                    <div>\n"
+"                        <t t-out=\"format_time(time=object.event_id.start, "
+"tz=object.mail_tz, time_format='short', lang_code=object.env.lang) or ''\">"
+"11:00 AM</t>\n"
+"                    </div>\n"
+"                    <t t-if=\"object.mail_tz\">\n"
+"                        <div style=\"font-size: 10px; font-weight: normal\">"
+"\n"
+"                            (<t t-out=\"object.mail_tz or ''\">Europe/"
+"Brussels</t>)\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </t>\n"
+"            </div>\n"
+"        </td>\n"
+"        <td width=\"20px;\"></td>\n"
+"        <td style=\"padding-top: 5px;\">\n"
+"            <p><strong>ລາຍລະອຽດຂອງເຫດການ</strong></p>\n"
+"            <ul>\n"
+"                <t t-if=\"is_online\">\n"
+"                    <li>ປະເພດການນັດໝາຍ: <t t-"
+"out=\"object.event_id.appointment_type_id.name or ''\">Schedule a Demo</t></"
+"li>\n"
+"                </t>\n"
+"                <t t-if=\"object.event_id.location\">\n"
+"                    <li>ສະຖານທີ່: <t t-out=\"object.event_id.location or ''\">"
+"Bruxelles</t>\n"
+"                        (<a target=\"_blank\" t-attf-href=\"http://"
+"maps.google.com/maps?oi=map&amp;q={{object.event_id.location}}\">ເບິ່ງແຜນທີ່</a>)"
+"\n"
+"                    </li>\n"
+"                </t>\n"
+"                <t t-if=\"recurrent\">\n"
+"                    <li>ເວລາ: <t t-out=\"object.recurrence_id.name or ''\">"
+"Every 1 Weeks, for 3 events</t></li>\n"
+"                </t>\n"
+"                <t t-if=\"not object.event_id.allday and "
+"object.event_id.duration\">\n"
+"                    <li>ໄລຍະເວລາ: <t t-out=\"('%dH%02d' % "
+"(object.event_id.duration,round(object.event_id.duration*60)%60)) or ''\">"
+"0H30</t></li>\n"
+"                </t>\n"
+"                <li>ຜູ້ເຂົ້າຮ່ວມ\n"
+"                <ul>\n"
+"                    <li t-foreach=\"object.event_id.attendee_ids\" t-"
+"as=\"attendee\">\n"
+"                        <div t-attf-style=\"display: inline-block; border-"
+"radius: 50%; width: 10px; height: 10px; background:{{ colors.get"
+"(attendee.state) or 'white' }};\"> </div>\n"
+"                        <t t-if=\"attendee.common_name != "
+"object.common_name\">\n"
+"                            <span style=\"margin-left:5px\" t-"
+"out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <span style=\"margin-left:5px\">ທ່ານ</span>\n"
+"                        </t>\n"
+"                    </li>\n"
+"                </ul></li>\n"
+"                <li t-if=\"is_online and "
+"object.event_id.appointment_type_id.resource_manage_capacity\">\n"
+"                    ສຳລັບ: <t t-"
+"out=\"object.event_id.resource_total_capacity_reserved\"></t> ຄົນ\n"
+"                </li>\n"
+"                <li t-if=\"is_online and "
+"object.event_id.appointment_type_id.assign_method != 'time_auto_assign'\">\n"
+"                    ຊັບພະຍາກອນ\n"
+"                    <ul>\n"
+"                        <li t-"
+"foreach=\"object.event_id.appointment_resource_ids\" t-as=\"resource\">\n"
+"                            <span style=\"margin-left:5px\" t-"
+"out=\"resource.name or ''\">Table 1</span>\n"
+"                        </li>\n"
+"                    </ul>\n"
+"                </li>\n"
+"                <t t-if=\"object.event_id.videocall_location\">\n"
+"                    <li>\n"
+"                        ວິທີເຂົ້າຮ່ວມ:\n"
+"                        <t t-if=\"object.get_base_url() in "
+"object.event_id.videocall_location\"> ເຂົ້າຮ່ວມດ້ວຍ Odoo Discuss</t>\n"
+"                        <t t-else=\"\"> ເຂົ້າຮ່ວມທີ່</t><br>\n"
+"                        <a t-att-href=\"object.event_id.videocall_location\" "
+"target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">"
+"www.mycompany.com/calendar/join_videocall/xyz</a>\n"
+"                    </li>\n"
+"                </t>\n"
+"                <t t-if=\"not is_html_empty(object.event_id.description)\">\n"
+"                    <li>ຄຳອະທິບາຍຂອງເຫດການ:\n"
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+"                </t>\n"
+"            </ul>\n"
+"        </td>\n"
+"    </tr></table>\n"
+"    <br>\n"
+"    ຂໍຂອບໃຈ,\n"
+"    <t t-if=\"object.event_id.user_id.signature\">\n"
+"        <br>\n"
+"        <t t-out=\"object.event_id.user_id.signature or ''\">--<br>Mitchell "
+"Admin</t>\n"
+"    </t>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,body_html:calendar.calendar_template_meeting_reminder
@@ -483,212 +1016,506 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div>\n"
+"    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': "
+"'green', 'tentative': '#FFFF00', 'declined': 'red'}\"></t>\n"
+"    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in "
+"object.event_id and object.event_id.appointment_type_id\"></t>\n"
+"    <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get"
+"('calendar_template_ignore_recurrence')\"></t>\n"
+"    <p>\n"
+"        ສະບາຍດີ <t t-out=\"object.common_name or ''\">Gemini Furniture</t>"
+",<br><br>\n"
+"        ນີ້ແມ່ນການແຈ້ງເຕືອນສຳລັບກິດຈະກຳລຸ່ມນີ້:\n"
+"    </p>\n"
+"    <div style=\"text-align: center; padding: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else "
+"'meeting' }}/accept?token={{ object.access_token }}&amp;id={{ "
+"object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
+"decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
+"border-radius: 3px\">\n"
+"            ຕອບຮັບ</a>\n"
+"        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else "
+"'meeting' }}/decline?token={{ object.access_token }}&amp;id={{ "
+"object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-"
+"decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
+"border-radius: 3px\">\n"
+"            ປະຕິເສດ</a>\n"
+"        <a t-attf-href=\"/calendar/meeting/view?token={{ "
+"object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: "
+"5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; "
+"border: 1px solid #875A7B; border-radius: 3px\">\n"
+"            ເບິ່ງ</a>\n"
+"    </div>\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr>\n"
+"        <td width=\"130px;\" style=\"min-width: 130px;\">\n"
+"            <div style=\"border-top-start-radius: 3px; border-top-end-"
+"radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; "
+"font-weight: bold; color: #ffffff; min-height: 18px; background-color: "
+"#875A7B; border: 1px solid #875A7B;\">\n"
+"                <t t-out='format_datetime(dt=object.event_id.start, "
+"tz=object.mail_tz if not object.event_id.allday else None, "
+"dt_format=\"EEEE\", lang_code=object.env.lang) or \"\"'>ວັນອັງຄານ</t>\n"
+"            </div>\n"
+"            <div style=\"font-size: 48px; min-height: auto; font-weight: "
+"bold; text-align: center; color: #5F5F5F; background-color: #F8F8F8; border: "
+"1px solid #875A7B;\">\n"
+"                <t t-out=\"str(object.event_id.start.day) or ''\">4</t>\n"
+"            </div>\n"
+"            <div style=\"font-size: 12px; text-align: center; font-weight: "
+"bold; color: #ffffff; background-color: #875A7B;\">\n"
+"                <t t-out='format_datetime(dt=object.event_id.start, "
+"tz=object.mail_tz if not object.event_id.allday else None, dt_format=\"MMMM "
+"y\", lang_code=object.env.lang) or \"\"'>ພຶດສະພາ 2021</t>\n"
+"            </div>\n"
+"            <div style=\"border-collapse: separate; color: #5F5F5F; text-"
+"align: center; font-size: 12px; border-bottom-end-radius: 3px; font-weight: "
+"bold; border: 1px solid #875A7B; border-bottom-start-radius: 3px;\">\n"
+"                <t t-if=\"not object.event_id.allday\">\n"
+"                    <div>\n"
+"                        <t t-out='format_time(time=object.event_id.start, "
+"tz=object.mail_tz, time_format=\"short\", lang_code=object.env.lang) or "
+"\"\"'>11:00 AM</t>\n"
+"                    </div>\n"
+"                    <t t-if=\"object.mail_tz\">\n"
+"                        <div style=\"font-size: 10px; font-weight: normal\">"
+"\n"
+"                            (<t t-out=\"object.mail_tz or ''\">Europe/"
+"Brussels</t>)\n"
+"                        </div>\n"
+"                    </t>\n"
+"                </t>\n"
+"            </div>\n"
+"        </td>\n"
+"        <td width=\"20px;\"></td>\n"
+"        <td style=\"padding-top: 5px;\">\n"
+"            <p><strong>ລາຍລະອຽດຂອງກິດຈະກຳ</strong></p>\n"
+"            <ul>\n"
+"                <t t-if=\"object.event_id.location\">\n"
+"                    <li>ສະຖານທີ່: <t t-out=\"object.event_id.location or ''\">"
+"Bruxelles</t>\n"
+"                        (<a target=\"_blank\" t-attf-href=\"http://"
+"maps.google.com/maps?oi=map&amp;q={{ object.event_id.location }}\">ເບິ່ງແຜນທີ່</"
+"a>)\n"
+"                    </li>\n"
+"                </t>\n"
+"                <t t-if=\"recurrent\">\n"
+"                    <li>ເມື່ອໃດ: <t t-out=\"object.recurrence_id.name or ''\">ທຸ"
+"ກໆ 1 ອາທິດ, ຈຳນວນ 3 ກິດຈະກຳ</t></li>\n"
+"                </t>\n"
+"                <t t-if=\"not object.event_id.allday and "
+"object.event_id.duration\">\n"
+"                    <li>ໄລຍະເວລາ: <t t-out=\"('%dH%02d' % "
+"(object.event_id.duration,round(object.event_id.duration*60)%60)) or ''\">"
+"0H30</t></li>\n"
+"                </t>\n"
+"                <li>ຜູ້ເຂົ້າຮ່ວມ\n"
+"                <ul>\n"
+"                    <li t-foreach=\"object.event_id.attendee_ids\" t-"
+"as=\"attendee\">\n"
+"                        <div t-attf-style=\"display: inline-block; border-"
+"radius: 50%; width: 10px; height: 10px; background:{{ colors.get"
+"(attendee.state) or 'white' }};\"> </div>\n"
+"                        <t t-if=\"attendee.common_name != "
+"object.common_name\">\n"
+"                            <span style=\"margin-left:5px\" t-"
+"out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
+"                        </t>\n"
+"                        <t t-else=\"\">\n"
+"                            <span style=\"margin-left:5px\">ທ່ານ</span>\n"
+"                        </t>\n"
+"                    </li>\n"
+"                </ul></li>\n"
+"                <t t-if=\"object.event_id.videocall_location\">\n"
+"                    <li>\n"
+"                        ວິທີເຂົ້າຮ່ວມ:\n"
+"                        <t t-if=\"object.get_base_url() in "
+"object.event_id.videocall_location\"> ເຂົ້າຮ່ວມດ້ວຍ Odoo Discuss</t>\n"
+"                        <t t-else=\"\"> ເຂົ້າຮ່ວມທີ່</t><br>\n"
+"                        <a t-att-href=\"object.event_id.videocall_location\" "
+"target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">"
+"www.mycompany.com/calendar/join_videocall/xyz</a>\n"
+"                    </li>\n"
+"                </t>\n"
+"                <t t-if=\"not is_html_empty(object.event_id.description)\">\n"
+"                    <li>ຄຳອະທິບາຍຂອງກິດຈະກຳ:\n"
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+"                </t>\n"
+"            </ul>\n"
+"        </td>\n"
+"    </tr></table>\n"
+"    <br>\n"
+"    ຂໍຂອບໃຈ,\n"
+"    <t t-if=\"object.event_id.user_id.signature\">\n"
+"        <br>\n"
+"        <t t-out=\"object.event_id.user_id.signature or ''\">--<br>Mitchell "
+"Admin</t>\n"
+"    </t>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.res_partner_kanban_view
 msgid "<i class=\"fa fa-fw fa-calendar\" aria-label=\"Meetings\" role=\"img\" title=\"Meetings\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-calendar\" aria-label=\"Meetings\" role=\"img\" "
+"title=\"ການປະຊຸມ\"/>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-plus\"/><span> Add Odoo meeting</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/><span> ເພີ່ມການປະຊຸມ Odoo</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-times\"/><span> Clear meeting</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-times\"/><span> ລຶບການປະຊຸມ</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Google Calendar</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1 o_form_label\">ປະຕິທິນ Google</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "<span class=\"me-1 o_form_label\">Outlook Calendar</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"me-1 o_form_label\">ປະຕິທິນ Outlook</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"oi oi-arrow-right\"/><span> Join video call</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"oi oi-arrow-right\"/><span> ເຂົ້າຮ່ວມວິດີໂອຄໍ</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span> Attendees</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> ຜູ້ເຂົ້າຮ່ວມ</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<span> hours</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> ຊົ່ວໂມງ</span>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "<strong>The following attendees have invalid email addresses and won't receive any email notifications:</strong>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>ຜູ້ເຂົ້າຮ່ວມຕໍ່ໄປນີ້ມີທີ່ຢູ່ອີເມລບໍ່ຖືກຕ້ອງ ແລະ ຈະບໍ່ໄດ້ຮັບການແຈ້ງເຕືອນຜ່ານອີເມລ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.constraint,message:calendar.constraint_calendar_filters_user_id_partner_id_unique
 msgid "A user cannot have the same contact twice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ບໍ່ສາມາດມີລາຍຊື່ຕິດຕໍ່ດຽວກັນສອງຄັ້ງໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Accept"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອບຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__accepted
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__attendee_status__accepted
 msgid "Accepted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອບຮັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__accepted_count
 msgid "Accepted Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ຕອບຮັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_mail_activity_type__category
 msgid "Action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກະທຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_mail_activity_type__category
 msgid "Actions may trigger specific behavior like opening calendar view or automatically mark as done when a document is uploaded"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການກະທຳອາດຈະກະຕຸ້ນພຶດຕິກຳສະເພາະ ເຊັ່ນ: ການເປີດມຸມມອງປະຕິທິນ ຫຼື ໝາຍວ່າສຳເລັດໂດຍອັດຕະໂນມັດ ເມື່ອ"
+"ມີການອັບໂຫລດເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__active
 #: model:ir.model.fields,field_description:calendar.field_calendar_filters__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity
 msgid "Activity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_mixin
 msgid "Activity Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ Mixin"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_activity_type
 msgid "Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Add title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຫົວຂໍ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__body
 msgid "Additional Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_alarm__body
 msgid "Additional message that would be sent with the notification for the reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມເພີ່ມເຕີມທີ່ຈະຖືກສົ່ງໄປພ້ອມກັບການແຈ້ງເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/activity/activity_menu_patch.xml:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__allday
 msgid "All Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝົດມື້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "All Day, %(day)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝົດມື້, %(day)s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__all_events
 msgid "All events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸກເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດເກັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_model.js:0
 msgid "Are you sure you want to delete this record?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບຂໍ້ມູນນີ້?"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__partner_id
 msgid "Attendee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendee_status
 msgid "Attendee Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__partner_ids
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendees_count
 msgid "Attendees Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__availability__free
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__show_as__free
 msgid "Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__availability
 msgid "Available/Busy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວ່າງ/ບໍ່ວ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__awaiting_count
 msgid "Awaiting Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ລໍຖ້າ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__base_event_id
 msgid "Base Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
@@ -697,20 +1524,32 @@ msgstr ""
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__show_as__busy
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Busy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ວ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__byday
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__byday
 msgid "By day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕາມວັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.ui.menu,name:calendar.mail_menu_calendar
 #: model:ir.ui.menu,name:calendar.menu_calendar_configuration
 #: model_terms:ir.ui.view,arch_db:calendar.res_users_view_form
 msgid "Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.action_calendar_alarm
@@ -718,75 +1557,131 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_alarm_view_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_alarm_tree
 msgid "Calendar Alarm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_attendee
 msgid "Calendar Attendee Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຜູ້ເຂົ້າຮ່ວມປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event
 #: model:ir.model.fields,field_description:calendar.field_calendar_popover_delete_wizard__record
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__calendar_event_ids
 msgid "Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_filters
 msgid "Calendar Filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຕອງປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Calendar Invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຊີນປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_mail_activity__calendar_event_id
 msgid "Calendar Meeting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະຊຸມປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_popover_delete_wizard
 msgid "Calendar Popover Delete Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍລຶບປັອບອັບປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_provider_config
 msgid "Calendar Provider Configuration Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍຕັ້ງຄ່າຜູ້ໃຫ້ບໍລິການປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,name:calendar.calendar_template_meeting_changedate
 msgid "Calendar: Date Updated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນ: ອັບເດດວັນທີແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.actions.server,name:calendar.ir_cron_scheduler_alarm_ir_actions_server
 msgid "Calendar: Event Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນ: ແຈ້ງເຕືອນເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,name:calendar.calendar_template_meeting_update
 msgid "Calendar: Event Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນ: ອັບເດດເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,name:calendar.calendar_template_meeting_invitation
 msgid "Calendar: Meeting Invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນ: ຄຳເຊີນປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,name:calendar.calendar_template_meeting_reminder
 msgid "Calendar: Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນ: ການແຈ້ງເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__is_organizer_alone
@@ -794,80 +1689,142 @@ msgid ""
 "Check if the organizer is alone in the event, i.e. if the organizer is the only one that hasn't declined\n"
 "        the event (only if the organizer is not the only attendee)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກວດສອບວ່າຜູ້ຈັດການປະຊຸມຢູ່ຄົນດຽວໃນເຫດການຫຼືບໍ່, ເຊັ່ນ: ຖ້າຜູ້ຈັດການປະຊຸມເປັນຜູ້ດຽວທີ່ບໍ່ໄດ້ປະຕິເສດເຫດການ "
+"(ສະເພາະຖ້າຜູ້ຈັດການປະຊຸມບໍ່ແມ່ນຜູ້ເຂົ້າຮ່ວມພຽງຜູ້ດຽວ)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_filters__partner_checked
 msgid "Checked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກວດສອບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__external_calendar_provider
 msgid "Choose an external calendar to configure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກປະຕິທິນພາຍນອກເພື່ອຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__recurrence_update
 msgid "Choose what to do with other events in the recurrence. Updating All Events is not allowed when dates or time is modified"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເລືອກສິ່ງທີ່ຈະເຮັດກັບເຫດການອື່ນໆໃນການເກີດຊ້ຳ. ການອັບເດດທຸກເຫດການແມ່ນບໍ່ອະນຸຍາດ ເມື່ອມີການປ່ຽນແປງວັນ"
+"ທີ ຫຼື ເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Client ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Client Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມລັບລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type__color
 msgid "Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__common_name
 msgid "Common name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.ui.menu,name:calendar.calendar_menu_config
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/components/calendar_provider_config/calendar_connect_provider.xml:0
 msgid "Connect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊື່ອມຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.js:0
 msgid "Connect your Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊື່ອມຕໍ່ປະຕິທິນຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຊື່ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Contact Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕໍ່ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__count
 msgid "Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__create_uid
@@ -879,7 +1836,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__create_uid
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__create_date
@@ -891,93 +1852,157 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__create_date
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__videocall_source__custom
 msgid "Custom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເອງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__day
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__month_by__date
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__month_by__date
 msgid "Date of month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີຂອງເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__day
 msgid "Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Day of Month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນຂອງເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__month_by__day
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__month_by__day
 msgid "Day of month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນຂອງເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_alarm__interval__days
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__rrule_type__daily
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__daily
 msgid "Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Decline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__declined
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__attendee_status__declined
 msgid "Declined"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິເສດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__declined_count
 msgid "Declined Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ປະຕິເສດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_popover_delete_wizard__delete
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
 msgid "Delete Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__all
 msgid "Delete all the events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບທຸກເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__next
 msgid "Delete this and following events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບເຫດການນີ້ ແລະ ເຫດການຕໍ່ໄປ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_popover_delete_wizard__delete__one
 msgid "Delete this event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບເຫດການນີ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__description
@@ -989,22 +2014,38 @@ msgstr "ຄຳອະທິບາຍ"
 #. odoo-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__videocall_source__discuss
 msgid "Discuss"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົນທະນາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_channel_id
 msgid "Discuss Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງສົນທະນາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__display_description
 msgid "Display Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__display_name
@@ -1016,242 +2057,422 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__display_name
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__res_id
 msgid "Document ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__res_model_id
 msgid "Document Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂມເດວເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__res_model
 msgid "Document Model Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຕົວແບບເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__dtstart
 msgid "Dtstart"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__duration
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__duration_minutes
 msgid "Duration in minutes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາເປັນນາທີ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "EMAIL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Edit recurring event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂເຫດການທີ່ເກີດຂຶ້ນຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__email
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_alarm__alarm_type__email
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_1
 msgid "Email - 3 Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ - 3 ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_mail_2
 msgid "Email - 6 Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ - 6 ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__mail_template_id
 msgid "Email Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_filters__partner_id
 msgid "Employee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__stop_date
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__end_type
 msgid "End Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການສິ້ນສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__end_type__end_date
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__end_type__end_date
 msgid "End date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm
 msgid "Event Alarm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm_manager
 msgid "Event Alarm Manager"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຈັດການການແຈ້ງເຕືອນເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event_type
 msgid "Event Meeting Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_recurrence
 msgid "Event Recurrence Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກົດການເກີດຊ້ຳຂອງເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__display_time
 msgid "Event Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(count)s %(period)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸກໆ %(count)s %(period)s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/mail_activity.py:0
 msgid "Feedback: %(feedback)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳຄິດເຫັນ: %(feedback)s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__1
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__1
 msgid "First"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຳອິດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "First you have to specify the date of the invitation."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຳອິດທ່ານຕ້ອງກຳນົດວັນທີຂອງການເຊື້ອເຊີນ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__follow_recurrence
 msgid "Follow Recurrence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕາມການເກີດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__end_type__forever
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__end_type__forever
 msgid "Forever"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕະຫຼອດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__4
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__4
 msgid "Fourth"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີສີ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Free"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__fri
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__fri
 msgid "Fri"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຸກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__weekday__fri
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__weekday__fri
 msgid "Friday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນສຸກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "From"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈາກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__google
 msgid "Google"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Google Calendar icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Google Calendar"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_id
 msgid "Google Client_id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_id"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__cal_client_secret
 msgid "Google Client_key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_key"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Grouping by %s is not allowed on private events."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດກຸ່ມໂດຍ %s ບໍ່ໄດ້ຮັບອະນຸຍາດໃນເຫດການສ່ວນຕົວ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_http
 msgid "HTTP Routing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_alarm__interval__hours
 msgid "Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__id
@@ -1263,22 +2484,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__id
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__active
 msgid "If the active field is set to false, it will allow you to hide the event alarm information without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າຊ່ອງທີ່ໃຊ້ງານຖືກຕັ້ງເປັນ false, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງຂໍ້ມູນການແຈ້ງເຕືອນເຫດການໂດຍບໍ່ຕ້ອງລຶບມັນ"
+"ອອກ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__show_as
@@ -1286,85 +2524,152 @@ msgid ""
 "If the time is shown as 'busy', this event will be visible to other people with either the full         information or simply 'busy' written depending on its privacy. Use this option to let other people know         that you are unavailable during that period of time. \n"
 " If the event is shown as 'free', other users know         that you are available during that period of time."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຫາກເວລາຖືກສະແດງເປັນ 'ບໍ່ຫວ່າງ', ກິດຈະກຳນີ້ຈະປະກົດໃຫ້ຜູ້ອື່ນເຫັນ ບໍ່ວ່າຈະເປັນຂໍ້ມູນແບບຄົບຖ້ວນ ຫຼື ພຽງແຕ່ຄ"
+"ຳວ່າ 'ບໍ່ຫວ່າງ' ເຊິ່ງຂຶ້ນກັບການຕັ້ງຄ່າຄວາມເປັນສ່ວນຕົວ. ໃຊ້ຕົວເລືອກນີ້ເພື່ອໃຫ້ຜູ້ອື່ນຮັບຮູ້ວ່າທ່ານບໍ່ຫວ່າງໃນຊ່ວງເວ"
+"ລາດັ່ງກ່າວ.\n"
+"ຫາກກິດຈະກຳຖືກສະແດງເປັນ 'ຫວ່າງ', ຜູ້ໃຊ້ອື່ນຈະຮັບຮູ້ວ່າທ່ານຫວ່າງໃນຊ່ວງເວລາດັ່ງກ່າວ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__interval
 msgid "Interval"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະຫ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__invalid_email_partner_ids
 msgid "Invalid Email Partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວຄູ່ຄ້າບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.message.subtype,name:calendar.subtype_invitation
 msgid "Invitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຊື້ອເຊີນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__access_token
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__access_token
 msgid "Invitation Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທເຄັນການເຊື້ອເຊີນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Invitation details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດການເຊື້ອເຊີນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_invitation
 msgid "Invitation email to new attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວເຊື້ອເຊີນເຖິງຜູ້ເຂົ້າຮ່ວມໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Invitation for"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຊື້ອເຊີນສຳລັບ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_invitation
 msgid "Invitation to {{ object.event_id.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຊື້ອເຊີນເຂົ້າຮ່ວມ {{ object.event_id.name }}"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Invitations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຊື້ອເຊີນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__is_highlighted
 msgid "Is the Event Highlighted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນເຫດການທີ່ຖືກເນັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__is_organizer_alone
 msgid "Is the Organizer Alone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຈັດງານຢູ່ຄົນດຽວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Join Video Call"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຮ່ວມການໂທວິດີໂອ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__-1
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__-1
 msgid "Last"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຸດທ້າຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__write_uid
@@ -1376,7 +2681,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__write_uid
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__write_date
@@ -1388,73 +2697,125 @@ msgstr ""
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__write_date
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_res_partner__calendar_last_notif_ack
 #: model:ir.model.fields,field_description:calendar.field_res_users__calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນຫຼ້າສຸດຖືກໝາຍວ່າອ່ານແລ້ວຈາກປະຕິທິນຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__rrule_type
 msgid "Let the event automatically repeat at that interval"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຫ້ເຫດການເຮັດຊ້ຳໂດຍອັດຕະໂນມັດໃນໄລຍະຫ່າງນັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__location
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Logo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂລໂກ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__mail_tz
 msgid "Mail Tz"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂດເວລາເມລ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_filters__user_id
 msgid "Me"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__mail_activity_type__category__meeting
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Meeting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Meeting '%(name)s' starts '%(start_datetime)s' and ends '%(end_datetime)s'"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການປະຊຸມ '%(name)s' ເລີ່ມ '%(start_datetime)s' ແລະ ສິ້ນສຸດ '%(end_datetime)s'"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__name
 msgid "Meeting Subject"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້ການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.action_calendar_event_type
 #: model:ir.ui.menu,name:calendar.menu_calendar_event_type
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_type_tree
 msgid "Meeting Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_location
 msgid "Meeting URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__event_id
 msgid "Meeting linked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະຊຸມທີ່ເຊື່ອມໂຍງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.actions.act_window,name:calendar.action_calendar_event
@@ -1466,440 +2827,768 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 #: model_terms:ir.ui.view,arch_db:calendar.view_partners_form
 msgid "Meetings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Microsoft Outlook icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Microsoft Outlook"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_alarm__interval__minutes
 msgid "Minutes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນາທີ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__mon
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__mon
 msgid "Mon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__weekday__mon
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__weekday__mon
 msgid "Monday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນຈັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__month_by
 msgid "Month By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເດືອນໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__rrule_type__monthly
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__monthly
 msgid "Months"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເດືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/calendar_form/calendar_quick_create.xml:0
 msgid "More Options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວເລືອກເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "My Meetings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະຊຸມຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__name
 #: model:ir.model.fields,field_description:calendar.field_calendar_event_type__name
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_attendee__state__needsaction
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__attendee_status__needsaction
 msgid "Needs Action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງການການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "New"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_mail_activity_mixin__activity_calendar_event_id
 #: model:ir.model.fields,field_description:calendar.field_res_partner__activity_calendar_event_id
 #: model:ir.model.fields,field_description:calendar.field_res_users__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການປະຕິທິນກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "No I'm not going."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່, ຂ້ອຍຈະບໍ່ໄປ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "No feedback yet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີຄຳຄິດເຫັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.actions.act_window,help:calendar.action_calendar_event
 msgid "No meetings found. Let's schedule one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບການປະຊຸມ. ມາວາງແຜນກັນເທາະ!"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_alarm__alarm_type__notification
 msgid "Notification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_5
 msgid "Notification - 1 Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນ - 1 ມື້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_3
 msgid "Notification - 1 Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນ - 1 ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_1
 msgid "Notification - 15 Minutes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນ - 15 ນາທີ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_4
 msgid "Notification - 2 Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນ - 2 ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:calendar.alarm,name:calendar.alarm_notif_2
 msgid "Notification - 30 Minutes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນ - 30 ນາທີ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__alarm_ids
 msgid "Notifications sent to all attendees to remind of the meeting."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນທີ່ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມທຸກຄົນເພື່ອເຕືອນກ່ຽວກັບການປະຊຸມ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__message_needaction_counter
 msgid "Number of messages which requires an action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງການການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__end_type__count
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__end_type__count
 msgid "Number of repetitions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການເຮັດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "OK"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົກລົງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Only Internal Users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະເພາະຜູ້ໃຊ້ພາຍໃນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__privacy__confidential
 msgid "Only internal users"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະເພາະຜູ້ໃຊ້ພາຍໃນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.mail_activity_view_form_popup
 msgid "Open Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__month_by
 msgid "Option"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວເລືອກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວເລືອກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__user_id
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_calendar
 msgid "Organizer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຈັດງານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_provider_config__external_calendar_provider__microsoft
 msgid "Outlook"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_identifier
 msgid "Outlook Client Id"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Id"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_provider_config__microsoft_outlook_client_secret
 msgid "Outlook Client Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Secret"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__attendee_ids
 msgid "Participant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__partner_id
 msgid "Partner-related data of the user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນທີ່ກ່ຽວຂ້ອງກັບຄູ່ຄ້າຂອງຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__privacy
 msgid "People to whom this event will be visible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບຸກຄົນທີ່ຈະສາມາດເຫັນເຫດການນີ້."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__phone
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__privacy
 msgid "Privacy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມເປັນສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__privacy__private
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Private"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "Private Event Excluded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເວັ້ນເຫດການສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__privacy__public
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Public"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາທາລະນະ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Read More"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອ່ານເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__rrule_type
 msgid "Recurrence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເກີດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__recurrence_id
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__recurrence_id
 msgid "Recurrence Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກົດການເກີດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__end_type
 msgid "Recurrence Termination"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສິ້ນສຸດການເກີດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__recurrence_update
 msgid "Recurrence Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດການເກີດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__recurrency
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Recurrent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__rrule
 msgid "Recurrent Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກົດການເກີດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__duration
 msgid "Remind Before"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຕືອນກ່ອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__alarm_ids
 #: model:ir.ui.menu,name:calendar.calendar_submenu_reminders
 msgid "Reminders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__count
 msgid "Repeat"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດຊ້ຳ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__interval
 msgid "Repeat Every"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດຊ້ຳທຸກໆ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__until
 msgid "Repeat Until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດຊ້ຳຈົນກ່ວາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__interval
 msgid "Repeat every (Days/Week/Month/Year)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດຊ້ຳທຸກໆ (ມື້/ອາທິດ/ເດືອນ/ປີ)"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__count
 msgid "Repeat x times"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດຊ້ຳ x ຄັ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/activity/activity_patch.xml:0
 msgid "Reschedule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__rrule
 msgid "Rrule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rrule"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__rrule_type
 msgid "Rrule Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ Rrule"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__sat
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__sat
 msgid "Sat"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເສົາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__weekday__sat
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__weekday__sat
 msgid "Saturday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນເສົາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__partner_id
 msgid "Scheduled by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວາງແຜນໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Search Meetings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາການປະຊຸມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__2
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__2
 msgid "Second"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີສອງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Select attendees..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກຜູ້ເຂົ້າຮ່ວມ..."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send Email to attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງອີເມວເຖິງຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Send Invitations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງການເຊື້ອເຊີນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "Send Mail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງເມລ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_reminder
 msgid "Sent to all attendees if a reminder is set"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມທຸກຄົນຖ້າຖືກຕັ້ງການເຕືອນໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_changedate
 msgid "Sent to all attendees if the schedule change"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມທຸກຄົນຖ້າມີການປ່ຽນແປງກຳນົດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__show_as
 msgid "Show as"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງເປັນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/js/services/calendar_notification_service.js:0
 msgid "Snooze"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອນການເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start
 msgid "Start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start_date
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__start
 msgid "Start date of an event, without time for full days events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນຂອງເຫດການ, ໂດຍບໍ່ມີເວລາສຳລັບເຫດການເຕັມມື້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_attendee__state
@@ -1909,85 +3598,149 @@ msgstr "ສະພາບ"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Status:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະ:"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__stop
 msgid "Stop"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢຸດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__stop
 msgid "Stop date of an event, without time for full days events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດຂອງເຫດການ, ໂດຍບໍ່ມີເວລາສຳລັບເຫດການເຕັມມື້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_tree
 msgid "Subject"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
 msgid "Submit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__sun
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__sun
 msgid "Sun"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__weekday__sun
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__weekday__sun
 msgid "Sunday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/attendee_calendar_controller.xml:0
 msgid "Synchronize with:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊິ້ງຂໍ້ມູນກັບ:"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Synchronize your calendar with Google Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊິ້ງປະຕິທິນຂອງທ່ານກັບ Google Calendar"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_provider_config_view_form
 msgid "Synchronize your calendar with Outlook"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊິ້ງປະຕິທິນຂອງທ່ານກັບ Outlook"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.constraint,message:calendar.constraint_calendar_event_type_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແທັກນີ້ມີຢູ່ແລ້ວ!"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__categ_ids
 msgid "Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_alarm__mail_template_id
 msgid "Template used to render mail reminder content."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມທີ່ໃຊ້ເພື່ອສ້າງເນື້ອໃນການເຕືອນທາງເມລ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Tentative"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ແນ່ນອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__tentative_count
 msgid "Tentative Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ຍັງບໍ່ແນ່ນອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "The"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.actions.act_window,help:calendar.action_calendar_event
@@ -1996,112 +3749,189 @@ msgid ""
 "            other applications such as the employee leaves or the business\n"
 "            opportunities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ປະຕິທິນຖືກແບ່ງປັນລະຫວ່າງພະນັກງານ ແລະ ເຊື່ອມໂຍງກັບແອັບພລິເຄຊັນອື່ນໆຢ່າງເຕັມຮູບແບບ ເຊັ່ນ: ການລາພັກຂອ"
+"ງພະນັກງານ ຫຼື ໂອກາດທາງທຸລະກິດ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.constraint,message:calendar.constraint_calendar_recurrence_month_day
 msgid "The day must be between 1 and 31"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ຕ້ອງຢູ່ລະຫວ່າງ 1 ຫາ 31"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "The ending date and time cannot be earlier than the starting date and time."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ ແລະ ເວລາສິ້ນສຸດ ບໍ່ສາມາດມາກ່ອນວັນທີ ແລະ ເວລາເລີ່ມຕົ້ນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "The ending date cannot be earlier than the starting date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດ ບໍ່ສາມາດມາກ່ອນວັນທີເລີ່ມຕົ້ນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The interval cannot be negative."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະຫ່າງບໍ່ສາມາດເປັນຄ່າລົບໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "The number of repetitions cannot be negative."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການເຮັດຊ້ຳບໍ່ສາມາດເປັນຄ່າລົບໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "There are no attendees on these events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຜູ້ເຂົ້າຮ່ວມໃນເຫດການເຫຼົ່ານີ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__3
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__3
 msgid "Third"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີສາມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__future_events
 msgid "This and following events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການນີ້ ແລະ ເຫດການຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.js:0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__recurrence_update__self_only
 msgid "This event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການນີ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__thu
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__thu
 msgid "Thu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__weekday__thu
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__weekday__thu
 msgid "Thursday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນພະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__event_tz
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__event_tz
 msgid "Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_attendee__mail_tz
 msgid "Timezone used for displaying time in the mail template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂດເວລາທີ່ໃຊ້ສຳລັບການສະແດງເວລາໃນແບບຟອມເມລ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "To"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຖິງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/res_users.py:0
 msgid "Today's Meetings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະຊຸມມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__tue
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__tue
 msgid "Tue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັງຄານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__weekday__tue
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__weekday__tue
 msgid "Tuesday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນອັງຄານ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__alarm_type
 msgid "Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -2110,204 +3940,352 @@ msgstr ""
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__attendee_status__tentative
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Uncertain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ແນ່ນອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_alarm__interval
 msgid "Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__until
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Until"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈົນກ່ວາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,description:calendar.calendar_template_meeting_update
 msgid "Used to manually notifiy attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ເພື່ອແຈ້ງເຕືອນຜູ້ເຂົ້າຮ່ວມດ້ວຍຕົນເອງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_users
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__user_can_edit
 msgid "User Can Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ສາມາດແກ້ໄຂໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__videocall_source
 msgid "Videocall Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງທີ່ມາຂອງການໂທວິດີໂອ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "Videocall URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ການໂທວິດີໂອ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 msgid "View"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__wed
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__wed
 msgid "Wed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພຸດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__weekday__wed
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__weekday__wed
 msgid "Wednesday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນພຸດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__weekday
 #: model:ir.model.fields,field_description:calendar.field_calendar_recurrence__weekday
 msgid "Weekday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທຳມະດາ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__rrule_type__weekly
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__weekly
 msgid "Weeks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__rrule_type__yearly
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__rrule_type__yearly
 msgid "Years"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 msgid "Yes I'm going."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນແລ້ວ, ຂ້ອຍຈະໄປ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_event.py:0
 msgid "You can't update a recurrence without base event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດອັບເດດການເກີດຊ້ຳໄດ້ໂດຍບໍ່ມີເຫດການຫຼັກ."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_attendee.py:0
 msgid "You cannot duplicate a calendar attendee."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດສຳເນົາຜູ້ເຂົ້າຮ່ວມປະຕິທິນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "You have to choose at least one day in the week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານຕ້ອງເລືອກຢ່າງໜ້ອຍໜຶ່ງມື້ໃນອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "accepted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອບຮັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "awaiting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງລໍຖ້າ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "day %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ %s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "declined"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິເສດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "e.g. Business Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ອາຫານທ່ຽງທຸລະກິດ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "for %s events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳລັບ %s ເຫດການ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈາກ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "maybe,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາດຈະ,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "no,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "on %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນ %s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "on the %(position)s %(weekday)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນ %(position)s %(weekday)s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຖິງ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/fields/many2many_attendee_expandable.xml:0
 msgid "uncertain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ແນ່ນອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "until %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈົນກ່ວາ %s"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "yes,"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນ,"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_reminder
 msgid "{{ object.event_id.name }} - Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }} - ການເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_changedate
 msgid "{{ object.event_id.name }}: Date updated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.event_id.name }}: ອັບເດດວັນທີແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:mail.template,subject:calendar.calendar_template_meeting_update
 msgid "{{object.name}}: Event update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{object.name}}: ອັບເດດເຫດການ"
+>>>>>>> upstream/18.0

@@ -98,6 +98,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1542,10 +1543,19 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * mrp
+#
+# Translators:
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2024, 2026.
+# Wil Odoo, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2983,10 +2993,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-05-19 14:40+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/mrp/"
+"uk/>\n"
+>>>>>>> upstream/18.0
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3940,6 +3958,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
@@ -3958,6 +3978,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4214,7 +4237,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the components are trigerred.\n"
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 =======
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
@@ -5336,7 +5364,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Підтверджено: MO підтверджено, складські правила та дозамовлення компонентів запущені.\n"
+=======
+" * Підтверджено: MO підтверджено, складські правила та дозамовлення "
+"компонентів запущені.\n"
+>>>>>>> upstream/18.0
 =======
 " * Підтверджено: MO підтверджено, складські правила та дозамовлення "
 "компонентів запущені.\n"
@@ -6467,6 +6500,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " <br/><br/> The manufactured products will be moved towards "
 "<b>%(destination)s</b>, <br/> as specified from <b>%(operation)s</b> "
 "destination."
@@ -7363,6 +7397,13 @@ msgid ""
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+" <br/><br/> The manufactured products will be moved towards <b>%"
+"(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
+msgstr ""
+" <br/><br/> Вироблена продукція буде переміщена до <b>%(destination)s</b>, "
+"<br/> як визначено в <b>%(operation)s</b> призначенні."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__all_available
@@ -7383,7 +7424,11 @@ msgstr "К-сть специфікації було використано"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__workorder_ready_count
 msgid "# Ready Work Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# Готові робочі замовлення"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing_workcenter__workorder_count
@@ -7400,19 +7445,31 @@ msgstr "К-сть специфікації, де було використано
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence picking before manufacturing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Послідовний вибір перед виробництвом"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Послідовність виробництва"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid "%(name)s Sequence stock after manufacturing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s Послідовність запасів після виробництва"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -7424,7 +7481,11 @@ msgstr "%(producible_qty)s Готово"
 #. odoo-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "%(product)s: Insufficient Quantity To Unbuild"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s: Недостатня кількість для розбирання"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -7495,6 +7556,7 @@ msgid "+ %d day(s)"
 msgstr "+ %d дні"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8836,6 +8898,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/mrp/models/stock_rule.py:0
+msgid "+ %s day(s)"
+msgstr "+ %s день(дні)"
+
+#. module: mrp
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.mo_overview_content
 msgid "- Overview"
 msgstr "- Огляд"
@@ -8854,6 +8924,7 @@ msgstr ""
 msgid ""
 "1 Step: Consume components from stock and produce.\n"
 "              2 Steps: Pick components from stock and then produce.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10028,11 +10099,23 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"              3 Steps: Pick components from stock, produce, and then move "
+"final product(s) from production area to stock."
+msgstr ""
+"1. Крок: Спожити компоненти зі складу та виробити.\n"
+"2. Кроки: Відібрати компоненти зі складу та виробити.\n"
+"3. Кроки: Відібрати компоненти зі складу, виробити, а потім перемістити "
+"кінцевий(і) продукт(и) з виробничої зони на склад."
+
+#. module: mrp
+>>>>>>> upstream/18.0
 #: model_terms:product.template,description:mrp.product_product_computer_desk_leg_product_template
 msgid "18″ x 2½″ Square Leg"
 msgstr "18 \"x 2½\" Квадратна ніжка"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10184,11 +10267,14 @@ msgstr "60"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_production_components
 msgid "8 GB RAM"
 msgstr "8 GB RAM"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11001,6 +11087,15 @@ msgid "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/mrp/static/src/workcenter_dashboard_graph/workcenter_dashboard_graph_field.js:0
+msgid ":  hours"
+msgstr ":  години"
+
+#. module: mrp
+#: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr ""
@@ -11010,6 +11105,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid ""
 "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12351,6 +12447,13 @@ msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+
+#. module: mrp
+#: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr ""
@@ -12577,6 +12680,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13253,7 +13359,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
@@ -14374,7 +14485,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Використовуйте цю функцію для зберігання будь-яких файлів, таких як креслення або специфікації.\n"
+=======
+"                        Використовуйте цю функцію для зберігання будь-яких "
+"файлів, таких як креслення або специфікації.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Використовуйте цю функцію для зберігання будь-яких "
 "файлів, таких як креслення або специфікації.\n"
@@ -15286,7 +15402,11 @@ msgid "<span class=\"col-6\">In Progress</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">В процесі</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">В процесі</span>"
 >>>>>>> upstream/18.0
@@ -15375,7 +15495,11 @@ msgid "<span class=\"col-6\">Late</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Протерміновані</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Протерміновані</span>"
 >>>>>>> upstream/18.0
@@ -15520,7 +15644,11 @@ msgid "<span class=\"col-6\">To Close</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">До закриття</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">До закриття</span>"
 >>>>>>> upstream/18.0
@@ -15581,7 +15709,11 @@ msgid "<span class=\"col-6\">Waiting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">В очікуванні</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">В очікуванні</span>"
 >>>>>>> upstream/18.0
@@ -15722,6 +15854,7 @@ msgstr "<span class=\"o_stat_text\">Розібрані</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid ""
 "<span class=\"text-muted\">Modifying the quantity to produce will also "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16839,6 +16972,10 @@ msgid ""
 "modify the quantities of components to consume for this manufacturing order."
 "</span>"
 >>>>>>> upstream/18.0
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"text-muted\">Зміна кількості виробництва також змінить "
 "кількість компонентів, які потрібно споживати для цього виробничого "
@@ -16858,7 +16995,11 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "<span>&amp;nbsp;(minutes)</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>&amp;nbsp;(хвилини)</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
@@ -16868,7 +17009,11 @@ msgstr "<span>Дії</span>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "<span>Generate BOM</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Створити BOM</span>"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
@@ -17234,11 +17379,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                Instead, it is used to decompose a BoM into its components when:"
 msgstr ""
 "Специфікація типу комплектування не виробляється разом із виробничим замовленням.<br/>\n"
 "                                Замість цього він використовується для декомпозиції специфікації на компоненти, коли:"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17912,6 +18060,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18369,8 +18520,12 @@ msgstr "Замовлення на виробництво виконано або
 #: code:addons/mrp/models/stock_warehouse.py:0
 msgid ""
 "A product with a kit-type bill of materials can not have a reordering rule."
+<<<<<<< HEAD
 msgstr ""
 "Товар зі специфікаціїю типу комплект не може мати правила дозамовлення."
+=======
+msgstr "Товар зі специфікаціїю типу комплект не може мати правила дозамовлення."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_rule__action
@@ -18485,6 +18640,7 @@ msgstr "Рядок усіх переміщень"
 msgid ""
 "All product quantities must be greater or equal to 0.\n"
 "Lines with 0 quantities can be used as optional lines. \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19158,6 +19314,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You should install the mrp_byproduct module if you want to manage extra "
 "products on BoMs!"
 msgstr ""
@@ -19387,6 +19545,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20132,8 +20293,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Альтернативні робочі центри, які можуть бути замінені на цей, щоб відправити"
 " виробництво"
+=======
+"Альтернативні робочі центри, які можуть бути замінені на цей, щоб відправити "
+"виробництво"
+>>>>>>> upstream/18.0
 =======
 "Альтернативні робочі центри, які можуть бути замінені на цей, щоб відправити "
 "виробництво"
@@ -21403,8 +21569,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "case the product is subcontracted, this can be used to determine the date at"
 " which components should be sent to the subcontractor."
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+>>>>>>> upstream/18.0
 =======
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
@@ -22350,13 +22521,21 @@ msgstr "Рядки специфікації згаданої специфіка�
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to BoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Повернутися до BoM"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/product_catalog/kanban_controller.js:0
 msgid "Back to Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Повернутися до виробництва"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_backorder_line
@@ -22387,6 +22566,7 @@ msgstr "Послідовність дозамовлення"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__backorder_sequence
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23281,6 +23461,9 @@ msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 >>>>>>> upstream/18.0
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+>>>>>>> upstream/18.0
 msgstr ""
 "Послідовність дозамовлення, якщо дорівнює 0, це означає, що немає "
 "пов'язаного дозамовлення"
@@ -23300,7 +23483,11 @@ msgstr "Базується на"
 #: model:ir.actions.act_window,name:mrp.action_mrp_batch_produce
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__production_text
 msgid "Batch Production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Групове виробництво"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__before
@@ -23584,8 +23771,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bills of Materials, also called recipes, are used to autocomplete components"
 " and work order instructions."
+=======
+"Bills of Materials, also called recipes, are used to autocomplete components "
+"and work order instructions."
+>>>>>>> upstream/18.0
 =======
 "Bills of Materials, also called recipes, are used to autocomplete components "
 "and work order instructions."
@@ -24709,7 +24901,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                materials used to make a finished product; through a manufacturing\n"
+=======
+"                materials used to make a finished product; through a "
+"manufacturing\n"
+>>>>>>> upstream/18.0
 =======
 "                materials used to make a finished product; through a "
 "manufacturing\n"
@@ -25684,7 +25881,11 @@ msgstr "Вартість специфікації"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview_display_filter/mrp_mo_overview_display_filter.js:0
 msgid "BoM Costs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вартість BoM"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_move__bom_line_id
@@ -25863,6 +26064,11 @@ msgid ""
 "Changing the product or variant will permanently reset all previously "
 "encoded variant-related data."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Зміна товару або варіанту призведе до остаточного скидання всіх раніше "
+"закодованих даних, пов’язаних із варіантом."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -25954,7 +26160,11 @@ msgstr "Компонент чернетки MO"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__component_separator
 msgid "Component separator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Роздільник компоненту"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__move_raw_ids
@@ -25972,7 +26182,11 @@ msgstr "Статус доступності компоненту"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Components Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Доступні компоненти"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_src_id
@@ -25999,6 +26213,7 @@ msgstr "Обчислення на основі записаного часу"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26674,6 +26889,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "buying or manufacturing the components and/or "
 "subassemblies.                                                       Also "
 "note that purchase security lead times will be added when appropriate."
@@ -26903,6 +27120,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27426,6 +27646,7 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28543,6 +28764,10 @@ msgstr ""
 "Перетворення між одиницями вимірювання може відбуватися лише у тому випадку, "
 "якщо вони належать до однієї і тієї ж категорії. Конвертація буде "
 >>>>>>> upstream/18.0
+=======
+"Перетворення між одиницями вимірювання може відбуватися лише у тому випадку, "
+"якщо вони належать до однієї і тієї ж категорії. Конвертація буде "
+>>>>>>> upstream/18.0
 "здійснюватися на основі співвідношення."
 
 #. module: mrp
@@ -28572,19 +28797,28 @@ msgstr "Розділена вартість (%)"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost as it is currently accumulated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вартість, накопичена на даний момент"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on cost projection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вартість на основі прогнозу витрат"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on related replenishments. Otherwise cost from product form"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29702,12 +29936,20 @@ msgstr ""
 "Вартість на основі відповідних поповнень. В іншому випадку вартість з картки "
 "товару"
 >>>>>>> upstream/18.0
+=======
+"Вартість на основі відповідних поповнень. В іншому випадку вартість з картки "
+"товару"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/mo_overview/mrp_mo_overview.xml:0
 msgid "Cost based on the BoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Собівартість на основі специфікації"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -29987,8 +30229,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -31128,11 +31375,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 "Створюйте та підтверджуйте замовлення на виробництво за багато днів наперед, щоб мати достатньо часу для поповнення компонентів або виробництва напівфабрикатів.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31806,6 +32056,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32495,9 +32748,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Створіть залежності рівня операцій, які впливатимуть як на планування, так і"
 " на статус робочих нарядів після підтвердження MO. Якщо ця функція позначена"
 " галочкою, і нічого не вказано, Odoo вважатиме, що всі операції можна "
+=======
+"Створіть залежності рівня операцій, які впливатимуть як на планування, так і "
+"на статус робочих нарядів після підтвердження MO. Якщо ця функція позначена "
+"галочкою, і нічого не вказано, Odoo вважатиме, що всі операції можна "
+>>>>>>> upstream/18.0
 =======
 "Створіть залежності рівня операцій, які впливатимуть як на планування, так і "
 "на статус робочих нарядів після підтвердження MO. Якщо ця функція позначена "
@@ -33911,6 +34170,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -33921,6 +34181,8 @@ msgstr ""
 "В контексті складу, буде включено запаси на всіх розташуваннях запасів цього складу та на всіх підпорядкованих до нього.\n"
 "В інших випадках включені товари складуються на будь-якому місцехнаходженні складу з типом 'Внутрішній'."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34603,6 +34865,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35069,7 +35334,11 @@ msgstr "Дата"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__search_date_category
 msgid "Date Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Категорія дати"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -35312,8 +35581,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Дата, коли ви плануєте почати виробництво, або дата, коли ви фактично почали"
 " виробництво."
+=======
+"Дата, коли ви плануєте почати виробництво, або дата, коли ви фактично почали "
+"виробництво."
+>>>>>>> upstream/18.0
 =======
 "Дата, коли ви плануєте почати виробництво, або дата, коли ви фактично почали "
 "виробництво."
@@ -36474,8 +36748,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 =======
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
@@ -37596,8 +37875,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "роботи, зазначений у специфікації, буде помножено на два. Однак зауважте, що"
 " як час до, так і після виробництва буде зараховано лише один раз."
+=======
+"роботи, зазначений у специфікації, буде помножено на два. Однак зауважте, що "
+"як час до, так і після виробництва буде зараховано лише один раз."
+>>>>>>> upstream/18.0
 =======
 "роботи, зазначений у специфікації, буде помножено на два. Однак зауважте, що "
 "як час до, так і після виробництва буде зараховано лише один раз."
@@ -38612,6 +38896,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Визначте графік роботи ресурсу. Якщо його не встановлено, ресурс матиме "
+"повністю гнучкий робочий графік."
+>>>>>>> upstream/18.0
 =======
 "Визначте графік роботи ресурсу. Якщо його не встановлено, ресурс матиме "
 "повністю гнучкий робочий графік."
@@ -39231,12 +39520,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
 "  Note that in the case of component Highlight Consumption, where consumption is registered manually exclusively, consumption warnings will still be issued when appropriate also.\n"
 "  * Blocked: only a manager can close a manufacturing order when the BoM consumption is not respected."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39913,6 +40205,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40359,6 +40652,19 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"Визначає, чи можна споживати більше чи менше компонентів, ніж кількість, "
+"визначена в специфікації:\n"
+"* Дозволено: дозволено для всіх користувачів-виробників.\n"
+"* Дозволено з попередженням: дозволено для всіх користувачів-виробників зі "
+"зведенням різниць споживання під час закриття виробничого замовлення.\n"
+"Зверніть увагу, що у випадку виділення споживання компонента, де споживання "
+"реєструється виключно вручну, попередження про споживання все одно будуть "
+"видаватися за потреби.\n"
+"* Заблоковано: лише менеджер може закрити виробниче замовлення, якщо "
+"споживання в специфікації не дотримується."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__delay_alert_date
@@ -40368,7 +40674,11 @@ msgstr "Дата сповіщення про затримку"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Delayed Productions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Затримані виробництва"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
@@ -40387,7 +40697,11 @@ msgid "Delegate part of the production process to subcontractors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Передайте частину виробничого процесу субпідрядникам"
+>>>>>>> upstream/18.0
 =======
 msgstr "Передайте частину виробничого процесу субпідрядникам"
 >>>>>>> upstream/18.0
@@ -40773,6 +41087,10 @@ msgstr "Замовлення на споживання"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -41893,7 +42211,11 @@ msgstr "Оцінено %s"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
 msgid "Exception(s) occurred on the manufacturing order(s):"
+<<<<<<< HEAD
 msgstr "Виняток(и) відбувався на замовленні(ях) на виробництво"
+=======
+msgstr "Виняток(и) відбувався на замовленні(ях) на виробництво:"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.exception_on_mo
@@ -41933,7 +42255,11 @@ msgstr "Очікувана тривалість (у хвилинах)"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__production_text_help
 msgid "Explanation for batch production"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пояснення щодо серійного виробництва"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -41949,7 +42275,11 @@ msgstr "Фільтри"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_final_id
 msgid "Final Location from procurement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Остаточне місцезнаходження з постачання"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workorder__state__done
@@ -41995,7 +42325,11 @@ msgstr "Розташування готових товарів"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lot_name
 msgid "First Lot/SN"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Перший партійний/серійний номер"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__consumption
@@ -42278,6 +42612,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -42287,6 +42622,8 @@ msgstr ""
 "У контексті із складом всередині це включає товари, що зберігаються всередині цього складу або будь-якого з його філій.\n"
 "В іншому випадку це включає товари, що зберігаються в будь-якому розташуванні складу з \"внутрішнім\" типом."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42968,6 +43305,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43575,6 +43915,7 @@ msgid "Has Routing Lines"
 msgstr "Є рядки маршруту"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45269,6 +45610,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model.fields,field_description:mrp.field_mrp_workorder__has_worksheet
+msgid "Has Worksheet"
+msgstr "Є робочий аркуш"
+
+#. module: mrp
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:mrp.selection__product_document__attached_on_mrp__hidden
 msgid "Hidden"
 msgstr "Приховано"
@@ -45276,7 +45624,11 @@ msgstr "Приховано"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__manual_consumption
 msgid "Highlight Consumption"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Виділіть споживання"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__costs_hour
@@ -45601,8 +45953,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Якщо активне поле встановлено як Помилкове, це дозволить вам приховати запис"
 " кадрів, не видаливши його."
+=======
+"Якщо активне поле встановлено як Помилкове, це дозволить вам приховати запис "
+"кадрів, не видаливши його."
+>>>>>>> upstream/18.0
 =======
 "Якщо активне поле встановлено як Помилкове, це дозволить вам приховати запис "
 "кадрів, не видаливши його."
@@ -46734,8 +47091,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Якщо цей чекбокс позначено, Odoo автоматично роздрукує звіт про розподіл MO,"
 " коли він буде готовий і має призначені переміщення."
+=======
+"Якщо цей чекбокс позначено, Odoo автоматично роздрукує звіт про розподіл MO, "
+"коли він буде готовий і має призначені переміщення."
+>>>>>>> upstream/18.0
 =======
 "Якщо цей чекбокс позначено, Odoo автоматично роздрукує звіт про розподіл MO, "
 "коли він буде готовий і має призначені переміщення."
@@ -47858,8 +48220,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Якщо цей чекбокс позначено, Odoo автоматично надрукує етикетку "
 "партії/серійного номера MO, коли це буде зроблено."
+=======
+"Якщо цей чекбокс позначено, Odoo автоматично надрукує етикетку партії/"
+"серійного номера MO, коли це буде зроблено."
+>>>>>>> upstream/18.0
 =======
 "Якщо цей чекбокс позначено, Odoo автоматично надрукує етикетку партії/"
 "серійного номера MO, коли це буде зроблено."
@@ -48979,8 +49346,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
@@ -49901,6 +50273,7 @@ msgstr "Імпортувати шаблон для специфікацій"
 #. odoo-python
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51244,12 +51617,22 @@ msgstr ""
 msgstr ""
 "Неможливо запланувати робоче замовлення. Перевірте наявність робочих центрів."
 >>>>>>> upstream/18.0
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+msgstr ""
+"Неможливо запланувати робоче замовлення. Перевірте наявність робочих центрів."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/report/mrp_report_bom_structure.py:0
 msgid "Impossible to plan. Please check the workcenter availabilities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Неможливо спланувати. Будь ласка, перевірте наявність місць у робочому "
+"центрі."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__state__progress
@@ -51272,12 +51655,20 @@ msgstr "На транзиті"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.product_view_search_catalog
 msgid "In the BoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "У BoM"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.product_view_search_catalog
 msgid "In the MO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "В MO"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__date_deadline
@@ -51295,6 +51686,7 @@ msgstr "Складські переміщення"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__move_line_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52189,6 +52581,9 @@ msgid "Inventory moves for which you must scan a lot number at this work order"
 =======
 msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 msgstr ""
 "Складське переміщення, для якого потрібно сканувати партійні номери у цьому "
 "робочому замовленні"
@@ -52196,7 +52591,11 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__is_delayed
 msgid "Is Delayed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Затримано"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__message_is_follower
@@ -52373,7 +52772,11 @@ msgstr "Останні дії"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Late Availability"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Пізня доступність"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -52417,6 +52820,7 @@ msgstr "Відпустка"
 #: model:ir.model.fields,help:mrp.field_product_document__attached_on_mrp
 msgid ""
 "Leave hidden if document only accessible on product form.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53534,6 +53938,14 @@ msgid ""
 "when this product is in a bill of material."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Select Bill of Materials to visualise this document as a product attachment "
+"when this product is in a bill of material."
+msgstr ""
+"Залиште прихованим, якщо документ доступний лише у формі товару.\n"
+"Виберіть Специфікацію, щоб візуалізувати цей документ як вкладення до "
+"товару, коли цей товар є у специфікації."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_consumption_warning_line
@@ -53558,7 +53970,11 @@ msgstr "Місцезнаходження, де система шукатиме �
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__location_dest_id
 msgid "Location where the system will stock the finished products."
+<<<<<<< HEAD
 msgstr "Розташування, де система буде зберігати готові товари"
+=======
+msgstr "Розташування, де система буде зберігати готові товари."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__location_dest_id
@@ -53584,17 +54000,29 @@ msgstr "Причина втрати"
 #. odoo-python
 #: code:addons/mrp/wizard/mrp_batch_produce.py:0
 msgid "Lot %s does not exist."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Партія %s не існує."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lots_quantity_separator
 msgid "Lot quantity separator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Роздільник кількості партії"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_batch_produce__lots_separator
 msgid "Lot separator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Роздільник партій"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
@@ -53643,13 +54071,21 @@ msgstr "Дозамовлення MO"
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_cancelled
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_cancelled
 msgid "MO Cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Скасовані MO"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_confirmed
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_confirmed
 msgid "MO Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Підтверджені MO"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -53668,7 +54104,11 @@ msgstr "Вартості MO"
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_done
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_done
 msgid "MO Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Виконане MO"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -53690,13 +54130,21 @@ msgstr "Звіт огляду MO"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "MO Pending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MO в очікуванні"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_progress
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_progress
 msgid "MO Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MO в процесі"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__reservation_state
@@ -53712,12 +54160,20 @@ msgstr "MO Готове"
 #: model:mail.message.subtype,description:mrp.mrp_mo_in_to_close
 #: model:mail.message.subtype,name:mrp.mrp_mo_in_to_close
 msgid "MO To Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MO до закриття"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_document__attached_on_mrp
 msgid "MRP : Visible at"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MRP : Видиме в"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.client,name:mrp.mrp_reception_action
@@ -54134,12 +54590,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
 "Операції виробництва виконуються на Робочих центрах. Робочий центр може складатися з\n"
 "робітників та/або машин, вони використовуються для калькуляції витрат, складання графіка, планування потужностей тощо."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54815,6 +55274,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55487,6 +55949,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 "                They can be defined via the configuration menu."
@@ -55494,6 +55957,8 @@ msgstr ""
 "Замовлення на виробництво виконуються на Робочих центрах. Робочий центр може складатися\n"
 "з робітників та/або машин, вони використовуються для калькуляції витрат, складання графіків, планування потужностей тощо.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56170,6 +56635,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56846,10 +57314,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            * Waiting: The material is not available to start the production.\n"
 msgstr ""
 "Виробнича готовність до цього MO відповідно до конфігурації технічної документації:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57521,6 +57992,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58088,12 +58562,20 @@ msgstr "Дедлайн моєї дії"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "My MOs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Мої MO"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__never_product_template_attribute_value_ids
 msgid "Never attribute values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ніколи не приписувати значення"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -58148,6 +58630,7 @@ msgid "No Backorder"
 msgstr "Немає дозамовлення"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59489,6 +59972,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/mrp/models/stock_rule.py:0
+msgid "No BoM Found"
+msgstr "Не знайдено BoM"
+
+#. module: mrp
+>>>>>>> upstream/18.0
 #: model_terms:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid "No bill of materials found. Let's create one!"
 msgstr "Не знайдено жодної специфікації. Створіть її!"
@@ -59567,7 +60058,11 @@ msgstr "Не готове"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Note that another version of this BOM is available."
+<<<<<<< HEAD
 msgstr "Занотуйте, що доступна інша версія цієї специфікації. "
+=======
+msgstr "Занотуйте, що доступна інша версія цієї специфікації."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -59604,7 +60099,11 @@ msgstr "Кількість дій"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_in_progress
 msgid "Number of Manufacturing Orders In Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кількість виробничих замовлень, що виконуються"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_late
@@ -59614,7 +60113,11 @@ msgstr "Кількість замовлень на виробництво піз
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_to_close
 msgid "Number of Manufacturing Orders To Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кількість виробничих замовлень, що мають бути закриті"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__count_mo_waiting
@@ -59915,12 +60418,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
 "Odoo за замовчуванням відкриває попередній перегляд PDF. Якщо ви хочете друкувати миттєво, \n"
 "інсталюйте додаток IoT на комп’ютері, який знаходиться в тій самій локальній мережі, що й оператор штрих-коду, \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60596,6 +61102,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61331,6 +61840,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 msgstr ""
 "Операції визначають, що необхідно зробити, щоб реалізувати Робочий наказ.\n"
@@ -61780,10 +62290,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                Each operation is done at a specific Work Center and has a "
 "specific duration."
 msgstr ""
 "Операції визначають, що необхідно зробити, щоб реалізувати Робочий наказ.\n"
+<<<<<<< HEAD
 "                Кожна операція виконується на конкретному робочому центрі "
 "та  має конкретну тривалість."
 <<<<<<< HEAD
@@ -62453,6 +62966,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"                Кожна операція виконується на конкретному робочому центрі та"
+"  має конкретну тривалість."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -62639,7 +63156,11 @@ msgstr "Комплектувати компоненти, а потім виго�
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm
 msgid "Pick components then manufacture (2 steps)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вибір компонентів, а потім виробництво (2 кроки)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -62651,7 +63172,11 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__stock_warehouse__manufacture_steps__pbm_sam
 msgid "Pick components, manufacture, then store products (3 steps)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Вибір компонентів, виробництво, а потім зберігання продукції (3 кроки)"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_mto_pull_id
@@ -62749,12 +63274,20 @@ msgstr "Встановіть перший серійний номер або п�
 #: code:addons/mrp/wizard/mrp_batch_produce.py:0
 msgid "Please specify the first serial number you would like to use."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Будь ласка, вкажіть перший серійний номер, який ви бажаєте використовувати."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/wizard/mrp_batch_produce.py:0
 msgid "Please specify the serial number you would like to use."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Будь ласка, вкажіть серійний номер, який ви бажаєте використовувати."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -62806,7 +63339,11 @@ msgstr "До виробництва"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_batch_produce_form
 msgid "Prepare MO"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Підготувати MO"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -62830,7 +63367,11 @@ msgstr "Друк етикеток"
 #. odoo-javascript
 #: code:addons/mrp/static/src/components/wo_list_view_dropdown/wo_list_view_dropdown.xml:0
 msgid "Print Work Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Роздрукувати наряд"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_picking_type_form_inherit_mrp
@@ -62898,7 +63439,11 @@ msgstr "Виготовити все"
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_batch_produce
 msgid "Produce a batch of production order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Виготовити партію виробничого замовлення"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_byproducts
@@ -62957,12 +63502,20 @@ msgstr "Завантаженість виробництва"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_bom
 msgid "Product Catalog Product Is In Bom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Каталог товарів у специфікації"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_mo
 msgid "Product Catalog Product Is In Mo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Каталог товарів у виробництві"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -63019,7 +63572,11 @@ msgstr "Поповнення товару"
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_replenish_mixin
 msgid "Product Replenish Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Поповнення товару Mixin"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__product_tmpl_id
@@ -63232,7 +63789,11 @@ msgstr "К-сть виробництва"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_tree_editable_view
 msgid "Quantity Remaining"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Кількість, що залишилася"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__qty_remaining
@@ -63361,6 +63922,7 @@ msgstr "Референс повинен бути унікальний на ко�
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__origin
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -64255,6 +64817,9 @@ msgid "Reference of the document that generated this production order request."
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 msgstr ""
 "Довідка про документ, який сформував цей запит на замовлення на виробництво."
 
@@ -64389,7 +64954,11 @@ msgid "Scheduled End"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Заплановане Завершення"
+>>>>>>> upstream/18.0
 =======
 msgstr "Заплановане Завершення"
 >>>>>>> upstream/18.0
@@ -64418,6 +64987,7 @@ msgstr "Заплановане Завершення"
 msgid ""
 "Scheduled before the previous work order, planned from %(start)s to %(end)s"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65535,6 +66105,10 @@ msgstr ""
 "Заплановано до поперелнього робочого замовлення, заплановано з %(start)s до %"
 "(end)s"
 >>>>>>> upstream/18.0
+=======
+"Заплановано до поперелнього робочого замовлення, заплановано з %(start)s до %"
+"(end)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -65692,7 +66266,11 @@ msgstr "Показати колонку специфікації"
 #: model:ir.model.fields,field_description:mrp.field_product_replenish__show_bom
 #: model:ir.model.fields,field_description:mrp.field_stock_replenish_mixin__show_bom
 msgid "Show Bom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Показати Bom"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__show_final_lots
@@ -65975,8 +66553,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Деякі ваші побічні товари відстежуються, вам необхідно вказати замовлення на"
 " виробництво, щоби отримати правильні побічні товари."
+=======
+"Деякі ваші побічні товари відстежуються, вам необхідно вказати замовлення на "
+"виробництво, щоби отримати правильні побічні товари."
+>>>>>>> upstream/18.0
 =======
 "Деякі ваші побічні товари відстежуються, вам необхідно вказати замовлення на "
 "виробництво, щоби отримати правильні побічні товари."
@@ -67107,12 +67690,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders are already done, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Деякі робочі замовлення вже виконано, тому ви не можете відмінити це замовлення на виробництво.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -67786,6 +68372,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68461,12 +69050,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders have already started, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Деякі робочі замовлення вже розпочато, тому ви не можете відмінити це замовлення на виробництво.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69140,6 +69732,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69828,10 +70423,15 @@ msgstr "Конкретні потужності"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Specific number of pieces that can be produced in parallel per product."
 msgstr ""
 "Конкретна кількість одиниць, які можна виготовити паралельно на товар."
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+msgstr "Конкретна кількість одиниць, які можна виготовити паралельно на товар."
+>>>>>>> upstream/18.0
 =======
 msgid "Specific number of pieces that can be produced in parallel per product."
 msgstr "Конкретна кількість одиниць, які можна виготовити паралельно на товар."
@@ -70956,7 +71556,11 @@ msgstr "Технічне поле для перегляду робочого ц�
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce_all
 msgid "Technical field to check if produce all button can be shown"
 msgstr ""
+<<<<<<< HEAD
 "Технічне поле, щоб перевірити, чи можна показати кнопку «Виготовити все»."
+=======
+"Технічне поле, щоб перевірити, чи можна показати кнопку «Виготовити все»"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__show_produce
@@ -71035,7 +71639,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__day_2
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "The day after tomorrow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Післязавтра"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -71286,8 +71894,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(поділений на кількість виробленої продукції). Загальна частка витрат на всі"
 " побічні товари має бути меншою або дорівнювати 100."
+=======
+"(поділений на кількість виробленої продукції). Загальна частка витрат на всі "
+"побічні товари має бути меншою або дорівнювати 100."
+>>>>>>> upstream/18.0
 =======
 "(поділений на кількість виробленої продукції). Загальна частка витрат на всі "
 "побічні товари має бути меншою або дорівнювати 100."
@@ -72420,8 +73033,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Запланована кінцева дата робочого замовлення не може бути пріоритетнішою ніж"
 " запланована дата початку. Виправте це, щоби зберегти робоче замовлення."
+=======
+"Запланована кінцева дата робочого замовлення не може бути пріоритетнішою ніж "
+"запланована дата початку. Виправте це, щоби зберегти робоче замовлення."
+>>>>>>> upstream/18.0
 =======
 "Запланована кінцева дата робочого замовлення не може бути пріоритетнішою ніж "
 "запланована дата початку. Виправте це, щоби зберегти робоче замовлення."
@@ -73573,12 +74191,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The serial number %(number)s used for byproduct %(product_name)s has already"
 " been produced"
 msgstr ""
 "Серійний номер %(number)s, що викорстовується для побічного товару, "
 "%(product_name)s вже виготовлено"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74250,6 +74871,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74703,6 +75327,7 @@ msgid ""
 "The serial number %(number)s used for component %(component)s has already "
 "been consumed"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75820,6 +76445,10 @@ msgstr ""
 "Серійний номер %(number)s, що використовується для компоненту %(component)s, "
 "вже спожито"
 >>>>>>> upstream/18.0
+=======
+"Серійний номер %(number)s, що використовується для компоненту %(component)s, "
+"вже спожито"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_workcenter_tag_tag_name_unique
@@ -75847,7 +76476,11 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_split_form
 msgid "The total should be equal to the quantity to produce."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Загальна сума повинна дорівнювати кількості для виробництва."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -76152,12 +76785,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Це меню дає вам повну можливість відстеження операцій інвентаризації щодо певного товару.\n"
 "                Ви можете відфільтрувати товар, щоби побачити всі його минулі перемщення."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -76833,6 +77469,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77350,6 +77989,7 @@ msgid ""
 "Time in minutes:- In manual mode, time used- In automatic mode, supposed "
 "first time when there aren't any work orders yet"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -78467,6 +79107,10 @@ msgstr ""
 "Час у хвилинах:- В ручному режимі, використаний час- В автоматичному режимі, "
 "передбачається вперше, коли ще немає замовлень на роботу"
 >>>>>>> upstream/18.0
+=======
+"Час у хвилинах:- В ручному режимі, використаний час- В автоматичному режимі, "
+"передбачається вперше, коли ще немає замовлень на роботу"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__tz
@@ -78558,7 +79202,11 @@ msgid "To Manufacture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "До виготовлення"
+>>>>>>> upstream/18.0
 =======
 msgstr "До виготовлення"
 >>>>>>> upstream/18.0
@@ -78842,6 +79490,7 @@ msgstr "Тип дії виключення на записі."
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "Unable to split with more than the quantity to produce."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79736,6 +80385,9 @@ msgstr "Неможливо розділити кількість, що пере�
 =======
 msgstr "Неможливо розділити кількість, що перевищує необхідну для виробництва."
 >>>>>>> upstream/18.0
+=======
+msgstr "Неможливо розділити кількість, що перевищує необхідну для виробництва."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -79945,6 +80597,7 @@ msgstr "Підтвердити"
 #: code:addons/mrp/wizard/mrp_consumption_warning.py:0
 msgid ""
 "Values cannot be set and validated because a Lot/Serial Number needs to be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81063,6 +81716,14 @@ msgid ""
 "%(products)s"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"specified for a tracked product that is having its consumed amount increased:"
+"%(products)s"
+msgstr ""
+"Значення неможливо встановити та перевірити, оскільки для відстежуваного "
+"товару, обсяг споживання якого збільшується, потрібно вказати номер партії/"
+"серії:%(products)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-javascript
@@ -81100,6 +81761,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Перегляд та розподіл обсягів виробництва між замовленнями клієнтів або "
+"іншими виробничими замовленнями"
+>>>>>>> upstream/18.0
 =======
 "Перегляд та розподіл обсягів виробництва між замовленнями клієнтів або "
 "іншими виробничими замовленнями"
@@ -81417,8 +82083,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Очікує попереднього робочого замовлення, запланованого з %(start)s до "
 "%(end)s"
+=======
+"Очікує попереднього робочого замовлення, запланованого з %(start)s до %(end)s"
+>>>>>>> upstream/18.0
 =======
 "Очікує попереднього робочого замовлення, запланованого з %(start)s до %(end)s"
 >>>>>>> upstream/18.0
@@ -82365,8 +83035,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
+=======
+"try to create a Manufacturing Order for that product using a BoM of the same "
+"operation type. That allows to define stock rules which trigger different "
+>>>>>>> upstream/18.0
 =======
 "try to create a Manufacturing Order for that product using a BoM of the same "
 "operation type. That allows to define stock rules which trigger different "
@@ -83494,12 +84169,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
 "Якщо активовано, реєстрація споживання для цього компонента реєструється виключно вручну.\n"
 "Якщо не активовано, а споживання будь-якого з компонентів редагується вручну під час замовлення на виробництво, Odoo також припускає споживання вручну."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -84175,6 +84853,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -84885,8 +85566,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Помічник у разі споживання конкретного компоненту або при попередженні, який"
 " був використаний для MO (пов'язаного зі специфікацією)"
+=======
+"Помічник у разі споживання конкретного компоненту або при попередженні, який "
+"був використаний для MO (пов'язаного зі специфікацією)"
+>>>>>>> upstream/18.0
 =======
 "Помічник у разі споживання конкретного компоненту або при попередженні, який "
 "був використаний для MO (пов'язаного зі специфікацією)"
@@ -86161,11 +86847,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Робочі замовлення - це операції, що виконуються як частина замовлення на виробництво.\n"
 "                   Операції визначаються у специфікації або додаються безпосередньо до замовлення на виробництво."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -86839,6 +87528,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87515,11 +88207,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Робочі замовлення - це операції, які виконуються як частина замовлення на виробництво.\n"
 "            Операції визначаються в специфікаціях або додаються безпосередньо у замовленні на виробництво."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88193,6 +88888,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88726,6 +89424,11 @@ msgid ""
 "Write one line per finished product to produce, with serial numbers as "
 "follows:\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Напишіть один рядок на кожен готовий товар для виробництва, з серійними "
+"номерами, як зазначено нижче:\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_production__search_date_category__yesterday
@@ -88987,7 +89690,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Ви не можете видалити специфікацію із запущеними замовленнями на виробництво.\n"
+=======
+"Ви не можете видалити специфікацію із запущеними замовленнями на "
+"виробництво.\n"
+>>>>>>> upstream/18.0
 =======
 "Ви не можете видалити специфікацію із запущеними замовленнями на "
 "виробництво.\n"
@@ -90111,6 +90819,7 @@ msgstr "Ви можете об'єднати виробництво лише з �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/mrp/models/mrp_workorder.py:0
 msgid ""
 <<<<<<< HEAD
@@ -90617,6 +91326,11 @@ msgid ""
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot cancel a manufacturing order that is already done."
 msgstr ""
+=======
+#: code:addons/mrp/models/mrp_production.py:0
+msgid "You cannot cancel a manufacturing order that is already done."
+msgstr "Ви не можете скасувати виробниче замовлення, яке вже виконано."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -90818,6 +91532,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91228,6 +91945,7 @@ msgstr "Ви не можете створити циклічну залежні�
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91956,11 +92674,17 @@ msgstr ""
 #: code:addons/mrp/models/mrp_production.py:0
 msgid "You cannot delete a manufacturing order that is already done."
 msgstr ""
+=======
+#: code:addons/mrp/models/mrp_production.py:0
+msgid "You cannot delete a manufacturing order that is already done."
+msgstr "Ви не можете видалити виробниче замовлення, яке вже виконано."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
 #: code:addons/mrp/models/mrp_unbuild.py:0
 msgid "You cannot delete an unbuild order if the state is 'Done'."
+<<<<<<< HEAD
 msgstr ""
 "Ви не можете видалити замовлення на розбирання, якщо стан - \"Готово\"."
 <<<<<<< HEAD
@@ -92549,6 +93273,9 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+msgstr "Ви не можете видалити замовлення на розбирання, якщо стан - \"Готово\"."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -92562,7 +93289,11 @@ msgstr "Ви не можете мати %s  як завершений товар
 msgid "You cannot link this work order to another manufacturing order."
 msgstr ""
 "Ви не можете зв'язати це робоче замовлення з іншим замовленням на "
+<<<<<<< HEAD
 "виробництво. "
+=======
+"виробництво."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -92832,6 +93563,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
@@ -92839,6 +93571,8 @@ msgid ""
 msgstr ""
 "Ви спожили кількість, яка відрізняється від очікуваної для наступних товарів.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93515,6 +94249,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94187,10 +94924,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Будь ласка, перевірте споживання компонентів або попросіть менеджера перевірити\n"
 "                            <span invisible=\"mrp_production_count != 1\">це замовлення на виробництво</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">ці замовлення на виробництво</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94863,6 +95603,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95548,8 +96291,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "\"Продуктивність\". Створіть його з додатку Виробництво, меню: "
 "Налаштування/Втрати продуктивності."
+=======
+"\"Продуктивність\". Створіть його з додатку Виробництво, меню: Налаштування/"
+"Втрати продуктивності."
+>>>>>>> upstream/18.0
 =======
 "\"Продуктивність\". Створіть його з додатку Виробництво, меню: Налаштування/"
 "Втрати продуктивності."
@@ -96671,6 +97419,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
 msgstr ""
@@ -96678,6 +97427,8 @@ msgstr ""
 "\"Продуктивність\". Створіть його з додатку Виробництво, меню: "
 "Налаштування/Втрати продуктивності."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97350,6 +98101,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97818,6 +98572,7 @@ msgstr "Вам необхідно надати партію для готово�
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98936,6 +99691,13 @@ msgid ""
 "(missing_products)s"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"You need to supply Lot/Serial Number for products and 'consume' them: %"
+"(missing_products)s"
+msgstr ""
+"Вам потрібно надати номер партії/серії товарів та «спожити» їх: %"
+"(missing_products)s"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_production_backorder
@@ -98978,7 +99740,11 @@ msgstr "дні"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "days before"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "дні до"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
@@ -99065,6 +99831,7 @@ msgstr "розділити"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "робочі замовлення"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100020,6 +100787,8 @@ msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #~ msgid "100"
 #~ msgstr "100"
@@ -100085,6 +100854,9 @@ msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

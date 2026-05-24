@@ -1,5 +1,9 @@
 import { registry } from "@web/core/registry";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { inputFiles } from "@web/../tests/utils";
+>>>>>>> upstream/18.0
 =======
 import { inputFiles } from "@web/../tests/utils";
 >>>>>>> upstream/18.0
@@ -23,7 +27,10 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
         run: "click"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     // Also check that additional attachments are not kept in chatter composer
     {
         content: "add one extra file in composer",
@@ -37,6 +44,9 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
         content: "check new attachment is listed",
         trigger: ".o_field_mail_composer_attachment_list a:contains(file1.txt)",
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     {
         content: "send the email",
@@ -48,8 +58,11 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
         trigger: "button[name='action_confirm']",
         run: "click"
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 =======
+=======
+>>>>>>> upstream/18.0
     },
     {
         content: "click on Send Message",
@@ -60,6 +73,9 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
         content: "Check that the extra attachment is not listed anymore in chatter composer",
         trigger: ".o-mail-Composer:not(:has(div.o-mail-AttachmentList))",
     },
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 ]
 })

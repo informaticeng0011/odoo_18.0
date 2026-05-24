@@ -1,12 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* resource
 #
+=======
+# * resource
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,39 +22,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-05-20 17:12+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/resource/lo/>"
+"\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 #: code:addons/resource/models/resource_resource.py:0
 msgid "%s (copy)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (ສຳເນົາ)"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "<span class=\"o_stat_text\">Time Off</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ການລາພັກ</span>"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "<span class=\"o_stat_text\">Work Resources</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ຊັບພະຍາກອນວຽກ</span>"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "<span> hours/week</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> ຊົ່ວໂມງ/ອາທິດ</span>"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__active
 #: model:ir.model.fields,field_description:resource.field_resource_resource__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__day_period__afternoon
 msgid "Afternoon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນບ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
@@ -54,7 +98,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_search
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
@@ -62,6 +110,10 @@ msgid ""
 "Are you sure you want to switch to a 1-week calendar? All work entries will "
 "be lost."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການປ່ຽນເປັນປະຕິທິນແບບ 1 ອາທິດ? ຂໍ້ມູນການເຮັດວຽກທັງໝົດຈະສູນຫາຍ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
@@ -69,49 +121,85 @@ msgid ""
 "Are you sure you want to switch to a 2-week calendar? All work entries will "
 "be lost."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານແນ່ໃຈບໍວ່າຕ້ອງການປ່ຽນເປັນປະຕິທິນແບບ 2 ອາທິດ? ຂໍ້ມູນການເຮັດວຽກທັງໝົດຈະສູນຫາຍ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Attendances can't overlap."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາການເຂົ້າເຮັດວຽກບໍ່ສາມາດທັບຊ້ອນກັນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource__avatar_128
 msgid "Avatar 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບຕົວແທນ 128"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__hours_per_day
 msgid "Average Hour per Day"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງສະເລ່ຍຕໍ່ມື້"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__hours_per_day
 msgid ""
 "Average hours per day a resource is supposed to work with this calendar."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງສະເລ່ຍຕໍ່ມື້ທີ່ຊັບພະຍາກອນຄວນຈະເຮັດວຽກຕາມປະຕິທິນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__day_period__lunch
 msgid "Break"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__two_weeks_calendar
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__two_weeks_calendar
 msgid "Calendar in 2 weeks mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນໃນໂໝດ 2 ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.resource_calendar_closing_days
 msgid "Closing Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ປິດການ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model,name:resource.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__company_id
@@ -121,12 +209,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__full_time_required_hours
 msgid "Company Full Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາເຮັດວຽກເຕັມເວລາຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__create_uid
@@ -134,7 +230,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__create_uid
 #: model:ir.model.fields,field_description:resource.field_resource_resource__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__create_date
@@ -142,28 +242,48 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__create_date
 #: model:ir.model.fields,field_description:resource.field_resource_resource__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__day_period
 msgid "Day Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ວງເວລາຂອງມື້"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__dayofweek
 msgid "Day of Week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນໃນອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_res_company__resource_calendar_id
 #: model:ir.model.fields,field_description:resource.field_res_users__resource_calendar_id
 msgid "Default Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງເຮັດວຽກເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_res_users__resource_calendar_id
@@ -173,6 +293,11 @@ msgid ""
 "Define the working schedule of the resource. If not set, the resource will "
 "have fully flexible working hours."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຳນົດຕາຕະລາງການເຮັດວຽກຂອງຊັບພະຍາກອນ. ຫາກບໍ່ໄດ້ກຳນົດ, ຊັບພະຍາກອນຈະມີເວລາເຮັດວຽກທີ່ຢືດຢຸ່ນຢ່າງເ"
+"ຕັມທີ່."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.actions.act_window,help:resource.action_resource_calendar_form
@@ -180,6 +305,10 @@ msgid ""
 "Define working hours and time table that could be scheduled to your project "
 "members"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຳນົດຊົ່ວໂມງເຮັດວຽກ ແລະ ຕາຕະລາງເວລາທີ່ສາມາດຈັດສັນໃຫ້ກັບສະມາຊິກໂຄງການຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__display_name
@@ -187,43 +316,75 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__display_name
 #: model:ir.model.fields,field_description:resource.field_resource_resource__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__display_type
 msgid "Display Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__duration_days
 msgid "Duration (days)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາ (ມື້)"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__duration_hours
 msgid "Duration (hours)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາ (ຊົ່ວໂມງ)"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource__time_efficiency
 msgid "Efficiency Factor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປັດໄຈປະສິດທິພາບ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource__email
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__date_to
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__date_to
 msgid "End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__two_weeks_explanation
 msgid "Explanation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource__share
@@ -231,82 +392,142 @@ msgid ""
 "External user with limited access, created only for the purpose of sharing "
 "data."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຜູ້ໃຊ້ພາຍນອກທີ່ມີການເຂົ້າເຖິງຈຳກັດ, ສ້າງຂຶ້ນເພື່ອຈຸດປະສົງໃນການແບ່ງປັນຂໍ້ມູນເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__week_type__0
 msgid "First"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຳອິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "First week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດທຳອິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__flexible_hours
 msgid "Flexible Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາເຮັດວຽກຢືດຢຸ່ນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__4
 msgid "Friday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນສຸກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Friday Afternoon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນບ່າຍວັນສຸກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Friday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັກທ່ຽງວັນສຸກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Friday Morning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນເຊົ້າວັນສຸກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_resource_form
 msgid "Fully Flexible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືດຢຸ່ນຢ່າງເຕັມທີ່"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_attendance__sequence
 msgid "Gives the sequence of this line when displaying the resource calendar."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດລຳດັບຂອງແຖວນີ້ເມື່ອສະແດງປະຕິທິນຊັບພະຍາກອນ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__global_leave_ids
 msgid "Global Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນພັກລວມ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_attendance_form
 msgid "Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Hours per Week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງຕໍ່ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_resource__resource_type__user
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Human"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບຸກຄົນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__id
@@ -314,7 +535,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__id
 #: model:ir.model.fields,field_description:resource.field_resource_resource__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__resource_id
@@ -322,6 +547,11 @@ msgid ""
 "If empty, this is a generic time off for the company. If a resource is set, "
 "the time off is only for this resource"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຫາກວ່າງໄວ້, ນີ້ຈະເປັນວັນພັກທົ່ວໄປຂອງບໍລິສັດ. ຫາກມີການກຳນົດຊັບພະຍາກອນ, ວັນພັກຈະມີຜົນສະເພາະກັບຊັບພະຍ"
+"າກອນນັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource__active
@@ -329,6 +559,10 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the resource "
 "record without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຫາກຊ່ອງການໃຊ້ງານຖືກຕັ້ງເປັນ False, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງຂໍ້ມູນຊັບພະຍາກອນໄດ້ໂດຍບໍ່ຕ້ອງລຶບອອກ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__active
@@ -336,13 +570,21 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the Working "
 "Time without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຫາກຊ່ອງການໃຊ້ງານຖືກຕັ້ງເປັນ False, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງເວລາເຮັດວຽກໄດ້ໂດຍບໍ່ຕ້ອງລຶບອອກ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid ""
 "In a calendar with 2 weeks mode, all periods need to be in the sections."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນປະຕິທິນແບບໂໝດ 2 ອາທິດ, ທຸກໆຊ່ວງເວລາຕ້ອງຢູ່ໃນພາກສ່ວນທີ່ກຳນົດໄວ້."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__write_uid
@@ -350,7 +592,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__write_uid
 #: model:ir.model.fields,field_description:resource.field_resource_resource__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__write_date
@@ -358,48 +604,80 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__write_date
 #: model:ir.model.fields,field_description:resource.field_resource_resource__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_resource__resource_type__material
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Material"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັດສະດຸ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__0
 msgid "Monday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນຈັນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Monday Afternoon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນບ່າຍວັນຈັນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Monday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັກທ່ຽງວັນຈັນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Monday Morning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນເຊົ້າວັນຈັນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__day_period__morning
 msgid "Morning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນເຊົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__name
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__name
 #: model:ir.model.fields,field_description:resource.field_resource_resource__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__full_time_required_hours
@@ -407,33 +685,57 @@ msgid ""
 "Number of hours to work on the company schedule to be considered as "
 "fulltime."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຈຳນວນຊົ່ວໂມງເຮັດວຽກຕາມຕາຕະລາງຂອງບໍລິສັດທີ່ຈະຖືວ່າເປັນການເຮັດວຽກເຕັມເວລາ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_leaves__time_type__other
 msgid "Other"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອື່ນໆ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ວງເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource__phone
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__name
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_leave_form
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_leave_tree
 msgid "Reason"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource__user_id
 msgid "Related user name for the resource to manage its access."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຜູ້ໃຊ້ທີ່ກ່ຽວຂ້ອງກັບຊັບພະຍາກອນເພື່ອຈັດການການເຂົ້າເຖິງ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__resource_id
@@ -444,34 +746,58 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Resource"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_mixin
 msgid "Resource Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Resource Mixin"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.action_resource_calendar_leave_tree
 #: model:ir.actions.act_window,name:resource.resource_calendar_leaves_action_from_calendar
 #: model:ir.ui.menu,name:resource.menu_view_resource_calendar_leaves_search
 msgid "Resource Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລາພັກຂອງຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_calendar_leaves
 msgid "Resource Time Off Detail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດການລາພັກຂອງຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_calendar
 msgid "Resource Working Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາເຮັດວຽກຂອງຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__calendar_id
 msgid "Resource's Calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຕິທິນຂອງຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.action_resource_resource_tree
@@ -481,12 +807,20 @@ msgstr ""
 #: model:ir.ui.menu,name:resource.menu_resource_resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_resource_tree
 msgid "Resources"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.resource_calendar_resources_leaves
 msgid "Resources Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລາພັກຂອງຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.actions.act_window,help:resource.action_resource_resource_tree
@@ -496,63 +830,112 @@ msgid ""
 "in a specific project phase. You can also set their efficiency level and "
 "workload based on their weekly working hours."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຊັບພະຍາກອນຊ່ວຍໃຫ້ທ່ານສ້າງ ແລະ ຈັດການຊັບພະຍາກອນທີ່ຄວນມີສ່ວນຮ່ວມໃນໄລຍະໂຄງການສະເພາະໃດໜຶ່ງ. ທ່ານ"
+"ຍັງສາມາດກຳນົດລະດັບປະສິດທິພາບ ແລະ ປະລິມານວຽກໂດຍອີງໃສ່ຊົ່ວໂມງເຮັດວຽກປະຈຳອາທິດຂອງພວກເຂົາ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__5
 msgid "Saturday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນເສົາ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Search Resource"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Search Working Period Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາເວລາພັກໃນຊ່ວງເວລາເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_search
 msgid "Search Working Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາເວລາເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__week_type__1
 msgid "Second"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີສອງ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "Second week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດທີສອງ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__display_type__line_section
 msgid "Section"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາກສ່ວນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource__share
 msgid "Share User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ແບ່ງປັນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/res_company.py:0
 msgid "Standard 40 hours/week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາດຕະຖານ 40 ຊົ່ວໂມງ/ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__date_from
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_attendance__hour_from
@@ -560,41 +943,74 @@ msgid ""
 "Start and End time of working.\n"
 "A specific value of 24:00 is interpreted as 23:59:59.999999."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເວລາເລີ່ມຕົ້ນ ແລະ ສິ້ນສຸດຂອງການເຮັດວຽກ.\n"
+"ຄ່າສະເພາະ 24:00 ຈະຖືກຕີຄວາມໝາຍເປັນ 23:59:59.999999."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__date_from
 msgid "Starting Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_leaves_search
 msgid "Starting Date of Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນຂອງການລາພັກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__6
 msgid "Sunday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Switch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ່ຽນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Switch to 1 week calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ່ຽນເປັນປະຕິທິນ 1 ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Switch to 2 weeks calendar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ່ຽນເປັນປະຕິທິນ 2 ອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_attendance__display_type
 msgid "Technical field for UX purpose."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟິວທາງເຕັກນິກເພື່ອຈຸດປະສົງ UX."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
@@ -603,12 +1019,20 @@ msgid ""
 "The current week (from %(first_day)s to %(last_day)s) corresponds to week "
 "number %(number)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອາທິດປັດຈຸບັນ (ຕັ້ງແຕ່ %(first_day)s ຫາ %(last_day)s) ກົງກັບອາທິດທີ %(number)s."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar_leaves.py:0
 msgid "The start date of the time off must be earlier than the end date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນຂອງການລາພັກຕ້ອງມາກ່ອນວັນທີສິ້ນສຸດ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__tz
@@ -616,7 +1040,11 @@ msgstr ""
 msgid ""
 "This field is used in order to define in which timezone the resources will "
 "work."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟິວນີ້ຖືກໃຊ້ເພື່ອ ກຳນົດເຂດເວລາທີ່ຊັບພະຍາກອນຈະເຮັດວຽກ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_resource__time_efficiency
@@ -627,127 +1055,217 @@ msgid ""
 "the efficiency factor is 200%, however the expected duration will be 30 "
 "minutes."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຟິວນີ້ໃຊ້ເພື່ອຄິດໄລ່ໄລຍະເວລາທີ່ຄາດໄວ້ຂອງຄຳສັ່ງວຽກຢູ່ສູນວຽກນີ້. ຕົວຢ່າງ, ຫາກຄຳສັ່ງວຽກໃຊ້ເວລາໜຶ່ງຊົ່ວໂມງ ແ"
+"ລະ ປັດໄຈປະສິດທິພາບແມ່ນ 100%, ໄລຍະເວລາທີ່ຄາດໄວ້ຈະແມ່ນໜຶ່ງຊົ່ວໂມງ. ແຕ່ຫາກປັດໄຈປະສິດທິພາບແມ່ນ "
+"200%, ໄລຍະເວລາທີ່ຄາດໄວ້ຈະແມ່ນ 30 ນາທີ."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__3
 msgid "Thursday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນພະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Thursday Afternoon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນບ່າຍວັນພະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Thursday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັກທ່ຽງວັນພະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Thursday Morning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນເຊົ້າວັນພະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__leave_ids
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_leaves__time_type__leave
 msgid "Time Off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລາພັກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_leave_form
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_leave_tree
 msgid "Time Off Detail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດການລາພັກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__time_type
 msgid "Time Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.constraint,message:resource.constraint_resource_resource_check_time_efficiency
 msgid "Time efficiency must be strictly positive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະສິດທິພາບເວລາຕ້ອງເປັນຄ່າບວກເທົ່ານັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__tz
 #: model:ir.model.fields,field_description:resource.field_resource_mixin__tz
 #: model:ir.model.fields,field_description:resource.field_resource_resource__tz
 msgid "Timezone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__tz_offset
 msgid "Timezone offset"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕ່າງເຂດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__1
 msgid "Tuesday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນອັງຄານ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Tuesday Afternoon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນບ່າຍວັນອັງຄານ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Tuesday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັກທ່ຽງວັນອັງຄານ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Tuesday Morning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນເຊົ້າວັນອັງຄານ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource__resource_type
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model,name:resource.model_res_users
 #: model:ir.model.fields,field_description:resource.field_resource_resource__user_id
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__2
 msgid "Wednesday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນພຸດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Wednesday Afternoon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນບ່າຍວັນພຸດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Wednesday Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັກທ່ຽງວັນພຸດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Wednesday Morning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນເຊົ້າວັນພຸດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__week_type
 msgid "Week Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກລຳດັບອາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__flexible_hours
@@ -755,6 +1273,11 @@ msgid ""
 "When enabled, it will allow employees to work flexibly, without relying on "
 "the company's working schedule (working hours)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເມື່ອເປີດໃຊ້ງານ, ມັນຈະຊ່ວຍໃຫ້ພະນັກງານເຮັດວຽກໄດ້ຢ່າງຢືດຢຸ່ນ ໂດຍບໍ່ຕ້ອງອີງໃສ່ຕາຕະລາງການເຮັດວຽກຂອງບໍລິ"
+"ສັດ (ຊົ່ວໂມງເຮັດວຽກ)."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__time_type
@@ -762,21 +1285,37 @@ msgid ""
 "Whether this should be computed as a time off or as work time (eg: "
 "formation)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ວ່າຈະເປັນການຄິດໄລ່ເປັນການລາພັກ ຫຼື ເປັນເວລາເຮັດວຽກ (ຕົວຢ່າງ: ການຝຶກອົບຮົມ)"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_calendar_attendance
 msgid "Work Detail"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__hour_from
 msgid "Work from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມວຽກແຕ່"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__hour_to
 msgid "Work to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີກວຽກເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_res_company__resource_calendar_ids
@@ -784,19 +1323,31 @@ msgstr ""
 #: model:ir.model.fields,field_description:resource.field_resource_mixin__resource_calendar_id
 #: model_terms:ir.ui.view,arch_db:resource.resource_calendar_form
 msgid "Working Hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "Working Hours of %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງເຮັດວຽກຂອງ %s"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.actions.act_window,name:resource.action_resource_calendar_form
 #: model:ir.ui.menu,name:resource.menu_resource_calendar
 msgid "Working Schedules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕາຕະລາງການເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__attendance_ids
@@ -808,34 +1359,58 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_calendar_tree
 #: model_terms:ir.ui.view,arch_db:resource.view_resource_resource_search
 msgid "Working Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາເຮັດວຽກ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "You can't delete section between weeks."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດລຶບພາກສ່ວນລະຫວ່າງອາທິດໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "first"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຳອິດ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "other week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດອື່ນ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar.py:0
 msgid "second"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີສອງ"
+>>>>>>> upstream/18.0
 
 #. module: resource
 #. odoo-python
 #: code:addons/resource/models/resource_calendar_attendance.py:0
 msgid "this week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດນີ້"
+>>>>>>> upstream/18.0

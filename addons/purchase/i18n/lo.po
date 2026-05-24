@@ -3,19 +3,35 @@
 # * purchase
 #
 # Translators:
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:48+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2016-06-22 09:11+0000\n"
 "Last-Translator: Martin Trigaux\n"
 "Language-Team: Lao (http://www.transifex.com/odoo/odoo-9/language/lo/)\n"
+=======
+"PO-Revision-Date: 2026-05-21 07:07+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/purchase/lo/>"
+"\n"
+>>>>>>> upstream/18.0
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
@@ -24,12 +40,23 @@ msgid ""
 "                (object.state in ('draft', 'sent') and 'Request for Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"                (object.state in ('draft', 'sent') and 'ໃບສະເໜີລາຄາ - %s' % "
+"(object.name) or\n"
+"                'ໃບສັ່ງຊື້ - %s' % (object.name))"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner__supplier_invoice_count
 #: model:ir.model.fields,field_description:purchase.field_res_users__supplier_invoice_count
 msgid "# Vendor Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ໃບບິນຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__nbr_lines
@@ -40,52 +67,88 @@ msgstr "# ຂອງລາຍການ"
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "%(amount)s due %(date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(amount)s ຄົບກຳນົດວັນທີ %(date)s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "%(product)s from %(original_receipt_date)s to %(new_receipt_date)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(product)s ຈາກ %(original_receipt_date)s ຫາ %(new_receipt_date)s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "%s confirmed the receipt will take place on %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ຢືນຢັນວ່າການຮັບເຄື່ອງຈະມີຂຶ້ນໃນວັນທີ %s."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "%s modified receipt dates for the following products:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ໄດ້ແກ້ໄຂວັນທີຮັບເຄື່ອງສຳລັບສິນຄ້າດັ່ງຕໍ່ໄປນີ້:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "&amp;nbsp;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "&amp;nbsp;"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.report_purchase_quotation
 msgid "'Request for Quotation - %s' % (object.name)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'ໃບສະເໜີລາຄາ - %s' % (object.name)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_qty_received_template
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "-&gt;"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "-&gt;"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "3-way matching"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກວດສອບ 3 ທາງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_account_3way_match
 msgid "3-way matching: purchases, receptions and bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກວດສອບ 3 ທາງ: ການສັ່ງຊື້, ການຮັບເຄື່ອງ ແລະ ໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase_reminder
@@ -117,6 +180,40 @@ msgid ""
 "    </p>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        ຮຽນ <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
+"Interior</t>)\n"
+"        </t>\n"
+"        <br><br>\n"
+"        ນີ້ແມ່ນການແຈ້ງເຕືອນວ່າການຈັດສົ່ງຂອງໃບສັ່ງຊື້ <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            <span style=\"font-weight:bold;\">(<t t-out=\"object.partner_ref "
+"or ''\">REF_XXX</t>)</span>\n"
+"        </t>\n"
+"        ມີກຳນົດການໃນວັນທີ \n"
+"        <t t-if=\"object.date_planned\">\n"
+"            <span style=\"font-weight:bold;\" t-out=\"format_date"
+"(object.date_planned) or ''\">05/05/2021</span>.\n"
+"        </t>\n"
+"         <t t-else=\"\">\n"
+"            <span style=\"font-weight:bold;\">ບໍ່ໄດ້ກຳນົດ</span>.\n"
+"        </t>\n"
+"        ກະລຸນາຢືນຢັນວ່າທ່ານຈະສາມາດຈັດສົ່ງໄດ້ທັນເວລາບໍ່?\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
+"            <br><br>\n"
+"            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell "
+"Admin</t>\n"
+"        </t>\n"
+"        <br><br>\n"
+"    </p>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase_done
@@ -148,6 +245,40 @@ msgid ""
 "    </p>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        ຮຽນ <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
+"Interior</t>)\n"
+"        </t>\n"
+"        <br><br>\n"
+"        ຄັດຕິດມານີ້ແມ່ນໃບສັ່ງຊື້ <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            ເລກອ້າງອີງ: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
+"        </t>\n"
+"        ລວມເປັນມູນຄ່າ <span style=\"font-weight:bold;\" t-out=\"format_amount"
+"(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
+"        ຈາກ <t t-out=\"object.company_id.name or ''\">YourCompany</t>. \n"
+"        <br><br>\n"
+"        <t t-if=\"object.date_planned\">\n"
+"            ຄາດວ່າຈະໄດ້ຮັບເຄື່ອງໃນວັນທີ <span style=\"font-weight:bold;\" t-"
+"out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
+"            <br><br>\n"
+"            ກະລຸນາຢືນຢັນການຮັບໃບສັ່ງຊື້ນີ້ດ້ວຍ?\n"
+"        </t>\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
+"            <br><br>\n"
+"            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell "
+"Admin</t>\n"
+"        </t>\n"
+"        <br><br>\n"
+"    </p>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,body_html:purchase.email_template_edi_purchase
@@ -175,51 +306,120 @@ msgid ""
 "    </p>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        ຮຽນ <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
+"Interior</t>)\n"
+"        </t>\n"
+"        <br><br>\n"
+"        ຄັດຕິດມານີ້ແມ່ນໃບສະເໜີລາຄາ <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">P00015</span>\n"
+"        <t t-if=\"object.partner_ref\">\n"
+"            ເລກອ້າງອີງ: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
+"        </t>\n"
+"        ຈາກ <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br><br>\n"
+"        ຫາກທ່ານມີຄຳຖາມໃດໆ, ກະລຸນາຕິດຕໍ່ຫາພວກເຮົາໄດ້ທຸກເວລາ.\n"
+"        <br><br>\n"
+"        ດ້ວຍຄວາມເຄົາລົບ,\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
+"            <br><br>\n"
+"            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell "
+"Admin</t>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<i class=\"fa fa-comment\"/> Send message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-comment\"/> ສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<i class=\"fa fa-download\"/> Download"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-download\"/> ດາວໂຫລດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Done\" title=\"Done\"/><span class=\"d-none d-md-inline\"> Done</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Done\" "
+"title=\"Done\"/><span class=\"d-none d-md-inline\"> ສຳເລັດ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<i class=\"fa fa-fw fa-check\"/> <b>Paid</b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/> <b>ຈ່າຍແລ້ວ</b>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<i class=\"fa fa-fw fa-clock-o\"/> <b>Waiting Payment</b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/> <b>ລໍຖ້າການຊຳລະ</b>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_partner_kanban_view
 msgid "<i class=\"fa fa-fw fa-credit-card\" role=\"img\" aria-label=\"Purchases\" title=\"Purchases\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-credit-card\" role=\"img\" aria-label=\"Purchases\" "
+"title=\"Purchases\"/>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid "<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"Waiting for Bill\" title=\"Waiting for Bill\"/><span class=\"d-none d-md-inline\"> Waiting for Bill</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"Waiting for "
+"Bill\" title=\"Waiting for Bill\"/><span class=\"d-none d-md-inline\"> ລໍຖ້າໃບບິ"
+"ນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid "<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"Cancelled\" title=\"Cancelled\"/><span class=\"d-none d-md-inline\"> Cancelled</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-remove\" role=\"img\" aria-label=\"Cancelled\" "
+"title=\"Cancelled\"/><span class=\"d-none d-md-inline\"> ຍົກເລີກແລ້ວ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<i class=\"fa fa-print\"/> Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-print\"/> ພິມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -227,6 +427,11 @@ msgid ""
 "<span class=\"d-none d-md-inline\">Confirmation Date</span>\n"
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-md-inline\">ວັນທີຢືນຢັນ</span>\n"
+"                          <span class=\"d-block d-md-none\">ຢືນຢັນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -234,6 +439,11 @@ msgid ""
 "<span class=\"d-none d-md-inline\">Purchase Order #</span>\n"
 "                          <span class=\"d-block d-md-none\">Ref.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-md-inline\">ເລກທີໃບສັ່ງຊື້ #</span>\n"
+"                          <span class=\"d-block d-md-none\">ອ້າງອີງ.</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
@@ -241,6 +451,11 @@ msgid ""
 "<span class=\"d-none d-md-inline\">Request for Quotation #</span>\n"
 "                        <span class=\"d-block d-md-none\">Ref.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-md-inline\">ເລກທີໃບສະເໜີລາຄາ #</span>\n"
+"                        <span class=\"d-block d-md-none\">ອ້າງອີງ.</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -248,178 +463,319 @@ msgid ""
 "<span class=\"o_form_label\" attrs=\"{'invisible': [('state','not in',('draft','sent'))]}\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" attrs=\"{'invisible': [('state','in',('draft','sent'))]}\">Purchase Order </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_form_label\" attrs=\"{'invisible': [('state','not in',"
+"('draft','sent'))]}\">ໃບສະເໜີລາຄາ </span>\n"
+"                        <span class=\"o_form_label\" attrs=\"{'invisible': ["
+"('state','in',('draft','sent'))]}\">ໃບສັ່ງຊື້ </span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_normal_form_view_inherit_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_template_purchase_buttons_from
 msgid "<span class=\"o_stat_text\">Purchased</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ຊື້ແລ້ວ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span class=\"text-muted\" attrs=\"{'invisible': [('mail_reception_confirmed','=', False)]}\">(confirmed by vendor)</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\" attrs=\"{'invisible': ["
+"('mail_reception_confirmed','=', False)]}\">(ຢືນຢັນໂດຍຜູ້ສະໜອງ)</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span class=\"text-muted\" attrs=\"{'invisible': [('mail_reminder_confirmed', '=', False)]}\">(confirmed by vendor)</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\" attrs=\"{'invisible': ["
+"('mail_reminder_confirmed', '=', False)]}\">(ຢືນຢັນໂດຍຜູ້ສະໜອງ)</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_partner_property_form
 msgid "<span> day(s) before</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> ມື້ ກ່ອນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "<span>Ask confirmation</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ຂໍການຢືນຢັນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<span>Tax excl.</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ບໍ່ລວມອາກອນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<span>Tax incl.</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ລວມອາກອນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<span>Taxes</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ອາກອນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong class=\"d-block mb-1\">From:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"d-block mb-1\">ຈາກ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong class=\"d-block mb-1\">Invoices</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"d-block mb-1\">ໃບແຈ້ງໜີ້</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong class=\"mr16\">Subtotal</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"mr16\">ລວມຍ່ອຍ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong class=\"text-muted\">Purchase Representative</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong class=\"text-muted\">ຕົວແທນການຈັດຊື້</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong>Confirmation Date:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ວັນທີຢືນຢັນ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Date Req.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ວັນທີຮ້ອງຂໍ.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Description</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຄຳອະທິບາຍ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Expected Date</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ວັນທີຄາດໝາຍ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Order Date:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ວັນທີສັ່ງຊື້:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Order Deadline:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ກຳນົດເວລາສັ່ງຊື້:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Purchase Representative:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຕົວແທນການຈັດຊື້:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Qty</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຈຳນວນ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong>Receipt Date:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ວັນທີຮັບເຄື່ອງ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong>Request For Quotation Date:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ວັນທີຮ້ອງຂໍໃບສະເໜີລາຄາ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
+<<<<<<< HEAD
 msgstr "<strong>ສະຖານທີ່ສົ່ງເຄື່ອງ:</strong>"
+=======
+msgstr "<strong>ທີ່ຢູ່ຈັດສົ່ງ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Tax excl.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ບໍ່ລວມອາກອນ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Tax incl.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ລວມອາກອນ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Taxes</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ອາກອນ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "<strong>The ordered quantity has been updated.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຈຳນວນທີ່ສັ່ງຊື້ໄດ້ຖືກປັບປຸງແລ້ວ.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_qty_received_template
 msgid "<strong>The received quantity has been updated.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຈຳນວນທີ່ໄດ້ຮັບໄດ້ຖືກປັບປຸງແລ້ວ.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "<strong>This purchase has been canceled.</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ການສັ່ງຊື້ນີ້ໄດ້ຖືກຍົກເລີກແລ້ວ.</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Unit Price</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ລາຄາຕໍ່ໜ່ວຍ</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "<strong>Update Here</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ປັບປຸງທີ່ນີ້</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "<strong>Your Order Reference:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ເລກອ້າງອີງການສັ່ງຊື້ຂອງທ່ານ:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "A sample email has been sent to %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວຕົວຢ່າງໄດ້ຖືກສົ່ງໄປຫາ %s ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__product_type
@@ -428,27 +784,49 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສິນຄ້າທີ່ເກັບສະຕັອກໄດ້ ແມ່ນສິນຄ້າທີ່ທ່ານຄຸ້ມຄອງສະຕັອກ. ຕ້ອງຕິດຕັ້ງແອັບ Inventory.\n"
+"ສິນຄ້າບໍລິໂພກ ແມ່ນສິນຄ້າທີ່ບໍ່ໄດ້ຄຸ້ມຄອງສະຕັອກ.\n"
+"ການບໍລິການ ແມ່ນສິນຄ້າທີ່ບໍ່ແມ່ນວັດຖຸທີ່ທ່ານສະໜອງໃຫ້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_warning_purchase
 msgid "A warning can be set on a product or a customer (Purchase)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດຕັ້ງຄຳເຕືອນໃນສິນຄ້າ ຫຼື ລູກຄ້າ (ການຈັດຊື້)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Ability to select a package type in purchase orders and to force a quantity that is a multiple of the number of units per package."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄວາມສາມາດໃນການເລືອກປະເພດການຫຸ້ມຫໍ່ໃນໃບສັ່ງຊື້ ແລະ ບັງຄັບຈຳນວນທີ່ເປັນຕົວຄູນຂອງຫົວໜ່ວຍຕໍ່ແພັກເກັດ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Accept"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍອມຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_warning
 msgid "Access warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນການເຂົ້າເຖິງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__qty_received_method
@@ -457,198 +835,348 @@ msgid ""
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອີງຕາມການກຳນົດຄ່າສິນຄ້າ, ຈຳນວນທີ່ໄດ້ຮັບສາມາດຄຳນວນອັດຕະໂນມັດໂດຍກົນໄກ:\n"
+"  - ດ້ວຍຕົນເອງ: ຈຳນວນຖືກຕັ້ງດ້ວຍຕົນເອງໃນລາຍການ\n"
+"  - ການເຄື່ອນຍ້າຍສະຕັອກ: ຈຳນວນມາຈາກການເກັບເຄື່ອງທີ່ຢືນຢັນແລ້ວ\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_accrued_expense_entry
 msgid "Accrued Expense Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການຄ່າໃຊ້ຈ່າຍຄ້າງຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕົບແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Add a note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມບັນທຶກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Add a product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Add a section"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຫົວຂໍ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Add several variants to the purchase order from a grid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມສິນຄ້າຍ່ອຍຫຼາຍລາຍການເຂົ້າໃນໃບສັ່ງຊື້ຈາກຕາຕະລາງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Add some products or services to your quotation."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມສິນຄ້າ ຫຼື ການບໍລິການບາງຢ່າງເຂົ້າໃນໃບສະເໜີລາຄາຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager
 msgid "Administrator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ດູແລລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "All"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Draft RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາສະບັບຮ່າງທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Late RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທີ່ຊັກຊ້າທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "All Waiting RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທີ່ກຳລັງລໍຖ້າທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__group_send_reminder
 msgid "Allow automatically send email to remind your vendor the receipt date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ສົ່ງອີເມວອັດຕະໂນມັດເພື່ອເຕືອນຜູ້ສະໜອງກ່ຽວກັບວັນທີຮັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_company__po_lock__edit
 msgid "Allow to edit purchase orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ແກ້ໄຂໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__amount
 msgid "Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_report__delay_pass
 msgid "Amount of time between date planned and order by date for each purchase order line."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໄລຍະເວລາລະຫວ່າງວັນທີທີ່ວາງແຜນ ແລະ ວັນທີສັ່ງຊື້ສຳລັບແຕ່ລະລາຍການໃບສັ່ງຊື້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_report__delay
 msgid "Amount of time between purchase approval and order by date."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາລະຫວ່າງການອະນຸມັດການຊື້ ແລະ ວັນທີສັ່ງຊື້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_analytic_account
 msgid "Analytic Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__analytic_distribution
 msgid "Analytic Distribution"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈກຢາຍການວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__analytic_distribution_search
 msgid "Analytic Distribution Search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາການແຈກຢາຍການວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການນຳໃຊ້ແຜນການວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__analytic_precision
 msgid "Analytic Precision"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມຊັດເຈນໃນການວິເຄາະ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Approve Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Attributes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "Auto-Complete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕື່ມຂໍ້ມູນອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_bank_statement_line__purchase_vendor_bill_id
 #: model:ir.model.fields,field_description:purchase.field_account_move__purchase_vendor_bill_id
 #: model:ir.model.fields,field_description:purchase.field_account_payment__purchase_vendor_bill_id
 msgid "Auto-complete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕື່ມຂໍ້ມູນອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_vendor_bill_id
 #: model:ir.model.fields,help:purchase.field_account_move__purchase_vendor_bill_id
 #: model:ir.model.fields,help:purchase.field_account_payment__purchase_vendor_bill_id
 msgid "Auto-complete from a past bill / purchase order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕື່ມຂໍ້ມູນອັດຕະໂນມັດຈາກໃບບິນ / ໃບສັ່ງຊື້ໃນອະດີດ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_id
 #: model:ir.model.fields,help:purchase.field_account_move__purchase_id
 #: model:ir.model.fields,help:purchase.field_account_payment__purchase_id
 msgid "Auto-complete from a past purchase order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕື່ມຂໍ້ມູນອັດຕະໂນມັດຈາກໃບສັ່ງຊື້ໃນອະດີດ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Automatically lock confirmed orders to prevent editing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລັອກໃບສັ່ງຊື້ທີ່ຢືນຢັນແລ້ວໂດຍອັດຕະໂນມັດເພື່ອປ້ອງກັນການແກ້ໄຂ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Automatically remind the receipt date to your vendors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຕືອນວັນທີຮັບເຄື່ອງໃຫ້ຜູ້ສະໜອງຂອງທ່ານໂດຍອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__receipt_reminder_email
@@ -657,95 +1185,167 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Automatically send a confirmation email to the vendor X days before the expected receipt date, asking him to confirm the exact date."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສົ່ງອີເມວຢືນຢັນໃຫ້ຜູ້ສະໜອງອັດຕະໂນມັດ X ມື້ກ່ອນວັນທີຄາດວ່າຈະຮັບເຄື່ອງ ເພື່ອໃຫ້ເຂົາເຈົ້າຢືນຢັນວັນທີທີ່ແນ່ນອນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__price_average
 msgid "Average Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນສະເລ່ຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Avg Order Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າການສັ່ງຊື້ສະເລ່ຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__default_purchase_method
 msgid "Bill Control"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຄວບຄຸມໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__invoice_count
 msgid "Bill Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__invoice_lines
 msgid "Bill Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອອກບິນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_invoiced
 msgid "Billed Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ອອກບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Billed Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ອອກບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "Billed Quantity:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ອອກບິນ:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__invoice_status
 msgid "Billing Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະການອອກບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__invoice_ids
 msgid "Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Bills Received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນທີ່ໄດ້ຮັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__block
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__block
 msgid "Blocking Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມປິດກັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__user_id
 #: model:ir.model.fields,field_description:purchase.field_res_partner__buyer_id
 #: model:ir.model.fields,field_description:purchase.field_res_users__buyer_id
 msgid "Buyer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_calendar
 msgid "Calendar View"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມຸມມອງປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Calls for tenders are when you want to generate requests for quotations with several vendors for a given set of products to compare offers."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການຮຽກປະກວດລາຄາ ແມ່ນເມື່ອທ່ານຕ້ອງການສ້າງໃບສະເໜີລາຄາຫາຜູ້ສະໜອງຫຼາຍລາຍເພື່ອປຽບທຽບລາຄາ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr "ຍົກເລີອກ"
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -753,33 +1353,57 @@ msgstr "ຍົກເລີອກ"
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__cancel
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__cancel
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr "ຍົກເລີກ"
+=======
+msgstr "ຍົກເລີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "Cancelled Purchase Order #"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກທີໃບສັ່ງຊື້ທີ່ຍົກເລີກ #"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Cannot delete a purchase order line which is in state '%s'."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດລົບລາຍການໃບສັ່ງຊື້ທີ່ຢູ່ໃນສະຖານະ '%s'."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom_category_id
 msgid "Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__commercial_partner_id
 msgid "Commercial Entity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນິຕິບຸກຄົນທາງການຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__company_id
@@ -793,50 +1417,86 @@ msgstr "ບໍລິສັດ"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__company_currency_id
 msgid "Company Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Compose Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂຽນອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງຄ່າລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_config
 msgid "Configuration"
+<<<<<<< HEAD
 msgstr "ການກໍານົດຄ່າ"
+=======
+msgstr "ການກຳນົດຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Confirm Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Confirm Receipt Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນວັນທີຮັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_company__po_double_validation__one_step
 msgid "Confirm purchase orders in one step"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນໃບສັ່ງຊື້ໃນຂັ້ນຕອນດຽວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Confirm your purchase."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນການຈັດຊື້ຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_approve
@@ -844,72 +1504,124 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__date_approve
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Confirmation Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Confirmation Date Last Year"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີຢືນຢັນປີທີ່ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_company__po_lock__lock
 msgid "Confirmed purchase orders are not editable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສັ່ງຊື້ທີ່ຢືນຢັນແລ້ວຈະບໍ່ສາມາດແກ້ໄຂໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_partner
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product__purchase_method
 #: model:ir.model.fields,field_description:purchase.field_product_template__purchase_method
 msgid "Control Policy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນະໂຍບາຍການຄວບຄຸມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__product_uom_category_id
 msgid "Conversion between Units of Measure can only occur if they belong to the same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການແປງລະຫວ່າງຫົວໜ່ວຍວັດແທກສາມາດເກີດຂຶ້ນໄດ້ພຽງແຕ່ຖ້າມັນຢູ່ໃນໝວດດຽວກັນ. ການແປງຈະອີງຕາມອັດຕາສ່ວນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__country_code
 msgid "Country code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Create Bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Create Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.action_purchase_batch_bills
 msgid "Create Vendor Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໃບບິນຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.product_product_action
 msgid "Create a new product variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງສິນຄ້າຍ່ອຍໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__create_uid
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__create_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__currency_id
@@ -917,82 +1629,143 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__currency_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__currency_id
 msgid "Currency"
+<<<<<<< HEAD
 msgstr "ເງິນຕາ"
+=======
+msgstr "ສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__currency_rate
 msgid "Currency Rate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັດຕາແລກປ່ຽນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__access_url
 msgid "Customer Portal URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ຂອງພອດທໍລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__date
 msgid "Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_calendar_start
 msgid "Date Calendar Start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນໃນປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Date Updated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີປັບປຸງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Date:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__reminder_date_before_receipt
 #: model:ir.model.fields,field_description:purchase.field_res_partner__reminder_date_before_receipt
 #: model:ir.model.fields,field_description:purchase.field_res_users__reminder_date_before_receipt
 msgid "Days Before Receipt"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ ກ່ອນການຮັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__delay
 msgid "Days to Confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນມື້ໃນການຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__delay_pass
 msgid "Days to Receive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນມື້ໃນການຮັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Define your terms and conditions ..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດຂໍ້ກຳນົດ ແລະ ເງື່ອນໄຂຂອງທ່ານ ..."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__date_planned
 msgid "Delivery date expected from vendor. This date respectively defaults to vendor pricelist lead time then today's date."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວັນທີຈັດສົ່ງທີ່ຄາດຫວັງຈາກຜູ້ສະໜອງ. ວັນທີນີ້ຈະເລີ່ມຕົ້ນຈາກໄລຍະເວລາລໍຖ້າໃນໃບລາຄາຂອງຜູ້ສະໜອງ ຫຼື ວັນທີປັດຈຸບັ"
+"ນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__date_planned
 msgid "Delivery date promised by vendor. This date is used to determine expected arrival of products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວັນທີຈັດສົ່ງທີ່ຜູ້ສະໜອງສັນຍາໄວ້. ວັນທີນີ້ໃຊ້ເພື່ອຄຳນວນການມາຮອດຂອງສິນຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__date_order
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__date_order
 msgid "Depicts the date within which the Quotation should be confirmed and converted into a purchase order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບຸວັນທີທີ່ຄວນຢືນຢັນໃບສະເໜີລາຄາ ແລະ ປ່ຽນເປັນໃບສັ່ງຊື້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__name
@@ -1005,133 +1778,233 @@ msgstr "ຄຳອະທິບາຍ"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__display_name
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__display_type
 msgid "Display Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_analytic_applicability__business_domain
 msgid "Domain"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂດເມນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__done
 msgid "Done"
+<<<<<<< HEAD
 msgstr "ຈົບເເລັວ"
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company__po_double_validation_amount
 msgid "Double validation amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າທີ່ຕ້ອງອະນຸມັດສອງຂັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Download"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດາວໂຫລດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__draft
 msgid "Draft RFQ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາສະບັບຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Draft RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາສະບັບຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__dest_address_id
 msgid "Dropship Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ຈັດສົ່ງແບບ Dropship"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_compose_message
 msgid "Email composition wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສ້າງການຂຽນອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_planned
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__date_planned
 msgid "Expected Arrival"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄາດວ່າຈະມາຮອດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Extended Filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວກັ່ນຕອງເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Extra line with %s "
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການເພີ່ມເຕີມກັບ %s "
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__fiscal_position_id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__fiscal_position_id
 msgid "Fiscal Position"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖານະທາງພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ: fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.constraint,message:purchase.constraint_purchase_order_line_non_accountable_null_fields
 msgid "Forbidden values on non-accountable purchase order line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າທີ່ຖືກຫ້າມໃນລາຍການໃບສັ່ງຊື້ທີ່ບໍ່ສາມາດຄິດໄລ່ທາງບັນຊີໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈາກ %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "From Electronic Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈາກເອກະສານອີເລັກໂທຣນິກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__invoice_status__invoiced
 msgid "Fully Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອອກບິນເຕັມຈຳນວນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_company__po_double_validation__two_step
 msgid "Get 2 levels of approvals to confirm a purchase order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງມີການອະນຸມັດ 2 ຂັ້ນຕອນເພື່ອຢືນຢັນໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Get warnings in orders for products or vendors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮັບຄຳເຕືອນໃນການສັ່ງຊື້ສຳລັບສິນຄ້າ ຫຼື ຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__weight
 msgid "Gross Weight"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນ້ຳໜັກລວມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
@@ -1139,22 +2012,38 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
 msgid "Hide cancelled lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊື່ອງລາຍການທີ່ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__id
@@ -1162,409 +2051,716 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__id
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນເພື່ອລະບຸກິດຈະກຳທີ່ຍົກເວັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_has_error
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "If enabled, activates 3-way matching on vendor bills : the items must be received in order to pay the invoice."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າເປີດໃຊ້, ຈະເປີດການກວດສອບ 3 ທາງໃນໃບບິນຜູ້ສະໜອງ: ສິນຄ້າຕ້ອງໄດ້ຮັບກ່ອນຈຶ່ງຈະຊຳລະໃບແຈ້ງໜີ້ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "If installed, the product variants will be added to purchase orders through a grid entry."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າຕິດຕັ້ງ, ສິນຄ້າຍ່ອຍຈະຖືກເພີ່ມເຂົ້າໃນໃບສັ່ງຊື້ຜ່ານຮູບແບບຕາຕະລາງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_packaging__purchase
 msgid "If true, the packaging can be used for purchase orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າເປັນຈິງ, ສາມາດໃຊ້ການຫຸ້ມຫໍ່ນີ້ສຳລັບໃບສັ່ງຊື້ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/product.py:0
 msgid "Import Template for Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳເຂົ້າແບບຟອມສຳລັບສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "In order to delete a purchase order, you must cancel it first."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພື່ອຈະລົບໃບສັ່ງຊື້, ທ່ານຕ້ອງຍົກເລີກມັນກ່ອນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__incoterm_id
 msgid "Incoterm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Incoterm"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Indicate the product quantity you want to order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບຸຈຳນວນສິນຄ້າທີ່ທ່ານຕ້ອງການສັ່ງຊື້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__incoterm_id
 msgid "International Commercial Terms are a series of predefined commercial terms used in international transactions."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເງື່ອນໄຂການຄ້າສາກົນ ແມ່ນຊຸດຂອງເງື່ອນໄຂທາງການຄ້າທີ່ກຳນົດໄວ້ລ່ວງໜ້າທີ່ໃຊ້ໃນການເຮັດທຸລະກຳລະຫວ່າງປະເທ"
+"ດ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Invoices and Incoming Shipments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບແຈ້ງໜີ້ ແລະ ສິນຄ້າຂາເຂົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Invoicing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການອອກໃບແຈ້ງໜີ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_move_line
 msgid "Journal Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃນປຶ້ມບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__write_uid
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປັບປຸງຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__write_date
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປັບປຸງຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Late"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັກຊ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຊັກຊ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Late RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທີ່ຊັກຊ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Lead Time to Purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາລໍຖ້າໃນການຈັດຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's create your first request for quotation."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມາສ້າງໃບສະເໜີລາຄາທຳອິດຂອງທ່ານກັນເລີຍ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Let's try the Purchase app to manage the flow from purchase to reception and invoice control."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ມາລອງໃຊ້ແອັບການຈັດຊື້ເພື່ອຄຸ້ມຄອງຂັ້ນຕອນຕັ້ງແຕ່ການຊື້ ຈົນຮອດການຮັບເຄື່ອງ ແລະ ການຄວບຄຸມໃບແຈ້ງໜີ້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company__po_double_validation
 msgid "Levels of Approvals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະດັບການອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__po_double_validation
 msgid "Levels of Approvals *"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະດັບການອະນຸມັດ *"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Lock"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລັອກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__lock_confirmed_po
 msgid "Lock Confirmed Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລັອກໃບສັ່ງຊື້ທີ່ຢືນຢັນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__done
 msgid "Locked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລັອກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Make sure you only pay bills for which you received the goods you ordered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຫ້ແນ່ໃຈວ່າທ່ານຊຳລະໃບບິນສະເພາະສິນຄ້າທີ່ທ່ານໄດ້ຮັບແລ້ວເທົ່ານັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Manage your purchase agreements (call for tenders, blanket orders)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄຸ້ມຄອງຂໍ້ຕົກລົງການຈັດຊື້ຂອງທ່ານ (ການຮຽກປະກວດລາຄາ, ໃບສັ່ງຊື້ແບບ Blanket)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__qty_received_method__manual
 msgid "Manual"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດ້ວຍຕົນເອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_form2
 msgid "Manual Invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບແຈ້ງໜີ້ທີ່ສ້າງເອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_received_manual
 msgid "Manual Received Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ໄດ້ຮັບແບບປ້ອນເອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company__po_lead
 #: model:ir.model.fields,help:purchase.field_res_config_settings__po_lead
 msgid "Margin of error for vendor lead times. When the system generates Purchase Orders for procuring products, they will be scheduled that many days earlier to cope with unexpected vendor delays."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໄລຍະເວລາເຜື່ອສຳລັບໄລຍະເວລາລໍຖ້າຂອງຜູ້ສະໜອງ. ເມື່ອລະບົບສ້າງໃບສັ່ງຊື້, ມັນຈະຖືກກຳນົດລ່ວງໜ້າເປັນເວລາຫຼ"
+"າຍມື້ເພື່ອຮັບມືກັບຄວາມຊັກຊ້າທີ່ບໍ່ຄາດຄິດ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__use_po_lead
 msgid "Margin of error for vendor lead times. When the system generates Purchase Orders for reordering products,they will be scheduled that many days earlier to cope with unexpected vendor delays."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໄລຍະເວລາເຜື່ອສຳລັບໄລຍະເວລາລໍຖ້າຂອງຜູ້ສະໜອງ. ເມື່ອລະບົບສ້າງໃບສັ່ງຊື້ເພື່ອສັ່ງສິນຄ້າຄືນໃໝ່, ມັນຈະຖືກກຳນົດ"
+"ລ່ວງໜ້າຫຼາຍມື້ເພື່ອຮັບມືກັບຄວາມຊັກຊ້າທີ່ບໍ່ຄາດຄິດ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_warn_msg
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_warn_msg
 msgid "Message for Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມສຳລັບໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product__purchase_line_warn_msg
 #: model:ir.model.fields,field_description:purchase.field_product_template__purchase_line_warn_msg
 msgid "Message for Purchase Order Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມສຳລັບລາຍການໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__po_double_validation_amount
 msgid "Minimum Amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າຂັ້ນຕ່ຳ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company__po_double_validation_amount
 #: model:ir.model.fields,help:purchase.field_res_config_settings__po_double_validation_amount
 msgid "Minimum amount for which a double validation is required"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າຂັ້ນຕ່ຳທີ່ຕ້ອງມີການອະນຸມັດສອງຂັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.constraint,message:purchase.constraint_purchase_order_line_accountable_required_fields
 msgid "Missing required fields on accountable purchase order line."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນທີ່ຈຳເປັນຫາຍໄປໃນລາຍການໃບສັ່ງຊື້ທີ່ຕ້ອງຄິດໄລ່ທາງບັນຊີ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາກິດຈະກຳຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Draft RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາສະບັບຮ່າງຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Late RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທີ່ຊັກຊ້າຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "My Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການສັ່ງຊື້ຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "My Purchases"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດຊື້ຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "My Waiting RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທີ່ລໍຖ້າຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Name, TIN, Email, or Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່, ເລກປະຈຳຕົວຜູ້ເສຍພາສີ, ອີເມວ ຫຼື ເລກອ້າງອີງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/controllers/portal.py:0
 msgid "Newest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃໝ່ສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການປະຕິທິນກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__no-message
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__no-message
 msgid "No Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
 msgid "No Purchase Analysis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີການວິເຄາະການຈັດຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.product_normal_action_puchased
 msgid "No product found. Let's create one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບສິນຄ້າ. ມາສ້າງສິນຄ້າໃໝ່ກັນເລີຍ!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_form_action
 msgid "No purchase order found. Let's create one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບໃບສັ່ງຊື້. ມາສ້າງໃບສັ່ງຊື້ໃໝ່ກັນເລີຍ!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_history
 msgid "No purchase order were made for this product yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີການສັ່ງຊື້ສຳລັບສິນຄ້ານີ້ເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid "No request for quotation found. Let's create one!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບໃບສະເໜີລາຄາ. ມາສ້າງໃໝ່ນຳກັນ!"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__priority__0
 msgid "Normal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປົກກະຕິ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Not Acknowledged"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ໄດ້ຮັບຊາບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_note
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__invoice_status__no
 msgid "Nothing to Bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີລາຍການໃຫ້ຮຽກເກັບເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__reminder_date_before_receipt
 #: model:ir.model.fields,help:purchase.field_res_partner__reminder_date_before_receipt
 #: model:ir.model.fields,help:purchase.field_res_users__reminder_date_before_receipt
 msgid "Number of days to send reminder email before the promised receipt date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນມື້ທີ່ຈະສົ່ງອີເມວແຈ້ງເຕືອນກ່ອນມື້ນັດຮັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_needaction_counter
 msgid "Number of messages which requires an action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງການການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__purchase
 msgid "On ordered quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີງຕາມຈຳນວນທີ່ສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product__purchase_method
@@ -1573,29 +2769,50 @@ msgid ""
 "On ordered quantities: Control bills based on ordered quantities.\n"
 "On received quantities: Control bills based on received quantities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອີງຕາມຈຳນວນທີ່ສັ່ງຊື້: ກວດສອບໃບບິນໂດຍອີງຕາມຈຳນວນທີ່ສັ່ງຊື້.\n"
+"ອີງຕາມຈຳນວນທີ່ໄດ້ຮັບ: ກວດສອບໃບບິນໂດຍອີງຕາມຈຳນວນທີ່ໄດ້ຮັບແທ້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_method__receive
 msgid "On received quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີງຕາມຈຳນວນທີ່ໄດ້ຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Once you get the price from the vendor, you can complete the purchase order with the right price."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເມື່ອທ່ານໄດ້ລາຄາຈາກຜູ້ສະໜອງແລ້ວ, ທ່ານສາມາດເຮັດໃບສັ່ງຊື້ໃຫ້ສຳເລັດດ້ວຍລາຄາທີ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_form_action
 msgid "Once you ordered your products to your supplier, confirm your request for quotation and it will turn into a purchase order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເມື່ອທ່ານສັ່ງສິນຄ້າຈາກຜູ້ສະໜອງແລ້ວ, ໃຫ້ຢືນຢັນໃບສະເໜີລາຄາ ແລະ ມັນຈະປ່ຽນເປັນໃບສັ່ງຊື້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__order_id
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__date_order
@@ -1604,106 +2821,186 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Order Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_order
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "Order Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__order_line
 msgid "Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__name
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__order_id
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
 msgid "Order Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກອ້າງອີງການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "Ordered Quantity:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ສັ່ງຊື້:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_config_settings__default_purchase_method__purchase
 msgid "Ordered quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Other Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນອື່ນໆ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_packaging_id
 msgid "Packaging"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຈຸພັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_packaging_qty
 msgid "Packaging Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນບັນຈຸພັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__partner_id
 msgid "Partner"
+<<<<<<< HEAD
 msgstr "ຄຸ່ຄ້າ"
+=======
+msgstr "ຄູ່ຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__country_id
 msgid "Partner Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດຂອງຄູ່ຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__payment_term_id
 msgid "Payment Terms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເງື່ອນໄຂການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Payment terms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເງື່ອນໄຂການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_url
 msgid "Portal Access URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ເຂົ້າເຖິງພອດທໍ (Portal)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Preview the reminder email by sending it to yourself."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງຕົວຢ່າງອີເມວແຈ້ງເຕືອນໂດຍການສົ່ງໃຫ້ຕົວທ່ານເອງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Pricing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Print RFQ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມໃບສະເໜີລາຄາ (RFQ)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__priority
 msgid "Priority"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະດັບຄວາມສຳຄັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_template
@@ -1719,44 +3016,76 @@ msgstr "ສິນຄ້າ"
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_product_attribute_action
 msgid "Product Attributes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_product_category_config_purchase
 msgid "Product Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__category_id
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Product Category"
+<<<<<<< HEAD
 msgstr "ໝວດສິນຄ້າ"
+=======
+msgstr "ໝວດໝູ່ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_packaging
 msgid "Product Packaging"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຈຸພັນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__product_tmpl_id
 msgid "Product Template"
+<<<<<<< HEAD
 msgstr "ແບບ​ຟອມ​ສິນ​ຄ້າ"
+=======
+msgstr "ແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_type
 msgid "Product Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.product_product_action
 #: model:ir.ui.menu,name:purchase.product_product_menu
 msgid "Product Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບສິນຄ້າຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.product_normal_action_puchased
@@ -1773,7 +3102,11 @@ msgstr "ສິນຄ້າ"
 #: model:ir.model.fields,help:purchase.field_res_company__po_double_validation
 #: model:ir.model.fields,help:purchase.field_res_config_settings__po_double_validation
 msgid "Provide a double validation mechanism for purchases"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດລະບົບການຢືນຢັນສອງຂັ້ນຕອນ ສຳລັບການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_packaging__purchase
@@ -1781,12 +3114,20 @@ msgstr ""
 #: model:ir.ui.menu,name:purchase.purchase_report
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_purchase_requisition
 msgid "Purchase Agreements"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຕົກລົງການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_order_report_all
@@ -1794,35 +3135,59 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_graph
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_pivot
 msgid "Purchase Analysis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການວິເຄາະການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "Purchase Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__module_purchase_product_matrix
 msgid "Purchase Grid Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປ້ອນຂໍ້ມູນການຊື້ແບບຕາຕະລາງ (Grid)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Purchase History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/product.py:0
 #: code:addons/purchase/models/purchase.py:0
 msgid "Purchase History for %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການຊື້ສຳລັບ %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company__po_lead
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__po_lead
 msgid "Purchase Lead Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລານຳສົ່ງການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -1849,17 +3214,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_activity
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Purchase Order"
+<<<<<<< HEAD
 msgstr "​ການ​ສັ່ງ​ຊື້"
+=======
+msgstr "ໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "Purchase Order #"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສັ່ງຊື້ເລກທີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__po_order_approval
 msgid "Purchase Order Approval"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການອະນຸມັດໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_account_analytic_account__purchase_order_count
@@ -1869,7 +3246,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:purchase.field_res_partner__purchase_order_count
 #: model:ir.model.fields,field_description:purchase.field_res_users__purchase_order_count
 msgid "Purchase Order Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_history
@@ -1878,35 +3259,59 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_form2
 msgid "Purchase Order Line"
+<<<<<<< HEAD
 msgstr "​ການ​ສັ່ງ​ຊື້ທາງ​ອອນ​ລາຍ"
+=======
+msgstr "ລາຍການໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product__purchase_line_warn
 #: model:ir.model.fields,field_description:purchase.field_product_template__purchase_line_warn
 msgid "Purchase Order Line Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນລາຍການໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_tree
 msgid "Purchase Order Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃບສັ່ງຊື້ທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_company__po_lock
 msgid "Purchase Order Modification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແກ້ໄຂໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__po_lock
 msgid "Purchase Order Modification *"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແກ້ໄຂໃບສັ່ງຊື້ *"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_company__po_lock
 #: model:ir.model.fields,help:purchase.field_res_config_settings__po_lock
 msgid "Purchase Order Modification used when you want to purchase order editable after confirm"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃຊ້ການແກ້ໄຂໃບສັ່ງຊື້ ເມື່ອທ່ານຕ້ອງການໃຫ້ໃບສັ່ງຊື້ສາມາດແກ້ໄຂໄດ້ຫຼັງຈາກຢືນຢັນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -1921,12 +3326,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Purchase Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສັ່ງຊື້ທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_report
 msgid "Purchase Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__user_id
@@ -1934,111 +3347,196 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Purchase Representative"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວແທນການຈັດຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__group_warning_purchase
 msgid "Purchase Warnings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນການຈັດຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Purchase orders that have been invoiced."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສັ່ງຊື້ທີ່ໄດ້ອອກໃບບິນແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Purchase orders that include lines not invoiced."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສັ່ງຊື້ທີ່ມີລາຍການທີ່ຍັງບໍ່ທັນໄດ້ອອກໃບບິນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Purchase products by multiple of unit # per package"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື້ສິນຄ້າເປັນຈຳນວນທະວີຄູນຂອງຫົວໜ່ວຍຕໍ່ບັນຈຸພັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.purchase_send_reminder_mail_ir_actions_server
 msgid "Purchase reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Purchase variants of a product using attributes (size, color, etc.)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື້ສິນຄ້າທີ່ມີຫຼາຍຮູບແບບໂດຍໃຊ້ຄຸນລັກສະນະ (ຂະໜາດ, ສີ, ແລະ ອື່ນໆ)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,name:purchase.email_template_edi_purchase_done
 msgid "Purchase: Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊື້: ໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,name:purchase.email_template_edi_purchase
 msgid "Purchase: Request For Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊື້: ໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,name:purchase.email_template_edi_purchase_reminder
 msgid "Purchase: Vendor Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊື້: ການແຈ້ງເຕືອນຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_product_product__purchased_product_qty
 #: model:ir.model.fields,field_description:purchase.field_product_template__purchased_product_qty
 msgid "Purchased"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Purchased Last 7 Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື້ແລ້ວໃນ 7 ມື້ຜ່ານມາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_normal_form_view_inherit_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_template_purchase_buttons_from
 msgid "Purchased in the last 365 days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື້ແລ້ວໃນ 365 ມື້ຜ່ານມາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_buttons
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "Purchases"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_bill_union
 msgid "Purchases & Bills Union"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລວມການຊື້ ແລະ ໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__dest_address_id
 msgid "Put an address if you want to deliver directly from the vendor to the customer. Otherwise, keep empty to deliver to your own company."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃສ່ທີ່ຢູ່ ຫາກທ່ານຕ້ອງການໃຫ້ນຳສົ່ງໂດຍກົງຈາກຜູ້ສະໜອງໄປຫາລູກຄ້າ. ຖ້າບໍ່ດັ່ງນັ້ນ, ໃຫ້ປະວ່າງໄວ້ເພື່ອໃຫ້ນຳສົ່ງມາຍັ"
+"ງບໍລິສັດຂອງທ່ານເອງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__qty_billed
 msgid "Qty Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ອອກໃບບິນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__qty_ordered
 msgid "Qty Ordered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__qty_received
 msgid "Qty Received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ໄດ້ຮັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__qty_to_be_billed
 msgid "Qty to be Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ຈະອອກໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Quantities billed by vendors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ອອກໃບບິນໂດຍຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_qty
@@ -2049,118 +3547,206 @@ msgstr "ຈຳນວນ"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Quantity:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__draft
 msgid "RFQ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາ (RFQ)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.message.subtype,name:purchase.mt_rfq_approved
 msgid "RFQ Approved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ ໄດ້ຮັບອະນຸມັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.message.subtype,name:purchase.mt_rfq_confirmed
 msgid "RFQ Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ ຢືນຢັນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.message.subtype,name:purchase.mt_rfq_done
 msgid "RFQ Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__sent
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__sent
 #: model:mail.message.subtype,name:purchase.mt_rfq_sent
 msgid "RFQ Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ RFQ ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "RFQs Sent Last 7 Days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ ທີ່ສົ່ງແລ້ວໃນ 7 ມື້ຜ່ານມາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_purchase_order
 msgid "RFQs and Purchases"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "RFQ ແລະ ການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໃຫ້ຄະແນນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__currency_rate
 msgid "Ratio between the purchase order currency and the company currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັດຕາສ່ວນລະຫວ່າງສະກຸນເງິນໃນໃບສັ່ງຊື້ ແລະ ສະກຸນເງິນຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Re-Send by Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຄືນທາງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__group_send_reminder
 #: model:ir.model.fields,field_description:purchase.field_res_partner__receipt_reminder_email
 #: model:ir.model.fields,field_description:purchase.field_res_users__receipt_reminder_email
 msgid "Receipt Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຈ້ງເຕືອນການຮັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__receipt_reminder_email
 msgid "Receipt Reminder Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວແຈ້ງເຕືອນການຮັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຮັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_received
 msgid "Received Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ໄດ້ຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_received_method
 msgid "Received Qty Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການນັບຈຳນວນທີ່ໄດ້ຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Received Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ໄດ້ຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_qty_received_template
 #: model_terms:ir.ui.view,arch_db:purchase.track_po_line_template
 msgid "Received Quantity:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ໄດ້ຮັບ:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_config_settings__default_purchase_method__receive
 msgid "Received quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ໄດ້ຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__mail_reception_confirmed
 msgid "Reception Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນການຮັບເຄື່ອງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
 msgid "Record a new vendor bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນທຶກໃບບິນຜູ້ສະໜອງໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__name
@@ -2169,37 +3755,66 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 msgid "Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກອ້າງອີງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_tree
 msgid "Reference Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານອ້າງອີງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__product_uom
 msgid "Reference Unit of Measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກອ້າງອີງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
 msgid "Reference of the document that generated this purchase order request (e.g. a sales order)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານອ້າງອີງທີ່ສ້າງຄຳຮ້ອງຂໍໃບສັ່ງຊື້ນີ້ (ຕົວຢ່າງ: ໃບສັ່ງຂາຍ)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__partner_ref
 msgid "Reference of the sales order or bid sent by the vendor. It's used to do the matching when you receive the products as this reference is usually written on the delivery order sent by your vendor."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເລກອ້າງອີງຂອງໃບສັ່ງຂາຍ ຫຼື ໃບສະເໜີລາຄາທີ່ສົ່ງໂດຍຜູ້ສະໜອງ. ມັນຖືກໃຊ້ເພື່ອຈັບຄູ່ເມື່ອທ່ານໄດ້ຮັບສິນຄ້າ ເພາະປົ"
+"ກກະຕິເລກອ້າງອີງນີ້ຈະຖືກຂຽນໄວ້ໃນໃບນຳສົ່ງທີ່ສົ່ງໂດຍຜູ້ສະໜອງຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__mail_reminder_confirmed
 msgid "Reminder Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນການແຈ້ງເຕືອນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.purchase_report_main
 msgid "Reporting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2208,22 +3823,38 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "Request for Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchaseorder_document
 msgid "Request for Quotation #"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາເລກທີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Request managers to approve orders above a minimum amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮ້ອງຂໍໃຫ້ຜູ້ຈັດການອະນຸມັດການສັ່ງຊື້ທີ່ມີມູນຄ່າສູງກວ່າທີ່ກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "Requests For Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_rfq_form
@@ -2233,7 +3864,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_home_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Requests for Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
@@ -2241,70 +3876,124 @@ msgid ""
 "Requests for quotation are documents that will be sent to your suppliers to request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they will be confirmed and turned into purchase orders."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃບສະເໜີລາຄາແມ່ນເອກະສານທີ່ຈະຖືກສົ່ງໄປຫາຜູ້ສະໜອງຂອງທ່ານເພື່ອຂໍລາຄາສຳລັບສິນຄ້າຕ່າງໆທີ່ທ່ານກຳລັງພິຈາລະນ"
+"າຊື້.\n"
+"ເມື່ອມີການຕົກລົງກັບຜູ້ສະໜອງແລ້ວ, ພວກມັນຈະຖືກຢືນຢັນ ແລະ ປ່ຽນເປັນໃບສັ່ງຊື້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Scheduled Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Search Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 msgid "Search Reference Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາເອກະສານອ້າງອີງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Search a vendor name, or create one on the fly."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາຊື່ຜູ້ສະໜອງ ຫຼື ສ້າງໃໝ່ທັນທີ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order_line__display_type__line_section
 msgid "Section"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Section Name (eg. Products, Services)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ສ່ວນ (ຕົວຢ່າງ: ສິນຄ້າ, ການບໍລິການ)"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__use_po_lead
 msgid "Security Lead Time for Purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລານຳສົ່ງສຳຮອງເພື່ອຄວາມປອດໄພສຳລັບການຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_token
 msgid "Security Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທເຄັນຄວາມປອດໄພ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Select a product, or create a new one on the fly."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກສິນຄ້າ ຫຼື ສ້າງໃໝ່ທັນທີ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_move_form_inherit_purchase
 msgid "Select a purchase order or an old bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກໃບສັ່ງຊື້ ຫຼື ໃບບິນເກົ່າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_product__purchase_line_warn
@@ -2313,95 +4002,168 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_res_users__purchase_warn
 msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການເລືອກຕົວເລືອກ \"ຄຳເຕືອນ\" ຈະແຈ້ງເຕືອນຜູ້ໃຊ້ດ້ວຍຂໍ້ຄວາມ, ການເລືອກ \"ຂໍ້ຄວາມປິດກັ້ນ\" ຈະສະແດງຂໍ້"
+"ຜິດພາດພ້ອມຂໍ້ຄວາມ ແລະ ປິດກັ້ນຂັ້ນຕອນການເຮັດວຽກ. ຂໍ້ຄວາມຕ້ອງຖືກຂຽນໄວ້ໃນຫ້ອງຖັດໄປ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Sell and purchase products in different units of measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາຍ ແລະ ຊື້ສິນຄ້າໃນຫົວໜ່ວຍວັດແທກທີ່ແຕກຕ່າງກັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Send PO by Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃບສັ່ງຊື້ທາງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.action_purchase_send_reminder
 msgid "Send Reminder"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຄຳແຈ້ງເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_send_reminder
 msgid "Send an automatic reminder email to confirm delivery"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງອີເມວແຈ້ງເຕືອນອັດຕະໂນມັດເພື່ອຢືນຢັນການນຳສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Send by Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງທາງອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/js/tours/purchase.js:0
 msgid "Send the request for quotation to your vendor."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃບສະເໜີລາຄາໄປຫາຜູ້ສະໜອງຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,description:purchase.email_template_edi_purchase
 msgid "Sent manually to vendor to request a quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ສະໜອງດ້ວຍຕົນເອງເພື່ອຂໍໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,description:purchase.email_template_edi_purchase_done
 msgid "Sent to vendor with the purchase order in attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ສະໜອງໂດຍມີໃບສັ່ງຊື້ຄັດຕິດໄປນຳ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,description:purchase.email_template_edi_purchase_reminder
 msgid "Sent to vendors before expected arrival, based on the purchase order setting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ສະໜອງກ່ອນກຳນົດການມາຮອດ, ອີງຕາມການຕັ້ງຄ່າໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Set to Draft"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງເປັນສະບັບຮ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_configuration
 #: model:ir.ui.menu,name:purchase.menu_purchase_general_settings
 msgid "Settings"
+<<<<<<< HEAD
 msgstr "ການກໍານົດຄ່າ"
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.server,name:purchase.model_purchase_order_action_share
 msgid "Share"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບ່ງປັນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Show all records which has next action date is before today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງບັນທຶກທັງໝົດທີ່ມີວັນທີດຳເນີນການຄັ້ງຖັດໄປກ່ອນມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__reference
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງທີ່ມາ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__origin
 msgid "Source Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານຕົ້ນທາງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Starred"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດດາວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__state
@@ -2410,7 +4172,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Status"
+<<<<<<< HEAD
 msgstr "ສະພາບ"
+=======
+msgstr "ສະຖານະ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_state
@@ -2420,114 +4186,205 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະໂດຍອີງຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນທີກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_subtotal
 msgid "Subtotal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມຍ່ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Qty Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜົນລວມຂອງຈຳນວນທີ່ອອກໃບບິນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Qty Ordered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜົນລວມຂອງຈຳນວນທີ່ສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Qty Received"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜົນລວມຂອງຈຳນວນທີ່ໄດ້ຮັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜົນລວມທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_report_view_tree
 msgid "Sum of Untaxed Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜົນລວມທີ່ບໍ່ລວມພາສີທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_partner__property_purchase_currency_id
 #: model:ir.model.fields,field_description:purchase.field_res_users__property_purchase_currency_id
 msgid "Supplier Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນຂອງຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_supplierinfo
 msgid "Supplier Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີລາຄາຂອງຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_tax
 msgid "Tax"
+<<<<<<< HEAD
 msgstr "ອາກອນ"
+=======
+msgstr "ພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__tax_country_id
 msgid "Tax Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດທີ່ເສຍພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__tax_totals
 msgid "Tax Totals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍອດລວມພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__tax_calculation_rounding_method
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__tax_calculation_rounding_method
 msgid "Tax calculation rounding method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການປັດເສດການຄິດໄລ່ພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Tax excl."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ລວມພາສີ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Tax excl.:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ລວມພາສີ:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Tax incl."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມພາສີ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Tax incl.:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມພາສີ:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_tax
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__taxes_id
 msgid "Taxes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາສີຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__display_type
 msgid "Technical field for UX purpose."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟິວທາງເຕັກນິກສຳລັບຈຸດປະສົງ UX."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__tax_country_id
 msgid "Technical field to filter the available taxes depending on the fiscal country and fiscal position."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຟິວທາງເຕັກນິກເພື່ອຕອງພາສີທີ່ມີຢູ່ ໂດຍອີງຕາມປະເທດທາງພາສີ ແລະ ສະຖານະທາງພາສີ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Terms &amp; Conditions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເງື່ອນໄຂ ແລະ ຂໍ້ກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__notes
 msgid "Terms and Conditions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເງື່ອນໄຂ ແລະ ຂໍ້ກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__country_code
@@ -2535,12 +4392,21 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະຫັດປະເທດ ISO ສອງຕົວອັກສອນ. \n"
+"ທ່ານສາມາດໃຊ້ຟິວນີ້ນຳໃຊ້ເພື່ອການຄົ້ນຫາແບບໄວ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "The order receipt has been acknowledged by %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຮັບເຄື່ອງຕາມໃບສັ່ງຊື້ໄດ້ຮັບຊາບໂດຍ %s ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -2549,22 +4415,41 @@ msgid ""
 "                    converted into a purchase order, you will be able to control the receipt\n"
 "                    of the products and the vendor bill."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃບສະເໜີລາຄາແມ່ນຂັ້ນຕອນທຳອິດຂອງຂະບວນການຈັດຊື້. ເມື່ອ\n"
+"ປ່ຽນເປັນໃບສັ່ງຊື້ແລ້ວ, ທ່ານຈະສາມາດຄວບຄຸມການຮັບ\n"
+"ສິນຄ້າ ແລະ ໃບບິນຜູ້ສະໜອງໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
 msgid "There are currently no purchase orders for your account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຈຸບັນຍັງບໍ່ມີໃບສັ່ງຊື້ສຳລັບບັນຊີຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_rfqs
 msgid "There are currently no requests for quotation for your account."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຈຸບັນຍັງບໍ່ມີໃບສະເໜີລາຄາສຳລັບບັນຊີຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "There is no invoiceable line. If a product has a control policy based on received quantity, please make sure that a quantity has been received."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ມີລາຍການທີ່ສາມາດອອກໃບບິນໄດ້. ຫາກສິນຄ້າມີນໂຍບາຍການກວດສອບໂດຍອີງຕາມຈຳນວນທີ່ໄດ້ຮັບ, ກະລຸນາກວດສ"
+"ອບໃຫ້ແນ່ໃຈວ່າໄດ້ມີການຮັບຈຳນວນສິນຄ້າແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.action_purchase_order_report_all
@@ -2572,82 +4457,141 @@ msgid ""
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການວິເຄາະນີ້ຊ່ວຍໃຫ້ທ່ານກວດສອບ ແລະ ວິເຄາະປະຫວັດການຊື້ ແລະ ຜົນການດຳເນີນງານຂອງບໍລິສັດໄດ້ຢ່າງງ່າຍດາ"
+"ຍ.\n"
+"ທ່ານສາມາດຕິດຕາມຜົນການເຈລະຈາ, ປະສິດທິພາບການນຳສົ່ງຂອງຜູ້ສະໜອງ, ແລະ ອື່ນໆ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_partner__property_purchase_currency_id
 #: model:ir.model.fields,help:purchase.field_res_users__property_purchase_currency_id
 msgid "This currency will be used, instead of the default one, for purchases from the current partner"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະກຸນເງິນນີ້ຈະຖືກນຳໃຊ້, ແທນທີ່ຈະເປັນສະກຸນເງິນເລີ່ມຕົ້ນ, ສຳລັບການຊື້ຈາກຄູ່ຄ້າຄົນນີ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_res_config_settings__default_purchase_method
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "This default value is applied to any new product created. This can be changed in the product detail form."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄ່າເລີ່ມຕົ້ນນີ້ຈະຖືກນຳໃຊ້ກັບທຸກສິນຄ້າໃໝ່ທີ່ສ້າງຂຶ້ນ. ເຊິ່ງສາມາດປ່ຽນແປງໄດ້ໃນແບບຟອມລາຍລະອຽດສິນຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "This note is added to purchase orders."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດນີ້ຈະຖືກເພີ່ມເຂົ້າໃນໃບສັ່ງຊື້."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "This product is packaged by %(pack_size).2f %(pack_name)s. You should purchase %(quantity).2f %(unit)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສິນຄ້ານີ້ຖືກບັນຈຸພັນໂດຍ %(pack_size).2f %(pack_name)s. ທ່ານຄວນຊື້ %(quantity).2f %(unit)"
+"s."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been created from: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນຜູ້ສະໜອງນີ້ຖືກສ້າງມາຈາກ: %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/account_invoice.py:0
 msgid "This vendor bill has been modified from: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນຜູ້ສະໜອງນີ້ຖືກແກ້ໄຂມາຈາກ: %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
 msgid "This vendor has no purchase order. Create a new RfQ"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ສະໜອງຄົນນີ້ຍັງບໍ່ມີໃບສັ່ງຊື້ເທື່ອ. ສ້າງ RFQ ໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:digest.tip,name:purchase.digest_tip_purchase_0
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_0
 msgid "Tip: How to keep late receipts under control?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄັດລັບ: ວິທີຄວບຄຸມການຮັບເຄື່ອງທີ່ຊ້າກວ່າກຳນົດ?"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:digest.tip,name:purchase.digest_tip_purchase_1
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid "Tip: Never miss a purchase order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄັດລັບ: ບໍ່ພາດທຸກໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__state__to_approve
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_report__state__to_approve
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "To Approve"
+<<<<<<< HEAD
 msgstr "ເພື່ອຮັບຮູ້"
+=======
+msgstr "ລໍຖ້າອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__qty_to_invoice
 msgid "To Invoice Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ຈະອອກໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "To Send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2663,96 +4607,164 @@ msgstr "ລວມທັງໝົດ"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom_qty
 msgid "Total Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Total Untaxed amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າລວມບໍ່ລວມພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Total amount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າລວມທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reception_confirmed
 msgid "True if PO reception is confirmed by the vendor."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນຈິງ ຫາກການຮັບ PO ຖືກຢືນຢັນໂດຍຜູ້ສະໜອງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__mail_reminder_confirmed
 msgid "True if the reminder email is confirmed by the vendor."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນຈິງ ຫາກອີເມວແຈ້ງເຕືອນຖືກຢືນຢັນໂດຍຜູ້ສະໜອງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_buttons
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "Type a message..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມຂໍ້ຄວາມ..."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Unable to cancel this purchase order. You must first cancel the related vendor bills."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ສາມາດຍົກເລີກໃບສັ່ງຊື້ນີ້ໄດ້. ທ່ານຕ້ອງຍົກເລີກໃບບິນຜູ້ສະໜອງທີ່ກ່ຽວຂ້ອງກ່ອນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__price_unit
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_portal_content
 msgid "Unit Price"
+<<<<<<< HEAD
 msgstr "ລາຄາຫົວໜວຍ"
+=======
+msgstr "ລາຄາຕໍ່ໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Unit Price:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຕໍ່ໜ່ວຍ:"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_uom
 msgid "Unit of Measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Units Of Measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_form_action
 msgid "Units of Measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_uom_categ_form_action
 msgid "Units of Measure Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_unit_of_measure_in_config_purchase
 msgid "Units of Measures"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "Unlock"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປົດລັອກ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_tree
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_tree
 msgid "Untaxed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ລວມພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__amount_untaxed
@@ -2762,33 +4774,57 @@ msgstr "ມູນຄ່າບໍ່ລວມພາສີ"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__untaxed_total
 msgid "Untaxed Total"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍອດລວມບໍ່ລວມພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "UoM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Update Dates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__priority__1
 msgid "Urgent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລັ່ງດ່ວນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_user
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Variant Grid Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປ້ອນຂໍ້ມູນຮູບແບບສິນຄ້າແບບຕາຕະລາງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__partner_id
@@ -2800,12 +4836,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Vendor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__vendor_bill_id
 msgid "Vendor Bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
@@ -2813,27 +4857,47 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_account_buttons
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 msgid "Vendor Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນຜູ້ສະໜອງທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
 msgid "Vendor Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_product_pricelist_action2_purchase
 msgid "Vendor Pricelists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີລາຄາຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__partner_ref
 msgid "Vendor Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກອ້າງອີງຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_supplier_name
 msgid "Vendors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ສະໜອງທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_supplier_invoices
@@ -2843,34 +4907,61 @@ msgid ""
 "                    you receive from your vendor according to the draft\n"
 "                    document in Odoo."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃບບິນຜູ້ສະໜອງສາມາດຖືກສ້າງໄວ້ລ່ວງໜ້າໂດຍອີງຕາມໃບສັ່ງຊື້\n"
+"ຫຼື ໃບບິນຮັບເຄື່ອງ. ສິ່ງນີ້ຊ່ວຍໃຫ້ທ່ານຄວບຄຸມໃບບິນ\n"
+"ທີ່ທ່ານໄດ້ຮັບຈາກຜູ້ສະໜອງຕາມເອກະສານຮ່າງ\n"
+"ໃນ Odoo."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "View"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
 msgid "Volume"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິມາດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-javascript
 #: code:addons/purchase/static/src/views/purchase_dashboard.xml:0
 msgid "Waiting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງລໍຖ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__purchase_order__invoice_status__to_invoice
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Waiting Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Waiting RFQs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າ RFQ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2878,62 +4969,111 @@ msgstr ""
 #: model:ir.model.fields.selection,name:purchase.selection__product_template__purchase_line_warn__warning
 #: model:ir.model.fields.selection,name:purchase.selection__res_partner__purchase_warn__warning
 msgid "Warning"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "Warning for %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນສຳລັບ %s"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_buttons
 msgid "Warning on the Purchase Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນໃນໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "Warning when Purchasing this Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນເມື່ອຊື້ສິນຄ້ານີ້"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_filter
 msgid "Warnings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມເວັບໄຊທ໌"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການສື່ສານທາງເວັບໄຊທ໌"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_0
 msgid "When creating a purchase order, have a look at the vendor's <i>On Time Delivery</i> rate: the percentage of products shipped on time. If it is too low, activate the <i>automated reminders</i>. A few days before the due shipment, Odoo will send the vendor an email to ask confirmation of shipment dates and keep you informed in case of any delays. To get the vendor's performance statistics, click on the OTD rate."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເມື່ອສ້າງໃບສັ່ງຊື້, ໃຫ້ເບິ່ງອັດຕາ <i>ການນຳສົ່ງກົງເວລາ</i> ຂອງຜູ້ສະໜອງ: ເປີເຊັນຂອງສິນຄ້າທີ່ຖືກສົ່ງກົງເວລ"
+"າ. ຫາກມັນຕ່ຳເກີນໄປ, ໃຫ້ເປີດໃຊ້ <i>ການແຈ້ງເຕືອນອັດຕະໂນມັດ</i>. ສອງສາມມື້ກ່ອນກຳນົດການນຳສົ່ງ, "
+"Odoo ຈະສົ່ງອີເມວຫາຜູ້ສະໜອງເພື່ອຂໍການຢືນຢັນວັນທີນຳສົ່ງ ແລະ ແຈ້ງໃຫ້ທ່ານຊາບໃນກໍລະນີທີ່ມີການຊັກຊ້າ. ເພື່ອເບິ່"
+"ງສະຖິຕິຜົນການດຳເນີນງານຂອງຜູ້ສະໜອງ, ໃຫ້ຄລິກທີ່ອັດຕາ OTD."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid "When sending a purchase order by email, Odoo asks the vendor to acknowledge the reception of the order. When the vendor acknowledges the order by clicking on a button in the email, the information is added on the purchase order. Use filters to track orders that have not been acknowledged."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເມື່ອສົ່ງໃບສັ່ງຊື້ທາງອີເມວ, Odoo ຈະຂໍໃຫ້ຜູ້ສະໜອງຢືນຢັນການຮັບການສັ່ງຊື້. ເມື່ອຜູ້ສະໜອງຢືນຢັນການສັ່ງຊື້ໂດຍການ"
+"ຄລິກປຸ່ມໃນອີເມວ, ຂໍ້ມູນຈະຖືກເພີ່ມເຂົ້າໃນໃບສັ່ງຊື້. ໃຊ້ຕົວຕອງເພື່ອຕິດຕາມການສັ່ງຊື້ທີ່ຍັງບໍ່ທັນໄດ້ຮັບການຢືນຢັນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__partner_id
 #: model:ir.model.fields,help:purchase.field_purchase_order_line__partner_id
 msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານສາມາດຄົ້ນຫາຜູ້ສະໜອງໄດ້ດ້ວຍ ຊື່, ເລກປະຈຳຕົວຜູ້ເສຍພາສີ (TIN), ອີເມວ ຫຼື ເລກອ້າງອີງພາຍໃນ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase.py:0
 msgid "You cannot change the type of a purchase order line. Instead you should delete the current line and create a new line of the proper type."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດປ່ຽນປະເພດຂອງລາຍການໃບສັ່ງຊື້ໄດ້. ແທນທີ່ຈະເຮັດແນວນັ້ນ ທ່ານຄວນລົບລາຍການປະຈຸບັນອອກ ແລະ "
+"ສ້າງລາຍການໃໝ່ທີ່ມີປະເພດທີ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.product_product_action
@@ -2941,6 +5081,11 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານຕ້ອງກຳນົດສິນຄ້າສຳລັບທຸກຢ່າງທີ່ທ່ານຂາຍ ຫຼື ຊື້, ບໍ່ວ່າຈະເປັນສິນຄ້າທີ່ເກັບໄວ້ໄດ້, ສິນຄ້າທີ່ໃຊ້ແລ້ວໝົດໄປ ຫຼື ກາ"
+"ນບໍລິການ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.product_normal_action_puchased
@@ -2948,6 +5093,11 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "            whether it's a storable product, a consumable or a service."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານຕ້ອງກຳນົດສິນຄ້າສຳລັບທຸກຢ່າງທີ່ທ່ານຂາຍ ຫຼື ຊື້, ບໍ່ວ່າຈະເປັນສິນຄ້າທີ່ເກັບໄວ້ໄດ້, ສິນຄ້າທີ່ໃຊ້ແລ້ວໝົດໄປ ຫຼື ກາ"
+"ນບໍລິການ."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #. odoo-python
@@ -2956,16 +5106,30 @@ msgid ""
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃບສະເໜີລາຄາຂອງທ່ານມີສິນຄ້າຈາກບໍລິສັດ %(product_company)s ໃນຂະນະທີ່ໃບສະເໜີລາຄາຂອງທ່ານເປັນຂອ"
+"ງບໍລິສັດ %(quote_company)s. \n"
+" ກະລຸນາປ່ຽນບໍລິສັດໃນໃບສະເໜີລາຄາຂອງທ່ານ ຫຼື ລົບສິນຄ້າຈາກບໍລິສັດອື່ນອອກ (%(bad_products)s)."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_order
 msgid "close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
 msgid "day(s) before"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ ກ່ອນໜ້າ"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:mail.template,subject:purchase.email_template_edi_purchase
@@ -2973,3 +5137,7 @@ msgstr ""
 #: model:mail.template,subject:purchase.email_template_edi_purchase_reminder
 msgid "{{ object.company_id.name }} Order (Ref {{ object.name or 'n/a' }})"
 msgstr ""
+<<<<<<< HEAD
+=======
+"{{ object.company_id.name }} ການສັ່ງຊື້ (ເລກອ້າງອີງ {{ object.name or 'n/a' }})"
+>>>>>>> upstream/18.0

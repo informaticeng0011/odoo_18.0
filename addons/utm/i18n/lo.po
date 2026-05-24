@@ -1,12 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* utm
 #
+=======
+# * utm
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,98 +22,173 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-05-22 08:15+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/utm/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-python
 #: code:addons/utm/models/utm_source.py:0
 msgid "%(content)s (%(model_description)s created on %(create_date)s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(content)s (%(model_description)s ສ້າງຂຶ້ນເມື່ອ %(create_date)s)"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__active
 #: model:ir.model.fields,field_description:utm.field_utm_medium__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດນຳໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,help:utm.field_utm_campaign__is_auto_campaign
 msgid "Allows us to filter relevant Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ພວກເຮົາກອງແຄມເປນທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Approval-based Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການເຮັດວຽກທີ່ອີງໃສ່ການອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Approved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸມັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_kanban
 msgid "Archive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບມ້ຽນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_search
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບມ້ຽນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.action_view_utm_tag
 msgid "Assign tags to your campaigns to organize, filter and track them."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດແທັກໃຫ້ກັບແຄມເປນຂອງທ່ານເພື່ອຈັດລະບຽບ, ກອງ ແລະ ຕິດຕາມພວກມັນ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Audience-driven Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການເຮັດວຽກທີ່ຂັບເຄື່ອນດ້ວຍກຸ່ມເປົ້າໝາຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__is_auto_campaign
 msgid "Automatically Generated Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນທີ່ສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__campaign_id
 msgid "Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__name
 msgid "Campaign Identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວລະບຸແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__title
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form_quick_create
 msgid "Campaign Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_stage
 msgid "Campaign Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.actions.act_window,name:utm.action_view_utm_tag
 #: model_terms:ir.ui.view,arch_db:utm.utm_tag_view_tree
 msgid "Campaign Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.actions.act_window,name:utm.utm_campaign_action
 #: model:ir.ui.menu,name:utm.menu_utm_campaign_act
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_campaign_action
@@ -113,54 +196,94 @@ msgid ""
 "Campaigns are used to centralize your marketing efforts and track their "
 "results."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ແຄມເປນຖືກນຳໃຊ້ເພື່ອລວບລວມຄວາມພະຍາຍາມດ້ານການຕະຫຼາດຂອງທ່ານ ແລະ ຕິດຕາມຜົນໄດ້ຮັບ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "Campaigns that are assigned to me"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນທີ່ມອບໝາຍໃຫ້ຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.campaign,title:utm.utm_campaign_christmas_special
 msgid "Christmas Special"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບຸນຄຣິດສະມາດພິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Collect ideas, design creative content and publish it once reviewed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຮວບຮວມແນວຄວາມຄິດ, ອອກແບບເນື້ອຫາສ້າງສັນ ແລະ ເຜີຍແຜ່ເມື່ອໄດ້ຮັບການກວດສອບແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__color
 #: model:ir.model.fields,field_description:utm.field_utm_tag__color
 msgid "Color Index"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດັດຊະນີສີ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Copywriting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຂຽນບົດໂຄສະນາ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_medium_action
 msgid "Create a Medium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງສື່ກາງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.action_view_utm_tag
 msgid "Create a Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_campaign_action
 msgid "Create a campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.action_view_utm_stage
 msgid "Create a stage for your campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຂັ້ນຕອນສຳລັບແຄມເປນຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__create_uid
@@ -169,7 +292,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm.field_utm_stage__create_uid
 #: model:ir.model.fields,field_description:utm.field_utm_tag__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__create_date
@@ -178,37 +305,61 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm.field_utm_stage__create_date
 #: model:ir.model.fields,field_description:utm.field_utm_tag__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Creative Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການເຮັດວຽກແບບສ້າງສັນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_kanban
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Deploy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດວາງນຳໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Deployed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດວາງນຳໃຊ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 #: model:utm.stage,name:utm.campaign_stage_2
 msgid "Design"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອອກແບບ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__display_name
@@ -217,40 +368,68 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm.field_utm_stage__display_name
 #: model:ir.model.fields,field_description:utm.field_utm_tag__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_kanban
 msgid "Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.campaign,title:utm.utm_campaign_email_campaign_products
 msgid "Email Campaign - Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນອີເມລ - ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.campaign,title:utm.utm_campaign_email_campaign_services
 msgid "Email Campaign - Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນອີເມລ - ການບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Event-driven Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການເຮັດວຽກທີ່ຂັບເຄື່ອນດ້ວຍກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Gather Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮວບຮວມຂໍ້ມູນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -259,16 +438,28 @@ msgid ""
 "Gather data, build a recipient list and write content based on your "
 "Marketing target."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຮວບຮວມຂໍ້ມູນ, ສ້າງລາຍຊື່ຜູ້ຮັບ ແລະ ຂຽນເນື້ອຫາໂດຍອີງໃສ່ເປົ້າໝາຍການຕະຫຼາດຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_ir_http
 msgid "HTTP Routing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__id
@@ -277,13 +468,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm.field_utm_stage__id
 #: model:ir.model.fields,field_description:utm.field_utm_tag__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Ideas"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແນວຄວາມຄິດ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__write_uid
@@ -292,7 +491,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm.field_utm_stage__write_uid
 #: model:ir.model.fields,field_description:utm.field_utm_tag__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__write_date
@@ -301,52 +504,88 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm.field_utm_stage__write_date
 #: model:ir.model.fields,field_description:utm.field_utm_tag__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Later"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາຍຫຼັງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.ui.menu,name:utm.menu_link_tracker_root
 msgid "Link Tracker"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຕິດຕາມລິ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "List-Building"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງລາຍຊື່"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.tag,name:utm.utm_tag_1
 msgid "Marketing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕະຫຼາດ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__medium_id
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_form
 msgid "Medium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສື່ກາງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_medium__name
 msgid "Medium Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ສື່ກາງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.actions.act_window,name:utm.utm_medium_action
 #: model:ir.ui.menu,name:utm.menu_utm_medium
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_tree
 msgid "Mediums"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສື່ກາງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "My Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_source_mixin__name
@@ -354,17 +593,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm.field_utm_tag__name
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_tree
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.stage,name:utm.default_utm_stage
 msgid "New"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_source_action
 msgid "No Sources yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີແຫຼ່ງທີ່ມາເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-python
@@ -373,18 +624,31 @@ msgid ""
 "Oops, you can't delete the Medium '%s'.\n"
 "Doing so would be like tearing down a load-bearing wall — not the best idea."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອຸ້ຍ, ທ່ານບໍ່ສາມາດລຶບສື່ກາງ '%s' ໄດ້.\n"
+"ການເຮັດແບບນັ້ນຈະຄືກັບການຮື້ຖອນຝາຮັບນ້ຳໜັກ — ມັນບໍ່ແມ່ນຄວາມຄິດທີ່ດີປານໃດ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Pre-Launch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກ່ອນການເປີດຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Prepare Campaigns and get them approved before making them go live."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຽມແຄມເປນ ແລະ ຂໍອະນຸມັດກ່ອນທີ່ຈະເປີດນຳໃຊ້ຕົວຈິງ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -393,80 +657,136 @@ msgid ""
 "Prepare your Campaign, test it with part of your audience and deploy it "
 "fully afterwards."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຽມແຄມເປນຂອງທ່ານ, ທົດສອບກັບກຸ່ມເປົ້າໝາຍບາງສ່ວນ ແລະ ຈັດວາງນຳໃຊ້ຢ່າງເຕັມຮູບແບບໃນພາຍຫຼັງ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__user_id
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_kanban
 msgid "Restore"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບຄືນສະພາບເດີມ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Review"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກວດສອບ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Running"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.campaign,title:utm.utm_campaign_fall_drive
 msgid "Sale"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:utm.stage,name:utm.campaign_stage_1
 msgid "Schedule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_search
 msgid "Search UTM Medium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາສື່ກາງ UTM"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 #: model:utm.stage,name:utm.campaign_stage_3
 msgid "Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_stage__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເປີດຕົວແບບທົດລອງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Soft-Launch Flow"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການເປີດຕົວແບບທົດລອງ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__source_id
@@ -474,31 +794,51 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:utm.utm_source_view_form
 #: model_terms:ir.ui.view,arch_db:utm.utm_source_view_tree
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງທີ່ມາ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_source__name
 msgid "Source Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແຫຼ່ງທີ່ມາ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.actions.act_window,name:utm.utm_source_action
 #: model:ir.ui.menu,name:utm.menu_utm_source
 msgid "Sources"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງທີ່ມາ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__stage_id
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_stage_view_form
 #: model_terms:ir.ui.view,arch_db:utm.utm_stage_view_search
 #: model_terms:ir.ui.view,arch_db:utm.utm_stage_view_tree
 msgid "Stages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.action_view_utm_stage
@@ -506,6 +846,11 @@ msgid ""
 "Stages allow you to organize your workflow  (e.g. plan, design, in progress,"
 " done, …)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຂັ້ນຕອນຊ່ວຍໃຫ້ທ່ານຈັດລະບຽບຂັ້ນຕອນການເຮັດວຽກຂອງທ່ານ (ຕົວຢ່າງ: ວາງແຜນ, ອອກແບບ, ກຳລັງດຳເນີນກາ"
+"ນ, ສຳເລັດ, …)."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,help:utm.field_utm_tag__color
@@ -513,36 +858,61 @@ msgid ""
 "Tag color. No color means no display in kanban to distinguish internal tags "
 "from public categorization tags."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສີຂອງແທັກ. ຫາກບໍ່ມີສີໝາຍເຖິງຈະບໍ່ສະແດງໃນຮູບແບບຄຳບັງ (kanban) ເພື່ອແຍກແທັກພາຍໃນອອກຈາກແທັກການຈັ"
+"ດປະເພດສາທາລະນະ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.constraint,message:utm.constraint_utm_tag_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຊື່ແທັກນີ້ແລ້ວ!"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_campaign__tag_ids
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.constraint,message:utm.constraint_utm_campaign_unique_name
 #: model:ir.model.constraint,message:utm.constraint_utm_medium_unique_name
 #: model:ir.model.constraint,message:utm.constraint_utm_source_unique_name
 msgid "The name must be unique"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຕ້ອງບໍ່ຊ້ຳກັນ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "This Month"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເດືອນນີ້"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "This Week"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາທິດນີ້"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,help:utm.field_utm_mixin__campaign_id
@@ -550,11 +920,20 @@ msgid ""
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ນີ້ແມ່ນຊື່ທີ່ຊ່ວຍໃຫ້ທ່ານຕິດຕາມຄວາມພະຍາຍາມຂອງແແຄມເປນຕ່າງໆ, ເຊັ່ນ: Fall_Drive, "
+"Christmas_Special"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,help:utm.field_utm_mixin__medium_id
 msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນີ້ແມ່ນວິທີການສົ່ງ, ເຊັ່ນ: ໄປສະນີບັດ, ອີເມລ, ຫຼື ປ້າຍໂຄສະນາ (Banner Ad)"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model.fields,help:utm.field_utm_mixin__source_id
@@ -562,12 +941,20 @@ msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ນີ້ແມ່ນແຫຼ່ງທີ່ມາຂອງລິ້ງ, ເຊັ່ນ: ເຄື່ອງມືຄົ້ນຫາ, ໂດເມນອື່ນ, ຫຼື ຊື່ຂອງລາຍຊື່ອີເມລ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "To be Approved"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າການອະນຸມັດ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
@@ -576,23 +963,40 @@ msgid ""
 "Track incoming events (e.g. Christmas, Black Friday, ...) and publish timely"
 " content."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຕິດຕາມກິດຈະກຳທີ່ຈະມາເຖິງ (ເຊັ່ນ: ຄຣິດສະມາດ, Black Friday, ...) ແລະ ເຜີຍແຜ່ເນື້ອຫາໃຫ້ທັນເວລ"
+"າ."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_campaign
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form
 msgid "UTM Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ UTM"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_tree
 #: model_terms:ir.ui.view,arch_db:utm.view_utm_campaign_view_search
 msgid "UTM Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ UTM"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_medium
 msgid "UTM Medium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສື່ກາງ UTM"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_medium_action
@@ -600,21 +1004,37 @@ msgid ""
 "UTM Mediums track the mean that was used to attract traffic (e.g. "
 "\"Website\", \"X\", ...)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສື່ກາງ UTM ຕິດຕາມຊ່ອງທາງທີ່ຖືກນຳໃຊ້ເພື່ອດຶງດູດການເຂົ້າຊົມ (ເຊັ່ນ: \"ເວັບໄຊ\", \"X\", ...)."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_mixin
 msgid "UTM Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UTM Mixin"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_source
 msgid "UTM Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງທີ່ມາ UTM"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_source_mixin
 msgid "UTM Source Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UTM Source Mixin"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.actions.act_window,help:utm.utm_source_action
@@ -622,27 +1042,47 @@ msgid ""
 "UTM Sources track where traffic comes from  (e.g. \"May Newsletter\", \"\", "
 "...)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ແຫຼ່ງທີ່ມາ UTM ຕິດຕາມວ່າການເຂົ້າຊົມມາຈາກໃສ (ເຊັ່ນ: \"ຈົດໝາຍຂ່າວເດືອນພຶດສະພາ\", \"\", ...)."
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.actions.act_window,name:utm.action_view_utm_stage
 msgid "UTM Stages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນ UTM"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.model,name:utm.model_utm_tag
 msgid "UTM Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກ UTM"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model:ir.ui.menu,name:utm.marketing_utm
 msgid "UTMs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UTMs"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-javascript
 #: code:addons/utm/static/src/js/utm_campaign_kanban_examples.js:0
 msgid "Use This For My Campaigns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ສິ່ງນີ້ສຳລັບແຄມເປນຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #. odoo-python
@@ -650,25 +1090,45 @@ msgstr ""
 msgid ""
 "You cannot update multiple records with the same name. The name should be "
 "unique!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດອັບເດດຫຼາຍລາຍການທີ່ມີຊື່ດຽວກັນໄດ້. ຊື່ຄວນຈະບໍ່ຊ້ຳກັນ!"
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_stage_view_form
 msgid "e.g. \"Brainstorming\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: \"ການລະດົມສະໝອງ\""
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_source_view_tree
 msgid "e.g. \"Christmas Mailing\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: \"ການສົ່ງເມລຄຣິດສະມາດ\""
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_tree
 msgid "e.g. \"Email\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: \"ອີເມລ\""
+>>>>>>> upstream/18.0
 
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form
 #: model_terms:ir.ui.view,arch_db:utm.utm_campaign_view_form_quick_create
 msgid "e.g. Black Friday"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: Black Friday"
+>>>>>>> upstream/18.0

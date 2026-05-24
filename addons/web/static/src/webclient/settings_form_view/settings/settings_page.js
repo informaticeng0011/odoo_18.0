@@ -32,6 +32,10 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Deferred } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 =======
 import { Deferred } from "@web/core/utils/concurrency";
 >>>>>>> upstream/18.0
@@ -197,6 +201,10 @@ export class SettingsPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this.tabChangeProm?.resolve();
+>>>>>>> upstream/18.0
 =======
                 this.tabChangeProm?.resolve();
 >>>>>>> upstream/18.0
@@ -340,6 +348,7 @@ export class SettingsPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async onRightSwipe(prom) {
         this.state.selectedTab = this.props.modules[this.getCurrentIndex() - 1].key;
         await prom;
@@ -349,6 +358,8 @@ export class SettingsPage extends Component {
         this.state.selectedTab = this.props.modules[this.getCurrentIndex() + 1].key;
         await prom;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -446,6 +457,9 @@ export class SettingsPage extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

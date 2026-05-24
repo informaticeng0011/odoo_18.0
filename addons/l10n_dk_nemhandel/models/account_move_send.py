@@ -22,7 +22,11 @@ class AccountMoveSend(models.AbstractModel):
     def _is_applicable_to_company(self, method, company):
         # EXTENDS 'account'
         if method == 'nemhandel':
+<<<<<<< HEAD
             return company.l10n_dk_nemhandel_proxy_state != 'rejected'
+=======
+            return company.l10n_dk_nemhandel_proxy_state != 'rejected' and self.move_id.partner_id.nemhandel_verification_state in {'valid', 'not_verified'}
+>>>>>>> upstream/18.0
         return super()._is_applicable_to_company(method, company)
 
     def _is_applicable_to_move(self, method, move, **move_data):
@@ -247,7 +251,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 invoice_data['error'] = e.message
+=======
+                invoice_data['error'] = str(e)
+>>>>>>> upstream/18.0
 =======
                 invoice_data['error'] = str(e)
 >>>>>>> upstream/18.0

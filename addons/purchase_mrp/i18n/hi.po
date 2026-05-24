@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* purchase_mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -956,6 +957,9 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * purchase_mrp
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1100,6 +1104,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1378,11 +1383,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2346,10 +2355,18 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Ujjawal Pathak, 2025\n"
 "Language-Team: Hindi (https://app.transifex.com/odoo/teams/41243/hi/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-17 05:49+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
+"purchase_mrp/hi/>\n"
+>>>>>>> upstream/18.0
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2769,31 +2786,55 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+=======
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model_terms:ir.ui.view,arch_db:purchase_mrp.purchase_order_form_mrp
 msgid "<span class=\"o_stat_text\">Manufacturing</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">मैन्युफ़ैक्चरिंग</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model_terms:ir.ui.view,arch_db:purchase_mrp.mrp_production_form_view_purchase
 msgid "<span class=\"o_stat_text\">Purchases</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">परचेज़</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_report_mrp_report_bom_structure
 msgid "BOM Overview Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बीओएम की पूरी जानकारी वाली रिपोर्ट"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_bom
 msgid "Bill of Material"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिल ऑफ़ मैटेरियल"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_bom_line
 msgid "Bill of Material Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिल ऑफ़ मैटेरियल लाइन"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #. odoo-python
@@ -2804,7 +2845,11 @@ msgstr ""
 #. module: purchase_mrp
 #: model:ir.model.fields,field_description:purchase_mrp.field_mrp_bom_line__cost_share
 msgid "Cost Share (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "लागत शेयर (%)"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model.fields,field_description:purchase_mrp.field_purchase_order__mrp_production_count
@@ -3092,7 +3137,11 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल आइटम"
 >>>>>>> upstream/18.0
@@ -3916,7 +3965,11 @@ msgstr "जर्नल आइटम"
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_report_mrp_report_mo_overview
 msgid "MO Overview Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एमओ की पूरी जानकारी वाली रिपोर्ट"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_production
@@ -3933,6 +3986,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase_mrp/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4636,6 +4690,12 @@ msgid ""
 "%s is zero."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Odoo is not able to generate the anglo saxon entries. The total valuation of "
+"%s is zero."
+msgstr ""
+"Odoo एंग्लो-सैक्सन एंट्रियां नहीं जनरेट कर सकता है. %s का कुल मूल्यांकन शून्य है।"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_purchase_order
@@ -4900,7 +4960,11 @@ msgid "Purchase Order Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "परचेज़ ऑर्डर लाइन"
+>>>>>>> upstream/18.0
 =======
 msgstr "परचेज़ ऑर्डर लाइन"
 >>>>>>> upstream/18.0

@@ -1,5 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* purchase_mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,10 +426,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+# * purchase_mrp
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Bole <bole@dajmi5.com>, 2024
 # Vladimir Vrgoč, 2024
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -847,11 +852,15 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1284,6 +1293,13 @@ msgstr ""
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Vladimir Vrgoč, 2024\n"
 "Language-Team: Croatian (https://app.transifex.com/odoo/teams/41243/hr/)\n"
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-17 05:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
+"purchase_mrp/hr/>\n"
+>>>>>>> upstream/18.0
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1429,6 +1445,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1707,6 +1724,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
 
 #. module: purchase_mrp
@@ -1738,12 +1758,20 @@ msgstr "Stavka sastavnice"
 #. odoo-python
 #: code:addons/purchase_mrp/models/mrp_bom.py:0
 msgid "Components cost share have to be positive or equals to zero."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udio troškova komponenti mora biti pozitivan ili jednak nuli."
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model.fields,field_description:purchase_mrp.field_mrp_bom_line__cost_share
 msgid "Cost Share (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Udio troška (%)"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model.fields,field_description:purchase_mrp.field_purchase_order__mrp_production_count
@@ -1763,7 +1791,11 @@ msgstr "Stavka dnevnika"
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_report_mrp_report_mo_overview
 msgid "MO Overview Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvještaj pregleda naloga za proizvodnju"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_production
@@ -1780,6 +1812,7 @@ msgstr "Proizvodni izvor za %s"
 #. odoo-python
 #: code:addons/purchase_mrp/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2483,6 +2516,13 @@ msgid ""
 "%s is zero."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Odoo is not able to generate the anglo saxon entries. The total valuation of "
+"%s is zero."
+msgstr ""
+"Odoo ne može generirati anglosaksonske stavke knjiženja. Ukupno vrednovanje "
+"za %s je nula."
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_purchase_order
@@ -2511,9 +2551,18 @@ msgid ""
 "The percentage of the component repartition cost when purchasing a kit.The "
 "total of all components' cost have to be equal to 100."
 msgstr ""
+<<<<<<< HEAD
+=======
+"Postotak raspodjele troška komponente pri kupnji kompleta. Ukupan trošak "
+"svih komponenti mora biti jednak 100."
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #. odoo-python
 #: code:addons/purchase_mrp/models/mrp_bom.py:0
 msgid "The total cost share for a BoM's component have to be 100"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukupan udio troška komponente sastavnice mora biti 100"
+>>>>>>> upstream/18.0

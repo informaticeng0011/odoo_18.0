@@ -3,7 +3,11 @@ from odoo import fields, Command
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import tagged
+=======
+from odoo.tests import Form, tagged
+>>>>>>> upstream/18.0
 =======
 from odoo.tests import Form, tagged
 >>>>>>> upstream/18.0
@@ -447,7 +451,10 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1181,6 +1188,7 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1647,6 +1655,8 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1656,6 +1666,9 @@ class TestAccruedPurchaseOrders(AccountTestInvoicingCommon):
         with self.assertRaises(AssertionError):
             wizard_form.save()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

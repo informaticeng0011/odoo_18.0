@@ -41,7 +41,10 @@ class TestVivaWalletHttpCommon(TestPointOfSaleHttpCommon):
             self.start_tour("/pos/ui?config_id=%d" % self.main_pos_config.id, 'VivaWalletTour', login="accountman")
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -67,6 +70,9 @@ class TestVivaWalletHttpCommon(TestPointOfSaleHttpCommon):
                 login="accountman",
             )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -4,19 +4,35 @@
 #
 # Translators:
 # Martin Trigaux <mat@odoo.com>, 2017
+<<<<<<< HEAD
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-16 13:49+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Lao (https://www.transifex.com/odoo/teams/41243/lo/)\n"
+=======
+"PO-Revision-Date: 2026-05-19 13:33+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/event_sale/"
+"lo/>\n"
+>>>>>>> upstream/18.0
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_ticket_id_change_exception
@@ -24,32 +40,58 @@ msgid ""
 ".\n"
 "            <span>Manual actions may be needed.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+".\n"
+"            <span>ອາດຕ້ອງມີການດຳເນີນການດ້ວຍຕົນເອງ.</span>"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
 msgid "<span class=\"o_stat_text\">Sale Order</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ໃບສັ່ງຂາຍ</span>"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_form_inherit_ticket
 msgid "<span class=\"o_stat_text\">Sales</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ການຂາຍ</span>"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "<span>Not enough seats available. All registrations were created as \"Unconfirmed\" and can be updated later on.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>ບ່ອນນັ່ງບໍ່ພໍ. ການລົງທະບຽນທັງໝົດຖືກສ້າງເປັນ \"ຍັງບໍ່ທັນຢືນຢັນ\" ແລະ ສາມາດອັບເດດໄດ້ໃນພາຍຫຼັ"
+"ງ.</span>"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_ticket_id_change_exception
 msgid "<span>Registration modification for attendee:</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ການປ່ຽນແປງການລົງທະບຽນສຳລັບຜູ້ເຂົ້າຮ່ວມ:</span>"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_event_event_ticket__description
 #: model:ir.model.fields,help:event_sale.field_event_type_ticket__description
 msgid "A description of the ticket that you want to communicate to your customers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍກ່ຽວກັບປີ້ທີ່ທ່ານຕ້ອງການແຈ້ງໃຫ້ລູກຄ້າຂອງທ່ານຊາບ."
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_product_product__detailed_type
@@ -59,125 +101,219 @@ msgid ""
 "A consumable product is a product for which stock is not managed.\n"
 "A service is a non-material product you provide."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສິນຄ້າທີ່ສາມາດເກັບຮັກສາໄດ້ ແມ່ນສິນຄ້າທີ່ທ່ານຄຸ້ມຄອງສະຕັອກ. ຕ້ອງໄດ້ຕິດຕັ້ງແອັບສາງສິນຄ້າ.\n"
+"ສິນຄ້າບໍລິໂພກ ແມ່ນສິນຄ້າທີ່ບໍ່ມີການຄຸ້ມຄອງສະຕັອກ.\n"
+"ການບໍລິການ ແມ່ນສິນຄ້າທີ່ບໍ່ແມ່ນວັດຖຸທີ່ທ່ານສະໜອງໃຫ້."
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event__sale_order_lines_ids
 msgid "All sale order lines pointing to this event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃບສັ່ງຂາຍທັງໝົດທີ່ເຊື່ອມໂຍງກັບກິດຈະກຳນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__done
 msgid "Attended"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຮ່ວມແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_sale_order__attendee_count
 msgid "Attendee Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_registration_name
 msgid "Attendee Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.sale_order_view_form
 msgid "Attendees"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "Before updating the linked registrations of"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກ່ອນທີ່ຈະອັບເດດການລົງທະບຽນທີ່ເຊື່ອມໂຍງຂອງ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Booked by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈອງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__utm_campaign_id
 msgid "Campaign"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_configurator_view_form
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__cancel
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__cancel
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_sale_order_line__event_id
 msgid "Choose an event and it will automatically create a registration for this event."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກກິດຈະກຳ ແລະ ມັນຈະສ້າງການລົງທະບຽນສຳລັບກິດຈະກຳນີ້ໂດຍອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,help:event_sale.field_sale_order_line__event_ticket_id
 msgid "Choose an event ticket and it will automatically create a registration for this event ticket."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເລືອກປີ້ກິດຈະກຳ ແລະ ມັນຈະສ້າງການລົງທະບຽນສຳລັບປີ້ກິດຈະກຳນີ້ໂດຍອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.actions.act_window,help:event_sale.event_sale_report_action
 msgid "Come back once tickets have been sold to overview your sales income."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບມາອີກຄັ້ງເມື່ອຂາຍປີ້ໄດ້ແລ້ວ ເພື່ອເບິ່ງພາບລວມຂອງລາຍໄດ້ຈາກການຂາຍ."
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.actions.act_window,name:event_sale.event_configurator_action
 msgid "Configure an event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດຄ່າກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__open
 msgid "Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "Create/Update registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງ/ອັບເດດ ການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__create_uid
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__create_uid
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__create_date
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__create_date
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event__currency_id
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__currency_id
 #: model:ir.model.fields,field_description:event_sale.field_event_type_ticket__currency_id
 msgid "Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_partner_id
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__description
 #: model:ir.model.fields,field_description:event_sale.field_event_type_ticket__description
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__display_name
@@ -185,27 +321,47 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__display_name
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_registration_editor
 msgid "Edit Attendee Details on Sales Confirmation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂລາຍລະອຽດຜູ້ເຂົ້າຮ່ວມໃນການຢືນຢັນການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_registration_editor_line
 msgid "Edit Attendee Line on Sales Confirmation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂລາຍການຜູ້ເຂົ້າຮ່ວມໃນການຢືນຢັນການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__editor_id
 msgid "Editor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວແກ້ໄຂ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__email
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_event
@@ -216,60 +372,104 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_form
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_event_configurator
 msgid "Event Configurator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍກຳນົດຄ່າກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_date_end
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Event End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_registration
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_registration_id
 msgid "Event Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:product.template,name:event_sale.product_product_event_standard_product_template
 msgid "Event Registration - Standard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນກິດຈະກຳ - ມາດຕະຖານ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:product.template,name:event_sale.product_product_event_vip_product_template
 msgid "Event Registration - VIP"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນກິດຈະກຳ - VIP"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.actions.act_window,name:event_sale.action_sale_order_event_registration
 msgid "Event Registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນກິດຈະກຳຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Event Sales Analysis"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການວິເຄາະການຂາຍກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_sale_report
 msgid "Event Sales Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານການຂາຍກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_date_begin
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Event Start Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_type_ticket
 msgid "Event Template Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ແບບປີ້ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_event_ticket
@@ -279,40 +479,68 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_sale.field_sale_order_line__event_ticket_id
 #: model:ir.model.fields.selection,name:event_sale.selection__product_template__detailed_type__event
 msgid "Event Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_product_product__event_ticket_ids
 msgid "Event Tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ກິດຈະກຳຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_type_id
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Event Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Events that have ended"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ສິ້ນສຸດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_ticket_id_change_exception
 msgid "Exception:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຍົກເວັ້ນ:"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_registration__payment_status__free
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__payment_status__free
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Free"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟຣີ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__id
@@ -320,110 +548,190 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__id
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #. odoo-python
 #: code:addons/event_sale/wizard/event_configurator.py:0
 msgid "Invalid ticket choice \"%(ticket_name)s\" for event \"%(event_name)s\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການເລືອກປີ້ບໍ່ຖືກຕ້ອງ \"%(ticket_name)s\" ສຳລັບກິດຈະກຳ \"%(event_name)s\"."
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__invoice_partner_id
 msgid "Invoice Address"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ໃບແຈ້ງໜີ້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__is_paid
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__is_paid
 msgid "Is Paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈ່າຍແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__active
 msgid "Is registration active (not archived)?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນຍັງໃຊ້ງານຢູ່ຫຼືບໍ່ (ບໍ່ໄດ້ຖືກຈັດເກັບ)?"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນທຶກປະຈຳວັນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__write_uid
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__write_uid
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator__write_date
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__write_date
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__done
 msgid "Locked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລັອກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__utm_medium_id
 msgid "Medium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__mobile
 msgid "Mobile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມືຖື"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.actions.act_window,help:event_sale.event_sale_report_action
 msgid "No Event Revenues yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີລາຍຮັບຈາກກິດຈະກຳເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Non-free tickets"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ທີ່ບໍ່ແມ່ນຟຣີ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_registration__payment_status__to_pay
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__payment_status__to_pay
 msgid "Not Paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ທັນຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__seats_available_insufficient
 msgid "Not enough seats for all registrations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບ່ອນນັ່ງບໍ່ພຽງພໍສຳລັບການລົງທະບຽນທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_configurator_view_form
 msgid "Ok"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົກລົງ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_date
 #: model_terms:ir.ui.view,arch_db:event_sale.event_report_template_full_page_ticket_inherit_sale
 msgid "Order Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_report_template_full_page_ticket_inherit_sale
 msgid "Order Ref"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອ້າງອີງການສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__registration_id
 msgid "Original Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນຕົ້ນສະບັບ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_registration__payment_status__paid
@@ -431,56 +739,96 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Paid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈ່າຍແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Participant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Past Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຜ່ານມາ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__payment_status
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__payment_status
 msgid "Payment Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະການຈ່າຍເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Pending payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າການຈ່າຍເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__phone
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__price
 #: model:ir.model.fields,field_description:event_sale.field_event_type_ticket__price
 #: model_terms:ir.ui.view,arch_db:event_sale.event_report_template_full_page_ticket_inherit_sale
 msgid "Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__price_reduce
 #: model:ir.model.fields,field_description:event_sale.field_event_type_ticket__price_reduce
 msgid "Price Reduce"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼຸດລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__price_reduce_taxinc
 msgid "Price Reduce Tax inc"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຫຼຸດລວມພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__price_incl
 msgid "Price include"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາລວມ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_product_template
@@ -498,12 +846,20 @@ msgstr "ສິນຄ້າ"
 #: model:ir.model.fields,field_description:event_sale.field_product_product__detailed_type
 #: model:ir.model.fields,field_description:event_sale.field_product_template__detailed_type
 msgid "Product Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_product_product
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__draft
@@ -513,45 +869,77 @@ msgstr "ໃບສະເໜີລາຄາ"
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__sent
 msgid "Quotation Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃບສະເໜີລາຄາແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order_template_line
 msgid "Quotation Template Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການແມ່ແບບໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order_template_option
 msgid "Quotation Template Option"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກແມ່ແບບໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_form
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_registration_create_date
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Registration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_registration_state
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Registration Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_form
 msgid "Registration revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຮັບຈາກການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__event_registration_ids
 msgid "Registrations to Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນທີ່ຈະແກ້ໄຂ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.actions.act_window,name:event_sale.event_sale_report_action
@@ -562,39 +950,67 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_pivot
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_tree
 msgid "Revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_id
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_form
 msgid "Sale Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສັ່ງຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_line_id
 msgid "Sale Order Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃບສັ່ງຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_state
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Sale Order Status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະໃບສັ່ງຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_form_inherit_ticket
 msgid "Sales"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event__sale_price_subtotal
 msgid "Sales (Tax Excluded)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຂາຍ (ບໍ່ລວມພາສີ)"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_event_ticket_view_tree_from_event
 msgid "Sales End"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິ້ນສຸດການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order
@@ -602,86 +1018,154 @@ msgstr ""
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor__sale_order_id
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__sale_order_state__sale
 msgid "Sales Order"
+<<<<<<< HEAD
 msgstr "ໃບສັ່ງຊື້"
+=======
+msgstr "ໃບສັ່ງຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_sale_order_line
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__sale_order_line_id
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__sale_order_line_id
 msgid "Sales Order Line"
+<<<<<<< HEAD
 msgstr "ລາຍການສິນຄ້າທີ່ສັ່ງຊື້"
+=======
+msgstr "ລາຍການໃບສັ່ງຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_event_ticket_view_tree_from_event
 msgid "Sales Start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມຕົ້ນການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_order_user_id
 msgid "Salesperson"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພະນັກງານຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "Skip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂ້າມ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_registration__utm_source_id
 msgid "Source"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງທີ່ມາ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Ticket"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_ticket_id_change_exception
 msgid "Ticket changed from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປີ້ປ່ຽນຈາກ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__event_ticket_price
 msgid "Ticket price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາປີ້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_form_inherit_ticket
 msgid "Total sales for this event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍອດຂາຍທັງໝົດຂອງກິດຈະກຳນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_registration_ticket_view_form
 msgid "Transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸລະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields.selection,name:event_sale.selection__event_sale_report__event_registration_state__draft
 msgid "Unconfirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ທັນຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_sale_report__sale_price_untaxed
 msgid "Untaxed Revenues"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຮັບທີ່ບໍ່ໄດ້ເສຍພາສີ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Upcoming events from today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຈະມາເຖິງເລີ່ມແຕ່ມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_sale_report_view_search
 msgid "Upcoming/Running"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງຈະມາ/ກຳລັງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.view_event_registration_editor_form
 msgid "please give attendee details."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາໃຫ້ລາຍລະອຽດຜູ້ເຂົ້າຮ່ວມ."
+>>>>>>> upstream/18.0
 
 #. module: event_sale
 #: model_terms:ir.ui.view,arch_db:event_sale.event_ticket_id_change_exception
 msgid "to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄປຫາ"
+>>>>>>> upstream/18.0

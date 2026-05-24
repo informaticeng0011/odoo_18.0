@@ -1,12 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* auth_totp
 #
+=======
+# * auth_totp
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,23 +22,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-05-18 08:04+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/auth_totp/"
+"lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "%(browser)s on %(platform)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(browser)s ເທິງ %(platform)s"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model,name:auth_totp.model_auth_totp_wizard
 msgid "2-Factor Setup Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍຕັ້ງຄ່າການຢືນຢັນຕົວຕົນແບບ 2 ຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "2-Factor authentication is now enabled."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານການຢືນຢັນຕົວຕົນແບບ 2 ຂັ້ນຕອນແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
@@ -38,6 +70,12 @@ msgid ""
 "<span class=\"d-md-none d-block\">Or install an authenticator app</span>\n"
 "                                        <span class=\"d-none d-md-block\">Install an authenticator app on your mobile device</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-md-none d-block\">ຫຼື ຕິດຕັ້ງແອັບຢືນຢັນຕົວຕົນ</span>\n"
+"                                        <span class=\"d-none d-md-block\">ຕິດຕັ້"
+"ງແອັບຢືນຢັນຕົວຕົນໃນອຸປະກອນມືຖືຂອງທ່ານ</span>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
@@ -45,6 +83,12 @@ msgid ""
 "<span class=\"d-none d-md-block\">When requested to do so, scan the barcode below</span>\n"
 "                                    <span class=\"d-block d-md-none\">When requested to do so, copy the key below</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"d-none d-md-block\">ເມື່ອມີການຮ້ອງຂໍ, ໃຫ້ສະແກນບາໂຄດລຸ່ມນີ້</span>\n"
+"                                    <span class=\"d-block d-md-none\">ເມື່ອມີການ"
+"ຮ້ອງຂໍ, ໃຫ້ຄັດລອກລະຫັດລຸ່ມນີ້</span>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
@@ -52,6 +96,11 @@ msgid ""
 "<span class=\"text-muted\">Popular ones include Authy, Google Authenticator "
 "or the Microsoft Authenticator.</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"text-muted\">ແອັບທີ່ນິຍົມໃຊ້ລວມມີ Authy, Google Authenticator ຫຼື "
+"Microsoft Authenticator.</span>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
@@ -59,6 +108,11 @@ msgid ""
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">This account is "
 "protected!</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"not totp_enabled\" class=\"text-muted\">ບັນຊີນີ້ໄດ້ຮັບການປົກປ້ອງແລ້"
+"ວ!</span>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
@@ -66,17 +120,30 @@ msgid ""
 "<span invisible=\"not totp_enabled\" class=\"text-muted\">Your account is "
 "protected!</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span invisible=\"not totp_enabled\" class=\"text-muted\">ບັນຊີຂອງທ່ານໄດ້ຮັບການປົກປ້"
+"ອງແລ້ວ!</span>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Activate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດນຳໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Added On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
@@ -84,6 +151,10 @@ msgid ""
 "Are you sure? The user may be asked to enter two-factor codes again on those"
 " devices"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານແນ່ໃຈບໍ່? ຜູ້ໃຊ້ອາດຈະຖືກຖາມໃຫ້ປ້ອນລະຫັດຢືນຢັນສອງຂັ້ນຕອນຄືນໃໝ່ໃນອຸປະກອນເຫຼົ່ານັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
@@ -91,183 +162,319 @@ msgid ""
 "Are you sure? You may be asked to enter two-factor codes again on those "
 "devices"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານແນ່ໃຈບໍ່? ທ່ານອາດຈະຖືກຖາມໃຫ້ປ້ອນລະຫັດຢືນຢັນສອງຂັ້ນຕອນຄືນໃໝ່ໃນອຸປະກອນເຫຼົ່ານັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Authentication Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຢືນຢັນຕົວຕົນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model,name:auth_totp.model_auth_totp_device
 msgid "Authentication Device"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອຸປະກອນຢືນຢັນຕົວຕົນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Authenticator App Setup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າແອັບຢືນຢັນຕົວຕົນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Cannot scan it?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສະແກນໄດ້ບໍ?"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Click on this link to open your authenticator app"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄລິກທີ່ລິ້ງນີ້ເພື່ອເປີດແອັບຢືນຢັນຕົວຕົນຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__create_date
 msgid "Creation Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__name
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Device"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອຸປະກອນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Disable 2FA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດ 2FA"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.actions.server,name:auth_totp.action_disable_totp
 msgid "Disable two-factor authentication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__display_name
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Don't ask again on this device"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ຕ້ອງຖາມອີກໃນອຸປະກອນນີ້"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Enable 2FA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດ 2FA"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Enter your six-digit code below"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້ອນລະຫັດ 6 ຫຼັກຂອງທ່ານລຸ່ມນີ້"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__expiration_date
 msgid "Expiration Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນໝົດອາຍຸ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__id
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ (ID)"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/controllers/home.py:0
 msgid "Invalid authentication code format."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບລະຫັດຢືນຢັນຕົວຕົນບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Learn More"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮຽນຮູ້ເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 msgid "Log in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າສູ່ລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Look for an \"Add an account\" button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊອກຫາປຸ່ມ \"ເພີ່ມບັນຊີ\""
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "On Apple Store"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເທິງ Apple Store"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "On Google Play"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເທິງ Google Play"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__qrcode
 msgid "Qrcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄິວອານໂຄດ (QR Code)"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Revoke"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖອນສິດ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Revoke All"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖອນສິດທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__scope
 msgid "Scope"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂອບເຂດ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__secret
 msgid "Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດລັບ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "The verification code should only contain numbers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຢືນຢັນຄວນມີສະເພາະຕົວເລກເທົ່ານັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
@@ -275,31 +482,52 @@ msgid ""
 "To login, enter below the six-digit authentication code provided by your Authenticator app.\n"
 "                        <br/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພື່ອເຂົ້າສູ່ລະບົບ, ໃຫ້ປ້ອນລະຫັດຢືນຢັນ 6 ຫຼັກທີ່ໄດ້ຈາກແອັບຢືນຢັນຕົວຕົນຂອງທ່ານລຸ່ມນີ້.\n"
+"                        <br/>"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_secret
 msgid "Totp Secret"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດລັບ Totp"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_trusted_device_ids
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Trusted Devices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອຸປະກອນທີ່ເຊື່ອຖື"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-Factor Authentication Activation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເປີດໃຊ້ງານການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
 msgid "Two-factor Authentication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
@@ -309,67 +537,119 @@ msgid ""
 "                        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
 "                        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນ (\"2FA\") ແມ່ນລະບົບການຢືນຢັນຕົວຕົນຊັ້ນທີສອງ.\n"
+"                        ຂັ້ນຕອນທຳອິດແມ່ນໃຊ້ລະຫັດຜ່ານຂອງທ່ານ ແລະ ຂັ້ນຕອນທີສອງແມ່ນໃຊ້ລະຫັດທີ່ທ່າ"
+"ນໄດ້ຮັບຈາກແອັບມືຖືສະເພາະ.\n"
+"                        ແອັບທີ່ນິຍົມໃຊ້ລວມມີ Authy, Google Authenticator ຫຼື "
+"Microsoft Authenticator."
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_enabled
 msgid "Two-factor authentication"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.res_users_view_search
 msgid "Two-factor authentication Disabled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.res_users_view_search
 msgid "Two-factor authentication Enabled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication already enabled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication can only be enabled for yourself"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນສາມາດເປີດໃຊ້ໄດ້ສະເພາະຕົວທ່ານເອງເທົ່ານັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/models/res_users.py:0
 msgid "Two-factor authentication disabled for the following user(s): %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການຢືນຢັນຕົວຕົນແບບສອງຂັ້ນຕອນສຳລັບຜູ້ໃຊ້ຕໍ່ໄປນີ້: %s"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__url
 msgid "Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Url"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model,name:auth_totp.model_res_users
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_device__user_id
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__user_id
 msgid "User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_auth_totp_wizard__code
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "Verification Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #. odoo-python
 #: code:addons/auth_totp/models/res_users.py:0
 #: code:addons/auth_totp/wizard/auth_totp_wizard.py:0
 msgid "Verification failed, please double-check the 6-digit code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢືນຢັນລົ້ມເຫຼວ, ກະລຸນາກວດສອບລະຫັດ 6 ຫຼັກຄືນໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.auth_totp_form
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_wizard
 msgid "e.g. 123456"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: 123456"
+>>>>>>> upstream/18.0

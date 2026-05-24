@@ -1,12 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_event_track
 #
+=======
+# * website_event_track
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:39+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2026-04-10 18:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +22,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-05-23 00:36+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
+"website_event_track/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,body_html:website_event_track.mail_template_data_track_confirmation
@@ -35,104 +55,202 @@ msgid ""
 "        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 "    </t>\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"    ຮຽນ <t t-out=\"object.partner_id.name or object.partner_name or ''\">"
+"Brandon Freeman</t><br/>\n"
+"    ພວກເຮົາມີຄວາມຍິນດີທີ່ຈະແຈ້ງໃຫ້ທ່ານຊາບວ່າ ຂໍ້ສະເໜີຂອງທ່ານ <t t-out=\"object.name or "
+"''\">ກ່ຽວກັບຫຍັງໃນງານນີ້</t> ໄດ້ຮັບການຍອມຮັບ ແລະ ຢືນຢັນແລ້ວ ສຳລັບງານ <t t-"
+"out=\"object.event_id.name or ''\">ເປີດໂຕ OpenWood Collection ອອນລາຍ</t>.\n"
+"    <br/>\n"
+"    ທ່ານສາມາດເບິ່ງລາຍລະອຽດເພີ່ມເຕີມໄດ້ທີ່ນີ້:\n"
+"    <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"        <a t-attf-href=\"/event/{{ object.event_id.id }}/track/{{ "
+"object.id }}\" style=\"padding: 8px 16px 8px 16px; font-size: 14px; color: "
+"#FFFFFF; text-decoration: none !important; background-color: #875A7B; "
+"border: 0px solid #875A7B; border-radius:3px\">\n"
+"            ເບິ່ງການບັນຍາຍ\n"
+"        </a>\n"
+"    </div>\n"
+"    <br/><br/>\n"
+"    ຂອບໃຈ,\n"
+"    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n"
+"        <br/>\n"
+"        <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-"
+"o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+"    </t>\n"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/website.py:0
 msgid "\"Events App Name\" field is required."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງຂໍ້ມູນ \"ຊື່ແອັບກິດຈະກຳ\" ແມ່ນຈຳເປັນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__wishlist_visitor_count
 #: model:ir.model.fields,field_description:website_event_track.field_website_visitor__event_track_wishlisted_count
 msgid "# Wishlisted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ທີ່ຢູ່ໃນລາຍການທີ່ຢາກໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 msgid "%(name)s from %(company)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s ຈາກ %(company)s"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 msgid "%(name)s, %(function)s at %(company)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s, %(function)s ທີ່ %(company)s"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/website.py:0
 msgid "%s Events"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/controllers/webmanifest.py:0
 msgid "%s Online Events Application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະໝັກກິດຈະກຳອອນລາຍ %s"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "(timezone:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(ເຂດເວລາ:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_17
 msgid "10 DIY Furniture Ideas For Absolute Beginners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 ໄອເດຍເຟີນີເຈີ DIY ສຳລັບຜູ້ເລີ່ມຕົ້ນຢ່າງແທ້ຈິງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_18
 msgid "6 Woodworking tips and tricks for beginners"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "6 ເຄັດລັບ ແລະ ເທັກນິກການເຮັດວຽກໄມ້ ສຳລັບຜູ້ເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_template_new
 msgid "<b>Mail</b>:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ອີເມວ</b>:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_template_new
 msgid "<b>Phone</b>:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ເບີໂທ</b>:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_template_new
 msgid "<b>Proposed By</b>:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ສະເໜີໂດຍ</b>:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_template_new
 msgid "<b>Speaker Biography</b>:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ຊີວະປະຫວັດຜູ້ບັນຍາຍ</b>:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_template_new
 msgid "<b>Talk Introduction</b>:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ບົດນຳການບັນຍາຍ</b>:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_card
 msgid "<i class=\"fa fa-ban me-2\"/>Unpublished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-ban me-2\"/>ບໍ່ໄດ້ເຜີຍແຜ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_search
 msgid "<i class=\"fa fa-bell mx-2 text-muted\"/> Favorite Talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-bell mx-2 text-muted\"/> ການບັນຍາຍທີ່ມັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "<span class=\"d-none d-md-block\">&amp;bull;</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"d-none d-md-block\">&amp;bull;</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "<span class=\"fa fa-plus me-1\"/> Schedule Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus me-1\"/> ກຳນົດເວລາການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -142,6 +260,15 @@ msgid ""
 "                                    <span class=\"o_wetrack_proposal_error_message\"/>\n"
 "                                </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_wetrack_proposal_error_section text-danger d-none ml8\">\n"
+"                                    <i class=\"fa fa-close mr4\" "
+"role=\"img\" aria-label=\"Error\" title=\"Error\"/>\n"
+"                                    <span "
+"class=\"o_wetrack_proposal_error_message\"/>\n"
+"                                </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -149,6 +276,11 @@ msgid ""
 "<span class=\"o_wetrack_proposal_label_content\">Talk Introduction</span>\n"
 "                                        <span>*</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_wetrack_proposal_label_content\">ບົດນຳການບັນຍາຍ</span>\n"
+"                                        <span>*</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -156,11 +288,20 @@ msgid ""
 "<span class=\"o_wetrack_proposal_label_content\">Talk Title</span>\n"
 "                                        <span>*</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_wetrack_proposal_label_content\">ຫົວຂໍ້ການບັນຍາຍ</span>\n"
+"                                        <span>*</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 msgid "<span class=\"text-muted\"> tracks</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> ການບັນຍາຍ</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal_contact_details
@@ -168,36 +309,65 @@ msgid ""
 "<span for=\"contact_name\">Name</span>\n"
 "                    <span>*</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span for=\"contact_name\">ຊື່</span>\n"
+"                    <span>*</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_topbar
 msgid "<span id=\"search_number\" class=\"me-1\">0</span>Results"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span id=\"search_number\" class=\"me-1\">0</span> ຜົນການຄົ້ນຫາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 msgid "<span> - </span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> - </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content_partner_info
 msgid "<span> at </span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> ທີ່ </span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_template_new
 msgid "<span>New track proposal</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ຂໍ້ສະເໜີການບັນຍາຍໃໝ່</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 msgid "<strong>Location:</strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ສະຖານທີ່:</strong>"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid "A technical explanation of how to use computer design apps"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍທາງເຕັກນິກກ່ຽວກັບວິທີການໃຊ້ແອັບອອກແບບໃນຄອມພິວເຕີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__kanban_state
@@ -207,36 +377,67 @@ msgid ""
 " * Red indicates something is preventing the progress of this track\n"
 " * Green indicates the track is ready to be pulled to the next stage"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະຄຳບັງ (kanban) ຂອງການບັນຍາຍບົ່ງບອກເຖິງສະຖານະການພິເສດ:\n"
+" * ສີເທົາ ແມ່ນສະຖານະເລີ່ມຕົ້ນ\n"
+" * ສີແດງ ໝາຍເຖິງມີບາງຢ່າງກີດຂວາງຄວາມຄືບໜ້າ\n"
+" * ສີຂຽວ ໝາຍເຖິງການບັນຍາຍພ້ອມທີ່ຈະໄປສູ່ຂັ້ນຕອນຕໍ່ໄປ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕົບແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -244,61 +445,105 @@ msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພີ່ມຄຳອະທິບາຍເພື່ອຊ່ວຍໃຫ້ເພື່ອນຮ່ວມງານເຂົ້າໃຈຄວາມໝາຍ ແລະ ຈຸດປະສົງຂອງຂັ້ນຕອນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 msgid "Add a description..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຄຳອະທິບາຍ..."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_stage_action
 msgid "Add a new stage in the task pipeline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຂັ້ນຕອນໃໝ່ໃນສາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_tag
 msgid ""
 "Add tags to your tracks to help your attendees browse your event web pages."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພີ່ມແທັກໃສ່ການບັນຍາຍຂອງທ່ານເພື່ອຊ່ວຍໃຫ້ຜູ້ເຂົ້າຮ່ວມຄົ້ນຫາໜ້າເວັບກິດຈະກຳໄດ້ງ່າຍຂຶ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
 msgid "Advanced lead management: tips and tricks from the fields"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດການລູກຄ້າທີ່ມຸ່ງຫວັງແບບຂັ້ນສູງ: ເຄັດລັບຈາກປະສົບການຈິງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track13
 msgid "Advanced reporting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລາຍງານແບບຂັ້ນສູງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_event.py:0
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_topbar
 msgid "Agenda"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດການ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__color
 msgid "Agenda Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີຂອງກຳນົດການ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_main
 #: model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
 msgid "All Talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_event_view_form
 msgid "Allow Track Proposals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດຂໍ້ສະເໜີການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 msgid "Allow push notifications?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດການແຈ້ງເຕືອນ (Push notifications) ບໍ່?"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -306,29 +551,50 @@ msgid ""
 "Allow video and audio recording of their\n"
 "                            presentation, for publishing on our website."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອະນຸຍາດໃຫ້ບັນທຶກວິດີໂອ ແລະ ສຽງຂອງການ\n"
+"                            ນຳສະເໜີ ເພື່ອເຜີຍແຜ່ໃນເວັບໄຊຂອງພວກເຮົາ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__wishlisted_by_default
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Always Wishlisted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢູ່ໃນລາຍການທີ່ຢາກໄດ້ສະເໝີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage2
 msgid "Announced"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະກາດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/xml/event_track_proposal_templates.xml:0
 msgid "Application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະໝັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດເກັບແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_visitor__is_blacklisted
@@ -336,6 +602,11 @@ msgid ""
 "As key track cannot be un-favorited, this field store the partner choice to "
 "remove the reminder for key tracks."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເນື່ອງຈາກການບັນຍາຍຫຼັກບໍ່ສາມາດຍົກເລີກການມັກໄດ້, ຊ່ອງຂໍ້ມູນນີ້ຈຶ່ງເກັບການເລືອກຂອງຄູ່ຮ່ວມງານເພື່ອລຶບການແຈ້ງ"
+"ເຕືອນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
@@ -345,43 +616,79 @@ msgid ""
 "    a old tire is a real piece of cake and if you’re in need of a coffee table you can easily put one together using\n"
 "    wood crates."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ດັ່ງທີ່ທ່ານອາດຈະເຄີຍໄດ້ຍິນມາກ່ອນ, ການເຮັດເຟີນີເຈີດ້ວຍຕົນເອງຕົວຈິງແລ້ວບໍ່ໄດ້ຍາກ ຫຼື ຊັບຊ້ອນຄືທີ່ທ່ານຄິດ.\n"
+"    ໃນຄວາມເປັນຈິງ, ບາງໂຄງການແມ່ນງ່າຍຫຼາຍທີ່ໃຜກໍສາມາດເຮັດໄດ້ສຳເລັດ. ຕົວຢ່າງ: ການເຮັດຕັ່ງນັ່ງງາມໆ"
+"ຈາກ\n"
+"    ຢາງລົດເກົ່າແມ່ນງ່າຍດາຍຫຼາຍ ແລະ ຖ້າທ່ານຕ້ອງການໂຕະກາເຟ ທ່ານກໍສາມາດປະກອບມັນໄດ້ງ່າຍໆໂດຍໃຊ້\n"
+"    ລັງໄມ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເນວນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.tag.category,name:website_event_track.event_track_tag_category_1
 msgid "Audience"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸ່ມເປົ້າໝາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__allowed_track_tag_ids
 msgid "Available Track Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກການບັນຍາຍທີ່ມີຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 msgid "Available on all event Agenda pages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີໃຫ້ຢູ່ໃນທຸກໜ້າກຳນົດການຂອງກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_main
 msgid "Back to All Talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບໄປທີ່ການບັນຍາຍທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "Bandy clamp hack"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເທັກນິກການໃຊ້ແຄ້ມລັດ (Bandy clamp)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_biography
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "Biography"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊີວະປະຫວັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -393,124 +700,220 @@ msgstr ""
 #: model:event.track.stage,legend_blocked:website_event_track.event_track_stage4
 #: model:event.track.stage,legend_blocked:website_event_track.event_track_stage5
 msgid "Blocked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກບລັອກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_confirmation_end_page_hook
 #: model_terms:ir.ui.view,arch_db:website_event_track.registration_complete
 msgid "Book your seats to the best talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈອງບ່ອນນັ່ງເພື່ອຟັງການບັນຍາຍທີ່ດີທີ່ສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "Book your talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈອງການບັນຍາຍຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_14
 msgid "Building a DIY cabin from the ground up"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງກະຕູບ DIY ຕັ້ງແຕ່ເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_cta_url
 msgid "Button Target URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ເປົ້າໝາຍຂອງປຸ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_cta_title
 msgid "Button Title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ປຸ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__is_website_cta_live
 msgid "CTA button is available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຸ່ມ CTA ພ້ອມໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Call for Proposals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດຮັບຂໍ້ສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__can_publish
 msgid "Can Publish"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດເຜີຍແຜ່ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage5
 msgid "Cancelled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__is_cancel
 msgid "Cancelled Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນທີ່ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__category_id
 msgid "Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_12
 msgid "Climate positive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຜົນບວກຕໍ່ສະພາບພູມອາກາດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
 msgid "Close"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__color
 msgid "Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__color
 msgid "Color Index"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດັດຊະນີສີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/controllers/event_track.py:0
 msgid "Coming soon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄວໆນີ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_cards
 msgid "Coming soon ..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄວໆນີ້ ..."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_company_name
 msgid "Company Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,subject:website_event_track.mail_template_data_track_confirmation
 msgid "Confirmation of {{ object.name }}"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢືນຢັນຂອງ {{ object.name }}"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage1
 msgid "Confirmed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_13
@@ -520,56 +923,97 @@ msgid ""
 "information about a construction process and final result. Step by step "
 "simple explanation! Interested?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຳລັງຄິດທີ່ຈະສ້າງເຮືອນໄມ້ຢູ່ບໍ? ເບິ່ງວິດີໂອນີ້ເພື່ອຮູ້ຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບຂັ້ນຕອນການກໍ່ສ້າງ ແລະ ຜົນສຳເລັດ. ຄຳອ"
+"ະທິບາຍງ່າຍໆແບບເທື່ອລະຂັ້ນຕອນ! ສົນໃຈບໍ?"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_id
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "Contact Details"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__contact_email
 msgid "Contact Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal_contact_details
 msgid "Contact Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນການຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__contact_phone
 msgid "Contact Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal_contact_details
 msgid "Contact me through a different email/phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕໍ່ຂ້ອຍຜ່ານອີເມວ/ເບີໂທ ອື່ນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_from_event
 msgid "Create a Track"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຫົວຂໍ້ການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_location
 msgid "Create a Track Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງສະຖານທີ່ບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_tag
 msgid "Create a Track Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງແທັກການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__create_uid
@@ -579,7 +1023,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__create_uid
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__create_date
@@ -589,17 +1037,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__create_date
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_search
 msgid "Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_19
 msgid "DIY Timber Cladding Project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຄງການຕົບແຕ່ງຝາດ້ວຍໄມ້ DIY"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -607,31 +1067,55 @@ msgid ""
 "DROP BUILDING BLOCKS HERE TO MAKE THEM AVAILABLE ACROSS ALL PROPOSAL PAGES "
 "OF ALL EVENTS"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວາງ Building Blocks ທີ່ນີ້ເພື່ອໃຫ້ສາມາດໃຊ້ໄດ້ໃນທຸກໆໜ້າຂໍ້ສະເໜີຂອງທຸກກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_11
 msgid "Day 2 Wrapup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບວັນທີ 2"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_8
 msgid "Dealing with OpenWood Furniture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດການກັບເຟີນີເຈີ OpenWood"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 msgid "Define labels explaining kanban state management."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດປ້າຍກຳກັບເພື່ອອະທິບາຍການຈັດການສະຖານະຄຳບັງ (kanban)."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_location__sequence
 msgid "Define the order in which the location will appear on \"Agenda\" page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດລຳດັບຂອງສະຖານທີ່ຈະປາກົດຢູ່ໃນໜ້າ \"ກຳນົດການ\""
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_stage_action
@@ -641,43 +1125,78 @@ msgid ""
 "            You will use these stages in order to track the progress in\n"
 "            solving an event track."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຳນົດຂັ້ນຕອນທີ່ຈະໃຊ້ໃນກິດຈະກຳ ຕັ້ງແຕ່\n"
+"            ການສ້າງຫົວຂໍ້ການບັນຍາຍ ຈົນຮອດການປິດຫົວຂໍ້.\n"
+"            ທ່ານຈະໃຊ້ຂັ້ນຕອນເຫຼົ່ານີ້ເພື່ອຕິດຕາມຄວາມຄືບໜ້າ\n"
+"            ຂອງການດຳເນີນງານ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__description
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__description
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__partner_tag_line
 msgid "Description of the partner (name, function and company name)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍຂອງຄູ່ຮ່ວມງານ (ຊື່, ຕຳແໜ່ງ ແລະ ຊື່ບໍລິສັດ)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track25
 msgid "Design contest (entire afternoon)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະກວດອອກແບບ (ຕະຫຼອດບ່າຍ)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track24
 msgid "Design contest (entire day)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະກວດອອກແບບ (ຕະຫຼອດມື້)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track6
 msgid "Detailed roadmap of our new products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນຜັງລາຍລະອຽດຂອງຜະລິດຕະພັນໃໝ່ຂອງພວກເຮົາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
 msgid "Discover our new design team"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພົບກັບທີມງານອອກແບບໃໝ່ຂອງພວກເຮົາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__display_name
@@ -687,7 +1206,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__display_name
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__website_cta
@@ -695,49 +1218,85 @@ msgid ""
 "Display a Call to Action button to your Attendees while they watch your "
 "Track."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະແດງປຸ່ມ Call to Action ໃຫ້ຜູ້ເຂົ້າຮ່ວມເຫັນໃນຂະນະທີ່ພວກເຂົາເບິ່ງການບັນຍາຍຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_aside_other_track
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "Dowel Hack"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເທັກນິກການໃຊ້ສະລັກໄມ້ (Dowel)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__duration
 msgid "Duration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_3
 msgid "Easy Way To Build a Wooden House"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີງ່າຍໆໃນການສ້າງເຮືອນໄມ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
 msgid "Edit Track"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_email
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal_contact_details
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__mail_template_id
 msgid "Email Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ແບບອີເມວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 msgid "Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_event
@@ -745,63 +1304,107 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_location_tree
 msgid "Event Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_location
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_location_form
 msgid "Event Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ກິດຈະກຳຕ່າງໆ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.snippet_options
 msgid "Event Page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜ້າກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__track_proposal_menu_ids
 #: model:ir.model.fields.selection,name:website_event_track.selection__website_event_menu__menu_type__track_proposal
 msgid "Event Proposals Menus"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມນູຂໍ້ສະເໜີກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_type
 msgid "Event Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ແບບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_tree
 msgid "Event Track"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້ການບັນຍາຍໃນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_location
 msgid "Event Track Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ບັນຍາຍໃນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_stage
 msgid "Event Track Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການບັນຍາຍໃນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_tag
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_tag_form
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_tag_tree
 msgid "Event Track Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກການບັນຍາຍໃນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_tag_category
 msgid "Event Track Tag Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ແທັກການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track
@@ -809,218 +1412,386 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_calendar
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Event Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍຕ່າງໆໃນກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__track_menu_ids
 #: model:ir.model.fields.selection,name:website_event_track.selection__website_event_menu__menu_type__track
 msgid "Event Tracks Menus"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມນູການບັນຍາຍກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_21
 msgid "Event Wrapup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,name:website_event_track.mail_template_data_track_confirmation
 msgid "Event: Track Confirmation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ: ການຢືນຢັນຫົວຂໍ້ການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_res_config_settings__events_app_name
 #: model:ir.model.fields,field_description:website_event_track.field_website__events_app_name
 msgid "Events App Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແອັບກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.res_config_settings_view_form
 msgid "Events PWA"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ PWA"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_widget_reminder
 msgid "Favorite On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມັກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
 msgid "Favorites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການທີ່ມັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_topbar
 msgid "Filter Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັ່ນຕອງການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.snippet_options
 msgid "Filter by Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັ່ນຕອງຕາມແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
 msgid "Filters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວກັ່ນຕອງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "Finished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_2
 msgid "First Day Wrapup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບວັນທຳອິດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__fold
 msgid "Folded in Kanban"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັບໄວ້ໃນຄຳບັງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຮ່ວມງານ)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.tag.category,name:website_event_track.event_track_tag_category_2
 msgid "Format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__is_fully_accessible
 msgid "Fully accessible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດເຂົ້າເຖິງໄດ້ຢ່າງເຕັມທີ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_confirmation_end_page_hook
 #: model_terms:ir.ui.view,arch_db:website_event_track.registration_complete
 msgid "Get prepared and"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຽມພ້ອມ ແລະ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "Glue tip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄັດລັບການໃຊ້ກາວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__kanban_state__done
 msgid "Green"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີຂຽວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__legend_done
 msgid "Green Kanban Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍຄຳບັງສີຂຽວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__kanban_state__normal
 msgid "Grey"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີເທົາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__legend_normal
 msgid "Grey Kanban Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍຄຳບັງສີເທົາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_search
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_l3_11
 msgid "Happy with OpenWood"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຄວາມສຸກກັບ OpenWood"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__priority__2
 msgid "High"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສູງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__priority__3
 msgid "Highest"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສູງສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.pwa_offline
 msgid "Home page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜ້າຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
 msgid "House of World Cultures"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສູນວັດທະນະທຳໂລກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal_contact_details
 msgid "How can our team get in touch with you?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີມງານຂອງພວກເຮົາສາມາດຕິດຕໍ່ທ່ານໄດ້ແນວໃດ?"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track18
 msgid "How to build your marketing strategy within a competitive environment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີສ້າງກົນລະຍຸດການຕະຫຼາດໃນສະພາບແວດລ້ອມທີ່ມີການແຂ່ງຂັນສູງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
 msgid "How to communicate with your community"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການສື່ສານກັບຊຸມຊົນຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
 msgid "How to design a new piece of furniture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການອອກແບບເຟີນີເຈີໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
 msgid "How to develop automated processes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການພັດທະນາຂະບວນການອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
 msgid "How to follow us on the social media"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີຕິດຕາມພວກເຮົາໃນໂຊຊຽວມີເດຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid "How to improve your quality processes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີປັບປຸງຂະບວນການຄຸນນະພາບຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
 msgid "How to integrate hardware materials in your pieces of furniture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການນຳໃຊ້ອຸປະກອນຮາດແວເຂົ້າໃນເຟີນີເຈີຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid "How to optimize your sales, from leads to sales orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີເພີ່ມປະສິດທິພາບການຂາຍ, ຕັ້ງແຕ່ເລີ່ມຕົ້ນຈົນຮອດປິດການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__id
@@ -1030,17 +1801,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__id
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ (ID)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນເພື່ອບົ່ງບອກກິດຈະກຳທີ່ຍົກເວັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__is_fully_accessible
@@ -1048,29 +1831,49 @@ msgid ""
 "If checked, automatically publish tracks so that access links to customers "
 "are provided."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າໝາຍເລືອກ, ຈະເຜີຍແຜ່ການບັນຍາຍໂດຍອັດຕະໂນມັດເພື່ອໃຫ້ລູກຄ້າສາມາດເຂົ້າເຖິງລິ້ງໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍເລືອກ, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_has_error
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍເລືອກ, ບາງຂໍ້ຄວາມອາດມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__is_visible_in_agenda
 msgid "If checked, the related tracks will be visible in the frontend."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍເລືອກ, ການບັນຍາຍທີ່ກ່ຽວຂ້ອງຈະປາກົດໃຫ້ເຫັນໃນໜ້າເວັບໄຊ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__mail_template_id
 msgid ""
 "If set an email will be sent to the customer when the track reaches this "
 "step."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າຕັ້ງຄ່າໄວ້, ອີເມວຈະຖືກສົ່ງໃຫ້ລູກຄ້າເມື່ອການບັນຍາຍມາຮອດຂັ້ນຕອນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__wishlisted_by_default
@@ -1078,16 +1881,28 @@ msgid ""
 "If set, the talk will be set as favorite for each attendee registered to the"
 " event."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າຕັ້ງຄ່າໄວ້, ການບັນຍາຍນີ້ຈະຖືກຕັ້ງເປັນລາຍການທີ່ມັກສຳລັບຜູ້ເຂົ້າຮ່ວມທຸກຄົນທີ່ລົງທະບຽນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_image_url
 msgid "Image URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ຂອງຮູບພາບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_card
 msgid "In"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -1099,139 +1914,247 @@ msgstr ""
 #: model:event.track.stage,legend_normal:website_event_track.event_track_stage4
 #: model:event.track.stage,legend_normal:website_event_track.event_track_stage5
 msgid "In Progress"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_15
 msgid "In this video we will see how lumber is made in a sawmill factory."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນວິດີໂອນີ້ ພວກເຮົາຈະໄປເບິ່ງວິທີການຜະລິດໄມ້ແປຮູບໃນໂຮງເລື່ອຍ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "In this video, I covered 6 tips and tricks to help out beginners:"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃນວິດີໂອນີ້, ຂ້ອຍໄດ້ລວມເອົາ 6 ເຄັດລັບ ແລະ ເທັກນິກເພື່ອຊ່ວຍເຫຼືອຜູ້ເລີ່ມຕົ້ນ:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/xml/website_event_pwa.xml:0
 msgid "Install"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕັ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/xml/website_event_pwa.xml:0
 msgid "Install Application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕັ້ງແອັບພລິເຄຊັນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "Interactivity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂຕ້ຕອບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Introduction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດນຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_website_cta_live
 msgid "Is CTA Live"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CTA ເປີດໃຊ້ຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_published
 msgid "Is Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຜີຍແຜ່ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_reminder_on
 msgid "Is Reminder On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດການແຈ້ງເຕືອນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_done
 msgid "Is Track Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_live
 msgid "Is Track Live"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍກຳລັງຖ່າຍທອດສົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_soon
 msgid "Is Track Soon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍຈະເລີ່ມໄວໆນີ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_today
 msgid "Is Track Today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍມີຂຶ້ນມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_track_upcoming
 msgid "Is Track Upcoming"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍທີ່ກຳລັງຈະມາຮອດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__is_wishlisted
 msgid "Is Wishlisted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢູ່ໃນລາຍການທີ່ຢາກໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__is_blacklisted
 msgid "Is reminder off"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການແຈ້ງເຕືອນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_function
 msgid "Job Position"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Job Title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຕຳແໜ່ງງານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__legend_blocked
 msgid "Kanban Blocked Explanation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍເມື່ອຖືກບລັອກໃນຄຳບັງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__legend_normal
 msgid "Kanban Ongoing Explanation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍສະຖານະກຳລັງດຳເນີນການໃນຄຳບັງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__kanban_state
 msgid "Kanban State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະຄຳບັງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__kanban_state_label
 msgid "Kanban State Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍກຳກັບສະຖານະຄຳບັງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__legend_done
 msgid "Kanban Valid Explanation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ Kanban ທີ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
 msgid "Key Success factors selling our furniture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປັດໄຈຄວາມສຳເລັດທີ່ສຳຄັນໃນການຂາຍເຟີນີເຈີຂອງພວກເຮົາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_9
 msgid "Kitchens for the Future"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫ້ອງຄົວສຳລັບອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__write_uid
@@ -1241,7 +2164,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__write_uid
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__write_date
@@ -1251,32 +2178,56 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__write_date
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຊ້າກວ່າກຳນົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
 msgid "Latest trends"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່າອ່ຽງຫຼ້າສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_26
 msgid "Less Furniture is More Furniture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຟີນີເຈີໜ້ອຍຄືເຟີນີເຈີຫຼາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_4
 msgid "Life at Home Around the World: William’s Story"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊີວິດການເປັນຢູ່ພາຍໃນເຮືອນຈາກທົ່ວໂລກ: ເລື່ອງລາວຂອງ ວິນລຽມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Lightning Talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍແບບສັ້ນໆ (Lightning Talks)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_19
@@ -1284,65 +2235,114 @@ msgid ""
 "Link to Q&amp;A here! The time has come to hide those old block walls. Love "
 "simple and transformation type projects like this! :)-"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລິ້ງໄປຫາຖາມ-ຕອບຢູ່ບ່ອນນີ້! ເຖິງເວລາແລ້ວທີ່ຈະປົກປິດຝາບລັອກເກົ່າໆເຫຼົ່ານັ້ນ. ຮັກໂຄງການທີ່ລຽບງ່າຍ ແລະ ມີກາ"
+"ນປ່ຽນແປງແບບນີ້ແທ້ໆ! :)-"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_aside_other_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "Live"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_cards
 msgid "Live Now"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງຖ່າຍທອດສົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_l3_10
 msgid "Live Testimonial"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳຢືນຢັນຈາກຜູ້ໃຊ້ຈິງແບບສົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_25
 msgid "Live Testimonials"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳຢືນຢັນຈາກຜູ້ໃຊ້ຈິງແບບສົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__location_id
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_location__name
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Location"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_13
 msgid "Log House Building"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງເຮືອນໄມ້ຊຸງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_15
 msgid "Logs to lumber"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈາກໄມ້ທ່ອນສູ່ໄມ້ແປຮູບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__priority__0
 msgid "Low"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ່ຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track31
 msgid "Lunch"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາຫານທ່ຽງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_cta
 msgid "Magic Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຸ່ມມະຫັດສະຈັນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "Making a center marking gauge"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງເຄື່ອງມືໝາຍຈຸດກາງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track_location
@@ -1350,71 +2350,127 @@ msgid ""
 "Manage from here the places where you organize your tracks (e.g. Rooms, "
 "Channels, ...)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຈັດການສະຖານທີ່ທີ່ທ່ານຈັດການບັນຍາຍຢູ່ບ່ອນນີ້ (ຕົວຢ່າງ: ຫ້ອງ, ຊ່ອງທາງ, ...)."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__priority__1
 msgid "Medium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກາງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_website_event_menu__menu_type
 msgid "Menu Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດເມນູ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track22
 msgid "Minimal but efficient design"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການອອກແບບທີ່ລຽບງ່າຍແຕ່ມີປະສິດທິພາບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_cta_start_remaining
 msgid "Minutes before CTA starts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນາທີກ່ອນ CTA ຈະເລີ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__track_start_remaining
 msgid "Minutes before track starts"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນາທີກ່ອນການບັນຍາຍຈະເລີ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__track_start_relative
 msgid "Minutes compare to track start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນາທີ ເມື່ອທຽບກັບເວລາເລີ່ມການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "Miter saw tip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄັດລັບການໃຊ້ເລື່ອຍອົງສາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track30
 msgid "Morning break"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພັກຜ່ອນຕອນເຊົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາສິ້ນສຸດກິດຈະກຳຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
 msgid "My Company global presentation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການນຳສະເໜີພາບລວມຂອງບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "My Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_name
@@ -1422,152 +2478,268 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 #: model_terms:ir.ui.view,arch_db:website_event_track.res_config_settings_view_form
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.res_config_settings_view_form
 msgid "Name of your website's Events Progressive Web Application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຂອງແອັບພລິເຄຊັນເວັບແບບກ້າວໜ້າ (PWA) ສຳລັບງານກິດຈະກຳເທິງເວັບໄຊຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track20
 msgid "New Certification Program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຄງການອອກໃບຢັ້ງຢືນໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.message.subtype,name:website_event_track.mt_event_track
 msgid "New Track"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳຖັດໄປໃນປະຕິທິນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາສິ້ນສຸດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດກິດຈະກຳຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
 msgid "No Track Visitors yet!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີຜູ້ເຂົ້າຊົມການບັນຍາຍເທື່ອ!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_action_from_visitor
 msgid "No track favorited by this visitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີການບັນຍາຍທີ່ຜູ້ເຂົ້າຊົມຄົນນີ້ມັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "No track found."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບການບັນຍາຍ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_tag__color
 msgid "Note that colorless tags won't be available on the website."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ: ແທັກທີ່ບໍ່ມີສີຈະບໍ່ສະແດງຢູ່ໃນເວັບໄຊ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_24
 msgid "Old is New"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂອງເກົ່າຄືຂອງໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_20
 msgid "Our Last Day Together!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້ສຸດທ້າຍຂອງພວກເຮົາຮ່ວມກັນ!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__partner_id
 msgid "Partner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູ່ຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track14
 msgid "Partnership programs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຄງການພັນທະມິດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_phone
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal_contact_details
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Picture"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "Plan your experience by adding your favorites talks to your wishlist"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວາງແຜນປະສົບການຂອງທ່ານໂດຍການເພີ່ມການບັນຍາຍທີ່ທ່ານມັກເຂົ້າໃນລາຍການທີ່ຢາກເບິ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/website_event_track_proposal_form.js:0
 msgid "Please enter either a contact email address or a contact phone number."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາປ້ອນອີເມວຕິດຕໍ່ ຫຼື ເບີໂທລະສັບຕິດຕໍ່ຢ່າງໃດຢ່າງໜຶ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/website_event_track_proposal_form.js:0
 msgid "Please fill out the form correctly."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາຕື່ມຂໍ້ມູນໃນຟອມໃຫ້ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
 msgid "Portfolio presentation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການນຳສະເໜີຜົນງານ (Portfolio)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_16
 msgid "Pretty. Ugly. Lovely."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສວຍງາມ. ຂີ້ຮ້າຍ. ໜ້າຮັກ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.pwa_offline
 msgid "Previous page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜ້າກ່ອນໜ້າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__priority
 msgid "Priority"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບຸລິມະສິດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_7
@@ -1576,37 +2748,66 @@ msgid ""
 "woodworking! In this video I share with you how/why I started building "
 "furniture!"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອາດຈະເປັນໜຶ່ງໃນຄຳຖາມທີ່ຖືກຖາມຫຼາຍທີ່ສຸດຄື ຂ້ອຍເລີ່ມເຮັດວຽກໄມ້ໄດ້ແນວໃດ! ໃນວິດີໂອນີ້ຂ້ອຍຈະມາແບ່ງປັນວ່າ ຂ້"
+"ອຍເລີ່ມສ້າງເຟີນີເຈີແນວໃດ ແລະ ຍ້ອນຫຍັງ!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage0
 msgid "Proposal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Proposals are closed."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການຮັບຂໍ້ສະເໜີແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__website_track_proposal
 msgid "Proposals on Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ສະເໜີເທິງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage3
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຜີຍແຜ່ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track10
 msgid "Raising qualitive insights from your customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເກັບກຳຂໍ້ມູນເຈາະເລິກດ້ານຄຸນນະພາບຈາກລູກຄ້າຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__rating_ids
 msgid "Ratings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໃຫ້ຄະແນນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -1618,94 +2819,166 @@ msgstr ""
 #: model:event.track.stage,legend_done:website_event_track.event_track_stage4
 #: model:event.track.stage,legend_done:website_event_track.event_track_stage5
 msgid "Ready for Next Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພ້ອມສຳລັບຂັ້ນຕອນຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields.selection,name:website_event_track.selection__event_track__kanban_state__blocked
 msgid "Red"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີແດງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__legend_blocked
 msgid "Red Kanban Label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍ Kanban ສີແດງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage4
 msgid "Refused"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Regular Talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__track_start_relative
 msgid "Relative time compared to track start (seconds)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາສຳພັນເມື່ອທຽບກັບເວລາເລີ່ມການບັນຍາຍ (ວິນາທີ)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__website_cta_start_remaining
 msgid "Remaining time before CTA starts (seconds)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາທີ່ເຫຼືອກ່ອນ CTA ຈະເລີ່ມ (ວິນາທີ)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__track_start_remaining
 msgid "Remaining time before track starts (seconds)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວລາທີ່ເຫຼືອກ່ອນການບັນຍາຍຈະເລີ່ມ (ວິນາທີ)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__user_id
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Responsible"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ທີ່ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_23
 msgid "Restoring Old Woodworking Tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບູລະນະເຄື່ອງມືເຮັດໄມ້ເກົ່າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_23
 msgid "Restoring old woodworking tools"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບູລະນະເຄື່ອງມືເຮັດໄມ້ເກົ່າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_18
 msgid "Right angle clamp jig"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄື່ອງມືຊ່ວຍຈັບສາກ (Jig)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__is_seo_optimized
 msgid "SEO optimized"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມປະສິດທິພາບ SEO ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_has_sms_error
 msgid "SMS Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
 msgid "Search a talk ..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາການບັນຍາຍ ..."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_6
 msgid "Securing your Lumber during transport"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການມັດໄມ້ໃຫ້ແໜ້ນໜາໃນລະຫວ່າງການຂົນສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/website_event_track_proposal_form_tags.js:0
 msgid "Select Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.template,description:website_event_track.mail_template_data_track_confirmation
@@ -1713,11 +2986,19 @@ msgid ""
 "Sent to speakers whose track proposal is accepted (set the template on the "
 "right stage)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສົ່ງໃຫ້ຜູ້ນຳສະເໜີທີ່ຂໍ້ສະເໜີການບັນຍາຍຖືກຕອບຮັບ (ກຳນົດແມ່ແບບໄວ້ໃນຂັ້ນຕອນທີ່ຖືກຕ້ອງ)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__seo_name
 msgid "Seo name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ SEO"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_location__sequence
@@ -1725,88 +3006,152 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__sequence
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_widget_reminder
 msgid "Set Favorite"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເປັນລາຍການໂຜດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_cta_delay
 msgid "Show Button"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງປຸ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Show all records which has next action date is before today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງບັນທຶກທັງໝົດທີ່ມີວັນທີດຳເນີນການຖັດໄປກ່ອນມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_event_view_form
 msgid "Showcase Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງຫົວຂໍ້ການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Speaker"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ນຳສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "Speaker Bio"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດຫຍໍ້ຂອງຜູ້ນຳສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 msgid "Speaker Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມວຂອງຜູ້ນຳສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__image
 msgid "Speaker Photo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບຂອງຜູ້ນຳສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Speaker Profile"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນສ່ວນຕົວຂອງຜູ້ນຳສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_track.py:0
 msgid "Speakers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ນຳສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__stage_id
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 msgid "Stage Description and Tooltips"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍຂັ້ນຕອນ ແລະ ຄຳແນະນຳ (Tooltips)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__name
 msgid "Stage Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຂັ້ນຕອນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_card
 msgid "Starting now!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມດຽວນີ້!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
 msgid "Status & Strategy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະ ແລະ ກົນລະຍຸດ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__activity_state
@@ -1816,67 +3161,118 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະອີງຕາມກິດຈະກຳ\n"
+"ກາຍກຳນົດ: ວັນທີກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີກິດຈະກຳແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ກິດຈະກຳໃນອະນາຄົດ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Submission Agreement"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຕົກລົງການສົ່ງຂໍ້ສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Submit Proposal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຂໍ້ສະເໜີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__partner_tag_line
 msgid "Tag Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳຂວັນ (Tag Line)"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__name
 msgid "Tag Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.constraint,message:website_event_track.constraint_event_track_tag_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຊື່ແທັກນີ້ແລ້ວ!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__tag_ids
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag_category__tag_ids
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_tag_category_view_form
 msgid "Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Talk Intro"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແນະນຳການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
 #: code:addons/website_event_track/models/event_event.py:0
 msgid "Talk Proposals"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ສະເໜີການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 msgid "Talk added to your Favorites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມການບັນຍາຍເຂົ້າໃນລາຍການໂຜດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 msgid "Talk already in your Favorites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍນີ້ຢູ່ໃນລາຍການໂຜດຂອງທ່ານແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_reminder.js:0
 msgid "Talk removed from your Favorites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບການບັນຍາຍອອກຈາກລາຍການໂຜດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -1884,44 +3280,76 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_aside
 #: model_terms:ir.ui.view,arch_db:website_event_track.session_topbar
 msgid "Talks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Talks Types"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 msgid "Task in progress. Click to block or set as done."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວຽກກຳລັງດຳເນີນການ. ຄລິກເພື່ອບລັອກ ຫຼື ກຳນົດວ່າສຳເລັດ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 msgid "Task is blocked. Click to unblock or set as done."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວຽກຖືກບລັອກ. ຄລິກເພື່ອປົດບລັອກ ຫຼື ກຳນົດວ່າສຳເລັດ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/xml/event_track_proposal_templates.xml:0
 msgid "Thank you for your proposal."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂອບໃຈສຳລັບຂໍ້ສະເໜີຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__website_url
 msgid "The full URL to access the document through the website."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ເຕັມເພື່ອເຂົ້າເຖິງເອກະສານຜ່ານເວັບໄຊ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
 #: model:event.track,name:website_event_track.event_track29
 msgid "The new marketing strategy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກົນລະຍຸດການຕະຫຼາດໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid "The new way to promote your creations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີໃໝ່ໃນການໂປຣໂມດຜົນງານຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_17
@@ -1929,6 +3357,10 @@ msgid ""
 "There are a lot of ideas worth exploring so start with the 10 DIY furniture "
 "ideas for absolute beginners."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ມີໄອເດຍຫຼາຍຢ່າງທີ່ໜ້າສົນໃຈ ດັ່ງນັ້ນມາເລີ່ມຕົ້ນດ້ວຍ 10 ໄອເດຍເຟີນີເຈີ DIY ສຳລັບຜູ້ເລີ່ມຕົ້ນແທ້ໆ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
@@ -1936,6 +3368,11 @@ msgid ""
 "There are several variants of wood is available in the world but we are talking about most expensive\n"
 "    ones in the world and keeping to the point we have arranged ten most expensive wood."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ມີໄມ້ຫຼາຍຊະນິດໃນໂລກນີ້ ແຕ່ພວກເຮົາຈະມາເວົ້າເຖິງໄມ້ທີ່ແພງທີ່ສຸດໃນໂລກ ແລະ ພວກເຮົາໄດ້ຈັດອັນດັບ 10 ອັນດັບໄ"
+"ມ້ທີ່ແພງທີ່ສຸດໄວ້ໃຫ້ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -1943,11 +3380,20 @@ msgid ""
 "These are 30 minutes talks on many different topics. Most topics are "
 "accepted in lightning talks."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ນີ້ແມ່ນການບັນຍາຍ 30 ນາທີໃນຫຼາຍໆຫົວຂໍ້ທີ່ແຕກຕ່າງກັນ. ຫົວຂໍ້ສ່ວນໃຫຍ່ແມ່ນຖືກຍອມຮັບໃນການບັນຍາຍແບບສັ້ນ "
+"(Lightning talks)."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "These are standard talks with slides, alocated in slots of 60 minutes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນີ້ແມ່ນການບັນຍາຍມາດຕະຖານທີ່ມີສະໄລ້, ໂດຍໃຊ້ເວລາ 60 ນາທີ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
@@ -1955,19 +3401,31 @@ msgid ""
 "They will be created automatically once attendees start browsing your "
 "events."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພວກມັນຈະຖືກສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດເມື່ອຜູ້ເຂົ້າຮ່ວມເລີ່ມເຂົ້າເບິ່ງງານກິດຈະກຳຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_website__app_icon
 msgid ""
 "This field holds the image used as mobile app icon on the website (PNG "
 "format)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫ້ອງຂໍ້ມູນນີ້ເກັບຮູບພາບທີ່ໃຊ້ເປັນໄອຄອນແອັບມືຖືເທິງເວັບໄຊ (ຮູບແບບ PNG)."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_res_config_settings__events_app_name
 #: model:ir.model.fields,help:website_event_track.field_website__events_app_name
 msgid "This fields holds the Event's Progressive Web App name."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫ້ອງຂໍ້ມູນນີ້ເກັບຊື່ຂອງ Progressive Web App ຂອງງານກິດຈະກຳ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.pwa_offline
@@ -1975,6 +3433,10 @@ msgid ""
 "This page hasn't been saved for offline reading yet.<br/>Please check your "
 "network connection."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໜ້ານີ້ຍັງບໍ່ໄດ້ຖືກບັນທຶກໄວ້ເພື່ອອ່ານແບບອອບລາຍເທື່ອ.<br/>ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ເຄືອຂ່າຍຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_stage__fold
@@ -1982,16 +3444,28 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຂັ້ນຕອນນີ້ຈະຖືກພັບໄວ້ໃນມຸມມອງ kanban ເມື່ອບໍ່ມີບັນທຶກໃດໆໃນຂັ້ນຕອນນັ້ນທີ່ຈະສະແດງ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 msgid "This step is done. Click to block or set in progress."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນນີ້ສຳເລັດແລ້ວ. ຄລິກເພື່ອບລັອກ ຫຼື ກຳນົດໃຫ້ກຳລັງດຳເນີນການ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 msgid "This track does not have a description."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍນີ້ບໍ່ມີຄຳອະທິບາຍ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -1999,26 +3473,46 @@ msgid ""
 "Timely release of presentation material (slides),\n"
 "                            for publishing on our website."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການປ່ອຍເອກະສານການນຳສະເໜີ (ສະໄລ້) ໃຫ້ທັນເວລາ ເພື່ອເຜີຍແຜ່ໃນເວັບໄຊຂອງພວກເຮົາ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__name
 msgid "Title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_22
 msgid "Tools for the Woodworking Beginner"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄື່ອງມືສຳລັບຜູ້ເລີ່ມຕົ້ນເຮັດວຽກໄມ້"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_5
 msgid "Top 10 Most Expensive Wood in the World"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 ອັນດັບໄມ້ທີ່ແພງທີ່ສຸດໃນໂລກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_5
@@ -2026,100 +3520,173 @@ msgid ""
 "Top most expensive wood in the world is quite interesting topic and several people may be surprised\n"
 "    that there are hundreds of wood types exist around the globe following different properties and use."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໄມ້ທີ່ແພງທີ່ສຸດໃນໂລກແມ່ນຫົວຂໍ້ທີ່ໜ້າສົນໃຈຫຼາຍ ແລະ ຫຼາຍຄົນອາດຈະແປກໃຈທີ່ມີໄມ້ຫຼາຍຮ້ອຍຊະນິດໃນທົ່ວໂລກທີ່ມີຄຸນສົມ"
+"ບັດ ແລະ ການນຳໃຊ້ທີ່ແຕກຕ່າງກັນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__track_id
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_search
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "Track"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_event_track_visitor
 msgid "Track / Visitor Link"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຊື່ອມຕໍ່ ການບັນຍາຍ / ຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.message.subtype,name:website_event_track.mt_track_blocked
 msgid "Track Blocked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍຖືກບລັອກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__track_count
 msgid "Track Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__date
 msgid "Track Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__date_end
 msgid "Track End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_location
 msgid "Track Locations"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_type_view_form_inherit_track
 msgid "Track Proposals Menu Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມນູຂໍ້ສະເໜີການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.message.subtype,name:website_event_track.mt_track_ready
 msgid "Track Ready"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍພ້ອມແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.message.subtype,description:website_event_track.mt_track_ready
 msgid "Track Ready for Next Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍພ້ອມສຳລັບຂັ້ນຕອນຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_search
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_tree
 msgid "Track Stage"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.event_track_stage_action
 #: model:ir.ui.menu,name:website_event_track.event_track_stage_menu
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_search
 msgid "Track Stages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.event_track_tag_category_action
 #: model:ir.ui.menu,name:website_event_track.event_track_tag_category_menu
 msgid "Track Tag Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ແທັກການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_tag_category_view_form
 msgid "Track Tag Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ແທັກການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_tag
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__tracks_tag_ids
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_tag
 msgid "Track Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_tag_category_view_list
 msgid "Track Tags Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ແທັກການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_form
 msgid "Track Visitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.event_track_visitor_action
@@ -2129,7 +3696,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_list
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_search
 msgid "Track Visitors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.event_track_visitor_action
@@ -2137,11 +3708,20 @@ msgid ""
 "Track Visitors store statistics on your events, including how many times "
 "tracks have been wishlisted."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຜູ້ເຂົ້າຊົມການບັນຍາຍຈະເກັບກຳສະຖິຕິໃນງານກິດຈະກຳຂອງທ່ານ, ລວມທັງຈຳນວນຄັ້ງທີ່ການບັນຍາຍຖືກເພີ່ມເຂົ້າໃນລາ"
+"ຍການທີ່ຢາກເບິ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:mail.message.subtype,description:website_event_track.mt_track_blocked
 msgid "Track blocked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍຖືກບລັອກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__track_ids
@@ -2151,17 +3731,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_graph
 #: model_terms:ir.ui.view,arch_db:website_event_track.website_visitor_view_form
 msgid "Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_type_view_form_inherit_track
 msgid "Tracks Menu Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມນູການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_type__website_track_proposal
 msgid "Tracks Proposals on Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ສະເໜີການບັນຍາຍເທິງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.action_event_track
@@ -2170,34 +3762,59 @@ msgid ""
 "Tracks define your event schedule. They can be talks, workshops or any "
 "similar activity."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການບັນຍາຍກຳນົດຕາຕະລາງງານກິດຈະກຳຂອງທ່ານ. ພວກມັນສາມາດເປັນການບັນຍາຍ, ການເຝິກອົບຮົມ ຫຼື ກິດຈະກ"
+"ຳອື່ນໆທີ່ຄ້າຍຄືກັນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_event__website_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_type__website_track
 msgid "Tracks on Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍເທິງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງກິດຈະກຳທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main
 msgid "Unknown"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ຮູ້ຈັກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_main_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_aside_other_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_display_list
 msgid "Unpublished"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ໄດ້ເຜີຍແຜ່"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Unread Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມທີ່ຍັງບໍ່ໄດ້ອ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-python
@@ -2205,6 +3822,10 @@ msgstr ""
 #: code:addons/website_event_track/models/website_visitor.py:0
 msgid "Unsupported 'Not In' operation on track wishlist visitors"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ຮອງຮັບການດຳເນີນການ 'Not In' ສຳລັບຜູ້ເຂົ້າຊົມລາຍການທີ່ຢາກເບິ່ງການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
@@ -2213,6 +3834,12 @@ msgid ""
 "    ingenuity along with a couple boards, a sturdy strap and a few screws are all I use to easily haul\n"
 "    long boards from the lumberyard to the Next Level Carpentry shop or jobsite."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃຊ້ຂັ້ນຕອນງ່າຍໆເຫຼົ່ານີ້ເພື່ອຂົນສົ່ງໄມ້ທີ່ຍາວໃນລົດກະບະສັ້ນ. ດ້ວຍຫົວຄິດປະດິດສ້າງຂອງຊ່າງໄມ້ ບວກກັບໄມ້ສອງສາມແ"
+"ຜ່ນ, ສາຍຮັດທີ່ແຂງແຮງ ແລະ ສະກູສອງສາມຕົວ ແມ່ນທັງໝົດທີ່ຂ້ອຍໃຊ້ເພື່ອຂົນສົ່ງໄມ້ແຜ່ນຍາວຈາກໂຮງເລື່ອຍໄປຫາຮ້າ"
+"ນ ຫຼື ສະຖານທີ່ກໍ່ສ້າງ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:event.track,description:website_event_track.event_7_track_6
@@ -2220,69 +3847,122 @@ msgid ""
 "Using a unique wrapping method for a tie down strap (NOT Bungee cords!!!) allows lumber to be\n"
 "    cinched securely WITHOUT the need to tie and untie tricky or complicated knots."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການໃຊ້ວິທີການພັນແບບພິເສດສຳລັບສາຍຮັດ (ບໍ່ແມ່ນສາຍຢາງຢືດ!!!) ຊ່ວຍໃຫ້ສາມາດມັດໄມ້ໄດ້ຢ່າງແໜ້ນໜາ ໂດຍບໍ່ຈ"
+"ຳເປັນຕ້ອງມັດ ແລະ ແກ້ຂໍ້ຜູກທີ່ຍາກ ຫຼື ຊັບຊ້ອນ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.res_config_settings_view_form
 msgid "Values set here are website-specific."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າທີ່ກຳນົດຢູ່ບ່ອນນີ້ແມ່ນສະເພາະສຳລັບເວັບໄຊ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
 msgid "View Track"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງການບັນຍາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__is_visible_in_agenda
 msgid "Visible in agenda"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງໃນຕາຕະລາງກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_published
 msgid "Visible on current website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງໃນເວັບໄຊປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_visitor__visitor_id
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_search
 msgid "Visitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__wishlist_visitor_ids
 msgid "Visitor Wishlist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການທີ່ຢາກເບິ່ງຂອງຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.website_visitor_action_from_track
 msgid "Visitors Wishlist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການທີ່ຢາກເບິ່ງຂອງຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_l3_1
 msgid "Voice from Customer"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຽງຈາກລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.actions.act_window,help:website_event_track.website_visitor_action_from_track
 msgid "Wait for visitors to add this track to their list of favorites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລໍຖ້າໃຫ້ຜູ້ເຂົ້າຊົມເພີ່ມການບັນຍາຍນີ້ເຂົ້າໃນລາຍການໂຜດຂອງພວກເຂົາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "We could not find any track at this moment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພວກເຮົາບໍ່ພົບການບັນຍາຍໃດໆໃນເວລານີ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda_online
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks_main
 msgid "We could not find any track matching your search for:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພວກເຮົາບໍ່ພົບການບັນຍາຍໃດໆທີ່ກົງກັບການຄົ້ນຫາຂອງທ່ານສຳລັບ:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "We require speakers to accept an agreement in which they commit to:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພວກເຮົາກຳນົດໃຫ້ຜູ້ນຳສະເໜີຍອມຮັບຂໍ້ຕົກລົງທີ່ພວກເຂົາໃຫ້ຄຳໝັ້ນສັນຍາວ່າ:"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -2295,97 +3975,175 @@ msgid ""
 "                                audience, it will be considered for\n"
 "                                inclusion in the programme."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພວກເຮົາຈະຮັບເອົາການນຳສະເໜີທີ່ຫຼາກຫຼາຍ, ຕັ້ງແຕ່ບົດລາຍງານກ່ຽວກັບໂຄງການວິຊາການ ແລະ ການຄ້າ ໄປຈົນເຖິ"
+"ງການສອນ ແລະ ກໍລະນີສຶກສາ. ຕາບໃດທີ່ການນຳສະເໜີນັ້ນໜ້າສົນໃຈ ແລະ ອາດຈະເປັນປະໂຫຍດຕໍ່ຜູ້ຟັງ, ມັນຈະຖືກພິ"
+"ຈາລະນາເພື່ອລວມເຂົ້າໃນລາຍການ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/xml/event_track_proposal_templates.xml:0
 msgid "We will evaluate your proposition and get back to you shortly."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພວກເຮົາຈະປະເມີນຂໍ້ສະເໜີຂອງທ່ານ ແລະ ຈະຕິດຕໍ່ກັບຫາທ່ານໃນໄວໆນີ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "We're sorry, this event does not accept proposals anymore"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍອະໄພ, ງານກິດຈະກຳນີ້ບໍ່ຮັບຂໍ້ສະເໜີອີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_website
 msgid "Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_website__app_icon
 msgid "Website App Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນແອັບເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_website_event_menu
 msgid "Website Event Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມນູງານກິດຈະກຳເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_image
 msgid "Website Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_website_menu
 msgid "Website Menu"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມນູເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_message_ids
 msgid "Website Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_url
 msgid "Website URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model,name:website_event_track.model_website_visitor
 msgid "Website Visitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__website_message_ids
 msgid "Website communication history"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການສື່ສານເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_meta_description
 msgid "Website meta description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ Meta ຂອງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_meta_keywords
 msgid "Website meta keywords"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳຄົ້ນ Meta ຂອງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_meta_title
 msgid "Website meta title"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ Meta ຂອງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__website_meta_og_img
 msgid "Website opengraph image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ Opengraph ຂອງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_10
 msgid "Welcome to Day 2"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍິນດີຕ້ອນຮັບສູ່ມື້ທີ 2"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_1
 msgid "What This Event Is All About"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ງານກິດຈະກຳນີ້ກ່ຽວກັບຫຍັງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "What is your talk about?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍຂອງທ່ານກ່ຽວກັບຫຍັງ?"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -2393,38 +4151,66 @@ msgid ""
 "Who will give this talk? We will show this to attendees to showcase your "
 "talk."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃຜຈະເປັນຜູ້ນຳສະເໜີ? ພວກເຮົາຈະສະແດງຂໍ້ມູນນີ້ໃຫ້ຜູ້ເຂົ້າຮ່ວມເຫັນເພື່ອແນະນຳການບັນຍາຍຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_l3_2
 msgid "Who's OpenWood anyway?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແລ້ວ OpenWood ແມ່ນໃຜ?"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "Wishlisted By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເຂົ້າໃນລາຍການທີ່ຢາກເບິ່ງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.event_track_action_from_visitor
 #: model:ir.model.fields,field_description:website_event_track.field_website_visitor__event_track_wishlisted_ids
 msgid "Wishlisted Tracks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຍາຍທີ່ຖືກເພີ່ມເຂົ້າໃນລາຍການທີ່ຢາກເບິ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.snippet_options
 msgid "Wishlists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການທີ່ຢາກເບິ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_7_track_7
 msgid "Woodworking: How I got started!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວຽກໄມ້: ຂ້ອຍເລີ່ມຕົ້ນໄດ້ແນວໃດ!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/website_event_track_proposal_form.js:0
 msgid "You cannot access this page."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດເຂົ້າເຖິງໜ້ານີ້ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
@@ -2433,88 +4219,156 @@ msgid ""
 "You have to enable push notifications to get reminders for your favorite "
 "tracks."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານຕ້ອງເປີດການແຈ້ງເຕືອນແບບ Push ເພື່ອຮັບການແຈ້ງເຕືອນສຳລັບການບັນຍາຍທີ່ທ່ານມັກ."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.pwa_offline
 msgid "You're offline!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານກຳລັງອອບລາຍ!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 msgid "a few seconds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສອງສາມວິນາທີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_card
 msgid "ago"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຜ່ານມາ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "e.g. \"John Doe was born in...\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: \"ຈອນ ໂດ ເກີດຢູ່...\""
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_location_tree
 msgid "e.g. \"Main Conference Room\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: \"ຫ້ອງປະຊຸມໃຫຍ່\""
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "e.g. \"This talk will be about...\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: \"ການບັນຍາຍນີ້ຈະກ່ຽວກັບ...\""
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "e.g. Get Yours Now!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ຮັບຂອງຂອງທ່ານດຽວນີ້!"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_view_form_quick_create
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "e.g. Inspiring Business Talk"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ການບັນຍາຍທຸລະກິດທີ່ສ້າງແຮງບັນດານໃຈ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "e.g. http://www.example.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: http://www.example.com"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
 msgid "hours"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊົ່ວໂມງ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/js/event_track_timer.js:0
 msgid "in %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນ %s"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_form
 msgid "minutes after Track start"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນາທີ ຫຼັງຈາກການບັນຍາຍເລີ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_confirmation_end_page_hook
 #: model_terms:ir.ui.view,arch_db:website_event_track.registration_complete
 msgid "register to your favorites talks now."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນການບັນຍາຍທີ່ທ່ານມັກດຽວນີ້."
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 msgid "starts in"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມໃນອີກ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_content
 msgid "starts on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມໃນວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: website_event_track
 #. odoo-javascript
 #: code:addons/website_event_track/static/src/xml/website_event_pwa.xml:0
 msgid "x"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "x"
+>>>>>>> upstream/18.0

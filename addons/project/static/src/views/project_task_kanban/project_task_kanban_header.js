@@ -66,6 +66,7 @@ export class ProjectTaskKanbanHeader extends KanbanHeader {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.group.groupByField.name === 'stage_id') {
             const action = await this.group.model.orm.call(
                 this.group.groupByField.relation,
@@ -77,6 +78,9 @@ export class ProjectTaskKanbanHeader extends KanbanHeader {
             return;
         }
         super.deleteGroup();
+=======
+        return this.props.deleteGroup(this.group);
+>>>>>>> upstream/18.0
 =======
         return this.props.deleteGroup(this.group);
 >>>>>>> upstream/18.0

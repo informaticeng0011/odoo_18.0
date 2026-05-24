@@ -98,11 +98,14 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _add_invoice_config_vals(self, vals):
         super()._add_invoice_config_vals(vals)
         invoice = vals['invoice']
         vals['process_type'] = 'selfbilling' if invoice.is_purchase_document() and self._can_export_selfbilling() else 'billing'
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -399,7 +402,10 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -650,6 +656,7 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         vals['delivery'] = supplier
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -774,6 +781,9 @@ class AccountEdiXmlUBLBIS3(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        vals['delivery'] = supplier.child_ids.filtered(lambda p: p.type == 'delivery')[:1] or supplier
 >>>>>>> upstream/18.0
 =======
         vals['delivery'] = supplier.child_ids.filtered(lambda p: p.type == 'delivery')[:1] or supplier

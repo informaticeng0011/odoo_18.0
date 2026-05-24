@@ -1,12 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* account_peppol
 #
+=======
+# * account_peppol
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-15 17:38+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2026-05-15 17:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,48 +22,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-05-18 07:49+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
+"account_peppol/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Customer not on Peppol)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ລູກຄ້າບໍ່ຢູ່ໃນລະບົບ Peppol)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Demo)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ສາທິດ)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Missing %(eas)s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ຂາດ %(eas)s)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (Test)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ທົດລອງ)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid " (no VAT)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ບໍ່ມີອາກອນມູນຄ່າເພີ່ມ)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(peppol_label)s%(disable_reason)s%(peppol_proxy_mode)s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "%s has requested electronic invoices reception on Peppol."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s ໄດ້ຮ້ອງຂໍການຮັບໃບເກັບເງິນແບບເອເລັກໂຕຣນິກຜ່ານ Peppol."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
@@ -63,6 +111,12 @@ msgid ""
 "<br/>\n"
 "                                In Belgium, electronic invoicing is <u>mandatory as of January 2026</u> - don't wait to register."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                                ໃນປະເທດແບນຊິກ, ການອອກໃບເກັບເງິນແບບເອເລັກໂຕຣນິກແມ່ນ "
+"<u>ເປັນພັນທະເລີ່ມແຕ່ເດືອນມັງກອນ 2026</u> - ຢ່າລໍຊ້າໃນການລົງທະບຽນ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_move_form
@@ -72,6 +126,15 @@ msgid ""
 "                        The invoice will be sent automatically via Peppol\n"
 "                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"mx-1\" invisible=\"'demo_' not in peppol_message_uuid\"> (ສາທິດ)"
+"</span>\n"
+"                    <span class=\"text-muted mx-3\" "
+"invisible=\"peppol_move_state != 'to_send'\">\n"
+"                        ໃບເກັບເງິນຈະຖືກສົ່ງໂດຍອັດຕະໂນມັດຜ່ານ Peppol\n"
+"                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -80,156 +143,269 @@ msgid ""
 "A participant with these details has already been registered on the network."
 " If you have previously registered to a Peppol service, please deregister."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ມີຜູ້ເຂົ້າຮ່ວມທີ່ໃຊ້ລາຍລະອຽດນີ້ໄດ້ລົງທະບຽນໃນລະບົບແລ້ວ. ຖ້າທ່ານເຄີຍລົງທະບຽນກັບບໍລິການ Peppol ມາກ່ອນ, "
+"ກະລຸນາຍົກເລີກການລົງທະບຽນເກົ່າກ່ອນ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "A purchase journal must be used to receive Peppol documents."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງໃຊ້ປຶ້ມບັນຊີຊື້ເພື່ອຮັບເອກະສານ Peppol."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_edi_proxy_client_user
 msgid "Account EDI proxy user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ຕົວແທນ EDI ຂອງບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_move_send
 msgid "Account Move Send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງລາຍການເຄື່ອນໄຫວບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_move_send_batch_wizard
 msgid "Account Move Send Batch Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສົ່ງລາຍການເຄື່ອນໄຫວບັນຊີແບບເປັນຊຸດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_move_send_wizard
 msgid "Account Move Send Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສົ່ງລາຍການເຄື່ອນໄຫວບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__account_peppol_edi_user
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_user
 msgid "Account Peppol Edi User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ Peppol EDI ຂອງບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_journal__is_peppol_journal
 msgid "Account used for Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີທີ່ໃຊ້ສຳລັບ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.js:0
 msgid "Activate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Activate Electronic Invoicing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ການອອກໃບເກັບເງິນເອເລັກໂຕຣນິກ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Activate Electronic Invoicing (via Peppol)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ການອອກໃບເກັບເງິນເອເລັກໂຕຣນິກ (ຜ່ານ Peppol)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol (Demo)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ Peppol (ສາທິດ)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Activate Peppol (Test)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ Peppol (ທົດລອງ)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Allow incoming invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃບເກັບເງິນຂາເຂົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Allow reception"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດການຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Allow sending and receiving invoices through the PEPPOL network"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດການສົ່ງ ແລະ ຮັບໃບເກັບເງິນຜ່ານເຄືອຂ່າຍ PEPPOL"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__available_peppol_edi_formats
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__available_peppol_edi_formats
 msgid "Available Peppol Edi Formats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບ Peppol EDI ທີ່ສາມາດໃຊ້ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__available_peppol_sending_methods
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__available_peppol_sending_methods
 msgid "Available Peppol Sending Methods"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການສົ່ງ Peppol ທີ່ສາມາດໃຊ້ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid ""
 "By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໂດຍການຄລິກປຸ່ມລຸ່ມນີ້, ຂ້າພະເຈົ້າຍອມຮັບໃຫ້ Odoo ປະມວນຜົນໃບເກັບເງິນເອເລັກໂຕຣນິກຂອງຂ້າພະເຈົ້າ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__receiver
 msgid "Can send and receive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດສົ່ງ ແລະ ຮັບໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__sender
 msgid "Can send but not receive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດສົ່ງໄດ້ ແຕ່ຮັບບໍ່ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__smp_registration
 msgid "Can send, pending registration to receive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດສົ່ງໄດ້, ກຳລັງລໍຖ້າການລົງທະບຽນເພື່ອຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_service_configuration
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_move_form
 msgid "Cancel PEPPOL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ PEPPOL"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move.py:0
 msgid "Cannot cancel an entry that has already been sent to PEPPOL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດຍົກເລີກລາຍການທີ່ຖືກສົ່ງໄປ PEPPOL ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Cannot register a user with a %s application"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດລົງທະບຽນຜູ້ໃຊ້ດ້ວຍແອັບພລິເຄຊັນ %s ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Check Partner(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກວດສອບຄູ່ຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__peppol_eas
@@ -241,353 +417,603 @@ msgid ""
 "Code used to identify the Endpoint for BIS Billing 3.0 and its derivatives.\n"
 "             List available at https://docs.peppol.eu/poacc/billing/3.0/codelist/eas/"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະຫັດທີ່ໃຊ້ເພື່ອລະບຸ Endpoint ສຳລັບ BIS Billing 3.0 ແລະ ລາຍການອື່ນໆ.\n"
+"             ເບິ່ງລາຍຊື່ໄດ້ທີ່ https://docs.peppol.eu/poacc/billing/3.0/codelist/"
+"eas/"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_name
 msgid "Company Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Configure Peppol Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງຄ່າບໍລິການ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_service_configuration
 msgid "Confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Connection error, please try again later."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຊື່ອມຕໍ່ຜິດພາດ, ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Contact details were updated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດຜູ້ຕິດຕໍ່ຖືກອັບເດດແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Contact email and mobile number are required."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງມີອີເມລຜູ້ຕິດຕໍ່ ແລະ ເບີໂທລະສັບມືຖື."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Contact email and phone number are required."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງມີອີເມລຜູ້ຕິດຕໍ່ ແລະ ເບີໂທລະສັບ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Create, send and receive e-invoices for free."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງ, ສົ່ງ ແລະ ຮັບໃບເກັບເງິນເອເລັກໂຕຣນິກໄດ້ຟຣີ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__create_uid
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__create_uid
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__create_date
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__create_date
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Customer is on Peppol but did not enable receiving documents."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລູກຄ້າຢູ່ໃນ Peppol ແຕ່ບໍ່ໄດ້ເປີດການຮັບເອກະສານ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__edi_mode__demo
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__edi_mode_constraint__demo
 msgid "Demo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາທິດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Disable the reception."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການຮັບ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖິ້ມ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Disconnect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັດການເຊື່ອມຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Disconnected this branch company peppol configuration from %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັດການເຊື່ອມຕໍ່ການຕັ້ງຄ່າ Peppol ຂອງບໍລິສັດສາຂານີ້ຈາກ %s ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__display_name
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__display_name
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__document_identifier
 msgid "Document Identifier"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວລະບຸເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__document_name
 msgid "Document Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__done
 msgid "Done"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳເລັດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "E-invoices will soon be mandatory in many countries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນເອເລັກໂຕຣນິກຈະກາຍເປັນພັນທະໃນຫຼາຍປະເທດໃນໄວໆນີ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_mode
 msgid "EDI mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂໝດ EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_mode
 msgid "EDI operating mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂໝດການເຮັດວຽກ EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__edi_user_id
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_user_id
 msgid "EDI user"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "EDI user should be of type Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້ EDI ຄວນເປັນປະເພດ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_edi_identification
 msgid "Edi Identification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລະບຸຕົວຕົນ EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__edi_mode_constraint
 msgid "Edi Mode Constraint"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຈຳກັດໂໝດ EDI"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມລ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__enabled
 msgid "Enabled"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__error
 msgid "Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Errors occurred while creating the EDI document (format: %s):"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນໃນຂະນະທີ່ສ້າງເອກະສານ EDI (ຮູບແບບ: %s):"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Fetch Peppol invoice status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຶງຂໍ້ມູນສະຖານະໃບເກັບເງິນ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Fetch from Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຶງຂໍ້ມູນຈາກ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Free on Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟຣີໃນ Odoo"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Fully automated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັດຕະໂນມັດເຕັມຮູບແບບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.js:0
 msgid "Got it !"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າໃຈແລ້ວ !"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__id
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__id
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__smp_registration
 msgid ""
 "If not check, you will only be able to send invoices but not receive them."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າບໍ່ເລືອກ, ທ່ານຈະສາມາດສົ່ງໃບເກັບເງິນໄດ້ເທົ່ານັ້ນ ແຕ່ຮັບບໍ່ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
 msgid ""
 "If you want to be invoiced by Peppol, your configuration must be valid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າທ່ານຕ້ອງການຮັບໃບເກັບເງິນຜ່ານ Peppol, ການຕັ້ງຄ່າຂອງທ່ານຕ້ອງຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__in_verification
 msgid "In verification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງກວດສອບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Incoming Invoices Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີໃບເກັບເງິນຂາເຂົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Invoice %s is too big to send via peppol (64MB limit)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນ %s ມີຂະໜາດໃຫຍ່ເກີນໄປທີ່ຈະສົ່ງຜ່ານ Peppol (ຈຳກັດ 64MB)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__invoice_sending_method
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__invoice_sending_method
 msgid "Invoice sending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງໃບເກັບເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_account_peppol_service_wizard__service_json
 msgid ""
 "JSON representation of peppol services as retrieved from the peppol server."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສະແດງຜົນ JSON ຂອງບໍລິການ Peppol ທີ່ໄດ້ຮັບຈາກເຊີບເວີ Peppol."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_journal
 msgid "Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__write_uid
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__write_uid
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__write_date
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__write_date
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__edi_mode__prod
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__edi_mode_constraint__prod
 msgid "Live"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ງານຈິງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__account_peppol_migration_key
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__account_peppol_migration_key
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_migration_key
 msgid "Migration Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດການຍ້າຍ (Migration Key)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__phone_number
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__account_peppol_phone_number
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_phone_number
 msgid "Mobile number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບມືຖື"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__not_registered
 msgid "Not registered"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ທັນລົງທະບຽນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_eas__odemo
 msgid "Odoo Demo ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີສາທິດ Odoo"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "Odoo keeps you up to date with the new regulation."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo ຊ່ວຍໃຫ້ທ່ານຕິດຕາມກົດລະບຽບໃໝ່ໆຢູ່ສະເໝີ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_edi_proxy_client_user__proxy_type__peppol
 msgid "PEPPOL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_purchase_journal_id
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_purchase_journal_id
 msgid "PEPPOL Purchase Journal"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີຊື້ PEPPOL"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -595,6 +1021,10 @@ msgstr ""
 msgid ""
 "PEPPOL allows for complete automation of sending and receiving e-invoices."
 msgstr ""
+<<<<<<< HEAD
+=======
+"PEPPOL ອະນຸຍາດໃຫ້ສົ່ງ ແລະ ຮັບໃບເກັບເງິນເອເລັກໂຕຣນິກແບບອັດຕະໂນມັດເຕັມຮູບແບບ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -603,12 +1033,20 @@ msgid ""
 "PEPPOL is the secure standard for e-invoices used in EU and across the "
 "world."
 msgstr ""
+<<<<<<< HEAD
+=======
+"PEPPOL ແມ່ນມາດຕະຖານທີ່ປອດໄພສຳລັບໃບເກັບເງິນເອເລັກໂຕຣນິກທີ່ໃຊ້ໃນ EU ແລະ ທົ່ວໂລກ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_bank_statement_line__peppol_message_uuid
 #: model:ir.model.fields,field_description:account_peppol.field_account_move__peppol_message_uuid
 msgid "PEPPOL message ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີຂໍ້ຄວາມ PEPPOL"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_bank_statement_line__peppol_move_state
@@ -618,64 +1056,112 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__account_peppol_proxy_state
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_proxy_state
 msgid "PEPPOL status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະ PEPPOL"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.actions.server,name:account_peppol.ir_cron_peppol_get_new_documents_ir_actions_server
 msgid "PEPPOL: retrieve new documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL: ດຶງຂໍ້ມູນເອກະສານໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.actions.server,name:account_peppol.ir_cron_peppol_get_message_status_ir_actions_server
 msgid "PEPPOL: update message status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL: ອັບເດດສະຖານະຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.actions.server,name:account_peppol.ir_cron_peppol_get_participant_status_ir_actions_server
 msgid "PEPPOL: update participant status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEPPOL: ອັບເດດສະຖານະຜູ້ເຂົ້າຮ່ວມ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__parent_company_id
 msgid "Parent Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດແມ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid_format
 msgid "Partner cannot receive format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູ່ຄ້າບໍ່ສາມາດຮັບຮູບແບບນີ້ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/account_move_send_wizard.py:0
 msgid "Partner doesn't have a valid Peppol configuration."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູ່ຄ້າບໍ່ມີການຕັ້ງຄ່າ Peppol ທີ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_valid
 msgid "Partner is not on Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູ່ຄ້າບໍ່ໄດ້ຢູ່ໃນ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__valid
 msgid "Partner is on Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູ່ຄ້າຢູ່ໃນ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__processing
 msgid "Pending Reception"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງລໍຖ້າການຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Peppol Address should be provided."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວນລະບຸທີ່ຢູ່ Peppol."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_can_send
 msgid "Peppol Can Send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol ສາມາດສົ່ງໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_endpoint
@@ -683,76 +1169,132 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_endpoint
 #: model_terms:ir.ui.view,arch_db:account_peppol.portal_my_details_fields
 msgid "Peppol Endpoint"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol Endpoint"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Peppol ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol ID"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "Peppol ID should be different from main company."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol ID ຄວນແຕກຕ່າງຈາກບໍລິສັດແມ່."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_bank_statement_line__peppol_is_sent
 #: model:ir.model.fields,field_description:account_peppol.field_account_move__peppol_is_sent
 msgid "Peppol Is Sent"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol ຖືກສົ່ງແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_company__peppol_parent_company_id
 msgid "Peppol Parent Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດແມ່ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_parent_company_name
 msgid "Peppol Parent Company Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ບໍລິສັດແມ່ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol Ready"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພ້ອມສຳລັບ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_journal.py:0
 msgid "Peppol Ready invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນທີ່ພ້ອມສຳລັບ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_peppol_registration
 msgid "Peppol Registration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_peppol_service
 msgid "Peppol Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິການ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_peppol_service_wizard
 msgid "Peppol Services Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍບໍລິການ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__peppol_use_parent_company
 msgid "Peppol Use Parent Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol ໃຊ້ບໍລິສັດແມ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol document (UUID: %(uuid)s) has been received successfully"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານ Peppol (UUID: %(uuid)s) ໄດ້ຮັບສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.portal_my_details_fields
 msgid "Peppol e-Address (EAS)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ເອເລັກໂຕຣນິກ Peppol (EAS)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_eas
@@ -761,41 +1303,69 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_eas
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_eas
 msgid "Peppol e-address (EAS)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ຢູ່ເອເລັກໂຕຣນິກ Peppol (EAS)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol error: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດ Peppol: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_journal_dashboard_kanban_view
 msgid "Peppol ready invoices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນທີ່ພ້ອມສຳລັບ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_res_partner__peppol_verification_state
 #: model:ir.model.fields,field_description:account_peppol.field_res_users__peppol_verification_state
 #: model_terms:ir.ui.view,arch_db:account_peppol.account_peppol_view_account_invoice_filter
 msgid "Peppol status"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Peppol status update: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດສະຖານະ Peppol: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__peppol_warnings
 msgid "Peppol warnings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Phone"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -804,24 +1374,41 @@ msgid ""
 "Please enter the mobile number in the correct international format.\n"
 "For example: +32123456789, where +32 is the country code."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກະລຸນາປ້ອນເບີໂທລະສັບມືຖືໃນຮູບແບບສາກົນທີ່ຖືກຕ້ອງ.\n"
+"ຕົວຢ່າງ: +32123456789, ເຊິ່ງ +32 ແມ່ນລະຫັດປະເທດ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Please fill in the EAS code and the Participant ID code."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາຕື່ມລະຫັດ EAS ແລະ ລະຫັດ Participant ID."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "Please install the phonenumbers library."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາຕິດຕັ້ງ library phonenumbers."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Please verify partner configuration in partner settings."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາກວດສອບການຕັ້ງຄ່າຄູ່ຄ້າໃນສ່ວນຕັ້ງຄ່າຄູ່ຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__contact_email
@@ -829,7 +1416,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_peppol.field_res_config_settings__account_peppol_contact_email
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Primary contact email"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີເມລຜູ້ຕິດຕໍ່ຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__contact_email
@@ -839,65 +1430,115 @@ msgid ""
 "Primary contact email for Peppol connection related communications and notifications.\n"
 "In particular, this email is used by Odoo to reconnect your Peppol account in case of database change."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ອີເມລຜູ້ຕິດຕໍ່ຫຼັກສຳລັບການສື່ສານ ແລະ ການແຈ້ງເຕືອນທີ່ກ່ຽວຂ້ອງກັບການເຊື່ອມຕໍ່ Peppol.\n"
+"ໂດຍສະເພາະ, ອີເມລນີ້ແມ່ນໃຊ້ໂດຍ Odoo ເພື່ອເຊື່ອມຕໍ່ບັນຊີ Peppol ຂອງທ່ານຄືນໃໝ່ໃນກໍລະນີທີ່ມີການປ່ຽນແປງຖ"
+"ານຂໍ້ມູນ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_proxy_client_user__proxy_type
 msgid "Proxy Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຕົວແທນ (Proxy Type)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__to_send
 msgid "Queued"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າຄິວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__ready
 msgid "Ready to send"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພ້ອມສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__smp_registration
 msgid "Register as a receiver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນເປັນຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_self
 msgid "Register using the current company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນໂດຍໃຊ້ບໍລິສັດປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__use_parent_connection_selection__use_parent
 msgid "Register using the parent company by setting the same EAS/Endpoint"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນໂດຍໃຊ້ບໍລິສັດແມ່ໂດຍການຕັ້ງຄ່າ EAS/Endpoint ອັນດຽວກັນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered as a sender (demo)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນເປັນຜູ້ສົ່ງແລ້ວ (ສາທິດ)."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "Registered to receive documents via Peppol (demo)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນເພື່ອຮັບເອກະສານຜ່ານ Peppol ແລ້ວ (ສາທິດ)."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/res_config_settings.py:0
 msgid "Registered to receive documents via Peppol."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລົງທະບຽນເພື່ອຮັບເອກະສານຜ່ານ Peppol ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_company__account_peppol_proxy_state__rejected
 msgid "Rejected"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກປະຕິເສດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.js:0
 msgid "Remove from Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບອອກຈາກ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -906,60 +1547,104 @@ msgid ""
 "Route your vendor bills elsewhere while maintaining the ability to send "
 "customer invoices."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສົ່ງໃບແຈ້ງໜີ້ຜູ້ສະໜອງໄປທີ່ອື່ນ ໃນຂະນະທີ່ຍັງຮັກສາຄວາມສາມາດໃນການສົ່ງໃບເກັບເງິນໃຫ້ລູກຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_edi_proxy_client_user__peppol_verification_code
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__verification_code
 msgid "SMS verification code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຢືນຢັນທາງ SMS"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__selected_company_id
 msgid "Selected Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດທີ່ເລືອກ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Send again"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "Send electronic invoices, and receive bills automatically via Peppol."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃບເກັບເງິນເອເລັກໂຕຣນິກ ແລະ ຮັບໃບແຈ້ງໜີ້ໂດຍອັດຕະໂນມັດຜ່ານ Peppol."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_ids
 msgid "Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_info
 msgid "Service Info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service_wizard__service_json
 msgid "Service Json"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Service Json"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__account_move__peppol_move_state__skipped
 msgid "Skipped"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂ້າມແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Some attachments could not be sent with the XML:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ຄັດຕິດບາງອັນບໍ່ສາມາດສົ່ງໄປພ້ອມກັບ XML ໄດ້:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__edi_mode__test
 #: model:ir.model.fields.selection,name:account_peppol.selection__peppol_registration__edi_mode_constraint__test
 msgid "Test"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທົດລອງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
@@ -967,24 +1652,42 @@ msgid ""
 "Test mode allows sending e-invoices through the test Peppol network.\n"
 "                                    By clicking the button below I accept that Odoo may process my e-invoices."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໂໝດທົດລອງອະນຸຍາດໃຫ້ສົ່ງໃບເກັບເງິນເອເລັກໂຕຣນິກຜ່ານເຄືອຂ່າຍ Peppol ທົດລອງ.\n"
+"                                    ໂດຍການຄລິກປຸ່ມລຸ່ມນີ້, ຂ້າພະເຈົ້າຍອມຮັບໃຫ້ Odoo ປະມວນ"
+"ຜົນໃບເກັບເງິນເອເລັກໂຕຣນິກຂອງຂ້າພະເຈົ້າ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
 msgid "That country is not available for Peppol."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດນັ້ນບໍ່ສາມາດໃຊ້ Peppol ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/res_company.py:0
 msgid "The Peppol endpoint identification number is not correct."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກລະບຸຕົວຕົນ Peppol endpoint ບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "The e-invoicing network"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄືອຂ່າຍໃບເກັບເງິນເອເລັກໂຕຣນິກ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -993,6 +1696,10 @@ msgid ""
 "The endpoint number might not be correct. Please check if you entered the "
 "right identification number."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເລກ Endpoint ອາດຈະບໍ່ຖືກຕ້ອງ. ກະລຸນາກວດສອບວ່າທ່ານໄດ້ປ້ອນເລກລະບຸຕົວຕົນທີ່ຖືກຕ້ອງແລ້ວບໍ່."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1002,6 +1709,11 @@ msgid ""
 "configured here. If you wish to configure them differently, please contact "
 "support."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍລິການຕໍ່ໄປນີ້ມີລາຍຊື່ຢູ່ໃນຜູ້ເຂົ້າຮ່ວມຂອງທ່ານ ແຕ່ບໍ່ສາມາດຕັ້ງຄ່າຢູ່ບ່ອນນີ້ໄດ້. ຖ້າທ່ານຕ້ອງການຕັ້ງຄ່າພວກມັນແຕກຕ່າ"
+"ງຈາກນີ້, ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1010,6 +1722,10 @@ msgid ""
 "The invoice has been sent to the Peppol Access Point. The following "
 "attachments were sent with the XML:"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃບເກັບເງິນໄດ້ຖືກສົ່ງໄປທີ່ Peppol Access Point ແລ້ວ. ໄຟລ໌ຄັດຕິດດັ່ງຕໍ່ໄປນີ້ໄດ້ຖືກສົ່ງໄປພ້ອມກັບ XML:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1018,12 +1734,20 @@ msgid ""
 "The partner has indicated it does not accept this document type, so you "
 "cannot send this invoice via Peppol."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄູ່ຄ້າໄດ້ລະບຸວ່າພວກເຂົາບໍ່ຍອມຮັບເອກະສານປະເພດນີ້, ດັ່ງນັ້ນທ່ານຈຶ່ງບໍ່ສາມາດສົ່ງໃບເກັບເງິນນີ້ຜ່ານ Peppol ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "The partner is missing Peppol EAS and/or Endpoint identifier."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄູ່ຄ້າຂາດ Peppol EAS ແລະ/ຫຼື ຕົວລະບຸ Endpoint."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1032,22 +1756,38 @@ msgid ""
 "The peppol status of the documents has been reset when switching from Demo "
 "to Live."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະ Peppol ຂອງເອກະສານຖືກຕັ້ງຄ່າໃໝ່ເມື່ອປ່ຽນຈາກໂໝດສາທິດມາເປັນໂໝດໃຊ້ງານຈິງ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_edi_identification
 msgid "The unique id that identifies this user, typically the vat"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີທີ່ເປັນເອກະລັກທີ່ລະບຸຕົວຕົນຜູ້ໃຊ້ນີ້, ໂດຍປົກກະຕິແມ່ນເລກອາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "The verification code is not correct"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຢືນຢັນບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "This branch company will use the active Peppol connection found on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດສາຂານີ້ຈະໃຊ້ການເຊື່ອມຕໍ່ Peppol ທີ່ເປີດໃຊ້ງານຢູ່ເຊິ່ງພົບໃນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1056,24 +1796,41 @@ msgid ""
 "This feature is deprecated. Contact Odoo support if you need a migration "
 "key."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຟີເຈີນີ້ຖືກຍົກເລີກການໃຊ້ງານແລ້ວ. ຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອຂອງ Odoo ຖ້າທ່ານຕ້ອງການລະຫັດການຍ້າຍ "
+"(migration key)."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "This invoice has also been"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນນີ້ຍັງໄດ້ຖືກ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_company__account_peppol_phone_number
 #: model:ir.model.fields,help:account_peppol.field_res_config_settings__account_peppol_phone_number
 msgid "This number is used for identification purposes only."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີນີ້ໃຊ້ເພື່ອຈຸດປະສົງໃນການລະບຸຕົວຕົນເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "This verification code has expired. Please request a new one."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຢືນຢັນນີ້ໝົດອາຍຸແລ້ວ. ກະລຸນາຮ້ອງຂໍລະຫັດໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_partner_form_account_peppol
@@ -1081,22 +1838,38 @@ msgid ""
 "To generate complete electronic invoices, also set a country for this "
 "partner."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພື່ອສ້າງໃບເກັບເງິນເອເລັກໂຕຣນິກທີ່ສົມບູນ, ຕ້ອງກຳນົດປະເທດໃຫ້ກັບຄູ່ຄ້ານີ້ຄືກັນ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_edi_proxy_user.py:0
 msgid "Too many attempts to request an SMS code. Please try again later."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີການຮ້ອງຂໍລະຫັດ SMS ຫຼາຍເກີນໄປ. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model,name:account_peppol.model_account_edi_xml_ubl_bis3
 msgid "UBL BIS Billing 3.0.12"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UBL BIS Billing 3.0.12"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__peppol_verification_state__not_verified
 msgid "Unchecked"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ໄດ້ກວດສອບ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__peppol_endpoint
@@ -1106,22 +1879,39 @@ msgid ""
 "Unique identifier used by the BIS Billing 3.0 and its derivatives, also "
 "known as 'Endpoint ID'."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຕົວລະບຸທີ່ເປັນເອກະລັກທີ່ໃຊ້ໂດຍ BIS Billing 3.0 ແລະ ລາຍການອື່ນໆ, ເຊິ່ງເອີ້ນກັນວ່າ 'Endpoint "
+"ID'."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/res_config_settings_buttons/res_config_settings_buttons.xml:0
 msgid "Update"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection
 msgid "Use Parent Connection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ການເຊື່ອມຕໍ່ຈາກບໍລິສັດແມ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_peppol_registration__use_parent_connection_selection
 msgid "Use Parent Connection Selection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເລືອກໃຊ້ການເຊື່ອມຕໍ່ຈາກບໍລິສັດແມ່"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,help:account_peppol.field_peppol_registration__edi_mode_constraint
@@ -1129,27 +1919,47 @@ msgid ""
 "Using the config params, this field specifies which edi modes may be "
 "selected from the UI"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃຊ້ພາຣາມີເຕີການຕັ້ງຄ່າ, ຟິວນີ້ລະບຸວ່າໂໝດ EDI ໃດແດ່ທີ່ສາມາດເລືອກໄດ້ຈາກໜ້າຈໍຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_partner_form_account_peppol
 msgid "Verify"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.actions.server,name:account_peppol.partner_action_verify_peppol
 msgid "Verify Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_partner_form_account_peppol
 msgid "Verify partner's PEPPOL endpoint"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ PEPPOL endpoint ຂອງຄູ່ຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "View Partner(s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງຄູ່ຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1158,29 +1968,49 @@ msgid ""
 "We could not find a user with this information on our server. Please check "
 "your information."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ພວກເຮົາບໍ່ພົບຜູ້ໃຊ້ທີ່ມີຂໍ້ມູນນີ້ໃນເຊີບເວີຂອງພວກເຮົາ. ກະລຸນາກວດສອບຂໍ້ມູນຂອງທ່ານຄືນໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
 #: code:addons/account_peppol/static/src/components/peppol_info/peppol_info.xml:0
 msgid "What is Peppol and why it's great ?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol ແມ່ນຫຍັງ ແລະ ເປັນຫຍັງມັນຈຶ່ງດີ ?"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should I use PEPPOL ?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນຫຍັງຂ້ອຍຈຶ່ງຄວນໃຊ້ PEPPOL ?"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "Why should you use it ?"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນຫຍັງທ່ານຈຶ່ງຄວນໃຊ້ມັນ ?"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model:ir.model.fields,field_description:account_peppol.field_account_peppol_service__wizard_id
 msgid "Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍ (Wizard)"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1190,41 +2020,70 @@ msgid ""
 "your Company Registry (BCE/KBO) first to be compliant with the new "
 "regulation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານກຳລັງຈະລົງທະບຽນດ້ວຍເລກອາກອນຂອງທ່ານ. ກວດສອບໃຫ້ແນ່ໃຈວ່າທ່ານໄດ້ລົງທະບຽນກັບທະບຽນວິສາຫະກິດຂອ"
+"ງທ່ານກ່ອນ ເພື່ອໃຫ້ສອດຄ່ອງກັບກົດລະບຽບໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "You are sending from"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານກຳລັງສົ່ງຈາກ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now receive demo vendor bills."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຽວນີ້ທ່ານສາມາດຮັບໃບແຈ້ງໜີ້ຜູ້ສະໜອງແບບສາທິດໄດ້ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send and receive electronic invoices via Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຽວນີ້ທ່ານສາມາດສົ່ງ ແລະ ຮັບໃບເກັບເງິນເອເລັກໂຕຣນິກຜ່ານ Peppol ໄດ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/wizard/peppol_registration.py:0
 msgid "You can now send electronic invoices via Peppol."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຽວນີ້ທ່ານສາມາດສົ່ງໃບເກັບເງິນເອເລັກໂຕຣນິກຜ່ານ Peppol ໄດ້ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/tools/demo_utils.py:0
 msgid "You can now send invoices in demo mode."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຽວນີ້ທ່ານສາມາດສົ່ງໃບເກັບເງິນໃນໂໝດສາທິດໄດ້ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/models/account_move_send.py:0
 msgid "You can send this invoice electronically via Peppol."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານສາມາດສົ່ງໃບເກັບເງິນນີ້ໃນຮູບແບບເອເລັກໂຕຣນິກຜ່ານ Peppol ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1233,6 +2092,12 @@ msgid ""
 "You can't change the type of a journal used for Peppol invoice reception toa type different than 'Purchase'.\n"
 "Please change the journal used for Peppol reception before changing the type of this journal."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດປ່ຽນປະເພດຂອງປຶ້ມບັນຊີທີ່ໃຊ້ສຳລັບການຮັບໃບເກັບເງິນ Peppol ໄປເປັນປະເພດອື່ນນອກຈາກ 'ຊື້' "
+"(Purchase) ໄດ້.\n"
+"ກະລຸນາປ່ຽນປຶ້ມບັນຊີທີ່ໃຊ້ສຳລັບການຮັບ Peppol ກ່ອນທີ່ຈະປ່ຽນປະເພດຂອງປຶ້ມບັນຊີນີ້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
@@ -1240,6 +2105,12 @@ msgid ""
 "You registration has been rejected, the reason has been sent to you via email.\n"
 "                            Please contact our support if you need further assistance."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການລົງທະບຽນຂອງທ່ານຖືກປະຕິເສດ, ເຫດຜົນໄດ້ຖືກສົ່ງໃຫ້ທ່ານທາງອີເມລແລ້ວ.\n"
+"                            ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອຂອງພວກເຮົາ ຖ້າທ່ານຕ້ອງການຄວາມຊ່ວຍເຫຼືອເ"
+"ພີ່ມເຕີມ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-javascript
@@ -1248,11 +2119,19 @@ msgid ""
 "You will not be able to send or receive Peppol documents in Odoo anymore. "
 "Are you sure you want to proceed?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານຈະບໍ່ສາມາດສົ່ງ ຫຼື ຮັບເອກະສານ Peppol ໃນ Odoo ໄດ້ອີກຕໍ່ໄປ. ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການດຳເນີນການຕໍ່?"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your Peppol ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peppol ID ຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1261,6 +2140,10 @@ msgid ""
 "Your Peppol registration will be activated soon. You can already send "
 "invoices."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການລົງທະບຽນ Peppol ຂອງທ່ານຈະຖືກເປີດໃຊ້ງານໃນໄວໆນີ້. ທ່ານສາມາດສົ່ງໃບເກັບເງິນໄດ້ແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1269,11 +2152,20 @@ msgid ""
 "Your company is already registered on another Access Point for receiving "
 "invoices.We will register you as a sender only."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍລິສັດຂອງທ່ານໄດ້ລົງທະບຽນໃນ Access Point ອື່ນເພື່ອຮັບໃບເກັບເງິນແລ້ວ. ພວກເຮົາຈະລົງທະບຽນທ່ານເປັນຜູ້"
+"ສົ່ງເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your migration key is:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດການຍ້າຍຂອງທ່ານແມ່ນ:"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1282,11 +2174,20 @@ msgid ""
 "Your registration on Peppol network should be activated within a day. The "
 "updated status will be visible in Settings."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການລົງທະບຽນຂອງທ່ານໃນເຄືອຂ່າຍ Peppol ຄວນຈະຖືກເປີດໃຊ້ງານພາຍໃນໜຶ່ງມື້. ສະຖານະທີ່ອັບເດດຈະປາກົດຢູ່ໃ"
+"ນສ່ວນການຕັ້ງຄ່າ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "Your registration should be activated within a day."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງທະບຽນຂອງທ່ານຄວນຈະຖືກເປີດໃຊ້ງານພາຍໃນໜຶ່ງມື້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1295,6 +2196,10 @@ msgid ""
 "[PEPPOL-EN16931-R010] An electronic address (EAS) must be provided on the "
 "customer '%s'."
 msgstr ""
+<<<<<<< HEAD
+=======
+"[PEPPOL-EN16931-R010] ຕ້ອງລະບຸທີ່ຢູ່ເອເລັກໂຕຣນິກ (EAS) ໃຫ້ກັບລູກຄ້າ '%s'."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
@@ -1303,40 +2208,72 @@ msgid ""
 "[PEPPOL-EN16931-R020] An electronic address (EAS) must be provided on the "
 "company '%s'."
 msgstr ""
+<<<<<<< HEAD
+=======
+"[PEPPOL-EN16931-R020] ຕ້ອງລະບຸທີ່ຢູ່ເອເລັກໂຕຣນິກ (EAS) ໃຫ້ກັບບໍລິສັດ '%s'."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.peppol_registration_form
 msgid "and send invoices via Peppol on their behalf."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແລະ ສົ່ງໃບເກັບເງິນຜ່ານ Peppol ໃນນາມຂອງພວກເຂົາ."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #. odoo-python
 #: code:addons/account_peppol/controllers/portal.py:0
 #: model:ir.model.fields.selection,name:account_peppol.selection__res_partner__invoice_sending_method__peppol
 msgid "by Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂດຍ Peppol"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "could not be sent via Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສົ່ງຜ່ານ Peppol ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.res_config_settings_view_form
 msgid "invoices and credit notes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນ ແລະ ໃບຫຼຸດໜີ້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "sent via Peppol"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຜ່ານ Peppol ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "to send invoices, but this one"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພື່ອສົ່ງໃບເກັບເງິນ, ແຕ່ໃບນີ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol
 #: model_terms:ir.ui.view,arch_db:account_peppol.mail_notification_layout_with_responsible_signature_and_peppol
 msgid "uses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້"
+>>>>>>> upstream/18.0

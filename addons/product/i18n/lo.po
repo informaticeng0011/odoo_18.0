@@ -1,12 +1,20 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* product
 #
+=======
+# * product
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2026-04-10 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,6 +22,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-05-21 07:08+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/product/lo/>"
+"\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -23,18 +43,32 @@ msgid ""
 "\n"
 "Note: products that you don't have access to will not be shown above."
 msgstr ""
+<<<<<<< HEAD
+=======
+"\n"
+"\n"
+"ໝາຍເຫດ: ຜະລິດຕະພັນທີ່ທ່ານບໍ່ມີສິດເຂົ້າເຖິງຈະບໍ່ຖືກສະແດງຢູ່ຂ້າງເທິງ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__product_variant_count
 #: model:ir.model.fields,field_description:product.field_product_product__product_variant_count
 #: model:ir.model.fields,field_description:product.field_product_template__product_variant_count
 msgid "# Product Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ຈຳນວນຮູບແບບຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__product_count
 msgid "# Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ຈຳນວນຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -43,6 +77,13 @@ msgid ""
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %(total_amount)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(base)s ພ້ອມກັບ %(discount)s %% %(discount_type)s ແລະ ຄ່າທຳນຽມເພີ່ມເຕີມ %"
+"(surcharge)s\n"
+"ຕົວຢ່າງ: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
+"(total_amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -51,24 +92,40 @@ msgid ""
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(item_name)s: ວັນທີສິ້ນສຸດ (%(end_date)s) ຄວນຈະຢູ່ຫຼັງວັນທີເລີ່ມຕົ້ນ (%(start_date)s)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(percentage)s %% %(discount_type)s ໃນ %(base)s %(extra)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on %(pricelist)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຫຼຸດ %(percentage)s %% ໃນ %(pricelist)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "%(percentage)s %% discount on sales price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຫຼຸດ %(percentage)s %% ຈາກລາຄາຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -76,7 +133,11 @@ msgstr ""
 #: code:addons/product/models/product_tag.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "%s (copy)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s (ສຳເນົາ)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,print_report_name:product.report_product_template_label_2x7
@@ -85,36 +146,60 @@ msgstr ""
 #: model:ir.actions.report,print_report_name:product.report_product_template_label_4x7
 #: model:ir.actions.report,print_report_name:product.report_product_template_label_dymo
 msgid "'Products Labels - %s' % (object.name)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'ສະຫຼາກຜະລິດຕະພັນ - %s' % (object.name)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,print_report_name:product.report_product_packaging
 msgid "'Products packaging - %s' % (object.name)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "'ການບັນຈຸພັນຜະລິດຕະພັນ - %s' % (object.name)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "(e.g: product description, ebook, legal notice, ...)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "(ຕົວຢ່າງ: ຄຳອະທິບາຍຜະລິດຕະພັນ, ອີບຸກ, ແຈ້ງການທາງກົດໝາຍ, ...)."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "+ %(amount)s extra fee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "+ ຄ່າທຳນຽມເພີ່ມເຕີມ %(amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "- %(amount)s rebate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- ສ່ວນຫຼຸດຄືນ %(amount)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- ບາໂຄດ \"%(barcode)s\" ໄດ້ຖືກກຳນົດໃຫ້ຜະລິດຕະພັນ: %(product_list)s ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
@@ -124,56 +209,105 @@ msgid ""
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"- ທັນທີ: ຮູບແບບທີ່ເປັນໄປໄດ້ທັງໝົດຈະຖືກສ້າງຂຶ້ນທັນທີເມື່ອຄຸນລັກສະນະ ແລະ ຄ່າຂອງມັນຖືກເພີ່ມເຂົ້າໃນຜະລິດຕະພັ"
+"ນ.\n"
+"        - ແບບໄດນາມິກ: ແຕ່ລະຮູບແບບຈະຖືກສ້າງຂຶ້ນເມື່ອຄຸນລັກສະນະ ແລະ ຄ່າທີ່ກ່ຽວຂ້ອງຖືກເພີ່ມເຂົ້າໃນໃບສັ່"
+"ງຂາຍເທົ່ານັ້ນ.\n"
+"        - ບໍ່ສ້າງ: ຈະບໍ່ມີການສ້າງຮູບແບບສຳລັບຄຸນລັກສະນະນີ້.\n"
+"        ໝາຍເຫດ: ສິ່ງນີ້ບໍ່ສາມາດປ່ຽນແປງໄດ້ເມື່ອມີການນຳໃຊ້ຄຸນລັກສະນະກັບຜະລິດຕະພັນແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
 msgid "1 year"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 ປີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.pav_warranty
 msgid "1 year warranty extension"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕໍ່ອາຍຸການຮັບປະກັນ 1 ປີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "10 Units"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "10 ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,description_sale:product.product_product_4_product_template
 msgid "160x80cm, with large legs."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "160x80 ຊມ, ພ້ອມຂາຂະໜາດໃຫຍ່."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_label_layout__print_format__2x7xprice
 msgid "2 x 7 with price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 x 7 ພ້ອມລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_6
 msgid "2 year"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "2 ປີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_label_layout__print_format__4x12
 msgid "4 x 12"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_label_layout__print_format__4x12xprice
 msgid "4 x 12 with price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12 ພ້ອມລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_label_layout__print_format__4x7xprice
 msgid "4 x 7 with price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 7 ພ້ອມລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "<b>Tip: want to round at 9.99?</b>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ເຄັດລັບ: ຕ້ອງການປັດເສດເປັນ 9.99 ບໍ່?</b>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -181,11 +315,21 @@ msgid ""
 "<i class=\"fa fa-long-arrow-right mx-2 oe_edit_only\" aria-label=\"Arrow "
 "icon\" title=\"Arrow\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-long-arrow-right mx-2 oe_edit_only\" aria-label=\"Arrow "
+"icon\" title=\"Arrow\"/>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_kanban
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" "
+"title=\"Currency\"/>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -197,6 +341,16 @@ msgid ""
 "                                            Rule\n"
 "                                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
+"                                            ກົດລະບຽບ\n"
+"                                        </span>\n"
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+"                                            ກົດລະບຽບ\n"
+"                                        </span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
@@ -208,21 +362,43 @@ msgid ""
 "                                        Pricelist\n"
 "                                    </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\" invisible=\"pricelist_item_count == 1\">\n"
+"                                        ລາຍການລາຄາ\n"
+"                                    </span>\n"
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+"                                        ລາຍການລາຄາ\n"
+"                                    </span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
 msgid "<span class=\"o_stat_text\"> Products</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\"> ຜະລິດຕະພັນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "<span class=\"o_stat_text\">Products</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ຜະລິດຕະພັນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "<span>%</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>%</span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -230,16 +406,29 @@ msgid ""
 "<span>%</span>\n"
 "                                <span>on</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>%</span>\n"
+"                                <span>ໃນ</span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "<span>All general settings about this product are managed on</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span>ການຕັ້ງຄ່າທົ່ວໄປທັງໝົດກ່ຽວກັບຜະລິດຕະພັນນີ້ແມ່ນຖືກຈັດການຢູ່ທີ່</span>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "<strong>Qty: </strong>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຈຳນວນ: </strong>"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
@@ -247,6 +436,11 @@ msgid ""
 "<strong>Save</strong> this page and come back\n"
 "                                here to set up the feature."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>ບັນທຶກ</strong> ໜ້ານີ້ ແລະ ກັບຄືນມາ\n"
+"                                ບ່ອນນີ້ເພື່ອຕັ້ງຄ່າຄຸນສົມບັດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
@@ -255,35 +449,61 @@ msgid ""
 "                        will delete and recreate existing variants and lead\n"
 "                        to the loss of their possible customizations."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<strong>ຄຳເຕືອນ</strong>: ການເພີ່ມ ຫຼື ລຶບຄຸນລັກສະນະ\n"
+"                        ຈະລຶບ ແລະ ສ້າງຮູບແບບທີ່ມີຢູ່ແລ້ວໃໝ່ ເຊິ່ງຈະເຮັດໃຫ້\n"
+"                        ການປັບແຕ່ງຕ່າງໆທີ່ເຄີຍມີນັ້ນສູນຫາຍໄປ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_packaging_barcode_uniq
 msgid "A barcode can only be assigned to one packaging."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບາໂຄດໜຶ່ງສາມາດກຳນົດໃຫ້ການບັນຈຸພັນດຽວເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice can't contain duplicate products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກຄອມໂບ້ບໍ່ສາມາດມີຜະລິດຕະພັນທີ່ຊໍ້າກັນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_combo_item.py:0
 msgid "A combo choice can't contain products of type \"combo\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກຄອມໂບ້ບໍ່ສາມາດມີຜະລິດຕະພັນປະເພດ \"ຄອມໂບ້\" ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_combo.py:0
 msgid "A combo choice must contain at least 1 product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກຄອມໂບ້ຕ້ອງມີຢ່າງໜ້ອຍ 1 ຜະລິດຕະພັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "A combo product must contain at least 1 combo choice."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜະລິດຕະພັນຄອມໂບ້ຕ້ອງມີຢ່າງໜ້ອຍ 1 ທາງເລືອກຄອມໂບ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__description_sale
@@ -293,12 +513,21 @@ msgid ""
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄຳອະທິບາຍຜະລິດຕະພັນທີ່ທ່ານຕ້ອງການສື່ສານກັບລູກຄ້າ. ຄຳອະທິບາຍນີ້ຈະຖືກຄັດລອກໄປຫາທຸກໆ ໃບສັ່ງຂາຍ, ໃບສົ່ງ"
+"ສິນຄ້າ ແລະ ໃບແຈ້ງໜີ້/ໃບຫຼຸດໜີ້ລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 msgid "A packaging already uses the barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີການບັນຈຸພັນທີ່ໃຊ້ບາໂຄດນີ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -306,6 +535,12 @@ msgid ""
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຄາແມ່ນຊຸດຂອງລາຄາຂາຍ ຫຼື ກົດລະບຽບເພື່ອຄິດໄລ່ລາຄາຂອງລາຍການໃບສັ່ງຂາຍ ໂດຍອີງຕາມຜະລິດຕະພັນ, ໝວ"
+"ດໝູ່ຜະລິດຕະພັນ, ວັນທີ ແລະ ຈຳນວນທີ່ສັ່ງ.\n"
+"            ນີ້ແມ່ນເຄື່ອງມືທີ່ດີເລີດສຳລັບການຈັດການລາຄາທີ່ຫຼາກຫຼາຍ, ສ່ວນຫຼຸດຕາມລະດູການ ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -314,23 +549,39 @@ msgid ""
 "A pricelist item with \"Other Pricelist\" as base must have a "
 "base_pricelist_id."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຍການໃນລາຍການລາຄາທີ່ມີ \"ລາຍການລາຄາອື່ນ\" ເປັນພື້ນຖານ ຕ້ອງມີ base_pricelist_id."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_packaging.py:0
 msgid "A product already uses the barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຜະລິດຕະພັນທີ່ໃຊ້ບາໂຄດນີ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "A sellable combo product can only contain sellable products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜະລິດຕະພັນຄອມໂບ້ທີ່ຂາຍໄດ້ ສາມາດມີພຽງແຕ່ຜະລິດຕະພັນທີ່ຂາຍໄດ້ເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__access_token
 msgid "Access Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທເຄັນການເຂົ້າເຖິງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
@@ -353,7 +604,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_needaction
 #: model:ir.model.fields,field_description:product.field_product_template__message_needaction
 msgid "Action Needed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__active
@@ -368,64 +623,104 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_attribute_value_view_search
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_search_view
 msgid "Active Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜະລິດຕະພັນທີ່ເປີດໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_ids
 #: model:ir.model.fields,field_description:product.field_product_product__activity_ids
 #: model:ir.model.fields,field_description:product.field_product_template__activity_ids
 msgid "Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_exception_decoration
 #: model:ir.model.fields,field_description:product.field_product_product__activity_exception_decoration
 #: model:ir.model.fields,field_description:product.field_product_template__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕົບແຕ່ງກິດຈະກຳທີ່ຍົກເວັ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_state
 #: model:ir.model.fields,field_description:product.field_product_product__activity_state
 #: model:ir.model.fields,field_description:product.field_product_template__activity_state
 msgid "Activity State"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_type_icon
 #: model:ir.model.fields,field_description:product.field_product_product__activity_type_icon
 #: model:ir.model.fields,field_description:product.field_product_template__activity_type_icon
 msgid "Activity Type Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນປະເພດກິດຈະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Add"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Add Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Add Products to pricelist report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຜະລິດຕະພັນໃສ່ລາຍງານລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Add a quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -434,43 +729,76 @@ msgid ""
 "Add products using the \"Add Products\" button at the top right to\n"
 "                                include them in the report."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພີ່ມຜະລິດຕະພັນໂດຍໃຊ້ປຸ່ມ \"ເພີ່ມຜະລິດຕະພັນ\" ຢູ່ເບື້ອງຂວາເທິງເພື່ອ\n"
+"                                ລວມພວກມັນເຂົ້າໃນລາຍງານ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Add to all products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມໃສ່ທຸກຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__add
 msgid "Add to existing products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມໃສ່ຜະລິດຕະພັນທີ່ມີຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Add to products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມໃສ່ຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_search
 msgid "All"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "All Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__all_product_tag_ids
 msgid "All Product Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກຜະລິດຕະພັນທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_tag__product_ids
 msgid "All Product Variants using this Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸກຮູບແບບຜະລິດຕະພັນທີ່ໃຊ້ແທັກນີ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -478,65 +806,113 @@ msgstr ""
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__3_global
 #: model_terms:ir.ui.view,arch_db:product.product_tag_form_view
 msgid "All Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜະລິດຕະພັນທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "All categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_tree
 msgid "All countries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸກປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/controllers/product_document.py:0
 msgid "All files uploaded"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບໂຫຼດໄຟລ໌ທັງໝົດແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "All products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜະລິດຕະພັນທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view_from_product
 msgid "All variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸກຮູບແບບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__is_custom
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__is_custom
 msgid "Allow customers to set their own value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ລູກຄ້າກຳນົດຄ່າຂອງເຂົາເຈົ້າເອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_2
 msgid "Aluminium"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາລູມີນຽມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view
 msgid "Applied On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳໃຊ້ກັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__applied_on
 msgid "Apply On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳໃຊ້ກັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Apply To"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳໃຊ້ກັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "Apply on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳໃຊ້ກັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
@@ -549,12 +925,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບໄວ້ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__sequence
 msgid "Assigns the priority to the list of product vendor."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດລຳດັບຄວາມສຳຄັນໃຫ້ກັບລາຍຊື່ຜູ້ສະໜອງຜະລິດຕະພັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -563,16 +947,28 @@ msgid ""
 "At most %s quantities can be displayed simultaneously. Remove a selected "
 "quantity to add others."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສາມາດສະແດງຈຳນວນໄດ້ສູງສຸດ %s ພ້ອມກັນ. ກະລຸນາລຶບຈຳນວນທີ່ເລືອກໄວ້ອອກເພື່ອເພີ່ມຈຳນວນອື່ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
 msgid "Attached To"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄັດຕິດກັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_ir_attachment
 msgid "Attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__message_attachment_count
@@ -580,12 +976,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_attachment_count
 #: model:ir.model.fields,field_description:product.field_product_template__message_attachment_count
 msgid "Attachment Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__local_url
 msgid "Attachment URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__name
@@ -593,18 +997,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_line__attribute_id
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__attribute_id
 msgid "Attribute"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__attribute_line_id
 msgid "Attribute Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການຄຸນລັກສະນະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 #: model_terms:ir.ui.view,arch_db:product.product_template_attribute_line_form
 msgid "Attribute Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຄຸນລັກສະນະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_value
@@ -613,7 +1029,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__product_attribute_value_id
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__attribute_value_id
 msgid "Attribute Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າຄຸນລັກສະນະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_template_attribute_value_ids
@@ -621,7 +1041,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_value_list
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Attribute Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າຄຸນລັກສະນະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.attribute_action
@@ -629,31 +1053,51 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Attributes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Attributes & Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະ ແລະ ຮູບແບບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 msgid "Back to Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບຄືນໄປຫາໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 msgid "Back to Quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບຄືນໄປຫາໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging__barcode
 #: model:ir.model.fields,field_description:product.field_product_product__barcode
 #: model:ir.model.fields,field_description:product.field_product_template__barcode
 msgid "Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບາໂຄດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__barcode
@@ -661,6 +1105,11 @@ msgid ""
 "Barcode used for packaging identification. Scan this packaging barcode from "
 "a transfer in the Barcode app to move all the contained units"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບາໂຄດທີ່ໃຊ້ສຳລັບລະບຸການບັນຈຸພັນ. ສະແກນບາໂຄດການບັນຈຸພັນນີ້ຈາກການໂອນຍ້າຍໃນແອັບບາໂຄດເພື່ອຍ້າຍທຸກຫົວໜ່"
+"ວຍທີ່ຢູ່ພາຍໃນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -670,6 +1119,12 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບາໂຄດໄດ້ຖືກກຳນົດແລ້ວ:\n"
+"\n"
+"%s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__base
@@ -679,32 +1134,59 @@ msgid ""
 "Cost Price: The base price will be the cost price.\n"
 "Other Pricelist: Computation of the base price based on another Pricelist."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຄາພື້ນຖານສຳລັບການຄິດໄລ່.\n"
+"ລາຄາຂາຍ: ລາຄາພື້ນຖານຈະແມ່ນລາຄາຂາຍ.\n"
+"ລາຄາຕົ້ນທຶນ: ລາຄາພື້ນຖານຈະແມ່ນລາຄາຕົ້ນທຶນ.\n"
+"ລາຍການລາຄາອື່ນ: ການຄິດໄລ່ລາຄາພື້ນຖານໂດຍອີງຕາມລາຍການລາຄາອື່ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__base
 msgid "Based on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອີງຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Based price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາທີ່ອີງຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:res.groups,name:product.group_product_pricelist
 msgid "Basic Pricelists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາຂັ້ນພື້ນຖານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_4
 msgid "Black"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີດຳ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "Bye-bye, record!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບບັນທຶກແລ້ວ!"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_10_product_template
@@ -715,17 +1197,29 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__can_image_1024_be_zoomed
 #: model:ir.model.fields,field_description:product.field_product_template__can_image_1024_be_zoomed
 msgid "Can Image 1024 be zoomed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດຊູມຮູບ 1024 ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__can_image_variant_1024_be_zoomed
 msgid "Can Variant Image 1024 be zoomed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດຊູມຮູບຂອງຮູບແບບ 1024 ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.update_product_attribute_value_form
 msgid "Cancel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__categ_id
@@ -733,13 +1227,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Category: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່: %s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__checksum
@@ -749,27 +1251,47 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__child_id
 msgid "Child Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ຍ່ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.action_open_label_layout
 msgid "Choose Labels Layout"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກຮູບແບບສະຫຼາກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_label_layout
 msgid "Choose the sheet layout to print the labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກຮູບແບບແຜ່ນເພື່ອພິມສະຫຼາກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.pav_cleaning_kit
 msgid "Cleaning kit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດທຳຄວາມສະອາດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Codes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__html_color
@@ -778,19 +1300,31 @@ msgstr ""
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__color
 #: model:product.attribute,name:product.product_attribute_2
 msgid "Color"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__color
 #: model:ir.model.fields,field_description:product.field_product_product__color
 #: model:ir.model.fields,field_description:product.field_product_template__color
 msgid "Color Index"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດັດຊະນີສີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__columns
 msgid "Columns"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__combination_indices
@@ -802,12 +1336,20 @@ msgstr ""
 #: model:ir.model.fields.selection,name:product.selection__product_template__type__combo
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Combo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄອມໂບ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
 msgid "Combo Choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກຄອມໂບ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_combo_action
@@ -815,23 +1357,39 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template__combo_ids
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_tree
 msgid "Combo Choices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກຄອມໂບ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo__combo_item_ids
 msgid "Combo Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການຄອມໂບ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo__base_price
 msgid "Combo Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຄອມໂບ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "Combo products can't have attributes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜະລິດຕະພັນຄອມໂບ້ບໍ່ສາມາດມີຄຸນລັກສະນະໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -839,12 +1397,20 @@ msgstr ""
 msgid ""
 "Combos allow to choose one product amongst a selection of choices per "
 "category."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄອມໂບ້ອະນຸຍາດໃຫ້ເລືອກຜະລິດຕະພັນໜຶ່ງໃນບັນດາທາງເລືອກຕາມໝວດໝູ່."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo__company_id
@@ -857,22 +1423,38 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__company_id
 #: model:ir.model.fields,field_description:product.field_product_template__company_id
 msgid "Company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Company Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__complete_name
 msgid "Complete Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ເຕັມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__compute_price
 msgid "Compute Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄິດໄລ່ລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_11_product_template
@@ -887,43 +1469,75 @@ msgstr ""
 #. module: product
 #: model:ir.model,name:product.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Configure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_label_layout_form
 #: model_terms:ir.ui.view,arch_db:product.update_product_attribute_value_form
 msgid "Confirm"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_partner
 msgid "Contact"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid "Contact Us"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດຕໍ່ພວກເຮົາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging__qty
 msgid "Contained Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ບັນຈຸ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_packaging_positive_qty
 msgid "Contained Quantity should be positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ບັນຈຸຄວນຈະເປັນຄ່າບວກ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
 msgid "Contained quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ບັນຈຸ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__uom_category_id
@@ -932,6 +1546,11 @@ msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການແປງລະຫວ່າງຫົວໜ່ວຍວັດແທກສາມາດເກີດຂຶ້ນໄດ້ກໍຕໍ່ເມື່ອພວກມັນຢູ່ໃນໝວດໝູ່ດຽວກັນ. ການແປງຈະອີງຕາມອັດຕາສ່ວ"
+"ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_13_product_template
@@ -948,53 +1567,89 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template__standard_price
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__base__standard_price
 msgid "Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__cost_currency_id
 #: model:ir.model.fields,field_description:product.field_product_template__cost_currency_id
 msgid "Cost Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນຕົ້ນທຶນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_country_group
 msgid "Country Group"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸ່ມປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__country_group_ids
 msgid "Country Groups"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸ່ມປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
 msgid "Create a new pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງລາຍການລາຄາໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_template_action
 #: model_terms:ir.actions.act_window,help:product.product_template_action_all
 msgid "Create a new product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຜະລິດຕະພັນໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 #: model_terms:ir.actions.act_window,help:product.product_variant_action
 msgid "Create a new product variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຮູບແບບຜະລິດຕະພັນໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "Create a product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__service_tracking
 #: model:ir.model.fields,field_description:product.field_product_template__service_tracking
 msgid "Create on Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຕາມໃບສັ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_uid
@@ -1017,7 +1672,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__create_uid
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_date
@@ -1040,22 +1699,38 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__create_date
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
 msgid "Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_volume_volume_in_cubic_feet__1
 msgid "Cubic Feet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟຸດກ້ອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_volume_volume_in_cubic_feet__0
 msgid "Cubic Meters"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມັດກ້ອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_currency
@@ -1068,22 +1743,38 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template__currency_id
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__currency_id
 msgid "Currency"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.fabric_attribute_custom
 msgid "Custom"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_custom_value__custom_value
 msgid "Custom Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າທີ່ກຳນົດເອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__partner_ref
 msgid "Customer Ref"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອ້າງອີງລູກຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_4_product_template
@@ -1093,35 +1784,59 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__db_datas
 msgid "Database Data"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຖານຂໍ້ມູນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_decimal_precision
 msgid "Decimal Precision"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມຊັດເຈນຂອງທົດສະນິຍົມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/res_company.py:0
 msgid "Default"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__default_extra_price
 msgid "Default Extra Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາເພີ່ມເຕີມເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__default_extra_price_changed
 msgid "Default Extra Price Changed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາເພີ່ມເຕີມເລີ່ມຕົ້ນມີການປ່ຽນແປງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__product_uom_id
 #: model:ir.model.fields,help:product.field_product_product__uom_id
 #: model:ir.model.fields,help:product.field_product_template__uom_id
 msgid "Default unit of measure used for all stock operations."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກເລີ່ມຕົ້ນທີ່ໃຊ້ສຳລັບທຸກການດຳເນີນງານສາງ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__uom_po_id
@@ -1131,40 +1846,68 @@ msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຫົວໜ່ວຍວັດແທກເລີ່ມຕົ້ນທີ່ໃຊ້ສຳລັບໃບສັ່ງຊື້. ມັນຕ້ອງຢູ່ໃນໝວດໝູ່ດຽວກັບຫົວໜ່ວຍວັດແທກເລີ່ມຕົ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_tag_action
 msgid "Define a new tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດແທັກໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Define your volume unit of measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດຫົວໜ່ວຍວັດແທກບໍລິມາດຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Define your weight unit of measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດຫົວໜ່ວຍວັດແທກນ້ຳໜັກຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__delay
 msgid "Delivery Lead Time"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາການສົ່ງສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__description
 #: model:ir.model.fields,field_description:product.field_product_product__description
 #: model:ir.model.fields,field_description:product.field_product_template__description
 msgid "Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_3_product_template
@@ -1195,33 +1938,57 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_attribute__sequence
 #: model:ir.model.fields,help:product.field_product_attribute_value__sequence
 msgid "Determine the display order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດລຳດັບການສະແດງຜົນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_label_layout_form
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖິ້ມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__compute_price__percentage
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Discount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຫຼຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__discount
 msgid "Discount (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຫຼຸດ (%)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__price_discounted
 msgid "Discounted Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຫຼັງຫຼຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__display_applied_on
 msgid "Display Applied On"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງສິ່ງທີ່ນຳໃຊ້ກັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__display_name
@@ -1244,19 +2011,31 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__display_name
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ສະແດງຜົນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__display_type
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__display_type
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__display_type
 msgid "Display Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການສະແດງຜົນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 msgid "Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -1265,29 +2044,49 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template__product_document_ids
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_document_count
 #: model:ir.model.fields,field_description:product.field_product_template__product_document_count
 msgid "Documents Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນເອກະສານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_search
 msgid "Documents of this variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານຂອງຮູບແບບນີ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 msgid "Download"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດາວໂຫຼດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "Download examples"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດາວໂຫຼດຕົວຢ່າງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_27_product_template
@@ -1317,12 +2116,20 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__create_variant__dynamic
 msgid "Dynamically"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບໄດນາມິກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_template_attribute_value_attribute_value_unique
 msgid "Each value should be defined only once per attribute per product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຕ່ລະຄ່າຄວນຖືກກຳນົດພຽງແຕ່ຄັ້ງດຽວຕໍ່ຄຸນລັກສະນະຕໍ່ຜະລິດຕະພັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
@@ -1333,18 +2140,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 #: model_terms:ir.ui.view,arch_db:product.product_view_kanban_catalog
 msgid "Edit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__date_end
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__date_end
 msgid "End Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__date_end
 msgid "End date for this vendor price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສິ້ນສຸດສຳລັບລາຄາຈາກຜູ້ສະໜອງນີ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__date_end
@@ -1352,54 +2171,95 @@ msgid ""
 "Ending datetime for the pricelist item validation\n"
 "The displayed value depends on the timezone set in your preferences."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວັນທີ ແລະ ເວລາສິ້ນສຸດສຳລັບການກວດສອບລາຍການລາຍການລາຄາ\n"
+"ຄ່າທີ່ສະແດງແມ່ນຂຶ້ນກັບເຂດເວລາທີ່ຕັ້ງໄວ້ໃນການຕັ້ງຄ່າຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid "Ergonomic"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກຕ້ອງຕາມຫຼັກວິຊາການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Error exporting file. Please try again."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການສົ່ງອອກໄຟລ໌. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__exclude_for
 msgid "Exclude for"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເວັ້ນສຳລັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__name
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price
 msgid "Explicit rule name for this pricelist line."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ກົດລະບຽບທີ່ຈະແຈ້ງສຳລັບລາຍການລາຍການລາຄານີ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__extra_html
 msgid "Extra Content"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເນື້ອຫາເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_surcharge
 msgid "Extra Fee"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າທຳນຽມເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Extra Info"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute,name:product.pa_extra_options
 msgid "Extra Options"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo_item__extra_price
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__price_extra
 msgid "Extra Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
@@ -1407,23 +2267,40 @@ msgid ""
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຄາເພີ່ມເຕີມສຳລັບຮູບແບບທີ່ມີຄ່າຄຸນລັກສະນະນີ້ໃນລາຄາຂາຍ. ຕົວຢ່າງ: ລາຄາເພີ່ມ 200, 1000 + 200 = "
+"1200."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute,name:product.fabric_attribute
 msgid "Fabric"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__is_favorite
 #: model:ir.model.fields,field_description:product.field_product_template__is_favorite
 msgid "Favorite"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ມັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Favorites"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ມັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__datas
@@ -1438,13 +2315,21 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__file_size
 msgid "File Size"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂະໜາດໄຟລ໌"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__fixed_price
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__compute_price__fixed
 msgid "Fixed Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຄົງທີ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_20_product_template
@@ -1457,7 +2342,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_follower_ids
 #: model:ir.model.fields,field_description:product.field_product_template__message_follower_ids
 msgid "Followers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__message_partner_ids
@@ -1465,14 +2354,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_partner_ids
 #: model:ir.model.fields,field_description:product.field_product_template__message_partner_ids
 msgid "Followers (Partners)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__activity_type_icon
 #: model:ir.model.fields,help:product.field_product_product__activity_type_icon
 #: model:ir.model.fields,help:product.field_product_template__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ Font awesome ເຊັ່ນ fa-tasks"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
@@ -1480,16 +2377,29 @@ msgid ""
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພື່ອໃຫ້ກົດລະບຽບມີຜົນນຳໃຊ້, ຈຳນວນທີ່ຊື້/ຂາຍ ຕ້ອງຫຼາຍກວ່າ ຫຼື ເທົ່າກັບຈຳນວນຕ່ຳສຸດທີ່ກຳນົດໄວ້ໃນຫ້ອງນີ້.\n"
+"ສະແດງອອກໃນຫົວໜ່ວຍວັດແທກເລີ່ມຕົ້ນຂອງຜະລິດຕະພັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__print_format
 msgid "Format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__compute_price__formula
 msgid "Formula"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສູດຄິດໄລ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.consu_delivery_03_product_template
@@ -1505,51 +2415,87 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__is_custom
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__is_custom
 msgid "Free text"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມເສລີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_furniture_product_template
 msgid "Furniture Assembly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະກອບເຟີນີເຈີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Future Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳໃນອະນາຄົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "General Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Get product pictures using Barcode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຶງຮູບພາບຜະລິດຕະພັນໂດຍໃຊ້ບາໂຄດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__packaging_ids
 #: model:ir.model.fields,help:product.field_product_template__packaging_ids
 msgid "Gives the different ways to package the same product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງວິທີການບັນຈຸພັນທີ່ແຕກຕ່າງກັນສຳລັບຜະລິດຕະພັນດຽວກັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__sequence
 #: model:ir.model.fields,help:product.field_product_template__sequence
 msgid "Gives the sequence order when displaying a product list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດລຳດັບການສະແດງຜົນເມື່ອສະແດງລາຍຊື່ຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Gold Member Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາສຳລັບສະມາຊິກຫຼຽນຄຳ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_template__type__consu
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Goods"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__type
@@ -1558,6 +2504,11 @@ msgid ""
 "Goods are tangible materials and merchandise you provide.\n"
 "A service is a non-material product you provide."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສິນຄ້າແມ່ນວັດສະດຸທີ່ຈັບຕ້ອງໄດ້ ແລະ ສິນຄ້າທີ່ທ່ານສະໜອງ.\n"
+"ບໍລິການແມ່ນຜະລິດຕະພັນທີ່ບໍ່ແມ່ນວັດຖຸທີ່ທ່ານສະໜອງ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
@@ -1570,12 +2521,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Group By"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__html_color
 msgid "HTML Color Index"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດັດຊະນີສີ HTML"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__has_message
@@ -1583,7 +2542,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__has_message
 #: model:ir.model.fields,field_description:product.field_product_template__has_message
 msgid "Has Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__html_color
@@ -1592,16 +2555,29 @@ msgid ""
 "Here you can set a specific HTML color index (e.g. #ff0000) to display the "
 "color if the attribute type is 'Color'."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຢູ່ທີ່ນີ້ທ່ານສາມາດຕັ້ງຄ່າດັດຊະນີສີ HTML ທີ່ລະເພາະ (ເຊັ່ນ #ff0000) ເພື່ອສະແດງສີ ຖ້າປະເພດຄຸນລັກສະນະແມ່"
+"ນ 'ສີ'."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
 msgid "History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.expense_hotel_product_template
 msgid "Hotel Accommodation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່ພັກໂຮງແຮມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__id
@@ -1631,14 +2607,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__activity_exception_icon
 #: model:ir.model.fields,field_description:product.field_product_template__activity_exception_icon
 msgid "Icon"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__activity_exception_icon
 #: model:ir.model.fields,help:product.field_product_product__activity_exception_icon
 #: model:ir.model.fields,help:product.field_product_template__activity_exception_icon
 msgid "Icon to indicate an exception activity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນເພື່ອບົ່ງບອກກິດຈະກຳທີ່ຍົກເວັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__message_needaction
@@ -1646,7 +2630,11 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__message_needaction
 #: model:ir.model.fields,help:product.field_product_template__message_needaction
 msgid "If checked, new messages require your attention."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະຕ້ອງການຄວາມສົນໃຈຈາກທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__message_has_error
@@ -1654,25 +2642,41 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__message_has_error
 #: model:ir.model.fields,help:product.field_product_template__message_has_error
 msgid "If checked, some messages have a delivery error."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_id
 msgid ""
 "If not set, the vendor price will apply to all variants of this product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າບໍ່ໄດ້ຕັ້ງຄ່າໄວ້, ລາຄາຜູ້ສະໜອງຈະນຳໃຊ້ກັບທຸກຮູບແບບຂອງຜະລິດຕະພັນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__active
 msgid ""
 "If unchecked, it will allow you to hide the attribute without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າບໍ່ໝາຍໄວ້, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງຄຸນລັກສະນະໄດ້ໂດຍບໍ່ຕ້ອງລຶບມັນອອກ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
 msgid ""
 "If unchecked, it will allow you to hide the pricelist without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າບໍ່ໝາຍໄວ້, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງລາຍການລາຄາໄດ້ໂດຍບໍ່ຕ້ອງລຶບມັນອອກ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__active
@@ -1680,6 +2684,10 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the product without removing it."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຖ້າບໍ່ໝາຍໄວ້, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງຜະລິດຕະພັນໄດ້ໂດຍບໍ່ຕ້ອງລຶບມັນອອກ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__image
@@ -1687,7 +2695,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template__image_1920
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__image
 msgid "Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_1024
@@ -1716,7 +2728,11 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__image_height
 msgid "Image Height"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມສູງຂອງຮູບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__image_src
@@ -1726,36 +2742,60 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__image_width
 msgid "Image Width"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມກວ້າງຂອງຮູບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 msgid "Image is a link"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບແມ່ນລິ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Import Template for Pricelists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳເຂົ້າແບບຟອມສຳລັບລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "Import Template for Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳເຂົ້າແບບຟອມສຳລັບຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_supplierinfo.py:0
 msgid "Import Template for Vendor Pricelists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນຳເຂົ້າແບບຟອມສຳລັບລາຍການລາຄາຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_search
 #: model_terms:ir.ui.view,arch_db:product.product_template_attribute_value_view_search
 msgid "Inactive"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__index_content
@@ -1770,34 +2810,58 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__create_variant__always
 msgid "Instantly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Internal Notes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນທຶກພາຍໃນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__default_code
 #: model:ir.model.fields,field_description:product.field_product_template__default_code
 msgid "Internal Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອ້າງອີງພາຍໃນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__barcode
 msgid "International Article Number used for product identification."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເລກສິນຄ້າສາກົນທີ່ໃຊ້ສຳລັບລະບຸຜະລິດຕະພັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "Invalid Operation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການດຳເນີນງານບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Inventory"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__message_is_follower
@@ -1805,33 +2869,57 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_is_follower
 #: model:ir.model.fields,field_description:product.field_product_template__message_is_follower
 msgid "Is Follower"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__is_product_variant
 msgid "Is Product Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຮູບແບບຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__has_configurable_attributes
 #: model:ir.model.fields,field_description:product.field_product_template__has_configurable_attributes
 msgid "Is a configurable product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜະລິດຕະພັນທີ່ຕັ້ງຄ່າໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template__is_product_variant
 msgid "Is a product variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຮູບແບບຜະລິດຕະພັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__public
 msgid "Is public document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນເອກະສານສາທາລະນະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_weight_in_lbs__0
 msgid "Kilograms"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິໂລກຣາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.size_attribute_l
@@ -1874,7 +2962,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__write_uid
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__write_date
@@ -1896,12 +2988,20 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__write_date
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Late Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກິດຈະກຳທີ່ຊັກຊ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__delay
@@ -1910,38 +3010,67 @@ msgid ""
 "receipt of the products in your warehouse. Used by the scheduler for "
 "automatic computation of the purchase order planning."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໄລຍະເວລາລໍຖ້າເປັນມື້ ລະຫວ່າງການຢືນຢັນໃບສັ່ງຊື້ ແລະ ການຮັບຜະລິດຕະພັນເຂົ້າສາງຂອງທ່ານ. ໃຊ້ໂດຍລະບົບວາ"
+"ງແຜນເພື່ອຄິດໄລ່ການວາງແຜນໃບສັ່ງຊື້ອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.fabric_attribute_leather
 msgid "Leather"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜັງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute,name:product.product_attribute_1
 msgid "Legs"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__attribute_line_ids
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__pav_attribute_line_ids
 msgid "Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_local_delivery_product_template
 msgid "Local Delivery"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງສິນຄ້າພາຍໃນທ້ອງຖິ່ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid "Locally handmade"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດດ້ວຍມືພາຍໃນທ້ອງຖິ່ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Logistics"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂລຈິສຕິກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
@@ -1949,6 +3078,10 @@ msgid ""
 "Looking for a custom bamboo stain to match existing furniture? Contact us "
 "for a quote."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກຳລັງຊອກຫາສີຍ້ອມໄມ້ໄຜ່ແບບພິເສດເພື່ອໃຫ້ເຂົ້າກັບເຟີນີເຈີທີ່ມີຢູ່ແລ້ວບໍ່? ຕິດຕໍ່ພວກເຮົາເພື່ອຂໍລາຄາ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.size_attribute_m
@@ -1961,42 +3094,75 @@ msgid ""
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຮັດໃຫ້ຄ່າຄຸນລັກສະນະນີ້ບໍ່ເຂົ້າກັນໄດ້ກັບຄ່າອື່ນໆຂອງສິນຄ້າ ຫຼື ຄ່າຄຸນລັກສະນະບາງຢ່າງຂອງສິນຄ້າທາງເລືອກ ແລະ ສິ"
+"ນຄ້າປະກອບ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
 msgid "Manage Product Packaging"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການການຫຸ້ມຫໍ່ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:res.groups,name:product.group_product_variant
 msgid "Manage Product Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Margins"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕ່າງກຳໄລ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_markup
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Markup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນເພີ່ມລາຄາ (Markup)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Max. Margin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕ່າງສູງສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_max_margin
 msgid "Max. Price Margin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕ່າງລາຄາສູງສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__message
 msgid "Message"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__message_has_error
@@ -2004,7 +3170,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_has_error
 #: model:ir.model.fields,field_description:product.field_product_template__message_has_error
 msgid "Message Delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງຂໍ້ຄວາມຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__message_ids
@@ -2012,60 +3182,104 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_ids
 #: model:ir.model.fields,field_description:product.field_product_template__message_ids
 msgid "Messages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__mimetype
 msgid "Mime Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ Mime"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Min Qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຕ່ຳສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Min. Margin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕ່າງຕ່ຳສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_min_margin
 msgid "Min. Price Margin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕ່າງລາຄາຕ່ຳສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__min_quantity
 msgid "Min. Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຕ່ຳສຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__mode
 msgid "Mode"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂໝດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.monitor_stand_product_template
 msgid "Monitor Stand"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາຕັ້ງຈໍມໍນິເຕີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__multi
 msgid "Multi-checkbox"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼາຍຊ່ອງໝາຍ (Multi-checkbox)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_attribute_check_multi_checkbox_no_variant
 msgid ""
 "Multi-checkbox display type is not compatible with the creation of variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການສະແດງຜົນແບບຫຼາຍຊ່ອງໝາຍ ບໍ່ສາມາດໃຊ້ຮ່ວມກັບການສ້າງລຸ້ນສິນຄ້າໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__my_activity_date_deadline
 #: model:ir.model.fields,field_description:product.field_product_product__my_activity_date_deadline
 #: model:ir.model.fields,field_description:product.field_product_template__my_activity_date_deadline
 msgid "My Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາການເຄື່ອນໄຫວຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_custom_value__name
@@ -2077,46 +3291,74 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_tag__name
 #: model:ir.model.fields,field_description:product.field_product_template__name
 msgid "Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__create_variant__no_variant
 msgid "Never"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ເຄີຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "New"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_calendar_event_id
 #: model:ir.model.fields,field_description:product.field_product_product__activity_calendar_event_id
 #: model:ir.model.fields,field_description:product.field_product_template__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການປະຕິທິນການເຄື່ອນໄຫວຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_date_deadline
 #: model:ir.model.fields,field_description:product.field_product_product__activity_date_deadline
 #: model:ir.model.fields,field_description:product.field_product_template__activity_date_deadline
 msgid "Next Activity Deadline"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດເວລາການເຄື່ອນໄຫວຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_summary
 #: model:ir.model.fields,field_description:product.field_product_product__activity_summary
 #: model:ir.model.fields,field_description:product.field_product_template__activity_summary
 msgid "Next Activity Summary"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຫຼຸບການເຄື່ອນໄຫວຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_type_id
 #: model:ir.model.fields,field_description:product.field_product_product__activity_type_id
 #: model:ir.model.fields,field_description:product.field_product_template__activity_type_id
 msgid "Next Activity Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການເຄື່ອນໄຫວຖັດໄປ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2125,46 +3367,78 @@ msgid ""
 "No product to print, if the product is archived please unarchive it before "
 "printing its label."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ມີສິນຄ້າທີ່ຈະພິມ, ຖ້າສິນຄ້າຖືກເກັບໄວ້ແລ້ວ ກະລຸນານຳອອກຈາກບ່ອນເກັບກ່ອນທີ່ຈະພິມປ້າຍຂອງມັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/kanban_renderer.xml:0
 msgid "No products could be found."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບສິນຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "No products found in the report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບສິນຄ້າໃນລາຍງານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid "No vendor pricelist found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບລາຍການລາຄາຂອງຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_attribute_value_list.js:0
 msgid "No, keep it"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່, ເກັບຮັກສາມັນໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "Note:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດ:"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_template__service_tracking__no
 msgid "Nothing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຫຍັງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__number_related_products
 msgid "Number Related Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນສິນຄ້າທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__message_needaction_counter
@@ -2172,7 +3446,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_needaction_counter
 #: model:ir.model.fields,field_description:product.field_product_template__message_needaction_counter
 msgid "Number of Actions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__message_has_error_counter
@@ -2180,7 +3458,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__message_has_error_counter
 #: model:ir.model.fields,field_description:product.field_product_template__message_has_error_counter
 msgid "Number of errors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__message_needaction_counter
@@ -2188,7 +3470,11 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__message_needaction_counter
 #: model:ir.model.fields,help:product.field_product_template__message_needaction_counter
 msgid "Number of messages requiring action"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__message_has_error_counter
@@ -2196,38 +3482,66 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_product__message_has_error_counter
 #: model:ir.model.fields,help:product.field_product_template__message_has_error_counter
 msgid "Number of messages with delivery error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__pricelist_item_count
 #: model:ir.model.fields,field_description:product.field_product_template__pricelist_item_count
 msgid "Number of price rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນກົດເກນລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_delivery_01_product_template
 msgid "Office Chair"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ່ງຫ້ອງການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_12_product_template
 msgid "Office Chair Black"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ່ງຫ້ອງການສີດຳ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.office_combo_product_template
 msgid "Office Combo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດເຄື່ອງໃຊ້ຫ້ອງການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_order_01_product_template
 msgid "Office Design Software"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊອບແວອອກແບບຫ້ອງການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_delivery_02_product_template
 msgid "Office Lamp"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຄມໄຟຫ້ອງການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2236,6 +3550,11 @@ msgid ""
 "On the product %(product)s you cannot associate the value %(value)s with the"
 " attribute %(attribute)s because they do not match."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃນສິນຄ້າ %(product)s ເຈົ້າບໍ່ສາມາດເຊື່ອມໂຍງຄ່າ %(value)s ເຂົ້າກັບຄຸນລັກສະນະ %(attribute)s ໄ"
+"ດ້ ເພາະພວກມັນບໍ່ເຂົ້າກັນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2244,39 +3563,68 @@ msgid ""
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃນສິນຄ້າ %(product)s ເຈົ້າບໍ່ສາມາດປ່ຽນຄຸນລັກສະນະ %(attribute_src)s ໄປເປັນຄຸນລັກສະນະ %"
+"(attribute_dest)s ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຂໍອະໄພ! '%(fileName)s' ບໍ່ສາມາດອັບໂຫຼດໄດ້ ເພາະຮູບແບບໄຟລ໌ບໍ່ໄດ້ຮັບອະນຸຍາດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__original_id
 msgid "Original (unoptimized, unresized) attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ຄັດຕິດເດີມ (ບໍ່ໄດ້ປັບແຕ່ງ, ບໍ່ໄດ້ປ່ຽນຂະໜາດ)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo_item__lst_price
 msgid "Original Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາເດີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__base_pricelist_id
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__base__pricelist
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Other Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາອື່ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_template_dining_table
 msgid "Outdoor dining table"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຕະອາຫານກາງແຈ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "Package Type A"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການຫຸ້ມຫໍ່ A"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
@@ -2284,43 +3632,75 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Packaging"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຫຸ້ມຫໍ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__parent_id
 msgid "Parent Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່ຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__parent_path
 msgid "Parent Path"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເສັ້ນທາງຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_9_product_template
 msgid "Pedal Bin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖັງຂີ້ເຫຍື້ອແບບຢຽບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__percent_price
 msgid "Percentage Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາແບບເປີເຊັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__pills
 msgid "Pills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຸ່ມມົນ (Pills)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.fabric_attribute_plastic
 msgid "Plastic"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢາງພາລາສະຕິກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please enter a positive whole number."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາປ້ອນເລກຖ້ວນບວກ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2331,36 +3711,63 @@ msgid ""
 "\n"
 "Invalid URL: %s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກະລຸນາປ້ອນ URL ທີ່ຖືກຕ້ອງ.\n"
+"ຕົວຢ່າງ: https://www.odoo.com\n"
+"\n"
+"URL ທີ່ບໍ່ຖືກຕ້ອງ: %s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Please select some products first."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາເລືອກບາງສິນຄ້າກ່ອນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Please specify the category for which this rule should be applied"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາລະບຸໝວດໝູ່ທີ່ກົດເກນນີ້ມີຜົນບັງຄັບໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Please specify the product for which this rule should be applied"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາລະບຸສິນຄ້າທີ່ກົດເກນນີ້ມີຜົນບັງຄັບໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 "Please specify the product variant for which this rule should be applied"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາລະບຸລຸ້ນສິນຄ້າທີ່ກົດເກນນີ້ມີຜົນບັງຄັບໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_weight_in_lbs__1
 msgid "Pounds"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
@@ -2368,6 +3775,10 @@ msgid ""
 "Press a button and watch your desk glide effortlessly from sitting to "
 "standing height in seconds."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກົດປຸ່ມແລ້ວເບິ່ງໂຕະຂອງເຈົ້າເລື່ອນຈາກລະດັບນັ່ງເປັນລະດັບຢືນໄດ້ຢ່າງງ່າຍດາຍໃນບໍ່ເທົ່າໃດວິນາທີ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price
@@ -2376,17 +3787,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_tree_view
 msgid "Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_discount
 msgid "Price Discount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຫຼຸດລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_round
 msgid "Price Rounding"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຮັດເລກມົນລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2396,24 +3819,40 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "Price Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກົດເກນລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Price Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__list_price
 #: model:ir.model.fields,help:product.field_product_template__list_price
 msgid "Price at which the product is sold to customers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາທີ່ຂາຍສິນຄ້າໃຫ້ລູກຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_kanban_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_kanban_view
 msgid "Price:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາ:"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -2429,18 +3868,30 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__applied_on
 #: model:ir.model.fields,help:product.field_product_pricelist_item__display_applied_on
 msgid "Pricelist Item applicable on selected option"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃນລາຍການລາຄາທີ່ໃຊ້ໄດ້ກັບຕົວເລືອກທີ່ເລືອກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__name
 msgid "Pricelist Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -2449,50 +3900,82 @@ msgstr ""
 #: model:ir.actions.server,name:product.action_product_template_price_list_report
 #: model:ir.model,name:product.model_report_product_report_pricelist
 msgid "Pricelist Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist.py:0
 msgid "Pricelist Report Preview"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບິ່ງຕົວຢ່າງລາຍງານລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_pricelist_item
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Pricelist Rule"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກົດເກນລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__item_ids
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_tree_view_from_product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "Pricelist Rules"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກົດເກນລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_pricelist_action2
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_product_pricelist
 #: model:ir.model.fields,field_description:product.field_res_country_group__pricelist_ids
 msgid "Pricelists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.view_partner_property_form
 msgid "Pricelists are managed on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາຖືກຈັດການຢູ່ທີ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Pricing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "Print"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_tree_view
@@ -2500,7 +3983,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Print Labels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພິມປ້າຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2529,47 +4016,79 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_view_kanban_catalog
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 #: model_terms:ir.ui.view,arch_db:product.product_template_attribute_value_view_form
 msgid "Product Attribute"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute_custom_value
 msgid "Product Attribute Custom Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າກຳນົດເອງຂອງຄຸນລັກສະນະສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_line__product_template_value_ids
 msgid "Product Attribute Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າຄຸນລັກສະນະສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_attribute_line_form
 msgid "Product Attribute and Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະສິນຄ້າ ແລະ ຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__attribute_line_ids
 #: model:ir.model.fields,field_description:product.field_product_template__attribute_line_ids
 msgid "Product Attributes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນລັກສະນະສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_catalog_mixin
 msgid "Product Catalog Mixin"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມິກອິນແຄັດຕາລັອກສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_category_action_form
 #: model_terms:ir.ui.view,arch_db:product.product_category_list_view
 #: model_terms:ir.ui.view,arch_db:product.product_category_search_view
 msgid "Product Categories"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_category
@@ -2580,108 +4099,188 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Product Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_combo
 msgid "Product Combo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດສິນຄ້າ (Product Combo)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_combo_item
 msgid "Product Combo Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃນຊຸດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_combo__combo_item_count
 #: model:ir.model.fields,field_description:product.field_update_product_attribute_value__product_count
 msgid "Product Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:res.groups,name:product.group_product_manager
 msgid "Product Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_document
 msgid "Product Document"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_dymo
 msgid "Product Label (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍສິນຄ້າ (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_2x7
 msgid "Product Label 2x7 (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍສິນຄ້າ 2x7 (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_4x12
 msgid "Product Label 4x12 (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍສິນຄ້າ 4x12 (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_4x12_noprice
 msgid "Product Label 4x12 No Price (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍສິນຄ້າ 4x12 ບໍ່ມີລາຄາ (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_template_label_4x7
 msgid "Product Label 4x7 (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍສິນຄ້າ 4x7 (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel_dymo
 msgid "Product Label Report"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານປ້າຍສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel2x7
 msgid "Product Label Report 2x7"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານປ້າຍສິນຄ້າ 2x7"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel4x12
 msgid "Product Label Report 4x12"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານປ້າຍສິນຄ້າ 4x12"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel4x12noprice
 msgid "Product Label Report 4x12 No Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານປ້າຍສິນຄ້າ 4x12 ບໍ່ມີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_producttemplatelabel4x7
 msgid "Product Label Report 4x7"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານປ້າຍສິນຄ້າ 4x7"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Product Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__packaging_ids
 #: model:ir.model.fields,field_description:product.field_product_template__packaging_ids
 msgid "Product Packages"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫໍ່ບັນຈຸສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_packaging
 #: model:ir.model.fields,field_description:product.field_product_packaging__name
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
 msgid "Product Packaging"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຫຸ້ມຫໍ່ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_packaging
 msgid "Product Packaging (PDF)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຫຸ້ມຫໍ່ສິນຄ້າ (PDF)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.action_packaging_view
@@ -2689,24 +4288,40 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_tree_view
 msgid "Product Packagings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຫຸ້ມຫໍ່ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__product_properties_definition
 msgid "Product Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນສົມບັດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_tag
 #: model_terms:ir.ui.view,arch_db:product.product_tag_form_view
 msgid "Product Tag"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_tag_action
 #: model_terms:ir.ui.view,arch_db:product.product_tag_tree_view
 msgid "Product Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_tmpl_id
@@ -2717,40 +4332,68 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_search_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Product Template"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_template_attribute_exclusion
 msgid "Product Template Attribute Exclusion"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຍົກເວັ້ນຄຸນລັກສະນະແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_template_attribute_line
 msgid "Product Template Attribute Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຖວຄຸນລັກສະນະແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_template_attribute_value
 msgid "Product Template Attribute Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າຄຸນລັກສະນະແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_tag__product_template_ids
 #: model_terms:ir.ui.view,arch_db:product.product_tag_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_view_tree_tag
 msgid "Product Templates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__product_tmpl_ids
 msgid "Product Tmpl"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_tooltip
 #: model:ir.model.fields,field_description:product.field_product_template__product_tooltip
 msgid "Product Tooltip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳແນະນຳສິນຄ້າ (Tooltip)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__type
@@ -2758,12 +4401,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Product Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_uom_uom
 msgid "Product Unit of Measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_product
@@ -2773,13 +4424,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_normal_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_tag_tree_view
 msgid "Product Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid "Product Variant Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_normal_action
@@ -2791,13 +4450,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_tree_tag
 #: model_terms:ir.ui.view,arch_db:product.product_tag_form_view
 msgid "Product Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/report/product_label_report.py:0
 msgid "Product model not defined, Please contact your administrator."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ໄດ້ກຳນົດໂມເດວສິນຄ້າ, ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບຂອງເຈົ້າ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -2810,50 +4477,86 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_view_activity
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_search
 msgid "Products Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_tree
 msgid "Products Price List"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_view_search
 msgid "Products Price Rules Search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາກົດເກນລາຄາສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view_search
 msgid "Products Price Search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາລາຄາສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 msgid "Products: %(category)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ: %(category)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__module_loyalty
 msgid "Promotions, Coupons, Gift Card & Loyalty Program"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂປຣໂມຊັນ, ຄູປອງ, ບັດຂອງຂວັນ ແລະ ໂຄງການສະມາຊິກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_properties
 #: model:ir.model.fields,field_description:product.field_product_template__product_properties
 msgid "Properties"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນສົມບັດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.pav_protection_kit
 msgid "Protection kit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊຸດປ້ອງກັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__purchase_ok
@@ -2861,69 +4564,117 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Purchase"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດຊື້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__description_purchase
 #: model:ir.model.fields,field_description:product.field_product_template__description_purchase
 msgid "Purchase Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດການຈັດຊື້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__uom_po_id
 #: model:ir.model.fields,field_description:product.field_product_template__uom_po_id
 msgid "Purchase Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍຈັດຊື້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Quantities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Quantities (Price)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ (ລາຄາ)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__custom_quantity
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__min_qty
 msgid "Quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/controllers/pricelist_report.py:0
 msgid "Quantity (%s UoM)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ (%s UoM)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "Quantity already present (%s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນມີຢູ່ແລ້ວ (%s)."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__qty
 msgid "Quantity of products contained in the packaging."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນສິນຄ້າທີ່ບັນຈຸຢູ່ໃນການຫຸ້ມຫໍ່."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Quotation Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__radio
 msgid "Radio"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຸ່ມເລືອກ (Radio)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__code
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອ້າງອີງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
@@ -2931,85 +4682,149 @@ msgid ""
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລົງທະບຽນລາຄາທີ່ຜູ້ສະໜອງຮ້ອງຂໍມາ ສຳລັບແຕ່ລະສິນຄ້າ ໂດຍອີງຕາມຈຳນວນ ແລະ ໄລຍະເວລາ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__product_tmpl_ids
 msgid "Related Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__ptav_product_variant_ids
 msgid "Related Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__ir_attachment_id
 msgid "Related attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ຄັດຕິດທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Remove"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບອອກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Remove quantity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບຈຳນວນອອກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__res_field
 msgid "Resource Field"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟິວຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__res_id
 msgid "Resource ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__res_model
 msgid "Resource Model"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂມເດວຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__res_name
 msgid "Resource Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_user_id
 #: model:ir.model.fields,field_description:product.field_product_product__activity_user_id
 #: model:ir.model.fields,field_description:product.field_product_template__activity_user_id
 msgid "Responsible User"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບຜິດຊອບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.expense_product_product_template
 msgid "Restaurant Expenses"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າໃຊ້ຈ່າຍຮ້ານອາຫານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Round off to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດເລກມົນເປັນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_label_layout__rows
 msgid "Rows"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຖວ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__rule_tip
 msgid "Rule Tip"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳແນະນຳກົດເກນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.size_attribute_s
 msgid "S"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "S"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__sale_ok
@@ -3018,13 +4833,21 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Sales"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__description_sale
 #: model:ir.model.fields,field_description:product.field_product_template__description_sale
 msgid "Sales Description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດການຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__list_price
@@ -3034,17 +4857,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Sales Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__lst_price
 msgid "Sales Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__select
 msgid "Select"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__sequence
@@ -3059,18 +4894,30 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_template__sequence
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_line__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_template__type__service
 msgid "Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_view_search_catalog
 msgid "Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_round
@@ -3079,28 +4926,50 @@ msgid ""
 "Rounding is applied after the discount and before the surcharge.\n"
 "To have prices that end in 9.99, round off to 10.00 and set an extra at -0.01"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຕັ້ງລາຄາໃຫ້ເປັນຕົວຄູນຂອງຄ່ານີ້.\n"
+"ການເຮັດເລກມົນຈະຖືກໃຊ້ຫຼັງຈາກຫັກສ່ວນຫຼຸດ ແລະ ກ່ອນບວກຄ່າທຳນຽມເພີ່ມ.\n"
+"ເພື່ອໃຫ້ລາຄາລົງທ້າຍດ້ວຍ 9.99, ໃຫ້ເຮັດເລກມົນເປັນ 10.00 ແລະ ຕັ້ງຄ່າເພີ່ມເປັນ -0.01"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Show Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງຊື່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Show all records which has next action date is before today"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງບັນທຶກທັງໝົດທີ່ມີວັນທີດຳເນີນການຖັດໄປກ່ອນມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute,name:product.size_attribute
 msgid "Size"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂະໜາດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_partner__specific_property_product_pricelist
 #: model:ir.model.fields,field_description:product.field_res_users__specific_property_product_pricelist
 msgid "Specific Property Product Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາສິນຄ້າຄຸນສົມບັດສະເພາະ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__categ_id
@@ -3108,6 +4977,10 @@ msgid ""
 "Specify a product category if this rule only applies to products belonging "
 "to this category or its children categories. Keep empty otherwise."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະບຸໝວດສິນຄ້າ ຖ້າກົດເກນນີ້ໃຊ້ໄດ້ກັບສິນຄ້າທີ່ຢູ່ໃນໝວດນີ້ ຫຼື ໝວດຍ່ອຍຂອງມັນເທົ່ານັ້ນ. ຖ້າບໍ່ດັ່ງນັ້ນໃຫ້ປະຫວ່າງໄວ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__product_id
@@ -3115,6 +4988,10 @@ msgid ""
 "Specify a product if this rule only applies to one product. Keep empty "
 "otherwise."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະບຸສິນຄ້າ ຖ້າກົດເກນນີ້ໃຊ້ໄດ້ກັບສິນຄ້າດຽວເທົ່ານັ້ນ. ຖ້າບໍ່ດັ່ງນັ້ນໃຫ້ປະຫວ່າງໄວ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__product_tmpl_id
@@ -3122,6 +4999,10 @@ msgid ""
 "Specify a template if this rule only applies to one product template. Keep "
 "empty otherwise."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະບຸແບບຟອມ ຖ້າກົດເກນນີ້ໃຊ້ໄດ້ກັບແບບຟອມສິນຄ້າດຽວເທົ່ານັ້ນ. ຖ້າບໍ່ດັ່ງນັ້ນໃຫ້ປະຫວ່າງໄວ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_surcharge
@@ -3129,27 +5010,47 @@ msgid ""
 "Specify the fixed amount to add or subtract (if negative) to the amount "
 "calculated with the discount."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະບຸຈຳນວນຄົງທີ່ທີ່ຈະບວກ ຫຼື ລົບ (ຖ້າເປັນຄ່າລົບ) ຈາກຈຳນວນທີ່ຄິດໄລ່ດ້ວຍສ່ວນຫຼຸດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_max_margin
 msgid "Specify the maximum amount of margin over the base price."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບຸຈຳນວນສ່ວນຕ່າງສູງສຸດຈາກລາຄາພື້ນຖານ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_min_margin
 msgid "Specify the minimum amount of margin over the base price."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບຸຈຳນວນສ່ວນຕ່າງຕ່ຳສຸດຈາກລາຄາພື້ນຖານ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__date_start
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__date_start
 msgid "Start Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__date_start
 msgid "Start date for this vendor price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີເລີ່ມຕົ້ນສຳລັບລາຄາຜູ້ສະໜອງນີ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__date_start
@@ -3157,6 +5058,11 @@ msgid ""
 "Starting datetime for the pricelist item validation\n"
 "The displayed value depends on the timezone set in your preferences."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ວັນເວລາເລີ່ມຕົ້ນສຳລັບການກວດສອບລາຍການໃນລາຍການລາຄາ\n"
+"ຄ່າທີ່ສະແດງແມ່ນຂຶ້ນກັບເຂດເວລາທີ່ຕັ້ງໄວ້ໃນການຕັ້ງຄ່າຂອງເຈົ້າ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__activity_state
@@ -3168,31 +5074,58 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສະຖານະໂດຍອີງໃສ່ການເຄື່ອນໄຫວ\n"
+"ເກີນກຳນົດ: ວັນຄົບກຳນົດໄດ້ຜ່ານໄປແລ້ວ\n"
+"ມື້ນີ້: ວັນທີເຄື່ອນໄຫວແມ່ນມື້ນີ້\n"
+"ວາງແຜນໄວ້: ການເຄື່ອນໄຫວໃນອະນາຄົດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_1
 msgid "Steel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_7_product_template
 msgid "Storage Box"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກ່ອງເກັບເຄື່ອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__store_fname
 msgid "Stored Filename"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ໄຟລ໌ທີ່ເກັບໄວ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_product_supplierinfo
 msgid "Supplier Pricelist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_tag_name_uniq
 msgid "Tag name already exists!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ແທັກນີ້ມີຢູ່ແລ້ວ!"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_tag_ids
@@ -3200,17 +5133,29 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_search_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_tag_action
 msgid "Tags are used to search product for a given theme."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກຖືກໃຊ້ເພື່ອຄົ້ນຫາສິນຄ້າຕາມຫົວຂໍ້ທີ່ກຳນົດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__template_value_ids
 msgid "Template Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າແບບຟອມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3254,18 +5199,31 @@ msgid ""
 "since the 5 boxes are loose, you can move and place them in the way that "
 "suits you and your things best."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ກ່ອງຈັດລະບຽບໂຕະແມ່ນເໝາະສຳລັບເກັບເຄື່ອງນ້ອຍໆທຸກປະເພດ ແລະ ເນື່ອງຈາກກ່ອງທັງ 5 ໃບແມ່ນແຍກກັນ, ເຈົ້າ"
+"ສາມາດຍ້າຍ ແລະ ວາງພວກມັນຕາມວິທີທີ່ເໝາະສົມກັບເຈົ້າ ແລະ ເຄື່ອງຂອງເຈົ້າທີ່ສຸດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__display_type
 #: model:ir.model.fields,help:product.field_product_attribute_value__display_type
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__display_type
 msgid "The display type used in the Product Configurator."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການສະແດງຜົນທີ່ໃຊ້ໃນຕົວຕັ້ງຄ່າສິນຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__sequence
 msgid "The first in the sequence is the default one."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບທຳອິດແມ່ນຄ່າເລີ່ມຕົ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
@@ -3273,12 +5231,20 @@ msgid ""
 "The minimum height is 65 cm, and for standing work the maximum height "
 "position is 125 cm."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄວາມສູງຕ່ຳສຸດແມ່ນ 65 ຊມ, ແລະ ສຳລັບການຢືນເຮັດວຽກ ຕຳແໜ່ງຄວາມສູງສູງສຸດແມ່ນ 125 ຊມ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "The minimum margin should be lower than the maximum margin."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕ່າງຕ່ຳສຸດຄວນຈະຕ່ຳກວ່າສ່ວນຕ່າງສູງສຸດ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_combo__base_price
@@ -3288,13 +5254,22 @@ msgid ""
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຄາຕ່ຳສຸດໃນບັນດາສິນຄ້າໃນຊຸດນີ້. ຄ່ານີ້ຈະຖືກໃຊ້ເພື່ອແບ່ງສ່ວນລາຄາຂອງຊຸດນີ້ເມື່ອທຽບກັບຊຸດອື່ນໆໃນສິນຄ້າຊຸດ. ວິ"
+"ທີນີ້ຊ່ວຍໃຫ້ແນ່ໃຈວ່າບໍ່ວ່າລູກຄ້າຈະເລືອກສິນຄ້າໃດໃນຊຸດ, ລາຄາຈະເທົ່າກັນສະເໝີ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_category__product_count
 msgid ""
 "The number of products under this category (Does not consider the children "
 "categories)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນສິນຄ້າພາຍໃຕ້ໝວດນີ້ (ບໍ່ລວມໝວດຍ່ອຍ)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3305,17 +5280,31 @@ msgid ""
 "the sales order. To do so, open the form view of attributes and change the "
 "mode of *Create Variants*."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຈຳນວນລຸ້ນສິນຄ້າທີ່ຈະສ້າງແມ່ນເກີນຂີດຈຳກັດທີ່ອະນຸຍາດ. ເຈົ້າຄວນຈະບໍ່ສ້າງລຸ້ນສິນຄ້າສຳລັບທຸກການປະສົມ ຫຼື ສ້າງພວ"
+"ກມັນຕາມຄວາມຕ້ອງການຈາກໃບສັ່ງຂາຍ. ເພື່ອເຮັດສິ່ງນີ້, ໃຫ້ເປີດເບິ່ງຄຸນລັກສະນະ ແລະ ປ່ຽນໂໝດຂອງ *ສ້າງລຸ້ນສິ"
+"ນຄ້າ*."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__price
 msgid "The price to purchase a product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາເພື່ອຊື້ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "The product template is archived so no combination is possible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມສິນຄ້າຖືກເກັບໄວ້ແລ້ວ ດັ່ງນັ້ນຈຶ່ງບໍ່ສາມາດປະສົມກັນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__min_qty
@@ -3324,12 +5313,21 @@ msgid ""
 "expressed in the vendor Product Unit of Measure if not any, in the default "
 "unit of measure of the product otherwise."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຈຳນວນທີ່ຈະຊື້ຈາກຜູ້ສະໜອງນີ້ເພື່ອໃຫ້ໄດ້ລາຄາພິເສດ, ໂດຍສະແດງເປັນຫົວໜ່ວຍວັດແທກຂອງຜູ້ສະໜອງ (ຖ້າມີ), ຖ້າບໍ່"
+"ມີຈະໃຊ້ຫົວໜ່ວຍວັດແທກເລີ່ມຕົ້ນຂອງສິນຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "The rounding method must be strictly positive."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການເຮັດເລກມົນຕ້ອງເປັນຄ່າບວກເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_combo_item__lst_price
@@ -3338,6 +5336,10 @@ msgid ""
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຄາຂາຍຖືກຈັດການຈາກແບບຟອມສິນຄ້າ. ກົດປຸ່ມ 'ຕັ້ງຄ່າລຸ້ນສິນຄ້າ' ເພື່ອຕັ້ງລາຄາຄຸນລັກສະນະເພີ່ມເຕີມ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3346,24 +5348,40 @@ msgid ""
 "The value %(value)s is not defined for the attribute %(attribute)s on the "
 "product %(product)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄ່າ %(value)s ບໍ່ໄດ້ຖືກກຳນົດສຳລັບຄຸນລັກສະນະ %(attribute)s ໃນສິນຄ້າ %(product)s."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no possible combination."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີການປະສົມປະສານທີ່ເປັນໄປໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no remaining closest combination."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີການປະສົມປະສານທີ່ໃກ້ຄຽງທີ່ສຸດເຫຼືອຢູ່."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "There are no remaining possible combination."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີການປະສົມປະສານທີ່ເປັນໄປໄດ້ເຫຼືອຢູ່."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3373,21 +5391,38 @@ msgid ""
 "to no possible variant. Please archive or delete your product directly if "
 "intended."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການຕັ້ງຄ່າຄຸນລັກສະນະ, ຄ່າ ແລະ ການຍົກເວັ້ນນີ້ ຈະເຮັດໃຫ້ບໍ່ມີລຸ້ນສິນຄ້າທີ່ເປັນໄປໄດ້. ກະລຸນາເກັບໄວ້ ຫຼື ລຶບສິນຄ້"
+"າຂອງເຈົ້າໂດຍກົງ ຖ້າຕ້ອງການ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__price_extra
 msgid "This is the sum of the extra price of all attributes"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນີ້ແມ່ນຜົນລວມຂອງລາຄາເພີ່ມເຕີມຂອງຄຸນລັກສະນະທັງໝົດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note is added to sales orders and invoices."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດນີ້ຈະຖືກເພີ່ມເຂົ້າໃນໃບສັ່ງຂາຍ ແລະ ໃບແຈ້ງໜີ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note is only for internal purposes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍເຫດນີ້ແມ່ນໃຊ້ສຳລັບພາຍໃນເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_res_partner__property_product_pricelist
@@ -3396,6 +5431,10 @@ msgid ""
 "This pricelist will be used, instead of the default one, for sales to the "
 "current partner"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລາຍການລາຄານີ້ຈະຖືກນຳໃຊ້ ແທນທີ່ຈະເປັນຄ່າເລີ່ມຕົ້ນ ສຳລັບການຂາຍໃຫ້ຄູ່ຄ້າຄົນນີ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3403,6 +5442,10 @@ msgstr ""
 msgid ""
 "This product is part of a combo, so its type can't be changed to \"combo\"."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ສິນຄ້ານີ້ແມ່ນສ່ວນໜຶ່ງຂອງຊຸດ, ດັ່ງນັ້ນປະເພດຂອງມັນຈຶ່ງບໍ່ສາມາດປ່ຽນເປັນ \"ຊຸດ (combo)\" ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3412,6 +5455,12 @@ msgid ""
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຄວາມຊັດເຈນຂອງການເຮັດເລກມົນນີ້ແມ່ນສູງກວ່າຄວາມຖືກຕ້ອງຂອງທົດສະນິຍົມ (%(digits)s ຫຼັກ).\n"
+"ສິ່ງນີ້ອາດຈະເຮັດໃຫ້ເກີດຄວາມບໍ່ສອດຄ່ອງໃນການຄິດໄລ່.\n"
+"ກະລຸນາຕັ້ງຄວາມຊັດເຈນລະຫວ່າງ %(min_precision)s ຫາ 1."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_code
@@ -3419,6 +5468,10 @@ msgid ""
 "This vendor's product code will be used when printing a request for "
 "quotation. Keep empty to use the internal one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະຫັດສິນຄ້າຂອງຜູ້ສະໜອງນີ້ຈະຖືກນຳໃຊ້ເມື່ອພິມໃບຂໍໃບສະເໜີລາຄາ. ປະຫວ່າງໄວ້ເພື່ອໃຊ້ລະຫັດພາຍໃນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_name
@@ -3426,57 +5479,97 @@ msgid ""
 "This vendor's product name will be used when printing a request for "
 "quotation. Keep empty to use the internal one."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຊື່ສິນຄ້າຂອງຜູ້ສະໜອງນີ້ຈະຖືກນຳໃຊ້ເມື່ອພິມໃບຂໍໃບສະເໜີລາຄາ. ປະຫວ່າງໄວ້ເພື່ອໃຊ້ຊື່ພາຍໃນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,description_sale:product.consu_delivery_01_product_template
 msgid "Three Seater Sofa with Lounger in Steel Grey Colour"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຊຟາສາມບ່ອນນັ່ງ ພ້ອມຕັ່ງນອນ ສີເທົາເຫຼັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.consu_delivery_01_product_template
 msgid "Three-Seat Sofa"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຊຟາສາມບ່ອນນັ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Today Activities"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນໄຫວມື້ນີ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__type
 msgid "Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__activity_exception_decoration
 #: model:ir.model.fields,help:product.field_product_product__activity_exception_decoration
 #: model:ir.model.fields,help:product.field_product_template__activity_exception_decoration
 msgid "Type of the exception activity on record."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງການເຄື່ອນໄຫວທີ່ຍົກເວັ້ນໃນບັນທຶກ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/controllers/pricelist_report.py:0
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "UOM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid "Unable to find report template for %s format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດຊອກຫາແບບຟອມລາຍງານສຳລັບຮູບແບບ %s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
 msgid "Unit"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 msgid "Unit Price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging__product_uom_id
@@ -3484,80 +5577,136 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_uom
 #: model:ir.model.fields,field_description:product.field_product_template__uom_id
 msgid "Unit of Measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__product_uom
 #: model:ir.model.fields,field_description:product.field_product_product__uom_name
 #: model:ir.model.fields,field_description:product.field_product_template__uom_name
 msgid "Unit of Measure Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "Unit price:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຫົວໜ່ວຍ:"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "Units"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_uom
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Units of Measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__uom_category_id
 #: model:ir.model.fields,field_description:product.field_product_template__uom_category_id
 msgid "UoM Category"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 msgid "Update extra prices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລາຄາເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_update_product_attribute_value
 msgid "Update product attribute value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຄ່າຄຸນລັກສະນະສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid "Update product extra prices"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລາຄາສິນຄ້າເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__update_product_attribute_value__mode__update_extra_price
 msgid "Update the extra price on existing products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລາຄາເພີ່ມເຕີມໃນສິນຄ້າທີ່ມີຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.xml:0
 msgid "Upload"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບໂຫຼດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 msgid "Upload files to your product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບໂຫຼດໄຟລ໌ໃສ່ສິນຄ້າຂອງເຈົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Upsell & Cross-Sell"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຂາຍເພີ່ມ ແລະ ການຂາຍພ່ວງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__url
 msgid "Url"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Url"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__compute_price
@@ -3577,40 +5726,68 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__is_used_on_products
 msgid "Used on Products"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃຊ້ໃນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "Username"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__valid_product_template_attribute_line_ids
 #: model:ir.model.fields,field_description:product.field_product_template__valid_product_template_attribute_line_ids
 msgid "Valid Product Attribute Lines"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຖວຄຸນລັກສະນະສິນຄ້າທີ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 msgid "Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອາຍຸການໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "Validity Period"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາການໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__name
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__name
 msgid "Value"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_line__value_count
 msgid "Value Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__standard_price
@@ -3620,6 +5797,12 @@ msgid ""
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
 "        Used to compute margins on sale orders."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ມູນຄ່າຂອງສິນຄ້າ (ຄິດໄລ່ອັດຕະໂນມັດໃນ AVCO).\n"
+"        ໃຊ້ເພື່ອປະເມີນມູນຄ່າສິນຄ້າເມື່ອບໍ່ຮູ້ຕົ້ນທຶນການຊື້ (ເຊັ່ນ: ການປັບປຸງສາງ).\n"
+"        ໃຊ້ເພື່ອຄິດໄລ່ກຳໄລໃນໃບສັ່ງຂາຍ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__value_ids
@@ -3627,150 +5810,258 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_attribute_view_form
 #: model_terms:ir.ui.view,arch_db:product.product_template_attribute_line_form
 msgid "Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__product_id
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_view_search
 msgid "Variant"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_variant_count
 msgid "Variant Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນລຸ້ນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variant Creation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_1920
 msgid "Variant Image"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_1024
 msgid "Variant Image 1024"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບລຸ້ນສິນຄ້າ 1024"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_128
 msgid "Variant Image 128"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບລຸ້ນສິນຄ້າ 128"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_256
 msgid "Variant Image 256"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບລຸ້ນສິນຄ້າ 256"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_512
 msgid "Variant Image 512"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບພາບລຸ້ນສິນຄ້າ 512"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Variant Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__price_extra
 msgid "Variant Price Extra"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາລຸ້ນສິນຄ້າເພີ່ມເຕີມ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__variant_seller_ids
 #: model:ir.model.fields,field_description:product.field_product_template__variant_seller_ids
 msgid "Variant Seller"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ສະໜອງລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__additional_product_tag_ids
 msgid "Variant Tags"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແທັກລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_template_variant_value_ids
 #: model_terms:ir.ui.view,arch_db:product.attribute_tree_view
 msgid "Variant Values"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "Variant: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນສິນຄ້າ: %s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_product_variant
 #: model_terms:ir.ui.view,arch_db:product.product_template_kanban_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Variants"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__partner_id
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_search_view
 msgid "Vendor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Vendor Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_tree_view
 msgid "Vendor Information"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_supplierinfo_type_action
 msgid "Vendor Pricelists"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການລາຄາຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_code
 msgid "Vendor Product Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດສິນຄ້າຂອງຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_name
 msgid "Vendor Product Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ສິນຄ້າຂອງຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__seller_ids
 #: model:ir.model.fields,field_description:product.field_product_template__seller_ids
 msgid "Vendors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_2_product_template
 msgid "Virtual Home Staging"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດບ້ານສະເໝືອນຈິງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.template,name:product.product_product_1_product_template
 #: model_terms:ir.ui.view,arch_db:product.report_pricelist_page
 msgid "Virtual Interior Design"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການອອກແບບພາຍໃນສະເໝືອນຈິງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Visible to all"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸກຄົນສາມາດເຫັນໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__voice_ids
 msgid "Voice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຽງ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__volume
@@ -3778,70 +6069,118 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Volume"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິມາດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__product_volume_volume_in_cubic_feet
 msgid "Volume unit of measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກບໍລິມາດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__volume_uom_name
 #: model:ir.model.fields,field_description:product.field_product_template__volume_uom_name
 msgid "Volume unit of measure label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍຫົວໜ່ວຍວັດແທກບໍລິມາດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/decimal_precision.py:0
 #: code:addons/product/models/uom_uom.py:0
 msgid "Warning!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນ!"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Warnings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:product.template,website_description:product.product_product_4_product_template
 msgid ""
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພວກເຮົາໃສ່ໃຈໃນທຸກລາຍລະອຽດ, ນັ້ນຄືເຫດຜົນທີ່ໂຕະຂອງພວກເຮົາມີຄຸນນະພາບສູງ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__weight
 #: model:ir.model.fields,field_description:product.field_product_template__weight
 #: model_terms:ir.ui.view,arch_db:product.res_config_settings_view_form
 msgid "Weight"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນ້ຳໜັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__product_weight_in_lbs
 msgid "Weight unit of measure"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກນ້ຳໜັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__weight_uom_name
 #: model:ir.model.fields,field_description:product.field_product_template__weight_uom_name
 msgid "Weight unit of measure label"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປ້າຍຫົວໜ່ວຍວັດແທກນ້ຳໜັກ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_3
 msgid "White"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສີຂາວ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_color_wood
 msgid "Wood"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄມ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__write_date
 msgid "Write Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີຂຽນ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3850,12 +6189,20 @@ msgid ""
 "You are about to add the value \"%(attribute_value)s\" to %(product_count)s "
 "products."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າກຳລັງຈະເພີ່ມຄ່າ \"%(attribute_value)s\" ໃຫ້ກັບສິນຄ້າ %(product_count)s ລາຍການ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/wizard/update_product_attribute_value.py:0
 msgid "You are about to update the extra price of %s products."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າກຳລັງຈະອັບເດດລາຄາເພີ່ມເຕີມຂອງສິນຄ້າ %s ລາຍການ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3864,6 +6211,10 @@ msgid ""
 "You are deactivating the pricelist feature. Every active pricelist will be "
 "archived."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າກຳລັງປິດການນຳໃຊ້ລາຍການລາຄາ. ລາຍການລາຄາທີ່ເຄື່ອນໄຫວຢູ່ທັງໝົດຈະຖືກເກັບໄວ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3874,17 +6225,32 @@ msgid ""
 "This may cause inconsistencies in computations.\n"
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າກຳລັງຕັ້ງຄວາມຖືກຕ້ອງຂອງທົດສະນິຍົມໃຫ້ໜ້ອຍກວ່າຫົວໜ່ວຍວັດແທກ (UOM):\n"
+"%s\n"
+"ສິ່ງນີ້ອາດຈະເຮັດໃຫ້ເກີດຄວາມບໍ່ສອດຄ່ອງໃນການຄິດໄລ່.\n"
+"ກະລຸນາເພີ່ມການເຮັດເລກມົນຂອງຫົວໜ່ວຍວັດແທກເຫຼົ່ານັ້ນ, ຫຼື ເພີ່ມຫຼັກທົດສະນິຍົມຂອງຄວາມຖືກຕ້ອງນີ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__percent_price
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_discount
 msgid "You can apply a mark-up by setting a negative discount."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າສາມາດເພີ່ມລາຄາ (mark-up) ໄດ້ໂດຍການຕັ້ງສ່ວນຫຼຸດເປັນຄ່າລົບ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
 msgid "You can apply a mark-up on the cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າສາມາດບວກກຳໄລເພີ່ມຈາກຕົ້ນທຶນໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -3892,6 +6258,10 @@ msgid ""
 "You can assign pricelists to your customers or select one when creating a "
 "new sales quotation."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າສາມາດກຳນົດລາຍການລາຄາໃຫ້ກັບລູກຄ້າ ຫຼື ເລືອກອັນໃດອັນໜຶ່ງເມື່ອສ້າງໃບສະເໜີລາຄາໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_document__type
@@ -3899,6 +6269,10 @@ msgid ""
 "You can either upload a file from your computer or copy/paste an internet "
 "link to your file."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າສາມາດອັບໂຫຼດໄຟລ໌ຈາກຄອມພິວເຕີ ຫຼື ກັອບປີ້/ວາງ ລິ້ງອິນເຕີເນັດຂອງໄຟລ໌ເຈົ້າກໍໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__image
@@ -3906,13 +6280,21 @@ msgstr ""
 msgid ""
 "You can upload an image that will be used as the color of the attribute "
 "value."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າສາມາດອັບໂຫຼດຮູບພາບທີ່ຈະຖືກນຳໃຊ້ເປັນສີຂອງຄ່າຄຸນລັກສະນະນັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/order_line/order_line.xml:0
 msgid "You can't edit this product in the catalog."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າບໍ່ສາມາດແກ້ໄຂສິນຄ້ານີ້ໃນແຄັດຕາລັອກໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3920,6 +6302,10 @@ msgstr ""
 msgid ""
 "You cannot archive this attribute as there are still products linked to it"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດເກັບຄຸນລັກສະນະນີ້ໄວ້ໄດ້ ເພາະຍັງມີສິນຄ້າທີ່ເຊື່ອມໂຍງກັບມັນຢູ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3927,6 +6313,10 @@ msgstr ""
 msgid ""
 "You cannot assign the Main Pricelist as Other Pricelist in PriceList Item"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດກຳນົດລາຍການລາຄາຫຼັກ ເປັນລາຍການລາຄາອື່ນ ໃນລາຍການຂອງລາຍການລາຄາໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3935,6 +6325,12 @@ msgid ""
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດປ່ຽນໂໝດການສ້າງລຸ້ນສິນຄ້າຂອງຄຸນລັກສະນະ %(attribute)s ໄດ້ ເພາະມັນຖືກໃຊ້ໃນສິນຄ້າຕໍ່ໄປ"
+"ນີ້:\n"
+"%(products)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3943,6 +6339,10 @@ msgid ""
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດປ່ຽນຄຸນລັກສະນະຂອງຄ່າ %(value)s ໄດ້ ເພາະມັນຖືກໃຊ້ໃນສິນຄ້າຕໍ່ໄປນີ້: %(products)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3951,6 +6351,10 @@ msgid ""
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດປ່ຽນສິນຄ້າຂອງຄ່າ %(value)s ທີ່ຕັ້ງໄວ້ໃນສິນຄ້າ %(product)s ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3959,12 +6363,20 @@ msgid ""
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດປ່ຽນຄ່າຂອງຄ່າ %(value)s ທີ່ຕັ້ງໄວ້ໃນສິນຄ້າ %(product)s ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_category.py:0
 msgid "You cannot create recursive categories."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າບໍ່ສາມາດສ້າງໝວດໝູ່ທີ່ຊ້ອນກັນແບບບໍ່ມີບ່ອນສິ້ນສຸດໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3973,6 +6385,10 @@ msgid ""
 "You cannot define the decimal precision of 'Account' as greater than the "
 "rounding factor of the company's main currency"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດກຳນົດທົດສະນິຍົມຂອງ 'ບັນຊີ' ໃຫ້ສູງກວ່າຕົວຄູນການເຮັດເລກມົນຂອງສະກຸນເງິນຫຼັກຂອງບໍລິສັດໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3983,12 +6399,23 @@ msgid ""
 "They are used within pricelist(s):\n"
 "%(other_pricelists)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດລຶບລາຍການລາຄາໄດ້:\n"
+"(%(pricelists)s)\n"
+"ເນື່ອງຈາກພວກມັນຖືກໃຊ້ໃນລາຍການລາຄາ:\n"
+"%(other_pricelists)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_category.py:0
 msgid "You cannot delete the %s product category."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າບໍ່ສາມາດລຶບໝວດສິນຄ້າ %s ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -3997,6 +6424,11 @@ msgid ""
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດລຶບຄຸນລັກສະນະ %(attribute)s ໄດ້ ເພາະມັນຖືກໃຊ້ໃນສິນຄ້າຕໍ່ໄປນີ້:\n"
+"%(products)s"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4005,13 +6437,22 @@ msgid ""
 "You cannot delete the value %(value)s because it is used on the following products:\n"
 "%(products)s\n"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດລຶບຄ່າ %(value)s ໄດ້ ເພາະມັນຖືກໃຊ້ໃນສິນຄ້າຕໍ່ໄປນີ້:\n"
+"%(products)s\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_category.py:0
 msgid ""
 "You cannot delete this product category, it is the default generic category."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າບໍ່ສາມາດລຶບໝວດສິນຄ້ານີ້ໄດ້, ເພາະມັນເປັນໝວດສິນຄ້າເລີ່ມຕົ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4020,6 +6461,11 @@ msgid ""
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດຍ້າຍຄຸນລັກສະນະ %(attribute)s ຈາກສິນຄ້າ %(product_src)s ໄປຍັງສິນຄ້າ %"
+"(product_dest)s ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -4028,6 +6474,10 @@ msgid ""
 "You cannot update related variants from the values. Please update related "
 "values from the variants."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າບໍ່ສາມາດອັບເດດລຸ້ນສິນຄ້າທີ່ກ່ຽວຂ້ອງຈາກຄ່າຕ່າງໆໄດ້. ກະລຸນາອັບເດດຄ່າທີ່ກ່ຽວຂ້ອງຈາກລຸ້ນສິນຄ້າແທນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
@@ -4036,6 +6486,11 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                            whether it's a storable product, a consumable or a service."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າຕ້ອງກຳນົດສິນຄ້າສຳລັບທຸກຢ່າງທີ່ເຈົ້າຂາຍ ຫຼື ຊື້,\n"
+"                            ບໍ່ວ່າຈະເປັນສິນຄ້າທີ່ເກັບສາງໄດ້, ສິນຄ້າສິ້ນເປືອງ ຫຼື ບໍລິການ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action
@@ -4044,6 +6499,11 @@ msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                whether it's a storable product, a consumable or a service."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າຕ້ອງກຳນົດສິນຄ້າສຳລັບທຸກຢ່າງທີ່ເຈົ້າຂາຍ ຫຼື ຊື້,\n"
+"                ບໍ່ວ່າຈະເປັນສິນຄ້າທີ່ເກັບສາງໄດ້, ສິນຄ້າສິ້ນເປືອງ ຫຼື ບໍລິການ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_variant_action
@@ -4053,6 +6513,13 @@ msgid ""
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າຕ້ອງກຳນົດສິນຄ້າສຳລັບທຸກຢ່າງທີ່ເຈົ້າຂາຍ ຫຼື ຊື້,\n"
+"                ບໍ່ວ່າຈະເປັນສິນຄ້າທີ່ເກັບສາງໄດ້, ສິນຄ້າສິ້ນເປືອງ ຫຼື ບໍລິການ.\n"
+"                ແບບຟອມສິນຄ້ານີ້ປະກອບດ້ວຍຂໍ້ມູນເພື່ອເຮັດໃຫ້ຂັ້ນຕອນການຂາຍງ່າຍຂຶ້ນ:\n"
+"                ລາຄາ, ໝາຍເຫດໃນໃບສະເໜີລາຄາ, ຂໍ້ມູນທາງບັນຊີ, ວິທີການຈັດຊື້ ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
@@ -4062,138 +6529,241 @@ msgid ""
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເຈົ້າຕ້ອງກຳນົດສິນຄ້າສຳລັບທຸກຢ່າງທີ່ເຈົ້າຂາຍ, ບໍ່ວ່າຈະເປັນສິນຄ້າທີ່ເປັນວັດຖຸ,\n"
+"                ສິນຄ້າສິ້ນເປືອງ ຫຼື ບໍລິການທີ່ເຈົ້ານຳສະເໜີໃຫ້ລູກຄ້າ.\n"
+"                ແບບຟອມສິນຄ້ານີ້ປະກອບດ້ວຍຂໍ້ມູນເພື່ອເຮັດໃຫ້ຂັ້ນຕອນການຂາຍງ່າຍຂຶ້ນ:\n"
+"                ລາຄາ, ໝາຍເຫດໃນໃບສະເໜີລາຄາ, ຂໍ້ມູນທາງບັນຊີ, ວິທີການຈັດຊື້ ແລະ ອື່ນໆ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.js:0
 msgid "You must leave at least one quantity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າຕ້ອງປະໄວ້ຢ່າງໜ້ອຍໜຶ່ງຈຳນວນ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/wizard/product_label_layout.py:0
 msgid "You need to set a positive quantity."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຈົ້າຕ້ອງຕັ້ງຈຳນວນເປັນຄ່າບວກ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "csv"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "csv"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_view_kanban
 msgid "days"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມື້"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "discount"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຫຼຸດ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
 msgid "e.g. 1234567890"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: 1234567890"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_combo_view_form
 msgid "e.g. Burger Choice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: Burger Choice"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "e.g. Cheese Burger"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: Cheese Burger"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
 msgid "e.g. Lamps"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: Lamps"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "e.g. Odoo Enterprise Subscription"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: Odoo Enterprise Subscription"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "e.g. Starter - Meal - Desert"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: Starter - Meal - Desert"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view
 msgid "e.g. USD Retailers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: USD Retailers"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "markup"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນເພີ່ມລາຄາ (markup)"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_form
 msgid "on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນວັນທີ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "pdf"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pdf"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "per"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕໍ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_product.py:0
 #: code:addons/product/models/product_template.py:0
 msgid "product"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "product cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "round off to 10.00 and set an extra at -0.01"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດເລກມົນເປັນ 10.00 ແລະ ຕັ້ງຄ່າເພີ່ມເປັນ -0.01"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
 msgid "sales price"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.view_partner_property_form
 msgid "the parent company"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດແມ່"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "the product template."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມສິນຄ້າ."
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
 msgid "to"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫາ"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
 msgid "xlsx"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "xlsx"
+>>>>>>> upstream/18.0
