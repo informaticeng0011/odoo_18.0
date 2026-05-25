@@ -183,6 +183,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp_account
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2279,6 +2280,8 @@
 # Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # * mrp_account
 #
 # Translators:
@@ -2287,11 +2290,15 @@
 # Wil Odoo, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4217,16 +4224,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-05-20 09:43+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
 "Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
 "mrp_account/uk/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5126,10 +5139,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5696,11 +5712,15 @@ msgstr "$5000"
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/models/mrp_production.py:0
 msgid "%s - Labour"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6633,6 +6653,11 @@ msgstr "% - Праця"
 
 #. module: mrp_account
 >>>>>>> upstream/18.0
+=======
+msgstr "% - Праця"
+
+#. module: mrp_account
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_move_form_inherit_mrp_account
 msgid "<span class=\"o_stat_text\">Manufacturing</span>"
 msgstr "<span class=\"o_stat_text\">Виробництво</span>"
@@ -6681,7 +6706,11 @@ msgstr "<span>Одиниця вимірювання</span>"
 #: model:ir.model.constraint,message:mrp_account.constraint_mrp_account_wip_accounting_line_check_debit_credit
 msgid "A single line cannot be both credit and debit."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Один рядок не може бути одночасно кредитним і дебетовим."
+>>>>>>> upstream/18.0
 =======
 msgstr "Один рядок не може бути одночасно кредитним і дебетовим."
 >>>>>>> upstream/18.0
@@ -6701,6 +6730,11 @@ msgstr "Рядок проведення"
 msgid "Account move line to be created when posting WIP account move"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Рядок проводки, який буде створено під час публікації незавершеного "
+"виробництва"
+>>>>>>> upstream/18.0
 =======
 "Рядок проводки, який буде створено під час публікації незавершеного "
 "виробництва"
@@ -7081,7 +7115,11 @@ msgid "Manual Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ручне введення"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ручне введення"
 >>>>>>> upstream/18.0
@@ -7658,7 +7696,11 @@ msgstr "Підрахунок замовлень на виробництво"
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Manufacturing WIP - %(orders_list)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Виробництво WIP - %(orders_list)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Виробництво WIP - %(orders_list)s"
 >>>>>>> upstream/18.0
@@ -7676,6 +7718,7 @@ msgstr "Рядок аналітичного рахунку Mo"
 #. module: mrp_account
 #. odoo-python
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8697,17 +8740,26 @@ msgid "Please make sure the total credit amount equals the total debit amount."
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgid "Please make sure the total credit amount equals the total debit amount."
 msgstr ""
 "Будь ласка, переконайтеся, що загальна сума кредиту дорівнює загальній сумі "
 "дебету."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post Manufacturing WIP"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Публікація виробництва WIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Публікація виробництва WIP"
 >>>>>>> upstream/18.0
@@ -8716,7 +8768,11 @@ msgstr "Публікація виробництва WIP"
 #: model_terms:ir.ui.view,arch_db:mrp_account.view_wip_accounting_form
 msgid "Post WIP"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Публікація WIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Публікація WIP"
 >>>>>>> upstream/18.0
@@ -8725,7 +8781,11 @@ msgstr "Публікація WIP"
 #: model:ir.actions.act_window,name:mrp_account.action_wip_accounting
 msgid "Post WIP Accounting Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Проводка публікації WIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Проводка публікації WIP"
 >>>>>>> upstream/18.0
@@ -8770,7 +8830,11 @@ msgstr "Референс"
 #: model:ir.model.fields,field_description:mrp_account.field_account_move__wip_production_ids
 msgid "Relevant WIP MOs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Релевантний WIP MO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Релевантний WIP MO"
 >>>>>>> upstream/18.0
@@ -8785,7 +8849,11 @@ msgstr "Дата сторнування"
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "Reversal date must be after the posting date."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Дата сторнування має бути після дати проводки."
+>>>>>>> upstream/18.0
 =======
 msgstr "Дата сторнування має бути після дати проводки."
 >>>>>>> upstream/18.0
@@ -8807,6 +8875,7 @@ msgid "Stock Move"
 msgstr "Складське переміщення "
 
 #. module: mrp_account
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9970,6 +10039,8 @@ msgstr "Етап оцінювання запасу"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:mrp_account.field_account_bank_statement_line__wip_production_ids
 #: model:ir.model.fields,help:mrp_account.field_account_move__wip_production_ids
 msgid ""
@@ -9977,6 +10048,12 @@ msgid ""
 "entry creation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Організаційні операції (MO), на яких базується цей запис у незавершеному "
+"процесі. Очікується, що їх буде встановлено під час створення запису у "
+"незавершеному процесі."
+>>>>>>> upstream/18.0
 =======
 "Організаційні операції (MO), на яких базується цей запис у незавершеному "
 "процесі. Очікується, що їх буде встановлено під час створення запису у "
@@ -9986,6 +10063,7 @@ msgstr ""
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_mrp_workcenter__expense_account_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11516,6 +11594,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "The expense is accounted for when the manufacturing order is marked as done. "
 "If not set, it is the expense account of the final product that will be used "
 "instead."
@@ -11523,11 +11603,15 @@ msgstr ""
 "Витрати враховуються, коли виробниче замовлення позначено як виконане. Якщо "
 "це не встановлено, замість цього використовуватиметься рахунок витрат "
 "кінцевого товару."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mrp_account
 #: model:ir.model.fields,help:mrp_account.field_product_category__property_stock_account_production_cost_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11789,6 +11873,8 @@ msgstr ""
 "Цей рахунок використовуватиметься як відповідний для вартості компонентів і кінцевих товарів замовлень на виробництво.\n"
 "                 Якщо є витрати на робочий центр/працівників, це значення залишиться на рахунку після завершення виробництва."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12560,6 +12646,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13090,7 +13179,11 @@ msgstr "Одиниці"
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Component Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WIP - Вартість компоненту"
+>>>>>>> upstream/18.0
 =======
 msgstr "WIP - Вартість компоненту"
 >>>>>>> upstream/18.0
@@ -13100,7 +13193,11 @@ msgstr "WIP - Вартість компоненту"
 #: code:addons/mrp_account/wizard/mrp_wip_accounting.py:0
 msgid "WIP - Overhead"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WIP - Накладні витрати"
+>>>>>>> upstream/18.0
 =======
 msgstr "WIP - Накладні витрати"
 >>>>>>> upstream/18.0
@@ -13110,7 +13207,11 @@ msgstr "WIP - Накладні витрати"
 #: code:addons/mrp_account/models/account_move.py:0
 msgid "WIP MOs of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "WIP MO %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "WIP MO %s"
 >>>>>>> upstream/18.0
@@ -13124,7 +13225,11 @@ msgstr "Звіт WIP для"
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting__line_ids
 msgid "WIP accounting lines"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Рядки бухобліку WIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Рядки бухобліку WIP"
 >>>>>>> upstream/18.0
@@ -13133,7 +13238,11 @@ msgstr "Рядки бухобліку WIP"
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_account_wip_accounting_line__wip_accounting_id
 msgid "WIP accounting wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Помічник бухобліку WIP"
+>>>>>>> upstream/18.0
 =======
 msgstr "Помічник бухобліку WIP"
 >>>>>>> upstream/18.0
@@ -13147,7 +13256,11 @@ msgstr "Звіт WIP"
 #: model:ir.model.fields,field_description:mrp_account.field_mrp_workorder__wc_analytic_account_line_ids
 msgid "Wc Analytic Account Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Рядко аналітичного рахунку Wc"
+=======
+msgstr "Рядок аналітичного рахунку Wc"
+>>>>>>> upstream/18.0
 =======
 msgstr "Рядок аналітичного рахунку Wc"
 >>>>>>> upstream/18.0
@@ -13156,7 +13269,11 @@ msgstr "Рядок аналітичного рахунку Wc"
 #: model:ir.model,name:mrp_account.model_mrp_account_wip_accounting
 msgid "Wizard to post Manufacturing WIP account move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Помічник публікації проводок незавершеного виробництва"
+>>>>>>> upstream/18.0
 =======
 msgstr "Помічник публікації проводок незавершеного виробництва"
 >>>>>>> upstream/18.0
@@ -13458,6 +13575,7 @@ msgstr "[WC] %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 #~ msgid "Stock Valuation Layer"
@@ -14519,6 +14637,8 @@ msgstr "[WC] %s"
 #~ msgstr "Етап оцінювання запасу"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14657,6 +14777,9 @@ msgstr "[WC] %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

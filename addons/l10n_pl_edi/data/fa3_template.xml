@@ -82,6 +82,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="seller.email or seller.phone">
         <DaneKontaktowe>
             <Email t-out="seller.email"/>
@@ -89,6 +90,8 @@
         </DaneKontaktowe>
         </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -192,6 +195,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -338,6 +344,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="buyer.email or buyer.phone">
         <DaneKontaktowe>
             <Email t-out="buyer.email"/>
@@ -346,6 +353,8 @@
         </t>
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -449,6 +458,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -594,6 +606,7 @@
           <!-- P_13_11: Total value of sales under the margin scheme referred to in Article 119 and Article 120 TO-CHECK -->
 
           <!-- P_15: Total gross amount of the invoice (including all taxes). -->
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -898,6 +911,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <P_15 t-out="float_repr(invoice.amount_total_in_currency_signed, 2)"/>
 
           <!-- KursWalutyZ: Exchange rate of the currency to PLN on the invoice date. -->
@@ -905,6 +920,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -938,7 +956,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <!-- P_19N: Flag indicating if the invoice contains tax-exempt items. 1=No, 2=Yes -->
+=======
+                <!-- P_19N: Flag indicating if the invoice contains tax-exempt items. 1=No -->
+>>>>>>> upstream/18.0
 =======
                 <!-- P_19N: Flag indicating if the invoice contains tax-exempt items. 1=No -->
 >>>>>>> upstream/18.0
@@ -961,7 +983,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <!-- P_22N: Flag for new means of transport. 1=No, 2=Yes. -->
+=======
+                <!-- P_22N: Flag for new means of transport. 1=No -->
+>>>>>>> upstream/18.0
 =======
                 <!-- P_22N: Flag for new means of transport. 1=No -->
 >>>>>>> upstream/18.0
@@ -984,7 +1010,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <!-- P_PMarzyN: Flag for margin scheme. 1=No, 2=Yes. -->
+=======
+                <!-- P_PMarzyN: Flag for margin scheme. 1=No -->
+>>>>>>> upstream/18.0
 =======
                 <!-- P_PMarzyN: Flag for margin scheme. 1=No -->
 >>>>>>> upstream/18.0
@@ -1103,7 +1133,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <OpisRachunku t-out="invoice.currency_id.name"/>
+=======
+                    <OpisRachunku t-out="invoice.partner_bank_id.currency_id.name"/>
+>>>>>>> upstream/18.0
 =======
                     <OpisRachunku t-out="invoice.partner_bank_id.currency_id.name"/>
 >>>>>>> upstream/18.0
@@ -1128,10 +1162,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="invoice.invoice_incoterm_id">
         <WarunkiTransakcji>
             <WarunkiDostawy t-out="invoice.invoice_incoterm_id.code"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1152,6 +1189,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

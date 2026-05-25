@@ -367,6 +367,7 @@ class AccountMergeWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         code_by_company = {}
         all_root_companies = self.env['res.company'].sudo().search([('parent_id', '=', False)])
         for account in accounts:
@@ -593,6 +594,8 @@ class AccountMergeWizard(models.TransientModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1277,6 +1280,9 @@ class AccountMergeWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2046,11 +2052,14 @@ class AccountMergeWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for company, code in code_by_company.items():
             account_to_merge_into.with_company(company).sudo().code = code
 
         account_to_merge_into.sudo().company_ids = company_ids_to_write
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2846,6 +2855,9 @@ class AccountMergeWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

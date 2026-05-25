@@ -182,6 +182,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -622,6 +623,9 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
@@ -714,6 +718,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2020,6 +2025,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-25 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -2053,6 +2060,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2114,6 +2124,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3446,6 +3457,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #. odoo-python
@@ -3681,8 +3697,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ": Check Number Sequence"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4379,6 +4398,9 @@ msgid "<span>&amp;nbsp;</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5080,7 +5102,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Adjust the margins of generated checks to make it fit your printer's settings."
+=======
+msgid ""
+"Adjust the margins of generated checks to make it fit your printer's "
+"settings."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Adjust the margins of generated checks to make it fit your printer's "
@@ -6475,6 +6503,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7104,6 +7133,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Bills"
@@ -7285,6 +7316,9 @@ msgstr "Računi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7872,6 +7906,10 @@ msgstr "Otkaži"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model:ir.model.fields,field_description:account_check_printing.field_account_journal__bank_check_printing_layout
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:account_check_printing.field_account_journal__bank_check_printing_layout
 >>>>>>> upstream/18.0
@@ -8851,6 +8889,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #. odoo-python
 #: code:addons/account_check_printing/models/account_payment.py:0
@@ -9663,6 +9702,8 @@ msgstr ""
 msgid "Checks"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9752,6 +9793,9 @@ msgstr "Kontrole"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9835,6 +9879,7 @@ msgstr "Kompanije"
 #. module: account_check_printing
 #: model:ir.model,name:account_check_printing.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10623,6 +10668,11 @@ msgstr "Konfiguracijske postavke"
 
 #. module: account_check_printing
 >>>>>>> upstream/18.0
+=======
+msgstr "Konfiguracijske postavke"
+
+#. module: account_check_printing
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,field_description:account_check_printing.field_print_prenumbered_checks__create_uid
 msgid "Created by"
 msgstr "Kreirao"
@@ -10633,6 +10683,7 @@ msgid "Created on"
 msgstr "Kreirano"
 
 #. module: account_check_printing
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11492,6 +11543,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:account_check_printing.view_account_journal_form_inherited
 msgid "Default"
 msgstr "Uobičajeno"
@@ -11672,6 +11725,9 @@ msgstr "Uobičajeno"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12207,7 +12263,11 @@ msgid "Go to the configuration panel"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Idite na panel konfiguracije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Idite na panel konfiguracije"
 >>>>>>> upstream/18.0
@@ -12976,7 +13036,13 @@ msgstr "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "In order to print multiple checks at once, they must belong to the same bank journal."
+=======
+msgid ""
+"In order to print multiple checks at once, they must belong to the same bank "
+"journal."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "In order to print multiple checks at once, they must belong to the same bank "
@@ -14371,11 +14437,14 @@ msgstr "Dnevnik knjiženja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:account_check_printing.model_account_move
 msgid "Journal Entry"
 msgstr ""
 
 #. module: account_check_printing
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15088,12 +15157,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Payment Providers: Each payment provider has its own Payment Method. Request a transaction on/to a card thanks to a payment token saved by the partner when buying or subscribing online.\n"
 "Check: Pay bills by check and print it from Odoo.\n"
 "Batch Deposit: Collect several customer checks at once generating and submitting a batch deposit to your bank. Module account_batch_payment is necessary.\n"
 "SEPA Credit Transfer: Pay in the SEPA zone by submitting a SEPA Credit Transfer file to your bank. Module account_sepa is necessary.\n"
 "SEPA Direct Debit: Get paid in the SEPA zone thanks to a mandate your partner will have granted to you. Module account_sepa is necessary.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15795,6 +15867,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16200,6 +16273,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16297,6 +16372,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16381,6 +16459,7 @@ msgstr "Ništa"
 
 #. module: account_check_printing
 #: model:ir.model.fields,field_description:account_check_printing.field_account_payment__payment_method_line_id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17430,6 +17509,10 @@ msgstr "Metoda plaćanja"
 msgid "Payment Method"
 msgstr "Metoda plaćanja"
 >>>>>>> upstream/18.0
+=======
+msgid "Payment Method"
+msgstr "Metoda plaćanja"
+>>>>>>> upstream/18.0
 
 #. module: account_check_printing
 #: model:ir.model,name:account_check_printing.model_account_payment_method
@@ -17610,7 +17693,11 @@ msgid "Payment Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda plaćanja"
 >>>>>>> upstream/18.0
@@ -18379,7 +18466,13 @@ msgstr "Plaćanja"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Payments to print as a checks must have 'Check' selected as payment method and not have already been reconciled"
+=======
+msgid ""
+"Payments to print as a checks must have 'Check' selected as payment method "
+"and not have already been reconciled"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Payments to print as a checks must have 'Check' selected as payment method "
@@ -19770,6 +19863,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Please enter the number of the first pre-printed check that you are about to print on."
 msgstr ""
 
@@ -19784,6 +19878,11 @@ msgstr ""
 #: model:ir.model.fields,help:account_check_printing.field_res_partner__property_payment_method_id
 #: model:ir.model.fields,help:account_check_printing.field_res_users__property_payment_method_id
 msgid "Preferred payment method when paying this vendor. This is used to filter vendor bills by preferred payment method to register payments in mass. Use cases: create bank files for batch wires, check runs."
+=======
+msgid ""
+"Please enter the number of the first pre-printed check that you are about to "
+"print on."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "Please enter the number of the first pre-printed check that you are about to "
@@ -21202,6 +21301,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model:ir.model,name:account_check_printing.model_account_payment_register
 msgid "Register Payment"
 =======
@@ -22272,6 +22372,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/account_check_printing/models/account_payment.py:0
 msgid "Refunds"
@@ -22304,6 +22406,9 @@ msgstr "Povrati"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22371,6 +22476,7 @@ msgstr ""
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_layout
 #: model:ir.model.fields,help:account_check_printing.field_res_config_settings__account_check_printing_layout
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23527,6 +23633,10 @@ msgid ""
 "Select the format corresponding to the check paper you will be printing your "
 "checks on.\n"
 >>>>>>> upstream/18.0
+=======
+"Select the format corresponding to the check paper you will be printing your "
+"checks on.\n"
+>>>>>>> upstream/18.0
 "In order to disable the printing feature, select 'None'."
 msgstr ""
 
@@ -23709,7 +23819,11 @@ msgid "Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslano"
 >>>>>>> upstream/18.0
@@ -24483,8 +24597,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Something went wrong with Check Layout, please select another layout in Invoicing/Accounting Settings and try again."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25186,6 +25303,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25891,7 +26011,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The last check number was %s. In order to avoid a check being rejected by the bank, you can only use a greater number."
+=======
+msgid ""
+"The last check number was %s. In order to avoid a check being rejected by "
+"the bank, you can only use a greater number."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "The last check number was %s. In order to avoid a check being rejected by "
@@ -27282,8 +27408,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The selected journal is configured to print check numbers. If your pre-printed check paper already has numbers or if the current numbering is wrong, you can change it in the journal configuration page."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27978,6 +28107,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28675,7 +28807,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This option allows you to print check details (stub) on multiple pages if they don't fit on a single page."
+=======
+msgid ""
+"This option allows you to print check details (stub) on multiple pages if "
+"they don't fit on a single page."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "This option allows you to print check details (stub) on multiple pages if "
@@ -30074,7 +30212,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "This will allow to save on payments the number of the corresponding check."
+=======
+msgid ""
+"This will allow to save on payments the number of the corresponding check."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "This will allow to save on payments the number of the corresponding check."
@@ -31245,7 +31388,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "You have to choose a check layout. For this, go in Invoicing/Accounting Settings, search for 'Checks layout' and set one."
+=======
+msgid ""
+"You have to choose a check layout. For this, go in Invoicing/Accounting "
+"Settings, search for 'Checks layout' and set one."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "You have to choose a check layout. For this, go in Invoicing/Accounting "

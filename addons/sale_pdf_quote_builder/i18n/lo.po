@@ -1,19 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_pdf_quote_builder
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * sale_pdf_quote_builder
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # Bone NI <bounkirdni@gmail.com>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
@@ -23,6 +30,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-20 16:34+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -33,6 +42,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -42,6 +54,11 @@ msgid ""
 "'Order - %s' % (object.name)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"(object.state in ('draft', 'sent') and 'ໃບສະເໜີລາຄາ - %s' % (object.name)) or "
+"'ໃບສັ່ງຊື້ - %s' % (object.name)"
+>>>>>>> upstream/18.0
 =======
 "(object.state in ('draft', 'sent') and 'ໃບສະເໜີລາຄາ - %s' % (object.name)) or "
 "'ໃບສັ່ງຊື້ - %s' % (object.name)"
@@ -51,7 +68,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span class=\"pe-2\">Templates:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"pe-2\">ແບບຢ່າງ:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"pe-2\">ແບບຢ່າງ:</span>"
 >>>>>>> upstream/18.0
@@ -60,7 +81,11 @@ msgstr "<span class=\"pe-2\">ແບບຢ່າງ:</span>"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "<span>Document type:</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ປະເພດເອກະສານ:</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ປະເພດເອກະສານ:</span>"
 >>>>>>> upstream/18.0
@@ -73,6 +98,10 @@ msgid ""
 " document."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຊ່ອງຂໍ້ມູນຟອມທີ່ຖືກກຳນົດໃຫ້ໃຊ້ໃນເອກະສານສິນຄ້າ ບໍ່ສາມາດເຊື່ອມໂຍງກັບເອກະສານໃບສະເໜີລາຄາໄດ້."
+>>>>>>> upstream/18.0
 =======
 "ຊ່ອງຂໍ້ມູນຟອມທີ່ຖືກກຳນົດໃຫ້ໃຊ້ໃນເອກະສານສິນຄ້າ ບໍ່ສາມາດເຊື່ອມໂຍງກັບເອກະສານໃບສະເໜີລາຄາໄດ້."
 >>>>>>> upstream/18.0
@@ -85,6 +114,10 @@ msgid ""
 " document."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຊ່ອງຂໍ້ມູນຟອມທີ່ຖືກກຳນົດໃຫ້ໃຊ້ໃນເອກະສານໃບສະເໜີລາຄາ ບໍ່ສາມາດເຊື່ອມໂຍງກັບເອກະສານສິນຄ້າໄດ້."
+>>>>>>> upstream/18.0
 =======
 "ຊ່ອງຂໍ້ມູນຟອມທີ່ຖືກກຳນົດໃຫ້ໃຊ້ໃນເອກະສານໃບສະເໜີລາຄາ ບໍ່ສາມາດເຊື່ອມໂຍງກັບເອກະສານສິນຄ້າໄດ້."
 >>>>>>> upstream/18.0
@@ -93,7 +126,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__access_token
 msgid "Access Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທເຄັນເຂົ້າເຖິງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂທເຄັນເຂົ້າເຖິງ"
 >>>>>>> upstream/18.0
@@ -102,7 +139,11 @@ msgstr "ໂທເຄັນເຂົ້າເຖິງ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__active
 msgid "Active"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເປີດໃຊ້ງານ"
 >>>>>>> upstream/18.0
@@ -111,7 +152,11 @@ msgstr "ເປີດໃຊ້ງານ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "All"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທັງໝົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທັງໝົດ"
 >>>>>>> upstream/18.0
@@ -121,7 +166,11 @@ msgstr "ທັງໝົດ"
 #: code:addons/sale_pdf_quote_builder/controllers/quotation_document.py:0
 msgid "All files uploaded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບໂຫຼດໄຟລ໌ທັງໝົດແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັບໂຫຼດໄຟລ໌ທັງໝົດແລ້ວ"
 >>>>>>> upstream/18.0
@@ -138,7 +187,10 @@ msgid ""
 "Inside quote: The document will be included in the pdf of the quotation and sale order between the header pages and the quote table. "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ອະນຸຍາດໃຫ້ທ່ານແບ່ງປັນເອກະສານກັບລູກຄ້າຂອງທ່ານໃນລະຫວ່າງການຂາຍ.\n"
 "ປະວ່າງໄວ້ ຫາກທ່ານບໍ່ຕ້ອງການແບ່ງປັນເອກະສານນີ້ໃຫ້ກັບລູກຄ້າ.\n"
 "ໃນໃບສະເໜີລາຄາ: ເອກະສານຈະຖືກສົ່ງໄປ ແລະ ລູກຄ້າສາມາດເຂົ້າເຖິງໄດ້ທຸກເວລາ.\n"
@@ -148,6 +200,9 @@ msgstr ""
 "ກ.\n"
 "ພາຍໃນໃບສະເໜີລາຄາ: ເອກະສານຈະຖືກລວມເຂົ້າໃນ PDF ຂອງໃບສະເໜີລາຄາ ແລະ ໃບສັ່ງຂາຍ ລະຫວ່າງໜ້າຫົວ"
 "ຂໍ້ ແລະ ຕາຕະລາງລາຄາ. "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
@@ -155,7 +210,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Archived"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດເກັບແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈັດເກັບແລ້ວ"
 >>>>>>> upstream/18.0
@@ -164,7 +223,11 @@ msgstr "ຈັດເກັບແລ້ວ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Attached To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄັດຕິດໃສ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄັດຕິດໃສ່"
 >>>>>>> upstream/18.0
@@ -173,7 +236,11 @@ msgstr "ຄັດຕິດໃສ່"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__local_url
 msgid "Attachment URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ເອກະສານຄັດຕິດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL ເອກະສານຄັດຕິດ"
 >>>>>>> upstream/18.0
@@ -183,7 +250,11 @@ msgstr "URL ເອກະສານຄັດຕິດ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_line__available_product_document_ids
 msgid "Available Product Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານສິນຄ້າທີ່ມີຢູ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານສິນຄ້າທີ່ມີຢູ່"
 >>>>>>> upstream/18.0
@@ -192,7 +263,11 @@ msgstr "ເອກະສານສິນຄ້າທີ່ມີຢູ່"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__checksum
 msgid "Checksum/SHA1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Checksum/SHA1"
+>>>>>>> upstream/18.0
 =======
 msgstr "Checksum/SHA1"
 >>>>>>> upstream/18.0
@@ -202,7 +277,11 @@ msgstr "Checksum/SHA1"
 #: code:addons/sale_pdf_quote_builder/static/src/js/custom_content_kanban_like_widget/custom_field_card/custom_field_card.js:0
 msgid "Click to write content for the PDF quote..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄລິກເພື່ອຂຽນເນື້ອຫາສຳລັບໃບສະເໜີລາຄາ PDF..."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄລິກເພື່ອຂຽນເນື້ອຫາສຳລັບໃບສະເໜີລາຄາ PDF..."
 >>>>>>> upstream/18.0
@@ -211,7 +290,11 @@ msgstr "ຄລິກເພື່ອຂຽນເນື້ອຫາສຳລັບ
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__company_id
 msgid "Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍລິສັດ"
 >>>>>>> upstream/18.0
@@ -221,7 +304,11 @@ msgstr "ບໍລິສັດ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Configure dynamic fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດຄ່າຊ່ອງຂໍ້ມູນໄດນາມິກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ກຳນົດຄ່າຊ່ອງຂໍ້ມູນໄດນາມິກ"
 >>>>>>> upstream/18.0
@@ -230,7 +317,11 @@ msgstr "ກຳນົດຄ່າຊ່ອງຂໍ້ມູນໄດນາມິ
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.product_document_form
 msgid "Configure the path to fill the form fields."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳນົດຄ່າເສັ້ນທາງເພື່ອຕື່ມຂໍ້ມູນໃສ່ຊ່ອງຟອມ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ກຳນົດຄ່າເສັ້ນທາງເພື່ອຕື່ມຂໍ້ມູນໃສ່ຊ່ອງຟອມ."
 >>>>>>> upstream/18.0
@@ -240,7 +331,11 @@ msgstr "ກຳນົດຄ່າເສັ້ນທາງເພື່ອຕື່
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງໂດຍ"
 >>>>>>> upstream/18.0
@@ -250,7 +345,11 @@ msgstr "ສ້າງໂດຍ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງເມື່ອ"
 >>>>>>> upstream/18.0
@@ -259,7 +358,11 @@ msgstr "ສ້າງເມື່ອ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Creation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສ້າງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສ້າງ"
 >>>>>>> upstream/18.0
@@ -268,7 +371,11 @@ msgstr "ການສ້າງ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "Customizable"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດປັບແຕ່ງໄດ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສາມາດປັບແຕ່ງໄດ້"
 >>>>>>> upstream/18.0
@@ -277,7 +384,11 @@ msgstr "ສາມາດປັບແຕ່ງໄດ້"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__customizable_pdf_form_fields
 msgid "Customizable PDF Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງຂໍ້ມູນຟອມ PDF ທີ່ສາມາດປັບແຕ່ງໄດ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊ່ອງຂໍ້ມູນຟອມ PDF ທີ່ສາມາດປັບແຕ່ງໄດ້"
 >>>>>>> upstream/18.0
@@ -286,7 +397,11 @@ msgstr "ຊ່ອງຂໍ້ມູນຟອມ PDF ທີ່ສາມາດປ�
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__db_datas
 msgid "Database Data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຖານຂໍ້ມູນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ມູນຖານຂໍ້ມູນ"
 >>>>>>> upstream/18.0
@@ -295,7 +410,11 @@ msgstr "ຂໍ້ມູນຖານຂໍ້ມູນ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "Delete"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລຶບ"
 >>>>>>> upstream/18.0
@@ -304,7 +423,11 @@ msgstr "ລຶບ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__description
 msgid "Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄຳອະທິບາຍ"
 >>>>>>> upstream/18.0
@@ -314,7 +437,11 @@ msgstr "ຄຳອະທິບາຍ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ທີ່ສະແດງ"
 >>>>>>> upstream/18.0
@@ -324,7 +451,11 @@ msgstr "ຊື່ທີ່ສະແດງ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__document_type
 msgid "Document Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດເອກະສານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດເອກະສານ"
 >>>>>>> upstream/18.0
@@ -333,7 +464,11 @@ msgstr "ປະເພດເອກະສານ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Document type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດເອກະສານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດເອກະສານ"
 >>>>>>> upstream/18.0
@@ -342,7 +477,11 @@ msgstr "ປະເພດເອກະສານ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "Download"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດາວໂຫຼດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ດາວໂຫຼດ"
 >>>>>>> upstream/18.0
@@ -351,7 +490,11 @@ msgstr "ດາວໂຫຼດ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid "Download examples"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດາວໂຫຼດຕົວຢ່າງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ດາວໂຫຼດຕົວຢ່າງ"
 >>>>>>> upstream/18.0
@@ -360,7 +503,11 @@ msgstr "ດາວໂຫຼດຕົວຢ່າງ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_kanban
 msgid "Edit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແກ້ໄຂ"
 >>>>>>> upstream/18.0
@@ -369,7 +516,11 @@ msgstr "ແກ້ໄຂ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__datas
 msgid "File Content (base64)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເນື້ອຫາໄຟລ໌ (base64)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເນື້ອຫາໄຟລ໌ (base64)"
 >>>>>>> upstream/18.0
@@ -378,7 +529,11 @@ msgstr "ເນື້ອຫາໄຟລ໌ (base64)"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__raw
 msgid "File Content (raw)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເນື້ອຫາໄຟລ໌ (raw)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເນື້ອຫາໄຟລ໌ (raw)"
 >>>>>>> upstream/18.0
@@ -387,7 +542,11 @@ msgstr "ເນື້ອຫາໄຟລ໌ (raw)"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__file_size
 msgid "File Size"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂະໜາດໄຟລ໌"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂະໜາດໄຟລ໌"
 >>>>>>> upstream/18.0
@@ -398,7 +557,11 @@ msgstr "ຂະໜາດໄຟລ໌"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__quotation_document__document_type__footer
 msgid "Footer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ້າຍບົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ້າຍບົດ"
 >>>>>>> upstream/18.0
@@ -407,7 +570,11 @@ msgstr "ທ້າຍບົດ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "Form Field Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມ"
 >>>>>>> upstream/18.0
@@ -418,7 +585,11 @@ msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມ"
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Form Fields"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງຂໍ້ມູນຟອມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊ່ອງຂໍ້ມູນຟອມ"
 >>>>>>> upstream/18.0
@@ -428,7 +599,11 @@ msgstr "ຊ່ອງຂໍ້ມູນຟອມ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__form_field_ids
 msgid "Form Fields Included"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມຊ່ອງຂໍ້ມູນຟອມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລວມຊ່ອງຂໍ້ມູນຟອມ"
 >>>>>>> upstream/18.0
@@ -437,7 +612,11 @@ msgstr "ລວມຊ່ອງຂໍ້ມູນຟອມ"
 #: model:ir.model.constraint,message:sale_pdf_quote_builder.constraint_sale_pdf_form_field_unique_name_per_doc_type
 msgid "Form field name must be unique for a given document type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມຕ້ອງບໍ່ຊ້ຳກັນສຳລັບປະເພດເອກະສານທີ່ກຳນົດ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມຕ້ອງບໍ່ຊ້ຳກັນສຳລັບປະເພດເອກະສານທີ່ກຳນົດ."
 >>>>>>> upstream/18.0
@@ -446,7 +625,11 @@ msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມຕ້ອງບໍ່ຊ
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_pdf_form_field
 msgid "Form fields of inside quotation documents."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງຂໍ້ມູນຟອມຂອງເອກະສານພາຍໃນໃບສະເໜີລາຄາ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊ່ອງຂໍ້ມູນຟອມຂອງເອກະສານພາຍໃນໃບສະເໜີລາຄາ."
 >>>>>>> upstream/18.0
@@ -455,7 +638,11 @@ msgstr "ຊ່ອງຂໍ້ມູນຟອມຂອງເອກະສານພ
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Group By"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈັດກຸ່ມໂດຍ"
 >>>>>>> upstream/18.0
@@ -466,7 +653,11 @@ msgstr "ຈັດກຸ່ມໂດຍ"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__quotation_document__document_type__header
 msgid "Header"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວບົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວບົດ"
 >>>>>>> upstream/18.0
@@ -475,7 +666,11 @@ msgstr "ຫົວບົດ"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__sale_pdf_form_field__document_type__quotation_document
 msgid "Header/Footer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວບົດ/ທ້າຍບົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວບົດ/ທ້າຍບົດ"
 >>>>>>> upstream/18.0
@@ -484,7 +679,11 @@ msgstr "ຫົວບົດ/ທ້າຍບົດ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order_template__quotation_document_ids
 msgid "Headers and footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວບົດ ແລະ ທ້າຍບົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວບົດ ແລະ ທ້າຍບົດ"
 >>>>>>> upstream/18.0
@@ -496,7 +695,11 @@ msgstr "ຫົວບົດ ແລະ ທ້າຍບົດ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.res_config_settings_view_form
 msgid "Headers/Footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວບົດ/ທ້າຍບົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວບົດ/ທ້າຍບົດ"
 >>>>>>> upstream/18.0
@@ -505,7 +708,11 @@ msgstr "ຫົວບົດ/ທ້າຍບົດ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະຫວັດ"
 >>>>>>> upstream/18.0
@@ -515,7 +722,11 @@ msgstr "ປະຫວັດ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ"
 >>>>>>> upstream/18.0
@@ -527,6 +738,10 @@ msgid ""
 "removing it."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຖ້າບໍ່ໝາຍຕິກ, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງຫົວບົດ ຫຼື ທ້າຍບົດໄດ້ໂດຍບໍ່ຕ້ອງລຶບອອກ."
+>>>>>>> upstream/18.0
 =======
 "ຖ້າບໍ່ໝາຍຕິກ, ມັນຈະຊ່ວຍໃຫ້ທ່ານສາມາດເຊື່ອງຫົວບົດ ຫຼື ທ້າຍບົດໄດ້ໂດຍບໍ່ຕ້ອງລຶບອອກ."
 >>>>>>> upstream/18.0
@@ -535,7 +750,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__image_height
 msgid "Image Height"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມສູງຂອງຮູບພາບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄວາມສູງຂອງຮູບພາບ"
 >>>>>>> upstream/18.0
@@ -544,7 +763,11 @@ msgstr "ຄວາມສູງຂອງຮູບພາບ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__image_src
 msgid "Image Src"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຫຼ່ງຮູບພາບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແຫຼ່ງຮູບພາບ"
 >>>>>>> upstream/18.0
@@ -553,7 +776,11 @@ msgstr "ແຫຼ່ງຮູບພາບ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__image_width
 msgid "Image Width"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມກວ້າງຂອງຮູບພາບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄວາມກວ້າງຂອງຮູບພາບ"
 >>>>>>> upstream/18.0
@@ -562,7 +789,11 @@ msgstr "ຄວາມກວ້າງຂອງຮູບພາບ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__index_content
 msgid "Indexed Content"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເນື້ອຫາທີ່ເຮັດດັດສະນີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເນື້ອຫາທີ່ເຮັດດັດສະນີ"
 >>>>>>> upstream/18.0
@@ -571,7 +802,11 @@ msgstr "ເນື້ອຫາທີ່ເຮັດດັດສະນີ"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__product_document__attached_on_sale__inside
 msgid "Inside quote pdf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາຍໃນ PDF ໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ພາຍໃນ PDF ໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -584,6 +819,11 @@ msgid ""
 "footer can not start with \"sol_id_\"."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຊື່ຊ່ອງຟອມ %(field_name)s ບໍ່ຖືກຕ້ອງ. ຊື່ຊ່ອງຟອມໃນຫົວບົດ ຫຼື ທ້າຍບົດ ບໍ່ສາມາດເລີ່ມຕົ້ນດ້ວຍ "
+"\"sol_id_\"."
+>>>>>>> upstream/18.0
 =======
 "ຊື່ຊ່ອງຟອມ %(field_name)s ບໍ່ຖືກຕ້ອງ. ຊື່ຊ່ອງຟອມໃນຫົວບົດ ຫຼື ທ້າຍບົດ ບໍ່ສາມາດເລີ່ມຕົ້ນດ້ວຍ "
 "\"sol_id_\"."
@@ -597,6 +837,11 @@ msgid ""
 "alphanumerics, hyphens or underscores."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຊື່ຊ່ອງຟອມ %(field_name)s ບໍ່ຖືກຕ້ອງ. ມັນຄວນປະກອບດ້ວຍຕົວອັກສອນ, ຕົວເລກ, ເຄື່ອງໝາຍຂີດກາງ ຫຼື ຂີດ"
+"ກ້ອງເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 =======
 "ຊື່ຊ່ອງຟອມ %(field_name)s ບໍ່ຖືກຕ້ອງ. ມັນຄວນປະກອບດ້ວຍຕົວອັກສອນ, ຕົວເລກ, ເຄື່ອງໝາຍຂີດກາງ ຫຼື ຂີດ"
 "ກ້ອງເທົ່ານັ້ນ."
@@ -610,6 +855,11 @@ msgid ""
 "underscores or points."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ເສັ້ນທາງ %(path)s ບໍ່ຖືກຕ້ອງ. ມັນຄວນປະກອບດ້ວຍຕົວອັກສອນ, ຕົວເລກ, ເຄື່ອງໝາຍຂີດກາງ, ຂີດກ້ອງ ຫຼື ຈຸດ"
+"ເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 =======
 "ເສັ້ນທາງ %(path)s ບໍ່ຖືກຕ້ອງ. ມັນຄວນປະກອບດ້ວຍຕົວອັກສອນ, ຕົວເລກ, ເຄື່ອງໝາຍຂີດກາງ, ຂີດກ້ອງ ຫຼື ຈຸດ"
 "ເທົ່ານັ້ນ."
@@ -619,7 +869,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_order__is_pdf_quote_builder_available
 msgid "Is Pdf Quote Builder Available"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ PDF ສາມາດໃຊ້ງານໄດ້ຫຼືບໍ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ PDF ສາມາດໃຊ້ງານໄດ້ຫຼືບໍ່"
 >>>>>>> upstream/18.0
@@ -628,7 +882,11 @@ msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ PDF ສາມາ�
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__public
 msgid "Is public document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປັນເອກະສານສາທາລະນະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເປັນເອກະສານສາທາລະນະ"
 >>>>>>> upstream/18.0
@@ -641,6 +899,11 @@ msgid ""
 "either encrypted, or encoded in a format we do not support."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ເບິ່ງຄືວ່າພວກເຮົາບໍ່ສາມາດປະມວນຜົນ PDF ນີ້ພາຍໃນໃບສະເໜີລາຄາໄດ້. ມັນອາດຈະຖືກເຂົ້າລະຫັດໄວ້ ຫຼື ຢູ່ໃນຮູບແ"
+"ບບທີ່ພວກເຮົາບໍ່ຮອງຮັບ."
+>>>>>>> upstream/18.0
 =======
 "ເບິ່ງຄືວ່າພວກເຮົາບໍ່ສາມາດປະມວນຜົນ PDF ນີ້ພາຍໃນໃບສະເໜີລາຄາໄດ້. ມັນອາດຈະຖືກເຂົ້າລະຫັດໄວ້ ຫຼື ຢູ່ໃນຮູບແ"
 "ບບທີ່ພວກເຮົາບໍ່ຮອງຮັບ."
@@ -650,7 +913,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__key
 msgid "Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄີ (Key)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄີ (Key)"
 >>>>>>> upstream/18.0
@@ -660,7 +927,11 @@ msgstr "ຄີ (Key)"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
 >>>>>>> upstream/18.0
@@ -670,7 +941,11 @@ msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
 >>>>>>> upstream/18.0
@@ -679,7 +954,11 @@ msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Mark fields as safe to fill in the quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍຊ່ອງຂໍ້ມູນວ່າປອດໄພທີ່ຈະຕື່ມໃສ່ໃນໃບສະເໜີລາຄາ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ໝາຍຊ່ອງຂໍ້ມູນວ່າປອດໄພທີ່ຈະຕື່ມໃສ່ໃນໃບສະເໜີລາຄາ."
 >>>>>>> upstream/18.0
@@ -688,7 +967,11 @@ msgstr "ໝາຍຊ່ອງຂໍ້ມູນວ່າປອດໄພທີ່
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__mimetype
 msgid "Mime Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ Mime"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດ Mime"
 >>>>>>> upstream/18.0
@@ -697,7 +980,11 @@ msgstr "ປະເພດ Mime"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__name
 msgid "Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່"
 >>>>>>> upstream/18.0
@@ -707,7 +994,11 @@ msgstr "ຊື່"
 #: code:addons/sale_pdf_quote_builder/models/ir_actions_report.py:0
 msgid "No"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່"
 >>>>>>> upstream/18.0
@@ -717,7 +1008,11 @@ msgstr "ບໍ່"
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "Only PDF documents can be attached inside a quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະເພາະເອກະສານ PDF ເທົ່ານັ້ນທີ່ສາມາດຄັດຕິດເຂົ້າໃນໃບສະເໜີລາຄາໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະເພາະເອກະສານ PDF ເທົ່ານັ້ນທີ່ສາມາດຄັດຕິດເຂົ້າໃນໃບສະເໜີລາຄາໄດ້."
 >>>>>>> upstream/18.0
@@ -727,7 +1022,11 @@ msgstr "ສະເພາະເອກະສານ PDF ເທົ່ານັ້ນ�
 #: code:addons/sale_pdf_quote_builder/models/quotation_document.py:0
 msgid "Only PDF documents can be used as header or footer."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະເພາະເອກະສານ PDF ເທົ່ານັ້ນທີ່ສາມາດໃຊ້ເປັນຫົວບົດ ຫຼື ທ້າຍບົດໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະເພາະເອກະສານ PDF ເທົ່ານັ້ນທີ່ສາມາດໃຊ້ເປັນຫົວບົດ ຫຼື ທ້າຍບົດໄດ້."
 >>>>>>> upstream/18.0
@@ -736,7 +1035,11 @@ msgstr "ສະເພາະເອກະສານ PDF ເທົ່ານັ້ນ�
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__original_id
 msgid "Original (unoptimized, unresized) attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານຄັດຕິດດັ້ງເດີມ (ບໍ່ໄດ້ປັບຂະໜາດ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານຄັດຕິດດັ້ງເດີມ (ບໍ່ໄດ້ປັບຂະໜາດ)"
 >>>>>>> upstream/18.0
@@ -745,7 +1048,11 @@ msgstr "ເອກະສານຄັດຕິດດັ້ງເດີມ (ບໍ�
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__path
 msgid "Path"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເສັ້ນທາງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເສັ້ນທາງ"
 >>>>>>> upstream/18.0
@@ -758,6 +1065,12 @@ msgid ""
 "                to boost your sales."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ປັບແຕ່ງໃບສະເໜີລາຄາຂອງທ່ານດ້ວຍໜ້າຫົວບົດ ແລະ ທ້າຍບົດທີ່ດຶງດູດ\n"
+"                <br>\n"
+"                ເພື່ອເພີ່ມຍອດຂາຍຂອງທ່ານ."
+>>>>>>> upstream/18.0
 =======
 "ປັບແຕ່ງໃບສະເໜີລາຄາຂອງທ່ານດ້ວຍໜ້າຫົວບົດ ແລະ ທ້າຍບົດທີ່ດຶງດູດ\n"
 "                <br>\n"
@@ -770,6 +1083,10 @@ msgstr ""
 msgid "Please use only relational fields until the last value of your path."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ກະລຸນາໃຊ້ສະເພາະຊ່ອງຂໍ້ມູນທີ່ກ່ຽວຂ້ອງຈົນກວ່າຈະເຖິງຄ່າສຸດທ້າຍຂອງເສັ້ນທາງຂອງທ່ານ."
+>>>>>>> upstream/18.0
 =======
 "ກະລຸນາໃຊ້ສະເພາະຊ່ອງຂໍ້ມູນທີ່ກ່ຽວຂ້ອງຈົນກວ່າຈະເຖິງຄ່າສຸດທ້າຍຂອງເສັ້ນທາງຂອງທ່ານ."
 >>>>>>> upstream/18.0
@@ -779,7 +1096,11 @@ msgstr ""
 #: code:addons/sale_pdf_quote_builder/models/sale_order.py:0
 msgid "Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -789,7 +1110,11 @@ msgstr "ສິນຄ້າ"
 #: model:ir.model.fields.selection,name:sale_pdf_quote_builder.selection__sale_pdf_form_field__document_type__product_document
 msgid "Product Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -799,7 +1124,11 @@ msgstr "ເອກະສານສິນຄ້າ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__product_document_ids
 msgid "Product Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -814,19 +1143,29 @@ msgid ""
 "                        If empty, it will use those define in the company settings. <br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ຈັດກຽມໜ້າຫົວຂໍ້ ແລະ ໜ້າທ້າຍ ເພື່ອສ້າງໃບສະເໜີລາຄາທີ່ໜ້າສົນໃຈ ພ້ອມກັບຂໍ້ມູນເພີ່ມເຕີມ ກ່ຽວກັບບໍລິສັດຂອງທ່ານ, "
 "ຜະລິດຕະພັນຂອງທ່ານ ແລະ ການບໍລິການຂອງທ່ານ. <br/>\n"
 "The pdf ຂອງໃບສະເໜີລາຄາຂອງທ່ານ ຈະຖືກສ້າງຂຶ້ນໂດຍການລວມເອົາໜ້າຫົວຂໍ້, ລາຍລະອຽດຜະລິດຕະພັນ, ລາຍ"
 "ລະອຽດຂອງໃບສະເໜີລາຄາ ແລະ ຕາມດ້ວຍໜ້າທ້າຍ. <br/>\n"
 "ຖ້າຫາກວ່າງເປົ່າ, ມັນຈະນຳໃຊ້ຂໍ້ມູນທີ່ໄດ້ກຳນົດໄວ້ໃນການຕັ້ງຄ່າບໍລິສັດ. <br/>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: sale_pdf_quote_builder
 #: model:ir.actions.report,name:sale_pdf_quote_builder.action_report_saleorder_raw
 msgid "Quotation / Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສະເໜີລາຄາ/ໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບສະເໜີລາຄາ/ໃບສັ່ງຊື້"
 >>>>>>> upstream/18.0
@@ -835,7 +1174,11 @@ msgstr "ໃບສະເໜີລາຄາ/ໃບສັ່ງຊື້"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Quotation Document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -844,7 +1187,11 @@ msgstr "ເອກະສານໃບສະເໜີລາຄາ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_sale_pdf_form_field__quotation_document_ids
 msgid "Quotation Documents"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -854,7 +1201,11 @@ msgstr "ເອກະສານໃບສະເໜີລາຄາ"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search_view
 msgid "Quotation Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຢ່າງໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຢ່າງໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -863,7 +1214,11 @@ msgstr "ແບບຢ່າງໃບສະເໜີລາຄາ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__quotation_template_ids
 msgid "Quotation Templates"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຢ່າງໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຢ່າງໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -872,7 +1227,11 @@ msgstr "ແບບຢ່າງໃບສະເໜີລາຄາ"
 #: model:ir.model,name:sale_pdf_quote_builder.model_quotation_document
 msgid "Quotation's Headers & Footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວບົດ ແລະ ທ້າຍບົດ ຂອງໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວບົດ ແລະ ທ້າຍບົດ ຂອງໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -882,7 +1241,11 @@ msgstr "ຫົວບົດ ແລະ ທ້າຍບົດ ຂອງໃບສະ
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.sale_order_template_form
 msgid "Quote Builder"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -891,7 +1254,11 @@ msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__ir_attachment_id
 msgid "Related attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານຄັດຕິດທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານຄັດຕິດທີ່ກ່ຽວຂ້ອງ"
 >>>>>>> upstream/18.0
@@ -900,7 +1267,11 @@ msgstr "ເອກະສານຄັດຕິດທີ່ກ່ຽວຂ້ອງ
 #: model:ir.model,name:sale_pdf_quote_builder.model_ir_actions_report
 msgid "Report Action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການດຳເນີນການລາຍງານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການດຳເນີນການລາຍງານ"
 >>>>>>> upstream/18.0
@@ -909,7 +1280,11 @@ msgstr "ການດຳເນີນການລາຍງານ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__res_field
 msgid "Resource Field"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງຂໍ້ມູນຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊ່ອງຂໍ້ມູນຊັບພະຍາກອນ"
 >>>>>>> upstream/18.0
@@ -918,7 +1293,11 @@ msgstr "ຊ່ອງຂໍ້ມູນຊັບພະຍາກອນ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__res_id
 msgid "Resource ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດຊັບພະຍາກອນ"
 >>>>>>> upstream/18.0
@@ -927,7 +1306,11 @@ msgstr "ລະຫັດຊັບພະຍາກອນ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__res_model
 msgid "Resource Model"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂມເດວຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂມເດວຊັບພະຍາກອນ"
 >>>>>>> upstream/18.0
@@ -936,7 +1319,11 @@ msgstr "ໂມເດວຊັບພະຍາກອນ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__res_name
 msgid "Resource Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຊັບພະຍາກອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ຊັບພະຍາກອນ"
 >>>>>>> upstream/18.0
@@ -945,7 +1332,11 @@ msgstr "ຊື່ຊັບພະຍາກອນ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_product_document__attached_on_sale
 msgid "Sale : Visible at"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຂາຍ : ສະແດງຢູ່ທີ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຂາຍ : ສະແດງຢູ່ທີ່"
 >>>>>>> upstream/18.0
@@ -954,7 +1345,11 @@ msgstr "ການຂາຍ : ສະແດງຢູ່ທີ່"
 #: model:ir.actions.server,name:sale_pdf_quote_builder.cron_post_upgrade_assign_missing_form_fields_ir_actions_server
 msgid "Sale Pdf Quote Builder: assign form fields to documents post upgrade"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ PDF: ກຳນົດຊ່ອງຟອມໃຫ້ກັບເອກະສານຫຼັງການອັບເກຣດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ PDF: ກຳນົດຊ່ອງຟອມໃຫ້ກັບເອກະສານຫຼັງການອັບເກຣດ"
 >>>>>>> upstream/18.0
@@ -963,7 +1358,11 @@ msgstr "ຕົວສ້າງໃບສະເໜີລາຄາ PDF: ກຳນົ
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_order
 msgid "Sales Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບສັ່ງຊື້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບສັ່ງຊື້"
 >>>>>>> upstream/18.0
@@ -972,7 +1371,11 @@ msgstr "ໃບສັ່ງຊື້"
 #: model:ir.model,name:sale_pdf_quote_builder.model_sale_order_line
 msgid "Sales Order Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການສິນຄ້າທີ່ສັ່ງຊື້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການສິນຄ້າທີ່ສັ່ງຊື້"
 >>>>>>> upstream/18.0
@@ -981,7 +1384,11 @@ msgstr "ລາຍການສິນຄ້າທີ່ສັ່ງຊື້"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__sequence
 msgid "Sequence"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລຳດັບ"
 >>>>>>> upstream/18.0
@@ -990,7 +1397,11 @@ msgstr "ລຳດັບ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__store_fname
 msgid "Stored Filename"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ໄຟລ໌ທີ່ຈັດເກັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ໄຟລ໌ທີ່ຈັດເກັບ"
 >>>>>>> upstream/18.0
@@ -1000,7 +1411,11 @@ msgstr "ຊື່ໄຟລ໌ທີ່ຈັດເກັບ"
 #: code:addons/sale_pdf_quote_builder/models/sale_pdf_form_field.py:0
 msgid "The field %(field_name)s doesn't exist on model %(model_name)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງຂໍ້ມູນ %(field_name)s ບໍ່ມີຢູ່ໃນໂມເດວ %(model_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊ່ອງຂໍ້ມູນ %(field_name)s ບໍ່ມີຢູ່ໃນໂມເດວ %(model_name)s"
 >>>>>>> upstream/18.0
@@ -1009,7 +1424,11 @@ msgstr "ຊ່ອງຂໍ້ມູນ %(field_name)s ບໍ່ມີຢູ່�
 #: model:ir.model.fields,help:sale_pdf_quote_builder.field_sale_pdf_form_field__name
 msgid "The form field name as written in the PDF."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມຕາມທີ່ຂຽນໄວ້ໃນ PDF."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ຊ່ອງຂໍ້ມູນຟອມຕາມທີ່ຂຽນໄວ້ໃນ PDF."
 >>>>>>> upstream/18.0
@@ -1021,6 +1440,11 @@ msgid ""
 "Leave empty to be able to customized it in the quotation form."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ເສັ້ນທາງທີ່ຈະປະຕິບັດຕາມເພື່ອຕື່ມຂໍ້ມູນໃສ່ຊ່ອງຟອມແບບໄດນາມິກ.\n"
+"ປະໄວ້ວ່າງເພື່ອສາມາດປັບແຕ່ງໄດ້ໃນຟອມໃບສະເໜີລາຄາ."
+>>>>>>> upstream/18.0
 =======
 "ເສັ້ນທາງທີ່ຈະປະຕິບັດຕາມເພື່ອຕື່ມຂໍ້ມູນໃສ່ຊ່ອງຟອມແບບໄດນາມິກ.\n"
 "ປະໄວ້ວ່າງເພື່ອສາມາດປັບແຕ່ງໄດ້ໃນຟອມໃບສະເໜີລາຄາ."
@@ -1032,7 +1456,11 @@ msgid ""
 "The product documents for this order line that will be merged in the PDF "
 "quote."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານສິນຄ້າສຳລັບລາຍການສັ່ງຊື້ນີ້ທີ່ຈະຖືກລວມເຂົ້າໃນ PDF ໃບສະເໜີລາຄາ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານສິນຄ້າສຳລັບລາຍການສັ່ງຊື້ນີ້ທີ່ຈະຖືກລວມເຂົ້າໃນ PDF ໃບສະເໜີລາຄາ."
 >>>>>>> upstream/18.0
@@ -1041,7 +1469,11 @@ msgstr "ເອກະສານສິນຄ້າສຳລັບລາຍການ
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__theme_template_id
 msgid "Theme Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຢ່າງທີມ (Theme Template)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຢ່າງທີມ (Theme Template)"
 >>>>>>> upstream/18.0
@@ -1050,7 +1482,11 @@ msgstr "ແບບຢ່າງທີມ (Theme Template)"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_search
 msgid "This document"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເອກະສານນີ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເອກະສານນີ້"
 >>>>>>> upstream/18.0
@@ -1059,7 +1495,11 @@ msgstr "ເອກະສານນີ້"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__type
 msgid "Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດ"
 >>>>>>> upstream/18.0
@@ -1068,7 +1508,11 @@ msgstr "ປະເພດ"
 #: model_terms:ir.actions.act_window,help:sale_pdf_quote_builder.quotation_document_action
 msgid "Upload quotation headers and footers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບໂຫຼດຫົວບົດ ແລະ ທ້າຍບົດ ຂອງໃບສະເໜີລາຄາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັບໂຫຼດຫົວບົດ ແລະ ທ້າຍບົດ ຂອງໃບສະເໜີລາຄາ"
 >>>>>>> upstream/18.0
@@ -1077,7 +1521,11 @@ msgstr "ອັບໂຫຼດຫົວບົດ ແລະ ທ້າຍບົດ 
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__url
 msgid "Url"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Url"
+>>>>>>> upstream/18.0
 =======
 msgstr "Url"
 >>>>>>> upstream/18.0
@@ -1086,7 +1534,11 @@ msgstr "Url"
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "Visible to all"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງໃຫ້ທຸກຄົນເຫັນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະແດງໃຫ້ທຸກຄົນເຫັນ"
 >>>>>>> upstream/18.0
@@ -1095,7 +1547,11 @@ msgstr "ສະແດງໃຫ້ທຸກຄົນເຫັນ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__voice_ids
 msgid "Voice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຽງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສຽງ"
 >>>>>>> upstream/18.0
@@ -1104,7 +1560,11 @@ msgstr "ສຽງ"
 #: model:ir.model.fields,field_description:sale_pdf_quote_builder.field_quotation_document__website_id
 msgid "Website"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວັບໄຊ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເວັບໄຊ"
 >>>>>>> upstream/18.0
@@ -1114,7 +1574,11 @@ msgstr "ເວັບໄຊ"
 #: code:addons/sale_pdf_quote_builder/models/product_document.py:0
 msgid "When attached inside a quote, the document must be a file, not a URL."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມື່ອຄັດຕິດພາຍໃນໃບສະເໜີລາຄາ, ເອກະສານຕ້ອງເປັນໄຟລ໌, ບໍ່ແມ່ນ URL."
+>>>>>>> upstream/18.0
 =======
 msgstr "ເມື່ອຄັດຕິດພາຍໃນໃບສະເໜີລາຄາ, ເອກະສານຕ້ອງເປັນໄຟລ໌, ບໍ່ແມ່ນ URL."
 >>>>>>> upstream/18.0
@@ -1124,7 +1588,11 @@ msgstr "ເມື່ອຄັດຕິດພາຍໃນໃບສະເໜີລ
 #: code:addons/sale_pdf_quote_builder/models/ir_actions_report.py:0
 msgid "Yes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແມ່ນ"
 >>>>>>> upstream/18.0
@@ -1136,6 +1604,10 @@ msgid ""
 "link to your file."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານສາມາດອັບໂຫຼດໄຟລ໌ຈາກຄອມພິວເຕີຂອງທ່ານ ຫຼື ສຳເນົາ/ວາງ ລິ້ງອິນເຕີເນັດຫາໄຟລ໌ຂອງທ່ານ."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານສາມາດອັບໂຫຼດໄຟລ໌ຈາກຄອມພິວເຕີຂອງທ່ານ ຫຼື ສຳເນົາ/ວາງ ລິ້ງອິນເຕີເນັດຫາໄຟລ໌ຂອງທ່ານ."
 >>>>>>> upstream/18.0
@@ -1144,7 +1616,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sale_pdf_quote_builder.quotation_document_form
 msgid "on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃນ"
 >>>>>>> upstream/18.0

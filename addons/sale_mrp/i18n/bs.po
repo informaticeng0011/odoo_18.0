@@ -180,6 +180,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -708,10 +709,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1771,16 +1776,22 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-17 05:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Bosnian <https://translate.odoo.com/projects/odoo-18/sale_mrp/"
 "bs/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2838,6 +2849,11 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model_terms:ir.ui.view,arch_db:sale_mrp.sale_order_portal_content_inherit_sale_mrp
@@ -3019,7 +3035,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As long as there are some sale order lines that must be delivered/invoiced and are related to these bills of materials, you can not remove them.\n"
+=======
+"As long as there are some sale order lines that must be delivered/invoiced "
+"and are related to these bills of materials, you can not remove them.\n"
+>>>>>>> upstream/18.0
 =======
 "As long as there are some sale order lines that must be delivered/invoiced "
 "and are related to these bills of materials, you can not remove them.\n"
@@ -3766,7 +3787,11 @@ msgid "Bill of Material"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sastavnica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sastavnica"
 >>>>>>> upstream/18.0
@@ -4485,7 +4510,11 @@ msgid "Date:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum:"
 >>>>>>> upstream/18.0
@@ -5194,6 +5223,7 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Stavka dnevnika"
@@ -5301,6 +5331,8 @@ msgstr "Stavka dnevnika"
 msgstr "Stavka dnevnika"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5727,6 +5759,9 @@ msgstr "Radni nalog proizvodnje"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6162,7 +6197,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6448,6 +6486,7 @@ msgid "Origin sale order line"
 msgstr ""
 
 #. module: sale_mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7160,10 +7199,16 @@ msgstr "Radni nalog proizvodnje"
 msgid "Product Moves (Stock Move Line)"
 msgstr "Kretanja proizvoda (Stavka skladišnog transfera)"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:sale_mrp.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "Kretanja proizvoda (Stavka skladišnog transfera)"
+>>>>>>> upstream/18.0
 
 #. module: sale_mrp
 #: model:ir.model,name:sale_mrp.model_sale_order
 msgid "Sales Order"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8004,6 +8049,9 @@ msgstr "Prodajna narudžba"
 =======
 #: model:ir.model,name:sale_mrp.model_sale_order
 msgid "Sales Order"
+msgstr "Prodajna narudžba"
+>>>>>>> upstream/18.0
+=======
 msgstr "Prodajna narudžba"
 >>>>>>> upstream/18.0
 =======
@@ -8022,6 +8070,7 @@ msgid "Sources Sale Orders of %s"
 msgstr ""
 
 #. module: sale_mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8593,6 +8642,11 @@ msgstr ""
 msgid "Stock Rule"
 msgstr "Skladišno pravilo"
 >>>>>>> upstream/18.0
+=======
+#: model:ir.model,name:sale_mrp.model_stock_rule
+msgid "Stock Rule"
+msgstr "Skladišno pravilo"
+>>>>>>> upstream/18.0
 
 #~ msgid "Production Order"
 #~ msgstr "Radni nalog proizvodnje"
@@ -8739,6 +8793,9 @@ msgstr "Skladišno pravilo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

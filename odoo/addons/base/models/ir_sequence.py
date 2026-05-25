@@ -483,7 +483,11 @@ class IrSequence(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         except (ValueError, TypeError):
+=======
+        except (ValueError, TypeError, KeyError):
+>>>>>>> upstream/18.0
 =======
         except (ValueError, TypeError, KeyError):
 >>>>>>> upstream/18.0
@@ -1609,7 +1613,10 @@ class IrSequenceDateRange(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2434,6 +2441,9 @@ class IrSequenceDateRange(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -305,7 +305,10 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -901,6 +904,7 @@ class StockRule(models.Model):
         move_values = super()._get_stock_move_values(product_id, product_qty, product_uom, location_dest_id, name, origin, company_id, values)
         if (sol_id := values.get('sale_line_id')) is not None and 'product_id' in move_values:
             # if the SOL is for a kit
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1793,6 +1797,8 @@ class StockRule(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             sol = self.env['sale.order.line'].browse(sol_id)
             if move_values['product_id'] != sol.product_id.id:
                 active_moves = sol.move_ids.filtered(lambda m: m.state != 'cancel')
@@ -2060,6 +2066,9 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

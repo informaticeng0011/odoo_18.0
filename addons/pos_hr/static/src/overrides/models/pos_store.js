@@ -259,6 +259,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.employeeBuffer = [];
+>>>>>>> upstream/18.0
 =======
         this.employeeBuffer = [];
 >>>>>>> upstream/18.0
@@ -1286,7 +1290,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.employeeBuffer = [];
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2055,7 +2062,11 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.employeeIsAdmin;
+=======
+            return this.employeeIsAdmin && (await super.allowProductCreation());
+>>>>>>> upstream/18.0
 =======
             return this.employeeIsAdmin && (await super.allowProductCreation());
 >>>>>>> upstream/18.0

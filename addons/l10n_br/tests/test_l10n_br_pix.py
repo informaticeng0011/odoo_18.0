@@ -51,7 +51,10 @@ class TestL10nBrPix(AccountTestInvoicingCommon):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         with self.assertRaises(ValidationError, msg="not a valid CPF"):
@@ -61,6 +64,9 @@ class TestL10nBrPix(AccountTestInvoicingCommon):
             self.partner_bank.write({"proxy_type": "br_random", "proxy_value": False})
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

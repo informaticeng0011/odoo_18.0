@@ -1,19 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mass_mailing_sms
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * mass_mailing_sms
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # Bone NI <bounkirdni@gmail.com>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2026-04-10 18:37+0000\n"
 "Last-Translator: \n"
@@ -23,6 +30,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-20 09:33+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -33,6 +42,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -40,7 +52,11 @@ msgstr ""
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers and opt-out link)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ລວມທັງລະບົບຕິດຕາມລິ້ງ ແລະ ລິ້ງຍົກເລີກການຮັບ)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (ລວມທັງລະບົບຕິດຕາມລິ້ງ ແລະ ລິ້ງຍົກເລີກການຮັບ)"
 >>>>>>> upstream/18.0
@@ -50,7 +66,11 @@ msgstr " (ລວມທັງລະບົບຕິດຕາມລິ້ງ ແລ
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including link trackers)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ລວມທັງລະບົບຕິດຕາມລິ້ງ)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (ລວມທັງລະບົບຕິດຕາມລິ້ງ)"
 >>>>>>> upstream/18.0
@@ -60,7 +80,11 @@ msgstr " (ລວມທັງລະບົບຕິດຕາມລິ້ງ)"
 #: code:addons/mass_mailing_sms/static/src/components/sms_widget/fields_sms_widget.js:0
 msgid " (including opt-out link)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " (ລວມທັງລິ້ງຍົກເລີກການຮັບ)"
+>>>>>>> upstream/18.0
 =======
 msgstr " (ລວມທັງລິ້ງຍົກເລີກການຮັບ)"
 >>>>>>> upstream/18.0
@@ -70,7 +94,11 @@ msgstr " (ລວມທັງລິ້ງຍົກເລີກການຮັບ)
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "24H Stats of %(mailing_type)s \"%(mailing_name)s\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖິຕິ 24 ຊົ່ວໂມງ ຂອງ %(mailing_type)s \"%(mailing_name)s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະຖິຕິ 24 ຊົ່ວໂມງ ຂອງ %(mailing_type)s \"%(mailing_name)s\""
 >>>>>>> upstream/18.0
@@ -84,11 +112,17 @@ msgid ""
 "                    </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<br/>\n"
 "                    <span class=\"text-muted\">\n"
 "                        <i class=\"fa fa-phone\"/> ຜູ້ຕິດຕໍ່\n"
 "                    </span>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
@@ -98,6 +132,11 @@ msgid ""
 "Text Message have been cancelled and will not be sent.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ "
+"SMS ໄດ້ຖືກຍົກເລີກແລ້ວ ແລະ ຈະບໍ່ຖືກສົ່ງອອກ.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"canceled_text_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ "
 "SMS ໄດ້ຖືກຍົກເລີກແລ້ວ ແລະ ຈະບໍ່ຖືກສົ່ງອອກ.</span>"
@@ -110,6 +149,11 @@ msgid ""
 "Messages could not be delivered.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">ບໍ່ສາມາດສົ່ງຂໍ້ຄ"
+"ວາມ SMS ໄດ້.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"failed_text_sms\" invisible=\"mailing_type != 'sms'\">ບໍ່ສາມາດສົ່ງຂໍ້ຄ"
 "ວາມ SMS ໄດ້.</span>"
@@ -122,6 +166,11 @@ msgid ""
 "SMS marketing is scheduled for </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">ການຕະຫຼ"
+"າດ SMS ນີ້ມີກຳນົດເວລາສົ່ງສຳລັບ </span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"next_departure_text\" invisible=\"mailing_type != 'sms'\">ການຕະຫຼ"
 "າດ SMS ນີ້ມີກຳນົດເວລາສົ່ງສຳລັບ </span>"
@@ -134,6 +183,11 @@ msgid ""
 " Messages are being processed.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ "
+"SMS ກຳລັງຢູ່ໃນຂັ້ນຕອນການປະມວນຜົນ.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"process_text_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ "
 "SMS ກຳລັງຢູ່ໃນຂັ້ນຕອນການປະມວນຜົນ.</span>"
@@ -146,6 +200,11 @@ msgid ""
 "Text Messages are in queue and will be sent soon.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"scheduled_text_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ "
+"SMS ຢູ່ໃນຄິວ ແລະ ຈະຖືກສົ່ງອອກໃນໄວໆນີ້.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"scheduled_text_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ "
 "SMS ຢູ່ໃນຄິວ ແລະ ຈະຖືກສົ່ງອອກໃນໄວໆນີ້.</span>"
@@ -158,6 +217,11 @@ msgid ""
 "Messages have been sent.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ SMS ຖືກສົ່ງອອກ"
+"ແລ້ວ.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"sent_sms\" invisible=\"mailing_type != 'sms'\">ຂໍ້ຄວາມ SMS ຖືກສົ່ງອອກ"
 "ແລ້ວ.</span>"
@@ -167,7 +231,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "<span widget=\"statinfo\">Open Recipient</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span widget=\"statinfo\">ເປີດລາຍຊື່ຜູ້ຮັບ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span widget=\"statinfo\">ເປີດລາຍຊື່ຜູ້ຮັບ</span>"
 >>>>>>> upstream/18.0
@@ -176,7 +244,11 @@ msgstr "<span widget=\"statinfo\">ເປີດລາຍຊື່ຜູ້ຮັ�
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_list_view_kanban
 msgid "<span>Valid SMS Recipients</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ຜູ້ຮັບ SMS ທີ່ໃຊ້ການໄດ້</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ຜູ້ຮັບ SMS ທີ່ໃຊ້ການໄດ້</span>"
 >>>>>>> upstream/18.0
@@ -189,6 +261,12 @@ msgid ""
 "                        </strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>\n"
+"                            ເບິ່ງຄືວ່າທ່ານມີເຄຣດິດ IAP ບໍ່ພຽງພໍ. ຄລິກທີ່ນີ້ເພື່ອຊື້ເຄຣດິດ.\n"
+"                        </strong>"
+>>>>>>> upstream/18.0
 =======
 "<strong>\n"
 "                            ເບິ່ງຄືວ່າທ່ານມີເຄຣດິດ IAP ບໍ່ພຽງພໍ. ຄລິກທີ່ນີ້ເພື່ອຊື້ເຄຣດິດ.\n"
@@ -203,18 +281,28 @@ msgid ""
 "                        </strong>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<strong>\n"
 "                            ເບິ່ງຄືວ່າບັນຊີ SMS ຂອງທ່ານຍັງບໍ່ໄດ້ລົງທະບຽນ. ຄລິກທີ່ນີ້ເພື່ອຕັ້ງຄ່າບັນຊີ"
 "ຂອງທ່ານ.\n"
 "                        </strong>"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: mass_mailing_sms
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "<strong>This SMS could not be delivered.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ບໍ່ສາມາດສົ່ງ SMS ນີ້ໄດ້.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>ບໍ່ສາມາດສົ່ງ SMS ນີ້ໄດ້.</strong>"
 >>>>>>> upstream/18.0
@@ -223,7 +311,11 @@ msgstr "<strong>ບໍ່ສາມາດສົ່ງ SMS ນີ້ໄດ້.</st
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "<strong>This SMS could not be sent.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>SMS ນີ້ບໍ່ສາມາດສົ່ງອອກໄດ້.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>SMS ນີ້ບໍ່ສາມາດສົ່ງອອກໄດ້.</strong>"
 >>>>>>> upstream/18.0
@@ -232,7 +324,11 @@ msgstr "<strong>SMS ນີ້ບໍ່ສາມາດສົ່ງອອກໄດ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "<strong>This number appears to be invalid.</strong>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ເບິ່ງຄືວ່າເບີໂທລະສັບນີ້ບໍ່ຖືກຕ້ອງ.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>ເບິ່ງຄືວ່າເບີໂທລະສັບນີ້ບໍ່ຖືກຕ້ອງ.</strong>"
 >>>>>>> upstream/18.0
@@ -242,7 +338,11 @@ msgstr "<strong>ເບິ່ງຄືວ່າເບີໂທລະສັບນ�
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "A/B Test"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການທົດສອບ A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການທົດສອບ A/B"
 >>>>>>> upstream/18.0
@@ -252,7 +352,11 @@ msgstr "ການທົດສອບ A/B"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__ab_testing_mailings_sms_count
 msgid "A/B Test Mailings SMS #"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການສົ່ງ SMS ທົດສອບ A/B"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນການສົ່ງ SMS ທົດສອບ A/B"
 >>>>>>> upstream/18.0
@@ -262,7 +366,11 @@ msgstr "ຈຳນວນການສົ່ງ SMS ທົດສອບ A/B"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "A/B Test: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການທົດສອບ A/B: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການທົດສອບ A/B: %s"
 >>>>>>> upstream/18.0
@@ -271,7 +379,11 @@ msgstr "ການທົດສອບ A/B: %s"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_needaction
 msgid "Action Needed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
 >>>>>>> upstream/18.0
@@ -281,7 +393,11 @@ msgstr "ຈຳເປັນຕ້ອງດຳເນີນການ"
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 msgid "An error occurred."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນ."
 >>>>>>> upstream/18.0
@@ -290,7 +406,11 @@ msgstr "ເກີດຂໍ້ຜິດພາດຂຶ້ນ."
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_attachment_count
 msgid "Attachment Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
 >>>>>>> upstream/18.0
@@ -299,7 +419,11 @@ msgstr "ຈຳນວນໄຟລ໌ຄັດຕິດ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_authentication
 msgid "Authentication Error\""
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການຢືນຢັນຕົວຕົນ\""
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຜິດພາດໃນການຢືນຢັນຕົວຕົນ\""
 >>>>>>> upstream/18.0
@@ -309,7 +433,11 @@ msgstr "ຂໍ້ຜິດພາດໃນການຢືນຢັນຕົວຕ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Bounced"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າສະເລ່ຍຂອງການສົ່ງບໍ່ສຳເລັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄ່າສະເລ່ຍຂອງການສົ່ງບໍ່ສຳເລັດ"
 >>>>>>> upstream/18.0
@@ -319,7 +447,11 @@ msgstr "ຄ່າສະເລ່ຍຂອງການສົ່ງບໍ່ສຳ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Average of Clicked"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າສະເລ່ຍຂອງການຄລິກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄ່າສະເລ່ຍຂອງການຄລິກ"
 >>>>>>> upstream/18.0
@@ -329,7 +461,11 @@ msgstr "ຄ່າສະເລ່ຍຂອງການຄລິກ"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "BOUNCED (%i)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງບໍ່ສຳເລັດ (%i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງບໍ່ສຳເລັດ (%i)"
 >>>>>>> upstream/18.0
@@ -342,6 +478,11 @@ msgid ""
 "model: %(model)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຕິດບັນຊີດຳຜ່ານການຍົກເລີກການຮັບຂ່າວສານການຕະຫຼາດ SMS (mailing ID: %(mailing_id)s - "
+"model: %(model)s)"
+>>>>>>> upstream/18.0
 =======
 "ຕິດບັນຊີດຳຜ່ານການຍົກເລີກການຮັບຂ່າວສານການຕະຫຼາດ SMS (mailing ID: %(mailing_id)s - "
 "model: %(model)s)"
@@ -351,7 +492,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_blacklist
 msgid "Blacklisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕິດບັນຊີດຳ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕິດບັນຊີດຳ"
 >>>>>>> upstream/18.0
@@ -360,7 +505,11 @@ msgstr "ຕິດບັນຊີດຳ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__mobile_blacklisted
 msgid "Blacklisted Phone Is Mobile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີມືຖື"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີມືຖື"
 >>>>>>> upstream/18.0
@@ -369,7 +518,11 @@ msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແ
 #: model:ir.ui.menu,name:mass_mailing_sms.phone_blacklist_menu
 msgid "Blacklisted Phone Numbers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳ"
 >>>>>>> upstream/18.0
@@ -378,7 +531,11 @@ msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີບ້ານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີບ້ານ"
 >>>>>>> upstream/18.0
@@ -388,7 +545,11 @@ msgstr "ເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Bounced (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງບໍ່ສຳເລັດ (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງບໍ່ສຳເລັດ (%)"
 >>>>>>> upstream/18.0
@@ -398,7 +559,11 @@ msgstr "ສົ່ງບໍ່ສຳເລັດ (%)"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "CLICKED (%i)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີການຄລິກ (%i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມີການຄລິກ (%i)"
 >>>>>>> upstream/18.0
@@ -409,7 +574,11 @@ msgstr "ມີການຄລິກ (%i)"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແຄມເປນ"
 >>>>>>> upstream/18.0
@@ -418,7 +587,11 @@ msgstr "ແຄມເປນ"
 #: model:ir.ui.menu,name:mass_mailing_sms.menu_email_campaigns
 msgid "Campaigns"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແຄມເປນ"
 >>>>>>> upstream/18.0
@@ -427,7 +600,11 @@ msgstr "ແຄມເປນ"
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_sms_test__numbers
 msgid "Carriage-return-separated list of phone numbers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຊື່ເບີໂທລະສັບທີ່ແຍກດ້ວຍການຂຶ້ນແຖວໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍຊື່ເບີໂທລະສັບທີ່ແຍກດ້ວຍການຂຶ້ນແຖວໃໝ່"
 >>>>>>> upstream/18.0
@@ -437,7 +614,11 @@ msgstr "ລາຍຊື່ເບີໂທລະສັບທີ່ແຍກດ້
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Clicked (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີການຄລິກ (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມີການຄລິກ (%)"
 >>>>>>> upstream/18.0
@@ -446,7 +627,11 @@ msgstr "ມີການຄລິກ (%)"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__sms_code
 msgid "Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ"
 >>>>>>> upstream/18.0
@@ -456,7 +641,11 @@ msgstr "ລະຫັດ"
 msgid ""
 "Come back once some SMS Mailings are sent to check out aggregated results."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບມາອີກຄັ້ງເມື່ອມີການສົ່ງ SMS ແລ້ວ ເພື່ອເບິ່ງຜົນການວິເຄາະໂດຍລວມ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ກັບມາອີກຄັ້ງເມື່ອມີການສົ່ງ SMS ແລ້ວ ເພື່ອເບິ່ງຜົນການວິເຄາະໂດຍລວມ."
 >>>>>>> upstream/18.0
@@ -465,7 +654,11 @@ msgstr "ກັບມາອີກຄັ້ງເມື່ອມີການສົ
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_configuration
 msgid "Configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກໍານົດຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການກໍານົດຄ່າ"
 >>>>>>> upstream/18.0
@@ -474,7 +667,11 @@ msgstr "ການກໍານົດຄ່າ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_country_not_supported
 msgid "Country Not Supported"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດທີ່ບໍ່ຮອງຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເທດທີ່ບໍ່ຮອງຮັບ"
 >>>>>>> upstream/18.0
@@ -483,7 +680,11 @@ msgstr "ປະເທດທີ່ບໍ່ຮອງຮັບ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_registration_needed
 msgid "Country-specific Registration Required"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງມີການລົງທະບຽນສະເພາະປະເທດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳເປັນຕ້ອງມີການລົງທະບຽນສະເພາະປະເທດ"
 >>>>>>> upstream/18.0
@@ -492,7 +693,11 @@ msgstr "ຈຳເປັນຕ້ອງມີການລົງທະບຽນສ
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_list_action_sms
 msgid "Create a Mailing List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງລາຍຊື່ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງລາຍຊື່ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -501,7 +706,11 @@ msgstr "ສ້າງລາຍຊື່ຜູ້ຮັບ"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_mailing_action_sms
 msgid "Create a SMS Marketing Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງການສົ່ງ SMS ການຕະຫຼາດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງການສົ່ງ SMS ການຕະຫຼາດ"
 >>>>>>> upstream/18.0
@@ -510,7 +719,11 @@ msgstr "ສ້າງການສົ່ງ SMS ການຕະຫຼາດ"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_contact_action_sms
 msgid "Create a mailing contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງຜູ້ຕິດຕໍ່ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງຜູ້ຕິດຕໍ່ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -519,7 +732,11 @@ msgstr "ສ້າງຜູ້ຕິດຕໍ່ຜູ້ຮັບ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງໂດຍ"
 >>>>>>> upstream/18.0
@@ -528,7 +745,11 @@ msgstr "ສ້າງໂດຍ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງເມື່ອ"
 >>>>>>> upstream/18.0
@@ -538,7 +759,11 @@ msgstr "ສ້າງເມື່ອ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວັນທີ"
 >>>>>>> upstream/18.0
@@ -547,7 +772,11 @@ msgstr "ວັນທີ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Discard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍົກເລີກ"
 >>>>>>> upstream/18.0
@@ -556,7 +785,11 @@ msgstr "ຍົກເລີກ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ທີ່ສະແດງ"
 >>>>>>> upstream/18.0
@@ -566,7 +799,11 @@ msgstr "ຊື່ທີ່ສະແດງ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Duplicate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດສຳເນົາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຮັດສຳເນົາ"
 >>>>>>> upstream/18.0
@@ -576,7 +813,11 @@ msgstr "ເຮັດສຳເນົາ"
 #: code:addons/mass_mailing_sms/models/res_users.py:0
 msgid "Email Marketing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕະຫຼາດຜ່ານອີເມວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕະຫຼາດຜ່ານອີເມວ"
 >>>>>>> upstream/18.0
@@ -585,7 +826,11 @@ msgstr "ການຕະຫຼາດຜ່ານອີເມວ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_contact_view_search
 msgid "Exclude Blacklisted Phone"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເວັ້ນເບີໂທລະສັບທີ່ຕິດບັນຊີດຳ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍົກເວັ້ນເບີໂທລະສັບທີ່ຕິດບັນຊີດຳ"
 >>>>>>> upstream/18.0
@@ -594,7 +839,11 @@ msgstr "ຍົກເວັ້ນເບີໂທລະສັບທີ່ຕິດ
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_expired
 msgid "Expired"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝົດອາຍຸ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໝົດອາຍຸ"
 >>>>>>> upstream/18.0
@@ -603,7 +852,11 @@ msgstr "ໝົດອາຍຸ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__failure_type
 msgid "Failure type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຂອງຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດຂອງຂໍ້ຜິດພາດ"
 >>>>>>> upstream/18.0
@@ -615,6 +868,10 @@ msgid ""
 "comparisons."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຟິວທີ່ໃຊ້ສຳລັບເກັບເບີໂທລະສັບທີ່ກວດສອບຮູບແບບແລ້ວ. ຊ່ວຍໃຫ້ການຄົ້ນຫາ ແລະ ການປຽບທຽບໄວຂຶ້ນ."
+>>>>>>> upstream/18.0
 =======
 "ຟິວທີ່ໃຊ້ສຳລັບເກັບເບີໂທລະສັບທີ່ກວດສອບຮູບແບບແລ້ວ. ຊ່ວຍໃຫ້ການຄົ້ນຫາ ແລະ ການປຽບທຽບໄວຂຶ້ນ."
 >>>>>>> upstream/18.0
@@ -623,7 +880,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_follower_ids
 msgid "Followers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ຕິດຕາມ"
 >>>>>>> upstream/18.0
@@ -632,7 +893,11 @@ msgstr "ຜູ້ຕິດຕາມ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_partner_ids
 msgid "Followers (Partners)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ຕິດຕາມ (ຄູ່ຄ້າ)"
 >>>>>>> upstream/18.0
@@ -644,6 +909,11 @@ msgid ""
 "                    For an SMS Text Message, internal Title of the Message."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສຳລັບອີເມວ, ແມ່ນຫົວຂໍ້ທີ່ຜູ້ຮັບຈະເຫັນໃນກ່ອງຂໍ້ຄວາມ.\n"
+"                    ສຳລັບ SMS, ແມ່ນຫົວຂໍ້ພາຍໃນຂອງຂໍ້ຄວາມ."
+>>>>>>> upstream/18.0
 =======
 "ສຳລັບອີເມວ, ແມ່ນຫົວຂໍ້ທີ່ຜູ້ຮັບຈະເຫັນໃນກ່ອງຂໍ້ຄວາມ.\n"
 "                    ສຳລັບ SMS, ແມ່ນຫົວຂໍ້ພາຍໃນຂອງຂໍ້ຄວາມ."
@@ -656,6 +926,11 @@ msgid ""
 "For an SMS, the internal title of the message."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສຳລັບອີເມວ, ຫົວຂໍ້ທີ່ຜູ້ຮັບຈະເຫັນໃນກ່ອງຂໍ້ຄວາມ.\n"
+"ສຳລັບ SMS, ຫົວຂໍ້ພາຍໃນຂອງຂໍ້ຄວາມ."
+>>>>>>> upstream/18.0
 =======
 "ສຳລັບອີເມວ, ຫົວຂໍ້ທີ່ຜູ້ຮັບຈະເຫັນໃນກ່ອງຂໍ້ຄວາມ.\n"
 "ສຳລັບ SMS, ຫົວຂໍ້ພາຍໃນຂອງຂໍ້ຄວາມ."
@@ -665,7 +940,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_to
 msgid "From / To identic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີຜູ້ສົ່ງ ແລະ ຜູ້ຮັບຄືກັນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີຜູ້ສົ່ງ ແລະ ຜູ້ຮັບຄືກັນ"
 >>>>>>> upstream/18.0
@@ -674,7 +953,11 @@ msgstr "ເບີຜູ້ສົ່ງ ແລະ ຜູ້ຮັບຄືກັ�
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__has_message
 msgid "Has Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມີຂໍ້ຄວາມ"
 >>>>>>> upstream/18.0
@@ -683,7 +966,11 @@ msgstr "ມີຂໍ້ຄວາມ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__utm_campaign__ab_testing_sms_winner_selection__clicks_ratio
 msgid "Highest Click Rate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັດຕາການຄລິກສູງສຸດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັດຕາການຄລິກສູງສຸດ"
 >>>>>>> upstream/18.0
@@ -692,7 +979,11 @@ msgstr "ອັດຕາການຄລິກສູງສຸດ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ (ID)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ (ID)"
 >>>>>>> upstream/18.0
@@ -701,7 +992,11 @@ msgstr "ລະຫັດ (ID)"
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_needaction
 msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫາກໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະແຈ້ງເຕືອນໃຫ້ທ່ານຊາບ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫາກໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະແຈ້ງເຕືອນໃຫ້ທ່ານຊາບ."
 >>>>>>> upstream/18.0
@@ -711,7 +1006,11 @@ msgstr "ຫາກໝາຍໄວ້, ຂໍ້ຄວາມໃໝ່ຈະແຈ�
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫາກໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫາກໝາຍໄວ້, ບາງຂໍ້ຄວາມມີຂໍ້ຜິດພາດໃນການສົ່ງ."
 >>>>>>> upstream/18.0
@@ -723,6 +1022,10 @@ msgid ""
 " mass mailing sms anymore, from any list"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຫາກເບີໂທລະສັບທີ່ກວດສອບແລ້ວຕິດບັນຊີດຳ, ຜູ້ຕິດຕໍ່ຈະບໍ່ໄດ້ຮັບ SMS ການຕະຫຼາດອີກຕໍ່ໄປ ຈາກທຸກໆລາຍຊື່"
+>>>>>>> upstream/18.0
 =======
 "ຫາກເບີໂທລະສັບທີ່ກວດສອບແລ້ວຕິດບັນຊີດຳ, ຜູ້ຕິດຕໍ່ຈະບໍ່ໄດ້ຮັບ SMS ການຕະຫຼາດອີກຕໍ່ໄປ ຈາກທຸກໆລາຍຊື່"
 >>>>>>> upstream/18.0
@@ -733,7 +1036,11 @@ msgid ""
 "Immediately send the SMS Mailing instead of queuing up. Use at your own "
 "risk."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ SMS ທັນທີໂດຍບໍ່ຕ້ອງລໍຖ້າຄິວ. ໃຊ້ດ້ວຍຄວາມສ່ຽງຂອງທ່ານເອງ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງ SMS ທັນທີໂດຍບໍ່ຕ້ອງລໍຖ້າຄິວ. ໃຊ້ດ້ວຍຄວາມສ່ຽງຂອງທ່ານເອງ."
 >>>>>>> upstream/18.0
@@ -743,7 +1050,11 @@ msgstr "ສົ່ງ SMS ທັນທີໂດຍບໍ່ຕ້ອງລໍຖ�
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_composer__mass_sms_allow_unsubscribe
 msgid "Include opt-out link"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມລິ້ງຍົກເລີກການຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລວມລິ້ງຍົກເລີກການຮັບ"
 >>>>>>> upstream/18.0
@@ -752,7 +1063,11 @@ msgstr "ລວມລິ້ງຍົກເລີກການຮັບ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_callback
 msgid "Incorrect callback URL"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ສຳລັບ Callback ບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL ສຳລັບ Callback ບໍ່ຖືກຕ້ອງ"
 >>>>>>> upstream/18.0
@@ -765,6 +1080,11 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລະບຸວ່າເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີມືຖືຫຼືບໍ່. ຊ່ວຍແຍກແຍະວ່າເບີໃດຕິດບັນຊີດຳ ເມື່ອມີທັງເບີມືຖື ແລະ ເບີບ້ານໃນ"
+"ໂມເດວ."
+>>>>>>> upstream/18.0
 =======
 "ລະບຸວ່າເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີມືຖືຫຼືບໍ່. ຊ່ວຍແຍກແຍະວ່າເບີໃດຕິດບັນຊີດຳ ເມື່ອມີທັງເບີມືຖື ແລະ ເບີບ້ານໃນ"
 "ໂມເດວ."
@@ -778,6 +1098,11 @@ msgid ""
 "mobile and phone field in a model."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລະບຸວ່າເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີບ້ານຫຼືບໍ່. ຊ່ວຍແຍກແຍະວ່າເບີໃດຕິດບັນຊີດຳ ເມື່ອມີທັງເບີມືຖື ແລະ ເບີບ້ານໃ"
+"ນໂມເດວ."
+>>>>>>> upstream/18.0
 =======
 "ລະບຸວ່າເບີໂທລະສັບທີ່ຕິດບັນຊີດຳແມ່ນເບີບ້ານຫຼືບໍ່. ຊ່ວຍແຍກແຍະວ່າເບີໃດຕິດບັນຊີດຳ ເມື່ອມີທັງເບີມືຖື ແລະ ເບີບ້ານໃ"
 "ນໂມເດວ."
@@ -787,7 +1112,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_credit
 msgid "Insufficient Credit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄຣດິດບໍ່ພຽງພໍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຄຣດິດບໍ່ພຽງພໍ"
 >>>>>>> upstream/18.0
@@ -796,7 +1125,11 @@ msgstr "ເຄຣດິດບໍ່ພຽງພໍ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_has_insufficient_credit
 msgid "Insufficient IAP credits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄຣດິດ IAP ບໍ່ພຽງພໍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຄຣດິດ IAP ບໍ່ພຽງພໍ"
 >>>>>>> upstream/18.0
@@ -805,7 +1138,11 @@ msgstr "ເຄຣດິດ IAP ບໍ່ພຽງພໍ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_kanban_sms
 msgid "Insufficient credits"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄຣດິດບໍ່ພຽງພໍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຄຣດິດບໍ່ພຽງພໍ"
 >>>>>>> upstream/18.0
@@ -814,7 +1151,11 @@ msgstr "ເຄຣດິດບໍ່ພຽງພໍ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_invalid_destination
 msgid "Invalid Destination"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປາຍທາງບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປາຍທາງບໍ່ຖືກຕ້ອງ"
 >>>>>>> upstream/18.0
@@ -824,7 +1165,11 @@ msgstr "ປາຍທາງບໍ່ຖືກຕ້ອງ"
 #: code:addons/mass_mailing_sms/controllers/main.py:0
 msgid "Invalid number %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ %s ບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບ %s ບໍ່ຖືກຕ້ອງ"
 >>>>>>> upstream/18.0
@@ -833,7 +1178,11 @@ msgstr "ເບີໂທລະສັບ %s ບໍ່ຖືກຕ້ອງ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_is_follower
 msgid "Is Follower"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແມ່ນຜູ້ຕິດຕາມ"
 >>>>>>> upstream/18.0
@@ -842,7 +1191,11 @@ msgstr "ແມ່ນຜູ້ຕິດຕາມ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
 >>>>>>> upstream/18.0
@@ -851,7 +1204,11 @@ msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
 >>>>>>> upstream/18.0
@@ -860,7 +1217,11 @@ msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
 #: model:ir.model,name:mass_mailing_sms.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊື່ອມຕໍ່ SMS ກັບໂມເດວຕິດຕາມການສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຊື່ອມຕໍ່ SMS ກັບໂມເດວຕິດຕາມການສົ່ງ"
 >>>>>>> upstream/18.0
@@ -869,7 +1230,11 @@ msgstr "ເຊື່ອມຕໍ່ SMS ກັບໂມເດວຕິດຕາ�
 #: model:ir.ui.menu,name:mass_mailing_sms.link_tracker_menu
 msgid "Link Tracker"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບົບຕິດຕາມລິ້ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະບົບຕິດຕາມລິ້ງ"
 >>>>>>> upstream/18.0
@@ -880,7 +1245,11 @@ msgstr "ລະບົບຕິດຕາມລິ້ງ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສົ່ງ"
 >>>>>>> upstream/18.0
@@ -889,7 +1258,11 @@ msgstr "ການສົ່ງ"
 #: model:ir.model,name:mass_mailing_sms.model_mailing_contact
 msgid "Mailing Contact"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ຕິດຕໍ່ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -898,7 +1271,11 @@ msgstr "ຜູ້ຕິດຕໍ່ຜູ້ຮັບ"
 #: model:ir.model,name:mass_mailing_sms.model_mailing_list
 msgid "Mailing List"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຊື່ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍຊື່ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -908,7 +1285,11 @@ msgstr "ລາຍຊື່ຜູ້ຮັບ"
 #: model:ir.ui.menu,name:mass_mailing_sms.mailing_contact_menu_sms
 msgid "Mailing List Contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່ໃນລາຍຊື່ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ຕິດຕໍ່ໃນລາຍຊື່ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -919,7 +1300,11 @@ msgstr "ຜູ້ຕິດຕໍ່ໃນລາຍຊື່ຜູ້ຮັບ"
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_contacts
 msgid "Mailing Lists"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍຊື່ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍຊື່ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -928,7 +1313,11 @@ msgstr "ລາຍຊື່ຜູ້ຮັບ"
 #: model:ir.model,name:mass_mailing_sms.model_mailing_trace
 msgid "Mailing Statistics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖິຕິການສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະຖິຕິການສົ່ງ"
 >>>>>>> upstream/18.0
@@ -937,7 +1326,11 @@ msgstr "ສະຖິຕິການສົ່ງ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_tracker__mailing_trace_id
 msgid "Mailing Trace"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕິດຕາມການສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕິດຕາມການສົ່ງ"
 >>>>>>> upstream/18.0
@@ -946,7 +1339,11 @@ msgstr "ການຕິດຕາມການສົ່ງ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__mailing_type
 msgid "Mailing Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດການສົ່ງ"
 >>>>>>> upstream/18.0
@@ -958,6 +1355,10 @@ msgid ""
 "contact directory."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຜູ້ຕິດຕໍ່ຜູ້ຮັບຊ່ວຍໃຫ້ທ່ານສາມາດແຍກກຸ່ມເປົ້າໝາຍການຕະຫຼາດອອກຈາກລາຍຊື່ຜູ້ຕິດຕໍ່ທົ່ວໄປຂອງທ່ານ."
+>>>>>>> upstream/18.0
 =======
 "ຜູ້ຕິດຕໍ່ຜູ້ຮັບຊ່ວຍໃຫ້ທ່ານສາມາດແຍກກຸ່ມເປົ້າໝາຍການຕະຫຼາດອອກຈາກລາຍຊື່ຜູ້ຕິດຕໍ່ທົ່ວໄປຂອງທ່ານ."
 >>>>>>> upstream/18.0
@@ -966,7 +1367,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__utm_campaign__ab_testing_sms_winner_selection__manual
 msgid "Manual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການເອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈັດການເອງ"
 >>>>>>> upstream/18.0
@@ -975,7 +1380,11 @@ msgstr "ຈັດການເອງ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "Marketing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕະຫຼາດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕະຫຼາດ"
 >>>>>>> upstream/18.0
@@ -985,7 +1394,11 @@ msgstr "ການຕະຫຼາດ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_sms__mailing_id
 msgid "Mass Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງເປັນກຸ່ມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສົ່ງເປັນກຸ່ມ"
 >>>>>>> upstream/18.0
@@ -994,7 +1407,11 @@ msgstr "ການສົ່ງເປັນກຸ່ມ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__mailing_sms_ids
 msgid "Mass SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS ເປັນກຸ່ມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS ເປັນກຸ່ມ"
 >>>>>>> upstream/18.0
@@ -1003,7 +1420,11 @@ msgstr "SMS ເປັນກຸ່ມ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_has_error
 msgid "Message Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາມ"
 >>>>>>> upstream/18.0
@@ -1012,7 +1433,11 @@ msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງຂໍ້ຄວາ
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_ids
 msgid "Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຄວາມ"
 >>>>>>> upstream/18.0
@@ -1021,7 +1446,11 @@ msgstr "ຂໍ້ຄວາມ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__twilio_from_missing
 msgid "Missing From Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາດເບີຜູ້ສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາດເບີຜູ້ສົ່ງ"
 >>>>>>> upstream/18.0
@@ -1030,7 +1459,11 @@ msgstr "ຂາດເບີຜູ້ສົ່ງ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_missing
 msgid "Missing Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາດເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາດເບີໂທລະສັບ"
 >>>>>>> upstream/18.0
@@ -1039,7 +1472,11 @@ msgstr "ຂາດເບີໂທລະສັບ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__mobile
 msgid "Mobile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມືຖື"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມືຖື"
 >>>>>>> upstream/18.0
@@ -1048,7 +1485,11 @@ msgstr "ມືຖື"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_search_sms
 msgid "My SMS Marketing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕະຫຼາດ SMS ຂອງຂ້ອຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕະຫຼາດ SMS ຂອງຂ້ອຍ"
 >>>>>>> upstream/18.0
@@ -1057,7 +1498,11 @@ msgstr "ການຕະຫຼາດ SMS ຂອງຂ້ອຍ"
 #: model_terms:ir.actions.act_window,help:mass_mailing_sms.mailing_trace_report_action_sms
 msgid "No data yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີຂໍ້ມູນ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍັງບໍ່ມີຂໍ້ມູນ!"
 >>>>>>> upstream/18.0
@@ -1069,6 +1514,10 @@ msgid ""
 " Odoo apps."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ບໍ່ຈຳເປັນຕ້ອງນຳເຂົ້າລາຍຊື່ຜູ້ຮັບ, ທ່ານສາມາດສົ່ງ SMS ຫາຜູ້ຕິດຕໍ່ທີ່ບັນທຶກໄວ້ໃນແອັບ Odoo ອື່ນໆໄດ້."
+>>>>>>> upstream/18.0
 =======
 "ບໍ່ຈຳເປັນຕ້ອງນຳເຂົ້າລາຍຊື່ຜູ້ຮັບ, ທ່ານສາມາດສົ່ງ SMS ຫາຜູ້ຕິດຕໍ່ທີ່ບັນທຶກໄວ້ໃນແອັບ Odoo ອື່ນໆໄດ້."
 >>>>>>> upstream/18.0
@@ -1077,7 +1526,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_not_allowed
 msgid "Not Allowed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ໄດ້ຮັບອະນຸຍາດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ໄດ້ຮັບອະນຸຍາດ"
 >>>>>>> upstream/18.0
@@ -1086,7 +1539,11 @@ msgstr "ບໍ່ໄດ້ຮັບອະນຸຍາດ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_not_delivered
 msgid "Not Delivered"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງບໍ່ສຳເລັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງບໍ່ສຳເລັດ"
 >>>>>>> upstream/18.0
@@ -1096,7 +1553,11 @@ msgstr "ສົ່ງບໍ່ສຳເລັດ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_main
 msgid "Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບ"
 >>>>>>> upstream/18.0
@@ -1106,7 +1567,11 @@ msgstr "ເບີໂທລະສັບ"
 #: code:addons/mass_mailing_sms/controllers/main.py:0
 msgid "Number %s not found"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບເບີ %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ພົບເບີ %s"
 >>>>>>> upstream/18.0
@@ -1115,7 +1580,11 @@ msgstr "ບໍ່ພົບເບີ %s"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_needaction_counter
 msgid "Number of Actions"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນການດຳເນີນການ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນການດຳເນີນການ"
 >>>>>>> upstream/18.0
@@ -1124,7 +1593,11 @@ msgstr "ຈຳນວນການດຳເນີນການ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__mailing_sms_count
 msgid "Number of Mass SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ SMS ເປັນກຸ່ມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນ SMS ເປັນກຸ່ມ"
 >>>>>>> upstream/18.0
@@ -1133,7 +1606,11 @@ msgstr "ຈຳນວນ SMS ເປັນກຸ່ມ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_has_error_counter
 msgid "Number of errors"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
 >>>>>>> upstream/18.0
@@ -1142,7 +1619,11 @@ msgstr "ຈຳນວນຂໍ້ຜິດພາດ"
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_needaction_counter
 msgid "Number of messages requiring action"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີນການ"
 >>>>>>> upstream/18.0
@@ -1151,7 +1632,11 @@ msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ຕ້ອງດຳເນີ
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__message_has_error_counter
 msgid "Number of messages with delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພາດໃນການສົ່ງ"
 >>>>>>> upstream/18.0
@@ -1160,7 +1645,11 @@ msgstr "ຈຳນວນຂໍ້ຄວາມທີ່ມີຂໍ້ຜິດພ
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_sms_test__numbers
 msgid "Number(s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບ"
 >>>>>>> upstream/18.0
@@ -1171,7 +1660,11 @@ msgid ""
 "Once you send these text messages, they'll be making a grand entrance in all"
 " pockets, creating quite the bzzzzz!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເມື່ອທ່ານສົ່ງຂໍ້ຄວາມເຫຼົ່ານີ້ແລ້ວ, ພວກມັນຈະໄປຮອດທຸກຄົນທັນທີ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເມື່ອທ່ານສົ່ງຂໍ້ຄວາມເຫຼົ່ານີ້ແລ້ວ, ພວກມັນຈະໄປຮອດທຸກຄົນທັນທີ!"
 >>>>>>> upstream/18.0
@@ -1180,7 +1673,11 @@ msgstr "ເມື່ອທ່ານສົ່ງຂໍ້ຄວາມເຫຼົ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_tree_sms
 msgid "Open Recipient"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດລາຍຊື່ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເປີດລາຍຊື່ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -1189,7 +1686,11 @@ msgstr "ເປີດລາຍຊື່ຜູ້ຮັບ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_optout
 msgid "Opted Out"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກການຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍົກເລີກການຮັບ"
 >>>>>>> upstream/18.0
@@ -1198,7 +1699,11 @@ msgstr "ຍົກເລີກການຮັບ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Options"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທາງເລືອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທາງເລືອກ"
 >>>>>>> upstream/18.0
@@ -1207,7 +1712,11 @@ msgstr "ທາງເລືອກ"
 #: model:ir.model,name:mass_mailing_sms.model_sms_sms
 msgid "Outgoing SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS ຂາອອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS ຂາອອກ"
 >>>>>>> upstream/18.0
@@ -1216,7 +1725,11 @@ msgstr "SMS ຂາອອກ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__phone_sanitized_blacklisted
 msgid "Phone Blacklisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບຕິດບັນຊີດຳ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບຕິດບັນຊີດຳ"
 >>>>>>> upstream/18.0
@@ -1225,7 +1738,11 @@ msgstr "ເບີໂທລະສັບຕິດບັນຊີດຳ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__phone_mobile_search
 msgid "Phone/Mobile"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີບ້ານ/ມືຖື"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີບ້ານ/ມືຖື"
 >>>>>>> upstream/18.0
@@ -1234,7 +1751,11 @@ msgstr "ເບີບ້ານ/ມືຖື"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_main
 msgid "Please enter your phone number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາປ້ອນເບີໂທລະສັບຂອງທ່ານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ກະລຸນາປ້ອນເບີໂທລະສັບຂອງທ່ານ"
 >>>>>>> upstream/18.0
@@ -1244,7 +1765,11 @@ msgstr "ກະລຸນາປ້ອນເບີໂທລະສັບຂອງທ
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "RECEIVED (%i)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຮັບແລ້ວ (%i)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຮັບແລ້ວ (%i)"
 >>>>>>> upstream/18.0
@@ -1253,7 +1778,11 @@ msgstr "ໄດ້ຮັບແລ້ວ (%i)"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__rating_ids
 msgid "Ratings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໃຫ້ຄະແນນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການໃຫ້ຄະແນນ"
 >>>>>>> upstream/18.0
@@ -1262,7 +1791,11 @@ msgstr "ການໃຫ້ຄະແນນ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Ready to unleash your text messages?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພ້ອມທີ່ຈະສົ່ງຂໍ້ຄວາມຂອງທ່ານແລ້ວບໍ?"
+>>>>>>> upstream/18.0
 =======
 msgstr "ພ້ອມທີ່ຈະສົ່ງຂໍ້ຄວາມຂອງທ່ານແລ້ວບໍ?"
 >>>>>>> upstream/18.0
@@ -1272,7 +1805,11 @@ msgstr "ພ້ອມທີ່ຈະສົ່ງຂໍ້ຄວາມຂອງທ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Recipients"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ຮັບ"
 >>>>>>> upstream/18.0
@@ -1281,7 +1818,11 @@ msgstr "ຜູ້ຮັບ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_rejected
 msgid "Rejected"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກປະຕິເສດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຖືກປະຕິເສດ"
 >>>>>>> upstream/18.0
@@ -1291,7 +1832,11 @@ msgstr "ຖືກປະຕິເສດ"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "Report for %(expected)i %(mailing_type)s Sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານການສົ່ງ %(mailing_type)s ຈຳນວນ %(expected)i ຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບົດລາຍງານການສົ່ງ %(mailing_type)s ຈຳນວນ %(expected)i ຂໍ້ຄວາມ"
 >>>>>>> upstream/18.0
@@ -1300,7 +1845,11 @@ msgstr "ບົດລາຍງານການສົ່ງ %(mailing_type)s ຈຳ
 #: model:ir.ui.menu,name:mass_mailing_sms.mass_mailing_sms_menu_reporting
 msgid "Reporting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບົດລາຍງານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບົດລາຍງານ"
 >>>>>>> upstream/18.0
@@ -1313,7 +1862,11 @@ msgstr "ບົດລາຍງານ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_kanban
 msgid "SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS"
 >>>>>>> upstream/18.0
@@ -1322,7 +1875,11 @@ msgstr "SMS"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__body_plaintext
 msgid "SMS Body"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເນື້ອໃນ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເນື້ອໃນ SMS"
 >>>>>>> upstream/18.0
@@ -1331,7 +1888,11 @@ msgstr "ເນື້ອໃນ SMS"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_list__contact_count_sms
 msgid "SMS Contacts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຕິດຕໍ່ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ຕິດຕໍ່ SMS"
 >>>>>>> upstream/18.0
@@ -1340,7 +1901,11 @@ msgstr "ຜູ້ຕິດຕໍ່ SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "SMS Content"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເນື້ອໃນ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເນື້ອໃນ SMS"
 >>>>>>> upstream/18.0
@@ -1349,7 +1914,11 @@ msgstr "ເນື້ອໃນ SMS"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__message_has_sms_error
 msgid "SMS Delivery error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
 >>>>>>> upstream/18.0
@@ -1360,7 +1929,11 @@ msgstr "ຂໍ້ຜິດພາດໃນການສົ່ງ SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "SMS ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ SMS"
 >>>>>>> upstream/18.0
@@ -1374,7 +1947,11 @@ msgstr "ລະຫັດ SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_tree_sms
 msgid "SMS Marketing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕະຫຼາດຜ່ານ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕະຫຼາດຜ່ານ SMS"
 >>>>>>> upstream/18.0
@@ -1383,7 +1960,11 @@ msgstr "ການຕະຫຼາດຜ່ານ SMS"
 #: model:ir.actions.act_window,name:mass_mailing_sms.mailing_trace_report_action_sms
 msgid "SMS Marketing Analysis"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການວິເຄາະການຕະຫຼາດ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການວິເຄາະການຕະຫຼາດ SMS"
 >>>>>>> upstream/18.0
@@ -1393,7 +1974,11 @@ msgstr "ການວິເຄາະການຕະຫຼາດ SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "SMS Subscription"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສະໝັກຮັບ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສະໝັກຮັບ SMS"
 >>>>>>> upstream/18.0
@@ -1402,7 +1987,11 @@ msgstr "ການສະໝັກຮັບ SMS"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_template_id
 msgid "SMS Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຟອມ SMS"
 >>>>>>> upstream/18.0
@@ -1412,7 +2001,11 @@ msgstr "ແບບຟອມ SMS"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "SMS Text Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຄວາມ SMS"
 >>>>>>> upstream/18.0
@@ -1421,7 +2014,11 @@ msgstr "ຂໍ້ຄວາມ SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "SMS Trace"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕິດຕາມ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕິດຕາມ SMS"
 >>>>>>> upstream/18.0
@@ -1430,7 +2027,11 @@ msgstr "ການຕິດຕາມ SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_tree_sms
 msgid "SMS Traces"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕິດຕາມ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕິດຕາມ SMS"
 >>>>>>> upstream/18.0
@@ -1439,7 +2040,11 @@ msgstr "ການຕິດຕາມ SMS"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__sms_tracker_ids
 msgid "SMS Trackers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະບົບຕິດຕາມ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະບົບຕິດຕາມ SMS"
 >>>>>>> upstream/18.0
@@ -1449,7 +2054,11 @@ msgstr "ລະບົບຕິດຕາມ SMS"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_utm_campaign__ab_testing_sms_winner_selection
 msgid "SMS Winner Selection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເລືອກຜູ້ຊະນະ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເລືອກຜູ້ຊະນະ SMS"
 >>>>>>> upstream/18.0
@@ -1459,7 +2068,11 @@ msgstr "ການເລືອກຜູ້ຊະນະ SMS"
 #: code:addons/mass_mailing_sms/wizard/sms_composer.py:0
 msgid "STOP SMS: %(unsubscribe_url)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢຸດຮັບ SMS: %(unsubscribe_url)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຢຸດຮັບ SMS: %(unsubscribe_url)s"
 >>>>>>> upstream/18.0
@@ -1468,7 +2081,11 @@ msgstr "ຢຸດຮັບ SMS: %(unsubscribe_url)s"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__phone_sanitized
 msgid "Sanitized Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບທີ່ກວດສອບແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບທີ່ກວດສອບແລ້ວ"
 >>>>>>> upstream/18.0
@@ -1477,7 +2094,11 @@ msgstr "ເບີໂທລະສັບທີ່ກວດສອບແລ້ວ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Send"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງ"
 >>>>>>> upstream/18.0
@@ -1486,7 +2107,11 @@ msgstr "ສົ່ງ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_force_send
 msgid "Send Directly"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໂດຍກົງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງໂດຍກົງ"
 >>>>>>> upstream/18.0
@@ -1495,7 +2120,11 @@ msgstr "ສົ່ງໂດຍກົງ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Send Now"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງດຽວນີ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງດຽວນີ້"
 >>>>>>> upstream/18.0
@@ -1505,7 +2134,11 @@ msgstr "ສົ່ງດຽວນີ້"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Send SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງ SMS"
 >>>>>>> upstream/18.0
@@ -1514,7 +2147,11 @@ msgstr "ສົ່ງ SMS"
 #: model:ir.model,name:mass_mailing_sms.model_sms_composer
 msgid "Send SMS Wizard"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍສົ່ງ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົວຊ່ວຍສົ່ງ SMS"
 >>>>>>> upstream/18.0
@@ -1523,7 +2160,11 @@ msgstr "ຕົວຊ່ວຍສົ່ງ SMS"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send Test"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງທົດສອບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງທົດສອບ"
 >>>>>>> upstream/18.0
@@ -1532,7 +2173,11 @@ msgstr "ສົ່ງທົດສອບ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send a Sample SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ SMS ຕົວຢ່າງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງ SMS ຕົວຢ່າງ"
 >>>>>>> upstream/18.0
@@ -1541,7 +2186,11 @@ msgstr "ສົ່ງ SMS ຕົວຢ່າງ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_sms_test_view_form
 msgid "Send a sample SMS for testing purpose to the numbers below."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ SMS ຕົວຢ່າງເພື່ອຈຸດປະສົງໃນການທົດສອບໄປຍັງເບີໂທລະສັບລຸ່ມນີ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງ SMS ຕົວຢ່າງເພື່ອຈຸດປະສົງໃນການທົດສອບໄປຍັງເບີໂທລະສັບລຸ່ມນີ້."
 >>>>>>> upstream/18.0
@@ -1550,7 +2199,11 @@ msgstr "ສົ່ງ SMS ຕົວຢ່າງເພື່ອຈຸດປະສ�
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Send to all"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ທັງໝົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງໃຫ້ທັງໝົດ"
 >>>>>>> upstream/18.0
@@ -1559,7 +2212,11 @@ msgstr "ສົ່ງໃຫ້ທັງໝົດ"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_server
 msgid "Server Error"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດຂອງເຊີບເວີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຜິດພາດຂອງເຊີບເວີ"
 >>>>>>> upstream/18.0
@@ -1568,7 +2225,11 @@ msgstr "ຂໍ້ຜິດພາດຂອງເຊີບເວີ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_sms_sms__mailing_trace_ids
 msgid "Statistics"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖິຕິ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະຖິຕິ"
 >>>>>>> upstream/18.0
@@ -1577,7 +2238,11 @@ msgstr "ສະຖິຕິ"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_trace_view_form_sms
 msgid "Status"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະຖານະ"
 >>>>>>> upstream/18.0
@@ -1588,7 +2253,11 @@ msgstr "ສະຖານະ"
 #: model:ir.actions.act_window,name:mass_mailing_sms.mailing_sms_test_action
 msgid "Test Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການທົດສອບການສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການທົດສອບການສົ່ງ"
 >>>>>>> upstream/18.0
@@ -1597,7 +2266,11 @@ msgstr "ການທົດສອບການສົ່ງ"
 #: model:ir.model,name:mass_mailing_sms.model_mailing_sms_test
 msgid "Test SMS Mailing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການທົດສອບສົ່ງ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການທົດສອບສົ່ງ SMS"
 >>>>>>> upstream/18.0
@@ -1607,7 +2280,11 @@ msgstr "ການທົດສອບສົ່ງ SMS"
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 msgid "Test SMS could not be sent to %(destination)s: %(failure_reason)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສົ່ງ SMS ທົດສອບໄປຫາ %(destination)s ໄດ້: %(failure_reason)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ສາມາດສົ່ງ SMS ທົດສອບໄປຫາ %(destination)s ໄດ້: %(failure_reason)s"
 >>>>>>> upstream/18.0
@@ -1617,7 +2294,11 @@ msgstr "ບໍ່ສາມາດສົ່ງ SMS ທົດສອບໄປຫາ 
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 msgid "Test SMS successfully sent to %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ SMS ທົດສອບໄປຫາ %s ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງ SMS ທົດສອບໄປຫາ %s ສຳເລັດແລ້ວ"
 >>>>>>> upstream/18.0
@@ -1630,6 +2311,10 @@ msgid ""
 "flows, such as the SMS Marketing."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສື່ UTM '%s' ບໍ່ສາມາດລຶບໄດ້ ເນື່ອງຈາກຖືກໃຊ້ໃນຂະບວນການຫຼັກ ເຊັ່ນ ການຕະຫຼາດ SMS."
+>>>>>>> upstream/18.0
 =======
 "ສື່ UTM '%s' ບໍ່ສາມາດລຶບໄດ້ ເນື່ອງຈາກຖືກໃຊ້ໃນຂະບວນການຫຼັກ ເຊັ່ນ ການຕະຫຼາດ SMS."
 >>>>>>> upstream/18.0
@@ -1639,7 +2324,11 @@ msgstr ""
 #: code:addons/mass_mailing_sms/wizard/mailing_sms_test.py:0
 msgid "The following numbers are not correctly encoded: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບຕໍ່ໄປນີ້ມີຮູບແບບລະຫັດບໍ່ຖືກຕ້ອງ: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບຕໍ່ໄປນີ້ມີຮູບແບບລະຫັດບໍ່ຖືກຕ້ອງ: %s"
 >>>>>>> upstream/18.0
@@ -1648,7 +2337,11 @@ msgstr "ເບີໂທລະສັບຕໍ່ໄປນີ້ມີຮູບແ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "There was an error when trying to unsubscribe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ພະຍາຍາມຍົກເລີກການຮັບຂ່າວສານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ພະຍາຍາມຍົກເລີກການຮັບຂ່າວສານ"
 >>>>>>> upstream/18.0
@@ -1658,7 +2351,11 @@ msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ພະ
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບນີ້ຕິດບັນຊີດຳສຳລັບການຕະຫຼາດ SMS. ຄລິກເພື່ອຖອນອອກຈາກບັນຊີດຳ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບີໂທລະສັບນີ້ຕິດບັນຊີດຳສຳລັບການຕະຫຼາດ SMS. ຄລິກເພື່ອຖອນອອກຈາກບັນຊີດຳ."
 >>>>>>> upstream/18.0
@@ -1670,7 +2367,11 @@ msgstr "ເບີໂທລະສັບນີ້ຕິດບັນຊີດຳສ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວຂໍ້"
 >>>>>>> upstream/18.0
@@ -1680,7 +2381,11 @@ msgstr "ຫົວຂໍ້"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.utm_campaign_view_form
 msgid "Total Sent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງທັງໝົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງທັງໝົດ"
 >>>>>>> upstream/18.0
@@ -1689,7 +2394,11 @@ msgstr "ສົ່ງທັງໝົດ"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_trace__trace_type
 msgid "Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດ"
 >>>>>>> upstream/18.0
@@ -1698,7 +2407,11 @@ msgstr "ປະເພດ"
 #: model:ir.model,name:mass_mailing_sms.model_utm_campaign
 msgid "UTM Campaign"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຄມເປນ UTM"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແຄມເປນ UTM"
 >>>>>>> upstream/18.0
@@ -1707,7 +2420,11 @@ msgstr "ແຄມເປນ UTM"
 #: model:ir.model,name:mass_mailing_sms.model_utm_medium
 msgid "UTM Medium"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສື່ UTM"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສື່ UTM"
 >>>>>>> upstream/18.0
@@ -1716,7 +2433,11 @@ msgstr "ສື່ UTM"
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_acc
 msgid "Unregistered Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີທີ່ຍັງບໍ່ໄດ້ລົງທະບຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີທີ່ຍັງບໍ່ໄດ້ລົງທະບຽນ"
 >>>>>>> upstream/18.0
@@ -1725,7 +2446,11 @@ msgstr "ບັນຊີທີ່ຍັງບໍ່ໄດ້ລົງທະບຽ
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_mailing__sms_has_unregistered_account
 msgid "Unregistered IAP account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີ IAP ທີ່ຍັງບໍ່ໄດ້ລົງທະບຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີ IAP ທີ່ຍັງບໍ່ໄດ້ລົງທະບຽນ"
 >>>>>>> upstream/18.0
@@ -1734,7 +2459,11 @@ msgstr "ບັນຊີ IAP ທີ່ຍັງບໍ່ໄດ້ລົງທະ�
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_kanban_sms
 msgid "Unregistered account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີທີ່ຍັງບໍ່ໄດ້ລົງທະບຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີທີ່ຍັງບໍ່ໄດ້ລົງທະບຽນ"
 >>>>>>> upstream/18.0
@@ -1743,7 +2472,11 @@ msgstr "ບັນຊີທີ່ຍັງບໍ່ໄດ້ລົງທະບຽ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_main
 msgid "Unsubscribe me"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກການຮັບຂ່າວສານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍົກເລີກການຮັບຂ່າວສານ"
 >>>>>>> upstream/18.0
@@ -1753,7 +2486,11 @@ msgstr "ຍົກເລີກການຮັບຂ່າວສານ"
 #: code:addons/mass_mailing_sms/models/mailing_mailing.py:0
 msgid "Unsupported %s for mass SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ຮອງຮັບ %s ສຳລັບການສົ່ງ SMS ເປັນກຸ່ມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ຮອງຮັບ %s ສຳລັບການສົ່ງ SMS ເປັນກຸ່ມ"
 >>>>>>> upstream/18.0
@@ -1762,7 +2499,11 @@ msgstr "ບໍ່ຮອງຮັບ %s ສຳລັບການສົ່ງ SMS 
 #: model:ir.model,name:mass_mailing_sms.model_res_users
 msgid "User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ໃຊ້"
 >>>>>>> upstream/18.0
@@ -1771,7 +2512,11 @@ msgstr "ຜູ້ໃຊ້"
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_contact_view_search
 msgid "Valid SMS Recipients"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບ SMS ທີ່ໃຊ້ການໄດ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ຮັບ SMS ທີ່ໃຊ້ການໄດ້"
 >>>>>>> upstream/18.0
@@ -1780,7 +2525,11 @@ msgstr "ຜູ້ຮັບ SMS ທີ່ໃຊ້ການໄດ້"
 #: model:ir.model.fields,field_description:mass_mailing_sms.field_mailing_contact__website_message_ids
 msgid "Website Messages"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຄວາມຈາກເວັບໄຊ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຄວາມຈາກເວັບໄຊ"
 >>>>>>> upstream/18.0
@@ -1789,7 +2538,11 @@ msgstr "ຂໍ້ຄວາມຈາກເວັບໄຊ"
 #: model:ir.model.fields,help:mass_mailing_sms.field_mailing_contact__website_message_ids
 msgid "Website communication history"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດການສື່ສານຜ່ານເວັບໄຊ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະຫວັດການສື່ສານຜ່ານເວັບໄຊ"
 >>>>>>> upstream/18.0
@@ -1798,7 +2551,11 @@ msgstr "ປະຫວັດການສື່ສານຜ່ານເວັບໄ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "Winner Selection"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເລືອກຜູ້ຊະນະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເລືອກຜູ້ຊະນະ"
 >>>>>>> upstream/18.0
@@ -1809,7 +2566,11 @@ msgid ""
 "Write an appealing SMS Text Message, define recipients and track its "
 "results."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂຽນຂໍ້ຄວາມ SMS ທີ່ດຶງດູດໃຈ, ກຳນົດຜູ້ຮັບ ແລະ ຕິດຕາມຜົນໄດ້ຮັບ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂຽນຂໍ້ຄວາມ SMS ທີ່ດຶງດູດໃຈ, ກຳນົດຜູ້ຮັບ ແລະ ຕິດຕາມຜົນໄດ້ຮັບ."
 >>>>>>> upstream/18.0
@@ -1818,7 +2579,11 @@ msgstr "ຂຽນຂໍ້ຄວາມ SMS ທີ່ດຶງດູດໃຈ, �
 #: model:ir.model.fields.selection,name:mass_mailing_sms.selection__mailing_trace__failure_type__sms_number_format
 msgid "Wrong Number Format"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບເບີໂທລະສັບບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຮູບແບບເບີໂທລະສັບບໍ່ຖືກຕ້ອງ"
 >>>>>>> upstream/18.0
@@ -1827,7 +2592,11 @@ msgstr "ຮູບແບບເບີໂທລະສັບບໍ່ຖືກຕ້
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.mailing_mailing_view_form_sms
 msgid "e.g. Black Friday SMS coupon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ຄູປອງ SMS ສໍາລັບ Black Friday"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົວຢ່າງ: ຄູປອງ SMS ສໍາລັບ Black Friday"
 >>>>>>> upstream/18.0
@@ -1836,7 +2605,11 @@ msgstr "ຕົວຢ່າງ: ຄູປອງ SMS ສໍາລັບ Black Frid
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "has been successfully blacklisted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຖືກເພີ່ມເຂົ້າໃນບັນຊີດຳສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຖືກເພີ່ມເຂົ້າໃນບັນຊີດຳສຳເລັດແລ້ວ"
 >>>>>>> upstream/18.0
@@ -1845,7 +2618,11 @@ msgstr "ໄດ້ຖືກເພີ່ມເຂົ້າໃນບັນຊີດ
 #: model_terms:ir.ui.view,arch_db:mass_mailing_sms.blacklist_number
 msgid "has been successfully removed from"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຖືກຖອນອອກຈາກ... ສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຖືກຖອນອອກຈາກ... ສຳເລັດແລ້ວ"
 >>>>>>> upstream/18.0

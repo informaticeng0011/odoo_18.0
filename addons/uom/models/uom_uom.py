@@ -235,7 +235,11 @@ class UoM(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self or not qty:
+=======
+        if not (self and qty and to_unit):
+>>>>>>> upstream/18.0
 =======
         if not (self and qty and to_unit):
 >>>>>>> upstream/18.0
@@ -330,6 +334,7 @@ class UoM(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             rounding_method = 'HALF-UP'  # If "converting" to the same unit, use the usual HALF-UP rounding method
 >>>>>>> upstream/18.0
@@ -341,6 +346,8 @@ class UoM(models.Model):
 >>>>>>> upstream/18.0
 =======
             rounding_method = 'HALF-UP'  # If "converting" to the same unit, use the usual HALF-UP rounding method
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

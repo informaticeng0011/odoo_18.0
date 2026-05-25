@@ -24,6 +24,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    mockService,
+>>>>>>> upstream/18.0
 =======
     mockService,
 >>>>>>> upstream/18.0
@@ -344,10 +348,13 @@ test("can adapt with 'more' menu sections behavior", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // with `env.isSmall` still returning `false`.
     const env = await makeMockEnv();
     Object.defineProperty(env, "isSmall", { get: () => false });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -402,6 +409,9 @@ test("can adapt with 'more' menu sections behavior", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -520,10 +530,13 @@ test("'more' menu sections adaptations do not trigger render in some cases", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // with `env.isSmall` still returning `false`.
     const env = await makeMockEnv();
     Object.defineProperty(env, "isSmall", { get: () => false });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -578,6 +591,9 @@ test("'more' menu sections adaptations do not trigger render in some cases", asy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -730,10 +746,13 @@ test("'more' menu sections properly updated on app change", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // with `env.isSmall` still returning `false`.
     const env = await makeMockEnv();
     Object.defineProperty(env, "isSmall", { get: () => false });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -788,6 +807,9 @@ test("'more' menu sections properly updated on app change", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -898,7 +920,10 @@ test("Do not execute adapt when navbar is destroyed", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -990,6 +1015,9 @@ test("navbar adapts app brand and menu sections on resize from mobile to desktop
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

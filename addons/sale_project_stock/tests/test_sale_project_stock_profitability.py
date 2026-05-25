@@ -76,7 +76,10 @@ class TestSaleProjectStockProfitability(TestProjectProfitabilityCommon):
         invoice.action_post()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -86,6 +89,9 @@ class TestSaleProjectStockProfitability(TestProjectProfitabilityCommon):
         output_cogs_lines.analytic_distribution = {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

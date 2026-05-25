@@ -104,7 +104,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         return self.env['account.bank.statement.line'].create(values)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def set_counterpart_account(self, st_line, account):
         _liquidity, suspense, _other = st_line._seek_for_lines()
         st_line.move_id.button_draft()
@@ -112,6 +115,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         st_line.move_id.action_post()
         return suspense
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # TESTS about the statement line model.
@@ -838,7 +844,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1256,6 +1265,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2621,7 +2633,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3637,6 +3652,7 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4307,6 +4323,8 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_default_amls_matching_domain_keeps_transfer_account_lines(self):
         transfer_account = self.env['account.account'].create({
@@ -4363,4 +4381,7 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
             st_line_b._get_default_amls_matching_domain(),
         )
         self.assertNotIn(receivable_aml, candidates)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

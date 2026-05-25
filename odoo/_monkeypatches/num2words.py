@@ -1021,7 +1021,11 @@ class NumberToWords_BG(Num2Word_Base):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _digits[-1] = [None, 'една', None] + _digits[0][2:]
+=======
+    _digits[-1] = [None, 'една'] + _digits[0][2:]
+>>>>>>> upstream/18.0
 =======
     _digits[-1] = [None, 'една'] + _digits[0][2:]
 >>>>>>> upstream/18.0
@@ -2172,6 +2176,7 @@ def patch_num2words():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _logger = logging.getLogger(__name__)
         _logger.warning("num2words is not available, Arabic number to words conversion will not work")
         return
@@ -2180,6 +2185,8 @@ def patch_num2words():
     num2words.CONVERTER_CLASSES["ar"] = Num2Word_AR_Fixed()
     num2words.CONVERTER_CLASSES["bg"] = NumberToWords_BG()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2346,6 +2353,9 @@ def patch_num2words():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

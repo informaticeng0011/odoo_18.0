@@ -255,8 +255,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* barcodes_gs1_nomenclature
 # 
+=======
+# * barcodes_gs1_nomenclature
+#
+>>>>>>> upstream/18.0
 =======
 # * barcodes_gs1_nomenclature
 #
@@ -1538,6 +1543,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2560,10 +2566,16 @@
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3518,6 +3530,11 @@ msgstr ""
 "PO-Revision-Date: 2026-05-17 05:48+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-17 05:48+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "barcodes_gs1_nomenclature/hr/>\n"
 "Language: hr\n"
@@ -3527,7 +3544,11 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
@@ -3537,6 +3558,7 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "A GS1 barcode nomenclature pattern was matched. However, the barcode failed "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4651,17 +4673,26 @@ msgstr ""
 msgstr ""
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 "to be converted to a valid date: '%(error_message)s'"
 msgstr ""
 "Uzorak GS1 nomenklature barkoda je usklađen. Međutim, barkod nije bilo "
 "moguće pretvoriti u valjani datum: '%(error_message)s'"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__alpha
 msgid "Alpha-Numeric Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alfanumerički naziv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alfanumerički naziv"
 >>>>>>> upstream/18.0
@@ -4673,6 +4704,11 @@ msgid ""
 "begin/end of any related rules pattern."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alternativni regex razdjelnik za FNC1. Razdjelnik se ne smije podudarati s "
+"početkom/krajem uzorka bilo kojeg povezanog pravila."
+>>>>>>> upstream/18.0
 =======
 "Alternativni regex razdjelnik za FNC1. Razdjelnik se ne smije podudarati s "
 "početkom/krajem uzorka bilo kojeg povezanog pravila."
@@ -4682,7 +4718,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__associated_uom_id
 msgid "Associated Uom"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Povezana JM"
+>>>>>>> upstream/18.0
 =======
 msgstr "Povezana JM"
 >>>>>>> upstream/18.0
@@ -4980,7 +5020,11 @@ msgid "Expiration Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Datum isteka "
+=======
+msgstr "Datum isteka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum isteka"
 >>>>>>> upstream/18.0
@@ -6005,7 +6049,11 @@ msgid "FNC1 Separator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FNC1 separator"
+>>>>>>> upstream/18.0
 =======
 msgstr "FNC1 separator"
 >>>>>>> upstream/18.0
@@ -6776,7 +6824,11 @@ msgstr "FNC1 separator"
 #: model:ir.model.fields,field_description:barcodes_gs1_nomenclature.field_barcode_rule__gs1_content_type
 msgid "GS1 Content Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta GS1 sadržaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta GS1 sadržaja"
 >>>>>>> upstream/18.0
@@ -6785,7 +6837,11 @@ msgstr "Vrsta GS1 sadržaja"
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__encoding__gs1-128
 msgid "GS1-128"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "GS1-128"
+>>>>>>> upstream/18.0
 =======
 msgstr "GS1-128"
 >>>>>>> upstream/18.0
@@ -6801,6 +6857,11 @@ msgid ""
 "If True, use the last digit of AI to determine where the first decimal is"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je Točno, koristi zadnju znamenku AI-ja za određivanje gdje se nalazi "
+"prvi decimalni znak"
+>>>>>>> upstream/18.0
 =======
 "Ako je Točno, koristi zadnju znamenku AI-ja za određivanje gdje se nalazi "
 "prvi decimalni znak"
@@ -6811,7 +6872,11 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "Invalid barcode: can't be formated as date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravan barkod: ne može se formatirati kao datum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravan barkod: ne može se formatirati kao datum"
 >>>>>>> upstream/18.0
@@ -6821,7 +6886,11 @@ msgstr "Neispravan barkod: ne može se formatirati kao datum"
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "Invalid barcode: the check digit is incorrect"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravan barkod: kontrolna znamenka je netočna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravan barkod: kontrolna znamenka je netočna"
 >>>>>>> upstream/18.0
@@ -7085,7 +7154,11 @@ msgid "Is GS1 Nomenclature"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je li GS1 nomenklatura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je li GS1 nomenklatura"
 >>>>>>> upstream/18.0
@@ -7871,7 +7944,11 @@ msgstr "Mjera"
 #: model:ir.model.fields.selection,name:barcodes_gs1_nomenclature.selection__barcode_rule__gs1_content_type__identifier
 msgid "Numeric Identifier"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brojčani identifikator"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brojčani identifikator"
 >>>>>>> upstream/18.0
@@ -7901,7 +7978,11 @@ msgstr "Količina"
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid "The FNC1 Separator Alternative is not a valid Regex: %(error)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "FNC1 razdjelnik nije valjan Regex: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "FNC1 razdjelnik nije valjan Regex: %(error)s"
 >>>>>>> upstream/18.0
@@ -7925,6 +8006,12 @@ msgid ""
 "\t- A second one to catch the value."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Uzorak pravila \"%s\" nije valjan, treba mu dvije grupe:\n"
+"\t- Prva za identifikator aplikacije (obično 2 do 4 znamenke);\n"
+"\t- Druga za hvatanje vrijednosti."
+>>>>>>> upstream/18.0
 =======
 "Uzorak pravila \"%s\" nije valjan, treba mu dvije grupe:\n"
 "\t- Prva za identifikator aplikacije (obično 2 do 4 znamenke);\n"
@@ -7936,7 +8023,11 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_rule.py:0
 msgid "The rule pattern '%(rule)s' is not a valid Regex: %(error)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uzorak pravila '%(rule)s' nije valjan Regex: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uzorak pravila '%(rule)s' nije valjan Regex: %(error)s"
 >>>>>>> upstream/18.0
@@ -7946,6 +8037,7 @@ msgstr "Uzorak pravila '%(rule)s' nije valjan Regex: %(error)s"
 #: code:addons/barcodes_gs1_nomenclature/models/barcode_nomenclature.py:0
 msgid ""
 "There is something wrong with the barcode rule \"%s\" pattern.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8712,6 +8804,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If this rule uses decimal, check it can't get sometime else than a digit as "
 "last char for the Application Identifier.\n"
 "Check also the possible matched values can only be digits, otherwise the "
@@ -8970,6 +9064,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9479,12 +9574,17 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 msgstr ""
 "Nešto nije u redu s uzorkom pravila barkoda \"%s\".\n"
 "Ako ovo pravilo koristi decimalno, provjerite da kao zadnji znak za "
 "identifikator aplikacije ne može dobiti nešto drugo osim znamenke.\n"
 "Provjerite također da moguće usklađene vrijednosti mogu biti samo znamenke, "
 "inače se vrijednost ne može tretirati kao mjera."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: barcodes_gs1_nomenclature
@@ -9495,6 +9595,11 @@ msgid ""
 "accepted is this kind of nomenclature."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ova nomenklatura koristi GS1 specifikaciju, samo pravila GS1-128 kodiranja "
+"su prihvaćena u ovoj vrsti nomenklature."
+>>>>>>> upstream/18.0
 =======
 "Ova nomenklatura koristi GS1 specifikaciju, samo pravila GS1-128 kodiranja "
 "su prihvaćena u ovoj vrsti nomenklature."
@@ -9505,7 +9610,11 @@ msgstr ""
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "This barcode can't be parsed by any barcode rules."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj barkod ne može biti analiziran nijednim pravilom barkoda."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj barkod ne može biti analiziran nijednim pravilom barkoda."
 >>>>>>> upstream/18.0
@@ -9515,7 +9624,11 @@ msgstr "Ovaj barkod ne može biti analiziran nijednim pravilom barkoda."
 #: code:addons/barcodes_gs1_nomenclature/static/src/js/barcode_parser.js:0
 msgid "This barcode can't be partially or fully parsed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj barkod ne može biti djelomično ili potpuno analiziran."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj barkod ne može biti djelomično ili potpuno analiziran."
 >>>>>>> upstream/18.0

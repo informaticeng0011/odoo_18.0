@@ -1,19 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * stock_account
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # Bone NI <bounkirdni@gmail.com>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2026-04-10 18:38+0000\n"
 "Last-Translator: \n"
@@ -23,6 +30,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-22 08:16+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -33,6 +42,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_account
@@ -43,6 +55,11 @@ msgid ""
 "Affected valuation layers: %s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\n"
+"ຊັ້ນການຕີມູນຄ່າທີ່ໄດ້ຮັບຜົນກະທົບ: %s"
+>>>>>>> upstream/18.0
 =======
 "\n"
 "ຊັ້ນການຕີມູນຄ່າທີ່ໄດ້ຮັບຜົນກະທົບ: %s"
@@ -53,7 +70,11 @@ msgstr ""
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid " Product cost updated from %(previous)s to %(new_cost)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " ອັບເດດຕົ້ນທຶນສິນຄ້າຈາກ %(previous)s ເປັນ %(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 msgstr " ອັບເດດຕົ້ນທຶນສິນຄ້າຈາກ %(previous)s ເປັນ %(new_cost)s."
 >>>>>>> upstream/18.0
@@ -63,7 +84,11 @@ msgstr " ອັບເດດຕົ້ນທຶນສິນຄ້າຈາກ %(pr
 #: code:addons/stock_account/models/stock_quant.py:0
 msgid " [Accounted on %s]"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " [ລົງບັນຊີເມື່ອ %s]"
+>>>>>>> upstream/18.0
 =======
 msgstr " [ລົງບັນຊີເມື່ອ %s]"
 >>>>>>> upstream/18.0
@@ -73,7 +98,11 @@ msgstr " [ລົງບັນຊີເມື່ອ %s]"
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid " lot/serial number cost updated from %(previous)s to %(new_cost)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr " ອັບເດດຕົ້ນທຶນ ເລກລັອດ/ເລກຊີຣີ ຈາກ %(previous)s ເປັນ %(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 msgstr " ອັບເດດຕົ້ນທຶນ ເລກລັອດ/ເລກຊີຣີ ຈາກ %(previous)s ເປັນ %(new_cost)s."
 >>>>>>> upstream/18.0
@@ -83,7 +112,11 @@ msgstr " ອັບເດດຕົ້ນທຶນ ເລກລັອດ/ເລກ
 #: code:addons/stock_account/models/stock_valuation_layer.py:0
 msgid "%(user)s changed cost from %(previous)s to %(new_price)s - %(record)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(user)s ໄດ້ປ່ຽນຕົ້ນທຶນຈາກ %(previous)s ເປັນ %(new_price)s - %(record)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(user)s ໄດ້ປ່ຽນຕົ້ນທຶນຈາກ %(previous)s ເປັນ %(new_price)s - %(record)s"
 >>>>>>> upstream/18.0
@@ -96,6 +129,11 @@ msgid ""
 "%(reason)s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(user)s ໄດ້ປ່ຽນການຕີມູນຄ່າສະຕັອກຈາກ %(previous)s ເປັນ %(new_value)s - %(product)s\n"
+"%(reason)s"
+>>>>>>> upstream/18.0
 =======
 "%(user)s ໄດ້ປ່ຽນການຕີມູນຄ່າສະຕັອກຈາກ %(previous)s ເປັນ %(new_value)s - %(product)s\n"
 "%(reason)s"
@@ -108,6 +146,12 @@ msgid ""
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+")\n"
+"                            <small class=\"mx-2 fst-italic\">ໃຊ້ຄ່າບວກທີ່ຕິດລົບ ເພື່ອ"
+"ບັນທຶກການຫຼຸດລົງຂອງມູນຄ່າສິນຄ້າ</small>"
+>>>>>>> upstream/18.0
 =======
 ")\n"
 "                            <small class=\"mx-2 fst-italic\">ໃຊ້ຄ່າບວກທີ່ຕິດລົບ ເພື່ອ"
@@ -118,7 +162,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.view_category_property_form
 msgid "<b>Set other input/output accounts on specific </b>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>ຕັ້ງຄ່າບັນຊີ ຂາເຂົ້າ/ຂາອອກ ອື່ນໆ ໃສ່ສະເພາະ </b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>ຕັ້ງຄ່າບັນຊີ ຂາເຂົ້າ/ຂາອອກ ອື່ນໆ ໃສ່ສະເພາະ </b>"
 >>>>>>> upstream/18.0
@@ -128,7 +176,11 @@ msgstr "<b>ຕັ້ງຄ່າບັນຊີ ຂາເຂົ້າ/ຂາອ�
 #: model_terms:ir.ui.view,arch_db:stock_account.view_production_lot_form_stock_account
 msgid "<span class=\"o_stat_text\">Valuation</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ການຕີມູນຄ່າ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">ການຕີມູນຄ່າ</span>"
 >>>>>>> upstream/18.0
@@ -137,7 +189,11 @@ msgstr "<span class=\"o_stat_text\">ການຕີມູນຄ່າ</span>"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "<span>Product</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ສິນຄ້າ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ສິນຄ້າ</span>"
 >>>>>>> upstream/18.0
@@ -146,7 +202,11 @@ msgstr "<span>ສິນຄ້າ</span>"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "<span>Quantity</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ຈຳນວນ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>ຈຳນວນ</span>"
 >>>>>>> upstream/18.0
@@ -155,7 +215,11 @@ msgstr "<span>ຈຳນວນ</span>"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "<span>SN/LN</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>SN/LN</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>SN/LN</span>"
 >>>>>>> upstream/18.0
@@ -164,7 +228,11 @@ msgstr "<span>SN/LN</span>"
 #: model:ir.model,name:stock_account.model_account_chart_template
 msgid "Account Chart Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຜັງບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຜັງບັນຊີ"
 >>>>>>> upstream/18.0
@@ -173,7 +241,11 @@ msgstr "ແບບຜັງບັນຊີ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__account_move_ids
 msgid "Account Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນໄຫວບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເຄື່ອນໄຫວບັນຊີ"
 >>>>>>> upstream/18.0
@@ -182,7 +254,11 @@ msgstr "ການເຄື່ອນໄຫວບັນຊີ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_category_property_form
 msgid "Account Stock Properties"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຸນສົມບັດບັນຊີສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄຸນສົມບັດບັນຊີສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -193,7 +269,11 @@ msgstr "ຄຸນສົມບັດບັນຊີສະຕັອກ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__date
 msgid "Accounting Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີລົງບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວັນທີລົງບັນຊີ"
 >>>>>>> upstream/18.0
@@ -202,7 +282,11 @@ msgstr "ວັນທີລົງບັນຊີ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_move_form_inherit
 msgid "Accounting Entries"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການບັນຊີ"
 >>>>>>> upstream/18.0
@@ -211,7 +295,11 @@ msgstr "ລາຍການບັນຊີ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_location_form_inherit
 msgid "Accounting Information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນທາງບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ມູນທາງບັນຊີ"
 >>>>>>> upstream/18.0
@@ -220,7 +308,11 @@ msgstr "ຂໍ້ມູນທາງບັນຊີ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Add Manual Valuation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມການຕີມູນຄ່າດ້ວຍຕົນເອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມການຕີມູນຄ່າດ້ວຍຕົນເອງ"
 >>>>>>> upstream/18.0
@@ -230,7 +322,11 @@ msgstr "ເພີ່ມການຕີມູນຄ່າດ້ວຍຕົນເ
 msgid ""
 "Add additional cost (transport, customs, ...) in the value of the product."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຕົ້ນທຶນເພີ່ມເຕີມ (ຄ່າຂົນສົ່ງ, ພາສີ, ...) ເຂົ້າໃນມູນຄ່າຂອງສິນຄ້າ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມຕົ້ນທຶນເພີ່ມເຕີມ (ຄ່າຂົນສົ່ງ, ພາສີ, ...) ເຂົ້າໃນມູນຄ່າຂອງສິນຄ້າ."
 >>>>>>> upstream/18.0
@@ -239,7 +335,11 @@ msgstr "ເພີ່ມຕົ້ນທຶນເພີ່ມເຕີມ (ຄ່�
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid "Added Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນ"
 >>>>>>> upstream/18.0
@@ -248,7 +348,11 @@ msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__added_value
 msgid "Added value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນ"
 >>>>>>> upstream/18.0
@@ -257,7 +361,11 @@ msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນ"
 #: model:ir.actions.act_window,name:stock_account.action_revalue_layers
 msgid "Adjust Valuation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປັບປຸງການຕີມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປັບປຸງການຕີມູນຄ່າ"
 >>>>>>> upstream/18.0
@@ -270,6 +378,11 @@ msgid ""
 " update their cost price."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສົ່ງຜົນກະທົບຕໍ່ຕົ້ນທຶນນຳເຂົ້າ (Landed costs) ໃນການຮັບສິນຄ້າ ແລະ ແບ່ງປັນໃສ່ແຕ່ລະສິນຄ້າເພື່ອອັບເດດລາຄາ"
+"ຕົ້ນທຶນ."
+>>>>>>> upstream/18.0
 =======
 "ສົ່ງຜົນກະທົບຕໍ່ຕົ້ນທຶນນຳເຂົ້າ (Landed costs) ໃນການຮັບສິນຄ້າ ແລະ ແບ່ງປັນໃສ່ແຕ່ລະສິນຄ້າເພື່ອອັບເດດລາຄາ"
 "ຕົ້ນທຶນ."
@@ -279,7 +392,11 @@ msgstr ""
 #: model:ir.model,name:stock_account.model_account_analytic_account
 msgid "Analytic Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີວິເຄາະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີວິເຄາະ"
 >>>>>>> upstream/18.0
@@ -288,7 +405,11 @@ msgstr "ບັນຊີວິເຄາະ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__analytic_account_line_ids
 msgid "Analytic Account Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີວິເຄາະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການບັນຊີວິເຄາະ"
 >>>>>>> upstream/18.0
@@ -297,7 +418,11 @@ msgstr "ລາຍການບັນຊີວິເຄາະ"
 #: model:ir.model,name:stock_account.model_account_analytic_plan
 msgid "Analytic Plans"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຜນການວິເຄາະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແຜນການວິເຄາະ"
 >>>>>>> upstream/18.0
@@ -306,7 +431,11 @@ msgstr "ແຜນການວິເຄາະ"
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_valuation__real_time
 msgid "Automated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບອັດຕະໂນມັດ"
 >>>>>>> upstream/18.0
@@ -315,7 +444,11 @@ msgstr "ແບບອັດຕະໂນມັດ"
 #: model:ir.model.fields,field_description:stock_account.field_res_config_settings__group_stock_accounting_automatic
 msgid "Automatic Stock Accounting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຊີສະຕັອກແບບອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການບັນຊີສະຕັອກແບບອັດຕະໂນມັດ"
 >>>>>>> upstream/18.0
@@ -325,7 +458,11 @@ msgstr "ການບັນຊີສະຕັອກແບບອັດຕະໂນ
 #: model:ir.model.fields,field_description:stock_account.field_stock_lot__avg_cost
 msgid "Average Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນສະເລ່ຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົ້ນທຶນສະເລ່ຍ"
 >>>>>>> upstream/18.0
@@ -334,7 +471,11 @@ msgstr "ຕົ້ນທຶນສະເລ່ຍ"
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__average
 msgid "Average Cost (AVCO)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນສະເລ່ຍ (AVCO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົ້ນທຶນສະເລ່ຍ (AVCO)"
 >>>>>>> upstream/18.0
@@ -343,7 +484,11 @@ msgstr "ຕົ້ນທຶນສະເລ່ຍ (AVCO)"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "BC46282798"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "BC46282798"
+>>>>>>> upstream/18.0
 =======
 msgstr "BC46282798"
 >>>>>>> upstream/18.0
@@ -352,7 +497,11 @@ msgstr "BC46282798"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "Bacon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບຄອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເບຄອນ"
 >>>>>>> upstream/18.0
@@ -361,7 +510,11 @@ msgstr "ເບຄອນ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid "Cancel"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍົກເລີກ"
 >>>>>>> upstream/18.0
@@ -374,6 +527,11 @@ msgid ""
 " the product category, or on the location, before processing this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ບໍ່ພົບບັນຊີສະຕັອກຂາເຂົ້າສຳລັບສິນຄ້າ %s. ທ່ານຕ້ອງກຳນົດບັນຊີໃນໝວດສິນຄ້າ ຫຼື ໃນສະຖານທີ່ ກ່ອນທີ່ຈະດຳເນີນການ"
+"ນີ້."
+>>>>>>> upstream/18.0
 =======
 "ບໍ່ພົບບັນຊີສະຕັອກຂາເຂົ້າສຳລັບສິນຄ້າ %s. ທ່ານຕ້ອງກຳນົດບັນຊີໃນໝວດສິນຄ້າ ຫຼື ໃນສະຖານທີ່ ກ່ອນທີ່ຈະດຳເນີນການ"
 "ນີ້."
@@ -388,6 +546,11 @@ msgid ""
 "operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ບໍ່ພົບບັນຊີສະຕັອກຂາອອກສຳລັບສິນຄ້າ %s. ທ່ານຕ້ອງກຳນົດບັນຊີໃນໝວດສິນຄ້າ ຫຼື ໃນສະຖານທີ່ ກ່ອນທີ່ຈະດຳເນີນການ"
+"ນີ້."
+>>>>>>> upstream/18.0
 =======
 "ບໍ່ພົບບັນຊີສະຕັອກຂາອອກສຳລັບສິນຄ້າ %s. ທ່ານຕ້ອງກຳນົດບັນຊີໃນໝວດສິນຄ້າ ຫຼື ໃນສະຖານທີ່ ກ່ອນທີ່ຈະດຳເນີນການ"
 "ນີ້."
@@ -401,6 +564,11 @@ msgid ""
 "inventory valuation. Are you sure you want to make that change?"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການປ່ຽນວິທີການຕົ້ນທຶນແມ່ນການປ່ຽນແປງທີ່ສຳຄັນທີ່ຈະສົ່ງຜົນກະທົບຕໍ່ການຕີມູນຄ່າສິນຄ້າຄົງຄັງຂອງທ່ານ. ທ່ານແນ່ໃຈບໍ່ວ່"
+"າຕ້ອງການປ່ຽນແປງ?"
+>>>>>>> upstream/18.0
 =======
 "ການປ່ຽນວິທີການຕົ້ນທຶນແມ່ນການປ່ຽນແປງທີ່ສຳຄັນທີ່ຈະສົ່ງຜົນກະທົບຕໍ່ການຕີມູນຄ່າສິນຄ້າຄົງຄັງຂອງທ່ານ. ທ່ານແນ່ໃຈບໍ່ວ່"
 "າຕ້ອງການປ່ຽນແປງ?"
@@ -410,7 +578,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quantity_history_inherit_stock_account
 msgid "Choose a date to get the valuation at that date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກວັນທີເພື່ອເບິ່ງການຕີມູນຄ່າໃນວັນທີນັ້ນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລືອກວັນທີເພື່ອເບິ່ງການຕີມູນຄ່າໃນວັນທີນັ້ນ"
 >>>>>>> upstream/18.0
@@ -419,7 +591,11 @@ msgstr "ເລືອກວັນທີເພື່ອເບິ່ງການຕ
 #: model:ir.model.fields,field_description:stock_account.field_account_move_line__cogs_origin_id
 msgid "Cogs Origin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນກຳເນີດ COGS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົ້ນກຳເນີດ COGS"
 >>>>>>> upstream/18.0
@@ -428,7 +604,11 @@ msgstr "ຕົ້ນກຳເນີດ COGS"
 #: model:ir.model,name:stock_account.model_res_company
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍລິສັດ"
 >>>>>>> upstream/18.0
@@ -439,7 +619,11 @@ msgstr "ບໍລິສັດ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Company"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍລິສັດ"
 >>>>>>> upstream/18.0
@@ -448,7 +632,11 @@ msgstr "ບໍລິສັດ"
 #: model:ir.model,name:stock_account.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງຄ່າການກຳນົດຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕັ້ງຄ່າການກຳນົດຄ່າ"
 >>>>>>> upstream/18.0
@@ -461,6 +649,10 @@ msgid ""
 "product or its category to process this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຂໍ້ຜິດພາດໃນການຕັ້ງຄ່າ. ກະລຸນາຕັ້ງຄ່າບັນຊີສ່ວນຕ່າງລາຄາໃນສິນຄ້າ ຫຼື ໝວດສິນຄ້າ ເພື່ອດຳເນີນການນີ້."
+>>>>>>> upstream/18.0
 =======
 "ຂໍ້ຜິດພາດໃນການຕັ້ງຄ່າ. ກະລຸນາຕັ້ງຄ່າບັນຊີສ່ວນຕ່າງລາຄາໃນສິນຄ້າ ຫຼື ໝວດສິນຄ້າ ເພື່ອດຳເນີນການນີ້."
 >>>>>>> upstream/18.0
@@ -470,7 +662,11 @@ msgstr ""
 #: code:addons/stock_account/models/stock_move.py:0
 msgid "Correction of %s (modification of past move)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແກ້ໄຂຂອງ %s (ການປ່ຽນແປງການເຄື່ອນໄຫວໃນອະດີດ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການແກ້ໄຂຂອງ %s (ການປ່ຽນແປງການເຄື່ອນໄຫວໃນອະດີດ)"
 >>>>>>> upstream/18.0
@@ -479,7 +675,11 @@ msgstr "ການແກ້ໄຂຂອງ %s (ການປ່ຽນແປງກ�
 #: model:ir.model.fields,field_description:stock_account.field_stock_lot__standard_price
 msgid "Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົ້ນທຶນ"
 >>>>>>> upstream/18.0
@@ -491,7 +691,11 @@ msgstr "ຕົ້ນທຶນ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_quant__cost_method
 msgid "Costing Method"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຕົ້ນທຶນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວິທີການຕົ້ນທຶນ"
 >>>>>>> upstream/18.0
@@ -504,6 +708,11 @@ msgid ""
 " to %(new_method)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການປ່ຽນແປງວິທີການຕົ້ນທຶນສຳລັບໝວດສິນຄ້າ %(category)s: ຈາກ %(old_method)s ເປັນ %"
+"(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "ການປ່ຽນແປງວິທີການຕົ້ນທຶນສຳລັບໝວດສິນຄ້າ %(category)s: ຈາກ %(old_method)s ເປັນ %"
 "(new_method)s."
@@ -513,7 +722,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__account_id
 msgid "Counterpart Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີຄູ່ສັນຍາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີຄູ່ສັນຍາ"
 >>>>>>> upstream/18.0
@@ -525,18 +738,28 @@ msgid ""
 "                set on the source location. This is the default value for all products in this category. It can also directly be set on each product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ລາຍການບັນຊີຄູ່ສຳລັບການເຄື່ອນໄຫວສະຕັອກຂາເຂົ້າທັງໝົດຈະຖືກລົງໃນບັນຊີນີ້, ເວັ້ນເສຍແຕ່ຈະມີບັນຊີການຕີມູນຄ່າສະເ"
 "ພາະ\n"
 "                ທີ່ຕັ້ງໄວ້ໃນສະຖານທີ່ຕົ້ນທາງ. ນີ້ແມ່ນຄ່າມາດຕະຖານສຳລັບສິນຄ້າທັງໝົດໃນໝວດນີ້. ມັນຍັງສາມ"
 "າດຕັ້ງໂດຍກົງໃສ່ແຕ່ລະສິນຄ້າໄດ້."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_picking__country_code
 msgid "Country Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດປະເທດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດປະເທດ"
 >>>>>>> upstream/18.0
@@ -546,7 +769,11 @@ msgstr "ລະຫັດປະເທດ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງໂດຍ"
 >>>>>>> upstream/18.0
@@ -556,7 +783,11 @@ msgstr "ສ້າງໂດຍ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງເມື່ອ"
 >>>>>>> upstream/18.0
@@ -567,7 +798,11 @@ msgstr "ສ້າງເມື່ອ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__currency_id
 msgid "Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະກຸນເງິນ"
 >>>>>>> upstream/18.0
@@ -576,7 +811,11 @@ msgstr "ສະກຸນເງິນ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__current_quantity_svl
 msgid "Current Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນປັດຈຸບັນ"
 >>>>>>> upstream/18.0
@@ -586,7 +825,11 @@ msgstr "ຈຳນວນປັດຈຸບັນ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid "Current Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າປັດຈຸບັນ"
 >>>>>>> upstream/18.0
@@ -597,7 +840,11 @@ msgstr "ມູນຄ່າປັດຈຸບັນ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວັນທີ"
 >>>>>>> upstream/18.0
@@ -609,6 +856,11 @@ msgid ""
 "inventory valuation. If empty, the inventory date will be used."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ວັນທີທີ່ຈະສ້າງລາຍການບັນຊີໃນກໍລະນີທີ່ມີການຕີມູນຄ່າສິນຄ້າແບບອັດຕະໂນມັດ. ຖ້າຫວ່າງໄວ້, ຈະໃຊ້ວັນທີຂອງສິນຄ້າຄົງ"
+"ຄັງ."
+>>>>>>> upstream/18.0
 =======
 "ວັນທີທີ່ຈະສ້າງລາຍການບັນຊີໃນກໍລະນີທີ່ມີການຕີມູນຄ່າສິນຄ້າແບບອັດຕະໂນມັດ. ຖ້າຫວ່າງໄວ້, ຈະໃຊ້ວັນທີຂອງສິນຄ້າຄົງ"
 "ຄັງ."
@@ -618,7 +870,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock_account.field_stock_valuation_layer__uom_id
 msgid "Default unit of measure used for all stock operations."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກມາດຕະຖານທີ່ໃຊ້ສຳລັບທຸກການດຳເນີນງານສະຕັອກ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວໜ່ວຍວັດແທກມາດຕະຖານທີ່ໃຊ້ສຳລັບທຸກການດຳເນີນງານສະຕັອກ."
 >>>>>>> upstream/18.0
@@ -627,7 +883,11 @@ msgstr "ຫົວໜ່ວຍວັດແທກມາດຕະຖານທີ່
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__description
 msgid "Description"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄຳອະທິບາຍ"
 >>>>>>> upstream/18.0
@@ -636,7 +896,11 @@ msgstr "ຄຳອະທິບາຍ"
 #: model:ir.model.fields,field_description:stock_account.field_res_config_settings__group_lot_on_invoice
 msgid "Display Lots & Serial Numbers on Invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງ ເລກລັອດ ແລະ ເລກຊີຣີ ໃນໃບບິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະແດງ ເລກລັອດ ແລະ ເລກຊີຣີ ໃນໃບບິນ"
 >>>>>>> upstream/18.0
@@ -646,7 +910,11 @@ msgstr "ສະແດງ ເລກລັອດ ແລະ ເລກຊີຣີ �
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ທີ່ສະແດງ"
 >>>>>>> upstream/18.0
@@ -655,7 +923,11 @@ msgstr "ຊື່ທີ່ສະແດງ"
 #: model:res.groups,name:stock_account.group_lot_on_invoice
 msgid "Display Serial & Lot Number on Invoices"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງເລກຊີຣີ ແລະ ເລກລັອດ ໃນໃບບິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະແດງເລກຊີຣີ ແລະ ເລກລັອດ ໃນໃບບິນ"
 >>>>>>> upstream/18.0
@@ -669,6 +941,11 @@ msgid ""
 "from %(old_method)s to %(new_method)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ເນື່ອງຈາກການປ່ຽນໝວດສິນຄ້າ (ຈາກ %(old_category)s ເປັນ %(new_category)s), ວິທີການຕົ້ນທຶນໄດ້"
+"ປ່ຽນແປງສຳລັບສິນຄ້າ %(product)s: ຈາກ %(old_method)s ເປັນ %(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "ເນື່ອງຈາກການປ່ຽນໝວດສິນຄ້າ (ຈາກ %(old_category)s ເປັນ %(new_category)s), ວິທີການຕົ້ນທຶນໄດ້"
 "ປ່ຽນແປງສຳລັບສິນຄ້າ %(product)s: ຈາກ %(old_method)s ເປັນ %(new_method)s."
@@ -678,7 +955,11 @@ msgstr ""
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__fifo
 msgid "First In First Out (FIFO)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຂົ້າກ່ອນ ອອກກ່ອນ (FIFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຂົ້າກ່ອນ ອອກກ່ອນ (FIFO)"
 >>>>>>> upstream/18.0
@@ -687,7 +968,11 @@ msgstr "ເຂົ້າກ່ອນ ອອກກ່ອນ (FIFO)"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Group by..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດກຸ່ມໂດຍ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈັດກຸ່ມໂດຍ..."
 >>>>>>> upstream/18.0
@@ -696,7 +981,11 @@ msgstr "ຈັດກຸ່ມໂດຍ..."
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Has Remaining Qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຈຳນວນຄົງເຫຼືອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມີຈຳນວນຄົງເຫຼືອ"
 >>>>>>> upstream/18.0
@@ -706,7 +995,11 @@ msgstr "ມີຈຳນວນຄົງເຫຼືອ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ (ID)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ (ID)"
 >>>>>>> upstream/18.0
@@ -716,7 +1009,11 @@ msgstr "ລະຫັດ (ID)"
 #: model:ir.model.fields,help:stock_account.field_product_template__lot_valuated
 msgid "If checked, the valuation will be specific by Lot/Serial number."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖ້າໝາຍເລືອກ, ການຕີມູນຄ່າຈະແຍກສະເພາະຕາມ ເລກລັອດ/ເລກຊີຣີ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຖ້າໝາຍເລືອກ, ການຕີມູນຄ່າຈະແຍກສະເພາະຕາມ ເລກລັອດ/ເລກຊີຣີ."
 >>>>>>> upstream/18.0
@@ -725,7 +1022,11 @@ msgstr "ຖ້າໝາຍເລືອກ, ການຕີມູນຄ່າຈ�
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Incoming"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາເຂົ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາເຂົ້າ"
 >>>>>>> upstream/18.0
@@ -734,7 +1035,11 @@ msgstr "ຂາເຂົ້າ"
 #: model:ir.model,name:stock_account.model_stock_location
 msgid "Inventory Locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່ສິນຄ້າຄົງຄັງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະຖານທີ່ສິນຄ້າຄົງຄັງ"
 >>>>>>> upstream/18.0
@@ -750,7 +1055,11 @@ msgstr "ສະຖານທີ່ສິນຄ້າຄົງຄັງ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Inventory Valuation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າສິນຄ້າຄົງຄັງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າສິນຄ້າຄົງຄັງ"
 >>>>>>> upstream/18.0
@@ -759,7 +1068,11 @@ msgstr "ການຕີມູນຄ່າສິນຄ້າຄົງຄັງ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__account_move_line_id
 msgid "Invoice Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃບບິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການໃບບິນ"
 >>>>>>> upstream/18.0
@@ -768,7 +1081,11 @@ msgstr "ລາຍການໃບບິນ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__price_diff_value
 msgid "Invoice value correction with invoice currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແກ້ໄຂມູນຄ່າໃບບິນດ້ວຍສະກຸນເງິນຂອງໃບບິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການແກ້ໄຂມູນຄ່າໃບບິນດ້ວຍສະກຸນເງິນຂອງໃບບິນ"
 >>>>>>> upstream/18.0
@@ -777,7 +1094,11 @@ msgstr "ການແກ້ໄຂມູນຄ່າໃບບິນດ້ວຍສ
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__account_journal_id
 msgid "Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປຶ້ມບັນຊີ"
 >>>>>>> upstream/18.0
@@ -788,7 +1109,11 @@ msgstr "ປຶ້ມບັນຊີ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Journal Entry"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີປະຈຳວັນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການບັນຊີປະຈຳວັນ"
 >>>>>>> upstream/18.0
@@ -797,7 +1122,11 @@ msgstr "ລາຍການບັນຊີປະຈຳວັນ"
 #: model:ir.model,name:stock_account.model_account_move_line
 msgid "Journal Item"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການປຶ້ມບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການປຶ້ມບັນຊີ"
 >>>>>>> upstream/18.0
@@ -806,7 +1135,11 @@ msgstr "ລາຍການປຶ້ມບັນຊີ"
 #: model:ir.model.fields,field_description:stock_account.field_res_config_settings__module_stock_landed_costs
 msgid "Landed Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນນຳເຂົ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົ້ນທຶນນຳເຂົ້າ"
 >>>>>>> upstream/18.0
@@ -816,7 +1149,11 @@ msgstr "ຕົ້ນທຶນນຳເຂົ້າ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ່າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັບເດດລ່າສຸດໂດຍ"
 >>>>>>> upstream/18.0
@@ -826,7 +1163,11 @@ msgstr "ອັບເດດລ່າສຸດໂດຍ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ່າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັບເດດລ່າສຸດເມື່ອ"
 >>>>>>> upstream/18.0
@@ -835,7 +1176,11 @@ msgstr "ອັບເດດລ່າສຸດເມື່ອ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__stock_valuation_layer_id
 msgid "Linked To"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊື່ອມໂຍງກັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຊື່ອມໂຍງກັບ"
 >>>>>>> upstream/18.0
@@ -848,6 +1193,11 @@ msgid ""
 "Correct this quantity before enabling/disabling lot valuation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລັອດ %(lot)s ມີຈຳນວນຕິດລົບໃນສະຕັອກ.\n"
+"ກະລຸນາແກ້ໄຂຈຳນວນນີ້ກ່ອນທີ່ຈະ ເປີດ/ປິດ ການຕີມູນຄ່າແບບແຍກລັອດ."
+>>>>>>> upstream/18.0
 =======
 "ລັອດ %(lot)s ມີຈຳນວນຕິດລົບໃນສະຕັອກ.\n"
 "ກະລຸນາແກ້ໄຂຈຳນວນນີ້ກ່ອນທີ່ຈະ ເປີດ/ປິດ ການຕີມູນຄ່າແບບແຍກລັອດ."
@@ -858,7 +1208,11 @@ msgstr ""
 #: code:addons/stock_account/models/stock_lot.py:0
 msgid "Lot value manually modified (from %(old)s to %(new)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າລັອດຖືກປ່ຽນແປງດ້ວຍຕົນເອງ (ຈາກ %(old)s ເປັນ %(new)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າລັອດຖືກປ່ຽນແປງດ້ວຍຕົນເອງ (ຈາກ %(old)s ເປັນ %(new)s)"
 >>>>>>> upstream/18.0
@@ -867,7 +1221,11 @@ msgstr "ມູນຄ່າລັອດຖືກປ່ຽນແປງດ້ວຍ
 #: model:ir.model,name:stock_account.model_stock_lot
 msgid "Lot/Serial"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລັອດ/ຊີຣີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລັອດ/ຊີຣີ"
 >>>>>>> upstream/18.0
@@ -877,7 +1235,11 @@ msgstr "ລັອດ/ຊີຣີ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Lot/Serial Number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກລັອດ/ເລກຊີຣີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລກລັອດ/ເລກຊີຣີ"
 >>>>>>> upstream/18.0
@@ -887,7 +1249,11 @@ msgstr "ເລກລັອດ/ເລກຊີຣີ"
 #: code:addons/stock_account/models/stock_lot.py:0
 msgid "Lot/Serial number Revaluation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າ ເລກລັອດ/ເລກຊີຣີ ໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າ ເລກລັອດ/ເລກຊີຣີ ໃໝ່"
 >>>>>>> upstream/18.0
@@ -897,7 +1263,11 @@ msgstr "ການຕີມູນຄ່າ ເລກລັອດ/ເລກຊີ�
 #: code:addons/stock_account/models/stock_move_line.py:0
 msgid "Lot/Serial number is mandatory for product valuated by lot"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງມີ ເລກລັອດ/ເລກຊີຣີ ສຳລັບສິນຄ້າທີ່ຕີມູນຄ່າແບບແຍກລັອດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕ້ອງມີ ເລກລັອດ/ເລກຊີຣີ ສຳລັບສິນຄ້າທີ່ຕີມູນຄ່າແບບແຍກລັອດ"
 >>>>>>> upstream/18.0
@@ -906,7 +1276,11 @@ msgstr "ຕ້ອງມີ ເລກລັອດ/ເລກຊີຣີ ສຳລ
 #: model_terms:ir.ui.view,arch_db:stock_account.res_config_settings_view_form
 msgid "Lots & Serial numbers will appear on the invoice"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກລັອດ ແລະ ເລກຊີຣີ ຈະສະແດງຢູ່ໃນໃບບິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລກລັອດ ແລະ ເລກຊີຣີ ຈະສະແດງຢູ່ໃນໃບບິນ"
 >>>>>>> upstream/18.0
@@ -915,7 +1289,11 @@ msgstr "ເລກລັອດ ແລະ ເລກຊີຣີ ຈະສະແດ
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_valuation__manual_periodic
 msgid "Manual"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດ້ວຍຕົນເອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ດ້ວຍຕົນເອງ"
 >>>>>>> upstream/18.0
@@ -925,7 +1303,11 @@ msgstr "ດ້ວຍຕົນເອງ"
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "Manual Stock Valuation: %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າສະຕັອກດ້ວຍຕົນເອງ: %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າສະຕັອກດ້ວຍຕົນເອງ: %s."
 >>>>>>> upstream/18.0
@@ -941,18 +1323,28 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ດ້ວຍຕົນເອງ: ລາຍການບັນຊີເພື່ອຕີມູນຄ່າສິນຄ້າຄົງຄັງຈະບໍ່ຖືກລົງໂດຍອັດຕະໂນມັດ.\n"
 "        ແບບອັດຕະໂນມັດ: ລາຍການບັນຊີຈະຖືກສ້າງຂຶ້ນໂດຍອັດຕະໂນມັດເພື່ອຕີມູນຄ່າສິນຄ້າຄົງຄັງ ເມື່ອສິນຄ້າເຂົ້"
 "າ ຫຼື ອອກຈາກບໍລິສັດ.\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__new_value
 msgid "New value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າໃໝ່"
 >>>>>>> upstream/18.0
@@ -961,7 +1353,11 @@ msgstr "ມູນຄ່າໃໝ່"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__new_value_by_qty
 msgid "New value by quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າໃໝ່ຕໍ່ຈຳນວນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າໃໝ່ຕໍ່ຈຳນວນ"
 >>>>>>> upstream/18.0
@@ -971,7 +1367,11 @@ msgstr "ມູນຄ່າໃໝ່ຕໍ່ຈຳນວນ"
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "No Reason Given"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີເຫດຜົນທີ່ລະບຸ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ມີເຫດຜົນທີ່ລະບຸ"
 >>>>>>> upstream/18.0
@@ -980,7 +1380,11 @@ msgstr "ບໍ່ມີເຫດຜົນທີ່ລະບຸ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_form
 msgid "Other Info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນອື່ນໆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ມູນອື່ນໆ"
 >>>>>>> upstream/18.0
@@ -989,7 +1393,11 @@ msgstr "ຂໍ້ມູນອື່ນໆ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Outgoing"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາອອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາອອກ"
 >>>>>>> upstream/18.0
@@ -1000,7 +1408,11 @@ msgstr "ຂາອອກ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1013,6 +1425,11 @@ msgid ""
 "Please assign lots to all your quantities before enabling lot valuation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສິນຄ້າ %(product)s ມີຈຳນວນໃນສະຖານທີ່ທີ່ຕີມູນຄ່າ %(location)s ໂດຍບໍ່ມີເລກລັອດ.\n"
+"ກະລຸນາລະບຸເລກລັອດໃຫ້ກັບຈຳນວນທັງໝົດ ກ່ອນທີ່ຈະເປີດການຕີມູນຄ່າແບບແຍກລັອດ."
+>>>>>>> upstream/18.0
 =======
 "ສິນຄ້າ %(product)s ມີຈຳນວນໃນສະຖານທີ່ທີ່ຕີມູນຄ່າ %(location)s ໂດຍບໍ່ມີເລກລັອດ.\n"
 "ກະລຸນາລະບຸເລກລັອດໃຫ້ກັບຈຳນວນທັງໝົດ ກ່ອນທີ່ຈະເປີດການຕີມູນຄ່າແບບແຍກລັອດ."
@@ -1026,6 +1443,10 @@ msgid ""
 "required."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສິນຄ້າ %(product)s ຖືກຕີມູນຄ່າແບບແຍກລັອດ: ຕ້ອງມີການລະບຸ ເລກລັອດ/ເລກຊີຣີ."
+>>>>>>> upstream/18.0
 =======
 "ສິນຄ້າ %(product)s ຖືກຕີມູນຄ່າແບບແຍກລັອດ: ຕ້ອງມີການລະບຸ ເລກລັອດ/ເລກຊີຣີ."
 >>>>>>> upstream/18.0
@@ -1036,7 +1457,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Product Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໝວດສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1045,7 +1470,11 @@ msgstr "ໝວດສິນຄ້າ"
 #: model:ir.model,name:stock_account.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນໄຫວສິນຄ້າ (ລາຍການເຄື່ອນໄຫວສະຕັອກ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເຄື່ອນໄຫວສິນຄ້າ (ລາຍການເຄື່ອນໄຫວສະຕັອກ)"
 >>>>>>> upstream/18.0
@@ -1056,7 +1485,11 @@ msgstr "ການເຄື່ອນໄຫວສິນຄ້າ (ລາຍກາ�
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid "Product Revaluation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າສິນຄ້າໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າສິນຄ້າໃໝ່"
 >>>>>>> upstream/18.0
@@ -1065,7 +1498,11 @@ msgstr "ການຕີມູນຄ່າສິນຄ້າໃໝ່"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__product_tmpl_id
 msgid "Product Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຟອມສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1074,7 +1511,11 @@ msgstr "ແບບຟອມສິນຄ້າ"
 #: model:ir.model,name:stock_account.model_product_product
 msgid "Product Variant"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຸ້ນສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລຸ້ນສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1086,6 +1527,10 @@ msgid ""
 "Product value manually modified (from %(original_price)s to %(new_price)s)"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ມູນຄ່າສິນຄ້າຖືກປ່ຽນແປງດ້ວຍຕົນເອງ (ຈາກ %(original_price)s ເປັນ %(new_price)s)"
+>>>>>>> upstream/18.0
 =======
 "ມູນຄ່າສິນຄ້າຖືກປ່ຽນແປງດ້ວຍຕົນເອງ (ຈາກ %(original_price)s ເປັນ %(new_price)s)"
 >>>>>>> upstream/18.0
@@ -1094,7 +1539,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_account.field_res_company__account_production_wip_account_id
 msgid "Production WIP Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີສິນຄ້າລະຫວ່າງຜະລິດ (WIP)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີສິນຄ້າລະຫວ່າງຜະລິດ (WIP)"
 >>>>>>> upstream/18.0
@@ -1103,7 +1552,11 @@ msgstr "ບັນຊີສິນຄ້າລະຫວ່າງຜະລິດ (W
 #: model:ir.model.fields,field_description:stock_account.field_res_company__account_production_wip_overhead_account_id
 msgid "Production WIP Overhead Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີຄ່າໃຊ້ຈ່າຍທາງອ້ອມລະຫວ່າງຜະລິດ (WIP Overhead)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີຄ່າໃຊ້ຈ່າຍທາງອ້ອມລະຫວ່າງຜະລິດ (WIP Overhead)"
 >>>>>>> upstream/18.0
@@ -1113,7 +1566,11 @@ msgstr "ບັນຊີຄ່າໃຊ້ຈ່າຍທາງອ້ອມລະ
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນ"
 >>>>>>> upstream/18.0
@@ -1123,7 +1580,11 @@ msgstr "ຈຳນວນ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_lot__quantity_svl
 msgid "Quantity Svl"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນ SVL"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນ SVL"
 >>>>>>> upstream/18.0
@@ -1132,7 +1593,11 @@ msgstr "ຈຳນວນ SVL"
 #: model:ir.model,name:stock_account.model_stock_quant
 msgid "Quants"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quants"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quants"
 >>>>>>> upstream/18.0
@@ -1141,7 +1606,11 @@ msgstr "Quants"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__reason
 msgid "Reason"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຫດຜົນ"
 >>>>>>> upstream/18.0
@@ -1150,7 +1619,11 @@ msgstr "ເຫດຜົນ"
 #: model:ir.model.fields,help:stock_account.field_stock_valuation_layer_revaluation__reason
 msgid "Reason of the revaluation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດຜົນຂອງການຕີມູນຄ່າໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຫດຜົນຂອງການຕີມູນຄ່າໃໝ່"
 >>>>>>> upstream/18.0
@@ -1159,7 +1632,11 @@ msgstr "ເຫດຜົນຂອງການຕີມູນຄ່າໃໝ່"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__warehouse_id
 msgid "Receipt WH"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາງທີ່ຮັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສາງທີ່ຮັບ"
 >>>>>>> upstream/18.0
@@ -1168,7 +1645,11 @@ msgstr "ສາງທີ່ຮັບ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__reference
 msgid "Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອ້າງອີງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອ້າງອີງ"
 >>>>>>> upstream/18.0
@@ -1177,7 +1658,11 @@ msgstr "ອ້າງອີງ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__lot_id
 msgid "Related lot/serial number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກລັອດ/ເລກຊີຣີ ທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລກລັອດ/ເລກຊີຣີ ທີ່ກ່ຽວຂ້ອງ"
 >>>>>>> upstream/18.0
@@ -1186,7 +1671,11 @@ msgstr "ເລກລັອດ/ເລກຊີຣີ ທີ່ກ່ຽວຂ້�
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__product_id
 msgid "Related product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສິນຄ້າທີ່ກ່ຽວຂ້ອງ"
 >>>>>>> upstream/18.0
@@ -1195,7 +1684,11 @@ msgstr "ສິນຄ້າທີ່ກ່ຽວຂ້ອງ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__remaining_qty
 msgid "Remaining Qty"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຄົງເຫຼືອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຄົງເຫຼືອ"
 >>>>>>> upstream/18.0
@@ -1204,7 +1697,11 @@ msgstr "ຈຳນວນຄົງເຫຼືອ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__remaining_value
 msgid "Remaining Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າຄົງເຫຼືອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າຄົງເຫຼືອ"
 >>>>>>> upstream/18.0
@@ -1213,7 +1710,11 @@ msgstr "ມູນຄ່າຄົງເຫຼືອ"
 #: model:ir.model,name:stock_account.model_stock_return_picking_line
 msgid "Return Picking Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການຮັບຄືນສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການຮັບຄືນສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1223,7 +1724,11 @@ msgstr "ລາຍການຮັບຄືນສິນຄ້າ"
 #: code:addons/stock_account/models/product.py:0
 msgid "Revaluation of %(name)s (negative inventory)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າ %(name)s ໃໝ່ (ສິນຄ້າຄົງຄັງຕິດລົບ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າ %(name)s ໃໝ່ (ສິນຄ້າຄົງຄັງຕິດລົບ)"
 >>>>>>> upstream/18.0
@@ -1233,7 +1738,11 @@ msgstr "ການຕີມູນຄ່າ %(name)s ໃໝ່ (ສິນຄ້າ
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "Revaluation of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າຂອງ %s ໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າຂອງ %s ໃໝ່"
 >>>>>>> upstream/18.0
@@ -1242,7 +1751,11 @@ msgstr "ການຕີມູນຄ່າຂອງ %s ໃໝ່"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid "Revalue"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕີມູນຄ່າໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕີມູນຄ່າໃໝ່"
 >>>>>>> upstream/18.0
@@ -1252,7 +1765,11 @@ msgstr "ຕີມູນຄ່າໃໝ່"
 #: code:addons/stock_account/models/stock_lot.py:0
 msgid "Select an existing lot/serial number to be reevaluated"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກເລກລັອດ/ເລກຊີຣີ ທີ່ມີຢູ່ແລ້ວເພື່ອຕີມູນຄ່າໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລືອກເລກລັອດ/ເລກຊີຣີ ທີ່ມີຢູ່ແລ້ວເພື່ອຕີມູນຄ່າໃໝ່"
 >>>>>>> upstream/18.0
@@ -1261,7 +1778,11 @@ msgstr "ເລືອກເລກລັອດ/ເລກຊີຣີ ທີ່ມ�
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__standard
 msgid "Standard Price"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຄາມາດຕະຖານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຄາມາດຕະຖານ"
 >>>>>>> upstream/18.0
@@ -1278,19 +1799,29 @@ msgid ""
 "        "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ລາຄາມາດຕະຖານ: ສິນຄ້າຈະຖືກຕີມູນຄ່າຕາມຕົ້ນທຶນມາດຕະຖານທີ່ກຳນົດໄວ້ໃນສິນຄ້າ.\n"
 "        ຕົ້ນທຶນສະເລ່ຍ (AVCO): ສິນຄ້າຈະຖືກຕີມູນຄ່າຕາມຕົ້ນທຶນສະເລ່ຍຖ່ວງນ້ຳໜັກ.\n"
 "        ເຂົ້າກ່ອນ ອອກກ່ອນ (FIFO): ສິນຄ້າຈະຖືກຕີມູນຄ່າໂດຍສົມມຸດວ່າສິນຄ້າທີ່ເຂົ້າບໍລິສັດກ່ອນຈະອອກໄປກ່ອ"
 "ນ.\n"
 "        "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:res.groups,name:stock_account.group_stock_accounting_automatic
 msgid "Stock Accounting Automatic"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບັນຊີສະຕັອກແບບອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການບັນຊີສະຕັອກແບບອັດຕະໂນມັດ"
 >>>>>>> upstream/18.0
@@ -1299,7 +1830,11 @@ msgstr "ການບັນຊີສະຕັອກແບບອັດຕະໂນ
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_stock_account_input_categ_id
 msgid "Stock Input Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີສະຕັອກຂາເຂົ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີສະຕັອກຂາເຂົ້າ"
 >>>>>>> upstream/18.0
@@ -1308,7 +1843,11 @@ msgstr "ບັນຊີສະຕັອກຂາເຂົ້າ"
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_stock_journal
 msgid "Stock Journal"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປຶ້ມບັນຊີສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -1320,7 +1859,11 @@ msgstr "ປຶ້ມບັນຊີສະຕັອກ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__stock_move_id
 msgid "Stock Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນໄຫວສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເຄື່ອນໄຫວສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -1329,7 +1872,11 @@ msgstr "ການເຄື່ອນໄຫວສະຕັອກ"
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_stock_account_output_categ_id
 msgid "Stock Output Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີສະຕັອກຂາອອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີສະຕັອກຂາອອກ"
 >>>>>>> upstream/18.0
@@ -1338,7 +1885,11 @@ msgstr "ບັນຊີສະຕັອກຂາອອກ"
 #: model:ir.model,name:stock_account.model_stock_quantity_history
 msgid "Stock Quantity History"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດຈຳນວນສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະຫວັດຈຳນວນສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -1347,7 +1898,11 @@ msgstr "ປະຫວັດຈຳນວນສະຕັອກ"
 #: model:ir.model,name:stock_account.model_stock_forecasted_product_product
 msgid "Stock Replenishment Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານການເຕີມສິນຄ້າຄົງຄັງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍງານການເຕີມສິນຄ້າຄົງຄັງ"
 >>>>>>> upstream/18.0
@@ -1356,7 +1911,11 @@ msgstr "ລາຍງານການເຕີມສິນຄ້າຄົງຄັ
 #: model:ir.model,name:stock_account.model_stock_request_count
 msgid "Stock Request an Inventory Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຮ້ອງຂໍການກວດນັບສິນຄ້າຄົງຄັງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຮ້ອງຂໍການກວດນັບສິນຄ້າຄົງຄັງ"
 >>>>>>> upstream/18.0
@@ -1369,7 +1928,11 @@ msgstr "ການຮ້ອງຂໍການກວດນັບສິນຄ້າ
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quant_tree_editable_inherit
 msgid "Stock Valuation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -1378,7 +1941,11 @@ msgstr "ການຕີມູນຄ່າສະຕັອກ"
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_stock_valuation_account_id
 msgid "Stock Valuation Account"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -1387,7 +1954,11 @@ msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_location__valuation_in_account_id
 msgid "Stock Valuation Account (Incoming)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ (ຂາເຂົ້າ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ (ຂາເຂົ້າ)"
 >>>>>>> upstream/18.0
@@ -1396,7 +1967,11 @@ msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ (ຂາເຂ�
 #: model:ir.model.fields,field_description:stock_account.field_stock_location__valuation_out_account_id
 msgid "Stock Valuation Account (Outgoing)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ (ຂາອອກ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ (ຂາອອກ)"
 >>>>>>> upstream/18.0
@@ -1412,7 +1987,11 @@ msgstr "ບັນຊີຕີມູນຄ່າສະຕັອກ (ຂາອອ�
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__stock_valuation_layer_ids
 msgid "Stock Valuation Layer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັ້ນການຕີມູນຄ່າສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊັ້ນການຕີມູນຄ່າສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -1424,6 +2003,10 @@ msgid ""
 "that corresponds to the totaled value of the product's valuation layers"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຟິວທາງເຕັກນິກເພື່ອສະແດງສະກຸນເງິນຂອງບໍລິສັດທີ່ເລືອກໃນປັດຈຸບັນ ເຊິ່ງກົງກັບມູນຄ່າລວມຂອງຊັ້ນການຕີມູນຄ່າສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 "ຟິວທາງເຕັກນິກເພື່ອສະແດງສະກຸນເງິນຂອງບໍລິສັດທີ່ເລືອກໃນປັດຈຸບັນ ເຊິ່ງກົງກັບມູນຄ່າລວມຂອງຊັ້ນການຕີມູນຄ່າສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1435,6 +2018,11 @@ msgid ""
 "You can use this field for quick search."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລະຫັດປະເທດ ISO ເປັນສອງຕົວອັກສອນ. \n"
+"ທ່ານສາມາດໃຊ້ຟິວນີ້ເພື່ອຄົ້ນຫາແບບໄວ."
+>>>>>>> upstream/18.0
 =======
 "ລະຫັດປະເທດ ISO ເປັນສອງຕົວອັກສອນ. \n"
 "ທ່ານສາມາດໃຊ້ຟິວນີ້ເພື່ອຄົ້ນຫາແບບໄວ."
@@ -1448,6 +2036,10 @@ msgid ""
 "Valuation account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ບັນຊີສະຕັອກຂາເຂົ້າ ແລະ/ຫຼື ຂາອອກ ບໍ່ສາມາດເປັນບັນຊີດຽວກັນກັບບັນຊີຕີມູນຄ່າສະຕັອກໄດ້."
+>>>>>>> upstream/18.0
 =======
 "ບັນຊີສະຕັອກຂາເຂົ້າ ແລະ/ຫຼື ຂາອອກ ບໍ່ສາມາດເປັນບັນຊີດຽວກັນກັບບັນຊີຕີມູນຄ່າສະຕັອກໄດ້."
 >>>>>>> upstream/18.0
@@ -1459,7 +2051,11 @@ msgid ""
 "The action leads to the creation of a journal entry, for which you don't "
 "have the access rights."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການດຳເນີນການນີ້ຈະສ້າງລາຍການບັນຊີ, ເຊິ່ງທ່ານບໍ່ມີສິດໃນການເຂົ້າເຖິງ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ການດຳເນີນການນີ້ຈະສ້າງລາຍການບັນຊີ, ເຊິ່ງທ່ານບໍ່ມີສິດໃນການເຂົ້າເຖິງ."
 >>>>>>> upstream/18.0
@@ -1469,7 +2065,11 @@ msgstr "ການດຳເນີນການນີ້ຈະສ້າງລາຍ
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "The added value doesn't have any impact on the stock valuation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນບໍ່ມີຜົນກະທົບຕໍ່ການຕີມູນຄ່າສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າທີ່ເພີ່ມຂຶ້ນບໍ່ມີຜົນກະທົບຕໍ່ການຕີມູນຄ່າສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -1482,6 +2082,10 @@ msgid ""
 "are leaving the company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລາຍການເຄື່ອນໄຫວບໍ່ສອດຄ່ອງກັນ: ບາງລາຍການກຳລັງເຂົ້າ ແລະ ບາງລາຍການກຳລັງອອກຈາກບໍລິສັດ."
+>>>>>>> upstream/18.0
 =======
 "ລາຍການເຄື່ອນໄຫວບໍ່ສອດຄ່ອງກັນ: ບາງລາຍການກຳລັງເຂົ້າ ແລະ ບາງລາຍການກຳລັງອອກຈາກບໍລິສັດ."
 >>>>>>> upstream/18.0
@@ -1495,6 +2099,11 @@ msgid ""
 "transit location."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລາຍການເຄື່ອນໄຫວບໍ່ສອດຄ່ອງກັນ: ພວກເຂົາກຳລັງເຮັດການໂອນລະຫວ່າງບໍລິສັດໃນຂັ້ນຕອນດຽວ ໃນຂະນະທີ່ພວກເຂົາ"
+"ຄວນຈະຜ່ານສະຖານທີ່ຂົນສົ່ງລະຫວ່າງບໍລິສັດ (transit location)."
+>>>>>>> upstream/18.0
 =======
 "ລາຍການເຄື່ອນໄຫວບໍ່ສອດຄ່ອງກັນ: ພວກເຂົາກຳລັງເຮັດການໂອນລະຫວ່າງບໍລິສັດໃນຂັ້ນຕອນດຽວ ໃນຂະນະທີ່ພວກເຂົາ"
 "ຄວນຈະຜ່ານສະຖານທີ່ຂົນສົ່ງລະຫວ່າງບໍລິສັດ (transit location)."
@@ -1508,6 +2117,10 @@ msgid ""
 "origin or destination company."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລາຍການເຄື່ອນໄຫວບໍ່ສອດຄ່ອງກັນ: ພວກເຂົາບໍ່ໄດ້ມາຈາກບໍລິສັດຕົ້ນທາງ ຫຼື ປາຍທາງດຽວກັນ."
+>>>>>>> upstream/18.0
 =======
 "ລາຍການເຄື່ອນໄຫວບໍ່ສອດຄ່ອງກັນ: ພວກເຂົາບໍ່ໄດ້ມາຈາກບໍລິສັດຕົ້ນທາງ ຫຼື ປາຍທາງດຽວກັນ."
 >>>>>>> upstream/18.0
@@ -1518,7 +2131,11 @@ msgstr ""
 msgid ""
 "The stock accounts should be set in order to use the automatic valuation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວນຕັ້ງຄ່າບັນຊີສະຕັອກເພື່ອໃຊ້ການຕີມູນຄ່າແບບອັດຕະໂນມັດ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄວນຕັ້ງຄ່າບັນຊີສະຕັອກເພື່ອໃຊ້ການຕີມູນຄ່າແບບອັດຕະໂນມັດ."
 >>>>>>> upstream/18.0
@@ -1533,6 +2150,12 @@ msgid ""
 "initial processing."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການຕີມູນຄ່າສະຕັອກຂອງການເຄື່ອນໄຫວແມ່ນອີງໃສ່ປະເພດຂອງສະຖານທີ່ຕົ້ນທາງ ແລະ ປາຍທາງ. ເນື່ອງຈາກການເຄື່"
+"ອນໄຫວຖືກປະມວນຜົນແລ້ວ, ທ່ານບໍ່ສາມາດແກ້ໄຂສະຖານທີ່ໃນຮູບແບບທີ່ຈະປ່ຽນແປງຕັກກະການຕີມູນຄ່າທີ່ກຳນົດໄວ້ໃນຕອ"
+"ນເລີ່ມຕົ້ນໄດ້."
+>>>>>>> upstream/18.0
 =======
 "ການຕີມູນຄ່າສະຕັອກຂອງການເຄື່ອນໄຫວແມ່ນອີງໃສ່ປະເພດຂອງສະຖານທີ່ຕົ້ນທາງ ແລະ ປາຍທາງ. ເນື່ອງຈາກການເຄື່"
 "ອນໄຫວຖືກປະມວນຜົນແລ້ວ, ທ່ານບໍ່ສາມາດແກ້ໄຂສະຖານທີ່ໃນຮູບແບບທີ່ຈະປ່ຽນແປງຕັກກະການຕີມູນຄ່າທີ່ກຳນົດໄວ້ໃນຕອ"
@@ -1547,6 +2170,11 @@ msgid ""
 "be use to correct a specific transfer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ມູນຄ່າຂອງຊັ້ນການຕີມູນຄ່າສະຕັອກບໍ່ສາມາດຕິດລົບໄດ້. ຕົ້ນທຶນນຳເຂົ້າ (Landed cost) ສາມາດໃຊ້ເພື່ອແກ້ໄຂການ"
+"ໂອນສະເພາະໃດໜຶ່ງ."
+>>>>>>> upstream/18.0
 =======
 "ມູນຄ່າຂອງຊັ້ນການຕີມູນຄ່າສະຕັອກບໍ່ສາມາດຕິດລົບໄດ້. ຕົ້ນທຶນນຳເຂົ້າ (Landed cost) ສາມາດໃຊ້ເພື່ອແກ້ໄຂການ"
 "ໂອນສະເພາະໃດໜຶ່ງ."
@@ -1560,6 +2188,10 @@ msgid ""
 "product moves that impact the valuation of the stock."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ບໍ່ມີຊັ້ນການຕີມູນຄ່າ. ຊັ້ນການຕີມູນຄ່າຈະຖືກສ້າງຂຶ້ນເມື່ອມີການເຄື່ອນໄຫວສິນຄ້າທີ່ສົ່ງຜົນກະທົບຕໍ່ການຕີມູນຄ່າສະຕັອກ."
+>>>>>>> upstream/18.0
 =======
 "ບໍ່ມີຊັ້ນການຕີມູນຄ່າ. ຊັ້ນການຕີມູນຄ່າຈະຖືກສ້າງຂຶ້ນເມື່ອມີການເຄື່ອນໄຫວສິນຄ້າທີ່ສົ່ງຜົນກະທົບຕໍ່ການຕີມູນຄ່າສະຕັອກ."
 >>>>>>> upstream/18.0
@@ -1572,6 +2204,11 @@ msgid ""
 " all lots/SN. Do you want to proceed ? "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການດຳເນີນການນີ້ອາດເຮັດໃຫ້ຂໍ້ມູນສູນຫາຍ. ການຕີມູນຄ່າຈະຄືກັນສຳລັບທຸກລັອດ/SN. ທ່ານຕ້ອງການດຳເນີນການຕໍ່"
+"ບໍ່? "
+>>>>>>> upstream/18.0
 =======
 "ການດຳເນີນການນີ້ອາດເຮັດໃຫ້ຂໍ້ມູນສູນຫາຍ. ການຕີມູນຄ່າຈະຄືກັນສຳລັບທຸກລັອດ/SN. ທ່ານຕ້ອງການດຳເນີນການຕໍ່"
 "ບໍ່? "
@@ -1585,6 +2222,10 @@ msgid ""
 " the cost of every lot/serial number in stock."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສິນຄ້ານີ້ຖືກຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ. ການປ່ຽນຕົ້ນທຶນຈະອັບເດດຕົ້ນທຶນຂອງທຸກໆ ລັອດ/ຊີຣີ ໃນສະຕັອກ."
+>>>>>>> upstream/18.0
 =======
 "ສິນຄ້ານີ້ຖືກຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ. ການປ່ຽນຕົ້ນທຶນຈະອັບເດດຕົ້ນທຶນຂອງທຸກໆ ລັອດ/ຊີຣີ ໃນສະຕັອກ."
 >>>>>>> upstream/18.0
@@ -1597,6 +2238,10 @@ msgid ""
 "when adding quantity"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ສິນຄ້ານີ້ຖືກຕີມູນຄ່າຕາມລັອດ: ຕ້ອງມີການລະບຸ ເລກລັອດ/ເລກຊີຣີ ເມື່ອເພີ່ມຈຳນວນ"
+>>>>>>> upstream/18.0
 =======
 "ສິນຄ້ານີ້ຖືກຕີມູນຄ່າຕາມລັອດ: ຕ້ອງມີການລະບຸ ເລກລັອດ/ເລກຊີຣີ ເມື່ອເພີ່ມຈຳນວນ"
 >>>>>>> upstream/18.0
@@ -1605,7 +2250,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Total Moved Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນທີ່ເຄື່ອນໄຫວທັງໝົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນທີ່ເຄື່ອນໄຫວທັງໝົດ"
 >>>>>>> upstream/18.0
@@ -1615,7 +2264,11 @@ msgstr "ຈຳນວນທີ່ເຄື່ອນໄຫວທັງໝົດ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Total Remaining Quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຄົງເຫຼືອທັງໝົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຄົງເຫຼືອທັງໝົດ"
 >>>>>>> upstream/18.0
@@ -1625,7 +2278,11 @@ msgstr "ຈຳນວນຄົງເຫຼືອທັງໝົດ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Total Remaining Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າຄົງເຫຼືອທັງໝົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າຄົງເຫຼືອທັງໝົດ"
 >>>>>>> upstream/18.0
@@ -1639,7 +2296,11 @@ msgstr "ມູນຄ່າຄົງເຫຼືອທັງໝົດ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quant_tree_editable_inherit
 msgid "Total Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າລວມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າລວມ"
 >>>>>>> upstream/18.0
@@ -1648,7 +2309,11 @@ msgstr "ມູນຄ່າລວມ"
 #: model:ir.model,name:stock_account.model_stock_picking
 msgid "Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂອນສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂອນສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1660,7 +2325,11 @@ msgid ""
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະຕຸ້ນການຫຼຸດລົງຂອງຈຳນວນທີ່ສົ່ງ/ຮັບ ໃນໃບສັ່ງຊື້/ໃບສັ່ງຂາຍ ທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ກະຕຸ້ນການຫຼຸດລົງຂອງຈຳນວນທີ່ສົ່ງ/ຮັບ ໃນໃບສັ່ງຊື້/ໃບສັ່ງຂາຍ ທີ່ກ່ຽວຂ້ອງ"
 >>>>>>> upstream/18.0
@@ -1669,7 +2338,11 @@ msgstr "ກະຕຸ້ນການຫຼຸດລົງຂອງຈຳນວນ
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Unit"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວໜ່ວຍ"
 >>>>>>> upstream/18.0
@@ -1678,7 +2351,11 @@ msgstr "ຫົວໜ່ວຍ"
 #: model_terms:ir.ui.view,arch_db:stock_account.product_product_stock_tree_inherit_stock_account
 msgid "Unit Cost"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນຕໍ່ໜ່ວຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົ້ນທຶນຕໍ່ໜ່ວຍ"
 >>>>>>> upstream/18.0
@@ -1687,7 +2364,11 @@ msgstr "ຕົ້ນທຶນຕໍ່ໜ່ວຍ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__unit_cost
 msgid "Unit Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າຕໍ່ໜ່ວຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າຕໍ່ໜ່ວຍ"
 >>>>>>> upstream/18.0
@@ -1697,7 +2378,11 @@ msgstr "ມູນຄ່າຕໍ່ໜ່ວຍ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__product_uom_name
 msgid "Unit of Measure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍວັດແທກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວໜ່ວຍວັດແທກ"
 >>>>>>> upstream/18.0
@@ -1707,7 +2392,11 @@ msgstr "ຫົວໜ່ວຍວັດແທກ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_return_picking_line__to_refund
 msgid "Update quantities on SO/PO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຈຳນວນໃນ SO/PO"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັບເດດຈຳນວນໃນ SO/PO"
 >>>>>>> upstream/18.0
@@ -1717,7 +2406,11 @@ msgstr "ອັບເດດຈຳນວນໃນ SO/PO"
 #: code:addons/stock_account/models/product.py:0
 msgid "Updating lot valuation for product %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງອັບເດດການຕີມູນຄ່າລັອດສຳລັບສິນຄ້າ %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "ກຳລັງອັບເດດການຕີມູນຄ່າລັອດສຳລັບສິນຄ້າ %s."
 >>>>>>> upstream/18.0
@@ -1732,6 +2425,12 @@ msgid ""
 "internal locations."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ໃຊ້ສຳລັບການຕີມູນຄ່າສິນຄ້າແບບ Real-time. ເມື່ອຕັ້ງຄ່າໃນສະຖານທີ່ສະເມືອນ (virtual location), ບັນ"
+"ຊີນີ້ຈະຖືກໃຊ້ເພື່ອເກັບມູນຄ່າຂອງສິນຄ້າທີ່ຖືກຍ້າຍຈາກສະຖານທີ່ພາຍໃນເຂົ້າມາໃນສະຖານທີ່ນີ້, ແທນທີ່ຈະໃຊ້ບັນຊີສະຕັອກ"
+"ຂາອອກທົ່ວໄປທີ່ຕັ້ງໄວ້ໃນສິນຄ້າ. ນີ້ບໍ່ມີຜົນກັບສະຖານທີ່ພາຍໃນ."
+>>>>>>> upstream/18.0
 =======
 "ໃຊ້ສຳລັບການຕີມູນຄ່າສິນຄ້າແບບ Real-time. ເມື່ອຕັ້ງຄ່າໃນສະຖານທີ່ສະເມືອນ (virtual location), ບັນ"
 "ຊີນີ້ຈະຖືກໃຊ້ເພື່ອເກັບມູນຄ່າຂອງສິນຄ້າທີ່ຖືກຍ້າຍຈາກສະຖານທີ່ພາຍໃນເຂົ້າມາໃນສະຖານທີ່ນີ້, ແທນທີ່ຈະໃຊ້ບັນຊີສະຕັອກ"
@@ -1748,6 +2447,12 @@ msgid ""
 "internal locations."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ໃຊ້ສຳລັບການຕີມູນຄ່າສິນຄ້າແບບ Real-time. ເມື່ອຕັ້ງຄ່າໃນສະຖານທີ່ສະເມືອນ (virtual location), ບັນ"
+"ຊີນີ້ຈະຖືກໃຊ້ເພື່ອເກັບມູນຄ່າຂອງສິນຄ້າທີ່ຖືກຍ້າຍອອກຈາກສະຖານທີ່ນີ້ເຂົ້າໄປໃນສະຖານທີ່ພາຍໃນ, ແທນທີ່ຈະໃຊ້ບັນຊີສະ"
+"ຕັອກຂາອອກທົ່ວໄປທີ່ຕັ້ງໄວ້ໃນສິນຄ້າ. ນີ້ບໍ່ມີຜົນກັບສະຖານທີ່ພາຍໃນ."
+>>>>>>> upstream/18.0
 =======
 "ໃຊ້ສຳລັບການຕີມູນຄ່າສິນຄ້າແບບ Real-time. ເມື່ອຕັ້ງຄ່າໃນສະຖານທີ່ສະເມືອນ (virtual location), ບັນ"
 "ຊີນີ້ຈະຖືກໃຊ້ເພື່ອເກັບມູນຄ່າຂອງສິນຄ້າທີ່ຖືກຍ້າຍອອກຈາກສະຖານທີ່ນີ້ເຂົ້າໄປໃນສະຖານທີ່ພາຍໃນ, ແທນທີ່ຈະໃຊ້ບັນຊີສະ"
@@ -1761,7 +2466,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quant_tree_editable_inherit
 msgid "Valuation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າ"
 >>>>>>> upstream/18.0
@@ -1771,7 +2480,11 @@ msgstr "ການຕີມູນຄ່າ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_lot__company_currency_id
 msgid "Valuation Currency"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນການຕີມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະກຸນເງິນການຕີມູນຄ່າ"
 >>>>>>> upstream/18.0
@@ -1780,7 +2493,11 @@ msgstr "ສະກຸນເງິນການຕີມູນຄ່າ"
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer_revaluation__adjusted_layer_ids
 msgid "Valuation Layers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັ້ນການຕີມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊັ້ນການຕີມູນຄ່າ"
 >>>>>>> upstream/18.0
@@ -1789,7 +2506,11 @@ msgstr "ຊັ້ນການຕີມູນຄ່າ"
 #: model_terms:ir.ui.view,arch_db:stock_account.product_product_stock_tree_inherit_stock_account
 msgid "Valuation Report"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍງານການຕີມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍງານການຕີມູນຄ່າ"
 >>>>>>> upstream/18.0
@@ -1799,7 +2520,11 @@ msgstr "ລາຍງານການຕີມູນຄ່າ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quantity_history_inherit_stock_account
 msgid "Valuation at Date"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າໃນວັນທີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າໃນວັນທີ"
 >>>>>>> upstream/18.0
@@ -1809,7 +2534,11 @@ msgstr "ການຕີມູນຄ່າໃນວັນທີ"
 #: model:ir.model.fields,field_description:stock_account.field_product_template__lot_valuated
 msgid "Valuation by Lot/Serial number"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ"
 >>>>>>> upstream/18.0
@@ -1822,6 +2551,11 @@ msgid ""
 "%(old_method)s to %(new_method)s."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການປ່ຽນແປງວິທີການຕີມູນຄ່າສຳລັບໝວດສິນຄ້າ %(category)s: ຈາກ %(old_method)s ເປັນ %"
+"(new_method)s."
+>>>>>>> upstream/18.0
 =======
 "ການປ່ຽນແປງວິທີການຕີມູນຄ່າສຳລັບໝວດສິນຄ້າ %(category)s: ຈາກ %(old_method)s ເປັນ %"
 "(new_method)s."
@@ -1831,7 +2565,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock_account.field_stock_valuation_layer_revaluation__adjusted_layer_ids
 msgid "Valuations layers being adjusted"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັ້ນການຕີມູນຄ່າທີ່ກຳລັງຖືກປັບປຸງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊັ້ນການຕີມູນຄ່າທີ່ກຳລັງຖືກປັບປຸງ"
 >>>>>>> upstream/18.0
@@ -1840,7 +2578,11 @@ msgstr "ຊັ້ນການຕີມູນຄ່າທີ່ກຳລັງຖ
 #: model:ir.model.fields,field_description:stock_account.field_stock_quant__value
 msgid "Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າ"
 >>>>>>> upstream/18.0
@@ -1850,7 +2592,11 @@ msgstr "ມູນຄ່າ"
 #: code:addons/stock_account/static/src/stock_account_forecasted/forecasted_header.xml:0
 msgid "Value On Hand:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າໃນມື:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າໃນມື:"
 >>>>>>> upstream/18.0
@@ -1860,7 +2606,11 @@ msgstr "ມູນຄ່າໃນມື:"
 #: model:ir.model.fields,field_description:stock_account.field_stock_lot__value_svl
 msgid "Value Svl"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າ SVL"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າ SVL"
 >>>>>>> upstream/18.0
@@ -1873,6 +2623,12 @@ msgid ""
 "        Used to compute margins on sale orders."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ມູນຄ່າຂອງລັອດ (ຄິດໄລ່ອັດຕະໂນມັດໃນ AVCO).\n"
+"        ໃຊ້ເພື່ອຕີມູນຄ່າສິນຄ້າເມື່ອບໍ່ຮູ້ຕົ້ນທຶນການຊື້ (ເຊັ່ນ: ການປັບປຸງສິນຄ້າຄົງຄັງ).\n"
+"        ໃຊ້ເພື່ອຄິດໄລ່ກຳໄລໃນໃບສັ່ງຂາຍ."
+>>>>>>> upstream/18.0
 =======
 "ມູນຄ່າຂອງລັອດ (ຄິດໄລ່ອັດຕະໂນມັດໃນ AVCO).\n"
 "        ໃຊ້ເພື່ອຕີມູນຄ່າສິນຄ້າເມື່ອບໍ່ຮູ້ຕົ້ນທຶນການຊື້ (ເຊັ່ນ: ການປັບປຸງສິນຄ້າຄົງຄັງ).\n"
@@ -1884,7 +2640,11 @@ msgstr ""
 #: code:addons/stock_account/models/product.py:0
 msgid "Warning"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳເຕືອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄຳເຕືອນ"
 >>>>>>> upstream/18.0
@@ -1896,6 +2656,10 @@ msgid ""
 "will hold the current value of the products."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ເມື່ອເປີດການຕີມູນຄ່າສິນຄ້າແບບອັດຕະໂນມັດ, ບັນຊີນີ້ຈະເກັບມູນຄ່າປັດຈຸບັນຂອງສິນຄ້າ."
+>>>>>>> upstream/18.0
 =======
 "ເມື່ອເປີດການຕີມູນຄ່າສິນຄ້າແບບອັດຕະໂນມັດ, ບັນຊີນີ້ຈະເກັບມູນຄ່າປັດຈຸບັນຂອງສິນຄ້າ."
 >>>>>>> upstream/18.0
@@ -1908,11 +2672,17 @@ msgid ""
 "                It can also directly be set on each product."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ໃນການຕີມູນຄ່າແບບອັດຕະໂນມັດ, ລາຍການບັນຊີຄູ່ສຳລັບການເຄື່ອນໄຫວສະຕັອກຂາອອກທັງໝົດຈະຖືກລົງໃນບັນຊີນີ້,\n"
 "                ເວັ້ນເສຍແຕ່ຈະມີບັນຊີການຕີມູນຄ່າສະເພາະທີ່ຕັ້ງໄວ້ໃນສະຖານທີ່ປາຍທາງ. ນີ້ແມ່ນຄ່າມາດຕະຖ"
 "ານສຳລັບສິນຄ້າທັງໝົດໃນໝວດນີ້.\n"
 "                ມັນຍັງສາມາດຕັ້ງໂດຍກົງໃສ່ແຕ່ລະສິນຄ້າໄດ້."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_account
@@ -1922,6 +2692,11 @@ msgid ""
 "which entries will be automatically posted when stock moves are processed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ໃນການຕີມູນຄ່າແບບອັດຕະໂນມັດ, ນີ້ແມ່ນປຶ້ມບັນຊີທີ່ຈະລົງລາຍການໂດຍອັດຕະໂນມັດເມື່ອການເຄື່ອນໄຫວສະຕັອກຖືກປະມ"
+"ວນຜົນ."
+>>>>>>> upstream/18.0
 =======
 "ໃນການຕີມູນຄ່າແບບອັດຕະໂນມັດ, ນີ້ແມ່ນປຶ້ມບັນຊີທີ່ຈະລົງລາຍການໂດຍອັດຕະໂນມັດເມື່ອການເຄື່ອນໄຫວສະຕັອກຖືກປະມ"
 "ວນຜົນ."
@@ -1931,7 +2706,11 @@ msgstr ""
 #: model:ir.model,name:stock_account.model_stock_valuation_layer_revaluation
 msgid "Wizard model to reavaluate a stock inventory for a product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມຊ່ວຍ (Wizard) ເພື່ອຕີມູນຄ່າສິນຄ້າຄົງຄັງໃໝ່ສຳລັບສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຟອມຊ່ວຍ (Wizard) ເພື່ອຕີມູນຄ່າສິນຄ້າຄົງຄັງໃໝ່ສຳລັບສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1942,7 +2721,11 @@ msgstr "ແບບຟອມຊ່ວຍ (Wizard) ເພື່ອຕີມູນ�
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot adjust the valuation of a layer with zero quantity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດປັບການຕີມູນຄ່າຂອງຊັ້ນທີ່ມີຈຳນວນເປັນສູນໄດ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ສາມາດປັບການຕີມູນຄ່າຂອງຊັ້ນທີ່ມີຈຳນວນເປັນສູນໄດ້"
 >>>>>>> upstream/18.0
@@ -1952,7 +2735,11 @@ msgstr "ທ່ານບໍ່ສາມາດປັບການຕີມູນຄ
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot adjust valuation without a product"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດປັບການຕີມູນຄ່າໄດ້ໂດຍບໍ່ມີສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ສາມາດປັບການຕີມູນຄ່າໄດ້ໂດຍບໍ່ມີສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -1965,6 +2752,10 @@ msgid ""
 "number."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດປ່ຽນວິທີການຕົ້ນທຶນຂອງສິນຄ້າທີ່ຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ ໄດ້."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ສາມາດປ່ຽນວິທີການຕົ້ນທຶນຂອງສິນຄ້າທີ່ຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ ໄດ້."
 >>>>>>> upstream/18.0
@@ -1976,7 +2767,11 @@ msgid ""
 "You cannot change the product category of a product valuated by lot/serial "
 "number."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດປ່ຽນໝວດສິນຄ້າຂອງສິນຄ້າທີ່ຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ ໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ສາມາດປ່ຽນໝວດສິນຄ້າຂອງສິນຄ້າທີ່ຕີມູນຄ່າຕາມ ເລກລັອດ/ເລກຊີຣີ ໄດ້."
 >>>>>>> upstream/18.0
@@ -1986,7 +2781,11 @@ msgstr "ທ່ານບໍ່ສາມາດປ່ຽນໝວດສິນຄ້
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot revalue a product with a standard cost method."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດຕີມູນຄ່າສິນຄ້າທີ່ໃຊ້ວິທີການຕົ້ນທຶນມາດຕະຖານໃໝ່ໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ສາມາດຕີມູນຄ່າສິນຄ້າທີ່ໃຊ້ວິທີການຕົ້ນທຶນມາດຕະຖານໃໝ່ໄດ້."
 >>>>>>> upstream/18.0
@@ -1997,6 +2796,10 @@ msgstr "ທ່ານບໍ່ສາມາດຕີມູນຄ່າສິນຄ
 msgid "You cannot revalue a product with an empty or negative stock."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດຕີມູນຄ່າສິນຄ້າໃໝ່ໄດ້ ຫາກສິນຄ້າໃນສະຕັອກຫວ່າງເປົ່າ ຫຼື ຕິດລົບ."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ສາມາດຕີມູນຄ່າສິນຄ້າໃໝ່ໄດ້ ຫາກສິນຄ້າໃນສະຕັອກຫວ່າງເປົ່າ ຫຼື ຕິດລົບ."
 >>>>>>> upstream/18.0
@@ -2006,7 +2809,11 @@ msgstr ""
 #: code:addons/stock_account/wizard/stock_valuation_layer_revaluation.py:0
 msgid "You cannot revalue multiple products at once"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ສາມາດຕີມູນຄ່າສິນຄ້າຫຼາຍລາຍການໃໝ່ພ້ອມກັນໄດ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ສາມາດຕີມູນຄ່າສິນຄ້າຫຼາຍລາຍການໃໝ່ພ້ອມກັນໄດ້"
 >>>>>>> upstream/18.0
@@ -2021,6 +2828,11 @@ msgid ""
 "rights."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດອັບເດດຕົ້ນທຶນສິນຄ້າໃນການຕີມູນຄ່າແບບອັດຕະໂນມັດໄດ້ ເນື່ອງຈາກມັນຈະສ້າງລາຍການບັນຊີ ເຊິ່ງທ່ານບໍ່"
+"ມີສິດເຂົ້າເຖິງ."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ສາມາດອັບເດດຕົ້ນທຶນສິນຄ້າໃນການຕີມູນຄ່າແບບອັດຕະໂນມັດໄດ້ ເນື່ອງຈາກມັນຈະສ້າງລາຍການບັນຊີ ເຊິ່ງທ່ານບໍ່"
 "ມີສິດເຂົ້າເຖິງ."
@@ -2034,6 +2846,10 @@ msgid ""
 " You must define one before processing this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີຕີມູນຄ່າຂາເຂົ້າໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີຕີມູນຄ່າຂາເຂົ້າໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
 >>>>>>> upstream/18.0
@@ -2046,6 +2862,10 @@ msgid ""
 "category. You must define one before processing this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີຕີມູນຄ່າຂາອອກໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີຕີມູນຄ່າຂາອອກໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
 >>>>>>> upstream/18.0
@@ -2058,6 +2878,10 @@ msgid ""
 " must define one before processing this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີສະຕັອກຂາເຂົ້າໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີສະຕັອກຂາເຂົ້າໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
 >>>>>>> upstream/18.0
@@ -2070,6 +2894,10 @@ msgid ""
 "you have installed a chart of accounts."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ທັນໄດ້ກຳນົດປຶ້ມບັນຊີສະຕັອກໃນໝວດສິນຄ້າ, ກະລຸນາກວດເບິ່ງວ່າທ່ານໄດ້ຕິດຕັ້ງຜັງບັນຊີແລ້ວບໍ່."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ທັນໄດ້ກຳນົດປຶ້ມບັນຊີສະຕັອກໃນໝວດສິນຄ້າ, ກະລຸນາກວດເບິ່ງວ່າທ່ານໄດ້ຕິດຕັ້ງຜັງບັນຊີແລ້ວບໍ່."
 >>>>>>> upstream/18.0
@@ -2084,6 +2912,10 @@ msgid ""
 " You must define one before processing this operation."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີຕີມູນຄ່າສະຕັອກໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ທັນໄດ້ກຳນົດບັນຊີຕີມູນຄ່າສະຕັອກໃນໝວດສິນຄ້າ. ທ່ານຕ້ອງກຳນົດມັນກ່ອນດຳເນີນການນີ້."
 >>>>>>> upstream/18.0
@@ -2093,7 +2925,11 @@ msgstr ""
 #: code:addons/stock_account/models/stock_valuation_layer.py:0
 msgid "You must set a counterpart account on your product category."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານຕ້ອງກຳນົດບັນຊີຄູ່ສັນຍາໃນໝວດສິນຄ້າຂອງທ່ານ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານຕ້ອງກຳນົດບັນຊີຄູ່ສັນຍາໃນໝວດສິນຄ້າຂອງທ່ານ."
 >>>>>>> upstream/18.0
@@ -2102,7 +2938,11 @@ msgstr "ທ່ານຕ້ອງກຳນົດບັນຊີຄູ່ສັນ
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid "by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂດຍ"
 >>>>>>> upstream/18.0
@@ -2111,7 +2951,11 @@ msgstr "ໂດຍ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_revaluation_form_view
 msgid "for"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສຳລັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສຳລັບ"
 >>>>>>> upstream/18.0
@@ -2120,7 +2964,11 @@ msgstr "ສຳລັບ"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_category_property_form
 msgid "locations"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖານທີ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະຖານທີ່"
 >>>>>>> upstream/18.0
@@ -2129,7 +2977,11 @@ msgstr "ສະຖານທີ່"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "units"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວໜ່ວຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວໜ່ວຍ"
 >>>>>>> upstream/18.0
@@ -2138,7 +2990,11 @@ msgstr "ຫົວໜ່ວຍ"
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_graph
 msgid "valuation graph"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຣາບການຕີມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ກຣາບການຕີມູນຄ່າ"
 >>>>>>> upstream/18.0

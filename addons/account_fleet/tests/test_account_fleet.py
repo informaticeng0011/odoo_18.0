@@ -221,6 +221,7 @@ from freezegun import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 =======
 from odoo import Command
@@ -329,6 +330,9 @@ from odoo.addons.account.tests.test_account_move_line_tax_details import TestAcc
 =======
 from odoo import Command
 from odoo.addons.account.tests.test_account_move_line_tax_details import TestAccountTaxDetailsReport
+>>>>>>> upstream/18.0
+=======
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 >>>>>>> upstream/18.0
 =======
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
@@ -1133,6 +1137,7 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestAccountFleet(AccountTestInvoicingCommon):
 =======
 class TestAccountFleet(TestAccountTaxDetailsReport):
@@ -1214,6 +1219,9 @@ class TestAccountFleet(TestAccountTaxDetailsReport):
 >>>>>>> upstream/18.0
 =======
 class TestAccountFleet(TestAccountTaxDetailsReport):
+>>>>>>> upstream/18.0
+=======
+class TestAccountFleet(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 class TestAccountFleet(AccountTestInvoicingCommon):
@@ -2051,6 +2059,7 @@ class TestAccountFleet(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2184,6 +2193,8 @@ class TestAccountFleet(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

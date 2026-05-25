@@ -23,7 +23,11 @@ class AccountMoveSend(models.AbstractModel):
         # EXTENDS 'account'
         if method == 'nemhandel':
 <<<<<<< HEAD
+<<<<<<< HEAD
             return company.l10n_dk_nemhandel_proxy_state != 'rejected'
+=======
+            return company.l10n_dk_nemhandel_proxy_state != 'rejected' and self.move_id.partner_id.nemhandel_verification_state in {'valid', 'not_verified'}
+>>>>>>> upstream/18.0
 =======
             return company.l10n_dk_nemhandel_proxy_state != 'rejected' and self.move_id.partner_id.nemhandel_verification_state in {'valid', 'not_verified'}
 >>>>>>> upstream/18.0
@@ -252,7 +256,11 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 invoice_data['error'] = e.message
+=======
+                invoice_data['error'] = str(e)
+>>>>>>> upstream/18.0
 =======
                 invoice_data['error'] = str(e)
 >>>>>>> upstream/18.0

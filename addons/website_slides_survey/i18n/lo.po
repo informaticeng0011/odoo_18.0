@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_slides_survey
 #
+=======
+# * website_slides_survey
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * website_slides_survey
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-23 00:36+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -32,13 +41,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides_survey
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_channel__members_certified_count
 msgid "# Certified Attendees"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ຜູ້ເຂົ້າຮ່ວມທີ່ໄດ້ຮັບໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "# ຜູ້ເຂົ້າຮ່ວມທີ່ໄດ້ຮັບໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -48,7 +64,11 @@ msgstr "# ຜູ້ເຂົ້າຮ່ວມທີ່ໄດ້ຮັບໃບ�
 #: code:addons/website_slides_survey/models/survey_survey.py:0
 msgid "- %(certification)s (Courses - %(courses)s)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "- %(certification)s (ວິຊາຮຽນ - %(courses)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "- %(certification)s (ວິຊາຮຽນ - %(courses)s)"
 >>>>>>> upstream/18.0
@@ -60,6 +80,11 @@ msgid ""
 "                        <span class=\"text-muted\">Courses</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<br/>\n"
+"                        <span class=\"text-muted\">ວິຊາຮຽນ</span>"
+>>>>>>> upstream/18.0
 =======
 "<br/>\n"
 "                        <span class=\"text-muted\">ວິຊາຮຽນ</span>"
@@ -84,7 +109,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        ຮຽນ <t t-out=\"object.partner_id.name or 'participant' or ''\">ຜູ້ເຂົ້າຮ່ວ"
@@ -104,13 +132,20 @@ msgstr ""
 "    \n"
 "</div>\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: website_slides_survey
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "<i class=\"fa fa-arrow-right\"/> Get Certified"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-arrow-right\"/> ຮັບໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-arrow-right\"/> ຮັບໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -122,6 +157,11 @@ msgid ""
 "title=\"Download Certification\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-download\" aria-label=\"Download certification\" title=\"ດາວ"
+"ໂຫຼດໃບຢັ້ງຢືນ\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-download\" aria-label=\"Download certification\" title=\"ດາວ"
 "ໂຫຼດໃບຢັ້ງຢືນ\"/>"
@@ -134,6 +174,11 @@ msgid ""
 "certification\" title=\"Download certification\"/> Download certification"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
+"certification\" title=\"Download certification\"/> ດາວໂຫຼດໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
 "certification\" title=\"Download certification\"/> ດາວໂຫຼດໃບຢັ້ງຢືນ"
@@ -146,6 +191,12 @@ msgid ""
 "                        Share your certification"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-share-alt\" aria-label=\"Share certification\" "
+"title=\"Share certification\"/>\n"
+"                        ແບ່ງປັນໃບຢັ້ງຢືນຂອງທ່ານ"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-share-alt\" aria-label=\"Share certification\" "
 "title=\"Share certification\"/>\n"
@@ -156,7 +207,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "<i class=\"fa fa-share-alt\" aria-label=\"Share\" title=\"Share\"/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-share-alt\" aria-label=\"Share\" title=\"ແບ່ງປັນ\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-share-alt\" aria-label=\"Share\" title=\"ແບ່ງປັນ\"/>"
 >>>>>>> upstream/18.0
@@ -165,7 +220,11 @@ msgstr "<i class=\"fa fa-share-alt\" aria-label=\"Share\" title=\"ແບ່ງ�
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "<i class=\"oi oi-arrow-right me-1\"/>Add Questions to this Survey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>ເພີ່ມຄຳຖາມໃສ່ການສຳຫຼວດນີ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>ເພີ່ມຄຳຖາມໃສ່ການສຳຫຼວດນີ້"
 >>>>>>> upstream/18.0
@@ -174,7 +233,11 @@ msgstr "<i class=\"oi oi-arrow-right me-1\"/>ເພີ່ມຄຳຖາມໃ�
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "<i class=\"oi oi-arrow-right me-1\"/>All Certifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right me-1\"/>ໃບຢັ້ງຢືນທັງໝົດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right me-1\"/>ໃບຢັ້ງຢືນທັງໝົດ"
 >>>>>>> upstream/18.0
@@ -183,7 +246,11 @@ msgstr "<i class=\"oi oi-arrow-right me-1\"/>ໃບຢັ້ງຢືນທັ�
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "<i class=\"oi oi-arrow-right\"/> See Certifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-arrow-right\"/> ເບິ່ງໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right\"/> ເບິ່ງໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -192,7 +259,11 @@ msgstr "<i class=\"oi oi-arrow-right\"/> ເບິ່ງໃບຢັ້ງຢື
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.badge_content
 msgid "<i class=\"text-muted\"> awarded users</i>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"text-muted\"> ຜູ້ໃຊ້ທີ່ໄດ້ຮັບລາງວັນ</i>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"text-muted\"> ຜູ້ໃຊ້ທີ່ໄດ້ຮັບລາງວັນ</i>"
 >>>>>>> upstream/18.0
@@ -201,7 +272,11 @@ msgstr "<i class=\"text-muted\"> ຜູ້ໃຊ້ທີ່ໄດ້ຮັບ�
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.courses_home_inherit_survey
 msgid "<span class=\"ms-1\">Certifications</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"ms-1\">ໃບຢັ້ງຢືນ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"ms-1\">ໃບຢັ້ງຢືນ</span>"
 >>>>>>> upstream/18.0
@@ -210,7 +285,11 @@ msgstr "<span class=\"ms-1\">ໃບຢັ້ງຢືນ</span>"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_channel_view_form
 msgid "<span class=\"o_stat_text\">Certified</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">ໄດ້ຮັບການຢັ້ງຢືນ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">ໄດ້ຮັບການຢັ້ງຢືນ</span>"
 >>>>>>> upstream/18.0
@@ -219,7 +298,11 @@ msgstr "<span class=\"o_stat_text\">ໄດ້ຮັບການຢັ້ງຢ�
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.all_user_card
 msgid "<span class=\"text-muted small fw-bold\">Certifications</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted small fw-bold\">ໃບຢັ້ງຢືນ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted small fw-bold\">ໃບຢັ້ງຢືນ</span>"
 >>>>>>> upstream/18.0
@@ -228,7 +311,11 @@ msgstr "<span class=\"text-muted small fw-bold\">ໃບຢັ້ງຢືນ</sp
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.top3_user_card
 msgid "<span class=\"text-muted\">Certifications</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\">ໃບຢັ້ງຢືນ</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\">ໃບຢັ້ງຢືນ</span>"
 >>>>>>> upstream/18.0
@@ -238,6 +325,10 @@ msgstr "<span class=\"text-muted\">ໃບຢັ້ງຢືນ</span>"
 msgid "<span>Start Now</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>ເລີ່ມຕົ້ນດຽວນີ້</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span>ເລີ່ມຕົ້ນດຽວນີ້</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
 >>>>>>> upstream/18.0
@@ -246,7 +337,11 @@ msgstr ""
 #: model:ir.model.constraint,message:website_slides_survey.constraint_slide_slide_check_survey_id
 msgid "A slide of type 'certification' requires a certification."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ປະເພດ 'ການຢັ້ງຢືນ' ຕ້ອງມີການກຳນົດການຢັ້ງຢືນ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ປະເພດ 'ການຢັ້ງຢືນ' ຕ້ອງມີການກຳນົດການຢັ້ງຢືນ."
 >>>>>>> upstream/18.0
@@ -255,7 +350,11 @@ msgstr "ສະໄລດ໌ປະເພດ 'ການຢັ້ງຢືນ' ຕ�
 #: model:ir.model.constraint,message:website_slides_survey.constraint_slide_slide_check_certification_preview
 msgid "A slide of type certification cannot be previewed."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ປະເພດການຢັ້ງຢືນບໍ່ສາມາດເບິ່ງຕົວຢ່າງໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ປະເພດການຢັ້ງຢືນບໍ່ສາມາດເບິ່ງຕົວຢ່າງໄດ້."
 >>>>>>> upstream/18.0
@@ -266,7 +365,11 @@ msgstr "ສະໄລດ໌ປະເພດການຢັ້ງຢືນບໍ່
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_channel_view_form
 msgid "Add Certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -276,7 +379,11 @@ msgstr "ເພີ່ມໃບຢັ້ງຢືນ"
 #: code:addons/website_slides_survey/static/src/xml/website_slides_fullscreen.xml:0
 msgid "Add Questions to this Survey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຄຳຖາມໃສ່ການສຳຫຼວດນີ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມຄຳຖາມໃສ່ການສຳຫຼວດນີ້"
 >>>>>>> upstream/18.0
@@ -285,7 +392,11 @@ msgstr "ເພີ່ມຄຳຖາມໃສ່ການສຳຫຼວດນີ
 #: model_terms:ir.actions.act_window,help:website_slides_survey.slide_slide_action_certification
 msgid "Add a new certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມໃບຢັ້ງຢືນໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມໃບຢັ້ງຢືນໃໝ່"
 >>>>>>> upstream/18.0
@@ -294,7 +405,11 @@ msgstr "ເພີ່ມໃບຢັ້ງຢືນໃໝ່"
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__is_preview
 msgid "Allow Preview"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ເບິ່ງຕົວຢ່າງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອະນຸຍາດໃຫ້ເບິ່ງຕົວຢ່າງ"
 >>>>>>> upstream/18.0
@@ -307,6 +422,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການສຳຫຼວດໃດໆທີ່ລະບຸໄວ້ຂ້າງລຸ່ມນີ້ແມ່ນກຳລັງຖືກໃຊ້ເປັນການຢັ້ງຢືນວິຊາຮຽນ ແລະ ບໍ່ສາມາດລຶບໄດ້:\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "ການສຳຫຼວດໃດໆທີ່ລະບຸໄວ້ຂ້າງລຸ່ມນີ້ແມ່ນກຳລັງຖືກໃຊ້ເປັນການຢັ້ງຢືນວິຊາຮຽນ ແລະ ບໍ່ສາມາດລຶບໄດ້:\n"
 "%s"
@@ -316,7 +436,11 @@ msgstr ""
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_3
 msgid "Ash"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄມ້ແອສ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄມ້ແອສ"
 >>>>>>> upstream/18.0
@@ -328,6 +452,11 @@ msgid ""
 "                <br>and send them a document if they pass the test."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ປະເມີນລະດັບຄວາມເຂົ້າໃຈຂອງຜູ້ເຂົ້າຮ່ວມຂອງທ່ານ\n"
+"                <br>ແລະ ສົ່ງເອກະສານໃຫ້ພວກເຂົາຖ້າພວກເຂົາຜ່ານການທົດສອບ."
+>>>>>>> upstream/18.0
 =======
 "ປະເມີນລະດັບຄວາມເຂົ້າໃຈຂອງຜູ້ເຂົ້າຮ່ວມຂອງທ່ານ\n"
 "                <br>ແລະ ສົ່ງເອກະສານໃຫ້ພວກເຂົາຖ້າພວກເຂົາຜ່ານການທົດສອບ."
@@ -337,7 +466,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "Attempt n°"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄັ້ງທີ່ພະຍາຍາມ n°"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄັ້ງທີ່ພະຍາຍາມ n°"
 >>>>>>> upstream/18.0
@@ -346,7 +479,11 @@ msgstr "ຄັ້ງທີ່ພະຍາຍາມ n°"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_survey_view_tree_slides
 msgid "Avg Score (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄະແນນສະເລ່ຍ (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄະແນນສະເລ່ຍ (%)"
 >>>>>>> upstream/18.0
@@ -355,7 +492,11 @@ msgstr "ຄະແນນສະເລ່ຍ (%)"
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_5
 msgid "Bed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕຽງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕຽງ"
 >>>>>>> upstream/18.0
@@ -364,7 +505,11 @@ msgstr "ຕຽງ"
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_4
 msgid "Beech"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄມ້ບີຊ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄມ້ບີຊ"
 >>>>>>> upstream/18.0
@@ -375,7 +520,11 @@ msgstr "ໄມ້ບີຊ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "Begin Certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລີ່ມການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -384,7 +533,11 @@ msgstr "ເລີ່ມການຢັ້ງຢືນ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.course_main
 msgid "Begin your <b>certification</b> today!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລີ່ມຕົ້ນ <b>ການຢັ້ງຢືນ</b> ຂອງທ່ານມື້ນີ້!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລີ່ມຕົ້ນ <b>ການຢັ້ງຢືນ</b> ຂອງທ່ານມື້ນີ້!"
 >>>>>>> upstream/18.0
@@ -393,7 +546,11 @@ msgstr "ເລີ່ມຕົ້ນ <b>ການຢັ້ງຢືນ</b> ຂອ
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__slide_category
 msgid "Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໝວດໝູ່"
 >>>>>>> upstream/18.0
@@ -406,7 +563,11 @@ msgstr "ໝວດໝູ່"
 #: model:ir.model.fields.selection,name:website_slides_survey.selection__slide_slide__slide_type__certification
 msgid "Certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -415,7 +576,11 @@ msgstr "ໃບຢັ້ງຢືນ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "Certification Attempts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຄັ້ງທີ່ສອບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຄັ້ງທີ່ສອບ"
 >>>>>>> upstream/18.0
@@ -424,7 +589,11 @@ msgstr "ຈຳນວນຄັ້ງທີ່ສອບ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.badge_content
 msgid "Certification Badges"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫຼຽນກາການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫຼຽນກາການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -433,7 +602,11 @@ msgstr "ຫຼຽນກາການຢັ້ງຢືນ"
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_survey__slide_channel_ids
 msgid "Certification Courses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິຊາຮຽນທີ່ມີໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວິຊາຮຽນທີ່ມີໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -443,7 +616,11 @@ msgstr "ວິຊາຮຽນທີ່ມີໃບຢັ້ງຢືນ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_slide_partner_view_tree
 msgid "Certification Passed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜ່ານການຢັ້ງຢືນແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜ່ານການຢັ້ງຢືນແລ້ວ"
 >>>>>>> upstream/18.0
@@ -452,7 +629,11 @@ msgstr "ຜ່ານການຢັ້ງຢືນແລ້ວ"
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_survey__slide_ids
 msgid "Certification Slides"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -461,7 +642,11 @@ msgstr "ສະໄລດ໌ການຢັ້ງຢືນ"
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide_partner__survey_scoring_success
 msgid "Certification Succeeded"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢັ້ງຢືນສຳເລັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຢັ້ງຢືນສຳເລັດ"
 >>>>>>> upstream/18.0
@@ -470,7 +655,11 @@ msgstr "ການຢັ້ງຢືນສຳເລັດ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_survey_view_tree_slides
 msgid "Certification Title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້ການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວຂໍ້ການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -479,7 +668,11 @@ msgstr "ຫົວຂໍ້ການຢັ້ງຢືນ"
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide_partner__user_input_ids
 msgid "Certification attempts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຄັ້ງທີ່ພະຍາຍາມສອບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຄັ້ງທີ່ພະຍາຍາມສອບ"
 >>>>>>> upstream/18.0
@@ -488,7 +681,11 @@ msgstr "ຈຳນວນຄັ້ງທີ່ພະຍາຍາມສອບ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.o_wss_certification_icon
 msgid "Certification icon"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອຄອນໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄອຄອນໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -498,7 +695,11 @@ msgstr "ໄອຄອນໃບຢັ້ງຢືນ"
 #: code:addons/website_slides_survey/controllers/slides.py:0
 msgid "Certification slides are completed when the survey is succeeded."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ການຢັ້ງຢືນຈະສຳເລັດເມື່ອການສຳຫຼວດຜ່ານເກນ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ການຢັ້ງຢືນຈະສຳເລັດເມື່ອການສຳຫຼວດຜ່ານເກນ."
 >>>>>>> upstream/18.0
@@ -510,7 +711,11 @@ msgstr "ສະໄລດ໌ການຢັ້ງຢືນຈະສຳເລັດ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "Certifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -519,7 +724,11 @@ msgstr "ໃບຢັ້ງຢືນ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "Certifications are exams that you successfully passed. <br/>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນແມ່ນມາຈາກການສອບເສັງທີ່ທ່ານໄດ້ຜ່ານສຳເລັດແລ້ວ. <br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບຢັ້ງຢືນແມ່ນມາຈາກການສອບເສັງທີ່ທ່ານໄດ້ຜ່ານສຳເລັດແລ້ວ. <br/>"
 >>>>>>> upstream/18.0
@@ -529,7 +738,11 @@ msgstr "ໃບຢັ້ງຢືນແມ່ນມາຈາກການສອບ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_sidebar_done_button
 msgid "Certifications you have passed cannot be marked as not done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນທີ່ທ່ານຜ່ານແລ້ວບໍ່ສາມາດໝາຍວ່າ 'ຍັງບໍ່ທັນເຮັດ' ໄດ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບຢັ້ງຢືນທີ່ທ່ານຜ່ານແລ້ວບໍ່ສາມາດໝາຍວ່າ 'ຍັງບໍ່ທັນເຮັດ' ໄດ້"
 >>>>>>> upstream/18.0
@@ -539,7 +752,11 @@ msgstr "ໃບຢັ້ງຢືນທີ່ທ່ານຜ່ານແລ້ວ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_channel_partner_view_search
 msgid "Certified"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຮັບການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຮັບການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -548,7 +765,11 @@ msgstr "ໄດ້ຮັບການຢັ້ງຢືນ"
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_1
 msgid "Chair"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕັ່ງ"
 >>>>>>> upstream/18.0
@@ -557,7 +778,11 @@ msgstr "ຕັ່ງ"
 #: model:ir.model,name:website_slides_survey.model_slide_channel_partner
 msgid "Channel / Partners (Members)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງ / ຄູ່ຮ່ວມ (ສະມາຊິກ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊ່ອງທາງ / ຄູ່ຮ່ວມ (ສະມາຊິກ)"
 >>>>>>> upstream/18.0
@@ -568,7 +793,11 @@ msgstr "ຊ່ອງທາງ / ຄູ່ຮ່ວມ (ສະມາຊິກ)"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "Congratulations, you passed the Certification!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍສະແດງຄວາມຍິນດີ, ທ່ານຜ່ານການຢັ້ງຢືນແລ້ວ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍສະແດງຄວາມຍິນດີ, ທ່ານຜ່ານການຢັ້ງຢືນແລ້ວ!"
 >>>>>>> upstream/18.0
@@ -577,7 +806,11 @@ msgstr "ຂໍສະແດງຄວາມຍິນດີ, ທ່ານຜ່າ�
 #: model:ir.model,name:website_slides_survey.model_slide_channel
 msgid "Course"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິຊາຮຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວິຊາຮຽນ"
 >>>>>>> upstream/18.0
@@ -588,7 +821,11 @@ msgstr "ວິຊາຮຽນ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_survey_view_form
 msgid "Courses"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິຊາຮຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວິຊາຮຽນ"
 >>>>>>> upstream/18.0
@@ -597,7 +834,11 @@ msgstr "ວິຊາຮຽນ"
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_survey__slide_channel_count
 msgid "Courses Count"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນວິຊາຮຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນວິຊາຮຽນ"
 >>>>>>> upstream/18.0
@@ -606,7 +847,11 @@ msgstr "ຈຳນວນວິຊາຮຽນ"
 #: model_terms:ir.actions.act_window,help:website_slides_survey.survey_survey_action_slides
 msgid "Create a Certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -615,7 +860,11 @@ msgstr "ສ້າງການຢັ້ງຢືນ"
 #: model:slide.slide,name:website_slides_survey.slide_slide_demo_6_0
 msgid "DIY Furniture Certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢັ້ງຢືນເຟີນີເຈີ DIY"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຢັ້ງຢືນເຟີນີເຈີ DIY"
 >>>>>>> upstream/18.0
@@ -624,7 +873,11 @@ msgstr "ການຢັ້ງຢືນເຟີນີເຈີ DIY"
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_3
 msgid "Desk"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຕະເຮັດວຽກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂຕະເຮັດວຽກ"
 >>>>>>> upstream/18.0
@@ -634,7 +887,11 @@ msgstr "ໂຕະເຮັດວຽກ"
 #: code:addons/website_slides_survey/static/src/xml/website_slides_fullscreen.xml:0
 msgid "Download certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດາວໂຫຼດໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ດາວໂຫຼດໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -643,7 +900,11 @@ msgstr "ດາວໂຫຼດໃບຢັ້ງຢືນ"
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_1
 msgid "Fir"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄມ້ເຟີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄມ້ເຟີ"
 >>>>>>> upstream/18.0
@@ -652,7 +913,11 @@ msgstr "ໄມ້ເຟີ"
 #: model:survey.question,title:website_slides_survey.furniture_certification_page_1
 msgid "Furniture"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຟີນີເຈີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຟີນີເຈີ"
 >>>>>>> upstream/18.0
@@ -662,7 +927,11 @@ msgstr "ເຟີນີເຈີ"
 #: model:survey.survey,title:website_slides_survey.furniture_certification
 msgid "Furniture Creation Certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢັ້ງຢືນການສ້າງເຟີນີເຈີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຢັ້ງຢືນການສ້າງເຟີນີເຈີ"
 >>>>>>> upstream/18.0
@@ -671,7 +940,11 @@ msgstr "ການຢັ້ງຢືນການສ້າງເຟີນີເຈ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_fill_form_done_inherit_website_slides
 msgid "Go back to course"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກັບຄືນຫາວິຊາຮຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ກັບຄືນຫາວິຊາຮຽນ"
 >>>>>>> upstream/18.0
@@ -681,7 +954,11 @@ msgstr "ກັບຄືນຫາວິຊາຮຽນ"
 #: code:addons/website_slides_survey/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid "How to upload a certification on your course?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການອັບໂຫຼດໃບຢັ້ງຢືນລົງໃນວິຊາຮຽນຂອງທ່ານ?"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວິທີການອັບໂຫຼດໃບຢັ້ງຢືນລົງໃນວິຊາຮຽນຂອງທ່ານ?"
 >>>>>>> upstream/18.0
@@ -690,7 +967,11 @@ msgstr "ວິທີການອັບໂຫຼດໃບຢັ້ງຢືນລ
 #: model_terms:slide.slide,description:website_slides_survey.slide_slide_demo_6_0
 msgid "It's time to test your knowledge!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ເວລາທົດສອບຄວາມຮູ້ຂອງທ່ານແລ້ວ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ເວລາທົດສອບຄວາມຮູ້ຂອງທ່ານແລ້ວ!"
 >>>>>>> upstream/18.0
@@ -699,7 +980,11 @@ msgstr "ໄດ້ເວລາທົດສອບຄວາມຮູ້ຂອງທ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.res_config_settings_view_form
 msgid "Manage Certifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈັດການໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -708,7 +993,11 @@ msgstr "ຈັດການໃບຢັ້ງຢືນ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "Mark To Do"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝາຍວ່າຕ້ອງເຮັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໝາຍວ່າຕ້ອງເຮັດ"
 >>>>>>> upstream/18.0
@@ -718,7 +1007,11 @@ msgstr "ໝາຍວ່າຕ້ອງເຮັດ"
 #: code:addons/website_slides_survey/models/slide_channel.py:0
 msgid "No Attendee passed this course certification yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີຜູ້ເຂົ້າຮ່ວມຜ່ານການຢັ້ງຢືນວິຊາຮຽນນີ້ເທື່ອ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍັງບໍ່ມີຜູ້ເຂົ້າຮ່ວມຜ່ານການຢັ້ງຢືນວິຊາຮຽນນີ້ເທື່ອ!"
 >>>>>>> upstream/18.0
@@ -727,7 +1020,11 @@ msgstr "ຍັງບໍ່ມີຜູ້ເຂົ້າຮ່ວມຜ່ານ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "No certification found for the given search term."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບໃບຢັ້ງຢືນສຳລັບຄຳຄົ້ນຫາທີ່ລະບຸ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ພົບໃບຢັ້ງຢືນສຳລັບຄຳຄົ້ນຫາທີ່ລະບຸ."
 >>>>>>> upstream/18.0
@@ -736,7 +1033,11 @@ msgstr "ບໍ່ພົບໃບຢັ້ງຢືນສຳລັບຄຳຄົ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "No certifications yet!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີໃບຢັ້ງຢືນເທື່ອ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຍັງບໍ່ມີໃບຢັ້ງຢືນເທື່ອ!"
 >>>>>>> upstream/18.0
@@ -746,7 +1047,11 @@ msgstr "ຍັງບໍ່ມີໃບຢັ້ງຢືນເທື່ອ!"
 msgid ""
 "Now that you have completed the course, it's time to test your knowledge!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕອນນີ້ທ່ານໄດ້ຮຽນຈົບວິຊາຮຽນແລ້ວ, ໄດ້ເວລາທົດສອບຄວາມຮູ້ຂອງທ່ານແລ້ວ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕອນນີ້ທ່ານໄດ້ຮຽນຈົບວິຊາຮຽນແລ້ວ, ໄດ້ເວລາທົດສອບຄວາມຮູ້ຂອງທ່ານແລ້ວ!"
 >>>>>>> upstream/18.0
@@ -757,7 +1062,11 @@ msgstr "ຕອນນີ້ທ່ານໄດ້ຮຽນຈົບວິຊາຮ
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__nbr_certification
 msgid "Number of Certifications"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -766,7 +1075,11 @@ msgstr "ຈຳນວນໃບຢັ້ງຢືນ"
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_1_choice_2
 msgid "Oak"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄມ້ໂອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄມ້ໂອກ"
 >>>>>>> upstream/18.0
@@ -776,7 +1089,11 @@ msgstr "ໄມ້ໂອກ"
 #: code:addons/website_slides_survey/static/src/js/public/components/slide_upload_dialog/slide_upload_category.xml:0
 msgid "Please select a certification."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາເລືອກໃບຢັ້ງຢືນ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ກະລຸນາເລືອກໃບຢັ້ງຢືນ."
 >>>>>>> upstream/18.0
@@ -785,7 +1102,11 @@ msgstr "ກະລຸນາເລືອກໃບຢັ້ງຢືນ."
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_user_input__slide_id
 msgid "Related course slide"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ວິຊາຮຽນທີ່ກ່ຽວຂ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ວິຊາຮຽນທີ່ກ່ຽວຂ້ອງ"
 >>>>>>> upstream/18.0
@@ -794,7 +1115,11 @@ msgstr "ສະໄລດ໌ວິຊາຮຽນທີ່ກ່ຽວຂ້ອງ
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.display_certificate
 msgid "Score:"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄະແນນ:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄະແນນ:"
 >>>>>>> upstream/18.0
@@ -803,7 +1128,11 @@ msgstr "ຄະແນນ:"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "Search"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄົ້ນຫາ"
 >>>>>>> upstream/18.0
@@ -812,7 +1141,11 @@ msgstr "ຄົ້ນຫາ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "Search Attempts..."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາການສອບ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄົ້ນຫາການສອບ..."
 >>>>>>> upstream/18.0
@@ -822,7 +1155,11 @@ msgstr "ຄົ້ນຫາການສອບ..."
 #: code:addons/website_slides_survey/static/src/js/public/components/slide_upload_dialog/slide_upload_category.js:0
 msgid "Select a certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລືອກໃບຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -831,7 +1168,11 @@ msgstr "ເລືອກໃບຢັ້ງຢືນ"
 #: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_2
 msgid "Select all the furniture shown in the video"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກເຟີນີເຈີທັງໝົດທີ່ສະແດງໃນວິດີໂອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລືອກເຟີນີເຈີທັງໝົດທີ່ສະແດງໃນວິດີໂອ"
 >>>>>>> upstream/18.0
@@ -844,6 +1185,10 @@ msgid ""
 "certification can be done from the backend."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ເລືອກໃບຢັ້ງຢືນທີ່ມີຢູ່ແລ້ວຈາກລາຍການ. ການສ້າງ ຫຼື ແກ້ໄຂໃບຢັ້ງຢືນສາມາດເຮັດໄດ້ຈາກລະບົບຫຼັງບ້ານ."
+>>>>>>> upstream/18.0
 =======
 "ເລືອກໃບຢັ້ງຢືນທີ່ມີຢູ່ແລ້ວຈາກລາຍການ. ການສ້າງ ຫຼື ແກ້ໄຂໃບຢັ້ງຢືນສາມາດເຮັດໄດ້ຈາກລະບົບຫຼັງບ້ານ."
 >>>>>>> upstream/18.0
@@ -852,7 +1197,11 @@ msgstr ""
 #: model:mail.template,description:website_slides_survey.mail_template_user_input_certification_failed
 msgid "Sent to participant if they failed the certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມຖ້າພວກເຂົາບໍ່ຜ່ານການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມຖ້າພວກເຂົາບໍ່ຜ່ານການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -861,7 +1210,11 @@ msgstr "ສົ່ງໃຫ້ຜູ້ເຂົ້າຮ່ວມຖ້າພວ
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_4
 msgid "Shelf"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊັ້ນວາງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊັ້ນວາງ"
 >>>>>>> upstream/18.0
@@ -870,7 +1223,11 @@ msgstr "ຊັ້ນວາງ"
 #: model:ir.model,name:website_slides_survey.model_slide_slide_partner
 msgid "Slide / Partner decorated m2m"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ / ຄູ່ຮ່ວມ ຕົກແຕ່ງ m2m"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ / ຄູ່ຮ່ວມ ຕົກແຕ່ງ m2m"
 >>>>>>> upstream/18.0
@@ -879,7 +1236,11 @@ msgstr "ສະໄລດ໌ / ຄູ່ຮ່ວມ ຕົກແຕ່ງ m2m"
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__slide_type
 msgid "Slide Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດສະໄລດ໌"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດສະໄລດ໌"
 >>>>>>> upstream/18.0
@@ -888,7 +1249,11 @@ msgstr "ປະເພດສະໄລດ໌"
 #: model:ir.model.fields,help:website_slides_survey.field_survey_user_input__slide_partner_id
 msgid "Slide membership information for the logged in user"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນສະມາຊິກສະໄລດ໌ສຳລັບຜູ້ໃຊ້ທີ່ເຂົ້າສູ່ລະບົບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ມູນສະມາຊິກສະໄລດ໌ສຳລັບຜູ້ໃຊ້ທີ່ເຂົ້າສູ່ລະບົບ"
 >>>>>>> upstream/18.0
@@ -897,7 +1262,11 @@ msgstr "ຂໍ້ມູນສະມາຊິກສະໄລດ໌ສຳລັບ
 #: model:ir.model,name:website_slides_survey.model_slide_slide
 msgid "Slides"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌"
 >>>>>>> upstream/18.0
@@ -906,7 +1275,11 @@ msgstr "ສະໄລດ໌"
 #: model:ir.model.fields,field_description:website_slides_survey.field_survey_user_input__slide_partner_id
 msgid "Subscriber information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຜູ້ຕິດຕາມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ມູນຜູ້ຕິດຕາມ"
 >>>>>>> upstream/18.0
@@ -918,6 +1291,10 @@ msgid ""
 " / source type."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ປະເພດຍ່ອຍຂອງໝວດໝູ່ສະໄລດ໌, ຊ່ວຍໃຫ້ມີຄວາມລະອຽດກ່ຽວກັບປະເພດໄຟລ໌ / ປະເພດແຫຼ່ງທີ່ມາ."
+>>>>>>> upstream/18.0
 =======
 "ປະເພດຍ່ອຍຂອງໝວດໝູ່ສະໄລດ໌, ຊ່ວຍໃຫ້ມີຄວາມລະອຽດກ່ຽວກັບປະເພດໄຟລ໌ / ປະເພດແຫຼ່ງທີ່ມາ."
 >>>>>>> upstream/18.0
@@ -926,7 +1303,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.survey_survey_view_tree_slides
 msgid "Success Ratio (%)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັດຕາຄວາມສຳເລັດ (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັດຕາຄວາມສຳເລັດ (%)"
 >>>>>>> upstream/18.0
@@ -935,7 +1316,11 @@ msgstr "ອັດຕາຄວາມສຳເລັດ (%)"
 #: model:ir.model,name:website_slides_survey.model_survey_survey
 msgid "Survey"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສຳຫຼວດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສຳຫຼວດ"
 >>>>>>> upstream/18.0
@@ -944,7 +1329,11 @@ msgstr "ການສຳຫຼວດ"
 #: model:ir.model,name:website_slides_survey.model_survey_user_input
 msgid "Survey User Input"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນຜູ້ໃຊ້ປ້ອນໃນການສຳຫຼວດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ມູນຜູ້ໃຊ້ປ້ອນໃນການສຳຫຼວດ"
 >>>>>>> upstream/18.0
@@ -953,7 +1342,11 @@ msgstr "ຂໍ້ມູນຜູ້ໃຊ້ປ້ອນໃນການສຳຫ
 #: model:mail.template,name:website_slides_survey.mail_template_user_input_certification_failed
 msgid "Survey: Certification Failure"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສຳຫຼວດ: ການຢັ້ງຢືນບໍ່ຜ່ານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສຳຫຼວດ: ການຢັ້ງຢືນບໍ່ຜ່ານ"
 >>>>>>> upstream/18.0
@@ -962,7 +1355,11 @@ msgstr "ການສຳຫຼວດ: ການຢັ້ງຢືນບໍ່ຜ�
 #: model:survey.question.answer,value:website_slides_survey.furniture_certification_page_1_question_2_choice_2
 msgid "Table"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຕະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂຕະ"
 >>>>>>> upstream/18.0
@@ -971,7 +1368,11 @@ msgstr "ໂຕະ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "Take Quiz"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຮັດບົດທົດສອບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຮັດບົດທົດສອບ"
 >>>>>>> upstream/18.0
@@ -982,7 +1383,11 @@ msgstr "ເຮັດບົດທົດສອບ"
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.slide_content_detailed
 msgid "Test Certification"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທົດສອບການຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທົດສອບການຢັ້ງຢືນ"
 >>>>>>> upstream/18.0
@@ -992,7 +1397,11 @@ msgstr "ທົດສອບການຢັ້ງຢືນ"
 #: model_terms:survey.survey,description:website_slides_survey.furniture_certification
 msgid "Test your furniture knowledge!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທົດສອບຄວາມຮູ້ກ່ຽວກັບເຟີນີເຈີຂອງທ່ານ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທົດສອບຄວາມຮູ້ກ່ຽວກັບເຟີນີເຈີຂອງທ່ານ!"
 >>>>>>> upstream/18.0
@@ -1004,6 +1413,10 @@ msgid ""
 "channel to access the content of the course."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ວິຊາຮຽນນີ້ທຸກຄົນສາມາດເຂົ້າເຖິງໄດ້: ຜູ້ໃຊ້ບໍ່ຈຳເປັນຕ້ອງເຂົ້າຮ່ວມຊ່ອງທາງເພື່ອເຂົ້າເຖິງເນື້ອໃນ."
+>>>>>>> upstream/18.0
 =======
 "ວິຊາຮຽນນີ້ທຸກຄົນສາມາດເຂົ້າເຖິງໄດ້: ຜູ້ໃຊ້ບໍ່ຈຳເປັນຕ້ອງເຂົ້າຮ່ວມຊ່ອງທາງເພື່ອເຂົ້າເຖິງເນື້ອໃນ."
 >>>>>>> upstream/18.0
@@ -1013,7 +1426,11 @@ msgstr ""
 msgid ""
 "The courses this survey is linked to through the e-learning application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິຊາຮຽນທີ່ການສຳຫຼວດນີ້ເຊື່ອມຕໍ່ຜ່ານແອັບ e-learning"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວິຊາຮຽນທີ່ການສຳຫຼວດນີ້ເຊື່ອມຕໍ່ຜ່ານແອັບ e-learning"
 >>>>>>> upstream/18.0
@@ -1022,7 +1439,11 @@ msgstr "ວິຊາຮຽນທີ່ການສຳຫຼວດນີ້ເຊ
 #: model:ir.model.fields,help:website_slides_survey.field_survey_user_input__slide_id
 msgid "The related course slide when there is no membership information"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ວິຊາຮຽນທີ່ກ່ຽວຂ້ອງເມື່ອບໍ່ມີຂໍ້ມູນສະມາຊິກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ວິຊາຮຽນທີ່ກ່ຽວຂ້ອງເມື່ອບໍ່ມີຂໍ້ມູນສະມາຊິກ"
 >>>>>>> upstream/18.0
@@ -1031,7 +1452,11 @@ msgstr "ສະໄລດ໌ວິຊາຮຽນທີ່ກ່ຽວຂ້ອງ
 #: model:ir.model.fields,help:website_slides_survey.field_survey_survey__slide_ids
 msgid "The slides this survey is linked to through the e-learning application"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະໄລດ໌ທີ່ການສຳຫຼວດນີ້ເຊື່ອມຕໍ່ຜ່ານແອັບ e-learning"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະໄລດ໌ທີ່ການສຳຫຼວດນີ້ເຊື່ອມຕໍ່ຜ່ານແອັບ e-learning"
 >>>>>>> upstream/18.0
@@ -1040,7 +1465,11 @@ msgstr "ສະໄລດ໌ທີ່ການສຳຫຼວດນີ້ເຊື
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_slide__name
 msgid "Title"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຫົວຂໍ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຫົວຂໍ້"
 >>>>>>> upstream/18.0
@@ -1049,7 +1478,11 @@ msgstr "ຫົວຂໍ້"
 #: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_3
 msgid "What do you think about the content of the course? (not rated)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານຄິດແນວໃດກ່ຽວກັບເນື້ອໃນຂອງວິຊາຮຽນນີ້? (ບໍ່ໄດ້ໃຫ້ຄະແນນ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານຄິດແນວໃດກ່ຽວກັບເນື້ອໃນຂອງວິຊາຮຽນນີ້? (ບໍ່ໄດ້ໃຫ້ຄະແນນ)"
 >>>>>>> upstream/18.0
@@ -1058,7 +1491,11 @@ msgstr "ທ່ານຄິດແນວໃດກ່ຽວກັບເນື້ອ
 #: model:survey.question,title:website_slides_survey.furniture_certification_page_1_question_1
 msgid "What type of wood is the best for furniture?"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄມ້ຊະນິດໃດດີທີ່ສຸດສຳລັບເຮັດເຟີນີເຈີ?"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄມ້ຊະນິດໃດດີທີ່ສຸດສຳລັບເຮັດເຟີນີເຈີ?"
 >>>>>>> upstream/18.0
@@ -1068,7 +1505,11 @@ msgstr "ໄມ້ຊະນິດໃດດີທີ່ສຸດສຳລັບເ
 #: code:addons/website_slides_survey/controllers/slides.py:0
 msgid "You are not allowed to create a survey."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ສ້າງການສຳຫຼວດ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ສ້າງການສຳຫຼວດ."
 >>>>>>> upstream/18.0
@@ -1078,7 +1519,11 @@ msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ສ
 #: code:addons/website_slides_survey/controllers/slides.py:0
 msgid "You are not allowed to link a certification."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ໃບຢັ້ງຢືນ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ເຊື່ອມຕໍ່ໃບຢັ້ງຢືນ."
 >>>>>>> upstream/18.0
@@ -1090,6 +1535,11 @@ msgid ""
 "                            <br/>Follow the links to reach new heights and skill up!"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານສາມາດໄດ້ຮັບຫຼຽນກາໂດຍການຜ່ານການຢັ້ງຢືນ. ນີ້ແມ່ນລາຍການຫຼຽນກາການຢັ້ງຢືນທັງໝົດທີ່ມີ.\n"
+"                            <br/>ຕິດຕາມລິ້ງເພື່ອບັນລຸລະດັບໃໝ່ ແລະ ເພີ່ມທັກສະຂອງທ່ານ!"
+>>>>>>> upstream/18.0
 =======
 "ທ່ານສາມາດໄດ້ຮັບຫຼຽນກາໂດຍການຜ່ານການຢັ້ງຢືນ. ນີ້ແມ່ນລາຍການຫຼຽນກາການຢັ້ງຢືນທັງໝົດທີ່ມີ.\n"
 "                            <br/>ຕິດຕາມລິ້ງເພື່ອບັນລຸລະດັບໃໝ່ ແລະ ເພີ່ມທັກສະຂອງທ່ານ!"
@@ -1100,7 +1550,11 @@ msgstr ""
 msgid ""
 "You have failed the course: {{ object.slide_partner_id.channel_id.name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານບໍ່ຜ່ານວິຊາຮຽນ: {{ object.slide_partner_id.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານບໍ່ຜ່ານວິຊາຮຽນ: {{ object.slide_partner_id.channel_id.name }}"
 >>>>>>> upstream/18.0
@@ -1109,7 +1563,11 @@ msgstr "ທ່ານບໍ່ຜ່ານວິຊາຮຽນ: {{ object.slide_
 #: model_terms:ir.ui.view,arch_db:website_slides_survey.user_profile_content
 msgid "You have not taken any certification yet."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານຍັງບໍ່ທັນໄດ້ສອບເສັງເອົາໃບຢັ້ງຢືນໃດໆເທື່ອ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ທ່ານຍັງບໍ່ທັນໄດ້ສອບເສັງເອົາໃບຢັ້ງຢືນໃດໆເທື່ອ."
 >>>>>>> upstream/18.0

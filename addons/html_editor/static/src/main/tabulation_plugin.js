@@ -334,6 +334,7 @@ import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { closestBlock } from "@html_editor/utils/blocks";
 import { splitTextNode } from "@html_editor/utils/dom";
 import { isEditorTab, isTextNode, isZWS } from "@html_editor/utils/dom_info";
@@ -1009,6 +1010,8 @@ import { isEditorTab, isTextNode, isZWS } from "@html_editor/utils/dom_info";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { closestBlock, isBlock } from "@html_editor/utils/blocks";
 import { splitTextNode } from "@html_editor/utils/dom";
 import {
@@ -1147,6 +1150,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1748,6 +1754,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2734,8 +2743,13 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const traversedBlocks = this.dependencies.selection.getTraversedBlocks();
             this.indentBlocks(traversedBlocks);
+=======
+            const targetedBlocks = this.dependencies.selection.getTargetedBlocks();
+            this.indentBlocks(targetedBlocks);
+>>>>>>> upstream/18.0
 =======
             const targetedBlocks = this.dependencies.selection.getTargetedBlocks();
             this.indentBlocks(targetedBlocks);
@@ -4019,8 +4033,13 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const traversedBlocks = this.dependencies.selection.getTraversedBlocks();
         this.outdentBlocks(traversedBlocks);
+=======
+        const targetedBlocks = this.dependencies.selection.getTargetedBlocks();
+        this.outdentBlocks(targetedBlocks);
+>>>>>>> upstream/18.0
 =======
         const targetedBlocks = this.dependencies.selection.getTargetedBlocks();
         this.outdentBlocks(targetedBlocks);
@@ -5380,8 +5399,11 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dependencies.dom.insert(parseHTML(this.document, tabHtml));
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6395,6 +6417,9 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7203,8 +7228,11 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const block of blocks) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7601,6 +7629,9 @@ export class TabulationPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

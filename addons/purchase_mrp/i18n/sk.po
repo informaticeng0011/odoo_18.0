@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase_mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -429,11 +430,15 @@
 =======
 # * purchase_mrp
 >>>>>>> upstream/18.0
+=======
+# * purchase_mrp
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
 # Tomáš Píšek, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -856,10 +861,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1294,16 +1303,22 @@ msgstr ""
 "Last-Translator: Tomáš Píšek, 2025\n"
 "Language-Team: Slovak (https://app.transifex.com/odoo/teams/41243/sk/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-17 05:50+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovak <https://translate.odoo.com/projects/odoo-18/"
 "purchase_mrp/sk/>\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
@@ -1730,12 +1745,21 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase_mrp
 #: model_terms:ir.ui.view,arch_db:purchase_mrp.purchase_order_form_mrp
 msgid "<span class=\"o_stat_text\">Manufacturing</span>"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Výroba</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Výroba</span>"
 >>>>>>> upstream/18.0
@@ -1765,7 +1789,11 @@ msgstr "Rozpiska materiálu"
 #: code:addons/purchase_mrp/models/mrp_bom.py:0
 msgid "Components cost share have to be positive or equals to zero."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podiel nákladov na komponenty musí byť kladný alebo rovný nule."
+>>>>>>> upstream/18.0
 =======
 msgstr "Podiel nákladov na komponenty musí byť kladný alebo rovný nule."
 >>>>>>> upstream/18.0
@@ -1779,7 +1807,11 @@ msgstr "Zdielanie nákladov (%)"
 #: model:ir.model.fields,field_description:purchase_mrp.field_purchase_order__mrp_production_count
 msgid "Count of MO Source"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet zdrojových výrobných objednávok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet zdrojových výrobných objednávok"
 >>>>>>> upstream/18.0
@@ -1788,7 +1820,11 @@ msgstr "Počet zdrojových výrobných objednávok"
 #: model:ir.model.fields,field_description:purchase_mrp.field_mrp_production__purchase_order_count
 msgid "Count of generated PO"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet vygenerovaných nákupných objednávok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet vygenerovaných nákupných objednávok"
 >>>>>>> upstream/18.0
@@ -1813,7 +1849,11 @@ msgstr "Výrobná objednávka"
 #: code:addons/purchase_mrp/models/purchase.py:0
 msgid "Manufacturing Source of %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zdroj z výroby pre %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zdroj z výroby pre %s"
 >>>>>>> upstream/18.0
@@ -1822,6 +1862,7 @@ msgstr "Zdroj z výroby pre %s"
 #. odoo-python
 #: code:addons/purchase_mrp/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2527,11 +2568,16 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 "Odoo is not able to generate the anglo saxon entries. The total valuation of "
 "%s is zero."
 msgstr ""
 "Odoo nie je schopné generovať anglosaské záznamy. Celkové ocenenie %s je "
 "nula."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: purchase_mrp
@@ -2549,7 +2595,11 @@ msgstr "Riadok nákupnej objednávky"
 #: code:addons/purchase_mrp/models/mrp_production.py:0
 msgid "Purchase Order generated from %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nákupná objednávka vytvorená z %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nákupná objednávka vytvorená z %s"
 >>>>>>> upstream/18.0
@@ -2566,6 +2616,11 @@ msgid ""
 "total of all components' cost have to be equal to 100."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Percentuálny podiel nákladov na jednotlivé komponenty pri nákupe sady. Súčet "
+"nákladov na všetky komponenty musí byť rovný 100."
+>>>>>>> upstream/18.0
 =======
 "Percentuálny podiel nákladov na jednotlivé komponenty pri nákupe sady. Súčet "
 "nákladov na všetky komponenty musí byť rovný 100."
@@ -2576,7 +2631,11 @@ msgstr ""
 #: code:addons/purchase_mrp/models/mrp_bom.py:0
 msgid "The total cost share for a BoM's component have to be 100"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Celkový podiel nákladov na komponenty kusovníka musí byť 100"
+>>>>>>> upstream/18.0
 =======
 msgstr "Celkový podiel nákladov na komponenty kusovníka musí byť 100"
 >>>>>>> upstream/18.0

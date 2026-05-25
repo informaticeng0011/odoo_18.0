@@ -234,8 +234,11 @@ class MyInvoisDocument(models.Model):
             company = self.company_id
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return date_utils.get_fiscal_year(self.myinvois_issuance_date, day=company.fiscalyear_last_day, month=int(company.fiscalyear_last_month))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             date_start, date_end = date_utils.get_fiscal_year(
@@ -245,6 +248,9 @@ class MyInvoisDocument(models.Model):
             )
             return (date_start, date_end) + (None, None)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
