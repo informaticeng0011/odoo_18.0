@@ -258,6 +258,10 @@ import { parseFloat } from "../parsers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useInputField } from "@web/views/fields/input_field_hook";
+>>>>>>> upstream/18.0
 =======
 import { useInputField } from "@web/views/fields/input_field_hook";
 >>>>>>> upstream/18.0
@@ -1303,8 +1307,11 @@ export class ProgressBarField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.maxValueRef = useRef("maxValue");
         this.currentValueRef = useRef("currentValue");
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2079,7 +2086,10 @@ export class ProgressBarField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2859,6 +2869,9 @@ export class ProgressBarField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3396,6 +3409,7 @@ export class ProgressBarField extends Component {
     }
 
     formatCurrentValue(humanReadable = !this.state.isEditing) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4190,6 +4204,8 @@ export class ProgressBarField extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const formatter = formatters.get(this.props.record.fields[this.currentValueField].type);
         return formatter(this.currentValue, { humanReadable });
     }
@@ -4468,6 +4484,9 @@ export class ProgressBarField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

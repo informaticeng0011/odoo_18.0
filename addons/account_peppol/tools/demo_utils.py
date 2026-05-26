@@ -60,6 +60,10 @@ def get_demo_vendor_bill(user):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'origin_message_uuid': f'{user.company_id.id}_demo_vendor_bill',
+>>>>>>> upstream/18.0
 =======
         'origin_message_uuid': f'{user.company_id.id}_demo_vendor_bill',
 >>>>>>> upstream/18.0
@@ -225,6 +229,10 @@ def get_demo_vendor_bill(user):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'document_type': 'Invoice',
+>>>>>>> upstream/18.0
 =======
         'document_type': 'Invoice',
 >>>>>>> upstream/18.0
@@ -414,8 +422,11 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {message_uuid: {'state': 'done'}}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -538,6 +549,9 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -768,7 +782,10 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1178,6 +1195,7 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1186,6 +1204,8 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1591,6 +1611,9 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1861,6 +1884,7 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
         'register_sender': lambda _user, _args, _kwargs: {},
         'register_receiver': lambda _user, _args, _kwargs: {},
         'register_sender_as_receiver': lambda _user, _args, _kwargs: {},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2278,6 +2302,8 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         'unregister_to_sender': _mock_unregister_to_sender,
         'get_all_documents': _mock_get_all_documents,
         'get_document': _mock_get_document,
@@ -2417,6 +2443,9 @@ def _mock_call_peppol_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2691,6 +2720,7 @@ def _mock_button_verify_partner_endpoint(func, self, *args, **kwargs):
     state = _mock_get_peppol_verification_state(func, self, endpoint, eas, edi_format)
     self.with_company(company).peppol_verification_state = state
     self._log_verification_state_update(company, old_value, state)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4218,6 +4248,11 @@ def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 
 def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 >>>>>>> upstream/18.0
+=======
+
+
+def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
+>>>>>>> upstream/18.0
     (endpoint, eas, xml_format) = args
     if not (eas and endpoint):
         return 'not_verified'
@@ -4569,6 +4604,9 @@ def _mock_get_peppol_verification_state(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5469,7 +5507,11 @@ def _mock_migrate_participant(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     self.company_id.account_peppol_migration_key = 'demo_migration_key'
+=======
+    self.company_id.sudo().account_peppol_migration_key = 'demo_migration_key'
+>>>>>>> upstream/18.0
 =======
     self.company_id.sudo().account_peppol_migration_key = 'demo_migration_key'
 >>>>>>> upstream/18.0
@@ -5941,7 +5983,10 @@ def _mock_check_company_on_peppol(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6106,6 +6151,7 @@ def _mock_peppol_deregister_participant(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6172,6 +6218,8 @@ def _mock_peppol_deregister_participant(func, self, *args, **kwargs):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6236,6 +6284,9 @@ def _mock_can_receive_self_billing(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6343,6 +6394,7 @@ _demo_behaviour = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     '_peppol_deregister_participant': _mock_peppol_deregister_participant,
 >>>>>>> upstream/18.0
@@ -6441,6 +6493,10 @@ _demo_behaviour = {
 >>>>>>> upstream/18.0
 =======
     '_peppol_deregister_participant': _mock_peppol_deregister_participant,
+>>>>>>> upstream/18.0
+=======
+    '_peppol_deregister_participant': _mock_peppol_deregister_participant,
+    '_can_receive_self_billing': _mock_can_receive_self_billing,
 >>>>>>> upstream/18.0
 =======
     '_peppol_deregister_participant': _mock_peppol_deregister_participant,

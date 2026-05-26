@@ -317,7 +317,11 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if ("mailing_model_id" in record.data) {
+=======
+            if (record.data.mailing_model_id) {
+>>>>>>> upstream/18.0
 =======
             if (record.data.mailing_model_id) {
 >>>>>>> upstream/18.0
@@ -1452,6 +1456,10 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                is_favorite: true,
+>>>>>>> upstream/18.0
 =======
                 is_favorite: true,
 >>>>>>> upstream/18.0
@@ -2149,6 +2157,7 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let $newWrapper;
         let $newWrapperContent;
         if (themeParams.nowrap) {
@@ -2185,6 +2194,8 @@ export class MassMailingHtmlField extends HtmlField {
                 return this.nodeType === 3 && this.textContent.match(/\S/);
             }).parent().addClass('o_default_snippet_text');
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2517,6 +2528,9 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2948,7 +2962,10 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3630,6 +3647,9 @@ export class MassMailingHtmlField extends HtmlField {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

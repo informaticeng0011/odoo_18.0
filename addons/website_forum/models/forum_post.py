@@ -593,10 +593,13 @@ class Post(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for vals in vals_list:
             if 'content' in vals and vals.get('forum_id'):
                 vals['content'] = self._update_content(vals['content'], vals['forum_id'])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1443,6 +1446,9 @@ class Post(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2527,7 +2533,12 @@ class Post(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for post in self.browse(res_ids):
+=======
+            posts = self.browse(res_ids).with_prefetch(self._prefetch_ids)  # force prefetch, lost otherwise with rebrowsing
+            for post in posts:
+>>>>>>> upstream/18.0
 =======
             posts = self.browse(res_ids).with_prefetch(self._prefetch_ids)  # force prefetch, lost otherwise with rebrowsing
             for post in posts:

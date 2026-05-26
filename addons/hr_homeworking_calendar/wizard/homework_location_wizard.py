@@ -109,7 +109,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models, api
+=======
+from odoo import api, fields, models, tools
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models, tools
 >>>>>>> upstream/18.0
@@ -457,6 +461,7 @@ class HomeworkLocationWizard(models.TransientModel):
     @api.depends('date')
     def _compute_day_week_string(self):
         for record in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1482,6 +1487,9 @@ class HomeworkLocationWizard(models.TransientModel):
 =======
             record.day_week_string = tools.format_date(record.env, record.date, date_format='EEEE') if record.date else ''
 >>>>>>> upstream/18.0
+=======
+            record.day_week_string = tools.format_date(record.env, record.date, date_format='EEEE') if record.date else ''
+>>>>>>> upstream/18.0
 
     @api.depends('date')
     def _compute_user_can_edit(self):
@@ -1745,6 +1753,11 @@ class HomeworkLocationWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not self.date:
+            return
+>>>>>>> upstream/18.0
 =======
         if not self.date:
             return

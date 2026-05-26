@@ -140,7 +140,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { browser } from "@web/core/browser/browser";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -629,6 +632,7 @@ registry.category("web_tour.tours").add('website_links_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             content: "Copy tracker link",
             trigger: '#btn_shorten_url',
             run: function () {
@@ -641,6 +645,8 @@ registry.category("web_tour.tours").add('website_links_tour', {
             },
         },
         {
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -933,6 +939,7 @@ registry.category("web_tour.tours").add('website_links_tour', {
             run: function () {
                 window.location.href = $('#generated_tracked_link .o_website_links_short_url').text();
             },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1829,6 +1836,8 @@ registry.category("web_tour.tours").add('website_links_tour', {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             expectUnloadPage: true,
         },
         {
@@ -2032,6 +2041,9 @@ registry.category("web_tour.tours").add('website_links_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2710,6 +2722,10 @@ registry.category("web_tour.tours").add('website_links_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0
@@ -3818,6 +3834,10 @@ registry.category("web_tour.tours").add('website_links_tour', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

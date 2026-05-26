@@ -89,7 +89,11 @@ class TestMassMailing(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'is_notification': True,
+=======
+                'is_notification': False,
+>>>>>>> upstream/18.0
 =======
                 'is_notification': False,
 >>>>>>> upstream/18.0
@@ -310,8 +314,13 @@ class TestMassMailing(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'model': 'res.users',
                 'res_id': self.env.user.id,
+=======
+                'model': record._name,
+                'res_id': record.id,
+>>>>>>> upstream/18.0
 =======
                 'model': record._name,
                 'res_id': record.id,

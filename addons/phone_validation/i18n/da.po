@@ -79,6 +79,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* phone_validation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -649,11 +650,16 @@
 # * phone_validation
 #
 >>>>>>> upstream/18.0
+=======
+# * phone_validation
+#
+>>>>>>> upstream/18.0
 # Translators:
 # lhmflexerp <lhm@flexerp.dk>, 2024
 # Mads Søndergaard, 2024
 # Sanne Kristensen <sanne@vkdata.dk>, 2024
 # Martin Trigaux, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1223,10 +1229,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1856,6 +1866,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-05-09 09:14+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1876,6 +1888,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1911,6 +1926,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2494,6 +2510,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #. odoo-python
@@ -2515,7 +2535,11 @@ msgid "%(error)s Please correct the number and try again."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(error)s Ret venligst tallet og prøv igen."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(error)s Ret venligst tallet og prøv igen."
 >>>>>>> upstream/18.0
@@ -2731,6 +2755,7 @@ msgstr "Arkiveret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3209,6 +3234,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/phone_validation/models/mail_thread_phone.py:0
 msgid "Are you sure you want to unblacklist this Phone Number?"
 msgstr ""
@@ -3300,6 +3327,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3577,6 +3607,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Telefonnumre, der står på listen over blokerede nummer, modtager ikke "
+"længere SMS'er."
+>>>>>>> upstream/18.0
 =======
 "Telefonnumre, der står på listen over blokerede nummer, modtager ikke "
 "længere SMS'er."
@@ -3945,6 +3980,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Blokeret på grund af sletning af portalkontoen %(portal_user_name)s af %"
+"(user_name)s (#%(user_id)s)"
+>>>>>>> upstream/18.0
 =======
 "Blokeret på grund af sletning af portalkontoen %(portal_user_name)s af %"
 "(user_name)s (#%(user_id)s)"
@@ -4298,8 +4338,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Felt brugt til at lagre rensede telefonnumre. Hjælper med at øge hastigheden"
 " på søgninger og sammenligninger."
+=======
+"Felt brugt til at lagre rensede telefonnumre. Hjælper med at øge hastigheden "
+"på søgninger og sammenligninger."
+>>>>>>> upstream/18.0
 =======
 "Felt brugt til at lagre rensede telefonnumre. Hjælper med at øge hastigheden "
 "på søgninger og sammenligninger."
@@ -5050,8 +5095,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -5644,7 +5694,11 @@ msgid "Impossible number %s: not a valid country prefix."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugyldigt nummer %s: landekode ikke gyldigt."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugyldigt nummer %s: landekode ikke gyldigt."
 >>>>>>> upstream/18.0
@@ -5714,7 +5768,11 @@ msgid "Impossible number %s: not enough digits."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugyldigt nummer %s: for få cifre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugyldigt nummer %s: for få cifre."
 >>>>>>> upstream/18.0
@@ -5790,7 +5848,11 @@ msgid "Impossible number %s: too many digits."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ugyldigt nummer %s: for mange cifre."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ugyldigt nummer %s: for mange cifre."
 >>>>>>> upstream/18.0
@@ -5847,6 +5909,7 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6702,6 +6765,11 @@ msgstr ""
 "at kende forskel på hvilket nummer er blokeret      når der er både en mobil "
 "og telefon felt i en model. "
 >>>>>>> upstream/18.0
+=======
+"Indikere om et blokeret renset telefonnummer er et mobil nummer. Hjælper med "
+"at kende forskel på hvilket nummer er blokeret      når der er både en mobil "
+"og telefon felt i en model. "
+>>>>>>> upstream/18.0
 
 #. module: phone_validation
 #: model:ir.model.fields,help:phone_validation.field_mail_thread_phone__phone_blacklisted
@@ -6773,7 +6841,11 @@ msgid "Missing definition of phone fields."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Manglende definition af telefonfelter."
+>>>>>>> upstream/18.0
 =======
 msgstr "Manglende definition af telefonfelter."
 >>>>>>> upstream/18.0
@@ -6976,7 +7048,11 @@ msgid "Unblock Reason: %(reason)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Årsag til ophævelse af blokering: %(reason)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Årsag til ophævelse af blokering: %(reason)s"
 >>>>>>> upstream/18.0
@@ -7258,7 +7334,10 @@ msgstr "Bruger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7563,6 +7642,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: phone_validation
 <<<<<<< HEAD
@@ -8059,6 +8139,8 @@ msgstr "f.eks. \"Har bedt om at modtage vores næste nyhedsbreve\""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Du har ikke tilladelse til at fjerne telefonnumre fra sortlisten. Kontakt "
 "venligst din administrator."
 
@@ -8081,6 +8163,9 @@ msgstr "f.eks. \"Har bedt om at modtage vores næste nyhedsbreve\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -1744,7 +1744,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 set_limit: limit && !(expand || hierarchize || comodelDomain),
+=======
+                set_limit: limit && !(expand || hierarchize || comodelDomain.length),
+>>>>>>> upstream/18.0
 =======
                 set_limit: limit && !(expand || hierarchize || comodelDomain.length),
 >>>>>>> upstream/18.0
@@ -2160,7 +2164,11 @@ export class MockServer {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     set_limit: limit && !(expand || groupBy || comodelDomain),
+=======
+                    set_limit: limit && !(expand || groupBy || comodelDomain.length),
+>>>>>>> upstream/18.0
 =======
                     set_limit: limit && !(expand || groupBy || comodelDomain.length),
 >>>>>>> upstream/18.0

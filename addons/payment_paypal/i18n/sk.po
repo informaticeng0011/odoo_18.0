@@ -107,6 +107,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_paypal
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,6 +538,9 @@
 =======
 # * payment_paypal
 >>>>>>> upstream/18.0
+=======
+# * payment_paypal
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -682,6 +686,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -750,6 +755,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -1076,6 +1084,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1685,6 +1694,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-04-01 16:54+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1740,6 +1751,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1845,6 +1859,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2536,6 +2551,11 @@ msgstr ""
 "n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && "
+"n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.payment_provider_form
@@ -2607,7 +2627,11 @@ msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodarilo sa nadviazať spojenie s API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodarilo sa nadviazať spojenie s API."
 >>>>>>> upstream/18.0
@@ -2845,7 +2869,11 @@ msgid "Could not generate a new access token."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepodarilo sa vygenerovať nový prístupový token."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepodarilo sa vygenerovať nový prístupový token."
 >>>>>>> upstream/18.0
@@ -3171,7 +3199,11 @@ msgid "Generate your webhook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvorte svoj webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvorte svoj webhook"
 >>>>>>> upstream/18.0
@@ -3498,7 +3530,11 @@ msgid "Invalid response format, can't normalize."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neplatný formát odpovede, nemožno normalizovať."
+>>>>>>> upstream/18.0
 =======
 msgstr "Neplatný formát odpovede, nemožno normalizovať."
 >>>>>>> upstream/18.0
@@ -3820,7 +3856,11 @@ msgid "Missing value for txn_id (%(txn_id)s) or txn_type (%(txn_type)s)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chýba hodnota pre txn_id (%(txn_id)s) alebo txn_type (%(txn_type)s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Chýba hodnota pre txn_id (%(txn_id)s) alebo txn_type (%(txn_type)s)."
 >>>>>>> upstream/18.0
@@ -4152,7 +4192,11 @@ msgid "PayPal Access Token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayPal Prístupový token"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayPal Prístupový token"
 >>>>>>> upstream/18.0
@@ -4473,7 +4517,11 @@ msgid "PayPal Access Token Expiry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayPal Prístupový token - exspirácia"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayPal Prístupový token - exspirácia"
 >>>>>>> upstream/18.0
@@ -4794,7 +4842,11 @@ msgid "PayPal Client ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayPal ID klienta"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayPal ID klienta"
 >>>>>>> upstream/18.0
@@ -5115,7 +5167,11 @@ msgid "PayPal Client Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayPal Tajný kľúč klienta"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayPal Tajný kľúč klienta"
 >>>>>>> upstream/18.0
@@ -5436,7 +5492,11 @@ msgid "PayPal Transaction Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayPal Typ transakcie"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayPal Typ transakcie"
 >>>>>>> upstream/18.0
@@ -5757,7 +5817,11 @@ msgid "PayPal Webhook ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PayPal Webhook ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "PayPal Webhook ID"
 >>>>>>> upstream/18.0
@@ -6106,7 +6170,11 @@ msgid "Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poskytovateľ platieb"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poskytovateľ platieb"
 >>>>>>> upstream/18.0
@@ -6517,7 +6585,11 @@ msgid "Payment processing failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spracovanie platby zlyhalo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spracovanie platby zlyhalo"
 >>>>>>> upstream/18.0
@@ -6839,7 +6911,11 @@ msgid "Received data with invalid payment status: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prijaté údaje s neplatným stavom platby: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prijaté údaje s neplatným stavom platby: %s"
 >>>>>>> upstream/18.0
@@ -7167,7 +7243,11 @@ msgid "The customer left the payment page."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zákazník opustil platobnú stránku."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zákazník opustil platobnú stránku."
 >>>>>>> upstream/18.0
@@ -7488,7 +7568,11 @@ msgid "The moment at which the access token becomes invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okamih, kedy prístupový token prestane byť platný."
+>>>>>>> upstream/18.0
 =======
 msgstr "Okamih, kedy prístupový token prestane byť platný."
 >>>>>>> upstream/18.0
@@ -7811,6 +7895,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Verejná pracovná e-mailová adresa používaná výlučne na identifikáciu účtu v "
+"systéme PayPal"
+>>>>>>> upstream/18.0
 =======
 "Verejná pracovná e-mailová adresa používaná výlučne na identifikáciu účtu v "
 "systéme PayPal"
@@ -8210,7 +8299,11 @@ msgid "The short-lived token used to access Paypal APIs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krátkodobý token používaný na prístup k rozhraniam API služby Paypal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krátkodobý token používaný na prístup k rozhraniam API služby Paypal"
 >>>>>>> upstream/18.0
@@ -8531,7 +8624,11 @@ msgid "The technical code of this payment provider."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Technický kód tohto poskytovateľa platieb."
+>>>>>>> upstream/18.0
 =======
 msgstr "Technický kód tohto poskytovateľa platieb."
 >>>>>>> upstream/18.0
@@ -8852,7 +8949,11 @@ msgid "Webhook ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook ID"
 >>>>>>> upstream/18.0
@@ -9174,7 +9275,11 @@ msgid "You must have an HTTPS connection to generate a webhook."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na vytvorenie webhooku musíte mať pripojenie HTTPS."
+>>>>>>> upstream/18.0
 =======
 msgstr "Na vytvorenie webhooku musíte mať pripojenie HTTPS."
 >>>>>>> upstream/18.0

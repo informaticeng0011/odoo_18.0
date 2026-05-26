@@ -192,7 +192,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -454,6 +457,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1201,9 +1207,15 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # create overlapping global time off
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2)
         global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=9)
+=======
+        # create overlapping global time off, with some margin over working day to account for different timezones
+        global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
+        global_leave_end_datetime = global_leave_start_datetime + timedelta(hours=12)
+>>>>>>> upstream/18.0
 =======
         # create overlapping global time off, with some margin over working day to account for different timezones
         global_leave_start_datetime = hr_leave_start_datetime + timedelta(days=2, hours=-3)
@@ -2803,7 +2815,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3587,6 +3602,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4372,7 +4390,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4969,7 +4990,11 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['resource.calendar.leaves'].create({
+=======
+        self.env['resource.calendar.leaves'].with_company(self.part_time_employee.company_id).create({
+>>>>>>> upstream/18.0
 =======
         self.env['resource.calendar.leaves'].with_company(self.part_time_employee.company_id).create({
 >>>>>>> upstream/18.0
@@ -5472,6 +5497,7 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5496,6 +5522,8 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6072,6 +6100,10 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'company_id': self.test_company.id,
+>>>>>>> upstream/18.0
 =======
             'company_id': self.test_company.id,
 >>>>>>> upstream/18.0
@@ -6400,7 +6432,11 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.env['resource.calendar.leaves'].create({
+=======
+        self.env['resource.calendar.leaves'].with_company(self.test_company).create({
+>>>>>>> upstream/18.0
 =======
         self.env['resource.calendar.leaves'].with_company(self.test_company).create({
 >>>>>>> upstream/18.0
@@ -6890,6 +6926,9 @@ class TestTimesheetGlobalTimeOff(common.TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

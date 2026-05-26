@@ -337,6 +337,10 @@ from markupsafe import Markup
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from math import ceil
+>>>>>>> upstream/18.0
 =======
 from math import ceil
 >>>>>>> upstream/18.0
@@ -1903,7 +1907,11 @@ class BaseDocumentLayout(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         w = int(50 * base_w / base_h)
+=======
+        w = ceil(50 * base_w / base_h)
+>>>>>>> upstream/18.0
 =======
         w = ceil(50 * base_w / base_h)
 >>>>>>> upstream/18.0
@@ -3322,7 +3330,11 @@ class BaseDocumentLayout(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def scss_importer(path, prev):
+=======
+        def scss_importer(path, *args):
+>>>>>>> upstream/18.0
 =======
         def scss_importer(path, *args):
 >>>>>>> upstream/18.0

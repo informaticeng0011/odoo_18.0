@@ -298,9 +298,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime, date, timezone, timedelta
 from dateutil.relativedelta import relativedelta
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1196,6 +1199,9 @@ import pytz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2162,7 +2168,10 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2864,7 +2873,10 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3158,6 +3170,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3523,11 +3538,14 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for allocation in allocations:
             allocation_data = allocations_leaves_consumed[allocation.employee_id][allocation.holiday_status_id][allocation]
             future_leaves = 0
             if allocation.allocation_type == 'accrual':
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3826,6 +3844,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4139,8 +4160,11 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 sorted_leave_allocations = allocations_with_date_to.sorted(key='date_to') + allocations_without_date_to
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4434,6 +4458,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4866,6 +4893,7 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     leave_duration = leave[leave_duration_field]
 =======
                     leave_duration = leave._get_durations()[leave.id][0 if leave_unit == 'days' else 1]
@@ -4893,6 +4921,9 @@ class HrEmployeeBase(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave._get_durations()[leave.id][0 if leave_unit == 'days' else 1]
+>>>>>>> upstream/18.0
+=======
+                    leave_duration = leave[leave_duration_field]
 >>>>>>> upstream/18.0
 =======
                     leave_duration = leave[leave_duration_field]
@@ -5934,6 +5965,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6565,6 +6599,7 @@ class HrEmployeeBase(models.AbstractModel):
             employee_remaining_leaves = 0
             employee_max_leaves = 0
             for leave_type in leaves_taken[employee]:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7590,6 +7625,9 @@ class HrEmployeeBase(models.AbstractModel):
 =======
                 if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
 >>>>>>> upstream/18.0
+=======
+                if leave_type.requires_allocation == 'no' or not leave_type.show_on_dashboard or not leave_type.active:
+>>>>>>> upstream/18.0
                     continue
                 for allocation in leaves_taken[employee][leave_type]:
                     if allocation and allocation.date_from <= current_date\
@@ -7630,6 +7668,10 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    calendar = calendar or self.company_id.resource_calendar_id
+>>>>>>> upstream/18.0
 =======
                     calendar = calendar or self.company_id.resource_calendar_id
 >>>>>>> upstream/18.0
@@ -7886,11 +7928,14 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.env['hr.leave'].search([
                     ('employee_id', 'in', self.ids),
                     ('resource_calendar_id', '!=', int(values['resource_calendar_id'])),
                     ('date_from', '>', fields.Datetime.now())]).write({'resource_calendar_id': values['resource_calendar_id']})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8304,6 +8349,9 @@ class HrEmployeeBase(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -314,7 +314,10 @@ registry.category("web_tour.tours").add("PosSaleLoyaltyTour1", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1207,6 +1210,9 @@ registry.category("web_tour.tours").add("test_pos_sale_loyalty_ignored_in_pos", 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

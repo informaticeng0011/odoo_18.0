@@ -315,6 +315,10 @@ registry.category("web_tour.tours").add("self_attribute_selector", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        ProductPage.checkAttributePrice("Size", "S", "$ 0.25"),
+>>>>>>> upstream/18.0
 =======
         ProductPage.checkAttributePrice("Size", "S", "$ 0.25"),
 >>>>>>> upstream/18.0
@@ -1320,7 +1324,10 @@ registry.category("web_tour.tours").add("selfAlwaysAttributeVariants", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1373,6 +1380,9 @@ registry.category("web_tour.tours").add("selfAlwaysAttributeVariantsKiosk", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

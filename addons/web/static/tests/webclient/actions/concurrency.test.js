@@ -289,7 +289,11 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryAll, queryAllTexts } from "@odoo/hoot-dom";
+=======
+import { queryAll, queryAllTexts, runAllTimers } from "@odoo/hoot-dom";
+>>>>>>> upstream/18.0
 =======
 import { queryAll, queryAllTexts, runAllTimers } from "@odoo/hoot-dom";
 >>>>>>> upstream/18.0
@@ -1478,6 +1482,10 @@ import { browser } from "@web/core/browser/browser";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { router } from "@web/core/browser/router";
+>>>>>>> upstream/18.0
 =======
 import { router } from "@web/core/browser/router";
 >>>>>>> upstream/18.0
@@ -2655,7 +2663,11 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "form,false": `
+=======
+        form: /* xml */ `
+>>>>>>> upstream/18.0
 =======
         form: /* xml */ `
 >>>>>>> upstream/18.0
@@ -3843,8 +3855,14 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </form>`,
         "kanban,1": `
+=======
+            </form>
+        `,
+        "kanban,1": /* xml */ `
+>>>>>>> upstream/18.0
 =======
             </form>
         `,
@@ -5621,10 +5639,13 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             </kanban>`,
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search/>`,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6514,6 +6535,9 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7410,9 +7434,14 @@ class Pony extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "list,false": `<list><field name="name"/></list>`,
         "form,false": `<form><field name="name"/></form>`,
         "search,false": `<search/>`,
+=======
+        list: `<list><field name="name"/></list>`,
+        form: `<form><field name="name"/></form>`,
+>>>>>>> upstream/18.0
 =======
         list: `<list><field name="name"/></list>`,
         form: `<form><field name="name"/></form>`,
@@ -9497,9 +9526,15 @@ test("local state, global state, and race conditions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "toy,false": `<toy/>`,
         "list,false": `<list><field name="display_name"/></list>`,
         "search,false": `<search><filter name="display_name" string="Foo" domain="[]"/></search>`,
+=======
+        toy: `<toy/>`,
+        list: `<list><field name="display_name"/></list>`,
+        search: `<search><filter name="display_name" string="Foo" domain="[]"/></search>`,
+>>>>>>> upstream/18.0
 =======
         toy: `<toy/>`,
         list: `<list><field name="display_name"/></list>`,
@@ -11338,9 +11373,12 @@ test("doing browser back temporarily disables the UI", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o_kanban_record").click();
     await getService("action").doAction(8);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12225,6 +12263,9 @@ test("doing browser back temporarily disables the UI", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

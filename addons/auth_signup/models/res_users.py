@@ -210,7 +210,11 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not partner_user.login_date:
+=======
+                if not partner_user.login_date and partner_user._is_internal():
+>>>>>>> upstream/18.0
 =======
                 if not partner_user.login_date and partner_user._is_internal():
 >>>>>>> upstream/18.0
@@ -744,7 +748,10 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner_user._notify_inviter()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1142,6 +1149,7 @@ class ResUsers(models.Model):
                     mail.send()
             if signup_type == 'reset':
                 _logger.info("Password reset email sent for user <%s> to <%s>", user.login, user.email)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1913,6 +1921,8 @@ class ResUsers(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 message = _('A reset password link was sent by email')
             else:
                 _logger.info("Signup email sent for user <%s> to <%s>", user.login, user.email)
@@ -2172,6 +2182,9 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2697,6 +2710,7 @@ class ResUsers(models.Model):
         email_template = self.env.ref('auth_signup.mail_template_data_unregistered_users', raise_if_not_found=False)
         if not email_template:
             _logger.warning("Template 'auth_signup.mail_template_data_unregistered_users' was not found. Cannot send reminder notifications.")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3474,6 +3488,9 @@ class ResUsers(models.Model):
 =======
             self.env['ir.cron']._notify_progress(deactivate=True)
 >>>>>>> upstream/18.0
+=======
+            self.env['ir.cron']._notify_progress(deactivate=True)
+>>>>>>> upstream/18.0
             return
         datetime_min = fields.Datetime.today() - relativedelta(days=after_days)
         datetime_max = datetime_min + relativedelta(days=1)
@@ -3580,6 +3597,7 @@ class ResUsers(models.Model):
                     users_with_email.partner_id.with_context(create_user=True).signup_cancel()
         return users
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4473,6 +4491,11 @@ class ResUsers(models.Model):
         if 'active' in vals and not vals['active']:
             self.partner_id.sudo().signup_cancel()
 >>>>>>> upstream/18.0
+=======
+    def write(self, vals):
+        if 'active' in vals and not vals['active']:
+            self.partner_id.sudo().signup_cancel()
+>>>>>>> upstream/18.0
         return super().write(vals)
 
     @api.ondelete(at_uninstall=False)
@@ -4648,6 +4671,9 @@ class ResUsers(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

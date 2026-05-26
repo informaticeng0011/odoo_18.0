@@ -260,6 +260,10 @@ import os
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -1032,6 +1036,7 @@ from unittest.mock import patch
 from PIL import Image
 
 import odoo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2282,6 +2287,11 @@ from odoo.exceptions import AccessError, ValidationError
 from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
 from odoo.tools import mute_logger
 >>>>>>> upstream/18.0
+=======
+from odoo.exceptions import AccessError, ValidationError
+from odoo.addons.base.tests.common import TransactionCaseWithUserDemo
+from odoo.tools import mute_logger
+>>>>>>> upstream/18.0
 from odoo.tools.image import image_to_base64
 
 HASH_SPLIT = 2      # FIXME: testing implementations detail is not a good idea
@@ -2792,7 +2802,10 @@ class TestIrAttachment(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3573,6 +3586,9 @@ class TestIrAttachment(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4452,7 +4468,10 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5394,6 +5413,9 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6067,7 +6089,10 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6114,6 +6139,9 @@ class TestPermissions(TransactionCaseWithUserDemo):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

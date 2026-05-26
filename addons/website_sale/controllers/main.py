@@ -415,7 +415,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for product in ProductTemplate.search(dom):
+=======
+        for product in ProductTemplate.with_context(prefetch_fields=False).search(dom):
+>>>>>>> upstream/18.0
 =======
         for product in ProductTemplate.with_context(prefetch_fields=False).search(dom):
 >>>>>>> upstream/18.0
@@ -1443,7 +1447,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return request.redirect('/web/login')
+=======
+            return request.redirect(f'/web/login?redirect={request.httprequest.path}')
+>>>>>>> upstream/18.0
 =======
             return request.redirect(f'/web/login?redirect={request.httprequest.path}')
 >>>>>>> upstream/18.0
@@ -2472,7 +2480,12 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain = self._get_shop_domain(search, category, attrib_values)
+=======
+            search_term = fuzzy_search_term if fuzzy_search_term else search
+            domain = self._get_shop_domain(search_term, category, attrib_values)
+>>>>>>> upstream/18.0
 =======
             search_term = fuzzy_search_term if fuzzy_search_term else search
             domain = self._get_shop_domain(search_term, category, attrib_values)
@@ -3711,8 +3724,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     [('product_ids.is_published', '=', True), ('visible_on_ecommerce', '=', True)],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4424,6 +4440,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5177,6 +5196,7 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             attributes = lazy(lambda: ProductAttribute.search([
                 ('product_tmpl_ids', 'in', search_product.ids),
                 ('visibility', '=', 'visible'),
@@ -5184,6 +5204,8 @@ class WebsiteSale(payment_portal.PaymentPortal):
         else:
             attributes = lazy(lambda: ProductAttribute.browse(attributes_ids))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5959,6 +5981,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6762,7 +6787,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return request.redirect('/web/login')
+=======
+            return request.redirect(f'/web/login?redirect={request.httprequest.path}')
+>>>>>>> upstream/18.0
 =======
             return request.redirect(f'/web/login?redirect={request.httprequest.path}')
 >>>>>>> upstream/18.0
@@ -7979,7 +8008,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return request.redirect('/web/login')
+=======
+            return request.redirect('/web/login?redirect=/shop/cart')
+>>>>>>> upstream/18.0
 =======
             return request.redirect('/web/login?redirect=/shop/cart')
 >>>>>>> upstream/18.0
@@ -9131,9 +9164,12 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['minor_amount'] = payment_utils.to_minor_currency_units(
             order.amount_total, order.currency_id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10062,6 +10098,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11265,6 +11304,7 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (
             hasattr(ResPartner, 'check_vat')  # The `base_vat` module is installed.
             and address_values.get('vat')
@@ -11274,6 +11314,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
                 address_values['country_id'],
                 address_values['vat'],
             )
+=======
+        if address_values.get('vat'):
+            address_values['vat'] = self._fix_eu_vat_number(address_values['vat'], address_values.get('country_id'))
+>>>>>>> upstream/18.0
 =======
         if address_values.get('vat'):
             address_values['vat'] = self._fix_eu_vat_number(address_values['vat'], address_values.get('country_id'))
@@ -11761,6 +11805,7 @@ class WebsiteSale(payment_portal.PaymentPortal):
             name_change = (
                 'name' in address_values
                 and partner_sudo.name
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12870,6 +12915,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 =======
                 and address_values['name'] != partner_sudo.name.strip()
 >>>>>>> upstream/18.0
+=======
+                and address_values['name'] != partner_sudo.name.strip()
+>>>>>>> upstream/18.0
             )
             email_change = (
                 'email' in address_values
@@ -13009,11 +13057,14 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # Prevent changing the VAT number if invoices have been issued.
             if (
                 'vat' in address_values
                 and address_values['vat'] != partner_sudo.vat
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13356,6 +13407,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14016,6 +14070,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # TODO: remove me in master with call site, not used in standard codebase anymore.
+>>>>>>> upstream/18.0
 =======
         # TODO: remove me in master with call site, not used in standard codebase anymore.
 >>>>>>> upstream/18.0
@@ -15024,6 +15082,7 @@ class WebsiteSale(payment_portal.PaymentPortal):
         if shipping_address:
             #in order to not override shippig address, it's checked separately from shipping option
             self._include_country_and_state_in_address(shipping_address)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16887,6 +16946,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 
             if order_sudo.name in order_sudo.partner_shipping_id.name:
 >>>>>>> upstream/18.0
+=======
+            shipping_address, _side_values = self._parse_form_data(shipping_address)
+
+            if order_sudo.name in order_sudo.partner_shipping_id.name:
+>>>>>>> upstream/18.0
                 # The existing partner was created by `process_express_checkout_delivery_choice`, it
                 # means that the partner is missing information, so we update it.
                 order_sudo.partner_shipping_id.write(shipping_address)
@@ -17038,10 +17102,16 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 delivery_method_sudo = request.env['delivery.carrier'].sudo().browse(
                     int(shipping_option['id'])
                 ).exists()
                 order_sudo._set_delivery_method(delivery_method_sudo)
+=======
+                dm_id = int(shipping_option['id'])
+                available_dms = order_sudo._get_delivery_methods()
+                order_sudo._set_delivery_method(available_dms.filtered(lambda dm: dm.id == dm_id))
+>>>>>>> upstream/18.0
 =======
                 dm_id = int(shipping_option['id'])
                 available_dms = order_sudo._get_delivery_methods()
@@ -18133,8 +18203,14 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'minor_amount': payment_utils.to_minor_currency_units(
                 order.amount_total, order.currency_id
+=======
+            # Do not include delivery related lines
+            'minor_amount': payment_utils.to_minor_currency_units(
+                order._get_amount_total_excluding_delivery(), order.currency_id
+>>>>>>> upstream/18.0
 =======
             # Do not include delivery related lines
             'minor_amount': payment_utils.to_minor_currency_units(
@@ -19996,6 +20072,7 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             # Todo: remove in master
 >>>>>>> upstream/18.0
@@ -20136,6 +20213,11 @@ class WebsiteSale(payment_portal.PaymentPortal):
 >>>>>>> upstream/18.0
             'delivery_amount': payment_utils.to_minor_currency_units(
                 order.order_line.filtered(lambda l: l.is_delivery).price_total, order.currency_id
+=======
+            # Todo: remove in master
+            'delivery_amount': payment_utils.to_minor_currency_units(
+                order.amount_total - order._compute_amount_total_without_delivery(), order.currency_id
+>>>>>>> upstream/18.0
 =======
             # Todo: remove in master
             'delivery_amount': payment_utils.to_minor_currency_units(
@@ -21758,6 +21840,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sale_order': order,
+>>>>>>> upstream/18.0
 =======
             'sale_order': order,
 >>>>>>> upstream/18.0
@@ -22841,7 +22927,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23190,6 +23279,7 @@ class WebsiteSale(payment_portal.PaymentPortal):
     )
     def express_checkout_shipping_address_compute_taxes(self):
         order_sudo = request.website.sale_get_order()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23706,6 +23796,8 @@ class WebsiteSale(payment_portal.PaymentPortal):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         try:
             order_sudo.with_context(is_express_checkout_flow=True)._recompute_taxes()
         except ValidationError:
@@ -23751,6 +23843,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23933,6 +24028,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24457,6 +24555,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                order._check_cart_is_ready_to_be_paid()
+>>>>>>> upstream/18.0
 =======
                 order._check_cart_is_ready_to_be_paid()
 >>>>>>> upstream/18.0
@@ -25656,7 +25758,10 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26003,6 +26108,9 @@ class WebsiteSale(payment_portal.PaymentPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
