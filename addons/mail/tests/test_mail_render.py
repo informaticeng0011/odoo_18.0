@@ -407,7 +407,11 @@ class TestMailRender(TestMailRenderCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.models.Model.get_base_url', new=_mock_get_base_url), self.assertQueryCount(12):
+=======
+        with patch('odoo.models.Model.get_base_url', new=_mock_get_base_url), self.assertQueryCount(7):
+>>>>>>> upstream/18.0
 =======
         with patch('odoo.models.Model.get_base_url', new=_mock_get_base_url), self.assertQueryCount(7):
 >>>>>>> upstream/18.0
@@ -976,8 +980,11 @@ class TestRegexRendering(common.MailCommon):
                     Default
                     </p>''', '<p>Default</p>'),
             ('''<div><p t-out="object.name"/></div>''', '<div><p>Alice</p></div>'),
+<<<<<<< HEAD
             ('''<div/aa t-out="object.name"></div/aa>''', '<div>Alice</div>'),
             ('''<div/aa='x' t-out="object.name"></div/aa='x'>''', '<div>Alice</div>'),
+=======
+>>>>>>> upstream/18.0
         )
         o_qweb_render = self.env['ir.qweb']._render
         for template, expected in static_templates:

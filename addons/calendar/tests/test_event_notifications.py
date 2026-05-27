@@ -52,6 +52,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2018')  # class event has hardcoded dates
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2018')  # class event has hardcoded dates
 >>>>>>> upstream/18.0
@@ -191,6 +195,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2018')  # class event has hardcoded dates
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2018')  # class event has hardcoded dates
 >>>>>>> upstream/18.0
@@ -394,6 +402,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @freeze_time('2018')  # class event has hardcoded dates
+>>>>>>> upstream/18.0
 =======
     @freeze_time('2018')  # class event has hardcoded dates
 >>>>>>> upstream/18.0
@@ -1078,7 +1090,10 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1920,6 +1935,9 @@ class TestEventNotifications(TransactionCase, MailCase, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

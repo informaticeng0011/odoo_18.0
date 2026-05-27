@@ -332,8 +332,13 @@ export class ErrorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.props.model && this.props.id) {
             this.contextDetails += `on model ${this.props.model} and id ${this.props.id} `;
+=======
+        if (this.props.model) {
+            this.contextDetails += `on model ${this.props.model} `;
+>>>>>>> upstream/18.0
 =======
         if (this.props.model) {
             this.contextDetails += `on model ${this.props.model} `;
@@ -1532,7 +1537,10 @@ NetworkErrorDialog.title = _t("Odoo Network Error");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1782,6 +1790,9 @@ RequestEntityTooLargeErrorDialog.title = _t("The request sent to the server was 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -71,6 +71,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import json
+
+>>>>>>> upstream/18.0
 =======
 import json
 
@@ -431,6 +436,10 @@ from ..models.bus_presence import PRESENCE_OUTDATED_TIMER
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.bus.models.bus import channel_with_db, json_dump
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.bus.models.bus import channel_with_db, json_dump
 >>>>>>> upstream/18.0
@@ -740,7 +749,10 @@ class TestBusPresence(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -965,6 +977,9 @@ class TestBusPresence(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

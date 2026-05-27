@@ -134,6 +134,7 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 SELECT row_number() over(ORDER BY leaves.employee_id) as id,
                 leaves.employee_id as employee_id,
                 leaves.active_employee as active_employee,
@@ -405,6 +406,8 @@ class LeaveReport(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 WITH
                 /* Validated leaves */
                 validated_leaves as (
@@ -462,8 +465,13 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 /* FIFO-ordered validated allocations */
                 ordered_allocations as (
+=======
+                /* Base allocations with overlap group detection */
+                base_allocations as (
+>>>>>>> upstream/18.0
 =======
                 /* Base allocations with overlap group detection */
                 base_allocations as (
@@ -696,7 +704,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						allocation.department_id as department_id,
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 =======
 						employee.department_id as department_id,
 >>>>>>> upstream/18.0
@@ -907,6 +919,7 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						ROW_NUMBER() OVER (
 							PARTITION BY allocation.employee_id, allocation.holiday_status_id
 							ORDER BY allocation.date_from, allocation.id
@@ -922,6 +935,8 @@ class LeaveReport(models.Model):
 							ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 						) as cumulative_allocated_hours
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1057,6 +1072,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1190,7 +1208,10 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1360,6 +1381,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1540,8 +1564,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         AND vl.date_to   >= oa.date_from
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1796,6 +1823,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2055,8 +2085,13 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						fb.date_from as date_from,
 						fb.date_to as date_to,
+=======
+						fb.date_from::timestamp + interval '12 hours' as date_from,
+						fb.date_to::timestamp + interval '12 hours' as date_to,
+>>>>>>> upstream/18.0
 =======
 						fb.date_from::timestamp + interval '12 hours' as date_from,
 						fb.date_to::timestamp + interval '12 hours' as date_to,
@@ -2294,7 +2329,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						request.department_id as department_id,
+=======
+						employee.department_id as department_id,
+>>>>>>> upstream/18.0
 =======
 						employee.department_id as department_id,
 >>>>>>> upstream/18.0
@@ -2566,6 +2605,9 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

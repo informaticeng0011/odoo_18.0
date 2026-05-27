@@ -662,7 +662,11 @@ registry.category("web_tour.tours").add("test_cash_rounding_with_change", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.changeIs("4.30"),
+=======
+            PaymentScreen.changeIs("-4.30"),
+>>>>>>> upstream/18.0
 =======
             PaymentScreen.changeIs("-4.30"),
 >>>>>>> upstream/18.0
@@ -1080,7 +1084,10 @@ registry.category("web_tour.tours").add("test_cash_rounding_with_change", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1782,6 +1789,7 @@ registry.category("web_tour.tours").add("test_cash_rounding_up_with_change", {
             PaymentScreen.clickPaymentMethod("Cash"),
             PaymentScreen.clickNumpad("2 0 0"),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2818,6 +2826,8 @@ registry.category("web_tour.tours").add("test_cash_rounding_up_with_change", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             PaymentScreen.changeIs("-21"),
         ].flat(),
 });
@@ -2841,6 +2851,9 @@ registry.category("web_tour.tours").add("test_cash_rounding_up_with_change", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2915,7 +2928,11 @@ registry.category("web_tour.tours").add("test_cash_rounding_only_cash_method_wit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PaymentScreen.changeIs("4.30"),
+=======
+            PaymentScreen.changeIs("-4.30"),
+>>>>>>> upstream/18.0
 =======
             PaymentScreen.changeIs("-4.30"),
 >>>>>>> upstream/18.0

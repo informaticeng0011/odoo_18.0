@@ -434,6 +434,7 @@ class Collector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # todo add entry count limit
 =======
 >>>>>>> upstream/18.0
@@ -1165,10 +1166,14 @@ class Collector:
 =======
         sample = {
 >>>>>>> upstream/18.0
+=======
+        sample = {
+>>>>>>> upstream/18.0
             'stack': self._get_stack_trace(frame),
             'exec_context': getattr(self.profiler.init_thread, 'exec_context', ()),
             'start': real_time(),
             **(entry or {}),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2816,6 +2821,8 @@ class Collector:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         }
         self._entries.append(sample)
         return sample
@@ -2922,6 +2929,9 @@ class Collector:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3141,6 +3151,7 @@ class SQLCollector(Collector):
         self.profiler.init_thread.query_hooks.remove(self.hook)
 
     def hook(self, cr, query, params, query_start, query_time):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4418,6 +4429,9 @@ class SQLCollector(Collector):
 =======
         entry = {
 >>>>>>> upstream/18.0
+=======
+        entry = {
+>>>>>>> upstream/18.0
             'query': str(query),
             'full_query': str(cr._format(query, params)),
             'start': query_start,
@@ -4513,8 +4527,11 @@ class SQLCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4792,6 +4809,9 @@ class SQLCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5329,7 +5349,11 @@ class PeriodicCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.add()
+=======
+            self.progress()
+>>>>>>> upstream/18.0
 =======
             self.progress()
 >>>>>>> upstream/18.0
@@ -6619,7 +6643,11 @@ class PeriodicCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         init_thread.profile_hooks.append(self.add)
+=======
+        init_thread.profile_hooks.append(self.progress)
+>>>>>>> upstream/18.0
 =======
         init_thread.profile_hooks.append(self.progress)
 >>>>>>> upstream/18.0
@@ -7902,7 +7930,11 @@ class PeriodicCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.profiler.init_thread.profile_hooks.remove(self.add)
+=======
+        self.profiler.init_thread.profile_hooks.remove(self.progress)
+>>>>>>> upstream/18.0
 =======
         self.profiler.init_thread.profile_hooks.remove(self.progress)
 >>>>>>> upstream/18.0
@@ -9214,7 +9246,11 @@ class SyncCollector(Collector):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.add(entry, frame=_frame)
+=======
+        self.progress(entry, frame=_frame)
+>>>>>>> upstream/18.0
 =======
         self.progress(entry, frame=_frame)
 >>>>>>> upstream/18.0
@@ -10773,6 +10809,7 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         self.entry_count_limit = int(self.params.get("entry_count_limit", 0))   # the limit could be set using a smarter way
         self.done = False
@@ -11683,6 +11720,11 @@ class Profiler:
 >>>>>>> upstream/18.0
 =======
         self.entry_count_limit = int(self.params.get("entry_count_limit", 0))   # the limit could be set using a smarter way
+        self.done = False
+>>>>>>> upstream/18.0
+=======
+        self.entry_count_limit = int(self.params.get("entry_count_limit", 0))
+        self.time_limit = int(self.params.get("time_limit", 0))
         self.done = False
 >>>>>>> upstream/18.0
 =======
@@ -12513,7 +12555,10 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13474,6 +13519,9 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14474,6 +14522,12 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_cm_proxy(self):
+        return _Nested(self)
+
+>>>>>>> upstream/18.0
 =======
     def _get_cm_proxy(self):
         return _Nested(self)
@@ -16478,7 +16532,10 @@ class Profiler:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17459,6 +17516,9 @@ class _Nested:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

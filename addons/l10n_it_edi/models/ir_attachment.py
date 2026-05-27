@@ -22,7 +22,12 @@ class IrAttachment(models.Model):
         def parse_xml(parser, name, content):
             try:
                 return etree.fromstring(content, parser)
+<<<<<<< HEAD
             except (etree.ParseError, ValueError) as e:
+=======
+            except (etree.ParseError, ValueError, TypeError) as e:
+                # Note: lxml < 5.0 raises ValueError; lxml 5.0+ / libxml2 2.12+ raises TypeError
+>>>>>>> upstream/18.0
                 _logger.info("XML parsing of %s failed: %s", name, e)
 
         parser = etree.XMLParser(recover=True, resolve_entities=False)

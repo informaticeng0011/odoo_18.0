@@ -263,6 +263,11 @@ import { toolbarButtonProps } from "@html_editor/main/toolbar/toolbar";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { useDropdownAutoVisibility } from "@html_editor/dropdown_autovisibility_hook";
+import { useChildRef } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { useDropdownAutoVisibility } from "@html_editor/dropdown_autovisibility_hook";
 import { useChildRef } from "@web/core/utils/hooks";
@@ -1334,9 +1339,12 @@ export class ColorSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...toolbarButtonProps,
     };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1364,6 +1372,9 @@ export class ColorSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1643,6 +1654,11 @@ export class ColorSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.menuRef = useChildRef();
+        useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
+>>>>>>> upstream/18.0
 =======
         this.menuRef = useChildRef();
         useDropdownAutoVisibility(this.env.overlayState, this.menuRef);
@@ -2968,7 +2984,11 @@ export class ColorSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const color = ev.hex ? ev.hex : this.processColorFromEvent(ev);
+=======
+        const color = ev.cssColor ? ev.cssColor : this.processColorFromEvent(ev);
+>>>>>>> upstream/18.0
 =======
         const color = ev.cssColor ? ev.cssColor : this.processColorFromEvent(ev);
 >>>>>>> upstream/18.0

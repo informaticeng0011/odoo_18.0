@@ -217,7 +217,11 @@ from odoo import Command, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.base.tests.common import HttpCaseWithUserDemo
+=======
+from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.common import HttpCaseWithUserDemo, HttpCaseWithUserPortal
 >>>>>>> upstream/18.0
@@ -1079,7 +1083,11 @@ from odoo.tools.json import scriptsafe as json_safe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestWebEditorController(HttpCaseWithUserDemo):
+=======
+class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
+>>>>>>> upstream/18.0
 =======
 class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 >>>>>>> upstream/18.0
@@ -1880,9 +1888,12 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             url = json_safe.loads(response.content).get('result')
             self.assertTrue(url.endswith(name), "Expect name in URL")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2259,6 +2270,9 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2675,7 +2689,10 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3053,6 +3070,9 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3521,7 +3541,11 @@ class TestWebEditorController(HttpCaseWithUserDemo, HttpCaseWithUserPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         event = self.env['event.event'].search([], limit=1)
+=======
+        event = self.env['event.event'].create({'name': 'Event'})
+>>>>>>> upstream/18.0
 =======
         event = self.env['event.event'].create({'name': 'Event'})
 >>>>>>> upstream/18.0

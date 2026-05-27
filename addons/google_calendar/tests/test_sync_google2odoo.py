@@ -105,12 +105,15 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def setUp(self):
         super().setUp()
         self.other_company = self.env['res.company'].create({'name': 'Other Company'})
         self.public_partner = self.env['res.partner'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -380,6 +383,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -561,6 +567,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'email': 'public_email@example.com',
             'type': 'contact',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -835,6 +842,8 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.env.ref('base.partner_admin').write({
             'name': 'Mitchell Admin',
             'email': 'admin@yourcompany.example.com',
@@ -931,6 +940,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1487,6 +1499,58 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         self.assertGoogleAPINotCalled()
 
     @patch_api
+<<<<<<< HEAD
+=======
+    def test_new_attendee_and_date_change_does_not_patch_deleted_events(self):
+        """
+        When a Google recurrence update includes both a new attendee and a base event date
+        change, _google_patch must not be called for events that are subsequently deleted.
+        """
+        google_id = 'nimotopia'
+
+        base_event = self.env['calendar.event'].create({
+            'name': 'Call Razof',
+            'start': datetime(2020, 1, 6, 8, 0),
+            'stop': datetime(2020, 1, 6, 9, 0),
+            'need_sync': False,
+            'partner_ids': [(4, self.organizer_user.partner_id.id)],
+        })
+        recurrence = self.env['calendar.recurrence'].create({
+            'google_id': google_id,
+            'rrule': 'FREQ=WEEKLY;COUNT=3;BYDAY=MO',
+            'need_sync': False,
+            'base_event_id': base_event.id,
+            'calendar_event_ids': [(4, base_event.id)],
+            'event_tz': 'UTC',
+        })
+        recurrence._apply_recurrence()
+        for event in recurrence.calendar_event_ids:
+            event.write({
+                'google_id': recurrence._get_event_google_id(event),
+                'need_sync': False,
+            })
+
+        # Start time changed AND a new attendee
+        google_event = GoogleEvent([{
+            'id': google_id,
+            'summary': 'Call Razof',
+            'recurrence': ['RRULE:FREQ=WEEKLY;COUNT=3;BYDAY=MO'],
+            'start': {'dateTime': '2020-01-06T09:00:00+00:00', 'timeZone': 'UTC'},
+            'end': {'dateTime': '2020-01-06T10:00:00+00:00', 'timeZone': 'UTC'},
+            'reminders': {'useDefault': True},
+            'attendees': [
+                {'email': self.organizer_user.email, 'responseStatus': 'accepted'},
+                {'email': self.attendee_user.email, 'responseStatus': 'accepted', 'self': True},
+            ],
+            'updated': self.now,
+            'organizer': {'email': self.organizer_user.email},
+        }])
+        self.sync(google_event)
+
+        self.assertGoogleEventNotPatched()
+
+    @patch_api
+>>>>>>> upstream/18.0
     def test_recurrence(self):
         recurrence_id = 'oj44nep1ldf8a3ll02uip0c9aa'
         values = {
@@ -2672,7 +2736,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3565,6 +3632,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

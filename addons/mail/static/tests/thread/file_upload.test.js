@@ -294,7 +294,10 @@ test("no conflicts between file uploads", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1069,6 +1072,9 @@ test("no conflicts between file uploads", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1849,7 +1855,11 @@ test("Attachment shows spinner during upload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-spinner");
+=======
+    await contains(".o-mail-AttachmentCard.o-isUploading:contains(text2.txt) .fa-spinner");
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-AttachmentCard.o-isUploading:contains(text2.txt) .fa-spinner");
 >>>>>>> upstream/18.0

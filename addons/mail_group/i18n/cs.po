@@ -185,8 +185,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mail_group
 # 
+=======
+# * mail_group
+#
+>>>>>>> upstream/18.0
 =======
 # * mail_group
 #
@@ -1116,6 +1121,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -2021,10 +2027,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3061,12 +3073,18 @@ msgstr ""
 "PO-Revision-Date: 2026-02-25 12:24+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+"PO-Revision-Date: 2026-02-25 12:24+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/mail_group/"
 "cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4115,6 +4133,11 @@ msgstr ""
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
@@ -4284,6 +4307,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+") <span invisible=\"not send_email\">a pošlete jim e-mail na adresu</span>."
+>>>>>>> upstream/18.0
 =======
 ") <span invisible=\"not send_email\">a pošlete jim e-mail na adresu</span>."
 >>>>>>> upstream/18.0
@@ -4944,7 +4971,11 @@ msgid "<br/> You'll be notified as soon as some new content is posted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<br/> Jakmile bude zveřejněn nový obsah, budete o tom informováni."
+>>>>>>> upstream/18.0
 =======
 msgstr "<br/> Jakmile bude zveřejněn nový obsah, budete o tom informováni."
 >>>>>>> upstream/18.0
@@ -5443,6 +5474,7 @@ msgstr "<br/> Jakmile bude zveřejněn nový obsah, budete o tom informováni."
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6917,6 +6949,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be subscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -7084,6 +7118,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7375,6 +7412,7 @@ msgstr ""
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                Hello,<br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8849,6 +8887,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                You have requested to be unsubscribed to the mailing list "
 "<strong t-out=\"object.name or ''\"/>.\n"
 "                <br/><br/>\n"
@@ -9016,6 +9056,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9307,6 +9350,7 @@ msgstr ""
 msgid ""
 "<div>\n"
 "                <p>Hello <t t-out=\"object.partner_id.name or ''\"/>,</p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9992,6 +10036,8 @@ msgstr "<i class=\"fa fa-envelope-o\" role=\"img\" aria-label=\"Alias\" title=\"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                <p>Please find below the guidelines of the <t t-"
 "out=\"object.mail_group_id.name\"/> mailing list.</p>\n"
 "                <p><t t-out=\"object.mail_group_id.moderation_guidelines_msg "
@@ -10175,6 +10221,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10631,6 +10680,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Odběratelé\" title="
 "\"Odběratelé\"/>"
@@ -10714,6 +10764,10 @@ msgstr ""
 =======
 "<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Odběratelé\" title="
 "\"Odběratelé\"/>"
+>>>>>>> upstream/18.0
+=======
+"<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Odběratelé\" "
+"title=\"Odběratelé\"/>"
 >>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-user\" role=\"img\" aria-label=\"Odběratelé\" "
@@ -11458,6 +11512,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Předchozí zpráva\" "
+"title=\"Předchozí zpráva\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-left\" role=\"img\" aria-label=\"Předchozí zpráva\" "
 "title=\"Předchozí zpráva\"/>"
@@ -12285,6 +12344,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Další zpráva\" "
+"title=\"Další zpráva\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\" role=\"img\" aria-label=\"Další zpráva\" "
 "title=\"Další zpráva\"/>"
@@ -13088,6 +13152,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Show attachments\""
 " title=\"Show attachments\"/>"
 msgstr ""
@@ -13197,6 +13262,8 @@ msgstr ""
 "title=\"Zobrazit přílohy\"/>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13628,6 +13695,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14084,6 +14154,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Zobrazit odpovědi\""
 " title=\"Zobrazit odpovědi\"/>"
@@ -14167,6 +14238,10 @@ msgstr ""
 =======
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Zobrazit odpovědi\""
 " title=\"Zobrazit odpovědi\"/>"
+>>>>>>> upstream/18.0
+=======
+"<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Zobrazit "
+"odpovědi\" title=\"Zobrazit odpovědi\"/>"
 >>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-down\" role=\"img\" aria-label=\"Zobrazit "
@@ -14911,6 +14986,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Skrýt přílohy\" "
+"title=\"Skrýt přílohy\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Skrýt přílohy\" "
 "title=\"Skrýt přílohy\"/>"
@@ -15738,6 +15818,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Skrýt odpovědi\" "
+"title=\"Skrýt odpovědi\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-chevron-right\" role=\"img\" aria-label=\"Skrýt odpovědi\" "
 "title=\"Skrýt odpovědi\"/>"
@@ -16562,7 +16647,11 @@ msgid "<span class=\"bg-warning\">Pending</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"bg-warning\">Čeká na vyřízení</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"bg-warning\">Čeká na vyřízení</span>"
 >>>>>>> upstream/18.0
@@ -17202,6 +17291,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"ms-2 badge text-bg-success\" invisible=\"author_moderation != 'allow'\">Whitelisted</span>\n"
 "                            <span class=\"ms-2 badge text-bg-danger\" invisible=\"author_moderation != 'ban'\">Banned</span>"
 msgstr ""
@@ -17333,6 +17423,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17768,6 +17860,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18221,7 +18316,11 @@ msgid "<span class=\"mx-2\">-</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"mx-2\">-</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"mx-2\">-</span>"
 >>>>>>> upstream/18.0
@@ -18882,7 +18981,11 @@ msgid "<span>By thread</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Podle vlákna</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Podle vlákna</span>"
 >>>>>>> upstream/18.0
@@ -19546,6 +19649,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Zatím žádná poštovní skupina.</span>\n"
+"                    <br/>"
+>>>>>>> upstream/18.0
 =======
 "<span>Zatím žádná poštovní skupina.</span>\n"
 "                    <br/>"
@@ -20405,6 +20513,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Přidejte tuto e-mailovou adresu do seznamu povolených osob a přijímejte "
+"všechny čekající zprávy od stejného autora."
+>>>>>>> upstream/18.0
 =======
 "Přidejte tuto e-mailovou adresu do seznamu povolených osob a přijímejte "
 "všechny čekající zprávy od stejného autora."
@@ -21275,7 +21388,11 @@ msgid "All messages of this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Všechny zprávy této skupiny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Všechny zprávy této skupiny"
 >>>>>>> upstream/18.0
@@ -21952,7 +22069,11 @@ msgid "An email with instructions has been sent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail s pokyny byl odeslán."
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail s pokyny byl odeslán."
 >>>>>>> upstream/18.0
@@ -22633,7 +22754,11 @@ msgid "Author Moderation Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stav moderování autora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stav moderování autora"
 >>>>>>> upstream/18.0
@@ -23273,8 +23398,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Author of the message. If not set, email_from may hold an email address that"
 " did not match any partner."
+=======
+"Author of the message. If not set, email_from may hold an email address that "
+"did not match any partner."
+>>>>>>> upstream/18.0
 =======
 "Author of the message. If not set, email_from may hold an email address that "
 "did not match any partner."
@@ -24036,7 +24166,11 @@ msgid "Ban the author of the message ("
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zablokovat autora zprávy ("
+>>>>>>> upstream/18.0
 =======
 msgstr "Zablokovat autora zprávy ("
 >>>>>>> upstream/18.0
@@ -24701,6 +24835,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zablokovat tuto e-mailovou adresu, odmítněte všechny nevyřízené zprávy od "
+"stejného autora a pošlete mu e-mail."
+>>>>>>> upstream/18.0
 =======
 "Zablokovat tuto e-mailovou adresu, odmítněte všechny nevyřízené zprávy od "
 "stejného autora a pošlete mu e-mail."
@@ -25525,7 +25664,11 @@ msgid "Banned"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zakázáno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zakázáno"
 >>>>>>> upstream/18.0
@@ -26196,7 +26339,11 @@ msgid "Can Manage"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Může spravovat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Může spravovat"
 >>>>>>> upstream/18.0
@@ -26857,7 +27004,11 @@ msgid "Can manage the members"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Může spravovat členy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Může spravovat členy"
 >>>>>>> upstream/18.0
@@ -27523,7 +27674,11 @@ msgid "Choose or configure a custom domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyberte nebo nakonfigurujte vlastní doménu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyberte nebo nakonfigurujte vlastní doménu"
 >>>>>>> upstream/18.0
@@ -28358,7 +28513,11 @@ msgid "Confirm subscription to {{ object.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrďte předplatné {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrďte předplatné {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -29715,7 +29874,11 @@ msgid "Confirm unsubscription to {{ object.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrďte zrušení předplatného {{ object.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrďte zrušení předplatného {{ object.name }}"
 >>>>>>> upstream/18.0
@@ -30904,7 +31067,11 @@ msgid "Create a Mail Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit poštovní skupinu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit poštovní skupinu"
 >>>>>>> upstream/18.0
@@ -31565,7 +31732,11 @@ msgid "Create a new group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit novou skupinu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit novou skupinu"
 >>>>>>> upstream/18.0
@@ -32243,7 +32414,11 @@ msgid "Current user is a moderator of the group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aktuální uživatel je moderátorem skupiny."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aktuální uživatel je moderátorem skupiny."
 >>>>>>> upstream/18.0
@@ -32851,7 +33026,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -33323,7 +33502,11 @@ msgid "Emails waiting an action for this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-maily čekající na akci pro tuto skupinu"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-maily čekající na akci pro tuto skupinu"
 >>>>>>> upstream/18.0
@@ -34015,7 +34198,11 @@ msgid "Group Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupinová zpráva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupinová zpráva"
 >>>>>>> upstream/18.0
@@ -34676,6 +34863,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Skupinová zpráva může být propojena pouze s poštovní skupinou. Aktuální "
+"model je %s."
+>>>>>>> upstream/18.0
 =======
 "Skupinová zpráva může být propojena pouze s poštovní skupinou. Aktuální "
 "model je %s."
@@ -35652,7 +35844,11 @@ msgid "Guidelines of group {{ object.mail_group_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Směrnice skupiny {{ object.mail_group_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Směrnice skupiny {{ object.mail_group_id.name }}"
 >>>>>>> upstream/18.0
@@ -36828,8 +37024,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "ID of the parent record holding the alias (example: project holding the task"
 " creation alias)"
+=======
+"ID of the parent record holding the alias (example: project holding the task "
+"creation alias)"
+>>>>>>> upstream/18.0
 =======
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
@@ -37581,7 +37782,11 @@ msgid "Invalid action for URL generation (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neplatná akce pro generování URL (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neplatná akce pro generování URL (%s)"
 >>>>>>> upstream/18.0
@@ -38235,7 +38440,11 @@ msgid "Is Group Moderated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupina moderována"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupina moderována"
 >>>>>>> upstream/18.0
@@ -38904,6 +39113,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nechte lidi přihlásit se k odběru vašeho seznamu online nebo je sem přidejte "
+"ručně."
+>>>>>>> upstream/18.0
 =======
 "Nechte lidi přihlásit se k odběru vašeho seznamu online nebo je sem přidejte "
 "ručně."
@@ -39704,7 +39918,11 @@ msgid "Mail Group Administrator"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správce poštovní skupiny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správce poštovní skupiny"
 >>>>>>> upstream/18.0
@@ -40337,7 +40555,11 @@ msgid "Mail Group: Mailing List Subscription"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poštovní skupina: Přihlášení k odběru poštovního seznamu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poštovní skupina: Přihlášení k odběru poštovního seznamu"
 >>>>>>> upstream/18.0
@@ -40970,7 +41192,11 @@ msgid "Mail Group: Mailing List Unsubscription"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poštovní skupina: Odhlášení z mailingového seznamu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poštovní skupina: Odhlášení z mailingového seznamu"
 >>>>>>> upstream/18.0
@@ -41603,7 +41829,11 @@ msgid "Mail Group: Send Guidelines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poštovní skupina: Odeslat pokyny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poštovní skupina: Odeslat pokyny"
 >>>>>>> upstream/18.0
@@ -42243,7 +42473,11 @@ msgid "Mail List: Notify group moderators"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam adresátů: Upozornit moderátory skupiny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam adresátů: Upozornit moderátory skupiny"
 >>>>>>> upstream/18.0
@@ -42904,6 +43138,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Poštovní skupiny jsou komunity, které rády společně diskutují o konkrétním "
+"tématu."
+>>>>>>> upstream/18.0
 =======
 "Poštovní skupiny jsou komunity, které rády společně diskutují o konkrétním "
 "tématu."
@@ -43693,7 +43932,11 @@ msgid "Mailing-List:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam adresátů:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam adresátů:"
 >>>>>>> upstream/18.0
@@ -44340,7 +44583,11 @@ msgid "Members Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet členů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet členů"
 >>>>>>> upstream/18.0
@@ -44973,7 +45220,11 @@ msgid "Members of this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Členové této skupiny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Členové této skupiny"
 >>>>>>> upstream/18.0
@@ -45606,7 +45857,11 @@ msgid "Members only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pouze pro členy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pouze pro členy"
 >>>>>>> upstream/18.0
@@ -46244,7 +46499,11 @@ msgid "Message Rejection Explanation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vysvětlení odmítnutí zprávy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vysvětlení odmítnutí zprávy"
 >>>>>>> upstream/18.0
@@ -46893,7 +47152,11 @@ msgid "Messages are pending moderation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zprávy čekají na schválení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zprávy čekají na schválení"
 >>>>>>> upstream/18.0
@@ -47526,7 +47789,11 @@ msgid "Messages that need an action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zprávy, které vyžadují akci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zprávy, které vyžadují akci"
 >>>>>>> upstream/18.0
@@ -48122,7 +48389,11 @@ msgid "Moderate this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderovat tuto skupinu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderovat tuto skupinu"
 >>>>>>> upstream/18.0
@@ -48630,7 +48901,11 @@ msgid "Moderated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderované"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderované"
 >>>>>>> upstream/18.0
@@ -49278,7 +49553,11 @@ msgid "Moderated emails in this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderované e-maily v této skupině"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderované e-maily v této skupině"
 >>>>>>> upstream/18.0
@@ -49912,7 +50191,11 @@ msgid "Moderated group must have moderators."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderovaná skupina musí mít moderátory."
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderovaná skupina musí mít moderátory."
 >>>>>>> upstream/18.0
@@ -50561,7 +50844,11 @@ msgid "Moderations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderování"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderování"
 >>>>>>> upstream/18.0
@@ -51211,7 +51498,11 @@ msgid "My Company News"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novinky z mé společnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novinky z mé společnosti"
 >>>>>>> upstream/18.0
@@ -51852,6 +52143,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Chcete se odhlásit? <br/>Je to právě tady! <span class="
 "\"oi fa-2x oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\""
@@ -51921,6 +52213,10 @@ msgstr ""
 "Chcete se odhlásit? <br/>Je to právě tady! <span class="
 "\"oi fa-2x oi-arrow-down float-end\" role=\"img\" aria-label=\"\" title=\""
 "Přečtete si to!\"/>"
+>>>>>>> upstream/18.0
+=======
+"Chcete se odhlásit? <br/>Je to právě tady! <span class=\"oi fa-2x oi-arrow-"
+"down float-end\" role=\"img\" aria-label=\"\" title=\"Přečtete si to!\"/>"
 >>>>>>> upstream/18.0
 =======
 "Chcete se odhlásit? <br/>Je to právě tady! <span class=\"oi fa-2x oi-arrow-"
@@ -52656,7 +52952,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Noví členové této moderované skupiny automaticky obdrží pokyny."
+>>>>>>> upstream/18.0
 =======
 msgstr "Noví členové této moderované skupiny automaticky obdrží pokyny."
 >>>>>>> upstream/18.0
@@ -53289,7 +53589,11 @@ msgid "No Members in this list yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V tomto seznamu zatím nejsou žádní členové!"
+>>>>>>> upstream/18.0
 =======
 msgstr "V tomto seznamu zatím nejsou žádní členové!"
 >>>>>>> upstream/18.0
@@ -53922,7 +54226,11 @@ msgid "No Messages in this list yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "V tomto seznamu zatím nejsou žádné zprávy!"
+>>>>>>> upstream/18.0
 =======
 msgstr "V tomto seznamu zatím nejsou žádné zprávy!"
 >>>>>>> upstream/18.0
@@ -54560,7 +54868,11 @@ msgid "Normalized From"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Normalizováno z"
+>>>>>>> upstream/18.0
 =======
 msgstr "Normalizováno z"
 >>>>>>> upstream/18.0
@@ -55198,7 +55510,11 @@ msgid "Notify Members"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upozornit členy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upozornit členy"
 >>>>>>> upstream/18.0
@@ -55831,7 +56147,11 @@ msgid "Number of message in this group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet zpráv v této skupině"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet zpráv v této skupině"
 >>>>>>> upstream/18.0
@@ -56466,7 +56786,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pouze správce nebo moderátor může zasílat pokyny členům skupiny."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pouze správce nebo moderátor může zasílat pokyny členům skupiny."
 >>>>>>> upstream/18.0
@@ -57100,7 +57424,11 @@ msgid "Only members can send email to the mailing list."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-maily na seznam adresátů mohou posílat pouze členové."
+>>>>>>> upstream/18.0
 =======
 msgstr "E-maily na seznam adresátů mohou posílat pouze členové."
 >>>>>>> upstream/18.0
@@ -57735,6 +58063,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"E-maily na seznam adresátů mohou odesílat pouze vybrané skupiny uživatelů."
+>>>>>>> upstream/18.0
 =======
 "E-maily na seznam adresátů mohou odesílat pouze vybrané skupiny uživatelů."
 >>>>>>> upstream/18.0
@@ -58379,8 +58711,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Parent model holding the alias. The model holding the alias reference is not"
 " necessarily the model given by alias_model_id (example: project "
+=======
+"Parent model holding the alias. The model holding the alias reference is not "
+"necessarily the model given by alias_model_id (example: project "
+>>>>>>> upstream/18.0
 =======
 "Parent model holding the alias. The model holding the alias reference is not "
 "necessarily the model given by alias_model_id (example: project "
@@ -59124,7 +59461,11 @@ msgid "Partners Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Člen partnerů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Člen partnerů"
 >>>>>>> upstream/18.0
@@ -59757,7 +60098,11 @@ msgid "Pending Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čekající zprávy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čekající zprávy"
 >>>>>>> upstream/18.0
@@ -60390,7 +60735,11 @@ msgid "Pending Messages Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počet čekajících zpráv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počet čekajících zpráv"
 >>>>>>> upstream/18.0
@@ -61031,7 +61380,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- followers: only followers of the related document or members of following channels\n"
+=======
+"- followers: only followers of the related document or members of following "
+"channels\n"
+>>>>>>> upstream/18.0
 =======
 "- followers: only followers of the related document or members of following "
 "channels\n"
@@ -61751,7 +62105,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- sledující: pouze sledující související dokument nebo členové následujících kanálů\n"
+=======
+"- sledující: pouze sledující související dokument nebo členové následujících "
+"kanálů\n"
+>>>>>>> upstream/18.0
 =======
 "- sledující: pouze sledující související dokument nebo členové následujících "
 "kanálů\n"
@@ -62485,7 +62844,11 @@ msgid "Post to:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odeslat na:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odeslat na:"
 >>>>>>> upstream/18.0
@@ -63129,7 +63492,11 @@ msgid "Public Mailing List"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Veřejný seznam adresářů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Veřejný seznam adresářů"
 >>>>>>> upstream/18.0
@@ -63791,7 +64158,11 @@ msgid "Reject Silently"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tiše odmítnout"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tiše odmítnout"
 >>>>>>> upstream/18.0
@@ -64424,7 +64795,11 @@ msgid "Reject the message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odmítnout zprávu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odmítnout zprávu"
 >>>>>>> upstream/18.0
@@ -65027,7 +65402,11 @@ msgid "Responsible Users"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odpovědní uživatelé"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odpovědní uživatelé"
 >>>>>>> upstream/18.0
@@ -65534,7 +65913,11 @@ msgid "Search Group Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hledat skupinovou zprávu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hledat skupinovou zprávu"
 >>>>>>> upstream/18.0
@@ -66167,7 +66550,11 @@ msgid "Search Mail Group Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyhledat člena poštovní skupiny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyhledat člena poštovní skupiny"
 >>>>>>> upstream/18.0
@@ -66800,7 +67187,11 @@ msgid "Search Mail group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hledat poštovní skupinu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hledat poštovní skupinu"
 >>>>>>> upstream/18.0
@@ -67449,7 +67840,11 @@ msgid "Send & Ban"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odeslat a zakázat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odeslat a zakázat"
 >>>>>>> upstream/18.0
@@ -68082,7 +68477,11 @@ msgid "Send & Reject"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odeslat a odmítnout"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odeslat a odmítnout"
 >>>>>>> upstream/18.0
@@ -68678,7 +69077,11 @@ msgid "Send Guidelines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odeslat pokyny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odeslat pokyny"
 >>>>>>> upstream/18.0
@@ -69185,7 +69588,11 @@ msgid "Send an email to the author of the message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odeslat e-mail autorovi zprávy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odeslat e-mail autorovi zprávy"
 >>>>>>> upstream/18.0
@@ -69824,6 +70231,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odesláno lidem, kteří se přihlásili k odběru mailingové skupiny s pokyny pro "
+"skupinu"
+>>>>>>> upstream/18.0
 =======
 "Odesláno lidem, kteří se přihlásili k odběru mailingové skupiny s pokyny pro "
 "skupinu"
@@ -70613,7 +71025,11 @@ msgid "Sent to people who unsubscribed from a mailing group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odesláno lidem, kteří se odhlásili z mailingové skupiny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odesláno lidem, kteří se odhlásili z mailingové skupiny"
 >>>>>>> upstream/18.0
@@ -71271,7 +71687,11 @@ msgid "Subscription confirmation to a mailing group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrzení přihlášení do mailingové skupiny"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrzení přihlášení do mailingové skupiny"
 >>>>>>> upstream/18.0
@@ -71891,6 +72311,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Template \"mail_group.mail_template_guidelines\" was not found. No email has"
 " been sent. Please contact an administrator to fix this issue."
 msgstr ""
@@ -71965,6 +72386,8 @@ msgstr ""
 "odeslán. Kontaktujte správce, aby tento problém vyřešil."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72396,6 +72819,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72848,7 +73274,11 @@ msgid "The \"Authorized Group\" is missing."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chybí „Autorizovaná skupina“."
+>>>>>>> upstream/18.0
 =======
 msgstr "Chybí „Autorizovaná skupina“."
 >>>>>>> upstream/18.0
@@ -73481,7 +73911,11 @@ msgid "The email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail"
 >>>>>>> upstream/18.0
@@ -74115,7 +74549,11 @@ msgid "The email \"%s\" is not valid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mailová adresa „%s “ není platná."
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mailová adresa „%s “ není platná."
 >>>>>>> upstream/18.0
@@ -74749,7 +75187,11 @@ msgid "The group of the message do not match."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skupina zpráv se neshoduje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Skupina zpráv se neshoduje."
 >>>>>>> upstream/18.0
@@ -75383,7 +75825,11 @@ msgid "The guidelines description is empty."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Popis pokynů je prázdný."
+>>>>>>> upstream/18.0
 =======
 msgstr "Popis pokynů je prázdný."
 >>>>>>> upstream/18.0
@@ -76017,7 +76463,11 @@ msgid "The guidelines description is missing."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chybí popis pokynů."
+>>>>>>> upstream/18.0
 =======
 msgstr "Chybí popis pokynů."
 >>>>>>> upstream/18.0
@@ -76636,9 +77086,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
+=======
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
+"email that does not reply to an existing record will cause the creation of a "
+"new record of this model (e.g. a Project Task)"
+>>>>>>> upstream/18.0
 =======
 "The model (Odoo Document Kind) to which this alias corresponds. Any incoming "
 "email that does not reply to an existing record will cause the creation of a "
@@ -77529,7 +77985,11 @@ msgid "The notification message is missing."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chybí oznámení."
+>>>>>>> upstream/18.0
 =======
 msgstr "Chybí oznámení."
 >>>>>>> upstream/18.0
@@ -78163,7 +78623,11 @@ msgid "The partner can not be found."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner nebyl nalezen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Partner nebyl nalezen."
 >>>>>>> upstream/18.0
@@ -78797,7 +79261,11 @@ msgid "The record of the message should be the group."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Záznam zprávy by měl být skupina."
+>>>>>>> upstream/18.0
 =======
 msgstr "Záznam zprávy by měl být skupina."
 >>>>>>> upstream/18.0
@@ -79431,7 +79899,11 @@ msgid "This email is already subscribed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento e-mail je již přihlášen k odběru."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tento e-mail je již přihlášen k odběru."
 >>>>>>> upstream/18.0
@@ -80065,7 +80537,11 @@ msgid "This email is not subscribed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento e-mail není přihlášen k odběru."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tento e-mail není přihlášen k odběru."
 >>>>>>> upstream/18.0
@@ -80699,7 +81175,11 @@ msgid "This message can not be moderated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tuto zprávu nelze moderovat."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuto zprávu nelze moderovat."
 >>>>>>> upstream/18.0
@@ -81332,7 +81812,11 @@ msgid "This partner is already subscribed to the group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tento partner je již přihlášen do skupiny."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tento partner je již přihlášen do skupiny."
 >>>>>>> upstream/18.0
@@ -81966,7 +82450,11 @@ msgid "Those messages can not be moderated: %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tyto zprávy nelze moderovat: %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tyto zprávy nelze moderovat: %s."
 >>>>>>> upstream/18.0
@@ -82611,7 +83099,11 @@ msgid "Unsubscribe:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odhlásit odběr:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odhlásit odběr:"
 >>>>>>> upstream/18.0
@@ -83245,7 +83737,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Když lidé pošlou e-mail na alias seznamu, objeví se zde."
+>>>>>>> upstream/18.0
 =======
 msgstr "Když lidé pošlou e-mail na alias seznamu, objeví se zde."
 >>>>>>> upstream/18.0
@@ -83879,7 +84375,11 @@ msgid "Whitelist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Seznam povolených"
+>>>>>>> upstream/18.0
 =======
 msgstr "Seznam povolených"
 >>>>>>> upstream/18.0
@@ -84512,7 +85012,11 @@ msgid "Whitelisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na seznamu povolených"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na seznamu povolených"
 >>>>>>> upstream/18.0
@@ -85146,7 +85650,11 @@ msgid "Wrong status (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nesprávný stav (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nesprávný stav (%s)"
 >>>>>>> upstream/18.0
@@ -85780,6 +86288,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pro danou e-mailovou adresu ve skupině můžete vytvořit pouze jedno pravidlo."
+>>>>>>> upstream/18.0
 =======
 "Pro danou e-mailovou adresu ve skupině můžete vytvořit pouze jedno pravidlo."
 >>>>>>> upstream/18.0
@@ -86258,6 +86770,7 @@ msgid "You have messages to moderate, please go for the proceedings."
 msgstr "Máte zprávy k moderování, prosím, jděte je zpracovat."
 
 #. module: mail_group
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87096,6 +87609,11 @@ msgstr "alias"
 msgid "alias"
 msgstr "alias"
 >>>>>>> upstream/18.0
+=======
+#: model_terms:ir.ui.view,arch_db:mail_group.mail_group_view_form
+msgid "alias"
+msgstr "alias"
+>>>>>>> upstream/18.0
 
 #. module: mail_group
 #: model_terms:ir.ui.view,arch_db:mail_group.mail_group_message_reject_form
@@ -87257,7 +87775,11 @@ msgid "and send an email to the author ("
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "a pošlete e-mail autorovi ("
+>>>>>>> upstream/18.0
 =======
 msgstr "a pošlete e-mail autorovi ("
 >>>>>>> upstream/18.0
@@ -87900,7 +88422,11 @@ msgid "e.g. \"Newsletter\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. „Newsletter“"
+>>>>>>> upstream/18.0
 =======
 msgstr "např. „Newsletter“"
 >>>>>>> upstream/18.0
@@ -88533,7 +89059,11 @@ msgid "e.g. mycompany.com"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "např. \"mycompany.com\""
+>>>>>>> upstream/18.0
 =======
 msgstr "např. \"mycompany.com\""
 >>>>>>> upstream/18.0
@@ -89166,7 +89696,11 @@ msgid "group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "skupina"
+>>>>>>> upstream/18.0
 =======
 msgstr "skupina"
 >>>>>>> upstream/18.0
@@ -89791,6 +90325,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" aria-label=\"Traffic\" title=\"Traffic\"/>"
 =======
 "                        <i class=\"fa fa-fw fa-envelope-o\" role=\"img\" "
@@ -89906,6 +90441,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90254,6 +90791,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90659,7 +91199,11 @@ msgid "subscribed to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "přihlášený k odběru"
+>>>>>>> upstream/18.0
 =======
 msgstr "přihlášený k odběru"
 >>>>>>> upstream/18.0
@@ -91292,7 +91836,11 @@ msgid "the list"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "seznam"
+>>>>>>> upstream/18.0
 =======
 msgstr "seznam"
 >>>>>>> upstream/18.0
@@ -91925,7 +92473,11 @@ msgid "unsubscribed from"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "odhlásil se z odběru"
+>>>>>>> upstream/18.0
 =======
 msgstr "odhlásil se z odběru"
 >>>>>>> upstream/18.0
@@ -92447,6 +92999,12 @@ msgstr "váš e-mail..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "_______________________________________________"
+#~ msgstr "_______________________________________________"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "_______________________________________________"

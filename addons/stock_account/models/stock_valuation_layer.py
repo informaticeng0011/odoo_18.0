@@ -148,7 +148,11 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     unit_cost = fields.Float('Unit Value', digits='Product Price', readonly=True, aggregator=None)
+=======
+    unit_cost = fields.Float('Unit Value', min_display_digits='Product Price', readonly=True, aggregator=None)
+>>>>>>> upstream/18.0
 =======
     unit_cost = fields.Float('Unit Value', min_display_digits='Product Price', readonly=True, aggregator=None)
 >>>>>>> upstream/18.0
@@ -860,7 +864,10 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1840,6 +1847,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2849,6 +2859,7 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -3013,6 +3024,9 @@ class StockValuationLayer(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    # TODO: remove in master
 >>>>>>> upstream/18.0
 =======
     # TODO: remove in master
@@ -4128,6 +4142,7 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4294,6 +4309,8 @@ class StockValuationLayer(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5066,6 +5083,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5605,6 +5625,7 @@ class StockValuationLayer(models.Model):
         if am_vals:
             account_moves = self.env['account.move'].sudo().create(am_vals)
             account_moves._post()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6634,6 +6655,9 @@ class StockValuationLayer(models.Model):
 =======
         products_svl = groupby(self, lambda svl: (svl._get_related_product(), svl.company_id.anglo_saxon_accounting))
 >>>>>>> upstream/18.0
+=======
+        products_svl = groupby(self, lambda svl: (svl._get_related_product(), svl.company_id.anglo_saxon_accounting))
+>>>>>>> upstream/18.0
         for (product, anglo_saxon_accounting), svls in products_svl:
             svls = self.browse(svl.id for svl in svls)
             moves = svls.stock_move_id
@@ -6666,6 +6690,7 @@ class StockValuationLayer(models.Model):
         #  Handler called when the user clicked on the 'Valuation at Date' button.
         #  Opens wizard to display, at choice, the products inventory or a computed
         #  inventory at a given date.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7903,6 +7928,9 @@ class StockValuationLayer(models.Model):
 =======
         context = {"pivot_measures": ["quantity", "value"]}
 >>>>>>> upstream/18.0
+=======
+        context = {"pivot_measures": ["quantity", "value"]}
+>>>>>>> upstream/18.0
         if ("default_product_id" in self.env.context):
             context["product_id"] = self.env.context["default_product_id"]
         elif ("default_product_tmpl_id" in self.env.context):
@@ -7938,6 +7966,7 @@ class StockValuationLayer(models.Model):
         if not self:
             return 0, 0
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8754,10 +8783,13 @@ class StockValuationLayer(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         qty_to_take_on_candidates = qty_to_value
         tmp_value = 0  # to accumulate the value taken on the candidates
         for candidate in self:
             rounding = candidate.product_id.uom_id.rounding
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9573,6 +9605,8 @@ class StockValuationLayer(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if float_is_zero(candidate.quantity, precision_rounding=rounding):
                 continue
             candidate_quantity = abs(candidate.quantity)
@@ -9599,6 +9633,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9934,7 +9971,11 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rounding = self.product_id.uom_id.rounding
+=======
+        min_rounding = 1.0
+>>>>>>> upstream/18.0
 =======
         min_rounding = 1.0
 >>>>>>> upstream/18.0
@@ -10754,6 +10795,7 @@ class StockValuationLayer(models.Model):
         new_valuation = 0
 
         for svl in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12075,6 +12117,8 @@ class StockValuationLayer(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             rounding = svl.product_id.uom_id.rounding
             min_rounding = min(min_rounding, rounding)
             if float_is_zero(svl.quantity, precision_rounding=rounding):
@@ -12103,6 +12147,9 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12146,6 +12193,7 @@ class StockValuationLayer(models.Model):
             qty_total += relevant_qty
             value_total += relevant_qty * ((svl.value + sum(svl.stock_valuation_layer_ids.mapped('value'))) / svl.quantity)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13231,6 +13279,9 @@ class StockValuationLayer(models.Model):
 =======
         if float_compare(qty_total, 0, precision_rounding=min_rounding) > 0:
 >>>>>>> upstream/18.0
+=======
+        if float_compare(qty_total, 0, precision_rounding=min_rounding) > 0:
+>>>>>>> upstream/18.0
             unit_cost = value_total / qty_total
             new_valued_qty = min(qty_total, qty_to_value)
             new_valuation = unit_cost * new_valued_qty
@@ -13301,6 +13352,10 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'tax_ids': [],
+>>>>>>> upstream/18.0
 =======
                     'tax_ids': [],
 >>>>>>> upstream/18.0
@@ -13384,6 +13439,10 @@ class StockValuationLayer(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'tax_ids': [],
+>>>>>>> upstream/18.0
 =======
                     'tax_ids': [],
 >>>>>>> upstream/18.0

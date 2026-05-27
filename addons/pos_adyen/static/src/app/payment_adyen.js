@@ -251,7 +251,11 @@ export class PaymentAdyen extends PaymentInterface {
         return (
             notification &&
             notification.SaleToPOIResponse.MessageHeader.ServiceID ==
+<<<<<<< HEAD
                 this.pending_adyen_line().terminalServiceId &&
+=======
+                this.pending_adyen_line()?.terminalServiceId &&
+>>>>>>> upstream/18.0
             response.Result === "Success"
         );
     }

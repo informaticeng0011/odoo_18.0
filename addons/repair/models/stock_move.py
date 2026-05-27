@@ -332,6 +332,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     repair_id = fields.Many2one('repair.order', check_company=True)
 =======
     repair_id = fields.Many2one('repair.order', check_company=True, copy=False)
@@ -1290,6 +1291,9 @@ class StockMove(models.Model):
 =======
     repair_id = fields.Many2one('repair.order', check_company=True, copy=False, ondelete='cascade')
 >>>>>>> upstream/18.0
+=======
+    repair_id = fields.Many2one('repair.order', check_company=True, copy=False, ondelete='cascade')
+>>>>>>> upstream/18.0
     repair_line_type = fields.Selection([
         ('add', 'Add'),
         ('remove', 'Remove'),
@@ -1464,7 +1468,10 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1650,6 +1657,9 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1827,6 +1837,7 @@ class StockMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             product_qty = move.product_uom_qty if move.repair_id.state != 'done' else move.quantity
             so_line_vals.append({
                 'order_id': move.repair_id.sale_order_id.id,
@@ -1840,6 +1851,9 @@ class StockMove(models.Model):
                 so_line_vals[-1]['price_unit'] = 0.0
             elif move.price_unit:
                 so_line_vals[-1]['price_unit'] = move.price_unit
+=======
+            so_line_vals.append(move._prepare_repair_so_line_vals())
+>>>>>>> upstream/18.0
 =======
             so_line_vals.append(move._prepare_repair_so_line_vals())
 >>>>>>> upstream/18.0
