@@ -200,6 +200,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1322,6 +1323,9 @@
 =======
 # * product
 >>>>>>> upstream/18.0
+=======
+# * product
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Katja Deržič, 2024
@@ -1554,6 +1558,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2225,6 +2230,8 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2427,6 +2434,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2564,6 +2574,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4349,6 +4360,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-03-21 09:29+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Slovenian <https://translate.odoo.com/projects/odoo-18/"
@@ -4419,6 +4433,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4556,6 +4573,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5837,6 +5855,11 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -5852,6 +5875,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product.field_product_product__product_variant_count
 #: model:ir.model.fields,field_description:product.field_product_template__product_variant_count
 msgid "# Product Variants"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6345,6 +6369,9 @@ msgstr "# Različice izdelka"
 =======
 msgstr "# Različice izdelka"
 >>>>>>> upstream/18.0
+=======
+msgstr "# Različice izdelka"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__product_count
@@ -6352,6 +6379,7 @@ msgid "# Products"
 msgstr "# Izdelki"
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7185,6 +7213,11 @@ msgid ""
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+>>>>>>> upstream/18.0
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
 "fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
@@ -7415,6 +7448,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8101,8 +8137,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
+=======
+"%(item_name)s: end date (%(end_date)s) should be after start date (%"
+"(start_date)s)"
+>>>>>>> upstream/18.0
 =======
 "%(item_name)s: end date (%(end_date)s) should be after start date (%"
 "(start_date)s)"
@@ -9301,7 +9342,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+=======
+msgid ""
+"- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
@@ -10442,9 +10488,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11127,6 +11176,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11254,6 +11304,8 @@ msgid ""
 "        Note: this cannot be changed once the attribute is used on a product."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11756,6 +11808,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12143,11 +12198,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "10"
 msgstr ""
 
 #. module: product
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12291,11 +12349,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "123456789012"
 msgstr ""
 
 #. module: product
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12472,7 +12533,11 @@ msgid "4 x 12"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "4 x 12"
+>>>>>>> upstream/18.0
 =======
 msgstr "4 x 12"
 >>>>>>> upstream/18.0
@@ -12874,7 +12939,11 @@ msgid "<b>Tip: want to round at 9.99?</b>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<b>Nasvet: želite zaokroževati na 9,99</b>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<b>Nasvet: želite zaokroževati na 9,99</b>"
 >>>>>>> upstream/18.0
@@ -13670,9 +13739,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14357,6 +14429,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15044,7 +15119,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                        <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -16190,7 +16270,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -17377,9 +17462,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        izbriše in ponovno ustvari obstoječe različice in vodi\n"
 "                       do izgube njihovih možnih prilagoditev.                         "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18062,6 +18150,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18776,8 +18867,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
+=======
+"A description of the Product that you want to communicate to your customers. "
+"This description will be copied to every Sales Order, Delivery Order and "
+>>>>>>> upstream/18.0
 =======
 "A description of the Product that you want to communicate to your customers. "
 "This description will be copied to every Sales Order, Delivery Order and "
@@ -19925,9 +20021,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20619,6 +20718,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21430,7 +21532,11 @@ msgid "Add Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj izdelke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj izdelke"
 >>>>>>> upstream/18.0
@@ -22264,6 +22370,7 @@ msgid "All Product Variants using this Tag"
 msgstr "Vse različice izdelka, ki uporabljajo to oznako"
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23605,6 +23712,8 @@ msgstr "Vsi proizvodi"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__3_global
@@ -23733,6 +23842,9 @@ msgstr "Vsi izdelki"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24373,7 +24485,11 @@ msgid "Based price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Osnovna cena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osnovna cena"
 >>>>>>> upstream/18.0
@@ -25248,7 +25364,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adijo, ta zapis!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adijo, ta zapis!"
 >>>>>>> upstream/18.0
@@ -26414,7 +26534,11 @@ msgid "Combo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombo"
 >>>>>>> upstream/18.0
@@ -27087,7 +27211,11 @@ msgid "Combo Choices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombo izbire"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombo izbire"
 >>>>>>> upstream/18.0
@@ -27752,7 +27880,11 @@ msgid "Combo Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombo izdelek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombo izdelek"
 >>>>>>> upstream/18.0
@@ -28417,7 +28549,11 @@ msgid "Combo Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cena kombinacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cena kombinacije"
 >>>>>>> upstream/18.0
@@ -29268,7 +29404,11 @@ msgid "Company Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavitve podjetja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavitve podjetja"
 >>>>>>> upstream/18.0
@@ -30461,7 +30601,11 @@ msgid "Create a new product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustvari nov proizvod"
+=======
+msgstr "Ustvari nov izdelek"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustvari nov izdelek"
 >>>>>>> upstream/18.0
@@ -30986,7 +31130,11 @@ msgid "Cubic Feet"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kubični čevlji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kubični čevlji"
 >>>>>>> upstream/18.0
@@ -31736,7 +31884,11 @@ msgid "Documents Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število dokumentov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število dokumentov"
 >>>>>>> upstream/18.0
@@ -32805,7 +32957,11 @@ msgid "Dynamically"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dinamično"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dinamično"
 >>>>>>> upstream/18.0
@@ -33614,8 +33770,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
+=======
+"Extra price for the variant with this attribute value on sale price. eg. 200 "
+"price extra, 1000 + 200 = 1200."
+>>>>>>> upstream/18.0
 =======
 "Extra price for the variant with this attribute value on sale price. eg. 200 "
 "price extra, 1000 + 200 = 1200."
@@ -34853,7 +35014,11 @@ msgid "File Content (base64)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vsebina datoteke (base64)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vsebina datoteke (base64)"
 >>>>>>> upstream/18.0
@@ -36086,7 +36251,11 @@ msgid "File Content (raw)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vsebina datoteke (raw)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vsebina datoteke (raw)"
 >>>>>>> upstream/18.0
@@ -37278,7 +37447,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
+=======
+"For the rule to apply, bought/sold quantity must be greater than or equal to "
+"the minimum quantity specified in this field.\n"
+>>>>>>> upstream/18.0
 =======
 "For the rule to apply, bought/sold quantity must be greater than or equal to "
 "the minimum quantity specified in this field.\n"
@@ -38683,7 +38857,11 @@ msgid "Image Height"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Višina slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Višina slike"
 >>>>>>> upstream/18.0
@@ -39720,7 +39898,11 @@ msgid "Image Src"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvor slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvor slike"
 >>>>>>> upstream/18.0
@@ -40757,7 +40939,11 @@ msgid "Image Width"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Širina slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Širina slike"
 >>>>>>> upstream/18.0
@@ -41794,7 +41980,11 @@ msgid "Image is a link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Slika je povezava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Slika je povezava"
 >>>>>>> upstream/18.0
@@ -42772,7 +42962,11 @@ msgid "Instantly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Takoj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takoj"
 >>>>>>> upstream/18.0
@@ -43489,7 +43683,11 @@ msgid "Invalid Operation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neveljavna operacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neveljavna operacija"
 >>>>>>> upstream/18.0
@@ -44420,6 +44618,7 @@ msgid "Kilograms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Kilogrami"
@@ -45160,6 +45359,8 @@ msgstr "Kilogrami"
 msgstr "Kilogrami"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45301,6 +45502,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45755,7 +45959,11 @@ msgid "Leather"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usnje"
 >>>>>>> upstream/18.0
@@ -46912,7 +47120,11 @@ msgid "Local Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lokalna dostava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lokalna dostava"
 >>>>>>> upstream/18.0
@@ -47809,6 +48021,7 @@ msgid ""
 msgstr ""
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48855,6 +49068,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:product.attribute.value,name:product.size_attribute_m
 msgid "M"
 msgstr ""
@@ -48909,6 +49124,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49488,7 +49706,11 @@ msgid "No, keep it"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne, obdrži"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne, obdrži"
 >>>>>>> upstream/18.0
@@ -50722,7 +50944,11 @@ msgid "Office Chair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pisarniški stol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pisarniški stol"
 >>>>>>> upstream/18.0
@@ -51561,6 +51787,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52698,6 +52925,10 @@ msgid ""
 "On the product %(product)s you cannot associate the value %(value)s with the "
 "attribute %(attribute)s because they do not match."
 >>>>>>> upstream/18.0
+=======
+"On the product %(product)s you cannot associate the value %(value)s with the "
+"attribute %(attribute)s because they do not match."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -52931,8 +53162,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "On the product %(product)s you cannot transform the attribute "
 "%(attribute_src)s into the attribute %(attribute_dest)s."
+=======
+"On the product %(product)s you cannot transform the attribute %"
+"(attribute_src)s into the attribute %(attribute_dest)s."
+>>>>>>> upstream/18.0
 =======
 "On the product %(product)s you cannot transform the attribute %"
 "(attribute_src)s into the attribute %(attribute_dest)s."
@@ -54110,7 +54346,11 @@ msgid "Original (unoptimized, unresized) attachment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvirna (neoptimizirana, nespremenjena velikost) priloga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvirna (neoptimizirana, nespremenjena velikost) priloga"
 >>>>>>> upstream/18.0
@@ -55294,7 +55534,11 @@ msgid "Pounds"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funti"
 >>>>>>> upstream/18.0
@@ -56433,7 +56677,11 @@ msgid "Price Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip cene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip cene"
 >>>>>>> upstream/18.0
@@ -57293,7 +57541,11 @@ msgid "Product Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kategorija proizvoda"
+=======
+msgstr "Kategorija izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kategorija izdelka"
 >>>>>>> upstream/18.0
@@ -57936,7 +58188,11 @@ msgid "Product Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Število izdelkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Število izdelkov"
 >>>>>>> upstream/18.0
@@ -58906,7 +59162,11 @@ msgid "Product Packages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pakiranja proizvoda"
+=======
+msgstr "Pakiranja izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pakiranja izdelka"
 >>>>>>> upstream/18.0
@@ -59405,7 +59665,11 @@ msgid "Product Packaging"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pakiranje proizvoda"
+=======
+msgstr "Pakiranje izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pakiranje izdelka"
 >>>>>>> upstream/18.0
@@ -59910,7 +60174,11 @@ msgid "Product Packagings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pakiranja proizvoda"
+=======
+msgstr "Pakiranja izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pakiranja izdelka"
 >>>>>>> upstream/18.0
@@ -60492,7 +60760,11 @@ msgid "Product Variant Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vrednosti različic proizvodov"
+=======
+msgstr "Vrednosti različic izdelkov"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrednosti različic izdelkov"
 >>>>>>> upstream/18.0
@@ -61010,6 +61282,7 @@ msgstr "Referenca"
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_supplierinfo_type_action
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62147,6 +62420,10 @@ msgid ""
 "Register the prices requested by your vendors for each product, based on the "
 "quantity and the period."
 >>>>>>> upstream/18.0
+=======
+"Register the prices requested by your vendors for each product, based on the "
+"quantity and the period."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -62270,7 +62547,10 @@ msgstr "Nasvet za pravilo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62411,6 +62691,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62848,7 +63131,11 @@ msgid "Sales Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodaja Cena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodaja Cena"
 >>>>>>> upstream/18.0
@@ -64031,7 +64318,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -64591,6 +64881,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65232,7 +65525,11 @@ msgid "Show Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži ime"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži ime"
 >>>>>>> upstream/18.0
@@ -66478,7 +66775,11 @@ msgid "Tag name already exists!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime oznake že obstaja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime oznake že obstaja!"
 >>>>>>> upstream/18.0
@@ -67740,8 +68041,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
+=======
+"The attribute %(attribute)s must have at least one value for the product %"
+"(product)s."
+>>>>>>> upstream/18.0
 =======
 "The attribute %(attribute)s must have at least one value for the product %"
 "(product)s."
@@ -68932,8 +69238,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
+=======
+"combo product. This heuristic ensures that whatever product the user chooses "
+"in a combo, it will always be the same price."
+>>>>>>> upstream/18.0
 =======
 "combo product. This heuristic ensures that whatever product the user chooses "
 "in a combo, it will always be the same price."
@@ -70082,8 +70393,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
+=======
+"The number of variants to generate is above allowed limit. You should either "
+"not generate variants for each combination or generate them on demand from "
+>>>>>>> upstream/18.0
 =======
 "The number of variants to generate is above allowed limit. You should either "
 "not generate variants for each combination or generate them on demand from "
@@ -71252,6 +71568,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr ""
@@ -72168,6 +72485,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The sale price is managed from the product template. Click on the 'Configure "
 "Variants' button to set the extra attribute prices."
 msgstr ""
@@ -72399,6 +72718,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73150,12 +73472,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
 "This may cause inconsistencies in computations.\n"
 "Please set a precision between %(min_precision)s and 1."
 msgstr ""
 "Ta natančnost zaokroževanja je večja od natančnosti decimalnega številka (%(digits)sštevk).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -73841,6 +74166,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74745,7 +75073,11 @@ msgid "Validity Period"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obdobje veljavnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obdobje veljavnosti"
 >>>>>>> upstream/18.0
@@ -75549,6 +75881,7 @@ msgstr "Število vrednosti"
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76685,6 +77018,10 @@ msgid ""
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
 >>>>>>> upstream/18.0
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+>>>>>>> upstream/18.0
 "        Used to compute margins on sale orders."
 msgstr ""
 
@@ -76876,7 +77213,11 @@ msgid "Variant Creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stvaritev variant"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stvaritev variant"
 >>>>>>> upstream/18.0
@@ -77587,7 +77928,11 @@ msgid "Vendor Product Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dobaviteljeva koda proizvoda"
+=======
+msgstr "Dobaviteljeva koda izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobaviteljeva koda izdelka"
 >>>>>>> upstream/18.0
@@ -78084,7 +78429,11 @@ msgid "Vendor Product Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dobaviteljev naziv proizvoda"
+=======
+msgstr "Dobaviteljev naziv izdelka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobaviteljev naziv izdelka"
 >>>>>>> upstream/18.0
@@ -78812,7 +79161,11 @@ msgid "Visible to all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidno vsem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vidno vsem"
 >>>>>>> upstream/18.0
@@ -80083,7 +80436,11 @@ msgid "Voice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Glas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Glas"
 >>>>>>> upstream/18.0
@@ -81120,8 +81477,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 =======
 "We pay special attention to detail, which is why our desks are of a superior "
 "quality."
@@ -82321,7 +82683,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 =======
 "Please increase the rounding of those units of measure, or the digits of "
 "this Decimal Accuracy."
@@ -83520,7 +83887,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot change the Variants Creation Mode of the attribute %(attribute)s "
+"because it is used on the following products:\n"
+>>>>>>> upstream/18.0
 =======
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s "
 "because it is used on the following products:\n"
@@ -84436,6 +84808,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85573,12 +85946,17 @@ msgid ""
 "You cannot change the attribute of the value %(value)s because it is used on "
 "the following products: %(products)s"
 >>>>>>> upstream/18.0
+=======
+"You cannot change the attribute of the value %(value)s because it is used on "
+"the following products: %(products)s"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86716,12 +87094,17 @@ msgid ""
 "You cannot change the product of the value %(value)s set on product %"
 "(product)s."
 >>>>>>> upstream/18.0
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_value.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87859,6 +88242,10 @@ msgid ""
 "You cannot change the value of the value %(value)s set on product %"
 "(product)s."
 >>>>>>> upstream/18.0
+=======
+"You cannot change the value of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: product
@@ -88068,7 +88455,11 @@ msgid "You cannot delete the %s product category."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " Ne morete izbrisati%s kategorije izdelkov"
+=======
+msgstr "Ne morete izbrisati kategorije izdelkov %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne morete izbrisati kategorije izdelkov %s."
 >>>>>>> upstream/18.0
@@ -88838,7 +89229,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+>>>>>>> upstream/18.0
 =======
 "You cannot delete the attribute %(attribute)s because it is used on the "
 "following products:\n"
@@ -89981,7 +90377,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+>>>>>>> upstream/18.0
 =======
 "You cannot delete the value %(value)s because it is used on the following "
 "products:\n"
@@ -91131,8 +91532,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
+=======
+"You cannot move the attribute %(attribute)s from the product %(product_src)s "
+"to the product %(product_dest)s."
+>>>>>>> upstream/18.0
 =======
 "You cannot move the attribute %(attribute)s from the product %(product_src)s "
 "to the product %(product_dest)s."
@@ -92283,7 +92689,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+>>>>>>> upstream/18.0
 =======
 "                            whether it's a storable product, a consumable or "
 "a service."
@@ -93429,7 +93840,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                ne glede na to, ali gre za izdelek z zalogo, potrošni material ali storitev. "
+=======
+"                ne glede na to, ali gre za izdelek z zalogo, potrošni "
+"material ali storitev. "
+>>>>>>> upstream/18.0
 =======
 "                ne glede na to, ali gre za izdelek z zalogo, potrošni "
 "material ali storitev. "
@@ -94571,9 +94987,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95256,6 +95675,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95941,11 +96363,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96631,6 +97056,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97438,7 +97866,11 @@ msgid "per"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "na"
+>>>>>>> upstream/18.0
 =======
 msgstr "na"
 >>>>>>> upstream/18.0
@@ -98437,7 +98869,11 @@ msgid "round off to 10.00 and set an extra at -0.01"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "zaokrožite na 10,00 in nastavite pribitek na -0,01"
+>>>>>>> upstream/18.0
 =======
 msgstr "zaokrožite na 10,00 in nastavite pribitek na -0,01"
 >>>>>>> upstream/18.0

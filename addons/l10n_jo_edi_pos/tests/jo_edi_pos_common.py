@@ -83,8 +83,11 @@ class JoEdiPosCommon(JoEdiCommon, TestPoSCommon, TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _l10n_jo_create_order(self, order_vals):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -295,6 +298,9 @@ class JoEdiPosCommon(JoEdiCommon, TestPoSCommon, TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -502,9 +508,15 @@ class JoEdiPosCommon(JoEdiCommon, TestPoSCommon, TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'partner_id': self.partner_jo.id,
             'date_order': order_vals.get('date_order', '2019-01-01'),
         })
+=======
+            'date_order': order_vals.get('date_order', '2019-01-01'),
+        })
+        order_vals.setdefault('partner_id', self.partner_jo.id)
+>>>>>>> upstream/18.0
 =======
             'date_order': order_vals.get('date_order', '2019-01-01'),
         })
@@ -924,11 +936,14 @@ class JoEdiPosCommon(JoEdiCommon, TestPoSCommon, TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return order
 
     def _l10n_jo_create_order_refund(self, order, refund_vals):
         order = self._l10n_jo_create_order(order) if isinstance(order, dict) else order
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1136,6 +1151,9 @@ class JoEdiPosCommon(JoEdiCommon, TestPoSCommon, TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1345,6 +1363,12 @@ class JoEdiPosCommon(JoEdiCommon, TestPoSCommon, TestPointOfSaleHttpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        self._pay_order(order_refund, payments, default_payment)
+
+>>>>>>> upstream/18.0
 =======
 
         self._pay_order(order_refund, payments, default_payment)

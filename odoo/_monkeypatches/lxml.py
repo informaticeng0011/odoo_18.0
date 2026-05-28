@@ -1,13 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 import lxml.html.clean
 import re
 
 from importlib.metadata import version
+<<<<<<< HEAD
 =======
 import lxml.html
 import re
 
 from importlib.metadata import version
+from lxml.etree import LIBXML_VERSION
+>>>>>>> upstream/18.0
+=======
 from lxml.etree import LIBXML_VERSION
 >>>>>>> upstream/18.0
 
@@ -20,7 +27,10 @@ def patch_lxml():
     if parse_version("4.6.0") <= parse_version(version('lxml')) < parse_version("5.2.0"):
         lxml.html.clean._find_image_dataurls = re.compile(r'data:image/(.+?);base64,').findall
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     # libxml2 >= 2.14.0 stopped implicitly wrapping plain text in <p> tags.
     # We patch lxml.html parsers here to maintain compatibility across versions.
@@ -49,4 +59,7 @@ def patch_lxml():
 
         lxml.html.fromstring = fromstring
         lxml.html.document_fromstring = document_fromstring
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

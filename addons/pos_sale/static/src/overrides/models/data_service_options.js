@@ -144,6 +144,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                getRecordsBasedOnLines: (orderlines) => {
+                    return orderlines.map((line) => line.sale_order_origin_id).filter((so) => so);
+                },
+>>>>>>> upstream/18.0
 =======
                 getRecordsBasedOnLines: (orderlines) => {
                     return orderlines.map((line) => line.sale_order_origin_id).filter((so) => so);
@@ -944,6 +950,12 @@ patch(DataServiceOptions.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                getRecordsBasedOnLines: (orderlines) => {
+                    return orderlines.map((line) => line.sale_order_line_id).filter((sol) => sol);
+                },
+>>>>>>> upstream/18.0
 =======
                 getRecordsBasedOnLines: (orderlines) => {
                     return orderlines.map((line) => line.sale_order_line_id).filter((sol) => sol);

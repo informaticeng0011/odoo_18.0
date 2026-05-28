@@ -186,6 +186,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_account
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1044,12 +1045,17 @@
 # * stock_account
 #
 >>>>>>> upstream/18.0
+=======
+# * stock_account
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Rita Bastos, 2025
 # NumerSpiral HBG, 2025
 # Maitê Dietze, 2025
 # Wil Odoo, 2025
 # Peter Lawrence Romão <peterromao@yahoo.co.uk>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2891,10 +2897,15 @@ msgstr ""
 # Daniel Reis, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3823,6 +3834,9 @@ msgstr ""
 =======
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:38+0000\n"
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2025-11-21 02:37+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
@@ -4012,6 +4026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4573,6 +4590,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
 <<<<<<< HEAD
@@ -4656,6 +4674,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.12.2\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
@@ -5913,7 +5936,11 @@ msgid " Product cost updated from %(previous)s to %(new_cost)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " Custo do produto atualizado de %(previous)s para %(new_cost)s."
+=======
+msgstr " Custo do artigo atualizado de %(previous)s para %(new_cost)s."
+>>>>>>> upstream/18.0
 =======
 msgstr " Custo do artigo atualizado de %(previous)s para %(new_cost)s."
 >>>>>>> upstream/18.0
@@ -7091,7 +7118,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %(product)s\n"
+=======
+"%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
+"(product)s\n"
+>>>>>>> upstream/18.0
 =======
 "%(user)s changed stock valuation from  %(previous)s to %(new_value)s - %"
 "(product)s\n"
@@ -8169,6 +8201,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <small class=\"mx-2 fst-italic\">Use a negative added value to record a decrease in the product value</small>"
 msgstr ""
 ")\n"
@@ -8996,12 +9029,15 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <small class=\"mx-2 fst-italic\">Use a negative "
 "added value to record a decrease in the product value</small>"
 msgstr ""
 ")\n"
 "                            <small class=\"mx-2 fst-italic\">Adicione um "
 "valor negativo para registar uma diminuição no valor do artigo</small>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9647,6 +9683,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_category_property_form
@@ -9843,7 +9881,11 @@ msgid "<span class=\"o_stat_text\">Valuation</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Valoração</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Valoração</span>"
 >>>>>>> upstream/18.0
@@ -10719,7 +10761,11 @@ msgid "<span>Product</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Produto</span>"
+=======
+msgstr "<span>Artigo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Artigo</span>"
 >>>>>>> upstream/18.0
@@ -12025,7 +12071,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Adicionar custo adicional (transporte, alfândega, ...) no valor do produto."
+=======
+"Adicionar custo adicional (transporte, alfândega, ...) no valor do artigo."
+>>>>>>> upstream/18.0
 =======
 "Adicionar custo adicional (transporte, alfândega, ...) no valor do artigo."
 >>>>>>> upstream/18.0
@@ -13199,6 +13249,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Affect landed costs on reception operations and split them among products to"
 " update their cost price."
 msgstr ""
@@ -14126,6 +14177,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Affect landed costs on reception operations and split them among products to "
 "update their cost price."
 msgstr ""
@@ -14344,6 +14397,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14981,7 +15037,11 @@ msgid "Automatic Stock Accounting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contabilidade de estoque automática"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contabilidade de estoque automática"
 >>>>>>> upstream/18.0
@@ -15876,7 +15936,11 @@ msgid "Bacon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bacon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bacon"
 >>>>>>> upstream/18.0
@@ -16835,6 +16899,7 @@ msgstr "Cancelar"
 #. odoo-python
 #: code:addons/stock_account/models/stock_move.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18076,6 +18141,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Cannot find a stock input account for the product %s. You must define one on "
 "the product category, or on the location, before processing this operation."
 msgstr ""
@@ -18295,6 +18362,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18731,6 +18801,7 @@ msgid ""
 "on the product category, or on the location, before processing this "
 "operation."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20612,6 +20683,11 @@ msgstr ""
 "Deve definir um na categoria de artigo, ou no local, antes de processar esta "
 "operação."
 >>>>>>> upstream/18.0
+=======
+"Não é possível encontrar uma conta de saída de armazém para o artigo %s. "
+"Deve definir um na categoria de artigo, ou no local, antes de processar esta "
+"operação."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
@@ -20657,6 +20733,7 @@ msgid ""
 "Configuration error. Please configure the price difference account on the "
 "product or its category to process this operation."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21910,6 +21987,9 @@ msgstr ""
 =======
 "Erro de configuração. Configure a conta de diferença de preço no artigo ou "
 >>>>>>> upstream/18.0
+=======
+"Erro de configuração. Configure a conta de diferença de preço no artigo ou "
+>>>>>>> upstream/18.0
 "na sua categoria para processar esta operação."
 
 #. module: stock_account
@@ -21935,6 +22015,7 @@ msgstr "Método de Custeio"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22977,6 +23058,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Costing method change for product category %(category)s: from %(old_method)s "
 "to %(new_method)s."
 msgstr ""
@@ -23195,6 +23278,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23631,6 +23717,7 @@ msgstr "Conta de Contrapartida"
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category__property_stock_account_input_categ_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24673,6 +24760,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Counterpart journal items for all incoming stock moves will be posted in "
 "this account, unless there is a specific valuation account\n"
 "                set on the source location. This is the default value for "
@@ -24897,6 +24986,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25621,8 +25713,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Due to a change of product category (from %(old_category)s to "
 "%(new_category)s), the costing method has changed for product %(product)s: "
+=======
+"Due to a change of product category (from %(old_category)s to %"
+"(new_category)s), the costing method has changed for product %(product)s: "
+>>>>>>> upstream/18.0
 =======
 "Due to a change of product category (from %(old_category)s to %"
 "(new_category)s), the costing method has changed for product %(product)s: "
@@ -26806,7 +26903,11 @@ msgid "Lots & Serial numbers will appear on the invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Os números de lote e de série aparecerão na fatura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Os números de lote e de série aparecerão na fatura"
 >>>>>>> upstream/18.0
@@ -27383,6 +27484,7 @@ msgstr "Valorização Manual de Inventário: %s."
 #: model:ir.model.fields,help:stock_account.field_product_template__valuation
 #: model:ir.model.fields,help:stock_account.field_stock_valuation_layer_revaluation__property_valuation
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28426,6 +28528,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Manual: The accounting entries to value the inventory are not posted "
 "automatically.\n"
 "        Automated: An accounting entry is automatically created to value the "
@@ -28649,6 +28753,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29115,6 +29222,7 @@ msgstr "Artigo"
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30186,6 +30294,10 @@ msgid ""
 "Product %(product)s has quantity in valued location %(location)s without any "
 "lot.\n"
 >>>>>>> upstream/18.0
+=======
+"Product %(product)s has quantity in valued location %(location)s without any "
+"lot.\n"
+>>>>>>> upstream/18.0
 "Please assign lots to all your quantities before enabling lot valuation."
 msgstr ""
 
@@ -30236,7 +30348,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30380,6 +30495,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30505,6 +30623,7 @@ msgstr "Categoria do Artigo"
 msgid ""
 "Product value manually modified (from %(original_price)s to %(new_price)s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31973,6 +32092,10 @@ msgstr ""
 "Valor do artigo modificado manualmente (de %(original_price)s para %"
 "(new_price)s)"
 >>>>>>> upstream/18.0
+=======
+"Valor do artigo modificado manualmente (de %(original_price)s para %"
+"(new_price)s)"
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_res_company__account_production_wip_account_id
@@ -32180,7 +32303,11 @@ msgid "Quantity Svl"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quantidade Svl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quantidade Svl"
 >>>>>>> upstream/18.0
@@ -33006,7 +33133,10 @@ msgstr "Linha de Operação de Devolução de Stock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33652,6 +33782,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34105,6 +34238,7 @@ msgstr "Preço Padrão"
 #: model:ir.model.fields,help:stock_account.field_product_template__cost_method
 #: model:ir.model.fields,help:stock_account.field_stock_quant__cost_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35348,6 +35482,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Standard Price: The products are valued at their standard cost defined on "
 "the product.\n"
 "        Average Cost (AVCO): The products are valued at weighted average "
@@ -35576,6 +35712,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36194,7 +36333,11 @@ msgid "Stock Accounting Automatic"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contabilidade de estoque automática"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contabilidade de estoque automática"
 >>>>>>> upstream/18.0
@@ -37086,8 +37229,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "O valor acrescentado não tem nenhum impacto sobre a valorização do "
 "inventário"
+=======
+"O valor acrescentado não tem nenhum impacto sobre a valorização do inventário"
+>>>>>>> upstream/18.0
 =======
 "O valor acrescentado não tem nenhum impacto sobre a valorização do inventário"
 >>>>>>> upstream/18.0
@@ -37963,8 +38110,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "As linhas de movimentos não apresentam consistência: elas mostram a execução"
 " de um movimento entre companhias numa única etapa, enquanto que elas "
+=======
+"As linhas de movimentos não apresentam consistência: elas mostram a execução "
+"de um movimento entre companhias numa única etapa, enquanto que elas "
+>>>>>>> upstream/18.0
 =======
 "As linhas de movimentos não apresentam consistência: elas mostram a execução "
 "de um movimento entre companhias numa única etapa, enquanto que elas "
@@ -39086,6 +39238,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This operation might lead in a loss of data. Valuation will be identical for"
 " all lots/SN. Do you want to proceed ? "
 =======
@@ -39944,12 +40097,17 @@ msgid ""
 "This operation might lead in a loss of data. Valuation will be identical for "
 "all lots/SN. Do you want to proceed ? "
 >>>>>>> upstream/18.0
+=======
+"This operation might lead in a loss of data. Valuation will be identical for "
+"all lots/SN. Do you want to proceed ? "
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40727,6 +40885,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This product is valuated by lot/serial number. Changing the cost will update "
 "the cost of every lot/serial number in stock."
 msgstr ""
@@ -40945,6 +41105,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41637,6 +41800,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42401,12 +42567,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trigger a decrease of the delivered/received quantity in the associated Sale"
 " Order/Purchase Order"
 msgstr ""
 "Acionar uma diminuição da quantidade entregue/recebida na Ordem de "
 "Venda/Ordem de Compra associada"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43051,6 +43220,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43524,6 +43696,7 @@ msgstr ""
 "Usado para avaliar o inventário em tempo real. Quando aparece num local "
 "virtual (do tipo não interno), esta conta será usada para armazenar o valor "
 "dos artigos a serem transportados de uma localização interna para este "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44596,6 +44769,10 @@ msgstr ""
 "local, em vez da conta genérica do armazém de saída definido no artigo. Isto "
 "não tem efeito para localizações internas."
 >>>>>>> upstream/18.0
+=======
+"local, em vez da conta genérica do armazém de saída definido no artigo. Isto "
+"não tem efeito para localizações internas."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_stock_location__valuation_out_account_id
@@ -44653,6 +44830,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45794,6 +45972,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Valuation method change for product category %(category)s: from %"
 "(old_method)s to %(new_method)s."
 msgstr ""
@@ -46012,6 +46192,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46646,7 +46829,11 @@ msgid "Value Svl"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valor Svl"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valor Svl"
 >>>>>>> upstream/18.0
@@ -47424,7 +47611,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+=======
+"        Used to value the product when the purchase cost is not known (e.g. "
+"inventory adjustment).\n"
+>>>>>>> upstream/18.0
 =======
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
@@ -48516,6 +48708,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When doing automated inventory valuation, counterpart journal items for all outgoing stock moves will be posted in this account,\n"
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 "                It can also directly be set on each product."
@@ -48523,6 +48716,8 @@ msgstr ""
 "Ao fazer a valorização de inventário permanente, os itens do diário de contrapartida para todos os movimentos de inventário de saída serão lançados nesta conta,\n"
 "                a menos que haja uma conta de valorização específica definida no local de destino. Este é o valor pré definido para todos os artigos desta categoria.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49175,6 +49370,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49945,6 +50143,10 @@ msgstr "Assistente modelo para revalorizar o inventário de um artigo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: code:addons/stock_account/models/stock_lot.py:0
+>>>>>>> upstream/18.0
 =======
 #: code:addons/stock_account/models/stock_lot.py:0
 >>>>>>> upstream/18.0
@@ -51260,7 +51462,11 @@ msgid "You cannot revalue a product with a standard cost method."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Não se pode revalorizar um produto com um método de custeio padrão."
+=======
+msgstr "Não se pode revalorizar um artigo com um método de custeio padrão."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não se pode revalorizar um artigo com um método de custeio padrão."
 >>>>>>> upstream/18.0
@@ -52437,6 +52643,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "permanente, pois isso leva à criação de um lançamento no diário, para o qual"
 " não tem direitos de acesso."
 =======
@@ -53295,11 +53502,16 @@ msgstr ""
 "permanente, pois isso leva à criação de um lançamento no diário, para o qual "
 "não tem direitos de acesso."
 >>>>>>> upstream/18.0
+=======
+"permanente, pois isso leva à criação de um lançamento no diário, para o qual "
+"não tem direitos de acesso."
+>>>>>>> upstream/18.0
 
 #. module: stock_account
 #. odoo-python
 #: code:addons/stock_account/models/product.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53946,6 +54158,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You don't have any input valuation account defined on your product category. "
 "You must define one before processing this operation."
 msgstr ""
@@ -54164,6 +54378,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54820,8 +55037,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock input account defined on your product category. You"
 " must define one before processing this operation."
+=======
+"You don't have any stock input account defined on your product category. You "
+"must define one before processing this operation."
+>>>>>>> upstream/18.0
 =======
 "You don't have any stock input account defined on your product category. You "
 "must define one before processing this operation."
@@ -55912,12 +56134,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You don't have any stock valuation account defined on your product category."
 " You must define one before processing this operation."
 msgstr ""
 "Não tem nenhuma conta de valorização de inventário definida na sua categoria"
 " de artigo. Deve definir uma antes de processar esta operação."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56562,6 +56787,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57333,7 +57561,11 @@ msgid "units"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "unidades"
+>>>>>>> upstream/18.0
 =======
 msgstr "unidades"
 >>>>>>> upstream/18.0

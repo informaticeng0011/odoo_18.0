@@ -55,11 +55,17 @@ class SaleOrderLine(models.Model):
             values['route_ids'] = self.order_id.carrier_id.route_ids
         return values
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _get_protected_fields(self):
         fields = super()._get_protected_fields()
         if self.env.context.get('allow_delivery_cost_update') and all(self.mapped('is_delivery')):
             fields = [f for f in fields if f not in ('price_unit', 'name')]
         return fields
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

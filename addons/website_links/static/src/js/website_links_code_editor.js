@@ -67,17 +67,33 @@ publicWidget.registry.websiteLinksCodeEditor = publicWidget.Widget.extend({
      */
     _submitCode: function () {
         var initCode = $('#edit-code-form #init_code').val();
+<<<<<<< HEAD
         var newCode = $('#edit-code-form #new_code').val();
         var self = this;
 
+=======
+        var newCode = $("#edit-code-form #new_code").val();
+        var formattedNewCode = newCode.replace(/[^a-zA-Z0-9_-]/g, "");
+        var self = this;
+
+        if (formattedNewCode !== newCode) {
+            self.$('.o_website_links_code_error').text(_t("Only letters (A–Z, a–z), numbers (0–9), underscores (_) and hyphens (-) are allowed. No spaces."));
+            self.$('.o_website_links_code_error').show();
+            return;
+        }
+
+>>>>>>> upstream/18.0
         if (newCode === '') {
             self.$('.o_website_links_code_error').html(_t("The code cannot be left empty"));
             self.$('.o_website_links_code_error').show();
             return;
         }
 
+<<<<<<< HEAD
         this._showNewCode(newCode);
 
+=======
+>>>>>>> upstream/18.0
         if (initCode === newCode) {
             this._showNewCode(newCode);
         } else {

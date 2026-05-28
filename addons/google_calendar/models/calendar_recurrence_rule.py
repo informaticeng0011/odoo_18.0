@@ -110,12 +110,18 @@ class RecurrenceRule(models.Model):
                 else:
                     continue
 <<<<<<< HEAD
+<<<<<<< HEAD
                 self.calendar_event_ids.write({'attendee_ids': [(0, 0, {'state': attendee[2].get('responseStatus'), 'partner_id': partner.id})]})
 =======
+=======
+>>>>>>> upstream/18.0
                 self.calendar_event_ids.write({
                     'attendee_ids': [(0, 0, {'state': attendee[2].get('responseStatus'), 'partner_id': partner.id})],
                     'need_sync': False,
                 })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                 if attendee[2].get('displayName') and not partner.name:
                     partner.name = attendee[2].get('displayName')
@@ -565,7 +571,10 @@ class RecurrenceRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1463,6 +1472,9 @@ class RecurrenceRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

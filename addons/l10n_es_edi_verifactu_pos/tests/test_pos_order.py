@@ -245,7 +245,10 @@ class TestL10nEsEdiVerifactuPosOrder(TestL10nEsEdiVerifactuPosCommon):
             'errors': False,
         }])
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_invoice_later_sent(self):
         with self.with_pos_session():
@@ -268,4 +271,7 @@ class TestL10nEsEdiVerifactuPosOrder(TestL10nEsEdiVerifactuPosCommon):
                     'errors': False,
                 }])
                 self.assertTrue(len(order._l10n_es_edi_verifactu_check(cancellation=False)) == 1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

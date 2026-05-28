@@ -7,6 +7,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import Command
+>>>>>>> upstream/18.0
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -43,6 +47,7 @@ from freezegun import freeze_time
 @tagged('post_install_l10n', 'post_install', '-at_install')
 class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -208,6 +213,8 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_partial_import_tax_manual_tax_amounts(self):
         # Fail to retrieve the tax.
         invoice = self._import_invoice_as_attachment_on(
@@ -265,6 +272,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -391,8 +401,13 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'quantity': 1.0,
                     'price_unit': 500.0,
+=======
+                    'quantity': 5.0,
+                    'price_unit': 100.0,
+>>>>>>> upstream/18.0
 =======
                     'quantity': 5.0,
                     'price_unit': 100.0,
@@ -443,6 +458,7 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
         # Lines are linked to a single tax, the tax amount has been fixed
         tax_21 = self.percent_tax(21.0)
         invoice = self._import_invoice_as_attachment_on(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -660,6 +676,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 =======
             test_name='test_partial_import_tax_manual_tax_amounts',
 >>>>>>> upstream/18.0
+=======
+            test_name='test_partial_import_tax_manual_tax_amounts',
+>>>>>>> upstream/18.0
             journal=self.company_data['default_journal_sale'],
         )
         self.assertRecordValues(
@@ -679,8 +698,13 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'quantity': 1.0,
                     'price_unit': 500.0,
+=======
+                    'quantity': 5.0,
+                    'price_unit': 100.0,
+>>>>>>> upstream/18.0
 =======
                     'quantity': 5.0,
                     'price_unit': 100.0,
@@ -782,9 +806,12 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @freeze_time('2020-01-01')
     def test_partial_import_tax_fixed_tax_amounts_invoice_predictive(self):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1004,6 +1031,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1128,6 +1158,7 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 
         # Check the prediction.
         invoice = self._import_invoice_as_attachment_on(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1345,6 +1376,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 =======
             test_name='test_partial_import_tax_manual_tax_amounts',
 >>>>>>> upstream/18.0
+=======
+            test_name='test_partial_import_tax_manual_tax_amounts',
+>>>>>>> upstream/18.0
             journal=self.company_data['default_journal_sale'],
         )
         self.assertRecordValues(
@@ -1364,8 +1398,13 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'quantity': 1.0,
                     'price_unit': 500.0,
+=======
+                    'quantity': 5.0,
+                    'price_unit': 100.0,
+>>>>>>> upstream/18.0
 =======
                     'quantity': 5.0,
                     'price_unit': 100.0,
@@ -1422,7 +1461,10 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1475,8 +1517,11 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1534,6 +1579,9 @@ class TestUblImportBis3InvoiceBERetrieveTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

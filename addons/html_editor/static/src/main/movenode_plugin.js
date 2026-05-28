@@ -1,14 +1,20 @@
 import { useNativeDraggable } from "@html_editor/utils/drag_and_drop";
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { endPos } from "@html_editor/utils/position";
 import { Plugin } from "../plugin";
 import { ancestors, closestElement } from "../utils/dom_traversal";
 import { baseContainerGlobalSelector } from "@html_editor/utils/base_container";
 =======
+=======
+>>>>>>> upstream/18.0
 import { Plugin } from "../plugin";
 import { ancestors, closestElement } from "../utils/dom_traversal";
 import { baseContainerGlobalSelector } from "@html_editor/utils/base_container";
 import { getDeepestPosition } from "@html_editor/utils/dom_info";
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 const WIDGET_CONTAINER_WIDTH = 25;
@@ -99,6 +105,7 @@ export class MoveNodePlugin extends Plugin {
     intersectionObserverCallback(entries) {
         for (const entry of entries) {
             const element = entry.target;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1296,6 +1303,9 @@ export class MoveNodePlugin extends Plugin {
 =======
             if (entry.isIntersecting && element.isConnected) {
 >>>>>>> upstream/18.0
+=======
+            if (entry.isIntersecting && element.isConnected) {
+>>>>>>> upstream/18.0
                 this.visibleMovableElements.add(element);
                 this.resetHooksNextMousemove = true;
             } else {
@@ -1587,6 +1597,10 @@ export class MoveNodePlugin extends Plugin {
 
         if (this._currentDropHintElementPosition) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const cursors = this.dependencies.selection.preserveSelection();
+>>>>>>> upstream/18.0
 =======
             const cursors = this.dependencies.selection.preserveSelection();
 >>>>>>> upstream/18.0
@@ -1605,12 +1619,15 @@ export class MoveNodePlugin extends Plugin {
                 previousParent.append(baseContainer);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             const selectionPosition = endPos(movableElement);
             this.dependencies.selection.setSelection({
                 anchorNode: selectionPosition[0],
                 anchorOffset: selectionPosition[1],
             });
 =======
+=======
+>>>>>>> upstream/18.0
             // Preserve the selection if it was inside the moved element,
             // otherwise place the caret at the start of the moved element.
             const isSelectionInsideMovedNode =
@@ -1626,6 +1643,9 @@ export class MoveNodePlugin extends Plugin {
                 });
             }
             this.dependencies.selection.focusEditable();
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             this.dependencies.history.addStep();
         }
@@ -1924,7 +1944,11 @@ function isNodeMovable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         !node.parentElement.closest(".o_editor_banner")
+=======
+        !node.parentElement.closest(".o_text_columns, .o_editor_banner")
+>>>>>>> upstream/18.0
 =======
         !node.parentElement.closest(".o_text_columns, .o_editor_banner")
 >>>>>>> upstream/18.0

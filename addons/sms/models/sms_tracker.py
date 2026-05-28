@@ -299,7 +299,11 @@ class SmsTracker(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         failure_reason = False
+=======
+        failure_reason = self.env.context.get("sms_known_failure_reason")  # TODO RIGR in master: pass as param instead of context
+>>>>>>> upstream/18.0
 =======
         failure_reason = self.env.context.get("sms_known_failure_reason")  # TODO RIGR in master: pass as param instead of context
 >>>>>>> upstream/18.0
@@ -1336,7 +1340,11 @@ class SmsTracker(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             failure_reason = provider_error
+=======
+            failure_reason = failure_reason or provider_error
+>>>>>>> upstream/18.0
 =======
             failure_reason = failure_reason or provider_error
 >>>>>>> upstream/18.0

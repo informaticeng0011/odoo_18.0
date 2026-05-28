@@ -485,7 +485,11 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'same_tax_base': True,
+=======
+                    'same_tax_base': False,
+>>>>>>> upstream/18.0
 =======
                     'same_tax_base': False,
 >>>>>>> upstream/18.0
@@ -1400,12 +1404,15 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'base_amount_currency': 31.77,
                                     'base_amount': 6.35,
                                     'tax_amount_currency': 4.89,
                                     'tax_amount': 0.97,
                                     'display_base_amount_currency': 31.77,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2080,6 +2087,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2831,12 +2841,15 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'base_amount_currency': 31.77,
                                     'base_amount': 6.35,
                                     'tax_amount_currency': 1.91,
                                     'tax_amount': 0.38,
                                     'display_base_amount_currency': 31.77,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3511,6 +3524,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4186,12 +4202,15 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'base_amount_currency': 31.77,
                                     'base_amount': 6.35,
                                     'tax_amount_currency': 1.91,
                                     'tax_amount': 0.38,
                                     'display_base_amount_currency': 31.77,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4866,6 +4885,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6005,6 +6027,7 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Extreme case to push the computation of the display_base_amount to its limit.
         # Note: tax6 is the only one in a separated tax group.
         tax6 = self.fixed_tax(1, include_base_amount=True, sequence=0, tax_group_id=self.tax_groups[7].id)
@@ -6106,6 +6129,8 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                 }
                 yield 10, self.populate_document(document_params), expected_values
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6888,8 +6913,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'display_base_amount_currency': None,
                                     'display_base_amount': None,
+=======
+                                    'display_base_amount_currency': False,
+                                    'display_base_amount': False,
+>>>>>>> upstream/18.0
 =======
                                     'display_base_amount_currency': False,
                                     'display_base_amount': False,
@@ -8010,8 +8040,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'display_base_amount_currency': None,
                                     'display_base_amount': None,
+=======
+                                    'display_base_amount_currency': False,
+                                    'display_base_amount': False,
+>>>>>>> upstream/18.0
 =======
                                     'display_base_amount_currency': False,
                                     'display_base_amount': False,
@@ -9211,8 +9246,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'display_base_amount_currency': None,
                                     'display_base_amount': None,
+=======
+                                    'display_base_amount_currency': False,
+                                    'display_base_amount': False,
+>>>>>>> upstream/18.0
 =======
                                     'display_base_amount_currency': False,
                                     'display_base_amount': False,
@@ -10333,8 +10373,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     'display_base_amount_currency': None,
                                     'display_base_amount': None,
+=======
+                                    'display_base_amount_currency': False,
+                                    'display_base_amount': False,
+>>>>>>> upstream/18.0
 =======
                                     'display_base_amount_currency': False,
                                     'display_base_amount': False,
@@ -11434,7 +11479,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12121,8 +12169,13 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 'display_base_amount_currency': None,
                                 'display_base_amount': None,
+=======
+                                'display_base_amount_currency': False,
+                                'display_base_amount': False,
+>>>>>>> upstream/18.0
 =======
                                 'display_base_amount_currency': False,
                                 'display_base_amount': False,
@@ -13212,6 +13265,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13734,6 +13790,7 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
                 invoice = self.convert_document_to_invoice(document)
                 self.assert_invoice_tax_totals_summary(invoice, expected_values)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17425,6 +17482,8 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def _test_reverse_charge_taxes_1(self):
         tax = self.percent_tax(
             21.0,
@@ -17750,7 +17809,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18504,6 +18566,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19942,7 +20007,10 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20151,6 +20219,9 @@ class TestTaxesTaxTotalsSummary(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

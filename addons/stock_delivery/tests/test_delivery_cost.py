@@ -1,6 +1,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -8,6 +12,7 @@ from odoo.tests import common, Form
 
 @common.tagged('post_install', '-at_install')
 class TestDeliveryCost(common.TransactionCase):
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     def test_delivery_real_cost(self):
@@ -25,6 +30,8 @@ class TestDeliveryCost(common.TransactionCase):
         })
         delivery_carrier = self.env['delivery.carrier'].create({
 =======
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -38,6 +45,9 @@ class TestDeliveryCost(common.TransactionCase):
             'categ_id': cls.env.ref('delivery.product_category_deliveries').id,
         })
         cls.delivery_carrier = cls.env['delivery.carrier'].create({
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'name': 'Delivery Now Free Over 100',
             'fixed_price': 40,
@@ -45,10 +55,13 @@ class TestDeliveryCost(common.TransactionCase):
             'delivery_type': 'fixed',
             'invoice_policy': 'real',
 <<<<<<< HEAD
+<<<<<<< HEAD
             'product_id': product_delivery.id,
             'free_over': False,
         })
 =======
+=======
+>>>>>>> upstream/18.0
             'product_id': cls.product_delivery.id,
             'free_over': False,
         })
@@ -56,6 +69,9 @@ class TestDeliveryCost(common.TransactionCase):
     def test_delivery_real_cost(self):
         """Ensure that the price is correctly set on the delivery line in the case of a Back Order
         """
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         so = self.env['sale.order'].create({
             'partner_id': self.partner_18.id,
@@ -73,7 +89,11 @@ class TestDeliveryCost(common.TransactionCase):
         delivery_wizard = Form(self.env['choose.delivery.carrier'].with_context({
             'default_order_id': so.id,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'default_carrier_id': delivery_carrier.id,
+=======
+            'default_carrier_id': self.delivery_carrier.id,
+>>>>>>> upstream/18.0
 =======
             'default_carrier_id': self.delivery_carrier.id,
 >>>>>>> upstream/18.0
@@ -114,7 +134,10 @@ class TestDeliveryCost(common.TransactionCase):
         self.assertEqual(len(new_delivery_line), 1)
         self.assertEqual(new_delivery_line.price_unit, bo.carrier_price)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_delivery_real_cost_locked_so(self):
         """Real shipping cost must be pushed onto the delivery line after
@@ -159,4 +182,7 @@ class TestDeliveryCost(common.TransactionCase):
         picking._action_done()
         self.assertEqual(picking.carrier_price, 40.0)
         self.assertEqual(delivery_line.price_unit, picking.carrier_price)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

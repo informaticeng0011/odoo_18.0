@@ -106,12 +106,15 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def setUp(self):
         super().setUp()
         self.other_company = self.env['res.company'].create({'name': 'Other Company'})
         self.public_partner = self.env['res.partner'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -384,6 +387,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -567,6 +573,7 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
             'email': 'public_email@example.com',
             'type': 'contact',
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -844,6 +851,8 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.env.ref('base.partner_admin').write({
             'name': 'Mitchell Admin',
             'email': 'admin@yourcompany.example.com',
@@ -941,6 +950,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1500,7 +1512,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 
     @patch_api
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_new_attendee_and_date_change_does_not_patch_deleted_events(self):
         """
         When a Google recurrence update includes both a new attendee and a base event date
@@ -1550,6 +1565,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
         self.assertGoogleEventNotPatched()
 
     @patch_api
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_recurrence(self):
         recurrence_id = 'oj44nep1ldf8a3ll02uip0c9aa'
@@ -2737,7 +2755,10 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3633,6 +3654,9 @@ class TestSyncGoogle2Odoo(TestSyncGoogle):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

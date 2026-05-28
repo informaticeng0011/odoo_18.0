@@ -178,6 +178,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        group_expand=True,
+>>>>>>> upstream/18.0
 =======
         group_expand=True,
 >>>>>>> upstream/18.0
@@ -766,7 +770,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tracking=True,
+=======
+        tracking=True, index=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True, index=True,
 >>>>>>> upstream/18.0
@@ -1748,6 +1756,12 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_priced_lines(self):
+        return self.order_line.filtered(lambda x: not x.display_type)
+
+>>>>>>> upstream/18.0
 =======
     def _get_priced_lines(self):
         return self.order_line.filtered(lambda x: not x.display_type)
@@ -2748,7 +2762,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             order_lines = order.order_line.filtered(lambda x: not x.display_type)
+=======
+            order_lines = order._get_priced_lines()
+>>>>>>> upstream/18.0
 =======
             order_lines = order._get_priced_lines()
 >>>>>>> upstream/18.0
@@ -3442,7 +3460,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for line in self.order_line.filtered(lambda x: not x.display_type):
+=======
+            for line in self._get_priced_lines():
+>>>>>>> upstream/18.0
 =======
             for line in self._get_priced_lines():
 >>>>>>> upstream/18.0
@@ -3948,6 +3970,7 @@ class SaleOrder(models.Model):
                     quantity=1.0,
                     currency_id=currency,
                     sign=1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5056,6 +5079,11 @@ class SaleOrder(models.Model):
                     special_type='early_payment',
                     tax_ids=line.tax_id.flatten_taxes_hierarchy().filtered(lambda tax: tax.amount_type != 'fixed'),
 >>>>>>> upstream/18.0
+=======
+                    special_mode='total_excluded',
+                    special_type='early_payment',
+                    tax_ids=line.tax_id.flatten_taxes_hierarchy().filtered(lambda tax: tax.amount_type != 'fixed'),
+>>>>>>> upstream/18.0
                 ))
                 epd_lines.append(self.env['account.tax']._prepare_base_line_for_taxes_computation(
                     record=self,
@@ -5100,6 +5128,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    special_mode='total_excluded',
+>>>>>>> upstream/18.0
 =======
                     special_mode='total_excluded',
 >>>>>>> upstream/18.0
@@ -5449,6 +5481,7 @@ class SaleOrder(models.Model):
     def _compute_tax_totals(self):
         AccountTax = self.env['account.tax']
         for order in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6114,6 +6147,9 @@ class SaleOrder(models.Model):
 =======
             order_lines = order._get_priced_lines()
 >>>>>>> upstream/18.0
+=======
+            order_lines = order._get_priced_lines()
+>>>>>>> upstream/18.0
             base_lines = [line._prepare_base_line_for_taxes_computation() for line in order_lines]
             base_lines += order._add_base_lines_for_early_payment_discount()
             AccountTax._add_tax_details_in_base_lines(base_lines, order.company_id)
@@ -6180,6 +6216,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.depends_context('lang')
+>>>>>>> upstream/18.0
 =======
     @api.depends_context('lang')
 >>>>>>> upstream/18.0
@@ -6644,9 +6684,12 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not field_names: # Some warnings should not be displayed for the first onchange
             self_with_context = self.with_context(sale_onchange_first_call=True)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7422,6 +7465,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8142,7 +8188,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.show_update_pricelist = bool(self.order_line)
+=======
+        self.show_update_pricelist = bool(self.order_line and self._origin.pricelist_id != self.pricelist_id)
+>>>>>>> upstream/18.0
 =======
         self.show_update_pricelist = bool(self.order_line and self._origin.pricelist_id != self.pricelist_id)
 >>>>>>> upstream/18.0
@@ -8592,6 +8642,7 @@ class SaleOrder(models.Model):
                 update_commands = [Command.update(
                     order_line.id,
                     {'sequence': line.sequence + len(selected_combo_items) + line_index - index},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9425,6 +9476,9 @@ class SaleOrder(models.Model):
 =======
                 ) for line_index, order_line in enumerate(self.order_line.filtered(lambda l: not l.combo_item_id)) if line_index > index]
 >>>>>>> upstream/18.0
+=======
+                ) for line_index, order_line in enumerate(self.order_line.filtered(lambda l: not l.combo_item_id)) if line_index > index]
+>>>>>>> upstream/18.0
 
                 # Clear `selected_combo_items` to avoid applying the same changes multiple times.
                 line.selected_combo_items = False
@@ -9558,7 +9612,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         lang = self.env.context.get('lang')
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9739,7 +9796,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'model_description': self.with_context(lang=lang).type_name,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9913,8 +9973,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if mail_template and mail_template.lang:
                     lang = mail_template._render_lang(self.ids)[self.id]
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10124,6 +10187,7 @@ class SaleOrder(models.Model):
         # We don't need it and it creates issues in the creation of linked records.
         context = self._context.copy()
         context.pop('default_name', None)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10931,6 +10995,8 @@ class SaleOrder(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         context.pop('default_user_id', None)
 
         self.with_context(context)._action_confirm()
@@ -11193,6 +11259,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12077,7 +12146,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._recompute_prices()
+=======
+        self.with_context(pricelist_update=True)._recompute_prices()
+>>>>>>> upstream/18.0
 =======
         self.with_context(pricelist_update=True)._recompute_prices()
 >>>>>>> upstream/18.0
@@ -12909,7 +12982,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'default_invoice_origin': self.name,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13405,7 +13481,11 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return ['company_id', 'partner_id', 'currency_id']
+=======
+        return ['company_id', 'partner_id', 'currency_id', 'fiscal_position_id']
+>>>>>>> upstream/18.0
 =======
         return ['company_id', 'partner_id', 'currency_id', 'fiscal_position_id']
 >>>>>>> upstream/18.0
@@ -14546,8 +14626,13 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if final:
             if moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0):
+=======
+        if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
+            with self.env.protecting([moves._fields['team_id']], moves_to_switch):
+>>>>>>> upstream/18.0
 =======
         if final and (moves_to_switch := moves.sudo().filtered(lambda m: m.amount_total < 0)):
             with self.env.protecting([moves._fields['team_id']], moves_to_switch):
@@ -16311,6 +16396,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # enable followers that have access through portal
         follower_group = next(group for group in groups if group[0] == 'follower')
         follower_group[2]['active'] = True
@@ -16920,6 +17006,8 @@ class SaleOrder(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return groups
 
     def _notify_by_email_prepare_rendering_context(self, message, msg_vals=False, model_description=False,
@@ -16930,6 +17018,7 @@ class SaleOrder(models.Model):
         )
         lang_code = render_context.get('lang')
         record = render_context['record']
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17963,6 +18052,9 @@ class SaleOrder(models.Model):
 =======
         subtitles = [f"{record.name} - {record.partner_id.name}" if record.partner_id.name else record.name]
 >>>>>>> upstream/18.0
+=======
+        subtitles = [f"{record.name} - {record.partner_id.name}" if record.partner_id.name else record.name]
+>>>>>>> upstream/18.0
         if self.amount_total:
             # Do not show the price in subtitles if zero (e.g. e-commerce orders are created empty)
             subtitles.append(
@@ -18048,7 +18140,10 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18216,6 +18311,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18954,6 +19052,7 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return sol.price_unit * (1-(sol.discount or 0.0)/100.0)
 =======
         return sol._get_discounted_price()
@@ -19022,6 +19121,8 @@ class SaleOrder(models.Model):
         return sol._get_discounted_price()
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19599,6 +19700,9 @@ class SaleOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -115,6 +115,10 @@ from re import search
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo import http
+>>>>>>> upstream/18.0
 =======
 from odoo import http
 >>>>>>> upstream/18.0
@@ -597,7 +601,10 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -902,7 +909,10 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'partner_phone': '+1234567',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1160,6 +1170,7 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1248,6 +1259,11 @@ class TestProjectPortalAccess(TestProjectSharingCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        # The description should not contain the partner_phone since it was not provided
+        self.assertEqual(str(task.description), ('<p>Fix this</p><h4>Other Information</h4>Email : jean@michel.com<br>\n'
+            'partner_name : Not Jean Michel<br>\npartner_company_name : foo'))
 >>>>>>> upstream/18.0
 =======
         # The description should not contain the partner_phone since it was not provided

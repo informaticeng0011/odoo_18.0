@@ -437,7 +437,11 @@ class ProjectCustomerPortal(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'users': {'input': 'user_ids', 'label': _('Search in Assignees'), 'sequence': 20},
+=======
+            'user_ids': {'input': 'user_ids', 'label': _('Search in Assignees'), 'sequence': 20},
+>>>>>>> upstream/18.0
 =======
             'user_ids': {'input': 'user_ids', 'label': _('Search in Assignees'), 'sequence': 20},
 >>>>>>> upstream/18.0
@@ -789,7 +793,11 @@ class ProjectCustomerPortal(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         elif search_in == 'users':
+=======
+        elif search_in == 'user_ids':
+>>>>>>> upstream/18.0
 =======
         elif search_in == 'user_ids':
 >>>>>>> upstream/18.0

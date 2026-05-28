@@ -2,10 +2,19 @@
 
 from datetime import timedelta
 
+<<<<<<< HEAD
 from odoo.tests import Form
 from odoo.addons.stock.tests.common import TestStockCommon
 
 class TestOldRules(TestStockCommon):
+=======
+from odoo.fields import Command
+from odoo.tests import Form
+from odoo.addons.stock.tests.common import TestStockCommon
+
+
+class TestStockOldRulesCommon(TestStockCommon):
+>>>>>>> upstream/18.0
 
     @classmethod
     def setUpClass(cls):
@@ -26,6 +35,7 @@ class TestOldRules(TestStockCommon):
         })
         delivery_route_3.rule_ids[1].write({'action': 'pull'})
         delivery_route_3.rule_ids[2].write({'action': 'pull'})
+<<<<<<< HEAD
         reception_route_3 = cls.warehouse_3_steps.reception_route_id
         reception_route_3.rule_ids[0].write({
             'location_src_id': reception_route_3.rule_ids[1].location_dest_id.id,
@@ -33,6 +43,19 @@ class TestOldRules(TestStockCommon):
         reception_route_3.rule_ids[1].write({'action': 'pull_push'})
         reception_route_3.rule_ids[2].write({'action': 'pull_push'})
 
+=======
+        reception_rules_3 = cls.warehouse_3_steps.reception_route_id.rule_ids
+        reception_rules_3[-2:].write({'action': 'pull_push'})
+        if len(reception_rules_3) == 3:
+            reception_rules_3[0].write({
+                'location_dest_id': reception_rules_3[1].location_src_id.id,
+            })
+        cls.mto_route = cls.warehouse_3_steps.mto_pull_id.route_id
+        cls.mto_route.active = True
+        cls.mto_route.rule_ids.filtered(lambda r: r.picking_type_id == cls.warehouse_3_steps.pick_type_id).write({
+            'location_dest_id': delivery_route_3.rule_ids[-2].location_src_id.id,
+        })
+>>>>>>> upstream/18.0
 
         # Create a warehouse with 2 steps using old rules setup.
         cls.warehouse_2_steps = cls.env['stock.warehouse'].create({
@@ -47,6 +70,15 @@ class TestOldRules(TestStockCommon):
             'name': '2S: Stock → Output',
         })
         delivery_route_2.rule_ids[1].write({'action': 'pull'})
+<<<<<<< HEAD
+=======
+        cls.mto_route.rule_ids.filtered(lambda r: r.picking_type_id == cls.warehouse_2_steps.pick_type_id).write({
+            'location_dest_id': delivery_route_2.rule_ids[1].location_src_id.id,
+        })
+
+
+class TestOldRules(TestStockOldRulesCommon):
+>>>>>>> upstream/18.0
 
     def test_delay_alert_3_old(self):
         partner_demo_customer = self.partner
@@ -124,6 +156,44 @@ class TestOldRules(TestStockCommon):
         self.assertFalse(pack.delay_alert_date)
         self.assertFalse(ship.delay_alert_date)
 
+<<<<<<< HEAD
+=======
+    def test_3_steps_in_out_mto(self):
+        """
+        Check the whole chain supplier -> customer with 3 steps in/out
+        """
+        final_location = self.partner.property_stock_customer
+
+        self.productA.route_ids = [Command.link(self.mto_route.id)]
+
+        pg = self.env['procurement.group'].create({'name': 'test_3_steps_in_out_mto'})
+        self.env['procurement.group'].run([
+            pg.Procurement(
+                self.productA,
+                5.0,
+                self.productA.uom_id,
+                final_location,
+                'test_mtso_mto',
+                'test_mtso_mto',
+                self.warehouse_3_steps.company_id,
+                {
+                    'warehouse_id': self.warehouse_3_steps,
+                    'group_id': pg
+                }
+            )
+        ])
+
+        moves = self.env['stock.move'].search([('product_id', '=', self.productA.id)], order="id desc")
+        self.assertRecordValues(moves, [
+            {'location_id': self.partner.property_stock_supplier.id, 'location_dest_id': self.warehouse_3_steps.wh_input_stock_loc_id.id},
+            {'location_id': self.warehouse_3_steps.wh_input_stock_loc_id.id, 'location_dest_id': self.warehouse_3_steps.wh_qc_stock_loc_id.id},
+            {'location_id': self.warehouse_3_steps.wh_qc_stock_loc_id.id, 'location_dest_id': self.warehouse_3_steps.lot_stock_id.id},
+            {'location_id': self.warehouse_3_steps.lot_stock_id.id, 'location_dest_id': self.warehouse_3_steps.wh_pack_stock_loc_id.id},
+            {'location_id': self.warehouse_3_steps.wh_pack_stock_loc_id.id, 'location_dest_id': self.warehouse_3_steps.wh_output_stock_loc_id.id},
+            {'location_id': self.warehouse_3_steps.wh_output_stock_loc_id.id, 'location_dest_id': final_location.id},
+        ])
+
+>>>>>>> upstream/18.0
     def test_mtso(self):
         """ Run a procurement for 5 products when there are only 4 in stock then
         check that MTS is applied on the moves when the rule is set to 'mts_else_mto'
@@ -414,6 +484,7 @@ class TestOldRules(TestStockCommon):
         self.assertEqual(picking_pick.partner_id.id, procurement_group1.partner_id.id)
         self.assertEqual(picking_pick.origin, move1.group_id.name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1230,6 +1301,8 @@ class TestOldRules(TestStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # second out move, the "pick" picking should have lost its partner and have its origin updated
         move2._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
@@ -1504,6 +1577,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2407,8 +2483,13 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pick. When a second move is added, make sure the `partner_id` and
         `origin` fields are erased.
+=======
+        pick. When a second move is added, make sure the `partner_id` field is erased and
+        `origin` field is updated.
+>>>>>>> upstream/18.0
 =======
         pick. When a second move is added, make sure the `partner_id` field is erased and
         `origin` field is updated.
@@ -3601,7 +3682,11 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move2 = self.env['stock.move'].create({
+=======
+        move2, move3, move4 = self.env['stock.move'].create([{
+>>>>>>> upstream/18.0
 =======
         move2, move3, move4 = self.env['stock.move'].create([{
 >>>>>>> upstream/18.0
@@ -4540,8 +4625,11 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5260,6 +5348,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5730,6 +5821,7 @@ class TestOldRules(TestStockCommon):
         self.assertEqual(picking_pick.partner_id.id, procurement_group1.partner_id.id)
         self.assertEqual(picking_pick.origin, move1.group_id.name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6828,6 +6920,8 @@ class TestOldRules(TestStockCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # second out move, the "pick" picking should have lost its partner and have its origin updated
         (move2 | move3 | move4)._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
@@ -7063,6 +7157,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7887,6 +7984,7 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7997,6 +8095,8 @@ class TestOldRules(TestStockCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8841,6 +8941,9 @@ class TestOldRules(TestStockCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

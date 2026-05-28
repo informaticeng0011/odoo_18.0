@@ -224,11 +224,14 @@ import uuid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from lxml import etree
 from odoo import _, api, fields, models
 from odoo.exceptions import UserError
 from odoo.tools import cleanup_xml_node
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -907,6 +910,9 @@ from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_20 import UBL_NA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1626,6 +1632,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -2663,6 +2673,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -3700,6 +3714,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -4737,6 +4755,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -5774,10 +5796,13 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     )
     l10n_tr_nilvera_delivery_printed_number = fields.Char(string="Printed Delivery Note Number")
     l10n_tr_nilvera_delivery_date = fields.Date(string="Printed Delivery Note Date")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6553,6 +6578,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7331,6 +7359,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -8370,6 +8402,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -9407,8 +9443,14 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     )
     l10n_tr_nilvera_delivery_notes = fields.Char(string="Delivery Notes")
+=======
+        copy=False,
+    )
+    l10n_tr_nilvera_delivery_notes = fields.Char(string="Delivery Notes", copy=False)
+>>>>>>> upstream/18.0
 =======
         copy=False,
     )
@@ -10961,6 +11003,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        copy=False,
+>>>>>>> upstream/18.0
 =======
         copy=False,
 >>>>>>> upstream/18.0
@@ -12004,8 +12050,11 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if picking.country_code == 'TR' and picking.picking_type_code == 'outgoing' and picking.state == 'done':
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12782,6 +12831,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13303,6 +13355,7 @@ class StockPicking(models.Model):
 
     def button_validate(self):
         res = super().button_validate()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14092,6 +14145,8 @@ class StockPicking(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         for picking in self:
             if picking.country_code != 'TR' or picking.picking_type_code != 'outgoing' or picking.state != 'done':
                 continue
@@ -14365,6 +14420,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15143,10 +15201,15 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # `is_delivery_partner` ensures that Delivery Partner's ZIP is present regardless of the partner country.
         error_messages = self.partner_id._l10n_tr_nilvera_validate_partner_details(is_delivery_partner=True)
         partners = partners - self.partner_id
         error_messages.update(partners._l10n_tr_nilvera_validate_partner_details())
+=======
+
+        error_messages = partners._l10n_tr_nilvera_validate_partner_details()
+>>>>>>> upstream/18.0
 =======
 
         error_messages = partners._l10n_tr_nilvera_validate_partner_details()
@@ -16500,7 +16563,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17289,6 +17355,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18095,6 +18164,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'copy_indicator': 'false',
+>>>>>>> upstream/18.0
 =======
             'copy_indicator': 'false',
 >>>>>>> upstream/18.0
@@ -19131,7 +19204,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20065,6 +20141,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

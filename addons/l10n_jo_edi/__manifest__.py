@@ -306,6 +306,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'demo': [
+        'demo/demo_company.xml',
+    ],
+>>>>>>> upstream/18.0
 =======
     'demo': [
         'demo/demo_company.xml',

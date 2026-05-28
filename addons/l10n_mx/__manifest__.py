@@ -286,7 +286,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'version': '2.2',
+=======
+    'version': '2.3',
+>>>>>>> upstream/18.0
 =======
     'version': '2.3',
 >>>>>>> upstream/18.0
@@ -1395,6 +1399,7 @@ With this module you will have:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1962,6 +1967,8 @@ With this module you will have:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
