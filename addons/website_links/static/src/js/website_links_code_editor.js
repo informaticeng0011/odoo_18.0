@@ -68,10 +68,13 @@ publicWidget.registry.websiteLinksCodeEditor = publicWidget.Widget.extend({
     _submitCode: function () {
         var initCode = $('#edit-code-form #init_code').val();
 <<<<<<< HEAD
+<<<<<<< HEAD
         var newCode = $('#edit-code-form #new_code').val();
         var self = this;
 
 =======
+=======
+>>>>>>> upstream/18.0
         var newCode = $("#edit-code-form #new_code").val();
         var formattedNewCode = newCode.replace(/[^a-zA-Z0-9_-]/g, "");
         var self = this;
@@ -82,6 +85,9 @@ publicWidget.registry.websiteLinksCodeEditor = publicWidget.Widget.extend({
             return;
         }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if (newCode === '') {
             self.$('.o_website_links_code_error').html(_t("The code cannot be left empty"));
@@ -90,8 +96,11 @@ publicWidget.registry.websiteLinksCodeEditor = publicWidget.Widget.extend({
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._showNewCode(newCode);
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (initCode === newCode) {

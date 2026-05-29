@@ -20,7 +20,12 @@
         <xpath expr="//t[@t-if='props.showRemainingButtons']/div/OrderlineNoteButton" position="after">
             <!-- All these buttons will only be displayed in a dialog -->
             <t t-if="pos.config.module_pos_restaurant">
+<<<<<<< HEAD
                 <button class="btn btn-secondary btn-lg py-5"
+=======
+                <button t-if="pos.config.iface_splitbill"
+                    class="btn btn-secondary btn-lg py-5"
+>>>>>>> upstream/18.0
                     t-att-disabled="pos.get_order()?.get_orderlines()?.reduce((sum, line) => sum + line.qty, 0) lt 2"
                     t-on-click="() => pos.showScreen('SplitBillScreen')">
                     <i class="fa fa-files-o me-1"/>Split
@@ -302,7 +307,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <attribute name="t-if">!pos.config.takeaway</attribute>
+=======
+            <attribute name="t-if">pos.models['account.fiscal.position']?.length and !pos.config.takeaway</attribute>
+>>>>>>> upstream/18.0
 =======
             <attribute name="t-if">pos.models['account.fiscal.position']?.length and !pos.config.takeaway</attribute>
 >>>>>>> upstream/18.0

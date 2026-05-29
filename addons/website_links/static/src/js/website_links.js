@@ -317,6 +317,10 @@ publicWidget.registry.websiteLinks = publicWidget.Widget.extend({
         utmForm.classList.remove("d-none");
         document.querySelector("#generated_tracked_link").classList.add("d-none");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        document.querySelector("input#url").disabled = "";
+>>>>>>> upstream/18.0
 =======
         document.querySelector("input#url").disabled = "";
 >>>>>>> upstream/18.0
@@ -375,6 +379,10 @@ publicWidget.registry.websiteLinks = publicWidget.Widget.extend({
 
                 document.querySelector("#generated_tracked_link").classList.remove("d-none");
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                document.querySelector("input#url").disabled = "disabled";
+>>>>>>> upstream/18.0
 =======
                 document.querySelector("input#url").disabled = "disabled";
 >>>>>>> upstream/18.0

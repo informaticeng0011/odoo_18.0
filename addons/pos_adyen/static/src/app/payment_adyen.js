@@ -253,7 +253,11 @@ export class PaymentAdyen extends PaymentInterface {
             notification.SaleToPOIResponse.MessageHeader.ServiceID ==
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.pending_adyen_line().terminalServiceId &&
+=======
+                this.pending_adyen_line()?.terminalServiceId &&
+>>>>>>> upstream/18.0
 =======
                 this.pending_adyen_line()?.terminalServiceId &&
 >>>>>>> upstream/18.0

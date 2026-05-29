@@ -94,7 +94,12 @@ from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import _, SQL
+=======
+from odoo.exceptions import UserError
+from odoo.tools import _, SQL, clean_context
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
 from odoo.tools import _, SQL, clean_context
@@ -877,6 +882,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('partner_id')
 =======
     @api.depends('partner_id.name')
@@ -1693,6 +1699,9 @@ class ResPartnerBank(models.Model):
 >>>>>>> upstream/18.0
 =======
     @api.depends('partner_id.name')
+>>>>>>> upstream/18.0
+=======
+    @api.depends('partner_id')
 >>>>>>> upstream/18.0
 =======
     @api.depends('partner_id')
@@ -2100,7 +2109,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2828,6 +2840,9 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3410,7 +3425,10 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3700,7 +3718,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('partner_id', 'child_of', partner.id),
+=======
+            ('partner_id', 'child_of', partner.commercial_partner_id.id),
+>>>>>>> upstream/18.0
 =======
             ('partner_id', 'child_of', partner.commercial_partner_id.id),
 >>>>>>> upstream/18.0
@@ -4054,6 +4076,7 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ]).sudo(False)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4073,6 +4096,9 @@ class ResPartnerBank(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        ]).sorted(lambda b: b.partner_id != partner).sudo(False)[:1]
 >>>>>>> upstream/18.0
 =======
         ]).sorted(lambda b: b.partner_id != partner).sudo(False)[:1]

@@ -133,7 +133,11 @@ import { isBlock } from "@html_editor/utils/blocks";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { fillShrunkPhrasingParent, removeClass, splitTextNode } from "@html_editor/utils/dom";
+=======
+import { fillShrunkPhrasingParent, removeClass } from "@html_editor/utils/dom";
+>>>>>>> upstream/18.0
 =======
 import { fillShrunkPhrasingParent, removeClass } from "@html_editor/utils/dom";
 >>>>>>> upstream/18.0
@@ -535,6 +539,7 @@ import {
     isProtected,
     isProtecting,
     isEmptyBlock,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1108,6 +1113,8 @@ import { rgbaToHex } from "@html_editor/utils/color";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     isTableCell,
 } from "@html_editor/utils/dom_info";
 import { ancestors, closestElement, descendants, lastLeaf } from "@html_editor/utils/dom_traversal";
@@ -1127,6 +1134,9 @@ import { rgbaToHex } from "@html_editor/utils/color";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1230,7 +1240,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         selectionchange_handlers: this.updateSelectionTable.bind(this),
+=======
+        selectionchange_handlers: withSequence(5, this.updateSelectionTable.bind(this)),
+>>>>>>> upstream/18.0
 =======
         selectionchange_handlers: withSequence(5, this.updateSelectionTable.bind(this)),
 >>>>>>> upstream/18.0
@@ -1547,6 +1561,7 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         normalize_handlers: this.distributeTableColorsToAllCells.bind(this),
 >>>>>>> upstream/18.0
@@ -2217,6 +2232,8 @@ export class TablePlugin extends Plugin {
         overlay_selection_target_rect_providers: this.getTableSelectionRangeRect.bind(this),
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2287,6 +2304,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2600,7 +2620,10 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3321,6 +3344,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3932,6 +3958,7 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let sel = this.dependencies.selection.getEditableSelection();
         if (!sel.isCollapsed) {
             this.dependencies.delete.deleteSelection();
@@ -3948,6 +3975,8 @@ export class TablePlugin extends Plugin {
                 { normalize: false }
             );
         }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4428,9 +4457,14 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // not sure we should move the cursor?
         siblingCell
             ? this.dependencies.selection.setCursorStart(siblingCell)
+=======
+        siblingCell
+            ? this.dependencies.selection.setCursorEnd(lastLeaf(siblingCell))
+>>>>>>> upstream/18.0
 =======
         siblingCell
             ? this.dependencies.selection.setCursorEnd(lastLeaf(siblingCell))
@@ -4965,9 +4999,14 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // not sure we should move the cursor?
         siblingRow
             ? this.dependencies.selection.setCursorStart(siblingRow.querySelector("td"))
+=======
+        siblingRow
+            ? this.dependencies.selection.setCursorEnd(lastLeaf(siblingRow.cells[0]))
+>>>>>>> upstream/18.0
 =======
         siblingRow
             ? this.dependencies.selection.setCursorEnd(lastLeaf(siblingRow.cells[0]))
@@ -5785,11 +5824,14 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // @todo @phoenix this replaces paragraphs by inline content. Is this intended?
             td.replaceChildren(this.document.createElement("br"));
         }
         this.dependencies.selection.setCursorStart(selectedTds[0]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6602,6 +6644,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7254,7 +7299,10 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7436,6 +7484,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7860,7 +7911,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const currentTd = closestElement(sel.anchorNode, "td");
+=======
+        const currentTd = closestElement(sel.anchorNode, "td, th");
+>>>>>>> upstream/18.0
 =======
         const currentTd = closestElement(sel.anchorNode, "td, th");
 >>>>>>> upstream/18.0
@@ -9093,7 +9148,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const tds = [...closestTable.querySelectorAll("td")];
+=======
+        const tds = [...closestTable.querySelectorAll("td, th")];
+>>>>>>> upstream/18.0
 =======
         const tds = [...closestTable.querySelectorAll("td, th")];
 >>>>>>> upstream/18.0
@@ -10238,6 +10297,7 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const [anchorNode, anchorOffset] = getDeepestPosition(
                     selection.getRangeAt(0).startContainer,
                     selection.getRangeAt(0).startOffset
@@ -10247,6 +10307,8 @@ export class TablePlugin extends Plugin {
                     selection.getRangeAt(selection.rangeCount - 1).startOffset
                 );
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10868,6 +10930,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11501,6 +11566,10 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                this.selectionDirection = selection.direction;
+>>>>>>> upstream/18.0
 =======
                 this.selectionDirection = selection.direction;
 >>>>>>> upstream/18.0
@@ -12399,7 +12468,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const traversedNodes = this.dependencies.selection.getTraversedNodes({ deep: true });
+=======
+        const targetedNodes = this.dependencies.selection.getTargetedNodes();
+>>>>>>> upstream/18.0
 =======
         const targetedNodes = this.dependencies.selection.getTargetedNodes();
 >>>>>>> upstream/18.0
@@ -13442,6 +13515,7 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (!traversedNodes.every((node) => closestElement(node.parentElement, "table"))) {
             const traversedTables = new Set(
                 traversedNodes
@@ -13968,6 +14042,8 @@ export class TablePlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         } else if (!targetedNodes.every((node) => closestElement(node.parentElement, "table"))) {
             const startEdgeSelectionTable = closestElement(selection.startContainer, "table");
             const endEdgeSelectionTable = closestElement(selection.endContainer, "table");
@@ -14010,6 +14086,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14295,6 +14374,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15011,7 +15093,10 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.deselectTable();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15571,8 +15656,11 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.dependencies.selection.setCursorStart(currentSelection.anchorNode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16129,6 +16217,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16817,6 +16908,10 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        delete this._mouseMovePositionWhenAllContentsSelected;
+>>>>>>> upstream/18.0
 =======
         delete this._mouseMovePositionWhenAllContentsSelected;
 >>>>>>> upstream/18.0
@@ -17797,6 +17892,7 @@ export class TablePlugin extends Plugin {
             return;
         }
         const selection = this.dependencies.selection.getEditableSelection();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20378,6 +20474,8 @@ export class TablePlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const startTd = closestElement(selection.startContainer, "td");
         const endTd = closestElement(selection.endContainer, "td");
         if (startTd && startTd === endTd && !isProtected(startTd) && !isProtecting(startTd)) {
@@ -20391,6 +20489,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20722,6 +20823,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21428,6 +21532,7 @@ export class TablePlugin extends Plugin {
         const selectedTds = [...this.editable.querySelectorAll("td.o_selected_td")].filter(
             (node) => node.isContentEditable
         );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22383,6 +22488,9 @@ export class TablePlugin extends Plugin {
 =======
         if (selectedTds.length && (mode === "backgroundColor" || (mode === "color" && !color))) {
 >>>>>>> upstream/18.0
+=======
+        if (selectedTds.length && (mode === "backgroundColor" || (mode === "color" && !color))) {
+>>>>>>> upstream/18.0
             // Disable the `box-shadow` while previewing the background color.
             selectedTds.forEach((td) =>
                 td.classList.toggle("o_selected_td_bg_color_preview", previewMode)
@@ -22625,6 +22733,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23113,6 +23224,7 @@ export class TablePlugin extends Plugin {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23892,6 +24004,8 @@ export class TablePlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     computeBackgroundColorForTable() {
         const selectedTds = Array.from(this.editable.querySelectorAll(".o_selected_td"));
         if (selectedTds.length === 0) {
@@ -23940,6 +24054,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24252,6 +24369,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25035,6 +25155,7 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     modifiedTraversedNodes.push(selectedTd, ...descendants(selectedTd));
                 }
             } else {
@@ -25043,6 +25164,8 @@ export class TablePlugin extends Plugin {
         }
         return modifiedTraversedNodes;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25824,6 +25947,9 @@ export class TablePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

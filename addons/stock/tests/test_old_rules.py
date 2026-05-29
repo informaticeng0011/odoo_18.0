@@ -3,17 +3,23 @@
 from datetime import timedelta
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tests import Form
 from odoo.addons.stock.tests.common import TestStockCommon
 
 class TestOldRules(TestStockCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 from odoo.fields import Command
 from odoo.tests import Form
 from odoo.addons.stock.tests.common import TestStockCommon
 
 
 class TestStockOldRulesCommon(TestStockCommon):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     @classmethod
@@ -36,6 +42,7 @@ class TestStockOldRulesCommon(TestStockCommon):
         delivery_route_3.rule_ids[1].write({'action': 'pull'})
         delivery_route_3.rule_ids[2].write({'action': 'pull'})
 <<<<<<< HEAD
+<<<<<<< HEAD
         reception_route_3 = cls.warehouse_3_steps.reception_route_id
         reception_route_3.rule_ids[0].write({
             'location_src_id': reception_route_3.rule_ids[1].location_dest_id.id,
@@ -44,6 +51,8 @@ class TestStockOldRulesCommon(TestStockCommon):
         reception_route_3.rule_ids[2].write({'action': 'pull_push'})
 
 =======
+=======
+>>>>>>> upstream/18.0
         reception_rules_3 = cls.warehouse_3_steps.reception_route_id.rule_ids
         reception_rules_3[-2:].write({'action': 'pull_push'})
         if len(reception_rules_3) == 3:
@@ -55,6 +64,9 @@ class TestStockOldRulesCommon(TestStockCommon):
         cls.mto_route.rule_ids.filtered(lambda r: r.picking_type_id == cls.warehouse_3_steps.pick_type_id).write({
             'location_dest_id': delivery_route_3.rule_ids[-2].location_src_id.id,
         })
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         # Create a warehouse with 2 steps using old rules setup.
@@ -71,13 +83,19 @@ class TestStockOldRulesCommon(TestStockCommon):
         })
         delivery_route_2.rule_ids[1].write({'action': 'pull'})
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         cls.mto_route.rule_ids.filtered(lambda r: r.picking_type_id == cls.warehouse_2_steps.pick_type_id).write({
             'location_dest_id': delivery_route_2.rule_ids[1].location_src_id.id,
         })
 
 
 class TestOldRules(TestStockOldRulesCommon):
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_delay_alert_3_old(self):
@@ -157,7 +175,10 @@ class TestOldRules(TestStockOldRulesCommon):
         self.assertFalse(ship.delay_alert_date)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     def test_3_steps_in_out_mto(self):
         """
         Check the whole chain supplier -> customer with 3 steps in/out
@@ -193,6 +214,9 @@ class TestOldRules(TestStockOldRulesCommon):
             {'location_id': self.warehouse_3_steps.wh_output_stock_loc_id.id, 'location_dest_id': final_location.id},
         ])
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def test_mtso(self):
         """ Run a procurement for 5 products when there are only 4 in stock then
@@ -484,6 +508,7 @@ class TestOldRules(TestStockOldRulesCommon):
         self.assertEqual(picking_pick.partner_id.id, procurement_group1.partner_id.id)
         self.assertEqual(picking_pick.origin, move1.group_id.name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1303,6 +1328,8 @@ class TestOldRules(TestStockOldRulesCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # second out move, the "pick" picking should have lost its partner and have its origin updated
         move2._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
@@ -1578,6 +1605,9 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2484,8 +2514,13 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         pick. When a second move is added, make sure the `partner_id` and
         `origin` fields are erased.
+=======
+        pick. When a second move is added, make sure the `partner_id` field is erased and
+        `origin` field is updated.
+>>>>>>> upstream/18.0
 =======
         pick. When a second move is added, make sure the `partner_id` field is erased and
         `origin` field is updated.
@@ -3683,7 +3718,11 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move2 = self.env['stock.move'].create({
+=======
+        move2, move3, move4 = self.env['stock.move'].create([{
+>>>>>>> upstream/18.0
 =======
         move2, move3, move4 = self.env['stock.move'].create([{
 >>>>>>> upstream/18.0
@@ -4626,8 +4665,11 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5349,6 +5391,9 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5821,6 +5866,7 @@ class TestOldRules(TestStockOldRulesCommon):
         self.assertEqual(picking_pick.partner_id.id, procurement_group1.partner_id.id)
         self.assertEqual(picking_pick.origin, move1.group_id.name)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6922,6 +6968,8 @@ class TestOldRules(TestStockOldRulesCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # second out move, the "pick" picking should have lost its partner and have its origin updated
         (move2 | move3 | move4)._action_confirm()
         self.assertEqual(picking_pick.partner_id.id, False)
@@ -7158,6 +7206,9 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7985,6 +8036,7 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8095,6 +8147,8 @@ class TestOldRules(TestStockOldRulesCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8942,6 +8996,9 @@ class TestOldRules(TestStockOldRulesCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

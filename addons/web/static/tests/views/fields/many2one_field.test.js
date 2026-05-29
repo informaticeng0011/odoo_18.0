@@ -699,9 +699,15 @@ test("many2one show_address in edit", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_read", async ({ kwargs, parent }) => {
         if (kwargs.specification.trululu.context.show_address) {
             const result = await parent();
+=======
+    onRpc("web_read", ({ kwargs, parent }) => {
+        if (kwargs.specification.trululu.context.show_address) {
+            const result = parent();
+>>>>>>> upstream/18.0
 =======
     onRpc("web_read", ({ kwargs, parent }) => {
         if (kwargs.specification.trululu.context.show_address) {
@@ -2407,8 +2413,13 @@ test("many2one show_address in edit", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("name_search", async ({ parent }) => {
         const result = await parent();
+=======
+    onRpc("name_search", ({ parent }) => {
+        const result = parent();
+>>>>>>> upstream/18.0
 =======
     onRpc("name_search", ({ parent }) => {
         const result = parent();
@@ -4436,7 +4447,11 @@ test("many2one in edit mode", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_many2one[name='trululu'] .dropdown-menu").not.toBeVisible();
+=======
+    expect(".o_field_many2one[name='trululu'] .dropdown-menu").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_many2one[name='trululu'] .dropdown-menu").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -5591,7 +5606,11 @@ test("many2one in edit mode", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_field_many2one[name='trululu'] .dropdown-menu").not.toBeVisible();
+=======
+    expect(".o_field_many2one[name='trululu'] .dropdown-menu").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
     expect(".o_field_many2one[name='trululu'] .dropdown-menu").not.toHaveCount();
 >>>>>>> upstream/18.0
@@ -6853,9 +6872,15 @@ test("many2one search with server returning multiple lines", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_read", async ({ parent }) => {
         expect.step("web_read");
         const result = await parent();
+=======
+    onRpc("web_read", ({ method, parent }) => {
+        expect.step(method);
+        const result = parent();
+>>>>>>> upstream/18.0
 =======
     onRpc("web_read", ({ method, parent }) => {
         expect.step(method);
@@ -8658,8 +8683,13 @@ test("many2one field with option always_reload (edit)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("web_read", async ({ parent }) => {
         const result = await parent();
+=======
+    onRpc("web_read", ({ parent }) => {
+        const result = parent();
+>>>>>>> upstream/18.0
 =======
     onRpc("web_read", ({ parent }) => {
         const result = parent();
@@ -10370,7 +10400,10 @@ test("many2one inside one2many form view, with domain", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11994,8 +12027,13 @@ test("creating record with many2one with option always_reload", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("onchange", async ({ parent }) => {
         const result = await parent();
+=======
+    onRpc("onchange", ({ parent }) => {
+        const result = parent();
+>>>>>>> upstream/18.0
 =======
     onRpc("onchange", ({ parent }) => {
         const result = parent();
@@ -14327,7 +14365,10 @@ test("search more in many2one: no text in input", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15267,7 +15308,10 @@ test("search more in many2one: text in input", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16213,7 +16257,10 @@ test("search more in many2one: dropdown click", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17149,6 +17196,10 @@ test("updating a many2one from a many2many", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        viewId: 1,
+>>>>>>> upstream/18.0
 =======
         viewId: 1,
 >>>>>>> upstream/18.0
@@ -18381,7 +18432,10 @@ test("search more in many2one: resequence inside dialog", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: `<search />`,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19417,7 +19471,10 @@ test("focus when closing many2one modal in many2one modal", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch: '<form><field name="trululu"/></form>',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20399,7 +20456,10 @@ test("click on many2one link in list view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21301,10 +21361,13 @@ test("click on many2one link in list view", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Product._views = {
         search: "<search></search>",
         form: "<form></form>",
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22244,7 +22307,10 @@ test("external_button performs a doAction by default", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         search: "<search></search>",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

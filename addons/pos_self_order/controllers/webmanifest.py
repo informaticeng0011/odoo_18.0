@@ -20,11 +20,15 @@ class WebManifest(webmanifest.WebManifest):
     def _get_scoped_app_icons(self, app_id):
         if app_id == "pos_self_order":
 <<<<<<< HEAD
+<<<<<<< HEAD
             company = request.env.company
             if company.uses_default_logo:
                 icon_src = '/point_of_sale/static/description/icon.svg'
             else:
                 icon_src = f'/web/image?model=res.company&id={company.id}&field=logo&height=192&width=192'
+=======
+            icon_src = '/point_of_sale/static/description/icon.svg'
+>>>>>>> upstream/18.0
 =======
             icon_src = '/point_of_sale/static/description/icon.svg'
 >>>>>>> upstream/18.0
@@ -38,7 +42,11 @@ class WebManifest(webmanifest.WebManifest):
     @http.route()
     def scoped_app_icon_png(self, app_id):
 <<<<<<< HEAD
+<<<<<<< HEAD
         if app_id == "pos_self_order" and request.env.company.uses_default_logo:
+=======
+        if app_id == "pos_self_order":
+>>>>>>> upstream/18.0
 =======
         if app_id == "pos_self_order":
 >>>>>>> upstream/18.0

@@ -282,8 +282,11 @@ registry.category("web_tour.tours").add("website_sale_cart_notification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ...tourUtils.addToCart({ productName: "website_sale_cart_notification_product_1" }),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1113,6 +1116,9 @@ registry.category("web_tour.tours").add("website_sale_cart_notification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1679,6 +1685,7 @@ registry.category("web_tour.tours").add("website_sale_cart_notification", {
         },
         {
             content: "check that the notification is closed",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2940,12 +2947,16 @@ registry.category("web_tour.tours").add("website_sale_cart_notification", {
 =======
             trigger: "div.position-fixed.w-100.h-100.top-0.pe-none",
 >>>>>>> upstream/18.0
+=======
+            trigger: "div.position-fixed.w-100.h-100.top-0.pe-none",
+>>>>>>> upstream/18.0
             run() {
                 if (this.anchor.querySelectorAll("div").length !== 1) {
                     console.error("The cart notification is not closed!");
                 }
             },
         },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3229,6 +3240,9 @@ registry.category("web_tour.tours").add("website_sale_cart_notification", {
                 '.oe_product_cart:first a:contains("website_sale_cart_notification_product_2")',
             run: "click",
         },
+=======
+        ...tourUtils.searchProduct("website_sale_cart_notification_product_2", { select: true }),
+>>>>>>> upstream/18.0
 =======
         ...tourUtils.searchProduct("website_sale_cart_notification_product_2", { select: true }),
 >>>>>>> upstream/18.0
@@ -4362,6 +4376,10 @@ registry.category("web_tour.tours").add("website_sale_cart_notification", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expectUnloadPage: true,
+>>>>>>> upstream/18.0
 =======
             expectUnloadPage: true,
 >>>>>>> upstream/18.0

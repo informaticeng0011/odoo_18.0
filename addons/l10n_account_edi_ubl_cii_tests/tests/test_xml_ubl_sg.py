@@ -124,6 +124,7 @@ class TestUBLSG(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_ids': [(0, 0, {'acc_number': '000099998B57'})],
             'ref': 'ref_partner_1',
             'invoice_edi_format': 'ubl_sg',
@@ -148,6 +149,8 @@ class TestUBLSG(TestUBLCommon):
             'peppol_endpoint': '197401143C',
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -462,6 +465,9 @@ class TestUBLSG(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -679,6 +685,7 @@ class TestUBLSG(TestUBLCommon):
             'vat': 'S16FC0121D',
             'phone': '+65 9123 4589',
             'country_id': cls.env.ref('base.sg').id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1013,6 +1020,8 @@ class TestUBLSG(TestUBLCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'bank_ids': [(0, 0, {'acc_number': '93999574162167', 'allow_out_payment': True})],
             'ref': 'ref_partner_2',
             'invoice_edi_format': 'ubl_sg',
@@ -1121,6 +1130,9 @@ class TestUBLSG(TestUBLCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

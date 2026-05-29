@@ -562,9 +562,14 @@ test("wrapInlinesInBlocks should not create impossible mutations in a collaborat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // TODO selection in collab should be handled better.
     expect(getContent(e2.editable, { sortAttrs: true })).toBe(
         `<div class="oe_unbreakable">[]<p>myNode</p></div>`
+=======
+    expect(getContent(e2.editable, { sortAttrs: true })).toBe(
+        `<div class="oe_unbreakable"><p>myNode[]</p></div>`
+>>>>>>> upstream/18.0
 =======
     expect(getContent(e2.editable, { sortAttrs: true })).toBe(
         `<div class="oe_unbreakable"><p>myNode[]</p></div>`
@@ -3370,7 +3375,10 @@ describe("Collaboration with embedded components", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3695,6 +3703,9 @@ describe("Collaboration with embedded components", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

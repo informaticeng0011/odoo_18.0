@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from odoo import Command
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
@@ -284,6 +285,15 @@ from odoo.tools import config, file_open
 =======
 from odoo.tools import config, file_open
 >>>>>>> upstream/18.0
+=======
+import base64
+import textwrap
+import uuid
+
+from odoo import Command
+from odoo.addons.account.tests.common import AccountTestInvoicingCommon
+from odoo.tools import config, file_open
+>>>>>>> upstream/18.0
 
 
 class TestUblCiiCommon(AccountTestInvoicingCommon):
@@ -392,6 +402,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.partner_nl = cls._create_partner_nl()
+>>>>>>> upstream/18.0
 =======
         cls.partner_nl = cls._create_partner_nl()
 >>>>>>> upstream/18.0
@@ -808,9 +822,12 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_partner_be(cls, **kwargs):
         return cls.env['res.partner'].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1144,6 +1161,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1365,6 +1385,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
             'city': "Ramillies",
             'vat': 'BE0477472701',
             'company_registry': '0477472701',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1798,6 +1819,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 =======
             'bank_ids': [Command.create({'acc_number': 'BE90735788866632', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
+=======
+            'bank_ids': [Command.create({'acc_number': 'BE90735788866632', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
             'country_id': cls.env.ref('base.be').id,
             **kwargs,
         })
@@ -1913,6 +1937,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            **cls._create_partner_default_values(),
+>>>>>>> upstream/18.0
 =======
             **cls._create_partner_default_values(),
 >>>>>>> upstream/18.0
@@ -2350,6 +2378,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'property_account_receivable_id': cls.company_data['default_account_receivable'].id,
             'property_account_payable_id': cls.company_data['default_account_payable'].id,
@@ -2371,6 +2400,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            'company_registry': None,
 >>>>>>> upstream/18.0
 =======
             'company_registry': None,
@@ -2775,6 +2807,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_partner_au(cls, **kwargs):
         return cls.env['res.partner'].create({
 <<<<<<< HEAD
@@ -2870,6 +2903,11 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
     def _create_partner_nl(cls, **kwargs):
         return cls.env['res.partner'].create({
+=======
+    def _create_partner_nl(cls, **kwargs):
+        return cls.env['res.partner'].create({
+            **cls._create_partner_default_values(),
+>>>>>>> upstream/18.0
 =======
     def _create_partner_nl(cls, **kwargs):
         return cls.env['res.partner'].create({
@@ -3301,9 +3339,13 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'invoice_sending_method': 'manual',
             'company_registry': None,
             'company_id': cls.company_data['company'].id,
+=======
+            'company_registry': None,
+>>>>>>> upstream/18.0
 =======
             'company_registry': None,
 >>>>>>> upstream/18.0
@@ -3625,6 +3667,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3827,6 +3872,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
             'zip': "2600",
             'city': "Canberra",
             'vat': '53 930 548 027',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4365,6 +4411,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
             'country_id': cls.env.ref('base.au').id,
             'bank_ids': [Command.create({'acc_number': '93999574162167', 'allow_out_payment': True})],
 >>>>>>> upstream/18.0
+=======
+            'country_id': cls.env.ref('base.au').id,
+            'bank_ids': [Command.create({'acc_number': '93999574162167', 'allow_out_payment': True})],
+>>>>>>> upstream/18.0
             **kwargs,
         })
 
@@ -4474,7 +4524,10 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4689,6 +4742,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4834,6 +4890,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
     # EXPORT HELPERS
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5186,6 +5243,8 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def _generate_invoice_ubl_file(cls, invoice, **kwargs):
         cls.env['account.move.send']._generate_and_send_invoices(invoice, **{'sending_methods': ['manual'], **kwargs})
@@ -5195,6 +5254,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
         subfolder = f'export/{subfolder_format}/{subfolder_document}/{subfolder_country}'
 
         self.assertTrue(invoice.ubl_cii_xml_id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5374,6 +5434,8 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5427,6 +5489,9 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5537,6 +5602,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _import_as_attachment_on(cls, file_path=None, attachment=None, journal=None):
         assert file_path or attachment
         assert not file_path or not attachment
@@ -5544,6 +5610,8 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
         if file_path:
             attachment = cls._import_as_attachment(file_path)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5789,6 +5857,7 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5932,6 +6001,54 @@ class TestUblCiiCommon(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
         return journal._create_document_from_attachment(attachment.id)
 
+=======
+        return journal._create_document_from_attachment(attachment.id)
+
+    @classmethod
+    def _get_raw_mail_message_str(self, attachments, email_to, message_id=None):
+        """ Mock an incoming mail message
+        :param attachments: Odoo recordset of ir.attachment.
+        :param email_to: string that will fill email_to field in the email, probably you'll want to use some journal alias here.
+        :param message_id: Optional. Custom message ID for the email. If not provided, a UUID will be generated.
+
+        Returns:
+            Formatted email string.
+        """
+        if not message_id:
+            message_id = str(uuid.uuid4())
+
+        attachment_parts = []
+        for attachment in attachments:
+            encoded_attachment = base64.b64encode(attachment['raw']).decode()
+            attachment_part = textwrap.dedent(f"""\
+                --000000000000a47519057e029630
+                Content-Type: {attachment['mimetype']}
+                Content-Transfer-Encoding: base64
+                Content-Disposition: attachment; filename="{attachment['name']}"
+
+                {encoded_attachment}
+            """)
+            attachment_parts.append(attachment_part)
+
+        email_raw = textwrap.dedent(f"""\
+            MIME-Version: 1.0
+            Date: Fri, 26 Nov 2021 16:27:45 +0100
+            Message-ID: {message_id}
+            Subject: Incoming bill
+            From: Someone <someone@some.company.com>
+            To: {email_to}
+            Content-Type: multipart/alternative; boundary="000000000000a47519057e029630"
+
+            --000000000000a47519057e029630
+            Content-Type: text/plain; charset="UTF-8"
+
+            Here is your requested document(s).
+        """)
+        email_raw += "\n".join(attachment_parts)
+        email_raw += "\n--000000000000a47519057e029630--"
+        return email_raw
+
+>>>>>>> upstream/18.0
 
 class TestUblCiiBECommon(TestUblCiiCommon):
 
@@ -5946,6 +6063,7 @@ class TestUblCiiBECommon(TestUblCiiCommon):
             'vat': 'BE0202239951',
             'company_registry': '0202239951',
             'country_id': cls.env.ref('base.be').id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6418,6 +6536,8 @@ class TestUblBis3Common(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             'bank_ids': [Command.create({'acc_number': 'BE15001559627230', 'allow_out_payment': True})],
         })
         return company
@@ -6498,6 +6618,9 @@ class TestUblBis3Common(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6725,9 +6848,12 @@ class TestUblCiiFRCommon(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def subfolder(self):
         return f'{super().subfolder()}/fr'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6942,6 +7068,9 @@ class TestUblCiiFRCommon(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7186,6 +7315,9 @@ class TestUblBis3Common(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7387,6 +7519,7 @@ class TestUblBis3Common(TestUblCiiCommon):
         values = super()._create_partner_default_values()
         values['invoice_edi_format'] = 'ubl_bis3'
         return values
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7795,11 +7928,14 @@ class TestUblBis3Common(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     # -------------------------------------------------------------------------
     # EXPORT HELPERS
     # -------------------------------------------------------------------------
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8242,6 +8378,8 @@ class TestUblBis3Common(TestUblCiiCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @classmethod
     def subfolders(cls):
         _subfolder_format, subfolder_document, subfolder_country = super().subfolders()
@@ -8316,6 +8454,9 @@ class TestUblBis3Common(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -259,6 +259,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_slides
 # 
 # Translators:
@@ -426,6 +427,8 @@
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1204,6 +1207,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1725,6 +1731,7 @@
 # Marta Wacławek, 2025
 # Wil Odoo, 2025
 # Aleš Fiala <f.ales1@seznam.cz>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3335,10 +3342,16 @@
 # "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Vojtěch Olšan <vojtech.olsan@systee.cz>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5018,12 +5031,18 @@ msgstr ""
 "PO-Revision-Date: 2026-05-16 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-05-15 17:38+0000\n"
+"PO-Revision-Date: 2026-05-16 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Czech <https://translate.odoo.com/projects/odoo-18/"
 "website_slides/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6069,6 +6088,11 @@ msgstr ""
 "<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__members_engaged_count
@@ -6491,7 +6515,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been enrolled to a new course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been enrolled to a new course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been enrolled to a new course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -7798,7 +7827,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        You have been invited to check out this course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+=======
+"        You have been invited to check out this course: <t t-"
+"out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
+>>>>>>> upstream/18.0
 =======
 "        You have been invited to check out this course: <t t-"
 "out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n"
@@ -9103,6 +9137,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        <p style=\"margin: 0px;\">Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p><br/>\n"
 "                        <p><b>Congratulations!</b></p>\n"
@@ -9112,6 +9147,8 @@ msgid ""
 "                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n"
 "                            <a href=\"/slides/all\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9900,6 +9937,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10680,10 +10720,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.channel_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "                            <br/>\n"
 "                            <t t-out=\"object.channel_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11464,6 +11507,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12250,6 +12296,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> shared the <strong t-out=\"object.name or ''\">document</strong> with you!\n"
@@ -12266,6 +12313,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13067,6 +13116,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13853,6 +13905,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
 "                        <t t-out=\"user.name or ''\">Mitchell Admin</t> shared the <t t-out=\"object.slide_category or ''\">document</t> <strong t-out=\"object.name or ''\">Trees</strong> with you!\n"
@@ -13868,6 +13921,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14670,6 +14725,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15456,6 +15514,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "                        Hello<br/><br/>\n"
 "                        There is something new in the course <strong t-out=\"object.channel_id.name or ''\">Trees, Wood and Gardens</strong> you are following:<br/><br/>\n"
@@ -15475,6 +15534,8 @@ msgid ""
 "                            <br/>\n"
 "                            <t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16279,6 +16340,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17064,7 +17128,11 @@ msgid "<i class=\"fa fa-arrow-right\"/> Start Learning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Začněte cvičit"
+=======
+msgstr "<i class=\"fa fa-arrow-right\"/>Začněte výuku"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-arrow-right\"/>Začněte výuku"
 >>>>>>> upstream/18.0
@@ -18194,6 +18262,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=\"Views\"/>"
 msgstr "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=\"Views\"/>"
 =======
@@ -18713,6 +18782,8 @@ msgstr "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" title=\"Vi
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-eye me-2\" aria-label=\"Views\" role=\"img\" "
 "title=\"Views\"/>"
@@ -18977,6 +19048,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19766,12 +19840,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\""
 " title=\"Infographic\"/>"
 msgstr ""
 "<i class=\"fa fa-file-image-o me-2\" aria-label=\"Infographic\" role=\"img\""
 " title=\"Infographic\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20551,6 +20628,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21089,6 +21169,7 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_slide_view_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21867,6 +21948,8 @@ msgstr "<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Qu
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<i class=\"fa fa-flag me-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/"
 ">"
@@ -22131,6 +22214,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23027,11 +23113,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <span class=\"d-none d-md-inline-block ms-2\">Share</span>"
 msgstr ""
 "<i class=\"fa fa-share-alt\"/>\n"
 "                        <span class=\"d-none d-md-inline-block ms-2\">Sdílet</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23812,6 +23901,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24396,6 +24488,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_sample
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25434,11 +25527,15 @@ msgid ""
 =======
 "<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"badge text-bg-info badge-arrow-right fw-normal m-1\">New</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26736,11 +26833,16 @@ msgid ""
 "<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
 "span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"badge text-bg-primary badge-hide fw-normal m-1\">Add Quiz</"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_slides_list_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28038,6 +28140,10 @@ msgid ""
 "<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
 "span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"badge text-bg-success fw-normal m-1\"><span>Preview</span></"
+"span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -28087,6 +28193,7 @@ msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.res_config_settings_view_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29289,6 +29396,9 @@ msgid "<span class=\"o_form_label\">Slides</span>"
 =======
 msgid "<span class=\"o_form_label\">Slides</span>"
 >>>>>>> upstream/18.0
+=======
+msgid "<span class=\"o_form_label\">Slides</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: website_slides
@@ -29308,6 +29418,7 @@ msgstr "<span class=\"o_stat_text\">Vložená zobrazení</span>"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.course_card_information_arrow
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30165,6 +30276,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "<span class=\"o_wslides_arrow badge bg-secondary mt-2 ms-2\">New Content</"
 "span>"
@@ -30427,6 +30540,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31231,7 +31347,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+=======
+msgid ""
+"<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted fw-bold col-4 col-md-3\">External sources</span>"
@@ -32537,8 +32658,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Invited\">Invited</span>"
+=======
+"<span class=\"text-muted text-truncate mw-100\" title=\"Invited\">Invited</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted text-truncate mw-100\" title=\"Invited\">Invited</"
 "span>"
@@ -33839,8 +33965,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"text-muted text-truncate mw-100\" "
 "title=\"Ongoing\">Ongoing</span>"
+=======
+"<span class=\"text-muted text-truncate mw-100\" title=\"Ongoing\">Ongoing</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"text-muted text-truncate mw-100\" title=\"Ongoing\">Ongoing</"
 "span>"
@@ -35140,7 +35271,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
+=======
+msgid ""
+"<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span class=\"text-muted text-truncate mw-100\" title=\"Total\">Total</span>"
@@ -36451,6 +36587,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span id=\"first\" class=\"me-1 me-sm-2\" title=\"First slide\" aria-label=\"First slide\" role=\"button\"><i class=\"fa fa-step-backward\"/></span>\n"
 "                                        <span id=\"previous\" class=\"mx-1 mx-sm-2\" title=\"Previous slide\" aria-label=\"Previous slide\" role=\"button\"><i class=\"fa fa-arrow-circle-left\"/></span>\n"
 "                                        <span id=\"next\" class=\"mx-1 mx-sm-2\" title=\"Next slide\" aria-label=\"Next slide\" role=\"button\"><i class=\"fa fa-arrow-circle-right\"/></span>\n"
@@ -36461,6 +36598,8 @@ msgstr ""
 "                                        <span id=\"next\" class=\"mx-1 mx-sm-2\" title=\"Next slide\" aria-label=\"Next slide\" role=\"button\"><i class=\"fa fa-arrow-circle-right\"/></span>\n"
 "                                        <span id=\"last\" class=\"mx-1 mx-sm-2\" title=\"Last slide\" aria-label=\"Last slide\" role=\"button\"><i class=\"fa fa-step-forward\"/></span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37260,6 +37399,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37781,6 +37923,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38562,6 +38705,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span id=\"fullscreen\" class=\"ms-1 ms-sm-2\" title=\"View fullscreen\" "
 "aria-label=\"Fullscreen\" role=\"button\">\n"
 "                                            <i class=\"fa fa-arrows-alt\"/>\n"
@@ -38827,6 +38972,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39350,6 +39498,7 @@ msgstr ""
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39615,6 +39764,8 @@ msgid ""
 "                                        <span id=\"zoomin\" class=\"d-inline\" title=\"Zoom in\" aria-label=\"Zoom in\" role=\"button\">\n"
 "                                            <i class=\"fa fa-search-plus\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40398,6 +40549,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41187,8 +41341,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span name=\"members_completed_count_label\" "
 "class=\"o_stat_text\">Finished</span>"
+=======
+"<span name=\"members_completed_count_label\" class=\"o_stat_text\">Finished</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "<span name=\"members_completed_count_label\" class=\"o_stat_text\">Finished</"
 "span>"
@@ -42591,8 +42750,13 @@ msgstr "<strong>Zatím žádné pokusy!</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<strong>Sharing is caring!</strong> Email(s) sent."
 msgstr "<strong>Sdílení je starání!</strong> E-mail(y) odeslány."
+=======
+msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
+msgstr ""
+>>>>>>> upstream/18.0
 =======
 msgid "<strong>Sharing is caring!</strong> Your email(s) will arrive shortly."
 msgstr ""
@@ -44061,8 +44225,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Shrnutí know-how: jaké jsou hlavní kategorie stromů a jak je rozlišit."
+=======
+msgstr "Shrnutí know-how: jaké jsou hlavní kategorie stromů a jak je rozlišit."
+>>>>>>> upstream/18.0
 =======
 msgstr "Shrnutí know-how: jaké jsou hlavní kategorie stromů a jak je rozlišit."
 >>>>>>> upstream/18.0
@@ -45337,7 +45505,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All questions must have at least one correct answer and one incorrect answer: \n"
+=======
+"All questions must have at least one correct answer and one incorrect "
+"answer: \n"
+>>>>>>> upstream/18.0
 =======
 "All questions must have at least one correct answer and one incorrect "
 "answer: \n"
@@ -47194,7 +47367,11 @@ msgid "Click <b>Save</b> to create it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvoříte ho kliknutím <b>uložit</b>."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvoříte ho kliknutím <b>uložit</b>."
 >>>>>>> upstream/18.0
@@ -48511,7 +48688,11 @@ msgid "Click here to get started"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Začněte kliknutím sem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Začněte kliknutím sem"
 >>>>>>> upstream/18.0
@@ -49773,8 +49954,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Chcete-li upravit obsah snímku, klikněte na tlačítko „Upravit“ v horním rohu"
 " obrazovky."
+=======
+"Chcete-li upravit obsah snímku, klikněte na tlačítko „Upravit“ v horním rohu "
+"obrazovky."
+>>>>>>> upstream/18.0
 =======
 "Chcete-li upravit obsah snímku, klikněte na tlačítko „Upravit“ v horním rohu "
 "obrazovky."
@@ -51144,7 +51330,11 @@ msgid "Click on the <b>Save</b> button to create your first course."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknutím na tlačítko <b>uložit</b> a vytvoříte svůj první kurz."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknutím na tlačítko <b>uložit</b> a vytvoříte svůj první kurz."
 >>>>>>> upstream/18.0
@@ -52453,8 +52643,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Běžným úkolem informatika je klást správné otázky a odpovídat na ně. V tomto"
 " kurzu budete tato témata studovat pomocí aktivit týkajících se matematiky, "
+=======
+"Běžným úkolem informatika je klást správné otázky a odpovídat na ně. V tomto "
+"kurzu budete tato témata studovat pomocí aktivit týkajících se matematiky, "
+>>>>>>> upstream/18.0
 =======
 "Běžným úkolem informatika je klást správné otázky a odpovídat na ně. V tomto "
 "kurzu budete tato témata studovat pomocí aktivit týkajících se matematiky, "
@@ -53758,8 +53953,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Běžným úkolem počítačového vědce je kladení správných otázek a odpovídání na"
 " otázky..."
+=======
+"Běžným úkolem počítačového vědce je kladení správných otázek a odpovídání na "
+"otázky..."
+>>>>>>> upstream/18.0
 =======
 "Běžným úkolem počítačového vědce je kladení správných otázek a odpovídání na "
 "otázky..."
@@ -55167,8 +55367,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Congratulations, you've created your first course.<br/>Click on the title of"
 " this content to see it in fullscreen mode."
+=======
+"Congratulations, you've created your first course.<br/>Click on the title of "
+"this content to see it in fullscreen mode."
+>>>>>>> upstream/18.0
 =======
 "Congratulations, you've created your first course.<br/>Click on the title of "
 "this content to see it in fullscreen mode."
@@ -56475,8 +56680,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gratuluji, Váš kurz byl vytvořen. Není v něm však žádný obsah. Pojďme přidat"
 " <b>Sekci</b> a dát tak Vašemu kurzu strukturu."
+=======
+"Gratuluji, Váš kurz byl vytvořen. Není v něm však žádný obsah. Pojďme přidat "
+"<b>Sekci</b> a dát tak Vašemu kurzu strukturu."
+>>>>>>> upstream/18.0
 =======
 "Gratuluji, Váš kurz byl vytvořen. Není v něm však žádný obsah. Pojďme přidat "
 "<b>Sekci</b> a dát tak Vašemu kurzu strukturu."
@@ -57847,11 +58057,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <br>and can be of different types (presentations, documents, videos, ...)."
 msgstr ""
 "Obsahem jsou lekce, které tvoří kurz\n"
 "                    <br>a může být různých typů (prezentace, dokumenty, videa, ...)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58632,6 +58845,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59507,7 +59723,11 @@ msgid "Copy Embed Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kopírujte vložený kód"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kopírujte vložený kód"
 >>>>>>> upstream/18.0
@@ -60842,7 +61062,11 @@ msgid "Correct! A strawberry is a fruit because it's the product of a tree."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správně! Jahoda je ovoce, protože je produktem stromu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Správně! Jahoda je ovoce, protože je produktem stromu."
 >>>>>>> upstream/18.0
@@ -62159,7 +62383,11 @@ msgid "Correct! Congratulations you have time to loose"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Správně! Gratulujeme, máte čas nazbyt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Správně! Gratulujeme, máte čas nazbyt"
 >>>>>>> upstream/18.0
@@ -63416,8 +63644,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Vaše video se nepodařilo najít. Zkontrolujte, zda je váš odkaz správný a zda"
 " je video dostupné."
+=======
+"Vaše video se nepodařilo najít. Zkontrolujte, zda je váš odkaz správný a zda "
+"je video dostupné."
+>>>>>>> upstream/18.0
 =======
 "Vaše video se nepodařilo najít. Zkontrolujte, zda je váš odkaz správný a zda "
 "je video dostupné."
@@ -64802,7 +65035,11 @@ msgid "Course Attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Účastnici kurzů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Účastnici kurzů"
 >>>>>>> upstream/18.0
@@ -66142,7 +66379,11 @@ msgid "Course Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odkaz na kurz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odkaz na kurz"
 >>>>>>> upstream/18.0
@@ -67459,7 +67700,11 @@ msgid "Course Member"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Člen kurzu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Člen kurzu"
 >>>>>>> upstream/18.0
@@ -68787,7 +69032,11 @@ msgid "Course Quiz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kvíz kurzu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kvíz kurzu"
 >>>>>>> upstream/18.0
@@ -70111,7 +70360,11 @@ msgid "Course Set Uncompleted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedokončená sada kurzů"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedokončená sada kurzů"
 >>>>>>> upstream/18.0
@@ -71514,7 +71767,11 @@ msgid "Courses that have this course as prerequisite."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kurzy, které mají tento kurz jako předběžnou podmínku."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kurzy, které mají tento kurz jako předběžnou podmínku."
 >>>>>>> upstream/18.0
@@ -72837,7 +73094,11 @@ msgid "Create New Category \""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit novou kategorii \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit novou kategorii \""
 >>>>>>> upstream/18.0
@@ -74155,7 +74416,11 @@ msgid "Create New Tag \""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit nový štítek \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit nový štítek \""
 >>>>>>> upstream/18.0
@@ -75494,7 +75759,11 @@ msgid "Create this tag \""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořit tento štítek \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořit tento štítek \""
 >>>>>>> upstream/18.0
@@ -76812,7 +77081,11 @@ msgid "Create this tag group\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vytvořte tuto skupinu štítků\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Vytvořte tuto skupinu štítků\""
 >>>>>>> upstream/18.0
@@ -78181,7 +78454,11 @@ msgid "Default training image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Výchozí obrázek školení"
+>>>>>>> upstream/18.0
 =======
 msgstr "Výchozí obrázek školení"
 >>>>>>> upstream/18.0
@@ -79383,7 +79660,11 @@ msgid "Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zobrazovací název"
+=======
+msgstr "Zobrazovaný název"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zobrazovaný název"
 >>>>>>> upstream/18.0
@@ -79983,7 +80264,11 @@ msgid "Do you make beams out of lemon trees?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyrábíte citrony z paprsků?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyrábíte citrony z paprsků?"
 >>>>>>> upstream/18.0
@@ -81300,7 +81585,11 @@ msgid "Do you make lemons out of beams?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vyrábíte citrony z paprsků?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vyrábíte citrony z paprsků?"
 >>>>>>> upstream/18.0
@@ -82623,7 +82912,11 @@ msgid "Do you think Harry Potted has a good name?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Myslíte si, že Harry Potted má dobré jméno?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Myslíte si, že Harry Potted má dobré jméno?"
 >>>>>>> upstream/18.0
@@ -83941,7 +84234,11 @@ msgid "Do you want to install \"%s\"?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chcete nainstalovat \"%s\"?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chcete nainstalovat \"%s\"?"
 >>>>>>> upstream/18.0
@@ -85258,7 +85555,11 @@ msgid "Do you want to reply correctly?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chcete odpovědět správně?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chcete odpovědět správně?"
 >>>>>>> upstream/18.0
@@ -86576,7 +86877,11 @@ msgid "Do you want to request access to this course?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Chcete požádat o přístup k tomuto kurzu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Chcete požádat o přístup k tomuto kurzu?"
 >>>>>>> upstream/18.0
@@ -87968,7 +88273,11 @@ msgid "Download URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL stahování"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL stahování"
 >>>>>>> upstream/18.0
@@ -89319,7 +89628,11 @@ msgid "Elearning: Add Attendees to Course"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-learning: Přidat účastníky ke kurzu"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-learning: Přidat účastníky ke kurzu"
 >>>>>>> upstream/18.0
@@ -90651,7 +90964,11 @@ msgid "Elearning: Promotional Course Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-learning: Pozvánka na propagační kurz"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-learning: Pozvánka na propagační kurz"
 >>>>>>> upstream/18.0
@@ -91935,12 +92252,15 @@ msgstr "Šablona e-mailu použitá při sdílení slide"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_share_dialog/email_sharing_input.xml:0
 msgid "Email(s) sent."
 msgstr "Odeslány e-mail(y)."
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92845,7 +93165,11 @@ msgid "Embed code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vložit kód"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vložit kód"
 >>>>>>> upstream/18.0
@@ -94293,7 +94617,10 @@ msgstr "Soubor je příliš velký. Velikost souboru nesmí překročit 25 MB"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95220,6 +95547,9 @@ msgstr "Model podpory streamování souborů pro kontrolery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96496,8 +96826,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Pokud hledáte technické specifikace, podívejte se na tuto dokumentaci."
+=======
+msgstr "Pokud hledáte technické specifikace, podívejte se na tuto dokumentaci."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokud hledáte technické specifikace, podívejte se na tuto dokumentaci."
 >>>>>>> upstream/18.0
@@ -97611,12 +97945,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Channel Share Template\" for courses "
 "%(course_names)s first"
 msgstr ""
 "Nelze odesílat e-maily. Nejprve vyberte \"Šablonu sdílení kanálu\" pro kurzy"
 " %(course_names)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98396,6 +98733,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99177,12 +99517,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to send emails. Select a \"Share Template\" for courses "
 "%(course_names)s first"
 msgstr ""
 "Nelze odesílat e-maily. Nejprve vyberte \"Šablonu sdílení\" pro kurzy "
 "%(course_names)s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99962,6 +100305,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100827,7 +101173,11 @@ msgid "Incorrect! A strawberry is not a vegetable."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Špatně! Jahoda není zelenina."
+>>>>>>> upstream/18.0
 =======
 msgstr "Špatně! Jahoda není zelenina."
 >>>>>>> upstream/18.0
@@ -102179,7 +102529,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Interní chyba serveru, zkuste to prosím znovu později nebo kontaktujte správce.\n"
+=======
+"Interní chyba serveru, zkuste to prosím znovu později nebo kontaktujte "
+"správce.\n"
+>>>>>>> upstream/18.0
 =======
 "Interní chyba serveru, zkuste to prosím znovu později nebo kontaktujte "
 "správce.\n"
@@ -103662,11 +104017,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing which kind of wood to use depending on your application is important. In this course you\n"
 "will learn the basics of wood characteristics."
 msgstr ""
 "Je důležité vědět, jaký druh dřeva použít v závislosti na vaší aplikaci. V tomto kurzu se\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -104447,6 +104805,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -105228,8 +105589,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Knowing wood characteristics is a requirement in order to know which kind of"
 " wood to use in a given situation."
+=======
+"Knowing wood characteristics is a requirement in order to know which kind of "
+"wood to use in a given situation."
+>>>>>>> upstream/18.0
 =======
 "Knowing wood characteristics is a requirement in order to know which kind of "
 "wood to use in a given situation."
@@ -106676,8 +107042,12 @@ msgstr "Odkaz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Link of the document (we currently only support Google Drive as source)"
+=======
+msgid "Link of the document (we currently only support Google Drive as source)"
+>>>>>>> upstream/18.0
 =======
 msgid "Link of the document (we currently only support Google Drive as source)"
 >>>>>>> upstream/18.0
@@ -107815,7 +108185,11 @@ msgid "List planting in hanging bottles on wall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SEznam výsadby v závěsných lahvích na zdi"
+>>>>>>> upstream/18.0
 =======
 msgstr "SEznam výsadby v závěsných lahvích na zdi"
 >>>>>>> upstream/18.0
@@ -108933,6 +109307,7 @@ msgstr "Záznam menu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -108947,6 +109322,8 @@ msgstr "Záznam menu"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108985,6 +109362,9 @@ msgstr "Průvodce sloučením partnerů"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109031,6 +109411,9 @@ msgstr "Zpráva"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109525,6 +109908,7 @@ msgstr "Operace není podporována"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110306,6 +110690,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 msgstr ""
@@ -110569,6 +110955,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111398,6 +111787,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please <a href=\"/web/login?redirect=%(url)s\">login</a> or <a "
 "href=\"/web/signup?redirect=%(url)s\">create an account</a> to vote for this"
 " lesson"
@@ -111406,6 +111796,8 @@ msgstr ""
 "href=\"/web/login?redirect=%(url)s\">přihlaste</a> nebo si <a "
 "href=\"/web/signup?redirect=%(url)s\">vytvořte účet</a>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -112186,6 +112578,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -112711,6 +113106,7 @@ msgid ""
 "Please <a href=\"/web/login?redirect=%(url)s\">login</a> to vote for this "
 "lesson"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114008,6 +114404,10 @@ msgstr ""
 "Pro hlasování pro tuto lekci se prosím <a href=\"/web/login?redirect=%"
 "(url)s\">přihlaste</a>"
 >>>>>>> upstream/18.0
+=======
+"Pro hlasování pro tuto lekci se prosím <a href=\"/web/login?redirect=%"
+"(url)s\">přihlaste</a>"
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-python
@@ -114256,7 +114656,11 @@ msgid "Prerequisites"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podmínky"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podmínky"
 >>>>>>> upstream/18.0
@@ -115187,7 +115591,11 @@ msgid "Progress bar"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukazatel průběhu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukazatel průběhu"
 >>>>>>> upstream/18.0
@@ -116657,8 +117065,12 @@ msgstr "Zdroj"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Resource %(resource_name)s is a link and should not contain a data file"
+=======
+msgid "Resource %(resource_name)s is a link and should not contain a data file"
+>>>>>>> upstream/18.0
 =======
 msgid "Resource %(resource_name)s is a link and should not contain a data file"
 >>>>>>> upstream/18.0
@@ -117468,6 +117880,7 @@ msgstr "Odpovědný již kontaktován."
 #: model:ir.model.fields,help:website_slides.field_slide_channel_partner__channel_website_id
 #: model:ir.model.fields,help:website_slides.field_slide_slide__website_id
 msgid "Restrict to a specific website."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118749,6 +119162,9 @@ msgstr "Omezit na konkrétní webovou stránku."
 =======
 msgstr "Omezit na konkrétní webovou stránku."
 >>>>>>> upstream/18.0
+=======
+msgstr "Omezit na konkrétní webovou stránku."
+>>>>>>> upstream/18.0
 
 #. module: website_slides
 #. odoo-javascript
@@ -119038,6 +119454,11 @@ msgstr "Datum revize"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
@@ -120085,6 +120506,7 @@ msgid "Reviews"
 msgstr "Recenze"
 
 #. module: website_slides
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -121510,6 +121932,10 @@ msgstr "Recenze"
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
 >>>>>>> upstream/18.0
+=======
+#. odoo-javascript
+#: code:addons/website_slides/static/src/js/portal_rating_composer.js:0
+>>>>>>> upstream/18.0
 msgid "Reviews (%s)"
 msgstr "Recenze (%s)"
 
@@ -121815,6 +122241,9 @@ msgstr "Recenze (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123072,8 +123501,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Zdokonalte se a zapůsobte! Vaše podnikatelská kariéra začíná zde.<br/>Je čas"
 " zahájit kurz."
+=======
+"Zdokonalte se a zapůsobte! Vaše podnikatelská kariéra začíná zde.<br/>Je čas "
+"zahájit kurz."
+>>>>>>> upstream/18.0
 =======
 "Zdokonalte se a zapůsobte! Vaše podnikatelská kariéra začíná zde.<br/>Je čas "
 "zahájit kurz."
@@ -124416,12 +124850,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Slide with questions must be marked as done when submitting all good answers"
 " "
 msgstr ""
 "Při odesílání všech dobrých odpovědí musí být snímek s otázkami označen jako"
 " vyřízený"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125200,6 +125637,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126096,8 +126536,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Subtype of the slide category, allows more precision on the actual file type"
 " / source type."
+=======
+"Subtype of the slide category, allows more precision on the actual file "
+"type / source type."
+>>>>>>> upstream/18.0
 =======
 "Subtype of the slide category, allows more precision on the actual file "
 "type / source type."
@@ -127425,8 +127870,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "kanban or front-end, to distinguish internal tags from public categorization"
 " tags"
+=======
+"kanban or front-end, to distinguish internal tags from public categorization "
+"tags"
+>>>>>>> upstream/18.0
 =======
 "kanban or front-end, to distinguish internal tags from public categorization "
 "tags"
@@ -128816,8 +129266,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to"
 " 'Course Attendees'"
+=======
+"The Enroll Policy should be set to 'On Invitation' when visibility is set to "
+"'Course Attendees'"
+>>>>>>> upstream/18.0
 =======
 "The Enroll Policy should be set to 'On Invitation' when visibility is set to "
 "'Course Attendees'"
@@ -130131,8 +130586,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Odkaz na Disk Google, který chcete zde použít, získáte kliknutím na tlačítko"
 " „Sdílet“ v rozhraní Google."
+=======
+"Odkaz na Disk Google, který chcete zde použít, získáte kliknutím na tlačítko "
+"„Sdílet“ v rozhraní Google."
+>>>>>>> upstream/18.0
 =======
 "Odkaz na Disk Google, který chcete zde použít, získáte kliknutím na tlačítko "
 "„Sdílet“ v rozhraní Google."
@@ -131432,8 +131892,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The completion of a channel is a percentage and should be between 0% and "
 "100."
+=======
+"The completion of a channel is a percentage and should be between 0% and 100."
+>>>>>>> upstream/18.0
 =======
 "The completion of a channel is a percentage and should be between 0% and 100."
 >>>>>>> upstream/18.0
@@ -132533,11 +132997,14 @@ msgstr "Hlas musí být 1, 0 nebo -1."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Then, go into the file permissions and set it as \"Anyone with the link\"."
 msgstr ""
 "Poté přejděte do oprávnění k souboru a nastavte jej jako „Kdokoli s "
 "odkazem“."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -133316,6 +133783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -134192,8 +134662,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This question must have at least one correct answer and one incorrect "
 "answer."
+=======
+"This question must have at least one correct answer and one incorrect answer."
+>>>>>>> upstream/18.0
 =======
 "This question must have at least one correct answer and one incorrect answer."
 >>>>>>> upstream/18.0
@@ -135261,7 +135735,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Including regular documents (Google Doc, .docx), Sheets (Google Sheet, .xlsx), PowerPoints, ..."
+=======
+"            Including regular documents (Google Doc, .docx), Sheets (Google "
+"Sheet, .xlsx), PowerPoints, ..."
+>>>>>>> upstream/18.0
 =======
 "            Including regular documents (Google Doc, .docx), Sheets (Google "
 "Sheet, .xlsx), PowerPoints, ..."
@@ -136634,7 +137113,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -136925,6 +137407,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -137255,7 +137740,11 @@ msgid "Visits"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Návštěv"
+=======
+msgstr "Návštěvy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Návštěvy"
 >>>>>>> upstream/18.0
@@ -137914,8 +138403,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You are not allowed to add members to this course. Please contact the course"
 " responsible or an administrator."
+=======
+"You are not allowed to add members to this course. Please contact the course "
+"responsible or an administrator."
+>>>>>>> upstream/18.0
 =======
 "You are not allowed to add members to this course. Please contact the course "
 "responsible or an administrator."
@@ -139237,8 +139731,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Můžete buď nahrát soubor ze svého počítače, nebo vložit odkaz na Disk "
 "Google."
+=======
+"Můžete buď nahrát soubor ze svého počítače, nebo vložit odkaz na Disk Google."
+>>>>>>> upstream/18.0
 =======
 "Můžete buď nahrát soubor ze svého počítače, nebo vložit odkaz na Disk Google."
 >>>>>>> upstream/18.0
@@ -140299,8 +140797,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Nemůžete označit slide jako nedokončený, pokud nejste mezi jeho členy."
+=======
+msgstr "Nemůžete označit slide jako nedokončený, pokud nejste mezi jeho členy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemůžete označit slide jako nedokončený, pokud nejste mezi jeho členy."
 >>>>>>> upstream/18.0
@@ -141102,6 +141604,7 @@ msgid ""
 "You cannot mark a slide quiz as not completed if you are not among its "
 "members or it is unpublished."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142374,6 +142877,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Nemůžete označit slidový kvíz jako nedokončený, pokud nejste mezi jeho členy "
 "nebo není publikován."
 
@@ -142395,6 +142900,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -142804,7 +143312,11 @@ msgid "You have been invited to check out {{ object.channel_id.name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Byli jste pozvání, abyste si prohlédli {{ object.channel_id.name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Byli jste pozvání, abyste si prohlédli {{ object.channel_id.name }}"
 >>>>>>> upstream/18.0
@@ -144194,7 +144706,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -145041,6 +145556,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -145886,8 +146404,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your video could not be found on Vimeo, please check the link and/or privacy"
 " settings"
+=======
+"Your video could not be found on Vimeo, please check the link and/or privacy "
+"settings"
+>>>>>>> upstream/18.0
 =======
 "Your video could not be found on Vimeo, please check the link and/or privacy "
 "settings"
@@ -147370,6 +147893,7 @@ msgstr "např. \"Které zvíře neumí létat?\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/website_slides/static/src/xml/slide_quiz_create.xml:0
 msgid "e.g. \"{{placeholder || \"another animal\"}}\""
@@ -147468,6 +147992,8 @@ msgstr "např. \"{{placeholder || \"jiné zvíře\"}}\""
 >>>>>>> upstream/18.0
 
 #. module: website_slides
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -148368,8 +148894,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
+=======
+"e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
+"your business. At the end, we'll propose you a quiz to test your knowledge."
+>>>>>>> upstream/18.0
 =======
 "e.g. In this video, we'll give you the keys on how Odoo can help you to grow "
 "your business. At the end, we'll propose you a quiz to test your knowledge."
@@ -149754,9 +150285,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "mean? The Vimeo \"Private\" privacy setting means it is a video which can be viewed only by the users with the link to it.\n"
 "                Your video will never come up in the search results nor on your channel."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -150535,6 +151069,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -151058,6 +151595,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/website_slides/static/src/js/public/components/slide_upload_dialog/slide_upload_dialog.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -151841,6 +152379,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "means? The YouTube \"unlisted\" means it is a video which can be viewed only "
 "by the users with the link to it. Your video will never come up in the "
 "search results nor on your channel."
@@ -152106,6 +152646,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

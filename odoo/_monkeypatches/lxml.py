@@ -1,5 +1,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 import lxml.html.clean
@@ -7,11 +10,15 @@ import re
 
 from importlib.metadata import version
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import lxml.html
 import re
 
 from importlib.metadata import version
+from lxml.etree import LIBXML_VERSION
+>>>>>>> upstream/18.0
+=======
 from lxml.etree import LIBXML_VERSION
 >>>>>>> upstream/18.0
 =======
@@ -28,7 +35,10 @@ def patch_lxml():
         lxml.html.clean._find_image_dataurls = re.compile(r'data:image/(.+?);base64,').findall
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -60,6 +70,9 @@ def patch_lxml():
         lxml.html.fromstring = fromstring
         lxml.html.document_fromstring = document_fromstring
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

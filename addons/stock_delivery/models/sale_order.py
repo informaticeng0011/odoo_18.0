@@ -56,7 +56,10 @@ class SaleOrderLine(models.Model):
         return values
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -66,6 +69,9 @@ class SaleOrderLine(models.Model):
             fields = [f for f in fields if f not in ('price_unit', 'name')]
         return fields
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
