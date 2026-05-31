@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_sale_stock_wishlist
 #
 =======
@@ -38,11 +39,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * website_sale_stock_wishlist
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +77,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-17 05:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-05-27 15:26+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
 "website_sale_stock_wishlist/lo/>\n"
 "Language: lo\n"
@@ -82,6 +94,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100,6 +115,11 @@ msgid ""
 "<i class=\"fa fa-bell\"/>\n"
 "                        We'll notify you once the product is back in stock."
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-bell\"/>\n"
+"                        ພວກເຮົາຈະແຈ້ງໃຫ້ທ່ານຊາບ ເມື່ອມີສິນຄ້າໃນສາງຄືນໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
@@ -107,6 +127,11 @@ msgid ""
 "<i class=\"fa fa-times text-danger\"/>\n"
 "                                Invalid email"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-times text-danger\"/>\n"
+"                                ອີເມລບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
@@ -116,6 +141,13 @@ msgid ""
 "                            Get notified when back in stock\n"
 "                        </small>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<small>\n"
+"                            <i class=\"fa fa-envelope-o\"/>\n"
+"                            ຮັບການແຈ້ງເຕືອນເມື່ອມີສິນຄ້າໃນສາງຄືນໃໝ່\n"
+"                        </small>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
@@ -123,18 +155,31 @@ msgid ""
 "<span class=\"fa fa-fw fa-shopping-cart\"/>\n"
 "                <span class=\"d-none d-md-inline\">Add</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-fw fa-shopping-cart\"/>\n"
+"                <span class=\"d-none d-md-inline\">ເພີ່ມ</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_stock_wishlist/static/src/xml/product_availability.xml:0
 msgid "Add to wishlist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເຂົ້າໃນລາຍການທີ່ຢາກໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_stock_wishlist/static/src/xml/product_availability.xml:0
 msgid "Added to your wishlist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມເຂົ້າໃນລາຍການທີ່ຢາກໄດ້ຂອງທ່ານແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #: model:ir.model,name:website_sale_stock_wishlist.model_product_template
@@ -145,7 +190,11 @@ msgid "Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສິນຄ້າ"
 >>>>>>> upstream/18.0
@@ -168,25 +217,45 @@ msgstr "ສິນຄ້າ"
 #. module: website_sale_stock_wishlist
 #: model:ir.model,name:website_sale_stock_wishlist.model_product_wishlist
 msgid "Product Wishlist"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການສິນຄ້າທີ່ຢາກໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #. odoo-javascript
 #: code:addons/website_sale_stock_wishlist/static/src/xml/product_availability.xml:0
 msgid "Save for later"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນທຶກໄວ້ເບິ່ງພາຍຫຼັງ"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #: model:ir.model.fields,field_description:website_sale_stock_wishlist.field_product_wishlist__stock_notification
 msgid "Stock Notification"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນສາງສິນຄ້າ"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
 msgid "Temporarily out of stock"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິນຄ້າໝົດຊົ່ວຄາວ"
+>>>>>>> upstream/18.0
 
 #. module: website_sale_stock_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_stock_wishlist.product_wishlist
 msgid "youremail@gmail.com"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "youremail@gmail.com"
+>>>>>>> upstream/18.0

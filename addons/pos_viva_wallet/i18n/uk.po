@@ -111,6 +111,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_viva_wallet
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -760,6 +761,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * pos_viva_wallet
 #
 # Translators:
@@ -875,6 +878,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -985,6 +989,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
@@ -1155,6 +1162,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2082,10 +2090,18 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-26 04:55+0000\n"
+"Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
+"Language-Team: Ukrainian <https://translate.odoo.com/projects/odoo-18/"
+"pos_viva_wallet/uk/>\n"
+>>>>>>> upstream/18.0
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2801,10 +2817,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
 "X-Generator: Weblate 5.16.2\n"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2969,10 +2988,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_api_key
 msgid "API Key"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3418,6 +3441,9 @@ msgstr "Ключ API"
 =======
 msgstr "Ключ API"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ключ API"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #. odoo-python
@@ -3478,7 +3504,11 @@ msgid "Can't create payment method. Please check the data and update it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не вдалося створити спосіб оплати. Перевірте дані та оновіть їх."
+>>>>>>> upstream/18.0
 =======
 msgstr "Не вдалося створити спосіб оплати. Перевірте дані та оновіть їх."
 >>>>>>> upstream/18.0
@@ -3704,7 +3734,11 @@ msgid "Can't update payment method. Please check the data and update it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Не вдалося оновити спосіб оплати. Перевірте дані та оновіть їх."
+>>>>>>> upstream/18.0
 =======
 msgstr "Не вдалося оновити спосіб оплати. Перевірте дані та оновіть їх."
 >>>>>>> upstream/18.0
@@ -3919,10 +3953,15 @@ msgstr "Повідомлення з Viva Wallet: %s"
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "Only 'group_pos_user' are allowed to cancel a Viva Wallet payment"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Тільки користувач 'group_pos_user' може скасувати платіж через Viva Wallet"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4475,10 +4514,18 @@ msgstr "Лише 'group_pos_user' може отримувати останній
 msgid ""
 "Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
 msgstr ""
+=======
+msgid ""
+"Only 'group_pos_user' are allowed to get the payment status from Viva Wallet"
+msgstr ""
+"Тільки користувачі групи 'group_pos_user' можуть отримувати статус платежу "
+"від Viva Wallet"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5206,6 +5253,12 @@ msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+msgstr ""
+"Тільки користувач 'group_pos_user' може надсилати запити на оплату через "
+"Viva Wallet"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model,name:pos_viva_wallet.model_pos_payment_method
@@ -5246,11 +5299,17 @@ msgid ""
 "Unable to retrieve Viva Wallet Bearer Token: Please verify that the Client "
 "ID and Client Secret are correct"
 msgstr ""
+<<<<<<< HEAD
+=======
+"Не вдалося отримати токен власника гаманця Viva: Перевірте правильність "
+"ідентифікатора клієнта та секретного номера клієнта"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_api_key
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_merchant_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5440,6 +5499,8 @@ msgstr ""
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/merchant-id-and-api-key/"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5986,6 +6047,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6532,6 +6596,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
@@ -6540,6 +6605,8 @@ msgstr ""
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7087,6 +7154,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7479,8 +7549,12 @@ msgstr "Ключ верифікації Viva Wallet Webhook"
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
 msgid "Your transaction with Viva Wallet failed. Please try again later."
+<<<<<<< HEAD
 msgstr ""
 "Ваша трансакція з Viva Wallet не вдалася. Будь-ласка спробуйте пізніше."
+=======
+msgstr "Ваша трансакція з Viva Wallet не вдалася. Будь-ласка спробуйте пізніше."
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_terminal_id
@@ -7672,8 +7746,12 @@ msgid "received a message for a pos payment provider not registered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "отримав повідомлення для незареєстрованого постачальника POS-платежів."
+=======
+msgstr "отримав повідомлення для незареєстрованого постачальника POS-платежів."
+>>>>>>> upstream/18.0
 =======
 msgstr "отримав повідомлення для незареєстрованого постачальника POS-платежів."
 >>>>>>> upstream/18.0
@@ -8404,6 +8482,12 @@ msgstr "отримав повідомлення для терміналу, не 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Only 'group_pos_user' are allowed to get latest transaction status"
+#~ msgstr "Лише 'group_pos_user' може отримувати останній статус транзакції"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Only 'group_pos_user' are allowed to get latest transaction status"

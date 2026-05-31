@@ -68,6 +68,7 @@ import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from collections import namedtuple
 
 <<<<<<< HEAD
@@ -892,6 +893,8 @@ from odoo.tests import tagged, Form
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from contextlib import suppress
 from collections import namedtuple
 
@@ -962,6 +965,9 @@ from odoo.tests import tagged, Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1108,6 +1114,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             return cls.env['account.chart.template'].with_company(cls.company).ref(ref_name)
 
         cls.withholding_sale_tax = find_tax_by_ref('20vwc')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2834,6 +2841,8 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         cls.withholding_purchase_tax = find_tax_by_ref('20awc')
         cls.withholding_sale_tax_23_base50 = find_tax_by_ref('23vwo')
         cls.withholding_sale_tax_23_base20 = find_tax_by_ref('23vwn')
@@ -3014,6 +3023,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3561,8 +3573,11 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 cls.withholding_sale_tax_23.id,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4092,6 +4107,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4676,7 +4694,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5217,6 +5238,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5733,6 +5757,11 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.withholding_sale_tax_23_base50_invoice._post()
+        cls.withholding_sale_tax_23_base20_invoice._post()
+>>>>>>> upstream/18.0
 =======
         cls.withholding_sale_tax_23_base50_invoice._post()
         cls.withholding_sale_tax_23_base20_invoice._post()
@@ -6653,7 +6682,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7316,6 +7348,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8133,7 +8168,11 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_pension_fund_taxes_import(self):
+=======
+    def test_pension_fund_taxes_import_assosoftware_tag(self):
+>>>>>>> upstream/18.0
 =======
     def test_pension_fund_taxes_import_assosoftware_tag(self):
 >>>>>>> upstream/18.0
@@ -9432,6 +9471,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         invoice_data = self.get_real_client_invoice_data()
         for line in invoice.line_ids.filtered(lambda x: x.name in [data[0] for data in invoice_data.lines]):
@@ -10089,6 +10129,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 =======
         # Line 1 is taken into account because the TC is missing, so we deduce it should be included.
 >>>>>>> upstream/18.0
+=======
+        # Line 1 is taken into account because the TC is missing, so we deduce it should be included.
+>>>>>>> upstream/18.0
         for line in invoice.line_ids.filtered(lambda x: x.display_type == 'product'):
             self.assertEqual(line.tax_ids, (
                 self.inps_purchase_tax
@@ -10433,6 +10476,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11075,6 +11119,97 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_pension_fund_taxes_import_zero_vat_rate(self):
+        """ Test that pension fund taxes with a 0.00% VAT rate are correctly imported."""
+
+        self.inps_purchase_tax.write({'l10n_it_exempt_reason': 'N2.1'})
+        invoice_data = self.get_real_client_invoice_data()
+        invoice = self._assert_import_invoice('IT00470550013_pfun3.xml', [{
+            'invoice_date': datetime.date(2022, 3, 24),
+            'invoice_date_due': datetime.date(2022, 3, 24),
+            'invoice_line_ids': [{
+                'name': name,
+                'price_unit': price,
+            } for name, price in invoice_data.lines]
+        }])
+
+        for line in invoice.line_ids.filtered(lambda line: line.display_type == 'product'):
+            self.assertTrue(line.tax_ids, f'No taxes imported on line: {line.name}')
+            self.assertIn(
+                self.inps_purchase_tax,
+                line.tax_ids,
+                f'Pension fund tax was not imported on line: {line.name}'
+            )
+
+    def test_import_pension_fund_specific_natura(self):
+        """ Ensure that the pension fund tax is only applied to lines matching the VAT rate and the exemption reason (Natura) """
+
+        self.env = self.env['base'].with_company(self.company_data_2['company']).env
+        pension_tax = self.env['account.tax'].search([
+            ('amount', '=', 4.0),
+            ('type_tax_use', '=', 'purchase'),
+        ], limit=1)
+        pension_tax.write({'l10n_it_exempt_reason': 'N2.1'})
+
+        applied_xml = """
+            <xpath expr="//FatturaElettronicaBody/DatiBeniServizi" position="replace">
+                <DatiBeniServizi>
+                    <DettaglioLinee>
+                        <NumeroLinea>1</NumeroLinea>
+                        <Descrizione>Compenso professionale</Descrizione>
+                        <Quantita>1.00</Quantita>
+                        <PrezzoUnitario>750.00</PrezzoUnitario>
+                        <PrezzoTotale>750.00</PrezzoTotale>
+                        <AliquotaIVA>0.00</AliquotaIVA>
+                        <Natura>N2.1</Natura>
+                    </DettaglioLinee>
+                    <DettaglioLinee>
+                        <NumeroLinea>2</NumeroLinea>
+                        <Descrizione>Imposta di bollo</Descrizione>
+                        <Quantita>1.00</Quantita>
+                        <PrezzoUnitario>2.00</PrezzoUnitario>
+                        <PrezzoTotale>2.00</PrezzoTotale>
+                        <AliquotaIVA>0.00</AliquotaIVA>
+                        <Natura>N1</Natura>
+                    </DettaglioLinee>
+                    <DatiRiepilogo>
+                        <AliquotaIVA>0.00</AliquotaIVA>
+                        <Natura>N2.1</Natura>
+                        <ImponibileImporto>750.00</ImponibileImporto>
+                        <Imposta>0.00</Imposta>
+                    </DatiRiepilogo>
+                    <DatiRiepilogo>
+                        <AliquotaIVA>0.00</AliquotaIVA>
+                        <Natura>N1</Natura>
+                        <ImponibileImporto>2.00</ImponibileImporto>
+                        <Imposta>0.00</Imposta>
+                    </DatiRiepilogo>
+                </DatiBeniServizi>
+            </xpath>
+            <xpath expr="//FatturaElettronicaBody/DatiGenerali/DatiGeneraliDocumento/ImportoTotaleDocumento" position="replace">
+                <ImportoTotaleDocumento>782.00</ImportoTotaleDocumento>
+            </xpath>
+            <xpath expr="//FatturaElettronicaBody/DatiPagamento/DettaglioPagamento/ImportoPagamento" position="replace">
+                <ImportoPagamento>782.00</ImportoPagamento>
+            </xpath>
+        """
+
+        invoices = self._assert_import_invoice('IT00470550013_pfun3.xml', [{
+            'move_type': 'in_invoice',
+            'amount_untaxed': 752.00,
+            'amount_tax': 30.00,
+            'invoice_line_ids': [
+                {'quantity': 1.0, 'price_unit': 750.00},
+                {'quantity': 1.0, 'price_unit': 2.00},
+            ],
+        }], applied_xml)
+        line_1 = invoices.invoice_line_ids[0]
+        line_2 = invoices.invoice_line_ids[1]
+        self.assertIn(pension_tax.id, line_1.tax_ids.ids)
+        self.assertNotIn(pension_tax.id, line_2.tax_ids.ids)
 >>>>>>> upstream/18.0
 
     ####################################################
@@ -11116,6 +11251,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
             enasarco_imported_tax = line.tax_ids.filtered(lambda x: x.l10n_it_pension_fund_type == 'TC07')
             self.assertEqual(self.enasarco_purchase_tax, enasarco_imported_tax)
             self.assertEqual(-8.5, enasarco_imported_tax.amount)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12042,6 +12178,8 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self.assertEqual(self.withholding_purchase_tax_23_base50 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
 
     def test_enasarco_wrong_reason_tax_import(self):
@@ -12117,6 +12255,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12540,6 +12681,7 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(self.withholding_purchase_tax_23, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
 =======
             self.assertEqual(self.withholding_purchase_tax_23 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
@@ -12771,6 +12913,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 >>>>>>> upstream/18.0
 =======
             self.assertEqual(self.withholding_purchase_tax_23 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
+>>>>>>> upstream/18.0
+=======
+            self.assertEqual(self.withholding_purchase_tax_23_base50 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
 >>>>>>> upstream/18.0
 =======
             self.assertEqual(self.withholding_purchase_tax_23_base50 | enasarco_imported_tax, line.tax_ids.filtered(lambda x: x.l10n_it_withholding_reason == 'ZO'))
@@ -13473,7 +13618,10 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14058,6 +14206,9 @@ class TestWithholdingAndPensionFundTaxes(TestItEdi):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

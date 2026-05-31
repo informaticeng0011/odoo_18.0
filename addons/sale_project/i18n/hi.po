@@ -188,6 +188,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_project
 # 
 # Translators:
@@ -933,12 +934,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * sale_project
 #
 # Translators:
 # Wil Odoo, 2024
 # Jaisal Shah <jaisal13shah@gmail.com>, 2025
 # Ujjawal Pathak, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1620,10 +1624,14 @@
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3050,6 +3058,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-17 05:49+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-26 04:54+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 "Language-Team: Hindi <https://translate.odoo.com/projects/odoo-18/"
 "sale_project/hi/>\n"
@@ -3058,6 +3070,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3774,6 +3787,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -3783,6 +3799,7 @@ msgid ""
 "                <p class=\"o_view_nocontent_smiling_face\">\n"
 "                    No milestones found. Let's create one!\n"
 "                </p><p>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4517,18 +4534,41 @@ msgid ""
 "                </p>\n"
 "            "
 msgstr ""
+=======
+"                    Track major progress points that must be reached to "
+"achieve success.\n"
+"                </p>\n"
+"            "
+msgstr ""
+"\n"
+"               <p class=\"o_view_nocontent_smiling_face\"> \n"
+"                    कोई माइलस्टोन नहीं मिला. आइए, एक बनाएं!\n"
+"               </p><p> \n"
+"                    सफलता हासिल करने के लिए जिन मुख्य प्रगति बिंदुओं तक पहुंचना ज़रूरी "
+"है, उन्हें ट्रैक करें.\n"
+"               </p> \n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "%(name)s's Sales Order Items"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s के सेल्स ऑर्डर आइटम"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "%(name)s's Sales Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(name)s के सेल्स ऑर्डर"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -4539,6 +4579,14 @@ msgid ""
 "the cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
+"order associated with this project has been cancelled. We recommend either "
+"updating the sales order item or cancelling this project in alignment with "
+"the cancellation of the sales order.\" invisible=\"sale_order_state != "
+"'cancel'\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_sale_project_inherit_form
@@ -4549,11 +4597,20 @@ msgid ""
 "cancellation of the sales order.\" invisible=\"sale_order_state != "
 "'cancel'\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"fa fa-exclamation-triangle text-warning\" title=\"The sales "
+"order associated with this task has been cancelled. We recommend either "
+"updating the sales order item or cancelling this task in alignment with the "
+"cancellation of the sales order.\" invisible=\"sale_order_state != "
+"'cancel'\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid ""
 "<span class=\"o_stat_text\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5285,11 +5342,24 @@ msgid ""
 "                            <span class=\"o_stat_value\">0</span> Sales "
 "Order\n"
 >>>>>>> upstream/18.0
+=======
+"                            <span class=\"o_stat_value\">0</span> Sales "
+"Order\n"
+>>>>>>> upstream/18.0
 "                        </span>\n"
 "                        <span class=\"o_stat_text\">\n"
 "                            Make Billable\n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            <span class=\"o_stat_value\">0</span> सेल्स ऑर्डर\n"
+"                       </span>\n"
+"                        <span class=\"o_stat_text\"> \n"
+"                            बिल करने लायक बनाएं\n"
+"                       </span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -5298,6 +5368,12 @@ msgid ""
 "                            Sales Orders\n"
 "                        </span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">\n"
+"                            सेल्स ऑर्डर\n"
+"                       </span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
@@ -5305,18 +5381,31 @@ msgid ""
 "<span class=\"o_stat_text\">Customer</span>\n"
 "                        <span class=\"o_stat_text\">Preview</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text\">ग्राहक</span>\n"
+"                        <span class=\"o_stat_text\">प्रीव्यू</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_form
 #: model_terms:ir.ui.view,arch_db:sale_project.project_sharing_inherit_project_task_view_form
 #: model_terms:ir.ui.view,arch_db:sale_project.view_sale_project_inherit_form
 msgid "<span class=\"o_stat_text\">Sales Order</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">सेल्स ऑर्डर</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_order_form_inherit_sale_project
 msgid "<span class=\"o_stat_text\">Tasks</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">टास्क</span>"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_form
@@ -5591,7 +5680,11 @@ msgid "<span>)</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>)</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>)</span>"
 >>>>>>> upstream/18.0
@@ -6553,9 +6646,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A project must be defined on the quotation %(order)s or on the form of products creating a task on order.\n"
 "The following product need a project in which to put its task: %(product_name)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6995,6 +7091,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7287,6 +7384,13 @@ msgid ""
 =======
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+msgstr ""
+"कोटेशन %(order)s पर या ऑर्डर पर टास्क बनाने वाले प्रॉडक्ट के फॉर्म पर एक प्रोजेक्ट "
+"परिभाषित होना चाहिए\n"
+"नीचे दिए गए प्रॉडक्ट को अपना टास्क रखने के लिए एक प्रोजेक्ट की आवश्यकता है: %"
+"(product_name)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_sale_order__project_id
@@ -7295,10 +7399,17 @@ msgid ""
 "analytic distribution of this project will also serve as a reference for "
 "newly created sales order items."
 msgstr ""
+<<<<<<< HEAD
+=======
+"सेल्स ऑर्डर कन्फर्म होने पर प्रोजेक्ट के तहत एक टास्क बनाया जाएगा. इस प्रोजेक्ट का "
+"एनालिटिक डिस्ट्रीब्यूशन नए बनाए गए सेल्स ऑर्डर आइटम्स के लिए भी एक रेफ़रेंस के रूप में काम "
+"करेगा।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_sale_order_line__qty_delivered_method
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7450,6 +7561,8 @@ msgid ""
 "  - Analytic From expenses: the quantity is the quantity sum from posted expenses\n"
 "  - Timesheet: the quantity is the sum of hours recorded on tasks linked to this sale line\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7892,6 +8005,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8006,6 +8120,8 @@ msgid ""
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8280,6 +8396,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8464,13 +8583,21 @@ msgstr ""
 #. odoo-python
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Based on Delivered Quantity (Manual)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवर की गई मात्रा के आधार पर (मैन्युअल)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Based on Milestones"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "माइलस्टोन के आधार पर"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_project__allow_billable
@@ -8629,7 +8756,11 @@ msgid "Billable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिल करने योग्य"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिल करने योग्य"
 >>>>>>> upstream/18.0
@@ -9372,6 +9503,7 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_project
@@ -9397,6 +9529,8 @@ msgstr ""
 msgid "Cost of Goods Sold"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10220,6 +10354,9 @@ msgstr "बेचे गए सामानों की कीमत"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10770,6 +10907,7 @@ msgstr "बेचे गए सामानों की कीमत"
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Cost of Goods Sold Items"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_project
@@ -11611,6 +11749,14 @@ msgstr ""
 #: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
 msgid "Create Project"
 msgstr ""
+=======
+msgstr "बेचे गए सामानों की कीमत"
+
+#. module: sale_project
+#: model:ir.actions.server,name:sale_project.model_sale_order_action_create_project
+msgid "Create Project"
+msgstr "प्रोजेक्ट बनाएं"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -11889,7 +12035,11 @@ msgid "Create a customer invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहक का इनवॉइस बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "ग्राहक का इनवॉइस बनाएं"
 >>>>>>> upstream/18.0
@@ -12714,7 +12864,11 @@ msgstr "ग्राहक का इनवॉइस बनाएं"
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Create a new quotation, the first step of a new sale!"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "एक नया कोटेशन बनाएं, एक नए सेल का पहला कदम!"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -12723,12 +12877,21 @@ msgid ""
 "Create a project for the order with a task for each sales order line to "
 "track the time spent."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ऑर्डर के लिए एक प्रोजेक्ट बनाएं, जिसमें प्रत्येक सेल्स ऑर्डर लाइन के लिए समय ट्रैक करने हेतु एक "
+"टास्क हो।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Create a task in an existing project to track the time spent."
 msgstr ""
+<<<<<<< HEAD
+=======
+"बिताए गए समय को ट्रैक करने के लिए किसी मौजूदा प्रोजेक्ट में एक टास्क बनाएं।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -13007,7 +13170,11 @@ msgid "Create a vendor bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेंडर बिल बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेंडर बिल बनाएं"
 >>>>>>> upstream/18.0
@@ -13832,7 +13999,11 @@ msgstr "वेंडर बिल बनाएं"
 #. odoo-python
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Create an empty project for the order to track the time spent."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिताए गए समय को ट्रैक करने के लिए ऑर्डर के लिए एक खाली प्रोजेक्ट बनाएं।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -13986,6 +14157,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14621,6 +14793,9 @@ msgstr ""
 =======
 "इनवॉइस बनाएं, पेमेंट रजिस्टर करें और अपने ग्राहकों से हुई बातचीत का पूरा "
 "रिकॉर्ड रखें."
+>>>>>>> upstream/18.0
+=======
+msgstr "इनवॉइस बनाएं, पेमेंट रजिस्टर करें और अपने ग्राहकों से हुई बातचीत का पूरा रिकॉर्ड रखें."
 >>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस बनाएं, पेमेंट रजिस्टर करें और अपने ग्राहकों से हुई बातचीत का पूरा रिकॉर्ड रखें."
@@ -15068,6 +15243,10 @@ msgid ""
 "Create invoices, register payments and keep track of the discussions with "
 "your vendors."
 msgstr ""
+<<<<<<< HEAD
+=======
+"इनवॉइस बनाएं, पेमेंट रजिस्टर करें और अपने वेंडर के साथ चर्चाओं पर नज़र रखें।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_product_product__service_tracking
@@ -15128,7 +15307,11 @@ msgid "Create on Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑर्डर पर बनाएं"
+>>>>>>> upstream/18.0
 =======
 msgstr "ऑर्डर पर बनाएं"
 >>>>>>> upstream/18.0
@@ -15302,6 +15485,10 @@ msgid ""
 "Create projects or tasks later, and link them to order to track the time "
 "spent."
 msgstr ""
+<<<<<<< HEAD
+=======
+"बाद में प्रोजेक्ट या टास्क बनाएं और बिताए गए समय को ट्रैक करने के लिए उन्हें ऑर्डर से लिंक करें।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_project__partner_id
@@ -15586,7 +15773,11 @@ msgid "Customer Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कस्टमर इनवॉइस"
+>>>>>>> upstream/18.0
 =======
 msgstr "कस्टमर इनवॉइस"
 >>>>>>> upstream/18.0
@@ -16410,7 +16601,11 @@ msgstr "कस्टमर इनवॉइस"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.product_template_form_view_invoice_policy_inherit_sale_project
 msgid "Defined on quotation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोटेशन में बताया गया"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-javascript
@@ -16534,7 +16729,11 @@ msgid "Delivered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवर किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "डिलीवर किया गया"
 >>>>>>> upstream/18.0
@@ -16893,12 +17092,20 @@ msgstr "डिलीवर किया गया"
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_project_only_product_template
 msgid "Digital Marketing Campaign (project)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिजिटल मार्केटिंग कैंपेन (प्रोजेक्ट)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__display_sale_order_button
 msgid "Display Sales Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर दिखाएं"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -16916,7 +17123,11 @@ msgid "Down Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डाउन पेमेंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "डाउन पेमेंट"
 >>>>>>> upstream/18.0
@@ -16939,12 +17150,20 @@ msgstr "डाउन पेमेंट"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.product_template_form_view_invoice_policy_inherit_sale_project
 msgid "Empty project"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "खाली प्रोजेक्ट"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_flooring_product_template
 msgid "Flooring Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "फ़्लोरिंग सर्विस"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -16956,13 +17175,21 @@ msgstr "प्रगति में है"
 #. odoo-python
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Invoice your milestones when they are reached."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अपने माइलस्टोन पूरे होने पर उनके लिए इनवॉइस बनाएं।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_project_view_form_simplified_inherit
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid "Invoice your time and material to customers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ग्राहकों को अपने समय और सामग्री के लिए इनवॉइस भेजें"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-javascript
@@ -17238,7 +17465,11 @@ msgid "Invoiced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस किया गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस किया गया"
 >>>>>>> upstream/18.0
@@ -18326,7 +18557,11 @@ msgid "Invoices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस "
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस "
 >>>>>>> upstream/18.0
@@ -19329,7 +19564,11 @@ msgid "Invoicing Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइसिंग की नीति"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइसिंग की नीति"
 >>>>>>> upstream/18.0
@@ -20177,7 +20416,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल एंट्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल एंट्री"
 >>>>>>> upstream/18.0
@@ -21298,7 +21541,11 @@ msgid "Journal Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "जर्नल आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "जर्नल आइटम"
 >>>>>>> upstream/18.0
@@ -22259,7 +22506,11 @@ msgid "Load more"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ज़्यादा लोड करें"
+>>>>>>> upstream/18.0
 =======
 msgstr "ज़्यादा लोड करें"
 >>>>>>> upstream/18.0
@@ -22765,10 +23016,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manually set quantities on order: Invoice based on the manually entered quantity, without creating an analytic account.\n"
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23210,6 +23464,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23393,6 +23648,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23561,6 +23818,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23863,7 +24123,11 @@ msgid "Materials"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सामग्री"
+>>>>>>> upstream/18.0
 =======
 msgstr "सामग्री"
 >>>>>>> upstream/18.0
@@ -24432,7 +24696,11 @@ msgstr "सामग्री"
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_sale_order_line__qty_delivered_method
 msgid "Method to update delivered qty"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "डिलीवर की गई मात्रा को अपडेट करने का तरीका"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -24628,7 +24896,11 @@ msgid "Milestones"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "माइलस्टोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "माइलस्टोन"
 >>>>>>> upstream/18.0
@@ -25198,24 +25470,40 @@ msgstr "माइलस्टोन"
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "New Sales Order Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "नया सेल्स ऑर्डर आइटम"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_form
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree
 #: model_terms:ir.ui.view,arch_db:sale_project.view_sale_project_inherit_form
 msgid "Non-billable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "गैर-बिल योग्य"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.portal_tasks_list_inherit
 msgid "Not Billed"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिल नहीं किया गया"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_task_only_product_template
 msgid "Office Furniture Set (task)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ऑफ़िस फ़र्नीचर सेट (टास्क)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -25223,21 +25511,34 @@ msgstr ""
 msgid ""
 "Once the quotation is confirmed by the customer, it becomes a sales order."
 msgstr ""
+<<<<<<< HEAD
+=======
+"एक बार जब ग्राहक द्वारा कोटेशन की पुष्टि हो जाती है, तो यह एक सेल्स ऑर्डर बन जाता है।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "Other Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "अन्य सेवाएं"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_painting_product_template
 msgid "Painting"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "पेंटिंग"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_milestone__quantity_percentage
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25971,10 +26272,17 @@ msgid ""
 "the milestone is reached."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"Percentage of the ordered quantity that will automatically be delivered once "
+"the milestone is reached."
+msgstr ""
+"माइलस्टोन पूरा होने पर ऑर्डर की गई मात्रा का वह प्रतिशत जो अपने-आप डिलीवर हो जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_plumbing_product_template
 msgid "Plumbing Services"
+<<<<<<< HEAD
 msgstr ""
 
 #. module: sale_project
@@ -27659,6 +27967,21 @@ msgstr ""
 #: code:addons/sale_project/models/product_template.py:0
 msgid "Prepaid/Fixed Price"
 msgstr ""
+=======
+msgstr "प्लंबिंग से जुड़ी सेवाएं"
+
+#. module: sale_project
+#. odoo-python
+#: code:addons/sale_project/models/project_task.py:0
+msgid "Portal Sale Order"
+msgstr "पोर्टल सेल ऑर्डर"
+
+#. module: sale_project
+#. odoo-python
+#: code:addons/sale_project/models/product_template.py:0
+msgid "Prepaid/Fixed Price"
+msgstr "प्रीपेड/फिक्स कीमत"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_product_template
@@ -27674,6 +27997,7 @@ msgstr "उत्पाद प्रकार"
 #: model:ir.model.fields,help:sale_project.field_project_project__reinvoiced_sale_order_id
 msgid ""
 "Products added to stock pickings, whose operation type is configured to "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28407,6 +28731,14 @@ msgid ""
 "set up for it."
 >>>>>>> upstream/18.0
 msgstr ""
+=======
+"generate analytic costs, will be re-invoiced in this sales order if they are "
+"set up for it."
+msgstr ""
+"स्टॉक पिकिंग्स में जोड़े गए प्रॉडक्ट, जिनका ऑपरेशन प्रकार एनालिटिक लागत जनरेट करने के लिए "
+"कॉन्फ़िगर किया गया है, इस सेल्स ऑर्डर में फिर से इनवॉइस किए जाएंगे अगर वे इसके लिए सेट अप "
+"किए गए हैं।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_project
@@ -28676,7 +29008,11 @@ msgid "Project"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोजेक्ट"
 >>>>>>> upstream/18.0
@@ -29461,7 +29797,11 @@ msgstr "प्रोजेक्ट"
 #. module: sale_project
 #: model:ir.model.fields.selection,name:sale_project.selection__product_template__service_tracking__task_in_project
 msgid "Project & Task"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट और टास्क"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_sale_order__project_account_id
@@ -29727,7 +30067,11 @@ msgid "Project Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट अमाउंट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोजेक्ट अमाउंट"
 >>>>>>> upstream/18.0
@@ -30521,7 +30865,11 @@ msgid "Project Milestone"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट माइलस्टोन"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोजेक्ट माइलस्टोन"
 >>>>>>> upstream/18.0
@@ -30544,7 +30892,11 @@ msgstr "प्रोजेक्ट माइलस्टोन"
 #. module: sale_project
 #: model:ir.model.fields.selection,name:sale_project.selection__product_template__service_type__milestones
 msgid "Project Milestones"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट माइलस्टोन"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_product_product__project_template_id
@@ -30738,7 +31090,11 @@ msgid "Project Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट टेंप्लेट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोजेक्ट टेंप्लेट"
 >>>>>>> upstream/18.0
@@ -31307,7 +31663,11 @@ msgstr "प्रोजेक्ट टेंप्लेट"
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_project_task__project_sale_order_id
 msgid "Project's sale order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट का सेल ऑर्डर"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -31502,7 +31862,11 @@ msgid "Projects"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "प्रोजेक्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "प्रोजेक्ट"
 >>>>>>> upstream/18.0
@@ -32077,17 +32441,29 @@ msgstr "मात्रा"
 #: model:ir.model.fields,field_description:sale_project.field_project_milestone__quantity_percentage
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree
 msgid "Quantity (%)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "मात्रा (%)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_order_template_line
 msgid "Quotation Template Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "कोटेशन टेम्पलेट लाइन"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.view_edit_project_inherit_form
 msgid "Sales & Invoicing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स और इनवॉइसिंग"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_report
@@ -32280,7 +32656,11 @@ msgid "Sales Analysis Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स एनालिसिस रिपोर्ट"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स एनालिसिस रिपोर्ट"
 >>>>>>> upstream/18.0
@@ -33135,7 +33515,11 @@ msgid "Sales Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर"
 >>>>>>> upstream/18.0
@@ -34137,7 +34521,11 @@ msgid "Sales Order Item"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर आइटम"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर आइटम"
 >>>>>>> upstream/18.0
@@ -34601,7 +34989,11 @@ msgstr "सेल्स ऑर्डर आइटम"
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_milestone__sale_line_id
 msgid "Sales Order Item that will be updated once the milestone is reached."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर आइटम जिसे माइलस्टोन पूरा होने पर अपडेट किया जाएगा।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_line_id
@@ -34752,10 +35144,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales Order Item to which the time spent on this task will be added in order to be invoiced to your customer.\n"
 "By default the sales order item set on the project will be selected. In the absence of one, the last prepaid sales order item that has time remaining will be used.\n"
 "Remove the sales order item in order to make this task non billable. You can also change or remove the sales order item of each timesheet entry individually."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35199,6 +35594,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35312,6 +35708,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35585,6 +35983,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35771,7 +36172,11 @@ msgstr ""
 #: code:addons/sale_project/models/project_project.py:0
 #: code:addons/sale_project/static/src/components/project_right_side_panel/components/project_profitability_section.xml:0
 msgid "Sales Order Items"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर आइटम"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_sale_order_line
@@ -35972,7 +36377,11 @@ msgid "Sales Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर"
+>>>>>>> upstream/18.0
 =======
 msgstr "सेल्स ऑर्डर"
 >>>>>>> upstream/18.0
@@ -36687,6 +37096,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Sales order item that will be selected by default on the tasks and timesheets of this project, except if the employee set on the timesheets is explicitely linked to another sales order item on the project.\n"
 "It can be modified on each task and timesheet entry individually if necessary."
 msgstr ""
@@ -36733,6 +37143,8 @@ msgstr ""
 "ज़रूरत पड़ने पर इसे हर टास्क और टाइमशीट एंट्री पर अलग-अलग बदला जा सकता है।"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37178,6 +37590,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37473,18 +37888,30 @@ msgstr ""
 #. module: sale_project
 #: model:ir.model.fields,help:sale_project.field_project_task__sale_order_id
 msgid "Sales order to which the task is linked."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर जिससे टास्क जुड़ा हुआ है।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_screw_driver_product_template
 msgid "Screw Driver"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "स्क्रू ड्राइवर"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/controllers/portal.py:0
 msgid "Search in Invoice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस में खोजें"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -37495,13 +37922,21 @@ msgstr ""
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_project_view_form_simplified_inherit
 msgid "Select who to bill..."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "चुनें कि बिल किसे भेजा जाए..।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model.fields,field_description:sale_project.field_product_product__service_policy
 #: model:ir.model.fields,field_description:sale_project.field_product_template__service_policy
 msgid "Service Invoicing Policy"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्विस इनवॉइसिंग से जुड़ी नीति"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-javascript
@@ -37695,7 +38130,11 @@ msgid "Sold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "बिक गया"
+>>>>>>> upstream/18.0
 =======
 msgstr "बिक गया"
 >>>>>>> upstream/18.0
@@ -38458,7 +38897,11 @@ msgid "Task"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टास्क"
+>>>>>>> upstream/18.0
 =======
 msgstr "टास्क"
 >>>>>>> upstream/18.0
@@ -39028,7 +39471,11 @@ msgstr "टास्क"
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "Task Created (%(name)s): %(link)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टास्क बनाया गया (%(name)s): %(link)s"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:ir.model,name:sale_project.model_project_task_recurrence
@@ -39186,7 +39633,11 @@ msgid "Task Recurrence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टास्क को निश्चित अंतराल पर दोहराना"
+>>>>>>> upstream/18.0
 =======
 msgstr "टास्क को निश्चित अंतराल पर दोहराना"
 >>>>>>> upstream/18.0
@@ -39910,7 +40361,11 @@ msgid "Tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टास्क"
+>>>>>>> upstream/18.0
 =======
 msgstr "टास्क"
 >>>>>>> upstream/18.0
@@ -40883,7 +41338,11 @@ msgid "Tasks Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टास्क का विश्लेषण"
+>>>>>>> upstream/18.0
 =======
 msgstr "टास्क का विश्लेषण"
 >>>>>>> upstream/18.0
@@ -41453,7 +41912,11 @@ msgstr "टास्क का विश्लेषण"
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "The Sale Order Item should contain a service product."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल ऑर्डर आइटम में एक सर्विस प्रॉडक्ट होना चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -41462,6 +41925,10 @@ msgid ""
 "The product %s should not have a global project since it will generate a "
 "project."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%s प्रॉडक्ट के पास एक ग्लोबल प्रोजेक्ट नहीं होना चाहिए, क्योंकि यह एक प्रोजेक्ट जनरेट करेगा।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -41470,6 +41937,11 @@ msgid ""
 "The product %s should not have a project nor a project template since it "
 "will not generate project."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%s प्रॉडक्ट में न तो कोई प्रोजेक्ट होना चाहिए और न ही कोई प्रोजेक्ट टेम्पलेट, क्योंकि यह "
+"कोई प्रोजेक्ट जेनरेट नहीं करेगा।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -41478,6 +41950,11 @@ msgid ""
 "The product %s should not have a project template since it will generate a "
 "task in a global project."
 msgstr ""
+<<<<<<< HEAD
+=======
+"%s प्रॉडक्ट में प्रोजेक्ट टेम्पलेट नहीं होना चाहिए, क्योंकि यह एक ग्लोबल प्रोजेक्ट में एक टास्क "
+"जनरेट करेगा।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -41486,18 +41963,31 @@ msgid ""
 "The project couldn't be created as the Sales Order must be confirmed, is "
 "already linked to a project, or doesn't involve any services."
 msgstr ""
+<<<<<<< HEAD
+=======
+"प्रोजेक्ट नहीं बनाया जा सका, क्योंकि सेल्स ऑर्डर का कन्फर्म होना ज़रूरी है, यह पहले से ही "
+"किसी प्रोजेक्ट से जुड़ा है या इसमें कोई सेवाएं शामिल नहीं हैं।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/sale_order.py:0
 msgid "This Sales Order must contain at least one product of type \"Service\"."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इस सेल्स ऑर्डर में \"सर्विस\" टाइप का कम से कम एक प्रॉडक्ट होना चाहिए।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/sale_order_line.py:0
 msgid "This task has been created from: %(order_link)s (%(product_name)s)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "यह टास्क से बनाया गया है: %(order_link)s (%(product_name)s)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -41763,7 +42253,11 @@ msgid "To Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "टू डू"
+>>>>>>> upstream/18.0
 =======
 msgstr "टू डू"
 >>>>>>> upstream/18.0
@@ -42582,7 +43076,11 @@ msgid "To invoice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "इनवॉइस के लिए"
+>>>>>>> upstream/18.0
 =======
 msgstr "इनवॉइस के लिए"
 >>>>>>> upstream/18.0
@@ -42690,7 +43188,11 @@ msgstr "इनवॉइस के लिए"
 #: model:ir.model.fields,field_description:sale_project.field_product_product__service_type
 #: model:ir.model.fields,field_description:sale_project.field_product_template__service_type
 msgid "Track Service"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सर्विस ट्रैक करें"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -42964,7 +43466,11 @@ msgid "Vendor Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेंडर बिल"
+>>>>>>> upstream/18.0
 =======
 msgstr "वेंडर बिल"
 >>>>>>> upstream/18.0
@@ -43770,17 +44276,29 @@ msgstr "वेंडर बिल"
 #. module: sale_project
 #: model_terms:ir.ui.view,arch_db:sale_project.project_milestone_view_tree
 msgid "View Sales Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "सेल्स ऑर्डर देखें"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_service_create_project_and_task_product_template
 msgid "Website Redesign Service (project & task)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वेबसाइट रीडिज़ाइन सर्विस (प्रोजेक्ट और टास्क)"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #: model:product.template,name:sale_project.product_product_wiring_product_template
 msgid "Wiring Services"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "वायरिंग से जुड़ी सेवाएं"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
@@ -43789,9 +44307,18 @@ msgid ""
 "You cannot link the order item %(order_id)s - %(product_id)s to this task "
 "because it is a re-invoiced expense."
 msgstr ""
+<<<<<<< HEAD
+=======
+"आप ऑर्डर आइटम %(order_id)s - %(product_id)s को इस टास्क से लिंक नहीं कर सकते, "
+"क्योंकि यह फिर से बनाया गया इनवॉइस का खर्च है।"
+>>>>>>> upstream/18.0
 
 #. module: sale_project
 #. odoo-python
 #: code:addons/sale_project/models/project_project.py:0
 msgid "You will be able to create an invoice and collect the payment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "आप एक इनवॉइस बना सकेंगे और पेमेंट ले सकेंगे।"
+>>>>>>> upstream/18.0

@@ -263,7 +263,10 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1113,6 +1116,7 @@ from odoo import fields, exceptions, tests
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.models.mail_activity import MailActivity
 >>>>>>> upstream/18.0
@@ -1300,6 +1304,8 @@ from odoo.addons.mail.tests.common import mail_new_test_user, MailCommon
 from odoo.addons.test_mail.models.test_mail_models import MailTestActivity
 from odoo.tests import Form, HttpCase, users
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2082,6 +2088,9 @@ from odoo.tests.common import freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2745,12 +2754,15 @@ class TestActivityCommon(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.test_record, cls.test_record_2 = cls.env['mail.test.activity'].with_context(cls._test_context).create([
             {'name': 'Test'}, {'name': 'Test_2'},
         ])
         # reset ctx
         cls._reset_mail_context(cls.test_record)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3160,6 +3172,9 @@ class TestActivityCommon(MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3695,7 +3710,10 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4497,6 +4515,9 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5163,7 +5184,10 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5546,7 +5570,10 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5877,6 +5904,9 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6210,11 +6240,14 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         access_open.with_user(self.user_employee).activity_schedule(
             'test_mail.mail_act_test_todo_generic',
         )
         access_ro.with_user(self.user_employee).activity_schedule(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6543,6 +6576,9 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6901,6 +6937,7 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6951,6 +6988,8 @@ class TestActivityRights(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7285,6 +7324,9 @@ class TestActivityRights(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7948,7 +7990,11 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 feedback='Test feedback',)
+=======
+                feedback='Test feedback 1')
+>>>>>>> upstream/18.0
 =======
                 feedback='Test feedback 1')
 >>>>>>> upstream/18.0
@@ -8507,7 +8553,11 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 feedback='Test feedback')
+=======
+                feedback='Test feedback 2')
+>>>>>>> upstream/18.0
 =======
                 feedback='Test feedback 2')
 >>>>>>> upstream/18.0
@@ -9056,8 +9106,14 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(len(self.test_record.message_ids), 2)
             self.assertEqual(self.test_record.message_ids.mapped('subtype_id'), self.env.ref('mail.mt_activities'))
+=======
+            self.assertEqual(len(self.test_record.message_ids), 3)
+            feedback2, feedback1, _create_log = self.test_record.message_ids
+            self.assertEqual((feedback2 + feedback1).subtype_id, self.env.ref('mail.mt_activities'))
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(len(self.test_record.message_ids), 3)
             feedback2, feedback1, _create_log = self.test_record.message_ids
@@ -9880,7 +9936,11 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertEqual(len(self.test_record.message_ids), 2)
+=======
+            self.assertEqual(len(self.test_record.message_ids), 3, 'Should not produce additional message')
+>>>>>>> upstream/18.0
 =======
             self.assertEqual(len(self.test_record.message_ids), 3, 'Should not produce additional message')
 >>>>>>> upstream/18.0
@@ -10580,9 +10640,12 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activities = self.env['mail.activity'].search([('user_id', 'in', archived_users.ids)])
         self.assertFalse(activities, "Activities of archived users should be deleted.")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11375,6 +11438,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12161,7 +12227,10 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12943,6 +13012,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13646,7 +13718,11 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         activity_message = test_record.message_ids[-1]
+=======
+        activity_message = test_record.message_ids[0]
+>>>>>>> upstream/18.0
 =======
         activity_message = test_record.message_ids[0]
 >>>>>>> upstream/18.0
@@ -14583,6 +14659,10 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env.ref('test_mail.mail_act_test_todo').keep_done = True
+>>>>>>> upstream/18.0
 =======
         self.env.ref('test_mail.mail_act_test_todo').keep_done = True
 >>>>>>> upstream/18.0
@@ -15641,7 +15721,11 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Activity.create({
+=======
+        test_record_1_late_activity = Activity.create({
+>>>>>>> upstream/18.0
 =======
         test_record_1_late_activity = Activity.create({
 >>>>>>> upstream/18.0
@@ -16691,6 +16775,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16956,6 +17041,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17739,6 +17826,9 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18613,6 +18703,7 @@ class TestActivityMixin(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18667,6 +18758,8 @@ class TestActivityMixin(TestActivityCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19321,6 +19414,7 @@ class TestActivityMixin(TestActivityCommon):
         self.assertTrue(act.exists())
         self.assertFalse(act.active)
         self.assertFalse(test_record.exists())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20765,6 +20859,8 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
         self.env.invalidate_all()
         self.assertEqual(
@@ -20884,6 +20980,9 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21320,7 +21419,10 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21738,6 +21840,9 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22146,8 +22251,11 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.test_activities_removed.write({'user_id': self.user_admin.id})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22554,6 +22662,9 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23045,6 +23156,9 @@ class TestActivitySystray(TestActivityCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23698,6 +23812,9 @@ class TestActivitySystrayBusNotify(TestActivityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

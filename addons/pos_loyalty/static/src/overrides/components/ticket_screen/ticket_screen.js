@@ -74,6 +74,7 @@ patch(TicketScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (orderline.is_reward_line) {
             const reward = orderline.reward_id;
             const program = reward && reward.program_id;
@@ -355,6 +356,8 @@ patch(TicketScreen.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return this.pos.models["loyalty.program"].some(
             (program) =>
                 ["gift_card", "ewallet"].includes(program.program_type) &&
@@ -392,6 +395,9 @@ patch(TicketScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -562,6 +568,9 @@ patch(TicketScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms_twilio
 #
 =======
@@ -38,11 +39,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * sms_twilio
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +77,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-17 05:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-05-26 04:54+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/sms_twilio/"
 "lo/>\n"
 "Language: lo\n"
@@ -82,6 +94,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98,53 +113,89 @@ msgstr ""
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "%(failure_type)s: %(failure_reason)s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(failure_type)s: %(failure_reason)s"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "'To' and 'From' numbers cannot be the same"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີ 'ຜູ້ຮັບ' ແລະ 'ຜູ້ສົ່ງ' ບໍ່ສາມາດເປັນເບີດຽວກັນໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "A 'To' phone number is required"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງມີເບີໂທລະສັບ 'ຜູ້ຮັບ'"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "ACabcde12345abcde12345abcde12345ab"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ACabcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_res_company__sms_twilio_account_sid
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_twilio_account_sid
 msgid "Account SID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SID ຂອງບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "An error occurred while fetching the numbers."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດໃນຂະນະທີ່ກຳລັງດຶງຂໍ້ມູນເບີໂທລະສັບ."
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_res_company__sms_twilio_auth_token
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_twilio_auth_token
 msgid "Auth Token"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທເຄັນການຢັ້ງຢືນຕົວຕົນ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_authentication
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_authentication
 msgid "Authentication Error\""
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການຢັ້ງຢືນຕົວຕົນ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_res_company
 msgid "Companies"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນດາບໍລິສັດ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_sms__record_company_id
@@ -157,7 +208,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍລິສັດ"
 >>>>>>> upstream/18.0
@@ -180,89 +235,153 @@ msgstr "ບໍລິສັດ"
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.res_config_settings_view_form
 msgid "Configure Twilio Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງຄ່າບັນຊີ Twilio"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_id
 msgid "Country"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__country_code
 msgid "Country Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__create_uid
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__create_date
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Credentials"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນປະຈຳຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Delete"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຶບ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Discard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__display_name
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Error: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດ: %s"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_sms__failure_type
 msgid "Failure Type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຄວາມລົ້ມເຫຼວ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_mail_notification__failure_type
 msgid "Failure type"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດຄວາມລົ້ມເຫຼວ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_to
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_from_to
 msgid "From / To identic"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີຜູ້ສົ່ງ ແລະ ຜູ້ຮັບ ຄືກັນ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__id
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_callback
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_callback
 msgid "Incorrect callback URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ສຳລັບ callback ບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -271,6 +390,10 @@ msgid ""
 "Invalid Twilio Account SID: must only contain alphanumeric characters after "
 "'AC'."
 msgstr ""
+<<<<<<< HEAD
+=======
+"SID ບັນຊີ Twilio ບໍ່ຖືກຕ້ອງ: ຕ້ອງປະກອບດ້ວຍຕົວອັກສອນ ແລະ ຕົວເລກ ຖັດຈາກ 'AC' ເທົ່ານັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
@@ -278,41 +401,69 @@ msgstr ""
 msgid ""
 "Invalid Twilio Account SID: must start with 'AC' and be 34 characters long."
 msgstr ""
+<<<<<<< HEAD
+=======
+"SID ບັນຊີ Twilio ບໍ່ຖືກຕ້ອງ: ຕ້ອງເລີ່ມຕົ້ນດ້ວຍ 'AC' ແລະ ມີຄວາມຍາວ 34 ຕົວອັກສອນ."
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__write_uid
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__write_date
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແກ້ໄຂຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_tracker
 msgid "Link SMS to mailing/sms tracking models"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊື່ອມຕໍ່ SMS ກັບໂມເດວການຕິດຕາມການສົ່ງເມລ/SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/models/res_company.py:0
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Manage Twilio SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການ Twilio SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_mail_notification
 msgid "Message Notifications"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການແຈ້ງເຕືອນຂໍ້ຄວາມ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__mail_notification__failure_type__twilio_from_missing
 #: model:ir.model.fields.selection,name:sms_twilio.selection__sms_sms__failure_type__twilio_from_missing
 msgid "Missing From Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີເບີຜູ້ສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
@@ -320,75 +471,133 @@ msgid ""
 "Need help ?\n"
 "                            <i class=\"fa fa-external-link\" aria-hidden=\"true\"/>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຕ້ອງການຄວາມຊ່ວຍເຫຼືອບໍ?\n"
+"                            <i class=\"fa fa-external-link\" aria-"
+"hidden=\"true\"/>"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_res_company__sms_twilio_number_ids
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_twilio_number_ids
 msgid "Numbers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_sms
 msgid "Outgoing SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS ຂາອອກ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Phone Numbers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Please set the number to which you want to send a test SMS."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາລະບຸເບີໂທລະສັບທີ່ທ່ານຕ້ອງການສົ່ງ SMS ທົດລອງ."
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Reload Numbers from Twilio"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຫຼດເບີໂທລະສັບຄືນໃໝ່ຈາກ Twilio"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_res_company__sms_provider
 #: model:ir.model.fields,field_description:sms_twilio.field_res_config_settings__sms_provider
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__sms_provider
 msgid "SMS Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການ SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_twilio_account_manage
 msgid "SMS Twilio Connection Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍການເຊື່ອມຕໍ່ SMS Twilio"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_composer
 msgid "Send SMS Wizard"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຊ່ວຍການສົ່ງ SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Send test SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ SMS ທົດລອງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__res_company__sms_provider__iap
 msgid "Send via Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຜ່ານ Odoo"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields.selection,name:sms_twilio.selection__res_company__sms_provider__twilio
 msgid "Send via Twilio"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຜ່ານ Twilio"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__sequence
 msgid "Sequence"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລຳດັບ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_account_manage__test_number
 msgid "Test Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີທົດລອງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,help:sms_twilio.field_sms_twilio_number__country_code
@@ -396,90 +605,155 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະຫັດປະເທດ ISO ແບບສອງຕົວອັກສອນ.\n"
+"ທ່ານສາມາດໃຊ້ຫ້ອງນີ້ເພື່ອຄົ້ນຫາແບບໄວໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "The SMS has been sent from %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS ຖືກສົ່ງອອກຈາກ %s ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "The number you're trying to reach is not correctly formatted"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີໂທລະສັບທີ່ທ່ານພະຍາຍາມຕິດຕໍ່ ບໍ່ຢູ່ໃນຮູບແບບທີ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "This is a test SMS from Odoo"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ນີ້ແມ່ນ SMS ທົດລອງຈາກ Odoo"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Trial Account Limitation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຈຳກັດຂອງບັນຊີທົດລອງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio Authentication Error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດໃນການຢັ້ງຢືນຕົວຕົນຂອງ Twilio"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model,name:sms_twilio.model_sms_twilio_number
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_twilio_number__number
 msgid "Twilio Number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເບີ Twilio"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/wizard/sms_twilio_account_manage.py:0
 msgid "Twilio SMS"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Twilio SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Twilio SMS Manage Connection"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການການເຊື່ອມຕໍ່ Twilio SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_sms__sms_twilio_sid
 #: model:ir.model.fields,field_description:sms_twilio.field_sms_tracker__sms_twilio_sid
 msgid "Twilio SMS SID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SID ຂອງ Twilio SMS"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Twilio StatusCallback URL is incorrect"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ສຳລັບ StatusCallback ຂອງ Twilio ບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown error, please contact Odoo support"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກ, ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອຂອງ Odoo"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unknown failure at sending, please contact Odoo support"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເກີດຄວາມລົ້ມເຫຼວທີ່ບໍ່ຮູ້ຈັກໃນການສົ່ງ, ກະລຸນາຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອຂອງ Odoo"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #. odoo-python
 #: code:addons/sms_twilio/tools/sms_api.py:0
 msgid "Unverified recipient on Trial Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ຮັບທີ່ຍັງບໍ່ໄດ້ຮັບການຢືນຢັນໃນບັນຊີທົດລອງ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "Update Account"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: sms_twilio
 #: model_terms:ir.ui.view,arch_db:sms_twilio.sms_twilio_account_manage_view_form
 msgid "abcde12345abcde12345abcde12345ab"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "abcde12345abcde12345abcde12345ab"
+>>>>>>> upstream/18.0

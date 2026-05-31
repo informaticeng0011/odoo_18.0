@@ -5,8 +5,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
             "_text": invoice.x_studio_peppol_tax_point_date,
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
     },
     "x_studio_peppol_contract_document_reference_id": {
@@ -15,8 +19,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
             '_text': invoice.x_studio_peppol_contract_document_reference_id,
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
     },
     "x_studio_peppol_despatch_document_reference_id": {
@@ -25,8 +33,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
             '_text': invoice.x_studio_peppol_despatch_document_reference_id,
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
     },
     "x_studio_peppol_accounting_cost": {
@@ -35,8 +47,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
             '_text': invoice.x_studio_peppol_accounting_cost,
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
     },
     "x_studio_peppol_order_reference_id": {
@@ -44,10 +60,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
         "attrs": lambda invoice: {
             '_text': invoice.x_studio_peppol_order_reference_id,
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
     },
     "x_studio_peppol_invoice_period_start_date": {
@@ -55,10 +76,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
         "attrs": lambda invoice: {
             '_text': invoice.x_studio_peppol_invoice_period_start_date,
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
     },
     "x_studio_peppol_invoice_period_end_date": {
@@ -66,10 +92,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
         "attrs": lambda invoice: {
             '_text': invoice.x_studio_peppol_invoice_period_end_date,
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
     },
 }
@@ -82,8 +113,12 @@ PEPPOL_INVOICE_OPTIONAL_FIELDS = {
             '_text': invoice.x_studio_peppol_project_reference_id,
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
     },
 }
@@ -98,10 +133,15 @@ PEPPOL_COMMON_OPTIONAL_LINE_FIELDS = {
         "attrs": lambda line: {
             '_text': line.x_studio_peppol_order_line_reference_id,
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
     },
     "x_studio_peppol_buyers_item_id": {
@@ -109,10 +149,15 @@ PEPPOL_COMMON_OPTIONAL_LINE_FIELDS = {
         "attrs": lambda line: {
             '_text': line.x_studio_peppol_buyers_item_id,
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
     },
 }

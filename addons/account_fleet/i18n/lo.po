@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_fleet
 #
 =======
@@ -38,11 +39,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * account_fleet
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +77,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-17 05:48+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-05-28 09:59+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
 "account_fleet/lo/>\n"
 "Language: lo\n"
@@ -82,6 +94,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100,73 +115,133 @@ msgid ""
 "<span class=\"o_stat_text text-success\" invisible=\"account_move_state != 'posted'\" title=\"Service's Bill\">Service's Bill</span>\n"
 "                            <span class=\"o_stat_text text-warning\" invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">Service's Bill</span>"
 msgstr ""
+<<<<<<< HEAD
+=======
+"<span class=\"o_stat_text text-success\" invisible=\"account_move_state != "
+"'posted'\" title=\"Service's Bill\">ໃບບິນຄ່າບໍລິການ</span>\n"
+"                            <span class=\"o_stat_text text-warning\" "
+"invisible=\"account_move_state == 'posted'\" title=\"Service's Bill\">ໃບບິນຄ່າບໍ"
+"ລິການ</span>"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__account_move_ids
 msgid "Account Move"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນໄຫວບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_line_id
 msgid "Account Move Line"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການເຄື່ອນໄຫວບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
 #: code:addons/account_fleet/models/fleet_vehicle_log_services.py:0
 msgid "Bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_view_form
 msgid "Bills"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle__bill_count
 msgid "Bills Count"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນໃບບິນ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__amount
 msgid "Cost"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_account_automatic_entry_wizard
 msgid "Create Automatic Entries"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງລາຍການອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.account_move_view_tree
 msgid "Creation Date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີສ້າງ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_account_move
 msgid "Journal Entry"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນທຶກປະຈຳວັນ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_account_move_line
 msgid "Journal Item"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການບັນຊີ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_account_move_line__need_vehicle
 msgid "Need Vehicle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງການພາຫະນະ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
 #: code:addons/account_fleet/models/account_move.py:0
 msgid "Service Vendor Bill: %s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນຜູ້ຈຳໜ່າຍຄ່າບໍລິການ: %s"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model,name:account_fleet.model_fleet_vehicle_log_services
 msgid "Services for vehicles"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການບໍລິການສຳລັບພາຫະນະ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__account_move_state
@@ -177,6 +252,7 @@ msgid "Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "ສະພາບ"
@@ -195,6 +271,9 @@ msgstr "ສະພາບ"
 >>>>>>> upstream/18.0
 =======
 msgstr "ສະພາບ"
+>>>>>>> upstream/18.0
+=======
+msgstr "ສະຖານະ"
 >>>>>>> upstream/18.0
 
 #. module: account_fleet
@@ -202,12 +281,20 @@ msgstr "ສະພາບ"
 #: model:ir.model.fields,field_description:account_fleet.field_account_move_line__vehicle_id
 #: model:ir.model.fields,field_description:account_fleet.field_fleet_vehicle_log_services__vehicle_id
 msgid "Vehicle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາຫະນະ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model:fleet.service.type,name:account_fleet.data_fleet_service_type_vendor_bill
 msgid "Vendor Bill"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບບິນຜູ້ຈຳໜ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
@@ -216,6 +303,10 @@ msgid ""
 "You cannot delete log services records because one or more of them were bill"
 " created."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດລຶບບັນທຶກການບໍລິການໄດ້ ເພາະວ່າມີໜຶ່ງລາຍການ ຫຼື ຫຼາຍກວ່ານັ້ນໄດ້ຖືກສ້າງເປັນໃບບິນແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #. odoo-python
@@ -224,8 +315,17 @@ msgid ""
 "You cannot modify amount of services linked to an account move line. Do it "
 "on the related accounting entry instead."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດແກ້ໄຂຈຳນວນເງິນຂອງການບໍລິການທີ່ເຊື່ອມໂຍງກັບລາຍການເຄື່ອນໄຫວບັນຊີໄດ້. ກະລຸນາໄປແກ້ໄຂຢູ່ລາຍ"
+"ການບັນຊີທີ່ກ່ຽວຂ້ອງແທນ."
+>>>>>>> upstream/18.0
 
 #. module: account_fleet
 #: model_terms:ir.ui.view,arch_db:account_fleet.fleet_vehicle_view_form
 msgid "show the vendor bills for this vehicle"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງໃບບິນຜູ້ຈຳໜ່າຍສຳລັບພາຫະນະນີ້"
+>>>>>>> upstream/18.0

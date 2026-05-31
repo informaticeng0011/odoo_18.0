@@ -247,7 +247,10 @@ class TestL10nEsEdiVerifactuPosOrder(TestL10nEsEdiVerifactuPosCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -276,6 +279,9 @@ class TestL10nEsEdiVerifactuPosOrder(TestL10nEsEdiVerifactuPosCommon):
                 self.assertTrue(len(order._l10n_es_edi_verifactu_check(cancellation=False)) == 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

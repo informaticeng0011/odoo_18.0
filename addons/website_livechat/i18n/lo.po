@@ -1,12 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
+<<<<<<< HEAD
 # 	* website_livechat
 #
+=======
+# * website_livechat
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,11 +21,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
+=======
+"PO-Revision-Date: 2026-05-26 04:55+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
+"website_livechat/lo/>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__session_count
 msgid "# Sessions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# ເຊດຊັນ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
@@ -27,173 +50,306 @@ msgid ""
 "%(visitor)s started a conversation with %(operator)s.\n"
 "The chat request has been cancelled"
 msgstr ""
+<<<<<<< HEAD
+=======
+"%(visitor)s ໄດ້ເລີ່ມການສົນທະນາກັບ %(operator)s.\n"
+"ຄຳຂໍແຊັດຖືກຍົກເລີກແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "<small>%</small>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<small>%</small>"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "<span>Livechat Channel</span>"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>ຊ່ອງທາງໄລຟ໌ແຊັດ</span>"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_search
 msgid "Available"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພ້ອມໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-javascript
 #: code:addons/website_livechat/static/src/web/thread_patch.xml:0
 msgid "Avatar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບຕົວແທນ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Bad"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ດີ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_im_livechat_channel__can_publish
 msgid "Can Publish"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດເຜີຍແຜ່ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.res_config_settings_view_form
 msgid "Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.im_livechat_channel_view_form_add
 msgid "Channel Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຊ່ອງທາງ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_tree
 msgid "Chat"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຊັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_chatbot_script
 msgid "Chatbot Script"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຄຣິບແຊັດບັອດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_chatbot_script_step
 msgid "Chatbot Script Step"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂັ້ນຕອນສະຄຣິບແຊັດບັອດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_form
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 msgid "Chats"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຊັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າກຳນົດຄ່າ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,help:website_livechat.field_im_livechat_channel__website_description
 msgid "Description of the channel displayed on the website page"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍຂອງຊ່ອງທາງທີ່ສະແດງໃນໜ້າເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_discuss_channel
 msgid "Discussion Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງການສົນທະນາ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Great"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດີຫຼາຍ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_ir_http
 msgid "HTTP Routing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດເສັ້ນທາງ HTTP"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Happy face"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜ້າຍິ້ມ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-javascript
 #: code:addons/website_livechat/static/src/web/thread_patch.xml:0
 msgid "History"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະຫວັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_search
 msgid "In Conversation"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງສົນທະນາ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_im_livechat_channel__is_published
 msgid "Is Published"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຜີຍແຜ່ແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-javascript
 #: code:addons/website_livechat/static/src/web/thread_patch.xml:0
 msgid "Lang"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ພາສາ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/models/website.py:0
 msgid "Live Support"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ວຍເຫຼືອສົດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model,name:website_livechat.model_im_livechat_channel
 msgid "Livechat Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງໄລຟ໌ແຊັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_list_page
 msgid "Livechat Support Channels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງການຊ່ວຍເຫຼືອໄລຟ໌ແຊັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Neutral face"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜ້າປົກກະຕິ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.actions.act_window,name:website_livechat.im_livechat_channel_action_add
 msgid "New Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/models/website_visitor.py:0
 msgid "No Livechat Channel allows you to send a chat request for website %s."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຊ່ອງທາງໄລຟ໌ແຊັດໃດທີ່ອະນຸຍາດໃຫ້ທ່ານສົ່ງຄຳຂໍແຊັດສຳລັບເວັບໄຊ %s."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Not rated yet"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີການໃຫ້ຄະແນນ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Okay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົກລົງ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 msgid "Operator Avatar"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບຕົວແທນຂອງຜູ້ໃຫ້ບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__livechat_operator_name
 msgid "Operator Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຜູ້ໃຫ້ບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
@@ -201,171 +357,299 @@ msgstr ""
 msgid ""
 "Recipients are not available. Please refresh the page to get latest visitors"
 " status."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຜູ້ຮັບ. ກະລຸນາໂຫຼດໜ້າຄືນໃໝ່ເພື່ອເບິ່ງສະຖານະຜູ້ເຂົ້າຊົມຫຼ້າສຸດ."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Sad face"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໜ້າເສົ້າ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.actions.server,name:website_livechat.website_livechat_send_chat_request_action_server
 msgid "Send Chat Requests"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຄຳຂໍແຊັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_form
 msgid "Send chat request"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຄຳຂໍແຊັດ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_kanban
 msgid "Speaking With"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງລົມກັບ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__livechat_operator_id
 msgid "Speaking with"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຳລັງລົມກັບ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "Statistics"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະຖິຕິ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.chatbot_script_view_form
 msgid "Test"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທົດສອບ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "The"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີ່"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "The Team"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທີມງານ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,help:website_livechat.field_im_livechat_channel__website_url
 msgid "The full URL to access the document through the website."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ເຕັມເພື່ອເຂົ້າເຖິງເອກະສານຜ່ານເວັບໄຊ."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "The visitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_list_page
 msgid "There are no public livechat channels to show."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຊ່ອງທາງໄລຟ໌ແຊັດສາທາລະນະທີ່ຈະສະແດງ."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "There are no ratings for this channel for now."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍັງບໍ່ມີການໃຫ້ຄະແນນສຳລັບຊ່ອງທາງນີ້ໃນຕອນນີ້."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_im_livechat_channel__website_published
 msgid "Visible on current website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງໃນເວັບໄຊປັດຈຸບັນ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_discuss_channel__livechat_visitor_id
 msgid "Visitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "Visitor #%(id)d left the conversation."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ #%(id)d ໄດ້ອອກຈາກການສົນທະນາ."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "Visitor #%(id)d."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ #%(id)d."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/controllers/main.py:0
 #: code:addons/website_livechat/models/website_visitor.py:0
 msgid "Visitor #%d"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ #%d"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/controllers/main.py:0
 msgid "Visitor #%s"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ #%s"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "Visitor left the conversation."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມອອກຈາກການສົນທະນາແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.actions.act_window,name:website_livechat.website_visitor_livechat_session_action
 msgid "Visitor's Sessions"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊດຊັນຂອງຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__discuss_channel_ids
 msgid "Visitor's livechat channels"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງໄລຟ໌ແຊັດຂອງຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.ui.menu,name:website_livechat.website_livechat_visitor_menu
 msgid "Visitors"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-javascript
 #: code:addons/website_livechat/static/src/web/thread_patch.xml:0
 #: model:ir.model,name:website_livechat.model_website
 msgid "Website"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_res_config_settings__channel_id
 msgid "Website Live Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງສົດຂອງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website__channel_id
 msgid "Website Live Chat Channel"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊ່ອງທາງໄລຟ໌ແຊັດຂອງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_im_livechat_channel__website_url
 msgid "Website URL"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ຂອງເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/tests/test_livechat_basic_flow.py:0
 #: model:ir.model,name:website_livechat.model_website_visitor
 msgid "Website Visitor"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ເຂົ້າຊົມເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_im_livechat_channel__website_description
 msgid "Website description"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳອະທິບາຍເວັບໄຊ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #. odoo-python
 #: code:addons/website_livechat/models/discuss_channel.py:0
 msgid "an operator"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການ"
+>>>>>>> upstream/18.0
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
 msgid "last feedbacks"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳຕິຊົມຫຼ້າສຸດ"
+>>>>>>> upstream/18.0

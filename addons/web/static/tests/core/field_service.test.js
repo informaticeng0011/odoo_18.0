@@ -303,6 +303,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServer,
+>>>>>>> upstream/18.0
 =======
     MockServer,
 >>>>>>> upstream/18.0
@@ -1516,9 +1520,14 @@ function getDefinitions() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const records = Species._records;
     const fieldDefs = {};
     for (const record of records) {
+=======
+    const fieldDefs = {};
+    for (const record of MockServer.env["species"]) {
+>>>>>>> upstream/18.0
 =======
     const fieldDefs = {};
     for (const record of MockServer.env["species"]) {

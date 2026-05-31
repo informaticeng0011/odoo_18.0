@@ -327,8 +327,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 (<b t-esc="sale_order.prepayment_percent * 100"/>%),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -573,6 +576,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1023,7 +1029,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1391,6 +1400,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1832,7 +1844,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <span class="oe_order_line_price_subtotal" t-field="line.price_subtotal"/>
+=======
+                                            <span t-if="sale_order.company_price_include == 'tax_included'" class="oe_order_line_price_subtotal" t-field="line.price_total"/>
+                                            <span t-else="" class="oe_order_line_price_subtotal" t-field="line.price_subtotal"/>
+>>>>>>> upstream/18.0
 =======
                                             <span t-if="sale_order.company_price_include == 'tax_included'" class="oe_order_line_price_subtotal" t-field="line.price_total"/>
                                             <span t-else="" class="oe_order_line_price_subtotal" t-field="line.price_subtotal"/>
@@ -2239,7 +2256,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2860,6 +2880,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

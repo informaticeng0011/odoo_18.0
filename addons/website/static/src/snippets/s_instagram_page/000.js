@@ -94,12 +94,18 @@ const InstagramPage = publicWidget.Widget.extend(ObservingCookieWidgetMixin, {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         if (typeof ev.data === 'object') {
             // Ignore messages that have object data instead of string (eg. internal
             // iOS chrome message)
             return;
         }
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         const evDataJSON = JSON.parse(ev.data);
         if (evDataJSON.type !== "MEASURE") {

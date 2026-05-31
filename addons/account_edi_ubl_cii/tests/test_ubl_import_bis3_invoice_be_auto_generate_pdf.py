@@ -69,6 +69,7 @@ class TestUblImportBis3InvoiceBEAutoGeneratePDF(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Import the document that doesn't contain an embedded PDF
         with patch.object(self.env.registry['ir.actions.report'], '_run_wkhtmltopdf', _run_wkhtmltopdf):
             bill = self._import_invoice_as_attachment_on(
@@ -80,6 +81,8 @@ class TestUblImportBis3InvoiceBEAutoGeneratePDF(TestUblImportBis3InvoiceBE):
         self.assertEqual(len(bill.attachment_ids), 1)  # Generated PDF
         self.assertTrue(bill.attachment_ids.mimetype, 'pdf')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -277,6 +280,9 @@ class TestUblImportBis3InvoiceBEAutoGeneratePDF(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

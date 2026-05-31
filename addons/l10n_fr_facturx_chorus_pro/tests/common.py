@@ -59,6 +59,10 @@ class TestUblCiiCommonChorusPro(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -252,6 +256,7 @@ class TestUblCiiCommonChorusPro(TestUblCiiCommon):
 class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon):
 
     @classmethod
+<<<<<<< HEAD
     def _create_company(cls, **create_values):
         create_values.setdefault('siret', '40678483500521')
         return super()._create_company(**create_values)
@@ -422,6 +427,21 @@ class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon)
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+    def setUpClass(cls):
+        super().setUpClass()
+        if cls.env['ir.module.module']._get('l10n_fr_pdp').state == 'installed':
+            # The PDP module sets a 0225 identifier (based on the siret)
+            cls.env.company.partner_id.write({
+                'peppol_eas': '0009',
+                'peppol_endpoint': '40678483500521'
+            })
+
+    @classmethod
+    def _create_company(cls, **create_values):
+        create_values.setdefault('siret', '40678483500521')
+        return super()._create_company(**create_values)
+>>>>>>> upstream/18.0
 
     @classmethod
     def subfolders(cls):
@@ -482,6 +502,9 @@ class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

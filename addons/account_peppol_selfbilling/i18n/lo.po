@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_peppol_selfbilling
 #
 =======
@@ -38,11 +39,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * account_peppol_selfbilling
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +77,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-22 18:35+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-05-28 09:58+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
 "account_peppol_selfbilling/lo/>\n"
 "Language: lo\n"
@@ -82,6 +94,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141,6 +156,62 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        ຮຽນ\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            <t t-if=\"object.partner_id.name\">\n"
+"                <t t-out=\"object.partner_id.name\">Brandon Freeman</t> (<t "
+"t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+"            </t>\n"
+"            <t t-else=\"\">\n"
+"                <t t-out=\"object.partner_id.parent_id.name or ''\">Azure "
+"Interior</t>,\n"
+"            </t>\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        ນີ້ແມ່ນ\n"
+"        <t t-if=\"object.name\">\n"
+"            ໃບແຈ້ງໜີ້ທີ່ອອກດ້ວຍຕົນເອງ <span style=\"font-weight:bold;\" t-"
+"out=\"object.name or ''\">INV/2021/05/0005</span>\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            ໃບແຈ້ງໜີ້ທີ່ອອກດ້ວຍຕົນເອງ\n"
+"        </t>\n"
+"        <t t-if=\"object.invoice_origin\">\n"
+"            (ເລກອ້າງອີງ: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
+"        </t>\n"
+"        ລວມເປັນມູນຄ່າ <span style=\"font-weight:bold;\" t-out=\"format_amount"
+"(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
+"        ຈາກ <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <t t-if=\"object.payment_state in ('paid', 'in_payment')\">\n"
+"            ໃບແຈ້ງໜີ້ທີ່ອອກດ້ວຍຕົນເອງສະບັບນີ້ໄດ້ຖືກຊຳລະແລ້ວ.\n"
+"        </t>\n"
+"        <t t-if=\"hasattr(object, 'timesheet_count') and "
+"object.timesheet_count\">\n"
+"            <br/><br/>\n"
+"            ໝາຍເຫດ: ທ່ານສາມາດກວດສອບໃບບັນທຶກເວລາຂອງທ່ານ <a t-att-href=\"'/my/"
+"timesheets?search_in=invoice&amp;search=%s' % object.name\">ໄດ້ຈາກພອດທໍ "
+"(Portal).</a>\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        ຫາກທ່ານມີຄຳຖາມໃດໆ ກະລຸນາຕິດຕໍ່ຫາພວກເຮົາໄດ້ທຸກເວລາ.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-"
+"out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">"
+"Mitchell Admin</t></div>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:mail.template,body_html:account_peppol_selfbilling.email_template_edi_self_billing_credit_note
@@ -177,6 +248,46 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+<<<<<<< HEAD
+=======
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        ຮຽນ\n"
+"        <t t-if=\"object.partner_id.parent_id\">\n"
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> "
+"(<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n"
+"        </t>\n"
+"        <br/><br/>\n"
+"        ນີ້ແມ່ນ\n"
+"        <t t-if=\"object.name\">\n"
+"            ໃບຫຼຸດໜີ້ (self-billing credit note) <span style=\"font-"
+"weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n"
+"        </t>\n"
+"        <t t-else=\"\">\n"
+"            ໃບຫຼຸດໜີ້ (self-billing credit note)\n"
+"        </t>\n"
+"        <t t-if=\"object.invoice_origin\">\n"
+"            (ເລກອ້າງອີງ: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n"
+"        </t>\n"
+"        ລວມເປັນມູນຄ່າ <span style=\"font-weight:bold;\" t-out=\"format_amount"
+"(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n"
+"        ຈາກ <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n"
+"        <br/><br/>\n"
+"        ຫາກທ່ານມີຂໍ້ສົງໄສ ຫຼື ຄຳຖາມໃດໆ ກະລຸນາຕິດຕໍ່ຫາພວກເຮົາໄດ້ທຸກເມື່ອ.\n"
+"        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-"
+"o-mail-quote-container=\"1\">\n"
+"            <br/><br/>\n"
+"            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-"
+"out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">"
+"Mitchell Admin</t></div>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:ir.model,name:account_peppol_selfbilling.model_account_move_send
@@ -187,7 +298,11 @@ msgid "Account Move Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງລາຍການເຄື່ອນໄຫວບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສົ່ງລາຍການເຄື່ອນໄຫວບັນຊີ"
 >>>>>>> upstream/18.0
@@ -211,7 +326,11 @@ msgstr "ການສົ່ງລາຍການເຄື່ອນໄຫວບັ
 #: model:ir.model.fields,field_description:account_peppol_selfbilling.field_account_bank_statement_line__can_send_as_self_invoice
 #: model:ir.model.fields,field_description:account_peppol_selfbilling.field_account_move__can_send_as_self_invoice
 msgid "Can Send As Self Invoice"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາມາດສົ່ງເປັນໃບເກັບເງິນທີ່ອອກດ້ວຍຕົນເອງໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:ir.model,name:account_peppol_selfbilling.model_account_journal
@@ -222,7 +341,11 @@ msgid "Journal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປຶ້ມບັນຊີປະຈຳວັນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປຶ້ມບັນຊີປະຈຳວັນ"
 >>>>>>> upstream/18.0
@@ -251,7 +374,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການລົງລາຍການບັນຊີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການລົງລາຍການບັນຊີ"
 >>>>>>> upstream/18.0
@@ -275,32 +402,56 @@ msgstr "ການລົງລາຍການບັນຊີ"
 #: model:ir.model.fields,field_description:account_peppol_selfbilling.field_account_journal__is_self_billing
 #: model_terms:ir.ui.view,arch_db:account_peppol_selfbilling.report_invoice_document
 msgid "Self Billing"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການອອກໃບເກັບເງິນດ້ວຍຕົນເອງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model_terms:ir.ui.view,arch_db:account_peppol_selfbilling.report_invoice_document
 msgid "Self Billing Credit Note"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຫຼຸດໜີ້ທີ່ອອກດ້ວຍຕົນເອງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:mail.template,name:account_peppol_selfbilling.email_template_edi_self_billing_credit_note
 msgid "Self-billing credit note: Sending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຫຼຸດໜີ້ທີ່ອອກດ້ວຍຕົນເອງ: ກຳລັງສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:mail.template,name:account_peppol_selfbilling.email_template_edi_self_billing_invoice
 msgid "Self-billing invoice: Sending"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນທີ່ອອກດ້ວຍຕົນເອງ: ກຳລັງສົ່ງ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:mail.template,description:account_peppol_selfbilling.email_template_edi_self_billing_credit_note
 msgid "Sent to customers with the self-billing credit note in attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ລູກຄ້າພ້ອມກັບໃບຫຼຸດໜີ້ທີ່ອອກດ້ວຍຕົນເອງໃນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:mail.template,description:account_peppol_selfbilling.email_template_edi_self_billing_invoice
 msgid "Sent to customers with their self-billing invoices in attachment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງໃຫ້ລູກຄ້າພ້ອມກັບໃບເກັບເງິນທີ່ອອກດ້ວຍຕົນເອງໃນໄຟລ໌ຄັດຕິດ"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:ir.model.fields,help:account_peppol_selfbilling.field_account_journal__is_self_billing
@@ -309,6 +460,12 @@ msgid ""
 "self-billing sending on Peppol, vendor bills will be available to be sent as"
 " self-billed invoices via Peppol."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ປຶ້ມບັນຊີປະຈຳວັນນີ້ແມ່ນສຳລັບໃບເກັບເງິນທີ່ອອກດ້ວຍຕົນເອງ (self-billing invoices). ຫາກບໍລິສັດໄດ້ເປີດ"
+"ໃຊ້ງານການສົ່ງແບບອອກດ້ວຍຕົນເອງໃນ Peppol, ໃບເກັບເງິນຈາກຜູ້ສະໜອງຈະສາມາດສົ່ງເປັນໃບເກັບເງິນທີ່ອອກດ້"
+"ວຍຕົນເອງຜ່ານ Peppol ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:ir.model,name:account_peppol_selfbilling.model_account_edi_xml_ubl_bis3
@@ -319,7 +476,11 @@ msgid "UBL BIS Billing 3.0.12"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UBL BIS Billing 3.0.12"
+>>>>>>> upstream/18.0
 =======
 msgstr "UBL BIS Billing 3.0.12"
 >>>>>>> upstream/18.0
@@ -348,7 +509,11 @@ msgid "Vendor Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບເກັບເງິນຈາກຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບເກັບເງິນຈາກຜູ້ສະໜອງ"
 >>>>>>> upstream/18.0
@@ -377,7 +542,11 @@ msgid "Vendor Credit Note"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຫຼຸດໜີ້ຜູ້ສະໜອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໃບຫຼຸດໜີ້ຜູ້ສະໜອງ"
 >>>>>>> upstream/18.0
@@ -403,6 +572,11 @@ msgid ""
 "{{ object.company_id.name }} Self-billing credit note (Ref {{ object.name or"
 " 'n/a' }})"
 msgstr ""
+<<<<<<< HEAD
+=======
+"{{ object.company_id.name }} ໃບຫຼຸດໜີ້ທີ່ອອກດ້ວຍຕົນເອງ (ອ້າງອີງ {{ object.name or 'n/"
+"a' }})"
+>>>>>>> upstream/18.0
 
 #. module: account_peppol_selfbilling
 #: model:mail.template,subject:account_peppol_selfbilling.email_template_edi_self_billing_invoice
@@ -410,3 +584,8 @@ msgid ""
 "{{ object.company_id.name }} Self-billing invoice (Ref {{ object.name or "
 "'n/a' }})"
 msgstr ""
+<<<<<<< HEAD
+=======
+"{{ object.company_id.name }} ໃບເກັບເງິນທີ່ອອກດ້ວຍຕົນເອງ (ອ້າງອີງ {{ object.name or "
+"'n/a' }})"
+>>>>>>> upstream/18.0

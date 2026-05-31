@@ -472,7 +472,14 @@ class L10nEsEdiVerifactuDocument(models.Model):
             if not document_vals.get('errors'):
                 chain_sequence = record_values['company'].sudo()._l10n_es_edi_verifactu_get_chain_sequence()
                 try:
+<<<<<<< HEAD
                     document_vals['chain_index'] = chain_sequence.next_by_id()
+=======
+                    document_vals['chain_index'] = int(chain_sequence.next_by_id())
+                except ValueError:
+                    errors = [_("The Veri*Factu chain sequence must not have a prefix or suffix. Please remove it from the sequence configuration.")]
+                    document_vals['errors'] = self._format_errors(error_title, errors)
+>>>>>>> upstream/18.0
                 except OperationalError as e:
                     # We chain all the created documents per company in generation order.
                     # (indexed by `chain_index`).
@@ -682,7 +689,11 @@ class L10nEsEdiVerifactuDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tipo_factura = 'F2' if vals['is_simplified'] else 'F1'
+=======
+            tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
+>>>>>>> upstream/18.0
 =======
             tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
 >>>>>>> upstream/18.0

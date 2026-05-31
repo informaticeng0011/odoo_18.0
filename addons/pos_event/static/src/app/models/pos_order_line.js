@@ -366,7 +366,11 @@ patch(PosOrderline.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 registration.delete();
+=======
+                registration.delete({ silent: true });
+>>>>>>> upstream/18.0
 =======
                 registration.delete({ silent: true });
 >>>>>>> upstream/18.0

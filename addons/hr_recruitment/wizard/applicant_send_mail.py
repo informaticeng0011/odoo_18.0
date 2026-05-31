@@ -117,7 +117,11 @@ class ApplicantSendMail(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     applicant_ids = fields.Many2many('hr.applicant', string='Applications', required=True)
+=======
+    applicant_ids = fields.Many2many('hr.applicant', string='Applications', required=True, context={'active_test': False})
+>>>>>>> upstream/18.0
 =======
     applicant_ids = fields.Many2many('hr.applicant', string='Applications', required=True, context={'active_test': False})
 >>>>>>> upstream/18.0
@@ -467,6 +471,7 @@ class ApplicantSendMail(models.TransientModel):
             }
 
         if self.template_id:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1477,6 +1482,8 @@ class ApplicantSendMail(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             subjects = self._render_field('subject', res_ids=self.applicant_ids.ids)
             bodies = self._render_field('body', res_ids=self.applicant_ids.ids)
         else:
@@ -1817,6 +1824,9 @@ class ApplicantSendMail(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2842,7 +2852,11 @@ class ApplicantSendMail(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 body=self.body,
+=======
+                body=bodies[applicant.id],
+>>>>>>> upstream/18.0
 =======
                 body=bodies[applicant.id],
 >>>>>>> upstream/18.0

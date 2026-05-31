@@ -98,7 +98,11 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         limit_time_real = config['limit_time_real']
+=======
+        limit_time_real = config['limit_time_real'] or 120
+>>>>>>> upstream/18.0
 =======
         limit_time_real = config['limit_time_real'] or 120
 >>>>>>> upstream/18.0
@@ -174,7 +178,10 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -239,6 +246,9 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -366,6 +376,7 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return
 
             total_file_size += attachment.file_size
@@ -376,6 +387,8 @@ class CloudStorageAttachmentMigration(models.Model):
                 break
             first_attachment = False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -448,6 +461,9 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -517,6 +533,7 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _logger.info('uploaded attachment %s to cloud storage', attachment.id)
             except Exception as e:  # noqa: BLE001
                 _logger.warning('Failed to upload attachment %s to cloud storage: %s', attachment.id, e)
@@ -524,6 +541,8 @@ class CloudStorageAttachmentMigration(models.Model):
 
             if end_time < time.monotonic():
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -591,6 +610,9 @@ class CloudStorageAttachmentMigration(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

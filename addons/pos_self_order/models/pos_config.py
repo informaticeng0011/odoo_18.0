@@ -261,10 +261,13 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from os.path import join as opj
 from typing import Optional, List, Dict
 from werkzeug.urls import url_quote
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1048,6 +1051,9 @@ from werkzeug.urls import url_quote, url_unquote
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1743,7 +1749,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2028,11 +2037,17 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ]
 
 <<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            'other_devices',
+        ]
+
 >>>>>>> upstream/18.0
 =======
             'other_devices',
@@ -2646,6 +2661,7 @@ class PosConfig(models.Model):
                 'id': image.id,
                 'data': image.sudo().datas.decode('utf-8'),
             })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3571,6 +3587,8 @@ class PosConfig(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return encoded_images
 
     def _load_self_data_models(self):
@@ -3836,7 +3854,11 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'res.lang', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.line', 'product.template.attribute.value',
+=======
+            'res.lang', 'product.template.attribute.line', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.value',
+>>>>>>> upstream/18.0
 =======
             'res.lang', 'product.template.attribute.line', 'product.attribute', 'product.attribute.custom.value', 'product.template.attribute.value',
 >>>>>>> upstream/18.0
@@ -4907,6 +4929,7 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5134,6 +5157,10 @@ class PosConfig(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            'self_ordering_pay_after': 'each',
+        })
 >>>>>>> upstream/18.0
 =======
             'self_ordering_pay_after': 'each',
@@ -5962,9 +5989,13 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         url_form = "https://www.odoo.com/app/point-of-sale-restaurant-qr-code"
 
+=======
+        url_form = "https://www.odoo.com/app/point-of-sale-restaurant-qr-code"
+>>>>>>> upstream/18.0
 =======
         url_form = "https://www.odoo.com/app/point-of-sale-restaurant-qr-code"
 >>>>>>> upstream/18.0
@@ -6294,7 +6325,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'image': self.__generate_single_qr_code(url_unquote(url)),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6535,7 +6569,10 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'image': self.__generate_single_qr_code(url_unquote(url)),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6774,10 +6811,13 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for index, qr_data in enumerate(table_data):
                 with zip_file.open(f"{qr_data['name']} ({index + 1}).png", "w") as buf:
                     qr_data['image'].save(buf, format="PNG")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7013,6 +7053,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7437,6 +7480,9 @@ class PosConfig(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

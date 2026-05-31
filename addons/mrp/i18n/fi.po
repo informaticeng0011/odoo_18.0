@@ -167,6 +167,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* mrp
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -415,6 +416,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * mrp
 #
 >>>>>>> upstream/18.0
 =======
@@ -1397,6 +1402,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Jessica Jakara, 2025
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 =======
@@ -2453,6 +2459,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2025
 # Jessica Jakara, 2025
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -2553,6 +2561,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2750,6 +2761,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4416,6 +4428,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-05-16 09:03+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
@@ -4433,6 +4447,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4462,6 +4479,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5482,6 +5500,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
@@ -5717,7 +5739,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the components are trigerred.\n"
+=======
+" * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
+"components are trigerred.\n"
+>>>>>>> upstream/18.0
 =======
 " * Confirmed: The MO is confirmed, the stock rules and the reordering of the "
 "components are trigerred.\n"
@@ -6869,9 +6896,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 " * Vahvistettu: Valmistustilaus on vahvistettu, varastosäännöt ja komponenttien uudelleenjärjestely on käynnistetty.\n"
 " * Käynnissä: Tuotanto on käynnistetty (Valmistustilauksessa tai Työtilauksessa).\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7560,6 +7590,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8031,6 +8064,7 @@ msgstr " <br/><br/> Komponentit tullaan ottamaan <b>%ssta</b>."
 #. odoo-python
 #: code:addons/mrp/models/stock_rule.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9179,6 +9213,10 @@ msgid ""
 " <br/><br/> The manufactured products will be moved towards <b>%"
 "(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
 >>>>>>> upstream/18.0
+=======
+" <br/><br/> The manufactured products will be moved towards <b>%"
+"(destination)s</b>, <br/> as specified from <b>%(operation)s</b> destination."
+>>>>>>> upstream/18.0
 msgstr ""
 " <br/><br/> Valmistetut tuotteet siirretään kohti <b>%(destination)s</b>, "
 "<br/> eriteltynä osoitteesta <b>%(operation)s</b> määränpää."
@@ -9210,7 +9248,11 @@ msgid "# BoM Where Used"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "# Osaluettelo missä käytetään"
+=======
+msgstr "# Materiaaliluettelot, joissa käytetään"
+>>>>>>> upstream/18.0
 =======
 msgstr "# Materiaaliluettelot, joissa käytetään"
 >>>>>>> upstream/18.0
@@ -9343,7 +9385,11 @@ msgid "'Bom Overview - %s' % object.display_name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "'Osaluettelon yleiskatsaus - %s' % object.display_name"
+=======
+msgstr "'Materiaaliluettelon yleiskatsaus - %s' % object.display_name"
+>>>>>>> upstream/18.0
 =======
 msgstr "'Materiaaliluettelon yleiskatsaus - %s' % object.display_name"
 >>>>>>> upstream/18.0
@@ -9418,6 +9464,7 @@ msgid "+ %d day(s)"
 msgstr "+ %d päivä(ä)"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9961,6 +10008,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10465,6 +10514,9 @@ msgstr "+ %s päivä(ä)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10816,6 +10868,7 @@ msgstr ""
 msgid ""
 "1 Step: Consume components from stock and produce.\n"
 "              2 Steps: Pick components from stock and then produce.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11507,6 +11560,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "              3 Steps: Pick components from stock, produce, and then move "
 "final product(s) from production area to stock."
 msgstr ""
@@ -11515,6 +11570,7 @@ msgstr ""
 "              3 vaihetta: Komponenttien poimiminen varastosta, valmistaminen "
 "ja sen jälkeen lopputuotteen (lopputuotteiden) siirtäminen tuotantoalueelta "
 "varastoon."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12211,6 +12267,8 @@ msgstr "12345678901"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:product.template,description:mrp.product_product_computer_desk_leg_product_template
@@ -12218,6 +12276,7 @@ msgid "18″ x 2½″ Square Leg"
 msgstr "18″ x 2½″ Neliskulmainen jalka"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12387,6 +12446,8 @@ msgstr "60"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_production_components
 msgid "8 GB RAM"
 msgstr "8 Gt RAM-MUISTIA"
@@ -12440,11 +12501,14 @@ msgstr "8 Gt RAM-MUISTIA"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "987654321098"
 msgstr "987654321098"
 
 #. module: mrp
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12777,6 +12841,7 @@ msgstr ": tuntia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
 
@@ -12790,6 +12855,8 @@ msgstr "<i class=\"fa fa-play fs-6\" role=\"img\" aria-label=\"Aja\" title=\"Aja
 msgid "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13492,6 +13559,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14186,7 +14256,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Use this feature to store any files, like drawings or specifications.\n"
+=======
+"                        Use this feature to store any files, like drawings "
+"or specifications.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Use this feature to store any files, like drawings "
 "or specifications.\n"
@@ -15337,7 +15412,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        Käytä tätä toimintoa minkä tahansa tiedostojen, kuten piirustusten tai eritelmien, tallentamiseen.\n"
+=======
+"                        Käytä tätä toimintoa minkä tahansa tiedostojen, "
+"kuten piirustusten tai eritelmien, tallentamiseen.\n"
+>>>>>>> upstream/18.0
 =======
 "                        Käytä tätä toimintoa minkä tahansa tiedostojen, "
 "kuten piirustusten tai eritelmien, tallentamiseen.\n"
@@ -16302,7 +16382,11 @@ msgid "<span class=\"o_stat_text\">BoM Overview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span class=\"o_stat_text\">Osaluettelon (BoM) yleiskatsaus</span>"
+=======
+msgstr "<span class=\"o_stat_text\">Materiaaliluettelon yleiskatsaus</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Materiaaliluettelon yleiskatsaus</span>"
 >>>>>>> upstream/18.0
@@ -16425,6 +16509,7 @@ msgstr "<span class=\"o_stat_text\">Purut</span>"
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard
 msgid ""
 "<span class=\"text-muted\">Modifying the quantity to produce will also "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17572,6 +17657,10 @@ msgid ""
 "modify the quantities of components to consume for this manufacturing order."
 "</span>"
 >>>>>>> upstream/18.0
+=======
+"modify the quantities of components to consume for this manufacturing order."
+"</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 "<span class=\"text-muted\">Tuotettavan määrän muuttaminen muuttaa myös "
 "kyseistä valmistustilausta varten tarvittavien komponenttien määriä.</span>"
@@ -17613,7 +17702,11 @@ msgid "<span>Generate BOM</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>Luo osaluettelo</span>"
+=======
+msgstr "<span>Luo materiaaliluettelo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Luo materiaaliluettelo</span>"
 >>>>>>> upstream/18.0
@@ -17795,6 +17888,7 @@ msgstr "? Tämä voi johtaa epäjohdonmukaisuuksiin varastossa."
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "A BoM of type Kit is not produced with a manufacturing order.<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19137,6 +19231,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                Instead, it is used to decompose a BoM into "
 "its components when:"
 msgstr ""
@@ -19156,6 +19252,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19310,6 +19409,7 @@ msgstr "Kaikki raakasiirrot"
 msgid ""
 "All product quantities must be greater or equal to 0.\n"
 "Lines with 0 quantities can be used as optional lines. \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20001,11 +20101,14 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You should install the mrp_byproduct module if you want to manage extra "
 "products on BoMs!"
 msgstr ""
 "Kaikkien tuotemäärien on oltava vähintään 0.\n"
 "Rivejä, joiden määrä on 0, voidaan käyttää valinnaisina riveinä.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20719,6 +20822,10 @@ msgstr ""
 "Sinun on asennettava mrp_byproduct moduuli, jos haluat hallinnoida "
 "ylimääräisiä tuotteita materiaaliluetteloissa!"
 >>>>>>> upstream/18.0
+=======
+"Sinun on asennettava mrp_byproduct moduuli, jos haluat hallinnoida "
+"ylimääräisiä tuotteita materiaaliluetteloissa!"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -20951,6 +21058,7 @@ msgstr "Avatar"
 msgid ""
 "Average lead time in days to manufacture this product. In the case of multi-"
 "level BOM, the manufacturing lead times of the components will be added. In "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22098,6 +22206,10 @@ msgid ""
 "case the product is subcontracted, this can be used to determine the date at "
 "which components should be sent to the subcontractor."
 >>>>>>> upstream/18.0
+=======
+"case the product is subcontracted, this can be used to determine the date at "
+"which components should be sent to the subcontractor."
+>>>>>>> upstream/18.0
 msgstr ""
 "Keskimääräinen toimitusaika päivinä tämän tuotteen valmistamiseksi. Jos "
 "kyseessä on monitasoinen osaluettelo, komponenttien valmistuksen "
@@ -22142,7 +22254,11 @@ msgid "BOM Overview Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelon yleiskatsausraportti"
+=======
+msgstr "Materiaaliluettelon yleiskatsausraportti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon yleiskatsausraportti"
 >>>>>>> upstream/18.0
@@ -22199,7 +22315,11 @@ msgid "BOM Product Variants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelon tuotevariantit"
+=======
+msgstr "Materiaaliluettelon tuotevariantit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon tuotevariantit"
 >>>>>>> upstream/18.0
@@ -22259,7 +22379,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Osaluettelon tuotevariantit, joita tarvitaan tämän rivin soveltamiseen."
+=======
+"Materiaaliluettelon tuotevariantit, joita tarvitaan tämän rivin "
+"soveltamiseen."
+>>>>>>> upstream/18.0
 =======
 "Materiaaliluettelon tuotevariantit, joita tarvitaan tämän rivin "
 "soveltamiseen."
@@ -22329,7 +22454,11 @@ msgid "BOM lines of the referred bom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Käytetyn osaluettelon rivit"
+=======
+msgstr "Käytetyn materiaaliluettelon rivit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Käytetyn materiaaliluettelon rivit"
 >>>>>>> upstream/18.0
@@ -22387,7 +22516,11 @@ msgid "Back to BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Takaisin osaluetteloon"
+=======
+msgstr "Takaisin materiaaliluetteloon"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takaisin materiaaliluetteloon"
 >>>>>>> upstream/18.0
@@ -22692,8 +22825,12 @@ msgstr "Jälkitoimituksen sekvenssi"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Backorder sequence, if equals to 0 means there is not related backorder"
+=======
+msgid "Backorder sequence, if equals to 0 means there is not related backorder"
+>>>>>>> upstream/18.0
 =======
 msgid "Backorder sequence, if equals to 0 means there is not related backorder"
 >>>>>>> upstream/18.0
@@ -23689,8 +23826,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Bills of Materials, also called recipes, are used to autocomplete components"
 " and work order instructions."
+=======
+"Bills of Materials, also called recipes, are used to autocomplete components "
+"and work order instructions."
+>>>>>>> upstream/18.0
 =======
 "Bills of Materials, also called recipes, are used to autocomplete components "
 "and work order instructions."
@@ -24844,7 +24986,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                materials used to make a finished product; through a manufacturing\n"
+=======
+"                materials used to make a finished product; through a "
+"manufacturing\n"
+>>>>>>> upstream/18.0
 =======
 "                materials used to make a finished product; through a "
 "manufacturing\n"
@@ -25812,7 +25959,11 @@ msgid "Block"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lohko"
+=======
+msgstr "Estä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estä"
 >>>>>>> upstream/18.0
@@ -25998,7 +26149,11 @@ msgid "Blocked By"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Estäjä"
+=======
+msgstr "Estänyt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estänyt"
 >>>>>>> upstream/18.0
@@ -26183,7 +26338,11 @@ msgid "Blocks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Estot"
+=======
+msgstr "Lohkot"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lohkot"
 >>>>>>> upstream/18.0
@@ -26324,7 +26483,11 @@ msgid "BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelo"
+=======
+msgstr "Materiaaliluettelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelo"
 >>>>>>> upstream/18.0
@@ -26384,7 +26547,11 @@ msgid "BoM Components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelon komponentit"
+=======
+msgstr "Materiaaliluettelon komponentit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon komponentit"
 >>>>>>> upstream/18.0
@@ -26445,7 +26612,11 @@ msgid "BoM Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelon kustannukset"
+=======
+msgstr "Materiaaliluettelon kustannukset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon kustannukset"
 >>>>>>> upstream/18.0
@@ -26503,7 +26674,11 @@ msgid "BoM Costs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelon kustannukset"
+=======
+msgstr "Materiaaliluettelon kustannukset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon kustannukset"
 >>>>>>> upstream/18.0
@@ -26560,7 +26735,11 @@ msgid "BoM Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelo rivi"
+=======
+msgstr "Materiaaliluettelon rivi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon rivi"
 >>>>>>> upstream/18.0
@@ -26617,7 +26796,11 @@ msgid "BoM Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelon rivit"
+=======
+msgstr "Materiaaliluettelon rivit"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon rivit"
 >>>>>>> upstream/18.0
@@ -26676,7 +26859,11 @@ msgid "BoM Overview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelon yleiskatsaus"
+=======
+msgstr "Materiaaliluettelon yleiskatsaus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon yleiskatsaus"
 >>>>>>> upstream/18.0
@@ -26734,7 +26921,11 @@ msgid "BoM Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osalistan tyyppi"
+=======
+msgstr "Materiaaliluettelon tyyppi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelon tyyppi"
 >>>>>>> upstream/18.0
@@ -26812,7 +27003,11 @@ msgid "By-product %s should not be the same as BoM product."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sivutuote %s ei saa olla sama kuin osaluettelon tuote."
+=======
+msgstr "Sivutuotteen %s ei pitäisi olla sama kuin materiaaliluettelon tuote."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sivutuotteen %s ei pitäisi olla sama kuin materiaaliluettelon tuote."
 >>>>>>> upstream/18.0
@@ -27120,6 +27315,7 @@ msgstr "Lasketaan seuratun ajan perusteella"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
 msgid ""
 "Compute the days required to resupply all components from BoM, by either "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28497,6 +28693,11 @@ msgid ""
 "subassemblies.                                                       Also "
 "note that purchase security lead times will be added when appropriate."
 >>>>>>> upstream/18.0
+=======
+"buying or manufacturing the components and/or "
+"subassemblies.                                                       Also "
+"note that purchase security lead times will be added when appropriate."
+>>>>>>> upstream/18.0
 msgstr ""
 "Laske päivät, jotka tarvitaan kaikkien komponenttien toimittamiseen "
 "osaluettelosta joko ostamalla tai valmistamalla komponentteja ja/tai "
@@ -28644,7 +28845,11 @@ msgid "Cost based on the BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluetteloon perustuvat kustannukset"
+=======
+msgstr "Materiaaliluetteloon perustuvat kustannukset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluetteloon perustuvat kustannukset"
 >>>>>>> upstream/18.0
@@ -28969,8 +29174,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create a backorder if you expect to process the remaining products later. Do"
 " not create a backorder if you will not process the remaining products."
+=======
+"Create a backorder if you expect to process the remaining products later. Do "
+"not create a backorder if you will not process the remaining products."
+>>>>>>> upstream/18.0
 =======
 "Create a backorder if you expect to process the remaining products later. Do "
 "not create a backorder if you will not process the remaining products."
@@ -30140,11 +30350,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Create and confirm Manufacturing Orders this many days in advance, to have enough time to replenish components or manufacture semi-finished products.\n"
 "Note that security lead times will also be considered when appropriate."
 msgstr ""
 "Luo ja vahvista valmistustilaukset näin monta päivää etukäteen, jotta sinulla on riittävästi aikaa täydentää komponentteja tai valmistaa puolivalmiita tuotteita.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30836,6 +31049,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31621,6 +31837,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored at this Location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
@@ -31632,6 +31849,8 @@ msgstr ""
 "tallennetaan tämän myymälän varastokohtaan tai sen lapsiin.\n"
 "Muussa tapauksessa tämä koskee tavaroita, jotka on tallennettu mihin tahansa Stock-paikkaan, jossa on sisäinen tyyppi."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32333,6 +32552,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33107,8 +33329,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "you need to produce 10 units, then the operation time listed on the BOM will"
 " be multiplied by two. However, note that both time before and after "
+=======
+"you need to produce 10 units, then the operation time listed on the BOM will "
+"be multiplied by two. However, note that both time before and after "
+>>>>>>> upstream/18.0
 =======
 "you need to produce 10 units, then the operation time listed on the BOM will "
 "be multiplied by two. However, note that both time before and after "
@@ -34260,8 +34487,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "että sekä ennen tuotantoa että sen jälkeen kuluva aika lasketaan vain "
 "kerran."
+=======
+"että sekä ennen tuotantoa että sen jälkeen kuluva aika lasketaan vain kerran."
+>>>>>>> upstream/18.0
 =======
 "että sekä ennen tuotantoa että sen jälkeen kuluva aika lasketaan vain kerran."
 >>>>>>> upstream/18.0
@@ -35191,7 +35422,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Määrittele komponentit ja lopputuotteet, joita haluat käyttää seuraavissa tuotteissa\n"
+=======
+"Määrittele komponentit ja lopputuotteet, joita haluat käyttää seuraavissa "
+"tuotteissa\n"
+>>>>>>> upstream/18.0
 =======
 "Määrittele komponentit ja lopputuotteet, joita haluat käyttää seuraavissa "
 "tuotteissa\n"
@@ -36345,8 +36581,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Määritä resurssin työaikataulu. Jos sitä ei määritetä, resurssilla on täysin"
 " joustavat työajat."
+=======
+"Määritä resurssin työaikataulu. Jos sitä ei määritetä, resurssilla on täysin "
+"joustavat työajat."
+>>>>>>> upstream/18.0
 =======
 "Määritä resurssin työaikataulu. Jos sitä ei määritetä, resurssilla on täysin "
 "joustavat työajat."
@@ -37496,6 +37737,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Defines if you can consume more or less components than the quantity defined on the BoM:\n"
 "  * Allowed: allowed for all manufacturing users.\n"
 "  * Allowed with warning: allowed for all manufacturing users with summary of consumption differences when closing the manufacturing order.\n"
@@ -37508,6 +37750,8 @@ msgstr ""
 "  Huomaa, että komponentin Highlight Consumption tapauksessa, jossa kulutus rekisteröidään yksinomaan manuaalisesti, kulutusvaroituksia annetaan edelleen tarvittaessa myös.\n"
 "  * Estetty: vain esimies voi sulkea valmistustilauksen, jos osaluettelon kulutusta ei noudateta."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38213,6 +38457,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39034,6 +39281,10 @@ msgstr "Purkamistilaus"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 >>>>>>> upstream/18.0
@@ -40563,6 +40814,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "In a context with a single Stock Location, this includes goods stored in this location, or any of its children.\n"
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
@@ -40572,6 +40824,8 @@ msgstr ""
 "Yhdessä Warehouse-ympäristössä tämä sisältää tavaroita, jotka on varastoitu tämän varaston varastopaikalle tai sen alapaikoille.\n"
 "Muussa tapauksessa tämä koskee tavaroita, jotka on tallennettu mihin tahansa Stock-paikkaan, jossa on sisäinen tyyppi."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41270,6 +41524,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42174,6 +42431,7 @@ msgstr "Sisältää reititysrivejä"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -42222,6 +42480,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43061,6 +43321,9 @@ msgstr "Sisiältää työkirjan"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43698,8 +43961,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jos tuotemuunnelma on määritetty, osaluettelo on saatavilla vain tälle "
 "tuotteelle."
+=======
+"Jos tuotevariantti on määritetty, materiaaliluettelo on saatavilla vain "
+"tälle tuotteelle."
+>>>>>>> upstream/18.0
 =======
 "Jos tuotevariantti on määritetty, materiaaliluettelo on saatavilla vain "
 "tälle tuotteelle."
@@ -44055,8 +44323,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
+=======
+"If this checkbox is ticked, Odoo will automatically print the product labels "
+"of a MO when it is done."
+>>>>>>> upstream/18.0
 =======
 "If this checkbox is ticked, Odoo will automatically print the product labels "
 "of a MO when it is done."
@@ -45212,8 +45485,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jos valittu, Odoo tulostaa automaattisesti MO:n tuotantotilauksen, kun se on"
 " valmis."
+=======
+"Jos valittu, Odoo tulostaa automaattisesti MO:n tuotantotilauksen, kun se on "
+"valmis."
+>>>>>>> upstream/18.0
 =======
 "Jos valittu, Odoo tulostaa automaattisesti MO:n tuotantotilauksen, kun se on "
 "valmis."
@@ -46375,8 +46653,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible to plan the workorder. Please check the workcenter "
 "availabilities."
+=======
+"Impossible to plan the workorder. Please check the workcenter availabilities."
+>>>>>>> upstream/18.0
 =======
 "Impossible to plan the workorder. Please check the workcenter availabilities."
 >>>>>>> upstream/18.0
@@ -47107,7 +47389,11 @@ msgid "In the BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluettelossa"
+=======
+msgstr "Materiaaliluettelossa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluettelossa"
 >>>>>>> upstream/18.0
@@ -47389,8 +47675,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "valmistustilaus on viimeistään käsiteltävä, jotta toimitus voidaan suorittaa"
 " ajallaan."
+=======
+"valmistustilaus on viimeistään käsiteltävä, jotta toimitus voidaan suorittaa "
+"ajallaan."
+>>>>>>> upstream/18.0
 =======
 "valmistustilaus on viimeistään käsiteltävä, jotta toimitus voidaan suorittaa "
 "ajallaan."
@@ -48544,8 +48835,12 @@ msgstr "Varastosiirrot"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Inventory moves for which you must scan a lot number at this work order"
+=======
+msgid "Inventory moves for which you must scan a lot number at this work order"
+>>>>>>> upstream/18.0
 =======
 msgid "Inventory moves for which you must scan a lot number at this work order"
 >>>>>>> upstream/18.0
@@ -49513,8 +49808,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yhden yksittäisen työtilauksen suunnittelua ei ole mahdollista purkaa. Sinun"
 " on sen sijaan purettava valmistustilauksen suunnittelu, jotta voit purkaa "
+=======
+"Yhden yksittäisen työtilauksen suunnittelua ei ole mahdollista purkaa. Sinun "
+"on sen sijaan purettava valmistustilauksen suunnittelu, jotta voit purkaa "
+>>>>>>> upstream/18.0
 =======
 "Yhden yksittäisen työtilauksen suunnittelua ei ole mahdollista purkaa. Sinun "
 "on sen sijaan purettava valmistustilauksen suunnittelu, jotta voit purkaa "
@@ -50794,8 +51094,12 @@ msgid "Late MO or Late delivery of components"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Myöhästynyt tuotantotilaus (MO) tai myöhästynyt komponenttien toimitus"
+=======
+msgstr "Myöhästynyt tuotantotilaus (MO) tai myöhästynyt komponenttien toimitus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Myöhästynyt tuotantotilaus (MO) tai myöhästynyt komponenttien toimitus"
 >>>>>>> upstream/18.0
@@ -51503,8 +51807,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tämän MO:n viimeisin komponenttien saatavuustilanne. Jos se on vihreä, MO:n "
 "valmiustila on valmis osaluettelon määritysten mukaisesti."
+=======
+"Tämän tuotantotilauksen viimeisin komponenttien saatavuustilanne. Jos se on "
+"vihreä, tuotantotilauksen valmiustila on valmis materiaaliluettelon "
+"määritysten mukaisesti."
+>>>>>>> upstream/18.0
 =======
 "Tämän tuotantotilauksen viimeisin komponenttien saatavuustilanne. Jos se on "
 "vihreä, tuotantotilauksen valmiustila on valmis materiaaliluettelon "
@@ -51598,6 +51908,7 @@ msgstr "Poissaolo"
 #: model:ir.model.fields,help:mrp.field_product_document__attached_on_mrp
 msgid ""
 "Leave hidden if document only accessible on product form.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52288,6 +52599,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Select Bill of Materials to visualise this document as a product attachment "
 "when this product is in a bill of material."
 msgstr ""
@@ -52522,6 +52835,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53367,7 +53683,11 @@ msgid "Manufacturing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmistus"
+=======
+msgstr "Tuotanto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuotanto"
 >>>>>>> upstream/18.0
@@ -53733,7 +54053,11 @@ msgid "Manufacturing Forecast"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmistusennuste"
+=======
+msgstr "Tuotantoennuste"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuotantoennuste"
 >>>>>>> upstream/18.0
@@ -54102,7 +54426,11 @@ msgid "Manufacturing Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmistuksen läpimenoaika"
+=======
+msgstr "Tuotannon läpimenoaika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuotannon läpimenoaika"
 >>>>>>> upstream/18.0
@@ -54467,7 +54795,11 @@ msgid "Manufacturing Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmistustoiminnan tyyppi"
+=======
+msgstr "Tuotantotoiminnon tyyppi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuotantotoiminnon tyyppi"
 >>>>>>> upstream/18.0
@@ -54845,7 +55177,11 @@ msgid "Manufacturing Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmistustilaus"
+=======
+msgstr "Tuotantotilaus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuotantotilaus"
 >>>>>>> upstream/18.0
@@ -55220,7 +55556,11 @@ msgid "Manufacturing Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmistustilaukset"
+=======
+msgstr "Tuotantotilaukset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuotantotilaukset"
 >>>>>>> upstream/18.0
@@ -55585,7 +55925,11 @@ msgid "Manufacturing Orders which are in confirmed state."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vahvistetut valmistustilaukset."
+=======
+msgstr "Vahvistetussa tilassa olevat tuotantotilaukset."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vahvistetussa tilassa olevat tuotantotilaukset."
 >>>>>>> upstream/18.0
@@ -56105,12 +56449,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc."
 msgstr ""
 "Valmistustoiminnot käsitellään työpisteissä. Työpiste voi koostua\n"
 "                työntekijöistä ja/tai koneista, ja niitä käytetään kustannuslaskentaan, aikataulutukseen, kapasiteetin suunnitteluun jne."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56803,6 +57150,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57493,6 +57843,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Manufacturing operations are processed at Work Centers. A Work Center can be composed of\n"
 "                workers and/or machines, they are used for costing, scheduling, capacity planning, etc.\n"
 "                They can be defined via the configuration menu."
@@ -57500,6 +57851,8 @@ msgstr ""
 "Valmistustoiminnot käsitellään työpisteissä. Työpiste voi koostua\n"
 "                työntekijöistä ja/tai koneista, ja niitä käytetään kustannuslaskentaan, aikataulutukseen, kapasiteetin suunnitteluun jne.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -58193,6 +58546,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58887,12 +59243,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            * Waiting: The material is not available to start the production.\n"
 msgstr ""
 "Tämän valmistustilauksen (MO) valmistusvalmius osaluettelon kokoonpanon mukaisesti:\n"
 "            * Valmis: Materiaali on käytettävissä tuotannon aloittamista varten.\n"
 "            * Odottaa: Materiaali ei ole käytettävissä tuotannon aloittamiseksi.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59586,6 +59945,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60195,7 +60557,11 @@ msgid "New BoM from %(mo_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uusi osaluettelo (BoM) alkaen %(mo_name)s"
+=======
+msgstr "Uusi materiaaliluettelo %(mo_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uusi materiaaliluettelo %(mo_name)s"
 >>>>>>> upstream/18.0
@@ -60275,6 +60641,7 @@ msgid "No Backorder"
 msgstr "Ei jälkitoimituksia"
 
 #. module: mrp
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60818,6 +61185,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61322,6 +61691,9 @@ msgstr "Materiaaliluetteloa ei löytynyt"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61746,7 +62118,12 @@ msgid "Note that another version of this BOM is available."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Huomaa, että tästä osaluettelosta on saatavilla toinen versio."
+=======
+msgstr ""
+"Huomaa, että tästä materiaaliluettelosta on saatavilla toinenkin versio."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Huomaa, että tästä materiaaliluettelosta on saatavilla toinenkin versio."
@@ -62039,8 +62416,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "edelleen suunnitella toimintoja. Tämän estämiseksi suositellaan työkeskuksen"
 " poistamista."
+=======
+"edelleen suunnitella toimintoja. Tämän estämiseksi suositellaan työkeskuksen "
+"poistamista."
+>>>>>>> upstream/18.0
 =======
 "edelleen suunnitella toimintoja. Tämän estämiseksi suositellaan työkeskuksen "
 "poistamista."
@@ -63298,6 +63680,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
@@ -63305,6 +63688,8 @@ msgstr ""
 "                                asenna IoT-sovellus tietokoneeseen, joka on samassa paikallisverkossa kuin\n"
 "                                viivakoodioperaattorin kanssa ja määritä raporttien reititys."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63999,6 +64384,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64751,11 +65139,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Each operation is done at a specific Work Center and has a specific duration."
 msgstr ""
 "Operaatio määrittää, mitä on tehtävä työtilauksen toteuttamiseksi.\n"
 "                Kukin operaatio tehdään tietyssä työkeskuksessa ja sillä on tietty kesto."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65446,6 +65837,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65997,7 +66391,11 @@ msgid "Outdated BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vanhentunut osaluettelo"
+=======
+msgstr "Vanhentunut materiaaliluettelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vanhentunut materiaaliluettelo"
 >>>>>>> upstream/18.0
@@ -66091,7 +66489,11 @@ msgid "Parent BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ylempi osaluettelo"
+=======
+msgstr "Päämateriaaliluettelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Päämateriaaliluettelo"
 >>>>>>> upstream/18.0
@@ -66383,7 +66785,11 @@ msgid "Prepare MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valmistele valmistustilaus"
+=======
+msgstr "Valmistele tuotantotilaus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valmistele tuotantotilaus"
 >>>>>>> upstream/18.0
@@ -66594,6 +67000,7 @@ msgstr "Tuotekapasiteetit"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_bom
 msgid "Product Catalog Product Is In Bom"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -66955,6 +67362,9 @@ msgstr "Tuotekuvaston tuote on materiaaliluettelossa"
 =======
 msgstr "Tuotekuvaston tuote on materiaaliluettelossa"
 >>>>>>> upstream/18.0
+=======
+msgstr "Tuotekuvaston tuote on materiaaliluettelossa"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_product_product__product_catalog_product_is_in_mo
@@ -67049,7 +67459,11 @@ msgid "Product Catalog Product Is In Mo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tuoteluettelo tuote on valmistustilauksessa"
+=======
+msgstr "Tuotekuvaston tuote on tuotantotilauksessa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tuotekuvaston tuote on tuotantotilauksessa"
 >>>>>>> upstream/18.0
@@ -67648,7 +68062,11 @@ msgid "Quant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quant"
+=======
+msgstr "Määrä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Määrä"
 >>>>>>> upstream/18.0
@@ -68335,8 +68753,12 @@ msgstr "Viitteen tulee olla yksilöllinen yrityskohtaisesti!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Reference of the document that generated this production order request."
+=======
+msgid "Reference of the document that generated this production order request."
+>>>>>>> upstream/18.0
 =======
 msgid "Reference of the document that generated this production order request."
 >>>>>>> upstream/18.0
@@ -69387,8 +69809,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Aikataulutettu ennen edellistä työtilausta, suunniteltu välillä %(start)s - "
 "%(end)s"
+=======
+"Aikataulutettu ennen edellistä työtilausta, suunniteltu välillä %(start)s - %"
+"(end)s"
+>>>>>>> upstream/18.0
 =======
 "Aikataulutettu ennen edellistä työtilausta, suunniteltu välillä %(start)s - %"
 "(end)s"
@@ -70652,6 +71079,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Määritä järjestys, jossa työtilaukset käsitellään. Aktivoi ominaisuus kunkin"
 " osaluettelon Sekalaiset-välilehdellä"
 =======
@@ -71570,6 +71998,10 @@ msgstr ""
 "Määritä järjestys, jossa työtilaukset käsitellään. Aktivoi ominaisuus kunkin "
 "materiaaliluettelon Sekalaiset-välilehdellä"
 >>>>>>> upstream/18.0
+=======
+"Määritä järjestys, jossa työtilaukset käsitellään. Aktivoi ominaisuus kunkin "
+"materiaaliluettelon Sekalaiset-välilehdellä"
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_configuration
@@ -71614,7 +72046,11 @@ msgid "Show BoM column"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Näytä osaluettelon sarake"
+=======
+msgstr "Näytä materiaaliluettelon sarake"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä materiaaliluettelon sarake"
 >>>>>>> upstream/18.0
@@ -71672,7 +72108,11 @@ msgid "Show Bom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Näytä osaluettelo"
+=======
+msgstr "Näytä materiaaliluettelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Näytä materiaaliluettelo"
 >>>>>>> upstream/18.0
@@ -71788,6 +72228,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72479,6 +72920,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Some work orders are already done, so you cannot unplan this manufacturing "
 "order.\n"
 "\n"
@@ -72714,6 +73157,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73407,12 +73853,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Some work orders have already started, so you cannot unplan this manufacturing order.\n"
 "\n"
 "It’d be a shame to waste all that progress, right?"
 msgstr ""
 "Jotkin työtilaukset on jo aloitettu, joten et voi perua tämän valmistustilauksen suunnittelua.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74104,6 +74553,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74581,6 +75033,7 @@ msgstr "Erityiset kapasiteetit"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workcenter__capacity_ids
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75499,6 +75952,9 @@ msgid "Specific number of pieces that can be produced in parallel per product."
 =======
 msgid "Specific number of pieces that can be produced in parallel per product."
 >>>>>>> upstream/18.0
+=======
+msgid "Specific number of pieces that can be produced in parallel per product."
+>>>>>>> upstream/18.0
 msgstr "Tuotetta kohti rinnakkain valmistettavien kappaleiden määrä."
 
 #. module: mrp
@@ -75632,7 +76088,11 @@ msgid "Start Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alkupäivä"
+=======
+msgstr "Aloituspäivä"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aloituspäivä"
 >>>>>>> upstream/18.0
@@ -75907,7 +76367,11 @@ msgid "Sub BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aliosaluettelo"
+=======
+msgstr "Alimateriaaliluettelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alimateriaaliluettelo"
 >>>>>>> upstream/18.0
@@ -76045,7 +76509,11 @@ msgid "The BoM has been updated since creation of the MO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osaluetteloa on päivitetty valmistustilauksen luomisen jälkeen"
+=======
+msgstr "Materiaaliluetteloa on päivitetty tuotantotilauksen luomisen jälkeen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Materiaaliluetteloa on päivitetty tuotantotilauksen luomisen jälkeen"
 >>>>>>> upstream/18.0
@@ -76221,6 +76689,7 @@ msgstr "Purettavan määrän on oltava positiivinen!"
 #. odoo-python
 #: code:addons/mrp/models/mrp_production.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77368,6 +77837,10 @@ msgid ""
 "The serial number %(number)s used for byproduct %(product_name)s has already "
 "been produced"
 >>>>>>> upstream/18.0
+=======
+"The serial number %(number)s used for byproduct %(product_name)s has already "
+"been produced"
+>>>>>>> upstream/18.0
 msgstr ""
 "Sivutuotteeseen %(product_name)s käytetty sarjanumero %(number)s on jo "
 "tuotettu"
@@ -77404,7 +77877,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Osaluettelon sivutuotteiden kokonaiskustannusosuus voi olla enintään 100."
+=======
+"Materiaaliluettelon sivutuotteiden kokonaiskustannusosuus voi olla enintään "
+"100."
+>>>>>>> upstream/18.0
 =======
 "Materiaaliluettelon sivutuotteiden kokonaiskustannusosuus voi olla enintään "
 "100."
@@ -77543,7 +78021,11 @@ msgid "This is a BoM of type Kit!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tämä on setti-tyyppinen osaluettelo!"
+=======
+msgstr "Tämä on setti-tyyppinen materiaaliluettelo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tämä on setti-tyyppinen materiaaliluettelo!"
 >>>>>>> upstream/18.0
@@ -77604,8 +78086,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tämä on tuotteen osaluetteloon perustuva kustannus. Se lasketaan laskemalla "
 "yhteen tuotteen rakentamiseen tarvittavien komponenttien ja toimintojen "
+=======
+"Tämä on tuotteen materiaaliluetteloon perustuva kustannus. Se lasketaan "
+"summaamalla tuotteen rakentamiseen tarvittavien komponenttien ja toimintojen "
+>>>>>>> upstream/18.0
 =======
 "Tämä on tuotteen materiaaliluetteloon perustuva kustannus. Se lasketaan "
 "summaamalla tuotteen rakentamiseen tarvittavien komponenttien ja toimintojen "
@@ -77898,12 +78385,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                You can filter on the product to see all the past movements for the product."
 msgstr ""
 "Tämä valikko antaa sinulle täydellisen jäljitettävyyden tiettyyn tuotteeseen kohdistuvista varastotoimista.\n"
 "                Voit suodattaa tuotetta nähdäksesi kaikki tuotteen aiemmat liikkeet."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -78597,6 +79087,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -79093,9 +79586,15 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Tämän on oltava pienin määrä, joka tuotetta voidaan valmistaa. Jos "
 "osaluettelo sisältää toimintoja, varmista, että työpisteen kapasiteetti on "
 "tarkka."
+=======
+"Tämän pitäisi olla pienin määrä, minkä tuotetta voi valmistaa. Jos "
+"materiaaliluettelo sisältää toimintoja, varmista, että työpisteen "
+"kapasiteetti on tarkka."
+>>>>>>> upstream/18.0
 =======
 "Tämän pitäisi olla pienin määrä, minkä tuotetta voi valmistaa. Jos "
 "materiaaliluettelo sisältää toimintoja, varmista, että työpisteen "
@@ -79560,7 +80059,11 @@ msgid "Update BoM"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Päivitä osaluettelo"
+=======
+msgstr "Päivitä materiaaliluettelo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Päivitä materiaaliluettelo"
 >>>>>>> upstream/18.0
@@ -79880,8 +80383,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "aikatauluttamiseen on hyödyllistä, jos läpimenoaika on pitkä ja jos tuotanto"
 " perustuu myyntiennusteisiin."
+=======
+"aikatauluttamiseen on hyödyllistä, jos läpimenoaika on pitkä ja jos tuotanto "
+"perustuu myyntiennusteisiin."
+>>>>>>> upstream/18.0
 =======
 "aikatauluttamiseen on hyödyllistä, jos läpimenoaika on pitkä ja jos tuotanto "
 "perustuu myyntiennusteisiin."
@@ -81048,6 +81556,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "specified for a tracked product that is having its consumed amount "
 "increased:%(products)s"
 msgstr ""
@@ -81055,6 +81564,8 @@ msgstr ""
 "määritettävä seuratulle tuotteelle, jonka kulutettua määrää "
 "lisätään:%(products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81745,6 +82256,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82493,8 +83007,12 @@ msgid "Waiting the previous work order, planned from %(start)s to %(end)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Odottaa edellistä työtilausta, suunniteltu välillä %(start)s - %(end)s"
+=======
+msgstr "Odottaa edellistä työtilausta, suunniteltu välillä %(start)s - %(end)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odottaa edellistä työtilausta, suunniteltu välillä %(start)s - %(end)s"
 >>>>>>> upstream/18.0
@@ -83465,8 +83983,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "try to create a Manufacturing Order for that product using a BoM of the same"
 " operation type. That allows to define stock rules which trigger different "
+=======
+"try to create a Manufacturing Order for that product using a BoM of the same "
+"operation type. That allows to define stock rules which trigger different "
+>>>>>>> upstream/18.0
 =======
 "try to create a Manufacturing Order for that product using a BoM of the same "
 "operation type. That allows to define stock rules which trigger different "
@@ -84623,12 +85146,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When activated, then the registration of consumption for that component is recorded manually exclusively.\n"
 "If not activated, and any of the components consumption is edited manually on the manufacturing order, Odoo assumes manual consumption also."
 msgstr ""
 "Kun on aktivoitu, kyseisen komponentin kulutuksen rekisteröinti kirjataan yksinomaan manuaalisesti.\n"
 "Jos sitä ei ole aktivoitu ja jonkin komponentin kulutusta muokataan manuaalisesti valmistustilauksessa, Odoo olettaa myös manuaalisen kulutuksen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -85322,6 +85848,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -86159,8 +86688,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Työtilaustoimintojen avulla voit luoda ja hallita valmistustoimintoja, joita"
 " työkeskuksissasi on noudatettava tuotteen valmistamiseksi. Ne liitetään "
+=======
+"Työtilaustoimintojen avulla voit luoda ja hallita valmistustoimintoja, joita "
+"työkeskuksissasi on noudatettava tuotteen valmistamiseksi. Ne liitetään "
+>>>>>>> upstream/18.0
 =======
 "Työtilaustoimintojen avulla voit luoda ja hallita valmistustoimintoja, joita "
 "työkeskuksissasi on noudatettava tuotteen valmistamiseksi. Ne liitetään "
@@ -87354,11 +87888,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Työtilaukset ovat valmistustilauksen osana tehtäviä toimenpiteitä.\n"
 "                    Työt määritellään osaluettelossa tai lisätään suoraan valmistustilaukseen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88049,6 +88586,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -88743,11 +89283,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            Operations are defined in the bill of materials or added in the manufacturing order directly."
 msgstr ""
 "Työtilaukset ovat valmistustilauksen osana suoritettavia toimenpiteitä.\n"
 "            Työt määritellään osaluettelossa tai lisätään suoraan valmistustilaukseen."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89438,6 +89981,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90060,6 +90606,7 @@ msgstr "Voit yhdistää vain saman tilan valmistuksia."
 
 #. module: mrp
 #. odoo-python
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91281,6 +91828,11 @@ msgstr "Et voi peruuttaa tuotantotilausta, joka on jo valmis."
 msgid "You cannot cancel a manufacturing order that is already done."
 msgstr "Et voi peruuttaa tuotantotilausta, joka on jo valmis."
 >>>>>>> upstream/18.0
+=======
+#: code:addons/mrp/models/mrp_production.py:0
+msgid "You cannot cancel a manufacturing order that is already done."
+msgstr "Et voi peruuttaa tuotantotilausta, joka on jo valmis."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #. odoo-python
@@ -91488,6 +92040,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -92110,6 +92665,7 @@ msgstr "Et voi luoda syklistä riippuvuutta."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -92289,6 +92845,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92793,6 +93351,9 @@ msgstr "Et voi poistaa tuotantotilausta, joka on jo valmis."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93173,6 +93734,7 @@ msgid ""
 "You cannot use the 'Apply on Variant' functionality and simultaneously "
 "create a BoM for a specific variant."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94320,6 +94882,10 @@ msgstr ""
 "Et voi käyttää 'Sovella variantteihin' -toimintoa ja samalla luoda "
 "materiaaliluetteloa tietylle variantille."
 >>>>>>> upstream/18.0
+=======
+"Et voi käyttää 'Sovella variantteihin' -toimintoa ja samalla luoda "
+"materiaaliluetteloa tietylle variantille."
+>>>>>>> upstream/18.0
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_consumption_warning_form
@@ -94558,10 +95124,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Please review your component consumption or ask a manager to validate\n"
 "                            <span invisible=\"mrp_production_count != 1\">this manufacturing order</span>\n"
 "                            <span invisible=\"mrp_production_count == 1\">these manufacturing orders</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95252,6 +95821,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -95945,10 +96517,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            Tarkista komponenttien kulutus tai pyydä esimiestä vahvistamaan\n"
 "                           <span invisible=\"mrp_production_count != 1\">tämä valmistustilaus</span>\n"
 "                           <span invisible=\"mrp_production_count == 1\">nämä valmistustilaukset</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -96639,6 +97214,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97350,6 +97928,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'Productivity'. Create one from the Manufacturing app, menu: Configuration /"
 " Productivity Losses."
 msgstr ""
@@ -97357,6 +97936,8 @@ msgstr ""
 "\"Tuottavuus\". Luo sellainen tuotantosovelluksen valikosta: Konfigurointi /"
 " Tuottavuushäviöt."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98047,6 +98628,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98756,12 +99340,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to supply Lot/Serial Number for products and 'consume' them: "
 "%(missing_products)s"
 msgstr ""
 "Sinun on annettava tuotteiden erä-/sarjanumero ja \"kulutettava\" ne: "
 "%(missing_products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -99451,6 +100038,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100037,6 +100627,7 @@ msgstr "jaa"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_workcenter_form_view
 msgid "work orders"
 msgstr "työtilaukset"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101010,6 +101601,8 @@ msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 #~ msgid "100"
 #~ msgstr "100"
@@ -101081,6 +101674,9 @@ msgstr "{{ state.isFolded ? 'Unfold' : 'Fold' }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

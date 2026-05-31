@@ -18,7 +18,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
                 "name": field_name,
                 "model": "account.move",
                 "model_id": model_id,
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
                 "state": "manual",
             }
             for field_name, field_config in PEPPOL_INVOICE_OPTIONAL_FIELDS.items()
@@ -30,7 +34,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
                 "name": field_name,
                 "model": "account.move",
                 "model_id": model_id,
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
                 "state": "manual",
             }
             for field_name, field_config in PEPPOL_INVOICE_OPTIONAL_LINE_FIELDS.items()
@@ -65,7 +73,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
                 "name": field_name,
                 "model": "account.move",
                 "model_id": model_id,
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
                 "state": "manual",
             }
             for field_name, field_config in PEPPOL_CREDIT_NOTE_OPTIONAL_FIELDS.items()
@@ -77,7 +89,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
                 "name": field_name,
                 "model": "account.move",
                 "model_id": model_id,
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
                 "state": "manual",
             }
             for field_name, field_config in PEPPOL_CREDIT_NOTE_OPTIONAL_LINE_FIELDS.items()

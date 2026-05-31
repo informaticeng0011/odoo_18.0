@@ -33,6 +33,10 @@ class MrpProduction(models.Model):
 
     def _inverse_move_line_raw_ids(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        line_ids_to_delete = set()
+>>>>>>> upstream/18.0
 =======
         line_ids_to_delete = set()
 >>>>>>> upstream/18.0
@@ -41,6 +45,7 @@ class MrpProduction(models.Model):
             for line in production.move_line_raw_ids:
                 line_by_product[line.product_id] |= line
             for move in production.move_raw_ids:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1281,10 +1286,15 @@ class MrpProduction(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
                 lines = line_by_product.pop(move.product_id, self.env['stock.move.line'])
                 lines_to_delete = move.move_line_ids - lines
                 line_ids_to_delete.update(lines_to_delete.ids)
                 move.move_line_ids = lines
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             for product_id, lines in line_by_product.items():
                 qty = sum(line.product_uom_id._compute_quantity(line.quantity, product_id.uom_id) for line in lines)
@@ -1293,6 +1303,10 @@ class MrpProduction(models.Model):
                 production.move_raw_ids = [(0, 0, move)]
                 production.move_raw_ids.filtered(lambda m: m.product_id == product_id)[:1].move_line_ids = lines
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env['stock.move.line'].browse(line_ids_to_delete).unlink()
+>>>>>>> upstream/18.0
 =======
         self.env['stock.move.line'].browse(line_ids_to_delete).unlink()
 >>>>>>> upstream/18.0

@@ -33,11 +33,23 @@ class PeppolSettingsButtons extends Component {
         return this.props.record.data.account_peppol_proxy_state;
     }
 
+<<<<<<< HEAD
+=======
+    get ediIdentification() {
+        return this.props.record.data.account_peppol_edi_identification || "";
+    }
+
+    get isPdpEdiIdentification() {
+        return this.ediIdentification.startsWith('0225:')
+    }
+
+>>>>>>> upstream/18.0
     get migrationPrepared() {
         return this.props.record.data.account_peppol_proxy_state === "receiver" && Boolean(this.props.record.data.account_peppol_migration_key);
     }
 
     get ediMode() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1339,6 +1351,10 @@ class PeppolSettingsButtons extends Component {
         const demo_if_demo_identifier = this.props.record.data.peppol_eas === 'odemo' ? "demo": false
         return demo_if_demo_identifier || this.props.record.data.edi_mode || this.props.record.data.account_peppol_edi_mode;
 >>>>>>> upstream/18.0
+=======
+        const demo_if_demo_identifier = this.props.record.data.peppol_eas === 'odemo' ? "demo": false
+        return demo_if_demo_identifier || this.props.record.data.edi_mode || this.props.record.data.account_peppol_edi_mode;
+>>>>>>> upstream/18.0
     }
 
     get modeConstraint() {
@@ -1362,6 +1378,12 @@ class PeppolSettingsButtons extends Component {
         if (['not_registered', 'in_verification'].includes(this.proxyState)) {
             return _t("Discard");
         }
+<<<<<<< HEAD
+=======
+        if (this.isPdpEdiIdentification) {
+            return _t("Remove from Approved Platform");
+        }
+>>>>>>> upstream/18.0
         return _t("Remove from Peppol");
     }
 
@@ -1378,7 +1400,13 @@ class PeppolSettingsButtons extends Component {
 
     showConfirmation(warning, methodName) {
         const message = _t(warning);
+<<<<<<< HEAD
         const confirmMessage = _t("You will not be able to send or receive Peppol documents in Odoo anymore. Are you sure you want to proceed?");
+=======
+        const confirmMessage = this.isPdpEdiIdentification
+              ? _t("You will no longer be able to send or receive documents via the Odoo Approved Platform. Are you sure you want to proceed?")
+              : _t("You will no longer be able to send or receive Peppol documents in Odoo. Are you sure you want to proceed?");
+>>>>>>> upstream/18.0
         this.dialogService.add(ConfirmationDialog, {
             body: markup(
                 `<div class="text-danger">${escape(message)}</div>
@@ -1391,6 +1419,7 @@ class PeppolSettingsButtons extends Component {
         });
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2332,11 +2361,14 @@ class PeppolSettingsButtons extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     async deregister() {
         if (this.ediMode === 'demo' || !['sender', 'smp_registration', 'receiver'].includes(this.proxyState)) {
             await this._callConfigMethod("button_deregister_peppol_participant");
             // Discard any changes
             this.props.record._discard();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3277,6 +3309,11 @@ class PeppolSettingsButtons extends Component {
         } else if (['sender', 'smp_registration', 'receiver'].includes(this.proxyState)) {
             this.showConfirmation(
                 "This will delete your Peppol registration.",
+=======
+        } else if (['sender', 'smp_registration', 'receiver'].includes(this.proxyState)) {
+            this.showConfirmation(
+                this.isPdpEdiIdentification ? _t("This will delete your Approved Platform registration.") : _t("This will delete your Peppol registration."),
+>>>>>>> upstream/18.0
                 "button_deregister_peppol_participant"
             )
         }
@@ -3422,7 +3459,10 @@ class PeppolSettingsButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3844,6 +3884,9 @@ class PeppolSettingsButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

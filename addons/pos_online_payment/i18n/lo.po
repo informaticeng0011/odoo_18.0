@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_online_payment
 #
 =======
@@ -38,11 +39,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * pos_online_payment
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +77,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-18 16:14+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-05-26 04:54+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
 "pos_online_payment/lo/>\n"
 "Language: lo\n"
@@ -82,6 +94,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97,25 +112,41 @@ msgstr ""
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "<strong>Error:</strong> The currency is missing or invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຂໍ້ຜິດພາດ:</strong> ບໍ່ພົບສະກຸນເງິນ ຫຼື ສະກຸນເງິນບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid ""
 "<strong>Error:</strong> There was a problem during the payment process."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>ຂໍ້ຜິດພາດ:</strong> ເກີດບັນຫາໃນລະຫວ່າງຂັ້ນຕອນການຊຳລະເງິນ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_config.py:0
 msgid "A POS config cannot have more than one online payment method."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ POS ບໍ່ສາມາດມີວິທີການຊຳລະເງິນແບບອອນລາຍເກີນໜຶ່ງວິທີ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "A payment option must be specified."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕ້ອງລະບຸຕົວເລືອກການຊຳລະເງິນ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -123,11 +154,19 @@ msgstr ""
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການຊຳລະເງິນແບບກວດສອບຄວາມຖືກຕ້ອງ ບໍ່ສາມາດໃຊ້ສຳລັບການຊຳລະເງິນອອນລາຍຂອງ POS ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "All available providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການທັງໝົດທີ່ມີ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -137,11 +176,20 @@ msgid ""
 "same currency as the Sales Journal, or the company currency if that is not "
 "set, of the POS config."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ຜູ້ໃຫ້ບໍລິການຊຳລະເງິນທັງໝົດທີ່ຕັ້ງຄ່າສຳລັບວິທີການຊຳລະເງິນອອນລາຍ ຕ້ອງໃຊ້ສະກຸນເງິນດຽວກັນກັບປຶ້ມບັນຊີການຂາ"
+"ຍ, ຫຼື ສະກຸນເງິນຂອງບໍລິສັດ (ຫາກບໍ່ໄດ້ກຳນົດໄວ້) ໃນການຕັ້ງຄ່າ POS."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__online_payment_provider_ids
 msgid "Allowed Providers"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການທີ່ອະນຸຍາດ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
@@ -152,7 +200,11 @@ msgid "Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ມູນຄ່າ"
 >>>>>>> upstream/18.0
@@ -182,7 +234,11 @@ msgid "Amount:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນເງິນ:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນເງິນ:"
 >>>>>>> upstream/18.0
@@ -205,13 +261,21 @@ msgstr "ຈຳນວນເງິນ:"
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Cancel payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍົກເລີກການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot create a POS online payment without an accounting payment."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສ້າງການຊຳລະເງິນອອນລາຍຂອງ POS ໄດ້ ໂດຍບໍ່ມີການຊຳລະເງິນທາງບັນຊີ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -220,12 +284,20 @@ msgid ""
 "Cannot create a POS payment with a not online payment method and an online "
 "accounting payment."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ສາມາດສ້າງການຊຳລະເງິນ POS ດ້ວຍວິທີການທີ່ບໍ່ແມ່ນອອນລາຍ ແລະ ການຊຳລະເງິນທາງບັນຊີແບບອອນລາຍໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_payment.py:0
 msgid "Cannot edit a POS online payment essential data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດແກ້ໄຂຂໍ້ມູນທີ່ຈຳເປັນຂອງການຊຳລະເງິນອອນລາຍ POS ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -234,34 +306,59 @@ msgid ""
 "Could not create an online payment method (company_id=%(company_id)d, "
 "pos_config_id=%(pos_config_id)d)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ສາມາດສ້າງວິທີການຊຳລະເງິນອອນລາຍໄດ້ (company_id=%(company_id)d, pos_config_id=%"
+"(pos_config_id)d)"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__has_an_online_payment_provider
 msgid "Has An Online Payment Provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີຜູ້ໃຫ້ບໍລິການຊຳລະເງິນອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invalid online payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນອອນລາຍບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invalid online payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການຊຳລະເງິນອອນລາຍບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Invoice could not be generated"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສ້າງໃບແຈ້ງໜີ້ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_order__next_online_payment_amount
 msgid "Next online payment amount to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າຊຳລະອອນລາຍຄັ້ງຖັດໄປທີ່ຕ້ອງຈ່າຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields.selection,name:pos_online_payment.selection__pos_payment_method__type__online
@@ -272,7 +369,11 @@ msgid "Online"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອອນລາຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອອນລາຍ"
 >>>>>>> upstream/18.0
@@ -297,56 +398,96 @@ msgstr "ອອນລາຍ"
 #: code:addons/pos_online_payment/models/pos_payment_method.py:0
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__is_online_payment
 msgid "Online Payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_order__online_payment_method_id
 msgid "Online Payment Method"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຊຳລະເງິນອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment__online_account_payment_id
 msgid "Online accounting payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນທາງບັນຊີແບບອອນລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Online payment unavailable"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນອອນລາຍບໍ່ພ້ອມໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Online payments cannot have a negative amount (%s: %s)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນອອນລາຍບໍ່ສາມາດມີມູນຄ່າຕິດລົບໄດ້ (%s: %s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Order ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຄຳສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "Order ID:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຄຳສັ່ງຊື້:"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Order Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກອ້າງອີງຄຳສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Order reference:"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກອ້າງອີງຄຳສັ່ງຊື້:"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Order saving issue"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຫາໃນການບັນທຶກຄຳສັ່ງຊື້"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -357,7 +498,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.payment_transaction_form
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.view_account_payment_form_inherit_pos_online_payment
 msgid "POS Order"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳສັ່ງຊື້ POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
@@ -368,7 +513,11 @@ msgid "Payment Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ໃຫ້ບໍລິການຊຳລະເງິນ"
 >>>>>>> upstream/18.0
@@ -397,7 +546,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸລະກຳການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທຸລະກຳການຊຳລະເງິນ"
 >>>>>>> upstream/18.0
@@ -426,7 +579,11 @@ msgid "Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຊຳລະເງິນ"
 >>>>>>> upstream/18.0
@@ -449,62 +606,106 @@ msgstr "ການຊຳລະເງິນ"
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_config
 msgid "Point of Sale Configuration"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າຈຸດຂາຍ (POS)"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_order
 msgid "Point of Sale Orders"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳສັ່ງຊື້ຈຸດຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວິທີການຊຳລະເງິນຈຸດຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_payment
 msgid "Point of Sale Payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນຈຸດຂາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model,name:pos_online_payment.model_pos_session
 msgid "Point of Sale Session"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮອບການຂາຍ POS"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Processed by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ດຳເນີນການໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "QR Code to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄິວອານໂຄດ (QR Code) ເພື່ອຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan the QR code to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແກນຄິວອານໂຄດເພື່ອຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/app/online_payment_popup/online_payment_popup.xml:0
 msgid "Scan to pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແກນເພື່ອຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Server error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊີເວີຂັດຂ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The POS online payment (tx.id=%d) could not be saved correctly"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຊຳລະເງິນອອນລາຍ POS (tx.id=%d) ບໍ່ສາມາດບັນທຶກໄດ້ຢ່າງຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -513,70 +714,119 @@ msgid ""
 "The POS online payment (tx.id=%d) could not be saved correctly because the "
 "online payment method could not be found"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການຊຳລະເງິນອອນລາຍ POS (tx.id=%d) ບໍ່ສາມາດບັນທຶກໄດ້ຢ່າງຖືກຕ້ອງ ເພາະວ່າບໍ່ພົບວິທີການຊຳລະເງິນອອນ"
+"ລາຍ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The POS session is not opened."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮອບການຂາຍ POS ບໍ່ໄດ້ເປີດຢູ່."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_payment_transaction__pos_order_id
 msgid "The Point of Sale order linked to the payment transaction"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳສັ່ງຊື້ຈຸດຂາຍທີ່ເຊື່ອມໂຍງກັບທຸລະກຳການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_account_payment__pos_order_id
 msgid "The Point of Sale order linked to this payment"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳສັ່ງຊື້ຈຸດຂາຍທີ່ເຊື່ອມໂຍງກັບການຊຳລະເງິນນີ້"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The QR Code for paying could not be generated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສ້າງຄິວອານໂຄດ (QR Code) ສຳລັບການຊຳລະເງິນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The amount to pay has changed. Please refresh the page."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມູນຄ່າທີ່ຕ້ອງຊຳລະມີການປ່ຽນແປງ. ກະລຸນາໂຫຼດໜ້ານີ້ໃໝ່."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The currency is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະກຸນເງິນບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The invoice could not be generated."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສ້າງໃບແຈ້ງໜີ້ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The order has been cancelled."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳສັ່ງຊື້ຖືກຍົກເລີກແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The order has not been saved correctly on the server."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳສັ່ງຊື້ບໍ່ໄດ້ຖືກບັນທຶກຢ່າງຖືກຕ້ອງໃນເຊີເວີ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/pos_session.py:0
 msgid "The partner of the POS online payment (id=%d) could not be found"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບຄູ່ຄ້າຂອງການຊຳລະເງິນອອນລາຍ POS (id=%d)"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment provider is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການຊຳລະເງິນບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -584,36 +834,60 @@ msgstr ""
 msgid ""
 "The payment should either be direct, with redirection, or made by a token."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການຊຳລະເງິນຄວນເປັນແບບໂດຍກົງ, ແບບສົ່ງຕໍ່ (redirection), ຫຼື ຊຳລະຜ່ານໂທເຄັນ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The payment token is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທເຄັນການຊຳລະເງິນບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/models/payment_transaction.py:0
 msgid "The payment transaction (%d) has a negative amount."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸລະກຳການຊຳລະເງິນ (%d) ມີມູນຄ່າຕິດລົບ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided order or access token is invalid."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄຳສັ່ງຊື້ ຫຼື ໂທເຄັນການເຂົ້າເຖິງທີ່ລະບຸບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "The provided partner_id is different than expected."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "partner_id ທີ່ລະບຸແຕກຕ່າງຈາກທີ່ຄາດໄວ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "The saved order could not be retrieved."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດດຶງຂໍ້ມູນຄຳສັ່ງຊື້ທີ່ບັນທຶກໄວ້ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -622,12 +896,20 @@ msgid ""
 "The total amount of remaining online payments to execute (%s) doesn't "
 "correspond to the remaining unpaid amount of the order (%s)."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ມູນຄ່າລວມຂອງການຊຳລະເງິນອອນລາຍທີ່ເຫຼືອ (%s) ບໍ່ກົງກັບຍອດຄ້າງຊຳລະຂອງຄຳສັ່ງຊື້ (%s)."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "There are online payments that were missing in your view."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ມີບາງລາຍການຊຳລະເງິນອອນລາຍທີ່ຂາດຫາຍໄປໃນການສະແດງຜົນຂອງທ່ານ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -636,6 +918,10 @@ msgid ""
 "There is a problem with the server. The order online payment status cannot "
 "be retrieved."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເກີດບັນຫາຂັດຂ້ອງກັບເຊີເວີ. ບໍ່ສາມາດດຶງຂໍ້ມູນສະຖານະການຊຳລະເງິນອອນລາຍຂອງຄຳສັ່ງຊື້ໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -644,19 +930,32 @@ msgid ""
 "There is a problem with the server. The order online payment status cannot "
 "be retrieved. Are you sure there is no online payment for this order ?"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເກີດບັນຫາຂັດຂ້ອງກັບເຊີເວີ. ບໍ່ສາມາດດຶງຂໍ້ມູນສະຖານະການຊຳລະເງິນອອນລາຍໄດ້. ທ່ານແນ່ໃຈຫຼືບໍ່ວ່າບໍ່ມີການຊຳລະ"
+"ເງິນອອນລາຍສຳລັບຄຳສັ່ງຊື້ນີ້?"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid ""
 "There is no online payment method configured for this Point of Sale order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີການຕັ້ງຄ່າວິທີການຊຳລະເງິນອອນລາຍສຳລັບຄຳສັ່ງຊື້ຈຸດຂາຍນີ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "There is nothing to pay for this order."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຍອດທີ່ຕ້ອງຊຳລະສຳລັບຄຳສັ່ງຊື້ນີ້."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
@@ -667,7 +966,11 @@ msgid "There is nothing to pay."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີຫຍັງຕ້ອງຊຳລະ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ມີຫຍັງຕ້ອງຊຳລະ."
 >>>>>>> upstream/18.0
@@ -690,7 +993,11 @@ msgstr "ບໍ່ມີຫຍັງຕ້ອງຊຳລະ."
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "To Pay"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຍອດທີ່ຕ້ອງຊຳລະ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
@@ -699,22 +1006,39 @@ msgid ""
 "To use an online payment method in a POS config, it must have at least one "
 "published payment provider supporting the currency of that POS config."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ເພື່ອໃຊ້ວິທີການຊຳລະເງິນອອນລາຍໃນການຕັ້ງຄ່າ POS, ຈະຕ້ອງມີຜູ້ໃຫ້ບໍລິການຊຳລະເງິນທີ່ເປີດໃຊ້ງານຢ່າງໜ້ອຍໜຶ່ງລ"
+"າຍ ທີ່ຮອງຮັບສະກຸນເງິນຂອງການຕັ້ງຄ່າ POS ນັ້ນ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
 msgid "Tokenization is not available for logged out customers."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ການໃຊ້ລະບົບໂທເຄັນ (Tokenization) ບໍ່ຮອງຮັບສຳລັບລູກຄ້າທີ່ບໍ່ໄດ້ເຂົ້າສູ່ລະບົບ."
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Transaction Reference"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກອ້າງອີງທຸລະກຳ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay_confirmation
 msgid "Try again"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລອງໃໝ່ອີກຄັ້ງ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,field_description:pos_online_payment.field_pos_payment_method__type
@@ -725,7 +1049,11 @@ msgid "Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດ"
 >>>>>>> upstream/18.0
@@ -749,7 +1077,11 @@ msgstr "ປະເພດ"
 #. odoo-javascript
 #: code:addons/pos_online_payment/static/src/overrides/pos_overrides/components/payment_screen/payment_screen.js:0
 msgid "Updated online payments"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດການຊຳລະເງິນອອນລາຍແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model:ir.model.fields,help:pos_online_payment.field_pos_payment_method__is_online_payment
@@ -757,6 +1089,11 @@ msgid ""
 "Use this payment method for online payments (payments made on a web page "
 "with online payment providers)"
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃຊ້ວິທີການຊຳລະເງິນນີ້ສຳລັບການຊຳລະເງິນອອນລາຍ (ການຊຳລະເງິນຜ່ານໜ້າເວັບດ້ວຍຜູ້ໃຫ້ບໍລິການຊຳລະເງິນອອນລ"
+"າຍ)"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #. odoo-javascript
@@ -768,7 +1105,11 @@ msgid "Yes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແມ່ນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແມ່ນ"
 >>>>>>> upstream/18.0
@@ -791,14 +1132,26 @@ msgstr "ແມ່ນ"
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "You have not activated any"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທ່ານຍັງບໍ່ໄດ້ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "payment provider"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການຊຳລະເງິນ"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pos_payment_method_view_form_inherit_pos_online_payment
 msgid "to allow online payments."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພື່ອອະນຸຍາດໃຫ້ຊຳລະເງິນແບບອອນລາຍ."
+>>>>>>> upstream/18.0

@@ -56,6 +56,10 @@ patch(ControlButtons.prototype, {
                 return;
             }
             this.pos.isOrderTransferMode = false;
+<<<<<<< HEAD
+=======
+            document.removeEventListener("click", onClickWhileTransfer);
+>>>>>>> upstream/18.0
             const tableElement = ev.target.closest(".table");
             if (!tableElement) {
                 return;
@@ -63,7 +67,10 @@ patch(ControlButtons.prototype, {
             const table = this.pos.getTableFromElement(tableElement);
             await this.pos.transferOrder(orderUuid, table);
             this.pos.setTableFromUi(table);
+<<<<<<< HEAD
             document.removeEventListener("click", onClickWhileTransfer);
+=======
+>>>>>>> upstream/18.0
         };
         document.addEventListener("click", onClickWhileTransfer);
     },

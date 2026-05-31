@@ -188,8 +188,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_picking_batch
 # 
+=======
+# * stock_picking_batch
+#
+>>>>>>> upstream/18.0
 =======
 # * stock_picking_batch
 #
@@ -1269,6 +1274,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
@@ -2490,10 +2496,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Cristina Paniagua Ramiro <crpan@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Cristina Paniagua Ramiro <crpan@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3884,6 +3896,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-14 08:24+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:39+0000\n"
+"PO-Revision-Date: 2026-04-14 08:24+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "stock_picking_batch/pt/>\n"
 "Language: pt\n"
@@ -3892,6 +3909,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5609,6 +5627,9 @@ msgstr "20-08-2023"
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: stock_picking_batch
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch.stock_picking_type_kanban_batch
@@ -5801,7 +5822,11 @@ msgid "<span class=\"col-6\">Waves</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"col-6\">Ondas</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"col-6\">Ondas</span>"
 >>>>>>> upstream/18.0
@@ -6561,6 +6586,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
 "=\"white-space: nowrap;\">Agrupamento em onda</span>"
@@ -6728,6 +6754,10 @@ msgstr ""
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" style"
 "=\"white-space: nowrap;\">Agrupamento em onda</span>"
+>>>>>>> upstream/18.0
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
+"style=\"white-space: nowrap;\">Agrupamento em onda</span>"
 >>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\" "
@@ -7508,6 +7538,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\""
 ">Agrupamento em lote</span>"
@@ -7675,6 +7706,10 @@ msgstr ""
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not auto_batch\""
 ">Agrupamento em lote</span>"
+>>>>>>> upstream/18.0
+=======
+"<span class=\"o_form_label fw-bold\" invisible=\"not "
+"auto_batch\">Agrupamento em lote</span>"
 >>>>>>> upstream/18.0
 =======
 "<span class=\"o_form_label fw-bold\" invisible=\"not "
@@ -8452,7 +8487,11 @@ msgid "<strong>FROM</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>DE</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>DE</strong>"
 >>>>>>> upstream/18.0
@@ -9224,7 +9263,11 @@ msgid "<strong>Responsible:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Responsável:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Responsável:</strong>"
 >>>>>>> upstream/18.0
@@ -9981,7 +10024,11 @@ msgid "<strong>TO</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>PARA</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>PARA</strong>"
 >>>>>>> upstream/18.0
@@ -10738,7 +10785,11 @@ msgid "<strong>→</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>→</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>→</strong>"
 >>>>>>> upstream/18.0
@@ -11453,6 +11504,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transfer will not be automatically added to batches that will exceed this number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
 msgstr ""
@@ -11999,6 +12051,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of lines if the transfer is added to it.\n"
 "Leave this value as '0' if no line limit."
@@ -12151,6 +12205,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12446,6 +12503,7 @@ msgstr ""
 #. module: stock_picking_batch
 #: model:ir.model.fields,help:stock_picking_batch.field_stock_picking_type__batch_max_pickings
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13138,6 +13196,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "A transfer will not be automatically added to batches that will exceed this "
 "number of transfers.\n"
 "Leave this value as '0' if no transfer limit."
@@ -13290,6 +13350,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13800,7 +13863,11 @@ msgid "Add Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar operações"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar operações"
 >>>>>>> upstream/18.0
@@ -14557,7 +14624,11 @@ msgid "Add pickings to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar separações a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar separações a"
 >>>>>>> upstream/18.0
@@ -15323,7 +15394,11 @@ msgid "Add to Wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar à leva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar à leva"
 >>>>>>> upstream/18.0
@@ -16080,7 +16155,11 @@ msgid "Add to batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar ao lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar ao lote"
 >>>>>>> upstream/18.0
@@ -16837,7 +16916,11 @@ msgid "Add to wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adicionar à leva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adicionar à leva"
 >>>>>>> upstream/18.0
@@ -17599,7 +17682,11 @@ msgid "Allowed Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separação permitida"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separação permitida"
 >>>>>>> upstream/18.0
@@ -18357,7 +18444,11 @@ msgid "Assigned to %s Responsible"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Atribuído ao %s responsável"
+>>>>>>> upstream/18.0
 =======
 msgstr "Atribuído ao %s responsável"
 >>>>>>> upstream/18.0
@@ -19119,7 +19210,11 @@ msgid "Auto-confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Autoconfirmar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Autoconfirmar"
 >>>>>>> upstream/18.0
@@ -19876,7 +19971,11 @@ msgid "Automatic Batches"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lotes automáticos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lotes automáticos"
 >>>>>>> upstream/18.0
@@ -20633,7 +20732,11 @@ msgid "Automatically group batches by contacts."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agrupe automaticamente os lotes por contatos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrupe automaticamente os lotes por contatos."
 >>>>>>> upstream/18.0
@@ -21390,7 +21493,11 @@ msgid "Automatically group batches by destination country."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agrupar automaticamente os lotes por país de destino."
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrupar automaticamente os lotes por país de destino."
 >>>>>>> upstream/18.0
@@ -22147,7 +22254,11 @@ msgid "Automatically group batches by their destination location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agrupar automaticamente os lotes por local de destino."
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrupar automaticamente os lotes por local de destino."
 >>>>>>> upstream/18.0
@@ -22904,7 +23015,11 @@ msgid "Automatically group batches by their source location."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agrupar automaticamente os lotes por sua localização de origem."
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrupar automaticamente os lotes por sua localização de origem."
 >>>>>>> upstream/18.0
@@ -23663,6 +23778,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Colocar automaticamente as separações em lotes à medida que são confirmadas, "
+"quando possível."
+>>>>>>> upstream/18.0
 =======
 "Colocar automaticamente as separações em lotes à medida que são confirmadas, "
 "quando possível."
@@ -24746,7 +24866,11 @@ msgid "Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Po"
+>>>>>>> upstream/18.0
 =======
 msgstr "Po"
 >>>>>>> upstream/18.0
@@ -25902,7 +26026,11 @@ msgid "Batch & Wave Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências em lote e em ondas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências em lote e em ondas"
 >>>>>>> upstream/18.0
@@ -26659,7 +26787,11 @@ msgid "Batch Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do lote"
 >>>>>>> upstream/18.0
@@ -27416,7 +27548,11 @@ msgid "Batch Properties"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Propriedades do lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Propriedades do lote"
 >>>>>>> upstream/18.0
@@ -28184,7 +28320,11 @@ msgid "Batch Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferência em lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferência em lote"
 >>>>>>> upstream/18.0
@@ -28941,7 +29081,11 @@ msgid "Batch Transfer Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de transferência em lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de transferência em lote"
 >>>>>>> upstream/18.0
@@ -29699,7 +29843,11 @@ msgid "Batch Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências em lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências em lote"
 >>>>>>> upstream/18.0
@@ -30456,7 +30604,11 @@ msgid "Batch Transfers not finished"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências em lote não concluídas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências em lote não concluídas"
 >>>>>>> upstream/18.0
@@ -31214,7 +31366,11 @@ msgid "Batch associated to this transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lote associado a esta transferência"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lote associado a esta transferência"
 >>>>>>> upstream/18.0
@@ -31972,7 +32128,11 @@ msgid "Batch transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências em lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências em lote"
 >>>>>>> upstream/18.0
@@ -32729,7 +32889,11 @@ msgid "Batches"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lotes"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lotes"
 >>>>>>> upstream/18.0
@@ -33504,7 +33668,11 @@ msgid "Cannot create wave transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível criar transferências em levas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível criar transferências em levas"
 >>>>>>> upstream/18.0
@@ -34261,7 +34429,11 @@ msgid "Categories to consider when grouping waves."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categorias a considerar no agrupamento em ondas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorias a considerar no agrupamento em ondas."
 >>>>>>> upstream/18.0
@@ -35024,7 +35196,11 @@ msgid "Choose Labels Layout"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecionar layout das etiquetas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecionar layout das etiquetas"
 >>>>>>> upstream/18.0
@@ -35782,7 +35958,11 @@ msgid "Choose Type of Labels To Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Escolha o tipo de etiquetas a serem impressas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Escolha o tipo de etiquetas a serem impressas"
 >>>>>>> upstream/18.0
@@ -36540,7 +36720,11 @@ msgid "Cluster transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências de clusters"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências de clusters"
 >>>>>>> upstream/18.0
@@ -37315,7 +37499,11 @@ msgid "Count Picking Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de lotes de separação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de lotes de separação"
 >>>>>>> upstream/18.0
@@ -38072,7 +38260,11 @@ msgid "Count Picking Wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Contagem de levas de separação"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contagem de levas de separação"
 >>>>>>> upstream/18.0
@@ -38849,7 +39041,11 @@ msgid "Destination Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "País de destino"
+>>>>>>> upstream/18.0
 =======
 msgstr "País de destino"
 >>>>>>> upstream/18.0
@@ -39661,7 +39857,11 @@ msgid "Group by Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agrupar por local de destino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrupar por local de destino"
 >>>>>>> upstream/18.0
@@ -40418,7 +40618,11 @@ msgid "Group by Source Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Agrupar por local de origem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Agrupar por local de origem"
 >>>>>>> upstream/18.0
@@ -41175,7 +41379,11 @@ msgid "Gujarat"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gujarat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gujarat"
 >>>>>>> upstream/18.0
@@ -41969,6 +42177,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Se o recurso de lotes automáticos estiver ativado, pelo menos uma opção "
+"\"agrupar por\" deverá ser selecionada."
+>>>>>>> upstream/18.0
 =======
 "Se o recurso de lotes automáticos estiver ativado, pelo menos uma opção "
 "\"agrupar por\" deverá ser selecionada."
@@ -42933,7 +43146,11 @@ msgid "John Doe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "João Silva"
+>>>>>>> upstream/18.0
 =======
 msgstr "João Silva"
 >>>>>>> upstream/18.0
@@ -43713,6 +43930,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Lance ordens de separação por corredor ou área e reagrupe na zona de "
+"embalagem. Ideal para grandes armazéns."
+>>>>>>> upstream/18.0
 =======
 "Lance ordens de separação por corredor ou área e reagrupe na zona de "
 "embalagem. Ideal para grandes armazéns."
@@ -44662,7 +44884,11 @@ msgid "List of transfers associated to this batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lista de transferências associadas a este lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lista de transferências associadas a este lote"
 >>>>>>> upstream/18.0
@@ -45424,7 +45650,11 @@ msgid "Location From Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do local de origem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do local de origem"
 >>>>>>> upstream/18.0
@@ -46181,7 +46411,11 @@ msgid "Location To Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome do local de destino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome do local de destino"
 >>>>>>> upstream/18.0
@@ -46938,7 +47172,11 @@ msgid "Locations to consider when grouping waves."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Locais a considerar ao agrupar ondas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Locais a considerar ao agrupar ondas."
 >>>>>>> upstream/18.0
@@ -47695,7 +47933,11 @@ msgid "Lot Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Número do lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Número do lote"
 >>>>>>> upstream/18.0
@@ -48452,7 +48694,11 @@ msgid "Maximum lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Máximo de linhas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Máximo de linhas"
 >>>>>>> upstream/18.0
@@ -49209,7 +49455,11 @@ msgid "Maximum transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Máximo de transferências"
+>>>>>>> upstream/18.0
 =======
 msgstr "Máximo de transferências"
 >>>>>>> upstream/18.0
@@ -49992,6 +50242,7 @@ msgid "My Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Minhas transferências"
@@ -50414,6 +50665,8 @@ msgstr "Minhas transferências"
 msgstr "Minhas transferências"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -50559,6 +50812,7 @@ msgid "New"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50566,6 +50820,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Novo"
 >>>>>>> upstream/18.0
 =======
 msgstr "Novo"
@@ -50944,7 +51201,11 @@ msgid "Package ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID da embalagem"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID da embalagem"
 >>>>>>> upstream/18.0
@@ -51705,6 +51966,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Separe vários pedidos em uma única viagem e prepare-os à medida que os "
+"separa. Isso reduz o tempo de empacotamento e é ideal para produtos pequenos."
+>>>>>>> upstream/18.0
 =======
 "Separe vários pedidos em uma única viagem e prepare-os à medida que os "
 "separa. Isso reduz o tempo de empacotamento e é ideal para produtos pequenos."
@@ -52617,8 +52883,12 @@ msgstr "Tipo de Recolha"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Please add 'Done' quantities to the batch picking to create a new pack."
+=======
+msgid "Please add 'Done' quantities to the batch picking to create a new pack."
+>>>>>>> upstream/18.0
 =======
 msgid "Please add 'Done' quantities to the batch picking to create a new pack."
 >>>>>>> upstream/18.0
@@ -53250,7 +53520,11 @@ msgid "Prepare Batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preparar lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preparar lote"
 >>>>>>> upstream/18.0
@@ -54011,7 +54285,11 @@ msgid "Prepare Wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preparar onda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preparar onda"
 >>>>>>> upstream/18.0
@@ -54784,7 +55062,11 @@ msgid "Product Barcode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Código de barras do produto"
+>>>>>>> upstream/18.0
 =======
 msgstr "Código de barras do produto"
 >>>>>>> upstream/18.0
@@ -55540,6 +55822,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Regroup multiple orders into one picking and consolidate at the packing "
 "zone."
 msgstr ""
@@ -56044,6 +56327,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Regroup multiple orders into one picking and consolidate at the packing zone."
 msgstr ""
 "Reagrupe vários pedidos em um única a separação e consolide na zona de "
@@ -56193,6 +56478,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56689,7 +56977,11 @@ msgid "Result Package ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID da embalagem resultante"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID da embalagem resultante"
 >>>>>>> upstream/18.0
@@ -57416,6 +57708,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "              - If manually set then scheduled date for all transfers in batch will automatically update to this date.\n"
 "              - If not manually changed and transfers are added/removed/updated then this will be their earliest scheduled date\n"
 "                but this scheduled date will not be set for all transfers in batch."
@@ -57546,6 +57839,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57988,6 +58283,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -58473,6 +58771,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59040,7 +59341,11 @@ msgid "Search Batch Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Buscar transferência em lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "Buscar transferência em lote"
 >>>>>>> upstream/18.0
@@ -59797,7 +60102,11 @@ msgid "Select locations you want to group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecione os locais que você deseja agrupar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecione os locais que você deseja agrupar"
 >>>>>>> upstream/18.0
@@ -60554,7 +60863,11 @@ msgid "Select product categories you want to group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Selecione as categorias de produtos que você deseja agrupar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Selecione as categorias de produtos que você deseja agrupar"
 >>>>>>> upstream/18.0
@@ -61316,7 +61629,11 @@ msgid "Show Allocation Button"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mostrar botão \"alocação\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Mostrar botão \"alocação\""
 >>>>>>> upstream/18.0
@@ -62096,6 +62413,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Divida as transferências por locais definidos e, em seguida, agrupe as "
+"transferências com o mesmo local."
+>>>>>>> upstream/18.0
 =======
 "Divida as transferências por locais definidos e, em seguida, agrupe as "
 "transferências com o mesmo local."
@@ -62998,6 +63320,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Split transfers by product category, then group transfers that have the same"
 " product category."
 msgstr ""
@@ -63502,6 +63825,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Split transfers by product category, then group transfers that have the same "
 "product category."
 msgstr ""
@@ -63652,6 +63977,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64137,6 +64465,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Divida as transferências por produto e agrupe as transferências que tenham o "
+"mesmo produto."
+>>>>>>> upstream/18.0
 =======
 "Divida as transferências por produto e agrupe as transferências que tenham o "
 "mesmo produto."
@@ -65112,7 +65445,11 @@ msgid "Stock Batch Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferência em lote de estoque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferência em lote de estoque"
 >>>>>>> upstream/18.0
@@ -65874,7 +66211,11 @@ msgid "Stock Package Destination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Destino da embalagem de estoque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Destino da embalagem de estoque"
 >>>>>>> upstream/18.0
@@ -66631,7 +66972,11 @@ msgid "Stock move lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de movimentações de estoque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de movimentações de estoque"
 >>>>>>> upstream/18.0
@@ -67388,7 +67733,11 @@ msgid "Stock moves"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Movimentações de estoque"
+>>>>>>> upstream/18.0
 =======
 msgstr "Movimentações de estoque"
 >>>>>>> upstream/18.0
@@ -68109,6 +68458,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The following transfers cannot be added to batch transfer %(batch)s. Please check their states and operation types.\n"
 "\n"
 "Incompatibilities: %(incompatible_transfers)s"
@@ -68239,6 +68589,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68679,6 +69031,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69161,6 +69516,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69729,7 +70087,11 @@ msgid "The selected operations should belong to a unique company."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As operações selecionadas devem pertencer a uma única empresa."
+>>>>>>> upstream/18.0
 =======
 msgstr "As operações selecionadas devem pertencer a uma única empresa."
 >>>>>>> upstream/18.0
@@ -70487,7 +70849,11 @@ msgid "The selected pickings should belong to an unique company."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As separações selecionadas devem pertencer a uma empresa única."
+>>>>>>> upstream/18.0
 =======
 msgstr "As separações selecionadas devem pertencer a uma empresa única."
 >>>>>>> upstream/18.0
@@ -71245,7 +71611,11 @@ msgid "The selected transfers should belong to a unique company."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "As transferências selecionadas devem pertencer a uma empresa única."
+>>>>>>> upstream/18.0
 =======
 msgstr "As transferências selecionadas devem pertencer a uma empresa única."
 >>>>>>> upstream/18.0
@@ -72004,6 +72374,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"As transferências selecionadas devem pertencer ao mesmo tipo de operação"
+>>>>>>> upstream/18.0
 =======
 "As transferências selecionadas devem pertencer ao mesmo tipo de operação"
 >>>>>>> upstream/18.0
@@ -72760,7 +73134,11 @@ msgid "This batch is a wave"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Esse lote é uma leva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Esse lote é uma leva"
 >>>>>>> upstream/18.0
@@ -73533,7 +73911,11 @@ msgid "Transfer Display Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome de exibição de transferência"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome de exibição de transferência"
 >>>>>>> upstream/18.0
@@ -74290,7 +74672,11 @@ msgid "Transfer Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nome da transferência"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nome da transferência"
 >>>>>>> upstream/18.0
@@ -75048,7 +75434,11 @@ msgid "Transferred by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferido por"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferido por"
 >>>>>>> upstream/18.0
@@ -75822,7 +76212,11 @@ msgid "Unassigned responsible from %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Responsável não atribuído de %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Responsável não atribuído de %s"
 >>>>>>> upstream/18.0
@@ -76595,7 +76989,11 @@ msgid "Wave Locations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Local das ondas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Local das ondas"
 >>>>>>> upstream/18.0
@@ -77352,7 +77750,11 @@ msgid "Wave Product Categories"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Categorias de produtos da onda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Categorias de produtos da onda"
 >>>>>>> upstream/18.0
@@ -78109,7 +78511,11 @@ msgid "Wave Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferência em levas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferência em levas"
 >>>>>>> upstream/18.0
@@ -78866,7 +79272,11 @@ msgid "Wave Transfer Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linhas de transferências em levas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linhas de transferências em levas"
 >>>>>>> upstream/18.0
@@ -79624,7 +80034,11 @@ msgid "Wave Transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências em levas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências em levas"
 >>>>>>> upstream/18.0
@@ -80382,7 +80796,11 @@ msgid "Wave transfers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transferências em ondas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transferências em ondas"
 >>>>>>> upstream/18.0
@@ -81149,7 +81567,11 @@ msgid "When checked, create the batch in draft status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Quando marcado, cria o lote em status provisório"
+>>>>>>> upstream/18.0
 =======
 msgstr "Quando marcado, cria o lote em status provisório"
 >>>>>>> upstream/18.0
@@ -81907,7 +82329,11 @@ msgid "You cannot delete Done batch transfers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Não é possível excluir transferências em lote concluídas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Não é possível excluir transferências em lote concluídas."
 >>>>>>> upstream/18.0
@@ -82665,7 +83091,11 @@ msgid "You have to set some pickings to batch."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "É necessário definir algumas separações para lote."
+>>>>>>> upstream/18.0
 =======
 msgstr "É necessário definir algumas separações para lote."
 >>>>>>> upstream/18.0
@@ -83422,7 +83852,11 @@ msgid "a new batch transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uma nova transferência em lote"
+>>>>>>> upstream/18.0
 =======
 msgstr "uma nova transferência em lote"
 >>>>>>> upstream/18.0
@@ -84179,7 +84613,11 @@ msgid "a new wave transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uma nova transferência em levas"
+>>>>>>> upstream/18.0
 =======
 msgstr "uma nova transferência em levas"
 >>>>>>> upstream/18.0
@@ -84936,7 +85374,11 @@ msgid "an existing batch transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uma transferência em lote existente"
+>>>>>>> upstream/18.0
 =======
 msgstr "uma transferência em lote existente"
 >>>>>>> upstream/18.0
@@ -85693,7 +86135,11 @@ msgid "an existing wave transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "uma transferência em levas existente"
+>>>>>>> upstream/18.0
 =======
 msgstr "uma transferência em levas existente"
 >>>>>>> upstream/18.0
@@ -86450,7 +86896,11 @@ msgid "shipping_volume"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "shipping_volume"
+>>>>>>> upstream/18.0
 =======
 msgstr "shipping_volume"
 >>>>>>> upstream/18.0
@@ -87207,6 +87657,7 @@ msgid "shipping_weight"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "shipping_weight"
@@ -87723,6 +88174,8 @@ msgstr "shipping_weight"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "shipping_weight"
 
 #~ msgid "2023-08-20"
@@ -87774,6 +88227,9 @@ msgstr "shipping_weight"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

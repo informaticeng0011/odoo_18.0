@@ -88,7 +88,10 @@ import typing as t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import warnings
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -336,7 +339,11 @@ from werkzeug import urls
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from werkzeug.datastructures import FileStorage, MultiDict
+=======
+from werkzeug.datastructures import FileStorage, MultiDict, iter_multi_items
+>>>>>>> upstream/18.0
 =======
 from werkzeug.datastructures import FileStorage, MultiDict, iter_multi_items
 >>>>>>> upstream/18.0
@@ -819,7 +826,10 @@ _always_safe_chars = (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "$!'()*+,;"  # RFC3986 sub-delims set, not including query string delimiters &=
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1562,6 +1572,7 @@ class URL(BaseURL):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with warnings.catch_warnings():
             warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
             return BytesURL(
@@ -1572,6 +1583,8 @@ class URL(BaseURL):
                 self.fragment.encode(charset, errors),
             )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1819,6 +1832,9 @@ class URL(BaseURL):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2087,6 +2103,7 @@ class BytesURL(BaseURL):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with warnings.catch_warnings():
             warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
             return URL(
@@ -2097,6 +2114,8 @@ class BytesURL(BaseURL):
                 self.fragment.decode(charset, errors),  # type: ignore
             )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2344,6 +2363,9 @@ class BytesURL(BaseURL):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2628,8 +2650,11 @@ def _url_encode_impl(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     from werkzeug.datastructures import iter_multi_items
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2954,9 +2979,13 @@ def url_parse(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         return result_type(scheme, netloc, url, query, fragment)
+=======
+    return result_type(scheme, netloc, url, query, fragment)
+>>>>>>> upstream/18.0
 =======
     return result_type(scheme, netloc, url, query, fragment)
 >>>>>>> upstream/18.0
@@ -3375,9 +3404,13 @@ def url_quote_plus(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         return url_quote(string, charset, errors, safe + " ", "+").replace(" ", "+")
+=======
+    return url_quote(string, charset, errors, safe + " ", "+").replace(" ", "+")
+>>>>>>> upstream/18.0
 =======
     return url_quote(string, charset, errors, safe + " ", "+").replace(" ", "+")
 >>>>>>> upstream/18.0
@@ -3785,9 +3818,13 @@ def url_unquote_plus(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         return url_unquote(s, charset, errors)
+=======
+    return url_unquote(s, charset, errors)
+>>>>>>> upstream/18.0
 =======
     return url_unquote(s, charset, errors)
 >>>>>>> upstream/18.0
@@ -4140,6 +4177,7 @@ def url_fix(s: str, charset: str = "utf-8") -> str:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'werkzeug", DeprecationWarning)
         url = url_parse(s)
@@ -4148,6 +4186,8 @@ def url_fix(s: str, charset: str = "utf-8") -> str:
         anchor = url_quote_plus(url.fragment, charset, safe=":&%=+$!*'(),")
         return url_unparse((url.scheme, url.encode_netloc(), path, qs, anchor))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4393,6 +4433,9 @@ def url_fix(s: str, charset: str = "utf-8") -> str:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4730,9 +4773,13 @@ def url_decode_stream(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", "'make_chunk_iter", DeprecationWarning)
         return cls(decoder)
+=======
+    return cls(decoder)
+>>>>>>> upstream/18.0
 =======
     return cls(decoder)
 >>>>>>> upstream/18.0

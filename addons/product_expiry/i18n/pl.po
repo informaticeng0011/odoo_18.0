@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product_expiry
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -533,6 +534,9 @@
 =======
 # * product_expiry
 >>>>>>> upstream/18.0
+=======
+# * product_expiry
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -683,6 +687,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -793,6 +798,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -1068,6 +1076,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1582,6 +1591,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-21 09:22+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -1655,6 +1666,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1797,6 +1811,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2159,6 +2174,11 @@ msgstr ""
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
@@ -2581,6 +2601,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"badge text-bg-danger\" invisible=\"not product_expiry_alert\">"
+"Ostrzeżenie o przeterminowaniu</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"badge text-bg-danger\" invisible=\"not product_expiry_alert\">"
 "Ostrzeżenie o przeterminowaniu</span>"
@@ -2934,6 +2959,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
+"invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
+"expiration_date\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span title=\"Alert\" class=\"fa fa-exclamation-triangle text-danger me-2\" "
 "invisible=\"product_qty &lt;= 0 or not product_expiry_alert or not "
@@ -3352,7 +3383,11 @@ msgid "<span> days after receipt</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>dni po otrzymaniu</span>"
+=======
+msgstr "<span> dni po otrzymaniu</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> dni po otrzymaniu</span>"
 >>>>>>> upstream/18.0
@@ -3633,7 +3668,11 @@ msgid "<span> days before expiration date</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<span>dni przed datą wygaśnięcia</span>"
+=======
+msgstr "<span> dni przed datą wygaśnięcia</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> dni przed datą wygaśnięcia</span>"
 >>>>>>> upstream/18.0
@@ -3916,7 +3955,11 @@ msgid "Alert Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data ostrzegawcza"
+=======
+msgstr "Data alertu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data alertu"
 >>>>>>> upstream/18.0
@@ -4197,7 +4240,11 @@ msgid "Alert Date Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Osiągnięta data alarmu"
+=======
+msgstr "Osiągnięta data alertu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Osiągnięta data alertu"
 >>>>>>> upstream/18.0
@@ -4484,7 +4531,11 @@ msgid "Best Before Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data \"Najlepiej użyć przed\""
+=======
+msgstr "Data najlepiej spożyć przed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data najlepiej spożyć przed"
 >>>>>>> upstream/18.0
@@ -4765,7 +4816,11 @@ msgid "Best before Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data najlepszego użycia"
+=======
+msgstr "Data najlepiej spożyć przed"
+>>>>>>> upstream/18.0
 =======
 msgstr "Data najlepiej spożyć przed"
 >>>>>>> upstream/18.0
@@ -5067,7 +5122,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -5479,7 +5538,11 @@ msgid "Expiration Alerts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alerty o wygaśnięciu"
+=======
+msgstr "Alerty o przeterminowaniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alerty o przeterminowaniu"
 >>>>>>> upstream/18.0
@@ -5786,7 +5849,11 @@ msgid "Expiry has been reminded"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przypomniano o wygaśnięciu"
+=======
+msgstr "Przypomniano o przeterminowaniu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Przypomniano o przeterminowaniu"
 >>>>>>> upstream/18.0
@@ -6067,7 +6134,11 @@ msgid "First Expiry First Out (FEFO)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najpierw tracące ważność (FEFO)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najpierw tracące ważność (FEFO)"
 >>>>>>> upstream/18.0
@@ -6353,7 +6424,11 @@ msgid "Include expiration dates on delivery slip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uwzględnienie daty ważności na dowodzie dostawy"
+=======
+msgstr "Daty ważności na liście przewozowym"
+>>>>>>> upstream/18.0
 =======
 msgstr "Daty ważności na liście przewozowym"
 >>>>>>> upstream/18.0
@@ -6634,7 +6709,11 @@ msgid "Last Updated by"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ostatnio aktualizowane przez"
+=======
+msgstr "Ostatnio zaktualizowane przez"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostatnio zaktualizowane przez"
 >>>>>>> upstream/18.0
@@ -6878,6 +6957,7 @@ msgid ""
 "raised on the lot/serial number. It will be computed on the lot/serial "
 "number."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7680,6 +7760,11 @@ msgstr ""
 "dotyczący partii/numeru seryjnego. Będzie ona obliczana na podstawie numeru "
 "partii/serii."
 >>>>>>> upstream/18.0
+=======
+"Liczba dni przed datą przydatności, po której należy wyświetlić alert "
+"dotyczący partii/numeru seryjnego. Będzie ona obliczana na podstawie numeru "
+"partii/serii."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_product_product__removal_time
@@ -7696,6 +7781,7 @@ msgstr ""
 #: model:ir.model.fields,help:product_expiry.field_product_template__use_time
 msgid ""
 "Number of days before the Expiration Date after which the goods starts "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8428,6 +8514,10 @@ msgid ""
 "deteriorating, without being dangerous yet. It will be computed on the lot/"
 "serial number."
 >>>>>>> upstream/18.0
+=======
+"deteriorating, without being dangerous yet. It will be computed on the lot/"
+"serial number."
+>>>>>>> upstream/18.0
 msgstr ""
 "Liczba dni przed datą wygaśnięcia, po której towary zaczynają się psuć, ale "
 "nie są jeszcze niebezpieczne. Będzie ona obliczana na podstawie numeru "
@@ -8505,7 +8595,11 @@ msgid "Picking"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pobranie"
+=======
+msgstr "Kompletacja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kompletacja"
 >>>>>>> upstream/18.0
@@ -8786,7 +8880,11 @@ msgid "Proceed except for expired one"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kontynuuj z wyjątkiem wygasłego"
+=======
+msgstr "Kontynuuj z wyjątkiem przeterminowanego"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kontynuuj z wyjątkiem przeterminowanego"
 >>>>>>> upstream/18.0
@@ -9067,7 +9165,11 @@ msgid "Procurement Group"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Grupa zapotrzebowań"
+=======
+msgstr "Grupa ds. zaopatrzenia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Grupa ds. zaopatrzenia"
 >>>>>>> upstream/18.0
@@ -9354,7 +9456,11 @@ msgid "Product Expiry Alert"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Alert o wygaśnięciu produktu"
+=======
+msgstr "Alert o przeterminowaniu produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alert o przeterminowaniu produktu"
 >>>>>>> upstream/18.0
@@ -9645,7 +9751,11 @@ msgid "Quants"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kwanty"
+=======
+msgstr "Ilości"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ilości"
 >>>>>>> upstream/18.0
@@ -9934,7 +10044,11 @@ msgid "Removal:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Usuwanie:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Usuwanie:"
 >>>>>>> upstream/18.0
@@ -10220,7 +10334,11 @@ msgid "Stock Move"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przesunięcie"
+=======
+msgstr "Ruch magazynowy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ruch magazynowy"
 >>>>>>> upstream/18.0
@@ -10502,7 +10620,11 @@ msgid "The Expiration Date has been reached."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data wygaśnięcia została osiągnięta"
+=======
+msgstr "Data ważności została osiągnięta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Data ważności została osiągnięta."
 >>>>>>> upstream/18.0
@@ -10795,7 +10917,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "i musi być zutylizowany."
+=======
+"i nie może zostać spożyty."
+>>>>>>> upstream/18.0
 =======
 "i nie może zostać spożyty."
 >>>>>>> upstream/18.0
@@ -11011,6 +11137,7 @@ msgid ""
 "This is the date on which the goods with this Serial Number should be "
 "removed from the stock. This date will be used in FEFO removal strategy."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11743,6 +11870,10 @@ msgstr ""
 "Jest to data, w której towary z tym numerem seryjnym powinny zostać usunięte "
 "z magazynu. Data ta zostanie wykorzystana w strategii usuwania FEFO."
 >>>>>>> upstream/18.0
+=======
+"Jest to data, w której towary z tym numerem seryjnym powinny zostać usunięte "
+"z magazynu. Data ta zostanie wykorzystana w strategii usuwania FEFO."
+>>>>>>> upstream/18.0
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_lot__use_date
@@ -11819,8 +11950,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "To jest data upływu przydatności produktu. Produkt po tej dacie nie jest "
 "jeszcze niebezpieczny."
+=======
+"Jest to data, po której towary o tym numerze seryjnym zaczynają tracić "
+"jakość, nie stwarzając jednak jeszcze zagrożenia."
+>>>>>>> upstream/18.0
 =======
 "Jest to data, po której towary o tym numerze seryjnym zaczynają tracić "
 "jakość, nie stwarzając jednak jeszcze zagrożenia."
@@ -12170,7 +12306,11 @@ msgid "Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekaz"
+=======
+msgstr "Transfer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer"
 >>>>>>> upstream/18.0
@@ -12397,6 +12537,7 @@ msgstr "Używaj daty ważności"
 #: model:ir.model.fields,help:product_expiry.field_stock_move_line__use_expiration_date
 #: model:ir.model.fields,help:product_expiry.field_stock_quant__use_expiration_date
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12994,6 +13135,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "When this box is ticked, you have the possibility to specify dates to manage "
 "product expiration, on the product and on the corresponding lot/serial "
 "numbers"
@@ -13069,6 +13212,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13283,6 +13429,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zamierzasz dostarczyć przeterminowane partie produktów.\n"
+"Czy potwierdzasz, że chcesz kontynuować?"
+>>>>>>> upstream/18.0
 =======
 "Zamierzasz dostarczyć przeterminowane partie produktów.\n"
 "Czy potwierdzasz, że chcesz kontynuować?"
@@ -13564,6 +13715,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product_expiry/wizard/confirm_expiry.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14158,6 +14310,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You are going to deliver the product %(product_name)s, %(lot_name)s which is "
 "expired.\n"
 "Do you confirm you want to proceed?"
@@ -14233,6 +14387,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14443,7 +14600,11 @@ msgid "^A0N,44,33^FDUse by:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "^A0N,44,33^FDUse by:"
+=======
+msgstr "^A0N,44,33^FDZużyć przed:"
+>>>>>>> upstream/18.0
 =======
 msgstr "^A0N,44,33^FDZużyć przed:"
 >>>>>>> upstream/18.0
@@ -14742,7 +14903,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "^A0N,44,33^FDBest before:"
+=======
+"^A0N,44,33^FDNajlepiej zużyć przed:"
+>>>>>>> upstream/18.0
 =======
 "^A0N,44,33^FDNajlepiej zużyć przed:"
 >>>>>>> upstream/18.0
@@ -15027,7 +15192,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "^A0N,44,33^FDUse by:"
+=======
+"^A0N,44,33^FDZużyć przed:"
+>>>>>>> upstream/18.0
 =======
 "^A0N,44,33^FDZużyć przed:"
 >>>>>>> upstream/18.0
@@ -15317,7 +15486,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "^A0N,44,33^FDUse by:"
+=======
+"^A0N,44,33^FDZużyć przed:"
+>>>>>>> upstream/18.0
 =======
 "^A0N,44,33^FDZużyć przed:"
 >>>>>>> upstream/18.0

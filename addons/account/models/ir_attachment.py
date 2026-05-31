@@ -12,7 +12,10 @@ import zipfile
 _logger = logging.getLogger(__name__)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 # -------------------------------------------------------------------------
 # SUPPORTED FILE TYPES FOR IMPORT
 # -------------------------------------------------------------------------
@@ -25,6 +28,9 @@ SUPPORTED_FILE_TYPES = {
     'text/csv': '.csv',
 }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 class IrAttachment(models.Model):
@@ -47,6 +53,7 @@ class IrAttachment(models.Model):
         :returns:           A list with a dictionary.
         """
         try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -468,6 +475,9 @@ class IrAttachment(models.Model):
 =======
             xml_tree = etree.fromstring(content, parser=etree.XMLParser(remove_comments=True, resolve_entities=False))
 >>>>>>> upstream/18.0
+=======
+            xml_tree = etree.fromstring(content, parser=etree.XMLParser(remove_comments=True, resolve_entities=False))
+>>>>>>> upstream/18.0
         except Exception as e:
             _logger.info('Error when reading the xml file "%s": %s', filename, e)
             return []
@@ -483,9 +493,12 @@ class IrAttachment(models.Model):
                 'type': 'xml',
             })
 <<<<<<< HEAD
+<<<<<<< HEAD
         return to_process
 
 =======
+=======
+>>>>>>> upstream/18.0
             attachments_data = self._extract_additional_documents(xml_tree)
             attachments = self.env['ir.attachment'].create(attachments_data)
             for attachment in attachments:
@@ -527,6 +540,9 @@ class IrAttachment(models.Model):
                 })
         return att_data
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _decode_edi_pdf(self, filename, content):
         """Decodes a pdf and unwrap sub-attachment into a list of dictionary each representing an attachment.

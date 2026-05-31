@@ -260,7 +260,10 @@ import { useSelfOrder } from "@pos_self_order/app/self_order_service";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { attributeFlatter, attributeFormatter } from "@pos_self_order/app/utils";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -826,6 +829,12 @@ export class AttributeSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.attributesToDisplay = this.props.product.attribute_line_ids.filter(
+            (a) => this.availableAttributeValue(a).length > 0
+        );
+>>>>>>> upstream/18.0
 =======
         this.attributesToDisplay = this.props.product.attribute_line_ids.filter(
             (a) => this.availableAttributeValue(a).length > 0
@@ -960,6 +969,7 @@ export class AttributeSelection extends Component {
         return true;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1750,6 +1760,8 @@ export class AttributeSelection extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     availableAttributeValue(attribute) {
         return this.selfOrder.config.self_ordering_mode === "kiosk"
             ? attribute.product_template_value_ids.filter((a) => !a.is_custom)
@@ -1795,7 +1807,11 @@ export class AttributeSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const attr of this.props.product.attribute_line_ids) {
+=======
+        for (const attr of this.attributesToDisplay) {
+>>>>>>> upstream/18.0
 =======
         for (const attr of this.attributesToDisplay) {
 >>>>>>> upstream/18.0
@@ -2186,7 +2202,11 @@ export class AttributeSelection extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return !floatIsZero(priceExtra, this.selfOrder.config.currency_decimals);
+=======
+        return !floatIsZero(priceExtra, this.selfOrder.currency.decimal_places);
+>>>>>>> upstream/18.0
 =======
         return !floatIsZero(priceExtra, this.selfOrder.currency.decimal_places);
 >>>>>>> upstream/18.0

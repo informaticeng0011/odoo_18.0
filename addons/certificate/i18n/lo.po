@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* certificate
 #
 =======
@@ -38,11 +39,18 @@
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# * certificate
+#
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-03 18:39+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +77,10 @@ msgstr ""
 >>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-17 05:49+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+=======
+"PO-Revision-Date: 2026-05-26 04:54+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/certificate/"
 "lo/>\n"
 "Language: lo\n"
@@ -82,6 +94,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -98,77 +113,133 @@ msgstr ""
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "A private key is required to decrypt data."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງມີກຸນແຈສ່ວນຕົວເພື່ອຖອດລະຫັດຂໍ້ມູນ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__active
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__active
 msgid "Active"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ງານ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete certificates."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມ, ແກ້ໄຂ ແລະ ລຶບ ໃບຢັ້ງຢືນ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Add, edit and delete keys."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມ, ແກ້ໄຂ ແລະ ລຶບ ກຸນແຈ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Archived"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກັບມ້ຽນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Archived certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນທີ່ເກັບມ້ຽນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Archived keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸນແຈທີ່ເກັບມ້ຽນແລ້ວ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__date_start
 msgid "Available date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີທີ່ນຳໃຊ້ໄດ້"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model,name:certificate.model_certificate_certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__content
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "Certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pkcs12_password
 msgid "Certificate Password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຜ່ານໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__pem_certificate
 msgid "Certificate in PEM format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນໃນຮູບແບບ PEM"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__scope
 msgid "Certificate scope"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂອບເຂດຂອງໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.actions.act_window,name:certificate.certificate_certificate_action_view_list
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Certificates and Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນ ແລະ ກຸນແຈ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__company_id
@@ -180,7 +251,11 @@ msgid "Company"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍລິສັດ"
 >>>>>>> upstream/18.0
@@ -203,128 +278,220 @@ msgstr "ບໍລິສັດ"
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__country_code
 msgid "Country Code"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດປະເທດ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_certificate_action_view_list
 msgid "Create a first certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໃບຢັ້ງຢືນທຳອິດ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.actions.act_window,help:certificate.certificate_key_action_view_list
 msgid "Create a first key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງກຸນແຈທຳອິດ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_uid
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__create_uid
 msgid "Created by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__create_date
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__create_date
 msgid "Created on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model,name:certificate.model_certificate_key
 msgid "Cryptographic Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸນແຈການເຂົ້າລະຫັດ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__der
 msgid "DER"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DER"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__display_name
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__display_name
 msgid "Display Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ສະແດງຜົນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__date_end
 msgid "Expiration date"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນໝົດອາຍຸ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__scope__general
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "General"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "General certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນທົ່ວໄປ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__id
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__id
 msgid "ID"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ (ID)"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Invalid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_list
 msgid "Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸນແຈ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__pem_key
 msgid "Key bytes in PEM format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນກຸນແຈໃນຮູບແບບ PEM"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__content
 msgid "Key file"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄຟລ໌ກຸນແຈ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.actions.act_window,name:certificate.certificate_key_action_view_list
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸນແຈ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__write_uid
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__write_uid
 msgid "Last Updated by"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__write_date
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__write_date
 msgid "Last Updated on"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດຫຼ້າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__loading_error
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__loading_error
 msgid "Loading error"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດໃນການໂຫຼດ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "Make sure to use a private key to sign documents."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກະລຸນາກວດສອບໃຫ້ແນ່ໃຈວ່າໄດ້ໃຊ້ກຸນແຈສ່ວນຕົວເພື່ອລົງລາຍເຊັນເອກະສານ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການໃບຢັ້ງຢືນຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.res_config_settings_view_form
 msgid "Manage your keys"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈັດການກຸນແຈຂອງທ່ານ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__name
@@ -336,7 +503,11 @@ msgid "Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່"
 >>>>>>> upstream/18.0
@@ -362,82 +533,146 @@ msgstr "ຊື່"
 msgid ""
 "No private key linked to the certificate, it is required to sign documents."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ມີກຸນແຈສ່ວນຕົວທີ່ເຊື່ອມຕໍ່ກັບໃບຢັ້ງຢືນ, ເຊິ່ງຈຳເປັນຕ້ອງໃຊ້ເພື່ອລົງລາຍເຊັນເອກະສານ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Not valid certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນທີ່ບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__content_format
 msgid "Original certificate format"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮູບແບບໃບຢັ້ງຢືນຕົ້ນສະບັບ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__pem
 msgid "PEM"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PEM"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields.selection,name:certificate.selection__certificate_certificate__content_format__pkcs12
 msgid "PKCS12"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PKCS12"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__pkcs12_password
 msgid "Password to decrypt the PKS file."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຜ່ານເພື່ອຖອດລະຫັດໄຟລ໌ PKS."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Private"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__private_key_id
 msgid "Private Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸນແຈສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__password
 msgid "Private key password"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຜ່ານກຸນແຈສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "Public"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສາທາລະນະ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__public_key_id
 msgid "Public Key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸນແຈສາທາລະນະ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_key__public
 msgid "Public/Private key"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ກຸນແຈ ສາທາລະນະ/ສ່ວນຕົວ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__serial_number
 msgid "Serial number"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກລໍາດັບ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__active
 msgid "Set active to false to archive the certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການໃຊ້ງານເພື່ອເກັບມ້ຽນໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_key__active
 msgid "Set active to false to archive the key."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການໃຊ້ງານເພື່ອເກັບມ້ຽນກຸນແຈ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__subject_common_name
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "Subject Name"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ຫົວຂໍ້"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__country_code
@@ -445,63 +680,108 @@ msgid ""
 "The ISO country code in two chars. \n"
 "You can use this field for quick search."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ລະຫັດປະເທດ ISO ສອງຕົວອັກສອນ. \n"
+"ທ່ານສາມາດໃຊ້ຫ້ອງນີ້ເພື່ອການຄົ້ນຫາແບບໄວ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and private key are not compatible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນ ແລະ ກຸນແຈສ່ວນຕົວບໍ່ເຂົ້າກັນ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The certificate and public key are not compatible."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນ ແລະ ກຸນແຈສາທາລະນະບໍ່ເຂົ້າກັນ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__date_end
 msgid "The date on which the certificate expires (UTC)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີທີ່ໃບຢັ້ງຢືນໝົດອາຍຸ (UTC)"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__date_start
 msgid "The date on which the certificate starts to be valid (UTC)"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັນທີທີ່ໃບຢັ້ງຢືນເລີ່ມນຳໃຊ້ໄດ້ (UTC)"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "The key size should be at least 512 bytes."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂະໜາດຂອງກຸນແຈຄວນມີຢ່າງໜ້ອຍ 512 ໄບທ໌."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "The private key could not be loaded."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດໂຫຼດກຸນແຈສ່ວນຕົວໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "The public exponent should be 65537 (or 3 for legacy purposes)."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າ Public exponent ຄວນເປັນ 65537 (ຫຼື 3 ສຳລັບຈຸດປະສົງເກົ່າ)."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/key.py:0
 msgid "The public key could not be loaded."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດໂຫຼດກຸນແຈສາທາລະນະໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "The public key from the certificate could not be loaded."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດໂຫຼດກຸນແຈສາທາລະນະຈາກໃບຢັ້ງຢືນໄດ້."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__serial_number
 msgid "The serial number to add to electronic documents"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລກລຳດັບທີ່ຈະເພີ່ມເຂົ້າໃນເອກະສານເອເລັກໂຕຣນິກ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -510,6 +790,10 @@ msgid ""
 "This certificate could not be loaded. Either the content or the password is "
 "erroneous."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ສາມາດໂຫຼດໃບຢັ້ງຢືນນີ້ໄດ້. ອາດຈະເປັນຍ້ອນເນື້ອໃນ ຫຼື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -517,13 +801,21 @@ msgstr ""
 msgid ""
 "This certificate could not be loaded. Please provide the certificate "
 "password."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດໂຫຼດໃບຢັ້ງຢືນນີ້ໄດ້. ກະລຸນາໃສ່ລະຫັດຜ່ານໃບຢັ້ງຢືນ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
 #: code:addons/certificate/models/certificate.py:0
 msgid "This certificate is not valid, its validity has expired."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນນີ້ບໍ່ຖືກຕ້ອງ, ມັນໄດ້ໝົດອາຍຸແລ້ວ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -531,7 +823,11 @@ msgstr ""
 msgid ""
 "This key could not be loaded. Either its content or its password is "
 "erroneous."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດໂຫຼດກຸນແຈນີ້ໄດ້. ອາດຈະເປັນຍ້ອນເນື້ອໃນ ຫຼື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -540,6 +836,10 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "decryption: RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ຮອງຮັບອັລກໍລິທຶມການເຂົ້າລະຫັດແບບບໍ່ສົມມາດ '%s'. ປະຈຸບັນຮອງຮັບການຖອດລະຫັດ: RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -548,6 +848,10 @@ msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported for "
 "signature: EC and RSA."
 msgstr ""
+<<<<<<< HEAD
+=======
+"ບໍ່ຮອງຮັບອັລກໍລິທຶມການເຂົ້າລະຫັດແບບບໍ່ສົມມາດ '%s'. ປະຈຸບັນຮອງຮັບການລົງລາຍເຊັນ: EC ແລະ RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #. odoo-python
@@ -555,7 +859,11 @@ msgstr ""
 msgid ""
 "Unsupported asymmetric cryptography algorithm '%s'. Currently supported: EC,"
 " RSA."
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ຮອງຮັບອັລກໍລິທຶມການເຂົ້າລະຫັດແບບບໍ່ສົມມາດ '%s'. ທີ່ຮອງຮັບ: EC, RSA."
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,help:certificate.field_certificate_certificate__public_key_id
@@ -564,55 +872,101 @@ msgid ""
 "                When a public key is set this way, it will be used instead of the one in the certificate.\n"
 "             "
 msgstr ""
+<<<<<<< HEAD
+=======
+"ໃຊ້ເພື່ອຕັ້ງຄ່າກຸນແຈສາທາລະນະ ໃນກໍລະນີທີ່ກຸນແຈທີ່ມີຢູ່ໃນໃບຢັ້ງຢືນນັ້ນບໍ່ຖືກຕ້ອງ.\n"
+"                ເມື່ອຕັ້ງຄ່າກຸນແຈສາທາລະນະດ້ວຍວິທີນີ້, ມັນຈະຖືກນຳໃຊ້ແທນກຸນແຈທີ່ມີຢູ່ໃນໃບຢັ້ງຢືນ.\n"
+"             "
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model:ir.model.fields,field_description:certificate.field_certificate_certificate__is_valid
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Valid"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "Valid certificates"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໃບຢັ້ງຢືນທີ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "Validity"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄລຍະເວລາການນຳໃຊ້"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "certificate form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟອມໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_list
 msgid "certificate list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_search
 msgid "certificate search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາໃບຢັ້ງຢືນ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_certificate_view_form
 msgid "e.g. New Certificate"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຢ່າງ: ໃບຢັ້ງຢືນໃໝ່"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_form
 msgid "key form"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຟອມກຸນແຈ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_list
 msgid "key list"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການກຸນແຈ"
+>>>>>>> upstream/18.0
 
 #. module: certificate
 #: model_terms:ir.ui.view,arch_db:certificate.certificate_key_view_search
 msgid "key search"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄົ້ນຫາກຸນແຈ"
+>>>>>>> upstream/18.0

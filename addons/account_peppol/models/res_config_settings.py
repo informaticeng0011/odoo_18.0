@@ -145,11 +145,15 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     account_peppol_edi_user = fields.Many2one(
         comodel_name='account_edi_proxy_client.user',
         string='EDI user',
         compute='_compute_account_peppol_edi_user',
     )
+=======
+    account_peppol_edi_user = fields.Many2one(related='company_id.account_peppol_edi_user')
+>>>>>>> upstream/18.0
 =======
     account_peppol_edi_user = fields.Many2one(related='company_id.account_peppol_edi_user')
 >>>>>>> upstream/18.0
@@ -703,6 +707,11 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    peppol_use_parent_company = fields.Boolean(compute='_compute_peppol_use_parent_company')
+    peppol_parent_company_name = fields.Char(compute='_compute_peppol_use_parent_company')
+>>>>>>> upstream/18.0
 =======
     peppol_use_parent_company = fields.Boolean(compute='_compute_peppol_use_parent_company')
     peppol_parent_company_name = fields.Char(compute='_compute_peppol_use_parent_company')
@@ -1388,7 +1397,10 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1807,6 +1819,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2084,6 +2099,7 @@ class ResConfigSettings(models.TransientModel):
         trial_param = self.env['ir.config_parameter'].sudo().get_param('saas_trial.confirm_token')
         self.account_peppol_mode_constraint = trial_param and 'demo' or mode_constraint or 'prod'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2498,6 +2514,8 @@ class ResConfigSettings(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # BUSINESS ACTIONS
     # -------------------------------------------------------------------------
@@ -2507,6 +2525,13 @@ class ResConfigSettings(models.TransientModel):
         registration_action = registration_wizard._action_open_peppol_form(reopen=False)
         return registration_action
 
+<<<<<<< HEAD
+=======
+    def _get_peppol_proxy_type(self):
+        self.ensure_one()
+        return self.account_peppol_edi_user.proxy_type
+
+>>>>>>> upstream/18.0
     @handle_demo
     def button_update_peppol_user_data(self):
         """
@@ -2515,18 +2540,31 @@ class ResConfigSettings(models.TransientModel):
         """
         self.ensure_one()
 
+<<<<<<< HEAD
         if not self.account_peppol_contact_email or not self.account_peppol_phone_number:
             raise ValidationError(_("Contact email and mobile number are required."))
 
         params = {
             'update_data': {
                 'peppol_phone_number': self.account_peppol_phone_number,
+=======
+        if not self.account_peppol_contact_email:
+            raise ValidationError(self.env._("A contact email is required."))
+
+        params = {
+            'update_data': {
+                **({'peppol_phone_number': self.account_peppol_phone_number} if self.account_peppol_phone_number else {}),
+>>>>>>> upstream/18.0
                 'peppol_contact_email': self.account_peppol_contact_email,
             }
         }
 
         self.account_peppol_edi_user._call_peppol_proxy(
+<<<<<<< HEAD
             endpoint='/api/peppol/1/update_user',
+=======
+            endpoint=self.account_peppol_edi_user._get_peppol_proxy_endpoint('1/update_user'),
+>>>>>>> upstream/18.0
             params=params,
         )
         return True
@@ -2560,6 +2598,7 @@ class ResConfigSettings(models.TransientModel):
         The migration key is then displayed in Peppol settings.
         Currently, reopening after migrating away is not supported.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3624,6 +3663,8 @@ class ResConfigSettings(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         raise UserError(_("This feature is deprecated. Contact Odoo support if you need a migration key."))
 
     def button_peppol_disconnect_branch_from_parent(self):
@@ -3775,6 +3816,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4182,6 +4226,7 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return True
 
 <<<<<<< HEAD
@@ -4664,6 +4709,8 @@ class ResConfigSettings(models.TransientModel):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5043,6 +5090,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5444,6 +5494,9 @@ class ResConfigSettings(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -314,6 +314,10 @@ const StepSchema = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    expectUnloadPage: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
     expectUnloadPage: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -1423,7 +1427,11 @@ export const tourService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     start: async (_env, { orm, effect, overlay }) => {
+=======
+    start: async (env, { orm, effect, overlay }) => {
+>>>>>>> upstream/18.0
 =======
     start: async (env, { orm, effect, overlay }) => {
 >>>>>>> upstream/18.0
@@ -2588,7 +2596,11 @@ export const tourService = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 new TourInteractive(tour).start(pointer, async () => {
+=======
+                new TourInteractive(tour).start(env, pointer, async () => {
+>>>>>>> upstream/18.0
 =======
                 new TourInteractive(tour).start(env, pointer, async () => {
 >>>>>>> upstream/18.0

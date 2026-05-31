@@ -218,7 +218,10 @@ export function deleteText(charSize, offset, direction, alreadyMoved) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -647,6 +650,9 @@ export function deleteText(charSize, offset, direction, alreadyMoved) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1148,6 +1154,10 @@ HTMLElement.prototype.oDeleteForward = function (offset) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const parentEl = firstLeafNode.parentElement;
+>>>>>>> upstream/18.0
 =======
         const parentEl = firstLeafNode.parentElement;
 >>>>>>> upstream/18.0
@@ -1746,6 +1756,10 @@ HTMLElement.prototype.oDeleteForward = function (offset) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        fillEmpty(parentEl);
+>>>>>>> upstream/18.0
 =======
         fillEmpty(parentEl);
 >>>>>>> upstream/18.0

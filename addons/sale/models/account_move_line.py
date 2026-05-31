@@ -320,6 +320,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -2681,6 +2682,8 @@ class AccountMoveLine(models.Model):
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     def _related_analytic_distribution(self):
         # EXTENDS 'account'
         vals = super()._related_analytic_distribution()
@@ -2688,6 +2691,9 @@ class AccountMoveLine(models.Model):
             vals |= self.sale_line_ids[0].analytic_distribution or {}
         return vals
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     def _prepare_analytic_lines(self):
         """ Note: This method is called only on the move.line that having an analytic distribution, and
@@ -3104,6 +3110,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'analytic_distribution': self.analytic_distribution,
+>>>>>>> upstream/18.0
 =======
             'analytic_distribution': self.analytic_distribution,
 >>>>>>> upstream/18.0
@@ -4019,7 +4029,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4259,6 +4272,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

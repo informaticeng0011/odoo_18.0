@@ -57,7 +57,11 @@ import { withSequence } from "@html_editor/utils/resource";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
+=======
+import { describe, expect, mockUserAgent, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockUserAgent, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -299,6 +303,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    queryFirst,
+>>>>>>> upstream/18.0
 =======
     queryFirst,
 >>>>>>> upstream/18.0
@@ -737,7 +745,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1519,6 +1530,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2351,6 +2365,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "./_helpers/selection";
 import { strong } from "./_helpers/tags";
 import { delay } from "@web/core/utils/concurrency";
@@ -2415,6 +2430,8 @@ import { nodeSize } from "@html_editor/utils/position";
 import { nodeSize } from "@html_editor/utils/position";
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3182,6 +3199,7 @@ import { nodeSize } from "@html_editor/utils/position";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { strong } from "./_helpers/tags";
 import { delay } from "@web/core/utils/concurrency";
 import { nodeSize } from "@html_editor/utils/position";
@@ -3734,6 +3752,11 @@ import { expectElementCount } from "./_helpers/ui_expectations";
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
+import { expectElementCount } from "./_helpers/ui_expectations";
+>>>>>>> upstream/18.0
+=======
+import { delay } from "@web/core/utils/concurrency";
+import { nodeSize } from "@html_editor/utils/position";
 import { expectElementCount } from "./_helpers/ui_expectations";
 >>>>>>> upstream/18.0
 =======
@@ -4841,6 +4864,7 @@ test("toolbar is only visible when selection is not collapsed in desktop", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
     setContent(el, "<p>[test]</p>");
     await waitFor(".o-we-toolbar");
@@ -4851,6 +4875,8 @@ test("toolbar is only visible when selection is not collapsed in desktop", async
     await waitForNone(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(0);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5737,6 +5763,9 @@ test("toolbar is only visible when selection is not collapsed in desktop", async
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6625,6 +6654,7 @@ test("toolbar is also visible when selection is collapsed in mobile", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
     setContent(el, "<p>[test]</p>");
     await waitFor(".o-we-toolbar");
@@ -6634,6 +6664,8 @@ test("toolbar is also visible when selection is collapsed in mobile", async () =
     await animationFrame();
     expect(".o-we-toolbar").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7520,6 +7552,7 @@ test("toolbar is also visible when selection is collapsed in mobile", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7696,6 +7729,8 @@ test("toolbar is also visible when selection is collapsed in mobile", async () =
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8118,6 +8153,7 @@ test("should show bold button highlighted after applying format when selection i
     await contains(".btn[name='bold']").click();
 
     expect(".btn[name='bold']").toHaveClass("active");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8896,6 +8932,9 @@ test("should show bold button highlighted after applying format when selection i
 =======
     expect(getContent(el)).toBe(`<p>te<strong data-oe-zws-empty-inline="">\u200B[]</strong>st</p>`);
 >>>>>>> upstream/18.0
+=======
+    expect(getContent(el)).toBe(`<p>te<strong data-oe-zws-empty-inline="">\u200B[]</strong>st</p>`);
+>>>>>>> upstream/18.0
 });
 
 test("toolbar closes when selection leaves editor", async () => {
@@ -9199,8 +9238,12 @@ test("toolbar closes when selection leaves editor", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitForNone(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -10384,7 +10427,11 @@ test("toolbar works: can format bold", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -11576,7 +11623,11 @@ test("toolbar in an iframe works: can format bold", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -12888,7 +12939,11 @@ test("toolbar works: can select font", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -14131,7 +14186,11 @@ test("toolbar works: can select font size", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -15296,7 +15355,10 @@ test("toolbar works: can select font size", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16088,6 +16150,7 @@ test("should focus the editable area after selecting a font size item", async ()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16236,6 +16299,8 @@ test("should focus the editable area after selecting a font size item", async ()
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16807,6 +16872,9 @@ test("should not create empty extra nodes while changing format of link", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17478,7 +17546,11 @@ test("toolbar works: display correct font size on select all", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -18698,7 +18770,11 @@ test("toolbar works: displays correct font size on input", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -19950,7 +20026,11 @@ test("toolbar should not open on keypress tab inside table", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -21166,6 +21246,7 @@ test("toolbar open on single selected cell in table", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
 });
 
@@ -22535,6 +22616,8 @@ test("toolbar open on single selected cell in table", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-toolbar", 1);
 });
 
@@ -22621,6 +22704,9 @@ test("Position toolbar correctly on table selection", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23092,6 +23178,7 @@ test("should select table single cell when entire content is selected via mouse 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
 });
 
@@ -24607,6 +24694,8 @@ test("should select table single cell when entire content is selected via mouse 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await expectElementCount(".o-we-toolbar", 1);
 });
 
@@ -24694,6 +24783,9 @@ test("should select table single formatted cell when entire content is selected 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25028,8 +25120,12 @@ test("toolbar should close on keypress tab inside table", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitForNone(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -26217,10 +26313,16 @@ test("toolbar behave properly if selection has no range", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
     setContent(el, "<p>[test]</p>");
     await waitFor(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+    setContent(el, "<p>[test]</p>");
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
     setContent(el, "<p>[test]</p>");
@@ -27990,8 +28092,12 @@ test("toolbar behave properly if selection has no range", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await waitForNone(".o-we-toolbar");
     expect(".o-we-toolbar").toHaveCount(0);
+=======
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -28883,6 +28989,7 @@ test("toolbar correctly show namespace button group and stop showing when namesp
             toolbar_namespaces: [
                 {
                     id: "aNamespace",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30090,6 +30197,9 @@ test("toolbar correctly show namespace button group and stop showing when namesp
 =======
                     isApplied: (nodeList) => !!nodeList.find((node) => node.tagName === "DIV"),
 >>>>>>> upstream/18.0
+=======
+                    isApplied: (nodeList) => !!nodeList.find((node) => node.tagName === "DIV"),
+>>>>>>> upstream/18.0
                 },
             ],
             user_commands: { id: "test_cmd", run: () => null },
@@ -30202,6 +30312,10 @@ test("toolbar does not evaluate isActive when namespace does not match", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    const { promise: isActivePromise, resolve: resolveIsActive } = Promise.withResolvers();
+>>>>>>> upstream/18.0
 =======
     const { promise: isActivePromise, resolve: resolveIsActive } = Promise.withResolvers();
 >>>>>>> upstream/18.0
@@ -30558,8 +30672,11 @@ test("toolbar does not evaluate isActive when namespace does not match", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     isActive: () => expect.step("image format evaluated"),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30819,6 +30936,9 @@ test("toolbar does not evaluate isActive when namespace does not match", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31008,6 +31128,7 @@ test("toolbar does not evaluate isActive when namespace does not match", async (
     await waitFor(".o-we-toolbar");
     expect.verifySteps([]);
     await click("img");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31889,6 +32010,8 @@ test("toolbar does not evaluate isActive when namespace does not match", async (
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await isActivePromise;
     expect.verifySteps(["image format evaluated"]);
 });
@@ -31978,6 +32101,9 @@ test("toolbar does not evaluate isActive when namespace does not match", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32459,6 +32585,9 @@ test("toolbar should open with image namespace the selection spans an image and 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33144,6 +33273,7 @@ test("toolbar buttons should have title attribute with translated text", async (
 });
 
 test.tags("desktop");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34843,6 +34973,11 @@ test("keep the toolbar if the selection crosses two blocks, even if their conten
     const { el } = await setupEditor("<p>a</p><p>b</p>");
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
+=======
+test("keep the toolbar if the selection crosses two blocks, even if their contents aren't selected", async () => {
+    const { el } = await setupEditor("<p>a</p><p>b</p>");
+    await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 
     setContent(el, "<p>[a</p><p>]b</p>");
     await tick(); // selectionChange
@@ -35141,7 +35276,11 @@ test("keep the toolbar if the selection crosses two blocks, even if their conten
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -36323,6 +36462,7 @@ test("keep the toolbar if the selection crosses two blocks, even if their conten
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
 =======
     await expectElementCount(".o-we-toolbar", 0);
@@ -36569,6 +36709,8 @@ test("close the toolbar if the selection contains any nodes (traverseNode = [], 
     await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37353,6 +37495,9 @@ test("keep the toolbar if the selection crosses two blocks, even if their conten
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38170,7 +38315,11 @@ test("keep the toolbar if the selection crosses two blocks, even if their conten
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(1);
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -39352,6 +39501,7 @@ test("keep the toolbar if the selection crosses two blocks, even if their conten
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o-we-toolbar").toHaveCount(0);
 =======
     await expectElementCount(".o-we-toolbar", 0);
@@ -40235,10 +40385,14 @@ test("keep the toolbar if the selection crosses two blocks, even if their conten
 =======
     await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
+=======
+    await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 });
 
 test.tags("desktop");
 test("close the toolbar if the selection contains any nodes (traverseNode = [], ignore zws)", async () => {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42231,6 +42385,8 @@ test("should be able to close image cropper while loading the media", async () =
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const { el } = await setupEditor(
         `<p>ab<strong data-oe-zws-empty-inline="">\u200B</strong>cd</p>`
     );
@@ -42404,6 +42560,9 @@ test("should be able to close image cropper while loading the media", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43023,6 +43182,9 @@ test("should be able to close image cropper while loading the media", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43915,6 +44077,9 @@ test("should be able to close image cropper while loading the media", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44534,6 +44699,7 @@ test("should be able to close image cropper while loading the media", async () =
     await click('.btn[title="Discard"]');
     await animationFrame();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46047,6 +46213,10 @@ test("should be able to close image cropper while loading the media", async () =
     // Cropper should get closed while the cropper still loading the image.
     expect('.btn[title="Discard"]').toHaveCount(0);
 >>>>>>> upstream/18.0
+=======
+    // Cropper should get closed while the cropper still loading the image.
+    expect('.btn[title="Discard"]').toHaveCount(0);
+>>>>>>> upstream/18.0
 });
 
 describe.tags("desktop");
@@ -46348,7 +46518,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -47536,12 +47710,15 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
 
             await pointerUp(el);
             await waitFor(".o-we-toolbar");
             expect(".o-we-toolbar").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -48425,6 +48602,9 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49310,7 +49490,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -50498,12 +50682,15 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
 
             await pointerUp(el.ownerDocument);
             await waitFor(".o-we-toolbar");
             expect(".o-we-toolbar").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51387,6 +51574,9 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52278,8 +52468,12 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForNone(".o-we-toolbar");
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -53461,7 +53655,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -54651,8 +54849,12 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await waitForNone(".o-we-toolbar");
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -55540,6 +55742,7 @@ describe("toolbar open and close on user interaction", () => {
             setContent(el, "<p>[]test</p>");
             await tick();
             await animationFrame();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57357,10 +57560,16 @@ describe("toolbar open and close on user interaction", () => {
         });
 
 >>>>>>> upstream/18.0
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+        });
+
+>>>>>>> upstream/18.0
         test("toolbar should open on double click", async () => {
             const { el } = await setupEditor("<p>test</p>");
             const p = el.firstElementChild;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58277,6 +58486,8 @@ describe("toolbar open and close on user interaction", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             await simulateDoubleClickSelect(p);
             expect(getContent(el)).toBe("<p>[test]</p>");
             // toolbar open after double click is debounced
@@ -58575,6 +58786,9 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -59168,6 +59382,7 @@ describe("toolbar open and close on user interaction", () => {
             const { el } = await setupEditor("<p>test text</p>");
             const p = el.firstElementChild;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60085,6 +60300,8 @@ describe("toolbar open and close on user interaction", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             await simulateTripleClickSelect(p);
             expect(getContent(el)).toBe("<p>[test text]</p>");
             // toolbar open after triple click is debounced
@@ -60383,6 +60600,9 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -61276,7 +61496,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -62458,7 +62682,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -63648,8 +63876,12 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await firstClick(p);
             await secondClick(p);
+=======
+            await simulateDoubleClickSelect(p);
+>>>>>>> upstream/18.0
 =======
             await simulateDoubleClickSelect(p);
 >>>>>>> upstream/18.0
@@ -64854,7 +65086,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -66036,7 +66272,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -67219,7 +67459,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -68402,7 +68646,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -69583,7 +69831,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -70771,7 +71023,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -71953,7 +72209,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(1);
+=======
+            await expectElementCount(".o-we-toolbar", 1);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 1);
 >>>>>>> upstream/18.0
@@ -73139,12 +73399,15 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(1);
 
             await keyUp(["Shift"]);
             await tick();
             expect(".o-we-toolbar").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74029,6 +74292,9 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -74914,12 +75180,15 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(1);
 
             await keyUp(["Control"]);
             await tick();
             expect(".o-we-toolbar").toHaveCount(1);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -75804,6 +76073,9 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -76689,7 +76961,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -77873,7 +78149,11 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
+=======
+            await expectElementCount(".o-we-toolbar", 0);
+>>>>>>> upstream/18.0
 =======
             await expectElementCount(".o-we-toolbar", 0);
 >>>>>>> upstream/18.0
@@ -79057,6 +79337,7 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             expect(".o-we-toolbar").toHaveCount(0);
 
             // Toolbar opens some time after the last keyup
@@ -79649,11 +79930,14 @@ describe("toolbar open and close on user interaction", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             await expectElementCount(".o-we-toolbar", 0);
 
             // Toolbar opens some time after the last keyup
             await advanceTime(500);
             await expectElementCount(".o-we-toolbar", 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80535,6 +80819,8 @@ describe("toolbar open and close on user interaction", () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         });
 
         test("toolbar should open on Cmd+Shift+Arrow on macOS", async () => {
@@ -80615,6 +80901,9 @@ describe("toolbar open and close on user interaction", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81097,6 +81386,7 @@ test("dropdown menu should not overflow scroll container", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81403,6 +81693,8 @@ test("dropdown menu should not overflow scroll container", async () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81730,6 +82022,7 @@ describe("toolbar visibility on contenteditable false elements", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81942,6 +82235,8 @@ describe("toolbar visibility on contenteditable false elements", () => {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
 test("formats should be enabled when inline code selected", async () => {
     await setupEditor(`<div class="o-paragraph">[ab<code class="o_inline_code">code</code>]</div>`);
@@ -81956,4 +82251,7 @@ test("formats should be enabled when inline code selected", async () => {
 
     expect("strong").toHaveCount(0);
 });
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
