@@ -6,8 +6,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['date'],
@@ -20,8 +24,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -34,8 +42,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -48,8 +60,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -61,10 +77,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
             '_text': invoice.x_studio_peppol_order_reference_id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -77,10 +98,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
             '_text': invoice.x_studio_peppol_invoice_period_start_date,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -93,10 +119,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
             '_text': invoice.x_studio_peppol_invoice_period_end_date,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -114,8 +145,12 @@ PEPPOL_INVOICE_OPTIONAL_FIELDS = {
         },
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -134,10 +169,15 @@ PEPPOL_COMMON_OPTIONAL_LINE_FIELDS = {
             '_text': line.x_studio_peppol_order_line_reference_id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -150,10 +190,15 @@ PEPPOL_COMMON_OPTIONAL_LINE_FIELDS = {
             '_text': line.x_studio_peppol_buyers_item_id,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         },

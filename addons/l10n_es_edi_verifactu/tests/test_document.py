@@ -220,6 +220,7 @@ from unittest import mock
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _
 from odoo.exceptions import UserError
 =======
@@ -389,6 +390,10 @@ from odoo.exceptions import UserError, RedirectWarning
 =======
 from odoo import _, Command
 from odoo.exceptions import UserError, RedirectWarning
+>>>>>>> upstream/18.0
+=======
+from odoo import _, Command
+from odoo.exceptions import UserError, RedirectWarning, AccessError
 >>>>>>> upstream/18.0
 =======
 from odoo import _, Command
@@ -1368,7 +1373,10 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2102,6 +2110,9 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3149,7 +3160,10 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3685,6 +3699,7 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4035,6 +4050,8 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_verifactu_sequence_with_prefix(self):
         """Ensure a non-numeric sequence value surfaces a user-friendly error."""
@@ -4045,4 +4062,7 @@ class TestL10nEsEdiVerifactuDocument(TestL10nEsEdiVerifactuCommon):
         document = invoice._l10n_es_edi_verifactu_create_documents()[invoice]
         self.assertFalse(document.chain_index)
         self.assertIn("prefix or suffix", document.errors)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

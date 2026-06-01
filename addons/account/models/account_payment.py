@@ -108,6 +108,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from itertools import zip_longest
+>>>>>>> upstream/18.0
 =======
 from itertools import zip_longest
 >>>>>>> upstream/18.0
@@ -799,6 +803,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        tracking=True,
+>>>>>>> upstream/18.0
 =======
         tracking=True,
 >>>>>>> upstream/18.0
@@ -2069,7 +2077,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     memo = fields.Char(string="Memo", tracking=True)
+=======
+    memo = fields.Char(string="Memo", tracking=True, inverse='_inverse_memo')
+>>>>>>> upstream/18.0
 =======
     memo = fields.Char(string="Memo", tracking=True, inverse='_inverse_memo')
 >>>>>>> upstream/18.0
@@ -3128,6 +3140,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        search='_search_reconciled_invoice_ids',
+>>>>>>> upstream/18.0
 =======
         search='_search_reconciled_invoice_ids',
 >>>>>>> upstream/18.0
@@ -3880,6 +3896,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        search='_search_reconciled_invoice_ids',
+>>>>>>> upstream/18.0
 =======
         search='_search_reconciled_invoice_ids',
 >>>>>>> upstream/18.0
@@ -4228,6 +4248,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.ensure_one()
+>>>>>>> upstream/18.0
 =======
         self.ensure_one()
 >>>>>>> upstream/18.0
@@ -4559,6 +4583,7 @@ class AccountPayment(models.Model):
             self.journal_id.default_account_id |
             self.payment_method_line_id.payment_account_id |
             self.journal_id.inbound_payment_method_line_ids.payment_account_id |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6005,6 +6030,10 @@ class AccountPayment(models.Model):
             self.journal_id.outbound_payment_method_line_ids.payment_account_id |
             self.outstanding_account_id
 >>>>>>> upstream/18.0
+=======
+            self.journal_id.outbound_payment_method_line_ids.payment_account_id |
+            self.outstanding_account_id
+>>>>>>> upstream/18.0
         )
 
     def _get_aml_default_display_name_list(self):
@@ -6139,6 +6168,7 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _prepare_move_line_default_vals(self, write_off_line_vals=None, force_balance=None):
         ''' Prepare the dictionary to create the default account.move.lines for the current payment.
         :param write_off_line_vals: Optional list of dictionaries to create a write-off account.move.line easily containing:
@@ -6151,6 +6181,8 @@ class AccountPayment(models.Model):
         self.ensure_one()
         write_off_line_vals = write_off_line_vals or []
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6514,6 +6546,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6846,12 +6881,15 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Compute amounts.
         write_off_line_vals_list = write_off_line_vals or []
         write_off_amount_currency = sum(x['amount_currency'] for x in write_off_line_vals_list)
         write_off_balance = sum(x['balance'] for x in write_off_line_vals_list)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7197,6 +7235,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7542,6 +7583,7 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         counterpart_amount_currency = -liquidity_amount_currency - write_off_amount_currency
         counterpart_balance = -liquidity_balance - write_off_balance
         currency_id = self.currency_id.id
@@ -7576,6 +7618,8 @@ class AccountPayment(models.Model):
         ]
         return line_vals_list + write_off_line_vals_list
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7941,6 +7985,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8491,7 +8538,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if partner or payment_type:
+=======
+            if not bool(payment._origin) and (partner or payment_type):
+>>>>>>> upstream/18.0
 =======
             if not bool(payment._origin) and (partner or payment_type):
 >>>>>>> upstream/18.0
@@ -9740,11 +9791,14 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             payment.journal_id = self.env['account.journal'].search([
                 *self.env['account.journal']._check_company_domain(company),
                 ('type', 'in', ['bank', 'cash', 'credit']),
             ], limit=1)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10677,6 +10731,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11303,6 +11360,7 @@ class AccountPayment(models.Model):
             if payment.journal_id.company_id not in payment.company_id.parent_ids:
                 payment.company_id = (payment.journal_id.company_id or self.env.company)._accessible_branches()[:1]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12813,6 +12871,11 @@ class AccountPayment(models.Model):
     def _compute_state(self):
         payments_is_matched_to_recompute = self.env['account.payment']
 >>>>>>> upstream/18.0
+=======
+    @api.depends('reconciled_invoice_ids.payment_state', 'reconciled_bill_ids.payment_state', 'move_id.line_ids.amount_residual')
+    def _compute_state(self):
+        payments_is_matched_to_recompute = self.env['account.payment']
+>>>>>>> upstream/18.0
         for payment in self:
             if not payment.state:
                 payment.state = 'draft'
@@ -12821,6 +12884,7 @@ class AccountPayment(models.Model):
                 liquidity, _counterpart, _writeoff = payment._seek_for_lines()
                 payment.state = (
                     'paid'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13935,10 +13999,13 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     if move.company_currency_id.is_zero(sum(liquidity.mapped('amount_residual'))) or not any(liquidity.account_id.mapped('reconcile')) else
                     'in_process'
                 )
             if (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14635,6 +14702,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 payment.state == 'in_process' and (
                     payment.reconciled_invoice_ids and all(invoice.payment_state == 'paid' for invoice in payment.reconciled_invoice_ids)
                     or payment.reconciled_bill_ids and all(bill.payment_state == 'paid' for bill in payment.reconciled_bill_ids)
@@ -14685,6 +14754,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15043,6 +15115,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15923,7 +15998,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     from_amount=payment.amount,
+=======
+                    from_amount=payment.amount_signed,
+>>>>>>> upstream/18.0
 =======
                     from_amount=payment.amount_signed,
 >>>>>>> upstream/18.0
@@ -17145,6 +17224,7 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('journal_id')
     def _compute_partner_id(self):
         for pay in self:
@@ -17152,6 +17232,10 @@ class AccountPayment(models.Model):
                 pay.partner_id = False
             else:
                 pay.partner_id = pay.partner_id
+=======
+    def _compute_partner_id(self):
+        pass
+>>>>>>> upstream/18.0
 =======
     def _compute_partner_id(self):
         pass
@@ -18596,7 +18680,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19296,6 +19383,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20084,7 +20174,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20871,6 +20964,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21657,7 +21753,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22514,7 +22613,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         linked_invoices = self.invoice_ids
+=======
+        linked_invoices = self.reconciled_invoice_ids
+>>>>>>> upstream/18.0
 =======
         linked_invoices = self.reconciled_invoice_ids
 >>>>>>> upstream/18.0
@@ -23510,7 +23613,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24354,6 +24460,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25185,6 +25294,7 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             if pay.move_id.state == 'posted':
                 continue
@@ -25795,6 +25905,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
             liquidity_lines, counterpart_lines, writeoff_lines = pay._seek_for_lines()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26126,6 +26238,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26355,6 +26470,7 @@ class AccountPayment(models.Model):
                     'amount_currency': sum(writeoff_lines.mapped('amount_currency')),
                     'balance': sum(writeoff_lines.mapped('balance')),
                 })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27655,6 +27771,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             line_vals_per_type = pay._prepare_move_lines_per_type(write_off_line_vals=write_off_line_vals)
             line_ids_commands = []
 
@@ -27789,6 +27907,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28011,6 +28132,7 @@ class AccountPayment(models.Model):
                 'currency_id': pay.currency_id.id,
                 'partner_bank_id': pay.partner_bank_id.id,
                 'line_ids': line_ids_commands,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29140,6 +29262,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             }
             if 'journal_id' in changed_fields:
                 to_write.update({
@@ -29413,6 +29537,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29958,6 +30085,7 @@ class AccountPayment(models.Model):
         need_move = self.filtered(lambda p: not p.move_id and p.outstanding_account_id)
         assert len(self) == 1 or (not write_off_line_vals and not force_balance and not line_ids)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30844,6 +30972,8 @@ class AccountPayment(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         move_vals = [
             pay._generate_move_vals(write_off_line_vals, force_balance, line_ids)
             for pay in need_move
@@ -31136,6 +31266,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32006,7 +32139,10 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32893,6 +33029,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33769,7 +33908,11 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return (self.invoice_ids | self.reconciled_invoice_ids).with_context(
+=======
+        return self.reconciled_invoice_ids.with_context(
+>>>>>>> upstream/18.0
 =======
         return self.reconciled_invoice_ids.with_context(
 >>>>>>> upstream/18.0

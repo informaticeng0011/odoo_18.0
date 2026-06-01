@@ -108,7 +108,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import Command, api, fields, models
+=======
+from odoo import api, fields, models
+>>>>>>> upstream/18.0
 =======
 from odoo import api, fields, models
 >>>>>>> upstream/18.0
@@ -641,6 +645,7 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # EXTEND account to add the withholding fields in the list.
         return super()._get_trigger_fields_to_synchronize() + ('withholding_line_ids', 'should_withhold_tax')
 
@@ -723,6 +728,8 @@ class AccountPayment(models.Model):
             liquidity_line_values['credit'] = -liquidity_line_balance
         return move_vals
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1056,6 +1063,9 @@ class AccountPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

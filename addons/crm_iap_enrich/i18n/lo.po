@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* crm_iap_enrich
 #
+=======
+# * crm_iap_enrich
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * crm_iap_enrich
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-30 08:12+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -32,6 +41,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: crm_iap_enrich
@@ -41,6 +53,11 @@ msgid ""
 "one of an email provider. No credit was consumed. </span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span> ບໍ່ພົບຂໍ້ມູນບໍລິສັດໂດຍອີງຕາມທີ່ຢູ່ອີເມວ ຫຼື ທີ່ຢູ່ອີເມວດັ່ງກ່າວເປັນຂອງຜູ້ໃຫ້ບໍລິການອີເມວທົ່ວໄປ. ບໍ່ມີການໃຊ້ເ"
+"ຄຣດິດ. </span>"
+>>>>>>> upstream/18.0
 =======
 "<span> ບໍ່ພົບຂໍ້ມູນບໍລິສັດໂດຍອີງຕາມທີ່ຢູ່ອີເມວ ຫຼື ທີ່ຢູ່ອີເມວດັ່ງກ່າວເປັນຂອງຜູ້ໃຫ້ບໍລິການອີເມວທົ່ວໄປ. ບໍ່ມີການໃຊ້ເ"
 "ຄຣດິດ. </span>"
@@ -53,6 +70,10 @@ msgid ""
 "valid.</span>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>ບໍ່ສາມາດເພີ່ມຂໍ້ມູນໄດ້ ເພາະວ່າທີ່ຢູ່ອີເມວເບິ່ງຄືວ່າບໍ່ຖືກຕ້ອງ.</span>"
+>>>>>>> upstream/18.0
 =======
 "<span>ບໍ່ສາມາດເພີ່ມຂໍ້ມູນໄດ້ ເພາະວ່າທີ່ຢູ່ອີເມວເບິ່ງຄືວ່າບໍ່ຖືກຕ້ອງ.</span>"
 >>>>>>> upstream/18.0
@@ -61,7 +82,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm_iap_enrich.field_crm_lead__show_enrich_button
 msgid "Allow manual enrich"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອະນຸຍາດໃຫ້ເພີ່ມຂໍ້ມູນດ້ວຍຕົນເອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອະນຸຍາດໃຫ້ເພີ່ມຂໍ້ມູນດ້ວຍຕົນເອງ"
 >>>>>>> upstream/18.0
@@ -71,7 +96,11 @@ msgstr "ອະນຸຍາດໃຫ້ເພີ່ມຂໍ້ມູນດ້ວ
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "An error occurred during lead enrichment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ"
 >>>>>>> upstream/18.0
@@ -80,7 +109,11 @@ msgstr "ເກີດຂໍ້ຜິດພາດໃນລະຫວ່າງກາ
 #: model:ir.actions.server,name:crm_iap_enrich.ir_cron_lead_enrichment_ir_actions_server
 msgid "CRM: enrich leads (IAP)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CRM: ເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ (IAP)"
+>>>>>>> upstream/18.0
 =======
 msgstr "CRM: ເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ (IAP)"
 >>>>>>> upstream/18.0
@@ -89,7 +122,11 @@ msgstr "CRM: ເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າ�
 #: model:ir.model,name:crm_iap_enrich.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕັ້ງຄ່າ"
 >>>>>>> upstream/18.0
@@ -99,7 +136,11 @@ msgstr "ການຕັ້ງຄ່າ"
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.crm_lead_view_form
 msgid "Enrich"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຂໍ້ມູນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມຂໍ້ມູນ"
 >>>>>>> upstream/18.0
@@ -108,7 +149,11 @@ msgstr "ເພີ່ມຂໍ້ມູນ"
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.crm_lead_view_form
 msgid "Enrich lead with company data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຂໍ້ມູນບໍລິສັດໃຫ້ກັບລູກຄ້າເປົ້າໝາຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມຂໍ້ມູນບໍລິສັດໃຫ້ກັບລູກຄ້າເປົ້າໝາຍ"
 >>>>>>> upstream/18.0
@@ -117,7 +162,11 @@ msgstr "ເພີ່ມຂໍ້ມູນບໍລິສັດໃຫ້ກັບ
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.crm_lead_view_form
 msgid "Enrich opportunity with company data"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຂໍ້ມູນບໍລິສັດໃຫ້ກັບໂອກາດການຂາຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມຂໍ້ມູນບໍລິສັດໃຫ້ກັບໂອກາດການຂາຍ"
 >>>>>>> upstream/18.0
@@ -126,7 +175,11 @@ msgstr "ເພີ່ມຂໍ້ມູນບໍລິສັດໃຫ້ກັບ
 #: model:ir.model.fields,field_description:crm_iap_enrich.field_crm_lead__iap_enrich_done
 msgid "Enrichment done"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເພີ່ມຂໍ້ມູນສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເພີ່ມຂໍ້ມູນສຳເລັດແລ້ວ"
 >>>>>>> upstream/18.0
@@ -136,7 +189,11 @@ msgstr "ການເພີ່ມຂໍ້ມູນສຳເລັດແລ້ວ
 #: model_terms:ir.ui.view,arch_db:crm_iap_enrich.mail_message_lead_enrich_notfound
 msgid "Lead Enrichment (based on email address)"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ (ອີງຕາມທີ່ຢູ່ອີເມວ)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ (ອີງຕາມທີ່ຢູ່ອີເມວ)"
 >>>>>>> upstream/18.0
@@ -146,7 +203,11 @@ msgstr "ການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "Lead enriched based on email address"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍສຳເລັດໂດຍອີງຕາມທີ່ຢູ່ອີເມວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍສຳເລັດໂດຍອີງຕາມທີ່ຢູ່ອີເມວ"
 >>>>>>> upstream/18.0
@@ -155,7 +216,11 @@ msgstr "ເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາ
 #: model:ir.model,name:crm_iap_enrich.model_crm_lead
 msgid "Lead/Opportunity"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລູກຄ້າເປົ້າໝາຍ/ໂອກາດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລູກຄ້າເປົ້າໝາຍ/ໂອກາດ"
 >>>>>>> upstream/18.0
@@ -165,7 +230,11 @@ msgstr "ລູກຄ້າເປົ້າໝາຍ/ໂອກາດ"
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "Not enough credits for Lead Enrichment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຄຣດິດບໍ່ພຽງພໍສຳລັບການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຄຣດິດບໍ່ພຽງພໍສຳລັບການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍ"
 >>>>>>> upstream/18.0
@@ -175,7 +244,11 @@ msgstr "ເຄຣດິດບໍ່ພຽງພໍສຳລັບການເພ
 #: code:addons/crm_iap_enrich/models/crm_lead.py:0
 msgid "The leads/opportunities have successfully been enriched"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລູກຄ້າເປົ້າໝາຍ/ໂອກາດ ໄດ້ຮັບການເພີ່ມຂໍ້ມູນສຳເລັດແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລູກຄ້າເປົ້າໝາຍ/ໂອກາດ ໄດ້ຮັບການເພີ່ມຂໍ້ມູນສຳເລັດແລ້ວ"
 >>>>>>> upstream/18.0
@@ -187,6 +260,11 @@ msgid ""
 " this lead."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ກວດສອບວ່າການບໍລິການ IAP ສຳລັບການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍໂດຍອີງຕາມອີເມວ ໄດ້ຖືກດຳເນີນການກັບລູກຄ້າເປົ້"
+"າໝາຍນີ້ແລ້ວຫຼືບໍ່."
+>>>>>>> upstream/18.0
 =======
 "ກວດສອບວ່າການບໍລິການ IAP ສຳລັບການເພີ່ມຂໍ້ມູນລູກຄ້າເປົ້າໝາຍໂດຍອີງຕາມອີເມວ ໄດ້ຖືກດຳເນີນການກັບລູກຄ້າເປົ້"
 "າໝາຍນີ້ແລ້ວຫຼືບໍ່."

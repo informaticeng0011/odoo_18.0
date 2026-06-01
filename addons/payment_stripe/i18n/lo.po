@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_stripe
 #
+=======
+# * payment_stripe
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * payment_stripe
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-26 04:55+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -32,6 +41,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: payment_stripe
@@ -39,7 +51,11 @@ msgstr ""
 #: code:addons/payment_stripe/static/src/js/payment_form.js:0
 msgid "Cannot display the payment form"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສະແດງແບບຟອມການຊໍາລະເງິນໄດ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ສາມາດສະແດງແບບຟອມການຊໍາລະເງິນໄດ້"
 >>>>>>> upstream/18.0
@@ -48,7 +64,11 @@ msgstr "ບໍ່ສາມາດສະແດງແບບຟອມການຊໍ
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_provider__code
 msgid "Code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ"
 >>>>>>> upstream/18.0
@@ -57,7 +77,11 @@ msgstr "ລະຫັດ"
 #: model_terms:ir.ui.view,arch_db:payment_stripe.payment_provider_form
 msgid "Connect Stripe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຊື່ອມຕໍ່ Stripe"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຊື່ອມຕໍ່ Stripe"
 >>>>>>> upstream/18.0
@@ -67,7 +91,11 @@ msgstr "ເຊື່ອມຕໍ່ Stripe"
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Could not establish the connection to the API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ກັບ API ໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ກັບ API ໄດ້."
 >>>>>>> upstream/18.0
@@ -77,7 +105,11 @@ msgstr "ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່
 #: code:addons/payment_stripe/static/src/js/express_checkout_form.js:0
 msgid "Delivery"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຈັດສົ່ງ"
 >>>>>>> upstream/18.0
@@ -86,7 +118,11 @@ msgstr "ການຈັດສົ່ງ"
 #: model_terms:ir.ui.view,arch_db:payment_stripe.payment_provider_form
 msgid "Enable Apple Pay"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເປີດໃຊ້ Apple Pay"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເປີດໃຊ້ Apple Pay"
 >>>>>>> upstream/18.0
@@ -96,7 +132,11 @@ msgstr "ເປີດໃຊ້ Apple Pay"
 #: code:addons/payment_stripe/static/src/js/express_checkout_form.js:0
 msgid "Free Shipping"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງຟຣີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງຟຣີ"
 >>>>>>> upstream/18.0
@@ -105,7 +145,11 @@ msgstr "ສົ່ງຟຣີ"
 #: model_terms:ir.ui.view,arch_db:payment_stripe.payment_provider_form
 msgid "Generate your webhook"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງ Webhook ຂອງທ່ານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງ Webhook ຂອງທ່ານ"
 >>>>>>> upstream/18.0
@@ -114,7 +158,11 @@ msgstr "ສ້າງ Webhook ຂອງທ່ານ"
 #: model_terms:ir.ui.view,arch_db:payment_stripe.payment_provider_form
 msgid "Get your Secret and Publishable keys"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຮັບເອົາ Secret Key ແລະ Publishable Key ຂອງທ່ານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຮັບເອົາ Secret Key ແລະ Publishable Key ຂອງທ່ານ"
 >>>>>>> upstream/18.0
@@ -126,6 +174,11 @@ msgid ""
 "set to authenticate the messages sent from Stripe to Odoo."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຖ້າເປີດໃຊ້ Webhook ໃນບັນຊີ Stripe ຂອງທ່ານ, ຕ້ອງຕັ້ງຄ່າ Signing Secret ນີ້ເພື່ອຢືນຢັນຕົວຕົນຂອງຂໍ້ຄ"
+"ວາມທີ່ສົ່ງຈາກ Stripe ຫາ Odoo."
+>>>>>>> upstream/18.0
 =======
 "ຖ້າເປີດໃຊ້ Webhook ໃນບັນຊີ Stripe ຂອງທ່ານ, ຕ້ອງຕັ້ງຄ່າ Signing Secret ນີ້ເພື່ອຢືນຢັນຕົວຕົນຂອງຂໍ້ຄ"
 "ວາມທີ່ສົ່ງຈາກ Stripe ຫາ Odoo."
@@ -136,7 +189,11 @@ msgstr ""
 #: code:addons/payment_stripe/static/src/js/payment_form.js:0
 msgid "Incorrect payment details"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍລະອຽດການຊໍາລະເງິນບໍ່ຖືກຕ້ອງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍລະອຽດການຊໍາລະເງິນບໍ່ຖືກຕ້ອງ"
 >>>>>>> upstream/18.0
@@ -146,7 +203,11 @@ msgstr "ລາຍລະອຽດການຊໍາລະເງິນບໍ່ຖ
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "No transaction found matching reference %s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ພົບທຸລະກຳທີ່ກົງກັບການອ້າງອີງ %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ພົບທຸລະກຳທີ່ກົງກັບການອ້າງອີງ %s."
 >>>>>>> upstream/18.0
@@ -156,7 +217,11 @@ msgstr "ບໍ່ພົບທຸລະກຳທີ່ກົງກັບການ
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Other Payment Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນອື່ນໆ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນອື່ນໆ"
 >>>>>>> upstream/18.0
@@ -165,7 +230,11 @@ msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນອື
 #: model:ir.model,name:payment_stripe.model_payment_provider
 msgid "Payment Provider"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນ"
 >>>>>>> upstream/18.0
@@ -174,7 +243,11 @@ msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນ"
 #: model:ir.actions.act_window,name:payment_stripe.action_payment_provider_onboarding
 msgid "Payment Providers"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນ"
 >>>>>>> upstream/18.0
@@ -183,7 +256,11 @@ msgstr "ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນ"
 #: model:ir.model,name:payment_stripe.model_payment_token
 msgid "Payment Token"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂທເຄັນການຊໍາລະເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂທເຄັນການຊໍາລະເງິນ"
 >>>>>>> upstream/18.0
@@ -192,7 +269,11 @@ msgstr "ໂທເຄັນການຊໍາລະເງິນ"
 #: model:ir.model,name:payment_stripe.model_payment_transaction
 msgid "Payment Transaction"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸລະກຳການຊໍາລະເງິນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ທຸລະກຳການຊໍາລະເງິນ"
 >>>>>>> upstream/18.0
@@ -202,7 +283,11 @@ msgstr "ທຸລະກຳການຊໍາລະເງິນ"
 #: code:addons/payment_stripe/static/src/js/payment_form.js:0
 msgid "Payment processing failed"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການປະມວນຜົນການຊໍາລະເງິນລົ້ມເຫຼວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການປະມວນຜົນການຊໍາລະເງິນລົ້ມເຫຼວ"
 >>>>>>> upstream/18.0
@@ -213,6 +298,10 @@ msgstr "ການປະມວນຜົນການຊໍາລະເງິນລ
 msgid "Please use live credentials to enable Apple Pay."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ກະລຸນາໃຊ້ຂໍ້ມູນການຢືນຢັນຕົວຕົນທີ່ໃຊ້ງານຈິງ (Live) ເພື່ອເປີດໃຊ້ Apple Pay."
+>>>>>>> upstream/18.0
 =======
 "ກະລຸນາໃຊ້ຂໍ້ມູນການຢືນຢັນຕົວຕົນທີ່ໃຊ້ງານຈິງ (Live) ເພື່ອເປີດໃຊ້ Apple Pay."
 >>>>>>> upstream/18.0
@@ -221,7 +310,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_provider__stripe_publishable_key
 msgid "Publishable Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Publishable Key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Publishable Key"
 >>>>>>> upstream/18.0
@@ -231,7 +324,11 @@ msgstr "Publishable Key"
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "Received data with invalid intent status: %s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ມີສະຖານະ Intent ບໍ່ຖືກຕ້ອງ: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ມີສະຖານະ Intent ບໍ່ຖືກຕ້ອງ: %s"
 >>>>>>> upstream/18.0
@@ -241,7 +338,11 @@ msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ມີສະຖານະ In
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "Received data with missing intent status."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ບໍ່ມີສະຖານະ Intent."
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ບໍ່ມີສະຖານະ Intent."
 >>>>>>> upstream/18.0
@@ -251,7 +352,11 @@ msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ບໍ່ມີສະຖາ
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "Received data with missing merchant reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ບໍ່ມີການອ້າງອີງຈາກຮ້ານຄ້າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ບໍ່ມີການອ້າງອີງຈາກຮ້ານຄ້າ"
 >>>>>>> upstream/18.0
@@ -260,7 +365,11 @@ msgstr "ໄດ້ຮັບຂໍ້ມູນທີ່ບໍ່ມີການອ
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_provider__stripe_secret_key
 msgid "Secret Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Secret Key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Secret Key"
 >>>>>>> upstream/18.0
@@ -269,7 +378,11 @@ msgstr "Secret Key"
 #: model:ir.model.fields.selection,name:payment_stripe.selection__payment_provider__code__stripe
 msgid "Stripe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stripe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe"
 >>>>>>> upstream/18.0
@@ -282,6 +395,10 @@ msgid ""
 "provider."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Stripe Connect ບໍ່ສາມາດໃຊ້ງານໄດ້ໃນປະເທດຂອງທ່ານ, ກະລຸນາໃຊ້ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນອື່ນ."
+>>>>>>> upstream/18.0
 =======
 "Stripe Connect ບໍ່ສາມາດໃຊ້ງານໄດ້ໃນປະເທດຂອງທ່ານ, ກະລຸນາໃຊ້ຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນອື່ນ."
 >>>>>>> upstream/18.0
@@ -290,7 +407,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_token__stripe_mandate
 msgid "Stripe Mandate"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຕົກລົງ Stripe (Mandate)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຕົກລົງ Stripe (Mandate)"
 >>>>>>> upstream/18.0
@@ -299,7 +420,11 @@ msgstr "ຂໍ້ຕົກລົງ Stripe (Mandate)"
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_token__stripe_payment_method
 msgid "Stripe Payment Method ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄອດີວິທີການຊໍາລະເງິນຂອງ Stripe"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄອດີວິທີການຊໍາລະເງິນຂອງ Stripe"
 >>>>>>> upstream/18.0
@@ -309,7 +434,11 @@ msgstr "ໄອດີວິທີການຊໍາລະເງິນຂອງ St
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Stripe Proxy error: %(error)s"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ຜິດພາດ Stripe Proxy: %(error)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ຜິດພາດ Stripe Proxy: %(error)s"
 >>>>>>> upstream/18.0
@@ -319,7 +448,11 @@ msgstr "ຂໍ້ຜິດພາດ Stripe Proxy: %(error)s"
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Stripe Proxy: An error occurred when communicating with the proxy."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stripe Proxy: ເກີດຂໍ້ຜິດພາດຂຶ້ນໃນຂະນະທີ່ຕິດຕໍ່ສື່ສານກັບ Proxy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe Proxy: ເກີດຂໍ້ຜິດພາດຂຶ້ນໃນຂະນະທີ່ຕິດຕໍ່ສື່ສານກັບ Proxy."
 >>>>>>> upstream/18.0
@@ -329,7 +462,11 @@ msgstr "Stripe Proxy: ເກີດຂໍ້ຜິດພາດຂຶ້ນໃນ�
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Stripe Proxy: Could not establish the connection."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stripe Proxy: ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe Proxy: ບໍ່ສາມາດສ້າງການເຊື່ອມຕໍ່ໄດ້."
 >>>>>>> upstream/18.0
@@ -344,6 +481,12 @@ msgid ""
 "'%s'"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການຕິດຕໍ່ສື່ສານກັບ API ລົ້ມເຫຼວ.\n"
+"Stripe ໄດ້ໃຫ້ຂໍ້ມູນກ່ຽວກັບບັນຫາດັ່ງນີ້:\n"
+"'%s'"
+>>>>>>> upstream/18.0
 =======
 "ການຕິດຕໍ່ສື່ສານກັບ API ລົ້ມເຫຼວ.\n"
 "Stripe ໄດ້ໃຫ້ຂໍ້ມູນກ່ຽວກັບບັນຫາດັ່ງນີ້:\n"
@@ -355,7 +498,11 @@ msgstr ""
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "The customer left the payment page."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລູກຄ້າອອກຈາກໜ້າການຊໍາລະເງິນ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ລູກຄ້າອອກຈາກໜ້າການຊໍາລະເງິນ."
 >>>>>>> upstream/18.0
@@ -364,7 +511,11 @@ msgstr "ລູກຄ້າອອກຈາກໜ້າການຊໍາລະເ
 #: model:ir.model.fields,help:payment_stripe.field_payment_provider__stripe_publishable_key
 msgid "The key solely used to identify the account with Stripe"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄີ (Key) ນີ້ໃຊ້ເພື່ອລະບຸຕົວຕົນຂອງບັນຊີກັບ Stripe ເທົ່ານັ້ນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄີ (Key) ນີ້ໃຊ້ເພື່ອລະບຸຕົວຕົນຂອງບັນຊີກັບ Stripe ເທົ່ານັ້ນ"
 >>>>>>> upstream/18.0
@@ -377,6 +528,11 @@ msgid ""
 "more information on that matter, and address any accounting discrepancies."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການຄືນເງິນບໍ່ສຳເລັດ. ກະລຸນາເຂົ້າສູ່ລະບົບ Stripe Dashboard ຂອງທ່ານເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບເລື່ອງ"
+"ນີ້ ແລະ ກວດສອບຄວາມແຕກຕ່າງທາງບັນຊີ."
+>>>>>>> upstream/18.0
 =======
 "ການຄືນເງິນບໍ່ສຳເລັດ. ກະລຸນາເຂົ້າສູ່ລະບົບ Stripe Dashboard ຂອງທ່ານເພື່ອເບິ່ງຂໍ້ມູນເພີ່ມເຕີມກ່ຽວກັບເລື່ອງ"
 "ນີ້ ແລະ ກວດສອບຄວາມແຕກຕ່າງທາງບັນຊີ."
@@ -386,7 +542,11 @@ msgstr ""
 #: model:ir.model.fields,help:payment_stripe.field_payment_provider__code
 msgid "The technical code of this payment provider."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດທາງເຕັກນິກຂອງຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນນີ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດທາງເຕັກນິກຂອງຜູ້ໃຫ້ບໍລິການຊໍາລະເງິນນີ້."
 >>>>>>> upstream/18.0
@@ -396,7 +556,11 @@ msgstr "ລະຫັດທາງເຕັກນິກຂອງຜູ້ໃຫ້
 #: code:addons/payment_stripe/models/payment_transaction.py:0
 msgid "The transaction is not linked to a token."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ທຸລະກຳນີ້ບໍ່ໄດ້ຖືກເຊື່ອມໂຍງກັບໂທເຄັນ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ທຸລະກຳນີ້ບໍ່ໄດ້ຖືກເຊື່ອມໂຍງກັບໂທເຄັນ."
 >>>>>>> upstream/18.0
@@ -406,7 +570,11 @@ msgstr "ທຸລະກຳນີ້ບໍ່ໄດ້ຖືກເຊື່ອມ
 #: code:addons/payment_stripe/models/payment_token.py:0
 msgid "Unable to convert payment token to new API."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ສາມາດປ່ຽນໂທເຄັນການຊໍາລະເງິນເປັນ API ໃໝ່ໄດ້."
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ສາມາດປ່ຽນໂທເຄັນການຊໍາລະເງິນເປັນ API ໃໝ່ໄດ້."
 >>>>>>> upstream/18.0
@@ -415,7 +583,11 @@ msgstr "ບໍ່ສາມາດປ່ຽນໂທເຄັນການຊໍາ
 #: model:ir.model.fields,field_description:payment_stripe.field_payment_provider__stripe_webhook_secret
 msgid "Webhook Signing Secret"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Webhook Signing Secret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Webhook Signing Secret"
 >>>>>>> upstream/18.0
@@ -425,7 +597,11 @@ msgstr "Webhook Signing Secret"
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "You Stripe Webhook was successfully set up!"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕັ້ງຄ່າ Stripe Webhook ຂອງທ່ານສຳເລັດແລ້ວ!"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕັ້ງຄ່າ Stripe Webhook ຂອງທ່ານສຳເລັດແລ້ວ!"
 >>>>>>> upstream/18.0
@@ -437,6 +613,10 @@ msgid ""
 "You cannot create a Stripe Webhook if your Stripe Secret Key is not set."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດສ້າງ Stripe Webhook ໄດ້ ຖ້າຍັງບໍ່ໄດ້ຕັ້ງຄ່າ Stripe Secret Key ຂອງທ່ານ."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ສາມາດສ້າງ Stripe Webhook ໄດ້ ຖ້າຍັງບໍ່ໄດ້ຕັ້ງຄ່າ Stripe Secret Key ຂອງທ່ານ."
 >>>>>>> upstream/18.0
@@ -449,6 +629,11 @@ msgid ""
 " is completed."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດຕັ້ງສະຖານະຜູ້ໃຫ້ບໍລິການເປັນ ເປີດໃຊ້ງານ (Enabled) ໄດ້ ຈົນກວ່າການລົງທະບຽນເລີ່ມຕົ້ນກັບ "
+"Stripe ຈະສຳເລັດ."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ສາມາດຕັ້ງສະຖານະຜູ້ໃຫ້ບໍລິການເປັນ ເປີດໃຊ້ງານ (Enabled) ໄດ້ ຈົນກວ່າການລົງທະບຽນເລີ່ມຕົ້ນກັບ "
 "Stripe ຈະສຳເລັດ."
@@ -462,6 +647,11 @@ msgid ""
 " account."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານບໍ່ສາມາດຕັ້ງຜູ້ໃຫ້ບໍລິການເປັນ ໂໝດທົດລອງ (Test Mode) ໄດ້ ໃນຂະນະທີ່ມັນຖືກເຊື່ອມໂຍງກັບບັນຊີ "
+"Stripe ຂອງທ່ານ."
+>>>>>>> upstream/18.0
 =======
 "ທ່ານບໍ່ສາມາດຕັ້ງຜູ້ໃຫ້ບໍລິການເປັນ ໂໝດທົດລອງ (Test Mode) ໄດ້ ໃນຂະນະທີ່ມັນຖືກເຊື່ອມໂຍງກັບບັນຊີ "
 "Stripe ຂອງທ່ານ."
@@ -472,7 +662,11 @@ msgstr ""
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Your Stripe Webhook is already set up."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stripe Webhook ຂອງທ່ານໄດ້ຖືກຕັ້ງຄ່າໄວ້ແລ້ວ."
+>>>>>>> upstream/18.0
 =======
 msgstr "Stripe Webhook ຂອງທ່ານໄດ້ຖືກຕັ້ງຄ່າໄວ້ແລ້ວ."
 >>>>>>> upstream/18.0
@@ -482,7 +676,11 @@ msgstr "Stripe Webhook ຂອງທ່ານໄດ້ຖືກຕັ້ງຄ່
 #: code:addons/payment_stripe/static/src/js/express_checkout_form.js:0
 msgid "Your order"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລາຍການສັ່ງຊື້ຂອງທ່ານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລາຍການສັ່ງຊື້ຂອງທ່ານ"
 >>>>>>> upstream/18.0
@@ -492,7 +690,11 @@ msgstr "ລາຍການສັ່ງຊື້ຂອງທ່ານ"
 #: code:addons/payment_stripe/models/payment_provider.py:0
 msgid "Your web domain was successfully verified."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນໂດເມນເວັບຂອງທ່ານສຳເລັດແລ້ວ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຢືນຢັນໂດເມນເວັບຂອງທ່ານສຳເລັດແລ້ວ."
 >>>>>>> upstream/18.0

@@ -269,8 +269,11 @@ import { PosStore } from "@point_of_sale/app/store/pos_store";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { compute_price_force_price_include } from "@point_of_sale/app/models/utils/tax_utils";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1055,6 +1058,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1877,6 +1883,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const orderFiscalPos =
             sale_order.fiscal_position_id &&
             this.models["account.fiscal.position"].find(
@@ -1891,6 +1898,8 @@ patch(PosStore.prototype, {
             this.get_order().set_partner(sale_order.partner_id);
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2684,6 +2693,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3554,6 +3566,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         const orderlines = this.models["sale.order.line"].readMany(sale_order.raw.order_line);
         sale_order.order_line = orderlines;
@@ -4847,6 +4860,8 @@ patch(PosStore.prototype, {
         sale_order.order_line = orderlines;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4909,6 +4924,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4956,6 +4974,7 @@ patch(PosStore.prototype, {
         let userWasAskedAboutLoadedLots = false;
         let previousProductLine = null;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6016,10 +6035,13 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const converted_lines = await this.data.call("sale.order.line", "read_converted", [
             sale_order.order_line.map((l) => l.id),
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7230,6 +7252,9 @@ patch(PosStore.prototype, {
 =======
         for (const line of sale_order.order_line) {
 >>>>>>> upstream/18.0
+=======
+        for (const line of sale_order.order_line) {
+>>>>>>> upstream/18.0
             if (line.display_type === "line_note") {
                 if (previousProductLine) {
                     const previousNote = previousProductLine.customer_note;
@@ -7505,6 +7530,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const taxes = getTaxesAfterFiscalPosition(line.tax_id, orderFiscalPos, this.models);
+>>>>>>> upstream/18.0
 =======
             const taxes = getTaxesAfterFiscalPosition(line.tax_id, orderFiscalPos, this.models);
 >>>>>>> upstream/18.0
@@ -8292,6 +8321,7 @@ patch(PosStore.prototype, {
                 product_id: line.product_id,
                 qty: line.product_uom_qty,
                 price_unit: line.price_unit,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9429,6 +9459,10 @@ patch(PosStore.prototype, {
                 price_type: "manual",
                 tax_ids: taxes.map((tax) => ["link", tax]),
 >>>>>>> upstream/18.0
+=======
+                price_type: "manual",
+                tax_ids: taxes.map((tax) => ["link", tax]),
+>>>>>>> upstream/18.0
                 sale_order_origin_id: sale_order,
                 sale_order_line_id: line,
                 customer_note: line.customer_note,
@@ -9453,7 +9487,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9527,6 +9564,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9571,6 +9611,7 @@ patch(PosStore.prototype, {
             const newLine = await this.addLineToCurrentOrder(newLineValues, {}, false);
             previousProductLine = newLine;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10780,6 +10821,9 @@ patch(PosStore.prototype, {
 =======
             const converted_line = converted_lines.find((l) => l.id === line.id);
 >>>>>>> upstream/18.0
+=======
+            const converted_line = converted_lines.find((l) => l.id === line.id);
+>>>>>>> upstream/18.0
             if (
                 newLine.get_product().tracking !== "none" &&
                 (this.pickingType.use_create_lots || this.pickingType.use_existing_lots) &&
@@ -10802,6 +10846,7 @@ patch(PosStore.prototype, {
                 }
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11591,6 +11636,8 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             converted_line.has_valued_move_ids = await this.data.call(
                 "sale.order.line",
                 "has_valued_move_ids",
@@ -11598,6 +11645,7 @@ patch(PosStore.prototype, {
             );
             newLine.setQuantityFromSOL(converted_line);
             newLine.set_unit_price(converted_line.price_unit);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12053,6 +12101,8 @@ patch(PosStore.prototype, {
                 const priceUnit = newLine.price_unit;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12597,6 +12647,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12962,6 +13015,7 @@ patch(PosStore.prototype, {
                         ...newLineValues,
                     });
                     splitted_line.set_quantity(Math.min(remaining_quantity, 1.0), true);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13777,6 +13831,8 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     splitted_line.set_unit_price(priceUnit);
                     splitted_line.set_discount(line.discount);
                     remaining_quantity -= splitted_line.qty;
@@ -13964,6 +14020,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14330,6 +14389,7 @@ patch(PosStore.prototype, {
                 converted_line.lot_names.length > 0 &&
                 useLoadedLots
             ) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15388,6 +15448,9 @@ patch(PosStore.prototype, {
 =======
                 const priceUnit = newLine.price_unit;
 >>>>>>> upstream/18.0
+=======
+                const priceUnit = newLine.price_unit;
+>>>>>>> upstream/18.0
                 newLine.delete();
                 let total_lot_quantity = 0;
                 for (const lot of converted_line.lot_names) {
@@ -15566,6 +15629,10 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        splitted_line.set_unit_price(priceUnit);
+>>>>>>> upstream/18.0
 =======
                         splitted_line.set_unit_price(priceUnit);
 >>>>>>> upstream/18.0
@@ -16239,6 +16306,7 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16455,6 +16523,8 @@ patch(PosStore.prototype, {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16681,6 +16751,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17050,6 +17123,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17705,9 +17781,12 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const userValue = parseFloat(payload);
         let proposed_down_payment = userValue;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18362,6 +18441,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18793,6 +18875,7 @@ patch(PosStore.prototype, {
                 !down_payment_tax || down_payment_tax.price_include
                     ? sale_order.amount_unpaid
                     : sale_order.amount_untaxed;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19642,6 +19725,9 @@ patch(PosStore.prototype, {
 =======
             proposed_down_payment = (percentageBase * amount) / 100;
 >>>>>>> upstream/18.0
+=======
+            proposed_down_payment = (percentageBase * amount) / 100;
+>>>>>>> upstream/18.0
         }
         if (proposed_down_payment > sale_order.amount_unpaid) {
             this.dialog.add(AlertDialog, {
@@ -19666,6 +19752,7 @@ patch(PosStore.prototype, {
         );
 
         // We need one unique line for the fixed amount taxes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19869,6 +19956,8 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const down_payment_line_to_create = [];
 
         Object.keys(grouped).forEach(async (key) => {
@@ -19876,6 +19965,7 @@ patch(PosStore.prototype, {
 
             // We compute the values for the fixed taxes downpayment
             const fixed_taxes = group[0].tax_id.filter((tax) => tax.amount_type === "fixed");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20735,6 +20825,9 @@ patch(PosStore.prototype, {
 =======
             // We need to remove the amount of the fixed tax as they will have a separate line
 >>>>>>> upstream/18.0
+=======
+            // We need to remove the amount of the fixed tax as they will have a separate line
+>>>>>>> upstream/18.0
             const fixed_tax_total_amount = fixed_taxes.reduce(
                 (total, tax) => total + tax.amount,
                 0
@@ -20999,6 +21092,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21543,6 +21639,7 @@ patch(PosStore.prototype, {
                 tax_ids: taxes_to_apply,
             });
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22259,6 +22356,9 @@ patch(PosStore.prototype, {
 =======
         for (const down_payment_line of down_payment_line_to_create) {
 >>>>>>> upstream/18.0
+=======
+        for (const down_payment_line of down_payment_line_to_create) {
+>>>>>>> upstream/18.0
             const matchedSaleOrderLines = [];
             for (const line of sale_order.order_line.filter((soLine) => !soLine.display_type)) {
                 if (
@@ -22480,6 +22580,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22911,6 +23014,7 @@ patch(PosStore.prototype, {
                 price_unit: down_payment_line.price,
                 price_type: "automatic",
                 sale_order_origin_id: sale_order,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23558,6 +23662,8 @@ patch(PosStore.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 down_payment_details: matchedSaleOrderLines.map((line) => ({
                     product_name: line.product_id.display_name,
                     product_uom_qty: line.product_uom_qty,
@@ -23775,6 +23881,9 @@ patch(PosStore.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

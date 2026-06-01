@@ -90,6 +90,10 @@ export class NavBar extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.ui = useState(useService("ui"));
+>>>>>>> upstream/18.0
 =======
         this.ui = useState(useService("ui"));
 >>>>>>> upstream/18.0

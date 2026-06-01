@@ -172,6 +172,10 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.abortUploads = null;
+>>>>>>> upstream/18.0
 =======
         this.abortUploads = null;
 >>>>>>> upstream/18.0
@@ -586,6 +590,10 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                setAbortUploadsCallback: (abortFunc) => this.abortUploads = abortFunc,
+>>>>>>> upstream/18.0
 =======
                 setAbortUploadsCallback: (abortFunc) => this.abortUploads = abortFunc,
 >>>>>>> upstream/18.0
@@ -1202,7 +1210,10 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1724,6 +1735,9 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2204,7 +2218,10 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2497,6 +2514,9 @@ export class MediaDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

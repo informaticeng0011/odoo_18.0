@@ -1,19 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* project_stock_account
 #
 =======
+=======
+>>>>>>> upstream/18.0
 # * project_stock_account
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # Bone NI <bounkirdni@gmail.com>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
@@ -23,6 +30,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-30 18:01+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -33,6 +42,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: project_stock_account
@@ -43,6 +55,11 @@ msgid ""
 "'%(project_name)s' linked to the stock picking."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຕ້ອງການແຜນວິເຄາະ '%(missing_plan_names)s' ໃນໂຄງການ '%(project_name)s' ທີ່ເຊື່ອມໂຍງກັ"
+"ບການເບີກສິນຄ້າ."
+>>>>>>> upstream/18.0
 =======
 "ຕ້ອງການແຜນວິເຄາະ '%(missing_plan_names)s' ໃນໂຄງການ '%(project_name)s' ທີ່ເຊື່ອມໂຍງກັ"
 "ບການເບີກສິນຄ້າ."
@@ -52,7 +69,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:project_stock_account.field_stock_picking_type__analytic_costs
 msgid "Analytic Costs"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົ້ນທຶນວິເຄາະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົ້ນທຶນວິເຄາະ"
 >>>>>>> upstream/18.0
@@ -61,7 +82,11 @@ msgstr "ຕົ້ນທຶນວິເຄາະ"
 #: model:ir.model,name:project_stock_account.model_account_analytic_line
 msgid "Analytic Line"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແຖວວິເຄາະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແຖວວິເຄາະ"
 >>>>>>> upstream/18.0
@@ -70,7 +95,11 @@ msgstr "ແຖວວິເຄາະ"
 #: model:ir.model,name:project_stock_account.model_account_analytic_applicability
 msgid "Analytic Plan's Applicabilities"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການນຳໃຊ້ແຜນວິເຄາະ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການນຳໃຊ້ແຜນວິເຄາະ"
 >>>>>>> upstream/18.0
@@ -79,7 +108,11 @@ msgstr "ການນຳໃຊ້ແຜນວິເຄາະ"
 #: model:ir.model.fields,field_description:project_stock_account.field_account_analytic_line__category
 msgid "Category"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໝວດໝູ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໝວດໝູ່"
 >>>>>>> upstream/18.0
@@ -88,7 +121,11 @@ msgstr "ໝວດໝູ່"
 #: model:ir.model.fields,field_description:project_stock_account.field_account_analytic_applicability__business_domain
 msgid "Domain"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂດເມນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂດເມນ"
 >>>>>>> upstream/18.0
@@ -97,7 +134,11 @@ msgstr "ໂດເມນ"
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_line__category__picking_entry
 msgid "Inventory Transfer"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການໂອນຍ້າຍສາງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການໂອນຍ້າຍສາງ"
 >>>>>>> upstream/18.0
@@ -107,7 +148,11 @@ msgstr "ການໂອນຍ້າຍສາງ"
 #: code:addons/project_stock_account/models/project_project.py:0
 msgid "Materials"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ວັດສະດຸ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ວັດສະດຸ"
 >>>>>>> upstream/18.0
@@ -116,7 +161,11 @@ msgstr "ວັດສະດຸ"
 #: model:ir.model,name:project_stock_account.model_stock_picking_type
 msgid "Picking Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດການເບີກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດການເບີກ"
 >>>>>>> upstream/18.0
@@ -125,7 +174,11 @@ msgstr "ປະເພດການເບີກ"
 #: model:ir.model,name:project_stock_account.model_project_project
 msgid "Project"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໂຄງການ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໂຄງການ"
 >>>>>>> upstream/18.0
@@ -134,7 +187,11 @@ msgstr "ໂຄງການ"
 #: model:ir.model,name:project_stock_account.model_stock_move
 msgid "Stock Move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເຄື່ອນຍ້າຍສາງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເຄື່ອນຍ້າຍສາງ"
 >>>>>>> upstream/18.0
@@ -143,7 +200,11 @@ msgstr "ການເຄື່ອນຍ້າຍສາງ"
 #: model:ir.model.fields.selection,name:project_stock_account.selection__account_analytic_applicability__business_domain__stock_picking
 msgid "Stock Picking"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການເບີກສິນຄ້າຈາກສາງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການເບີກສິນຄ້າຈາກສາງ"
 >>>>>>> upstream/18.0
@@ -155,6 +216,11 @@ msgid ""
 "project. Products set for re-invoicing will also be billed to the customer."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ການຢືນຢັນການເບີກສິນຄ້າຈະສ້າງລາຍການວິເຄາະໃຫ້ກັບໂຄງການທີ່ເລືອກ. ສິນຄ້າທີ່ກຳນົດໃຫ້ອອກໃບບິນຄືນໃໝ່ກໍຈະຖືກ"
+"ຄິດໄລ່ເງິນກັບລູກຄ້າເຊັ່ນກັນ."
+>>>>>>> upstream/18.0
 =======
 "ການຢືນຢັນການເບີກສິນຄ້າຈະສ້າງລາຍການວິເຄາະໃຫ້ກັບໂຄງການທີ່ເລືອກ. ສິນຄ້າທີ່ກຳນົດໃຫ້ອອກໃບບິນຄືນໃໝ່ກໍຈະຖືກ"
 "ຄິດໄລ່ເງິນກັບລູກຄ້າເຊັ່ນກັນ."

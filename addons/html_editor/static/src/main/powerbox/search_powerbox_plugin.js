@@ -101,6 +101,12 @@ import { Plugin } from "../../plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { _t } from "@web/core/l10n/translation";
+import { withSequence } from "@html_editor/utils/resource";
+import { closestElement } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 =======
 import { _t } from "@web/core/l10n/translation";
 import { withSequence } from "@html_editor/utils/resource";
@@ -722,7 +728,10 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1038,6 +1047,9 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1351,7 +1363,10 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1657,6 +1672,9 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1967,7 +1985,11 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.openPowerbox();
+=======
+            this.openSearchPowerbox();
+>>>>>>> upstream/18.0
 =======
             this.openSearchPowerbox();
 >>>>>>> upstream/18.0
@@ -2386,7 +2408,11 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const searchTerm = this.searchNode.nodeValue.slice(this.offset + 1, selection.endOffset);
+=======
+        const searchTerm = this.searchNode.nodeValue?.slice(this.offset + 1, selection.endOffset);
+>>>>>>> upstream/18.0
 =======
         const searchTerm = this.searchNode.nodeValue?.slice(this.offset + 1, selection.endOffset);
 >>>>>>> upstream/18.0
@@ -2823,6 +2849,7 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             selection.endContainer === this.searchNode &&
             this.searchNode.nodeValue &&
             this.searchNode.nodeValue[this.offset] === "/" &&
@@ -2830,6 +2857,8 @@ export class SearchPowerboxPlugin extends Plugin {
         );
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3091,7 +3120,10 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3253,6 +3285,9 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3472,6 +3507,9 @@ export class SearchPowerboxPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

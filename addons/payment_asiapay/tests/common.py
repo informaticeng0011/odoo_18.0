@@ -348,6 +348,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from odoo import Command
 
@@ -357,6 +358,8 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 
 class AsiaPayCommon(AccountTestInvoicingCommon, PaymentCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1407,6 +1410,9 @@ class AsiaPayCommon(PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

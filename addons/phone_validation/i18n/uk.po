@@ -105,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* phone_validation
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1202,6 +1203,9 @@
 =======
 # * phone_validation
 >>>>>>> upstream/18.0
+=======
+# * phone_validation
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -1352,6 +1356,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1434,6 +1439,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
@@ -1754,6 +1762,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3480,6 +3489,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-05-20 16:12+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
@@ -3491,6 +3502,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3508,6 +3522,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4247,6 +4262,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
@@ -4258,6 +4275,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4381,7 +4401,11 @@ msgid "%(error)s Please correct the number and try again."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(error)s Будь ласка, виправте номер і спробуйте ще раз."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(error)s Будь ласка, виправте номер і спробуйте ще раз."
 >>>>>>> upstream/18.0
@@ -5032,7 +5056,10 @@ msgstr "Заархівовано"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5966,6 +5993,7 @@ msgstr "Ви впевнені, що хочете видалити цей ном�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6574,6 +6602,11 @@ msgstr "Ви впевнені, що хочете видалити цей ном�
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
 msgstr ""
+=======
+#: code:addons/phone_validation/models/phone_blacklist.py:0
+msgid "Are you sure you want to unblacklist this phone number?"
+msgstr "Ви впевнені, що хочете розблокувати цей номер телефону?"
+>>>>>>> upstream/18.0
 =======
 #: code:addons/phone_validation/models/phone_blacklist.py:0
 msgid "Are you sure you want to unblacklist this phone number?"
@@ -6805,8 +6838,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Заблоковано видаленням портального облікового запису %(portal_user_name)s "
 "%(user_name)s (#%(user_id)s)"
+=======
+"Заблоковано видаленням портального облікового запису %(portal_user_name)s %"
+"(user_name)s (#%(user_id)s)"
+>>>>>>> upstream/18.0
 =======
 "Заблоковано видаленням портального облікового запису %(portal_user_name)s %"
 "(user_name)s (#%(user_id)s)"
@@ -7577,8 +7615,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Поле, яке використовується для зберігання чистого номера телефону. Допомагає"
 " прискорити пошук і порівняння."
+=======
+"Поле, яке використовується для зберігання чистого номера телефону. Допомагає "
+"прискорити пошук і порівняння."
+>>>>>>> upstream/18.0
 =======
 "Поле, яке використовується для зберігання чистого номера телефону. Допомагає "
 "прискорити пошук і порівняння."
@@ -8354,8 +8397,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the sanitized phone number is on the blacklist, the contact won't receive"
 " mass mailing sms anymore, from any list"
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 =======
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
@@ -9127,8 +9175,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "розрізнити, який номер у чорному списку, коли в моделі є поле як мобільного,"
 " так і телефону."
+=======
+"розрізнити, який номер у чорному списку, коли в моделі є поле як мобільного, "
+"так і телефону."
+>>>>>>> upstream/18.0
 =======
 "розрізнити, який номер у чорному списку, коли в моделі є поле як мобільного, "
 "так і телефону."
@@ -9873,8 +9926,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "розрізнити, який номер є у чорному списку, коли у моделі є поле і мобільного"
 " і телефону."
+=======
+"розрізнити, який номер є у чорному списку, коли у моделі є поле і мобільного "
+"і телефону."
+>>>>>>> upstream/18.0
 =======
 "розрізнити, який номер є у чорному списку, коли у моделі є поле і мобільного "
 "і телефону."
@@ -10734,8 +10792,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Будь ласка, введіть принаймні 3 символи під час пошуку номера "
 "телефону/мобільного телефону."
+=======
+"Будь ласка, введіть принаймні 3 символи під час пошуку номера телефону/"
+"мобільного телефону."
+>>>>>>> upstream/18.0
 =======
 "Будь ласка, введіть принаймні 3 символи під час пошуку номера телефону/"
 "мобільного телефону."
@@ -11675,7 +11738,10 @@ msgstr "Користувач"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12307,6 +12373,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: phone_validation
 <<<<<<< HEAD
@@ -13232,6 +13299,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "У вас немає права доступу для розблокування номерів телефонів. Зверніться до "
 "адміністратора."
 
@@ -13245,6 +13314,9 @@ msgstr "наприклад, «Попросили отримувати наші �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

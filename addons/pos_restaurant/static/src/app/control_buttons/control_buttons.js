@@ -57,6 +57,10 @@ patch(ControlButtons.prototype, {
             }
             this.pos.isOrderTransferMode = false;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            document.removeEventListener("click", onClickWhileTransfer);
+>>>>>>> upstream/18.0
 =======
             document.removeEventListener("click", onClickWhileTransfer);
 >>>>>>> upstream/18.0
@@ -68,7 +72,10 @@ patch(ControlButtons.prototype, {
             await this.pos.transferOrder(orderUuid, table);
             this.pos.setTableFromUi(table);
 <<<<<<< HEAD
+<<<<<<< HEAD
             document.removeEventListener("click", onClickWhileTransfer);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         };

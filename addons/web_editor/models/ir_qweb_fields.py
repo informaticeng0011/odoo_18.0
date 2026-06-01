@@ -82,7 +82,11 @@ class IrQWeb(models.AbstractModel):
         snippet_lang = self._context.get('snippet_lang')
         if snippet_lang:
 <<<<<<< HEAD
+<<<<<<< HEAD
             el.set('t-lang', f"'{snippet_lang}'")
+=======
+            el.set('t-lang', repr(snippet_lang))
+>>>>>>> upstream/18.0
 =======
             el.set('t-lang', repr(snippet_lang))
 >>>>>>> upstream/18.0

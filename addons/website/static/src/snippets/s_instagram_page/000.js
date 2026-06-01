@@ -95,7 +95,10 @@ const InstagramPage = publicWidget.Widget.extend(ObservingCookieWidgetMixin, {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         if (typeof ev.data === 'object') {
@@ -104,6 +107,9 @@ const InstagramPage = publicWidget.Widget.extend(ObservingCookieWidgetMixin, {
             return;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

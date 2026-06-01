@@ -75,7 +75,11 @@ from odoo.addons.mail.tests.common import MailCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.exceptions import UserError
+=======
+from odoo.exceptions import AccessError, UserError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import AccessError, UserError
 >>>>>>> upstream/18.0
@@ -661,6 +665,10 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.assertEqual(invite.subject, self.env["mail.template"].browse(invite_form._env.context['default_template_id']).subject)
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(invite.subject, self.env["mail.template"].browse(invite_form._env.context['default_template_id']).subject)
 >>>>>>> upstream/18.0
@@ -1731,7 +1739,10 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2027,6 +2038,9 @@ class TestSurveyInvite(common.TestSurveyCommon, MailCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

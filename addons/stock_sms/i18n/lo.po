@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_sms
 #
 =======
@@ -40,16 +41,22 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 # * stock_sms
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 # Bone NI <bounkirdni@gmail.com>, 2026.
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81,6 +88,10 @@ msgstr ""
 "PO-Revision-Date: 2026-05-26 04:55+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 >>>>>>> upstream/18.0
+=======
+"PO-Revision-Date: 2026-05-26 04:55+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/stock_sms/"
 "lo/>\n"
 "Language: lo\n"
@@ -95,6 +106,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117,7 +131,10 @@ msgid ""
 "            "
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "\n"
 "                {{ (object.company_id.name + ': We are glad to inform you "
 "that your order n° ' + object.origin + ' has been shipped.' if object.origin "
@@ -126,11 +143,15 @@ msgstr ""
 "(object.carrier_tracking_ref) + '.' if hasattr(object, "
 "'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
 "            "
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: stock_sms
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid "Cancel"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,12 +181,19 @@ msgstr "ຍົກເລີອກ"
 =======
 msgstr "ຍົກເລີກ"
 >>>>>>> upstream/18.0
+=======
+msgstr "ຍົກເລີກ"
+>>>>>>> upstream/18.0
 
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_res_company
 msgid "Companies"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍລິສັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍລິສັດ"
 >>>>>>> upstream/18.0
@@ -174,7 +202,11 @@ msgstr "ບໍລິສັດ"
 #: model:ir.model,name:stock_sms.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕັ້ງຄ່າລະບົບ"
 >>>>>>> upstream/18.0
@@ -189,7 +221,11 @@ msgid "Confirm"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຢືນຢັນ"
 >>>>>>> upstream/18.0
@@ -216,7 +252,11 @@ msgstr "ຢືນຢັນ"
 #: model:ir.model,name:stock_sms.model_confirm_stock_sms
 msgid "Confirm Stock SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢືນຢັນ SMS ສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຢືນຢັນ SMS ສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -225,7 +265,11 @@ msgstr "ຢືນຢັນ SMS ສະຕັອກ"
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__create_uid
 msgid "Created by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງໂດຍ"
 >>>>>>> upstream/18.0
@@ -234,7 +278,11 @@ msgstr "ສ້າງໂດຍ"
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__create_date
 msgid "Created on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສ້າງເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສ້າງເມື່ອ"
 >>>>>>> upstream/18.0
@@ -243,7 +291,11 @@ msgstr "ສ້າງເມື່ອ"
 #: model:sms.template,name:stock_sms.sms_template_data_stock_delivery
 msgid "Delivery: Send by SMS Text Message"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດສົ່ງ: ສົ່ງໂດຍຂໍ້ຄວາມ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຈັດສົ່ງ: ສົ່ງໂດຍຂໍ້ຄວາມ SMS"
 >>>>>>> upstream/18.0
@@ -252,7 +304,11 @@ msgstr "ການຈັດສົ່ງ: ສົ່ງໂດຍຂໍ້ຄວາ�
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid "Disable SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປິດການໃຊ້ງານ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປິດການໃຊ້ງານ SMS"
 >>>>>>> upstream/18.0
@@ -261,7 +317,11 @@ msgstr "ປິດການໃຊ້ງານ SMS"
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__display_name
 msgid "Display Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ທີ່ສະແດງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ທີ່ສະແດງ"
 >>>>>>> upstream/18.0
@@ -270,7 +330,11 @@ msgstr "ຊື່ທີ່ສະແດງ"
 #: model:ir.model.fields,field_description:stock_sms.field_res_company__has_received_warning_stock_sms
 msgid "Has Received Warning Stock Sms"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ໄດ້ຮັບຂໍ້ຄວາມແຈ້ງເຕືອນ SMS ສະຕັອກແລ້ວ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ໄດ້ຮັບຂໍ້ຄວາມແຈ້ງເຕືອນ SMS ສະຕັອກແລ້ວ"
 >>>>>>> upstream/18.0
@@ -279,7 +343,11 @@ msgstr "ໄດ້ຮັບຂໍ້ຄວາມແຈ້ງເຕືອນ SMS �
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__id
 msgid "ID"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ (ID)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ (ID)"
 >>>>>>> upstream/18.0
@@ -288,7 +356,11 @@ msgstr "ລະຫັດ (ID)"
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__write_uid
 msgid "Last Updated by"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ່າສຸດໂດຍ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັບເດດລ່າສຸດໂດຍ"
 >>>>>>> upstream/18.0
@@ -297,7 +369,11 @@ msgstr "ອັບເດດລ່າສຸດໂດຍ"
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__write_date
 msgid "Last Updated on"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ອັບເດດລ່າສຸດເມື່ອ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ອັບເດດລ່າສຸດເມື່ອ"
 >>>>>>> upstream/18.0
@@ -306,7 +382,11 @@ msgstr "ອັບເດດລ່າສຸດເມື່ອ"
 #: model:ir.model.fields,field_description:stock_sms.field_confirm_stock_sms__pick_ids
 msgid "Pick"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເລືອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເລືອກ"
 >>>>>>> upstream/18.0
@@ -317,7 +397,11 @@ msgstr "ເລືອກ"
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid "SMS"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS"
 >>>>>>> upstream/18.0
@@ -327,7 +411,11 @@ msgstr "SMS"
 #: model_terms:ir.ui.view,arch_db:stock_sms.res_config_settings_view_form_stock
 msgid "SMS Confirmation"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຢືນຢັນຜ່ານ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຢືນຢັນຜ່ານ SMS"
 >>>>>>> upstream/18.0
@@ -338,7 +426,11 @@ msgstr "ການຢືນຢັນຜ່ານ SMS"
 #: model_terms:ir.ui.view,arch_db:stock_sms.res_config_settings_view_form_stock
 msgid "SMS Template"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຢ່າງ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຢ່າງ SMS"
 >>>>>>> upstream/18.0
@@ -347,7 +439,11 @@ msgstr "ແບບຢ່າງ SMS"
 #: model:ir.model.fields,field_description:stock_sms.field_res_config_settings__stock_move_sms_validation
 msgid "SMS Validation with stock move"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກວດສອບ SMS ພ້ອມກັບການເຄື່ອນຍ້າຍສະຕັອກ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການກວດສອບ SMS ພ້ອມກັບການເຄື່ອນຍ້າຍສະຕັອກ"
 >>>>>>> upstream/18.0
@@ -357,7 +453,11 @@ msgstr "ການກວດສອບ SMS ພ້ອມກັບການເຄື�
 #: model:ir.model.fields,help:stock_sms.field_res_config_settings__stock_sms_confirmation_template_id
 msgid "SMS sent to the customer once the order is delivered."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS ຈະຖືກສົ່ງໃຫ້ລູກຄ້າ ເມື່ອຄຳສັ່ງຊື້ຖືກຈັດສົ່ງແລ້ວ."
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS ຈະຖືກສົ່ງໃຫ້ລູກຄ້າ ເມື່ອຄຳສັ່ງຊື້ຖືກຈັດສົ່ງແລ້ວ."
 >>>>>>> upstream/18.0
@@ -365,6 +465,7 @@ msgstr "SMS ຈະຖືກສົ່ງໃຫ້ລູກຄ້າ ເມື່�
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_stock_picking
 msgid "Transfer"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -394,6 +495,9 @@ msgstr "ໂອນ"
 =======
 msgstr "ການໂອນ"
 >>>>>>> upstream/18.0
+=======
+msgstr "ການໂອນ"
+>>>>>>> upstream/18.0
 
 #. module: stock_sms
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
@@ -402,6 +506,12 @@ msgid ""
 "                This feature can easily be disabled from the Settings of Inventory or by clicking on \"Disable SMS\".<br/>"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ທ່ານກຳລັງຈະຢືນຢັນໃບບິນສົ່ງສິນຄ້ານີ້ ຜ່ານທາງຂໍ້ຄວາມ SMS.<br/>\n"
+"                ຄຸນສົມບັດນີ້ສາມາດປິດການໃຊ້ງານໄດ້ງ່າຍໆ ຈາກການຕັ້ງຄ່າຂອງສາງສິນຄ້າ ຫຼື ໂດຍການຄລິກ"
+"ທີ່ \"ປິດການໃຊ້ງານ SMS\".<br/>"
+>>>>>>> upstream/18.0
 =======
 "ທ່ານກຳລັງຈະຢືນຢັນໃບບິນສົ່ງສິນຄ້ານີ້ ຜ່ານທາງຂໍ້ຄວາມ SMS.<br/>\n"
 "                ຄຸນສົມບັດນີ້ສາມາດປິດການໃຊ້ງານໄດ້ງ່າຍໆ ຈາກການຕັ້ງຄ່າຂອງສາງສິນຄ້າ ຫຼື ໂດຍການຄລິກ"

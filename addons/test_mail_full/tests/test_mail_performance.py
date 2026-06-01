@@ -270,6 +270,10 @@ from odoo.tools import mute_logger
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.mimetypes import magic
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.mimetypes import magic
 >>>>>>> upstream/18.0
@@ -1553,6 +1557,10 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            expected_mimetype = 'text/plain' if magic else 'application/octet-stream'
+>>>>>>> upstream/18.0
 =======
             expected_mimetype = 'text/plain' if magic else 'application/octet-stream'
 >>>>>>> upstream/18.0
@@ -2605,7 +2613,11 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'mimetype': 'application/octet-stream',
+=======
+                        'mimetype': expected_mimetype,
+>>>>>>> upstream/18.0
 =======
                         'mimetype': expected_mimetype,
 >>>>>>> upstream/18.0
@@ -3658,7 +3670,11 @@ class TestPortalFormatPerformance(FullBaseMailPerformance):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'mimetype': 'application/octet-stream',
+=======
+                        'mimetype': expected_mimetype,
+>>>>>>> upstream/18.0
 =======
                         'mimetype': expected_mimetype,
 >>>>>>> upstream/18.0

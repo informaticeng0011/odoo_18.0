@@ -783,6 +783,12 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if not record.ids:
+                record.display_name = ''
+                continue
+>>>>>>> upstream/18.0
 =======
             if not record.ids:
                 record.display_name = ''
@@ -1895,7 +1901,11 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         single_item_ids = self.search(expression.AND([[('package_id', '=', None)], domain])).mapped('id')
+=======
+                        single_item_ids = self.search(expression.AND([[('package_id', '=', None)], domain])).filtered(lambda quant: quant.quantity > quant.reserved_quantity).mapped('id')
+>>>>>>> upstream/18.0
 =======
                         single_item_ids = self.search(expression.AND([[('package_id', '=', None)], domain])).filtered(lambda quant: quant.quantity > quant.reserved_quantity).mapped('id')
 >>>>>>> upstream/18.0
@@ -2193,7 +2203,11 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             available_quantity = product_packaging_id._check_qty(available_quantity, product_id.uom_id, "DOWN")
+=======
+            available_quantity = product_packaging_id._check_qty(min(quantity, available_quantity), product_id.uom_id, "DOWN")
+>>>>>>> upstream/18.0
 =======
             available_quantity = product_packaging_id._check_qty(min(quantity, available_quantity), product_id.uom_id, "DOWN")
 >>>>>>> upstream/18.0
@@ -2443,6 +2457,7 @@ class StockQuant(models.Model):
                                                      package_id=quant.package_id))
         moves = self.env['stock.move'].with_context(inventory_mode=False).create(move_vals)
         moves._action_done()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3528,6 +3543,8 @@ class StockQuant(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.location_id.sudo().write({'last_inventory_date': fields.Date.today()})
         date_by_location = {loc: loc._get_next_inventory_date() for loc in self.mapped('location_id')}
         for quant in self:
@@ -3848,6 +3865,9 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4707,9 +4727,12 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if lot_id and quantity > 0:
             quants = quants.filtered(lambda q: q.lot_id)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5334,6 +5357,9 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6056,6 +6082,12 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not domain:
+            domain = []
+        domain += [('product_id.company_id', 'in', ctx.get('allowed_company_ids', []) + [False])]
+>>>>>>> upstream/18.0
 =======
         if not domain:
             domain = []
@@ -6340,7 +6372,11 @@ class StockQuant(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'domain': domain or [],
+=======
+            'domain': domain,
+>>>>>>> upstream/18.0
 =======
             'domain': domain,
 >>>>>>> upstream/18.0
@@ -6989,11 +7025,14 @@ class QuantPackage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.quant_ids.move_quants(message=_("Quantities unpacked"), unpack=True)
         # Quant clean-up, mostly to avoid multiple quants of the same product. For example, unpack
         # 2 packages of 50, then reserve 100 => a quant of -50 is created at transfer validation.
         self.quant_ids._quant_tasks()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7568,6 +7607,9 @@ class QuantPackage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

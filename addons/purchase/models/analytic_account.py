@@ -36,7 +36,11 @@ class AccountAnalyticAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ('order_line.invoice_lines.analytic_line_ids.account_id', '=', account.id)
+=======
+                ('order_line.invoice_lines.analytic_line_ids.' + account.plan_id._column_name(), '=', account.id)
+>>>>>>> upstream/18.0
 =======
                 ('order_line.invoice_lines.analytic_line_ids.' + account.plan_id._column_name(), '=', account.id)
 >>>>>>> upstream/18.0
@@ -134,7 +138,11 @@ class AccountAnalyticAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('order_line.invoice_lines.analytic_line_ids.account_id', '=', self.id)
+=======
+            ('order_line.invoice_lines.analytic_line_ids.' + self.plan_id._column_name(), '=', self.id)
+>>>>>>> upstream/18.0
 =======
             ('order_line.invoice_lines.analytic_line_ids.' + self.plan_id._column_name(), '=', self.id)
 >>>>>>> upstream/18.0

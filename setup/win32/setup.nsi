@@ -16,6 +16,10 @@ Unicode True
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+!include 'WordFunc.nsh'
+>>>>>>> upstream/18.0
 =======
 !include 'WordFunc.nsh'
 >>>>>>> upstream/18.0
@@ -125,6 +129,12 @@ Unicode True
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+!define DEFAULT_ODOO_DB_USERNAME 'odoo'
+!define DEFAULT_ODOO_DB_PASSWORD 'odoopwd'
+
+>>>>>>> upstream/18.0
 =======
 !define DEFAULT_ODOO_DB_USERNAME 'odoo'
 !define DEFAULT_ODOO_DB_PASSWORD 'odoopwd'
@@ -200,7 +210,10 @@ Var HWNDPostgreSQLPassword
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -228,6 +241,9 @@ Var HWNDOdooDBPassword
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -275,6 +291,10 @@ Page Custom ShowPostgreSQL LeavePostgreSQL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Page Custom ShowOdooDB LeaveOdooDB
+>>>>>>> upstream/18.0
 =======
 Page Custom ShowOdooDB LeaveOdooDB
 >>>>>>> upstream/18.0
@@ -344,7 +364,10 @@ LangString DESC_PostgreSQL_Password ${LANG_ENGLISH} "Password"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -373,6 +396,9 @@ LangString WARNING_OdooDBUsernameInvalid ${LANG_ENGLISH} "The Odoo database user
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -422,7 +448,10 @@ LangString DESC_PostgreSQL_Password ${LANG_FRENCH} "Mot de passe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -451,6 +480,9 @@ LangString WARNING_OdooDBUsernameInvalid ${LANG_FRENCH} "Le nom d'utilisateur Od
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -515,8 +547,13 @@ Section $(TITLE_Odoo_Server) SectionOdoo_Server
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_user" $TextPostgreSQLUsername
     WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_password" $TextPostgreSQLPassword
+=======
+    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_user" $TextOdooDBUsername
+    WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_password" $TextOdooDBPassword
+>>>>>>> upstream/18.0
 =======
     WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_user" $TextOdooDBUsername
     WriteIniStr "$INSTDIR\server\odoo.conf" "options" "db_password" $TextOdooDBPassword
@@ -589,7 +626,11 @@ Section $(TITLE_PostgreSQL) SectionPostgreSQL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     StrCpy $postgresql_exe_filename "postgresql-12.4-1-windows-x64.exe"
+=======
+    StrCpy $postgresql_exe_filename "postgresql-16.14-1-windows-x64.exe"
+>>>>>>> upstream/18.0
 =======
     StrCpy $postgresql_exe_filename "postgresql-16.14-1-windows-x64.exe"
 >>>>>>> upstream/18.0
@@ -646,7 +687,10 @@ Section $(TITLE_PostgreSQL) SectionPostgreSQL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -681,6 +725,9 @@ Section $(TITLE_PostgreSQL) SectionPostgreSQL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -964,6 +1011,10 @@ Section "Uninstall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    SetRegView 64
+>>>>>>> upstream/18.0
 =======
     SetRegView 64
 >>>>>>> upstream/18.0
@@ -1852,7 +1903,13 @@ Section "Uninstall"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     Rmdir /R "$INSTDIR\$1"
+=======
+    StrCmp $1 "" nginx_dir_not_found
+    Rmdir /R "$INSTDIR\$1"
+    nginx_dir_not_found:
+>>>>>>> upstream/18.0
 =======
     StrCmp $1 "" nginx_dir_not_found
     Rmdir /R "$INSTDIR\$1"
@@ -3574,6 +3631,12 @@ Function .onInit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    StrCpy $TextOdooDBUsername ${DEFAULT_ODOO_DB_USERNAME}
+    StrCpy $TextOdooDBPassword ${DEFAULT_ODOO_DB_PASSWORD}
+
+>>>>>>> upstream/18.0
 =======
     StrCpy $TextOdooDBUsername ${DEFAULT_ODOO_DB_USERNAME}
     StrCpy $TextOdooDBPassword ${DEFAULT_ODOO_DB_PASSWORD}
@@ -3646,7 +3709,10 @@ Function .onInit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3683,6 +3749,9 @@ Function .onInit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3786,7 +3855,10 @@ Function LeavePostgreSQL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3872,6 +3944,9 @@ Function LeaveOdooDB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

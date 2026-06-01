@@ -261,6 +261,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryAll } from "@odoo/hoot-dom";
 import { reactive, useEffect, useExternalListener } from "@odoo/owl";
 import { isNode } from "@web/../lib/hoot-dom/helpers/dom";
@@ -449,6 +450,8 @@ import { isIterable, toSelector } from "@web/../lib/hoot-dom/hoot_dom_utils";
 >>>>>>> upstream/18.0
 import {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1234,6 +1237,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1566,6 +1570,10 @@ import {
 =======
 >>>>>>> upstream/18.0
     isIterable,
+=======
+    isIterable,
+    isPromise,
+>>>>>>> upstream/18.0
 =======
     isIterable,
     isPromise,
@@ -1950,6 +1958,7 @@ import {
     R_WHITE_SPACE,
     toSelector,
 } from "@web/../lib/hoot-dom/hoot_dom_utils";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2915,6 +2924,8 @@ import { DiffMatchPatch } from "./lib/diff_match_patch";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { getRunner } from "./main_runner";
 
 /**
@@ -3239,6 +3250,10 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *  partial?: boolean;
+>>>>>>> upstream/18.0
 =======
  *  partial?: boolean;
 >>>>>>> upstream/18.0
@@ -4469,6 +4484,11 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
+ *
+>>>>>>> upstream/18.0
 =======
  * @typedef {QueryRegExp | QueryExactString | QueryPartialString} QueryPart
  *
@@ -6071,7 +6091,10 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6974,6 +6997,9 @@ import { getRunner } from "./main_runner";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7888,6 +7914,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    requestAnimationFrame,
+>>>>>>> upstream/18.0
 =======
     requestAnimationFrame,
 >>>>>>> upstream/18.0
@@ -8908,6 +8938,10 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    WeakMap,
+>>>>>>> upstream/18.0
 =======
     WeakMap,
 >>>>>>> upstream/18.0
@@ -9509,6 +9543,7 @@ const $writeText = $clipboard?.writeText.bind($clipboard);
 //-----------------------------------------------------------------------------
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11438,6 +11473,11 @@ function getFunctionString(fn) {
  */
 function getFunctionString(fn) {
 >>>>>>> upstream/18.0
+=======
+ * @param {(...args: any[]) => any} fn
+ */
+function getFunctionString(fn) {
+>>>>>>> upstream/18.0
     if (R_CLASS.test(fn.name)) {
         return `${fn.name ? `class ${fn.name}` : "anonymous class"} { ${ELLIPSIS} }`;
     }
@@ -11452,6 +11492,7 @@ function getFunctionString(fn) {
 
     const args = fn.length ? "...args" : "";
     return `${prefix}(${args}) => { ${ELLIPSIS} }`;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12653,10 +12694,14 @@ function getFunctionString(fn) {
 =======
 }
 >>>>>>> upstream/18.0
+=======
+}
+>>>>>>> upstream/18.0
 
 /**
  * @param {unknown} value
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14382,10 +14427,16 @@ function getGenericSerializer(value) {
     for (const [constructor, serialize] of GENERIC_SERIALIZERS) {
         if (isInstanceOf(value, constructor)) {
 >>>>>>> upstream/18.0
+=======
+function getGenericSerializer(value) {
+    for (const [constructor, serialize] of GENERIC_SERIALIZERS) {
+        if (isInstanceOf(value, constructor)) {
+>>>>>>> upstream/18.0
             return serialize;
         }
     }
     return null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15733,6 +15784,8 @@ const memoize = (instanceGetter) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 function makeObjectCache() {
@@ -15983,6 +16036,9 @@ function makeObjectCache() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16454,6 +16510,7 @@ function makeObjectCache() {
  * @returns {T}
  */
 function resolve(value) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17502,6 +17559,10 @@ function resolve(value) {
     return typeof value === "function" ? value() : value;
 }
 >>>>>>> upstream/18.0
+=======
+    return typeof value === "function" ? value() : value;
+}
+>>>>>>> upstream/18.0
 
 /**
  * Useful to deal with symbols as primitives
@@ -17785,6 +17846,9 @@ function stringSort(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18335,6 +18399,7 @@ function stringSort(a, b) {
  * @param {string} value
  * @param {number} [length=MAX_HUMAN_READABLE_SIZE]
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19238,6 +19303,8 @@ const truncate = (value, length = MAX_HUMAN_READABLE_SIZE) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function truncate(value, length = MAX_HUMAN_READABLE_SIZE) {
     const strValue = String(value);
     return strValue.length <= length ? strValue : strValue.slice(0, length) + ELLIPSIS;
@@ -19541,6 +19608,7 @@ function truncate(value, length = MAX_HUMAN_READABLE_SIZE) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19677,6 +19745,8 @@ function truncate(value, length = MAX_HUMAN_READABLE_SIZE) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20415,6 +20485,9 @@ function _deepCopy(value, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20883,6 +20956,7 @@ function _deepCopy(value, cache) {
  * @param {unknown} a
  * @param {unknown} b
  * @param {boolean} ignoreOrder
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21786,6 +21860,8 @@ const _deepEqual = (a, b, ignoreOrder, cache) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {boolean} partial
  * @param {ReturnType<makeObjectCache>} cache
  * @returns {boolean}
@@ -22090,6 +22166,9 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22971,7 +23050,11 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (a instanceof File) {
+=======
+    if (isInstanceOf(a, File)) {
+>>>>>>> upstream/18.0
 =======
     if (isInstanceOf(a, File)) {
 >>>>>>> upstream/18.0
@@ -24072,6 +24155,7 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const aKeys = $ownKeys(a);
         if (aKeys.length !== $ownKeys(b).length) {
             return false;
@@ -24079,6 +24163,8 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
         for (const key of aKeys) {
             if (!_deepEqual(a[key], b[key], ignoreOrder, cache)) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24983,6 +25069,9 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25908,7 +25997,11 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 _deepEqual(a[i], bValue, ignoreOrder, comparisonCache)
+=======
+                _deepEqual(a[i], bValue, ignoreOrder, partial, comparisonCache)
+>>>>>>> upstream/18.0
 =======
                 _deepEqual(a[i], bValue, ignoreOrder, partial, comparisonCache)
 >>>>>>> upstream/18.0
@@ -27118,7 +27211,11 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!_deepEqual(a[i], b[i], ignoreOrder, cache)) {
+=======
+            if (!_deepEqual(a[i], b[i], ignoreOrder, partial, cache)) {
+>>>>>>> upstream/18.0
 =======
             if (!_deepEqual(a[i], b[i], ignoreOrder, partial, cache)) {
 >>>>>>> upstream/18.0
@@ -28325,7 +28422,11 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -29533,6 +29634,7 @@ function _deepEqual(a, b, ignoreOrder, partial, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const _formatHumanReadable = (value, length, cache) => {
 =======
 function _formatHumanReadable(value, length, cache) {
@@ -29580,6 +29682,8 @@ function _formatHumanReadable(value, length, cache) {
 function _formatHumanReadable(value, length, cache) {
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30436,6 +30540,9 @@ function _formatHumanReadable(value, length, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31396,7 +31503,11 @@ function _formatHumanReadable(value, length, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -32605,6 +32716,7 @@ function _formatHumanReadable(value, length, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const _formatTechnical = (value, depth, isObjectValue, cache) => {
 =======
 function _formatTechnical(value, depth, isObjectValue, cache) {
@@ -32652,6 +32764,8 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 function _formatTechnical(value, depth, isObjectValue, cache) {
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33508,6 +33622,9 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34128,6 +34245,7 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
     // Non-iterable objects
     const proto = !constructor.name || constructor.name === "Object" ? "" : `${constructor.name} `;
     const content = $ownKeys(value)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35154,6 +35272,8 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         .sort(stringSort)
         .map(
             (key) =>
@@ -35439,6 +35559,9 @@ function _formatTechnical(value, depth, isObjectValue, cache) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36343,6 +36466,7 @@ class QueryPartialString extends QueryString {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36521,6 +36645,10 @@ class QueryPartialString extends QueryString {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+const EMPTY_CONSTRUCTOR = { name: null };
+
 >>>>>>> upstream/18.0
 =======
 const EMPTY_CONSTRUCTOR = { name: null };
@@ -37794,6 +37922,11 @@ const MIN_HUMAN_READABLE_SIZE = 8;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const QUERY_EXCLUDE = "-";
+
+>>>>>>> upstream/18.0
 =======
 const QUERY_EXCLUDE = "-";
 
@@ -39349,6 +39482,7 @@ const R_OBJECT = /^\[object ([\w-]+)\]$/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dmp = new DiffMatchPatch();
 const { DIFF_INSERT, DIFF_DELETE } = DiffMatchPatch;
 
@@ -40077,6 +40211,8 @@ const hootKeys = [];
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 /** @type {(KeyboardEventInit & { callback: (ev: KeyboardEvent) => any })[]} */
 const hootKeys = [];
 const labelObjects = new WeakSet();
@@ -40276,6 +40412,9 @@ const syncValues = new WeakMap();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -40990,7 +41129,10 @@ const windowTarget = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41961,6 +42103,9 @@ let fuzzyScoreMap = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42870,6 +43015,7 @@ let fuzzyScoreMap = null;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @template P
  * @param {((...args: P[]) => any)[]} callbacks
  * @param {"pop" | "shift"} method
@@ -43407,6 +43553,8 @@ export function consumeCallbackList(callbacks, method, ...args) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {string} text
  */
 export async function copy(text) {
@@ -43419,6 +43567,7 @@ export async function copy(text) {
 }
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44328,6 +44477,8 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
  * @param {KeyboardEvent} ev
  */
 export function callHootKey(ev) {
@@ -44602,6 +44753,7 @@ export function callHootKey(ev) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -44660,6 +44812,8 @@ export function callHootKey(ev) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45369,6 +45523,9 @@ export function copyAndBind(object) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46141,6 +46298,9 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -46745,6 +46905,7 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
         const currentJob = runner.state.currentTest || runner.suiteStack.at(-1) || runner;
         if (!instances.has(currentJob)) {
             const parentInstance = [...instances.values()].at(-1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47665,6 +47826,8 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             instances.set(currentJob, instanceGetter(parentInstance, ...args));
 
             if (canCallAfter) {
@@ -47954,6 +48117,9 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48831,6 +48997,7 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
 
     const memoized = memoize(instanceGetter);
@@ -48840,6 +49007,8 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
     const runner = getRunner();
     let canCallAfter = true;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49754,6 +49923,9 @@ export function createJobScopedGetter(instanceGetter, afterCallback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -50666,7 +50838,11 @@ export function createReporting(parentReporting) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const add = (values) => {
+=======
+    function add(values) {
+>>>>>>> upstream/18.0
 =======
     function add(values) {
 >>>>>>> upstream/18.0
@@ -51872,6 +52048,7 @@ export function createReporting(parentReporting) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     };
 =======
     }
@@ -52585,6 +52762,8 @@ export function createReporting(parentReporting) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     }
 
     const reporting = reactive({
@@ -52779,6 +52958,9 @@ export function createReporting(parentReporting) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53207,6 +53389,7 @@ export function createMock(target, descriptors) {
 }
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -55298,6 +55481,10 @@ export function batch(fn, interval) {
  * @template {(...args: any[]) => any} T
  * @param {T} fn
 >>>>>>> upstream/18.0
+=======
+ * @template {(...args: any[]) => any} T
+ * @param {T} fn
+>>>>>>> upstream/18.0
  */
 export function batch(fn) {
     /** @type {Parameters<T>[]} */
@@ -55577,6 +55764,9 @@ export function batch(fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56357,7 +56547,10 @@ export function debounce(fn, delay) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -57060,6 +57253,9 @@ export function deepCopy(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -57829,7 +58025,11 @@ export function deepEqual(a, b, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return _deepEqual(a, b, options?.ignoreOrder, makeObjectCache());
+=======
+    return _deepEqual(a, b, !!options?.ignoreOrder, !!options?.partial, makeObjectCache());
+>>>>>>> upstream/18.0
 =======
     return _deepEqual(a, b, !!options?.ignoreOrder, !!options?.partial, makeObjectCache());
 >>>>>>> upstream/18.0
@@ -59077,8 +59277,11 @@ export function ensureArray(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return isIterable(value) ? [...value] : [value];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -60022,6 +60225,9 @@ export function ensureArray(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60915,6 +61121,7 @@ export function ensureError(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (value instanceof Error) {
         return value;
     }
@@ -60923,6 +61130,8 @@ export function ensureError(value) {
     }
     if (value instanceof PromiseRejectionEvent) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -61710,6 +61919,9 @@ export function ensureError(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62596,7 +62808,10 @@ export function generateHash(...strings) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -63408,7 +63623,11 @@ export function getConstructor(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return constructor || { name: null };
+=======
+        return constructor || EMPTY_CONSTRUCTOR;
+>>>>>>> upstream/18.0
 =======
         return constructor || EMPTY_CONSTRUCTOR;
 >>>>>>> upstream/18.0
@@ -64413,6 +64632,9 @@ export function getConstructor(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65314,11 +65536,14 @@ export function getConstructor(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string} pattern (normalized)
  * @param {string} string (normalized)
  */
 export function getFuzzyScore(pattern, string) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -66291,6 +66516,9 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -67271,8 +67499,11 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return patternIndex === pattern.length ? totalScore : 0;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -68241,6 +68472,7 @@ export function getFuzzyScore(pattern, string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -68497,6 +68729,8 @@ export function getFuzzyScore(pattern, string) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -69100,6 +69334,9 @@ export function getSyncValue(object, toStringValue) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -69503,6 +69740,7 @@ export function getTypeOf(value) {
             if (value === null) {
                 return "null";
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70289,6 +70527,8 @@ export function getTypeOf(value) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if (isInstanceOf(value, Date)) {
                 return "date";
             }
@@ -70553,6 +70793,9 @@ export function getTypeOf(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71340,11 +71583,14 @@ export function getTypeOf(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (value instanceof RegExp) {
                 return "regex";
             }
             if (value instanceof URL) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72129,6 +72375,9 @@ export function getTypeOf(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -72970,9 +73219,15 @@ export function isOfType(value, type) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return value instanceof Date;
         case "error":
             return value instanceof Error;
+=======
+            return isInstanceOf(value, Date);
+        case "error":
+            return isInstanceOf(value, Error);
+>>>>>>> upstream/18.0
 =======
             return isInstanceOf(value, Date);
         case "error":
@@ -74544,9 +74799,15 @@ export function isOfType(value, type) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return value instanceof RegExp;
         case "url":
             return value instanceof URL;
+=======
+            return isInstanceOf(value, RegExp);
+        case "url":
+            return isInstanceOf(value, URL);
+>>>>>>> upstream/18.0
 =======
             return isInstanceOf(value, RegExp);
         case "url":
@@ -76143,7 +76404,10 @@ export function isOfType(value, type) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77010,6 +77274,9 @@ export function isSafe(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -77939,7 +78206,11 @@ export function levenshtein(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {string | RegExp} pattern normalized string or RegExp
+=======
+ * @param {QueryPart[]} parsedQuery normalized string or RegExp
+>>>>>>> upstream/18.0
 =======
  * @param {QueryPart[]} parsedQuery normalized string or RegExp
 >>>>>>> upstream/18.0
@@ -79232,6 +79503,7 @@ export function levenshtein(a, b) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function lookup(pattern, items, property = "key") {
     /** @type {T[]} */
     const result = [];
@@ -79260,6 +79532,8 @@ export function lookup(pattern, items, property = "key") {
     }
     return result;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80189,8 +80463,11 @@ export function lookup(parsedQuery, items, property = "key") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             result.sort((a, b) => fuzzyScoreMap[b[property]] - fuzzyScoreMap[a[property]]);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81012,6 +81289,9 @@ export function lookup(parsedQuery, items, property = "key") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -81883,6 +82163,9 @@ export function lookup(parsedQuery, items, property = "key") {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82822,7 +83105,13 @@ export function makeRuntimeHook(name) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new HootError(`cannot call "${name}" callback outside of a suite`);
+=======
+                throw new HootError(`cannot call "${name}" callback outside of a suite`, {
+                    level: "critical",
+                });
+>>>>>>> upstream/18.0
 =======
                 throw new HootError(`cannot call "${name}" callback outside of a suite`, {
                     level: "critical",
@@ -84333,7 +84622,11 @@ export function match(value, ...matchers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (value instanceof matcher) {
+=======
+            if (isInstanceOf(value, matcher)) {
+>>>>>>> upstream/18.0
 =======
             if (isInstanceOf(value, matcher)) {
 >>>>>>> upstream/18.0
@@ -85386,7 +85679,11 @@ export function match(value, ...matchers) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (matcher instanceof RegExp) {
+=======
+        if (isInstanceOf(matcher, RegExp)) {
+>>>>>>> upstream/18.0
 =======
         if (isInstanceOf(matcher, RegExp)) {
 >>>>>>> upstream/18.0
@@ -86506,7 +86803,10 @@ export function normalize(string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         .toLowerCase()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -87501,7 +87801,10 @@ export function ordinal(number) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -88415,7 +88718,11 @@ export function parseQuery(query) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (regex instanceof RegExp) {
+=======
+    if (isInstanceOf(regex, RegExp)) {
+>>>>>>> upstream/18.0
 =======
     if (isInstanceOf(regex, RegExp)) {
 >>>>>>> upstream/18.0
@@ -89561,6 +89868,9 @@ export function parseQuery(query) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90407,7 +90717,10 @@ export async function paste() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -90995,6 +91308,9 @@ export function setSyncValue(object, value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -91713,7 +92029,10 @@ export function stringToNumber(string) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92524,6 +92843,7 @@ export function throttle(fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let canRun = true;
     return function throttled(...args) {
         if (!canRun) {
@@ -92533,6 +92853,8 @@ export function throttle(fn) {
         requestAnimationFrame(() => (canRun = true));
         return fn(...args);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -93326,6 +93648,9 @@ export function throttle(fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94123,6 +94448,9 @@ export function throttle(fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94984,6 +95312,7 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     let displayed = new Set();
     useEffect(() => {
         if (!ref.el) {
@@ -94992,6 +95321,8 @@ export function useAutofocus(ref) {
         const nextDisplayed = new Set();
         for (const element of ref.el.querySelectorAll("[autofocus]")) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -95850,6 +96181,9 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -96714,8 +97048,11 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -97572,6 +97909,7 @@ export function useAutofocus(ref) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -97620,6 +97958,8 @@ export function useAutofocus(ref) {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98435,6 +98775,9 @@ export function useHootKey(keyStroke, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99224,7 +99567,10 @@ export function useWindowListener(type, callback, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -100022,6 +100368,9 @@ export function waitForDocument(doc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -100554,6 +100903,7 @@ export class Callbacks {
      * @param {boolean} [once]
      */
     add(type, callback, once) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101719,6 +102069,9 @@ export class Callbacks {
 =======
         if (isPromise(callback)) {
 >>>>>>> upstream/18.0
+=======
+        if (isPromise(callback)) {
+>>>>>>> upstream/18.0
             const promiseValue = callback;
             callback = function waitForPromise() {
                 return Promise.resolve(promiseValue).then(resolve);
@@ -101983,6 +102336,9 @@ export class Callbacks {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -102920,7 +103276,10 @@ export class HootError extends Error {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103672,6 +104031,9 @@ export class HootError extends Error {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104190,6 +104552,7 @@ export class Markup {
      * @param {unknown} actual
      */
     static diff(expected, actual) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105222,6 +105585,8 @@ export class Markup {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!window.DiffMatchPatch) {
             return null;
         }
@@ -105493,6 +105858,9 @@ export class Markup {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106457,6 +106825,7 @@ export const CASE_EVENT_TYPES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 export const DEFAULT_EVENT_TYPES = CASE_EVENT_TYPES.assertion.value | CASE_EVENT_TYPES.error.value;
 <<<<<<< HEAD
@@ -106608,6 +106977,8 @@ export const EXACT_MARKER = `"`;
 export const EXACT_MARKER = `"`;
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -107468,6 +107839,9 @@ export const EXACT_MARKER = `"`;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -108266,6 +108640,7 @@ export const MIME_TYPE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     formData: "multipart/form-data",
 >>>>>>> upstream/18.0
@@ -108570,6 +108945,8 @@ export const MIME_TYPE = {
     json: "application/json",
     text: "text/plain",
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -108936,6 +109313,9 @@ export const MIME_TYPE = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -109186,6 +109566,7 @@ export const STORAGE = {
 };
 
 export const S_ANY = Symbol("any value");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109687,6 +110068,10 @@ export const S_NONE = Symbol("no value");
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+export const S_CIRCULAR = Symbol("circular object");
+export const S_NONE = Symbol("no value");
 >>>>>>> upstream/18.0
 =======
 export const S_CIRCULAR = Symbol("circular object");
@@ -110942,6 +111327,9 @@ export const R_QUERY_EXACT = new RegExp(
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

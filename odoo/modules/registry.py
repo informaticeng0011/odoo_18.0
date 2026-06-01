@@ -353,6 +353,11 @@ _CACHES_BY_KEY = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_REPLICA_RETRY_TIME = 20 * 60  # 20 minutes
+
+>>>>>>> upstream/18.0
 =======
 _REPLICA_RETRY_TIME = 20 * 60  # 20 minutes
 
@@ -1867,6 +1872,10 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._database_company_dependent_fields = ()  # names of company dependent fields in database
+>>>>>>> upstream/18.0
 =======
         self._database_company_dependent_fields = ()  # names of company dependent fields in database
 >>>>>>> upstream/18.0
@@ -2959,6 +2968,10 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._db_readonly_failed_time = None
+>>>>>>> upstream/18.0
 =======
         self._db_readonly_failed_time = None
 >>>>>>> upstream/18.0
@@ -4949,6 +4962,7 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             try:
                 return self._db_readonly.cursor()
             except psycopg2.OperationalError:
@@ -4957,6 +4971,8 @@ class Registry(Mapping):
                 self._db_readonly = None
                 _logger.warning('Failed to open a readonly cursor, falling back to read-write cursor')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5839,6 +5855,9 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

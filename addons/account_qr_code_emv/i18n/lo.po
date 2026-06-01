@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* account_qr_code_emv
 #
+=======
+# * account_qr_code_emv
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * account_qr_code_emv
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-29 07:24+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -32,6 +41,9 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: account_qr_code_emv
@@ -39,7 +51,11 @@ msgstr ""
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "A bank account is required for EMV QR Code generation."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳເປັນຕ້ອງມີບັນຊີທະນາຄານ ເພື່ອສ້າງລະຫັດ QR Code ແບບ EMV."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳເປັນຕ້ອງມີບັນຊີທະນາຄານ ເພື່ອສ້າງລະຫັດ QR Code ແບບ EMV."
 >>>>>>> upstream/18.0
@@ -48,7 +64,11 @@ msgstr "ຈຳເປັນຕ້ອງມີບັນຊີທະນາຄານ
 #: model:ir.model,name:account_qr_code_emv.model_res_partner_bank
 msgid "Bank Accounts"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບັນຊີທະນາຄານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບັນຊີທະນາຄານ"
 >>>>>>> upstream/18.0
@@ -58,7 +78,11 @@ msgstr "ບັນຊີທະນາຄານ"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__display_qr_setting
 msgid "Display Qr Setting"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສະແດງການຕັ້ງຄ່າ QR"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສະແດງການຕັ້ງຄ່າ QR"
 >>>>>>> upstream/18.0
@@ -68,7 +92,11 @@ msgstr "ສະແດງການຕັ້ງຄ່າ QR"
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "EMV Merchant-Presented QR-code"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດ QR ແບບ EMV ທີ່ຜູ້ຂາຍສະແດງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດ QR ແບບ EMV ທີ່ຜູ້ຂາຍສະແດງ"
 >>>>>>> upstream/18.0
@@ -77,7 +105,11 @@ msgstr "ລະຫັດ QR ແບບ EMV ທີ່ຜູ້ຂາຍສະແດ
 #: model_terms:ir.ui.view,arch_db:account_qr_code_emv.view_partner_bank_form_inherit_account
 msgid "EMV QR Configuration"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ EMV QR"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕັ້ງຄ່າ EMV QR"
 >>>>>>> upstream/18.0
@@ -87,7 +119,11 @@ msgstr "ການຕັ້ງຄ່າ EMV QR"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__include_reference
 msgid "Include Reference"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມເອົາຂໍ້ມູນອ້າງອີງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລວມເອົາຂໍ້ມູນອ້າງອີງ"
 >>>>>>> upstream/18.0
@@ -97,7 +133,11 @@ msgstr "ລວມເອົາຂໍ້ມູນອ້າງອີງ"
 #: model:ir.model.fields,help:account_qr_code_emv.field_res_partner_bank__include_reference
 msgid "Include the reference in the QR code."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລວມເອົາຂໍ້ມູນອ້າງອີງໄວ້ໃນລະຫັດ QR."
+>>>>>>> upstream/18.0
 =======
 msgstr "ລວມເອົາຂໍ້ມູນອ້າງອີງໄວ້ໃນລະຫັດ QR."
 >>>>>>> upstream/18.0
@@ -107,7 +147,11 @@ msgstr "ລວມເອົາຂໍ້ມູນອ້າງອີງໄວ້ໃ
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant Account Information."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາດຂໍ້ມູນບັນຊີຜູ້ຂາຍ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາດຂໍ້ມູນບັນຊີຜູ້ຂາຍ."
 >>>>>>> upstream/18.0
@@ -117,7 +161,11 @@ msgstr "ຂາດຂໍ້ມູນບັນຊີຜູ້ຂາຍ."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Merchant City."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາດຂໍ້ມູນເມືອງຂອງຜູ້ຂາຍ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາດຂໍ້ມູນເມືອງຂອງຜູ້ຂາຍ."
 >>>>>>> upstream/18.0
@@ -127,7 +175,11 @@ msgstr "ຂາດຂໍ້ມູນເມືອງຂອງຜູ້ຂາຍ."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Type."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາດປະເພດ Proxy."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາດປະເພດ Proxy."
 >>>>>>> upstream/18.0
@@ -137,7 +189,11 @@ msgstr "ຂາດປະເພດ Proxy."
 #: code:addons/account_qr_code_emv/models/res_bank.py:0
 msgid "Missing Proxy Value."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂາດຄ່າ Proxy."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂາດຄ່າ Proxy."
 >>>>>>> upstream/18.0
@@ -149,7 +205,11 @@ msgid ""
 "No EMV QR Code is available for the country of the account "
 "%(account_number)s."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີລະຫັດ EMV QR Code ສຳລັບປະເທດຂອງບັນຊີ %(account_number)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ມີລະຫັດ EMV QR Code ສຳລັບປະເທດຂອງບັນຊີ %(account_number)s."
 >>>>>>> upstream/18.0
@@ -158,7 +218,11 @@ msgstr "ບໍ່ມີລະຫັດ EMV QR Code ສຳລັບປະເທ�
 #: model:ir.model.fields.selection,name:account_qr_code_emv.selection__res_partner_bank__proxy_type__none
 msgid "None"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ບໍ່ມີ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ບໍ່ມີ"
 >>>>>>> upstream/18.0
@@ -168,7 +232,11 @@ msgstr "ບໍ່ມີ"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__proxy_type
 msgid "Proxy Type"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ປະເພດ Proxy"
+>>>>>>> upstream/18.0
 =======
 msgstr "ປະເພດ Proxy"
 >>>>>>> upstream/18.0
@@ -178,7 +246,11 @@ msgstr "ປະເພດ Proxy"
 #: model:ir.model.fields,field_description:account_qr_code_emv.field_res_partner_bank__proxy_value
 msgid "Proxy Value"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄ່າ Proxy"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄ່າ Proxy"
 >>>>>>> upstream/18.0

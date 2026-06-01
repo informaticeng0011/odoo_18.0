@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_password_policy
 #
+=======
+# * auth_password_policy
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * auth_password_policy
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-30 08:12+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -32,13 +41,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕັ້ງຄ່າ"
 >>>>>>> upstream/18.0
@@ -47,7 +63,11 @@ msgstr "ການຕັ້ງຄ່າ"
 #: model:ir.model.fields,field_description:auth_password_policy.field_res_config_settings__minlength
 msgid "Minimum Password Length"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄວາມຍາວລະຫັດຜ່ານຂັ້ນຕ່ຳ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄວາມຍາວລະຫັດຜ່ານຂັ້ນຕ່ຳ"
 >>>>>>> upstream/18.0
@@ -57,7 +77,11 @@ msgstr "ຄວາມຍາວລະຫັດຜ່ານຂັ້ນຕ່ຳ"
 msgid ""
 "Minimum number of characters passwords must contain, set to 0 to disable."
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຈຳນວນຕົວອັກສອນຂັ້ນຕ່ຳທີ່ລະຫັດຜ່ານຕ້ອງມີ, ຕັ້ງເປັນ 0 ເພື່ອປິດການໃຊ້ງານ."
+>>>>>>> upstream/18.0
 =======
 msgstr "ຈຳນວນຕົວອັກສອນຂັ້ນຕ່ຳທີ່ລະຫັດຜ່ານຕ້ອງມີ, ຕັ້ງເປັນ 0 ເພື່ອປິດການໃຊ້ງານ."
 >>>>>>> upstream/18.0
@@ -67,7 +91,11 @@ msgstr "ຈຳນວນຕົວອັກສອນຂັ້ນຕ່ຳທີ່
 #: code:addons/auth_password_policy/static/src/password_field.js:0
 msgid "Password"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ລະຫັດຜ່ານ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ລະຫັດຜ່ານ"
 >>>>>>> upstream/18.0
@@ -81,18 +109,28 @@ msgid ""
 "Hint: to increase password strength, increase length, use multiple words, and use non-letter characters."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 "ຕ້ອງການ: %s\n"
 "\n"
 "ຄຳແນະນຳ: ເພື່ອເພີ່ມຄວາມປອດໄພຂອງລະຫັດຜ່ານ, ໃຫ້ເພີ່ມຄວາມຍາວ, ໃຊ້ຫຼາຍຄຳສັບ, ແລະ ໃຊ້ຕົວອັກສອນພິເສ"
 "ດ."
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_users
 msgid "User"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ໃຊ້"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ໃຊ້"
 >>>>>>> upstream/18.0
@@ -105,6 +143,11 @@ msgid ""
 "has %(current_count)d."
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ລະຫັດຜ່ານຂອງທ່ານຕ້ອງມີຢ່າງໜ້ອຍ %(minimal_length)d ຕົວອັກສອນ ແຕ່ປະຈຸບັນມີພຽງ %"
+"(current_count)d."
+>>>>>>> upstream/18.0
 =======
 "ລະຫັດຜ່ານຂອງທ່ານຕ້ອງມີຢ່າງໜ້ອຍ %(minimal_length)d ຕົວອັກສອນ ແຕ່ປະຈຸບັນມີພຽງ %"
 "(current_count)d."
@@ -115,7 +158,11 @@ msgstr ""
 #: code:addons/auth_password_policy/static/src/password_policy.js:0
 msgid "at least %s character classes"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢ່າງໜ້ອຍ %s ປະເພດຕົວອັກສອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຢ່າງໜ້ອຍ %s ປະເພດຕົວອັກສອນ"
 >>>>>>> upstream/18.0
@@ -125,7 +172,11 @@ msgstr "ຢ່າງໜ້ອຍ %s ປະເພດຕົວອັກສອນ"
 #: code:addons/auth_password_policy/static/src/password_policy.js:0
 msgid "at least %s characters"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢ່າງໜ້ອຍ %s ຕົວອັກສອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຢ່າງໜ້ອຍ %s ຕົວອັກສອນ"
 >>>>>>> upstream/18.0
@@ -135,7 +186,11 @@ msgstr "ຢ່າງໜ້ອຍ %s ຕົວອັກສອນ"
 #: code:addons/auth_password_policy/static/src/password_policy.js:0
 msgid "at least %s words"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຢ່າງໜ້ອຍ %s ຄຳສັບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຢ່າງໜ້ອຍ %s ຄຳສັບ"
 >>>>>>> upstream/18.0

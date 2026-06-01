@@ -233,6 +233,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    status,
+>>>>>>> upstream/18.0
 =======
     status,
 >>>>>>> upstream/18.0
@@ -1249,7 +1253,13 @@ export class ListRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+            if (status(this) === "destroyed") {
+                return;
+            }
+>>>>>>> upstream/18.0
 =======
             if (status(this) === "destroyed") {
                 return;
@@ -3226,7 +3236,12 @@ export class ListRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return record.data[fieldName];
+=======
+            const value = record.data[fieldName];
+            return value === false ? "" : value;
+>>>>>>> upstream/18.0
 =======
             const value = record.data[fieldName];
             return value === false ? "" : value;
@@ -4666,11 +4681,14 @@ export class ListRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {
             offset: list.offset,
             limit: list.limit,
             total: list.count,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4803,6 +4821,9 @@ export class ListRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5257,7 +5278,12 @@ export class ListRenderer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+        // re-enable the button after a while (this is a manual debounce, but record by record)
+        setTimeout(() => delete element.dataset.clicked, 500);
+>>>>>>> upstream/18.0
 =======
         // re-enable the button after a while (this is a manual debounce, but record by record)
         setTimeout(() => delete element.dataset.clicked, 500);

@@ -1,8 +1,14 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* cloud_storage_google
 #
+=======
+# * cloud_storage_google
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * cloud_storage_google
 #
@@ -14,6 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -22,6 +29,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 "PO-Revision-Date: 2026-05-30 08:12+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.odoo.com/projects/odoo-18/"
@@ -32,13 +41,20 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.17\n"
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 #. module: cloud_storage_google
 #: model:ir.model,name:cloud_storage_google.model_ir_attachment
 msgid "Attachment"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສິ່ງຄັດຕິດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສິ່ງຄັດຕິດ"
 >>>>>>> upstream/18.0
@@ -47,7 +63,11 @@ msgstr "ສິ່ງຄັດຕິດ"
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_provider
 msgid "Cloud Storage Provider for new attachments"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຜູ້ບໍລິການຈັດເກັບຂໍ້ມູນຄລາວສຳລັບສິ່ງຄັດຕິດໃໝ່"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຜູ້ບໍລິການຈັດເກັບຂໍ້ມູນຄລາວສຳລັບສິ່ງຄັດຕິດໃໝ່"
 >>>>>>> upstream/18.0
@@ -56,7 +76,11 @@ msgstr "ຜູ້ບໍລິການຈັດເກັບຂໍ້ມູນຄ
 #: model:ir.model,name:cloud_storage_google.model_res_config_settings
 msgid "Config Settings"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຕັ້ງຄ່າລະບົບ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຕັ້ງຄ່າລະບົບ"
 >>>>>>> upstream/18.0
@@ -65,7 +89,11 @@ msgstr "ການຕັ້ງຄ່າລະບົບ"
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_google_bucket_name
 msgid "Google Bucket Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຊື່ Google Bucket"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຊື່ Google Bucket"
 >>>>>>> upstream/18.0
@@ -74,7 +102,11 @@ msgstr "ຊື່ Google Bucket"
 #: model:ir.model.fields.selection,name:cloud_storage_google.selection__res_config_settings__cloud_storage_provider__google
 msgid "Google Cloud Storage"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການຈັດເກັບຂໍ້ມູນຄລາວ Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການຈັດເກັບຂໍ້ມູນຄລາວ Google"
 >>>>>>> upstream/18.0
@@ -83,7 +115,11 @@ msgstr "ການຈັດເກັບຂໍ້ມູນຄລາວ Google"
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_google_account_info
 msgid "Google Service Account Info"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຂໍ້ມູນບັນຊີບໍລິການ Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຂໍ້ມູນບັນຊີບໍລິການ Google"
 >>>>>>> upstream/18.0
@@ -92,7 +128,11 @@ msgstr "ຂໍ້ມູນບັນຊີບໍລິການ Google"
 #: model:ir.model.fields,field_description:cloud_storage_google.field_res_config_settings__cloud_storage_google_service_account_key
 msgid "Google Service Account Key"
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຄີບັນຊີບໍລິການ Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຄີບັນຊີບໍລິການ Google"
 >>>>>>> upstream/18.0
@@ -105,6 +145,10 @@ msgid ""
 "disable the provider"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ມີບາງສິ່ງຄັດຕິດ Google ທີ່ກຳລັງໃຊ້ງານຢູ່, ກະລຸນາຍ້າຍຂໍ້ມູນການຈັດເກັບຄລາວກ່ອນຈະປິດຕົວຜູ້ບໍລິການ"
+>>>>>>> upstream/18.0
 =======
 "ມີບາງສິ່ງຄັດຕິດ Google ທີ່ກຳລັງໃຊ້ງານຢູ່, ກະລຸນາຍ້າຍຂໍ້ມູນການຈັດເກັບຄລາວກ່ອນຈະປິດຕົວຜູ້ບໍລິການ"
 >>>>>>> upstream/18.0
@@ -117,6 +161,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຂໍ້ມູນບັນຊີນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ດາວໂຫລດ blobs ຈາກບັກເກັດ.\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "ຂໍ້ມູນບັນຊີນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ດາວໂຫລດ blobs ຈາກບັກເກັດ.\n"
 "%s"
@@ -130,6 +179,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຂໍ້ມູນບັນຊີນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຕັ້ງຄ່າ CORS ຂອງບັກເກັດ.\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "ຂໍ້ມູນບັນຊີນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ຕັ້ງຄ່າ CORS ຂອງບັກເກັດ.\n"
 "%s"
@@ -143,6 +197,11 @@ msgid ""
 "%s"
 msgstr ""
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"ຂໍ້ມູນບັນຊີນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ອັບໂຫລດ blobs ໄປຍັງບັກເກັດ.\n"
+"%s"
+>>>>>>> upstream/18.0
 =======
 "ຂໍ້ມູນບັນຊີນີ້ບໍ່ໄດ້ຮັບອະນຸຍາດໃຫ້ອັບໂຫລດ blobs ໄປຍັງບັກເກັດ.\n"
 "%s"
