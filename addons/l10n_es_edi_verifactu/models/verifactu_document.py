@@ -474,8 +474,11 @@ class L10nEsEdiVerifactuDocument(models.Model):
                 try:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     document_vals['chain_index'] = chain_sequence.next_by_id()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                     document_vals['chain_index'] = int(chain_sequence.next_by_id())
@@ -483,6 +486,9 @@ class L10nEsEdiVerifactuDocument(models.Model):
                     errors = [_("The Veri*Factu chain sequence must not have a prefix or suffix. Please remove it from the sequence configuration.")]
                     document_vals['errors'] = self._format_errors(error_title, errors)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -697,7 +703,11 @@ class L10nEsEdiVerifactuDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tipo_factura = 'F2' if vals['is_simplified'] else 'F1'
+=======
+            tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
+>>>>>>> upstream/18.0
 =======
             tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
 >>>>>>> upstream/18.0

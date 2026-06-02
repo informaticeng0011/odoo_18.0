@@ -963,7 +963,10 @@ describe("board_desktop", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Partner._views["pivot,false"] = `<pivot/>`;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1927,7 +1930,11 @@ describe("board_mobile", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         expect(".o-dashboard-action .o_control_panel").not.toBeVisible();
+=======
+        expect(".o-dashboard-action .o_control_panel").not.toHaveCount();
+>>>>>>> upstream/18.0
 =======
         expect(".o-dashboard-action .o_control_panel").not.toHaveCount();
 >>>>>>> upstream/18.0

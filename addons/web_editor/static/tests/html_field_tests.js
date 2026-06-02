@@ -212,6 +212,10 @@ import { makeView, setupViewRegistries } from "@web/../tests/views/helpers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { contains } from "@web/../tests/utils";
+>>>>>>> upstream/18.0
 =======
 import { contains } from "@web/../tests/utils";
 >>>>>>> upstream/18.0
@@ -1930,6 +1934,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -2849,6 +2857,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -3768,6 +3780,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        editor.historyStep();
+>>>>>>> upstream/18.0
 =======
         editor.historyStep();
 >>>>>>> upstream/18.0
@@ -4684,7 +4700,11 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         assert.expect(6);
+=======
+        assert.expect(7);
+>>>>>>> upstream/18.0
 =======
         assert.expect(7);
 >>>>>>> upstream/18.0
@@ -5526,7 +5546,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6158,6 +6181,9 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6794,6 +6820,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        await wysiwygPromise;
+>>>>>>> upstream/18.0
 =======
         await wysiwygPromise;
 >>>>>>> upstream/18.0
@@ -7467,6 +7497,10 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        setSelection(a, 0, a, 0); // Selection must be in the link otherwise the popover will close.
+>>>>>>> upstream/18.0
 =======
         setSelection(a, 0, a, 0); // Selection must be in the link otherwise the popover will close.
 >>>>>>> upstream/18.0
@@ -7801,6 +7835,11 @@ QUnit.module("WebEditor.HtmlField", ({ beforeEach }) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Make sure modal is open
+        await contains(".modal input#o_link_dialog_label_input");
+>>>>>>> upstream/18.0
 =======
         // Make sure modal is open
         await contains(".modal input#o_link_dialog_label_input");

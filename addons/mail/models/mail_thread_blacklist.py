@@ -175,7 +175,11 @@ class MailBlackListMixin(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         blacklist = set(self.env['mail.blacklist'].sudo().search([
+=======
+        blacklist = set(self.env['mail.blacklist'].sudo().with_context(active_test=True).search([
+>>>>>>> upstream/18.0
 =======
         blacklist = set(self.env['mail.blacklist'].sudo().with_context(active_test=True).search([
 >>>>>>> upstream/18.0

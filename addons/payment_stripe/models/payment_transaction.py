@@ -338,7 +338,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1233,6 +1236,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2159,8 +2165,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount': payment_utils.to_minor_currency_units(self.amount, self.currency_id),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2865,6 +2874,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3629,7 +3641,13 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 mandate_values.get('amount', 15000), self.currency_id
+=======
+                mandate_values.get('amount', 15000),
+                self.currency_id,
+                arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(self.currency_id.name),
+>>>>>>> upstream/18.0
 =======
                 mandate_values.get('amount', 15000),
                 self.currency_id,
@@ -5078,6 +5096,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(refund_tx.currency_id.name)
+>>>>>>> upstream/18.0
 =======
                     arbitrary_decimal_number=const.CURRENCY_DECIMALS.get(refund_tx.currency_id.name)
 >>>>>>> upstream/18.0

@@ -273,7 +273,11 @@
                                     </a>
                                 </div>
                                 <div class="col-auto text-end">
+<<<<<<< HEAD
                                     <span><t t-out="dashboard.outstanding_pay_account_balance"/></span>
+=======
+                                    <span dir="ltr"><t t-out="dashboard.outstanding_pay_account_balance"/></span>
+>>>>>>> upstream/18.0
                                 </div>
                             </div>
                             <div class="row" t-if="dashboard.nb_misc_operations > 0" groups="account.group_account_readonly">

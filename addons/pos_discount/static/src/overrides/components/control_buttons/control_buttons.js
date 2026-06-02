@@ -9,6 +9,10 @@ import { _t } from "@web/core/l10n/translation";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { accountTaxHelpers } from "@account/helpers/account_tax";
+>>>>>>> upstream/18.0
 =======
 import { accountTaxHelpers } from "@account/helpers/account_tax";
 >>>>>>> upstream/18.0
@@ -100,9 +104,15 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const taxes = tax_ids_array
                 .map((taxId) => this.pos.models["account.tax"].get(taxId))
                 .filter(Boolean);
+=======
+            const taxesForDiscountLine = tax_ids_array
+                .map((taxId) => this.pos.models["account.tax"].get(taxId))
+                .filter((tax) => tax && accountTaxHelpers.can_be_discounted(tax));
+>>>>>>> upstream/18.0
 =======
             const taxesForDiscountLine = tax_ids_array
                 .map((taxId) => this.pos.models["account.tax"].get(taxId))
@@ -168,8 +178,11 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     { product_id: product, price_unit: discount, tax_ids: [["link", ...taxes]] },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -202,6 +215,9 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

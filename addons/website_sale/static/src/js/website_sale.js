@@ -209,6 +209,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { redirect } from '@web/core/utils/urls';
+>>>>>>> upstream/18.0
 =======
 import { redirect } from '@web/core/utils/urls';
 >>>>>>> upstream/18.0
@@ -1275,7 +1279,11 @@ export const WebsiteSale = publicWidget.Widget.extend(VariantMixin, cartHandlerM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 return window.location = '/shop/cart';
+=======
+                return redirect('/shop/cart');
+>>>>>>> upstream/18.0
 =======
                 return redirect('/shop/cart');
 >>>>>>> upstream/18.0
@@ -2456,7 +2464,11 @@ export const WebsiteSale = publicWidget.Widget.extend(VariantMixin, cartHandlerM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             window.location = oldurl + '&' + search.attr('name') + '=' + encodeURIComponent(search.val());
+=======
+            redirect(oldurl + '&' + search.attr('name') + '=' + encodeURIComponent(search.val()));
+>>>>>>> upstream/18.0
 =======
             redirect(oldurl + '&' + search.attr('name') + '=' + encodeURIComponent(search.val()));
 >>>>>>> upstream/18.0
@@ -3623,6 +3635,12 @@ publicWidget.registry.websiteSaleProductPageReviews = publicWidget.Widget.extend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const reviewsContent = this.el.querySelector("#o_product_page_reviews_content");
+        const reviewsTitle = this.el.querySelector(".o_product_page_reviews_title");
+        reviewsTitle.classList.toggle("collapsed", !reviewsContent.classList.contains("show"));
+>>>>>>> upstream/18.0
 =======
         const reviewsContent = this.el.querySelector("#o_product_page_reviews_content");
         const reviewsTitle = this.el.querySelector(".o_product_page_reviews_title");

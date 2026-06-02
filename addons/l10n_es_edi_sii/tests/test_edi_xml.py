@@ -315,7 +315,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from .common import TestEsEdiCommon
+=======
+from .common import TestEsEdiCommon, mocked_l10n_es_edi_call_web_service_sign
+>>>>>>> upstream/18.0
 =======
 from .common import TestEsEdiCommon, mocked_l10n_es_edi_call_web_service_sign
 >>>>>>> upstream/18.0
@@ -1601,6 +1605,7 @@ from unittest.mock import patch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo import Command
 >>>>>>> upstream/18.0
@@ -2284,6 +2289,8 @@ def mocked_l10n_es_edi_call_web_service_sign(edi_format, invoices, info_list):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from odoo import Command
 from odoo.tests import tagged
 
@@ -2603,6 +2610,9 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3713,12 +3723,15 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'tax_ids': [(6, 0, (self._get_tax_by_xml_id('s_iva10b') + self._get_tax_by_xml_id('s_req014')).ids)],
                     },
                     {
                         'price_unit': 200.0,
                         'tax_ids': [(6, 0, (self._get_tax_by_xml_id('s_iva21s') + self._get_tax_by_xml_id('s_req52')).ids)],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4718,6 +4731,9 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5758,9 +5774,15 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                     'BaseImponible': 100.0,
                                                     'CuotaRepercutida': 10.0,
                                                     'CuotaRecargoEquivalencia': 1.4,
+=======
+                                                    'BaseImponible': 150.0,
+                                                    'CuotaRepercutida': 15.0,
+                                                    'CuotaRecargoEquivalencia': 2.1,
+>>>>>>> upstream/18.0
 =======
                                                     'BaseImponible': 150.0,
                                                     'CuotaRepercutida': 15.0,
@@ -7756,7 +7778,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'ImporteTotal': 363.8,
+=======
+                    'ImporteTotal': 419.5,
+>>>>>>> upstream/18.0
 =======
                     'ImporteTotal': 419.5,
 >>>>>>> upstream/18.0
@@ -9095,7 +9121,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_050_out_invoice_s_iva0_sp_i_s_iva0_ic(self):
+=======
+    def test_050_out_invoice_s_iva0_sp_i_s_iva0_g_i(self):
+>>>>>>> upstream/18.0
 =======
     def test_050_out_invoice_s_iva0_sp_i_s_iva0_g_i(self):
 >>>>>>> upstream/18.0
@@ -10152,7 +10182,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_ic').ids)]},
+=======
+                    {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
+>>>>>>> upstream/18.0
 =======
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
 >>>>>>> upstream/18.0
@@ -11249,7 +11283,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_060_out_refund_s_iva0_sp_i_s_iva0_ic(self):
+=======
+    def test_060_out_refund_s_iva0_sp_i_s_iva0_g_i(self):
+>>>>>>> upstream/18.0
 =======
     def test_060_out_refund_s_iva0_sp_i_s_iva0_g_i(self):
 >>>>>>> upstream/18.0
@@ -12307,7 +12345,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_ic').ids)]},
+=======
+                    {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
+>>>>>>> upstream/18.0
 =======
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
 >>>>>>> upstream/18.0
@@ -13405,7 +13447,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_070_out_invoice_s_iva_e_s_iva0_e(self):
+=======
+    def test_070_out_invoice_s_iva_e_s_iva0_g_e(self):
+>>>>>>> upstream/18.0
 =======
     def test_070_out_invoice_s_iva_e_s_iva0_g_e(self):
 >>>>>>> upstream/18.0
@@ -14462,7 +14508,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_e').ids)]},
+=======
+                    {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_e').ids)]},
+>>>>>>> upstream/18.0
 =======
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_e').ids)]},
 >>>>>>> upstream/18.0
@@ -15559,7 +15609,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_080_out_refund_s_iva0_sp_i_s_iva0_ic(self):
+=======
+    def test_080_out_refund_s_iva0_sp_i_s_iva0_g_i(self):
+>>>>>>> upstream/18.0
 =======
     def test_080_out_refund_s_iva0_sp_i_s_iva0_g_i(self):
 >>>>>>> upstream/18.0
@@ -16617,7 +16671,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_ic').ids)]},
+=======
+                    {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
+>>>>>>> upstream/18.0
 =======
                     {'price_unit': 200.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
 >>>>>>> upstream/18.0
@@ -17715,7 +17773,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def test_085_out_refund_s_iva0_sp_i_s_iva0_ic_multi_currency(self):
+=======
+    def test_085_out_refund_s_iva0_sp_i_s_iva0_g_i_multi_currency(self):
+>>>>>>> upstream/18.0
 =======
     def test_085_out_refund_s_iva0_sp_i_s_iva0_g_i_multi_currency(self):
 >>>>>>> upstream/18.0
@@ -18774,7 +18836,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     {'price_unit': 400.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_ic').ids)]},
+=======
+                    {'price_unit': 400.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
+>>>>>>> upstream/18.0
 =======
                     {'price_unit': 400.0, 'tax_ids': [(6, 0, self._get_tax_by_xml_id('s_iva0_g_i').ids)]},
 >>>>>>> upstream/18.0
@@ -20325,7 +20391,11 @@ class TestEdiXmls(TestEsEdiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'CuotaDeducible': 0.0
+=======
+                    'CuotaDeducible': 24.0
+>>>>>>> upstream/18.0
 =======
                     'CuotaDeducible': 24.0
 >>>>>>> upstream/18.0

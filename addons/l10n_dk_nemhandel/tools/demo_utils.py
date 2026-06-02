@@ -7,8 +7,11 @@ from odoo.exceptions import ValidationError
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 DEMO_PRIVATE_KEY = 'l10n_dk_nemhandel/tools/private_key.pem'
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -81,8 +84,11 @@ def _mock_call_nemhandel_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return {message_uuid: {'state': 'done'}}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -223,6 +229,9 @@ def _mock_call_nemhandel_proxy(func, self, *args, **kwargs):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

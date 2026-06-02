@@ -74,7 +74,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not record.reversal_date or record.reversal_date <= record.date:
+=======
+            if record.date and (not record.reversal_date or record.reversal_date <= record.date):
+>>>>>>> upstream/18.0
 =======
             if record.date and (not record.reversal_date or record.reversal_date <= record.date):
 >>>>>>> upstream/18.0
@@ -207,6 +211,7 @@ class AccruedExpenseRevenue(models.TransientModel):
                 lines = o.order_line.filtered(
                     # We only want lines that are not sections or notes and include all lines
                     # for purchase orders but exclude downpayment lines for sales orders.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1480,6 +1485,9 @@ class AccruedExpenseRevenue(models.TransientModel):
 =======
                     lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
 >>>>>>> upstream/18.0
+=======
+                    lambda l: l.display_type not in ['line_section', 'line_note'] and not l.is_downpayment and
+>>>>>>> upstream/18.0
                     fields.Float.compare(
                         l.qty_to_invoice,
                         0,
@@ -1735,7 +1743,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 order_line.price_unit,
+=======
+                                order_line.price_unit_discounted,
+>>>>>>> upstream/18.0
 =======
                                 order_line.price_unit_discounted,
 >>>>>>> upstream/18.0
@@ -2713,7 +2725,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             price_subtotal = order_line.qty_to_invoice * order_line.price_unit
+=======
+                            price_subtotal = order_line.qty_to_invoice * order_line.price_unit_discounted
+>>>>>>> upstream/18.0
 =======
                             price_subtotal = order_line.qty_to_invoice * order_line.price_unit_discounted
 >>>>>>> upstream/18.0
@@ -3695,7 +3711,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             unit_price=formatLang(self.env, order_line.price_unit, currency_obj=order.currency_id),
+=======
+                            unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
+>>>>>>> upstream/18.0
 =======
                             unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
 >>>>>>> upstream/18.0
@@ -4680,7 +4700,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             unit_price=formatLang(self.env, order_line.price_unit, currency_obj=order.currency_id),
+=======
+                            unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
+>>>>>>> upstream/18.0
 =======
                             unit_price=formatLang(self.env, amount_currency / order_line.qty_to_invoice, currency_obj=order.currency_id),
 >>>>>>> upstream/18.0
@@ -5657,7 +5681,10 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6310,6 +6337,9 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6754,6 +6784,7 @@ class AccruedExpenseRevenue(models.TransientModel):
         }])
         reverse_move._post()
         for order in orders_with_entries:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7622,6 +7653,9 @@ class AccruedExpenseRevenue(models.TransientModel):
 =======
             order.message_post(body=self._get_accrual_message_body(move, reverse_move))
 >>>>>>> upstream/18.0
+=======
+            order.message_post(body=self._get_accrual_message_body(move, reverse_move))
+>>>>>>> upstream/18.0
         return {
             'name': _('Accrual Moves'),
             'type': 'ir.actions.act_window',
@@ -7842,7 +7876,11 @@ class AccruedExpenseRevenue(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'domain': [('id', 'in', (move.id, reverse_move.id))],
+=======
+            'domain': [('id', 'in', (move | reverse_move).ids)],
+>>>>>>> upstream/18.0
 =======
             'domain': [('id', 'in', (move | reverse_move).ids)],
 >>>>>>> upstream/18.0

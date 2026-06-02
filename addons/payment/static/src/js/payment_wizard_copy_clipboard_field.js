@@ -19,7 +19,10 @@ class PaymentWizardCopyClipboardButtonField extends CopyClipboardButtonField {
     static components = { CopyButton: PaymentWizardCopyButton };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -27,6 +30,9 @@ class PaymentWizardCopyClipboardButtonField extends CopyClipboardButtonField {
         return `${super.copyButtonClassName} w-100`;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -221,7 +227,10 @@ const paymentWizardCopyClipboardButtonField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -781,6 +790,9 @@ const paymentWizardCopyClipboardButtonField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

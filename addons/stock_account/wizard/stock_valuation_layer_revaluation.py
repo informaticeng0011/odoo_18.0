@@ -360,6 +360,7 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             previous_cost = lot_id.standard_price if lot_id else product_id.standard_price
             total_product_qty = sum(layers_with_qty.mapped('remaining_qty'))
             if lot_id:
@@ -370,6 +371,8 @@ class StockValuationLayerRevaluation(models.TransientModel):
                     " lot/serial number cost updated from %(previous)s to %(new_cost)s.",
                     previous=previous_cost,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1096,6 +1099,9 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1840,7 +1846,11 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         remaining_value_unit_cost = self.currency_id.round(remaining_value / remaining_qty)
+=======
+        remaining_value_unit_cost = remaining_value / remaining_qty
+>>>>>>> upstream/18.0
 =======
         remaining_value_unit_cost = remaining_value / remaining_qty
 >>>>>>> upstream/18.0
@@ -2823,6 +2833,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            taken_remaining_value = self.currency_id.round(taken_remaining_value)
+>>>>>>> upstream/18.0
 =======
             taken_remaining_value = self.currency_id.round(taken_remaining_value)
 >>>>>>> upstream/18.0
@@ -3832,7 +3846,10 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4620,6 +4637,9 @@ class StockValuationLayerRevaluation(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

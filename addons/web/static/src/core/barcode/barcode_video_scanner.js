@@ -241,7 +241,11 @@ import { CropOverlay } from "./crop_overlay";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onMounted, onWillStart, onWillUnmount, useRef, useState } from "@odoo/owl";
+=======
+import { Component, onMounted, onWillStart, onWillUnmount, status, useRef, useState } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillStart, onWillUnmount, status, useRef, useState } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -1265,8 +1269,11 @@ export class BarcodeVideoScanner extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await this.isVideoReady();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1976,6 +1983,9 @@ export class BarcodeVideoScanner extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2720,6 +2730,12 @@ export class BarcodeVideoScanner extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            if (status(this) === "destroyed"){
+                return false;
+            }
+>>>>>>> upstream/18.0
 =======
             if (status(this) === "destroyed"){
                 return false;
@@ -4141,6 +4157,10 @@ export class BarcodeVideoScanner extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        return true;
+>>>>>>> upstream/18.0
 =======
         return true;
 >>>>>>> upstream/18.0

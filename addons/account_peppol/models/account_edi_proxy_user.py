@@ -99,6 +99,7 @@ from datetime import timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from lxml import etree
 >>>>>>> upstream/18.0
@@ -1182,6 +1183,8 @@ from odoo.tools import split_every
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from lxml import etree
 
 from odoo import _, api, fields, models, modules, tools
@@ -1190,6 +1193,9 @@ from odoo.tools import format_list
 from odoo.addons.account_edi_proxy_client.models.account_edi_proxy_user import AccountEdiProxyError
 from odoo.addons.account_peppol.tools.demo_utils import handle_demo
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1209,7 +1215,10 @@ class AccountEdiProxyClientUser(models.Model):
     # -------------------------------------------------------------------------
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1218,6 +1227,9 @@ class AccountEdiProxyClientUser(models.Model):
         return ['peppol']
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1232,12 +1244,15 @@ class AccountEdiProxyClientUser(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @handle_demo
     def _call_peppol_proxy(self, endpoint, params=None):
         self.ensure_one()
         if self.proxy_type != 'peppol':
             raise UserError(_('EDI user should be of type Peppol'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _get_peppol_proxy_endpoint(self, endpoint, proxy_type=None):
@@ -1256,6 +1271,9 @@ class AccountEdiProxyClientUser(models.Model):
             proxy_types = [proxy_type_map[proxy_type] for proxy_type in peppol_proxy_types]
             raise UserError(self.env._('EDI user should be of one of the following types: %s', format_list(self.env, proxy_types, 'or')))
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1278,7 +1296,11 @@ class AccountEdiProxyClientUser(models.Model):
                 and not self.active
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 and not self.company_id.account_edi_proxy_client_ids.filtered(lambda u: u.proxy_type == 'peppol')
+=======
+                and not self.company_id.account_edi_proxy_client_ids.filtered(lambda u: u.proxy_type == self.proxy_type)
+>>>>>>> upstream/18.0
 =======
                 and not self.company_id.account_edi_proxy_client_ids.filtered(lambda u: u.proxy_type == self.proxy_type)
 >>>>>>> upstream/18.0
@@ -1309,6 +1331,7 @@ class AccountEdiProxyClientUser(models.Model):
     @handle_demo
     def _check_company_on_peppol(self, company, edi_identification):
         if (
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2318,10 +2341,15 @@ class AccountEdiProxyClientUser(models.Model):
             not company.sudo().account_peppol_migration_key
             and (participant_info := company.partner_id._peppol_lookup_participant(edi_identification)) is not None
 >>>>>>> upstream/18.0
+=======
+            not company.sudo().account_peppol_migration_key
+            and (participant_info := company.partner_id._peppol_lookup_participant(edi_identification)) is not None
+>>>>>>> upstream/18.0
             and company.partner_id._check_peppol_participant_exists(participant_info, edi_identification, check_company=True)
         ):
             error_msg = _(
                 "A participant with these details has already been registered on the network. "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3752,6 +3780,10 @@ class AccountEdiProxyClientUser(models.Model):
                 "If you have previously registered to a Peppol service, please deregister."
             )
 >>>>>>> upstream/18.0
+=======
+                "If you have previously registered to a Peppol service, please deregister."
+            )
+>>>>>>> upstream/18.0
             raise UserError(error_msg)
 
     # -------------------------------------------------------------------------
@@ -3759,6 +3791,7 @@ class AccountEdiProxyClientUser(models.Model):
     # -------------------------------------------------------------------------
 
     def _cron_peppol_get_new_documents(self):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         edi_users = self.search([('company_id.account_peppol_proxy_state', '=', 'receiver'), ('proxy_type', '=', 'peppol')])
@@ -3773,6 +3806,8 @@ class AccountEdiProxyClientUser(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         edi_users = self.search([('company_id.account_peppol_proxy_state', '=', 'receiver'), ('proxy_type', 'in', self._get_peppol_proxy_types())])
         edi_users._peppol_get_new_documents()
 
@@ -3783,6 +3818,9 @@ class AccountEdiProxyClientUser(models.Model):
     def _cron_peppol_get_participant_status(self):
         edi_users = self.search([('proxy_type', 'in', self._get_peppol_proxy_types())])
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3811,6 +3849,7 @@ class AccountEdiProxyClientUser(models.Model):
         :param partner_endpoint: DEPRECATED - to be removed in master
         :param peppol_state: the state of the received Peppol document
         :param uuid: the UUID of the Peppol document
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4304,6 +4343,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         :return: the created invoice if the document was saved, `False` if it was not
         """
         self.ensure_one()
@@ -4365,6 +4406,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4485,6 +4529,7 @@ class AccountEdiProxyClientUser(models.Model):
 
         move = self.env['account.move'].create({
             'journal_id': journal.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5034,11 +5079,15 @@ class AccountEdiProxyClientUser(models.Model):
 =======
             'move_type': move_type,
 >>>>>>> upstream/18.0
+=======
+            'move_type': move_type,
+>>>>>>> upstream/18.0
             'peppol_move_state': peppol_state,
             'peppol_message_uuid': uuid,
         })
         if 'is_in_extractable_state' in move._fields:
             move.is_in_extractable_state = False
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6398,6 +6447,8 @@ class AccountEdiProxyClientUser(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         try:
             move._extend_with_attachments(attachment, new=True)
             move._message_log(
@@ -6405,6 +6456,9 @@ class AccountEdiProxyClientUser(models.Model):
                     "%(proxy_type)s document (UUID: %(uuid)s) has been received successfully",
                     proxy_type=dict(self._fields['proxy_type']._description_selection(self.env))[self.proxy_type],
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6416,6 +6470,7 @@ class AccountEdiProxyClientUser(models.Model):
         except Exception:
             _logger.exception("Unexpected error occurred during the import of bill with id %s", move.id)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6898,10 +6953,13 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         attachment.write({'res_model': 'account.move', 'res_id': move.id})
         return move
 
     def _peppol_get_import_journal_and_move_type(self, attachment):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7081,6 +7139,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # Self-billed invoices are invoices which your customer creates on your behalf and sends you via Peppol.
         # In this case, the invoice needs to be created as an out_invoice in a sale journal.
         self.ensure_one()
@@ -7135,8 +7195,13 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         except etree.XMLSyntaxError:
             _logger.exception("The Peppol XML file is invalid for attachment ID %s", attachment.id)
+=======
+        except (etree.XMLSyntaxError, ValueError):
+            _logger.exception("The Peppol XML file is invalid or empty for attachment ID %s", attachment.id)
+>>>>>>> upstream/18.0
 =======
         except (etree.XMLSyntaxError, ValueError):
             _logger.exception("The Peppol XML file is invalid or empty for attachment ID %s", attachment.id)
@@ -7377,6 +7442,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7492,6 +7560,7 @@ class AccountEdiProxyClientUser(models.Model):
                 limit=1,
             )
             move_type = 'out_invoice' if invoice_type_code else 'out_refund'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7839,6 +7908,9 @@ class AccountEdiProxyClientUser(models.Model):
 =======
         return journal, move_type
 >>>>>>> upstream/18.0
+=======
+        return journal, move_type
+>>>>>>> upstream/18.0
 
     def _peppol_get_new_documents(self):
         # Context added to not break stable policy: useful to tweak on databases processing large invoices
@@ -7980,6 +8052,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8522,6 +8597,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            edi_user = edi_user.with_company(edi_user.company_id)
+>>>>>>> upstream/18.0
 =======
             edi_user = edi_user.with_company(edi_user.company_id)
 >>>>>>> upstream/18.0
@@ -9314,7 +9393,11 @@ class AccountEdiProxyClientUser(models.Model):
                 messages = edi_user._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "/api/peppol/1/get_all_documents",
+=======
+                    endpoint=edi_user._get_peppol_proxy_endpoint('1/get_all_documents'),
+>>>>>>> upstream/18.0
 =======
                     endpoint=edi_user._get_peppol_proxy_endpoint('1/get_all_documents'),
 >>>>>>> upstream/18.0
@@ -9335,6 +9418,7 @@ class AccountEdiProxyClientUser(models.Model):
             if not message_uuids:
                 continue
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10576,6 +10660,8 @@ class AccountEdiProxyClientUser(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             need_retrigger = need_retrigger or len(message_uuids) > job_count
             message_uuids = message_uuids[:job_count]
 
@@ -10586,6 +10672,9 @@ class AccountEdiProxyClientUser(models.Model):
             )
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10597,7 +10686,11 @@ class AccountEdiProxyClientUser(models.Model):
                 edi_user._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "/api/peppol/1/ack",
+=======
+                    endpoint=edi_user._get_peppol_proxy_endpoint('1/ack'),
+>>>>>>> upstream/18.0
 =======
                     endpoint=edi_user._get_peppol_proxy_endpoint('1/ack'),
 >>>>>>> upstream/18.0
@@ -10613,7 +10706,10 @@ class AccountEdiProxyClientUser(models.Model):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     def _peppol_get_filetype(self, content):
@@ -10625,6 +10721,9 @@ class AccountEdiProxyClientUser(models.Model):
         return self._decrypt_data(document_content, enc_key)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10633,6 +10732,7 @@ class AccountEdiProxyClientUser(models.Model):
         processed_uuids = []
         moves = self.env['account.move']
         for uuid, content in messages.items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             enc_key = content["enc_key"]
@@ -10648,6 +10748,8 @@ class AccountEdiProxyClientUser(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             fileextension, mimetype = self._peppol_get_filetype(content)
             filename = content["filename"] or 'attachment'  # default to attachment, which should not usually happen
             attachment = self.env["ir.attachment"].create(
@@ -10657,6 +10759,9 @@ class AccountEdiProxyClientUser(models.Model):
                     "type": "binary",
                     "mimetype": mimetype,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10711,7 +10816,12 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 moves += move
+=======
+                if not isinstance(move, bool):
+                    moves += move
+>>>>>>> upstream/18.0
 =======
                 if not isinstance(move, bool):
                     moves += move
@@ -10960,6 +11070,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11080,6 +11193,7 @@ class AccountEdiProxyClientUser(models.Model):
         job_count = self._context.get('peppol_crons_job_count') or BATCH_SIZE
         need_retrigger = False
         for edi_user in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13000,6 +13114,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             edi_user = edi_user.with_company(edi_user.company_id)
             documents = edi_user._peppol_get_documents_for_status(job_count)
             if not documents:
@@ -13009,7 +13125,11 @@ class AccountEdiProxyClientUser(models.Model):
             messages_to_process = edi_user._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "/api/peppol/1/get_document",
+=======
+                endpoint=edi_user._get_peppol_proxy_endpoint('1/get_document'),
+>>>>>>> upstream/18.0
 =======
                 endpoint=edi_user._get_peppol_proxy_endpoint('1/get_document'),
 >>>>>>> upstream/18.0
@@ -13025,7 +13145,11 @@ class AccountEdiProxyClientUser(models.Model):
                 edi_user._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "/api/peppol/1/ack",
+=======
+                    endpoint=edi_user._get_peppol_proxy_endpoint('1/ack'),
+>>>>>>> upstream/18.0
 =======
                     endpoint=edi_user._get_peppol_proxy_endpoint('1/ack'),
 >>>>>>> upstream/18.0
@@ -13124,6 +13248,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13236,6 +13361,8 @@ class AccountEdiProxyClientUser(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -13256,6 +13383,9 @@ class AccountEdiProxyClientUser(models.Model):
         else:
             _logger.warning("Received unknown Peppol state '%s' for EDI proxy user id=%s", proxy_user.get('peppol_state'), self.id)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13263,6 +13393,7 @@ class AccountEdiProxyClientUser(models.Model):
     def _peppol_get_participant_status(self):
         for edi_user in self:
             edi_user = edi_user.with_company(edi_user.company_id)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14420,12 +14551,17 @@ class AccountEdiProxyClientUser(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if edi_user.proxy_type not in self._get_peppol_proxy_types():
                 continue
             try:
                 endpoint = edi_user._get_peppol_proxy_endpoint('2/participant_status')
                 proxy_user = edi_user._make_request(f"{edi_user._get_server_url()}{endpoint}")
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14555,6 +14691,10 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    edi_user.action_archive()
+>>>>>>> upstream/18.0
 =======
                     edi_user.action_archive()
 >>>>>>> upstream/18.0
@@ -14932,6 +15072,7 @@ class AccountEdiProxyClientUser(models.Model):
                 _logger.error('Error while updating Peppol participant status: %s', error_message)
                 continue
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             local_state = {
@@ -15332,6 +15473,10 @@ class AccountEdiProxyClientUser(models.Model):
             edi_user._peppol_process_participant_status(proxy_user)
 
 >>>>>>> upstream/18.0
+=======
+            edi_user._peppol_process_participant_status(proxy_user)
+
+>>>>>>> upstream/18.0
     # -------------------------------------------------------------------------
     # BUSINESS ACTIONS
     # -------------------------------------------------------------------------
@@ -15340,6 +15485,7 @@ class AccountEdiProxyClientUser(models.Model):
     def _peppol_migrate_registration(self):
         """Migrates AWAY from Odoo's SMP."""
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         response = self._call_peppol_proxy(endpoint='/api/peppol/1/migrate_peppol_registration')
@@ -15919,6 +16065,11 @@ class AccountEdiProxyClientUser(models.Model):
         if migration_key := response.get('migration_key'):
             self.company_id.sudo().account_peppol_migration_key = migration_key
 >>>>>>> upstream/18.0
+=======
+        response = self._call_peppol_proxy(endpoint=self._get_peppol_proxy_endpoint('1/migrate_peppol_registration'))
+        if migration_key := response.get('migration_key'):
+            self.company_id.sudo().account_peppol_migration_key = migration_key
+>>>>>>> upstream/18.0
 
     def _get_company_details(self):
         self.ensure_one()
@@ -15931,6 +16082,7 @@ class AccountEdiProxyClientUser(models.Model):
             'peppol_country_code': self.company_id.country_id.code,
             'peppol_phone_number': self.company_id.account_peppol_phone_number,
             'peppol_contact_email': self.company_id.account_peppol_contact_email,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16504,6 +16656,9 @@ class AccountEdiProxyClientUser(models.Model):
 =======
             'peppol_migration_key': self.company_id.sudo().account_peppol_migration_key,
 >>>>>>> upstream/18.0
+=======
+            'peppol_migration_key': self.company_id.sudo().account_peppol_migration_key,
+>>>>>>> upstream/18.0
         }
 
     def _peppol_register_sender(self):
@@ -16514,7 +16669,11 @@ class AccountEdiProxyClientUser(models.Model):
         self._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             endpoint='/api/peppol/1/register_sender',
+=======
+            endpoint=self._get_peppol_proxy_endpoint('1/register_sender'),
+>>>>>>> upstream/18.0
 =======
             endpoint=self._get_peppol_proxy_endpoint('1/register_sender'),
 >>>>>>> upstream/18.0
@@ -16535,7 +16694,11 @@ class AccountEdiProxyClientUser(models.Model):
         self._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             endpoint='/api/peppol/1/register_receiver',
+=======
+            endpoint=self._get_peppol_proxy_endpoint('1/register_receiver'),
+>>>>>>> upstream/18.0
 =======
             endpoint=self._get_peppol_proxy_endpoint('1/register_receiver'),
 >>>>>>> upstream/18.0
@@ -16560,6 +16723,7 @@ class AccountEdiProxyClientUser(models.Model):
         self._check_company_on_peppol(company, edi_identification)
 
         self._call_peppol_proxy(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             endpoint='/api/peppol/1/register_sender_as_receiver',
@@ -17139,11 +17303,17 @@ class AccountEdiProxyClientUser(models.Model):
             params={
                 'migration_key': company.sudo().account_peppol_migration_key,
 >>>>>>> upstream/18.0
+=======
+            endpoint=self._get_peppol_proxy_endpoint('1/register_sender_as_receiver'),
+            params={
+                'migration_key': company.sudo().account_peppol_migration_key,
+>>>>>>> upstream/18.0
                 'supported_identifiers': list(company._peppol_supported_document_types())
             },
         )
         # once we sent the migration key over, we don't need it
         # but we need the field for future in case the user decided to migrate away from Odoo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17717,10 +17887,14 @@ class AccountEdiProxyClientUser(models.Model):
 =======
         company.sudo().account_peppol_migration_key = False
 >>>>>>> upstream/18.0
+=======
+        company.sudo().account_peppol_migration_key = False
+>>>>>>> upstream/18.0
         company.account_peppol_proxy_state = 'smp_registration'
 
         self.env.ref('account_peppol.ir_cron_peppol_get_participant_status')._trigger(at=fields.Datetime.now() + timedelta(hours=1))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18107,6 +18281,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     @handle_demo
     def _peppol_deregister_participant(self):
         self.ensure_one()
@@ -18170,6 +18346,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18295,7 +18474,12 @@ class AccountEdiProxyClientUser(models.Model):
             # is cron-safe and swallows AccountEdiProxyError.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             proxy_user = self._make_request(f"{self._get_server_url()}/api/peppol/2/participant_status")
+=======
+            endpoint = self._get_peppol_proxy_endpoint('2/participant_status')
+            proxy_user = self._make_request(f"{self._get_server_url()}{endpoint}")
+>>>>>>> upstream/18.0
 =======
             endpoint = self._get_peppol_proxy_endpoint('2/participant_status')
             proxy_user = self._make_request(f"{self._get_server_url()}{endpoint}")
@@ -18437,6 +18621,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18699,6 +18886,7 @@ class AccountEdiProxyClientUser(models.Model):
             if not tools.config['test_enable'] and not modules.module.current_test:
                 self.env.cr.commit()
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19530,6 +19718,11 @@ class AccountEdiProxyClientUser(models.Model):
 
         self.company_id._reset_peppol_configuration()
 >>>>>>> upstream/18.0
+=======
+            self._call_peppol_proxy(endpoint=self._get_peppol_proxy_endpoint('1/cancel_peppol_registration'))
+
+        self.company_id._reset_peppol_configuration()
+>>>>>>> upstream/18.0
         self.unlink()
 
     def _peppol_deregister_participant_to_sender(self):
@@ -19544,6 +19737,7 @@ class AccountEdiProxyClientUser(models.Model):
                 self.env.cr.commit()
 
         if self.company_id.account_peppol_proxy_state != 'sender':
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             self._call_peppol_proxy(endpoint='/api/peppol/1/unregister_to_sender')
@@ -20244,12 +20438,17 @@ class AccountEdiProxyClientUser(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self._call_peppol_proxy(endpoint=self._get_peppol_proxy_endpoint('1/unregister_to_sender'))
 
         self.company_id.account_peppol_proxy_state = 'sender'
         self.company_id.sudo().account_peppol_migration_key = False
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20266,7 +20465,11 @@ class AccountEdiProxyClientUser(models.Model):
         receivers = self.search([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('proxy_type', '=', 'peppol'),
+=======
+            ('proxy_type', 'in', self._get_peppol_proxy_types()),
+>>>>>>> upstream/18.0
 =======
             ('proxy_type', 'in', self._get_peppol_proxy_types()),
 >>>>>>> upstream/18.0
@@ -20281,7 +20484,11 @@ class AccountEdiProxyClientUser(models.Model):
                 receiver._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     '/api/peppol/2/add_services',
+=======
+                    receiver._get_peppol_proxy_endpoint('2/add_services'),
+>>>>>>> upstream/18.0
 =======
                     receiver._get_peppol_proxy_endpoint('2/add_services'),
 >>>>>>> upstream/18.0
@@ -20310,7 +20517,11 @@ class AccountEdiProxyClientUser(models.Model):
         receivers = self.search([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('proxy_type', '=', 'peppol'),
+=======
+            ('proxy_type', 'in', self._get_peppol_proxy_types()),
+>>>>>>> upstream/18.0
 =======
             ('proxy_type', 'in', self._get_peppol_proxy_types()),
 >>>>>>> upstream/18.0
@@ -20325,7 +20536,11 @@ class AccountEdiProxyClientUser(models.Model):
                 receiver._call_peppol_proxy(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     '/api/peppol/2/remove_services',
+=======
+                    receiver._get_peppol_proxy_endpoint('2/remove_services'),
+>>>>>>> upstream/18.0
 =======
                     receiver._get_peppol_proxy_endpoint('2/remove_services'),
 >>>>>>> upstream/18.0
@@ -20345,7 +20560,11 @@ class AccountEdiProxyClientUser(models.Model):
         self.ensure_one()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self._call_peppol_proxy("/api/peppol/2/get_services")
+=======
+        return self._call_peppol_proxy(self._get_peppol_proxy_endpoint('2/get_services'))
+>>>>>>> upstream/18.0
 =======
         return self._call_peppol_proxy(self._get_peppol_proxy_endpoint('2/get_services'))
 >>>>>>> upstream/18.0

@@ -287,7 +287,11 @@ class Digest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'formatted_date': datetime.today().strftime('%B %d, %Y'),
+=======
+                'formatted_date': tools.format_date(self.env, datetime.today(), date_format='MMMM dd, yyyy'),
+>>>>>>> upstream/18.0
 =======
                 'formatted_date': tools.format_date(self.env, datetime.today(), date_format='MMMM dd, yyyy'),
 >>>>>>> upstream/18.0
@@ -923,9 +927,12 @@ class Digest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         base_domain = [
             ('company_id', 'in', companies.ids),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1086,6 +1093,9 @@ class Digest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1253,7 +1263,11 @@ class Digest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             groupby=['company_id'],
+=======
+            groupby=[company_field],
+>>>>>>> upstream/18.0
 =======
             groupby=[company_field],
 >>>>>>> upstream/18.0
@@ -1474,6 +1488,12 @@ class Digest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _get_company_field(self, model):
+        return 'company_ids' if model in ['res.users'] else 'company_id'
+
+>>>>>>> upstream/18.0
 =======
     def _get_company_field(self, model):
         return 'company_ids' if model in ['res.users'] else 'company_id'

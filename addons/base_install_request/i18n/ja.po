@@ -204,6 +204,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_install_request
 # 
 # Translators:
@@ -617,12 +618,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * base_install_request
 #
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # "Junko Augias (juau)" <juau@odoo.com>, 2025.
@@ -1236,10 +1240,14 @@
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2011,6 +2019,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-26 11:14+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-26 11:14+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "base_install_request/ja/>\n"
@@ -2019,6 +2031,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 "X-Generator: Weblate 5.12.2\n"
@@ -2632,6 +2645,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:mail.template,body_html:base_install_request.mail_template_base_install_request
@@ -2640,6 +2656,7 @@ msgid ""
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Hello,\n"
 "        <br/><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2801,6 +2818,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3265,6 +3284,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3718,6 +3740,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <span style=\"font-weight: bold;\" t-out=\"object.user_id.name\"/> が <span style=\"font-weight: bold;\" t-out=\"object.module_id.shortdesc\"/> モジュールの有効化を要求しました。 このモジュールはお客様のサブスクリプションに含まれています。 <span style=\"color: #875A7B; font-weight: bold;\">追加コストなし</span>ですが、有効化するには管理者である必要があります。\n"
 "        <br/><br/>\n"
 "        </p><blockquote data-o-mail-quote-node=\"1\" data-o-mail-quote=\"1\">\n"
@@ -3731,6 +3754,8 @@ msgstr ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4195,6 +4220,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4500,6 +4528,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/base_install_request/models/ir_module_module.py:0
 msgid "Activation Request of \"%s\""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5317,13 +5346,20 @@ msgstr "\"%s\"の有効化を申請"
 =======
 msgstr "\"%s\"の有効化を申請"
 >>>>>>> upstream/18.0
+=======
+msgstr "\"%s\"の有効化を申請"
+>>>>>>> upstream/18.0
 
 #. module: base_install_request
 #: model:ir.model.fields,field_description:base_install_request.field_base_module_install_request__body_html
 msgid "Body"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "表示文"
+=======
+msgstr "本文"
+>>>>>>> upstream/18.0
 =======
 msgstr "本文"
 >>>>>>> upstream/18.0
@@ -5607,7 +5643,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このアプリはサブスクリプションに含まれています。有効化は無料ですが、管理者のみが行うことができます。有効化の要求を送信するには、このフォームに記入して下さい。"
+=======
+"このアプリはサブスクリプションに含まれています。有効化は無料ですが、管理者の"
+"みが行うことができます。有効化の要求を送信するには、このフォームに記入して下"
+"さい。"
+>>>>>>> upstream/18.0
 =======
 "このアプリはサブスクリプションに含まれています。有効化は無料ですが、管理者の"
 "みが行うことができます。有効化の要求を送信するには、このフォームに記入して下"
@@ -6523,7 +6565,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "例:社内イベントや展示会のプロモーションのためにSMSマーケティングモジュールを使用したいです。私のチームの3人名のアクセスが必要です。"
+=======
+msgstr ""
+"例:社内イベントや展示会のプロモーションのためにSMSマーケティングモジュールを"
+"使用したいです。私のチームの3人名のアクセスが必要です。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "例:社内イベントや展示会のプロモーションのためにSMSマーケティングモジュールを"

@@ -332,12 +332,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <xpath expr="//*[local-name()='DocumentCurrencyCode']" position="after">
             <t xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
                xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
                 <cac:AdditionalDocumentReference t-if="vals.get('invoice_incoterm_code')">
                     <cbc:ID t-out="vals['invoice_incoterm_code']"/>
                 </cac:AdditionalDocumentReference>
+=======
+        <xpath expr="//*[local-name()='BillingReference']" position="after">
+            <t xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+               xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+>>>>>>> upstream/18.0
 =======
         <xpath expr="//*[local-name()='BillingReference']" position="after">
             <t xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
@@ -2328,6 +2334,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 <cac:AdditionalDocumentReference t-if="vals.get('invoice_incoterm_code')">
                     <cbc:ID t-out="vals['invoice_incoterm_code']"/>
@@ -2444,6 +2451,8 @@
                 </cac:AdditionalDocumentReference>
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3372,6 +3381,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4264,7 +4276,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5058,6 +5073,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
