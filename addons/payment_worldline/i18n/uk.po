@@ -114,6 +114,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_worldline
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +566,9 @@
 =======
 # * payment_worldline
 >>>>>>> upstream/18.0
+=======
+# * payment_worldline
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -717,6 +721,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -953,6 +958,10 @@
 >>>>>>> upstream/18.0
 =======
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
+>>>>>>> upstream/18.0
+=======
+# Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
+# Yana Bystrytska <yana.bystrytska@erp.co.ua>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Alina Lisnenko <alina.lisnenko@erp.co.ua>, 2026.
@@ -1190,6 +1199,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1967,6 +1977,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-05-20 17:10+0000\n"
 "Last-Translator: Alina Lisnenko <alina.lisnenko@erp.co.ua>\n"
@@ -1980,6 +1992,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2001,6 +2016,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2620,10 +2636,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 "
 "? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > "
 "14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % "
 "100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2806,10 +2825,14 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_worldline
 #: model_terms:ir.ui.view,arch_db:payment_worldline.payment_provider_form
 msgid "API Key"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3267,10 +3290,14 @@ msgstr "Ключ API"
 =======
 msgstr "Ключ API"
 >>>>>>> upstream/18.0
+=======
+msgstr "Ключ API"
+>>>>>>> upstream/18.0
 
 #. module: payment_worldline
 #: model_terms:ir.ui.view,arch_db:payment_worldline.payment_provider_form
 msgid "API Secret"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3504,6 +3531,9 @@ msgstr "API Секретний ключ"
 =======
 msgstr "API Секретний ключ"
 >>>>>>> upstream/18.0
+=======
+msgstr "API Секретний ключ"
+>>>>>>> upstream/18.0
 
 #. module: payment_worldline
 #: model:ir.model.fields,field_description:payment_worldline.field_payment_provider__code
@@ -3553,6 +3583,7 @@ msgstr "Отримані дані з відсутнім референсом %(r
 #. odoo-python
 #: code:addons/payment_worldline/models/payment_transaction.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4282,6 +4313,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Received invalid transaction status %(status)s with error code %"
 "(error_code)s."
 msgstr ""
@@ -4295,6 +4328,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4343,7 +4379,11 @@ msgid "Transaction cancelled with error code %(error_code)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Транзакцію скасовано з кодом помилки %(error_code)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Транзакцію скасовано з кодом помилки %(error_code)s."
 >>>>>>> upstream/18.0
@@ -4385,7 +4425,11 @@ msgid "Transaction declined with error code %(error_code)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Транзакцію відхилено з кодом помилки %(error_code)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Транзакцію відхилено з кодом помилки %(error_code)s."
 >>>>>>> upstream/18.0
@@ -4426,7 +4470,11 @@ msgid "Webhook Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ключ Webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ключ Webhook"
 >>>>>>> upstream/18.0
@@ -4477,7 +4525,11 @@ msgid "Worldline API Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Worldline API Key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Worldline API Key"
 >>>>>>> upstream/18.0
@@ -4518,7 +4570,11 @@ msgid "Worldline API Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Worldline API Secret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Worldline API Secret"
 >>>>>>> upstream/18.0
@@ -4559,7 +4615,11 @@ msgid "Worldline PSPID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Worldline PSPID"
+>>>>>>> upstream/18.0
 =======
 msgstr "Worldline PSPID"
 >>>>>>> upstream/18.0
@@ -4600,7 +4660,11 @@ msgid "Worldline Webhook Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Worldline Webhook Key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Worldline Webhook Key"
 >>>>>>> upstream/18.0
@@ -4641,7 +4705,11 @@ msgid "Worldline Webhook Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Worldline Webhook Secret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Worldline Webhook Secret"
 >>>>>>> upstream/18.0

@@ -2,6 +2,10 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 from odoo import api, fields, models
+<<<<<<< HEAD
+=======
+from odoo.tools import get_quarter_number
+>>>>>>> upstream/18.0
 
 
 class AccountMove(models.Model):
@@ -50,3 +54,13 @@ class AccountMove(models.Model):
         if len(docs) == 1 and docs.edi_format_id.code == 'es_sii' and docs.state != 'to_cancel':
             return True
         return super()._edi_allow_button_draft()
+<<<<<<< HEAD
+=======
+
+    def _l10n_es_edi_get_period(self):
+        self.ensure_one()
+        if 'account_tax_periodicity' in self.company_id._fields:
+            if self.company_id.account_tax_periodicity == 'trimester':
+                return f'{get_quarter_number(self.date)}T'
+        return str(self.date.month).zfill(2)
+>>>>>>> upstream/18.0

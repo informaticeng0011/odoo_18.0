@@ -419,11 +419,14 @@ test("StateSelectionField with readonly modifier", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".dropdown-menu").not.toBeVisible();
     await click(".o_field_state_selection span.o_status");
     await animationFrame();
     expect(".dropdown-menu").not.toBeVisible();
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1286,6 +1289,9 @@ test("StateSelectionField with readonly modifier", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2272,8 +2278,13 @@ test('StateSelectionField edited by the smart actions "Set kanban state as <stat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`.o_command:contains("Set kanban state as Normal\nALT + D")`).toHaveCount(1);
     const doneItem = `.o_command:contains("Set kanban state as Done\nALT + G")`;
+=======
+    expect(`.o_command:contains("Set kanban state as Normal ALT + D")`).toHaveCount(1);
+    const doneItem = `.o_command:contains("Set kanban state as Done ALT + G")`;
+>>>>>>> upstream/18.0
 =======
     expect(`.o_command:contains("Set kanban state as Normal ALT + D")`).toHaveCount(1);
     const doneItem = `.o_command:contains("Set kanban state as Done ALT + G")`;
@@ -3312,9 +3323,15 @@ test('StateSelectionField edited by the smart actions "Set kanban state as <stat
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(`.o_command:contains("Set kanban state as Normal\nALT + D")`).toHaveCount(1);
     expect(`.o_command:contains("Set kanban state as Blocked\nALT + F")`).toHaveCount(1);
     expect(`.o_command:contains("Set kanban state as Done\nALT + G")`).toHaveCount(0);
+=======
+    expect(`.o_command:contains("Set kanban state as Normal ALT + D")`).toHaveCount(1);
+    expect(`.o_command:contains("Set kanban state as Blocked ALT + F")`).toHaveCount(1);
+    expect(`.o_command:contains("Set kanban state as Done ALT + G")`).toHaveCount(0);
+>>>>>>> upstream/18.0
 =======
     expect(`.o_command:contains("Set kanban state as Normal ALT + D")`).toHaveCount(1);
     expect(`.o_command:contains("Set kanban state as Blocked ALT + F")`).toHaveCount(1);
@@ -4708,7 +4725,12 @@ test("StateSelectionField - hotkey handling when there are more than 3 options a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".o_command#o_command_2").toHaveText("Set kanban state as Done\nALT + G", {
+=======
+    expect(".o_command#o_command_2").toHaveText("Set kanban state as Done ALT + G", {
+        inline: true,
+>>>>>>> upstream/18.0
 =======
     expect(".o_command#o_command_2").toHaveText("Set kanban state as Done ALT + G", {
         inline: true,

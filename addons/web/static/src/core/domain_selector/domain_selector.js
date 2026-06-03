@@ -351,6 +351,10 @@ export class DomainSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: { type: Boolean, optional: true },
+>>>>>>> upstream/18.0
 =======
         allowExpressions: { type: Boolean, optional: true },
 >>>>>>> upstream/18.0
@@ -1641,6 +1645,10 @@ export class DomainSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        allowExpressions: true,
+>>>>>>> upstream/18.0
 =======
         allowExpressions: true,
 >>>>>>> upstream/18.0
@@ -2911,7 +2919,11 @@ export class DomainSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (this.tree.value === "&") {
+=======
+            if (this.tree.type === "connector" && this.tree.value === "&") {
+>>>>>>> upstream/18.0
 =======
             if (this.tree.type === "connector" && this.tree.value === "&") {
 >>>>>>> upstream/18.0
@@ -4048,12 +4060,15 @@ export class DomainSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return getDomainDisplayedOperators(fieldDef)[0];
     }
 
     getOperatorEditorInfo(fieldDef) {
         const operators = getDomainDisplayedOperators(fieldDef);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5023,6 +5038,9 @@ export class DomainSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

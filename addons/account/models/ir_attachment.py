@@ -15,7 +15,10 @@ _logger = logging.getLogger(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37,6 +40,9 @@ SUPPORTED_FILE_TYPES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65,6 +71,7 @@ class IrAttachment(models.Model):
         :returns:           A list with a dictionary.
         """
         try:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -498,6 +505,9 @@ class IrAttachment(models.Model):
 =======
             xml_tree = etree.fromstring(content, parser=etree.XMLParser(remove_comments=True, resolve_entities=False))
 >>>>>>> upstream/18.0
+=======
+            xml_tree = etree.fromstring(content, parser=etree.XMLParser(remove_comments=True, resolve_entities=False))
+>>>>>>> upstream/18.0
         except Exception as e:
             _logger.info('Error when reading the xml file "%s": %s', filename, e)
             return []
@@ -516,9 +526,12 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return to_process
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -569,6 +582,9 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -313,6 +313,11 @@ import { defineTestMailModels, editSelect } from "@test_mail/../tests/test_mail_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { patchWithCleanup } from "@web/../tests/web_test_helpers";
+import { currencies } from "@web/core/currency";
+>>>>>>> upstream/18.0
 =======
 import { patchWithCleanup } from "@web/../tests/web_test_helpers";
 import { currencies } from "@web/core/currency";
@@ -1838,6 +1843,10 @@ const archs = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                <field name="float_field_with_digits"/>
+>>>>>>> upstream/18.0
 =======
                 <field name="float_field_with_digits"/>
 >>>>>>> upstream/18.0
@@ -3100,6 +3109,10 @@ test("rendering of tracked field of type float: from 0 to non-0", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        float_field_with_digits: 0,
+>>>>>>> upstream/18.0
 =======
         float_field_with_digits: 0,
 >>>>>>> upstream/18.0
@@ -4316,10 +4329,13 @@ test("rendering of tracked field of type float: from 0 to non-0", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await insertText("div[name=float_field] input", "1", { replace: true });
     await click(".o_form_button_save");
     await contains(".o-mail-Message-tracking", { text: "0.001.00(Float)" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5241,6 +5257,9 @@ test("rendering of tracked field of type float: from 0 to non-0", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6179,8 +6198,11 @@ test("rendering of tracked field of type monetary: from non-0 to 0", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const mailTestTrackAllId1 = pyEnv["mail.test.track.all"].create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7096,6 +7118,9 @@ test("rendering of tracked field of type monetary: from non-0 to 0", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8011,7 +8036,11 @@ test("rendering of tracked field of type monetary: from non-0 to 0", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-Message-tracking", { text: "1.000.00(Monetary)" });
+=======
+    await contains(".o-mail-Message-tracking", { text: "1.00 §0.00 §(Monetary)" });
+>>>>>>> upstream/18.0
 =======
     await contains(".o-mail-Message-tracking", { text: "1.00 §0.00 §(Monetary)" });
 >>>>>>> upstream/18.0

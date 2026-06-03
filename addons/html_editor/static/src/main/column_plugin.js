@@ -278,7 +278,11 @@ import { closestElement } from "@html_editor/utils/dom_traversal";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?:$| )/;
+=======
+const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?= |$)/;
+>>>>>>> upstream/18.0
 =======
 const REGEX_BOOTSTRAP_COLUMN = /(?:^| )col(-[a-zA-Z]+)?(-\d+)?(?= |$)/;
 >>>>>>> upstream/18.0
@@ -1399,7 +1403,11 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static dependencies = ["baseContainer", "selection", "history"];
+=======
+    static dependencies = ["baseContainer", "selection", "history", "dom"];
+>>>>>>> upstream/18.0
 =======
     static dependencies = ["baseContainer", "selection", "history", "dom"];
 >>>>>>> upstream/18.0
@@ -2391,9 +2399,12 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.createColumns(anchor, numberOfColumns, addParagraphAfter);
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2702,6 +2713,9 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3008,7 +3022,10 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3341,6 +3358,9 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3659,7 +3679,10 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3973,6 +3996,9 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4178,6 +4204,7 @@ export class ColumnPlugin extends Plugin {
         if (!closestElement(anchor, ".container")) {
             container.classList.add("container");
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5178,6 +5205,8 @@ export class ColumnPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         container.classList.add("o_text_columns", "o-contenteditable-false");
         const row = this.document.createElement("div");
         row.classList.add("row");
@@ -5282,6 +5311,9 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5487,6 +5519,7 @@ export class ColumnPlugin extends Plugin {
         const columns = [];
         for (let i = 0; i < numberOfColumns; i++) {
             const column = this.document.createElement("div");
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6313,10 +6346,13 @@ export class ColumnPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
             row.append(column);
             columns.push(column);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7844,6 +7880,8 @@ export class ColumnPlugin extends Plugin {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         return { container, columns };
     }
 
@@ -7951,6 +7989,9 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8447,7 +8488,11 @@ export class ColumnPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 column.classList.add(`col-${columnSize}`);
+=======
+                column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
+>>>>>>> upstream/18.0
 =======
                 column.classList.add(`col-${columnSize}`, "o-contenteditable-true");
 >>>>>>> upstream/18.0

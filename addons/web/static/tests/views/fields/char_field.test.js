@@ -116,6 +116,11 @@ class PartnerType extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _name = "partner.type";
+
+>>>>>>> upstream/18.0
 =======
     _name = "partner.type";
 
@@ -340,6 +345,7 @@ test("char field translatable", async () => {
     serverState.lang = "en_US";
     serverState.multiLang = true;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1290,6 +1296,8 @@ test("char field translatable", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await mountView({
         type: "form",
         resModel: "res.partner",
@@ -1610,7 +1618,11 @@ test("char field translatable", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("res.partner", "update_field_translations", async function ({ args, kwargs }) {
+=======
+    onRpc("res.partner", "update_field_translations", function ({ args, kwargs }) {
+>>>>>>> upstream/18.0
 =======
     onRpc("res.partner", "update_field_translations", function ({ args, kwargs }) {
 >>>>>>> upstream/18.0
@@ -2784,6 +2796,9 @@ test("char field translatable", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4088,7 +4103,10 @@ test("edit a char field should display the status indicator buttons without flic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4218,6 +4236,9 @@ test("translating a char field inside one2many saves the parent record", async (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

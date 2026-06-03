@@ -62,6 +62,10 @@ class TestUblCiiCommonChorusPro(TestUblCiiCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -267,6 +271,7 @@ class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _create_company(cls, **create_values):
         create_values.setdefault('siret', '40678483500521')
         return super()._create_company(**create_values)
@@ -438,6 +443,8 @@ class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon)
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -457,6 +464,9 @@ class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon)
         return super()._create_company(**create_values)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -525,6 +535,9 @@ class TestUblCiiFRCommonChorusPro(TestUblCiiCommonChorusPro, TestUblCiiFRCommon)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

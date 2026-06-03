@@ -24,7 +24,11 @@
                     <t t-else="">
                         <span class="o_tax_group_edit" t-on-click.prevent="() => this.setState('edit')">
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <span class="o_tax_group_amount_value o_list_monetary">
+=======
+                            <span class="o_tax_group_amount_value o_list_monetary" dir="ltr">
+>>>>>>> upstream/18.0
 =======
                             <span class="o_tax_group_amount_value o_list_monetary" dir="ltr">
 >>>>>>> upstream/18.0
@@ -35,7 +39,11 @@
                 </t>
                 <t t-else="">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <span class="o_tax_group_amount_value o_list_monetary">
+=======
+                    <span class="o_tax_group_amount_value o_list_monetary" dir="ltr">
+>>>>>>> upstream/18.0
 =======
                     <span class="o_tax_group_amount_value o_list_monetary" dir="ltr">
 >>>>>>> upstream/18.0
@@ -59,6 +67,10 @@
                             <span t-att-name="subtotal.name"
                                   style="white-space: nowrap; font-weight: bold;"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                                  dir="ltr"
+>>>>>>> upstream/18.0
 =======
                                   dir="ltr"
 >>>>>>> upstream/18.0
@@ -85,6 +97,10 @@
                     <td class="o_list_monetary">
                         <span
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            dir="ltr"
+>>>>>>> upstream/18.0
 =======
                             dir="ltr"
 >>>>>>> upstream/18.0
@@ -104,6 +120,10 @@
                             name="amount_total"
                             t-att-class="{'oe_subtotal_footer_separator': totals.has_tax_groups}"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            dir="ltr"
+>>>>>>> upstream/18.0
 =======
                             dir="ltr"
 >>>>>>> upstream/18.0

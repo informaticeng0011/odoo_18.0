@@ -237,6 +237,7 @@ from datetime import date, timedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from freezegun import freeze_time
 
 from odoo import Command
@@ -247,6 +248,8 @@ from odoo.addons.sale_loyalty.tests.common import TestSaleCouponCommon
 
 class TestProgramRules(TestSaleCouponCommon):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -964,6 +967,9 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2062,7 +2068,10 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2846,6 +2855,7 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3100,6 +3110,8 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3454,6 +3466,9 @@ class TestProgramRules(TestSaleCouponCommon, PaymentCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

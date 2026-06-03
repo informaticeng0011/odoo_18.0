@@ -301,6 +301,7 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="showAll" t-value="env.runner.hasFilter" />
 =======
         <t t-set="showAll" t-value="env.runner.hasRemovableFilter" />
@@ -1378,6 +1379,8 @@ export class HootButtons extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         <t t-set="showAll" t-value="env.runner.hasRemovableFilter" />
         <t t-set="showFailed" t-value="runnerState.failedIds.size" />
         <div
@@ -1606,6 +1609,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2067,6 +2073,7 @@ export class HootButtons extends Component {
                 <button
                     type="button"
                     class="bg-btn px-2 py-1 transition-colors animate-slide-left"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3364,6 +3371,9 @@ export class HootButtons extends Component {
 =======
                     t-on-click.stop="onToggleClick"
 >>>>>>> upstream/18.0
+=======
+                    t-on-click.stop="onToggleClick"
+>>>>>>> upstream/18.0
                 >
                     <i class="fa fa-caret-down transition" t-att-class="{ 'rotate-180': state.open }" />
                 </button>
@@ -3594,12 +3604,15 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="animate-slide-down w-fit absolute flex flex-col end-0 shadow rounded overflow-hidden shadow z-2"
                 >
                     <t t-if="showAll">
                         <HootLink class="'bg-btn p-2 whitespace-nowrap transition-colors'">
                             Run <strong>all</strong> tests
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4277,6 +4290,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4726,6 +4742,7 @@ export class HootButtons extends Component {
                     </t>
                     <t t-if="showFailed">
                         <HootLink
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6146,6 +6163,8 @@ export class HootButtons extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                             class="'p-3 whitespace-nowrap transition-colors hover:bg-gray-300 dark:hover:bg-gray-700'"
                             title="'Run failed tests'"
                             ids="{ id: runnerState.failedIds }"
@@ -6382,6 +6401,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7182,7 +7204,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8174,6 +8199,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9178,7 +9206,10 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10152,6 +10183,9 @@ export class HootButtons extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

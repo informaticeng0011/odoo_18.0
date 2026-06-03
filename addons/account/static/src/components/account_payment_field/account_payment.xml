@@ -303,8 +303,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <i class="o_field_widget text-start o_payment_label">Paid on <t t-out="line.formattedDate"></t></i>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1096,6 +1099,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1624,10 +1628,15 @@
                             <i class="o_field_widget text-start text-muted text-start">
                                 <span class="oe_form_field oe_form_field_float oe_form_field_monetary fw-bold">
 =======
+=======
+>>>>>>> upstream/18.0
                         </td>
                         <td t-if="line.is_exchange" colspan="2">
                             <i class="o_field_widget text-start text-muted text-start">
                                 <span class="oe_form_field oe_form_field_float oe_form_field_monetary fw-bold" dir="ltr">
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                                     <t t-out="line.amount_formatted"/>
                                 </span>
@@ -1637,7 +1646,11 @@
                     </t>
                     <td t-if="!line.is_exchange" style="text-align:right;">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <span class="oe_form_field oe_form_field_float oe_form_field_monetary" style="margin-left: -10px;">
+=======
+                        <span class="oe_form_field oe_form_field_float oe_form_field_monetary" style="margin-left: -10px;" dir="ltr">
+>>>>>>> upstream/18.0
 =======
                         <span class="oe_form_field oe_form_field_float oe_form_field_monetary" style="margin-left: -10px;" dir="ltr">
 >>>>>>> upstream/18.0

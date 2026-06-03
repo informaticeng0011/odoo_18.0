@@ -476,7 +476,10 @@ class TestL10nPlBankAccountVerification(AccountTestInvoicingCommon):
         verifications = self.env['l10n_pl.bank.account.verification'].search([])
         self.assertEqual(len(verifications), verification_start_count + 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_partner_no_vat_dont_create_multiple_verifications(self):
         """
@@ -489,4 +492,7 @@ class TestL10nPlBankAccountVerification(AccountTestInvoicingCommon):
         self._check_form_fields(self.pl_supplier_move, incomplete_partners=self.pl_supplier)
         verification = self.env['l10n_pl.bank.account.verification'].search([])
         self.assertEqual(len(verification), verification_start_count + 1)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

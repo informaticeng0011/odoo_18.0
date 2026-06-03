@@ -122,11 +122,18 @@ class AccountEdiProxyClientUser(models.Model):
     def _call_peppol_proxy(self, endpoint, params=None):
         if (
             self.env.company._get_peppol_edi_mode() == 'demo'
+<<<<<<< HEAD
             and (demo_endpoint := DEMO_ENDPOINTS.get(endpoint.split('/')[-1]))
         ):
             self.ensure_one()
             if self.proxy_type != 'pdp':
                 raise UserError(self.env._('EDI user should be of type PDP'))
+=======
+            and self.proxy_type == 'pdp'
+            and (demo_endpoint := DEMO_ENDPOINTS.get(endpoint.split('/')[-1]))
+        ):
+            self.ensure_one()
+>>>>>>> upstream/18.0
             return demo_endpoint(params)
         else:
             return super()._call_peppol_proxy(endpoint, params)

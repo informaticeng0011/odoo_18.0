@@ -258,7 +258,10 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1014,6 +1017,9 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1770,11 +1776,14 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const order = this.models["pos.order"].find(
                 (o) => o.access_token === data["pos.order"][0].access_token
             );
             if (status === "success" && !this.currentOrder.access_token && order) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2534,6 +2543,9 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3330,6 +3342,10 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        const pmIds = this.config.payment_method_ids.map((o) => o.id);
+>>>>>>> upstream/18.0
 =======
         const pmIds = this.config.payment_method_ids.map((o) => o.id);
 >>>>>>> upstream/18.0
@@ -4386,8 +4402,12 @@ patch(SelfOrder.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (this.config.self_ordering_mode === "kiosk" &&
                         this.config.payment_method_ids.includes(rec.id)))
+=======
+                    (this.config.self_ordering_mode === "kiosk" && pmIds.includes(rec.id)))
+>>>>>>> upstream/18.0
 =======
                     (this.config.self_ordering_mode === "kiosk" && pmIds.includes(rec.id)))
 >>>>>>> upstream/18.0

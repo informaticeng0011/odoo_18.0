@@ -261,7 +261,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1064,12 +1067,15 @@ class FleetVehicleAssignationLog(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         employees = self.env['hr.employee'].search([('work_contact_id', 'in', self.driver_id.ids)])
 
         for log in self:
             employee = employees.filtered(lambda e: e.work_contact_id.id == log.driver_id.id)
             log.driver_employee_id = employee and employee[0] or False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1867,6 +1873,9 @@ class FleetVehicleAssignationLog(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

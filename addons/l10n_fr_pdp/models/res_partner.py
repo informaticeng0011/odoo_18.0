@@ -30,7 +30,10 @@ class ResPartner(models.Model):
             ('peppol_valid', 'Partner is on Peppol'),
         ],
         string='E-Invoicing State',
+<<<<<<< HEAD
         company_dependent=True,
+=======
+>>>>>>> upstream/18.0
         compute="_compute_pdp_verification_display_state",
     )
 
@@ -50,6 +53,10 @@ class ResPartner(models.Model):
     # -------------------------------------------------------------------------
 
     @api.depends('peppol_verification_state', 'peppol_endpoint', 'peppol_eas')
+<<<<<<< HEAD
+=======
+    @api.depends_context('company')
+>>>>>>> upstream/18.0
     def _compute_pdp_verification_display_state(self):
         for partner in self:
             partner.pdp_verification_display_state = partner._get_pdp_display_verification_state(partner.peppol_verification_state)

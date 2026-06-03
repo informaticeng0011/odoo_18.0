@@ -15,6 +15,11 @@ import { setupEditor } from "./_helpers/editor";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { getContent } from "./_helpers/selection";
+import { unformat } from "./_helpers/format";
+>>>>>>> upstream/18.0
 =======
 import { getContent } from "./_helpers/selection";
 import { unformat } from "./_helpers/format";
@@ -126,6 +131,7 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         await setupEditor(
             `]<table><tbody><tr><td><ul><li>a[</li><li>b</li><li>c</li></ul></td><td><br></td></tr></tbody></table>`
         );
@@ -133,6 +139,8 @@ describe("range not collapsed", () => {
         await press(["ctrl", "c"], { dataTransfer: clipboardData });
         expect(clipboardData.getData("text/plain")).toBe("a");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -188,6 +196,9 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -618,7 +629,10 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1477,6 +1491,9 @@ describe("range not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

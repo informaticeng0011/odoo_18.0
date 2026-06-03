@@ -65,6 +65,7 @@ import { _t } from "@web/core/l10n/translation";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1011,6 +1012,8 @@ export default class IndexedDB {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { AlertDialog } from "@web/core/confirmation_dialog/confirmation_dialog";
 
 export default class IndexedDB {
@@ -1080,6 +1083,9 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1282,6 +1288,12 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.dialog = dialog;
+        this._isReconnecting = false;
+        this._reloadDialogShown = false;
+>>>>>>> upstream/18.0
 =======
         this.dialog = dialog;
         this._isReconnecting = false;
@@ -1696,8 +1708,11 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             console.error("Database error: " + event.target.errorCode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1903,6 +1918,9 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2104,6 +2122,10 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            this._setupVisibilityProbe();
+>>>>>>> upstream/18.0
 =======
             this._setupVisibilityProbe();
 >>>>>>> upstream/18.0
@@ -2331,6 +2353,7 @@ export default class IndexedDB {
                         delete alreadyExists.write_date;
                     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3680,6 +3703,9 @@ export default class IndexedDB {
 =======
                     if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
 >>>>>>> upstream/18.0
+=======
+                    if (alreadyExists && JSON.stringify(alreadyExists) === JSON.stringify(data)) {
+>>>>>>> upstream/18.0
                         delete arrData[idx];
                     }
                 }
@@ -3700,6 +3726,7 @@ export default class IndexedDB {
             });
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5047,6 +5074,9 @@ export default class IndexedDB {
 =======
         return Promise.allSettled(promises).then((results) => results);
 >>>>>>> upstream/18.0
+=======
+        return Promise.allSettled(promises).then((results) => results);
+>>>>>>> upstream/18.0
     }
     getNewTransaction(dbStore) {
         try {
@@ -5123,7 +5153,10 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5323,6 +5356,9 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5524,7 +5560,10 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5772,6 +5811,9 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6278,8 +6320,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return Promise.allSettled(promises).then((results) => {
             return results.reduce((acc, result) => {
+=======
+        return Promise.allSettled(promises).then((results) =>
+            results.reduce((acc, result) => {
+>>>>>>> upstream/18.0
 =======
         return Promise.allSettled(promises).then((results) =>
             results.reduce((acc, result) => {
@@ -7965,8 +8012,13 @@ export default class IndexedDB {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }, {});
         });
+=======
+            }, {})
+        );
+>>>>>>> upstream/18.0
 =======
             }, {})
         );

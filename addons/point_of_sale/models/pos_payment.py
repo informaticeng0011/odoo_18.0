@@ -305,6 +305,11 @@ class PosPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    _sql_constraints = [('uuid_unique', 'unique (uuid)', "A payment with this uuid already exists")]
+
+>>>>>>> upstream/18.0
 =======
     _sql_constraints = [('uuid_unique', 'unique (uuid)', "A payment with this uuid already exists")]
 
@@ -1467,8 +1472,11 @@ class PosPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for payment in self - change_payment:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1714,6 +1722,9 @@ class PosPayment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
