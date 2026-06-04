@@ -262,13 +262,19 @@ class PdpFlow(models.Model):
     def action_send(self, check_totp=True):
         """Send flow payload to transport gateway."""
 <<<<<<< HEAD
+<<<<<<< HEAD
         auth_totp_disabled = not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy'))
 =======
+=======
+>>>>>>> upstream/18.0
         auth_totp_disabled = (
             not self.env.user.totp_enabled
             and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy'))
             and self.env.company._get_peppol_edi_mode() != 'demo'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if check_totp and auth_totp_disabled:
             raise RedirectWarning(

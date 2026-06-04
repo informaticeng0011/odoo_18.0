@@ -13,6 +13,10 @@ import {
     formatDate,
     formatDateTime,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    getLocalYearAndWeek,
+>>>>>>> upstream/18.0
 =======
     getLocalYearAndWeek,
 >>>>>>> upstream/18.0
@@ -38,7 +42,10 @@ beforeEach(() => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("getLocalYearAndWeek", async () => {
     patchWithCleanup(localization, { weekStart: 1, });
     expect(getLocalYearAndWeek(new Date("2026/12/25"))).toEqual({year: 2026, week: 52});
@@ -47,6 +54,9 @@ test("getLocalYearAndWeek", async () => {
     expect(getLocalYearAndWeek(new Date("2027/01/04"))).toEqual({year: 2027, week: 1});
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("formatDate/formatDateTime specs", async () => {
     patchWithCleanup(localization, {

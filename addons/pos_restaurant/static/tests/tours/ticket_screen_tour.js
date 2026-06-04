@@ -270,6 +270,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as DeviceSynchronization from "@pos_restaurant/../tests/tours/utils/devices_synchronization";
+>>>>>>> upstream/18.0
 =======
 import * as DeviceSynchronization from "@pos_restaurant/../tests/tours/utils/devices_synchronization";
 >>>>>>> upstream/18.0
@@ -1346,7 +1350,10 @@ registry.category("web_tour.tours").add("PosResTicketScreenTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             TicketScreen.clickDiscard(),
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1892,6 +1899,7 @@ registry.category("web_tour.tours").add("OrderNumberConflictTour", {
             Chrome.clickPlanButton(),
             Chrome.clickMenuOption("Orders"),
             TicketScreen.nthColumnContains(1, 2, "Order"),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2687,6 +2695,8 @@ registry.category("web_tour.tours").add("OrderNumberConflictTour", {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             TicketScreen.nthColumnContains(2, 2, "Self-Order"),
             TicketScreen.nthColumnContains(2, 3, "S"),
         ].flat(),
@@ -2786,6 +2796,9 @@ registry.category("web_tour.tours").add("OrderNumberConflictTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3229,6 +3242,9 @@ registry.category("web_tour.tours").add("test_cancel_order_from_ui", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3970,6 +3986,9 @@ registry.category("web_tour.tours").add("OrderSynchronisationTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

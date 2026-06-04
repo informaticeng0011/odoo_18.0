@@ -250,6 +250,10 @@ from odoo import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo.exceptions import ValidationError
 >>>>>>> upstream/18.0
@@ -1541,7 +1545,10 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2606,6 +2613,7 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2632,6 +2640,8 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3662,6 +3672,7 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3798,6 +3809,8 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4653,6 +4666,7 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4689,6 +4703,8 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5441,6 +5457,7 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5931,4 +5948,15 @@ class TestPrintCheck(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_set_non_numeric_check_next_number_on_journal(self):
+        """
+        Test that setting a non-numeric value as the journal's
+        Next Check Number raises a ValidationError.
+        """
+        bank_journal = self.company_data['default_journal_bank']
+        with self.assertRaisesRegex(ValidationError, "Next Check Number should only contains numbers."):
+            bank_journal.check_next_number = "F1234"
 >>>>>>> upstream/18.0

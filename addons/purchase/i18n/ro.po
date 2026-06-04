@@ -185,6 +185,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* purchase
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1556,10 +1557,16 @@
 #
 # Translators:
 >>>>>>> upstream/18.0
+=======
+# * purchase
+#
+# Translators:
+>>>>>>> upstream/18.0
 # Lyall Kindmurr, 2024
 # Wil Odoo, 2024
 # Dorin Hongu <dhongu@gmail.com>, 2025
 # Larisa_nexterp, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2648,10 +2655,15 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Odoo Translation Bot <c3p@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Odoo Translation Bot <c3p@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4248,6 +4260,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-04-14 08:22+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -4301,6 +4315,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4402,6 +4419,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5701,11 +5719,17 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.actions.report,print_report_name:purchase.action_report_purchase_order
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6535,6 +6559,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                (object.state in ('draft', 'sent') and 'Request for "
 "Quotation - %s' % (object.name) or\n"
 "                'Purchase Order - %s' % (object.name))"
@@ -6790,6 +6816,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7595,6 +7624,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+", este 100% gratuit! Veți economisi timp creând oferte frumoase și urmărind "
+"vânzările."
+>>>>>>> upstream/18.0
 =======
 ", este 100% gratuit! Veți economisi timp creând oferte frumoase și urmărind "
 "vânzările."
@@ -8923,6 +8957,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -8934,6 +8969,8 @@ msgid ""
 "        <t t-if=\"object.date_planned\">\n"
 "            <span style=\"font-weight:bold;\" t-out=\"format_date(object.date_planned) or ''\">05/05/2021</span>.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9689,6 +9726,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10437,10 +10477,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11187,6 +11230,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11687,6 +11733,7 @@ msgid ""
 "    </p>\n"
 "</div>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12491,6 +12538,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
 "        Stimate <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</"
@@ -12757,6 +12806,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13505,10 +13557,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n"
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14255,6 +14310,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15017,6 +15075,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15800,6 +15861,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -15819,6 +15881,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16586,6 +16650,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17342,6 +17409,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>)\n"
 "        </t>\n"
 "        <br/><br/>\n"
@@ -17349,6 +17417,8 @@ msgid ""
 "        <t t-if=\"object.partner_ref\">\n"
 "            with reference: <t t-out=\"object.partner_ref or ''\">REF_XXX</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18099,6 +18169,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18847,6 +18920,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <a t-att-href=\"object.get_confirm_url(confirm_type='reception')\" target=\"_blank\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "                Accept</a>\n"
 "\n"
@@ -18858,6 +18932,8 @@ msgid ""
 "            <br/><br/>\n"
 "            <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19617,6 +19693,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20387,6 +20466,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-credit-card me-1\" aria-label=\"Achiziții\" role=\"img\" "
+"title=\"Achiziții\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-credit-card me-1\" aria-label=\"Achiziții\" role=\"img\" "
 "title=\"Achiziții\"/>"
@@ -21714,8 +21798,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Done\" "
 "title=\"Done\"/><span class=\"d-none d-md-inline\"> Finalizat</span>"
+=======
+"<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Finalizat\" "
+"title=\"Finalizat\"/><span class=\"d-none d-md-inline\"> Finalizat</span>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Finalizat\" "
 "title=\"Finalizat\"/><span class=\"d-none d-md-inline\"> Finalizat</span>"
@@ -23045,7 +23134,11 @@ msgid "<i class=\"fa fa-fw fa-check\"/>Reversed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-check\"/>Anulat"
+=======
+msgstr "<i class=\"fa fa-fw fa-check\"/>Stornat"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-check\"/>Stornat"
 >>>>>>> upstream/18.0
@@ -24106,7 +24199,11 @@ msgid "<i class=\"fa fa-fw fa-clock-o\"/>Waiting Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/>În așteptare"
+=======
+msgstr "<i class=\"fa fa-fw fa-clock-o\"/>În așteptarea plății"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-fw fa-clock-o\"/>În așteptarea plății"
 >>>>>>> upstream/18.0
@@ -24908,6 +25005,7 @@ msgid ""
 "Waiting for Bill</span>"
 msgstr ""
 "<i class=\"fa fa-fw fa-file-text\" role=\"img\" aria-label=\"Se așteaptă "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26214,6 +26312,10 @@ msgstr ""
 "factura\" title=\"Se așteaptă factura\"/><span class=\"d-none d-md-inline\"> "
 "Se așteaptă factura</span>"
 >>>>>>> upstream/18.0
+=======
+"factura\" title=\"Se așteaptă factura\"/><span class=\"d-none d-md-inline\"> "
+"Se așteaptă factura</span>"
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.portal_my_purchase_orders
@@ -26491,7 +26593,11 @@ msgid "<i class=\"fa fa-print me-1\"/>Download / Print"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-print me-1\"/>Descarcă / Tipărește"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-print me-1\"/>Descarcă / Tipărește"
 >>>>>>> upstream/18.0
@@ -27537,7 +27643,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                          <span class=\"d-block d-md-none\">Confirmation</span>"
+=======
+"                          <span class=\"d-block d-md-none\">Confirmation</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                          <span class=\"d-block d-md-none\">Confirmation</"
 "span>"
@@ -28803,12 +28914,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Cerere de ofertă </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Comandă de achiziție </span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29559,6 +29673,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30322,7 +30439,11 @@ msgid "<span class=\"o_stat_text\">Bill Matching</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Potrivire facturi</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Potrivire facturi</span>"
 >>>>>>> upstream/18.0
@@ -31383,7 +31504,11 @@ msgid "<span class=\"o_stat_text\">Purchase Matching</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Potrivire achiziții</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Potrivire achiziții</span>"
 >>>>>>> upstream/18.0
@@ -32483,6 +32608,7 @@ msgid "<span><b>Good job!</b> You went through all steps of this tour.</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "<span><b>Bună treabă!</b> Ai trecut prin toate etapele acestui tur"
@@ -32540,6 +32666,10 @@ msgstr "<span><b>Bună treabă!</b> Ai trecut prin toate etapele acestui tur"
 >>>>>>> upstream/18.0
 =======
 msgstr "<span><b>Bună treabă!</b> Ai trecut prin toate etapele acestui tur"
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"<span><b>Bună treabă!</b> Ai trecut prin toate etapele acestui tur</span>"
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -33937,6 +34067,7 @@ msgstr "<strong class=\"d-block mb-1\">Facturi</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -34037,6 +34168,11 @@ msgstr "<strong class=\"d-block mb-1\">Facturi</strong>"
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
+msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
+msgstr "<strong class=\"d-block mt-3\">Adresă de livrare:</strong>"
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong class=\"d-block mt-3\">Shipping address:</strong>"
@@ -35625,6 +35761,7 @@ msgid "<strong class=\"d-block mt-3\">Shipping address</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: purchase
@@ -35772,6 +35909,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "<strong class=\"d-block mt-3\">Adresă de livrare</strong>"
+
+#. module: purchase
 >>>>>>> upstream/18.0
 =======
 msgstr "<strong class=\"d-block mt-3\">Adresă de livrare</strong>"
@@ -37370,7 +37512,11 @@ msgid "<strong>Buyer</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Cumpărător</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Cumpărător</strong>"
 >>>>>>> upstream/18.0
@@ -38442,7 +38588,11 @@ msgid "<strong>Disc.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Reducere</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Reducere</strong>"
 >>>>>>> upstream/18.0
@@ -39503,7 +39653,11 @@ msgid "<strong>Expected Arrival:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Sosire estimată:</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Sosire estimată:</strong>"
 >>>>>>> upstream/18.0
@@ -40580,7 +40734,11 @@ msgid "<strong>Payment Terms: </strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Termeni de plată: </strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Termeni de plată: </strong>"
 >>>>>>> upstream/18.0
@@ -41704,6 +41862,7 @@ msgstr "<strong>Data solicitării ofertei:</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:purchase.report_purchasequotation_document
 msgid "<strong>Shipping address:</strong>"
 msgstr "<strong>Adresa livrare:</strong>"
@@ -41714,6 +41873,8 @@ msgid "<strong>Shipping address</strong>"
 msgstr ""
 
 #. module: purchase
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -42621,7 +42782,11 @@ msgid "<strong>This purchase has been cancelled.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Această achiziție a fost anulată.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Această achiziție a fost anulată.</strong>"
 >>>>>>> upstream/18.0
@@ -43682,7 +43847,11 @@ msgid "<strong>This quotation has been accepted.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Această ofertă a fost acceptată.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Această ofertă a fost acceptată.</strong>"
 >>>>>>> upstream/18.0
@@ -44743,7 +44912,11 @@ msgid "<strong>This quotation has been declined.</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Această ofertă a fost refuzată.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Această ofertă a fost refuzată.</strong>"
 >>>>>>> upstream/18.0
@@ -45809,7 +45982,11 @@ msgid "<strong>Your Order Reference</strong>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<strong>Referința comenzii dvs.</strong>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<strong>Referința comenzii dvs.</strong>"
 >>>>>>> upstream/18.0
@@ -46874,6 +47051,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"O comandă de achiziție generală este un acord de achiziție între un "
+"cumpărător și un furnizor pentru a livra bunuri sau servicii cumpărătorului "
+"la un preț prestabilit pentru o perioadă de timp."
+>>>>>>> upstream/18.0
 =======
 "O comandă de achiziție generală este un acord de achiziție între un "
 "cumpărător și un furnizor pentru a livra bunuri sau servicii cumpărătorului "
@@ -48463,7 +48646,11 @@ msgid "A sample email has been sent to %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Un e-mail mostră a fost trimis la%s."
+=======
+msgstr "Un e-mail mostră a fost trimis la %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Un e-mail mostră a fost trimis la %s."
 >>>>>>> upstream/18.0
@@ -49508,8 +49695,12 @@ msgid "A warning can be set on a product or a customer (Purchase)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "O avertizare poate fi setată pe un produs sau pe un client (Achiziție)"
+=======
+msgstr "O avertizare poate fi setată pe un produs sau pe un client (Achiziție)"
+>>>>>>> upstream/18.0
 =======
 msgstr "O avertizare poate fi setată pe un produs sau pe un client (Achiziție)"
 >>>>>>> upstream/18.0
@@ -50527,12 +50718,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "According to product configuration, the received quantity can be automatically computed by mechanism:\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
 msgstr ""
 "Conform configurației produsului, cantitatea primită poate fi calculată automat de mecanism:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51281,6 +51475,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -52081,7 +52278,11 @@ msgid "Add Down Payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă avans"
 >>>>>>> upstream/18.0
@@ -53174,7 +53375,11 @@ msgid "Add to PO"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă la CA"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la CA"
 >>>>>>> upstream/18.0
@@ -54236,7 +54441,11 @@ msgid "Add to Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adaugă la Comanda de Achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adaugă la Comanda de Achiziție"
 >>>>>>> upstream/18.0
@@ -55303,7 +55512,11 @@ msgid "All"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tot"
+=======
+msgstr "Toate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Toate"
 >>>>>>> upstream/18.0
@@ -56400,7 +56613,11 @@ msgid "Aml"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aml"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aml"
 >>>>>>> upstream/18.0
@@ -57470,8 +57687,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cantitatea de timp dintre data planificată și comanda după dată pentru "
 "fiecare linie de comandă de achiziție."
+=======
+"Timpul dintre data planificată și data comenzii pentru fiecare linie de "
+"comandă de achiziție."
+>>>>>>> upstream/18.0
 =======
 "Timpul dintre data planificată și data comenzii pentru fiecare linie de "
 "comandă de achiziție."
@@ -58827,7 +59049,11 @@ msgid "Are you sure you want to cancel the selected RFQs/Orders?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sigur doriți să anulați CdO/Comenzile selectate?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sigur doriți să anulați CdO/Comenzile selectate?"
 >>>>>>> upstream/18.0
@@ -59910,7 +60136,11 @@ msgid "Auto-complete"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completare Automată"
+=======
+msgstr "Completare automată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Completare automată"
 >>>>>>> upstream/18.0
@@ -60708,6 +60938,7 @@ msgstr "Completare automată"
 #: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_vendor_bill_id
 #: model:ir.model.fields,help:purchase.field_account_move__purchase_vendor_bill_id
 msgid "Auto-complete from a past bill / purchase order."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61781,6 +62012,9 @@ msgstr "Completare automată dintr-o factură anterioară / comandă de achiziț
 =======
 msgstr "Completare automată dintr-o factură anterioară / comandă de achiziție."
 >>>>>>> upstream/18.0
+=======
+msgstr "Completare automată dintr-o factură anterioară / comandă de achiziție."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_account_bank_statement_line__purchase_id
@@ -62050,7 +62284,11 @@ msgid "Auto-complete from a past purchase order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Completare automată dintr-o comandă anterioară de achiziție."
+=======
+msgstr "Completare automată dintr-o comandă de achiziție anterioară."
+>>>>>>> upstream/18.0
 =======
 msgstr "Completare automată dintr-o comandă de achiziție anterioară."
 >>>>>>> upstream/18.0
@@ -63111,7 +63349,11 @@ msgid "Automatically lock confirmed orders to prevent editing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Blocați automat comenzile confirmate pentru a preveni editarea"
+=======
+msgstr "Blochează automat comenzile confirmate pentru a preveni editarea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează automat comenzile confirmate pentru a preveni editarea"
 >>>>>>> upstream/18.0
@@ -64172,7 +64414,11 @@ msgid "Automatically remind the receipt date to your vendors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Reamintiți automat data primirii furnizorilor dvs."
+=======
+msgstr "Reamintește automat furnizorilor data primirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reamintește automat furnizorilor data primirii"
 >>>>>>> upstream/18.0
@@ -65238,8 +65484,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trimiteți automat un e-mail de confirmare furnizorului cu X zile înainte de "
 "data primirii preconizate, solicitându-i să confirme data exactă."
+=======
+"Trimite automat un e-mail de confirmare furnizorului cu X zile înainte de "
+"data estimată a primirii, solicitând confirmarea datei exacte."
+>>>>>>> upstream/18.0
 =======
 "Trimite automat un e-mail de confirmare furnizorului cu X zile înainte de "
 "data estimată a primirii, solicitând confirmarea datei exacte."
@@ -66564,7 +66815,11 @@ msgid "Average Cost"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Costul mediu "
+=======
+msgstr "Cost mediu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cost mediu"
 >>>>>>> upstream/18.0
@@ -67631,7 +67886,11 @@ msgid "Bill Control"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Control factură achiziție"
+=======
+msgstr "Control factură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Control factură"
 >>>>>>> upstream/18.0
@@ -68703,7 +68962,11 @@ msgid "Bill Matching"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrivire facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrivire facturi"
 >>>>>>> upstream/18.0
@@ -69764,7 +70027,11 @@ msgid "Bill to Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Factură la Comandă de Achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Factură la Comandă de Achiziție"
 >>>>>>> upstream/18.0
@@ -70831,7 +71098,11 @@ msgid "Billed Amount Untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoare facturată fără taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare facturată fără taxe"
 >>>>>>> upstream/18.0
@@ -71892,7 +72163,11 @@ msgid "Billed Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cant facturată"
+=======
+msgstr "Cantitate facturată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate facturată"
 >>>>>>> upstream/18.0
@@ -73016,7 +73291,11 @@ msgid "Cancelled Purchase Order #"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comandă de Achiziție Anulată #"
+=======
+msgstr "Comandă de achiziție anulată #"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comandă de achiziție anulată #"
 >>>>>>> upstream/18.0
@@ -74079,6 +74358,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu se poate șterge o linie de comandă de achiziție aflată în starea „%s”."
+>>>>>>> upstream/18.0
 =======
 "Nu se poate șterge o linie de comandă de achiziție aflată în starea „%s”."
 >>>>>>> upstream/18.0
@@ -75185,7 +75468,11 @@ msgid "Company Total"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total companie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total companie"
 >>>>>>> upstream/18.0
@@ -76267,7 +76554,11 @@ msgid "Confirm RFQ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Confirmă CdO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmă CdO"
 >>>>>>> upstream/18.0
@@ -77328,7 +77619,11 @@ msgid "Confirm Receipt Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Confirmați data primirii"
+=======
+msgstr "Confirmă data primirii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmă data primirii"
 >>>>>>> upstream/18.0
@@ -78389,7 +78684,11 @@ msgid "Confirm purchase orders in one step"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Confirmare comandă de achiziție într-un singur pas"
+=======
+msgstr "Confirmă comenzile de achiziție într-un singur pas"
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmă comenzile de achiziție într-un singur pas"
 >>>>>>> upstream/18.0
@@ -79451,7 +79750,11 @@ msgid "Confirm your purchase."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Confirmați achiziția."
+=======
+msgstr "Confirmă achiziția."
+>>>>>>> upstream/18.0
 =======
 msgstr "Confirmă achiziția."
 >>>>>>> upstream/18.0
@@ -80530,7 +80833,11 @@ msgid "Connect with your software!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conectați-vă cu software-ul dvs.!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conectați-vă cu software-ul dvs.!"
 >>>>>>> upstream/18.0
@@ -81592,7 +81899,11 @@ msgid "Connect your software"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Conectați-vă software-ul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Conectați-vă software-ul"
 >>>>>>> upstream/18.0
@@ -82653,7 +82964,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Contactați"
+=======
+msgstr "Contact"
+>>>>>>> upstream/18.0
 =======
 msgstr "Contact"
 >>>>>>> upstream/18.0
@@ -83715,7 +84030,11 @@ msgid "Control Policy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Politică control"
+=======
+msgstr "Politică de control"
+>>>>>>> upstream/18.0
 =======
 msgstr "Politică de control"
 >>>>>>> upstream/18.0
@@ -84779,8 +85098,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Conversia între Unitățile de Măsură poate fi efectuată numai dacă acestea "
 "aparțin aceleiași categorii. Conversia va fi făcută pe baza indicilor."
+=======
+"Conversia între unități de măsură se poate face doar dacă aparțin aceleiași "
+"categorii. Conversia se va face pe baza rapoartelor."
+>>>>>>> upstream/18.0
 =======
 "Conversia între unități de măsură se poate face doar dacă aparțin aceleiași "
 "categorii. Conversia se va face pe baza rapoartelor."
@@ -86105,7 +86429,11 @@ msgid "Copy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Copie"
+=======
+msgstr "Copiază"
+>>>>>>> upstream/18.0
 =======
 msgstr "Copiază"
 >>>>>>> upstream/18.0
@@ -87166,7 +87494,11 @@ msgid "Country code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Codul țării"
+=======
+msgstr "Cod țară"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cod țară"
 >>>>>>> upstream/18.0
@@ -88227,7 +88559,11 @@ msgid "Create Bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creare factură"
+=======
+msgstr "Creează factură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează factură"
 >>>>>>> upstream/18.0
@@ -89289,7 +89625,11 @@ msgid "Create Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați facturi"
+=======
+msgstr "Creează facturi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează facturi"
 >>>>>>> upstream/18.0
@@ -90350,7 +90690,11 @@ msgid "Create Vendor Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creare facturi furnizor"
+=======
+msgstr "Creează facturi furnizor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează facturi furnizor"
 >>>>>>> upstream/18.0
@@ -91411,7 +91755,11 @@ msgid "Create a new product variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creați o nouă variantă de produs"
+=======
+msgstr "Creează o nouă variantă de produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creează o nouă variantă de produs"
 >>>>>>> upstream/18.0
@@ -92481,7 +92829,11 @@ msgid "Created on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Creat pe"
+=======
+msgstr "Creat la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Creat la"
 >>>>>>> upstream/18.0
@@ -93551,7 +93903,11 @@ msgid "Currency Rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Curs Valutar"
+=======
+msgstr "Curs valutar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Curs valutar"
 >>>>>>> upstream/18.0
@@ -94612,7 +94968,11 @@ msgid "Customer Portal URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa URL a Portalului Clientului"
+=======
+msgstr "URL portal client"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL portal client"
 >>>>>>> upstream/18.0
@@ -95738,7 +96098,11 @@ msgid "Default Sales Price Include"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preț de vânzare implicit cu taxe incluse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț de vânzare implicit cu taxe incluse"
 >>>>>>> upstream/18.0
@@ -96866,6 +97230,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Implicit dacă prețul de vânzare folosit pe produs și facturi pentru această "
+"companie include taxele."
+>>>>>>> upstream/18.0
 =======
 "Implicit dacă prețul de vânzare folosit pe produs și facturi pentru această "
 "companie include taxele."
@@ -98259,7 +98628,11 @@ msgid "Define your terms and conditions ..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Definiți termenii și condiții ..."
+=======
+msgstr "Definiți termenii și condițiile ..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Definiți termenii și condițiile ..."
 >>>>>>> upstream/18.0
@@ -99323,8 +99696,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data de livrare așteptată de la furnizor. Această dată respectiv implicită "
 "la furnizorul de prețuri de listă timp de conducere apoi data de astăzi."
+=======
+"Data de livrare așteptată de la furnizor. Această dată este implicită la "
+"timpul de livrare din lista de prețuri a furnizorului, apoi data de astăzi."
+>>>>>>> upstream/18.0
 =======
 "Data de livrare așteptată de la furnizor. Această dată este implicită la "
 "timpul de livrare din lista de prețuri a furnizorului, apoi data de astăzi."
@@ -100652,7 +101030,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Data de livrare promisă de vânzător. Această dată este utilizată pentru a "
+=======
+"Data de livrare promisă de furnizor. Această dată este folosită pentru a "
+>>>>>>> upstream/18.0
 =======
 "Data de livrare promisă de furnizor. Această dată este folosită pentru a "
 >>>>>>> upstream/18.0
@@ -101718,7 +102100,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Reprezintă data în care oferta trebuie să fie confirmată și convertită "
+=======
+"Reprezintă data până la care oferta trebuie să fie confirmată și convertită "
+>>>>>>> upstream/18.0
 =======
 "Reprezintă data până la care oferta trebuie să fie confirmată și convertită "
 >>>>>>> upstream/18.0
@@ -102786,7 +103172,11 @@ msgid "Disc.%"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Disc.%"
+=======
+msgstr "Reduc.%"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reduc.%"
 >>>>>>> upstream/18.0
@@ -103867,7 +104257,11 @@ msgid "Display Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de afișare"
+=======
+msgstr "Tip afișare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip afișare"
 >>>>>>> upstream/18.0
@@ -104944,7 +105338,11 @@ msgid "Distribution Analytic Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cont analitic de distribuție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cont analitic de distribuție"
 >>>>>>> upstream/18.0
@@ -106063,7 +106461,11 @@ msgid "Double validation amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Validare Dublă Valoare"
+=======
+msgstr "Valoare validare dublă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare validare dublă"
 >>>>>>> upstream/18.0
@@ -107125,7 +107527,11 @@ msgid "Down Payment (ref: %(ref)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avans (ref: %(ref)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avans (ref: %(ref)s)"
 >>>>>>> upstream/18.0
@@ -108205,6 +108611,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Trageți și plasați fișierul PDF al cererii de ofertă în lista dvs. de oferte"
 " din Odoo. Bucurați-vă de automatizare!"
@@ -108268,6 +108675,10 @@ msgstr ""
 =======
 "Trageți și plasați fișierul PDF al cererii de ofertă în lista dvs. de oferte"
 " din Odoo. Bucurați-vă de automatizare!"
+>>>>>>> upstream/18.0
+=======
+"Trageți și plasați fișierul PDF al cererii de ofertă în lista dvs. de oferte "
+"din Odoo. Bucurați-vă de automatizare!"
 >>>>>>> upstream/18.0
 =======
 "Trageți și plasați fișierul PDF al cererii de ofertă în lista dvs. de oferte "
@@ -109529,7 +109940,11 @@ msgid "Dropship Address"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adresa de livrare"
+=======
+msgstr "Adresă dropshipping"
+>>>>>>> upstream/18.0
 =======
 msgstr "Adresă dropshipping"
 >>>>>>> upstream/18.0
@@ -110591,7 +111006,11 @@ msgid "Expected Arrival"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sosirea așteptată"
+=======
+msgstr "Sosire estimată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sosire estimată"
 >>>>>>> upstream/18.0
@@ -111658,7 +112077,11 @@ msgid "Extra line with %s "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie Extra cu %s"
+=======
+msgstr "Linie suplimentară cu %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linie suplimentară cu %s"
 >>>>>>> upstream/18.0
@@ -112745,7 +113168,11 @@ msgid "Font awesome icon e.g. fa-tasks"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictogramă Font awesome, de ex. fa-sarcini"
+=======
+msgstr "Pictogramă Font Awesome, ex. fa-tasks"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă Font Awesome, ex. fa-tasks"
 >>>>>>> upstream/18.0
@@ -113818,7 +114245,11 @@ msgid "From Electronic Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "De la Document Electronic"
+=======
+msgstr "Din document electronic"
+>>>>>>> upstream/18.0
 =======
 msgstr "Din document electronic"
 >>>>>>> upstream/18.0
@@ -114879,7 +115310,11 @@ msgid "Fully Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Facturată complet"
+=======
+msgstr "Facturat complet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturat complet"
 >>>>>>> upstream/18.0
@@ -115947,7 +116382,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Obțineți 2 niveluri de aprobări pentru a confirma o comandă de achiziție. "
+=======
+"Obțineți 2 niveluri de aprobare pentru a confirma o comandă de achiziție"
+>>>>>>> upstream/18.0
 =======
 "Obțineți 2 niveluri de aprobare pentru a confirma o comandă de achiziție"
 >>>>>>> upstream/18.0
@@ -117008,7 +117447,11 @@ msgid "Get warnings in orders for products or vendors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertismente în comenzi pentru produse sau furnizori"
+=======
+msgstr "Primiți avertismente în comenzi pentru produse sau furnizori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primiți avertismente în comenzi pentru produse sau furnizori"
 >>>>>>> upstream/18.0
@@ -118072,6 +118515,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bunurile sunt materiale tangibile și mărfuri pe care le furnizați.\n"
+"Un serviciu este un produs nematerial pe care îl furnizați."
+>>>>>>> upstream/18.0
 =======
 "Bunurile sunt materiale tangibile și mărfuri pe care le furnizați.\n"
 "Un serviciu este un produs nematerial pe care îl furnizați."
@@ -119434,7 +119882,11 @@ msgid "Icon to indicate an exception activity."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pictograma care indică o activitate de excepție."
+=======
+msgstr "Pictogramă pentru a indica o activitate de excepție."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pictogramă pentru a indica o activitate de excepție."
 >>>>>>> upstream/18.0
@@ -120495,7 +120947,11 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifat, mesaje noi necesită atenția dumneavoastră."
+=======
+msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, mesajele noi necesită atenția dvs."
 >>>>>>> upstream/18.0
@@ -121557,7 +122013,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dacă este bifată, există mesaje cu eroare de livrare."
+=======
+msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dacă este bifat, unele mesaje au eroare de livrare."
 >>>>>>> upstream/18.0
@@ -122621,7 +123081,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este activat, activează potrivirea în 3 căi pe facturile furnizorului: "
+=======
+"Dacă este activat, activează potrivirea pe 3 căi pe facturile furnizorului: "
+>>>>>>> upstream/18.0
 =======
 "Dacă este activat, activează potrivirea pe 3 căi pe facturile furnizorului: "
 >>>>>>> upstream/18.0
@@ -123686,8 +124150,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este instalat, variantele de produs vor fi adăugate în comenzi de "
 "achiziție printr-o intrare grilă."
+=======
+"Dacă este instalat, variantele de produs vor fi adăugate la comenzile de "
+"achiziție printr-o grilă."
+>>>>>>> upstream/18.0
 =======
 "Dacă este instalat, variantele de produs vor fi adăugate la comenzile de "
 "achiziție printr-o grilă."
@@ -125013,7 +125482,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Dacă este adevărat, ambalajul poate fi utilizat pentru comenzi de achiziție"
+=======
+"Dacă este adevărat, ambalajul poate fi folosit pentru comenzi de achiziție"
+>>>>>>> upstream/18.0
 =======
 "Dacă este adevărat, ambalajul poate fi folosit pentru comenzi de achiziție"
 >>>>>>> upstream/18.0
@@ -126075,7 +126548,11 @@ msgid "Import Template for Products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Importa Template pentru Produse"
+=======
+msgstr "Importă șablon pentru produse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Importă șablon pentru produse"
 >>>>>>> upstream/18.0
@@ -127147,6 +127624,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "La comenzile de achiziție selectate pentru îmbinare, aceste detalii trebuie să fie identice:\n"
 "Furnizor, monedă, destinație, adresă dropshipping și acord"
@@ -127209,6 +127687,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 "La comenzile de achiziție selectate pentru îmbinare, aceste detalii trebuie să fie identice:\n"
+"Furnizor, monedă, destinație, adresă dropshipping și acord"
+>>>>>>> upstream/18.0
+=======
+"La comenzile de achiziție selectate pentru îmbinare, aceste detalii trebuie "
+"să fie identice:\n"
 "Furnizor, monedă, destinație, adresă dropshipping și acord"
 >>>>>>> upstream/18.0
 =======
@@ -128719,7 +129202,11 @@ msgid "In the Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "În Comanda"
+=======
+msgstr "În Comandă"
+>>>>>>> upstream/18.0
 =======
 msgstr "În Comandă"
 >>>>>>> upstream/18.0
@@ -129794,8 +130281,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Termenii Comerciali Internationali sunt o serie de termeni comerciali "
 "predefiniți folosiți in tranzacțiile internaționale."
+=======
+"Termenii Comerciali Internaționali sunt o serie de termeni comerciali "
+"predefiniți folosiți în tranzacțiile internaționale."
+>>>>>>> upstream/18.0
 =======
 "Termenii Comerciali Internaționali sunt o serie de termeni comerciali "
 "predefiniți folosiți în tranzacțiile internaționale."
@@ -131131,7 +131623,11 @@ msgid "Is Downpayment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Este plată în avans"
+=======
+msgstr "Este avans"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este avans"
 >>>>>>> upstream/18.0
@@ -132197,7 +132693,11 @@ msgid "Is In Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este în comanda de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este în comanda de achiziție"
 >>>>>>> upstream/18.0
@@ -133259,7 +133759,11 @@ msgid "Is Purchase Matched"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Este potrivit cu achiziția"
+>>>>>>> upstream/18.0
 =======
 msgstr "Este potrivit cu achiziția"
 >>>>>>> upstream/18.0
@@ -134320,7 +134824,11 @@ msgid "Journal Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrare de jurnal "
+=======
+msgstr "Înregistrare de jurnal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrare de jurnal"
 >>>>>>> upstream/18.0
@@ -135395,7 +135903,11 @@ msgid "Last Updated on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ultima actualizare pe"
+=======
+msgstr "Ultima actualizare la"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ultima actualizare la"
 >>>>>>> upstream/18.0
@@ -136470,8 +136982,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Let's try the Purchase app to manage the flow from purchase to reception and"
 " invoice control."
+=======
+"Let's try the Purchase app to manage the flow from purchase to reception and "
+"invoice control."
+>>>>>>> upstream/18.0
 =======
 "Let's try the Purchase app to manage the flow from purchase to reception and "
 "invoice control."
@@ -137735,7 +138252,11 @@ msgid "Levels of Approvals"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivelurile de aprobări"
+=======
+msgstr "Niveluri de aprobare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niveluri de aprobare"
 >>>>>>> upstream/18.0
@@ -138796,7 +139317,11 @@ msgid "Levels of Approvals *"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nivelurile de aprobare *"
+=======
+msgstr "Niveluri de aprobare *"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niveluri de aprobare *"
 >>>>>>> upstream/18.0
@@ -139857,7 +140382,11 @@ msgid "Line Amount Untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoare linie fără taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare linie fără taxe"
 >>>>>>> upstream/18.0
@@ -140918,7 +141447,11 @@ msgid "Line Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cant. linie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cant. linie"
 >>>>>>> upstream/18.0
@@ -141979,7 +142512,11 @@ msgid "Line Uom"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UM linie"
+>>>>>>> upstream/18.0
 =======
 msgstr "UM linie"
 >>>>>>> upstream/18.0
@@ -143040,7 +143577,11 @@ msgid "Lock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Blocare"
+=======
+msgstr "Blochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Blochează"
 >>>>>>> upstream/18.0
@@ -144115,7 +144656,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Asigurați-vă că plătiți doar facturi pentru bunurile primite comandate"
+=======
+"Asigurați-vă că plătiți doar facturile pentru care ați primit bunurile "
+"comandate"
+>>>>>>> upstream/18.0
 =======
 "Asigurați-vă că plătiți doar facturile pentru care ați primit bunurile "
 "comandate"
@@ -145440,7 +145986,11 @@ msgid "Manage blanket orders and purchase templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gestionează comenzi generale și șabloane de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gestionează comenzi generale și șabloane de achiziție"
 >>>>>>> upstream/18.0
@@ -146511,7 +147061,11 @@ msgid "Manual Received Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitate Manuală Primită"
+=======
+msgstr "Cantitate primită manual"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate primită manual"
 >>>>>>> upstream/18.0
@@ -147310,6 +147864,7 @@ msgstr "Cantitate primită manual"
 #: model:ir.model.fields,help:purchase.field_res_config_settings__po_lead
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148852,6 +149407,11 @@ msgstr ""
 "to cope with unexpected vendor delays."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"Orders for procuring products, they will be scheduled that many days earlier "
+"to cope with unexpected vendor delays."
+msgstr ""
+>>>>>>> upstream/18.0
 "Marja de eroare pentru termenele de livrare ale furnizorului. Când sistemul "
 "generează comenzi de achiziție pentru procurarea produselor, acestea vor fi "
 "programate cu atâtea zile mai devreme pentru a face față întârzierilor "
@@ -149119,6 +149679,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -149651,6 +150214,7 @@ msgstr ""
 #: model:ir.model.fields,help:purchase.field_res_config_settings__use_po_lead
 msgid ""
 "Margin of error for vendor lead times. When the system generates Purchase "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150496,6 +151060,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Orders for reordering products,they will be scheduled that many days earlier "
 "to cope with unexpected vendor delays."
 msgstr ""
@@ -150749,6 +151315,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -151513,7 +152082,11 @@ msgid "Match"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Potrivire"
+=======
+msgstr "Potrivește"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrivește"
 >>>>>>> upstream/18.0
@@ -152585,7 +153158,11 @@ msgid "Message for Purchase Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaj pentru Comanda de achiziție"
+=======
+msgstr "Mesaj pentru comanda de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaj pentru comanda de achiziție"
 >>>>>>> upstream/18.0
@@ -153657,7 +154234,11 @@ msgid "Minimum Amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitatea minimă"
+=======
+msgstr "Sumă minimă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumă minimă"
 >>>>>>> upstream/18.0
@@ -154719,7 +155300,11 @@ msgid "Minimum amount for which a double validation is required"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Valoare minimă pentru care este necesară o dublă validare"
+=======
+msgstr "Suma minimă pentru care este necesară o dublă validare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Suma minimă pentru care este necesară o dublă validare"
 >>>>>>> upstream/18.0
@@ -155781,8 +156366,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Lipsesc câmpurile obligatorii de pe linia de comandă responsabilă de "
 "achiziție."
+=======
+"Lipsesc câmpuri obligatorii pe linia de comandă de achiziție responsabilă."
+>>>>>>> upstream/18.0
 =======
 "Lipsesc câmpuri obligatorii pe linia de comandă de achiziție responsabilă."
 >>>>>>> upstream/18.0
@@ -156843,7 +157432,11 @@ msgid "My Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită a activității mele"
+=======
+msgstr "Termen limită activitate proprie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită activitate proprie"
 >>>>>>> upstream/18.0
@@ -157905,7 +158498,11 @@ msgid "My Draft RFQs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cdo Ciornă ale mele"
+=======
+msgstr "CdO ciornă ale mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO ciornă ale mele"
 >>>>>>> upstream/18.0
@@ -158983,7 +159580,11 @@ msgid "My RFQs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CdO mele"
+=======
+msgstr "CdO-urile mele"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO-urile mele"
 >>>>>>> upstream/18.0
@@ -160056,6 +160657,7 @@ msgid "Name, TIN, Email, or Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nume, CUI, email, sau referință"
 =======
 msgstr "Nume, CUI, email sau referință"
@@ -160796,11 +161398,14 @@ msgstr "Nume, CUI, email sau referință"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Nume, CUI, email sau referință"
 
 #. module: purchase
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160860,6 +161465,10 @@ msgstr "Cele mai noi"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgid "New"
+msgstr "Nou(ă)"
 >>>>>>> upstream/18.0
 =======
 msgid "New"
@@ -161336,7 +161945,11 @@ msgid "Next Activity Deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Data limită pentru următoarea activitate"
+=======
+msgstr "Termen limită următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Termen limită următoare activitate"
 >>>>>>> upstream/18.0
@@ -162397,7 +163010,11 @@ msgid "Next Activity Summary"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Sumarul următoarei activități"
+=======
+msgstr "Sumar următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sumar următoare activitate"
 >>>>>>> upstream/18.0
@@ -163458,7 +164075,11 @@ msgid "Next Activity Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Următorul tip de activitate"
+=======
+msgstr "Tip următoare activitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip următoare activitate"
 >>>>>>> upstream/18.0
@@ -164520,7 +165141,11 @@ msgid "No Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Niciun mesaj"
+=======
+msgstr "Fără mesaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Fără mesaj"
 >>>>>>> upstream/18.0
@@ -165581,7 +166206,11 @@ msgid "No Purchase Analysis"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nici o analiză de achiziții"
+=======
+msgstr "Nicio analiză de achiziții"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nicio analiză de achiziții"
 >>>>>>> upstream/18.0
@@ -166667,7 +167296,11 @@ msgid "Not Acknowledged"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Necunoscut"
+=======
+msgstr "Nerecunoscut"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nerecunoscut"
 >>>>>>> upstream/18.0
@@ -167728,7 +168361,11 @@ msgid "Not using Odoo?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu folosiți Odoo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu folosiți Odoo?"
 >>>>>>> upstream/18.0
@@ -168846,8 +169483,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "După ce obțineți prețul de la furnizor, puteți finaliza comanda de achiziție"
 " cu prețul corect."
+=======
+"După ce obțineți prețul de la furnizor, puteți finaliza comanda de achiziție "
+"cu prețul corect."
+>>>>>>> upstream/18.0
 =======
 "După ce obțineți prețul de la furnizor, puteți finaliza comanda de achiziție "
 "cu prețul corect."
@@ -170180,7 +170822,11 @@ msgid "Order due %(date)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Comanda scadentă %(date)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Comanda scadentă %(date)s"
 >>>>>>> upstream/18.0
@@ -171287,6 +171933,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Vă rugăm să selectați cel puțin două comenzi de achiziție cu starea CdO și "
 "CdO trimis pentru a le îmbina."
@@ -171352,6 +171999,8 @@ msgstr ""
 "CdO trimis pentru a le îmbina."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172038,6 +172687,7 @@ msgid "Please select bill lines with the same vendor."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172225,6 +172875,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Vă rugăm să selectați liniile de factură cu același furnizor."
 >>>>>>> upstream/18.0
 =======
 msgstr "Vă rugăm să selectați liniile de factură cu același furnizor."
@@ -173049,7 +173702,11 @@ msgid "Pol"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pol"
 >>>>>>> upstream/18.0
@@ -174189,7 +174846,11 @@ msgid "Product Uom Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preț UM produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț UM produs"
 >>>>>>> upstream/18.0
@@ -175250,7 +175911,11 @@ msgid "Product Uom Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cantitate UM produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate UM produs"
 >>>>>>> upstream/18.0
@@ -176357,7 +177022,11 @@ msgid "Purchase Amount Untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoare achiziție fără taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare achiziție fără taxe"
 >>>>>>> upstream/18.0
@@ -177426,7 +178095,11 @@ msgid "Purchase Bill Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Linii factură achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii factură achiziție"
 >>>>>>> upstream/18.0
@@ -178515,7 +179188,11 @@ msgid "Purchase Line and Vendor Bill line matching view"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vizualizare potrivire linii achiziție și linii factură furnizor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizare potrivire linii achiziție și linii factură furnizor"
 >>>>>>> upstream/18.0
@@ -179577,7 +180254,11 @@ msgid "Purchase Matching"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrivire achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrivire achiziție"
 >>>>>>> upstream/18.0
@@ -180669,7 +181350,11 @@ msgid "Purchase Order Approval"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Aprobarea comenzii de achiziție"
+=======
+msgstr "Aprobare comandă de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Aprobare comandă de achiziție"
 >>>>>>> upstream/18.0
@@ -181734,7 +182419,11 @@ msgid "Purchase Order Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Nr. Comenzi de achiziție"
+=======
+msgstr "Număr comenzi de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Număr comenzi de achiziție"
 >>>>>>> upstream/18.0
@@ -182811,7 +183500,11 @@ msgid "Purchase Order Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linii comandă de achizție"
+=======
+msgstr "Linii comandă de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Linii comandă de achiziție"
 >>>>>>> upstream/18.0
@@ -183872,7 +184565,11 @@ msgid "Purchase Order Modification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modificare comenzi achiziție"
+=======
+msgstr "Modificare comandă de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modificare comandă de achiziție"
 >>>>>>> upstream/18.0
@@ -184933,7 +185630,11 @@ msgid "Purchase Order Modification *"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Modificare comenzi achiziție *"
+=======
+msgstr "Modificare comandă de achiziție *"
+>>>>>>> upstream/18.0
 =======
 msgstr "Modificare comandă de achiziție *"
 >>>>>>> upstream/18.0
@@ -185998,8 +186699,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Modificare comandă de achiziție utilizată atunci când doriți să cumpărați "
 "comanda modificabilă după confirmare"
+=======
+"Modificarea comenzii de achiziție utilizată atunci când doriți ca o comandă "
+"de achiziție să fie editabilă după confirmare"
+>>>>>>> upstream/18.0
 =======
 "Modificarea comenzii de achiziție utilizată atunci când doriți ca o comandă "
 "de achiziție să fie editabilă după confirmare"
@@ -187325,7 +188031,11 @@ msgid "Purchase Order Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nume comandă de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nume comandă de achiziție"
 >>>>>>> upstream/18.0
@@ -188387,7 +189097,11 @@ msgid "Purchase Order Warning"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avertisment comandă de achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertisment comandă de achiziție"
 >>>>>>> upstream/18.0
@@ -189462,7 +190176,11 @@ msgid "Purchase Report"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Raport Achiziție"
+=======
+msgstr "Raport achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raport achiziție"
 >>>>>>> upstream/18.0
@@ -190538,7 +191256,11 @@ msgid "Purchase products by multiple of unit # per package"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cumpără produse în multiple de unitate # per pachet"
+=======
+msgstr "Achiziționează produse în multipli de unitate # per pachet"
+>>>>>>> upstream/18.0
 =======
 msgstr "Achiziționează produse în multipli de unitate # per pachet"
 >>>>>>> upstream/18.0
@@ -191599,7 +192321,11 @@ msgid "Purchase reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Memento de achiziție"
+=======
+msgstr "Memento achiziție"
+>>>>>>> upstream/18.0
 =======
 msgstr "Memento achiziție"
 >>>>>>> upstream/18.0
@@ -192661,8 +193387,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Achiziție variante ale unui produs folosind atribute (dimensiune, culoare "
 "etc.)"
+=======
+"Achiziționează variante ale unui produs folosind atribute (dimensiune, "
+"culoare etc.)"
+>>>>>>> upstream/18.0
 =======
 "Achiziționează variante ale unui produs folosind atribute (dimensiune, "
 "culoare etc.)"
@@ -194016,7 +194747,11 @@ msgid "Purchased in the last 365 days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Achiziționat în ultimile 365 de zile "
+=======
+msgstr "Achiziționat în ultimele 365 de zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "Achiziționat în ultimele 365 de zile"
 >>>>>>> upstream/18.0
@@ -195083,7 +195818,11 @@ msgid "Purchases & Bills Union"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Uniunea de achiziții și facturi"
+=======
+msgstr "Uniunea achizițiilor și facturilor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uniunea achizițiilor și facturilor"
 >>>>>>> upstream/18.0
@@ -196147,8 +196886,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puneți o adresă dacă doriți să livrați direct de la furnizor către client. "
 "În caz contrar, păstrați-vă gol pentru a vă livra companiei."
+=======
+"Introduceți o adresă dacă doriți să livrați direct de la furnizor către "
+"client. În caz contrar, lăsați gol pentru a livra către propria companie."
+>>>>>>> upstream/18.0
 =======
 "Introduceți o adresă dacă doriți să livrați direct de la furnizor către "
 "client. În caz contrar, lăsați gol pentru a livra către propria companie."
@@ -197488,7 +198232,11 @@ msgid "Qty Ordered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cant. Comandată"
+=======
+msgstr "Cant. comandată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cant. comandată"
 >>>>>>> upstream/18.0
@@ -198549,7 +199297,11 @@ msgid "Qty Received"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitatea primită"
+=======
+msgstr "Cant. primită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cant. primită"
 >>>>>>> upstream/18.0
@@ -199610,7 +200362,11 @@ msgid "Qty to be Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cat. de facturat"
+=======
+msgstr "Cant. de facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cant. de facturat"
 >>>>>>> upstream/18.0
@@ -200671,7 +201427,11 @@ msgid "Quantities billed by vendors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitățile facturate de furnizori"
+=======
+msgstr "Cantități facturate de furnizori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantități facturate de furnizori"
 >>>>>>> upstream/18.0
@@ -201749,7 +202509,11 @@ msgid "RFQ Approved"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CdO Aprobată"
+=======
+msgstr "CdO aprobată"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO aprobată"
 >>>>>>> upstream/18.0
@@ -202810,7 +203574,11 @@ msgid "RFQ Confirmed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CdO Confirmată"
+=======
+msgstr "CdO confirmată"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO confirmată"
 >>>>>>> upstream/18.0
@@ -203871,7 +204639,11 @@ msgid "RFQ Done"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CdO gata"
+=======
+msgstr "CdO finalizată"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO finalizată"
 >>>>>>> upstream/18.0
@@ -204934,7 +205706,11 @@ msgid "RFQ Sent"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CdO Trimisă"
+=======
+msgstr "CdO trimisă"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO trimisă"
 >>>>>>> upstream/18.0
@@ -205996,7 +206772,11 @@ msgid "RFQ merged with %(oldest_rfq_name)s and %(cancelled_rfq)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CdO îmbinată cu %(oldest_rfq_name)s și %(cancelled_rfq)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO îmbinată cu %(oldest_rfq_name)s și %(cancelled_rfq)s"
 >>>>>>> upstream/18.0
@@ -207058,7 +207838,11 @@ msgid "RFQ merged with %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CdO îmbinată cu %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO îmbinată cu %s"
 >>>>>>> upstream/18.0
@@ -208125,7 +208909,11 @@ msgid "RFQs Sent Last 7 Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "CdO trimise în ultimele 7 zile"
+=======
+msgstr "CdO trimise ultimele 7 zile"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO trimise ultimele 7 zile"
 >>>>>>> upstream/18.0
@@ -209186,7 +209974,11 @@ msgid "RFQs and Purchases"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cotații și Achiziții"
+=======
+msgstr "CdO și achiziții"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO și achiziții"
 >>>>>>> upstream/18.0
@@ -210247,7 +211039,11 @@ msgid "Ratings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ratings"
+=======
+msgstr "Evaluări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluări"
 >>>>>>> upstream/18.0
@@ -211308,7 +212104,11 @@ msgid "Re-Send by Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Retrimitere prin E-mail"
+=======
+msgstr "Retrimite prin e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Retrimite prin e-mail"
 >>>>>>> upstream/18.0
@@ -212369,7 +213169,11 @@ msgid "Read the documentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Citește documentația"
+>>>>>>> upstream/18.0
 =======
 msgstr "Citește documentația"
 >>>>>>> upstream/18.0
@@ -213437,7 +214241,11 @@ msgid "Receipt Reminder Email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "E-mail de memento de primire"
+=======
+msgstr "E-mail memento de primire"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail memento de primire"
 >>>>>>> upstream/18.0
@@ -214503,7 +215311,11 @@ msgid "Received Qty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitatea primită"
+=======
+msgstr "Cant. primită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cant. primită"
 >>>>>>> upstream/18.0
@@ -215564,7 +216376,11 @@ msgid "Received Qty Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metodă Cantitate Primită"
+=======
+msgstr "Metodă cantitate primită"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodă cantitate primită"
 >>>>>>> upstream/18.0
@@ -216636,7 +217452,11 @@ msgid "Received quantities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantități primite "
+=======
+msgstr "Cantități primite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantități primite"
 >>>>>>> upstream/18.0
@@ -217702,7 +218522,11 @@ msgid "Reception Declined"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Recepție refuzată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Recepție refuzată"
 >>>>>>> upstream/18.0
@@ -218763,7 +219587,11 @@ msgid "Record a new vendor bill"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Înregistrați o nouă factură furnizor"
+=======
+msgstr "Înregistrează o nouă factură furnizor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Înregistrează o nouă factură furnizor"
 >>>>>>> upstream/18.0
@@ -219834,7 +220662,11 @@ msgid "Reference Document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Referință document"
+=======
+msgstr "Document de referință"
+>>>>>>> upstream/18.0
 =======
 msgstr "Document de referință"
 >>>>>>> upstream/18.0
@@ -220895,7 +221727,11 @@ msgid "Reference Unit of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unitatea de măsură de referință"
+=======
+msgstr "Unitate de măsură de referință"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unitate de măsură de referință"
 >>>>>>> upstream/18.0
@@ -221692,6 +222528,7 @@ msgstr "Unitate de măsură de referință"
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_purchase_order__origin
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222934,6 +223771,10 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a "
 "sales order)"
 >>>>>>> upstream/18.0
+=======
+"Reference of the document that generated this purchase order request (e.g. a "
+"sales order)"
+>>>>>>> upstream/18.0
 msgstr ""
 "Referința documentului care a generat această comandă de achiziție (de "
 "exemplu, o comandă de vânzare)"
@@ -222945,6 +223786,7 @@ msgid ""
 "matching when you receive the products as this reference is usually written "
 "on the delivery order sent by your vendor."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -224533,6 +225375,11 @@ msgstr ""
 "folosită pentru potrivire la recepția produselor, deoarece această referință "
 "este de obicei scrisă pe comanda de livrare trimisă de furnizor."
 >>>>>>> upstream/18.0
+=======
+"Referința comenzii de vânzare sau a ofertei trimise de furnizor. Este "
+"folosită pentru potrivire la recepția produselor, deoarece această referință "
+"este de obicei scrisă pe comanda de livrare trimisă de furnizor."
+>>>>>>> upstream/18.0
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__mail_reminder_confirmed
@@ -224586,6 +225433,7 @@ msgstr "Cereri de ofertă"
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -225416,6 +226264,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Requests for quotation are documents that will be sent to your suppliers to "
 "request prices for different products you consider buying.\n"
 "                Once an agreement has been found with the supplier, they "
@@ -225672,6 +226522,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -226490,6 +227343,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Selectați liniile facturii furnizorului pentru a le adăuga la o comandă de "
+"achiziție"
+>>>>>>> upstream/18.0
 =======
 "Selectați liniile facturii furnizorului pentru a le adăuga la o comandă de "
 "achiziție"
@@ -227866,8 +228724,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trimis furnizorilor înainte de sosirea așteptată, pe baza setărilor comenzii"
 " "
+=======
+"Trimis furnizorilor înainte de sosirea așteptată, pe baza setărilor comenzii "
+>>>>>>> upstream/18.0
 =======
 "Trimis furnizorilor înainte de sosirea așteptată, pe baza setărilor comenzii "
 >>>>>>> upstream/18.0
@@ -228887,8 +229749,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data"
 " de astăzi"
+=======
+"Afișați toate înregistrările care au data următoarei acțiuni înainte de data "
+"de astăzi"
+>>>>>>> upstream/18.0
 =======
 "Afișați toate înregistrările care au data următoarei acțiuni înainte de data "
 "de astăzi"
@@ -230165,7 +231032,11 @@ msgid "Start on Odoo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Începeți pe Odoo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Începeți pe Odoo"
 >>>>>>> upstream/18.0
@@ -231226,7 +232097,11 @@ msgid "State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Județ"
+=======
+msgstr "Stare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stare"
 >>>>>>> upstream/18.0
@@ -232302,7 +233177,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Întârziată: data activitații este deja trecută\n"
+=======
+"Întârziată: data scadentă a trecut deja\n"
+>>>>>>> upstream/18.0
 =======
 "Întârziată: data scadentă a trecut deja\n"
 >>>>>>> upstream/18.0
@@ -233401,7 +234280,11 @@ msgid "Supplier Pricelist"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Lista de preturi Furnizor"
+=======
+msgstr "Listă de prețuri furnizor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Listă de prețuri furnizor"
 >>>>>>> upstream/18.0
@@ -234468,7 +235351,11 @@ msgid "Tax Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Țara unde este aplicată taxa"
+=======
+msgstr "Țara taxei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Țara taxei"
 >>>>>>> upstream/18.0
@@ -235535,7 +236422,11 @@ msgid "Tax calculation rounding method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metoda de rotunjire a calculului taxelor"
+=======
+msgstr "Metodă de rotunjire a calculului taxei"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metodă de rotunjire a calculului taxei"
 >>>>>>> upstream/18.0
@@ -236612,7 +237503,11 @@ msgid "Technical field for UX purpose."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Câmp tehnic în scop UX."
+=======
+msgstr "Câmp tehnic pentru UX."
+>>>>>>> upstream/18.0
 =======
 msgstr "Câmp tehnic pentru UX."
 >>>>>>> upstream/18.0
@@ -237676,8 +238571,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Câmp tehnic pentru a filtra taxele disponibile în funcție de țara fiscală și"
 " poziția fiscală."
+=======
+"Câmp tehnic pentru filtrarea taxelor disponibile în funcție de țara fiscală "
+"și poziția fiscală."
+>>>>>>> upstream/18.0
 =======
 "Câmp tehnic pentru filtrarea taxelor disponibile în funcție de țara fiscală "
 "și poziția fiscală."
@@ -239016,7 +239916,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Puteți utiliza acest câmp pentru căutări rapide."
+=======
+"Puteți folosi acest câmp pentru căutare rapidă."
+>>>>>>> upstream/18.0
 =======
 "Puteți folosi acest câmp pentru căutare rapidă."
 >>>>>>> upstream/18.0
@@ -240078,7 +240982,11 @@ msgid "The RFQ has been acknowledged by %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CdO a fost confirmată de %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO a fost confirmată de %s."
 >>>>>>> upstream/18.0
@@ -241140,7 +242048,11 @@ msgid "The RFQ has been declined by %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "CdO a fost refuzată de %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO a fost refuzată de %s."
 >>>>>>> upstream/18.0
@@ -242202,7 +243114,11 @@ msgid "The order receipt has been acknowledged by %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Comanda de primire a fost recunoscută de %s."
+=======
+msgstr "Primirea comenzii a fost confirmată de %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Primirea comenzii a fost confirmată de %s."
 >>>>>>> upstream/18.0
@@ -243264,7 +244180,11 @@ msgid "The order receipt has been declined by %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primirea comenzii a fost refuzată de %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Primirea comenzii a fost refuzată de %s."
 >>>>>>> upstream/18.0
@@ -244310,6 +245230,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    converted into a purchase order, you will be able to control the receipt\n"
 "                    of the products and the vendor bill."
 msgstr ""
@@ -244413,6 +245334,8 @@ msgstr ""
 "factura furnizorului."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -245161,6 +246084,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -245661,6 +246587,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/purchase/models/purchase_order.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246487,6 +247414,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The vendor asked to decline this confirmed RfQ, if you agree on that, cancel "
 "this PO"
 msgstr ""
@@ -246739,6 +247668,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -247515,6 +248447,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu există produse de adăugat la comanda de achiziție. Sunt acestea avansuri?"
+>>>>>>> upstream/18.0
 =======
 "Nu există produse de adăugat la comanda de achiziție. Sunt acestea avansuri?"
 >>>>>>> upstream/18.0
@@ -248579,7 +249515,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu există o linie facturabilă. Dacă un produs are o politică de control "
+=======
+"Nu există nicio linie facturabilă. Dacă un produs are o politică de control "
+>>>>>>> upstream/18.0
 =======
 "Nu există nicio linie facturabilă. Dacă un produs are o politică de control "
 >>>>>>> upstream/18.0
@@ -249626,6 +250566,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This analysis allows you to easily check and analyse your company purchase history and performance.\n"
 "                You can track your negotiation performance, the delivery performance of your vendors, etc"
 msgstr ""
@@ -249712,6 +250653,8 @@ msgstr ""
 "Puteți urmări performanța negocierii, performanța livrării furnizorilor dvs., etc."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -250462,6 +251405,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -251229,8 +252175,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această monedă va fi utilizată, în locul celei implicite, pentru achizițiile"
 " de la partenerul curent"
+=======
+"Această monedă va fi folosită, în locul celei implicite, pentru achizițiile "
+"de la partenerul curent"
+>>>>>>> upstream/18.0
 =======
 "Această monedă va fi folosită, în locul celei implicite, pentru achizițiile "
 "de la partenerul curent"
@@ -252559,6 +253510,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Această valoare implicită este aplicată oricărui produs nou creat. Aceasta "
 "poate fi modificată în formularul de detaliere al produsului."
 =======
@@ -252624,6 +253576,10 @@ msgstr ""
 =======
 "Această valoare implicită se aplică oricărui produs nou creat. Aceasta poate"
 " fi modificată în formularul de detaliu al produsului."
+>>>>>>> upstream/18.0
+=======
+"Această valoare implicită se aplică oricărui produs nou creat. Aceasta poate "
+"fi modificată în formularul de detaliu al produsului."
 >>>>>>> upstream/18.0
 =======
 "Această valoare implicită se aplică oricărui produs nou creat. Aceasta poate "
@@ -253894,8 +254850,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Acest produs este ambalat în %(pack_size).2f%(pack_name)s Ar trebui să "
 "achiziționați %(quantity).2f%(unit)s."
+=======
+"Acest produs este ambalat în %(pack_size).2f %(pack_name)s. Ar trebui să "
+"achiziționați %(quantity).2f %(unit)s."
+>>>>>>> upstream/18.0
 =======
 "Acest produs este ambalat în %(pack_size).2f %(pack_name)s. Ar trebui să "
 "achiziționați %(quantity).2f %(unit)s."
@@ -255232,7 +256193,11 @@ msgid "This vendor has no purchase order. Create a new RfQ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Acest furnizor nu are nicio comandă de Achiziție. Creați un nou CdO"
+=======
+msgstr "Acest furnizor nu are nicio comandă de achiziție. Creați o nouă CdO"
+>>>>>>> upstream/18.0
 =======
 msgstr "Acest furnizor nu are nicio comandă de achiziție. Creați o nouă CdO"
 >>>>>>> upstream/18.0
@@ -256318,7 +257283,11 @@ msgid "To Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Pentru trimitere"
+=======
+msgstr "De trimis"
+>>>>>>> upstream/18.0
 =======
 msgstr "De trimis"
 >>>>>>> upstream/18.0
@@ -257396,7 +258365,11 @@ msgid "Total Billed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total facturat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total facturat"
 >>>>>>> upstream/18.0
@@ -258457,7 +259430,11 @@ msgid "Total Purchased"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Total achiziționat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total achiziționat"
 >>>>>>> upstream/18.0
@@ -259518,7 +260495,11 @@ msgid "Total Qty purchased"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cantitate totală achiziționată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate totală achiziționată"
 >>>>>>> upstream/18.0
@@ -260579,7 +261560,11 @@ msgid "Total Quantity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Cantitatea totală"
+=======
+msgstr "Cantitate totală"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cantitate totală"
 >>>>>>> upstream/18.0
@@ -261640,7 +262625,11 @@ msgid "Total Untaxed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Total neimpozitat"
+=======
+msgstr "Total fără taxe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Total fără taxe"
 >>>>>>> upstream/18.0
@@ -262715,7 +263704,11 @@ msgid "Total purchased amount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valoare totală achiziționată"
+>>>>>>> upstream/18.0
 =======
 msgstr "Valoare totală achiziționată"
 >>>>>>> upstream/18.0
@@ -263776,7 +264769,11 @@ msgid "True if PO reception is confirmed by the vendor."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Adevărat dacă recepția PO este confirmată de furnizor."
+=======
+msgstr "Adevărat dacă recepția comenzii este confirmată de furnizor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adevărat dacă recepția comenzii este confirmată de furnizor."
 >>>>>>> upstream/18.0
@@ -264837,7 +265834,11 @@ msgid "True if PO reception is declined by the vendor."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Adevărat dacă recepția comenzii este refuzată de furnizor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adevărat dacă recepția comenzii este refuzată de furnizor."
 >>>>>>> upstream/18.0
@@ -265898,8 +266899,12 @@ msgid "True if the reminder email is confirmed by the vendor."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Adevărat dacă e-mailul de reamintire este confirmat de către furnizor."
+=======
+msgstr "Adevărat dacă e-mailul de reamintire este confirmat de furnizor."
+>>>>>>> upstream/18.0
 =======
 msgstr "Adevărat dacă e-mailul de reamintire este confirmat de furnizor."
 >>>>>>> upstream/18.0
@@ -266966,7 +267971,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tipul de activitate de excepție înregistrată."
+=======
+msgstr "Tipul activității de excepție înregistrate."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tipul activității de excepție înregistrate."
 >>>>>>> upstream/18.0
@@ -268031,6 +269040,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu se pot anula comenzile de achiziție: %s. Trebuie să anulați mai întâi "
+"facturile furnizor asociate."
+>>>>>>> upstream/18.0
 =======
 "Nu se pot anula comenzile de achiziție: %s. Trebuie să anulați mai întâi "
 "facturile furnizor asociate."
@@ -269355,7 +270369,11 @@ msgid "Unit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "buc"
+=======
+msgstr "Unitate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unitate"
 >>>>>>> upstream/18.0
@@ -270422,7 +271440,11 @@ msgid "Unit Price (Discounted)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Preț unitar (cu discount)"
+=======
+msgstr "Preț unitar (cu reducere)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preț unitar (cu reducere)"
 >>>>>>> upstream/18.0
@@ -271489,7 +272511,11 @@ msgid "Unit of Measure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Unitatea de măsură"
+=======
+msgstr "Unitate de măsură"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unitate de măsură"
 >>>>>>> upstream/18.0
@@ -272570,7 +273596,11 @@ msgid "Unlock"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Deblocați"
+=======
+msgstr "Deblochează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Deblochează"
 >>>>>>> upstream/18.0
@@ -273654,7 +274684,11 @@ msgid "Update Dates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Actualizați datele"
+=======
+msgstr "Actualizează datele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Actualizează datele"
 >>>>>>> upstream/18.0
@@ -274723,6 +275757,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Folosiți URL-ul REST de mai sus pentru a obține date structurate ale "
+"comenzii de achiziție în format UBL."
+>>>>>>> upstream/18.0
 =======
 "Folosiți URL-ul REST de mai sus pentru a obține date structurate ale "
 "comenzii de achiziție în format UBL."
@@ -276052,7 +277091,11 @@ msgid "Variant Grid Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Intrare Grilă Varianta "
+=======
+msgstr "Intrare Grilă Variantă"
+>>>>>>> upstream/18.0
 =======
 msgstr "Intrare Grilă Variantă"
 >>>>>>> upstream/18.0
@@ -277136,6 +278179,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Liniile facturii furnizorului pot fi adăugate doar la o singură comandă de "
+"achiziție."
+>>>>>>> upstream/18.0
 =======
 "Liniile facturii furnizorului pot fi adăugate doar la o singură comandă de "
 "achiziție."
@@ -278467,7 +279515,11 @@ msgid "Vendor Country"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Țară Vânzător"
+=======
+msgstr "Țara furnizorului"
+>>>>>>> upstream/18.0
 =======
 msgstr "Țara furnizorului"
 >>>>>>> upstream/18.0
@@ -279549,9 +280601,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "achiziție sau a chitanțelor. Acest lucru vă permite să controlați facturile "
 "pe care le primiți de la furnizor în conformitate cu documentul ciornă în "
 "Odoo."
+=======
+"achiziție sau a recepțiilor. Acest lucru vă permite să controlați facturile "
+"pe care le primiți de la furnizor conform documentului ciornă din Odoo."
+>>>>>>> upstream/18.0
 =======
 "achiziție sau a recepțiilor. Acest lucru vă permite să controlați facturile "
 "pe care le primiți de la furnizor conform documentului ciornă din Odoo."
@@ -280877,7 +281934,11 @@ msgid "View"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Afișare"
+=======
+msgstr "Vizualizează"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vizualizează"
 >>>>>>> upstream/18.0
@@ -281938,7 +282999,11 @@ msgid "View Details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizare detalii"
+=======
+msgstr "Vezi detalii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi detalii"
 >>>>>>> upstream/18.0
@@ -283000,7 +284065,11 @@ msgid "View Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizare comandă"
+=======
+msgstr "Vezi comanda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi comanda"
 >>>>>>> upstream/18.0
@@ -284062,7 +285131,11 @@ msgid "View Quotation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Vizualizare Ofertă"
+=======
+msgstr "Vezi oferta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vezi oferta"
 >>>>>>> upstream/18.0
@@ -285135,7 +286208,11 @@ msgid "Waiting Bills"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Așteaptă facturi"
+=======
+msgstr "Facturi în așteptare"
+>>>>>>> upstream/18.0
 =======
 msgstr "Facturi în așteptare"
 >>>>>>> upstream/18.0
@@ -286196,7 +287273,11 @@ msgid "Waiting RFQs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Așteaptă CdO"
+=======
+msgstr "CdO în așteptare"
+>>>>>>> upstream/18.0
 =======
 msgstr "CdO în așteptare"
 >>>>>>> upstream/18.0
@@ -287257,7 +288338,11 @@ msgid "Want to import this document in Odoo?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Doriți să importați acest document în Odoo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Doriți să importați acest document în Odoo?"
 >>>>>>> upstream/18.0
@@ -288338,7 +289423,11 @@ msgid "Warning when Purchasing this Product"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Avertizare la achizitia acestui produs"
+=======
+msgstr "Avertizare la achiziționarea acestui produs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertizare la achiziționarea acestui produs"
 >>>>>>> upstream/18.0
@@ -289401,7 +290490,11 @@ msgid "Warnings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Atenționări"
+=======
+msgstr "Avertizări"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avertizări"
 >>>>>>> upstream/18.0
@@ -290462,7 +291555,11 @@ msgid "Website Messages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mesaje de pe site-ul web"
+=======
+msgstr "Mesaje Website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mesaje Website"
 >>>>>>> upstream/18.0
@@ -291523,7 +292620,11 @@ msgid "Website communication history"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Istoricul comunicării pe site-ul web"
+=======
+msgstr "Istoric comunicare website"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istoric comunicare website"
 >>>>>>> upstream/18.0
@@ -292571,6 +293672,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "shipment, Odoo will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
@@ -292682,6 +293784,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -293433,6 +294537,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -293938,6 +295045,7 @@ msgid ""
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
 "Când trimiteți o comandă de achiziție prin e-mail, Odoo solicită "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295509,6 +296617,11 @@ msgstr ""
 "făcând clic pe un buton din e-mail, informația este adăugată pe comanda de "
 "achiziție. Folosiți filtre pentru a urmări comenzile care nu au fost "
 >>>>>>> upstream/18.0
+=======
+"furnizorului să confirme primirea comenzii. Când furnizorul confirmă comanda "
+"făcând clic pe un buton din e-mail, informația este adăugată pe comanda de "
+"achiziție. Folosiți filtre pentru a urmări comenzile care nu au fost "
+>>>>>>> upstream/18.0
 "confirmate."
 
 #. module: purchase
@@ -295779,8 +296892,12 @@ msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Puteți găsi un furnizor după numele său, CUI, e-mail sau referință internă."
+=======
+msgstr "Puteți găsi un furnizor după Nume, CUI, Email sau Referință Internă."
+>>>>>>> upstream/18.0
 =======
 msgstr "Puteți găsi un furnizor după Nume, CUI, Email sau Referință Internă."
 >>>>>>> upstream/18.0
@@ -296843,6 +297960,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nu puteți selecta linii din mai multe facturi furnizor pentru potrivire."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți selecta linii din mai multe facturi furnizor pentru potrivire."
 >>>>>>> upstream/18.0
@@ -297907,9 +299028,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nu puteți modifica tipul unei linii de comandă de achiziție. În schimb, ar "
 "trebui să ștergeți linia curentă și să creați o nouă linie de tipul "
 "potrivit."
+=======
+"Nu puteți schimba tipul unei linii de comandă de achiziție. În schimb, "
+"ștergeți linia curentă și creați una nouă de tipul potrivit."
+>>>>>>> upstream/18.0
 =======
 "Nu puteți schimba tipul unei linii de comandă de achiziție. În schimb, "
 "ștergeți linia curentă și creați una nouă de tipul potrivit."
@@ -299234,7 +300360,11 @@ msgid "You don't use a good CRM software?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nu folosiți un software CRM bun?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nu folosiți un software CRM bun?"
 >>>>>>> upstream/18.0
@@ -300298,8 +301428,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați, "
 "indiferent dacă este un produs stocabil, un consumabil sau un serviciu."
+=======
+"Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați, fie "
+"că este un produs stocabil, un consumabil sau un serviciu."
+>>>>>>> upstream/18.0
 =======
 "Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați, fie "
 "că este un produs stocabil, un consumabil sau un serviciu."
@@ -301627,8 +302762,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați, "
 "indiferent dacă este un produs stocabil, un consumabil sau un serviciu."
+=======
+"Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați, fie "
+"că este un produs stocabil, un consumabil sau un serviciu."
+>>>>>>> upstream/18.0
 =======
 "Trebuie să definiți un produs pentru tot ceea ce vindeți sau cumpărați, fie "
 "că este un produs stocabil, un consumabil sau un serviciu."
@@ -302956,6 +304096,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Trebuie să selectați cel puțin o linie de comandă de achiziție pentru "
+"potrivire sau creare factură."
+>>>>>>> upstream/18.0
 =======
 "Trebuie să selectați cel puțin o linie de comandă de achiziție pentru "
 "potrivire sau creare factură."
@@ -304265,6 +305410,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Your quotation contains products from company %(product_company)s whereas your quotation belongs to company %(quote_company)s. \n"
 " Please change the company of your quotation or remove the products from other companies (%(bad_products)s)."
 msgstr ""
@@ -304351,6 +305497,8 @@ msgstr ""
 " Vă rugăm să schimbați compania ofertei sau să eliminați produsele din alte companii (%(bad_products)s)."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -305101,6 +306249,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -305864,7 +307015,11 @@ msgid "close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "inchideți"
+=======
+msgstr "închide"
+>>>>>>> upstream/18.0
 =======
 msgstr "închide"
 >>>>>>> upstream/18.0
@@ -306925,7 +308080,11 @@ msgid "day(s) before"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "zile înainte"
+=======
+msgstr "zi(le) înainte"
+>>>>>>> upstream/18.0
 =======
 msgstr "zi(le) înainte"
 >>>>>>> upstream/18.0
@@ -307986,7 +309145,11 @@ msgid "or create new"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sau creează nou"
+>>>>>>> upstream/18.0
 =======
 msgstr "sau creează nou"
 >>>>>>> upstream/18.0
@@ -309048,7 +310211,11 @@ msgid "purchase orders merged"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "comenzi de achiziție îmbinate"
+>>>>>>> upstream/18.0
 =======
 msgstr "comenzi de achiziție îmbinate"
 >>>>>>> upstream/18.0
@@ -310110,7 +311277,11 @@ msgid "to create quotes automatically."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru a crea automat oferte."
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru a crea automat oferte."
 >>>>>>> upstream/18.0
@@ -311171,7 +312342,11 @@ msgid "to learn all the ways to connect your software with"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pentru a afla toate modalitățile de a conecta software-ul dvs. cu"
+>>>>>>> upstream/18.0
 =======
 msgstr "pentru a afla toate modalitățile de a conecta software-ul dvs. cu"
 >>>>>>> upstream/18.0

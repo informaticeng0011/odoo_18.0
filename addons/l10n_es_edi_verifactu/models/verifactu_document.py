@@ -476,8 +476,11 @@ class L10nEsEdiVerifactuDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     document_vals['chain_index'] = chain_sequence.next_by_id()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -491,6 +494,9 @@ class L10nEsEdiVerifactuDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -711,7 +717,11 @@ class L10nEsEdiVerifactuDocument(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tipo_factura = 'F2' if vals['is_simplified'] else 'F1'
+=======
+            tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
+>>>>>>> upstream/18.0
 =======
             tipo_factura = 'F2' if vals['is_simplified'] else 'F3' if vals.get('was_simplified_invoice') else 'F1'
 >>>>>>> upstream/18.0

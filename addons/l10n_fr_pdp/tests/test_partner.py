@@ -128,7 +128,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
             'invoice_edi_format': 'ubl_bis3',
         }])
 
+<<<<<<< HEAD
         def _request_handler(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+=======
+        def _request_handler_1(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+>>>>>>> upstream/18.0
             self.assertEqual(r.method, "GET")
             origin = self.env['account_edi_proxy_client.user']._get_proxy_urls()['pdp']['test']
             self.assertTrue(r.url.startswith(f"{origin}/api/pdp/1/lookup?peppol_identifier="))
@@ -137,7 +141,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
 
         with (
                 mock.patch.object(self.env.registry['res.company'], 'search', lambda *args, **kwargs: self.env.company),
+<<<<<<< HEAD
                 mock.patch.object(requests.sessions.Session, 'send', _request_handler),
+=======
+                mock.patch.object(requests.sessions.Session, 'send', _request_handler_1),
+>>>>>>> upstream/18.0
         ):
             partner.button_account_peppol_check_partner_endpoint()
 
@@ -146,7 +154,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
             'pdp_verification_display_state': 'peppol_not_valid_format',
         }])
 
+<<<<<<< HEAD
         def _request_handler(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+=======
+        def _request_handler_2(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+>>>>>>> upstream/18.0
             self.assertEqual(r.method, "GET")
             origin = self.env['account_edi_proxy_client.user']._get_proxy_urls()['pdp']['test']
             self.assertTrue(r.url.startswith(f"{origin}/api/pdp/1/lookup?peppol_identifier="))
@@ -156,7 +168,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
         partner.invoice_sending_method = False
         with (
                 mock.patch.object(self.env.registry['res.company'], 'search', lambda *args, **kwargs: self.env.company),
+<<<<<<< HEAD
                 mock.patch.object(requests.sessions.Session, 'send', _request_handler),
+=======
+                mock.patch.object(requests.sessions.Session, 'send', _request_handler_2),
+>>>>>>> upstream/18.0
         ):
             partner.button_account_peppol_check_partner_endpoint()
 

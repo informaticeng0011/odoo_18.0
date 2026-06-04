@@ -259,6 +259,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { session } from "@web/session";
+>>>>>>> upstream/18.0
 =======
 import { session } from "@web/session";
 >>>>>>> upstream/18.0
@@ -1850,6 +1854,10 @@ test("when less than 10 companies, typing key makes the search input visible", a
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+test.tags("focus required");
+>>>>>>> upstream/18.0
 =======
 test.tags("focus required");
 >>>>>>> upstream/18.0
@@ -3109,7 +3117,10 @@ test("select and de-select all", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3902,6 +3913,9 @@ test("disallowed companies in between allowed companies are not enabled", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

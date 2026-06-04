@@ -59,6 +59,11 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo.addons.l10n_ch.models.res_bank import UNICODE_ALLOWED
+>>>>>>> upstream/18.0
 =======
 
 from odoo.addons.l10n_ch.models.res_bank import UNICODE_ALLOWED
@@ -400,6 +405,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'ref': 'ABC \u202F421',
+>>>>>>> upstream/18.0
 =======
                     'ref': 'ABC \u202F421',
 >>>>>>> upstream/18.0
@@ -702,6 +711,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
                 'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -1049,6 +1062,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
         if ref_type == 'QRR':
             self.assertTrue(invoice.payment_reference)
             struct_ref = invoice.payment_reference
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1663,6 +1677,8 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         else:
             struct_ref = ''
         # Check that invalid characters are removed from Unstructured message 'invoice.ref'
@@ -1728,6 +1744,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2044,6 +2063,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2447,6 +2469,7 @@ class TestSwissQR(AccountTestInvoicingCommon):
             "\n\n\n\n\n\n\n"
             "42.00\n"
             "CHF\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3051,12 +3074,15 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "S\n"
             "Partner\n"
             "Route de Berne\n"
             "41\n"
             "1000\n"
             "Lausanne\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3664,6 +3690,8 @@ class TestSwissQR(AccountTestInvoicingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "CH\n"
             f"{ref_type}\n"
             f"{struct_ref}\n"
@@ -3724,6 +3752,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3900,12 +3931,15 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'value': payload,
         }
 
         params = invoice.partner_bank_id._get_qr_code_generation_params(
             'ch_qr', 42.0, invoice.currency_id, invoice.partner_id, unstr_msg, struct_ref
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4076,6 +4110,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4304,7 +4341,10 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4500,6 +4540,9 @@ class TestSwissQR(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

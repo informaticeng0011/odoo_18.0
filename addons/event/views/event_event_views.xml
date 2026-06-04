@@ -88,7 +88,11 @@
                             <field name="event_mail_ids">
                                 <list string="Communication" editable="bottom">
                                     <field name="sequence" widget="handle"/>
+<<<<<<< HEAD
                                     <field name="template_ref" options="{'no_quick_create': True}" context="{'filter_template_on_event': True, 'default_model': 'event.registration'}" widget="EventMailTemplateReferenceField"/>
+=======
+                                    <field name="template_ref" options="{'no_quick_create': True, 'no_create_edit': True}" context="{'filter_template_on_event': True, 'default_model': 'event.registration'}" widget="EventMailTemplateReferenceField"/>
+>>>>>>> upstream/18.0
                                     <field name="interval_nbr" readonly="interval_unit == 'now'"/>
                                     <field name="interval_unit"/>
                                     <field name="interval_type"/>
@@ -583,8 +587,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <filter string="Stage" name="stage_id" context="{'group_by': 'stage_id'}"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1384,6 +1391,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

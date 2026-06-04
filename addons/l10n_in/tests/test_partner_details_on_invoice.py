@@ -279,6 +279,10 @@ class TestReports(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.partner_foreign_no_state.l10n_in_gst_treatment = 'overseas'
+>>>>>>> upstream/18.0
 =======
         cls.partner_foreign_no_state.l10n_in_gst_treatment = 'overseas'
 >>>>>>> upstream/18.0
@@ -1450,7 +1454,10 @@ class TestReports(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2250,6 +2257,9 @@ class TestReports(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

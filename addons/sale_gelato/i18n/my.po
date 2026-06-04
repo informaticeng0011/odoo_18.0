@@ -195,6 +195,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
@@ -467,6 +468,9 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
@@ -775,6 +779,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2235,6 +2240,11 @@ msgstr ""
 "PO-Revision-Date: 2026-02-21 10:16+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-02-21 10:16+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Burmese <https://translate.odoo.com/projects/odoo-18/"
 "sale_gelato/my/>\n"
 "Language: my\n"
@@ -2242,6 +2252,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2647,12 +2658,16 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model:mail.template,body_html:sale_gelato.order_status_update
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3358,6 +3373,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Hello <t t-out=\"object.partner_id.name or ''\">Brandon "
 "Freeman</t>,<br/><br/>\n"
 "                    <!-- Order in transit body -->\n"
@@ -3367,6 +3384,7 @@ msgid ""
 "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
 "                            <t t-set=\"tracking_url\" t-"
 "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4516,11 +4534,16 @@ msgid ""
 "                            Your tracking number is <a t-att-"
 "href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
 >>>>>>> upstream/18.0
+=======
+"                            Your tracking number is <a t-att-"
+"href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
+>>>>>>> upstream/18.0
 "                            <br/><br/>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            Your tracking numbers are:\n"
 "                            <ul>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5246,6 +5269,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <li t-foreach=\"ctx['tracking_data']\" t-"
 "as=\"tracking_url\">\n"
 "                                    <a t-att-href=\"tracking_url\" t-"
@@ -5474,6 +5499,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6162,6 +6190,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We are glad to inform you that your order has been delivered.\n"
 "                        <br/><br/>\n"
 "                    </t>\n"
@@ -6170,6 +6199,8 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-out=\"object.user_id.name or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6876,6 +6907,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7583,9 +7617,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Some print images are missing\" invisible=\"not gelato_missing_images\" class=\"fa fa-question-circle text-danger fs-3 me-3\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8287,6 +8324,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9030,7 +9070,11 @@ msgid "Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ဆက်သွယ်ရန်"
+>>>>>>> upstream/18.0
 =======
 msgstr "ဆက်သွယ်ရန်"
 >>>>>>> upstream/18.0
@@ -10114,8 +10158,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: "
 "%(gelato_message)s"
+=======
+"Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
+"(gelato_message)s"
+>>>>>>> upstream/18.0
 =======
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
 "(gelato_message)s"
@@ -11311,7 +11360,11 @@ msgid "Product Variant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ကုန်ပစ္စည်း မူကွဲ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ကုန်ပစ္စည်း မူကွဲ"
 >>>>>>> upstream/18.0
@@ -12144,7 +12197,11 @@ msgid "Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ထောက်ပံ့သူ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ထောက်ပံ့သူ"
 >>>>>>> upstream/18.0
@@ -13154,7 +13211,11 @@ msgid "Sales Order Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "အရောင်း အော်ဒါလိုင်း"
+>>>>>>> upstream/18.0
 =======
 msgstr "အရောင်း အော်ဒါလိုင်း"
 >>>>>>> upstream/18.0
@@ -14148,7 +14209,11 @@ msgid "Standard Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ပုံမှန် ပို့ဆောင်ရေး"
+>>>>>>> upstream/18.0
 =======
 msgstr "ပုံမှန် ပို့ဆောင်ရေး"
 >>>>>>> upstream/18.0
@@ -15003,7 +15068,11 @@ msgid "Synchronize"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "စင်ခရိုနုဇ်"
+>>>>>>> upstream/18.0
 =======
 msgstr "စင်ခရိုနုဇ်"
 >>>>>>> upstream/18.0
@@ -15579,7 +15648,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16288,6 +16360,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

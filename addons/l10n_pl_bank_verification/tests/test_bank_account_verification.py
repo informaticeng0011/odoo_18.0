@@ -477,7 +477,10 @@ class TestL10nPlBankAccountVerification(AccountTestInvoicingCommon):
         self.assertEqual(len(verifications), verification_start_count + 1)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -493,6 +496,9 @@ class TestL10nPlBankAccountVerification(AccountTestInvoicingCommon):
         verification = self.env['l10n_pl.bank.account.verification'].search([])
         self.assertEqual(len(verification), verification_start_count + 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

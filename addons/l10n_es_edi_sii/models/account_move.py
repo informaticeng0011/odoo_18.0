@@ -3,6 +3,10 @@
 
 from odoo import api, fields, models
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import get_quarter_number
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import get_quarter_number
 >>>>>>> upstream/18.0
@@ -55,7 +59,10 @@ class AccountMove(models.Model):
             return True
         return super()._edi_allow_button_draft()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def _l10n_es_edi_get_period(self):
         self.ensure_one()
@@ -63,4 +70,7 @@ class AccountMove(models.Model):
             if self.company_id.account_tax_periodicity == 'trimester':
                 return f'{get_quarter_number(self.date)}T'
         return str(self.date.month).zfill(2)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

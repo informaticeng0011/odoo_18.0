@@ -348,6 +348,7 @@ from odoo.osv.expression import AND, OR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.addons.mail.tools.parser import domain_eval
 >>>>>>> upstream/18.0
@@ -413,6 +414,8 @@ from odoo.addons.mail.tools.parser import domain_eval
 >>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tools.parser import domain_eval
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1441,6 +1444,7 @@ class ModelPageController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rec_domain = ast.literal_eval(page.record_domain or "[]")
 =======
         rec_domain = domain_eval(page.record_domain or "[]")
@@ -1507,6 +1511,9 @@ class ModelPageController(Controller):
 >>>>>>> upstream/18.0
 =======
         rec_domain = domain_eval(page.record_domain or "[]")
+>>>>>>> upstream/18.0
+=======
+        rec_domain = ast.literal_eval(page.record_domain or "[]")
 >>>>>>> upstream/18.0
 =======
         rec_domain = ast.literal_eval(page.record_domain or "[]")
@@ -2715,6 +2722,12 @@ class ModelPageController(Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        # if we are after the last page, redirect to last page
+        if search_count <= self.pager_step * (page_number - 1) > 0:
+            return request.redirect(pager['page_last']['url'])
+>>>>>>> upstream/18.0
 =======
         # if we are after the last page, redirect to last page
         if search_count <= self.pager_step * (page_number - 1) > 0:

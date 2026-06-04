@@ -122,6 +122,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    insertText,
+>>>>>>> upstream/18.0
 =======
     insertText,
 >>>>>>> upstream/18.0
@@ -604,7 +608,12 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, test } from "@odoo/hoot";
+=======
+import { describe, expect, test } from "@odoo/hoot";
+import { mockService, serverState } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, test } from "@odoo/hoot";
 import { mockService, serverState } from "@web/../tests/web_test_helpers";
@@ -1447,7 +1456,10 @@ test("read more/less links on message of type notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1847,6 +1859,9 @@ test("read more/less should appear only once for the signature", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

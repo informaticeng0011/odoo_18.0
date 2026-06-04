@@ -2,6 +2,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import ast
+>>>>>>> upstream/18.0
 =======
 import ast
 >>>>>>> upstream/18.0
@@ -93,7 +97,10 @@ class TestSaleProjectStockProfitability(TestProjectProfitabilityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -130,6 +137,9 @@ class TestSaleProjectStockProfitability(TestProjectProfitabilityCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174,7 +184,10 @@ class TestSaleProjectStockProfitability(TestProjectProfitabilityCommon):
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         project = sale_order.project_ids
@@ -198,6 +211,9 @@ class TestSaleProjectStockProfitability(TestProjectProfitabilityCommon):
         move_lines = self.env['account.move.line'].search(action['domain'])
         self.assertTrue(move_lines)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

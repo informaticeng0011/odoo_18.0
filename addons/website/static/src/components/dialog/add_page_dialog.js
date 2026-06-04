@@ -259,6 +259,7 @@ import { Switch } from '@website/components/switch/switch';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { applyTextHighlight } from "@website/js/text_processing";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1533,6 +1534,10 @@ import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status 
 import { applyTextHighlight, removeTextHighlight } from "@website/js/text_processing";
 import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
 >>>>>>> upstream/18.0
+=======
+import { applyTextHighlight, removeTextHighlight } from "@website/js/text_processing";
+import { useRef, useState, useSubEnv, Component, onWillStart, onMounted, status } from "@odoo/owl";
+>>>>>>> upstream/18.0
 import wUtils from '@website/js/utils';
 
 const NO_OP = () => {};
@@ -1754,8 +1759,14 @@ export class AddPageTemplatePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (isFirefox) {
                 // Make sure empty preview iframe is loaded.
+=======
+            if (isFirefox && !(iframeEl?.contentDocument.readyState === "complete")) {
+                // Make sure empty preview iframe is loaded. This was necessary
+                // in Firefox < 148 as it created and parsed a new document.
+>>>>>>> upstream/18.0
 =======
             if (isFirefox && !(iframeEl?.contentDocument.readyState === "complete")) {
                 // Make sure empty preview iframe is loaded. This was necessary
@@ -2639,7 +2650,10 @@ export class AddPageTemplatePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3398,6 +3412,9 @@ export class AddPageTemplatePreview extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4296,6 +4313,12 @@ export class AddPageTemplates extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (status(this) === "destroyed") {
+            return new Promise(() => {});
+        }
+>>>>>>> upstream/18.0
 =======
         if (status(this) === "destroyed") {
             return new Promise(() => {});

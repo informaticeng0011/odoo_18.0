@@ -15,7 +15,13 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     )
+=======
+        index='btree_not_null',
+    )
+    product_category = fields.Many2one(related='product_id.categ_id')
+>>>>>>> upstream/18.0
 =======
         index='btree_not_null',
     )
@@ -381,7 +387,10 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1209,6 +1218,9 @@ class AccountAnalyticLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

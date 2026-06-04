@@ -36,13 +36,19 @@ class AccountMoveSendWizard(models.TransientModel):
 
     def action_send_and_print(self, allow_fallback_pdf=False):
 <<<<<<< HEAD
+<<<<<<< HEAD
         auth_totp_disabled = not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy'))
 =======
+=======
+>>>>>>> upstream/18.0
         auth_totp_disabled = (
             not self.env.user.totp_enabled
             and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy'))
             and self.env.company._get_peppol_edi_mode() != 'demo'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
         if self.company_id._get_peppol_proxy_type() == 'pdp' and auth_totp_disabled:
             raise RedirectWarning(

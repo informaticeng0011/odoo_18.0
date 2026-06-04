@@ -116,7 +116,11 @@ import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
+=======
+import { describe, expect, mockPermission, test } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { describe, expect, mockPermission, test } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -547,7 +551,11 @@ test("counter is taking into account failure notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "denied");
 >>>>>>> upstream/18.0
@@ -964,7 +972,11 @@ test("rendering with chat push notification default permissions", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "default");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "default");
 >>>>>>> upstream/18.0
@@ -1373,7 +1385,11 @@ test("can quickly dismiss 'Turn on notification' suggestion", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "prompt");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "prompt");
 >>>>>>> upstream/18.0
@@ -1777,7 +1793,11 @@ test("rendering with chat push notification permissions denied", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "denied");
 >>>>>>> upstream/18.0
@@ -2177,7 +2197,11 @@ test("rendering with chat push notification permissions accepted", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("granted");
+=======
+    mockPermission("notifications", "granted");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "granted");
 >>>>>>> upstream/18.0
@@ -2578,7 +2602,11 @@ test("respond to notification prompt (denied)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("default", "denied");
+=======
+    patchBrowserNotification("denied");
+>>>>>>> upstream/18.0
 =======
     patchBrowserNotification("denied");
 >>>>>>> upstream/18.0
@@ -2983,7 +3011,11 @@ test("respond to notification prompt (granted)", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("default", "granted");
+=======
+    patchBrowserNotification("granted");
+>>>>>>> upstream/18.0
 =======
     patchBrowserNotification("granted");
 >>>>>>> upstream/18.0
@@ -3385,7 +3417,11 @@ test("no suggestion to enable chat push notifications in mobile app", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "default");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "default");
 >>>>>>> upstream/18.0
@@ -4769,7 +4805,11 @@ test("can open messaging menu even if messaging is not initialized", async () =>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("default");
+=======
+    mockPermission("notifications", "prompt");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "prompt");
 >>>>>>> upstream/18.0
@@ -5175,7 +5215,11 @@ test("can open messaging menu even if channels are not fetched", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchBrowserNotification("denied");
+=======
+    mockPermission("notifications", "denied");
+>>>>>>> upstream/18.0
 =======
     mockPermission("notifications", "denied");
 >>>>>>> upstream/18.0
@@ -5802,6 +5846,12 @@ test("Can quick search when more than 20 items", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await insertText(".o-mail-MessagingMenu input", "no threads", { replace: true });
+    await contains(".o-mail-MessagingMenu div.text-muted", { text: "No thread found." });
+    expect(".o-mail-MessagingMenu-list").toHaveText("No thread found."); // list should contain only this text
+>>>>>>> upstream/18.0
 =======
     await insertText(".o-mail-MessagingMenu input", "no threads", { replace: true });
     await contains(".o-mail-MessagingMenu div.text-muted", { text: "No thread found." });
@@ -7389,7 +7439,10 @@ test("failure is removed from messaging menu when message is deleted", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7952,6 +8005,9 @@ test("user notification from inbox redirect to discuss inbox", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

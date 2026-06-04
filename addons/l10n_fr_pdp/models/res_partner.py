@@ -31,7 +31,10 @@ class ResPartner(models.Model):
         ],
         string='E-Invoicing State',
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_dependent=True,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         compute="_compute_pdp_verification_display_state",
@@ -54,6 +57,10 @@ class ResPartner(models.Model):
 
     @api.depends('peppol_verification_state', 'peppol_endpoint', 'peppol_eas')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @api.depends_context('company')
+>>>>>>> upstream/18.0
 =======
     @api.depends_context('company')
 >>>>>>> upstream/18.0

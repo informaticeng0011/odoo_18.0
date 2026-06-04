@@ -84,7 +84,10 @@ class TestUblImportBis3InvoiceBERetrievePartner(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -247,6 +250,7 @@ class TestUblImportBis3InvoiceBERetrievePartner(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -345,4 +349,17 @@ class TestUblImportBis3InvoiceBERetrievePartner(TestUblImportBis3InvoiceBE):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_import_bill_vat_in_party_identification(self):
+        """ Some Peppol emitters add the supplier VAT only in
+        cac:PartyIdentification/cbc:ID, not in PartyTaxScheme/cbc:CompanyID.
+        """
+        invoice = self._import_invoice_as_attachment_on(
+            test_name='test_import_bill_vat_in_party_identification',
+            journal=self.company_data['default_journal_purchase'],
+        )
+        self.assertEqual(invoice.partner_id.vat, 'BE0239843188')
+        self.assertEqual(invoice.partner_bank_id.partner_id, invoice.partner_id)
 >>>>>>> upstream/18.0

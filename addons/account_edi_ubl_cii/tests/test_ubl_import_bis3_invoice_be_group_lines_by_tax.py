@@ -89,6 +89,7 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Ungroup the lines, we should be back in the original state.
         invoice.action_group_ungroup_lines_by_tax()
         self.assertRecordValues(invoice.invoice_line_ids, expected_not_grouped_lines)
@@ -99,6 +100,8 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
         invoice.action_post()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -199,6 +202,9 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -319,6 +325,7 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -351,6 +358,8 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -452,6 +461,9 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -580,6 +592,9 @@ class TestUblImportBis3InvoiceBEGroupLinesByTax(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

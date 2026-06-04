@@ -324,7 +324,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div t-attf-class="header din_page o_company_#{company.id}_layout #{'din_page_pdf' if report_type == 'pdf' else ''}">
+=======
+                <t t-set="is_din_paperformat"
+                    t-value="company.paperformat_id in [env.ref('l10n_din5008.paperformat_euro_din_a', raise_if_not_found=False), env.ref('l10n_din5008.paperformat_euro_din', raise_if_not_found=False)]" />
+                <div t-attf-class="header din_page o_company_#{company.id}_layout #{'din_page_pdf' if report_type == 'pdf' and is_din_paperformat else ''}">
+>>>>>>> upstream/18.0
 =======
                 <t t-set="is_din_paperformat"
                     t-value="company.paperformat_id in [env.ref('l10n_din5008.paperformat_euro_din_a', raise_if_not_found=False), env.ref('l10n_din5008.paperformat_euro_din', raise_if_not_found=False)]" />
@@ -2075,7 +2081,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div t-attf-class="din_page invoice_note article o_company_#{company.id}_layout {{'o_report_layout_background' if company.layout_background != 'Blank' else ''}} #{'din_page_pdf' if report_type == 'pdf' else ''}"
+=======
+                
+                <div t-attf-class="din_page invoice_note article o_company_#{company.id}_layout {{'o_report_layout_background' if company.layout_background in ['Geometric', 'Custom']  else  ''}} #{'din_page_pdf' if report_type == 'pdf' and is_din_paperformat else ''}"
+>>>>>>> upstream/18.0
 =======
                 
                 <div t-attf-class="din_page invoice_note article o_company_#{company.id}_layout {{'o_report_layout_background' if company.layout_background in ['Geometric', 'Custom']  else  ''}} #{'din_page_pdf' if report_type == 'pdf' and is_din_paperformat else ''}"
@@ -3569,6 +3580,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-if="company.name">
                                         <span t-field="company.name"/>
                                     </t>
@@ -3588,6 +3600,8 @@
                                         <span>|</span> <span t-field="company.country_id.name"/>
                                     </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4583,6 +4597,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5265,6 +5282,7 @@
                     <t t-out="0"/>
                 </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6426,6 +6444,9 @@
 =======
                 <div t-attf-class="din_page footer o_company_#{company.id}_layout #{'din_page_pdf' if report_type == 'pdf' and is_din_paperformat else ''}">
 >>>>>>> upstream/18.0
+=======
+                <div t-attf-class="din_page footer o_company_#{company.id}_layout #{'din_page_pdf' if report_type == 'pdf' and is_din_paperformat else ''}">
+>>>>>>> upstream/18.0
                     <div class="text-end page_number">
                         <div class="text-muted">
                             Page: <span class="page"/> of <span class="topage"/>
@@ -6434,6 +6455,7 @@
                     <div class="company_details">
                         <table class="table-borderless">
                             <tr>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7756,6 +7778,9 @@
 =======
                                 <td colspan="3">
 >>>>>>> upstream/18.0
+=======
+                                <td colspan="3">
+>>>>>>> upstream/18.0
                                     <ul class="list-inline">
                                         <li t-if="company.company_details"><span t-field="company.company_details"/></li>
                                     </ul>
@@ -8097,6 +8122,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9111,7 +9139,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td>
+=======
+                                <td colspan="2">
+>>>>>>> upstream/18.0
 =======
                                 <td colspan="2">
 >>>>>>> upstream/18.0
@@ -10468,6 +10500,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <td t-if="company.partner_id.bank_ids">
 =======
                                 <td colspan="2" t-if="company.partner_id.bank_ids">
@@ -10570,6 +10603,8 @@
                                             <li><span t-field="bank.bank_id.name"/></li>
                                             <li>IBAN: <span t-field="bank.acc_number"/></li>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11487,6 +11522,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12121,6 +12159,7 @@
                         &amp;.invoice_note {
                             td {
                                 .address {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13426,6 +13465,9 @@
 =======
                                     .colored_address {
 >>>>>>> upstream/18.0
+=======
+                                    .colored_address {
+>>>>>>> upstream/18.0
                                         color: <t t-out='secondary'/>;
                                     }
                                 }
@@ -13615,7 +13657,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14064,6 +14109,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14627,7 +14675,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15412,6 +15463,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -68,7 +68,11 @@ class PortalAccount(CustomerPortal):
             'duedate': {'label': _('Due Date'), 'order': 'invoice_date_due desc'},
             'name': {'label': _('Reference'), 'order': 'name desc'},
 <<<<<<< HEAD
+<<<<<<< HEAD
             'state': {'label': _('Status'), 'order': 'state'},
+=======
+            'state': {'label': _('Status'), 'order': 'payment_state'},
+>>>>>>> upstream/18.0
 =======
             'state': {'label': _('Status'), 'order': 'payment_state'},
 >>>>>>> upstream/18.0

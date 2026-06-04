@@ -162,11 +162,14 @@ export function getLocalYearAndWeek(date) {
     date = date.plus({ days: 6 }); // go to last weekday of ISO week
     const jan4 = DateTime.local(date.year, 1, 4);
 <<<<<<< HEAD
+<<<<<<< HEAD
     // count from previous year if week falls before Jan 4
     const diffDays =
         date < jan4 ? date.diff(jan4.minus({ years: 1 }), "day").days : date.diff(jan4, "day").days;
     return { year: date.year, week: Math.trunc(diffDays / 7) + 1 };
 =======
+=======
+>>>>>>> upstream/18.0
     let diffDays, year;
     if (date < jan4) {
         // count from previous year if week falls before Jan 4
@@ -180,6 +183,9 @@ export function getLocalYearAndWeek(date) {
         year: year,
         week: Math.trunc(diffDays / 7) + 1,
     };
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 }
 

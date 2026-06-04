@@ -380,11 +380,14 @@ export class MailTrackingValue extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "monetary":
                 values["old_value_float"] = initial_value;
                 values["new_value_float"] = new_value;
                 break;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1305,6 +1308,9 @@ export class MailTrackingValue extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2253,9 +2259,12 @@ export class MailTrackingValue extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 newValue: { value: this._format_display_value(tracking, "new") },
                 oldValue: { value: this._format_display_value(tracking, "old") },
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3175,6 +3184,9 @@ export class MailTrackingValue extends models.ServerModel {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

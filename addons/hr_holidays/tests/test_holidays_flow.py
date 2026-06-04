@@ -60,6 +60,10 @@ from odoo.addons.hr_holidays.tests.common import TestHrHolidaysCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.mail.tests.common import mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import mail_new_test_user
 >>>>>>> upstream/18.0
@@ -526,6 +530,7 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -538,6 +543,10 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 
+=======
+
+    @freeze_time("2023-03-15")
+>>>>>>> upstream/18.0
 =======
 
     @freeze_time("2023-03-15")
@@ -788,6 +797,9 @@ class TestHolidaysFlow(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

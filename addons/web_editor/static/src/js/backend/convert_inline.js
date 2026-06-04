@@ -125,7 +125,10 @@ const RE_COL_MATCH = /(^| )col(-[\w\d]+)*( |$)/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const RE_COMMAS_OUTSIDE_PARENTHESES = /,(?![^(]*?\))/g;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -371,6 +374,10 @@ const SELECTORS_IGNORE = /(^\*$|:hover|:before|:after|:active|:link|::|'|\([^(),
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const RE_THEME_COLOR_CLASS = /^bg-o-color-\d+$/;
+>>>>>>> upstream/18.0
 =======
 const RE_THEME_COLOR_CLASS = /^bg-o-color-\d+$/;
 >>>>>>> upstream/18.0
@@ -496,7 +503,12 @@ export const TABLE_STYLES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     'border-collapse': 'collapse',
+=======
+    'border-collapse': 'separate',
+    'border-spacing': '0px',
+>>>>>>> upstream/18.0
 =======
     'border-collapse': 'separate',
     'border-spacing': '0px',
@@ -1108,6 +1120,10 @@ const GROUPED_STYLES = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
+>>>>>>> upstream/18.0
 =======
         "border-top-color", "border-right-color", "border-bottom-color", "border-left-color",
 >>>>>>> upstream/18.0
@@ -2271,7 +2287,11 @@ function bootstrapToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table');
+=======
+    const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
+>>>>>>> upstream/18.0
 =======
     const containers = editable.querySelectorAll('.container, .container-fluid, .o_fake_table, .o_text_columns');
 >>>>>>> upstream/18.0
@@ -3522,7 +3542,11 @@ function bootstrapToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const colSize = Math.max(1, Math.round((12 - colTotalSize) / flexColumns.length));
+=======
+            const colSize = Math.max(1, Math.floor((12 - (colTotalSize)) / flexColumns.length));
+>>>>>>> upstream/18.0
 =======
             const colSize = Math.max(1, Math.floor((12 - (colTotalSize)) / flexColumns.length));
 >>>>>>> upstream/18.0
@@ -4549,6 +4573,10 @@ function cardToTable(editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            subTable.style.height = '100%';
+>>>>>>> upstream/18.0
 =======
             subTable.style.height = '100%';
 >>>>>>> upstream/18.0
@@ -4957,7 +4985,11 @@ function classToStyle($editable, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (Object.keys(style || {}).length === 0) {
+=======
+        if (Object.keys(style || {}).length === 0 || node.nodeName === "T") {
+>>>>>>> upstream/18.0
 =======
         if (Object.keys(style || {}).length === 0 || node.nodeName === "T") {
 >>>>>>> upstream/18.0
@@ -5140,7 +5172,10 @@ function classToStyle($editable, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5162,6 +5197,9 @@ function classToStyle($editable, cssRules) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5667,7 +5705,10 @@ export async function toInline($editable, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6385,6 +6426,9 @@ export async function toInline($editable, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7301,7 +7345,10 @@ function formatTables($editable) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7673,6 +7720,9 @@ function splitSelectors(str) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8068,7 +8118,11 @@ export function getCSSRules(doc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for (const selector of selectorText.split(RE_COMMAS_OUTSIDE_PARENTHESES)) {
+=======
+                for (const selector of splitSelectors(selectorText)) {
+>>>>>>> upstream/18.0
 =======
                 for (const selector of splitSelectors(selectorText)) {
 >>>>>>> upstream/18.0
@@ -9300,8 +9354,11 @@ function _hideForOutlook(node, onlyHideTag = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         node.setAttribute('style', `${node.getAttribute('style') || ''} mso-hide: all;`.trim());
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10051,6 +10108,9 @@ function _hideForOutlook(node, onlyHideTag = false) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10915,8 +10975,11 @@ function correctBorderAttributes(style) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return style;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11665,6 +11728,9 @@ function correctBorderAttributes(style) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12296,6 +12362,10 @@ export default {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    splitSelectors: splitSelectors,
+>>>>>>> upstream/18.0
 =======
     splitSelectors: splitSelectors,
 >>>>>>> upstream/18.0

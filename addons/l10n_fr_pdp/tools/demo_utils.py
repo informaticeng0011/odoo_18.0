@@ -97,12 +97,18 @@ def _mock_l10n_fr_pdp_update_pilot_phase(func, self, value):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 def _mock_button_trigger_authentication(func, self):
     self.pdp_kyc_status = 'success'
     return self._action_open_pdp_form()
 
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 _demo_behaviour = {
     'button_account_peppol_check_partner_endpoint': _mock_button_verify_partner_endpoint,
@@ -113,6 +119,10 @@ _demo_behaviour = {
     '_get_peppol_verification_state': _mock_get_peppol_verification_state,  # res.partner
     '_l10n_fr_pdp_update_pilot_phase': _mock_l10n_fr_pdp_update_pilot_phase,  # res.company
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'button_trigger_authentication': _mock_button_trigger_authentication,  # pdp.registration
+>>>>>>> upstream/18.0
 =======
     'button_trigger_authentication': _mock_button_trigger_authentication,  # pdp.registration
 >>>>>>> upstream/18.0
