@@ -24,6 +24,10 @@ class ResCompany(models.Model):
             ('aeat', "Agencia Tributaria española"),
             ('gipuzkoa', "Hacienda Foral de Gipuzkoa"),
             ('bizkaia', "Hacienda Foral de Bizkaia"),
+<<<<<<< HEAD
+=======
+            ('navarra', "Hacienda Foral de Navarra"),
+>>>>>>> upstream/18.0
         ],
         default=False,
     )

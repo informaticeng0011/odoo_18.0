@@ -219,6 +219,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* product
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -279,6 +280,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * product
 #
 >>>>>>> upstream/18.0
 =======
@@ -1396,6 +1401,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -2271,10 +2277,15 @@
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3959,6 +3970,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-05-09 09:07+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -3988,6 +4001,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4274,6 +4290,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5023,6 +5040,10 @@ msgstr ""
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
 =======
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -5206,6 +5227,7 @@ msgid "# Products"
 msgstr "製品数"
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6081,6 +6103,11 @@ msgid ""
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid ""
 >>>>>>> upstream/18.0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+msgid ""
+>>>>>>> upstream/18.0
 "%(base)s with a %(discount)s %% %(discount_type)s and %(surcharge)s extra "
 "fee\n"
 "Example: %(amount)s * %(discount_charge)s + %(price_surcharge)s → %"
@@ -6318,6 +6345,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7027,10 +7057,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(item_name)s: end date (%(end_date)s) should be after start date "
 "(%(start_date)s)"
 msgstr "%(item_name)s: 終了日 (%(end_date)s) は開始日 (%(start_date)s)の後にして下さい"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7735,6 +7768,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8566,7 +8602,11 @@ msgid "%(percentage)s %% discount on %(pricelist)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(percentage)s %% 値引 %(pricelist)s上"
+=======
+msgstr "%(percentage)s %% 割引 %(pricelist)s上"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% 割引 %(pricelist)s上"
 >>>>>>> upstream/18.0
@@ -9984,7 +10024,11 @@ msgid "%(percentage)s %% discount on sales price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(percentage)s %% 販売価格より値引"
+=======
+msgstr "%(percentage)s %% 販売価格より割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(percentage)s %% 販売価格より割引"
 >>>>>>> upstream/18.0
@@ -11322,9 +11366,12 @@ msgstr "- %(amount)s 割引"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "- Barcode \"%(barcode)s\" already assigned to product(s): %(product_list)s"
 msgstr "- バーコード \"%(barcode)s\" は既にプロダクト: %(product_list)sに割当済です"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12028,6 +12075,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12733,6 +12783,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- Instantly: All possible variants are created as soon as the attribute and its values are added to a product.\n"
 "        - Dynamically: Each variant is created only when its corresponding attributes and values are added to a sales order.\n"
 "        - Never: Variants are never created for the attribute.\n"
@@ -12743,6 +12794,8 @@ msgstr ""
 "- 作成されない： 属性のバリアントは決して作成されません。\n"
 "　　注意: これは、属性が少なくとも一つのプロダクトで使用されると変更できません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13456,6 +13509,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13988,11 +14044,14 @@ msgstr "1年保証延長"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "10"
 msgstr "10"
 
 #. module: product
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14157,11 +14216,14 @@ msgstr "10ユニット"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "123456789012"
 msgstr "123456789012"
 
 #. module: product
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14547,9 +14609,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<i class=\"fa fa-money\" role=\"img\" aria-label=\"Currency\" title=\"Currency\"/>"
 msgstr "<i class=\"fa fa-money\" role=\"img\" aria-label=\"通貨\" title=\"通貨\"/>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15254,6 +15319,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15962,7 +16030,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                        <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                        <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -17033,6 +17106,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                            規則\n"
 "                                        </span>\n"
 <<<<<<< HEAD
@@ -17816,6 +17890,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                            ルール\n"
 "                                        </span>\n"
 "                                        <span class=\"o_stat_text\" "
@@ -17950,6 +18026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18451,7 +18530,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -19628,7 +19712,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span class=\"o_stat_text\" invisible=\"pricelist_item_count != 1\">\n"
+=======
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"pricelist_item_count != 1\">\n"
+>>>>>>> upstream/18.0
 =======
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"pricelist_item_count != 1\">\n"
@@ -20853,7 +20942,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                 既存のバリアントを削除し再作成するので、既存の\n"
+=======
+"                                 既存のバリアントを削除し再作成するので、既存"
+"の\n"
+>>>>>>> upstream/18.0
 =======
 "                                 既存のバリアントを削除し再作成するので、既存"
 "の\n"
@@ -22041,7 +22135,13 @@ msgid "A combo choice can't contain products of type \"combo\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr " コンボの選択肢には、プロダクトタイプ\"コンボ\"のプロダクトを含めることはできません。"
+=======
+msgstr ""
+" コンボの選択肢には、プロダクトタイプ\"コンボ\"のプロダクトを含めることはでき"
+"ません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 " コンボの選択肢には、プロダクトタイプ\"コンボ\"のプロダクトを含めることはでき"
@@ -23457,7 +23557,12 @@ msgid "A combo product must contain at least 1 combo choice."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "コンボプロダクトには、少なくとも1つのコンボ選択肢を含める必要があります。"
+=======
+msgstr ""
+"コンボプロダクトには、少なくとも1つのコンボ選択肢を含める必要があります。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "コンボプロダクトには、少なくとも1つのコンボ選択肢を含める必要があります。"
@@ -24633,11 +24738,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A description of the Product that you want to communicate to your customers."
 " This description will be copied to every Sales Order, Delivery Order and "
 "Customer Invoice/Credit Note"
 msgstr "顧客に見せたい製品の説明。この説明は販売注文、配送注文、顧客請求書/クレジットノートにコピーされます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25343,6 +25451,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26054,12 +26165,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "            This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
 "価格は、プロダクト、プロダクトカテゴリ、日付、オーダ数量に基づいて販売オーダ明細の価格を計算するための一連の販売価格または規則です。\n"
 "　　これは、いくつかの価格設定、シーズン値引などを処理するために最適なツールです。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26663,7 +26777,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "明細の価格を計算するための一連の販売価格または規則です。\n"
+=======
+"明細の価格を計算するための一連の販売価格またはルールです。\n"
+>>>>>>> upstream/18.0
 =======
 "明細の価格を計算するための一連の販売価格またはルールです。\n"
 >>>>>>> upstream/18.0
@@ -27235,6 +27353,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -27503,6 +27622,11 @@ msgstr "「その他の価格表」 をベースとする価格表項目には b
 =======
 msgstr "「その他の価格表」 をベースとする価格表項目には base_pricelist_id が必要です"
 "。"
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"「その他の価格表」 をベースとする価格表項目には base_pricelist_id が必要で"
+"す。"
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -28504,7 +28628,13 @@ msgid "A sellable combo product can only contain sellable products."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "販売可能なコンボプロダクトには、販売可能なプロダクトのみ含めることができます。"
+=======
+msgstr ""
+"販売可能なコンボプロダクトには、販売可能なプロダクトのみ含めることができま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "販売可能なコンボプロダクトには、販売可能なプロダクトのみ含めることができま"
@@ -30054,6 +30184,7 @@ msgid "Active"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "有効化"
 =======
 msgstr "アクティブ"
@@ -31066,6 +31197,9 @@ msgstr "有効"
 =======
 msgstr "有効"
 >>>>>>> upstream/18.0
+=======
+msgstr "有効"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_search_view
@@ -31084,6 +31218,7 @@ msgstr "活動"
 #: model:ir.model.fields,field_description:product.field_product_product__activity_exception_decoration
 #: model:ir.model.fields,field_description:product.field_product_template__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31961,6 +32096,9 @@ msgstr "例外の活動を示す装飾"
 =======
 msgstr "例外の活動を示す装飾"
 >>>>>>> upstream/18.0
+=======
+msgstr "例外の活動を示す装飾"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist__activity_state
@@ -32118,7 +32256,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "活動種別アイコン"
+=======
+msgstr "活動タイプアイコン"
+>>>>>>> upstream/18.0
 =======
 msgstr "活動タイプアイコン"
 >>>>>>> upstream/18.0
@@ -32947,10 +33089,15 @@ msgstr "このタグを使用する全てのプロダクトバリアント"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 #: code:addons/product/static/src/js/pricelist_report/product_pricelist_report.xml:0
+=======
+#. odoo-python
+#: code:addons/product/models/product_pricelist_item.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
@@ -34564,7 +34711,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "同時に表示できる数量は最大%sまでです。選択した数量を削除して他の数量を追加して下さい。"
+=======
+msgstr ""
+"同時に表示できる数量は最大%sまでです。選択した数量を削除して他の数量を追加し"
+"て下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "同時に表示できる数量は最大%sまでです。選択した数量を削除して他の数量を追加し"
@@ -36067,7 +36220,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "パッケージング識別に使用されるバーコード。バーコードアプリで転送からこのパッケージングバーコードをスキャンし、含まれる全てのユニットを移動します。"
+=======
+"パッケージング識別に使用されるバーコード。バーコードアプリで転送からこのパッ"
+"ケージングバーコードをスキャンし、含まれる全てのユニットを移動します。"
+>>>>>>> upstream/18.0
 =======
 "パッケージング識別に使用されるバーコード。バーコードアプリで転送からこのパッ"
 "ケージングバーコードをスキャンし、含まれる全てのユニットを移動します。"
@@ -37247,7 +37405,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "さよなら、レコード！"
+=======
+msgstr "レコードを削除します"
+>>>>>>> upstream/18.0
 =======
 msgstr "レコードを削除します"
 >>>>>>> upstream/18.0
@@ -38184,7 +38346,11 @@ msgid "Cabinet with Doors"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ドア付きキャビネット"
+=======
+msgstr "扉付きキャビネット"
+>>>>>>> upstream/18.0
 =======
 msgstr "扉付きキャビネット"
 >>>>>>> upstream/18.0
@@ -39607,7 +39773,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "コンボは、カテゴリごとの選択肢の中から1つのプロダクトを選ぶことができます。"
+=======
+msgstr ""
+"コンボは、カテゴリごとの選択肢の中から1つのプロダクトを選ぶことができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "コンボは、カテゴリごとの選択肢の中から1つのプロダクトを選ぶことができます。"
@@ -40617,7 +40788,11 @@ msgid "Complete Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "完全な名前"
+=======
+msgstr "完全名"
+>>>>>>> upstream/18.0
 =======
 msgstr "完全名"
 >>>>>>> upstream/18.0
@@ -40786,6 +40961,7 @@ msgstr "設定"
 #: model_terms:ir.ui.view,arch_db:product.product_label_layout_form
 #: model_terms:ir.ui.view,arch_db:product.update_product_attribute_value_form
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42183,6 +42359,9 @@ msgstr "確定"
 =======
 msgstr "確定"
 >>>>>>> upstream/18.0
+=======
+msgstr "確定"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model,name:product.model_res_partner
@@ -42449,7 +42628,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて行われます。"
+=======
+msgstr ""
+"単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
+"行われます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
@@ -43893,7 +44078,11 @@ msgid "Create on Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オーダで作成"
+=======
+msgstr "オーダ時に作成"
+>>>>>>> upstream/18.0
 =======
 msgstr "オーダ時に作成"
 >>>>>>> upstream/18.0
@@ -44653,6 +44842,7 @@ msgstr "デフォルト追加金額が変更されました"
 #: model:ir.model.fields,help:product.field_product_product__uom_id
 #: model:ir.model.fields,help:product.field_product_template__uom_id
 msgid "Default unit of measure used for all stock operations."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45754,6 +45944,9 @@ msgstr "すべての在庫操作に使用されるデフォルトの単位。"
 =======
 msgstr "すべての在庫操作に使用されるデフォルトの単位。"
 >>>>>>> upstream/18.0
+=======
+msgstr "すべての在庫操作に使用されるデフォルトの単位。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__uom_po_id
@@ -45762,6 +45955,7 @@ msgstr "すべての在庫操作に使用されるデフォルトの単位。"
 msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47167,6 +47361,11 @@ msgstr ""
 "発注書に使用されるデフォルトの単位。デフォルトの単位と同じカテゴリーである必"
 "要があります。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"発注書に使用されるデフォルトの単位。デフォルトの単位と同じカテゴリーである必"
+"要があります。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_tag_action
@@ -47218,7 +47417,11 @@ msgid "Delivery Lead Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "配送リードタイム"
+=======
+msgstr "納品リードタイム"
+>>>>>>> upstream/18.0
 =======
 msgstr "納品リードタイム"
 >>>>>>> upstream/18.0
@@ -47449,7 +47652,11 @@ msgid "Desk Combination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "デスクコンビネーション"
+=======
+msgstr "デスクの組み合わせ"
+>>>>>>> upstream/18.0
 =======
 msgstr "デスクの組み合わせ"
 >>>>>>> upstream/18.0
@@ -48271,7 +48478,11 @@ msgid "Discount"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引"
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引"
 >>>>>>> upstream/18.0
@@ -49688,7 +49899,11 @@ msgid "Discount (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引 (%)"
+=======
+msgstr "割引 (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引 (%)"
 >>>>>>> upstream/18.0
@@ -51105,7 +51320,11 @@ msgid "Discounted Price"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値引価格"
+=======
+msgstr "割引価格"
+>>>>>>> upstream/18.0
 =======
 msgstr "割引価格"
 >>>>>>> upstream/18.0
@@ -52546,7 +52765,12 @@ msgid "Error exporting file. Please try again."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ファイルのエクスポートにエラーが発生しました。もう一度やり直して下さい。"
+=======
+msgstr ""
+"ファイルのエクスポートにエラーが発生しました。もう一度やり直して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ファイルのエクスポートにエラーが発生しました。もう一度やり直して下さい。"
@@ -53623,7 +53847,11 @@ msgid "Explicit rule name for this pricelist line."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この価格表明細の明示的な規則名。"
+=======
+msgstr "この価格表明細の明示的なルール名。"
+>>>>>>> upstream/18.0
 =======
 msgstr "この価格表明細の明示的なルール名。"
 >>>>>>> upstream/18.0
@@ -54044,6 +54272,7 @@ msgstr "追加価格"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__price_extra
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54748,6 +54977,8 @@ msgstr "この属性値を持つバリアントのセール価格への追加価
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Extra price for the variant with this attribute value on sale price. eg. 200 "
 "price extra, 1000 + 200 = 1200."
 msgstr ""
@@ -54986,6 +55217,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55518,7 +55752,11 @@ msgid "File Content (raw)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "フィールドの内容(生)"
+=======
+msgstr "ファイル内容 (raw)"
+>>>>>>> upstream/18.0
 =======
 msgstr "ファイル内容 (raw)"
 >>>>>>> upstream/18.0
@@ -55679,6 +55917,7 @@ msgstr "Font awesomeのアイコン 例. fa-tasks"
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__min_quantity
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56384,10 +56623,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "For the rule to apply, bought/sold quantity must be greater than or equal to "
 "the minimum quantity specified in this field.\n"
 "Expressed in the default unit of measure of the product."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57350,6 +57592,10 @@ msgstr ""
 "ルールを適用するには、購入/販売数量は、このフィールドで指定された最小量以上で"
 "なければなりません。\n"
 >>>>>>> upstream/18.0
+=======
+"ルールを適用するには、購入/販売数量は、このフィールドで指定された最小量以上で"
+"なければなりません。\n"
+>>>>>>> upstream/18.0
 "これは製品のデフォルトの単位です。"
 
 #. module: product
@@ -57698,7 +57944,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "ここでは、属性タイプが「色」である場合に表示される特定のHTMLカラーインデックス（例えば#ff0000）を設定することができます。"
+=======
+msgstr ""
+"ここでは、属性タイプが「色」である場合に表示される特定のHTMLカラーインデック"
+"ス（例えば#ff0000）を設定することができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "ここでは、属性タイプが「色」である場合に表示される特定のHTMLカラーインデック"
@@ -59171,7 +59423,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "設定されていない場合、仕入先価格はこのプロダクトのすべてのバリエーションに適用されます。"
+=======
+msgstr ""
+"設定されていない場合、仕入先価格はこのプロダクトのすべてのバリエーションに適"
+"用されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "設定されていない場合、仕入先価格はこのプロダクトのすべてのバリエーションに適"
@@ -60568,6 +60826,7 @@ msgstr "キログラム"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -60759,6 +61018,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:product.attribute.value,name:product.size_attribute_l
 msgid "L"
 msgstr "L"
@@ -60788,6 +61049,9 @@ msgstr "L"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60907,6 +61171,7 @@ msgid ""
 "Lead time in days between the confirmation of the purchase order and the "
 "receipt of the products in your warehouse. Used by the scheduler for "
 "automatic computation of the purchase order planning."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62312,6 +62577,11 @@ msgstr ""
 "発注書の確認と、倉庫内の製品の受領日の間のリードタイム。購買発注計画の自動計"
 "算のためのスケジューラによって使用されます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"発注書の確認と、倉庫内の製品の受領日の間のリードタイム。購買発注計画の自動計"
+"算のためのスケジューラによって使用されます。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:product.attribute.value,name:product.fabric_attribute_leather
@@ -62353,6 +62623,7 @@ msgid ""
 msgstr "既存の家具に合う特注の竹用塗料をお探しですか？お見積もりはこちらから。"
 
 #. module: product
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63136,6 +63407,11 @@ msgstr "M"
 msgid "M"
 msgstr "M"
 >>>>>>> upstream/18.0
+=======
+#: model:product.attribute.value,name:product.size_attribute_m
+msgid "M"
+msgstr "M"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_attribute_value__exclude_for
@@ -63192,6 +63468,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -63535,6 +63814,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -64333,7 +64615,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "マルチチェックボックス表示タイプはバリアントの作成と互換性がありません。"
+=======
+msgstr ""
+"マルチチェックボックス表示タイプはバリアントの作成と互換性がありません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "マルチチェックボックス表示タイプはバリアントの作成と互換性がありません。"
@@ -65569,7 +65856,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プリントするプロダクトがありません。プロダクトがアーカイブされている場合は、ラベルを印刷する前にアーカイブ解除して下さい。"
+=======
+msgstr ""
+"プリントするプロダクトがありません。プロダクトがアーカイブされている場合は、"
+"ラベルを印刷する前にアーカイブ解除して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プリントするプロダクトがありません。プロダクトがアーカイブされている場合は、"
@@ -67117,7 +67410,11 @@ msgid "Nothing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "なし"
+=======
+msgstr "追跡しない"
+>>>>>>> upstream/18.0
 =======
 msgstr "追跡しない"
 >>>>>>> upstream/18.0
@@ -68319,7 +68616,11 @@ msgid "Number of price rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格規則の数"
+=======
+msgstr "価格ルールの数"
+>>>>>>> upstream/18.0
 =======
 msgstr "価格ルールの数"
 >>>>>>> upstream/18.0
@@ -68740,6 +69041,7 @@ msgstr "オフィスランプ"
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69444,6 +69746,8 @@ msgstr "プロダクト%(product)sでは、値%(value)sと属性%(attribute)sが
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "On the product %(product)s you cannot associate the value %(value)s with the "
 "attribute %(attribute)s because they do not match."
 msgstr ""
@@ -69682,6 +69986,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -70154,6 +70461,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/product/models/product_template_attribute_line.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70859,6 +71167,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "On the product %(product)s you cannot transform the attribute %"
 "(attribute_src)s into the attribute %(attribute_dest)s."
 msgstr ""
@@ -71097,6 +71407,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -71569,6 +71882,7 @@ msgstr ""
 #. odoo-javascript
 #: code:addons/product/static/src/js/product_document_kanban/upload_button/upload_button.js:0
 msgid "Oops! '%(fileName)s' didn’t upload since its format isn’t allowed."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72974,6 +73288,11 @@ msgstr ""
 "'%(fileName)s' のフォーマットが許可されていないためアップロードできませんでし"
 "た。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"'%(fileName)s' のフォーマットが許可されていないためアップロードできませんでし"
+"た。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_document__original_id
@@ -73200,7 +73519,11 @@ msgid "Please specify the category for which this rule should be applied"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この規則を適用するカテゴリを指定して下さい。"
+=======
+msgstr "このルールを適用するカテゴリを指定して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr "このルールを適用するカテゴリを指定して下さい。"
 >>>>>>> upstream/18.0
@@ -73726,7 +74049,11 @@ msgid "Please specify the product for which this rule should be applied"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この規則を適用するプロダクトを指定して下さい。"
+=======
+msgstr "このルールを適用するプロダクトを指定して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr "このルールを適用するプロダクトを指定して下さい。"
 >>>>>>> upstream/18.0
@@ -74253,7 +74580,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この規則を適用するプロダクトバリアントを指定して下さい。"
+=======
+msgstr "このルールを適用するプロダクトバリアントを指定して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr "このルールを適用するプロダクトバリアントを指定して下さい。"
 >>>>>>> upstream/18.0
@@ -74669,6 +75000,7 @@ msgstr "価格"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_discount
 msgid "Price Discount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76082,6 +76414,9 @@ msgstr "価格割引"
 =======
 msgstr "価格割引"
 >>>>>>> upstream/18.0
+=======
+msgstr "価格割引"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__price_round
@@ -76226,7 +76561,11 @@ msgid "Price Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格規則"
+=======
+msgstr "価格ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "価格ルール"
 >>>>>>> upstream/18.0
@@ -76811,7 +77150,11 @@ msgid "Pricelist Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格表規則"
+=======
+msgstr "価格票ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "価格票ルール"
 >>>>>>> upstream/18.0
@@ -77338,7 +77681,11 @@ msgid "Pricelist Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格表規則"
+=======
+msgstr "価格票ルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "価格票ルール"
 >>>>>>> upstream/18.0
@@ -78216,7 +78563,11 @@ msgid "Products Price Rules Search"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクト価格規則検索"
+=======
+msgstr "プロダクト価格ルール検索"
+>>>>>>> upstream/18.0
 =======
 msgstr "プロダクト価格ルール検索"
 >>>>>>> upstream/18.0
@@ -78942,10 +79293,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Register the prices requested by your vendors for each product, based on the"
 " quantity and the period."
 msgstr "各プロダクトについて、数量と期間に基づいて仕入先から要求された価格を登録します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79650,6 +80004,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80320,6 +80677,7 @@ msgid "Rule Tip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "規則ヒント"
 =======
 msgstr "ルールヒント"
@@ -80657,11 +81015,14 @@ msgstr "ルールヒント"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "ルールヒント"
 
 #. module: product
 #: model:product.attribute.value,name:product.size_attribute_s
 msgid "S"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -80769,6 +81130,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "S"
 >>>>>>> upstream/18.0
 =======
 msgstr "S"
@@ -80915,6 +81279,7 @@ msgid ""
 "To have prices that end in 9.99, round off to 10.00 and set an extra at -0.01"
 msgstr ""
 "この値の倍数となる価格を設定します。\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82328,6 +82693,9 @@ msgstr ""
 =======
 "丸めは割引後で追加料金の前に適用します。\n"
 >>>>>>> upstream/18.0
+=======
+"丸めは割引後で追加料金の前に適用します。\n"
+>>>>>>> upstream/18.0
 "最終価格を9.99にするには、丸めを10.00に追加料金を-0.01とします。"
 
 #. module: product
@@ -82592,8 +82960,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このカテゴリがこのカテゴリまたはその子カテゴリに属するプロダクトにのみ適用される場合は、プロダクトカテゴリを指定します。 "
 "それ以外の場合は空白にしておきます。"
+=======
+"このカテゴリがこのカテゴリまたはその子カテゴリに属するプロダクトにのみ適用さ"
+"れる場合は、プロダクトカテゴリを指定します。 それ以外の場合は空白にしておきま"
+"す。"
+>>>>>>> upstream/18.0
 =======
 "このカテゴリがこのカテゴリまたはその子カテゴリに属するプロダクトにのみ適用さ"
 "れる場合は、プロダクトカテゴリを指定します。 それ以外の場合は空白にしておきま"
@@ -84004,6 +84378,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この規則が1つのプロダクトにのみ適用される場合、プロダクトを指定します。 それ以外の場合は空白にしておきます。"
 =======
 msgstr ""
@@ -85098,12 +85473,18 @@ msgstr ""
 "このルールが1つのプロダクトにのみ適用される場合、プロダクトを指定します。 そ"
 "れ以外の場合は空白にしておきます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"このルールが1つのプロダクトにのみ適用される場合、プロダクトを指定します。 そ"
+"れ以外の場合は空白にしておきます。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__product_tmpl_id
 msgid ""
 "Specify a template if this rule only applies to one product template. Keep "
 "empty otherwise."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86432,12 +86813,18 @@ msgstr ""
 "このルールが1つのプロダクトテンプレートにのみ適用される場合は、テンプレートを"
 "指定します。 それ以外の場合は空白にしておきます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"このルールが1つのプロダクトテンプレートにのみ適用される場合は、テンプレートを"
+"指定します。 それ以外の場合は空白にしておきます。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_surcharge
 msgid ""
 "Specify the fixed amount to add or subtract (if negative) to the amount "
 "calculated with the discount."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88319,6 +88706,11 @@ msgstr ""
 "割引で計算された金額に加算または（マイナスの場合）減算する固定金額を指定しま"
 "す。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"割引で計算された金額に加算または（マイナスの場合）減算する固定金額を指定しま"
+"す。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_max_margin
@@ -88505,7 +88897,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "遅延: 期限が既に過ぎています\n"
+=======
+"期限超過：期限日がすでに過ぎています\n"
+>>>>>>> upstream/18.0
 =======
 "期限超過：期限日がすでに過ぎています\n"
 >>>>>>> upstream/18.0
@@ -89234,10 +89630,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The attribute %(attribute)s must have at least one value for the product "
 "%(product)s."
 msgstr "この属性%(attribute)sは、プロダクト%(product)sに対して少なくとも1つの値を持っている必要があります。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -89942,6 +90341,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -90666,7 +91068,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "このデスクオーガナイザーは、様々な小物を収納することができます。5つのボックスがバラバラになっているので、自分やモノに合った方法で移動・配置することができます。"
+=======
+"このデスクオーガナイザーは、様々な小物を収納することができます。5つのボックス"
+"がバラバラになっているので、自分やモノに合った方法で移動・配置することができ"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 "このデスクオーガナイザーは、様々な小物を収納することができます。5つのボックス"
 "がバラバラになっているので、自分やモノに合った方法で移動・配置することができ"
@@ -92102,11 +92510,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "combo product. This heuristic ensures that whatever product the user chooses"
 " in a combo, it will always be the same price."
 msgstr ""
 "このコンボ内のプロダクトの最低価格。この値は、コンボ商品内の他のコンボとの関係で、このコンボの価格を按分するために使用されます。このヒューリスティックにより、コンボ内でユーザがどのプロダクトを選択しても、常に同じ価格となることが保証されます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -92813,6 +93224,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -93526,6 +93940,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The number of variants to generate is above allowed limit. You should either"
 " not generate variants for each combination or generate them on demand from "
 "the sales order. To do so, open the form view of attributes and change the "
@@ -93533,6 +93948,8 @@ msgid ""
 msgstr ""
 "生成するバリアントの数が限度を超えています。組み合わせごとにバリアントを生成するのをやめるか、販売オーダからオンデマンドでバリアントを生成する必要があります。そのためには、属性のフォームビューを開き、*バリアントを作成*のモードを変更します。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -94241,6 +94658,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94952,7 +95372,13 @@ msgid "The product template is archived so no combination is possible."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "プロダクトテンプレートはアーカイブされているため、組み合わせることはできません。"
+=======
+msgstr ""
+"プロダクトテンプレートはアーカイブされているため、組み合わせることはできませ"
+"ん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "プロダクトテンプレートはアーカイブされているため、組み合わせることはできませ"
@@ -96365,7 +96791,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "この仕入先から購入する際に、価格の優待を受けるための数量が仕入先のプロダクト単位で表示されます。その単位がない場合はプロダクトのデフォルトの単位で表示されます。"
+=======
+"この仕入先から購入する際に、価格の優待を受けるための数量が仕入先のプロダクト"
+"単位で表示されます。その単位がない場合はプロダクトのデフォルトの単位で表示さ"
+"れます。"
+>>>>>>> upstream/18.0
 =======
 "この仕入先から購入する際に、価格の優待を受けるための数量が仕入先のプロダクト"
 "単位で表示されます。その単位がない場合はプロダクトのデフォルトの単位で表示さ"
@@ -97781,10 +98213,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The sale price is managed from the product template. Click on the 'Configure"
 " Variants' button to set the extra attribute prices."
 msgstr "販売価格はプロダクトテンプレートから管理されます。追加属性価格を設定するには、「バリアントを設定する」ボタンをクリックして下さい。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -98489,6 +98924,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -99197,7 +99635,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値 %(value)s は属性%(attribute)s （プロダクト %(product)s）用に定義されていません。"
+=======
+msgstr ""
+"値 %(value)s は属性%(attribute)s （プロダクト %(product)s）用に定義されていま"
+"せん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "値 %(value)s は属性%(attribute)s （プロダクト %(product)s）用に定義されていま"
@@ -100629,7 +101073,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "プロダクトの属性、値、除外のこのコンフィギュレータは、可能なバリアントを導きません。それが意図的な場合は、プロダクトを直接アーカイブするか削除して下さい。"
+=======
+"プロダクトの属性、値、除外のこのコンフィギュレータは、可能なバリアントを導き"
+"ません。それが意図的な場合は、プロダクトを直接アーカイブするか削除して下さ"
+"い。"
+>>>>>>> upstream/18.0
 =======
 "プロダクトの属性、値、除外のこのコンフィギュレータは、可能なバリアントを導き"
 "ません。それが意図的な場合は、プロダクトを直接アーカイブするか削除して下さ"
@@ -102056,7 +102506,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この価格表は現在のパートナに販売するために、デフォルトのそれに代って使用されます。"
+=======
+msgstr ""
+"この価格表は現在のパートナに販売するために、デフォルトのそれに代って使用され"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この価格表は現在のパートナに販売するために、デフォルトのそれに代って使用され"
@@ -103467,7 +103923,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このプロダクトはコンボの一部ですあるため、タイプを \"コンボ\" に変更することはできません。"
+=======
+msgstr ""
+"このプロダクトはコンボの一部ですあるため、タイプを \"コンボ\" に変更すること"
+"はできません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このプロダクトはコンボの一部ですあるため、タイプを \"コンボ\" に変更すること"
@@ -104877,7 +105339,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s digits).\n"
+=======
+"This rounding precision is higher than the Decimal Accuracy (%(digits)s "
+"digits).\n"
+>>>>>>> upstream/18.0
 =======
 "This rounding precision is higher than the Decimal Accuracy (%(digits)s "
 "digits).\n"
@@ -106060,7 +106527,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積依頼を印刷する場合、この仕入先の製品コードが使用されます。内部のものを使用する場合は空白のままにします。"
+=======
+msgstr ""
+"見積依頼を印刷する場合、この仕入先の製品コードが使用されます。内部のものを使"
+"用する場合は空白のままにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "見積依頼を印刷する場合、この仕入先の製品コードが使用されます。内部のものを使"
@@ -107471,7 +107944,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "見積依頼を印刷する場合、この仕入先の製品名が使用されます。内部のものをを使用する場合は空白のままにします。"
+=======
+msgstr ""
+"見積依頼を印刷する場合、この仕入先の製品名が使用されます。内部のものをを使用"
+"する場合は空白のままにします。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "見積依頼を印刷する場合、この仕入先の製品名が使用されます。内部のものをを使用"
@@ -108700,7 +109179,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "記録上の例外活動の種類。"
+=======
+msgstr "レコード上の例外の活動タイプ。"
+>>>>>>> upstream/18.0
 =======
 msgstr "レコード上の例外の活動タイプ。"
 >>>>>>> upstream/18.0
@@ -108908,6 +109391,7 @@ msgstr "URL"
 msgid ""
 "Use the discount rules and activate the discount settings in order to show "
 "discount to customer."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109429,6 +109913,9 @@ msgstr "割引ルールを使用し、顧客に割引を表示するために割
 =======
 msgstr "割引ルールを使用し、顧客に割引を表示するために割引設定を有効化します。"
 >>>>>>> upstream/18.0
+=======
+msgstr "割引ルールを使用し、顧客に割引を表示するために割引設定を有効化します。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #. odoo-python
@@ -109481,6 +109968,7 @@ msgstr "値カウント"
 #: model:ir.model.fields,help:product.field_product_template__standard_price
 msgid ""
 "Value of the product (automatically computed in AVCO).\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110187,6 +110675,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        Used to value the product when the purchase cost is not known (e.g. "
 "inventory adjustment).\n"
 "        Used to compute margins on sale orders."
@@ -110427,6 +110917,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -111315,8 +111808,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "We pay special attention to detail, which is why our desks are of a superior"
 " quality."
+=======
+"We pay special attention to detail, which is why our desks are of a superior "
+"quality."
+>>>>>>> upstream/18.0
 =======
 "We pay special attention to detail, which is why our desks are of a superior "
 "quality."
@@ -112591,7 +113089,11 @@ msgid "Write Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "日付を書く"
+=======
+msgstr "更新日時"
+>>>>>>> upstream/18.0
 =======
 msgstr "更新日時"
 >>>>>>> upstream/18.0
@@ -113748,7 +114250,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値 \"%(attribute_value)s\" を %(product_count)s プロダクトに追加しようとしています。"
+=======
+msgstr ""
+"値 \"%(attribute_value)s\" を %(product_count)s プロダクトに追加しようとして"
+"います。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "値 \"%(attribute_value)s\" を %(product_count)s プロダクトに追加しようとして"
@@ -115175,7 +115683,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Please increase the rounding of those units of measure, or the digits of this Decimal Accuracy."
+=======
+"Please increase the rounding of those units of measure, or the digits of "
+"this Decimal Accuracy."
+>>>>>>> upstream/18.0
 =======
 "Please increase the rounding of those units of measure, or the digits of "
 "this Decimal Accuracy."
@@ -116122,6 +116635,7 @@ msgstr ""
 #: model:ir.model.fields,help:product.field_product_pricelist_item__percent_price
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_discount
 msgid "You can apply a mark-up by setting a negative discount."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117769,10 +118283,15 @@ msgstr ""
 msgstr ""
 "マイナスの割引(負の値)を設定することで、上乗せ(マークアップ)を適用できます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"マイナスの割引(負の値)を設定することで、上乗せ(マークアップ)を適用できます。"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__price_markup
 msgid "You can apply a mark-up on the cost"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119186,6 +119705,9 @@ msgstr "原価に上乗せ(マークアップ)を適用できます"
 =======
 msgstr "原価に上乗せ(マークアップ)を適用できます"
 >>>>>>> upstream/18.0
+=======
+msgstr "原価に上乗せ(マークアップ)を適用できます"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_pricelist_action2
@@ -119426,7 +119948,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "価格表を顧客に割当てたり、新規の販売見積書を作成する際に価格表を選択することができます。"
+=======
+msgstr ""
+"価格表を顧客に割当てたり、新規の販売見積書を作成する際に価格表を選択すること"
+"ができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "価格表を顧客に割当てたり、新規の販売見積書を作成する際に価格表を選択すること"
@@ -120837,7 +121365,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "利用中のコンピュータから、もしくはインターネットのリンクをコピーペーストでファイルをアップロードすることができます。"
+=======
+msgstr ""
+"利用中のコンピュータから、もしくはインターネットのリンクをコピーペーストで"
+"ファイルをアップロードすることができます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "利用中のコンピュータから、もしくはインターネットのリンクをコピーペーストで"
@@ -122262,7 +122796,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "リンクされているプロダクトがあるため、この属性をアーカイブすることはできません。"
+=======
+msgstr ""
+"リンクされているプロダクトがあるため、この属性をアーカイブすることはできませ"
+"ん。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "リンクされているプロダクトがあるため、この属性をアーカイブすることはできませ"
@@ -123679,10 +124219,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the Variants Creation Mode of the attribute %(attribute)s because it is used on the following products:\n"
 "%(products)s"
 msgstr "属性%(attribute)sのバリアント作成モードは以下のプロダクトで使用されているため、変更できません：%(products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -124388,6 +124931,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -125094,10 +125640,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the attribute of the value %(value)s because it is used on"
 " the following products: %(products)s"
 msgstr "値%(value)sの属性は以下のプロダクトで使用されているため、変更できません：%(products)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125802,6 +126351,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126508,8 +127060,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the product of the value %(value)s set on product "
 "%(product)s."
+=======
+"You cannot change the product of the value %(value)s set on product %"
+"(product)s."
+>>>>>>> upstream/18.0
 =======
 "You cannot change the product of the value %(value)s set on product %"
 "(product)s."
@@ -127686,10 +128243,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot change the value of the value %(value)s set on product "
 "%(product)s."
 msgstr "値%(value)s（プロダクト%(product)sに設定されている）の値は変更することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -128394,6 +128954,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -129108,7 +129671,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "'会計'の10進精度を会社の主要通貨の丸め係数より大きく定義することはできません"
+=======
+msgstr ""
+"'会計'の10進精度を会社の主要通貨の丸め係数より大きく定義することはできません"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "'会計'の10進精度を会社の主要通貨の丸め係数より大きく定義することはできません"
@@ -130304,7 +130872,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the attribute %(attribute)s because it is used on the following products:\n"
+=======
+"You cannot delete the attribute %(attribute)s because it is used on the "
+"following products:\n"
+>>>>>>> upstream/18.0
 =======
 "You cannot delete the attribute %(attribute)s because it is used on the "
 "following products:\n"
@@ -131484,7 +132057,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete the value %(value)s because it is used on the following products:\n"
+=======
+"You cannot delete the value %(value)s because it is used on the following "
+"products:\n"
+>>>>>>> upstream/18.0
 =======
 "You cannot delete the value %(value)s because it is used on the following "
 "products:\n"
@@ -132665,7 +133243,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "このプロダクトカテゴリは、デフォルト汎用カテゴリであるため削除することはできません。"
+=======
+msgstr ""
+"このプロダクトカテゴリは、デフォルト汎用カテゴリであるため削除することはでき"
+"ません。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "このプロダクトカテゴリは、デフォルト汎用カテゴリであるため削除することはでき"
@@ -134075,11 +134659,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot move the attribute %(attribute)s from the product %(product_src)s"
 " to the product %(product_dest)s."
 msgstr ""
 "属性 %(attribute)s をプロダクト%(product_src)sからプロダクト%(product_dest)sに移動することはできません。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -134784,6 +135371,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135492,7 +136082,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "値から関連するバリアントを更新することはできません。バリアントから関連する値を更新して下さい。"
+=======
+msgstr ""
+"値から関連するバリアントを更新することはできません。バリアントから関連する値"
+"を更新して下さい。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "値から関連するバリアントを更新することはできません。バリアントから関連する値"
@@ -136903,7 +137499,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            whether it's a storable product, a consumable or a service."
+=======
+"                            whether it's a storable product, a consumable or "
+"a service."
+>>>>>>> upstream/18.0
 =======
 "                            whether it's a storable product, a consumable or "
 "a service."
@@ -138093,11 +138694,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                The product form contains information to simplify the sale process:\n"
 "                price, notes in the quotation, accounting data, procurement methods, etc."
 msgstr ""
 "販売または購買するもの(在庫可能品、消耗品、サービス品等)は、プロダクトとして登録する必要があります。プロダクトフォームは販売プロセスを容易にするための情報(価格、見積書の備考、会計データ、調達方法等)を含みます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -138805,6 +139409,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139510,6 +140117,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You must define a product for everything you sell, whether it's a physical product,\n"
 "                a consumable or a service you offer to customers.\n"
 "                The product form contains information to simplify the sale process:\n"
@@ -139517,6 +140125,8 @@ msgid ""
 msgstr ""
 "販売または購買するもの(在庫品、消耗品、サービス品等)は、プロダクトとして登録する必要があります。プロダクトフォームは販売プロセスを容易にするための情報(価格、見積書の備考、会計データ、調達方法等)を含みます。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -140227,6 +140837,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -140723,6 +141336,7 @@ msgstr "日"
 #. odoo-python
 #: code:addons/product/models/product_pricelist_item.py:0
 msgid "discount"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142136,6 +142750,9 @@ msgstr "割引"
 =======
 msgstr "割引"
 >>>>>>> upstream/18.0
+=======
+msgstr "割引"
+>>>>>>> upstream/18.0
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_form_normalized
@@ -142259,7 +142876,11 @@ msgid "to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "to"
+=======
+msgstr "~"
+>>>>>>> upstream/18.0
 =======
 msgstr "~"
 >>>>>>> upstream/18.0
@@ -142394,7 +143015,10 @@ msgstr "xlsx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -142563,6 +143187,9 @@ msgstr "xlsx"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

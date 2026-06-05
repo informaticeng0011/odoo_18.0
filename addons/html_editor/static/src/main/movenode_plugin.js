@@ -7,11 +7,14 @@ import { useNativeDraggable } from "@html_editor/utils/drag_and_drop";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { endPos } from "@html_editor/utils/position";
 import { Plugin } from "../plugin";
 import { ancestors, closestElement } from "../utils/dom_traversal";
 import { baseContainerGlobalSelector } from "@html_editor/utils/base_container";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37,6 +40,9 @@ import { getDeepestPosition } from "@html_editor/utils/dom_info";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -141,6 +147,7 @@ export class MoveNodePlugin extends Plugin {
     intersectionObserverCallback(entries) {
         for (const entry of entries) {
             const element = entry.target;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1366,6 +1373,9 @@ export class MoveNodePlugin extends Plugin {
 =======
             if (entry.isIntersecting && element.isConnected) {
 >>>>>>> upstream/18.0
+=======
+            if (entry.isIntersecting && element.isConnected) {
+>>>>>>> upstream/18.0
                 this.visibleMovableElements.add(element);
                 this.resetHooksNextMousemove = true;
             } else {
@@ -1664,6 +1674,10 @@ export class MoveNodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            const cursors = this.dependencies.selection.preserveSelection();
+>>>>>>> upstream/18.0
 =======
             const cursors = this.dependencies.selection.preserveSelection();
 >>>>>>> upstream/18.0
@@ -1710,12 +1724,15 @@ export class MoveNodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const selectionPosition = endPos(movableElement);
             this.dependencies.selection.setSelection({
                 anchorNode: selectionPosition[0],
                 anchorOffset: selectionPosition[1],
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1752,6 +1769,9 @@ export class MoveNodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2071,7 +2091,11 @@ function isNodeMovable(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         !node.parentElement.closest(".o_editor_banner")
+=======
+        !node.parentElement.closest(".o_text_columns, .o_editor_banner")
+>>>>>>> upstream/18.0
 =======
         !node.parentElement.closest(".o_text_columns, .o_editor_banner")
 >>>>>>> upstream/18.0

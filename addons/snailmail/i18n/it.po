@@ -50,6 +50,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* snailmail
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -964,6 +965,9 @@
 =======
 # * snailmail
 >>>>>>> upstream/18.0
+=======
+# * snailmail
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1019,6 +1023,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1320,6 +1325,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marianna Ciofani (cima)" <cima@odoo.com>, 2026.
@@ -1475,6 +1483,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2398,6 +2407,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-04-14 08:22+0000\n"
 "Last-Translator: \"Marianna Ciofani (cima)\" <cima@odoo.com>\n"
@@ -2452,6 +2463,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2555,6 +2569,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3158,6 +3173,11 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields.selection,name:snailmail.selection__snailmail_letter__error_code__attachment_error
@@ -3334,8 +3354,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si è verificato un errore durante l'invio di una lettera con posta ordinaria"
 " a \"%(record_name)s\""
+=======
+"Si è verificato un errore durante l'invio di una lettera con posta ordinaria "
+"a \"%(record_name)s\""
+>>>>>>> upstream/18.0
 =======
 "Si è verificato un errore durante l'invio di una lettera con posta ordinaria "
 "a \"%(record_name)s\""
@@ -4097,8 +4122,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si è verificato un errore durante l'invio di una lettera con posta "
 "ordinaria."
+=======
+"Si è verificato un errore durante l'invio di una lettera con posta ordinaria."
+>>>>>>> upstream/18.0
 =======
 "Si è verificato un errore durante l'invio di una lettera con posta ordinaria."
 >>>>>>> upstream/18.0
@@ -4709,8 +4738,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si è verificato un errore durante l'invio del documento per "
 "posta.<br>Errore: %s"
+=======
+"Si è verificato un errore durante l'invio del documento per posta."
+"<br>Errore: %s"
+>>>>>>> upstream/18.0
 =======
 "Si è verificato un errore durante l'invio del documento per posta."
 "<br>Errore: %s"
@@ -5781,6 +5815,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                Please modify the format of the template or update your settings\n"
 "                to automatically add a blank cover page to all letters."
 msgstr ""
@@ -5788,6 +5823,8 @@ msgstr ""
 "                Modificarlo dal modello o aggiornare le impostazioni per aggiungere\n"
 "                automaticamente una pagina di copertina vuota a tutte le lettere."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6248,6 +6285,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6762,6 +6802,7 @@ msgstr "L'indirizzo del destinatario non è completo"
 #. odoo-python
 #: code:addons/snailmail/models/snailmail_letter.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7519,6 +7560,10 @@ msgid ""
 "The attachment of the letter could not be sent. Please check its content and "
 "contact the support if the problem persists."
 >>>>>>> upstream/18.0
+=======
+"The attachment of the letter could not be sent. Please check its content and "
+"contact the support if the problem persists."
+>>>>>>> upstream/18.0
 msgstr ""
 "Impossibile inviare l'allegato della lettera. Verificare il contenuto e se "
 "il problema persiste contattare il supporto."
@@ -7603,6 +7648,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7610,6 +7656,11 @@ msgstr ""
 >>>>>>> upstream/18.0
 msgid "The document to be sent exceeds the maximum allowed limit of 8 pages."
 msgstr ""
+=======
+msgid "The document to be sent exceeds the maximum allowed limit of 8 pages."
+msgstr ""
+"Il documento da inviare supera il limite massimo consentito di 8 pagine."
+>>>>>>> upstream/18.0
 =======
 msgid "The document to be sent exceeds the maximum allowed limit of 8 pages."
 msgstr ""
@@ -7916,6 +7967,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8028,6 +8082,7 @@ msgstr "Documento inviato correttamente per posta. <br>ID tracciabilità %s"
 #. odoo-javascript
 #: code:addons/snailmail/static/src/core_ui/snailmail_error.xml:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9244,6 +9299,10 @@ msgstr "Impossibile inviare la lettera, crediti non sufficienti nel conto IAP."
 "The letter could not be sent due to insufficient credits on your IAP account."
 msgstr "Impossibile inviare la lettera, crediti non sufficienti nel conto IAP."
 >>>>>>> upstream/18.0
+=======
+"The letter could not be sent due to insufficient credits on your IAP account."
+msgstr "Impossibile inviare la lettera, crediti non sufficienti nel conto IAP."
+>>>>>>> upstream/18.0
 
 #. module: snailmail
 #: model:ir.model.fields,field_description:snailmail.field_mail_mail__message_type
@@ -9431,7 +9490,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'auto_comment': generated by automated notification mechanism e.g. acknowledgment\n"
+=======
+"'auto_comment': generated by automated notification mechanism e.g. "
+"acknowledgment\n"
+>>>>>>> upstream/18.0
 =======
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
@@ -10191,11 +10255,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "'comment': generato dall'inserimento di un utente ad es. attraverso discuti o compositore\n"
 "'email_outgoing': generato da e-mail di massa\n"
 "'notification': generato dal sistema ad es. messaggi tracciati\n"
 "'auto_comment': generato da un meccanismo di notifica automatico ad es. riconoscimento\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10652,6 +10719,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11111,12 +11181,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If not, it will got in state 'Error' and the error message will be displayed in the field 'Error Message'."
 msgstr ""
 "Quando viene creata una lettera lo stato è \"In attesa\".\n"
 "Se la lettera viene inviata in modo corretto lo stato passa a \"Inviata\".\n"
 "In caso contrario, lo stato diventa \"Errore\" e viene visualizzato un messaggio nel campo \"Messaggio di errore\"."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11574,6 +11647,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12148,9 +12224,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nessun account acquisti integrati (IAP) registrato per il "
 "servizio.<br>Andare su <a href=%s target=\"new\">iap.odoo.com</a> per "
 "richiedere crediti gratuiti."
+=======
+"Nessun conto IAP registrato per il servizio.<br>Andare su <a href=%s "
+"target=\"new\">iap.odoo.com</a> per richiedere crediti gratuiti."
+>>>>>>> upstream/18.0
 =======
 "Nessun conto IAP registrato per il servizio.<br>Andare su <a href=%s "
 "target=\"new\">iap.odoo.com</a> per richiedere crediti gratuiti."
@@ -13484,8 +13565,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Crediti non sufficienti per eseguire l'operazione.<br>Proseguire verso l'<a "
 "href=%s target=\"new\">account acquisti integrati (IAP)</a>"
+=======
+"Crediti non sufficienti per eseguire l'operazione.<br>Andare al <a href=%s "
+"target=\"new\">conto IAP</a>"
+>>>>>>> upstream/18.0
 =======
 "Crediti non sufficienti per eseguire l'operazione.<br>Andare al <a href=%s "
 "target=\"new\">conto IAP</a>"
@@ -14816,9 +14902,13 @@ msgid "You need credits on your IAP account to send a letter."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Per inviare una lettera sono necessari crediti nell'account IAP (acquisti "
 "integrati)."
+=======
+msgstr "Per inviare una lettera sono necessari crediti nel conto IAP."
+>>>>>>> upstream/18.0
 =======
 msgstr "Per inviare una lettera sono necessari crediti nel conto IAP."
 >>>>>>> upstream/18.0

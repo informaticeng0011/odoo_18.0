@@ -123,7 +123,13 @@ class PdpFlow(models.Model):
         """Compute the current status of the reporting period."""
         today = fields.Date.context_today(self)
         for flow in self:
+<<<<<<< HEAD
             if today < flow.due_period_start:
+=======
+            if not flow.due_period_start or not flow.due_period_end:
+                flow.period_status = False
+            elif today < flow.due_period_start:
+>>>>>>> upstream/18.0
                 flow.period_status = 'open'
             elif today <= flow.due_period_end:
                 flow.period_status = 'grace'
@@ -263,8 +269,11 @@ class PdpFlow(models.Model):
         """Send flow payload to transport gateway."""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         auth_totp_disabled = not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
         auth_totp_disabled = (
@@ -273,6 +282,9 @@ class PdpFlow(models.Model):
             and self.env.company._get_peppol_edi_mode() != 'demo'
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

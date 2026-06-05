@@ -2,6 +2,11 @@ from odoo import api, fields, models, modules
 from odoo.exceptions import UserError, ValidationError, RedirectWarning
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo.addons.l10n_fr_pdp.tools.demo_utils import handle_demo
+>>>>>>> upstream/18.0
 =======
 
 from odoo.addons.l10n_fr_pdp.tools.demo_utils import handle_demo
@@ -171,7 +176,11 @@ class PdpRegistration(models.TransientModel):
     def _action_open_pdp_form(self, reopen=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy')):
+=======
+        if not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy')) and self.edi_mode != 'demo':
+>>>>>>> upstream/18.0
 =======
         if not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy')) and self.edi_mode != 'demo':
 >>>>>>> upstream/18.0
@@ -197,6 +206,10 @@ class PdpRegistration(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @handle_demo
+>>>>>>> upstream/18.0
 =======
     @handle_demo
 >>>>>>> upstream/18.0

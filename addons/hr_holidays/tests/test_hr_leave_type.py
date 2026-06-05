@@ -94,7 +94,10 @@ class TestHrLeaveType(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -171,6 +174,7 @@ class TestHrLeaveType(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }).action_validate()
         self.assertEqual(leave_type_comp.with_context(employee_id=employee_id).max_leaves, 0)
         self.assertEqual(leave_type_no_comp.with_context(employee_id=employee_id).max_leaves, 10)
@@ -200,6 +204,8 @@ class TestHrLeaveType(TestHrHolidaysCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -240,6 +246,9 @@ class TestHrLeaveType(TestHrHolidaysCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

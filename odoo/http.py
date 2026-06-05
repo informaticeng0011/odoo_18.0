@@ -235,7 +235,11 @@ from pathlib import Path
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from urllib.parse import urlparse
+=======
+from urllib.parse import urlparse, urlsplit
+>>>>>>> upstream/18.0
 =======
 from urllib.parse import urlparse, urlsplit
 >>>>>>> upstream/18.0
@@ -826,6 +830,10 @@ from .tools.misc import submap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from .tools.facade import Proxy, ProxyAttr, ProxyFunc
+>>>>>>> upstream/18.0
 =======
 from .tools.facade import Proxy, ProxyAttr, ProxyFunc
 >>>>>>> upstream/18.0
@@ -2142,9 +2150,12 @@ class SessionExpiredException(Exception):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def content_disposition(filename):
     return "attachment; filename*=UTF-8''{}".format(
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3126,6 +3137,9 @@ def content_disposition(filename, disposition_type='attachment'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4245,6 +4259,7 @@ class Stream:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         data_b64 = record[field_name]
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4263,6 +4278,8 @@ class Stream:
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5145,6 +5162,9 @@ class Stream:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6407,7 +6427,10 @@ class FilesystemSessionStore(sessions.FilesystemSessionStore):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7120,6 +7143,9 @@ class FilesystemSessionStore(sessions.FilesystemSessionStore):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8183,6 +8209,10 @@ class HTTPRequest:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._session_id__ = httprequest.cookies.get('session_id')
+>>>>>>> upstream/18.0
 =======
         self._session_id__ = httprequest.cookies.get('session_id')
 >>>>>>> upstream/18.0
@@ -9323,7 +9353,11 @@ for attr in HTTPREQUEST_ATTRIBUTES:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Response(werkzeug.wrappers.Response):
+=======
+class _Response(werkzeug.wrappers.Response):
+>>>>>>> upstream/18.0
 =======
 class _Response(werkzeug.wrappers.Response):
 >>>>>>> upstream/18.0
@@ -10554,7 +10588,11 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return cls(result)
+=======
+            return Response(result)
+>>>>>>> upstream/18.0
 =======
             return Response(result)
 >>>>>>> upstream/18.0
@@ -11773,7 +11811,10 @@ class _Response(werkzeug.wrappers.Response):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12739,8 +12780,11 @@ class Response(Proxy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         response = args[0] if len(args) == 1 and isinstance(args[0], _Response) else _Response(*args, **kwargs)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13545,6 +13589,9 @@ class Response(Proxy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14344,7 +14391,10 @@ class Response(Proxy):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15147,6 +15197,9 @@ HTTPException.get_response = get_response
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15981,6 +16034,9 @@ werkzeug.exceptions.abort = abort
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16888,7 +16944,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         sid = self.httprequest.cookies.get('session_id')
+=======
+        sid = self.httprequest._session_id__
+>>>>>>> upstream/18.0
 =======
         sid = self.httprequest._session_id__
 >>>>>>> upstream/18.0
@@ -18262,7 +18322,11 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     )
+=======
+                    )._get_cm_proxy()
+>>>>>>> upstream/18.0
 =======
                     )._get_cm_proxy()
 >>>>>>> upstream/18.0
@@ -19403,7 +19467,12 @@ class Request:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             location = '/' + url_parse(location).replace(scheme='', netloc='').to_url().lstrip('/\\')
+=======
+            location = url_parse(location).replace(scheme='', netloc='').to_url().lstrip('/\\')
+            location = '/' + urlsplit(location).geturl().lstrip('/\\')
+>>>>>>> upstream/18.0
 =======
             location = url_parse(location).replace(scheme='', netloc='').to_url().lstrip('/\\')
             location = '/' + urlsplit(location).geturl().lstrip('/\\')
@@ -20091,7 +20160,11 @@ class Dispatcher(ABC):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                        'Origin, X-Requested-With, Content-Type, Accept, Authorization')
+=======
+                       'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
+>>>>>>> upstream/18.0
 =======
                        'Origin, X-Requested-With, Content-Type, Accept, Authorization, Range')
 >>>>>>> upstream/18.0
@@ -20420,7 +20493,11 @@ class HttpDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 response.set_cookie('session_id', session.sid, max_age=get_session_max_inactivity(self.env), httponly=True)
+=======
+                response.set_cookie('session_id', session.sid, max_age=get_session_max_inactivity(self.request.env), httponly=True)
+>>>>>>> upstream/18.0
 =======
                 response.set_cookie('session_id', session.sid, max_age=get_session_max_inactivity(self.request.env), httponly=True)
 >>>>>>> upstream/18.0
@@ -20910,7 +20987,11 @@ class JsonRPCDispatcher(Dispatcher):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         else:
+=======
+        if result is not None:
+>>>>>>> upstream/18.0
 =======
         if result is not None:
 >>>>>>> upstream/18.0
@@ -22097,7 +22178,11 @@ class Application:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (module not in self.statics or static != 'static' or not resource):
+=======
+        if (static != 'static' or not resource or module not in self.statics):
+>>>>>>> upstream/18.0
 =======
         if (static != 'static' or not resource or module not in self.statics):
 >>>>>>> upstream/18.0

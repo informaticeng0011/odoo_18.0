@@ -114,7 +114,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -152,6 +155,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -908,7 +914,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1356,6 +1365,9 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2751,7 +2763,10 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3797,6 +3812,7 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4467,6 +4483,8 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4518,7 +4536,11 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         )
         self.assertIn(transfer_aml, candidates)
 
+<<<<<<< HEAD
     def test_default_amls_matching_domain_excludes_reconciled_receivable(self):
+=======
+    def test_default_amls_matching_domain_includes_reconciled_receivable(self):
+>>>>>>> upstream/18.0
         receivable_account = self.company_data['default_account_receivable']
 
         st_line_a = self.env['account.bank.statement.line'].create({
@@ -4542,6 +4564,7 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
         candidates = self.env['account.move.line'].search(
             st_line_b._get_default_amls_matching_domain(),
         )
+<<<<<<< HEAD
         self.assertNotIn(receivable_aml, candidates)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4573,4 +4596,7 @@ class TestAccountBankStatementLine(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        self.assertIn(receivable_aml, candidates)
 >>>>>>> upstream/18.0

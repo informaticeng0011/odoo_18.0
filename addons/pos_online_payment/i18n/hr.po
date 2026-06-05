@@ -193,8 +193,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_online_payment
 # 
+=======
+# * pos_online_payment
+#
+>>>>>>> upstream/18.0
 =======
 # * pos_online_payment
 #
@@ -1238,6 +1243,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Luka Carević <luka@uvid.hr>, 2025
 >>>>>>> upstream/18.0
@@ -2399,10 +2405,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 # Ana Matulin <ana@uvid.hr>, 2025.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+# Ana Matulin <ana@uvid.hr>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3775,6 +3787,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-18 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-18 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "pos_online_payment/hr/>\n"
 "Language: hr\n"
@@ -3783,6 +3800,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4533,10 +4551,14 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "<strong>Error:</strong> The currency is missing or invalid."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5101,6 +5123,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "<strong>Pogreška:</strong> valuta nedostaje ili nije valjana."
 
 #. module: pos_online_payment
@@ -5153,6 +5177,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5295,7 +5322,11 @@ msgid "A POS config cannot have more than one online payment method."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS konfiguracija ne može imati više od jedne online metode plaćanja."
+>>>>>>> upstream/18.0
 =======
 msgstr "POS konfiguracija ne može imati više od jedne online metode plaćanja."
 >>>>>>> upstream/18.0
@@ -5485,7 +5516,11 @@ msgid "A payment option must be specified."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcija plaćanja mora biti navedena."
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcija plaćanja mora biti navedena."
 >>>>>>> upstream/18.0
@@ -5628,6 +5663,7 @@ msgstr "Opcija plaćanja mora biti navedena."
 #. module: pos_online_payment
 #. odoo-python
 #: code:addons/pos_online_payment/controllers/payment_portal.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6188,6 +6224,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "A validation payment cannot be used for a Point of Sale online payment."
 msgstr ""
 "Validacijsko plaćanje ne može se koristiti za online plaćanje prodajnog "
@@ -6237,6 +6275,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6378,7 +6419,11 @@ msgid "All available providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svi dostupni pružatelji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svi dostupni pružatelji"
 >>>>>>> upstream/18.0
@@ -6572,6 +6617,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Svi pružatelji plaćanja konfigurirani za online metodu plaćanja moraju "
+"koristiti istu valutu kao prodajni dnevnik ili valutu tvrtke ako je ta "
+"nepostavljena, POS konfiguracije."
+>>>>>>> upstream/18.0
 =======
 "Svi pružatelji plaćanja konfigurirani za online metodu plaćanja moraju "
 "koristiti istu valutu kao prodajni dnevnik ili valutu tvrtke ako je ta "
@@ -6852,7 +6903,11 @@ msgid "Allowed Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopušteni pružatelji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopušteni pružatelji"
 >>>>>>> upstream/18.0
@@ -7052,7 +7107,11 @@ msgid "Cancel payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otkaži plaćanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otkaži plaćanje"
 >>>>>>> upstream/18.0
@@ -7242,7 +7301,11 @@ msgid "Cannot create a POS online payment without an accounting payment."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće kreirati POS online plaćanje bez računovodstvenog plaćanja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije moguće kreirati POS online plaćanje bez računovodstvenog plaćanja."
 >>>>>>> upstream/18.0
@@ -7435,6 +7498,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije moguće kreirati POS plaćanje s metodom koja nije online i online "
+"računovodstvenim plaćanjem."
+>>>>>>> upstream/18.0
 =======
 "Nije moguće kreirati POS plaćanje s metodom koja nije online i online "
 "računovodstvenim plaćanjem."
@@ -7670,7 +7738,11 @@ msgid "Cannot edit a POS online payment essential data."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće uređivati osnovne podatke POS online plaćanja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije moguće uređivati osnovne podatke POS online plaćanja."
 >>>>>>> upstream/18.0
@@ -7863,6 +7935,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije moguće kreirati online metodu plaćanja (company_id=%(company_id)d, "
+"pos_config_id=%(pos_config_id)d)"
+>>>>>>> upstream/18.0
 =======
 "Nije moguće kreirati online metodu plaćanja (company_id=%(company_id)d, "
 "pos_config_id=%(pos_config_id)d)"
@@ -8097,7 +8174,11 @@ msgid "Has An Online Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima online pružatelja plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima online pružatelja plaćanja"
 >>>>>>> upstream/18.0
@@ -8287,7 +8368,11 @@ msgid "Invalid online payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravno online plaćanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravno online plaćanje"
 >>>>>>> upstream/18.0
@@ -8477,7 +8562,11 @@ msgid "Invalid online payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravna online plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravna online plaćanja"
 >>>>>>> upstream/18.0
@@ -8667,7 +8756,11 @@ msgid "Invoice could not be generated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun nije mogao biti generiran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Račun nije mogao biti generiran"
 >>>>>>> upstream/18.0
@@ -8856,7 +8949,11 @@ msgid "Next online payment amount to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sljedeći iznos online plaćanja za platiti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sljedeći iznos online plaćanja za platiti"
 >>>>>>> upstream/18.0
@@ -9057,7 +9154,11 @@ msgid "Online Payment Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online metoda plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online metoda plaćanja"
 >>>>>>> upstream/18.0
@@ -9465,7 +9566,11 @@ msgid "Online accounting payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Računovodstveno plaćanje online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Računovodstveno plaćanje online"
 >>>>>>> upstream/18.0
@@ -10312,7 +10417,11 @@ msgid "Online payment unavailable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online plaćanje nedostupno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online plaćanje nedostupno"
 >>>>>>> upstream/18.0
@@ -10502,7 +10611,11 @@ msgid "Online payments cannot have a negative amount (%s: %s)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online plaćanja ne mogu imati negativan iznos (%s: %s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Online plaćanja ne mogu imati negativan iznos (%s: %s)."
 >>>>>>> upstream/18.0
@@ -10691,7 +10804,11 @@ msgid "Order ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID naloga"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID naloga"
 >>>>>>> upstream/18.0
@@ -10880,7 +10997,11 @@ msgid "Order ID:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID naloga:"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID naloga:"
 >>>>>>> upstream/18.0
@@ -11294,7 +11415,11 @@ msgid "Order reference:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca narudžbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referenca narudžbe"
 >>>>>>> upstream/18.0
@@ -12141,7 +12266,11 @@ msgid "Order saving issue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Problem spremanja naloga"
+>>>>>>> upstream/18.0
 =======
 msgstr "Problem spremanja naloga"
 >>>>>>> upstream/18.0
@@ -12555,7 +12684,11 @@ msgid "POS Order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "PoS narudžba"
+>>>>>>> upstream/18.0
 =======
 msgstr "PoS narudžba"
 >>>>>>> upstream/18.0
@@ -13447,7 +13580,11 @@ msgid "QR Code to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR kod za plaćanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "QR kod za plaćanje"
 >>>>>>> upstream/18.0
@@ -13637,7 +13774,11 @@ msgid "Scan the QR code to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skenirajte QR kod za plaćanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skenirajte QR kod za plaćanje"
 >>>>>>> upstream/18.0
@@ -13827,7 +13968,11 @@ msgid "Scan to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skeniraj za plaćanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skeniraj za plaćanje"
 >>>>>>> upstream/18.0
@@ -14023,7 +14168,11 @@ msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS online plaćanje (tx.id=%d) nije moglo biti ispravno spremljeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "POS online plaćanje (tx.id=%d) nije moglo biti ispravno spremljeno"
 >>>>>>> upstream/18.0
@@ -14216,6 +14365,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"POS online plaćanje (tx.id=%d) nije moglo biti ispravno spremljeno jer nije "
+"pronađena online metoda plaćanja"
+>>>>>>> upstream/18.0
 =======
 "POS online plaćanje (tx.id=%d) nije moglo biti ispravno spremljeno jer nije "
 "pronađena online metoda plaćanja"
@@ -14451,7 +14605,11 @@ msgid "The POS session is not opened."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "POS sesija nije otvorena."
+>>>>>>> upstream/18.0
 =======
 msgstr "POS sesija nije otvorena."
 >>>>>>> upstream/18.0
@@ -14640,7 +14798,11 @@ msgid "The Point of Sale order linked to the payment transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog prodajnog mjesta povezan s transakcijom plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nalog prodajnog mjesta povezan s transakcijom plaćanja"
 >>>>>>> upstream/18.0
@@ -14829,7 +14991,11 @@ msgid "The Point of Sale order linked to this payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog prodajnog mjesta povezan s ovim plaćanjem"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nalog prodajnog mjesta povezan s ovim plaćanjem"
 >>>>>>> upstream/18.0
@@ -15019,7 +15185,11 @@ msgid "The QR Code for paying could not be generated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "QR kod za plaćanje nije mogao biti generiran."
+>>>>>>> upstream/18.0
 =======
 msgstr "QR kod za plaćanje nije mogao biti generiran."
 >>>>>>> upstream/18.0
@@ -15209,7 +15379,11 @@ msgid "The amount to pay has changed. Please refresh the page."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznos za plaćanje se promijenio. Osvježite stranicu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznos za plaćanje se promijenio. Osvježite stranicu."
 >>>>>>> upstream/18.0
@@ -15399,7 +15573,11 @@ msgid "The currency is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Valuta nije valjana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Valuta nije valjana."
 >>>>>>> upstream/18.0
@@ -15589,7 +15767,11 @@ msgid "The invoice could not be generated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Račun nije mogao biti generiran."
+>>>>>>> upstream/18.0
 =======
 msgstr "Račun nije mogao biti generiran."
 >>>>>>> upstream/18.0
@@ -15926,7 +16108,11 @@ msgid "The order has been cancelled."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Narudžba je otkazana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Narudžba je otkazana."
 >>>>>>> upstream/18.0
@@ -16557,7 +16743,11 @@ msgid "The order has not been saved correctly on the server."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nalog nije ispravno spremljen na poslužitelju."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nalog nije ispravno spremljen na poslužitelju."
 >>>>>>> upstream/18.0
@@ -16747,7 +16937,11 @@ msgid "The partner of the POS online payment (id=%d) could not be found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Partner POS online plaćanja (id=%d) nije pronađen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Partner POS online plaćanja (id=%d) nije pronađen"
 >>>>>>> upstream/18.0
@@ -16937,7 +17131,11 @@ msgid "The payment provider is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pružatelj plaćanja nije valjan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pružatelj plaćanja nije valjan."
 >>>>>>> upstream/18.0
@@ -17128,7 +17326,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plaćanje treba biti izravno, s preusmjeravanjem ili izvršeno tokenom."
+>>>>>>> upstream/18.0
 =======
 msgstr "Plaćanje treba biti izravno, s preusmjeravanjem ili izvršeno tokenom."
 >>>>>>> upstream/18.0
@@ -17318,7 +17520,11 @@ msgid "The payment token is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token plaćanja nije valjan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Token plaćanja nije valjan."
 >>>>>>> upstream/18.0
@@ -17508,7 +17714,11 @@ msgid "The payment transaction (%d) has a negative amount."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcija plaćanja (%d) ima negativan iznos."
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcija plaćanja (%d) ima negativan iznos."
 >>>>>>> upstream/18.0
@@ -17698,7 +17908,11 @@ msgid "The provided order or access token is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navedeni nalog ili token pristupa nije valjan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Navedeni nalog ili token pristupa nije valjan."
 >>>>>>> upstream/18.0
@@ -17888,7 +18102,11 @@ msgid "The provided partner_id is different than expected."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Navedeni partner_id razlikuje se od očekivanog."
+>>>>>>> upstream/18.0
 =======
 msgstr "Navedeni partner_id razlikuje se od očekivanog."
 >>>>>>> upstream/18.0
@@ -18078,7 +18296,11 @@ msgid "The saved order could not be retrieved."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremljeni nalog nije mogao biti dohvaćen."
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremljeni nalog nije mogao biti dohvaćen."
 >>>>>>> upstream/18.0
@@ -18271,6 +18493,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ukupni iznos preostalih online plaćanja za izvršiti (%s) ne odgovara "
+"preostalom neplaćenom iznosu naloga (%s)."
+>>>>>>> upstream/18.0
 =======
 "Ukupni iznos preostalih online plaćanja za izvršiti (%s) ne odgovara "
 "preostalom neplaćenom iznosu naloga (%s)."
@@ -18506,7 +18733,11 @@ msgid "There are online payments that were missing in your view."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postoje online plaćanja koja su nedostajala u vašem prikazu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Postoje online plaćanja koja su nedostajala u vašem prikazu."
 >>>>>>> upstream/18.0
@@ -18699,6 +18930,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Postoji problem s poslužiteljem. Status online plaćanja naloga ne može se "
+"dohvatiti."
+>>>>>>> upstream/18.0
 =======
 "Postoji problem s poslužiteljem. Status online plaćanja naloga ne može se "
 "dohvatiti."
@@ -18937,6 +19173,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Postoji problem s poslužiteljem. Status online plaćanja naloga ne može se "
+"dohvatiti. Jeste li sigurni da nema online plaćanja za ovaj nalog?"
+>>>>>>> upstream/18.0
 =======
 "Postoji problem s poslužiteljem. Status online plaćanja naloga ne može se "
 "dohvatiti. Jeste li sigurni da nema online plaćanja za ovaj nalog?"
@@ -19174,6 +19415,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Za ovaj nalog prodajnog mjesta nije konfigurirana online metoda plaćanja."
+>>>>>>> upstream/18.0
 =======
 "Za ovaj nalog prodajnog mjesta nije konfigurirana online metoda plaćanja."
 >>>>>>> upstream/18.0
@@ -19363,7 +19608,11 @@ msgid "There is nothing to pay for this order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema ničega za platiti za ovaj nalog."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema ničega za platiti za ovaj nalog."
 >>>>>>> upstream/18.0
@@ -19699,7 +19948,11 @@ msgid "There is nothing to pay."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema se što platiti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema se što platiti."
 >>>>>>> upstream/18.0
@@ -20338,6 +20591,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Za korištenje online metode plaćanja u POS konfiguraciji, mora imati "
+"najmanje jednog objavljenog pružatelja plaćanja koji podržava valutu te POS "
+"konfiguracije."
+>>>>>>> upstream/18.0
 =======
 "Za korištenje online metode plaćanja u POS konfiguraciji, mora imati "
 "najmanje jednog objavljenog pružatelja plaćanja koji podržava valutu te POS "
@@ -20745,7 +21004,11 @@ msgid "Tokenization is not available for logged out customers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tokenizacija nije dostupna za odjavljene korisnike."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tokenizacija nije dostupna za odjavljene korisnike."
 >>>>>>> upstream/18.0
@@ -21312,7 +21575,11 @@ msgid "Transaction Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca transakcije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referenca transakcije"
 >>>>>>> upstream/18.0
@@ -21501,7 +21768,11 @@ msgid "Try again"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušaj ponovno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokušaj ponovno"
 >>>>>>> upstream/18.0
@@ -21696,7 +21967,11 @@ msgid "Updated online payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažurirana online plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ažurirana online plaćanja"
 >>>>>>> upstream/18.0
@@ -21888,6 +22163,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristite ovu metodu plaćanja za online plaćanja (plaćanja izvršena na web "
+"stranici s online pružateljima plaćanja)"
+>>>>>>> upstream/18.0
 =======
 "Koristite ovu metodu plaćanja za online plaćanja (plaćanja izvršena na web "
 "stranici s online pružateljima plaćanja)"
@@ -22128,7 +22408,11 @@ msgid "You have not activated any"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niste aktivirali nijedan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Niste aktivirali nijedan"
 >>>>>>> upstream/18.0
@@ -22317,7 +22601,11 @@ msgid "payment provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pružatelj plaćanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "pružatelj plaćanja"
 >>>>>>> upstream/18.0
@@ -22506,7 +22794,11 @@ msgid "to allow online payments."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "za dopuštanje online plaćanja."
+>>>>>>> upstream/18.0
 =======
 msgstr "za dopuštanje online plaćanja."
 >>>>>>> upstream/18.0

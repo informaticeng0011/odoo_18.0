@@ -264,6 +264,7 @@ declare module "mock_models" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     import { IrModelFields as IrModelFields2 } from "@web/../tests/_framework/mock_server/mock_models/ir_model_fields";
     import { ResGroups as ResGroups2 } from "@web/../tests/_framework/mock_server/mock_models/res_groups";
 
@@ -274,6 +275,8 @@ declare module "mock_models" {
         "ir.model.fields": IrModelFields,
         "res.groups": ResGroups,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1074,6 +1077,9 @@ declare module "mock_models" {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

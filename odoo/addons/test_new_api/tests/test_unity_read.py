@@ -286,7 +286,11 @@ class TestUnityRead(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    + 1      # read the lessons of the course
+=======
+                                   + 2      # read the lessons of the course
+>>>>>>> upstream/18.0
 =======
                                    + 2      # read the lessons of the course
 >>>>>>> upstream/18.0
@@ -633,7 +637,11 @@ class TestUnityRead(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    + 1      # 1 query for the lessons
+=======
+                                   + 2      # 2 queries for the lessons
+>>>>>>> upstream/18.0
 =======
                                    + 2      # 2 queries for the lessons
 >>>>>>> upstream/18.0
@@ -980,7 +988,11 @@ class TestUnityRead(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(3):
+=======
+        with self.assertQueryCount(4):
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(4):
 >>>>>>> upstream/18.0

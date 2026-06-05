@@ -193,8 +193,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_totp_mail_enforce
 # 
+=======
+# * auth_totp_mail_enforce
+#
+>>>>>>> upstream/18.0
 =======
 # * auth_totp_mail_enforce
 #
@@ -1299,6 +1304,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Daniel Reis, 2025
 >>>>>>> upstream/18.0
@@ -2594,10 +2600,16 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Daniel Reis, 2025
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4116,12 +4128,18 @@ msgstr ""
 "PO-Revision-Date: 2026-01-27 23:14+0000\n"
 "Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-27 23:14+0000\n"
+"Last-Translator: \"Pedro Silva (Exo)\" <pedrocs@exo.pt>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Portuguese <https://translate.odoo.com/projects/odoo-18/"
 "auth_totp_mail_enforce/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5071,6 +5089,11 @@ msgstr ""
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
@@ -5271,6 +5294,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+".\n"
+"                <br/>"
+>>>>>>> upstream/18.0
 =======
 ".\n"
 "                <br/>"
@@ -6203,6 +6231,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <li>Location: <t t-out=\"ctx.get('location') or not_available\"/></li>\n"
 "        <li>Device: <t t-out=\"ctx.get('device') or not_available\"/></li>\n"
 "        <li>Browser: <t t-out=\"ctx.get('browser') or not_available\"/></li>\n"
@@ -6210,6 +6239,8 @@ msgid ""
 "    </ul>\n"
 "    <p>If this is you, please enter the following code to complete the login:</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6669,6 +6700,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7125,6 +7159,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; border-radius: 5px;\"/>\n"
 "    </div>\n"
 "    <small>Please note that this code expires in <t t-out=\"expiration\"/>.</small>\n"
@@ -7141,6 +7176,8 @@ msgid ""
 "    <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7613,6 +7650,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7921,6 +7961,7 @@ msgid ""
 "            "
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8474,6 +8515,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "    Caro(a) <t t-out=\"object.partner_id.name or ''\"/><br/><br/>\n"
 "    <p>Alguém está a tentar aceder à sua conta num novo Dispositivo.</p>\n"
 "    <ul>\n"
@@ -8610,6 +8653,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8859,6 +8905,7 @@ msgstr ""
 "    <t t-set=\"code\" t-value=\"code_expiration[0]\"/>\n"
 "    <t t-set=\"expiration\" t-value=\"code_expiration[1]\"/>\n"
 "    <div style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9325,10 +9372,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <span t-out=\"code\" style=\"background-color:#faf9fa; border: 1px "
 "solid #dad8de; padding: 8px 16px 8px 16px; font-size: 24px; color: #875A7B; "
 "border-radius: 5px;\"/>\n"
 "    </div>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9709,6 +9759,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "    <small>Note, por favor, que o código expira em <t t-out=\"expiration\""
 "/>.</small>\n"
 "\n"
@@ -9843,6 +9895,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10094,6 +10149,7 @@ msgstr ""
 "        <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-"
 "color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: "
 "#fff; border-radius: 5px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10669,6 +10725,9 @@ msgstr ""
 =======
 "            Ativar a minha autenticação de dois fatores\n"
 >>>>>>> upstream/18.0
+=======
+"            Ativar a minha autenticação de dois fatores\n"
+>>>>>>> upstream/18.0
 "        </a>\n"
 "    </p>\n"
 "</div>\n"
@@ -10678,6 +10737,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
 "<i class=\"fa fa-envelope-o\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11134,6 +11194,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                To login, enter below the six-digit authentication code just "
 "sent via email to"
 msgstr ""
@@ -11290,6 +11352,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11753,8 +11818,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Não é possível enviar a mensagem: o utilizador %s não tem endereço de "
 "e-mail."
+=======
+"Não é possível enviar a mensagem: o utilizador %s não tem endereço de e-mail."
+>>>>>>> upstream/18.0
 =======
 "Não é possível enviar a mensagem: o utilizador %s não tem endereço de e-mail."
 >>>>>>> upstream/18.0
@@ -12430,6 +12499,7 @@ msgid "Employees only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Apenas funcionários"
@@ -12640,6 +12710,9 @@ msgstr "Apenas funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Apenas funcionários"
+>>>>>>> upstream/18.0
+=======
+msgstr "Apenas Funcionários"
 >>>>>>> upstream/18.0
 =======
 msgstr "Apenas Funcionários"
@@ -13211,6 +13284,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Imponha a autenticação de dois fatores por e-mail para funcionários ou para "
 "todos os usuários (incluindo usuários do portal) caso eles não tenham "
@@ -13560,6 +13634,11 @@ msgstr ""
 "Imponha a autenticação de dois fatores por e-mail para funcionários ou para "
 "todos os usuários (incluindo usuários do portal) caso eles não tenham "
 "ativado nenhum outro método de autenticação de dois fatores."
+>>>>>>> upstream/18.0
+=======
+"Aplique a autenticação de dois fatores por e-mail para funcionários ou para "
+"todos os utilizadores (incluindo utilizadores do portal) caso eles não "
+"tenham habilitado nenhum outro método de autenticação de dois fatores."
 >>>>>>> upstream/18.0
 =======
 "Aplique a autenticação de dois fatores por e-mail para funcionários ou para "
@@ -14308,7 +14387,11 @@ msgid "ID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Id."
+=======
+msgstr "ID"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID"
 >>>>>>> upstream/18.0
@@ -15008,7 +15091,11 @@ msgid "Ip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IP"
+>>>>>>> upstream/18.0
 =======
 msgstr "IP"
 >>>>>>> upstream/18.0
@@ -16219,6 +16306,7 @@ msgid "Settings: 2Fa New Login"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Definições: novo login com 2FA"
@@ -16429,6 +16517,9 @@ msgstr "Definições: novo login com 2FA"
 >>>>>>> upstream/18.0
 =======
 msgstr "Definições: novo login com 2FA"
+>>>>>>> upstream/18.0
+=======
+msgstr "Configurações: 2Fa Novo login"
 >>>>>>> upstream/18.0
 =======
 msgstr "Configurações: 2Fa Novo login"
@@ -17013,6 +17104,7 @@ msgid "Verification failed, please double-check the 6-digit code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "A verificação falhou, confira o código de 6 dígitos"
@@ -17593,10 +17685,14 @@ msgstr "Falha na verificação, verifique novamente o código de 6 dígitos"
 =======
 msgstr "Falha na verificação, verifique novamente o código de 6 dígitos"
 >>>>>>> upstream/18.0
+=======
+msgstr "Falha na verificação, verifique novamente o código de 6 dígitos"
+>>>>>>> upstream/18.0
 
 #. module: auth_totp_mail_enforce
 #: model_terms:ir.ui.view,arch_db:auth_totp_mail_enforce.auth_totp_mail_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18304,10 +18400,13 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "We strongly recommend enabling the two-factor authentication using an "
 "authenticator app to help secure your account.\n"
 "                <br/>"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18515,6 +18614,11 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"Recomendamos ativar a autenticação de dois fatores usando uma aplicação de "
+"autenticação para ajudar a proteger a sua conta.\n"
+"                <br/>"
 >>>>>>> upstream/18.0
 =======
 "Recomendamos ativar a autenticação de dois fatores usando uma aplicação de "
@@ -19260,6 +19364,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Você atingiu o limite de e-mails de autenticação enviados para sua conta"
+>>>>>>> upstream/18.0
 =======
 "Você atingiu o limite de e-mails de autenticação enviados para sua conta"
 >>>>>>> upstream/18.0
@@ -19757,7 +19865,11 @@ msgid "You reached the limit of code verifications for your account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Você atingiu o limite de verificações de código para sua conta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Você atingiu o limite de verificações de código para sua conta"
 >>>>>>> upstream/18.0
@@ -20324,6 +20436,7 @@ msgid "Your two-factor authentication code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "Seu código de autenticação de dois fatores"
@@ -20534,6 +20647,9 @@ msgstr "Seu código de autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "Seu código de autenticação de dois fatores"
+>>>>>>> upstream/18.0
+=======
+msgstr "O seu código de autenticação de dois fatores"
 >>>>>>> upstream/18.0
 =======
 msgstr "O seu código de autenticação de dois fatores"

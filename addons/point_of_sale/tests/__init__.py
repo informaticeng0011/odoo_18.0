@@ -287,6 +287,7 @@ from . import test_res_config_settings
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_generic_localization
 >>>>>>> upstream/18.0
@@ -1026,6 +1027,11 @@ from . import test_generic_localization
 from . import test_generic_localization
 >>>>>>> upstream/18.0
 from . import test_stock_product_updates
+=======
+from . import test_generic_localization
+from . import test_stock_product_updates
+from . import test_pos_picking_backorder
+>>>>>>> upstream/18.0
 =======
 from . import test_generic_localization
 from . import test_stock_product_updates

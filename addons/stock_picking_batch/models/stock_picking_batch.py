@@ -71,7 +71,11 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Batch Transfer', default='New',
+=======
+        string='Batch Transfer', default=lambda self: _('New'),
+>>>>>>> upstream/18.0
 =======
         string='Batch Transfer', default=lambda self: _('New'),
 >>>>>>> upstream/18.0
@@ -409,7 +413,11 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for pack in self.move_line_ids.result_package_id:
+=======
+            for pack in batch.move_line_ids.result_package_id:
+>>>>>>> upstream/18.0
 =======
             for pack in batch.move_line_ids.result_package_id:
 >>>>>>> upstream/18.0
@@ -816,7 +824,11 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for move in self.picking_ids.move_ids_without_package:
+=======
+            for move in batch.picking_ids.move_ids_without_package:
+>>>>>>> upstream/18.0
 =======
             for move in batch.picking_ids.move_ids_without_package:
 >>>>>>> upstream/18.0
@@ -1407,9 +1419,12 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Skip sanity_check in pickings button_validate() & remove 'waiting' pickings from the batch
         context = {'skip_sanity_check': True, 'pickings_to_detach': empty_waiting_pickings.ids}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1832,6 +1847,9 @@ class StockPickingBatch(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

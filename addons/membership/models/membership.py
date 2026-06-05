@@ -158,7 +158,11 @@ class MembershipLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', required=True,
+=======
+        min_display_digits='Product Price', required=True,
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', required=True,
 >>>>>>> upstream/18.0
@@ -591,6 +595,7 @@ class MembershipLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self._cr.execute('''
             SELECT reversed_entry_id, COUNT(id)
             FROM account_move
@@ -599,6 +604,8 @@ class MembershipLine(models.Model):
         ''', [tuple(self.mapped('account_invoice_id.id'))])
         reverse_map = dict(self._cr.fetchall())
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -665,6 +672,9 @@ class MembershipLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

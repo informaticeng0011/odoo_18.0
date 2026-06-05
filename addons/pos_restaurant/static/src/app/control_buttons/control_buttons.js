@@ -61,6 +61,10 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            document.removeEventListener("click", onClickWhileTransfer);
+>>>>>>> upstream/18.0
 =======
             document.removeEventListener("click", onClickWhileTransfer);
 >>>>>>> upstream/18.0
@@ -88,7 +92,10 @@ patch(ControlButtons.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             document.removeEventListener("click", onClickWhileTransfer);
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

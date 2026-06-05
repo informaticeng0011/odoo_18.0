@@ -98,7 +98,10 @@ test("Functions with a wrong company id is correctly in error", async () => {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 test("string company_id is converted to integer before server request", async () => {
     const model = await createModelWithDataSource({
         mockRPC: async function (_route, args) {
@@ -122,6 +125,9 @@ test("string company_id is converted to integer before server request", async ()
     expect.verifySteps(["spreadsheet_fetch_debit_credit"]);
 });
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 test("formula with invalid date", async () => {
     const model = await createModelWithDataSource();
@@ -309,7 +315,11 @@ test("Server requests with multiple account codes", async () => {
         JSON.stringify(
             camelToSnakeObject({
 <<<<<<< HEAD
+<<<<<<< HEAD
                 dateRange: parseAccountingDate({ value: "2022"}, locale),
+=======
+                dateRange: parseAccountingDate({ value: "2022" }, locale),
+>>>>>>> upstream/18.0
 =======
                 dateRange: parseAccountingDate({ value: "2022" }, locale),
 >>>>>>> upstream/18.0
@@ -346,7 +356,11 @@ test("account group formula as input to balance formula", async () => {
         JSON.stringify(
             camelToSnakeObject({
 <<<<<<< HEAD
+<<<<<<< HEAD
                 dateRange: parseAccountingDate({ value: "2022"}, locale),
+=======
+                dateRange: parseAccountingDate({ value: "2022" }, locale),
+>>>>>>> upstream/18.0
 =======
                 dateRange: parseAccountingDate({ value: "2022" }, locale),
 >>>>>>> upstream/18.0

@@ -329,6 +329,10 @@ import { standardFieldProps } from "../standard_field_props";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { FIELD_WIDTHS } from "@web/views/list/column_width_hook";
+>>>>>>> upstream/18.0
 =======
 import { FIELD_WIDTHS } from "@web/views/list/column_width_hook";
 >>>>>>> upstream/18.0
@@ -1680,7 +1684,11 @@ export class DateTimeField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             onApply: () => {
+=======
+            onApply: async () => {
+>>>>>>> upstream/18.0
 =======
             onApply: async () => {
 >>>>>>> upstream/18.0
@@ -2757,7 +2765,11 @@ export class DateTimeField extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     this.props.record.update(toUpdate);
+=======
+                    await this.props.record.update(toUpdate);
+>>>>>>> upstream/18.0
 =======
                     await this.props.record.update(toUpdate);
 >>>>>>> upstream/18.0
@@ -4143,6 +4155,7 @@ export const dateTimeField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     listViewWidth: ({ options }) =>
         exprToBoolean(options.show_time ?? true) ? FIELD_WIDTHS.datetime : FIELD_WIDTHS.date,
@@ -4173,6 +4186,10 @@ export const dateTimeField = {
 >>>>>>> upstream/18.0
 =======
     listViewWidth: ({ options }) =>
+        exprToBoolean(options.show_time ?? true) ? FIELD_WIDTHS.datetime : FIELD_WIDTHS.date,
+>>>>>>> upstream/18.0
+=======
+    listViewWidth: ({ options = {} }) =>
         exprToBoolean(options.show_time ?? true) ? FIELD_WIDTHS.datetime : FIELD_WIDTHS.date,
 >>>>>>> upstream/18.0
 =======
@@ -5778,6 +5795,7 @@ export const dateRangeField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     listViewWidth: ({ type }) => (type === "datetime" ? 294 : 180),
 =======
 =======
@@ -5795,6 +5813,9 @@ export const dateRangeField = {
 =======
 >>>>>>> upstream/18.0
     listViewWidth: ({ type, options }) => {
+=======
+    listViewWidth: ({ type, options = {} }) => {
+>>>>>>> upstream/18.0
 =======
     listViewWidth: ({ type, options = {} }) => {
 >>>>>>> upstream/18.0
@@ -7062,6 +7083,9 @@ export const dateRangeField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

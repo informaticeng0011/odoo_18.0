@@ -9,6 +9,7 @@
                 <t t-if="props.iframe">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <iframe t-ref="content" class="w-100 h-100" t-att-data-class="props.contentClass" t-on-blur="props.onBlur"/>
                 </t>
                 <t t-else="">
@@ -16,11 +17,16 @@
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     <iframe t-ref="content" class="w-100 h-100" t-att-data-class="props.contentClass" t-on-focusout="props.onBlur"/>
                 </t>
                 <t t-else="">
                     <div t-att-class="props.contentClass" t-ref="content" t-on-focusout="props.onBlur" contenteditable="true"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

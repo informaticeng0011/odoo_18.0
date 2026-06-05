@@ -127,8 +127,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, useEffect, useRef } from "@odoo/owl";
 import { usePosition } from "@web/core/position/position_hook";
+=======
+import { Component, useEffect, useRef, useState } from "@odoo/owl";
+import { usePosition } from "@web/core/position/position_hook";
+import { useBus, useService } from "@web/core/utils/hooks";
+>>>>>>> upstream/18.0
 =======
 import { Component, useEffect, useRef, useState } from "@odoo/owl";
 import { usePosition } from "@web/core/position/position_hook";
@@ -1053,7 +1059,10 @@ export class TourPointer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1446,6 +1455,9 @@ export class TourPointer extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

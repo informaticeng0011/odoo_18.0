@@ -332,7 +332,10 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1156,6 +1159,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1954,7 +1960,11 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Note: Particulary useful when installing a module that adds a menu like
+=======
+            Note: Particularly useful when installing a module that adds a menu like
+>>>>>>> upstream/18.0
 =======
             Note: Particularly useful when installing a module that adds a menu like
 >>>>>>> upstream/18.0
@@ -3034,6 +3044,7 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # create for every site
                 w_vals = [dict(vals, **{
                     'website_id': website.id,
@@ -3043,6 +3054,8 @@ class Menu(models.Model):
                 # if creating a default menu, we should also save it as such
                 default_menu = self.env.ref('website.main_menu', raise_if_not_found=False)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3849,6 +3862,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4539,7 +4555,11 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if url and not self.url.startswith('/'):
+=======
+            if url and not url.startswith('/') and url not in ('#top', '#bottom'):
+>>>>>>> upstream/18.0
 =======
             if url and not url.startswith('/') and url not in ('#top', '#bottom'):
 >>>>>>> upstream/18.0
@@ -5088,7 +5108,10 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5736,6 +5759,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6330,6 +6356,7 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 # 2. `#anchor` => anchor on current page
                 # 3. `/url#something` => valid internal URL
                 # 4. https://google.com#smth => valid external URL
@@ -6338,6 +6365,8 @@ class Menu(models.Model):
                 if request and menu['url'] and menu['url'].startswith('#') and len(menu['url']) > 1:
                     # Working on case 2.: prefix anchor with referer URL
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6632,6 +6661,9 @@ class Menu(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

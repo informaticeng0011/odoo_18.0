@@ -221,7 +221,10 @@ from odoo.tests import HttpCase, tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -862,6 +865,9 @@ def _create_image(color: int | str = 0, dims=(1920, 1080), format='JPEG'):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1538,6 +1544,7 @@ class TestWebsiteSaleImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         f = io.BytesIO()
         Image.new('RGB', (1920, 1080), color_blue).save(f, 'JPEG')
         f.seek(0)
@@ -1561,6 +1568,8 @@ class TestWebsiteSaleImage(HttpCase):
         f.seek(0)
         image_gif = base64.b64encode(f.read())
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2204,6 +2213,9 @@ class TestWebsiteSaleImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2632,6 +2644,7 @@ class TestWebsiteSaleImage(HttpCase):
         image_svg = base64.b64encode(b'<svg></svg>')
 
         # Red Variant Extra Image 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3277,6 +3290,8 @@ class TestWebsiteSaleImage(HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         image_bmp = _create_image(dims=(767, 247), format='BMP')
 
         # Green Variant Extra Image 1
@@ -3492,6 +3507,9 @@ class TestWebsiteSaleImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4316,10 +4334,14 @@ class TestWebsiteSaleImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         f = io.BytesIO()
         Image.new('RGB', (800, 500), '#FF0000').save(f, 'JPEG')
         f.seek(0)
         image = base64.b64encode(f.read())
+=======
+        image = _create_image(color='#FF0000', dims=(800, 500))
+>>>>>>> upstream/18.0
 =======
         image = _create_image(color='#FF0000', dims=(800, 500))
 >>>>>>> upstream/18.0
@@ -5230,6 +5252,7 @@ class TestWebsiteSaleRemoveImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Attachment needed for the replacement of images
         cls.env['ir.attachment'].create({
             'public': True,
@@ -5238,6 +5261,8 @@ class TestWebsiteSaleRemoveImage(HttpCase):
             'url': f'{cls.base_url()}/web/image/website.s_banner_default_image.jpg',
         })
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5880,7 +5905,10 @@ class TestWebsiteSaleRemoveImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6524,6 +6552,9 @@ class TestWebsiteSaleRemoveImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7179,6 +7210,7 @@ class TestWebsiteSaleRemoveImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         f = io.BytesIO()
         Image.new('RGB', (1920, 1080), color_blue).save(f, 'JPEG')
         f.seek(0)
@@ -7188,6 +7220,8 @@ class TestWebsiteSaleRemoveImage(HttpCase):
             'name': 'Test Remove Image',
             'image_1920': blue_image,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7825,6 +7859,9 @@ class TestWebsiteSaleRemoveImage(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

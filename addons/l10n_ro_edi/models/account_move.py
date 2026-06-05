@@ -35,8 +35,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     l10n_ro_edi_attachment_id = fields.Many2one(comodel_name='ir.attachment')
     l10n_ro_edi_index = fields.Char(string='E-Factura Index', readonly=True)
+=======
+    l10n_ro_edi_attachment_id = fields.Many2one(comodel_name='ir.attachment', copy=False)
+    l10n_ro_edi_index = fields.Char(string='E-Factura Index', readonly=True, copy=False)
+>>>>>>> upstream/18.0
 =======
     l10n_ro_edi_attachment_id = fields.Many2one(comodel_name='ir.attachment', copy=False)
     l10n_ro_edi_index = fields.Char(string='E-Factura Index', readonly=True, copy=False)
@@ -110,6 +115,7 @@ class AccountMove(models.Model):
         # EXTENDS 'account'
         super()._compute_show_reset_to_draft_button()
         for move in self:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,6 +593,9 @@ class AccountMove(models.Model):
 =======
             if move.move_type in ('out_invoice', 'out_refund') and move.l10n_ro_edi_state in ('invoice_sent', 'invoice_validated'):
 >>>>>>> upstream/18.0
+=======
+            if move.move_type in ('out_invoice', 'out_refund') and move.l10n_ro_edi_state in ('invoice_sent', 'invoice_validated'):
+>>>>>>> upstream/18.0
                 move.show_reset_to_draft_button = False
 
     ################################################################################
@@ -598,6 +607,7 @@ class AccountMove(models.Model):
         self.ensure_one()
         res_model = res_model or self._name
         res_id = res_id or self.id
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2070,6 +2080,11 @@ class AccountMove(models.Model):
         return {
             'name': f"ciusro_signature_{name.replace('/', '_')}.xml",
 >>>>>>> upstream/18.0
+=======
+        name = self.name or ""
+        return {
+            'name': f"ciusro_signature_{name.replace('/', '_')}.xml",
+>>>>>>> upstream/18.0
             'res_model': res_model,
             'res_id': res_id,
             'raw': raw,
@@ -2143,6 +2158,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._l10n_ro_edi_get_sent_and_failed_documents().unlink()
+>>>>>>> upstream/18.0
 =======
         self._l10n_ro_edi_get_sent_and_failed_documents().unlink()
 >>>>>>> upstream/18.0
@@ -2216,7 +2235,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2258,6 +2280,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2323,7 +2348,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             - if error -> delete all error documents, create a new error document
+=======
+            - if error -> create a new error document (previous documents are preserved for traceability)
+>>>>>>> upstream/18.0
 =======
             - if error -> create a new error document (previous documents are preserved for traceability)
 >>>>>>> upstream/18.0
@@ -2367,6 +2396,7 @@ class AccountMove(models.Model):
 
          - Send to E-Factura, and based on the result:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2434,11 +2464,16 @@ class AccountMove(models.Model):
             - if error -> create a new error document (previous documents are preserved for traceability)
             - if success -> delete any existing sent document, create a new sent document
 >>>>>>> upstream/18.0
+=======
+            - if error -> create a new error document (previous documents are preserved for traceability)
+            - if success -> delete any existing sent document, create a new sent document
+>>>>>>> upstream/18.0
 
         :param xml_data: string of the xml data to be sent
         """
         self.ensure_one()
         if errors := self._l10n_ro_edi_get_pre_send_errors(xml_data, True):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4523,6 +4558,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             self._l10n_ro_edi_create_document_invoice_sending_failed({'error': '\n'.join(errors)})
             return
 
@@ -4543,6 +4580,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4587,7 +4627,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._l10n_ro_edi_get_failed_documents().unlink()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4631,7 +4674,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self._l10n_ro_edi_get_sent_and_failed_documents().unlink()
+=======
+            self._l10n_ro_edi_get_sent_documents().unlink()
+>>>>>>> upstream/18.0
 =======
             self._l10n_ro_edi_get_sent_documents().unlink()
 >>>>>>> upstream/18.0
@@ -4709,7 +4756,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 to_delete_documents |= invoice._l10n_ro_edi_get_failed_documents()
+=======
+                to_delete_documents |= invoice._l10n_ro_edi_get_sent_documents()
+>>>>>>> upstream/18.0
 =======
                 to_delete_documents |= invoice._l10n_ro_edi_get_sent_documents()
 >>>>>>> upstream/18.0
@@ -4777,7 +4828,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 to_delete_documents |= invoice._l10n_ro_edi_get_sent_and_failed_documents()
+=======
+                to_delete_documents |= invoice._l10n_ro_edi_get_sent_documents()
+>>>>>>> upstream/18.0
 =======
                 to_delete_documents |= invoice._l10n_ro_edi_get_sent_documents()
 >>>>>>> upstream/18.0
@@ -4843,7 +4898,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 to_delete_documents |= invoice._l10n_ro_edi_get_sent_and_failed_documents()
+=======
+                to_delete_documents |= invoice._l10n_ro_edi_get_sent_documents()
+>>>>>>> upstream/18.0
 =======
                 to_delete_documents |= invoice._l10n_ro_edi_get_sent_documents()
 >>>>>>> upstream/18.0

@@ -155,6 +155,10 @@ from odoo.tools import html2plaintext
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.float_utils import float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.float_utils import float_round
 >>>>>>> upstream/18.0
@@ -783,7 +787,10 @@ UBL_TO_OIOUBL_TAX_CATEGORY_ID_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1223,6 +1230,9 @@ SCHEME_ID_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1690,7 +1700,11 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         partner = vals['partner']
+=======
+        partner = vals['partner'].commercial_partner_id
+>>>>>>> upstream/18.0
 =======
         partner = vals['partner'].commercial_partner_id
 >>>>>>> upstream/18.0
@@ -1914,6 +1928,7 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
                 'schemeID': 'DK:CVR' if vat[:2] == 'DK' else 'ZZZ'
             },
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2320,6 +2335,8 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if vat and vat != '/':
             party_node['cac:PartyTaxScheme'].update({
                 # Only DK:SE for PartyTaxScheme https://oioubl21.oioubl.dk/Classes/da/PartyTaxScheme.html
@@ -2335,6 +2352,7 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
                     'cbc:Name': {'_text': 'Moms'},
                 },
             })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3035,6 +3053,8 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if partner.nemhandel_identifier_type and partner.nemhandel_identifier_value:
             prefix = 'DK' if partner.nemhandel_identifier_type in {'0184', '0198'} else ''
             party_node['cbc:EndpointID'] = {
@@ -3122,6 +3142,9 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3461,8 +3484,14 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # PrepaidAmount must not be present if equal to 0 and is only filled with 0 in the parent method
         document_node[monetary_total_tag]['cbc:PrepaidAmount'] = None
+=======
+        # PrepaidAmount must not be present if equal to 0
+        if document_node[monetary_total_tag].get('cbc:PrepaidAmount') and document_node[monetary_total_tag]['cbc:PrepaidAmount'].get('_text') == '0.00':
+            document_node[monetary_total_tag]['cbc:PrepaidAmount'] = None
+>>>>>>> upstream/18.0
 =======
         # PrepaidAmount must not be present if equal to 0
         if document_node[monetary_total_tag].get('cbc:PrepaidAmount') and document_node[monetary_total_tag]['cbc:PrepaidAmount'].get('_text') == '0.00':
@@ -4404,7 +4433,10 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4894,6 +4926,9 @@ class AccountEdiXmlOIOUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
