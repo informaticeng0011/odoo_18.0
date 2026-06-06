@@ -26,9 +26,13 @@
             <div t-if="props.comboExtraPrice" class="d-flex px-2 pb-1">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span class="price-extra px-2 py-0 rounded-pill text-bg-info">
                     + <t t-esc="props.comboExtraPrice"/>
                 </span>
+=======
+                <span class="price-extra px-2 py-0 rounded-pill text-bg-info" t-esc="props.comboExtraPrice"/>
+>>>>>>> upstream/18.0
 =======
                 <span class="price-extra px-2 py-0 rounded-pill text-bg-info" t-esc="props.comboExtraPrice"/>
 >>>>>>> upstream/18.0

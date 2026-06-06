@@ -5,6 +5,10 @@ from odoo import api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import get_quarter_number
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import get_quarter_number
 >>>>>>> upstream/18.0
@@ -65,7 +69,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79,6 +86,9 @@ class AccountMove(models.Model):
         return str(self.date.month).zfill(2)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

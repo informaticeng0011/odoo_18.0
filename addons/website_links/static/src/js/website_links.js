@@ -324,6 +324,10 @@ publicWidget.registry.websiteLinks = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        document.querySelector("input#url").disabled = "";
+>>>>>>> upstream/18.0
 =======
         document.querySelector("input#url").disabled = "";
 >>>>>>> upstream/18.0
@@ -410,6 +414,10 @@ publicWidget.registry.websiteLinks = publicWidget.Widget.extend({
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                document.querySelector("input#url").disabled = "disabled";
+>>>>>>> upstream/18.0
 =======
                 document.querySelector("input#url").disabled = "disabled";
 >>>>>>> upstream/18.0

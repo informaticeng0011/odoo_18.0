@@ -61,6 +61,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_authorize
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,6 +523,9 @@
 =======
 # * payment_authorize
 >>>>>>> upstream/18.0
+=======
+# * payment_authorize
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -678,6 +682,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -858,6 +863,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -1046,6 +1054,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1541,6 +1550,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-03-06 18:39+0000\n"
 "PO-Revision-Date: 2026-03-29 12:12+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1606,6 +1617,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1731,6 +1745,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2370,10 +2385,16 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2537,6 +2558,8 @@ msgstr ""
 "                        <option value=\"savings\">Compte d'épargne personnel</option>\n"
 "                        <option value=\"businessChecking\">Compte-chèques professionnel</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3007,6 +3030,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3546,8 +3572,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Impossible de récupérer les détails de la transaction. (code d'erreur : "
 "%(error_code)s; error_details : %(error_message)s)"
+=======
+"Impossible de récupérer les détails de la transaction. (code d'erreur : %"
+"(error_code)s; error_details : %(error_message)s)"
+>>>>>>> upstream/18.0
 =======
 "Impossible de récupérer les détails de la transaction. (code d'erreur : %"
 "(error_code)s; error_details : %(error_message)s)"
@@ -4380,11 +4411,14 @@ msgstr "Échec du traitement du paiement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr ""
 "Données reçues avec le code de statut \"%(status)s\" et le code d'erreur "
 "\"%(error)s\""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4843,6 +4877,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5314,8 +5351,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "L'identifiant uniquement utilisé pour identifier le compte avec "
 "Authorize.Net"
+=======
+"L'identifiant uniquement utilisé pour identifier le compte avec Authorize.Net"
+>>>>>>> upstream/18.0
 =======
 "L'identifiant uniquement utilisé pour identifier le compte avec Authorize.Net"
 >>>>>>> upstream/18.0
@@ -5946,8 +5987,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Le statut de la transaction ne permet pas de la rembourser. (statut "
 ":%(status)s, détails : %(message)s)"
+=======
+"Le statut de la transaction ne permet pas de la rembourser. (statut :%"
+"(status)s, détails : %(message)s)"
+>>>>>>> upstream/18.0
 =======
 "Le statut de la transaction ne permet pas de la rembourser. (statut :%"
 "(status)s, détails : %(message)s)"
@@ -6728,6 +6774,7 @@ msgid "This action cannot be performed while the provider is disabled."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Impossible d'exécuter cette action quand le fournisseur est désactivé."
 =======
@@ -7096,12 +7143,15 @@ msgstr "Impossible d'exécuter cette action quand le fournisseur est désactivé
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "Impossible d'exécuter cette action quand le fournisseur est désactivé."
 
 #. module: payment_authorize
 #. odoo-python
 #: code:addons/payment_authorize/controllers/main.py:0
 msgid "Transaction not found."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7245,6 +7295,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Transaction introuvable."
 >>>>>>> upstream/18.0
 =======
 msgstr "Transaction introuvable."

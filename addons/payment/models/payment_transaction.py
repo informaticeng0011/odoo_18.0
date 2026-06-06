@@ -416,6 +416,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'payment_backend_action': True,
+>>>>>>> upstream/18.0
 =======
                     'payment_backend_action': True,
 >>>>>>> upstream/18.0
@@ -1033,7 +1037,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 tx.sudo()._send_capture_request()
+=======
+                tx.with_context(payment_backend_action=True).sudo()._send_capture_request()
+>>>>>>> upstream/18.0
 =======
                 tx.with_context(payment_backend_action=True).sudo()._send_capture_request()
 >>>>>>> upstream/18.0
@@ -1660,7 +1668,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tx.sudo()._send_void_request(amount_to_void=tx.amount - captured_amount)
+=======
+            tx.sudo().with_context(payment_backend_action=True)._send_void_request(amount_to_void=tx.amount - captured_amount)
+>>>>>>> upstream/18.0
 =======
             tx.sudo().with_context(payment_backend_action=True)._send_void_request(amount_to_void=tx.amount - captured_amount)
 >>>>>>> upstream/18.0
@@ -2286,7 +2298,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tx.sudo()._send_refund_request(amount_to_refund=amount_to_refund)
+=======
+            tx.sudo().with_context(payment_backend_action=True)._send_refund_request(amount_to_refund=amount_to_refund)
+>>>>>>> upstream/18.0
 =======
             tx.sudo().with_context(payment_backend_action=True)._send_refund_request(amount_to_refund=amount_to_refund)
 >>>>>>> upstream/18.0
@@ -2879,6 +2895,7 @@ class PaymentTransaction(models.Model):
 
         # Complete generic processing values with provider-specific values.
         processing_values.update(self._get_specific_processing_values(processing_values))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3838,6 +3855,8 @@ class PaymentTransaction(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         secret_keys = self._get_specific_secret_keys()
         logged_values = {k: v for k, v in processing_values.items() if k not in secret_keys}
         _logger.info(
@@ -4123,6 +4142,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5027,7 +5049,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5930,6 +5955,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

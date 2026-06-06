@@ -3,6 +3,10 @@ import { getTemplate } from "@web/core/templates";
 import { mount, reactive, whenReady } from "@odoo/owl";
 import { _t } from "@web/core/l10n/translation";
 import { hasTouch } from "@web/core/browser/feature_detection";
+<<<<<<< HEAD
+=======
+import { browser } from "@web/core/browser/browser";
+>>>>>>> upstream/18.0
 import { localization } from "@web/core/l10n/localization";
 import { user } from "@web/core/user";
 import { session } from "@web/session";
@@ -245,8 +249,11 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mount(Loader, document.body, { getTemplate, translateFn: _t, props: { loader } });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -946,6 +953,9 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1419,6 +1429,18 @@ whenReady(() => {
         isEnterprise: session.server_version_info.slice(-1)[0] === "e",
     };
     await whenReady();
+<<<<<<< HEAD
+=======
+    // If a deletion beacon was sent on unload for this exact session, reload once so
+    // pos_web assigns a clean session. Removing the flag before reloading prevents looping.
+    const recoverySessionId = browser.sessionStorage.getItem("pos_reload_recovery");
+    if (recoverySessionId && parseInt(recoverySessionId) === odoo.pos_session_id) {
+        browser.sessionStorage.removeItem("pos_reload_recovery");
+        window.location.reload();
+        return;
+    }
+    browser.sessionStorage.removeItem("pos_reload_recovery");
+>>>>>>> upstream/18.0
     const app = await mountComponent(Chrome, document.body, {
         name: "Odoo Point of Sale",
         props: { disableLoader: () => (loader.isShown = false) },
@@ -1431,6 +1453,7 @@ whenReady(() => {
             event.returnValue = confirmationMessage;
             return confirmationMessage;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1555,6 +1578,11 @@ whenReady(() => {
 >>>>>>> upstream/18.0
         const pos = app.env.services.pos;
         if (pos?.session?.state === "opening_control") {
+=======
+        const pos = app.env.services.pos;
+        if (pos?.session?.state === "opening_control") {
+            browser.sessionStorage.setItem("pos_reload_recovery", String(pos.session.id));
+>>>>>>> upstream/18.0
             const data = JSON.stringify({
                 jsonrpc: "2.0",
                 method: "call",
@@ -1611,6 +1639,9 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

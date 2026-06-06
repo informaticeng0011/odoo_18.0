@@ -266,8 +266,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_expense
 # 
+=======
+# * hr_expense
+#
+>>>>>>> upstream/18.0
 =======
 # * hr_expense
 #
@@ -1602,6 +1607,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
@@ -2581,10 +2587,15 @@
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 >>>>>>> upstream/18.0
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3887,6 +3898,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-03-21 09:18+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-03-21 09:18+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/hr_expense/es_419/>\n"
@@ -3894,6 +3909,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5197,6 +5213,11 @@ msgstr "$600.00"
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -5213,6 +5234,7 @@ msgstr "%(employee_name)s: %(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6279,6 +6301,9 @@ msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 =======
 msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 >>>>>>> upstream/18.0
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr ""
 "%(user)s confirma que este gasto no es un duplicado de un gasto similar."
 
@@ -6321,6 +6346,7 @@ msgid "1 %(exp_cur)s = %(rate)s %(comp_cur)s"
 msgstr "1 %(exp_cur)s = %(rate)s %(comp_cur)s"
 
 #. module: hr_expense
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6488,10 +6514,13 @@ msgstr "11-08-2023"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-javascript
 #: code:addons/hr_expense/static/src/js/tours/hr_expense.js:0
 msgid "<b>Wasting time recording your receipts?</b> Let’s try a better way."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7558,6 +7587,9 @@ msgstr ""
 =======
 "<b>¿Pierde mucho tiempo registrando sus recibos?</b> Hagámoslo de otra forma."
 >>>>>>> upstream/18.0
+=======
+"<b>¿Pierde mucho tiempo registrando sus recibos?</b> Hagámoslo de otra forma."
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
@@ -7742,7 +7774,11 @@ msgid "<i class=\"oi oi-arrow-right\"/> Setup your alias domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "<i class=\"oi oi-arrow-right\"/> Configure su seudónimo de dominio"
+=======
+msgstr "<i class=\"oi oi-arrow-right\"/> Configura el dominio de tu alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-arrow-right\"/> Configura el dominio de tu alias"
 >>>>>>> upstream/18.0
@@ -8576,7 +8612,11 @@ msgid "Alias"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seudónimo"
+=======
+msgstr "Alias"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alias"
 >>>>>>> upstream/18.0
@@ -9402,7 +9442,12 @@ msgstr "Todos los reportes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "All expenses in an expense report must have the same \"paid by\" criteria."
@@ -10987,8 +11032,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La conversión entre las unidades de medidas solo puede ocurrir si pertenecen"
 " a la misma categoría. La conversión se basará en las proporciones "
+=======
+"La conversión entre las unidades de medidas solo puede ocurrir si pertenecen "
+"a la misma categoría. La conversión se basará en las proporciones "
+>>>>>>> upstream/18.0
 =======
 "La conversión entre las unidades de medidas solo puede ocurrir si pertenecen "
 "a la misma categoría. La conversión se basará en las proporciones "
@@ -12323,7 +12373,11 @@ msgid "Default Alias Name for Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seudónimo predeterminado para gastos"
+=======
+msgstr "Nombre del alias predeterminado para los gastos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nombre del alias predeterminado para los gastos"
 >>>>>>> upstream/18.0
@@ -13188,8 +13242,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Deje de guardar los recibos de sus gastos, solo tome una foto de su recibo y"
 " Odoo lo digitalizará. El OCR y la inteligencia artificial completarán los "
+=======
+"Deje de guardar los recibos de sus gastos, solo tome una foto de su recibo y "
+"Odoo lo digitalizará. El OCR y la inteligencia artificial completarán los "
+>>>>>>> upstream/18.0
 =======
 "Deje de guardar los recibos de sus gastos, solo tome una foto de su recibo y "
 "Odoo lo digitalizará. El OCR y la inteligencia artificial completarán los "
@@ -14592,11 +14651,17 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
 msgstr ""
 "Introduzca un nombre, elija una categoría y configure el importe de su "
 "gasto."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+msgstr ""
+"Introduzca un nombre, elija una categoría y configure el importe de su gasto."
+>>>>>>> upstream/18.0
 =======
 "Enter a name then choose a category and configure the amount of your expense."
 msgstr ""
@@ -16455,7 +16520,11 @@ msgid "Hr Expense Alias Domain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Dominio de seudónimo de gastos para RR. HH."
+=======
+msgstr "Dominio del alias de gastos para RR. HH."
+>>>>>>> upstream/18.0
 =======
 msgstr "Dominio del alias de gastos para RR. HH."
 >>>>>>> upstream/18.0
@@ -17293,8 +17362,12 @@ msgid "If checked, new messages require your attention."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Si se encuentra seleccionado, hay nuevos mensajes que requieren su atención."
+=======
+msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, hay nuevos mensajes que requieren tu atención."
 >>>>>>> upstream/18.0
@@ -18382,7 +18455,11 @@ msgid "If checked, some messages have a delivery error."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Si se encuentra seleccionado, algunos mensajes tienen error de envío."
+=======
+msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
+>>>>>>> upstream/18.0
 =======
 msgstr "Si está seleccionado, algunos mensajes tienen error de envío."
 >>>>>>> upstream/18.0
@@ -19756,7 +19833,11 @@ msgid "No attachment was provided"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "No se proporcionó ningún archivo adjunto"
+=======
+msgstr "No proporcionaste ningún archivo adjunto"
+>>>>>>> upstream/18.0
 =======
 msgstr "No proporcionaste ningún archivo adjunto"
 >>>>>>> upstream/18.0
@@ -20977,7 +21058,11 @@ msgid "Payment Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Estado de pago"
+=======
+msgstr "Estado del pago"
+>>>>>>> upstream/18.0
 =======
 msgstr "Estado del pago"
 >>>>>>> upstream/18.0
@@ -22220,11 +22305,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
 msgstr ""
 "Seleccione al usuario responsable de aprobar los \"gastos\" de este empleado.\n"
 "Si se encuentra vacío, la aprobación la realiza el administrador o el aprobador (se determina en los ajustes/usuarios)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23027,6 +23115,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23753,6 +23844,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Envíe un correo electrónico a este seudónimo de correo electrónico con el "
 "recibo adjunto para crear un gasto en un clic. Si la primera palabra del "
 "asunto contiene la referencia interna de la categoría o el nombre de la "
@@ -23760,6 +23852,8 @@ msgstr ""
 "Escriba el importe del gasto en el asunto del correo para establecerlo "
 "también en el gasto."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24302,6 +24396,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24694,6 +24791,7 @@ msgstr ""
 "fecha de hoy."
 
 #. module: hr_expense
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25501,6 +25599,8 @@ msgstr "Mostrar empleados con correo electrónico de trabajo faltante"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:hr_expense.field_hr_expense__accounting_date
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__accounting_date
 msgid "Specify the bill date of the related vendor bill."
@@ -25648,6 +25748,7 @@ msgstr ""
 "empresa."
 
 #. module: hr_expense
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26612,6 +26713,8 @@ msgid "The company's default journal used when an employee expense is created."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr_expense/models/ir_actions_report.py:0
 msgid ""
@@ -26714,6 +26817,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"No fue posible agregar el archivo adjunto (%(attachment_name)s) al reporte "
+"debido al error: \"%(error)s\""
+>>>>>>> upstream/18.0
 =======
 "No fue posible agregar el archivo adjunto (%(attachment_name)s) al reporte "
 "debido al error: \"%(error)s\""
@@ -27205,6 +27313,9 @@ msgid "The company's default journal used when an employee expense is created."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27689,8 +27800,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 =======
 "The first word of the email subject did not correspond to any category code. "
 "You'll have to set the category manually on the expense."
@@ -29066,6 +29182,7 @@ msgstr "La suma posterior a la división debe ser la misma."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -29076,6 +29193,8 @@ msgstr ""
 
 #. module: hr_expense
 #. odoo-python
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30080,6 +30199,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "When the cost of an expense product is different than 0, then the user"
 "                                             using this product won't be "
 "able to change the amount of the expense,"
@@ -30089,6 +30209,8 @@ msgid ""
 "allowances for mileage, per diem, accommodation"
 "                                             or meal."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30892,6 +31014,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31756,8 +31881,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede cancelar una hoja de gastos vinculada a un asiento registrado en el"
 " diario"
+=======
+"No puede cancelar una hoja de gastos vinculada a un asiento registrado en el "
+"diario"
+>>>>>>> upstream/18.0
 =======
 "No puede cancelar una hoja de gastos vinculada a un asiento registrado en el "
 "diario"
@@ -33118,8 +33248,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete only some entries linked to an expense report. All entries "
 "must be deleted at the same time."
@@ -34491,8 +34626,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede eliminar todos los gastos de un reporte de gastos enviado, aprobado"
 " o pagado."
+=======
+"No puede eliminar todos los gastos de un reporte de gastos enviado, aprobado "
+"o pagado."
+>>>>>>> upstream/18.0
 =======
 "No puede eliminar todos los gastos de un reporte de gastos enviado, aprobado "
 "o pagado."
@@ -35853,8 +35993,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 =======
 "You cannot set the expense total in currency to 0 if it's linked to a report."
 >>>>>>> upstream/18.0
@@ -36928,7 +37072,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No puede establecer el gasto total como 0 si está vinculado a un reporte."
+=======
+"No puedes configurar el gasto total como 0 si está vinculado a un reporte."
+>>>>>>> upstream/18.0
 =======
 "No puedes configurar el gasto total como 0 si está vinculado a un reporte."
 >>>>>>> upstream/18.0
@@ -38001,6 +38149,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No cuenta con los permisos para agregar o eliminar gastos de un reporte de "
 "gastos aprobado o pagado."
 
@@ -38018,6 +38167,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38828,6 +38979,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39630,7 +39784,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No tiene los permisos necesarios para omitir el proceso de validación de "
+=======
+"No tienes los permisos necesarios para omitir el proceso de validación de "
+>>>>>>> upstream/18.0
 =======
 "No tienes los permisos necesarios para omitir el proceso de validación de "
 >>>>>>> upstream/18.0
@@ -40703,7 +40861,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "No tiene los permisos necesarios para omitir el proceso de validación de "
+=======
+"No tienes los permisos necesarios para omitir el proceso de validación de "
+>>>>>>> upstream/18.0
 =======
 "No tienes los permisos necesarios para omitir el proceso de validación de "
 >>>>>>> upstream/18.0
@@ -41775,6 +41937,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42328,6 +42493,7 @@ msgstr "Debe agregar un método de pago manual en el diario (%s)"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43660,6 +43826,10 @@ msgid ""
 "You need to have at least one category that can be expensed in your database "
 "to proceed!"
 >>>>>>> upstream/18.0
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 msgstr ""
 "Para poder continuar necesita al menos una categoría que pueda ser un gasto "
 "en su base de datos."
@@ -43677,6 +43847,7 @@ msgstr "Su gasto se registró con éxito."
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "alias"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44398,6 +44569,9 @@ msgstr "alias"
 =======
 msgstr "alias"
 >>>>>>> upstream/18.0
+=======
+msgstr "alias"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
@@ -44470,6 +44644,7 @@ msgstr "en validación"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "use OCR to fill data from a picture of the bill"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45536,6 +45711,9 @@ msgstr "use el OCR para completar los datos a partir de una foto de la factura"
 =======
 msgstr "use el OCR para completar los datos a partir de una foto de la factura"
 >>>>>>> upstream/18.0
+=======
+msgstr "use el OCR para completar los datos a partir de una foto de la factura"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
@@ -45595,7 +45773,10 @@ msgstr "con el mismo recibo."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -45770,6 +45951,9 @@ msgstr "con el mismo recibo."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

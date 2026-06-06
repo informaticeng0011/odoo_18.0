@@ -125,6 +125,7 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and (demo_endpoint := DEMO_ENDPOINTS.get(endpoint.split('/')[-1]))
         ):
             self.ensure_one()
@@ -135,12 +136,17 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             and self.proxy_type == 'pdp'
             and (demo_endpoint := DEMO_ENDPOINTS.get(endpoint.split('/')[-1]))
         ):
             self.ensure_one()
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

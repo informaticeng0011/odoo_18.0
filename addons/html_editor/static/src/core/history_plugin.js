@@ -495,6 +495,7 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     record.addedNodes.forEach((added) => {
                         const mutation = {
                             type: "add",
@@ -532,6 +533,8 @@ export class HistoryPlugin extends Plugin {
                         });
                     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -617,6 +620,9 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1570,7 +1576,11 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (!nodesToStripFromChildren.has(child.nodeId)) {
+=======
+                if (!nodesToStripFromChildren.has(this.nodeToIdMap.get(child))) {
+>>>>>>> upstream/18.0
 =======
                 if (!nodesToStripFromChildren.has(this.nodeToIdMap.get(child))) {
 >>>>>>> upstream/18.0
@@ -2854,7 +2864,11 @@ export class HistoryPlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (this.editable.contains(ev.targget)) {
+=======
+        if (this.editable.contains(ev.target)) {
+>>>>>>> upstream/18.0
 =======
         if (this.editable.contains(ev.target)) {
 >>>>>>> upstream/18.0

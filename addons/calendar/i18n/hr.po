@@ -266,8 +266,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* calendar
 # 
+=======
+# * calendar
+#
+>>>>>>> upstream/18.0
 =======
 # * calendar
 #
@@ -1603,9 +1608,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Tina Milas, 2024
 # Matej Mijoč, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
+=======
+# Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
+# Tina Milas, 2024
+# Matej Mijoč, 2024
+>>>>>>> upstream/18.0
 =======
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # Tina Milas, 2024
@@ -3287,6 +3298,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Goran Kliska <gkliska@gmail.com>, 2025
 >>>>>>> upstream/18.0
@@ -4102,6 +4114,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Goran Kliska <gkliska@gmail.com>, 2025
 # Ivica Dimjašević, 2025
 # Luka Carević <luka@uvid.hr>, 2025
@@ -4371,6 +4385,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4849,6 +4864,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -4932,6 +4950,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6338,6 +6357,11 @@ msgstr ""
 "PO-Revision-Date: 2026-05-09 09:09+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-03-20 18:37+0000\n"
+"PO-Revision-Date: 2026-05-09 09:09+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "calendar/hr/>\n"
 "Language: hr\n"
@@ -6346,6 +6370,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7169,6 +7194,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_res_partner__meeting_count
@@ -7431,6 +7459,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in object.event_id and object.event_id.appointment_type_id\"/>\n"
 "    <t t-set=\"customer\" t-value=\"object.event_id.find_partner_customer()\"/>\n"
@@ -7444,6 +7473,8 @@ msgid ""
 "            <t t-if=\"customer\">\n"
 "                The date of your appointment with <t t-out=\"customer.name or ''\">Jesse Brown</t> has been updated.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8127,6 +8158,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8574,6 +8608,7 @@ msgid ""
 "            <t t-else=\"\">\n"
 "                Your appointment has been updated.\n"
 "            </t>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9259,6 +9294,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "            The appointment <strong t-"
 "out=\"object.event_id.appointment_type_id.name or ''\">Schedule a Demo</"
 "strong> is now scheduled for\n"
@@ -9364,6 +9401,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <a t-attf-href=\"/calendar/meeting/accept?"
 "token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" "
 "style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-"
@@ -9374,6 +9412,8 @@ msgid ""
 "style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-"
 "color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 "            Decline</a>\n"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9749,6 +9789,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10418,6 +10461,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <div style=\"border-top-start-radius: 3px; border-top-end-radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; font-weight: bold; color: #ffffff; min-height: 18px; background-color: #875A7B; border: 1px solid #875A7B;\">\n"
 "                <t t-out=\"format_datetime(dt=object.event_id.start, tz=object.mail_tz if not object.event_id.allday else None, dt_format=&quot;EEEE&quot;, lang_code=object.env.lang) or &quot;&quot;\">Tuesday</t>\n"
 "            </div>\n"
@@ -10436,6 +10480,8 @@ msgid ""
 "                        <div style=\"font-size: 10px; font-weight: normal\">\n"
 "                            (<t t-out=\"object.mail_tz or ''\">Europe/Brussels</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11136,6 +11182,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11811,6 +11860,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <li>Location: <t t-out=\"object.event_id.location or ''\">Bruxelles</t>\n"
 "                        <a target=\"_blank\" t-if=\"not is_online or is_online and object.event_id.location != object.event_id.appointment_type_id.location_id.name\" t-attf-href=\"http://maps.google.com/maps?oi=map&amp;q={{object.event_id.location}}\">(View Map)</a>\n"
 "                    </li>\n"
@@ -11828,6 +11878,8 @@ msgid ""
 "                        <t t-if=\"attendee.common_name != object.common_name\">\n"
 "                            <span style=\"margin-left:5px\" t-out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12522,6 +12574,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13196,10 +13251,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13869,6 +13927,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14538,7 +14599,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.event_id.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.event_id.description\">Internal "
 "meeting for discussion for new pricing for product and services.</t></li>\n"
@@ -15655,10 +15721,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-if=\"object.event_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 "        <t t-out=\"object.event_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -16327,6 +16396,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17001,6 +17073,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"customer\" t-value=\" object.event_id.find_partner_customer()\"/>\n"
 "    <t t-set=\"target_responsible\" t-value=\"object.partner_id == object.event_id.partner_id\"/>\n"
@@ -17021,6 +17094,8 @@ msgid ""
 "        <t t-else=\"\">\n"
 "            Your meeting <strong t-out=\"object.event_id.name or ''\">Follow-up for Project proposal</strong> has been booked.\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17715,6 +17790,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18162,6 +18240,7 @@ msgid ""
 "\n"
 "    </p>\n"
 "    <div style=\"text-align: center; padding: 16px 0px 16px 0px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18862,6 +18941,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "        <a t-attf-href=\"/calendar/meeting/view?token={{object.access_token}}"
 "&amp;id={{object.event_id.id}}\" style=\"padding: 5px 10px; color: #FFFFFF; "
 "text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; "
@@ -19125,6 +19206,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19800,6 +19884,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <li>Location: <t t-out=\"object.event_id.location or ''\">Bruxelles</t>\n"
 "                        <a target=\"_blank\" t-if=\"not is_online or is_online and object.event_id.location != object.event_id.appointment_type_id.location_id.name\" t-attf-href=\"http://maps.google.com/maps?oi=map&amp;q={{object.event_id.location}}\">(View Map)</a>\n"
 "                    </li>\n"
@@ -19817,6 +19902,8 @@ msgid ""
 "                        <t t-if=\"attendee.common_name != object.common_name\">\n"
 "                            <span style=\"margin-left:5px\" t-out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20511,6 +20598,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21185,10 +21275,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21858,6 +21951,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22527,7 +22623,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.event_id.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.event_id.description\">Internal "
 "meeting for discussion for new pricing for product and services.</t></li>\n"
@@ -23644,10 +23745,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-if=\"object.event_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 "        <t t-out=\"object.event_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24316,6 +24420,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24990,6 +25097,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in object and object.appointment_type_id\"/>\n"
 "    <t t-set=\"target_responsible\" t-value=\"object.partner_id == object.partner_id\"/>\n"
@@ -24997,6 +25105,8 @@ msgid ""
 "    <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get('calendar_template_ignore_recurrence')\"/>\n"
 "    <t t-set=\"mail_tz\" t-value=\"object._get_mail_tz() or ctx.get('mail_tz')\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25672,6 +25782,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26341,6 +26454,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <div style=\"border-top-start-radius: 3px; border-top-end-radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; font-weight: bold; color: #ffffff; min-height: 18px; background-color: #875A7B; border: 1px solid #875A7B;\">\n"
 "                        <t t-out=\"format_datetime(dt=object.start, tz=mail_tz if not object.allday else None, dt_format='EEEE', lang_code=object.env.lang) \">Tuesday</t>\n"
 "                    </div>\n"
@@ -26359,6 +26473,8 @@ msgid ""
 "                                <div style=\"font-size: 10px; font-weight: normal\">\n"
 "                                    (<t t-out=\"mail_tz\"> Europe/Brussels</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27057,6 +27173,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27735,7 +27854,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                            <t t-out=\"object.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                            <t t-out=\"object.description\">Internal meeting "
+"for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                            <t t-out=\"object.description\">Internal meeting "
 "for discussion for new pricing for product and services.</t></li>\n"
@@ -28850,6 +28974,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <t t-if=\"object.get_base_url() in object.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                                <t t-else=\"\"> Join at</t><br/>\n"
 "                                <a t-att-href=\"object.videocall_location\" target=\"_blank\" t-out=\"object.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
@@ -28867,6 +28992,8 @@ msgid ""
 "                            <li>Duration:\n"
 "                                <t t-out=\"('%dH%02d' % (object.duration,round(object.duration*60)%60))\">0H30</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29556,6 +29683,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30235,7 +30365,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+=======
+"        <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
+"quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
+>>>>>>> upstream/18.0
 =======
 "        <t t-out=\"object.user_id.signature or ''\" data-o-mail-"
 "quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
@@ -31355,6 +31490,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-set=\"colors\" t-value=\"{'needsAction': 'grey', 'accepted': 'green', 'tentative': '#FFFF00', 'declined': 'red'}\"/>\n"
 "    <t t-set=\"is_online\" t-value=\"'appointment_type_id' in object.event_id and object.event_id.appointment_type_id\"/>\n"
 "    <t t-set=\"recurrent\" t-value=\"object.recurrence_id and not ctx.get('calendar_template_ignore_recurrence')\"/>\n"
@@ -31369,6 +31505,8 @@ msgid ""
 "            Decline</a>\n"
 "        <a t-attf-href=\"/calendar/meeting/view?token={{ object.access_token }}&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: #FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid #875A7B; border-radius: 3px\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31898,6 +32036,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        <a t-attf-href=\"/calendar/{{ 'recurrence' if recurrent else "
 "'meeting' }}/accept?token={{ object.access_token }}"
 "&amp;id={{ object.event_id.id }}\" style=\"padding: 5px 10px; color: "
@@ -31910,6 +32049,8 @@ msgid ""
 "#FFFFFF; text-decoration: none; background-color: #875A7B; border: 1px solid "
 "#875A7B; border-radius: 3px\">\n"
 "            Decline</a>\n"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32285,6 +32426,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32954,6 +33098,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            <div style=\"border-top-start-radius: 3px; border-top-end-radius: 3px; font-size: 12px; border-collapse: separate; text-align: center; font-weight: bold; color: #ffffff; min-height: 18px; background-color: #875A7B; border: 1px solid #875A7B;\">\n"
 "                <t t-out=\"format_datetime(dt=object.event_id.start, tz=object.mail_tz if not object.event_id.allday else None, dt_format=&quot;EEEE&quot;, lang_code=object.env.lang) or &quot;&quot;\">Tuesday</t>\n"
 "            </div>\n"
@@ -32972,6 +33117,8 @@ msgid ""
 "                        <div style=\"font-size: 10px; font-weight: normal\">\n"
 "                            (<t t-out=\"object.mail_tz or ''\">Europe/Brussels</t>)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33672,6 +33819,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34347,6 +34497,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <li>Location: <t t-out=\"object.event_id.location or ''\">Bruxelles</t>\n"
 "                        <a target=\"_blank\" t-if=\"not is_online or is_online and object.event_id.location != object.event_id.appointment_type_id.location_id.name\" t-attf-href=\"http://maps.google.com/maps?oi=map&amp;q={{object.event_id.location}}\">(View Map)</a>\n"
 "                    </li>\n"
@@ -34364,6 +34515,8 @@ msgid ""
 "                        <t t-if=\"attendee.common_name != object.common_name\">\n"
 "                            <span style=\"margin-left:5px\" t-out=\"attendee.common_name or ''\">Mitchell Admin</span>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35058,6 +35211,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35732,10 +35888,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        <t t-if=\"object.get_base_url() in object.event_id.videocall_location\"> Join with Odoo Discuss</t>\n"
 "                        <t t-else=\"\"> Join at</t><br/>\n"
 "                        <a t-att-href=\"object.event_id.videocall_location\" target=\"_blank\" t-out=\"object.event_id.videocall_location or ''\">www.mycompany.com/calendar/join_videocall/xyz</a>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36405,6 +36564,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37074,7 +37236,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    <t t-out=\"object.event_id.description\">Internal meeting for discussion for new pricing for product and services.</t></li>\n"
+=======
+"                    <t t-out=\"object.event_id.description\">Internal "
+"meeting for discussion for new pricing for product and services.</t></li>\n"
+>>>>>>> upstream/18.0
 =======
 "                    <t t-out=\"object.event_id.description\">Internal "
 "meeting for discussion for new pricing for product and services.</t></li>\n"
@@ -38191,10 +38358,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "    <t t-if=\"object.event_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n"
 "        <br/>\n"
 "        <t t-out=\"object.event_id.user_id.signature or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -38863,6 +39033,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39354,7 +39527,11 @@ msgid "<span class=\"fa fa-plus\"/><span> Odoo meeting</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"fa fa-plus\"/><span> Odoo sastanak</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"fa fa-plus\"/><span> Odoo sastanak</span>"
 >>>>>>> upstream/18.0
@@ -39473,6 +39650,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
+"['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
+"'weekly')\">Ponavljaj</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold text-nowrap\" invisible=\"rrule_type_ui not in "
 "['weekly', 'custom'] or (rrule_type_ui == 'custom' and rrule_type != "
@@ -39723,6 +39906,10 @@ msgstr "Korisnik ne može imati isti kontakt dvaput."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 >>>>>>> upstream/18.0
@@ -39981,7 +40168,11 @@ msgid "Accepted Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj prihvaćenih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj prihvaćenih"
 >>>>>>> upstream/18.0
@@ -40077,6 +40268,7 @@ msgid ""
 "Actions may trigger specific behavior like opening calendar view or "
 "automatically mark as done when a document is uploaded"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41189,6 +41381,10 @@ msgstr ""
 "radnje mogu pokretati specifično ponašanje poput otvaranja pogleda kalendara "
 "ili automatsko označavanje kao dovršeno kad je dokument učitan"
 >>>>>>> upstream/18.0
+=======
+"radnje mogu pokretati specifično ponašanje poput otvaranja pogleda kalendara "
+"ili automatsko označavanje kao dovršeno kad je dokument učitan"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__active
@@ -41318,7 +41514,11 @@ msgid "Attendees Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj sudionika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj sudionika"
 >>>>>>> upstream/18.0
@@ -41427,7 +41627,11 @@ msgid "Attending?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prisustvujete?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prisustvujete?"
 >>>>>>> upstream/18.0
@@ -41547,7 +41751,11 @@ msgid "Awaiting Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj na čekanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj na čekanju"
 >>>>>>> upstream/18.0
@@ -41957,7 +42165,11 @@ msgid "Bye-bye, record!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pa-pa, zapisu!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pa-pa, zapisu!"
 >>>>>>> upstream/18.0
@@ -43171,7 +43383,11 @@ msgid "Calendar Default Privacy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadane postavke privatnosti kalendara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadane postavke privatnosti kalendara"
 >>>>>>> upstream/18.0
@@ -44022,7 +44238,11 @@ msgid "Calendar Popover Delete Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za brisanje skočnog prozora kalendara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za brisanje skočnog prozora kalendara"
 >>>>>>> upstream/18.0
@@ -44131,7 +44351,11 @@ msgid "Calendar Provider Configuration Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za konfiguraciju pružatelja kalendara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za konfiguraciju pružatelja kalendara"
 >>>>>>> upstream/18.0
@@ -44240,7 +44464,11 @@ msgid "Calendar Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavke kalendara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavke kalendara"
 >>>>>>> upstream/18.0
@@ -44349,7 +44577,11 @@ msgid "Calendar: Date Updated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kalendar: datum ažuriran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kalendar: datum ažuriran"
 >>>>>>> upstream/18.0
@@ -44458,6 +44690,7 @@ msgstr "Otkaži"
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__is_organizer_alone
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45127,6 +45360,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Check if the organizer is alone in the event, i.e. if the organizer is the "
 "only one that hasn't declined\n"
 "        the event (only if the organizer is not the only attendee)"
@@ -45354,6 +45589,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45847,6 +46085,7 @@ msgstr "Postavke"
 #. odoo-javascript
 #: code:addons/calendar/static/src/views/ask_recurrence_update_policy_dialog.xml:0
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47236,6 +47475,9 @@ msgstr "Potvrdi"
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #. odoo-javascript
@@ -47318,7 +47560,11 @@ msgid "Current Attendee"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutni sudionik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trenutni sudionik"
 >>>>>>> upstream/18.0
@@ -47521,6 +47767,10 @@ msgstr "Dana"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:calendar.invitation_page_anonymous
 >>>>>>> upstream/18.0
@@ -47779,7 +48029,11 @@ msgid "Declined Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj odbijenih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj odbijenih"
 >>>>>>> upstream/18.0
@@ -48133,7 +48387,11 @@ msgid "Default Privacy"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadane postavke privatnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadane postavke privatnosti"
 >>>>>>> upstream/18.0
@@ -48963,6 +49221,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zadana postavka privatnosti za koga će događaji kalendara biti vidljivi."
+>>>>>>> upstream/18.0
 =======
 "Zadana postavka privatnosti za koga će događaji kalendara biti vidljivi."
 >>>>>>> upstream/18.0
@@ -49048,6 +49310,7 @@ msgstr ""
 #: code:addons/calendar/static/src/views/attendee_calendar/common/attendee_calendar_common_popover.xml:0
 #: model:ir.model.fields,field_description:calendar.field_calendar_popover_delete_wizard__delete
 msgid "Delete"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50113,6 +50376,9 @@ msgstr "Obriši"
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.calendar_popover_delete_view
@@ -50143,7 +50409,11 @@ msgid "Delete Event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši događaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši događaj"
 >>>>>>> upstream/18.0
@@ -50252,7 +50522,11 @@ msgid "Delete all the events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši sve događaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši sve događaje"
 >>>>>>> upstream/18.0
@@ -50361,7 +50635,11 @@ msgid "Delete this and following events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši ovaj i sljedeće događaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši ovaj i sljedeće događaje"
 >>>>>>> upstream/18.0
@@ -50470,7 +50748,11 @@ msgid "Delete this event"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obriši ovaj događaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obriši ovaj događaj"
 >>>>>>> upstream/18.0
@@ -50739,7 +51021,11 @@ msgid "Every %(interval)s Days"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s dana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s dana"
 >>>>>>> upstream/18.0
@@ -50849,7 +51135,11 @@ msgid "Every %(interval)s Days for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s dana za %(count)s događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s dana za %(count)s događaja"
 >>>>>>> upstream/18.0
@@ -50959,7 +51249,11 @@ msgid "Every %(interval)s Days until %(until)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s dana do %(until)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s dana do %(until)s"
 >>>>>>> upstream/18.0
@@ -51069,7 +51363,11 @@ msgid "Every %(interval)s Months day %(day)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s mjeseci na dan %(day)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s mjeseci na dan %(day)s"
 >>>>>>> upstream/18.0
@@ -51179,7 +51477,11 @@ msgid "Every %(interval)s Months day %(day)s for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s mjeseci na dan %(day)s za %(count)s događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s mjeseci na dan %(day)s za %(count)s događaja"
 >>>>>>> upstream/18.0
@@ -51289,7 +51591,11 @@ msgid "Every %(interval)s Months day %(day)s until %(until)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s mjeseci na dan %(day)s do %(until)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s mjeseci na dan %(day)s do %(until)s"
 >>>>>>> upstream/18.0
@@ -51399,7 +51705,11 @@ msgid "Every %(interval)s Months on the %(position)s %(weekday)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s mjeseci u %(position)s %(weekday)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s mjeseci u %(position)s %(weekday)s"
 >>>>>>> upstream/18.0
@@ -51512,6 +51822,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Svakih %(interval)s mjeseci u %(position)s %(weekday)s za %(count)s događaja"
+>>>>>>> upstream/18.0
 =======
 "Svakih %(interval)s mjeseci u %(position)s %(weekday)s za %(count)s događaja"
 >>>>>>> upstream/18.0
@@ -51622,7 +51936,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s mjeseci u %(position)s %(weekday)s do %(until)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s mjeseci u %(position)s %(weekday)s do %(until)s"
 >>>>>>> upstream/18.0
@@ -51732,7 +52050,11 @@ msgid "Every %(interval)s Weeks on %(days)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s tjedana u %(days)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s tjedana u %(days)s"
 >>>>>>> upstream/18.0
@@ -51842,7 +52164,11 @@ msgid "Every %(interval)s Weeks on %(days)s for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s tjedana u %(days)s za %(count)s događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s tjedana u %(days)s za %(count)s događaja"
 >>>>>>> upstream/18.0
@@ -51952,7 +52278,11 @@ msgid "Every %(interval)s Weeks on %(days)s until %(until)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s tjedana u %(days)s do %(until)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s tjedana u %(days)s do %(until)s"
 >>>>>>> upstream/18.0
@@ -52062,7 +52392,11 @@ msgid "Every %(interval)s Years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s godina"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s godina"
 >>>>>>> upstream/18.0
@@ -52172,7 +52506,11 @@ msgid "Every %(interval)s Years for %(count)s events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svakih %(interval)s godina za %(count)s događaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Svakih %(interval)s godina za %(count)s događaja"
 >>>>>>> upstream/18.0
@@ -52256,6 +52594,7 @@ msgstr "Svakih %(interval)s godina za %(count)s događaja"
 #. odoo-python
 #: code:addons/calendar/models/calendar_recurrence.py:0
 msgid "Every %(interval)s Years until %(until)s"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53009,6 +53348,11 @@ msgstr "Svakih %(interval)s godina do %(until)s"
 
 #. module: calendar
 >>>>>>> upstream/18.0
+=======
+msgstr "Svakih %(interval)s godina do %(until)s"
+
+#. module: calendar
+>>>>>>> upstream/18.0
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__1
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__byday__1
 msgid "First"
@@ -53039,6 +53383,7 @@ msgstr "Pratitelji (partneri)"
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__end_type__forever
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_recurrence__end_type__forever
 msgid "Forever"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54104,6 +54449,9 @@ msgstr "Zauvijek"
 =======
 msgstr "Zauvijek"
 >>>>>>> upstream/18.0
+=======
+msgstr "Zauvijek"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields.selection,name:calendar.selection__calendar_event__byday__4
@@ -54159,7 +54507,11 @@ msgid "Google"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google"
 >>>>>>> upstream/18.0
@@ -54273,7 +54625,11 @@ msgid "Google Calendar icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikona Google kalendara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikona Google kalendara"
 >>>>>>> upstream/18.0
@@ -54382,7 +54738,11 @@ msgid "Google Client_id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Client_id"
 >>>>>>> upstream/18.0
@@ -54491,7 +54851,11 @@ msgid "Google Client_key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google Client_key"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google Client_key"
 >>>>>>> upstream/18.0
@@ -54600,7 +54964,11 @@ msgid "Google Synchronization Paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Google sinkronizacija pauzirana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Google sinkronizacija pauzirana"
 >>>>>>> upstream/18.0
@@ -54956,9 +55324,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If the time is shown as 'busy', this event will be visible to other people with either the full         information or simply 'busy' written depending on its privacy. Use this option to let other people know         that you are unavailable during that period of time. \n"
 " If the event is shown as 'free', other users know         that you are available during that period of time."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55628,6 +55999,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56021,6 +56393,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -56103,6 +56477,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56189,7 +56566,11 @@ msgid "Invalid Email Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neispravan partner e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neispravan partner e-pošte"
 >>>>>>> upstream/18.0
@@ -56314,7 +56695,11 @@ msgid "Invitation email to new attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-pošta s pozivom novim sudionicima"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-pošta s pozivom novim sudionicima"
 >>>>>>> upstream/18.0
@@ -56465,6 +56850,7 @@ msgstr "Promijenjeno"
 #: model:ir.model.fields,field_description:calendar.field_res_partner__calendar_last_notif_ack
 #: model:ir.model.fields,field_description:calendar.field_res_users__calendar_last_notif_ack
 msgid "Last notification marked as read from base Calendar"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57530,6 +57916,9 @@ msgstr "Posljednja obavijest označena kao pročitana iz osnovnog kalendara"
 =======
 msgstr "Posljednja obavijest označena kao pročitana iz osnovnog kalendara"
 >>>>>>> upstream/18.0
+=======
+msgstr "Posljednja obavijest označena kao pročitana iz osnovnog kalendara"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,help:calendar.field_calendar_event__rrule_type
@@ -57584,7 +57973,11 @@ msgid "Maybe"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Možda"
+>>>>>>> upstream/18.0
 =======
 msgstr "Možda"
 >>>>>>> upstream/18.0
@@ -57748,7 +58141,11 @@ msgid "Microsoft Outlook icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ikona Microsoft Outlooka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ikona Microsoft Outlooka"
 >>>>>>> upstream/18.0
@@ -57896,7 +58293,11 @@ msgid "More Options"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Više opcija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Više opcija"
 >>>>>>> upstream/18.0
@@ -58375,7 +58776,11 @@ msgid "Online Meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Online sastanak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Online sastanak"
 >>>>>>> upstream/18.0
@@ -59235,7 +59640,11 @@ msgid "Outlook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook"
 >>>>>>> upstream/18.0
@@ -59349,7 +59758,11 @@ msgid "Outlook Client Id"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Id"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook Client Id"
 >>>>>>> upstream/18.0
@@ -59458,7 +59871,11 @@ msgid "Outlook Client Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook Client Secret"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook Client Secret"
 >>>>>>> upstream/18.0
@@ -59567,7 +59984,11 @@ msgid "Outlook Synchronization Paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Outlook sinkronizacija pauzirana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Outlook sinkronizacija pauzirana"
 >>>>>>> upstream/18.0
@@ -59832,6 +60253,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zakazivanje aktivnosti pomoću kalendara nije moguće na više od jednog zapisa."
+>>>>>>> upstream/18.0
 =======
 "Zakazivanje aktivnosti pomoću kalendara nije moguće na više od jednog zapisa."
 >>>>>>> upstream/18.0
@@ -59925,6 +60350,7 @@ msgstr "Drugi"
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 msgid "Select attendees..."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60990,6 +61416,9 @@ msgstr "Odaberite sudionike..."
 =======
 msgstr "Odaberite sudionike..."
 >>>>>>> upstream/18.0
+=======
+msgstr "Odaberite sudionike..."
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
@@ -61035,7 +61464,11 @@ msgid "Sent to all attendees if a reminder is set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šalje se svim sudionicima ako je postavljen podsjetnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šalje se svim sudionicima ako je postavljen podsjetnik"
 >>>>>>> upstream/18.0
@@ -61144,7 +61577,11 @@ msgid "Sent to all attendees if the schedule change"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šalje se svim sudionicima ako se raspored promijeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šalje se svim sudionicima ako se raspored promijeni"
 >>>>>>> upstream/18.0
@@ -61259,7 +61696,11 @@ msgid "Should Show Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Treba li prikazivati status"
+>>>>>>> upstream/18.0
 =======
 msgstr "Treba li prikazivati status"
 >>>>>>> upstream/18.0
@@ -61353,6 +61794,7 @@ msgstr "Odgodi"
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start
 msgid "Start"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62418,6 +62860,9 @@ msgstr "Početak"
 =======
 msgstr "Početak"
 >>>>>>> upstream/18.0
+=======
+msgstr "Početak"
+>>>>>>> upstream/18.0
 
 #. module: calendar
 #: model:ir.model.fields,field_description:calendar.field_calendar_event__start_date
@@ -62480,7 +62925,11 @@ msgid "Stop synchro"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaustavi sinkronizaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaustavi sinkronizaciju"
 >>>>>>> upstream/18.0
@@ -62612,7 +63061,11 @@ msgid "Synchro is paused"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinkronizacija je pauzirana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinkronizacija je pauzirana"
 >>>>>>> upstream/18.0
@@ -62722,7 +63175,11 @@ msgid "Synchronize with"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinkroniziraj s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinkroniziraj s"
 >>>>>>> upstream/18.0
@@ -63078,7 +63535,11 @@ msgid "Synchronize your calendar with Outlook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sinkronizirajte kalendar s Outlookom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sinkronizirajte kalendar s Outlookom"
 >>>>>>> upstream/18.0
@@ -63927,7 +64388,11 @@ msgid "Tentative Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj uvjetnih"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj uvjetnih"
 >>>>>>> upstream/18.0
@@ -64019,6 +64484,7 @@ msgid ""
 "            other applications such as the employee leaves or the business\n"
 "            opportunities."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -65130,6 +65596,10 @@ msgstr ""
 "Kalendar je dijeljen među djelatnicima i potpuno integriran sa ostalim "
 "aplikacijama kao što su odsustva djelatnika ili\n"
 >>>>>>> upstream/18.0
+=======
+"Kalendar je dijeljen među djelatnicima i potpuno integriran sa ostalim "
+"aplikacijama kao što su odsustva djelatnika ili\n"
+>>>>>>> upstream/18.0
 "poslovne prilike."
 
 #. module: calendar
@@ -65170,6 +65640,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Završni datum i vrijeme ne mogu biti raniji od početnog datuma i vremena.\n"
+"Sastanak „%(name)s” počinje u %(start_time)s i završava u %(end_time)s"
+>>>>>>> upstream/18.0
 =======
 "Završni datum i vrijeme ne mogu biti raniji od početnog datuma i vremena.\n"
 "Sastanak „%(name)s” počinje u %(start_time)s i završava u %(end_time)s"
@@ -65308,6 +65783,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Završni datum ne može biti raniji od početnog datuma.\n"
+"Sastanak „%(name)s” počinje %(start_date)s i završava %(end_date)s"
+>>>>>>> upstream/18.0
 =======
 "Završni datum ne može biti raniji od početnog datuma.\n"
 "Sastanak „%(name)s” počinje %(start_date)s i završava %(end_date)s"
@@ -65532,7 +66012,11 @@ msgid "Unable to save the recurrence with \"This Event\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije moguće spremiti ponavljanje s \"Ovaj događaj\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije moguće spremiti ponavljanje s \"Ovaj događaj\""
 >>>>>>> upstream/18.0
@@ -65677,7 +66161,11 @@ msgid "Videocall Source"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvor videopoziva"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvor videopoziva"
 >>>>>>> upstream/18.0
@@ -65854,6 +66342,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nije vam dopušteno promijeniti zadanu privatnost kalendara drugog korisnika "
+"zbog ograničenja privatnosti."
+>>>>>>> upstream/18.0
 =======
 "Nije vam dopušteno promijeniti zadanu privatnost kalendara drugog korisnika "
 "zbog ograničenja privatnosti."
@@ -66007,7 +66500,11 @@ msgid "You're alone in this meeting"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sami ste na ovom sastanku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sami ste na ovom sastanku"
 >>>>>>> upstream/18.0
@@ -66117,7 +66614,11 @@ msgid "accepted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "prihvaćeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "prihvaćeno"
 >>>>>>> upstream/18.0
@@ -66227,7 +66728,11 @@ msgid "attendees"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "sudionici"
+>>>>>>> upstream/18.0
 =======
 msgstr "sudionici"
 >>>>>>> upstream/18.0
@@ -66342,7 +66847,11 @@ msgid "declined"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "odbijeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "odbijeno"
 >>>>>>> upstream/18.0
@@ -66456,7 +66965,11 @@ msgid "e.g: 12/31/2023"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr.: 31.12.2023"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr.: 31.12.2023"
 >>>>>>> upstream/18.0
@@ -66571,7 +67084,11 @@ msgid "no email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nema e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "nema e-pošte"
 >>>>>>> upstream/18.0
@@ -66686,7 +67203,11 @@ msgid "props.placeholder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "props.placeholder"
+>>>>>>> upstream/18.0
 =======
 msgstr "props.placeholder"
 >>>>>>> upstream/18.0
@@ -66796,7 +67317,11 @@ msgid "uncertain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nesigurno"
+>>>>>>> upstream/18.0
 =======
 msgstr "nesigurno"
 >>>>>>> upstream/18.0
@@ -67117,6 +67642,12 @@ msgstr "{{object.name}}: Događaj ažuriran"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Feedback: %(feedback)s"
+#~ msgstr "Povrata informacija:%(feedback)s"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Feedback: %(feedback)s"

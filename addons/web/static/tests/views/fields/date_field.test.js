@@ -98,10 +98,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { expect, test } from "@odoo/hoot";
 import { click, edit, press, queryAllTexts, queryOne, scroll } from "@odoo/hoot-dom";
 import { animationFrame, mockDate, mockTimeZone } from "@odoo/hoot-mock";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -413,6 +416,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1047,7 +1053,11 @@ test("multi edition of date field in list view: clear date in input", async () =
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect(".modal").toHaveCount(1);
+=======
+    expect(await waitFor(".modal")).toHaveCount(1);
+>>>>>>> upstream/18.0
 =======
     expect(await waitFor(".modal")).toHaveCount(1);
 >>>>>>> upstream/18.0
@@ -1780,7 +1790,10 @@ test("date field with max_precision option", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2615,6 +2628,9 @@ test("DateField with onchange forcing a specific date", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

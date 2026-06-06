@@ -67,7 +67,11 @@ class PdpFlow10XMLBuilder(models.AbstractModel):
                 },
             },
             'Issuer': {
+<<<<<<< HEAD
                 'Id': {'schemeId': '0002', '_text': flow.company_id.siret[:9]},
+=======
+                'Id': {'schemeId': '0002', '_text': flow.company_id.partner_id._l10n_fr_pdp_get_siren()},
+>>>>>>> upstream/18.0
                 'Name': {'_text': flow.company_id.name[:99]},
                 'RoleCode': {'_text':  'BY' if flow.operation_type == 'purchase' else 'SE'},
                 **({'URIUniversalCommunication': {
@@ -281,7 +285,11 @@ class PdpFlow10XMLBuilder(models.AbstractModel):
         if move.narration:
             invoice['IncludedNote'] = {
                 'Subject': {'_text': 'AAB'},
+<<<<<<< HEAD
                 'Content': html2plaintext(move.narration).strip(),
+=======
+                'Content':  {'_text': html2plaintext(move.narration).strip()},
+>>>>>>> upstream/18.0
             }
 
     @api.model
@@ -342,10 +350,17 @@ class PdpFlow10XMLBuilder(models.AbstractModel):
             # Use specific identifier for territories like NC (RIDET), PF (TAHITI), WF
             company_scheme = specific_scheme['qualifier']
             company_id = partner.ref
+<<<<<<< HEAD
         elif partner.siret:
             # Standard French SIREN
             company_scheme = '0002'
             company_id = partner.siret[:9]
+=======
+        elif siren := partner._l10n_fr_pdp_get_siren():
+            # Standard French SIREN
+            company_scheme = '0002'
+            company_id = siren
+>>>>>>> upstream/18.0
         elif len(partner.vat) > 1:
             # VAT scheme
             company_scheme = '0223'

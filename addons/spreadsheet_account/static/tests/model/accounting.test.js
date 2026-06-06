@@ -99,7 +99,10 @@ test("Functions with a wrong company id is correctly in error", async () => {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 test("string company_id is converted to integer before server request", async () => {
@@ -126,6 +129,9 @@ test("string company_id is converted to integer before server request", async ()
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -316,7 +322,11 @@ test("Server requests with multiple account codes", async () => {
             camelToSnakeObject({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 dateRange: parseAccountingDate({ value: "2022"}, locale),
+=======
+                dateRange: parseAccountingDate({ value: "2022" }, locale),
+>>>>>>> upstream/18.0
 =======
                 dateRange: parseAccountingDate({ value: "2022" }, locale),
 >>>>>>> upstream/18.0
@@ -357,7 +367,11 @@ test("account group formula as input to balance formula", async () => {
             camelToSnakeObject({
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 dateRange: parseAccountingDate({ value: "2022"}, locale),
+=======
+                dateRange: parseAccountingDate({ value: "2022" }, locale),
+>>>>>>> upstream/18.0
 =======
                 dateRange: parseAccountingDate({ value: "2022" }, locale),
 >>>>>>> upstream/18.0

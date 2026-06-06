@@ -616,7 +616,11 @@ class Team(models.Model):
             members_to_assign = list(team.crm_team_member_ids.filtered(lambda member:
                 not member.assignment_optout and quota_per_member.get(member, 0) > 0
 <<<<<<< HEAD
+<<<<<<< HEAD
             ).sorted(key=lambda member: quota_per_member.get(member, 0), reverse=True))
+=======
+            ).sorted(key=lambda member: (quota_per_member.get(member, 0), random.random()), reverse=True))
+>>>>>>> upstream/18.0
 =======
             ).sorted(key=lambda member: (quota_per_member.get(member, 0), random.random()), reverse=True))
 >>>>>>> upstream/18.0

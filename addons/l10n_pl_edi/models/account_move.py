@@ -106,6 +106,7 @@ from xml.dom.minidom import parseString
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from stdnum.pl.nip import compact
 
 from odoo import api, fields, models
@@ -627,12 +628,17 @@ from odoo import Command, api, fields, models
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from dateutil.relativedelta import relativedelta
 from lxml import etree
 from stdnum.pl.nip import compact
 from decimal import Decimal
 
 from odoo import Command, api, fields, models
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.exceptions import UserError
 from odoo.tools import float_compare, float_is_zero, float_repr, OrderedSet
@@ -778,7 +784,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1092,6 +1101,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1400,7 +1412,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1455,6 +1470,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1605,8 +1623,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'K_17' in tag_names:
                 return "8"
+=======
+            if 'K_15' in tag_names:
+                return "5"
+>>>>>>> upstream/18.0
 =======
             if 'K_15' in tag_names:
                 return "5"
@@ -1939,7 +1962,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'get_vat_number': compact,
+=======
+            'get_vat_number': get_vat_number,
+>>>>>>> upstream/18.0
 =======
             'get_vat_number': get_vat_number,
 >>>>>>> upstream/18.0
@@ -2282,7 +2309,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2569,6 +2599,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lines = [
                 {
                     'name': get_value(line_node, '{*}P_7') or '/',
@@ -2580,6 +2611,8 @@ class AccountMove(models.Model):
                 for line_node in move_line_nodes
             ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2683,6 +2716,12 @@ class AccountMove(models.Model):
                     raise UserError(self.env._("No net or gross unit price found in the FA (3) for the line with product '%s'.", name))
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if P_10 := get_value(line_node, '{*}P_10'):
+                    price_unit = float(Decimal(str(price_unit)) - Decimal(P_10))
+
+>>>>>>> upstream/18.0
 =======
                 if P_10 := get_value(line_node, '{*}P_10'):
                     price_unit = float(Decimal(str(price_unit)) - Decimal(P_10))
@@ -2739,6 +2778,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2872,7 +2914,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner_vat_domain_vals = (data['vendor_nip'], f"{data['vendor_country']}{data['vendor_nip']}")
+=======
+            nip = data['vendor_nip']
+            vat = f"PL{nip}"
+            partner_vat_domain_vals = (nip, vat)
+>>>>>>> upstream/18.0
 =======
             nip = data['vendor_nip']
             vat = f"PL{nip}"
@@ -3096,7 +3144,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'vat': data['vendor_nip'],
+=======
+                        'vat': vat,
+>>>>>>> upstream/18.0
 =======
                         'vat': vat,
 >>>>>>> upstream/18.0
@@ -3313,6 +3365,7 @@ class AccountMove(models.Model):
 
         to_process = [invoice_nr for invoice_nr in invoice_numbers if invoice_nr not in already_processed]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3791,11 +3844,32 @@ class AccountMove(models.Model):
             bills_to_create[invoice_nr] = {
                 'vals': bill_data,
                 'xml_content': response['xml_content'],
+=======
+        bills_to_create = {}
+
+        for invoice_nr in to_process:
+            response = service.get_invoice_by_ksef_number(invoice_nr)
+            error_msg = False
+            try:
+                if response.get('error'):
+                    blocking_error = handle_download_bills_from_ksef_error(response['error'])
+                    break
+                bill_data = self.l10n_pl_edi_get_ksef_bill_vals_from_xml(response['xml_content'])
+            except UserError as e:
+                bill_data = {'move_type': 'in_invoice'}
+                error_msg = str(e)
+            bill_data['l10n_pl_edi_number'] = invoice_nr
+            bills_to_create[invoice_nr] = {
+                'vals': bill_data,
+                'xml_content': response.get('xml_content'),
+                'error_msg': error_msg,
+>>>>>>> upstream/18.0
             }
 
         created_moves = self.create([bill['vals'] for bill in bills_to_create.values()])
 
         for created_move in created_moves:
+<<<<<<< HEAD
             self.env['ir.attachment'].sudo().create({
                 'description': self.env._('KSeF Fetched Invoice XML'),
                 'name': f"KSeF-{created_move.l10n_pl_edi_number.replace('/', '_')}.xml",
@@ -3918,4 +3992,23 @@ class AccountMove(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            if content := bills_to_create[created_move.l10n_pl_edi_number].get('xml_content'):
+                self.env['ir.attachment'].sudo().create({
+                    'description': self.env._('KSeF Fetched Invoice XML'),
+                    'name': f"KSeF-{created_move.l10n_pl_edi_number.replace('/', '_')}.xml",
+                    'type': 'binary',
+                    'mimetype': 'application/xml',
+                    'raw': content,
+                    'res_id': created_move.id,
+                    'res_model': created_move._name,
+                })
+
+            if error_msg := bills_to_create[created_move.l10n_pl_edi_number].get('error_msg'):
+                created_move.message_post(
+                    body=self.env._("KSeF XML failed. The bill was created empty. Reason: %s", error_msg)
+                )
+
+        return blocking_error
 >>>>>>> upstream/18.0

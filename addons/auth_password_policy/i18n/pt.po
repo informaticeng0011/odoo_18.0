@@ -124,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* auth_password_policy
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +237,10 @@
 #
 >>>>>>> upstream/18.0
 =======
+#
+>>>>>>> upstream/18.0
+=======
+# * auth_password_policy
 #
 >>>>>>> upstream/18.0
 =======
@@ -890,6 +895,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 #
@@ -974,6 +980,9 @@
 >>>>>>> upstream/18.0
 =======
 #
+>>>>>>> upstream/18.0
+=======
+# "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Pedro Silva (Exo)" <pedrocs@exo.pt>, 2026.
@@ -1503,6 +1512,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:40+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Wil Odoo, 2025\n"
@@ -1572,6 +1582,8 @@ msgstr ""
 "Last-Translator: Wil Odoo, 2025\n"
 "Language-Team: Portuguese (https://app.transifex.com/odoo/teams/41243/pt/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1946,6 +1958,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2197,6 +2212,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3025,6 +3041,11 @@ msgstr ""
 "((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : "
+"((n != 0 && n % 1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: auth_password_policy
 #: model:ir.model,name:auth_password_policy.model_res_config_settings
@@ -3172,7 +3193,11 @@ msgid "Password"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Palavra-passe"
+=======
+msgstr "Senha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Senha"
 >>>>>>> upstream/18.0
@@ -3704,12 +3729,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Hint: to increase password strength, increase length, use multiple words, and use non-letter characters."
 msgstr ""
 "Obrigatório: %s\n"
 "\n"
 "Dica: para aumentar a segurança da senha, use várias palavras e carateres que não sejam letras."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4170,6 +4198,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4610,6 +4641,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"A sua senha deve conter, no mínimo, %(minimal_length)d caracteres e apenas "
+"tem %(current_count)d."
+>>>>>>> upstream/18.0
 =======
 "A sua senha deve conter, no mínimo, %(minimal_length)d caracteres e apenas "
 "tem %(current_count)d."

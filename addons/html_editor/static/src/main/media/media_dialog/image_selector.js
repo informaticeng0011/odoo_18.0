@@ -220,7 +220,11 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static mediaSpecificStyles = [];
+=======
+    static mediaSpecificStyles = ["transform", "width"];
+>>>>>>> upstream/18.0
 =======
     static mediaSpecificStyles = ["transform", "width"];
 >>>>>>> upstream/18.0
@@ -781,6 +785,10 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.isProcessingClick = false;
+>>>>>>> upstream/18.0
 =======
         this.isProcessingClick = false;
 >>>>>>> upstream/18.0
@@ -1147,9 +1155,12 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domain.push("|", ["url", "=", false],
                 "!", "|", ["url", "=ilike", "/html_editor/shape/%"], ["url", "=ilike", "/web_editor/shape/%"],
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2051,6 +2062,9 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2818,7 +2832,10 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2847,6 +2864,9 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2877,7 +2897,10 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2907,6 +2930,9 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2959,6 +2985,7 @@ export class ImageSelector extends FileSelector {
             .concat(savedMedia)
             .map((attachment) => {
                 // Color-customize dynamic SVGs with the theme colors
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3859,6 +3886,8 @@ export class ImageSelector extends FileSelector {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 if (
                     attachment.image_src &&
                     (attachment.image_src.startsWith("/html_editor/shape/") ||
@@ -4162,6 +4191,9 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5091,6 +5123,10 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                imageEl.dataset.attachmentId = attachment.id;
+>>>>>>> upstream/18.0
 =======
                 imageEl.dataset.attachmentId = attachment.id;
 >>>>>>> upstream/18.0
@@ -6283,7 +6319,11 @@ export class ImageSelector extends FileSelector {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (response.headers.get("content-type") === "image/svg+xml") {
+=======
+            if (response.headers.get("content-type").startsWith("image/svg+xml")) {
+>>>>>>> upstream/18.0
 =======
             if (response.headers.get("content-type").startsWith("image/svg+xml")) {
 >>>>>>> upstream/18.0

@@ -103,6 +103,11 @@ import base64
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import timedelta
+
+>>>>>>> upstream/18.0
 =======
 from datetime import timedelta
 
@@ -630,6 +635,10 @@ from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.addons.base.tests.test_ir_cron import CronMixinCase
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.base.tests.test_ir_cron import CronMixinCase
 >>>>>>> upstream/18.0
@@ -1054,7 +1063,11 @@ def attachment_to_dict(attachment):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TestL10nPlEdi(AccountTestInvoicingCommon):
+=======
+class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
+>>>>>>> upstream/18.0
 =======
 class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 >>>>>>> upstream/18.0
@@ -1460,6 +1473,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'ref': '12345',
+>>>>>>> upstream/18.0
 =======
             'ref': '12345',
 >>>>>>> upstream/18.0
@@ -1578,7 +1595,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1715,6 +1735,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1819,7 +1842,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1858,6 +1884,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2148,7 +2177,12 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id
+=======
+            'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'bank_id': self.env['res.bank'].create({'name': 'Test Bank PL'}).id,
             'allow_out_payment': True,
@@ -2750,7 +2784,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2956,6 +2993,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3278,7 +3318,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3560,7 +3603,11 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(created_move.partner_id.vat, '7492091229')
+=======
+        self.assertEqual(created_move.partner_id.vat, 'PL7492091229')
+>>>>>>> upstream/18.0
 =======
         self.assertEqual(created_move.partner_id.vat, 'PL7492091229')
 >>>>>>> upstream/18.0
@@ -3748,7 +3795,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3868,6 +3918,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4049,6 +4102,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        start = fields.Datetime.now()
+>>>>>>> upstream/18.0
 =======
         start = fields.Datetime.now()
 >>>>>>> upstream/18.0
@@ -4334,7 +4391,10 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4453,6 +4513,9 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4533,6 +4596,7 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
         self.assertFalse(bill_2)
 
         self.assertEqual(len(capt.records), cron_runs_before + 1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4916,6 +4980,8 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertGreaterEqual(capt.records[-1].call_at, start + timedelta(seconds=120))
         self.assertLessEqual(capt.records[-1].call_at, start + timedelta(seconds=240))
 
@@ -4982,6 +5048,7 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4998,6 +5065,8 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5119,6 +5188,7 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5155,6 +5225,8 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5217,6 +5289,7 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5249,6 +5322,8 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_import_invoice_discount_is_correctly_set(self):
         self._assert_import_invoice('invoice_with_discount.xml', [
@@ -5261,4 +5336,48 @@ class TestL10nPlEdi(AccountTestInvoicingCommon, CronMixinCase):
                 "price_subtotal": 1064.7
             }
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
+
+    def test_cron_creates_empty_move_on_parsing_error(self):
+        """ Create empty journal entry for malformed XML """
+
+        def query_invoice_metadata(query_criteria, page_size=100, page_offset=0):
+            return {
+                'hasMore': False,
+                'invoices': [
+                    {
+                        'ksefNumber': 'GOOD'
+                    },
+                    {
+                        'ksefNumber': 'BAD'
+                    },
+                ],
+            }
+
+        def get_invoice_by_ksef_number(ksef_number):
+            return {'xml_content': b'<bad/>' if ksef_number == 'BAD' else b'<good/>'}
+
+        def mock_parse(self_obj, xml):
+            if xml == b'<bad/>':
+                raise UserError("Simulated error")
+            return {
+                'move_type': 'in_invoice',
+                'invoice_line_ids': [Command.create({'name': 'Test Line', 'price_unit': 100.0})],
+            }
+        with (
+            patch.object(KsefApiService, 'query_invoice_metadata', side_effect=query_invoice_metadata),
+            patch.object(KsefApiService, 'get_invoice_by_ksef_number', side_effect=get_invoice_by_ksef_number),
+            patch('odoo.addons.l10n_pl_edi.models.account_move.AccountMove.l10n_pl_edi_get_ksef_bill_vals_from_xml', mock_parse)
+        ):
+            self.env['account.move'].with_company(self.company)._l10n_pl_edi_download_bills_from_ksef()
+
+        bad_invoice = self.env['account.move'].search([('l10n_pl_edi_number', '=', 'BAD')])
+        good_invoice = self.env['account.move'].search([('l10n_pl_edi_number', '=', 'GOOD')])
+
+        self.assertTrue(good_invoice, "Good invoice should be created")
+        self.assertTrue(bad_invoice, "Bad invoice should be created as empty fallback")
+        self.assertFalse(bad_invoice.invoice_line_ids, "Bad invoice should have no lines")
+        self.assertTrue(any("Simulated error" in body for body in bad_invoice.message_ids.mapped('body')))
 >>>>>>> upstream/18.0

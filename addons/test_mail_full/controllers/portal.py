@@ -295,8 +295,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -907,6 +910,7 @@ class PortalTest(http.Controller):
         record = request.env["mail.test.portal"]._get_thread_with_access(res_id, **kwargs)
         values = {
             "object": record,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1801,6 +1805,8 @@ class PortalTest(http.Controller):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "token": kwargs.get("token"),
             "hash": kwargs.get("hash"),
             "pid": kwargs.get("pid"),
@@ -1953,7 +1959,11 @@ class PortalTest(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "display_rating": True,
+=======
+            "display_rating": kwargs.get("display_rating"),
+>>>>>>> upstream/18.0
 =======
             "display_rating": kwargs.get("display_rating"),
 >>>>>>> upstream/18.0
@@ -2651,6 +2661,9 @@ class PortalTest(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3482,6 +3495,9 @@ class PortalTest(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

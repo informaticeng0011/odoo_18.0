@@ -11,8 +11,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['date'],
@@ -45,8 +49,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -79,8 +87,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -113,8 +125,12 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -146,10 +162,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -187,10 +208,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -228,10 +254,15 @@ PEPPOL_COMMON_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'date',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['date'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -274,8 +305,12 @@ PEPPOL_INVOICE_OPTIONAL_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         'supported_types': ['char', 'text'],
@@ -314,10 +349,15 @@ PEPPOL_COMMON_OPTIONAL_LINE_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         },
@@ -355,10 +395,15 @@ PEPPOL_COMMON_OPTIONAL_LINE_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }
 =======
         },
         'type': 'char',
+>>>>>>> upstream/18.0
+=======
+        },
+        'supported_types': ['char', 'text'],
 >>>>>>> upstream/18.0
 =======
         },

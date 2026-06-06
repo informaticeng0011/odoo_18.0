@@ -172,6 +172,10 @@ class TestItEdi(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -610,7 +614,11 @@ class TestItEdi(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _assert_import_invoice(self, filename, expected_values_list, xml_to_apply=None):
+=======
+    def _assert_import_invoice(self, filename, expected_values_list, xml_to_apply=None, move_type="in_invoice"):
+>>>>>>> upstream/18.0
 =======
     def _assert_import_invoice(self, filename, expected_values_list, xml_to_apply=None, move_type="in_invoice"):
 >>>>>>> upstream/18.0
@@ -726,8 +734,11 @@ class TestItEdi(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         purchase_journal = self.company_data_2['default_journal_purchase'].with_context(default_move_type='in_invoice')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -803,6 +814,9 @@ class TestItEdi(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -21,6 +21,10 @@ from cryptography.hazmat.primitives.asymmetric.utils import decode_dss_signature
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from contextlib import suppress
+>>>>>>> upstream/18.0
 =======
 from contextlib import suppress
 >>>>>>> upstream/18.0
@@ -132,6 +136,7 @@ class XadesSigner:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         xml_to_sign_str = f'<AuthTokenRequest xmlns="http://ksef.mf.gov.pl/auth/token/2.0"><Challenge>{challenge_code}</Challenge><ContextIdentifier><Nip>{nip}</Nip></ContextIdentifier><SubjectIdentifierType>certificateSubject</SubjectIdentifierType></AuthTokenRequest>'
 =======
 =======
@@ -191,6 +196,8 @@ class XadesSigner:
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         subject_str = ""
         with suppress(Exception):
             subject_str = self.cert.subject.rfc4514_string()
@@ -207,6 +214,9 @@ class XadesSigner:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

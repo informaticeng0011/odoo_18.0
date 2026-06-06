@@ -336,6 +336,7 @@ class LoyaltyProgram(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'date_to', 'limit_usage', 'max_usage', 'is_nominative', 'portal_visible',
             'portal_point_name', 'trigger_product_ids', 'rule_ids', 'reward_ids'
 =======
@@ -525,6 +526,8 @@ class LoyaltyProgram(models.Model):
         ]
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1333,6 +1336,9 @@ class LoyaltyProgram(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

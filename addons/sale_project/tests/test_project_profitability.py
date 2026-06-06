@@ -1161,7 +1161,10 @@ class TestSaleProjectProfitability(TestProjectProfitabilityCommon, TestSaleCommo
             },
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_bills_without_purchase_order_and_negative_amls(self):
         downpayment_invoice = self.env['account.move'].create({
@@ -1217,4 +1220,7 @@ class TestSaleProjectProfitability(TestProjectProfitabilityCommon, TestSaleCommo
             },
             'Bill lines with a negative subtotal should count toward purchase costs'
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

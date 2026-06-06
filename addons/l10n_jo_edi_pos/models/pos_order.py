@@ -113,6 +113,7 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _get_order_scope_code(self):
         return '0'
 
@@ -148,6 +149,8 @@ class PosOrder(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -350,6 +353,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -566,6 +572,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -833,9 +842,12 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if len(self.payment_ids.payment_method_id.mapped('l10n_jo_edi_pos_is_cash')) > 1:
             error_msgs.append(self.env._("Please select the payment methods that are consistent with the value set in 'JoFotara Cash'. If set, the payment method is Cash. If empty, then it is Receivable."))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1069,6 +1081,9 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1382,7 +1397,11 @@ class PosOrder(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'ref': self.l10n_jo_edi_pos_return_reason,
+=======
+            'ref': self.l10n_jo_edi_pos_return_reason or vals.get('ref', False),
+>>>>>>> upstream/18.0
 =======
             'ref': self.l10n_jo_edi_pos_return_reason or vals.get('ref', False),
 >>>>>>> upstream/18.0

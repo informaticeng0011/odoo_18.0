@@ -17,6 +17,13 @@
 .o-FileViewer-main {
     z-index: -1;
     padding: ($o-navbar-height * 1.125) 0;
+<<<<<<< HEAD
+=======
+
+    &:has(.o-FileViewer-loading) {
+        cursor: wait;
+    }
+>>>>>>> upstream/18.0
 }
 
 .o-FileViewer-zoomer {
@@ -44,5 +51,14 @@
 
     &.o-isText {
         background: $white;
+<<<<<<< HEAD
+=======
+
+        &.o-FileViewer-loading {
+            background: $black;
+            opacity: 50%;
+            pointer-events: none;
+        }
+>>>>>>> upstream/18.0
     }
 }

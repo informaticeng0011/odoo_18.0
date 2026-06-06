@@ -4,8 +4,14 @@
 import random
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+=======
+from datetime import datetime, timedelta
+from dateutil.relativedelta import relativedelta
+from freezegun import freeze_time
+>>>>>>> upstream/18.0
 =======
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
@@ -710,7 +716,10 @@ class TestLeadAssign(TestLeadAssignCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1448,6 +1457,9 @@ class TestLeadAssign(TestLeadAssignCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1997,7 +2009,10 @@ class TestLeadAssign(TestLeadAssignCommon):
         self.assertFalse(members_data,
             "If team member has lead count greater than max assign,then do not assign any more")
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_assign_fairness_member_order_bias(self):
         """Make sure leads are distributed fairly across team members when all else is equal."""
@@ -2047,4 +2062,7 @@ class TestLeadAssign(TestLeadAssignCommon):
 
         self.assertEqual(senior_leads, 11)
         self.assertEqual(junior_leads, 19)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

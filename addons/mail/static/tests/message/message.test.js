@@ -964,7 +964,11 @@ test("Reaction summary", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test("Add the same reaction twice from the emoji picker", async () => {
+=======
+test("Select already reacted emoji from the emoji picker keeps the reaction on message", async () => {
+>>>>>>> upstream/18.0
 =======
 test("Select already reacted emoji from the emoji picker keeps the reaction on message", async () => {
 >>>>>>> upstream/18.0
@@ -2063,10 +2067,13 @@ test("Select already reacted emoji from the emoji picker keeps the reaction on m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-Emoji", { text: "😅" });
     await click("[title='Add a Reaction']");
     await click(".o-Emoji", { text: "😅" });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2885,6 +2892,9 @@ test("Select already reacted emoji from the emoji picker keeps the reaction on m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3791,7 +3801,11 @@ test('Quick edit (edit from Composer with ArrowUp) ignores empty ("deleted") mes
     await contains(".o-mail-Message .o-mail-Composer-input", { value: "not empty" });
 });
 
+<<<<<<< HEAD
 test("Editing a message to clear its composer opens message delete dialog.", async () => {
+=======
+test("Can delete a message", async () => {
+>>>>>>> upstream/18.0
     const pyEnv = await startServer();
     const channelId = pyEnv["discuss.channel"].create({
         name: "general",
@@ -3801,16 +3815,29 @@ test("Editing a message to clear its composer opens message delete dialog.", asy
         author_id: serverState.partnerId,
         body: "not empty",
         model: "discuss.channel",
+<<<<<<< HEAD
+=======
+        subject: "Hello, wanderer",
+>>>>>>> upstream/18.0
         res_id: channelId,
         message_type: "comment",
     });
     await start();
     await openDiscuss(channelId);
+<<<<<<< HEAD
+=======
+    await contains(".o-mail-Message");
+>>>>>>> upstream/18.0
     await click(".o-mail-Message [title='Expand']");
     await click(".o-mail-Message-moreMenu [title='Edit']");
     await insertText(".o-mail-Message.o-editing .o-mail-Composer-input", "", { replace: true });
     triggerHotkey("Enter");
     await contains(".modal-body p", { text: "Are you sure you want to delete this message?" });
+<<<<<<< HEAD
+=======
+    await click("button:text('Confirm')");
+    await contains(".o-mail-Message", { count: 0 });
+>>>>>>> upstream/18.0
 });
 
 test("Clear message body should not open message delete dialog if it has attachments", async () => {
@@ -4220,9 +4247,14 @@ test("Toggle star should update starred counter on all tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click(".o-mail-Message [title='Mark as Todo']", { target: env1 });
     await contains("button", {
         target: env2,
+=======
+    await click(`${env1.selector} .o-mail-Message [title='Mark as Todo']`);
+    await contains(`${env2.selector} button`, {
+>>>>>>> upstream/18.0
 =======
     await click(`${env1.selector} .o-mail-Message [title='Mark as Todo']`);
     await contains(`${env2.selector} button`, {
