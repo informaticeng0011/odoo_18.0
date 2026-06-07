@@ -152,7 +152,10 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -601,6 +604,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -900,6 +906,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
         """ Make sure that the base line delta is dispatched evenly on base lines.
         Needed for BIS3 rule PEPPOL-EN16931-R120.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2078,6 +2085,11 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
         document = self.populate_document(self.init_document(
             lines=[
 >>>>>>> upstream/18.0
+=======
+        tax_21 = self.percent_tax(21.0)
+        document = self.populate_document(self.init_document(
+            lines=[
+>>>>>>> upstream/18.0
                 {'price_unit': 10.04, 'discount': 10, 'tax_ids': tax_21},
             ] + [
                 {'price_unit': 1.04, 'discount': 10, 'tax_ids': tax_21},
@@ -2094,6 +2106,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
             'taxes_data': [
                 {
                     'tax_id': tax_21.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2625,6 +2638,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     'tax_amount': 1.8699999999999999,
                     'tax_amount_currency': 1.8699999999999999,
                     'base_amount': 9.01,
@@ -2804,6 +2819,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3180,6 +3198,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
             'base_lines_tax_details': [
                 {
                     **line_1_expected_values,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3881,6 +3900,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     'delta_total_excluded': -0.03,
                     'delta_total_excluded_currency': -0.03,
                 },
@@ -4061,6 +4082,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4424,6 +4448,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
                         }
                     ],
                 },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5629,6 +5654,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 =======
                 line_2_expected_values,
 >>>>>>> upstream/18.0
+=======
+                line_2_expected_values,
+>>>>>>> upstream/18.0
                 line_2_expected_values,
                 line_2_expected_values,
                 line_2_expected_values,
@@ -5638,6 +5666,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
                 line_2_expected_values,
                 line_2_expected_values,
             ]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6043,6 +6072,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 
         self.assert_base_lines_tax_details(document, expected_values)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6554,6 +6585,7 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6830,6 +6862,8 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6886,6 +6920,9 @@ class TestTaxesBaseLinesTaxDetails(TestTaxCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

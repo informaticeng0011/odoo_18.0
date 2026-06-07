@@ -291,7 +291,11 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'displayDescription': False,
+=======
+            'displayDescription': True,
+>>>>>>> upstream/18.0
 =======
             'displayDescription': True,
 >>>>>>> upstream/18.0
@@ -1410,8 +1414,12 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @http.route(['/event/<model("event.event"):event>/registration/new'], type='json', auth="public", methods=['POST'], website=True)
     def registration_new(self, event, **post):
+=======
+    def _prepare_registration_new_values(self, event, **post):
+>>>>>>> upstream/18.0
 =======
     def _prepare_registration_new_values(self, event, **post):
 >>>>>>> upstream/18.0
@@ -1957,7 +1965,12 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.env['ir.ui.view']._render_template("website_event.registration_attendee_details", {
+=======
+
+        return {
+>>>>>>> upstream/18.0
 =======
 
         return {
@@ -2612,8 +2625,11 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2978,6 +2994,7 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.env['ir.ui.view']._render_template("website_event.registration_attendee_details", values)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3063,6 +3080,11 @@ class WebsiteEventController(http.Controller):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        if not values:
+            return values
+        return request.env['ir.ui.view']._render_template("website_event.registration_attendee_details", values)
 >>>>>>> upstream/18.0
 =======
         if not values:
@@ -3708,8 +3730,11 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 registrations.setdefault(registration_index, dict())[field_name] = int(value) or False
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4029,6 +4054,9 @@ class WebsiteEventController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

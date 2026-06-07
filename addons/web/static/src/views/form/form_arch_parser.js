@@ -328,8 +328,11 @@ export class FormArchParser {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         let autofocusFieldId = null;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1276,6 +1279,9 @@ export class FormArchParser {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2231,6 +2237,10 @@ export class FormArchParser {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    autofocusFieldIds.push(fieldId);
+>>>>>>> upstream/18.0
 =======
                     autofocusFieldIds.push(fieldId);
 >>>>>>> upstream/18.0
@@ -3506,6 +3516,10 @@ export class FormArchParser {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            autofocusFieldIds,
+>>>>>>> upstream/18.0
 =======
             autofocusFieldIds,
 >>>>>>> upstream/18.0

@@ -2,6 +2,7 @@
 
 from ast import literal_eval
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1369,11 +1370,16 @@ from odoo.exceptions import ValidationError
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from collections import defaultdict
 from lxml import html
 
 from odoo import SUPERUSER_ID, api, fields, models
 from odoo.exceptions import ValidationError
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.http import request
 from odoo.osv import expression
@@ -1519,6 +1525,7 @@ class website_form_model_fields(models.Model):
         self._cr.execute('ALTER TABLE ir_model_fields '
                          ' ALTER COLUMN website_form_blacklisted SET DEFAULT true')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3156,6 +3163,8 @@ class website_form_model_fields(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
     @api.ondelete(at_uninstall=False)
     def _check_if_used_in_website_form(self):
         """Prevent field deletion if used in a website form."""
@@ -3203,6 +3212,9 @@ class website_form_model_fields(models.Model):
             for record in records:
                 _check(record[field_name], record.display_name)
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     @api.model
     def formbuilder_whitelist(self, model, fields):

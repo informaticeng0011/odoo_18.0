@@ -159,6 +159,7 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'pint_jp': 'urn:peppol:pint:billing-1@jp-1',
             'pint_sg': 'urn:peppol:pint:billing-1@sg-1',
             'pint_my': 'urn:peppol:pint:billing-1@my-1',
@@ -1168,6 +1169,10 @@ class AccountEdiXmlUBL21(models.AbstractModel):
             'oioubl_21': 'OIOUBL-2.1',
             'ubl_21_fr': 'urn:cen.eu:en16931:2017#compliant#urn:peppol:france:billing:cius:1.0',
 >>>>>>> upstream/18.0
+=======
+            'oioubl_21': 'OIOUBL-2.1',
+            'ubl_21_fr': 'urn:cen.eu:en16931:2017#compliant#urn:peppol:france:billing:cius:1.0',
+>>>>>>> upstream/18.0
         }
 
     def _get_selfbilling_customization_ids(self):
@@ -1315,6 +1320,9 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1940,6 +1948,9 @@ class AccountEdiXmlUBL21(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

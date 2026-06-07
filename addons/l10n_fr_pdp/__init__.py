@@ -1,6 +1,10 @@
 from odoo.tools.sql import column_exists, create_column
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import controllers
+>>>>>>> upstream/18.0
 =======
 from . import controllers
 >>>>>>> upstream/18.0
@@ -32,7 +36,10 @@ def _post_init_pdp(env):
         view.reset_arch(mode="hard")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     demo_company_partner = env.ref('base.partner_demo_company_fr', raise_if_not_found=False)
     if demo_company_partner and demo_company_partner not in demo_company_partner._get_partners_to_skip_peppol_computation():
         demo_company_partner.peppol_eas = False
@@ -40,6 +47,9 @@ def _post_init_pdp(env):
         demo_company_partner._compute_peppol_eas()
         demo_company_partner._compute_peppol_endpoint()
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
 def uninstall_hook(env):

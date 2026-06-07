@@ -39,6 +39,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import logging
+>>>>>>> upstream/18.0
 =======
 import logging
 >>>>>>> upstream/18.0
@@ -221,11 +225,14 @@ def qunit_error_checker(message):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def _get_filters(test_params):
     filters = []
     for sign, param in test_params:
         parts = param.split(',')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -344,6 +351,9 @@ def _get_filters(test_params, hoot=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -476,7 +486,11 @@ class QunitCommon(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         filters = _get_filters(test_params)
+=======
+        filters = _get_filters(test_params, hoot=False)
+>>>>>>> upstream/18.0
 =======
         filters = _get_filters(test_params, hoot=False)
 >>>>>>> upstream/18.0
@@ -653,6 +667,7 @@ class HOOTCommon(odoo.tests.HttpCase):
             h = self._generate_hash(f)
             if sign == '-':
                 h = f'-{h}'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1913,6 +1928,8 @@ class HOOTCommon(odoo.tests.HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             # Since we don't know if the descriptor we have is a test or a suite, we need to provide the hash for a generic "job"
             filter += f'&id={h}'
         return filter
@@ -1965,11 +1982,14 @@ class HOOTCommon(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     result['params'] = test
         return result
 
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2085,6 +2105,9 @@ class HOOTCommon(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2168,6 +2191,7 @@ class HOOTCommon(odoo.tests.HttpCase):
     def test_get_hoot_filter(self):
         self._test_params = []
         self.assertEqual(self.get_hoot_filters(), '')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3237,11 +3261,15 @@ class HOOTCommon(odoo.tests.HttpCase):
 =======
         expected = '&id=e39ce9ba&id=-69a6561d'
 >>>>>>> upstream/18.0
+=======
+        expected = '&id=e39ce9ba&id=-69a6561d'
+>>>>>>> upstream/18.0
         self._test_params = [('+', '@web/core,-@web/core/autocomplete')]
         self.assertEqual(self.get_hoot_filters(), expected)
         self._test_params = [('+', '@web/core'), ('-', '@web/core/autocomplete')]
         self.assertEqual(self.get_hoot_filters(), expected)
         self._test_params = [('+', '-@web/core/autocomplete,-@web/core/autocomplete2')]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4732,6 +4760,8 @@ class HOOTCommon(odoo.tests.HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(self.get_hoot_filters(), '&id=-69a6561d&id=-cb246db5')
         self._test_params = [('-', '-@web/core/autocomplete,-@web/core/autocomplete2')]
         self.assertEqual(self.get_hoot_filters(), '&id=69a6561d&id=cb246db5')
@@ -4797,6 +4827,9 @@ class HOOTCommon(odoo.tests.HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5146,7 +5179,11 @@ class WebSuite(QunitCommon, HOOTCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=desktop&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] test suite succeeded", error_checker=unit_test_error_checker)
+=======
+        self.browser_js(f'/web/tests?headless&loglevel=2&preset=desktop&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
+>>>>>>> upstream/18.0
 =======
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=desktop&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
 >>>>>>> upstream/18.0
@@ -6219,7 +6256,11 @@ class WebSuite(QunitCommon, HOOTCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browser_js(f'/web/static/lib/hoot/tests/index.html?headless&loglevel=2{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] test suite succeeded", error_checker=unit_test_error_checker)
+=======
+        self.browser_js(f'/web/static/lib/hoot/tests/index.html?headless&loglevel=2{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
+>>>>>>> upstream/18.0
 =======
         self.browser_js(f'/web/static/lib/hoot/tests/index.html?headless&loglevel=2{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
 >>>>>>> upstream/18.0
@@ -7346,7 +7387,11 @@ class MobileWebSuite(QunitCommon, HOOTCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=mobile&tag=-headless&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] test suite succeeded", error_checker=unit_test_error_checker)
+=======
+        self.browser_js(f'/web/tests?headless&loglevel=2&preset=mobile&tag=-headless&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
+>>>>>>> upstream/18.0
 =======
         self.browser_js(f'/web/tests?headless&loglevel=2&preset=mobile&tag=-headless&timeout=15000{self.hoot_filters}', "", "", login='admin', timeout=1800, success_signal="[HOOT] Test suite succeeded", error_checker=unit_test_error_checker)
 >>>>>>> upstream/18.0

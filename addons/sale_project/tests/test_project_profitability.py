@@ -1162,7 +1162,10 @@ class TestSaleProjectProfitability(TestProjectProfitabilityCommon, TestSaleCommo
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -1221,6 +1224,9 @@ class TestSaleProjectProfitability(TestProjectProfitabilityCommon, TestSaleCommo
             'Bill lines with a negative subtotal should count toward purchase costs'
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

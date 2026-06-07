@@ -298,7 +298,12 @@ class AccountPaymentMethodLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         """ Automatically toggle the account to reconcile if allowed.
+=======
+        """This method is deprecated and will be removed.
+        Automatically toggle the account to reconcile if allowed.
+>>>>>>> upstream/18.0
 =======
         """This method is deprecated and will be removed.
         Automatically toggle the account to reconcile if allowed.
@@ -975,6 +980,7 @@ class AccountPaymentMethodLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @api.model_create_multi
     def create(self, vals_list):
@@ -989,6 +995,8 @@ class AccountPaymentMethodLine(models.Model):
         if vals.get('payment_account_id'):
             self._auto_toggle_account_to_reconcile(vals['payment_account_id'])
         return super().write(vals)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

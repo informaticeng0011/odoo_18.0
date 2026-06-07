@@ -110,9 +110,13 @@ import { tick } from "@odoo/hoot-mock";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { EventBus } from "@odoo/owl";
 import { Command, patchWithCleanup, withUser } from "@web/../tests/web_test_helpers";
 import { browser } from "@web/core/browser/browser";
+=======
+import { Command, withUser } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { Command, withUser } from "@web/../tests/web_test_helpers";
 >>>>>>> upstream/18.0
@@ -586,9 +590,12 @@ test("open channel in discuss from push notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(window.navigator, {
         serviceWorker: Object.assign(new EventBus(), { register: () => Promise.resolve() }),
     });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -897,7 +904,11 @@ test("open channel in discuss from push notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     browser.navigator.serviceWorker.dispatchEvent(
+=======
+    navigator.serviceWorker.dispatchEvent(
+>>>>>>> upstream/18.0
 =======
     navigator.serviceWorker.dispatchEvent(
 >>>>>>> upstream/18.0

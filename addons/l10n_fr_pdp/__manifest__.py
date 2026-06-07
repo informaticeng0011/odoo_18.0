@@ -29,9 +29,12 @@
         'wizard/pdp_response_wizard_views.xml',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     'demo': [
         'demo/demo.xml',
     ],
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
     'license': 'LGPL-3',

@@ -247,6 +247,7 @@ patch(Navbar.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -912,6 +913,8 @@ patch(Navbar.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     get showBackend() {
         const cashier = this.pos.get_cashier_user_id();
         return !this.pos.config.module_pos_hr || (cashier && cashier.id === this.pos.user?.id);
@@ -1091,6 +1094,9 @@ patch(Navbar.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

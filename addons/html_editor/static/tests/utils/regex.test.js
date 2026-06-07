@@ -16,7 +16,11 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { URL_REGEX } from "@html_editor/utils/regex";
+=======
+import { URL_REGEX } from "../../src/main/link/utils";
+>>>>>>> upstream/18.0
 =======
 import { URL_REGEX } from "../../src/main/link/utils";
 >>>>>>> upstream/18.0
@@ -191,7 +195,10 @@ testUrlRegex("http://google.com/#test");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -245,6 +252,9 @@ testUrlRegex("https://x.com/test/status/123");
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

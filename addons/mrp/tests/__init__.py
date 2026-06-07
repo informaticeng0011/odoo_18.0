@@ -135,6 +135,7 @@ from . import test_workcenter
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_mrp_reports
 >>>>>>> upstream/18.0
@@ -410,6 +411,10 @@ from . import test_mrp_reports
 >>>>>>> upstream/18.0
 =======
 from . import test_mrp_reports
+>>>>>>> upstream/18.0
+=======
+from . import test_mrp_reports
+from . import test_mrp_product_qty
 >>>>>>> upstream/18.0
 =======
 from . import test_mrp_reports

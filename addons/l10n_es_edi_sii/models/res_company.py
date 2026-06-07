@@ -26,6 +26,10 @@ class ResCompany(models.Model):
             ('bizkaia', "Hacienda Foral de Bizkaia"),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ('navarra', "Hacienda Foral de Navarra"),
+>>>>>>> upstream/18.0
 =======
             ('navarra', "Hacienda Foral de Navarra"),
 >>>>>>> upstream/18.0

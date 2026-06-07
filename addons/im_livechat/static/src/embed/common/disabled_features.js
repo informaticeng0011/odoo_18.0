@@ -245,7 +245,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { threadActionsRegistry } from "@mail/core/common/thread_actions";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -999,6 +1002,7 @@ patch(Thread.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const allowedThreadActions = new Set(["fold-chat-window", "close", "restart", "settings"]);
 for (const [actionName] of threadActionsRegistry.getEntries()) {
@@ -1011,6 +1015,8 @@ threadActionsRegistry.addEventListener("UPDATE", ({ detail: { operation, key } }
         threadActionsRegistry.remove(key);
     }
 });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

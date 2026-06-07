@@ -54,6 +54,10 @@ export class FileViewer extends Component {
             scale: 1,
             angle: 0,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            isIframeLoaded: false,
+>>>>>>> upstream/18.0
 =======
             isIframeLoaded: false,
 >>>>>>> upstream/18.0
@@ -66,7 +70,10 @@ export class FileViewer extends Component {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
     onIframeLoaded(ev) {
         const iFrameEl = ev.target;
         iFrameEl.contentWindow.requestAnimationFrame(() => {
@@ -74,6 +81,9 @@ export class FileViewer extends Component {
         });
     }
 
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
     close() {
         this.props.close && this.props.close();

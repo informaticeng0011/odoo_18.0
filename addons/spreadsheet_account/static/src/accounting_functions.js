@@ -143,6 +143,7 @@ export function parseAccountingDate(dateRange, locale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const YEAR_OFFSET_ARG = arg("offset (number, default=0)", _t("Offset applied to the years."))
 const COMPANY_ARG = arg("company_id (number, optional)", _t("The company to target (Advanced)."))
 const POSTED_ARG = arg(
@@ -150,6 +151,8 @@ const POSTED_ARG = arg(
     _t("Set to TRUE to include unposted entries.")
 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -162,6 +165,9 @@ const POSTED_ARG = arg(
 );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185,7 +191,13 @@ const ODOO_RESIDUAL_ARGS = () => [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _t("The prefix of the accounts. If none provided, all receivable and payable accounts will be used.")
+=======
+        _t(
+            "The prefix of the accounts. If none provided, all receivable and payable accounts will be used."
+        )
+>>>>>>> upstream/18.0
 =======
         _t(
             "The prefix of the accounts. If none provided, all receivable and payable accounts will be used."
@@ -217,7 +229,11 @@ const ODOO_PARTNER_BALANCE_ARGS = () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> upstream/18.0
 =======
 };
 >>>>>>> upstream/18.0
@@ -249,7 +265,11 @@ functionRegistry.add("ODOO.CREDIT", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const _companyId = companyId?.value;
+=======
+        const _companyId = companyId.value === null ? null : toNumber(companyId.value, this.locale);
+>>>>>>> upstream/18.0
 =======
         const _companyId = companyId.value === null ? null : toNumber(companyId.value, this.locale);
 >>>>>>> upstream/18.0
@@ -294,7 +314,11 @@ functionRegistry.add("ODOO.DEBIT", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const _companyId = companyId?.value;
+=======
+        const _companyId = companyId.value === null ? null : toNumber(companyId.value, this.locale);
+>>>>>>> upstream/18.0
 =======
         const _companyId = companyId.value === null ? null : toNumber(companyId.value, this.locale);
 >>>>>>> upstream/18.0
@@ -339,7 +363,11 @@ functionRegistry.add("ODOO.BALANCE", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const _companyId = companyId?.value;
+=======
+        const _companyId = companyId.value === null ? null : toNumber(companyId.value, this.locale);
+>>>>>>> upstream/18.0
 =======
         const _companyId = companyId.value === null ? null : toNumber(companyId.value, this.locale);
 >>>>>>> upstream/18.0
@@ -466,8 +494,13 @@ functionRegistry.add("ODOO.RESIDUAL", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ( !dateRange?.value ) {
             dateRange = { value: new Date().getFullYear() }
+=======
+        if (!dateRange?.value) {
+            dateRange = { value: new Date().getFullYear() };
+>>>>>>> upstream/18.0
 =======
         if (!dateRange?.value) {
             dateRange = { value: new Date().getFullYear() };
@@ -498,7 +531,11 @@ functionRegistry.add("ODOO.RESIDUAL", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 })
+=======
+});
+>>>>>>> upstream/18.0
 =======
 });
 >>>>>>> upstream/18.0
@@ -535,8 +572,13 @@ functionRegistry.add("ODOO.PARTNER.BALANCE", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ( !dateRange?.value ) {
             dateRange = { value: new Date().getFullYear() }
+=======
+        if (!dateRange?.value) {
+            dateRange = { value: new Date().getFullYear() };
+>>>>>>> upstream/18.0
 =======
         if (!dateRange?.value) {
             dateRange = { value: new Date().getFullYear() };
@@ -568,7 +610,11 @@ functionRegistry.add("ODOO.PARTNER.BALANCE", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 })
+=======
+});
+>>>>>>> upstream/18.0
 =======
 });
 >>>>>>> upstream/18.0

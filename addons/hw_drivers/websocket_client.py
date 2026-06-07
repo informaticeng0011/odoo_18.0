@@ -193,6 +193,7 @@ import logging
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import pprint
 =======
 >>>>>>> upstream/18.0
@@ -611,6 +612,9 @@ import ssl
 =======
 import ssl
 >>>>>>> upstream/18.0
+=======
+import ssl
+>>>>>>> upstream/18.0
 import time
 import urllib.parse
 import urllib3
@@ -646,6 +650,10 @@ import websocket
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import certifi
+>>>>>>> upstream/18.0
 =======
 import certifi
 >>>>>>> upstream/18.0
@@ -778,6 +786,7 @@ def on_message(ws, messages):
         Synchronously handle messages received by the websocket.
     """
     messages = json.loads(messages)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1360,6 +1369,8 @@ def on_message(ws, messages):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     iot_mac = helpers.get_mac_address()
     for message in messages:
         message_type = message['message']['type']
@@ -1556,6 +1567,9 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1947,6 +1961,7 @@ def on_message(ws, messages):
                 for device in payload['iotDevice']['identifiers']:
                     device_identifier = device['identifier']
                     if device_identifier in main.iot_devices:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2537,6 +2552,8 @@ def on_message(ws, messages):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                         if main.iot_devices[device_identifier]._check_idempotency(**payload):
                             return
                         start_operation_time = time.perf_counter()
@@ -2723,6 +2740,9 @@ def on_message(ws, messages):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3093,6 +3113,7 @@ def on_message(ws, messages):
             else:
                 # likely intended as IoT share the same channel
                 _logger.debug("message ignored due to different iot mac: %s", iot_mac)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4470,6 +4491,9 @@ def on_message(ws, messages):
 =======
         elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
 >>>>>>> upstream/18.0
+=======
+        elif message_type not in ['print_confirmation', 'bundle_changed']:  # intended to be ignored
+>>>>>>> upstream/18.0
             _logger.warning("message type not supported: %s", message_type)
 
 
@@ -4546,10 +4570,13 @@ class WebsocketClient(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         while True:
             try:
                 run_res = self.ws.run_forever(reconnect=10)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4647,6 +4674,9 @@ class WebsocketClient(Thread):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

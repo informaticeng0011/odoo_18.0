@@ -310,6 +310,12 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _rpc_api_keys_only(self):
+        return self._mfa_type() == 'totp_mail' or super()._rpc_api_keys_only()
+
+>>>>>>> upstream/18.0
 =======
     def _rpc_api_keys_only(self):
         return self._mfa_type() == 'totp_mail' or super()._rpc_api_keys_only()
@@ -1668,11 +1674,17 @@ class Users(models.Model):
     def _get_totp_mail_code(self):
         self.ensure_one()
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
         assert (
             self.env.su
             or (request and not request.session.uid and request.session.get('pre_uid') == self.id)  # nosemgrep: requests-in-models
         )
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
         key = self._get_totp_mail_key()

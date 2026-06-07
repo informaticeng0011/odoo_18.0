@@ -35,14 +35,20 @@
                     </div>
                     <iframe t-if="state.file.isPdf" class="o-FileViewer-view w-75 h-100 border-0" t-ref="iframeViewerPdf" t-att-class="{ 'w-100': ui.isSmall }" t-att-src="state.file.defaultSource"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <iframe t-if="state.file.isText" class="o-FileViewer-view o-isText o_text w-75 h-100 border-0" t-att-src="state.file.defaultSource"/>
 =======
+=======
+>>>>>>> upstream/18.0
                     <iframe t-if="state.file.isText" class="o-FileViewer-view o-isText o_text w-75 h-100 border-0"
                         t-att-class="{ 'w-100': ui.isSmall, 'o-FileViewer-loading': !this.state.isIframeLoaded }"
                         t-att-src="state.file.defaultSource"
                         t-on-load="this.onIframeLoaded"
                         loading="lazy"
                     />
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
                     <iframe t-if="state.file.isUrlYoutube" allow="autoplay; encrypted-media" class="o-FileViewer-view w-75 h-100 border-0" t-att-src="state.file.defaultSource" height="315" width="560"/>
                     <video t-if="state.file.isVideo" class="o-FileViewer-view w-75 h-75" t-att-class="{ 'w-100 h-100': ui.isSmall }" t-on-click.stop="" controls="controls">

@@ -617,7 +617,11 @@ class Team(models.Model):
                 not member.assignment_optout and quota_per_member.get(member, 0) > 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ).sorted(key=lambda member: quota_per_member.get(member, 0), reverse=True))
+=======
+            ).sorted(key=lambda member: (quota_per_member.get(member, 0), random.random()), reverse=True))
+>>>>>>> upstream/18.0
 =======
             ).sorted(key=lambda member: (quota_per_member.get(member, 0), random.random()), reverse=True))
 >>>>>>> upstream/18.0

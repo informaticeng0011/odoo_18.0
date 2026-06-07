@@ -1,6 +1,10 @@
 import { describe, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { mockTimeZone } from "@odoo/hoot-mock";
+>>>>>>> upstream/18.0
 =======
 import { mockTimeZone } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
@@ -34,7 +38,10 @@ test("out of office message on direct chat with out of office partner", async ()
 });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -57,6 +64,9 @@ test("out of office message with timezone", async () => {
     await openDiscuss(channelId);
     await contains(".alert", { text: "Back on Jan 3, 2023" });});
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

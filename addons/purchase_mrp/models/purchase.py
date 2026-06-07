@@ -165,7 +165,10 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -518,6 +521,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -872,6 +878,7 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 moves = line.move_ids.filtered(lambda m: m.state == 'done' and not m.scrapped)
                 order_qty = line.product_uom._compute_quantity(line.product_uom_qty, kit_bom.product_uom_id)
                 filters = {
@@ -882,6 +889,9 @@ class PurchaseOrderLine(models.Model):
                         m._is_outgoing() and m.to_refund,
                 }
                 line.qty_received = moves._compute_kit_quantities(line.product_id, order_qty, kit_bom, filters)
+=======
+                line.qty_received = line._compute_kit_quantities_from_moves(line.move_ids, kit_bom)
+>>>>>>> upstream/18.0
 =======
                 line.qty_received = line._compute_kit_quantities_from_moves(line.move_ids, kit_bom)
 >>>>>>> upstream/18.0
@@ -1450,7 +1460,10 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2076,6 +2089,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

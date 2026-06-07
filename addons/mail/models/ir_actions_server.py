@@ -561,6 +561,10 @@ class ServerActions(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            message_type = 'auto_comment' if self.state == 'mail_post' else 'notification'
+>>>>>>> upstream/18.0
 =======
             message_type = 'auto_comment' if self.state == 'mail_post' else 'notification'
 >>>>>>> upstream/18.0
@@ -1851,6 +1855,10 @@ class ServerActions(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                message_type=message_type,
+>>>>>>> upstream/18.0
 =======
                 message_type=message_type,
 >>>>>>> upstream/18.0

@@ -131,7 +131,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def _request_handler(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+=======
+        def _request_handler_1(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+>>>>>>> upstream/18.0
 =======
         def _request_handler_1(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
 >>>>>>> upstream/18.0
@@ -152,7 +156,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 mock.patch.object(requests.sessions.Session, 'send', _request_handler),
+=======
+                mock.patch.object(requests.sessions.Session, 'send', _request_handler_1),
+>>>>>>> upstream/18.0
 =======
                 mock.patch.object(requests.sessions.Session, 'send', _request_handler_1),
 >>>>>>> upstream/18.0
@@ -173,7 +181,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         def _request_handler(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+=======
+        def _request_handler_2(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
+>>>>>>> upstream/18.0
 =======
         def _request_handler_2(s: requests.Session, r: requests.PreparedRequest, /, **kwargs):
 >>>>>>> upstream/18.0
@@ -195,7 +207,11 @@ class TestL10nFrPdpPartner(TestL10nFrPdpCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 mock.patch.object(requests.sessions.Session, 'send', _request_handler),
+=======
+                mock.patch.object(requests.sessions.Session, 'send', _request_handler_2),
+>>>>>>> upstream/18.0
 =======
                 mock.patch.object(requests.sessions.Session, 'send', _request_handler_2),
 >>>>>>> upstream/18.0

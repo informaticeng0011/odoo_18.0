@@ -78,6 +78,7 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     last_page.compressContentStreams()
 >>>>>>> upstream/18.0
@@ -98,6 +99,8 @@ class IrActionsReport(models.Model):
 >>>>>>> upstream/18.0
 =======
                     last_page.compressContentStreams()
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -155,6 +158,10 @@ class IrActionsReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    output_pdf.getPage(-1).compressContentStreams()
+>>>>>>> upstream/18.0
 =======
                     output_pdf.getPage(-1).compressContentStreams()
 >>>>>>> upstream/18.0

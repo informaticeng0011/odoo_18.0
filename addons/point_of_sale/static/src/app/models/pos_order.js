@@ -360,6 +360,7 @@ import { floatIsZero, roundPrecision } from "@web/core/utils/numbers";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import { roundCurrency } from "@point_of_sale/app/models/utils/currency";
 >>>>>>> upstream/18.0
@@ -1763,6 +1764,8 @@ const formatCurrency = registry.subRegistries.formatters.content.monetary[1];
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { formatCurrency, roundCurrency } from "@point_of_sale/app/models/utils/currency";
 import { computeComboItems } from "./utils/compute_combo_items";
 import { accountTaxHelpers } from "@account/helpers/account_tax";
@@ -1887,6 +1890,9 @@ const { DateTime } = luxon;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2131,6 +2137,7 @@ export class PosOrder extends Base {
     setup(vals) {
         super.setup(vals);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3492,6 +3499,9 @@ export class PosOrder extends Base {
 =======
         if (!this.session_id?.id && (!this.finalized || typeof this.id !== "number")) {
 >>>>>>> upstream/18.0
+=======
+        if (!this.session_id?.id && (!this.finalized || typeof this.id !== "number")) {
+>>>>>>> upstream/18.0
             this.update({ session_id: this.session });
 
             if (this.state === "draft" && this.lines.length == 0 && this.payment_ids.length == 0) {
@@ -3776,6 +3786,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                  metadata: {},
+>>>>>>> upstream/18.0
 =======
                   metadata: {},
 >>>>>>> upstream/18.0
@@ -4831,7 +4845,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 displayed: true,
+=======
+                displayed: this.state !== "cancel",
+>>>>>>> upstream/18.0
 =======
                 displayed: this.state !== "cancel",
 >>>>>>> upstream/18.0
@@ -5799,7 +5817,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 locked: this.state !== "draft",
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6511,7 +6532,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6936,6 +6960,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7686,6 +7713,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        remaining = roundCurrency(remaining, this.currency);
+>>>>>>> upstream/18.0
 =======
         remaining = roundCurrency(remaining, this.currency);
 >>>>>>> upstream/18.0
@@ -8813,6 +8844,7 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const order_change = this.get_change();
 =======
         const order_change = -this.get_change();
@@ -8882,6 +8914,9 @@ export class PosOrder extends Base {
 >>>>>>> upstream/18.0
 =======
         const order_change = -this.get_change();
+>>>>>>> upstream/18.0
+=======
+        const order_change = this.get_change();
 >>>>>>> upstream/18.0
 =======
         const order_change = this.get_change();
@@ -8916,6 +8951,7 @@ export class PosOrder extends Base {
             label_discounts: _t("Discounts"),
             show_rounding: !floatIsZero(order_rounding, this.currency.decimal_places),
             order_rounding: order_rounding,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9913,6 +9949,9 @@ export class PosOrder extends Base {
 =======
             show_change: !floatIsZero(order_change, this.currency.decimal_places) && this.finalized,
 >>>>>>> upstream/18.0
+=======
+            show_change: !floatIsZero(order_change, this.currency.decimal_places) && this.finalized,
+>>>>>>> upstream/18.0
             order_change: order_change,
             paymentlines,
             amount_total: this.get_total_with_tax(),
@@ -9994,6 +10033,7 @@ export class PosOrder extends Base {
                         product_id: line.get_product().id,
                         name: line.get_full_product_name(),
                         basic_name: line.get_product().name,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11327,6 +11367,9 @@ export class PosOrder extends Base {
 =======
                         display_name: line.get_product().display_name,
 >>>>>>> upstream/18.0
+=======
+                        display_name: line.get_product().display_name,
+>>>>>>> upstream/18.0
                         note: line.getNote(),
                         quantity: line.get_quantity(),
                     };
@@ -11615,6 +11658,7 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         this.last_order_preparation_change.metadata = {
             serverDate: serializeDateTime(DateTime.now()),
@@ -11686,6 +11730,8 @@ export class PosOrder extends Base {
         };
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12446,6 +12492,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13228,6 +13277,7 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     generate_unique_id() {
         // Generates a public identification number for the order.
         // The generated number must be unique and sequential. They are made 12 digit long
@@ -13249,6 +13299,8 @@ export class PosOrder extends Base {
         );
     }
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14120,6 +14172,7 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const newPrice = line.product_id.get_price(
                 pricelist,
                 line.get_quantity(),
@@ -14127,6 +14180,8 @@ export class PosOrder extends Base {
             );
             line.set_unit_price(newPrice);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14861,6 +14916,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15361,6 +15419,7 @@ export class PosOrder extends Base {
                 }),
                 pricelist,
                 this.models["decimal.precision"].getAll(),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16442,11 +16501,14 @@ export class PosOrder extends Base {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 this.models["product.template.attribute.value"].getAllBy("id"),
                 this.config_id.currency_id
             );
         }
         const combo_children_lines = this.lines.filter(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17423,6 +17485,9 @@ export class PosOrder extends Base {
 =======
             (line) => line.price_type === "original" && line.combo_parent_id
 >>>>>>> upstream/18.0
+=======
+            (line) => line.price_type === "original" && line.combo_parent_id
+>>>>>>> upstream/18.0
         );
         combo_children_lines.forEach((line) => {
             line.set_unit_price(
@@ -17720,8 +17785,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.taxTotals.order_sign * this.taxTotals.order_total;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18044,6 +18112,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18291,6 +18362,7 @@ export class PosOrder extends Base {
                         orderLine.get_all_prices().priceWithTax;
                     if (
                         orderLine.display_discount_policy() === "without_discount" &&
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19857,6 +19929,10 @@ export class PosOrder extends Base {
                         !(orderLine.price_type === "manual") &&
                         orderLine.discount == 0
 >>>>>>> upstream/18.0
+=======
+                        !(orderLine.price_type === "manual") &&
+                        orderLine.discount == 0
+>>>>>>> upstream/18.0
                     ) {
                         sum +=
                             (orderLine.get_taxed_lst_unit_price() -
@@ -20101,7 +20177,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return -order_sign * remaining;
+=======
+        return roundPrecision(-order_sign * remaining, this.currency.rounding);
+>>>>>>> upstream/18.0
 =======
         return roundPrecision(-order_sign * remaining, this.currency.rounding);
 >>>>>>> upstream/18.0
@@ -20654,7 +20734,11 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 this.models["product.pricelist"].find(
+=======
+                this.config.available_pricelist_ids.find(
+>>>>>>> upstream/18.0
 =======
                 this.config.available_pricelist_ids.find(
 >>>>>>> upstream/18.0
@@ -21295,7 +21379,10 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22065,6 +22152,9 @@ export class PosOrder extends Base {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22605,6 +22695,7 @@ export class PosOrder extends Base {
                 imageSrc: `/web/image/product.product/${l.product_id.id}/image_128`,
             })),
             finalized: this.finalized,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23872,11 +23963,14 @@ export class PosOrder extends Base {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             amount: formatCurrency(this.get_total_with_tax() || 0, this.currency),
             paymentLines: this.payment_ids.map((pl) => ({
                 name: pl.payment_method_id.name,
                 amount: formatCurrency(pl.get_amount(), this.currency),
             })),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24174,6 +24268,11 @@ export class PosOrder extends Base {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            change: this.get_change() && formatCurrency(-this.get_change(), this.currency),
+            generalNote: this.general_note || "",
+            qrPaymentData: toRaw(this.get_selected_paymentline()?.qrPaymentData),
 >>>>>>> upstream/18.0
 =======
             change: this.get_change() && formatCurrency(-this.get_change(), this.currency),

@@ -195,8 +195,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_import
 # 
+=======
+# * base_import
+#
+>>>>>>> upstream/18.0
 =======
 # * base_import
 #
@@ -1177,6 +1182,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
@@ -1909,10 +1915,15 @@
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2954,6 +2965,11 @@ msgstr ""
 "PO-Revision-Date: 2026-01-10 09:03+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-01-10 09:03+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-18/"
 "base_import/pl/>\n"
 "Language: pl\n"
@@ -2961,6 +2977,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3985,6 +4002,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: base_import
 #. odoo-javascript
@@ -4185,7 +4207,11 @@ msgid "%(number)s file(s) selected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(number)s plik(ów) wybrano"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(number)s plik(ów) wybrano"
 >>>>>>> upstream/18.0
@@ -4977,7 +5003,11 @@ msgid "%s at multiple rows"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s w wielu rzędach"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s w wielu rzędach"
 >>>>>>> upstream/18.0
@@ -5772,6 +5802,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Znaleziono pojedynczą kolumnę w pliku, to często znaczy, że separator pliku "
+"jest nieprawidłowy."
+>>>>>>> upstream/18.0
 =======
 "Znaleziono pojedynczą kolumnę w pliku, to często znaczy, że separator pliku "
 "jest nieprawidłowy."
@@ -6766,6 +6801,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To opóźnienie jest stosowane po każdym importowaniu partii, aby uniknąć "
+"nieograniczonych wywołań"
+>>>>>>> upstream/18.0
 =======
 "To opóźnienie jest stosowane po każdym importowaniu partii, aby uniknąć "
 "nieograniczonych wywołań"
@@ -7753,6 +7793,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "limit exceeded or memory limits exceeded). Please retry in case the issue is"
 " transient. If the issue still occurs, try to split the file rather than "
 "import it at once."
@@ -7760,6 +7801,8 @@ msgstr ""
 "Podczas importu wystąpił nieznany problem (prawdopodobnie utrata połączenia,"
 " przekroczenie limitu danych lub pamięci). Spróbuj ponownie, jeśli problem "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8348,6 +8391,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8972,7 +9018,11 @@ msgid "But, you can also use .csv files"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ale możesz także użyć plików .csv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ale możesz także użyć plików .csv"
 >>>>>>> upstream/18.0
@@ -9764,7 +9814,11 @@ msgid "Click 'Resume' to proceed with the import, resuming at line %s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kliknij \"Wznów\", aby kontynuować import, wznawiając w wierszu %s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kliknij \"Wznów\", aby kontynuować import, wznawiając w wierszu %s."
 >>>>>>> upstream/18.0
@@ -10550,8 +10604,12 @@ msgid "Column %(column)s contains incorrect values (value: %(value)s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "Kolumna %(column)s zawiera nieprawidłowe wartości (wartość: %(value)s)"
+=======
+msgstr "Kolumna %(column)s zawiera nieprawidłowe wartości (wartość: %(value)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kolumna %(column)s zawiera nieprawidłowe wartości (wartość: %(value)s)"
 >>>>>>> upstream/18.0
@@ -11337,12 +11395,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Column %(column)s contains incorrect values. Error in line %(line)d: "
 "%(error)s"
 msgstr ""
 "Kolumna %(column)s zawiera nieprawidłowe wartości. Błąd w linii %(line)d: "
 "%(error)s"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11930,6 +11991,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12536,8 +12600,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
 "%(error)s"
+=======
+"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
+>>>>>>> upstream/18.0
 =======
 "Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: %(error)s"
 >>>>>>> upstream/18.0
@@ -13343,7 +13411,11 @@ msgid "Data to import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dane do importu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dane do importu"
 >>>>>>> upstream/18.0
@@ -14147,7 +14219,11 @@ msgid "Decimals Separator:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Separator liczb dziesiętnych:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Separator liczb dziesiętnych:"
 >>>>>>> upstream/18.0
@@ -14934,6 +15010,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Określa ile megabajtów może być zaimportowane w jednym zbiorowym imporcie"
+>>>>>>> upstream/18.0
 =======
 "Określa ile megabajtów może być zaimportowane w jednym zbiorowym imporcie"
 >>>>>>> upstream/18.0
@@ -15719,7 +15799,11 @@ msgid "Delay after each batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opóźnienie po każdym imporcie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opóźnienie po każdym imporcie"
 >>>>>>> upstream/18.0
@@ -16524,7 +16608,11 @@ msgid "Drop or upload a file to import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Upuść lub prześlij plik do importu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Upuść lub prześlij plik do importu"
 >>>>>>> upstream/18.0
@@ -17322,7 +17410,11 @@ msgid "Error at row %(row)s: \"%(error)s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Błąd w rzędzie %(row)s: \"%(error)s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Błąd w rzędzie %(row)s: \"%(error)s\""
 >>>>>>> upstream/18.0
@@ -18110,6 +18202,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Błąd podczas importu rekordów: Separator tekstu powinien być pojedynczym "
+"znakiem."
+>>>>>>> upstream/18.0
 =======
 "Błąd podczas importu rekordów: Separator tekstu powinien być pojedynczym "
 "znakiem."
@@ -19091,10 +19188,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "title row has %(title_row_entries)d entries while the first row has "
 "%(first_row_entries)d. You may need to change the separator character."
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19683,6 +19783,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20334,7 +20437,11 @@ msgid "Files to import"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pliki do importu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pliki do importu"
 >>>>>>> upstream/18.0
@@ -21138,8 +21245,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Found invalid image data, images should be imported as either URLs or "
 "base64-encoded data."
+=======
+"Found invalid image data, images should be imported as either URLs or base64-"
+"encoded data."
+>>>>>>> upstream/18.0
 =======
 "Found invalid image data, images should be imported as either URLs or base64-"
 "encoded data."
@@ -22164,9 +22276,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Jeśli model używa openchatter, śledzenie historii skonfiguruje subskrypcje i"
 " wyśle powiadomienia podczas importu, ale doprowadzi do wolniejszego "
 "importu."
+=======
+"Jeśli model używa openchatter, śledzenie historii skonfiguruje subskrypcje i "
+"wyśle powiadomienia podczas importu, ale doprowadzi do wolniejszego importu."
+>>>>>>> upstream/18.0
 =======
 "Jeśli model używa openchatter, śledzenie historii skonfiguruje subskrypcje i "
 "wyśle powiadomienia podczas importu, ale doprowadzi do wolniejszego importu."
@@ -23180,7 +23297,11 @@ msgid "Import preview failed due to: \""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podgląd importu nie powiódł się z powodu: \""
+>>>>>>> upstream/18.0
 =======
 msgstr "Podgląd importu nie powiódł się z powodu: \""
 >>>>>>> upstream/18.0
@@ -23981,6 +24102,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nieprawidłowy format komórki w rzędzie %(row)s, kolumna %(col)s: %"
+"(cell_value)s, z formatem: %(cell_format)s, ponieważ format (%"
+"(format_type)s) nie jest obsługiwany."
+>>>>>>> upstream/18.0
 =======
 "Nieprawidłowy format komórki w rzędzie %(row)s, kolumna %(col)s: %"
 "(cell_value)s, z formatem: %(cell_format)s, ponieważ format (%"
@@ -25157,8 +25284,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Nieprawidłowa wartość komórki w wierszu %(row)s, kolumnie %(col)s : "
 "%(cell_value)s"
+=======
+"Nieprawidłowa wartość komórki w wierszu %(row)s, kolumnie %(col)s : %"
+"(cell_value)s"
+>>>>>>> upstream/18.0
 =======
 "Nieprawidłowa wartość komórki w wierszu %(row)s, kolumnie %(col)s : %"
 "(cell_value)s"
@@ -26151,7 +26283,11 @@ msgid "Load Data File"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Załaduj plik danych"
+>>>>>>> upstream/18.0
 =======
 msgstr "Załaduj plik danych"
 >>>>>>> upstream/18.0
@@ -26949,7 +27085,11 @@ msgid "Max size per batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksymalny rozmiar partii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksymalny rozmiar partii"
 >>>>>>> upstream/18.0
@@ -27764,7 +27904,11 @@ msgid "No file selected"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie wybrano żadnego pliku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie wybrano żadnego pliku"
 >>>>>>> upstream/18.0
@@ -28550,7 +28694,11 @@ msgid "No matching records found for the following name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie znaleziono pasujących rekordów dla następującej nazwy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie znaleziono pasujących rekordów dla następującej nazwy"
 >>>>>>> upstream/18.0
@@ -29342,7 +29490,11 @@ msgid "Please upload a single file."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prześlij pojedynczy plik."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prześlij pojedynczy plik."
 >>>>>>> upstream/18.0
@@ -30128,7 +30280,11 @@ msgid "Please upload an Excel (.xls or .xlsx) or .csv file to import."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prześlij plik Excel (.xls lub .xlsx) lub .csv do importu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prześlij plik Excel (.xls lub .xlsx) lub .csv do importu."
 >>>>>>> upstream/18.0
@@ -30932,7 +31088,11 @@ msgid "Reimport"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaimportuj znowu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaimportuj znowu"
 >>>>>>> upstream/18.0
@@ -31765,7 +31925,11 @@ msgid "Set to: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ustaw na: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ustaw na: %s"
 >>>>>>> upstream/18.0
@@ -32644,7 +32808,10 @@ msgstr "Plik zostanie zaimportowany partiami"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33185,6 +33352,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wystąpił problem podczas dekodowania pliku przy użyciu kodowania „%s”.\n"
+"Kodowanie to zostało wykryte automatycznie."
+>>>>>>> upstream/18.0
 =======
 "Wystąpił problem podczas dekodowania pliku przy użyciu kodowania „%s”.\n"
 "Kodowanie to zostało wykryte automatycznie."
@@ -33923,6 +34095,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: base_import
 <<<<<<< HEAD
@@ -34071,6 +34244,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -34510,6 +34685,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35011,7 +35189,11 @@ msgid "To import multiple values, separate them by a comma."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Aby zaimportować wiele wartości, oddziel je przecinkiem."
+>>>>>>> upstream/18.0
 =======
 msgstr "Aby zaimportować wiele wartości, oddziel je przecinkiem."
 >>>>>>> upstream/18.0
@@ -35808,11 +35990,14 @@ msgstr "Śledź historię podczas importu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Unable to load \"{extension}\" file: requires Python module \"{modname}\""
 msgstr ""
 "Nie można załadować pliku \"{extension}\": wymaga modułu Pythona "
 "\"{modname}\""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -36400,6 +36585,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37004,7 +37192,11 @@ msgid "Upload Data File"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prześlij plik danych"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prześlij plik danych"
 >>>>>>> upstream/18.0
@@ -37790,7 +37982,11 @@ msgid "Upload your files"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prześlij swoje pliki"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prześlij swoje pliki"
 >>>>>>> upstream/18.0
@@ -38577,10 +38773,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "system. You can use a custom format in addition to the suggestions provided."
 " Leave empty to let Odoo guess the format (recommended)"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39170,6 +39369,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39759,12 +39961,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Use YYYY to represent the year, MM for the month and DD for the day. Include"
 " separators such as a dot, forward slash or dash. You can use a custom "
 "format in addition to the suggestions provided. Leave empty to let Odoo "
 "guess the format (recommended)"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40355,6 +40560,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
