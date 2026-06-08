@@ -108,6 +108,7 @@ from xml.dom.minidom import parseString
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from stdnum.pl.nip import compact
 
 from odoo import api, fields, models
@@ -633,6 +634,8 @@ from odoo import Command, api, fields, models
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 from dateutil.relativedelta import relativedelta
 from lxml import etree
 from stdnum.pl.nip import compact
@@ -641,6 +644,9 @@ from decimal import Decimal
 from odoo import Command, api, fields, models
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -792,7 +798,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1112,6 +1121,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1426,7 +1438,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1487,6 +1502,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1643,8 +1661,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'K_17' in tag_names:
                 return "8"
+=======
+            if 'K_15' in tag_names:
+                return "5"
+>>>>>>> upstream/18.0
 =======
             if 'K_15' in tag_names:
                 return "5"
@@ -1987,7 +2010,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'get_vat_number': compact,
+=======
+            'get_vat_number': get_vat_number,
+>>>>>>> upstream/18.0
 =======
             'get_vat_number': get_vat_number,
 >>>>>>> upstream/18.0
@@ -2338,7 +2365,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2631,6 +2661,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             lines = [
                 {
                     'name': get_value(line_node, '{*}P_7') or '/',
@@ -2642,6 +2673,8 @@ class AccountMove(models.Model):
                 for line_node in move_line_nodes
             ]
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2751,6 +2784,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if P_10 := get_value(line_node, '{*}P_10'):
+                    price_unit = float(Decimal(str(price_unit)) - Decimal(P_10))
+
+>>>>>>> upstream/18.0
 =======
                 if P_10 := get_value(line_node, '{*}P_10'):
                     price_unit = float(Decimal(str(price_unit)) - Decimal(P_10))
@@ -2819,6 +2858,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2958,7 +3000,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             partner_vat_domain_vals = (data['vendor_nip'], f"{data['vendor_country']}{data['vendor_nip']}")
+=======
+            nip = data['vendor_nip']
+            vat = f"PL{nip}"
+            partner_vat_domain_vals = (nip, vat)
+>>>>>>> upstream/18.0
 =======
             nip = data['vendor_nip']
             vat = f"PL{nip}"
@@ -3194,7 +3242,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'vat': data['vendor_nip'],
+=======
+                        'vat': vat,
+>>>>>>> upstream/18.0
 =======
                         'vat': vat,
 >>>>>>> upstream/18.0
@@ -3417,6 +3469,7 @@ class AccountMove(models.Model):
 
         to_process = [invoice_nr for invoice_nr in invoice_numbers if invoice_nr not in already_processed]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3900,6 +3953,8 @@ class AccountMove(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         bills_to_create = {}
 
         for invoice_nr in to_process:
@@ -3919,6 +3974,9 @@ class AccountMove(models.Model):
                 'xml_content': response.get('xml_content'),
                 'error_msg': error_msg,
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3927,6 +3985,7 @@ class AccountMove(models.Model):
         created_moves = self.create([bill['vals'] for bill in bills_to_create.values()])
 
         for created_move in created_moves:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             self.env['ir.attachment'].sudo().create({
@@ -4055,6 +4114,8 @@ class AccountMove(models.Model):
 =======
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if content := bills_to_create[created_move.l10n_pl_edi_number].get('xml_content'):
                 self.env['ir.attachment'].sudo().create({
                     'description': self.env._('KSeF Fetched Invoice XML'),
@@ -4073,6 +4134,9 @@ class AccountMove(models.Model):
 
         return blocking_error
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

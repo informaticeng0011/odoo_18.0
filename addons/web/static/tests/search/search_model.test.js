@@ -353,10 +353,13 @@ class Foo extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     _views = {
         search: `<search/>`,
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1337,9 +1340,12 @@ class Partner extends models.Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _views = {
         search: `<search/>`,
     };
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2395,7 +2401,11 @@ test("parsing date filter with start_month, end_month, start_year, end_year attr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <filter 
+=======
+                <filter
+>>>>>>> upstream/18.0
 =======
                 <filter
 >>>>>>> upstream/18.0

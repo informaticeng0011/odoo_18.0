@@ -1017,6 +1017,12 @@ export const htmlField = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if ('disableTransform' in options) {
+            wysiwygOptions.disableTransform = Boolean(options['disableTransform']);
+        }
+>>>>>>> upstream/18.0
 =======
         if ('disableTransform' in options) {
             wysiwygOptions.disableTransform = Boolean(options['disableTransform']);

@@ -19,6 +19,12 @@ import { usePos } from "@point_of_sale/app/store/pos_hook";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { formatDateTime } from "@web/core/l10n/dates";
+
+const { DateTime } = luxon;
+>>>>>>> upstream/18.0
 =======
 import { formatDateTime } from "@web/core/l10n/dates";
 
@@ -125,7 +131,11 @@ export async function handleSaleDetails(pos, hardwareProxy, dialog) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             date: new Date().toLocaleString(),
+=======
+            date: formatDateTime(DateTime.now()),
+>>>>>>> upstream/18.0
 =======
             date: formatDateTime(DateTime.now()),
 >>>>>>> upstream/18.0

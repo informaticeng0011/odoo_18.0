@@ -335,9 +335,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <th name="th_sm_product">Product</th>
                                 <th name="th_sm_ordered" class="text-end">Ordered</th>
                                 <th name="th_sm_quantity" class="text-end">Delivered</th>
+=======
+                                <th name="th_sm_product"><strong>Product</strong></th>
+                                <th name="th_sm_ordered" class="text-end"><strong>Ordered</strong></th>
+                                <th name="th_sm_quantity" class="text-end"><strong>Delivered</strong></th>
+>>>>>>> upstream/18.0
 =======
                                 <th name="th_sm_product"><strong>Product</strong></th>
                                 <th name="th_sm_ordered" class="text-end"><strong>Ordered</strong></th>
@@ -1835,6 +1841,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <p t-if="move.description_picking and move.description_picking != move.product_id.name and move.description_picking != move.product_id.display_name">
                                         <span t-field="move.description_picking">Description on transfer</span>
                                     </p>
@@ -2885,6 +2892,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                     <p t-if="move.description_picking and move.description_picking != move.product_id.name and move._get_report_description_picking()">
                                         <span t-out="move._get_report_description_picking()">Description on transfer</span>
                                     </p>
@@ -3010,6 +3019,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3254,6 +3266,7 @@
                                         (<span t-field="move.product_packaging_qty" t-options='{"widget": "integer"}'/> <span t-field="move.product_packaging_id"/>)
                                     </span>
                                 </td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4661,6 +4674,10 @@
                                 <td class="o_td_quantity text-end">
                                     <span t-field="move.quantity" class="text-nowrap">3.00</span>
 >>>>>>> upstream/18.0
+=======
+                                <td class="o_td_quantity text-end">
+                                    <span t-field="move.quantity" class="text-nowrap">3.00</span>
+>>>>>>> upstream/18.0
                                     <span t-field="move.product_uom" groups="uom.group_uom">units</span>
                                     <span t-if="move.product_packaging_id">
                                         (<span t-field="move.product_packaging_quantity" t-options='{"widget": "integer"}'/> <span t-field="move.product_packaging_id"/>)
@@ -4842,7 +4859,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-set="package_move_lines" t-value="o.move_line_ids.filtered(lambda l: l.result_package_id == package)"/>
+=======
+                                    <t t-set="package_move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: l.result_package_id == package)"/>
+>>>>>>> upstream/18.0
 =======
                                     <t t-set="package_move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: l.result_package_id == package)"/>
 >>>>>>> upstream/18.0
@@ -5464,8 +5485,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <t t-set="move_lines" t-value="o.move_line_ids.filtered(lambda l: not l.result_package_id)"/>
                                 <t t-set="aggregated_lines" t-value="o.move_line_ids._get_aggregated_product_quantities(except_package=True)"/>
+=======
+                                <t t-set="move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: not l.result_package_id)"/>
+                                <t t-set="aggregated_lines" t-value="o.move_ids.move_line_ids._get_aggregated_product_quantities(except_package=True)"/>
+>>>>>>> upstream/18.0
 =======
                                 <t t-set="move_lines" t-value="o.move_ids.move_line_ids.filtered(lambda l: not l.result_package_id)"/>
                                 <t t-set="aggregated_lines" t-value="o.move_ids.move_line_ids._get_aggregated_product_quantities(except_package=True)"/>
@@ -6242,7 +6268,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <tr t-foreach="o.move_line_ids" t-as="move_line">
+=======
+                                    <tr t-foreach="o.move_ids.move_line_ids" t-as="move_line">
+>>>>>>> upstream/18.0
 =======
                                     <tr t-foreach="o.move_ids.move_line_ids" t-as="move_line">
 >>>>>>> upstream/18.0
@@ -6856,7 +6886,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-set="aggregated_lines" t-value="o.move_line_ids._get_aggregated_product_quantities()"/>
+=======
+                                    <t t-set="aggregated_lines" t-value="o.move_ids.move_line_ids._get_aggregated_product_quantities()"/>
+>>>>>>> upstream/18.0
 =======
                                     <t t-set="aggregated_lines" t-value="o.move_ids.move_line_ids._get_aggregated_product_quantities()"/>
 >>>>>>> upstream/18.0
@@ -7457,8 +7491,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <p t-if="bo_line.description_picking and bo_line.description_picking != bo_line.product_id.name and bo_line.description_picking != bo_line.product_id.display_name">
                                             <span t-field="bo_line.description_picking">Description on transfer</span>
+=======
+                                        <p t-if="bo_line.description_picking and bo_line.description_picking != bo_line.product_id.name and bo_line._get_report_description_picking()">
+                                            <span t-out="bo_line._get_report_description_picking()">Description on transfer</span>
+>>>>>>> upstream/18.0
 =======
                                         <p t-if="bo_line.description_picking and bo_line.description_picking != bo_line.product_id.name and bo_line._get_report_description_picking()">
                                             <span t-out="bo_line._get_report_description_picking()">Description on transfer</span>
@@ -8074,7 +8113,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <span t-esc="aggregated_lines[line]['product_uom'].name"/>
+=======
+                <span t-esc="aggregated_lines[line]['product_uom'].name" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                 <span t-esc="aggregated_lines[line]['product_uom'].name" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0
@@ -8347,7 +8390,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <span t-esc="aggregated_lines[line]['product_uom'].name"/>
+=======
+                    <span t-esc="aggregated_lines[line]['product_uom'].name" groups="uom.group_uom"/>
+>>>>>>> upstream/18.0
 =======
                     <span t-esc="aggregated_lines[line]['product_uom'].name" groups="uom.group_uom"/>
 >>>>>>> upstream/18.0

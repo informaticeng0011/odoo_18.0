@@ -416,7 +416,11 @@ class ProjectShareWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if partner not in wizard.collaborator_ids.partner_id
+=======
+                if partner not in wizard.collaborator_ids.partner_id and partner.partner_share
+>>>>>>> upstream/18.0
 =======
                 if partner not in wizard.collaborator_ids.partner_id and partner.partner_share
 >>>>>>> upstream/18.0

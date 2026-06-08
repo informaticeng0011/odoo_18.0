@@ -126,6 +126,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:hzn.hr:schema:xsd:HRExtensionAggregateComponents-1">
 =======
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1">
@@ -170,6 +171,10 @@
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1">
 >>>>>>> upstream/18.0
     <ext:UBLExtensions>
+=======
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1">
+  <ext:UBLExtensions>
+>>>>>>> upstream/18.0
 =======
 <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:hrextac="urn:mfin.gov.hr:schema:xsd:HRExtensionAggregateComponents-1">
   <ext:UBLExtensions>
@@ -747,7 +752,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <cbc:TaxExemptionReason>Exempt from VAT due to a specified reason</cbc:TaxExemptionReason>
+=======
+                <cbc:TaxExemptionReasonCode>VATEX-EU-143</cbc:TaxExemptionReasonCode>
+                <cbc:TaxExemptionReason>Exempt based on article 143 of Council Directive 2006/112/EC</cbc:TaxExemptionReason>
+>>>>>>> upstream/18.0
 =======
                 <cbc:TaxExemptionReasonCode>VATEX-EU-143</cbc:TaxExemptionReasonCode>
                 <cbc:TaxExemptionReason>Exempt based on article 143 of Council Directive 2006/112/EC</cbc:TaxExemptionReason>
@@ -1327,7 +1337,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <cbc:EndpointID schemeID="9934">HR68139364755</cbc:EndpointID>
+=======
+      <cbc:EndpointID schemeID="9934">68139364755</cbc:EndpointID>
+>>>>>>> upstream/18.0
 =======
       <cbc:EndpointID schemeID="9934">68139364755</cbc:EndpointID>
 >>>>>>> upstream/18.0
@@ -1760,7 +1774,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <cbc:EndpointID schemeID="9934">HR08971065561</cbc:EndpointID>
+=======
+      <cbc:EndpointID schemeID="9934">08971065561</cbc:EndpointID>
+>>>>>>> upstream/18.0
 =======
       <cbc:EndpointID schemeID="9934">08971065561</cbc:EndpointID>
 >>>>>>> upstream/18.0
@@ -2236,7 +2254,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <cbc:TaxExemptionReason>Exempt from VAT due to a specified reason</cbc:TaxExemptionReason>
+=======
+        <cbc:TaxExemptionReasonCode>VATEX-EU-143</cbc:TaxExemptionReasonCode>
+        <cbc:TaxExemptionReason>Exempt based on article 143 of Council Directive 2006/112/EC</cbc:TaxExemptionReason>
+>>>>>>> upstream/18.0
 =======
         <cbc:TaxExemptionReasonCode>VATEX-EU-143</cbc:TaxExemptionReasonCode>
         <cbc:TaxExemptionReason>Exempt based on article 143 of Council Directive 2006/112/EC</cbc:TaxExemptionReason>
@@ -2829,7 +2852,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <cbc:TaxExemptionReason>Exempt from VAT due to a specified reason</cbc:TaxExemptionReason>
+=======
+        <cbc:TaxExemptionReasonCode>VATEX-EU-143</cbc:TaxExemptionReasonCode>
+        <cbc:TaxExemptionReason>Exempt based on article 143 of Council Directive 2006/112/EC</cbc:TaxExemptionReason>
+>>>>>>> upstream/18.0
 =======
         <cbc:TaxExemptionReasonCode>VATEX-EU-143</cbc:TaxExemptionReasonCode>
         <cbc:TaxExemptionReason>Exempt based on article 143 of Council Directive 2006/112/EC</cbc:TaxExemptionReason>

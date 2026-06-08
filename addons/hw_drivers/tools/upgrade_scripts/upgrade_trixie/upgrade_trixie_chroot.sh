@@ -159,7 +159,10 @@ DEBIAN_FRONTEND=noninteractive apt-get full-upgrade -y -o Dpkg::Options::="--for
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -611,6 +614,9 @@ curl -fsSL https://pkgs.tailscale.com/stable/raspbian/bullseye.tailscale-keyring
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -919,6 +925,7 @@ apt-get autoremove -y
 # Upgrade all packages to Trixie versions
 DEBIAN_FRONTEND=noninteractive apt-get full-upgrade -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confnew" --purge --auto-remove
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1594,6 +1601,10 @@ apt-get install -y chromium python3-lxml-html-clean apt-transport-https tailscal
 =======
 # Reinstall packages needed in saas-19.1
 apt-get install -y chromium python3-lxml-html-clean apt-transport-https tailscale
+>>>>>>> upstream/18.0
+=======
+# Reinstall packages needed in saas-19.1
+apt-get install -y chromium python3-geoip2 python3-lxml-html-clean python3-pypdf apt-transport-https tailscale mtr wtype
 >>>>>>> upstream/18.0
 =======
 # Reinstall packages needed in saas-19.1

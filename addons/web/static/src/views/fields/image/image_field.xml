@@ -6,9 +6,12 @@
             <div t-if="!props.readonly and fieldType !== 'many2one'" t-attf-class="position-absolute d-flex justify-content-between w-100 bottom-0 opacity-0 opacity-100-hover {{isMobile ? 'o_mobile_controls' : ''}}" aria-atomic="true" t-att-style="sizeStyle">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <FileUploader
                     acceptedFileExtensions="props.acceptedFileExtensions"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
                 <!--
@@ -18,6 +21,9 @@
                 <FileUploader
                     acceptedFileExtensions="`${props.acceptedFileExtensions ? props.acceptedFileExtensions + ',' : ''}dummy/allowAndroidCamera`"
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

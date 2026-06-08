@@ -268,8 +268,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* base_automation
 # 
+=======
+# * base_automation
+#
+>>>>>>> upstream/18.0
 =======
 # * base_automation
 #
@@ -1620,6 +1625,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # Luka Carević <luka@uvid.hr>, 2025
@@ -2889,10 +2895,16 @@
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# Luka Carević <luka@uvid.hr>, 2025
+# Karlo Mikešić <karlo@uvid.hr>, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0+e\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4351,6 +4363,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-25 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-04-25 18:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "base_automation/hr/>\n"
 "Language: hr\n"
@@ -4359,6 +4376,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5204,6 +5222,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-javascript
@@ -5254,6 +5275,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"\"\n"
+"                (ID:"
+>>>>>>> upstream/18.0
 =======
 "\"\n"
 "                (ID:"
@@ -5469,7 +5495,11 @@ msgid "\"%s\" tag is added"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodana je oznaka \"%s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodana je oznaka \"%s\""
 >>>>>>> upstream/18.0
@@ -5646,6 +5676,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pravila automatizacije \"Pri izmjeni uživo\" mogu se koristiti samo s vrstom "
+"radnje \"Izvrši Python kod\"."
+>>>>>>> upstream/18.0
 =======
 "Pravila automatizacije \"Pri izmjeni uživo\" mogu se koristiti samo s vrstom "
 "radnje \"Izvrši Python kod\"."
@@ -5861,7 +5896,11 @@ msgid "%s actions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s radnji"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s radnji"
 >>>>>>> upstream/18.0
@@ -6035,7 +6074,11 @@ msgid "1 action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "1 radnja"
+>>>>>>> upstream/18.0
 =======
 msgstr "1 radnja"
 >>>>>>> upstream/18.0
@@ -6208,7 +6251,11 @@ msgid "<code>env</code>: environment on which the action is triggered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<code>env</code>: okruženje u kojem se radnja pokreće"
+>>>>>>> upstream/18.0
 =======
 msgstr "<code>env</code>: okruženje u kojem se radnja pokreće"
 >>>>>>> upstream/18.0
@@ -6339,6 +6386,7 @@ msgstr "<code>env</code>: okruženje u kojem se radnja pokreće"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7517,6 +7565,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<code>model</code>: model of the record on which the action is triggered; is "
 "a void recordset"
 msgstr ""
@@ -7563,6 +7613,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7695,6 +7748,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<code>payload</code>: sadržaj poziva (GET parametri, JSON tijelo), kao "
+"rječnik."
+>>>>>>> upstream/18.0
 =======
 "<code>payload</code>: sadržaj poziva (GET parametri, JSON tijelo), kao "
 "rječnik."
@@ -7912,6 +7970,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<code>time</code>, <code>datetime</code>, <code>dateutil</code>, <code>"
+"timezone</code>: korisne Python biblioteke"
+>>>>>>> upstream/18.0
 =======
 "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, <code>"
 "timezone</code>: korisne Python biblioteke"
@@ -8126,7 +8189,11 @@ msgid "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Actions\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Radnje\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-2x fa-arrow-right text-primary\" title=\"Radnje\"/>"
 >>>>>>> upstream/18.0
@@ -8302,6 +8369,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-info-circle\"/> Zadani getter ciljanog zapisa radit će "
+"odmah za bilo koji webhook koji dolazi s druge Odoo instance."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-info-circle\"/> Zadani getter ciljanog zapisa radit će "
 "odmah za bilo koji webhook koji dolazi s druge Odoo instance."
@@ -8520,6 +8592,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-warning\"/> Pravila automatizacije pokrenuta izmjenama u "
+"sučelju izvršit će se <em>svaki put</em> kada se promatrana polja promijene, "
+"<em>bez obzira spremate li ili ne</em>."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> Pravila automatizacije pokrenuta izmjenama u "
 "sučelju izvršit će se <em>svaki put</em> kada se promatrana polja promijene, "
@@ -8776,7 +8854,11 @@ msgid "<span class=\"text-muted\"> Available variables: </span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\"> Dostupne varijable: </span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\"> Dostupne varijable: </span>"
 >>>>>>> upstream/18.0
@@ -9160,7 +9242,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                                        <span invisible=\"evaluation_type != 'equation'\">as</span>"
+=======
+"                                                        <span "
+"invisible=\"evaluation_type != 'equation'\">as</span>"
+>>>>>>> upstream/18.0
 =======
 "                                                        <span "
 "invisible=\"evaluation_type != 'equation'\">as</span>"
@@ -10427,9 +10514,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                    <span invisible=\"trigger != 'on_time_updated'\">after last update</span>\n"
 "                                    <span invisible=\"trigger != 'on_time'\">after</span>"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11187,6 +11277,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11714,6 +11807,7 @@ msgstr ""
 
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12975,6 +13069,10 @@ msgid ""
 msgid ""
 "<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
 >>>>>>> upstream/18.0
+=======
+msgid ""
+"<strong><i class=\"fa fa-lock\"/> Keep it secret, keep it safe.</strong>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: base_automation
@@ -13033,7 +13131,11 @@ msgid "Actions To Do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radnje za izvršiti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Radnje za izvršiti"
 >>>>>>> upstream/18.0
@@ -13211,7 +13313,11 @@ msgid "Add an action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj akciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj akciju"
 >>>>>>> upstream/18.0
@@ -13385,7 +13491,11 @@ msgid "Add followers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodaj pratitelje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodaj pratitelje"
 >>>>>>> upstream/18.0
@@ -13564,7 +13674,11 @@ msgid "After creation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nakon kreiranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nakon kreiranja"
 >>>>>>> upstream/18.0
@@ -13737,7 +13851,11 @@ msgid "After last update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nakon posljednjeg ažuriranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nakon posljednjeg ažuriranja"
 >>>>>>> upstream/18.0
@@ -13873,6 +13991,7 @@ msgstr "Primjeni na"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_kanban
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14630,6 +14749,8 @@ msgstr "Primjeni na"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -14678,7 +14799,11 @@ msgid "Automate <em>everything</em> with Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Automatizirajte <em>sve</em> s pravilima automatizacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatizirajte <em>sve</em> s pravilima automatizacije"
 >>>>>>> upstream/18.0
@@ -15081,7 +15206,11 @@ msgid "Automation Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravilo automatizacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pravilo automatizacije"
 >>>>>>> upstream/18.0
@@ -16158,7 +16287,11 @@ msgid "Automation Rule Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv pravila automatizacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv pravila automatizacije"
 >>>>>>> upstream/18.0
@@ -17238,7 +17371,11 @@ msgid "Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravila automatizacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pravila automatizacije"
 >>>>>>> upstream/18.0
@@ -18089,7 +18226,11 @@ msgid "Automation Rules: check and execute"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pravila automatizacije: provjera i izvršavanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pravila automatizacije: provjera i izvršavanje"
 >>>>>>> upstream/18.0
@@ -18268,7 +18409,11 @@ msgid "Based on date field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na temelju polja s datumom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na temelju polja s datumom"
 >>>>>>> upstream/18.0
@@ -18482,6 +18627,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_range
 msgid "Delay after trigger date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19555,6 +19701,9 @@ msgstr "Odgoda nakon datuma pokretanja"
 =======
 msgstr "Odgoda nakon datuma pokretanja"
 >>>>>>> upstream/18.0
+=======
+msgstr "Odgoda nakon datuma pokretanja"
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation__trg_date_range_type
@@ -19606,7 +19755,11 @@ msgid "Delete Action"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Akcija brisanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Akcija brisanja"
 >>>>>>> upstream/18.0
@@ -19780,7 +19933,11 @@ msgid "Deprecated (do not use)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zastarjelo (ne koristiti)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zastarjelo (ne koristiti)"
 >>>>>>> upstream/18.0
@@ -19924,6 +20081,7 @@ msgstr ""
 #: code:addons/base_automation/static/src/base_automation_error_dialog.xml:0
 msgid ""
 "Disabling this automation rule will enable you to continue your workflow\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20681,6 +20839,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                but any data created after this could potentially be "
 "corrupted,\n"
 "                as you are effectively disabling a customization that may "
@@ -20936,6 +21096,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -21505,7 +21668,11 @@ msgid "Email Events"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Događaji e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Događaji e-pošte"
 >>>>>>> upstream/18.0
@@ -21682,6 +21849,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vrste radnji e-pošte, pratitelja ili aktivnosti ne mogu se koristiti "
+"prilikom brisanja zapisa jer više ne postoje zapisi na koje bi se promjene "
+"mogle primijeniti!"
+>>>>>>> upstream/18.0
 =======
 "Vrste radnji e-pošte, pratitelja ili aktivnosti ne mogu se koristiti "
 "prilikom brisanja zapisa jer više ne postoje zapisi na koje bi se promjene "
@@ -21961,7 +22134,11 @@ msgid "Fields that trigger the onchange."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polja koja pokreću onchange."
+>>>>>>> upstream/18.0
 =======
 msgstr "Polja koja pokreću onchange."
 >>>>>>> upstream/18.0
@@ -22366,7 +22543,11 @@ msgid "Has Mail Thread"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima razgovor putem e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima razgovor putem e-pošte"
 >>>>>>> upstream/18.0
@@ -23185,6 +23366,7 @@ msgstr "ID"
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__filter_domain
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24363,6 +24545,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "If present, this condition must be satisfied before executing the automation "
 "rule."
 msgstr ""
@@ -24409,6 +24593,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24541,6 +24728,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #. module: base_automation
 <<<<<<< HEAD
@@ -25425,6 +25613,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Ako postoji, ovaj uvjet mora biti zadovoljen prije ažuriranja zapisa. Ne "
 "provjerava se pri kreiranju zapisa."
 
@@ -25470,6 +25660,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25558,6 +25751,7 @@ msgid "Include Archived"
 msgstr "Uključi arhivirane"
 
 #. module: base_automation
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26063,6 +26257,11 @@ msgstr "Uključi arhivirane"
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
 msgstr ""
+=======
+#: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
+msgid "Keep track of what this automation does and why it exists..."
+msgstr "Vodite evidenciju o tome što ova automatizacija radi i zašto postoji..."
+>>>>>>> upstream/18.0
 =======
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_form
 msgid "Keep track of what this automation does and why it exists..."
@@ -26493,7 +26692,11 @@ msgid "Log Calls"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evidentirani pozivi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evidentirani pozivi"
 >>>>>>> upstream/18.0
@@ -27137,6 +27340,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Događaj pošte ne može se konfigurirati na modelu %s. Mogu se koristiti samo "
+"modeli s funkcionalnošću rasprave."
+>>>>>>> upstream/18.0
 =======
 "Događaj pošte ne može se konfigurirati na modelu %s. Mogu se koristiti samo "
 "modeli s funkcionalnošću rasprave."
@@ -27325,6 +27533,7 @@ msgstr "Naziv modela"
 #. odoo-python
 #: code:addons/base_automation/models/ir_actions_server.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28503,6 +28712,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Model of action %(action_name)s should match the one from automated rule %"
 "(rule_name)s."
 msgstr ""
@@ -28549,6 +28760,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28691,7 +28905,11 @@ msgid "No record to run the automation on was found."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije pronađen zapis na kojem bi se automatizacija pokrenula."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije pronađen zapis na kojem bi se automatizacija pokrenula."
 >>>>>>> upstream/18.0
@@ -28882,7 +29100,11 @@ msgid "On UI change"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri promjeni sučelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri promjeni sučelja"
 >>>>>>> upstream/18.0
@@ -29055,7 +29277,11 @@ msgid "On archived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri arhiviranju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri arhiviranju"
 >>>>>>> upstream/18.0
@@ -29233,7 +29459,11 @@ msgid "On deletion"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri brisanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri brisanju"
 >>>>>>> upstream/18.0
@@ -29406,7 +29636,11 @@ msgid "On incoming message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri dolaznoj poruci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri dolaznoj poruci"
 >>>>>>> upstream/18.0
@@ -29579,7 +29813,11 @@ msgid "On outgoing message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri odlaznoj poruci"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri odlaznoj poruci"
 >>>>>>> upstream/18.0
@@ -29757,7 +29995,11 @@ msgid "On unarchived"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri poništavanju arhiviranja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri poništavanju arhiviranja"
 >>>>>>> upstream/18.0
@@ -29930,7 +30172,11 @@ msgid "On update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri ažuriranju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri ažuriranju"
 >>>>>>> upstream/18.0
@@ -30103,7 +30349,11 @@ msgid "On webhook"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri webhooku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri webhooku"
 >>>>>>> upstream/18.0
@@ -30288,7 +30538,11 @@ msgid "Priority is set to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prioritet je postavljen na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prioritet je postavljen na"
 >>>>>>> upstream/18.0
@@ -30687,7 +30941,11 @@ msgid "Record Getter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dohvaćanje zapisa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dohvaćanje zapisa"
 >>>>>>> upstream/18.0
@@ -31555,7 +31813,11 @@ msgid "Select a date field..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite polje s datumom..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite polje s datumom..."
 >>>>>>> upstream/18.0
@@ -31728,7 +31990,11 @@ msgid "Select a value..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite vrijednost..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite vrijednost..."
 >>>>>>> upstream/18.0
@@ -31901,7 +32167,11 @@ msgid "Select fields..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite polja..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite polja..."
 >>>>>>> upstream/18.0
@@ -32051,6 +32321,7 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:base_automation.base_automation_act
 msgid ""
 "Send an email when an object changes state, archive records\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33229,6 +33500,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                after a month of inactivity or remind yourself to follow-up "
 "on\n"
 "                tasks when a specific tag is added."
@@ -33277,6 +33550,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33364,6 +33640,7 @@ msgstr ""
 #. module: base_automation
 #: model_terms:digest.tip,tip_description:base_automation.digest_tip_base_automation_0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34543,6 +34820,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Send an email when an object changes state, archive records after a month of "
 "inactivity or remind yourself to follow-up on tasks when a specific tag is "
 "added.<br>With Automation Rules, you can automate any workflow."
@@ -34592,6 +34871,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34741,6 +35023,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Neki okidači trebaju referencu na polje za odabir. Ovo polje se koristi za "
+"njezino pohranjivanje."
+>>>>>>> upstream/18.0
 =======
 "Neki okidači trebaju referencu na polje za odabir. Ovo polje se koristi za "
 "njezino pohranjivanje."
@@ -34913,6 +35200,7 @@ msgstr ""
 #. module: base_automation
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_field_ref
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36091,6 +36379,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Some triggers need a reference to another field. This field is used to store "
 "it."
 msgstr ""
@@ -36137,6 +36427,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36267,7 +36560,11 @@ msgid "Specific User"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Određeni korisnik"
+>>>>>>> upstream/18.0
 =======
 msgstr "Određeni korisnik"
 >>>>>>> upstream/18.0
@@ -36440,7 +36737,11 @@ msgid "Stage is set to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faza je postavljena na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Faza je postavljena na"
 >>>>>>> upstream/18.0
@@ -36614,7 +36915,11 @@ msgid "Stage is set to \"%s\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Faza je postavljena na \"%s\""
+>>>>>>> upstream/18.0
 =======
 msgstr "Faza je postavljena na \"%s\""
 >>>>>>> upstream/18.0
@@ -36787,7 +37092,11 @@ msgid "State is set to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje je postavljeno na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stanje je postavljeno na"
 >>>>>>> upstream/18.0
@@ -36960,7 +37269,11 @@ msgid "Tag is added"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodana je oznaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodana je oznaka"
 >>>>>>> upstream/18.0
@@ -37133,7 +37446,11 @@ msgid "Target Record"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ciljani zapis"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ciljani zapis"
 >>>>>>> upstream/18.0
@@ -37264,6 +37581,7 @@ msgstr "Ciljani zapis"
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -38317,11 +38635,16 @@ msgstr "Ciljani model radnji %(action_names)s razlikuje se od modela pravila."
 msgid "Target model of actions %(action_names)s are different from rule model."
 msgstr "Ciljani model radnji %(action_names)s razlikuje se od modela pravila."
 >>>>>>> upstream/18.0
+=======
+msgid "Target model of actions %(action_names)s are different from rule model."
+msgstr "Ciljani model radnji %(action_names)s razlikuje se od modela pravila."
+>>>>>>> upstream/18.0
 
 #. module: base_automation
 #. odoo-python
 #: code:addons/base_automation/models/base_automation.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -39500,6 +39823,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The \"%(trigger_value)s\" %(trigger_label)s can only be used with the \"%"
 "(state_value)s\" action type"
 msgstr ""
@@ -39546,6 +39871,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39678,6 +40006,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pravilo automatizacije će se pokrenuti samo ako se ažurira jedno od ovih "
+"polja. Ako je prazno, prate se sva polja."
+>>>>>>> upstream/18.0
 =======
 "Pravilo automatizacije će se pokrenuti samo ako se ažurira jedno od ovih "
 "polja. Ako je prazno, prate se sva polja."
@@ -39896,6 +40229,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Došlo je do pogreške tijekom izvršavanja pravila automatizacije\n"
+"                \""
+>>>>>>> upstream/18.0
 =======
 "Došlo je do pogreške tijekom izvršavanja pravila automatizacije\n"
 "                \""
@@ -40113,6 +40451,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovaj kod će se pokrenuti kako bi se pronašao zapis na kojem treba pokrenuti "
+"pravilo automatizacije."
+>>>>>>> upstream/18.0
 =======
 "Ovaj kod će se pokrenuti kako bi se pronašao zapis na kojem treba pokrenuti "
 "pravilo automatizacije."
@@ -40328,7 +40671,11 @@ msgid "Timing Conditions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremenski uvjeti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremenski uvjeti"
 >>>>>>> upstream/18.0
@@ -40502,7 +40849,11 @@ msgid "Tip: Automate everything with Automation Rules"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Savjet: Automatizirajte sve pomoću pravila automatizacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Savjet: Automatizirajte sve pomoću pravila automatizacije"
 >>>>>>> upstream/18.0
@@ -40911,7 +41262,11 @@ msgid "Trigger Field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polje za aktivaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polje za aktivaciju"
 >>>>>>> upstream/18.0
@@ -41762,7 +42117,11 @@ msgid "Trigger Field Model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model polja okidača"
+>>>>>>> upstream/18.0
 =======
 msgstr "Model polja okidača"
 >>>>>>> upstream/18.0
@@ -42161,7 +42520,11 @@ msgid "Trigger Fields"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polja aktivacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polja aktivacije"
 >>>>>>> upstream/18.0
@@ -43012,7 +43375,11 @@ msgid "Trigger Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca okidača"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referenca okidača"
 >>>>>>> upstream/18.0
@@ -43228,7 +43595,11 @@ msgid "User is set"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik je postavljen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnik je postavljen"
 >>>>>>> upstream/18.0
@@ -43402,7 +43773,11 @@ msgid "Values Updated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ažurirane vrijednosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ažurirane vrijednosti"
 >>>>>>> upstream/18.0
@@ -43582,7 +43957,11 @@ msgid "Webhook Log"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapis webhooka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapis webhooka"
 >>>>>>> upstream/18.0
@@ -43756,7 +44135,11 @@ msgid "Webhook Logs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapisi webhooka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapisi webhooka"
 >>>>>>> upstream/18.0
@@ -43929,7 +44312,11 @@ msgid "Webhook UUID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UUID webhooka"
+>>>>>>> upstream/18.0
 =======
 msgstr "UUID webhooka"
 >>>>>>> upstream/18.0
@@ -44074,6 +44461,7 @@ msgstr ""
 #: model:ir.model.fields,help:base_automation.field_base_automation__trg_date_id
 msgid ""
 "When should the condition be triggered.\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45251,6 +45639,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                If present, will be checked by the scheduler. If empty, will "
 "be checked at creation and update."
 msgstr ""
@@ -45298,6 +45688,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45432,7 +45825,11 @@ msgid "When updating"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pri ažuriranju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pri ažuriranju"
 >>>>>>> upstream/18.0
@@ -45608,6 +46005,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"S pravilima automatizacije možete automatizirati\n"
+"                <em>bilo koji</em> radni tijek."
+>>>>>>> upstream/18.0
 =======
 "S pravilima automatizacije možete automatizirati\n"
 "                <em>bilo koji</em> radni tijek."
@@ -45839,6 +46241,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ne možete poslati e-poštu, dodati pratitelje ili kreirati aktivnost za "
+"obrisan zapis. Jednostavno ne funkcionira."
+>>>>>>> upstream/18.0
 =======
 "Ne možete poslati e-poštu, dodati pratitelje ili kreirati aktivnost za "
 "obrisan zapis. Jednostavno ne funkcionira."
@@ -46059,7 +46466,11 @@ msgid "based on"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "na temelju"
+>>>>>>> upstream/18.0
 =======
 msgstr "na temelju"
 >>>>>>> upstream/18.0
@@ -46238,7 +46649,11 @@ msgid "no action defined..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "nema definirane radnje..."
+>>>>>>> upstream/18.0
 =======
 msgstr "nema definirane radnje..."
 >>>>>>> upstream/18.0

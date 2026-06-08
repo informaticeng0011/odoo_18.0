@@ -300,6 +300,7 @@ import { SCHEDULED_MESSAGE_TRUNCATE_THRESHOLD } from "@mail/chatter/web/schedule
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { mockService, onRpc } from "@web/../tests/web_test_helpers";
 import { deserializeDateTime } from "@web/core/l10n/dates";
 import { getOrigin } from "@web/core/utils/urls";
@@ -307,6 +308,8 @@ import { getOrigin } from "@web/core/utils/urls";
 import { beforeEach, describe, expect, test } from "@odoo/hoot";
 import { advanceTime, mockDate } from "@odoo/hoot-mock";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1188,6 +1191,9 @@ import { manuallyDispatchProgrammaticEvent, queryAll } from "@odoo/hoot-dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2460,7 +2466,10 @@ test("Scheduled message with attachments", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3392,6 +3401,9 @@ test("widget mail_composer_attachment_selector: edit attachment of scheduled mes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

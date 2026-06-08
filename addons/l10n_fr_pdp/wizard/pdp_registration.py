@@ -5,6 +5,11 @@ from odoo.exceptions import UserError, ValidationError, RedirectWarning
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+from odoo.addons.l10n_fr_pdp.tools.demo_utils import handle_demo
+>>>>>>> upstream/18.0
 =======
 
 from odoo.addons.l10n_fr_pdp.tools.demo_utils import handle_demo
@@ -113,7 +118,11 @@ class PdpRegistration(models.TransientModel):
         for wizard in self:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             wizard.siren_number = wizard.company_id.siret[:9] if wizard.company_id.siret else ''
+=======
+            wizard.siren_number = wizard.company_id.partner_id._l10n_fr_pdp_get_siren()
+>>>>>>> upstream/18.0
 =======
             wizard.siren_number = wizard.company_id.partner_id._l10n_fr_pdp_get_siren()
 >>>>>>> upstream/18.0
@@ -193,6 +202,7 @@ class PdpRegistration(models.TransientModel):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _action_open_pdp_form(self, reopen=True):
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +225,10 @@ class PdpRegistration(models.TransientModel):
     def _check_can_register(self):
         if not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy')) and self.edi_mode != 'demo':
 >>>>>>> upstream/18.0
+=======
+    def _check_can_register(self):
+        if not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy')) and self.edi_mode != 'demo':
+>>>>>>> upstream/18.0
             raise RedirectWarning(
                 message=self.env._("To be able to register, you need to enable the two-factor authentication."),
                 action=self.env.user._get_records_action(
@@ -225,6 +239,12 @@ class PdpRegistration(models.TransientModel):
             )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    def _action_open_pdp_form(self, reopen=True):
+        self._check_can_register()
+>>>>>>> upstream/18.0
 =======
 
     def _action_open_pdp_form(self, reopen=True):
@@ -249,6 +269,10 @@ class PdpRegistration(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    @handle_demo
+>>>>>>> upstream/18.0
 =======
     @handle_demo
 >>>>>>> upstream/18.0

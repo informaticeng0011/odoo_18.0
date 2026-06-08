@@ -266,9 +266,12 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.env['ir.config_parameter'].set_param('l10n_in_edi.manage_invoice_negative_lines', True)
         cls.maxDiff = None
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1119,6 +1122,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         cls.sez_partner = cls.env['res.partner'].create({
             'name': 'SEZ Partner',
             'vat': '36AAAAA1234AAZA',
@@ -1129,6 +1133,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
             'state_id': cls.env.ref('base.state_in_gj').id,
             'country_id': cls.env.ref('base.in').id,
         })
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1920,6 +1926,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         cls._generate_json = cls.env["account.edi.format"]._l10n_in_edi_generate_invoice_json
 >>>>>>> upstream/18.0
@@ -1963,6 +1970,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
         cls._generate_json = cls.env["account.edi.format"]._l10n_in_edi_generate_invoice_json
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2686,6 +2695,9 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3424,7 +3436,10 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         json_value = self.env["account.edi.format"]._l10n_in_edi_generate_invoice_json(self.invoice)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4226,6 +4241,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertDictEqual(json_value, expected, "Indian EDI send json value is not matched")
         expected_copy_rounding = expected.copy()
 
@@ -4428,6 +4444,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
             "Indian EDI with Overseas sent json value is not matched"
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5636,7 +5654,11 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       'TotItemVal': 1000.0
+=======
+                      'TotItemVal': 1180.0
+>>>>>>> upstream/18.0
 =======
                       'TotItemVal': 1180.0
 >>>>>>> upstream/18.0
@@ -6380,7 +6402,11 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'TotInvVal': 1000.0
+=======
+                    'TotInvVal': 1180.0
+>>>>>>> upstream/18.0
 =======
                     'TotInvVal': 1180.0
 >>>>>>> upstream/18.0
@@ -7190,6 +7216,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7218,6 +7245,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8009,6 +8038,7 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8021,6 +8051,8 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8727,7 +8759,11 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       'TotItemVal': 1000.0
+=======
+                      'TotItemVal': 1180.0
+>>>>>>> upstream/18.0
 =======
                       'TotItemVal': 1180.0
 >>>>>>> upstream/18.0
@@ -9471,7 +9507,11 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'TotInvVal': 1000.0
+=======
+                    'TotInvVal': 1180.0
+>>>>>>> upstream/18.0
 =======
                     'TotInvVal': 1180.0
 >>>>>>> upstream/18.0
@@ -10261,6 +10301,9 @@ class TestEdiJson(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

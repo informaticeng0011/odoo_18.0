@@ -64,6 +64,10 @@ class SomeObj(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    active = fields.Boolean(default=True)
+>>>>>>> upstream/18.0
 =======
     active = fields.Boolean(default=True)
 >>>>>>> upstream/18.0

@@ -56,7 +56,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import _, fields, models
+=======
+from odoo import _, api, fields, models
+from odoo.exceptions import ValidationError
+>>>>>>> upstream/18.0
 =======
 from odoo import _, api, fields, models
 from odoo.exceptions import ValidationError
@@ -355,7 +360,10 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -535,6 +543,9 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -662,7 +673,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('proxy_type', '=', 'peppol')
+=======
+            ('proxy_type', 'in', self.env['account_edi_proxy_client.user']._get_peppol_proxy_types()),
+>>>>>>> upstream/18.0
 =======
             ('proxy_type', 'in', self.env['account_edi_proxy_client.user']._get_peppol_proxy_types()),
 >>>>>>> upstream/18.0
@@ -703,7 +718,11 @@ class AccountJournal(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ('proxy_type', '=', 'peppol')
+=======
+            ('proxy_type', 'in', self.env['account_edi_proxy_client.user']._get_peppol_proxy_types()),
+>>>>>>> upstream/18.0
 =======
             ('proxy_type', 'in', self.env['account_edi_proxy_client.user']._get_peppol_proxy_types()),
 >>>>>>> upstream/18.0

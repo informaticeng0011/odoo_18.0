@@ -153,6 +153,11 @@ import { browser } from '@web/core/browser/browser';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const oldWriteText = browser.navigator.clipboard.writeText;
+
+>>>>>>> upstream/18.0
 =======
 const oldWriteText = browser.navigator.clipboard.writeText;
 
@@ -923,10 +928,15 @@ registerWebsitePreviewTour('snippet_editor_panel_options', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const oldWriteText = browser.navigator.clipboard.writeText;
         browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
         await helpers.click();
         browser.navigator.clipboard.writeText = oldWriteText;
+=======
+        browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
+        await helpers.click();
+>>>>>>> upstream/18.0
 =======
         browser.navigator.clipboard.writeText = () => { console.info('Copy in clipboard ignored!') };
         await helpers.click();
@@ -1652,6 +1662,12 @@ registerWebsitePreviewTour('snippet_editor_panel_options', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        // Cleanup the patched clipboard method
+        browser.navigator.clipboard.writeText = oldWriteText;
+
+>>>>>>> upstream/18.0
 =======
         // Cleanup the patched clipboard method
         browser.navigator.clipboard.writeText = oldWriteText;

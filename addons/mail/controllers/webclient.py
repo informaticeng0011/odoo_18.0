@@ -144,6 +144,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from collections import defaultdict
+>>>>>>> upstream/18.0
 =======
 from collections import defaultdict
 >>>>>>> upstream/18.0
@@ -793,8 +797,11 @@ class WebclientController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             notifications.mail_message_id._message_notifications_to_store(store)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1240,6 +1247,9 @@ class WebclientController(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

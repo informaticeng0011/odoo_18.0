@@ -338,6 +338,10 @@ class TestWebsiteSaleComboConfigurator(HttpCase, WebsiteSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.website.show_line_subtotals_tax_selection = 'tax_included'
+>>>>>>> upstream/18.0
 =======
         self.website.show_line_subtotals_tax_selection = 'tax_included'
 >>>>>>> upstream/18.0

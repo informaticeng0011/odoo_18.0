@@ -658,6 +658,10 @@ class Related(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    foo_float_id = fields.Float(related='foo_id.test_float')
+>>>>>>> upstream/18.0
 =======
     foo_float_id = fields.Float(related='foo_id.test_float')
 >>>>>>> upstream/18.0
@@ -1442,6 +1446,10 @@ class RelatedFoo(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    test_float = fields.Float(digits='ORM Precision')
+>>>>>>> upstream/18.0
 =======
     test_float = fields.Float(digits='ORM Precision')
 >>>>>>> upstream/18.0
@@ -3185,7 +3193,10 @@ class SelectionRequiredWithWriteOverride(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3583,6 +3594,9 @@ class SelectionCompanyDependentNullImplicit(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4156,7 +4170,10 @@ class ComputeMember(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4991,6 +5008,9 @@ class ComputeCreated(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6055,6 +6075,10 @@ class RelatedTranslation2(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    name_en = fields.Char('Name EN', compute='_compute_name_en')
+>>>>>>> upstream/18.0
 =======
     name_en = fields.Char('Name EN', compute='_compute_name_en')
 >>>>>>> upstream/18.0
@@ -6351,7 +6375,10 @@ class RelatedTranslation2(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6570,6 +6597,9 @@ class RelatedTranslation2(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7191,7 +7221,10 @@ class SharedComputeMethod(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8043,6 +8076,9 @@ class BinaryTest(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

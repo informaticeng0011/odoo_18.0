@@ -9,6 +9,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -43,11 +46,15 @@ from importlib.metadata import version
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import lxml.html
 import re
 
 from importlib.metadata import version
+from lxml.etree import LIBXML_VERSION
+>>>>>>> upstream/18.0
+=======
 from lxml.etree import LIBXML_VERSION
 >>>>>>> upstream/18.0
 =======
@@ -100,7 +107,10 @@ def patch_lxml():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -159,6 +169,9 @@ def patch_lxml():
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

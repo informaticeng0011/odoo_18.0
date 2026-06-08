@@ -88,7 +88,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button class="btn btn-primary btn-lg lh-lg o-default-button" t-on-click="confirm">Apply</button>
+=======
+                <button class="btn btn-primary btn-lg lh-lg o-default-button" t-att-disabled="!this.state.inputValue.trim()" t-on-click="confirm">Apply</button>
+>>>>>>> upstream/18.0
 =======
                 <button class="btn btn-primary btn-lg lh-lg o-default-button" t-att-disabled="!this.state.inputValue.trim()" t-on-click="confirm">Apply</button>
 >>>>>>> upstream/18.0

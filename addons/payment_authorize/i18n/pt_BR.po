@@ -42,6 +42,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_authorize
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -509,6 +510,9 @@
 =======
 # * payment_authorize
 >>>>>>> upstream/18.0
+=======
+# * payment_authorize
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -667,6 +671,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -889,6 +894,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -1020,6 +1028,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1543,6 +1552,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-03-06 18:39+0000\n"
 "PO-Revision-Date: 2026-04-24 07:53+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -1589,6 +1600,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1676,6 +1690,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2264,10 +2279,16 @@ msgstr ""
 "1000000 == 0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2433,6 +2454,8 @@ msgstr ""
 "                        <option value=\"savings\">Economias privadas</option>\n"
 "                        <option value=\"businessChecking\">Verificação empresarial</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2909,6 +2932,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3454,8 +3480,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Não foi possível recuperar os detalhes da transação. (código de erro: "
 "%(error_code)s; error_details: %(error_message)s)"
+=======
+"Não foi possível recuperar os detalhes da transação. (código de erro: %"
+"(error_code)s; error_details: %(error_message)s)"
+>>>>>>> upstream/18.0
 =======
 "Não foi possível recuperar os detalhes da transação. (código de erro: %"
 "(error_code)s; error_details: %(error_message)s)"
@@ -4298,11 +4329,14 @@ msgstr "Falha no processamento do pagamento"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr ""
 "Dados recebidos com código de status \"%(status)s\" e código de erro "
 "\"%(error)s\""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4767,6 +4801,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5243,8 +5280,12 @@ msgid "The ID solely used to identify the account with Authorize.Net"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 "O ID usado exclusivamente para identificar a conta com o Authorize.Net"
+=======
+msgstr "O ID usado exclusivamente para identificar a conta com o Authorize.Net"
+>>>>>>> upstream/18.0
 =======
 msgstr "O ID usado exclusivamente para identificar a conta com o Authorize.Net"
 >>>>>>> upstream/18.0
@@ -5868,8 +5909,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A chave pública do cliente para gerar diretamente pelo Odoo ou pelo back-end"
 " do Authorize.Net."
+=======
+"A chave pública do cliente para gerar diretamente pelo Odoo ou pelo back-end "
+"do Authorize.Net."
+>>>>>>> upstream/18.0
 =======
 "A chave pública do cliente para gerar diretamente pelo Odoo ou pelo back-end "
 "do Authorize.Net."
@@ -6653,8 +6699,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A transação não está em um status para ser reembolsada. (status: %(status)s,"
 " detalhes: %(message)s)"
+=======
+"A transação não está em um status para ser reembolsada. (status: %(status)s, "
+"detalhes: %(message)s)"
+>>>>>>> upstream/18.0
 =======
 "A transação não está em um status para ser reembolsada. (status: %(status)s, "
 "detalhes: %(message)s)"
@@ -7385,6 +7436,7 @@ msgstr "Esta ação não pode ser executada enquanto o provedor está desativado
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7716,6 +7768,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment_authorize/controllers/main.py:0
 msgid "Transaction not found."
@@ -7763,6 +7817,9 @@ msgstr "Transação não encontrada."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

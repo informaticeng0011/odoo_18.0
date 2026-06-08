@@ -267,6 +267,7 @@ import { addBusMessageHandler, busModels } from "@bus/../tests/bus_test_helpers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, before, expect, getFixture, registerDebugInfo } from "@odoo/hoot";
 =======
 import { after, before, expect, getFixture, registerDebugInfo, test } from "@odoo/hoot";
@@ -969,6 +970,8 @@ import { after, before, expect, getFixture, registerDebugInfo, test } from "@odo
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     after,
     before,
@@ -1079,6 +1082,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1318,6 +1324,7 @@ import {
     mailDataHelpers,
 } from "./mock_server/mail_mock_server";
 import { Base } from "./mock_server/mock_models/base";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2240,6 +2247,8 @@ import { DEFAULT_MAIL_VIEW_ID } from "./mock_server/mock_models/constants";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import { DiscussChannel } from "./mock_server/mock_models/discuss_channel";
 import { DiscussChannelMember } from "./mock_server/mock_models/discuss_channel_member";
 import { DiscussChannelRtcSession } from "./mock_server/mock_models/discuss_channel_rtc_session";
@@ -2345,6 +2354,7 @@ export const mailModels = {
  */
 export function onRpcBefore(route, callback) {
     if (typeof route === "string") {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3466,6 +3476,9 @@ export function onRpcBefore(route, callback) {
 =======
         const handler = registry.category("mail.mock_rpc").get(route);
 >>>>>>> upstream/18.0
+=======
+        const handler = registry.category("mail.mock_rpc").get(route);
+>>>>>>> upstream/18.0
         patchWithCleanup(handler, { before: callback });
     } else {
         const onRpcBeforeGlobal = registry.category("mail.on_rpc_before_global").get(true);
@@ -3481,6 +3494,7 @@ export function onRpcBefore(route, callback) {
  * @param {Function} callback - The function to execute just before the end of RPC call.
  */
 export function onRpcAfter(route, callback) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5005,6 +5019,8 @@ export function registerArchs(newArchs) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     const handler = registry.category("mail.mock_rpc").get(route);
     patchWithCleanup(handler, { after: callback });
 }
@@ -5125,6 +5141,9 @@ export function registerArchs(newArchs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5603,6 +5622,9 @@ export function onlineTest(...args) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6459,7 +6481,11 @@ export async function openFormView(resModel, resId, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "form") || false, "form"]],
+=======
+        views: [[false, "form"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "form"]],
 >>>>>>> upstream/18.0
@@ -7695,7 +7721,11 @@ export async function openKanbanView(resModel, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "kanban"), "kanban"]],
+=======
+        views: [[false, "kanban"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "kanban"]],
 >>>>>>> upstream/18.0
@@ -8931,7 +8961,11 @@ export async function openListView(resModel, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         views: [[getMailViewId(resModel, "list"), "list"]],
+=======
+        views: [[false, "list"]],
+>>>>>>> upstream/18.0
 =======
         views: [[false, "list"]],
 >>>>>>> upstream/18.0
@@ -10178,6 +10212,7 @@ export async function openView({ context, res_model, res_id, views, domain, ...p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         arch:
             params?.arch ||
             archs[viewId || res_model + `,${getMailViewId(res_model, type) || false},` + type] ||
@@ -11103,11 +11138,15 @@ export async function openView({ context, res_model, res_id, views, domain, ...p
 =======
         arch: params?.arch || globalArchs.get(viewId || res_model + `,false,` + type) || undefined,
 >>>>>>> upstream/18.0
+=======
+        arch: params?.arch || globalArchs.get(viewId || res_model + `,false,` + type) || undefined,
+>>>>>>> upstream/18.0
         viewId: params?.arch || viewId,
         ...params,
     });
     await getService("action").doAction(action, { props: options });
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12039,6 +12078,8 @@ after(() => (tabs = []));
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 /** @type {Set<HTMLElement>} */
 const globalTabs = new Set();
@@ -12144,6 +12185,9 @@ const globalTabs = new Set();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12458,8 +12502,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tabs.push(tabTarget);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12767,6 +12814,9 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13077,7 +13127,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tabs.forEach((tab) => (tab.style.zIndex = -zIndexMainTab));
+=======
+        globalTabs.forEach((tab) => (tab.style.zIndex = -zIndexMainTab));
+>>>>>>> upstream/18.0
 =======
         globalTabs.forEach((tab) => (tab.style.zIndex = -zIndexMainTab));
 >>>>>>> upstream/18.0
@@ -13501,7 +13555,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Switch Tab (${tabs.length})
+=======
+                Switch Tab (${globalTabs.size})
+>>>>>>> upstream/18.0
 =======
                 Switch Tab (${globalTabs.size})
 >>>>>>> upstream/18.0
@@ -13918,7 +13976,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const tabIndex = tabs.length;
+=======
+    const tabIndex = globalTabs.size;
+>>>>>>> upstream/18.0
 =======
     const tabIndex = globalTabs.size;
 >>>>>>> upstream/18.0
@@ -14502,6 +14564,11 @@ async function addSwitchTabDropdownItem(rootTarget, tabTarget) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+let discussAsTabId = 0;
+
+>>>>>>> upstream/18.0
 =======
 let discussAsTabId = 0;
 
@@ -15885,6 +15952,10 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        discussAsTabId++;
+>>>>>>> upstream/18.0
 =======
         discussAsTabId++;
 >>>>>>> upstream/18.0
@@ -16961,10 +17032,13 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         rootTarget.appendChild(target);
         addSwitchTabDropdownItem(rootTarget, target);
         env = await makeMockEnv({}, { makeNew: true });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17771,6 +17845,9 @@ export async function start(options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18622,8 +18699,12 @@ export async function startServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { env } = await makeMockServer();
     pyEnv = env;
+=======
+    const { env: pyEnv } = await makeMockServer();
+>>>>>>> upstream/18.0
 =======
     const { env: pyEnv } = await makeMockServer();
 >>>>>>> upstream/18.0
@@ -19857,7 +19938,11 @@ export async function startServer() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     return env;
+=======
+    return pyEnv;
+>>>>>>> upstream/18.0
 =======
     return pyEnv;
 >>>>>>> upstream/18.0
@@ -21018,6 +21103,7 @@ export function mockGetMedia() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param {"default" | "denied" | "granted"} permission
  * @param {"default" | "denied" | "granted"} requestPermissionResult
  */
@@ -21052,6 +21138,8 @@ export function patchBrowserNotification(permission = "default", requestPermissi
             }
             return requestPermissionResult;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21364,6 +21452,9 @@ export function patchBrowserNotification(requestPermissionResult) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

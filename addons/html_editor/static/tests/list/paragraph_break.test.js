@@ -254,7 +254,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should split list item containing image", async () => {
+=======
+            test("should split list item containing image (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should split list item containing image (1)", async () => {
 >>>>>>> upstream/18.0
@@ -943,6 +947,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should split list item containing image (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -2038,7 +2048,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should create list items after one with a block in it", async () => {
+=======
+            test("should create list items after one with a block in it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should create list items after one with a block in it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -2728,6 +2742,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should create list items after one with a block in it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -3902,7 +3922,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             test("should create list items after one with a block in it", async () => {
+=======
+            test("should create list items after one with a block in it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
             test("should create list items after one with a block in it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -4592,6 +4616,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            });
+
+            test("should create list items after one with a block in it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
             });
 
@@ -5813,7 +5843,11 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 test("should create list items after one with a block in it", async () => {
+=======
+                test("should create list items after one with a block in it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
                 test("should create list items after one with a block in it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -6503,6 +6537,12 @@ describe("Selection collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                });
+
+                test("should create list items after one with a block in it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
                 });
 
@@ -7667,7 +7707,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete part of a list item, then split it", async () => {
+=======
+    test("should delete part of a list item, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete part of a list item, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -8350,6 +8394,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete part of a list item, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -9372,7 +9422,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete all contents of a list item, then split it", async () => {
+=======
+    test("should delete all contents of a list item, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete all contents of a list item, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -10056,6 +10110,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete all contents of a list item, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -11079,7 +11139,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete across two list items, then split what's left", async () => {
+=======
+    test("should delete across two list items, then split what's left (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete across two list items, then split what's left (1)", async () => {
 >>>>>>> upstream/18.0
@@ -11762,6 +11826,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete across two list items, then split what's left (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -12784,7 +12854,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete part of a checklist item, then split it", async () => {
+=======
+    test("should delete part of a checklist item, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete part of a checklist item, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -13467,6 +13541,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete part of a checklist item, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 
@@ -14489,7 +14569,11 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     test("should delete all contents of a checklist item, then split it", async () => {
+=======
+    test("should delete all contents of a checklist item, then split it (1)", async () => {
+>>>>>>> upstream/18.0
 =======
     test("should delete all contents of a checklist item, then split it (1)", async () => {
 >>>>>>> upstream/18.0
@@ -15173,6 +15257,12 @@ describe("Selection not collapsed", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    });
+
+    test("should delete all contents of a checklist item, then split it (2)", async () => {
+>>>>>>> upstream/18.0
 =======
     });
 

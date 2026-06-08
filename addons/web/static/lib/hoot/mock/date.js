@@ -181,6 +181,10 @@ import { createMock, HootError, isNil } from "../hoot_utils";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { ensureTest } from "../main_runner";
+>>>>>>> upstream/18.0
 =======
 import { ensureTest } from "../main_runner";
 >>>>>>> upstream/18.0
@@ -745,6 +749,7 @@ const { DateTimeFormat, Locale } = Intl;
 /**
  * @param {Date} baseDate
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1736,6 +1741,8 @@ const computeTimeZoneOffset = (baseDate) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function computeTimeZoneOffset(baseDate) {
     const utcDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: "UTC" }));
     const tzDate = new Date(baseDate.toLocaleString(DEFAULT_LOCALE, { timeZone: timeZoneName }));
@@ -2069,6 +2076,9 @@ function computeTimeZoneOffset(baseDate) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2730,6 +2740,7 @@ function computeTimeZoneOffset(baseDate) {
 /**
  * @param {number} id
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3722,6 +3733,8 @@ const getTimeStampDiff = () => (isTimeFrozen() ? 0 : $now() - dateTimeStamp);
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function getDateParams() {
     return [...dateParams.slice(0, -1), dateParams.at(-1) + getTimeStampDiff() + getTimeOffset()];
 }
@@ -4057,6 +4070,9 @@ function getTimeStampDiff() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5047,7 +5063,11 @@ function getTimeStampDiff() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseDateParams = (dateSpecs) => {
+=======
+function parseDateParams(dateSpecs) {
+>>>>>>> upstream/18.0
 =======
 function parseDateParams(dateSpecs) {
 >>>>>>> upstream/18.0
@@ -6376,7 +6396,11 @@ function parseDateParams(dateSpecs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -7697,7 +7721,11 @@ function parseDateParams(dateSpecs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const setDateParams = (newDateParams) => {
+=======
+function setDateParams(newDateParams) {
+>>>>>>> upstream/18.0
 =======
 function setDateParams(newDateParams) {
 >>>>>>> upstream/18.0
@@ -9018,7 +9046,11 @@ function setDateParams(newDateParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -10339,7 +10371,11 @@ function setDateParams(newDateParams) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const setTimeZone = (tz) => {
+=======
+function setTimeZone(tz) {
+>>>>>>> upstream/18.0
 =======
 function setTimeZone(tz) {
 >>>>>>> upstream/18.0
@@ -11677,7 +11713,11 @@ function setTimeZone(tz) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -12942,7 +12982,10 @@ class MockDateTimeFormat extends DateTimeFormat {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13749,6 +13792,9 @@ class MockDateTimeFormat extends DateTimeFormat {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14331,6 +14377,7 @@ export function cleanupDate() {
  * @see {@link mockTimeZone} for the time zone params.
  *
  * @param {string | DateSpecs} [date]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15288,6 +15335,9 @@ export function cleanupDate() {
 =======
  * @param {string | number | null} [tz]
 >>>>>>> upstream/18.0
+=======
+ * @param {string | number | null} [tz]
+>>>>>>> upstream/18.0
  * @example
  *  mockDate("2023-12-25T20:45:00"); // 2023-12-25 20:45:00 UTC
  * @example
@@ -15475,6 +15525,10 @@ export function mockDate(date, tz) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("mockDate");
+>>>>>>> upstream/18.0
 =======
     ensureTest("mockDate");
 >>>>>>> upstream/18.0
@@ -16208,6 +16262,10 @@ export function mockLocale(newLocale) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("mockLocale");
+>>>>>>> upstream/18.0
 =======
     ensureTest("mockLocale");
 >>>>>>> upstream/18.0
@@ -16950,6 +17008,10 @@ export function mockTimeZone(tz) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    ensureTest("mockTimeZone");
+>>>>>>> upstream/18.0
 =======
     ensureTest("mockTimeZone");
 >>>>>>> upstream/18.0

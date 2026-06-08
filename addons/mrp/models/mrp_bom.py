@@ -483,7 +483,11 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.onchange('bom_line_ids', 'product_qty')
+=======
+    @api.onchange('bom_line_ids', 'product_qty', 'product_id', 'product_tmpl_id')
+>>>>>>> upstream/18.0
 =======
     @api.onchange('bom_line_ids', 'product_qty', 'product_id', 'product_tmpl_id')
 >>>>>>> upstream/18.0
@@ -1689,6 +1693,12 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                for byproduct in new_bom.byproduct_ids:
+                    if byproduct.operation_id:
+                        byproduct.operation_id = operations_mapping[byproduct.operation_id]
+>>>>>>> upstream/18.0
 =======
                 for byproduct in new_bom.byproduct_ids:
                     if byproduct.operation_id:
@@ -3184,6 +3194,7 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         products_ids = set(products.ids)
         for bom in boms:
@@ -3192,6 +3203,8 @@ class MrpBom(models.Model):
                 if product.id in products_ids and product not in bom_by_product:
                     bom_by_product[product] = bom
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3286,6 +3299,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3426,6 +3442,10 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self = self.with_context(bom_cost_share_cache=self.env.context.get('bom_cost_share_cache') or {})  # noqa: PLW0642
+>>>>>>> upstream/18.0
 =======
         self = self.with_context(bom_cost_share_cache=self.env.context.get('bom_cost_share_cache') or {})  # noqa: PLW0642
 >>>>>>> upstream/18.0
@@ -3658,6 +3678,7 @@ class MrpBom(models.Model):
             for product in products:
                 product_boms.setdefault(product, self.env['mrp.bom'])
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4199,6 +4220,9 @@ class MrpBom(models.Model):
 =======
         boms_done = [(self, self.env['mrp.bom.line']._prepare_bom_done_values(quantity, product, quantity, []))]
 >>>>>>> upstream/18.0
+=======
+        boms_done = [(self, self.env['mrp.bom.line']._prepare_bom_done_values(quantity, product, quantity, []))]
+>>>>>>> upstream/18.0
         lines_done = []
 
         bom_lines = []
@@ -4221,6 +4245,7 @@ class MrpBom(models.Model):
                 product_ids.clear()
             bom = product_boms.get(current_line.product_id)
             if bom:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5125,10 +5150,13 @@ class MrpBom(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 converted_line_quantity = current_line.product_uom_id._compute_quantity(
                     line_quantity / bom.product_qty, bom.product_uom_id, round=False
                 )
                 bom_lines = [(line, current_line.product_id, converted_line_quantity, current_line) for line in bom.bom_line_ids] + bom_lines
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5973,6 +6001,8 @@ class MrpBom(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 for bom_line in bom.bom_line_ids:
                     if bom_line.product_id not in product_boms:
                         product_ids.add(bom_line.product_id.id)
@@ -6111,6 +6141,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6520,12 +6553,15 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 lines_done.append((current_line, {'qty': line_quantity, 'product': current_product, 'original_qty': quantity, 'parent_line': parent_line}))
 
         return boms_done, lines_done
 
     @api.model
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6938,6 +6974,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7261,6 +7300,10 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        list_of_domain_by_bom_to_unmark = []
+>>>>>>> upstream/18.0
 =======
         list_of_domain_by_bom_to_unmark = []
 >>>>>>> upstream/18.0
@@ -7454,7 +7497,10 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7599,6 +7645,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8125,12 +8174,15 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for attribute, values in bom_values_by_attribute.items():
             if any(val.id in never_values_by_attribute[attribute].ids for val in values):
                 continue
             return True
         return not other_attribute_valid
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9147,6 +9199,9 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10138,7 +10193,10 @@ class MrpBomLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10547,6 +10605,9 @@ class MrpBomLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

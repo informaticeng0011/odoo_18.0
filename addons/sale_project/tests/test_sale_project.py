@@ -413,6 +413,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1420,6 +1421,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1732,6 +1735,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2205,7 +2211,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3012,6 +3021,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3903,6 +3915,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
 >>>>>>> upstream/18.0
@@ -4553,6 +4566,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 >>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service2.name}\n[TEST1]\nGlobal project",
+>>>>>>> upstream/18.0
+=======
+            'name': f"{self.product_order_service2.display_name}\nDescription for global task.",
 >>>>>>> upstream/18.0
 =======
             'name': f"{self.product_order_service2.display_name}\nDescription for global task.",
@@ -4922,6 +4938,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             'order_id': sale_order.id,
         })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5729,6 +5746,11 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         self.product_order_service3.description_sale = "Task in New Project"
         so_line_order_new_task_new_project = SaleOrderLine.create({
             'name': f"{self.product_order_service3.display_name}\n[TEST2]\nNew project",
+=======
+        self.product_order_service3.description_sale = "Task in New Project"
+        so_line_order_new_task_new_project = SaleOrderLine.create({
+            'name': f"{self.product_order_service3.display_name}\nDescription for new project task.",
+>>>>>>> upstream/18.0
 =======
         self.product_order_service3.description_sale = "Task in New Project"
         so_line_order_new_task_new_project = SaleOrderLine.create({
@@ -6644,6 +6666,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7273,6 +7298,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         # service_tracking 'task_global_project'
         self.assertFalse(so_line_order_task_in_global.project_id, "Only task should be created, project should not be linked")
         self.assertEqual(self.project_global.tasks.sale_line_id, so_line_order_task_in_global, "Global project's task should be linked to so line")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8296,6 +8322,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(
             so_line_order_task_in_global.task_id.name,
             f"{sale_order.name} - Description for global task.",
@@ -8424,6 +8452,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8671,6 +8702,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         self.assertTrue(so_line_order_new_task_new_project.task_id, "Sales order line should be linked to newly created task")
         self.assertEqual(
             so_line_order_new_task_new_project.task_id.name,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10246,6 +10278,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             "Description for new project task.",
             "Task name should be the single-line SOL description.",
         )
@@ -10378,6 +10412,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10957,6 +10994,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         self.assertEqual(sale_order.project_id[analytic_plan_name], sale_order.project_ids[analytic_plan_name], "The project created for the SO and the project of the SO should have the same account.")
         self.assertEqual(self.env.company, sale_order.project_ids.company_id, "The project created for the SO should have the same company as its account.")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11884,6 +11922,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     def test_project_creation_on_so_with_manual_analytic(self):
         """ Tests the interaction between manually added analytic account (of a plan other than projects), distribution
             model accounts and the project account created when SO is confirmed.
@@ -11995,6 +12035,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12203,6 +12246,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
             'order_line': [
                 Command.create({
                     'product_id': self.product_order_service3.id,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13316,6 +13360,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 }),
             ],
         })
@@ -13426,6 +13472,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13632,6 +13681,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
     def test_project_on_sol_with_analytic_distribution_model(self):
         """ If a line has a distribution coming from an analytic distribution model, and the sale order has a project,
             both the project account and the accounts from the ADM should still be in the line after confirmation.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14543,10 +14593,13 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             The Project account should appear on all lines if there are several Analytic Distribution Models applying.
         """
         # We create one distribution model with two accounts in one line, based on product
         # and a second model with a different plan, based on partner
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14659,6 +14712,11 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         distribution_model_product = self.env['account.analytic.distribution.model'].create({
             'product_id': self.product_a.id,
             'analytic_distribution': {','.join([str(analytic_account_1.id), str(analytic_account_2.id)]): 100},
+=======
+        distribution_model_product = self.env['account.analytic.distribution.model'].create({
+            'product_id': self.product_a.id,
+            'analytic_distribution': {','.join([str(self.analytic_account_1.id), str(self.analytic_account_2.id)]): 100},
+>>>>>>> upstream/18.0
 =======
         distribution_model_product = self.env['account.analytic.distribution.model'].create({
             'product_id': self.product_a.id,
@@ -15473,6 +15531,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16090,6 +16151,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
                 Command.create({'product_id': self.product_a.id}),
             ],
         })
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18208,6 +18270,8 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         expected_analytic_distribution = {
             f"{self.analytic_account_1.id},{self.analytic_account_2.id},{project.account_id.id}": 100,
             f"{self.analytic_account_sale.id},{project.account_id.id}": 100,
@@ -18316,6 +18380,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18822,6 +18889,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19431,6 +19501,7 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
         sale_order.action_confirm()
         self.assertEqual(sale_order.order_line.analytic_distribution, expected_analytic_distribution)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20607,6 +20678,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 =======
     def test_exclude_archived_projects_in_stat_btn_related_view(self):
 >>>>>>> upstream/18.0
+=======
+    def test_exclude_archived_projects_in_stat_btn_related_view(self):
+>>>>>>> upstream/18.0
         """Checks if the project stat-button action includes both archived and active projects."""
         # Setup
         project_A = self.env['project.project'].create({'name': 'Project_A'})
@@ -20914,12 +20988,15 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         # Check if button action includes both projects AFTER archivization
         project_B.write({'active': False})
         action = sale_order.action_view_project_ids()
         self.assertEqual(len(get_project_ids_from_action_domain(action)), 2, "Domain should contain 2 projects. (one archived, one not)")
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21685,6 +21762,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22972,8 +23052,11 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         so.action_confirm()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23836,6 +23919,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -24744,7 +24830,10 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25336,6 +25425,9 @@ class TestSaleProject(HttpCase, TestSaleProjectCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

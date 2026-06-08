@@ -70,6 +70,10 @@ class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -344,7 +348,10 @@ class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -551,6 +558,9 @@ class TestUblBis3SelfBilling(TestUblBis3Common, TestUblCiiBECommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

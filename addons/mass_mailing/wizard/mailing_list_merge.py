@@ -44,7 +44,12 @@ class MassMailingListMerge(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not res.get('src_list_ids') and 'src_list_ids' in fields:
+=======
+        res_src_list_ids = res.get('src_list_ids')
+        if not res_src_list_ids and 'src_list_ids' in fields:
+>>>>>>> upstream/18.0
 =======
         res_src_list_ids = res.get('src_list_ids')
         if not res_src_list_ids and 'src_list_ids' in fields:
@@ -207,7 +212,11 @@ class MassMailingListMerge(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             src_list_ids = res.get('src_list_ids') or self.env.context.get('active_ids')
+=======
+            src_list_ids = res_src_list_ids or self.env.context.get('active_ids')
+>>>>>>> upstream/18.0
 =======
             src_list_ids = res_src_list_ids or self.env.context.get('active_ids')
 >>>>>>> upstream/18.0

@@ -56,7 +56,10 @@ class ResConfigSettings(models.TransientModel):
             record.company_id._l10n_fr_pdp_update_pilot_phase(record.l10n_fr_pdp_pilot_phase)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -67,6 +70,9 @@ class ResConfigSettings(models.TransientModel):
         registration_wizard._check_can_register()
         return super().button_peppol_reregister()
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

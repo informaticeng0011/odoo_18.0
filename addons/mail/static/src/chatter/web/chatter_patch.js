@@ -132,6 +132,11 @@ patch(Chatter.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        /** @type {Map<string, Function>} */
+        this.uploadHandlers = new Map();
+>>>>>>> upstream/18.0
 =======
         /** @type {Map<string, Function>} */
         this.uploadHandlers = new Map();
@@ -341,7 +346,11 @@ patch(Chatter.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -708,6 +717,7 @@ patch(Chatter.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async onUploaded(data) {
         await this.attachmentUploader.uploadData(data);
         if (this.props.hasParentReloadOnAttachmentsChanged) {
@@ -719,6 +729,8 @@ patch(Chatter.prototype, {
         }
         this.state.thread.scrollTop = "bottom";
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -855,6 +867,9 @@ patch(Chatter.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

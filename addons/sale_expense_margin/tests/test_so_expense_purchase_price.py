@@ -213,6 +213,7 @@ class TestExpenseMargin(TestExpenseCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(sale_order.order_line[1:], [
             # Expense lines:
             {
@@ -232,6 +233,11 @@ class TestExpenseMargin(TestExpenseCommon):
                 'is_expense': True,
             },
         ])
+=======
+        for line, expected_purchase_price in zip(sale_order.order_line[1:], [86.96, 100.0, 869.5666667, 1000.0]):
+            self.assertAlmostEqual(line.purchase_price, expected_purchase_price)
+            self.assertTrue(line.is_expense)
+>>>>>>> upstream/18.0
 =======
         for line, expected_purchase_price in zip(sale_order.order_line[1:], [86.96, 100.0, 869.5666667, 1000.0]):
             self.assertAlmostEqual(line.purchase_price, expected_purchase_price)

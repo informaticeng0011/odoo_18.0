@@ -105,9 +105,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import fields, models
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -432,6 +435,9 @@ JOFOTARA_URL = "https://backend.jofotara.gov.jo/core/invoices/"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -649,6 +655,7 @@ JOFOTARA_URL = "https://backend.jofotara.gov.jo/core/invoices/"
 class ResCompany(models.Model):
     _inherit = 'res.company'
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1559,6 +1566,8 @@ class ResCompany(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     l10n_jo_edi_sequence_income_source = fields.Char(string="JoFotara Sequence of Income Source")
     l10n_jo_edi_secret_key = fields.Char(string="JoFotara Secret Key", groups="base.group_system")
     l10n_jo_edi_client_identifier = fields.Char(string="JoFotara Client ID", groups="base.group_system")
@@ -1867,6 +1876,7 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2255,6 +2265,8 @@ class ResCompany(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2611,6 +2623,9 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

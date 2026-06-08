@@ -55,7 +55,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 not self.partner_id.check_vat_br(value) or any(not char.isdecimal() for char in value)
+=======
+                not value or not self.partner_id.check_vat_br(value) or any(not char.isdecimal() for char in value)
+>>>>>>> upstream/18.0
 =======
                 not value or not self.partner_id.check_vat_br(value) or any(not char.isdecimal() for char in value)
 >>>>>>> upstream/18.0
@@ -128,7 +132,11 @@ class ResPartnerBank(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if bank.proxy_type == "br_random" and not re.fullmatch(regex, bank.proxy_value):
+=======
+            if bank.proxy_type == "br_random" and (not value or not re.fullmatch(regex, value)):
+>>>>>>> upstream/18.0
 =======
             if bank.proxy_type == "br_random" and (not value or not re.fullmatch(regex, value)):
 >>>>>>> upstream/18.0

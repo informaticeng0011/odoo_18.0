@@ -134,6 +134,10 @@ import uuid
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from json import JSONDecodeError
+>>>>>>> upstream/18.0
 =======
 from json import JSONDecodeError
 >>>>>>> upstream/18.0
@@ -613,7 +617,11 @@ DEMO_EFAKTURA_URL = 'https://demoefaktura.mfin.gov.rs/api/publicApi/sales-invoic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 EFAKTURA_URL = 'https://efakturadev.mfin.gov.rs/api/publicApi/sales-invoice/ubl'
+=======
+EFAKTURA_URL = 'https://efaktura.mfin.gov.rs/api/publicApi/sales-invoice/ubl'
+>>>>>>> upstream/18.0
 =======
 EFAKTURA_URL = 'https://efaktura.mfin.gov.rs/api/publicApi/sales-invoice/ubl'
 >>>>>>> upstream/18.0
@@ -1086,6 +1094,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.fetch(["country_code"])
+>>>>>>> upstream/18.0
 =======
         self.fetch(["country_code"])
 >>>>>>> upstream/18.0
@@ -1857,7 +1869,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         except requests.exceptions.JSONDecodeError as e:
+=======
+        except JSONDecodeError as e:
+>>>>>>> upstream/18.0
 =======
         except JSONDecodeError as e:
 >>>>>>> upstream/18.0

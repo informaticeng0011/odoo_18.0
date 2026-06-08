@@ -250,7 +250,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     product_uom = fields.Many2one('uom.uom', string='Unit of Measure', domain="[('category_id', '=', product_uom_category_id)]")
+=======
+    product_uom = fields.Many2one('uom.uom', string='Unit of Measure', domain="[('category_id', '=', product_uom_category_id)]", ondelete='restrict')
+>>>>>>> upstream/18.0
 =======
     product_uom = fields.Many2one('uom.uom', string='Unit of Measure', domain="[('category_id', '=', product_uom_category_id)]", ondelete='restrict')
 >>>>>>> upstream/18.0
@@ -1045,7 +1049,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         string='Unit Price', required=True, digits='Product Price', aggregator='avg',
+=======
+        string='Unit Price', required=True, min_display_digits='Product Price', aggregator='avg',
+>>>>>>> upstream/18.0
 =======
         string='Unit Price', required=True, min_display_digits='Product Price', aggregator='avg',
 >>>>>>> upstream/18.0
@@ -1956,7 +1964,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if line.order_id.state in ['purchase', 'done']:
+=======
+            if line.order_id.state in ['purchase', 'done'] and line.display_type not in ['line_note', 'line_section']:
+>>>>>>> upstream/18.0
 =======
             if line.order_id.state in ['purchase', 'done'] and line.display_type not in ['line_note', 'line_section']:
 >>>>>>> upstream/18.0
@@ -3100,7 +3112,10 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3359,6 +3374,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3627,6 +3645,7 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             # record product names to avoid resetting custom descriptions
             default_names = []
             vendors = line.product_id._prepare_sellers(params=params)
@@ -3639,6 +3658,8 @@ class PurchaseOrderLine(models.Model):
                 product_ctx = {'seller_id': seller.id, 'lang': get_lang(line.env, line.partner_id.lang).code}
                 line.name = line._get_product_purchase_description(line.product_id.with_context(product_ctx))
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3893,6 +3914,7 @@ class PurchaseOrderLine(models.Model):
         '''
         if not self.product_id:
             return
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4741,10 +4763,13 @@ class PurchaseOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         seller_min_qty = self.product_id._select_seller(
             partner_id=self.order_id.partner_id,
             quantity=None,
             date=self.order_id.date_order and self.order_id.date_order.date() or fields.Date.context_today(self),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5054,6 +5079,11 @@ class PurchaseOrderLine(models.Model):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            ordered_by='min_qty',
+            params=self._get_select_sellers_params(),
+        )
 >>>>>>> upstream/18.0
 =======
             ordered_by='min_qty',
@@ -6727,7 +6757,11 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'quantity': self.qty_to_invoice,
+=======
+            'quantity': -self.qty_to_invoice if move and move.move_type == 'in_refund' else self.qty_to_invoice,
+>>>>>>> upstream/18.0
 =======
             'quantity': -self.qty_to_invoice if move and move.move_type == 'in_refund' else self.qty_to_invoice,
 >>>>>>> upstream/18.0
@@ -7460,6 +7494,7 @@ class PurchaseOrderLine(models.Model):
             'purchase_line_id': self.id,
             'is_downpayment': self.is_downpayment,
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8504,6 +8539,10 @@ class PurchaseOrderLine(models.Model):
         if self.is_downpayment and self.invoice_lines:
             res['account_id'] = self.invoice_lines.account_id[:1].id
 >>>>>>> upstream/18.0
+=======
+        if self.is_downpayment and self.invoice_lines:
+            res['account_id'] = self.invoice_lines.account_id[:1].id
+>>>>>>> upstream/18.0
         return res
 
     @api.model
@@ -8890,9 +8929,14 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         price_unit = seller.price if seller else product_id.standard_price
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             price_unit, product_taxes, taxes, company_id)
+=======
+        price_unit = self.env['account.tax']._fix_tax_included_price_company(
+            seller.price, product_taxes, taxes, company_id) if seller else 0
+>>>>>>> upstream/18.0
 =======
         price_unit = self.env['account.tax']._fix_tax_included_price_company(
             seller.price, product_taxes, taxes, company_id) if seller else 0

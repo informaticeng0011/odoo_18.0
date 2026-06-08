@@ -36,12 +36,15 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('batch_id', 'company_id')
     def _compute_l10n_ro_edi_stock_enable(self):
         # OVERRIDES 'l10n_ro_edi_stock'
         for picking in self:
             picking.l10n_ro_edi_stock_enable = not picking.batch_id and picking.company_id.country_id.code == 'RO'
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -144,6 +147,9 @@ class Picking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

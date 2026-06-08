@@ -122,11 +122,17 @@ import { mockDate, tick } from "@odoo/hoot-mock";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { EventBus } from "@odoo/owl";
 import {
     Command,
     getService,
     patchWithCleanup,
+=======
+import {
+    Command,
+    getService,
+>>>>>>> upstream/18.0
 =======
 import {
     Command,
@@ -743,7 +749,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { browser } from "@web/core/browser/browser";
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1123,6 +1132,7 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
     pyEnv["discuss.channel"].create({ name: "General" });
     const env1 = await start({ asTab: true });
     const env2 = await start({ asTab: true });
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1938,6 +1948,8 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     await click(`${env1.selector} .o_menu_systray i[aria-label='Messages']`);
     await click(`${env1.selector} .o-mail-NotificationItem`);
     await contains(`${env2.selector} .o-mail-ChatWindow-header`);
@@ -2217,6 +2229,9 @@ test.skip("Fold state of chat window is sync among browser tabs", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3575,6 +3590,7 @@ test("chat window: composer state conservation on toggle discuss", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await contains(".o-mail-AttachmentCard .fa-check", { count: 2 });
     await openDiscuss();
     await contains(".o-mail-ChatWindow", { count: 0 });
@@ -3583,6 +3599,8 @@ test("chat window: composer state conservation on toggle discuss", async () => {
         count: 2,
     });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4392,6 +4410,9 @@ test("chat window: composer state conservation on toggle discuss", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5231,7 +5252,11 @@ test("Open chat window of new inviter", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         text: "Newbie connected. This is their first connection. Wish them luck.",
+=======
+        text: "Newbie just connected for the first time. Wish them luck!",
+>>>>>>> upstream/18.0
 =======
         text: "Newbie just connected for the first time. Wish them luck!",
 >>>>>>> upstream/18.0
@@ -5871,9 +5896,12 @@ test("open channel in chat window from push notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     patchWithCleanup(window.navigator, {
         serviceWorker: Object.assign(new EventBus(), { register: () => Promise.resolve() }),
     });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6193,7 +6221,11 @@ test("open channel in chat window from push notification", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     browser.navigator.serviceWorker.dispatchEvent(
+=======
+    navigator.serviceWorker.dispatchEvent(
+>>>>>>> upstream/18.0
 =======
     navigator.serviceWorker.dispatchEvent(
 >>>>>>> upstream/18.0
@@ -6878,7 +6910,10 @@ test("Ctrl+k opens the command palette", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8000,6 +8035,9 @@ test("Do not squash logged notes", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

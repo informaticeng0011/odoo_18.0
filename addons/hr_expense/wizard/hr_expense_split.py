@@ -208,7 +208,11 @@ class HrExpenseSplit(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         account = self.product_id.product_tmpl_id._get_product_accounts()['expense']
+=======
+        account = self.product_id.with_company(self.company_id).product_tmpl_id._get_product_accounts()['expense']
+>>>>>>> upstream/18.0
 =======
         account = self.product_id.with_company(self.company_id).product_tmpl_id._get_product_accounts()['expense']
 >>>>>>> upstream/18.0

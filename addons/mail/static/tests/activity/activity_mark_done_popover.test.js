@@ -360,6 +360,7 @@ test("activity mark done popover mark done without feedback", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback", async (request) => {
         step("action_feedback");
         const { params } = await request.json();
@@ -369,6 +370,8 @@ test("activity mark done popover mark done without feedback", async () => {
         expect(params.kwargs.attachment_ids).toBeEmpty();
         expect("feedback" in params.kwargs).toBe(false);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1249,6 +1252,9 @@ test("activity mark done popover mark done without feedback", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2143,6 +2149,7 @@ test("activity mark done popover mark done with feedback", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback", async (request) => {
         step("action_feedback");
         const { params } = await request.json();
@@ -2156,6 +2163,8 @@ test("activity mark done popover mark done with feedback", async () => {
     });
     onRpc("/web/dataset/call_kw/mail.activity/unlink", () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3040,6 +3049,9 @@ test("activity mark done popover mark done with feedback", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3940,6 +3952,7 @@ test("activity mark done popover mark done and schedule next", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback_schedule_next", async (request) => {
         step("action_feedback_schedule_next");
         const { params } = await request.json();
@@ -3951,6 +3964,8 @@ test("activity mark done popover mark done and schedule next", async () => {
     });
     onRpc("/web/dataset/call_kw/mail.activity/unlink", () => {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4833,6 +4848,9 @@ test("activity mark done popover mark done and schedule next", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5744,9 +5762,15 @@ test("[technical] activity mark done & schedule next with new action", async () 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     onRpc("/web/dataset/call_kw/mail.activity/action_feedback_schedule_next", () => {
         return { type: "ir.actions.act_window" };
     });
+=======
+    onRpc("mail.activity", "action_feedback_schedule_next", () => ({
+        type: "ir.actions.act_window",
+    }));
+>>>>>>> upstream/18.0
 =======
     onRpc("mail.activity", "action_feedback_schedule_next", () => ({
         type: "ir.actions.act_window",

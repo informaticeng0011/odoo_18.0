@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* website_slides_survey
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -626,6 +627,10 @@
 # * website_slides_survey
 #
 >>>>>>> upstream/18.0
+=======
+# * website_slides_survey
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Naglis Jonaitis, 2024
 # Linas Versada <linaskrisiukenas@gmail.com>, 2024
@@ -635,6 +640,7 @@
 # Arminas Grigonis <arminas@versada.lt>, 2024
 # Jonas Zinkevicius <jozi@odoo.com>, 2024
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1252,10 +1258,14 @@
 =======
 # Jonas Zinkevicius <jonas@vialaurea.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Jonas Zinkevicius <jonas@vialaurea.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1729,6 +1739,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-05-26 11:15+0000\n"
 "Last-Translator: Jonas Zinkevicius <jonas@vialaurea.com>\n"
@@ -1741,6 +1753,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1761,6 +1776,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2247,6 +2263,11 @@ msgstr ""
 ": n % 1 != 0 ? 2: 3);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 "
+": n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: website_slides_survey
 #: model:ir.model.fields,field_description:website_slides_survey.field_slide_channel__members_certified_count
@@ -2427,12 +2448,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant' or ''\">participant</t><br/><br/>\n"
 "        Unfortunately, you have failed the certification and are no longer a member of the course: <t t-out=\"object.slide_partner_id.channel_id.name or ''\">Basics of Gardening</t>.<br/><br/>\n"
 "        Don't hesitate to enroll again!\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.slide_partner_id.channel_id.website_url)\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2902,6 +2926,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3396,11 +3423,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<i class=\"fa fa-share-alt\" aria-label=\"Share certification\" title=\"Share certification\"/>\n"
 "                        Share your certification"
 msgstr ""
 "<i class=\"fa fa-share-alt\" aria-label=\"Share certification\" title=\"Share certification\"/>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3866,6 +3896,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4376,7 +4409,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "<span>Start Now</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
+=======
+msgid ""
+"<span>Start Now</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "<span>Start Now</span><i class=\"oi oi-chevron-right ms-2 align-middle\"/>"
@@ -5186,7 +5224,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Any Survey listed below is currently used as a Course Certification and cannot be deleted:\n"
+=======
+"Any Survey listed below is currently used as a Course Certification and "
+"cannot be deleted:\n"
+>>>>>>> upstream/18.0
 =======
 "Any Survey listed below is currently used as a Course Certification and "
 "cannot be deleted:\n"
@@ -5935,7 +5978,11 @@ msgid "Certifications are exams that you successfully passed. <br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sertifikatai - tai egzaminai, kuriuos sėkmingai išlaikėte. <br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sertifikatai - tai egzaminai, kuriuos sėkmingai išlaikėte. <br/>"
 >>>>>>> upstream/18.0
@@ -6341,8 +6388,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Subtype of the slide category, allows more precision on the actual file type"
 " / source type."
+=======
+"Subtype of the slide category, allows more precision on the actual file "
+"type / source type."
+>>>>>>> upstream/18.0
 =======
 "Subtype of the slide category, allows more precision on the actual file "
 "type / source type."
@@ -7167,8 +7219,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The courses this survey is linked to through the e-learning application"
+=======
+msgid "The courses this survey is linked to through the e-learning application"
+>>>>>>> upstream/18.0
 =======
 msgid "The courses this survey is linked to through the e-learning application"
 >>>>>>> upstream/18.0
@@ -7827,9 +7883,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can gain badges by passing certifications. Here is a list of all available certification badges.\n"
 "                            <br/>Follow the links to reach new heights and skill up!"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8293,6 +8352,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

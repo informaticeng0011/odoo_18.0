@@ -358,6 +358,7 @@ from . import account_move
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import stock_valuation_layer
 >>>>>>> upstream/18.0
@@ -606,6 +607,8 @@ from . import stock_valuation_layer
 >>>>>>> upstream/18.0
 =======
 from . import stock_valuation_layer
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

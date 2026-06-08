@@ -26,7 +26,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
 =======
                 "ttype": field_config['supported_types'][0],
 >>>>>>> upstream/18.0
@@ -70,7 +74,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
 =======
                 "ttype": field_config['supported_types'][0],
 >>>>>>> upstream/18.0
@@ -137,7 +145,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
 =======
                 "ttype": field_config['supported_types'][0],
 >>>>>>> upstream/18.0
@@ -181,7 +193,11 @@ class TestUblImportBis3InvoiceBEOptionalFields(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "ttype": field_config.get('type'),
+=======
+                "ttype": field_config['supported_types'][0],
+>>>>>>> upstream/18.0
 =======
                 "ttype": field_config['supported_types'][0],
 >>>>>>> upstream/18.0

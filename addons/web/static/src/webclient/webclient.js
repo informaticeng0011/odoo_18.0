@@ -209,6 +209,10 @@ import { useOwnDebugContext } from "@web/core/debug/debug_context";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Deferred } from "@web/core/utils/concurrency";
+>>>>>>> upstream/18.0
 =======
 import { Deferred } from "@web/core/utils/concurrency";
 >>>>>>> upstream/18.0
@@ -1109,6 +1113,10 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        this.serviceWorkerActivatedDeferred = new Deferred();
+>>>>>>> upstream/18.0
 =======
         this.serviceWorkerActivatedDeferred = new Deferred();
 >>>>>>> upstream/18.0
@@ -2014,12 +2022,15 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const firstAction = router.current.actionStack?.[0]?.action;
         if (!menuId && firstAction) {
             menuId = this.menuService
                 .getAll()
                 .find((m) => m.actionID === firstAction || m.actionPath === firstAction)?.appID;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2838,6 +2849,9 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3399,6 +3413,7 @@ export class WebClient extends Component {
             menuId = this.menuService.getAll().find((m) => m.actionID === actionId)?.appID;
             if (!menuId) {
                 // Setting the menu based on the session storage if no other menu was found
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4472,6 +4487,9 @@ export class WebClient extends Component {
 =======
                 menuId = storedMenuId;
 >>>>>>> upstream/18.0
+=======
+                menuId = storedMenuId;
+>>>>>>> upstream/18.0
             }
             if (menuId) {
                 // Sets the menu according to the current action
@@ -4740,7 +4758,10 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5381,6 +5402,9 @@ export class WebClient extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

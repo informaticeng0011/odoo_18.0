@@ -273,7 +273,10 @@ from odoo import fields, models, _
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.sms.tools.sms_api import SmsApi
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1096,6 +1099,10 @@ class MassSMSTest(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        valid_numbers = [number for sanitized, number in zip(sanitized_numbers, numbers) if sanitized]
+>>>>>>> upstream/18.0
 =======
         valid_numbers = [number for sanitized, number in zip(sanitized_numbers, numbers) if sanitized]
 >>>>>>> upstream/18.0
@@ -2176,8 +2183,13 @@ class MassSMSTest(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         new_sms_messages_sudo = self.env['sms.sms'].sudo().create([{'body': body, 'number': number} for number in sanitized_numbers])
         sms_api = SmsApi(self.env)
+=======
+        new_sms_messages_sudo = self.env['sms.sms'].sudo().create([{'body': body, 'number': number} for number in valid_numbers])
+        sms_api = self.env.company._get_sms_api_class()(self.env)
+>>>>>>> upstream/18.0
 =======
         new_sms_messages_sudo = self.env['sms.sms'].sudo().create([{'body': body, 'number': number} for number in valid_numbers])
         sms_api = self.env.company._get_sms_api_class()(self.env)
@@ -3523,10 +3535,13 @@ class MassSMSTest(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         error_messages = {}
         if any(sent_sms.get('state') != 'success' for sent_sms in sent_sms_list):
             error_messages = sms_api._get_sms_api_error_messages()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4336,6 +4351,7 @@ class MassSMSTest(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for sent_sms in sent_sms_list:
             if sent_sms.get('state') == 'success':
                 notification_messages.append(
@@ -4349,6 +4365,8 @@ class MassSMSTest(models.TransientModel):
                     )
                 )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5166,6 +5184,9 @@ class MassSMSTest(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

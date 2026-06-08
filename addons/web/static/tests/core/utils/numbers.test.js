@@ -379,7 +379,10 @@ describe("formatFloat", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -794,6 +797,9 @@ describe("formatFloat", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1380,6 +1386,10 @@ describe("formatFloat", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        expect(formatFloat(-0.0000001, options)).toBe("0.00");
+>>>>>>> upstream/18.0
 =======
         expect(formatFloat(-0.0000001, options)).toBe("0.00");
 >>>>>>> upstream/18.0
@@ -2464,6 +2474,7 @@ describe("formatFloat", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         Object.assign(options, { humanReadable: false });
@@ -3138,6 +3149,10 @@ describe("formatFloat", () => {
 
         Object.assign(options, { humanReadable: false });
         expect(formatFloat(-0.0000001, options)).toBe("0.00");
+>>>>>>> upstream/18.0
+=======
+
+        expect(formatFloat(-0.0000001, { digits: [16, 2], humanReadable: false })).toBe("0.00");
 >>>>>>> upstream/18.0
 =======
 

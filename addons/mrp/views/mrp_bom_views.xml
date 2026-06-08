@@ -99,7 +99,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <field name="product_id" groups="product.group_product_variant" context="{'default_is_storable': True}"/>
+=======
+                            <field name="product_id" groups="product.group_product_variant" context="{'default_is_storable': True}" options="{'no_create': True}"/>
+>>>>>>> upstream/18.0
 =======
                             <field name="product_id" groups="product.group_product_variant" context="{'default_is_storable': True}" options="{'no_create': True}"/>
 >>>>>>> upstream/18.0
@@ -649,7 +653,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <span class="float-end badge rounded-pill"><field name="product_qty"/> <field name="product_uom_id" class="small"/></span>
+=======
+                                <span class="float-end badge rounded-pill"><field name="product_qty"/> <field name="product_uom_id" class="small" groups="uom.group_uom"/></span>
+>>>>>>> upstream/18.0
 =======
                                 <span class="float-end badge rounded-pill"><field name="product_qty"/> <field name="product_uom_id" class="small" groups="uom.group_uom"/></span>
 >>>>>>> upstream/18.0

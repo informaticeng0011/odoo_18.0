@@ -269,6 +269,7 @@ from . import test_delivery_carrier
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import test_click_and_collect_express_checkout
 >>>>>>> upstream/18.0
@@ -843,6 +844,8 @@ from . import test_click_and_collect_flow
 from . import test_payment_provider
 from . import test_payment_transaction
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1079,6 +1082,9 @@ from . import test_product_template
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
