@@ -124,7 +124,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             layers = line._get_valued_in_moves().stock_valuation_layer_ids.filtered(lambda svl: svl.product_id == line.product_id and not svl.stock_valuation_layer_id)
+=======
+            layers = line._get_valued_in_moves()._get_layers_price_diff().filtered(lambda svl: svl.product_id == line.product_id and not svl.stock_valuation_layer_id)
+>>>>>>> upstream/18.0
 =======
             layers = line._get_valued_in_moves()._get_layers_price_diff().filtered(lambda svl: svl.product_id == line.product_id and not svl.stock_valuation_layer_id)
 >>>>>>> upstream/18.0
@@ -405,7 +409,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return self.env['stock.valuation.layer'].sudo().create(svl_vals_list), self.env['account.move.line'].sudo().create(aml_vals_list)
+=======
+        return self.env['stock.valuation.layer'].sudo().create(svl_vals_list), self.env['account.move.line'].sudo().with_context(skip_invoice_sync=True).create(aml_vals_list)
+>>>>>>> upstream/18.0
 =======
         return self.env['stock.valuation.layer'].sudo().create(svl_vals_list), self.env['account.move.line'].sudo().with_context(skip_invoice_sync=True).create(aml_vals_list)
 >>>>>>> upstream/18.0
@@ -525,6 +533,7 @@ class AccountMoveLine(models.Model):
         # That way, we ensure a deterministic behaviour
         history.sort(key=lambda item: (item[0], bool(item[1]), (item[1] or item[2]).id))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2559,6 +2568,11 @@ class AccountMoveLine(models.Model):
         # and then the links between `self` and the layers
         qty_to_invoice_per_layer, layers_and_invoices_qties = self._replay_history(layers, history)
 >>>>>>> upstream/18.0
+=======
+        # Replay the whole history: we want to know what are the links between each layer and each invoice,
+        # and then the links between `self` and the layers
+        qty_to_invoice_per_layer, layers_and_invoices_qties = self._replay_history(layers, history)
+>>>>>>> upstream/18.0
 
         # Now we know what layers does `self` use, let's check if we have to create a pdiff SVL
         # (or cancel such an SVL in case of a refund)
@@ -2898,6 +2912,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> upstream/18.0
 =======
 
 >>>>>>> upstream/18.0
@@ -4272,6 +4290,7 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                 aml = self
 
@@ -4301,6 +4320,8 @@ class AccountMoveLine(models.Model):
                 layer.remaining_value += svl_vals['value']
                 svl_vals_list.append(svl_vals)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5265,6 +5286,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                # Filter out revaluation layers (Landed Cost)
+                initial_layer = initial_layer.filtered(lambda svl: not svl.stock_valuation_layer_id)
+>>>>>>> upstream/18.0
 =======
                 # Filter out revaluation layers (Landed Cost)
                 initial_layer = initial_layer.filtered(lambda svl: not svl.stock_valuation_layer_id)
@@ -6527,7 +6553,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         if layer.stock_move_id._is_in():
+=======
+                        if layer.stock_move_id._is_in() or layer.stock_move_id._is_dropshipped():
+>>>>>>> upstream/18.0
 =======
                         if layer.stock_move_id._is_in() or layer.stock_move_id._is_dropshipped():
 >>>>>>> upstream/18.0
@@ -7064,7 +7094,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7876,6 +7909,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8766,6 +8802,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9485,6 +9524,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                'tax_ids': [],
+>>>>>>> upstream/18.0
 =======
                 'tax_ids': [],
 >>>>>>> upstream/18.0
@@ -9688,7 +9731,10 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9768,6 +9814,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -352,7 +352,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <strong>Shipping Address</strong>
+=======
+                    <strong class="d-block mt-3">Shipping Address</strong>
+>>>>>>> upstream/18.0
 =======
                     <strong class="d-block mt-3">Shipping Address</strong>
 >>>>>>> upstream/18.0
@@ -1427,7 +1431,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <t t-set="display_discount" t-value="any(l.discount for l in lines_to_report)"/>
+=======
+            <t t-set="display_discount" t-value="any(l.discount > 0 for l in lines_to_report)"/>
+>>>>>>> upstream/18.0
 =======
             <t t-set="display_discount" t-value="any(l.discount > 0 for l in lines_to_report)"/>
 >>>>>>> upstream/18.0
@@ -1638,6 +1646,7 @@
                         >
                             <t t-if="not line.display_type and line.product_type != 'combo'">
                                 <td name="td_name"><span t-field="line.name">Bacon Burger</span></td>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3050,6 +3059,10 @@
                                 <td name="td_quantity" class="o_td_quantity text-end">
                                     <span t-field="line.product_uom_qty" class="text-nowrap">3</span>
 >>>>>>> upstream/18.0
+=======
+                                <td name="td_quantity" class="o_td_quantity text-end">
+                                    <span t-field="line.product_uom_qty" class="text-nowrap">3</span>
+>>>>>>> upstream/18.0
                                     <span t-field="line.product_uom">units</span>
                                     <span t-if="line.product_packaging_id">
                                         (<span t-field="line.product_packaging_qty" t-options='{"widget": "integer"}'/> <span t-field="line.product_packaging_id"/>)
@@ -3114,11 +3127,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <span t-field="line.price_unit">3</span>
                                 </td>
                                 <td t-if="display_discount" class="text-end">
                                     <span t-field="line.discount">-</span>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3301,6 +3317,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3462,7 +3481,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <span t-field="line.price_subtotal">27.00</span>
+=======
+                                    <span t-if="doc.company_price_include == 'tax_included'" t-field="line.price_total">27.00</span>
+                                    <span t-else="" t-field="line.price_subtotal">27.00</span>
+>>>>>>> upstream/18.0
 =======
                                     <span t-if="doc.company_price_include == 'tax_included'" t-field="line.price_total">27.00</span>
                                     <span t-else="" t-field="line.price_subtotal">27.00</span>
@@ -3718,8 +3742,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div t-if="not doc.signature" class="oe_structure"></div>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3838,6 +3865,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

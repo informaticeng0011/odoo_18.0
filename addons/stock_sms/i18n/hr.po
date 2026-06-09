@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* stock_sms
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1514,6 +1515,9 @@
 =======
 # * stock_sms
 >>>>>>> upstream/18.0
+=======
+# * stock_sms
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Bole <bole@dajmi5.com>, 2024
@@ -1555,6 +1559,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1910,6 +1915,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -2023,6 +2031,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3279,6 +3288,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:38+0000\n"
 "PO-Revision-Date: 2026-05-02 09:15+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -3319,6 +3330,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3550,6 +3564,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3786,6 +3801,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
 =======
 "X-Generator: Weblate 5.17\n"
@@ -4055,8 +4073,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                {{ (object.company_id.name + ': We are glad to inform you that your order n° ' + object.origin + ' has been shipped.' if object.origin else object.company_id.name + ': We are glad to inform you that your order has been shipped.') + (' Your tracking reference is ' + (object.carrier_tracking_ref) + '.' if hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref else '') }}\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4525,6 +4546,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4765,6 +4787,8 @@ msgid ""
 "            "
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4880,6 +4904,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4970,6 +4997,7 @@ msgstr "Konfiguracijske postavke"
 #. module: stock_sms
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid "Confirm"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6371,6 +6399,9 @@ msgstr "Potvrdi"
 =======
 msgstr "Potvrdi"
 >>>>>>> upstream/18.0
+=======
+msgstr "Potvrdi"
+>>>>>>> upstream/18.0
 
 #. module: stock_sms
 #: model:ir.model,name:stock_sms.model_confirm_stock_sms
@@ -6411,7 +6442,11 @@ msgid "Confirm Stock SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potvrdi SMS zalihe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potvrdi SMS zalihe"
 >>>>>>> upstream/18.0
@@ -6570,7 +6605,11 @@ msgid "Delivery: Send by SMS Text Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dostava: pošalji SMS porukom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dostava: pošalji SMS porukom"
 >>>>>>> upstream/18.0
@@ -6962,7 +7001,11 @@ msgid "Has Received Warning Stock Sms"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primljena SMS obavijest o upozorenju zaliha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primljena SMS obavijest o upozorenju zaliha"
 >>>>>>> upstream/18.0
@@ -8071,7 +8114,11 @@ msgid "SMS Confirmation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS potvrda"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS potvrda"
 >>>>>>> upstream/18.0
@@ -9154,7 +9201,11 @@ msgid "SMS Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak SMS poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predložak SMS poruke"
 >>>>>>> upstream/18.0
@@ -10008,7 +10059,11 @@ msgid "SMS sent to the customer once the order is delivered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS poslan kupcu nakon što je nalog dostavljen."
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS poslan kupcu nakon što je nalog dostavljen."
 >>>>>>> upstream/18.0
@@ -10127,6 +10182,7 @@ msgstr "Prijenos"
 #: model_terms:ir.ui.view,arch_db:stock_sms.view_confirm_stock_sms
 msgid ""
 "You are about to confirm this Delivery Order by SMS Text Message.<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10831,6 +10887,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                This feature can easily be disabled from the Settings of "
 "Inventory or by clicking on \"Disable SMS\".<br/>"
 msgstr ""
@@ -10872,6 +10930,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

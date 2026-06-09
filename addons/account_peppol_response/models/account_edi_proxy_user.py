@@ -39,7 +39,11 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "/api/peppol/1/send_response",
+=======
+                endpoint=self._get_peppol_proxy_endpoint('1/send_response'),
+>>>>>>> upstream/18.0
 =======
                 endpoint=self._get_peppol_proxy_endpoint('1/send_response'),
 >>>>>>> upstream/18.0
@@ -159,9 +163,13 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 enc_key = content["enc_key"]
                 document_content = content["document"]
                 decoded_document = self._decrypt_data(document_content, enc_key)
+=======
+                decoded_document = self._peppol_get_decoded_document(content)
+>>>>>>> upstream/18.0
 =======
                 decoded_document = self._peppol_get_decoded_document(content)
 >>>>>>> upstream/18.0
@@ -249,6 +257,7 @@ class AccountEdiProxyClientUser(models.Model):
         processed_message_uuids = []
         other_messages = {}
         for uuid, content in messages.items():
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -406,6 +415,8 @@ class AccountEdiProxyClientUser(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             record = uuid_to_record[uuid]
             # In case of an error there is no 'document_type' in the content.
             if record._name != 'account.peppol.response' or 'document_type' in content and content['document_type'] != 'ApplicationResponse':
@@ -463,6 +474,9 @@ class AccountEdiProxyClientUser(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

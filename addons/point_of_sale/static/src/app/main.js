@@ -6,6 +6,10 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { browser } from "@web/core/browser/browser";
+>>>>>>> upstream/18.0
 =======
 import { browser } from "@web/core/browser/browser";
 >>>>>>> upstream/18.0
@@ -260,8 +264,11 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     mount(Loader, document.body, { getTemplate, translateFn: _t, props: { loader } });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -970,6 +977,9 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1452,7 +1462,10 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1468,6 +1481,9 @@ whenReady(() => {
     browser.sessionStorage.removeItem("pos_reload_recovery");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1485,6 +1501,7 @@ whenReady(() => {
             event.returnValue = confirmationMessage;
             return confirmationMessage;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1612,6 +1629,11 @@ whenReady(() => {
 >>>>>>> upstream/18.0
         const pos = app.env.services.pos;
         if (pos?.session?.state === "opening_control") {
+=======
+        const pos = app.env.services.pos;
+        if (pos?.session?.state === "opening_control") {
+            browser.sessionStorage.setItem("pos_reload_recovery", String(pos.session.id));
+>>>>>>> upstream/18.0
 =======
         const pos = app.env.services.pos;
         if (pos?.session?.state === "opening_control") {
@@ -1686,6 +1708,9 @@ whenReady(() => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

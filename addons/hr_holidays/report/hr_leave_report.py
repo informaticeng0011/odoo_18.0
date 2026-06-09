@@ -374,8 +374,13 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     allocation.id as allocation_id,
                     null as leave_id,
+=======
+                    null as leave_id,
+                    allocation.id as allocation_id,
+>>>>>>> upstream/18.0
 =======
                     null as leave_id,
                     allocation.id as allocation_id,
@@ -1746,7 +1751,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     allocation.department_id as department_id,
+=======
+                    employee.department_id as department_id,
+>>>>>>> upstream/18.0
 =======
                     employee.department_id as department_id,
 >>>>>>> upstream/18.0
@@ -2027,7 +2036,11 @@ class LeaveReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     request.department_id as department_id,
+=======
+                    employee.department_id as department_id,
+>>>>>>> upstream/18.0
 =======
                     employee.department_id as department_id,
 >>>>>>> upstream/18.0

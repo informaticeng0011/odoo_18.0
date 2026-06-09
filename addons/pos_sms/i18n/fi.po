@@ -64,6 +64,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_sms
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,6 +1435,9 @@
 =======
 # * pos_sms
 >>>>>>> upstream/18.0
+=======
+# * pos_sms
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Ossi Mantylahti <ossi.mantylahti@obs-solutions.fi>, 2025
@@ -1502,6 +1506,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1773,6 +1778,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Saara Hakanen <sahak@odoo.com>, 2026.
@@ -1970,6 +1978,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3165,6 +3174,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-03-29 12:12+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
@@ -3233,6 +3244,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3364,6 +3378,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3956,11 +3971,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_sms
 #: model:sms.template,body:pos_sms.sms_template_data_point_of_sale
 msgid ""
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4122,6 +4142,8 @@ msgstr ""
 "\n"
 "                {{ object.company_id.name }} : Tilauksesi viitteellä: {{ object.pos_reference }} käsiteltiin onnistuneesti summalla {{ object.currency_id.format(object.amount_total) }}. Käytä {{ object.pos_reference }} viitataksesi tilaukseen\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4595,6 +4617,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4983,7 +5008,11 @@ msgid "Point of Sale Configuration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kassan asetukset"
+=======
+msgstr "Kassajärjestelmän asetukset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kassajärjestelmän asetukset"
 >>>>>>> upstream/18.0
@@ -5244,7 +5273,11 @@ msgid "Point of Sale Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kassan tilaukset"
+=======
+msgstr "Kassajärjestelmän tilaukset"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kassajärjestelmän tilaukset"
 >>>>>>> upstream/18.0
@@ -5505,7 +5538,11 @@ msgid "Receipt template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Kuittimalli"
+=======
+msgstr "Kuittipohja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kuittipohja"
 >>>>>>> upstream/18.0
@@ -5767,7 +5804,11 @@ msgid "SMS will be sent to the customer based on this template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Tekstiviesti lähetetään asiakkaalle tämän mallin perusteella"
+=======
+msgstr "Tekstiviesti lähetetään asiakkaalle tämän mallipohjan perusteella"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tekstiviesti lähetetään asiakkaalle tämän mallipohjan perusteella"
 >>>>>>> upstream/18.0
@@ -5965,6 +6006,7 @@ msgstr "Tekstiviesti lähetetään asiakkaalle tämän mallipohjan perusteella"
 #: model:ir.model.fields,field_description:pos_sms.field_pos_config__sms_receipt_template_id
 #: model:ir.model.fields,field_description:pos_sms.field_res_config_settings__pos_sms_receipt_template_id
 msgid "Sms Receipt template"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7113,6 +7155,9 @@ msgstr "SMS-kuittimalli"
 >>>>>>> upstream/18.0
 =======
 msgstr "SMS-kuittimalli"
+>>>>>>> upstream/18.0
+=======
+msgstr "Tekstiviestikuitin mallipohja"
 >>>>>>> upstream/18.0
 =======
 msgstr "Tekstiviestikuitin mallipohja"

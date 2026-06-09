@@ -49,7 +49,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a class="btn btn-light flex-grow-1" t-att-href="'/my/timesheets?search_in=so&amp;search=%s' % sale_order.name" title="View Timesheets" target="_blank" role="button">View Timesheets</a>
+=======
+                <a class="btn btn-light flex-grow-1" t-att-href="'/my/timesheets?search_in=so&amp;search=%s' % sale_order.name" title="View Timesheets" target="_blank" role="button" t-if="is_timesheet">View Timesheets</a>
+>>>>>>> upstream/18.0
 =======
                 <a class="btn btn-light flex-grow-1" t-att-href="'/my/timesheets?search_in=so&amp;search=%s' % sale_order.name" title="View Timesheets" target="_blank" role="button" t-if="is_timesheet">View Timesheets</a>
 >>>>>>> upstream/18.0
@@ -298,7 +302,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a t-if="invoice.move_type == 'out_invoice' and invoice.state in ('draft', 'posted') and invoice.timesheet_count > 0"
+=======
+                <a t-if="invoice.move_type == 'out_invoice' and invoice.state in ('draft', 'posted') and timesheets"
+>>>>>>> upstream/18.0
 =======
                 <a t-if="invoice.move_type == 'out_invoice' and invoice.state in ('draft', 'posted') and timesheets"
 >>>>>>> upstream/18.0

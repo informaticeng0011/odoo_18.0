@@ -90,7 +90,12 @@ class ResPartner(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self_partner._nemhandel_fill_participant_supported_documents()
+=======
+        if self_partner.nemhandel_verification_state == 'valid':
+            self_partner._nemhandel_fill_participant_supported_documents()
+>>>>>>> upstream/18.0
 =======
         if self_partner.nemhandel_verification_state == 'valid':
             self_partner._nemhandel_fill_participant_supported_documents()

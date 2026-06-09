@@ -325,7 +325,11 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import format_date, frozendict
+=======
+from odoo.tools import formatLang, frozendict
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import formatLang, frozendict
 >>>>>>> upstream/18.0
@@ -1625,6 +1629,7 @@ class SaleAdvancePaymentInv(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for fixed_tax in fixed_taxes:
                 # Fixed taxes cannot be set as taxes on down payments as they always amounts to 100%
                 # of the tax amount. Therefore fixed taxes are removed and are replace by a new line
@@ -1645,6 +1650,8 @@ class SaleAdvancePaymentInv(models.TransientModel):
                     account
                 ])
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1927,6 +1934,7 @@ class SaleAdvancePaymentInv(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             if self.env['account.move'].require_tax_ids_on_invoice_lines() and not line_vals['tax_id']:
@@ -1937,6 +1945,9 @@ class SaleAdvancePaymentInv(models.TransientModel):
             if self.env['account.move'].require_tax_ids_on_invoice_lines() and not line_vals['tax_id']:
                 tax_0 = self.env['account.tax']._get_zero_tax()
                 line_vals['tax_id'] = (tax_0.id,)
+>>>>>>> upstream/18.0
+=======
+
 >>>>>>> upstream/18.0
 =======
 
@@ -2577,7 +2588,11 @@ class SaleAdvancePaymentInv(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             name = _("Down payment of %s%%", self.amount)
+=======
+            name = _("Down payment of %s%%", formatLang(self.env(context=context), self.amount))
+>>>>>>> upstream/18.0
 =======
             name = _("Down payment of %s%%", formatLang(self.env(context=context), self.amount))
 >>>>>>> upstream/18.0

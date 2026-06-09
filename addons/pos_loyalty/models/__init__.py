@@ -86,6 +86,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import account_move_line
+>>>>>>> upstream/18.0
 =======
 from . import account_move_line
 >>>>>>> upstream/18.0

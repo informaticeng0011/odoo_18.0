@@ -248,10 +248,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.stock_account.tests.test_anglo_saxon_valuation_reconciliation_common import ValuationReconciliationTestCommon
 from datetime import timedelta
 from odoo import fields
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -995,6 +998,9 @@ from odoo import Command, fields
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1843,7 +1849,10 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2584,6 +2593,10 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            custom_delivery_date = fields.Date.today()
+>>>>>>> upstream/18.0
 =======
             custom_delivery_date = fields.Date.today()
 >>>>>>> upstream/18.0
@@ -3449,7 +3462,11 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'delivery_date': fields.Date.today(),
+=======
+                'delivery_date': custom_delivery_date,
+>>>>>>> upstream/18.0
 =======
                 'delivery_date': custom_delivery_date,
 >>>>>>> upstream/18.0
@@ -4310,6 +4327,7 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 invoice.delivery_date, fields.Date.today(),
                 "Custom invoice delivery shouldn't change after line change",
             )
@@ -4411,6 +4429,8 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5058,6 +5078,7 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5118,6 +5139,8 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5672,6 +5695,9 @@ class TestSaleExpectedDate(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

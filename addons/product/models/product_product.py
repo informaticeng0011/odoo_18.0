@@ -194,6 +194,10 @@ from odoo.tools.misc import unique
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools.sql import SQL
+>>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -893,7 +897,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -1434,7 +1442,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price', inverse='_set_product_lst_price',
+=======
+        min_display_digits='Product Price', inverse='_set_product_lst_price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price', inverse='_set_product_lst_price',
 >>>>>>> upstream/18.0
@@ -1994,7 +2006,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         digits='Product Price',
+=======
+        min_display_digits='Product Price',
+>>>>>>> upstream/18.0
 =======
         min_display_digits='Product Price',
 >>>>>>> upstream/18.0
@@ -2685,8 +2701,14 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for record in self:
             record.write_date = max(record.write_date or self.env.cr.now(), record.product_tmpl_id.write_date)
+=======
+        now = self.env.cr.now()
+        for record in self:
+            record.write_date = max(record.write_date or now, record.product_tmpl_id.write_date or now)
+>>>>>>> upstream/18.0
 =======
         now = self.env.cr.now()
         for record in self:
@@ -3975,7 +3997,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         product_ids_by_template_id = {template.id: set(ids) for template, ids in self._read_group(
+=======
+        product_ids_by_template_id = {template.id: set(ids) for template, ids in self.with_context(active_test=False)._read_group(
+>>>>>>> upstream/18.0
 =======
         product_ids_by_template_id = {template.id: set(ids) for template, ids in self.with_context(active_test=False)._read_group(
 >>>>>>> upstream/18.0
@@ -4460,7 +4486,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends_context('display_default_code', 'seller_id', 'company_id', 'partner_id')
+=======
+    @api.depends_context('display_default_code', 'seller_id', 'company_id', 'partner_id', 'lang')
+>>>>>>> upstream/18.0
 =======
     @api.depends_context('display_default_code', 'seller_id', 'company_id', 'partner_id', 'lang')
 >>>>>>> upstream/18.0
@@ -5094,6 +5124,7 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         combine = expression.OR if is_positive else expression.AND
         domains = [
             [('name', operator, value)],
@@ -5105,6 +5136,8 @@ class ProductProduct(models.Model):
         if operator == '=' and isinstance(value, str) and (m := re.search(r'(\[(.*?)\])', value)):
             domains.append([('default_code', '=', m.group(2))])
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5664,6 +5697,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6222,9 +6258,12 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             domains.append([('product_tmpl_id.seller_ids', 'any', supplier_domain)])
         return combine(domains)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6808,6 +6847,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7520,7 +7562,12 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products.ids)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
+=======
+                    products_query = self._search(expression.AND([domain, [('default_code', operator, name)]]), limit=limit)
+                    products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products_query)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
+>>>>>>> upstream/18.0
 =======
                     products_query = self._search(expression.AND([domain, [('default_code', operator, name)]]), limit=limit)
                     products |= self.search_fetch(expression.AND([domain, [('id', 'not in', products_query)], [('name', operator, name)]]), ['display_name'], limit=limit_rest)
@@ -9222,8 +9269,11 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_discounted': record.currency_id._convert(record.price_discounted, record.env.company.currency_id, record.env.company, date or fields.Date.context_today(self))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10095,6 +10145,9 @@ class ProductProduct(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

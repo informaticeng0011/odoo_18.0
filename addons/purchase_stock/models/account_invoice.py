@@ -345,9 +345,15 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         'amount_currency': relevant_qty * price_unit_val_dif * line.move_id.direction_sign,
                         'balance': line.currency_id._convert(
                             relevant_qty * price_unit_val_dif * line.move_id.direction_sign,
+=======
+                        'amount_currency': relevant_qty * price_unit_val_dif,
+                        'balance': line.currency_id._convert(
+                            relevant_qty * price_unit_val_dif,
+>>>>>>> upstream/18.0
 =======
                         'amount_currency': relevant_qty * price_unit_val_dif,
                         'balance': line.currency_id._convert(
@@ -1717,6 +1723,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'tax_ids': [],
+>>>>>>> upstream/18.0
 =======
                         'tax_ids': [],
 >>>>>>> upstream/18.0
@@ -1785,6 +1795,7 @@ class AccountMove(models.Model):
                         'quantity': relevant_qty,
                         'price_unit': -price_unit_val_dif,
                         'price_subtotal': relevant_qty * -price_unit_val_dif,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3402,6 +3413,11 @@ class AccountMove(models.Model):
                         'balance': line.currency_id._convert(
                             relevant_qty * -price_unit_val_dif,
 >>>>>>> upstream/18.0
+=======
+                        'amount_currency': relevant_qty * -price_unit_val_dif,
+                        'balance': line.currency_id._convert(
+                            relevant_qty * -price_unit_val_dif,
+>>>>>>> upstream/18.0
                             line.company_currency_id,
                             line.company_id, fields.Date.today(),
                         ),
@@ -3426,6 +3442,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'tax_ids': [],
+>>>>>>> upstream/18.0
 =======
                         'tax_ids': [],
 >>>>>>> upstream/18.0

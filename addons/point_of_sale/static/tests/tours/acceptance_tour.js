@@ -54,7 +54,11 @@ registry.category("web_tour.tours").add("pos_basic_order_01_multi_payment_and_ch
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 change: "0.80",
+=======
+                change: "-0.80",
+>>>>>>> upstream/18.0
 =======
                 change: "-0.80",
 >>>>>>> upstream/18.0

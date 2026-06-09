@@ -170,6 +170,7 @@ class MockIAPReveal(MockIAPEnrich):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.assertMinePayload(mine, params['data'])
 =======
 >>>>>>> upstream/18.0
@@ -553,6 +554,9 @@ class MockIAPReveal(MockIAPEnrich):
 =======
 
 >>>>>>> upstream/18.0
+=======
+
+>>>>>>> upstream/18.0
             if sim_error and sim_error == 'jsonrpc_exception':
                 raise exceptions.AccessError(
                     'The url that this service requested returned an error. Please contact the author of the app. The url it tried to contact was [STRIPPED]'
@@ -571,6 +575,7 @@ class MockIAPReveal(MockIAPEnrich):
                 company_data = self._get_iap_company_data(base_name, service='mine')
                 if default_data:
                     company_data.update(default_data)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1036,6 +1041,8 @@ class MockIAPReveal(MockIAPEnrich):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 response.append(company_data)
 
             return {
@@ -1141,6 +1148,9 @@ class MockIAPReveal(MockIAPEnrich):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1349,6 +1359,7 @@ class MockIAPReveal(MockIAPEnrich):
             yield
 
     def _get_iap_company_data(self, base_name, service=None, add_values=None):
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1909,10 +1920,14 @@ class MockIAPReveal(MockIAPEnrich):
 =======
         company_data = super()._get_iap_dnb_company_data(base_name, service=service, add_values=add_values)
 >>>>>>> upstream/18.0
+=======
+        company_data = super()._get_iap_dnb_company_data(base_name, service=service, add_values=add_values)
+>>>>>>> upstream/18.0
         return company_data
 
     def assertMineCallParams(self, params):
         self.assertTrue(bool(params['account_token']))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2066,6 +2081,9 @@ class MockIAPReveal(MockIAPEnrich):
         self.assertEqual(payload['countries'], countries)
         self.assertEqual(payload['lead_number'], mine.lead_number)
         self.assertEqual(payload['search_type'], mine.search_type)
+=======
+        self.assertTrue(bool(params['db_uuid']))
+>>>>>>> upstream/18.0
 =======
         self.assertTrue(bool(params['db_uuid']))
 >>>>>>> upstream/18.0

@@ -812,6 +812,11 @@ class TestAccountMoveInRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.other_currency.rounding = 0.001
+
+>>>>>>> upstream/18.0
 =======
         self.other_currency.rounding = 0.001
 
@@ -1870,7 +1875,11 @@ class TestAccountMoveInRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
+=======
+                'price_unit': 0.045,
+>>>>>>> upstream/18.0
 =======
                 'price_unit': 0.045,
 >>>>>>> upstream/18.0
@@ -2457,12 +2466,15 @@ class TestAccountMoveInRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'price_unit': 0.05,
                 'price_subtotal': 0.01,
                 'price_total': 0.01,
                 'amount_currency': -0.01,
                 'credit': 0.01,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2867,6 +2879,9 @@ class TestAccountMoveInRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3278,8 +3293,13 @@ class TestAccountMoveInRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'amount_currency': 208.01,
                 'debit': 208.01,
+=======
+                'amount_currency': 208.0,
+                'debit': 208.0,
+>>>>>>> upstream/18.0
 =======
                 'amount_currency': 208.0,
                 'debit': 208.0,
@@ -3957,9 +3977,15 @@ class TestAccountMoveInRefundOnchanges(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'amount_untaxed': 160.01,
             'amount_tax': 48.0,
             'amount_total': 208.01,
+=======
+            'amount_untaxed': 160.0,
+            'amount_tax': 48.0,
+            'amount_total': 208.0,
+>>>>>>> upstream/18.0
 =======
             'amount_untaxed': 160.0,
             'amount_tax': 48.0,

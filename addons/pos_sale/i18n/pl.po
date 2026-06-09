@@ -99,6 +99,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_sale
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1024,6 +1025,9 @@
 =======
 # * pos_sale
 >>>>>>> upstream/18.0
+=======
+# * pos_sale
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -1183,6 +1187,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1428,6 +1433,10 @@
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -1649,6 +1658,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2723,6 +2733,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-04-14 08:20+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -2781,6 +2793,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2893,6 +2908,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3264,6 +3280,11 @@ msgstr ""
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
+"n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
 =======
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
@@ -3738,7 +3759,11 @@ msgid "(tax incl.)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "(z podatkiem)"
+=======
+msgstr "(z VAT)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(z VAT)"
 >>>>>>> upstream/18.0
@@ -4066,7 +4091,11 @@ msgid "Amount To Pay In POS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kwota do zapłaty w PoS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kwota do zapłaty w PoS"
 >>>>>>> upstream/18.0
@@ -4384,6 +4413,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Pozostała kwota do zapłaty w PoS, aby uniknąć podwójnej płatności lub "
+"podwójnego fakturowania."
+>>>>>>> upstream/18.0
 =======
 "Pozostała kwota do zapłaty w PoS, aby uniknąć podwójnej płatności lub "
 "podwójnego fakturowania."
@@ -4779,7 +4813,11 @@ msgid "Apply a down payment (fixed amount)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapłać zaliczkę (stała cena)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapłać zaliczkę (stała cena)"
 >>>>>>> upstream/18.0
@@ -5097,7 +5135,11 @@ msgid "Apply a down payment (percentage)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zastosuj zaliczkę (procent)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zastosuj zaliczkę (procent)"
 >>>>>>> upstream/18.0
@@ -5336,6 +5378,7 @@ msgstr "Zastosuj zaliczkę (procent)"
 #. module: pos_sale
 #: model:ir.model,name:pos_sale.model_res_config_settings
 msgid "Config Settings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5733,6 +5776,9 @@ msgstr "Konfiguracja ustawień"
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 
 #. module: pos_sale
 #: model:ir.model.fields,field_description:pos_sale.field_pos_order__currency_rate
@@ -5831,7 +5877,11 @@ msgid "Do you want to load the SN/Lots linked to the Sales Order?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Czy chcesz załadować SN/Lots powiązane z zamówieniem sprzedaży?"
+=======
+msgstr "Czy chcesz załadować Partie/NS powiązane z zamówieniem sprzedaży?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Czy chcesz załadować Partie/NS powiązane z zamówieniem sprzedaży?"
 >>>>>>> upstream/18.0
@@ -6175,6 +6225,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zaliczka (ref: %(order_reference)s dnia \n"
+" %(date)s)"
+>>>>>>> upstream/18.0
 =======
 "Zaliczka (ref: %(order_reference)s dnia \n"
 " %(date)s)"
@@ -6570,7 +6625,11 @@ msgid "Due balance: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Należność: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Należność: %s"
 >>>>>>> upstream/18.0
@@ -6888,7 +6947,11 @@ msgid "Error amount too high"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Błąd: suma za wysoka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Błąd: suma za wysoka"
 >>>>>>> upstream/18.0
@@ -7219,6 +7282,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wygląda na to, że w punkcie sprzedaży nie skonfigurowano produktu zaliczki. "
+"Możesz przejść do konfiguracji punktu sprzedaży, aby go wybrać."
+>>>>>>> upstream/18.0
 =======
 "Wygląda na to, że w punkcie sprzedaży nie skonfigurowano produktu zaliczki. "
 "Możesz przejść do konfiguracji punktu sprzedaży, aby go wybrać."
@@ -7838,7 +7906,11 @@ msgid "Optional Products:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcjonalne produkty:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcjonalne produkty:"
 >>>>>>> upstream/18.0
@@ -8744,7 +8816,11 @@ msgid "Paid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zapłacona"
+=======
+msgstr "Zapłacone"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapłacone"
 >>>>>>> upstream/18.0
@@ -9066,7 +9142,11 @@ msgid "Point of Sale Order Lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Linie zamówień w punktach sprzedaży"
+=======
+msgstr "Pozycje zamówień w punkcie sprzedaży"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pozycje zamówień w punkcie sprzedaży"
 >>>>>>> upstream/18.0
@@ -9383,7 +9463,11 @@ msgid "Point of Sale Orders"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Zamówienia Punktu Sprzedaży"
+=======
+msgstr "Zamówienia z Punktu Sprzedaży"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamówienia z Punktu Sprzedaży"
 >>>>>>> upstream/18.0
@@ -9814,7 +9898,11 @@ msgid "Source Sale Order Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Źródłowa linia zamówienia sprzedaży"
+=======
+msgstr "Źródłowa pozycja zamówienia sprzedaży"
+>>>>>>> upstream/18.0
 =======
 msgstr "Źródłowa pozycja zamówienia sprzedaży"
 >>>>>>> upstream/18.0
@@ -10163,7 +10251,11 @@ msgid "Transfer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Przekaz"
+=======
+msgstr "Transfer"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transfer"
 >>>>>>> upstream/18.0
@@ -10483,6 +10575,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Przeniesiono<br/>\n"
+"                                ze Sprzedaży"
+>>>>>>> upstream/18.0
 =======
 "Przeniesiono<br/>\n"
 "                                ze Sprzedaży"
@@ -10880,6 +10977,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Przeniesiono<br/>\n"
+"                            do PoS"
+>>>>>>> upstream/18.0
 =======
 "Przeniesiono<br/>\n"
 "                            do PoS"
@@ -11271,7 +11373,10 @@ msgstr "od"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11444,6 +11549,7 @@ msgid "x"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11451,6 +11557,9 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "x"
 >>>>>>> upstream/18.0
 =======
 msgstr "x"

@@ -238,9 +238,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { after, afterEach } from "@odoo/hoot";
 import {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -964,6 +967,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1702,6 +1708,7 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 } from "@odoo/hoot-dom";
 import { advanceFrame, advanceTime, animationFrame } from "@odoo/hoot-mock";
 import { hasTouch } from "@web/core/browser/feature_detection";
@@ -1717,6 +1724,8 @@ import { hasTouch } from "@web/core/browser/feature_detection";
  * @typedef {import("@odoo/hoot-dom").QueryOptions} QueryOptions
  * @typedef {import("@odoo/hoot-dom").Target} Target
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2447,6 +2456,9 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3182,7 +3194,11 @@ import { hasTouch } from "@web/core/browser/feature_detection";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("@odoo/hoot-dom").MaybePromise<T>} MaybePromise
+=======
+ * @typedef {T | PromiseLike<T>} MaybePromise
+>>>>>>> upstream/18.0
 =======
  * @typedef {T | PromiseLike<T>} MaybePromise
 >>>>>>> upstream/18.0
@@ -4180,6 +4196,7 @@ const waitForTouchDelay = async (delay) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 let unconsumedContains = [];
 
 afterEach(() => {
@@ -4187,6 +4204,8 @@ afterEach(() => {
         const targets = unconsumedContains.map(String).join(", ");
         unconsumedContains = [];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4814,6 +4833,9 @@ afterEach(async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5503,7 +5525,10 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             consumeContains();
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6126,6 +6151,10 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                cancelCurrentDragSequence = null;
+>>>>>>> upstream/18.0
 =======
                 cancelCurrentDragSequence = null;
 >>>>>>> upstream/18.0
@@ -6959,6 +6988,10 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                cancelCurrentDragSequence = null;
+>>>>>>> upstream/18.0
 =======
                 cancelCurrentDragSequence = null;
 >>>>>>> upstream/18.0
@@ -7793,6 +7826,7 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -8686,6 +8720,8 @@ export function contains(target, options) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             consumeContains();
 
             await cancelCurrentDragSequence?.();
@@ -8735,6 +8771,9 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8879,6 +8918,11 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            cancelCurrentDragSequence = cancelWithDelay;
+
+>>>>>>> upstream/18.0
 =======
             cancelCurrentDragSequence = cancelWithDelay;
 
@@ -9282,6 +9326,12 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+            await cancelCurrentDragSequence?.();
+
+>>>>>>> upstream/18.0
 =======
 
             await cancelCurrentDragSequence?.();
@@ -10711,7 +10761,12 @@ export function contains(target, options) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             await scroll(nodePromise, position);
+=======
+            // disable "scrollable" check
+            await scroll(nodePromise, position, { scrollable: false, ...options });
+>>>>>>> upstream/18.0
 =======
             // disable "scrollable" check
             await scroll(nodePromise, position, { scrollable: false, ...options });

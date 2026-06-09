@@ -338,7 +338,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml.move_id.state == 'posted').sorted(lambda aml: (aml.date, aml.move_name, aml.id))
+=======
+        all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml._filter_aml_lot_valuation()).sorted(lambda aml: (aml.date, aml.move_name, aml.id))
+>>>>>>> upstream/18.0
 =======
         all_invoices_amls = current_invoice_amls.sale_line_ids.invoice_lines.filtered(lambda aml: aml._filter_aml_lot_valuation()).sorted(lambda aml: (aml.date, aml.move_name, aml.id))
 >>>>>>> upstream/18.0
@@ -1559,7 +1563,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @api.depends('line_ids.sale_line_ids.order_id')
+=======
+    @api.depends('line_ids.sale_line_ids.order_id.effective_date')
+>>>>>>> upstream/18.0
 =======
     @api.depends('line_ids.sale_line_ids.order_id.effective_date')
 >>>>>>> upstream/18.0
@@ -2574,10 +2582,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         move_is_downpayment = self.invoice_line_ids.filtered(
             lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3333,6 +3344,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3343,6 +3355,8 @@ class AccountMove(models.Model):
         return dict(ctx, move_is_downpayment=move_is_downpayment)
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4093,6 +4107,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4851,11 +4868,14 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if move_is_downpayment is None:
             move_is_downpayment = self.move_id.invoice_line_ids.filtered(
             lambda line: any(line.sale_line_ids.mapped("is_downpayment"))
         )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5610,6 +5630,9 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6153,3 +6176,13 @@ class AccountMoveLine(models.Model):
             average_price_unit = product._compute_average_price(qty_invoiced, qty_to_invoice, so_line.move_ids, is_returned=is_line_reversing)
             price_unit = self.product_id.uom_id.with_company(self.company_id)._compute_price(average_price_unit, self.product_uom_id)
         return price_unit
+<<<<<<< HEAD
+=======
+
+    def _related_analytic_distribution(self):
+        # EXTENDS 'account'
+        vals = super()._related_analytic_distribution()
+        if not self.sale_line_ids and not self.analytic_distribution and self.move_id.stock_move_id.sale_line_id:
+            vals |= self.move_id.stock_move_id.sale_line_id.analytic_distribution or {}
+        return vals
+>>>>>>> upstream/18.0

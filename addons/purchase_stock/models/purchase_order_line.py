@@ -271,6 +271,7 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not move_dests:
             qty_to_attach = 0
             qty_to_push = self.product_qty - qty
@@ -281,6 +282,8 @@ class PurchaseOrderLine(models.Model):
 
         if float_compare(qty_to_attach, 0.0, precision_rounding=self.product_uom.rounding) > 0:
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -380,6 +383,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -510,6 +516,7 @@ class PurchaseOrderLine(models.Model):
     def _prepare_account_move_line(self, move=False):
         res = super()._prepare_account_move_line(move=move)
         if 'balance' not in res:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1370,6 +1377,8 @@ class PurchaseOrderLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             total_wo_tax = self.taxes_id.with_context(round=False, round_base=False).compute_all(
                 self.price_unit_discounted,
                 currency=self.order_id.currency_id,
@@ -1646,6 +1655,9 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

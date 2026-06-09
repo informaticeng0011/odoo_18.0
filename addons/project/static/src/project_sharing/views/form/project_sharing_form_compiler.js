@@ -23,7 +23,11 @@ function compileChatter(node, params) {
         displayFollowButton: params.displayFollowButton,
     });
     const chatterContainerHookXml = createElement("div");
+<<<<<<< HEAD
     chatterContainerHookXml.classList.add("o-mail-ChatterContainer", "o-mail-Form-chatter", "pt-2");
+=======
+    chatterContainerHookXml.classList.add("o-mail-ChatterContainer", "o-mail-Form-chatter");
+>>>>>>> upstream/18.0
     append(chatterContainerHookXml, chatterContainerXml);
     return chatterContainerHookXml;
 }

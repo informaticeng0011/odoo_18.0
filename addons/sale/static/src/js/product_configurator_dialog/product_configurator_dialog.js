@@ -63,7 +63,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Component, onWillStart, useState, useSubEnv } from "@odoo/owl";
+=======
+import { Component, onMounted, onWillStart, onWillUnmount, useState, useSubEnv } from "@odoo/owl";
+>>>>>>> upstream/18.0
 =======
 import { Component, onMounted, onWillStart, onWillUnmount, useState, useSubEnv } from "@odoo/owl";
 >>>>>>> upstream/18.0
@@ -415,6 +419,12 @@ export class ProductConfiguratorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+        onMounted(() => this.env.bus.trigger("FORM-CONTROLLER:FORM-IN-DIALOG:ADD"));
+        onWillUnmount(() => this.env.bus.trigger("FORM-CONTROLLER:FORM-IN-DIALOG:REMOVE"));
+>>>>>>> upstream/18.0
 =======
 
         onMounted(() => this.env.bus.trigger("FORM-CONTROLLER:FORM-IN-DIALOG:ADD"));
@@ -990,8 +1000,13 @@ export class ProductConfiguratorDialog extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const { price } = await this._updateCombination(product, quantity);
         product.quantity = quantity;
+=======
+        product.quantity = quantity;
+        const { price } = await this._updateCombination(product, quantity);
+>>>>>>> upstream/18.0
 =======
         product.quantity = quantity;
         const { price } = await this._updateCombination(product, quantity);

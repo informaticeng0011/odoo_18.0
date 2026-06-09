@@ -286,6 +286,7 @@ MIN_PY_VERSION = (3, 10)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 MAX_PY_VERSION = (3, 12)
 =======
 MAX_PY_VERSION = (3, 13)
@@ -958,6 +959,9 @@ MAX_PY_VERSION = (3, 13)
 >>>>>>> upstream/18.0
 =======
 MAX_PY_VERSION = (3, 13)
+>>>>>>> upstream/18.0
+=======
+MAX_PY_VERSION = (3, 14)
 >>>>>>> upstream/18.0
 =======
 MAX_PY_VERSION = (3, 14)

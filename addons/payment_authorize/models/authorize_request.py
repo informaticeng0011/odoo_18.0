@@ -178,12 +178,15 @@ class AuthorizeAPI:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'address': tx.partner_address,
                     'city': tx.partner_city,
                     'state': tx.partner_state_id.name or '',
                     'zip': tx.partner_zip,
                     'country': tx.partner_country_id.name or '',
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -198,6 +201,9 @@ class AuthorizeAPI:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -19,6 +19,11 @@ const QUICK_CREATE_CALENDAR_EVENT_FIELDS = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    // forwards the duration kept in the hidden, force_save'd field of the quick-create form
+    duration: { type: "float" },
+>>>>>>> upstream/18.0
 =======
     // forwards the duration kept in the hidden, force_save'd field of the quick-create form
     duration: { type: "float" },

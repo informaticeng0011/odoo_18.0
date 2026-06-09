@@ -15,6 +15,10 @@ import { registry } from "@web/core/registry";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { inputFiles } from "@web/../tests/utils";
+>>>>>>> upstream/18.0
 =======
 import { inputFiles } from "@web/../tests/utils";
 >>>>>>> upstream/18.0
@@ -98,7 +102,10 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -157,6 +164,9 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -213,8 +223,11 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -270,6 +283,9 @@ registry.category("web_tour.tours").add("mail_attachment_removal_tour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
