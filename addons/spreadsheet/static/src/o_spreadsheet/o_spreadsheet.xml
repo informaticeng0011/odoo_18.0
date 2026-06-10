@@ -359,6 +359,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  @version 18.0.22
  @date 2025-04-04T08:57:29.775Z
  @hash 89a327918
@@ -2152,6 +2153,11 @@
  @date 2026-06-06T09:36:18.622Z
  @hash 3ff29f6022
 >>>>>>> upstream/18.0
+=======
+ @version 18.0.70
+ @date 2026-06-06T09:36:18.622Z
+ @hash 3ff29f6022
+>>>>>>> upstream/18.0
 -->
 <odoo>
   <t t-name="o-spreadsheet-ActionButton">
@@ -2605,6 +2611,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        t-key="sheetName"
+>>>>>>> upstream/18.0
 =======
         t-key="sheetName"
 >>>>>>> upstream/18.0
@@ -3179,6 +3189,7 @@
           t-ref="sheetNameSpan"
           t-esc="sheetName"
           t-on-pointerdown="(ev) => this.onMouseEventSheetName(ev)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4018,6 +4029,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
           t-on-click="(ev) => this.onMouseEventSheetName(ev)"
           t-on-dblclick="() => this.onDblClick()"
           t-on-focusout="() => this.onFocusOut()"
@@ -4266,6 +4279,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4865,6 +4881,7 @@
               t-on-click.stop=""
               t-att-value="state.customHexColor"
               t-on-input="setHexColor"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5916,6 +5933,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             />
             <div class="o-color-preview" t-att-style="colorPreviewStyle"/>
           </div>
@@ -5979,6 +5998,7 @@
               t-as="content"
               t-key="content_index"
               t-att-class="content.class"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7240,6 +7260,9 @@
 =======
               t-attf-style="color: {{content.color || '#000000'}};"
 >>>>>>> upstream/18.0
+=======
+              t-attf-style="color: {{content.color || '#000000'}};"
+>>>>>>> upstream/18.0
               t-esc="content.value"
             />
           </div>
@@ -7531,7 +7554,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           t-if="props.focus !== 'inactive' and assistantIsAvailable and assistant.forcedClosed"
+=======
+          t-if="props.focus !== 'inactive' and assistantIsAvailable and canBeToggled and assistant.forcedClosed"
+>>>>>>> upstream/18.0
 =======
           t-if="props.focus !== 'inactive' and assistantIsAvailable and canBeToggled and assistant.forcedClosed"
 >>>>>>> upstream/18.0
@@ -8628,7 +8655,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           t-att-contenteditable="env.model.getters.isReadonly() ? 'false' : 'true'"
+=======
+          t-att-contenteditable="env.model.getters.isReadonly() ? 'false' : 'plaintext-only'"
+>>>>>>> upstream/18.0
 =======
           t-att-contenteditable="env.model.getters.isReadonly() ? 'false' : 'plaintext-only'"
 >>>>>>> upstream/18.0
@@ -9786,6 +9817,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         />
       </div>
       <div
@@ -10523,11 +10555,14 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
           t-on-wheel="onWheel"
         />
       </div>
       <div
         class="o-composer-assistant-container shadow position-absolute z-1"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12068,10 +12103,15 @@
         t-att-style="assistantContainerStyle"
         t-if="props.focus !== 'inactive' and assistantIsAvailable and !(canBeToggled and assistant.forcedClosed)"
 >>>>>>> upstream/18.0
+=======
+        t-att-style="assistantContainerStyle"
+        t-if="props.focus !== 'inactive' and assistantIsAvailable and !(canBeToggled and assistant.forcedClosed)"
+>>>>>>> upstream/18.0
         t-on-wheel.stop=""
         t-on-pointerdown.prevent.stop=""
         t-on-pointerup.prevent.stop=""
         t-on-click.prevent.stop="">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12527,6 +12567,10 @@
 =======
 >>>>>>> upstream/18.0
         <span
+=======
+        <span
+          t-if="canBeToggled and !assistant.forcedClosed"
+>>>>>>> upstream/18.0
 =======
         <span
           t-if="canBeToggled and !assistant.forcedClosed"
@@ -13945,6 +13989,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div
           class="o-composer-assistant overflow-auto"
           t-att-style="assistantStyle"
@@ -13952,6 +13997,9 @@
           t-on-pointerdown.prevent.stop=""
           t-on-click.prevent.stop=""
           t-on-pointerup.prevent.stop="">
+=======
+        <div class="o-composer-assistant overflow-auto" t-att-style="assistantStyle">
+>>>>>>> upstream/18.0
 =======
         <div class="o-composer-assistant overflow-auto" t-att-style="assistantStyle">
 >>>>>>> upstream/18.0
@@ -15429,7 +15477,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="o-grid o-two-columns" tabindex="-1" t-on-wheel="onMouseWheel">
+=======
+    <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
+>>>>>>> upstream/18.0
 =======
     <div class="o-grid o-two-columns" t-ref="dashboard" tabindex="-1" t-on-wheel="onMouseWheel">
 >>>>>>> upstream/18.0
@@ -16895,7 +16947,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <canvas class="o-figure-canvas o-gauge-chart w-100 h-100" t-ref="chartContainer"/>
+=======
+    <canvas class="o-figure-canvas o-gauge-chart w-100 h-100 d-block" t-ref="chartContainer"/>
+>>>>>>> upstream/18.0
 =======
     <canvas class="o-figure-canvas o-gauge-chart w-100 h-100 d-block" t-ref="chartContainer"/>
 >>>>>>> upstream/18.0
@@ -18176,7 +18232,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-figure-canvas o-scorecard w-100 h-100"
+=======
+      class="o-figure-canvas o-scorecard w-100 h-100 d-block"
+>>>>>>> upstream/18.0
 =======
       class="o-figure-canvas o-scorecard w-100 h-100 d-block"
 >>>>>>> upstream/18.0
@@ -19342,7 +19402,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           onFigureDeleted="props.onFigureDeleted"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19723,6 +19786,7 @@
         />
         <div class="o-figure-menu position-absolute m-2" t-if="!env.isDashboard()">
           <div
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20804,6 +20868,9 @@
 =======
             class="o-figure-menu-item d-flex-align-items-center"
 >>>>>>> upstream/18.0
+=======
+            class="o-figure-menu-item d-flex-align-items-center"
+>>>>>>> upstream/18.0
             t-if="!env.model.getters.isReadonly()"
             t-on-click="showMenu"
             t-ref="menuButton"
@@ -21074,7 +21141,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 onFigureDeleted="this.props.onFigureDeleted"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21821,7 +21891,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         onFigureDeleted.bind="focusDefaultElement"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22300,8 +22373,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-foreach="staticTables" t-as="table" t-key="table.id">
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -22490,6 +22566,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22853,7 +22932,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FiguresContainer onFigureDeleted="props.onFigureDeleted"/>
+=======
+      <FiguresContainer/>
+>>>>>>> upstream/18.0
 =======
       <FiguresContainer/>
 >>>>>>> upstream/18.0
@@ -23611,7 +23694,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         focusGrid="props.onFigureDeleted"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -24454,7 +24540,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-row-resizer overflow-hidden"
+=======
+      class="o-row-resizer"
+>>>>>>> upstream/18.0
 =======
       class="o-row-resizer"
 >>>>>>> upstream/18.0
@@ -25854,6 +25944,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenRowsGroups(sheetId)"
@@ -25881,6 +25972,8 @@
         </div>
       </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -26937,6 +27030,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27970,7 +28066,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-col-resizer overflow-hidden"
+=======
+      class="o-col-resizer d-flex"
+>>>>>>> upstream/18.0
 =======
       class="o-col-resizer d-flex"
 >>>>>>> upstream/18.0
@@ -29370,6 +29470,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-set="viewportZone" t-value="env.model.getters.getActiveMainViewport()"/>
       <t
         t-foreach="env.model.getters.getHiddenColsGroups(sheetId)"
@@ -29397,6 +29498,8 @@
         </div>
       </t>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30453,6 +30556,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32283,6 +32389,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <t t-set="shouldDisplayIcons" t-value="this.childrenHaveIcon"/>
+>>>>>>> upstream/18.0
 =======
       <t t-set="shouldDisplayIcons" t-value="this.childrenHaveIcon"/>
 >>>>>>> upstream/18.0
@@ -32322,7 +32432,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   t-if="childrenHaveIcon"
+=======
+                  t-if="shouldDisplayIcons"
+>>>>>>> upstream/18.0
 =======
                   t-if="shouldDisplayIcons"
 >>>>>>> upstream/18.0
@@ -32606,7 +32720,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div class="o-menu-item-name align-middle text-truncate" t-esc="getName(menuItem)"/>
+=======
+                <div class="o-menu-item-name text-truncate" t-esc="getName(menuItem)"/>
+>>>>>>> upstream/18.0
 =======
                 <div class="o-menu-item-name text-truncate" t-esc="getName(menuItem)"/>
 >>>>>>> upstream/18.0
@@ -33696,7 +33814,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   class="o-menu-item-root align-middle ms-auto"
+=======
+                  class="o-menu-item-root ms-auto align-items-center d-flex"
+>>>>>>> upstream/18.0
 =======
                   class="o-menu-item-root ms-auto align-items-center d-flex"
 >>>>>>> upstream/18.0
@@ -34781,7 +34903,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   class="o-menu-item-root align-middle ms-auto"
+=======
+                  class="o-menu-item-root ms-auto align-items-center d-flex"
+>>>>>>> upstream/18.0
 =======
                   class="o-menu-item-root ms-auto align-items-center d-flex"
 >>>>>>> upstream/18.0
@@ -35961,7 +36087,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37004,6 +37133,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -37839,7 +37971,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <div class="ms-auto" t-if="store.hasFocus">
+=======
+        <div class="ms-auto" t-if="store.hasFocus or isResettable">
+>>>>>>> upstream/18.0
 =======
         <div class="ms-auto" t-if="store.hasFocus or isResettable">
 >>>>>>> upstream/18.0
@@ -38277,7 +38413,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-if="store.hasFocus"
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40454,7 +40593,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="o-cf-preview w-100"
+=======
+      class="o-cf-preview w-100 d-flex align-items-center"
+>>>>>>> upstream/18.0
 =======
       class="o-cf-preview w-100 d-flex align-items-center"
 >>>>>>> upstream/18.0
@@ -41160,6 +41303,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <div class="position-relative h-100 w-100 d-flex align-items-center">
         <div
           class="o-cf-drag-handle h-100 position-absolute d-flex align-items-center o-button-icon">
@@ -41195,6 +41339,8 @@
             <t t-call="o-spreadsheet-Icon.TRASH_FILLED"/>
           </div>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41748,6 +41894,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -42617,7 +42766,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             ranges="[this.state.dataRange]"
+=======
+            t-key="selectionInputKey"
+            ranges="[specificRange]"
+>>>>>>> upstream/18.0
 =======
             t-key="selectionInputKey"
             ranges="[specificRange]"
@@ -43710,7 +43864,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-set="granularity" t-value="props.dimension.granularity"/>
+=======
+        <t t-set="granularityProps" t-value="props.dimension.granularity || 'month'"/>
+>>>>>>> upstream/18.0
 =======
         <t t-set="granularityProps" t-value="props.dimension.granularity || 'month'"/>
 >>>>>>> upstream/18.0
@@ -45051,11 +45209,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             t-if="props.availableGranularities.has(granularity) || granularity === props.dimension.granularity"
             t-att-value="granularity"
             t-esc="periods[granularity]"
             t-att-selected="granularity === props.dimension.granularity or (granularity === 'month' and !props.dimension.granularity)"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -46056,6 +46217,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47089,7 +47253,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-foreach="props.definition.columns" t-as="col" t-key="col.nameWithGranularity">
+=======
+      <t t-foreach="props.definition.columns" t-as="col" t-key="col_index">
+>>>>>>> upstream/18.0
 =======
       <t t-foreach="props.definition.columns" t-as="col" t-key="col_index">
 >>>>>>> upstream/18.0
@@ -48443,7 +48611,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <t t-foreach="props.definition.rows" t-as="row" t-key="row.nameWithGranularity">
+=======
+      <t t-foreach="props.definition.rows" t-as="row" t-key="row_index">
+>>>>>>> upstream/18.0
 =======
       <t t-foreach="props.definition.rows" t-as="row" t-key="row_index">
 >>>>>>> upstream/18.0
@@ -49840,6 +50012,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            invalid="isCalculatedMeasureInvalid"
+>>>>>>> upstream/18.0
 =======
             invalid="isCalculatedMeasureInvalid"
 >>>>>>> upstream/18.0
@@ -51094,7 +51270,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51884,6 +52063,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

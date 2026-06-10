@@ -119,7 +119,10 @@ class User(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.sudo().microsoft_last_sync_date = fields.datetime.now()
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -579,7 +582,11 @@ class User(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if sync_status == 'sync_active' and not self.microsoft_calendar_token:
+=======
+            if sync_status == 'sync_active' and not self.sudo().microsoft_calendar_token:
+>>>>>>> upstream/18.0
 =======
             if sync_status == 'sync_active' and not self.sudo().microsoft_calendar_token:
 >>>>>>> upstream/18.0

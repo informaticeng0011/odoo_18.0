@@ -33,6 +33,10 @@ import { user } from "@web/core/user";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Record } from "@web/model/relational_model/record";
+>>>>>>> upstream/18.0
 =======
 import { Record } from "@web/model/relational_model/record";
 >>>>>>> upstream/18.0
@@ -145,6 +149,7 @@ export function useTranslationDialog() {
     const addDialog = useOwnedDialogs();
 
     async function openTranslationDialog({ record, fieldName }) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -312,6 +317,11 @@ export function useTranslationDialog() {
         // in case of DynamicList list views model.root won't be a Record but a DynamicList itself
         const saved =
             record.model.root instanceof Record ? await record.model.root.save() : record.save();
+>>>>>>> upstream/18.0
+=======
+        // in case of DynamicList list views model.root won't be a Record but a DynamicList itself
+        const saved =
+            record.model.root instanceof Record ? await record.model.root.save() : await record.save();
 >>>>>>> upstream/18.0
 =======
         // in case of DynamicList list views model.root won't be a Record but a DynamicList itself

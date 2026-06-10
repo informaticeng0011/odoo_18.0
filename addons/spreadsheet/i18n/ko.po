@@ -270,8 +270,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* spreadsheet
 # 
+=======
+# * spreadsheet
+#
+>>>>>>> upstream/18.0
 =======
 # * spreadsheet
 #
@@ -1684,6 +1689,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Wil Odoo, 2024
 # Daye Jeong, 2025
 # Sarah Park, 2025
@@ -2517,6 +2523,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Daye Jeong, 2025
 # Wil Odoo, 2025
 # Sarah Park, 2025
@@ -2790,6 +2798,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3086,6 +3095,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -3454,6 +3466,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5250,6 +5263,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-25 18:00+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-24 17:39+0000\n"
+"PO-Revision-Date: 2026-04-25 18:00+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Korean <https://translate.odoo.com/projects/odoo-18/"
 "spreadsheet/ko/>\n"
 "Language: ko\n"
@@ -5257,6 +5275,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6187,6 +6206,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -6464,7 +6486,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "비어있는 문자열 또는 유효한 문자열에 대한 참조입니다. 문자열이 비어있는 경우 텍스트는 단순하게 연결됩니다."
+=======
+msgstr ""
+"비어있는 문자열 또는 유효한 문자열에 대한 참조입니다. 문자열이 비어있는 경우 "
+"텍스트는 단순하게 연결됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "비어있는 문자열 또는 유효한 문자열에 대한 참조입니다. 문자열이 비어있는 경우 "
@@ -8177,8 +8205,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "%(replaceable_count)s의 일치 항목이 바뀌었습니다. %(irreplaceable_count)s의 일치 항목은 수식의 "
 "일부이므로 대체할 수 없습니다."
+=======
+"%(replaceable_count)s의 일치 항목이 바뀌었습니다. %(irreplaceable_count)s의 "
+"일치 항목은 수식의 일부이므로 대체할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 "%(replaceable_count)s의 일치 항목이 바뀌었습니다. %(irreplaceable_count)s의 "
 "일치 항목은 수식의 일부이므로 대체할 수 없습니다."
@@ -9603,8 +9636,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "%s is not a valid day of month (it should be a number between 1 and 31)"
+=======
+msgid "%s is not a valid day of month (it should be a number between 1 and 31)"
+>>>>>>> upstream/18.0
 =======
 msgid "%s is not a valid day of month (it should be a number between 1 and 31)"
 >>>>>>> upstream/18.0
@@ -10513,6 +10550,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "(0) Exact match. \n"
 "        (-1) Return next smaller item if no match. \n"
 "        (1) Return next greater item if no match. \n"
@@ -10742,11 +10780,17 @@ msgstr ""
 "(1) Return next greater item if no match.         (2) Wildcard match."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"(0) Exact match.         (-1) Return next smaller item if no match.         "
+"(1) Return next greater item if no match.         (2) Wildcard match."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13602,6 +13646,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "(1) Search starting at first item.       (-1) Search starting at last "
 "item.       (2) Perform a binary search that relies on lookup_array being "
 "sorted in ascending order. If not sorted, invalid results will be "
@@ -13652,6 +13698,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13860,7 +13909,10 @@ msgstr "2 행"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14038,6 +14090,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14427,7 +14482,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "A1 표기법(TRUE)과 R1C1 표기법(FALSE) 중 어떤 스타일을 사용할지 여부를 나타내는 불리언입니다."
+=======
+msgstr ""
+"A1 표기법(TRUE)과 R1C1 표기법(FALSE) 중 어떤 스타일을 사용할지 여부를 나타내"
+"는 불리언입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "A1 표기법(TRUE)과 R1C1 표기법(FALSE) 중 어떤 스타일을 사용할지 여부를 나타내"
@@ -16055,7 +16116,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "불리언; TRUE인 경우 텍스트 인자에서 선택한 빈 셀은 결과값에 포함되지 않습니다."
+=======
+msgstr ""
+"불리언; TRUE인 경우 텍스트 인자에서 선택한 빈 셀은 결과값에 포함되지 않습니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "불리언; TRUE인 경우 텍스트 인자에서 선택한 빈 셀은 결과값에 포함되지 않습니"
@@ -17683,7 +17750,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "범위의 첫 번째 열 또는 행에 해당하는 참 또는 거짓 값을 포함하는 열 또는 행입니다."
+=======
+msgstr ""
+"범위의 첫 번째 열 또는 행에 해당하는 참 또는 거짓 값을 포함하는 열 또는 행입"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "범위의 첫 번째 열 또는 행에 해당하는 참 또는 거짓 값을 포함하는 열 또는 행입"
@@ -19333,10 +19406,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "A flag specifying whether to return additional regression statistics or only"
 " the linear coefficients and the y-intercept"
 msgstr "추가 회귀 통계를 반환할지, 아니면 선형 계수와 y-절편만 반환할지 지정하는 플래그입니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -20149,6 +20225,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20977,7 +21056,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "요일을 나타내는 데 사용되는 숫자입니다. 기본적으로 일요일 = 1으로 카운트가 시작됩니다."
+=======
+msgstr ""
+"요일을 나타내는 데 사용되는 숫자입니다. 기본적으로 일요일 = 1으로 카운트가 시"
+"작됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "요일을 나타내는 데 사용되는 숫자입니다. 기본적으로 일요일 = 1으로 카운트가 시"
@@ -22643,7 +22728,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "투자 관련 수입 또는 지불을 포함한 범위입니다. 배열에는 봇 결제와 수입이 포함되어야 합니다."
+=======
+msgstr ""
+"투자 관련 수입 또는 지불을 포함한 범위입니다. 배열에는 봇 결제와 수입이 포함"
+"되어야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "투자 관련 수입 또는 지불을 포함한 범위입니다. 배열에는 봇 결제와 수입이 포함"
@@ -24282,8 +24373,12 @@ msgstr "휴일로 고려할 날짜의 일련번호가 포함된 범위 또는 �
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A range or array constant containing the dates to consider as holidays."
+=======
+msgid "A range or array constant containing the dates to consider as holidays."
+>>>>>>> upstream/18.0
 =======
 msgid "A range or array constant containing the dates to consider as holidays."
 >>>>>>> upstream/18.0
@@ -25153,6 +25248,7 @@ msgid ""
 "of whole years between start_date and end_date), \"M\" (the number of whole "
 "months between start_date and end_date), \"D\" (the number of days between "
 "start_date and end_date), \"MD\" (the number of days between start_date and "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26440,6 +26536,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "end_date after subtracting whole months), \"YM\" (the number of whole months "
 "between start_date and end_date after subtracting whole years), \"YD\" (the "
 "number of days between start_date and end_date, assuming start_date and "
@@ -26720,6 +26818,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27407,7 +27508,10 @@ msgstr "숫자의 절댓값입니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27774,6 +27878,9 @@ msgstr "접근 에러"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28289,7 +28396,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "브라우저에서 클립보드에 대한 액세스를 거부했습니다. 브라우저 설정에서 이 페이지에 대한 클립보드 권한을 활성화해주세요."
+=======
+msgstr ""
+"브라우저에서 클립보드에 대한 액세스를 거부했습니다. 브라우저 설정에서 이 페이"
+"지에 대한 클립보드 권한을 활성화해주세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "브라우저에서 클립보드에 대한 액세스를 거부했습니다. 브라우저 설정에서 이 페이"
@@ -30024,10 +30137,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "filtered set will be the intersection of the sets produced by each "
 "criterion-range pair."
 msgstr "추가 기준을 평가할 수 있는 추가 범위입니다. 필터링된 집합은 각 기준 범위 쌍에 의해 생성된 집합의 교집합이 됩니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30840,6 +30956,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31785,10 +31904,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "All the dates should be greater or equal to the first date in cashflow_dates"
 " (%s)."
 msgstr "모든 날짜는 cashflow_dates 의 첫 번째 날짜보다 크거나 같아야 합니다. (%s)."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -32600,6 +32722,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33436,7 +33561,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "작동 전 데이터베이스 값을 필터링할 기준을 0개 이상 포함하고 있는 배열 또는 범위."
+=======
+msgstr ""
+"작동 전 데이터베이스 값을 필터링할 기준을 0개 이상 포함하고 있는 배열 또는 범"
+"위."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "작동 전 데이터베이스 값을 필터링할 기준을 0개 이상 포함하고 있는 배열 또는 범"
@@ -35075,11 +35206,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "represents some logical value, i.e. TRUE or FALSE, or an expression that can"
 " be coerced to a logical value."
 msgstr ""
 "논리 값, TRUE 또는 FALSE를 나타내는 표현식 또는 논리 값으로 강제할 수 있는 표현식이 포함된 셀에 대한 참조입니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -35892,6 +36026,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36708,7 +36845,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "논리 값, TRUE 또는 FALSE를 나타내는 표현식 또는 표현식이 포함된 셀에 대한 참조입니다."
+=======
+msgstr ""
+"논리 값, TRUE 또는 FALSE를 나타내는 표현식 또는 표현식이 포함된 셀에 대한 참"
+"조입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "논리 값, TRUE 또는 FALSE를 나타내는 표현식 또는 표현식이 포함된 셀에 대한 참"
@@ -38336,7 +38479,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "논리 값을 나타내는 표현식 또는 표현식이 들어 있는 셀에 대한 참조입니다."
+=======
+msgstr ""
+"논리 값을 나타내는 표현식 또는 표현식이 들어 있는 셀에 대한 참조입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "논리 값을 나타내는 표현식 또는 표현식이 들어 있는 셀에 대한 참조입니다."
@@ -39700,7 +39848,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "사용할 일수 계산 방법을 나타내는 지표입니다. (0) 미국 NASD식 (1) 유럽식"
+=======
+msgstr ""
+"사용할 일수 계산 방법을 나타내는 지표입니다. (0) 미국 NASD식 (1) 유럽식"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "사용할 일수 계산 방법을 나타내는 지표입니다. (0) 미국 NASD식 (1) 유럽식"
@@ -41061,8 +41214,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "참조가 행/열의 절대 참조인지 여부를 나타내는 지표입니다. 1 은행 및 열의 절대 참조(예. $A$1), 2는 행 절대 참조 및 열 상대"
 " 참조(예. A$1), 3은 행 상대 참조 및 열 절대 참조(예. $A1), 4는 행 및 열의 상대 참조(예. A1)입니다."
+=======
+"참조가 행/열의 절대 참조인지 여부를 나타내는 지표입니다. 1 은행 및 열의 절대 "
+"참조(예. $A$1), 2는 행 절대 참조 및 열 상대 참조(예. A$1), 3은 행 상대 참조 "
+"및 열 절대 참조(예. $A1), 4는 행 및 열의 상대 참조(예. A1)입니다."
+>>>>>>> upstream/18.0
 =======
 "참조가 행/열의 절대 참조인지 여부를 나타내는 지표입니다. 1 은행 및 열의 절대 "
 "참조(예. $A$1), 2는 행 절대 참조 및 열 상대 참조(예. A$1), 3은 행 상대 참조 "
@@ -42690,7 +42849,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "단위 행렬의 dimension 크기를 지정하는 정수입니다. 이 수는 양수여야 합니다."
+=======
+msgstr ""
+"단위 행렬의 dimension 크기를 지정하는 정수입니다. 이 수는 양수여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "단위 행렬의 dimension 크기를 지정하는 정수입니다. 이 수는 양수여야 합니다."
@@ -44055,7 +44219,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "행렬식이 계산될 곱셈 역수 행렬을 표시하는 동일한 개수의 행과 열이 있는 범위입니다."
+=======
+msgstr ""
+"행렬식이 계산될 곱셈 역수 행렬을 표시하는 동일한 개수의 행과 열이 있는 범위입"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "행렬식이 계산될 곱셈 역수 행렬을 표시하는 동일한 개수의 행과 열이 있는 범위입"
@@ -45683,7 +45853,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "행렬식이 계산될 행렬을 표시하는 동일한 개수의 행과 열이 있는 범위입니다."
+=======
+msgstr ""
+"행렬식이 계산될 행렬을 표시하는 동일한 개수의 행과 열이 있는 범위입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "행렬식이 계산될 행렬을 표시하는 동일한 개수의 행과 열이 있는 범위입니다."
@@ -46825,6 +47000,7 @@ msgstr "이미지 전송 중 예기치 않은 오류가 발생했습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "An unexpected error occurred while pasting content.\n"
 "          This is probably due to a spreadsheet version mismatch."
@@ -47064,6 +47240,11 @@ msgstr ""
 msgid ""
 "An unexpected error occurred. Submit a support ticket at odoo.com/help."
 msgstr "예상하지 못한 오류가 발생했습니다. odoo.com/help에서 도움을 요청하세요."
+=======
+msgid "An unexpected error occurred. Submit a support ticket at odoo.com/help."
+msgstr ""
+"예상하지 못한 오류가 발생했습니다. odoo.com/help에서 도움을 요청하세요."
+>>>>>>> upstream/18.0
 =======
 msgid "An unexpected error occurred. Submit a support ticket at odoo.com/help."
 msgstr ""
@@ -49127,7 +49308,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "데이터 집합의 선형 회귀를 기반으로 지정된 x에 대한 예상 y 값을 계산합니다."
+=======
+msgstr ""
+"데이터 집합의 선형 회귀를 기반으로 지정된 x에 대한 예상 y 값을 계산합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "데이터 집합의 선형 회귀를 기반으로 지정된 x에 대한 예상 y 값을 계산합니다."
@@ -50503,7 +50689,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "예상 수익률을 기준으로 만기 시 이자를 지급하는 증권의 가격을 계산합니다."
+=======
+msgstr ""
+"예상 수익률을 기준으로 만기 시 이자를 지급하는 증권의 가격을 계산합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "예상 수익률을 기준으로 만기 시 이자를 지급하는 증권의 가격을 계산합니다."
@@ -51861,7 +52052,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "데이터 집합의 회귀에서 각 x에 대해 예측된 y 값의 표준 오차를 계산합니다."
+=======
+msgstr ""
+"데이터 집합의 회귀에서 각 x에 대해 예측된 y 값의 표준 오차를 계산합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "데이터 집합의 회귀에서 각 x에 대해 예측된 y 값의 표준 오차를 계산합니다."
@@ -53256,7 +53452,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "((value in cell) x (Grand Total of Grand Totals)) / ((Grand Row Total) x (Grand Column Total))"
+=======
+"((value in cell) x (Grand Total of Grand Totals)) / ((Grand Row Total) x "
+"(Grand Column Total))"
+>>>>>>> upstream/18.0
 =======
 "((value in cell) x (Grand Total of Grand Totals)) / ((Grand Row Total) x "
 "(Grand Column Total))"
@@ -54686,12 +54887,15 @@ msgstr "시트의 모든 행을 숨길 수는 없습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Cannot multiply matrices : incompatible matrices size."
 msgstr "행렬을 곱할 수 없음: 호환되지 않는 행렬 크기입니다."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55517,7 +55721,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "정렬할 수 없습니다. 정렬하려면 하나의 셀만 선택하거나 크기가 같은 병합된 셀을 선택하십시오."
+=======
+msgstr ""
+"정렬할 수 없습니다. 정렬하려면 하나의 셀만 선택하거나 크기가 같은 병합된 셀"
+"을 선택하십시오."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "정렬할 수 없습니다. 정렬하려면 하나의 셀만 선택하거나 크기가 같은 병합된 셀"
@@ -57182,7 +57392,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "피벗 정의를 수정하려면 데이터를 다시 로드해야 하므로 완료하는 데 다소 시간이 걸릴 수 있습니다."
+=======
+msgstr ""
+"피벗 정의를 수정하려면 데이터를 다시 로드해야 하므로 완료하는 데 다소 시간이 "
+"걸릴 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "피벗 정의를 수정하려면 데이터를 다시 로드해야 하므로 완료하는 데 다소 시간이 "
@@ -59043,6 +59259,7 @@ msgstr "두 숫자 값을 비교하고 같은 경우 1을 반환합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -59057,6 +59274,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -59816,6 +60035,9 @@ msgstr "총액에서 계산"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -60645,7 +60867,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "특정 기간 내에 투자가 특정 가치에 도달하기까지 필요한 이율을 계산합니다."
+=======
+msgstr ""
+"특정 기간 내에 투자가 특정 가치에 도달하기까지 필요한 이율을 계산합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "특정 기간 내에 투자가 특정 가치에 도달하기까지 필요한 이율을 계산합니다."
@@ -62034,7 +62261,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "동적 피벗 수식을 사용하는 것이 좋습니다: %s 또는 데이터 메뉴에서 정적 피벗을 다시 삽입합니다."
+=======
+msgstr ""
+"동적 피벗 수식을 사용하는 것이 좋습니다: %s 또는 데이터 메뉴에서 정적 피벗을 "
+"다시 삽입합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "동적 피벗 수식을 사용하는 것이 좋습니다: %s 또는 데이터 메뉴에서 정적 피벗을 "
@@ -64519,7 +64752,10 @@ msgstr "가격에 따른 유가증권 할인율."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65507,6 +65743,9 @@ msgstr "누락된 셀만 표시"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -66525,7 +66764,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "각 열 또는 계열의 모든 값을 해당 열 또는 계열의 전체에 대한 백분율로 표시합니다."
+=======
+msgstr ""
+"각 열 또는 계열의 모든 값을 해당 열 또는 계열의 전체에 대한 백분율로 표시합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "각 열 또는 계열의 모든 값을 해당 열 또는 계열의 전체에 대한 백분율로 표시합니"
@@ -68154,7 +68399,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "특정 필드에서 선택한 값의 순위를 표시하여 필드에서 가장 큰 항목을 1로 표시하고 작은 값은 순위 값이 높을수록 나열합니다."
+=======
+msgstr ""
+"특정 필드에서 선택한 값의 순위를 표시하여 필드에서 가장 큰 항목을 1로 표시하"
+"고 작은 값은 순위 값이 높을수록 나열합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "특정 필드에서 선택한 값의 순위를 표시하여 필드에서 가장 큰 항목을 1로 표시하"
@@ -69783,6 +70034,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "특정 필드에서 선택한 값의 순위를 표시하여 필드에서 가장 작은 항목을 1로, 큰 값은 순위 값이 높을수록 나열합니다."
 =======
 msgstr ""
@@ -71134,6 +71386,11 @@ msgstr ""
 "특정 필드에서 선택한 값의 순위를 표시하여 필드에서 가장 작은 항목을 1로, 큰 "
 "값은 순위 값이 높을수록 나열합니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"특정 필드에서 선택한 값의 순위를 표시하여 필드에서 가장 작은 항목을 1로, 큰 "
+"값은 순위 값이 높을수록 나열합니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -71409,8 +71666,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Displays the value for successive items in the Base field as a running "
 "total."
+=======
+"Displays the value for successive items in the Base field as a running total."
+>>>>>>> upstream/18.0
 =======
 "Displays the value for successive items in the Base field as a running total."
 >>>>>>> upstream/18.0
@@ -72499,7 +72760,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "각 행 또는 범주의 값을 해당 행 또는 범주에 대한 총합의 백분율로 표시합니다."
+=======
+msgstr ""
+"각 행 또는 범주의 값을 해당 행 또는 범주에 대한 총합의 백분율로 표시합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "각 행 또는 범주의 값을 해당 행 또는 범주에 대한 총합의 백분율로 표시합니다."
@@ -73861,10 +74127,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Displays values as a percentage of the grand total of all the values or data"
 " points in the report."
 msgstr "값을 보고서에 있는 모든 값 또는 데이터 요소의 총합계에 대한 백분율로 표시합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -74677,6 +74946,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -75237,6 +75509,7 @@ msgstr "선택한 기준 필드에 있는 기준 항목의 값과의 차이로 �
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76589,6 +76862,10 @@ msgid ""
 "Displays values as the percentage difference from the value of the Base item "
 "in the Base field."
 >>>>>>> upstream/18.0
+=======
+"Displays values as the percentage difference from the value of the Base item "
+"in the Base field."
+>>>>>>> upstream/18.0
 msgstr "선택한 기준 필드에서 기준 항목과의 백분율 차이로 값을 표시합니다."
 
 #. module: spreadsheet
@@ -76731,8 +77008,11 @@ msgstr "도넛"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/public_readonly_app/public_readonly.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -77361,8 +77641,12 @@ msgstr "오일러의 수 e(~2.718)를 거듭제곱한 값입니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Evaluation of function [[FUNCTION_NAME]] caused a divide by zero error."
+=======
+msgid "Evaluation of function [[FUNCTION_NAME]] caused a divide by zero error."
+>>>>>>> upstream/18.0
 =======
 msgid "Evaluation of function [[FUNCTION_NAME]] caused a divide by zero error."
 >>>>>>> upstream/18.0
@@ -78799,7 +79083,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "함수 ${name}에 'META' 형식의 인수가 두 개 이상 선언되어 있습니다. 'META' 형은 단독으로만 선언할 수 있습니다."
+=======
+"함수 ${name}에 'META' 형식의 인수가 두 개 이상 선언되어 있습니다. 'META' 형"
+"은 단독으로만 선언할 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 "함수 ${name}에 'META' 형식의 인수가 두 개 이상 선언되어 있습니다. 'META' 형"
 "은 단독으로만 선언할 수 있습니다."
@@ -80158,6 +80447,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "함수 ${name}에 선택적 인수 뒤에 선언된 필수 인수가 있습니다. 모든 선택적 인수는 모든 필수 인수 뒤에 나열되어야 합니다."
 =======
 "함수 ${name}에 선택적 인수 뒤에 선언된 필수 인수가 있습니다. 모든 선택적 인수"
@@ -81239,11 +81529,16 @@ msgstr ""
 "함수 ${name}에 선택적 인수 뒤에 선언된 필수 인수가 있습니다. 모든 선택적 인수"
 "는 모든 필수 인수 뒤에 나열되어야 합니다."
 >>>>>>> upstream/18.0
+=======
+"함수 ${name}에 선택적 인수 뒤에 선언된 필수 인수가 있습니다. 모든 선택적 인수"
+"는 모든 필수 인수 뒤에 나열되어야 합니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82056,6 +82351,8 @@ msgstr "함수 ${name}에 불변 인수가 가변 인수 다음에 선언되어 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Function ${name} has no-repeatable arguments declared after repeatable ones. "
 "All repeatable arguments must be declared last."
 msgstr ""
@@ -82330,6 +82627,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -82907,6 +83207,7 @@ msgstr "함수 [[FUNCTION_NAME]] 에서 결과를 찾지 못했습니다."
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86297,6 +86598,8 @@ msgstr "함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나,
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Function [[FUNCTION_NAME]] expects number values for %s, but got a boolean."
 msgstr ""
 "함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나, 부울 값이 출력되었"
@@ -86456,6 +86759,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -87003,6 +87309,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나, 문자열이 "
@@ -87299,6 +87606,11 @@ msgstr "함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나,
 =======
 msgstr "함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나, 문자열이 "
 "출력되었습니다."
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나, 문자열이 출력되었습"
+"니다."
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -88317,6 +88629,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88620,6 +88933,11 @@ msgstr "함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나,
 =======
 msgstr "함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나, 빈 값이 "
 "출력되었습니다."
+>>>>>>> upstream/18.0
+=======
+msgstr ""
+"함수 [[FUNCTION_NAME]] 의 %s에 기대되는 값은 숫자 값이나, 빈 값이 출력되었습"
+"니다."
 >>>>>>> upstream/18.0
 =======
 msgstr ""
@@ -89505,6 +89823,7 @@ msgid ""
 "Given a general exponential form of y = b*m^x for a curve fit, calculates b "
 "if TRUE or forces b to be 1 and only calculates the m values if FALSE."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -90857,6 +91176,10 @@ msgstr ""
 "커브 맞춤에 대한 일반적인 지수 형태인 y = b*m^x가 주어지면 TRUE인 경우 b를 계"
 "산하거나 b를 1로 강제하고 FALSE인 경우 m 값만 계산합니다."
 >>>>>>> upstream/18.0
+=======
+"커브 맞춤에 대한 일반적인 지수 형태인 y = b*m^x가 주어지면 TRUE인 경우 b를 계"
+"산하거나 b를 1로 강제하고 FALSE인 경우 m 값만 계산합니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -90866,6 +91189,7 @@ msgid ""
 "TRUE or forces b to be 0 and only calculates the m values if FALSE, i.e. "
 "forces the curve fit to pass through the origin."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92488,11 +92812,17 @@ msgstr ""
 "산하거나 b를 0으로 강제하고, FALSE인 경우, 즉 커브 맞춤이 원점을 통과하도록 "
 "강제하는 경우 m 값만 계산합니다."
 >>>>>>> upstream/18.0
+=======
+"커브 맞춤에 대한 일반적인 선형 형태인 y = m*x+b가 주어지면 TRUE인 경우 b를 계"
+"산하거나 b를 0으로 강제하고, FALSE인 경우, 즉 커브 맞춤이 원점을 통과하도록 "
+"강제하는 경우 m 값만 계산합니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -93306,6 +93636,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Given partial data about a linear trend, calculates various parameters about "
 "the ideal linear trend using the least-squares method."
 msgstr ""
@@ -93580,6 +93912,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -94397,8 +94732,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "지수 성장 곡선에 대한 부분 데이터가 주어지면 이 방법은 최소 제곱 접근법을 사용하여 가장 잘 맞는 이상적인 지수 성장 곡선에 대한 "
 "다양한 매개 변수를 계산합니다."
+=======
+"지수 성장 곡선에 대한 부분 데이터가 주어지면 이 방법은 최소 제곱 접근법을 사"
+"용하여 가장 잘 맞는 이상적인 지수 성장 곡선에 대한 다양한 매개 변수를 계산합"
+"니다."
+>>>>>>> upstream/18.0
 =======
 "지수 성장 곡선에 대한 부분 데이터가 주어지면 이 방법은 최소 제곱 접근법을 사"
 "용하여 가장 잘 맞는 이상적인 지수 성장 곡선에 대한 다양한 매개 변수를 계산합"
@@ -96260,8 +96601,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "숫자가 음수인 경우 반올림 방향을 지정합니다. 0이거나 공백문자이면 0에서 멀어지는 방향으로 올림합니다. 그렇지 않으면 0에 가까워지는 "
 "방향으로 내림합니다."
+=======
+"숫자가 음수인 경우 반올림 방향을 지정합니다. 0이거나 공백문자이면 0에서 멀어"
+"지는 방향으로 올림합니다. 그렇지 않으면 0에 가까워지는 방향으로 내림합니다."
+>>>>>>> upstream/18.0
 =======
 "숫자가 음수인 경우 반올림 방향을 지정합니다. 0이거나 공백문자이면 0에서 멀어"
 "지는 방향으로 올림합니다. 그렇지 않으면 0에 가까워지는 방향으로 내림합니다."
@@ -97620,8 +97966,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "숫자가 음수인 경우 반올림 방향을 지정합니다. 0이거나 공백문자이면 0에 가까워지는 방향으로 내림합니다. 그렇지 않으면 0에서 멀어지는 "
 "방향으로 올림합니다."
+=======
+"숫자가 음수인 경우 반올림 방향을 지정합니다. 0이거나 공백문자이면 0에 가까워"
+"지는 방향으로 내림합니다. 그렇지 않으면 0에서 멀어지는 방향으로 올림합니다."
+>>>>>>> upstream/18.0
 =======
 "숫자가 음수인 경우 반올림 방향을 지정합니다. 0이거나 공백문자이면 0에 가까워"
 "지는 방향으로 내림합니다. 그렇지 않으면 0에서 멀어지는 방향으로 올림합니다."
@@ -98725,6 +99076,7 @@ msgstr "[[FUNCTION_NAME]] 계산에서 '%s'가 포함된 '%s'를 찾을 수 없�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100124,6 +100476,11 @@ msgstr ""
 "equal to the         number of rows of the second matrix (%s)."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"In [[FUNCTION_NAME]], the number of columns of the first matrix (%s) must be "
+"equal to the         number of rows of the second matrix (%s)."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -100427,7 +100784,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "검색할 열(지정된 범위의 첫 번째 열)을 정렬할지 여부를 나타내며, 이 경우 search_key와 가장 가까운 일치 항목이 반환됩니다."
+=======
+"검색할 열(지정된 범위의 첫 번째 열)을 정렬할지 여부를 나타내며, 이 경우 "
+"search_key와 가장 가까운 일치 항목이 반환됩니다."
+>>>>>>> upstream/18.0
 =======
 "검색할 열(지정된 범위의 첫 번째 열)을 정렬할지 여부를 나타내며, 이 경우 "
 "search_key와 가장 가까운 일치 항목이 반환됩니다."
@@ -101787,7 +102149,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "검색할 행(지정된 범위의 첫 번째 행)을 정렬할지 여부를 나타내며, 이 경우 search_key와 가장 가까운 일치 항목이 반환됩니다."
+=======
+"검색할 행(지정된 범위의 첫 번째 행)을 정렬할지 여부를 나타내며, 이 경우 "
+"search_key와 가장 가까운 일치 항목이 반환됩니다."
+>>>>>>> upstream/18.0
 =======
 "검색할 행(지정된 범위의 첫 번째 행)을 정렬할지 여부를 나타내며, 이 경우 "
 "search_key와 가장 가까운 일치 항목이 반환됩니다."
@@ -103333,7 +103700,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "잘못된 함수 이름 %s입니다. 함수 이름에는 점 (.) 또는 밑줄 (_)을 포함한 영숫자 문자만이 허용됩니다."
+=======
+msgstr ""
+"잘못된 함수 이름 %s입니다. 함수 이름에는 점 (.) 또는 밑줄 (_)을 포함한 영숫"
+"자 문자만이 허용됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "잘못된 함수 이름 %s입니다. 함수 이름에는 점 (.) 또는 밑줄 (_)을 포함한 영숫"
@@ -104967,7 +105340,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s 함수에 대한 잘못된 인수 값입니다. 최대 %s를 예상했으나,  %s 를 가져왔습니다."
+=======
+msgstr ""
+"%s 함수에 대한 잘못된 인수 값입니다. 최대 %s를 예상했으나,  %s 를 가져왔습니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s 함수에 대한 잘못된 인수 값입니다. 최대 %s를 예상했으나,  %s 를 가져왔습니"
@@ -106595,7 +106974,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s 함수에 대한 잘못된 인수 값입니다. 최소 %s를 예상했으나, %s를 가져왔습니다."
+=======
+msgstr ""
+"%s 함수에 대한 잘못된 인수 값입니다. 최소 %s를 예상했으나, %s를 가져왔습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s 함수에 대한 잘못된 인수 값입니다. 최소 %s를 예상했으나, %s를 가져왔습니다."
@@ -107953,7 +108337,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s 함수에 대한 잘못된 인수 값입니다.  %s 위치 뒤의 모든 인수가 인수 %s 의 그룹으로 제공될 것으로 예상됩니다."
+=======
+msgstr ""
+"%s 함수에 대한 잘못된 인수 값입니다.  %s 위치 뒤의 모든 인수가 인수 %s 의 그"
+"룹으로 제공될 것으로 예상됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "%s 함수에 대한 잘못된 인수 값입니다.  %s 위치 뒤의 모든 인수가 인수 %s 의 그"
@@ -110166,7 +110556,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "병합된 셀에는 이 작업을 처리할 수 없습니다. 해당 셀의 병합을 해제하고 다시 시도해주세요."
+=======
+msgstr ""
+"병합된 셀에는 이 작업을 처리할 수 없습니다. 해당 셀의 병합을 해제하고 다시 시"
+"도해주세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "병합된 셀에는 이 작업을 처리할 수 없습니다. 해당 셀의 병합을 해제하고 다시 시"
@@ -111794,7 +112190,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "유출 영역에서 병합된 셀이 감지되었습니다. 배열 수식을 사용하기 전에 셀 병합을 해제하세요."
+=======
+msgstr ""
+"유출 영역에서 병합된 셀이 감지되었습니다. 배열 수식을 사용하기 전에 셀 병합"
+"을 해제하세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "유출 영역에서 병합된 셀이 감지되었습니다. 배열 수식을 사용하기 전에 셀 병합"
@@ -113464,7 +113866,10 @@ msgstr "결제일 이후 다음 쿠폰 날짜."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -113600,6 +114005,9 @@ msgstr "사용하지 않음"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114094,8 +114502,12 @@ msgstr "결제일와 만기일 사이의 쿠폰 개수."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Number of days between two dates on a 360-day year (months of 30 days)."
+=======
+msgid "Number of days between two dates on a 360-day year (months of 30 days)."
+>>>>>>> upstream/18.0
 =======
 msgid "Number of days between two dates on a 360-day year (months of 30 days)."
 >>>>>>> upstream/18.0
@@ -115317,6 +115729,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "이 함수를 사용하는 첫 번째 방법은 정렬된 단일 행 또는 열 search_array를 제공하여 두 번째 인수 result_range와 "
 "함께 search_key를 찾는 것입니다. 다른 방법은 이 두 인수를 하나의 search_array로 결합하여 첫 번째 행 또는 열을 "
 "검색하고 배열의 마지막 행 또는 열에서 값을 반환하는 것입니다. search_key를 찾을 수 없는 경우 정확히 일치하지 않는 값이 "
@@ -115537,6 +115950,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 "반환될 수 있습니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -116349,6 +116764,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117241,12 +117659,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Pasting from the context menu is not supported in this browser. Use keyboard"
 " shortcuts ctrl+c / ctrl+v instead."
 msgstr ""
 "해당 브라우저에서는 마우스 우측 버튼 메뉴를 사용한 붙여넣기가 지원되지 않습니다. 키보드의 ctrl+c / ctrl+v 단축키를 대신 "
 "사용하세요."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118059,6 +118480,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -118949,7 +119373,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "피벗 업데이트는 동적 피벗 테이블에서만 작동합니다. %s를 사용하거나 데이터 메뉴에서 정적 피벗을 다시 삽입합니다."
+=======
+msgstr ""
+"피벗 업데이트는 동적 피벗 테이블에서만 작동합니다. %s를 사용하거나 데이터 메"
+"뉴에서 정적 피벗을 다시 삽입합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "피벗 업데이트는 동적 피벗 테이블에서만 작동합니다. %s를 사용하거나 데이터 메"
@@ -120996,7 +121426,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "지정된 조건을 충족하는 행 또는 열만 반환하는 소스 범위의 필터링된 버전을 반환합니다."
+=======
+msgstr ""
+"지정된 조건을 충족하는 행 또는 열만 반환하는 소스 범위의 필터링된 버전을 반환"
+"합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "지정된 조건을 충족하는 행 또는 열만 반환하는 소스 범위의 필터링된 버전을 반환"
@@ -122636,7 +123072,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "원래 셀 참조에서 지정된 행과 열 수만큼 시프트된 범위 참조를 반환합니다."
+=======
+msgstr ""
+"원래 셀 참조에서 지정된 행과 열 수만큼 시프트된 범위 참조를 반환합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "원래 셀 참조에서 지정된 행과 열 수만큼 시프트된 범위 참조를 반환합니다."
@@ -124052,8 +124493,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Returns the maximum value in a range of cells, filtered by a set of "
 "criteria."
+=======
+"Returns the maximum value in a range of cells, filtered by a set of criteria."
+>>>>>>> upstream/18.0
 =======
 "Returns the maximum value in a range of cells, filtered by a set of criteria."
 >>>>>>> upstream/18.0
@@ -125140,8 +125585,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Returns the minimum value in a range of cells, filtered by a set of "
 "criteria."
+=======
+"Returns the minimum value in a range of cells, filtered by a set of criteria."
+>>>>>>> upstream/18.0
 =======
 "Returns the minimum value in a range of cells, filtered by a set of criteria."
 >>>>>>> upstream/18.0
@@ -126271,8 +126720,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Rounds a number down to the nearest integer that is less than or equal to "
 "it."
+=======
+"Rounds a number down to the nearest integer that is less than or equal to it."
+>>>>>>> upstream/18.0
 =======
 "Rounds a number down to the nearest integer that is less than or equal to it."
 >>>>>>> upstream/18.0
@@ -127457,7 +127910,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "범위 내에서 일치하는 항목이 있는지 검색하고 두 번째 범위에서 해당 항목을 반환합니다."
+=======
+msgstr ""
+"범위 내에서 일치하는 항목이 있는지 검색하고 두 번째 범위에서 해당 항목을 반환"
+"합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "범위 내에서 일치하는 항목이 있는지 검색하고 두 번째 범위에서 해당 항목을 반환"
@@ -129340,7 +129799,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "시트 이름에 허용되지 않는 문자가 포함되어 있습니다 (%s 문자는 사용할 수 없습니다)."
+=======
+msgstr ""
+"시트 이름에 허용되지 않는 문자가 포함되어 있습니다 (%s 문자는 사용할 수 없습"
+"니다)."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "시트 이름에 허용되지 않는 문자가 포함되어 있습니다 (%s 문자는 사용할 수 없습"
@@ -130998,7 +131463,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "지정된 배열 또는 범위의 행을 하나 이상의 열에 있는 값을 기준으로 정렬합니다."
+=======
+msgstr ""
+"지정된 배열 또는 범위의 행을 하나 이상의 열에 있는 값을 기준으로 정렬합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "지정된 배열 또는 범위의 행을 하나 이상의 열에 있는 값을 기준으로 정렬합니다."
@@ -132643,7 +133113,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "TRUE 또는 FALSE - sort_column을 오름차순으로 정렬할지 여부를 나타냅니다. FALSE는 내림차순으로 정렬합니다."
+=======
+"TRUE 또는 FALSE - sort_column을 오름차순으로 정렬할지 여부를 나타냅니다. "
+"FALSE는 내림차순으로 정렬합니다."
+>>>>>>> upstream/18.0
 =======
 "TRUE 또는 FALSE - sort_column을 오름차순으로 정렬할지 여부를 나타냅니다. "
 "FALSE는 내림차순으로 정렬합니다."
@@ -134245,7 +134720,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "지수 성장 곡선에 맞는 커브를 맞추는 데 사용되는 이미 알려진 종속(y) 값이 포함된 배열 또는 범위입니다."
+=======
+msgstr ""
+"지수 성장 곡선에 맞는 커브를 맞추는 데 사용되는 이미 알려진 종속(y) 값이 포함"
+"된 배열 또는 범위입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "지수 성장 곡선에 맞는 커브를 맞추는 데 사용되는 이미 알려진 종속(y) 값이 포함"
@@ -135873,6 +136354,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "선형 추세에 맞는 커브를 만드는 데 사용되는 이미 알려진 종속(y) 값이 포함된 배열 또는 범위입니다."
 =======
 msgstr ""
@@ -137224,11 +137706,17 @@ msgstr ""
 "선형 추세에 맞는 커브를 만드는 데 사용되는 이미 알려진 종속(y) 값이 포함된 배"
 "열 또는 범위입니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"선형 추세에 맞는 커브를 만드는 데 사용되는 이미 알려진 종속(y) 값이 포함된 배"
+"열 또는 범위입니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138041,6 +138529,8 @@ msgstr "데이터가 포함된 배열 또는 범위로, 첫 번째 행에 각 �
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The array or range containing the data to consider, structured in such a way "
 "that the first row contains the labels for each column's values."
 msgstr ""
@@ -138315,6 +138805,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -139137,7 +139630,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "array_y의 해당 항목에 의해 축소되고 제곱되어 합산될 값의 배열 또는 범위입니다."
+=======
+msgstr ""
+"array_y의 해당 항목에 의해 축소되고 제곱되어 합산될 값의 배열 또는 범위입니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "array_y의 해당 항목에 의해 축소되고 제곱되어 합산될 값의 배열 또는 범위입니"
@@ -140765,7 +141264,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "array_x의 해당 항목에서 뺄 값의 배열 또는 범위, 결과의 제곱 및 모든 결과를 더한 값입니다."
+=======
+msgstr ""
+"array_x의 해당 항목에서 뺄 값의 배열 또는 범위, 결과의 제곱 및 모든 결과를 더"
+"한 값입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "array_x의 해당 항목에서 뺄 값의 배열 또는 범위, 결과의 제곱 및 모든 결과를 더"
@@ -142393,7 +142898,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "array_x에 있는 해당 항목의 제곱에 제곱을 더하여 합산될 값의 배열 또는 범위입니다."
+=======
+msgstr ""
+"array_x에 있는 해당 항목의 제곱에 제곱을 더하여 합산될 값의 배열 또는 범위입"
+"니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "array_x에 있는 해당 항목의 제곱에 제곱을 더하여 합산될 값의 배열 또는 범위입"
@@ -144021,6 +144532,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "array_y에 있는 해당 항목의 제곱에 제곱을 더하여 합산될 값의 배열 또는 범위입니다."
 =======
 msgstr ""
@@ -145372,11 +145884,17 @@ msgstr ""
 "array_y에 있는 해당 항목의 제곱에 제곱을 더하여 합산될 값의 배열 또는 범위입"
 "니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"array_y에 있는 해당 항목의 제곱에 제곱을 더하여 합산될 값의 배열 또는 범위입"
+"니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -146189,6 +146707,8 @@ msgstr "array_y에 있는 해당 항목의 제곱에 제곱을 빼고 합산할 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The array or range of values whose squares will be reduced by the squares of "
 "corresponding entries in array_y and added together."
 msgstr ""
@@ -146463,6 +146983,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147279,7 +147802,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "array_x에 있는 해당 항목의 제곱에 제곱을 빼고 합산할 값의 배열 또는 범위입니다."
+=======
+msgstr ""
+"array_x에 있는 해당 항목의 제곱에 제곱을 빼고 합산할 값의 배열 또는 범위입니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "array_x에 있는 해당 항목의 제곱에 제곱을 빼고 합산할 값의 배열 또는 범위입니"
@@ -148965,10 +149494,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The cashflow_amounts and cashflow_dates ranges must have the same "
 "dimensions."
 msgstr "cashflow_amounts 및 cashflow_dates ranges 는 동일한 dimension을 가져야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -149780,6 +150312,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -150600,10 +151135,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The cell whose column number will be returned. Column A corresponds to 1. By"
 " default, the function use the cell in which the formula is entered."
 msgstr "열 번호를 반환할 셀입니다. 열 A는 1에 해당합니다. 기본적으로 함수는 수식이 입력된 셀을 사용합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151416,6 +151954,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152232,7 +152773,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "행 번호를 반환할 셀입니다. 기본적으로 이 함수는 수식이 입력된 셀을 사용합니다."
+=======
+msgstr ""
+"행 번호를 반환할 셀입니다. 기본적으로 이 함수는 수식이 입력된 셀을 사용합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "행 번호를 반환할 셀입니다. 기본적으로 이 함수는 수식이 입력된 셀을 사용합니"
@@ -153916,8 +154463,12 @@ msgstr "열 인수 (%s)는 배열의 열 수보다 크거나 같아야 합니다
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The columns arguments must be between -%s and %s (got %s), excluding 0."
+=======
+msgid "The columns arguments must be between -%s and %s (got %s), excluding 0."
+>>>>>>> upstream/18.0
 =======
 msgid "The columns arguments must be between -%s and %s (got %s), excluding 0."
 >>>>>>> upstream/18.0
@@ -155020,8 +155571,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "공백 및 오류를 무시하는 컨트롤입니다. 0 (기본값)은 모든 값을 유지하고, 1은 공백을 무시, 2는 오류를 무시, 3은 공백 및 오류를"
 " 무시합니다."
+=======
+"공백 및 오류를 무시하는 컨트롤입니다. 0 (기본값)은 모든 값을 유지하고, 1은 공"
+"백을 무시, 2는 오류를 무시, 3은 공백 및 오류를 무시합니다."
+>>>>>>> upstream/18.0
 =======
 "공백 및 오류를 무시하는 컨트롤입니다. 0 (기본값)은 모든 값을 유지하고, 1은 공"
 "백을 무시, 2는 오류를 무시, 3은 공백 및 오류를 무시합니다."
@@ -156409,7 +156965,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "현재 창 크기가 작아 이 시트를 제대로 표시할 수 없습니다. 브라우저 창 크기를 조정하거나 고정된 행과 열을 조정해 보세요."
+=======
+msgstr ""
+"현재 창 크기가 작아 이 시트를 제대로 표시할 수 없습니다. 브라우저 창 크기를 "
+"조정하거나 고정된 행과 열을 조정해 보세요."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "현재 창 크기가 작아 이 시트를 제대로 표시할 수 없습니다. 브라우저 창 크기를 "
@@ -158065,7 +158627,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The data you entered in %s violates the data validation rule set on the cell:\n"
+=======
+"The data you entered in %s violates the data validation rule set on the "
+"cell:\n"
+>>>>>>> upstream/18.0
 =======
 "The data you entered in %s violates the data validation rule set on the "
 "cell:\n"
@@ -159433,7 +160000,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "날짜에 맞는 ISO 주 번호를 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또는 숫자에 대한 참조여야 합니다."
+=======
+msgstr ""
+"날짜에 맞는 ISO 주 번호를 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 "
+"함수 또는 숫자에 대한 참조여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "날짜에 맞는 ISO 주 번호를 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 "
@@ -161061,7 +161634,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "날짜에 맞는 요일을 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또는 숫자에 대한 참조여야 합니다."
+=======
+msgstr ""
+"날짜에 맞는 요일을 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또"
+"는 숫자에 대한 참조여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "날짜에 맞는 요일을 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또"
@@ -162689,7 +163268,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "날짜에 맞는 주 번호를 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또는 숫자에 대한 참조여야 합니다."
+=======
+msgstr ""
+"날짜에 맞는 주 번호를 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함"
+"수 또는 숫자에 대한 참조여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "날짜에 맞는 주 번호를 계산합니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함"
@@ -164405,7 +164990,12 @@ msgid "The day_count_convention (%s) must be between 0 and 4 inclusive."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "day_count_convention (%s)은 0과 4를 포함한 두 숫자 사이의 값이여야 합니다."
+=======
+msgstr ""
+"day_count_convention (%s)은 0과 4를 포함한 두 숫자 사이의 값이여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "day_count_convention (%s)은 0과 4를 포함한 두 숫자 사이의 값이여야 합니다."
@@ -165839,8 +166429,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The end date of the period from which to calculate the number of net working"
 " days."
+=======
+"The end date of the period from which to calculate the number of net working "
+"days."
+>>>>>>> upstream/18.0
 =======
 "The end date of the period from which to calculate the number of net working "
 "days."
@@ -167205,7 +167800,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "계산에서 필요한 종료 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또는 숫자에 대한 참조여야 합니다."
+=======
+msgstr ""
+"계산에서 필요한 종료 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 "
+"또는 숫자에 대한 참조여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "계산에서 필요한 종료 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 "
@@ -168833,7 +169434,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "계산에서 필요한 종료 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또는 숫자에 대한 참조여야 합니다."
+=======
+msgstr ""
+"계산에서 필요한 종료 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 "
+"또는 숫자에 대한 참조여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "계산에서 필요한 종료 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 "
@@ -170533,7 +171140,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "필드 (%(fieldValue)s) 는 %(dimRowDB)s 중 하나이거나 또는 1에서 %s 사이의 숫자이어야 합니다."
+=======
+msgstr ""
+"필드 (%(fieldValue)s) 는 %(dimRowDB)s 중 하나이거나 또는 1에서 %s 사이의 숫자"
+"이어야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "필드 (%(fieldValue)s) 는 %(dimRowDB)s 중 하나이거나 또는 1에서 %s 사이의 숫자"
@@ -172176,6 +172789,7 @@ msgstr "첫 번째 추가."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -172213,6 +172827,8 @@ msgid ""
 msgstr "[[FUNCTION_NAME]]의 첫 번째 및 두 번째 인수는 비어 있지 않은 행렬이어야 "
 "합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -172978,6 +173594,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -173758,6 +174377,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -174576,7 +175198,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "산출을 위한 첫 번째 조건입니다. 이 조건은 불리언, 숫자, 배열 또는 이들 중 하나에 대한 참조일 수 있습니다."
+=======
+msgstr ""
+"산출을 위한 첫 번째 조건입니다. 이 조건은 불리언, 숫자, 배열 또는 이들 중 하"
+"나에 대한 참조일 수 있습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "산출을 위한 첫 번째 조건입니다. 이 조건은 불리언, 숫자, 배열 또는 이들 중 하"
@@ -176319,8 +176947,12 @@ msgstr "최대값을 계산할 때 고려야해야 할 첫 번째 값 또는 범
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The first value or range to consider when calculating the median value."
+=======
+msgid "The first value or range to consider when calculating the median value."
+>>>>>>> upstream/18.0
 =======
 msgid "The first value or range to consider when calculating the median value."
 >>>>>>> upstream/18.0
@@ -177425,8 +178057,12 @@ msgstr "첫 번째 값."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The first_period (%s) must be smaller or equal to the last_period (%s)."
+=======
+msgid "The first_period (%s) must be smaller or equal to the last_period (%s)."
+>>>>>>> upstream/18.0
 =======
 msgid "The first_period (%s) must be smaller or equal to the last_period (%s)."
 >>>>>>> upstream/18.0
@@ -178545,7 +179181,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "함수 [[FUNCTION_NAME]]은 부울 값을 기대하지만 '%s'는 텍스트이므로 부울로 강제 변환할 수 없습니다."
+=======
+msgstr ""
+"함수 [[FUNCTION_NAME]]은 부울 값을 기대하지만 '%s'는 텍스트이므로 부울로 강"
+"제 변환할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "함수 [[FUNCTION_NAME]]은 부울 값을 기대하지만 '%s'는 텍스트이므로 부울로 강"
@@ -180173,7 +180815,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "함수 [[FUNCTION_NAME]] 는 %s 과 %s 를 포함한 두 숫자 사이의 값을 예측했으나 %s 를 계산했습니다."
+=======
+msgstr ""
+"함수 [[FUNCTION_NAME]] 는 %s 과 %s 를 포함한 두 숫자 사이의 값을 예측했으나 "
+"%s 를 계산했습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "함수 [[FUNCTION_NAME]] 는 %s 과 %s 를 포함한 두 숫자 사이의 값을 예측했으나 "
@@ -181801,6 +182449,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "함수 [[FUNCTION_NAME]] 는 1과 같거나 큰 숫자 값을 예측했으나 %s의 결과값을 계산했습니다."
 =======
 msgstr ""
@@ -183152,11 +183801,17 @@ msgstr ""
 "함수 [[FUNCTION_NAME]] 는 1과 같거나 큰 숫자 값을 예측했으나 %s의 결과값을 계"
 "산했습니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"함수 [[FUNCTION_NAME]] 는 1과 같거나 큰 숫자 값을 예측했으나 %s의 결과값을 계"
+"산했습니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183969,6 +184624,8 @@ msgstr "함수 [[FUNCTION_NAME]] 는 숫자 값을 예측했지만, '%s' 는 문
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The function [[FUNCTION_NAME]] expects a number value, but '%s' is a string, "
 "and cannot be coerced to a number."
 msgstr ""
@@ -184243,6 +184900,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -185057,10 +185717,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The function [[FUNCTION_NAME]] has an argument with value '%s'. It should be"
 " one of: %s."
 msgstr "함수 [[FUNCTION_NAME]] 에 값이 '%s'인 인수가 있습니다. 다음 중 하나입니다: %s."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -185873,6 +186536,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -186718,7 +187384,10 @@ msgstr "future_value (%s) 는 반드시 양수여야 합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -187532,6 +188201,9 @@ msgstr "표에서 머리말 행은 이동할 수 없습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -188362,7 +189034,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "추출을 시작할 문자열 왼쪽의 인덱스입니다. 문자열의 첫 번째 인덱스는 1입니다."
+=======
+msgstr ""
+"추출을 시작할 문자열 왼쪽의 인덱스입니다. 문자열의 첫 번째 인덱스는 1입니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "추출을 시작할 문자열 왼쪽의 인덱스입니다. 문자열의 첫 번째 인덱스는 1입니다."
@@ -189720,7 +190397,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "지정된 범위 내 열 또는 지정된 범위를 벗어난 범위의 열 인덱스로, 정렬에 사용되는 값을 나타냅니다."
+=======
+msgstr ""
+"지정된 범위 내 열 또는 지정된 범위를 벗어난 범위의 열 인덱스로, 정렬에 사용되"
+"는 값을 나타냅니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "지정된 범위 내 열 또는 지정된 범위를 벗어난 범위의 열 인덱스로, 정렬에 사용되"
@@ -191354,8 +192037,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The index of the row to be returned from within the reference range of "
 "cells."
+=======
+"The index of the row to be returned from within the reference range of cells."
+>>>>>>> upstream/18.0
 =======
 "The index of the row to be returned from within the reference range of cells."
 >>>>>>> upstream/18.0
@@ -192465,8 +193152,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "text_to_search 내에서 replace_with로 대체할 search_for 인스턴스입니다. 기본적으로 search_for의 "
 "모든 인스턴스가 대체되지만, occurrence_number를 지정하면 지정된 search_for 인스턴스만 대체됩니다."
+=======
+"text_to_search 내에서 replace_with로 대체할 search_for 인스턴스입니다. 기본적"
+"으로 search_for의 모든 인스턴스가 대체되지만, occurrence_number를 지정하면 지"
+"정된 search_for 인스턴스만 대체됩니다."
+>>>>>>> upstream/18.0
 =======
 "text_to_search 내에서 replace_with로 대체할 search_for 인스턴스입니다. 기본적"
 "으로 search_for의 모든 인스턴스가 대체되지만, occurrence_number를 지정하면 지"
@@ -194215,8 +194908,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The maximum (%s) and minimum (%s) must be integers when whole_number is "
 "TRUE."
+=======
+"The maximum (%s) and minimum (%s) must be integers when whole_number is TRUE."
+>>>>>>> upstream/18.0
 =======
 "The maximum (%s) and minimum (%s) must be integers when whole_number is TRUE."
 >>>>>>> upstream/18.0
@@ -195304,6 +196001,7 @@ msgstr "최대값은 숫자여야 합니다"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/chart/odoo_menu/figure_component.js:0
 msgid ""
 "The menu linked to this chart doesn't have an corresponding action. Please "
@@ -195532,6 +196230,8 @@ msgstr ""
 "요."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -196235,6 +196935,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -197020,7 +197723,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "해당 필터의 모델 (%(model)s)이 유효하지 않습니다. (이름이 변경되었거나 삭제되었을 수 있습니다.)"
+=======
+msgstr ""
+"해당 필터의 모델 (%(model)s)이 유효하지 않습니다. (이름이 변경되었거나 삭제되"
+"었을 수 있습니다.)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "해당 필터의 모델 (%(model)s)이 유효하지 않습니다. (이름이 변경되었거나 삭제되"
@@ -198714,8 +199423,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The number of columns in the expanded array. If missing, columns will not be"
 " expanded."
+=======
+"The number of columns in the expanded array. If missing, columns will not be "
+"expanded."
+>>>>>>> upstream/18.0
 =======
 "The number of columns in the expanded array. If missing, columns will not be "
 "expanded."
@@ -200236,8 +200950,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The number of significant digits to the right of the decimal point to "
 "retain."
+=======
+"The number of significant digits to the right of the decimal point to retain."
+>>>>>>> upstream/18.0
 =======
 "The number of significant digits to the right of the decimal point to retain."
 >>>>>>> upstream/18.0
@@ -201326,7 +202044,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "현재 유니코드 테이블에서 조회할 문자의 숫자를 십진수 형식으로 입력합니다."
+=======
+msgstr ""
+"현재 유니코드 테이블에서 조회할 문자의 숫자를 십진수 형식으로 입력합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "현재 유니코드 테이블에서 조회할 문자의 숫자를 십진수 형식으로 입력합니다."
@@ -202708,7 +203431,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "start_date부터 앞으로의 영업일 수입니다. 음수일 경우 거꾸로 계산됩니다."
+=======
+msgstr ""
+"start_date부터 앞으로의 영업일 수입니다. 음수일 경우 거꾸로 계산됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "start_date부터 앞으로의 영업일 수입니다. 음수일 경우 거꾸로 계산됩니다."
@@ -204189,8 +204917,12 @@ msgstr "다른 범위의 항목에 다른 범위의 해당 항목을 곱합니�
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The pattern by which to format the number, enclosed in quotation marks."
+=======
+msgid "The pattern by which to format the number, enclosed in quotation marks."
+>>>>>>> upstream/18.0
 =======
 msgid "The pattern by which to format the number, enclosed in quotation marks."
 >>>>>>> upstream/18.0
@@ -205285,7 +206017,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "criteria_range1에 적용할 패턴 또는 테스트로, TRUE 값의 각 셀이 필터링된 집합에 포함됩니다."
+=======
+msgstr ""
+"criteria_range1에 적용할 패턴 또는 테스트로, TRUE 값의 각 셀이 필터링된 집합"
+"에 포함됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "criteria_range1에 적용할 패턴 또는 테스트로, TRUE 값의 각 셀이 필터링된 집합"
@@ -206928,8 +207666,12 @@ msgstr "범위에 적용할 패턴 또는 테스트."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The percentile whose value within data will be calculated and returned."
+=======
+msgid "The percentile whose value within data will be calculated and returned."
+>>>>>>> upstream/18.0
 =======
 msgid "The percentile whose value within data will be calculated and returned."
 >>>>>>> upstream/18.0
@@ -208170,7 +208912,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "반환값이 포함된 범위입니다. lookup_range와 동일한 dimensions이어야 합니다."
+=======
+msgstr ""
+"반환값이 포함된 범위입니다. lookup_range와 동일한 dimensions이어야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "반환값이 포함된 범위입니다. lookup_range와 동일한 dimensions이어야 합니다."
@@ -209537,8 +210284,14 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "결과를 반환할 범위입니다. search_range에서 search_key가 있는 위치에 결과 값이 반환됩니다. 이 범위는 단일 행 또는 "
 "열이어야 하며 search_result_array 메서드를 사용하는 경우에는 사용할 수 없습니다."
+=======
+"결과를 반환할 범위입니다. search_range에서 search_key가 있는 위치에 결과 값"
+"이 반환됩니다. 이 범위는 단일 행 또는 열이어야 하며 search_result_array 메서"
+"드를 사용하는 경우에는 사용할 수 없습니다."
+>>>>>>> upstream/18.0
 =======
 "결과를 반환할 범위입니다. search_range에서 search_key가 있는 위치에 결과 값"
 "이 반환됩니다. 이 범위는 단일 행 또는 열이어야 하며 search_result_array 메서"
@@ -211251,7 +212004,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "평균을 구할 범위입니다. 포함되지 않은 경우, criteria_range가 대신 사용됩니다."
+=======
+msgstr ""
+"평균을 구할 범위입니다. 포함되지 않은 경우, criteria_range가 대신 사용됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "평균을 구할 범위입니다. 포함되지 않은 경우, criteria_range가 대신 사용됩니다."
@@ -212641,6 +213399,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "검색할 범위입니다. 범위의 첫 번째 열에서 search_key에 지정된 키가 검색됩니다."
 =======
 msgstr ""
@@ -213722,11 +214481,16 @@ msgstr ""
 msgstr ""
 "검색할 범위입니다. 범위의 첫 번째 열에서 search_key에 지정된 키가 검색됩니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"검색할 범위입니다. 범위의 첫 번째 열에서 search_key에 지정된 키가 검색됩니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214539,6 +215303,8 @@ msgstr "검색할 범위입니다. 범위의 첫 번째 행에서 search_key에 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The range to consider for the search. The first row in the range is searched "
 "for the key specified in search_key."
 msgstr ""
@@ -214812,6 +215578,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -215800,6 +216569,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The search method. 1 (default) finds the largest value less than or equal to"
 " search_key when range is sorted in ascending order. 0 finds the exact value"
 " when range is unsorted. -1 finds the smallest value greater than or equal "
@@ -215809,6 +216579,8 @@ msgstr ""
 "정렬되지 않은 경우, 0은 정확값을 찾아냅니다. 범위가 내림차순으로 정렬된 경우, -1은  search_key보다 크거나 같은 값 중 "
 "가장 작은 값을 찾아냅니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -216625,6 +217397,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -217547,10 +218322,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The start date to consider in the calculation. Must be a reference to a cell"
 " containing a DATE, a function returning a DATE type, or a number."
 msgstr "계산에서 필요한 시작 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또는 숫자에 대한 참조여야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -218363,6 +219141,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -219177,10 +219958,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The start date to consider in the calculation. Must be a reference to a cell"
 " containing a date, a function returning a date type, or a number."
 msgstr "계산에서 필요한 시작 날짜입니다. 날짜가 포함된 셀, 날짜 유형을 반환하는 함수 또는 숫자에 대한 참조여야 합니다."
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -219993,6 +220777,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -220971,7 +221758,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "반환되는 텍스트에서 각 단어의 첫 글자는 대문자로, 그 외 모든 글자는 소문자로 표시됩니다."
+=======
+msgstr ""
+"반환되는 텍스트에서 각 단어의 첫 글자는 대문자로, 그 외 모든 글자는 소문자로 "
+"표시됩니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "반환되는 텍스트에서 각 단어의 첫 글자는 대문자로, 그 외 모든 글자는 소문자로 "
@@ -222674,8 +223467,12 @@ msgstr "값을 변환할 측정 단위입니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "The units of the desired fraction, e.g. 8 for 1/8ths or 32 for 1/32nds."
+=======
+msgid "The units of the desired fraction, e.g. 8 for 1/8ths or 32 for 1/32nds."
+>>>>>>> upstream/18.0
 =======
 msgid "The units of the desired fraction, e.g. 8 for 1/8ths or 32 for 1/32nds."
 >>>>>>> upstream/18.0
@@ -223824,7 +224621,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "아크코사인을 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니다."
+=======
+msgstr ""
+"아크코사인을 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "아크코사인을 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니다."
@@ -225188,7 +225990,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "쌍곡 코사인을 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니다."
+=======
+msgstr ""
+"쌍곡 코사인을 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "쌍곡 코사인을 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니"
@@ -226816,7 +227624,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "쌍곡 아크코탄젠트를 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니다."
+=======
+msgstr ""
+"쌍곡 아크코탄젠트를 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 "
+"합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "쌍곡 아크코탄젠트를 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 "
@@ -228450,6 +229264,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "쌍곡 아크탄젠트를 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합니다."
 =======
 msgstr ""
@@ -229801,11 +230616,17 @@ msgstr ""
 "쌍곡 아크탄젠트를 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합"
 "니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"쌍곡 아크탄젠트를 계산할 값입니다. -1과 1을 포함한 두 숫자 사이의 값이여야 합"
+"니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230618,6 +231439,8 @@ msgstr "아크사인을 계산할 값입니다. -1과 1을 포함한 두 숫자 
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The value for which to calculate the inverse sine. Must be between -1 and 1, "
 "inclusive."
 msgstr ""
@@ -230891,6 +231714,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -231920,12 +232746,15 @@ msgstr "구분 기호를 사용하여 값을 추가할 수 있습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "The value should be a scalar or a 1x1 matrix"
 msgstr "값은 스칼라 또는 1x1 행렬이어야 합니다."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -233047,7 +233876,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "[payment_amount, present_value, future_value]에는 양수 값과 음수 값이 모두 있어야 합니다."
+=======
+"[payment_amount, present_value, future_value]에는 양수 값과 음수 값이 모두 있"
+"어야 합니다."
+>>>>>>> upstream/18.0
 =======
 "[payment_amount, present_value, future_value]에는 양수 값과 음수 값이 모두 있"
 "어야 합니다."
@@ -234419,7 +235253,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "해당 수식은 100개가 넘습니다. 정상적으로 처리하려면 여러 셀로 분할하는 것이 좋습니다."
+=======
+msgstr ""
+"해당 수식은 100개가 넘습니다. 정상적으로 처리하려면 여러 셀로 분할하는 것이 "
+"좋습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "해당 수식은 100개가 넘습니다. 정상적으로 처리하려면 여러 셀로 분할하는 것이 "
@@ -236047,7 +236887,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "이 함수는 두 개의 통화 코드를 인수로 받아 첫 번째 통화에서 두 번째 통화로의 환율을 실수값으로 반환합니다."
+=======
+msgstr ""
+"이 함수는 두 개의 통화 코드를 인수로 받아 첫 번째 통화에서 두 번째 통화로의 "
+"환율을 실수값으로 반환합니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "이 함수는 두 개의 통화 코드를 인수로 받아 첫 번째 통화에서 두 번째 통화로의 "
@@ -237687,6 +238533,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "병합된 셀에서는 이 작업을 수행할 수 없습니다. 먼저 병합을 취소한 후 다시 시도해주세요."
 
 #. module: spreadsheet
@@ -237930,6 +238777,8 @@ msgid "This pivot has no cell missing on this sheet"
 msgstr "이 피벗에는 시트에서 누락된 셀이 있습니다."
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -238746,6 +239595,9 @@ msgstr "이 피벗에는 시트에서 누락된 셀이 있습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -239616,6 +240468,9 @@ msgstr "이 피벗에는 시트에서 누락된 셀이 있습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -240598,6 +241453,7 @@ msgstr "키 값에서 값 변경"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241968,6 +242824,10 @@ msgstr "%s 매개변수 값이 [[FUNCTION_NAME]] 항목에서 누락되었습니
 msgid "Value for parameter %s is missing in [[FUNCTION_NAME]]."
 msgstr "%s 매개변수 값이 [[FUNCTION_NAME]] 항목에서 누락되었습니다."
 >>>>>>> upstream/18.0
+=======
+msgid "Value for parameter %s is missing in [[FUNCTION_NAME]]."
+msgstr "%s 매개변수 값이 [[FUNCTION_NAME]] 항목에서 누락되었습니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -242326,8 +243186,12 @@ msgstr "값이 %s와 같지 않습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "Value nearest to a specific quartile of a dataset exclusive of 0 and 4."
+=======
+msgid "Value nearest to a specific quartile of a dataset exclusive of 0 and 4."
+>>>>>>> upstream/18.0
 =======
 msgid "Value nearest to a specific quartile of a dataset exclusive of 0 and 4."
 >>>>>>> upstream/18.0
@@ -243462,7 +244326,12 @@ msgid "Variable declining balance. WARNING : does not handle decimal periods."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Variable declining balance. 경고: 소수점 이하 마침표를 처리하지 않았습니다."
+=======
+msgstr ""
+"Variable declining balance. 경고: 소수점 이하 마침표를 처리하지 않았습니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Variable declining balance. 경고: 소수점 이하 마침표를 처리하지 않았습니다."
@@ -244912,7 +245781,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "선택 항목에 포함되지 않은 데이터를 찾았습니다. 이 데이터는 선택되지 않았으므로 정렬되지 않습니다. 선택 범위를 확장하시겠습니까?"
+=======
+"선택 항목에 포함되지 않은 데이터를 찾았습니다. 이 데이터는 선택되지 않았으므"
+"로 정렬되지 않습니다. 선택 범위를 확장하시겠습니까?"
+>>>>>>> upstream/18.0
 =======
 "선택 항목에 포함되지 않은 데이터를 찾았습니다. 이 데이터는 선택되지 않았으므"
 "로 정렬되지 않습니다. 선택 범위를 확장하시겠습니까?"
@@ -246107,6 +246981,7 @@ msgstr "구분 기호에 포함된 각 문자를 중심으로 텍스트를 나�
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -247605,6 +248480,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Whether or not to remove empty text messages from the split results. The "
 "default behavior is to treat         consecutive delimiters as one (if "
 "TRUE). If FALSE, empty cells values are added between consecutive delimiters."
@@ -247652,6 +248529,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -247751,6 +248631,7 @@ msgstr "결제일이 각 기간의 말일 (0) 인지 또는 시작일 (1) 인지
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -249379,6 +250260,11 @@ msgstr ""
 "column and false (default)       scans the array by row."
 msgstr ""
 >>>>>>> upstream/18.0
+=======
+"Whether the array should be scanned by column. True scans the array by "
+"column and false (default)       scans the array by row."
+msgstr ""
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -249699,7 +250585,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "정률법으로 계산했을 때 감가상각비가 더 큰 경우 정액법으로 전환할지 여부입니다."
+=======
+msgstr ""
+"정률법으로 계산했을 때 감가상각비가 더 큰 경우 정액법으로 전환할지 여부입니"
+"다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "정률법으로 계산했을 때 감가상각비가 더 큰 경우 정액법으로 전환할지 여부입니"
@@ -251357,7 +252249,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "지정된 수의 요소 뒤에 지정된 행 또는 열의 셀을 열 단위로 래핑하여 새 배열을 만듭니다."
+=======
+msgstr ""
+"지정된 수의 요소 뒤에 지정된 행 또는 열의 셀을 열 단위로 래핑하여 새 배열을 "
+"만듭니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "지정된 수의 요소 뒤에 지정된 행 또는 열의 셀을 열 단위로 래핑하여 새 배열을 "
@@ -252985,7 +253883,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "지정된 수의 요소 뒤에 지정된 행 또는 열의 셀을 행 단위로 래핑하여 새 배열을 만듭니다."
+=======
+msgstr ""
+"지정된 수의 요소 뒤에 지정된 행 또는 열의 셀을 행 단위로 래핑하여 새 배열을 "
+"만듭니다."
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "지정된 수의 요소 뒤에 지정된 행 또는 열의 셀을 행 단위로 래핑하여 새 배열을 "
@@ -254623,6 +255527,7 @@ msgid "Wrong size for %s. Expected a range of size 1x%s. Got %sx%s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%s의 크기가 잘못되었습니다. 크기 범위 1x%s를 예상했으나, %sx%s의 값을 얻었습니다."
 =======
 msgstr ""
@@ -255974,11 +256879,17 @@ msgstr ""
 "%s의 크기가 잘못되었습니다. 크기 범위 1x%s를 예상했으나, %sx%s의 값을 얻었습"
 "니다."
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"%s의 크기가 잘못되었습니다. 크기 범위 1x%s를 예상했으나, %sx%s의 값을 얻었습"
+"니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256791,6 +257702,8 @@ msgstr "'display_ties_mode'의 값이 잘못되었습니다. 0에서 3 사이의
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Wrong value of 'display_ties_mode'. Expected a positive number between 0 and "
 "3. Got %s."
 msgstr ""
@@ -257065,6 +257978,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -257675,7 +258591,10 @@ msgstr "연초 대비 증감률"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -257811,6 +258730,9 @@ msgstr "예"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258031,6 +258953,7 @@ msgstr "중복되는 테이블은 만들 수 없습니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -258185,6 +259108,8 @@ msgstr "중복되는 테이블은 만들 수 없습니다."
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -258322,6 +259247,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258536,6 +259464,9 @@ msgstr "데이터를 내보낼 권한이 없습니다. 관리자에게 문의하
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -258796,6 +259727,7 @@ msgstr "[[FUNCTION_NAME]] 가 평가하는 범위에서 행의 값 %s이 벗어�
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -260148,10 +261080,15 @@ msgstr "[[FUNCTION_NAME]] 에는 숫자 값이 필요합니다."
 msgid "[[FUNCTION_NAME]] expects number values."
 msgstr "[[FUNCTION_NAME]] 에는 숫자 값이 필요합니다."
 >>>>>>> upstream/18.0
+=======
+msgid "[[FUNCTION_NAME]] expects number values."
+msgstr "[[FUNCTION_NAME]] 에는 숫자 값이 필요합니다."
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261013,6 +261950,8 @@ msgstr "[[FUNCTION_NAME]]의 제공된 %(argName)s 값은 비어 있지 않은 �
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid ""
 "[[FUNCTION_NAME]] expects the provided values of %(argName)s to be a non-"
 "empty matrix."
@@ -261272,6 +262211,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -261795,6 +262737,7 @@ msgstr "[[FUNCTION_NAME]] 인수 수가 %s vs %s와 일치하지 않습니다."
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262877,6 +263820,9 @@ msgid "[[FUNCTION_NAME]] has mismatched dimensions for argument %s (%s vs %s)."
 =======
 msgid "[[FUNCTION_NAME]] has mismatched dimensions for argument %s (%s vs %s)."
 >>>>>>> upstream/18.0
+=======
+msgid "[[FUNCTION_NAME]] has mismatched dimensions for argument %s (%s vs %s)."
+>>>>>>> upstream/18.0
 msgstr "[[FUNCTION_NAME]] 차원이 %s (%s vs %s)와 일치하지 않습니다."
 
 #. module: spreadsheet
@@ -262893,6 +263839,7 @@ msgstr "[[FUNCTION_NAME]] 에 올바른 입력 데이터가 없습니다."
 
 #. module: spreadsheet
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264904,6 +265851,11 @@ msgstr "및"
 msgid "and"
 msgstr "및"
 >>>>>>> upstream/18.0
+=======
+#: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+msgid "and"
+msgstr "및"
+>>>>>>> upstream/18.0
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -265248,12 +266200,15 @@ msgstr "이하 또는 같아야 합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "bottom"
 msgstr "하단"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -266250,6 +267205,7 @@ msgstr "기본 값:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "desc"
 msgstr "desc"
 
@@ -266262,6 +267218,8 @@ msgstr "차이"
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -267275,6 +268233,7 @@ msgstr "예: A1:A2"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/global_filters/components/filter_date_value/filter_date_value.xml:0
 msgid "empty"
 msgstr "비어 있음"
@@ -267937,12 +268896,15 @@ msgstr "비어 있음"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "exact date"
 msgstr "정확한 날짜"
 
 #. module: spreadsheet
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -268957,6 +269919,8 @@ msgstr "gt"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 msgid "in the past month"
 msgstr "지난 달"
@@ -269303,6 +270267,7 @@ msgstr "작년"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "left"
 msgstr "왼쪽"
@@ -269321,6 +270286,8 @@ msgstr "로그"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -270329,6 +271296,7 @@ msgstr "음수"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "none"
 msgstr "없음"
@@ -270341,6 +271309,8 @@ msgstr "숫자"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -271355,6 +272325,7 @@ msgstr "일년 전"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "percentage"
 msgstr "백분율"
@@ -271379,6 +272350,8 @@ msgstr "다항식"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -272370,12 +273343,15 @@ msgstr "양수"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "progress"
 msgstr "진행률"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -273371,12 +274347,15 @@ msgstr "return_range는 lookup_range과 동일한 dimension이어야 합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "right"
 msgstr "오른쪽"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -274367,12 +275346,15 @@ msgstr " search_mode는 [-1, 1, -2, 2] 범위의 값이어야 합니다."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "specificRange"
 msgstr "specificRange"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -275369,12 +276351,15 @@ msgstr "기호"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 msgid "text"
 msgstr "본문"
 
 #. module: spreadsheet
 #. odoo-javascript
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -276063,6 +277048,7 @@ msgstr "내일"
 
 #. module: spreadsheet
 #. odoo-javascript
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277109,6 +278095,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/spreadsheet/static/src/public_readonly_app/public_readonly.xml:0
 msgid "x"
 msgstr "x"
@@ -277158,6 +278146,9 @@ msgstr "x"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -277524,6 +278515,7 @@ msgstr "0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -277974,6 +278966,8 @@ msgstr "0"
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -278181,6 +279175,9 @@ msgstr "0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -278505,6 +279502,9 @@ msgstr "0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -279230,6 +280230,9 @@ msgstr "0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -280025,6 +281028,9 @@ msgstr "0"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

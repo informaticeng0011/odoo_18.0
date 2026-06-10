@@ -140,7 +140,11 @@ from odoo.exceptions import UserError
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_compare
+=======
+from odoo.tools import float_is_zero, float_round
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero, float_round
 >>>>>>> upstream/18.0
@@ -702,11 +706,14 @@ class MrpBom(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if float_compare(sum(bom.bom_line_ids.mapped('cost_share')), 100, precision_digits=2) != 0:
                 raise UserError(_("The total cost share for a BoM's component have to be 100"))
         return res
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -989,6 +996,7 @@ class MrpBom(models.Model):
     def _round_last_line_done(self, lines_done):
         result = super()._round_last_line_done(lines_done)
         if result:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1683,6 +1691,11 @@ class MrpBom(models.Model):
         return result
 
 >>>>>>> upstream/18.0
+=======
+            result[-1][1]['line_cost_share'] = 100 - sum(vals.get('line_cost_share', 0.0) for _, vals in result[:-1])
+        return result
+
+>>>>>>> upstream/18.0
 
 class MrpBomLine(models.Model):
     _inherit = 'mrp.bom.line'
@@ -1782,7 +1795,11 @@ class MrpBomLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "Cost Share (%)", digits=(5, 2),  # decimal = 2 is important for rounding calculations!!
+=======
+        "Cost Share (%)", digits=0,
+>>>>>>> upstream/18.0
 =======
         "Cost Share (%)", digits=0,
 >>>>>>> upstream/18.0
@@ -2207,6 +2224,7 @@ class MrpBomLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.cost_share:
             return self.cost_share / 100
         bom = self.bom_id
@@ -2489,6 +2507,8 @@ class MrpBomLine(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         product = self.env.context.get('bom_variant_id', self.env['product.product'])
         cache = self.env.context.get('bom_cost_share_cache', {})
         variant_cache_key = (self.bom_id.id, product.id)
@@ -2580,6 +2600,9 @@ class MrpBomLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2833,7 +2856,11 @@ class MrpBomLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         result['line_cost_share'] = float_round(self._get_line_cost_share(product, boms_done), precision_digits=2)
+=======
+        result['line_cost_share'] = self._get_line_cost_share(product, boms_done)
+>>>>>>> upstream/18.0
 =======
         result['line_cost_share'] = self._get_line_cost_share(product, boms_done)
 >>>>>>> upstream/18.0
@@ -3261,6 +3288,9 @@ class MrpBomLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

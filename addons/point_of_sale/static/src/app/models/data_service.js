@@ -273,7 +273,11 @@ import { markRaw } from "@odoo/owl";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { batched } from "@web/core/utils/timing";
+=======
+import { debounce } from "@web/core/utils/timing";
+>>>>>>> upstream/18.0
 =======
 import { debounce } from "@web/core/utils/timing";
 >>>>>>> upstream/18.0
@@ -1169,7 +1173,11 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static serviceDependencies = ["orm", "bus_service"];
+=======
+    static serviceDependencies = ["orm", "bus_service", "dialog"];
+>>>>>>> upstream/18.0
 =======
     static serviceDependencies = ["orm", "bus_service", "dialog"];
 >>>>>>> upstream/18.0
@@ -1468,10 +1476,13 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     async setup(env, { orm, bus_service }) {
         this.orm = orm;
         this.bus = bus_service;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1692,6 +1703,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1856,6 +1870,7 @@ export class PosData extends Reactive {
         this.initIndexedDB();
         await this.initData();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2671,6 +2686,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         this._debouncedSync = debounce((records) => {
             this.syncDataWithIndexedDB(records);
         }, 200);
@@ -2945,6 +2962,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3614,7 +3634,11 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.indexedDB = new IndexedDB(this.databaseName, INDEXED_DB_VERSION, models);
+=======
+        this.indexedDB = new IndexedDB(this.databaseName, INDEXED_DB_VERSION, models, this.dialog);
+>>>>>>> upstream/18.0
 =======
         this.indexedDB = new IndexedDB(this.databaseName, INDEXED_DB_VERSION, models, this.dialog);
 >>>>>>> upstream/18.0
@@ -3841,6 +3865,7 @@ export class PosData extends Reactive {
     }
 
     syncDataWithIndexedDB(records) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4292,6 +4317,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // This methods will add uiState to the serialized object
         const dataFormatter = (record) => {
             const serializedData = record.serialize();
@@ -4299,6 +4326,7 @@ export class PosData extends Reactive {
             return { ...serializedData, JSONuiState: JSON.stringify(uiState), id: record.id };
         };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4456,6 +4484,8 @@ export class PosData extends Reactive {
             this.indexedDB.create(model, data.put);
             dataToDelete[model] = data.remove;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4921,6 +4951,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5217,6 +5250,7 @@ export class PosData extends Reactive {
 
             for (const [model, records] of Object.entries(data)) {
                 const key = this.opts.databaseTable[model].key;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5943,6 +5977,10 @@ export class PosData extends Reactive {
                 const keysToDelete = [];
 
 >>>>>>> upstream/18.0
+=======
+                const keysToDelete = [];
+
+>>>>>>> upstream/18.0
                 for (const record of records) {
                     const localRecord = this.models[model].get(record.id);
                     if (!localRecord) {
@@ -6092,6 +6130,12 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if (!dataToKeep[model] || !dataToKeep[model].includes(record[key])) {
+                        keysToDelete.push(record[key]);
+                    }
+>>>>>>> upstream/18.0
 =======
                     if (!dataToKeep[model] || !dataToKeep[model].includes(record[key])) {
                         keysToDelete.push(record[key]);
@@ -7192,6 +7236,7 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         delete data["pos.order"];
         delete data["pos.order.line"];
@@ -7467,6 +7512,8 @@ export class PosData extends Reactive {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8288,6 +8335,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8836,6 +8886,7 @@ export class PosData extends Reactive {
             order.lines.some((line) => line.is_reward_line && !line.coupon_id)
         );
         for (const order of order_to_delete) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9911,6 +9962,8 @@ export class PosData extends Reactive {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             for (let i = order.lines.length - 1; i >= 0; i--) {
                 order.lines[i].delete();
             }
@@ -10256,6 +10309,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11201,9 +11257,12 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     result = await this.orm.read(model, ids, fields, {
                         ...options,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11874,6 +11933,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12541,9 +12603,12 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     result = await this.orm.searchRead(model, args, fields, {
                         ...options,
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13214,6 +13279,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14043,6 +14111,10 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                context: { display_default_code: false },
+>>>>>>> upstream/18.0
 =======
                 context: { display_default_code: false },
 >>>>>>> upstream/18.0
@@ -14843,10 +14915,13 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.deviceSync.dispatch(data);
         const results = this.models.loadData(data, [], true);
         return results;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -14973,6 +15048,9 @@ export class PosData extends Reactive {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

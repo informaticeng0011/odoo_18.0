@@ -30,6 +30,10 @@ from odoo.http import request, route
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_is_zero
 >>>>>>> upstream/18.0
@@ -210,6 +214,7 @@ class WebsiteEventSaleController(WebsiteEventController):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if order_sudo.amount_total:
                 request.session['sale_last_order_id'] = order_sudo.id
                 return request.redirect("/shop/checkout")
@@ -219,6 +224,8 @@ class WebsiteEventSaleController(WebsiteEventController):
                 request.website.sale_reset()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -304,6 +311,9 @@ class WebsiteEventSaleController(WebsiteEventController):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

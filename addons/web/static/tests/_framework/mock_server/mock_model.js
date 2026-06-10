@@ -307,7 +307,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { createJobScopedGetter } from "@odoo/hoot";
+=======
+import { after, createJobScopedGetter } from "@odoo/hoot";
+>>>>>>> upstream/18.0
 =======
 import { after, createJobScopedGetter } from "@odoo/hoot";
 >>>>>>> upstream/18.0
@@ -1557,7 +1561,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     MockServerError,
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2489,6 +2496,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    MockServerError,
+>>>>>>> upstream/18.0
 =======
     MockServerError,
 >>>>>>> upstream/18.0
@@ -3732,6 +3743,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     S_FIELD,
 >>>>>>> upstream/18.0
@@ -4007,6 +4019,10 @@ const {
 >>>>>>> upstream/18.0
 =======
     S_FIELD,
+>>>>>>> upstream/18.0
+=======
+    S_FIELD,
+    copyFields,
 >>>>>>> upstream/18.0
 =======
     S_FIELD,
@@ -5189,6 +5205,7 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("@web/core/domain").DomainListRepr} DomainListRepr
  *
  * @typedef {import("./mock_fields").FieldDefinition} FieldDefinition
@@ -5198,6 +5215,8 @@ const {
  * @typedef {FieldDefinition["type"]} FieldType
  *
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6128,6 +6147,9 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7064,8 +7086,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @typedef {import("./mock_fields").GroupOperator} GroupOperator
  *
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8001,7 +8026,11 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  [key: string]: any;
+=======
+ *  [key: string]: unknown;
+>>>>>>> upstream/18.0
 =======
  *  [key: string]: unknown;
 >>>>>>> upstream/18.0
@@ -9243,12 +9272,15 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *  __range: Record<string, any>;
  *  [key: string]: any;
  * }} ModelRecordGroup
  *
  * @typedef {{
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10179,6 +10211,9 @@ const {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10804,6 +10839,7 @@ const {
  *  order?: string;
  * }} SearchParams
  *
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12672,6 +12708,11 @@ const {
  *
  * @typedef {import("@web/views/view").ViewType} ViewType
 >>>>>>> upstream/18.0
+=======
+ * @typedef {ViewType | `${ViewType},${number}`} ViewKey
+ *
+ * @typedef {import("@web/views/view").ViewType} ViewType
+>>>>>>> upstream/18.0
  */
 
 /**
@@ -12683,6 +12724,7 @@ const {
  * @template [T={}]
  * @typedef {{
  *  args?: any[];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13920,10 +13962,14 @@ const {
 =======
  *  context?: Context;
 >>>>>>> upstream/18.0
+=======
+ *  context?: Context;
+>>>>>>> upstream/18.0
  *  [key: string]: any;
  * } & Partial<T>} KwArgs
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14919,6 +14965,8 @@ const applyDefaults = ({ _fields }, record, context) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 //-----------------------------------------------------------------------------
 // Local helpers
 //-----------------------------------------------------------------------------
@@ -15217,6 +15265,9 @@ const applyDefaults = ({ _fields }, record, context) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16157,6 +16208,9 @@ function aggregateFields(aggregatedFields, group, records) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17089,7 +17143,11 @@ function aggregateFields(aggregatedFields, group, records) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const assignArray = (target, ...arrays) => {
+=======
+function assignArray(target, ...arrays) {
+>>>>>>> upstream/18.0
 =======
 function assignArray(target, ...arrays) {
 >>>>>>> upstream/18.0
@@ -18333,6 +18391,7 @@ function assignArray(target, ...arrays) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 
 /**
@@ -18341,6 +18400,9 @@ function assignArray(target, ...arrays) {
  * @returns
  */
 const constructorToModelName = (name) => name.replace(/([a-z])([A-Z])/g, "$1.$2").toLowerCase();
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -19590,7 +19652,11 @@ const constructorToModelName = (name) => name.replace(/([a-z])([A-Z])/g, "$1.$2"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const convertToOnChange = (model, values, specification) => {
+=======
+function convertToOnChange(model, values, specification) {
+>>>>>>> upstream/18.0
 =======
 function convertToOnChange(model, values, specification) {
 >>>>>>> upstream/18.0
@@ -20854,8 +20920,11 @@ function convertToOnChange(model, values, specification) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21791,6 +21860,9 @@ function createRawInstance(ModelClass) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22413,6 +22485,7 @@ function createRawInstance(ModelClass) {
  * @param {string} modelName
  * @param {string} fieldName
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23881,10 +23954,15 @@ function fieldNotFoundError(modelName, fieldName, consequence) {
 function fieldNotFoundError(modelName, fieldName, consequence) {
     let message = `Cannot find a definition for field "${fieldName}" in model "${modelName}"`;
 >>>>>>> upstream/18.0
+=======
+function fieldNotFoundError(modelName, fieldName, consequence) {
+    let message = `Cannot find a definition for field "${fieldName}" in model "${modelName}"`;
+>>>>>>> upstream/18.0
     if (consequence) {
         message += `: ${consequence}`;
     }
     return new MockServerError(message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24215,6 +24293,8 @@ const findView = (model, viewId, viewType) => {
     return ["", false];
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25177,6 +25257,9 @@ function findView(model, viewType, viewId) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26109,7 +26192,11 @@ function findView(model, viewType, viewId) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const formatFieldValue = (fields, groupByField, val) => {
+=======
+function formatFieldValue(fields, groupByField, val) {
+>>>>>>> upstream/18.0
 =======
 function formatFieldValue(fields, groupByField, val) {
 >>>>>>> upstream/18.0
@@ -27366,7 +27453,11 @@ function formatFieldValue(fields, groupByField, val) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -28612,7 +28703,11 @@ function formatFieldValue(fields, groupByField, val) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getDateSortingValue = (group, fieldName) => {
+=======
+function getDateSortingValue(group, fieldName) {
+>>>>>>> upstream/18.0
 =======
 function getDateSortingValue(group, fieldName) {
 >>>>>>> upstream/18.0
@@ -29866,7 +29961,11 @@ function getDateSortingValue(group, fieldName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -31114,7 +31213,11 @@ function getDateSortingValue(group, fieldName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getDateNumberSortingValue = (group, fieldName) => {
+=======
+function getDateNumberSortingValue(group, fieldName) {
+>>>>>>> upstream/18.0
 =======
 function getDateNumberSortingValue(group, fieldName) {
 >>>>>>> upstream/18.0
@@ -32364,8 +32467,11 @@ function getDateNumberSortingValue(group, fieldName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33244,6 +33350,7 @@ function getModelDefinition(previous, constructor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 for (const subKey in previous[key]) {
                     // Assign only if empty
                     if (isEmptyValue(model[key][subKey])) {
@@ -33251,6 +33358,8 @@ function getModelDefinition(previous, constructor) {
                             ? map(previous[key][subKey])
                             : previous[key][subKey];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33904,6 +34013,9 @@ function getModelDefinition(previous, constructor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34674,6 +34786,9 @@ function getModelDefinition(previous, constructor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -35610,7 +35725,11 @@ function getModelDefinition(previous, constructor) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getOrderByField = ({ _fields, _name }, fieldNameSpec) => {
+=======
+function getOrderByField({ _fields, _name }, fieldNameSpec) {
+>>>>>>> upstream/18.0
 =======
 function getOrderByField({ _fields, _name }, fieldNameSpec) {
 >>>>>>> upstream/18.0
@@ -36852,7 +36971,11 @@ function getOrderByField({ _fields, _name }, fieldNameSpec) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -38093,11 +38216,14 @@ function getOrderByField({ _fields, _name }, fieldNameSpec) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getReferenceValue = (value) => {
     const [modelName, id] = safeSplit(value);
     return [modelName, JSON.parse(id)];
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -39026,6 +39152,9 @@ function getReferenceValue(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39957,7 +40086,11 @@ function getReferenceValue(value) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getRelation = (field, record = {}) => {
+=======
+function getRelation(field, record = {}) {
+>>>>>>> upstream/18.0
 =======
 function getRelation(field, record = {}) {
 >>>>>>> upstream/18.0
@@ -41202,7 +41335,11 @@ function getRelation(field, record = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -42444,7 +42581,11 @@ function getRelation(field, record = {}) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getTag = (node) => {
+=======
+function getTag(node) {
+>>>>>>> upstream/18.0
 =======
 function getTag(node) {
 >>>>>>> upstream/18.0
@@ -43688,7 +43829,11 @@ function getTag(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -44931,6 +45076,7 @@ function getTag(node) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getView = (model, args, kwargs) => {
     // find the arch
     let [requestViewId, viewType] = args;
@@ -45553,11 +45699,14 @@ const getView = (model, args, kwargs) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function getView(model, args, kwargs) {
     // find the arch
     let [requestViewId, viewType] = args;
     if (!requestViewId) {
         const contextKey = `${viewType}_view_ref`;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46630,6 +46779,8 @@ function getView(model, args, kwargs) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (kwargs.context && contextKey in kwargs.context) {
             requestViewId = kwargs.context[contextKey];
         }
@@ -46918,6 +47069,9 @@ function getView(model, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -47796,7 +47950,11 @@ function getView(model, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -49039,7 +49197,11 @@ function getView(model, args, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const getViewFields = (model, viewType, models) => {
+=======
+function getViewFields(model, viewType, models) {
+>>>>>>> upstream/18.0
 =======
 function getViewFields(model, viewType, models) {
 >>>>>>> upstream/18.0
@@ -50319,8 +50481,11 @@ function getViewFields(model, viewType, models) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -51256,6 +51421,9 @@ function getViewKey(viewType, viewId) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51877,6 +52045,7 @@ function getViewKey(viewType, viewId) {
 /**
  * @param {FieldDefinition | FieldType} field
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52807,6 +52976,8 @@ const isDateField = (field) => {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function isDateField(field) {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "date" || fieldType === "datetime";
@@ -53119,6 +53290,9 @@ function isDateField(field) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54049,11 +54223,14 @@ function isDateField(field) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isM2OField = (field) => {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "many2one" || fieldType === "many2one_reference";
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54982,6 +55159,9 @@ function isM2OField(field) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55912,7 +56092,13 @@ function isM2OField(field) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isRelationalView = (viewType) => ["form", "kanban", "list"].includes(viewType);
+=======
+function isRelationalView(viewType) {
+    return ["form", "kanban", "list"].includes(viewType);
+}
+>>>>>>> upstream/18.0
 =======
 function isRelationalView(viewType) {
     return ["form", "kanban", "list"].includes(viewType);
@@ -57771,7 +57957,11 @@ function isRelationalView(viewType) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isValidCommand = (command) => {
+=======
+function isValidCommand(command) {
+>>>>>>> upstream/18.0
 =======
 function isValidCommand(command) {
 >>>>>>> upstream/18.0
@@ -59022,7 +59212,11 @@ function isValidCommand(command) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -60265,7 +60459,11 @@ function isValidCommand(command) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isValidFieldValue = (record, fieldDef) => {
+=======
+function isValidFieldValue(record, fieldDef) {
+>>>>>>> upstream/18.0
 =======
 function isValidFieldValue(record, fieldDef) {
 >>>>>>> upstream/18.0
@@ -61472,11 +61670,14 @@ function isValidFieldValue(record, fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         case "json":
         case "text": {
             return typeof value === "string";
         }
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -62290,6 +62491,9 @@ function isValidFieldValue(record, fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -62833,6 +63037,7 @@ function isValidFieldValue(record, fieldDef) {
             return typeof value === "boolean";
         }
         case "date": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63763,6 +63968,8 @@ function isValidFieldValue(record, fieldDef) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             return R_DATE.test(value);
         }
         case "datetime": {
@@ -64075,6 +64282,9 @@ function isValidFieldValue(record, fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65048,7 +65258,11 @@ function isValidFieldValue(record, fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -66291,7 +66505,11 @@ function isValidFieldValue(record, fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isValidId = (id, field, record) => {
+=======
+function isValidId(id, field, record) {
+>>>>>>> upstream/18.0
 =======
 function isValidId(id, field, record) {
 >>>>>>> upstream/18.0
@@ -67536,7 +67754,11 @@ function isValidId(id, field, record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -68778,7 +69000,11 @@ function isValidId(id, field, record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isViewEditable = (element, modelName) => {
+=======
+function isViewEditable(element, modelName) {
+>>>>>>> upstream/18.0
 =======
 function isViewEditable(element, modelName) {
 >>>>>>> upstream/18.0
@@ -70028,7 +70254,11 @@ function isViewEditable(element, modelName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -71269,11 +71499,14 @@ function isViewEditable(element, modelName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const isX2MField = (field) => {
     const fieldType = typeof field === "string" ? field : field.type;
     return fieldType === "many2many" || fieldType === "one2many";
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -72202,6 +72435,9 @@ function isX2MField(field) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -73139,7 +73375,11 @@ function isX2MField(field) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const orderByField = (model, orderBy, records) => {
+=======
+function orderByField(model, orderBy, records) {
+>>>>>>> upstream/18.0
 =======
 function orderByField(model, orderBy, records) {
 >>>>>>> upstream/18.0
@@ -74393,7 +74633,11 @@ function orderByField(model, orderBy, records) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     `cannot order by field "${field.name}" in model "${
+=======
+                    `Cannot order by field "${field.name}" in model "${
+>>>>>>> upstream/18.0
 =======
                     `Cannot order by field "${field.name}" in model "${
 >>>>>>> upstream/18.0
@@ -75408,7 +75652,11 @@ function orderByField(model, orderBy, records) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -76656,7 +76904,11 @@ function orderByField(model, orderBy, records) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const parseView = (model, params) => {
+=======
+function parseView(model, params) {
+>>>>>>> upstream/18.0
 =======
 function parseView(model, params) {
 >>>>>>> upstream/18.0
@@ -77805,7 +78057,11 @@ function parseView(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const fields = deepCopy(model._fields);
+=======
+    const fields = copyFields(model._fields);
+>>>>>>> upstream/18.0
 =======
     const fields = copyFields(model._fields);
 >>>>>>> upstream/18.0
@@ -78755,12 +79011,15 @@ function parseView(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ["required", "readonly", "invisible", "column_invisible"].forEach((attr) => {
             if (/^(true|1)$/i.test(node.getAttribute(attr))) {
                 node.setAttribute(attr, "True");
             }
         });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -79609,6 +79868,9 @@ function parseView(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -80224,6 +80486,7 @@ function parseView(model, params) {
                 }
                 for (const type of missingViewtypes) {
                     // in a lot of tests, we don't need the form view, so it doesn't even exist
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -81464,6 +81727,9 @@ function parseView(model, params) {
 =======
                     const [arch] = findView(relModel, type, false);
 >>>>>>> upstream/18.0
+=======
+                    const [arch] = findView(relModel, type, false);
+>>>>>>> upstream/18.0
                     node.appendChild(domParser.parseFromString(arch, "text/xml").documentElement);
                 }
             }
@@ -81723,7 +81989,11 @@ function parseView(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new MockServerError("cannot group: 'groupby' can only target many2one fields");
+=======
+            throw new MockServerError("Cannot group: 'groupby' can only target many2one fields");
+>>>>>>> upstream/18.0
 =======
             throw new MockServerError("Cannot group: 'groupby' can only target many2one fields");
 >>>>>>> upstream/18.0
@@ -82753,7 +83023,11 @@ function parseView(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -83999,7 +84273,11 @@ function parseView(model, params) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelDomainImage = (model, fieldName, domain, setCount = false, limit = false) => {
+=======
+function searchPanelDomainImage(model, fieldName, domain, setCount = false, limit = false) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelDomainImage(model, fieldName, domain, setCount = false, limit = false) {
 >>>>>>> upstream/18.0
@@ -85262,7 +85540,11 @@ function searchPanelDomainImage(model, fieldName, domain, setCount = false, limi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -86514,7 +86796,11 @@ function searchPanelDomainImage(model, fieldName, domain, setCount = false, limi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelFieldImage = (model, fieldName, kwargs) => {
+=======
+function searchPanelFieldImage(model, fieldName, kwargs) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelFieldImage(model, fieldName, kwargs) {
 >>>>>>> upstream/18.0
@@ -87782,7 +88068,11 @@ function searchPanelFieldImage(model, fieldName, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -89026,7 +89316,11 @@ function searchPanelFieldImage(model, fieldName, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelGlobalCounters = (valuesRange, parentName) => {
+=======
+function searchPanelGlobalCounters(valuesRange, parentName) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelGlobalCounters(valuesRange, parentName) {
 >>>>>>> upstream/18.0
@@ -90275,7 +90569,11 @@ function searchPanelGlobalCounters(valuesRange, parentName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -91520,7 +91818,11 @@ function searchPanelGlobalCounters(valuesRange, parentName) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelSanitizedParentHierarchy = (model, parentName, ids) => {
+=======
+function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
 >>>>>>> upstream/18.0
@@ -92785,7 +93087,11 @@ function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -94030,7 +94336,11 @@ function searchPanelSanitizedParentHierarchy(model, parentName, ids) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const searchPanelSelectionRange = (model, fieldName, kwargs) => {
+=======
+function searchPanelSelectionRange(model, fieldName, kwargs) {
+>>>>>>> upstream/18.0
 =======
 function searchPanelSelectionRange(model, fieldName, kwargs) {
 >>>>>>> upstream/18.0
@@ -95292,7 +95602,11 @@ function searchPanelSelectionRange(model, fieldName, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -96533,7 +96847,13 @@ function searchPanelSelectionRange(model, fieldName, kwargs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const toIdDisplayName = (record) => record && [record.id, record.display_name];
+=======
+function toIdDisplayName(record) {
+    return record && [record.id, record.display_name];
+}
+>>>>>>> upstream/18.0
 =======
 function toIdDisplayName(record) {
     return record && [record.id, record.display_name];
@@ -98393,7 +98713,11 @@ function toIdDisplayName(record) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const traverseElement = (node, callback) => {
+=======
+function traverseElement(node, callback) {
+>>>>>>> upstream/18.0
 =======
 function traverseElement(node, callback) {
 >>>>>>> upstream/18.0
@@ -99635,7 +99959,11 @@ function traverseElement(node, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> upstream/18.0
 =======
 }
 >>>>>>> upstream/18.0
@@ -100881,7 +101209,11 @@ function traverseElement(node, callback) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const updateComodelRelationalFields = (model, record, originalRecord) => {
+=======
+function updateComodelRelationalFields(model, record, originalRecord) {
+>>>>>>> upstream/18.0
 =======
 function updateComodelRelationalFields(model, record, originalRecord) {
 >>>>>>> upstream/18.0
@@ -102188,8 +102520,11 @@ function updateComodelRelationalFields(model, record, originalRecord) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 };
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -103045,7 +103380,11 @@ function validateFieldDefinition(fieldName, fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             `cannot set the name of field "${fieldName}" from its definition: got "${fieldDef.name}"`
+=======
+            `Cannot set the name of field "${fieldName}" from its definition: got "${fieldDef.name}"`
+>>>>>>> upstream/18.0
 =======
             `Cannot set the name of field "${fieldName}" from its definition: got "${fieldDef.name}"`
 >>>>>>> upstream/18.0
@@ -104049,6 +104388,9 @@ function validateFieldDefinition(fieldName, fieldDef) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -104672,6 +105014,7 @@ function validateFieldDefinition(fieldName, fieldDef) {
  * @param {ViewType} viewType
  * @param {number | false} viewId
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105838,6 +106181,8 @@ function viewNotFoundError(modelName, viewType, viewId, consequence) {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 function viewNotFoundError(modelName, viewType, viewId, consequence) {
     let message = `Cannot find an arch for view "${viewType}" with ID ${JSON.stringify(
         viewId
@@ -106071,6 +106416,9 @@ function viewNotFoundError(modelName, viewType, viewId, consequence) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -106534,6 +106882,7 @@ function viewNotFoundError(modelName, viewType, viewId, consequence) {
         message += `: ${consequence}`;
     }
     return new MockServerError(message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -107468,6 +107817,8 @@ const DATE_TIME_REGEX = /\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?/;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 //-----------------------------------------------------------------------------
@@ -107498,6 +107849,7 @@ const DATETIME_FORMAT = {
     minute_number: (date) => date.minute,
     second_number: (date) => date.second,
 };
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109032,6 +109384,11 @@ const INHERITED_OBJECT_KEYS = [
     ["_computes", null],
     ["_fields", copyFields],
 >>>>>>> upstream/18.0
+=======
+const INHERITED_OBJECT_KEYS = [
+    ["_computes", null],
+    ["_fields", copyFields],
+>>>>>>> upstream/18.0
     ["_onChanges", null],
     ["_toolbar", deepCopy],
     ["_views", null],
@@ -109044,6 +109401,7 @@ const INHERITED_PRIMITIVE_KEYS = [
     ["_rec_name", null],
     ["_related", (set) => new Set(set)],
 ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109975,6 +110333,8 @@ const R_DATE_TIME = /\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?/;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 const READ_GROUP_NUMBER_GRANULARITY = [
     "day_of_month",
     "day_of_week",
@@ -110281,6 +110641,9 @@ const READ_GROUP_NUMBER_GRANULARITY = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -110880,6 +111243,7 @@ const VALID_AGGREGATE_FUNCTIONS = [
     "sum",
 ];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -111808,6 +112172,8 @@ let modelInstanceLock = false;
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 // Regular expressions
 const R_AGGREGATE_FUNCTION = /(\w+)(?::(\w+)(?:\((\w+)\))?)?/;
 const R_CAMEL_CASE = /([a-z])([A-Z])/g;
@@ -112107,6 +112473,9 @@ const R_DATE_TIME = /\d{4}-\d{2}-\d{2}( \d{2}:\d{2}:\d{2})?/;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -112999,7 +113368,10 @@ let modelInstanceLock = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -113883,6 +114255,9 @@ let modelInstanceLock = 0;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -114792,6 +115167,9 @@ export function registerInlineViewArchs(modelName, archs) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -115424,6 +115802,7 @@ export function registerInlineViewArchs(modelName, archs) {
  * @extends {Array<ModelRecord>}
  */
 export class Model extends Array {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116406,6 +116785,8 @@ export class Model extends Array {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     /** @type {ReturnType<typeof createJobScopedGetter<typeof getModelDefinition>> | null} */
     static definitionGetter = null;
 
@@ -116727,6 +117108,9 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117712,11 +118096,14 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.definition;
     }
     static set _records(value) {
         assignArray(this.definition, value);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118645,6 +119032,9 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -119587,6 +119977,7 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {Record<string, (this: Model, fieldName: string) => void>} */
     _computes = {};
     _fetch = false;
@@ -119594,6 +119985,8 @@ export class Model extends Array {
      * @type {Omit<Model,
      *  "_computes"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -120537,6 +120930,9 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -121494,6 +121890,7 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @type {Record<string, string>} */
 =======
     /** @type {Record<ViewKey, string>} */
@@ -121545,6 +121942,8 @@ export class Model extends Array {
     get env() {
         return MockServer.current.env;
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -122429,6 +122828,9 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -123352,7 +123754,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._fetch = modelInstance._fetch;
+=======
+            this._description = modelInstance._description;
+>>>>>>> upstream/18.0
 =======
             this._description = modelInstance._description;
 >>>>>>> upstream/18.0
@@ -124596,7 +125002,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             this._records = modelInstance._records;
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -125537,7 +125946,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new MockServerError(`cannot create a record with a given ID value`);
+=======
+                throw new MockServerError(`Cannot create a record with a given ID value`);
+>>>>>>> upstream/18.0
 =======
                 throw new MockServerError(`Cannot create a record with a given ID value`);
 >>>>>>> upstream/18.0
@@ -126232,6 +126645,7 @@ export class Model extends Array {
             const record = { id: this._getNextId() };
             ids.push(record.id);
             this.push(record);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127469,6 +127883,9 @@ export class Model extends Array {
 =======
             this._applyDefaults(values, kwargs.context);
 >>>>>>> upstream/18.0
+=======
+            this._applyDefaults(values, kwargs.context);
+>>>>>>> upstream/18.0
             this._write(values, record.id);
         }
         this.browse(ids)._applyComputesAndValidate();
@@ -127735,7 +128152,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         `missing default value for field type "${field.type}"`
+=======
+                        `Missing default value for field type "${field.type}"`
+>>>>>>> upstream/18.0
 =======
                         `Missing default value for field type "${field.type}"`
 >>>>>>> upstream/18.0
@@ -128725,8 +129146,13 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param {Iterable<string>} fieldNames
      * @param {Iterable<string>} attributes
+=======
+     * @param {Iterable<string>} [fieldNames]
+     * @param {Iterable<string>} [attributes]
+>>>>>>> upstream/18.0
 =======
      * @param {Iterable<string>} [fieldNames]
      * @param {Iterable<string>} [attributes]
@@ -130191,7 +130617,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             models[modelName] = { fields: MockServer.env[modelName].fields_get(value.fields) };
+=======
+            models[modelName] = { fields: this.env[modelName].fields_get(value.fields) };
+>>>>>>> upstream/18.0
 =======
             models[modelName] = { fields: this.env[modelName].fields_get(value.fields) };
 >>>>>>> upstream/18.0
@@ -131525,6 +131955,7 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         /**
          * @param {ModelRecordGroup} group
          * @param {ModelRecord[]} records
@@ -131573,6 +132004,8 @@ export class Model extends Array {
             }
         };
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -132525,6 +132958,7 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     aggregatedFields.push({ fieldName, name: fieldName });
                 }
             }
@@ -132552,6 +132986,8 @@ export class Model extends Array {
                 aggregatedFields.push({ fieldName, func, name });
             });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -133406,7 +133842,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     throw new MockServerError(`invalid aggregation function "${aggregator}"`);
+=======
+                    throw new MockServerError(`Invalid aggregation function "${aggregator}"`);
+>>>>>>> upstream/18.0
 =======
                     throw new MockServerError(`Invalid aggregation function "${aggregator}"`);
 >>>>>>> upstream/18.0
@@ -134417,6 +134857,9 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -135347,7 +135790,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             aggregateFields(group, records);
+=======
+            aggregateFields(aggregatedFields, group, records);
+>>>>>>> upstream/18.0
 =======
             aggregateFields(aggregatedFields, group, records);
 >>>>>>> upstream/18.0
@@ -136721,7 +137168,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             aggregateFields(group, groupRecords);
+=======
+            aggregateFields(aggregatedFields, group, groupRecords);
+>>>>>>> upstream/18.0
 =======
             aggregateFields(aggregatedFields, group, groupRecords);
 >>>>>>> upstream/18.0
@@ -138000,7 +138451,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 `only category types ${supportedTypes.join(" and ")} are supported, got "${
+=======
+                `Only category types ${supportedTypes.join(" and ")} are supported, got "${
+>>>>>>> upstream/18.0
 =======
                 `Only category types ${supportedTypes.join(" and ")} are supported, got "${
 >>>>>>> upstream/18.0
@@ -138798,7 +139253,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 set_limit: limit && !(expand || hierarchize || comodelDomain),
+=======
+                set_limit: limit && !(expand || hierarchize || comodelDomain.length),
+>>>>>>> upstream/18.0
 =======
                 set_limit: limit && !(expand || hierarchize || comodelDomain.length),
 >>>>>>> upstream/18.0
@@ -139079,6 +139538,7 @@ export class Model extends Array {
         const supportedTypes = ["many2many", "many2one", "selection"];
         if (!supportedTypes.includes(field.type)) {
             throw new MockServerError(
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140000,6 +140460,9 @@ export class Model extends Array {
 =======
                 `Only filter types ${supportedTypes} are supported, got "${field.type}"`
 >>>>>>> upstream/18.0
+=======
+                `Only filter types ${supportedTypes} are supported, got "${field.type}"`
+>>>>>>> upstream/18.0
             );
         }
         let modelDomain = kwargs.search_domain || [];
@@ -140172,7 +140635,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     set_limit: limit && !(expand || groupBy || comodelDomain),
+=======
+                    set_limit: limit && !(expand || groupBy || comodelDomain.length),
+>>>>>>> upstream/18.0
 =======
                     set_limit: limit && !(expand || groupBy || comodelDomain.length),
 >>>>>>> upstream/18.0
@@ -140725,7 +141192,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for (const model of Object.values(MockServer.current.models)) {
+=======
+        for (const model of Object.values(MockServer.current._models)) {
+>>>>>>> upstream/18.0
 =======
         for (const model of Object.values(MockServer.current._models)) {
 >>>>>>> upstream/18.0
@@ -142022,6 +142493,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -143153,7 +143628,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         `invalid value for field "${fieldName}" on ${getRecordQualifier(
+=======
+                        `Invalid value for field "${fieldName}" on ${getRecordQualifier(
+>>>>>>> upstream/18.0
 =======
                         `Invalid value for field "${fieldName}" on ${getRecordQualifier(
 >>>>>>> upstream/18.0
@@ -144165,6 +144644,7 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -144195,6 +144675,10 @@ export class Model extends Array {
 =======
 >>>>>>> upstream/18.0
     /**
+=======
+    /**
+     * @private
+>>>>>>> upstream/18.0
 =======
     /**
      * @private
@@ -145669,7 +146153,13 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 record[fieldName] = this.env.uid;
+=======
+                if ("res.users" in MockServer.current._models) {
+                    record[fieldName] = this.env.uid;
+                }
+>>>>>>> upstream/18.0
 =======
                 if ("res.users" in MockServer.current._models) {
                     record[fieldName] = this.env.uid;
@@ -147404,6 +147894,7 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -147432,6 +147923,11 @@ export class Model extends Array {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+    /**
+     * @private
+     */
 >>>>>>> upstream/18.0
 =======
     /**
@@ -149211,6 +149707,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -150415,6 +150915,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -151441,6 +151945,7 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 const childIds = [criterion[2]];
                 while (childIds.length > oldLength) {
                     oldLength = childIds.length;
@@ -151452,6 +151957,8 @@ export class Model extends Array {
                 }
                 criterion = [criterion[0], "in", childIds];
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -151699,6 +152206,9 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -152171,6 +152681,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -153377,6 +153891,12 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    /**
+     * @private
+     */
+>>>>>>> upstream/18.0
 =======
     /**
      * @private
@@ -155146,6 +155666,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -156044,6 +156568,7 @@ export class Model extends Array {
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -157275,6 +157800,9 @@ export class Model extends Array {
 =======
      * @private
 >>>>>>> upstream/18.0
+=======
+     * @private
+>>>>>>> upstream/18.0
      * @param {MaybeIterable<number>} idOrIds
      * @param {Iterable<string>} [fnames=[]]
      * @param {string | false} [load="_classic_read"]
@@ -157556,7 +158084,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     `cannot read: falsy ID value would result in an access error on the actual server`
+=======
+                    `Cannot read: falsy ID value would result in an access error on the actual server`
+>>>>>>> upstream/18.0
 =======
                     `Cannot read: falsy ID value would result in an access error on the actual server`
 >>>>>>> upstream/18.0
@@ -158589,6 +159121,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -159781,6 +160317,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -161057,6 +161597,10 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+     * @private
+>>>>>>> upstream/18.0
 =======
      * @private
 >>>>>>> upstream/18.0
@@ -162233,7 +162777,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             inverseData[inverseFieldName] = id;
+=======
+                            inverseData[inverseFieldName] = field.type === "many2many" ? [id] : id;
+>>>>>>> upstream/18.0
 =======
                             inverseData[inverseFieldName] = field.type === "many2many" ? [id] : id;
 >>>>>>> upstream/18.0
@@ -163243,7 +163791,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             `command "${JSON.stringify(
+=======
+                            `Command "${JSON.stringify(
+>>>>>>> upstream/18.0
 =======
                             `Command "${JSON.stringify(
 >>>>>>> upstream/18.0
@@ -164181,7 +164733,11 @@ export class Model extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             `invalid ID "${JSON.stringify(
+=======
+                            `Invalid ID "${JSON.stringify(
+>>>>>>> upstream/18.0
 =======
                             `Invalid ID "${JSON.stringify(
 >>>>>>> upstream/18.0
@@ -165260,7 +165816,11 @@ export class ServerModel extends Model {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     _fetch = true;
+=======
+    static _fetch = true;
+>>>>>>> upstream/18.0
 =======
     static _fetch = true;
 >>>>>>> upstream/18.0

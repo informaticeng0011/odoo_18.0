@@ -239,7 +239,10 @@ class TestVideoUtils(common.BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'youku': 'https://v.youku.com/v_show/id_XMzY1MjY4.html?spm=a2hzp.8244740.0.0',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -906,8 +909,11 @@ class TestVideoUtils(common.BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         'player_youku': 'https://player.youku.com/player.php/sid/XMTI5Mjg5NjE4MA==/v.swf',
         'youku_embed': 'https://player.youku.com/embed/XNTIwMzE1MzUzNg',
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1582,8 +1588,11 @@ class TestVideoUtils(common.BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #youku
         self.assertIsNotNone(re.search(tools.player_regexes['youku'], TestVideoUtils.urls['youku']))
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2279,6 +2288,7 @@ class TestVideoUtils(common.BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #youku
         self.assertEqual('youku', tools.get_video_source_data(TestVideoUtils.urls['youku'])[0])
         self.assertEqual('XMzY1MjY4', tools.get_video_source_data(TestVideoUtils.urls['youku'])[1])
@@ -2286,6 +2296,8 @@ class TestVideoUtils(common.BaseCase):
         self.assertEqual('XMTI5Mjg5NjE4MA', tools.get_video_source_data(TestVideoUtils.urls['player_youku'])[1])
         self.assertEqual('youku', tools.get_video_source_data(TestVideoUtils.urls['youku_embed'])[0])
         self.assertEqual('XNTIwMzE1MzUzNg', tools.get_video_source_data(TestVideoUtils.urls['youku_embed'])[1])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2979,8 +2991,11 @@ class TestVideoUtils(common.BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #youku
         self.assertEqual('youku', tools.get_video_url_data(TestVideoUtils.urls['youku'])['platform'])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3661,8 +3676,11 @@ class TestVideoUtilsExternal(common.BaseCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         #default
         self.assertIsInstance(tools.get_video_thumbnail(TestVideoUtils.urls['youku']), bytes)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

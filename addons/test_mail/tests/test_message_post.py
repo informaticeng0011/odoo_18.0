@@ -195,6 +195,12 @@ class TestMessagePostCommon(MailCommon, TestRecipients):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        cls.test_records_simple, _partners = cls._create_records_for_batch(
+            'mail.test.simple', 3,
+        )
+>>>>>>> upstream/18.0
 =======
         cls.test_records_simple, _partners = cls._create_records_for_batch(
             'mail.test.simple', 3,
@@ -2104,6 +2110,7 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         test_record = self.test_record.with_env(self.env)
         test_record.message_subscribe((self.partner_1 | self.partner_admin).ids)
 
@@ -2126,6 +2133,8 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
         self.assertEqual(len(schedules), 1, msg='Should have scheduled the message')
         self.assertEqual(schedules.scheduled_datetime, scheduled_datetime)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2589,6 +2598,9 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3030,8 +3042,11 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertTrue(schedules.exists(), msg='Should not have sent the message')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3476,6 +3491,9 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3917,6 +3935,7 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertFalse(schedules.exists(), msg='Should have sent the message')
         # check notifications have been sent
         recipients_info = [{'content': '<p>Test</p>', 'notif': [
@@ -3925,6 +3944,8 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
         ]}]
         self.assertMailNotifications(msg, recipients_info)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4378,6 +4399,9 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4831,7 +4855,11 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             msg = test_record.message_post(
+=======
+            msg = test_records[0].message_post(
+>>>>>>> upstream/18.0
 =======
             msg = test_records[0].message_post(
 >>>>>>> upstream/18.0
@@ -5606,7 +5634,11 @@ class TestMessagePost(TestMessagePostCommon, CronMixinCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             [('List1', b'<xml>My xml attachment</xml>')],
+=======
+            [('List1', b'<?xml version="1.0"?>My xml attachment<_/>')],
+>>>>>>> upstream/18.0
 =======
             [('List1', b'<?xml version="1.0"?>My xml attachment<_/>')],
 >>>>>>> upstream/18.0

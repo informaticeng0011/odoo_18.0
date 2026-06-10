@@ -74,7 +74,11 @@ class PortalAccount(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'state': {'label': _('Status'), 'order': 'state'},
+=======
+            'state': {'label': _('Status'), 'order': 'payment_state'},
+>>>>>>> upstream/18.0
 =======
             'state': {'label': _('Status'), 'order': 'payment_state'},
 >>>>>>> upstream/18.0

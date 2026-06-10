@@ -114,6 +114,10 @@ from . import website
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import res_partner
+>>>>>>> upstream/18.0
 =======
 from . import res_partner
 >>>>>>> upstream/18.0

@@ -27,6 +27,10 @@ from . import sale_order
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import stock_picking
+>>>>>>> upstream/18.0
 =======
 from . import stock_picking
 >>>>>>> upstream/18.0

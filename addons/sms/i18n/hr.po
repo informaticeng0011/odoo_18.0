@@ -270,8 +270,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sms
 # 
+=======
+# * sms
+#
+>>>>>>> upstream/18.0
 =======
 # * sms
 #
@@ -1365,6 +1370,7 @@
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2024
 # Martin Trigaux, 2024
 # Bole <bole@dajmi5.com>, 2025
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2812,6 +2818,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # Luka Carević <luka@uvid.hr>, 2025
 # Ivica Dimjašević, 2025
 # Karlo Mikešić <karlo@uvid.hr>, 2025.
@@ -2873,6 +2881,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2992,6 +3003,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4324,6 +4336,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2026-04-10 18:38+0000\n"
 "PO-Revision-Date: 2026-05-09 09:02+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
@@ -4358,6 +4372,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4423,6 +4440,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5290,6 +5308,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields,field_description:sms.field_sms_composer__recipient_invalid_count
@@ -5324,7 +5345,11 @@ msgid "# Invalid recipients"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# nevažećih primatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "# nevažećih primatelja"
 >>>>>>> upstream/18.0
@@ -5449,7 +5474,11 @@ msgid "# Valid recipients"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "# važećih primatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "# važećih primatelja"
 >>>>>>> upstream/18.0
@@ -5578,6 +5607,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"%(count)s od %(total)s odabranih SMS poruka uspješno je ponovno poslano."
+>>>>>>> upstream/18.0
 =======
 "%(count)s od %(total)s odabranih SMS poruka uspješno je ponovno poslano."
 >>>>>>> upstream/18.0
@@ -5679,6 +5712,7 @@ msgstr "%s (kopija)"
 #. odoo-python
 #: code:addons/sms/wizard/sms_composer.py:0
 msgid "%s invalid recipients"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5833,11 +5867,15 @@ msgstr "%s nevažećih primatelja"
 =======
 msgstr "%s nevažećih primatelja"
 >>>>>>> upstream/18.0
+=======
+msgstr "%s nevažećih primatelja"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #. odoo-javascript
 #: code:addons/sms/static/src/components/sms_widget/fields_sms_widget.xml:0
 msgid ", fits in"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6857,6 +6895,9 @@ msgstr ", stane u"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr ", stane u"
 >>>>>>> upstream/18.0
 =======
 msgstr ", stane u"
@@ -6985,6 +7026,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-warning\"/> Došlo je do pogreške s vašim računom. Za više "
+"informacija kontaktirajte podršku..."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> Došlo je do pogreške s vašim računom. Za više "
 "informacija kontaktirajte podršku..."
@@ -7142,6 +7188,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-warning\"/> Ne možete slati SMS dok vaš račun nije "
+"registriran."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-warning\"/> Ne možete slati SMS dok vaš račun nije "
 "registriran."
@@ -7299,6 +7350,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                            Registriraj"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                            Registriraj"
@@ -7456,6 +7512,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"oi oi-arrow-right\"/>\n"
+"                            Postavi ime pošiljatelja"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"oi oi-arrow-right\"/>\n"
 "                            Postavi ime pošiljatelja"
@@ -7581,6 +7642,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Add</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8872,6 +8934,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
 msgstr ""
@@ -8907,6 +8971,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9000,7 +9067,11 @@ msgid "<span class=\"o_stat_text\">Preview</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"o_stat_text\">Pregled</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"o_stat_text\">Pregled</span>"
 >>>>>>> upstream/18.0
@@ -9096,6 +9167,7 @@ msgstr "<span class=\"o_stat_text\">Pregled</span>"
 #: model_terms:ir.ui.view,arch_db:sms.sms_template_view_form
 msgid ""
 "<span class=\"o_stat_text\">Remove</span>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11592,6 +11664,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <span class=\"o_stat_text\">Context Action</"
 "span>"
 msgstr ""
@@ -11634,6 +11708,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11968,6 +12045,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                The message will be sent as an SMS to the recipients of the template\n"
 "                                and will not appear in the messaging history.\n"
 "                            </span>\n"
@@ -11979,6 +12057,8 @@ msgid ""
 "                                The SMS will be sent as an SMS to the recipients of the\n"
 "                                template and it will also be posted as an internal note\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12801,6 +12881,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13617,7 +13700,11 @@ msgid "<span> or to specify the country code.</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span> ili navedite pozivni broj države.</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span> ili navedite pozivni broj države.</span>"
 >>>>>>> upstream/18.0
@@ -14705,6 +14792,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<strong>Nevažeći broj:</strong>\n"
+"                        <span> provjerite jeste li postavili državu</span>"
+>>>>>>> upstream/18.0
 =======
 "<strong>Nevažeći broj:</strong>\n"
 "                        <span> provjerite jeste li postavili državu</span>"
@@ -15819,7 +15911,11 @@ msgid "A record for this UUID already exists"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zapis za ovaj UUID već postoji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zapis za ovaj UUID već postoji"
 >>>>>>> upstream/18.0
@@ -15959,6 +16055,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dodaj kontekstualnu akciju na povezani model za otvaranje SMS kompozera s "
+"ovim predloškom"
+>>>>>>> upstream/18.0
 =======
 "Dodaj kontekstualnu akciju na povezani model za otvaranje SMS kompozera s "
 "ovim predloškom"
@@ -16114,6 +16215,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Alternativni način identifikacije SMS zapisa, koristi se za izvještaje o "
+"isporuci"
+>>>>>>> upstream/18.0
 =======
 "Alternativni način identifikacije SMS zapisa, koristi se za izvještaje o "
 "isporuci"
@@ -16269,7 +16375,11 @@ msgid "An error occurred when sending an SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do pogreške prilikom slanja SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Došlo je do pogreške prilikom slanja SMS-a"
 >>>>>>> upstream/18.0
@@ -16395,7 +16505,11 @@ msgid "An error occurred when sending an SMS on “%(record_name)s”"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do pogreške prilikom slanja SMS-a na „%(record_name)s”"
+>>>>>>> upstream/18.0
 =======
 msgstr "Došlo je do pogreške prilikom slanja SMS-a na „%(record_name)s”"
 >>>>>>> upstream/18.0
@@ -16524,6 +16638,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Došlo je do nepoznate pogreške. Molimo kontaktirajte Odoo podršku ako se ova "
+"pogreška nastavi."
+>>>>>>> upstream/18.0
 =======
 "Došlo je do nepoznate pogreške. Molimo kontaktirajte Odoo podršku ako se ova "
 "pogreška nastavi."
@@ -16687,6 +16806,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Jeste li sigurni da želite vratiti ove SMS predloške na izvornu "
+"konfiguraciju? Promjene i prijevodi bit će izgubljeni."
+>>>>>>> upstream/18.0
 =======
 "Jeste li sigurni da želite vratiti ove SMS predloške na izvornu "
 "konfiguraciju? Promjene i prijevodi bit će izgubljeni."
@@ -16851,7 +16975,11 @@ msgid "Blacklisted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Na crnoj listi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Na crnoj listi"
 >>>>>>> upstream/18.0
@@ -16999,7 +17127,11 @@ msgid "Buy credits."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupite kredite."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kupite kredite."
 >>>>>>> upstream/18.0
@@ -17148,7 +17280,11 @@ msgid "Choose a language:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite jezik:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite jezik:"
 >>>>>>> upstream/18.0
@@ -17286,7 +17422,11 @@ msgid "Choose your sender name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite ime pošiljatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite ime pošiljatelja"
 >>>>>>> upstream/18.0
@@ -17385,6 +17525,7 @@ msgid "Close"
 msgstr "Zatvori"
 
 #. module: sms
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -18018,6 +18159,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18614,6 +18757,7 @@ msgstr "Tvrtke"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18952,6 +19096,11 @@ msgstr "Tvrtke"
 #: model:ir.model.fields,field_description:sms.field_sms_composer__composition_mode
 msgid "Composition Mode"
 msgstr ""
+=======
+#: model:ir.model.fields,field_description:sms.field_sms_composer__composition_mode
+msgid "Composition Mode"
+msgstr "Način sastavljanja"
+>>>>>>> upstream/18.0
 =======
 #: model:ir.model.fields,field_description:sms.field_sms_composer__composition_mode
 msgid "Composition Mode"
@@ -19148,7 +19297,11 @@ msgid "Country Not Supported"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Država nije podržana"
+>>>>>>> upstream/18.0
 =======
 msgstr "Država nije podržana"
 >>>>>>> upstream/18.0
@@ -19274,7 +19427,11 @@ msgid "Country-specific Registration Required"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna registracija specifična za zemlju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrebna registracija specifična za zemlju"
 >>>>>>> upstream/18.0
@@ -19400,7 +19557,11 @@ msgid "Country-specific registration required."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna registracija specifična za zemlju."
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrebna registracija specifična za zemlju."
 >>>>>>> upstream/18.0
@@ -19583,7 +19744,11 @@ msgid "Credits"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krediti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krediti"
 >>>>>>> upstream/18.0
@@ -19797,7 +19962,11 @@ msgid "Customer: automated SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupac: automatski SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kupac: automatski SMS"
 >>>>>>> upstream/18.0
@@ -19922,7 +20091,11 @@ msgid "Dear {{ object.display_name }} this is an automated SMS."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poštovani {{ object.display_name }}, ovo je automatski SMS."
+>>>>>>> upstream/18.0
 =======
 msgstr "Poštovani {{ object.display_name }}, ovo je automatski SMS."
 >>>>>>> upstream/18.0
@@ -20110,7 +20283,11 @@ msgid "Document IDs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID-ovi dokumenata"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID-ovi dokumenata"
 >>>>>>> upstream/18.0
@@ -20319,7 +20496,11 @@ msgid "Document Model Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opis modela dokumenta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opis modela dokumenta"
 >>>>>>> upstream/18.0
@@ -20465,7 +20646,11 @@ msgid "Enable SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Omogući SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Omogući SMS"
 >>>>>>> upstream/18.0
@@ -20590,7 +20775,11 @@ msgid "Enter a phone number to get an SMS with a verification code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unesite broj telefona za dobivanje SMS-a s kodom za provjeru."
+>>>>>>> upstream/18.0
 =======
 msgstr "Unesite broj telefona za dobivanje SMS-a s kodom za provjeru."
 >>>>>>> upstream/18.0
@@ -20898,7 +21087,11 @@ msgid "Failure Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta kvara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta kvara"
 >>>>>>> upstream/18.0
@@ -21555,7 +21748,11 @@ msgid "Failure type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta pogreške"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta pogreške"
 >>>>>>> upstream/18.0
@@ -21740,6 +21937,7 @@ msgstr ""
 
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_template__template_fs
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22764,6 +22962,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgid "File from where the template originates. Used to reset broken template."
 msgstr ""
 "Datoteka iz koje predložak potječe. Koristi se za resetiranje pokvarenog "
@@ -22825,6 +23025,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22985,7 +23188,11 @@ msgid "Following numbers are not correctly encoded: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sljedeći brojevi nisu ispravno kodirani: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sljedeći brojevi nisu ispravno kodirani: %s"
 >>>>>>> upstream/18.0
@@ -23121,7 +23328,11 @@ msgid "Has SMS error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima SMS pogrešku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima SMS pogrešku"
 >>>>>>> upstream/18.0
@@ -23279,7 +23490,11 @@ msgid "IAP Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "IAP račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "IAP račun"
 >>>>>>> upstream/18.0
@@ -23513,6 +23728,7 @@ msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 #. module: sms
 #: model:ir.model.fields,help:sms.field_res_partner__phone_sanitized_blacklisted
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24865,6 +25081,10 @@ msgid ""
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
 >>>>>>> upstream/18.0
+=======
+"If the sanitized phone number is on the blacklist, the contact won't receive "
+"mass mailing sms anymore, from any list"
+>>>>>>> upstream/18.0
 msgstr ""
 "Ako je telefonski broj na crnoj listi, kontakt više neće primati SMS poruke "
 "iz masovnih kampanja, s bilo kojeg popisa."
@@ -24928,7 +25148,11 @@ msgid "Indicates if the SMS composer targets a single specific recipient"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označava cilja li SMS kompozer jednog određenog primatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označava cilja li SMS kompozer jednog određenog primatelja"
 >>>>>>> upstream/18.0
@@ -25054,7 +25278,11 @@ msgid "Insufficient Credit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedovoljno kredita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedovoljno kredita"
 >>>>>>> upstream/18.0
@@ -25179,7 +25407,11 @@ msgid "Invalid Destination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nevažeće odredište"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nevažeće odredište"
 >>>>>>> upstream/18.0
@@ -25309,6 +25541,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nevažeći broj telefona. Molimo pridržavajte se međunarodnog formata, tj. "
+"znak plus (+), zatim pozivni broj zemlje, pozivni broj grada i lokalni broj "
+"telefona. Na primjer: +1 555-555-555"
+>>>>>>> upstream/18.0
 =======
 "Nevažeći broj telefona. Molimo pridržavajte se međunarodnog formata, tj. "
 "znak plus (+), zatim pozivni broj zemlje, pozivni broj grada i lokalni broj "
@@ -25494,7 +25732,11 @@ msgid "Invalid recipient number. Please update it."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nevažeći broj primatelja. Molimo ažurirajte ga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nevažeći broj primatelja. Molimo ažurirajte ga."
 >>>>>>> upstream/18.0
@@ -25624,7 +25866,11 @@ msgid "Is valid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je važeći"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je važeći"
 >>>>>>> upstream/18.0
@@ -25749,7 +25995,11 @@ msgid "Keep a note on document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadrži bilješku na dokumentu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadrži bilješku na dokumentu"
 >>>>>>> upstream/18.0
@@ -25909,7 +26159,11 @@ msgid "Link SMS to mailing/sms tracking models"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poveži SMS s modelima praćenja slanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poveži SMS s modelima praćenja slanja"
 >>>>>>> upstream/18.0
@@ -26202,7 +26456,11 @@ msgid "Mail Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "E-mail poruka"
+>>>>>>> upstream/18.0
 =======
 msgstr "E-mail poruka"
 >>>>>>> upstream/18.0
@@ -26831,7 +27089,11 @@ msgid "Mail Notification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obavijest e-poštom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obavijest e-poštom"
 >>>>>>> upstream/18.0
@@ -26956,7 +27218,11 @@ msgid "Mail Thread SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS niti e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS niti e-pošte"
 >>>>>>> upstream/18.0
@@ -27081,7 +27347,11 @@ msgid "Marked for deletion"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označeno za brisanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označeno za brisanje"
 >>>>>>> upstream/18.0
@@ -27230,7 +27500,11 @@ msgid "Missing Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nedostaje broj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nedostaje broj"
 >>>>>>> upstream/18.0
@@ -27393,7 +27667,11 @@ msgid "No Record"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema zapisa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema zapisa"
 >>>>>>> upstream/18.0
@@ -27612,7 +27890,11 @@ msgid "Note only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo bilješka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo bilješka"
 >>>>>>> upstream/18.0
@@ -27740,6 +28022,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Imajte na umu da ovo nije obavezno, ako ne postavite ime pošiljatelja, vaš "
+"SMS bit će poslan s kratke šifre."
+>>>>>>> upstream/18.0
 =======
 "Imajte na umu da ovo nije obavezno, ako ne postavite ime pošiljatelja, vaš "
 "SMS bit će poslan s kratke šifre."
@@ -27927,7 +28214,11 @@ msgid "Notification Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta obavijesti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta obavijesti"
 >>>>>>> upstream/18.0
@@ -28141,7 +28432,11 @@ msgid "Number Field"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Polje broja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Polje broja"
 >>>>>>> upstream/18.0
@@ -28256,6 +28551,7 @@ msgstr "Broj poruka sa greškama pri isporuci"
 #. module: sms
 #: model:ir.model.fields,help:sms.field_sms_composer__res_ids_count
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29548,6 +29844,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Number of recipients that will receive the SMS if sent in mass mode, without "
 "applying the Active Domain value"
 msgstr ""
@@ -29582,6 +29880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29703,7 +30004,11 @@ msgid "Opted Out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odjavljen"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odjavljen"
 >>>>>>> upstream/18.0
@@ -29884,6 +30189,7 @@ msgstr "Odjavljen"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31236,6 +31542,10 @@ msgid ""
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 >>>>>>> upstream/18.0
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: sms
@@ -31271,7 +31581,11 @@ msgid "Outgoing SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odlazni SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odlazni SMS"
 >>>>>>> upstream/18.0
@@ -31415,6 +31729,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Broj telefona primatelja. Ako se promijeni, bit će zabilježen na profilu "
+"primatelja."
+>>>>>>> upstream/18.0
 =======
 "Broj telefona primatelja. Ako se promijeni, bit će zabilježen na profilu "
 "primatelja."
@@ -31602,7 +31921,11 @@ msgid "Post on a document"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Objavi na dokumentu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Objavi na dokumentu"
 >>>>>>> upstream/18.0
@@ -31816,7 +32139,11 @@ msgid "Proceed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavi"
 >>>>>>> upstream/18.0
@@ -31946,7 +32273,11 @@ msgid "Put in queue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavi u red čekanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stavi u red čekanja"
 >>>>>>> upstream/18.0
@@ -32092,7 +32423,11 @@ msgid "Recipient Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj primatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj primatelja"
 >>>>>>> upstream/18.0
@@ -32222,7 +32557,11 @@ msgid "Recipients (Numbers)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primatelji (brojevi)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primatelji (brojevi)"
 >>>>>>> upstream/18.0
@@ -32347,7 +32686,11 @@ msgid "Recipients (Partners)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primatelji (partneri)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primatelji (partneri)"
 >>>>>>> upstream/18.0
@@ -32472,7 +32815,11 @@ msgid "Record reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Referenca zapisa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Referenca zapisa"
 >>>>>>> upstream/18.0
@@ -32604,7 +32951,11 @@ msgid "Register Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registriraj račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registriraj račun"
 >>>>>>> upstream/18.0
@@ -32730,7 +33081,11 @@ msgid "Register now."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrirajte se sada."
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrirajte se sada."
 >>>>>>> upstream/18.0
@@ -32856,7 +33211,11 @@ msgid "Register your SMS account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Registrirajte svoj SMS račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrirajte svoj SMS račun"
 >>>>>>> upstream/18.0
@@ -32991,7 +33350,11 @@ msgid "Remove the contextual action of the related model"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukloni kontekstualnu akciju povezanog modela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukloni kontekstualnu akciju povezanog modela"
 >>>>>>> upstream/18.0
@@ -33121,7 +33484,11 @@ msgid "Resend"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno pošalji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponovno pošalji"
 >>>>>>> upstream/18.0
@@ -33251,7 +33618,11 @@ msgid "Reset SMS Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno postavi SMS predložak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponovno postavi SMS predložak"
 >>>>>>> upstream/18.0
@@ -33616,7 +33987,11 @@ msgid "Reset Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Reset templatea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Reset templatea"
 >>>>>>> upstream/18.0
@@ -34481,7 +34856,11 @@ msgid "SMS ("
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS ("
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS ("
 >>>>>>> upstream/18.0
@@ -34606,7 +34985,11 @@ msgid "SMS (with note)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS (s bilješkom)"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS (s bilješkom)"
 >>>>>>> upstream/18.0
@@ -34731,7 +35114,11 @@ msgid "SMS (without note)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS (bez bilješke)"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS (bez bilješke)"
 >>>>>>> upstream/18.0
@@ -34856,7 +35243,11 @@ msgid "SMS Account Registration Phone Number Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za telefonski broj registracije SMS računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za telefonski broj registracije SMS računa"
 >>>>>>> upstream/18.0
@@ -34981,7 +35372,11 @@ msgid "SMS Account Sender Name Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za ime pošiljatelja SMS računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za ime pošiljatelja SMS računa"
 >>>>>>> upstream/18.0
@@ -35106,7 +35501,11 @@ msgid "SMS Account Verification Code Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za kod provjere SMS računa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za kod provjere SMS računa"
 >>>>>>> upstream/18.0
@@ -35266,7 +35665,11 @@ msgid "SMS Failure: %(modelName)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neuspjeh SMS-a: %(modelName)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neuspjeh SMS-a: %(modelName)s"
 >>>>>>> upstream/18.0
@@ -35392,7 +35795,11 @@ msgid "SMS Failures"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neuspjesi SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neuspjesi SMS-a"
 >>>>>>> upstream/18.0
@@ -35522,7 +35929,11 @@ msgid "SMS Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS broj"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS broj"
 >>>>>>> upstream/18.0
@@ -35647,7 +36058,11 @@ msgid "SMS Preview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled SMS-a"
 >>>>>>> upstream/18.0
@@ -36013,7 +36428,11 @@ msgid "SMS Pricing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS cijene"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS cijene"
 >>>>>>> upstream/18.0
@@ -36863,7 +37282,11 @@ msgid "SMS Status"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Status SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Status SMS-a"
 >>>>>>> upstream/18.0
@@ -37230,7 +37653,11 @@ msgid "SMS Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak SMS poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predložak SMS poruke"
 >>>>>>> upstream/18.0
@@ -38075,7 +38502,11 @@ msgid "SMS Template Preview"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pregled SMS predloška"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pregled SMS predloška"
 >>>>>>> upstream/18.0
@@ -38200,7 +38631,11 @@ msgid "SMS Template Reset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vraćanje SMS predloška"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vraćanje SMS predloška"
 >>>>>>> upstream/18.0
@@ -38329,7 +38764,11 @@ msgid "SMS Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS predlošci"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS predlošci"
 >>>>>>> upstream/18.0
@@ -38455,7 +38894,11 @@ msgid "SMS Templates have been reset"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS predlošci su vraćeni"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS predlošci su vraćeni"
 >>>>>>> upstream/18.0
@@ -38580,7 +39023,11 @@ msgid "SMS Trackers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratitelji SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pratitelji SMS-a"
 >>>>>>> upstream/18.0
@@ -38945,7 +39392,11 @@ msgid "SMS content"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj SMS poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sadržaj SMS poruke"
 >>>>>>> upstream/18.0
@@ -39791,7 +40242,11 @@ msgid "SMS template model of %(action_name)s does not match action model."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Model SMS predloška za %(action_name)s ne odgovara modelu akcije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Model SMS predloška za %(action_name)s ne odgovara modelu akcije."
 >>>>>>> upstream/18.0
@@ -39916,7 +40371,11 @@ msgid "SMS trackers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pratitelji SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pratitelji SMS-a"
 >>>>>>> upstream/18.0
@@ -40041,7 +40500,11 @@ msgid "SMS uuid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UUID SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "UUID SMS-a"
 >>>>>>> upstream/18.0
@@ -40166,7 +40629,11 @@ msgid "SMS: SMS Queue Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS: upravitelj reda čekanja SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS: upravitelj reda čekanja SMS-a"
 >>>>>>> upstream/18.0
@@ -40298,7 +40765,11 @@ msgid "Search SMS Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraži SMS predloške"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretraži SMS predloške"
 >>>>>>> upstream/18.0
@@ -40451,7 +40922,11 @@ msgid "Send & Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji i zatvori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji i zatvori"
 >>>>>>> upstream/18.0
@@ -40679,7 +41154,11 @@ msgid "Send SMS (%s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji SMS (%s)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji SMS (%s)"
 >>>>>>> upstream/18.0
@@ -40805,7 +41284,11 @@ msgid "Send SMS As"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji SMS kao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji SMS kao"
 >>>>>>> upstream/18.0
@@ -40930,7 +41413,11 @@ msgid "Send SMS Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za slanje SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za slanje SMS-a"
 >>>>>>> upstream/18.0
@@ -41055,7 +41542,11 @@ msgid "Send SMS in batch"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji SMS u grupi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji SMS u grupi"
 >>>>>>> upstream/18.0
@@ -41180,7 +41671,11 @@ msgid "Send SMS to your contacts directly from your database."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošaljite SMS svojim kontaktima izravno iz svoje baze podataka."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošaljite SMS svojim kontaktima izravno iz svoje baze podataka."
 >>>>>>> upstream/18.0
@@ -41305,7 +41800,11 @@ msgid "Send an SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji SMS"
 >>>>>>> upstream/18.0
@@ -41670,7 +42169,11 @@ msgid "Send directly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslati izravno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslati izravno"
 >>>>>>> upstream/18.0
@@ -42515,7 +43018,11 @@ msgid "Send to numbers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji na brojeve"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji na brojeve"
 >>>>>>> upstream/18.0
@@ -42640,7 +43147,11 @@ msgid "Send verification code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pošalji kod provjere"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pošalji kod provjere"
 >>>>>>> upstream/18.0
@@ -42766,7 +43277,11 @@ msgid "Sender Name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime pošiljatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime pošiljatelja"
 >>>>>>> upstream/18.0
@@ -42866,6 +43381,7 @@ msgstr ""
 #. module: sms
 #. odoo-python
 #: code:addons/sms/models/ir_actions_server.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44330,6 +44846,10 @@ msgstr "Slanje SMS-a može se obaviti samo na netranzitornom modelu mail.thread"
 msgid "Sending SMS can only be done on a not transient mail.thread model"
 msgstr "Slanje SMS-a može se obaviti samo na netranzitornom modelu mail.thread"
 >>>>>>> upstream/18.0
+=======
+msgid "Sending SMS can only be done on a not transient mail.thread model"
+msgstr "Slanje SMS-a može se obaviti samo na netranzitornom modelu mail.thread"
+>>>>>>> upstream/18.0
 
 #. module: sms
 #: model:ir.model.fields.selection,name:sms.selection__sms_sms__state__pending
@@ -44380,7 +44900,11 @@ msgid "Set sender name"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postavi ime pošiljatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postavi ime pošiljatelja"
 >>>>>>> upstream/18.0
@@ -44524,7 +45048,11 @@ msgid "Single Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pojedinačni način"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pojedinačni način"
 >>>>>>> upstream/18.0
@@ -44649,7 +45177,11 @@ msgid "Skip for now"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preskoči za sada"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preskoči za sada"
 >>>>>>> upstream/18.0
@@ -45019,7 +45551,11 @@ msgid "Sms Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak SMS poruke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predložak SMS poruke"
 >>>>>>> upstream/18.0
@@ -45864,7 +46400,11 @@ msgid "Stored Recipient Number"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pohranjeni broj primatelja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pohranjeni broj primatelja"
 >>>>>>> upstream/18.0
@@ -46028,7 +46568,11 @@ msgid "Template Filename"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Naziv datoteke predloška"
+>>>>>>> upstream/18.0
 =======
 msgstr "Naziv datoteke predloška"
 >>>>>>> upstream/18.0
@@ -46270,7 +46814,11 @@ msgid "Template Preview Language"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jezik pregleda predloška"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jezik pregleda predloška"
 >>>>>>> upstream/18.0
@@ -46488,6 +47036,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Usluga SMS-a trenutno nije dostupna novim korisnicima, a registracije novih "
+"računa su obustavljene."
+>>>>>>> upstream/18.0
 =======
 "Usluga SMS-a trenutno nije dostupna novim korisnicima, a registracije novih "
 "računa su obustavljene."
@@ -46643,7 +47196,11 @@ msgid "The SMS Text Messages could not be resent."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS poruke nisu se mogle ponovno poslati."
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS poruke nisu se mogle ponovno poslati."
 >>>>>>> upstream/18.0
@@ -46769,7 +47326,11 @@ msgid "The content of the message violates rules applied by our providers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadržaj poruke krši pravila koja primjenjuju naši pružatelji usluga."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sadržaj poruke krši pravila koja primjenjuju naši pružatelji usluga."
 >>>>>>> upstream/18.0
@@ -46895,7 +47456,11 @@ msgid "The destination country is not supported."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odredišna zemlja nije podržana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odredišna zemlja nije podržana."
 >>>>>>> upstream/18.0
@@ -47021,7 +47586,11 @@ msgid "The number you're trying to reach is not correctly formatted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj koji pokušavate dobiti nije ispravno formatiran."
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj koji pokušavate dobiti nije ispravno formatiran."
 >>>>>>> upstream/18.0
@@ -47153,7 +47722,11 @@ msgid "The verification code is incorrect."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod provjere nije točan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod provjere nije točan."
 >>>>>>> upstream/18.0
@@ -47279,7 +47852,11 @@ msgid "There are no SMS Text Messages to resend."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema SMS poruka za ponovno slanje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema SMS poruka za ponovno slanje."
 >>>>>>> upstream/18.0
@@ -47405,7 +47982,11 @@ msgid "This SMS has been removed as the number was already used."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj SMS je uklonjen jer je broj već bio korišten."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj SMS je uklonjen jer je broj već bio korišten."
 >>>>>>> upstream/18.0
@@ -47532,7 +48113,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj račun već ima postojeće ime pošiljatelja i ne može se promijeniti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj račun već ima postojeće ime pošiljatelja i ne može se promijeniti."
 >>>>>>> upstream/18.0
@@ -47657,7 +48242,11 @@ msgid "This is the name that will be displayed as the sender of the SMS."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo je ime koje će se prikazati kao pošiljatelj SMS-a."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovo je ime koje će se prikazati kao pošiljatelj SMS-a."
 >>>>>>> upstream/18.0
@@ -47784,6 +48373,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ovaj broj telefona je na crnoj listi za SMS marketing. Kliknite za "
+"uklanjanje s crne liste."
+>>>>>>> upstream/18.0
 =======
 "Ovaj broj telefona je na crnoj listi za SMS marketing. Kliknite za "
 "uklanjanje s crne liste."
@@ -47939,7 +48533,11 @@ msgid "This phone number/account has been banned from our service."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj broj telefona/račun je zabranjen u našoj usluzi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj broj telefona/račun je zabranjen u našoj usluzi."
 >>>>>>> upstream/18.0
@@ -48322,12 +48920,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "- 'Send SMS': send SMS, log them on documents (SMS)- 'Add/Remove Followers': add or remove followers to a record (Discuss)\n"
 "- 'Create Record': create a new record with new values\n"
 "- 'Execute Code': a block of Python code that will be executed\n"
 "- 'Send Webhook Notification': send a POST request to an external system, also known as a Webhook\n"
 "- 'Execute Existing Actions': define an action that triggers several other server actions\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -49143,6 +49744,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -49722,7 +50326,11 @@ msgid "UUID must be unique"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UUID mora biti jedinstven"
+>>>>>>> upstream/18.0
 =======
 msgstr "UUID mora biti jedinstven"
 >>>>>>> upstream/18.0
@@ -49853,7 +50461,11 @@ msgid "Unregistered Account"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neregistrirani račun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neregistrirani račun"
 >>>>>>> upstream/18.0
@@ -49978,7 +50590,11 @@ msgid "Use Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristi predložak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristi predložak"
 >>>>>>> upstream/18.0
@@ -50084,6 +50700,7 @@ msgid ""
 "'comment': generated by user input e.g. through discuss or composer\n"
 "'email_outgoing': generated by a mailing\n"
 "'notification': generated by system e.g. tracking messages\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51320,6 +51937,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "'auto_comment': generated by automated notification mechanism e.g. "
 "acknowledgment\n"
 "'user_notification': generated for a specific recipient"
@@ -51389,6 +52008,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -51566,7 +52188,11 @@ msgid "Verification Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod za provjeru"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod za provjeru"
 >>>>>>> upstream/18.0
@@ -51775,7 +52401,11 @@ msgid "Visible records count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj vidljivih zapisa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj vidljivih zapisa"
 >>>>>>> upstream/18.0
@@ -51907,7 +52537,11 @@ msgid "We were not able to find your account in our database."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nismo mogli pronaći vaš račun u našoj bazi podataka."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nismo mogli pronaći vaš račun u našoj bazi podataka."
 >>>>>>> upstream/18.0
@@ -52036,6 +52670,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nismo vas mogli dobiti putem vašeg broja telefona. Ako ste nedavno zatražili "
+"više kodova, molimo pokušajte kasnije."
+>>>>>>> upstream/18.0
 =======
 "Nismo vas mogli dobiti putem vašeg broja telefona. Ako ste nedavno zatražili "
 "više kodova, molimo pokušajte kasnije."
@@ -52200,7 +52839,11 @@ msgid "Whether this model supports messages and notifications through SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podržava li ovaj model poruke i obavijesti putem SMS-a"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podržava li ovaj model poruke i obavijesti putem SMS-a"
 >>>>>>> upstream/18.0
@@ -52328,6 +52971,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bit će automatski izbrisan, dok obavijesti neće biti izbrisane ni u kojem "
+"slučaju."
+>>>>>>> upstream/18.0
 =======
 "Bit će automatski izbrisan, dok obavijesti neće biti izbrisane ni u kojem "
 "slučaju."
@@ -52483,7 +53131,11 @@ msgid "Wrong Number Format"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogrešan format broja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pogrešan format broja"
 >>>>>>> upstream/18.0
@@ -52615,7 +53267,11 @@ msgid "You don't have an eligible IAP account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemate prihvatljiv IAP račun."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemate prihvatljiv IAP račun."
 >>>>>>> upstream/18.0
@@ -52741,7 +53397,11 @@ msgid "You don't have enough credits on your IAP account."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nemate dovoljno kredita na svom IAP računu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nemate dovoljno kredita na svom IAP računu."
 >>>>>>> upstream/18.0
@@ -52867,7 +53527,11 @@ msgid "You tried too many times. Please retry later."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušali ste previše puta. Molimo pokušajte kasnije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokušali ste previše puta. Molimo pokušajte kasnije."
 >>>>>>> upstream/18.0
@@ -52994,7 +53658,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaša SMS poruka mora sadržavati barem jedan znak različit od bjeline"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaša SMS poruka mora sadržavati barem jedan znak različit od bjeline"
 >>>>>>> upstream/18.0
@@ -53120,7 +53788,11 @@ msgid "Your SMS account has been successfully registered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš SMS račun je uspješno registriran."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaš SMS račun je uspješno registriran."
 >>>>>>> upstream/18.0
@@ -53249,6 +53921,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vaše ime pošiljatelja mora biti dugo između 3 i 11 znakova i sadržavati samo "
+"alfanumeričke znakove."
+>>>>>>> upstream/18.0
 =======
 "Vaše ime pošiljatelja mora biti dugo između 3 i 11 znakova i sadržavati samo "
 "alfanumeričke znakove."
@@ -53373,6 +54050,7 @@ msgstr ""
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.sms_account_sender_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54184,6 +54862,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Your sender name must be between 3 and 11 characters long and only contain "
 "alphanumeric characters.\n"
 "                        It must fit your company name, and you aren't "
@@ -54457,6 +55137,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -54938,6 +55619,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55030,6 +55713,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -55124,7 +55810,11 @@ msgid "Your sms account has not been activated yet."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vaš SMS račun još nije aktiviran."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vaš SMS račun još nije aktiviran."
 >>>>>>> upstream/18.0
@@ -55490,7 +56180,11 @@ msgid "characters"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "znakovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "znakovi"
 >>>>>>> upstream/18.0
@@ -56575,7 +57269,11 @@ msgid "e.g. +1 415 555 0100"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. +1 415 555 0100"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. +1 415 555 0100"
 >>>>>>> upstream/18.0
@@ -57420,7 +58118,11 @@ msgid "e.g. Calendar Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. podsjetnik kalendara"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. podsjetnik kalendara"
 >>>>>>> upstream/18.0
@@ -57573,7 +58275,11 @@ msgid "e.g. Contact"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Kontakt"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Kontakt"
 >>>>>>> upstream/18.0
@@ -57782,7 +58488,11 @@ msgid "e.g. en_US or {{ object.partner_id.lang }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. en_US ili {{ object.partner_id.lang }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. en_US ili {{ object.partner_id.lang }}"
 >>>>>>> upstream/18.0
@@ -57915,6 +58625,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"primatelji imaju nevažeći broj telefona i neće primiti ovu tekstualnu poruku."
+>>>>>>> upstream/18.0
 =======
 "primatelji imaju nevažeći broj telefona i neće primiti ovu tekstualnu poruku."
 >>>>>>> upstream/18.0

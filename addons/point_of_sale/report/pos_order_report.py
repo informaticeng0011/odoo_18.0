@@ -317,7 +317,11 @@ class PosOrderReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     (array_agg(pm.payment_method_id))[1] AS payment_method_id
+=======
+                    (array_agg(pm.payment_method_id ORDER BY pm.id ASC))[1] AS payment_method_id
+>>>>>>> upstream/18.0
 =======
                     (array_agg(pm.payment_method_id ORDER BY pm.id ASC))[1] AS payment_method_id
 >>>>>>> upstream/18.0
@@ -1235,7 +1239,11 @@ class PosOrderReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 l.price_subtotal - COALESCE(l.total_cost,0) / COALESCE(NULLIF(s.currency_rate, 0), 1.0) AS margin,
+=======
+                (l.price_subtotal - COALESCE(l.total_cost,0)) / COALESCE(NULLIF(s.currency_rate, 0), 1.0) AS margin,
+>>>>>>> upstream/18.0
 =======
                 (l.price_subtotal - COALESCE(l.total_cost,0)) / COALESCE(NULLIF(s.currency_rate, 0), 1.0) AS margin,
 >>>>>>> upstream/18.0

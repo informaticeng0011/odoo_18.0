@@ -46,7 +46,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           t-if="!env.isSmall and currentApp"
+=======
+          t-if="!this.ui.isSmall and currentApp"
+>>>>>>> upstream/18.0
 =======
           t-if="!this.ui.isSmall and currentApp"
 >>>>>>> upstream/18.0
@@ -183,7 +187,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="!env.isSmall">
+=======
+        <t t-if="!this.ui.isSmall">
+>>>>>>> upstream/18.0
 =======
         <t t-if="!this.ui.isSmall">
 >>>>>>> upstream/18.0
@@ -361,7 +369,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <t t-if="env.isSmall">
+=======
+    <t t-if="this.ui.isSmall">
+>>>>>>> upstream/18.0
 =======
     <t t-if="this.ui.isSmall">
 >>>>>>> upstream/18.0
@@ -562,7 +574,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <t t-if="!env.isSmall">
+=======
+        <t t-if="!this.ui.isSmall">
+>>>>>>> upstream/18.0
 =======
         <t t-if="!this.ui.isSmall">
 >>>>>>> upstream/18.0

@@ -103,7 +103,10 @@ def _mock_l10n_fr_pdp_update_pilot_phase(func, self, value):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -127,6 +130,9 @@ def _mock_button_trigger_authentication(func, self):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -155,6 +161,10 @@ _demo_behaviour = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'button_trigger_authentication': _mock_button_trigger_authentication,  # pdp.registration
+>>>>>>> upstream/18.0
 =======
     'button_trigger_authentication': _mock_button_trigger_authentication,  # pdp.registration
 >>>>>>> upstream/18.0

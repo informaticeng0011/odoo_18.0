@@ -535,6 +535,7 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (state.resId || state.view_type === "form") {
                 actionRequest = {
                     res_model: state.model,
@@ -548,6 +549,8 @@ export function makeActionManager(env, router = _router) {
                 const storedAction = browser.sessionStorage.getItem("current_action");
                 const lastAction = JSON.parse(storedAction || "{}");
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -625,6 +628,9 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -682,11 +688,14 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (lastAction.context) {
                         // If this method is called because of a company switch, the
                         // stored allowed_company_ids is incorrect.
                         delete lastAction.context.allowed_company_ids;
                     }
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1582,9 +1591,12 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (action.target === "download" || action.target === "self") {
             browser.location.assign(url);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2447,6 +2459,9 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3355,7 +3370,10 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3821,6 +3839,9 @@ export function makeActionManager(env, router = _router) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

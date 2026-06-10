@@ -51,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_viva_wallet
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -629,6 +630,9 @@
 =======
 # * pos_viva_wallet
 >>>>>>> upstream/18.0
+=======
+# * pos_viva_wallet
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2024
@@ -684,6 +688,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1102,6 +1107,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Saara Hakanen <sahak@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Saara Hakanen <sahak@odoo.com>, 2026.
@@ -1260,6 +1268,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2073,6 +2082,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-27 15:25+0000\n"
 "Last-Translator: Saara Hakanen <sahak@odoo.com>\n"
@@ -2087,6 +2098,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2110,6 +2124,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2784,6 +2799,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,field_description:pos_viva_wallet.field_pos_payment_method__viva_wallet_api_key
@@ -2826,7 +2845,11 @@ msgid "Client secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Asiakkaan salaisuus (client secret)"
+=======
+msgstr "Asiakassalaisuus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Asiakassalaisuus"
 >>>>>>> upstream/18.0
@@ -3056,8 +3079,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Yhteyttä Odoo-palvelimeen ei saatu muodostettua, tarkista internet-yhteytesi"
 " ja yritä uudelleen."
+=======
+"Yhteyttä Odoo-palvelimeen ei saatu muodostettua, tarkista internet-yhteytesi "
+"ja yritä uudelleen."
+>>>>>>> upstream/18.0
 =======
 "Yhteyttä Odoo-palvelimeen ei saatu muodostettua, tarkista internet-yhteytesi "
 "ja yritä uudelleen."
@@ -4040,12 +4068,15 @@ msgstr "Vain 'group_pos_user' voi peruuttaa Viva Wallet -maksun"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Only 'group_pos_user' are allowed to get latest transaction status"
 msgstr "Vain 'group_pos_user' voi saada viimeisimmän tapahtuman tilan"
 
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4435,6 +4466,7 @@ msgstr "Vain 'group_pos_user' voi saada maksun tilan Viva Walletista"
 #. module: pos_viva_wallet
 #. odoo-python
 #: code:addons/pos_viva_wallet/models/pos_payment_method.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5201,11 +5233,15 @@ msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 =======
 msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
 >>>>>>> upstream/18.0
+=======
+msgid "Only 'group_pos_user' are allowed to send a Viva Wallet payment request"
+>>>>>>> upstream/18.0
 msgstr "Vain 'group_pos_user' saa lähettää Viva Wallet -maksupyynnön"
 
 #. module: pos_viva_wallet
 #: model:ir.model,name:pos_viva_wallet.model_pos_payment_method
 msgid "Point of Sale Payment Methods"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5411,6 +5447,9 @@ msgstr "Kassajärjestelmän maksutavat"
 =======
 msgstr "Kassajärjestelmän maksutavat"
 >>>>>>> upstream/18.0
+=======
+msgstr "Kassajärjestelmän maksutavat"
+>>>>>>> upstream/18.0
 
 #. module: pos_viva_wallet
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_test_mode
@@ -5455,6 +5494,7 @@ msgstr ""
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_api_key
 #: model:ir.model.fields,help:pos_viva_wallet.field_pos_payment_method__viva_wallet_merchant_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6034,6 +6074,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Used when connecting to Viva Wallet: https://developer.vivawallet.com/"
 "getting-started/find-your-account-credentials/merchant-id-and-api-key/"
 msgstr ""
@@ -6229,6 +6271,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6805,6 +6850,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used when connecting to Viva Wallet: "
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
@@ -6813,6 +6859,8 @@ msgstr ""
 "https://developer.vivawallet.com/getting-started/find-your-account-"
 "credentials/pos-apis-credentials/#find-your-pos-apis-credentials"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7390,6 +7438,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8015,6 +8066,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+#~ msgid "Only 'group_pos_user' are allowed to get latest transaction status"
+#~ msgstr "Vain 'group_pos_user' voi saada viimeisimmän tapahtuman tilan"
+>>>>>>> upstream/18.0
 =======
 
 #~ msgid "Only 'group_pos_user' are allowed to get latest transaction status"

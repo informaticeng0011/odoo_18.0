@@ -133,6 +133,7 @@ export class ProductInfoPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const isAccessibleToEveryUser = this.pos.config.is_margins_costs_accessible_to_every_user;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1311,6 +1312,8 @@ export class ProductInfoPopup extends Component {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         if (!this.pos.config.is_margins_costs_accessible_to_every_user) {
             return false;
         }
@@ -1430,6 +1433,9 @@ export class ProductInfoPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

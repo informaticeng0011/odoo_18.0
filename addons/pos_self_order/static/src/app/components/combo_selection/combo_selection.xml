@@ -372,6 +372,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                            <div t-if="line.product_id.public_description" class="product-information-tag" t-on-click.prevent.stop="() => this.showProductInfo(line)">
+                                <i class="product-information-tag-logo fa fa-info fs-4" role="img" aria-label="Product Information" title="Product Information" />
+                            </div>
+>>>>>>> upstream/18.0
 =======
                             <div t-if="line.product_id.public_description" class="product-information-tag" t-on-click.prevent.stop="() => this.showProductInfo(line)">
                                 <i class="product-information-tag-logo fa fa-info fs-4" role="img" aria-label="Product Information" title="Product Information" />
@@ -2182,7 +2188,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         + <t t-out="selfOrder.formatMonetary(line.extra_price)"/>
+=======
+                                        <t t-esc="line.extra_price > 0 ? '+ ' : '- '"/><t t-out="selfOrder.formatMonetary(Math.abs(line.extra_price))"/>
+>>>>>>> upstream/18.0
 =======
                                         <t t-esc="line.extra_price > 0 ? '+ ' : '- '"/><t t-out="selfOrder.formatMonetary(Math.abs(line.extra_price))"/>
 >>>>>>> upstream/18.0

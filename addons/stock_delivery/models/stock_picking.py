@@ -182,7 +182,10 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -654,6 +657,9 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -968,6 +974,7 @@ class StockPicking(models.Model):
     def _compute_return_picking(self):
         for picking in self:
             if picking.carrier_id and picking.carrier_id.can_generate_return:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1417,6 +1424,9 @@ class StockPicking(models.Model):
 =======
                 picking.is_return_picking = any(m.origin_returned_move_id and m.location_dest_usage == 'internal' for m in picking.move_ids_without_package)
 >>>>>>> upstream/18.0
+=======
+                picking.is_return_picking = any(m.origin_returned_move_id and m.location_dest_usage == 'internal' for m in picking.move_ids_without_package)
+>>>>>>> upstream/18.0
             else:
                 picking.is_return_picking = False
 
@@ -1484,6 +1494,7 @@ class StockPicking(models.Model):
                 if len(move_line_ids.carrier_id) > 1 or any(not ml.carrier_id for ml in move_line_ids):
                     # avoid (duplicate) costs for products
                     raise UserError(_("You cannot pack products into the same package when they have different carriers (i.e. check that all of their transfers have a carrier assigned and are using the same carrier)."))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3027,6 +3038,11 @@ class StockPicking(models.Model):
                     default_move_line_ids=move_line_ids.ids
                 )._set_delivery_package_type(batch_pack=len(move_line_ids.picking_id) > 1)
 >>>>>>> upstream/18.0
+=======
+                return self.with_context(
+                    default_move_line_ids=move_line_ids.ids
+                )._set_delivery_package_type(batch_pack=len(move_line_ids.picking_id) > 1)
+>>>>>>> upstream/18.0
         else:
             return res
 
@@ -3142,7 +3158,11 @@ class StockPicking(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             delivery_lines[0].write(vals)
+=======
+            delivery_lines[0].with_context(allow_delivery_cost_update=True).write(vals)
+>>>>>>> upstream/18.0
 =======
             delivery_lines[0].with_context(allow_delivery_cost_update=True).write(vals)
 >>>>>>> upstream/18.0

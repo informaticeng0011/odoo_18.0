@@ -270,6 +270,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* hr_expense
 # 
 # Translators:
@@ -815,6 +816,8 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * hr_expense
 #
 # Translators:
@@ -822,6 +825,7 @@
 # Tony Ng, 2025
 #
 # Ho Pak Wai <wai@users.noreply.translate.odoo.com>, 2025.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1675,10 +1679,14 @@
 =======
 # "Tony Ng (ngto)" <ngto@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Tony Ng (ngto)" <ngto@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2727,6 +2735,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-04-25 09:03+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-04-25 09:03+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Tony Ng (ngto)\" <ngto@odoo.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://translate.odoo.com/"
 "projects/odoo-18/hr_expense/zh_Hant/>\n"
@@ -2735,6 +2747,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3608,6 +3621,9 @@ msgstr "$600.00"
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #. odoo-python
@@ -3624,6 +3640,7 @@ msgstr "%(employee_name)s：%(expense_name)s"
 #. module: hr_expense
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4706,6 +4723,9 @@ msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 =======
 msgid "%(user)s confirms this expense is not a duplicate with similar expense."
 >>>>>>> upstream/18.0
+=======
+msgid "%(user)s confirms this expense is not a duplicate with similar expense."
+>>>>>>> upstream/18.0
 msgstr "%(user)s 確認此費用與類似費用不重複。"
 
 #. module: hr_expense
@@ -4732,6 +4752,7 @@ msgid ""
 "'Expenses - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6083,6 +6104,10 @@ msgstr ""
 "'費用單據 - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
 "''))"
 >>>>>>> upstream/18.0
+=======
+"'費用單據 - %s - %s' % (object.employee_id.name, (object.name).replace('/', "
+"''))"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_form
@@ -6154,11 +6179,14 @@ msgstr "1 %(exp_cur)s = %(rate)s %(comp_cur)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "2023-08-11"
 msgstr "2023-08-11"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6603,7 +6631,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "必須在「設定」中，為公司已支付的開支，定義預設未清繳賬戶。或者，在日記賬中，為「%(method)s」付款方式指定該賬戶。"
+=======
+msgstr ""
+"必須在「設定」中，為公司已支付的開支，定義預設未清繳賬戶。或者，在日記賬中，"
+"為「%(method)s」付款方式指定該賬戶。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "必須在「設定」中，為公司已支付的開支，定義預設未清繳賬戶。或者，在日記賬中，"
@@ -8304,7 +8338,12 @@ msgstr "所有費用報告"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "All expenses in an expense report must have the same \"paid by\" criteria."
+=======
+msgid ""
+"All expenses in an expense report must have the same \"paid by\" criteria."
+>>>>>>> upstream/18.0
 =======
 msgid ""
 "All expenses in an expense report must have the same \"paid by\" criteria."
@@ -9818,7 +9857,11 @@ msgid "Business Trip"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Business Trip"
+=======
+msgstr "商務旅行"
+>>>>>>> upstream/18.0
 =======
 msgstr "商務旅行"
 >>>>>>> upstream/18.0
@@ -11132,7 +11175,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "不要再把你的費用收據放在口袋裡了。只需拍下收據的照片，讓 Odoo 為您將其數位化。 OCR 和人工智能將自動辨識資訊。"
+=======
+msgstr ""
+"不要再把你的費用收據放在口袋裡了。只需拍下收據的照片，讓 Odoo 為您將其數位"
+"化。 OCR 和人工智能將自動辨識資訊。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "不要再把你的費用收據放在口袋裡了。只需拍下收據的照片，讓 Odoo 為您將其數位"
@@ -12760,7 +12809,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "你真的想向自己的公司開立發票嗎？請刪除合作夥伴中的「公司名稱」，以修復配置。取消此發票，然後重新開始。"
+=======
+msgstr ""
+"你真的想向自己的公司開立發票嗎？請刪除合作夥伴中的「公司名稱」，以修復配置。"
+"取消此發票，然後重新開始。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "你真的想向自己的公司開立發票嗎？請刪除合作夥伴中的「公司名稱」，以修復配置。"
@@ -14441,8 +14496,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Enter a name then choose a category and configure the amount of your "
 "expense."
+=======
+"Enter a name then choose a category and configure the amount of your expense."
+>>>>>>> upstream/18.0
 =======
 "Enter a name then choose a category and configure the amount of your expense."
 >>>>>>> upstream/18.0
@@ -15573,7 +15632,11 @@ msgid "Expense"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "費用"
+=======
+msgstr "開支"
+>>>>>>> upstream/18.0
 =======
 msgstr "開支"
 >>>>>>> upstream/18.0
@@ -16986,7 +17049,11 @@ msgid "Expenses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "費用"
+=======
+msgstr "開支"
+>>>>>>> upstream/18.0
 =======
 msgstr "開支"
 >>>>>>> upstream/18.0
@@ -18894,7 +18961,11 @@ msgid "Product Description"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "產品說明"
+=======
+msgstr "產品描述"
+>>>>>>> upstream/18.0
 =======
 msgstr "產品描述"
 >>>>>>> upstream/18.0
@@ -20059,7 +20130,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "準備好了嗎？你可在此處手動儲存或捨棄變更。你是<u>無需儲存</u>的：Odoo 會在你導覽時，為你儲存所有內容。"
+=======
+msgstr ""
+"準備好了嗎？你可在此處手動儲存或捨棄變更。你是<u>無需儲存</u>的：Odoo 會在你"
+"導覽時，為你儲存所有內容。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "準備好了嗎？你可在此處手動儲存或捨棄變更。你是<u>無需儲存</u>的：Odoo 會在你"
@@ -21805,7 +21882,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "If empty, the approval is done by an Administrator or Approver (determined in settings/users)."
+=======
+"If empty, the approval is done by an Administrator or Approver (determined "
+"in settings/users)."
+>>>>>>> upstream/18.0
 =======
 "If empty, the approval is done by an Administrator or Approver (determined "
 "in settings/users)."
@@ -23174,7 +23256,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "向此電子郵件別名發送電子郵件，附件中包含收據，一鍵建立費用。如果郵件主題的第一個詞包含類別的內部引用或類別名稱，則會自動設置相應的類別。在郵件主題中鍵入費用金額以將其設置在費用上。"
+=======
+"向此電子郵件別名發送電子郵件，附件中包含收據，一鍵建立費用。如果郵件主題的第"
+"一個詞包含類別的內部引用或類別名稱，則會自動設置相應的類別。在郵件主題中鍵入"
+"費用金額以將其設置在費用上。"
+>>>>>>> upstream/18.0
 =======
 "向此電子郵件別名發送電子郵件，附件中包含收據，一鍵建立費用。如果郵件主題的第"
 "一個詞包含類別的內部引用或類別名稱，則會自動設置相應的類別。在郵件主題中鍵入"
@@ -24827,12 +24915,15 @@ msgstr "顯示在今天之前的下一個行動日期的所有記錄"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid "Show missing work email employees"
 msgstr "顯示缺少工作電子郵件的員工"
 
 #. module: hr_expense
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -25520,6 +25611,7 @@ msgid ""
 msgstr "用於記錄公司開支未清繳金額的賬戶。"
 
 #. module: hr_expense
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26496,6 +26588,8 @@ msgid "The company's default journal used when an employee expense is created."
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/hr_expense/models/ir_actions_report.py:0
 msgid ""
@@ -26613,6 +26707,9 @@ msgid "The company's default journal used when an employee expense is created."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27107,8 +27204,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The first word of the email subject did not correspond to any category code."
 " You'll have to set the category manually on the expense."
+=======
+"The first word of the email subject did not correspond to any category code. "
+"You'll have to set the category manually on the expense."
+>>>>>>> upstream/18.0
 =======
 "The first word of the email subject did not correspond to any category code. "
 "You'll have to set the category manually on the expense."
@@ -28467,7 +28569,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以下審批的費用與本報告中的部分費用具有相似的員工、金額和類別。請確認此報告不包含重複項目。"
+=======
+msgstr ""
+"以下審批的費用與本報告中的部分費用具有相似的員工、金額和類別。請確認此報告不"
+"包含重複項目。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "以下審批的費用與本報告中的部分費用具有相似的員工、金額和類別。請確認此報告不"
@@ -30118,6 +30226,7 @@ msgstr "分拆關閉後的總和保持不變"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 #: code:addons/hr_expense/models/hr_expense_sheet.py:0
 msgid ""
 "The work email of some employees is missing. Please add it on the employee "
@@ -30668,11 +30777,14 @@ msgstr "缺少某些員工的工作電子郵件。請在員工表格加入"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: code:addons/hr_expense/models/product_product.py:0
 msgid ""
 "There are unsubmitted expenses linked to this category. Updating the "
 "category cost will change expense amounts. Make sure it is what you want to "
 "do."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32024,6 +32136,10 @@ msgstr ""
 msgstr ""
 "此類別有未提交的開支。更新類別成本將改變開支金額。請確保這是你想要的效果。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"此類別有未提交的開支。更新類別成本將改變開支金額。請確保這是你想要的效果。"
+>>>>>>> upstream/18.0
 
 #. module: hr_expense
 #: model_terms:web_tour.tour,rainbow_man_message:hr_expense.hr_expense_tour
@@ -32147,7 +32263,11 @@ msgid "Total Untaxed Amount In Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "以貨幣計算的未稅總額"
+=======
+msgstr "以貨幣計算的未連稅總額"
+>>>>>>> upstream/18.0
 =======
 msgstr "以貨幣計算的未連稅總額"
 >>>>>>> upstream/18.0
@@ -32393,6 +32513,7 @@ msgstr "網站溝通記錄"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.product_product_expense_form_view
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -33214,6 +33335,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "When the cost of an expense product is different than 0, then the "
 "user                                             using this product won't be "
 "able to change the amount of the "
@@ -33495,6 +33618,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34396,8 +34522,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot delete only some entries linked to an expense report. All entries"
 " must be deleted at the same time."
+=======
+"You cannot delete only some entries linked to an expense report. All entries "
+"must be deleted at the same time."
+>>>>>>> upstream/18.0
 =======
 "You cannot delete only some entries linked to an expense report. All entries "
 "must be deleted at the same time."
@@ -35812,8 +35943,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You cannot set the expense total in currency to 0 if it's linked to a "
 "report."
+=======
+"You cannot set the expense total in currency to 0 if it's linked to a report."
+>>>>>>> upstream/18.0
 =======
 "You cannot set the expense total in currency to 0 if it's linked to a report."
 >>>>>>> upstream/18.0
@@ -36919,6 +37054,7 @@ msgstr "你無權在已批核或已付款的開支報告內，新增或移除任
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -36933,6 +37069,8 @@ msgstr "你無權在已批核或已付款的開支報告內，新增或移除任
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -37748,6 +37886,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -38578,6 +38719,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -39145,6 +39289,7 @@ msgstr "您需要在日記賬加入手動付款方式 (%s)"
 #. odoo-python
 #: code:addons/hr_expense/models/hr_expense.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40497,6 +40642,10 @@ msgid ""
 "You need to have at least one category that can be expensed in your database "
 "to proceed!"
 >>>>>>> upstream/18.0
+=======
+"You need to have at least one category that can be expensed in your database "
+"to proceed!"
+>>>>>>> upstream/18.0
 msgstr "您需要至少一個可以在資料庫中費用的類別才能繼續！"
 
 #. module: hr_expense
@@ -40649,7 +40798,10 @@ msgstr "連同相同的收據，已經存在。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -40836,6 +40988,9 @@ msgstr "連同相同的收據，已經存在。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

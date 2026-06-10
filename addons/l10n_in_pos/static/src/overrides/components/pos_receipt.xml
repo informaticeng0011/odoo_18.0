@@ -218,8 +218,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <th class="text-center">CGST</th>
                     <th class="text-center">SGST</th>
+=======
+                    <th class="text-center" t-if="l10n_in_hsn_summary.has_gst">CGST</th>
+                    <th class="text-center" t-if="l10n_in_hsn_summary.has_gst">SGST</th>
+>>>>>>> upstream/18.0
 =======
                     <th class="text-center" t-if="l10n_in_hsn_summary.has_gst">CGST</th>
                     <th class="text-center" t-if="l10n_in_hsn_summary.has_gst">SGST</th>
@@ -1131,8 +1136,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <td class="text-center" t-out="item.tax_amount_cgst"/>
                     <td class="text-center" t-out="item.tax_amount_sgst"/>
+=======
+                    <td class="text-center" t-if="l10n_in_hsn_summary.has_gst" t-out="item.tax_amount_cgst"/>
+                    <td class="text-center" t-if="l10n_in_hsn_summary.has_gst" t-out="item.tax_amount_sgst"/>
+>>>>>>> upstream/18.0
 =======
                     <td class="text-center" t-if="l10n_in_hsn_summary.has_gst" t-out="item.tax_amount_cgst"/>
                     <td class="text-center" t-if="l10n_in_hsn_summary.has_gst" t-out="item.tax_amount_sgst"/>

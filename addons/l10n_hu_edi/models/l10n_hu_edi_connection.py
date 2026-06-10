@@ -477,7 +477,11 @@ class L10nHuEdiConnection:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'operation': 'CREATE' or 'MODIFY',
+=======
+                'operation': 'CREATE' or 'MODIFY' or 'STORNO',
+>>>>>>> upstream/18.0
 =======
                 'operation': 'CREATE' or 'MODIFY' or 'STORNO',
 >>>>>>> upstream/18.0
@@ -1877,7 +1881,11 @@ class L10nHuEdiConnection:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'softwareId': f'BE477472701-{module_version}'[:18],
+=======
+            'softwareId': f'BE477472701-{module_version}'.ljust(18, '0')[:18],
+>>>>>>> upstream/18.0
 =======
             'softwareId': f'BE477472701-{module_version}'.ljust(18, '0')[:18],
 >>>>>>> upstream/18.0

@@ -94,6 +94,10 @@ from pypdf.generic import create_string_object
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from pypdf import __version__  # noqa: F401
+>>>>>>> upstream/18.0
 =======
 from pypdf import __version__  # noqa: F401
 >>>>>>> upstream/18.0
@@ -405,6 +409,10 @@ pypdf.PageObject.mergePage = lambda self, page2: self.merge_page(page2)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+pypdf.PageObject.compressContentStreams = lambda self: self.compress_content_streams()
+>>>>>>> upstream/18.0
 =======
 pypdf.PageObject.compressContentStreams = lambda self: self.compress_content_streams()
 >>>>>>> upstream/18.0
@@ -802,8 +810,13 @@ class PdfWriter(_Writer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def addBlankPage(self):
         return self.add_blank_page()
+=======
+    def addBlankPage(self, width=None, height=None):
+        return self.add_blank_page(width=width, height=height)
+>>>>>>> upstream/18.0
 =======
     def addBlankPage(self, width=None, height=None):
         return self.add_blank_page(width=width, height=height)

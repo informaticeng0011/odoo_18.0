@@ -151,6 +151,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import models
 =======
 from odoo import models, _
@@ -618,6 +619,10 @@ from odoo.exceptions import UserError
 from odoo import models, _
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
+=======
+from odoo import models, _
+from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
 
 TAX_EXEMPTION_MAPPING = {
     'VATEX-EU-79-C': 'Exempt based on article 79, point c of Council Directive 2006/112/EC',
@@ -699,6 +704,10 @@ TAX_EXEMPTION_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'VATEX-EU-135-1': 'Exempt based on article 135, section 1 of Council Directive 2006/112/EC',
+>>>>>>> upstream/18.0
 =======
     'VATEX-EU-135-1': 'Exempt based on article 135, section 1 of Council Directive 2006/112/EC',
 >>>>>>> upstream/18.0
@@ -1031,6 +1040,11 @@ TAX_EXEMPTION_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'VATEX-EU-144': 'Exempt based on article 144 of Council Directive 2006/112/EC',
+    'VATEX-EU-146-1E': 'Exempt based on article 146 section 1 (e) of Council Directive 2006/112/EC',
+>>>>>>> upstream/18.0
 =======
     'VATEX-EU-144': 'Exempt based on article 144 of Council Directive 2006/112/EC',
     'VATEX-EU-146-1E': 'Exempt based on article 146 section 1 (e) of Council Directive 2006/112/EC',
@@ -1736,6 +1750,11 @@ TAX_EXEMPTION_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'VATEX-EU-153': 'Exempt based on article 153 of Council Directive 2006/112/EC',
+    'VATEX-EU-159': 'Exempt based on article 159 of Council Directive 2006/112/EC',
+>>>>>>> upstream/18.0
 =======
     'VATEX-EU-153': 'Exempt based on article 153 of Council Directive 2006/112/EC',
     'VATEX-EU-159': 'Exempt based on article 159 of Council Directive 2006/112/EC',
@@ -2437,6 +2456,7 @@ TAX_EXEMPTION_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -2955,6 +2975,8 @@ TAX_EXEMPTION_MAPPING = {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3392,6 +3414,9 @@ TAX_EXEMPTION_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3990,6 +4015,9 @@ FIX_WRONG_CODES_MAPPING = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4615,6 +4643,7 @@ class AccountEdiCommon(models.AbstractModel):
 
     def _get_tax_unece_codes(self, customer, supplier, tax):
         if tax.ubl_cii_tax_category_code:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6379,6 +6408,8 @@ class AccountEdiCommon(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             reason_code = tax.ubl_cii_tax_exemption_reason_code
             reason_code = FIX_WRONG_CODES_MAPPING.get(reason_code, reason_code)
 
@@ -6391,6 +6422,11 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                if not self._is_valid_cocontracant_tax_extension(tax):
+                    raise UserError(_("Invalid Tax Setup for Co-Contractor fiscal position. Please apply the standard co-contractor tax, or ensure your custom tax uses Reason Code 'AE' and Exemption Reason Code 'VATEX-EU-AE' "))
+>>>>>>> upstream/18.0
 =======
                 if not self._is_valid_cocontracant_tax_extension(tax):
                     raise UserError(_("Invalid Tax Setup for Co-Contractor fiscal position. Please apply the standard co-contractor tax, or ensure your custom tax uses Reason Code 'AE' and Exemption Reason Code 'VATEX-EU-AE' "))
@@ -6460,6 +6496,7 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6519,6 +6556,8 @@ class AccountEdiCommon(models.AbstractModel):
             }
         return super()._get_tax_unece_codes(customer, supplier, tax)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6543,6 +6582,9 @@ class AccountEdiCommon(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -24,7 +24,11 @@ function compileChatter(node, params) {
     });
     const chatterContainerHookXml = createElement("div");
 <<<<<<< HEAD
+<<<<<<< HEAD
     chatterContainerHookXml.classList.add("o-mail-ChatterContainer", "o-mail-Form-chatter", "pt-2");
+=======
+    chatterContainerHookXml.classList.add("o-mail-ChatterContainer", "o-mail-Form-chatter");
+>>>>>>> upstream/18.0
 =======
     chatterContainerHookXml.classList.add("o-mail-ChatterContainer", "o-mail-Form-chatter");
 >>>>>>> upstream/18.0

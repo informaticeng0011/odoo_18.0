@@ -270,10 +270,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* survey
 # 
 # Translators:
 # Luka Carević <luka@uvid.hr>, 2024
+=======
+# * survey
+#
+# Translators:
+>>>>>>> upstream/18.0
 =======
 # * survey
 #
@@ -1908,8 +1914,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2721,6 +2730,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3283,6 +3293,9 @@
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2025, 2026.
@@ -3462,6 +3475,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4917,6 +4931,11 @@ msgstr ""
 "PO-Revision-Date: 2026-05-02 18:01+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-05-02 18:01+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/survey/"
 "hr/>\n"
 "Language: hr\n"
@@ -4925,6 +4944,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5792,10 +5812,14 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey__question_count
 msgid "# Questions"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6877,10 +6901,14 @@ msgstr "# Pitanja"
 =======
 msgstr "# Pitanja"
 >>>>>>> upstream/18.0
+=======
+msgstr "# Pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__random_questions_count
 msgid "# Questions Randomly Picked"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7992,6 +8020,9 @@ msgstr "# Nasumično odabrana pitanja"
 =======
 msgstr "# Nasumično odabrana pitanja"
 >>>>>>> upstream/18.0
+=======
+msgstr "# Nasumično odabrana pitanja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_progression
@@ -8033,7 +8064,11 @@ msgid "% completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "% završeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "% završeno"
 >>>>>>> upstream/18.0
@@ -8187,7 +8222,11 @@ msgid "%(participant)s just participated in \"%(survey_title)s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%(participant)s upravo je sudjelovao/la u anketi \"%(survey_title)s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "%(participant)s upravo je sudjelovao/la u anketi \"%(survey_title)s\"."
 >>>>>>> upstream/18.0
@@ -8347,7 +8386,11 @@ msgid "%s Votes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s glasova"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s glasova"
 >>>>>>> upstream/18.0
@@ -8501,7 +8544,11 @@ msgid "%s certification passed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s položenih certifikacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s položenih certifikacija"
 >>>>>>> upstream/18.0
@@ -8655,7 +8702,11 @@ msgid "%s challenge certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "%s izazovna certifikacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "%s izazovna certifikacija"
 >>>>>>> upstream/18.0
@@ -8771,6 +8822,7 @@ msgstr "%s izazovna certifikacija"
 #. module: survey
 #: model:ir.actions.report,print_report_name:survey.certification_report
 msgid "'Certification - %s' % (object.survey_id.display_name)"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8955,6 +9007,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "'Certification - %s' % (object.survey_id.display_name)"
 
 #. module: survey
@@ -8997,6 +9051,9 @@ msgstr "10 kg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9074,6 +9131,7 @@ msgstr "10 kg"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p3_q3_sug2
 msgid "100 years"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9404,6 +9462,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "100 years"
 
 #. module: survey
@@ -9456,6 +9516,9 @@ msgstr "1450 km"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9533,6 +9596,7 @@ msgstr "1450 km"
 #. module: survey
 #: model:survey.question.answer,value:survey.survey_demo_burger_quiz_p4_q2_sug3
 msgid "16.2 kg"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9717,6 +9781,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "16.2 kg"
 
 #. module: survey
@@ -9759,6 +9825,9 @@ msgstr "3700 km"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9878,7 +9947,11 @@ msgid "47 kg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "47 kg"
+>>>>>>> upstream/18.0
 =======
 msgstr "47 kg"
 >>>>>>> upstream/18.0
@@ -10031,7 +10104,11 @@ msgid "5.7 kg"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "5.7 kg"
+>>>>>>> upstream/18.0
 =======
 msgstr "5.7 kg"
 >>>>>>> upstream/18.0
@@ -10184,7 +10261,11 @@ msgid "6650 km"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "6650 km"
+>>>>>>> upstream/18.0
 =======
 msgstr "6650 km"
 >>>>>>> upstream/18.0
@@ -10337,7 +10418,11 @@ msgid "99 years"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "99 years"
+>>>>>>> upstream/18.0
 =======
 msgstr "99 years"
 >>>>>>> upstream/18.0
@@ -10493,6 +10578,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<b>Certifikat</b>\n"
+"                            <br/>"
+>>>>>>> upstream/18.0
 =======
 "<b>Certifikat</b>\n"
 "                            <br/>"
@@ -10646,6 +10736,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11550,6 +11641,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <span class=\"text-muted\">Completed</"
 "span>"
 msgstr ""
@@ -11794,6 +11887,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12276,6 +12372,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid ""
 "<br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -13180,6 +13277,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <span class=\"text-muted\">Registered</"
 "span>"
 msgstr ""
@@ -13424,6 +13523,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13942,7 +14044,11 @@ msgid "<br/> <span>by</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<br/> <span>od</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<br/> <span>od</span>"
 >>>>>>> upstream/18.0
@@ -14297,6 +14403,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "<div style=\"background:#F0F0F0;color:#515166;padding:10px 0px;font-family:Arial,Helvetica,sans-serif;font-size:14px;\">\n"
 "    <table style=\"width:600px;margin:5px auto;\">\n"
 "        <tbody>\n"
@@ -14319,6 +14426,8 @@ msgid ""
 "                </p>\n"
 "                <p>Congratulations for passing the test with a score of <strong t-out=\"object.scoring_percentage\"/>%!</p>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15064,6 +15173,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -15584,7 +15696,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -15729,6 +15844,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -16047,7 +16165,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "        Dear <t t-out=\"object.partner_id.name or 'participant'\">participant</t><br/><br/>\n"
+=======
+"        Dear <t t-out=\"object.partner_id.name or "
+"'participant'\">participant</t><br/><br/>\n"
+>>>>>>> upstream/18.0
 =======
 "        Dear <t t-out=\"object.partner_id.name or "
 "'participant'\">participant</t><br/><br/>\n"
@@ -17247,11 +17370,14 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            We are conducting a survey and your response would be appreciated.\n"
 "        </t>\n"
 "        </p><div style=\"margin: 16px 0px 16px 0px;\">\n"
 "            <a t-att-href=\"(object.get_start_url())\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17973,6 +18099,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18459,6 +18588,7 @@ msgid ""
 "            </a>\n"
 "        </div>\n"
 "        <t t-if=\"object.deadline\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19655,6 +19785,10 @@ msgid ""
 "            Please answer the survey for <t t-"
 "out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
 >>>>>>> upstream/18.0
+=======
+"            Please answer the survey for <t t-"
+"out=\"format_date(object.deadline) or ''\">05/05/2021</t>.<br/><br/>\n"
+>>>>>>> upstream/18.0
 "        </t>\n"
 "        <t t-if=\"object.survey_id.certification\">\n"
 "            We wish you good luck!\n"
@@ -19707,7 +19841,11 @@ msgid "<i class=\"fa fa-bar-chart\"/> Results"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-bar-chart\"/> Rezultati"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-bar-chart\"/> Rezultati"
 >>>>>>> upstream/18.0
@@ -19860,7 +19998,11 @@ msgid "<i class=\"fa fa-check-square-o fa-lg me-2\"/>answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-check-square-o fa-lg me-2\"/>odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-check-square-o fa-lg me-2\"/>odgovor"
 >>>>>>> upstream/18.0
@@ -20013,7 +20155,11 @@ msgid "<i class=\"fa fa-circle-o  fa-lg me-2\"/>answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-circle-o  fa-lg me-2\"/>odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-circle-o  fa-lg me-2\"/>odgovor"
 >>>>>>> upstream/18.0
@@ -20169,6 +20315,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-circle-o fa-lg\" role=\"img\" aria-label=\"Nije označeno\" "
+"title=\"Nije označeno\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-circle-o fa-lg\" role=\"img\" aria-label=\"Nije označeno\" "
 "title=\"Nije označeno\"/>"
@@ -20358,7 +20509,11 @@ msgid "<i class=\"fa fa-close\"/> Close"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-close\"/> Zatvori"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-close\"/> Zatvori"
 >>>>>>> upstream/18.0
@@ -20511,7 +20666,11 @@ msgid "<i class=\"fa fa-dot-circle-o fa-lg me-2\"/>answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-dot-circle-o fa-lg me-2\"/>odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-dot-circle-o fa-lg me-2\"/>odgovor"
 >>>>>>> upstream/18.0
@@ -20667,6 +20826,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Označeno\" "
+"title=\"Označeno\"/>"
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-dot-circle-o fa-lg\" role=\"img\" aria-label=\"Označeno\" "
 "title=\"Označeno\"/>"
@@ -20859,6 +21023,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<i class=\"fa fa-exclamation-triangle\"/> Trenutno nije moguće položiti ovu "
+"procjenu jer niti jedno pitanje nije konfigurirano za dodjelu bodova."
+>>>>>>> upstream/18.0
 =======
 "<i class=\"fa fa-exclamation-triangle\"/> Trenutno nije moguće položiti ovu "
 "procjenu jer niti jedno pitanje nije konfigurirano za dodjelu bodova."
@@ -21011,6 +21180,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_done
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22134,6 +22304,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<i class=\"fa fa-fw fa-trophy\" role=\"img\" aria-label=\"Download "
 "certification\" title=\"Download certification\"/>\n"
 "                                        Download certification"
@@ -22177,6 +22349,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22300,7 +22475,11 @@ msgid "<i class=\"fa fa-square-o fa-lg me-2\"/>answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-square-o fa-lg me-2\"/>odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-square-o fa-lg me-2\"/>odgovor"
 >>>>>>> upstream/18.0
@@ -22453,7 +22632,11 @@ msgid "<i class=\"oi oi-fw oi-arrow-right\"/>Go to Survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Idi na anketu"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Idi na anketu"
 >>>>>>> upstream/18.0
@@ -22569,6 +22752,7 @@ msgstr "<i class=\"oi oi-fw oi-arrow-right\"/>Idi na anketu"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -23490,6 +23674,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Avg</span>"
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Prosj.</"
@@ -23530,6 +23716,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23607,6 +23796,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -24640,10 +24830,16 @@ msgstr ""
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
+msgstr ""
+"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Max</span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_page_statistics_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25677,6 +25873,11 @@ msgstr ""
 msgstr ""
 "<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
 >>>>>>> upstream/18.0
+=======
+"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
+msgstr ""
+"<span class=\"badge text-bg-secondary only_left_radius px-2 pt-1\">Min</span>"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
@@ -25954,6 +26155,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\" id=\"enter-"
+"tooltip\"> ili pritisnite CTRL+Enter</span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\" id=\"enter-"
 "tooltip\"> ili pritisnite CTRL+Enter</span>"
@@ -27039,6 +27245,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_in_progress
 msgid ""
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28162,6 +28369,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                            <span id=\"enter-tooltip\">or press Enter</"
 "span>\n"
 "                        </span>"
@@ -28206,6 +28415,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28557,6 +28769,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "<span class=\"fw-bold text-muted ms-2 d-none d-md-inline\">\n"
 "                    <span id=\"enter-tooltip\">ili pritisnite CTRL+Enter</span>\n"
@@ -28713,6 +28926,8 @@ msgstr ""
 "                </span>"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29431,6 +29646,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29970,7 +30188,11 @@ msgid "<span class=\"mx-1\">-</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"mx-1\">-</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"mx-1\">-</span>"
 >>>>>>> upstream/18.0
@@ -30149,6 +30371,7 @@ msgstr "<span class=\"mx-1\">-</span>"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -30867,6 +31090,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_company_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
@@ -31109,6 +31334,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31514,6 +31740,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31627,6 +31855,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -31704,6 +31935,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.res_partner_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32422,6 +32654,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_stat_text\" invisible=\"certifications_count &lt; "
 "2\">Certifications</span>\n"
 "                        <span class=\"o_stat_text\" "
@@ -32664,6 +32898,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33069,6 +33304,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -33182,6 +33419,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -33259,6 +33499,7 @@ msgstr ""
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_fill_form_start
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -34382,6 +34623,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<span class=\"o_survey_enter fw-bold text-muted ms-2 d-none d-md-inline\">or "
 "press Enter</span>"
 msgstr ""
@@ -34423,6 +34666,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -34541,6 +34787,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_survey_key text-center position-absolute bg-white rounded-"
+"start py-0 ps-2\"><span class=\"text-primary text-center text-center w-100 "
+"position-relative\">Tipka</span></span>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_survey_key text-center position-absolute bg-white rounded-"
 "start py-0 ps-2\"><span class=\"text-primary text-center text-center w-100 "
@@ -34731,6 +34983,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_results_filters
 msgid ""
 "<span class=\"o_survey_results_topbar_clear_filters text-primary\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -35854,6 +36107,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <i class=\"fa fa-trash me-1\"/>Remove all "
 "filters\n"
 "                            </span>"
@@ -35898,6 +36153,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -36015,6 +36273,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_survey_session_answer_count\">0</span>\n"
+"                                     /"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_survey_session_answer_count\">0</span>\n"
 "                                     /"
@@ -36207,6 +36470,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span class=\"o_survey_session_navigation_next_label\">Pokreni</span>\n"
+"                        <i class=\"oi oi-chevron-right\"/>"
+>>>>>>> upstream/18.0
 =======
 "<span class=\"o_survey_session_navigation_next_label\">Pokreni</span>\n"
 "                        <i class=\"oi oi-chevron-right\"/>"
@@ -36629,7 +36897,11 @@ msgid "<span class=\"text-break text-muted\">Completed</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-break text-muted\">Završeno</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-break text-muted\">Završeno</span>"
 >>>>>>> upstream/18.0
@@ -37714,7 +37986,11 @@ msgid "<span class=\"text-break text-muted\">Registered</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-break text-muted\">Registrirano</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-break text-muted\">Registrirano</span>"
 >>>>>>> upstream/18.0
@@ -38571,7 +38847,11 @@ msgid "<span class=\"text-muted\">Average Duration</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\">Prosječno trajanje</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\">Prosječno trajanje</span>"
 >>>>>>> upstream/18.0
@@ -38724,7 +39004,11 @@ msgid "<span class=\"text-muted\">Questions</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\">Pitanja</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\">Pitanja</span>"
 >>>>>>> upstream/18.0
@@ -38877,7 +39161,11 @@ msgid "<span class=\"text-muted\">Responded</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-muted\">Odgovorilo</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-muted\">Odgovorilo</span>"
 >>>>>>> upstream/18.0
@@ -39030,7 +39318,11 @@ msgid "<span class=\"text-success\">Correct</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-success\">Točno</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-success\">Točno</span>"
 >>>>>>> upstream/18.0
@@ -39183,7 +39475,11 @@ msgid "<span class=\"text-warning\">Partial</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span class=\"text-warning\">Djelomično</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span class=\"text-warning\">Djelomično</span>"
 >>>>>>> upstream/18.0
@@ -39336,7 +39632,11 @@ msgid "<span invisible=\"not is_scored_question\">Points</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span invisible=\"not is_scored_question\">Bodovi</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span invisible=\"not is_scored_question\">Bodovi</span>"
 >>>>>>> upstream/18.0
@@ -39500,7 +39800,11 @@ msgid "<span>All surveys</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Sve ankete</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Sve ankete</span>"
 >>>>>>> upstream/18.0
@@ -39658,7 +39962,11 @@ msgid "<span>Completed surveys</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Završene ankete</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Završene ankete</span>"
 >>>>>>> upstream/18.0
@@ -39816,7 +40124,11 @@ msgid "<span>Do you like it?</span><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Sviđa li Vam se?</span><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Sviđa li Vam se?</span><br/>"
 >>>>>>> upstream/18.0
@@ -39969,7 +40281,11 @@ msgid "<span>Failed only</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Samo neuspjele</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Samo neuspjele</span>"
 >>>>>>> upstream/18.0
@@ -40086,6 +40402,7 @@ msgstr "<span>Samo neuspjele</span>"
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
 "<span>How many ...?</span><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -40804,6 +41121,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-2x\" role=\"img\" aria-"
 "label=\"Numeric\" title=\"Numeric\">123 </i>\n"
 "                                    <i class=\"fa fa-2x fa-sort\" "
@@ -41046,6 +41365,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41451,6 +41771,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -41565,6 +41887,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -41642,6 +41967,7 @@ msgstr ""
 #. module: survey
 #: model_terms:survey.question,description:survey.survey_demo_quiz_p5_q1
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42600,12 +42926,16 @@ msgid ""
 =======
 "<span>If you don't like us, please try to be as objective as possible.</span>"
 >>>>>>> upstream/18.0
+=======
+"<span>If you don't like us, please try to be as objective as possible.</span>"
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
 "<span>Name all the animals</span><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43728,6 +44058,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-align-justify fa-4x\" "
 "role=\"img\" aria-label=\"Multiple lines\" title=\"Multiple Lines\"/>"
 msgstr ""
@@ -43770,6 +44102,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -43848,6 +44183,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid ""
 "<span>Name one animal</span><br/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44970,6 +45306,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                    <i class=\"fa fa-minus fa-4x\" "
 "role=\"img\" aria-label=\"Single Line\" title=\"Single Line\"/>"
 msgstr ""
@@ -45012,6 +45350,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -45359,7 +45700,11 @@ msgid "<span>Number of attempts left</span>:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Broj pokušaja</span>:"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Broj pokušaja</span>:"
 >>>>>>> upstream/18.0
@@ -46221,7 +46566,11 @@ msgid "<span>Passed and Failed</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Uspjele i neuspjele</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Uspjele i neuspjele</span>"
 >>>>>>> upstream/18.0
@@ -46374,7 +46723,11 @@ msgid "<span>Passed only</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Samo uspjele</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Samo uspjele</span>"
 >>>>>>> upstream/18.0
@@ -46530,6 +46883,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>Ovaj certifikat dodjeljuje se</span>\n"
+"                                <br/>"
+>>>>>>> upstream/18.0
 =======
 "<span>Ovaj certifikat dodjeljuje se</span>\n"
 "                                <br/>"
@@ -46724,7 +47082,11 @@ msgid "<span>Waiting for attendees...</span>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Čekanje na sudionike...</span>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Čekanje na sudionike...</span>"
 >>>>>>> upstream/18.0
@@ -46877,7 +47239,11 @@ msgid "<span>When does ... start?</span><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Kada počinje ... ?</span><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Kada počinje ... ?</span><br/>"
 >>>>>>> upstream/18.0
@@ -47030,7 +47396,11 @@ msgid "<span>When is Christmas?</span><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Kada je Božić?</span><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Kada je Božić?</span><br/>"
 >>>>>>> upstream/18.0
@@ -47183,7 +47553,11 @@ msgid "<span>Which are yellow?</span><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Koji su žuti?</span><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Koji su žuti?</span><br/>"
 >>>>>>> upstream/18.0
@@ -47569,7 +47943,11 @@ msgid "<span>Which is yellow?</span><br/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<span>Koja je žuta?</span><br/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<span>Koja je žuta?</span><br/>"
 >>>>>>> upstream/18.0
@@ -48424,6 +48802,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"<span>za uspješno završen</span>\n"
+"                                <br/>"
+>>>>>>> upstream/18.0
 =======
 "<span>za uspješno završen</span>\n"
 "                                <br/>"
@@ -48619,7 +49002,11 @@ msgid "A label must be attached to only one question."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka mora biti povezana samo s jednim pitanjem."
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka mora biti povezana samo s jednim pitanjem."
 >>>>>>> upstream/18.0
@@ -48778,7 +49165,11 @@ msgid "A little bit overpriced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Malo preskupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Malo preskupo"
 >>>>>>> upstream/18.0
@@ -48931,7 +49322,11 @@ msgid "A lot overpriced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Puno preskupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Puno preskupo"
 >>>>>>> upstream/18.0
@@ -49087,6 +49482,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Potrebno je postaviti pozitivno zadano vremensko ograničenje kada sesija "
+"nagrađuje brze odgovore."
+>>>>>>> upstream/18.0
 =======
 "Potrebno je postaviti pozitivno zadano vremensko ograničenje kada sesija "
 "nagrađuje brze odgovore."
@@ -49285,7 +49685,11 @@ msgid "A problem has occurred"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do problema"
+>>>>>>> upstream/18.0
 =======
 msgstr "Došlo je do problema"
 >>>>>>> upstream/18.0
@@ -49439,7 +49843,11 @@ msgid "A question can either be skipped or answered, not both."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanje se može preskočiti ili odgovoriti, ne oboje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pitanje se može preskočiti ili odgovoriti, ne oboje."
 >>>>>>> upstream/18.0
@@ -49596,6 +50004,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bodovana anketa mora imati barem jedno pitanje koje donosi bodove.\n"
+"Molimo provjerite odgovore i njihove bodove."
+>>>>>>> upstream/18.0
 =======
 "Bodovana anketa mora imati barem jedno pitanje koje donosi bodove.\n"
 "Molimo provjerite odgovore i njihove bodove."
@@ -49785,7 +50198,11 @@ msgid "About our ecommerce"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "O našoj e-trgovini"
+>>>>>>> upstream/18.0
 =======
 msgstr "O našoj e-trgovini"
 >>>>>>> upstream/18.0
@@ -50177,7 +50594,11 @@ msgid "Access Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Način pristupa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Način pristupa"
 >>>>>>> upstream/18.0
@@ -51034,7 +51455,11 @@ msgid "Access token should be unique"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pristupni token mora biti jedinstven"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pristupni token mora biti jedinstven"
 >>>>>>> upstream/18.0
@@ -51455,7 +51880,11 @@ msgid "Add a question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodajte pitanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodajte pitanje"
 >>>>>>> upstream/18.0
@@ -52555,7 +52984,11 @@ msgid "Additional emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodatne e-adrese"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodatne e-adrese"
 >>>>>>> upstream/18.0
@@ -53430,7 +53863,11 @@ msgid "Africa"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Afrika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Afrika"
 >>>>>>> upstream/18.0
@@ -53652,6 +54089,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sva pitanja s \"Je bodovano pitanje = Da\" i \"Tip pitanja: Datum\" moraju "
+"imati odgovor"
+>>>>>>> upstream/18.0
 =======
 "Sva pitanja s \"Je bodovano pitanje = Da\" i \"Tip pitanja: Datum\" moraju "
 "imati odgovor"
@@ -53844,6 +54286,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sva pitanja s \"Je bodovano pitanje = Da\" i \"Tip pitanja: Datum i "
+"vrijeme\" moraju imati odgovor"
+>>>>>>> upstream/18.0
 =======
 "Sva pitanja s \"Je bodovano pitanje = Da\" i \"Tip pitanja: Datum i "
 "vrijeme\" moraju imati odgovor"
@@ -54266,7 +54713,11 @@ msgid "All questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sva pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sva pitanja"
 >>>>>>> upstream/18.0
@@ -55118,7 +55569,11 @@ msgid "All surveys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sve ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sve ankete"
 >>>>>>> upstream/18.0
@@ -55272,6 +55727,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sva vremenski ograničena pitanja moraju imati pozitivno vremensko ograničenje"
+>>>>>>> upstream/18.0
 =======
 "Sva vremenski ograničena pitanja moraju imati pozitivno vremensko ograničenje"
 >>>>>>> upstream/18.0
@@ -55657,7 +56116,11 @@ msgid "Allow Roaming"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dozvoli roaming"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dozvoli roaming"
 >>>>>>> upstream/18.0
@@ -56509,7 +56972,11 @@ msgid "Allowed Triggering Questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopuštena okidajuća pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopuštena okidajuća pitanja"
 >>>>>>> upstream/18.0
@@ -56662,7 +57129,11 @@ msgid "Allowed survey types"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dopušteni tipovi ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dopušteni tipovi ankete"
 >>>>>>> upstream/18.0
@@ -56815,7 +57286,11 @@ msgid "Amenhotep"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Amenhotep"
+>>>>>>> upstream/18.0
 =======
 msgstr "Amenhotep"
 >>>>>>> upstream/18.0
@@ -56968,7 +57443,11 @@ msgid "An access token must be unique!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pristupni token mora biti jedinstven!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pristupni token mora biti jedinstven!"
 >>>>>>> upstream/18.0
@@ -57122,6 +57601,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Bod odgovora za pitanje koje nije s višestrukim izborom ne može biti "
+"negativan!"
+>>>>>>> upstream/18.0
 =======
 "Bod odgovora za pitanje koje nije s višestrukim izborom ne može biti "
 "negativan!"
@@ -57566,7 +58050,11 @@ msgid "Answer deadline"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Krajnji rok za odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Krajnji rok za odgovor"
 >>>>>>> upstream/18.0
@@ -58421,6 +58909,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Oznaka odgovora kao sama vrijednost ako nije prazna ili slovo koje "
+"predstavlja indeks odgovora u suprotnom."
+>>>>>>> upstream/18.0
 =======
 "Oznaka odgovora kao sama vrijednost ako nije prazna ili slovo koje "
 "predstavlja indeks odgovora u suprotnom."
@@ -58618,7 +59111,11 @@ msgid "Answers Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj odgovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj odgovora"
 >>>>>>> upstream/18.0
@@ -58792,7 +59289,11 @@ msgid "Anyone with the link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bilo tko s poveznicom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bilo tko s poveznicom"
 >>>>>>> upstream/18.0
@@ -59030,7 +59531,11 @@ msgid "Are you vegetarian?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jeste li vegetarijanac?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jeste li vegetarijanac?"
 >>>>>>> upstream/18.0
@@ -59184,7 +59689,11 @@ msgid "Art & Culture"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Umjetnost i kultura"
+>>>>>>> upstream/18.0
 =======
 msgstr "Umjetnost i kultura"
 >>>>>>> upstream/18.0
@@ -59337,7 +59846,11 @@ msgid "Arthur B. McDonald"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Arthur B. McDonald"
+>>>>>>> upstream/18.0
 =======
 msgstr "Arthur B. McDonald"
 >>>>>>> upstream/18.0
@@ -59508,7 +60021,11 @@ msgid "Asia"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Azija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Azija"
 >>>>>>> upstream/18.0
@@ -59949,7 +60466,11 @@ msgid "Assessment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Evaluacija"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evaluacija"
 >>>>>>> upstream/18.0
@@ -61046,7 +61567,11 @@ msgid "Attempt n°"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušaj br.°"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokušaj br.°"
 >>>>>>> upstream/18.0
@@ -62132,7 +62657,11 @@ msgid "Attempts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušaji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokušaji"
 >>>>>>> upstream/18.0
@@ -63217,7 +63746,11 @@ msgid "Attempts Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj pokušaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj pokušaja"
 >>>>>>> upstream/18.0
@@ -64072,6 +64605,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nadimak sudionika, uglavnom se koristi za identifikaciju na ljestvici sesije "
+"ankete."
+>>>>>>> upstream/18.0
 =======
 "Nadimak sudionika, uglavnom se koristi za identifikaciju na ljestvici sesije "
 "ankete."
@@ -64261,6 +64799,7 @@ msgid "Attendees are answering the question..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: survey
@@ -65076,6 +65615,8 @@ msgstr ""
 msgid "Attendees get more points if they answer quickly"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -65191,6 +65732,9 @@ msgstr "Sudionici dobivaju više bodova ako brzo odgovore"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -65313,6 +65857,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Automatski e-mail poslan korisniku kada položi certifikaciju, sadrži njegov "
+"certifikacijski dokument."
+>>>>>>> upstream/18.0
 =======
 "Automatski e-mail poslan korisniku kada položi certifikaciju, sadrži njegov "
 "certifikacijski dokument."
@@ -65746,7 +66295,11 @@ msgid "Average Duration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječno trajanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosječno trajanje"
 >>>>>>> upstream/18.0
@@ -66598,7 +67151,11 @@ msgid "Average Score"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječan rezultat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosječan rezultat"
 >>>>>>> upstream/18.0
@@ -66751,7 +67308,11 @@ msgid "Average duration of the survey (in hours)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječno trajanje ankete (u satima)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosječno trajanje ankete (u satima)"
 >>>>>>> upstream/18.0
@@ -67137,7 +67698,11 @@ msgid "Avg Score (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prosječni rezultat (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prosječni rezultat (%)"
 >>>>>>> upstream/18.0
@@ -67989,7 +68554,11 @@ msgid "Avicii"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Avicii"
+>>>>>>> upstream/18.0
 =======
 msgstr "Avicii"
 >>>>>>> upstream/18.0
@@ -68149,7 +68718,11 @@ msgid "Background Url"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL pozadine"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL pozadine"
 >>>>>>> upstream/18.0
@@ -68317,7 +68890,11 @@ msgid "Beware of leap years!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pazite na prijestupne godine!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pazite na prijestupne godine!"
 >>>>>>> upstream/18.0
@@ -68471,7 +69048,11 @@ msgid "Blue Pen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Plava olovka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Plava olovka"
 >>>>>>> upstream/18.0
@@ -68655,7 +69236,11 @@ msgid "Brussels"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bruxelles"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bruxelles"
 >>>>>>> upstream/18.0
@@ -68876,7 +69461,11 @@ msgid "Burger Quiz"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Burger kviz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Burger kviz"
 >>>>>>> upstream/18.0
@@ -69030,7 +69619,11 @@ msgid "But first, keep listening to the host."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ali prvo, nastavite slušati voditelja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ali prvo, nastavite slušati voditelja."
 >>>>>>> upstream/18.0
@@ -69198,7 +69791,11 @@ msgid "Can Humans ever directly see a photon?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mogu li ljudi ikada izravno vidjeti foton?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mogu li ljudi ikada izravno vidjeti foton?"
 >>>>>>> upstream/18.0
@@ -69591,7 +70188,11 @@ msgid "Certification Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka certifikata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Značka certifikata"
 >>>>>>> upstream/18.0
@@ -70676,7 +71277,11 @@ msgid "Certification Badge "
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka certifikata "
+>>>>>>> upstream/18.0
 =======
 msgstr "Značka certifikata "
 >>>>>>> upstream/18.0
@@ -71529,7 +72134,11 @@ msgid "Certification Badge is not configured for the survey %(survey_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certifikacijska značka nije konfigurirana za anketu %(survey_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certifikacijska značka nije konfigurirana za anketu %(survey_name)s"
 >>>>>>> upstream/18.0
@@ -71682,7 +72291,11 @@ msgid "Certification Failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certifikacija nije uspjela"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certifikacija nije uspjela"
 >>>>>>> upstream/18.0
@@ -71835,7 +72448,11 @@ msgid "Certification n°"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certifikat br."
+>>>>>>> upstream/18.0
 =======
 msgstr "Certifikat br."
 >>>>>>> upstream/18.0
@@ -72221,7 +72838,11 @@ msgid "Certification template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak certifikata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predložak certifikata"
 >>>>>>> upstream/18.0
@@ -73073,7 +73694,11 @@ msgid "Certification: {{ object.survey_id.display_name }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certification: {{ object.survey_id.display_name }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certification: {{ object.survey_id.display_name }}"
 >>>>>>> upstream/18.0
@@ -73233,7 +73858,11 @@ msgid "Certifications Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj certifikata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj certifikata"
 >>>>>>> upstream/18.0
@@ -73386,7 +74015,11 @@ msgid "Certifications Succeeded"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uspjele certifikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uspjele certifikacije"
 >>>>>>> upstream/18.0
@@ -73773,7 +74406,11 @@ msgid "Certified"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Certificiran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Certificiran"
 >>>>>>> upstream/18.0
@@ -74858,7 +75495,11 @@ msgid "Certified Email Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predložak certificiranog emaila"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predložak certificiranog emaila"
 >>>>>>> upstream/18.0
@@ -75871,7 +76512,11 @@ msgid "Chair floor protection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaštita poda stolice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaštita poda stolice"
 >>>>>>> upstream/18.0
@@ -76508,7 +77153,11 @@ msgid "Cheating on your neighbors will not help!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Varanje od susjeda vam neće pomoći!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Varanje od susjeda vam neće pomoći!"
 >>>>>>> upstream/18.0
@@ -76662,7 +77311,11 @@ msgid "Check this option if you want to limit the number of attempts per user"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Označite ovu opciju ako želite ograničiti broj pokušaja po korisniku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Označite ovu opciju ako želite ograničiti broj pokušaja po korisniku"
 >>>>>>> upstream/18.0
@@ -76816,7 +77469,11 @@ msgid "Checkbox updating comparison flag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka za ažuriranje usporedbe"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka za ažuriranje usporedbe"
 >>>>>>> upstream/18.0
@@ -76979,7 +77636,11 @@ msgid "Choose your favourite subject and show how good you are. Ready?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite omiljeni predmet i pokažite koliko ste dobri. Spremni?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite omiljeni predmet i pokažite koliko ste dobri. Spremni?"
 >>>>>>> upstream/18.0
@@ -77132,7 +77793,11 @@ msgid "Choose your green meal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite svoj zeleni obrok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite svoj zeleni obrok"
 >>>>>>> upstream/18.0
@@ -77285,7 +77950,11 @@ msgid "Choose your meal"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite svoj obrok"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite svoj obrok"
 >>>>>>> upstream/18.0
@@ -77671,7 +78340,11 @@ msgid "Classic Blue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasična plava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klasična plava"
 >>>>>>> upstream/18.0
@@ -78756,7 +79429,11 @@ msgid "Classic Gold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasična zlatna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klasična zlatna"
 >>>>>>> upstream/18.0
@@ -79841,7 +80518,11 @@ msgid "Classic Purple"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klasična ljubičasta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klasična ljubičasta"
 >>>>>>> upstream/18.0
@@ -80698,7 +81379,11 @@ msgid "Cliff Burton"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cliff Burton"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cliff Burton"
 >>>>>>> upstream/18.0
@@ -81091,7 +81776,11 @@ msgid "Close Live Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zatvorite sesiju uživo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zatvorite sesiju uživo"
 >>>>>>> upstream/18.0
@@ -81918,6 +82607,7 @@ msgstr "Index boje"
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83041,6 +83731,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Combining roaming and \"Scoring with answers after each page\" is not "
 "possible; please update the following surveys:\n"
 "- %(survey_names)s"
@@ -83084,6 +83776,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -83198,7 +83893,11 @@ msgid "Come back once you have added questions to your Surveys."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vratite se nakon što dodate pitanja u svoje ankete."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vratite se nakon što dodate pitanja u svoje ankete."
 >>>>>>> upstream/18.0
@@ -83589,7 +84288,11 @@ msgid "Comment Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poruka komentara"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poruka komentara"
 >>>>>>> upstream/18.0
@@ -84674,7 +85377,11 @@ msgid "Comment is an answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Komentar je odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Komentar je odgovor"
 >>>>>>> upstream/18.0
@@ -85527,7 +86234,11 @@ msgid "Company Certifications Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj certifikata tvrtke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj certifikata tvrtke"
 >>>>>>> upstream/18.0
@@ -85687,7 +86398,11 @@ msgid "Completed surveys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završene ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završene ankete"
 >>>>>>> upstream/18.0
@@ -86084,7 +86799,11 @@ msgid "Conditional display"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvjetni prikaz"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvjetni prikaz"
 >>>>>>> upstream/18.0
@@ -87172,7 +87891,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvjetni prikaz nije dostupan kada se pitanja biraju nasumično."
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvjetni prikaz nije dostupan kada se pitanja biraju nasumično."
 >>>>>>> upstream/18.0
@@ -88024,7 +88747,11 @@ msgid "Conference chair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predsjednik konferencije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predsjednik konferencije"
 >>>>>>> upstream/18.0
@@ -88178,6 +88905,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Čestitamo! Sada ste spremni prikupljati povratne informacije kao "
+"profesionalac :-)"
+>>>>>>> upstream/18.0
 =======
 "Čestitamo! Sada ste spremni prikupljati povratne informacije kao "
 "profesionalac :-)"
@@ -88367,7 +89099,11 @@ msgid "Congratulations, you are now official vendor of MyCompany"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čestitamo, sada ste službeni dobavljač tvrtke MyCompany"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čestitamo, sada ste službeni dobavljač tvrtke MyCompany"
 >>>>>>> upstream/18.0
@@ -88520,7 +89256,11 @@ msgid "Congratulations, you have passed the test!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čestitamo, položili ste test!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čestitamo, položili ste test!"
 >>>>>>> upstream/18.0
@@ -88684,7 +89424,11 @@ msgid "Contains conditional questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sadrži uvjetna pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sadrži uvjetna pitanja"
 >>>>>>> upstream/18.0
@@ -88847,7 +89591,11 @@ msgid "Continue here"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nastavite ovdje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nastavite ovdje"
 >>>>>>> upstream/18.0
@@ -89031,7 +89779,11 @@ msgid "Correct Answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan odgovor"
 >>>>>>> upstream/18.0
@@ -89184,7 +89936,11 @@ msgid "Correct date and time answer for this question."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor u obliku datuma i vremena za ovo pitanje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan odgovor u obliku datuma i vremena za ovo pitanje."
 >>>>>>> upstream/18.0
@@ -89570,7 +90326,11 @@ msgid "Correct date answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor s datumom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan odgovor s datumom"
 >>>>>>> upstream/18.0
@@ -90422,7 +91182,11 @@ msgid "Correct date answer for this question."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor u obliku datuma za ovo pitanje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan odgovor u obliku datuma za ovo pitanje."
 >>>>>>> upstream/18.0
@@ -90808,7 +91572,11 @@ msgid "Correct datetime answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor s datumom i vremenom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan odgovor s datumom i vremenom"
 >>>>>>> upstream/18.0
@@ -91660,7 +92428,11 @@ msgid "Correct number answer for this question."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan brojčani odgovor za ovo pitanje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan brojčani odgovor za ovo pitanje."
 >>>>>>> upstream/18.0
@@ -91813,7 +92585,11 @@ msgid "Correct numerical answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan brojčani odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan brojčani odgovor"
 >>>>>>> upstream/18.0
@@ -91966,7 +92742,11 @@ msgid "Correctly priced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikladno cijenjeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikladno cijenjeno"
 >>>>>>> upstream/18.0
@@ -92357,7 +93137,11 @@ msgid "Create Live Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kreirajte sesiju uživo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kreirajte sesiju uživo"
 >>>>>>> upstream/18.0
@@ -93235,7 +94019,11 @@ msgid "Creating test token is not allowed for you."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Niste ovlašteni za kreiranje testnog tokena."
+>>>>>>> upstream/18.0
 =======
 msgstr "Niste ovlašteni za kreiranje testnog tokena."
 >>>>>>> upstream/18.0
@@ -93392,6 +94180,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kreiranje tokena za bilo koga osim zaposlenika nije dopušteno za interne "
+"ankete."
+>>>>>>> upstream/18.0
 =======
 "Kreiranje tokena za bilo koga osim zaposlenika nije dopušteno za interne "
 "ankete."
@@ -93582,7 +94375,11 @@ msgid "Creating token for closed/archived surveys is not allowed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije dopušteno kreiranje tokena za zatvorene/arhivirane ankete."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije dopušteno kreiranje tokena za zatvorene/arhivirane ankete."
 >>>>>>> upstream/18.0
@@ -93739,6 +94536,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kreiranje tokena za vanjske osobe nije dopušteno za ankete koje zahtijevaju "
+"autentifikaciju."
+>>>>>>> upstream/18.0
 =======
 "Kreiranje tokena za vanjske osobe nije dopušteno za ankete koje zahtijevaju "
 "autentifikaciju."
@@ -94161,7 +94963,11 @@ msgid "Current Question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutno pitanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Trenutno pitanje"
 >>>>>>> upstream/18.0
@@ -95246,7 +96052,11 @@ msgid "Current Question Start Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijeme početka trenutnog pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrijeme početka trenutnog pitanja"
 >>>>>>> upstream/18.0
@@ -96331,7 +97141,11 @@ msgid "Current Session Start Time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijeme početka trenutne sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrijeme početka trenutne sesije"
 >>>>>>> upstream/18.0
@@ -97183,7 +97997,11 @@ msgid "Currently only supported for live sessions."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutno je podržano samo za žive sesije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Trenutno je podržano samo za žive sesije."
 >>>>>>> upstream/18.0
@@ -97345,6 +98163,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Kupci će dobiti novi token i moći će ponovno u potpunosti ispuniti anketu."
+>>>>>>> upstream/18.0
 =======
 "Kupci će dobiti novi token i moći će ponovno u potpunosti ispuniti anketu."
 >>>>>>> upstream/18.0
@@ -97497,7 +98319,11 @@ msgid "Customers will receive the same token."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kupci će dobiti isti token."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kupci će dobiti isti token."
 >>>>>>> upstream/18.0
@@ -97650,7 +98476,11 @@ msgid "Customizable Lamp"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagodljiva svjetiljka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagodljiva svjetiljka"
 >>>>>>> upstream/18.0
@@ -98036,7 +98866,11 @@ msgid "Customized speed rewards"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prilagođene nagrade za brzinu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prilagođene nagrade za brzinu"
 >>>>>>> upstream/18.0
@@ -98888,7 +99722,11 @@ msgid "DEMO_CERTIFIED_NAME"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "DEMO_CERTIFIED_NAME"
+>>>>>>> upstream/18.0
 =======
 msgstr "DEMO_CERTIFIED_NAME"
 >>>>>>> upstream/18.0
@@ -99074,7 +99912,11 @@ msgid "Datetime"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum i vrijeme"
 >>>>>>> upstream/18.0
@@ -99523,7 +100365,11 @@ msgid "Datetime answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme odgovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum i vrijeme odgovora"
 >>>>>>> upstream/18.0
@@ -100375,7 +101221,11 @@ msgid "Datetime until customer can open the survey and submit answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme do kada kupac može otvoriti anketu i poslati odgovore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum i vrijeme do kada kupac može otvoriti anketu i poslati odgovore"
 >>>>>>> upstream/18.0
@@ -100733,6 +101583,7 @@ msgstr "Krajnji rok"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 >>>>>>> upstream/18.0
@@ -101415,6 +102266,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #: model:ir.model.fields,help:survey.field_survey_question__survey_session_speed_rating_time_limit
 #: model:ir.model.fields,help:survey.field_survey_survey__session_speed_rating_time_limit
 msgid "Default time given to receive additional points for right answers"
@@ -101455,6 +102308,9 @@ msgstr "Zadano vrijeme za dobivanje dodatnih bodova za točne odgovore"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -101537,6 +102393,7 @@ msgstr "Definirajte vidljivost izazova po izbornicima"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_kanban
 msgid "Delete"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102618,6 +103475,9 @@ msgstr "Obriši"
 =======
 msgstr "Obriši"
 >>>>>>> upstream/18.0
+=======
+msgstr "Obriši"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_question__description
@@ -102685,7 +103545,11 @@ msgid "Desk Combination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kombinacija stola"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kombinacija stola"
 >>>>>>> upstream/18.0
@@ -103126,7 +103990,11 @@ msgid "Detailed Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detaljni odgovori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detaljni odgovori"
 >>>>>>> upstream/18.0
@@ -104226,7 +105094,11 @@ msgid "Display Progress as"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži napredak kao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži napredak kao"
 >>>>>>> upstream/18.0
@@ -105079,7 +105951,11 @@ msgid "Displayed if \"%s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikazano ako \"%s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikazano ako \"%s\"."
 >>>>>>> upstream/18.0
@@ -105232,7 +106108,11 @@ msgid "Displayed when the answer entered is not valid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikazano kada uneseni odgovor nije valjan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikazano kada uneseni odgovor nije valjan."
 >>>>>>> upstream/18.0
@@ -105385,7 +106265,11 @@ msgid "Do we sell Acoustic Bloc Screens?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prodajemo li akustične blok zaslone?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prodajemo li akustične blok zaslone?"
 >>>>>>> upstream/18.0
@@ -105538,7 +106422,11 @@ msgid "Do you have any other comments, questions, or concerns?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imate li drugih komentara, pitanja ili nedoumica?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imate li drugih komentara, pitanja ili nedoumica?"
 >>>>>>> upstream/18.0
@@ -105691,7 +106579,11 @@ msgid "Do you think we have missing products in our catalog? (not rated)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mislite li da u našem katalogu nedostaju proizvodi? (ne boduje se)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mislite li da u našem katalogu nedostaju proizvodi? (ne boduje se)"
 >>>>>>> upstream/18.0
@@ -105869,7 +106761,11 @@ msgid "Duplicate Question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dupliciraj pitanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dupliciraj pitanje"
 >>>>>>> upstream/18.0
@@ -106255,7 +107151,11 @@ msgid "Edit Survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Edit Survey"
+=======
+msgstr "Uredi anketu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uredi anketu"
 >>>>>>> upstream/18.0
@@ -107351,7 +108251,11 @@ msgid "End Live Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završite sesiju uživo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završite sesiju uživo"
 >>>>>>> upstream/18.0
@@ -108437,7 +109341,11 @@ msgid "End Message"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završna poruka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završna poruka"
 >>>>>>> upstream/18.0
@@ -109522,7 +110430,11 @@ msgid "End date and time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme završetka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum i vrijeme završetka"
 >>>>>>> upstream/18.0
@@ -110375,7 +111287,11 @@ msgid "End of Survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kraj ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kraj ankete"
 >>>>>>> upstream/18.0
@@ -110761,7 +111677,11 @@ msgid "Enter Session Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unesite šifru sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unesite šifru sesije"
 >>>>>>> upstream/18.0
@@ -111861,7 +112781,11 @@ msgid "Exclude Tests"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Isključi testove"
+>>>>>>> upstream/18.0
 =======
 msgstr "Isključi testove"
 >>>>>>> upstream/18.0
@@ -112713,7 +113637,11 @@ msgid "Existing Partner"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postojeći partner"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postojeći partner"
 >>>>>>> upstream/18.0
@@ -112866,7 +113794,11 @@ msgid "Existing emails"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postojeći e-mailovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postojeći e-mailovi"
 >>>>>>> upstream/18.0
@@ -113019,7 +113951,11 @@ msgid "Extremely likely"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Iznimno vjerojatno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Iznimno vjerojatno"
 >>>>>>> upstream/18.0
@@ -113172,7 +114108,11 @@ msgid "Eyjafjallajökull (Iceland)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Eyjafjallajökull (Iceland)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Eyjafjallajökull (Iceland)"
 >>>>>>> upstream/18.0
@@ -113330,7 +114270,11 @@ msgid "Failed only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo neuspjele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo neuspjele"
 >>>>>>> upstream/18.0
@@ -113490,7 +114434,11 @@ msgid "Feedback Form"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrazac za povratne informacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obrazac za povratne informacije"
 >>>>>>> upstream/18.0
@@ -113651,7 +114599,11 @@ msgid "Filter surveys"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Filtriraj ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Filtriraj ankete"
 >>>>>>> upstream/18.0
@@ -113806,7 +114758,11 @@ msgid "Final Leaderboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Završna ljestvica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Završna ljestvica"
 >>>>>>> upstream/18.0
@@ -113959,7 +114915,11 @@ msgid "Fish"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Riba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Riba"
 >>>>>>> upstream/18.0
@@ -114130,6 +115090,7 @@ msgid "Food Preferences"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: survey
@@ -115349,6 +116310,8 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -115466,6 +116429,9 @@ msgstr "Za ovo pitanje možete odabrati samo jedan odgovor."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -115603,7 +116569,11 @@ msgid "Functional Training"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Funkcionalni trening"
+>>>>>>> upstream/18.0
 =======
 msgstr "Funkcionalni trening"
 >>>>>>> upstream/18.0
@@ -115766,6 +116736,7 @@ msgid "Gather feedbacks from your employees and customers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: survey
@@ -116988,6 +117959,8 @@ msgstr ""
 msgid "Geography"
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -117108,6 +118081,9 @@ msgstr "Geografija"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -117455,7 +118431,11 @@ msgid "Give Badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dodijeli značku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dodijeli značku"
 >>>>>>> upstream/18.0
@@ -118323,7 +119303,11 @@ msgid "Good value for money"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dobar omjer cijene i kvalitete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dobar omjer cijene i kvalitete"
 >>>>>>> upstream/18.0
@@ -118476,7 +119460,11 @@ msgid "Got it!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Razumijem!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Razumijem!"
 >>>>>>> upstream/18.0
@@ -118649,7 +119637,11 @@ msgid "Handle existing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obradi postojeće"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obradi postojeće"
 >>>>>>> upstream/18.0
@@ -118818,7 +119810,11 @@ msgid "Has image only suggested answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ima predloženi odgovor samo sa slikom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ima predloženi odgovor samo sa slikom"
 >>>>>>> upstream/18.0
@@ -118976,7 +119972,11 @@ msgid "Help Participants know what to write"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pomozite sudionicima da znaju što napisati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pomozite sudionicima da znaju što napisati"
 >>>>>>> upstream/18.0
@@ -119129,7 +120129,11 @@ msgid "Hemiunu"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hemiunu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hemiunu"
 >>>>>>> upstream/18.0
@@ -119299,7 +120303,11 @@ msgid "How frequently do you buy products online?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko često kupujete proizvode putem interneta?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko često kupujete proizvode putem interneta?"
 >>>>>>> upstream/18.0
@@ -119453,7 +120461,11 @@ msgid "How frequently do you use our products?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko često koristite naše proizvode?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko često koristite naše proizvode?"
 >>>>>>> upstream/18.0
@@ -119607,7 +120619,11 @@ msgid "How good of a presenter are you? Let's find out!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko ste dobar voditelj prezentacije? Saznajmo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko ste dobar voditelj prezentacije? Saznajmo!"
 >>>>>>> upstream/18.0
@@ -119761,7 +120777,11 @@ msgid "How likely are you to recommend the following products to a friend?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko je vjerojatno da ćete sljedeće proizvode preporučiti prijatelju?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko je vjerojatno da ćete sljedeće proizvode preporučiti prijatelju?"
 >>>>>>> upstream/18.0
@@ -119914,7 +120934,11 @@ msgid "How long is the White Nile river?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko je dugačka rijeka Bijeli Nil?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko je dugačka rijeka Bijeli Nil?"
 >>>>>>> upstream/18.0
@@ -120069,6 +121093,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koliko stolica mislite da bismo trebali prodati u godini dana (ne boduje se)?"
+>>>>>>> upstream/18.0
 =======
 "Koliko stolica mislite da bismo trebali prodati u godini dana (ne boduje se)?"
 >>>>>>> upstream/18.0
@@ -120221,7 +121249,11 @@ msgid "How many days is our money-back guarantee?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko dana traje naše jamstvo za povrat novca?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko dana traje naše jamstvo za povrat novca?"
 >>>>>>> upstream/18.0
@@ -120375,7 +121407,11 @@ msgid "How many orders did you pass during the last 6 months?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko ste narudžbi napravili u posljednjih 6 mjeseci?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko ste narudžbi napravili u posljednjih 6 mjeseci?"
 >>>>>>> upstream/18.0
@@ -120528,7 +121564,11 @@ msgid "How many times did you order products on our website?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko ste puta naručili proizvode na našoj web-stranici?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko ste puta naručili proizvode na našoj web-stranici?"
 >>>>>>> upstream/18.0
@@ -120681,7 +121721,11 @@ msgid "How many versions of the Corner Desk do we have?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko verzija kutnog stola imamo?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko verzija kutnog stola imamo?"
 >>>>>>> upstream/18.0
@@ -120834,7 +121878,11 @@ msgid "How many years did the 100 years war last?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koliko je godina trajao Stogodišnji rat?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koliko je godina trajao Stogodišnji rat?"
 >>>>>>> upstream/18.0
@@ -120987,7 +122035,11 @@ msgid "How much do we sell our Cable Management Box?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Po kojoj cijeni prodajemo našu kutiju za organizaciju kabela?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Po kojoj cijeni prodajemo našu kutiju za organizaciju kabela?"
 >>>>>>> upstream/18.0
@@ -121153,6 +122205,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zapravo ne volim razmišljati. Mislim da ljudi misle da volim puno "
+"razmišljati. Ali ne volim. Uopće ne volim razmišljati."
+>>>>>>> upstream/18.0
 =======
 "Zapravo ne volim razmišljati. Mislim da ljudi misle da volim puno "
 "razmišljati. Ali ne volim. Uopće ne volim razmišljati."
@@ -121345,6 +122402,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Fasciniran sam zrakom. Ako bi uklonili zrak s neba, sve bi ptice pale na "
+"tlo. I svi avioni, također."
+>>>>>>> upstream/18.0
 =======
 "Fasciniran sam zrakom. Ako bi uklonili zrak s neba, sve bi ptice pale na "
 "tlo. I svi avioni, također."
@@ -121544,7 +122606,11 @@ msgid "I've been noticing gravity since I was very young!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primjećujem gravitaciju od ranog djetinjstva!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primjećujem gravitaciju od ranog djetinjstva!"
 >>>>>>> upstream/18.0
@@ -121727,6 +122793,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je odabrano \"Broj\", prikazat će se broj odgovorenih pitanja u odnosu "
+"na ukupan broj pitanja."
+>>>>>>> upstream/18.0
 =======
 "Ako je odabrano \"Broj\", prikazat će se broj odgovorenih pitanja u odnosu "
 "na ukupan broj pitanja."
@@ -121919,6 +122990,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako kupac kupi jednogodišnje jamstvo 6. siječnja 2020., kada očekujemo da "
+"jamstvo istječe?"
+>>>>>>> upstream/18.0
 =======
 "Ako kupac kupi jednogodišnje jamstvo 6. siječnja 2020., kada očekujemo da "
 "jamstvo istječe?"
@@ -122111,6 +123187,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako kupac kupi proizvod 6. siječnja 2020., koji je najkasniji dan kada "
+"očekujemo otpremu?"
+>>>>>>> upstream/18.0
 =======
 "Ako kupac kupi proizvod 6. siječnja 2020., koji je najkasniji dan kada "
 "očekujemo otpremu?"
@@ -122316,6 +123397,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je označeno, ova opcija spremit će korisnikov odgovor kao njegovu e-mail "
+"adresu."
+>>>>>>> upstream/18.0
 =======
 "Ako je označeno, ova opcija spremit će korisnikov odgovor kao njegovu e-mail "
 "adresu."
@@ -122506,6 +123592,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je označeno, ova opcija spremit će korisnikov odgovor kao njegov nadimak."
+>>>>>>> upstream/18.0
 =======
 "Ako je označeno, ova opcija spremit će korisnikov odgovor kao njegov nadimak."
 >>>>>>> upstream/18.0
@@ -122658,7 +123748,11 @@ msgid "If checked, users can go back to previous pages."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako je označeno, korisnici se mogu vratiti na prethodne stranice."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ako je označeno, korisnici se mogu vratiti na prethodne stranice."
 >>>>>>> upstream/18.0
@@ -122814,6 +123908,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je označeno, korisnici se moraju prijaviti prije odgovaranja čak i s "
+"valjanim tokenom."
+>>>>>>> upstream/18.0
 =======
 "Ako je označeno, korisnici se moraju prijaviti prije odgovaranja čak i s "
 "valjanim tokenom."
@@ -123012,6 +124111,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je odabrano nasumično, dodajte broj nasumičnih pitanja pored sekcije."
+>>>>>>> upstream/18.0
 =======
 "Ako je odabrano nasumično, dodajte broj nasumičnih pitanja pored sekcije."
 >>>>>>> upstream/18.0
@@ -123167,6 +124270,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ako je odabrano nasumično, možete konfigurirati broj nasumičnih pitanja po "
+"sekciji. Ovaj način zanemaruje se u živoj sesiji."
+>>>>>>> upstream/18.0
 =======
 "Ako je odabrano nasumično, možete konfigurirati broj nasumičnih pitanja po "
 "sekciji. Ovaj način zanemaruje se u živoj sesiji."
@@ -123356,7 +124464,11 @@ msgid "If yes, explain what you think is missing, give examples."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ako da, objasnite što mislite da nedostaje, navedite primjere."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ako da, objasnite što mislite da nedostaje, navedite primjere."
 >>>>>>> upstream/18.0
@@ -123748,7 +124860,11 @@ msgid "Image Filename"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ime datoteke slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ime datoteke slike"
 >>>>>>> upstream/18.0
@@ -124601,7 +125717,11 @@ msgid "Image Zoom Dialog"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dijalog uvećanja slike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dijalog uvećanja slike"
 >>>>>>> upstream/18.0
@@ -124754,7 +125874,11 @@ msgid "Imhotep"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Imhotep"
+>>>>>>> upstream/18.0
 =======
 msgstr "Imhotep"
 >>>>>>> upstream/18.0
@@ -124907,7 +126031,11 @@ msgid "Impractical"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nepraktično"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nepraktično"
 >>>>>>> upstream/18.0
@@ -125040,6 +126168,7 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__is_scored_question
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126163,6 +127292,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Include this question as part of quiz scoring. Requires an answer and answer "
 "score to be taken into account."
 msgstr ""
@@ -126204,6 +127335,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -126326,7 +127460,11 @@ msgid "Ineffective"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neučinkovito"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neučinkovito"
 >>>>>>> upstream/18.0
@@ -126712,7 +127850,11 @@ msgid "Input must be an email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Unos mora biti e-pošta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Unos mora biti e-pošta"
 >>>>>>> upstream/18.0
@@ -127565,7 +128707,11 @@ msgid "Integer updating comparison flag"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka za ažuriranje usporedbe (cijeli broj)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka za ažuriranje usporedbe (cijeli broj)"
 >>>>>>> upstream/18.0
@@ -127951,7 +129097,11 @@ msgid "Invite token"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token za poziv"
+>>>>>>> upstream/18.0
 =======
 msgstr "Token za poziv"
 >>>>>>> upstream/18.0
@@ -129053,7 +130203,11 @@ msgid "Is a Certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je certifikat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je certifikat"
 >>>>>>> upstream/18.0
@@ -130138,7 +131292,11 @@ msgid "Is a page?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je li stranica?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je li stranica?"
 >>>>>>> upstream/18.0
@@ -131223,7 +132381,11 @@ msgid "Is in a Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je u sesiji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je u sesiji"
 >>>>>>> upstream/18.0
@@ -132075,7 +133237,11 @@ msgid "Is misplaced?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je li krivo postavljeno?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Je li krivo postavljeno?"
 >>>>>>> upstream/18.0
@@ -132461,7 +133627,11 @@ msgid "Is not a Certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije certifikat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije certifikat"
 >>>>>>> upstream/18.0
@@ -133313,7 +134483,11 @@ msgid "Is that user input part of a survey session or not."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Je li korisnički unos dio sesije ankete ili nije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Je li korisnički unos dio sesije ankete ili nije."
 >>>>>>> upstream/18.0
@@ -133472,6 +134646,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Je li ovo pitanje postavljeno prije bilo kojeg od svojih okidajućih pitanja?"
+>>>>>>> upstream/18.0
 =======
 "Je li ovo pitanje postavljeno prije bilo kojeg od svojih okidajućih pitanja?"
 >>>>>>> upstream/18.0
@@ -133624,7 +134802,11 @@ msgid "Istanbul"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Istanbul"
+>>>>>>> upstream/18.0
 =======
 msgstr "Istanbul"
 >>>>>>> upstream/18.0
@@ -133777,7 +134959,11 @@ msgid "It depends"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovisi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovisi"
 >>>>>>> upstream/18.0
@@ -133931,7 +135117,11 @@ msgid "It does not mean anything specific"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne znači ništa posebno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne znači ništa posebno"
 >>>>>>> upstream/18.0
@@ -134085,7 +135275,11 @@ msgid "It helps attendees focus on what you are saying"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pomaže sudionicima da se usredotoče na ono što govorite"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pomaže sudionicima da se usredotoče na ono što govorite"
 >>>>>>> upstream/18.0
@@ -134239,7 +135433,11 @@ msgid "It helps attendees remember the content of your presentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pomaže sudionicima da zapamte sadržaj Vaše prezentacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pomaže sudionicima da zapamte sadržaj Vaše prezentacije"
 >>>>>>> upstream/18.0
@@ -134394,6 +135592,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"To je mali dio teksta koji se prikazuje kako bi pomogao sudionicima u "
+"odgovaranju"
+>>>>>>> upstream/18.0
 =======
 "To je mali dio teksta koji se prikazuje kako bi pomogao sudionicima u "
 "odgovaranju"
@@ -134584,7 +135787,11 @@ msgid "It is an option that can be different for each Survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To je opcija koja može biti različita za svaku anketu"
+>>>>>>> upstream/18.0
 =======
 msgstr "To je opcija koja može biti različita za svaku anketu"
 >>>>>>> upstream/18.0
@@ -134737,7 +135944,11 @@ msgid "It is easy to find the product that I want"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Lako je pronaći proizvod koji želim"
+>>>>>>> upstream/18.0
 =======
 msgstr "Lako je pronaći proizvod koji želim"
 >>>>>>> upstream/18.0
@@ -134891,7 +136102,11 @@ msgid "It is more engaging for your audience"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zanimljivije je za Vašu publiku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zanimljivije je za Vašu publiku"
 >>>>>>> upstream/18.0
@@ -135045,7 +136260,11 @@ msgid "It's a Belgian word for \"Management\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To je belgijska riječ za \"Upravljanje\""
+>>>>>>> upstream/18.0
 =======
 msgstr "To je belgijska riječ za \"Upravljanje\""
 >>>>>>> upstream/18.0
@@ -135206,6 +136425,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nikada zapravo nisam želio ići u Japan. Jednostavno zato što ne volim jesti "
+"ribu. A znam da je to vrlo popularno tamo u Africi."
+>>>>>>> upstream/18.0
 =======
 "Nikada zapravo nisam želio ići u Japan. Jednostavno zato što ne volim jesti "
 "ribu. A znam da je to vrlo popularno tamo u Africi."
@@ -135400,7 +136624,11 @@ msgid "Join Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pridruži se sesiji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pridruži se sesiji"
 >>>>>>> upstream/18.0
@@ -135558,7 +136786,11 @@ msgid "Kim Jong-hyun"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kim Jong-hyun"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kim Jong-hyun"
 >>>>>>> upstream/18.0
@@ -135711,7 +136943,11 @@ msgid "Kurt Cobain"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kurt Cobain"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kurt Cobain"
 >>>>>>> upstream/18.0
@@ -136102,7 +137338,11 @@ msgid "Label Sequence order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redoslijed oznaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redoslijed oznaka"
 >>>>>>> upstream/18.0
@@ -136954,7 +138194,11 @@ msgid "Labels used for proposed choices: rows of matrix"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznake korištene za predložene izbore: redovi matrice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznake korištene za predložene izbore: redovi matrice"
 >>>>>>> upstream/18.0
@@ -137070,6 +138314,7 @@ msgstr "Oznake korištene za predložene izbore: redovi matrice"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_question__suggested_answer_ids
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138193,6 +139438,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Labels used for proposed choices: simple choice, multiple choice and columns "
 "of matrix"
 msgstr ""
@@ -138234,6 +139481,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -138611,7 +139861,11 @@ msgid "Last displayed question/page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zadnje prikazano pitanje/stranica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zadnje prikazano pitanje/stranica"
 >>>>>>> upstream/18.0
@@ -139468,7 +140722,11 @@ msgid "Launch Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokreni sesiju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokreni sesiju"
 >>>>>>> upstream/18.0
@@ -139622,7 +140880,11 @@ msgid "Leaderboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ljestvica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ljestvica"
 >>>>>>> upstream/18.0
@@ -139791,7 +141053,11 @@ msgid "Let's get started!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Počnimo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Počnimo!"
 >>>>>>> upstream/18.0
@@ -139945,7 +141211,11 @@ msgid "Let's give it a spin!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokušajmo!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokušajmo!"
 >>>>>>> upstream/18.0
@@ -140099,7 +141369,11 @@ msgid "Let's have a look at your answers!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogledajmo Vaše odgovore!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pogledajmo Vaše odgovore!"
 >>>>>>> upstream/18.0
@@ -140253,7 +141527,11 @@ msgid "Let's open the survey you just submitted."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvorimo anketu koju ste upravo poslali."
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvorimo anketu koju ste upravo poslali."
 >>>>>>> upstream/18.0
@@ -140407,7 +141685,11 @@ msgid "Likely"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vjerojatno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vjerojatno"
 >>>>>>> upstream/18.0
@@ -140793,7 +142075,11 @@ msgid "Limit Attempts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograničite pokušaje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ograničite pokušaje"
 >>>>>>> upstream/18.0
@@ -141879,7 +143165,11 @@ msgid "Limited number of attempts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograničen broj pokušaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ograničen broj pokušaja"
 >>>>>>> upstream/18.0
@@ -142967,7 +144257,11 @@ msgid "Live Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija uživo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesija uživo"
 >>>>>>> upstream/18.0
@@ -143819,7 +145113,11 @@ msgid "Live Session available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uživo sesija dostupna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uživo sesija dostupna"
 >>>>>>> upstream/18.0
@@ -144205,7 +145503,11 @@ msgid "Live Sessions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesije uživo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesije uživo"
 >>>>>>> upstream/18.0
@@ -145290,7 +146592,11 @@ msgid "Live session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija uživo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesija uživo"
 >>>>>>> upstream/18.0
@@ -146375,7 +147681,11 @@ msgid "Live session available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija uživo dostupna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesija uživo dostupna"
 >>>>>>> upstream/18.0
@@ -147228,7 +148538,11 @@ msgid "Load a <b>sample Survey</b> to get started quickly."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Učitajte <b>uzorak ankete</b> za brzi početak."
+>>>>>>> upstream/18.0
 =======
 msgstr "Učitajte <b>uzorak ankete</b> za brzi početak."
 >>>>>>> upstream/18.0
@@ -147402,7 +148716,11 @@ msgid "Matrix Rows"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Redovi matrice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Redovi matrice"
 >>>>>>> upstream/18.0
@@ -147788,7 +149106,11 @@ msgid "Matrix Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta matrice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta matrice"
 >>>>>>> upstream/18.0
@@ -148646,6 +149968,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Najveći datum i vrijeme ne može biti manji od najmanjeg datuma i vremena!"
+>>>>>>> upstream/18.0
 =======
 "Najveći datum i vrijeme ne može biti manji od najmanjeg datuma i vremena!"
 >>>>>>> upstream/18.0
@@ -149052,7 +150378,11 @@ msgid "Maximum Datetime"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najkasniji datum i vrijeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najkasniji datum i vrijeme"
 >>>>>>> upstream/18.0
@@ -149909,7 +151239,11 @@ msgid "Maximum obtainable score"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimalan mogući rezultat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksimalan mogući rezultat"
 >>>>>>> upstream/18.0
@@ -150067,7 +151401,11 @@ msgid "Maybe you were looking for"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Možda ste tražili"
+>>>>>>> upstream/18.0
 =======
 msgstr "Možda ste tražili"
 >>>>>>> upstream/18.0
@@ -150232,7 +151570,11 @@ msgid "Min/Max Limits"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Min/Max ograničenja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Min/Max ograničenja"
 >>>>>>> upstream/18.0
@@ -150547,7 +151889,11 @@ msgid "Minimum"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minimalno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minimalno"
 >>>>>>> upstream/18.0
@@ -151421,7 +152767,11 @@ msgid "Minimum Datetime"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najraniji datum i vrijeme"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najraniji datum i vrijeme"
 >>>>>>> upstream/18.0
@@ -152516,7 +153866,11 @@ msgid "Modern Blue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderna plava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderna plava"
 >>>>>>> upstream/18.0
@@ -153601,7 +154955,11 @@ msgid "Modern Gold"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderna zlatna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderna zlatna"
 >>>>>>> upstream/18.0
@@ -154686,7 +156044,11 @@ msgid "Modern Purple"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Moderna ljubičasta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Moderna ljubičasta"
 >>>>>>> upstream/18.0
@@ -155543,7 +156905,11 @@ msgid "Mount Elbrus (Russia)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mount Elbrus (Russia)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mount Elbrus (Russia)"
 >>>>>>> upstream/18.0
@@ -155696,7 +157062,11 @@ msgid "Mount Etna (Italy - Sicily)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mount Etna (Italy - Sicily)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mount Etna (Italy - Sicily)"
 >>>>>>> upstream/18.0
@@ -155849,7 +157219,11 @@ msgid "Mount Teide (Spain - Tenerife)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Mount Teide (Spain - Tenerife)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Mount Teide (Spain - Tenerife)"
 >>>>>>> upstream/18.0
@@ -156240,7 +157614,11 @@ msgid "Multiple Lines Text Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekstualno polje s više redaka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tekstualno polje s više redaka"
 >>>>>>> upstream/18.0
@@ -157092,7 +158470,11 @@ msgid "Multiple choice with multiple answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Višestruki izbor s više odgovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Višestruki izbor s više odgovora"
 >>>>>>> upstream/18.0
@@ -157245,7 +158627,11 @@ msgid "Multiple choice with one answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Višestruki izbor s jednim odgovorom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Višestruki izbor s jednim odgovorom"
 >>>>>>> upstream/18.0
@@ -157419,7 +158805,11 @@ msgid "MyCompany Vendor"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MyCompany Vendor"
+>>>>>>> upstream/18.0
 =======
 msgstr "MyCompany Vendor"
 >>>>>>> upstream/18.0
@@ -157572,7 +158962,11 @@ msgid "MyCompany Vendor Certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "MyCompany Vendor Certification"
+>>>>>>> upstream/18.0
 =======
 msgstr "MyCompany Vendor Certification"
 >>>>>>> upstream/18.0
@@ -157745,7 +159139,11 @@ msgid "Neutral"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neutralno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neutralno"
 >>>>>>> upstream/18.0
@@ -157953,7 +159351,11 @@ msgid "Never (less than once a month)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nikad (manje od jednom mjesečno)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nikad (manje od jednom mjesečno)"
 >>>>>>> upstream/18.0
@@ -158112,7 +159514,11 @@ msgid "New York"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "New York"
+>>>>>>> upstream/18.0
 =======
 msgstr "New York"
 >>>>>>> upstream/18.0
@@ -158265,7 +159671,11 @@ msgid "New invite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nova pozivnica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nova pozivnica"
 >>>>>>> upstream/18.0
@@ -158418,7 +159828,11 @@ msgid "New participation completed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novo sudjelovanje završeno."
+>>>>>>> upstream/18.0
 =======
 msgstr "Novo sudjelovanje završeno."
 >>>>>>> upstream/18.0
@@ -158602,7 +160016,11 @@ msgid "Next Skipped"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sljedeće preskočeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sljedeće preskočeno"
 >>>>>>> upstream/18.0
@@ -158988,7 +160406,11 @@ msgid "Nickname"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadimak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nadimak"
 >>>>>>> upstream/18.0
@@ -159848,7 +161270,11 @@ msgid "No Questions yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema pitanja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema pitanja!"
 >>>>>>> upstream/18.0
@@ -160001,7 +161427,11 @@ msgid "No Survey Found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nije pronađena anketa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nije pronađena anketa"
 >>>>>>> upstream/18.0
@@ -160388,7 +161818,11 @@ msgid "No answers yet!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema odgovora!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema odgovora!"
 >>>>>>> upstream/18.0
@@ -161241,7 +162675,11 @@ msgid "No attempts left."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema više pokušaja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema više pokušaja."
 >>>>>>> upstream/18.0
@@ -161394,7 +162832,11 @@ msgid "No question yet, come back later."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Još nema pitanja, vratite se kasnije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Još nema pitanja, vratite se kasnije."
 >>>>>>> upstream/18.0
@@ -161780,7 +163222,11 @@ msgid "No scoring"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nema bodovanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nema bodovanja"
 >>>>>>> upstream/18.0
@@ -162632,7 +164078,11 @@ msgid "No survey labels found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nisu pronađene oznake ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nisu pronađene oznake ankete"
 >>>>>>> upstream/18.0
@@ -163018,7 +164468,11 @@ msgid "No user input lines found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nisu pronađene linije unosa korisnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nisu pronađene linije unosa korisnika"
 >>>>>>> upstream/18.0
@@ -163870,7 +165324,11 @@ msgid "No, it's too small for the human eye."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ne, previše je malen za ljudsko oko."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ne, previše je malen za ljudsko oko."
 >>>>>>> upstream/18.0
@@ -164033,7 +165491,11 @@ msgid "Not likely at all"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uopće nije vjerojatno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uopće nije vjerojatno"
 >>>>>>> upstream/18.0
@@ -164187,7 +165649,11 @@ msgid "Now that you are done, submit your form."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sada kada ste završili, pošaljite obrazac."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sada kada ste završili, pošaljite obrazac."
 >>>>>>> upstream/18.0
@@ -164341,7 +165807,11 @@ msgid "Now, use this shortcut to go back to the survey."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sada koristite ovaj prečac za povratak na anketu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sada koristite ovaj prečac za povratak na anketu."
 >>>>>>> upstream/18.0
@@ -164741,7 +166211,11 @@ msgid "Number of attempts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj pokušaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj pokušaja"
 >>>>>>> upstream/18.0
@@ -165593,7 +167067,11 @@ msgid "Number of drawers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj ladica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj ladica"
 >>>>>>> upstream/18.0
@@ -165775,7 +167253,11 @@ msgid "Object-Directed Open Organization"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvorena organizacija usmjerena na objekt"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvorena organizacija usmjerena na objekt"
 >>>>>>> upstream/18.0
@@ -165928,7 +167410,11 @@ msgid "Occurrence"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pojava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pojava"
 >>>>>>> upstream/18.0
@@ -166087,7 +167573,11 @@ msgid "Odoo Certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odoo Certification"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odoo Certification"
 >>>>>>> upstream/18.0
@@ -166258,7 +167748,11 @@ msgid "Office Chair Black"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uredska stolica crna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uredska stolica crna"
 >>>>>>> upstream/18.0
@@ -166466,7 +167960,11 @@ msgid "Often (1-3 times per week)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Često (1-3 puta tjedno)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Često (1-3 puta tjedno)"
 >>>>>>> upstream/18.0
@@ -166622,6 +168120,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Na pitanjima ankete, mogu se definirati \"rezervirana mjesta\". Ali čemu "
+"služe?"
+>>>>>>> upstream/18.0
 =======
 "Na pitanjima ankete, mogu se definirati \"rezervirana mjesta\". Ali čemu "
 "služe?"
@@ -166811,7 +168314,11 @@ msgid "Once a day"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jednom dnevno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jednom dnevno"
 >>>>>>> upstream/18.0
@@ -166965,7 +168472,11 @@ msgid "Once a month"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jednom mjesečno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jednom mjesečno"
 >>>>>>> upstream/18.0
@@ -167119,7 +168630,11 @@ msgid "Once a week"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jednom tjedno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jednom tjedno"
 >>>>>>> upstream/18.0
@@ -167272,7 +168787,11 @@ msgid "Once a year"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jednom godišnje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jednom godišnje"
 >>>>>>> upstream/18.0
@@ -167431,7 +168950,11 @@ msgid "One needs to answer at least half the questions correctly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Treba točno odgovoriti na barem polovicu pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Treba točno odgovoriti na barem polovicu pitanja"
 >>>>>>> upstream/18.0
@@ -167585,7 +169108,11 @@ msgid "One needs to get 50% of the total score"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Treba ostvariti 50% od ukupnog rezultata"
+>>>>>>> upstream/18.0
 =======
 msgstr "Treba ostvariti 50% od ukupnog rezultata"
 >>>>>>> upstream/18.0
@@ -167971,7 +169498,11 @@ msgid "One page per question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna stranica po pitanju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedna stranica po pitanju"
 >>>>>>> upstream/18.0
@@ -169056,7 +170587,11 @@ msgid "One page per section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna stranica po odjeljku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedna stranica po odjeljku"
 >>>>>>> upstream/18.0
@@ -170141,7 +171676,11 @@ msgid "One page with all the questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedna stranica sa svim pitanjima"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedna stranica sa svim pitanjima"
 >>>>>>> upstream/18.0
@@ -170994,7 +172533,11 @@ msgid "Only a single question left!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostalo je samo još jedno pitanje!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostalo je samo još jedno pitanje!"
 >>>>>>> upstream/18.0
@@ -171150,7 +172693,11 @@ msgid "Only show survey results having selected this answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži samo rezultate ankete koji su odabrali ovaj odgovor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži samo rezultate ankete koji su odabrali ovaj odgovor"
 >>>>>>> upstream/18.0
@@ -171304,7 +172851,11 @@ msgid "Only survey users can manage sessions."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo korisnici ankete mogu upravljati sesijama."
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo korisnici ankete mogu upravljati sesijama."
 >>>>>>> upstream/18.0
@@ -171457,7 +173008,11 @@ msgid "Oops! No survey matches this code."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ups! Niti jedna anketa ne odgovara ovom kodu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ups! Niti jedna anketa ne odgovara ovom kodu."
 >>>>>>> upstream/18.0
@@ -171573,6 +173128,7 @@ msgstr "Ups! Niti jedna anketa ne odgovara ovom kodu."
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_access_error
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172696,6 +174252,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Oopsie! We could not let you open this survey. Make sure you are using the "
 "correct link and are allowed to\n"
 "                        participate or get in touch with its organizer."
@@ -172739,6 +174297,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -172853,7 +174414,11 @@ msgid "Open Session Manager"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvori upravitelj sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvori upravitelj sesije"
 >>>>>>> upstream/18.0
@@ -173007,7 +174572,11 @@ msgid "Open section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Otvori sekciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Otvori sekciju"
 >>>>>>> upstream/18.0
@@ -173393,7 +174962,11 @@ msgid "Optional previous answers required"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Opcionalno potrebni prethodni odgovori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Opcionalno potrebni prethodni odgovori"
 >>>>>>> upstream/18.0
@@ -174210,6 +175783,7 @@ msgstr "Opcionalno potrebni prethodni odgovori"
 msgid ""
 "Optional translation language (ISO code) to select when sending out an "
 "email. If not set, the english version will be used. This should usually be "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175407,6 +176981,10 @@ msgid ""
 "a placeholder expression that provides the appropriate language, e.g. "
 "{{ object.partner_id.lang }}."
 >>>>>>> upstream/18.0
+=======
+"a placeholder expression that provides the appropriate language, e.g. "
+"{{ object.partner_id.lang }}."
+>>>>>>> upstream/18.0
 msgstr ""
 
 #. module: survey
@@ -175456,7 +177034,11 @@ msgid "Organizational Development for Operation Officers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Organizacijski razvoj za operativne djelatnike"
+>>>>>>> upstream/18.0
 =======
 msgstr "Organizacijski razvoj za operativne djelatnike"
 >>>>>>> upstream/18.0
@@ -175610,7 +177192,11 @@ msgid "Other (see comments)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ostalo (vidi komentare)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ostalo (vidi komentare)"
 >>>>>>> upstream/18.0
@@ -175731,6 +177317,7 @@ msgstr ""
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_invite__mail_server_id
 msgid "Outgoing mail server"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -176812,6 +178399,9 @@ msgstr "Poslužitelj odlazne e-pošte"
 =======
 msgstr "Poslužitelj odlazne e-pošte"
 >>>>>>> upstream/18.0
+=======
+msgstr "Poslužitelj odlazne e-pošte"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -176854,7 +178444,11 @@ msgid "Overall Performance"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukupna izvedba"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukupna izvedba"
 >>>>>>> upstream/18.0
@@ -177007,7 +178601,11 @@ msgid "Overpriced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preskupo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preskupo"
 >>>>>>> upstream/18.0
@@ -177403,7 +179001,11 @@ msgid "Pagination"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Raspored stranica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Raspored stranica"
 >>>>>>> upstream/18.0
@@ -178255,7 +179857,11 @@ msgid "Papyrus"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Papyrus"
+>>>>>>> upstream/18.0
 =======
 msgstr "Papyrus"
 >>>>>>> upstream/18.0
@@ -178411,7 +180017,11 @@ msgid "Partially"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Djelomično"
+>>>>>>> upstream/18.0
 =======
 msgstr "Djelomično"
 >>>>>>> upstream/18.0
@@ -178575,7 +180185,11 @@ msgid "Participate to %(survey_name)s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudjelujte u %(survey_name)s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sudjelujte u %(survey_name)s"
 >>>>>>> upstream/18.0
@@ -178961,7 +180575,11 @@ msgid "Participate to {{ object.survey_id.display_name }} survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudjelujte u {{ object.survey_id.display_name }} anketi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sudjelujte u {{ object.survey_id.display_name }} anketi"
 >>>>>>> upstream/18.0
@@ -179814,7 +181432,11 @@ msgid "Participation completed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudjelovanje završeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sudjelovanje završeno"
 >>>>>>> upstream/18.0
@@ -179967,7 +181589,11 @@ msgid "Participation completed."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudjelovanje završeno."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sudjelovanje završeno."
 >>>>>>> upstream/18.0
@@ -180355,7 +181981,11 @@ msgid "Participations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sudjelovanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sudjelovanja"
 >>>>>>> upstream/18.0
@@ -181218,7 +182848,11 @@ msgid "Passed and Failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uspjele i neuspjele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uspjele i neuspjele"
 >>>>>>> upstream/18.0
@@ -181371,7 +183005,11 @@ msgid "Passed only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo uspjele"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo uspjele"
 >>>>>>> upstream/18.0
@@ -181524,7 +183162,11 @@ msgid "Pay attention to the host screen until the next question."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obraćajte pozornost na zaslon voditelja do sljedećeg pitanja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Obraćajte pozornost na zaslon voditelja do sljedećeg pitanja."
 >>>>>>> upstream/18.0
@@ -181910,7 +183552,11 @@ msgid "Percentage left"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preostali postotak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preostali postotak"
 >>>>>>> upstream/18.0
@@ -182763,7 +184409,11 @@ msgid "Performance by Section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Izvedba po sekciji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Izvedba po sekciji"
 >>>>>>> upstream/18.0
@@ -182921,7 +184571,11 @@ msgid "Peter W. Higgs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Peter W. Higgs"
+>>>>>>> upstream/18.0
 =======
 msgstr "Peter W. Higgs"
 >>>>>>> upstream/18.0
@@ -183307,7 +184961,11 @@ msgid "Pick a Badge..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite značku..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite značku..."
 >>>>>>> upstream/18.0
@@ -184392,7 +186050,11 @@ msgid "Pick a Style..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite stil..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite stil..."
 >>>>>>> upstream/18.0
@@ -185477,7 +187139,11 @@ msgid "Pick a Template..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite predložak..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite predložak..."
 >>>>>>> upstream/18.0
@@ -186329,7 +187995,11 @@ msgid "Pick a subject"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite temu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite temu"
 >>>>>>> upstream/18.0
@@ -186485,6 +188155,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Odabir bilo kojeg od ovih odgovora aktivirat će ovo pitanje.\n"
+"Ostavite polje prazno ako se pitanje uvijek treba prikazivati."
+>>>>>>> upstream/18.0
 =======
 "Odabir bilo kojeg od ovih odgovora aktivirat će ovo pitanje.\n"
 "Ostavite polje prazno ako se pitanje uvijek treba prikazivati."
@@ -186648,6 +188323,7 @@ msgstr "Rezervirano"
 #. odoo-python
 #: code:addons/survey/models/survey_survey_template.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187771,6 +189447,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Please complete this very short survey to let us know how satisfied your are "
 "with our products."
 msgstr ""
@@ -187812,6 +189490,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -187927,7 +189608,11 @@ msgid "Please enter at least one valid recipient."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Molimo unesite barem jednog valjanog primatelja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Molimo unesite barem jednog valjanog primatelja."
 >>>>>>> upstream/18.0
@@ -188080,7 +189765,11 @@ msgid "Please give us your preferences for this event's dinner!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Molimo recite nam Vaše preferencije za večeru ovog događaja!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Molimo recite nam Vaše preferencije za večeru ovog događaja!"
 >>>>>>> upstream/18.0
@@ -188236,6 +189925,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Provjerite imate li barem jedno pitanje u anketi. Također Vam je potrebna "
+"barem jedna sekcija ako ste odabrali raspored \"Stranica po sekciji\".<br/>"
+>>>>>>> upstream/18.0
 =======
 "Provjerite imate li barem jedno pitanje u anketi. Također Vam je potrebna "
 "barem jedna sekcija ako ste odabrali raspored \"Stranica po sekciji\".<br/>"
@@ -188435,7 +190129,11 @@ msgid "Poor quality"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Loša kvaliteta"
+>>>>>>> upstream/18.0
 =======
 msgstr "Loša kvaliteta"
 >>>>>>> upstream/18.0
@@ -188589,7 +190287,11 @@ msgid "Practice in front of a mirror"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vježbajte ispred ogledala"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vježbajte ispred ogledala"
 >>>>>>> upstream/18.0
@@ -188975,7 +190677,11 @@ msgid "Predefined Questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Predefinirana pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Predefinirana pitanja"
 >>>>>>> upstream/18.0
@@ -190065,7 +191771,11 @@ msgid "Prices"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Cijene"
+>>>>>>> upstream/18.0
 =======
 msgstr "Cijene"
 >>>>>>> upstream/18.0
@@ -190923,7 +192633,11 @@ msgid "Print Results"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ispiši rezultate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ispiši rezultate"
 >>>>>>> upstream/18.0
@@ -191309,7 +193023,11 @@ msgid "Print Survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ispiši Anketu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ispiši Anketu"
 >>>>>>> upstream/18.0
@@ -192179,7 +193897,11 @@ msgid "Question & Pages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanja i stranice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pitanja i stranice"
 >>>>>>> upstream/18.0
@@ -192565,7 +194287,11 @@ msgid "Question (as matrix row)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanje (kao redak matrice)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pitanje (kao redak matrice)"
 >>>>>>> upstream/18.0
@@ -193417,7 +195143,11 @@ msgid "Question Answer Form"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Obrazac odgovora na pitanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Obrazac odgovora na pitanje"
 >>>>>>> upstream/18.0
@@ -193570,7 +195300,11 @@ msgid "Question Answers Count"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Broj odgovora na pitanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Broj odgovora na pitanje"
 >>>>>>> upstream/18.0
@@ -193957,7 +195691,11 @@ msgid "Question Selection"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odabir pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odabir pitanja"
 >>>>>>> upstream/18.0
@@ -194809,7 +196547,11 @@ msgid "Question Time Limit Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dosegnuto vremensko ograničenje pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dosegnuto vremensko ograničenje pitanja"
 >>>>>>> upstream/18.0
@@ -195196,7 +196938,11 @@ msgid "Question Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta pitanja"
 >>>>>>> upstream/18.0
@@ -196049,7 +197795,11 @@ msgid "Question type should be empty for these pages: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tip pitanja treba biti prazan za ove stranice: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tip pitanja treba biti prazan za ove stranice: %s"
 >>>>>>> upstream/18.0
@@ -196445,7 +198195,11 @@ msgid "Questions & Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanja & odgovori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pitanja & odgovori"
 >>>>>>> upstream/18.0
@@ -197299,7 +199053,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanja koja sadrže okidajuće odgovore za prikaz trenutnog pitanja."
+>>>>>>> upstream/18.0
 =======
 msgstr "Pitanja koja sadrže okidajuće odgovore za prikaz trenutnog pitanja."
 >>>>>>> upstream/18.0
@@ -197690,7 +199448,11 @@ msgid "Quizz Passed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz prošao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kviz prošao"
 >>>>>>> upstream/18.0
@@ -198775,7 +200537,11 @@ msgid "Quizz passed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kviz prošao"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kviz prošao"
 >>>>>>> upstream/18.0
@@ -199628,7 +201394,11 @@ msgid "Radio for Selection With Filter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Radio za odabir s filterom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Radio za odabir s filterom"
 >>>>>>> upstream/18.0
@@ -200014,7 +201784,11 @@ msgid "Randomized per Section"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nasumično po odjeljku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nasumično po odjeljku"
 >>>>>>> upstream/18.0
@@ -200867,7 +202641,11 @@ msgid "Rarely (1-3 times per month)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rijetko (1-3 puta mjesečno)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rijetko (1-3 puta mjesečno)"
 >>>>>>> upstream/18.0
@@ -201032,7 +202810,11 @@ msgid "Ready to change the way you <b>gather data</b>?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremni promijeniti način na koji <b>prikupljate podatke</b>?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremni promijeniti način na koji <b>prikupljate podatke</b>?"
 >>>>>>> upstream/18.0
@@ -201196,7 +202978,11 @@ msgid "Red Pen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Crvena olovka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Crvena olovka"
 >>>>>>> upstream/18.0
@@ -201584,7 +203370,11 @@ msgid "Registered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Registriran"
+=======
+msgstr "Registrirano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Registrirano"
 >>>>>>> upstream/18.0
@@ -202680,7 +204470,11 @@ msgid "Require Login"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potrebna prijava"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potrebna prijava"
 >>>>>>> upstream/18.0
@@ -203765,7 +205559,11 @@ msgid "Required Score (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Potreban rezultat (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Potreban rezultat (%)"
 >>>>>>> upstream/18.0
@@ -204617,7 +206415,11 @@ msgid "Resend Comment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno pošalji komentar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponovno pošalji komentar"
 >>>>>>> upstream/18.0
@@ -204770,7 +206572,11 @@ msgid "Resend Invitation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno pošalji pozivnicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponovno pošalji pozivnicu"
 >>>>>>> upstream/18.0
@@ -204923,7 +206729,11 @@ msgid "Resend invite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno pošalji pozivnicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponovno pošalji pozivnicu"
 >>>>>>> upstream/18.0
@@ -205321,7 +207131,11 @@ msgid "Restricted to"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ograničeno na"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ograničeno na"
 >>>>>>> upstream/18.0
@@ -206178,6 +207992,7 @@ msgid "Review your answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 
 #. module: survey
@@ -206912,6 +208727,11 @@ msgstr "Nagradi brze odgovore"
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+msgstr "Pregledajte svoje odgovore"
+
+#. module: survey
 >>>>>>> upstream/18.0
 =======
 msgstr "Pregledajte svoje odgovore"
@@ -207340,6 +209160,9 @@ msgstr "Nagradi brze odgovore"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -208096,7 +209919,11 @@ msgid "Row answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Red odgovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Red odgovora"
 >>>>>>> upstream/18.0
@@ -209212,7 +211039,11 @@ msgid "Save as user email"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremi kao korisnički e-mail"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremi kao korisnički e-mail"
 >>>>>>> upstream/18.0
@@ -210297,7 +212128,11 @@ msgid "Save as user nickname"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Spremi kao korisnički nadimak"
+>>>>>>> upstream/18.0
 =======
 msgstr "Spremi kao korisnički nadimak"
 >>>>>>> upstream/18.0
@@ -211388,7 +213223,11 @@ msgid "Scale Maximum Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka maksimalne vrijednosti skale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka maksimalne vrijednosti skale"
 >>>>>>> upstream/18.0
@@ -212473,7 +214312,11 @@ msgid "Scale Maximum Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Maksimalna vrijednost skale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Maksimalna vrijednost skale"
 >>>>>>> upstream/18.0
@@ -213325,7 +215168,11 @@ msgid "Scale Maximum Value (0 to 10)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najveća vrijednost skale (0 do 10)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najveća vrijednost skale (0 do 10)"
 >>>>>>> upstream/18.0
@@ -213711,7 +215558,11 @@ msgid "Scale Middle Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Srednja oznaka skale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Srednja oznaka skale"
 >>>>>>> upstream/18.0
@@ -214796,7 +216647,11 @@ msgid "Scale Minimum Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka minimalne vrijednosti skale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka minimalne vrijednosti skale"
 >>>>>>> upstream/18.0
@@ -215881,7 +217736,11 @@ msgid "Scale Minimum Value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Minimalna vrijednost skale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Minimalna vrijednost skale"
 >>>>>>> upstream/18.0
@@ -216733,7 +218592,11 @@ msgid "Scale Minimum Value (0 to 10)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najmanja vrijednost skale (0 do 10)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najmanja vrijednost skale (0 do 10)"
 >>>>>>> upstream/18.0
@@ -217119,7 +218982,11 @@ msgid "Scale value"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijednost ljestvice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrijednost ljestvice"
 >>>>>>> upstream/18.0
@@ -217972,7 +219839,11 @@ msgid "Sciences"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Znanosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Znanosti"
 >>>>>>> upstream/18.0
@@ -218368,7 +220239,11 @@ msgid "Score (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Rezultat (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Rezultat (%)"
 >>>>>>> upstream/18.0
@@ -219220,7 +221095,11 @@ msgid "Score value for a correct answer to this question."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijednost boda za točan odgovor na ovo pitanje."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrijednost boda za točan odgovor na ovo pitanje."
 >>>>>>> upstream/18.0
@@ -219373,7 +221252,11 @@ msgid "Scored"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovano"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bodovano"
 >>>>>>> upstream/18.0
@@ -219760,7 +221643,11 @@ msgid "Scoring"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bodovanje"
 >>>>>>> upstream/18.0
@@ -220846,7 +222733,11 @@ msgid "Scoring Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta bodovanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta bodovanja"
 >>>>>>> upstream/18.0
@@ -221931,7 +223822,11 @@ msgid "Scoring with answers after each page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje s odgovorima nakon svake stranice"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bodovanje s odgovorima nakon svake stranice"
 >>>>>>> upstream/18.0
@@ -223016,7 +224911,11 @@ msgid "Scoring with answers at the end"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje s odgovorima na kraju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bodovanje s odgovorima na kraju"
 >>>>>>> upstream/18.0
@@ -224101,7 +226000,11 @@ msgid "Scoring without answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Bodovanje bez odgovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Bodovanje bez odgovora"
 >>>>>>> upstream/18.0
@@ -224953,7 +226856,11 @@ msgid "Search Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraži oznaku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretraži oznaku"
 >>>>>>> upstream/18.0
@@ -225111,7 +227018,11 @@ msgid "Search Survey User Inputs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraži korisničke unose ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretraži korisničke unose ankete"
 >>>>>>> upstream/18.0
@@ -225264,7 +227175,11 @@ msgid "Search User input lines"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pretraži stavke korisničkih unosa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pretraži stavke korisničkih unosa"
 >>>>>>> upstream/18.0
@@ -225423,7 +227338,11 @@ msgid "Sections and Questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sekcije i pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sekcije i pitanja"
 >>>>>>> upstream/18.0
@@ -225810,7 +227729,11 @@ msgid "See results"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pogledajte rezultate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pogledajte rezultate"
 >>>>>>> upstream/18.0
@@ -226662,7 +228585,11 @@ msgid "See you soon!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vidimo se uskoro!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vidimo se uskoro!"
 >>>>>>> upstream/18.0
@@ -226815,7 +228742,11 @@ msgid "Select all the available customizations for our Customizable Desk"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite sve dostupne prilagodbe za naš prilagodljivi stol"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite sve dostupne prilagodbe za naš prilagodljivi stol"
 >>>>>>> upstream/18.0
@@ -226968,7 +228899,11 @@ msgid "Select all the existing products"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite sve postojeće proizvode"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite sve postojeće proizvode"
 >>>>>>> upstream/18.0
@@ -227121,7 +229056,11 @@ msgid "Select all the products that sell for $100 or more"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odaberite sve proizvode koji se prodaju za $100 ili više"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odaberite sve proizvode koji se prodaju za $100 ili više"
 >>>>>>> upstream/18.0
@@ -227294,7 +229233,11 @@ msgid "Sent to participant if they succeeded the certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano sudioniku ako je uspješno položio certifikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslano sudioniku ako je uspješno položio certifikaciju"
 >>>>>>> upstream/18.0
@@ -227447,7 +229390,11 @@ msgid "Sent to participant when you share a survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poslano sudioniku kada dijelite anketu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslano sudioniku kada dijelite anketu"
 >>>>>>> upstream/18.0
@@ -227839,7 +229786,11 @@ msgid "Session Code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Šifra sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Šifra sesije"
 >>>>>>> upstream/18.0
@@ -228691,7 +230642,11 @@ msgid "Session Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poveznica sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poveznica sesije"
 >>>>>>> upstream/18.0
@@ -229077,7 +231032,11 @@ msgid "Session State"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stanje sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stanje sesije"
 >>>>>>> upstream/18.0
@@ -229929,7 +231888,11 @@ msgid "Session code should be unique"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod sesije mora biti jedinstven"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod sesije mora biti jedinstven"
 >>>>>>> upstream/18.0
@@ -230082,7 +232045,11 @@ msgid "Shanghai"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Shanghai"
+>>>>>>> upstream/18.0
 =======
 msgstr "Shanghai"
 >>>>>>> upstream/18.0
@@ -230475,7 +232442,11 @@ msgid "Share a Survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podijelite anketu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Podijelite anketu"
 >>>>>>> upstream/18.0
@@ -231338,7 +233309,11 @@ msgid "Show Correct Answer(s)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži točne odgovore"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži točne odgovore"
 >>>>>>> upstream/18.0
@@ -231492,7 +233467,11 @@ msgid "Show Final Leaderboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži završnu ljestvicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži završnu ljestvicu"
 >>>>>>> upstream/18.0
@@ -231646,7 +233625,11 @@ msgid "Show Leaderboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži ljestvicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži ljestvicu"
 >>>>>>> upstream/18.0
@@ -231800,7 +233783,11 @@ msgid "Show Results"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži rezultate"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži rezultate"
 >>>>>>> upstream/18.0
@@ -231953,7 +233940,11 @@ msgid "Show Session Leaderboard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prikaži ljestvicu sesije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prikaži ljestvicu sesije"
 >>>>>>> upstream/18.0
@@ -232112,7 +234103,11 @@ msgid "Show them slides with a ton of text they need to read fast"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokažite im slajdove s hrpom teksta koji moraju brzo pročitati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokažite im slajdove s hrpom teksta koji moraju brzo pročitati"
 >>>>>>> upstream/18.0
@@ -232498,7 +234493,11 @@ msgid "Single Line Text Box"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tekstni okvir s jednim redom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tekstni okvir s jednim redom"
 >>>>>>> upstream/18.0
@@ -233586,7 +235585,11 @@ msgid "Skipped"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preskočeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preskočeno"
 >>>>>>> upstream/18.0
@@ -234444,7 +236447,11 @@ msgid "Some emails you just entered are incorrect: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Neki e-mailovi koje ste upravo unijeli su neispravni: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Neki e-mailovi koje ste upravo unijeli su neispravni: %s"
 >>>>>>> upstream/18.0
@@ -234610,7 +236617,11 @@ msgid "Someone just participated in \"%(survey_title)s\"."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Netko je upravo sudjelovao u \"%(survey_title)s\"."
+>>>>>>> upstream/18.0
 =======
 msgstr "Netko je upravo sudjelovao u \"%(survey_title)s\"."
 >>>>>>> upstream/18.0
@@ -234763,7 +236774,11 @@ msgid "Sorry, no one answered this survey yet."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nažalost, nitko još nije odgovorio na ovu anketu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nažalost, nitko još nije odgovorio na ovu anketu."
 >>>>>>> upstream/18.0
@@ -234916,7 +236931,11 @@ msgid "Sorry, you have not been fast enough."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nažalost, niste bili dovoljno brzi."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nažalost, niste bili dovoljno brzi."
 >>>>>>> upstream/18.0
@@ -235090,7 +237109,11 @@ msgid "South America"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Južna Amerika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Južna Amerika"
 >>>>>>> upstream/18.0
@@ -235317,7 +237340,11 @@ msgid "Speak softly so that they need to focus to hear you"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Govorite tiho kako bi se morali usredotočiti da Vas čuju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Govorite tiho kako bi se morali usredotočiti da Vas čuju"
 >>>>>>> upstream/18.0
@@ -235471,7 +237498,11 @@ msgid "Speak too fast"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Govoriti prebrzo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Govoriti prebrzo"
 >>>>>>> upstream/18.0
@@ -235636,7 +237667,11 @@ msgid "Start Certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Započni certifikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Započni certifikaciju"
 >>>>>>> upstream/18.0
@@ -236022,7 +238057,11 @@ msgid "Start Live Session"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokrenite sesiju uživo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokrenite sesiju uživo"
 >>>>>>> upstream/18.0
@@ -237112,7 +239151,11 @@ msgid "Start date and time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Datum i vrijeme početka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Datum i vrijeme početka"
 >>>>>>> upstream/18.0
@@ -237983,7 +240026,11 @@ msgid "Steak with french fries"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odrezak s pomfritom"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odrezak s pomfritom"
 >>>>>>> upstream/18.0
@@ -238394,7 +240441,11 @@ msgid "Success Ratio (%)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postotak uspješnosti (%)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postotak uspješnosti (%)"
 >>>>>>> upstream/18.0
@@ -239246,7 +241297,11 @@ msgid "Success rate"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stopa uspjeha"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stopa uspjeha"
 >>>>>>> upstream/18.0
@@ -239633,7 +241688,11 @@ msgid "Suggested Values"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Preporučene vrijednosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Preporučene vrijednosti"
 >>>>>>> upstream/18.0
@@ -240493,6 +242552,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vrijednost predloženog odgovora ne smije biti prazna (potrebno je navesti "
+"tekst i/ili sliku)."
+>>>>>>> upstream/18.0
 =======
 "Vrijednost predloženog odgovora ne smije biti prazna (potrebno je navesti "
 "tekst i/ili sliku)."
@@ -240716,7 +242780,11 @@ msgid "Survey Access Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Greška pristupa anketi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Greška pristupa anketi"
 >>>>>>> upstream/18.0
@@ -241107,7 +243175,11 @@ msgid "Survey First Submitted"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prvo predavanje upitnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prvo predavanje upitnika"
 >>>>>>> upstream/18.0
@@ -241959,7 +244031,11 @@ msgid "Survey Ids"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID-evi ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID-evi ankete"
 >>>>>>> upstream/18.0
@@ -242112,7 +244188,11 @@ msgid "Survey Invitation Wizard"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čarobnjak za pozivnice ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Čarobnjak za pozivnice ankete"
 >>>>>>> upstream/18.0
@@ -242271,7 +244351,11 @@ msgid "Survey Link"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Poveznica ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poveznica ankete"
 >>>>>>> upstream/18.0
@@ -242670,7 +244754,11 @@ msgid "Survey Time Limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremensko ograničenje ankete"
 >>>>>>> upstream/18.0
@@ -243755,7 +245843,11 @@ msgid "Survey Time Limit Reached"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dosegnuto je vremensko ograničenje ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dosegnuto je vremensko ograničenje ankete"
 >>>>>>> upstream/18.0
@@ -244845,7 +246937,11 @@ msgid "Survey Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrsta upitnika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrsta upitnika"
 >>>>>>> upstream/18.0
@@ -245697,7 +247793,11 @@ msgid "Survey URL"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "URL ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "URL ankete"
 >>>>>>> upstream/18.0
@@ -245855,7 +247955,11 @@ msgid "Survey User Input Line"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Stavka korisničkog unosa ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Stavka korisničkog unosa ankete"
 >>>>>>> upstream/18.0
@@ -246009,7 +248113,11 @@ msgid "Survey User inputs"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnički unosi ankete"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnički unosi ankete"
 >>>>>>> upstream/18.0
@@ -246162,7 +248270,11 @@ msgid "Survey: Certification Success"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anketa: Uspjeh certifikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anketa: Uspjeh certifikacije"
 >>>>>>> upstream/18.0
@@ -246315,7 +248427,11 @@ msgid "Survey: Invite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anketa: Pozivnica"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anketa: Pozivnica"
 >>>>>>> upstream/18.0
@@ -246475,7 +248591,11 @@ msgid "Takaaki Kajita"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Takaaki Kajita"
+>>>>>>> upstream/18.0
 =======
 msgstr "Takaaki Kajita"
 >>>>>>> upstream/18.0
@@ -246628,7 +248748,11 @@ msgid "Take Again"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ponovno pokušaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ponovno pokušaj"
 >>>>>>> upstream/18.0
@@ -247021,7 +249145,11 @@ msgid "Test Entry"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testni unos"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testni unos"
 >>>>>>> upstream/18.0
@@ -247873,7 +250001,11 @@ msgid "Test your knowledge of our policies."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testirajte svoje znanje o našim pravilima."
+>>>>>>> upstream/18.0
 =======
 msgstr "Testirajte svoje znanje o našim pravilima."
 >>>>>>> upstream/18.0
@@ -248026,7 +250158,11 @@ msgid "Test your knowledge of our prices."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testirajte svoje znanje o našim cijenama."
+>>>>>>> upstream/18.0
 =======
 msgstr "Testirajte svoje znanje o našim cijenama."
 >>>>>>> upstream/18.0
@@ -248179,7 +250315,11 @@ msgid "Test your knowledge of your products!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testirajte svoje znanje o svojim proizvodima!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testirajte svoje znanje o svojim proizvodima!"
 >>>>>>> upstream/18.0
@@ -248332,7 +250472,11 @@ msgid "Test your vendor skills!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Testirajte svoje vještine dobavljača!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Testirajte svoje vještine dobavljača!"
 >>>>>>> upstream/18.0
@@ -248718,7 +250862,11 @@ msgid "Tests Only"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Samo testovi"
+>>>>>>> upstream/18.0
 =======
 msgstr "Samo testovi"
 >>>>>>> upstream/18.0
@@ -249581,7 +251729,11 @@ msgid "Thank you for your participation, hope you had a blast!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvala Vam na sudjelovanju, nadamo se da ste se zabavili!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Hvala Vam na sudjelovanju, nadamo se da ste se zabavili!"
 >>>>>>> upstream/18.0
@@ -249736,6 +251888,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Hvala Vam puno na povratnim informacijama. Vaše mišljenje nam je iznimno "
+"važno!"
+>>>>>>> upstream/18.0
 =======
 "Hvala Vam puno na povratnim informacijama. Vaše mišljenje nam je iznimno "
 "važno!"
@@ -249932,7 +252089,11 @@ msgid "Thank you. We will contact you soon."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Hvala Vam. Uskoro ćemo Vas kontaktirati."
+>>>>>>> upstream/18.0
 =======
 msgstr "Hvala Vam. Uskoro ćemo Vas kontaktirati."
 >>>>>>> upstream/18.0
@@ -250049,6 +252210,7 @@ msgstr "Hvala Vam. Uskoro ćemo Vas kontaktirati."
 #. odoo-python
 #: code:addons/survey/models/survey_survey.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -251172,6 +253334,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The access of the following surveys is restricted. Make sure their "
 "responsible still has access to it: \n"
 "%(survey_names)s\n"
@@ -251215,6 +253379,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -251330,7 +253497,11 @@ msgid "The answer must be in the right type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovor mora biti odgovarajućeg tipa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovor mora biti odgovarajućeg tipa"
 >>>>>>> upstream/18.0
@@ -251485,7 +253656,11 @@ msgid "The answer you entered is not valid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odgovor koji ste unijeli nije valjan."
+>>>>>>> upstream/18.0
 =======
 msgstr "Odgovor koji ste unijeli nije valjan."
 >>>>>>> upstream/18.0
@@ -251601,6 +253776,7 @@ msgstr "Odgovor koji ste unijeli nije valjan."
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_attempts_limit_check
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -252475,6 +254651,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The attempts limit needs to be a positive number if the survey has a limited "
 "number of attempts."
 msgstr ""
@@ -252718,6 +254896,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -253236,7 +255417,11 @@ msgid "The badge for each survey should be unique!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Značka za svaku anketu mora biti jedinstvena!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Značka za svaku anketu mora biti jedinstvena!"
 >>>>>>> upstream/18.0
@@ -253389,7 +255574,11 @@ msgid "The checkout process is clear and secure"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postupak plaćanja je jasan i siguran"
+>>>>>>> upstream/18.0
 =======
 msgstr "Postupak plaćanja je jasan i siguran"
 >>>>>>> upstream/18.0
@@ -253542,7 +255731,11 @@ msgid "The correct answer was:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Točan odgovor bio je:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Točan odgovor bio je:"
 >>>>>>> upstream/18.0
@@ -253695,7 +255888,11 @@ msgid "The current question of the survey session."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Trenutno pitanje sesije ankete."
+>>>>>>> upstream/18.0
 =======
 msgstr "Trenutno pitanje sesije ankete."
 >>>>>>> upstream/18.0
@@ -253852,6 +256049,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Opis će biti prikazan na početnoj stranici ankete. Možete ga koristiti za "
+"davanje svrhe i smjernica kandidatima prije nego što započnu."
+>>>>>>> upstream/18.0
 =======
 "Opis će biti prikazan na početnoj stranici ankete. Možete ga koristiti za "
 "davanje svrhe i smjernica kandidatima prije nego što započnu."
@@ -254042,7 +256244,11 @@ msgid "The following customers have already received an invite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sljedeći kupci već su primili pozivnicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sljedeći kupci već su primili pozivnicu"
 >>>>>>> upstream/18.0
@@ -254196,7 +256402,11 @@ msgid "The following emails have already received an invite"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sljedeći e-mailovi već su primili pozivnicu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sljedeći e-mailovi već su primili pozivnicu"
 >>>>>>> upstream/18.0
@@ -254353,6 +256563,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Sljedeći primatelji nemaju korisnički račun: %s. Trebate im kreirati "
+"korisničke račune ili dopustiti vanjsku registraciju u konfiguraciji."
+>>>>>>> upstream/18.0
 =======
 "Sljedeći primatelji nemaju korisnički račun: %s. Trebate im kreirati "
 "korisničke račune ili dopustiti vanjsku registraciju u konfiguraciji."
@@ -254542,7 +256757,11 @@ msgid "The new layout and design is fresh and up-to-date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Novi raspored i dizajn su svježi i moderni"
+>>>>>>> upstream/18.0
 =======
 msgstr "Novi raspored i dizajn su svježi i moderni"
 >>>>>>> upstream/18.0
@@ -254700,7 +256919,11 @@ msgid "The percentage of success has to be defined between 0 and 100."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Postotak uspjeha mora biti definiran između 0 i 100."
+>>>>>>> upstream/18.0
 =======
 msgstr "Postotak uspjeha mora biti definiran između 0 i 100."
 >>>>>>> upstream/18.0
@@ -255086,7 +257309,11 @@ msgid "The question is limited in time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pitanje je vremenski ograničeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pitanje je vremenski ograničeno"
 >>>>>>> upstream/18.0
@@ -255939,7 +258166,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skala mora biti rastući neprazan raspon između 0 i 10 (uključivo)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skala mora biti rastući neprazan raspon između 0 i 10 (uključivo)"
 >>>>>>> upstream/18.0
@@ -256092,7 +258323,11 @@ msgid "The session did not start yet."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija još nije započela."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesija još nije započela."
 >>>>>>> upstream/18.0
@@ -256245,7 +258480,11 @@ msgid "The session will begin automatically when the host starts."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesija će automatski započeti kada voditelj pokrene."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesija će automatski započeti kada voditelj pokrene."
 >>>>>>> upstream/18.0
@@ -256399,7 +258638,11 @@ msgid "The survey has already started."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anketa je već započela."
+>>>>>>> upstream/18.0
 =======
 msgstr "Anketa je već započela."
 >>>>>>> upstream/18.0
@@ -256785,7 +259028,11 @@ msgid "The survey is limited in time"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anketa je vremenski ograničena"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anketa je vremenski ograničena"
 >>>>>>> upstream/18.0
@@ -257600,6 +259847,7 @@ msgstr "Anketa je vremenski ograničena"
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_question_start_time
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -258723,6 +260971,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "The time at which the current question has started, used to handle the timer "
 "for attendees."
 msgstr ""
@@ -258764,6 +261014,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -259113,6 +261366,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vremensko ograničenje mora biti pozitivan broj ako je upitnik vremenski "
+"ograničen."
+>>>>>>> upstream/18.0
 =======
 "Vremensko ograničenje mora biti pozitivan broj ako je upitnik vremenski "
 "ograničen."
@@ -260234,7 +262492,11 @@ msgid "The tool to compare the products is useful to make a choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Alat za usporedbu proizvoda koristan je pri donošenju odluke"
+>>>>>>> upstream/18.0
 =======
 msgstr "Alat za usporedbu proizvoda koristan je pri donošenju odluke"
 >>>>>>> upstream/18.0
@@ -260388,7 +262650,11 @@ msgid "The user has not succeeded the certification"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnik nije uspio položiti certifikaciju"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnik nije uspio položiti certifikaciju"
 >>>>>>> upstream/18.0
@@ -260541,7 +262807,11 @@ msgid "There was an error during the validation of the survey."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Došlo je do greške tijekom provjere ankete."
+>>>>>>> upstream/18.0
 =======
 msgstr "Došlo je do greške tijekom provjere ankete."
 >>>>>>> upstream/18.0
@@ -260695,7 +262965,11 @@ msgid "They are a default answer, used if the participant skips the question"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To je zadani odgovor, koristi se ako sudionik preskoči pitanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "To je zadani odgovor, koristi se ako sudionik preskoči pitanje"
 >>>>>>> upstream/18.0
@@ -260850,7 +263124,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "To su tehnički parametri koji jamče responzivnost stranice"
+>>>>>>> upstream/18.0
 =======
 msgstr "To su tehnički parametri koji jamče responzivnost stranice"
 >>>>>>> upstream/18.0
@@ -261004,7 +263282,11 @@ msgid "This answer cannot be overwritten."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj se odgovor ne može prepisati."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj se odgovor ne može prepisati."
 >>>>>>> upstream/18.0
@@ -261165,7 +263447,11 @@ msgid "This answer must be an email address."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovaj odgovor mora biti e-mail adresa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovaj odgovor mora biti e-mail adresa."
 >>>>>>> upstream/18.0
@@ -261281,6 +263567,7 @@ msgstr "Ovaj odgovor mora biti e-mail adresa."
 #. module: survey
 #: model:ir.model.fields,help:survey.field_survey_survey__session_code
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262404,6 +264691,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This code will be used by your attendees to reach your session. Feel free to "
 "customize it however you like!"
 msgstr ""
@@ -262445,6 +264734,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -262559,7 +264851,11 @@ msgid "This is a Test Survey Entry."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo je testni unos ankete."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovo je testni unos ankete."
 >>>>>>> upstream/18.0
@@ -262716,7 +265012,11 @@ msgid "This is not a date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo nije datum"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovo nije datum"
 >>>>>>> upstream/18.0
@@ -263122,7 +265422,11 @@ msgid "This question was skipped"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ovo pitanje je preskočeno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ovo pitanje je preskočeno"
 >>>>>>> upstream/18.0
@@ -263977,6 +266281,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ova sekcija sadrži opće informacije o Vama. Odgovaranje na njih pomaže "
+"kvalificirati Vaše odgovore."
+>>>>>>> upstream/18.0
 =======
 "Ova sekcija sadrži opće informacije o Vama. Odgovaranje na njih pomaže "
 "kvalificirati Vaše odgovore."
@@ -264166,7 +266475,11 @@ msgid "This section is about our eCommerce experience itself."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ova sekcija odnosi se na samo iskustvo naše e-trgovine."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ova sekcija odnosi se na samo iskustvo naše e-trgovine."
 >>>>>>> upstream/18.0
@@ -264288,6 +266601,7 @@ msgstr ""
 #. module: survey
 #: model_terms:survey.survey,description:survey.survey_feedback
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -265411,6 +267725,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This survey allows you to give a feedback about your experience with our "
 "products.\n"
 "    Filling it helps us improving your experience."
@@ -265454,6 +267770,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -265532,6 +267851,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -266655,6 +268975,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This survey does not allow external people to participate. You should create "
 "user accounts or update survey access mode accordingly."
 msgstr ""
@@ -266696,6 +269018,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -266810,7 +269135,11 @@ msgid "This survey is now closed. Thank you for your interest!"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ova anketa je sada zatvorena. Hvala Vam na interesu!"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ova anketa je sada zatvorena. Hvala Vam na interesu!"
 >>>>>>> upstream/18.0
@@ -267201,7 +269530,11 @@ msgid "Time & Scoring"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrijeme & bodovanje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrijeme & bodovanje"
 >>>>>>> upstream/18.0
@@ -268053,7 +270386,11 @@ msgid "Time Limit"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremensko ograničenje"
 >>>>>>> upstream/18.0
@@ -268439,7 +270776,11 @@ msgid "Time Limit (seconds)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje (sekunde)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremensko ograničenje (sekunde)"
 >>>>>>> upstream/18.0
@@ -269291,7 +271632,11 @@ msgid "Time limit (minutes)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje (minute)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremensko ograničenje (minute)"
 >>>>>>> upstream/18.0
@@ -269678,7 +272023,11 @@ msgid "Time limit (seconds)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje (sekunde)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremensko ograničenje (sekunde)"
 >>>>>>> upstream/18.0
@@ -270530,7 +272879,11 @@ msgid "Time limit for this certification:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje za ovu certifikaciju:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremensko ograničenje za ovu certifikaciju:"
 >>>>>>> upstream/18.0
@@ -270916,7 +273269,11 @@ msgid "Time limit for this survey:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremensko ograničenje za ovu anketu:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremensko ograničenje za ovu anketu:"
 >>>>>>> upstream/18.0
@@ -272001,7 +274358,11 @@ msgid "Time limits are only available for Live Sessions."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vremenska ograničenja dostupna su samo za uživo sesije."
+>>>>>>> upstream/18.0
 =======
 msgstr "Vremenska ograničenja dostupna su samo za uživo sesije."
 >>>>>>> upstream/18.0
@@ -272858,7 +275219,11 @@ msgid "To join:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Za pridruživanje:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Za pridruživanje:"
 >>>>>>> upstream/18.0
@@ -273023,7 +275388,11 @@ msgid "Tokyo"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tokyo"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tokyo"
 >>>>>>> upstream/18.0
@@ -273176,7 +275545,11 @@ msgid "Top User Responses"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Najbolji korisnički odgovori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Najbolji korisnički odgovori"
 >>>>>>> upstream/18.0
@@ -273329,7 +275702,11 @@ msgid "Total Score"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ukupan rezultat"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ukupan rezultat"
 >>>>>>> upstream/18.0
@@ -273730,7 +276107,11 @@ msgid "Triggering Answers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pokretanje odgovora"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pokretanje odgovora"
 >>>>>>> upstream/18.0
@@ -274582,7 +276963,11 @@ msgid "Triggering Questions"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Okidajuća pitanja"
+>>>>>>> upstream/18.0
 =======
 msgstr "Okidajuća pitanja"
 >>>>>>> upstream/18.0
@@ -274699,6 +277084,7 @@ msgstr "Okidajuća pitanja"
 #. odoo-javascript
 #: code:addons/survey/static/src/views/widgets/survey_question_trigger/survey_question_trigger.js:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275822,6 +278208,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Triggers based on the following questions will not work because they are "
 "positioned after this question:\n"
 "\"%s\"."
@@ -275865,6 +278253,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -275964,6 +278355,7 @@ msgstr ""
 #. odoo-python
 #: code:addons/survey/wizard/survey_invite.py:0
 msgid "Unable to post message, please configure the sender's email address."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -276922,6 +279314,9 @@ msgstr "E-mail se ne može poslati, molimo postavite e-mail adresu pošiljatelja
 =======
 msgstr "E-mail se ne može poslati, molimo postavite e-mail adresu pošiljatelja"
 >>>>>>> upstream/18.0
+=======
+msgstr "E-mail se ne može poslati, molimo postavite e-mail adresu pošiljatelja"
+>>>>>>> upstream/18.0
 
 #. module: survey
 #. odoo-javascript
@@ -276977,7 +279372,11 @@ msgid "Underpriced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Prejeftino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Prejeftino"
 >>>>>>> upstream/18.0
@@ -277130,7 +279529,11 @@ msgid "Unfortunately, you have failed the test."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nažalost, niste položili test."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nažalost, niste položili test."
 >>>>>>> upstream/18.0
@@ -277283,7 +279686,11 @@ msgid "Unique"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Jedinstveno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Jedinstveno"
 >>>>>>> upstream/18.0
@@ -277437,7 +279844,11 @@ msgid "Unlikely"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Malo vjerojatno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Malo vjerojatno"
 >>>>>>> upstream/18.0
@@ -277590,7 +280001,11 @@ msgid "Upcoming Activities"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nadolazeće aktivnosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nadolazeće aktivnosti"
 >>>>>>> upstream/18.0
@@ -277744,7 +280159,11 @@ msgid "Use a fun visual support, like a live presentation"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristite zabavnu vizualnu podršku, poput žive prezentacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristite zabavnu vizualnu podršku, poput žive prezentacije"
 >>>>>>> upstream/18.0
@@ -277898,7 +280317,11 @@ msgid "Use humor and make jokes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristite humor i šale"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristite humor i šale"
 >>>>>>> upstream/18.0
@@ -278057,7 +280480,11 @@ msgid "Use the breadcrumbs to quickly go back to the dashboard."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koristite izbornik tragova za brzi povratak na kontrolnu ploču."
+>>>>>>> upstream/18.0
 =======
 msgstr "Koristite izbornik tragova za brzi povratak na kontrolnu ploču."
 >>>>>>> upstream/18.0
@@ -278213,6 +280640,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristite ovo polje za dodavanje dodatnih objašnjenja o pitanju ili za "
+"ilustriranje slikama ili videom"
+>>>>>>> upstream/18.0
 =======
 "Koristite ovo polje za dodavanje dodatnih objašnjenja o pitanju ili za "
 "ilustriranje slikama ili videom"
@@ -278405,6 +280837,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koristi se na nasumično odabranim sekcijama za uzimanje X nasumičnih pitanja "
+"iz svih pitanja te sekcije."
+>>>>>>> upstream/18.0
 =======
 "Koristi se na nasumično odabranim sekcijama za uzimanje X nasumičnih pitanja "
 "iz svih pitanja te sekcije."
@@ -278594,7 +281031,11 @@ msgid "Useful"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisno"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisno"
 >>>>>>> upstream/18.0
@@ -278752,7 +281193,11 @@ msgid "User Choice"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnikov izbor"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnikov izbor"
 >>>>>>> upstream/18.0
@@ -278917,7 +281362,11 @@ msgid "User input line details"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Detalji stavke korisničkog unosa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Detalji stavke korisničkog unosa"
 >>>>>>> upstream/18.0
@@ -279081,7 +281530,11 @@ msgid "Users can signup"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Korisnici se mogu registrirati"
+>>>>>>> upstream/18.0
 =======
 msgstr "Korisnici se mogu registrirati"
 >>>>>>> upstream/18.0
@@ -279246,7 +281699,11 @@ msgid "Value Label"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Oznaka vrijednosti"
+>>>>>>> upstream/18.0
 =======
 msgstr "Oznaka vrijednosti"
 >>>>>>> upstream/18.0
@@ -279404,7 +281861,11 @@ msgid "Vegetarian burger"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vegetarijanski burger"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vegetarijanski burger"
 >>>>>>> upstream/18.0
@@ -279557,7 +282018,11 @@ msgid "Vegetarian pizza"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vegetarijanska pizza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vegetarijanska pizza"
 >>>>>>> upstream/18.0
@@ -279710,7 +282175,11 @@ msgid "Very underpriced"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Vrlo prejeftino"
+>>>>>>> upstream/18.0
 =======
 msgstr "Vrlo prejeftino"
 >>>>>>> upstream/18.0
@@ -279868,7 +282337,11 @@ msgid "Waiting for attendees..."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Čekanje na sudionike..."
+>>>>>>> upstream/18.0
 =======
 msgstr "Čekanje na sudionike..."
 >>>>>>> upstream/18.0
@@ -280024,6 +282497,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zabilježili smo Vaš odgovor! Molimo pričekajte da voditelj prijeđe na "
+"sljedeće pitanje."
+>>>>>>> upstream/18.0
 =======
 "Zabilježili smo Vaš odgovor! Molimo pričekajte da voditelj prijeđe na "
 "sljedeće pitanje."
@@ -280241,6 +282719,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dobro došli na ovu Odoo certifikaciju. Dobit ćete 2 nasumična pitanja iz "
+"skupa od 3."
+>>>>>>> upstream/18.0
 =======
 "Dobro došli na ovu Odoo certifikaciju. Dobit ćete 2 nasumična pitanja iz "
 "skupa od 3."
@@ -280433,6 +282916,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koji dan i u koje vrijeme mislite da većina kupaca najčešće zove korisničku "
+"službu (ne boduje se)?"
+>>>>>>> upstream/18.0
 =======
 "Koji dan i u koje vrijeme mislite da većina kupaca najčešće zove korisničku "
 "službu (ne boduje se)?"
@@ -280625,6 +283113,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Koji dan mislite da je najbolji za početak godišnje rasprodaje (ne boduje se)"
+"?"
+>>>>>>> upstream/18.0
 =======
 "Koji dan mislite da je najbolji za početak godišnje rasprodaje (ne boduje se)"
 "?"
@@ -280814,7 +283307,11 @@ msgid "What do you think about our new eCommerce?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Što mislite o našoj novoj e-trgovini?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Što mislite o našoj novoj e-trgovini?"
 >>>>>>> upstream/18.0
@@ -280967,7 +283464,11 @@ msgid "What do you think about our prices (not rated)?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Što mislite o našim cijenama (ne boduje se)?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Što mislite o našim cijenama (ne boduje se)?"
 >>>>>>> upstream/18.0
@@ -281126,7 +283627,11 @@ msgid "What does \"ODOO\" stand for?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Što znači \"ODOO\"?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Što znači \"ODOO\"?"
 >>>>>>> upstream/18.0
@@ -281280,7 +283785,11 @@ msgid "What does one need to get to pass an Odoo Survey?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Što je potrebno da bi se položila Odoo anketa?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Što je potrebno da bi se položila Odoo anketa?"
 >>>>>>> upstream/18.0
@@ -281434,7 +283943,11 @@ msgid "What is a frequent mistake public speakers do?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koja je česta pogreška koju rade javni govornici?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koja je česta pogreška koju rade javni govornici?"
 >>>>>>> upstream/18.0
@@ -281588,7 +284101,11 @@ msgid "What is the best way to catch the attention of an audience?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koji je najbolji način za privlačenje pažnje publike?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koji je najbolji način za privlačenje pažnje publike?"
 >>>>>>> upstream/18.0
@@ -281741,7 +284258,11 @@ msgid "What is the biggest city in the world?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koji je najveći grad na svijetu?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koji je najveći grad na svijetu?"
 >>>>>>> upstream/18.0
@@ -281904,7 +284425,11 @@ msgid "What is, approximately, the critical mass of plutonium-239?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kolika je, približno, kritična masa plutonija-239?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kolika je, približno, kritična masa plutonija-239?"
 >>>>>>> upstream/18.0
@@ -282057,7 +284582,11 @@ msgid "When did Genghis Khan die?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kada je umro Džingis-kan?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kada je umro Džingis-kan?"
 >>>>>>> upstream/18.0
@@ -282225,7 +284754,11 @@ msgid "When is your date of birth?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kada ste rođeni?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kada ste rođeni?"
 >>>>>>> upstream/18.0
@@ -282379,7 +284912,11 @@ msgid "Whenever you pick an answer, Odoo saves it for you."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Svaki put kada odaberete odgovor, Odoo ga sprema za Vas."
+>>>>>>> upstream/18.0
 =======
 msgstr "Svaki put kada odaberete odgovor, Odoo ga sprema za Vas."
 >>>>>>> upstream/18.0
@@ -282537,7 +285074,11 @@ msgid "Where do you live?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gdje živite?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gdje živite?"
 >>>>>>> upstream/18.0
@@ -282691,7 +285232,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Želimo li ili ne prikazati ljestvicu sudionika za ovu anketu."
+>>>>>>> upstream/18.0
 =======
 msgstr "Želimo li ili ne prikazati ljestvicu sudionika za ovu anketu."
 >>>>>>> upstream/18.0
@@ -282844,7 +285389,11 @@ msgid "Which Musician is not in the 27th Club?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koji glazbenik nije u klubu 27?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koji glazbenik nije u klubu 27?"
 >>>>>>> upstream/18.0
@@ -283002,7 +285551,11 @@ msgid "Which is the highest volcano in Europe?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koji je najviši vulkan u Europi?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koji je najviši vulkan u Europi?"
 >>>>>>> upstream/18.0
@@ -283155,7 +285708,11 @@ msgid "Which of the following words would you use to describe our products?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koje od sljedećih riječi biste koristili za opis naših proizvoda?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koje od sljedećih riječi biste koristili za opis naših proizvoda?"
 >>>>>>> upstream/18.0
@@ -283313,7 +285870,11 @@ msgid "Which painting/drawing was not made by Pablo Picasso?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koju sliku/crtež nije napravio Pablo Picasso?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koju sliku/crtež nije napravio Pablo Picasso?"
 >>>>>>> upstream/18.0
@@ -283466,7 +286027,11 @@ msgid "Which quote is from Jean-Claude Van Damme"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Koji je citat od Jean-Claude Van Dammea"
+>>>>>>> upstream/18.0
 =======
 msgstr "Koji je citat od Jean-Claude Van Dammea"
 >>>>>>> upstream/18.0
@@ -283624,7 +286189,11 @@ msgid "Who is the architect of the Great Pyramid of Giza?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tko je arhitekt Velike piramide u Gizi?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tko je arhitekt Velike piramide u Gizi?"
 >>>>>>> upstream/18.0
@@ -283780,6 +286349,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Tko je primio Nobelovu nagradu za fiziku za otkriće oscilacija neutrina, "
+"koje pokazuju da neutrini imaju masu?"
+>>>>>>> upstream/18.0
 =======
 "Tko je primio Nobelovu nagradu za fiziku za otkriće oscilacija neutrina, "
 "koje pokazuju da neutrini imaju masu?"
@@ -283972,6 +286546,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Zašto biste trebali razmotriti činjenje svoje prezentacije zabavnijom s "
+"malim kvizom?"
+>>>>>>> upstream/18.0
 =======
 "Zašto biste trebali razmotriti činjenje svoje prezentacije zabavnijom s "
 "malim kvizom?"
@@ -284166,7 +286745,11 @@ msgid "Willard S. Boyle"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Willard S. Boyle"
+>>>>>>> upstream/18.0
 =======
 msgstr "Willard S. Boyle"
 >>>>>>> upstream/18.0
@@ -284324,7 +286907,11 @@ msgid "Would you prefer a veggie meal if possible?"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Biste li radije vegetarijanski obrok ako je moguće?"
+>>>>>>> upstream/18.0
 =======
 msgstr "Biste li radije vegetarijanski obrok ako je moguće?"
 >>>>>>> upstream/18.0
@@ -284680,6 +287267,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
 "                                        <i class=\"fa fa-calendar\" "
@@ -285563,6 +288151,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
@@ -285605,6 +288195,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -285922,6 +288515,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                        <i class=\"fa fa-calendar\" role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 =======
 "                                        <i class=\"fa fa-calendar\" "
@@ -286805,6 +289399,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                        <i class=\"fa fa-calendar\" "
 "role=\"img\" aria-label=\"Calendar\" title=\"Calendar\"/>"
 msgstr ""
@@ -286847,6 +289443,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -286962,7 +289561,11 @@ msgid "Yellow Pen"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Žuta olovka"
+>>>>>>> upstream/18.0
 =======
 msgstr "Žuta olovka"
 >>>>>>> upstream/18.0
@@ -287123,7 +289726,11 @@ msgid "Yes, that's the only thing a human eye can see."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Da, to je jedino što ljudsko oko može vidjeti."
+>>>>>>> upstream/18.0
 =======
 msgstr "Da, to je jedino što ljudsko oko može vidjeti."
 >>>>>>> upstream/18.0
@@ -287239,6 +289846,7 @@ msgstr "Da, to je jedino što ljudsko oko može vidjeti."
 #. module: survey
 #: model:ir.model.constraint,message:survey.constraint_survey_survey_certification_check
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288272,6 +290880,11 @@ msgstr ""
 msgstr ""
 "Certifikacije možete kreirati samo za ankete koje imaju mehanizam bodovanja."
 >>>>>>> upstream/18.0
+=======
+"You can only create certifications for surveys that have a scoring mechanism."
+msgstr ""
+"Certifikacije možete kreirati samo za ankete koje imaju mehanizam bodovanja."
+>>>>>>> upstream/18.0
 
 #. module: survey
 #: model_terms:ir.actions.act_window,help:survey.action_survey_user_input
@@ -288549,6 +291162,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Možete dijeliti svoje poveznice na različite načine: e-poštom, putem "
+"pozivnice, uživo tijekom prezentacije, ..."
+>>>>>>> upstream/18.0
 =======
 "Možete dijeliti svoje poveznice na različite načine: e-poštom, putem "
 "pozivnice, uživo tijekom prezentacije, ..."
@@ -289674,6 +292292,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ne možete brisati pitanja iz anketa \"%(survey_names)s\" dok su u tijeku "
+"žive sesije."
+>>>>>>> upstream/18.0
 =======
 "Ne možete brisati pitanja iz anketa \"%(survey_names)s\" dok su u tijeku "
 "žive sesije."
@@ -289867,6 +292490,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ne možete poslati pozivnicu za anketu \"Jedna stranica po sekciji\" ako "
+"anketa nema sekcija."
+>>>>>>> upstream/18.0
 =======
 "Ne možete poslati pozivnicu za anketu \"Jedna stranica po sekciji\" ako "
 "anketa nema sekcija."
@@ -290060,6 +292688,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Ne možete poslati pozivnicu za anketu \"Jedna stranica po sekciji\" ako "
+"anketa sadrži samo prazne sekcije."
+>>>>>>> upstream/18.0
 =======
 "Ne možete poslati pozivnicu za anketu \"Jedna stranica po sekciji\" ako "
 "anketa sadrži samo prazne sekcije."
@@ -290261,7 +292894,11 @@ msgid "You received the badge"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Primili ste značku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Primili ste značku"
 >>>>>>> upstream/18.0
@@ -290428,6 +293065,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Vaši odgovori pomoći će nam poboljšati naš asortiman proizvoda kako bismo "
+"Vas još bolje posluživali."
+>>>>>>> upstream/18.0
 =======
 "Vaši odgovori pomoći će nam poboljšati naš asortiman proizvoda kako bismo "
 "Vas još bolje posluživali."
@@ -290618,7 +293260,11 @@ msgid "Zoom in"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvećaj"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvećaj"
 >>>>>>> upstream/18.0
@@ -290772,7 +293418,11 @@ msgid "Zoom out"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Smanji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Smanji"
 >>>>>>> upstream/18.0
@@ -290926,7 +293576,11 @@ msgid "Zoomed Image"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uvećana slika"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uvećana slika"
 >>>>>>> upstream/18.0
@@ -291080,7 +293734,11 @@ msgid "[Question Title]"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "[Question Title]"
+>>>>>>> upstream/18.0
 =======
 msgstr "[Question Title]"
 >>>>>>> upstream/18.0
@@ -291233,7 +293891,11 @@ msgid "ans"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "odg"
+>>>>>>> upstream/18.0
 =======
 msgstr "odg"
 >>>>>>> upstream/18.0
@@ -291386,7 +294048,11 @@ msgid "answered"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "odgovoreno"
+>>>>>>> upstream/18.0
 =======
 msgstr "odgovoreno"
 >>>>>>> upstream/18.0
@@ -291772,7 +294438,11 @@ msgid "attempts"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "pokušaja"
+>>>>>>> upstream/18.0
 =======
 msgstr "pokušaja"
 >>>>>>> upstream/18.0
@@ -292865,6 +295535,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"npr.  'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"
+>>>>>>> upstream/18.0
 =======
 "npr.  'Rick Sanchez' <rick_sanchez@example.com>, hictor_vugo@example.com"
 >>>>>>> upstream/18.0
@@ -293949,7 +296623,11 @@ msgid "e.g. \"Thank you very much for your feedback!\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Puno Vam hvala na povratnim informacijama!\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"Puno Vam hvala na povratnim informacijama!\""
 >>>>>>> upstream/18.0
@@ -295034,7 +297712,11 @@ msgid "e.g. \"The following Survey will help us...\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Sljedeća anketa će nam pomoći...\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"Sljedeća anketa će nam pomoći...\""
 >>>>>>> upstream/18.0
@@ -296119,7 +298801,11 @@ msgid "e.g. \"What is the...\""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. \"Što je...\""
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. \"Što je...\""
 >>>>>>> upstream/18.0
@@ -296971,7 +299657,11 @@ msgid "e.g. 4812"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. 4812"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. 4812"
 >>>>>>> upstream/18.0
@@ -297357,7 +300047,11 @@ msgid "e.g. Guidelines, instructions, picture, ... to help attendees answer"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. smjernice, upute, slika, ... za pomoć sudionicima pri odgovaranju"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. smjernice, upute, slika, ... za pomoć sudionicima pri odgovaranju"
 >>>>>>> upstream/18.0
@@ -298209,7 +300903,11 @@ msgid "e.g. No one can solve challenges like you do"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Nitko ne može rješavati izazove kao Vi"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Nitko ne može rješavati izazove kao Vi"
 >>>>>>> upstream/18.0
@@ -298595,7 +301293,11 @@ msgid "e.g. Problem Solver"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Problem Solver"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Problem Solver"
 >>>>>>> upstream/18.0
@@ -299680,7 +302382,11 @@ msgid "e.g. Satisfaction Survey"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "npr. Anketa o zadovoljstvu"
+>>>>>>> upstream/18.0
 =======
 msgstr "npr. Anketa o zadovoljstvu"
 >>>>>>> upstream/18.0
@@ -300552,7 +303258,11 @@ msgid "of achievement"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "za postignuće"
+>>>>>>> upstream/18.0
 =======
 msgstr "za postignuće"
 >>>>>>> upstream/18.0
@@ -300939,7 +303649,11 @@ msgid "or press CTRL+Enter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ili pritisnite CTRL+Enter"
+>>>>>>> upstream/18.0
 =======
 msgstr "ili pritisnite CTRL+Enter"
 >>>>>>> upstream/18.0
@@ -301792,7 +304506,11 @@ msgid "or press Enter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ili pritisnite Enter"
+>>>>>>> upstream/18.0
 =======
 msgstr "ili pritisnite Enter"
 >>>>>>> upstream/18.0
@@ -301946,7 +304664,11 @@ msgid "or press ⌘+Enter"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ili pritisnite ⌘+Enter"
+>>>>>>> upstream/18.0
 =======
 msgstr "ili pritisnite ⌘+Enter"
 >>>>>>> upstream/18.0
@@ -302099,7 +304821,11 @@ msgid "pages"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "stranica"
+>>>>>>> upstream/18.0
 =======
 msgstr "stranica"
 >>>>>>> upstream/18.0
@@ -302252,7 +304978,11 @@ msgid "survey expired"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "anketa istekla"
+>>>>>>> upstream/18.0
 =======
 msgstr "anketa istekla"
 >>>>>>> upstream/18.0
@@ -302405,7 +305135,11 @@ msgid "survey is empty"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "anketa je prazna"
+>>>>>>> upstream/18.0
 =======
 msgstr "anketa je prazna"
 >>>>>>> upstream/18.0
@@ -302592,6 +305326,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -302632,6 +305367,10 @@ msgstr ""
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+"⚠️ Ovo pitanje postavljeno je prije nekih ili svih svojih okidača i moglo bi "
+"biti preskočeno."
 >>>>>>> upstream/18.0
 =======
 "⚠️ Ovo pitanje postavljeno je prije nekih ili svih svojih okidača i moglo bi "
@@ -302847,6 +305586,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

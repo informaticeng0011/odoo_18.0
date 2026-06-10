@@ -2036,7 +2036,10 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2856,6 +2859,9 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3431,7 +3437,10 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
             ]
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_svl_account_move_analytic_account_model_change_from_SO(self):
         """ Tests whether, when an analytic account rule is set, and user changes manually the analytic account on
@@ -3468,4 +3477,7 @@ class TestAngloSaxonValuation(ValuationReconciliationTestCommon):
         amls = sale_order.picking_ids.move_ids.stock_valuation_layer_ids.account_move_id.line_ids
         self.assertEqual(amls[0].analytic_distribution, analytic_distribution_manual)
         self.assertEqual(amls[1].analytic_distribution, analytic_distribution_manual)
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0

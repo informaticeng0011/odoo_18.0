@@ -17,7 +17,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <t t-out="', '.join(docs.account_id.mapped('name'))">Acme Corp.</t>
+=======
+                                    <t t-out="', '.join(docs.account_id.mapped('name'))" data-oe-demo="Acme Corp."/>
+>>>>>>> upstream/18.0
 =======
                                     <t t-out="', '.join(docs.account_id.mapped('name'))" data-oe-demo="Acme Corp."/>
 >>>>>>> upstream/18.0
@@ -67,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                <span t-field="line.date">2023-08-15</span>
                                             </td>
                                             <td class="align-middle">
@@ -84,6 +89,8 @@
                                             <td class="text-end align-middle">
                                                 <span t-field="line.amount">$1000</span>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -118,6 +125,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -144,7 +154,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                     <span t-out="sum(docs.mapped('amount'))">$5000</span>
+=======
+                                                    <span t-out="sum(docs.mapped('amount'))" data-oe-demo="$5000"/>
+>>>>>>> upstream/18.0
 =======
                                                     <span t-out="sum(docs.mapped('amount'))" data-oe-demo="$5000"/>
 >>>>>>> upstream/18.0

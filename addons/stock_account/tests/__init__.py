@@ -292,6 +292,10 @@ from . import test_lot_valuation
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import test_product
+>>>>>>> upstream/18.0
 =======
 from . import test_product
 >>>>>>> upstream/18.0

@@ -100,6 +100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* sale_gelato
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1269,6 +1270,9 @@
 =======
 # * sale_gelato
 >>>>>>> upstream/18.0
+=======
+# * sale_gelato
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2025
@@ -1512,6 +1516,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1788,6 +1793,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -2093,6 +2101,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3400,6 +3409,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-24 23:32+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -3504,6 +3515,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3708,6 +3722,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4725,12 +4740,18 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: sale_gelato
 #: model:mail.template,body_html:sale_gelato.order_status_update
 msgid ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
 "                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5454,6 +5475,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                    Hello <t t-out=\"object.partner_id.name or ''\">Brandon "
 "Freeman</t>,<br/><br/>\n"
 "                    <!-- Order in transit body -->\n"
@@ -5463,6 +5486,7 @@ msgid ""
 "                        <t t-if=\"len(ctx['tracking_data']) == 1\">\n"
 "                            <t t-set=\"tracking_url\" t-"
 "value=\"list(ctx['tracking_data'].keys())[0]\"/>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6642,11 +6666,16 @@ msgid ""
 "                            Your tracking number is <a t-att-"
 "href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
 >>>>>>> upstream/18.0
+=======
+"                            Your tracking number is <a t-att-"
+"href=\"tracking_url\" t-out=\"ctx['tracking_data'][tracking_url]\"/>.\n"
+>>>>>>> upstream/18.0
 "                            <br/><br/>\n"
 "                        </t>\n"
 "                        <t t-else=\"\">\n"
 "                            Your tracking numbers are:\n"
 "                            <ul>\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7390,6 +7419,8 @@ msgid ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "                                <li t-foreach=\"ctx['tracking_data']\" t-"
 "as=\"tracking_url\">\n"
 "                                    <a t-att-href=\"tracking_url\" t-"
@@ -7624,6 +7655,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8330,6 +8364,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                        We are glad to inform you that your order has been delivered.\n"
 "                        <br/><br/>\n"
 "                    </t>\n"
@@ -8338,6 +8373,8 @@ msgid ""
 "                        <br/>\n"
 "                        <t t-out=\"object.user_id.name or ''\" data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/>Mitchell Admin</t>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9062,6 +9099,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9548,6 +9588,7 @@ msgstr ""
 #. module: sale_gelato
 #: model_terms:ir.ui.view,arch_db:sale_gelato.product_template_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10682,6 +10723,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<i title=\"All print images are set\" invisible=\"gelato_missing_images\" "
 "class=\"fa fa-check-circle text-success fs-3 me-3\"/>\n"
 "                        <i title=\"Some print images are missing\" "
@@ -10932,6 +10975,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11523,7 +11569,11 @@ msgid "Config Settings"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Ustawienia konfiguracji"
+=======
+msgstr "Konfiguracja ustawień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Konfiguracja ustawień"
 >>>>>>> upstream/18.0
@@ -12156,7 +12206,11 @@ msgid "Could not establish the connection to the Gelato API."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można nawiązać połączenia z Gelato API."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można nawiązać połączenia z Gelato API."
 >>>>>>> upstream/18.0
@@ -13450,7 +13504,11 @@ msgid "Could not synchronize with Gelato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie udało się zsynchronizować z Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie udało się zsynchronizować z Gelato"
 >>>>>>> upstream/18.0
@@ -14744,7 +14802,11 @@ msgid "Express Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekspresowa dostawa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ekspresowa dostawa"
 >>>>>>> upstream/18.0
@@ -16037,7 +16099,11 @@ msgid "Express Delivery (Gelato)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ekspresowa dostawa (Gelato)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Ekspresowa dostawa (Gelato)"
 >>>>>>> upstream/18.0
@@ -17334,7 +17400,11 @@ msgid "Gelato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato"
 >>>>>>> upstream/18.0
@@ -18628,7 +18698,11 @@ msgid "Gelato API Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz API Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klucz API Gelato"
 >>>>>>> upstream/18.0
@@ -19922,7 +19996,11 @@ msgid "Gelato Print Images"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wydruk obrazów Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wydruk obrazów Gelato"
 >>>>>>> upstream/18.0
@@ -21215,7 +21293,11 @@ msgid "Gelato Product UID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UID produktu Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "UID produktu Gelato"
 >>>>>>> upstream/18.0
@@ -22508,7 +22590,11 @@ msgid "Gelato Product Uid"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Uid produktu Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Uid produktu Gelato"
 >>>>>>> upstream/18.0
@@ -23801,7 +23887,11 @@ msgid "Gelato Shipping Service Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Typ usługi wysyłkowej Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Typ usługi wysyłkowej Gelato"
 >>>>>>> upstream/18.0
@@ -25095,7 +25185,11 @@ msgid "Gelato Template Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odnośnik szablonu Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odnośnik szablonu Gelato"
 >>>>>>> upstream/18.0
@@ -26389,7 +26483,11 @@ msgid "Gelato Webhook Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szyfr Webhook Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szyfr Webhook Gelato"
 >>>>>>> upstream/18.0
@@ -27600,6 +27698,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: "
 "%(gelato_message)s"
 msgstr ""
@@ -28495,6 +28594,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "Gelato could not proceed with the fulfillment of order %(order_reference)s: %"
 "(gelato_message)s"
 msgstr ""
@@ -28738,6 +28839,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29542,7 +29646,11 @@ msgid "Gelato has returned order %(reference)s."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato zwrócił zamówienie %(reference)s."
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato zwrócił zamówienie %(reference)s."
 >>>>>>> upstream/18.0
@@ -30835,7 +30943,11 @@ msgid "Gelato: Order status update"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato: Aktualizacja statusu zamówienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato: Aktualizacja statusu zamówienia"
 >>>>>>> upstream/18.0
@@ -32128,7 +32240,11 @@ msgid "Is Gelato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Gelato"
 >>>>>>> upstream/18.0
@@ -33421,7 +33537,11 @@ msgid "Manage Delivery Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zarządzaj metodami dostawy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zarządzaj metodami dostawy"
 >>>>>>> upstream/18.0
@@ -34715,7 +34835,11 @@ msgid "Missing Print Images"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brakujące obrazy do druku"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brakujące obrazy do druku"
 >>>>>>> upstream/18.0
@@ -36009,7 +36133,11 @@ msgid "Missing product variants and images have been successfully created."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brakujące warianty produktu i obrazy zostały pomyślnie utworzone."
+>>>>>>> upstream/18.0
 =======
 msgstr "Brakujące warianty produktu i obrazy zostały pomyślnie utworzone."
 >>>>>>> upstream/18.0
@@ -37302,7 +37430,11 @@ msgid "Place orders through Gelato's print-on-demand service"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Składaj zamówienia przez usługę Gelato druk na żądanie"
+>>>>>>> upstream/18.0
 =======
 msgstr "Składaj zamówienia przez usługę Gelato druk na żądanie"
 >>>>>>> upstream/18.0
@@ -38595,7 +38727,11 @@ msgid "Print Images"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Drukuj obrazy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Drukuj obrazy"
 >>>>>>> upstream/18.0
@@ -39889,7 +40025,11 @@ msgid "Print images must be set on products before they can be ordered."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Przed zamówieniem produktów należy skonfigurować obrazy do druku."
+>>>>>>> upstream/18.0
 =======
 msgstr "Przed zamówieniem produktów należy skonfigurować obrazy do druku."
 >>>>>>> upstream/18.0
@@ -41194,7 +41334,11 @@ msgid "Product UID"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "UID produktu"
+>>>>>>> upstream/18.0
 =======
 msgstr "UID produktu"
 >>>>>>> upstream/18.0
@@ -42507,7 +42651,11 @@ msgid "Sent to the customer when Gelato updates the status of an order"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wysłano do klienta, kiedy Gelato zaktualizuje status zamówienia"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wysłano do klienta, kiedy Gelato zaktualizuje status zamówienia"
 >>>>>>> upstream/18.0
@@ -43806,7 +43954,11 @@ msgid "Standard Delivery"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardowa dostawa"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardowa dostawa"
 >>>>>>> upstream/18.0
@@ -45099,7 +45251,11 @@ msgid "Standard Delivery (Gelato)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Standardowa dostawa (Gelato)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Standardowa dostawa (Gelato)"
 >>>>>>> upstream/18.0
@@ -46393,7 +46549,11 @@ msgid "Successfully synchronized with Gelato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Pomyślnie zsynchronizowane z Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Pomyślnie zsynchronizowane z Gelato"
 >>>>>>> upstream/18.0
@@ -47692,7 +47852,11 @@ msgid "Synchronize to fetch variants from Gelato"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Synchronizuj, aby pobrać warianty z Gelato"
+>>>>>>> upstream/18.0
 =======
 msgstr "Synchronizuj, aby pobrać warianty z Gelato"
 >>>>>>> upstream/18.0
@@ -48985,7 +49149,11 @@ msgid "Template Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Odniesienie do szablonu"
+>>>>>>> upstream/18.0
 =======
 msgstr "Odniesienie do szablonu"
 >>>>>>> upstream/18.0
@@ -50279,7 +50447,11 @@ msgid "The delivery method is not available for this order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda dostawy nie jest dostępna dla tego zamówienia."
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda dostawy nie jest dostępna dla tego zamówienia."
 >>>>>>> upstream/18.0
@@ -51573,7 +51745,11 @@ msgid "The following required address fields are missing: %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Brakuje następujących wymaganych pól adresu: %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "Brakuje następujących wymaganych pól adresu: %s"
 >>>>>>> upstream/18.0
@@ -52867,7 +53043,11 @@ msgid "The order has been successfully passed on Gelato."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamówienie zostało pomyślnie przekazane na Gelato."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamówienie zostało pomyślnie przekazane na Gelato."
 >>>>>>> upstream/18.0
@@ -54164,6 +54344,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 "Zamówienie z numerem referencyjnym %(order_reference)s nie zostało wysłane do Gelato.\n"
 "Powód: %(error_message)s"
@@ -54497,6 +54678,8 @@ msgstr ""
 "Powód: %(error_message)s"
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -55226,6 +55409,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -56029,7 +56215,11 @@ msgid "Webhook Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Szyfr Webhook"
+>>>>>>> upstream/18.0
 =======
 msgstr "Szyfr Webhook"
 >>>>>>> upstream/18.0
@@ -57325,6 +57515,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie możesz mieszać produktów Gelato z produktami spoza Gelato w jednym "
+"zamówieniu."
+>>>>>>> upstream/18.0
 =======
 "Nie możesz mieszać produktów Gelato z produktami spoza Gelato w jednym "
 "zamówieniu."
@@ -58968,7 +59163,11 @@ msgid "{{ object.reference }}"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "{{ object.reference }}"
+>>>>>>> upstream/18.0
 =======
 msgstr "{{ object.reference }}"
 >>>>>>> upstream/18.0

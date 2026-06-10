@@ -116,6 +116,7 @@ class IapAccount(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.env.context.get('disable_iap_fetch'):
             self._get_account_information_from_iap()
         return super().web_read(*args, **kwargs)
@@ -123,6 +124,11 @@ class IapAccount(models.Model):
     def web_save(self, *args, **kwargs):
         return super(IapAccount, self.with_context(disable_iap_fetch=True)).web_save(*args, **kwargs)
 
+=======
+        self._get_account_information_from_iap()
+        return super().web_read(*args, **kwargs)
+
+>>>>>>> upstream/18.0
 =======
         self._get_account_information_from_iap()
         return super().web_read(*args, **kwargs)

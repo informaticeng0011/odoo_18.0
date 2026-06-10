@@ -93,10 +93,13 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if not res['route_id']:
                 if product_tmpl_id.route_ids:
                     res['route_id'] = product_tmpl_id.route_ids.filtered(lambda r: r.company_id == self.env.company or not r.company_id)[0].id
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -158,6 +161,9 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -350,7 +356,11 @@ class ProductReplenish(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env['procurement.group'].with_context(clean_context(self.env.context)).run([
+=======
+            self.env['procurement.group'].with_context(clean_context(self.env.context | self._additional_replenishment_context())).run([
+>>>>>>> upstream/18.0
 =======
             self.env['procurement.group'].with_context(clean_context(self.env.context | self._additional_replenishment_context())).run([
 >>>>>>> upstream/18.0

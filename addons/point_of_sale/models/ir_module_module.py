@@ -87,7 +87,11 @@ class IrModuleModule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     def _load_pos_data_fields(self):
+=======
+    def _load_pos_data_fields(self, config=None):
+>>>>>>> upstream/18.0
 =======
     def _load_pos_data_fields(self, config=None):
 >>>>>>> upstream/18.0

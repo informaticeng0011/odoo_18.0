@@ -58,11 +58,17 @@ class Db(Command):
         )
         load.add_argument(
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
             '--move', dest='copy', action='store_const', default=True, const=False,
             help="restore as a moved database, keeping its UUID instead of generating a new one"
         )
         load.add_argument(
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
             'database', nargs='?',
             help="database to create, defaults to dump file's name "
@@ -152,7 +158,11 @@ class Db(Command):
                  " and `psql` to execute sql dumps or scripts.")
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         restore_db(db=db_name, dump_file=dump_file, copy=True, neutralize_database=args.neutralize)
+=======
+        restore_db(db=db_name, dump_file=dump_file, copy=args.copy, neutralize_database=args.neutralize)
+>>>>>>> upstream/18.0
 =======
         restore_db(db=db_name, dump_file=dump_file, copy=args.copy, neutralize_database=args.neutralize)
 >>>>>>> upstream/18.0

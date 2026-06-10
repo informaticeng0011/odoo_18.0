@@ -182,7 +182,11 @@ class SaleReport(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         values['margin'] = 'SUM(l.price_subtotal - COALESCE(l.total_cost,0) / CASE COALESCE(pos.currency_rate, 0) WHEN 0 THEN 1.0 ELSE pos.currency_rate END)'
+=======
+        values['margin'] = 'SUM((l.price_subtotal - COALESCE(l.total_cost,0)) / CASE COALESCE(pos.currency_rate, 0) WHEN 0 THEN 1.0 ELSE pos.currency_rate END)'
+>>>>>>> upstream/18.0
 =======
         values['margin'] = 'SUM((l.price_subtotal - COALESCE(l.total_cost,0)) / CASE COALESCE(pos.currency_rate, 0) WHEN 0 THEN 1.0 ELSE pos.currency_rate END)'
 >>>>>>> upstream/18.0

@@ -325,7 +325,11 @@ export class PartnerList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.props.close();
+=======
+        this.clickPartner(this.props.partner);
+>>>>>>> upstream/18.0
 =======
         this.clickPartner(this.props.partner);
 >>>>>>> upstream/18.0
@@ -1318,11 +1322,14 @@ export class PartnerList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const availablePartners = searchWord
             ? partners.filter((p) =>
                   unaccent(p.searchString).includes(isSearchWordNumber ? numberString : searchWord)
               )
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1641,6 +1648,7 @@ export class PartnerList extends Component {
         );
 
         const availablePartners = searchWord
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2063,6 +2071,9 @@ export class PartnerList extends Component {
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+            ? partners.filter((p) => regex.test(unaccent(p.searchString))).slice(0, 200)
 >>>>>>> upstream/18.0
 =======
             ? partners.filter((p) => regex.test(unaccent(p.searchString))).slice(0, 200)
