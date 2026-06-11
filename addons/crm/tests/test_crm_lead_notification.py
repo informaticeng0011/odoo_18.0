@@ -394,6 +394,10 @@ class NewLeadNotification(TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        'display_name': 'Planet Express, Philip J Fry',
+>>>>>>> upstream/18.0
 =======
                         'display_name': 'Planet Express, Philip J Fry',
 >>>>>>> upstream/18.0
@@ -1485,6 +1489,10 @@ class NewLeadNotification(TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                  'display_name': 'Test Partner',
+>>>>>>> upstream/18.0
 =======
                   'display_name': 'Test Partner',
 >>>>>>> upstream/18.0
@@ -2583,6 +2591,10 @@ class NewLeadNotification(TestCrmCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                      'display_name': 'Test Partner',
+>>>>>>> upstream/18.0
 =======
                       'display_name': 'Test Partner',
 >>>>>>> upstream/18.0

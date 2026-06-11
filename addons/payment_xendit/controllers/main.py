@@ -48,7 +48,11 @@ from werkzeug.exceptions import Forbidden
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo import http
+=======
+from odoo import _, http
+>>>>>>> upstream/18.0
 =======
 from odoo import _, http
 >>>>>>> upstream/18.0
@@ -194,6 +198,7 @@ class XenditController(http.Controller):
     _return_url = '/payment/xendit/return'
 
     @http.route('/payment/xendit/payment', type='json', auth='public')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1279,10 +1284,14 @@ class XenditController(http.Controller):
 =======
     def xendit_payment(self, reference, token_ref, access_token, auth_id=None):
 >>>>>>> upstream/18.0
+=======
+    def xendit_payment(self, reference, token_ref, access_token, auth_id=None):
+>>>>>>> upstream/18.0
         """ Make a payment by token request and handle the response.
 
         :param str reference: The reference of the transaction.
         :param str token_ref: The reference of the Xendit token to use to make the payment.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2142,10 +2151,14 @@ class XenditController(http.Controller):
 =======
         :param str access_token: The access token used to verify the provided values
 >>>>>>> upstream/18.0
+=======
+        :param str access_token: The access token used to verify the provided values
+>>>>>>> upstream/18.0
         :param str auth_id: The authentication id to use to make the payment.
         :return: None
         """
         tx_sudo = request.env['payment.transaction'].sudo().search([('reference', '=', reference)])
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2871,6 +2884,11 @@ class XenditController(http.Controller):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        if not payment_utils.check_access_token(access_token, reference):
+            raise ValidationError(_("The access token doesn't match the transaction reference."))
+        tx_sudo._xendit_create_charge(token_ref, auth_id=auth_id)
 >>>>>>> upstream/18.0
 =======
         if not payment_utils.check_access_token(access_token, reference):

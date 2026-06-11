@@ -92,7 +92,11 @@ class IrQWeb(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             el.set('t-lang', f"'{snippet_lang}'")
+=======
+            el.set('t-lang', repr(snippet_lang))
+>>>>>>> upstream/18.0
 =======
             el.set('t-lang', repr(snippet_lang))
 >>>>>>> upstream/18.0

@@ -166,8 +166,14 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 move.l10n_hr_edi_addendum_id = self.env['l10n_hr_edi.addendum'].create({
                     'move_id': move.id,
+=======
+                if not move.l10n_hr_edi_addendum_id:
+                    move.l10n_hr_edi_addendum_id = self.env['l10n_hr_edi.addendum'].create({'move_id': move.id})
+                move.l10n_hr_edi_addendum_id.write({
+>>>>>>> upstream/18.0
 =======
                 if not move.l10n_hr_edi_addendum_id:
                     move.l10n_hr_edi_addendum_id = self.env['l10n_hr_edi.addendum'].create({'move_id': move.id})
@@ -795,6 +801,7 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if not isinstance(response, list) and response.get('File'):
                     addendum.mer_document_status = '50'
                     invoice_data['error'] = response.get('File')['Messages']
@@ -816,6 +823,9 @@ class AccountMoveSend(models.AbstractModel):
 =======
 >>>>>>> upstream/18.0
                 if not isinstance(response, list) and not response.get('ElectronicId'):
+=======
+                if not response.get('ElectronicId'):
+>>>>>>> upstream/18.0
 =======
                 if not response.get('ElectronicId'):
 >>>>>>> upstream/18.0
@@ -1377,6 +1387,9 @@ class AccountMoveSend(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

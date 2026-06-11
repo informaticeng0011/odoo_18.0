@@ -297,6 +297,10 @@ class AccountChartTemplate(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'sequence': 2,
+>>>>>>> upstream/18.0
 =======
             'sequence': 2,
 >>>>>>> upstream/18.0

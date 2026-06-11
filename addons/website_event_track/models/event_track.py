@@ -658,7 +658,11 @@ class Track(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise NotImplementedError("Unsupported 'Not In' operation on track wishlist visitors")
+=======
+            raise NotImplementedError(self.env._("Unsupported 'Not In' operation on track wishlist visitors"))
+>>>>>>> upstream/18.0
 =======
             raise NotImplementedError(self.env._("Unsupported 'Not In' operation on track wishlist visitors"))
 >>>>>>> upstream/18.0
@@ -2005,7 +2009,10 @@ class Track(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2831,6 +2838,9 @@ class Track(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

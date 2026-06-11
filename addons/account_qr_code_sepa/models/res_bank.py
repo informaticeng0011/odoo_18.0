@@ -2,6 +2,10 @@
 
 from odoo import models, fields, api, _
 from odoo.addons.account.tools import is_valid_structured_reference, sanitize_structured_reference
+<<<<<<< HEAD
+=======
+from odoo.tools import float_repr
+>>>>>>> upstream/18.0
 
 
 class ResPartnerBank(models.Model):
@@ -16,6 +20,10 @@ class ResPartnerBank(models.Model):
                 structured_communication = ''
                 comment = free_communication or ''
 
+<<<<<<< HEAD
+=======
+            formatted_amount = float_repr(currency.round(amount), currency.decimal_places)
+>>>>>>> upstream/18.0
             qr_code_vals = [
                 'BCD',                                                  # Service Tag
                 '002',                                                  # Version
@@ -24,7 +32,11 @@ class ResPartnerBank(models.Model):
                 self.bank_bic or '',                                    # BIC of the Beneficiary Bank
                 (self.acc_holder_name or self.partner_id.name)[:71],    # Name of the Beneficiary
                 self.sanitized_acc_number,                              # Account Number of the Beneficiary
+<<<<<<< HEAD
                 currency.name + str(amount),                            # Currency + Amount of the Transfer in EUR
+=======
+                currency.name + formatted_amount,                       # Currency + Amount of the Transfer in EUR
+>>>>>>> upstream/18.0
                 '',                                                     # Purpose of the Transfer
                 structured_communication,                               # Remittance Information (Structured)
                 comment[:141],                                          # Remittance Information (Unstructured) (can't be set if there is a structured one)

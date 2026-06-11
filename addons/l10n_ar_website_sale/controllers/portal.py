@@ -169,10 +169,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.portal.controllers.portal import CustomerPortal
 from odoo.http import request
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -682,6 +685,9 @@ from odoo.addons.portal.controllers.portal import CustomerPortal
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1153,6 +1159,7 @@ class L10nARCustomerPortal(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             portal_layout_values.update({
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1379,6 +1386,8 @@ class L10nARCustomerPortal(CustomerPortal):
                 'can_edit_vat': partner.can_edit_vat(),
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1722,6 +1731,9 @@ class L10nARCustomerPortal(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2132,11 +2144,14 @@ class L10nARCustomerPortal(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for identification_field in ('l10n_latam_identification_type_id', 'l10n_ar_afip_responsibility_type_id'):
                 if data.get(identification_field):
                     data[identification_field] = int(data[identification_field])
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2662,6 +2677,9 @@ class L10nARCustomerPortal(CustomerPortal):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

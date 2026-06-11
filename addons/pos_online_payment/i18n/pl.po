@@ -143,6 +143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_online_payment
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +620,9 @@
 =======
 # * pos_online_payment
 >>>>>>> upstream/18.0
+=======
+# * pos_online_payment
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -780,6 +784,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -827,6 +832,10 @@
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -1533,6 +1542,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-26 08:55+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -1946,6 +1956,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-02-14 09:11+0000\n"
 "Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
@@ -2065,6 +2077,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2299,6 +2314,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3199,11 +3215,17 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_online_payment
 #: model_terms:ir.ui.view,arch_db:pos_online_payment.pay
 msgid "<strong>Error:</strong> The currency is missing or invalid."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3701,6 +3723,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "<strong>Błąd:</strong> Waluta nie została podana lub jest nieprawidłowa."
 
 #. module: pos_online_payment
@@ -3842,6 +3866,9 @@ msgstr "<strong>Błąd:</strong> Wystąpił problem podczas procesu płatności.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4255,6 +4282,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Konfiguracja PoS nie może zawierać więcej niż jednej metody płatności online."
+>>>>>>> upstream/18.0
 =======
 "Konfiguracja PoS nie może zawierać więcej niż jednej metody płatności online."
 >>>>>>> upstream/18.0
@@ -4804,7 +4835,11 @@ msgid "A payment option must be specified."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Należy określić opcję płatności."
+>>>>>>> upstream/18.0
 =======
 msgstr "Należy określić opcję płatności."
 >>>>>>> upstream/18.0
@@ -5374,6 +5409,7 @@ msgstr "Należy określić opcję płatności."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid ""
 "A validation payment cannot be used for a Point of Sale online payment."
 =======
@@ -5441,6 +5477,8 @@ msgid "A validation payment cannot be used for a Point of Sale online payment."
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5850,6 +5888,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6261,7 +6302,11 @@ msgid "All available providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Wszyscy dostępni dostawcy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Wszyscy dostępni dostawcy"
 >>>>>>> upstream/18.0
@@ -6815,6 +6860,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wszyscy dostawcy usług płatniczych skonfigurowani dla metody płatności "
+"online muszą używać tej samej waluty, co dziennik sprzedaży lub waluty "
+"firmy, jeśli nie jest ona ustawiona, w konfiguracji PoS."
+>>>>>>> upstream/18.0
 =======
 "Wszyscy dostawcy usług płatniczych skonfigurowani dla metody płatności "
 "online muszą używać tej samej waluty, co dziennik sprzedaży lub waluty "
@@ -7635,7 +7686,11 @@ msgid "Allowed Providers"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dozwoleni dostawcy"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dozwoleni dostawcy"
 >>>>>>> upstream/18.0
@@ -8195,7 +8250,11 @@ msgid "Cancel payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Anuluj płatność"
+>>>>>>> upstream/18.0
 =======
 msgstr "Anuluj płatność"
 >>>>>>> upstream/18.0
@@ -8745,7 +8804,11 @@ msgid "Cannot create a POS online payment without an accounting payment."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można utworzyć płatności online w PoS bez płatności księgowej."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można utworzyć płatności online w PoS bez płatności księgowej."
 >>>>>>> upstream/18.0
@@ -9298,6 +9361,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie można utworzyć płatności PoS przy użyciu metody płatności offline i "
+"płatności księgowej online."
+>>>>>>> upstream/18.0
 =======
 "Nie można utworzyć płatności PoS przy użyciu metody płatności offline i "
 "płatności księgowej online."
@@ -9984,6 +10052,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie można edytować podstawowych danych dotyczących płatności online w PoS."
+>>>>>>> upstream/18.0
 =======
 "Nie można edytować podstawowych danych dotyczących płatności online w PoS."
 >>>>>>> upstream/18.0
@@ -10536,6 +10608,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie można utworzyć metody płatności online (company_id=%(company_id)d, "
+"pos_config_id=%(pos_config_id)d)"
+>>>>>>> upstream/18.0
 =======
 "Nie można utworzyć metody płatności online (company_id=%(company_id)d, "
 "pos_config_id=%(pos_config_id)d)"
@@ -11220,7 +11297,11 @@ msgid "Has An Online Payment Provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Posiada dostawcę usług płatności online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Posiada dostawcę usług płatności online"
 >>>>>>> upstream/18.0
@@ -11770,7 +11851,11 @@ msgid "Invalid online payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowa płatność online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieprawidłowa płatność online"
 >>>>>>> upstream/18.0
@@ -12320,7 +12405,11 @@ msgid "Invalid online payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nieprawidłowe płatności online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nieprawidłowe płatności online"
 >>>>>>> upstream/18.0
@@ -12870,7 +12959,11 @@ msgid "Invoice could not be generated"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można wygenerować faktury"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można wygenerować faktury"
 >>>>>>> upstream/18.0
@@ -13419,7 +13512,11 @@ msgid "Next online payment amount to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kolejna kwota do zapłaty online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kolejna kwota do zapłaty online"
 >>>>>>> upstream/18.0
@@ -13980,7 +14077,11 @@ msgid "Online Payment Method"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Metoda płatności online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metoda płatności online"
 >>>>>>> upstream/18.0
@@ -14529,7 +14630,11 @@ msgid "Online accounting payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Płatności księgowe online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Płatności księgowe online"
 >>>>>>> upstream/18.0
@@ -15079,7 +15184,11 @@ msgid "Online payment unavailable"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Płatność online niedostępna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Płatność online niedostępna"
 >>>>>>> upstream/18.0
@@ -15629,7 +15738,11 @@ msgid "Online payments cannot have a negative amount (%s: %s)."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Płatności online nie mogą mieć wartości ujemnej (%s: %s)."
+>>>>>>> upstream/18.0
 =======
 msgstr "Płatności online nie mogą mieć wartości ujemnej (%s: %s)."
 >>>>>>> upstream/18.0
@@ -16183,7 +16296,11 @@ msgid "Order ID:"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer zamówienia:"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer zamówienia:"
 >>>>>>> upstream/18.0
@@ -16744,7 +16861,11 @@ msgid "Order saving issue"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Problem z zapisywaniem zamówień"
+>>>>>>> upstream/18.0
 =======
 msgstr "Problem z zapisywaniem zamówień"
 >>>>>>> upstream/18.0
@@ -17316,7 +17437,11 @@ msgid "Payment Transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Transakcja płatności"
+=======
+msgstr "Transakcja płatnicza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja płatnicza"
 >>>>>>> upstream/18.0
@@ -17922,7 +18047,11 @@ msgid "QR Code to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kod QR do płatności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Kod QR do płatności"
 >>>>>>> upstream/18.0
@@ -18472,7 +18601,11 @@ msgid "Scan the QR code to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zeskanuj kod QR, aby dokonać płatności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zeskanuj kod QR, aby dokonać płatności"
 >>>>>>> upstream/18.0
@@ -19022,7 +19155,11 @@ msgid "Scan to pay"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Skanuj, aby zapłacić"
+>>>>>>> upstream/18.0
 =======
 msgstr "Skanuj, aby zapłacić"
 >>>>>>> upstream/18.0
@@ -19578,7 +19715,11 @@ msgid "The POS online payment (tx.id=%d) could not be saved correctly"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można poprawnie zapisać płatności online w PoS (tx.id=%d)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można poprawnie zapisać płatności online w PoS (tx.id=%d)"
 >>>>>>> upstream/18.0
@@ -20131,6 +20272,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nie można poprawnie zapisać płatności online w PoS (tx.id=%d), ponieważ nie "
+"znaleziono metody płatności online"
+>>>>>>> upstream/18.0
 =======
 "Nie można poprawnie zapisać płatności online w PoS (tx.id=%d), ponieważ nie "
 "znaleziono metody płatności online"
@@ -20816,7 +20962,11 @@ msgid "The POS session is not opened."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Sesja PoS nie jest otwarta."
+>>>>>>> upstream/18.0
 =======
 msgstr "Sesja PoS nie jest otwarta."
 >>>>>>> upstream/18.0
@@ -21365,7 +21515,11 @@ msgid "The Point of Sale order linked to the payment transaction"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamówienie w Punkcie Sprzedaży powiązane z transakcją płatniczą"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamówienie w Punkcie Sprzedaży powiązane z transakcją płatniczą"
 >>>>>>> upstream/18.0
@@ -21914,7 +22068,11 @@ msgid "The Point of Sale order linked to this payment"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamówienie w Punkcie Sprzedaży powiązane z tą płatnością"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamówienie w Punkcie Sprzedaży powiązane z tą płatnością"
 >>>>>>> upstream/18.0
@@ -22464,7 +22622,11 @@ msgid "The QR Code for paying could not be generated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można wygenerować kodu QR do płatności."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można wygenerować kodu QR do płatności."
 >>>>>>> upstream/18.0
@@ -23014,7 +23176,11 @@ msgid "The amount to pay has changed. Please refresh the page."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Kwota do zapłaty uległa zmianie. Proszę odświeżyć stronę."
+>>>>>>> upstream/18.0
 =======
 msgstr "Kwota do zapłaty uległa zmianie. Proszę odświeżyć stronę."
 >>>>>>> upstream/18.0
@@ -23564,7 +23730,11 @@ msgid "The currency is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Waluta jest nieprawidłowa."
+>>>>>>> upstream/18.0
 =======
 msgstr "Waluta jest nieprawidłowa."
 >>>>>>> upstream/18.0
@@ -24114,7 +24284,11 @@ msgid "The invoice could not be generated."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można wygenerować faktury."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można wygenerować faktury."
 >>>>>>> upstream/18.0
@@ -24670,7 +24844,11 @@ msgid "The order has not been saved correctly on the server."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zamówienie nie zostało poprawnie zapisane na serwerze."
+>>>>>>> upstream/18.0
 =======
 msgstr "Zamówienie nie zostało poprawnie zapisane na serwerze."
 >>>>>>> upstream/18.0
@@ -25220,7 +25398,11 @@ msgid "The partner of the POS online payment (id=%d) could not be found"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można znaleźć partnera płatności PoS online (id=%d)"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można znaleźć partnera płatności PoS online (id=%d)"
 >>>>>>> upstream/18.0
@@ -25770,7 +25952,11 @@ msgid "The payment provider is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Operator płatności jest nieprawidłowy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Operator płatności jest nieprawidłowy."
 >>>>>>> upstream/18.0
@@ -26329,7 +26515,11 @@ msgid "The payment token is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Token płatności jest nieprawidłowy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Token płatności jest nieprawidłowy."
 >>>>>>> upstream/18.0
@@ -26879,7 +27069,11 @@ msgid "The payment transaction (%d) has a negative amount."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcja płatnicza (%d) ma ujemną kwotę."
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja płatnicza (%d) ma ujemną kwotę."
 >>>>>>> upstream/18.0
@@ -27429,7 +27623,11 @@ msgid "The provided order or access token is invalid."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podany token zamówienia lub dostępu jest nieprawidłowy."
+>>>>>>> upstream/18.0
 =======
 msgstr "Podany token zamówienia lub dostępu jest nieprawidłowy."
 >>>>>>> upstream/18.0
@@ -27979,7 +28177,11 @@ msgid "The provided partner_id is different than expected."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Podany partner_id jest inny niż oczekiwany."
+>>>>>>> upstream/18.0
 =======
 msgstr "Podany partner_id jest inny niż oczekiwany."
 >>>>>>> upstream/18.0
@@ -28529,7 +28731,11 @@ msgid "The saved order could not be retrieved."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można odzyskać zapisanego zamówienia."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można odzyskać zapisanego zamówienia."
 >>>>>>> upstream/18.0
@@ -29082,6 +29288,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Łączna kwota pozostałych do wykonania płatności online (%s) nie odpowiada "
+"pozostałej niezapłaconej kwocie zamówienia (%s)."
+>>>>>>> upstream/18.0
 =======
 "Łączna kwota pozostałych do wykonania płatności online (%s) nie odpowiada "
 "pozostałej niezapłaconej kwocie zamówienia (%s)."
@@ -29767,7 +29978,11 @@ msgid "There are online payments that were missing in your view."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "W Twoim widoku brakuje płatności internetowych."
+>>>>>>> upstream/18.0
 =======
 msgstr "W Twoim widoku brakuje płatności internetowych."
 >>>>>>> upstream/18.0
@@ -30320,6 +30535,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wystąpił problem z serwerem. Nie można pobrać statusu płatności za "
+"zamówienie online."
+>>>>>>> upstream/18.0
 =======
 "Wystąpił problem z serwerem. Nie można pobrać statusu płatności za "
 "zamówienie online."
@@ -31008,6 +31228,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wystąpił problem z serwerem. Nie można pobrać statusu płatności online za "
+"zamówienie. Czy na pewno nie ma płatności online za to zamówienie?"
+>>>>>>> upstream/18.0
 =======
 "Wystąpił problem z serwerem. Nie można pobrać statusu płatności online za "
 "zamówienie. Czy na pewno nie ma płatności online za to zamówienie?"
@@ -31695,6 +31920,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Dla tego zamówienia w Punkcie Sprzedaży nie skonfigurowano żadnej metody "
+"płatności online."
+>>>>>>> upstream/18.0
 =======
 "Dla tego zamówienia w Punkcie Sprzedaży nie skonfigurowano żadnej metody "
 "płatności online."
@@ -32380,7 +32610,11 @@ msgid "There is nothing to pay for this order."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie ma nic do zapłacenia za to zamówienie."
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie ma nic do zapłacenia za to zamówienie."
 >>>>>>> upstream/18.0
@@ -32943,6 +33177,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Aby korzystać z metody płatności online w konfiguracji PoS, musi ona mieć co "
+"najmniej jednego opublikowanego dostawcę usług płatniczych obsługującego "
+"walutę tej konfiguracji PoS."
+>>>>>>> upstream/18.0
 =======
 "Aby korzystać z metody płatności online w konfiguracji PoS, musi ona mieć co "
 "najmniej jednego opublikowanego dostawcę usług płatniczych obsługującego "
@@ -33764,7 +34004,11 @@ msgid "Tokenization is not available for logged out customers."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tokenizacja nie jest dostępna dla wylogowanych klientów."
+>>>>>>> upstream/18.0
 =======
 msgstr "Tokenizacja nie jest dostępna dla wylogowanych klientów."
 >>>>>>> upstream/18.0
@@ -34313,7 +34557,11 @@ msgid "Transaction Reference"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer referencyjny transakcji"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer referencyjny transakcji"
 >>>>>>> upstream/18.0
@@ -34873,7 +35121,11 @@ msgid "Updated online payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Zaktualizowane płatności online"
+>>>>>>> upstream/18.0
 =======
 msgstr "Zaktualizowane płatności online"
 >>>>>>> upstream/18.0
@@ -35425,6 +35677,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Użyj tej metody płatności dla płatności online (płatności dokonywane na "
+"stronie internetowej za pośrednictwem dostawców usług płatności online)."
+>>>>>>> upstream/18.0
 =======
 "Użyj tej metody płatności dla płatności online (płatności dokonywane na "
 "stronie internetowej za pośrednictwem dostawców usług płatności online)."
@@ -36115,7 +36372,11 @@ msgid "You have not activated any"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie aktywowałeś żadnej"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie aktywowałeś żadnej"
 >>>>>>> upstream/18.0
@@ -36664,6 +36925,7 @@ msgid "payment provider"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
 =======
 msgstr "dostawca usług płatniczych"
@@ -36727,6 +36989,9 @@ msgstr "dostawca usług płatniczych"
 >>>>>>> upstream/18.0
 =======
 msgstr "dostawca usług płatniczych"
+>>>>>>> upstream/18.0
+=======
+msgstr "operator płatności"
 >>>>>>> upstream/18.0
 =======
 msgstr "operator płatności"
@@ -37213,7 +37478,11 @@ msgid "to allow online payments."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "aby umożliwić płatności online."
+>>>>>>> upstream/18.0
 =======
 msgstr "aby umożliwić płatności online."
 >>>>>>> upstream/18.0

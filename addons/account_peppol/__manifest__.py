@@ -13,8 +13,13 @@
         # !!! KEEP ALIGNED WITH ACCOUNT/MODELS/COMPANY.PEPPOL_DEFAULT_COUNTRIES
         'at', 'be', 'ch', 'cy', 'cz', 'de', 'dk', 'ee', 'es', 'fi',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'fr', 'gr', 'ie', 'is', 'it', 'lt', 'lu', 'lv', 'mt', 'nl',
         'no', 'pl', 'pt', 'ro', 'se', 'si',
+=======
+        'fr', 'ie', 'is', 'lt', 'lu', 'lv', 'mt', 'nl', 'no', 'se',
+        'si',
+>>>>>>> upstream/18.0
 =======
         'fr', 'ie', 'is', 'lt', 'lu', 'lv', 'mt', 'nl', 'no', 'se',
         'si',

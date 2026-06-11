@@ -70,7 +70,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <t t-foreach="pos.models['restaurant.floor'].getAll()" t-as="floor" t-key="floor.id">
+=======
+                    <t t-foreach="pos.config.floor_ids.filter((f) => f.active)" t-as="floor" t-key="floor.id">
+>>>>>>> upstream/18.0
 =======
                     <t t-foreach="pos.config.floor_ids.filter((f) => f.active)" t-as="floor" t-key="floor.id">
 >>>>>>> upstream/18.0

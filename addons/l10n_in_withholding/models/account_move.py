@@ -126,8 +126,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         and tax.amount != max(tax.l10n_in_section_id.l10n_in_section_tax_ids, key=lambda t: abs(t.amount)).amount
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -330,6 +333,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -561,8 +567,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         tax.l10n_in_section_id.l10n_in_section_tax_ids,
                         key=lambda t: t.amount
+=======
+                        tax.l10n_in_section_id.with_context(active_test=False).l10n_in_section_tax_ids,
+                        key=lambda t: abs(t.amount),
+>>>>>>> upstream/18.0
 =======
                         tax.l10n_in_section_id.with_context(active_test=False).l10n_in_section_tax_ids,
                         key=lambda t: abs(t.amount),
@@ -1059,7 +1070,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         company_fiscalyear_dates = self.company_id.compute_fiscalyear_dates(self.date)
+=======
+        company_fiscalyear_dates = self.company_id.sudo().compute_fiscalyear_dates(self.date)
+>>>>>>> upstream/18.0
 =======
         company_fiscalyear_dates = self.company_id.sudo().compute_fiscalyear_dates(self.date)
 >>>>>>> upstream/18.0
@@ -1912,7 +1927,11 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 group_key = line.account_id.l10n_in_tds_tcs_section_id
+=======
+                group_key = line.account_id.sudo().l10n_in_tds_tcs_section_id
+>>>>>>> upstream/18.0
 =======
                 group_key = line.account_id.sudo().l10n_in_tds_tcs_section_id
 >>>>>>> upstream/18.0

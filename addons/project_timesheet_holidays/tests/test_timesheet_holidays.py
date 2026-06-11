@@ -305,7 +305,11 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'name': 'Time Off Type with timesheet generation',
+=======
+            'name': 'Time Off Type with timesheet generation (absence)',
+>>>>>>> upstream/18.0
 =======
             'name': 'Time Off Type with timesheet generation (absence)',
 >>>>>>> upstream/18.0
@@ -1376,7 +1380,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2320,6 +2327,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2442,6 +2450,8 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3200,6 +3210,9 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4027,7 +4040,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4791,6 +4807,9 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5585,12 +5604,15 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             timesheets.with_user(self.empl_employee).write({'task_id': 4})
 
         # should not able to create timesheet in timeoff task
         with self.assertRaises(UserError):
             self.env['account.analytic.line'].with_user(self.empl_employee).create({
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6262,6 +6284,9 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7113,7 +7138,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8133,6 +8161,10 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'full_time_required_hours': 40.0,
+>>>>>>> upstream/18.0
 =======
             'full_time_required_hours': 40.0,
 >>>>>>> upstream/18.0
@@ -9400,6 +9432,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertEqual(timesheet.unit_amount, 24, "The duration of the timesheet for flexible employee leave "
                                                         "should be number of days * hours per day")
 <<<<<<< HEAD
@@ -10254,6 +10287,8 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.assertEqual(len(timesheet), 3, "Three timesheets should be created for each leave day")
         self.assertEqual(sum(timesheet.mapped('unit_amount')), 24, "The duration of the timesheet for flexible employee leave "
                                                         "should be number of days * hours per day")
@@ -10559,6 +10594,7 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10567,6 +10603,8 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11391,6 +11429,9 @@ class TestTimesheetHolidays(TestCommonTimesheet):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

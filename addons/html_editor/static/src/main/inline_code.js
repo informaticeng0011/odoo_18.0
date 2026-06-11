@@ -61,6 +61,7 @@ import { Plugin } from "@html_editor/plugin";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { splitTextNode } from "@html_editor/utils/dom";
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -737,10 +738,16 @@ import { closestBlock, isBlock } from "@html_editor/utils/blocks";
 import { splitTextNode } from "@html_editor/utils/dom";
 import { closestElement, findFurthest, selectElements } from "@html_editor/utils/dom_traversal";
 >>>>>>> upstream/18.0
+=======
+import { closestBlock, isBlock } from "@html_editor/utils/blocks";
+import { splitTextNode } from "@html_editor/utils/dom";
+import { closestElement, findFurthest, selectElements } from "@html_editor/utils/dom_traversal";
+>>>>>>> upstream/18.0
 import { DIRECTIONS } from "@html_editor/utils/position";
 
 export class InlineCodePlugin extends Plugin {
     static id = "inlineCode";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1265,6 +1272,9 @@ export class InlineCodePlugin extends Plugin {
 =======
     static dependencies = ["clipboard", "feff", "history", "input", "selection", "split"];
 >>>>>>> upstream/18.0
+=======
+    static dependencies = ["clipboard", "feff", "history", "input", "selection", "split"];
+>>>>>>> upstream/18.0
     resources = {
         input_handlers: this.onInput.bind(this),
         normalize_handlers: this.normalize.bind(this),
@@ -1428,6 +1438,7 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1610,6 +1621,8 @@ export class InlineCodePlugin extends Plugin {
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1825,6 +1838,9 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2305,11 +2321,14 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.dependencies.selection.setSelection({ anchorNode: textNode, anchorOffset: offset });
         const textHasTwoTicks = /`.*`/.test(textNode.textContent);
         // We don't apply the code tag if there is no content between the two `
         if (textHasTwoTicks && textNode.textContent.replace(/`/g, "").length) {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3310,6 +3329,9 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4061,6 +4083,7 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Remove ticks.
             textNode.textContent = textNode.textContent.substring(
                 1,
@@ -4072,6 +4095,8 @@ export class InlineCodePlugin extends Plugin {
             textNode.before(codeElement);
             codeElement.append(textNode);
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4266,6 +4291,9 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4564,7 +4592,10 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5027,6 +5058,9 @@ export class InlineCodePlugin extends Plugin {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

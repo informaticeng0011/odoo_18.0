@@ -111,6 +111,10 @@ from packaging.utils import canonicalize_name
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from packaging.version import parse, InvalidVersion
+>>>>>>> upstream/18.0
 =======
 from packaging.version import parse, InvalidVersion
 >>>>>>> upstream/18.0
@@ -390,10 +394,13 @@ def parse_version(vstring: str) -> Optional[Version]:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if not vstring:
         return None
     return tuple(map(int, vstring.split('.')))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -581,6 +588,9 @@ def parse_version(vstring: str) -> Optional[Version]:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1104,7 +1114,11 @@ def main(args):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         assert format in SUPPORTED_FORMATS
+=======
+        assert output_format in SUPPORTED_FORMATS
+>>>>>>> upstream/18.0
 =======
         assert output_format in SUPPORTED_FORMATS
 >>>>>>> upstream/18.0

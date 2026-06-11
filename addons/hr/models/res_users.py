@@ -60,6 +60,10 @@ HR_READABLE_FIELDS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'employee_country_code',
+>>>>>>> upstream/18.0
 =======
     'employee_country_code',
 >>>>>>> upstream/18.0
@@ -366,6 +370,10 @@ class User(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    employee_country_code = fields.Char(related='employee_id.company_country_code', string="Employee's Country Code", readonly=True, related_sudo=False)
+>>>>>>> upstream/18.0
 =======
     employee_country_code = fields.Char(related='employee_id.company_country_code', string="Employee's Country Code", readonly=True, related_sudo=False)
 >>>>>>> upstream/18.0

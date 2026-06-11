@@ -59,7 +59,11 @@ class ProjectMilestone(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     product_uom_qty = fields.Float("Quantity", compute="_compute_product_uom_qty", readonly=False)
+=======
+    product_uom_qty = fields.Float("Quantity", compute="_compute_product_uom_qty", compute_sudo=True, readonly=False)
+>>>>>>> upstream/18.0
 =======
     product_uom_qty = fields.Float("Quantity", compute="_compute_product_uom_qty", compute_sudo=True, readonly=False)
 >>>>>>> upstream/18.0

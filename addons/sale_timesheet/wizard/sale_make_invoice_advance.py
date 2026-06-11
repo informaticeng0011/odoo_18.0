@@ -68,9 +68,14 @@ class SaleAdvancePaymentInv(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if self.date_start_invoice_timesheet or self.date_end_invoice_timesheet:
                 sale_orders.order_line._recompute_qty_to_invoice(
                     self.date_start_invoice_timesheet, self.date_end_invoice_timesheet)
+=======
+            sale_orders.order_line._recompute_qty_to_invoice(
+                self.date_start_invoice_timesheet, self.date_end_invoice_timesheet)
+>>>>>>> upstream/18.0
 =======
             sale_orders.order_line._recompute_qty_to_invoice(
                 self.date_start_invoice_timesheet, self.date_end_invoice_timesheet)

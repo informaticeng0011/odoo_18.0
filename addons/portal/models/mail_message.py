@@ -189,7 +189,11 @@ class MailMessage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     },
+=======
+                    } if message.author_id else False,
+>>>>>>> upstream/18.0
 =======
                     } if message.author_id else False,
 >>>>>>> upstream/18.0
@@ -692,6 +696,7 @@ class MailMessage(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if self.model and self.res_id and self.env.user._is_public():
 =======
         if self.model and self.res_id:
@@ -794,6 +799,9 @@ class MailMessage(models.Model):
 >>>>>>> upstream/18.0
 =======
         if self.model and self.res_id:
+>>>>>>> upstream/18.0
+=======
+        if self.model and self.res_id and self.env.user._is_public():
 >>>>>>> upstream/18.0
 =======
         if self.model and self.res_id and self.env.user._is_public():

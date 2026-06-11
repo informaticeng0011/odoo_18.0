@@ -223,10 +223,15 @@ export class RecordListInternal {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         const old = recordList._proxy.at(-1);
                         recordList.splice.call(recordList._proxy, index, 1);
                         self.syncLength(recordList);
                         old._.uses.delete(recordList);
+=======
+                        recordList.splice.call(recordList._proxy, index, 1);
+                        self.syncLength(recordList);
+>>>>>>> upstream/18.0
 =======
                         recordList.splice.call(recordList._proxy, index, 1);
                         self.syncLength(recordList);
@@ -566,6 +571,7 @@ export class RecordList extends Array {
                             recordList,
                             val,
                             function recordListSet_Insert(newRecord) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1498,6 +1504,8 @@ export class RecordList extends Array {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                                 const oldRecord = toRaw(
                                     toRaw(recordList._store.recordByLocalId).get(
                                         recordList.data[index]
@@ -1812,6 +1820,9 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2752,7 +2763,11 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     oldRecord[inverse].delete(recordList);
+=======
+                                    oldRecord[inverse].delete(recordList._.owner);
+>>>>>>> upstream/18.0
 =======
                                     oldRecord[inverse].delete(recordList._.owner);
 >>>>>>> upstream/18.0
@@ -4004,7 +4019,11 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         newRecord[inverse].add(recordList);
+=======
+                                        newRecord[inverse].add(recordList._.owner);
+>>>>>>> upstream/18.0
 =======
                                         newRecord[inverse].add(recordList._.owner);
 >>>>>>> upstream/18.0
@@ -5112,10 +5131,16 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             const oldRecordsProxy = recordList._proxyInternal.slice.call(
                 recordListFullProxy,
                 start,
                 start + deleteCount
+=======
+            const oldRecordLocalIds = recordList.data.slice(start, start + deleteCount);
+            const oldRecords = oldRecordLocalIds.map(
+                (localId) => toRaw(toRaw(recordList._store.recordByLocalId).get(localId))._raw
+>>>>>>> upstream/18.0
 =======
             const oldRecordLocalIds = recordList.data.slice(start, start + deleteCount);
             const oldRecords = oldRecordLocalIds.map(
@@ -5434,8 +5459,12 @@ export class RecordList extends Array {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             for (const oldRecordProxy of oldRecordsProxy) {
                 const oldRecord = toRaw(oldRecordProxy)._raw;
+=======
+            for (const oldRecord of oldRecords) {
+>>>>>>> upstream/18.0
 =======
             for (const oldRecord of oldRecords) {
 >>>>>>> upstream/18.0

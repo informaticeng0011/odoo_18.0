@@ -289,6 +289,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    onRpc,
+>>>>>>> upstream/18.0
 =======
     onRpc,
 >>>>>>> upstream/18.0
@@ -1428,6 +1432,10 @@ import { groupBy } from "@web/core/utils/arrays";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+const mockRpcRegistry = registry.category("mail.mock_rpc");
+>>>>>>> upstream/18.0
 =======
 const mockRpcRegistry = registry.category("mail.mock_rpc");
 >>>>>>> upstream/18.0
@@ -2623,7 +2631,11 @@ export function registerRoute(route, handler) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const beforeCallableHandler = async function (request) {
+=======
+    async function beforeCallableHandler(request) {
+>>>>>>> upstream/18.0
 =======
     async function beforeCallableHandler(request) {
 >>>>>>> upstream/18.0
@@ -3493,6 +3505,7 @@ export function registerRoute(route, handler) {
             return res;
         }
         return response;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5193,6 +5206,11 @@ export function registerRoute(route, handler) {
     mockRpcRegistry.add(route, beforeCallableHandler);
     onRpc(route, beforeCallableHandler);
 >>>>>>> upstream/18.0
+=======
+    }
+    mockRpcRegistry.add(route, beforeCallableHandler);
+    onRpc(route, beforeCallableHandler);
+>>>>>>> upstream/18.0
 }
 
 // RPC handlers
@@ -5409,7 +5427,11 @@ async function mail_attachment_upload(request) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const body = await request.text();
+=======
+    const body = await request.formData();
+>>>>>>> upstream/18.0
 =======
     const body = await request.formData();
 >>>>>>> upstream/18.0
@@ -6610,7 +6632,11 @@ async function mail_message_update_content(request) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const { attachment_ids, body, message_id } = await parseRequestParams(request);
+=======
+    const { attachment_ids, body, message_id, ...kwargs } = await parseRequestParams(request);
+>>>>>>> upstream/18.0
 =======
     const { attachment_ids, body, message_id, ...kwargs } = await parseRequestParams(request);
 >>>>>>> upstream/18.0
@@ -6654,6 +6680,12 @@ async function mail_message_update_content(request) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    if ("subject" in kwargs) {
+        msg_values.subject = kwargs.subject;
+    }
+>>>>>>> upstream/18.0
 =======
     if ("subject" in kwargs) {
         msg_values.subject = kwargs.subject;
@@ -6689,6 +6721,7 @@ async function mail_message_update_content(request) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     BusBus._sendone(
         MailMessage._bus_notification_target(message.id),
         "mail.record/insert",
@@ -6702,6 +6735,8 @@ async function mail_message_update_content(request) {
             ),
         }).get_result()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6730,6 +6765,9 @@ async function mail_message_update_content(request) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

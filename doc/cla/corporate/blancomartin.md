@@ -39,7 +39,11 @@ Daniel Blanco daniel@blancomartin.cl https://github.com/danisan
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Corporation name: Blanco Martin & Asociados EIRL
+=======
+Corporation name: Blanco Martin y Asociados SpA
+>>>>>>> upstream/18.0
 =======
 Corporation name: Blanco Martin y Asociados SpA
 >>>>>>> upstream/18.0
@@ -167,12 +171,17 @@ List of contributors:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 * Alejandro Paciotti alejandro@blancomartin.cl https://github.com/alp-bmya
 * Albert Nieriz albert@blancomartin.cl https://github.com/aln-bmya
 * Bruno Figares bruno@blancomartin.cl https://github.com/brf-bmya
 * Susana Vazquez susana@blancomartin.cl https://github.com/suv-bmya
 * Hector Aular Osorio hector@blancomartin.cl https://github.com/hea-bmya
 * Jose Moreno Hanshing jose@blancomartin.cl https://github.com/jmo-bmya
+=======
+* Hector Aular Osorio hector@blancomartin.cl https://github.com/hea-bmya
+* Luis Alfredo Lopez Muñoz luis@bmya.cl https://github.com/lal-bmya
+>>>>>>> upstream/18.0
 =======
 * Hector Aular Osorio hector@blancomartin.cl https://github.com/hea-bmya
 * Luis Alfredo Lopez Muñoz luis@bmya.cl https://github.com/lal-bmya

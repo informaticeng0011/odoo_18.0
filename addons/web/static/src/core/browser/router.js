@@ -390,7 +390,11 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (prefix === "odoo" || isScopedApp()) {
+=======
+    if (["odoo", "scoped_app"].includes(prefix)) {
+>>>>>>> upstream/18.0
 =======
     if (["odoo", "scoped_app"].includes(prefix)) {
 >>>>>>> upstream/18.0
@@ -1271,7 +1275,10 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1901,6 +1908,9 @@ export function urlToState(urlObj) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2570,7 +2580,10 @@ browser.addEventListener("popstate", (ev) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3199,6 +3212,9 @@ browser.addEventListener("popstate", (ev) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

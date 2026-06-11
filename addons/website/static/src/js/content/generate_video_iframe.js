@@ -230,6 +230,7 @@ const SUPPORTED_DOMAINS = [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "player.youku.com",
     "youku.com",
 =======
@@ -317,6 +318,11 @@ export function escape(str) {
 }
 
 /**
+=======
+];
+
+/**
+>>>>>>> upstream/18.0
 =======
 ];
 
@@ -1494,7 +1500,11 @@ export function generateVideoIframe(parentEl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const src = escape(parentEl.dataset.oeExpression || parentEl.dataset.src);
+=======
+    const src = parentEl.dataset.oeExpression || parentEl.dataset.src;
+>>>>>>> upstream/18.0
 =======
     const src = parentEl.dataset.oeExpression || parentEl.dataset.src;
 >>>>>>> upstream/18.0
@@ -2261,6 +2271,10 @@ export function generateVideoIframe(parentEl) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    iframeEl.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+>>>>>>> upstream/18.0
 =======
     iframeEl.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
 >>>>>>> upstream/18.0

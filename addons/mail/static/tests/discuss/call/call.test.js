@@ -120,6 +120,7 @@ import { mailDataHelpers } from "@mail/../tests/mock_server/mail_mock_server";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { describe, expect, test } from "@odoo/hoot";
 import { advanceTime, hover, manuallyDispatchProgrammaticEvent, queryFirst } from "@odoo/hoot-dom";
 <<<<<<< HEAD
@@ -864,6 +865,8 @@ import { mockSendBeacon } from "@odoo/hoot-mock";
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import {
     advanceTime,
     describe,
@@ -978,6 +981,9 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1432,8 +1438,11 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { isMobileOS } from "@web/core/browser/feature_detection";
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2172,10 +2181,13 @@ test("basic rendering", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     // screen sharing not available in mobile OS
     mockUserAgent("Chrome/0.0.0 Android (OdooMobile; Linux; Android 13; Odoo TestSuite)");
     expect(isMobileOS()).toBe(true);
     await contains("[title='Share Screen']", { count: 0 });
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3199,6 +3211,7 @@ test("join/leave sounds are only played on main tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     await click("[title='Start a Call']", { target: env1 });
     await contains(".o-discuss-Call", { target: env1 });
     await contains(".o-discuss-Call", { target: env2 });
@@ -3207,6 +3220,8 @@ test("join/leave sounds are only played on main tab", async () => {
     await contains(".o-discuss-Call", { target: env1, count: 0 });
     await contains(".o-discuss-Call", { target: env2, count: 0 });
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4024,6 +4039,9 @@ test("join/leave sounds are only played on main tab", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4965,6 +4983,12 @@ test("Use saved volume settings", async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    await contains(
+        `.o-discuss-CallParticipantCard[title='${partnerName}'] .o-discuss-CallParticipantCard-contextMenuAnchor`
+    );
+>>>>>>> upstream/18.0
 =======
     await contains(
         `.o-discuss-CallParticipantCard[title='${partnerName}'] .o-discuss-CallParticipantCard-contextMenuAnchor`
@@ -6463,7 +6487,10 @@ test("should also invite to the call when inviting to the channel", async () => 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7217,6 +7244,9 @@ test("should not show context menu on participant card when not in a call", asyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

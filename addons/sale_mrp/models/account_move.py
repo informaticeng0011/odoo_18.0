@@ -63,6 +63,11 @@ class AccountMoveLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    if not bom:
+                        return price_unit
+>>>>>>> upstream/18.0
 =======
                     if not bom:
                         return price_unit

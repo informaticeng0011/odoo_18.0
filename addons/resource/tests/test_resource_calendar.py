@@ -184,6 +184,7 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 from freezegun import freeze_time
@@ -464,6 +465,9 @@ from odoo import Command
 from freezegun import freeze_time
 
 from odoo import Command
+>>>>>>> upstream/18.0
+=======
+
 >>>>>>> upstream/18.0
 =======
 
@@ -1146,7 +1150,10 @@ class TestResourceCalendar(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1668,6 +1675,7 @@ class TestResourceCalendar(TransactionCase):
         """
         Test that the duration of an attendance interval for flexible calendar is correctly computed.
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2458,6 +2466,8 @@ class TestResourceCalendar(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         flexible_calendar = self.env['resource.calendar'].create({
             'name': 'Flexible Calendar',
             'hours_per_day': 7.0,
@@ -2487,6 +2497,7 @@ class TestResourceCalendar(TransactionCase):
 
         self.assertTrue(start_dt <= result_per_resource_id[0]._items[0][0], "First attendance interval should not start before start_dt")
         self.assertTrue(end_dt >= result_per_resource_id[0]._items[4][1], "Last attendance interval should not end after end_dt")
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3203,6 +3214,8 @@ class TestResourceCalendar(TransactionCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def test_public_holiday_calendar_no_company(self):
         self.env['resource.calendar.leaves'].create([{
@@ -3356,6 +3369,9 @@ class TestResourceCalendar(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

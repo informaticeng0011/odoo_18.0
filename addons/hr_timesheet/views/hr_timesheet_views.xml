@@ -474,6 +474,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         ('date', '&gt;=', (datetime.datetime.combine(context_today() + relativedelta(weeks=-1,days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
                         ('date', '&lt;', (datetime.datetime.combine(context_today() + relativedelta(days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
                     ]"/>
@@ -549,6 +550,8 @@
                         ('date', '&gt;=', (datetime.datetime.combine(context_today() + relativedelta(weeks=-2,days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
                         ('date', '&lt;', (datetime.datetime.combine(context_today() + relativedelta(weeks=-1,days=1,weekday=0), datetime.time(0,0,0)).to_utc())),
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1336,6 +1339,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1927,7 +1933,15 @@
                         <t t-name="card">
                             <div class="d-flex gap-1">
                                 <span t-att-title="record.employee_id.value">
+<<<<<<< HEAD
                                     <field name="employee_id" widget="image" options="{'preview_image': 'avatar_128'}" class="o_image_64_cover me-2 float-start"/>
+=======
+                                    <field name="employee_id" widget="image" options="{'preview_image': 'avatar_128'}" class="o_image_64_cover me-2 float-start" invisible="1"/>
+                                    <img t-att-src="'/web/image/hr.employee.public/' + record.employee_id.raw_value + '/avatar_128'
+                                    + '?unique=' + record.write_date.raw_value"
+                                    class="o_image_64_cover float-start me-2"
+                                    alt="Employee's image"/>
+>>>>>>> upstream/18.0
                                 </span>
                                 <div class="d-flex flex-column min-w-0 lh-sm">
                                     <span class="text-truncate" invisible="context.get('default_project_id')" t-att-title="record.project_id.value">

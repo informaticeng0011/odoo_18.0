@@ -374,7 +374,11 @@ class TestCompanyLeave(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(__system__=1856):  # 770 community
+=======
+        with self.assertQueryCount(__system__=1857):  # 770 community
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(__system__=1857):  # 770 community
 >>>>>>> upstream/18.0

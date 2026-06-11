@@ -105,7 +105,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <field name="complete_name" string="Name"/>
+=======
+                    <field name="complete_name" string="Name" column_invisible="true"/>
+                    <field name="display_name" string="Name"/>
+>>>>>>> upstream/18.0
 =======
                     <field name="complete_name" string="Name" column_invisible="true"/>
                     <field name="display_name" string="Name"/>
@@ -659,7 +664,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                        filter_domain="['|', '|', '|', '|', ('complete_name', 'ilike', self), ('ref', 'ilike', self), ('email', 'ilike', self), ('vat', 'ilike', self), ('company_registry', 'ilike', self)]"/>
+=======
+                       filter_domain="[('display_name', 'ilike', self)]"/>
+>>>>>>> upstream/18.0
 =======
                        filter_domain="[('display_name', 'ilike', self)]"/>
 >>>>>>> upstream/18.0

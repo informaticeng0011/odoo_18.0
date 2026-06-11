@@ -49,7 +49,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                    <field name="template_ref" options="{'no_quick_create': True}" context="{'filter_template_on_event': True, 'default_model': 'event.registration'}" widget="EventMailTemplateReferenceField"/>
+=======
+                                   <field name="template_ref" options="{'no_quick_create': True, 'no_create_edit': True}" context="{'filter_template_on_event': True, 'default_model': 'event.registration'}" widget="EventMailTemplateReferenceField"/>
+>>>>>>> upstream/18.0
 =======
                                    <field name="template_ref" options="{'no_quick_create': True, 'no_create_edit': True}" context="{'filter_template_on_event': True, 'default_model': 'event.registration'}" widget="EventMailTemplateReferenceField"/>
 >>>>>>> upstream/18.0

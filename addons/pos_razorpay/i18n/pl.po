@@ -143,6 +143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* pos_razorpay
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -619,6 +620,9 @@
 =======
 # * pos_razorpay
 >>>>>>> upstream/18.0
+=======
+# * pos_razorpay
+>>>>>>> upstream/18.0
 #
 # Translators:
 # Wil Odoo, 2024
@@ -780,6 +784,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -806,6 +811,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 >>>>>>> upstream/18.0
 =======
 # "Marta (wacm)" <wacm@odoo.com>, 2026.
@@ -1397,6 +1405,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "POT-Creation-Date: 2024-09-25 08:39+0000\n"
 "PO-Revision-Date: 2024-09-25 09:41+0000\n"
 "Last-Translator: Marta Wacławek, 2025\n"
@@ -1438,6 +1447,8 @@ msgstr ""
 "Last-Translator: Marta Wacławek, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/odoo/teams/41243/pl/)\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1869,6 +1880,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2159,6 +2173,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3059,6 +3074,11 @@ msgstr ""
 "(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Generator: Weblate 5.14.3\n"
 >>>>>>> upstream/18.0
+=======
+"(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || "
+"(n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Weblate 5.14.3\n"
+>>>>>>> upstream/18.0
 
 #. module: pos_razorpay
 #: model:ir.model.fields.selection,name:pos_razorpay.selection__pos_payment_method__razorpay_allowed_payment_modes__all
@@ -3217,7 +3237,11 @@ msgid "Cannot decode Razorpay POS response"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nie można odkodować odpowiedzi Razorpay PoS"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nie można odkodować odpowiedzi Razorpay PoS"
 >>>>>>> upstream/18.0
@@ -3808,6 +3832,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Wybierz dozwoloną metodę płatności: \n"
+" Wszystkie/Karta/UPI lub QR"
+>>>>>>> upstream/18.0
 =======
 "Wybierz dozwoloną metodę płatności: \n"
 " Wszystkie/Karta/UPI lub QR"
@@ -4540,6 +4569,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Numer seryjny urządzenia \n"
+" np: 7000012300"
+>>>>>>> upstream/18.0
 =======
 "Numer seryjny urządzenia \n"
 " np: 7000012300"
@@ -5263,6 +5297,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Płatność w kolejce. Możesz poczekać na rozpoczęcie płatności w terminalu lub "
+"przejść do anulowania tej transakcji."
+>>>>>>> upstream/18.0
 =======
 "Płatność w kolejce. Możesz poczekać na rozpoczęcie płatności w terminalu lub "
 "przejść do anulowania tej transakcji."
@@ -5982,7 +6021,11 @@ msgid "Point of Sale Payment Methods"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Metody płatności punktu sprzedaży"
+=======
+msgstr "Metody płatności Punktu Sprzedaży"
+>>>>>>> upstream/18.0
 =======
 msgstr "Metody płatności Punktu Sprzedaży"
 >>>>>>> upstream/18.0
@@ -6559,7 +6602,11 @@ msgid "Point of Sale Payments"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Płatności punktu sprzedaży"
+=======
+msgstr "Płatności Punktu Sprzedaży"
+>>>>>>> upstream/18.0
 =======
 msgstr "Płatności Punktu Sprzedaży"
 >>>>>>> upstream/18.0
@@ -7136,7 +7183,11 @@ msgid "Razorpay API Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Klucz API Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Klucz API Razorpay"
 >>>>>>> upstream/18.0
@@ -7713,7 +7764,11 @@ msgid "Razorpay Allowed Payment Modes"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Dozwolone tryby płatności Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Dozwolone tryby płatności Razorpay"
 >>>>>>> upstream/18.0
@@ -8290,7 +8345,11 @@ msgid "Razorpay Device Serial No"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer seryjny urządzenie Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer seryjny urządzenie Razorpay"
 >>>>>>> upstream/18.0
@@ -8868,7 +8927,11 @@ msgid "Razorpay Error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Błąd Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Błąd Razorpay"
 >>>>>>> upstream/18.0
@@ -9449,6 +9512,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Oczekiwany błąd żądania anulowania płatności Razorpay PoS Kod błędu nie "
+"znaleziony w odpowiedzi"
+>>>>>>> upstream/18.0
 =======
 "Oczekiwany błąd żądania anulowania płatności Razorpay PoS Kod błędu nie "
 "znaleziony w odpowiedzi"
@@ -10171,6 +10239,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Oczekiwany błąd żądania płatności Razorpay PoS Kod nie znaleziony w "
+"odpowiedzi"
+>>>>>>> upstream/18.0
 =======
 "Oczekiwany błąd żądania płatności Razorpay PoS Kod nie znaleziony w "
 "odpowiedzi"
@@ -10894,6 +10967,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Oczekiwany błąd żądania statusu płatności Razorpay PoS Kod błędu nie "
+"znaleziony w odpowiedzi"
+>>>>>>> upstream/18.0
 =======
 "Oczekiwany błąd żądania statusu płatności Razorpay PoS Kod błędu nie "
 "znaleziony w odpowiedzi"
@@ -11614,7 +11692,11 @@ msgid "Razorpay POS transaction canceled successfully"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcja Razorpay PoS została pomyślnie anulowana."
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja Razorpay PoS została pomyślnie anulowana."
 >>>>>>> upstream/18.0
@@ -12192,7 +12274,11 @@ msgid "Razorpay POS transaction failed"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcja Razorpay PoS nie powiodła się"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja Razorpay PoS nie powiodła się"
 >>>>>>> upstream/18.0
@@ -12769,7 +12855,11 @@ msgid "Razorpay Reverse Reference No."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer referencyjny Razorpay Reverse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer referencyjny Razorpay Reverse"
 >>>>>>> upstream/18.0
@@ -13346,7 +13436,11 @@ msgid "Razorpay Test Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tryb testowy Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tryb testowy Razorpay"
 >>>>>>> upstream/18.0
@@ -13923,7 +14017,11 @@ msgid "Razorpay Username"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Nazwa użytkownika Razorpay"
+>>>>>>> upstream/18.0
 =======
 msgstr "Nazwa użytkownika Razorpay"
 >>>>>>> upstream/18.0
@@ -14501,7 +14599,11 @@ msgid "Reference number mismatched"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Numer referencyjny się nie zgadza"
+>>>>>>> upstream/18.0
 =======
 msgstr "Numer referencyjny się nie zgadza"
 >>>>>>> upstream/18.0
@@ -15079,7 +15181,11 @@ msgid "This Payment Terminal is only valid for INR Currency"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Ten terminal płatniczy jest ważny wyłącznie dla waluty INR."
+>>>>>>> upstream/18.0
 =======
 msgstr "Ten terminal płatniczy jest ważny wyłącznie dla waluty INR."
 >>>>>>> upstream/18.0
@@ -15657,7 +15763,11 @@ msgid "Transaction failed due to inactivity"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Transakcja nie powiodła się z powodu braku aktywności"
+>>>>>>> upstream/18.0
 =======
 msgstr "Transakcja nie powiodła się z powodu braku aktywności"
 >>>>>>> upstream/18.0
@@ -16234,7 +16344,11 @@ msgid "Turn it on when in Test Mode"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Włącz w trybie testowym"
+>>>>>>> upstream/18.0
 =======
 msgstr "Włącz w trybie testowym"
 >>>>>>> upstream/18.0
@@ -16830,6 +16944,7 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Used when connecting to Razorpay: "
 "https://razorpay.com/docs/payments/dashboard/account-settings/api-keys/"
 =======
@@ -16890,6 +17005,8 @@ msgid ""
 >>>>>>> upstream/18.0
 msgstr ""
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17321,6 +17438,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17756,6 +17876,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"Nazwa użytkownika (login urządzenia) \n"
+" np.: 1234500121"
+>>>>>>> upstream/18.0
 =======
 "Nazwa użytkownika (login urządzenia) \n"
 " np.: 1234500121"

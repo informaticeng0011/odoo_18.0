@@ -153,12 +153,15 @@ registerWebsitePreviewTour('edit_menus', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         content: "It didn't save without a url. Fill url input.",
         trigger: '.modal:not(.o_inactive_modal) .modal-dialog .o_website_dialog input:eq(1)',
         run: "edit #",
     },
     {
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -327,6 +330,9 @@ registerWebsitePreviewTour('edit_menus', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -528,7 +534,10 @@ registerWebsitePreviewTour('edit_menus', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -563,6 +572,9 @@ registerWebsitePreviewTour('edit_menus', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -962,10 +974,16 @@ registerWebsitePreviewTour('edit_menus', {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return helpers.drag_and_drop('.oe_menu_editor li:contains("Home")', {
                 position: {
                     y: 27,
                     left: 5,
+=======
+            return helpers.drag_and_drop(".oe_menu_editor li:contains('Home') .fa-bars", {
+                position : {
+                    top: 20,
+>>>>>>> upstream/18.0
 =======
             return helpers.drag_and_drop(".oe_menu_editor li:contains('Home') .fa-bars", {
                 position : {

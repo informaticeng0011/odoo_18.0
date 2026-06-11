@@ -43,6 +43,10 @@ import {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    inputFiles,
+>>>>>>> upstream/18.0
 =======
     inputFiles,
 >>>>>>> upstream/18.0
@@ -210,6 +214,11 @@ import { describe, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import { Deferred } from "@odoo/hoot-mock";
+import { onRpc, pagerNext, pagerPrevious } from "@web/../tests/web_test_helpers";
+>>>>>>> upstream/18.0
 =======
 import { Deferred } from "@odoo/hoot-mock";
 import { onRpc, pagerNext, pagerPrevious } from "@web/../tests/web_test_helpers";
@@ -607,7 +616,10 @@ test("attachment box auto-closed on switch to record wih no attachments", async 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -767,6 +779,9 @@ test("attachment should be uploaded on the correct record when using the pager n
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -59,7 +59,10 @@ class Db(Command):
         load.add_argument(
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
             '--move', dest='copy', action='store_const', default=True, const=False,
@@ -67,6 +70,9 @@ class Db(Command):
         )
         load.add_argument(
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -159,7 +165,11 @@ class Db(Command):
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         restore_db(db=db_name, dump_file=dump_file, copy=True, neutralize_database=args.neutralize)
+=======
+        restore_db(db=db_name, dump_file=dump_file, copy=args.copy, neutralize_database=args.neutralize)
+>>>>>>> upstream/18.0
 =======
         restore_db(db=db_name, dump_file=dump_file, copy=args.copy, neutralize_database=args.neutralize)
 >>>>>>> upstream/18.0

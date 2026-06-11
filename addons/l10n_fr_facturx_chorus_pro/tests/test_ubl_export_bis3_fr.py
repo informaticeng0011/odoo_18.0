@@ -1,9 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 from lxml import etree
 
 from odoo import Command
 from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_bis3 import CHORUS_PRO_PEPPOL_ID
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from odoo.addons.account_edi_ubl_cii.tests.common import TestUblBis3Common
 from odoo.addons.l10n_fr_facturx_chorus_pro.tests.common import TestUblCiiFRCommonChorusPro
@@ -96,7 +102,10 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -348,6 +357,9 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -541,7 +553,10 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
             test_file='test_invoice_customer_party_identifiers_partner_chorus_pro',
         )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 
     def test_export_invoice_chorus_pro_overseas_drom(self):
         """ A public customer located in a DROM, its SIRET must
@@ -574,4 +589,7 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
         customer_identification_node = xml_etree.find("{*}AccountingCustomerParty/{*}Party/{*}PartyIdentification/{*}ID")
         self.assertEqual(customer_identification_node.text, "21972213900017")
         self.assertEqual(customer_identification_node.attrib, {'schemeID': '0009'})
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
