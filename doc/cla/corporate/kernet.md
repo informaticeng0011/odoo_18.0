@@ -16,6 +16,11 @@ Victor Ruiz Huerga vruiz@kernet.es
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+Hodei Navarro hnavarro@kernet.es https://github.com/hnavarro-kernet
+>>>>>>> upstream/18.0
 =======
 
 Hodei Navarro hnavarro@kernet.es https://github.com/hnavarro-kernet

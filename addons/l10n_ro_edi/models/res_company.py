@@ -7,11 +7,17 @@ from dateutil.relativedelta import relativedelta
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from werkzeug.urls import url_join
 
 from odoo import fields, models, api, _
 from odoo.exceptions import UserError, ValidationError
 from odoo.http import request
+=======
+
+from odoo import fields, models, api, _
+from odoo.exceptions import UserError, ValidationError
+>>>>>>> upstream/18.0
 =======
 
 from odoo import fields, models, api, _
@@ -51,7 +57,11 @@ class ResCompany(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 company.l10n_ro_edi_callback_url = url_join(request.httprequest.url_root, 'l10n_ro_edi/callback/%s' % company.id)
+=======
+                company.l10n_ro_edi_callback_url = company.get_base_url() + ('/l10n_ro_edi/callback/%s' % company.id)
+>>>>>>> upstream/18.0
 =======
                 company.l10n_ro_edi_callback_url = company.get_base_url() + ('/l10n_ro_edi/callback/%s' % company.id)
 >>>>>>> upstream/18.0

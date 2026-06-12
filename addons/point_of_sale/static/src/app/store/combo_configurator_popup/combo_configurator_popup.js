@@ -70,7 +70,12 @@ export class ComboConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             return this.env.utils.formatCurrency(price);
+=======
+            const formattedPrice = this.env.utils.formatCurrency(Math.abs(price));
+            return price > 0 ? `+ ${formattedPrice}` : `- ${formattedPrice}`;
+>>>>>>> upstream/18.0
 =======
             const formattedPrice = this.env.utils.formatCurrency(Math.abs(price));
             return price > 0 ? `+ ${formattedPrice}` : `- ${formattedPrice}`;
@@ -119,6 +124,7 @@ export class ComboConfiguratorPopup extends Component {
     }
 
     async onClickProduct({ product, combo_item }, ev) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1481,6 +1487,10 @@ export class ComboConfiguratorPopup extends Component {
         if (product.needToConfigure()) {
             const payload = await this.pos.openConfigurator(product, { hideAlwaysVariants: true });
 >>>>>>> upstream/18.0
+=======
+        if (product.needToConfigure()) {
+            const payload = await this.pos.openConfigurator(product, { hideAlwaysVariants: true });
+>>>>>>> upstream/18.0
             if (payload) {
                 this.state.configuration[combo_item.id] = payload;
             } else {
@@ -1670,7 +1680,10 @@ export class ComboConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2134,6 +2147,9 @@ export class ComboConfiguratorPopup extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

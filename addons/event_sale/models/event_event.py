@@ -99,9 +99,15 @@ class Event(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             event_subtotals_mapping[event] += event.currency_id._convert(
                 sum_price_subtotal,
                 currency,
+=======
+            event_subtotals_mapping[event] += currency._convert(
+                sum_price_subtotal,
+                event.currency_id,
+>>>>>>> upstream/18.0
 =======
             event_subtotals_mapping[event] += currency._convert(
                 sum_price_subtotal,

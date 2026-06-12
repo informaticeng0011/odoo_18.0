@@ -219,7 +219,11 @@ export const ColumnLayoutMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (!columnEls) {
+=======
+        if (!columnEls || !columnEls[0]) {
+>>>>>>> upstream/18.0
 =======
         if (!columnEls || !columnEls[0]) {
 >>>>>>> upstream/18.0
@@ -1110,6 +1114,12 @@ export const ColumnLayoutMixin = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if (!columnEls || !columnEls[0]) {
+            return false;
+        }
+>>>>>>> upstream/18.0
 =======
         if (!columnEls || !columnEls[0]) {
             return false;

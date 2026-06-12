@@ -45,6 +45,10 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        line_ids_to_delete = set()
+>>>>>>> upstream/18.0
 =======
         line_ids_to_delete = set()
 >>>>>>> upstream/18.0
@@ -89,6 +93,7 @@ class MrpProduction(models.Model):
             for line in production.move_line_raw_ids:
                 line_by_product[line.product_id] |= line
             for move in production.move_raw_ids:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1365,6 +1370,8 @@ class MrpProduction(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 lines = line_by_product.pop(move.product_id, self.env['stock.move.line'])
                 lines_to_delete = move.move_line_ids - lines
                 line_ids_to_delete.update(lines_to_delete.ids)
@@ -1381,6 +1388,9 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1425,6 +1435,10 @@ class MrpProduction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.env['stock.move.line'].browse(line_ids_to_delete).unlink()
+>>>>>>> upstream/18.0
 =======
         self.env['stock.move.line'].browse(line_ids_to_delete).unlink()
 >>>>>>> upstream/18.0

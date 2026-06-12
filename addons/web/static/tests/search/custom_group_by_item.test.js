@@ -36,8 +36,14 @@ import { expect, test } from "@odoo/hoot";
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { queryAllTexts } from "@odoo/hoot-dom";
 import {
+=======
+import { press, queryAllTexts } from "@odoo/hoot-dom";
+import {
+    contains,
+>>>>>>> upstream/18.0
 =======
 import { press, queryAllTexts } from "@odoo/hoot-dom";
 import {
@@ -243,6 +249,7 @@ class Foo extends models.Model {
     date = fields.Date();
     float = fields.Float({ groupable: false });
     foo = fields.Char();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1180,6 +1187,8 @@ class Foo extends models.Model {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 }
 
 class Partner extends models.Model {}
@@ -1362,7 +1371,10 @@ test(`select a field name in Add Custom Group menu properly trigger the correspo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1523,6 +1535,9 @@ test(`hover on custom group by item`, async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

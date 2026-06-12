@@ -155,7 +155,11 @@ from odoo.addons.mail.models.mail_message import Message
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.mail.tests.common import MailCommon
+=======
+from odoo.addons.mail.tests.common import MailCommon, mail_new_test_user
+>>>>>>> upstream/18.0
 =======
 from odoo.addons.mail.tests.common import MailCommon, mail_new_test_user
 >>>>>>> upstream/18.0
@@ -744,6 +748,10 @@ from odoo.tests import tagged, users, HttpCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tests.common import JsonRpcException
+>>>>>>> upstream/18.0
 =======
 from odoo.tests.common import JsonRpcException
 >>>>>>> upstream/18.0
@@ -1373,7 +1381,10 @@ class TestMailMCCommon(MailCommon, TestRecipients):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1818,6 +1829,9 @@ class TestMailMCCommon(MailCommon, TestRecipients):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2318,6 +2332,7 @@ class TestMultiCompanySetup(TestMailMCCommon, HttpCase):
                 subtype_xmlid="mail.mt_comment",
             )
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4045,6 +4060,8 @@ class TestMultiCompanyRedirect(MailCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
 @tagged('-at_install', 'post_install', 'multi_company', 'mail_controller')
 class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
@@ -4264,6 +4281,7 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4286,6 +4304,8 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4698,6 +4718,9 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5303,8 +5326,12 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     self.assertTrue('cids' in response.request._cookies)
                     self.assertEqual(response.request._cookies.get('cids'), str(mc_record.company_id.id))
+=======
+                    self.assertNotIn('cids', response.request._cookies)
+>>>>>>> upstream/18.0
 =======
                     self.assertNotIn('cids', response.request._cookies)
 >>>>>>> upstream/18.0
@@ -6592,6 +6619,7 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # when being not logged, cids should be added based on
         # '_get_redirect_suggested_company'
         for test_record in nothreads:
@@ -6599,6 +6627,8 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
                 self.authenticate(None, None)
                 self.user_admin.write({'company_id': user_company.id})
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7510,6 +7540,9 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8120,6 +8153,7 @@ class TestMultiCompanyControllers(TestMailMCCommon, HttpCase):
                     timeout=15
                 )
                 self.assertEqual(response.status_code, 200)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9573,6 +9607,8 @@ class TestMultiCompanyThreadData(MailCommon, HttpCase):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                 self.assertNotIn('cids', response.request._cookies)
 
     def test_mail_message_post_other_company_with_cids(self):
@@ -9712,6 +9748,9 @@ class TestMultiCompanyThreadData(MailCommon, HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

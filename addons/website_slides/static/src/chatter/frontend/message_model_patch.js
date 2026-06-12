@@ -216,6 +216,7 @@ const messagePatch = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const data = await super.remove();
 =======
         const data = await super.remove(...arguments);
@@ -818,6 +819,8 @@ const messagePatch = {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         const data = await super.remove(...arguments);
         this.store.env.bus.trigger("reload_rating_popup_composer", data);
         const commentsCounterEl = document.querySelector(
@@ -860,6 +863,9 @@ const messagePatch = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1180,7 +1186,13 @@ const messagePatch = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.store.env.bus.trigger("reload_rating_popup_composer", data);
+=======
+        if (data) {
+            this.store.env.bus.trigger("reload_rating_popup_composer", data);
+        }
+>>>>>>> upstream/18.0
 =======
         if (data) {
             this.store.env.bus.trigger("reload_rating_popup_composer", data);

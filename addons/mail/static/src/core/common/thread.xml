@@ -122,7 +122,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         onParentMessageClick.bind="() => msg.parentMessage and env.messageHighlight?.highlightMessage(msg.parentMessage, props.thread)"
+=======
+                        onParentMessageClick.bind="() => this.onParentMessageClick(msg.parentMessage)"
+>>>>>>> upstream/18.0
 =======
                         onParentMessageClick.bind="() => this.onParentMessageClick(msg.parentMessage)"
 >>>>>>> upstream/18.0
@@ -484,7 +488,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <button t-if="props.showJumpPresent and state.showJumpPresent" class="o-mail-Thread-jumpPresent position-fixed p-2 rounded-circle lh-1 m-n3 user-select-none btn btn-light shadow-sm border border-secondary" t-ref="jump-present" t-on-click="() => this.jumpToPresent()" title="Jump to Present"><i class="oi text-muted" t-att-class="{ 'oi-chevron-down': props.order === 'asc', 'oi-chevron-up': props.order !== 'asc' }"/></button>
+=======
+    <button t-if="props.showJumpPresent and state.showJumpPresent" class="o-mail-Thread-jumpPresent position-fixed p-2 rounded-circle lh-1 m-n3 user-select-none btn btn-light shadow-sm border border-secondary" t-att-class="{ 'bottom-0': env.inChatter and !env.inChatter.aside }" t-ref="jump-present" t-on-click="() => this.jumpToPresent()" title="Jump to Present"><i class="oi text-muted" t-att-class="{ 'oi-chevron-down': props.order === 'asc', 'oi-chevron-up': props.order !== 'asc' }"/></button>
+>>>>>>> upstream/18.0
 =======
     <button t-if="props.showJumpPresent and state.showJumpPresent" class="o-mail-Thread-jumpPresent position-fixed p-2 rounded-circle lh-1 m-n3 user-select-none btn btn-light shadow-sm border border-secondary" t-att-class="{ 'bottom-0': env.inChatter and !env.inChatter.aside }" t-ref="jump-present" t-on-click="() => this.jumpToPresent()" title="Jump to Present"><i class="oi text-muted" t-att-class="{ 'oi-chevron-down': props.order === 'asc', 'oi-chevron-up': props.order !== 'asc' }"/></button>
 >>>>>>> upstream/18.0
@@ -829,6 +837,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <span t-if="props.thread.hasLoadingFailedError" class="o-xsmaller text-muted" t-esc="props.thread.hasLoadingFailedError"/>
+>>>>>>> upstream/18.0
 =======
         <span t-if="props.thread.hasLoadingFailedError" class="o-xsmaller text-muted" t-esc="props.thread.hasLoadingFailedError"/>
 >>>>>>> upstream/18.0

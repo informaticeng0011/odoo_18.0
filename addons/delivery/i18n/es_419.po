@@ -257,8 +257,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* delivery
 # 
+=======
+# * delivery
+#
+>>>>>>> upstream/18.0
 =======
 # * delivery
 #
@@ -1548,6 +1553,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025.
@@ -2320,10 +2326,14 @@
 =======
 # "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Fernanda Alvarez (mfar)" <mfar@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3301,6 +3311,10 @@ msgstr ""
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-05-09 09:08+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-09 09:08+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
 "odoo-18/delivery/es_419/>\n"
@@ -3308,6 +3322,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4554,6 +4569,11 @@ msgstr ""
 "0) ? 1 : 2);\n"
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #. odoo-python
@@ -4749,7 +4769,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                    Adquiera Odoo Enterprise ahora para obtener más proveedores.\n"
+=======
+"                    Adquiera Odoo Enterprise ahora para obtener más "
+"proveedores.\n"
+>>>>>>> upstream/18.0
 =======
 "                    Adquiera Odoo Enterprise ahora para obtener más "
 "proveedores.\n"
@@ -5546,7 +5571,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -6355,7 +6385,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                                <span class=\"o_stat_text\">Environment</span>"
+=======
+"                                <span class=\"o_stat_text\">Environment</"
+"span>"
+>>>>>>> upstream/18.0
 =======
 "                                <span class=\"o_stat_text\">Environment</"
 "span>"
@@ -7004,6 +7039,7 @@ msgid ""
 "customers on the Sales Order and sales confirmation email.E.g. instructions "
 "for customers to follow."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7836,6 +7872,11 @@ msgstr ""
 "en la orden de venta y en el correo de confirmación de venta. Por ejemplo, "
 "las instrucciones que deben seguir."
 >>>>>>> upstream/18.0
+=======
+"Una descripción del método de entrega que quieres comunicar a tus clientes "
+"en la orden de venta y en el correo de confirmación de venta. Por ejemplo, "
+"las instrucciones que deben seguir."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__integration_level
@@ -7921,6 +7962,7 @@ msgstr "Transportista"
 #. odoo-python
 #: code:addons/delivery/models/delivery_carrier.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8555,6 +8597,9 @@ msgid ""
 =======
 "Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
 >>>>>>> upstream/18.0
+=======
+"Carrier %s cannot have the same tag in both Must Have Tags and Excluded Tags."
+>>>>>>> upstream/18.0
 msgstr ""
 "El transportista %s no puede tener la misma etiqueta en Etiquetas que debe "
 "tener y Etiquetas excluidas."
@@ -8607,7 +8652,11 @@ msgid "Choose a pick-up point"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Seleccione un punto de recolección"
+=======
+msgstr "Elige un punto de recolección"
+>>>>>>> upstream/18.0
 =======
 msgstr "Elige un punto de recolección"
 >>>>>>> upstream/18.0
@@ -8807,6 +8856,7 @@ msgstr "Registro de depuración"
 #: model:ir.model.fields,help:delivery.field_res_partner__property_delivery_carrier_id
 #: model:ir.model.fields,help:delivery.field_res_users__property_delivery_carrier_id
 msgid "Default delivery method used in sales orders."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9837,6 +9887,9 @@ msgstr "Método de entrega predeterminado utilizado en las órdenes de venta."
 =======
 msgstr "Método de entrega predeterminado utilizado en las órdenes de venta."
 >>>>>>> upstream/18.0
+=======
+msgstr "Método de entrega predeterminado utilizado en las órdenes de venta."
+>>>>>>> upstream/18.0
 
 #. module: delivery
 #: model_terms:ir.actions.act_window,help:delivery.action_delivery_carrier_form
@@ -10074,7 +10127,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Los prefijos C.P. de entrega se le asignan a los transportistas para restringir \n"
+=======
+"Los prefijos C.P. de entrega se le asignan a los transportistas para "
+"restringir \n"
+>>>>>>> upstream/18.0
 =======
 "Los prefijos C.P. de entrega se le asignan a los transportistas para "
 "restringir \n"
@@ -10902,9 +10960,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Cada transportista (por ejemplo, UPS) puede tener varios métodos de envío (por ejemplo,\n"
 "            UPS Express, UPS Standard) con reglas de precios ya establecidas\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -11380,6 +11441,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -11875,12 +11939,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
 "Costo estimado: se le facturará al cliente el costo estimado del envío.\n"
 "Costo real: se le facturará al cliente el costo real del envío y este se actualizará en la orden de venta después del envío. "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -12360,6 +12427,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12853,8 +12923,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Filling this form allows you to make the shipping method available according"
 " to the content of the order or its destination."
+=======
+"Filling this form allows you to make the shipping method available according "
+"to the content of the order or its destination."
+>>>>>>> upstream/18.0
 =======
 "Filling this form allows you to make the shipping method available according "
 "to the content of the order or its destination."
@@ -13708,8 +13783,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Si el volumen total de la orden es mayor a este volumen, el método no estará"
 " disponible."
+=======
+"Si el volumen total de la orden es mayor a este volumen, el método no estará "
+"disponible."
+>>>>>>> upstream/18.0
 =======
 "Si el volumen total de la orden es mayor a este volumen, el método no estará "
 "disponible."
@@ -14548,7 +14628,11 @@ msgid "Pickup Location Data"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Información de ubicación de recolección"
+=======
+msgstr "Información de la ubicación de recolección"
+>>>>>>> upstream/18.0
 =======
 msgstr "Información de la ubicación de recolección"
 >>>>>>> upstream/18.0
@@ -14828,8 +14912,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "cuenta que las expresiones comunes se pueden utilizar para la compatibilidad"
 " con países con longitudes de códigos postales variantes. Es decir, puede "
+=======
+"cuenta que las expresiones comunes se pueden utilizar para la compatibilidad "
+"con países con longitudes de códigos postales variantes. Es decir, puede "
+>>>>>>> upstream/18.0
 =======
 "cuenta que las expresiones comunes se pueden utilizar para la compatibilidad "
 "con países con longitudes de códigos postales variantes. Es decir, puede "
@@ -15786,8 +15875,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "The method is available only if at least one product of the order has one of"
 " these tags."
+=======
+"The method is available only if at least one product of the order has one of "
+"these tags."
+>>>>>>> upstream/18.0
 =======
 "The method is available only if at least one product of the order has one of "
 "these tags."
@@ -16594,8 +16688,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "La etiqueta de devolución se genera de forma automática al realizar el "
 "envío."
+=======
+"La etiqueta de devolución se genera de forma automática al realizar el envío."
+>>>>>>> upstream/18.0
 =======
 "La etiqueta de devolución se genera de forma automática al realizar el envío."
 >>>>>>> upstream/18.0
@@ -17254,9 +17352,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "            de acuerdo a sus ajustes; en la orden de venta (de acuerdo con la\n"
 "            cotización) o en la factura (de acuerdo con las órdenes de envío). "
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17732,6 +17833,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -18295,10 +18399,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You can not update the shipping costs on an order where it was already invoiced!\n"
 "\n"
 "The following delivery lines (product, invoiced quantity and price) have already been processed:\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18775,6 +18882,9 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -19094,6 +19204,7 @@ msgid ""
 msgstr ""
 "¡No puede actualizar los costos de envío de una orden que ya se facturó!\n"
 "\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19885,6 +19996,10 @@ msgstr ""
 "Las siguientes líneas de entrega (producto, cantidad facturada y precio) ya "
 "se procesaron:\n"
 >>>>>>> upstream/18.0
+=======
+"Las siguientes líneas de entrega (producto, cantidad facturada y precio) ya "
+"se procesaron:\n"
+>>>>>>> upstream/18.0
 "\n"
 
 #. module: delivery
@@ -19940,7 +20055,11 @@ msgid "Your postal code"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Su código postal"
+=======
+msgstr "Tu código postal"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tu código postal"
 >>>>>>> upstream/18.0
@@ -20236,8 +20355,13 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "Por ejemplo, "
 "https://ekartlogistics.com/shipmenttrack/<shipmenttrackingnumber>"
+=======
+"Por ejemplo, https://ekartlogistics.com/shipmenttrack/"
+"<shipmenttrackingnumber>"
+>>>>>>> upstream/18.0
 =======
 "Por ejemplo, https://ekartlogistics.com/shipmenttrack/"
 "<shipmenttrackingnumber>"

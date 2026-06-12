@@ -354,7 +354,13 @@ class Survey(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return request.redirect('/survey/%s/%s' % (survey_sudo.access_token, answer_sudo.access_token))
+=======
+        response = request.redirect('/survey/%s' % survey_sudo.access_token)
+        response.set_cookie('survey_%s' % survey_sudo.access_token, answer_sudo.access_token, max_age=60 * 60 * 24)
+        return response
+>>>>>>> upstream/18.0
 =======
         response = request.redirect('/survey/%s' % survey_sudo.access_token)
         response.set_cookie('survey_%s' % survey_sudo.access_token, answer_sudo.access_token, max_age=60 * 60 * 24)
@@ -1164,9 +1170,12 @@ class Survey(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @http.route('/survey/<string:survey_token>/<string:answer_token>', type='http', auth='public', website=True)
     def survey_display_page(self, survey_token, answer_token, **post):
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1504,6 +1513,9 @@ class Survey(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2031,7 +2043,11 @@ class Survey(http.Controller):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'answer': answer_sudo if survey_sudo.scoring_type != 'scoring_without_answers' else answer_sudo.browse(),
+=======
+            'answer': answer_sudo,
+>>>>>>> upstream/18.0
 =======
             'answer': answer_sudo,
 >>>>>>> upstream/18.0

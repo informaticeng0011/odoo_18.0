@@ -165,10 +165,13 @@ class BankAccountVerification(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 vat = partner_bank.partner_id.vat
                 if not vat or vat in ['/', 'na', 'NA']:  # void vat
                     create_vals += self._get_creation_vals('incomplete_partner', partner_banks=partner_bank)
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -204,6 +207,9 @@ class BankAccountVerification(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -238,7 +244,10 @@ class BankAccountVerification(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 partner_bank_verif = partner_bank2verification.get(partner_bank.sanitized_acc_number)
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

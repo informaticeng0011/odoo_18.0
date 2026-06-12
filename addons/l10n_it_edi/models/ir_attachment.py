@@ -37,7 +37,12 @@ class IrAttachment(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             except (etree.ParseError, ValueError) as e:
+=======
+            except (etree.ParseError, ValueError, TypeError) as e:
+                # Note: lxml < 5.0 raises ValueError; lxml 5.0+ / libxml2 2.12+ raises TypeError
+>>>>>>> upstream/18.0
 =======
             except (etree.ParseError, ValueError, TypeError) as e:
                 # Note: lxml < 5.0 raises ValueError; lxml 5.0+ / libxml2 2.12+ raises TypeError

@@ -75,7 +75,10 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -290,6 +293,9 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -431,6 +437,7 @@ patch(PaymentScreen.prototype, {
         await super._finalizeValidation(...arguments);
         const order = this.currentOrder;
         // note: isSACompany guarantees order.is_to_invoice()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -905,6 +912,8 @@ patch(PaymentScreen.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         // note: Skips entirely if journal is not onboarded or electronic invoicing is not selected
         // Also skip if invoice is not mandatory(Ex: settlement)
         if (
@@ -1060,6 +1069,9 @@ patch(PaymentScreen.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

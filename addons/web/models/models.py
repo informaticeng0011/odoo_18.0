@@ -189,11 +189,14 @@ class Base(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if 'order' in field_spec and field_spec['order']:
                     co_records = co_records.with_context(active_test=False).search(
                         [('id', 'in', co_records.ids)], order=field_spec['order'],
                     ).with_context(co_records.env.context)  # Reapply previous context
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -401,6 +404,9 @@ class Base(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -570,8 +576,11 @@ class Base(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         # filter out inaccessible corecords in case of "cache pollution"
                         values[field_name] = [id_ for id_ in values[field_name] if id_ in order_key]
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -742,9 +751,15 @@ class Base(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if 'fields' in field_spec:
                     if field_spec.get('limit') is not None:
                         limit = field_spec['limit']
+=======
+                if field_spec_has_fields:
+                    limit = field_spec.get('limit')
+                    if limit is not None:
+>>>>>>> upstream/18.0
 =======
                 if field_spec_has_fields:
                     limit = field_spec.get('limit')
@@ -2024,6 +2039,7 @@ class RecordSnapshot(dict):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self[field_name] = {line.id: RecordSnapshot(line, sub_fields_spec) for line in lines}
 =======
             limit = self.fields_spec[field_name].get('limit')
@@ -2049,6 +2065,9 @@ class RecordSnapshot(dict):
             limit = self.fields_spec[field_name].get('limit')
             limited_lines = lines[:limit] if limit else lines
             self[field_name] = {line.id: RecordSnapshot(line, sub_fields_spec) for line in limited_lines}
+>>>>>>> upstream/18.0
+=======
+            self[field_name] = {line.id: RecordSnapshot(line, sub_fields_spec) for line in lines}
 >>>>>>> upstream/18.0
 =======
             self[field_name] = {line.id: RecordSnapshot(line, sub_fields_spec) for line in lines}

@@ -69,6 +69,11 @@ from odoo.tests import tagged
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from freezegun import freeze_time
+
+>>>>>>> upstream/18.0
 =======
 from freezegun import freeze_time
 
@@ -357,6 +362,7 @@ class TestUblImportBis3InvoiceBERetrieveProduct(TestUblImportBis3InvoiceBE):
 
     def test_partial_import_product_name(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         product = self._create_product(name='XYZ')
         invoice = self._import_invoice_as_attachment_on(test_name='test_partial_import_product_name')
         self.assertRecordValues(invoice.invoice_line_ids, [{
@@ -364,6 +370,8 @@ class TestUblImportBis3InvoiceBERetrieveProduct(TestUblImportBis3InvoiceBE):
             'product_id': product.id,
         }])
 =======
+=======
+>>>>>>> upstream/18.0
         product = self._create_product(name='important product1')
         invoice = self._import_invoice_as_attachment_on(test_name='test_partial_import_product_name')
         self.assertRecordValues(invoice.invoice_line_ids, [
@@ -376,6 +384,9 @@ class TestUblImportBis3InvoiceBERetrieveProduct(TestUblImportBis3InvoiceBE):
                 'product_id': None,
             },
         ])
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 
     def test_partial_import_product_barcode(self):
@@ -461,7 +472,10 @@ class TestUblImportBis3InvoiceBERetrieveProduct(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -688,6 +702,9 @@ class TestUblImportBis3InvoiceBERetrieveProduct(TestUblImportBis3InvoiceBE):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

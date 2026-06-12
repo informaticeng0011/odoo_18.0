@@ -294,7 +294,11 @@ class TestFloatPrecision(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.001,'-0.00')
+=======
+        try_round(-0.001, '0.00')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.001, '0.00')
 >>>>>>> upstream/18.0
@@ -1441,7 +1445,11 @@ class TestFloatPrecision(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000')
+=======
+        try_round(-0.0004, '0.000')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.0004, '0.000')
 >>>>>>> upstream/18.0
@@ -2543,7 +2551,11 @@ class TestFloatPrecision(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000', method='HALF-DOWN')
+=======
+        try_round(-0.0004, '0.000', method='HALF-DOWN')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.0004, '0.000', method='HALF-DOWN')
 >>>>>>> upstream/18.0
@@ -3645,7 +3657,11 @@ class TestFloatPrecision(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_round(-0.0004, '-0.000', method='HALF-EVEN')
+=======
+        try_round(-0.0004, '0.000', method='HALF-EVEN')
+>>>>>>> upstream/18.0
 =======
         try_round(-0.0004, '0.000', method='HALF-EVEN')
 >>>>>>> upstream/18.0
@@ -4852,7 +4868,11 @@ class TestFloatPrecision(TransactionCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         try_split(-0.001, ('-0', '00'), float_split_str)
+=======
+        try_split(-0.001, ('0', '00'), float_split_str)
+>>>>>>> upstream/18.0
 =======
         try_split(-0.001, ('0', '00'), float_split_str)
 >>>>>>> upstream/18.0

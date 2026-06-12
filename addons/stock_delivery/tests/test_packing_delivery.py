@@ -549,7 +549,10 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1106,6 +1109,7 @@ class TestPacking(TestPackingCommon):
         # Ensure the correct wizard action is returned
         self.assertEqual(pack_action_model, 'choose.delivery.package')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1883,6 +1887,8 @@ class TestPacking(TestPackingCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         pack_wiz = self.env['choose.delivery.package'].with_context(pack_action_ctx, active_ids=move_line_1.ids).create({})
         self.assertEqual(pack_wiz.shipping_weight, 12)
         pack_wiz.action_put_in_pack()
@@ -1922,6 +1928,9 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2134,12 +2143,15 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2514,6 +2526,9 @@ class TestPacking(TestPackingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -73,7 +73,11 @@ from odoo import models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import float_round, float_is_zero
+=======
+from odoo.tools import float_compare, float_round, float_is_zero
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_compare, float_round, float_is_zero
 >>>>>>> upstream/18.0
@@ -411,7 +415,10 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -653,6 +660,9 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -898,6 +908,10 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._add_base_lines_edi_ids(vals)
+>>>>>>> upstream/18.0
 =======
         self._add_base_lines_edi_ids(vals)
 >>>>>>> upstream/18.0
@@ -1216,6 +1230,10 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        pos_order._compute_l10n_jo_edi_pos_uuid()
+>>>>>>> upstream/18.0
 =======
         pos_order._compute_l10n_jo_edi_pos_uuid()
 >>>>>>> upstream/18.0
@@ -1472,6 +1490,7 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not vals['is_refund']:
             document_node['cac:AccountingCustomerParty'].update({
                 'cac:AccountingContact': {
@@ -1479,6 +1498,8 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
                 },
             })
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1559,6 +1580,9 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1660,6 +1684,7 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             } if not vals['is_refund'] and is_customer else None,
             'cac:PostalAddress': self._get_address_node(vals),
             'cac:PartyTaxScheme': {
@@ -1667,6 +1692,8 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
                 'cac:TaxScheme': {
                     'cbc:ID': {'_text': 'VAT'}
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1748,6 +1775,9 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1829,7 +1859,11 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             } if not vals['is_refund'] or not is_customer else None,
+=======
+            },
+>>>>>>> upstream/18.0
 =======
             },
 >>>>>>> upstream/18.0
@@ -1942,8 +1976,13 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'cbc:PostalZone': {'_text': partner.zip} if not vals['is_refund'] else None,
             'cbc:CountrySubentityCode': {'_text': state.code} if not vals['is_refund'] else None,
+=======
+            'cbc:PostalZone': {'_text': partner.zip},
+            'cbc:CountrySubentityCode': {'_text': state.code},
+>>>>>>> upstream/18.0
 =======
             'cbc:PostalZone': {'_text': partner.zip},
             'cbc:CountrySubentityCode': {'_text': state.code},
@@ -2181,6 +2220,7 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not vals['is_refund']:
             return vals['line_idx']
 
@@ -2197,6 +2237,9 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
             line_id = len(order_lines) + vals['line_idx']
 
         return line_id
+=======
+        return vals['base_lines_edi_ids'].get(vals['line_idx'], vals['line_idx'])
+>>>>>>> upstream/18.0
 =======
         return vals['base_lines_edi_ids'].get(vals['line_idx'], vals['line_idx'])
 >>>>>>> upstream/18.0
@@ -2529,7 +2572,11 @@ class PosEdiXmlUBL21Jo(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 '_text': self.format_float(vals[f'discount_amount{currency_suffix}'], vals['currency_dp']),
+=======
+                '_text': self.format_float(abs(vals[f'discount_amount{currency_suffix}']), vals['currency_dp']),
+>>>>>>> upstream/18.0
 =======
                 '_text': self.format_float(abs(vals[f'discount_amount{currency_suffix}']), vals['currency_dp']),
 >>>>>>> upstream/18.0

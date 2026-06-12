@@ -33,7 +33,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <button class="btn btn-secondary btn-lg py-5"
+=======
+                <button t-if="pos.config.iface_splitbill"
+                    class="btn btn-secondary btn-lg py-5"
+>>>>>>> upstream/18.0
 =======
                 <button t-if="pos.config.iface_splitbill"
                     class="btn btn-secondary btn-lg py-5"
@@ -380,7 +385,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <attribute name="t-if">!pos.config.takeaway</attribute>
+=======
+            <attribute name="t-if">pos.models['account.fiscal.position']?.length and !pos.config.takeaway</attribute>
+>>>>>>> upstream/18.0
 =======
             <attribute name="t-if">pos.models['account.fiscal.position']?.length and !pos.config.takeaway</attribute>
 >>>>>>> upstream/18.0

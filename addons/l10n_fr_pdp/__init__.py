@@ -6,6 +6,10 @@ from odoo.tools.sql import column_exists, create_column
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import controllers
+>>>>>>> upstream/18.0
 =======
 from . import controllers
 >>>>>>> upstream/18.0
@@ -57,7 +61,10 @@ def _post_init_pdp(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -80,6 +87,9 @@ def _post_init_pdp(env):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

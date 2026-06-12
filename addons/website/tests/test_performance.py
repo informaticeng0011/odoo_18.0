@@ -574,6 +574,7 @@ class TestWebsitePerformance(TestWebsitePerformanceCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         _, menu_bbb = self._create_page_with_menu('/bbb')
         _, menu_bbbb = self._create_page_with_menu('/bbbb')
         _, menu_bbbbb = self._create_page_with_menu('/bbbbb')
@@ -581,6 +582,9 @@ class TestWebsitePerformance(TestWebsitePerformanceCommon):
         menu_bbbbb.parent_id = menu_bbbb
         menu_bbbb.parent_id = menu_bbb
         menu_bbb.parent_id = menu_bb
+=======
+        self._create_page_with_menu('c')
+>>>>>>> upstream/18.0
 =======
         self._create_page_with_menu('c')
 >>>>>>> upstream/18.0

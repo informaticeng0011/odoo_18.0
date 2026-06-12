@@ -325,6 +325,7 @@ from odoo.tools import plaintext2html
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
@@ -447,6 +448,9 @@ from odoo.tools.sql import SQL
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+from odoo.tools.sql import SQL
 >>>>>>> upstream/18.0
 =======
 from odoo.tools.sql import SQL
@@ -1550,7 +1554,13 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 rel.calendar_event_id, max(alarm.duration_minutes) AS max_delta,min(alarm.duration_minutes) AS min_delta
+=======
+                rel.calendar_event_id,
+                max(alarm.duration_minutes) AS max_delta,
+                min(alarm.duration_minutes) AS min_delta
+>>>>>>> upstream/18.0
 =======
                 rel.calendar_event_id,
                 max(alarm.duration_minutes) AS max_delta,
@@ -3190,6 +3200,7 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     SELECT
                         cal.id,
                         cal.start - interval '1' minute  * calcul_delta.max_delta AS first_alarm,
@@ -3215,6 +3226,8 @@ class AlarmManager(models.AbstractModel):
                 RIGHT JOIN calendar_event_res_partner_rel AS part_rel ON part_rel.calendar_event_id = cal.id
                     AND part_rel.res_partner_id IN %s
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4046,6 +4059,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4868,7 +4884,11 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             base_request += filter_user
+=======
+            base_request = base_request.replace("WHERE cal.active = True", filter_user)
+>>>>>>> upstream/18.0
 =======
             base_request = base_request.replace("WHERE cal.active = True", filter_user)
 >>>>>>> upstream/18.0
@@ -5978,6 +5998,7 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 FROM ( %s WHERE cal.active = True ) AS ALL_EVENTS
                WHERE ALL_EVENTS.first_alarm < %s
                  AND ALL_EVENTS.last_event_date > (now() at time zone 'utc')
@@ -5985,6 +6006,8 @@ class AlarmManager(models.AbstractModel):
 
         for event_id, first_alarm, last_alarm, first_meeting, last_meeting, min_duration, max_duration, rule in self._cr.fetchall():
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6804,6 +6827,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7627,7 +7653,10 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'rrule': rule
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8534,7 +8563,10 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9437,6 +9469,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10087,6 +10122,7 @@ class AlarmManager(models.AbstractModel):
         already.
         """
         lastcall = self.env.context.get('lastcall', False) or fields.date.today() - relativedelta(weeks=1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11612,6 +11648,8 @@ class AlarmManager(models.AbstractModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         # TODO MASTER: remove context and add a proper parameter
         extra_conditions = self.with_context(alarm_type=alarm_type)._get_notify_alert_extra_conditions()
         now = fields.Datetime.now()
@@ -11715,6 +11753,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -12193,6 +12234,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -13040,6 +13084,9 @@ class AlarmManager(models.AbstractModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

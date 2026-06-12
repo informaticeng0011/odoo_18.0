@@ -40,9 +40,14 @@ class WebManifestRoutesTest(SelfOrderCommonTest):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         icon_src = f'/web/image?model=res.company&id={self.env.company.id}&field=logo&height=192&width=192'
         self.assertCountEqual(data['icons'], [
             {'src': icon_src, 'sizes': 'any', 'type': 'image/png'}
+=======
+        self.assertCountEqual(data['icons'], [
+            {'src': '/point_of_sale/static/description/icon.svg', 'sizes': 'any', 'type': 'image/svg+xml'}
+>>>>>>> upstream/18.0
 =======
         self.assertCountEqual(data['icons'], [
             {'src': '/point_of_sale/static/description/icon.svg', 'sizes': 'any', 'type': 'image/svg+xml'}

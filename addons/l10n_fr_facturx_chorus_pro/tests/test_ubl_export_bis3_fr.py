@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 from lxml import etree
@@ -8,6 +11,9 @@ from lxml import etree
 from odoo import Command
 from odoo.addons.account_edi_ubl_cii.models.account_edi_xml_ubl_bis3 import CHORUS_PRO_PEPPOL_ID
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -103,7 +109,10 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -358,6 +367,9 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -554,7 +566,10 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
         )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 
@@ -590,6 +605,9 @@ class TestUblExportBis3FRChorusPro(TestUblBis3Common, TestUblCiiFRCommonChorusPr
         self.assertEqual(customer_identification_node.text, "21972213900017")
         self.assertEqual(customer_identification_node.attrib, {'schemeID': '0009'})
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -103,6 +103,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <li class="list-group-item d-flex text-nowrap align-items-center" t-att-class="fieldInfo.attrs.class"  t-att-data-tooltip="fieldType === 'html' ? '' : getFormattedValue(fieldId, slot.record)">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1385,6 +1386,10 @@
                         <li class="list-group-item d-flex text-nowrap align-items-center" t-att-class="fieldInfo.attrs.class"  t-att-data-tooltip="['html', 'boolean'].includes(fieldType) ? '' : getFormattedValue(fieldId, slot.record)">
                             <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel and fieldInfo.type !== 'properties'">
 >>>>>>> upstream/18.0
+=======
+                        <li class="list-group-item d-flex text-nowrap align-items-center" t-att-class="fieldInfo.attrs.class"  t-att-data-tooltip="['html', 'boolean'].includes(fieldType) ? '' : getFormattedValue(fieldId, slot.record)">
+                            <span class="fw-bold me-2" t-if="!fieldInfo.options.noLabel and fieldInfo.type !== 'properties'">
+>>>>>>> upstream/18.0
                                 <t t-if="fieldInfo.options.icon">
                                     <i t-attf-class="fa-fw {{fieldInfo.options.icon}} text-400" />
                                 </t>
@@ -1520,7 +1525,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 <Field name="fieldInfo.name" record="slot.record" fieldInfo="fieldInfo" type="fieldInfo.widget" />
+=======
+                                <Field name="fieldInfo.name" record="slot.record" class="fieldInfo.attrs.class" fieldInfo="fieldInfo" type="fieldInfo.widget" />
+>>>>>>> upstream/18.0
 =======
                                 <Field name="fieldInfo.name" record="slot.record" class="fieldInfo.attrs.class" fieldInfo="fieldInfo" type="fieldInfo.widget" />
 >>>>>>> upstream/18.0

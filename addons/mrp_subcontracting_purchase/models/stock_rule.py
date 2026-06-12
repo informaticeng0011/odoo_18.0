@@ -32,6 +32,12 @@ class StockRule(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        if not product.sudo().bom_ids:
+            return super()._get_lead_days(product, **values)
+
+>>>>>>> upstream/18.0
 =======
         if not product.sudo().bom_ids:
             return super()._get_lead_days(product, **values)

@@ -143,7 +143,11 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 template.ref('fiscal_position_in_export_sez_in')
+=======
+                template.ref('fiscal_position_in_sez')
+>>>>>>> upstream/18.0
 =======
                 template.ref('fiscal_position_in_sez')
 >>>>>>> upstream/18.0
@@ -621,7 +625,10 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1476,6 +1483,9 @@ class TestSaleFiscal(L10nInTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

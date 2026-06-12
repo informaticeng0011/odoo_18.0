@@ -180,6 +180,7 @@ from . import account_edi_common
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from . import account_edi_ubl
 >>>>>>> upstream/18.0
@@ -721,10 +722,15 @@ from . import account_edi_ubl
 from . import account_edi_ubl
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 from . import account_edi_ubl
 from . import account_edi_ubl_cen_en16931
 from . import account_edi_ubl_pint
 from . import account_edi_ubl_pint_eu
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 from . import account_edi_xml_cii_facturx
 from . import account_edi_xml_ubl_20
@@ -1090,6 +1096,10 @@ from . import account_move_send
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from . import ir_actions_report
+>>>>>>> upstream/18.0
 =======
 from . import ir_actions_report
 >>>>>>> upstream/18.0

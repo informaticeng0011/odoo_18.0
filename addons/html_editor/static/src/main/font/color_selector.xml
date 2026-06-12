@@ -272,7 +272,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Dropdown state="dropdown">
+=======
+        <Dropdown state="dropdown" menuRef="menuRef">
+>>>>>>> upstream/18.0
 =======
         <Dropdown state="dropdown" menuRef="menuRef">
 >>>>>>> upstream/18.0
@@ -1151,12 +1155,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <button data-color="o-color-1" t-attf-style="background-color: var(--o-color-1)" class="btn o_color_button"/>
                                     <button data-color="o-color-3" t-attf-style="background-color: var(--o-color-3)" class="btn o_color_button"/>
                                     <button data-color="o-color-2" t-attf-style="background-color: var(--o-color-2)" class="btn o_color_button"/>
                                     <button data-color="o-color-4" t-attf-style="background-color: var(--o-color-4)" class="ms-2 btn o_color_button"/>
                                     <button data-color="o-color-5" t-attf-style="background-color: var(--o-color-5)" class="btn o_color_button"/>
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1230,6 +1237,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1562,7 +1572,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                         <button t-if="color !== this.currentCustomColor.color.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
+=======
+                                        <button t-if="color !== this.currentCustomColor.color?.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
+>>>>>>> upstream/18.0
 =======
                                         <button t-if="color !== this.currentCustomColor.color?.toLowerCase()" class="o_color_button btn" t-att-data-color="color" t-attf-style="background-color: {{color}}"/>
 >>>>>>> upstream/18.0
@@ -2721,7 +2735,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     defaultColor="this.defaultColor"
+=======
+                                    defaultColor="this.currentCustomColor.color"
+>>>>>>> upstream/18.0
 =======
                                     defaultColor="this.currentCustomColor.color"
 >>>>>>> upstream/18.0

@@ -107,7 +107,10 @@ from odoo.tests.common import tagged, freeze_time
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.tools import file_open
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -447,11 +450,14 @@ class TestPeppolSelfBilling(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     @classmethod
     def _get_incoming_invoice_content(cls):
         with file_open('account_peppol_selfbilling/tests/assets/incoming_self_billed_invoice', mode='rb') as f:
             return f.read()
 
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -822,6 +828,7 @@ class TestPeppolSelfBilling(TestPeppolMessageCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     def test_receive_self_billed_invoice_from_peppol(self):
         """Test receiving a self-billed invoice from Peppol.
@@ -875,6 +882,8 @@ class TestPeppolSelfBilling(TestPeppolMessageCommon):
                 'currency_id': self.env.ref('base.EUR').id,
             },
         ])
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======

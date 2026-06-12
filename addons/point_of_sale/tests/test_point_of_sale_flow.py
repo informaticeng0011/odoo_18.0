@@ -255,6 +255,10 @@ from datetime import datetime
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from unittest.mock import patch
+>>>>>>> upstream/18.0
 =======
 from unittest.mock import patch
 >>>>>>> upstream/18.0
@@ -1267,6 +1271,7 @@ from odoo.addons.point_of_sale.tests.common_setup_methods import setup_product_c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
@@ -1305,6 +1310,9 @@ from odoo.exceptions import UserError
 >>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError
+>>>>>>> upstream/18.0
+=======
+from odoo.exceptions import UserError, ValidationError
 >>>>>>> upstream/18.0
 =======
 from odoo.exceptions import UserError, ValidationError
@@ -2091,6 +2099,11 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.pos_config.open_ui()
         current_session = self.pos_config.current_session_id
         # I create a new PoS order with 2 lines
+<<<<<<< HEAD
+=======
+        untax1, atax1 = self.compute_tax(self.product3, 450 * (1 - 5 / 100.0), 2)
+        untax2, atax2 = self.compute_tax(self.product4, 300 * (1 - 5 / 100.0), 3)
+>>>>>>> upstream/18.0
         order = self.PosOrder.create({
             'company_id': self.env.company.id,
             'session_id': current_session.id,
@@ -2103,8 +2116,13 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
                 'discount': 5.0,
                 'qty': 2.0,
                 'tax_ids': [(6, 0, self.product3.taxes_id.filtered(lambda t: t.company_id.id == self.env.company.id).ids)],
+<<<<<<< HEAD
                 'price_subtotal': 450 * (1 - 5/100.0) * 2,
                 'price_subtotal_incl': 450 * (1 - 5/100.0) * 2,
+=======
+                'price_subtotal': untax1,
+                'price_subtotal_incl': untax1 + atax1,
+>>>>>>> upstream/18.0
             }), (0, 0, {
                 'name': "OL/0002",
                 'product_id': self.product4.id,
@@ -2112,11 +2130,19 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
                 'discount': 5.0,
                 'qty': 3.0,
                 'tax_ids': [(6, 0, self.product4.taxes_id.filtered(lambda t: t.company_id.id == self.env.company.id).ids)],
+<<<<<<< HEAD
                 'price_subtotal': 300 * (1 - 5/100.0) * 3,
                 'price_subtotal_incl': 300 * (1 - 5/100.0) * 3,
             })],
             'amount_total': 1710.0,
             'amount_tax': 0.0,
+=======
+                'price_subtotal': untax2,
+                'price_subtotal_incl': untax2 + atax2,
+            })],
+            'amount_total': untax1 + atax1 + untax2 + atax2,
+            'amount_tax': atax1 + atax2,
+>>>>>>> upstream/18.0
             'amount_paid': 0.0,
             'amount_return': 0.0,
             'last_order_preparation_change': '{}'
@@ -2382,6 +2408,11 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        order._compute_prices()
+
+>>>>>>> upstream/18.0
 =======
         order._compute_prices()
 
@@ -3743,6 +3774,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'price_unit': 134.38,
+>>>>>>> upstream/18.0
 =======
                     'price_unit': 134.38,
 >>>>>>> upstream/18.0
@@ -4590,9 +4625,15 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
                 Command.create({
                     'product_id': self.product_b.id,
                     'qty': 1,
+<<<<<<< HEAD
                     'price_subtotal': 16.0,
                     'price_subtotal_incl': 16.0,
                     'price_unit': 16.0,
+=======
+                    'price_unit': 16.0,
+                    'price_subtotal': 16.0,
+                    'price_subtotal_incl': 16.0,
+>>>>>>> upstream/18.0
                 }),
             ],
             'amount_tax': 0.0,
@@ -5054,7 +5095,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5846,6 +5890,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -6973,6 +7020,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -7020,6 +7068,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7698,6 +7748,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7785,6 +7836,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         current_session.action_pos_session_closing_control()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8374,6 +8427,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9934,6 +9990,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -11253,6 +11313,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'standard_price': 100,
+>>>>>>> upstream/18.0
 =======
             'standard_price': 100,
 >>>>>>> upstream/18.0
@@ -12569,6 +12633,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         order = self.PosOrder.create({
             'company_id': self.env.company.id,
             'session_id': self.pos_config.current_session_id.id,
@@ -12611,6 +12676,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.pos_config.current_session_id.action_pos_session_closing_control()
         order.picking_ids._action_done()
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -13634,6 +13701,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -14777,6 +14847,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'country_id': self.env.company.country_id.id,
+>>>>>>> upstream/18.0
 =======
             'country_id': self.env.company.country_id.id,
 >>>>>>> upstream/18.0
@@ -16345,6 +16419,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -16855,6 +16930,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -17176,6 +17253,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17753,6 +17833,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -17791,6 +17872,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -18755,8 +18838,11 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             'standard_price': 10
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -19660,6 +19746,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -20571,7 +20660,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -21476,6 +21568,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -22401,7 +22496,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -23306,6 +23404,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -23918,6 +24019,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
         self.PosOrder.sync_from_ui(refund_values)
         refunded_order_line = self.env['pos.order.line'].search([('product_id', '=', product.id), ('qty', '=', -2)])
         self.assertEqual(refunded_order_line.total_cost, -20)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25002,6 +25104,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 
     def _create_and_invoice_order(self):
         current_session = self.pos_config.current_session_id
@@ -25163,6 +25267,9 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -25925,6 +26032,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -26008,6 +26116,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+        with self.assertRaises(UserError):
+            self.env['pos.order'].search([('tracking_number', 'ilike', '1234')])
 >>>>>>> upstream/18.0
 =======
         with self.assertRaises(UserError):
@@ -27223,6 +27335,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -27237,6 +27350,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -27993,6 +28108,10 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'country_id': self.env.company.country_id.id,
+>>>>>>> upstream/18.0
 =======
             'country_id': self.env.company.country_id.id,
 >>>>>>> upstream/18.0
@@ -29031,10 +29150,13 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -29805,6 +29927,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -29831,6 +29954,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -30576,6 +30701,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -30654,6 +30780,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -31101,6 +31229,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
             and l.partner_id == self.partner1
         ).balance
         self.assertEqual(order_balance + payment_balance, 0)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31803,6 +31932,11 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
     def test_pos_payment_direction_and_accounts(self):
         """Ensure POS payments create correct inbound/outbound payments and accounts and related journal items"""
 >>>>>>> upstream/18.0
+=======
+
+    def test_pos_payment_direction_and_accounts(self):
+        """Ensure POS payments create correct inbound/outbound payments and accounts and related journal items"""
+>>>>>>> upstream/18.0
 
         def _do_pos_transaction(amount, split, index):
             self.bank_payment_method.write({'split_transactions': split})
@@ -31876,8 +32010,14 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.assertRecordValues(
             self.env['account.payment'].search([('pos_session_id', 'in', session_ids)], order='id'),
+=======
+        payments = self.env['account.payment'].search([('pos_session_id', 'in', session_ids)], order='id')
+        self.assertRecordValues(
+            payments,
+>>>>>>> upstream/18.0
 =======
         payments = self.env['account.payment'].search([('pos_session_id', 'in', session_ids)], order='id')
         self.assertRecordValues(
@@ -32096,8 +32236,13 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "outstanding_account_id": self.bank_payment_method.receivable_account_id.id,
                     "destination_account_id": self.bank_payment_method.outstanding_account_id.id,
+=======
+                    "outstanding_account_id": self.bank_payment_method.outstanding_account_id.id,
+                    "destination_account_id": self.bank_payment_method.receivable_account_id.id,
+>>>>>>> upstream/18.0
 =======
                     "outstanding_account_id": self.bank_payment_method.outstanding_account_id.id,
                     "destination_account_id": self.bank_payment_method.receivable_account_id.id,
@@ -32281,6 +32426,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "outstanding_account_id": self.bank_payment_method.receivable_account_id.id,
                     "destination_account_id": self.bank_payment_method.outstanding_account_id.id,
                 },
@@ -32527,6 +32673,8 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
                     "outstanding_account_id": self.bank_payment_method.outstanding_account_id.id,
                     "destination_account_id": self.bank_payment_method.receivable_account_id.id,
                 },
@@ -32579,6 +32727,7 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -32647,4 +32796,60 @@ class TestPointOfSaleFlow(TestPointOfSaleCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+
+    def test_order_partial_refund_amount(self):
+        """This test make sure that line prices and total price of an order are correctly updated according to the quantity refunded
+           even when the order is refunded in multiple times.
+        """
+        self.pos_config.open_ui()
+        current_session = self.pos_config.current_session_id
+        # I create a new PoS order with 2 lines
+        order = self.PosOrder.create({
+            'company_id': self.env.company.id,
+            'session_id': current_session.id,
+            'partner_id': self.partner1.id,
+            'pricelist_id': self.partner1.property_product_pricelist.id,
+            'lines': [
+                Command.create({
+                    'product_id': self.product_a.id,
+                    'qty': 3,
+                    'price_unit': 12.0,
+                    'price_subtotal': 36.0,
+                    'price_subtotal_incl': 36.0,
+                }),
+            ],
+            'amount_tax': 0.0,
+            'amount_total': 36.0,
+            'amount_paid': 0.0,
+            'amount_return': 0.0,
+        })
+        payment_context = {"active_ids": order.ids, "active_id": order.id}
+        order_payment = self.PosMakePayment.with_context(**payment_context).create({
+            'amount': order.amount_total,
+            'payment_method_id': self.cash_payment_method.id
+        })
+        order_payment.with_context(**payment_context).check()
+
+        # Make a first refund for 1 quantity of the product
+        refund_action = order.refund()
+        refund = self.PosOrder.browse(refund_action['res_id'])
+        with Form(refund) as refund_form:
+            with refund_form.lines.edit(0) as line:
+                line.qty = -1
+        refund = refund_form.save()
+        payment_context = {"active_ids": refund.ids, "active_id": refund.id}
+        refund_payment = self.PosMakePayment.with_context(**payment_context).create({
+            'amount': refund.amount_total,
+            'payment_method_id': self.cash_payment_method.id,
+        })
+        refund_payment.with_context(**payment_context).check()
+
+        # Make a second refund for the 2 remaining quantities of the product
+        refund_action = order.refund()
+        refund = self.PosOrder.browse(refund_action['res_id'])
+        self.assertEqual(refund.amount_total, -24.0)
+        self.assertEqual(refund.lines.qty, -2)
+        self.assertEqual(refund.lines[0].price_subtotal, -24.0)
 >>>>>>> upstream/18.0

@@ -232,6 +232,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* repair
 # 
 # Translators:
@@ -701,12 +702,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * repair
 #
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1553,10 +1557,14 @@
 =======
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2646,6 +2654,10 @@ msgstr ""
 "POT-Creation-Date: 2026-04-10 18:37+0000\n"
 "PO-Revision-Date: 2026-05-02 09:03+0000\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-04-10 18:37+0000\n"
+"PO-Revision-Date: 2026-05-02 09:03+0000\n"
+>>>>>>> upstream/18.0
 "Last-Translator: \"Junko Augias (juau)\" <juau@odoo.com>\n"
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/repair/"
 "ja/>\n"
@@ -2654,6 +2666,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3500,6 +3513,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -3808,7 +3824,11 @@ msgid "%(product)s: Insufficient Quantity To Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "%(product)s: 修理する数量が不足しています"
+=======
+msgstr "%(product)s: 修理対象数量が不足しています"
+>>>>>>> upstream/18.0
 =======
 msgstr "%(product)s: 修理対象数量が不足しています"
 >>>>>>> upstream/18.0
@@ -5011,7 +5031,11 @@ msgid "(<i>Remove</i>)"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "(<i>削除</i>)"
+=======
+msgstr "(<i>取り外す</i>)"
+>>>>>>> upstream/18.0
 =======
 msgstr "(<i>取り外す</i>)"
 >>>>>>> upstream/18.0
@@ -6065,7 +6089,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "* The 'New' status is used when a user is encoding a new and unconfirmed repair order.\n"
+=======
+"* The 'New' status is used when a user is encoding a new and unconfirmed "
+"repair order.\n"
+>>>>>>> upstream/18.0
 =======
 "* The 'New' status is used when a user is encoding a new and unconfirmed "
 "repair order.\n"
@@ -6703,6 +6732,7 @@ msgid ""
 "* The 'Repaired' status is set when repairing is completed.\n"
 "* The 'Cancelled' status is used when user cancel repair order."
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8643,6 +8673,11 @@ msgstr ""
 "用されます。\n"
 "* '確定済' ステータスはユーザが修理オーダを確定した際に使用されます。\n"
 >>>>>>> upstream/18.0
+=======
+"* '新規' ステータスは、ユーザが未確定の新規修理オーダをエンコードする場合に使"
+"用されます。\n"
+"* '確定済' ステータスはユーザが修理オーダを確定した際に使用されます。\n"
+>>>>>>> upstream/18.0
 "* '修理中' ステータスは修理が進行中の際に使用されます。\n"
 "* '修理済' ステータスは修理が完了した際に使用されます。\n"
 "* '取消済' ステータスはユーザが修理オーダを取消した際に使用されます。"
@@ -8740,6 +8775,7 @@ msgstr "活動"
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_exception_decoration
 msgid "Activity Exception Decoration"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9645,6 +9681,9 @@ msgstr "例外の活動を示す装飾"
 =======
 msgstr "例外の活動を示す装飾"
 >>>>>>> upstream/18.0
+=======
+msgstr "例外の活動を示す装飾"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_order__activity_state
@@ -9805,7 +9844,11 @@ msgid "Activity Type Icon"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "活動種別アイコン"
+=======
+msgstr "活動タイプアイコン"
+>>>>>>> upstream/18.0
 =======
 msgstr "活動タイプアイコン"
 >>>>>>> upstream/18.0
@@ -10628,7 +10671,11 @@ msgid "Add internal notes."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "内部注記を追加"
+=======
+msgstr "内部メモを追加"
+>>>>>>> upstream/18.0
 =======
 msgstr "内部メモを追加"
 >>>>>>> upstream/18.0
@@ -12078,7 +12125,11 @@ msgid "Available"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "処理可能"
+=======
+msgstr "利用可能"
+>>>>>>> upstream/18.0
 =======
 msgstr "利用可能"
 >>>>>>> upstream/18.0
@@ -13444,7 +13495,11 @@ msgid "Cancel Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修理取消"
+=======
+msgstr "修理をキャンセル"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理をキャンセル"
 >>>>>>> upstream/18.0
@@ -14638,7 +14693,11 @@ msgid "Cancelled"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "取消済"
+=======
+msgstr "キャンセル済"
+>>>>>>> upstream/18.0
 =======
 msgstr "キャンセル済"
 >>>>>>> upstream/18.0
@@ -15544,6 +15603,7 @@ msgstr "カテゴリー"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Check availability"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16933,12 +16993,16 @@ msgstr "在庫を確認"
 =======
 msgstr "在庫を確認"
 >>>>>>> upstream/18.0
+=======
+msgstr "在庫を確認"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_repair_order__partner_id
 msgid ""
 "Choose partner for whom the order will be invoiced and delivered. You can "
 "find a partner by its Name, TIN, Email or Internal Reference."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -17888,6 +17952,11 @@ msgstr ""
 "オーダの請求先および納品先となるパートナーを選択します。パートナーは、名前、"
 "TIN、Eメール、内部参照で見つけることができます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"オーダの請求先および納品先となるパートナーを選択します。パートナーは、名前、"
+"TIN、Eメール、内部参照で見つけることができます。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_repair_tags__color
@@ -17925,6 +17994,7 @@ msgstr "設定"
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
 msgid "Confirm Repair"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -19350,6 +19420,9 @@ msgstr "修理を確定"
 =======
 msgstr "修理を確定"
 >>>>>>> upstream/18.0
+=======
+msgstr "修理を確定"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
@@ -19364,6 +19437,7 @@ msgstr "確認済"
 msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -20313,6 +20387,11 @@ msgstr ""
 "単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
 "行われます。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"単位間の変換は同じカテゴリに属している場合のみ可能です。変換は比率に基づいて"
+"行われます。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -20443,6 +20522,7 @@ msgstr "Font awesomeのアイコン 例. fa-tasks"
 msgid ""
 "For some of the parts, there is a difference between the initial demand and "
 "the actual quantity that was used. Are you sure you want to confirm ?"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -22184,6 +22264,11 @@ msgstr ""
 "一部の部品については、当初の需要と実際に使用された数量に差異があります。確定"
 "しますか？"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"一部の部品については、当初の需要と実際に使用された数量に差異があります。確定"
+"しますか？"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
@@ -22406,7 +22491,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "チェックを入れると、修理オーダから転送された全てのプロダクトの販売価格が0に設定されます。"
+=======
+msgstr ""
+"チェックを入れると、修理オーダから転送された全てのプロダクトの販売価格が0に設"
+"定されます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "チェックを入れると、修理オーダから転送された全てのプロダクトの販売価格が0に設"
@@ -23366,7 +23457,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "                add or replace and record the time you spent on the different\n"
+=======
+"                add or replace and record the time you spent on the "
+"different\n"
+>>>>>>> upstream/18.0
 =======
 "                add or replace and record the time you spent on the "
 "different\n"
@@ -24090,6 +24186,7 @@ msgstr "遅れた活動"
 msgid ""
 "Latest parts availability status for this RO. If green, then the RO's "
 "readiness status is ready."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -25039,6 +25136,11 @@ msgstr ""
 "この修理オーダの最新の部品供給状況。緑色の場合、修理オーダの準備ステータスは"
 "準備完了です。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"この修理オーダの最新の部品供給状況。緑色の場合、修理オーダの準備ステータスは"
+"準備完了です。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,field_description:repair.field_stock_warn_insufficient_qty_repair__location_id
@@ -25138,6 +25240,11 @@ msgstr "活動期限"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#. odoo-python
+#: code:addons/repair/models/repair.py:0
+>>>>>>> upstream/18.0
 =======
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
@@ -25810,7 +25917,11 @@ msgid "Number of Repair Orders to Process"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "処理予定修理オーダ数"
+=======
+msgstr "処理待ちの修理オーダ数"
+>>>>>>> upstream/18.0
 =======
 msgstr "処理待ちの修理オーダ数"
 >>>>>>> upstream/18.0
@@ -27253,6 +27364,7 @@ msgid "Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オペレーションタイプ"
 =======
 msgstr "工程タイプ"
@@ -28099,6 +28211,8 @@ msgstr "工程タイプ"
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 msgstr "工程タイプ"
 
 #. module: repair
@@ -28261,6 +28375,9 @@ msgstr "工程タイプ"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -28915,7 +29032,11 @@ msgid "Operations"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "オペレーション"
+=======
+msgstr "工程"
+>>>>>>> upstream/18.0
 =======
 msgstr "工程"
 >>>>>>> upstream/18.0
@@ -30333,7 +30454,11 @@ msgid "Product to Repair"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修理プロダクト"
+=======
+msgstr "修理対象プロダクト"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理対象プロダクト"
 >>>>>>> upstream/18.0
@@ -31381,7 +31506,11 @@ msgid "Quant"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Quant"
+=======
+msgstr "在庫数量"
+>>>>>>> upstream/18.0
 =======
 msgstr "在庫数量"
 >>>>>>> upstream/18.0
@@ -32132,7 +32261,11 @@ msgid "Remove"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "削除"
+=======
+msgstr "取り外す"
+>>>>>>> upstream/18.0
 =======
 msgstr "取り外す"
 >>>>>>> upstream/18.0
@@ -33325,7 +33458,11 @@ msgid "Remove Destination Location"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "廃棄移動先ロケーション"
+=======
+msgstr "払出先ロケーション"
+>>>>>>> upstream/18.0
 =======
 msgstr "払出先ロケーション"
 >>>>>>> upstream/18.0
@@ -34372,7 +34509,11 @@ msgid "Repair MTO Rule"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修理MTO規則"
+=======
+msgstr "修理MTOルール"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理MTOルール"
 >>>>>>> upstream/18.0
@@ -35127,7 +35268,11 @@ msgid "Repair Operation Type"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修理オペレーションタイプ"
+=======
+msgstr "修理工程タイプ"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理工程タイプ"
 >>>>>>> upstream/18.0
@@ -36518,6 +36663,7 @@ msgid "SMS Delivery error"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS配信エラー"
 =======
 msgstr "SMS送信エラー"
@@ -37055,6 +37201,9 @@ msgstr "SMS送信エラー"
 >>>>>>> upstream/18.0
 =======
 msgstr "SMS送信エラー"
+>>>>>>> upstream/18.0
+=======
+msgstr "SMS配信エラー"
 >>>>>>> upstream/18.0
 =======
 msgstr "SMS配信エラー"
@@ -37552,7 +37701,11 @@ msgid "Scheduled Date"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "計画日"
+=======
+msgstr "予定日"
+>>>>>>> upstream/18.0
 =======
 msgstr "予定日"
 >>>>>>> upstream/18.0
@@ -38751,7 +38904,11 @@ msgid "Serial number is required for product to repair : %s"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "シリアル番号は、修理するプロダクトに必要です: %s"
+=======
+msgstr "修理対象プロダクトにはシリアル番号が必要です:  %s"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理対象プロダクトにはシリアル番号が必要です:  %s"
 >>>>>>> upstream/18.0
@@ -39825,7 +39982,11 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "遅延: 期限が既に過ぎています\n"
+=======
+"期限超過：期限日がすでに過ぎています\n"
+>>>>>>> upstream/18.0
 =======
 "期限超過：期限日がすでに過ぎています\n"
 >>>>>>> upstream/18.0
@@ -40332,6 +40493,7 @@ msgstr "明後日"
 msgid ""
 "The product unit of measure you chose has a different category than the "
 "product unit of measure."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41123,6 +41285,10 @@ msgstr ""
 msgstr ""
 "選択したプロダクト単位は、プロダクト単位とは異なるカテゴリを持っています。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"選択したプロダクト単位は、プロダクト単位とは異なるカテゴリを持っています。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model_terms:ir.ui.view,arch_db:repair.report_repairorder
@@ -41134,6 +41300,7 @@ msgstr "これは修理メモです"
 msgid ""
 "This is the default destination location for the product to be repaired in "
 "repair orders with this operation type."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42783,12 +42950,18 @@ msgstr ""
 "これは、この工程タイプの修理オーダで修理されるプロダクトのデフォルトの移動先"
 "ロケーションです。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"これは、この工程タイプの修理オーダで修理されるプロダクトのデフォルトの移動先"
+"ロケーションです。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_recycle_location_dest_id
 msgid ""
 "This is the default recycle destination location when you create a repair "
 "order with this operation type."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44438,12 +44611,18 @@ msgstr ""
 "この工程タイプで修理オーダを作成した場合のデフォルトのリサイクル移動先ロケー"
 "ションです。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"この工程タイプで修理オーダを作成した場合のデフォルトのリサイクル移動先ロケー"
+"ションです。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_remove_location_dest_id
 msgid ""
 "This is the default remove destination location when you create a repair "
 "order with this operation type."
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46093,10 +46272,16 @@ msgstr ""
 "このオペレーションタイプで修理オーダを作成した際に使用される、デフォルトの払"
 "出先ロケーションです。"
 >>>>>>> upstream/18.0
+=======
+msgstr ""
+"このオペレーションタイプで修理オーダを作成した際に使用される、デフォルトの払"
+"出先ロケーションです。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #: model:ir.model.fields,help:repair.field_stock_picking_type__default_product_location_src_id
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -47273,6 +47458,8 @@ msgstr "これは、この工程タイプの修理オーダで修理されるプ
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "This is the default source location for the product to be repaired in repair "
 "orders with this operation type."
 msgstr ""
@@ -47435,6 +47622,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -48052,7 +48242,11 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修理予定プロダクト構成品のあるロケーションです。"
+=======
+msgstr "修理対象プロダクト構成品のあるロケーションです。"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理対象プロダクト構成品のあるロケーションです。"
 >>>>>>> upstream/18.0
@@ -49245,7 +49439,11 @@ msgid "This is the location where the product to repair is located."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "修理予定プロダクトのあるロケーションです。"
+=======
+msgstr "修理対象プロダクトのあるロケーションです。"
+>>>>>>> upstream/18.0
 =======
 msgstr "修理対象プロダクトのあるロケーションです。"
 >>>>>>> upstream/18.0
@@ -50345,7 +50543,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この修理が返品オーダにリンクされ、オーダが'完了'している場合はTRUE。そうでない場合はFALSE。"
+=======
+msgstr ""
+"この修理が返品オーダにリンクされ、オーダが'完了'している場合はTRUE。そうでな"
+"い場合はFALSE。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この修理が返品オーダにリンクされ、オーダが'完了'している場合はTRUE。そうでな"
@@ -51189,7 +51393,11 @@ msgid "Type of the exception activity on record."
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "記録上の例外活動の種類。"
+=======
+msgstr "レコード上の例外の活動タイプ。"
+>>>>>>> upstream/18.0
 =======
 msgstr "レコード上の例外の活動タイプ。"
 >>>>>>> upstream/18.0
@@ -51388,6 +51596,7 @@ msgstr "負の数量を入力することはできません。"
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid "You cannot cancel a Repair Order that's already been completed"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52577,11 +52786,15 @@ msgstr "すでに完了した修理オーダはキャンセルできません。
 =======
 msgstr "すでに完了した修理オーダはキャンセルできません。"
 >>>>>>> upstream/18.0
+=======
+msgstr "すでに完了した修理オーダはキャンセルできません。"
+>>>>>>> upstream/18.0
 
 #. module: repair
 #. odoo-python
 #: code:addons/repair/models/repair.py:0
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53060,6 +53273,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "You cannot create a quotation for a repair order that is already linked to "
 "an existing sale order.\n"
 "Concerned repair order(s):\n"
@@ -53224,6 +53439,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -53704,12 +53922,15 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You need to define a customer for a repair order in order to create an associated quotation.\n"
 "Concerned repair order(s):\n"
 "%(ref_str)s"
 msgstr ""
 "関連する見積書を作成するためには、修理オーダの顧客を定義する必要があります。\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -54188,6 +54409,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

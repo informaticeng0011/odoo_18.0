@@ -8,7 +8,10 @@ from __future__ import annotations
 
 import inspect
 import logging
+<<<<<<< HEAD
 import os
+=======
+>>>>>>> upstream/18.0
 import threading
 import time
 import typing
@@ -26,7 +29,11 @@ from odoo.modules.db import FunctionStatus
 from .. import SUPERUSER_ID
 from odoo.sql_db import TestCursor
 from odoo.tools import (
+<<<<<<< HEAD
     config, lazy_classproperty,
+=======
+    config,
+>>>>>>> upstream/18.0
     lazy_property, sql, OrderedSet, SQL,
     remove_accents,
 )
@@ -364,6 +371,11 @@ _CACHES_BY_KEY = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+_REPLICA_RETRY_TIME = 20 * 60  # 20 minutes
+
+>>>>>>> upstream/18.0
 =======
 _REPLICA_RETRY_TIME = 20 * 60  # 20 minutes
 
@@ -1590,6 +1602,7 @@ class Registry(Mapping):
     _lock = threading.RLock()
     _saved_lock = None
 
+<<<<<<< HEAD
     @lazy_classproperty
     def registries(cls):
         """ A mapping from database names to registries. """
@@ -1605,6 +1618,10 @@ class Registry(Mapping):
                 avgsz = 15 * 1024 * 1024
                 size = int(config['limit_memory_soft'] / avgsz)
         return LRU(size)
+=======
+    registries = LRU(42)  # random default value
+    """ A mapping from database names to registries. """
+>>>>>>> upstream/18.0
 
     def __new__(cls, db_name):
         """ Return the registry for the given database name."""
@@ -1933,6 +1950,10 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._database_company_dependent_fields = ()  # names of company dependent fields in database
+>>>>>>> upstream/18.0
 =======
         self._database_company_dependent_fields = ()  # names of company dependent fields in database
 >>>>>>> upstream/18.0
@@ -3069,6 +3090,10 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self._db_readonly_failed_time = None
+>>>>>>> upstream/18.0
 =======
         self._db_readonly_failed_time = None
 >>>>>>> upstream/18.0
@@ -5103,6 +5128,7 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             try:
                 return self._db_readonly.cursor()
             except psycopg2.OperationalError:
@@ -5111,6 +5137,8 @@ class Registry(Mapping):
                 self._db_readonly = None
                 _logger.warning('Failed to open a readonly cursor, falling back to read-write cursor')
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6026,6 +6054,9 @@ class Registry(Mapping):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

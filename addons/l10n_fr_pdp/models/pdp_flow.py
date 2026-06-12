@@ -130,7 +130,13 @@ class PdpFlow(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if today < flow.due_period_start:
+=======
+            if not flow.due_period_start or not flow.due_period_end:
+                flow.period_status = False
+            elif today < flow.due_period_start:
+>>>>>>> upstream/18.0
 =======
             if not flow.due_period_start or not flow.due_period_end:
                 flow.period_status = False
@@ -312,8 +318,11 @@ class PdpFlow(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         auth_totp_disabled = not self.env.user.totp_enabled and not bool(self.env['ir.config_parameter'].sudo().get_param('auth_totp.policy'))
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -343,6 +352,9 @@ class PdpFlow(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -53,6 +53,7 @@ class IrActionsReport(models.Model):
                     qr_pdf = OdooPdfFileReader(stream['stream'], strict=False)
                     res_pdf = OdooPdfFileReader(res[invoice_id]['stream'], strict=False)
 
+<<<<<<< HEAD
                     last_page = res_pdf.getPage(-1)
                     last_page.mergePage(qr_pdf.getPage(0))
 <<<<<<< HEAD
@@ -237,6 +238,17 @@ class IrActionsReport(models.Model):
 >>>>>>> upstream/18.0
 =======
                     output_pdf.getPage(-1).compressContentStreams()
+>>>>>>> upstream/18.0
+=======
+                    output_pdf = OdooPdfFileWriter()
+
+                    # Add all pages from the original PDF
+                    for page_num in range(res_pdf.getNumPages()):
+                        output_pdf.addPage(res_pdf.getPage(page_num))
+
+                    last_page = output_pdf.getPage(-1)
+                    last_page.mergePage(qr_pdf.getPage(0))  # Merge the QR code on the last page
+                    last_page.compressContentStreams()
 >>>>>>> upstream/18.0
 
                     new_pdf_stream = io.BytesIO()

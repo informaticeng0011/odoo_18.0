@@ -160,6 +160,7 @@ class TestStockNotificationProduct(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ProductProduct._send_availability_email()
         emails = self.env['mail.mail'].search([('email_to', '=', partner.email_formatted)])
         self.assertEqual(emails[0].subject, "The product 'Macbook Pro' is now available")
@@ -183,6 +184,10 @@ class TestStockNotificationProduct(HttpCase):
 =======
 >>>>>>> upstream/18.0
         website = self.env['website'].get_current_website()
+=======
+        website = self.env['website'].get_current_website()
+        website.company_id.partner_id.email = "test@test.com"
+>>>>>>> upstream/18.0
 =======
         website = self.env['website'].get_current_website()
         website.company_id.partner_id.email = "test@test.com"
@@ -677,6 +682,9 @@ class TestStockNotificationProduct(HttpCase):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

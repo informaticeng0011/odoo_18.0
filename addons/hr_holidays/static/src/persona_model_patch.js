@@ -355,6 +355,7 @@ patch(Persona.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     updateImStatus(newStatus) {
         if (newStatus == "online" && this.out_of_office_date_end) {
             this.im_status = "leave_online";
@@ -1065,6 +1066,8 @@ patch(Persona.prototype, {
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
     get outOfOfficeText() {
         if (!this.out_of_office_date_end) {
             return "";
@@ -1077,7 +1080,11 @@ patch(Persona.prototype, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         const fdate = date.toLocaleString(DateTime.DATE_MED);
+=======
+        const fdate = date.toLocaleString({ ...DateTime.DATE_MED, timeZone:"UTC" });
+>>>>>>> upstream/18.0
 =======
         const fdate = date.toLocaleString({ ...DateTime.DATE_MED, timeZone:"UTC" });
 >>>>>>> upstream/18.0

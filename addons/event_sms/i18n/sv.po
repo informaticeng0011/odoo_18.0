@@ -57,6 +57,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event_sms
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -691,11 +692,16 @@
 # * event_sms
 #
 >>>>>>> upstream/18.0
+=======
+# * event_sms
+#
+>>>>>>> upstream/18.0
 # Translators:
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2024
 # Kim Asplund <kim.asplund@gmail.com>, 2024
 # Martin Trigaux, 2024
 # Jakob Krabbe <jakob.krabbe@vertel.se>, 2024
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1329,10 +1335,14 @@
 =======
 # Hanna Kharraziha <hakha@odoo.com>, 2026.
 >>>>>>> upstream/18.0
+=======
+# Hanna Kharraziha <hakha@odoo.com>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1817,6 +1827,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "POT-Creation-Date: 2025-12-29 18:37+0000\n"
 "PO-Revision-Date: 2026-04-14 08:19+0000\n"
 "Last-Translator: Hanna Kharraziha <hakha@odoo.com>\n"
@@ -1878,6 +1890,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1995,6 +2010,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2582,6 +2598,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.16.2\n"
 >>>>>>> upstream/18.0
+=======
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.16.2\n"
+>>>>>>> upstream/18.0
 
 #. module: event_sms
 #: model:ir.model,name:event_sms.model_event_mail
@@ -2643,7 +2663,11 @@ msgid "Event Automated Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Automatiska evenemangsutskick"
+=======
+msgstr "Automatiserade evenemangsutskick"
+>>>>>>> upstream/18.0
 =======
 msgstr "Automatiserade evenemangsutskick"
 >>>>>>> upstream/18.0
@@ -2876,7 +2900,11 @@ msgid "Event: Registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evenemang: anmälan"
+=======
+msgstr "Evenemang: Anmälan"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evenemang: Anmälan"
 >>>>>>> upstream/18.0
@@ -3109,7 +3137,11 @@ msgid "Event: Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Evenemang: påminnelse"
+=======
+msgstr "Evenemang: Påminnelse"
+>>>>>>> upstream/18.0
 =======
 msgstr "Evenemang: Påminnelse"
 >>>>>>> upstream/18.0
@@ -3342,7 +3374,11 @@ msgid "Mail Scheduling on Event Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Schemalägg e-post för evenemangskategori"
+=======
+msgstr "Schemalägg e-post per evenemangskategori"
+>>>>>>> upstream/18.0
 =======
 msgstr "Schemalägg e-post per evenemangskategori"
 >>>>>>> upstream/18.0
@@ -3519,6 +3555,7 @@ msgstr "Schemalägg e-post per evenemangskategori"
 #: model:sms.template,body:event_sms.sms_template_data_event_reminder
 msgid ""
 "Ready for \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3996,6 +4033,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "{{ 'It starts at %s' % format_time(time=object.event_begin_date, "
 "tz=object.event_id.date_tz, time_format='short', "
 "lang_code=object.partner_id.lang) + (', at %s' % "
@@ -4005,6 +4044,7 @@ msgstr ""
 "%i!' % (object.get_base_url(), object.event_id.id) }}"
 msgstr ""
 "Redo för \"{{ object.event_id.name }}\" {{ object.event_date_range }}?\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4483,6 +4523,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 "{{ 'Evenemanget börjar kl %s' % format_time(time=object.event_begin_date, "
 "tz=object.event_id.date_tz, time_format='short', "
 "lang_code=object.partner_id.lang) + (', på %s' % "
@@ -4547,6 +4589,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4721,7 +4766,11 @@ msgid "Registration Mail Scheduler"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Schemaläggare för evenemangsanmälningar"
+=======
+msgstr "Schemaläggning av e-post relaterade till evenemangsanmälningar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Schemaläggning av e-post relaterade till evenemangsanmälningar"
 >>>>>>> upstream/18.0
@@ -4964,7 +5013,11 @@ msgid "SMS Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "SMS-mallar"
+=======
+msgstr "Sms-mallar"
+>>>>>>> upstream/18.0
 =======
 msgstr "Sms-mallar"
 >>>>>>> upstream/18.0
@@ -5157,6 +5210,7 @@ msgid ""
 "{{ object.event_id.name }} event."
 msgstr ""
 "{{ object.event_id.organizer_id.name or object.event_id.company_id.name or "
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5720,6 +5774,10 @@ msgstr ""
 =======
 "user.env.company.name }}: Vi är glada att bekräfta din registrering till "
 "{{ object.event_id.name }}."
+>>>>>>> upstream/18.0
+=======
+"user.env.company.name }}: Vi är glada att bekräfta din anmälan till "
+"evenemanget {{ object.event_id.name }}."
 >>>>>>> upstream/18.0
 =======
 "user.env.company.name }}: Vi är glada att bekräfta din anmälan till "

@@ -391,6 +391,10 @@ export class Persona extends Record {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    signature = Record.attr("", { html: true });
+>>>>>>> upstream/18.0
 =======
     signature = Record.attr("", { html: true });
 >>>>>>> upstream/18.0

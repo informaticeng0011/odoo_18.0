@@ -238,6 +238,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* payment_authorize
 # 
 # Translators:
@@ -719,12 +720,15 @@
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 # * payment_authorize
 #
 # Translators:
 # Wil Odoo, 2024
 # Junko Augias, 2025
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1541,10 +1545,15 @@
 # "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
+=======
+# "Junko Augias (juau)" <juau@odoo.com>, 2025, 2026.
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
+>>>>>>> upstream/18.0
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2530,6 +2539,11 @@ msgstr ""
 "PO-Revision-Date: 2026-04-24 07:54+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2026-03-06 18:39+0000\n"
+"PO-Revision-Date: 2026-04-24 07:54+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Japanese <https://translate.odoo.com/projects/odoo-18/"
 "payment_authorize/ja/>\n"
 "Language: ja\n"
@@ -2537,6 +2551,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3307,10 +3322,14 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3480,6 +3499,8 @@ msgstr ""
 "                        <option value=\"savings\">個人預金口座</option>\n"
 "                        <option value=\"businessChecking\">ビジネス当座預金</option>\n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3966,6 +3987,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4363,7 +4387,11 @@ msgid "API Transaction Key"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "APIトランザクションキー"
+=======
+msgstr "API取引キー"
+>>>>>>> upstream/18.0
 =======
 msgstr "API取引キー"
 >>>>>>> upstream/18.0
@@ -4593,6 +4621,7 @@ msgid ""
 "Could not retrieve the transaction details. (error code: %(error_code)s; "
 "error_details: %(error_message)s)"
 msgstr ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5384,6 +5413,10 @@ msgstr ""
 "取引の詳細を取得できませんでした。 (エラーコード: %(error_code)s; "
 "error_details: %(error_message)s)"
 >>>>>>> upstream/18.0
+=======
+"取引の詳細を取得できませんでした。 (エラーコード: %(error_code)s; "
+"error_details: %(error_message)s)"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #: model_terms:ir.ui.view,arch_db:payment_authorize.inline_form
@@ -5445,6 +5478,7 @@ msgstr "支払トークン"
 #. module: payment_authorize
 #: model:ir.model,name:payment_authorize.model_payment_transaction
 msgid "Payment Transaction"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6398,6 +6432,9 @@ msgstr "支払取引"
 =======
 msgstr "支払取引"
 >>>>>>> upstream/18.0
+=======
+msgstr "支払取引"
+>>>>>>> upstream/18.0
 
 #. module: payment_authorize
 #. odoo-javascript
@@ -6566,9 +6603,12 @@ msgstr "支払処理に失敗しました"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgid "Received data with status code \"%(status)s\" and error code \"%(error)s\""
 msgstr "ステータスコード \"%(status)s\" とエラーコード \"%(error)s\"のデータを受信しました。"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -7045,6 +7085,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7540,7 +7583,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "公開クライアントキー。ODooからまたはAuthorize.Netバックエンドから直接生成されます。"
+=======
+msgstr ""
+"公開クライアントキー。ODooからまたはAuthorize.Netバックエンドから直接生成され"
+"ます。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "公開クライアントキー。ODooからまたはAuthorize.Netバックエンドから直接生成され"
@@ -8501,7 +8550,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "この取引はは返金可能な状態ではありません。 (ステータス: %(status)s、詳細: %(message)s)"
+=======
+msgstr ""
+"この取引はは返金可能な状態ではありません。 (ステータス: %(status)s、詳細: %"
+"(message)s)"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "この取引はは返金可能な状態ではありません。 (ステータス: %(status)s、詳細: %"
@@ -9462,7 +9517,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Authorize.netバックエンドの取引先/トークンの組み合わせに対する一意の参照。"
+=======
+msgstr ""
+"Authorize.netバックエンドの取引先/トークンの組み合わせに対する一意の参照。"
+>>>>>>> upstream/18.0
 =======
 msgstr ""
 "Authorize.netバックエンドの取引先/トークンの組み合わせに対する一意の参照。"
@@ -10198,6 +10258,7 @@ msgstr "プロバイダが無効になっている間は、この操作は実行
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -10537,6 +10598,8 @@ msgstr ""
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 #. odoo-python
 #: code:addons/payment_authorize/controllers/main.py:0
 msgid "Transaction not found."
@@ -10588,6 +10651,9 @@ msgstr "取引が見つかりません。"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

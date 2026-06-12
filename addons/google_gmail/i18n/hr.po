@@ -272,8 +272,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* google_gmail
 # 
+=======
+# * google_gmail
+#
+>>>>>>> upstream/18.0
 =======
 # * google_gmail
 #
@@ -1638,11 +1643,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Servisi RAM d.o.o. <support@servisiram.hr>, 2024
 # Martin Trigaux, 2024
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2024
 # 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2461,6 +2469,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2939,6 +2948,9 @@
 =======
 >>>>>>> upstream/18.0
 =======
+>>>>>>> upstream/18.0
+=======
+# Weblate <noreply-mt-weblate@weblate.org>, 2026.
 >>>>>>> upstream/18.0
 =======
 # Weblate <noreply-mt-weblate@weblate.org>, 2026.
@@ -3040,6 +3052,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4088,6 +4101,11 @@ msgstr ""
 "PO-Revision-Date: 2026-05-09 09:07+0000\n"
 "Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
 >>>>>>> upstream/18.0
+=======
+"POT-Creation-Date: 2025-12-29 18:37+0000\n"
+"PO-Revision-Date: 2026-05-09 09:07+0000\n"
+"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+>>>>>>> upstream/18.0
 "Language-Team: Croatian <https://translate.odoo.com/projects/odoo-18/"
 "google_gmail/hr/>\n"
 "Language: hr\n"
@@ -4096,6 +4114,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4943,6 +4962,9 @@ msgstr ""
 =======
 "X-Generator: Weblate 5.17\n"
 >>>>>>> upstream/18.0
+=======
+"X-Generator: Weblate 5.17\n"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.fetchmail_server_view_form
@@ -4980,7 +5002,11 @@ msgid "<i class=\"fa fa-cog\" title=\"Edit Settings\"/>"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "<i class=\"fa fa-cog\" title=\"Uredi postavke\"/>"
+>>>>>>> upstream/18.0
 =======
 msgstr "<i class=\"fa fa-cog\" title=\"Uredi postavke\"/>"
 >>>>>>> upstream/18.0
@@ -5089,6 +5115,7 @@ msgstr ""
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.fetchmail_server_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5880,6 +5907,10 @@ msgid ""
 "<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" "
 "class=\"badge text-bg-success\">\n"
 >>>>>>> upstream/18.0
+=======
+"<span invisible=\"server_type != 'gmail' or not google_gmail_refresh_token\" "
+"class=\"badge text-bg-success\">\n"
+>>>>>>> upstream/18.0
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
@@ -5887,6 +5918,7 @@ msgstr ""
 #. module: google_gmail
 #: model_terms:ir.ui.view,arch_db:google_gmail.ir_mail_server_view_form
 msgid ""
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6678,6 +6710,10 @@ msgid ""
 "<span invisible=\"smtp_authentication != 'gmail' or not "
 "google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
 >>>>>>> upstream/18.0
+=======
+"<span invisible=\"smtp_authentication != 'gmail' or not "
+"google_gmail_refresh_token\" class=\"badge text-bg-success\">\n"
+>>>>>>> upstream/18.0
 "                        Gmail Token Valid\n"
 "                    </span>"
 msgstr ""
@@ -6687,6 +6723,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:google_gmail.field_google_gmail_mixin__google_gmail_access_token
 #: model:ir.model.fields,field_description:google_gmail.field_ir_mail_server__google_gmail_access_token
 msgid "Access Token"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7776,6 +7813,9 @@ msgstr "Pristupni token"
 =======
 msgstr "Pristupni token"
 >>>>>>> upstream/18.0
+=======
+msgstr "Pristupni token"
+>>>>>>> upstream/18.0
 
 #. module: google_gmail
 #: model:ir.model.fields,field_description:google_gmail.field_fetchmail_server__google_gmail_access_token_expiration
@@ -7976,7 +8016,12 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "You will be redirected to the Gmail login page where you will need to accept the permission."
+=======
+"You will be redirected to the Gmail login page where you will need to accept "
+"the permission."
+>>>>>>> upstream/18.0
 =======
 "You will be redirected to the Gmail login page where you will need to accept "
 "the permission."
@@ -8774,7 +8819,13 @@ msgid ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "By default, only a user with a matching email address will be able to use this server. To extend its use, you should set a \"mail.default.from\" system parameter."
+=======
+"By default, only a user with a matching email address will be able to use "
+"this server. To extend its use, you should set a \"mail.default.from\" "
+"system parameter."
+>>>>>>> upstream/18.0
 =======
 "By default, only a user with a matching email address will be able to use "
 "this server. To extend its use, you should set a \"mail.default.from\" "
@@ -9868,7 +9919,11 @@ msgid "ID of your Google app"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ID vaše Google aplikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "ID vaše Google aplikacije"
 >>>>>>> upstream/18.0
@@ -10961,7 +11016,11 @@ msgid "Incoming Mail Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Poslužitelj dolaznih poruka"
+=======
+msgstr "Poslužitelj dolazne e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslužitelj dolazne e-pošte"
 >>>>>>> upstream/18.0
@@ -12062,7 +12121,11 @@ msgid "Mail Server"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr "Mail Server"
+=======
+msgstr "Poslužitelj e-pošte"
+>>>>>>> upstream/18.0
 =======
 msgstr "Poslužitelj e-pošte"
 >>>>>>> upstream/18.0
@@ -13196,7 +13259,11 @@ msgid "Secret"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tajna"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tajna"
 >>>>>>> upstream/18.0
@@ -14289,7 +14356,11 @@ msgid "Secret of your Google app"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "Tajna vaše Google aplikacije"
+>>>>>>> upstream/18.0
 =======
 msgstr "Tajna vaše Google aplikacije"
 >>>>>>> upstream/18.0

@@ -135,6 +135,10 @@ class TestSEPAQRCode(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'allow_out_payment': True,
+>>>>>>> upstream/18.0
 =======
             'allow_out_payment': True,
 >>>>>>> upstream/18.0
@@ -571,7 +575,11 @@ class TestSEPAQRCode(AccountTestInvoicingCommon):
                 'company_1_data',
                 'BE15001559627230',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'EUR100.0',
+=======
+                'EUR100.00',
+>>>>>>> upstream/18.0
 =======
                 'EUR100.00',
 >>>>>>> upstream/18.0
@@ -601,7 +609,11 @@ class TestSEPAQRCode(AccountTestInvoicingCommon):
                 'company_1_data',
                 'BE15001559627230',
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'EUR100.0',
+=======
+                'EUR100.00',
+>>>>>>> upstream/18.0
 =======
                 'EUR100.00',
 >>>>>>> upstream/18.0

@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from unittest.mock import patch
 
 from odoo.tests import tagged
@@ -1165,6 +1166,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import base64
 from unittest.mock import patch
 
@@ -1179,6 +1182,9 @@ from odoo.addons.account.tests.test_account_move_send import TestAccountMoveSend
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1445,6 +1451,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1925,6 +1934,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
             invoices |= super().init_invoice(
                 "out_invoice",
                 partner=partner,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4022,6 +4032,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
                 amounts=[1000],
                 taxes=taxes or self.default_tax,
 >>>>>>> upstream/18.0
+=======
+                company=company or self.company,
+                amounts=[1000],
+                taxes=taxes or self.default_tax,
+>>>>>>> upstream/18.0
                 post=True)
         return invoices
 
@@ -4270,7 +4285,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4987,6 +5005,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5905,7 +5926,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6873,7 +6897,11 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload', return_value={}, autospec=True) as mock_check:
+=======
+        with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
+>>>>>>> upstream/18.0
 =======
         with patch('odoo.addons.l10n_it_edi.models.account_move.AccountMove._l10n_it_edi_upload_single', return_value={}, autospec=True) as mock_check:
 >>>>>>> upstream/18.0
@@ -7944,6 +7972,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -8166,6 +8195,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -8739,7 +8770,10 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -9033,6 +9067,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9495,6 +9532,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9691,6 +9729,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10126,6 +10166,7 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10388,6 +10429,8 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 =======
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10498,6 +10541,9 @@ class TestItAccountMoveSend(TestItEdi, TestAccountMoveSendCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

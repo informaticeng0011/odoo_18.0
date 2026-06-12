@@ -315,6 +315,12 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    def _rpc_api_keys_only(self):
+        return self._mfa_type() == 'totp_mail' or super()._rpc_api_keys_only()
+
+>>>>>>> upstream/18.0
 =======
     def _rpc_api_keys_only(self):
         return self._mfa_type() == 'totp_mail' or super()._rpc_api_keys_only()
@@ -1703,7 +1709,10 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1723,6 +1732,9 @@ class Users(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

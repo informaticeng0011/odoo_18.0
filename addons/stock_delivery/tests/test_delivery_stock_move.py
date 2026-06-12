@@ -272,8 +272,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1093,6 +1096,9 @@ from odoo.fields import Command
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2164,7 +2170,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3018,6 +3027,7 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3445,6 +3455,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 =======
 >>>>>>> upstream/18.0
 
+=======
+
+    @freeze_time("2024-06-06 11:00")
+>>>>>>> upstream/18.0
 =======
 
     @freeze_time("2024-06-06 11:00")
@@ -3740,7 +3754,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3920,6 +3937,9 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4097,6 +4117,10 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            'pricelist_id': pricelist_in_other_curr.id,
+>>>>>>> upstream/18.0
 =======
             'pricelist_id': pricelist_in_other_curr.id,
 >>>>>>> upstream/18.0
@@ -4369,6 +4393,9 @@ class StockMoveInvoice(AccountTestInvoicingCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

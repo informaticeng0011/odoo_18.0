@@ -42,7 +42,11 @@ export class PaymentScreenStatus extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         return this.env.utils.formatCurrency(this.props.order.get_change());
+=======
+        return this.env.utils.formatCurrency(-this.props.order.get_change());
+>>>>>>> upstream/18.0
 =======
         return this.env.utils.formatCurrency(-this.props.order.get_change());
 >>>>>>> upstream/18.0

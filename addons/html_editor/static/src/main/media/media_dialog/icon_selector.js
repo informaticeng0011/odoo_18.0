@@ -62,6 +62,7 @@ export class IconSelector extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     static mediaExtraClasses = [
         "rounded-circle",
         "rounded",
@@ -71,6 +72,9 @@ export class IconSelector extends Component {
         /^bg-\S+$/,
         /^fa-\S+$/,
     ];
+=======
+    static mediaExtraClasses = [/^text-\S+$/, /^bg-\S+$/, /^fa-\S+$/];
+>>>>>>> upstream/18.0
 =======
     static mediaExtraClasses = [/^text-\S+$/, /^bg-\S+$/, /^fa-\S+$/];
 >>>>>>> upstream/18.0

@@ -74,6 +74,7 @@ import pprint
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 from werkzeug import urls
 
@@ -749,6 +750,8 @@ from odoo import _, api, models
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
 import re
 
 from werkzeug import urls
@@ -825,6 +828,9 @@ from odoo import _, api, models
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -1185,7 +1191,10 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1826,6 +1835,9 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2344,7 +2356,11 @@ class PaymentTransaction(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 'phonenumber': self.partner_phone,
+=======
+                'phonenumber': re.sub(r"[^\d]", "", (self.partner_phone or "").replace("+", "00")),
+>>>>>>> upstream/18.0
 =======
                 'phonenumber': re.sub(r"[^\d]", "", (self.partner_phone or "").replace("+", "00")),
 >>>>>>> upstream/18.0

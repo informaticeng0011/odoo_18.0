@@ -12,8 +12,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 	* event_sms
 #
+=======
+# * event_sms
+#
+# Bone NI <bounkirdni@gmail.com>, 2026.
+>>>>>>> upstream/18.0
 =======
 # * event_sms
 #
@@ -91,6 +97,7 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 "PO-Revision-Date: 2025-12-29 18:37+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -99,6 +106,8 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -142,6 +151,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -181,7 +193,11 @@ msgid "Event Automated Mailing"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການສົ່ງອີເມລເຫດການແບບອັດຕະໂນມັດ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການສົ່ງອີເມລເຫດການແບບອັດຕະໂນມັດ"
 >>>>>>> upstream/18.0
@@ -234,7 +250,11 @@ msgid "Event: Registration"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການ: ການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຫດການ: ການລົງທະບຽນ"
 >>>>>>> upstream/18.0
@@ -287,7 +307,11 @@ msgid "Event: Reminder"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ເຫດການ: ການແຈ້ງເຕືອນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ເຫດການ: ການແຈ້ງເຕືອນ"
 >>>>>>> upstream/18.0
@@ -340,7 +364,11 @@ msgid "Mail Scheduling on Event Category"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ການກຳນົດເວລາສົ່ງອີເມລຕາມໝວດໝູ່ເຫດການ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ການກຳນົດເວລາສົ່ງອີເມລຕາມໝວດໝູ່ເຫດການ"
 >>>>>>> upstream/18.0
@@ -396,7 +424,10 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -439,6 +470,9 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -478,7 +512,11 @@ msgid "Registration Mail Scheduler"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ຕົວຕັ້ງເວລາສົ່ງອີເມລການລົງທະບຽນ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ຕົວຕັ້ງເວລາສົ່ງອີເມລການລົງທະບຽນ"
 >>>>>>> upstream/18.0
@@ -536,7 +574,11 @@ msgid "SMS"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "SMS"
 >>>>>>> upstream/18.0
@@ -589,7 +631,11 @@ msgid "SMS Templates"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມ SMS"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຟອມ SMS"
 >>>>>>> upstream/18.0
@@ -643,7 +689,11 @@ msgid "Send"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ສົ່ງ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ສົ່ງ"
 >>>>>>> upstream/18.0
@@ -697,7 +747,11 @@ msgid "Template"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "ແບບຟອມ"
+>>>>>>> upstream/18.0
 =======
 msgstr "ແບບຟອມ"
 >>>>>>> upstream/18.0
@@ -754,6 +808,12 @@ msgstr ""
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+"{{ object.event_id.organizer_id.name or object.event_id.company_id.name or "
+"user.env.company.name }}: ພວກເຮົາມີຄວາມຍິນດີທີ່ຈະຢືນຢັນການລົງທະບຽນຂອງທ່ານສຳລັບເຫດການ {{ "
+"object.event_id.name }}."
+>>>>>>> upstream/18.0
 =======
 "{{ object.event_id.organizer_id.name or object.event_id.company_id.name or "
 "user.env.company.name }}: ພວກເຮົາມີຄວາມຍິນດີທີ່ຈະຢືນຢັນການລົງທະບຽນຂອງທ່ານສຳລັບເຫດການ {{ "

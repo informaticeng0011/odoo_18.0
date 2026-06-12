@@ -315,6 +315,10 @@ import contextlib
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from email.utils import parsedate_to_datetime
+>>>>>>> upstream/18.0
 =======
 from email.utils import parsedate_to_datetime
 >>>>>>> upstream/18.0
@@ -1616,7 +1620,10 @@ class RequestHandler(werkzeug.serving.WSGIRequestHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2516,6 +2523,9 @@ class RequestHandler(werkzeug.serving.WSGIRequestHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -3440,7 +3450,10 @@ class RequestHandler(werkzeug.serving.WSGIRequestHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -4362,6 +4375,9 @@ class RequestHandler(werkzeug.serving.WSGIRequestHandler):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5617,7 +5633,10 @@ class ThreadedServer(CommonServer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -6316,6 +6335,9 @@ class ThreadedServer(CommonServer):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7443,9 +7465,17 @@ class WorkerCron(Worker):
 
     def start(self):
         os.nice(10)     # mommy always told me to be nice with others...
+<<<<<<< HEAD
         Worker.start(self)
         if self.multi.socket:
             self.multi.socket.close()
+=======
+        super().start()
+        if self.multi.socket:
+            self.multi.socket.close()
+        if registries_size := os.environ.get('ODOO_REGISTRY_LRU_SIZE_CRON'):
+            Registry.registries.count = int(registries_size)
+>>>>>>> upstream/18.0
 
         dbconn = odoo.sql_db.db_connect('postgres')
         self.dbcursor = dbconn.cursor()
@@ -7525,6 +7555,23 @@ def preload_registries(dbnames):
     # TODO: move all config checks to args dont check tools.config here
     dbnames = dbnames or []
     rc = 0
+<<<<<<< HEAD
+=======
+    registries_size = int(os.environ.get('ODOO_REGISTRY_LRU_SIZE') or 0)
+    if not registries_size and os.name == 'posix':
+        # Size the LRU depending of the memory limits
+        # A registry takes 10MB of memory on average, so we reserve
+        # 10Mb (registry) + 5Mb (working memory) per registry
+        avgsz = 15 * 1024 * 1024
+        limit_memory_soft = config['limit_memory_soft'] if config['limit_memory_soft'] > 0 else (2048 * 1024 * 1024)
+        registries_size = (limit_memory_soft // avgsz) or 1
+    elif not registries_size and len(dbnames) > Registry.registries.count:
+        # If we give a list of databases higher and did not specify the size,
+        # use the number of preloaded databases as the limit.
+        registries_size = len(dbnames)
+    if registries_size:
+        Registry.registries.count = registries_size
+>>>>>>> upstream/18.0
     for dbname in dbnames:
         try:
             update_module = config['init'] or config['update']

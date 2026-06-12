@@ -303,7 +303,12 @@ class PurchaseOrderLine(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         for no_variant_attribute_value in self.product_no_variant_attribute_value_ids:
+=======
+        product_lang_no_variant_attribute_value_ids = self.with_context(product.env.context).product_no_variant_attribute_value_ids
+        for no_variant_attribute_value in product_lang_no_variant_attribute_value_ids:
+>>>>>>> upstream/18.0
 =======
         product_lang_no_variant_attribute_value_ids = self.with_context(product.env.context).product_no_variant_attribute_value_ids
         for no_variant_attribute_value in product_lang_no_variant_attribute_value_ids:

@@ -363,7 +363,11 @@ class ImageActions extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.isMobileOS = isMobileOS;
+=======
+        this.isMobileOS = isMobileOS();
+>>>>>>> upstream/18.0
 =======
         this.isMobileOS = isMobileOS();
 >>>>>>> upstream/18.0
@@ -1768,7 +1772,11 @@ export class AttachmentList extends Component {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.isMobileOS = isMobileOS;
+=======
+        this.isMobileOS = isMobileOS();
+>>>>>>> upstream/18.0
 =======
         this.isMobileOS = isMobileOS();
 >>>>>>> upstream/18.0

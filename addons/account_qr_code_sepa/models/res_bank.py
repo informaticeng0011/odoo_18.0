@@ -3,6 +3,10 @@
 from odoo import models, fields, api, _
 from odoo.addons.account.tools import is_valid_structured_reference, sanitize_structured_reference
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from odoo.tools import float_repr
+>>>>>>> upstream/18.0
 =======
 from odoo.tools import float_repr
 >>>>>>> upstream/18.0
@@ -21,6 +25,10 @@ class ResPartnerBank(models.Model):
                 comment = free_communication or ''
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            formatted_amount = float_repr(currency.round(amount), currency.decimal_places)
+>>>>>>> upstream/18.0
 =======
             formatted_amount = float_repr(currency.round(amount), currency.decimal_places)
 >>>>>>> upstream/18.0
@@ -33,7 +41,11 @@ class ResPartnerBank(models.Model):
                 (self.acc_holder_name or self.partner_id.name)[:71],    # Name of the Beneficiary
                 self.sanitized_acc_number,                              # Account Number of the Beneficiary
 <<<<<<< HEAD
+<<<<<<< HEAD
                 currency.name + str(amount),                            # Currency + Amount of the Transfer in EUR
+=======
+                currency.name + formatted_amount,                       # Currency + Amount of the Transfer in EUR
+>>>>>>> upstream/18.0
 =======
                 currency.name + formatted_amount,                       # Currency + Amount of the Transfer in EUR
 >>>>>>> upstream/18.0

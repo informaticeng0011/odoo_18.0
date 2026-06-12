@@ -263,7 +263,11 @@ class TestLeadConvertMass(crm_common.TestLeadConvertMassCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         with self.assertQueryCount(user_sales_manager=1803):  # crm 1503 / com 1790 / ent 1800
+=======
+        with self.assertQueryCount(user_sales_manager=1805):  # crm 1503 / com 1790 / ent 1800
+>>>>>>> upstream/18.0
 =======
         with self.assertQueryCount(user_sales_manager=1805):  # crm 1503 / com 1790 / ent 1800
 >>>>>>> upstream/18.0
@@ -878,7 +882,10 @@ class TestLeadConvertMass(crm_common.TestLeadConvertMassCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -1742,6 +1749,9 @@ class TestLeadConvertMass(crm_common.TestLeadConvertMassCommon):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

@@ -91,6 +91,10 @@ import * as ReceiptScreen from "@point_of_sale/../tests/tours/utils/receipt_scre
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_popup_util";
+>>>>>>> upstream/18.0
 =======
 import * as TextInputPopup from "@point_of_sale/../tests/tours/utils/text_input_popup_util";
 >>>>>>> upstream/18.0
@@ -558,7 +562,10 @@ registry.category("web_tour.tours").add("FloorScreenTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -811,6 +818,9 @@ registry.category("web_tour.tours").add("FloorScreenTour", {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

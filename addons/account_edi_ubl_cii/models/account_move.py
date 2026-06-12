@@ -329,6 +329,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -1944,6 +1945,8 @@ from odoo.exceptions import UserError
 from odoo.tools import frozendict
 >>>>>>> upstream/18.0
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -2123,6 +2126,9 @@ from odoo.tools import frozendict
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -2245,6 +2251,7 @@ class AccountMove(models.Model):
         comodel_name='ir.attachment',
         string="Attachment",
         compute=lambda self: self._compute_linked_attachment_id('ubl_cii_xml_id', 'ubl_cii_xml_file'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3334,6 +3341,9 @@ class AccountMove(models.Model):
 =======
         depends=['ubl_cii_xml_file']
 >>>>>>> upstream/18.0
+=======
+        depends=['ubl_cii_xml_file']
+>>>>>>> upstream/18.0
     )
     ubl_cii_xml_file = fields.Binary(
         attachment=True,
@@ -3490,7 +3500,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -3799,6 +3812,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         # Check if lines look like they're grouped
         lines_grouped = any(
             re.match(re.escape(self.partner_id.name or self.env._("Unknown partner")) + r' - \d+ - .*', line.name)
@@ -3806,6 +3820,9 @@ class AccountMove(models.Model):
         )
 
         if lines_grouped:
+=======
+        if self._has_lines_grouped():
+>>>>>>> upstream/18.0
 =======
         if self._has_lines_grouped():
 >>>>>>> upstream/18.0
@@ -4186,6 +4203,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         error_message = self.env._("Cannot find the origin file, try by importing it again")
         attachments = self.env['ir.attachment'].search([
             ('res_model', '=', 'account.move'),
@@ -4393,12 +4411,15 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.ensure_one()
         error_message = self.env._("Cannot find the origin file, try by importing it again")
         if not self.ubl_cii_xml_id:
             raise UserError(error_message)
 
         file_data = self.ubl_cii_xml_id._unwrap_edi_attachments()[0]
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4682,6 +4703,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         decoder = self._get_edi_decoder(file_data)
         if decoder is None:
             raise UserError(self.env._("Cannot decode origin file, try by importing it again"))
@@ -4745,6 +4768,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -4864,6 +4890,7 @@ class AccountMove(models.Model):
         """
         Group lines by tax, based on the invoice lines
         """
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5203,6 +5230,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.ensure_one()
         if not self.is_invoice(include_receipts=True):
             raise UserError(self.env._("You can only group lines of an invoice"))
@@ -5279,6 +5308,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5454,7 +5486,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -5646,6 +5681,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -5858,6 +5896,10 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        self.ensure_one()
+>>>>>>> upstream/18.0
 =======
         self.ensure_one()
 >>>>>>> upstream/18.0
@@ -6265,6 +6307,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if not self.is_purchase_document(include_receipts=True):
             raise UserError(self.env._("You can only (un)group lines of a incoming invoice (vendor bill)"))
         if self.state != 'draft':
@@ -6489,6 +6532,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         self.ensure_one()
         if self.state != 'draft':
             raise UserError(self.env._("You can only (un)group lines of a draft invoice"))
@@ -6499,6 +6544,7 @@ class AccountMove(models.Model):
         :return: True if lines look like they're grouped, False otherwise
         """
         self.ensure_one()
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6865,6 +6911,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
         partner_name = re.escape(self.partner_id.name or self.env._("Unknown partner")) + r' - \d+ - .*'
         return any(
             re.match(partner_name, line.name)
@@ -6925,6 +6973,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7106,8 +7157,12 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.env.context.get('ungroup_lines')
             or not invoice.partner_id
+=======
+            not invoice.partner_id
+>>>>>>> upstream/18.0
 =======
             not invoice.partner_id
 >>>>>>> upstream/18.0
@@ -7390,6 +7445,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -7619,6 +7677,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ubl_version is not None:
             if ubl_version.text == '2.0':
                 return self.env['account.edi.xml.ubl_20']
@@ -7733,6 +7792,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
         if customization_id is not None:
+=======
+        if customization_id is not None and customization_id.text:
+>>>>>>> upstream/18.0
 =======
         if customization_id is not None and customization_id.text:
 >>>>>>> upstream/18.0
@@ -8201,6 +8263,7 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if 'urn:cen.eu:en16931:2017' in customization_id.text:
                 return self.env['account.edi.xml.ubl_bis3']
 
@@ -9164,6 +9227,8 @@ class AccountMove(models.Model):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             if customization_id.text == 'urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0':
                 return self.env['account.edi.xml.ubl_bis3']
         if ubl_version is not None:
@@ -9208,6 +9273,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -9642,6 +9710,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
@@ -10459,10 +10530,13 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             and self.is_sale_document() \
             and ubl_cii_format in self.env['res.partner']._get_ubl_cii_formats()
 
 =======
+=======
+>>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
 =======
@@ -10908,6 +10982,9 @@ class AccountMove(models.Model):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0

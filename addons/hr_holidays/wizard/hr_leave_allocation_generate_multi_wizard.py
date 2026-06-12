@@ -68,6 +68,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+from datetime import date
+
+>>>>>>> upstream/18.0
 =======
 from datetime import date
 
@@ -502,6 +507,7 @@ class HrLeaveAllocationGenerateMultiWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> upstream/18.0
@@ -803,6 +809,8 @@ class HrLeaveAllocationGenerateMultiWizard(models.TransientModel):
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
+=======
+>>>>>>> upstream/18.0
             accrual_allocations = allocations.filtered(lambda a: a.allocation_type == 'accrual')
             if not self.duration:
                 for date_to, allocation in accrual_allocations.grouped('date_to').items():
@@ -822,6 +830,9 @@ class HrLeaveAllocationGenerateMultiWizard(models.TransientModel):
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> upstream/18.0
+=======
 >>>>>>> upstream/18.0
 =======
 >>>>>>> upstream/18.0
